@@ -2,10 +2,10 @@
 title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
-exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Die Summe von [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]und [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Der Prozentsatz der Ansichten, die die Anzeige in ihrer Gesamtheit angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Die Anzahl der Ansichten, die die Anzeige in ihrer Gesamtheit angesehen haben. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Der Prozentsatz der sichtbaren Impressionen, die die Anzeige in ihrer Gesamtheit angesehen haben. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | 100 % sichtbarer Abschluss (%)] | Der Prozentsatz der sichtbaren Impressionen[!UICONTROL, die die Anzeige vollständig angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | Der Prozentsatz der Ansichten, die mindestens ein Viertel der Anzeige angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | Die Anzahl der Ansichten, die mindestens ein Viertel der Anzeige angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | Der Prozentsatz der Ansichten, die mindestens zwei Quartile der Anzeige gesehen haben. |

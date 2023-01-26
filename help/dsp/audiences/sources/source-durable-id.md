@@ -2,8 +2,8 @@
 title: Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren
 description: Erfahren Sie mehr über die Aktivierung authentifizierter Zielgruppen mithilfe einer dauerhaften ID-Lösung.
 feature: DSP Audiences
-exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -59,6 +59,6 @@ Weitere Informationen zur DSP Integration mit [!DNL LiveRamp], Kontakt `adcloud-
 >* [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](source-about.md)
 >* [Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen](source-create.md)
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
 

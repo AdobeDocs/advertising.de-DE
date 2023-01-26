@@ -2,8 +2,8 @@
 title: Warum können Kanaldaten zwischen Adobe Advertising und [!DNL Marketing Channels]
 description: Erfahren Sie, warum sich die von der AMO-ID verfolgten Kanaldaten von den von [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,5 +34,5 @@ Weitere Informationen zu möglichen Datenabweichungen zwischen Adobe Advertising
 >* [Grundlagen [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Erstellen von Adobe Advertising-IDs mit [!DNL Marketing Channels] Verarbeitungsregeln](mc-ids.md)
 >* [Verwenden [!DNL Analytics Marketing Channels] mit Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden [!DNL Marketing Channels] für Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Verwenden [!DNL Marketing Channels] für Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 

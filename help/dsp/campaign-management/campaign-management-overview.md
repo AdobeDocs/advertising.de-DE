@@ -2,8 +2,8 @@
 title: Überblick über Campaign Management in Advertising DSP
 description: Erfahren Sie mehr über die Kampagnenverwaltungshierarchie und -komponenten.
 feature: DSP Packages, DSP Placements, DSP Ads
-exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -57,5 +57,5 @@ Alle aktiven, genehmigten Anzeigen in einer aktiven Platzierung in einer aktiven
 >* [Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Über Datenansichten in Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [Video: DSP Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [Video: DSP Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

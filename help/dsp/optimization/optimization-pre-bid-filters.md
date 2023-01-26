@@ -2,8 +2,8 @@
 title: Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung
 description: Verweisen Sie auf die verfügbaren Filter auf Platzierungsebene vor dem Angebot und sehen Sie, wie sie verwendet werden.
 feature: DSP Optimization
-exl-id: c699e970-84ca-429b-8062-81804e6c9f21
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

@@ -7,9 +7,10 @@ product: advertising cloud
 user-guide-title: Advertising DSP-Handbuch
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '881'
 ht-degree: 5%
 
 ---
@@ -34,15 +35,8 @@ ht-degree: 5%
       + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
    + [Unterstützte Währungen](/help/dsp/currency.md)
-   + Unterstützung für den Kundendatenschutz {#privacy}
-      + [Unterstützung der Datenschutz-Grundverordnung](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
-      + Unterstützung für CCPA {#ccpa}
-         + [Unterstützung des California Consumer Privacy Act: Zugriff auf Verbraucherdaten und Löschen](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [Unterstützung des California Consumer Privacy Act: Opt-out aus dem Verkauf für Verbraucher](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
-   + Grundsätze und Richtlinien {#policies}
-      + [Richtlinie zu Anzeigenanforderungen](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [Richtlinien für zulässige Gesundheitssegmente](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] Richtlinien zur Datennutzung](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+   + [Unterstützung für den Kundendatenschutz](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Grundsätze und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Übersicht über die Campaign Management-Struktur](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -85,7 +79,7 @@ ht-degree: 5%
       + [Erstellen von Anzeigen mit [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Eine Anzeige duplizieren](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Eine Anzeige an eine Platzierung anhängen](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Eine Anzeige an eine Platzierung anhängen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Platzierungen auflisten, die einer Anzeige zugeordnet sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Detaillierte Berichte für eine Anzeige anzeigen](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Archivieren oder Archivieren einer Anzeige aufheben](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
@@ -230,6 +224,6 @@ ht-degree: 5%
    + Benachrichtigungen {#notifications}
       + [Über Abonnements für Warnhinweise](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnungsanmeldungen](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ [Integrationen mit Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Support](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 + [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
