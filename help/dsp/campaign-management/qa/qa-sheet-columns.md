@@ -3,7 +3,7 @@ title: Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern
 description: Referenzieren Sie die Spalten in heruntergeladenen und hochgeladenen Excel QA-Tabellen.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | Das Höchstangebot für die Platzierung. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | Die Flugplatzierungsstrategie für die Platzierung: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]* oder *[!UICONTROL aggressive frontload]*. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | Die Intraday-Geschwindigkeit für die Platzierung: *[!UICONTROL Even]* oder *[!UICONTROL ASAP]*. | Ja |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | Alle anzuwendenden Filterkriterien vor dem Angebot. | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Alle anzuwendenden Filterkriterien vor dem Angebot. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Ob Angebotsregeln (nicht mehr unterstützt) *[!UICONTROL ON]* oder *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | Die primäre Frequenzbegrenzung für die Platzierung während der angegebenen [!UICONTROL Frequency Cap Interval]. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Das Intervall für die primäre Häufigkeitsbegrenzung: *[!UICONTROL Day]*, *[!UICONTROL Week]* oder *[!UICONTROL Month]*. | Ja |

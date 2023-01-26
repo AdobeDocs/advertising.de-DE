@@ -3,7 +3,7 @@ title: Nutzungsszenarios
 description: Erfahren Sie mehr über Anwendungsfälle für die Freigabe Ihrer Advertising DSP Mediendaten für Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,17 +34,23 @@ Gehen Sie wie folgt vor, um dieses Beispiel in Audience Manager auszuführen:<!-
 
    Um beispielsweise die Eigenschaft zu benennen `Creative Trait 123`verwenden Sie die folgende Eigenschaftsregel:
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die klicken oder konvertieren.
 
    Um diese Eigenschaft beispielsweise zu benennen `Click and Converter`verwenden Sie die folgende Eigenschaftsregel:
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. Erstellen Sie ein Segment mit dem Namen `Retarget Users` , um mit Benutzern zu füllen, die kreative Inhalte gesehen haben `123` aber nicht geklickt oder konvertiert haben. Verwenden Sie die folgende Eigenschaftsregel:
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. Segment zuordnen `Retarget Users` zu einem Ziel zu gelangen und Benutzer mit kreativen Elementen im Ziel anzusprechen `456`.
 

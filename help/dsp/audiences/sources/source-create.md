@@ -3,7 +3,7 @@ title: Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgrup
 description: Erfahren Sie, wie Sie eine Quelle erstellen, um Zielgruppen in Ihr Konto oder ein Advertiser-Konto zu importieren.
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Erstellen Sie eine Quelle, um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu i
 
 1. Erstellen Sie in Experience Platform mithilfe der Funktion [!UICONTROL Source Key] , die in den DSP-Quelleinstellungen generiert wurde.
 
-Anweisungen zum Aktivieren der DSP-Zielverbindung, Auswählen von Segmenten und Zugreifen auf Kontrollberechtigungen finden Sie unter[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   Anweisungen zum Aktivieren der DSP-Zielverbindung, Auswählen von Segmenten und Zugreifen auf Kontrollberechtigungen finden Sie unter[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

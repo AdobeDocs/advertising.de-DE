@@ -3,7 +3,7 @@ title: Eine Anzeige an eine Platzierung anhängen
 description: Erfahren Sie, wie Sie eine Anzeige an eine Platzierung anhängen.
 feature: DSP Ads
 exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Klicken **[!UICONTROL Select an Ad].**
 
       1. Geben Sie die Anzeigen an:
+
          * So fügen Sie jeweils eine Anzeige hinzu:
 
             1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**

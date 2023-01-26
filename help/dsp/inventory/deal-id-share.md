@@ -3,7 +3,7 @@ title: Bearbeiten von Konten mit Zugriff auf ein privates Geschäft
 description: Erfahren Sie, wie Sie ein privates Geschäft mit verschiedenen Konten teilen und aufheben können.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Sie können die Freigabe eines Deals für Konten stoppen, um Bearbeitungs- und T
 
 1. Für jedes Konto, das freigegeben werden soll:
 
-1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf das Geschäft.
+   1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf das Geschäft.
 
-1. Klicken **[!UICONTROL Share]**.
+   1. Klicken **[!UICONTROL Share]**.
 
 ## Freigabe einer Angebots-ID für Konten beenden
 

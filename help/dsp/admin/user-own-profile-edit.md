@@ -2,7 +2,7 @@
 title: Bearbeiten Ihres Benutzerprofils
 description: Erfahren Sie, wie Sie Ihr Benutzerprofil bearbeiten.
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ Ihr Kontoprofil enthält Ihre Anmeldedaten und andere Informationen. Einige Benu
       1. Neben dem vorhandenen **[!UICONTROL Email address]** klicken **[!UICONTROL Edit]**.
 
       1. Geben Sie die neue E-Mail-Adresse und das vorhandene Kennwort für das Benutzerkonto ein.
+
       1. Klicken **[!UICONTROL Continue]**.
    * So bearbeiten Sie das Kennwort für das Benutzerkonto:
 

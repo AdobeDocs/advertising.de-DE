@@ -3,7 +3,7 @@ title: Voraussetzungen und Schlüsselinformationen für die Implementierung [!DN
 description: Voraussetzungen und Schlüsselinformationen für die Implementierung [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Ana
 ## Voraussetzungen für die Freigabe von Analytics-Segmenten für Adobe Advertising
 
 * Experience Cloud Identity-Dienst: `visitorAPI.js` Version 2.1 oder höher
-* Adobe Analytics: `!DNL appMeasurement.js` Version 1.8 oder höher
+* Adobe Analytics: `appMeasurement.js` Version 1.8 oder höher
 
 ## Berichterstattungsanforderungen [!DNL Analytics] Daten in Adobe Advertising
 
