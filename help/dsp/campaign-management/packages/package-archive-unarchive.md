@@ -2,8 +2,8 @@
 title: Archivieren oder Archivieren eines Pakets aufheben
 description: Erfahren Sie, wie Sie ein Paket archivieren oder dessen Archivierung aufheben.
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können die Archivierung eines Pakets aufheben, um seinen vorherigen Status 
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] anzeigen.
-1. Klicken Sie neben dem Paketnamen auf  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Klicken Sie neben dem Paketnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Sie können die Archivierung eines Pakets aufheben, um seinen vorherigen Status 
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] anzeigen.
-1. Klicken Sie neben dem Paketnamen auf  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Klicken Sie neben dem Paketnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

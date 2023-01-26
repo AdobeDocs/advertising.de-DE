@@ -2,8 +2,8 @@
 title: Freigeben oder Beenden der Freigabe eines Segments
 description: Erfahren Sie, wie Sie die Freigabe eines benutzerspezifischen oder CCPA-Opt-out-Kaufsegments für andere DSP-Benutzerkonten aufheben oder beenden.
 feature: DSP Segments
-exl-id: 3a284c81-73ee-4efd-9532-5ae00a000dd9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können Ihre benutzerdefinierten Segmente und CCPA-Opt-out-Kaufsegmente für
 
 Sie können auch die Freigabe eines Segments für andere DSP Benutzerkonten stoppen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Halten Sie den Cursor über die Segmentzeile und klicken Sie auf **[!UICONTROL Share]**.
 

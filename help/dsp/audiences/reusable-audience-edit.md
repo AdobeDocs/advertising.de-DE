@@ -2,8 +2,8 @@
 title: Eine wiederverwendbare Zielgruppe bearbeiten
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe bearbeiten.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederverwendbaren Zielgruppen verwendet wird, werden die Änderungen sofort auf diese Platzierungen und Zielgruppen angewendet.<!-- verify -->
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederver
 
       1. Kopieren Sie die Segmentlogik aus der vorhandenen Zielgruppe auf eine der folgenden Arten:
 
-         * Halten Sie in der Ansicht &quot;Alle Zielgruppen&quot;den Cursor über die Zeile &quot;Zielgruppe&quot;und klicken Sie auf **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Halten Sie in der Ansicht &quot;Alle Zielgruppen&quot;den Cursor über die Zeile &quot;Zielgruppe&quot;und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld für die Segmentlogik auf **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld für die Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * Erstellen Sie in einem Texteditor manuell die Segmentlogik mithilfe von alphanumerischen Segment-IDs und [Boolesche Syntax](audience-segment-logic-syntax.md)und kopieren Sie sie in die Zwischenablage.
       1. Klicken **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.

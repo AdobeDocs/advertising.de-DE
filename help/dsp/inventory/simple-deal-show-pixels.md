@@ -2,8 +2,7 @@
 title: Anzeigen von Ereignispixel für eine [!UICONTROL Simple Ad Serving] Deal
 description: Erfahren Sie, wie Sie eine Kopie der Ereignis-Tracking-Pixel für eine [!UICONTROL Simple Ad Serving] handeln.
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -16,7 +15,7 @@ Sie können eine Kopie der Ereignisverfolgungspixel für eine [!UICONTROL Simple
 
 Die Ereignispixel enthalten eine [!UICONTROL Clickthrough] Pixel und [!UICONTROL Impression] Pixel. Video- und Audioanzeigen enthalten auch Ereignis-Pixel nach Quartil (aus [!UICONTROL 25% Complete] nach [!UICONTROL 100% Complete]).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. Klicken Sie in der Zeile &quot;Deal&quot;auf ![Optionen, Menü](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 

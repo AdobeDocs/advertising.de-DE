@@ -1,8 +1,8 @@
 ---
 title: Bearbeiten Ihres Benutzerprofils
 description: Erfahren Sie, wie Sie Ihr Benutzerprofil bearbeiten.
-exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Ihr Kontoprofil enthält Ihre Anmeldedaten und andere Informationen. Einige Benutzerrollen können auch Informationen zum Konto Ihres Unternehmens anzeigen und zusätzliche Personen einladen, Benutzerkonten im Unternehmenskonto zu erstellen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]> [!UICONTROL Account].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
 1. Bearbeiten Sie Ihre Profileinstellungen:
 
@@ -22,7 +22,6 @@ Ihr Kontoprofil enthält Ihre Anmeldedaten und andere Informationen. Einige Benu
       1. Neben dem vorhandenen **[!UICONTROL Email address]** klicken **[!UICONTROL Edit]**.
 
       1. Geben Sie die neue E-Mail-Adresse und das vorhandene Kennwort für das Benutzerkonto ein.
-
       1. Klicken **[!UICONTROL Continue]**.
    * So bearbeiten Sie das Kennwort für das Benutzerkonto:
 

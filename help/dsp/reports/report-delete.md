@@ -2,8 +2,8 @@
 title: Benutzerspezifischen Bericht löschen
 description: Erfahren Sie, wie Sie einen benutzerspezifischen Bericht löschen.
 feature: DSP Custom Reports
-exl-id: 39418a0e-17d8-4413-9f00-b0f210adb72b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Benutzerspezifischen Bericht löschen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]**.
-1. Im [!UICONTROL Options] Spalte für die Berichtszeile, klicken Sie auf **[!UICONTROL options]>[!UICONTROL Delete]**.
+1. Im [!UICONTROL Options] Spalte für die Berichtszeile, klicken Sie auf **[!UICONTROL options]** > **[!UICONTROL Delete]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]

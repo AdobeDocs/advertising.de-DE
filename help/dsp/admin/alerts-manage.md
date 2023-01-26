@@ -1,8 +1,8 @@
 ---
 title: Verwalten von Warnungsanmeldungen
 description: Erfahren Sie, wie Sie automatische E-Mail-Warnungen verwalten.
-exl-id: 415c3c60-66dc-436f-b731-78970e0df77c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Abonnement hinzufügen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]>[!UICONTROL Notifications]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
 
 1. Klicken Sie oben in der Liste &quot;Benachrichtigungen&quot;auf **[!UICONTROL Add Subscription]**.
 

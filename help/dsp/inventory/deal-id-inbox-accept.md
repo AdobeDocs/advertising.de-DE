@@ -2,8 +2,8 @@
 title: Akzeptieren eines Angebots im [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie, wie Sie ein privates Geschäft akzeptieren, das Sie bereits mit einem Herausgeber ausgehandelt haben in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]) über den Posteingang der Angebots-ID.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox] um schnell ein privates Geschäft z
 >
 >Einrichten programmgesteuerter garantierter Angebote für Herausgeber in [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Siehe[Übersicht über die Einrichtung programmgesteuerter Garantiegeschäfte in FreeWheel](freewheel-overview.md)&quot;.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Über der Liste von [!UICONTROL Deals]Klicken Sie auf den blauen Balken, um den [!UICONTROL Deal ID inbox].
 

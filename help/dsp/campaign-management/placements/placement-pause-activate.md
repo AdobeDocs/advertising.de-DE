@@ -2,8 +2,8 @@
 title: Anhalten oder Aktivieren einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung anhalten oder aktivieren.
 feature: DSP Placements
-exl-id: 9b7f1a2b-0ced-4e09-870b-172897e49b27
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -19,14 +19,14 @@ Halten Sie eine Live-Platzierung an oder aktivieren Sie eine angehaltene Platzie
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Pause]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Eine angehaltene Platzierung aktivieren
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Activate]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >

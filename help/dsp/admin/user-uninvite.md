@@ -1,8 +1,8 @@
 ---
 title: Aufheben der Einladung eines ausstehenden Benutzers
 description: Erfahren Sie, wie Sie eine ausstehende Benutzereinladung zurücksetzen.
-exl-id: a67290f7-27ae-4891-a1d4-8283e8426f72
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Sie können die Einladung eines Benutzers mit ausstehender Einladung aufheben. D
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]>[!UICONTROL Account]** und klicken Sie anschließend auf **[!UICONTROL Edit users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und klicken Sie anschließend auf **[!UICONTROL Edit users]**.
 
 1. Im **[!UICONTROL Invitations]** Abschnitt, klicken Sie auf **[!UICONTROL X]** neben der Einladung.
 

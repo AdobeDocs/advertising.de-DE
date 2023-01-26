@@ -2,8 +2,8 @@
 title: Anzeigen eines Platzierungsänderungsprotokolls
 description: Erfahren Sie, wie Sie an der Platzierung vorgenommene Änderungen anzeigen können.
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Sie können die Daten nach der Spalte Typ, Geändert von oder Datum geändert so
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

@@ -2,8 +2,8 @@
 title: Abruf von Kundenabmeldeberichten
 description: Erfahren Sie, wie Sie Berichte zu IDs abrufen, die für Opt-out-Kaufanfragen gesendet wurden.
 feature: CCPA, DSP Segments
-exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Sie können monatliche Berichte zu IDs abrufen, die Kunden für Opt-out-Kaufanfr
 >
 >Sie können optional Verbraucherabmeldeberichte mit dem DSP abrufen. [!DNL Trafficking API]. Anweisungen finden Sie in der Dokumentation für [!DNL Trafficking API]. Wenn Ihr Unternehmen die [!DNL Trafficking API] aber an weiteren Informationen interessiert ist, kontaktieren Sie bitte Ihre [!DNL Adobe] Account-Team.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. Klicken Sie über der Segmentliste auf **[!UICONTROL Access CCPA Reports]**.
 1. Klicken Sie auf den Link für jeden verfügbaren monatlichen Bericht, um eine GZIP-Datei herunterzuladen, die Sie in eine tabulatorgetrennte Textdatei extrahieren können.
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support für den California Consumer Privacy Act: Opt-out-Support für Verbraucher](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Adobe Advertising Support für den California Consumer Privacy Act: Opt-out-Support für Verbraucher](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Info [!UICONTROL CCPA Opt-out-of-Sale] Segmente und Berichte](ccpa-opt-out-about.md)
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Über Zielgruppen-Management](audience-about.md)

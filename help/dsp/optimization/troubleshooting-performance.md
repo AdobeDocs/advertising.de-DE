@@ -2,8 +2,8 @@
 title: Fehlerbehebung bei der Leistung
 description: Referenzieren Sie allgemeine Leistungsprobleme und finden Sie Informationen zur Fehlerbehebung.
 feature: DSP Optimization
-exl-id: adb32257-dede-4623-9840-33221c218443
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 | Problem | Mögliche Ursache | Maßnahmen |
 | --- | --- | --- |
-| Keine Ausgaben für Platzierung | Die Platzierung umfasst keine Anzeigen und/oder die Anzeigen sind nicht aktiv. | Stellen Sie sicher, dass alle erwarteten Anzeigen an die Platzierung angehängt und genehmigt und aktiv sind.<br><br>Überprüfen Sie außerdem, ob die Platzierung einen benutzerdefinierten Anzeigenzeitplan enthält, der die Flugzeit für jede Anzeige einschränken kann. Um den Anzeigenzeitplan für eine Platzierung in der Platzierungsansicht anzuzeigen, klicken Sie auf  **[!UICONTROL ...]>[!UICONTROL Ad schedule]** neben dem Platzierungsnamen. |
+| Keine Ausgaben für Platzierung | Die Platzierung umfasst keine Anzeigen und/oder die Anzeigen sind nicht aktiv. | Stellen Sie sicher, dass alle erwarteten Anzeigen an die Platzierung angehängt und genehmigt und aktiv sind.<br><br>Überprüfen Sie außerdem, ob die Platzierung einen benutzerdefinierten Anzeigenzeitplan enthält, der die Flugzeit für jede Anzeige einschränken kann. Um den Anzeigenzeitplan für eine Platzierung in der Platzierungsansicht anzuzeigen, klicken Sie auf  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** neben dem Platzierungsnamen. |
 |  | Die betroffenen Daten liegen nicht innerhalb der konfigurierten Flugdaten. | Vergewissern Sie sich, dass die Flugdaten auf der Kampagnen-, Paket- und Platzierungsebene der &#x200B; gültig sind. |
 |  | Das Budgetziel wurde erreicht und/oder ist nicht hoch genug. | Prüfen Sie die Budgeteinstellungen auf Kampagnen-, Paket- und Platzierungsebene. |
-|  | Das Konto hat nicht genug Geld. | Um zu sehen, ob Ihr Konto ausreichend finanziert ist, gehen Sie zu **[!UICONTROL Settings]>[!UICONTROL Account]** und sehen Sie sich die Menge an [!UICONTROL Usable Funds]. Wenn Sie weitere Mittel benötigen, wenden Sie sich an Ihren [!DNL Adobe] Account-Team. |
+|  | Das Konto hat nicht genug Geld. | Um zu sehen, ob Ihr Konto ausreichend finanziert ist, gehen Sie zu **[!UICONTROL Settings]** > **[!UICONTROL Account]** und sehen Sie sich die Menge an [!UICONTROL Usable Funds]. Wenn Sie weitere Mittel benötigen, wenden Sie sich an Ihren [!DNL Adobe] Account-Team. |
 |  | Es ist kein Inventar verfügbar. | Überprüfen Sie, ob die angegebenen Inventarquellen ([!UICONTROL Public], [!UICONTROL Private]oder [!UICONTROL On Demand]) sind:<ul><li>Richtig einrichten.</li><li>Aktiv und Versand durch Auktionen.</li><li>Kompatibel mit dem entsprechenden Anzeigen- und Platzierungstyp.</li></ul><br>Wenn alle Inventarquellen gültig und aktiv sind, sollten Sie nach Möglichkeit zusätzliche oder alle Inventarquellen ansprechen. |
 |  | Es sind keine Benutzer verfügbar. | Vergewissern Sie sich, dass die angegebenen Zielgruppen genügend aktive Benutzer enthalten. Wenn nicht, erweitern Sie die Ziele, indem Sie weitere Zielgruppen hinzufügen. |
 | Geringe Ausgaben für Platzierung | Die [!UICONTROL Non Bids] im Abschnitt zur Platzierungsdiagnose werden mögliche Gründe angezeigt, aus denen die Platzierung kein Angebot abgegeben hat. | [Überprüfen Sie die [!UICONTROL Non Bids] Bericht](/help/dsp/campaign-management/reports/placement-diagnostics.md) , um zu verstehen, warum die Platzierung nicht geboten hat.  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

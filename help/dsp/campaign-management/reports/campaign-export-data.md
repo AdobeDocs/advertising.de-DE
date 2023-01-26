@@ -2,8 +2,8 @@
 title: Daten aus einer Campaign Management-Ansicht exportieren
 description: Erfahren Sie, wie Sie die Daten aus einer beliebigen Kampagnenverwaltungsansicht in eine Tabellendatei exportieren.
 feature: DSP Campaign Data Views
-exl-id: 393b0726-d26c-4d0b-8926-98fc27259286
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Sie können eine Momentaufnahme der aktuellen gefilterten Kampagnenverwaltungsan
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]** und öffnen Sie die Ansicht, die Sie exportieren möchten.
 
-1. Klicken Sie in der oberen rechten Symbolleiste auf  **[!UICONTROL ...]>[!UICONTROL Export]**.
+1. Klicken Sie in der oberen rechten Symbolleiste auf  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    Die Datei wird im standardmäßigen Ordner Downloads Ihres Browsers gespeichert.
 

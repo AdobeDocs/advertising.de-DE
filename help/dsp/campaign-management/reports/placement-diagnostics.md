@@ -2,8 +2,8 @@
 title: Anzeigen der platzierungsdiagnostischen Berichte
 description: Erfahren Sie, wie Sie Probleme bei der Platzierungs- und Platzierungseinrichtung diagnostizieren können.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mit den folgenden Tools können Sie Probleme bei der Platzierungseinrichtung und
    1. Öffnen Sie die Platzierungseinstellungen:
       1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
       1. Klicken Sie auf den Namen der Kampagne und anschließend auf **[!UICONTROL Placements]**.
-      1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. Klicken Sie oben rechts auf ![Placement-Diagnose](/help/dsp/assets/placement-diagnostics.png) oder **[!UICONTROL Diagnostic]**.
 1. Führen Sie einen der folgenden Schritte aus:
    * So zeigen Sie das Änderungsprotokoll an:

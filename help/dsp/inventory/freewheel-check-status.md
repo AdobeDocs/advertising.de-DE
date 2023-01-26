@@ -2,8 +2,8 @@
 title: Überprüfen des Status von Anzeigen auf [!DNL [!DNL FreeWheel]] PG-Deal
 description: Erfahren Sie, wie Sie den Status von Anzeigen für [!DNL Freewheel] programmgesteuerte garantierte Angebote.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Einreichung 
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
 
-1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Optional) Um eine Anzeige erneut zur Genehmigung einzureichen, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Optional) Um eine Anzeige erneut zur Genehmigung einzureichen, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Überprüfen Sie den Status über die [!UICONTROL Deals] Ansicht
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -44,7 +44,7 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Einreichung 
 
    Bei fehlgeschlagenen Übermittlungen wird die [!UICONTROL API] Die Spalte Antwort gibt den Fehler an. Eine vollständige Liste der Fehlercodes für fehlgeschlagene Übermittlungen und die nächsten Schritte zur Korrektur finden Sie unter &quot;[Fehlercodes für [!DNL FreeWheel] Anzeigenübermittlungen](freewheel-error-codes.md).&quot;
 
-1. (Optional) Um eine Anzeige erneut zur Genehmigung einzureichen, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Optional) Um eine Anzeige erneut zur Genehmigung einzureichen, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

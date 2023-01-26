@@ -2,8 +2,8 @@
 title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Bearbeiten Sie die [Platzierungseinstellungen](placement-settings.md).
 
@@ -88,5 +88,5 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >* [Platzierungseinstellungen](placement-settings.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Informationen zum Korrigieren der Platzierungseinstellungen für eine Kampagne mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
->* [Video: Bearbeiten von Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Bearbeiten von Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

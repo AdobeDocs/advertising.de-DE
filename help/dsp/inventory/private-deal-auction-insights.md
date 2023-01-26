@@ -2,8 +2,8 @@
 title: Anzeigen von Auktionseinblicken für ein privates Geschäft
 description: Erfahren Sie, wie Sie mithilfe von Einblicken aus Auktionen die Zusammensetzung des Deals des privaten Deals analysieren können.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Auction Insights ist ein Tool zur Fehlerbehebung, mit dem Sie die Zusammensetzung der Geschäfte sowohl garantierter als auch nicht garantierter privater Geschäfte analysieren können. Mithilfe von Datenvisualisierungen zeigt dieses Tool den Trend und die relativen Anteile der Werte an, die für [Schlüsselauktionsattribute](#auction-attributes) innerhalb eines bestimmten Zeitraums.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Auktionseinblicke sind auch über die Platzierung verfügbar [!UICONTROL Inspector] -Tool. Um sie zu öffnen, [Platzierung öffnen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) der [!UICONTROL Inventory tab]und klicken Sie anschließend auf **[!UICONTROL ...]>[!UICONTROL Auction Insights]** in der Deal-Zeile.
+>Auktionseinblicke sind auch über die Platzierung verfügbar [!UICONTROL Inspector] -Tool. Um sie zu öffnen, [Platzierung öffnen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) der [!UICONTROL Inventory tab]und klicken Sie anschließend auf **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** in der Deal-Zeile.
 
 ## Auktionsattribute {#auction-attributes}
 

@@ -1,7 +1,7 @@
 ---
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser Name]:** Der Name des Advertisers.
 
-**[!UICONTROL Category]:** Die Kategorie, in der das Unternehmen des Werbetreibenden tätig ist. Die Kategorie wird den Herausgebern mitgeteilt, wenn Sie ein Angebot für den Bestand abgeben. Stellen Sie sicher, dass Sie eine Kategorie auswählen, die Ihren Anzeigen entspricht, oder Herausgeber können Ihre Anzeigen ablehnen.
+**[!UICONTROL Category]:** Die Kategorie, in der das Geschäft des Werbetreibenden tätig ist. Die Kategorie wird den Herausgebern mitgeteilt, wenn Sie ein Angebot für den Bestand abgeben. Stellen Sie sicher, dass Sie eine Kategorie auswählen, die Ihren Anzeigen entspricht, oder Herausgeber können Ihre Anzeigen ablehnen.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten 
 
 (Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Organisations-ID des Experience Cloud zugeordnet sein, die in der Variablen [!UICONTROL Adobe IMS IDs] Abschnitt.
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Adobe Advertising Search] oder die Adobe Advertising Conversion-Pixel verwenden) A [!DNL Search] -Konto, mit dem DSP Attributionsdaten austauschen.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Adobe Advertising Search] oder die Adobe Advertising Conversion-Pixel verwenden) A [!DNL Search] -Konto, mit dem DSP Attributionsdaten austauschen.
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; fakultativ; nur auf Daten anwendbar, die mit Adobe Advertising-Konversions-Tracking-Tags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; fakultativ; nur auf Daten anwendbar, die mit Adobe Advertising-Konversions-Tracking-Tags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
 
 Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL Search] Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten von Adobe Advertising konfiguriert sein.
 
@@ -50,7 +50,7 @@ Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL S
 
 Weitere Informationen zur Integration mit [!DNL Analytics], siehe[Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Advertiser mit Adobe Audience Manager oder Adobe Analytics; optional) ein Audience Manager oder [!DNL Analytics] -Konto, aus dem DSP Segmentmetadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Adobe-Zielgruppen des Advertisers abruft. Dazu gehören Daten für:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertiser mit Adobe Audience Manager oder Adobe Analytics; optional) ein Audience Manager oder [!DNL Analytics] -Konto, aus dem DSP Segmentmetadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Adobe-Zielgruppen des Advertisers abruft. Dazu gehören Daten für:
 
 * Audience Manager-Segmente
 * [!DNL Analytics] Segmente, die in Adobe Experience Cloud veröffentlicht werden

@@ -2,8 +2,8 @@
 title: Einstellungen für private Angebote bearbeiten
 description: Erfahren Sie, wie Sie Details für ein privates Geschäft bearbeiten.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Änderungen an einem akzeptierten Deal werden nicht über die SSP synchronisiert. Wenn Sie ein Angebot akzeptiert haben, der Herausgeber jedoch Änderungen gesendet hat, können Sie einige Elemente der Deal-Einstellungen unter [!UICONTROL Inventory] > [!UICONTROL Deals]. Sie können einen Deal auch jederzeit umbenennen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. Bearbeiten Sie die [Deal-Einstellungen](deal-id-settings.md).
 

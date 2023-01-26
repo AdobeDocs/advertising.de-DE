@@ -2,10 +2,10 @@
 title: Erstellen und Implementieren eines CCPA-Opt-out-of-Sale-Segments
 description: Erfahren Sie, wie Sie ein Segment erstellen und implementieren, um Benutzer-IDs aus Kunden-Opt-out-Kaufanfragen zu verfolgen.
 feature: CCPA, DSP Segments
-exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Sobald das Segmentpixel-Tag implementiert ist, beginnt Adobe Advertising mit der
 
 >[!NOTE]
 >
->* Informationen dazu, wie Sie CCPA-Opt-out-of-Sale-Anfragen mithilfe der Adobe Experience Platform Privacy Service-API an Adobe Advertising senden, finden Sie unter [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
+>* Informationen dazu, wie Sie CCPA-Opt-out-of-Sale-Anfragen mithilfe der Adobe Experience Platform Privacy Service-API an Adobe Advertising senden, finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Um Benutzer zu verfolgen, die Webseiten zu Zwecken besuchen, die nicht mit dem Tracking von CCPA-Opt-out-Kaufereignissen in Verbindung stehen, sowie Benutzer, die Anzeigen von Desktop-, Mobil- und CTV-Geräten ausgesetzt sind, erstellen Sie eine [benutzerspezifisches Segment](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -38,7 +38,7 @@ Sobald das Segmentpixel-Tag implementiert ist, beginnt Adobe Advertising mit der
 
 1. Kopieren Sie ein Pixel-Tag und implementieren Sie es, um das Segment zu verfolgen:
 
-   1. Zurück zu **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Zurück zu **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. Halten Sie in der Segmentzeile den Cursor über das neue Segment und klicken Sie auf **[!UICONTROL Get pixel]**.
 
@@ -61,7 +61,7 @@ Sobald das Segmentpixel-Tag implementiert ist, beginnt Adobe Advertising mit der
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support für den California Consumer Privacy Act: Opt-out-Support für Verbraucher](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Adobe Advertising Support für den California Consumer Privacy Act: Opt-out-Support für Verbraucher](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Info [!UICONTROL CCPA Opt-out-of-Sale] Segmente und Berichte](ccpa-opt-out-about.md)
 >* [Abruf von Kundenabmeldeberichten](ccpa-opt-out-segment-report-retrieve.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)

@@ -2,8 +2,8 @@
 title: Platzierungen und Anzeigen für ein privates Geschäft auflisten
 description: Erfahren Sie, wie Sie eine Liste mit Platzierungen und Anzeigen öffnen, die mit einem privaten Kauf verknüpft sind.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Sie können eine Liste aller Platzierungen und Anzeigen öffnen, die mit einem privaten Geschäft verbunden sind. Sie können optional die Einstellungen für alle Platzierungen oder Anzeigen öffnen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]>[!UICONTROL Placements and Ads]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
    Die [!UICONTROL Placements] ist standardmäßig angezeigt. Um die Anzeigen anzuzeigen, klicken Sie auf die [!UICONTROL Ads] Registerkarte.
 
@@ -24,11 +24,11 @@ Sie können eine Liste aller Platzierungen und Anzeigen öffnen, die mit einem p
 
    * Um die Einstellungen für eine Platzierung zu bearbeiten, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL Edit]**. [Platzierungseinstellungen bearbeiten](/help/dsp/campaign-management/placements/placement-settings.md)und klicken Sie anschließend auf **[!UICONTROL Update placement]**.
 
-   * Um das Angebot aus den Inventarzielen einer Platzierung zu entfernen, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL More]>[!UICONTROL Detach Placement]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+   * Um das Angebot aus den Inventarzielen einer Platzierung zu entfernen, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
 
       Durch das Trennen der Platzierung wird die Platzierung nicht gelöscht.
 
-   * Um die Einstellungen für eine Anzeige zu bearbeiten, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]>[!UICONTROL Edit]**. [Bearbeiten der Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-edit.md)und klicken Sie anschließend auf **[!UICONTROL Save & submit for review]**.
+   * Um die Einstellungen für eine Anzeige zu bearbeiten, halten Sie den Cursor über die Anzeigenzeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Edit]**. [Bearbeiten der Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-edit.md)und klicken Sie anschließend auf **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >

@@ -2,8 +2,8 @@
 title: Detailbericht für einen privaten, [!UICONTROL On Demand]oder [!UICONTROL Simple Ad Serving] Deal
 description: Erfahren Sie, wie Sie einen Bericht auf Deal-Ebene öffnen.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Der Bericht auf Transaktionsebene umfasst die Anzahl der Auktionen, die Gebotsrate, die Gewinnrate, die Anzahl der Impressionen, die Gesamtnettoausgaben, den effektiven CMP (eCPM) und die Abschlussrate. Sie können zusätzliche Leistungsmetriken nach Advertiser, Kampagne, Platzierung, Anzeigentyp und Site anzeigen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]>[!UICONTROL View Report]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
 1. (Optional) Passen Sie den Datumsbereich an, für den Sie die Daten anzeigen möchten.
 

@@ -2,8 +2,8 @@
 title: Bearbeiten von Konten mit Zugriff auf ein privates Geschäft
 description: Erfahren Sie, wie Sie ein privates Geschäft mit verschiedenen Konten teilen und aufheben können.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -22,21 +22,21 @@ Sie können die Freigabe eines Deals für Konten stoppen, um Bearbeitungs- und T
 
 ## Freigeben einer Angebots-ID für Konten
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Für jedes Konto, das freigegeben werden soll:
 
-   1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf das Geschäft.
+1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf das Geschäft.
 
-   1. Klicken **[!UICONTROL Share]**.
+1. Klicken **[!UICONTROL Share]**.
 
 ## Freigabe einer Angebots-ID für Konten beenden
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Neben dem [!UICONTROL Account Email] Wert, klicken Sie **[!UICONTROL Unshare].**
 

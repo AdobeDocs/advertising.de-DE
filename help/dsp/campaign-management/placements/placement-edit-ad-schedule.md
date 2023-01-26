@@ -2,8 +2,8 @@
 title: Bearbeiten des Anzeigenzeitplans für eine Platzierung
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die Anzeigen ändern, die an eine Platzierung angehängt sind.
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen �
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. Führen Sie einen der folgenden Schritte aus:
 

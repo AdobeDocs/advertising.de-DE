@@ -2,8 +2,8 @@
 title: Archivieren oder Aufheben der Archivierung eines privaten Angebots
 description: Erfahren Sie, wie Sie einen privaten Deal archivieren oder dessen Archivierung aufheben.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Sie können die Archivierung eines Deals aufheben, um seinen vorherigen Status j
 
 ## Privates Geschäft archivieren
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ Sie können die Archivierung eines Deals aufheben, um seinen vorherigen Status j
 
 ## Archivierung eines privaten Angebots aufheben
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Klicken Sie über der Liste der Angebote auf ![Filter](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]*; und klicken Sie anschließend auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Unarchive]**.
 
 Wenn der Herausgeber oder SSP den Deal zuvor deaktiviert hatte und Sie ihn erneut verwenden möchten, wenden Sie sich direkt an den Herausgeber oder SSP.

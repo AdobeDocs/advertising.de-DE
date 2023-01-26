@@ -2,8 +2,8 @@
 title: Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen
 description: Erfahren Sie, wie Sie eine Quelle erstellen, um Zielgruppen in Ihr Konto oder ein Advertiser-Konto zu importieren.
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Erstellen Sie eine Quelle, um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu i
 >
 >Nachdem Sie eine Quelle für die [!DNL Real-Time CDP], müssen Sie Ihre [!DNL Real-Time CDP] Zielgruppen durch das Adobe Advertising DSP Ziel in [!DNL Real-Time CDP] um mit dem Import zu beginnen. Siehe [die Schritte im Aktivierungs-Workflow](source-about.md#workflow-sources).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. Klicken [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ Erstellen Sie eine Quelle, um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu i
 
 1. Erstellen Sie in Experience Platform mithilfe der Funktion [!UICONTROL Source Key] , die in den DSP-Quelleinstellungen generiert wurde.
 
-   Anweisungen zum Aktivieren der DSP-Zielverbindung, Auswählen von Segmenten und Zugreifen auf Kontrollberechtigungen finden Sie unter[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+Anweisungen zum Aktivieren der DSP-Zielverbindung, Auswählen von Segmenten und Zugreifen auf Kontrollberechtigungen finden Sie unter[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](source-about.md)
 >* [Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
 
