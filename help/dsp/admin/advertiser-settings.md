@@ -1,9 +1,9 @@
 ---
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Weitere Informationen zur Integration mit [!DNL Analytics], siehe[Übersicht üb
 
 * Audience Manager-Segmente
 * [!DNL Analytics] Segmente, die in Adobe Experience Cloud veröffentlicht werden
-* Segmente, die in Adobe Experience Cloud mit dem [!DNL People core service]
+* Segmente, die mit Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
 * Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet werden
 
 Die anfängliche Synchronisation dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von einer bis zwei Sekunden synchronisiert.
