@@ -3,9 +3,9 @@ title: Informationen zur Platzierungsverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Platzierungsverwaltung.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,5 @@ Für jede Platzierung können Sie eine Detailansicht öffnen ([die [!UICONTROL I
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
-
-   >*[Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
 

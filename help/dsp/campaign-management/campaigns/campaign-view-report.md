@@ -3,9 +3,9 @@ title: Detaillierte Berichte für eine Kampagne anzeigen
 description: Erfahren Sie, wie Sie einen Bericht auf Kampagnenebene mit Abschnitten zu Geografie, Gerät, Sichtbarkeit und Zielgruppenleistung öffnen.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ Die <!--legacy --> Der Bericht auf Kampagnenebene enthält eine Übersicht und A
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Führen Sie einen der folgenden Schritte aus:
-   * Klicken **... >[!UICONTROL View report]** in der oberen rechten Symbolleiste.
-   * Klicken Sie neben dem Kampagnennamen auf  **... >[!UICONTROL View report]**.
+   * Klicken **[!UICONTROL ...]** > **[!UICONTROL View report]** in der oberen rechten Symbolleiste.
+   * Klicken Sie neben dem Kampagnennamen auf  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

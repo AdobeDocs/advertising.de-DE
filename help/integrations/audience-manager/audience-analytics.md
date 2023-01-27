@@ -3,9 +3,9 @@ title: '''[!DNL Adobe] [!DNL Audience Analytics] für Adobe Advertising-Kunden'
 description: Erfahren Sie, wie Sie [!DNL Adobe] [!DNL Audience Analytics] Anwendungsfälle für Werbung
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Im Folgenden finden Sie Beispiele für die Verwendung der kombinierten Daten in 
 
 ### Auswirkungen der Aktivität &quot;Oberer Trichter&quot;auf die nachgelagerte Aktivität anzeigen
 
-Verwenden Sie Expositionssegmente der Audience Manager, um die Auswirkungen der Site-Aktivität des oberen Trichters auf die nachgelagerte Site-Aktivität zu sehen. Fügen Sie Adobe Advertising oder Makro-IDs von Drittanbietern in Ihre Tracking-Pixel ein, um die Auswirkungen auf einer detaillierten Ebene zu verfolgen, von der Kampagnenebene bis zur Ebene der Site, auf der der Benutzer verfügbar war.
+Verwenden Sie Expositionssegmente der Audience Manager, um die Auswirkungen der Aktivität der oberen Trichtersite auf die nachgelagerte Site-Aktivität zu sehen. Fügen Sie Adobe Advertising oder Makro-IDs von Drittanbietern in Ihre Tracking-Pixel ein, um die Auswirkungen auf einer detaillierten Ebene zu verfolgen, von der Kampagnenebene bis zur Ebene der Site, auf der der Benutzer verfügbar war.
 
 Hauptvorteile:
 

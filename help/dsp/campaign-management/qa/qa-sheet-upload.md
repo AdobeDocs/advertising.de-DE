@@ -3,9 +3,9 @@ title: Platzierungseinstellungen für eine Kampagne hochladen
 description: Erfahren Sie, wie Sie mithilfe von Excel QA-Tabellen Änderungen an wichtigen Platzierungseinstellungen für eine Kampagne hochladen können.
 feature: DSP Placements
 exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

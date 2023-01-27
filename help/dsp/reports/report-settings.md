@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 **[!UICONTROL Select To Add As Report Headers]:**  Die Datenspalten oder Kopfzeilen, die in den Bericht aufgenommen werden sollen. Um eine Spalte hinzuzufügen, erweitern Sie die Kategorie und aktivieren Sie das Kontrollkästchen neben dem Spaltennamen. Alle nicht verfügbaren Metriken sind deaktiviert. Zu den verfügbaren Datenkategorien gehören:
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (sortiert nach Advertiser)
 * [!UICONTROL Custom Goals] (sortiert nach Advertiser)
@@ -142,5 +142,5 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 >* [Benutzerspezifischen Bericht ausführen](/help/dsp/reports/report-run-now.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Über Berichtsziele](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
 
-* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)

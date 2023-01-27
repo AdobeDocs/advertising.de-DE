@@ -3,9 +3,9 @@ title: Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren
 description: Erfahren Sie mehr über die Aktivierung authentifizierter Zielgruppen mithilfe einer dauerhaften ID-Lösung.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

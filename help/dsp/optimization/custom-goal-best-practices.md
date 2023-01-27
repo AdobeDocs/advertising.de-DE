@@ -3,9 +3,9 @@ title: Best Practices zum Erstellen eines benutzerdefinierten Ziels
 description: Lernen Sie die Best Practices zum Erstellen benutzerdefinierter Ziele kennen, um Ihre Erfolgsereignisse zu definieren.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

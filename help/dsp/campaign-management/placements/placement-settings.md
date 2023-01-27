@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Fügen Sie eine Postleitzahl pro Zeile hinzu oder geben Sie mehrere Werte ein, d
 
    Sie können die Liste nach Keyword, Schlüssel, Deal-ID oder benutzerdefiniertem Tag durchsuchen.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alle [Prämie, nicht garantiert [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) (oder [!UICONTROL On Demand] [!DNL] Roku-Angebote für [!DNL Roku] Platzierungen), für die Sie sich angemeldet haben [!DNL DSP]. Sie können [!UICONTROL On Demand] Inventar.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alle [Prämie, nicht garantiert [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) (oder [!UICONTROL On Demand] [!DNL Roku] Angebote [!DNL Roku] Platzierungen), für die Sie sich angemeldet haben [!DNL DSP]. Sie können [!UICONTROL On Demand] Inventar.
 
    Sie können die Liste nach Quelle oder Feed anzeigen. Wenn Sie die Liste nach Feed anzeigen, können Sie nach Feed-Name, Feed-Schlüssel oder einem ausgewählten Publisher-Bereich, Kategorie-Tag oder charakteristischen Tag suchen.
 
@@ -188,14 +188,14 @@ So legen Sie das Inventar-Targeting fest:
    1. Aktivieren Sie das Kontrollkästchen neben dem Inventartypnamen.
    1. (Optional) Ändern Sie die Quellen, um Folgendes einzuschließen:
       1. Klicken ![Bearbeiten](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] und [!UICONTROL On Demand] inventory) Click *[!UICONTROL *View by Source]** oder **[!UICONTROL View by Feed]** , um zu ändern, wie die Quellen aufgelistet werden.
+      1. ([!UICONTROL Public] und [!UICONTROL On Demand] inventory) Click **[!UICONTROL View by Source]** oder **[!UICONTROL View by Feed]** , um zu ändern, wie die Quellen aufgelistet werden.
       1. (Falls zutreffend) Filtern Sie den Bestand nach Bedarf.
       1. Geben Sie die Quellen an, die ein- und ausgeschlossen werden sollen:
          * So fügen Sie eine [!UICONTROL Public] oder [!UICONTROL On Demand] Quelle, klicken **[!UICONTROL Include]** neben dem Quellnamen.
          * Einbeziehen [!UICONTROL Private] Quellen:
             * Um den gesamten Bestand in einen Deal einzubeziehen, klicken Sie auf **[!UICONTROL Include all]** neben dem Namen des Deals.
             * Um eine einzelne Inventarquelle einzubeziehen, erweitern Sie den Namen des Deals und klicken Sie dann auf das Kontrollkästchen neben dem Quellnamen.
-         * So schließen Sie eine [!UICONTROL Public] oder [!UICONTROL On ] Quelle, klicken **[!UICONTROL Exclude]** neben dem Quellnamen.
+         * So schließen Sie eine [!UICONTROL Public] oder [!UICONTROL On source]klicken **[!UICONTROL Exclude]** neben dem Quellnamen.
    1. (Optional) Um eine CSV-Datei mit den Targeting-Informationen zum Speicherort der Downloads Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Save & Export]**.
    1. Klicken **[!UICONTROL Save]**.
 
@@ -311,6 +311,7 @@ Optional können Sie die Liste der Ziel- und Blockierungssites als CSV-Datei (CS
 **[!UICONTROL Secondary Cap]:** (Optional) verfügbar, wenn Sie eine numerische [!UICONTROL Placement Cap]) Eine zusätzliche Begrenzung innerhalb der Grenzen der primären Platzierungsbegrenzung. Wählen Sie die Anzahl der Impressionen und den Zeitraum aus (z. B. 3 pro 12 Stunden).
 
 **[!UICONTROL Day Parting]:** (Optional) Bestimmte Wochentage und Tageszeit, an denen Anzeigen ausgeführt werden können. So legen Sie Dayparting-Intervalle fest:
+
 1. Klicken ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Wählen Sie die gewünschte Zeitzone aus.
 1. Geben Sie die Intervalle an:

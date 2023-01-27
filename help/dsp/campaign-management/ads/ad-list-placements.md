@@ -3,9 +3,9 @@ title: Platzierungen auflisten, die einer Anzeige zugeordnet sind
 description: Erfahren Sie, wie Sie die Platzierungen sehen, die mit einer Anzeige verbunden sind.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Zeigen Sie eine Liste der mit einer Anzeige verknüpften Platzierungen an, um Le
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
-1. Klicken Sie neben dem Anzeigennamen auf  **... >[!UICONTROL See placements]**.
+1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

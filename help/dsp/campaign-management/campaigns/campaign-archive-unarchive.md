@@ -3,9 +3,9 @@ title: Archivieren oder Archivieren einer Kampagne aufheben
 description: Erfahren Sie, wie Sie eine Kampagne archivieren oder deren Archivierung aufheben.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status
 ## Eine Kampagne archivieren
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie neben dem Kampagnennamen auf  **... >[!UICONTROL Archive]**.
+1. Klicken Sie neben dem Kampagnennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status
 ## Archivierung einer Kampagne aufheben
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie neben dem Kampagnennamen auf  **... >[!UICONTROL Unarchive]**.
+1. Klicken Sie neben dem Kampagnennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

@@ -3,9 +3,9 @@ title: Von [!DNL Analytics]
 description: Von [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,9 @@ Die EF ID ist ein eindeutiges Token, mit dem Adobe Advertising Aktivitäten mit 
 
 #### [!DNL Google Ads] Suchanzeigen
 
-```{gclid}:G:s```
+```
+{gclid}:G:s
+```
 
 wobei:
 
@@ -58,7 +60,9 @@ wobei:
 
 #### Microsoft Advertising-Suchanzeigen
 
-```{msclkid}:G:s```
+```
+{msclkid}:G:s
+```
 
 wobei:
 
@@ -67,7 +71,9 @@ wobei:
 
 #### Anzeigen und Suchanzeigen in anderen Suchmaschinen
 
-```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
+```
+<Adobe Advertising visitor ID>:<timestamp>:<channel type>
+```
 
 wobei:
 
@@ -81,7 +87,7 @@ wobei:
    * `i` für eine Impression einer DSP Display-Anzeige (Durchsicht der Anzeige)
    * `s` für einen Klick auf eine Suchanzeige (Durchsuchen-Clickthrough).
 
-Beispiel `EF `ID: WcmibgAAAHJK1RyY:1551968087687:d
+Beispiel `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
 ### Die EF ID-Dimension in [!DNL Analytics]
 
@@ -97,7 +103,9 @@ Die AMO-ID wird auch als `s_kwcid`, der manchmal als &quot;[!DNL the squid].&quo
 
 ### AMO-ID-Format für [!DNL DSP]
 
-```<Channel ID>!<Ad ID>!<Placement ID>```
+```
+<Channel ID>!<Ad ID>!<Placement ID>
+```
 
 wobei:
 
@@ -116,7 +124,9 @@ Beispiel einer AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 AMO-IDs für [!DNL Search] für jede Suchmaschine ein bestimmtes Format verwenden. Das Format für alle Suchmaschinen beginnt mit Folgendem:
 
-```AL!{userid}!{sid}```
+```
+AL!{userid}!{sid}
+```
 
 wobei:
 
@@ -128,7 +138,9 @@ Im Folgenden finden Sie die vollständigen AMO ID-Formate für einige Werbenetzw
 
 AMO-ID-Format für [!DNL Google Ads]:
 
-```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
+```
+AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
+```
 
 wobei:
 
@@ -140,7 +152,9 @@ wobei:
 
 AMO-ID-Format für [!DNL Microsoft Advertising]:
 
-```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
+```
+AL!{userid}!{sid}!{AdId}!{OrderItemId}
+```
 
 wobei:
 

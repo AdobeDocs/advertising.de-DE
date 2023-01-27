@@ -3,9 +3,9 @@ title: Platzierungen und Anzeigen für ein privates Geschäft auflisten
 description: Erfahren Sie, wie Sie eine Liste mit Platzierungen und Anzeigen öffnen, die mit einem privaten Kauf verknüpft sind.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: Nutzungsszenarios
 description: Erfahren Sie mehr über Anwendungsfälle für die Freigabe Ihrer Advertising DSP Mediendaten für Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,23 @@ Gehen Sie wie folgt vor, um dieses Beispiel in Audience Manager auszuführen:<!-
 
    Um beispielsweise die Eigenschaft zu benennen `Creative Trait 123`verwenden Sie die folgende Eigenschaftsregel:
 
-   `d_creative == 123 AND d_event == imp`
+   ```
+   d_creative == 123 AND d_event == imp
+   ```
 
 1. Erstellen Sie eine Eigenschaft, um Benutzer zu erfassen, die klicken oder konvertieren.
 
    Um diese Eigenschaft beispielsweise zu benennen `Click and Converter`verwenden Sie die folgende Eigenschaftsregel:
 
-   `d_event == click OR d_event=conv`
+   ```
+   d_event == click OR d_event=conv
+   ```
 
 1. Erstellen Sie ein Segment mit dem Namen `Retarget Users` , um mit Benutzern zu füllen, die kreative Inhalte gesehen haben `123` aber nicht geklickt oder konvertiert haben. Verwenden Sie die folgende Eigenschaftsregel:
 
-   `Creative Trait 123 AND NOT Click and Converter`
+   ```
+   Creative Trait 123 AND NOT Click and Converter
+   ```
 
 1. Segment zuordnen `Retarget Users` zu einem Ziel zu gelangen und Benutzer mit kreativen Elementen im Ziel anzusprechen `456`.
 
@@ -52,7 +58,7 @@ Gehen Sie wie folgt vor, um dieses Beispiel in Audience Manager auszuführen:<!-
 
 Sobald Kampagnendaten für Impressions- und Klickdaten in Audience Manager verfügbar sind, können Sie Eigenschaften und Benutzersegmente erstellen, die einer bestimmten Kampagne oder Taktik ausgesetzt waren oder damit interagiert wurden. Mit [[!DNL Audience Analytics] Integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), können Ihre Audience Manager-Segmente mit [!DNL Analytics] für weitere Analysen. Mögliche Anwendungsfälle sind:
 
-* **Interaktionsanalyse zwischen DSP und [!DNL Adobe Advertising Search] Anzeigen:** Der Standard [[!DNL Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) bietet keine Einblicke in die Interaktion zwischen DSP und [!DNL [!DNL Search]], da beide Kanäle AMO-IDs verwenden, die den AMO-ID-Attributionsregeln entsprechen, für die ein Suchklick eine Durchsicht der Anzeige außer Kraft setzt. Durch Erstellung eines DSP Belichtungssegments in Audience Manager können Sie [!DNL Audience Analytics] zur Analyse der Interaktion zwischen DSP und [!DNL [!DNL Search]] Anzeigen in [!DNL Analytics].
+* **Interaktionsanalyse zwischen DSP und [!DNL Adobe Advertising Search] Anzeigen:** Der Standard [[!DNL Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) bietet keine Einblicke in die Interaktion zwischen DSP und [!DNL Search] da beide Kanäle AMO-IDs verwenden, die den AMO-ID-Attributionsregeln entsprechen, für die ein Suchklick eine Durchsicht der Anzeige außer Kraft setzt. Durch Erstellung eines DSP Belichtungssegments in Audience Manager können Sie [!DNL Audience Analytics] zur Analyse der Interaktion zwischen DSP und [!DNL Search] Anzeigen in [!DNL Analytics].
 
 * **Häufigkeitsanalyse:** Sie können in Audience Manager Segmente erstellen, die darauf basieren, wie oft ein Benutzer einer bestimmten Anzeige oder Kampagne ausgesetzt war. Anschließend können Sie die verschiedenen Belichtungssegmente in Analytics analysieren, um festzustellen, wie sich das Benutzerverhalten in Abhängigkeit von der Anzahl DSP Belichtungen ändert.
 

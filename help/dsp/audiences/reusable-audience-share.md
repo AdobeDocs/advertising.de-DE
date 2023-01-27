@@ -3,9 +3,9 @@ title: Wiederverwendbare Zielgruppe freigeben
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe für andere Advertiser freigeben können, die für Ihr Konto verfügbar sind.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Nachdem Sie eine Zielgruppe freigegeben haben, können Sie die Freigabe nicht me
 
 1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Share]**.
 
-1. Wählen Sie die zu **[!UICONTROL Share with all advertisers in my account ]**.
+1. Wählen Sie die zu **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Klicken **[!UICONTROL Save]**.
 

@@ -3,9 +3,9 @@ title: Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Inventaran
 description: Informationen zum Abonnieren und Anfordern des Zugriffs auf[!DNL On Demand] Angebote.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,7 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    * Angebote von **[!UICONTROL TV Broadcasters]**
 
-   * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren
-      **[!UICONTROL Tune-In]**)
+   * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren (**[!UICONTROL Tune-In]**)
 
    * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen akzeptiert (**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    * Angebote von **[!UICONTROL TV Broadcasters]**
 
-   * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren
-      **[!UICONTROL Tune-In]**)
+   * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren (**[!UICONTROL Tune-In]**)
 
    * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen akzeptiert (**[!UICONTROL Legal drinking age]**)
 

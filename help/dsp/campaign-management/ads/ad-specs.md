@@ -3,9 +3,9 @@ title: Anzeigenspezifikationen
 description: Verweisen Sie auf allgemeine und Publisher-spezifische Anzeigenspezifikationen.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,6 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
    * Dateityp: JPEG, JPG, PNG, GIF, HTML
    * Maximale Dateigröße: 2 MB
    * Dimensionen: 300 x 250
- 
 
 ## Native Display-Anzeigen
 

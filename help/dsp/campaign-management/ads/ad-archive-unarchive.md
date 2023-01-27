@@ -3,9 +3,9 @@ title: Archivieren oder Archivieren einer Anzeige aufheben
 description: Erfahren Sie, wie Sie eine Anzeige archivieren oder deren Archivierung aufheben.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Sie können die Archivierung einer Anzeige aufheben, um ihren vorherigen Status 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
-1. Klicken Sie neben dem Anzeigennamen auf  **... >[!UICONTROL Archive]**.
+1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ Sie können die Archivierung einer Anzeige aufheben, um ihren vorherigen Status 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
-1. Klicken Sie neben dem Anzeigennamen auf  **... >[!UICONTROL Unarchive]**.
+1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
