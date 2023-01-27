@@ -3,8 +3,8 @@ title: Werbekonto erstellen
 description: Erfahren Sie, wie Sie ein Advertiser-Konto erstellen.
 source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 

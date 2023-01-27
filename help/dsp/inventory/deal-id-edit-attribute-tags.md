@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Attribut-Tags für eine Deal-ID erstellen
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
