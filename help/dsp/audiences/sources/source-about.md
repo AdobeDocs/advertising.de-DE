@@ -3,7 +3,7 @@ title: Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Q
 description: Erfahren Sie mehr über die Aufnahme von Erstanbietersegmenten aus einer Kundendatenplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Weitere Informationen zu Zielen finden Sie in der Experience Platform [Zielhandb
 
 1. [Erstellen einer Zielgruppenquelle](source-create.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren.
 
-1. [Konfigurieren Sie eine [!DNL Real-Time CDP] Zielverbindung in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
+1. [Konfigurieren Sie eine [!DNL Real-Time CDP] Zielverbindung in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
 Weitere Unterstützung erhalten Sie bei Ihrem [!DNL Adobe] Kontoteam oder `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ Weitere Unterstützung erhalten Sie bei Ihrem [!DNL Adobe] Kontoteam oder `adclo
 >* [Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren](source-durable-id.md)
 >* [Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen](source-create.md)
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
 
