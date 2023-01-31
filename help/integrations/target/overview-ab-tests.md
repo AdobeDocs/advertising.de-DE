@@ -2,9 +2,9 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising Ads in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP und [!DNL Search] Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
 
    >[!NOTE]
    >
-   >Sie können mehrere URLs verwenden, um den Viewthrough-Site-Einstieg zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Sie können die Top-Einträge einfach anhand der Seiten-URL identifizieren, indem Sie eine [Site-Einstiegsbericht](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) in Analytics.
+   >Sie können mehrere URLs verwenden, um den Viewthrough-Site-Einstieg zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Sie können die Top-Einträge einfach anhand der Seiten-URL identifizieren, indem Sie eine [Site-Einstiegsbericht](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
 
 1. Im **Ziel** geben Sie die Erfolgsmetrik für den Test ein.
 
