@@ -3,16 +3,16 @@ title: Anzeigen eines Platzierungsänderungsprotokolls
 description: Erfahren Sie, wie Sie an der Platzierung vorgenommene Änderungen anzeigen können.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 62bebacc05bd5178cc4f5958a395daf54361b3e1
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # Anzeigen des Änderungsprotokolls für eine Platzierung
 
-Änderungsprotokolle zeigen Änderungen an, die im ausgewählten Datumsbereich an der Platzierung vorgenommen wurden, einschließlich des Änderungstyps, der neuen und alten Werte, des Benutzers, der die Änderung vorgenommen hat, und des Datums.
+Änderungsprotokolle zeigen Änderungen an, die im ausgewählten Datumsbereich an der Platzierung vorgenommen wurden, einschließlich des Änderungstyps, der neuen und alten Werte, des Benutzers, der die Änderung vorgenommen hat, und des Datums. Sie können optional jedem Eintrag Notizen hinzufügen.
 
 Sie können die Daten nach der Spalte Typ, Geändert von oder Datum geändert sortieren.
 
@@ -20,6 +20,9 @@ Sie können die Daten nach der Spalte Typ, Geändert von oder Datum geändert so
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. (Beta-Funktion; optional) Um zwischen der Anzeige der Daten nur im Tabellenformular und sowohl in Tabellen- als auch in Diagrammformularen zu wechseln, klicken Sie auf ![Tabellen- und Diagrammansicht](/help/dsp/assets/table-plus-chart-view.png "Tabellen- und Diagrammansicht") oder ![Tabellenansicht](/help/dsp/assets/table-view.png "Tabellenansicht") in der oberen rechten Symbolleiste.
+1. (Beta-Funktion; (optional) Um einem Eintrag eine Anmerkung hinzuzufügen, halten Sie den Cursor über den [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL Add Notes]**. Geben Sie Text in die Eingabefelder ein und klicken Sie auf **[!UICONTROL Save]**.
+1. (Beta-Funktion; optional) Um die Details für einen Eintrag in einem Popup-Fenster anzuzeigen, halten Sie den Cursor über dem [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 95b704237370057d60cef28013907da8526f32c9
+source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 25. Januar 2023 | Angebote | Eine neue Ausgabespalte für &quot;PG-Impression-Geschwindigkeit&quot;in der Ansicht &quot;Inventar&quot;> &quot;Angebote&quot;für garantierte Angebote sieht Berichte in Geschwindigkeit vor. | Siehe[Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 3. Februar 2023 | [!UICONTROL Campaigns] | (Beta-Funktionen) Sie können jetzt Änderungsprotokolle in Diagrammform anzeigen und jedem Eintrag Notizen hinzufügen. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+| 25. Januar 2023 | [!UICONTROL Deals] | Eine neue Ausgabespalte für &quot;PG-Impression-Geschwindigkeit&quot;in der Ansicht &quot;Inventar&quot;> &quot;Angebote&quot;für garantierte Angebote sieht Berichte in Geschwindigkeit vor. | Siehe[Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4. Januar 2023 | [!UICONTROL Campaigns] | Für jede Kampagne ist jetzt ein Änderungsprotokoll verfügbar, das die im ausgewählten Datumsbereich vorgenommenen Änderungen anzeigt. Änderungsprotokolle waren bereits für Pakete und Platzierungen verfügbar. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
 | 14. Dezember 2022 | Platzierungen, Anzeigen | (Open Beta-Funktion) Neu &quot;[!UICONTROL Universal Video]&quot;Platzierungen und Anzeigen ermöglichen es Ihnen, mithilfe einer einzigen Videoplatzierung mehrere Geräteumgebungen für VPAID- und VAST-Inventar anzusprechen.<br><br>Universelle Videoplatzierungen enthalten die Einstellung &quot;Geräteumgebung&quot;, mit der Gerätetypziele ([!UICONTROL Desktop], [!UICONTROL Mobile]und [!UICONTROL Connected TV]). Universelle Videoanzeigen können nur mit universellen Videoplatzierungen verknüpft werden.<br><br>Benutzerspezifische Berichte enthalten die neue Dimension auf Platzierungsebene &quot;Geräteumgebung&quot;. | Siehe[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)&quot; und &quot;[Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md).&quot;<br><br>Siehe auch &quot;[Universelle Videoanzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; und &quot;[Erstellen einer Anzeige](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 23. November 2022 | Angebote | Die [!UICONTROL Inventory] > [!UICONTROL Deals] -Ansicht enthält jetzt &quot;[!UICONTROL Deal Health]&quot;-Spalte, die den Gesundheitsstatus jedes privaten Geschäfts angibt: &quot;[!UICONTROL Success], &quot;[!UICONTROL Warning], &quot;[!UICONTROL Critical],&quot;oder &quot;[!UICONTROL Unavailable].&quot; Sie können auf den Status klicken, um weitere Details anzuzeigen, einschließlich der Gründe, warum ein Deal nicht wie erwartet funktioniert oder Ausgaben ausgibt, und der Schritte zur Behebung potenzieller Probleme. | — |
