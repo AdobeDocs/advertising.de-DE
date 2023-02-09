@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising DSP-Handbuch
+user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Advertising DSP-Handbuch {#dsp}
+# Handbuch zu Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -106,8 +106,8 @@ ht-degree: 5%
          + [Filtern von Kampagnendaten](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Sortieren einer Spalte](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Datenvisualisierungen verwalten](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Korrekte Platzierungseinstellungen für eine Kampagne mithilfe von Tabellen {#qa-spreadsheet}
-      + [Informationen zum Korrigieren der Platzierungseinstellungen für eine Kampagne mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
+   + Korrekte Platzierungseinstellungen mithilfe von Tabellen {#qa-spreadsheet}
+      + [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
       + [Platzierungseinstellungen für eine Kampagne herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Platzierungseinstellungen für eine Kampagne hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 5%
    + [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
 + Zielgruppen {#audiences}
    + [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
-   + Segmente verwalten {#segments}
+   + Segmente {#segments}
       + [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segmente {#ccpa-opt-out-of-sale-segments}
          + [Info [!UICONTROL CCPA Opt-out-of-Sale] Segmente](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 5%
       + [Freigeben oder Beenden der Freigabe eines Segments](/help/dsp/audiences/segment-share.md)
       + [Anzeigen von Tracking-Pixeln für ein Segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Löschen eines Segments](/help/dsp/audiences/segment-delete.md)
-   + Verwalten von Audiences {#reusable-audiences}
+   + Zielgruppen {#reusable-audiences}
       + [Wiederverwendbare Zielgruppe erstellen](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplizieren einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Eine wiederverwendbare Zielgruppe bearbeiten](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 5%
       + [Eine wiederverwendbare Zielgruppe löschen](/help/dsp/audiences/reusable-audience-delete.md)
       + [Zielgruppeneinstellungen](/help/dsp/audiences/audience-settings.md)
       + [Syntax für Zielgruppensegmentlogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Quellen verwalten {#sources}
+   + Quellen {#sources}
       + [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](/help/dsp/audiences/sources/source-about.md)
       + [Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren](/help/dsp/audiences/sources/source-durable-id.md)
       + [Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen](/help/dsp/audiences/sources/source-create.md)

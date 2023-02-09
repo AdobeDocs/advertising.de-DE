@@ -3,9 +3,9 @@ title: 'Adobe Advertising-Unterstützung für den California Consumer Privacy Ac
 description: Erfahren Sie mehr über die Unterstützung für die Erfassung von Opt-out-Anfragen von Verbrauchern.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Sie können Verbraucher-Opt-out-Anfragen für den Verkauf über eine der folgend
    >
    >Für Anforderungen an einige Adobe Experience Cloud-Lösungen ist keine JavaScript-Bibliothek erforderlich, für Anfragen an Adobe Advertising ist dies jedoch erforderlich.
 
-   Sie sollten die Bibliothek auf der Webseite bereitstellen, von der aus Ihre Kunden Opt-out-Kaufanfragen senden können, z. B. das Datenschutzportal Ihres Unternehmens. Die Bibliothek hilft Ihnen beim Abrufen von Adobe-Cookies (Namespace-ID: `gsurferID`), damit Sie diese Identitäten als Teil von Opt-out-Kaufanfragen über die Adobe Experience Platform Privacy Service-API senden können.
+   Sie sollten die -Bibliothek auf der Webseite bereitstellen, von der aus Ihre Kunden Opt-out-Kaufanfragen senden können, z. B. das Datenschutzportal Ihres Unternehmens. Die Bibliothek hilft Ihnen beim Abrufen von Adobe-Cookies (Namespace-ID: `gsurferID`), damit Sie diese Identitäten als Teil von Opt-out-Kaufanfragen über die Adobe Experience Platform Privacy Service-API senden können.
 
 1. Identifizieren Sie Ihre Experience Cloud-Organisations-ID und stellen Sie sicher, dass sie mit Ihren Adobe Advertising-Konten verknüpft ist.
 
