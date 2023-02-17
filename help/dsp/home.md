@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 15. Februar 2023 | [!UICONTROL Campaigns] | Optionen zum Anzeigen von Änderungsprotokollen im Diagrammformular und zum Hinzufügen von Notizen zu jedem Eintrag sind nicht in der Beta-Phase. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3. Februar 2023 | [!UICONTROL Campaigns] | (Beta-Funktionen) Sie können jetzt Änderungsprotokolle in Diagrammform anzeigen und jedem Eintrag Notizen hinzufügen. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25. Januar 2023 | [!UICONTROL Deals] | Eine neue Ausgabespalte für &quot;PG-Impression-Geschwindigkeit&quot;in der Ansicht &quot;Inventar&quot;> &quot;Angebote&quot;für garantierte Angebote sieht Berichte in Geschwindigkeit vor. | Siehe[Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4. Januar 2023 | [!UICONTROL Campaigns] | Für jede Kampagne ist jetzt ein Änderungsprotokoll verfügbar, das die im ausgewählten Datumsbereich vorgenommenen Änderungen anzeigt. Änderungsprotokolle waren bereits für Pakete und Platzierungen verfügbar. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
