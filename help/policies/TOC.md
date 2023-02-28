@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
 user-guide-title: Grundsätze und Richtlinien für Adobe Advertising
-user-guide-description: Erfahren Sie mehr über die Richtlinien und Richtlinien für Advertising DSP und [!DNL Advertising Search].
+user-guide-description: Erfahren Sie mehr über die Grundsätze und Richtlinien für Advertising DSP und [!DNL Advertising Search].
 breadcrumb-title: Grundsätze und Richtlinien
 index: true
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 39%
+ht-degree: 69%
 
 ---
 
