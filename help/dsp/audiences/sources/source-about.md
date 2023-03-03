@@ -3,7 +3,7 @@ title: Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Q
 description: Erfahren Sie mehr über die Aufnahme von Erstanbietersegmenten aus einer Kundendatenplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Weitere Informationen zu Zielen finden Sie in der Experience Platform [Zielhandb
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [Übersetzen von Kundendatensegmenten in DSP [!DNL LiveRamp RampIDs]](source-durable-id.md) die in einer bidbaren Umgebung erkennbar sind.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [Übersetzen von Kundendatensegmenten in DSP [!DNL LiveRamp RampIDs]](source-durable-id.md) die in einer bidbaren Umgebung erkennbar sind.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [Erstellen einer Zielgruppenquelle](source-create.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren.
 

@@ -3,9 +3,9 @@ title: Adobe Advertising-Integrationen mit Adobe Audience Manager
 description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, wie Adobe Advertising Daten mit Adobe Audience Manager austauschen kann.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Within [!DNL Search], können Sie [!DNL Google Ads] Google-Kundenabgleich von Zi
 
 [Kundenabgleich von Zielgruppen aus Benutzer-IDs](https://support.google.com/google-ads/answer/9199250) funktioniert wie Website-Tag-basierte Zielgruppen, aber eindeutige Vorteile gegenüber standardmäßigen Kunden-Übereinstimmungen und Website-Tag-basierten Zielgruppen werden eindeutigen Zielgruppenmitgliedern eine Nicht-PII-ID zugewiesen.
 
-Um die erforderlichen Benutzer-IDs zu erstellen, müssen Sie ein Adobe Advertising JavaScript-Tag verwenden <!-- with a user ID parameter -->auf Ihren Websites. Wenden Sie sich an [!DNL Search] Account-Team für weitere Informationen.
+Um die erforderlichen Benutzer-IDs zu erstellen, müssen Sie ein Adobe Advertising JavaScript-Tag verwenden <!-- with a user ID parameter -->auf Ihren Websites. Wenden Sie sich für weitere Informationen an Ihr Adobe Account Team.
 
 ![Segmenterstellungsvorgang](/help/integrations/assets/ad_search_user_id_pic.png)
 

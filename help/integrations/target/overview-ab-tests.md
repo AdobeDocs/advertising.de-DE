@@ -2,7 +2,7 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising Ads in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP und [!DNL Search] Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Aktualisieren Sie im Flash-Gespräch oder in Google Campaign Manager 360 die Cli
 
 * [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Wenden Sie sich an Ihr DSP Account-Team und die Advertising Solutions Group (aac-advertising-solutions-group@adobe.com), um den erforderlichen Platzierungsschlüssel abzurufen und das Setup abzuschließen und sicherzustellen, dass jede Clickthrough-URL mit dem Platzierungsschlüssel ausgefüllt wird.
+Wenden Sie sich an Ihr Adobe Account Team und die Advertising Solutions Group (aac-advertising-solutions-group@adobe.com), um den erforderlichen Platzierungsschlüssel abzurufen und die Einrichtung abzuschließen. Stellen Sie sicher, dass jede Clickthrough-URL mit dem Platzierungsschlüssel ausgefüllt wird.
 
 ## Schritt 2: Einrichten des Durchsichts-Frameworks mit dem Audience Manager {#view-through-framework}
 
@@ -166,7 +166,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
    * Erlebnis B: Verwenden Sie die [!DNL Target] -Benutzeroberfläche, um die Landingpage-Vorlage auf der Grundlage der im Test enthaltenen Assets anzupassen (z. B. Überschriften, Kopien, Schaltflächenplatzierung und Kreativinhalte).
    >[!NOTE]
    >
-   >Wenden Sie sich beispielsweise bei kreativen Tests an Ihr Account-Team.
+   >Wenden Sie sich beispielsweise in Bezug auf kreative Testanwendungsfälle an Ihr Adobe Account Team.
 
 ## Schritt 4: Richten Sie Ihre [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
 
