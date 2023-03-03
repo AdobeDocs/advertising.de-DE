@@ -3,9 +3,9 @@ title: Erneute Anforderung [!DNL On Demand] Premium-Inventarangebote
 description: Erfahren Sie, wie Sie eine erneute Anforderung durchführen [!DNL On Demand] Angebote, die zuvor abgelehnt wurden.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Sie können eine erneute Anfrage stellen [!DNL On Demand] Lagerergänzungen, für die Sie abgelehnt wurden, einschließlich der Angebote eines Herausgebers, für den Sie angemeldet sind. Führen Sie diese Schritte aus, um sicherzustellen, dass alle relevanten Kontoeinstellungen korrekt sind, bevor Sie eine neue Anforderung senden.
 
-Wenn ein Geschäft nach einer erneuten Anfrage nicht genehmigt wurde, wenden Sie sich an Ihren [!DNL Adobe] -Kontoteam , um zu sehen, ob der Herausgeber zusätzliche Einschränkungen aufweist, die Ihrem Konto den Zugriff auf den Deal verbieten.
+Wenn eine Transaktion nicht genehmigt wird, nachdem Sie sie erneut anfordern, wenden Sie sich an Ihr Adobe Account-Team, um zu sehen, ob der Herausgeber zusätzliche Einschränkungen aufweist, die den Zugriff auf das Angebot untersagen.
 
 Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md)enthalten ist, wird es standardmäßig als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand] Inventar. Der neue Deal ist auch als Ziel für vorhandene Platzierungen verfügbar. Sie müssen jedoch die Platzierungseinstellungen manuell bearbeiten, um den Deal als Ziel hinzuzufügen.
 
-1. Validieren Sie Ihre [!DNL Adobe] Kontoteam, das [!UICONTROL Account Type] für das DSP Ihrer Organisation korrekt ist.
+1. Vergewissern Sie sich bei Ihrem Adobe-Kundenbetreuungsteam, dass [!UICONTROL Account Type] für das DSP Ihrer Organisation korrekt ist.
 
 1. Vergewissern Sie sich, dass die Kategorie des Advertisers für das entsprechende Advertiser-Konto korrekt ist:
 

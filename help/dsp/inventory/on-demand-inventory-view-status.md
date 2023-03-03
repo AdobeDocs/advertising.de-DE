@@ -3,9 +3,9 @@ title: Anzeigen des Status Ihrer [!DNL On Demand] Angebote und Abonnements
 description: Erfahren Sie, wie Sie den Status Ihrer [!DNL On Demand] Angebote und Abonnements bearbeiten.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Die Genehmigung oder Ablehnung eines Herausgebers kann auf dem Kontotyp und der 
 
    Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![Abgelehnt](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung eine Lösung ist, können Sie [erneut die Vereinbarung anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-Wenden Sie sich bei Fragen zum Validierungsprozess an Ihren [!DNL Adobe] Account-Team.
+Wenden Sie sich bei Fragen zum Validierungsprozess an Ihr Adobe Account Team.
 
 >[!MORELIKETHIS]
 >

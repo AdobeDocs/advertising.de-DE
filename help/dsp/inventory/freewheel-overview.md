@@ -3,9 +3,9 @@ title: Übersicht über das Einrichten von PG-Angeboten in [!DNL Freewheel]
 description: Erfahren Sie mehr über die Voraussetzungen und zusätzlichen Schritte, die zum Ausführen von Anzeigen für programmgesteuerte garantierte Angebote für Herausgeber erforderlich sind in [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Einrichten programmgesteuerter garantierter Angebote für Herausgeber in [!DNL F
 
 >[!PREREQUISITES]
 >
->Arbeiten mit [!DNL Adobe] Kontoteam, um sicherzustellen, dass Ihre [!DNL DSP] -Konto hat die folgenden Berechtigungen:
+>Arbeiten Sie mit Ihrem Adobe Account-Team zusammen, um sicherzustellen, dass Ihre [!DNL DSP] -Konto hat die folgenden Berechtigungen:
 >
 >* Berechtigung zur Verwendung der [!DNL FreeWheel] programmgesteuerter garantierter Workflow, der erforderlich ist, um eine Anzeige für einen programmgesteuerten garantierten Deal zu senden, um [!DNL FreeWheel].
 >

@@ -3,9 +3,9 @@ title: Benutzerdefiniertes Ziel erstellen
 description: Benutzerdefiniertes Ziel erstellen
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können benutzerdefinierte Ziele als *Ziele* Innerhalb [!DNL Adobe Advertising Search].
 
-Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL Search] -Konto mit derselben Adobe Experience Cloud-Organisations-ID aus der [!DNL Search] Clienteinstellungen. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search] -Konto, kontaktieren Sie Ihre [!DNL Adobe] Account-Team.
+Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL Search] -Konto mit derselben Adobe Experience Cloud-Organisations-ID aus der [!DNL Search] Clienteinstellungen. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search] Wenden Sie sich an Ihr Adobe Account Team.
 
 >[!TIP]
 >

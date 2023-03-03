@@ -3,9 +3,9 @@ title: Zertifizierte Ad Serving-Partner
 description: Alle zertifizierten Adserver und Anzeigeneinheiten anzeigen.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL Inskin] |  |  | X |  | Hohe Schlaganfälle (einschließlich Cavai-Konversationsanzeigen) müssen von einer 180 x 150 Display-Deal-ID im gesamten Inventarnetzwerk von InHautfächern bereitgestellt werden. |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  | X | 320x50 Anker, BYOC, Hover, Breakout, Breakaway und Sidekick; 300x250 Outstream, HighRise; Standard-Desktop-Anzeige (spezielle Anzeigen-Plug-in-IDs sind nicht erforderlich); Video Anchor (nur VAST)</br></br>Wenden Sie sich an [!DNL Adobe] Account-Team für Unterstützung bei der Einrichtung von Anzeigeneinheiten. |
+| [!DNL Kargo] |  | X |  | X | 320x50 Anker, BYOC, Hover, Breakout, Breakaway und Sidekick; 300x250 Outstream, HighRise; Standard-Desktop-Anzeige (spezielle Anzeigen-Plug-in-IDs sind nicht erforderlich); Video Anchor (nur VAST)</br></br>Wenden Sie sich an Ihr Adobe Account Team, um Unterstützung beim Einrichten von Werbeeinheiten zu erhalten. |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |

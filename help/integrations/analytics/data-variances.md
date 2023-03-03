@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '3279'
+source-wordcount: '3282'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Wenn ein Reporting-Lookback-Fenster oder Attributionsmodell in einem Produkt und
 
 >[!IMPORTANT]
 >
->Es empfiehlt sich, in der Adobe Advertising und in der [!DNL Analytics]. Arbeiten mit [!DNL Adobe] Kontoteam nach Bedarf, um die aktuellen Einstellungen zu identifizieren und die Konfigurationen zu synchronisieren.
+>Es empfiehlt sich, in der Adobe Advertising und in der [!DNL Analytics]. Arbeiten Sie bei Bedarf mit Ihrem Adobe Account Team zusammen, um die aktuellen Einstellungen zu ermitteln und die Konfigurationen zu synchronisieren.
 
 Diese Konzepte gelten für alle anderen Kanäle wie Kanäle, die unterschiedliche Lookback-Fenster oder Attributionsmodelle verwenden.
 
@@ -168,7 +168,7 @@ In Adobe Advertising-Berichten können Sie Klicks auf ähnliche Weise mit Instan
 Clicks to [EF ID Instances = (ef_id_instances / Clicks)
 ```
 
-Obwohl Sie eine hohe Übereinstimmungsrate zwischen der AMO-ID und der EF-ID erwarten sollten, erwarten Sie keine 100-%-Parität, da AMO-ID und EF-ID verschiedene Daten grundsätzlich verfolgen. Dieser Unterschied kann zu leichten Unterschieden in der Gesamtsumme führen [!UICONTROL AMO ID Instances] und [!UICONTROL EF ID Instances]. Wenn die Summe [!UICONTROL AMO ID Instances] in [!DNL Analytics] unterscheidet sich von [!UICONTROL EF ID Instances] in der Adobe-Werbung um mehr als 1 %, kontaktieren Sie jedoch Ihre [!DNL Adobe] Account-Team für Hilfe.
+Obwohl Sie eine hohe Übereinstimmungsrate zwischen der AMO-ID und der EF-ID erwarten sollten, erwarten Sie keine 100-%-Parität, da AMO-ID und EF-ID verschiedene Daten grundsätzlich verfolgen. Dieser Unterschied kann zu leichten Unterschieden in der Gesamtsumme führen [!UICONTROL AMO ID Instances] und [!UICONTROL EF ID Instances]. Wenn die Summe [!UICONTROL AMO ID Instances] in [!DNL Analytics] unterscheidet sich von [!UICONTROL EF ID Instances] in der Adobe-Werbung um mehr als 1 %, wenden Sie sich jedoch an Ihr Adobe-Kundenbetreuungsteam, um Hilfe zu erhalten.
 
 Weitere Informationen zur AMO-ID und zur EF ID finden Sie unter [Von Analytics verwendete Adobe Advertising-IDs](ids.md).
 
@@ -198,7 +198,7 @@ wobei die EF-ID &quot;`test_ef_id`und die AMO-ID lautet &quot;.`test_amo_id#redi
 
 In diesem Beispiel fügt das Hinzufügen des Anker-Tags der AMO-ID unerwartete Zeichen hinzu, was zu einem Wert führt, den Analytics nicht erkennt. Diese AMO-ID würde nicht klassifiziert und die mit ihr verknüpften Konversionen würden unter &quot;[!UICONTROL unspecified]&quot; oder &quot;[!UICONTROL none]&quot; [!DNL Analytics] Berichte.
 
-Glücklicherweise sind Probleme wie dieses häufig, führen aber normalerweise nicht zu einem hohen Prozentsatz an Diskrepanzen. Wenn Sie jedoch eine große Diskrepanz zwischen AMO-IDs in [!DNL Analytics] und EF-IDs in der Adobe Advertising, kontaktieren Sie Ihre [!DNL Adobe] Account-Team für Hilfe.
+Glücklicherweise sind Probleme wie dieses häufig, führen aber normalerweise nicht zu einem hohen Prozentsatz an Diskrepanzen. Wenn Sie jedoch eine große Diskrepanz zwischen AMO-IDs in [!DNL Analytics] und EF IDs in Adobe Advertising, wenden Sie sich an Ihr Adobe Account Team, um Hilfe zu erhalten.
 
 ## Andere Metrikaspekte
 

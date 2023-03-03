@@ -3,9 +3,9 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 
 * **[!UICONTROL Device Targeting]**:
    * Einschließen [!UICONTROL Computer], [!UICONTROL Mobile]und [!UICONTROL Tablet].
-   * Keine Zielgruppe [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Targeting- und Messbeschränkungen. Wenden Sie sich an [!DNL Adobe] Account-Team für weitere Informationen [!DNL Adobe] Unterstützung für [!DNL Safari ITP].
+   * Keine Zielgruppe [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Targeting- und Messbeschränkungen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team [!DNL Adobe] Unterstützung für [!DNL Safari ITP].
    * Wenn Sie mobilen Webtraffic als Ziel auswählen, deaktivieren Sie alle mobilen Browser außer [!UICONTROL Chrome] und [!UICONTROL Edge].
 
 ### Markensicherheit und Medienqualität

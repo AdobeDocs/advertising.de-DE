@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 
-Jede Organisation mit mehreren DSP-Konten kann je nach den Anforderungen der Organisation in benutzerdefinierten Berichten optional kontoübergreifende Daten aktivieren. Sie können beispielsweise Konto A Zugriff auf die Daten von Konto B gewähren und Konto B Zugriff auf die Daten von Konto C gewähren (jedoch nicht auf Konto As). Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihren [!DNL Adobe] Account-Team.
+Jede Organisation mit mehreren DSP-Konten kann je nach den Anforderungen der Organisation in benutzerdefinierten Berichten optional kontoübergreifende Daten aktivieren. Sie können beispielsweise Konto A Zugriff auf die Daten von Konto B gewähren und Konto B Zugriff auf die Daten von Konto C gewähren (jedoch nicht auf Konto As). Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihr Adobe Account Team.
 
 Sobald die Funktion für Ihre Organisation aktiviert wurde, können Sie [filter](report-settings.md) einen der folgenden Berichtstypen nach Konto:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]und [!UICONTROL Conversion].
 

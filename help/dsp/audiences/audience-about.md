@@ -3,9 +3,9 @@ title: Über Zielgruppen-Management in Advertising DSP
 description: Erfahren Sie mehr über die Funktionen des Zielgruppen-Managements.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP ist ein integriertes Ziel für [die [!DNL Adobe Real-Time Customer Data Prof
 
 DSP können auch benutzerdefinierte Drittanbietersegmente importieren, einschließlich komplexer Kombinationen von Drittanbietersegmenten. Sie können die Segmente nach Bedarf für beliebige Advertiser bereitstellen.
 
-Wenden Sie sich an [!DNL Adobe] Account-Team für weitere Informationen.
+Wenden Sie sich für weitere Informationen an Ihr Adobe Account Team.
 
 ## Als Platzierungsziele verfügbare Zielgruppen
 
@@ -104,11 +104,11 @@ Die [!UICONTROL Segments] -Ansicht listet auch die folgenden Segmenttypen auf:
 
 * Alle importierten Erstanbietersegmente, die für den Benutzer verfügbar sind.
 
-   Sie können keine Erstanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an [!DNL Adobe] Account-Team , wenn Sie Erstanbietersegmente für zusätzliche Benutzer freigeben müssen.
+   Sie können keine Erstanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam, wenn Sie Erstanbietersegmente für weitere  freigeben möchten.
 
 * Alle benutzerdefinierten Drittanbietersegmente, die für den Benutzer verfügbar sind.
 
-   Sie können keine Segmente von Drittanbietern bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an [!DNL Adobe] Account-Team , wenn Sie Segmente von Drittanbietern für zusätzliche Benutzer freigeben müssen.
+   Sie können keine Segmente von Drittanbietern bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam, wenn Sie Segmente von Drittanbietern für weitere  freigeben möchten.
 
 >[!MORELIKETHIS]
 >

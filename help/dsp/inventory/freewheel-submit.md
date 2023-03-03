@@ -3,7 +3,7 @@ title: Senden einer Anzeige für ein PG-Deal an [!DNL FreeWheel]
 description: Erfahren Sie, wie Sie eine Genehmigung für eine Anzeige für ein programmgesteuertes garantiertes Geschäft mit einem Herausgeber anfordern können in [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Einmal [akzeptieren programmgesteuertes garantiertes Geschäft mit einem Herausg
 
 >[!PREREQUISITES]
 >
->Arbeiten Sie mit Ihrem Adobe-Kundenbetreuungsteam zusammen, um sicherzustellen, dass Ihre [!DNL DSP] -Konto über die Berechtigung zum Verwenden der [!DNL FreeWheel] programmgesteuerter garantierter Workflow.
+>Arbeiten Sie mit Ihrem Adobe Account-Team zusammen, um sicherzustellen, dass Ihre [!DNL DSP] -Konto über die Berechtigung zum Verwenden der [!DNL FreeWheel] programmgesteuerter garantierter Workflow.
 
 1. Kopieren Sie den Anzeigenschlüssel für die mit der [!DNL Freewheel] handeln:
 

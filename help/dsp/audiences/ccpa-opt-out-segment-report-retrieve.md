@@ -3,9 +3,9 @@ title: Abruf von Kundenabmeldeberichten
 description: Erfahren Sie, wie Sie Berichte zu IDs abrufen, die für Opt-out-Kaufanfragen gesendet wurden.
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Sie können monatliche Berichte zu IDs abrufen, die Kunden für Opt-out-Kaufanfr
 
 >[!NOTE]
 >
->Sie können optional Verbraucherabmeldeberichte mit dem DSP abrufen. [!DNL Trafficking API]. Anweisungen finden Sie in der Dokumentation für [!DNL Trafficking API]. Wenn Ihr Unternehmen die [!DNL Trafficking API] aber an weiteren Informationen interessiert ist, kontaktieren Sie bitte Ihre [!DNL Adobe] Account-Team.
+>Sie können optional Verbraucherabmeldeberichte mit dem DSP abrufen. [!DNL Trafficking API]. Anweisungen finden Sie in der Dokumentation für [!DNL Trafficking API]. Wenn Ihr Unternehmen die [!DNL Trafficking API] aber weitere Informationen benötigen, wenden Sie sich an Ihr Adobe Account Team.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. Klicken Sie über der Segmentliste auf **[!UICONTROL Access CCPA Reports]**.

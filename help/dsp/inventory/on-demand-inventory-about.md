@@ -3,9 +3,9 @@ title: Info [!DNL On Demand] Premium-Lagerbestand
 description: Erfahren Sie mehr über die Angebote, die DSP mit Premium-Publisher-Partnern vorverhandelt hat.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Der DSP Premium-Marketplace ermöglicht Ihnen Folgendes:
 
 * Performance-Tracking mit konsolidierter Berichterstellung
 
-Sobald ein Deal genehmigt wurde, ist er als Ziel für vorhandene Platzierungen verfügbar und wird automatisch als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand] Inventar. Wenn eine Deal-Anfrage abgelehnt wird, können Sie mit Ihrem [!DNL Adobe] Account-Team , um das Problem zu lösen und dann den Deal erneut anzufordern.
+Sobald ein Deal genehmigt wurde, ist er als Ziel für vorhandene Platzierungen verfügbar und wird automatisch als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand] Inventar. Wenn eine Deal-Anfrage abgelehnt wird, können Sie mit Ihrem Adobe Account Team zusammenarbeiten, um das Problem zu beheben und dann den Deal erneut anzufordern.
 
 ## On-Demand-Ansichten
 

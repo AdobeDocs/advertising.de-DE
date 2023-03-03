@@ -3,9 +3,9 @@ title: Überprüfen Sie den Status von Anzeigen auf einen [!DNL FreeWheel] PG-De
 description: Erfahren Sie, wie Sie den Status von Anzeigen für [!DNL Freewheel] programmgesteuerte garantierte Angebote.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Überprüfen Sie, ob Ihre Anzeige an [!DNL Freewheel] erfolgreich waren. Sie können jede beliebige Anzeige bei Bedarf erneut einreichen.
 
-Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Einreichung an Ihren [!DNL Adobe] Account-Team.
+Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlung an Ihr Adobe Account Team.
 
 ## Überprüfen Sie den Status über die [!UICONTROL Ads] Ansicht
 

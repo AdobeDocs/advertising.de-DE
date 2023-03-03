@@ -3,9 +3,9 @@ title: Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Q
 description: Erfahren Sie mehr über die Aufnahme von Erstanbietersegmenten aus einer Kundendatenplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Weitere Informationen zu Zielen finden Sie in der Experience Platform [Zielhandb
 
 1. [Konfigurieren Sie eine [!DNL Real-Time CDP] Zielverbindung in Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
-Weitere Unterstützung erhalten Sie bei Ihrem [!DNL Adobe] Kontoteam oder `adcloud-support@adobe.com`.
+Wenden Sie sich für zusätzlichen Support an Ihr Adobe Account Team oder `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

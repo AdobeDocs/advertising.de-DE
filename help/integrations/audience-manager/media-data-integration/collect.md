@@ -3,9 +3,9 @@ title: Erfassen von Klick- und Impressionsdaten aus Advertising DSP Kampagnen
 description: Erfahren Sie, wie Sie Cookie-basierte Impressions- und Klickereignisse aus Anzeigen in Advertising DSP mit Audience Manager-Pixeln erfassen.
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Erstellen Sie in Audience Manager eine [Datenquelle](https://experienceleague.ad
 
 ## Schritt 2: Implementieren von Impression- und Klickereignis-Pixeln auf Webseiten {#implement-dsp-pixels}
 
-Advertiser können Ereignis-Tags für ihre eigenen Marken erstellen und implementieren. Wenden Sie sich bei Bedarf an Ihren Adobe Audience Manager-Berater oder an Ihren [!DNL Adobe] Kundenbetreuer für Support.
+Advertiser können Ereignis-Tags für ihre eigenen Marken erstellen und implementieren. Wenden Sie sich bei Bedarf an Ihren Adobe Audience Manager-Berater oder an Ihr Adobe Account-Team, um Support zu erhalten.
 
 >[!NOTE]
 >

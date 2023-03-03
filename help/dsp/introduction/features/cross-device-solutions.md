@@ -3,9 +3,9 @@ title: Geräteübergreifende Lösungen
 description: Erfahren Sie mehr über geräteübergreifende Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf
 
 ### Benutzerbasierte Attributionsmessung aktivieren
 
-Wenden Sie sich an Ihren [!DNL Adobe] Account-Team.
+Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die geräteübergreifende Zuordnungsmessung aktivieren möchten.
 
 ### Einrichten von Konversionsberichten für die geräteübergreifende Konversionszuordnung
 

@@ -3,9 +3,9 @@ title: 'Adobe Advertising-Unterstützung für den California Consumer Privacy Ac
 description: Erfahren Sie mehr über die Unterstützung für die Erfassung von Opt-out-Anfragen von Verbrauchern.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Sie können Links zu den monatlichen Berichten abrufen, die in den letzten drei 
 
 Diese Funktion steht Unternehmen zur Verfügung, die die [!DNL Trafficking API]. Die Dokumentation finden Sie in der [!DNL Trafficking API] für weitere Informationen.
 
-Wenn Ihr Unternehmen die [!DNL Trafficking API] aber an weiteren Informationen interessiert ist, kontaktieren Sie bitte Ihre [!DNL Adobe] Account-Team.
+Wenn Ihr Unternehmen die [!DNL Trafficking API] aber weitere Informationen benötigen, wenden Sie sich an Ihr Adobe Account Team.
 
 ## Anhang: Beispiel [!UICONTROL CCPA Opt-Out-of-Sale] Anfrage für Privacy Service-API-Benutzer
 

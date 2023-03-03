@@ -3,16 +3,16 @@ title: Wie DSP Ihre Kampagnen optimiert
 description: Erfahren Sie, wie DSP die Pakete in Ihren Kampagnen optimiert.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Wie Werbung DSP Ihre Kampagnen optimiert
 
-Auf dieser Seite wird beschrieben, wie die DSP Optimierungs-Engine, die von [!DNL Adobe Sensei], optimiert die Pakete in Ihren Kampagnen. Tipps und Tricks zur manuellen Optimierung Ihrer Kampagnen erhalten Sie von Ihrem [!DNL Adobe] Account-Team. <!-- add link to trading playbook if we add it to help -->
+Auf dieser Seite wird beschrieben, wie die DSP Optimierungs-Engine, die von [!DNL Adobe Sensei], optimiert die Pakete in Ihren Kampagnen. Tipps und Tricks zur manuellen Kampagnenoptimierung erhalten Sie von Ihrem Adobe Account Team. <!-- add link to trading playbook if we add it to help -->
 
 Die Ziele der Paketoptimierung sind auf zwei Ebenen möglich:
 

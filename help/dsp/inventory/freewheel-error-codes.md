@@ -3,9 +3,9 @@ title: Fehlercodes für [!DNL FreeWheel] Anzeigenübermittlungen
 description: Referenzieren Sie die Fehlercodes, die für Anzeigenübermittlungen an zurückgegeben werden. [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,13 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 
 | Code | Bedeutung | Beschreibung | Nächste Schritte |
 |--- |--- |--- |--- |
-| 401 | Unerlaubt | Falsche, fehlende oder ungültige Zugriffsberechtigungen. | Wenden Sie sich an [!DNL Adobe] Account-Team. |
-| 403 | Verboten | Der Server hat die Anfrage verstanden, weigert sich jedoch, sie zu autorisieren. | Wenden Sie sich an [!DNL Adobe] Account-Team. |
-| 404 | Nicht gefunden | Die angeforderte Ressource ist nicht verfügbar. Wenn die Creative-ID im PUT-Vorgang nicht gefunden wird, wird ein 404-Fehler zurückgegeben. | Wenden Sie sich an [!DNL Adobe] Account-Team. |
-| 405 | Methode nicht zulässig | Eine Ressourcenanforderung erfolgte mithilfe einer Anforderungsmethode, die von dieser Ressource nicht unterstützt wurde (z. B. mithilfe von GET für eine Methode, bei der Daten über eine POST gesendet werden müssen, oder mittels PUT für eine schreibgeschützte Ressource). | Wenden Sie sich an [!DNL Adobe] Account-Team. |
-| 408 | Anfrage-Timeout | Während der Verarbeitung dieser Anfrage trat eine Zeitüberschreitung auf. Timeouts werden in der Regel durch gleichzeitige Anforderungen an den ausschließlichen Zugriff auf bestimmte Ressourcen verursacht. | Senden Sie die Anfrage erneut, wenn Sie diesen Status erhalten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren [!DNL Adobe] Account-Team. |
-| 422 | Nicht verarbeitbare Entität | Ungültige Ressource. Dieser Fehler tritt auf, wenn der Anfragetext ungültig ist oder die erstellte/aktualisierte Ressource ungültig ist (z. B. wenn die Angebots-ID nicht gefunden wurde). Siehe [Fehler der FreeWheel API 422](#freewheel-422-errors) für weitere Informationen. | Wenden Sie sich an [!DNL Adobe] Account-Team. |
-| 500 | Interner Server-Fehler | API-Systemfehler. | Wenden Sie sich an [!DNL Adobe] Account-Team. |
+| 401 | Unerlaubt | Falsche, fehlende oder ungültige Zugriffsberechtigungen. | Wenden Sie sich an Ihr Adobe Account Team. |
+| 403 | Verboten | Der Server hat die Anfrage verstanden, weigert sich jedoch, sie zu autorisieren. | Wenden Sie sich an Ihr Adobe Account Team. |
+| 404 | Nicht gefunden | Die angeforderte Ressource ist nicht verfügbar. Wenn die Creative-ID im PUT-Vorgang nicht gefunden wird, wird ein 404-Fehler zurückgegeben. | Wenden Sie sich an Ihr Adobe Account Team. |
+| 405 | Methode nicht zulässig | Eine Ressourcenanforderung erfolgte mithilfe einer Anforderungsmethode, die von dieser Ressource nicht unterstützt wurde (z. B. mithilfe von GET für eine Methode, bei der Daten über eine POST gesendet werden müssen, oder mittels PUT für eine schreibgeschützte Ressource). | Wenden Sie sich an Ihr Adobe Account Team. |
+| 408 | Anfrage-Timeout | Während der Verarbeitung dieser Anfrage trat eine Zeitüberschreitung auf. Timeouts werden in der Regel durch gleichzeitige Anforderungen an den ausschließlichen Zugriff auf bestimmte Ressourcen verursacht. | Senden Sie die Anfrage erneut, wenn Sie diesen Status erhalten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
+| 422 | Nicht verarbeitbare Entität | Ungültige Ressource. Dieser Fehler tritt auf, wenn der Anfragetext ungültig ist oder die erstellte/aktualisierte Ressource ungültig ist (z. B. wenn die Angebots-ID nicht gefunden wurde). Siehe [Fehler der FreeWheel API 422](#freewheel-422-errors) für weitere Informationen. | Wenden Sie sich an Ihr Adobe Account Team. |
+| 500 | Interner Server-Fehler | API-Systemfehler. | Wenden Sie sich an Ihr Adobe Account Team. |
 
 {style=&quot;table-layout:auto&quot;}
 

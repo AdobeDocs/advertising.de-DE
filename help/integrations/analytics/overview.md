@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Primäre Vorteile:
 
 Verwendung [!DNL Analytics] als Reporting-Tool für gebührenpflichtige Medien benötigt Ihr Unternehmen eine Experience Cloud-Anmeldung mit Zugriff auf Analysis Workspace. Ihr Adobe Advertising-Team hilft Ihnen dabei, Ihre Adobe Advertising-Daten einzelnen Report Suites in Analysis Workspace zuzuordnen. Sie können Adobe Advertising-Daten an eine beliebige Report Suite senden. Beachten Sie jedoch die Report Suites, die der Adobe Advertising zugeordnet wurden, und jene, die dies nicht getan haben. Abhängig von der Report Suite kann dies die gemeldeten Daten ändern.
 
-[Adobe Advertising-IDs in [!DNL Analytics]](ids.md) funktioniert wie andere eVars mit einem benutzerdefinierten, beständigen Ablauf. Standardmäßig ist das Attributions-Lookback-Fenster während der Adobe Advertising-Implementierung auf 60 Tage eingestellt. Wenden Sie sich an Ihre [!DNL Adobe] Account-Team.
+[Adobe Advertising-IDs in [!DNL Analytics]](ids.md) funktioniert wie andere eVars mit einem benutzerdefinierten, beständigen Ablauf. Standardmäßig ist das Attributions-Lookback-Fenster während der Adobe Advertising-Implementierung auf 60 Tage eingestellt. Wenden Sie sich an Ihr Adobe Account Team, um diese Einstellung zu ändern.
 
 Adobe Advertising-Dimensionen werden mit dem Suffix &quot;(AMO-ID)&quot;angehängt (z. B. &quot;Anzeigentyp (AMO-ID)&quot;). Siehe[Adobe Advertising-Metriken in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; für eine Liste der verfügbaren Dimensionen.
 

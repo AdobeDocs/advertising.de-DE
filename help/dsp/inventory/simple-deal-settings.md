@@ -3,9 +3,9 @@ title: '[!UICONTROL Simple Ad Serving] Deal Settings'
 description: Erfahren Sie mehr über die verfügbaren Einstellungen für [!UICONTROL Simple Ad Serving] Angebote.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | Parameter | Beschreibung |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | Der Medientyp für diesen Deal: *[!UICONTROL Video],* *[!UICONTROL Display],* oder *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | Der Name des Herausgebers, der diesen Bestand verkauft. Suchen Sie nach einem Herausgeber, indem Sie mindestens die ersten beiden Zeichen in den Namen eingeben. Wenden Sie sich an Ihren [!DNL Adobe] Account-Team. |
+| **[!UICONTROL Publisher Site Served On]** | Der Name des Herausgebers, der diesen Bestand verkauft. Suchen Sie nach einem Herausgeber, indem Sie mindestens die ersten beiden Zeichen in den Namen eingeben. Wenden Sie sich an Ihr Adobe Account Team, um einen nicht aufgelisteten Herausgeber hinzuzufügen. |
 | **[!UICONTROL Advertiser]** | Ein einzelner Advertiser im Konto, der auf diesen Deal zugreifen kann. Wählen Sie außerdem die Kampagne und (optional) das Paket aus, in dem der Deal verfügbar ist. |
 | **[!UICONTROL Media Quality Assessment?]** | (Manche Benutzer) Aktiviert die Anzeige, auf einer anderen DSP zur Überprüfung durch Drittanbieter ausgeführt zu werden. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | Die einzige Option ist *[!UICONTROL Site Serve (Event Pixels)]*. |
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | Parameter | Beschreibung |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Die Kosten pro 1000 Impressionen (CPM), wie in der Preiskarte für Ihren Vertrag dargestellt. Wenden Sie sich an [!DNL Adobe] Account-Team für diesen Wert. <br><br>Geben Sie auch die Währung für das Geschäft an. Alle Benutzer können USD auswählen oder, wenn die SSP zusätzliche Währungen unterstützt, die Währung für das DSP. |
+| **[!UICONTROL Media CPM]** | Die Kosten pro 1000 Impressionen (CPM), wie in der Preiskarte für Ihren Vertrag dargestellt. Wenden Sie sich für diesen Wert an Ihr Adobe Account Team. <br><br>Geben Sie auch die Währung für das Geschäft an. Alle Benutzer können USD auswählen oder, wenn die SSP zusätzliche Währungen unterstützt, die Währung für das DSP. |
 | **[!UICONTROL Third Party Billed Fees]** | (Optional) Eine statische Drittanbietergebühr, die als nicht abrechnungsfähige Kosten verfolgt werden soll, sowie die Währung für die Transaktion.<br><br>Alle Benutzer können USD auswählen oder, wenn die SSP zusätzliche Währungen unterstützt, die Währung für das DSP. **HINWEIS:** Abrechenbare Gebühren werden im [!UICONTROL Net CPM] Metrik. |
 | **[!UICONTROL Third Party Fee Description]** | (Optional) Eine Beschreibung der Drittanbietergebühren. |
 | **[!UICONTROL Flight Dates]** | Die Start- und Enddaten für Traffic, der diesen Deal verwendet. Die Flugdaten müssen innerhalb der Flugdaten der Kampagne angegeben werden. Die Anzeigen-Tags geben nur während des angegebenen Fluges eine Antwort zurück.<br><br> Es empfiehlt sich, eine separate einfache Werbekampagne mit einer Jahresdauer zu erstellen und darin Trackingpixel zu erstellen. |

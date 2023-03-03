@@ -3,9 +3,9 @@ title: Von [!DNL Analytics]
 description: Von [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ wobei:
 * `{userid}` ist die eindeutige numerische Benutzer-ID, die Adobe Advertising dem Advertiser zuweist.
 * `{sid}` ist die numerische ID, die Adobe Advertising für das angegebene Werbenetzwerk verwendet, z. B. `3` für [!DNL Google Ads] oder `10` für [!DNL Microsoft Advertising].
 
-Im Folgenden finden Sie die vollständigen AMO ID-Formate für einige Werbenetzwerke. Wenden Sie sich bei AMO-ID-Formaten für andere Werbenetzwerke an Ihren [!DNL Adobe] Account-Team.
+Im Folgenden finden Sie die vollständigen AMO ID-Formate für einige Werbenetzwerke. Wenden Sie sich für AMO-ID-Formate für andere Werbenetzwerke an Ihr Adobe Account Team.
 
 AMO-ID-Format für [!DNL Google Ads]:
 

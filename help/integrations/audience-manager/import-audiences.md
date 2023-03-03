@@ -3,9 +3,9 @@ title: Importieren von Adobe Audience Manager-Segmenten für Anzeigen-Targeting
 description: Erfahren Sie, wie Sie Ihre [!DNL Adobe] Zielgruppen in Advertising DSP und Suche mithilfe von Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ So greifen Sie auf [!DNL Adobe] Zielgruppen in DSP oder [!DNL Creative], müssen
 
 Die [!DNL Adobe] Teams für Konto- und Datenoperationen führen die folgenden Schritte aus.
 
-1. Die [!DNL Adobe] Account-Team sollte die Einstellung auf Advertiser-Ebene konfigurieren &quot;[!UICONTROL Adobe Analytics Cloud].&quot;
+1. Das Adobe Account Team sollte die Einstellung auf Advertiser-Ebene konfigurieren &quot;[!UICONTROL Adobe Analytics Cloud].&quot;
 
-1. Die [!DNL Adobe] Kontoteam sollte eine Anfrage senden<!-- Submit a request as a JIRA task? --> an das Dateneinsatzteam<!-- implementation team? --> , um mithilfe der Advertising DSP nativen API-Integration die Audience Manager-Segmente des Unternehmens zu importieren.
+1. Das Adobe Account Team sollte eine Anfrage senden<!-- Submit a request as a JIRA task? --> an das Dateneinsatzteam<!-- implementation team? --> , um mithilfe der Advertising DSP nativen API-Integration die Audience Manager-Segmente des Unternehmens zu importieren.
 
 ### Welche Veränderungen führen zu Audience Manager?
 
@@ -76,7 +76,7 @@ Die API automatisch:
 
 [!DNL Adobe] Das Personal führt die meisten oder alle der folgenden Schritte aus.
 
-1. Die [!DNL Adobe] Das Account-Team sollte eine Anfrage an das Dateneinsatzteam senden, um eine Integration zwischen [!DNL Search] und Audience Manager. Beziehen Sie die Namen der Audience Manager-Segmente ein, in die Sie exportieren möchten [!DNL Search].
+1. Das Adobe Account Team sollte eine Anfrage an das Dateneinsatzteam senden, um eine Integration zwischen [!DNL Search] und Audience Manager. Beziehen Sie die Namen der Audience Manager-Segmente ein, in die Sie exportieren möchten [!DNL Search].
 
 1. Konfigurieren Sie in Audience Manager Ziele für [!DNL Search]:
 

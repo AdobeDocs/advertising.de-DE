@@ -3,9 +3,9 @@ title: Verfügbare Drittanbieter-Datenanbieter in Advertising DSP
 description: Sehen Sie sich eine Liste aller verfügbaren Datenanbieter von Drittanbietern an.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Die Gebühr für die Verwendung der einzelnen Segmente wird neben dem Segmentnam
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Weitere Informationen zum Importieren von benutzerdefinierten Drittanbietersegmenten für Ihr Konto erhalten Sie von Ihrem [!DNL Adobe] Account-Team.
+Weitere Informationen zum Importieren von benutzerdefinierten Drittanbietersegmenten für Ihr Konto erhalten Sie von Ihrem Adobe Account Team.
 
 >[!MORELIKETHIS]
 >
