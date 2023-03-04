@@ -2,7 +2,7 @@
 title: Erweiterte Messlösungen
 description: Sehen Sie sich eine Liste der verfügbaren Lösungen für erweiterte Messungen an.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
 ## Weitere Informationen
 
-Informationen zu allen erweiterten Messlösungen, Preisinformationen sowie verfügbare Formate und Regionen für jede Lösung erhalten Sie von Ihrem [!DNL Adobe] Customer Success Manager. Lösungsspezifische Fallstudien sind auch auf Anfrage verfügbar.
+Wenden Sie sich an Ihr Adobe Account Team, um Informationen zu allen erweiterten Messlösungen zu erhalten und Preisinformationen sowie verfügbare Formate und Regionen für jede Lösung aufzulisten. Lösungsspezifische Fallstudien sind auch auf Anfrage verfügbar.
