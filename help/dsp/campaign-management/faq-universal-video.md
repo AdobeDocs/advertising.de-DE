@@ -2,14 +2,14 @@
 title: Häufig gestellte Fragen zu universellen Videos
 description: Erfahren Sie mehr über universelle Videoanzeigen.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# # Häufig gestellte Fragen zu universellen Videos
+# Häufig gestellte Fragen zu universellen Videos
 
 ## Wie werden universelle Videoplatzierungen und -anzeigen erstellt?
 
@@ -23,7 +23,11 @@ Erstellen Sie sie ähnlich wie andere Platzierungs- und Videotypen:
 
 1. In derselben Kampagne wie der Platzierung für universelle Videos [einzelne universelle Videoanzeige erstellen](/help/dsp/campaign-management/ads/ad-create.md) oder [Erstellen mehrerer universeller Videoanzeigen](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Wenn Sie mehrere Anzeigen erstellen, geben Sie &quot;[!UICONTROL Universal Video]&quot; als [!UICONTROL Ad Type]. Für [!DNL Google] oder [!DNL Flashtalking] Anzeigen, klicken Sie nach dem Hochladen der Datei auf das Feld Anzeigentyp im[!UICONTROL Review ad types]&quot; und bearbeiten Sie es. Geben Sie für andere Arten von Anzeigen-Tags den Anzeigentyp in der hochgeladenen Tabellendatei an.
+   Wenn Sie mehrere Anzeigen erstellen, geben Sie &quot;[!UICONTROL Universal Video]&quot; als [!UICONTROL Ad Type]:
+
+   * Für [!DNL Google] oder [!DNL Flashtalking] Anzeigen: Im[!UICONTROL Review ad types]&quot; Schritt nach dem Hochladen der Datei klicken Sie auf das **[!UICONTROL Ad Type]** Feld und wählen Sie **[!UICONTROL Universal Video]**.
+
+   * Für andere Arten von Anzeigen-Tags: Geben Sie in der hochgeladenen Tabellendatei für jede Anzeige das Feld Anzeigentyp als **[!UICONTROL Universal Video]**.
 
 1. [Öffnen Sie die Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-edit.md) für jede neue Anzeige und wählen Sie das entsprechende Videoformat aus:
 
