@@ -3,9 +3,9 @@ title: Universelle Videoanzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für universelle Videoanzeigen.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Universelle Videoanzeigeneinstellungen
 
 *Open-Beta-Funktion*
+
+>[!NOTE]
+>
+>Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Das Format des Anzeigen-Players für das potenzielle Inventar: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* oder *[!UICONTROL VAST]*. Die Sichtbarkeit wird immer für [!UICONTROL VPAID], aber [!UICONTROL VPAID & VAST] enthält Inventar, das keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
 
-Verwendung *[!UICONTROL VAST]*, was keine Sichtbarkeitsmessung zulässt, wenn Sie angeschlossene Fernsehgeräte oder Inventare auswählen, für die ausschließlich das VAST-Format erforderlich ist (normalerweise aus Versorgungsquellen wie Google Ad Manager, Appnexus, SpotX und Freewheel).
+Verwendung [!UICONTROL VAST], was keine Sichtbarkeitsmessung zulässt, wenn Sie angeschlossene Fernsehgeräte oder Inventare auswählen, für die ausschließlich das VAST-Format erforderlich ist (normalerweise aus Versorgungsquellen wie Google Ad Manager, Appnexus, SpotX und Freewheel). Verwenden Sie diese Option auch für das Inventar, das zuvor mit VAST-Platzierungen (Standard Pre-roll) oder Phone + Tablet Standard Pre-Roll (VAST)-Platzierungen/-Anzeigen kompatibel war.
 
 **[!UICONTROL Clock Number]**: (nur im Vereinigten Königreich verwendet; nur für Benutzer mit Berechtigung verfügbar) Eine eindeutige ID, mit der sichergestellt wird, dass die richtige Anzeige gesendet wird. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
 
@@ -72,6 +76,7 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 
 >[!MORELIKETHIS]
 >
+>* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Über die Anzeigenverwaltung](ad-about.md)
 >* [Einzelne Anzeige erstellen](ad-create.md)
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](/help/dsp/campaign-management/ads/ad-list-placements.md)

@@ -3,7 +3,7 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 >[!NOTE]
 >
 >* Sie können Frequenzobergrenzen auf Kampagnen-, Paket- und Platzierungsebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
->* Die Best Practice besteht darin, Frequenzobergrenzen für die Prospektion und Retargeting auf Paketebene festzulegen.
+>* Die Best Practice besteht darin, Frequenzobergrenzen sowohl für die Prospektion als auch für das Retargeting auf Paketebene festzulegen.
 > * Höhere Frequenzobergrenzen führen zu höheren Ausgaben und Impressionen, aber geringerer Reichweite. Niedrigere Frequenzobergrenzen führen zu geringeren Ausgaben und Impressionen, aber zu höherer Reichweite.
 
 
@@ -121,5 +121,5 @@ Geben Sie für jeden Flug das Startdatum, das Enddatum und die Zielanzahl der Im
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Platzierung an ein Paket anhängen](package-attach-placement.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
->* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

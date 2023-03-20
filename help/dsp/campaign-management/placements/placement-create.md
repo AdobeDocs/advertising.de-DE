@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0b8162a757c9695504ffdfdc450ed7254d823825
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 1. Geben Sie die [Platzierungseinstellungen](placement-settings.md):
 
-   1. Geben Sie die [!UICONTROL Basics] -Einstellungen.
+   1. Geben Sie die [!UICONTROL Placement Basics] -Einstellungen.
 
    1. Im [!UICONTROL Goals] -Abschnitt, geben Sie die [!UICONTROL Gross Budget] und optional zusätzliche Platzierungsziele angeben.
 
@@ -53,10 +53,10 @@ ht-degree: 1%
       1. Schränken Sie die Zielgruppe ein. Dazu gehört die Auswahl von Zielgruppensegmenten für das Targeting innerhalb der Platzierung.
 
          Für [!DNL Roku] Platzierungen, können Sie [DSP eindeutige Zielgruppenübereinstimmung mit [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) durch Einschließen eines oder mehrerer Zielgruppensegmente, die mit der [!DNL Roku] (Opt-in) deterministischer Datensatz.
-   1. (Für Kampagnen mit geräteübergreifendem Targeting auf Benutzerebene; (optional) Wenn die Platzierung auf eine oder mehrere spezifische Zielgruppen ausgerichtet ist, aktivieren Sie benutzerbasiertes geräteübergreifendes Targeting für die Platzierung.
 
-      Personenbasiertes geräteübergreifendes Targeting wird bereitgestellt von [!DNL LiveRamp] ausschließlich US-Daten verwenden. Der Dienst steht allen Advertisern mit einem CPM-Preis von 0,35 USD für Impressionen zur Verfügung, die mithilfe der [!DNL LiveRamp] Gerätediagramm (d. h. für Geräte, die nicht in den Zielgruppensegmenten gefunden werden).
+      1. (Für Kampagnen mit geräteübergreifendem Targeting auf Benutzerebene; (optional) Wenn die Platzierung auf eine oder mehrere spezifische Zielgruppen ausgerichtet ist, aktivieren Sie benutzerbasiertes geräteübergreifendes Targeting für die Platzierung.
 
+         Personenbasiertes geräteübergreifendes Targeting wird bereitgestellt von [!DNL LiveRamp] ausschließlich US-Daten verwenden. Der Dienst steht allen Advertisern mit einem CPM-Preis von 0,35 USD für Impressionen zur Verfügung, die mithilfe der [!DNL LiveRamp] Gerätediagramm (d. h. für Geräte, die nicht in den Zielgruppensegmenten gefunden werden).
    1. (Optional) Im [!DNL Brand Safety and Media Targeting] sollten Sie Einschränkungen der Markensicherheit für Ihre Platzierungen anwenden.
 
    1. (Optional) Im [!DNL Tracking] Geben Sie für Anzeigen in der Platzierung Ereignispixel von Drittanbietern oder Konversionspixel ein.
@@ -79,6 +79,9 @@ ht-degree: 1%
          1. Klicken **[!UICONTROL Create a New Ad].**
 
          1. Geben Sie die Anzeigeneinstellungen für [Audio-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-audio.md), [vernetztes Fernsehen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [Display-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobile Anzeigen](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [native Anzeigen](/help/dsp/campaign-management/ads/ad-settings-native.md), [Pre-Roll-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)oder [universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         >[!NOTE]
+         >
+         >Universelle Videoplatzierungen können nur universelle Videoanzeigen enthalten.
 
          1. Klicken **[!UICONTROL Save & Submit for Review]**.
 
@@ -86,43 +89,44 @@ ht-degree: 1%
 
          1. Wenn Sie keine vorhandenen Anzeigen hinzufügen, klicken Sie auf **[!UICONTROL I'm done for now]**.
       * So fügen Sie vorhandene Anzeigen in der Kampagne hinzu:
+      1. Klicken **[!UICONTROL Select an Ad]**.
 
-         1. Klicken **[!UICONTROL Select an Ad]**.
+      1. Führen Sie einen der folgenden Schritte aus:
+
+         * So fügen Sie jeweils eine Anzeige hinzu:
+
+            1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+
+            1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Prozess.
+         * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
+
+            1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
+
+            1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
+
+            1. Klicken **[!UICONTROL Attach]**.
+
+            1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select]**.
+      1. (Optional) So überschreiben Sie die standardmäßige Flugzeit und Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
+
+         1. Klicken **[!UICONTROL Custom Schedule Ads]**.
 
          1. Führen Sie einen der folgenden Schritte aus:
 
-            * So fügen Sie jeweils eine Anzeige hinzu:
+            * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
 
-               1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+            * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie auf **[!UICONTROL +]** in der Anzeigenzeile für die Flugspalte.
 
-               1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Prozess.
-            * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
+            * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie auf **[!UICONTROL x]** in der Anzeigenzeile für die Flugspalte.
 
-               1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
+            * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie auf **[!UICONTROL Even Rotation]** in den Fluginformationen und geben Sie dann die relative Gewichtung der einzelnen Anzeigen in Prozent an.
 
-               1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
+               Die Gesamtgewichte müssen 100 betragen.
+         1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
 
-               1. Klicken **[!UICONTROL Attach]**.
+         1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
 
-               1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select]**.
-         1. (Optional) So überschreiben Sie die standardmäßige Flugzeit und Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
 
-            1. Klicken **[!UICONTROL Custom Schedule Ads]**.
-
-            1. Führen Sie einen der folgenden Schritte aus:
-
-               * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
-
-               * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie auf **[!UICONTROL +]** in der Anzeigenzeile für die Flugspalte.
-
-               * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie auf **[!UICONTROL x]** in der Anzeigenzeile für die Flugspalte.
-
-               * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie auf **[!UICONTROL Even Rotation]** in den Fluginformationen und geben Sie dann die relative Gewichtung der einzelnen Anzeigen in Prozent an.
-
-                  Die Gesamtgewichte müssen 100 betragen.
-            1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
-
-            1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
 
 
 
@@ -136,6 +140,7 @@ ht-degree: 1%
 >* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
+>* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Video: Erstellen einer standardmäßigen Anzeigeplatzierung](https://video.tv.adobe.com/v/340454)

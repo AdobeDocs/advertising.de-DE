@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad specs for forecast]:** (Nur Videoanzeigenformate) Die Anzeigendauer und/oder Anzeigenspezifikationen, die zur Berechnung der Prognoseprojektion auf der rechten Seite verwendet werden. Die Felder variieren je nach Anzeigentyp.
 
-**[!UICONTROL Environment]:** (Nur universelle Videoanzeigenformat) Die Geräteumgebungen (Desktop, Mobil, vernetztes TV), die als Ziele in die Platzierung aufgenommen werden sollen.
+**[!UICONTROL Environment]:** (Nur universelle Videoanzeigenformat) Die Geräteumgebungen (Desktop, Mobil, vernetztes TV), die als Ziele in die Platzierung aufgenommen werden sollen. Geben Sie mindestens 1 an.
 
 **[!UICONTROL Placement tags]:** (Optional) Keywords oder Spitznamen, die Sie bei der Suche nach dieser Platzierung unterstützen.
 
@@ -468,5 +468,5 @@ Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filterung vor 
 >* [Eine Platzierung bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

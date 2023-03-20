@@ -3,14 +3,18 @@ title: Eine Anzeige an eine Platzierung anhängen
 description: Erfahren Sie, wie Sie eine Anzeige an eine Platzierung anhängen.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # Eine Anzeige an eine Platzierung anhängen
+
+>[!NOTE]
+>
+>Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
 
 ## Fügen Sie eine neue Anzeige aus dem [!UICONTROL Ads] Ansicht
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [Eine Anzeige bearbeiten](ad-edit.md)
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](ad-list-placements.md)
 >* [Bearbeiten des Anzeigenzeitplans für eine Platzierung](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
 
