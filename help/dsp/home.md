@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 20. März 2023 | [!UICONTROL Campaigns] | Erfahren Sie mehr über universelle Videoplatzierungen und Anzeigen, bei denen es sich um eine offene Beta-Funktion handelt. | Siehe[Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15. Februar 2023 | [!UICONTROL Campaigns] | Optionen zum Anzeigen von Änderungsprotokollen im Diagrammformular und zum Hinzufügen von Notizen zu jedem Eintrag sind nicht in der Beta-Phase. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3. Februar 2023 | [!UICONTROL Campaigns] | (Beta-Funktionen) Sie können jetzt Änderungsprotokolle in Diagrammform anzeigen und jedem Eintrag Notizen hinzufügen. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25. Januar 2023 | [!UICONTROL Deals] | Eine neue Ausgabespalte für &quot;PG-Impression-Geschwindigkeit&quot;in der Ansicht &quot;Inventar&quot;> &quot;Angebote&quot;für garantierte Angebote sieht Berichte in Geschwindigkeit vor. | Siehe[Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 |  | [!DNL Freewheel] programmgesteuerte garantierte Deals | Sie können jetzt Anzeigen senden und den Status von Anzeigen für [!DNL Freewheel] programmgesteuerte garantierte Angebote aus dem [!UICONTROL Ads] anzeigen. Zuvor konnten Sie beide nur über die [!UICONTROL Deals] anzeigen. | Siehe[Senden Sie eine Anzeige für einen programmgesteuerten garantierten Deal an [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Gesicherte programmatische Vereinbarungen](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7. Oktober 2021 | Hilfe | Alle [DSP und andere Adobe Advertising-Dokumentation](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] ist nun maschinell in alle verfügbaren Sprachen übersetzt. Um die angezeigte Sprache zu ändern, verwenden Sie das Menü &quot;Sprache ändern&quot; unten links auf jeder Seite.<br>![Sprache ändern](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 
