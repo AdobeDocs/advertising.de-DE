@@ -3,7 +3,7 @@ title: 'Adobe Advertising-Unterstützung für den California Consumer Privacy Ac
 description: Erfahren Sie mehr über die Unterstützung für die Erfassung von Opt-out-Anfragen von Verbrauchern.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Als Dienstleister unterstützt Adobe Advertising Ihr Unternehmen bei der Erfüll
 
 In diesem Dokument wird beschrieben, wie Adobe Advertising Demand Side Platform (DSP) als Dienstleister das Verbraucherrecht unterstützt, sich vom &quot;Verkauf&quot;von &quot;personenbezogenen Daten&quot;abzumelden, da jeder Begriff vom CCPA definiert wird. Er enthält Informationen dazu, wie Sie Opt-out-Kaufanfragen an Adobe Advertising weiterleiten und wie Sie Berichte über die Opt-out-Kaufanfragen Ihres Unternehmens abrufen können.
 
-Informationen zum [!DNL Advertising Search]; Werbegestaltung; und [!DNL Advertising DCO] Unterstützung der Zugriffs- und Löschungsrechte für personenbezogene Daten von Verbrauchern, siehe [Adobe Advertising Support für den California Consumer Privacy Act: Unterstützung für Zugriff auf Kundendaten und Löschung](/help/privacy/ccpa/ccpa-access-delete.md).
+Informationen zum [!DNL Advertising Search, Social, & Commerce]; Werbegestaltung; und [!DNL Advertising DCO] Unterstützung der Zugriffs- und Löschungsrechte für personenbezogene Daten von Verbrauchern, siehe [Adobe Advertising Support für den California Consumer Privacy Act: Unterstützung für Zugriff auf Kundendaten und Löschung](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im Abschnitt [Datenschutzzentrum für Adoben](https://www.adobe.com/privacy/ccpa.html).
 
@@ -64,14 +64,14 @@ Sie können Verbraucher-Opt-out-Anfragen für den Verkauf über eine der folgend
 
    >[!IMPORTANT]
    >
-   >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens, einschließlich [!DNL DSP] Konten oder Advertiser, [!DNL Search] Konten und [!DNL Creative] oder [!DNL DCO] -Konten - sind mit Ihrer Experience Cloud-Organisations-ID verknüpft.
+   >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens, einschließlich [!DNL DSP] Konten oder Advertiser, [!DNL Search, Social, & Commerce] Konten und [!DNL Creative] oder [!DNL DCO] -Konten - sind mit Ihrer Experience Cloud-Organisations-ID verknüpft.
 
 1. Verwenden Sie die Adobe Experience Platform Privacy Service-API, um [Opt-out-of-Sale-Anfragen einreichen](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) Adobe Advertising im Namen der Verbraucher und Überprüfung des Status bestehender Anfragen.
 
    Im folgenden Anhang finden Sie ein Beispiel für eine Opt-out-Kaufanfrage.
 
    >[!NOTE]
-   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
+   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
 
 Alle diese Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit zusammenhängenden Aufgaben, die Sie mit der Adobe Experience Platform Privacy Service ausführen müssen, sowie dazu, wo Sie die benötigten Elemente finden können, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

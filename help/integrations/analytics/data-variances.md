@@ -3,7 +3,7 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Werbetreibende mit [!DNL Analytics for Advertising] <!-- (A4AdC) --> Integration
 
 Die [!DNL Analytics for Advertising] -Integration verwendet zwei Variablen (eVars oder rVars \[reservierte eVars]\), um die [EF ID und AMO ID](ids.md). Diese Variablen werden mit einem einzelnen Lookback-Fenster (dem Zeitpunkt, innerhalb dessen Clickthroughs und Durchsichten zugeordnet werden) und einem Attributionsmodell konfiguriert. Sofern nicht anders angegeben, werden die Variablen so konfiguriert, dass sie mit dem standardmäßigen Klick-Lookback-Fenster auf Advertiser-Ebene und dem Attributionsmodell in Adobe Advertising übereinstimmen.
 
-Lookback-Fenster und Attributionsmodelle können jedoch sowohl in Analytics (über die eVars) als auch in Adobe Advertising konfiguriert werden. Darüber hinaus ist das Attributionsmodell in Adobe Advertising nicht nur auf Advertiser-Ebene (zur Angebotsoptimierung), sondern auch innerhalb einzelner Datenansichten und Berichte konfigurierbar (nur zu Berichtszwecken). Eine Organisation könnte beispielsweise das Gleichheitsverteilungsattributionsmodell zur Optimierung verwenden, aber die Letztkontakt-Attribution für Berichte in Advertising DSP verwenden oder [!DNL Advertising Search]. Wenn Sie Attributionsmodelle ändern, ändert sich die Anzahl der zugeordneten Konversionen.
+Lookback-Fenster und Attributionsmodelle können jedoch sowohl in Analytics (über die eVars) als auch in Adobe Advertising konfiguriert werden. Darüber hinaus ist das Attributionsmodell in Adobe Advertising nicht nur auf Advertiser-Ebene (zur Angebotsoptimierung), sondern auch innerhalb einzelner Datenansichten und Berichte konfigurierbar (nur zu Berichtszwecken). Eine Organisation könnte beispielsweise das Gleichheitsverteilungsattributionsmodell zur Optimierung verwenden, aber die Letztkontakt-Attribution für Berichte in Advertising DSP verwenden oder [!DNL Advertising Search, Social, & Commerce]. Wenn Sie Attributionsmodelle ändern, ändert sich die Anzahl der zugeordneten Konversionen.
 
 Wenn ein Reporting-Lookback-Fenster oder Attributionsmodell in einem Produkt und nicht im anderen geändert wird, zeigen dieselben Berichte aus jedem System unterschiedliche Daten an:
 
@@ -88,7 +88,7 @@ Berücksichtigen Sie diese Unterschiede beim Vergleich von Durchsichtskonversion
 
 Liste mit [!DNL Analytics] Attributionsmodelle und ihre Definitionen unter [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-Wenn Sie angemeldet sind [!DNL Search]finden Sie eine Liste
+Wenn Sie angemeldet sind [!DNL Search, Social, & Commerce]finden Sie eine Liste
 
 * (Benutzer in Nordamerika) [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
@@ -118,7 +118,7 @@ Das Lookback-Fenster für [!DNL Marketing Channels] kann angepasst werden. In Ad
 
 ### Verschiedene Kanalzuordnung in [!DNL Marketing Channels]
 
-Adobe Advertising-Berichte erfassen nur Paid Media, die über Adobe Advertising (gebührenpflichtige Suche nach [!DNL Advertising Search] Anzeigen und Anzeigen für Advertising DSP Anzeigen), während [!DNL Marketing Channels] Berichte können alle digitalen Kanäle verfolgen. Dies kann zu einer Diskrepanz im Kanal führen, für den eine Konversion zugeordnet wird.
+Adobe Advertising-Berichte erfassen nur Paid Media, die über Adobe Advertising (gebührenpflichtige Suche nach [!DNL Advertising Search, Social, & Commerce] Anzeigen und Anzeigen für Advertising DSP Anzeigen), während [!DNL Marketing Channels] Berichte können alle digitalen Kanäle verfolgen. Dies kann zu einer Diskrepanz im Kanal führen, für den eine Konversion zugeordnet wird.
 
 Beispielsweise haben Paid Search- und natürliche Suchkanäle oft eine symbiotische Beziehung, in der jeder Kanal den anderen unterstützt. Die [!DNL Marketing Channels] -Bericht einige Konversionen der kostenlosen Suche zuordnet, was die Adobe Advertising nicht tut, da die kostenlose Suche nicht verfolgt wird.
 
@@ -160,7 +160,7 @@ In [!DNL Analytics], eine der einfachsten Methoden zur Validierung von [!DNL Ana
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] stellt die Häufigkeit dar, mit der AMO-IDs (`s_kwcid` -Parameter) auf der Site verfolgt werden. Jedes Mal, wenn auf eine Anzeige geklickt wird, wird eine `s_kwcid` wird der Landingpage-URL hinzugefügt. Die Anzahl der [!UICONTROL AMO ID Instances]entspricht daher der Anzahl der Klicks und kann anhand der tatsächlichen Anzeigenklicks überprüft werden. Normalerweise wird eine Übereinstimmungsrate von 80 % für [!DNL Search] und eine Übereinstimmungsrate von 30 % für [!DNL DSP] Traffic (wenn gefiltert, um nur Clickthrough einzuschließen) [!UICONTROL AMO ID Instances]). Der Unterschied in den Erwartungen zwischen Suche und Anzeige lässt sich durch das erwartete Traffic-Verhalten erklären. Die Suche erfasst die Absicht, und daher möchten Benutzer in der Regel auf die Suchergebnisse aus ihrer Abfrage klicken. Benutzer, die eine Anzeige oder Online-Videoanzeige sehen, klicken mit höherer Wahrscheinlichkeit unbeabsichtigt auf die Anzeige und springen dann entweder von der Site aus oder verlassen das neue Fenster, das geladen wird, bevor die Seitenaktivität verfolgt wird.
+[!UICONTROL AMO ID Instances] stellt die Häufigkeit dar, mit der AMO-IDs (`s_kwcid` -Parameter) auf der Site verfolgt werden. Jedes Mal, wenn auf eine Anzeige geklickt wird, wird eine `s_kwcid` wird der Landingpage-URL hinzugefügt. Die Anzahl der [!UICONTROL AMO ID Instances]entspricht daher der Anzahl der Klicks und kann anhand der tatsächlichen Anzeigenklicks überprüft werden. Normalerweise wird eine Übereinstimmungsrate von 80 % für [!DNL Search, Social, & Commerce] und eine Übereinstimmungsrate von 30 % für [!DNL DSP] Traffic (wenn gefiltert, um nur Clickthrough einzuschließen) [!UICONTROL AMO ID Instances]). Der Unterschied in den Erwartungen zwischen Suche und Anzeige lässt sich durch das erwartete Traffic-Verhalten erklären. Die Suche erfasst die Absicht, und daher möchten Benutzer in der Regel auf die Suchergebnisse aus ihrer Abfrage klicken. Benutzer, die eine Anzeige oder Online-Videoanzeige sehen, klicken mit höherer Wahrscheinlichkeit unbeabsichtigt auf die Anzeige und springen dann entweder von der Site aus oder verlassen das neue Fenster, das geladen wird, bevor die Seitenaktivität verfolgt wird.
 
 In Adobe Advertising-Berichten können Sie Klicks auf ähnliche Weise mit Instanzen vergleichen, indem Sie die[!UICONTROL ef_id_instances]&quot;Metrik anstelle von [!UICONTROL AMO ID Instances]:
 
@@ -234,7 +234,7 @@ Die Klickdaten können auch in Umgebungen aufgezeichnet werden, in denen Clickth
 
 ### Verwenden von Adobe Advertising Traffic-Metriken für Dimensionen ohne Adobe Advertising
 
-Adobe Advertising bietet Analytics mit [werbespezifische Traffic-Metriken und die zugehörigen Dimensionen aus [!DNL DSP] und [!DNL Search]](advertising-metrics-in-analytics.md). Die von Adobe Advertising bereitgestellten Metriken gelten nur für die angegebenen Adobe Advertising-Dimensionen und Daten sind nicht für andere Dimensionen in [!DNL Analytics].
+Adobe Advertising bietet Analytics mit [werbespezifische Traffic-Metriken und die zugehörigen Dimensionen aus [!DNL DSP] und [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Die von Adobe Advertising bereitgestellten Metriken gelten nur für die angegebenen Adobe Advertising-Dimensionen und Daten sind nicht für andere Dimensionen in [!DNL Analytics].
 
 Wenn Sie beispielsweise die [!UICONTROL AMO Clicks] und [!UICONTROL AMO Cost] Metriken nach Konto, bei dem es sich um eine Adobe Advertising-Dimension handelt, sehen Sie die Gesamtsumme [!UICONTROL AMO Clicks] und [!UICONTROL AMO Cost] nach Konto.
 

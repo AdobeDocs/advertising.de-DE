@@ -3,7 +3,7 @@ title: Warum können Kanaldaten zwischen Adobe Advertising und [!DNL Marketing C
 description: Erfahren Sie, warum sich die von der AMO-ID verfolgten Kanaldaten von den von [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Die beiden Datensätze weisen unterschiedliche Hauptanwendungsfälle auf:
 
    Die [!DNL Analytics] [!UICONTROL Marketing Channel] -Dimension konfiguriert ist, um alle Kanäle zu erfassen und zu verfolgen. [!DNL Marketing Channels] kann auch so konfiguriert werden, dass Anzeigen DSP Durchsichten und Clickthroughs erfasst werden, und zwar in Bezug auf die anderen Marketing-Kanäle.
 
-* Adobe Advertising AMO ID: Der primäre Anwendungsfall der Adobe Advertising AMO ID-Daten besteht darin, die erweiterten [!DNL Adobe Sensei]-gestützte Angebotsalgorithmen. Die Algorithmen treffen automatisch Tausende von Angebotsentscheidungen auf Mikroebene, die täglich getroffen werden, um die Werbeausgaben zu maximieren und die Ziele der [!DNL DSP] oder [!DNL Search] Portfolio. Je mehr Konversionsdaten die Algorithmen mit Kampagnen verbinden können, desto besser können die Algorithmen diese Angebotsentscheidungen treffen.
+* Adobe Advertising AMO ID: Der primäre Anwendungsfall der Adobe Advertising AMO ID-Daten besteht darin, die erweiterten [!DNL Adobe Sensei]-gestützte Angebotsalgorithmen. Die Algorithmen treffen automatisch Tausende von Angebotsentscheidungen auf Mikroebene, die täglich getroffen werden, um die Werbeausgaben zu maximieren und die Ziele der [!DNL DSP] oder [!DNL Search, Social, & Commerce] Portfolio. Je mehr Konversionsdaten die Algorithmen mit Kampagnen verbinden können, desto besser können die Algorithmen diese Angebotsentscheidungen treffen.
 
    Um diese Daten zu erfassen, muss die Variable [!DNL Analytics for Advertising] Bei der Integration werden unbearbeitete AMO-IDs übergeben, die als Clickthrough- und Durchsichts-Trackingcodes in der AMO-ID-Dimension von Adobe Analytics übersetzt werden können. Diese kann entweder als benutzerdefinierte Variable (eVar) oder als reservierte Variable (rVar) gespeichert werden. Clickthroughs für andere Kanäle werden nicht in der AMO-ID-Dimension festgelegt, sodass die AMO-ID-Dimension die Eingabe aus diesen anderen Kanälen nicht verfolgen kann. Das Ergebnis ist, dass die AMO-ID beibehalten wird. [!DNL Marketing Channels] Einstiegspunkte.
 

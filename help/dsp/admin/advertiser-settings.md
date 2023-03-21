@@ -1,7 +1,7 @@
 ---
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten 
 
 (Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Organisations-ID des Experience Cloud zugeordnet sein, die in der Variablen [!UICONTROL Adobe IMS IDs] Abschnitt.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Adobe Advertising Search] oder die Adobe Advertising Conversion-Pixel verwenden) A [!DNL Search] -Konto, mit dem DSP Attributionsdaten austauschen.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder die Adobe Advertising Conversion-Pixel verwenden) A [!DNL Search, Social, & Commerce] -Konto, mit dem DSP Attributionsdaten austauschen.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; fakultativ; nur auf Daten anwendbar, die mit Adobe Advertising-Konversions-Tracking-Tags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
 
-Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL Search] Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten von Adobe Advertising konfiguriert sein.
+Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL Search, Social, & Commerce] Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten von Adobe Advertising konfiguriert sein.
 
 >[!WARNING]
 >

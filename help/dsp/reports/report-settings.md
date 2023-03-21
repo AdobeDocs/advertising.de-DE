@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 >[!NOTE]
 >
->Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Adobe Advertising Search]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
+>Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Advertising Search, Social, & Commerce]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
 
 * *[!UICONTROL Last Event]:* Ordnet Konversionen dem letzten Klick oder der letzten Impression im Konversionspfad zu.
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * *[!UICONTROL U-shaped]:* Ordnet die Konversion allen Ereignissen im Konversionspfad zu, gibt jedoch dem ersten und letzten Ereignis die höchste Gewichtung, bei einer nacheinander geringeren Gewichtung der Ereignisse in der Mitte des Konversionspfads.
 
-* *[!UICONTROL Display Only]:*  Ordnet Konversionen dem letzten DSP Klick oder Impression im Konversionspfad zu. Dazu gehören Video- und vernetzte TV-Anzeigen sowie Klicks auf [!DNL Adobe Advertising Search] Anzeigen.
+* *[!UICONTROL Display Only]:*  Ordnet Konversionen dem letzten DSP Klick oder Impression im Konversionspfad zu. Dazu gehören Video- und vernetzte TV-Anzeigen sowie Klicks auf [!DNL Advertising Search, Social, & Commerce] Anzeigen.
 
 * *[!UICONTROL Social Only]:* Obsolete
 

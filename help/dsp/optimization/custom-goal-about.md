@@ -3,7 +3,7 @@ title: Über benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Über benutzerdefinierte Ziele
 
-Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das die Optimierungsziele verwendet &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; oder &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; muss ein benutzerdefiniertes Ziel enthalten, das dazu beiträgt, das allgemeine Optimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Adobe Advertising Search].
+Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das die Optimierungsziele verwendet &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; oder &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; muss ein benutzerdefiniertes Ziel enthalten, das dazu beiträgt, das allgemeine Optimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce].
 
 ![benutzerdefinierte Ziele](/help/dsp/assets/objective-goals.png)
 

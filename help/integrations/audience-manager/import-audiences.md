@@ -3,7 +3,7 @@ title: Importieren von Adobe Audience Manager-Segmenten für Anzeigen-Targeting
 description: Erfahren Sie, wie Sie Ihre [!DNL Adobe] Zielgruppen in Advertising DSP und Suche mithilfe von Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Importieren von Adobe Audience Manager-Segmenten für Anzeigen-Targeting
 
-DSP und [!DNL Advertising Search] kann jedes Mal Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Daten eines Advertisers oder einer Agentur abrufen [!DNL Adobe] Zielgruppen<!-- segments or audiences? Standardize terms per AAM's docs -->. Dazu gehören Daten für:
+DSP und [!DNL Advertising Search, Social, & Commerce] kann jedes Mal Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Daten eines Advertisers oder einer Agentur abrufen [!DNL Adobe] Zielgruppen<!-- segments or audiences? Standardize terms per AAM's docs -->. Dazu gehören Daten für:
 
 * Adobe Audience Manager-Segmente
 
@@ -22,7 +22,7 @@ DSP und [!DNL Advertising Search] kann jedes Mal Metadaten, Hierarchiedaten und 
 
 * Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet werden
 
-So greifen Sie auf [!DNL Adobe] Zielgruppen in DSP oder [!DNL Creative], müssen Sie die Zielgruppen in DSP importieren. So greifen Sie auf [!DNL Adobe] Zielgruppen in [!DNL Search], müssen Sie die Zielgruppen in [!DNL Search].
+So greifen Sie auf [!DNL Adobe] Zielgruppen in DSP oder [!DNL Creative], müssen Sie die Zielgruppen in DSP importieren. So greifen Sie auf [!DNL Adobe] Zielgruppen in [!DNL Search, Social, & Commerce], müssen Sie die Zielgruppen in [!DNL Search, Social, & Commerce].
 
 ## Voraussetzungen
 
@@ -70,19 +70,19 @@ Die API automatisch:
 
    * Adobe AdCloud: 411 (Dies ist standardmäßig und automatisch als Teil von [!DNL Identity Service] Version 2.0. Organisationen mit [!DNL Identity Service] -Versionen unter 2.0 sollten dieses Pixel ihrem Audience Manager-Container hinzufügen.
 
-## Importieren von Audience Manager-Zielgruppen in [!DNL Search]
+## Importieren von Audience Manager-Zielgruppen in [!DNL Search, Social, & Commerce]
 
-### Schritte zum Importieren von Zielgruppen in [!DNL Search]
+### Schritte zum Importieren von Zielgruppen in [!DNL Search, Social, & Commerce]
 
 [!DNL Adobe] Das Personal führt die meisten oder alle der folgenden Schritte aus.
 
-1. Das Adobe Account Team sollte eine Anfrage an das Dateneinsatzteam senden, um eine Integration zwischen [!DNL Search] und Audience Manager. Beziehen Sie die Namen der Audience Manager-Segmente ein, in die Sie exportieren möchten [!DNL Search].
+1. Das Adobe Account Team sollte eine Anfrage an das Dateneinsatzteam senden, um eine Integration zwischen [!DNL Search, Social, & Commerce] und Audience Manager. Beziehen Sie die Namen der Audience Manager-Segmente ein, in die Sie exportieren möchten [!DNL Search, Social, & Commerce].
 
-1. Konfigurieren Sie in Audience Manager Ziele für [!DNL Search]:
+1. Konfigurieren Sie in Audience Manager Ziele für [!DNL Search, Social, & Commerce]:
 
    1. Erstellen Sie zwei neue Ziele: `[!UICONTROL Adobe Media Optimizer (HTTP)]` und `[!UICONTROL Adobe Media Optimizer Batch Destination]`.
 
-      [!DNL Media Optimizer] ist ein früherer Name für [!DNL Search].
+      [!DNL Media Optimizer] ist ein früherer Name für [!DNL Search, Social, & Commerce].
 
    1. Geben Sie die Segmente für die einzelnen Ziele an.
 
@@ -90,13 +90,13 @@ Die API automatisch:
 
       Die [!UICONTROL Manually map segments] -Option können Sie die Segmente manuell der Synchronisierung mit dem Batch-Ziel zuordnen (`[!UICONTROL Adobe Media Optimizer Batch Destination]`). Es müssen keine Segmente manuell dem HTTP-Ziel zugeordnet werden.
 
-1. Within [!DNL Search], entweder [!DNL Search] Implementierungs-Team oder ein Benutzer mit der Rolle &quot;Client-Manager mit direktem Zugriff&quot;sollte den Import von [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
+1. Within [!DNL Search, Social, & Commerce], entweder [!DNL Search, Social, & Commerce] Implementierungs-Team oder ein Benutzer mit der Rolle &quot;Client-Manager mit direktem Zugriff&quot;sollte den Import von [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
    Sie müssen das Experience Cloud der Organisation eingeben [!DNL Organization ID] ([!DNL IMS org ID]). Die Kennung muss mit der für das Audience Manager-Konto des Unternehmens verwendeten identisch sein.
 
 ### Welche Veränderungen führen zu Audience Manager?
 
-Die Organisation sieht zwei [!DNL Search] Ziele in Audience Manager:
+Die Organisation sieht zwei [!DNL Search, Social, & Commerce] Ziele in Audience Manager:
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -124,7 +124,7 @@ Segment membership data is sent only after one of the following events occurs:
 
   * The segment is added to the [!DNL Adobe AdCloud Cross-Channel] batch and real-time destinations within the Audience Manager user interface.
 
-* (Advertisers with [!DNL Search]):
+* (Advertisers with [!DNL Search, Social, & Commerce]):
 
   * The segment is targeted in an Adobe Advertising search ad.
 
@@ -146,9 +146,9 @@ In DSP werden Segmentnamen nach der Audience Manager-Taxonomie organisiert und s
 
 In [!DNL Creative], sind die Segmente in den Erlebniseinstellungen für Zielknoten verfügbar.
 
-### In [!DNL Advertising Search]
+### In [!DNL Advertising Search, Social, & Commerce]
 
-In [!DNL Search], sind die Segmente verfügbar, wenn Sie eine [!DNL Google] Zielgruppe, die [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; von [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+In [!DNL Search, Social, & Commerce], sind die Segmente verfügbar, wenn Sie eine [!DNL Google] Zielgruppe, die [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; von [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 Für jeden [!DNL Google] von Ihnen erstellte Zielgruppen, [!DNL Google] stellt die Zielgruppengröße bereit.
 

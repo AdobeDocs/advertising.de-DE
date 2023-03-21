@@ -3,7 +3,7 @@ title: Geräteübergreifende Lösungen
 description: Erfahren Sie mehr über geräteübergreifende Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Sie können die folgenden Metriken in benutzerdefinierte Berichte aufnehmen:
 
 *Advertiser mit Adobe Advertising Conversion Tracking (nur Konversions-Tracking)*
 
-Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist DSP verfügbar. [!DNL Adobe Advertising Creative]und [!DNL Adobe Advertising Search] für Advertiser, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
+Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist DSP verfügbar. [!DNL Adobe Advertising Creative]und [!DNL Adobe Advertising Search, Social, & Commerce] für Advertiser, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
 
 ### Benutzerbasierte Attributionsmessung aktivieren
 
