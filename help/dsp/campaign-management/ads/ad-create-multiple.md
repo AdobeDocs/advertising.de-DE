@@ -3,9 +3,9 @@ title: Erstellen mehrerer Drittanbieteranzeigen
 description: Erfahren Sie, wie Sie mehrere Anzeigen von Drittanbietern auf einmal erstellen.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 1. Klicken Sie nach Abschluss des Uploads auf **[!UICONTROL Start Building Ads]**.
 
 1. Überprüfen Sie die Details und den Status jeder Anzeige:
+
+   1. (Universelle Videoanzeigen mit [!DNL Google] oder [!DNL Flashtalking] Tags) Klicken Sie auf **[!UICONTROL Ad Type]** Feld und wählen Sie **[!UICONTROL Universal Video]**.
+
+   1. (Universelle Videoanzeigen) Klicken Sie für jede neue Anzeige auf ![edit](/help/dsp/assets/edit.png), wählen Sie die [geeignetes Videoformat](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)und klicken Sie anschließend auf **Speichern**.
 
    1. Überprüfen Sie den Status jeder Anzeige, der auf Validierungsprüfungen für das hochgeladene Tag basiert.
 
