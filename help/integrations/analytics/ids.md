@@ -3,7 +3,7 @@ title: Von [!DNL Analytics]
 description: Von [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Werbetreibende mit nur einer Adobe Advertising-Adobe Analytics-Integration*
 
-*Anwendbar auf Advertising DSP und[!DNL Advertising Search]*
+*Anwendbar auf Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe Advertising verwendet zwei IDs für das On-site-Performance-Tracking: die *EF ID* und *AMO-ID*.
 
@@ -23,7 +23,7 @@ Wenn eine Ad-Impression auftritt, erstellt Adobe Advertising die AMO-ID- und EF-
 Adobe Advertising unterscheidet mithilfe der folgenden Kriterien zwischen einem Clickthrough- oder Durchsichtseintrag auf der Website:
 
 * Ein Durchsichtseintrag wird erfasst, wenn ein Benutzer die Site besucht, nachdem er eine Anzeige angesehen, aber nicht darauf geklickt hat. [!DNL Analytics] erfasst eine Durchsicht, wenn zwei Bedingungen erfüllt sind:
-   * Der Besucher hat keine Clickthroughs für eine [!DNL DSP] oder [!DNL Search] Anzeige während der [Klick-Lookback-Fenster](#lookback-a4adc).
+   * Der Besucher hat keine Clickthroughs für eine [!DNL DSP] oder [!DNL Search, Social, & Commerce] Anzeige während der [Klick-Lookback-Fenster](#lookback-a4adc).
    * Der Besucher hat mindestens eine [!DNL DSP] Anzeige während der [Impression-Lookback-Fenster](#lookback-a4adc). Die letzte Impression wird als Durchsicht übergeben.
 * Ein Clickthrough-Eintrag wird erfasst, wenn ein Site-Besucher auf eine Anzeige klickt, bevor er die Site betritt. [!DNL Analytics] erfasst einen Clickthrough, wenn eine der folgenden Bedingungen eintritt:
    * Die URL enthält eine EF ID und eine AMO ID, die von Adobe Advertising zur Landingpage-URL hinzugefügt wurden.
@@ -112,7 +112,7 @@ wobei:
 * &lt;*Kanal-ID*> kann sein:
 
    * `AC` = DSP
-   * `AL` für [!DNL Advertising Search]
+   * `AL` für [!DNL Advertising Search, Social, & Commerce]
 
 * &lt;*Anzeigen-ID*> wird eine durch Werbung generierte eindeutige Adobe für eine Anzeige verwendet. Sie dient als Schlüssel für die Übersetzung von Adobe Advertising-Entitätsmetadaten in lesbare [!DNL Analytics] Dimensionen.
 
@@ -120,9 +120,9 @@ wobei:
 
 Beispiel einer AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### AMO-ID-Format für [!DNL Search]
+### AMO-ID-Format für [!DNL Search, Social, & Commerce]
 
-AMO-IDs für [!DNL Search] für jede Suchmaschine ein bestimmtes Format verwenden. Das Format für alle Suchmaschinen beginnt mit Folgendem:
+AMO-IDs für [!DNL Search, Social, & Commerce] für jede Suchmaschine ein bestimmtes Format verwenden. Das Format für alle Suchmaschinen beginnt mit Folgendem:
 
 ```
 AL!{userid}!{sid}

@@ -3,7 +3,7 @@ title: Nutzungsszenarios
 description: Erfahren Sie mehr über Anwendungsfälle für die Freigabe Ihrer Advertising DSP Mediendaten für Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um dieses Beispiel in Audience Manager auszuführen:<!-
 
 Sobald Kampagnendaten für Impressions- und Klickdaten in Audience Manager verfügbar sind, können Sie Eigenschaften und Benutzersegmente erstellen, die einer bestimmten Kampagne oder Taktik ausgesetzt waren oder damit interagiert wurden. Mit [[!DNL Audience Analytics] Integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), können Ihre Audience Manager-Segmente mit [!DNL Analytics] für weitere Analysen. Mögliche Anwendungsfälle sind:
 
-* **Interaktionsanalyse zwischen DSP und [!DNL Adobe Advertising Search] Anzeigen:** Der Standard [[!DNL Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) bietet keine Einblicke in die Interaktion zwischen DSP und [!DNL Search] da beide Kanäle AMO-IDs verwenden, die den AMO-ID-Attributionsregeln entsprechen, für die ein Suchklick eine Durchsicht der Anzeige außer Kraft setzt. Durch Erstellung eines DSP Belichtungssegments in Audience Manager können Sie [!DNL Audience Analytics] zur Analyse der Interaktion zwischen DSP und [!DNL Search] Anzeigen in [!DNL Analytics].
+* **Interaktionsanalyse zwischen DSP und [!DNL Advertising Search, Social, & Commerce] Anzeigen:** Der Standard [[!DNL Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) bietet keine Einblicke in die Interaktion zwischen DSP und [!DNL Search, Social, & Commerce] da beide Kanäle AMO-IDs verwenden, die den AMO-ID-Attributionsregeln entsprechen, für die ein Suchklick eine Durchsicht der Anzeige außer Kraft setzt. Durch Erstellung eines DSP Belichtungssegments in Audience Manager können Sie [!DNL Audience Analytics] zur Analyse der Interaktion zwischen DSP und [!DNL Search, Social, & Commerce] Anzeigen in [!DNL Analytics].
 
 * **Häufigkeitsanalyse:** Sie können in Audience Manager Segmente erstellen, die darauf basieren, wie oft ein Benutzer einer bestimmten Anzeige oder Kampagne ausgesetzt war. Anschließend können Sie die verschiedenen Belichtungssegmente in Analytics analysieren, um festzustellen, wie sich das Benutzerverhalten in Abhängigkeit von der Anzahl DSP Belichtungen ändert.
 
