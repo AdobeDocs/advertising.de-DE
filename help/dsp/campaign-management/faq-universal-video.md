@@ -2,16 +2,16 @@
 title: Häufig gestellte Fragen zu universellen Videos
 description: Erfahren Sie mehr über universelle Videoanzeigen.
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Häufig gestellte Fragen zu universellen Videos
 
-[Universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-about.md) ermöglichen es Ihnen, das Video-Inventar aus Desktop-, Mobil- und vernetzten TV-Umgebungen für VPAID- und VAST-Bestände mithilfe einer einzigen Videoplatzierung zu ermitteln.
+[Universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-about.md#ad-types) ermöglichen es Ihnen, das Video-Inventar aus Desktop-, Mobil- und vernetzten TV-Umgebungen für VPAID- und VAST-Bestände mithilfe einer einzigen Videoplatzierung zu ermitteln.
 
 ## Wie werden universelle Videoplatzierungen und -anzeigen erstellt?
 
