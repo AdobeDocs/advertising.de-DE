@@ -5,7 +5,7 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 user-guide-title: Adobe Advertising – Unterstützung beim Verbraucherdatenschutz
-user-guide-description: Erfahren Sie mehr über die Sicherheits- und Datenschutzkontrollen, die Adobe Advertising bietet, um Werbekunden bei der Einhaltung der Gesetze zum Verbraucherdatenschutz zu helfen.
+user-guide-description: Erfahren Sie mehr über die Sicherheits- und Datenschutzkontrollen, die Adobe Advertising bietet, um Advertiser-Kundinnen und -Kunden bbei der Einhaltung der Datenschutzbestimmungen für Verbraucherinnen und Verbraucher zu unterstützen.
 breadcrumb-title: Unterstützung für den Kundendatenschutz
 index: true
 source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
