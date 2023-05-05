@@ -3,16 +3,14 @@ title: Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgrup
 description: Erfahren Sie, wie Sie eine Quelle erstellen, um Zielgruppen in Ihr Konto oder ein Advertiser-Konto zu importieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen
-
-*Beta-Funktion*
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
@@ -22,7 +20,7 @@ Erstellen Sie eine Quelle, um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu i
 >
 >Nachdem Sie eine Quelle für die [!DNL Real-Time CDP], müssen Sie Ihre [!DNL Real-Time CDP] Zielgruppen durch das Adobe Advertising DSP Ziel in [!DNL Real-Time CDP] um mit dem Import zu beginnen. Siehe [die Schritte im Aktivierungs-Workflow](source-about.md#workflow-sources).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. Klicken [!UICONTROL Add Source].
 

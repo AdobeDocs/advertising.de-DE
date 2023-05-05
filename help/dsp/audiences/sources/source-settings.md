@@ -3,16 +3,14 @@ title: Einstellungen der Zielgruppenquelle
 description: Erfahren Sie mehr über die Einstellungen für Zielgruppenquellen.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # Einstellungen der Zielgruppenquelle
-
-*Beta-Funktion*
 
 **[!UICONTROL Data Visibility Level]:** Gibt an, ob die Segmente für einen einzelnen Advertiser mit Zugriff auf das Konto verfügbar sind (*[!UICONTROL Advertiser]*) oder für alle Advertiser mit Zugriff auf das Konto *[!UICONTROL Account]*.
 
