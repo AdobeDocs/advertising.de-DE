@@ -1,9 +1,9 @@
 ---
 title: Häufig gestellte Fragen zum [!UICONTROL Household] Bericht
 description: Weitere Informationen zum [!UICONTROL Household] , einschließlich der Unterschiede zwischen Berichten und Fehlerbehebung.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Konversionsmetriken und benutzerdefinierte Ziele werden nicht unterstützt.
 
 ## Was ist der Unterschied zwischen den Metriken zur Überschneidung und zur Nichtüberschneidung?
 
-Die folgende Abbildung zeigt drei Metriken (Unique HousIm, Inkrementelle Haushalt und Inkrementelle Haushalte (Überlappung)) für drei Kampagnen (A, B und C).
+Die folgende Abbildung zeigt drei Metriken (Einzelhaushalt erreicht, Inkrementelle Haushalte erreicht und inkrementelle Haushalte (Überlappung)) für drei Kampagnen (A, B und C).
 
 ![Abbildung von Metriken zur Haushaltsüberschneidung](/help/dsp/assets/household-overlap-metrics-illustration.png "Abbildung von Metriken zur Haushaltsüberschneidung")
 
-* Einzelhaushalte erreicht (Gesamt) liefert die von jeder Kampagne erreichte Unique HousVom-Haushalt oder die Gesamtfläche jedes Kreises. In der Abbildung wurde der Einzelhaushalt erreicht durch A = Inkrementelle Haushalte erreicht durch A + (A+C) + (A+B) +(A+B+C)
+* Einzelhaushalte erreicht (Gesamt) liefert die von jeder Kampagne erreichte Unique HousVom-Haushalt oder die Gesamtfläche jedes Kreises. In der Abbildung wurden Einzelhaushalte erreicht durch A = Inkrementelle Haushalte erreicht durch A + (A+B) + (A+C) + (A+B+C) +(A+C+C)
 
 * Inkrementelle Erreichbarkeit des Haushalts ist der Einzelhaushalt, der nur durch eine Kampagne erreicht wird. In dieser Zahl sind die von A, B, C erreichten inkrementellen Haushalte der von A, B bzw. C erreichte inkrementelle Haushalt.
 
-* Inkrementelle Haushalte (Überlappung) sind die individuellen Haushalte, die durch die Kampagne oder Kombination von Kampagnen erreicht werden. In der Abbildung ist der von A, C erreichte inkrementelle Haushalt A+C.
+* Inkrementelle Haushalte (Überlappung) sind die individuellen Haushalte, die durch die Kampagne oder Kombination von Kampagnen erreicht werden. In der Abbildung ist der inkrementelle Haushalt, der von A, C erreicht wurde, A+C.
 
 ## Workflow
 
