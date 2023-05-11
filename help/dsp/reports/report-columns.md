@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: b62d6f412c53536b4d3d156117b82f6a912ba366
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '2045'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,17 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | Das Land, dem die gemeldeten Daten zugeordnet werden. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | Der designierte Marktbereich (DMA), dem die gemeldeten Daten zugeordnet werden. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | Der Status, dem die gemeldeten Daten zugeordnet werden. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | Die Zielgruppe. Der Bericht unterstützt bis zu 10 eindeutige Zielgruppen. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | Die Kampagne. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Creative Length] | Die Länge des Kreativelements. Der Bericht unterstützt bis zu 10 einzigartige kreative Längen. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Device] | Das Gerät. Der Bericht unterstützt bis zu 10 eindeutige Geräte. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Feed Type] | Der Feed-Typ. Der Bericht unterstützt bis zu 10 verschiedene Feed-Typen. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Media Type] | Der Medientyp. Der Bericht unterstützt bis zu 10 verschiedene Medientypen. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Publisher] | Der Herausgeber. Der Bericht unterstützt bis zu 10 verschiedene Herausgeber. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Package] | Das Paket. <!-- Note: The Package dimensions include another dimension called Package Name. --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Placement] | Die Platzierung.<!-- Note: The Placement dimensions include another dimension called Placement Name --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Site/Apps] | Die Site oder App, auf der die Ad-Impression bereitgestellt wurde. Der Bericht unterstützt bis zu 10 einzigartige Sites oder Apps. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Tags] | Das Platzierungs-Tag, das als benutzerdefinierte Kennung für die Platzierung verwendet wird. Der Bericht unterstützt bis zu 10 eindeutige Platzierungs-Tags. <!-- Note: The Placement dimensions include another dimension called Placement Tags. --> |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Das Enddatum für das Paket. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Die Schrittzielmenge für das Paket. Dieser Betrag ist entweder in Ausgaben oder Impressionen enthalten. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Die eindeutige Kennung für das Paket in DSP. |
@@ -89,19 +100,29 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Im [!UICONTROL Frequency (by Impression)] -Bericht) Die Anzahl der einzelnen Browser oder Geräte, die für eine bestimmte Häufigkeit aufgezeichnet wurden. DSP Schätzungen basieren auf einer Stichprobe von Impressionen. Übergeben Sie für einige Bestände keine Geräte-ID, und diese Impressionen sind nicht in diesem Wert enthalten. Es gibt eine ähnliche Metrik im [!UICONTROL Frequency (by App/Site)] anzeigen, aber diese Metrik wird nicht geschätzt. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | Die Summe der individuellen Haushalte, die DSP (Auktionen) innerhalb des Datumsbereichs gesehen hat. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | Die Gesamtzahl der Impressionen, die durch die Verwendung eines Gerätediagramms für personenbasiertes, geräteübergreifendes Targeting bereitgestellt wurden. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Durchschnittliche Bruttokosten je Akquisition, berechnet nach [!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Durchschnittliche Bruttokosten pro Anzeigenklick, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Die durchschnittlichen Kosten pro abgeschlossener Videoansicht, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Durchschnittliche Kosten pro 1000 Impressionen, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Die durchschnittlichen Kosten pro Videoansicht, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Views]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Die durchschnittlichen Kosten pro 1000 sichtbaren Impressionen, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Die durchschnittlichen Nettokosten pro Anzeigenklick, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Die durchschnittlichen Nettokosten pro abgeschlossener Videoansicht, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL 100% Completions] |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Die durchschnittlichen Nettokosten pro Videoansicht, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Views]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Die durchschnittlichen Nettodatenkosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Die durchschnittlichen Netto-Medienkosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen für andere Gebühren, berechnet durch [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | Die Häufigkeit der Impressionen pro Haushalt. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | Häufigkeit, mit der Haushalte nur über die gemeldete Dimension erreicht werden, einschließlich Schnittmengen von bis zu drei Werten für die Dimension. Wenn Sie beispielsweise die [!UICONTROL Placement] -Dimension können Sie die Häufigkeit sehen, die durch einzelne Platzierungen erreicht wird, die durch eine Kombination zweier Platzierungen erreichten Frequenzen und die Häufigkeit, die durch Kombinationen aus drei Platzierungen erreicht wird. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | Die Anzahl der Haushalte, die nur durch die gemeldete Dimension erreicht wurden, berechnet als [IP-Adressen, die nur von der gemeldeten Dimension erreicht wurden] - [IP-Adressen, die von einer anderen Dimension erreicht wurden]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | Der Prozentsatz der Haushalte, der nur durch die gemeldete Dimension erreicht wurde, berechnet als [den Prozentsatz der IP-Adressen, die durch die Dimension erreicht wurden] - [die prozentualen IP-Adressen, die von einer anderen Dimension erreicht wurden]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Impressions] | Die Gesamtzahl der bereitgestellten Anzeigenimpressionen. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | Die Gesamtzahl der bereitgestellten Impressionen, die für die Sichtbarkeit gemessen werden konnten. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | Die Gesamtzahl der messbaren Impressionen, die nur von der gemeldeten Dimension bereitgestellt werden, einschließlich Schnittmengen von bis zu drei Werten für die Dimension. Wenn Sie beispielsweise die [!UICONTROL Placement] angezeigt, können Sie die messbaren Impressionen sehen, die durch einzelne Platzierungen erzielt wurden, messbare Impressionen, die durch eine Kombination zweier Platzierungen erzielt wurden, und messbare Impressionen, die durch Kombinationen aus drei beliebigen Platzierungen erreicht wurden. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Total Media Spend] | Die Gesamtausgaben. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | Die Gesamtzahl der Unique Hosts (separate IP-Adressen), die erreicht wurden. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | Die gesamten Unique Hosts (separate IP-Adressen), die nur von der gemeldeten Dimension erreicht werden, einschließlich Schnittmengen von bis zu drei Werten für die Dimension. Wenn Sie beispielsweise die [!UICONTROL Placement] -Dimension können Sie die individuellen Haushalte sehen, die durch individuelle Platzierungen erreicht werden, gemeinsame Haushalte, die durch eine Kombination aus zwei Platzierungen erreicht werden, und allgemeine Haushalte, die durch Kombinationen aus drei Platzierungen erreicht werden. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Durchschnittliche Bruttokosten je Akquisition, berechnet nach [!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Durchschnittliche Bruttokosten pro Anzeigenklick, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Die durchschnittlichen Kosten pro abgeschlossener Videoansicht, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Durchschnittliche Kosten pro 1000 Impressionen, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Die durchschnittlichen Kosten pro Videoansicht, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Die durchschnittlichen Kosten pro 1000 sichtbaren Impressionen, berechnet durch [!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Die durchschnittlichen Nettokosten pro Anzeigenklick, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Die durchschnittlichen Nettokosten pro abgeschlossener Videoansicht, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Die durchschnittlichen Nettokosten pro Videoansicht, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Die durchschnittlichen Nettodatenkosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Die durchschnittlichen Netto-Medienkosten pro 1000 Impressionen, berechnet durch [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen für andere Gebühren, berechnet durch [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Der Prozentsatz der Gesamtgebote, die beim Max. CPM geboten wurden. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Die Anzahl unterschiedlicher Benutzer, für die DSP Gebot für die Platzierung abgegeben wurde. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Die Gesamtnettokosten der Datengebühren für Zielgruppensegmente, die über DSP in Rechnung gestellt werden. |
@@ -110,9 +131,9 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | Die geschätzte Steuer auf Zielgruppensegmente und Datendienste von Drittanbietern. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | Die veranschlagte Mediensteuer inklusive Steuern für Medienkostenabrechnungen und Technologiegebührendienstleistungen in DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Die veranschlagte Steuer auf andere Service-Gebühren (einschließlich Drittanbieter-Verifizierungspartner, Thema-Targeting usw.), die über DSP in Rechnung gestellt werden. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (Wenn die Margenverwaltung aktiviert wird) Der Prozentsatz der Marge, der durch ([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (Wenn die Margenverwaltung aktiviert wird) Der Prozentsatz der Marge, der durch ([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | Die Summe der nicht abrechnungsfähigen und abrechnungsfähigen Medienkosten ohne Technologiegebühren. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Die durchschnittlichen Nettokosten pro 1000 sichtbaren Impressionen, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Die durchschnittlichen Nettokosten pro 1000 sichtbaren Impressionen, berechnet durch [!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Die Nettogesamtkosten der Datengebühren für Zielgruppensegmente, die nicht über DSP in Rechnung gestellt werden. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Die Nettogesamtkosten nicht abrechnungsfähiger Medien, einschließlich der Technologiegebühr, die nicht über DSP abgerechnet werden. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Die Gesamtkosten für andere Servicegebühren (Prüfungspartner von Drittanbietern, Ad-Serving usw.) werden nicht über DSP in Rechnung gestellt. |
@@ -150,22 +171,22 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | Die Gesamtanzahl der Videoanzeigenansichten. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | Die durchschnittliche Player-Breite und -Höhe. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | Die Gesamtzahl der bereitgestellten Impressionen, die für die Sichtbarkeit gemessen werden konnten. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Der Prozentsatz der bereitgestellten Impressionen, der für die Sichtbarkeit gemessen werden konnte, berechnet als [!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Der Prozentsatz der bereitgestellten Impressionen, der für die Sichtbarkeit gemessen werden konnte, berechnet als [!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | Der Prozentsatz der Impressionen, die aufgrund inkompatibler iFrames nicht für die Sichtbarkeit messbar sind. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | Die Anzahl der Impressionen, die aufgrund des nicht unterstützten Sichtbarkeits-Trackings auf der Anzeigeneinheit nicht für die Sichtbarkeit messbar sind. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | Der Prozentsatz der Impressionen, der aus anderen Gründen nicht für die Sichtbarkeit messbar ist. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | Die Anzahl der Anzeigenimpressionen, die für die Sichtbarkeit nicht messbar sind. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | Der Prozentsatz der Anzeigenimpressionen, der für die Sichtbarkeit nicht messbar ist. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | Der Prozentsatz der Impressionen, die aufgrund des nicht unterstützten Sichtbarkeits-Trackings auf dieser Anzeigeneinheit nicht für die Sichtbarkeit messbar sind. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressionen aus allen messbaren Impressionen, berechnet als [!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressionen aus allen messbaren Impressionen, berechnet als [!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der Anzeigenimpressionen, die als sichtbar angesehen werden. |
 | [!UICONTROL Conversion Metrics] | [Nach Advertiser in Berichtseinstellungen gruppiert] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder Adobe Analytics-Ereignis. |
 | [!UICONTROL Custom Goals] | [Nach Advertiser in Berichtseinstellungen gruppiert] | [Advertiser-spezifisches benutzerspezifisches Ziel] | Die gewichtete Summe aller Konversionen, die in der angegebenen [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal-about.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by Gross Spend / Custom Goal| -->
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by Custom goal / Gross spend|-->
+<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
+<!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
 >

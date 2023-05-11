@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,8 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
    * **[!UICONTROL Site]:** Standardmäßig enthält Standardmetriken, die Gesamtnettoausgaben der Medien und die gesamten abrechnungsfähigen Nettoausgaben pro Site.
 
+   * **[!UICONTROL Household]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Siehe[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot;.
+
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 
 Jede Organisation mit mehreren DSP-Konten kann je nach den Anforderungen der Organisation in benutzerdefinierten Berichten optional kontoübergreifende Daten aktivieren. Sie können beispielsweise Konto A Zugriff auf die Daten von Konto B gewähren und Konto B Zugriff auf die Daten von Konto C gewähren (jedoch nicht auf Konto As). Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihr Adobe Account Team.
@@ -87,6 +89,7 @@ Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] a) di
 >
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
+>* [Häufig gestellte Fragen zum [!UICONTROL Household] Bericht](/help/dsp/reports/faq-household-report.md)
 >* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
