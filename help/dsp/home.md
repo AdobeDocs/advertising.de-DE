@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
+source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 24. Mai 2023 | [!UICONTROL Campaigns] | Allgemeine Videoplatzierungen und -anzeigen sind jetzt allgemein verfügbar. | Siehe[Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md), &quot;[Universelle Videoanzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; und &quot;[Erstellen einer Anzeige](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | März 2023 | [!UICONTROL Reports] | Eine neue [!UICONTROL Household Report] zeigt Impressionen, Reichweite und Häufigkeit für verschiedene Dimensionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene an. Der Bericht umfasst neun Dimensionen: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]und vom Benutzer erstellt [!UICONTROL Tags]. | Siehe[Über Berichte](/help/dsp/reports/report-about.md), &quot;[Berichtseinstellungen](/help/dsp/reports/report-settings.md),&quot; und &quot;[Häufig gestellte Fragen zum [!UICONTROL Household] Bericht](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20. März 2023 | [!UICONTROL Campaigns] | Erfahren Sie mehr über universelle Videoplatzierungen und Anzeigen, bei denen es sich um eine offene Beta-Funktion handelt. | Siehe[Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15. Februar 2023 | [!UICONTROL Campaigns] | Optionen zum Anzeigen von Änderungsprotokollen im Diagrammformular und zum Hinzufügen von Notizen zu jedem Eintrag sind nicht in der Beta-Phase. | Siehe[Anzeigen des Änderungsprotokolls für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot;Siehe &quot;[Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot;und Siehe[Anzeigen des Änderungsprotokolls für eine Platzierung](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
