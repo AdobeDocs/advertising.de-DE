@@ -3,9 +3,9 @@ title: Anzeigen eines Kampagnenänderungsprotokolls
 description: Erfahren Sie, wie Sie an der Kampagne vorgenommene Änderungen anzeigen können.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,5 @@ Sie können die Daten nach einer beliebigen Spalte sortieren, mit Ausnahme von N
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Eine Kampagne bearbeiten](campaign-edit.md)
 >* [Kampagneneinstellungen](campaign-settings.md)
+>* [Anhalten oder Aktivieren einer Kampagne](campaign-pause-activate.md)
 

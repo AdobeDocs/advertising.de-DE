@@ -3,9 +3,9 @@ title: Detaillierte Berichte für eine Kampagne anzeigen
 description: Erfahren Sie, wie Sie einen Bericht auf Kampagnenebene mit Abschnitten zu Geografie, Gerät, Sichtbarkeit und Zielgruppenleistung öffnen.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ Die <!--legacy --> Der Bericht auf Kampagnenebene enthält eine Übersicht und A
 >* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
+>* [Anhalten oder Aktivieren einer Kampagne](campaign-pause-activate.md)
 
