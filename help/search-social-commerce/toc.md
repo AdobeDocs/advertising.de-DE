@@ -9,9 +9,9 @@ user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Au
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: false
 hide: true
-source-git-commit: f6ab84bc5caef1446bc30f53ec68bfd43cb5c030
+source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,13 @@ ht-degree: 0%
    + [Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integration mit Adobe Experience Cloud {#integrations}
       + [Integration mit Adobe Experience Cloud-Lösungen und -Diensten](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [Integration mit Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [Unterstützung der Privatsphäre der Verbraucher](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
+      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
+   + [Unterstützung der Privatsphäre der Verbraucher (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
 + Erste Schritte {#getting-started}
    + [Implementierungsübersicht](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemanforderungen](/help/search-social-commerce/getting-started/system-requirements.md)
-   + [Konversions-Tracking für Ihre Webseiten einrichten](/help/search-social-commerce/getting-started/conversion-tracking-setup.md)
    + [Anmelden](/help/search-social-commerce/getting-started/log-in.md)
    + [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md)
    + [Abmelden](/help/search-social-commerce/getting-started/log-out.md)
