@@ -9,7 +9,7 @@ user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Au
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: false
 hide: true
-source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -274,7 +274,7 @@ ht-degree: 0%
       + Verwalten von Berichten {#report-management}
          + Einfache und erweiterte Berichte {#basic-advanced-reports}
             + [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
-            + [Grundlegende Berichtsformate] {#basic-report-formats}
+            + Grundlegende Berichtsformate {#basic-report-formats}
                + [Die [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
                + [Die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
                + [Die [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
@@ -288,7 +288,7 @@ ht-degree: 0%
                + [Die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
                + [Die [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
                + [Die [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
-            + [Erweiterte Berichtsformate] {#advanced-report-formats}
+            + Erweiterte Berichtsformate {#advanced-report-formats}
                + [Die [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
                + [Die [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
                + [Die [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
