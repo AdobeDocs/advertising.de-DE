@@ -9,7 +9,7 @@ user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Au
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [Ändern der in Verwaltungsansichten und -berichten verfügbaren Transaktionseigenschaften](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [Anzeigenamen für eine Transaktionseigenschaft ändern](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [Hilfe erhalten](get-help.md)
-   + [Glossar](glossary.md)
++ [Hilfe erhalten](get-help.md)
++ [Glossar](glossary.md)
