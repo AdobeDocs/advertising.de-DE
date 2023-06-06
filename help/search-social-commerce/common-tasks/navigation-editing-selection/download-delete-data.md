@@ -1,0 +1,27 @@
+---
+title: Löschen Sie einen Leistungsdatenbericht oder eine Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü
+description: Erfahren Sie, wie Sie einen Bericht oder eine Bulksheet-Datei löschen, die bzw. die Sie in einer Kampagnenverwaltungsansicht heruntergeladen haben.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 0%
+
+---
+
+# Löschen Sie einen Leistungsdatenbericht oder eine Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü
+
+>[!NOTE]
+>
+>Durch Löschen einer Bulksheet-Datei wird diese aus [!UICONTROL Downloads] und auch aus der Liste [!UICONTROL Bulksheets] anzeigen.
+
+1. Klicken Sie im Hauptmenü auf [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]und öffnen Sie eine beliebige Entitätsansicht.
+
+1. Klicken Sie rechts in der Symbolleiste auf ![Berichtsdownload](/help/search-social-commerce/assets/download.png "Berichtsdownload") , um das Bedienfeld Downloads anzuzeigen.
+
+1. Klicken Sie neben dem Bericht oder Bulksheet auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
+
+1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+
+>[!MORELIKETHIS]
+>
+>[Daten aus einer Kampagnenverwaltungsansicht herunterladen](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)

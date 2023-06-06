@@ -3,7 +3,7 @@ title: Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaig
 description: Erfahren Sie, warum und wie Sie [!DNL Analytics for Advertising] Makros für Ihre [!DNL Google Campaign Manager 360] Anzeigen-Tags
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* Wenn die URL der Landingpage ein nicht übliches Hash-Symbol (#) enthält, platzieren Sie die `amo` -Parameter vor dem Hash-Symbol.
->* Wenn keine anderen Parameter nach der `amo` , und fügen Sie danach einen Parameter hinzu (z. B. &amp;a=b). Beispiel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >Wenn keine anderen Parameter nach der `amo` , und fügen Sie danach einen Parameter hinzu (z. B. &amp;a=b). Beispiel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### Konfigurieren des Advertiser-Level-URL-Suffixes der Landingpage
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 Wenn ein Benutzer auf die Anzeige klickt, [!DNL Google Campaign Manager 360] seen `%pamo` im URL-Suffix und fügt den Wert der `amo` in die URL ein.
 
 >[!MORELIKETHIS]
->
->* [Übersicht über [!DNL Analytics for Advertising]](overview.md)
->* [Von [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](macros-flashtalking.md)
+* [Übersicht über [!DNL Analytics for Advertising]](overview.md)
+* [Von [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](macros-flashtalking.md)
 

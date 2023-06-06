@@ -1,7 +1,7 @@
 ---
 title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **Einschränkung:** (Advertiser mit Portfolios; nur für Gebotseinheiten in Standard-Portfolios) Eine Regel für Gebote auf einen bestimmten Suchbegriff oder eine bestimmte Anzeige. Sie überschreibt alle Beschränkungen auf Portfolioebene und die empfohlene Angebotsstrategie.
 
-**Konversion:** Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird; Beispiele sind Registrierungen oder Käufe. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
+**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird; Beispiele sind Registrierungen oder Käufe. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
 
 **Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf Werbeanzeigen eines Werbetreibenden in den Werbenetzwerken und b) die daraus resultierenden Transaktionen auf der Website des Werbetreibenden zu verfolgen.
 

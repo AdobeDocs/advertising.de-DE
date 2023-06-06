@@ -1,0 +1,14 @@
+---
+source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
+
+---
+# Text-Anzeigenvorlage - Ursprüngliches Budget
+
+**[!UICONTROL Initial Budget]:** (Optional) Das Budget für jede neu erstellte Kampagne. Geben Sie entweder einen numerischen Wert oder einen Spaltennamen ein. Wenn Sie einen Spaltennamen verwenden, wird der niedrigste Wert für die Spalte verwendet, die von der Vorlage verarbeitet wird. Um einen Spaltennamen als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste. Wenn Sie kein Budget eingeben, verwendet jede erstellte Kampagne das Standardbudget für das Konto.
+
+>[!TIP]
+>
+>[Hinzufügen der Kampagne zu einem Portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) und aktivieren Sie die Portfoliooption auf &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;, damit Search, Social und Commerce das Budget automatisch anpassen können, um die Ausgaben für das gesamte Portfolio zu optimieren.
