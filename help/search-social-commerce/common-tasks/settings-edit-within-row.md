@@ -1,7 +1,7 @@
 ---
 title: Einstellungen direkt in einer Zeile bearbeiten
 description: Erfahren Sie, wie Sie Daten in Verwaltungsansichten innerhalb der Zeile bearbeiten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Freiformwerte) Geben Sie einen neuen Wert ein und klicken Sie auf ![Speichern](/help/search-social-commerce/assets/select.png "Speichern") oder drücken Sie die **Eingabe** Schlüssel.
    >[!MORELIKETHIS]
    >
-   >*[Erstellen und Bearbeiten von Kampagnendaten stapelweise mithilfe von Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Erstellen und Bearbeiten von Kampagnendaten stapelweise mithilfe von Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
