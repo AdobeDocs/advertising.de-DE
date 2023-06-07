@@ -1,7 +1,7 @@
 ---
 title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeigentypen sowie die jeweils verfügbaren Funktionen aufgeführt.
 
 | Quelle | Netzwerk | Kampagnentyp | Anzeigentyp | Synchronisieren und Anzeigen | Erstellen/Bearbeiten | Verfolgen[^1] | Optimieren | Bericht[^2] | Adobe Analytics-Support[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Suchnetzwerk | Manuell | Text | Automatisch über API | Verwenden [Kampagnenverwaltungsansichten](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) und [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampagnen mit manueller CPC-Angebotsstrategie nur | Daten auf Anzeigenebene | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
 | [!DNL Google Ads] | Alle [!DNL Google] Feeds | Erkennung (Beta-Funktion) | Erkennung (Anzeigen mit einem Bild)<br><br>Karussell-Erkennung (Karussellanzeigen mit mehreren Bildern) | Automatisch über API | — | Ja | Nur bei hybriden Portfolios<br><br>Gebote und Angebotsstrategieziele werden auf Kampagnenebene zusammen mit Kampagnenbudgets festgelegt, je nach Optimierungstyp. | Daten auf Anzeigenebene | Daten auf Anzeigenebene für Search, Social und Commerce (unter Verwendung der aktualisierten [s_kwcid-Trackingcode](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
 |  | Alle | Standardleistung max (Beta-Funktion) | Alle Typen | Automatisch über API | Erstellen/Bearbeiten von Kampagnen und Hochladen von Anzeigen-Assets in den Kampagneneinstellungen in der Kampagnenansicht<br><br>Es sind nur erforderliche Einstellungen verfügbar. Für optionale Einstellungen und Auflistungsgruppen melden Sie sich bei [!DNL [!DNL Google Ads] Anzeigen]-Editor. | Ja | Nur bei hybriden Portfolios<br><br>Angebotsstrategieziele werden auf Kampagnenebene zusammen mit Kampagnenbudgets festgelegt. | Daten auf Kampagnenebene<br><br>Daten für die Auflistung von Gruppen sind nicht verfügbar und das Anzeigennetzwerk stellt keine Daten auf Anzeigenebene bereit. | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Kampagnenebene von &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;bis &quot;Analytics&quot;. Erfordert die Aktualisierung [s_kwcid-Trackingcode](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
