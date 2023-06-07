@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Bestandsdaten-Feed-Dateien
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Sie können jede Feed-Datei öffnen oder herunterladen, die manuell oder über F
 
 Weitere Informationen finden Sie in der Online-Hilfe Ihres Browsers.
 
-## Manuelles Hochladen einer Feed-Datei [#feed-file-upload]
+## Manuelles Hochladen einer Feed-Datei {#feed-file-upload}
 
 >[!NOTE]
 > Wenn Sie eine Vorlage mit einer manuell hochgeladenen Datei verknüpfen, aber dann per FTP eine andere Datei mit demselben Namen, derselben Dateierweiterung und derselben grammatischen Schreibweise hochladen, wird die FTP-Datei verwendet, wenn Sie die Daten über die Vorlage propagieren. Beispielsweise ersetzt &quot;myfile.csv&quot;die Datei &quot;myfile.csv&quot;, &quot;myfile.CSV&quot;jedoch nicht.
