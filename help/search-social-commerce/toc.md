@@ -9,9 +9,9 @@ user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Au
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + Instrumente {#tools}
    + [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
-   + Tools für die Verfolgung von Tags {#tracking}
-      + [Tools zum Erstellen und Dekodieren pixelbasierter Verfolgung]{#pixel}
-         + [Über die Tools zum Erstellen und Dekodieren von Tracking-Tags](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Klick-Tracking-URL generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Klick-Tracking-URL dekodieren](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Tools zum Erstellen und Dekodieren von Tracking-Tags{#tracking}
+      + [Über die Tools zum Erstellen und Dekodieren von Tracking-Tags](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Klick-Tracking-URL generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Klick-Tracking-URL dekodieren](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Hochladen von Konversionsdaten in Werbenetzwerke {#upload-ad-networks}
       + [Hochladen von Konversionsmetriken in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Aktivieren des Hochladens von Zielen in Werbenetzwerke](/help/search-social-commerce/tools/objective-upload-to-networks.md)
