@@ -1,9 +1,9 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 
 ### Kampagnenfelder
 
-| Accept Name | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. | | Kampagnenname | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. | | Kampagnenbudget | Erforderlich: Erstellen<br><br>>Optional: Bearbeiten oder Löschen | Eine tägliche Ausgabenobergrenze für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. | | Versandmethode | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen | | Kanaltyp | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen | | Netzwerke | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen | | DSA-Domänenname | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen | | DSA Domain Language | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen | | Kampagnenpriorität | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen | | Merchant ID | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen | | Verkaufsland | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen | | Filter für den Produktumfang | Optional | | Sprachen | Optional | | Geräteziele | Optional | | Geräte-OS-Ziele (Google-Adwords) | Optional | | Mobilnetzbetreiber (Google Adwords) | Optional | | Zielgruppenbestimmungsmethode | Nicht zutreffend | | Suffix der Einstiegsseite | <p>Optional | | Tracking Template | Optional | | Kampagnenstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen | | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional | | Einschränkungen | Optional | | Kampagnen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. | | AMO ID | nicht zutreffend: Erstellen<br><br>Erforderlich/Optional: Bearbeiten oder Löschen |
+| Feld | Erforderlich? |
+| ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
+| Kampagnenbudget | Erforderlich: Erstellen<br><br>>Optional: Bearbeiten oder Löschen | Eine tägliche Ausgabenbegrenzung für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. |
+| Versandmethode | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
+| Kanaltyp | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
+| Netzwerke | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
+| DSA-Domänenname | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
+| DSA-Domänensprache | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
+| Kampagnenpriorität | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
+| Merchant-ID | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
+| Vertriebsland | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
+| Produktumfang-Filter | Optional |
+| Sprachen | Optional |
+| Geräteziele | Optional |
+| Geräte-OS-Ziele (Google-Adwords) | Optional |
+| Mobilnetzbetreiber (Google Adwords) | Optional |
+| Zielgruppenbestimmungsmethode | Nicht zutreffend |
+| Suffix der Einstiegsseite | <p>Optional |
+| Tracking-Vorlage | Optional |
+| Kampagnenstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
+| AMO-ID | Nicht zutreffend: Erstellen<br><br>Erforderlich/Optional: Bearbeiten oder Löschen |
 
 ### Anzeigengruppenfelder
 
@@ -144,10 +169,10 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
