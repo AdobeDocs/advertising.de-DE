@@ -1,7 +1,7 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | Feld | Beschreibung |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Plattform | (In generierten Bulksheets zu Informationszwecken enthalten) Die Anzeigenplattform. Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
 | Kontoname | Der eindeutige Name, der ein Anzeigennetzwerkkonto identifiziert. Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
 | Kampagnenname | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
