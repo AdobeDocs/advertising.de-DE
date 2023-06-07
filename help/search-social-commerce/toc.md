@@ -9,9 +9,9 @@ user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Au
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [Benutzerdefinierte Warnungen anzeigen](/help/search-social-commerce/alerts/alert-view.md)
       + [Daten für benutzerdefinierte Warnungen exportieren](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Anzeigen des Verlaufsberichts](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Einblicke in Recommendations und Publisher {#recommendations}
+      + [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Anwenden oder Verwerfen eines [!DNL Google Ads] Empfehlung](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Instrumente {#tools}
    + [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
    + Tools zum Erstellen und Dekodieren von Tracking-Tags{#tracking}
