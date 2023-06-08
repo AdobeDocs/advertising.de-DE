@@ -1,10 +1,10 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
-source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
+source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
 workflow-type: tm+mt
-source-wordcount: '6630'
-ht-degree: 0%
+source-wordcount: '8631'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Versandmethode | <p>Wie schnell zeigen Sie Anzeigen für die Kampagne jeden Tag an:</p><ul><li><p><i>Standard (verteilt)</i> (Standardeinstellung für neue Kampagnen): So verbreiten Sie Ihre Anzeigenimpressionen über den Tag.</p></li><li><p><i>Accelerated:</i> (Veraltet im Oktober 2019) So zeigen Sie Ihre Anzeigen so oft wie möglich an, bis Ihr Budget erreicht ist. Daher werden Ihre Anzeigen möglicherweise nicht später am Tag angezeigt.</p></li></ul> |
 | Kanaltyp | <p>Die Kanäle, auf denen Anzeigen platziert werden sollen. Legen Sie eine oder mehrere Optionen fest:</p><ul><li class="p"><p><span style="font-style: italic;"><i>Suche</i></span> (Standardeinstellung für neue Kampagnen): So platzieren Sie Anzeigen im Google-Suchnetzwerk (einschließlich Google-Such- und Google-Suchpartner-Websites) und optional auch im Google-Display-Netzwerk. <b>Hinweis:</b> Kampagnen, die sowohl auf das Suchnetzwerk als auch auf das Display-Netzwerk abzielen, können nicht zu einem Portfolio zur Angebotsoptimierung hinzugefügt werden.</p></li><li class="p"><p><span style="font-style: italic;"><i>Anzeige</i></span>: Um Anzeigen nur im Google-Display-Netzwerk zu platzieren.</p></li><li class="p"><p><span style="font-style: italic;"><i>Shopping</i></span>: So platzieren Sie Shopping-Anzeigen auf Google Shopping (in ausgewählten Ländern) und dem Google-Suchnetzwerk (einschließlich Google-Suche und Google-Suchpartner-Websites). Um Shopping-Anzeigen zu erstellen, müssen Sie über Produkte in einem Google Merchant Center-Konto verfügen und [Search, Social und Commerce erlauben, Daten aus dem Konto herunterzuladen](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Siehe[Implementierung [!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; für weitere Informationen zum Erstellen von Shopping-Anzeigen.</p></li></ul> |
 | Netzwerke | <p>Ort, an dem Anzeigen platziert werden sollen. Legen Sie eine oder mehrere Optionen fest:</p><ul><li class="p"><p><span style="font-style: italic;"><i>Google-Suche</i></span>: Sponsored Search-Listen werden nur im Google Search Network angezeigt.</p></li><li class="p"><p><span style="font-style: italic;"><i>Suchpartner</i></span>: Sponsored Search-Auflistungen zu Google-Suchpartnern.</p></li><li class="p"><p><span style="font-style: italic;"><i>Inhalt</i></span>: So platzieren Sie Angebote für Display-Netzwerklisten.</p></li><li class="p"><p><span style="font-style: italic;"><i>Alle</i></span> (Standardeinstellung für neue Kampagnen): Ziele Google-Suche, Suchpartner und Inhalte.</p></li></ul> |
-| DSA-Domänenname | <p>(Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen) Die Stammdomäne (z. B. beispiel.com) oder die Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk für das Targeting Ihrer dynamischen Suchanzeigen verwendet.<br><br><b>Hinweise:</b></p><ul><li><p>Erweiterte dynamische Suchanzeigen zielen auf den Inhalt der Website und nicht auf Suchbegriffe ab.</p></li><li><p>Ihre Domäne muss durch den organischen Suchindex des Werbenetzwerks indiziert sein, damit Targeting erfolgt.</p></li><li><p>Wenn Sie keine Domäne angeben, müssen Sie dynamische Suchziele erstellen, die für jede Anzeigengruppe entweder alle Seiten Ihrer Website oder eine Untergruppe davon abrufen.</p></li></ul> |
+| DSA-Domänenname | <p>(Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen) Die Stammdomäne (z. B. beispiel.com) oder die Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk zum Ansprechen Ihrer dynamischen Suchanzeigen verwendet.<br><br><b>Hinweise:</b></p><ul><li><p>Erweiterte dynamische Suchanzeigen zielen auf den Inhalt der Website und nicht auf Suchbegriffe ab.</p></li><li><p>Ihre Domäne muss durch den organischen Suchindex des Werbenetzwerks indiziert sein, damit Targeting erfolgt.</p></li><li><p>Wenn Sie keine Domäne angeben, müssen Sie dynamische Suchziele erstellen, die für jede Anzeigengruppe entweder alle Seiten Ihrer Website oder eine Untergruppe davon abrufen.</p></li></ul> |
 | DSA-Domänensprache | (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen) Die Sprache für die angegebene Website-Domäne. <b>Hinweis:</b> Wenn die Domäne Seiten in mehreren Sprachen enthält und Sie alle Zielgruppen auswählen möchten, erstellen Sie für jede Sprache eine separate Kampagne. |
 | GDN Custom Bid Level | (Kampagnen, die nur auf das Display-Netzwerk abzielen) Anleitung zum Angebot: von <span style="font-style: italic;"><i>Anzeigengruppe</i></span> (Standardeinstellung), <span style="font-style: italic;"><i>Schlüsselwort</i></span>, <span style="font-style: italic;"><i>Platzierung</i></span> (Website) oder <span style="font-style: italic;"><i>Keines</i></span> (um den vorhandenen Wert zurückzusetzen). Sonstige Dimensionen (<span style="font-style: italic;"><i>Alter</i></span>, <span style="font-style: italic;"><i>Geschlecht</i></span>, <span style="font-style: italic;"><i>Interessen und Liste</i></span>, <span style="font-style: italic;"><i>Thema</i></span>und <span style="font-style: italic;"><i>Vertikal</i></span>) sind über die Benutzeroberfläche von Google Ads verfügbar. Wenn Sie über die Benutzeroberfläche von Google Ads Angebote für eine andere Dimension konfiguriert haben, wird dieser Wert angezeigt, Sie können diese Dimensionen hier jedoch nicht auswählen oder eingeben.</p><p><b>Hinweis:</b></p><ul><li><p>Erstellen Sie beim Gebot nach Keyword Tracking-Vorlagen auf Suchbegriffebene. Erstellen Sie auf ähnliche Weise Tracking-Vorlagen, wenn Sie ein Angebot nach Platzierung unterbreiten. Erstellen Sie für alle anderen Dimensionen Tracking-Vorlagen auf Anzeigenebene.</p></li><li><p>Wenn Sie ein Gebot nach einer nicht unterstützten Dimension (Alter, Geschlecht, Interessen und Liste oder Thema) senden, optimiert Search, Social und Commerce keine Gebote für die Dimension und alle Zuordnungen werden auf die Anzeigengruppe angewendet.</p></li><li><p>Anzeigen im Suchnetzwerk verwenden immer Suchbegriffangebote.</p></li></ul> |
 | Kampagnenpriorität | <p>(Nur Shopping-Kampagnen) Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen für dasselbe Produkt werben:  <span style="font-style: italic;"><i>Niedrig</i></span> (Standardeinstellung für neue Kampagnen), <span style="font-style: italic;"><i>Mittel</i></span>oder <span style="font-style: italic;"><i>Hoch</i></span>.</p><p>Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk zuerst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und welches zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt. |
@@ -45,11 +45,11 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Mobilnetzbetreiber (Google Adwords) | <p>(Nur ältere Kampagnentypen; sofern die Geräteziele &quot;Alle&quot;oder &quot;Smartphones&quot;enthalten) Mobilnetzbetreiber, mit denen die Smartphones verbunden sein können: <span style="font-style: italic;"><i>Alle</i></span>oder eines oder mehrerer der durch &lt;c span=&quot;&quot; id=&quot;2&quot; translate=&quot;no&quot; />Trägercode</i></span>>,&lt;<span style="font-style: italic;"><i>Ländercode</i></span>> (z. B. T-Mobile,US) mithilfe der Liste von <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">verfügbare Anbieter und Codes für Google Ads</a>. <span style="font-style: italic;"><i> Trennen Sie mehrere Netzbetreiber mit Semikolons (z. B. T-Mobile,US;T-Mobile,GB). Bei neuen Kampagnen ist die Standardeinstellung <span style="font-style: italic;"><i>Alle</i></span>.</p> |
 | Anzeigengruppenname | <p>Der eindeutige Name, der eine Anzeigengruppe identifiziert. Die maximale Länge beträgt 255 Zeichen. Nachfolgende leere Zeichen werden nicht gespeichert (z. B. wird &quot;Anzeigengruppe 1 &quot;als &quot;Anzeigengruppe 1&quot;gespeichert). Dieses Feld gilt nicht für Sitelinks auf Kampagnenebene oder Geräteziele auf Kampagnenebene.</p> |
 | Anzeigengruppentyp | <p>Der Anzeigengruppentyp: <span class="Option">Ermittlung</span> (nur für Erkundungskampagnen), <span class="Option">Anzeige</span> (für Display-Kampagnen), <span class="Option">Suchdynamik</span> (für erweiterte dynamische Suchanzeigen), <span class="Option">Search Standard</span> (für Suchanzeigen), <span class="Option">Shopping-Produkt</span> (für Shopping-Produktanzeigen), <span class="Option">Shopping-Showcase</span> (Erstellung und Bearbeitung werden nicht unterstützt) oder <span class="Option">unbekannt</span>.</p> |
-| Max. CPC | <p>(Nur CPC-Kampagnen) Die maximalen Kosten pro Klick (CPC), wobei es sich um den höchsten Betrag handelt, den Sie für einen Klick auf die Werbeanzeige im Werbenetzwerk mit oder ohne monetäre Symbole und Interpunktion bezahlen. Sie können Werte für Anzeigengruppen und Suchbegriffe, Produktgruppen und dynamische Suchziele festlegen. Die Standardeinstellung für einen neuen Suchbegriff wird von der Anzeigengruppenebene übernommen. Für Produktgruppen können Sie Werte für die niedrigste Produktgruppenebene festlegen. wird der Standardwert für eine neue Ebene von der übergeordneten Ebene übernommen.</p><p>Für bestehende Produktgruppen und dynamische Suchziele in optimierten Portfolios sind Aktualisierungen nur für einen Tag wirksam und werden während des nächsten Optimierungszyklus überschrieben.</p><p><b>Hinweis:</b> Verwenden Sie für Platzierungen das Feld Max. Platzierungs-CPC.</p> |
+| Max. CPC | <p>(Nur CPC-Kampagnen) Die maximalen Kosten pro Klick (CPC), wobei es sich um den höchsten Betrag handelt, der für einen Klick auf die Werbeanzeige im Werbenetzwerk mit oder ohne monetäre Symbole und Interpunktion bezahlt wird. Sie können Werte für Anzeigengruppen und Suchbegriffe, Produktgruppen und dynamische Suchziele festlegen. Die Standardeinstellung für einen neuen Suchbegriff wird von der Anzeigengruppenebene übernommen. Für Produktgruppen können Sie Werte für die niedrigste Produktgruppenebene festlegen. wird der Standardwert für eine neue Ebene von der übergeordneten Ebene übernommen.</p><p>Für bestehende Produktgruppen und dynamische Suchziele in optimierten Portfolios sind Aktualisierungen nur für einen Tag wirksam und werden während des nächsten Optimierungszyklus überschrieben.</p><p><b>Hinweis:</b> Verwenden Sie für Platzierungen das Feld Max. Platzierungs-CPC.</p> |
 | Max. Content-CPC | <p>(Nur CPC-Kampagnen) Die maximalen Inhaltskosten pro Klick (CPC), der höchste Betrag, der für einen Klick auf eine Display-Netzwerkseite mit oder ohne monetäre Symbole und Interpunktion bezahlt wird. Sie können Werte auf Anzeigengruppenebene in Kampagnen festlegen und bearbeiten, die nicht platzierungszielgerichtet sind.</p> |
 | Zielgruppenbestimmungsmethode | <p>(Kampagnen, die sich nur auf das Suchnetzwerk beziehen, sowie bestehende schreibgeschützte Gmail-Kampagnen im Anzeigenetzwerk) Ob:</p><ul><li><p><span style="font-style: italic;"><i>Ziel und Angebot</i></span>: So zeigen Sie Anzeigen nur Benutzern an, die mit Zielgruppen verknüpft sind, die auch andere Ziele für die Anzeigengruppe erfüllen.</p></li><li><p><span style="font-style: italic;"><i>Nur Angebot</i></span>: Anzeigen auch für Personen anzeigen, die nicht mit Zielgruppen verbunden sind, solange sie andere Ziele auf Anzeigengruppenebene erfüllen.</p><p>Sie können die Wahrscheinlichkeit erhöhen, dass Anzeigen bestimmten Zielgruppen angezeigt werden, indem Sie jedoch höhere Angebote für diese Zielgruppen festlegen.</p></li></ul> |
 | Schlüsselwort | Die Suchbegriff-Zeichenfolge. Die maximale Länge beträgt 80 Zeichen und höchstens 10 Wörter. Sie darf nur Buchstaben, Ziffern und die folgenden Sonderzeichen enthalten: space `# $ & _ - " [ ] ' + . / :`</p><p><b>Hinweis:</b></p><ul><li><p>Um einen Suchbegriff auf Anzeigengruppen- oder Kampagnenebene auszuschließen, setzen Sie den Übereinstimmungstyp auf <span style="font-style: italic;"><i>Negativ</i></span>. Wenn die Zeile den Anzeigengruppennamen enthält, wird der Suchbegriff für die Anzeigengruppe ausgeschlossen. Wenn die Zeile nicht den Anzeigengruppennamen enthält, wird der Suchbegriff für die gesamte Kampagne ausgeschlossen.</p></li><li><p>Wenn Sie einen Google Ads-Suchbegriff oder einen Übereinstimmungstyp ändern, wird der vorhandene Suchbegriff gelöscht und ein neuer erstellt.</p></li></ul> |
-| Platzierung | (Nur Kampagnen, die Inhalte verwenden, stimmen überein) Eine Platzierung im Display-Netzwerk, in der Ihre Anzeigen angezeigt werden können. Geben Sie eine der folgenden Optionen an:</p><ul><li class="p"><p>Website: Geben Sie eine gültige URL ein. Es kann sich um eine Domäne der obersten Ebene, eine Unterdomäne der ersten Ebene oder eine Domäne mit einem einzigen Ordnernamen handeln. Die URL darf kein Fragezeichen (?) enthalten. Beispiele:<span class="Code"><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</span></p></li><li class="p"><p>Eine Anzeigenposition auf einer bestimmten Seite: Format verwenden `<URL> >> <location,sublocation>` (z. B. `finance.google.com >> Company pages,Top right`).</p></li><li class="p"><p>Eine Themenkategorie: Syntax verwenden `<category::<category> > <subcategory>` usw. (z. B. `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>Hinweis:</b> Um eine Platzierung auf Anzeigengruppen- oder Kampagnenebene auszuschließen, setzen Sie den Übereinstimmungstyp auf <span style="font-style: italic;"><i>Negativ</i></span>. Wenn die Zeile den Anzeigengruppennamen enthält, wird die Platzierung für die Anzeigengruppe ausgeschlossen. Wenn die Zeile nicht den Anzeigengruppennamen enthält, wird die Platzierung für die gesamte Kampagne ausgeschlossen.</p> |
+| Platzierung | (Nur Kampagnen, die Inhalte verwenden, stimmen überein) Eine Platzierung im Display-Netzwerk, in der Ihre Anzeigen angezeigt werden können. Geben Sie eine der folgenden Optionen an:</p><ul><li class="p"><p>Website: Geben Sie eine gültige URL ein. Es kann sich um eine Domäne der obersten Ebene, eine Subdomäne der ersten Ebene oder eine Domäne mit einem einzigen Ordnernamen handeln. Die URL darf kein Fragezeichen (?) enthalten. Beispiele:<span class="Code"><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</span></p></li><li class="p"><p>Eine Anzeigenposition auf einer bestimmten Seite: Format verwenden `<URL> >> <location,sublocation>` (z. B. `finance.google.com >> Company pages,Top right`).</p></li><li class="p"><p>Eine Themenkategorie: Syntax verwenden `<category::<category> > <subcategory>` usw. (z. B. `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>Hinweis:</b> Um eine Platzierung auf Anzeigengruppen- oder Kampagnenebene auszuschließen, setzen Sie den Übereinstimmungstyp auf <span style="font-style: italic;"><i>Negativ</i></span>. Wenn die Zeile den Anzeigengruppennamen enthält, wird die Platzierung für die Anzeigengruppe ausgeschlossen. Wenn die Zeile nicht den Anzeigengruppennamen enthält, wird die Platzierung für die gesamte Kampagne ausgeschlossen.</p> |
 | Ausdruck für automatisches Targeting | <p>(Erforderlich, wenn die Kampagneneinstellung &quot;Verwenden Sie meine Website-Inhalte zum Targeting meiner Anzeigen&quot; nicht aktiviert ist. optional (ansonsten) Dynamische Suchziele für die Anzeigengruppe.</p><p>Verwenden Sie für alle Ziele ein Sternchen (*).</p><p>Verwenden Sie das Format , um bis zu drei dynamische Suchkriterien als Ziel auszuwählen. `<category>=<target>`, wobei `<category>` kann eine der folgenden Kategorien umfassen. Verknüpfen Sie mehrere Ziele für eine bestimmte Kategorie mit &quot;\[Leerzeichen\] und &quot;\[Leerzeichen\]&quot;und fügen Sie mehrere Kategorien mit &quot;[Leerraum] und [Leerraum]&quot;.</p><ul><li class="p"><p><span style="font-style: italic;"><i>Kategorie</i></span>: So zeigen Sie erweiterte dynamische Suchanzeigen für indizierte Seiten mit einer bestimmten Google-Inhaltskategorie an.</p></li><li class="p"><p><span style="font-style: italic;"><i>URL</i></span>: So zeigen Sie erweiterte dynamische Suchanzeigen für indizierte Seiten mit einer bestimmten URL an, wo der Wert an einer beliebigen Stelle in der URL enthalten sein kann.</p></li><li class="p"><p><span style="font-style: italic;"><i>Seitentitel</i></span>: So zeigen Sie erweiterte dynamische Suchanzeigen für indizierte Seiten mit spezifischem Text im Seitentitel an.</p></li><li class="p"><p><span style="font-style: italic;"><i>Seiteninhalt</i></span>: So zeigen Sie erweiterte dynamische Suchanzeigen für indizierte Seiten mit bestimmten Inhalten an.</p></li></ul><p>Beispiel: url=shoes.example.com und page title=Schuhe</p> |
 | Übergeordnete Produktgruppen | Die Hierarchie der übergeordneten Produktgruppen.<br><br>Beispiel: `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | Produktgruppierung | <p>Die Produktgruppe (z. B. &quot;brand=acme&quot;oder &quot;Alle Produkte&quot;).</p><p><b>Hinweis:</b></p><ul><li><p>Wenn eine bestimmte Produktgruppe nicht in der Hierarchie der übergeordneten Produktgruppen vorhanden ist, erstellt Search, Social und Commerce alle erforderlichen Teile der Hierarchie.</p></li><li><p>Search, Social und Commerce erstellt automatisch die Gruppe &quot;Alle Produkte&quot;, sobald Sie eine Anzeigengruppe in einer Google Shopping-Kampagne erstellen, deren Standardangebot auf das Standardgebot der Anzeigengruppe eingestellt ist. Search, Social und Commerce erstellt automatisch eine Gruppe &quot;Alles andere&quot;mit dem Standardangebot für Anzeigengruppen auf jeder Ebene der Produktgruppenhierarchie. Sie können diese Standardgruppen auch explizit erstellen und entweder ausschließen oder ihre Angebote ändern.</p></li><li><p>Jede Anzeigengruppe kann bis zu acht Stufen von Produktgruppen umfassen, darunter &quot;Alle Produkte&quot;und sieben weitere Stufen.</p></li></ul> |
@@ -58,16 +58,16 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Angebot der ersten Seite | (In generierten Bulksheets für Informationszwecke enthalten) Das Gebot, das erforderlich ist, um eine Anzeige auf der ersten Seite der Suchergebnisse zu platzieren. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht. |
 | Qualitätsbewertung | (Zu Informationszwecken in generierten Bulksheets enthalten) Der aktuelle Qualitätswert, den die Suchmaschine dem Suchbegriff zugewiesen hat. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht.) |
 | Creative Preferred Devices | (Textanzeigen, erweiterte dynamische Suchanzeigen und erweiterte Sitelinks; optional) Die Gerätetypen, bei denen Sie die Anzeige bevorzugen: <span style="font-style: italic;"><i>Alle</i></span> (Standardeinstellung) oder <i>Mobile</i>. Wann <i>Mobile</i> festgelegt ist, versucht das Netzwerk, die Anzeige für Benutzer mobiler Geräte anstatt für Desktop- oder Tablet-Benutzer anzuzeigen. Andernfalls zeigt das Netzwerk die Anzeige auf einem beliebigen Gerätetyp an.</p><p><b>Hinweis:</b></p><ul><li><p>Nur Administrator und [!DNL Adobe] Benutzer von Account Manager können diese Einstellung bearbeiten.</p></li><li><p>Das Netzwerk garantiert nicht, dass die Anzeige auf dem bevorzugten Gerätetyp angezeigt wird.</p></li><li><p>Neue erweiterte Sitelinks können nur in Kampagnen mit vorhandenen erweiterten Sitelinks oder ohne Sitelinks erstellt werden.</p></li></ul> |
-| Anzeigentitel, Anzeigentitel 2-15 | (Nur erweiterte Textanzeigen und responsive Suchanzeigen) Die Überschriften einer Anzeige, die jeweils durch einen senkrechten Strich ( | ). Die maximale Länge für jedes Feld mit Anzeigentitel beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Suchbegriffen und Anzeigenanpassungen).</p><p>Für responsive Suchanzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich und alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert [delete]</code> (einschließlich der Klammern).</p><p>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser ein, der die folgenden Formate verwendet:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising: `{CUSTOMIZER.Attribute name:default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden. |
-| Position des Anzeigentitels 1-15 | <p>(Nur responsive Suchanzeigen; optional) Eine Position, an der der entsprechende Anzeigentitel veröffentlicht werden soll: `[null]` (kein Wert, sodass der Anzeigentitel für alle Positionen infrage kommt) <i>1</i>, <i>2</i>oder <i>3</i>. Wenn beispielsweise die Anzeigentitelposition den Wert 1 hat, wird der Anzeigentitel nur in Position 1 angezeigt. Standardmäßig sind alle Anzeigentitel null (haben keine Werte).</p><p>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert [delete]</code> (einschließlich der Klammern).</p><p><b>Hinweis:</b> Sie können mehrere Anzeigentitel an derselben Position veröffentlichen. Das Anzeigennetzwerk verwendet einen der Anzeigentitel, die an die Position gebunden sind. Titel, die an Position 3 gekoppelt sind, können nicht mit der Anzeige angezeigt werden.</p> |
-| Beschreibung Zeile 1-4 | <p>(Nur erweiterte dynamische Suchanzeigen, erweiterte Textanzeigen und responsive Suchanzeigen) Der Hauptteil einer Anzeige. Die maximale Länge für jedes Beschreibungsfeld beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Keywords und Anzeigenanpassungen).</p><p>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser ein, der die folgenden Formate verwendet:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft Advertising: `{CUSTOMIZER.Attribute name:default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Verwenden Sie nur für erweiterte dynamische Suchanzeigen die Option Beschreibung Zeile 1 und Beschreibung Zeile 2. <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p><p>Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert [delete]</code> (einschließlich der Klammern).</p> |
-| Beschreibung Zeile 1-4 Position | (Nur responsive Suchanzeigen; optional) Eine Position, an der die entsprechende Beschreibung veröffentlicht werden soll: `[null]` (kein Wert, sodass die Beschreibung für alle Positionen geeignet ist), <i>1</i>, <i>2</i>oder <i>3</i>. Wenn beispielsweise Beschreibung 1 Position den Wert 1 hat, wird Beschreibung 1 nur in Position 1 angezeigt. Standardmäßig werden keine Beschreibungen an eine Position veröffentlicht.</p><p>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).</p><p><b>Hinweis:</b> Sie können mehrere Beschreibungen an derselben Position veröffentlichen. Das Werbenetzwerk verwendet eine der Beschreibungen, die an die Position gebunden sind. In Position 2 enthaltene Beschreibungen werden möglicherweise nicht zusammen mit der Anzeige angezeigt. |
+| Anzeigentitel, Anzeigentitel 2-15 | (Nur erweiterte Textanzeigen und responsive Suchanzeigen) Die Überschriften einer Anzeige, die jeweils durch einen senkrechten Strich ( | ). Die maximale Länge für jedes Feld mit Anzeigentitel beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Suchbegriffen und Anzeigenanpassungen).</p><p>Für responsive Suchanzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich und alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert <code>[delete]</code> (einschließlich der Klammern).</p><p>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser ein, der die folgenden Formate verwendet:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft® Advertising: `{CUSTOMIZER.Attribute name:default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden. |
+| Position des Anzeigentitels 1-15 | <p>(Nur responsive Suchanzeigen; optional) Eine Position, an der der entsprechende Anzeigentitel veröffentlicht werden soll: `[null]` (kein Wert, sodass der Anzeigentitel für alle Positionen infrage kommt) <i>1</i>, <i>2</i>oder <i>3</i>. Wenn beispielsweise die Anzeigentitelposition den Wert 1 hat, wird der Anzeigentitel nur in Position 1 angezeigt. Standardmäßig sind alle Anzeigentitel null (haben keine Werte).</p><p>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert <code>[delete]</code> (einschließlich der Klammern).</p><p><b>Hinweis:</b> Sie können mehrere Anzeigentitel an derselben Position veröffentlichen. Das Anzeigennetzwerk verwendet einen der Anzeigentitel, die an die Position veröffentlicht sind. Titel, die an Position 3 gekoppelt sind, können nicht mit der Anzeige angezeigt werden.</p> |
+| Beschreibung Zeile 1-4 | <p>(Nur erweiterte dynamische Suchanzeigen, erweiterte Textanzeigen und responsive Suchanzeigen) Der Hauptteil einer Anzeige. Die maximale Länge für jedes Beschreibungsfeld beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Keywords und Anzeigenanpassungen).</p><p>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser ein, der die folgenden Formate verwendet:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p><span>Microsoft® Advertising: `{CUSTOMIZER.Attribute name:default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</span></p></li></ul><p>Verwenden Sie nur für erweiterte dynamische Suchanzeigen die Option Beschreibung Zeile 1 und Beschreibung Zeile 2. <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p><p>Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert <code>[delete]</code> (einschließlich der Klammern).</p> |
+| Beschreibung Zeile 1-4 Position | (Nur responsive Suchanzeigen; optional) Eine Position, an der die entsprechende Beschreibung veröffentlicht werden soll: `[null]` (kein Wert, sodass die Beschreibung für alle Positionen geeignet ist), <i>1</i>, <i>2</i>oder <i>3</i>. Wenn beispielsweise Beschreibung 1 Position den Wert 1 hat, wird Beschreibung 1 nur in Position 1 angezeigt. Standardmäßig werden keine Beschreibungen an eine Position veröffentlicht.</p><p>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).</p><p><b>Hinweis:</b> Sie können mehrere Beschreibungen an derselben Position veröffentlichen. Das Anzeigennetzwerk verwendet eine der Beschreibungen, die an die Position gebunden sind. In Position 2 enthaltene Beschreibungen werden möglicherweise nicht zusammen mit der Anzeige angezeigt. |
 | URL anzeigen | Die in der Anzeige enthaltene URL.<br><br>Bei erweiterten dynamischen Suchanzeigen generiert Google Ads diesen Wert dynamisch aus der Website-Domäne und Sie müssen keinen Wert eingeben.<br><br>Für responsive Suchanzeigen müssen Sie keinen Wert eingeben. Die Anzeigen-URL wird automatisch aus der Domäne in der endgültigen URL extrahiert. Optional können Sie die URL mithilfe der Felder Pfad 1 und Pfad 2 anpassen.<br><br>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.<br><br><b>Hinweis:</b> (Konten mit finalen URLs) Die Domänennamen in der Anzeigen-URL und der endgültigen URL müssen übereinstimmen.</p> |
-| Anzeigepfad 1 | <p>(Erweiterte Textanzeigen)<span> und responsive Suchanzeigen</span> nur)</p><p>(Optional) Text, der der Anzeigen-URL hinzugefügt wird, die automatisch aus der endgültigen URL extrahiert wird. Der URL wird ein Schrägstrich (/) vorangestellt. Ein Pfad darf keine Schrägstriche (/) oder Zeilenumbruchzeichen (\n) enthalten. Die maximale Länge beträgt 15 Zeichen oder 7 Doppelbyte-Zeichen.</p><p>Verwenden Sie zum Einfügen eines Anzeigenanpassers die folgenden Formate, wobei `Default text` ist ein optionaler Wert, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Microsoft Advertising: `{CUSTOMIZER.Attribute name:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>Wenn der Anzeigepfad 1 beispielsweise &quot;Angebote&quot;lautet, lautet die Anzeigen-URL &lt;<i>Anzeigen-URL</i>>/transactions, z. B. www.example.com/deals.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p> |
-| Anzeigepfad 2 | einen zusätzlichen Anzeigepfad; sehen Sie den Eintrag für Anzeigepfad 1.<br><br>Beispiel: Wenn der Anzeigepfad 1 &quot;Angebote&quot;und der Anzeigepfad 2 &quot;lokal&quot;ist, lautet die Anzeige-URL &lt;<i>Anzeigen-URL</i>>/transactions/local, z. B. www.example.com/deals/local.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p> |
+| Anzeigepfad 1 | <p>(Erweiterte Textanzeigen)<span> und responsive Suchanzeigen</span> nur)</p><p>(Optional) Text, der der Anzeigen-URL hinzugefügt wird, die automatisch aus der endgültigen URL extrahiert wird. Der URL wird ein Schrägstrich (/) vorangestellt. Ein Pfad darf keine Schrägstriche (/) oder Zeilenumbruchzeichen (\n) enthalten. Die maximale Länge beträgt 15 Zeichen oder 7 Doppelbyte-Zeichen.</p><p>Verwenden Sie zum Einfügen eines Anzeigenanpassers die folgenden Formate, wobei `Default text` ist ein optionaler Wert, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält:</p><ul><li><p>Google Ads: `{CUSTOMIZER.AdCustomizerName:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li><li><p>Microsoft® Advertising: `{CUSTOMIZER.Attribute name:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`</p></li></ul><p>Wenn der Anzeigepfad 1 beispielsweise &quot;Angebote&quot;lautet, lautet die Anzeigen-URL &lt;<i>Anzeigen-URL</i>>/transactions, z. B. www.example.com/deals.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p> |
+| Anzeigepfad 2 | einen zweiten Anzeigepfad; sehen Sie den Eintrag für Anzeigepfad 1.<br><br>Beispiel: Wenn der Anzeigepfad 1 &quot;Angebote&quot;und der Anzeigepfad 2 &quot;lokal&quot;ist, lautet die Anzeige-URL &lt;<i>Anzeigen-URL</i>>/transactions/local, z. B. www.example.com/deals/local.</p><p>Sie können keine Textanzeigen erstellen oder bearbeiten, aber Sie können erweiterte Textanzeigen löschen, die von Google Ads im Juni 2022 eingestellt wurden.</p> |
 | Promotion Line | (Nur Google Product Listing Ads) Eine optionale Promotion-Zeile, die in die Produktliste in den Suchergebnissen aufgenommen werden soll. Die maximale Länge beträgt 45 Zeichen.</p><p>Die Promotion-Zeile kann an verschiedenen Stellen relativ zur Anzeige angezeigt werden (z. B. unter der Anzeige), je nachdem, wo die Anzeige auf der Seite erscheint. |
 | Linkname | <p>Der Sitelink-Text. Er kann bis zu 25 Zeichen enthalten.</p><p>Bei neuen Sitelinks müssen Sie den Kampagnennamen in die Sitelink-Zeile aufnehmen. Bei Sitelinks auf Anzeigengruppenebene müssen Sie auch den Anzeigengruppennamen angeben.</p><p><b>Hinweis:</b> Der vorhandene Text mit 35 Zeichen wird weiterhin in Anzeigen auf Desktops und Tablets, nicht aber auf Mobilgeräten angezeigt.</p> |
-| Mobile App Platform (Google Adwords) | (Nur vorhandene App-Installationsanzeigen) Das Betriebssystem, auf dem die Mobile App ausgeführt wird: <i>Android</i> oder <i>iOS</i>. |
+| Mobile App Platform (Google Adwords) | (Nur vorhandene App-Installationsanzeigen) Das Betriebssystem, auf dem die Mobile App ausgeführt wird: <i>Android™</i> oder <i>iOS</i>. |
 | App-ID (Google Adwords) | (Nur vorhandene App-Installationsanzeigen) <p>Die Anwendungs-ID oder der Paketname. |
 | App-Name (Google Adwords) | (Nur vorhandene App-Installationsanzeigen) Der Name der Anwendung. |
 | Startdatum | <p>(Nur erweiterte Sitelinks) Das erste Datum, an dem Angebote für den Sitelink in der Zeitzone des Werbetreibenden und in einem der folgenden Formate platziert werden können: <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>oder <span style="font-style: italic;"><i>m-d-yy</i></span>. Die Standardeinstellung für neue erweiterte Sitelinks ist der aktuelle Tag.</p><p><b>Hinweis:</b> Neue erweiterte Sitelinks können nur in Kampagnen mit vorhandenen erweiterten Sitelinks oder ohne Sitelinks erstellt werden.</p> |
@@ -99,7 +99,7 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Kampagnen-ID | Die eindeutige ID, die eine bestehende Kampagne identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
 | Anzeigengruppen-ID | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für die Anzeigengruppe. |
 | Schlüsselwort-ID | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie den Suchbegriff ändern, es sei denn, die Zeile enthält a) ausreichend Eigenschaftsspalten, um den Suchbegriff zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
-| Anzeigen-ID | <p>Die eindeutige ID, die eine vorhandene Anzeige identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Für responsive Suchanzeigen ist entweder die Anzeigen-ID oder die AMO-ID erforderlich, um Anzeigendaten zu bearbeiten oder zu löschen. Bei allen anderen Entitätstypen ist die AMO-ID nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen.</p><p><b>Hinweis:</b> Wenn Sie a) Anzeigeneigenschaftsspalten mit Ausnahme des Status für eine vorhandene Anzeige oder b) Daten für eine responsive Suchanzeige bearbeiten und weder die Anzeigen-ID noch die AMO-ID einschließen, wird eine neue Anzeige erstellt und die vorhandene Anzeige wird nicht geändert.</p> |
+| Anzeigen-ID | <p>Die eindeutige ID, die eine vorhandene Anzeige identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Für responsive Suchanzeigen ist entweder die Anzeigen-ID oder die AMO-ID erforderlich, um Anzeigendaten zu bearbeiten oder zu löschen. Bei allen anderen Entitätstypen ist die Anzeigen-ID nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen.</p><p><b>Hinweis:</b> Wenn Sie a) Anzeigeneigenschaftsspalten mit Ausnahme des Status für eine vorhandene Anzeige oder b) Daten für eine responsive Suchanzeige bearbeiten und weder die Anzeigen-ID noch die AMO-ID einschließen, wird eine neue Anzeige erstellt und die vorhandene Anzeige wird nicht geändert.</p> |
 | Platzierungs-ID | Die eindeutige ID, die die Platzierung einer Website identifiziert. Nur erforderlich, wenn Sie die Platzierung ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um die Platzierung zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
 | Target-ID | Die eindeutige ID, die ein vorhandenes automatisches Ziel identifiziert. Nur erforderlich, wenn Sie das automatische Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
 | Produktgruppen-ID | Die eindeutige ID, die eine bestehende Produktgruppe identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie die Produktgruppe ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um die Produktgruppe zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
@@ -143,7 +143,7 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
 | Einschränkungen | Optional |
 | Kampagnen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
-| AMO-ID | Nicht zutreffend: Erstellen<br><br>Erforderlich/Optional: Bearbeiten oder Löschen |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Anzeigengruppenfelder
 
@@ -162,82 +162,257 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Anzeigengruppenstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
 | Einschränkungen | Optional |
-| Anzeigengruppen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für die Anzeigengruppe. |
-| AMO-ID | Die AMO-ID ist zum Bearbeiten oder Löschen der Daten erforderlich, es sei denn, Sie enthalten die Entitäts-ID und die ID der übergeordneten Entität.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+| Anzeigengruppen-ID | Nur erforderlich, wenn Sie den Anzeigengruppennamen ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für die Anzeigengruppe. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-<!-- 
+### Suchbegriffsfelder
 
-### Keyword fields
-
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Ad Group Name | Required  |
-| Max CPC | Optional |
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
-Keyword Status
-
-| Field | Required? | Description |
+| Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
-| Base URL/Final URL |  |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Max. CPC | Optional |
+| Schlüsselwort | Erforderlich |
+| Übereinstimmungstyp | Optional: Erstellen<br><br>Erforderlich/Optional: Bearbeiten oder Löschen |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Param1 | Optional |
+| Param2 | Optional |
+| Suchbegriffstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Schlüsselwort-ID | Nur erforderlich, wenn Sie den Suchbegriff bearbeiten oder löschen, es sei denn, die Zeile enthält a) ausreichend Eigenschaftsspalten, um den Suchbegriff zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-### Placement fields
+### Platzierungsfelder
 
-
-### Text/Product listing fields
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Expanded dynamic search ad
-
-This ad type is now called "dynamic search ad" in [!DNL Google Ads].
-
-This uses the "[!UICONTROL Creative (except RSA)]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Responsive search ad fields 
-
-This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Download Bulksheet] dialog.
-
-
-### Dynamic search target (auto target) fields
-
-
-### Shopping product group fields
-
-
-### Campaign-level and ad group-level sitelink fields
-
-
-### Location target fields
-
-| Field | Required? ]
-| ---- | ---- |
-| Location | Required: Create or edit<br><br>Optional: Delete |
-| Location Type | Optional  |
-
-## Campaign-level and ad group-level device target fields
-
-| Field | Required? | Description |
+| Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
-| Device Target Status | Optional |
-| Device Target ID | Required only when you change or delete the target, unless the row includes an &quot;AMO ID&quot; for the target. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Max. Platzierungs-CPC (Google Adwords) | Optional |
+| Max. Platzierungs-CPM (Google Adwords) | Optional |
+| Platzierung | Erforderlich |
+| Übereinstimmungstyp | Erforderlich |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Platzierungsstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Platzierungs-ID | Nur erforderlich, wenn Sie die Platzierung bearbeiten oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um die Platzierung zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
+### Erweiterte dynamische Suchanzeige
 
-## Campaign-level and ad group-level RLSA target/exclusion fields
+Dieser Anzeigentyp wird jetzt als &quot;dynamische Suchanzeige&quot;in [!DNL Google Ads]. Weitere Informationen zum Erstellen von dynamischen Suchanzeigen finden Sie unter[Implementierung [!DNL Google Ads] dynamische Suchanzeigen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
 
--->
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Creative Preferred Devices | Optional |
+| Beschreibung Zeile 1-2 | Erforderlich, um eine Anzeige zu erstellen oder die Beschreibung zu bearbeiten. <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue. |
+| URL anzeigen | Erforderlich |
+| Tracking-Vorlage | Optional |
+| Kreativer Typ | Erforderlich zum Erstellen oder Bearbeiten des Status einer Produktanzeige. |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Felder für Produktliste/Shopping-Anzeige
+
+Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot;[Implementieren von Google Ads-Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Promotion Line | Optional |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Kreativer Typ | Erforderlich zum Erstellen oder Bearbeiten des Status einer Produktanzeige. |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Responsive Suchanzeigenfelder
+
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich | |
+| Anzeigentitel, Anzeigentitel 2-15 | Für responsive Suchanzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich und alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Position des Anzeigentitels 1-15 | Optional |
+| Beschreibung Zeile 1-4 | Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Beschreibung Zeile 1-4 Position | Optional |
+| Anzeigepfad 1 | Optional |
+| Anzeigepfad 2 | Optional |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Erforderlich zum Erstellen einer Anzeige. |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Kreativer Typ | Optional |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Erforderlich zum Bearbeiten oder Löschen von Anzeigen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen von Anzeigen, es sei denn, Sie enthalten die Anzeigen-ID. |
+
+### Textanzeigenfelder
+
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+>[!NOTE]
+>
+>Erweiterte Textanzeigen wurden im Juni 2022 eingestellt. Sie können nur vorhandene Textanzeigen löschen.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Creative Preferred Devices | Schreibgeschützt |
+| Anzeigentitel, Anzeigentitel 2-3 | Schreibgeschützt |
+| Beschreibung Zeile 1-2 | Schreibgeschützt |
+| URL anzeigen | Schreibgeschützt |
+| Anzeigepfad 1 | Schreibgeschützt |
+| Anzeigepfad 2 | Schreibgeschützt |
+| Tracking-Vorlage | Schreibgeschützt |
+| Basis-URL/Endgültige URL | Schreibgeschützt |
+| Benutzerdefinierter URL-Parameter | Schreibgeschützt |
+| Kreativer Typ | Optional |
+| Anzeigenstatus | Erforderlich |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Felder für dynamisches Suchziel (automatisches Targeting)
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Max. CPC | Optional |
+| Ausdruck für automatisches Targeting | Erforderlich, wenn die Kampagneneinstellung &quot;Verwenden Sie meine Website-Inhalte zum Targeting meiner Anzeigen&quot; nicht aktiviert ist; andernfalls optional. |
+| Übereinstimmungstyp | Optional |
+| Zielstatus | Löschen einer Zielgruppe erforderlich |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Target-ID | Nur erforderlich, wenn Sie das automatische Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Produktgruppenfelder kaufen
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Max. CPC | Erforderlich zum Erstellen einer Produktgruppe. |
+| Übergeordnete Produktgruppen | Erforderlich |
+| Produktgruppierung | Erforderlich |
+| Partitionstyp | Erforderlich zum Erstellen einer Produktgruppe. |
+| Übereinstimmungstyp | Optional |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Erforderlich |
+| Produktgruppenstatus | Nur zum Löschen einer Produktgruppe erforderlich. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Produktgruppen-ID | Nur erforderlich, wenn Sie die Produktgruppe ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um die Produktgruppe zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Sitelink-Felder auf Kampagnenebene und Anzeigengruppenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich für Sitelinks auf Anzeigengruppenebene. Gilt nicht für Sitelinks auf Kampagnenebene. |
+| Creative Preferred Devices | Optional |
+| Linkname | Erforderlich |
+| Startdatum | Optional |
+| Enddatum | Optional |
+| Tracking-Vorlage | Optional |
+| Basis-URL/Endgültige URL | Erforderlich |
+| Sitelink-Status | Nur zum Löschen eines Sitelink-Links erforderlich. |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Sitelink-ID | Nur erforderlich, wenn Sie den Sitelink ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um den Sitelink zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Sitelink-Anzeigen-ID noch die AMO-ID angeben und die Eigenschaftenspalten mit mehreren Sitelinks übereinstimmen, ändert sich der Status nur für einen der Sitelinks.<br><br><b>Hinweis:</b> Wenn Sie Sitelink-Eigenschaftenspalten mit Ausnahme des Status für einen vorhandenen Sitelink bearbeiten und weder die Sitelink-ID noch die AMO-ID einschließen, wird ein neuer Sitelink erstellt und der vorhandene Sitelink wird nicht geändert. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Zielgruppenfelder der Position
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Standort | Erforderlich zum Erstellen oder Bearbeiten eines Standort-Ziels. |
+| Location Type | Optional |
+| Angebotsanpassung | Optional |
+| Standort-Status | Nur zum Löschen eines Orts-Ziels erforderlich. |
+| Kampagnen-ID | Optional |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Kampagnen-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+## Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Gerät | Erforderlich zum Erstellen oder Bearbeiten eines Geräteziels. |
+| Angebotsanpassung | Optional |
+| Anzeigengruppenname | Erforderlich für Geräteziele auf Anzeigengruppenebene. Gilt nicht für Geräteziele auf Kampagnenebene. |
+| Gerätezielstatus | Nur zum Löschen eines Geräteziels erforderlich. |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Fakultativ; gilt nur für Geräteziele auf Anzeigengruppenebene. |
+| Device Target-ID | Nur erforderlich, wenn Sie das Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
+| AMO-ID | Erforderlich, um die Daten zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die Geräteziel-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+## RLSA-Zielgruppen-/Ausschlussfelder auf Kampagnenebene und Anzeigengruppenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Angebotsanpassung | Optional |
+| Anzeigengruppenname | Erforderlich für Ziele und Ausschlüsse auf Anzeigengruppenebene. Gilt nicht für Ziele und Ausschlüsse auf Kampagnenebene. |
+| Zielgruppe | Erforderlich zum Erstellen einer neuen Zielgruppe oder eines neuen Ausschlusses. |
+| Zieltyp | Erforderlich zum Erstellen einer neuen Zielgruppe oder eines neuen Ausschlusses. |
+| RLSA-Zielstatus | Nur zum Löschen einer Zielgruppe oder eines Ausschlusses erforderlich. |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Fakultativ; gilt nur für Ziele und Ausschlüsse auf Anzeigengruppenebene. |
+| RLSA Target-ID | Nur erforderlich, wenn Sie das Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die RLSA-Target-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 [^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
@@ -249,4 +424,3 @@ This uses the "[!UICONTROL Responsive Search Ad]" row in the [!UICONTROL Downloa
 >* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
 >* [Klick-Tracking-Formate für [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Hochladen einer Bulksheet-Datei oder einer korrigierten Fehlerdatei](../bulksheet-upload.md)
-
