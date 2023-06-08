@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] Suchbegriffeinstellungen"
 description: Verweisen Sie auf die Einstellungen für [!DNL Yahoo! Japan Ads] Suchbegriffe.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 >* Sie können negative Suchbegriffe aus dem [!UICONTROL Keywords] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
 >* Yahoo! japanische Schlüsselwörter und Übereinstimmungstypen sind veränderlich, d. h. Sie können sie bearbeiten, ohne den vorhandenen Suchbegriff zu löschen.
 
-
 **[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Suchbegriffe ist *Aktiv*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 
 ## Platzhalter
 
-**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder die Tracking-Vorlage die Variable `{param1}` [benutzerspezifischer Parameter](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder die Tracking-Vorlage die Variable `{param1}` [benutzerspezifischer Parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder die Tracking-Vorlage die Variable `{param2}` [benutzerspezifischer Parameter](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder die Tracking-Vorlage die Variable `{param2}` [benutzerspezifischer Parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-Optionen
 
@@ -49,4 +48,3 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 >[!MORELIKETHIS]
 >
 >* [Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

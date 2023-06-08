@@ -1,9 +1,9 @@
 ---
 title: Verwalten [!DNL Google Ads] Platzierungen
 description: Erfahren Sie, wie Sie bidbare Platzierungen für [!DNL Google Ads] Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,3 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 >* [Informationen zu Platzierungen](placement-about.md)
 >* [Erstellen negativer Platzierungen](placement-negative-create.md)
 >* [Ändern des Status von Platzierungen und negativen Platzierungen](placement-status-edit.md)
-

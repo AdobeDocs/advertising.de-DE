@@ -1,9 +1,9 @@
 ---
 title: Handelskonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
    1. Im [!UICONTROL Product Source] wählen Sie die Handelsmitte aus.
 
-   1. (Erforderlich für [!DNL Google Ads] Konten; optional für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (Erforderlich für [!DNL Google Ads] Konten; optional für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Nur Konten) Wählen Sie **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 
 **[!UICONTROL Product Source]:** Das Händlernetzwerk. Sie können den Wert für ein vorhandenes Konto nicht ändern.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] Nur Konten) Das Token des Kontos ermöglicht die Autorisierung von Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] Nur Konten) Das Token des Kontos ermöglicht die Autorisierung von Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] nur) Gibt an, ob Anmeldungen für das Konto mit folgenden Optionen autorisiert werden sollen:
 
 * *[!UICONTROL Client login]:* Um die Anmeldung des Kunden zu verwenden.
 
-* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] nur) Der Zugriffsschlüssel für das zu verwendende Entwicklerkonto.
 
@@ -130,4 +130,3 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 >
 >* [Über Werbenetzkonten](ad-network-account-about.md)
 >* [Verwalten von Anzeigen-Netzwerkkonten](ad-network-account-manage.md)
-

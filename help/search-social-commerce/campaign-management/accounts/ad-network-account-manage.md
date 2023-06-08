@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie 
 
    1. Im **[!UICONTROL Account Details]** Geben Sie die Kontodetails ein.
 
-      Für Werbenetzwerke, die den Anmelde-Autorisierungstyp verwenden:[!UICONTROL oAuth],&quot; erlauben Sie Search, Social und Commerce, auf das Konto zuzugreifen, indem Sie die [OAuth-Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      Für Werbenetzwerke, die den Anmelde-Autorisierungstyp verwenden:[!UICONTROL oAuth],&quot; erlauben Sie Search, Social und Commerce, auf das Konto zuzugreifen, indem Sie die [OAuth-Autorisierungsprotokoll](https://oauth.net/2/):
 
       1. Geben Sie die **[!UICONTROL Login]** -Wert für das Konto, geben Sie optional das Kennwort ein und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie 
       1. Kopieren Sie die Authentifizierungszeichenfolge im sich öffnenden Popup-Fenster und fügen Sie die Zeichenfolge in das **[!UICONTROL oAuth Token]** -Feld.
 
       1. Geben Sie die restlichen Kontodetails an.
-   1. Klicken **[!UICONTROL Set Account Tracking]** und geben Sie die Tracking-Einstellungen ein.
 
+   1. Klicken **[!UICONTROL Set Account Tracking]** und geben Sie die Tracking-Einstellungen ein.
 
 1. Klicken **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Wenn sich die Kontoanmeldeinformationen ändern, möchten Sie die standardmäßi
 
 *Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
 
-Bei der Suche greifen Social und Commerce auf das Konto zu, das die [OAuth-Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) und sich die Kontoanmeldeinformationen ändern oder wenn zusätzlicher Zugriff erforderlich ist, um neue Funktionen in Search, Social und Commerce zu unterstützen, müssen Sie ein neues Zugriffstoken für das Konto erhalten.
+Bei der Suche greifen Social und Commerce auf das Konto zu, das die [OAuth-Autorisierungsprotokoll](https://oauth.net/2/) und sich die Kontoanmeldeinformationen ändern oder wenn zusätzlicher Zugriff erforderlich ist, um neue Funktionen in Search, Social und Commerce zu unterstützen, müssen Sie ein neues Zugriffstoken für das Konto erhalten.
 
 Ihr Adobe Account Team wird Sie darüber informieren, ob neue Funktionen ein neues Token erfordern.
 
@@ -146,7 +146,7 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 **[!UICONTROL Login Details]: \[Anmeldetyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] nur) Gibt an, ob Anmeldungen für das Konto mit folgenden Optionen autorisiert werden sollen:
 
-* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Zum Verwenden des Kundenkennworts.
 
@@ -154,7 +154,7 @@ Für [!DNL Microsoft Advertising] nur Konten, [!DNL oAuth]-autorisierte Anmeldun
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Alle Anzeigennetze außer [!DNL Naver]) Der Anmeldename oder die ID, um den API-Zugriff auf das Konto zu aktivieren.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiviert und alle anderen Netzwerke außer [!DNL Baidu], [!DNL Meta]und [!DNL Yandex]) Das Token des Kontos, um Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiviert und alle anderen Netzwerke außer [!DNL Baidu], [!DNL Meta]und [!DNL Yandex]) Das Token des Kontos, um Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alle Anzeigennetze außer [!DNL Naver]) Das Kennwort für das Konto. Für passwortaktivierte Konten unter [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]und [!DNL Yandex], ist dieses Feld erforderlich. Für [!DNL oAuth]-aktivierte Konten; dieses Feld ist optional. Verwenden Sie es, wenn Sie das Kennwort verschlüsseln und speichern möchten, damit der Kundenbetreuer Token nach Bedarf aktualisieren kann.
 
@@ -172,7 +172,6 @@ Konten, die das Klick-Tracking für Adobe Advertising verwenden, müssen die Kli
 >
 >* Dieses Feld wird nicht von der [!UICONTROL Auto Upload] Tracking-Einstellung.
 >* Endgültige URL-Suffixe auf niedrigeren Ebenen überschreiben das Suffix auf Kontoebene. Verwenden Sie zur einfacheren Wartung nur das Suffix auf Kontoebene, es sei denn, es ist eine unterschiedliche Verfolgung für einzelne Kontokomponenten erforderlich. Verwenden Sie den Editor des Werbenetzwerks, um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren.
-
 
 **Zeitzone:** (Alle Werbenetzwerke außer [!DNL Baidu] und [!DNL Yahoo! Display Network]) Die Zeitzone des Advertisers. Dieses Feld kann bearbeitet werden und ist für neue [!DNL Naver] Konten. Bei allen anderen Suchnetzwerken wird der Wert automatisch mit der Zeitzone ausgefüllt, die für das Search-, Social- und Commerce-Konto des Advertisers konfiguriert ist, sobald Sie den Datensatz gespeichert haben.
 
@@ -200,7 +199,6 @@ Konten, die das Klick-Tracking für Adobe Advertising verwenden, müssen die Kli
 >* Für [!DNL Google Ads]vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 >* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Suchbegriffeinstellungen einen Wert enthalten, wird der Suchbegriffwert angewendet.
 >* Wenn Sie eine Tracking-Vorlage auf Anzeigen-, Sitelink- oder Suchbegriffebene aktualisieren, werden die relevanten Anzeigen erneut zur Überprüfung eingereicht. Sie können Ihre Tracking-Vorlagen auf Konto-, Kampagnen- oder Anzeigengruppenebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] Nur Konten) Die Kennung für ein Agentur-/Verwaltungskonto, das mit dem Konto verknüpft ist.
 
@@ -259,4 +257,3 @@ Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die ser
 >* [Über Werbenetzkonten](ad-network-account-about.md)
 >* [Verwalten von Merchant-Center-Konten](merchant-account-manage.md)
 >* [Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account](update-skwcid-google.md)
-
