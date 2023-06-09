@@ -1,7 +1,7 @@
 ---
 title: Bietbare Suchbegriffe verwalten
 description: Erfahren Sie, wie Sie bidbare Suchbegriffe für Suchanzeigengruppen erstellen und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ Sie können Suchbegriffe für Suchanzeigengruppen in [unterstützte Kampagnentyp
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie auf **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ Der vorhandene Suchbegriff wird gelöscht und ein anderer erstellt, wenn:
 >* [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md)
 >* [Negative Suchbegriffe erstellen](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Ändern des Status von Keywords und negativen Keywords](keyword-status-edit.md)
-

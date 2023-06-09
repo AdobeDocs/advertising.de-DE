@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Bestandsdaten verarbeitet werden können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
       1. Aktivieren Sie das Kontrollkästchen neben der Vorlage, die Sie kopieren möchten.
 
       1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create/Clone]** und wählen Sie dann das entsprechende Anzeigennetzwerk aus.
-   * (Um eine vorhandene Vorlage zu bearbeiten) Klicken Sie neben dem Vorlagennamen auf ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungen anzeigen/bearbeiten").
 
+   * (Um eine vorhandene Vorlage zu bearbeiten) Klicken Sie neben dem Vorlagennamen auf ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungen anzeigen/bearbeiten").
 
 1. Geben Sie die Einstellungen für die [Textanzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)oder [[!DNL Microsoft® Advertising] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
       >* Jede Anzeigengruppe kann bis zu drei aktivierte responsive Suchanzeigen enthalten.
       >* Sie können vorhandene Varianten von Standardtextanzeigen nicht bearbeiten und vorhandene Vorlagen generieren keine Standardtextanzeigen mehr.
       >* Wenn Sie eine Anzeigenvariationsvorlage ändern, können vorhandene Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage propagieren. [je nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Gehen Sie wie folgt vor, um eine Anzeigenvariante hinzuzufügen:
 
@@ -107,6 +106,7 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
                >* Sie können bis zu vier Alternativen für jedes Feld der Anzeigenkopie angeben.
 
          * Um eine Anzeigenvariante zu entfernen, klicken Sie auf **[!UICONTROL Remove ETA Variation]** (für erweiterte/erweiterte Textanzeigen) oder **[!UICONTROL Remove RSA Variation]** (für responsive Suchanzeigen) daneben, sofern zutreffend.
+
    1. (Nur Shopping-Vorlagen) Klicken Sie auf die Schaltfläche **[!UICONTROL Product Groups]** und geben Sie dann Informationen zu den Produktgruppen an, die Sie als Ziel auswählen möchten.
 
    1. (Optional) Klicken Sie auf die **[!UICONTROL Feed Filters]** und geben Sie dann an, welche Zeilen in der Feed-Datei propagiert werden sollen.
@@ -120,10 +120,6 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
          1. Klicken **[!UICONTROL Add Label Classification]**.
 
          1. Wählen Sie die Beschriftungs-Classification aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
-
-
-
-
 
 1. Speichern Sie die Vorlage:
 
@@ -158,9 +154,7 @@ Sie können jede angehaltene Daten-Feed-Vorlage aktivieren oder jede aktive Date
 >[!MORELIKETHIS]
 >
 >* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
->* [Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds](../inventory-feeds-workflow.md)
 >* [Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen](template-text-rsa.md)
 >* [[!DNL Google Ads] Einstellungen für Shopping-Anzeigenvorlagen](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] Einstellungen für Shopping-Anzeigenvorlagen](template-microsoft-shopping.md)
 >* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
-

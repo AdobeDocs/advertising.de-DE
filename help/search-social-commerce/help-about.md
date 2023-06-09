@@ -1,9 +1,9 @@
 ---
 title: Informationen zu diesem Handbuch
 description: Erfahren Sie, was in den einzelnen Kapiteln dieses Handbuchs behandelt wird.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Informationen zu bestimmten Gruppen von Aufgaben und weitere Informationen finde
 
 * In &quot;Kampagnenverwaltung&quot;wird beschrieben, wie Sie Kampagnenkomponenten für Ihre Anzeigennetzwerkkonten einrichten und verwalten.
 
-* &quot;Einblicke und Berichte&quot;erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte erstellen und die Berichtproduktion automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und anzeigen und anwenden können [!DNL Google Ads]-generierte Empfehlungen für Ihre Konten.
+* In &quot;Einblicke und Berichte&quot;wird erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte generieren und die Berichtproduktion automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und netzwerkgenerierte Empfehlungen für Ihre Konten anzeigen und anwenden können.
 
 * &quot;Tools&quot;erläutert, wie Sie Ihr Kennwort ändern, Tools zum Generieren von Klick-Tracking- und Konversions-Tracking-Tags verwenden und Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele an die Werbenetzwerke zur Hybridoptimierung weiterleiten, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads] Kampagnen in Ihrer [!DNL Microsoft Advertising] Konten.
 

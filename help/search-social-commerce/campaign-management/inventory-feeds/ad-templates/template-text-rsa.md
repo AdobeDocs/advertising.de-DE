@@ -1,9 +1,9 @@
 ---
 title: Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für Inventar-Feeds
 description: Referenzieren Sie die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher in allen Attributfeldern als Text verboten:  `[ ] < > `
 >* In [!DNL Yandex templates], können Sie die dynamischen Parameter `{param1}` und `{param2}` nur in URLs verwenden, und Sie können die dynamische Preiseinfügung in Anzeigenbeschreibungen nicht verwenden.
-
 
 ## \[Über allen Registerkarten\]
 
@@ -107,7 +106,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 * *[!UICONTROL Search]:* Platzieren von Angeboten für gesponserte Suchlisten.
 
-   ([!DNL Google Ads] Kampagnen) So fügen Sie Angebote in Listen für [!DNL Google Ads] Suchpartner, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] Kampagnen) So fügen Sie Angebote in Listen für [!DNL Google Ads] Suchpartner, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]:* So platzieren Sie Angebote für Platzierungen in Netzlisten für Inhalte (Display). **Hinweis:** Sie können Platzierungen nicht mit der Vorlage erstellen. Wenn Sie diese Option auswählen, erstellen Sie Platzierungen für jede Anzeigengruppe und geben Sie an, welche Seiten im Anzeigennetzwerk für jede Anzeigengruppe mit <!-- insert link --> Bulksheets oder <!-- insert links --> Anzeigengruppen- und Platzierungseinstellungen in [!UICONTROL Search] > [!UICONTROL Campaigns] Ansichten.
 
@@ -171,7 +170,7 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 
    * Für statische Suchbegriffe: Gesamtübereinstimmung = `keyword`, Modifikator für breite Übereinstimmung = `+keyword`, oder Phrase-Übereinstimmung = `"keyword"`
 
-      Sie können hier keine statischen Schlüsselwörter mit exakter Übereinstimmung und Standardübereinstimmungssyntax eingeben, da sie von Klammern (`[]`), genau wie dynamische Parameter.
+     Sie können hier keine statischen Schlüsselwörter mit exakter Übereinstimmung und Standardübereinstimmungssyntax eingeben, da sie von Klammern (`[]`), genau wie dynamische Parameter.
 
 * Für [!DNL Yandex] templates:
 
@@ -186,7 +185,6 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 * Negative Übereinstimmungen werden nicht unterstützt.
 * Google-Modifikatoren für breite Übereinstimmung verhalten sich nun genauso wie Phrase-Übereinstimmungen für einige Sprachen, und Sie können keine neuen Keywords für Modifikatoren für breite Übereinstimmung erstellen. Siehe [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/10286719) für weitere Informationen.
 
-
 **[!UICONTROL Map Only]:** Fügt neue Anzeigen zu Anzeigengruppen (oder zu Kampagnen für [!DNL Yandex] Konten), in denen die angegebenen Suchbegriffe gefunden werden, anstatt neue Suchbegriffe zu erstellen. Aktivieren Sie das Kontrollkästchen, um diese Option zu aktivieren. Wenn diese Option aktiviert ist, gelten alle Variablen von Param 1 und Param 2 in den angegebenen Keywords nicht, da die Keywords vorhanden sind.
 
 **[!UICONTROL Keyword Final URL]:** (Konten mit finalen/erweiterten URLs; (optional) Die Landingpage-URL, zu der die Anzeigennetzwerkbenutzer beim Klicken auf Ihre Anzeige weitergeleitet werden. Sie muss dieselbe Domäne wie die Anzeigen-URL enthalten und alle Parameter in der endgültigen URL müssen mit den Parametern in der Landingpage-URL nach dem Anzeigenklick übereinstimmen. Sie kann Umleitungen innerhalb der Landingpage-Domäne oder -Subdomäne enthalten, jedoch keine Umleitungen außerhalb der Landingpage-Domäne.
@@ -194,13 +192,13 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &quot;[!DNL Link]&quot;, und fügen Sie diese Spalte dann in dieses Feld ein.
 
 >[!NOTE]
+>
 * Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden Tracking-Parameter basierend auf den Konto-Tracking-Einstellungen an diesen Wert angehängt.
 * ([!DNL Google Ads] -Konten) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-
 **[!UICONTROL Keyword Tracking Template]:** (Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;EF Redirect&quot;und &quot;Auto Upload&quot;enthalten, hängt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;EF Redirect&quot;und &quot;Auto Upload&quot;enthalten, hängt die Suche, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern eingeben.
 
@@ -327,9 +325,9 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 Wenn Sie [!DNL Google Merchant] Feed zentrieren und diesen Wert in die &quot;[!UICONTROL Link]&quot;, und fügen Sie diese Spalte dann in dieses Feld ein.
 
 >[!NOTE]
+>
 * Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden basierend auf den Konto-Tracking-Einstellungen Tracking-Parameter an diesen Wert angehängt.
 * ([!DNL Google Ads] Konten ) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
-
 
 **[!UICONTROL Tracking Template]:** (Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
@@ -344,10 +342,10 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 **\[Alternative Anzeigenfelder unter den ursprünglichen Anzeigenfeldern\]:** (Optional) Ein alternativer Satz von Anzeigenkopien für eine Anzeige, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximal zulässige Länge überschreitet, sobald dynamische Parameter bei der Übertragung mit Daten gefüllt werden.
 
 >[!NOTE]
+>
 * Wenn die Variable [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und können nach Bedarf bearbeitet werden.
 * Nur die Werbetexte, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die Originalbeschreibungen. Stellen Sie daher sicher, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
 * Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
-
 
 **\[Komponente\] [!UICONTROL Ad Label Classifications] > \[Beschriftungsklassifizierung und Wert\]:** (Optional) Werte für bis zu fünf vorhandene Beschriftungsklassifizierungen, um sie den Anzeigenvarianten zuzuweisen, die mit der Vorlage erstellt oder bearbeitet werden. Für jede Kampagnenkomponente, der Sie Beschriftungsklassifizierungen zuweisen möchten:
 
@@ -384,10 +382,9 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
-* [Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds](../inventory-feeds-workflow.md)
 * [Verwalten von Modifikatoren](../modifiers-manage.md)
 * [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
 * [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)
-

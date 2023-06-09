@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds"
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 >[!NOTE]
 >
 >* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher in allen Attributfeldern als Text verboten:  `[ ] < > `
-
 
 
 ## \[Über allen Registerkarten\]
@@ -171,9 +170,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 >[!MORELIKETHIS]
 >
 >* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
->* [Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds](../inventory-feeds-workflow.md)
 >* [Verwalten von Modifikatoren](../modifiers-manage.md)
 >* [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
 >* [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)
-

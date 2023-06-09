@@ -1,9 +1,9 @@
 ---
 title: Anzeigen verwalten
 description: Erfahren Sie mehr über Anzeigen in Search, Social und Commerce, einschließlich der verfügbaren Anzeigentypen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen innerhalb eines syn
 
 * **Erweiterte dynamische Suchanzeigen** (jetzt auch &quot;dynamische Suchanzeigen&quot;in Werbenetzwerken genannt) für [!DNL Google Ads] und [!DNL Microsoft® Advertising] dynamische Suchanzeigengruppen in Suchkampagnen. Dynamische Suchanzeigen verwenden Inhalte von Ihrer Website anstelle von Keywords, um zu entscheiden, wann Ihre Anzeigen angezeigt werden. Das Werbenetzwerk generiert dynamisch die Überschrift, wählt die URL der Landingpage und die Anzeigen-URL aus und generiert automatisch die endgültige URL.
 
-   Sie können die Seiten Ihrer Websites definieren, deren Inhalt für das Targeting Ihrer dynamischen Suchanzeigen verwendet wird, indem Sie spezifische dynamische Suchziele für die Anzeigengruppe einrichten. Für [!DNL Google Ads]können Sie dynamische Suchziele in Search, Social und Commerce erstellen. für [!DNL Microsoft® Advertising], müssen Sie sie in [!DNL Microsoft® Advertising]. In [!DNL Google Ads] Kampagnen können Sie optional eine Website-Domäne und -Sprache in der Kampagnen-[!DNL DSA Options]&quot;, anstatt dynamischer Suchziele zu erstellen.
+  Sie können die Seiten Ihrer Websites definieren, deren Inhalt für das Targeting Ihrer dynamischen Suchanzeigen verwendet wird, indem Sie spezifische dynamische Suchziele für die Anzeigengruppe einrichten. Für [!DNL Google Ads]können Sie dynamische Suchziele in Search, Social und Commerce erstellen. für [!DNL Microsoft® Advertising], müssen Sie sie in [!DNL Microsoft® Advertising]. In [!DNL Google Ads] Kampagnen können Sie optional eine Website-Domäne und -Sprache in der Kampagnen-[!DNL DSA Options]&quot;, anstatt dynamischer Suchziele zu erstellen.
 
-   Wenn der Suchbegriff eines Benutzers genau mit einem Suchbegriff in einer Ihrer schlüsselwortbasierten Kampagnen übereinstimmt, wird anstelle einer dynamischen Suchanzeige eine Anzeige aus der schlüsselwortbasierten Kampagne angezeigt. Das Werbenetzwerk zeigt eine dynamische Suchanzeige anstelle einer zielgruppenorientierten Anzeige an, wenn der Suchbegriff des Benutzers eine weit gefasste Übereinstimmung oder Wortgruppe mit einem Ihrer Suchbegriffe ist und Ihre dynamische Suchanzeige einen höheren Anzeigenrang aufweist.
+  Wenn der Suchbegriff eines Benutzers genau mit einem Suchbegriff in einer Ihrer schlüsselwortbasierten Kampagnen übereinstimmt, wird anstelle einer dynamischen Suchanzeige eine Anzeige aus der schlüsselwortbasierten Kampagne angezeigt. Das Werbenetzwerk zeigt eine dynamische Suchanzeige anstelle einer zielgruppenorientierten Anzeige an, wenn der Suchbegriff des Benutzers eine weit gefasste Übereinstimmung oder Wortgruppe mit einem Ihrer Suchbegriffe ist und Ihre dynamische Suchanzeige einen höheren Anzeigenrang aufweist.
 
-   Weitere Informationen finden Sie unter [!DNL Google Ads] dynamische Suchanzeigen, siehe https://support.google.com/google-ads/answer/2471185. Weitere Informationen finden Sie unter [!DNL Microsoft® Advertising] dynamische Suchanzeigen, siehe https://help.ads.microsoft.com/#apex/ads/en/60037/0.
+  Weitere Informationen zu dynamischen Suchanzeigen finden Sie in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimedia-Anzeigen** für [!DNL Microsoft® Advertising] Suchkampagnen. Multimedia-Anzeigen sind große Bildanzeigen, die an auffälligen Festnetz- und Seitenleistenpositionen angezeigt werden und pro Seite nur eine Multimedia-Anzeige angezeigt wird. Sie können mehrere Text- und Bild-Assets enthalten, z. B. responsive Anzeigen, und das Werbenetzwerk stellt die Anzeigen anhand der effektivsten Kombinationen aus Anzeigenelementen zusammen. Multimedia-Anzeigen ersetzen Ihre Platzierungen für Textanzeigen nicht.
 
 * Werbeplänen für **[!DNL Microsoft® Advertising]Produktanzeigen (Shopping-Anzeigen)** im Warennetzwerk. Shopping-Anzeigen verwenden Produkte in Ihren vorhandenen [!DNL Microsoft® Merchant Center] Produkt-Feed anstelle von Keywords verwenden, um zu entscheiden, wie und wo Ihre Anzeigen angezeigt werden. Die URLs für die Anzeigenkopie und die Landingpage werden automatisch aus Ihren Produktinformationen im Feed generiert. Sie können jedoch optional Promotionslinien einrichten, die für die Anzeigengruppe eingeschlossen werden.
 
-   Sie können steuern, welche Produkte mit Ihrer [!DNL Microsoft® Advertising] Einkaufen-Anzeigen, indem Sie separate Produktgruppen für die Anzeigengruppe einrichten, über die [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] anzeigen.
+  Sie können steuern, welche Produkte mit Ihrer [!DNL Microsoft® Advertising] Einkaufen-Anzeigen, indem Sie separate Produktgruppen für die Anzeigengruppe einrichten, über die [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] anzeigen.
 
-   Weitere Informationen zum Workflow für Produkt-/Shopping-Anzeigen finden Sie unter &quot;[Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Weitere Informationen zu Produktanzeigen finden Sie unter [Microsoft® Advertising-Dokumentation](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Weitere Informationen zum Workflow für Produkt-/Shopping-Anzeigen finden Sie unter &quot;[Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Weitere Informationen zu Produktanzeigen finden Sie unter [Microsoft® Advertising-Dokumentation](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Responsive Suchanzeigen für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen im Suchnetzwerk. Das Anzeigennetzwerk assembliert dynamisch textbasierte responsive Suchanzeigen aus einer Reihe von Anzeigentiteln und -beschreibungen, wobei bevorzugt Kombinationen gewählt werden, die eine gute Leistung erzielen. Die Anzeige enthält bis zu drei Überschriften, zwei Beschreibungen und eine anpassbare URL aus den Basis-URL- und optionalen Feldern path1 und path2. Sie können Anzeigentitel und -beschreibungen optional an bestimmte Positionen anheften.
 
@@ -70,4 +70,3 @@ Es ist jedoch nicht verfügbar für [!DNL Google Ads] dynamische Suchanzeige (DS
 >[!MORELIKETHIS]
 >
 >* [Anzeigen verwalten](ad-manage.md)
-
