@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics-Konversions-Tracking
 description: Erfahren Sie mehr über die Verwendung des Adobe Analytics-Konversions-Trackings für Ihre Kampagnen in Adobe Advertising.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Für Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration kann Advertising Cloud Ihre Anzeigenklicks und -impressionen mit den Site-Interaktions- und Konversionsmetriken verbinden, die von [!DNL Analytics] bei Verwendung einer Umleitung mit einem Token (`ef_id` -Parameter) in Ihren Klick-Tracking-URLs für Ihre [Bid-Einheiten](/help/search-social-commerce/glossary.md#a-b). Die [!DNL Analytics] Daten werden automatisch über eine tägliche Feed-Datei an Advertising Cloud gesendet.
 
-Siehe[Übersicht über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html)&quot;, um weitere Informationen zur Integration zu erhalten.
+Siehe[Übersicht über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot;, um weitere Informationen zur Integration zu erhalten.
 
 >[!PREREQUISITES]
 >
@@ -35,6 +35,7 @@ Siehe[Übersicht über [!DNL Analytics for Advertising]](https://experienceleagu
    1. Synchronisiert die Hierarchie der vorhandenen Anzeigennetzwerkkonten mit Search, Social und Commerce.
 
    1. Fügt Umleitungen mit hinzu`ef_id`&quot; Token, das an die Tracking-URLs übergeben und an das Werbenetzwerk sendet.
+
    Dieser Schritt leitet eine Umleitung zum Adobe Advertising-Tracking-Server voraus (mit Ausnahme von [!DNL Google Ads] und [!DNL Microsoft Advertising] Anzeigen in Browsern, die paralleles Tracking unterstützen) und fügt der URL zum Zeitpunkt des Anzeigenklicks einen dynamisch ausgefüllten Parameter &quot;ef_id&quot;hinzu. Wenn die parallele Verfolgung angewendet wird, werden Endbenutzer direkt von Ihrer Anzeige an Ihre endgültige URL gesendet und Ihre Tracking-Vorlage-URL (mit Klick-Messung) wird im Hintergrund geladen.
 
 Sobald die Integration abgeschlossen ist, erhält Search, Social und Commerce automatisch alle auf der Seite erfassten Ereignisdaten [!DNL Analytics] für die Report Suites, die konfiguriert wurden.
@@ -42,4 +43,3 @@ Sobald die Integration abgeschlossen ist, erhält Search, Social und Commerce au
 >[!MORELIKETHIS]
 >
 >* [Konversions-Tracking-Optionen](conversion-tracking-about.md)
-

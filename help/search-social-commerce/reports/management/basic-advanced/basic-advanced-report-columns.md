@@ -1,9 +1,9 @@
 ---
 title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) Der Domänenname, von dem die Klicks stammen. |
 | [!UICONTROL eCPM] | Der effektive CPM oder die durchschnittlichen Kosten pro 1000 Impressionen in einem bestimmten Datumsbereich. eCPM-Werte werden für CPM- oder CPC-Kampagnen berechnet. |
 | [!UICONTROL EF Campaign ID] | Die numerische ID, die Search, Social und Commerce der Kampagne zuweisen. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Werbetreibende mit dem Adobe Advertising Conversion-Tracking-Dienst und dem[!UICONTROL EF Redirect]&quot;Tracking-Methode mit einem Token) Das Token für den Klick oder die Konversion.<ul><li>Für [!DNL Google Ads] Suchanzeigen, lautet die EF ID . `{gclid}:G:s`, der die Google-Klick-ID (GCLID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li> Für [!DNL Microsoft Advertising] Suchanzeigen, lautet die EF ID . `{msclkid}:G:s`, der die Microsoft-Klick-ID (MSCLKID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li>Bei Suchanzeigen in anderen Werbenetzwerken enthält die EF ID die Surfer-ID, Klickzeit und Netzwerktyp.</li><li>Bei Display-Anzeigen umfasst die EF ID die Surfer-ID, die Klick- oder Impressionszeit und den Netzwerktyp.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Werbetreibende mit dem Adobe Advertising-Konversions-Tracking-Dienst und dem[!UICONTROL EF Redirect]&quot;Tracking-Methode mit einem Token) Das Token für den Klick oder die Konversion.<ul><li>Für [!DNL Google Ads] Suchanzeigen, lautet die EF ID . `{gclid}:G:s`, der die Google-Klick-ID (GCLID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li> Für [!DNL Microsoft Advertising] Suchanzeigen, lautet die EF ID . `{msclkid}:G:s`, der die Microsoft-Klick-ID (MSCLKID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li>Bei Suchanzeigen in anderen Werbenetzwerken enthält die EF ID die Surfer-ID, Klickzeit und Netzwerktyp.</li><li>Bei Display-Anzeigen umfasst die EF ID die Surfer-ID, die Klick- oder Impressionszeit und den Netzwerktyp.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; nur für Suche, Social und Commerce) Eine interne ID für den geografischen Standort, mit der Daten normalisiert werden. |
 | [!UICONTROL EF Portfolio Group ID] | Die numerische ID für die Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist:  <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL Baidu], <i>[!UICONTROL 90]</i> für [!DNL Yandex], <i>[!UICONTROL 94]</i> für [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (veraltet) oder <i>[!UICONTROL 106]</i> für [!DNL Pinterest] (nicht mehr unterstützt). |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Die Anzahl der Anzeigenimpressionen im angegebenen Datumsbereich. |
 | [!UICONTROL Interaction Rate] | (Videoanzeigen) Die Anzahl der Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). |
 | [!UICONTROL Interactions] | (Videoanzeigen) Die Anzahl der Wiedergaben Ihrer Anzeige. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> wenn das Portfolio Kampagnen mit der [!UICONTROL Maximize Clicks] Angebotsstrategie und <i>false</i> andernfalls. |
 | [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</b> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
 | [!UICONTROL Keyword ID] | Die numerische ID, die Search, Social und Commerce dem Suchbegriff zuweisen. |
 | [!UICONTROL Keyword Status] | Der Status des Suchbegriffs, mit dem der Suchbegriff übereinstimmt: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>oder <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [Erstellen eines einfachen oder erweiterten Berichts](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-
