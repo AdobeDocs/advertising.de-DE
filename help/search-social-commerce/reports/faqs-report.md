@@ -1,7 +1,7 @@
 ---
 title: Häufig gestellte Fragen zu Berichten
 description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Sie können sehen, welche Konversionen durch einen Klick auf eine [!DNL Google A
 
 * Sitelinks werden als `sl:<Sitelink text>`, z. B. `sl:See Current Offers`.
 
-   Sie können auch einen Sitelink identifizieren, wenn Sie die [!UICONTROL Tracking URL] in den Bericht ein. Die [!UICONTROL Tracking URL] für einen Sitelink enthält das Attribut `&ev_ltx=sl:<link-name>`.
+  Sie können auch einen Sitelink identifizieren, wenn Sie die [!UICONTROL Tracking URL] in den Bericht ein. Die [!UICONTROL Tracking URL] für einen Sitelink enthält das Attribut `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Wenn Sie einen Bericht mehrmals mit denselben Berichtsparametern, jedoch mit unt
 
 * Klickdatumsbasierte Daten können außerhalb des angegebenen Datumsbereichs liegen.
 
-   Wenn Sie den Berichtsparameter &quot;[!UICONTROL Conversions based on click date],&quot;wird der angegebene Datumsbereich auf das Datum des Klicks anstelle des Transaktionsdatums angewendet. Wenn der Bericht auch die Attributionsregel &quot;Erstes Ereignis&quot;oder &quot;Letztes Ereignis&quot;verwendet, kann das erste oder letzte Ereignis, das zur Konversion geführt hat, außerhalb des angegebenen Datumsbereichs liegen. Angenommen, ein Benutzer hat am 30. April auf Keyword_1 geklickt, am 20. Mai auf Keyword_2 geklickt und am 21. Mai konvertiert. Wenn der Bericht die Variable[!UICONTROL First Event]&quot; Attributionsregel und Datumsbereich vom 1. bis 21. Mai ist das erste Ereignis (ein Klick auf Keyword_1 am 30. April) nicht im Bericht enthalten. Wenn Sie den Bericht mit demselben Datumsbereich ausführen, aber die &quot;[!UICONTROL Last Event]&quot;, dann wird die Konversion in den Bericht aufgenommen, da der letzte Klick innerhalb des angegebenen Datumsbereichs erfolgte.
+  Wenn Sie den Berichtsparameter &quot;[!UICONTROL Conversions based on click date],&quot;wird der angegebene Datumsbereich auf das Datum des Klicks anstelle des Transaktionsdatums angewendet. Wenn der Bericht auch die Attributionsregel &quot;Erstes Ereignis&quot;oder &quot;Letztes Ereignis&quot;verwendet, kann das erste oder letzte Ereignis, das zur Konversion geführt hat, außerhalb des angegebenen Datumsbereichs liegen. Angenommen, ein Benutzer hat am 30. April auf Keyword_1 geklickt, am 20. Mai auf Keyword_2 geklickt und am 21. Mai konvertiert. Wenn der Bericht die Variable[!UICONTROL First Event]&quot; Attributionsregel und Datumsbereich vom 1. bis 21. Mai ist das erste Ereignis (ein Klick auf Keyword_1 am 30. April) nicht im Bericht enthalten. Wenn Sie den Bericht mit demselben Datumsbereich ausführen, aber die &quot;[!UICONTROL Last Event]&quot;, dann wird die Konversion in den Bericht aufgenommen, da der letzte Klick innerhalb des angegebenen Datumsbereichs erfolgte.
 
 * Bei der Auswahl des Portfoliofilters werden einige der Ereignisse ausgeschlossen, die zur Konversion führten.
 
-   Wenn Sie einen Bericht zu einer Untergruppe von Portfolios erstellen, schließen Sie möglicherweise nicht die Kampagnen ein, die das Ereignis enthielten, dem die Konversion unter einer der Attributionsregeln zugeordnet wurde. Angenommen, ein Benutzer klickt von Portfolio_1 auf Keyword_1, klickt auf Keyword_2 von Portfolio_2 und konvertiert dann. Wenn der Bericht die Variable[!UICONTROL First Event]&quot;. Dann muss Portfolio_1 angegeben werden, damit die Konversion in den Bericht aufgenommen wird. Wenn der Bericht jedoch die Attributionsregel &quot;Letztes Ereignis&quot;verwendet, muss Portfolio_2 einbezogen werden.
+  Wenn Sie einen Bericht zu einer Untergruppe von Portfolios erstellen, schließen Sie möglicherweise nicht die Kampagnen ein, die das Ereignis enthielten, dem die Konversion unter einer der Attributionsregeln zugeordnet wurde. Angenommen, ein Benutzer klickt von Portfolio_1 auf Keyword_1, klickt auf Keyword_2 von Portfolio_2 und konvertiert dann. Wenn der Bericht die Variable[!UICONTROL First Event]&quot;. Dann muss Portfolio_1 angegeben werden, damit die Konversion in den Bericht aufgenommen wird. Wenn der Bericht jedoch die Attributionsregel &quot;Letztes Ereignis&quot;verwendet, muss Portfolio_2 einbezogen werden.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 +++Umsatz fehlt in Berichten.
 
-### Advertiser, die Adobe Advertising-Konversions-Tags verwenden
+**Advertiser, die Adobe Advertising-Konversions-Tags verwenden**
 
-#### Mögliche Ursachen
+*Mögliche Ursachen:*
 
 * Suchbegriffe oder Anzeigen wurden hinzugefügt, ohne den Tracking-Vorlagen oder Ziel-URLs das Klick-Tracking-Präfix &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;voranzustellen, oder das Tracking-Präfix ist falsch.
 
@@ -164,7 +164,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 * Der Umsatz-Parser für den Client wurde nicht implementiert.
 
-#### Mögliche Lösung oder Problemumgehung
+*Mögliche Lösung oder Problemumgehung:*
 
 1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Bereitstellen der Transaktionseigenschaften für Berichte](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
    Wenn der Client noch nicht gestartet wurde oder neu gestartet wurde, überprüft die Kundenunterstützung, ob ein Revenue Parser eingerichtet wurde. Wenn der Parser eingerichtet ist, überprüfen sie, ob Search, Social und Commerce Pixelkonvertierungen erhalten und beheben das Problem.
 
-### Werbetreibende, die Konversionsdaten-Feeds senden
+**Werbetreibende, die Konversionsdaten-Feeds senden**
 
-#### Mögliche Ursachen
+*Mögliche Ursachen:*
 
 * Die Feed-Datei wurde nicht bereitgestellt, sie wurde nicht vollständig analysiert oder der Feed enthielt verwaiste Transaktionen.
 
@@ -192,7 +192,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 >
 >Daten werden in der Benutzeroberfläche im Allgemeinen erst 2-4 Stunden nach Erhalt des Feeds angezeigt.
 
-#### Mögliche Lösung oder Problemumgehung
+*Mögliche Lösung oder Problemumgehung:*
 
 1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Bereitstellen der Transaktionseigenschaften für Berichte](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 +++
 
 +++ Einige erweiterte Berichte enthalten keine Konversionsdaten, die von einem Advertiser-Feed bereitgestellt werden.
-Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report] Daten verwenden, die über den Adobe Advertising Conversion Tracking-Dienst erfasst wurden und nur für Advertiser mit dem Dienst generiert werden können. Die Berichte enthalten keine Konversionsdaten, die außerhalb des Adobe Advertising-Konversions-Tracking-Systems verfolgt werden.
+Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report] Daten verwenden, die über den Adobe Advertising-Konversions-Tracking-Dienst erfasst wurden und nur für Advertiser mit dem Dienst generiert werden können. Die Berichte enthalten keine Konversionsdaten, die außerhalb des Adobe Advertising-Konversions-Tracking-Systems verfolgt werden.
 +++
 
 +++Umsatzdaten unterscheiden sich von den eigenen Umsatzdaten des Advertisers.
 
-### Advertiser, die Adobe Advertising-Konversions-Tags verwenden
+**Advertiser, die Adobe Advertising-Konversions-Tags verwenden**
 
-#### Mögliche Ursachen
+*Mögliche Ursachen:*
 
 * Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Werbetreibende kann dies jedoch als gültigen Umsatz betrachten.
 
@@ -223,7 +223,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
 * Das Konversions-Tracking-Tag wurde nicht auf allen entsprechenden Webseiten korrekt implementiert oder bearbeitet.
 
-#### Mögliche Lösung oder Problemumgehung
+*Mögliche Lösung oder Problemumgehung:*
 
 1. Navigieren Sie zu **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** und generieren Sie eine [!UICONTROL Transaction Report]. Vergleichen Sie die von Search, Social und Commerce empfangenen Transaktionen mit den Daten des Advertisers.
 
@@ -235,13 +235,13 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
    Die Kundenunterstützung versucht, die fehlenden Transaktionen zu identifizieren und dann nach verwaisten Transaktionen und Transaktionen zu suchen, die nicht von einer Anzeige stammen (&quot;nicht korrelierte Konversionen&quot;).
 
-### Advertiser mit Konversionsdaten-Feeds mit `ef_id` values
+**Advertiser mit Konversionsdaten-Feeds mit `ef_id` values**
 
 Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
-### Advertiser mit Konversionsdaten-Feeds mithilfe von Transaktions-IDs
+**Advertiser mit Konversionsdaten-Feeds mithilfe von Transaktions-IDs**
 
-#### Mögliche Ursachen
+*Mögliche Ursachen:*
 
 * Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abläuft oder gelöscht wird. Der Advertiser kann jedoch den Umsatz als gültig betrachten.
 
@@ -249,7 +249,7 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 * Eine Offline-Konversion wurde gemeldet, bevor eine Online-Transaktion mit derselben Transaktions-ID erfolgte. Die Online-Transaktion muss zuerst stattfinden.
 
-#### Mögliche Lösung oder Problemumgehung
+*Mögliche Lösung oder Problemumgehung:*
 
 1. Navigieren Sie zu **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** und generieren Sie eine [!UICONTROL Transaction Report]. Vergleichen Sie die von Search, Social und Commerce empfangenen Transaktionen mit den Feed-Daten des Advertisers.
 
@@ -259,9 +259,9 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
    Die Kundenunterstützung sucht nach Fehlern beim Analysieren von Daten und [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p).
 
-### Advertiser mit anderen Arten von Konversionsdaten-Feeds
+**Advertiser mit anderen Arten von Konversionsdaten-Feeds**
 
-#### Mögliche Ursachen
+*Mögliche Ursachen:*
 
 * Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Werbetreibende kann dies jedoch als gültigen Umsatz betrachten.
 
@@ -279,7 +279,7 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 * Die Deduplizierungslogik des Advertisers unterscheidet sich von der Logik von &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;.
 
-#### Mögliche Lösung oder Problemumgehung
+*Mögliche Lösung oder Problemumgehung:*
 
 1. Navigieren Sie zu **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** und generieren Sie eine [!UICONTROL Transaction Report]. Vergleichen Sie die von Search, Social und Commerce empfangenen Transaktionen mit den Daten des Advertisers.
 

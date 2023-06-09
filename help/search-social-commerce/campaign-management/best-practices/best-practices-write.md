@@ -1,9 +1,9 @@
 ---
 title: Effektive Textanzeigenkopie schreiben
 description: Erfahren Sie mehr über Best Practices zum Schreiben einer effektiven Anzeigenkopie.
-source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
+source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Schreiben Sie leistungsstarke Überschriften, um potenzielle Kunden anzuziehen.
 
-* Fügen Sie Suchbegriffe in Ihre Überschrift ein, da die meisten Menschen nach diesem Thema suchen. [*]
+* Fügen Sie Suchbegriffe in Ihre Überschrift ein, da die meisten Menschen nach diesem Thema suchen. [1]
 
 * Erstellen Sie eine Anzeigenkopie, die für die gewünschte Zielgruppe entwickelt wurde.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Wenn Sie einen Rabatt anbieten, fügen Sie den spezifischen Betrag oder Prozentsatz des Rabatts hinzu (z. B. &quot;20% Rabatt&quot;oder &quot;20$ beim ersten Kauf sparen&quot;).
 
-* Verwenden Sie nach Möglichkeit das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [*]
+* Verwenden Sie nach Möglichkeit das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [1]
 
 * Schließen Sie immer einen Aktionsaufruf in den Text ein, z. B. &quot;Anzeigen&quot;, &quot;Auschecken&quot;, &quot;Bestellung&quot;oder &quot;Anmelden&quot;, um die Clickthrough-Rate zu erhöhen. Schließen Sie bei Bildanzeigen den Aktionsaufruf auf eine Schaltfläche ein, die mit Ihrer Website verknüpft ist. Schließen Sie bei Rich-Media-Anzeigen den Aktionsaufruf in einem frühen Rahmen ein.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Erforschen Sie, was Ihre Konkurrenten tun. Sehen Sie sich die Top-Anzeigen für einen Bereich an (auf Sites wie www.spyfu.com) und versuchen Sie zu verstehen, welche Anzeigen funktionieren.
 
-[*]: Verwenden Sie beim Einfügen von Keywords die richtige Groß-/Kleinschreibung für den Einfügecode:
+[1]: Verwenden Sie beim Einfügen von Keywords die richtige Groß-/Kleinschreibung für den Einfügecode:
 
 `{keyword:default}` = Rasenmäher
 

@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: Erfahren Sie mehr über die [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Die [!UICONTROL Channel Assist Report]
 
-*Werbetreibende mit Klick-Tracking in Search, Social und Commerce und Konversions-Tracking aus Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder in Feeds mit einem Token (`ef_id`) nur*
+*Werbetreibende mit Klick-Tracking in Search, Social &amp; Commerce und Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder in Feeds mit einem Token (`ef_id`) nur*
 
 Die [!UICONTROL Channel Assist Report] Geben Sie an, wie viele Marketing-Kanäle (Suche oder Social Media aus Search, Social und Commerce) verwendet werden; oder Anzeigen oder Videos aus Advertising DSP) den Konvertierungsprozess unterstützt haben. Der Bericht zeigt an, wie jedes Muster von Ereignistypen, das zu einer oder mehreren Konversionen führte, zu Ihren Gesamtkonversionen beigetragen hat. Sie würden beispielsweise sehen, wie viele Konversionen stattgefunden haben, wenn Benutzer zum ersten Mal eine Anzeige-Impression gesehen, dann auf eine Suchanzeige geklickt und dann eine Bestellung aufgegeben haben. oder Sie können sehen, wie viele Konversionen aufgetreten sind, nachdem Benutzer mit mehr als 10 Anzeigen interagiert haben. Zu Ereignistypen gehören Suchklicks, Impressionen und Klicks auf die Anzeige, Videoimpressionen und -klicks sowie andere Impressionen und andere Klicks. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
@@ -25,7 +25,7 @@ Sie können Daten der letzten 18 Monate anzeigen.
 Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die Standardspalten werden standardmäßig automatisch eingefügt. Sie können die verfügbaren benutzerdefinierten Spalten aus dem Bereich Spalten der Berichtseinstellungen hinzufügen.
 
 | Spalte | Standard? | Beschreibung |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] nach [!UICONTROL 5th Event] | Standard | Die fünf frühesten Ereignistypen im Konversionspfad, die innerhalb der des Advertisers aufgetreten sind [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Standard | Die Anzahl der Ereignistypen im Konversionspfad, die innerhalb der [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Standard | Der Ereignistyp des ersten (frühesten) Ereignisses im Konversionspfad. |
@@ -47,4 +47,3 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 >* [Die [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Berichtseinstellungen für Hilfe](assist-report-settings.md)
 >* [Hilfsbericht erstellen](assist-report-generate.md)
-

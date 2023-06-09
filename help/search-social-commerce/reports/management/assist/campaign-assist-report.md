@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: Erfahren Sie mehr über die [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Die [!UICONTROL Campaign Assist Report]
 
-*Werbetreibende mit Klick-Tracking in Search, Social und Commerce und Konversions-Tracking aus Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder in Feeds mit einem Token (`ef_id`) nur*
+*Werbetreibende mit Klick-Tracking in Search, Social &amp; Commerce und Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder in Feeds mit einem Token (`ef_id`) nur*
 
 Die [!UICONTROL Campaign Assist Report] gibt an, welche Kampagnen den Konvertierungsprozess unterstützt haben. Die Berichte zeigen, wie die einzelnen Muster von Kampagnen, deren Anzeigen zu einer oder mehreren Konversionen geführt haben, zu Ihren Gesamtkonversionen beigetragen haben. Sie können beispielsweise sehen, wie viele Konversionen stattgefunden haben, wenn Benutzer zum ersten Mal eine Anzeige aus Kampagne A gesehen, dann auf eine Anzeige aus Kampagne B geklickt und dann eine Bestellung aufgegeben haben. Auf ähnliche Weise können Sie sehen, wie viele Konversionen stattgefunden haben, nachdem Benutzer mit Anzeigen aus mehr als 10 Kampagnen interagiert haben.
 
@@ -31,7 +31,7 @@ Sie können Daten der letzten 18 Monate anzeigen.
 Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die Standardspalten werden standardmäßig automatisch eingefügt. Sie können die verfügbaren benutzerdefinierten Spalten aus dem Bereich Spalten der Berichtseinstellungen hinzufügen.
 
 | Spalte | Standard? | Beschreibung |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] nach [!UICONTROL 5th Campaign] | Standard | Die fünf frühesten Kampagnen im Konversionspfad, die innerhalb der des Advertisers aufgetreten sind [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j).<br><br>Wenn Sie eine der Berichtsoptionen zur Angabe des Anzeigennetzwerks, des Kontonamens oder des Ereignistyps nach dem Entitätsnamen eingeschlossen haben, werden diese Informationen nach dem Kampagnennamen (z. B. `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Standard | Die Anzahl der Kampagnen im Konversionspfad, die innerhalb der [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Standard | Die erste Kampagne im Konversionspfad. |
@@ -57,4 +57,3 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 >* [Die [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Berichtseinstellungen für Hilfe](assist-report-settings.md)
 >* [Hilfsbericht erstellen](assist-report-generate.md)
-

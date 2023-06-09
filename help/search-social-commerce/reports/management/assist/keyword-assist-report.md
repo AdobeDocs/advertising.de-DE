@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: Erfahren Sie mehr über die [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Sie können Daten der letzten 18 Monate anzeigen.
 Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die Standardspalten werden standardmäßig automatisch eingefügt. Sie können die verfügbaren benutzerdefinierten Spalten aus dem Bereich Spalten der Berichtseinstellungen hinzufügen.
 
 | Spalte | Standard? | Beschreibung |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] nach [!UICONTROL 5th Keyword] | Standard | Die fünf frühesten Paid-Search-Suchkeywords oder Platzierungsklicks im Konversionspfad, die innerhalb der des Advertisers aufgetreten sind [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen enthält (die keine Keywords enthalten), zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. |
 | [!UICONTROL Path Size] | Standard | Die Anzahl der Suchbegriffe und/oder Platzierungen im Konversionspfad, die innerhalb der [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Standard | Das erste Keyword oder die erste Platzierung im Konversionspfad. |
@@ -51,4 +51,3 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 >* [Die [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Berichtseinstellungen für Hilfe](assist-report-settings.md)
 >* [Hilfsbericht erstellen](assist-report-generate.md)
-

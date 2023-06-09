@@ -1,7 +1,7 @@
 ---
 title: Über Benachrichtigungen
 description: Erfahren Sie mehr über Benachrichtigungen, einschließlich der verschiedenen Typen und Kategorien.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Sie können Ihre Benachrichtigungseinstellungen so konfigurieren, dass sie sich 
 
 * Von einem [!UICONTROL Notification Center] Webanwendung, die geöffnet wird [!UICONTROL Notification Center] in einem separaten Fenster außerhalb von Search, Social und Commerce.
 
-   Das Programm lädt schneller als die normale Browser-Version und wird automatisch aktualisiert. Sie können die Anwendung installieren und mithilfe des App-Managers des Browsers verwalten.
+  Das Programm lädt schneller als die normale Browser-Version und wird automatisch aktualisiert. Sie können die Anwendung installieren und mithilfe des App-Managers des Browsers verwalten.
 
 * Von Push-Benachrichtigungen an Ihren Browser.
 
-   Wenn Sie Push-Benachrichtigungen aktivieren, werden diese entsprechend den Benachrichtigungskonventionen des Browsers angezeigt.
+  Wenn Sie Push-Benachrichtigungen aktivieren, werden diese entsprechend den Benachrichtigungskonventionen des Browsers angezeigt.
 
 Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen oder ungelesen markieren und Benachrichtigungen löschen.
 
@@ -50,7 +50,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Benachrichtigt darüber, dass die [!UICONTROL Landing Page Suffix] -Wert ist falsch, fehlt oder enthält eine falsche SKWCID-Vorlage; oder auf einer niedrigeren Ebene durch einen falschen Wert überschrieben wird.
 
-   * **[!UICONTROL Manager Account Missing ]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die richtige Einrichtung kritischer Funktionen bestimmt sind.
+   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die richtige Einrichtung kritischer Funktionen bestimmt sind.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 >* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
 >* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
-
