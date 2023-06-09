@@ -1,10 +1,10 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Microsoft Advertising] Konten.
-source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
+source-git-commit: 964ee8431d9f1d03b0c9eec8906ab5a0b7940222
 workflow-type: tm+mt
-source-wordcount: '5147'
-ht-degree: 0%
+source-wordcount: '7615'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ So erstellen und aktualisieren Sie [!DNL Microsoft Advertising] Kampagnendaten s
 | Partitionstyp | Der Partitionstyp für die Produktgruppe: <i>Unterteilung</i> (wenn es untergeordnete Produktgruppen hat) oder <i>Einheit</i> (wenn keine untergeordneten Produktgruppen vorhanden sind). |
 | Anzeigentitel, Anzeigentitel 2-15 | (Nur erweiterte Textanzeigen, Multimedia-Anzeigen, responsive Anzeigen und responsive Suchanzeigen) Die Überschriften einer Anzeige. Die maximale Länge für jedes Feld mit Anzeigentitel beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen, einschließlich dynamischer Texte (z. B. die Werte von Keywords, `{Param2}` und `{Param3}` dynamische Ersatzvariablen und Anzeigenanpassungen).<br><br> Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser im folgenden Format ein, wobei &quot;Standardtext&quot;ein optionaler Wert ist, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Für erweiterte Textanzeigen sind Anzeigentitel und Anzeigentitel 2 erforderlich und Anzeigentitel 3 ist optional. Microsoft Advertising veraltete erweiterte Textanzeigen im August 2022. Sie können jetzt nur mehr Berichte zu diesen Werbeanzeigen erstellen und diese löschen.<br><br>Bei Multimedia-Anzeigen, responsiven Anzeigen und responsiven Suchanzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich und alle anderen Felder für den Anzeigentitel sind optional.<br><br>Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).<br><br>Bei allen Anzeigentypen mit Ausnahme von erweiterten Textanzeigen löscht eine Änderung der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue Anzeige mit denselben Eigenschaften. |
 | Position des Anzeigentitels 1-15 | (Nur responsive Suchanzeigen; optional) Eine Position, an der der entsprechende Anzeigentitel veröffentlicht werden soll: `[null]` (kein Wert, sodass der Anzeigentitel für alle Positionen infrage kommt), 1, 2 oder 3. Wenn beispielsweise die Anzeigentitelposition den Wert 1 hat, wird der Anzeigentitel nur in Position 1 angezeigt. Standardmäßig sind alle Anzeigentitel null (haben keine Werte). Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).<br><br><b>Hinweis:</b> Sie können mehrere Anzeigentitel an derselben Position veröffentlichen. Das Anzeigennetzwerk verwendet einen der Anzeigentitel, die an die Position gebunden sind. Titel, die an Position 3 gekoppelt sind, können nicht mit der Anzeige angezeigt werden. |
-| Beschreibung Zeile 1-4 | (Nur Textanzeigen, dynamische Suchanzeigen, Multimedia-Anzeigen, responsive Suchanzeigen, responsive Suchanzeigen und erweiterte Sitelinks auf Kampagnenebene) Der Hauptteil einer Anzeige oder eines Sitelink.<br><br>Bei Sitelinks können Sie optional sowohl die Beschreibung Zeile 1 als auch die Beschreibung Zeile 2 verwenden, um zusätzlichen Text einzufügen, den das Werbenetzwerk unter dem Linktext anzeigen kann. Jedes Beschreibungsfeld kann bis zu 35 Einzelbyte- oder 17 Doppelbyte-Zeichen enthalten.<br><br>Bei Anzeigen beträgt die maximale Länge für jedes Beschreibungsfeld 90 Zeichen oder 45 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Suchbegriffen und Anzeigenanpassungen).<br><br>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser im folgenden Format ein, wobei Standardtext ein optionaler Wert ist, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Für Textanzeigen und dynamische Suchanzeigen ist die Beschreibung Zeile 1 erforderlich und die Beschreibung Zeile 2 ist optional.<br><br>Für Multimedia-Anzeigen, responsive Anzeigen und responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional.<br><br>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).<br><br><b>Hinweise:</b><ul><li>(Standardtextanzeigen) Der kombinierte Titel und Text muss mindestens drei Wörter umfassen.</li><li>(Erweiterte Textanzeigen) Dieses Feld kann optional die dynamischen Ersatzvariablen {Param2} und {Param3} enthalten. Ist dies der Fall, beträgt die maximale Länge des Anzeigentextes 300 Einzelbyte- oder 150 Doppelbyte-Zeichen. Microsoft Advertising veraltete erweiterte Textanzeigen im August 2022. Sie können jetzt nur mehr Berichte zu diesen Werbeanzeigen erstellen und diese löschen.</li><li>(Dynamische Suchanzeigen) Dynamischer Ersatztext ist nicht zulässig.</li><li>Bei allen Anzeigentypen außer erweiterten Textanzeigen löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue.</li></ul> |
+| Beschreibung Zeile 1-4 | (Nur Textanzeigen, dynamische Suchanzeigen, Multimedia-Anzeigen, responsive Suchanzeigen, responsive Suchanzeigen und erweiterte Sitelinks auf Kampagnenebene) Der Hauptteil einer Anzeige oder eines Sitelink.<br><br>Bei Sitelinks können Sie optional sowohl die Beschreibung Zeile 1 als auch die Beschreibung Zeile 2 verwenden, um zusätzlichen Text einzufügen, den das Werbenetzwerk unter dem Linktext anzeigen kann. Jedes Beschreibungsfeld kann bis zu 35 Einzelbyte- oder 17 Doppelbyte-Zeichen enthalten.<br><br>Bei Anzeigen beträgt die maximale Länge für jedes Beschreibungsfeld 90 Zeichen oder 45 Doppelbyte-Zeichen, einschließlich dynamischer Texte (wie die Werte von Suchbegriffen und Anzeigenanpassungen).<br><br>Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser im folgenden Format ein, wobei Standardtext ein optionaler Wert ist, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Für Textanzeigen und dynamische Suchanzeigen ist die Beschreibung Zeile 1 erforderlich und die Beschreibung Zeile 2 ist optional.<br><br>Für Multimedia-Anzeigen, responsive Anzeigen und responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional.<br><br>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).<br><br><b>Hinweise:</b><ul><li>(Standardtextanzeigen) Der kombinierte Titel und Text muss mindestens drei Wörter umfassen.</li><li>(Erweiterte Textanzeigen) Dieses Feld kann optional die {Param2} und {Param3} dynamische Ersatzvariablen. Ist dies der Fall, beträgt die maximale Länge des Anzeigentextes 300 Einzelbyte- oder 150 Doppelbyte-Zeichen. Microsoft Advertising veraltete erweiterte Textanzeigen im August 2022. Sie können jetzt nur mehr Berichte zu diesen Werbeanzeigen erstellen und diese löschen.</li><li>(Dynamische Suchanzeigen) Dynamischer Ersatztext ist nicht zulässig.</li><li>Bei allen Anzeigentypen außer erweiterten Textanzeigen löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue.</li></ul> |
 | Beschreibung Zeile 1-4 Position | (Nur responsive Suchanzeigen; optional) Eine Position, an der die entsprechende Beschreibung veröffentlicht werden soll: `[null]` (kein Wert, sodass die Beschreibung für alle Positionen geeignet ist), 1, 2 oder 3. Wenn beispielsweise Beschreibung 1 Position den Wert 1 hat, wird Beschreibung 1 nur in Position 1 angezeigt. Standardmäßig werden keine Beschreibungen an eine Position veröffentlicht.<br><br>Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern).<br><br><b>Hinweis:</b> Sie können mehrere Beschreibungen an derselben Position veröffentlichen. Das Werbenetzwerk verwendet eine der Beschreibungen, die an die Position gebunden sind. In Position 2 enthaltene Beschreibungen werden möglicherweise nicht zusammen mit der Anzeige angezeigt. |
 | Geschäftsname | (Nur Multimedia-Anzeigen) Der Unternehmensname mit maximal 25 Zeichen. |
 | Promotion Line | (Nur Produktlistenanzeigen) Eine eindeutige Promotion-Zeile, die in die Produktliste in den Suchergebnissen aufgenommen werden soll (z. B. &quot;Kostenloser Versand jetzt!&quot;). Die maximale Länge beträgt 45 Zeichen.<br><br>Die Promotion-Zeile kann an verschiedenen Stellen relativ zur Anzeige angezeigt werden (z. B. unter der Anzeige), je nachdem, wo die Anzeige auf der Seite erscheint. |
@@ -110,96 +110,317 @@ So erstellen und aktualisieren Sie [!DNL Microsoft Advertising] Kampagnendaten s
 
 <table style="table-layout:auto">
 
-<!-- EDIT ALL -- Copied from Google page -->
+[^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
-<!-- 
+## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind
 
-## Fields required to create, edit, or delete each account component
+### Kampagnenfelder
 
-### Campaign fields
+| Feld | Erforderlich? |
+| ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
+| Kampagnenbudget | Erforderlich zum Erstellen einer Kampagne. | Eine tägliche Ausgabenbegrenzung für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. |
+| Kanaltyp | Erforderlich zum Erstellen einer Kampagne. |
+| Versandmethode | Optional |
+| Kampagnenpriorität | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Merchant-ID | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Vertriebsland | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Produktumfang-Filter | (Shopping-Kampagnen) Optional |
+| DSA-Domänenname | Erforderlich, um eine Kampagne vom Typ a) &quot;DynamicSearchAds&quot;oder b) &quot;Search&quot;zu erstellen, wenn das Element ExperimentId nicht festgelegt ist.) |
+| DSA-Domänensprache | Erforderlich, um eine Kampagne vom Typ a) &quot;DynamicSearchAds&quot;oder b) &quot;Search&quot;zu erstellen, wenn das Element ExperimentId nicht festgelegt ist.) |
+| Tracking-Vorlage | Optional |
+| Suffix der Einstiegsseite | <p>Optional |
+| Budgettyp | Erforderlich zum Erstellen einer Kampagne. |
+| Gerät | Optional |
+| Angebotsanpassung | Optional |
+| Kampagnenstatus | Nur zum Löschen einer Kampagne erforderlich. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-Campaign Name
-Campaign Budget
-Campaign Status
-Delivery Method
-Device OS Targets (Google Adwords)
-Device Targets
-Languages
-Mobile Carriers (Google Adwords)
-Networks
-Tracking Template
-Channel Type
-Campaign Priority
-Merchant ID
-Sales Country
-Product Scope Filter
-Audience Target Method
-DSA Domain Name
-DSA Domain Language
-Landing Page Suffix
-Label Classification
+### Anzeigengruppenfelder
 
-### Ad group fields
+| Feld | Erforderlich? |
+| ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Anzeigengruppentyp | Erforderlich zum Erstellen einer Anzeigengruppe. |
+| Zielgruppenbestimmungsmethode | Nur zum Erstellen von Zielgruppen-Anzeigengruppen erforderlich. |
+| Startdatum der Anzeigengruppe | Optional |
+| Enddatum der Anzeigengruppe | Optional |
+| Tracking-Vorlage | Optional |
+| Netzwerkstatus durchsuchen | (Nur Kampagnen im Suchnetzwerk) Optional |
+| Sprachen | Optional |
+| Gerät | Optional |
+| Angebotsanpassung | Optional |
+| Anzeigengruppenstatus | Nur zum Löschen einer Anzeigengruppe erforderlich. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Anzeigengruppen-ID | Nur erforderlich, wenn Sie den Anzeigengruppennamen ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für die Anzeigengruppe. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-Campaign Name
-Ad Group Name
-Ad Group Type
-Networks
-Ad Group Status
-Max CPC
-Max Content CPC
-Tracking Template
-Audience Target Method
-Label Classification
+### Suchbegriffsfelder
 
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Schlüsselwort | Erforderlich |
+| Übereinstimmungstyp | Zum Bearbeiten oder Löschen eines Suchbegriffs mit mehreren Übereinstimmungstypen ist ein Wert für den Übereinstimmungstyp oder die Keyword-ID erforderlich. |
+| Max. CPC | Optional |
+| Basis-URL/Endgültige URL | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Tracking-Vorlage | Optional |
+| Param1 | Optional |
+| Param2 | Optional |
+| Suchbegriffstatus | Nur zum Löschen eines Suchbegriffs erforderlich. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Schlüsselwort-ID | Nur erforderlich, wenn Sie den Suchbegriff bearbeiten oder löschen, es sei denn, die Zeile enthält a) ausreichend Eigenschaftsspalten, um den Suchbegriff zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-## Keyword fields
+### Dynamische Suchanzeigenfelder
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
+>[!NOTE]
+>
+>Support erstellen ist nicht verfügbar.
 
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
-### Text/Product ad fields
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Beschreibung Zeile 1-2 | Erforderlich, um die Beschreibung zu bearbeiten. <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue. |
+| Anzeigepfad 1 | Erforderlich, um das Feld zu bearbeiten. |
+| Anzeigepfad 2 | Erforderlich, um das Feld zu bearbeiten. |
+| Kreativer Typ | Erforderlich zum Erstellen oder Bearbeiten des Status einer Produktanzeige. |
+| Creative Preferred Devices | Optional |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-Uses "Creative (except RSA)" row in Download Bulksheet dialog
+### Produkt- (Einkaufs-)Anzeigenfelder
 
-### Dynamic search ad fields
+Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot;[Implementieren von Microsoft Advertising Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html).&quot;
 
-Note: Create support not available
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
-### Multimedia/Responsive ad fields
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Promotion Line | Optional |
+| Basis-URL/Endgültige URL | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Kreativer Typ | Erforderlich zum Erstellen oder Bearbeiten des Status einer Produktanzeige. |
+| Tracking-Vorlage | Optional |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-### Responsive search ad fields
+### Responsive (Multimedia) Anzeigenfelder
 
-Uses "Responsive Search Ad" row in Download Bulksheet dialog
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
-### Dynamic search target (auto target) fields
-Note: Create support not available
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Anzeigentitel, Anzeigentitel 2-15 | Für responsive Anzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich, um Anzeigen zu erstellen. Alle anderen Felder für Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue. |
+| Beschreibung Zeile 1-4 | Beschreibung Zeile 1 und Beschreibung Zeile 2 sind erforderlich, um Anzeigen zu erstellen, und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. <b>Hinweis:</b> Bei diesem Anzeigentyp löscht das Ändern der Anzeigenkopie die vorhandene Anzeige und erstellt eine neue. |
+| Geschäftsname | Erforderlich zum Erstellen oder Löschen einer Anzeige. |
+| Aktionsaufruf | Erforderlich zum Erstellen einer Anzeige. |
+| Aktionssprache aufrufen | Erforderlich zum Erstellen einer Anzeige. |
+| Basis-URL/Endgültige URL | Erforderlich zum Erstellen einer Anzeige. |
+| Kreativer Typ | Optional. |
+| Tracking-Vorlage | Optional |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichende Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Anzeigen-ID noch die AMO-ID angeben und die Spalten der Anzeigeneigenschaft mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-### Shopping product group fields
+### Responsive Suchanzeigenfelder
 
-### Campaign-level sitelink fields
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
-### Location Target fields
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich | |
+| Anzeigentitel, Anzeigentitel 2-15 | Für responsive Suchanzeigen müssen der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 eine Anzeige erstellen. Alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Position des Anzeigentitels 1-15 | Optional |
+| Beschreibung Zeile 1-4 | Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich, um eine Anzeige zu erstellen. Die Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Beschreibung Zeile 1-4 Position | Optional |
+| Anzeigepfad 1 | Optional |
+| Anzeigepfad 2 | Optional |
+| Basis-URL/Endgültige URL | Erforderlich zum Erstellen einer Anzeige. |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Kreativer Typ | Optional |
+| Tracking-Vorlage | Optional |
+| Anzeigenstatus | Erforderlich zum Löschen einer Anzeige. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Erforderlich zum Bearbeiten oder Löschen von Anzeigen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen von Anzeigen, es sei denn, Sie enthalten die Anzeigen-ID. |
 
-### Device Target fields
+### Textanzeigenfelder
 
-### RLSA Target
+Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
--->
+>[!NOTE]
+>
+>Erweiterte Textanzeigen werden nicht mehr unterstützt. Sie können nur vorhandene Textanzeigen löschen.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Anzeigentitel, Anzeigentitel 2-3 | Schreibgeschützt |
+| Beschreibung Zeile 1-2 | Schreibgeschützt |
+| URL anzeigen | Schreibgeschützt |
+| Anzeigepfad 1 | Schreibgeschützt |
+| Anzeigepfad 2 | Schreibgeschützt |
+| Basis-URL/Endgültige URL | Schreibgeschützt |
+| Benutzerdefinierter URL-Parameter | Schreibgeschützt |
+| Kreativer Typ | Optional |
+| Tracking-Vorlage | Schreibgeschützt |
+| Creative Preferred Devices | Schreibgeschützt |
+| Anzeigenstatus | Erforderlich |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Anzeigen-ID | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Anzeigen-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Felder für dynamisches Suchziel (automatisches Targeting)
+
+>[!NOTE]
+>
+>Support erstellen ist nicht verfügbar.
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Ausdruck für automatisches Targeting | Erforderlich. |
+| Übereinstimmungstyp | Optional |
+| Max. CPC | Optional |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Zielstatus | Löschen einer Zielgruppe erforderlich |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Target-ID | Nur erforderlich, wenn Sie das automatische Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Produktgruppenfelder kaufen
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich |
+| Übereinstimmungstyp | Erforderlich zum Erstellen einer Produktgruppe. |
+| Max. CPC | Erforderlich zum Erstellen einer Produktgruppe. |
+| Übergeordnete Produktgruppen | Erforderlich |
+| Produktgruppierung | Erforderlich |
+| Partitionstyp | Erforderlich zum Erstellen einer Produktgruppe. |
+| Basis-URL/Endgültige URL | Erforderlich |
+| Tracking-Vorlage | Optional |
+| Produktgruppenstatus | Nur zum Löschen einer Produktgruppe erforderlich. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Optional |
+| Produktgruppen-ID | Nur erforderlich, wenn Sie die Produktgruppe ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um die Produktgruppe zu identifizieren, oder b) eine &quot;AMO-ID&quot;. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Sitelink-Felder auf Kampagnenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Beschreibung Zeile 1 | Optional |
+| Beschreibung Zeile 2 | Optional |
+| Startdatum | Optional |
+| Enddatum | Optional |
+| Basis-URL/Endgültige URL | Erforderlich |
+| Benutzerdefinierter URL-Parameter | Optional |
+| Tracking-Vorlage | Optional |
+| Creative Preferred Devices | Optional |
+| Linkname | Erforderlich |
+| Sitelink-Status | Nur zum Löschen eines Sitelink-Links erforderlich. |
+| Kampagnen-ID | Optional |
+| Sitelink-ID | Nur erforderlich, wenn Sie den Sitelink ändern oder löschen, es sei denn, die Zeile enthält a) ausreichende Eigenschaftsspalten, um den Sitelink zu identifizieren, oder b) eine &quot;AMO-ID&quot;. Wenn Sie jedoch weder die Sitelink-Anzeigen-ID noch die AMO-ID angeben und die Eigenschaftenspalten mit mehreren Sitelinks übereinstimmen, ändert sich der Status nur für einen der Sitelinks.<br><br><b>Hinweis:</b> Wenn Sie Sitelink-Eigenschaftenspalten mit Ausnahme des Status für einen vorhandenen Sitelink bearbeiten und weder die Sitelink-ID noch die AMO-ID einschließen, wird ein neuer Sitelink erstellt und der vorhandene Sitelink wird nicht geändert. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Zielgruppenfelder der Position
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Standort | Erforderlich |
+| Location Type | Erforderlich zum Erstellen einer Zielgruppe |
+| Angebotsanpassung | Optional |
+| Standort-Status | Nur zum Löschen eines Orts-Ziels erforderlich. |
+| Kampagnen-ID | Optional |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Kampagnen-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Gerät | Erforderlich zum Löschen eines Geräteziels. |
+| Angebotsanpassung | Optional |
+| Anzeigengruppenname | Erforderlich für Geräteziele auf Anzeigengruppenebene. Gilt nicht für Geräteziele auf Kampagnenebene. |
+| Gerätezielstatus | Nur zum Löschen eines Geräteziels erforderlich. |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Fakultativ; gilt nur für Geräteziele auf Anzeigengruppenebene. |
+| AMO-ID | Erforderlich, um die Daten zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die Geräteziel-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
+
+### RLSA-Zielfelder auf Kampagnenebene und Anzeigengruppenebene
+
+| Feld | Erforderlich? | Beschreibung |
+| ---- | ---- | ---- |
+| Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
+| Kampagnenname | Erforderlich |
+| Anzeigengruppenname | Erforderlich für Ziele auf Anzeigengruppenebene. Gilt nicht für Ziele auf Kampagnenebene. |
+| Zielgruppe | Erforderlich, um ein neues Ziel zu erstellen. |
+| Zieltyp | Optional |
+| Angebotsanpassung | Optional |
+| RLSA-Zielstatus | Erforderlich zum Löschen eines Ziels. |
+| Kampagnen-ID | Optional |
+| Anzeigengruppen-ID | Fakultativ; gilt nur für Ziele auf Anzeigengruppenebene. |
+| RLSA Target-ID | Nur erforderlich, wenn Sie das Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
+| AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die RLSA-Target-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 >[!MORELIKETHIS]
 >
@@ -209,4 +430,3 @@ Note: Create support not available
 >* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
 >* [Klick-Tracking-Formate für [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Hochladen einer Bulksheet-Datei oder einer korrigierten Fehlerdatei](../bulksheet-upload.md)
-

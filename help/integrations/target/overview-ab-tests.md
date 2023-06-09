@@ -1,10 +1,10 @@
 ---
-title: Konfigurieren von A/B-Tests für Adobe Advertising Ads in Adobe Target
+title: Konfigurieren von A/B-Tests für Adobe Advertising-Anzeigen in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP und [!DNL Search, Social, & Commerce] Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *Advertiser nur mit Advertising DSP*
 
-Adobe Advertising und Adobe Target erleichtern Marketingexperten die Bereitstellung eines personalisierten und vernetzten Erlebnisses über Paid Media und On-site-Messaging hinweg. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
+Adobe Advertising und Adobe Target erleichtern Marketern die Bereitstellung eines personalisierten und vernetzten Erlebnisses über Paid Media und On-site-Messaging hinweg. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
 
 * Verringern Sie die Site-Durchfallraten, indem Sie die Anzeigenbelichtung von Kunden aus DSP Kampagnen mit ihren Vor-Ort-Erlebnissen verknüpfen.
 
@@ -85,11 +85,12 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
 
    1. Navigieren Sie zu **Audience Manager** > **Zielgruppendaten** > **Signale** und wählen Sie anschließend die **Suche** Registerkarte oben links.
 
-   1. Geben Sie die **Schlüssel** und **Wert** für das Signal, das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden. Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) mit einem Wert, der einem Makro entspricht, das Sie dem Impressionsereignis-Pixel des Audience Managers hinzugefügt haben.
+   1. Geben Sie die **Schlüssel** und **Wert** für das Signal, das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden. Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Impressionsereignis-Pixel des Audience Managers hinzugefügt haben.
 
       Um beispielsweise Benutzer für eine bestimmte Platzierung zu gruppieren, verwenden Sie die `d_placement` Schlüssel. Verwenden Sie für den Wert eine tatsächliche numerische Platzierungs-ID (z. B. 2501853 im obigen Screenshot), die vom DSP erfasst wird. `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Wenn im Feld Gesamtanzahl die Benutzerzahlen für das Schlüssel-Wert-Paar angezeigt werden, was bedeutet, dass das Pixel korrekt platziert wurde und Daten fließen, können Sie mit dem nächsten Schritt fortfahren.
+
    ![Suchsignale](/help/integrations/assets/target-am-signals.png)
 
 1. [Regelbasierte Eigenschaft erstellen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) für die Segmenterstellung in Audience Manager.
@@ -109,6 +110,7 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
    1. Benennen Sie das Segment, wählen Sie `Ad Cloud` als **Datenquelle** und speichern Sie das Segment.
 
       Audience Manager teilt das Segment automatisch in eine Kontrollgruppe auf, die das standardmäßige Landingpage-Erlebnis erhält, und in eine Testgruppe, die ein personalisiertes Onsite-Erlebnis erhalten hat.
+
    ![Screenshot eines Testsegments](/help/integrations/assets/target-am-segment.png)
 
 ## Schritt 3: Einrichten einer A/B-Test-Aktivität in Target
@@ -164,6 +166,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
    * Erlebnis A: Bearbeiten Sie nicht, da dies das standardmäßige/steuerbare Landingpage-Erlebnis ohne Personalisierung ist.
 
    * Erlebnis B: Verwenden Sie die [!DNL Target] -Benutzeroberfläche, um die Landingpage-Vorlage auf der Grundlage der im Test enthaltenen Assets anzupassen (z. B. Überschriften, Kopien, Schaltflächenplatzierung und Kreativinhalte).
+
    >[!NOTE]
    >
    >Wenden Sie sich beispielsweise in Bezug auf kreative Testanwendungsfälle an Ihr Adobe Account Team.
@@ -182,7 +185,7 @@ Konfigurieren Sie in Analysis Workspace die [!DNL Analytics for Target panel] , 
 
 #### Metriken
 
-* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der spezifisch für die Adobe Advertising-Kampagne, das -Paket oder die Platzierung ist, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassende Visualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die Target-Testleistung anzuzeigen.
+* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der spezifisch für die Adobe Advertising-Kampagne, das Paket oder die Platzierung ist, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassende Visualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die Target-Testleistung anzuzeigen.
 
 * Priorisieren Sie die Verwendung von On-site-Metriken (z. B. Besuche und Konversionen), um die Leistung zu messen.
 
@@ -206,9 +209,9 @@ Wenn Sie in Analysis Workspace feststellen, dass die Daten zu Aktivitäten und E
 
 [Zusätzliche Daten-ID-Werte (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* Vergewissern Sie sich auf derselben Landingpage, dass a) der im Adobe Debugger unter &quot;Lösungen&quot;> &quot;Ziel&quot;angezeigte Hostname mit b) dem in [!DNL Target] für die Aktivität (unter Ziele und Einstellungen > Berichtseinstellungen).
+* Vergewissern Sie sich auf derselben Landingpage, dass a) der im Adobe Debugger unter Lösungen > Ziel angezeigte Hostname mit b) dem in [!DNL Target] für die Aktivität (unter Ziele und Einstellungen > Berichtseinstellungen).
 
-   [!DNL Analytics For Target] erfordert [!DNL Analytics] Tracking-Server, der bei Aufrufen von [!DNL Target] der [!DNL Modstats] Datenerfassungsserver für Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] erfordert [!DNL Analytics] Tracking-Server, der bei Aufrufen von [!DNL Target] der [!DNL Modstats] Datenerfassungsserver für Analytics.<!-- just "to Analytics?"-->
 
 [Hostnamenwert in Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

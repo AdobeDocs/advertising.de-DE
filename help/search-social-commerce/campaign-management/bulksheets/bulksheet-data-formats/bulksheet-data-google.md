@@ -1,9 +1,9 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,8 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
+
 ## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind
 
 ### Kampagnenfelder
@@ -122,24 +124,24 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | ---- | ---- |
 | Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
 | Kampagnenname | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
-| Kampagnenbudget | Erforderlich: Erstellen<br><br>>Optional: Bearbeiten oder Löschen | Eine tägliche Ausgabenbegrenzung für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. |
-| Versandmethode | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
-| Kanaltyp | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
-| Netzwerke | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
-| DSA-Domänenname | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
-| DSA-Domänensprache | Erforderlich: Erstellen<br><br>Optional: Bearbeiten oder Löschen |
-| Kampagnenpriorität | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
-| Merchant-ID | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
-| Vertriebsland | Erforderlich/Optional: Erstellen<br><br>Optional/n/a: Bearbeiten oder Löschen |
-| Produktumfang-Filter | Optional |
+| Kampagnenbudget | Erforderlich zum Erstellen einer Kampagne. | Eine tägliche Ausgabenbegrenzung für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. |
+| Versandmethode | Erforderlich zum Erstellen einer Kampagne. |
+| Kanaltyp | Erforderlich zum Erstellen einer Kampagne. |
+| Netzwerke | Erforderlich zum Erstellen einer Kampagne. |
+| DSA-Domänenname | Erforderlich, um eine Kampagne im Suchnetzwerk zu erstellen, die über dynamische Suchanzeigen verfügt. |
+| DSA-Domänensprache | Erforderlich, um eine Kampagne im Suchnetzwerk zu erstellen, die über dynamische Suchanzeigen verfügt. |
+| Kampagnenpriorität | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Merchant-ID | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Vertriebsland | Erforderlich, um eine Warenkampagne zu erstellen. |
+| Produktumfang-Filter | (Shopping-Kampagnen) Optional |
 | Sprachen | Optional |
 | Geräteziele | Optional |
 | Geräte-OS-Ziele (Google-Adwords) | Optional |
 | Mobilnetzbetreiber (Google Adwords) | Optional |
 | Zielgruppenbestimmungsmethode | Nicht zutreffend |
-| Suffix der Einstiegsseite | <p>Optional |
+| Suffix der Einstiegsseite | Optional |
 | Tracking-Vorlage | Optional |
-| Kampagnenstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| Kampagnenstatus | Nur zum Löschen einer Kampagne erforderlich. |
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
 | Einschränkungen | Optional |
 | Kampagnen-ID | Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
@@ -154,12 +156,12 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Netzwerke | Nicht zutreffend |
 | GDN Custom Bid Level | Optional |
 | Anzeigengruppenname | Erforderlich |
-| Anzeigengruppentyp | Erforderlich |
+| Anzeigengruppentyp | Erforderlich zum Erstellen einer Anzeigengruppe. |
 | Max. CPC | Optional |
 | Max. Content-CPC | Optional |
 | Zielgruppenbestimmungsmethode | Erforderlich |
 | Tracking-Vorlage | Optional |
-| Anzeigengruppenstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| Anzeigengruppenstatus | Nur zum Löschen einer Anzeigengruppe erforderlich. |
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
 | Einschränkungen | Optional |
 | Anzeigengruppen-ID | Nur erforderlich, wenn Sie den Anzeigengruppennamen ändern, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für die Anzeigengruppe. |
@@ -174,13 +176,13 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 | Anzeigengruppenname | Erforderlich |
 | Max. CPC | Optional |
 | Schlüsselwort | Erforderlich |
-| Übereinstimmungstyp | Optional: Erstellen<br><br>Erforderlich/Optional: Bearbeiten oder Löschen |
+| Übereinstimmungstyp | Zum Bearbeiten oder Löschen eines Suchbegriffs mit mehreren Übereinstimmungstypen ist ein Wert für den Übereinstimmungstyp oder die Keyword-ID erforderlich. |
 | Tracking-Vorlage | Optional |
 | Basis-URL/Endgültige URL | Optional |
 | Benutzerdefinierter URL-Parameter | Optional |
 | Param1 | Optional |
 | Param2 | Optional |
-| Suchbegriffstatus | Optional: Erstellen oder Bearbeiten<br><br>Erforderlich: Löschen |
+| Suchbegriffstatus | Nur zum Löschen eines Suchbegriffs erforderlich. |
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
 | Einschränkungen | Optional |
 | Kampagnen-ID | Optional |
@@ -212,7 +214,7 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 
 ### Erweiterte dynamische Suchanzeige
 
-Dieser Anzeigentyp wird jetzt als &quot;dynamische Suchanzeige&quot;in [!DNL Google Ads]. Weitere Informationen zum Erstellen von dynamischen Suchanzeigen finden Sie unter[Implementierung [!DNL Google Ads] dynamische Suchanzeigen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Dieser Anzeigentyp wird jetzt als &quot;dynamische Suchanzeige&quot;in [!DNL Google Ads]. Weitere Informationen zum Erstellen von dynamischen Suchanzeigen finden Sie unter[Implementierung [!DNL Google Ads] dynamische Suchanzeigen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
@@ -235,7 +237,7 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 ### Felder für Produktliste/Shopping-Anzeige
 
-Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot;[Implementieren von Google Ads-Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot;[Implementieren von Google Ads-Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
@@ -266,9 +268,9 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot;
 | Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
 | Kampagnenname | Erforderlich |
 | Anzeigengruppenname | Erforderlich | |
-| Anzeigentitel, Anzeigentitel 2-15 | Für responsive Suchanzeigen sind der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 erforderlich und alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Anzeigentitel, Anzeigentitel 2-15 | Für responsive Suchanzeigen müssen der Anzeigentitel, der Anzeigentitel 2 und der Anzeigentitel 3 eine Anzeige erstellen. Alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
 | Position des Anzeigentitels 1-15 | Optional |
-| Beschreibung Zeile 1-4 | Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich und Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
+| Beschreibung Zeile 1-4 | Für responsive Suchanzeigen sind Beschreibung Zeile 1 und Beschreibung Zeile 2 erforderlich, um eine Anzeige zu erstellen. Die Beschreibung Zeile 3 und Beschreibung Zeile 4 sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den Wert `[delete]` (einschließlich der Klammern). |
 | Beschreibung Zeile 1-4 Position | Optional |
 | Anzeigepfad 1 | Optional |
 | Anzeigepfad 2 | Optional |
@@ -324,6 +326,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | Ausdruck für automatisches Targeting | Erforderlich, wenn die Kampagneneinstellung &quot;Verwenden Sie meine Website-Inhalte zum Targeting meiner Anzeigen&quot; nicht aktiviert ist; andernfalls optional. |
 | Übereinstimmungstyp | Optional |
 | Zielstatus | Löschen einer Zielgruppe erforderlich |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional |
+| Einschränkungen | Optional |
 | Kampagnen-ID | Optional |
 | Anzeigengruppen-ID | Optional |
 | Target-ID | Nur erforderlich, wenn Sie das automatische Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
@@ -376,14 +380,14 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | ---- | ---- | ---- |
 | Kontoname | Erforderlich, es sei denn, jede Zeile enthält eine &quot;AMO-ID&quot;für die Entität. |
 | Kampagnenname | Erforderlich |
-| Standort | Erforderlich zum Erstellen oder Bearbeiten eines Standort-Ziels. |
+| Standort | Erforderlich |
 | Location Type | Optional |
 | Angebotsanpassung | Optional |
 | Standort-Status | Nur zum Löschen eines Orts-Ziels erforderlich. |
 | Kampagnen-ID | Optional |
 | AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Kampagnen-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-## Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
+### Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | Device Target-ID | Nur erforderlich, wenn Sie das Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
 | AMO-ID | Erforderlich, um die Daten zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die Geräteziel-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-## RLSA-Zielgruppen-/Ausschlussfelder auf Kampagnenebene und Anzeigengruppenebene
+### RLSA-Zielgruppen-/Ausschlussfelder auf Kampagnenebene und Anzeigengruppenebene
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | Anzeigengruppen-ID | Fakultativ; gilt nur für Ziele und Ausschlüsse auf Anzeigengruppenebene. |
 | RLSA Target-ID | Nur erforderlich, wenn Sie das Ziel ändern oder löschen, es sei denn, die Zeile enthält eine &quot;AMO-ID&quot;für das Ziel. |
 | AMO-ID | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die RLSA-Target-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
-
-[^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
 >[!MORELIKETHIS]
 >

@@ -1,9 +1,9 @@
 ---
 title: Erstellen [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Zielgruppen
 description: Erfahren Sie, wie Sie [!DNL Google Ads] Kundenabgleich von Zielgruppen aus Ihrer bestehenden Adobe Analytics- und Audience Manager-Zielgruppe.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]Konten, die nur für die Kundenübereinstimmung infrage kommen*
 
-*Werbetreibende mit nur einer Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration verfügen*
 
 Opt-in-Advertiser können [!DNL Google Ads] Kundenabgleich von Zielgruppen mithilfe von Benutzer-IDs aus a) [!DNL Analytics] Segmente, die für Adobe Experience Cloud freigegeben sind, und b) Audience Manager-Segmente, die über Search, Social und Commerce als Ziel verfügen, einschließlich [!DNL Analytics] Segmente, die in Adobe Experience Cloud veröffentlicht werden, und Segmente, die mithilfe der Adobe Experience Cloud-Zielgruppenbibliothek erstellt werden. In Search, Social und Commerce wird automatisch ein [!DNL Google] Tracking-URL zu jedem [!DNL Analytics] oder Audience Manager [!DNL Google] kann die Zielgruppe verfolgen.
 
@@ -32,7 +32,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
    1. (So erstellen Sie Benutzer-ID-Remarketing-Listenzielgruppen) Eine [!DNL Adobe] Admin-Benutzer oder -Kundenbetreuer müssen die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für die Kundenabstimmung zu aktivieren. Die Einstellungen unterscheiden sich zwischen Advertisern mit Audience Manager und Advertisern mit [!DNL Analytics] nur.
 
-   1. Implementieren des [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) Version 2.0 oder höher.
+   1. Implementieren des [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
 
    1. Stellen Sie das folgende Tag so weit wie möglich auf den Webseiten des Advertisers bereit, von denen aus die Zielgruppe verfolgt werden soll
 
@@ -80,11 +80,9 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 >
 >* Siehe [[!DNL Google Ads] Dokumentation zur Funktionsweise und Einschränkungen von Kundenabgleich](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen](audience-about.md)
 >* [Erstellen Sie eine [!DNL Google Ads] Zielgruppe für Kundenabgleich aus einer Adobe Campaign-E-Mail-Liste](google-audience-from-campaign-email-list.md)
 >* [Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten](audience-from-customer-data-list.md)
 >* [Dynamische Remarketing-Zielgruppen verwalten](audience-dynamic-remarketing-manage.md)
-
