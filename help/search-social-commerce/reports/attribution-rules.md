@@ -1,16 +1,16 @@
 ---
 title: Berechnung der Attributionsregeln
 description: Erfahren Sie, wie Adobe Advertising die verschiedenen Arten von Attributionsregeln berechnet.
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
 
 # Berechnung der Attributionsregeln für den Adobe Advertising
 
-*Werbetreibende, die nur Adobe Advertising-Konversions-Tracking verwenden*
+*Advertiser mit Adobe Advertising-Konversions-Tracking*
 
 <!-- Verify statements about cross-device events -->
 
@@ -21,9 +21,9 @@ In Berichten, Standardansichten und benutzerdefinierten Ansichten für Advertisi
 >[!NOTE]
 >
 >* Zuordnungsregeln gelten für Klicks auf gebührenpflichtige Anzeigen in beliebigen Kanälen sowie für Impressionen auf Display- und Social-Anzeigen. Sie gelten nicht für Impressionen für Paid Search-Anzeigen, die nicht auf Ereignisebene verfolgt werden können.
->* Adobe Advertising speichert vor einer Konversion immer die folgenden Ereignisse für jeden Websurfer: a) den ersten bezahlten Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klicks; und c) bis zu 10 Anzeigeimpressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising speichert immer die folgenden Ereignisse für jeden Websurfer vor einer Konversion: a) den ersten bezahlten Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klicks; und c) bis zu 10 Anzeigeimpressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * In der Advertising-DSP und -Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad aus der ausgewählten Attributionsregel.<!-- cross-device attribution via LiveRamp only -->
-* In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, in der Adobe Advertising jedoch präzisere Werte.
+* In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, Adobe Advertising speichert jedoch genauere Werte.
 
 ## Letztes Ereignis (Standard)
 
@@ -209,7 +209,7 @@ Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, gilt die Gewi
 
 Attribution: Impression 1 = 6 USD, Klick 1 = 54 USD, Impression 2 = 6 USD, Klick 2 = 54 USD (insgesamt 120 USD)
 
-#### Verwendung (nur Adobe Advertising DSP) einer Impression Override Weight oder (nur Search, Social, &amp; Commerce) einer &quot;Impression Override Weight&quot; von 0 %
+#### Verwendung (nur Adobe Advertising DSP) des Werts &quot;Impression Override Weight&quot;oder (nur Suche, Social und Commerce) des Werts &quot;Impression Override Weight&quot;von 0 %
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
@@ -301,7 +301,7 @@ Wenn der Konversionspfad sowohl gebührenpflichtige Klicks als auch Impressionen
 
 * In DSP werden die Impressionen ignoriert und nur Klicks gewichtet. DSP berücksichtigt die Gewichtungen für Impressionen bei der Zuordnung nicht.
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![U-förmige Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-förmige Attributionsprozentsätze")
 
 <!-- start examples as collapsible content -->
 
