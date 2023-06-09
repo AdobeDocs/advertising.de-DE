@@ -1,7 +1,7 @@
 ---
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] nur; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]und [!UICONTROL Keyword Daily Impression Share Report]) Der Prozentsatz Ihrer Anzeigenimpressionen, der als erste Anzeige über den organischen Suchergebnissen angezeigt wird. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] nur; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]und [!UICONTROL Keyword Daily Impression Share Report]) Der Prozentsatz Ihrer Anzeigenimpressionen, der über den organischen Suchergebnissen angezeigt wird. |
 | [!UICONTROL Impressions] | Die Anzahl der Anzeigenimpressionen im angegebenen Datumsbereich. |
-| [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</i> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
+| [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</b> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
 | [!UICONTROL Keyword ID] | Die numerische ID, die Search, Social und Commerce dem Suchbegriff zuweisen. |
 | [!UICONTROL Keyword Status] | Der Status des Suchbegriffs, mit dem der Suchbegriff übereinstimmt: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*oder[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Die Zielsprache. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [Über Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [Einen Spezialbericht erstellen](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
