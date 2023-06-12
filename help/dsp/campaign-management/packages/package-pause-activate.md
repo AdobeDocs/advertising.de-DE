@@ -2,7 +2,7 @@
 title: Anhalten oder Aktivieren eines Pakets
 description: Erfahren Sie, wie Sie ein Paket anhalten oder aktivieren.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ Alle Platzierungen, die in einem Paket vor dem Anhalten des Pakets selbst angeha
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Archivieren eines Pakets](package-archive-unarchive.md)
-
