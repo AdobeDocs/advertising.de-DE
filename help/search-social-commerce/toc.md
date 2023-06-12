@@ -5,12 +5,12 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search, Social & Commerce-Anleitung
-user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für die Verwaltung, Optimierung und Berichterstellung Ihrer Such-, Social- und Commerce-Werbekampagnen erforderlich sind.
+user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für die Verwaltung, Verfolgung und Berichterstellung Ihrer Such-, Social- und Commerce-Werbekampagnen erforderlich sind.
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: true
-source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
+source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---

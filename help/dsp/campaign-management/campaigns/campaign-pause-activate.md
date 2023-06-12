@@ -2,7 +2,7 @@
 title: Anhalten oder Aktivieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Live-Kampagne anhalten oder aktivieren.
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -33,4 +33,3 @@ Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten wurden, bleib
 >
 >* [Eine Kampagne bearbeiten](campaign-edit.md)
 >* [Eine Kampagne archivieren](campaign-archive-unarchive.md)
-
