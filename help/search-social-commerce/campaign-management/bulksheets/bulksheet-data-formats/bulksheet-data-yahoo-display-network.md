@@ -1,9 +1,9 @@
 ---
 title: Massenblattdaten für [!DNL Yahoo! Display Network] Konten
 description: Referenzieren Sie die Kopfzeilenfelder und Datenfelder in heruntergeladenen Bulksheets für [!DNL Yahoo! Display Network] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | Nicht zutreffend | Ist enthalten | Ist enthalten | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. |
 | [!UICONTROL Keyword ID] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. |
 | [!UICONTROL AMO ID] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets) Eine von der Adobe generierte eindeutige Kennung für eine synchronisierte Entität. |
-| [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in den EF-Fehlerdateien enthalten. |
+| [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] Dateien. |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
-

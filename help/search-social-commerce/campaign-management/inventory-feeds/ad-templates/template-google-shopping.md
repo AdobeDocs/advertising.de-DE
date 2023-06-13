@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Google Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds"
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; (optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domänenumleitungen und Tracking-Parameter angibt und die endgültige URL in einen ValueTrack-Parameter einbettet. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
+**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene reicht aus.
 

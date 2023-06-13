@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Für [!DNL Microsoft Advertising] nur Konten, [!DNL oAuth]-autorisierte Anmeldun
 
 Beispiel: `param1=value1&param2=value2`
 
-Konten, die das Klick-Tracking für Adobe Advertising verwenden, müssen die Klick-ID des Werbenetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix. Konten mit einer Adobe Analytics-Integration müssen die Variable `s_kwcid` Parameter. Wenn das Konto über eine serverseitige s\_kwcid-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. ansonsten müssen Sie es hier manuell hinzufügen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix. Konten mit einer Adobe Analytics-Integration müssen die Variable `s_kwcid` Parameter. Wenn das Konto über eine serverseitige s\_kwcid-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. ansonsten müssen Sie es hier manuell hinzufügen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ Konten, die das Klick-Tracking für Adobe Advertising verwenden, müssen die Kli
 
 * So betten Sie die endgültige URL ein:
 
-   * ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{lpurl}` um die Landingpage-URL anzugeben.
 

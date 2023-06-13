@@ -1,16 +1,16 @@
 ---
 title: Klick-Tracking-URL generieren
 description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Suche, Social und Commerce generieren.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # Generieren einer Klick-Tracking-URL für Search, Social und Commerce mithilfe des Tools Tracking-URLs
 
-*Advertiser mit Adobe Advertising-Konversions-Tracking*
+*Werbetreibende, die nur Adobe Advertising-Konversions-Tracking verwenden*
 
 Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und implementieren müssen, finden Sie unter[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -34,57 +34,56 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
          * (Kreative, Standardanzeigen) `**landing_page**`
 
-            where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: http://www.example.com/travel.html
+           Beispiel: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] Sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-            where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: `Careers <tab> ** <tab> http://www.example.com/careers.html`
+           Beispiel: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-            Die Datei kann bis zu 10.000 Zeilen enthalten.
+           Die Datei kann bis zu 10.000 Zeilen enthalten.
 
          * ([!DNL Google Merchant Center] Produktgruppen und [Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
-            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+           Beispiel: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-            Die Datei kann bis zu 10.000 Zeilen enthalten.
+           Die Datei kann bis zu 10.000 Zeilen enthalten.
+
       * Geben Sie im Eingabefeld ein Element pro Zeile im folgenden Format ein:
 
          * (Kreative, Standardanzeigen) `landing_page`
 
-            where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: http://www.example.com/travel.html
+           Beispiel: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] Sitelinks) `sitelink**landing_page`
 
-            where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: `Careers**http://www.example.com/careers.html`
+           Beispiel: `Careers**http://www.example.com/careers.html`
 
          * ([!DNL Google Merchant Center] Produktgruppen und [!DNL Microsoft® Advertising] Produktanzeigen) `product name**landing_page`
 
-            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
-            Beispiel: Acme PR208**http://www.example.com/travel.html
+           Beispiel: Acme PR208**http://www.example.com/travel.html
+
    1. Klicken **[!UICONTROL Generate Tracking URLs]**.
-
-
 
 1. (Optional) Kopieren Sie die URLs (beginnend mit &quot;http&quot;oder &quot;https&quot;) von der Bildschirm- oder Ausgabeseite und implementieren Sie sie in das Such- oder Social-Konto.
 
 Geben Sie für Konten mit Ziel-URLs die Werte in der entsprechenden [!UICONTROL Base URL] -Felder.
 
-Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in die entsprechende [!UICONTROL Tracking Template] -Feld. Sie müssen einen Parameter für die endgültige URL nach der `&url=` -Parameter (z. B. `{lpurl}`). Für [!DNL Yahoo! Japan Ads] Konten, den Parameter verwenden `{lpurl}`. Für eine Liste von [!DNL Google Ads] und [!DNL Microsoft® Advertising] Parameter, die die endgültigen URLs in Tracking-Vorlagen angeben, finden Sie unter [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;) und die [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in die entsprechende [!UICONTROL Tracking Template] -Feld. Sie müssen einen Parameter für die endgültige URL nach der `&url=` -Parameter (z. B. `{lpurl}`). Für [!DNL Yahoo! Japan Ads] Konten, den Parameter verwenden `{lpurl}`. Für eine Liste von [!DNL Google Ads] und [!DNL Microsoft® Advertising] Parameter, die die endgültigen URLs in Tracking-Vorlagen angeben, finden Sie unter [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot;) [!DNL ValueTrack] Parameter&quot;) und der [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >
 >* [Über die Tools zum Erstellen und Dekodieren von Tracking-Tags](tracking-tools-about.md)
 >* [Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
 >* [Dekodieren einer Klick-Tracking-URL für Suche, Social und Commerce](click-tracking-url-decode.md)
-

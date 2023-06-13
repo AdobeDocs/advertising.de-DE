@@ -1,9 +1,9 @@
 ---
 title: Verwalten freigegebener Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 >* ([!DNL Google Ads]) Jeder Sitelink in einer Kampagne oder Anzeigengruppe muss über eine eindeutige Landingpage verfügen und der Inhalt für jede Sitelink-Landingpage muss ungefähr 80 % eindeutiger Inhalte aufweisen. Sie können beispielsweise keine Sitelinks mit Links zu mehreren Ankern auf derselben Seite haben.
 >* ([!DNL Google Ads]) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-
 **[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die finale/Landingpage-URL in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;EF Redirect&quot;und &quot;Auto Upload&quot;beinhalten, setzt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Klick-Tracking-Code voran.
+* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;Automatisches Hochladen&quot;, &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;setzen beim Speichern des Datensatzes automatisch einen eigenen Klick-Tracking-Code voran.
 
-* Informationen zu unterstützten Parametern zum Einbetten der endgültigen URL finden Sie unter ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Informationen zu unterstützten Parametern zum Einbetten der endgültigen URL finden Sie unter ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 * Sie können optional URL-Parameter und alle für die Kampagne definierten benutzerdefinierten Parameter einbeziehen, getrennt durch kaufmännische Und-Zeichen (&amp;), z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 >* ([!DNL Microsoft Advertising]) Sie können Ihre Tracking-Vorlagen auf jeder Ebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
 >* Für [!DNL Google Ads]vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-
 >[!MORELIKETHIS]
 >
 >* [Über Sitelink-Erweiterungen](sitelink-extension-about.md)
 >* [Verknüpfen freigegebener Sitelinks mit Konten, Kampagnen und Anzeigengruppen](sitelink-extension-associate.md)
-

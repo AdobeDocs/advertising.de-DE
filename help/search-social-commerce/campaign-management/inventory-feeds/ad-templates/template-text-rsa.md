@@ -1,9 +1,9 @@
 ---
 title: Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für Inventar-Feeds
 description: Referenzieren Sie die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 * So betten Sie die endgültige URL ein:
 
-   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{unescapedurl}` um die Landingpage-URL anzugeben.
 
@@ -134,13 +134,13 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 **[!UICONTROL Ad Group Tracking Template]:** (Nur Konten mit finalen/erweiterten URLs) Die Tracking-Vorlage auf Anzeigengruppenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;EF Redirect&quot;und &quot;Auto Upload&quot;enthalten, hängt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So geben Sie die Landingpage-URL an:
 
 * Für Yahoo! Japan Ads-Konten verwenden den Parameter {lpurl}.
 
-* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 Dieser Wert setzt die Einstellungen auf Konto- und Kampagnenebene außer Kraft, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als dem granularsten) überschreiben diesen Wert.
 
@@ -198,13 +198,13 @@ Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &
 
 **[!UICONTROL Keyword Tracking Template]:** (Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;EF Redirect&quot;und &quot;Auto Upload&quot;enthalten, hängt die Suche, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern eingeben.
 
 * So geben Sie die Landingpage-URL an:
 
-   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{lpurl}` um die Landingpage-URL anzugeben.
 
@@ -316,7 +316,7 @@ Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser mit den folgenden
 
 [!DNL Microsoft® Advertising] und [!DNL Yahoo! Japan Ads] die Erstellung und Bearbeitung von Standardtextanzeigen eingestellt haben.
 
-**[!UICONTROL Base URL]:** (Nur Konten mit Ziel-URLs) Die Seite, auf die Benutzer geleitet werden. Sie kann Umleitung und Trackingcode von Drittanbietern enthalten. Wenn Sie den Adobe Advertising Conversion Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung der [!UICONTROL EF Redirect] Fügen Sie Tracking auf Anzeigenebene hinzu, fügt Search, Social und Commerce der Anzeige automatisch einen eigenen Weiterleitungs- und Trackingcode hinzu.
+**[!UICONTROL Base URL]:** (Nur Konten mit Ziel-URLs) Die Seite, auf die Benutzer geleitet werden. Sie kann Umleitung und Trackingcode von Drittanbietern enthalten. Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung der [!UICONTROL EF Redirect] Fügen Sie Tracking auf Anzeigenebene hinzu, fügt Search, Social und Commerce der Anzeige automatisch einen eigenen Weiterleitungs- und Trackingcode hinzu.
 
 Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste oder auf eine [Modifikatorname](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) im [!UICONTROL Modifiers] Liste.
 
@@ -337,7 +337,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
 * Für Yahoo! Japan Ads-Konten verwenden den Parameter {lpurl}.
 
-* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare ValueTrack-Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Alternative Anzeigenfelder unter den ursprünglichen Anzeigenfeldern\]:** (Optional) Ein alternativer Satz von Anzeigenkopien für eine Anzeige, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximal zulässige Länge überschreitet, sobald dynamische Parameter bei der Übertragung mit Daten gefüllt werden.
 

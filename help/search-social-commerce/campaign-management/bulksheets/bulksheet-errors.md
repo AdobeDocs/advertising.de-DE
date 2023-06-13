@@ -1,9 +1,9 @@
 ---
 title: Massenblatt-Fehler
 description: Referenzpotenzielle Gründe für jeden Bulksheet-Fehler.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Fehler im [!UICONTROL SE Error] -Spalte direkt aus dem Werbenetzwerk stammen.
 
 ## [!UICONTROL EF Error] messages
 
-Die folgenden Fehler können im [!UICONTROL EF Error] in den EF-Fehlerdateien.
+Die folgenden Fehler können im [!UICONTROL EF Error] Spalte in [!UICONTROL EF Errors] Dateien.
 
 ### Fehler herunterladen/erstellen
 
 | Kategorie | Nachricht | Beschreibung |
 |----|----|----|
 | Allgemein | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Der Vorgang ist aufgrund eines nicht kategorisierten oder nicht verarbeiteten Fehlers vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team, um die Ursache zu untersuchen. |
-|  | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social &amp; Commerce konnte nicht mit dem Anzeigennetzwerk synchronisieren, bevor das Bulksheet erstellt wurde. Daher wurde kein Bulksheet erstellt. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social &amp; Commerce konnte nicht mit dem Anzeigennetzwerk synchronisieren, bevor das Bulksheet erstellt wurde. Daher wurde kein Bulksheet erstellt. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 
 ### Fehler hochladen
 
@@ -42,8 +42,8 @@ Die folgenden Fehler können im [!UICONTROL EF Error] in den EF-Fehlerdateien.
 | Allgemein | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Invalid Fields.] \[ungültige Felder und Fehler\] | Die angegebenen Daten fehlen oder sind ungültig. |
 |  | [!UICONTROL Invalid Reference Given] | Die ID der Entität im Werbenetzwerk oder die ID der übergeordneten Entität (z. B. die Konto-ID) entspricht keiner Entität in Search, Social und Commerce. Dies kann vorkommen, wenn Sie die ID im Bulksheet bearbeitet haben. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | Die Entität ist abgelaufen oder wurde gelöscht und Sie können ihre Eigenschaften nicht ändern. Die Entität kann gelöscht werden, wenn jemand den Status manuell bearbeitet hat. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Neue Entitäten) Eine neue Entität kann nur &quot;Aktiv&quot;oder &quot;Angehalten&quot;sein. |
+|  | [!UICONTROL <Entity> is deleted or expired] | Die Entität ist abgelaufen oder wurde gelöscht und Sie können ihre Eigenschaften nicht ändern. Die Entität kann gelöscht werden, wenn jemand den Status manuell bearbeitet hat. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Neue Entitäten) Eine neue Entität kann nur &quot;Aktiv&quot;oder &quot;Angehalten&quot;sein. |
 |  | [!UICONTROL Duplicate Entries are present] | Für dieselbe Entität werden mehrere Zeilen mit unterschiedlichen Attributen in jeder Zeile einbezogen. Konsolidieren Sie die Änderungen in einer Zeile. |
 |  | [!UICONTROL Invalid AMO ID given] | Die AMO-ID für die Zeile ist nicht vorhanden. Dies kann vorkommen, wenn Sie die ID im Bulksheet bearbeitet haben. |
 |  | [!UICONTROL Invalid row given] | Die Zeile enthält nicht genügend Informationen, um den Entitätstyp zu bestimmen. Bearbeiten Sie die Zeile, um alle erforderlichen Felder für den Entitätstyp einzuschließen. |
@@ -59,7 +59,7 @@ Die folgenden Fehler können im [!UICONTROL EF Error] in den EF-Fehlerdateien.
 | Alle Anzeigengruppenkomponenten | [!UICONTROL Adgroup creation failed] | Die übergeordnete Anzeigengruppe wurde nicht erstellt, sodass diese Entität nicht erstellt werden konnte. Dies kann an einem Fehler in den Anzeigengruppenfeldern oder an einem Fehler der übergeordneten Kampagne liegen. Stellen Sie sicher, dass alle übergeordneten Entitäten alle erforderlichen Felder enthalten. |
 |  | [!UICONTROL Adgroup Row Missing] | Die angegebene übergeordnete Anzeigengruppe existiert nicht, sodass die Entität nicht erstellt werden konnte. Erstellen Sie die übergeordnete Anzeigengruppe in einer neuen Zeile. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | Die &quot;[!UICONTROL Tracking Template]Das Feld &quot; ist nur für Konten mit finalen/erweiterten URLs verfügbar. Entfernen Sie den Wert, bis Sie das Konto zur Verwendung endgültiger/erweiterter URLs migriert haben. |
-| Anzeige | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Andere Anzeigentypen als Text, erweiterter Text, Produkt, App-Installation und dynamische Suche) Sie können nur den Status und die URL für diesen Anzeigentyp bearbeiten. |
+| Anzeige | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Andere Anzeigentypen als Text, erweiterter Text, Produkt, App-Installation und dynamische Suche) Sie können nur den Status und die URL für diesen Anzeigentyp bearbeiten. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Jede Anzeigengruppe kann bis zu 50 Anzeigen enthalten, und dieses Bulksheet enthält mehr als 50 Anzeigen. Reduzieren Sie die Anzahl der Anzeigen. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | Die Anzeige befindet sich in einer abgelaufenen oder gelöschten übergeordneten Entität, sodass Sie sie nicht bearbeiten können. |
 | Schlüsselwort | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | Die übergeordnete Kampagne oder Anzeigengruppe wird gelöscht oder abgelaufen, sodass Sie die Entität nicht ändern können. |
@@ -76,13 +76,13 @@ Die folgenden Fehler können im [!UICONTROL EF Error] in den EF-Fehlerdateien.
 
 ### Beitragsfehler
 
-Die folgenden Fehler treten nur in EF-Fehlerdateien auf. Die meisten Posting-Fehler stammen aus dem Werbenetzwerk und sind in einer SE-Fehlerdatei enthalten.
+Die folgenden Fehler treten in [!UICONTROL EF Errors] -Dateien. Die meisten Posting-Fehler stammen aus dem Werbenetzwerk und sind in einer SE-Fehlerdatei enthalten.
 
 | Kategorie | Nachricht | Beschreibung |
 |----|----|----|
 | Allgemein | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Entity] wird in das Werbenetzwerk veröffentlicht | Die Entität wurde im Werbenetzwerk veröffentlicht, aber nicht gleichzeitig mit Search, Social und Commerce synchronisiert, sodass die Entitätsdaten nicht sofort in Search, Social und Commerce verfügbar sind. Der Synchronisierungsprozess wird jetzt automatisch ausgelöst.<br><br>Wenn große Datenmengen synchronisiert werden, sind die Daten möglicherweise mehrere Stunden oder länger nicht in Search, Social und Commerce verfügbar. |
-|  | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Die übergeordnete Entität konnte nicht erstellt werden, sodass diese untergeordnete Entität nicht erstellt wurde. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Die übergeordnete Entität konnte nicht erstellt werden, sodass diese untergeordnete Entität nicht erstellt wurde. |
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +91,3 @@ Die folgenden Fehler treten nur in EF-Fehlerdateien auf. Die meisten Posting-Feh
 >* [Validieren von Landingpages in Bulksheet-Dateien](bulksheet-validate-landing-pages.md)
 >* [Hochladen einer Bulksheet-Datei oder einer korrigierten Fehlerdatei](bulksheet-upload.md)
 >* [Post-Bulksheets oder korrigierte Fehlerdateien](bulksheet-post.md)
-

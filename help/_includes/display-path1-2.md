@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -15,4 +15,4 @@ Verwenden Sie zum Einfügen eines Anzeigenanpassers die folgenden Formate, wobei
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`
 
-Wenn beispielsweise der Anzeigepfad 1 &quot;Angebote&quot;und der Anzeigepfad 2 &quot;lokal&quot;lautet, wäre die Anzeige-URL `<display URL>/deals/local`, z. B. www.example.com/deals/local.
+Wenn beispielsweise [!UICONTROL Display Path 1] auf &quot;Angebote&quot;gesetzt ist und [!UICONTROL Display Path 2] den Wert &quot;local&quot;hat, würde die Anzeige-URL `<display URL>/deals/local`, z. B. www.example.com/deals/local.

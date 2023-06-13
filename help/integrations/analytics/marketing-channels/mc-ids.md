@@ -1,26 +1,26 @@
 ---
-title: Erstellen von Adobe Advertising-IDs mit [!DNL Marketing Channels] Regeln
-description: Erfahren Sie, wie Sie mit Adobe Advertising IDs Verarbeitungsregeln für [!DNL Analytics Marketing Channels].
+title: Erstellen von Adobe Advertising-IDs [!DNL Marketing Channels] Regeln
+description: Erfahren Sie, wie Sie mit Adobe Advertising-IDs Verarbeitungsregeln für [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# Erstellen von Adobe Advertising-IDs mit [!DNL Marketing Channels] Verarbeitungsregeln
+# Erstellen von Adobe Advertising-IDs [!DNL Marketing Channels] Verarbeitungsregeln
 
-*Werbetreibende mit nur einer Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
-Sie können Adobe Advertising IDs ([AMO-ID und EF ID](../ids.md)) zum Konfigurieren [!DNL Marketing Channels] Verarbeitungsregeln in Adobe Analytics. Verwenden Sie Adobe Advertising IDs für Regeln, die für Ihre Adobe Advertising-Kampagnen spezifisch sind.
+Sie können Adobe Advertising-IDs ([AMO-ID und EF ID](../ids.md)) zum Konfigurieren [!DNL Marketing Channels] Verarbeitungsregeln in Adobe Analytics. Verwenden Sie Adobe Advertising-IDs für Regeln, die für Ihre Adobe Advertising-Kampagnen spezifisch sind.
 
 ## AMO-ID in Verarbeitungsregeln
 
-Die AMO-ID ist der primäre Trackingcode, mit dem Adobe Advertising-Daten in [!DNL Analytics]. Die AMO-ID ist eine Verkettung von dynamischen Werten, die von Adobe verwaltet werden, um eine detaillierte Berichterstellung innerhalb von [!DNL Analytics]. Sie wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder rVar-Dimension (AMO-ID). Die AMO-ID kann in [!DNL Analytics] auf zwei Arten:
+Die AMO-ID ist der primäre Trackingcode, der verwendet wird, um Adobe Advertising-Daten in [!DNL Analytics]. Die AMO-ID ist eine Verkettung von dynamischen Werten, die von Adobe verwaltet werden, um eine detaillierte Berichterstellung innerhalb von [!DNL Analytics]. Sie wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder rVar-Dimension (AMO-ID). Die AMO-ID kann in [!DNL Analytics] auf zwei Arten:
 
-* Clickthrough-Tracking: Adobe Advertising setzt die `s_kwcid` Abfragezeichenfolgenparameter in einem Link und [!DNL Analytics] Ruft den Parameter aus der Landingpage-URL ab, wenn ein Clickthrough erfolgt.
+* Clickthrough-Tracking: Adobe Advertising legt die `s_kwcid` Abfragezeichenfolgenparameter in einem Link und [!DNL Analytics] Ruft den Parameter aus der Landingpage-URL ab, wenn ein Clickthrough erfolgt.
 * Durchsichts-Tracking ([!DNL DSP] Nur): Der letzte Ereignisdienst erkennt eine Durchsicht auf der Serverseite und sendet die AMO-ID an [!DNL Analytics]. In diesem Fall enthält die URL keine `s_kwcid` Parameter.
 
 Die dynamischen Werte in AMO-IDs geben den verfolgten Marketing-Kanal an:
@@ -33,7 +33,7 @@ Die dynamischen Werte in AMO-IDs geben den verfolgten Marketing-Kanal an:
 
 Der Rest der AMO-ID kann ignoriert werden.
 
-| AMO-ID | Kanal | Regellogik |
+| [!UICONTROL AMO ID] | Kanal | Regellogik |
 |--------|---------|--------------------|
 | AL! (Präfix) | [!UICONTROL Paid Search] | Beginnt mit |
 | AC! (Präfix) | [!UICONTROL DSP] | Beginnt mit |
@@ -62,7 +62,7 @@ Die [!DNL Marketing Channels] Verarbeitungsregel für [!UICONTROL YouTube Video 
 
 ## Die EF ID in den Verarbeitungsregeln
 
-Die AMO EF ID (EF ID) ist der zweite Trackingcode, der im [!DNL Analytics for Advertising] Integration. Ihr Hauptzweck besteht darin, zu verfolgen und weiterzugeben [!DNL Analytics] Ereignisdaten in die Adobe Advertising. Jedes Mal, wenn ein Clickthrough oder eine Durchsicht erfolgt, wird eine eindeutige EF-ID generiert, auch wenn es sich um genau dieselbe Anzeige für denselben Besucher handelt. Die EF ID wird nicht in der [!DNL Analytics] Reporting-Benutzeroberfläche, da sie in der Regel die Grenze von 500.000 individuellen Werten pro Variable in [!DNL Analytics], wodurch sie für Berichte unbrauchbar wird. Die Adobe Advertising-Metriken und -Metadaten werden nicht auf die EF ID angewendet. werden nur auf die AMO-ID angewendet. Die zusätzliche Granularität des Trackings ist für die Kampagnenoptimierung in der Adobe Advertising erforderlich, sodass beide IDs erforderlich sind.
+Die AMO EF ID (EF ID) ist der zweite Trackingcode, der im [!DNL Analytics for Advertising] Integration. Ihr Hauptzweck besteht darin, zu verfolgen und weiterzugeben [!DNL Analytics] Ereignisdaten in Adobe Advertising. Jedes Mal, wenn ein Clickthrough oder eine Durchsicht erfolgt, wird eine eindeutige EF-ID generiert, auch wenn es sich um genau dieselbe Anzeige für denselben Besucher handelt. Die EF ID wird nicht in der [!DNL Analytics] Reporting-Benutzeroberfläche, da sie in der Regel die Grenze von 500.000 individuellen Werten pro Variable in [!DNL Analytics], wodurch sie für Berichte unbrauchbar wird. Die Adobe Advertising-Metriken und -Metadaten werden nicht auf die EF ID angewendet. werden nur auf die AMO-ID angewendet. Die zusätzliche Granularität des Trackings ist für die Kampagnenoptimierung in Adobe Advertising erforderlich, sodass beide IDs erforderlich sind.
 
 Obwohl die EF ID-Dimension nicht direkt in verwendet wird [!DNL Analytics] Berichterstellung verwenden, kann die EF ID bei der Erstellung von Marketingkanälen hilfreich sein. Das EF ID-Suffix zeigt den Kanal (Anzeige oder Suche) an und ob der Besuch durch einen Clickthrough oder eine Durchsicht gesteuert wurde. Das Trennzeichen in der EF ID ist ein Doppelpunkt und nicht der Ausrufezeichen in der AMO-ID.
 
@@ -93,6 +93,5 @@ Um einen Durchsichtskanal für die Anzeige zu erstellen, erstellen Sie eine Rege
 >* [Grundlagen [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Warum können Kanaldaten zwischen Adobe Advertising und [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Verwenden [!DNL Analytics Marketing Channels] mit Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden [!DNL Marketing Channels] für Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [Von [!DNL Analytics]](/help/integrations/analytics/ids.md)
-
+>* [Video: Verwenden [!DNL Marketing Channels] für Adobe Advertising-Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md)
