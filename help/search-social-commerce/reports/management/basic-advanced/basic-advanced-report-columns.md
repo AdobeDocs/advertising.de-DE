@@ -1,7 +1,8 @@
 ---
 title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -92,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) Der Domänenname, von dem die Klicks stammen. |
 | [!UICONTROL eCPM] | Der effektive CPM oder die durchschnittlichen Kosten pro 1000 Impressionen in einem bestimmten Datumsbereich. eCPM-Werte werden für CPM- oder CPC-Kampagnen berechnet. |
 | [!UICONTROL EF Campaign ID] | Die numerische ID, die Search, Social und Commerce der Kampagne zuweisen. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Werbetreibende mit dem Adobe Advertising-Konversions-Tracking-Dienst und dem[!UICONTROL EF Redirect]&quot;Tracking-Methode mit einem Token) Das Token für den Klick oder die Konversion.<ul><li>Für [!DNL Google Ads] Suchanzeigen, lautet die EF ID . `{gclid}:G:s`, der die Google-Klick-ID (GCLID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li> Für [!DNL Microsoft Advertising] Suchanzeigen, lautet die EF ID . `{msclkid}:G:s`, der die Microsoft-Klick-ID (MSCLKID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li>Bei Suchanzeigen in anderen Werbenetzwerken enthält die EF ID die Surfer-ID, Klickzeit und Netzwerktyp.</li><li>Bei Display-Anzeigen umfasst die EF ID die Surfer-ID, die Klick- oder Impressionszeit und den Netzwerktyp.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Werbetreibende mit dem Adobe Advertising Conversion-Tracking-Dienst und dem[!UICONTROL EF Redirect]&quot;Tracking-Methode mit einem Token) Das Token für den Klick oder die Konversion.<ul><li>Für [!DNL Google Ads] Suchanzeigen, lautet die EF ID . `{gclid}:G:s`, der die Google-Klick-ID (GCLID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li> Für [!DNL Microsoft Advertising] Suchanzeigen, lautet die EF ID . `{msclkid}:G:s`, der die Microsoft-Klick-ID (MSCLKID) und den Netzwerktyp (&quot;s&quot; für die Suche) enthält.</li><li>Bei Suchanzeigen in anderen Werbenetzwerken enthält die EF ID die Surfer-ID, Klickzeit und Netzwerktyp.</li><li>Bei Display-Anzeigen umfasst die EF ID die Surfer-ID, die Klick- oder Impressionszeit und den Netzwerktyp.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; nur für Suche, Social und Commerce) Eine interne ID für den geografischen Standort, mit der Daten normalisiert werden. |
 | [!UICONTROL EF Portfolio Group ID] | Die numerische ID für die Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist:  <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL Baidu], <i>[!UICONTROL 90]</i> für [!DNL Yandex], <i>[!UICONTROL 94]</i> für [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (veraltet) oder <i>[!UICONTROL 106]</i> für [!DNL Pinterest] (nicht mehr unterstützt). |
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) Die Kennung des Benutzers, der die Transaktion abgeschlossen hat. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Ansichten, die die Anzeige vollständig angesehen haben. |
 | [!UICONTROL Top of Page CPC] | (Nur Google-Kampagnen) Die Kosten pro Klick (CPC) für Anzeigen, die während des angegebenen Datumsbereichs oben auf den Suchergebnisseiten angezeigt werden. |
-| [!UICONTROL Tracking URL] | (Nur Suchzielgruppen-Suchbegriffe) Die Tracking-Vorlage oder die Ziel-URL, die in den Trackingcode &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;eingebettet ist (falls zutreffend). |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Die werbespezifische Transaktionseigenschaft, der die Transaktion gutgeschrieben wird. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Der Zeitpunkt, zu dem die angegebene Transaktionseigenschaft gutgeschrieben wurde. |
-| [!UICONTROL User Account Type] | Obsolete |
-| [!UICONTROL User SE Account ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] Anzeigen) Die durchschnittliche Zeit, zu der ein Video wiedergegeben wurde, einschließlich der Zeit, die mit der Wiederholung des Videos verbracht wurde, um eine einzige Impression zu erhalten. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Wiedergaben Ihres Videos, ausgenommen Wiedergaben. |
-| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]und [!UICONTROL VideoQuartile100Rate] | (Videoanzeigen) Der Prozentsatz der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. |
-| [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). |
-| [!UICONTROL Views] | (Videoanzeigen) Die Häufigkeit, mit der die Besucher Ihre Anzeige angesehen oder mit ihr interagiert haben. |
-| [!UICONTROL ViewThroughConversions] | (Anzeigen im Zielgruppennetzwerk) Die Anzahl der Konversionen, die aus einem oder mehreren Impressionen ohne Klicks resultierten. |
+
+| [!UICONTROL Tracking URL] | (Nur Suchzielgruppen-Suchbegriffe) Die Tracking-Vorlage oder die Ziel-URL, die in den Trackingcode &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;eingebettet ist (falls zutreffend). | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Die werbespezifische Transaktionseigenschaft, der die Transaktion gutgeschrieben wird. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Der Zeitpunkt, zu dem die angegebene Transaktionseigenschaft gutgeschrieben wurde. | | [!UICONTROL User Account Type] | veraltet | | [!UICONTROL User SE Account ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] Anzeigen) Die durchschnittliche Zeit, zu der ein Video wiedergegeben wurde, einschließlich der Zeit, die mit der Wiederholung des Videos verbracht wurde, um eine einzige Impression zu erhalten. | | [!UICONTROL Video Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Wiedergaben Ihres Videos, ausgenommen Wiedergaben. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]und [!UICONTROL VideoQuartile100Rate] | (Videoanzeigen) Der Prozentsatz der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. | | [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). | | [!UICONTROL Views] | (Videoanzeigen) Die Anzahl der Wiedergaben oder Interaktionen von Personen mit Ihrer Anzeige. | | [!UICONTROL ViewThroughConversions] | (Anzeigen im Zielgruppennetzwerk) Die Anzahl der Konversionen, die aus einem oder mehreren Impressionen ohne Klicks resultierten. |
 
 <table style="table-layout:auto">
 

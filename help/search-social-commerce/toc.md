@@ -8,9 +8,9 @@ user-guide-title: Advertising Search, Social & Commerce-Anleitung
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für die Verwaltung, Verfolgung und Berichterstellung Ihrer Such-, Social- und Commerce-Werbekampagnen erforderlich sind.
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: true
-source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
+source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -314,6 +314,9 @@ ht-degree: 0%
                + [Die [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
                + [Die [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [Die [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+               + [Die [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
+               + [Die [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+               + [Die [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
             + [Einen Spezialbericht erstellen](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Berichtsspalten für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
