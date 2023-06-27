@@ -2,9 +2,9 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Die Anzahl der Anzeigenimpressionen im angegebenen Datumsbereich. |
 | [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</b> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
 | [!UICONTROL Keyword ID] | Die numerische ID, die Search, Social und Commerce dem Suchbegriff zuweisen. |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Die vom Anzeigennetzwerk zugewiesene ID der Anzeigenerweiterung. |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Die vom Anzeigennetzwerk zugewiesene ID der Anzeigenerweiterung. |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Die numerische ID, die das Werbenetzwerk der Anzeigenerweiterung zuweist. |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Das Versionsattribut für die Anzeigenerweiterung. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Der Anzeigenerweiterungstyp. |
 | [!UICONTROL Keyword Status] | Der Status des Suchbegriffs, mit dem der Suchbegriff übereinstimmt: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*oder[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Die Zielsprache. |
