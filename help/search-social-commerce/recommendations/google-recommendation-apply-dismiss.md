@@ -1,9 +1,10 @@
 ---
 title: Anwenden oder Verwerfen eines [!DNL Google Ads] Empfehlung
 description: Erfahren Sie, wie Sie eine [!DNL Google Ads] Empfehlung und wie die Empfehlung angewendet oder abgelehnt werden kann.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ Sehen Sie sich die empfohlenen Aktionen an und erläutern Sie, warum die Aktione
 
    * Um eine Empfehlung anzuwenden, klicken Sie auf **[!UICONTROL Apply]**.
 
-      Das Anwenden einer Empfehlung kann je nach Größe der Empfehlung zwischen Millisekunden und einigen Sekunden dauern.
+     Das Anwenden einer Empfehlung kann je nach Größe der Empfehlung zwischen Millisekunden und einigen Sekunden dauern.
 
    * Um eine Empfehlung zu verwerfen, klicken Sie auf **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](recommendation-support.md)
+>* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
 >* [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios](recommendation-best-practices.md)
-

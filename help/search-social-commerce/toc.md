@@ -1,23 +1,19 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
-archetype: end-user
+role: User
 user-guide-title: Advertising Search, Social & Commerce-Anleitung
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für die Verwaltung, Verfolgung und Berichterstellung Ihrer Such-, Social- und Commerce-Werbekampagnen erforderlich sind.
 breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
 index: true
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
 
 # Advertising Search, Social &amp; Commerce-Anleitung {#search-social-commerce}
 
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
+<!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
 + [Neue Funktionen](home.md)
 + [Informationen zu diesem Handbuch](help-about.md)
@@ -372,8 +368,9 @@ ht-degree: 0%
    + [Anzeigen des Verlaufsberichts](/help/search-social-commerce/reports/change-history-view.md)
    + Einblicke in Recommendations und Publisher {#recommendations}
       + [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [Anwenden oder Verwerfen eines [!DNL Google Ads] Empfehlung](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Instrumente {#tools}
    + [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
