@@ -1,7 +1,9 @@
 ---
 title: Verfügbar [!DNL Google Analytics] Metriken
 description: Verweisen Sie auf [!DNL Google Analytics] Metriken, die für Datenquellen verfügbar sind.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -42,4 +44,3 @@ Die folgenden Metriken sind verfügbar, mit Ausnahme der aufgeführten Ausnahmen
 >* [Synchronisierung einer Datenquelle anhalten](data-source-pause.md)
 >* [Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
-

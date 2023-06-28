@@ -1,8 +1,9 @@
 ---
 title: Eine Liste mit blockierten Sites auf Kontoebene oder Advertiser-Ebene bearbeiten
 description: Erfahren Sie, wie Sie die Liste der gesperrten Sites für ein Konto oder einen Advertiser verwalten.
+role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -26,6 +27,7 @@ ht-degree: 0%
       1. (Wenn ein Wert als ungültig identifiziert wurde) Klicken Sie auf die Schaltfläche **Einfügen in Sites und Apps** , korrigieren Sie die Werte und klicken Sie auf **Weiter**.
 
       1. Klicken **Beenden**.
+
    * (Optional) Um einen oder mehrere Werte zu löschen, führen Sie einen der folgenden Schritte aus:
 
       * Um alle Werte zu entfernen, klicken Sie auf **Alle löschen**. Klicken Sie in der Bestätigungsnachricht auf **OK**.
@@ -33,13 +35,11 @@ ht-degree: 0%
       * Um einen oder mehrere Werte zu entfernen, aktivieren Sie das Kontrollkästchen neben jedem und klicken Sie auf **Ausgewählte löschen**.
 
       * Um einzelne Werte zu entfernen, klicken Sie auf **X** neben dem Wert.
+
    * (Optional) Um die Liste in eine Microsoft Excel-Tabelle im CSV-Format (CSV) zu exportieren, klicken Sie auf **Export**.
-
-
 
 >[!MORELIKETHIS]
 >
 >* [Über Listen auf Kontoebene und auf Advertiser-Ebene für blockierte Sites](/help/dsp/admin/blocked-sites-list-about.md)
-   > [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-

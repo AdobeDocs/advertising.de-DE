@@ -1,7 +1,9 @@
 ---
 title: Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle
 description: Erfahren Sie, wie Sie eine [!DNL Google Analytics] Datenquelle, wenn Sie das zugehörige Kennwort ändern oder das Zertifikat abläuft.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle v
          >[!TIP]
          >
          >So stellen Sie sicher, dass nur bestimmte [!DNL Google Analytics] -Eigenschaften und -Ansichten in Search, Social und Commerce verfügbar sind, melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
+
    1. Aktivieren Sie das Kontrollkästchen, um Search, Social und Commerce zu autorisieren, auf Metriken für das Konto zuzugreifen.
 
    1. Klicken **[!UICONTROL Re-Authenticate]**.
-
 
 1. Klicken **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle v
 >* [Synchronisierung einer Datenquelle anhalten](data-source-pause.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
 >* [Anhang - Verfügbar [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
-

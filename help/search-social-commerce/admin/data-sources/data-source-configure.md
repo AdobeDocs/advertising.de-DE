@@ -1,7 +1,9 @@
 ---
 title: Konfigurieren Sie eine [!DNL Google Analytics] als Datenquelle anzeigen
 description: Erfahren Sie, wie Sie eine Datenquelle über eine [!DNL Google Analytics] anzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -42,9 +44,10 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
          >
          >Wenn Sie später das Kennwort für dieses E-Mail-Konto ändern, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen. Kehren Sie zur Wiederaufnahme der Synchronisierung von Daten zu dieser Seite zurück und [reauthenticate](data-source-reauthenticate.md).
 
-      1. Aktivieren Sie das Kontrollkästchen, um Adobe Advertising für den Zugriff auf Metriken für das Konto zu autorisieren.
+      1. Aktivieren Sie das Kontrollkästchen, um den Adobe Advertising für den Zugriff auf Metriken für das Konto zu autorisieren.
 
       1. Klicken **[!UICONTROL Authenticate]**.
+
    1. Im [!UICONTROL Account Details] -Abschnitt die Eigenschaft und Ansicht für die zu importierenden Metriken angeben. Geben Sie außerdem die benutzerdefinierte Dimension an, die mit dem Wert des Abfragezeichenfolgenparameters &quot;ef_id&quot;gefüllt wird.
 
    1. Im [!UICONTROL Import Metrics] geben Sie die Metriken an, die in die Feeds aufgenommen werden sollen.
@@ -56,7 +59,6 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
       >[!DNL Google Analytics] erlaubt bis zu 10 Metriken in einem einzigen Daten-Feed. Search, Social und Commerce können bis zu zwei Feeds mit insgesamt 20 Metriken unterstützen. Die Verwendung eines zweiten Feeds verdoppelt jedoch Ihre API-Aufrufe auf [!DNL Google Analytics]. Wenn Sie viele Metriken haben, wählen Sie nur die Metriken aus, die Sie zur Optimierung in Zielen verwenden möchten. Weitere Informationen [Kontingente und Aufrufbeschränkungen für API-Anfragen an [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. Im [!UICONTROL Metric Tag] geben Sie den Namen des Tags ein, das an jede Metrik für die Datenquelle angehängt werden soll.
-
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 >* [Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
 >* [Anhang - Verfügbar [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
-

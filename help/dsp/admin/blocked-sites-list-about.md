@@ -1,8 +1,9 @@
 ---
 title: Über Listen auf Kontoebene und auf Advertiser-Ebene für blockierte Sites
 description: Erfahren Sie mehr über die Liste der blockierten Sites für ein Konto oder einen Advertiser.
+role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -23,10 +24,8 @@ Listen auf Advertiser-Ebene überschreiben Listen auf Kontoebene.
 >* Benutzer können auch Targeting-Sites zu jeder Platzierung hinzufügen.
 >* Listen blockierter Sites überschreiben immer Listen zielgerichteter Sites. Wenn durch eine Platzierung dieselbe Zielgruppe für eine Anzeige ausgeschlossen und einbezogen wird, wird die Zielgruppe ausgeschlossen.
 
-
 >[!MORELIKETHIS]
 >
 >* [Eine Liste mit blockierten Sites auf Kontoebene oder Advertiser-Ebene bearbeiten](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-

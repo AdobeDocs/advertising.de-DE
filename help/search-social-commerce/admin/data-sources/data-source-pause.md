@@ -1,7 +1,9 @@
 ---
 title: Synchronisierung einer Datenquelle anhalten
 description: Erfahren Sie, wie Sie eine Datenquelle anhalten, um die Synchronisierung zu beenden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *Agentenadministratoren (Basisrolle), Adobe Account Manager und nur Administratoren*
 
-Durch Anhalten einer Datenquelle wird die künftige Synchronisierung mit der Datenquelle beendet. Wenn der Feed derzeit synchronisiert wird, wird der Prozess zuerst abgeschlossen, sodass die Daten in Adobe Advertising aktuell sind.
+Durch Anhalten einer Datenquelle wird die künftige Synchronisierung mit der Datenquelle beendet. Wenn der Feed derzeit synchronisiert wird, wird der Prozess zuerst abgeschlossen, sodass die Daten im Adobe Advertising aktuell sind.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -31,4 +33,3 @@ Durch Anhalten einer Datenquelle wird die künftige Synchronisierung mit der Dat
 >* [Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
 >* [Anhang - Verfügbar [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
-

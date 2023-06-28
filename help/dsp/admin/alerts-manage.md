@@ -1,8 +1,9 @@
 ---
 title: Verwalten von Warnungsanmeldungen
 description: Erfahren Sie, wie Sie automatische E-Mail-Warnungen verwalten.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Um Abonnenten zu einem Abonnement hinzuzufügen, geben Sie die E-Mail-Adressen in das Eingabefeld unter **[!UICONTROL Subscribers]**.
 
-   Trennen Sie mehrere Adressen durch Leerzeichen.
+  Trennen Sie mehrere Adressen durch Leerzeichen.
 
 * Um Abonnenten eines Abonnements zu entfernen, klicken Sie auf **[!UICONTROL X]** neben der E-Mail-Adresse unter **[!UICONTROL Subscribers]**.
 

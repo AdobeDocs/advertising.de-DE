@@ -1,7 +1,9 @@
 ---
 title: Über die Synchronisierung [!DNL Google Analytics] Konversionsmetriken
 description: Informationen zur Synchronisierung [!DNL Google Analytics] Konversionsmetriken zur Optimierung und Berichterstellung.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -41,4 +43,3 @@ Die folgenden Schritte beschreiben den Prozess der Synchronisierung von Konversi
 >* [Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
 >* [Anhang - Verfügbar [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
-
