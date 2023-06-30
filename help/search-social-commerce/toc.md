@@ -1,17 +1,17 @@
 ---
 role: User
-user-guide-title: Advertising Search, Social & Commerce-Anleitung
-user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für die Verwaltung, Verfolgung und Berichterstellung Ihrer Such-, Social- und Commerce-Werbekampagnen erforderlich sind.
-breadcrumb-title: Advertising Search, Social & Commerce-Anleitung
+user-guide-title: Handbuch für Advertising Search, Social und Commerce
+user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
+breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
 source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Advertising Search, Social &amp; Commerce-Anleitung {#search-social-commerce}
+# Handbuch für Advertising Search, Social und Commerce {#search-social-commerce}
 
 <!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
