@@ -1,7 +1,7 @@
 ---
 title: '''[!DNL Microsoft Advertising] Konversionsdaten"'
 description: Erfahren Sie mehr über die Typen [!DNL Microsoft Advertising]-getrackte Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -80,4 +80,4 @@ Verwenden Sie in Search, Social und Commerce die Ansicht- oder Berichtsoption, u
 >
 >* [Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kampagnen](campaign-implemention-overview.md)
 >* [Überwachen und verwalten Sie die Leistung Ihrer Werbenetzwerk-Kampagnen.](monitor-performance-campaigns.md)
->* [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
