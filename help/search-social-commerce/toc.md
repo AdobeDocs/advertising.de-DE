@@ -4,10 +4,10 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Effektive Textanzeigenkopie schreiben](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Landingpages der Website optimieren](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + Verwalten von Anzeigen-Assets {#assets}
+      + [Über die [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Maximale Anzahl von Objekten pro Anzeigennetzwerkkonto](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Einblicke und Berichte {#insights-reports}

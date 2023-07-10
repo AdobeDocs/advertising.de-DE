@@ -1,9 +1,9 @@
 ---
 title: Erstellen und Hochladen von Assets
 description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] Asset-Bibliothek auf Kontoebene.
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       Sie können bis zu 10 Video-URLs gleichzeitig posten.
 
-      * Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.&lt;!— Welches Werbekopierelement — Überschrift, Kurzbeschreibung, Langbeschreibung? Kein Ort, um Element auszuwählen. —>
+      * Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.
 
       Jedes Textelement kann maximal 1000 Zeichen enthalten. Sie können maximal zehn Text-Assets gleichzeitig hochladen.
 
+      Sie können die Text-Assets später für beliebige Anzeigenelemente Ihrer Wahl verwenden (z. B. Überschriften oder Kurzbeschreibungen), sofern sie die Zeichenbeschränkungen für dieses Anzeigenelement erfüllen.
+
 1. Klicken **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[Über die [!UICONTROL Asset Library]](asset-library-about.md)
