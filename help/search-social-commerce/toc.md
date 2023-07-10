@@ -4,10 +4,10 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
+source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1737'
+ht-degree: 2%
 
 ---
 
@@ -250,13 +250,13 @@ ht-degree: 0%
       + [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Löschen von Bezeichnungsklassifizierungswerten](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Beschriftungsklassifizierungen löschen](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
+   + Verwalten von Anzeigen-Assets {#assets}
+      + [Über die [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + Best Practices für Suchkampagnen {#best-practices-search}
       + [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Effektive Textanzeigenkopie schreiben](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Landingpages der Website optimieren](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
-   + Verwalten von Anzeigen-Assets {#assets}
-      + [Über die [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Maximale Anzahl von Objekten pro Anzeigennetzwerkkonto](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Einblicke und Berichte {#insights-reports}
