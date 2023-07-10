@@ -1,9 +1,9 @@
 ---
 title: "Über die [!UICONTROL Asset Library]"
 description: Erfahren Sie mehr über die Asset-Bibliothek für Ihre Anzeigen-Assets.
-source-git-commit: 2b47ad8422a505a85f43d5954dc9a5bdd1242e57
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sie können Ihre Assets für Anzeigen verwenden, wenn Sie Kampagnen mit der [!DN
 
 >[!MORELIKETHIS]
 >
->*[Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
