@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [Über die Kampagnenverwaltung in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kampagnen](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Überwachen und verwalten Sie die Leistung Ihrer Werbenetzwerk-Kampagnen.](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Google Ads-Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Einrichten von Konten {#campaign-management-accounts}
       + Anzeigennetzwerkkonten {#ad-network-accounts}
          + [Über Werbenetzkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
