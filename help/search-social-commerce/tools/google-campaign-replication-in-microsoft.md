@@ -1,9 +1,10 @@
 ---
 title: Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 description: Erfahren Sie, wie Sie Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] -Konto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Sie können die folgenden Kampagnentypen und deren Kampagnenstruktur replizieren
 
 * [!DNL Google Display Network] Kampagnen, einschließlich Anzeigenbilder, in [!DNL Microsoft® Advertising] Zielgruppenkampagnen im Microsoft® Zielgruppen-Netzwerk.
 
-   Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, replizieren Sie zunächst Ihre [!DNL Google Merchant Center] Produktangebote an [!DNL Microsoft® Merchant Center]. Wenn Sie die Kampagnen replizieren, wählen Sie die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
+  Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, replizieren Sie zunächst Ihre [!DNL Google Merchant Center] Produktangebote an [!DNL Microsoft® Merchant Center]. Wenn Sie die Kampagnen replizieren, wählen Sie die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
 
 * [!DNL Google Ads] Leistungsmax-Kampagnen, einschließlich lokaler Inventaranzeigen in [!DNL Microsoft® Advertising] intelligente Einkaufskampagnen.
 
@@ -58,7 +59,7 @@ Siehe [Was wird importiert von [!DNL Google Ads] Kampagnen](https://help.ads.mic
 
 1. (Optional) Fügen Sie das Tracking für Suche, Social und Commerce innerhalb der [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) -Einstellungen.
 
-## Details für einen Kampagnenimportauftrag bearbeiten
+## Planeinstellungen für einen Kampagnenimportauftrag bearbeiten
 
 Siehe [Was wird importiert von [!DNL Google Ads] Kampagnen](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Siehe [Was wird importiert von [!DNL Google Ads] Kampagnen](https://help.ads.mic
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Importauftrag und klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [Importeinstellungen](#campaign-import-settings).
-
-   1. Im **[!UICONTROL Select accounts]** Wählen Sie die Quell- und Zielkonten sowie die Berechtigungs-ID aus, die [!DNL Microsoft® Advertising] erforderlich.
-
-   1. Im **[!UICONTROL Select campaigns & ad groups]** die zu importierenden Kampagnen und Anzeigengruppen.
-
-   1. Im **[!UICONTROL Customize your import]** angeben, geben Sie die zu importierenden Elementtypen an.
-
-   1. Im **[!UICONTROL Set schedule]** angeben, wann der Importauftrag ausgeführt werden soll.
+1. Im **[!UICONTROL Set schedule]** -Abschnitt, geben Sie die [Zeitplaneinstellungen](#campaign-import-settings).
 
 1. Klicken **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Sie können alle Importvorgänge einschließlich der Quelle auflisten [!DNL Goog
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      Standardmäßig öffnet sich die Ansicht im [!UICONTROL List of Import Jobs] Registerkarte.
+     Standardmäßig öffnet sich die Ansicht im [!UICONTROL List of Import Jobs] Registerkarte.
 
    * Aus dem [[!UICONTROL Import Logs] tab](#campaign-import-log), klicken Sie auf die **[!UICONTROL List of Import Jobs]** Registerkarte.
 
