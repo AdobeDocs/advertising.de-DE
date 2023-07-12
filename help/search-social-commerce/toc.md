@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -122,19 +122,19 @@ ht-degree: 2%
          + Kampagnen {#campaigns}
             + [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + Kampagneneinstellungen nach Werbenetzwerk {#campaign-settings-by-network}
-               + [Baidu-Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Kampagneneinstellungen für Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Microsoft Advertising-Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Yahoo! Kampagneneinstellungen für Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Yandex-Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + Anzeigengruppen {#ad-groups}
             + [Verwalten von Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + Anzeigengruppeneinstellungen nach Anzeigennetzwerk {#ad-group-settings-by-network}
-               + [Baidu-Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Anzeigengruppeneinstellungen für Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Einstellungen für Microsoft Advertising-Gruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Yahoo! Anzeigengruppeneinstellungen für Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Yandex-Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Schlüsselwörter {#keywords}
             + [Über Suchbegriffe](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [Bietbare Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

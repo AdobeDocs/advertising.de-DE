@@ -2,9 +2,9 @@
 title: Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 description: Erfahren Sie, wie Sie Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] -Konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ Nicht alle Kampagneninformationen werden repliziert, und Sie müssen möglicherw
 
 Siehe [Was wird importiert von [!DNL Google Ads] Kampagnen](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Importberechtigungs-ID abrufen aus [!DNL Microsoft® Advertising] , um [!DNL Google Ads] Anmeldedaten.
-
-   Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von nicht verfügbar. [!DNL Microsoft® Advertising] API-Einschränkungen. Wenden Sie sich an den technischen Support von Adobe oder an Ihr Adobe Account-Team. Diese generieren die Anmeldeinformationen und geben Sie die Kennung an.
-
-   Sie müssen über die ID verfügen, um den Importauftrag zu konfigurieren.
-
 1. Klicken Sie im Hauptmenü &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Klicken **[!UICONTROL +Import]**.
 
 1. Geben Sie die [Importeinstellungen](#campaign-import-settings):
 
-   1. Im **[!UICONTROL Select accounts]** Wählen Sie die Quell- und Zielkonten sowie die Berechtigungs-ID aus, die [!DNL Microsoft® Advertising] erforderlich.
+   1. Im **[!UICONTROL Select accounts]** Abschnitt:
+
+      1. Wählen Sie die Quell- und Zielkonten aus.
+
+      1. Klicken **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. Bei Ziel anmelden [!DNL Microsoft Advertising] -Konto, kopieren Sie die angezeigte Berechtigungs-ID und fügen Sie den Wert in die **[!UICONTROL Credential ID]** -Feld.
 
    1. Im **[!UICONTROL Select campaigns & ad groups]** die zu importierenden Kampagnen und Anzeigengruppen.
 
