@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,47 @@ Siehe[Analytics-Metriken in Adobe Advertising](analytics-data-in-advertising.md)
 
 Adobe Advertising kann aufnehmen [!DNL Analytics] Segmente für Remarketing-Zwecke für Advertising DSP und [!DNL Search, Social, & Commerce] Anzeigen, die die native Experience Cloud-Zielgruppenintegration zwischen [!DNL Analytics] und Experience Cloud.
 
-So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto über die [Experience Cloud-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiviert. Wenn der ID-Dienst aktiviert ist, werden alle Segmentsegmente (einschließlich der in [!DNL Analytics] und in Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, in Experience Cloud erstellte Segmente mithilfe der Variablen [!DNL People core service], und Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet wurden) werden in der Adobe Advertising verfügbar, sobald sie verarbeitet werden.
+So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto über die [Experience Cloud-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiviert. Wenn der ID-Dienst aktiviert ist, werden alle Segmentsegmente (einschließlich der in [!DNL Analytics] und in Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, in Experience Cloud erstellte Segmente mithilfe der Variablen [!DNL People core service]und Segmente, die in Adobe Experience Platform erstellt und über den Audience Manager an den Adobe Advertising gesendet wurden) in Adobe Advertising verfügbar werden, sobald sie verarbeitet werden.
 
 [!DNL Analytics] -Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 
 Weitere Informationen zum Experience Cloud Audiences-Dienst finden Sie unter [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## Beispiele zur Verwendung der Integration
+## Beispiele zur Verwendung der Integration {#integration-examples}
 
 ### Verwenden von Adobe Advertising-Daten in Analysis Workspace
 
 Informationen dazu, wie Sie mit Ihren Adobe Advertising-Daten visuelle Berichte in Analysis Workspace erstellen können, finden Sie im Video &quot;[Einführung in Workspace und Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+
+#### Verwenden von Connected TV-Durchsichtskonversionen in Berichten
+
+*Nur Advertising DSP Benutzer*
+
+Sie können die Volltrichter-Effektivität Ihrer verbundenen TV-Kampagnen (CTV) messen, indem Sie die Anzeige auf CTV-Geräten mit Konversionen vor Ort verknüpfen. Um Ihre CTV-Durchsichts-Konversionsmetriken anzuzeigen, verwenden Sie entweder die Platzierungsansicht oder die Marketingkanal-Ansicht in Analysis Workspace.
+
+Verwenden der Platzierungsansicht:
+
+1. Schließen Sie CTV-Ausgaben-Platzierungen in die Berichtsansicht ein.
+
+1. Schließen Sie die gewünschten Metriken ein, z. B. &quot;Impressionen&quot;, &quot;Klicks&quot; usw.
+
+1. Wenden Sie die folgenden Filter an:
+
+   Anzeigenplattform: `Advertising Cloud DSP`
+
+   Landingpage: `View-Through (CTV)`
+
+Verwenden der Marketingkanal-Ansicht:
+
+1. Dimension einschließen `Marketing Channel`.
+
+1. Schließen Sie die gewünschten Metriken ein, z. B. &quot;Impressionen&quot;, &quot;Klicks&quot; usw.
+
+1. Wenden Sie die folgenden Filter an:
+
+   Anzeigenplattform: `Advertising Cloud DSP`
+
+   Landingpage: `View-Through (CTV)`
 
 ### Erstellen von Adobe Advertising-Dashboards
 
