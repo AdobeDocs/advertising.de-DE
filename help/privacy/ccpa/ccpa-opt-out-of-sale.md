@@ -1,18 +1,19 @@
 ---
-title: 'Adobe Advertising-Unterstützung für den California Consumer Privacy Act : Unterstützung für Opt-out-of-Sale für Verbraucher'
+title: 'Unterstützung der Adobe Advertising für den California Consumer Privacy Act : Unterstützung für Opt-out-of-Sale für Verbraucher'
 description: Erfahren Sie mehr über die Unterstützung für die Erfassung von Opt-out-Anfragen von Verbrauchern.
 feature: CCPA
+role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Support für den California Consumer Privacy Act: Abmeldung von der Verkaufsunterstützung durch Verbraucher
+# Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Abmeldung von der Verkaufsunterstützung durch Verbraucher
 
-*Für Adobe Advertising Demand Side Platform (DSP)*
+*Für Adobe Advertising-Demand Side Platform (DSP)*
 
 >[!IMPORTANT]
 >
@@ -22,15 +23,15 @@ Der California Consumer Privacy Act (CCPA) ist das neue kalifornische Datenschut
 
 Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-Als Dienstleister unterstützt Adobe Advertising Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von Adobe Advertising-Produkten und -Dienstleistungen gelten. Dazu gehört die Verwaltung von Anfragen von  zum Zugriff auf und zur Löschung personenbezogener Daten sowie die Verwaltung von Anfragen von Verbrauchern, sich vom Verkauf personenbezogener Daten abzumelden.
+Als Ihr Dienstleister unterstützt Adobe Advertising Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von Adobe Advertising-Produkten und -Dienstleistungen gelten, einschließlich der Verwaltung von Verbraucheranfragen für den Zugriff auf und die Löschung personenbezogener Daten und der Verwaltung von Verbraucheranfragen, mit denen der Verkauf personenbezogener Daten abgelehnt werden soll.
 
-In diesem Dokument wird beschrieben, wie Adobe Advertising Demand Side Platform (DSP) als Dienstleister das Verbraucherrecht unterstützt, sich vom &quot;Verkauf&quot;von &quot;personenbezogenen Daten&quot;abzumelden, da jeder Begriff vom CCPA definiert wird. Er enthält Informationen dazu, wie Sie Opt-out-Kaufanfragen an Adobe Advertising weiterleiten und wie Sie Berichte über die Opt-out-Kaufanfragen Ihres Unternehmens abrufen können.
+In diesem Dokument wird beschrieben, wie die Adobe Advertising Demand Side Platform (DSP) als Dienstleister das Verbraucherrecht unterstützt, sich vom &quot;Verkauf&quot;von &quot;personenbezogenen Daten&quot;abzumelden, da jeder Begriff vom CCPA definiert wird. Er enthält Informationen dazu, wie Sie Adobe Advertisingen Opt-out-Kaufanfragen mitteilen und Berichte zu den Opt-out-Kaufanfragen Ihres Unternehmens abrufen können.
 
-Informationen zum [!DNL Advertising Search, Social, & Commerce]; Werbegestaltung; und [!DNL Advertising DCO] Unterstützung der Zugriffs- und Löschungsrechte für personenbezogene Daten von Verbrauchern, siehe [Adobe Advertising Support für den California Consumer Privacy Act: Unterstützung für Zugriff auf Kundendaten und Löschung](/help/privacy/ccpa/ccpa-access-delete.md).
+Informationen zum [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; und [!DNL Advertising DCO] Unterstützung der Zugriffs- und Löschungsrechte für personenbezogene Daten von Verbrauchern, siehe [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für Zugriff auf Kundendaten und Löschung](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im Abschnitt [Datenschutzzentrum für Adoben](https://www.adobe.com/privacy/ccpa.html).
 
-## Übermittlung von Opt-out-of-Sale-Anfragen an Adobe Advertising
+## Übermittlung von Opt-out-Anfragen von Verbrauchern an den Adobe Advertising
 
 Sie können Verbraucher-Opt-out-Anfragen für den Verkauf über eine der folgenden Methoden kommunizieren:
 
@@ -64,20 +65,21 @@ Sie können Verbraucher-Opt-out-Anfragen für den Verkauf über eine der folgend
 
    >[!IMPORTANT]
    >
-   >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens, einschließlich [!DNL DSP] Konten oder Advertiser, [!DNL Search, Social, & Commerce] Konten und [!DNL Creative] oder [!DNL DCO] -Konten - sind mit Ihrer Experience Cloud-Organisations-ID verknüpft.
+   >Wenden Sie sich an den für Ihr Unternehmen zuständigen Adobe Advertising, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens, einschließlich [!DNL DSP] Konten oder Advertiser, [!DNL Search, Social, & Commerce] Konten und [!DNL Creative] oder [!DNL DCO] -Konten - sind mit Ihrer Experience Cloud-Organisations-ID verknüpft.
 
 1. Verwenden Sie die Adobe Experience Platform Privacy Service-API, um [Opt-out-of-Sale-Anfragen einreichen](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) Adobe Advertising im Namen der Verbraucher und Überprüfung des Status bestehender Anfragen.
 
    Im folgenden Anhang finden Sie ein Beispiel für eine Opt-out-Kaufanfrage.
 
    >[!NOTE]
-   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
+   >
+   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen senden ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
 
 Alle diese Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit zusammenhängenden Aufgaben, die Sie mit der Adobe Experience Platform Privacy Service ausführen müssen, sowie dazu, wo Sie die benötigten Elemente finden können, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Abrufen von Berichten von Verbrauchern, die Opt-out-Kaufanfragen eingereicht haben
 
-Adobe Advertising generiert monatliche Berichte über IDs, die Kunden für Opt-out-Kaufanfragen für das Konto gesendet haben. Jeder Bericht ist als tabulatorgetrennte Textdatei verfügbar, die in das GZIP-Format komprimiert ist. Die Daten konsolidieren Anforderungen, die mithilfe von CCPA-Opt-out-Kaufsegmenten erfasst wurden, die in Advertising DSP erstellt wurden, sowie alle über die Privacy Service-API durchgeführten Übermittlungen. In CCPA-Opt-out-Verkaufssegmenten erfasste Benutzer-IDs werden nach Segment und Advertiser identifiziert. Die Berichte werden am ersten eines jeden Monats für den Vormonat erstellt. Beispielsweise ist die monatliche Benutzerliste für Juni am 1. Juli verfügbar.
+Adobe Advertising erstellt monatliche Berichte mit IDs, die Kunden für Opt-out-Kaufanfragen für das Konto gesendet haben. Jeder Bericht ist als tabulatorgetrennte Textdatei verfügbar, die in das GZIP-Format komprimiert ist. Die Daten konsolidieren Anforderungen, die mithilfe von CCPA-Opt-out-Kaufsegmenten erfasst wurden, die in Advertising DSP erstellt wurden, sowie alle über die Privacy Service-API durchgeführten Übermittlungen. In CCPA-Opt-out-Verkaufssegmenten erfasste Benutzer-IDs werden nach Segment und Advertiser identifiziert. Die Berichte werden am ersten eines jeden Monats für den Vormonat erstellt. Beispielsweise ist die monatliche Benutzerliste für Juni am 1. Juli verfügbar.
 
 Sie können Links zu den monatlichen Berichten abrufen, die in den letzten drei Monaten erstellt wurden, entweder aus dem Advertising DSP oder mithilfe des Advertising DSP [!DNL Trafficking API]. Jeder Link ist sieben Tage lang gültig, wird jedoch jedes Mal aktualisiert, wenn ein Kunde versucht, ihn abzurufen.
 
@@ -132,4 +134,4 @@ curl -X POST \
 wobei:
 
 * `"namespace": "AdCloud"` gibt die `AdCloud` Cookie-Platzierung und der entsprechende Wert ist die Cookie-ID des Kunden, wie sie von abgerufen wird. `AdobePrivacy.js`
-* `"include": ["AdCloud"]` weist darauf hin, dass die Anforderung für die Adobe Advertising gilt
+* `"include": ["AdCloud"]` gibt an, dass die Anforderung für den Adobe Advertising gilt

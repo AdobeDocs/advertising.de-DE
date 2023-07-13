@@ -2,8 +2,9 @@
 title: Unterstützung der Adobe Advertising für die Datenschutz-Grundverordnung
 description: Erfahren Sie mehr über die unterstützten Datenanforderungstypen, die erforderliche Einrichtung und Feldwerte sowie Beispiele für API-Zugriffsanfragen mit alten Produkt-IDs und zurückgegebenen Datenfeldern
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -70,7 +71,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
 
    >[!NOTE]
    >
-   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie für jede Datei separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
+   Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie für jede Datei separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen senden ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]und [!DNL DCO]), mit einem Konto pro Unterlösung.
 
 Alle diese Schritte sind für den Adobe Advertising erforderlich. Weitere Informationen zu diesen und anderen damit zusammenhängenden Aufgaben, die Sie mit der Adobe Experience Platform Privacy Service ausführen müssen, sowie dazu, wo Sie die benötigten Elemente finden können, finden Sie unter [Datenschutz und DSGVO](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
 
@@ -102,29 +103,29 @@ Alle diese Schritte sind für den Adobe Advertising erforderlich. Weitere Inform
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
