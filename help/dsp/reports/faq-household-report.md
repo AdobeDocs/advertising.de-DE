@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu Haushalts-Berichten
 description: Erfahren Sie mehr über die Reichweite, Häufigkeit und Konversionsdaten von Haushalten, einschließlich der Unterschiede zwischen den Haushaltsberichten und anderen Berichten sowie über die Fehlerbehebung.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Wenn eine Platzierung mehrere Tags enthält, betrachtet der Bericht die gesamte 
 
 Es werden zwei Arten von Attributionsmethoden unterstützt:
 
-* Eindeutig: Zählt, wie oft sich ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Weg zur Konversion befunden hat.
+* [!UICONTROL Unique]: Zählt, wie oft sich ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Weg zur Konversion befunden hat.
 
-* MTA (Multi-Touch-Attribution): Verteilt die Gutschrift jeder Konversion basierend auf der Häufigkeit des Auftretens des Dimensionswerts (z. B. ein Gerät oder eine Platzierung) auf dem Pfad zur Konversion. Wenn es beispielsweise insgesamt 10 Impressionen vor der Konvertierung gab, mit 8 bei CTV und 2 bei Mobile, werden 80 % der Gewichtung (0,8) an CTV-Bildschirme und 0,2 an Mobile vergeben.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: Verteilt die Gutschrift jeder Konversion basierend auf der Häufigkeit des Auftretens des Dimensionswerts (z. B. ein Gerät oder eine Platzierung) auf dem Pfad zur Konversion. Wenn es beispielsweise insgesamt 10 Impressionen vor der Konvertierung gab, mit 8 bei CTV und 2 bei Mobile, werden 80 % der Gewichtung (0,8) an CTV-Bildschirme und 0,2 an Mobile vergeben.
 
 ### Inwiefern unterscheiden sich die Berichte zur Konversion aus Haushalten von den CTV-Durchsichtsberichten in Adobe Analytics?
 
