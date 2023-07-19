@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [Feed-Einstellungen für Tabellen-Berichte](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [FTP-Zugriff auf Berichte](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Berechnung der Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Häufig gestellte Fragen zu Berichten](/help/search-social-commerce/reports/faqs-report.md)
+      + [Häufig gestellte Fragen zu benutzerspezifischen Berichten](/help/search-social-commerce/reports/faqs-report.md)
    + Benachrichtigungen {#notifications}
       + [Über Benachrichtigungen](/help/search-social-commerce/notifications/notification-about.md)
       + [Anzeigen von Benachrichtigungen](/help/search-social-commerce/notifications/notification-view.md)

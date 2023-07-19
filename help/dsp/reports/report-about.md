@@ -3,7 +3,7 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] a) di
 >
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Häufig gestellte Fragen zum [!UICONTROL Household] Bericht](/help/dsp/reports/faq-household-report.md)
+>* [Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)
 >* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

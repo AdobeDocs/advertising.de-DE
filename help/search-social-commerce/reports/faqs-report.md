@@ -1,14 +1,15 @@
 ---
-title: Häufig gestellte Fragen zu Berichten
+title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen zu Berichten
+# Häufig gestellte Fragen zu benutzerspezifischen Berichten
 
 ## Allgemeine Fragen
 
