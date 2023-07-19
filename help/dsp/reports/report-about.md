@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
+source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,28 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
    * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken zu verstehen, wie z. B. Ausgabenmetriken für die Medienabrechnung nach Kampagne.
 
-      >[!NOTE]
-      >
-      >Dieser Bericht enthält Daten zum Rechnungsstellungssegment. Wenn einem Benutzer oder Gerät eine Impression gezeigt wird, die zu mehreren Segmenten gehört, wird nur einem abrechnungsfähigen Segment die Impression gutgeschrieben.
+     >[!NOTE]
+     >
+     >Dieser Bericht enthält Daten zum Rechnungsstellungssegment. Wenn einem Benutzer oder Gerät eine Impression gezeigt wird, die zu mehreren Segmenten gehört, wird nur einem abrechnungsfähigen Segment die Impression gutgeschrieben.
 
-   * **[!UICONTROL Conversion]:** Verwenden Sie diesen Bericht, um zu verstehen, wie Ihre Kampagnen auf der Grundlage von Konversionsmetriken funktionieren, die mithilfe des Adobe Advertising-Konversionstrackings erfasst wurden. Dieser Bericht enthält die Mehrfachkontaktattribution.
+   * **[!UICONTROL Conversion]:** Verwenden Sie diesen Bericht, um zu verstehen, wie Ihre Kampagnen auf der Grundlage von Konversionsmetriken funktionieren, die mithilfe des Adobe Advertising-Konversions-Tracking erfasst wurden. Dieser Bericht enthält die Mehrfachkontaktattribution.
 
    * **[!UICONTROL Device]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach gerätebezogenen Dimensionen anzuzeigen.
 
    * **[!UICONTROL Frequency (by Impression)]:** Verwenden Sie diesen Bericht, um die Verteilung der Impressionen zu verstehen, die Unique Viewers angezeigt werden (z. B. die Anzahl der Unique Viewers, die eine Impression, zwei Impressionen, drei Impressionen usw. gesehen haben). Die Daten sind nach Platzierung oder Kampagne verfügbar.
 
-      >[!NOTE]
-      >
-      >* Daten sind nach dem 1. März 2019 verfügbar.
-      >* Die Häufigkeit wird anhand einer Datenstichprobe geschätzt.
-      >* Für einige Bestände übermitteln Herausgeber keine Geräte-ID, was das Frequenztracking verhindert. Dieser Bericht enthält nur Impressionen, für die eine Geräte-ID verfügbar war.
-
+     >[!NOTE]
+     >
+     >* Daten sind nach dem 1. März 2019 verfügbar.
+     >* Die Häufigkeit wird anhand einer Datenstichprobe geschätzt.
+     >* Für einige Bestände übermitteln Herausgeber keine Geräte-ID, was das Frequenztracking verhindert. Dieser Bericht enthält nur Impressionen, für die eine Geräte-ID verfügbar war.
 
    * **[!UICONTROL Frequency (by App/Site)]:** Verwenden Sie diesen Bericht, um zu verstehen, wie viele Unique Users über die App oder die Site erreicht wurden. Sie können auch sehen, wie viele Unique Users nur über eine bestimmte App oder Site erreicht wurden (&quot;Unique Users&quot;).
 
-      >[!NOTE]
-      >
-      >* Daten sind nach dem 15. November 2018 verfügbar.
-      >* Bei einigen privaten Beständen geben Herausgeber keine Geräte-ID weiter, was die Frequenzverfolgung verhindert.
-
+     >[!NOTE]
+     >
+     >* Daten sind nach dem 15. November 2018 verfügbar.
+     >* Bei einigen privaten Beständen geben Herausgeber keine Geräte-ID weiter, was die Frequenzverfolgung verhindert.
 
    * **[!UICONTROL Geo]**: Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach geografischen Dimensionen anzuzeigen.
 
@@ -67,15 +65,16 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
    * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach Segment anzuzeigen.
 
-      >[!NOTE]
-      >
-      >* Dieser Bericht soll zeigen, wie unterschiedliche Zielsegmente funktionieren. Es verwendet Daten zur Segmentmitgliedschaft. Wenn eine Impression einer Person oder einem Gerät bereitgestellt wird, die zu zwei oder mehr Zielsegmenten gehört, enthält dieser Bericht für jedes Segment eine Zeile. Aus diesem Grund stimmen die Summen in diesem Bericht möglicherweise nicht mit dem tatsächlichen Versand überein.
-      >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente sind ab dem 1. Juni 2018 verfügbar.
-
+     >[!NOTE]
+     >
+     >* Dieser Bericht soll zeigen, wie unterschiedliche Zielsegmente funktionieren. Es verwendet Daten zur Segmentmitgliedschaft. Wenn eine Impression einer Person oder einem Gerät bereitgestellt wird, die zu zwei oder mehr Zielsegmenten gehört, enthält dieser Bericht für jedes Segment eine Zeile. Aus diesem Grund stimmen die Summen in diesem Bericht möglicherweise nicht mit dem tatsächlichen Versand überein.
+     >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente sind ab dem 1. Juni 2018 verfügbar.
 
    * **[!UICONTROL Site]:** Standardmäßig enthält Standardmetriken, die Gesamtnettoausgaben der Medien und die gesamten abrechnungsfähigen Nettoausgaben pro Site.
 
-   * **[!UICONTROL Household]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Siehe[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot;.
+   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Siehe[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot;.
+
+* **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Siehe[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot;.
 
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 
@@ -93,4 +92,3 @@ Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] a) di
 >* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-
