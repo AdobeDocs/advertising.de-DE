@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** Der Berichtsname. Die maximale Länge beträgt 180 Zeichen.
 
-**[!UICONTROL Report Type]** Berichtstyp: *[!UICONTROL Custom]* (die die meisten verfügbaren Optionen enthält), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]* oder *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** Berichtstyp: *[!UICONTROL Custom]* (die die meisten verfügbaren Optionen enthält), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* oder *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] Abschnitt
 
@@ -46,15 +46,15 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > Die [!UICONTROL Household] kann nur eine Dimension enthalten.
+  >[!NOTE]
+  >
+  > Die [!UICONTROL Household Reach & Frequency] kann nur eine Dimension enthalten.
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >Die [!UICONTROL Household] -Bericht kann entweder Metriken mit Überschneidungen oder Metriken ohne Überlappung enthalten, jedoch nicht beides.
+  >[!NOTE]
+  >
+  >Die [!UICONTROL Household Reach & Frequency] -Bericht kann entweder Metriken mit Überschneidungen oder Metriken ohne Überlappung enthalten, jedoch nicht beides.
 
 * [!UICONTROL Conversion Metrics] (sortiert nach Advertiser)
 
@@ -156,4 +156,3 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Über Berichtsziele](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
-
