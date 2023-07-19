@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 96e2fdd7137636947788eaed305152a905ebc0a0
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 19. Juli 2023 | Berichterstellung | (DSP Benutzer mit [!DNL Analytics for Advertising]) Durchsichtskonversionen für verbundene TV-Platzierungen (CTV) sind jetzt in einer neuen [!UICONTROL Household Conversions Report]. Zuvor waren sie nur in Adobe Analytics enthalten. | Siehe[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md).&quot; |
 | 13. Juli 2023 | Berichterstellung | (DSP Benutzer mit [!DNL Analytics for Advertising]) Durchsichtskonversionen für verbundene TV-Platzierungen (CTV) sind jetzt in den in Adobe Analytics verfügbaren Konversionsdaten enthalten. | Siehe den Abschnitt &quot;Beispiele für die Verwendung der Integration&quot;in &quot;[Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 1. November 2022 | Hilfe | In einem neuen Dokument wird erläutert, wie Sie die Clickthrough- und Viewthrough-Signalfreigabe zwischen Advertising DSP und Adobe Target implementieren und eine A/B-Test-Aktivität in [!DNL Target] für Ihre DSP Anzeigen und wie Sie Adobe Analytics Analysis Workspace einrichten, um die Testdaten anzuzeigen. | Siehe[Konfigurieren von A/B-Tests in Adobe Target für Anzeigen DSP](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 17. August 2022 | Hilfe | In einem neuen Kapitel werden alle Möglichkeiten erläutert, wie Adobe Advertising in Adobe Audience Manager integriert wird. | Siehe Kapitel &quot;Integration mit Adobe Audience Manager&quot;, einschließlich einer Übersicht über &quot;[Adobe Advertising-Integrationen mit Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
