@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
+source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Siehe[Analytics-Metriken in Adobe Advertising](analytics-data-in-advertising.md)
 
 Adobe Advertising kann aufnehmen [!DNL Analytics] Segmente für Remarketing-Zwecke für Advertising DSP und [!DNL Search, Social, & Commerce] Anzeigen, die die native Experience Cloud-Zielgruppenintegration zwischen [!DNL Analytics] und Experience Cloud.
 
-So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto über die [Experience Cloud-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiviert. Wenn der ID-Dienst aktiviert ist, werden alle Segmentsegmente (einschließlich der in [!DNL Analytics] und in Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, in Experience Cloud erstellte Segmente mithilfe der Variablen [!DNL People core service]und Segmente, die in Adobe Experience Platform erstellt und über den Audience Manager an den Adobe Advertising gesendet wurden) in Adobe Advertising verfügbar werden, sobald sie verarbeitet werden.
+So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto über die [Experience Cloud-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiviert. Wenn der ID-Dienst aktiviert ist, werden alle Segmentsegmente (einschließlich der in [!DNL Analytics] und in Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, in Experience Cloud erstellte Segmente mithilfe der Variablen [!DNL People core service], und Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet wurden) werden in der Adobe Advertising verfügbar, sobald sie verarbeitet werden.
 
 [!DNL Analytics] -Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 
@@ -127,10 +127,6 @@ Verwenden der Marketingkanal-Ansicht:
    Anzeigenplattform: `Advertising Cloud DSP`
 
    Landingpage: `View-Through (CTV)`
-
->[!NOTE]
->
-> Durchsichtskonversionen für CTV-Platzierungen sind auch im [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
 
 ### Erstellen von Adobe Advertising-Dashboards
 
