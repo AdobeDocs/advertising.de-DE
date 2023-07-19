@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
+source-git-commit: 562d6b4be50b5ba248ecfa12e8ff0b60556c326a
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -127,6 +127,10 @@ Verwenden der Marketingkanal-Ansicht:
    Anzeigenplattform: `Advertising Cloud DSP`
 
    Landingpage: `View-Through (CTV)`
+
+>[!NOTE]
+>
+> Durchsichtskonversionen für CTV-Platzierungen sind auch im [DSP [!UICONTROL Household Conversions Report]](/help/dsp/reports/report-about.md).
 
 ### Erstellen von Adobe Advertising-Dashboards
 
