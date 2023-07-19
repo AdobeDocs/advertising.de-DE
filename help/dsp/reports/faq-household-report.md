@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu Haushalts-Berichten
 description: Erfahren Sie mehr über die Reichweite, Häufigkeit und Konversionsdaten von Haushalten, einschließlich der Unterschiede zwischen den Haushaltsberichten und anderen Berichten sowie über die Fehlerbehebung.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ Wenn Ihr Unternehmen [!DNL Analytics for Advertising]verwenden Sie beide Bericht
 
 ## [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte vs. Daten aus [!DNL Advanced Measurement Services]
 
-Für erweiterte Berichte über die budgetbasierte Reichweite und Häufigkeit oder Konversionen muss die Variable [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) kann hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen finden Sie unter [!DNL Advanced Measurement Services], wenden Sie sich an Ihr Adobe Account Team.
+Für erweiterte Berichte zur budgetbasierten Reichweite und Häufigkeit oder Konversionen wird die Variable [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) kann hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen finden Sie unter [!DNL Advanced Measurement Services], wenden Sie sich an Ihr Adobe Account Team.
 
 ### Wenn ich bereits verwende [!DNL Advanced Measurement Services], warum sollte ich die [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte?
 
-Die [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] -Berichte ermöglichen es Kunden, die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene in Echtzeit autonom abzurufen.
+Die [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] -Berichte ermöglichen es Kunden, die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene in Echtzeit unabhängig abzurufen.
 
 ### Kann ich beide [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte und [!DNL Advanced Measurement Services]?
 
