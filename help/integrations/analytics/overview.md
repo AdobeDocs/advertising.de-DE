@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,9 @@ Informationen dazu, wie Sie mit Ihren Adobe Advertising-Daten visuelle Berichte 
 
 *Nur Advertising DSP Benutzer*
 
-Sie können die Volltrichter-Effektivität Ihrer verbundenen TV-Kampagnen (CTV) messen, indem Sie die Anzeige auf CTV-Geräten mit Konversionen vor Ort verknüpfen. Um Ihre CTV-Durchsichts-Konversionsmetriken anzuzeigen, verwenden Sie entweder die Platzierungsansicht oder die Marketingkanal-Ansicht in Analysis Workspace.
+Sie können die Volltrichter-Effektivität Ihrer verbundenen TV-Kampagnen (CTV) messen, indem Sie die Anzeige auf CTV-Geräten mit Konversionen vor Ort verknüpfen. Die neue [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; teilt Konversionen in separate Zeilen für [!UICONTROL Click Through], [!UICONTROL View Through]und [!UICONTROL View Through (CTV)] -Werte.
+
+Um Ihre CTV-Durchsichts-Konversionsmetriken anzuzeigen, verwenden Sie entweder die Platzierungsansicht oder die Marketingkanal-Ansicht in Analysis Workspace.
 
 Verwenden der Platzierungsansicht:
 
