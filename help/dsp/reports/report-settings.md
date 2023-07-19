@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
 ## [!UICONTROL Multi-Touch Conversion Options] Abschnitt
 
+**[!UICONTROL Attribution Rule Settings]** Die Einstellungen variieren je nach Berichtstyp:
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; wie Sie Konversionsdaten in einer Reihe von Adobe Advertisingen zuordnen, die zu einer Konversion führen:
 
-**\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; wie Sie Konversionsdaten in einer Reihe von Adobe Advertisingen zuordnen, die zu einer Konversion führen:
+   * [!UICONTROL Unique]: (Standard) Zählt, wie oft sich ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Weg zur Konversion befunden hat.
 
-* [!UICONTROL Unique]: (Standard) Zählt, wie oft sich ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Weg zur Konversion befunden hat.
+   * [!UICONTROL Multi-Touch Attribution (MTA)]: Verteilt die Gutschrift jeder Konversion basierend auf der Häufigkeit des Auftretens des Dimensionswerts (z. B. ein Gerät oder eine Platzierung) auf dem Pfad zur Konversion. Wenn es beispielsweise insgesamt 10 Impressionen vor der Konvertierung gab, mit 8 bei CTV und 2 bei Mobile, werden 80 % der Gewichtung (0,8) an CTV-Bildschirme und 0,2 an Mobile vergeben.
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]: Verteilt die Gutschrift jeder Konversion basierend auf der Häufigkeit des Auftretens des Dimensionswerts (z. B. ein Gerät oder eine Platzierung) auf dem Pfad zur Konversion. Wenn es beispielsweise insgesamt 10 Impressionen vor der Konvertierung gab, mit 8 bei CTV und 2 bei Mobile, werden 80 % der Gewichtung (0,8) an CTV-Bildschirme und 0,2 an Mobile vergeben.
+* **\[Regeltyp\]:** (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Wie werden im Bericht Konversionsdaten in einer Reihe von Ereignissen zugeordnet, die zu einer Konversion führen? Sie können mehrere Regeln auswählen, wenn Sie Unterschiede zwischen den Regeln vergleichen möchten.
 
-**\[Regeltyp\]:** (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Wie werden im Bericht Konversionsdaten in einer Reihe von Ereignissen zugeordnet, die zu einer Konversion führen? Sie können mehrere Regeln auswählen, wenn Sie Unterschiede zwischen den Regeln vergleichen möchten.
+  >[!NOTE]
+  >
+  >Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Advertising Search, Social, & Commerce]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
 
->[!NOTE]
->
->Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Advertising Search, Social, & Commerce]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
+   * *[!UICONTROL Last Event]:* Ordnet Konversionen dem letzten Klick oder der letzten Impression im Konversionspfad zu.
 
-* *[!UICONTROL Last Event]:* Ordnet Konversionen dem letzten Klick oder der letzten Impression im Konversionspfad zu.
+   * *[!UICONTROL Weight Last More]:* Ordnet allen Ereignissen im Konversionspfad Konversionen zu, gibt jedoch dem letzten Ereignis die höchste Gewichtung und den vorherigen Ereignissen eine schrittweise geringere Gewichtung zu.
 
-* *[!UICONTROL Weight Last More]:* Ordnet allen Ereignissen im Konversionspfad Konversionen zu, gibt jedoch dem letzten Ereignis die höchste Gewichtung und den vorherigen Ereignissen eine schrittweise geringere Gewichtung zu.
+   * *[!UICONTROL Even Distribution]:* Weist Konversionen gleichmäßig jedem Ereignis im Konversionspfad zu.
 
-* *[!UICONTROL Even Distribution]:* Weist Konversionen gleichmäßig jedem Ereignis im Konversionspfad zu.
+   * *[!UICONTROL Weight First More]:* Ordnet allen Ereignissen im Konversionspfad Konversionen zu, gibt jedoch dem ersten Ereignis die höchste Gewichtung und den folgenden Ereignissen eine schrittweise geringere Gewichtung zu.
 
-* *[!UICONTROL Weight First More]:* Ordnet allen Ereignissen im Konversionspfad Konversionen zu, gibt jedoch dem ersten Ereignis die höchste Gewichtung und den folgenden Ereignissen eine schrittweise geringere Gewichtung zu.
+   * *[!UICONTROL First Event]:* Ordnet Konversionen dem ersten Klick oder der ersten Impression im Konversionspfad zu.
 
-* *[!UICONTROL First Event]:* Ordnet Konversionen dem ersten Klick oder der ersten Impression im Konversionspfad zu.
+   * *[!UICONTROL U-shaped]:* Ordnet die Konversion allen Ereignissen im Konversionspfad zu, gibt jedoch dem ersten und letzten Ereignis die höchste Gewichtung, bei einer nacheinander geringeren Gewichtung der Ereignisse in der Mitte des Konversionspfads.
 
-* *[!UICONTROL U-shaped]:* Ordnet die Konversion allen Ereignissen im Konversionspfad zu, gibt jedoch dem ersten und letzten Ereignis die höchste Gewichtung, bei einer nacheinander geringeren Gewichtung der Ereignisse in der Mitte des Konversionspfads.
+   * *[!UICONTROL Display Only]:*  Ordnet Konversionen dem letzten DSP Klick oder Impression im Konversionspfad zu. Dazu gehören Video- und vernetzte TV-Anzeigen sowie Klicks auf [!DNL Advertising Search, Social, & Commerce] Anzeigen.
 
-* *[!UICONTROL Display Only]:*  Ordnet Konversionen dem letzten DSP Klick oder Impression im Konversionspfad zu. Dazu gehören Video- und vernetzte TV-Anzeigen sowie Klicks auf [!DNL Advertising Search, Social, & Commerce] Anzeigen.
+   * *[!UICONTROL Social Only]:* Obsolete
 
-* *[!UICONTROL Social Only]:* Obsolete
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten) Welche Konversionstypen werden in Berichten aufgeführt, wenn auf demselben Gerät frühere Ereignisse aufgetreten sind. Sie können bis zu drei Typen einbeziehen. Für jeden ausgewählten Typ wird für jede Konversionsmetrik eine separate Spalte eingefügt und dem angegebenen Suffix ([!UICONTROL (tl)], [!UICONTROL (ct)]oder [!UICONTROL (vt)]):
 
