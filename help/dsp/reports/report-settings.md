@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
 ## [!UICONTROL Multi-Touch Conversion Options] Abschnitt
 
-**[!UICONTROL Attribution Rule Settings]** Die Einstellungen variieren je nach Berichtstyp:
+**[!UICONTROL Attribution Rule Settings]:** Die Einstellungen variieren je nach Berichtstyp:
 
 * **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; wie Sie Konversionsdaten in einer Reihe von Adobe Advertisingen zuordnen, die zu einer Konversion führen:
 
