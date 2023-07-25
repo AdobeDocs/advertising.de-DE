@@ -3,16 +3,16 @@ title: Richtlinien zur Datennutzung von Adobe Advertisingen DSP
 description: Siehe Richtlinien für die Datennutzung.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 2ba5330a21b637fbf7ae887a0682678eb26e0af9
+source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Richtlinien zur Datennutzung von Adobe Advertisingen DSP
 
-*Zuletzt aktualisiert: 5. September 2019 (außer Aktualisierung der URL dieser Seite)*
+*Zuletzt aktualisiert: 5. September 2019*
 
 *Für Adobe Advertising DSP*
 
