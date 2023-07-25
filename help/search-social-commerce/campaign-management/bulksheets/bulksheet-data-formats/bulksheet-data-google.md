@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Jedes Bulksheet muss die Kopfzeilenfelder und die entsprechenden Datenfelder ent
 
 Im Folgenden finden Sie eine Tabelle aller verfügbaren Datenfelder und zusätzliche Tabellen, die angeben, welche Felder zum Hinzufügen, Bearbeiten oder Löschen von Daten für einzelne Entitäten (z. B. Kampagnen und Suchbegriffe) erforderlich sind.
 
-## Alle verfügbaren Datenfelder
+## Alle verfügbaren Datenfelder {#bulksheet-fields-all-google}
 
-Die folgende Tabelle zeigt alle verfügbaren Datenfelder.
+In der folgenden Tabelle werden alle verfügbaren Datenfelder beschrieben.
 
 Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unt
 [^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
 ## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind {#bulksheet-fields-per-component-google}
+
+Die folgenden Abschnitte enthalten die Felder, die für bestimmte Kontoentitäten relevant sind.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >

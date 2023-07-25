@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Microsoft Advertising] Konten.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Jedes Bulksheet muss die Kopfzeilenfelder und die entsprechenden Datenfelder ent
 
 Im Folgenden finden Sie eine Tabelle aller verfügbaren Datenfelder und zusätzliche Tabellen, die angeben, welche Felder zum Hinzufügen, Bearbeiten oder Löschen von Daten für einzelne Entitäten (z. B. Kampagnen und Suchbegriffe) erforderlich sind.
 
-## Alle verfügbaren Datenfelder
+## Alle verfügbaren Datenfelder {#bulksheet-fields-all-microsoft}
 
-Die folgende Tabelle zeigt alle verfügbaren Datenfelder.
+In der folgenden Tabelle werden alle verfügbaren Datenfelder beschrieben.
 
 Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unt
 [^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
 ## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind {#bulksheet-fields-per-component-microsoft}
+
+Die folgenden Abschnitte enthalten die Felder, die für bestimmte Kontoentitäten relevant sind.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
