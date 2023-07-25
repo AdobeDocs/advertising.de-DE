@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Im Folgenden finden Sie eine Tabelle aller verfügbaren Datenfelder und zusätzl
 
 In der folgenden Tabelle werden alle verfügbaren Datenfelder beschrieben.
 
-Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-google).
+Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unt
 
 Die folgenden Abschnitte enthalten die Felder, die für bestimmte Kontoentitäten relevant sind.
 
-Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >Wenn ein Feld nicht auf eine Aktion anwendbar ist, werden alle im Feld eingegebenen Werte ignoriert.
 
 ### Kampagnenfelder
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? |
 | ---- | ---- |
@@ -169,6 +169,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 ### Anzeigengruppenfelder
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
+
 | Feld | Erforderlich? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -188,6 +190,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Suchbegriffsfelder
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Platzierungsfelder
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ Dieser Anzeigentyp wird jetzt als &quot;dynamische Suchanzeige&quot;in [!DNL Goo
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -261,6 +269,8 @@ Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -282,6 +292,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 ### Responsive Suchanzeigenfelder
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot;
 ### Textanzeigenfelder
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 ### Felder für dynamisches Suchziel (automatisches Targeting)
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -354,6 +370,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Produktgruppenfelder kaufen
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 ### Sitelink-Felder auf Kampagnenebene und Anzeigengruppenebene
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -394,7 +414,9 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL Sitelink ID] | Nur erforderlich, wenn Sie den Sitelink ändern oder löschen, es sei denn, die Zeile enthält a) ausreichend Eigenschaftsspalten, um den Sitelink zu identifizieren, oder b) eine &quot;[!UICONTROL AMO ID].&quot; Wenn Sie jedoch [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  und die Eigenschaftsspalten mit mehreren Sitelinks übereinstimmen, ändert sich der Status nur für eine der Sitelinks.<br><br><b>Hinweis:</b> Wenn Sie die Sitelink-Eigenschaftenspalten bearbeiten, außer [!UICONTROL Status] für einen vorhandenen Sitelink und Sie enthalten weder die [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID], wird ein neuer Sitelink erstellt und die bestehende Sitelink wird nicht geändert. |
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
-### Zielgruppenfelder der Position
+### Standort-Ziel
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich, die Daten zu bearbeiten oder zu löschen, es sei denn, Sie schließen die [!UICONTROL Campaign ID].<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich, um die Daten zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die Geräteziel-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### RLSA-Zielgruppen-/Ausschlussfelder auf Kampagnenebene und Anzeigengruppenebene
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |

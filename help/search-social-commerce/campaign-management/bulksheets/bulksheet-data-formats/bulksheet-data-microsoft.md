@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Microsoft Advertising] Konten.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Im Folgenden finden Sie eine Tabelle aller verfügbaren Datenfelder und zusätzl
 
 In der folgenden Tabelle werden alle verfügbaren Datenfelder beschrieben.
 
-Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-microsoft).
+Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-microsoft).&quot;
 
 | Feld | Beschreibung |
 |----|----|
@@ -121,13 +121,13 @@ Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unt
 
 Die folgenden Abschnitte enthalten die Felder, die für bestimmte Kontoentitäten relevant sind.
 
-Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >Wenn ein Feld nicht auf eine Aktion anwendbar ist, werden alle im Feld eingegebenen Werte ignoriert.
 
 ### Kampagnenfelder
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? |
 | ---- | ---- |
@@ -155,6 +155,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 ### Anzeigengruppenfelder
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -176,6 +178,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Suchbegriffsfelder
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -229,6 +235,8 @@ Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter &quot
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -250,6 +258,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 ### Responsive (Multimedia) Anzeigenfelder
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 ### Responsive Suchanzeigenfelder
 
 Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot; in der [!UICONTROL Download Bulksheet] angezeigt.
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 >
 >Erweiterte Textanzeigen werden nicht mehr unterstützt. Sie können nur vorhandene Textanzeigen löschen.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -333,6 +347,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 >
 >Support erstellen ist nicht verfügbar.
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -351,6 +367,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Produktgruppenfelder kaufen
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 ### Sitelink-Felder auf Kampagnenebene
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -394,6 +414,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 ### Zielgruppenfelder der Position
 
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
+
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
@@ -406,6 +428,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie enthalten die Kampagnen-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### Zielfelder auf Kampagnenebene und auf Anzeigengruppenebene
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 | [!UICONTROL AMO ID] | Erforderlich, um die Daten zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die Geräteziel-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 
 ### RLSA-Zielfelder auf Kampagnenebene und Anzeigengruppenebene
+
+Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
 | Feld | Erforderlich? | Beschreibung |
 | ---- | ---- | ---- |
