@@ -1,9 +1,10 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise verwenden, können Sie Bulksheet-Dateien für Suche, Social und Commerce verwenden, die speziell für [!DNL Google Ads] Konten. Sie können entweder a) [Massenblatt-Dateien für bestehende Konten generieren](../bulksheet-download.md) im erforderlichen Dateiformat oder b) manuell erstellen (siehe[Unterstützte Bulksheet-Dateiformate](bulksheet-file-formats.md)&quot; allgemeine Informationen zu den unterstützten Dateiformaten).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Jedes Bulksheet muss die Kopfzeilenfelder und die entsprechenden Datenfelder enthalten, die für die [bestimmte Vorgänge, die Sie ausführen möchten](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (z. B. Erstellen einer Anzeige). Wenn ein Feld nicht erforderlich ist, können Sie es aus der Kopfzeile und den Datenzeilen auslassen. Alle benutzerdefinierten Spalten werden beim Hochladen der Bulk-Sheet-Datei gelöscht.
+
+Im Folgenden finden Sie eine Tabelle aller verfügbaren Datenfelder und zusätzliche Tabellen, die angeben, welche Felder zum Hinzufügen, Bearbeiten oder Löschen von Daten für einzelne Entitäten (z. B. Kampagnen und Suchbegriffe) erforderlich sind.
 
 ## Alle verfügbaren Datenfelder
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+Die folgende Tabelle zeigt alle verfügbaren Datenfelder.
+
+Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unter[Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* Bei den Werten in allen Textspalten wird zwischen Groß- und Kleinschreibung unterschieden.
+>* Wenn Sie einen neuen Datensatz erstellen und keine Werte für alle erforderlichen Datenfelder einschließen, werden einigen dieser Felder die angegebenen Standardwerte zugewiesen.
+>* Für Felder, die unten nicht angegeben sind, wird der Standardwert für das Werbenetzwerk verwendet.
+>* Eine Liste der verfügbaren Tabellenzeilen finden Sie im [!UICONTROL Download Bulksheet] Dialogfeld, siehe[Massenblatt-Zeilen nach Anzeigennetzwerk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Feld | Beschreibung |
 | ---- | ---- |
@@ -116,7 +128,11 @@ So erstellen und aktualisieren Sie [!DNL Google Ads] Kampagnendaten stapelweise 
 
 [^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn die Datei geöffnet wird. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 
-## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind
+## Felder, die zum Erstellen, Bearbeiten oder Löschen jeder Kontokomponente erforderlich sind {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>Wenn ein Feld nicht auf eine Aktion anwendbar ist, werden alle im Feld eingegebenen Werte ignoriert.
 
 ### Kampagnenfelder
 
