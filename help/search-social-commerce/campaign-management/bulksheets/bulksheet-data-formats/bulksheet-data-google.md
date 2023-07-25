@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 | Feld | Erforderlich? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
-| [!UICONTROL Campaign Name] | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
-| [!UICONTROL Campaign Budget] | Erforderlich zum Erstellen einer Kampagne. | Eine tägliche Ausgabenbegrenzung für die Kampagne mit oder ohne monetäre Symbole und Satzzeichen. Dieser Wert setzt das Kontobudget außer Kraft. |
+| [!UICONTROL Campaign Name] | Erforderlich |
+| [!UICONTROL Campaign Budget] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Delivery Method] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Channel Type] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Networks] | Erforderlich zum Erstellen einer Kampagne. |
@@ -193,8 +193,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -218,8 +218,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -246,8 +246,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -271,8 +271,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -295,8 +295,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot;
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich | |
@@ -327,8 +327,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 >
 >Erweiterte Textanzeigen wurden im Juni 2022 eingestellt. Sie können nur vorhandene Textanzeigen löschen.
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -353,8 +353,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -373,8 +373,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -397,8 +397,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich für Sitelinks auf Anzeigengruppenebene. Gilt nicht für Sitelinks auf Kampagnenebene. |
@@ -418,8 +418,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Location] | Erforderlich |
@@ -433,8 +433,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Device] | Erforderlich zum Erstellen oder Bearbeiten eines Geräteziels. |
@@ -450,8 +450,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-google).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Bid Adjustment] | Optional |
