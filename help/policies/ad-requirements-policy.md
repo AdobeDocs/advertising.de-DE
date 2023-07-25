@@ -1,22 +1,22 @@
 ---
-title: Adobe Advertising Ad Requirements Policy
+title: Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 description: Siehe Richtlinien für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Ad Requirements Policy
+# Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 
-*Zuletzt aktualisiert: 12. Juli 2021*
+*Zuletzt aktualisiert: 12. Juli 2021 (mit Ausnahme der aktualisierten Produktnamen und der URL dieser Seite)*
 
-*Für Adobe Advertising DSP und Adobe Advertising Search*
+*Für Adobe Advertising DSP- und Adobe Advertising-Suche, Social und Commerce*
 
-In dieser Richtlinie zu Anzeigenanforderungen (&quot;Richtlinie&quot;) werden die Anforderungen für Werbeanzeigen beschrieben, die über On-Demand-Dienste der Adobe für Adobe Advertising (&quot;Services&quot;) verteilt werden. Diese Richtlinie wird durch einen Verweis in den Vertrag zwischen der Adobe und dem Kunden (&quot;Sie&quot;) aufgenommen, der die On-Demand-Dienste nutzt. In dieser Richtlinie verwendete großgeschriebene Begriffe, die hier nicht definiert sind, haben die in der Vereinbarung festgelegte Bedeutung.
+Diese Richtlinie zu Anzeigenanforderungen (&quot;Richtlinie&quot;) legt die Anforderungen für Anzeigen fest, die über On-Demand-Dienste für Adobe Advertising (&quot;Dienste&quot;) von Adobe verteilt werden. Diese Richtlinie wird durch einen Verweis in den Vertrag zwischen der Adobe und dem Kunden (&quot;Sie&quot;) aufgenommen, der die On-Demand-Dienste nutzt. In dieser Richtlinie verwendete großgeschriebene Begriffe, die hier nicht definiert sind, haben die in der Vereinbarung festgelegte Bedeutung.
 
 Adobe behält sich das Recht vor, allein zu entscheiden, ob eine Anzeige oder die Website(s), auf die die Anzeige umgeleitet oder verlinkt, gegen die Bestimmungen dieser Richtlinie verstößt. In diesem Fall kann die Adobe diese Anzeige ablehnen und/oder den Zugriff auf die Services auf dieser Grundlage beenden oder aussetzen.
 
@@ -26,7 +26,7 @@ Zusätzlich zu den nachfolgend und in der Vereinbarung dargelegten Anforderungen
 
 ### Kreative Anforderungen
 
-Alle Anzeigen, die von Ihnen über die On-Demand-Dienste übertragen, gespeichert, angezeigt, verteilt oder anderweitig zur Verfügung gestellt werden, müssen mit den in den Werbeanzeigenspezifikationen der Adobe enthaltenen Werbespezifikationen übereinstimmen, die von Zeit zu Adobe geändert werden können.
+Alle Anzeigen, die von Ihnen über die On-Demand-Dienste übertragen, gespeichert, angezeigt, verteilt oder anderweitig zur Verfügung gestellt werden, müssen mit den in den Adobe Advertising-Anzeigenspezifikationen enthaltenen Werbespezifikationen übereinstimmen, die von Zeit zu Adobe geändert werden können.
 
 ### Verbotene Anzeigen
 
@@ -128,4 +128,3 @@ Sie dürfen die Services nicht dazu verwenden, eine Diskriminierung unter Versto
 >[!MORELIKETHIS]
 >
 >* [Richtlinien für zulässige Gesundheitssegmente](/help/policies/health-segment-guidelines.md)
-
