@@ -2,9 +2,9 @@
 title: Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Microsoft Advertising] Konten.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 1%
 
 ---
@@ -181,8 +181,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -212,8 +212,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -237,8 +237,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -261,8 +261,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -287,8 +287,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Responsive Search Ad]&quot;
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich | |
@@ -319,8 +319,8 @@ Verwenden Sie für diesen Anzeigentyp den[!UICONTROL Creative (except RSA)]&quot
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -349,8 +349,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -370,8 +370,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
@@ -394,8 +394,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | Beschreibung Zeile 1 | Optional |
@@ -416,8 +416,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Location] | Erforderlich |
@@ -431,8 +431,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Device] | Erforderlich zum Löschen eines Geräteziels. |
@@ -447,8 +447,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 
 Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren Datenfelder](#bulksheet-fields-all-microsoft).&quot;
 
-| Feld | Erforderlich? | Beschreibung |
-| ---- | ---- | ---- |
+| Feld | Erforderlich? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot;für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich für Ziele auf Anzeigengruppenebene. Gilt nicht für Ziele auf Kampagnenebene. |
