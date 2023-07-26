@@ -3,20 +3,20 @@ title: Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 description: Siehe Richtlinien für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
+source-git-commit: 6255609563c595b921ef9867359cc57498571d73
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 
-*Zuletzt aktualisiert: 12. Juli 2021*
+*Zuletzt aktualisiert: 12. Juli 2021 (mit Ausnahme der aktualisierten Produktnamen und der URL dieser Seite)*
 
 *Für Adobe Advertising DSP- und Adobe Advertising-Suche, Social und Commerce*
 
-Diese Richtlinie zu Anzeigenanforderungen (&quot;Richtlinie&quot;) legt die Anforderungen für Anzeigen fest, die über On-Demand-Dienste für Adobe Advertising (&quot;Dienste&quot;) von Adobe verteilt werden. Diese Richtlinie wird durch einen Verweis in den Vertrag zwischen der Adobe und dem Kunden (&quot;Sie&quot;) aufgenommen, der die On-Demand-Dienste nutzt. In dieser Richtlinie verwendete großgeschriebene Begriffe, die hier nicht definiert sind, haben die in der Vereinbarung festgelegte Bedeutung.
+Diese Richtlinie zu Anzeigenanforderungen (&quot;Richtlinie&quot;) legt die Anforderungen für Anzeigen fest, die über On-Demand-Dienste für Adobe Advertising (&quot;Dienste&quot;) von Adobe verteilt werden. Diese Richtlinie wird durch einen Verweis in die Vereinbarung zwischen der Adobe und dem Kunden (&quot;Sie&quot;) über die On-Demand-Dienste aufgenommen. In dieser Richtlinie verwendete großgeschriebene Begriffe, die hier nicht definiert sind, haben die in der Vereinbarung festgelegte Bedeutung.
 
 Adobe behält sich das Recht vor, allein zu entscheiden, ob eine Anzeige oder die Website(s), auf die die Anzeige umgeleitet oder verlinkt, gegen die Bestimmungen dieser Richtlinie verstößt. In diesem Fall kann die Adobe diese Anzeige ablehnen und/oder den Zugriff auf die Services auf dieser Grundlage beenden oder aussetzen.
 
@@ -32,7 +32,7 @@ Alle Anzeigen, die von Ihnen über die On-Demand-Dienste übertragen, gespeicher
 
 Sie müssen sicherstellen, dass Ihre Anzeigen und die Websites, auf die eine Anzeige verlinkt oder umgeleitet wird, Folgendes nicht enthalten oder bewerben:
 
-* **Ungültiger Inhalt**. Anzeigen dürfen keine illegalen Inhalte enthalten oder illegale Aktivitäten, Produkte oder Dienstleistungen fördern, fördern oder erleichtern. Dazu gehören, aber nicht beschränkt auf, Inhalte, Produkte, Aktivitäten oder Dienstleistungen, bei denen illegale Drogen oder Drogenparaphern verwendet werden (ob auf nationaler oder föderaler Ebene illegal) oder gegen Wertpapiergesetze verstoßen. Für die Zwecke dieser Richtlinie sind Werbeanzeigen zu Inhalten, Produkten, Tätigkeiten oder Dienstleistungen, die sich auf Marihuana oder Hanf oder Derivate dieser Stoffe wie Cannabidiol (CBD) beziehen, mit folgenden einzigen Ausnahmen verboten: (1) aus Hanf gewonnene CBD-Erzeugnisse (jedoch keine anderen CBD- oder THC-Erzeugnisse) in den USA; und (2) Cannabis-Erzeugnisse in den zugelassenen kanadischen Provinzen, die beide a) zuvor in den jeweiligen Adobe Rider eingestiegen sind, b) die Erfüllung der Sorgfaltspflichten gegenüber der Adobe und c) die von den Medienanbietern und den geltenden Rechtsvorschriften gestattet sind. &quot;zugelassene kanadische Provinzen&quot;: die Provinzen Alberta, British Columbia, Manitoba, New Brunswick, Neufundland und Labrador, Nova Scotia, Ontario, Prinz-Edward-Insel und Saskatchewan.
+* **Ungültiger Inhalt**. Anzeigen dürfen keine illegalen Inhalte enthalten oder illegale Aktivitäten, Produkte oder Dienstleistungen fördern, fördern oder erleichtern. Dazu gehören, aber nicht beschränkt auf, Inhalte, Produkte, Aktivitäten oder Dienstleistungen, bei denen illegale Drogen oder Drogenparaphern verwendet werden (ob auf nationaler oder föderaler Ebene illegal) oder gegen Wertpapiergesetze verstoßen. Für die Zwecke dieser Richtlinie sind Anzeigen zu Inhalten, Produkten, Tätigkeiten oder Dienstleistungen, die sich auf Marihuana oder Hanf oder Derivate dieser Stoffe beziehen, wie Cannabidiol (CBD), verboten, mit folgenden einzigen Ausnahmen: (1) aus Hanf hergestellte CBD-Produkte (aber keine anderen CBD- oder THC-Produkte) in den USA und (2) Cannabis-Erzeugnisse in den zugelassenen kanadischen Provinzen. die beide a) zuvor in den jeweiligen Adobe Rider eingetreten sind, b) die Erfüllung der Sorgfaltspflichten gegenüber der Adobe und c) die von den Medienanbietern und den geltenden Rechtsvorschriften gestattet sind. &quot;zugelassene kanadische Provinzen&quot;: die Provinzen Alberta, British Columbia, Manitoba, New Brunswick, Neufundland und Labrador, Nova Scotia, Ontario, Prinz-Edward-Insel und Saskatchewan.
 
 * **Verletzung der Rechte oder Verträge eines anderen**. Werbeanzeigen dürfen die Rechte oder den Vertrag einer anderen Person nicht verletzen oder verletzen oder Produkte oder Dienstleistungen bewerben, die diese Tätigkeiten ausüben. Dazu gehören die Verletzung von Rechten des geistigen Eigentums und Verletzungen der Privatsphäre, der Werbung oder anderer persönlicher oder proprietärer Rechte, einschließlich der Förderung von Diensten zur Dateiweitergabe, die hauptsächlich zur Verletzung von Urheberrechten verwendet werden.
 
@@ -64,7 +64,7 @@ Sie müssen sicherstellen, dass Ihre Anzeigen und die Websites, auf die eine Anz
 
 * **Ablenkende Anzeigen**. Anzeigen dürfen keine ablenkenden, unerwünschten oder unbequemen Funktionen oder Inhalte enthalten, einschließlich Funktionen für die automatische Wiedergabe (z. B. Anzeigen, die automatisch Audio oder Video abspielen), Inhalt, der blinkt, schüttelt, durchsucht, blinkt oder übermäßig animierte Objekte, Text oder Bilder, lokal freigegebene Objekte (einschließlich Flash-Cookies und lokalem Speicher von HTML5) sowie Anzeigen, die das Benutzererlebnis stören (z. B. durch Überlagern anderer Inhalte ).
 
-* **Politischer Inhalt**. Politische Inhalte umfassen Mitteilungen, die Folgendes beinhalten: (1) von jedem Kandidaten für das Amt (föderal, staatlich, lokal oder international) oder für die Kampagne eines Kandidaten bezahlt werden; (2) werden von jeder Organisation bezahlt, die nach dem Kampagnenfinanzierungs-Recht eines Staates (Bundesland, Bundesland, örtlich oder international) registriert ist oder darüber berichtet; (3) ausdrücklich für oder gegen jeden eindeutig identifizierten Kandidaten (föderal, staatlich, lokal oder international) oder (4) sind anderweitig durch das Kampagnenfinanzierungs-Gesetz jedes Staates geregelt. Dieses Verbot umfasst, ist aber nicht darauf beschränkt, Advocacy Ads auszustellen, die direkt oder indirekt mit Wahlen, politischen Kampagnen, Kandidaten für ein öffentliches Amt, Wahlen, Stimmzettel, Gesetzen oder Referenden in Zusammenhang stehen.
+* **Politischer Inhalt**. Politische Inhalte umfassen Mitteilungen, die (1) von einem Kandidaten für das Amt (föderal, staatlich, lokal oder international) oder von einem Kandidaten bezahlt werden; (2) von einer Organisation bezahlt werden, die nach dem Kampagnenfinanzierungs-Recht eines beliebigen Staates (föderal, staatlich, lokal oder international) registriert ist oder darüber berichtet; (3) ausdrücklich für oder gegen einen eindeutig identifizierten Kandidaten (föderal, staatlich, lokal oder international) oder (4) sind anderweitig unter jeder Gerichtsbarkeit geregelt Kampagnenfinanzgesetz. Dieses Verbot umfasst, ist aber nicht darauf beschränkt, Advocacy Ads auszustellen, die direkt oder indirekt mit Wahlen, politischen Kampagnen, Kandidaten für ein öffentliches Amt, Wahlen, Stimmzettel, Gesetzen oder Referenden in Zusammenhang stehen.
 
 ### Eingeschränkte Anzeigen
 
@@ -113,13 +113,13 @@ Die Services dürfen nicht dazu verwendet werden, Benutzer gezielt anzusprechen 
    * Missbrauch und Trauma, einschließlich des Status als Opfer von Verbrechen, Missbrauch oder traumatischen Ereignissen
    * Mitgliedschaft in einer marginalisierten oder schutzbedürftigen Gruppe, auch auf der Grundlage der sozialen Kaste, der Einwanderung oder des Flüchtlingsstatus
 
-* **Europäische Union**. Darüber hinaus dürfen Anzeigen in der Europäischen Union nicht auf eine Zielgruppe ausgerichtet oder an eine Zielgruppe gerichtet sein, die auf folgenden Faktoren basiert, unabhängig davon, ob sie für den Benutzer bekannt oder ihm bekannt sind:
+* **Europäische Union**. Darüber hinaus dürfen Anzeigen in der Europäischen Union nicht auf eine Audience ausgerichtet sein oder sich an eine Audience richten, die auf den folgenden Faktoren basiert, unabhängig davon, ob sie über den Benutzer bekannt sind oder daraus abgeleitet werden:
 
    * Politische Zugehörigkeit
    * Gewerkschaftsmitgliedschaft
    * Sonstige besondere Kategorien personenbezogener Daten
 
-* **Gesundheitsbezogenes Targeting**. Sie dürfen die Services nicht verwenden, um sensible Gesundheitsdaten zu sammeln oder um Rückschlüsse auf die sensible Gesundheit oder medizinische Behandlung der Benutzer zu ziehen. Insbesondere dürfen Sie die Dienste nicht verwenden, um Anzeigen für eine der folgenden Aktionen als Ziel auszuwählen: jede Form von Krebs, psychischen Erkrankungen oder sexuell übertragbaren Krankheiten. Es können Anzeigen für nicht empfindliche Gesundheitszustände wie Akne, Allergien, Zahnschmerzen, Sehvermögen, Sodbrennen, Kälte und Grippe, Sinus, Kopfschmerzen, Rückenschmerzen, Erste Hilfe, Halsentzündung, Blutzuckermanagement, Ernährung und Fitness, Haarentfernung sowie Vitamine und Nahrungsergänzungsmittel angeboten werden.
+* **Gesundheitsbezogenes Targeting**. Sie dürfen die Services nicht verwenden, um sensible Gesundheitsdaten zu sammeln oder um Rückschlüsse auf die sensible Gesundheit oder medizinische Behandlung der Benutzer zu ziehen. Insbesondere dürfen Sie die Services nicht verwenden, um Anzeigen für eine der folgenden Arten auszuwählen: Krebs, psychische oder sexuell übertragbare Krankheiten. Es können Anzeigen für nicht empfindliche Gesundheitszustände wie Akne, Allergien, Zahnschmerzen, Sehvermögen, Sodbrennen, Kälte und Grippe, Sinus, Kopfschmerzen, Rückenschmerzen, Erste Hilfe, Halsentzündung, Blutzuckermanagement, Ernährung und Fitness, Haarentfernung sowie Vitamine und Nahrungsergänzungsmittel angeboten werden.
 
 ## Keine Diskriminierung
 
