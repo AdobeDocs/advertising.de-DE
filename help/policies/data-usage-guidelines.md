@@ -3,16 +3,16 @@ title: Richtlinien zur Datennutzung von Adobe Advertisingen DSP
 description: Siehe Richtlinien für die Datennutzung.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
+source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 # Richtlinien zur Datennutzung von Adobe Advertisingen DSP
 
-*Zuletzt aktualisiert: 5. September 2019*
+*Letzte Aktualisierung: 5. September 2019 (außer Aktualisierung der URL dieser Seite)*
 
 *Für Adobe Advertising DSP*
 
@@ -22,6 +22,6 @@ Adobe behält sich das Recht vor, allein zu entscheiden, ob die Nutzung von Date
 
 ## Verwendung von [!DNL TruSignal] Daten
 
-[!DNL TruSignal] Daten können nicht für Folgendes verwendet werden: 1. alle zulässigen Zwecke oder nachteiligen Maßnahmen im Sinne der [!DNL Fair Credit Reporting Act] (wie von Zeit zu Zeit geändert werden kann); 2. Neuverhandlung oder Umstrukturierung der Schulden; oder (3) die Förderung jeglicher Werbung für Unterhaltung, Pornografie, Sexspielzeug, exotische Tänze, Feuerwaffen, illegales Glücksspiel oder andere rechtswidrige Produkte oder Dienstleistungen, auch ohne Einschränkung zur Diskriminierung aufgrund der Rasse, des Geschlechts, der Religion oder der sexuellen Ausrichtung, oder in einer Weise, die nach geltendem Recht als unfair betrachtet werden könnte; und 4 für die Zwecke von Buchstabe a) Beschäftigungsfähigkeit, b) Kreditanspruchsfähigkeit, `(c)` Anspruch auf Gesundheitsfürsorge oder d) auf Versicherungsansprüche und Preise.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
+[!DNL TruSignal] Die Daten dürfen nicht für folgende Zwecke verwendet werden: (1) zulässige Zwecke oder nachteilige Maßnahmen, wie sie durch die [!DNL Fair Credit Reporting Act] (gegebenenfalls geändert); (2) Neuaushandlung oder Umstrukturierung von Schulden; oder (3) Erleichterung jeglicher Werbung für Unterhaltung, Pornografie, Sexspielzeug, exotische Tänze, Feuerwaffen, illegales Glücksspiel oder andere rechtswidrige Produkte oder Dienstleistungen, einschließlich ohne Einschränkung zur Diskriminierung aufgrund der Rasse, des Geschlechts, der Religion, der sexuellen Ausrichtung oder in einer Weise, die nach geltendem Recht als unfair betrachtet werden könnte; (4)) für die Zwecke von Buchstabe a) Beschäftigungsfähigkeit, b) Kreditanspruchsfähigkeit, `(c)` Anspruch auf Gesundheitsfürsorge oder d) auf Versicherungsansprüche und Preise.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
 
-Darüber hinaus [!DNL TruSignal] Daten dürfen nicht sein: (1) entpackt, zerlegt, zur Erstellung von abgeleiteten Werken verwendet oder umgebaut werden; oder (2) die Rechte an Dritte, einschließlich der Nutzung durch Dienstbüros, unterlizenziert, weiterverkauft, wiederverwendet oder anderweitig gewährt werden.
+Darüber hinaus [!DNL TruSignal] Die Daten dürfen nicht: (1) dekompiliert, zerlegt, zum Erstellen von abgeleiteten Werken verwendet oder umgekehrt bearbeitet werden; (2) unterlizenziert, weiterverkauft, wiederverwendet oder anderweitig an Dritte weiterverwendet werden, einschließlich der Nutzung von Servicebüros.
