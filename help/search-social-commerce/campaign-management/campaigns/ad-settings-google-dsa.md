@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] erweiterte Einstellungen für dynamische Suchanzeigen"
+title: '''[!DNL Google Ads] erweiterte Einstellungen für dynamische Suchanzeigen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] erweiterte dynamische Suchanzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -36,6 +38,5 @@ Weitere Informationen finden Sie in der Hilfe zu Google Ads für [Anzeigenbeschr
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können](ad-settings-google-call.md)
 >* [[!DNL Google Ads] Einstellungen für responsive Suchanzeigen](ad-settings-google-rsa.md)
-

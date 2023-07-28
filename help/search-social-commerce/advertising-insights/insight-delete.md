@@ -1,7 +1,9 @@
 ---
 title: Löschen von [!DNL Advertising Insight]
 description: Erfahren Sie, wie Sie eine [!DNL Advertising Insight].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c7c619c0-f6d7-4764-8f08-7d19c5b39772
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -19,6 +21,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Info [!UICONTROL Advertising Insights]](insight-about.md)
->* [Generieren eines [!DNL Advertising Insight]](insight-generate.md)
+>* [Generieren Sie eine [!DNL Advertising Insight]](insight-generate.md)
 >* [Anzeigen oder Speichern von [!DNL Advertising Insight]](insight-view-save.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Beenden eines Veröffentlichungsauftrags für Inventar-Feed-Daten
 description: Erfahren Sie, wie Sie einen Veröffentlichungsauftrag für Inventar-Feed-Daten stoppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Sie können die Veröffentlichung von Kampagnendaten, die aus einem Feed generie
 >* [Aus Feeds generierte Daten bearbeiten](propagated-data-edit.md)
 >* [Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke](propagated-data-post.md)
 >* [Status der aus Feeds generierten Daten](propagated-data-status.md)
-

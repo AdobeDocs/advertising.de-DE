@@ -1,13 +1,14 @@
 ---
 title: Über das Anpassen von Daten in Kampagnenverwaltungsansichten
 description: Erfahren Sie mehr über die Datentypen, die Sie in Kampagnendaten-Ansichten anpassen können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
 
 ---
-
 
 # Über das Anpassen von Daten in Kampagnenverwaltungsansichten
 
@@ -23,7 +24,7 @@ In den meisten Kampagnendaten können Sie die in der Datentabelle angezeigten Da
 
    * Suchen oder suchen Sie nach Kampagnen nach Portfolio oder Portfoliogruppe und filtern Sie nach dem Status der Entität und dem Status der Portfoliogruppe, des Portfolios und der Kampagne. Klicken Sie auf eine beliebige Portfoliogruppe, Portfolio oder Kampagne im Bedienfeld, um Daten für die Portfoliogruppe, das Portfolio oder die Kampagne in der aktuellen Entitätsansicht zu laden.
 
-   * Zugreifen auf, Bearbeiten und Zurücksetzen Ihrer Standardansichten; und öffnen, bearbeiten und löschen Sie Ihre benutzerdefinierten Ansichten. Durch Klicken auf einen beliebigen Ansichtsnamen wird die entsprechende Ansicht geladen.
+   * Sie können auf Ihre Standardansichten zugreifen, sie bearbeiten und zurücksetzen sowie auf Ihre benutzerdefinierten Ansichten zugreifen, sie bearbeiten und löschen. Durch Klicken auf einen beliebigen Ansichtsnamen wird die entsprechende Ansicht geladen.
 
 * Wenden Sie Filter auf alle verfügbaren Datenspalten an, um die auf der aktuellen Registerkarte angezeigten Daten zu ändern. Sie können Filter aus den Spaltenüberschriften oder aus einer Schaltfläche in der Symbolleiste erstellen. Filter werden beibehalten, wenn Sie untergeordnete Entitäten öffnen. Wenn Sie beispielsweise Kampagnen mit \> 100 Klicks anzeigen und dann innerhalb dieser Kampagne eine Anzeigengruppe öffnen, werden nur Anzeigengruppen mit \> 100 Klicks angezeigt.
 

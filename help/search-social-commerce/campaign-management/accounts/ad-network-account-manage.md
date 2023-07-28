@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -14,9 +16,9 @@ Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Kontodetail
 
 ## Erstellen von Details zum Anzeigennetzkonto {#create-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
-Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Kontozugriffsberechtigungen und Tracking-Optionen sowie den Status enthält *active*. Weitere Informationen zu den für jedes Anzeigennetzwerk verfügbaren Funktionen finden Sie unter[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kontodatensatz mit den Kontozugriffsberechtigungen und Tracking-Optionen sowie dem Status erstellen *active*. Weitere Informationen zu den für jedes Anzeigennetzwerk verfügbaren Funktionen finden Sie unter[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
 >[!NOTE]
 >
@@ -32,9 +34,9 @@ Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie 
 
    1. Im **[!UICONTROL Account Details]** Geben Sie die Kontodetails ein.
 
-      Für Werbenetzwerke, die den Anmelde-Autorisierungstyp verwenden:[!UICONTROL oAuth],&quot; erlauben Sie Search, Social und Commerce, auf das Konto zuzugreifen, indem Sie die [OAuth-Autorisierungsprotokoll](https://oauth.net/2/):
+      Für Werbenetzwerke, die den Anmelde-Autorisierungstyp verwenden:[!UICONTROL oAuth],&quot; erlauben Sie Search, Social und Commerce, auf das Konto mit der [OAuth-Autorisierungsprotokoll](https://oauth.net/2/):
 
-      1. Geben Sie die **[!UICONTROL Login]** -Wert für das Konto, geben Sie optional das Kennwort ein und klicken Sie dann auf **[!UICONTROL Authenticate]**.
+      1. Geben Sie die **[!UICONTROL Login]** -Wert für das Konto, geben Sie optional das Kennwort ein und klicken Sie auf **[!UICONTROL Authenticate]**.
 
          Es empfiehlt sich, die -Anmeldung für den API-Zugriff auf das Konto zu verwenden. Geben Sie das Kennwort ein, wenn Sie es verschlüsseln und speichern möchten, damit das Adobe Account Team Token nach Bedarf aktualisieren kann.
 
@@ -46,15 +48,15 @@ Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie 
 
       1. Geben Sie die restlichen Kontodetails an.
 
-   1. Klicken **[!UICONTROL Set Account Tracking]** und geben Sie die Tracking-Einstellungen ein.
+   1. Klicks **[!UICONTROL Set Account Tracking]** und geben Sie die Tracking-Einstellungen ein.
 
 1. Klicken **[!UICONTROL Post]**.
 
-   Die aktuellen Kosten- und Klickdaten für alle Kampagnen in dem Konto stehen in Search, Social und Commerce in etwa 24 Stunden zur Verfügung. Je nach Werbenetzwerk sind die Daten standardmäßig für die letzten 5-10 Tage verfügbar. Bei Bedarf kann das Projekt-Launch-Team jedoch Daten für die letzten 60 Tage abrufen.
+   Aktuelle Kosten- und Klickdaten für alle Kampagnen in dem Konto sind in Search, Social und Commerce in etwa 24 Stunden verfügbar. Je nach Werbenetzwerk sind die Daten standardmäßig für die letzten 5-10 Tage verfügbar. Bei Bedarf kann das Projekt-Launch-Team jedoch Daten für die letzten 60 Tage abrufen.
 
 ## Details zu Anzeigennetzkonten bearbeiten {#edit-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Wenn sich die Kontoanmeldeinformationen ändern, möchten Sie die standardmäßigen Tracking-Parameter für ein Konto ändern oder die Aktivität für ein Konto aktivieren oder deaktivieren und dann die Kontodetails bearbeiten.
 
@@ -80,7 +82,7 @@ Wenn sich die Kontoanmeldeinformationen ändern, möchten Sie die standardmäßi
 
 ## Aktualisieren von oAuth-Zugriffstoken für Suchkonten {#refresh-oauth-tokens}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Bei der Suche greifen Social und Commerce auf das Konto zu, das die [OAuth-Autorisierungsprotokoll](https://oauth.net/2/) und sich die Kontoanmeldeinformationen ändern oder wenn zusätzlicher Zugriff erforderlich ist, um neue Funktionen in Search, Social und Commerce zu unterstützen, müssen Sie ein neues Zugriffstoken für das Konto erhalten.
 
@@ -106,7 +108,7 @@ Ihr Adobe Account Team wird Sie darüber informieren, ob neue Funktionen ein neu
 
 ## Anzeigen-Netzwerkkonten aktivieren oder deaktivieren {#enable-disable-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und Commerce Kampagnendaten mit dem -Konto (sofern unterstützt) und überträgt automatisierte Angebote und/oder Kampagnenbudgets für Kampagnen in Portfolios. Wenn Sie ein Anzeigennetzwerkkonto deaktivieren, stoppt Search, Social und Commerce alle Aktivitäten auf dem Konto. Während der Kontoaktivität gesammelte Daten werden weiterhin gespeichert. Die Ansichten und Berichte der Kampagnenverwaltung enthalten jedoch keine Daten für den Zeitraum, in dem das Konto deaktiviert ist. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto wieder aufzunehmen.
 
@@ -132,7 +134,7 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 ### Kontodetails
 
-**[!UICONTROL SE Account ID]:** (Alle Konten außer [!DNL Naver] und [!DNL Yandex] Konten; bearbeitbar für neue Konten) Die vom Werbenetzwerk zugewiesene Konto-ID.
+**[!UICONTROL SE Account ID]:** (Alle Konten außer [!DNL Naver] und [!DNL Yandex] Konten; nur bearbeitbar für neue Konten) Die vom Anzeigennetzwerk zugewiesene Konto-ID.
 
 >[!NOTE]
 >
@@ -146,27 +148,27 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 **[!UICONTROL Login Details]: \[Anmeldetyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] nur) Gibt an, ob Anmeldungen für das Konto mit folgenden Optionen autorisiert werden sollen:
 
-* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* (Standardeinstellung): Um die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Zum Verwenden des Kundenkennworts.
 
 Für [!DNL Microsoft Advertising] nur Konten, [!DNL oAuth]-autorisierte Anmeldungen verwendet werden können.
 
-**[!UICONTROL Login Details]: [!UICONTROL Login]:** (Alle Anzeigennetze außer [!DNL Naver]) Der Anmeldename oder die ID, um den API-Zugriff auf das Konto zu aktivieren.
+**[!UICONTROL Login Details]: [!UICONTROL Login]:** (Alle Werbenetzwerke außer [!DNL Naver]) Der Anmeldename oder die ID, um den API-Zugriff auf das Konto zu aktivieren.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiviert und alle anderen Netzwerke außer [!DNL Baidu], [!DNL Meta]und [!DNL Yandex]) Das Token des Kontos, um Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiviert und alle anderen Netzwerke außer [!DNL Baidu], [!DNL Meta], und [!DNL Yandex]) Das Token des Kontos zur Autorisierung von Anmeldungen mithilfe der [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alle Anzeigennetze außer [!DNL Naver]) Das Kennwort für das Konto. Für passwortaktivierte Konten unter [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]und [!DNL Yandex], ist dieses Feld erforderlich. Für [!DNL oAuth]-aktivierte Konten; dieses Feld ist optional. Verwenden Sie es, wenn Sie das Kennwort verschlüsseln und speichern möchten, damit der Kundenbetreuer Token nach Bedarf aktualisieren kann.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alle Werbenetzwerke außer [!DNL Naver]) Das Kennwort für das Konto. Für passwortaktivierte Konten unter [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex], ist dieses Feld erforderlich. Für [!DNL oAuth]-aktivierte Konten ist dieses Feld optional. Verwenden Sie es, wenn Sie das Kennwort verschlüsseln und speichern möchten, damit der Kundenbetreuer Token nach Bedarf aktualisieren kann.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] und [!DNL Yandex] Nur Konten) Der Zugriffsschlüssel für das zu verwendende Entwicklerkonto.
 
-**[!UICONTROL Currency]:** Die Abkürzung für die Währung, die für das Konto verwendet wird. Dieses Feld kann für neue [!DNL Naver] Konten. Bei allen anderen Suchnetzwerken wird der Wert automatisch mit der für das Konto im Werbenetzwerk konfigurierten Währung ausgefüllt, sobald Sie den Datensatz gespeichert haben.
+**[!UICONTROL Currency]:** Die Abkürzung für die für das Konto verwendete Währung. Dieses Feld kann für neue [!DNL Naver] Konten. Bei allen anderen Suchnetzwerken wird der Wert automatisch mit der für das Konto im Werbenetzwerk konfigurierten Währung ausgefüllt, sobald Sie den Datensatz gespeichert haben.
 
-**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] und [!DNL Microsoft Advertising] nur Konten; optional) Alle Parameter, die an das Ende der endgültigen URLs angehängt werden, um Informationen zu verfolgen; enthalten alle Parameter, die Ihr Unternehmen verfolgen muss.
+**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten; optional) Alle Parameter, die an das Ende der endgültigen URLs angehängt werden sollen, um Informationen zu verfolgen. Schließen Sie alle Parameter ein, die Ihr Unternehmen verfolgen muss.
 
 Beispiel: `param1=value1&param2=value2`
 
-Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix. Konten mit einer Adobe Analytics-Integration müssen die Variable `s_kwcid` Parameter. Wenn das Konto über eine serverseitige s\_kwcid-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. ansonsten müssen Sie es hier manuell hinzufügen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix. Konten mit einer Adobe Analytics-Integration müssen die Variable `s_kwcid` -Parameter. Wenn das Konto über eine serverseitige s\_kwcid-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. Andernfalls müssen Sie sie hier manuell hinzufügen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -180,19 +182,19 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 * *Aktiviert:* Search, Social und Commerce synchronisiert Kampagnendaten mit dem -Konto (sofern unterstützt) und überträgt automatisierte Angebote und/oder Kampagnenbudgets für Kampagnen in Portfolios.
 * *Deaktiviert:* Search, Social und Commerce stoppt alle Aktivitäten auf dem Konto. Während der Kontoaktivierung erfasste Daten werden weiterhin gespeichert. Die Ansichten und Berichte der Kampagnenverwaltung enthalten jedoch keine Daten für den Zeitraum, in dem das Konto angehalten wurde. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto wieder aufzunehmen.
 
-**Tracking-Vorlage** - ([!DNL Google Ads], [!DNL Microsoft Advertising]und [!DNL Yahoo! Japan Ads] nur Konten; (optional) Die Standard-Tracking-Vorlage für das Konto, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die finale/Landingpage-URL in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
+**Tracking-Vorlage** - ([!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yahoo! Japan Ads] Nur Konten; optional) Die Standard-Tracking-Vorlage für das Konto, die alle Off-Landingpage-Umleitungen und Tracking-Parameter angibt und die finale URL/Landingpage in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
 
 * So betten Sie die endgültige URL ein:
 
    * ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{lpurl}` um die Landingpage-URL anzugeben.
+   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter . `!{lpurl}` um die Landingpage-URL anzugeben.
 
 * Sie können optional URL-Parameter und alle für die Kampagne definierten benutzerdefinierten Parameter einbeziehen, getrennt durch kaufmännische Und-Zeichen (&amp;), z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern hinzufügen.
 
-* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;&quot;Search, Social und Commerce setzt beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode voran.
+* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode vorgibt.
 
 >[!NOTE]
 >
@@ -204,11 +206,11 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 
 **[!UICONTROL MCC Account]:** ([!DNL Yandex] nur Konten; optional) Ein Agentur-/Verwaltungskonto, das mit dem Konto verknüpft ist. Um eine vorhandene Zuordnung zu entfernen, wählen Sie &quot;[!UICONTROL No MCC Account].&quot;
 
-**[!UICONTROL Application ID]:** ([!DNL Yandex] Nur Konten) Das Entwickler-Token, das für das Konto verwendet werden soll. Das gleiche Token wird für alle verwendet [!DNL Yandex] Konten.
+**[!UICONTROL Application ID]:** ([!DNL Yandex] Nur Konten) Das für das Konto zu verwendende Entwicklungstoken. Das gleiche Token wird für alle verwendet [!DNL Yandex] Konten.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] Konten, bei denen die Einstellung Freigegebenes Konto nur deaktiviert ist; optional) Die numerische ID für die Kampagne, die zur Bezahlung aller Werbekampagnen in dem Konto verwendet wird.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] Konten, bei denen die Einstellung Freigegebenes Konto deaktiviert ist; optional) Die numerische ID für die Kampagne, die zur Bezahlung aller Anzeigenkampagnen in dem Konto verwendet wird.
 
-**[!UICONTROL Finance Token]:** ([!DNL Yandex] Konten, bei denen die Einstellung Freigegebenes Konto nur deaktiviert ist; (optional) Das Entwicklungstoken, das für finanzbezogene API-Aufrufe verwendet wird, z. B. zur Neuzuweisung von Geld aus der Geldbörse zwischen den Kampagnen des Advertisers, sofern dies für die Portfoliooptimierung erforderlich ist.
+**[!UICONTROL Finance Token]:** ([!DNL Yandex] -Konten, bei denen die Einstellung Freigegebenes Konto deaktiviert ist; optional) Das Entwicklungstoken, das für finanzierungsbezogene API-Aufrufe verwendet wird, z. B. für die Neuzuweisung von Geld aus der Geldbörse zwischen den Kampagnen des Advertisers, sofern dies für die Portfoliooptimierung erforderlich ist.
 
 ### Kontoverfolgung
 
@@ -240,7 +242,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 
 * **S\_kwcid-Format** - (Bestehend [!DNL Google Ads] Konten für Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration, für die die s\_kwcid noch nicht migriert wurde)
 
-Dieses Konto verwendet das veraltete Format für den s\_kwcid-Trackingcode, mit dem Adobe Advertising Daten über das Konto für Adobe Analytics freigeben kann. Die [neuestes Format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID, die erforderlich sind, um eine genaue Berichterstellung auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen und Entwürfe sowie Experimente mit Höchstleistung in Analytics:
+Dieses Konto verwendet das veraltete Format für den s\_kwcid-Trackingcode, mit dem Adobe Advertising Daten über das Konto für Adobe Analytics freigeben können. Die [neuestes Format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID, die erforderlich sind, um eine genaue Berichterstellung auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen und Entwürfe sowie Experimente mit Höchstleistung in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -248,7 +250,7 @@ Wenn für dieses Konto Berichte auf Kampagnen- und Anzeigengruppenebene erstellt
 
 Eine vollständige Anleitung finden Sie unter &quot;[Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Report Suite-Namen** - (nur für EF-Umleitung mit Token; Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration; (optional) Eine oder mehrere Analytics Report Suites, an die Search, Social und Commerce Daten aus dem Werbenetzwerk sendet, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto. Diese Funktion ist nur für unterstützte Werbenetzwerke verfügbar.
+**Report Suite-Namen** - (Nur für EF-Umleitung mit Token; Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration; optional) Eine oder mehrere Analytics Report Suites, an die Search, Social und Commerce Daten aus dem Anzeigennetzwerk sendet, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto. Diese Funktion ist nur für unterstützte Werbenetzwerke verfügbar.
 
 Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die serverseitige s\_kwcid für das Konto konfiguriert werden oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; muss aktiviert sein. Darüber hinaus muss das Analytics-Konto des Advertisers für den Empfang von Daten aus Search, Social und Commerce konfiguriert werden. Weitere Informationen erhalten Sie von Ihrem Adobe Account Manager.
 

@@ -1,7 +1,9 @@
 ---
 title: Überwachen und Verwalten der Leistung Ihrer Kampagnen
 description: Erfahren Sie, wie Sie die Leistung jeder Kampagne und jedes Portfolios überwachen und Änderungen vornehmen können, um Ihre Ziele zu erreichen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -32,17 +34,16 @@ Je nach Leistung müssen Sie möglicherweise zusätzliche Geschäftsvorgänge du
 
 * Aktualisieren von geografischen und Site-Targeting-Strategien auf der Grundlage erweiterter Leistungsberichte.
 
-* Stoppen von Geboten für Anzeigen und Suchbegriffe in einer Kampagne durch Anhalten der Kampagne oder Inaktivität des Portfolios.
+* Stoppen von Angeboten für Anzeigen und Suchbegriffe in einer Kampagne durch Anhalten der Kampagne oder Inaktivität des Portfolios.
 
 * (Falls zutreffend) [Zuweisen einer Kampagne zu einem neuen Portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
 * (Falls zutreffend) Anpassung der Portfoliostrategien, um die Leistung zu verbessern und Wachstumsmöglichkeiten zu nutzen.
 
-   Weitere Informationen finden Sie im Optimierungshandbuch, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+  Weitere Informationen finden Sie im Optimierungshandbuch, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [Über die Kampagnenverwaltung in Search, Social und Commerce](campaign-management-about.md)
 >* [Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kampagnen](campaign-implemention-overview.md)
 >* [Google Ads-Konversionsdaten in Search, Social und Commerce](google-conversion-data.md)
-

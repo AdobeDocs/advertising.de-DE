@@ -1,7 +1,8 @@
 ---
 title: '''[!DNL Microsoft Advertising] Konversionsdaten"'
 description: Erfahren Sie mehr über die Typen [!DNL Microsoft Advertising]-getrackte Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
-source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Alle Metriken sind automatisch in Ihren Kampagnenverwaltungsansichten und Basisb
 
 ## Verfügbare Konversionsdaten
 
-Search, Social und Commerce synchronisiert Daten für Konversionen, für die die[!DNL Include in 'Conversions']&quot; aktiviert ist, wobei die Daten für die letzten 35 Tage abgerufen und dann Änderungen an den Daten täglich bis 09 abgerufen werden.:00-10:00 in der Zeitzone des Werbetreibenden. Historische Daten können sich von Tag zu Tag ändern, da bei jedem Klick neue Konversionen verfolgt werden.
+In Search, Social und Commerce werden Daten für Konversionen synchronisiert, für die die[!DNL Include in 'Conversions']&quot; aktiviert ist, wobei die Daten für die letzten 35 Tage abgerufen und dann Änderungen an den Daten täglich bis 09 abgerufen werden.:00-10:00 in der Zeitzone des Werbetreibenden. Historische Daten können sich von Tag zu Tag ändern, da bei jedem Klick neue Konversionen verfolgt werden.
 
 Zwei Transaktionseigenschaften für jede [[!DNL Microsoft Advertising]-verfolgte Konversion](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (die Sie in [!DNL Microsoft Advertising]) sind automatisch in Search, Social und Commerce verfügbar, wobei die Konversionsnamen verwendet werden, die in [!DNL Microsoft Advertising]. Zu den Transaktionseigenschaften für jede Konversion gehören:
 
@@ -24,7 +25,7 @@ Zwei Transaktionseigenschaften für jede [[!DNL Microsoft Advertising]-verfolgte
 
   >[!TIP]
   >
-  >Verwenden Sie diesen Eigenschaftstyp im Ziel für Portfolios mit [!DNL Microsoft Advertising] Kampagnen mit den Angebotsstrategien &quot;Max. Konversionswert&quot;und &quot;Target ROAS&quot;.
+  >Verwenden Sie diesen Eigenschaftstyp im Ziel für Portfolios mit [!DNL Microsoft Advertising] Kampagnen mit den Angebotsstrategien Max. Konversionswert und Target ROAS.
 
 * `CT_<conversion-name>` — Die Anzahl (Anzahl) der Konversionen, beginnend mit dem Präfix &quot;CT_&quot; (z. B. CT_Purchase).
 
@@ -38,7 +39,7 @@ Daten sind basierend auf der Klickzeit und der Konversions-/Transaktionszeit ab 
 
 >[!NOTE]
 >
->* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden in der Adobe Advertising möglicherweise doppelte Konversionsnamen angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
+>* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Angebotseinheit stimmen mit Daten im Anzeigennetzwerk auf derselben Ebene überein. Die eigenen Konversionsdaten des Werbenetzwerks für höhere Ebenen können jedoch zusätzliche Konversionen enthalten, die nicht den untergeordneten Gebotseinheiten zugeordnet werden. Die Daten in Search, Social und Commerce werden immer auf der Ebene der Angebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene nicht die gleichen Summen wie ein Bericht auf Kampagnenebene im Werbenetzwerk hat.
 >* Datenabweichungen sind in der Regel nach der Morgensynchronisierung geringer als nach der Tageszeit, wenn noch keine zusätzlichen Konversionen synchronisiert wurden. Es wird empfohlen, die Daten morgens zu überprüfen.
 >* Daten sind nicht auf Zielgruppen- oder geografischer Standortebene verfügbar und werden daher nicht zur automatischen Optimierung von RLSA und Ortsgebotsanpassungen verwendet.

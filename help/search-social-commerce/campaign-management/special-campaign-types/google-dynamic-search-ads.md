@@ -1,7 +1,9 @@
 ---
 title: Implementierung [!DNL Google Ads] dynamische Suchanzeigen
-description: Erfahren Sie mehr über den Arbeitsablauf für die Einrichtung [!DNL Google Ads] dynamische Suchanzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Google Ads] dynamische Suchanzeigen.
+exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Implementierung [!DNL Google Ads] dynamische Suchanzeigen
 
-*[!DNL Google Ads]Nur-Suche-Kampagnen mit kreativem oder Keyword- und kreativem Tracking*
+*[!DNL Google Ads]Suchkampagnen nur mit kreativem oder Keyword- und kreativem Tracking*
 
 Dynamische Suchanzeigen verwenden Inhalte von Ihrer Website anstelle von Keywords, um zu entscheiden, wann Ihre Anzeigen angezeigt werden. Sie können die Seiten Ihrer Websites definieren, deren Inhalt für das Targeting Ihrer dynamischen Suchanzeigen verwendet wird, indem Sie entweder separate dynamische Suchziele für die Anzeigengruppe einrichten oder eine Einstellung auf Kampagnenebene auswählen, mit der Ihre Anzeigen mithilfe Ihrer Website-Inhalte gezielt ausgerichtet werden.
 
@@ -38,7 +40,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
 
    1. (Optional) Konfigurieren Sie eine Tracking-Vorlage auf Kampagnenebene, die die Tracking-Vorlage auf Kontoebene außer Kraft setzt, aber auf niedrigeren Ebenen überschrieben werden kann.
 
-      (Werbetreibende mit Adobe Analytics ohne serverseitiges Tracking) Wenn Sie das Tracking für den Rückwärtsfeed von Search, Social und Commerce zu Analytics einbeziehen möchten, fügen Sie den Trackingcode s_kwcid zu den Anfügeparametern auf Kontoebene hinzu, die den Code zur endgültigen URL hinzufügen. Siehe[Der Tracking-Parameter s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Werbetreibende mit Adobe Analytics ohne serverseitiges Tracking) Wenn Sie das Tracking für den Rückwärtsfeed von Search, Social und Commerce zu Analytics einbeziehen möchten, fügen Sie den Trackingcode s_kwcid zu den Anfügeparametern auf Kontoebene hinzu, die den Code zur endgültigen URL hinzufügen. Siehe &quot;[Der Tracking-Parameter s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
 
 1. [Erstellen einer Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) innerhalb der Kampagne, einschließlich der folgenden Schritte:
 
@@ -57,7 +59,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
    [!DNL Google Ads] generiert für jede Anzeige dynamisch die Überschrift, die Anzeigen-URL und die Landingpage-URL. Sie können optional Umleitungen und Tracking zur Tracking-Vorlage auf Anzeigenebene hinzufügen, wodurch Tracking-Vorlagen auf höheren Ebenen außer Kraft gesetzt werden.
 Wenn Sie das Adobe Analytics-Tracking auf höheren Ebenen mit Tracking auf Anzeigenebene überschreiben möchten, fügen Sie es hier hinzu. Siehe Schritte 1e und 2c.
 
-1. (Erforderlich, wenn Sie die Stammdomäne und die Sprache für die Domäne im Abschnitt DSA-Optionen der Kampagneneinstellungen nicht einbeziehen; optional, ansonsten erstellen [dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) für die Anzeigengruppe. Optional können Sie das Angebot auf Anzeigengruppenebene durch Angebote auf Zielebene überschreiben.
+1. (Erforderlich, wenn Sie die Stammdomäne und die Sprache für die Domäne nicht im Abschnitt DSA-Optionen der Kampagneneinstellungen einbeziehen; andernfalls optional) Erstellen Sie [dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) für die Anzeigengruppe. Optional können Sie das Angebot auf Anzeigengruppenebene durch Angebote auf Zielebene überschreiben.
 
    Die Ziele definieren, ob das Werbenetzwerk alle oder eine Untergruppe der Seiten in Ihrer Website verwendet, um Ihre dynamischen Suchanzeigen auszurichten. Um die Leistung optimal zu verfolgen, konfigurieren Sie Ihre Kampagne mit einer Anzeigengruppe pro dynamisches Suchziel und fügen Sie eine Anzeigengruppe hinzu, die alle Kriterien erfüllt.
 

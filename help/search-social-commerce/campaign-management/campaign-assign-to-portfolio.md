@@ -1,18 +1,20 @@
 ---
-title: Zuweisen von Kampagnen zu einem Portfolio
+title: Kampagnen einem Portfolio zuweisen
 description: Erfahren Sie, wie Sie Kampagnen zur Optimierung in Portfolios einbeziehen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
 
 ---
 
-# Zuweisen von Kampagnen zu einem Portfolio
+# Kampagnen einem Portfolio zuweisen
 
 Wenn Sie eine Kampagne einem optimierten Portfolio zuweisen, können Sie mit Search, Social und Commerce Angebote und Kampagnenbudgets für Suchbegriffe und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen über die [!UICONTROL Campaigns] anzeigen, wenn Sie das Portfolio erstellen oder die Einstellungen eines Portfolios bearbeiten.
 
-Es können nicht alle Kampagnentypen und Anzeigennetzwerke optimiert werden. eine Liste von [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnenangebotsstrategie, indem Sie &quot;Geeignete Portfolio nach Kampagnenangebotsstrategie&quot;im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Verwalten von Portfolios&quot;konsultieren, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Nicht alle Kampagnentypen und Anzeigennetzwerke können optimiert werden. Eine Liste der [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnenangebotsstrategie, indem Sie &quot;Geeignete Portfolio nach Kampagnenangebotsstrategie&quot;im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Verwalten von Portfolios&quot;konsultieren, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
@@ -20,7 +22,7 @@ Es können nicht alle Kampagnentypen und Anzeigennetzwerke optimiert werden. ein
 
 ## Weisen Sie einem Portfolio Kampagnen aus dem [!UICONTROL Campaigns] Ansicht
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -45,12 +47,12 @@ Es können nicht alle Kampagnentypen und Anzeigennetzwerke optimiert werden. ein
       1. Erweitern Sie eine Portfoliogruppe in ihre untergeordneten Portfolios, indem Sie auf die [!UICONTROL Portfolio Group] name.
 
       1. Wählen Sie das Portfolio aus.
+
    * So suchen Sie nach einem Portfolio:
 
       1. Geben Sie mindestens drei Buchstaben in das Eingabefeld ein.
 
-      1. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Select]** neben dem Portfolionamen.
-
+      1. Klicken Sie im Suchergebnis auf **[!UICONTROL Select]** neben dem Portfolionamen.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Additional Details]** und geben Sie optional einen Projektnamen und eine Beschreibung ein.
 
@@ -66,17 +68,16 @@ Es können nicht alle Kampagnentypen und Anzeigennetzwerke optimiert werden. ein
 
 1. Klicken Sie im linken Menü auf **[!UICONTROL Campaigns]** und ändern Sie dann die Kampagnen im Portfolio:
 
-   * So fügen Sie alle gefilterten Kampagnen in der [!UICONTROL Available Campaigns] Abschnitt, klicken Sie auf ![Zuweisen aller Kampagnen zum Portfolio](/help/search-social-commerce/assets/arrow-assign-all.png "Zuweisen aller Kampagnen zum Portfolio").
+   * So fügen Sie alle gefilterten Kampagnen im [!UICONTROL Available Campaigns] Abschnitt, klicken Sie auf ![Zuweisen aller Kampagnen zum Portfolio](/help/search-social-commerce/assets/arrow-assign-all.png "Zuweisen aller Kampagnen zum Portfolio").
 
-   * So fügen Sie eine einzelne Kampagne im [!UICONTROL Available Campaigns] klicken Sie auf die Kampagne und ziehen Sie die Kampagne dann in den [!UICONTROL Assigned Campaigns] Liste oder klicken Sie auf ![Zuweisen einer Kampagne zum Portfolio](/help/search-social-commerce/assets/arrow-assign.png "Zuweisen einer Kampagne zum Portfolio").
+   * So fügen Sie eine einzelne Kampagne im [!UICONTROL Available Campaigns] klicken Sie auf die Kampagne und ziehen Sie die Kampagne dann in den [!UICONTROL Assigned Campaigns] Liste oder Klicken ![Zuweisen einer Kampagne zum Portfolio](/help/search-social-commerce/assets/arrow-assign.png "Zuweisen einer Kampagne zum Portfolio").
 
    * Um alle zugewiesenen Kampagnen zu entfernen, klicken Sie auf ![Entfernen aller Kampagnen aus dem Portfolio](/help/search-social-commerce/assets/arrow-remove-all.png "Entfernen aller Kampagnen aus dem Portfolio").
 
-   * Um eine einzelne Kampagne zu entfernen, klicken Sie auf die Kampagne und ziehen Sie sie dann in den [!UICONTROL Available Campaigns] Liste oder klicken Sie auf ![Kampagne aus Portfolio entfernen](/help/search-social-commerce/assets/arrow-remove.png "Kampagne aus Portfolio entfernen") .
+   * Um eine einzelne Kampagne zu entfernen, klicken Sie auf die Kampagne und ziehen Sie sie dann in den [!UICONTROL Available Campaigns] Liste oder Klicken ![Kampagne aus Portfolio entfernen](/help/search-social-commerce/assets/arrow-remove.png "Kampagne aus Portfolio entfernen") .
 
 1. Klicken **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Entfernen von Kampagnen aus einem Portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

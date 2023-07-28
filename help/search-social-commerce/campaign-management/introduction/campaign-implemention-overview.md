@@ -1,7 +1,9 @@
 ---
 title: Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kampagnen
 description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. (Bei Bedarf) Richten Sie das Konto im Werbenetzwerk ein.
 
-   1. Integrieren Sie mit dem Konto von [Erstellen eines entsprechenden Kontodatensatzes](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) in &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;, die die Kontozugriffsberechtigungen und Tracking-Optionen enthalten, und legen Sie den Kontostatus auf &quot;Aktiviert&quot;fest.
+   1. Integrieren Sie mit dem Konto von [Erstellen eines entsprechenden Kontodatensatzes](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) in &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;, die die Kontozugriffsberechtigungen und Tracking-Optionen enthalten, und legen Sie den Kontostatus auf aktiviert fest.
 
       Suchen, Social und Commerce synchronisiert dann mit dem Anzeigennetzwerk. Wenn das Konto bereits Kampagnendaten enthält, sind die Daten in etwa 24 Stunden verfügbar.
 
@@ -43,30 +45,30 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Nur Japan Ads- und Yandex-Konten) Hochladen [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) enthält so viele Daten wie Sie für ein Konto wünschen und sendet sie dann in die Werbenetzwerke.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads- und Yandex-Konten) Geben Sie Daten für einzelne Komponenten direkt in die Benutzeroberfläche ein. Für die meisten Kampagnen- und Anzeigentypen können Sie Daten auf Kampagnenebene, auf Anzeigengruppenebene sowie einzelne Suchbegriffe, Platzierungen und Anzeigenebenen erstellen.
-      Einige Kampagnen- und Anzeigentypen erfordern jedoch eindeutige Workflows. Siehe Anweisungen zum Einrichten von [[!DNL Microsoft Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamische Suchanzeigen](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] Leistungsmax-Kampagnen](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)und [[!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
+
+      Einige Kampagnen- und Anzeigentypen erfordern jedoch eindeutige Workflows. Siehe Anweisungen zum Einrichten von [[!DNL Microsoft Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamische Suchanzeigen](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] Performance-Max-Kampagnen](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md), und [[!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] Nur Tracking-Konten) Hochladen [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) mit Daten zur Replikation der vorhandenen Kampagnen, Anzeigengruppen und Suchbegriffe in Search, Social und Commerce, ohne sie in posten zu müssen [!DNL Naver].
 
+1. Richten Sie das Tracking für alle Anzeigen ein, für die der Adobe Advertising Konversionen verfolgt:
 
-1. Richten Sie das Tracking für alle Anzeigen ein, für die Adobe Advertising Konversionen verfolgt:
-
-   1. (Advertiser mit dem Adobe Advertising Conversion Tracking Service) Bei Bedarf [Klick-Tracking einrichten](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Suchbegriffe, Platzierungen und Anzeigenerweiterungen durch Generieren und Hochladen von Such-, Social- und Commerce-Klick-Tracking-URLs.
+   1. (Advertiser mit dem Adobe Advertising-Konversions-Tracking-Dienst) Bei Bedarf, [Klick-Tracking einrichten](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Suchbegriffe, Platzierungen und Anzeigenerweiterungen durch Generieren und Hochladen von Such-, Social- und Commerce-Klick-Tracking-URLs.
 
       Für [!DNL Google Ads] Kampagnen mit maximaler Performance, Einrichten des gesamten Trackings im [Tracking-Einstellungen der Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
 1. Für reine Tracking-Kampagnen müssen Sie stattdessen Ziel-URLs mithilfe von Bulksheets generieren und dann die generierten Ziel-URLs mithilfe des nativen Editors des Werbenetzwerks zu den relevanten Entitäten hinzufügen.
 
-   1. Richten Sie das Konversions-Tracking ein. Abhängig von der Implementierung kann dies das Hinzufügen von Konversions-Tracking-Tags zu den Webseiten des Advertisers und/oder das Einrichten eines täglichen Feed-Drop für Konversionsdaten umfassen, die der Advertiser separat erfasst hat.
+   1. Einrichten des Konversions-Trackings. Abhängig von der Implementierung kann dies das Hinzufügen von Konversions-Tracking-Tags zu den Webseiten des Advertisers und/oder das Einrichten eines täglichen Feed-Drop für Konversionsdaten umfassen, die der Advertiser separat erfasst hat.
 
-      Wenn Sie den Adobe Advertising Conversion Tracking-Dienst verwenden, können Sie Konversions-Tracking-Tags generieren [in Search, Social und Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) oder [Verwenden von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden, können Sie Konversions-Tracking-Tags generieren [in Search, Social und Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) oder [Verwenden von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. Validieren Sie die getrackten Daten.
 
    Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel &quot;Tracking&quot;.
 
-1. (Advertiser mit Adobe Analytics) [Integration von Adobe Advertising und Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) damit sie Daten austauschen können.
+1. (Werbetreibende mit Adobe Analytics) [Integration von Adobe Advertising und Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) damit sie Daten austauschen können.
 
-1. (Um Search, Social und Commerce zu ermöglichen, Angebote und/oder Kampagnenbudgets zu optimieren; [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) nur) [Zuweisen der Kampagne zu einem Portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Damit Search, Social und Commerce Angebote und/oder Kampagnenbudgets optimieren können; [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) nur) [Zuweisen der Kampagne zu einem Portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Wenn das Portfolio noch nicht gestartet wurde (Optimierung von Angeboten und/oder Budgets), lassen Sie die Optimierungsfunktion genügend Daten sammeln, damit Kosten- und Umsatzmodelle erstellt werden können, damit Sie die Basisleistung für das Portfolio vor dem Start festlegen können.
 
@@ -88,4 +90,3 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 >* [Überwachen und verwalten Sie die Leistung Ihrer Werbenetzwerk-Kampagnen.](monitor-performance-campaigns.md)
 >* [Google Ads-Konversionsdaten in Search, Social und Commerce](google-conversion-data.md)
 >* [Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)
-

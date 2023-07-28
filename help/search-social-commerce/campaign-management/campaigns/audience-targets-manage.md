@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen
 description: Erfahren Sie, wie Sie Zielgruppenziele für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Sie können Zielgruppenziele konfigurieren, die Angebotsmodifikatoren für Zielg
 
 ## Konfigurieren von Zielgruppenzielen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -44,14 +46,13 @@ Sie können Zielgruppenziele konfigurieren, die Angebotsmodifikatoren für Zielg
 
       1. Geben Sie jedes Kampagnen- und Anzeigengruppenziel für das angegebene Anzeigennetzwerk an, indem Sie auf den leeren Kreis daneben klicken, sodass ein blaues Häkchen (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) angezeigt.
 
-      Sie können keine Zielgruppe für eine übergeordnete Kampagne und keine untergeordnete Anzeigengruppe konfigurieren (die automatisch das Ziel verwendet).
-
+      Es ist nicht möglich, eine Zielgruppe sowohl für eine übergeordnete Kampagne als auch für eine untergeordnete Anzeigengruppe zu konfigurieren (die automatisch das Ziel verwendet).
 
 1. Klicken **[!UICONTROL Post]**.
 
 1. (Optional) Legen Sie eine Angebotsanpassung für das Ziel auf eine der folgenden Arten von der [!UICONTROL Targets] Ansicht:
 
-   * Klicken Sie in **[!UICONTROL Bid Adjustment]** und geben Sie einen Wert ein.
+   * Klicken Sie in der **[!UICONTROL Bid Adjustment]** und geben Sie einen Wert ein.
 
    * Aktivieren Sie das Kontrollkästchen neben der Zielzeile. Klicken Sie in der Symbolleiste auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten"), geben Sie den Angebotsmodifikator ein und klicken Sie dann auf **[!UICONTROL Post]**.
 
@@ -59,8 +60,7 @@ Sie können Zielgruppenziele konfigurieren, die Angebotsmodifikatoren für Zielg
 
    * *0 %:* So passen Sie keine Angebote für Anzeigen für diese Zielgruppe an.
 
-   * /[*Andere Werte von -90 % bis 900 %*/]: So erhöhen oder verringern Sie das Angebot für Anzeigen für diese Zielgruppe. Wenn das Angebot auf Suchbegriffebene beispielsweise 1 USD und die Angebotsanpassung für ein bestimmtes Zielgruppen-Ziel 50 % beträgt, erhöht sich das Angebot für diese Zielgruppe auf 1,50 USD.
-
+   * /[*Andere Werte von -90 % bis 900 %*/]: Um das Angebot für Anzeigen für diese Zielgruppe zu erhöhen oder zu verringern. Wenn das Angebot auf Suchbegriffebene beispielsweise 1 USD und die Angebotsanpassung für ein bestimmtes Zielgruppen-Ziel 50 % beträgt, erhöht sich das Angebot für diese Zielgruppe auf 1,50 USD.
 
 ## Bearbeiten des Angebotsmodifikators für Zielgruppenziele
 
@@ -70,7 +70,7 @@ Sie können den Angebotsmodifikator und den Status von Zielgruppenzielen für al
 >
 >Search, Social und Commerce optimieren den Angebotsmodifikator automatisch, wenn die übergeordnete Kampagne die CPC-Angebotsstrategie verwendet und sich in einem Portfolio befindet, das zur automatischen Optimierung der Angebotsanpassung für Zielgruppen konfiguriert ist.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -92,7 +92,7 @@ Sie können den Angebotsmodifikator und den Status von Zielgruppenzielen für al
 
          * *0 %:* So passen Sie keine Angebote für Anzeigen für diese Zielgruppe an.
 
-         * /[*Andere Werte von -90 % bis 900 %*/]: So erhöhen oder verringern Sie das Angebot für Anzeigen für diese Zielgruppe. Wenn das Angebot auf Suchbegriffebene beispielsweise 1 USD und die Angebotsanpassung für ein bestimmtes Zielgruppen-Ziel 50 % beträgt, erhöht sich das Angebot für diese Zielgruppe auf 1,50 USD.
+         * /[*Andere Werte von -90 % bis 900 %*/]: Um das Angebot für Anzeigen für diese Zielgruppe zu erhöhen oder zu verringern. Wenn das Angebot auf Suchbegriffebene beispielsweise 1 USD und die Angebotsanpassung für ein bestimmtes Zielgruppen-Ziel 50 % beträgt, erhöht sich das Angebot für diese Zielgruppe auf 1,50 USD.
 
          Bei mehreren Zielgruppen werden Ihre Änderungen auf alle ausgewählten Zielgruppen angewendet.
 
@@ -100,14 +100,13 @@ Sie können den Angebotsmodifikator und den Status von Zielgruppenzielen für al
 
       1. Klicken **[!UICONTROL Post]**.
 
-
 ## Ändern des Status von Zielgruppenzielen
 
 Sie können ein aktives Zielgruppen-Ziel anhalten, um die Gebote darauf zu deaktivieren. Sie können das Angebot später fortsetzen, indem Sie den Status zurück in &quot;aktiv&quot;ändern.
 
 Sie können auch ein aktives oder angehaltenes Suchtzielgruppen-Ziel löschen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Zielgruppen einzuschließen.
 
@@ -121,10 +120,9 @@ Sie können auch ein aktives oder angehaltenes Suchtzielgruppen-Ziel löschen.
 
    * Um die Zeilen anzuhalten, klicken Sie auf ![Anhalten](/help/search-social-commerce/assets/pause.png "Anhalten").
 
-   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr Aktionen](/help/search-social-commerce/assets/more.png "Mehr Aktionen") und wählen Sie **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr Aktionen](/help/search-social-commerce/assets/more.png "Mehr Aktionen") und wählen **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen](audience-about.md)
 >* [Verwalten von Zielgruppenausschlüssen für Kampagnen und Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

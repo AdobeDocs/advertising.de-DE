@@ -1,7 +1,9 @@
 ---
 title: Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für unterstützte Werbenetzwerke.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst
 
-Tracking-Vorlagen, Landingpage-Suffixe (endgültige URL-Suffixe) und Ziel-URLs für Anzeigenkonten und Kampagnen, die den Adobe Advertising Conversion-Tracking-Dienst verwenden, haben das folgende Format:
+Tracking-Vorlagen, Landingpage-Suffixe (endgültige URL-Suffixe) und Ziel-URLs für Anzeigenkonten und Kampagnen, die den Adobe Advertising-Konversions-Tracking-Dienst verwenden, haben das folgende Format:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
@@ -32,7 +34,7 @@ wobei:
 
 * `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden. Bei Konten mit Ziel-URLs ist dieser Wert eine URL. Bei Konten mit Tracking-Vorlagen ist dieser Wert ein Parameter (z. B. `{lpurl}`), die die endgültige URL darstellt.
 
-Siehe die separaten Seiten, die die [[!DNL Baidu] Formate](formats-click-tracking-baidu.md), [[!DNL Google Ads] Formate](formats-click-tracking-google.md), [[!DNL Microsoft Advertising] Formate](formats-click-tracking-microsoft.md), [[!DNL Naver] Formate](formats-click-tracking-naver.md), [[!DNL Yahoo! Display Network] Formate](formats-click-tracking-yahoo-display-network.md), [[!DNL Yahoo! Japan Ads] Formate](formats-click-tracking-yahoo-japan.md)und [[!DNL Yandex] Formate](formats-click-tracking-yandex.md).
+Siehe die separaten Seiten, die die [[!DNL Baidu] Formate](formats-click-tracking-baidu.md), [[!DNL Google Ads] Formate](formats-click-tracking-google.md), [[!DNL Microsoft Advertising] Formate](formats-click-tracking-microsoft.md), [[!DNL Naver] Formate](formats-click-tracking-naver.md), [[!DNL Yahoo! Display Network] Formate](formats-click-tracking-yahoo-display-network.md), [[!DNL Yahoo! Japan Ads] Formate](formats-click-tracking-yahoo-japan.md), und [[!DNL Yandex] Formate](formats-click-tracking-yandex.md).
 
 >[!MORELIKETHIS]
 >
@@ -43,4 +45,3 @@ Siehe die separaten Seiten, die die [[!DNL Baidu] Formate](formats-click-trackin
 >* [Klick-Tracking-Formate für gesponserte Anzeigen auf [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Klick-Tracking-Formate für gesponserte Anzeigen auf [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Klick-Tracking-Formate für gesponserte Anzeigen auf [!DNL Yandex]](formats-click-tracking-yandex.md)
-

@@ -1,14 +1,16 @@
 ---
-title: Unterstützte Bulksheet-Dateiformate
+title: Unterstützte Massendateiformate
 description: Referenzieren Sie die allgemeinen Dateianforderungen für Bulksheets.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
-# Unterstützte Bulksheet-Dateiformate
+# Unterstützte Massendateiformate
 
 ## Dateiformate
 
@@ -45,7 +47,7 @@ Datenfelder in TSV-Dateien und TXT-Dateien, die durch Tabulatoren getrennt sind,
 
 * Die Felder in jedem Datensatz werden durch Tabulatorzeichen getrennt. Wenn Sie einen Wert für ein Feld weglassen möchten, verwenden Sie nur das Tabulatorzeichen.
 
-   Beispiel: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  Beispiel: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * Felder dürfen keine eingebetteten Tabulatorzeichen enthalten.
 
@@ -55,23 +57,23 @@ Datenfelder in CSV-Dateien und TXT-Dateien, die durch Kommas getrennt sind, müs
 
 * Die Felder in einem Datensatz werden durch Kommas getrennt. Wenn Sie einen Wert für ein Feld weglassen möchten, verwenden Sie nur das Komma.
 
-   Beispiel: `Cruises,5000,Caribbean,,,`
+  Beispiel: `Cruises,5000,Caribbean,,,`
 
 * Jedes Feld kann optional in doppelte Anführungszeichen (`""`).
 
-   Beispiel:  `"Cruises","5000","Caribbean",`
+  Beispiel:  `"Cruises","5000","Caribbean",`
 
 * Felder mit eingebetteten Kommas müssen in doppelte Anführungszeichen (`""`).
 
-   Beispiel: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  Beispiel: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * Felder mit eingebetteten doppelten Anführungszeichen müssen in doppelte Anführungszeichen (`""`).
 
-   Beispiel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  Beispiel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * Felder mit vorangestellten oder nachfolgenden Leerzeichen müssen in doppelte Anführungszeichen (`""`).
 
-   Beispiel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  Beispiel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
@@ -79,4 +81,3 @@ Datenfelder in CSV-Dateien und TXT-Dateien, die durch Kommas getrennt sind, müs
 >* [Vorgänge, die Sie in Bulksheets ausführen können](bulksheet-operations.md)
 >* [Anhang - Bulksheet-Fehler](../bulksheet-errors.md)
 >* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
-

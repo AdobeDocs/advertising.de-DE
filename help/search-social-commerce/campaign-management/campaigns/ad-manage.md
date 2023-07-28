@@ -1,7 +1,9 @@
 ---
 title: Anzeigen verwalten
 description: Erfahren Sie, wie Sie Anzeigen erstellen und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Anzeigen verwalten
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]und [!DNL Yandex] Nur Konten*
+*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
 
 Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] anzeigen.
 
@@ -18,13 +20,13 @@ Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die 
 
 >[!NOTE]
 >
->Sie müssen keine Produktanzeigen für Einkaufskampagnen erstellen. das Werbenetzwerk erstellt sie automatisch. Für [!DNL Microsoft Advertising] Shopping-Kampagnen können Sie jedoch optional Promotionslinien definieren, die in Anzeigen aufgenommen werden sollen.
+>Sie müssen keine Produktanzeigen für Shopping-Kampagnen erstellen. Das Werbenetzwerk erstellt sie automatisch. Für [!DNL Microsoft Advertising] Shopping-Kampagnen können Sie jedoch optional Promotionslinien definieren, die in Anzeigen aufgenommen werden sollen.
 
 >[!TIP]
 >
 >Um mehrere Anzeigen gleichzeitig zu erstellen, verwenden Sie die [Funktion zum Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -32,30 +34,29 @@ Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die 
 
    Weitere Informationen zu den verschiedenen Anzeigentypen finden Sie unter[Über Anzeigen](ad-about.md).&quot;
 
-1. Geben Sie die [[!DNL Baidu] Textanzeige](ad-settings-baidu-text.md), [[!DNL Google Ads] Schreibgeschützte Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads als &quot;dynamische Suchanzeige&quot;bezeichnet), [[!DNL Google Ads] responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktanzeige](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] responsive Suchanzeige](ad-settings-microsoft-rsa.md)oder [[!DNL Yandex] Textanzeige](ad-settings-yandex-text.md) -Einstellungen.
+1. Geben Sie die [[!DNL Baidu] Textwerbung](ad-settings-baidu-text.md), [[!DNL Google Ads] Schreibgeschützte Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads als &quot;dynamische Suchanzeige&quot;bezeichnet), [[!DNL Google Ads] responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktwerbung](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] responsive Suchanzeige](ad-settings-microsoft-rsa.md)oder [[!DNL Yandex] Textwerbung](ad-settings-yandex-text.md) -Einstellungen.
 
    >[!NOTE]
    >
-   >(Kampagnen mit Adobe Advertising-Konversions-Tracking) Wenn in den Konto- oder Kampagneneinstellungen nur das Tracking auf Keyword-Ebene festgelegt ist, wird in Search, Social und Commerce kein Tracking für Anzeigen generiert.
+   >(Kampagnen mit Adobe Advertising-Konversions-Tracking) Wenn in den Konto- oder Kampagneneinstellungen nur das Tracking auf Suchbegriffebene festgelegt ist, generieren Search, Social und Commerce kein Tracking für Anzeigen.
 
 1. Klicken **[!UICONTROL Post]**.
 
-1. (Shopping-Anzeigen in Kampagnen mit Adobe Advertising-Konversions-Tracking; (optional) Um Klicks auf die Anzeige zu verfolgen, [eine Tracking-URL mit dem Tool Tracking-URLs generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)und fügen Sie sie manuell zu den Konto-, Kampagnen- oder Produktgruppeneinstellungen hinzu.
+1. (Shopping-Anzeigen in Kampagnen mit Adobe Advertising-Konversions-Tracking; optional) Um Klicks auf die Anzeige zu verfolgen, [eine Tracking-URL mit dem Tool Tracking-URLs generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)und fügen Sie sie manuell zu den Einstellungen für Konto, Kampagne oder Produktgruppe hinzu.
 
 ## Bearbeiten von Anzeigeneinstellungen
 
 >[!NOTE]
 >
->* Die folgenden Anzeigentypen sind *veränderlich*, was bedeutet, dass Sie die Anzeigenkopie oder das Bild ändern und dieselbe Anzeigen-ID beibehalten können: all [!DNL Google Ads] Anzeigentypen mit Ausnahme von dynamischen Suchanzeigen und [!DNL Microsoft Advertising] erweiterte Textanzeigen.
+>* Die folgenden Anzeigentypen sind *veränderlich*, was bedeutet, dass Sie die Anzeigenkopie oder das Bild ändern und dieselbe Anzeigen-ID beibehalten können: Alle [!DNL Google Ads] Anzeigentypen mit Ausnahme von dynamischen Suchanzeigen und [!DNL Microsoft Advertising] erweiterte Textanzeigen.
 >* Alle anderen unterstützten Anzeigen *nicht veränderlich*, was bedeutet, dass beim Ändern der Anzeigenkopie oder des Bildes die vorhandene Anzeige gelöscht und eine neue erstellt wird. Die Leistung der neuen Anzeige kann einige Wochen lang schwanken, während Search, Social und Commerce genügend Daten zur Optimierung von Angeboten erfasst.
 >* Sie können den Inhalt einer Produktanzeige nicht bearbeiten, mit Ausnahme der Promotion-Zeile für [!DNL Microsoft Advertising] Produktanzeigen. Sie können eine Anzeige jedoch anhalten oder löschen.
-
 
 >[!TIP]
 >
 >Um große Datenmengen gleichzeitig zu bearbeiten, verwenden Sie die [Funktion zum Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -69,7 +70,7 @@ Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die 
 
       1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [[!DNL Baidu] Textanzeige](ad-settings-baidu-text.md), [[!DNL Google Ads] Schreibgeschützte Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads als &quot;dynamische Suchanzeige&quot;bezeichnet), [[!DNL Google Ads] responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktanzeige](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] responsive Suchanzeige](ad-settings-microsoft-rsa.md)oder [[!DNL Yandex] Textanzeige](ad-settings-yandex-text.md) -Einstellungen.
+1. Bearbeiten Sie die [[!DNL Baidu] Textwerbung](ad-settings-baidu-text.md), [[!DNL Google Ads] Schreibgeschützte Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads als &quot;dynamische Suchanzeige&quot;bezeichnet), [[!DNL Google Ads] responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktwerbung](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] responsive Suchanzeige](ad-settings-microsoft-rsa.md)oder [[!DNL Yandex] Textwerbung](ad-settings-yandex-text.md) -Einstellungen.
 
    Bei mehreren Anzeigen können Sie nur die Felder bearbeiten, die für alle ausgewählten Anzeigen gleich sind, und Ihre Änderungen werden auf alle ausgewählten Anzeigen angewendet. Bei einigen alphanumerischen Feldern können Sie vorhandene Werte in einen angegebenen Wert ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge ersetzen, am Anfang jedes Werts ein angegebenes Präfix hinzufügen oder ein Suffix an das Ende jedes Werts anhängen. Bei einigen monetären Feldern können Sie die vorhandenen Werte in einen bestimmten Wert ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Begrenzung erhöhen oder verringern.
 
@@ -85,7 +86,7 @@ Sie können eine aktive Anzeige anhalten, um das Angebot zu deaktivieren. Sie k�
 
 Sie können auch jede aktive oder angehaltene Suchanzeige löschen. Gelöschte Anzeigen werden aus dem Werbenetzwerk gelöscht. Sie sind noch sichtbar, aber man kann sie nicht ändern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Anzeigen einzuschließen.
 
@@ -99,13 +100,13 @@ Sie können auch jede aktive oder angehaltene Suchanzeige löschen. Gelöschte A
 
    * Um die Zeilen anzuhalten, klicken Sie auf ![Anhalten](/help/search-social-commerce/assets/pause.png "Anhalten").
 
-   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Anzeigen](ad-about.md)
 >* [[!DNL Baidu] Textanzeigeneinstellungen](ad-settings-baidu-text.md)
->* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können](ad-settings-google-call.md)
 >* [[!DNL Google Ads] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] Einstellungen für responsive Suchanzeigen](ad-settings-google-rsa.md)
 >* [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-microsoft-dsa.md)
@@ -114,4 +115,3 @@ Sie können auch jede aktive oder angehaltene Suchanzeige löschen. Gelöschte A
 >* [[!DNL Microsoft Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] Textanzeigeneinstellungen](ad-settings-yandex-text.md)
-

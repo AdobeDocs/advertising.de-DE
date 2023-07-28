@@ -1,7 +1,9 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Yahoo! Display Network]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Yahoo! Display Network] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yahoo! Display Network] Konten.
+exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -26,9 +28,7 @@ Beispiel:
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 
-
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
 >* [Formate für den s\_kwcid-Trackingcode](skwcid-tracking-parameter.md)
-

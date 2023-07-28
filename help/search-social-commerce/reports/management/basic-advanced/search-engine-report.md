@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Search Engine Report]"
-description: Erfahren Sie mehr über die [!UICONTROL Search Engine Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL Search Engine Report]'
+description: Informationen zum [!UICONTROL Search Engine Report].
+exl-id: d90323b0-c3fa-4cb9-a649-ec51f858e71b
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
-

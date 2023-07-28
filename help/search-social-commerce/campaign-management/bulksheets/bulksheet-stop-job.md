@@ -1,7 +1,9 @@
 ---
 title: Beenden Sie den laufenden Bulksheet-Auftrag.
 description: Erfahren Sie, wie Sie einen Bulksheet-Auftrag stoppen können, während er in Bearbeitung ist.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Sie können jeden Bulksheet-Auftrag stoppen, einschließlich der Veröffentlichu
 >
 >* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
 >* [Hochgeladene Bulksheets und Fehlerdateien löschen](bulksheet-delete.md)
-

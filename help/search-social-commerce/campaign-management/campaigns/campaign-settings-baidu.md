@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] Kampagneneinstellungen"
+title: '''[!DNL Baidu] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Baidu] Kampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,12 +18,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der innerhalb des Kontos eindeutig ist. Die maximale Länge beträgt 15 Doppelbyte-Zeichen.
+**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der im Konto eindeutig ist. Die maximale Länge beträgt 15 Doppelbyte-Zeichen.
 
 **[!UICONTROL Ad Serving]:**
 Wie oft stellt die Suchmaschine Ihre aktiven Anzeigen in einer Anzeigengruppe im Verhältnis zueinander bereit:
 
-* *[!UICONTROL Rotate]* (Standardeinstellung für neue Kampagnen): Jede Ihrer Anzeigen hat die gleiche Wahrscheinlichkeit, an der Anzeigenauktion teilzunehmen.
+* *[!UICONTROL Rotate]* (Standardeinstellung für neue Kampagnen): Jede Ihrer Anzeigen hat dieselbe Wahrscheinlichkeit, an der Anzeigenauktion teilzunehmen.
 
 * *[!UICONTROL Optimize]:*  Das Werbenetzwerk bevorzugt Anzeigen, die eine bessere Leistung erzielen. Dies entspricht möglicherweise nicht Ihren Unternehmens- und Optimierungszielen.
 
@@ -82,4 +84,3 @@ Wie oft stellt die Suchmaschine Ihre aktiven Anzeigen in einer Anzeigengruppe im
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

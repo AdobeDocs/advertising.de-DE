@@ -1,7 +1,9 @@
 ---
 title: Massenblatt-Fehler
 description: Referenzpotenzielle Gründe für jeden Bulksheet-Fehler.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;generieren zwei Arten von Fehlerdateien während des Bulksheet-Vorgangs:
 
-* **SE-Fehler:** Wenn eine Datei gepostet wird, das Werbenetzwerk jedoch nicht alle Daten akzeptiert, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_se_errors.<extension used for the bulksheet>` erstellt. Wenn einige, aber nicht alle Zeilen akzeptiert wurden, zeigt die Fehlerdatei die Zeilen an, die nicht veröffentlicht wurden, und eine Erläuterung jedes Fehlers, damit Sie ihn korrigieren können. Die Fehler sind im Abschnitt &quot;[!UICONTROL SE Error Message]&quot;.
+* **SE-Fehler:** Wenn eine Datei gepostet wird, das Werbenetzwerk jedoch nicht alle Daten akzeptiert, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_se_errors.<extension used for the bulksheet>` erstellt wird. Wenn einige, aber nicht alle Zeilen akzeptiert wurden, zeigt die Fehlerdatei die Zeilen an, die nicht veröffentlicht wurden, und eine Erläuterung jedes Fehlers, damit Sie ihn korrigieren können. Die Fehler sind im Abschnitt &quot;[!UICONTROL SE Error Message]&quot;.
 
 >[!NOTE]
 >
@@ -22,11 +24,11 @@ ht-degree: 0%
 
 ## [!UICONTROL SE Error] messages
 
-Fehler im [!UICONTROL SE Error] -Spalte direkt aus dem Werbenetzwerk stammen.
+Fehler in der [!UICONTROL SE Error] -Spalte direkt aus dem Werbenetzwerk stammen.
 
 ## [!UICONTROL EF Error] messages
 
-Die folgenden Fehler können im [!UICONTROL EF Error] Spalte in [!UICONTROL EF Errors] Dateien.
+Die folgenden Fehler können im [!UICONTROL EF Error] Spalte in [!UICONTROL EF Errors] -Dateien.
 
 ### Fehler herunterladen/erstellen
 
@@ -42,9 +44,9 @@ Die folgenden Fehler können im [!UICONTROL EF Error] Spalte in [!UICONTROL EF E
 | Allgemein | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Invalid Fields.] \[ungültige Felder und Fehler\] | Die angegebenen Daten fehlen oder sind ungültig. |
 |  | [!UICONTROL Invalid Reference Given] | Die ID der Entität im Werbenetzwerk oder die ID der übergeordneten Entität (z. B. die Konto-ID) entspricht keiner Entität in Search, Social und Commerce. Dies kann vorkommen, wenn Sie die ID im Bulksheet bearbeitet haben. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | Die Entität ist abgelaufen oder wurde gelöscht und Sie können ihre Eigenschaften nicht ändern. Die Entität kann gelöscht werden, wenn jemand den Status manuell bearbeitet hat. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Neue Entitäten) Eine neue Entität kann nur &quot;Aktiv&quot;oder &quot;Angehalten&quot;sein. |
-|  | [!UICONTROL Duplicate Entries are present] | Für dieselbe Entität werden mehrere Zeilen mit unterschiedlichen Attributen in jeder Zeile einbezogen. Konsolidieren Sie die Änderungen in einer Zeile. |
+|  | [!UICONTROL <Entity> is deleted or expired] | Die Entität ist abgelaufen oder wurde gelöscht und Sie können ihre Eigenschaften nicht ändern. Die Entität kann gelöscht werden, wenn jemand den Status manuell bearbeitet hat. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Neue Entitäten) Eine neue Entität kann nur &quot;Aktiv&quot;oder &quot;Angehalten&quot;sein. |
+|  | [!UICONTROL Duplicate Entries are present] | Für dieselbe Entität werden mehrere Zeilen mit unterschiedlichen Attributen in jeder Zeile einbezogen. Zusammenfassen der Änderungen in einer Zeile |
 |  | [!UICONTROL Invalid AMO ID given] | Die AMO-ID für die Zeile ist nicht vorhanden. Dies kann vorkommen, wenn Sie die ID im Bulksheet bearbeitet haben. |
 |  | [!UICONTROL Invalid row given] | Die Zeile enthält nicht genügend Informationen, um den Entitätstyp zu bestimmen. Bearbeiten Sie die Zeile, um alle erforderlichen Felder für den Entitätstyp einzuschließen. |
 | Konten | [!UICONTROL Provide Valid Account Details] | (Bulksheets für mehrere Konten) Kontokennungen sind nicht in allen Zeilen enthalten. Geben Sie Werte für eine der folgenden Spalten-Kombinationen für jede Zeile ein: a) &quot;[!UICONTROL AMO ID]&quot; oder b) &quot;[!UICONTROL Account Name]&quot; und &quot;[!UICONTROL Platform].&quot; |
@@ -59,15 +61,15 @@ Die folgenden Fehler können im [!UICONTROL EF Error] Spalte in [!UICONTROL EF E
 | Alle Anzeigengruppenkomponenten | [!UICONTROL Adgroup creation failed] | Die übergeordnete Anzeigengruppe wurde nicht erstellt, sodass diese Entität nicht erstellt werden konnte. Dies kann an einem Fehler in den Anzeigengruppenfeldern oder an einem Fehler der übergeordneten Kampagne liegen. Stellen Sie sicher, dass alle übergeordneten Entitäten alle erforderlichen Felder enthalten. |
 |  | [!UICONTROL Adgroup Row Missing] | Die angegebene übergeordnete Anzeigengruppe existiert nicht, sodass die Entität nicht erstellt werden konnte. Erstellen Sie die übergeordnete Anzeigengruppe in einer neuen Zeile. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | Die &quot;[!UICONTROL Tracking Template]Das Feld &quot; ist nur für Konten mit finalen/erweiterten URLs verfügbar. Entfernen Sie den Wert, bis Sie das Konto zur Verwendung endgültiger/erweiterter URLs migriert haben. |
-| Anzeige | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Andere Anzeigentypen als Text, erweiterter Text, Produkt, App-Installation und dynamische Suche) Sie können nur den Status und die URL für diesen Anzeigentyp bearbeiten. |
+| Anzeige | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Andere Anzeigentypen als Text, erweiterter Text, Produkt, App-Installation und dynamische Suche) Sie können nur den Status und die URL für diesen Anzeigentyp bearbeiten. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Jede Anzeigengruppe kann bis zu 50 Anzeigen enthalten, und dieses Bulksheet enthält mehr als 50 Anzeigen. Reduzieren Sie die Anzahl der Anzeigen. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | Die Anzeige befindet sich in einer abgelaufenen oder gelöschten übergeordneten Entität, sodass Sie sie nicht bearbeiten können. |
 | Schlüsselwort | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | Die übergeordnete Kampagne oder Anzeigengruppe wird gelöscht oder abgelaufen, sodass Sie die Entität nicht ändern können. |
 | Platzierung | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | Die übergeordnete Kampagne oder Anzeigengruppe wird gelöscht oder abgelaufen, sodass Sie die Entität nicht ändern können. |
 |  | [!UICONTROL Cannot specify placement bids for websites under Display Select enabled Campaign with Search and Display Networks] | (Google Ads) Sie können Angebote für Platzierungen nur in Kampagnen erstellen, die nur im Suchnetzwerk oder nur im Inhaltsnetzwerk verfügbar sind, jedoch nicht in Kampagnen, die sowohl auf Such- als auch auf Inhaltsnetzwerke ausgerichtet sind. |
-| Warengruppe | [!UICONTROL Cannot delete Everything Else manually. It will be deleted automatically when all Product Group Conditions under the same parent are removed] | Jede Ebene der Produktgruppe muss eine[!UICONTROL Everything Else]&quot;. Sie können ein &quot;[!UICONTROL Everything Else]&quot; Gruppe; wird automatisch gelöscht, wenn Sie alle anderen Produktgruppen auf derselben Ebene löschen. |
+| Warengruppe | [!UICONTROL Cannot delete Everything Else manually. It will be deleted automatically when all Product Group Conditions under the same parent are removed] | Jede Ebene der Produktgruppe muss eine[!UICONTROL Everything Else]&quot;. Sie können ein &quot;[!UICONTROL Everything Else]&quot;. Sie wird automatisch gelöscht, wenn Sie alle anderen Produktgruppen auf derselben Ebene löschen. |
 |  | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | Die übergeordnete Kampagne oder Anzeigengruppe wird gelöscht oder abgelaufen, sodass Sie die Entität nicht ändern können. |
-| Sitelink | [!UICONTROL Sitelinks Cannot update more than 10 site links per campaign] | ([!DNL Yandex] nur) Die Nachricht ist ungenau. Jede Kampagne kann bis zu vier (nicht 10) Sitelinks umfassen, und dieses Bulksheet enthält mehr als vier. Entfernen Sie einige Sitelinks. |
+| Sitelink | [!UICONTROL Sitelinks Cannot update more than 10 site links per campaign] | ([!DNL Yandex] Nur) Die Nachricht ist ungenau. Jede Kampagne kann bis zu vier (nicht 10) Sitelinks enthalten, und dieses Bulksheet enthält mehr als vier. Entfernen Sie einige Sitelinks. |
 |  | [!UICONTROL Cannot update sitelinks under deleted/expired campaign] | Die übergeordnete Kampagne ist abgelaufen oder gelöscht, sodass Sie den Sitelink nicht bearbeiten können. |
 |  | [!UICONTROL Creative creation failed] | ([!DNL Yandex]) Der Sitelink konnte nicht erstellt werden, da die Anzeige nicht erstellt wurde. |
 | Standort-Ziel | [!UICONTROL Cannot modify locations under deleted campaigns or adgroups] | Die übergeordnete Kampagne oder Anzeigengruppe wird gelöscht oder abgelaufen, sodass Sie die Standortziele nicht bearbeiten können. |
@@ -82,7 +84,7 @@ Die folgenden Fehler treten in [!UICONTROL EF Errors] -Dateien. Die meisten Post
 |----|----|----|
 | Allgemein | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Entity] wird in das Werbenetzwerk veröffentlicht | Die Entität wurde im Werbenetzwerk veröffentlicht, aber nicht gleichzeitig mit Search, Social und Commerce synchronisiert, sodass die Entitätsdaten nicht sofort in Search, Social und Commerce verfügbar sind. Der Synchronisierungsprozess wird jetzt automatisch ausgelöst.<br><br>Wenn große Datenmengen synchronisiert werden, sind die Daten möglicherweise mehrere Stunden oder länger nicht in Search, Social und Commerce verfügbar. |
-| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Die übergeordnete Entität konnte nicht erstellt werden, sodass diese untergeordnete Entität nicht erstellt wurde. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Die übergeordnete Entität konnte nicht erstellt werden, sodass diese untergeordnete Entität nicht erstellt wurde. |
 
 >[!MORELIKETHIS]
 >

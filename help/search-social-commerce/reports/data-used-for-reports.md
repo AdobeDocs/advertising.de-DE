@@ -2,7 +2,8 @@
 title: Die für Berichte verwendeten Daten
 description: Erfahren Sie mehr über die verschiedenen Datentypen, die in Datenansichten und benutzerdefinierten Berichten verfügbar sind.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -33,7 +34,7 @@ Die meisten Berichte können so angepasst werden, dass nur die Informationen ang
 
 * **Konversionsmetriken:** Die Gesamtzahl der Konversionen für die einzelnen Konversionen der [Transaktionseigenschaften](/help/search-social-commerce/glossary.md#s-t)oder Transaktionsdaten, die für einen Konversionstyp verfolgt werden. Dazu können Konversions- und Site-Interaktionsmetriken, jedoch keine berechneten Metriken und erweiterte berechnete Metriken gehören, die aus Adobe Analytics synchronisiert werden.
 
-  Dies kann auch Folgendes umfassen: [[!DNL Google Ads]-verfolgte Konversionen](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-verfolgte Konversionen](/help/search-social-commerce/admin/data-sources/data-source-about.md) die für das Advertiser-Konto synchronisiert werden.
+  Dies kann auch [[!DNL Google Ads]-verfolgte Konversionen](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-verfolgte Konversionen](/help/search-social-commerce/admin/data-sources/data-source-about.md) die für das Advertiser-Konto synchronisiert werden.
 
 * **Benutzerdefinierte Metriken:** Ihre eigenen Metriken, die Sie durch die Erstellung von Formeln auf der Grundlage vorhandener Metriken ableiten (z. B. Kosten pro Bestellung).
 

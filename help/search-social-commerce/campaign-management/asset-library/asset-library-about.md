@@ -1,7 +1,8 @@
 ---
 title: "Über die [!UICONTROL Asset Library]"
-description: Erfahren Sie mehr über die Asset-Bibliothek für Ihre Anzeigen-Assets.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+description: Informationen zur Asset-Bibliothek für Ihre Anzeigen-Assets.
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%

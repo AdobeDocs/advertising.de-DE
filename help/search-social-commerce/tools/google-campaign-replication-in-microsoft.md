@@ -1,17 +1,18 @@
 ---
-title: Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
+title: Replikation [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 description: Erfahren Sie, wie Sie Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] -Konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
 
 ---
 
-# Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
+# Replikation [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 
-Sie können Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] als erweiterte CPC (eCPC)-Kampagnen. Die vorhandenen Angebote und Kampagnenbudgets werden skaliert. Vorhandenes Suchen-, Social- und Commerce-Tracking wird nicht importiert.
+Sie können Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] als erweiterte CPC (eCPC)-Kampagnen. Die vorhandenen Angebote und Kampagnenbudgets werden skaliert. Vorhandenes Tracking von Suchen, Social und Commerce wird nicht importiert.
 
 Sie können die folgenden Kampagnentypen und deren Kampagnenstruktur replizieren:
 
@@ -19,19 +20,19 @@ Sie können die folgenden Kampagnentypen und deren Kampagnenstruktur replizieren
 
 * [!DNL Google Display Network] Kampagnen, einschließlich Anzeigenbilder, in [!DNL Microsoft® Advertising] Zielgruppenkampagnen im Microsoft® Zielgruppen-Netzwerk.
 
-  Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, replizieren Sie zunächst Ihre [!DNL Google Merchant Center] Produktangebote an [!DNL Microsoft® Merchant Center]. Wenn Sie die Kampagnen replizieren, wählen Sie die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
+  Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, replizieren Sie zunächst Ihre [!DNL Google Merchant Center] Produktangebote an [!DNL Microsoft® Merchant Center]. Wählen Sie bei der Replikation der Kampagnen die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
 
-* [!DNL Google Ads] Leistungsmax-Kampagnen, einschließlich lokaler Inventaranzeigen in [!DNL Microsoft® Advertising] intelligente Einkaufskampagnen.
+* [!DNL Google Ads] Leistungsmax-Kampagnen, einschließlich lokaler Inventaranzeigen in [!DNL Microsoft® Advertising] Smart Shopping-Kampagnen.
 
-Sie können die Kampagnen einmalig aktualisieren. wöchentlich oder monatlich; oder gemäß [!DNL Microsoft® Advertising]wird empfohlen. Sie können optional Benachrichtigungen bei jeder Ausführung eines Importvorgangs oder bei Fehlern oder Änderungen konfigurieren. Nachdem Sie Ihre Kampagnen in importiert haben [!DNL Microsoft® Advertising]können Sie den Status Ihres Importvorgangs überprüfen, alle Fehlerprotokolle überprüfen, einen Importauftrag manuell ausführen und Ihren Importplan bearbeiten, anhalten, aktivieren oder löschen.
+Sie können die Kampagnen einmalig, wöchentlich oder monatlich oder je nach [!DNL Microsoft® Advertising]wird empfohlen. Sie können optional Benachrichtigungen bei jeder Ausführung eines Importvorgangs oder bei Fehlern oder Änderungen konfigurieren. Importieren Sie Ihre Kampagnen in [!DNL Microsoft® Advertising]können Sie den Status Ihres Importvorgangs überprüfen, alle Fehlerprotokolle überprüfen, einen Importauftrag manuell ausführen und Ihren Importplan bearbeiten, anhalten, aktivieren oder löschen.
 
 Nicht alle Kampagneninformationen werden repliziert, und Sie müssen möglicherweise einige Informationen zu Ihrem [!DNL Microsoft® Advertising] Kampagnen. Weitere Informationen dazu, welche Daten importiert werden, finden Sie unter [!DNL Microsoft® Advertising] Hilfe zu &quot;[Was importiert wird von [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Da das Tracking von Suche, Social und Commerce nicht importiert wird, sollten Sie auch das Tracking innerhalb der [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) -Einstellungen.
 
-## Replizieren [!DNL Google Ads] Kampagnen
+## Replikation [!DNL Google Ads] Kampagnen
 
 >[!NOTE]
 >
->Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, müssen Sie zuerst [replizieren Sie Ihre [!DNL Google Merchant Center] Produktangebote in [!DNL Microsoft® Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870). Wenn Sie die Kampagnen replizieren, wählen Sie die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
+>Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, müssen Sie zuerst [replizieren Sie Ihre [!DNL Google Merchant Center] Produktangebote in [!DNL Microsoft® Merchant Center]](https://help.ads.microsoft.com/apex/index/3/en/56870). Wählen Sie bei der Replikation der Kampagnen die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
 
 Siehe [Was wird importiert von [!DNL Google Ads] Kampagnen](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -89,11 +90,11 @@ Sie können alle Importvorgänge einschließlich der Quelle auflisten [!DNL Goog
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Importauftrag.
 
-1. Klicken ![Jetzt ausführen](/help/search-social-commerce/assets/run.png "Jetzt ausführen").
+1. Klicks ![Jetzt ausführen](/help/search-social-commerce/assets/run.png "Jetzt ausführen").
 
 ## Anzeigen von Protokollen für Kampagnenimportaufträge {#campaign-import-log}
 
-Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten, einschließlich der Startzeit, der Quelle [!DNL Google Ads] Konto, Zielgruppe [!DNL Microsoft® Advertising] -Konto, der Benutzer, der den Auftrag erstellt hat, die Anzahl erfolgreicher und fehlgeschlagener Vorgänge sowie alle E-Mail-Adressen, an die Benachrichtigungen zu den einzelnen Aufträgen gesendet wurden. Sie können weitere Details zu den Änderungen an der Zielgruppe anzeigen [!DNL Microsoft® Advertising] -Konto, das für jeden Auftrag aufgetreten ist, einschließlich der Anzahl der hinzugefügten, synchronisierten, gelöschten Elemente und der Fehler für jede Entitätsebene (z. B. Kampagne oder Keyword) im Konto.
+Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten, einschließlich der Startzeit, der Quelle [!DNL Google Ads] Konto, Zielgruppe [!DNL Microsoft® Advertising] -Konto, der Benutzer, der den Auftrag erstellt hat, die Anzahl erfolgreicher und fehlgeschlagener Vorgänge sowie alle E-Mail-Adressen, an die Benachrichtigungen zu den einzelnen Aufträgen gesendet wurden. Sie können weitere Details zu den Änderungen am Ziel anzeigen [!DNL Microsoft® Advertising] -Konto, das für jeden Auftrag aufgetreten ist, einschließlich der Anzahl der hinzugefügten, synchronisierten, gelöschten Elemente und der Fehler für jede Entitätsebene (z. B. Kampagne oder Keyword) im Konto.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
@@ -109,7 +110,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 **[!UICONTROL Credential ID]:** Eine ID, die [!DNL Microsoft® Advertising] verwendet, um Ihre [!DNL Google Ads] Anmeldedaten.
 
-Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von nicht verfügbar. [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an den technischen Support von Adobe oder an Ihr Adobe Account-Team. Diese generieren die Anmeldeinformationen und geben Sie die Kennung an.
+Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an den technischen Support von Adobe oder an Ihr Adobe Account-Team. Diese generieren die Anmeldeinformationen und geben Sie die Kennung an.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Die synchronisierten [!DNL Microsoft® Advertising] Konto, in das die Kampagnendaten importiert werden.
 
@@ -129,13 +130,13 @@ Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformati
 
       * Im [!UICONTROL Campaigns] oder [!UICONTROL Adgroups] deaktivieren Sie die Auswahl der Kampagne oder Anzeigengruppe, damit das Häkchen verschwindet.
 
-      * Im [!UICONTROL Selected] Spalte, klicken Sie auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
+      * Im [!UICONTROL Selected] Spalte, klicken ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
 
 ### [!UICONTROL Customize your import]
 
 **[!UICONTROL Choose specific import options]:** Ermöglicht die Angabe des Importvorgangs, der Angebote und Budgets sowie anderer Optionen.
 
-**[!UICONTROL What to import]:** Definiert die zu importierenden Elemente. Optionen zum Importieren von Elementkategorien sind standardmäßig ausgewählt, wobei alle Elementtypen ausgewählt sind. Um nur bestimmte Elementtypen einzuschließen, klicken Sie auf **[!UICONTROL Show advanced options]** und ändern Sie die Elementtypen, die einbezogen werden sollen.
+**[!UICONTROL What to import]:** Definiert die zu importierenden Elemente. Optionen zum Importieren von Elementkategorien sind standardmäßig ausgewählt, wobei alle Elementtypen ausgewählt sind. Um nur bestimmte Elementtypen einzuschließen, klicken Sie auf **[!UICONTROL Show advanced options]** und ändern Sie die einzuschließenden Elementtypen.
 
 **[!UICONTROL Bids and budgets]:** Definiert, welche Gebots- und Budgeteinstellungen importiert, aktualisiert und angepasst werden sollen.
 

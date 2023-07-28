@@ -1,7 +1,9 @@
 ---
 title: Bericht aus einer Vorlage erstellen
 description: Erfahren Sie, wie Sie einen Bericht mit einer Berichtsvorlage erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 353e2a88-a3fc-4a53-afd4-b18b776357db
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 1%
@@ -27,4 +29,3 @@ ht-degree: 1%
 >* [Berichtseinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [Berichte löschen](/help/search-social-commerce/reports/management/report-delete.md)
-

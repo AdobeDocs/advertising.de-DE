@@ -1,7 +1,9 @@
 ---
 title: Über Berichte zur Modellgenauigkeit
 description: Erfahren Sie mehr über Berichte, die die Genauigkeit der Kosten- und Umsatzmodelle angeben, die zur Optimierung von Angeboten verwendet werden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -27,4 +29,3 @@ Ungenauigkeiten können auf Leistungsprobleme hinweisen, sodass Sie die Portfoli
 >* [Modellexaktionsbericht generieren](model-accuracy-report-generate.md)
 >* [Berichtseinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)
-

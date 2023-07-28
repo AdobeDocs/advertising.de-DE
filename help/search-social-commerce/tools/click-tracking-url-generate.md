@@ -1,7 +1,9 @@
 ---
 title: Klick-Tracking-URL generieren
 description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Suche, Social und Commerce generieren.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
 1. Wählen Sie das Konto für das Werbenetzwerk aus der Liste aus.
 
-   ([!DNL Google Ads] Schlüsselwörter; Text-, Mobile-App-Installation und dynamische Suchanzeigen; Platzierungen; Sitelinks; und Produktgruppen) Trackingtags für das Feld Tracking-Vorlage werden angezeigt. Sie enthalten keine Anlagenparameter auf Kontoebene. Fahren Sie mit Schritt 4 fort.
+   ([!DNL Google Ads] Suchbegriffe; Text, Installation mobiler Apps und dynamische Suchanzeigen; Platzierungen; Sitelinks; und Produktgruppen) Trackingtags für das Feld Tracking-Vorlage werden angezeigt. Sie enthalten keine Anlagenparameter auf Kontoebene. Fahren Sie mit Schritt 4 fort.
 
    Geben Sie für alle anderen Typen von Tags Informationen ein, um ein Tag zu generieren.
 
@@ -46,7 +48,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Die Datei kann bis zu 10.000 Zeilen enthalten.
 
-         * ([!DNL Google Merchant Center] Produktgruppen und [Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
@@ -68,7 +70,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Beispiel: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] Produktgruppen und [!DNL Microsoft® Advertising] Produktanzeigen) `product name**landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft® Advertising] Produktanzeigen) `product name**landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 

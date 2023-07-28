@@ -3,7 +3,8 @@ title: Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle
 description: Erfahren Sie, wie Sie eine [!DNL Google Analytics] Datenquelle, wenn Sie das zugehörige Kennwort ändern oder das Zertifikat abläuft.
 role: User, Admin
 exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Agentenadministratoren, Agenturkontomanager, Adobe Account Manager und nur Administratoren*
 
-Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle verwendet wird, oder wenn die Variable [!DNL OAuth] Zertifikat für das Konto abläuft, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen und Sie müssen sich erneut authentifizieren, um die Synchronisierung der Daten fortzusetzen.
+Wenn Sie das Kennwort für das für eine Datenquelle verwendete E-Mail-Konto ändern oder wenn die Variable [!DNL OAuth] Zertifikat für das Konto abläuft, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen und Sie müssen sich erneut authentifizieren, um die Synchronisierung der Daten fortzusetzen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -24,7 +25,7 @@ Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle v
 
 1. Bearbeiten Sie die [Datenquelleneinstellungen](data-source-settings.md):
 
-   1. Im [!UICONTROL Connect to Google Analytics] führen Sie die folgenden Schritte aus.
+   1. Im [!UICONTROL Connect to Google Analytics] -Abschnitt, führen Sie die folgenden Schritte aus.
 
       1. (Bei Bedarf) Geben Sie eine neue E-Mail-Adresse ein, die für den Zugriff auf Daten aus dieser Datenquelle verwendet werden soll. Die E-Mail-Adresse muss bei einem [!DNL Google] und über &quot;Lesen und Analysieren&quot;-Berechtigungen für die [!DNL Google Analytics] -Konto. Siehe [Anweisungen zum Zuweisen von Benutzerberechtigungen in [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
 

@@ -1,7 +1,9 @@
 ---
 title: Berichte löschen
 description: Erfahren Sie, wie Sie generierte Berichte löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Berichte löschen
 
-Sie können einen abgeschlossenen oder noch in Bearbeitung befindlichen Bericht manuell löschen. Berichte werden automatisch 90 Tage nach ihrer Erstellung gelöscht.
+Sie können einen Bericht, der abgeschlossen ist oder noch in Bearbeitung ist, manuell löschen. Berichte werden automatisch 90 Tage nach ihrer Erstellung gelöscht.
 
 >[!NOTE]
 >
@@ -28,4 +30,3 @@ Sie können einen abgeschlossenen oder noch in Bearbeitung befindlichen Bericht 
 >
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)
 >* [Bericht anzeigen oder speichern](/help/search-social-commerce/reports/management/report-view-save.md)
-

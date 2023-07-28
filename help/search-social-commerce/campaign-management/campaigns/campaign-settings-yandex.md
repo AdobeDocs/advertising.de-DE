@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] Kampagneneinstellungen"
+title: '''[!DNL Yandex] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Yandex] Kampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -16,13 +18,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Zeigt Textanzeigen im Suchnetzwerk an. Sie müssen Suchbegriffe für jede Anzeigengruppe angeben.
 
-* *[!UICONTROL Search and Display Network]:* Zeigt Textanzeigen im Suchnetzwerk und im [!DNL Yandex Advertising Network]. Für Suchanzeigen müssen Sie Suchbegriffe für jede Anzeigengruppe angeben. für Display-Anzeigen müssen Sie Suchbegriffe für die Websites angeben, auf denen Sie für jede Anzeigengruppe werben möchten.
+* *[!UICONTROL Search and Display Network]:* Zeigt Textanzeigen im Suchnetzwerk und im [!DNL Yandex Advertising Network]. Für Suchanzeigen müssen Sie Suchbegriffe für jede Anzeigengruppe angeben. Für Display-Anzeigen müssen Sie Suchbegriffe für die Websites angeben, auf denen Sie für jede Anzeigengruppe werben möchten.
 
 * *[!UICONTROL Display Network Only]:* Zeigt Textanzeigen auf der Seite [!DNL Yandex Advertising Network]. Für jede Anzeigengruppe müssen Sie Suchbegriffe für die Websites angeben, auf denen Sie Werbung betreiben möchten.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der innerhalb des Kontos eindeutig ist.
+**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der im Konto eindeutig ist.
 
 <!-- **[!UICONTROL Start date]:** -->
 
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

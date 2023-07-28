@@ -1,7 +1,9 @@
 ---
 title: Benachrichtigung löschen
 description: Erfahren Sie, wie Sie eine Benachrichtigung löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: abf37a77-02e4-429f-adac-13ac954a78e7
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 1. Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen").
 
-1. Klicken ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen") neben der Benachrichtigung.
+1. Klicks ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen") neben der Benachrichtigung.
 
 ## Benachrichtigung löschen in [!UICONTROL Notification Center]
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 1. (Optional) Um Ihre Benachrichtigungen nach Typ zu filtern, klicken Sie auf *[!UICONTROL Notices]*, *[!UICONTROL Recommendations]*, *[!UICONTROL Warnings]* oder *[!UICONTROL Issues]*.
 
-1. Klicken ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen")  neben der Benachrichtigung.
+1. Klicks ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen")  neben der Benachrichtigung.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
 >* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
-

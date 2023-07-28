@@ -1,7 +1,9 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Baidu]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Baidu] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Informationen zu den Klick-Tracking-Formaten für [!DNL Baidu] Konten.
+exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -28,9 +30,7 @@ Beispiel:
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 
-
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
 >* [Formate für den s\_kwcid-Trackingcode](skwcid-tracking-parameter.md)
-

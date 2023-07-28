@@ -1,7 +1,9 @@
 ---
-title: "Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account"
+title: Aktualisieren Sie den s kwcid-Trackingcode für eine [!DNL Google Ads] account
 description: Erfahren Sie, wie Sie zum neuesten s\_kwcid-Trackingcode für eine [!DNL Google Ads] -Konto.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account
 
-*Advertiser mit nur einer Adobe-Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
 *[!DNL Google Ads]Nur Konten*
 
@@ -48,8 +50,8 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das neue s\_kwcid -Fo
 
 1. Nachdem Sie mit der Migration begonnen haben, aktualisieren Sie die Einstellungen für das Suffix der Einstiegsseite (in einigen Werbenetzwerken als &quot;endgültiges URL-Suffix&quot;bezeichnet) nach Bedarf:
 
-   * Wenn die [!UICONTROL Auto Upload]&quot;-Funktion in den Tracking-Einstellungen aktiviert ist, aktualisiert Search, Social und Commerce den Trackingcode im Suffix der Einstiegsseite für dieses Konto und seine Kampagnen automatisch. Du brauchst nichts zu tun.
-   * Wenn die [!UICONTROL Auto Upload]&quot;-Funktion nicht aktiviert ist und Sie nicht die serverseitige s-kwcid verwenden, müssen Sie den Parameter s\_kwcid in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Konto- und Kampagneneinstellungen ändern oder indem Sie Änderungen in ein Bulksheet hochladen. Um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren, verwenden Sie die [!DNL Google Ads] Editor.
+   * Wenn die Variable [!UICONTROL Auto Upload]&quot;-Funktion in den Tracking-Einstellungen aktiviert ist, aktualisiert Search, Social und Commerce den Trackingcode im Suffix der Einstiegsseite für dieses Konto und seine Kampagnen automatisch. Du brauchst nichts zu tun.
+   * Wenn die Variable [!UICONTROL Auto Upload]&quot;-Funktion nicht aktiviert ist und Sie nicht die serverseitige s-kwcid verwenden, müssen Sie den Parameter s\_kwcid in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Konto- und Kampagneneinstellungen ändern oder indem Sie Änderungen in ein Bulksheet hochladen. Um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren, verwenden Sie die [!DNL Google Ads] Editor.
    * Wenn Sie die s\_kwcid in die Basis-URL-Einstellung für eine beliebige Kampagnenkomponente aufnehmen, verschieben Sie sie in die entsprechende Einstellung für das Suffix der Einstiegsseite.
 
 1. (Empfohlen) Überprüfen Sie die Daten für dieses Konto in Analytics, bevor Sie zusätzliche Konten migrieren.

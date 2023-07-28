@@ -1,7 +1,9 @@
 ---
 title: Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen über aktivieren und deaktivieren [!UICONTROL Notification Center].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -38,7 +40,7 @@ Sie können Push-Benachrichtigungen entsprechend der üblichen Vorgehensweise de
 
    ![Verwalten der Benachrichtigungseinstellungen in Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Verwalten der Benachrichtigungseinstellungen in Microsoft® Edge")
 
-5. In [Benachrichtigungseinstellungen](notification-edit.md), aktivieren [!UICONTROL Web] Benachrichtigungen für die Warnhinweistypen, die gesendet werden sollen.
+5. In der [Benachrichtigungseinstellungen](notification-edit.md), aktivieren [!UICONTROL Web] Benachrichtigungen für die Warnhinweistypen, die gesendet werden sollen.
 
 ## Push-Benachrichtigungen deaktivieren
 
@@ -54,4 +56,3 @@ Siehe Anweisungen in der Hilfe des Browsers.
 >* [Benachrichtigung löschen](notification-delete.md)
 >* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
 >* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
-

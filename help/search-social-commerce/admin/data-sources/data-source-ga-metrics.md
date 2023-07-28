@@ -1,9 +1,10 @@
 ---
 title: Verfügbar [!DNL Google Analytics] Metriken
-description: Verweisen Sie auf [!DNL Google Analytics] Metriken, die für Datenquellen verfügbar sind.
+description: 'Referenz: [!DNL Google Analytics] Metriken, die für Datenquellen verfügbar sind.'
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Die folgenden Metriken sind verfügbar, mit Ausnahme der aufgeführten Ausnahmen
 | Sitzung | ga:uniqueDimensionCombinations | — |
 | Zielkonversionen | — | — |
 | Seitenverfolgung | ga:eingehenden, ga:timeOnPage, ga:exit | — |
-| Interne Suche | — | Den Anzeigenamen aller Metriken aus der internen Suche wird der Wert &quot;InternalSearch:&quot;vorangestellt. &quot; |
+| Interne Suche | — | Den Anzeigenamen aller Metriken aus der internen Suche wird der Wert &quot;InternalSearch: &quot; vorangestellt. |
 | Ereignisverfolgung | — | — |
 | E-Commerce | — | — |
 | Social-Interaktionen | — | — |

@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Einkaufsproduktgruppen
 description: Erfahren Sie, wie Sie Einkaufsproduktgruppen in Einkaufskampagnen erstellen und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -34,7 +36,7 @@ Bevor Sie Produktgruppen mit bestimmten Attributen erstellen können, müssen Si
 
 ## Erstellen eines untergeordneten Produktgruppenknotens in einer vorhandenen Produktgruppe
 
-Nachdem Sie mindestens ein All-Include-Angebot erstellt haben[!UICONTROL All Products]&quot; für eine Anzeigengruppe erstellen Sie untergeordnete Produktgruppenknoten für Untergruppen von Produkten, die ein- oder ausgeschlossen werden sollen, wobei eine oder mehrere Produktgruppen jeweils dasselbe Attribut auf jeder Ebene ansprechen (z. B. [!UICONTROL Brand]=Acme für eine Produktgruppe und [!UICONTROL Brand]=AcmePlus für einen anderen auf derselben Ebene. Sie können bis zu sieben Ebenen von untergeordneten Produktgruppenknoten erstellen, darunter &quot;[!UICONTROL All Products]&quot;.
+Nachdem Sie mindestens ein All-Include-Angebot erstellt haben[!UICONTROL All Products]&quot; für eine Anzeigengruppe erstellen Sie untergeordnete Produktgruppenknoten für Untergruppen von Produkten, die ein- oder ausgeschlossen werden sollen, wobei eine oder mehrere Produktgruppen jeweils auf dasselbe Attribut ausgerichtet sind (z. B. [!UICONTROL Brand]=Acme für eine Produktgruppe und [!UICONTROL Brand]=AcmePlus für einen anderen auf derselben Ebene. Sie können bis zu sieben Ebenen von untergeordneten Produktgruppenknoten erstellen, darunter &quot;[!UICONTROL All Products]&quot;.
 
 >[!NOTE]
 >
@@ -100,7 +102,7 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe &quot;Alles an
 
          Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**.
+      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**.
 
       1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
@@ -109,4 +111,3 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe &quot;Alles an
 >* [Über Einkaufsproduktgruppen](product-group-about.md)
 >* [[!DNL Google Ads] Produktgruppeneinstellungen](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] Produktgruppeneinstellungen](product-group-settings-microsoft.md)
-

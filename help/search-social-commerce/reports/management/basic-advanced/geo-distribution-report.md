@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Geo Distribution Report]"
-description: Erfahren Sie mehr über die [!UICONTROL Geo Distribution Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL Geo Distribution Report]'
+description: Informationen zum [!UICONTROL Geo Distribution Report].
+exl-id: 08369dad-c499-4342-a76a-0708167cd704
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Sie können Daten aus den letzten zwei (2) Monaten plus dem aktuellen Monat anze
 >
 >* Daten sind nur für Such- und Display-Kampagnen verfügbar.
 >* Die Summen für diesen Bericht können von den Summen für dieselben Kampagnen in der [!DNL Google Ads Geo Report] , [!DNL Google Ads] ) aufgrund verschiedener Anbieter und Methoden bei der Bestimmung geografischer Standorte.
-
 
 >[!TIP]
 >
@@ -46,4 +47,3 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
-

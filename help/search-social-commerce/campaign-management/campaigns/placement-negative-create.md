@@ -1,7 +1,9 @@
 ---
 title: Erstellen negativer Platzierungen
 description: Erfahren Sie, wie Sie negative Platzierungen für [!DNL Google Ads] Kampagnen und Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Sie können negative Platzierungen für eine [!DNL Google Ads] Anzeigengruppe in
 >[!TIP]
 >Um viele negative Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen")und klicken Sie anschließend auf **[!UICONTROL Campaign]** , um negative Platzierungen auf Kampagnenebene zu erstellen, oder **[!UICONTROL Ad Group]** , um negative Platzierungen auf Anzeigengruppenebene zu erstellen.
 
@@ -30,7 +32,7 @@ Sie können negative Platzierungen für eine [!DNL Google Ads] Anzeigengruppe in
 
    Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Gültige Formate sind:
 
-   * Website: Geben Sie eine gültige URL ein, z. B. www.example.com. Sehen Sie sich die zulässigen Formate unter &quot;Hinzufügen Ihrer Ausschluss-URLs&quot;unter https://support.google.com/google-ads/answer/2454012 an.
+   * Eine Website: Geben Sie eine gültige URL ein, z. B. www.example.com. Sehen Sie sich die zulässigen Formate unter &quot;Hinzufügen Ihrer Ausschluss-URLs&quot;unter https://support.google.com/google-ads/answer/2454012 an.
 
    * Ein Thema, eine Kategorie oder ein Dokument vertikal. Siehe [[!DNL Google Ads] Richtlinien](https://support.google.com/google-ads/editor/answer/30517) und [Liste aller Vertikalen](https://developers.google.com/adwords/api/docs/appendix/verticals). Beispiel: `category::Industries > Energy & Utilities > Oil & Gas`.
 
@@ -41,4 +43,3 @@ Sie können negative Platzierungen für eine [!DNL Google Ads] Anzeigengruppe in
 >* [Informationen zu Platzierungen](placement-about.md)
 >* [Bietbare Platzierungen verwalten](placement-manage.md)
 >* [Ändern des Status von Platzierungen und negativen Platzierungen](placement-status-edit.md)
-

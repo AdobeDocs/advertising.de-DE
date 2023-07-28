@@ -1,7 +1,9 @@
 ---
 title: Löschen Sie einen Leistungsdatenbericht oder eine Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü
 description: Erfahren Sie, wie Sie einen Bericht oder eine Bulksheet-Datei löschen, die bzw. die Sie in einer Kampagnenverwaltungsansicht heruntergeladen haben.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%

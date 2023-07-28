@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Bestandsdaten verarbeitet werden können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%
@@ -62,14 +64,14 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
 
       >[!NOTE]
       >
-      >* Sie können bis zu vier Anzeigenvariationsvorlagen pro Standard-Textanzeigenvorlage, fünf Anzeigenvariationsvorlagen pro erweiterter/erweiterter Textanzeigenvorlage und drei Anzeigenvariationsvorlagen pro responsive Suchanzeigenvorlage einbeziehen.
+      >* Sie können bis zu vier Anzeigenvarianten-Vorlagen pro Standard-Textanzeigenvorlage, fünf Anzeigenvariationsvorlagen pro erweiterter/erweiterter Textanzeigenvorlage und drei Anzeigenvariationsvorlagen pro responsive Suchanzeigenvorlage einbeziehen.
       >* Jede Anzeigengruppe kann bis zu drei aktivierte responsive Suchanzeigen enthalten.
       >* Sie können vorhandene Varianten von Standardtextanzeigen nicht bearbeiten und vorhandene Vorlagen generieren keine Standardtextanzeigen mehr.
       >* Wenn Sie eine Anzeigenvariationsvorlage ändern, können vorhandene Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage propagieren. [je nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
 
       * Gehen Sie wie folgt vor, um eine Anzeigenvariante hinzuzufügen:
 
-         1. Klicken **[!UICONTROL Add Ad Variation]** um eine Textanzeige zu erstellen, **[!UICONTROL Add ETA Variation]** um eine erweiterte Textanzeige zu erstellen, oder **[!UICONTROL Add RSA Variation]** , um eine responsive Textanzeige zu erstellen.
+         1. Klicks **[!UICONTROL Add Ad Variation]** um eine Textanzeige zu erstellen, **[!UICONTROL Add ETA Variation]** um eine erweiterte Textanzeige zu erstellen, oder **[!UICONTROL Add RSA Variation]** , um eine responsive Textanzeige zu erstellen.
 
             Nachdem Sie den Anzeigentyp festgelegt haben, können Sie nur diesen Anzeigentyp mit der Vorlage erstellen.
 
@@ -105,7 +107,7 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
                >* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
                >* Sie können bis zu vier Alternativen für jedes Feld der Anzeigenkopie angeben.
 
-         * Um eine Anzeigenvariante zu entfernen, klicken Sie auf **[!UICONTROL Remove ETA Variation]** (für erweiterte/erweiterte Textanzeigen) oder **[!UICONTROL Remove RSA Variation]** (für responsive Suchanzeigen) daneben, sofern zutreffend.
+         * Um eine Anzeigenvariante zu entfernen, klicken Sie auf **[!UICONTROL Remove ETA Variation]** (für erweiterte Textanzeigen) oder **[!UICONTROL Remove RSA Variation]** (für responsive Suchanzeigen) daneben, sofern zutreffend.
 
    1. (Nur Shopping-Vorlagen) Klicken Sie auf die Schaltfläche **[!UICONTROL Product Groups]** und geben Sie dann Informationen zu den Produktgruppen an, die Sie als Ziel auswählen möchten.
 

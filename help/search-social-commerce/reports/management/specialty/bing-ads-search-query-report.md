@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Search Query Report]"
-description: Erfahren Sie mehr über die [!UICONTROL Bing Ads Search Query Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL Bing Ads Search Query Report]'
+description: Informationen zum [!UICONTROL Bing Ads Search Query Report].
+exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]Nur Konten*
 
-Die [!UICONTROL Bing Ads Search Query Report] umfasst Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten für Benutzersuchabfragebegriffe für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten für jeden Suchbegriff eine Zeile, die zu Impressionen oder Klicks für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich führte. Die Zeilen sind in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Suchbegriff sortiert. Der Bericht enthält weder den Suchbegriff, mit dem der Suchbegriff abgeglichen wurde, noch Konversionsdaten, die von [!DNL Adobe].
+Die [!UICONTROL Bing Ads Search Query Report] umfasst Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten für Benutzersuchabfragen für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten für jeden Suchbegriff eine Zeile, die zu Impressionen oder Klicks für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich führte. Die Zeilen sind in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Suchbegriff sortiert. Der Bericht enthält weder den Suchbegriff, mit dem der Suchbegriff abgeglichen wurde, noch Konversionsdaten, die von [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [Über Sonderberichte](specialty-report-about.md)
 * [Einen Spezialbericht erstellen](specialty-report-generate.md)
 * [Einstellungen für Sonderberichte](specialty-report-settings.md)
-

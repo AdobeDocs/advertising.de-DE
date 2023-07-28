@@ -1,14 +1,16 @@
 ---
-title: "[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können"
+title: '''[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] schreibgeschützte Anzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1f810c2b-9c30-43c6-bda6-07609423ef79
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden
+# [!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können
 
 Sie können reine Textanzeigen für Kampagnen erstellen, die das Suchnetzwerk verwenden.
 
@@ -42,9 +44,9 @@ Die maximale Länge beträgt 35 Einzelbyte- oder 17 Doppelbyte-Zeichen. Die Synt
 
 **[!UICONTROL Is Tracked]:** Aktiviert das Tracking von Aufrufen und reine Konvertierungen von Aufrufen.
 
-**[!UICONTROL Count calls as phone call conversions]:** (Wenn[!UICONTROL Is Tracked]&quot; ausgewählt ist; (optional) Ordnet alle Aufrufe, die aus der Anzeige resultieren, einem bestimmten Typ von Telefonanrufkonvertierung zu, wenn einer angegeben ist. Andernfalls [!DNL Google Ads] erstellt eine standardmäßige Konversionsaktion mit dem Namen[!UICONTROL Calls from ads]&quot;, sobald es mindestens eine Konversion aus Ihren Weiterleitungsnummern aufzeichnet und dann Aufrufe zuordnet.
+**[!UICONTROL Count calls as phone call conversions]:** (Wenn &quot;[!UICONTROL Is Tracked]&quot; ist ausgewählt; optional) Ordnet alle Aufrufe, die aus der Anzeige resultieren, einem bestimmten Typ von Telefonanrufkonvertierung zu, wenn einer angegeben ist. Andernfalls [!DNL Google Ads] erstellt eine standardmäßige Konversionsaktion mit dem Namen[!UICONTROL Calls from ads]&quot;, sobald es mindestens eine Konversion aus Ihren Weiterleitungsnummern aufzeichnet und dann Aufrufe zuordnet.
 
-**[!UICONTROL Count Action]:** (Wenn[!UICONTROL Count calls as phone call conversions]&quot; ausgewählt ist; optional) Die vorhandene Konversionsaktion, der Aufrufe zugeordnet werden.
+**[!UICONTROL Count Action]:** (Wenn &quot;[!UICONTROL Count calls as phone call conversions]&quot; ist ausgewählt; optional) Die vorhandene Konversionsaktion, der Aufrufe zugeordnet werden.
 
 Sie können Konversionsaktionen in [!DNL Google Ads].
 
@@ -58,4 +60,3 @@ Sie können Konversionsaktionen in [!DNL Google Ads].
 >* [Anzeigen verwalten](ad-manage.md)
 >* [[!DNL Google Ads] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] Einstellungen für responsive Suchanzeigen](ad-settings-google-rsa.md)
-

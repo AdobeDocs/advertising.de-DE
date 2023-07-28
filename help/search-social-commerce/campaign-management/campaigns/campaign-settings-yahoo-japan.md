@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] Kampagneneinstellungen"
+title: '''[!DNL Yahoo! Japan Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Yahoo! Japan Ads] Kampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 ## \[Bildschirm zur Kampagnenerstellung\]
 
-**[!UICONTROL Campaign Type]:** (Nur bei der Erstellung einer Kampagne verfügbar) Ort der Platzierung von Anzeigen: Die einzige Option ist *[!UICONTROL Search Network Only]* , um Textanzeigen im Suchnetzwerk anzuzeigen.
+**[!UICONTROL Campaign Type]:** (Nur bei der Erstellung einer Kampagne verfügbar) Wo Anzeigen platziert werden können: Die einzige Option ist *[!UICONTROL Search Network Only]* , um Textanzeigen im Suchnetzwerk anzuzeigen.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der innerhalb des Kontos eindeutig ist.
+**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der im Konto eindeutig ist.
 
 <!-- **[!UICONTROL Start date]:** -->
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:** Das Budget, das ist der Betrag, den Sie täglich ausgeben möchten, im Durchschnitt. Das tägliche Mindestbudget beträgt 100 JPY.
 
-Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits einer Kampagne automatisch angepasst werden, können Sie - je nach Suchbedingungen - in einem beliebigen Zeitraum mehr oder weniger als das angegebene Budget ausgeben.
+Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits einer Kampagne automatisch angepasst werden, können Sie - je nach Suchbedingungen - in einem bestimmten Zeitraum tatsächlich mehr oder weniger als das angegebene Budget ausgeben.
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -93,4 +95,3 @@ Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits eine
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

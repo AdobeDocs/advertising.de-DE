@@ -1,7 +1,9 @@
 ---
 title: Verwalten freigegebener Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Erstellen und verwalten Sie freigegebene Sitelinks auf Kontoebene für alle sync
 
 ## Erstellen eines freigegebenen Sitelink
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -32,7 +34,7 @@ Nachdem Sie einen Sitelink erstellt haben, können Sie [Zuweisung zu einem Konto
 
 Sie können jeweils einen freigegebenen Sitelink bearbeiten.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem zu bearbeitenden Sitelink.
 
@@ -44,13 +46,13 @@ Sie können jeweils einen freigegebenen Sitelink bearbeiten.
 
 ## Löschen freigegebener Sitelinks
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem freigegebenen Sitelink, den Sie löschen möchten.
 
    Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**.
+1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**.
 
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
@@ -70,9 +72,9 @@ Weitere Richtlinien und Gründe für die Ablehnung von Sitelink finden Sie in de
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Zusätzlicher Text, den die Suchmaschine unter dem Link-Text anzeigen kann. Um eine Beschreibung einzuschließen, geben Sie Werte für beide Beschreibungsfelder ein. Jedes Beschreibungsfeld kann bis zu 35 Einzelbyte- oder 17 Doppelbyte-Zeichen enthalten.
 
-**[!UICONTROL Start Date]:** (Kampagnen mit bestehenden Sitelinks oder nur ohne Sitelinks; (optional) Das erste Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Die Standardeinstellung für neue Sitelinks ist der aktuelle Tag. Um ein künftiges Startdatum anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/D/JJJJ ein oder klicken Sie auf und wählen Sie ein Datum aus.
+**[!UICONTROL Start Date]:** (Nur Kampagnen mit vorhandenen Sitelinks oder nur ohne Sitelinks; optional) Das erste Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Die Standardeinstellung für neue Sitelinks ist der aktuelle Tag. Um ein künftiges Startdatum anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/D/JJJJ ein oder klicken Sie auf und wählen Sie ein Datum aus.
 
-**[!UICONTROL End Date]:** (Optional) Das letzte Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Standardmäßig kann der Sitelink auf unbestimmte Zeit angezeigt werden. Um ein Enddatum anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/D/JJJJ ein oder klicken Sie auf und wählen Sie ein Datum aus.
+**[!UICONTROL End Date]:** (Optional) Das letzte Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Standardmäßig kann der Sitelink auf unbestimmte Zeit angezeigt werden. Um ein Enddatum anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/D/JJJJ ein oder klicken und wählen Sie ein Datum aus.
 
 **[!UICONTROL Mobile Preference]:** (Optional) Ermöglicht dem Netzwerk, zu versuchen, die Anzeigenerweiterung für Benutzer mobiler Geräte und nicht für Benutzer von Desktop- oder Tablet-Geräten anzuzeigen. Standardmäßig ist die Option nicht aktiviert und die Anzeigenerweiterung wird auf einem beliebigen Gerätetyp angezeigt.
 
@@ -104,7 +106,7 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 
 >[!NOTE]
 >
->* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;&quot;Search, Social und Commerce setzt beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode voran.
+>* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode vorgibt.
 >* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Suchbegriffeinstellungen einen Wert enthalten, wird der Suchbegriffwert angewendet.
 >* ([!DNL Google Ads]) Wenn Sie eine Tracking-Vorlage auf Sitelink- oder Suchbegriffebene aktualisieren, werden die relevanten Anzeigen erneut zur Überprüfung eingereicht. Sie können Ihre Tracking-Vorlagen auf Konto-, Kampagnen- oder Anzeigengruppenebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
 >* ([!DNL Microsoft Advertising]) Sie können Ihre Tracking-Vorlagen auf jeder Ebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.

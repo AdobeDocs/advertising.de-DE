@@ -1,7 +1,9 @@
 ---
 title: Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten
 description: Erfahren Sie, wie Sie Verknüpfungen zwischen Beschriftungs-Classification-Werten und Kontokomponenten entfernen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -10,13 +12,13 @@ ht-degree: 0%
 
 # Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten
 
-Wenn Sie einen Classification-Wert entfernen, wird die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten entfernt. Berichtsdaten für den Classification-Wert sind für diese Komponenten nicht mehr verfügbar. Wenn Sie einen Classification-Wert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
+Wenn Sie einen Classification-Wert entfernen, wird die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten entfernt. Berichtsdaten für den Classification-Wert stehen für diese Komponenten nicht mehr zur Verfügung. Wenn Sie einen Classification-Wert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
 
 >[!NOTE]
 >
 >Informationen zum Löschen eines Werts aus einer Titel-Classification finden Sie unter[Löschen von Bezeichnungsklassifizierungswerten](classification-values-delete.md).&quot;
 
-1. In **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, wählen Sie die Entitätsansicht aus.
+1. In **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** auswählen Sie die Entitätsansicht.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -26,7 +28,7 @@ Wenn Sie einen Classification-Wert entfernen, wird die Verknüpfung mit der Kont
 
       * Aktivieren Sie das Kontrollkästchen neben jeder Zeile.
 
-         Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr")und klicken Sie anschließend auf **[!UICONTROL Classification]**.
 
@@ -54,4 +56,3 @@ Wenn Sie einen Classification-Wert entfernen, wird die Verknüpfung mit der Kont
 >* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
 >* [Löschen von Bezeichnungsklassifizierungswerten](classification-values-delete.md)
 >* [Beschriftungsklassifizierungen löschen](classification-delete.md)
-

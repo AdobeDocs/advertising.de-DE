@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Zielgruppenausschlüssen für Kampagnen und Anzeigengruppen
 description: Erfahren Sie, wie Sie Zielgruppenausschlüsse für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Sie können bestimmte Zielgruppen als Ziele für bestimmte Anzeigengruppen und Kampagnen ausschließen. Der Ausschluss einer Zielgruppe stellt sicher, dass diese Personen keine Anzeigen in den angegebenen Anzeigengruppen und Kampagnen erhalten.
 
-Für [!DNL Google Ads] -Konten können Sie jeden Zielgruppentyp ausschließen. Für [!DNL Microsoft Advertising] -Konten können Sie nur dynamische Remarketing-Zielgruppen ausschließen.
+Für [!DNL Google Ads] -Konten können Sie jeden beliebigen Zielgruppentyp ausschließen. Für [!DNL Microsoft Advertising] -Konten können Sie nur dynamische Remarketing-Zielgruppen ausschließen.
 
 >[!NOTE]
 >
@@ -24,7 +26,7 @@ Sie können auch Zielgruppenausschlüsse löschen.
 
 ## Konfigurieren von Zielgruppenausschlüssen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -54,7 +56,7 @@ Sie können auch Zielgruppenausschlüsse löschen.
 
 ## Löschen von Zielgruppenausschlüssen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Zielgruppenausschlüsse einzuschließen.
 
@@ -62,7 +64,7 @@ Sie können auch Zielgruppenausschlüsse löschen.
 
    Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more.png "Mehr Aktionen") und wählen Sie **[!UICONTROL Delete]**.
+1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more.png "Mehr Aktionen") und wählen **[!UICONTROL Delete]**.
 
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
@@ -70,4 +72,3 @@ Sie können auch Zielgruppenausschlüsse löschen.
 >
 >* [Über Zielgruppen](audience-about.md)
 >* [Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-

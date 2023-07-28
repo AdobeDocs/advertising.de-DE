@@ -2,7 +2,8 @@
 title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 * Jeder [!DNL Google Ads] Die Empfehlung bietet benutzerdefinierte Vorschläge zu den verschiedenen Leistungsaspekten einer Kampagne - vom Hinzufügen eines Assets bis zur Erhöhung des Budgets - basierend auf dem Leistungsverlauf Ihres Kontos, den Kampagneneinstellungen und Trends über [!DNL Google Ads].
 
-* Jeder [!DNL Microsoft® Advertising] Performance Insight weist Sie auf erhebliche Schwankungen in einem Managerkonto, Advertiser-Konto oder einer Kampagne hin. ermittelt die möglichen Ursachen und schlägt Maßnahmen zur Leistungsoptimierung vor.
+* Jeder [!DNL Microsoft® Advertising] Performance Insight weist Sie auf erhebliche Schwankungen in einem Manager-Konto, Advertiser-Konto oder einer Kampagne hin. Identifiziert die möglichen Ursachen und schlägt Maßnahmen zur Leistungsoptimierung vor.
 
 ## Die [!UICONTROL Recommendations & Publisher Insights] Ansicht
 
@@ -47,7 +48,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 | Empfehlungskategorie | Empfehlungstyp | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] (jetzt als[!DNL Ads and assets]&quot; [!DNL Google Ads]) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
+| [!UICONTROL Ads and extensions] (jetzt als &quot;[!DNL Ads and assets]&quot;in [!DNL Google Ads]) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
 | | [!UICONTROL Callout extension] | Hinzufügen von Hinweiserweiterungen zu einer Kampagne |
 | | [!UICONTROL Optimize ad rotation] | Verwenden optimierter Anzeigenrotationen |
 | | [!UICONTROL Responsive search ad] | Neue responsive Suchanzeige hinzufügen |
@@ -57,7 +58,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Text ad] | Hinzufügen von Anzeigenempfehlungen |
 | [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Aktualisieren einer älteren lokalen Kampagne auf eine Kampagne mit der höchsten Leistung |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aktualisieren einer alten Smart-Shopping-Kampagne auf eine Performance-Max-Kampagne |
-| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Fehlerbehebung bei Kampagnen, die nach Budget begrenzt sind |
+| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Fehlerbehebung für Kampagnen, die nach Budget begrenzt sind |
 | | [!UICONTROL Enhanced CPC opt in] | Angebot mit [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Fehlerbehebung für Kampagnen, die in Zukunft voraussichtlich durch das Budget begrenzt werden |
 | | [!UICONTROL Forecasting set Target ROAS] | Erhöhung des Budgets vor einem saisonalen Ereignis, das den Traffic voraussichtlich steigern wird, und Änderung der Angebotsstrategie von [!UICONTROL Maximize Conversion Value] nach [!UICONTROL Target ROAS] |

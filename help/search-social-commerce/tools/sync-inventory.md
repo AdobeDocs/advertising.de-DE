@@ -1,7 +1,9 @@
 ---
 title: Zusätzliche Lagersynchronisierung aktivieren
-description: Erfahren Sie, wie Sie synchronisieren [!DNL YouTube] Kampagnen und [!DNL Google Ads] und [!DNL Microsoft® Advertising] intelligente Einkaufskampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Erfahren Sie, wie Sie synchronisieren [!DNL YouTube] Kampagnen [!DNL Google Ads] und [!DNL Microsoft® Advertising] Smart Shopping-Kampagnen.
+exl-id: 217c4677-828c-43ee-afeb-e100780c5494
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Zusätzliche Lagersynchronisierung aktivieren
 
-Sie können die Synchronisierung der [!DNL Google Ads] [!DNL YouTube] Kampagnen und [!DNL Google Ads] und [!DNL Microsoft® Advertising] Smart-Shopping-Kampagnen, für die weniger Unterstützung verfügbar ist als andere Kampagnentypen. Weitere Informationen zu den für diese Kampagnentypen verfügbaren Funktionen finden Sie unter[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Sie können die Synchronisierung der [!DNL Google Ads] [!DNL YouTube] Kampagnen [!DNL Google Ads] und [!DNL Microsoft® Advertising] intelligente Einkaufskampagnen, für die weniger Unterstützung verfügbar ist als andere Kampagnentypen. Weitere Informationen zu den für diese Kampagnentypen verfügbaren Funktionen finden Sie unter[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
 >[!NOTE]
 >
@@ -31,4 +33,3 @@ Diese Kampagnentypen werden wie andere Kampagnentypen in Rechnung gestellt. Weit
 >[!MORELIKETHIS]
 >
 >* [Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)
-

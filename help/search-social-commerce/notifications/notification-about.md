@@ -2,7 +2,8 @@
 title: Über Benachrichtigungen
 description: Erfahren Sie mehr über Benachrichtigungen, einschließlich der verschiedenen Typen und Kategorien.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -31,11 +32,11 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 ## Benachrichtigungstypen
 
-* **[!UICONTROL Notices]**: Versionshinweise, Ausfallzeiten und andere Hinweise zur Änderungsverwaltung.
+* **[!UICONTROL Notices]**: Versionshinweise, Hinweise zu Ausfallzeiten und anderen Änderungen.
 
-* **[!UICONTROL Recommendations]**: Möglichkeiten zur Leistungsverbesserung, Implementierung von Best Practices usw.
+* **[!UICONTROL Recommendations]**: Chancen zur Leistungsverbesserung, Implementierung von Best Practices usw.
 
-* **[!UICONTROL Warnings]**: Probleme, die zwar beachtet werden müssen, aber für die Optimierung oder das Management nicht wichtig sind.
+* **[!UICONTROL Warnings]**: Probleme, die zwar beachtet werden müssen, aber für die Optimierung oder Verwaltung nicht von Bedeutung sind.
 
 * **[!UICONTROL Issues]**: Kritische Probleme, die sofortige Aufmerksamkeit erfordern. Fehlerbenachrichtigungen bezüglich der Kontoautorisierung sind enthalten.
 
@@ -43,9 +44,9 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitung von Aufträgen innerhalb der Datentabelle oder Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder anderer Aktionen in der Benutzeroberfläche (z. B. Synchronisierung mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Entitätszuweisungen umfassen das Zuweisen oder Aufheben der Zuweisung einer [Beschriftungsklassifizierungswert](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) jeder Entität eine Kampagne zuweisen und einem Portfolio eine Beschränkung zuweisen oder aufheben.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, die darüber informieren, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitung von Aufträgen innerhalb der Datentabelle oder Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder anderer Aktionen in der Benutzeroberfläche (z. B. Synchronisierung mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Entitätszuweisungen umfassen das Zuweisen oder Aufheben der Zuweisung einer [Beschriftungsklassifizierungswert](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) jeder Entität eine Kampagne zuweisen und einem Portfolio eine Beschränkung zuweisen oder aufheben.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * **[!UICONTROL Bulksheets]**: Benachrichtigt darüber, dass eine [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Bulksheets]**: Benachrichtigungen, die eine [Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
    * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die richtige Einrichtung kritischer Funktionen bestimmt sind.
 
@@ -59,7 +60,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce nicht mit einer [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht mit einer [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
 
       * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht auf eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
 
@@ -77,9 +78,9 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, die [Warninstanzen](/help/search-social-commerce/alerts/alert-about.md) wurden für eine Warnhinweisvorlage ausgelöst.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigt darüber, dass eine [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, die eine [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
-   * **[!UICONTROL Reports]**: Benachrichtigt darüber, dass eine [benutzerspezifischer oder terminierter Bericht](/help/search-social-commerce/reports/report-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Reports]**: Benachrichtigungen, die eine [benutzerspezifischer oder terminierter Bericht](/help/search-social-commerce/reports/report-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
    * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, die [ein [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) wurde abgeschlossen oder fehlgeschlagen.
 

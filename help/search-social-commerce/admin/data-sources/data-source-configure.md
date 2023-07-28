@@ -3,7 +3,8 @@ title: Konfigurieren Sie eine [!DNL Google Analytics] als Datenquelle anzeigen
 description: Erfahren Sie, wie Sie eine Datenquelle über eine [!DNL Google Analytics] anzeigen.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
 1. Geben Sie die [Datenquelleneinstellungen](data-source-settings.md):
 
-   1. Im **[!UICONTROL Connect to [!DNL Google Analytics]]** führen Sie die folgenden Schritte aus.
+   1. Im **[!UICONTROL Connect to [!DNL Google Analytics]]** -Abschnitt, führen Sie die folgenden Schritte aus.
 
       1. Geben Sie die numerische ID für die [!DNL Google Analytics] -Konto.
 
@@ -38,11 +39,11 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
          >[!TIP]
          >
-         >So stellen Sie sicher, dass nur bestimmte [!DNL Google Analytics] Eigenschaften und Ansichten sind in Adobe Advertising verfügbar. Melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
+         >So stellen Sie sicher, dass nur bestimmte [!DNL Google Analytics] -Eigenschaften und -Ansichten in Adobe Advertising verfügbar sind, melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
 
          >[!NOTE]
          >
-         >Wenn Sie später das Kennwort für dieses E-Mail-Konto ändern, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen. Kehren Sie zur Wiederaufnahme der Synchronisierung von Daten zu dieser Seite zurück und [reauthenticate](data-source-reauthenticate.md).
+         >Wenn Sie später das Kennwort für dieses E-Mail-Konto ändern, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen. Kehren Sie zu dieser Seite zurück und [reauthenticate](data-source-reauthenticate.md).
 
       1. Aktivieren Sie das Kontrollkästchen, um den Adobe Advertising für den Zugriff auf Metriken für das Konto zu autorisieren.
 
@@ -64,7 +65,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
    Die Datenquelle heißt &quot;AccountName > PropertyName > ViewName&quot; und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter[Feed aus einer Datenquelle anhalten](data-source-pause.md).&quot;
 
-   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie in [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Jede neue Transaktionseigenschaft trägt den Namen`ga:backEndMetricName_propertyID_viewID`,&quot;wobei &quot;backEndMetricName&quot;der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Transaktionseigenschaft lautet &quot;`friendlyMetricName_ga:MetricTag`,&quot;wobei &quot;friendlyMetricName&quot;der Metrikname ist, der in [!DNL Google Analytics] und &quot;MetricTag&quot;der [!UICONTROL Metric Tag] definiert in den Datenquelleneinstellungen.
+   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie in [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Jede neue Transaktionseigenschaft trägt den Namen`ga:backEndMetricName_propertyID_viewID`,&quot;wobei &quot;backEndMetricName&quot;der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Transaktionseigenschaft lautet &quot;`friendlyMetricName_ga:MetricTag`,&quot;wobei &quot;friendlyMetricName&quot;der Metrikname ist, der in [!DNL Google Analytics] und &quot;MetricTag&quot;ist der [!UICONTROL Metric Tag] definiert in den Datenquelleneinstellungen.
 
    Sie können die Metriken direkt zu Kampagnen-Management- und Portfoliomanagementansichten, Berichten und Optimierungszielen hinzufügen.
 

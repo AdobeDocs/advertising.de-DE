@@ -1,7 +1,9 @@
 ---
 title: Daten für benutzerdefinierte Warnungen exportieren
 description: Erfahren Sie, wie Sie Daten für einen ausgelösten Warnhinweis in eine Datei exportieren.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletz
 
    * (Um Daten für den zuletzt ausgelösten Warnhinweis für eine Warnhinweisvorlage zu exportieren, klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, der sich in der Ansicht &quot;Alert Templates&quot;öffnet.
 
-   * (Um Daten für einen bestimmten ausgelösten Warnhinweis zu exportieren) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Klicken Sie im Untermenü auf **[!UICONTROL Triggered Alerts]**.
+   * (Um Daten für eine bestimmte ausgelöste Warnung zu exportieren) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Klicken Sie im Untermenü auf **[!UICONTROL Triggered Alerts]**.
 
 1. Im [!UICONTROL Export] neben der Vorlage oder dem Berichtsnamen auf den Namen eines Formats klicken und die Datei dann nach dem üblichen Verfahren Ihres Browsers öffnen oder speichern:
 
@@ -35,5 +37,4 @@ Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletz
 >* [Benutzerdefinierte Warnhinweisvorlage aktivieren](alert-template-activate.md)
 >* [Benutzerdefinierte Warnhinweisvorlage löschen](alert-template-delete.md)
 >* [Benutzerdefinierte Vorlageneinstellungen](alert-template-settings.md)
->* [Benutzerdefinierte Warnungen anzeigen](alert-view.md)
-
+>* [Anzeigen benutzerdefinierter Warnungen](alert-view.md)

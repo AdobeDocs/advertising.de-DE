@@ -2,7 +2,8 @@
 title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
-source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Zeigt Anzeigen im Suchnetzwerk an, einschließlich [!DNL Google] Suchergebnisse und, optional, Suchpartner-Sites. Sie müssen Suchbegriffe für jede Anzeigengruppe angeben.
 
-* *[!UICONTROL Search with Display Select]:* Zeigt Anzeigen im Suchnetzwerk an (einschließlich [!DNL Google] Suchergebnisse und optional Suchpartner-Sites) anzeigen und möglicherweise Anzeigen auf Display-Netzwerkseiten anzeigen. im Display-Netzwerk, [!DNL Google Ads] zeigt Ihre Anzeigen selektiv mithilfe automatisierter Angebote an, unabhängig von der Angebotsstrategie der Kampagne. Geben Sie für Suchanzeigen Suchbegriffe für jede Anzeigengruppe an. Legen Sie für Display-Anzeigen Platzierungen fest und geben Sie optional Suchbegriffe für jede Anzeigengruppe an.
+* *[!UICONTROL Search with Display Select]:* Zeigt Anzeigen im Suchnetzwerk an (einschließlich [!DNL Google] Suchergebnisse und optional Suchpartner-Sites) anzeigen und möglicherweise Anzeigen auf Display-Netzwerkseiten anzeigen. im Display-Netzwerk, [!DNL Google Ads] zeigt Ihre Anzeigen selektiv mithilfe automatisierter Angebote an, unabhängig von der Angebotsstrategie der Kampagne. Geben Sie für Suchanzeigen Suchbegriffe für jede Anzeigengruppe an. Geben Sie für Display-Anzeigen Platzierungen an und geben Sie optional Suchbegriffe für jede Anzeigengruppe an.
 
 * *[!UICONTROL Shopping Network]:* Zeigt Produktanzeigen an, die [!DNL Google] generiert automatisch basierend auf Ihren Produkten in [!DNL Google Merchant Center] on [!DNL Google Shopping], den Bereich neben [!DNL Google] Suchergebnisse (getrennt von Textanzeigen) und (optional) Suchpartner-Websites. Für jede Anzeigengruppe in der Kampagne können Sie Produktgruppen für die Werbung angeben.
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der innerhalb des Kontos eindeutig ist.
+**[!UICONTROL Campaign Name]:** Ein Kampagnenname, der im Konto eindeutig ist.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -69,11 +70,11 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Angebotsstrategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* (Nicht verfügbar für maximale Leistung oder vorhandene, schreibgeschützte [!DNL Gmail] Kampagnen) Verwendet das erweiterte Modell &quot;Cost-per-Click&quot;(eCPC) des Werbenetzwerks, mit dem das Werbenetzwerk das Angebot &quot;Cost-per-Click&quot;(CPC) für jede Auktion automatisch ändern kann, um Konversionen zu maximieren, indem Konversionen verwendet werden, die im Werbenetzwerk (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, den durchschnittlichen CPC unter Ihrem maximalen CPC zu halten.
+* *[!UICONTROL Enhanced CPC]:* (Nicht verfügbar für maximale Leistung oder vorhandene, schreibgeschützte [!DNL Gmail] Kampagnen) Verwendet das erweiterte &quot;Cost-per-Click&quot;-Modell des Werbenetzwerks, das es dem Werbenetzwerk ermöglicht, das Angebot pro Klick (Cost-per-Click) für jede Auktion automatisch zu ändern, um Konversionen zu maximieren, indem Konversionen verwendet werden, die im Werbenetzwerk (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, den durchschnittlichen CPC unter Ihrem maximalen CPC zu halten.
 
 Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Social und Handel hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
-* *[!UICONTROL Manual CPC]* (Standardeinstellung): (Nicht verfügbar für Kampagnen mit der maximalen Leistung) Verwendet das CPC-Modell (Cost-per-Click). Sie können optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
+* *[!UICONTROL Manual CPC]* (Standard): (Nicht verfügbar für Kampagnen mit maximaler Leistung) Verwendet das CPC-Modell (Cost-per-Click). Sie können optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
 
    * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung des[!UICONTROL Enhanced CPC]&quot;.
 
@@ -83,15 +84,15 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 * *[!UICONTROL Maximize Conversions]:* (Kampagnen für Suche, Anzeige und Performance-Maximalwerte) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional eine **[!UICONTROL Target CPA]** (Kosten pro Akquise). **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
 
-* *[!UICONTROL Target CPA]:* (Display-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), der Durchschnittsbetrag von 30 Tagen, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Display-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), der Durchschnittsbetrag von 30 Tagen, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
   Für neue Suchkampagnen: [!DNL Google Ads] hat diese Angebotsstrategie durch die Variable [!UICONTROL Maximize Conversions] -Strategie mithilfe einer [!UICONTROL Target CPA] -Wert. Bei vorhandenen Suchkampagnen mit dieser Strategie können Sie nur den Zielwert bearbeiten. Dadurch wird die Strategie in die [!UICONTROL Maximize Conversions] -Strategie unter Verwendung der angegebenen [!UICONTROL Target CPA] -Wert.
 
-* *[!UICONTROL Target Impression Share]:* (Suchkampagnen) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote, um eine zielgerichtete Impressions-Freigabe und Anzeigenposition zu erzielen. Geben Sie optional einen **[!UICONTROL Target Impression Share]** als Prozentsatz die **[!UICONTROL Target Ad Position]** und **[!UICONTROL Max CPC]** (Kosten pro Klick). **Hinweis:** Diese Option wird in Portfolios nicht unterstützt.
+* *[!UICONTROL Target Impression Share]:* (Suchkampagnen) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote, um eine zielgerichtete Impressions-Freigabe und Anzeigenposition zu erzielen. Geben Sie optional einen **[!UICONTROL Target Impression Share]** als Prozentsatz die **[!UICONTROL Target Ad Position]** und ein **[!UICONTROL Max CPC]** (Kosten pro Klick). **Hinweis:** Diese Option wird in Portfolios nicht unterstützt.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Display- und Shopping-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote auf der Grundlage einer festgelegten **[!UICONTROL Target ROAS]** (Rendite auf Werbeausgaben), angegeben als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Display- und Shopping-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Basis eines angegebenen **[!UICONTROL Target ROAS]** (Rendite auf Werbeausgaben), angegeben als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS].
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
@@ -111,7 +112,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Local Inventory Ads]:** (Nur Shopping-Kampagnen; Advertiser, die bereits am lokalen Einkaufsprogramm mit [!DNL Google Merchant Center] Geschäfte in den USA, Großbritannien, DE, FR, JP und AU; optional) Ermöglicht [!DNL Google Ads] , um Ihre lokalen Inventarinformationen automatisch zu Ihren Shopping-Anzeigen auf Google.com hinzuzufügen.
+**[!UICONTROL Local Inventory Ads]:** (Nur Shopping-Kampagnen; Advertiser, die bereits am lokalen Shopping-Programm mit [!DNL Google Merchant Center] Geschäfte in den USA, Großbritannien, DE, FR, JP und AU; optional) Erlaubt [!DNL Google Ads] um Ihre lokalen Lagerbestandsdaten automatisch zu Ihren Shopping-Anzeigen auf Google.com hinzuzufügen.
 
 **Tipp:** Wenn Sie diese Einstellung verwenden, schließen Sie lokale Anzeigen nicht im [!UICONTROL Inventory Filter] -Einstellung.
 
@@ -141,23 +142,23 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
       * Um einen Ort in seine Unterkomponenten (z. B. die Bundesstaaten, Metropolregionen oder Städte in den USA) einzuteilen, klicken Sie auf den Standortnamen.
 
-      * Um nach einer Position zu suchen, geben Sie mindestens die ersten drei Zeichen der Position in das Eingabefeld ein oder fügen Sie sie ein. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Include]** neben einem Speicherort, der eingeschlossen werden soll, oder **[!UICONTROL Exclude]** neben einem Standort, der ausgeschlossen werden soll.
+      * Um nach einer Position zu suchen, geben Sie mindestens die ersten drei Zeichen der Position in das Eingabefeld ein oder fügen Sie sie ein. Klicken Sie im Suchergebnis auf **[!UICONTROL Include]** neben einem Speicherort, der eingeschlossen werden soll, oder **[!UICONTROL Exclude]** neben einem Standort, der ausgeschlossen werden soll.
 
-   * (Standorte in der Nähe einer Adresse; Nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Address]**. Geben Sie die Adresse und den Radius in Meilen oder Kilometern um die Zieladresse ein und klicken Sie dann auf **[!UICONTROL Add]**.
+   * (Standorte in der Nähe einer Adresse; nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Address]**. Geben Sie die Adresse und den Radius in Meilen oder Kilometern um die Zieladresse ein und klicken Sie dann auf **[!UICONTROL Add]**.
 
-   * (Standorte in der Nähe geografischer Koordinaten; Nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Coordinate]**. Geben Sie den Breiten- und Längengrad sowie den Radius in Meilen oder Kilometern um den Zielort ein und klicken Sie dann auf **[!UICONTROL Add]**.
+   * (Standorte in der Nähe geografischer Koordinaten; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Coordinate]**. Geben Sie den Breiten- und Längengrad sowie den Radius in Meilen oder Kilometern um den Zielort ein und klicken Sie dann auf **[!UICONTROL Add]**.
 
-   * (Standorte in der Nähe Ihrer [!DNL My Business] Orte, die als Positionserweiterungen verfügbar sind; Nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Location Group Target]** (![Standortgruppe](/help/search-social-commerce/assets/location-group.png "Standortgruppe")); Geben Sie optional ein Land, einen Bundesstaat, eine Metropolregion oder eine Stadt ein, um die Liste der verfügbaren Orte nach unten zu verschieben. und wählen Sie dann einen oder mehrere Orte aus der Liste der [!DNL Google My Business] Standorte. Geben Sie den Radius in Meilen oder Kilometern um die Zielorte an und klicken Sie dann auf **[!UICONTROL Add]**.
+   * (Standorte in der Nähe Ihrer [!DNL My Business] Orte, die als Positionserweiterungen verfügbar sind; nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Location Group Target]** (![Standortgruppe](/help/search-social-commerce/assets/location-group.png "Standortgruppe")); geben Sie optional ein Land, einen Bundesstaat, eine großstädtische Region oder eine Stadt ein, um die Liste der verfügbaren Orte nach unten zu blättern, und wählen Sie dann einen oder mehrere Orte aus der Liste der verfügbaren Orte aus. [!DNL Google My Business] Standorte. Geben Sie den Radius in Meilen oder Kilometern um die Zielorte an und klicken Sie dann auf **[!UICONTROL Add]**.
 
 * (Um eine Angebotsanpassung für einen eingeschlossenen Zielort hinzuzufügen) Geben Sie einen Angebotsanpassungswert ein:
 
-* 0 %: So passen Sie keine Angebote für Anzeigen an dieser Position an.
+* 0 %: Um keine Angebote für Anzeigen an diesem Ort anzupassen.
 
-* \[Andere Werte von -90 % bis 300 %\]: Erhöhen oder Verringern des Angebots für Anzeigen an diesem Ort.
+* \[Andere Werte von -90 % bis 300 %\]: Um das Angebot für Anzeigen an diesem Ort zu erhöhen oder zu verringern.
 
 **Hinweis:**
 
-* Search, Social und Commerce bietet keine automatisch angepassten Angebotsanpassungen für die folgenden Standortziele aufgrund von Einschränkungen in den Daten, die [!DNL Google Ads] stellt die Zuordnung von Surfer-Standorten zu Standortzielen bereit:
+* Search, Social und Commerce bietet keine automatisch angepassten Angebotsanpassungen für die folgenden Standortziele aufgrund von Einschränkungen in den Daten, [!DNL Google Ads] stellt die Zuordnung von Surfer-Standorten zu Standortzielen bereit:
 
    * Radius-Ziele.
 
@@ -169,7 +170,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 ## [!UICONTROL Advanced Device Options]
 
-**[!UICONTROL Mobile Carriers]:** (Nur Display-Netz) Spezifische Mobilnetzbetreiber für die Zielgruppenbestimmung; die Luftfahrtunternehmen sind nach Land sortiert. Wenn Sie keine auswählen, werden alle Zielgruppen ausgewählt.
+**[!UICONTROL Mobile Carriers]:** (Nur Netzwerkanzeige) Spezifische Mobilnetzbetreiber für die Zielgruppenbestimmung; die Netzbetreiber werden nach Land sortiert. Wenn Sie keine auswählen, werden alle Zielgruppen ausgewählt.
 
 **[!UICONTROL Mobile Carriers]:** (Nur Netzwerk anzeigen) Spezifische Betriebssysteme für die Zielgruppenbestimmung. Wenn Sie keine auswählen, werden alle Zielgruppen ausgewählt.
 
@@ -253,9 +254,9 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Bis zu fünfzehn Bilder für die Anzeige, einschließlich der folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Querformatbilder und 3) mindestens ein Hochformat. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). So laden Sie Bilder hoch:
+**[!UICONTROL Images]:** Bis zu fünfzehn Bilder für die Anzeige, darunter die folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Hochformat-Bild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). So laden Sie Bilder hoch:
 
-1. Klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+1. Klicks **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
 1. Für jedes Bild:
 
@@ -263,7 +264,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
    1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
 
-   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild bei Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
 
       Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
@@ -273,7 +274,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformatlogo (4:1). Sie können bis zu fünf von jeder Größe einbeziehen. Siehe [[!DNL Google Ads] Logo-Spezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). So laden Sie Bilder hoch:
 
-1. Klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+1. Klicks **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
 1. Für jedes Bild:
 
@@ -281,7 +282,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
    1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
 
-   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild bei Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
 
       Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
@@ -291,13 +292,13 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Videos]:** (Optional) Die URL für mindestens eine und bis zu fünf, [!DNL YouTube] Videos mindestens 10 Sekunden lang.
 
-**[!UICONTROL Headlines]:** Mindestens drei und bis zu fünf kurze Überschriften mit jeweils maximal 30 Zeichen. Mindestens eine Überschrift darf maximal 15 Zeichen lang sein. Wenn die Option auf Kampagnenebene zur Aktivierung der endgültigen URL-Erweiterung in [!DNL Google Ads], dann [!DNL Google Ads] ersetzt diesen Wert durch eine benutzerdefinierte Überschrift, die auf dem Inhalt der Landingpage basiert.
+**[!UICONTROL Headlines]:** Mindestens drei bis fünf kurze Überschriften mit maximal 30 Zeichen pro Kopf. Mindestens eine Überschrift darf maximal 15 Zeichen lang sein. Wenn die Option auf Kampagnenebene zur Aktivierung der endgültigen URL-Erweiterung in [!DNL Google Ads], dann [!DNL Google Ads] ersetzt diesen Wert durch eine benutzerdefinierte Überschrift, die auf dem Inhalt der Landingpage basiert.
 
 **[!UICONTROL Long Headlines]:** Mindestens eine und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf.
 
 **[!UICONTROL Descriptions]:** Mindestens zwei bis vier Beschreibungen mit jeweils maximal 90 Zeichen. Mindestens eine Beschreibung muss mindestens 30 Zeichen lang sein.
 
-**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig *[!UICONTROL Automated]* ausgewählt ist und [!DNL Google Ads] wählt den Aktionsaufruf aus. Sie können optional eine andere Aktion auswählen.
+**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Automated]* ausgewählt ist und [!DNL Google Ads] markiert den Aktionsaufruf. Sie können optional eine andere Aktion auswählen.
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
 

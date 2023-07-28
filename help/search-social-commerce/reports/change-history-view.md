@@ -1,7 +1,9 @@
 ---
 title: Anzeigen der [!UICONTROL Change History] Bericht
 description: Erfahren Sie, wie Sie aktuelle Änderungen am Advertiser-Konto anzeigen können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -20,13 +22,14 @@ Sie können die Daten nach einer beliebigen Spalte sortieren und filtern.
 
    * (Ein- oder Ausblenden von Spalten) Klicken Sie auf ![Abwärtspfeil](/help/search-social-commerce/assets/arrow-down-expand.png "Abwärtspfeil") rechts neben einer Spaltenüberschrift markieren **[!UICONTROL Columns]** und aktivieren Sie dann das Kontrollkästchen neben den Spalten, die ein- und ausgeschlossen werden sollen, und deaktivieren Sie das Kontrollkästchen neben den einzelnen Spalten, die ausgeschlossen werden sollen.
 
-      Die Spaltenkonfiguration wird auf Ihre Ansicht in all Ihren Advertisern angewendet.
+     Die Spaltenkonfiguration wird auf Ihre Ansicht in all Ihren Advertisern angewendet.
 
    * (Um die Daten nach Spaltenwert zu filtern) Führen Sie einen der folgenden Schritte aus:
 
       * [Anwenden eines Filters mit dem **[!UICONTROL Add Filter]** link](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [Anwenden eines Filters aus einem Spaltenüberschriftsmenü](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
    * (So ändern Sie den Datumsbereich für den Bericht) Gehen Sie wie folgt vor:
 
       1. Klicken Sie über der Datentabelle auf den aktuellen Datumsbereich.
@@ -37,10 +40,9 @@ Sie können die Daten nach einer beliebigen Spalte sortieren und filtern.
 
          * (Für einen bestimmten Bereich) — Wählen Sie **[!UICONTROL Custom Date Range]** und geben Sie dann das Startdatum und das Enddatum an.
 
-            Geben Sie Datumsangaben in das Format MM/TT/JJJJ oder MM-TT-JJJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") neben jedem Feld, um den Kalender zu öffnen und ein Datum auszuwählen. Sie können nur Daten aus den letzten 31 Tagen einbeziehen.
+           Geben Sie Datumsangaben im Format MM/TT/JJJJ oder MM-TT-JJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") neben jedem Feld, um den Kalender zu öffnen und ein Datum auszuwählen. Sie können nur Daten aus den letzten 31 Tagen einbeziehen.
+
       1. Klicken **[!UICONTROL Apply]**.
-
-
 
 1. (Optional) Laden Sie eine Kopie des Berichts herunter:
 

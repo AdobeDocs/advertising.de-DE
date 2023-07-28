@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Transaction Report]"
-description: Erfahren Sie mehr über die [!UICONTROL Transaction Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL Transaction Report]'
+description: Informationen zum [!UICONTROL Transaction Report].
+exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Sie können Daten der letzten 45 Tage anzeigen.
 >
 >* Wenn mehrere Angebotseinheiten mit unterschiedlichen Übereinstimmungstypen dieselbe Transaktions-ID haben, wird der Umsatz für die Tracking-ID nach der Anzahl der Klicks am angegebenen Klickdatum aufgeteilt.
 >* Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen oder in Display- oder Social-Kampagnen enthält (die keine Keywords enthalten), wird die [!UICONTROL Keyword] enthält im abgeschlossenen Bericht die entsprechenden Anzeigengruppennamen, wie z. B. &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;.
-
 
 ## Standardspalten
 
@@ -42,4 +43,3 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
-

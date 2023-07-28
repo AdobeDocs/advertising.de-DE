@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] Multimedia-Anzeigeneinstellungen"
+title: '''[!DNL Microsoft® Advertising] Einstellungen für Multimedia-Anzeigen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Multimedia-Anzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Siehe die zulässigen Seitenrationen und -dimensionen für [Multimedia-Anzeigen]
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
 
-**[!UICONTROL Short Headlines]:** Mindestens drei, bis zu 15, kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
+**[!UICONTROL Short Headlines]:** Mindestens drei bis 15 kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
 
 **[!UICONTROL Long Headlines]:** Mindestens drei und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf.
 
@@ -56,4 +58,3 @@ Siehe die zulässigen Seitenrationen und -dimensionen für [Multimedia-Anzeigen]
 >* [[!DNL Microsoft® Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Erstellen [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Zielgruppen
 description: Erfahren Sie, wie Sie [!DNL Google Ads] Kundenabgleich von Zielgruppen aus Ihrer bestehenden Adobe Analytics- und Audience Manager-Zielgruppe.
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
 >[!TIP]
 >
->Verwenden Sie für die Echtzeit-Segmentierung vom Audience Manager erstellte Zielgruppen. In erstellte Segmente [!DNL Analytics] und mit Adobe Experience Cloud synchronisiert werden, können kleinere Populationen aufweisen, da sie nur täglich synchronisiert werden; Ein Surfer, der sich für ein Segment qualifiziert, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] eine Datenquelle von &quot;Report Suite -&quot;haben.
+>Verwenden Sie für die Echtzeit-Segmentierung vom Audience Manager erstellte Zielgruppen. In erstellte Segmente [!DNL Analytics] und mit Adobe Experience Cloud synchronisiert werden, können kleinere Populationen aufweisen, da sie nur täglich synchronisiert werden. Ein Surfer, der sich für ein Segment qualifiziert, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] eine Datenquelle von &quot;Report Suite -&quot;haben.
 
 >[!NOTE]
 >
@@ -32,7 +34,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
    1. (So erstellen Sie Benutzer-ID-Remarketing-Listenzielgruppen) Eine [!DNL Adobe] Admin-Benutzer oder -Kundenbetreuer müssen die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für die Kundenabstimmung zu aktivieren. Die Einstellungen unterscheiden sich zwischen Advertisern mit Audience Manager und Advertisern mit [!DNL Analytics] nur.
 
-   1. Implementieren des [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
+   1. Implementieren des [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
 
    1. Stellen Sie das folgende Tag so weit wie möglich auf den Webseiten des Advertisers bereit, von denen aus die Zielgruppe verfolgt werden soll
 
@@ -42,7 +44,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
    1. (Falls noch nicht abgeschlossen) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, dass [Synchronisierung mit dem Organisationskonto des Advertisers in Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -70,7 +72,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
    1. Geben Sie die Anzahl der **[!UICONTROL Membership Days]**: die Anzahl der Tage, in denen das Cookie eines Benutzers in der Zielgruppe verbleibt.
 
-      Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist. Remarketing-Listen haben eine maximale Dauer von 540 Tagen. Kundenlisten haben keine maximale Dauer. um anzugeben, dass das Cookie nie abläuft, geben Sie 10000 ein.
+      Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist. Remarketing-Listen haben eine maximale Dauer von 540 Tagen. Kundenlisten haben keine maximale Dauer. Um anzugeben, dass das Cookie nie abläuft, geben Sie 10000 ein.
 
    1. Klicken **[!UICONTROL Post]**.
 

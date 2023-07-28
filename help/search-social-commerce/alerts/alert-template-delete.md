@@ -1,7 +1,9 @@
 ---
 title: Benutzerdefinierte Warnhinweisvorlage löschen
 description: Hier erfahren Sie, wie Sie Ihre Warnhinweisvorlagen löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -28,6 +30,5 @@ Sie können nur die von Ihnen erstellten Warnhinweisvorlagen löschen.
 >* [Anhalten einer benutzerdefinierten Warnhinweisvorlage](alert-template-pause.md)
 >* [Benutzerdefinierte Warnhinweisvorlage aktivieren](alert-template-activate.md)
 >* [Benutzerdefinierte Vorlageneinstellungen](alert-template-settings.md)
->* [Benutzerdefinierte Warnungen anzeigen](alert-view.md)
+>* [Anzeigen benutzerdefinierter Warnungen](alert-view.md)
 >* [Daten für benutzerdefinierte Warnungen exportieren](alert-export-data.md)
-

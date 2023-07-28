@@ -1,7 +1,9 @@
 ---
 title: Bearbeiten der Feed-Einstellungen für Tabellenberichte
 description: Erfahren Sie, wie Sie die Einstellungen für Tabellenfeeds bearbeiten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -22,11 +24,11 @@ Sie können die Berichtsvorlage ändern, [!DNL Microsoft® Excel] -Vorlage und a
 
 1. (Optional) Um die Berichtsvorlage oder die [!DNL Excel] Vorlage, die für den Tabellenfeed verwendet wird:
 
-   * (Optional) Um eine andere oder aktualisierte Berichtsvorlage für den Feed zu verwenden, [eine neue [!DNL Excel] Vorlage für die Berichtsvorlage](spreadsheet-feed-create-excel-template.md).
+   * (Optional) Um eine andere oder aktualisierte Berichtsvorlage für den Feed zu verwenden, [Erstellen Sie eine neue [!DNL Excel] Vorlage für die Berichtsvorlage](spreadsheet-feed-create-excel-template.md).
 
-      Sie müssen sowohl die Berichtsvorlage als auch die neue [!DNL Excel] im nächsten Schritt.
+     Sie müssen sowohl die Berichtsvorlage als auch die neue [!DNL Excel] im nächsten Schritt.
 
-   * (Optional) So fügen Sie einfach benutzerdefinierte Spalten zum [!DNL Excel] Vorlage, fügen Sie die Spalten rechts von den Spalten aus der Berichtsvorlage ein und speichern Sie die Datei dann als [!DNL Excel] Tabelle im .XLSX-Format. Sie müssen die neue [!DNL Excel] im nächsten Schritt.
+   * (Optional) So fügen Sie dem [!DNL Excel] Vorlage, fügen Sie die Spalten rechts von den Spalten aus der Berichtsvorlage ein und speichern Sie die Datei dann als [!DNL Excel] Tabelle im .XLSX-Format. Sie müssen die neue [!DNL Excel] im nächsten Schritt.
 
 1. Ändern Sie die Einstellungen des Tabellenfeeds:
 
@@ -40,11 +42,11 @@ Sie können die Berichtsvorlage ändern, [!DNL Microsoft® Excel] -Vorlage und a
 
    * (Optional) Sobald der Feed [!UICONTROL Update Status] is *[!UICONTROL Finished]* klicken **[!UICONTROL XLSX]** neben dem Feed klicken und die Datei dann gemäß der üblichen Vorgehensweise Ihres Browsers öffnen oder speichern.
 
-      >[!NOTE]
-      >
-      > Wenn die mit dem Feed verknüpfte Berichtsvorlage später gelöscht wird, wird der Feed ebenfalls gelöscht.
+     >[!NOTE]
+     >
+     > Wenn die mit dem Feed verknüpfte Berichtsvorlage später gelöscht wird, wird der Feed ebenfalls gelöscht.
 
-      Tabellen-Feeds werden automatisch um 08:00 Uhr in der Zeitzone des Werbetreibenden aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen Benachrichtigungen, wenn die Tabelle aktualisiert wird.
+     Tabellen-Feeds werden automatisch um 08:00 Uhr in der Zeitzone des Werbetreibenden aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen Benachrichtigungen, wenn die Tabelle aktualisiert wird.
 
 >[!MORELIKETHIS]
 >
@@ -52,7 +54,6 @@ Sie können die Berichtsvorlage ändern, [!DNL Microsoft® Excel] -Vorlage und a
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
 >* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
 >* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellen-Berichte](spreadsheet-feed-settings.md)
+>* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)
-

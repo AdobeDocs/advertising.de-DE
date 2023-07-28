@@ -1,7 +1,9 @@
 ---
 title: Manuelles Synchronisieren von Anzeigennetzwerkdaten
 description: Erfahren Sie, wie Sie die Synchronisierung Ihrer Kampagnenstruktur und Kampagnenentitäten für unterstützte Werbenetzwerke manuell durchführen können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Manuelles Synchronisieren von Anzeigennetzwerkdaten
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads]und [!DNL Yandex] Nur Konten*
+*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
 
 Bei der Synchronisierung werden von Search, Social und Commerce aktualisierte Informationen zu den Anzeigennetzwerkkonten jedes Advertisers erfasst [unterstützte Werbenetzwerke](/help/search-social-commerce/introduction/supported-inventory.md). Diese Daten umfassen die Kampagnenstruktur und Kampagnenentitäten des Advertisers, einschließlich der meisten ihrer Attribute, die in Search, Social und Commerce verwaltet oder in Berichten aufgeführt werden. Er enthält keine Klickdaten sowie Gebote und Gebotsmodifikatoren, die außerhalb von Search, Social und Commerce eingegeben werden und separat gesammelt werden.
 
@@ -22,19 +24,18 @@ Für Kampagnen mit dem Wert &quot;[!UICONTROL Auto Upload]&quot;, generiert und 
 
 >[!NOTE]
 >
->Immer [Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)können Sie optional mit dem Anzeigennetzwerk synchronisieren, bevor das Bulksheet erstellt wird.
+>Sie können [Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)können Sie optional mit dem Anzeigennetzwerk synchronisieren, bevor das Bulksheet erstellt wird.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]>[!UICONTROL Campaigns]**. Wählen Sie im Untermenü entweder **[!UICONTROL Accounts]** Synchronisieren aller Kampagnen in bestimmten Konten oder **[!UICONTROL Campaigns]** zum Synchronisieren bestimmter Kampagnen.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]>[!UICONTROL Campaigns]**. Wählen Sie im Untermenü entweder **[!UICONTROL Accounts]** Synchronisieren aller Kampagnen in bestimmten Konten oder **[!UICONTROL Campaigns]** um bestimmte Kampagnen zu synchronisieren.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Konten oder Kampagnen einzuschließen.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Konto oder jeder Kampagne, das/die Sie synchronisieren möchten. Sie können bis zu 50 Kampagnen gleichzeitig synchronisieren. Wenn Sie mehr als fünf Konten gleichzeitig synchronisieren, wird der Auftrag in Batches mit jeweils bis zu fünf Konten aufgeteilt.
 
-1. Klicken **![Mehr](/help/search-social-commerce/assets/more.png "Mehr")** in der Symbolleiste und wählen Sie **[!UICONTROL Sync]**.
+1. Klicks **![Mehr](/help/search-social-commerce/assets/more.png "Mehr")** in der Symbolleiste und wählen Sie **[!UICONTROL Sync]**.
 
 Sie können den Status des Synchronisierungsauftrags im [!UICONTROL Workspace] anzeigen. Der Auftrag kann eine Stunde oder länger dauern.
 
 >[!MORELIKETHIS]
 >
 >* [Bulksheet-Datei herunterladen/erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
-

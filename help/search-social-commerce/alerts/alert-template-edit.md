@@ -1,7 +1,9 @@
 ---
 title: Benutzerdefinierte Warnhinweisvorlage bearbeiten
 description: Erfahren Sie, wie Sie eine Vorlage zum Generieren benutzerdefinierter Warnhinweise bearbeiten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,11 +20,11 @@ ht-degree: 0%
 
 1. Klicken Sie neben dem Vorlagennamen auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Im [!UICONTROL Update \[Entity Type\] Alert] -Fenster, bearbeiten Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
+1. Im [!UICONTROL Update \[Entity Type\] Alert] -Fenster, bearbeiten Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]**, und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
 
    Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartennamen klicken (z. B. &quot;Filter&quot;) oder auf **[!UICONTROL Next]** unten rechts.
 
-1. Im [!UICONTROL Summary] Registerkarte, klicken Sie auf **[!UICONTROL Update]**.
+1. Im [!UICONTROL Summary] Registerkarte, klicken **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
@@ -32,6 +34,5 @@ ht-degree: 0%
 >* [Benutzerdefinierte Warnhinweisvorlage aktivieren](alert-template-activate.md)
 >* [Benutzerdefinierte Warnhinweisvorlage löschen](alert-template-delete.md)
 >* [Benutzerdefinierte Vorlageneinstellungen](alert-template-settings.md)
->* [Benutzerdefinierte Warnungen anzeigen](alert-view.md)
+>* [Anzeigen benutzerdefinierter Warnungen](alert-view.md)
 >* [Daten für benutzerdefinierte Warnungen exportieren](alert-export-data.md)
-

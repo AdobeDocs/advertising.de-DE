@@ -1,7 +1,9 @@
 ---
 title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -12,15 +14,15 @@ ht-degree: 0%
 
 ![Benutzeroberfläche](/help/search-social-commerce/assets/ui.png "Benutzeroberfläche")
 
-Am Anfang jeder Seite befinden sich das Hauptmenü und andere Menüs, die auf Aufgaben und Informationen basieren.
+Am oberen Rand jeder Seite befinden sich das Hauptmenü und andere Menüs, die auf Aufgaben und Informationen basieren.
 
 ## Hauptmenü
 
 Die Hauptmenüoptionen der obersten Ebene basieren auf den verfügbaren Werbekanälen. Sie sehen nur die Werbekanäle, die für Sie gelten:
 
-* **[!UICONTROL DSP]** — (Wenn Sie Zugriff auf Adobe Advertising DSP (Demand Side Platform)) Um Ihre Anzeige und verbundene TV-Werbung zu verwalten. eine separate [DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) ist verfügbar.
+* **[!UICONTROL DSP]** — (Wenn Sie Zugriff auf Adobe Advertising DSP (Demand Side Platform)) Um Ihre Anzeige und vernetzte TV-Werbung zu verwalten. Ein separates [DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) ist verfügbar.
 
-* **[!UICONTROL Creative]** — (Wenn Sie Zugriff auf Adobe Advertising Creative haben) Zur Automatisierung von Echtzeit-, personalisierten Werbeerlebnissen und zur Optimierung Ihrer Anzeigen auf der Ebene der kreativen Elemente. In Creative steht eine separate Hilfe zur Verfügung.
+* **[!UICONTROL Creative]** — (Wenn Sie Zugriff auf Adobe Advertising Creative haben) Zur Automatisierung von Echtzeit-, personalisierten Werbeerlebnissen und zur Optimierung Ihrer Anzeigen auf kreativer Elementebene. In Creative steht eine separate Hilfe zur Verfügung.
 
 * **[!UICONTROL Search]** — Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich derjenigen, für die Search, Social und Commerce verfolgt, aber keine Angebote unterbreitet.
 
@@ -32,7 +34,7 @@ Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angeze
 
 * **[!UICONTROL Optimization]** — Dieses Menü enthält Optionen zum Verwalten von Geschäftszielen, zum Verwalten von Portfolios basierend auf Ihren Geschäftszielen und zum Überwachen der Portfolioleistung, zum Generieren des Portfolioübergreifenden [!UICONTROL Spend Recommendation Report], Verwalten von Angebotsbegrenzungen und Anzeigen und (einige Benutzer) Verwalten Ihrer [!DNL Google Ads] Konversionswertregeln.
 
-   Eine separate Dokumentation zu diesen Funktionen finden Sie im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")).
+  Eine separate Dokumentation zu diesen Funktionen finden Sie im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")).
 
 * **[!UICONTROL Insights & Reports]** — Dieses Menü enthält Optionen zum Generieren detaillierter Einblicke und Berichte, Automatisieren der Berichtproduktion mithilfe von Tabellen-Feeds, Erstellen und Überwachen von Warnhinweisen, Konfigurieren Ihrer Benachrichtigungseinstellungen, Anzeigen von Netzwerkempfehlungen und Anzeigen eines Protokolls von Änderungen, die am Advertiser-Konto vorgenommen wurden.
 
@@ -46,7 +48,7 @@ Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angeze
 
 * ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweis-Benachrichtigungen") Ein Bereich, in dem Ihre Benachrichtigungen zu Suchen, Social und Commerce aufgelistet werden.
 
-   Wann du bist [über Adobe Experience Cloud angemeldet](log-in.md), zeigt dieses Bedienfeld Ihre Benachrichtigungen von Experience Cloud an.
+  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md), zeigt dieses Bedienfeld Ihre Benachrichtigungen von Experience Cloud an.
 
 * ![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü") Ein Hilfemenü mit Links zur Dokumentation und anderen Informationen.
 
@@ -54,10 +56,9 @@ Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angeze
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-   Wann du bist [über Adobe Experience Cloud angemeldet](log-in.md)können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und der Benachrichtigungseinstellungen.
+  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md)können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und der Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >
 >* [Anmelden](log-in.md)
 >* [Abmelden](log-out.md)
-

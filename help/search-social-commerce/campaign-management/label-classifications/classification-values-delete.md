@@ -1,7 +1,9 @@
 ---
 title: Löschen von Bezeichnungsklassifizierungswerten
 description: Erfahren Sie, wie Sie Werte für Beschriftungsklassifizierungen löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -16,9 +18,9 @@ Wenn Sie Beschriftungs-Classification-Werte löschen, stehen sie nicht mehr für
 >
 >Informationen zum einfachen Trennen der Zuordnung eines Classification-Werts zu einer Kontokomponente finden Sie unter[Entfernen von Classification-Werten aus Kampagnenkomponenten](classification-values-remove.md).&quot;
 
-1. Klicken **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Klicks **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
-1. Wählen Sie im Untermenü die Option **[!UICONTROL Label Values]**.
+1. Wählen Sie im Untermenü **[!UICONTROL Label Values]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Beschriftungswerte einzuschließen.
 
@@ -40,4 +42,3 @@ Wenn Sie Beschriftungs-Classification-Werte löschen, stehen sie nicht mehr für
 >* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
 >* [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](classification-values-remove.md)
 >* [Beschriftungsklassifizierungen löschen](classification-delete.md)
-

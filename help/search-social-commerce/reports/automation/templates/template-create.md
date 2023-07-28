@@ -1,7 +1,9 @@
 ---
 title: Berichtsvorlage erstellen
 description: Erfahren Sie, wie Sie eine wiederverwendbare Berichtsvorlage erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -22,11 +24,11 @@ Sie können mehrere Berichtsvorlagen für jeden Leistungsberichtstyp speichern. 
 
       * Klicken Sie auf **[!UICONTROL Templates]** Registerkarte.
 
-      * Klicken **[!UICONTROL Create Template]** und wählen Sie die Berichtkategorie aus.
+      * Klicks **[!UICONTROL Create Template]** und wählen Sie die Berichtkategorie aus.
 
       * Geben Sie die Berichtseinstellungen an.
 
-         Die &quot;[!UICONTROL Save as Template]Die Einstellung &quot; wird automatisch ausgewählt.
+        Die &quot;[!UICONTROL Save as Template]Die Einstellung &quot; wird automatisch ausgewählt.
 
 * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
 
@@ -44,4 +46,3 @@ Sie können mehrere Berichtsvorlagen für jeden Leistungsberichtstyp speichern. 
 >* [Berichtvorlage bearbeiten](template-edit.md)
 >* [Berichtsvorlage anzeigen](template-view.md)
 >* [Berichtvorlagen löschen](template-delete.md)
-

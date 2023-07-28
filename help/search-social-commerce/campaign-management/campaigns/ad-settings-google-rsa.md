@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] Einstellungen für responsive Suchanzeigen"
+title: '''[!DNL Google Ads] Einstellungen für responsive Suchanzeigen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] responsive Suchanzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -50,6 +52,5 @@ Siehe [!DNL Google Ads] Hilfe für [Anzeigenbeschränkungen pro Konto](https://s
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können](ad-settings-google-call.md)
 >* [[!DNL Google Ads] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-google-dsa.md)
-

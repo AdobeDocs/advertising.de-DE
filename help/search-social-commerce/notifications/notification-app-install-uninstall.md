@@ -1,7 +1,9 @@
 ---
 title: Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung
 description: Erfahren Sie, wie Sie die [!UICONTROL Notification Center] Webanwendung.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Sie können die Anwendung über den Anwendungs-Manager des Browsers deaktivieren
 
 1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Add]**.
 
-1. In der Install-App? Meldung, klicken Sie auf **[!UICONTROL Install]**.
+1. In der Install-App? message, click **[!UICONTROL Install]**.
 
 ## Installieren Sie die [!UICONTROL Notification Center] Webanwendung für [!DNL Microsoft® Edge]
 
@@ -40,13 +42,13 @@ Sie können die Anwendung über den Anwendungs-Manager des Browsers deaktivieren
 
    1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Add]**.
 
-   1. Im [!UICONTROL Install Notification Center] App-Nachricht, klicken Sie auf **[!UICONTROL Install]**.
+   1. Im [!UICONTROL Install Notification Center] App message, click **[!UICONTROL Install]**.
 
 * Aus dem [!DNL Edge] Hauptmenü:
 
    1. Klicken Sie in der Browser-Symbolleiste auf **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
-   1. Im [!UICONTROL Install Notification Center] App-Nachricht, klicken Sie auf **[!UICONTROL Install]**.
+   1. Im [!UICONTROL Install Notification Center] App message, click **[!UICONTROL Install]**.
 
 ## Deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung für [!DNL Google Chrome]
 
@@ -56,7 +58,7 @@ Sie können die Anwendung über den Anwendungs-Manager des Browsers deaktivieren
 
 1. Im [!DNL Edge] Browser-Symbolleiste, klicken Sie auf **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. Wechseln Sie alternativ zu `edge://apps`.
 
-1. Rechtsklick **[!UICONTROL Notification Center]** und klicken Sie auf **[!UICONTROL Uninstall]**.
+1. Rechtsklick **[!UICONTROL Notification Center]** und klicken **[!UICONTROL Uninstall]**.
 
 >[!MORELIKETHIS]
 >
@@ -66,4 +68,3 @@ Sie können die Anwendung über den Anwendungs-Manager des Browsers deaktivieren
 >* [Benachrichtigung löschen](notification-delete.md)
 >* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
 >* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

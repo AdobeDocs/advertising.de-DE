@@ -1,7 +1,9 @@
 ---
 title: Der Tracking-Parameter s_kwcid
-description: Erfahren Sie mehr über den Tracking-Parameter, mit dem Adobe Advertising-Daten für Adobe Analytics freigegeben werden.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+description: Erfahren Sie mehr über den Tracking-Parameter, der zum Freigeben von Adobe Advertising-Daten für Adobe Analytics verwendet wird.
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Der Tracking-Parameter s_kwcid
 
-*Advertiser mit nur einer Adobe-Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
 <!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
 

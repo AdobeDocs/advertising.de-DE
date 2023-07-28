@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Anzeigengruppen
 description: Erfahren Sie, wie Sie Anzeigengruppen erstellen und verwalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Verwalten von Anzeigengruppen
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]und [!DNL Yandex] Nur Konten*
+*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
 
 Eine Anzeigengruppe enthält eine Reihe von Anzeigen und die zugehörigen Suchbegriffe. Eine Anzeigengruppe in einer Kampagne, die auf das Display-Netzwerk ausgerichtet ist, kann auch Platzierungen enthalten, die Positionen im Display-Netzwerk sind, in denen Ihre Anzeigen erscheinen können. Die Anzeigengruppeneinstellungen, die für alle Komponenten der Anzeigengruppe gelten, variieren je nach Anzeigennetzwerk.
 
@@ -22,7 +24,7 @@ Sie können Anzeigengruppen aus Search, Social &amp; Commerce für eine [unterst
 >
 >Um große Mengen von Anzeigengruppendaten gleichzeitig hinzuzufügen, verwenden Sie die [Funktion zum Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -30,7 +32,7 @@ Sie können Anzeigengruppen aus Search, Social &amp; Commerce für eine [unterst
 
 1. Geben Sie die [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft-Werbung](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen.
 
-   Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]** zurück.
+   Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]**, bzw.
 
 1. Klicken **[!UICONTROL Post]**.
 
@@ -44,7 +46,7 @@ Sie können Einstellungen für einzelne Anzeigengruppen bearbeiten. Sie können 
 >
 >Um große Datenmengen gleichzeitig zu bearbeiten, verwenden Sie die [Funktion zum Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -54,15 +56,15 @@ Sie können Einstellungen für einzelne Anzeigengruppen bearbeiten. Sie können 
 
       * Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe.
 
-         Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
 1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft-Werbung](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen.
 
-   Bei mehreren Anzeigengruppen können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]und [!UICONTROL URL Options], abhängig vom Werbenetzwerk. Sie können nur die Felder bearbeiten, die für alle ausgewählten Anzeigengruppen gültig sind, und Ihre Änderungen werden auf alle ausgewählten Anzeigengruppen angewendet. Bei einigen alphanumerischen Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen angegebenen Wert zu ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge zu ersetzen, am Anfang jedes Werts ein angegebenes Präfix hinzuzufügen oder ein Suffix an das Ende jedes Werts anzuhängen. Bei einigen monetären Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen bestimmten Wert zu ändern oder den Betrag mit einer Begrenzung um einen bestimmten Prozentsatz oder Geldbetrag zu erhöhen oder zu verringern.
+   Bei mehreren Anzeigengruppen können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options], abhängig vom Werbenetzwerk. Sie können nur die Felder bearbeiten, die für alle ausgewählten Anzeigengruppen gültig sind, und Ihre Änderungen werden auf alle ausgewählten Anzeigengruppen angewendet. Bei einigen alphanumerischen Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen angegebenen Wert zu ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge zu ersetzen, am Anfang jedes Werts ein angegebenes Präfix hinzuzufügen oder ein Suffix an das Ende jedes Werts anzuhängen. Bei einigen monetären Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen bestimmten Wert zu ändern oder den Betrag mit einer Begrenzung um einen bestimmten Prozentsatz oder Geldbetrag zu erhöhen oder zu verringern.
 
-   Bei einzelnen Anzeigengruppen können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]** zurück.
+   Bei einzelnen Anzeigengruppen können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]**, bzw.
 
 1. Speichern Sie die Daten:
 
@@ -76,7 +78,7 @@ Sie können jede aktive Suchanzeigengruppe anhalten, um die Gebote darauf zu dea
 
 Sie können auch jede aktive oder angehaltene Suchanzeigengruppe löschen. Gelöschte Anzeigengruppen werden aus dem Werbenetzwerk gelöscht. Sie sind noch sichtbar, aber man kann sie nicht ändern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Anzeigengruppen einzuschließen.
 
@@ -89,7 +91,7 @@ Sie können auch jede aktive oder angehaltene Suchanzeigengruppe löschen. Gelö
 
    * Um die Zeilen anzuhalten, klicken Sie auf ![Anhalten](/help/search-social-commerce/assets/pause.png "Anhalten").
 
-   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
@@ -98,4 +100,3 @@ Sie können auch jede aktive oder angehaltene Suchanzeigengruppe löschen. Gelö
 >* [Einstellungen für Microsoft Advertising-Gruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo! Anzeigengruppeneinstellungen für Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Yandex-Anzeigengruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

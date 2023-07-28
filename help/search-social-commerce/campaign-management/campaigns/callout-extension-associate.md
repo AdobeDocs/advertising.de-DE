@@ -1,7 +1,9 @@
 ---
 title: Verknüpfen [!DNL Google Ads] freigegebene Callout-Erweiterungen für Kampagnen oder Anzeigengruppen
 description: Erfahren Sie, wie Sie [!DNL Google Ads] freigegebene Callout-Erweiterungen für Kampagnen oder Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Sie können Callout-Erweiterungen erstellen und jedem [unterstützt [!DNL Google
 
 Weisen Sie mindestens zwei Hinweisen pro Kampagne oder Anzeigengruppe zu, damit Ihre Anzeigen bei Hinweisen erscheinen können.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen")und wählen Sie **[!UICONTROL Callout]**.
 
@@ -33,12 +35,11 @@ Weisen Sie mindestens zwei Hinweisen pro Kampagne oder Anzeigengruppe zu, damit 
       * (Optional) Um eine Kampagnenliste oder Anzeigengruppenliste nach einer im Namen enthaltenen Textzeichenfolge zu filtern, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), geben Sie die Textzeichenfolge ein oder fügen Sie sie in das Eingabefeld ein und drücken Sie dann die **Eingabe** Schlüssel.
 
       * Um eine Entität auszuwählen, klicken Sie auf den Kreis daneben (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")).
-   1. Klicken **[!UICONTROL Post]**.
 
+   1. Klicken **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
 >* [Info [!DNL Google Ads] Callout-Erweiterungen](callout-extension-about.md)
 >* [Verwalten [!DNL Google Ads] Callout-Erweiterungen](callout-extension-manage.md)
 >* [Löschen von Anzeigenerweiterungszuordnungen mit Kampagnen und Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-

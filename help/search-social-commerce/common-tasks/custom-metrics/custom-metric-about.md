@@ -1,7 +1,9 @@
 ---
 title: Über benutzerdefinierte Metriken
 description: Erfahren Sie mehr über benutzerdefinierte Metriken, die aus Standardmetriken berechnet werden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6a2df48f-4d6b-4afe-88c0-c52a6de53e33
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +27,3 @@ Sie können benutzerdefinierte Metriken als Spalten in Portfolio- und Kampagnenv
 >* [Benutzerdefinierte Metrik bearbeiten](custom-metric-edit.md)
 >* [Benutzerdefinierte Metrik löschen](custom-metric-delete.md)
 >* [Benutzerdefinierte Metrikeinstellungen](custom-metric-settings.md)
-

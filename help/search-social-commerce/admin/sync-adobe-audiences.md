@@ -1,7 +1,9 @@
 ---
 title: Synchronisieren [!DNL Adobe] Zielgruppen
 description: Erfahren Sie, wie Sie Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für Ihre [!DNL Adobe] Zielgruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]Nur Client-Manager und -Administratoren*
 
-*Werbetreibende mit nur einer Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration verfügen*
 
 Sie können zulassen, dass Search, Social und Commerce Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Daten eines Advertisers oder einer Agentur abrufen. [!DNL Adobe] Zielgruppen in die [!UICONTROL Campaigns] > [!UICONTROL Audiences] Ansichten. Diese Informationen umfassen Daten für:
 
@@ -20,9 +22,9 @@ Sie können zulassen, dass Search, Social und Commerce Metadaten, Hierarchiedate
 
 * Adobe Analytics-Segmente, die in Adobe Experience Cloud veröffentlicht werden
 
-* Segmente, die mit Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
+* Segmente, die mit der Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
 
-Um zugelassen zu werden, muss der Werbetreibende oder die Agentur die [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) und geben Sie die Organisations-ID (zuvor [!DNL IMS Org ID]).
+Um zugelassen zu werden, muss der Werbetreibende oder die Agentur die [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) und geben Sie die Organisations-ID (zuvor [!DNL IMS Org ID]).
 
 Die anfängliche Synchronisation dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von einer bis zwei Sekunden synchronisiert.
 
@@ -36,4 +38,3 @@ Die anfängliche Synchronisation dauert etwa 24 Stunden. Danach werden die Daten
 >
 >* [Über Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Integration mit Adobe Experience Cloud-Lösungen und -Diensten](/help/search-social-commerce/introduction/integrations.md)
-

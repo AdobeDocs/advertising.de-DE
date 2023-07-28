@@ -1,7 +1,9 @@
 ---
 title: Handelskonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Handelskonten verwalten
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Search, Social und Commerce können täglich Produktdaten für die Google Merchant Center- oder Microsoft Merchant Center-Konten eines Advertisers herunterladen und anzeigen. Darüber hinaus können Search, Social und Commerce die Anzeigenerstellung anhand des Inhalts des Händlerkontos automatisieren. Um direkt mit Produktdaten in Search, Social und Commerce zu arbeiten, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Kontozugriffsberechtigungen und den Zugriff enthält *enabled*.
 
@@ -20,7 +22,7 @@ Search, Social und Commerce können täglich Produktdaten für die Google Mercha
 
 ## Details zum Handelskonto erstellen {#create-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu generieren und anhand der Daten Anzeigen zu erstellen, müssen Sie einen entsprechenden Kontodatensatz mit den Kontozugriffsdaten und dem Zugriff auf das Konto erstellen *enabled*.
 
@@ -36,7 +38,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
    1. Im [!UICONTROL Product Source] wählen Sie die Handelsmitte aus.
 
-   1. (Erforderlich für [!DNL Google Ads] Konten; optional für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
+   1. (Erforderlich für [!DNL Google Ads] Konten; fakultativ für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Nur Konten) Wählen Sie **[!UICONTROL oAuth]**.
 
@@ -56,7 +58,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
 ## Details zum Handelskonto bearbeiten {#edit-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwenden von Daten für ein Handelskonto einstellen möchten, bearbeiten Sie die Kontodetails.
 
@@ -78,7 +80,7 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 ## Zugriff auf ein Händlerkonto deaktivieren {#disable-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administrator-Benutzerrollen*
+*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
 
 Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce nicht bei dem Konto an und rufen daher keine aktualisierten Produktdaten ab. Während der Aktivierung des Kontos erfasste Daten werden weiterhin gespeichert und vorhandene Anzeigen, die mithilfe von Produktdaten erstellt wurden, werden nicht gemäß der Feed-Vorlage und den Feed-Dateneinstellungen aktualisiert, angehalten oder gelöscht.
 
@@ -104,7 +106,7 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 
 * *[!UICONTROL Client login]:* Um die Anmeldung des Kunden zu verwenden.
 
-* *[!UICONTROL oAuth]* (Standardeinstellung): So verwenden Sie die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
+* *[!UICONTROL oAuth]* (Standardeinstellung): Um die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] nur) Der Zugriffsschlüssel für das zu verwendende Entwicklerkonto.
 

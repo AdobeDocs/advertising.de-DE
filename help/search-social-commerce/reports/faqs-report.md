@@ -1,8 +1,9 @@
 ---
 title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
-description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
+description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -28,19 +29,19 @@ Wenn Sie Konversionen nach Klickdatum melden, enthalten die Daten Transaktionen,
 +++ Was passiert, wenn ich das Klick-Lookback-Fenster oder das Impression-Lookback-Fenster ändere?
 (Nur Advertiser mit dem pixelbasierten Konversions-Tracking-Dienst für Werbung) Daten zu Ereignissen, die aus dem ersten Klick resultieren, werden für einen längeren oder kürzeren Zeitraum erfasst.
 
-Ein Advertiser [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach einem bezahlten Klick oder einer (bzw.) Anzeige-Impression bestimmen, in denen das Ereignis einer Konversion zugeordnet werden kann. Eine Änderung eines Werts in einen längeren oder kürzeren Zeitraum kann für Advertiser mit besonders kurzen oder langen Clickthrough-Umsatz- oder Anzeigen-Impressions-zu-Umsatz-Zeiträumen wichtig sein.
+Die [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach einem bezahlten Klick oder einer (bzw.) Anzeige-Impression bestimmen, in denen das Ereignis einer Konversion zugeordnet werden kann. Eine Änderung eines Werts in einen längeren oder kürzeren Zeitraum kann für Advertiser mit besonders kurzen oder langen Clickthrough-Umsatz- oder Anzeigen-Impressions-zu-Umsatz-Zeiträumen wichtig sein.
 
 **Best Practice:** Stellen Sie sicher, dass die Lookback-Fenster länger sind als die Clickthrough- und Anzeigen-Impressions-zu-Umsatz-Zeiten für die meisten Ihrer Suchbegriffe oder Anzeigen. Wenn sie kürzer sind, werden einige Konversionen nicht mit dem ersten Klick oder der ersten Impression verknüpft.
 +++
 
 +++Woher weiß ich, welche Konversionen aus einer [!DNL Google Ads] Anzeigenerweiterung oder Produktliste?
-Sie können sehen, welche Konversionen durch einen Klick auf eine [!DNL Google Ads] Anzeigenerweiterung (anstelle der Anzeige selbst) oder auf einer Produktliste durch Generieren einer [!UICONTROL Transaction Report]. Die [!UICONTROL Link Type] -Spaltenwert zeigt den Typ und Titel eines angeklickten Links an:
+Sie können sehen, welche Konversionen durch einen Klick auf eine [!DNL Google Ads] Anzeigenerweiterung (anstelle der Anzeige selbst) oder auf einer Produktliste durch Generieren einer [!UICONTROL Transaction Report]. Die [!UICONTROL Link Type] zeigt den Typ und Titel eines angeklickten Links an:
 
-* Produktlisten werden als `pla:<product ID>`, z. B. `pla:8525822`.
+* Produktlisten werden als `pla:<product ID>`, beispielsweise `pla:8525822`.
 
-* Sitelinks werden als `sl:<Sitelink text>`, z. B. `sl:See Current Offers`.
+* Sitelinks werden als `sl:<Sitelink text>`, beispielsweise `sl:See Current Offers`.
 
-  Sie können auch einen Sitelink identifizieren, wenn Sie die [!UICONTROL Tracking URL] in den Bericht ein. Die [!UICONTROL Tracking URL] für einen Sitelink enthält das Attribut `&ev_ltx=sl:<link-name>`.
+  Sie können auch einen Sitelink identifizieren, wenn Sie die [!UICONTROL Tracking URL] im Bericht. Die [!UICONTROL Tracking URL] für einen Sitelink enthält das Attribut `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -59,7 +60,7 @@ Wenn Sie nicht möchten, dass sich die Daten für den Zeitraum auf künftige Ang
 +++
 
 +++ Kann ich einen Bericht für eine bestimmte Eigenschaftsmetrik erstellen, z. B. [!UICONTROL Device] oder [!UICONTROL Objective Name]?
-Für Kampagnenentitätsberichte ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report]und [!UICONTROL Product Group Report]), werden die Metrikdaten dynamisch durch die Eigenschaftsspalten aggregiert, die Sie in den Bericht einbeziehen. Optional können Sie die Schlüsselspalte für den Bericht entfernen und nur die Eigenschaftenspalten einschließen, für die Sie Daten aggregieren möchten.
+Für Kampagnenentitätsberichte ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], und [!UICONTROL Product Group Report]), werden die Metrikdaten dynamisch durch die Eigenschaftsspalten aggregiert, die Sie in den Bericht einbeziehen. Optional können Sie die Schlüsselspalte für den Bericht entfernen und nur die Eigenschaftenspalten einschließen, für die Sie Daten aggregieren möchten.
 
 Wenn Sie beispielsweise eine [!UICONTROL Keyword Report] , die Folgendes enthält: [!UICONTROL Ad Group] und  Gerätespalten, aggregiert der Bericht dann standardmäßig die Metriken für jeden Suchbegriff nach Anzeigengruppe und Gerätetyp. Wenn Sie jedoch die [!UICONTROL Keyword] vor der Berichterstellung, generiert der Bericht dynamisch Metriken für die angegebenen Anzeigengruppen nach Gerätetyp.
 
@@ -130,7 +131,7 @@ Wenn das Werbenetzwerk Aktualisierungen an frühere Daten sendet (häufig weil s
 
 Wenn Sie außerdem Daten von Impressions-Freigaben vergleichen, die über einen Datumsbereich aggregiert wurden, können die in den Berichten &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;enthaltenen Daten von den Daten abweichen, die das Anzeigennetzwerk meldet. Dieser Unterschied liegt daran, wie die Daten von der API des Anzeigennetzwerks gemeldet werden, mit der Search, Social und Commerce Daten abrufen. Beispiel: für [!DNL Google Ads] data:
 
-* Für die meisten Impressions-Share-Metriken: [!DNL Google Ads] Begrenzt entweder das untere oder das obere Ende der Werte, die für Werte angegeben werden, die kleiner als 10 % oder größer als 90 % sind. Die Daten werden als 0,0999 für &lt;10% und 0,9001 für >90% gemeldet.
+* Für die meisten Impressions-Share-Metriken [!DNL Google Ads] Begrenzt entweder das untere oder das obere Ende der Werte, die für Werte angegeben werden, die kleiner als 10 % oder größer als 90 % sind. Die Daten werden als 0,0999 für &lt;10% und 0,9001 für >90% gemeldet.
 
 * Wenn im Datumsbereich eine Mischung aus gecappten und nicht zugewiesenen Daten vorhanden ist, aggregiert Search, Social und Commerce Impressions-Share-Daten anhand der Werte, die im Istzustand in der API gesendet werden, wobei 0,0999 für Zeilen mit &lt;10 % und 0,9001 für Zeilen mit >90 % verwendet werden. Diese Aggregation kann zu einer Abweichung von der [!DNL Google Ads] voraggregierte Daten, weil [!DNL Google Ads] kann tatsächliche Prozentwerte verwenden, z. B. 7 % oder 97 %.
 +++
@@ -138,7 +139,7 @@ Wenn Sie außerdem Daten von Impressions-Freigaben vergleichen, die über einen 
 +++ Leistungsdaten in Berichten unterscheiden sich von den Daten in [!DNL Google Analytics].
 Die beiden Systeme messen unterschiedliche Daten, sodass Sie erwarten sollten, dass andere Daten angezeigt werden. Beispiel:
 
-* Klicks werden in Search, Social und Commerce (und Google Ads) verfolgt, während Klicks in [!DNL Google Analytics] verfolgt Besuche pro 30-minütige Browser-Sitzung. Wenn ein Benutzer beispielsweise einmal auf Ihre Anzeige klickt, dann auf die Schaltfläche &quot;Zurück&quot;und dann erneut auf die Anzeige klickt, werden in Search, Social und Commerce zwei Klicks aufgezeichnet, aber [!DNL Google Analytics] erfasst einen Besuch.
+* Klicks werden in Search, Social und Commerce (und Google Ads) verfolgt, während Klicks in [!DNL Google Analytics] verfolgt Besuche pro 30-minütige Browser-Sitzung. Wenn ein Benutzer beispielsweise einmal auf Ihre Anzeige klickt, dann auf die Schaltfläche &quot;Zurück&quot;und dann erneut auf die Anzeige klickt, zeichnet &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;zwei Klicks auf, aber [!DNL Google Analytics] erfasst einen Besuch.
 
 * [!DNL Google Analytics] zeigt alle Traffic-Daten an, während &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;(und [!DNL Google Ads]) filtert ungültige Klicks (z. B. übermäßige, wiederholte Klicks).
 
@@ -169,7 +170,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Bereitstellen der Transaktionseigenschaften für Berichte](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
-1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Wenden Sie sich bei Bedarf an Ihr Kundenbetreuungsteam, um eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (z. B. der `trackingid`, `clickid`usw.).
+1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Wenden Sie sich bei Bedarf an Ihr Kundenbetreuungsteam, um eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (wie die `trackingid`, `clickid`usw.).
 
 1. Wenn die Variable [!UICONTROL Auto Upload] -Option für die Kampagne deaktiviert ist und Sie Suchbegriffe oder Anzeigen hinzugefügt haben, müssen Sie dann sicherstellen, dass Sie eine Tracking-Vorlage oder Ziel-URL generiert haben, die das Klick-Umleitungs-Tracking für Search, Social und Commerce enthält. Ihr Adobe-Kontoteam kann einen internen Bericht ausführen, um zu sehen, ob Klick-Tracking-URLs (Tracking-Vorlagen oder Ziel-URLs) fehlen oder fehlerhaft sind.
 
@@ -230,7 +231,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
 1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass das entsprechende Konversions-Tracking-Tag auf allen zutreffenden Webseiten implementiert ist und nicht bearbeitet wurde, es sei denn, Ihr Adobe-Kundenbetreuungsteam hat Sie dazu angewiesen. Wenn die Website kürzlich aktualisiert wurde, fehlt möglicherweise ein -Tag oder ändert es sich.
 
-   Search, Social und Commerce erwarten wohlgeformte URLs (mit Parametern in Name/Wert-Paaren) innerhalb der Variablen `ef_transaction_properties` und innerhalb der Variablen `src` -Element `img` -Tag.
+   Search, Social und Commerce erwarten wohlgeformte URLs (mit Parametern in Name/Wert-Paaren) innerhalb der Variablen `ef_transaction_properties` und innerhalb der Variablen `src` -Element des `img` -Tag.
 
 1. Wenn Sie das Problem nicht ermitteln und beheben können, dann [Kundenunterstützung kontaktieren](/help/search-social-commerce/get-help.md).
 
@@ -268,7 +269,7 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 * Der Traffic zur Seite des Werbetreibenden stammt von einem Lesezeichen oder einer organischen Suche anstelle einer Anzeige.
 
-* Es gibt [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p), also zählt Search, Social und Commerce nicht den gesamten Umsatz, den sie erzielen sollte.
+* Es gibt [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p), also zählt &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;nicht den gesamten Umsatz, den sie erzielen sollte.
 
 * Der Advertiser validierte einen Bericht zu Search, Social und Commerce für einen anderen Datensatz als den im Feed gesendeten.
 
@@ -309,7 +310,7 @@ Die [!UICONTROL Portfolio Report] zeigt nur Daten für die Kampagnen an, die den
 +++
 
 +++Daten auf Anzeigenebene sind nicht verfügbar für [!DNL Google Ads] dynamische Suchanzeige (DSA), Leistungsmax, intelligentes Einkaufen und [!DNL YouTube] Kampagnen.
-Die Werbenetzwerke stellen nicht die Kennung bereit, die erforderlich ist, um einer einzelnen Anzeige für diese Kampagnen Umsätze zuzuordnen. Folglich stehen für diese Kampagnentypen in der Variablen [!UICONTROL Ads] oder in der [!UICONTROL Ad Variation Report]. Erwarten Sie Diskrepanzen zwischen den Gesamtdaten der Anzeigenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
+Die Werbenetzwerke stellen nicht die Kennung bereit, die erforderlich ist, um einer einzelnen Anzeige für diese Kampagnen Umsätze zuzuordnen. Folglich stehen für diese Kampagnentypen im [!UICONTROL Ads] oder in der [!UICONTROL Ad Variation Report]. Erwarten Sie Diskrepanzen zwischen den Gesamtdaten der Anzeigenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
 +++
 
 +++In der [!UICONTROL Transaction Report]Wie weiß ich, welche Transaktionseigenschaft von einem Daten-Feed stammt oder vom Adobe Advertising-Tracking-Pixel verfolgt wird?
@@ -317,7 +318,7 @@ In einem Transaktionsbericht können Sie feststellen, ob eine enthaltene Transak
 +++
 
 +++ Die Daten in der [!UICONTROL Transaction Report] stimmt nicht mit den Daten in meiner [!UICONTROL Keyword Report].
-Wenn Sie beide Berichte nach Portfolio generieren, unterscheiden sich die Daten, wenn Sie die [!UICONTROL Keyword Report] Verwendung historischer Daten (d. h. basierend auf der Portfoliokonfiguration während der angegebenen Datumsangaben) anstelle der Verwendung von Daten für die aktuellen Kampagnen. Wenn Sie die [!UICONTROL Transaction Report] nach Portfolio enthält sie Daten für die aktuellen Kampagnen im Portfolio.
+Wenn Sie beide Berichte nach Portfolio generieren, unterscheiden sich die Daten, wenn Sie die [!UICONTROL Keyword Report] Verwendung von historischen Daten (d. h. basierend auf der Portfoliokonfiguration während der angegebenen Datumsangaben) anstelle von Daten für die aktuellen Kampagnen. Wenn Sie die [!UICONTROL Transaction Report] nach Portfolio enthält sie Daten für die aktuellen Kampagnen im Portfolio.
 +++
 
 ## Tabellen-Feeds
@@ -329,13 +330,13 @@ Um das Problem zu beheben, aktualisieren Sie den Tabellenfeed, um täglich aggre
 +++
 
 ++ + Ein Tabellenfeed führt zu einem internen Fehler.
-Dieser Fehler kann auftreten, wenn Sie die Spalten in der Berichtsvorlage ändern, aber die [!DNL Microsoft® Excel] entsprechend.
+Dieser Fehler kann auftreten, wenn Sie die Spalten in der Berichtsvorlage ändern, aber die [!DNL Microsoft® Excel] Vorlage entsprechend.
 
 Um das Problem zu beheben, aktualisieren Sie den Tabellenfeed, um die neuen Spalten einzuschließen. Diese Aufgabe umfasst die Aktualisierung der Berichtsvorlage, die Erstellung eines Berichts mithilfe der Vorlage und die Erstellung eines benutzerdefinierten [!DNL Excel] Vorlage verwenden und dann die Feed-Einstellungen aktualisieren, um die neue Excel-Vorlage einzuschließen. Weitere Informationen finden Sie unter &quot;[Bearbeiten der Feed-Einstellungen für Tabellenberichte](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++ Wenn ich versuche, einen Tabellenfeed in [!DNL Excel], [!DNL Excel] meldet den Fehler &quot;Unlesbarer Inhalt&quot;, und Daten werden aus dem wiederhergestellten Inhalt entfernt.
-Wenn die [!DNL Microsoft® Excel] -Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellenfeed leere Zeilen enthalten. Insbesondere [!DNL Excel] meldet den Fehler &quot;Excel hat unlesbaren Inhalt in &#39;&lt;*Berichtsname*>.xlsx.&#39; Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf &quot;Ja&quot;. Wenn Sie auf &quot;Ja&quot;klicken, erhalten Sie die folgende Meldung: &quot;Entfernte Datensätze: Zellinformationen aus /xl/worksheets/sheet1.xml Teil&quot;, und der Arbeitsblatt-Feed enthält leere Zeilen.
+Wenn die Variable [!DNL Microsoft® Excel] -Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellenfeed leere Zeilen enthalten. Insbesondere [!DNL Excel] meldet den Fehler &quot;Excel hat unlesbaren Inhalt in &#39;&lt;*Berichtsname*>.xlsx.&#39; Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf &quot;Ja&quot;. Wenn Sie auf &quot;Ja&quot;klicken, erhalten Sie die folgende Meldung: &quot;Entfernte Datensätze: Zellinformationen aus /xl/worksheets/sheet1.xml Teil&quot;, und der Tabellenfeed enthält leere Zeilen.
 
 Um das Problem zu beheben, bearbeiten Sie die [!DNL Excel] Vorlage, die mit dem Feed verknüpft ist, um Daten nach [!DNL Start date in Ascending (Oldest to Newest) order]und laden Sie dann die aktualisierte Vorlage über die Tabellen-Feed-Einstellungen hoch. Weitere Informationen finden Sie unter &quot;[Bearbeiten von Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] Anzeigengruppeneinstellungen"
+title: '''[!DNL Google Ads] Anzeigengruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Anzeigengruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -18,17 +20,17 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Type]:** (Nur erweiterte dynamische Suchanzeigekampagnen) Der Typ der Anzeigengruppe:
 
-* *[!UICONTROL Search Standard]* (Standardeinstellung): Für Standardanzeigen.
+* *[!UICONTROL Search Standard]* (Standard): Für Standardanzeigen.
 
 * *[!UICONTROL Search Dynamic]:* Für dynamische Suchanzeigen.
 
-**[!UICONTROL Ad Rotation Mode]:** Häufigkeit [!DNL Google Ads] stellt Ihre aktiven Anzeigen im Verhältnis zueinander innerhalb der Anzeigengruppe bereit:
+**[!UICONTROL Ad Rotation Mode]:** Wie oft [!DNL Google Ads] stellt Ihre aktiven Anzeigen im Verhältnis zueinander innerhalb der Anzeigengruppe bereit:
 
 * *[!UICONTROL Optimize]:* Google Ads bevorzugt Anzeigen, von denen erwartet wird, dass sie eine bessere Leistung erzielen als andere Anzeigen in der Anzeigengruppe. Diese Anzeigen treten häufiger in die Anzeigenauktion ein und im Laufe der Zeit wird eine einzelne Anzeige bevorzugt. Dies entspricht möglicherweise nicht Ihren Unternehmens- und Optimierungszielen.
 
 * *[!UICONTROL Rotate forever]:*   Jede Ihrer Anzeigen tritt in die Anzeigenauktion ein, was es Search, Social und Commerce ermöglicht, Ihre Anzeigen nicht nur mit der Clickthrough-Rate, sondern auch mit Konversionen zu bewerten.
 
-* *[!UICONTROL Use campaign setting]*(Standardeinstellung für neue Anzeigengruppen): Verwendet die Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist nicht in Search, Social und Commerce sichtbar.
+* *[!UICONTROL Use campaign setting]*(Standardeinstellung für neue Anzeigengruppen): Verwendet die Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist in &quot;Suchen&quot;, &quot;Sozial&quot;und &quot;Commerce&quot;nicht sichtbar.
 
 Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONTROL Target CPA], [!UICONTROL Target ROAS]oder [!UICONTROL Enhanced CPC]), dann [!DNL Google Ads] setzt die Option automatisch auf &quot;[!UICONTROL Optimize].&quot;
 
@@ -39,7 +41,6 @@ Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONT
 >* Erstellen Sie beim Gebot nach Keyword Tracking-Vorlagen auf Suchbegriffebene. Erstellen Sie auf ähnliche Weise Tracking-Vorlagen, wenn Sie ein Angebot nach Platzierung unterbreiten. Erstellen Sie für alle anderen Dimensionen Tracking-Vorlagen auf Anzeigenebene.
 >* Wenn Sie für Kampagnen in Portfolios ein Angebot nach Alter, Geschlecht, Interessen und Liste oder Vertikal erstellen, optimiert die Optimierungsfunktion keine Angebote für die Dimension. Außerdem wird die gesamte Attribution auf die Anzeigengruppe angewendet.
 >* Anzeigen im Suchnetzwerk verwenden immer Suchbegriffangebote.
-
 
 ## [!UICONTROL Budget Options]
 
@@ -88,4 +89,3 @@ Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONT
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

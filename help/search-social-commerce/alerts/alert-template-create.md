@@ -1,7 +1,9 @@
 ---
 title: Benutzerdefinierte Warnhinweisvorlage erstellen
 description: Erfahren Sie, wie Sie eine Vorlage zum Generieren benutzerdefinierter Warnhinweise erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -18,11 +20,11 @@ Sie können eine Warnhinweisvorlage für Portfolios, Kampagnen, Anzeigengruppen,
 
 1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen")und wählen Sie dann den zu bewertenden Entitätstyp ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad]oder [!UICONTROL Product Group]).
 
-1. Im [!UICONTROL Create \[Entity\] Alert] Fenster, geben Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
+1. Im [!UICONTROL Create \[Entity\] Alert] Fenster, geben Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]**, und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
 
 Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartennamen klicken (z. B. &quot;Filter&quot;) oder auf **[!UICONTROL Next]** unten rechts.
 
-1. Im [!UICONTROL Summary] Registerkarte, klicken Sie auf **[!UICONTROL Create]**.
+1. Im [!UICONTROL Summary] Registerkarte, klicken **[!UICONTROL Create]**.
 
 ## Erstellen einer Warnhinweisvorlage aus einer Kampagnenverwaltungsansicht
 
@@ -40,11 +42,11 @@ Um beispielsweise eine Warnhinweisvorlage auf Suchbegriffebene zu erstellen, geh
 >
 >Sie müssen keine bestimmten Zeilen auswählen.
 
-1. Im [!UICONTROL Create \[Entity type\] Alert] Fenster, geben Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
+1. Im [!UICONTROL Create \[Entity type\] Alert] Fenster, geben Sie die [Warneinstellungen](alert-template-settings.md) auf **[!UICONTROL Date Range]**, **[!UICONTROL Filters]**, und **[!UICONTROL Scheduling and Delivery]** Registerkarten.
 
 Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartennamen klicken (z. B. &quot;Filter&quot;) oder auf **[!UICONTROL Next]** unten rechts.
 
-1. Im [!UICONTROL Summary] Registerkarte, klicken Sie auf **[!UICONTROL Create]**.
+1. Im [!UICONTROL Summary] Registerkarte, klicken **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
@@ -54,6 +56,5 @@ Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartenna
 >* [Benutzerdefinierte Warnhinweisvorlage aktivieren](alert-template-activate.md)
 >* [Benutzerdefinierte Warnhinweisvorlage löschen](alert-template-delete.md)
 >* [Benutzerdefinierte Vorlageneinstellungen](alert-template-settings.md)
->* [Benutzerdefinierte Warnungen anzeigen](alert-view.md)
+>* [Anzeigen benutzerdefinierter Warnungen](alert-view.md)
 >* [Daten für benutzerdefinierte Warnungen exportieren](alert-export-data.md)
-

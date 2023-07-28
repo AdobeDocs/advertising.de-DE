@@ -1,7 +1,9 @@
 ---
 title: Über Zielgruppen
 description: Erfahren Sie mehr über die Optionen zum Tracking, Erstellen und Verwalten [!DNL Google Ads] und [!DNL Microsoft® Advertising] Zielgruppen.
-source-git-commit: 0b77c54ee9214021c841b4c1cca0b3439ea71f6f
+exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 *[!DNL Google Ads]und [!DNL Microsoft® Advertising] only*
 
-Die Zielgruppenbibliothek listet alle Ihre [!DNL Google Ads] Kundendatenbasierte, marktinterne und ähnliche Zielgruppen und Ihre [!DNL Microsoft® Advertising] Remarketing und dynamisches Remarketing, benutzerdefinierte Zielgruppen, Kundenabgleich, In-Market und ähnliche Zielgruppen. Sie können die [!DNL Google Ads] Zielgruppen als [!DNL Google Ads] Ziele und Ausschlüsse auf Kampagnenebene und Anzeigengruppenebene sowie die Verwendung der [!DNL Microsoft® Advertising] Zielgruppen als [!DNL Microsoft® Advertising] Zielgruppen auf Kampagnen- und Anzeigengruppenebene und (nur dynamische Remarketing-Zielgruppen) Ausschlüsse. Sie können eine Angebotsanpassung für ein beliebiges Zielgruppen-Ziel hinzufügen oder bearbeiten.
+Die Zielgruppenbibliothek listet alle Ihre [!DNL Google Ads] Kundendatenbasierte, marktinterne und ähnliche Zielgruppen und Ihre [!DNL Microsoft® Advertising] Remarketing und dynamisches Remarketing, benutzerdefinierte Zielgruppen, Kundenabgleich, In-Market und ähnliche Zielgruppen. Sie können einen der [!DNL Google Ads] Zielgruppen als [!DNL Google Ads] Ziele und Ausschlüsse auf Kampagnenebene und Anzeigengruppenebene sowie die Verwendung der [!DNL Microsoft® Advertising] Zielgruppen als [!DNL Microsoft® Advertising] Zielgruppen auf Kampagnen- und Anzeigengruppenebene und (nur dynamische Remarketing-Zielgruppen) Ausschlüsse. Sie können eine Angebotsanpassung für ein beliebiges Zielgruppen-Ziel hinzufügen oder bearbeiten.
 
 Sie können Zielgruppen auch mithilfe von Segmenten oder E-Mail-Listen aus Ihren bestehenden Adobe Experience Cloud-Zielgruppen und aus verschiedenen Arten von Kundendaten aus Ihrem CRM-System (Customer Relationship Management) erstellen und verwalten:
 
-* **Zielgruppensegmente der Adobe:** Werbetreibende mit angemeldeten Adobe Audience Manager- oder Adobe Analytics-Konten können [!DNL Google Ads] Zielgruppen aus ihrer [!DNL Adobe] Segmente:
+* **Zielgruppensegmente der Adobe:** Werbetreibende mit angemeldeten Adobe Audience Manager- oder Adobe Analytics-Konten können [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Segmente:
 
    * (Werbetreibende mit [!DNL Analytics] Konten, die nicht auch über Audience Manager verfügen) Sie können [!DNL Google Ads] Zielgruppen mithilfe von Benutzer-IDs aus abgleichen [!DNL Analytics] Segmente, die für Adobe Experience Cloud freigegeben sind.
 
@@ -30,7 +32,7 @@ Sie können Zielgruppen auch mithilfe von Segmenten oder E-Mail-Listen aus Ihren
 
 * **Kundendatenlisten:** Advertiser mit [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Konten, die für eine Kundenabstimmung infrage kommen, können eine auf Anzeigennetzwerken basierende kundendatenbasierte Zielgruppe erstellen und aktualisieren &lt;!>- oder dynamische Remarketing-Zielgruppe - in kundendatenbasierte Zielgruppen integriert, zumindest für [!DNL Google Ads]?—> durch Hochladen einer CSV-Datei mit primären Kennungen.
 
-* **Dynamische Remarketing-Listen:** Advertiser mit [!DNL Microsoft® Advertising] -Konten können dynamische Remarketing-Zielgruppen erstellen und verwalten, mit denen Sie potenzielle Kunden ansprechen können, die kürzlich auf verschiedene Weise mit Ihren Produkten interagiert haben (z. B. Produkt-Viewer oder frühere Käufer). Für dynamische Remarketing-Zielgruppen müssen Sie das JavaScript-Konversions- und Zielgruppen-Tracking-Tag des Werbenetzwerks auf Ihren Webseiten verwenden. Verwenden Sie dynamische Remarketing-Listen mit Shopping-Kampagnen in den Such- und Zielgruppen-Netzwerken, um Zielgruppen mit Produktanzeigen erneut anzusprechen, sowie Suchkampagnen, um Zielgruppen mit Textanzeigen und dynamischen Suchanzeigen erneut anzusprechen. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
+* **Dynamische Remarketing-Listen** Advertiser mit [!DNL Microsoft® Advertising] -Konten können dynamische Remarketing-Zielgruppen erstellen und verwalten, mit denen Sie potenzielle Kunden ansprechen können, die kürzlich auf verschiedene Weise mit Ihren Produkten interagiert haben (z. B. Produkt-Viewer oder frühere Käufer). Für dynamische Remarketing-Zielgruppen müssen Sie das JavaScript-Konversions- und Zielgruppen-Tracking-Tag des Werbenetzwerks auf Ihren Webseiten verwenden. Verwenden Sie dynamische Remarketing-Listen mit Shopping-Kampagnen in den Such- und Zielgruppen-Netzwerken, um Zielgruppen mit Produktanzeigen erneut anzusprechen, sowie Suchkampagnen, um Zielgruppen mit Textanzeigen und dynamischen Suchanzeigen erneut anzusprechen. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
   >[!NOTE]
   >

@@ -1,7 +1,9 @@
 ---
 title: Adobe Analytics-Konversions-Tracking
 description: Erfahren Sie mehr über die Verwendung des Adobe Analytics-Konversions-Trackings für Ihre Kampagnen in Adobe Advertising.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 
 # Adobe Analytics-Konversions-Tracking
 
-*Advertiser mit nur einer Adobe-Advertising-Adobe Analytics-Integration*
+*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
 Für Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration kann Advertising Cloud Ihre Anzeigenklicks und -impressionen mit den Site-Interaktions- und Konversionsmetriken verbinden, die von [!DNL Analytics] bei Verwendung einer Umleitung mit einem Token (`ef_id` -Parameter) in Ihren Klick-Tracking-URLs für Ihre [Bid-Einheiten](/help/search-social-commerce/glossary.md#a-b). Die [!DNL Analytics] Daten werden automatisch über eine tägliche Feed-Datei an Advertising Cloud gesendet.
 
-Siehe[Übersicht über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot;, um weitere Informationen zur Integration zu erhalten.
+Siehe &quot;[Übersicht über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot;, um weitere Informationen zur Integration zu erhalten.
 
 >[!PREREQUISITES]
 >

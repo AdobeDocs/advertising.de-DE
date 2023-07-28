@@ -1,7 +1,9 @@
 ---
 title: Konversions-Tracking mit einem EF ID-Feed
 description: Erfahren Sie mehr über die Verwendung eines EF ID-Feeds für Konversions-Tracking-Daten.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Bei dieser Methode erfasst Advertising Cloud eine `ef_id` jedes Mal, wenn ein Be
 
 1. Der Advertiser lädt eine Datei mit der [erforderliche Konversionsdaten](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) zum angegebenen Serverstandort.
 
-1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in den Adobe Advertising hoch. Adobe Advertising verfolgt dann die Daten anhand einzelner Suchbegriffe, Anzeigen und Platzierungen und erstellt eine Umsatzprognostizierung für jede dieser Suchbegriffe.
+1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in den Adobe Advertising hoch. Adobe Advertising verfolgt dann die Daten anhand einzelner Suchbegriffe, Anzeigen und Platzierungen und erstellt für jede dieser Optionen eine Umsatzprognostizierung.
 
 1. Der technische Dienst validiert die verarbeiteten Daten mit den Feed-Daten und prüft alle [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p).
 
@@ -40,5 +42,3 @@ Bei dieser Methode erfasst Advertising Cloud eine `ef_id` jedes Mal, wenn ein Be
 >
 >* [Dateianforderungen für Konversions-Feed-Dateien](feed-file-requirements.md)
 >* [Datenanforderungen für Daten-Feeds mit EF IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

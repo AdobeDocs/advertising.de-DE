@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds"
+title: '''[!DNL Google Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Campaign Tracking Template]:** (Optional für Vorlagen für Client-Feed-Dateien) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
-Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; verwenden Sie die [Tracking-Vorlagenformat für Google Ads-Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; verwenden Sie die [Tracking-Vorlagenformat für Google Ads-Einkaufskampagnen](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -64,7 +66,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlerkontos, dessen Produkte für die Kampagne verwendet werden.
+**[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlers, dessen Produkte für die Kampagne verwendet werden.
 
 **[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte mit Zielländern verknüpft sind, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
 
@@ -134,13 +136,13 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
+**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] -Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene reicht aus.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
-**[!UICONTROL Initial Bid]:** Das anfängliche Angebot für jede Anzeige.
+**[!UICONTROL Initial Bid]:** Das anfängliche Gebot für jede Anzeige.
 
 ## [!UICONTROL Feed Filters]
 

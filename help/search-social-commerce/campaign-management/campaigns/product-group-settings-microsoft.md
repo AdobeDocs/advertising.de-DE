@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] Produktgruppeneinstellungen"
+title: '''[!DNL Microsoft® Advertising] Produktgruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Einkaufsproduktgruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 
 Nachdem Sie eine Produktgruppe für bestimmte Produktdimensionen erstellt haben (d. h. nicht &quot;Alle Produkte&quot;), erstellt Search, Social und Commerce automatisch eine Produktgruppe für &quot;Alles andere&quot;.
 
-Eine Liste der verfügbaren Produktdimensionen finden Sie unter[Produktfilter für Shopping-Kampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; Die Liste der Dimensionen kann je nach Kampagnenart begrenzt sein. [!UICONTROL Inventory Filter] -Einstellung.
+Eine Liste der verfügbaren Produktdimensionen finden Sie unter[Produktfilter für Shopping-Kampagne](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; Die Liste der Dimensionen kann je nach Kampagnenart begrenzt sein. [!UICONTROL Inventory Filter] -Einstellung.
 
 **[!UICONTROL Excluded]:** (Optional für neue Produktgruppen; schreibgeschützt für bestehende Produktgruppen) Schließt Gebote auf Anzeigen für übereinstimmende Produkte aus.
 
@@ -49,6 +51,5 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 >
 >* [Über Einkaufsproduktgruppen](product-group-about.md)
 >* [Verwalten von Einkaufsproduktgruppen](product-group-manage.md)
->* [Produktfilter für Shopping-Kampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [Produktfilter für Shopping-Kampagne](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
 >* [Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

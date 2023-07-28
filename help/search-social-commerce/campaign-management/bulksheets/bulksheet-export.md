@@ -1,7 +1,9 @@
 ---
 title: Exportieren einer generierten oder hochgeladenen Bulksheet-Datei
 description: Erfahren Sie, wie Sie eine Bulksheet-Datei herunterladen, einschließlich Fehlerdateien und Validierungsdateien für Landingpages.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Sie können jede generierte oder hochgeladene Bulksheet-Datei, einschließlich F
 
 1. (Optional) Oberhalb der Bulksheet-Liste, [Filter hinzufügen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) , um die aufgelisteten Dateien zu beschränken.
 
-1. Klicken Sie in der Bulksheet-Liste auf den Namen der Datei.
+1. Klicken Sie in der Liste auf den Namen der Datei.
 
 1. Öffnen oder speichern Sie die Datei entsprechend der üblichen Vorgehensweise Ihres Browsers.
 
@@ -29,4 +31,3 @@ Sie können jede generierte oder hochgeladene Bulksheet-Datei, einschließlich F
 >* [Validieren von Landingpages in Bulksheet-Dateien](bulksheet-validate-landing-pages.md)
 >* [Post-Bulksheets oder korrigierte Fehlerdateien](bulksheet-post.md)
 >* [Einrichten eines FTP-Kontos für das Hochladen von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
-

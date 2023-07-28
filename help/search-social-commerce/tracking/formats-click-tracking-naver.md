@@ -1,7 +1,9 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Naver]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Naver] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Informationen zu den Klick-Tracking-Formaten für [!DNL Naver] Konten.
+exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -24,11 +26,9 @@ Beispiel:
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
-
 * `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
 >* [Formate für den s\_kwcid-Trackingcode](skwcid-tracking-parameter.md)
-

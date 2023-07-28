@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] Suchbegriffeinstellungen"
+title: '''[!DNL Google Ads] Suchbegriffeinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Suchbegriffe.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Weitere Informationen finden Sie in der Hilfe zu Google Ads für [Suchbegriffbes
 **[!UICONTROL Keywords]:** Die Suchbegriffe, einschließlich [!DNL Google Ads] Übereinstimmungssyntax für Suchbegriffe und Platzhalter. [!DNL Google Ads] -Konten erfordern Suchbegriffe mit den folgenden Attributen:
 
 * Die maximale Länge pro Keyword beträgt 80 Zeichen und höchstens 10 Wörter.
-* Das Schlüsselwort darf nur Buchstaben, Ziffern und die folgenden Sonderzeichen enthalten: space `# $ & _ - " [] ' + . / :`
+* Das Schlüsselwort darf nur Buchstaben, Ziffern und die folgenden Sonderzeichen enthalten: Leerzeichen `# $ & _ - " [] ' + . / :`
 
 Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrere Suchbegriffe durch Kommas oder geben Sie sie in separate Zeilen ein.
 
@@ -27,7 +29,6 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 >
 >* Sie können negative Suchbegriffe aus dem [!UICONTROL Keywords] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
 >* Ändern einer [!DNL Google Ads] Suchbegriff oder Übereinstimmungstyp löscht den vorhandenen Suchbegriff und erstellt einen neuen.
-
 
 **[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Suchbegriffe ist *Aktiv*.
 
@@ -60,4 +61,3 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 >[!MORELIKETHIS]
 >
 >* [Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

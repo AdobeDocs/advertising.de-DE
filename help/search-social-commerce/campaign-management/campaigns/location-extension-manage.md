@@ -1,7 +1,9 @@
 ---
 title: Verwalten [!DNL Google Ads] Positionserweiterungen
 description: Erfahren Sie, wie Sie [!DNL Google Ads] Positionserweiterungen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Das Werbenetzwerk ordnet die Klicks auf eine Positionserweiterung dem Suchbegrif
 
 ## Erstellen von Positionserweiterungen für Kampagnen und Anzeigengruppen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen")und wählen Sie **[!UICONTROL Location]**.
 
@@ -38,7 +40,7 @@ Das Werbenetzwerk ordnet die Klicks auf eine Positionserweiterung dem Suchbegrif
 
 ## Deaktivieren von Positionserweiterungen für Kampagnen und Anzeigengruppen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen")und wählen Sie **[!UICONTROL Location]**.
 
@@ -52,7 +54,7 @@ Das Werbenetzwerk ordnet die Klicks auf eine Positionserweiterung dem Suchbegrif
 
 1. Klicken **[!UICONTROL Post]**.
 
-## Einstellungen zur Google Ads-Positionserweiterung {#location-extension-settings}
+## Einstellungen für die Google Ads-Positionserweiterung {#location-extension-settings}
 
 ### [!UICONTROL Location Settings]
 

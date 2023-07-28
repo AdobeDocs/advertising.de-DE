@@ -1,7 +1,9 @@
 ---
 title: Über Sitelink-Erweiterungen
-description: Erfahren Sie mehr über Sitelink-Erweiterungen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Informationen zu Sitelink-Erweiterungen.
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -32,4 +34,3 @@ In [!DNL Google Ads] und [!DNL Microsoft® Advertising]können Sie Kosten- und K
 >
 >* [Verwalten freigegebener Sitelink-Erweiterungen](sitelink-extension-manage.md)
 >* [Verknüpfen freigegebener Sitelink-Erweiterungen mit Kampagnen oder Anzeigengruppen](sitelink-extension-associate.md)
-

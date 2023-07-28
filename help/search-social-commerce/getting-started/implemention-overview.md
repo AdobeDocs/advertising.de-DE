@@ -1,7 +1,9 @@
 ---
 title: Übersicht über die Implementierung von Search, Social und Commerce
 description: Lernen
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -42,25 +44,25 @@ Im Folgenden finden Sie den allgemeinen Workflow zur Implementierung und Verwend
 
    * Wenn die Konten noch keine Kampagnendaten enthalten, fügen Sie Kampagnen, Anzeigengruppen, Suchbegriffe, Anzeigen und Platzierungen aus Search, Social und Commerce oder aus dem Werbenetzwerk hinzu.
 
-      Weitere Informationen zum Einrichten von Suchkampagnen finden Sie im Hilfekapitel zu &quot;Campaign Management&quot;.
+     Weitere Informationen zum Einrichten von Suchkampagnen finden Sie im Hilfekapitel zu &quot;Campaign Management&quot;.
 
-1. Richten Sie das Tracking für alle Anzeigen ein, für die Sie Adobe Advertising Konversionen verfolgen möchten:
+1. Richten Sie das Tracking für alle Anzeigen ein, für die Adobe Advertising Konversionen verfolgen sollen:
 
    1. (Falls erforderlich) Richten Sie Klick-Tracking für Anzeigen und optional für Suchbegriffe ein. [!DNL Google Ads] Platzierungen und [!DNL Google Ads] Erweiterungen durch Generieren und Hochladen von Klick-Tracking-URLs.
 
-      Klick-Tracking-URLs für Advertiser mit dem pixelbasierten Konversions-Tracking-Dienst für Adobe Advertising enthalten eine Umleitung zu [!DNL Adobe] Server.
+      Klick-Tracking-URLs für Advertiser mit dem pixelbasierten Konversions-Tracking-Dienst des Adobe Advertisings enthalten eine Umleitung zu [!DNL Adobe] Server.
 
-   1. Richten Sie das Konversions-Tracking ein. Abhängig von der Implementierung kann dies das Hinzufügen von Konversions-Tracking-Tags zu den entsprechenden Webseiten und/oder das Einrichten eines täglichen Feed-Drops für Konversionsdaten umfassen, die Sie mit Ihrer eigenen Methode erfasst haben.
+   1. Einrichten des Konversions-Trackings. Abhängig von der Implementierung kann dies das Hinzufügen von Konversions-Tracking-Tags zu den entsprechenden Webseiten und/oder das Einrichten eines täglichen Feed-Drops für Konversionsdaten umfassen, die Sie mit Ihrer eigenen Methode erfasst haben.
 
       Weitere Informationen zum Einrichten des Trackings finden Sie im Hilfekapitel unter &quot;Tracking&quot;.
 
 1. Richten Sie Integrationen mit zusätzlichen Produkten ein:
 
-   1. (Werbetreibende mit Adobe Analytics und/oder Adobe Audience Manager) Richten Sie Integrationen zwischen den verschiedenen Konten ein, damit Adobe Advertising Daten mit ihnen austauschen kann.
+   1. (Werbetreibende mit Adobe Analytics und/oder Adobe Audience Manager) Richten Sie Integrationen zwischen den verschiedenen Konten ein, damit Adobe Advertising Daten mit ihnen austauschen können.
 
       Siehe Handbuch zu &quot;[Integrationen mit Experience Cloud](/help/integrations/home.md).&quot;
 
-   1. (Werbetreibende mit [!DNL Google Analytics]) Konversionsmetriken für eine [!DNL Google Analytics] Kombination aus Konto, Eigenschaft und Ansicht zur Optimierung und Berichterstellung.
+   1. (Werbetreibende mit [!DNL Google Analytics]) Konversionsmetriken für eine [!DNL Google Analytics] Kombination aus Konto, Eigenschaft und Ansicht für Optimierung und Reporting.
 
       Siehe Hilfeunterkapitel &quot;Admin&quot;> &quot;[Konfigurieren von Data Sources](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
 
@@ -73,6 +75,7 @@ Im Folgenden finden Sie den allgemeinen Workflow zur Implementierung und Verwend
       >In Search, Social und Commerce werden weiterhin Daten für Kampagnen verfolgt und berichtet, die nicht Portfolios zugewiesen sind. Die Angebote werden jedoch nicht für sie optimiert.
 
    1. Wenn genügend Daten verfügbar sind, um eine Grundlinie zu erstellen, kann das Team das Portfolio starten, sodass Search, Social und Commerce Angebote und/oder Budgets für das Portfolio basierend auf dem Optimierungstyp optimieren können.
+
    Weitere Informationen zum Einrichten und Starten von Portfolios finden Sie in der Hilfe zu &quot;Optimierung&quot;, die im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")) oben rechts auf einer beliebigen Seite in Search, Social und Commerce.
 
 1. Überwachen Sie die Leistung Ihrer Portfolios:
@@ -99,10 +102,10 @@ Nach dem ersten Start sind die folgenden laufenden Aufgaben erforderlich. Je nac
 
    * Hinzufügen/Anhalten/Löschen von Kampagnenkomponenten Dazu können die Erweiterung von Suchbegriffssätzen auf der Grundlage der Suchbegriffanalyse sowie das Testen von Werbeanzeigen und Landingpages gehören.
 
-   * Aktualisieren Sie geografische und Site-Targeting-Strategien basierend auf erweiterten Leistungsberichten.
+   * Aktualisieren Sie geografische und Site-Targeting-Strategien auf der Grundlage erweiterter Leistungsberichte.
 
    * (Optional) Fügen Sie Angebotsbegrenzungen zu einzelnen Suchbegriffen oder zu allen Suchbegriffen in einer Anzeigengruppe, Kampagne oder einem Portfolio hinzu.
 
-   * Fügen Sie neue Portfolios hinzu.
+   * Hinzufügen neuer Portfolios.
 
 Anweisungen zum Überwachen von Portfolios und Anpassen der Portfoliostrategien finden Sie im Hilfeunterkapitel &quot;Optimierung&quot;> &quot;Verwalten von Portfolios&quot;> &quot;Leistungsüberwachung und -verwaltung&quot;, das im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")) oben rechts auf einer beliebigen Seite in Search, Social und Commerce.

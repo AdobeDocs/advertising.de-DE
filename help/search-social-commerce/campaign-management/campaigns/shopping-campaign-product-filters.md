@@ -1,14 +1,16 @@
 ---
-title: "Produktfilter für Shopping-Kampagnen"
+title: Produktfilter für Shopping-Kampagne
 description: Referenzieren Sie die für Einkaufsproduktgruppen verfügbaren Produktfilter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9c4f3c64-5a51-49de-aeba-bcda8a379609
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# Produktfilter für Shopping-Kampagnen
+# Produktfilter für Shopping-Kampagne
 
 Siehe auch [!DNL Google Ads] help &quot;[Verwalten einer Einkaufskampagne mit Produktgruppen](https://support.google.com/google-ads/answer/6275317)&quot; und [!DNL Microsoft Advertising] help &quot;[Produktgruppen verstehen und verwenden](https://help.ads.microsoft.com/#apex/bae/en/56782).&quot;
 
@@ -35,4 +37,3 @@ Siehe auch [!DNL Google Ads] help &quot;[Verwalten einer Einkaufskampagne mit Pr
 >* [[!DNL Microsoft Advertising] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
 >* [Erforderliche Daten für [!DNL Google Ads] Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
 >* [Erforderliche Daten für [!DNL Microsoft Advertising] Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-

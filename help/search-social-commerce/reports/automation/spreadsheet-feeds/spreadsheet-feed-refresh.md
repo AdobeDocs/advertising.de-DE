@@ -1,7 +1,9 @@
 ---
 title: Manuelles Aktualisieren von Tabellenbericht-Feeds
 description: Erfahren Sie, wie Sie die Daten in Tabellenfeeds manuell aktualisieren können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +34,6 @@ ht-degree: 0%
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
 >* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
 >* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellen-Berichte](spreadsheet-feed-settings.md)
+>* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Löschen von Tabellenbericht-Feeds](spreadsheet-feed-delete.md)
-

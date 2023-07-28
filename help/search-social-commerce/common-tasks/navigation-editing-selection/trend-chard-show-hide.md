@@ -1,7 +1,9 @@
 ---
 title: Trenddiagramm ein- und ausblenden
 description: Erfahren Sie, wie Sie ein Trenddiagramm für die Daten in einigen Kampagnenverwaltungsansichten anzeigen und ausblenden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -10,13 +12,13 @@ ht-degree: 0%
 
 # Trenddiagramm ein- und ausblenden
 
-Sie können ein Trenddiagramm für die Daten im [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads]und [!UICONTROL Product Groups] Ansichten.
+Sie können ein Trenddiagramm für die Daten im [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads], und [!UICONTROL Product Groups] Ansichten.
 
 Standardmäßig zeigt das Diagramm die Anzahl der Klicks im Vergleich zu Kosten im ausgewählten Datumsbereich für Konten an, die eine bestimmte Währung verwenden. Sie können optional die zu vergleichenden Metriken ändern und - wenn Sie Konten mit mehreren Währungen haben - die Währung ändern, für die Daten einbezogen werden sollen.
 
 >[!NOTE]
 >
->Trenddiagramme sind nicht verfügbar, wenn Sie Daten für zwei Datumsbereiche vergleichen.
+>Trenddiagramme stehen nicht zur Verfügung, wenn Sie Daten für zwei Datumsbereiche vergleichen.
 
 1. Klicken Sie über der Datentabelle auf ![Diagramme](/help/search-social-commerce/assets/trend-chart.png "Diagramme") um ein ausgeblendetes Trenddiagramm anzuzeigen oder ein sichtbares Trenddiagramm auszublenden.
 
@@ -26,7 +28,7 @@ Standardmäßig zeigt das Diagramm die Anzahl der Klicks im Vergleich zu Kosten 
 
       Wenn Sie über Konten mit mehreren Währungen verfügen, werden alle Währungen für die entsprechenden Konten aufgelistet. Wenn Sie die Währung ändern, werden nur Daten für die Konten angezeigt, die diese Währung verwenden. Alle Standardmetriken, Advertiser-spezifischen Transaktionseigenschaften und benutzerspezifischen Metriken, die Sie aus vorhandenen Metriken abgeleitet haben, werden aufgelistet.
 
-   1. Klicken ![Speichern](/help/search-social-commerce/assets/save-checkmark.png "Speichern").
+   1. Klicks ![Speichern](/help/search-social-commerce/assets/save-checkmark.png "Speichern").
 
 >[!NOTE]
 >

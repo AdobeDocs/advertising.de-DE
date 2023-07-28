@@ -1,7 +1,9 @@
 ---
 title: Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed
 description: Erfahren Sie, wie Sie speziell formatierte Tabellenvorlagen erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -18,9 +20,8 @@ Um Tabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL
 
    >[!NOTE]
    >
-   > * Sie können Tabellen-Feeds für [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword]und [!UICONTROL Forecast Accuracy] Berichte. Wenn Sie [!UICONTROL Ad Group Report], begrenzen Sie die Anzahl der enthaltenen Anzeigengruppen für schnellere Ergebnisse.
+   > * Sie können Tabellen-Feeds für [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], und [!UICONTROL Forecast Accuracy] Berichte. Wenn Sie die [!UICONTROL Ad Group Report], begrenzen Sie die Anzahl der enthaltenen Anzeigengruppen für schnellere Ergebnisse.
    > * Die [!UICONTROL Date Range] Die in der Vorlage definierte Einheit wird nicht verwendet. Sie legen die Daten fest, die aktualisiert werden sollen, wenn Sie den Tabellenfeed zu einem späteren Zeitpunkt konfigurieren.
-
 
 1. Nachdem der Bericht generiert wurde, gehen Sie zu **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** und exportieren Sie eine TSV- oder XLS-Version der Berichtsausgabe in eine Datei.
 
@@ -38,23 +39,22 @@ Um Tabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL
 
       2. Sortieren Sie die Daten nach Startdatum in aufsteigender Reihenfolge (vom ältesten zum neuesten).
 
-      3. Ändern Sie den Registerkartennamen des Arbeitsblatts in &quot;[!UICONTROL Sheet1]&quot;[!UICONTROL RAW].&quot;
+      3. Ändern Sie den Registerkartennamen des Arbeitsblatts in &quot;[!UICONTROL Sheet1]&quot; zu &quot;[!UICONTROL RAW].&quot;
 
-         Dieser spezifische Registerkartenname ermöglicht die Aktualisierung der Daten.
+         Dieser spezifische Tab-Name ermöglicht die Aktualisierung der Daten.
 
       4. (Optional) Fügen Sie nach Bedarf benutzerdefinierte Spalten rechts neben den Spalten aus der Berichtsvorlage hinzu.
+
    1. (Optional) Erstellen Sie in einem separaten Arbeitsblatt eine Pivot-Tabelle. Klicken Sie anschließend mit der rechten Maustaste auf eine beliebige Zelle der Pivot-Tabelle und wählen Sie die Option **[!UICONTROL Pivot Table Options]**, klicken Sie auf die **[!UICONTROL Data]** und wählen Sie **[!UICONTROL Refresh data when opening the file]**.
 
    1. Speichern Sie die Datei als [!DNL Excel] Tabelle im .XLSX-Format.
-
 
 >[!MORELIKETHIS]
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
 >* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellen-Berichte](spreadsheet-feed-settings.md)
+>* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)
 >* [Löschen von Tabellenbericht-Feeds](spreadsheet-feed-delete.md)
-

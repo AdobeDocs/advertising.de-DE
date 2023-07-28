@@ -1,7 +1,9 @@
 ---
 title: Effektive Textanzeigenkopie schreiben
 description: Erfahren Sie mehr über Best Practices zum Schreiben einer effektiven Anzeigenkopie.
-source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
+exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 * Fügen Sie das Produkt, den Dienst und andere Details (wie Promotions) in die Beschreibung/den Text ein.
 
-* Springen Sie schnell zum Punkt: die relevantesten Informationen über das Unternehmen zuerst enthalten.
+* Kommen Sie schnell zum Punkt: Schließen Sie zuerst die relevantesten Informationen über das Unternehmen ein.
 
 * Ordnen Sie Ihre Anzeige den Angeboten auf der Landingpage zu, damit Benutzer den Verkaufszyklus abschließen können.
 
@@ -60,13 +62,13 @@ ht-degree: 0%
 
 * Verwenden Sie nach Möglichkeit das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [1]
 
-* Schließen Sie immer einen Aktionsaufruf in den Text ein, z. B. &quot;Anzeigen&quot;, &quot;Auschecken&quot;, &quot;Bestellung&quot;oder &quot;Anmelden&quot;, um die Clickthrough-Rate zu erhöhen. Schließen Sie bei Bildanzeigen den Aktionsaufruf auf eine Schaltfläche ein, die mit Ihrer Website verknüpft ist. Schließen Sie bei Rich-Media-Anzeigen den Aktionsaufruf in einem frühen Rahmen ein.
+* Schließen Sie immer einen Aktionsaufruf in den Text ein, z. B. &quot;Anzeigen&quot;, &quot;Auschecken&quot;, &quot;Bestellung&quot;oder &quot;Anmelden&quot;, um die Clickthrough-Rate zu erhöhen. Schließen Sie bei Bildanzeigen den Aktionsaufruf für eine Schaltfläche ein, die mit Ihrer Website verknüpft ist. Bei Rich-Media-Anzeigen fügen Sie den Aktionsaufruf in einen frühen Frame ein.
 
 * Seien Sie sensibel darauf, wie die Marke des Werbetreibenden wahrgenommen werden soll. So darf beispielsweise ein Werber nicht wollen, dass das Wort &quot;billig&quot;in seinen Anzeigen erscheint.
 
 * Erforschen Sie, was Ihre Konkurrenten tun. Sehen Sie sich die Top-Anzeigen für einen Bereich an (auf Sites wie www.spyfu.com) und versuchen Sie zu verstehen, welche Anzeigen funktionieren.
 
-[1]: Verwenden Sie beim Einfügen von Keywords die richtige Groß-/Kleinschreibung für den Einfügecode:
+[1]: Wenn Sie Keyword-Einfügungen verwenden, verwenden Sie die richtige Groß-/Kleinschreibung für den Einfügecode:
 
 `{keyword:default}` = Rasenmäher
 

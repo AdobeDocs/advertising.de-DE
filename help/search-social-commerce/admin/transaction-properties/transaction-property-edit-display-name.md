@@ -1,7 +1,9 @@
 ---
 title: Anzeigenamen für eine Transaktionseigenschaft ändern
 description: Erfahren Sie, wie Sie den Namen der Transaktionseigenschaft ändern, der in den Spaltenüberschriften in Ihren Management-Ansichten und -Berichten angezeigt wird.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Anzeigenamen für eine Transaktionseigenschaft ändern
 
-Sie können optional den Namen ändern, der in Spaltenüberschriften angezeigt wird, damit er lesbar ist, wenn ein [Transaktionseigenschaft](/help/search-social-commerce/glossary.md#s-t) is [verfügbar für Kampagnen- und Portfoliomanagementansichten sowie Berichte](transaction-property-edit-available.md). Wenn Sie beispielsweise Registrierungsdaten mit einer Eigenschaft mit dem Namen *reg*, können Sie optional den Anzeigenamen ändern, um ihn als &quot;Registrierungen&quot;anzuzeigen.
+Sie können optional den Namen ändern, der in Spaltenüberschriften angezeigt wird, damit er lesbar ist, wenn ein [Transaktionseigenschaft](/help/search-social-commerce/glossary.md#s-t) is [verfügbar für Kampagnen- und Portfoliomanagementansichten sowie Berichte](transaction-property-edit-available.md). Wenn Sie beispielsweise Registrierungsdaten mit einer Eigenschaft mit dem Namen *reg*, können Sie optional den Anzeigenamen ändern und ihn als &quot;Registrierungen&quot;anzeigen.
 
 Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
@@ -22,7 +24,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 1. Im **[!UICONTROL Display Name]** -Spalte für die Eigenschaft klicken Sie in die Zelle.
 
-1. Geben Sie den Namen ein, der angezeigt werden soll, und klicken Sie auf **[!UICONTROL Apply]**.
+1. Geben Sie den anzuzeigenden Namen ein und klicken Sie auf **[!UICONTROL Apply]**.
 
    Anzeigenamen müssen eindeutig sein und dürfen folgende Sonderzeichen nicht enthalten: `\"<'>&`
 
@@ -31,4 +33,3 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 >* [Über die Verwaltung der Transaktionseigenschaften eines Advertisers](transaction-property-about.md)
 >* [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](transaction-property-view-tracked.md)
 >* [Ändern der in Verwaltungsansichten und -berichten verfügbaren Transaktionseigenschaften](transaction-property-edit-available.md)
-

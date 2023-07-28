@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Erfahren Sie mehr über den Prognosebericht zur Genauigkeit, einschließlich der Datenspalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -23,7 +25,6 @@ Sie können Daten der letzten 18 Monate anzeigen.
 >* Für Kostenprognosen wird eine Abweichung von 10% in den letzten sieben Tagen als akzeptabel betrachtet, sodass die tatsächlichen Ausgaben, die zwischen 90% und 110% der prognostizierten Ausgaben liegen, gut sind. Für die Umsatzprognosen wird eine Abweichung von 15% in den letzten sieben Tagen als akzeptabel betrachtet, sodass der tatsächliche Umsatz, der zwischen 85% und 115% der prognostizierten Ausgaben liegt, in Ordnung ist. Prognosen mit höheren Abweichungen sollten untersucht werden.
 >
 >* Wenn Suchbegriffe im Portfolio mit Gebotsverschiebungsbegrenzungen verknüpft sind, werden die Portfolioausgaben um den durch die Gebotsverschiebung verursachten Gesamtbetrag erhöht oder unterschritten. Infolgedessen weichen die prognostizierten Kostenspalten von den Zielausgaben durch die erhöhten oder verringerten Ausgaben ab.
-
 
 ## Verfügbare Spalten
 
@@ -56,4 +57,3 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 >* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Modellexaktionsbericht generieren](model-accuracy-report-generate.md)
 >* [Berichtseinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

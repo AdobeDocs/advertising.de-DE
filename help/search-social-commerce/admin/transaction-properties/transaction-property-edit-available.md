@@ -1,7 +1,9 @@
 ---
 title: Ändern der in Verwaltungsansichten und -berichten verfügbaren Transaktionseigenschaften
 description: Erfahren Sie, wie Sie Transaktionseigenschaften in Ihren Verwaltungsansichten und -berichten verfügbar machen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Ändern der in Verwaltungsansichten und -berichten verfügbaren Transaktionseigenschaften
 
-Wenn Adobe Advertising eine [Transaktionseigenschaft](/help/search-social-commerce/glossary.md#s-t) für einen Advertiser zunächst aus Portfoliozielen, Berichten und Managementansichten ausgeschlossen. Um eine Eigenschaft sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, d. h. den angezeigten Namen. Die einzige Ausnahme ist, dass Konversionen verfolgt werden durch [!DNL Google Ads], [!DNL Google Analytics]und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind automatisch verfügbar und sichtbar.
+Wenn der Adobe Advertising eine [Transaktionseigenschaft](/help/search-social-commerce/glossary.md#s-t) für einen Advertiser zunächst aus Portfoliozielen, Berichten und Managementansichten ausgeschlossen. Um eine Eigenschaft sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, d. h. den angezeigten Namen. Die einzige Ausnahme ist, dass Konversionen verfolgt werden durch [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind automatisch verfügbar und sichtbar.
 
 Auf ähnliche Weise können Sie eine Eigenschaft aus Portfoliozielen, Berichten und Managementansichten ausblenden. Wenn Sie eine Eigenschaft ausblenden, die zuvor sichtbar war, wird sie aus allen abgeleiteten Metriken entfernt, die die Eigenschaft enthalten.
 
@@ -24,7 +26,7 @@ Aus der Liste der verfügbaren Eigenschaften kann jeder Benutzer mit Zugriff auf
 
    * Um nach einem bestimmten Eigenschaftsnamen oder Anzeigenamen zu suchen, klicken Sie auf ![Suche](/help/search-social-commerce/assets/search.png "Suche"), geben Sie das Wort oder die Zeichenfolge in das Eingabefeld ein und drücken Sie dann die **[!DNL Enter]** Schlüssel.
 
-      Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle im Satz vorkommen (z. B. im ersten oder in den letzten drei Buchstaben), und die Suchbegriffe werden nicht [Groß-/Kleinschreibung beachten](/help/search-social-commerce/glossary.md#c-d).
+     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle im Satz vorkommen (z. B. im ersten oder in den letzten drei Buchstaben), und die Suchbegriffe werden nicht [Groß-/Kleinschreibung beachten](/help/search-social-commerce/glossary.md#c-d).
 
    * Um in Verwaltungsansichten und Berichten nach Eigenschaften zu suchen, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter")und wählen Sie den Filter aus **[!UICONTROL Show in UI and Reports]**. Wählen Sie anschließend **[!UICONTROL Show]** (um die verfügbaren Eigenschaften anzuzeigen, die in Berichte und Verwaltungsansichten aufgenommen werden können) oder **[!UICONTROL Hide]** (um die Eigenschaften anzuzeigen, die in Berichten und Verwaltungsansichten nicht verfügbar sind).
 
@@ -48,10 +50,10 @@ Aus der Liste der verfügbaren Eigenschaften kann jeder Benutzer mit Zugriff auf
 
 >[!NOTE]
 >
->Wenn Adobe Advertising Daten für neue Eigenschaften erfasst, dann die neuen Eigenschaften — mit Ausnahme der Konversionen, die von verfolgt werden [!DNL Google Ads], [!DNL Google Analytics]und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags - werden automatisch von Management-Ansichten und -Berichten ausgeschlossen, bis Sie sie einschließen. Neue Konversionen verfolgt von [!DNL Google Ads], [!DNL Google Analytics]und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind immer automatisch verfügbar.
+>Wenn Adobe Advertising Daten für neue Eigenschaften erfasst, dann werden die neuen Eigenschaften - mit Ausnahme der von verfolgten Konversionen - [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags - werden automatisch von Management-Ansichten und -Berichten ausgeschlossen, bis Sie sie einschließen. Neue Konversionen verfolgt von [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind immer automatisch verfügbar.
 
 >[!MORELIKETHIS]
+>
 * [Über die Verwaltung der Transaktionseigenschaften eines Advertisers](transaction-property-about.md)
 * [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](transaction-property-view-tracked.md)
 * [Anzeigenamen für eine Transaktionseigenschaft ändern](transaction-property-edit-display-name.md)
-

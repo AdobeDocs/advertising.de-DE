@@ -1,7 +1,9 @@
 ---
 title: Aktivieren des Hochladens von Zielen in Werbenetzwerke
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft® Advertising].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 *Advertiser, die nur für die Hybridoptimierung aktiviert wurden*
 
-Wenn Ihr Advertiser-Konto für die Verwendung der Hybridoptimierung konfiguriert ist, kann Adobe Advertising optional die Zielvorgaben für die Kontoportfolios in [!DNL Google Ads] und [!DNL Microsoft® Advertising] als Konversionen, damit Sie sie zur Hybridoptimierung verwenden können.
+Wenn Ihr Advertiser-Konto für die Verwendung der Hybridoptimierung konfiguriert ist, kann der Adobe Advertising optional die Ziele für die Kontoportfolios in [!DNL Google Ads] und [!DNL Microsoft® Advertising] als Konversionen verwenden, damit Sie sie zur Hybridoptimierung verwenden können.
 
 Durch Aktivierung dieser Option wird automatisch ein Upload für Portfolios mit Kampagnen mit Smart-Gebotsstrategien Trigger. Search, Social und Commerce erstellen eine Konversion im Anzeigennetzwerk für jede zutreffende Kombination aus Portfolio und Ziel. Jede Konversion hat den Namen `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, wobei `<portfolio_id>` ist die numerische Portfolio-ID und `<se_acctid/conversion_manager_se_acctid>` ist die numerische ID für das Anzeigen-Netzwerk-Konto oder Manager-Konto. Die Konversion stellt alle gewichteten Transaktionseigenschaften im Ziel dar.
 
@@ -36,4 +38,3 @@ Hochladen in [!DNL Google Ads] treten täglich um 6:00 Uhr in der Zeitzone des W
 >
 >* [Über die Verwaltung der Transaktionseigenschaften eines Advertisers](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [Hochladen von Konversionsmetriken in [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
-

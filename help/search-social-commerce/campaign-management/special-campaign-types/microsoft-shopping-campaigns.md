@@ -1,7 +1,9 @@
 ---
 title: Implementierung [!DNL Microsoft® Advertising] Warenkorb
-description: Erfahren Sie mehr über den Arbeitsablauf für die Einrichtung [!DNL Microsoft® Advertising] Einkaufskampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Microsoft® Advertising] Einkaufskampagnen.
+exl-id: 3fb19b92-5bc0-414e-9234-68310082d0ed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Sie können steuern, welche Produkte mit Ihren Shopping-Anzeigen angezeigt werde
 
 ## Schritte zum Einrichten [!DNL Microsoft® Advertising] Warenkorb
 
-Sie können Einkaufskampagnen einrichten, indem Sie [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) für [!DNL Microsoft® Advertising]durch Verwendung von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)oder einzeln. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
+Sie können Einkaufskampagnen mithilfe von [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) für [!DNL Microsoft® Advertising]durch Verwendung von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)oder einzeln. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
 
 1. Richten Sie Ihre [!DNL Microsoft® Merchant Center] -Konto erstellen und mit Produktdaten füllen.
 
@@ -54,7 +56,7 @@ Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
    1. [Kampagnenparameter bearbeiten](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) , um das Kampagnenbudget anzupassen.
 
-      Wenn die Kampagne Teil eines Portfolios ist, wird durch die Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; ermöglicht es Search, Social und Commerce, die Budgets für alle Kampagnen im Portfolio zu optimieren.
+      Wenn die Kampagne Teil eines Portfolios ist, wird durch die Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; ermöglicht Search, Social und Commerce die Budgetoptimierung für alle Kampagnen im Portfolio.
 
    1. Passen Sie das Höchstgebot für bestehende Produktgruppen an, löschen Sie Produktgruppen, für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine neue Produktgruppe &quot;Alle Produkte&quot;oder neue untergeordnete Produktgruppen hinzu, um Anzeigen für weitere Produkte zu erstellen.
 
@@ -62,4 +64,3 @@ Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 >
 >* Siehe erforderliche Felder für die Verwaltung [!DNL Microsoft® Shopping] Kampagnen und Produktgruppen mit [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md) und [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md).
 >* Weitere Informationen finden Sie unter [!DNL Microsoft® Shopping] Kampagnen, siehe [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/50903).
-

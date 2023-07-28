@@ -1,7 +1,9 @@
 ---
 title: Bearbeiten und sortieren Sie den Spaltensatz im [!UICONTROL Custom Columns] icon
 description: Erfahren Sie, wie Sie die sichtbaren Spalten mit dem Spaltenanpasser ändern können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9b8ddb3d-c598-4393-85f2-0e586ebe0df3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -24,13 +26,13 @@ Sie können die sichtbaren Spalten in allen Ansichten in der rechten Symbolleist
 
 1. Geben Sie die Spalten an, die in die Ansicht aufgenommen werden sollen:
 
-   * (So fügen Sie eine Spalte hinzu) Im [!UICONTROL Available Columns] Liste, klicken Sie auf einen Spaltennamen und ziehen Sie ihn dann in die [!UICONTROL Selected Columns & Ordering] Liste oder klicken Sie auf ![Spalte hinzufügen](/help/search-social-commerce/assets/chevron-right.png "Spalte hinzufügen") um es dorthin zu verschieben.
+   * (Hinzufügen einer Spalte) Im [!UICONTROL Available Columns] Liste, klicken Sie auf einen Spaltennamen und ziehen Sie ihn dann in die [!UICONTROL Selected Columns & Ordering] Liste oder Klicken ![Spalte hinzufügen](/help/search-social-commerce/assets/chevron-right.png "Spalte hinzufügen") um es dorthin zu verschieben.
 
    * (So ändern Sie die horizontale Position einer Spalte) Im [!UICONTROL Selected Columns & Ordering] Liste, klicken Sie auf den Spaltennamen und ziehen Sie ihn an die gewünschte Position oder klicken Sie auf ![Spalte nach oben](/help/search-social-commerce/assets/chevron-up.png "Spalte nach oben") oder ![Spalte nach unten](/help/search-social-commerce/assets/chevron-down.png "Spalte nach unten") um es dorthin zu verschieben.
 
-      Der Name der oberen Spalte wird in der linken Spalte angezeigt.
+     Der Name der oberen Spalte wird in der linken Spalte angezeigt.
 
-   * (So entfernen Sie eine Spalte) im [!UICONTROL Selected Columns & Ordering] Liste, klicken Sie auf einen Spaltennamen und ziehen Sie ihn dann in die [!UICONTROL Available Columns] Liste oder klicken Sie auf ![Entfernen](/help/search-social-commerce/assets/chevron-left.png "Entfernen") um es dorthin zu verschieben.
+   * (So entfernen Sie eine Spalte) im [!UICONTROL Selected Columns & Ordering] Liste, klicken Sie auf einen Spaltennamen und ziehen Sie ihn dann in die [!UICONTROL Available Columns] Liste oder Klicken ![Entfernen](/help/search-social-commerce/assets/chevron-left.png "Entfernen") um es dorthin zu verschieben.
 
    * (Um die Spaltenliste zu aktualisieren, wenn neue Umsatzspalten hinzugefügt und nicht angezeigt werden) Klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") neben &quot;[!UICONTROL Available Columns].&quot;
 

@@ -1,7 +1,9 @@
 ---
 title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden können.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -30,11 +32,10 @@ Sie können sich direkt oder aus Adobe Experience Cloud bei Search, Social und C
 
 1. Wählen Sie im oberen Menü ![Lösungsauswahl](/help/search-social-commerce/assets/menu-icon.png "Lösungsauswahl").
 
-1. Wählen Sie im Untermenü die Option **[!UICONTROL Advertising Cloud]**.
+1. Wählen Sie im Untermenü **[!UICONTROL Advertising Cloud]**.
 
 >[!MORELIKETHIS]
 >
 >* [Abmelden](log-out.md)
 >* [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
 >* [Organisation der Benutzeroberfläche](user-interface.md)
-

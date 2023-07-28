@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] Responsive-Anzeigeneinstellungen"
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] responsiven Anzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '''[!DNL Microsoft® Advertising] Einstellungen für responsive Anzeigen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] responsive Anzeigen.
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Für Zielgruppenanzeigen, [!DNL Microsoft® Advertising] schneidet dieses Bild a
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen. Sie kann in nur aufrufbaren Anzeigenformaten verwendet werden.
 
-**[!UICONTROL Short Headlines]:** Mindestens drei, bis zu 15, kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
+**[!UICONTROL Short Headlines]:** Mindestens drei bis 15 kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
 
 **[!UICONTROL Long Headlines]:** Mindestens drei und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf.
 
@@ -52,4 +54,3 @@ Für Zielgruppenanzeigen, [!DNL Microsoft® Advertising] schneidet dieses Bild a
 >* [[!DNL Microsoft® Advertising] Multimedia-Anzeigeneinstellungen](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
-

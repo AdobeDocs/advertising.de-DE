@@ -1,7 +1,9 @@
 ---
 title: Einrichten eines FTP-Kontos für das Hochladen von Bulksheets
 description: Erfahren Sie, wie Sie ein FTP-Konto zum Hochladen von Bulksheet-Dateien anfordern.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die während der Veröffent
 >
 >* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
 >* [Hochladen eines Bulksheets oder einer korrigierten Fehlerdatei](bulksheet-upload.md)
-

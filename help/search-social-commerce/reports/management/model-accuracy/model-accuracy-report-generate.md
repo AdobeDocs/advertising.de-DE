@@ -1,7 +1,9 @@
 ---
 title: Modellexaktionsbericht generieren
 description: Erfahren Sie, wie Sie Berichte zur Modellgenauigkeit erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2ae8b344-7c05-4208-9457-174efd05fe53
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -14,11 +16,11 @@ ht-degree: 0%
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]** halten Sie den Cursor darüber. **[!UICONTROL Model Accuracy]** und klicken Sie dann auf den Berichtstyp.
 
-1. (Optional) Im [!UICONTROL Report Settings] Fenster, Standardeinstellung ändern [Berichtseinstellungen](forecast-accuracy-report.md):
+1. (Optional) Im [!UICONTROL Report Settings] -Fenster, Standardeinstellung ändern [Berichtseinstellungen](forecast-accuracy-report.md):
 
    1. (Optional) Geben Sie einen benutzerdefinierten Namen für den Bericht und die Vorlage ein (wenn Sie den Bericht als Vorlage speichern).
 
-   1. (Optional) Um die Berichtseinstellungen als Vorlage zu speichern, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
+   1. (Optional) Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
 
    1. (Optional) Auf der Registerkarte **[!UICONTROL Basic Settings]** eine vorhandene Berichtsvorlage auswählen, um die Standardeinstellungen für den Bericht zu verwenden oder zu ändern.
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 1. Klicken **[!UICONTROL Create]**.
 
-Wenn Sie keinen Berichtsplan festgelegt haben, wird der Bericht sofort ausgeführt. andernfalls wird es gemäß dem festgelegten Zeitplan ausgeführt. Der Berichtsname wird dem [[!UICONTROL Latest Reports] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch zum [[!UICONTROL Templates] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn der Bericht abgeschlossen ist, kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
+Wenn Sie keinen Berichtsplan festgelegt haben, wird der Bericht sofort ausgeführt. Andernfalls wird er gemäß dem festgelegten Zeitplan ausgeführt. Der Berichtsname wird dem [[!UICONTROL Latest Reports] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch zum [[!UICONTROL Templates] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn der Bericht abgeschlossen ist, kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
 
 Wenn Sie eine E-Mail-Adresse zur Benachrichtigung eingegeben haben, erhält jeder Empfänger eine Benachrichtigung, wenn der Berichtsauftrag abgeschlossen ist oder aufgrund des Benutzerverhaltens fehlschlägt [konfigurierte Benachrichtigungseinstellungen](/help/search-social-commerce/notifications/notification-edit.md) für Berichte.
 
@@ -42,4 +44,3 @@ Wenn Sie eine E-Mail-Adresse zur Benachrichtigung eingegeben haben, erhält jede
 >* [Die [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Berichte löschen](/help/search-social-commerce/reports/management/report-delete.md)
-

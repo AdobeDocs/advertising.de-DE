@@ -1,7 +1,9 @@
 ---
 title: Einen Bericht aus einem vorhandenen Bericht erstellen
 description: Erfahren Sie, wie Sie einen Bericht mit einem zuvor erstellten Bericht erstellen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14df0a57-4b15-4383-8093-9ca88b0e028c
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%
@@ -12,7 +14,7 @@ ht-degree: 1%
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, der sich für **[!UICONTROL Latest Reports]** Registerkarte.
 
-1. Klicken ![Schaltfläche &quot;Ähnliche erstellen&quot;](/help/search-social-commerce/assets/create-similar.png "Schaltfläche &quot;Ähnliche erstellen&quot;") neben dem vorhandenen Bericht.
+1. Klicks ![Schaltfläche &quot;Ähnliche erstellen&quot;](/help/search-social-commerce/assets/create-similar.png "Schaltfläche &quot;Ähnliche erstellen&quot;") neben dem vorhandenen Bericht.
 
 1. Bearbeiten Sie bei Bedarf die Berichtseinstellungen.
 
@@ -26,4 +28,3 @@ ht-degree: 1%
 >* [Berichtseinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [Berichte löschen](/help/search-social-commerce/reports/management/report-delete.md)
-

@@ -3,7 +3,8 @@ title: Voraussetzungen für die Konfiguration einer [!DNL Google Analytics] Date
 description: Erfahren Sie mehr über die Schritte, die Sie ausführen müssen, bevor Sie eine [!DNL Google Analytics] Datenquelle.
 role: User, Admin
 exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 
 # Voraussetzungen für die Konfiguration einer [!DNL Google Analytics] Datenquelle
 
-Bevor Sie eine [!DNL Google Analytics] Datenquelle: Sie müssen den Abfragezeichenfolgenparameter &quot;ef_id&quot;für Search, Social und Commerce als Primärschlüssel festlegen, aus dem Daten übergeben werden sollen [!DNL Google Analytics] zu &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;. Richten Sie den Primärschlüssel für jede [!DNL Google Analytics] Konto- und Eigenschaftskombination, für die Sie Daten synchronisieren möchten. Möglicherweise müssen andere Mitarbeiter in Ihrer Organisation diese Aufgaben ausführen. Weitere Informationen finden Sie unten.
+Bevor Sie eine [!DNL Google Analytics] Datenquelle, müssen Sie den Abfragezeichenfolgenparameter &quot;ef_id&quot;der Such-, Social-, &amp; Commerce-Abfragezeichenfolge als Primärschlüssel festlegen, aus dem Daten übergeben werden sollen [!DNL Google Analytics] zu &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;. Richten Sie den Primärschlüssel für jede [!DNL Google Analytics] Konto- und Eigenschaftskombination, für die Sie Daten synchronisieren möchten. Möglicherweise müssen andere Mitarbeiter in Ihrer Organisation diese Aufgaben ausführen. Weitere Informationen finden Sie unten.
 
 Wenn die Landingpage-URLs für Ihre Anzeigen oder Suchbegriffe keine Umleitungen für Suche, Social und Commerce enthalten, fügen Sie sie zuerst hinzu.
 
-## Voraussetzung 1: Implementieren Sie ein Search-, Social- und Commerce-Token ( Abfragezeichenfolgenparameter &quot;ef_id&quot;) in die URLs der Landingpage für alle zutreffenden Werbekonten
+## Voraussetzung 1: Implementieren Sie ein Search-, Social- und Commerce-Token ( Abfragezeichenfolgenparameter &quot;ef_id&quot;) in die URLs der Landingpage für alle anwendbaren Werbekonten
 
 Klicken Sie bei jeder gebührenpflichtigen Suche nach den entsprechenden Kampagnen auf eine eindeutige `ef_id` muss generiert und als Abfragezeichenfolge an die Landingpage-URL angehängt werden, z. B. `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, wobei `&ef_id=abcde:123456789:s` das angehängte Symbol ist, `ef_id` Schlüssel und `ef_id` -Wert. Um eine ef_id einzuschließen, müssen die entsprechenden Anzeigennetzwerkkonten und -kampagnen über die Variable [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; und [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
 
@@ -26,11 +27,11 @@ Wenn die ef_id nicht enthalten ist, bitten Sie Ihr Adobe Account Team um Hilfe.
 
 Wenn alle Voraussetzungen erfüllt sind, wird die `ef_id` wird als Primärschlüssel zur Übergabe von Daten aus [!DNL Google Analytics] zu &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;.
 
-## Voraussetzung 2: Erfassen Sie das Search-, Social- und Commerce-Token ( Abfragezeichenfolgenparameter &quot;ef_id&quot;) in einer benutzerdefinierten Dimension für jede relevante [!DNL Google Analytics] property
+## Voraussetzung 2: Erfassen Sie das Token für Suche, Social und Commerce (&quot;ef_id&quot;-Abfragezeichenfolgenparameter) in einer benutzerdefinierten Dimension für jede relevante [!DNL Google Analytics] property
 
 Wiederholen Sie die folgenden Schritte für jede [!DNL Google Analytics] Konto- und Eigenschaftskombination, für die Sie Daten synchronisieren möchten. Siehe [[!DNL Google Analytics] Dokumentation zum Erstellen und Implementieren benutzerdefinierter Dimensionen](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) Hilfe zu diesen Aufgaben.
 
-1. In [!DNL Google Analytics]erstellen Sie eine benutzerdefinierte Dimension mit dem Namen`ef_id`&quot;. Legen Sie den Umfang der Dimension auf [!DNL User]und legen Sie die Dimension auf &quot;aktiv&quot;fest.
+1. In [!DNL Google Analytics]erstellen Sie eine benutzerdefinierte Dimension mit dem Namen`ef_id`&quot;. Den Umfang der Dimension auf [!DNL User]und legen Sie die Dimension auf &quot;aktiv&quot;fest.
 
    >[!NOTE]
    >

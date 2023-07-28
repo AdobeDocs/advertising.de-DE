@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension by Keyword Report]"
-description: Erfahren Sie mehr über die [!UICONTROL MSA Ad Extension by Keyword Report].
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+description: Informationen zum [!UICONTROL MSA Ad Extension by Keyword Report].
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Dieser Bericht zeigt die Impressionen, Klicks, Ausgaben und durchschnittlichen Kosten pro Klick auf die einzelnen Anzeigenerweiterungen und Klicktypen nach Keyword. Verwenden Sie diesen Bericht, um die Leistung Ihrer Anzeigenerweiterungen für jeden Suchbegriff zu vergleichen.
 
-Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der generierte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.<!-- all metrics? -->
+Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der erstellte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.<!-- all metrics? -->
 
 Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce ruft die Daten ab von [!DNL Microsoft Advertising] in Echtzeit, und es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen erstellt werden.
 

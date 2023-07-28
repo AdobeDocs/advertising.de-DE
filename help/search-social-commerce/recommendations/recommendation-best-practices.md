@@ -2,7 +2,8 @@
 title: Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios
 description: Best Practices für die Verwendung von [!DNL Google Ads] Empfehlungen mit Ihren Such-, Social- und Commerce-Portfolios.
 exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 ## [!DNL Google Ads] Empfehlungen
 
-| Empfehlungstyp | Beschreibung | Recommendations automatisch mit Search-, Social- und Commerce-Portfolios anwenden? | Kommentare |
+| Empfehlungstyp | Beschreibung | Recommendations automatisch mit Portfolios für Suche, Social und Commerce anwenden? | Kommentare |
 |--- |--- |--- |--- |
 | [!UICONTROL Ads] und -Erweiterungen (jetzt als &quot;Anzeigen und Assets&quot;in [!DNL Google Ads]) | Recommendations zum Hinzufügen/Bearbeiten von Anzeigen und Assets | Kann automatisch angewendet werden, Werbetreibende sollten jedoch Empfehlungen manuell überprüfen. | Die Überprüfung von Empfehlungen ist erforderlich, um sicherzustellen, dass responsive Suchanzeigen an die Anforderungen von Werbetreibenden angepasst werden. |
 | [!UICONTROL Automated campaigns] | Recommendations für automatisierte Kampagnen (lokale und intelligente Kampagnen) | Nicht in Search, Social und Commerce verfügbar. | — |

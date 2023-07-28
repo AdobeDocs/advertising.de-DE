@@ -1,7 +1,9 @@
 ---
 title: Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets
 description: Erfahren Sie, wie Sie mit Bulksheets Classification-Werte zu Kontokomponenten zuweisen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -10,7 +12,7 @@ ht-degree: 7%
 
 # Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets
 
-Sie können Beschriftungsklassifizierungen mithilfe von Bulksheets mit Werten für die folgenden Suchentitäten verknüpfen: Kampagne, Anzeigengruppe, Keyword, Anzeige, Platzierung, Produktgruppe auf Einheitsebene und dynamisches Suchziel. Jede Beschriftungsklassifizierung kann bis zu 2000 Werte aufweisen.
+Sie können Beschriftungs-Classifications mithilfe von Bulksheets mit Werten für die folgenden Suchentitäten verknüpfen: Kampagne, Anzeigengruppe, Keyword, Anzeige, Platzierung, Produktgruppe auf Einheitsebene und dynamisches Suchziel. Jede Beschriftungsklassifizierung kann bis zu 2000 Werte aufweisen.
 
 Jede Entität kann einen Beschriftungswert pro Classification haben. Shoes_Campaign kann beispielsweise den Farbwert &quot;red&quot;und den Geo-Wert &quot;Los Angeles&quot;haben, aber nicht mehrere Werte für Color oder Geo.
 
@@ -28,7 +30,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
    * Wählen Sie jede Classification aus, für die Sie eine Spalte in die Bulksheet-Datei aufnehmen möchten.
 
-      Wenn Sie beispielsweise die Beschriftungsklassifizierungen &quot;Farbe&quot;und &quot;Geo&quot;einschließen, enthält das Bulksheet die Spalten &quot;Farbe&quot;und &quot;Geo&quot;.
+     Wenn Sie beispielsweise die Beschriftungsklassifizierungen &quot;Farbe&quot;und &quot;Geo&quot;einschließen, enthält das Bulksheet die Spalten &quot;Farbe&quot;und &quot;Geo&quot;.
 
 1. Öffnen Sie die Datei in einem Editor und fügen Sie den Beschriftungsklassifizierungsspalten Beschriftungswerte für die Entitäten hinzu, mit denen sie verknüpft werden sollen. Die maximale Länge pro Wert beträgt 100 Zeichen. Sie kann ASCII- und Nicht-ASCII-Zeichen enthalten.
 
@@ -40,21 +42,21 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
 Die hochgeladenen Beschriftungswerte sind in den relevanten Entitätsansichten sichtbar.
 
-## Beispiel für Beschriftungs-Classification-Werte, die in Bulksheets hochgeladen werden sollen
+## Beispiel für Beschriftungsklassifizierungswerte, die in Bulksheets hochgeladen werden sollen
 
 Dieses Beispiel enthält Spalten für Beschriftungsklassifizierungen &quot;Farbe&quot;und &quot;Geo&quot;. Ersetzen Sie für Ihre eigenen Bulksheets Spalten durch Ihre eigenen Titel-Classification-Namen.
 
 | Konto | Kampagne | Anzeigengruppe | Schlüsselwort | Anzeige | Platzierung | Bezeichnungen | Farbe | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | Grün |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | Vereinigtes Königreich |
-| Acct1 | C1 | AG1 | K2 |  |  |  | Rot | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | Blau | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | Rot |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | Rot | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | Blau | DE |
+| Acct1 | C1 | | | | | | Grün | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | UK |
+| Acct1 | C1 | AG1 | K2 | | | | Rot | AU |
+| Acct1 | C1 | AG1 | K3 | | | | Blau | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | Rot | |
+| Acct1 | C1 | AG1 | | | P1 | | Rot | AU |
+| Acct1 | C1 | AG1 | | | P2 | | Blau | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ Dieses Beispiel enthält Spalten für Beschriftungsklassifizierungen &quot;Farbe
 >* [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](classification-values-remove.md)
 >* [Löschen von Bezeichnungsklassifizierungswerten](classification-values-delete.md)
 >* [Beschriftungsklassifizierungen löschen](classification-delete.md)
-

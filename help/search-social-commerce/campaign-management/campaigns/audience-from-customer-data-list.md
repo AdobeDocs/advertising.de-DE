@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten
-description: Erfahren Sie, wie Sie [!DNL Google Ads] und [!DNL Microsoft® Advertising] Zielgruppen aus Ihren Kundendatenlisten abgleichen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Erfahren Sie, wie Sie [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten.
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -10,15 +12,15 @@ ht-degree: 0%
 
 # Verwalten [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich von Zielgruppen mithilfe von Kundendatenlisten
 
-Sie können [!DNL Google Ads] und [!DNL Microsoft® Advertising] Zielgruppen aus Ihren Kundendatenlisten abgleichen. Sie können auch [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] aus einer [!DNL Adobe] Zielgruppe.
+Sie können [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten. Sie können auch jede [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe.
 
-## Erstellen einer Zielgruppe zur Kundenabstimmung aus einer Kundendatenliste
+## Erstellen einer Zielgruppe für die Kundenabstimmung aus einer Kundendatenliste
 
 *[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten, die nur für die Kundenübereinstimmung infrage kommen*
 
 Sie können eine [!DNL Google Ads] oder [!DNL Microsoft® Advertising] kundendatenbasierte Liste aus einer Datendatei, die Sie aus Ihrem CRM-System (Customer Relationship Management) generieren.
 
-Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen enthalten. Für [!DNL Google Ads] Konten, kann die Datei E-Mail-Adressen, Postanschriften oder Telefonnummern enthalten; Benutzer-IDs; oder Mobilgeräte-IDs aus Ihrem CRM-System.
+Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen enthalten. Für [!DNL Google Ads] -Konten, kann die Datei E-Mail-Adressen, Postanschriften oder Telefonnummern, Benutzer-IDs oder Mobilgeräte-IDs aus Ihrem CRM-System enthalten.
 
 >[!NOTE]
 >
@@ -28,7 +30,7 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
 
    Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft® Advertising] Zielgruppen, siehe [!DNL Microsoft® Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft® Excel] Vorlage für Kontaktinformationen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -50,13 +52,14 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
 
          Die App-ID ist eine eindeutige Kennung, die das mobile Betriebssystem verwendet, damit Ihre Anwendung eine Verbindung zu Google Play oder Apple App Store herstellen kann:
 
-         * ([!DNL Android™] apps) Die [!DNL Android™] Paketname in [!DNL Google Play], identifiziert durch &quot;`id=<package_name>`.&quot;
+         * ([!DNL Android™] apps) Die [!DNL Android™] Paketname in [!DNL Google Play]durch &quot;`id=<package_name>`.&quot;
 
-            In https://play.google.com/store/apps/details?id=com.example.game lautet der Paketname beispielsweise com.example.game.
+           In https://play.google.com/store/apps/details?id=com.example.game lautet der Paketname beispielsweise com.example.game.
 
-         * ([!DNL iOS] apps) Die Anwendungs-ID innerhalb der [!DNL iTunes App Store], identifiziert durch &quot;`<idNNNNNNNNN>`&quot; am Ende der URL. Es ist auch im [!DNL iOS Developer Console].
+         * ([!DNL iOS] apps) Die Anwendungs-ID innerhalb der [!DNL iTunes App Store]durch &quot;`<idNNNNNNNNN>`&quot; am Ende der URL. Es ist auch im [!DNL iOS Developer Console].
 
-            In https://itunes.apple.com/us/app/id284882215 lautet die ID beispielsweise id284882215.
+           In https://itunes.apple.com/us/app/id284882215 lautet die ID beispielsweise id284882215.
+
          Ihr Entwicklungsteam hat Zugriff auf die [!UICONTROL App ID] für die jeweilige Plattform.
 
       1. Im [!UICONTROL Select File] Feld, klicken Sie auf **[!UICONTROL Choose File]** und wählen Sie die Datei in Ihrem Netzwerk oder Gerät aus.
@@ -64,6 +67,7 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
       1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie den Bedingungen der [!DNL Adobe] Datenschutzrichtlinien für Werbenetzwerke.
 
       1. Klicken **[!UICONTROL Upload File]**.
+
    1. Geben Sie die Anzahl der **[!UICONTROL Membership Days]**: die Anzahl der Tage, in denen das Cookie eines Benutzers in der Zielgruppe verbleibt.
 
    Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist. Kundenlisten laufen nur ab, wenn Sie einen Wert eingeben.
@@ -75,10 +79,9 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
 >* Die Verarbeitung der Datei im Werbenetzwerk kann bis zu 24 Stunden dauern.
 >* Siehe [[!DNL Google Ads] Dokumentation zur Funktionsweise und Einschränkungen von Kundenabgleich](https://support.google.com/displayvideo/answer/9539301).
 
-
 ## Bearbeiten einer Zielgruppe &quot;Kundenabgleich&quot;mithilfe einer Kundendatenliste
 
-Sie können jede [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] aus einer [!DNL Adobe] Zielgruppe. Sie können Daten hochladen, um alle vorhandenen Daten für die Audience hinzuzufügen, zu löschen oder zu ersetzen.
+Sie können jede [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe. Sie können Daten hochladen, um alle vorhandenen Daten für die Audience hinzuzufügen, zu löschen oder zu ersetzen.
 
 Die Daten müssen vom ursprünglichen Typ der Kundenliste sein (E-Mail-Adressen, Postanschriften, Telefonnummern, Benutzer-IDs oder Mobilgeräte-IDs für eine bestimmte App unter einem bestimmten mobilen Betriebssystem).
 
@@ -86,7 +89,7 @@ Die Daten müssen vom ursprünglichen Typ der Kundenliste sein (E-Mail-Adressen,
 
 Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft® Advertising] Zielgruppen, siehe [!DNL Microsoft® Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft® Excel] Vorlage für Kontaktinformationen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben der zu bearbeitenden Audience.
 
@@ -114,4 +117,3 @@ Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-A
 >* [Erstellen [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Zielgruppen](google-audience-from-adobe-audience.md)
 >* [Erstellen Sie eine [!DNL Google Ads] Zielgruppe für Kundenabgleich aus einer Adobe Campaign-E-Mail-Liste](google-audience-from-campaign-email-list.md)
 >* [Dynamische Remarketing-Zielgruppen verwalten](audience-dynamic-remarketing-manage.md)
-

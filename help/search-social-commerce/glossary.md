@@ -1,7 +1,9 @@
 ---
 title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -36,9 +38,9 @@ ht-degree: 0%
 
 **Klick-Tracking-URL:** Eine Tracking-Vorlage oder Ziel-URL mit eingebettetem Code, um Klicks auf einen Suchbegriff, eine Anzeigenvariante oder eine Platzierung zu verfolgen.
 
-**Einschränkung:** (Advertiser mit Portfolios; nur für Gebotseinheiten in Standard-Portfolios) Eine Regel für Gebote auf einen bestimmten Suchbegriff oder eine bestimmte Anzeige. Sie überschreibt alle Beschränkungen auf Portfolioebene und die empfohlene Angebotsstrategie.
+**Einschränkung:** (Werbetreibende mit Portfolios; nur für Gebotseinheiten in Standard-Portfolios anwendbar) Eine Regel für Gebote auf einen bestimmten Suchbegriff oder eine bestimmte Anzeige. Sie überschreibt alle Beschränkungen auf Portfolioebene und die empfohlene Angebotsstrategie.
 
-**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird; Beispiele sind Registrierungen oder Käufe. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
+**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird. Beispiele sind Registrierungen oder Käufe. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
 
 **Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf Werbeanzeigen eines Werbetreibenden in den Werbenetzwerken und b) die daraus resultierenden Transaktionen auf der Website des Werbetreibenden zu verfolgen.
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 **Kostenmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die Kostenvolumen, das für den Gewinn jeder Position oder Platzierung erforderliche Angebot und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit mithilfe historischer Daten und mathematischer Prognosetechniken vorhersagt.
 
-**Kostenmodellabdeckung:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz der Gebotseinheiten, die in den letzten sieben Tagen mindestens eine Impression erhalten haben, damit die Optimierungsfunktion Kostenmodelle erstellen kann. Nicht alle Gebotseinheiten verfügen über Kostenmodelle; diejenigen, die für die Abdeckung des Kostenmodells zählen.
+**Kostenmodellabdeckung:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz der Gebotseinheiten, die in den letzten sieben Tagen mindestens eine Impression erhalten haben, damit die Optimierungsfunktion Kostenmodelle erstellen kann. Nicht alle Gebotseinheiten verfügen über Kostenmodelle; diejenigen, die in die Abdeckung des Kostenmodells einfließen.
 
 **Halbwertszeit des Kostenmodells:** (Werbetreibende mit Portfolios) Die Anzahl der Tage vor dem aktuellen Datum, für die die Kostendaten als aktueller betrachtet werden und daher für Kostenmodelle relevanter sind.
 
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 **Kosten pro Akquise:** (CPA) Die Kosten einer Anzeige dividiert durch die Anzahl der Konversionen. Auch Kosten pro Transaktion (CPT) oder Kosten pro Bestellung (CPO) genannt.
 
-**Kosten pro Klick:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibende für jeden Klick auf eine Werbeanzeige in Rechnung gestellt werden.
+**Kosten pro Klick:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibende für jeden Klick auf die Anzeige in Rechnung gestellt werden.
 
 **Kosten pro Bestellung:** (CPO) Die Kosten einer Anzeige dividiert durch die Anzahl der Bestellungen. Auch Kosten pro Akquise (CPA) oder Kosten pro Transaktion (CPT) genannt.
 
@@ -84,7 +86,7 @@ ht-degree: 0%
 
 **impression:** Eine einzelne Anzeige einer Anzeige auf einer Webseite, mobilen App oder einem anderen Versandmedium. Ein Benutzer muss die Anzeige nicht anzeigen oder klicken, damit sie als Impression gezählt wird.
 
-**Impression-Lookback-Fenster:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Anzahl der Tage angibt, nach denen eine Ad-Impression auftritt, die einer Konversion zugeordnet werden kann.
+**Impression Lookback window:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Anzahl der Tage angibt, nach denen eine Ad-Impression auftritt, die einer Konversion zugeordnet werden kann.
 
 **Impressionsübergewicht:** Ein angegebener Prozentsatz eines Konversionswerts, um Impressionen zuzuordnen, die im Impressions-Lookback-Fenster des Kunden auftreten, wenn der Konversion sowohl Paid-Klicks als auch Impressionen vorangehen. Wenn einer Konversion nur Impressionen vorangestellt werden, wird die Viewthrough-Gewichtung des Werbetreibenden anstelle der Impressions-Überschreibungsgewichtung auf die Impressionen angewendet.
 
@@ -114,7 +116,7 @@ ht-degree: 0%
 
 **Optimierungsfunktion:** (Werbetreibende mit Portfolios) Suchbegriff-Bidding-Technologie, Social und Commerce, die die optimale Gebots- und Budgetmanagement-Strategie für ein Portfolio basierend auf seinem Geschäftsziel bestimmt.
 
-**verwaiste Transaktion:** Ein Transaktionsereignis, das nicht mit einem bestimmten Suchbegriff oder einer bestimmten Anzeige verknüpft werden kann.
+**verwaiste Transaktion:** Ein Transaktionsereignis, das keinem bestimmten Suchbegriff oder einer bestimmten Anzeige zugeordnet werden kann.
 
 **pixel:** Ein transparentes, ein Pixel nach dem anderen Pixelbild, das zu Tracking-Zwecken auf einer Webseite eingebettet wird. Adobe Advertising-Konversions-Tracking-Tags enthalten entweder ein HTML-Bildpixel oder JavaScript, um Klicks und die daraus resultierenden Transaktionen zu verfolgen.
 
@@ -124,7 +126,7 @@ ht-degree: 0%
 
 **POS:** Prozentsatz der Ausgaben
 
-**PPC:** Siehe &quot;Pay-per-Click&quot;.
+**PPC:** Siehe &quot;Pay per Click&quot;.
 
 **Eigenschaft:** Siehe &quot;transaction property&quot;.
 
@@ -154,11 +156,11 @@ ht-degree: 0%
 
 **Ausgabestrategie:** (Advertiser mit Portfolios) Die gewählte Strategie zur Optimierung von Keyword-/Anzeigengeboten für ein Portfolio.
 
-**`s_kwcid`:** Ein Trackingcode, der es Adobe Advertising ermöglicht, Daten zu Suchkampagnen mit Adobe Analytics zu teilen.
+**`s_kwcid`:** Ein Trackingcode, mit dem Adobe Advertising Daten zu Suchkampagnen mit Adobe Analytics teilen können.
 
 **Tracking-URL:** Eine Tracking-Vorlage oder Ziel-URL mit zusätzlichen Parametern, um Informationen über Klicks auf die Anzeige zu verfolgen. Es kann eine Umleitungs-URL enthalten, über die Benutzer zunächst an einen Tracking-Server gesendet werden, bevor sie zur Landingpage des Advertisers weitergeleitet werden.
 
-**Transaktion:** Alle verfolgbaren Ereignisse, die online oder offline auftreten. Mehrere Transaktionsereignisse können zusammen als Teil derselben Transaktion oder Konversion verfolgt werden. Beispielsweise kann eine Online-Informationsanfrage sowie eine daraus resultierende telefonische Bestellung als Bestandteil eines Kaufs betrachtet werden. Die Begriffe &quot;Transaktion&quot; und &quot;Konversion&quot; werden häufig synonym verwendet. Eine Transaktion wird durch eine Transaktions-ID repräsentiert und ihr eine oder mehrere Eigenschaften zugeordnet.
+**Transaktion:** Alle verfolgbaren Ereignisse, die online oder offline auftreten. Mehrere Transaktionsereignisse können im Rahmen derselben Transaktion oder Konversion zusammen nachverfolgt werden. So kann beispielsweise eine Online-Informationsanfrage sowie eine daraus resultierende telefonische Bestellung als Bestandteil eines Kaufs betrachtet werden. Die Begriffe &quot;Transaktion&quot; und &quot;Konversion&quot; werden häufig synonym verwendet. Eine Transaktion wird durch eine Transaktions-ID repräsentiert und ihr eine oder mehrere Eigenschaften zugeordnet.
 
 **Transaktions-ID:** Eine vom Advertiser angegebene ID, die eine Transaktion identifiziert. Wenn eine Transaktion mehrere Ereignisse enthält, haben alle dieselbe Transaktions-ID.
 
@@ -172,7 +174,7 @@ ht-degree: 0%
 
 **Durchsicht:** (Anzeige und soziale Anzeigen) Eine Anzeigenimpression (oder eine Zeichenfolge aus Impressionen), die zu einer Konversion führt, ohne dass der Benutzer auf eine Anzeige klickt.
 
-**Viewthrough-Gewichtung:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Gewichtung angibt, die einer Viewthrough-Konversion zugeordnet werden soll, bezogen auf die Gewichtung, die einer klick-basierten Konversion zugeordnet wird (in Prozent).
+**Durchsichtsgewicht:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Gewichtung angibt, die einer Viewthrough-Konversion zugeordnet werden soll, bezogen auf die Gewichtung, die einer klick-basierten Konversion zugeordnet wird (in Prozent).
 
 ## W-X {#w-x}
 

@@ -1,7 +1,9 @@
 ---
 title: Verwalten [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppen
 description: Erfahren Sie, wie Sie [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Weitere Informationen zum dynamischen Remarketing und zur Implementierung des er
 
    Sie benötigen den Tag-Namen in einem späteren Schritt.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -58,7 +60,7 @@ Weitere Informationen zum dynamischen Remarketing und zur Implementierung des er
 
 Sie können den Namen und die Datenquelle für eine [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppe. Sie können den Wert der [!UICONTROL Membership Days] -Einstellung.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben der zu bearbeitenden Audience.
 
@@ -78,7 +80,7 @@ Sie können den Namen und die Datenquelle für eine [!DNL Microsoft Advertising]
 
 ## Dynamische Remarketing-Zielgruppe löschen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Zielgruppen einzuschließen.
 
@@ -94,4 +96,3 @@ Sie können den Namen und die Datenquelle für eine [!DNL Microsoft Advertising]
 >* [Erstellen [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Zielgruppen](google-audience-from-adobe-audience.md)
 >* [Erstellen Sie eine [!DNL Google Ads] Zielgruppe für Kundenabgleich aus einer Adobe Campaign-E-Mail-Liste](google-audience-from-campaign-email-list.md)
 >* [Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten](audience-from-customer-data-list.md)
-

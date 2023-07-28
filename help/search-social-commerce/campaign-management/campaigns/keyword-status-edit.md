@@ -1,7 +1,9 @@
 ---
 title: Ändern des Status von Keywords und negativen Keywords
 description: Erfahren Sie, wie Sie den Status von Keywords und negativen Keywords ändern können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Sie können einen aktiven, bidbaren Suchbegriff anhalten, um die Gebote darauf z
 
 Sie können auch aktive oder angehaltene Suchbegriffe oder negative Suchbegriffe löschen. Gelöschte Suchbegriffe/negative Suchbegriffe werden aus dem Werbenetzwerk gelöscht. Sie sind noch sichtbar, aber man kann sie nicht ändern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Keywords oder negative Keywords einzuschließen.
 
@@ -28,11 +30,10 @@ Sie können auch aktive oder angehaltene Suchbegriffe oder negative Suchbegriffe
 
    * (Nur bidable Keywords) Um die Zeilen anzuhalten, klicken Sie auf ![Anhalten](/help/search-social-commerce/assets/pause.png "Anhalten").
 
-   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+   * Um die Zeilen zu löschen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Suchbegriffe](keyword-about.md)
 >* [Bietbare Suchbegriffe verwalten](keyword-manage.md)
 >* [Negative Suchbegriffe erstellen](keyword-negative-create.md)
-

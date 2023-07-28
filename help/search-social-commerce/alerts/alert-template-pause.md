@@ -1,7 +1,9 @@
 ---
 title: Anhalten einer benutzerdefinierten Warnhinweisvorlage
 description: Erfahren Sie, wie Sie eine aktive Warnhinweisvorlage anhalten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Anhalten einer benutzerdefinierten Warnhinweisvorlage
 
-Sie können aktive Warnhinweisvorlagen anhalten.
+Sie können Vorlagen für aktive Warnhinweise anhalten.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, der sich für [!UICONTROL Alert Templates] anzeigen.
 
@@ -20,7 +22,7 @@ Sie können aktive Warnhinweisvorlagen anhalten.
 
    * (Um eine oder mehrere Vorlagen anzuhalten) Aktivieren Sie das Kontrollkästchen neben jeder Warnhinweisvorlage, die Sie anhalten möchten. Klicken Sie in der Symbolleiste auf ![Anhalten](/help/search-social-commerce/assets/pause.png "Anhalten") Klicken Sie im Dialogfeld auf **[!UICONTROL Pause]**.
 
-      Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -30,6 +32,5 @@ Sie können aktive Warnhinweisvorlagen anhalten.
 >* [Benutzerdefinierte Warnhinweisvorlage aktivieren](alert-template-activate.md)
 >* [Benutzerdefinierte Warnhinweisvorlage löschen](alert-template-delete.md)
 >* [Benutzerdefinierte Vorlageneinstellungen](alert-template-settings.md)
->* [Benutzerdefinierte Warnungen anzeigen](alert-view.md)
+>* [Anzeigen benutzerdefinierter Warnungen](alert-view.md)
 >* [Daten für benutzerdefinierte Warnungen exportieren](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Löschen von Tabellenbericht-Feeds
 description: Erfahren Sie, wie Sie Tabellen-Feeds löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -30,7 +32,6 @@ ht-degree: 0%
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
 >* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
 >* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellen-Berichte](spreadsheet-feed-settings.md)
+>* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)
-

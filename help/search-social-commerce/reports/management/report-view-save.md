@@ -1,7 +1,9 @@
 ---
 title: Bericht anzeigen oder speichern
 description: Erfahren Sie, wie Sie einen erstellten Bericht anzeigen oder einen Bericht als Datei speichern können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Sie können einen Bericht im Webbrowser anzeigen oder die Berichtsdaten als [!DN
 
       * **[!UICONTROL XLS]:**   Für [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLSX-Format). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet wird, wobei für jede Komponente eine Zeile angezeigt wird, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen.
 
-         Basisberichte enthalten für jede numerische Spalte einen Gesamtwert.
+        Basisberichte enthalten für jede numerische Spalte einen Gesamtwert.
 
       * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede berichtete Komponente.
 
@@ -42,4 +44,3 @@ Sie können einen Bericht im Webbrowser anzeigen oder die Berichtsdaten als [!DN
 >* [Bericht aus einer Vorlage erstellen](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Einen Bericht aus einem vorhandenen Bericht erstellen](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [Berichte löschen](/help/search-social-commerce/reports/management/report-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Anzeigen von Benachrichtigungen
 description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, Ihre Benachrichtigungen anzuzeigen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -22,11 +24,12 @@ Wann Sie [Abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
    * Um die Details einer Benachrichtigung anzuzeigen, klicken Sie auf den Namen der Benachrichtigung.
 
-      In einigen Benachrichtigungen wird die [!UICONTROL Action Recommended] -Abschnitt kann einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
+     In einigen Benachrichtigungen wird die [!UICONTROL Action Recommended] -Abschnitt kann einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * So markieren Sie eine Benachrichtigung als *lesen* oder *unread*, halten Sie den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren").
+   * So markieren Sie eine Benachrichtigung als *lesen* oder *unread*, halten Sie den Cursor über den Warnungsnamen und klicken Sie auf ![Als gelesen oder ungelesen markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
-      Benachrichtigungen, die als *lesen* in hellerem Text angezeigt werden, aber verfügbar bleiben, bis Sie sie löschen.
+     Benachrichtigungen als *lesen* in hellerem Text angezeigt werden, aber verfügbar bleiben, bis Sie sie löschen.
+
    ![Benachrichtigungen lesen und nicht lesen](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Benachrichtigungen lesen und nicht lesen")
 
    * Um Ihre Abonnementvoreinstellungen für den Benachrichtigungstyp zu ändern, klicken Sie auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen") Ändern Sie Ihre Einstellungen neben der Benachrichtigung und klicken Sie auf **[!UICONTROL Save]**.
@@ -34,7 +37,6 @@ Wann Sie [Abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
    * Um eine Benachrichtigung zu löschen, klicken Sie auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen") neben der Benachrichtigung.
 
    * Zum Öffnen [!UICONTROL Notification Center]klicken **[!UICONTROL View All]**.
-
 
 ## Anzeigen von Benachrichtigungen in [!UICONTROL Notification Center]
 
@@ -46,11 +48,11 @@ Wann Sie [Abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
    * Um die Details einer Benachrichtigung anzuzeigen, klicken Sie auf den Namen der Benachrichtigung.
 
-      In einigen Benachrichtigungen wird die [!UICONTROL Action Recommended] -Abschnitt kann einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
+     In einigen Benachrichtigungen wird die [!UICONTROL Action Recommended] -Abschnitt kann einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * So markieren Sie eine Benachrichtigung als *lesen* oder *unread*, halten Sie den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren").
+   * So markieren Sie eine Benachrichtigung als *lesen* oder *unread*, halten Sie den Cursor über den Warnungsnamen und klicken Sie auf ![Als gelesen oder ungelesen markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
-      Benachrichtigungen, die als *lesen* in hellerem Text angezeigt werden, aber verfügbar bleiben, bis Sie sie löschen.
+     Benachrichtigungen als *lesen* in hellerem Text angezeigt werden, aber verfügbar bleiben, bis Sie sie löschen.
 
    * Um Ihre Abonnementvoreinstellungen für den Benachrichtigungstyp zu ändern, klicken Sie auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen")  Ändern Sie Ihre Einstellungen neben der Benachrichtigung und klicken Sie auf **[!UICONTROL Save]**.
 
@@ -64,4 +66,3 @@ Wann Sie [Abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 >* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
 >* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
-

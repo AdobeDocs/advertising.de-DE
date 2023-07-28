@@ -1,7 +1,9 @@
 ---
 title: Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für Inventar-Feeds
 description: Referenzieren Sie die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3317'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher in allen Attributfeldern als Text verboten:  `[ ] < > `
->* In [!DNL Yandex templates], können Sie die dynamischen Parameter `{param1}` und `{param2}` nur in URLs verwenden, und Sie können die dynamische Preiseinfügung in Anzeigenbeschreibungen nicht verwenden.
+>* In [!DNL Yandex templates], können Sie die dynamischen Parameter verwenden `{param1}` und `{param2}` nur in URLs verwenden, und Sie können die dynamische Preiseinfügung in Anzeigenbeschreibungen nicht verwenden.
 
 ## \[Über allen Registerkarten\]
 
@@ -58,11 +60,11 @@ Verwenden [!UICONTROL Map Only] auf Kampagnenebene erfordert eine vorhandene Kon
 
 * *[!UICONTROL Contains Exactly]:* Fügt Daten zu einer vorhandenen Kampagne hinzu, deren Name die angegebene Zeichenfolge enthält, sofern vorhanden.
 
-* *[!UICONTROL Exactly Matches]* (Standardeinstellung): Fügt Daten zu einer vorhandenen Kampagne mit demselben Namen hinzu, sofern vorhanden.
+* *[!UICONTROL Exactly Matches]* (Standardeinstellung): Fügt Daten zu einer bestehenden Kampagne mit demselben Namen hinzu, sofern vorhanden.
 
 Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne ignoriert. Wenn mehrere Kampagnenübereinstimmungen gefunden werden, werden ihnen Suchbegriffe und Anzeigen zugeordnet.
 
-**[!UICONTROL Campaign Tracking Template]:** (Nur Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
+**[!UICONTROL Campaign Tracking Template]:** (Nur Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
 * Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
@@ -70,7 +72,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
    * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{unescapedurl}` um die Landingpage-URL anzugeben.
+   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter . `!{unescapedurl}` um die Landingpage-URL anzugeben.
 
    * Sie können optional URL-Parameter und alle für die Kampagne definierten benutzerdefinierten Parameter einbeziehen, getrennt durch kaufmännische Und-Zeichen (&amp;), z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -164,11 +166,11 @@ Dieser Wert setzt die Einstellungen auf Konto- und Kampagnenebene außer Kraft, 
 
 Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste oder auf eine [Modifikatorname](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) in der Liste Modifikatoren . Um mehrere Suchbegriffe oder mehrere Übereinstimmungstypen für denselben Suchbegriff anzugeben, geben Sie sie in separate Zeilen ein. Verwenden Sie die folgende Übereinstimmungstyp-Syntax für den Spaltennamen, um den Keyword-Übereinstimmungstyp anzugeben:
 
-* Für [!DNL Google Ads], [!DNL Microsoft® Advertising]und [!DNL Yahoo! Japan Ads] templates:
+* Für [!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yahoo! Japan Ads] templates:
 
-   * Für dynamische Parameter: Gesamtübereinstimmung = `[keyword]`, Modifikator für breite Übereinstimmung für den ersten Begriff im [!UICONTROL Keyword] Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Modifikator für breite Übereinstimmung für jeden Begriff in der Spalte Suchbegriff (z. B. +Blue +Wildleder +Schuhe) = `+[keyword]+`, Phrase Match = `"[keyword]"`, genaue Übereinstimmung = `[[keyword]]`
+   * Dynamische Parameter: Weit gefasste Übereinstimmung = `[keyword]`, Modifikator für breite Übereinstimmung für den ersten Begriff im [!UICONTROL Keyword] Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Modifikator für breite Übereinstimmung für jeden Begriff in der Spalte Suchbegriff (z. B. +Blue +Wildleder +Schuhe) = `+[keyword]+`, Phrase Match = `"[keyword]"`, genaue Übereinstimmung = `[[keyword]]`
 
-   * Für statische Suchbegriffe: Gesamtübereinstimmung = `keyword`, Modifikator für breite Übereinstimmung = `+keyword`, oder Phrase-Übereinstimmung = `"keyword"`
+   * Für statische Suchbegriffe: Umfassende Übereinstimmung = `keyword`, Modifikator für breite Übereinstimmung = `+keyword`, oder Phrase-Übereinstimmung = `"keyword"`
 
      Sie können hier keine statischen Schlüsselwörter mit exakter Übereinstimmung und Standardübereinstimmungssyntax eingeben, da sie von Klammern (`[]`), genau wie dynamische Parameter.
 
@@ -187,7 +189,7 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 
 **[!UICONTROL Map Only]:** Fügt neue Anzeigen zu Anzeigengruppen (oder zu Kampagnen für [!DNL Yandex] Konten), in denen die angegebenen Suchbegriffe gefunden werden, anstatt neue Suchbegriffe zu erstellen. Aktivieren Sie das Kontrollkästchen, um diese Option zu aktivieren. Wenn diese Option aktiviert ist, gelten alle Variablen von Param 1 und Param 2 in den angegebenen Keywords nicht, da die Keywords vorhanden sind.
 
-**[!UICONTROL Keyword Final URL]:** (Konten mit finalen/erweiterten URLs; (optional) Die Landingpage-URL, zu der die Anzeigennetzwerkbenutzer beim Klicken auf Ihre Anzeige weitergeleitet werden. Sie muss dieselbe Domäne wie die Anzeigen-URL enthalten und alle Parameter in der endgültigen URL müssen mit den Parametern in der Landingpage-URL nach dem Anzeigenklick übereinstimmen. Sie kann Umleitungen innerhalb der Landingpage-Domäne oder -Subdomäne enthalten, jedoch keine Umleitungen außerhalb der Landingpage-Domäne.
+**[!UICONTROL Keyword Final URL]:** (Konten mit finalen/erweiterten URLs; optional) Die Landingpage-URL, zu der die Anzeigennetzwerkbenutzer beim Klicken auf Ihre Anzeige gelangen. Sie muss dieselbe Domäne wie die Anzeigen-URL enthalten und alle Parameter in der endgültigen URL müssen mit den Parametern in der Landingpage-URL nach dem Anzeigenklick übereinstimmen. Sie kann Umleitungen innerhalb der Landingpage-Domäne oder -Subdomäne enthalten, jedoch keine Umleitungen außerhalb der Landingpage-Domäne.
 
 Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &quot;[!DNL Link]&quot;, und fügen Sie diese Spalte dann in dieses Feld ein.
 
@@ -196,7 +198,7 @@ Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &
 * Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden Tracking-Parameter basierend auf den Konto-Tracking-Einstellungen an diesen Wert angehängt.
 * ([!DNL Google Ads] -Konten) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-**[!UICONTROL Keyword Tracking Template]:** (Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
+**[!UICONTROL Keyword Tracking Template]:** (Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
 * Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
@@ -206,13 +208,13 @@ Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &
 
    * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter `!{lpurl}` um die Landingpage-URL anzugeben.
+   * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter . `!{lpurl}` um die Landingpage-URL anzugeben.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] templates\]:** ([!DNL Google Ads] Nur Vorlagen) Die Spalte in der angegebenen Datei, die die [!DNL Google Ads] `{param1}` oder `{param2}` -Variable, die Sie in die Anzeigenkopie oder die Anzeigen-URL für jede Anzeige einfügen können, die über die Vorlage erstellt wurde. Um den dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste. Der Spaltenname wird durch die tatsächlichen Daten ersetzt, wenn die Feed-Datei über die Vorlage propagiert wird.
 
 Wenn Sie einen der beiden Parameter verwenden, haben Sie die Möglichkeit, den Parameter nur auf neue Suchbegriffe anzuwenden oder auch die Werte vorhandener Suchbegriffe zu aktualisieren, die nicht aus der Vorlage erstellt wurden:
 
-* **[!UICONTROL Do Not Apply to Existing Keywords]** (Standardeinstellung): Fügt einfach den Wert des Parameters für neue Suchbegriffe ein, die mithilfe der Vorlage erstellt werden.
+* **[!UICONTROL Do Not Apply to Existing Keywords]** (Standard): Hiermit wird einfach der Wert des Parameters für neue Suchbegriffe eingefügt, die mit der Vorlage erstellt werden.
 
 * **[!UICONTROL Apply to Existing Keywords: Constant]:** Neben der Erstellung neuer Suchbegriffe aus dem Feed aktualisiert Search, Social und Commerce auch den Wert des Parameters für alle vorhandenen Suchbegriffe in der Anzeigengruppe, die nicht mit der Vorlage erstellt wurden. Geben Sie einen einzelnen numerischen Wert ein, der für alle diese Suchbegriffe verwendet wird. Die Vorlage muss mindestens einen Suchbegriff enthalten.
 
@@ -228,7 +230,7 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
    * Der Wert kann ein Komma (,) oder einen Punkt (.) enthalten. als Trennzeichen mit einem optionalen Punkt (.) oder Komma (,) für Bruchwerte. Beispielsweise sind 1.000.00 und 2.000,10 gültig.
 
-   * Dem Wert kann ein Prozentzeichen (%), ein Pluszeichen (+) oder ein Minuszeichen (-) vorangestellt oder angehängt werden. Beispielsweise sind 20 %, 208+ und -42,32 gültig.
+   * Dem Wert kann ein Prozentzeichen (%), Pluszeichen (+) oder Minuszeichen (-) vorangestellt oder angehängt werden. Beispielsweise sind 20 %, 208+ und -42,32 gültig.
 
    * Zwei Zahlen können mit einem Schrägstrich eingebettet werden. Beispielsweise sind 4/1 und 0.95/0.45 gültig.
 
@@ -236,7 +238,7 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param3}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge des Anzeigenelements, in dem Sie es verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Das anfängliche Gebot für jeden Suchbegriff mit dem angegebenen Übereinstimmungstyp oder Anzeigentyp.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das anfängliche Gebot für jeden Suchbegriff mit dem angegebenen Übereinstimmungstyp oder Anzeigentyp.
 
 ## [!UICONTROL Ads]
 
@@ -256,7 +258,7 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** (Nur bestehende Microsoft® Advertising-Standardtextanzeigen; schreibgeschützt) Der Titel oder die erste Zeile einer Anzeige. Die Erstellung und Bearbeitung von Standardtextanzeigen wird von Microsoft® Advertising nicht mehr unterstützt.
+**[!UICONTROL Ad Title]:** (Vorhandene Microsoft® Advertising-Standardtextanzeigen; schreibgeschützt) Der Titel oder die erste Zeile einer Anzeige. Die Erstellung und Bearbeitung von Standardtextanzeigen wird von Microsoft® Advertising nicht mehr unterstützt.
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] und [!DNL Yahoo! Japan Ads] nur erweiterte Textanzeigenvorlagen) Die Überschrift einer Anzeige. Die maximale Länge jeder Zeile (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
 
@@ -264,7 +266,7 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Headline 3]:** ([!DNL Google Ads] nur erweiterte Textanzeigenvorlagen; optional) Eine dritte Überschrift für eine Anzeige. Die maximale Länge (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
+**[!UICONTROL Headline 3]:** ([!DNL Google Ads] Nur erweiterte Textanzeigenvorlagen; optional) Eine dritte Überschrift für eine Anzeige. Die maximale Länge (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
 
 **[!UICONTROL Title]:** ([!DNL Yandex] nur) Der Titel oder die erste Zeile einer Anzeige. Die maximale Länge beträgt 33 Zeichen.
 
@@ -280,7 +282,7 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 **[!UICONTROL Description]:** Der Hauptteil der Anzeige.
 
-* (Google Fügt erweiterte Textanzeigenvorlagen hinzu) Die maximale Länge (nach der Ersetzung dynamischer Parameter) beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen.
+* (Google Fügt erweiterte Textanzeigenvorlagen hinzu) Die maximale Länge (nachdem dynamische Parameter ersetzt wurden) beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen.
 
 * (Yahoo! Japan Ads-Vorlagen) Die maximale Länge (nachdem dynamische Parameter ersetzt wurden) beträgt 80 Zeichen oder 40 Doppelbyte-Zeichen.
 
@@ -294,23 +296,23 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 Wenn Sie mehrere Beschreibungen an derselben Position veröffentlichen, enthält die endgültige Anzeige immer eine dieser Beschreibungen an der angegebenen Position. In Position 2 enthaltene Beschreibungen werden möglicherweise nicht zusammen mit der Anzeige angezeigt.
 
-**[!UICONTROL Description 1]**, **[!UICONTROL Description 2]:** (Nur responsive Suchanzeigen) Die Anzeigenbeschreibungen. Jede Anzeigenvariante muss mindestens zwei und bis zu vier Anzeigenbeschreibungen enthalten. Das Werbenetzwerk zeigt Anzeigen mit bis zu zwei Beschreibungen an. mindestens zwei eingeben. Die maximale Länge für jede Beschreibung beträgt 90 Zeichen, einschließlich dynamischer Texte (z. B. Suchbegriffe und Anzeigenanpassungen).
+**[!UICONTROL Description 1]**, **[!UICONTROL Description 2]:** (Nur responsive Suchanzeigen) Die Anzeigenbeschreibungen. Jede Anzeigenvariante muss mindestens zwei und bis zu vier Anzeigenbeschreibungen enthalten. Das Werbenetzwerk zeigt Anzeigen mit bis zu zwei Beschreibungen an. Geben Sie mindestens zwei ein. Die maximale Länge für jede Beschreibung beträgt 90 Zeichen, einschließlich dynamischer Texte (z. B. Suchbegriffe und Anzeigenanpassungen).
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Description 2]:** (Nur erweiterte Google-Textanzeigenvorlagen; optional) Eine zweite Zeile der Anzeige. Die maximale Länge (nach der Ersetzung dynamischer Parameter) beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen.
+**[!UICONTROL Description 2]:** (Nur erweiterte Textanzeigenvorlagen in Google; optional) Eine zweite Zeile der Anzeige. Die maximale Länge (nach der Ersetzung dynamischer Parameter) beträgt 90 Zeichen oder 45 Doppelbyte-Zeichen.
 
 ### [!UICONTROL Path]
 
-**[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** (Nur erweiterter Text und responsive Suchanzeigen; (optional) Ein oder zwei URL-Pfade, die nacheinander nach der Basis-URL eingeschlossen werden sollen. Sie sollten das Produkt oder die Dienstleistung in der Anzeige ausführlicher beschreiben. Wenn Sie beispielsweise eine [!UICONTROL Display Path 1] von &quot;Schuhen&quot;und [!UICONTROL Display Path 2] von &quot;Outdoor&quot;zur Basis-URL www.example.com, lautet die URL www.example.com/Shoes/Outdoor. Die maximale Länge (nach der Ersetzung dynamischer Parameter) für jedes Feld beträgt 15 Zeichen oder 7 Doppelbyte-Zeichen.
+**[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** (Nur erweiterte Text- und responsive Suchanzeigen; optional) Ein oder zwei URL-Pfade, die nacheinander nach der Basis-URL eingeschlossen werden. Sie sollten das Produkt oder die Dienstleistung in der Anzeige ausführlicher beschreiben. Wenn Sie beispielsweise eine [!UICONTROL Display Path 1] von &quot;Schuhen&quot;und [!UICONTROL Display Path 2] von &quot;Outdoor&quot;zur Basis-URL www.example.com, lautet die URL www.example.com/Shoes/Outdoor. Die maximale Länge (nach der Ersetzung dynamischer Parameter) für jedes Feld beträgt 15 Zeichen oder 7 Doppelbyte-Zeichen.
 
 Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser mit den folgenden Formaten ein, wobei `Default text` ist ein optionaler Wert, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält:
 
-* [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`
+* [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, beispielsweise `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, beispielsweise `{CUSTOMIZER.Discount:10%}`
 
 **[!UICONTROL Display URL]:** (Bestehend [!DNL Microsoft® Advertising] und [!DNL Yahoo! Japan Ads] Nur Standardtextanzeigen; schreibgeschützt) Die in einer Anzeige angezeigte URL.
 
@@ -329,7 +331,7 @@ Wenn Sie [!DNL Google Merchant] Feed zentrieren und diesen Wert in die &quot;[!U
 * Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden basierend auf den Konto-Tracking-Einstellungen Tracking-Parameter an diesen Wert angehängt.
 * ([!DNL Google Ads] Konten ) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-**[!UICONTROL Tracking Template]:** (Konten mit finalen/erweiterten URLs; (optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
+**[!UICONTROL Tracking Template]:** (Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 

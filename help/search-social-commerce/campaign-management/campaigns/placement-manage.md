@@ -1,7 +1,9 @@
 ---
 title: Verwalten [!DNL Google Ads] Platzierungen
 description: Erfahren Sie, wie Sie bidbare Platzierungen für [!DNL Google Ads] Anzeigengruppen.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 >
 >Um mehrere Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
 1. 
    1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
@@ -37,7 +39,7 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 >
 >Um viele Platzierungen gleichzeitig zu bearbeiten, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zeile.
 
@@ -59,9 +61,9 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Sites im Inhaltsnetzwerk, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Die URL darf kein Fragezeichen (`?`). **Hinweis:** Sie können [Website-Platzierungen ausschließen](placement-negative-create.md) von [!UICONTROL Placements] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
+**[!UICONTROL Placements]:** Sites im Inhaltsnetzwerk, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Die URL darf kein Fragezeichen (`?`). **Hinweis:** Sie können [Website-Platzierungen ausschließen](placement-negative-create.md) aus dem [!UICONTROL Placements] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (Bietbarkeit; Standard), *Angehalten* (um Gebote zu deaktivieren) oder *Gelöscht* (Löschen der Platzierung; nur vorhandene Platzierungen).
+**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (um Gebote zu aktivieren; Standardeinstellung) *Angehalten* (um Gebote zu deaktivieren) oder *Gelöscht* (um die Platzierung zu löschen; nur vorhandene Platzierungen).
 
 ### [!UICONTROL Bids]
 

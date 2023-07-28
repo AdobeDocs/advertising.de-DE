@@ -2,7 +2,8 @@
 title: Hochladen von Konversionsmetriken in [!DNL Google Ads]
 description: Erfahren Sie, wie Sie die von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads].
 exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
-source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Suchen, Social und Commerce können optional in hochgeladen werden. [!DNL Google Ads] alle Konversionsmetriken, die für [!DNL Google Ads] Kampagnen, die den Adobe Advertising-Konversions-Tracking-Dienst und die aus Adobe Analytics synchronisierten Konversionsmetriken verwenden. Mit dieser Option werden die Konversionen nicht für die Hybridoptimierung verfügbar. Wenn Sie Ihre Adobe-Konversionen für die Hybridoptimierung verwenden möchten, lesen Sie den Abschnitt[Aktivieren des Hochladens von Zielen in Werbenetzwerke](objective-upload-to-networks.md).&quot;
 
-Tägliche Uploads beinhalten die getrackten `gclid` -Wert, der Konversionswert, der mithilfe des Attributionsmodells auf Advertiser-Ebene definiert wurde, und der Zeitstempel. Wenn das Attributionsmodell aktualisiert wird, verwendet der nächste Upload das neue Modell, aber vergangene Daten werden nicht für die Verwendung des neuen Modells aktualisiert.
+Tägliche Uploads beinhalten die verfolgten `gclid` -Wert, der Konversionswert, der mithilfe des Attributionsmodells auf Advertiser-Ebene definiert wurde, und der Zeitstempel. Wenn das Attributionsmodell aktualisiert wird, verwendet der nächste Upload das neue Modell, aber vergangene Daten werden nicht für die Verwendung des neuen Modells aktualisiert.
 
 >[!NOTE]
 >

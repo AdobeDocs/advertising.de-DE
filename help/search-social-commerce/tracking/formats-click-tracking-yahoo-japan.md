@@ -1,7 +1,9 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads] Konten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yahoo! Japan Ads] Konten.
+exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -30,9 +32,7 @@ Beispiel:
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 
-
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
 >* [Formate für den s\_kwcid-Trackingcode](skwcid-tracking-parameter.md)
-

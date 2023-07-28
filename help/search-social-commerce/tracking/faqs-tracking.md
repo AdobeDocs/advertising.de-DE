@@ -1,7 +1,9 @@
 ---
 title: Häufig gestellte Fragen zum Tracking
 description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zum Tracking, einschließlich Fehlerbehebungsproblemen.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 ## Tracking-Funktionen
 
-++ Kann ich Kampagnen nachverfolgen, die von Adobe Advertising nicht verwaltet werden?
+++ Kann ich Kampagnen verfolgen, die von Adobe Advertising nicht verwaltet werden?
 
 Ja. Wenn Search, Social und Commerce eines Ihrer Anzeigennetzwerkkonten synchronisiert, werden die Klickdaten des Anzeigennetzwerks für alle [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) in diesem Konto. Sie verfolgt auch die Konversionsdaten, wenn Sie die Umleitung &quot;Search, Social, &amp; Commerce&quot;zu Ihren Anzeigen- und/oder Keyword-Ziel-URLs oder Tracking-Vorlagen hinzugefügt und die Konversions-Tracking in Ihre Konversionsseiten implementiert haben. Machen Sie sich mit Ihrem Adobe Account Team klar, welche Kampagnen Sie in Search, Social und Commerce einfach verfolgen möchten und welche Sie verwalten möchten.
 +++
@@ -35,18 +37,18 @@ Duplizierte Transaktionen können auftreten, wenn ein Benutzer die Bestätigungs
 
 Im Folgenden finden Sie die Deduplizierungslogik des Adobe Advertisings:
 
-* **Wenn ein Client einen Wert für die `ev_transid` Attribut:** Nachfolgende Pixelanforderungen werden als Duplikate der vorherigen betrachtet, wenn die folgenden identisch sind: die `ev_transid`; die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung; und den Wert für eine bestimmte Transaktionseigenschaft.
+* **Wenn ein Client einen Wert für die `ev_transid` Attribut:** Nachfolgende Pixelanforderungen werden als Duplikate der vorherigen betrachtet, wenn die folgenden identisch sind: die `ev_transid`; die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und den Wert für eine bestimmte Transaktionseigenschaft.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Anwendungs-ID und denselben Darlehensbetrag für denselben Suchbegriff in einem bestimmten Werbenetzwerk haben, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 
-* **Wenn ein Client keinen Wert für die `ev_transid` Attribut:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung gemeinsam haben. und denselben Wert für eine bestimmte Transaktionseigenschaft.
+* **Wenn ein Client keinen Wert für die `ev_transid` Attribut:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und denselben Wert für eine bestimmte Transaktionseigenschaft verwenden.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Schlüsselwort-ID und denselben Darlehensbetrag aufweisen, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 +++
 
 ## Typen der Tracking-Implementierung
 
-+++ Ich möchte den Adobe Advertising Conversion-Tracking-Dienst nicht mehr für eine oder mehrere Kampagnen oder Konten verwenden. Wie kann ich den Trackingcode schnell aus den Tracking-URLs entfernen?
++++ Ich möchte die Verwendung des Adobe Advertising-Konversions-Tracking-Dienstes für eine oder mehrere Kampagnen oder Konten beenden. Wie kann ich den Trackingcode schnell aus den Tracking-URLs entfernen?
 
 Wenden Sie sich zunächst an Ihr Adobe-Kundenbetreuungsteam, um die Auswirkungen des Entfernens von Tracking-URLs zu verstehen.
 
@@ -64,7 +66,7 @@ In [!UICONTROL Transaction Report]können Sie feststellen, ob eine enthaltene Tr
 
 Verwaiste Transaktionen sind Transaktionsereignisse, die nicht mit einem bestimmten Suchbegriff oder einer bestimmten Anzeige verknüpft werden können. Adobe Advertising ordnet Transaktionen/Umsätze einem Suchbegriff oder einer Anzeige zu, indem sie die mit dem Umsatzereignis empfangenen Tracking-IDs mit der eindeutigen Tracking-ID in der Tracking-URL des Suchbegriffs oder der Anzeige abgleichen.
 
-Wenn ein Kundenbetreuungsteam vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, prüft das Kundenunterstützungsteam nach Waisen und untersucht das Problem, falls es solche findet.
+Wenn ein Kundenbetreuungsteam vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, prüft das Kundenunterstützungsteam nach Waisen und untersucht das Problem, falls es solche feststellt.
 
 In den folgenden Situationen treten Waisen auf.
 
@@ -72,7 +74,7 @@ In den folgenden Situationen treten Waisen auf.
 
 Verwaiste Transaktionen treten bei Pixelimplementierungen fast nie auf. Pixelverwaiste treten jedoch auf, wenn:
 
-* Die Klickdaten sind für das Klickdatum der Konversion nicht verfügbar. In diesem Fall werden die Daten wieder zugeordnet, wenn Search, Social und Commerce die Klickdaten aus dem Werbenetzwerk abrufen.
+* Die Klickdaten stehen für das Klickdatum der Konversion nicht zur Verfügung. In diesem Fall werden die Daten wieder zugeordnet, wenn Search, Social und Commerce die Klickdaten aus dem Werbenetzwerk abrufen.
 
 * Die Klickprotokolle werden nicht vor den Konvertierungsprotokollen verarbeitet.
 

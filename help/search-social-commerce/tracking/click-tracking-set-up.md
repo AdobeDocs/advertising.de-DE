@@ -1,7 +1,9 @@
 ---
 title: Einrichten des Cookie-basierten Klick-Trackings
 description: Erfahren Sie, wie Sie Klick-Tracking-Tags einrichten und validieren.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Damit Sie Klicks in Search, Social und Commerce verfolgen können, müssen die f
 
 1. Gehen Sie für jedes Anzeigennetzwerkkonto wie folgt vor:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Halten Sie den Cursor über den Kontonamen und klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol")und wählen Sie **[!UICONTROL Edit]**.
 
@@ -40,7 +42,7 @@ Damit Sie Klicks in Search, Social und Commerce verfolgen können, müssen die f
 
 1. Gehen Sie für jede Kampagne wie folgt vor:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Halten Sie den Cursor über den Kampagnennamen und klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol")und wählen Sie **[!UICONTROL Edit]**.
 
@@ -54,7 +56,7 @@ Damit Sie Klicks in Search, Social und Commerce verfolgen können, müssen die f
 
 ## Tracking-URLs generieren und hochladen {#generate-upload-tracking-urls}
 
-Siehe[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
+Siehe &quot;[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
 ### Testen des Formats von Klick-Tracking-URLs {#validate-tracking-urls}
 
@@ -86,4 +88,3 @@ Siehe[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-com
 >[!MORELIKETHIS]
 >
 >* [Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

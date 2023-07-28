@@ -1,7 +1,9 @@
 ---
 title: Implementierung [!DNL Google Ads] Warenkorb
-description: Erfahren Sie mehr über den Arbeitsablauf für die Einrichtung [!DNL Google Ads] Einkaufskampagnen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Google Ads] Einkaufskampagnen.
+exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Sie können steuern, welche Produkte mit Ihren Shopping-Anzeigen angezeigt werde
 
 ## Schritte zum Einrichten [!DNL Google Ads] Warenkorb
 
-Sie können Einkaufskampagnen einrichten, indem Sie [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) für [!DNL Google Shopping]durch Verwendung von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)oder einzeln. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
+Sie können Einkaufskampagnen mithilfe von [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) für [!DNL Google Shopping]durch Verwendung von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)oder einzeln. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
 
 1. Richten Sie Ihre [!DNL Google Merchant Center] -Konto erstellen und mit Produktdaten füllen.
 
@@ -35,6 +37,7 @@ Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
    1. [Erstellen einer Produktgruppe &quot;Alle Produkte&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
    1. (Optional) [Untergeordnete Produktgruppen erstellen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
+
    >[!NOTE]
    >Sie müssen keine Shopping-Anzeigen erstellen. Selbst wenn die Anzeigengruppe keine Anzeigenentitäten enthält, [!DNL Google Ads] zeigt weiterhin Anzeigen für die Produkte an.
 
@@ -46,12 +49,11 @@ Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
    1. [Kampagnenparameter bearbeiten](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) , um das Kampagnenbudget anzupassen.
 
-      Wenn die Kampagne Teil eines Portfolios ist, wird durch die Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; ermöglicht es Search, Social und Commerce, die Budgets für alle Kampagnen im Portfolio zu optimieren.
+      Wenn die Kampagne Teil eines Portfolios ist, wird durch die Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; ermöglicht Search, Social und Commerce die Budgetoptimierung für alle Kampagnen im Portfolio.
 
-   1. [Passen Sie das Höchstangebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [Produktgruppen löschen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe &quot;Alle Produkte&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [Neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) um Anzeigen für weitere Produkte zu erstellen.
+   1. [Passen Sie das Höchstgebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [Produktgruppen löschen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe &quot;Alle Produkte&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [Neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) um Anzeigen für weitere Produkte zu erstellen.
 
 >[!NOTE]
 >
 >* Siehe erforderliche Felder für die Verwaltung [!DNL Google Shopping] Kampagnen und Produktgruppen mit [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) und [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md).
 >* Weitere Informationen finden Sie unter [!DNL Google Shopping] Kampagnen, siehe [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/2454022).
-

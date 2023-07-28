@@ -1,7 +1,9 @@
 ---
 title: Systemanforderungen
 description: Erfahren Sie mehr über Software- und Kontoanforderungen.
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Sie benötigen die folgenden Software- und Kontoinformationen.
 
 * (So zeigen Sie exportierte Dateien im XLS-Format an) [!DNL Microsoft Excel] empfohlen
 
-   Wenn Sie eine andere Anwendung als [!DNL Microsoft Excel] um exportierte XLS-Dateien anzuzeigen, liegen Zahlen, Daten, Uhrzeiten und Währungen möglicherweise nicht im richtigen Format vor.
+  Wenn Sie eine andere Anwendung als [!DNL Microsoft Excel] um exportierte XLS-Dateien anzuzeigen, liegen Zahlen, Daten, Uhrzeiten und Währungen möglicherweise nicht im richtigen Format vor.
 
 ## Benutzername und Kennwort
 

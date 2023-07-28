@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL RSA Asset Report]"
-description: Erfahren Sie mehr über die [!UICONTROL RSA Asset Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL RSA Asset Report]'
+description: Informationen zum [!UICONTROL RSA Asset Report].
+exl-id: 76a7c698-5d05-4b48-bd50-5d126c0c4386
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Die [!UICONTROL RSA Asset Report] enthält tägliche Impressionsmetriken für je
 
 >[!NOTE]
 >
->Wenn Sie die Option zum[!UICONTROL Include rows with no performance data],&quot;enthalten die Ergebnisse weiterhin keine Daten für Assets, die noch nie Daten erhalten haben.
+>Wenn Sie die Option zum[!UICONTROL Include rows with no performance data],&quot;enthalten die Ergebnisse immer noch keine Daten für Assets, die noch nie Daten empfangen haben.
 
 Sie können Daten ab dem 8. August 2022 anzeigen.<!-- Later: You can view data for the previous 36 months. -->
 
@@ -39,4 +41,3 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >* [Über Sonderberichte](specialty-report-about.md)
 >* [Einen Spezialbericht erstellen](specialty-report-generate.md)
 >* [Einstellungen für Sonderberichte](specialty-report-settings.md)
-

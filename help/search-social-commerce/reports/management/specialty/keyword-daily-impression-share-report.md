@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Daily Impression Share Report]"
-description: Erfahren Sie mehr über die [!UICONTROL Keyword Daily Impression Share Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: '[!UICONTROL Keyword Daily Impression Share Report]'
+description: Informationen zum [!UICONTROL Keyword Daily Impression Share Report].
+exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -49,4 +51,3 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >* [Über Sonderberichte](specialty-report-about.md)
 >* [Einen Spezialbericht erstellen](specialty-report-generate.md)
 >* [Einstellungen für Sonderberichte](specialty-report-settings.md)
-

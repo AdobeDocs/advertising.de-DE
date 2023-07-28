@@ -1,7 +1,9 @@
 ---
 title: Über grundlegende Berichte und erweiterte Berichte
 description: Erfahren Sie mehr über anpassbare Basis- und erweiterte Berichte.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Über grundlegende Berichte und erweiterte Berichte
 
-## Basisberichte
+## Grundlegende Berichte
 
 Basisberichte zeigen die tatsächlichen Kosten- und Klickdaten für Portfolios (sofern zutreffend), Werbenetzwerke, Anzeigennetzwerkkontoentitäten (wie Kampagnen und Anzeigen), Beschriftungswerte und Klassifizierungen, Gebotseinheiten-Einschränkungen und Netzwerkbeschränkungen. Die Berichte basieren auf Klicks, die vom jeweiligen Anzeigennetzwerk in Rechnung gestellt werden, und können optional zusätzliche Traffic-Metriken, Konversionsdaten und benutzerdefinierte Metriken enthalten, die Sie erstellen. Grundlegende Berichte können Ihnen dabei helfen, Ihre Online-Marketingbemühungen zu überwachen, Trends zu untersuchen, Möglichkeiten zur Leistungsverbesserung zu identifizieren und die Auswirkungen automatisierter Gebote und Optimierung zu verstehen.
 
@@ -73,4 +75,3 @@ Alle erweiterten Berichte können optional Konversionsdaten oder andere von Ihne
 >* [Erstellen eines einfachen oder erweiterten Berichts](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Berichtsspalten für einfache und erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-

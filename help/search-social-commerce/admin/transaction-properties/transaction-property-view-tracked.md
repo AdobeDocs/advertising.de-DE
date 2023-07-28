@@ -1,7 +1,9 @@
 ---
 title: Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften
 description: Erfahren Sie, wie Sie eine Liste der für einen Advertiser verfolgten Transaktionseigenschaften anzeigen können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften
 
-Sie können eine Liste aller [Transaktionseigenschaften](/help/search-social-commerce/glossary.md#s-t) die Adobe Advertising für einen Advertiser nachverfolgt hat.
+Sie können eine Liste aller [Transaktionseigenschaften](/help/search-social-commerce/glossary.md#s-t) der Adobe Advertising für einen Advertiser nachverfolgt hat.
 
 * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
 
@@ -25,4 +27,3 @@ Alle Transaktionseigenschaften, die für den Advertiser gesammelt wurden, sowie 
 >* [Über die Verwaltung der Transaktionseigenschaften eines Advertisers](transaction-property-about.md)
 >* [Ändern der in Verwaltungsansichten und -berichten verfügbaren Transaktionseigenschaften](transaction-property-edit-available.md)
 >* [Anzeigenamen für eine Transaktionseigenschaft ändern](transaction-property-edit-display-name.md)
-

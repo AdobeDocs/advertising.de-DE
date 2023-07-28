@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Kampagnendaten mithilfe von Bulksheets
 description: Erfahren Sie mehr über die Bulksheet-Funktionalität, die über das Werbenetzwerk verfügbar ist, den Bulksheet-Workflow und die Fehlerbehandlung.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -22,15 +24,15 @@ Alle Bulksheets, Validierungsfehlerdateien für Landingpages und andere Fehlerda
 
 ## Funktionalität nach Anzeigennetzwerk
 
-* **Herunterladen, Hochladen und Posten:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising]und [!DNL Yandex] Konten
+* **Herunterladen, Hochladen und Posten:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yandex] Konten
 
 * **Nur herunterladen und hochladen:** [!DNL Naver] Konten
 
-   Sie können [!DNL Naver] Daten zur Verwendung in Search, Social und Commerce, können aber nicht im Werbenetzwerk posten. Sie können auch Ihre vorhandenen (nicht synchronisierten) Daten herunterladen.
+  Sie können [!DNL Naver] Daten zur Verwendung in Search, Social und Commerce, können aber nicht im Werbenetzwerk posten. Sie können auch Ihre vorhandenen (nicht synchronisierten) Daten herunterladen.
 
-* **Nur Daten herunterladen:**  [!DNL Pinterest], [!DNL Yahoo Native]und [!DNL Yahoo! Display Network] Konten
+* **Nur Daten herunterladen:**  [!DNL Pinterest], [!DNL Yahoo Native], und [!DNL Yahoo! Display Network] Konten
 
-   Sie können Ihre vorhandenen (nicht synchronisierten) Daten herunterladen.
+  Sie können Ihre vorhandenen (nicht synchronisierten) Daten herunterladen.
 
 ## Übersicht über die Verwendung von Bulksheets
 
@@ -60,9 +62,9 @@ In Search-, Social- und Commerce-Uploads und -Posts können so viele Datenzeilen
 
 Wenn beim Bulksheet-Vorgang Fehler auftreten, wird eine der beiden folgenden Arten von Fehlerdateien generiert:
 
-* **[!UICONTROL EF Errors]:**  Wenn eine Datei oder einzelne Zeilen in der Datei nicht hochgeladen oder verarbeitet werden können, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_ef_errors.<extension used for the bulksheet>` erstellt. Wenn das Problem mit einzelnen Zeilen auftritt, werden diese Zeilen mit einer Erklärung für jeden Fehler eingefügt, damit er korrigiert werden kann.
+* **[!UICONTROL EF Errors]:**  Wenn eine Datei oder einzelne Zeilen in der Datei nicht hochgeladen oder verarbeitet werden können, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_ef_errors.<extension used for the bulksheet>` erstellt wird. Wenn das Problem mit einzelnen Zeilen auftritt, werden diese Zeilen mit einer Erklärung für jeden Fehler eingefügt, damit er korrigiert werden kann.
 
-* **[!UICONTROL SE Errors]:**  Wenn eine Datei gepostet wird, das Werbenetzwerk jedoch einige oder alle Daten nicht akzeptiert, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_se_errors.<extension used for the bulksheet>` erstellt. Wenn einige, aber nicht alle Zeilen akzeptiert wurden, zeigt die Fehlerdatei die Zeilen an, die nicht veröffentlicht wurden, und eine Erläuterung jedes Fehlers, damit er korrigiert werden kann. Die Fehlermeldungen werden in den letzten drei Spalten jeder Zeile angezeigt.
+* **[!UICONTROL SE Errors]:**  Wenn eine Datei gepostet wird, das Werbenetzwerk jedoch einige oder alle Daten nicht akzeptiert, wird eine Fehlerdatei mit dem Namen `<uploaded file name>_se_errors.<extension used for the bulksheet>` erstellt wird. Wenn einige, aber nicht alle Zeilen akzeptiert wurden, zeigt die Fehlerdatei die Zeilen an, die nicht veröffentlicht wurden, und eine Erläuterung jedes Fehlers, damit er korrigiert werden kann. Die Fehlermeldungen werden in den letzten drei Spalten jeder Zeile angezeigt.
 
 >[!NOTE]
 >
@@ -84,4 +86,3 @@ Zu den Informationen für jede Datei gehören der aktuelle Aufgabenstatus, der P
 >* [Hochladen eines Bulksheets oder einer korrigierten Fehlerdatei](bulksheet-upload.md)
 >* [Post-Bulksheets oder korrigierte Fehlerdateien](bulksheet-post.md)
 >* [Exportieren einer generierten oder hochgeladenen Bulksheet-Datei](bulksheet-export.md)
-

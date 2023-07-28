@@ -1,7 +1,9 @@
 ---
 title: Hochgeladene Bulksheets und Fehlerdateien löschen
 description: Erfahren Sie, wie Sie Ihre Bulksheet-Dateien und Fehlerdateien löschen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Sie können Bulksheet-Dateien, Validierungsfehlerdateien für Landingpages und a
 >* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
 >* [Beenden Sie den laufenden Bulksheet-Auftrag.](bulksheet-stop-job.md)
 >* [Exportieren einer generierten oder hochgeladenen Bulksheet-Datei](bulksheet-export.md)
-

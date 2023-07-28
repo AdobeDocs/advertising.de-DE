@@ -1,7 +1,9 @@
 ---
 title: Implementierung [!DNL Naver] Nur-Tracking-Konten
 description: Erfahren Sie, wie Sie Tracking-Kampagnen für Ihre [!DNL Naver] Konten, damit Sie die Leistung der Anzeigen, die Sie direkt über das Werbenetzwerk kaufen, verfolgen, in Berichte aufnehmen und visualisieren können.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,26 +49,26 @@ Sie können Leistungsmetriken für alle Ihre Kampagnen und für jede einzelne Ka
 1. Richten Sie das Tracking für die Kampagnen ein:
 
    1. In Search, Social und Commerce, [eine neue Bulksheet-Datei herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) Verwendung der Option &quot;[!UICONTROL Generate Tracking URLs].&quot;
-   Verwenden von &quot;[!UICONTROL Generate Tracking URLs]&quot; füllt die Option [!UICONTROL Destination URL] für jeden Suchbegriff ein, wobei dem Trackingcode für Suche, Social und Commerce das Präfix vorangestellt ist. [!UICONTROL Base URL] -Wert.
+
+   Verwenden von &quot;[!UICONTROL Generate Tracking URLs]&quot; füllt die Option [!UICONTROL Destination URL] für jeden Suchbegriff ein, wobei dem Trackingcode für Suche, Social und Commerce vorangestellt wird. [!UICONTROL Base URL] -Wert.
 
    Im Folgenden finden Sie ein Beispiel für die Ziel-URL mit Tracking:
 
    ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
 
-   1. Kopieren Sie die [!UICONTROL Destination URL] Werte in der heruntergeladenen Bulksheet-Datei in die entsprechenden Suchbegriffeinstellungen im Netzwerk.
+   1. Kopieren Sie die [!UICONTROL Destination URL] -Werte in der heruntergeladenen Bulksheet-Datei in die entsprechenden Suchbegriffeinstellungen im Netzwerk.
 
       Sie können die URLs zu den relevanten Entitäten hinzufügen, indem Sie die Datei im Editor des Werbenetzwerks in das Netzwerk hochladen. In diesem Fall müssen Sie möglicherweise einige Spalten entsprechend den Datenanforderungen des Netzwerks entfernen. Andernfalls müssen Sie die URLs manuell im Netzwerk eingeben.
-
 
 1. Laden Sie regelmäßig Klick- und Kostendaten herunter, die täglich aus dem Werbenetzwerk für die von Ihnen verfolgten Suchbegriffe oder Markenanzeigen auf Anzeigengruppenebene aggregiert werden, und [Klicks- und Kostendaten hochladen](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) nach &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;im [erforderliches Format](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
    Schließen Sie die gesamte Kontohierarchie und alle Metriken ein, die Sie einbeziehen möchten. In &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;werden die hochgeladenen Daten mit den Daten in vorhandenen Kampagnen abgeglichen.
 
-1. (Optional) Wenn Sie die Tags des Adobe Advertising-Konversions-Tracking-Service auf Ihren Webseiten verwenden, um Konversionen zu verfolgen, die nicht im Werbenetzwerk verfolgt werden, senden Sie Feed-Dateien mit täglich aggregierten Konversionsdaten, um sie zu Ihren Tracking-Kampagnen hinzuzufügen.
+1. (Optional) Wenn Sie die Tags des Adobe Advertising-Konversions-Trackingdienstes auf Ihren Webseiten verwenden, um Konversionen zu verfolgen, die nicht im Werbenetzwerk verfolgt werden, senden Sie Feed-Dateien mit täglich aggregierten Konversionsdaten, um sie zu Ihren Tracking-Kampagnen hinzuzufügen.
 
    Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Alle hochgeladenen Tracking-Daten sind verfügbar über [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] innerhalb der [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups]und [!UICONTROL Keywords] Ansichten. Sie ist auch für Berichte im [!UICONTROL Insights & Reports] anzeigen.
+Alle hochgeladenen Tracking-Daten sind verfügbar über [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] innerhalb der [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], und [!UICONTROL Keywords] Ansichten. Sie ist auch für Berichte im [!UICONTROL Insights & Reports] anzeigen.
 
 >[!MORELIKETHIS]
 >
@@ -74,4 +76,3 @@ Alle hochgeladenen Tracking-Daten sind verfügbar über [!UICONTROL Search] > [!
 >* [Hochladen von Traffic- und Konversionsmetriken für [!DNL Naver] Nur-Tracking-Konten](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [Anforderungen an Metrikdaten für [!DNL Naver] Nur-Tracking-Konten](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [Klick-Tracking-Formate für [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

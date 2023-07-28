@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds"
+title: '''[!DNL Microsoft® Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -61,7 +63,7 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
    * (Empfohlen) Verwenden Sie die [Tracking-Vorlagenformat für Microsoft® Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
-   * Wenn Sie stattdessen einen Wert für jedes Produkt in den Feed einschließen, indem Sie die[!DNL bingads_redirect]&quot; (mithilfe der [korrektes Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), geben Sie dann den Parameter ein. `{lpurl}`. Sie können optional Umleitungen und Tracking von Drittanbietern zum `{lpurl}` Parameter.
+   * Wenn Sie stattdessen einen Wert für jedes Produkt in den Feed einschließen, indem Sie die[!DNL bingads_redirect]&quot; (mithilfe der [korrektes Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), geben Sie dann den Parameter ein. `{lpurl}`. Sie können optional Umleitungen und Tracking von Drittanbietern zum `{lpurl}` -Parameter.
 
 * Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -69,7 +71,7 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlerkontos, dessen Produkte für die Kampagne verwendet werden.
+**[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlers, dessen Produkte für die Kampagne verwendet werden.
 
 **[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte mit Zielländern verknüpft sind, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
 
@@ -147,13 +149,13 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
+**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] -Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene reicht aus.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
-**[!UICONTROL Initial Bid]:** Das anfängliche Angebot für jede Anzeige.
+**[!UICONTROL Initial Bid]:** Das anfängliche Gebot für jede Anzeige.
 
 ## [!UICONTROL Feed Filters]
 

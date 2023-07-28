@@ -1,7 +1,9 @@
 ---
 title: Verwalten von Bestandsdaten-Feed-Dateien
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -20,11 +22,11 @@ Wenn Sie Ihre eigenen Feed-Daten senden, müssen Sie Dateien mit Ihren Produktda
 
 Sie können Daten-Feed-Dateien auf eine der folgenden Arten hochladen und verarbeiten:
 
-* **Automatische Verwendung von FTP:** Sie können Dateien direkt in ein FTP-Verzeichnis hochladen. Der Feed-Dienst sucht alle zwei Stunden nach neuen Dateien. Nachdem Sie eine Datei zum ersten Mal hochgeladen haben, können Sie sie mit einer netzwerkspezifischen Anzeigenvorlage verknüpfen. Später werden alle Dateien, die Sie mit demselben Namen hochladen, automatisch derselben Vorlage zugeordnet. Abhängig von der Vorgehensweise [Konfigurieren der Feed-Dateneinstellungen](feed-settings-manage.md), Search, Social und Commerce können die Feed-Daten automatisch über alle relevanten Vorlagen übertragen und optional die resultierenden Kampagnen- und Anzeigendaten an die relevanten Anzeigennetzwerke posten.
+* **Automatische Verwendung von FTP:** Sie können Dateien direkt in ein FTP-Verzeichnis hochladen. Der Feed-Dienst sucht alle zwei Stunden nach neuen Dateien. Nachdem Sie eine Datei zum ersten Mal hochgeladen haben, können Sie sie mit einer netzwerkspezifischen Anzeigenvorlage verknüpfen. Später werden alle Dateien, die Sie mit demselben Namen hochladen, automatisch derselben Vorlage zugeordnet. Abhängig von der [Konfigurieren der Feed-Dateneinstellungen](feed-settings-manage.md), Search, Social und Commerce können die Feed-Daten automatisch über alle relevanten Vorlagen übertragen und optional die resultierenden Kampagnen- und Anzeigendaten an die relevanten Anzeigennetzwerke posten.
 
-   Wenden Sie sich an Ihr Adobe Account-Team, um ein FTP-Verzeichnis zum Verwahren und automatischen Verarbeiten von Datendateien einzurichten.
+  Wenden Sie sich an Ihr Adobe Account-Team, um ein FTP-Verzeichnis zum Verwahren und automatischen Verarbeiten von Datendateien einzurichten.
 
-* **Manuelle Verarbeitung:** Sie können [Feed-Dateien hochladen](#feed-file-upload) von [!UICONTROL Advanced] (ACM) angezeigt. Nachdem Sie eine Feed-Datei mit einer oder mehreren Ad-Netzwerk-spezifischen [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)können Sie Kampagnen- und Anzeigendaten generieren, indem Sie [Feed-Daten über die Vorlagen übertragen](feed-data-propagate.md) gemäß [Feed-Dateneinstellungen](feed-settings-manage.md). Sie können optional die generierten Daten in den Kampagnen-Hierarchieansichten in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [posten](propagated-data-post.md) später. Sie können später [Ersetzen der vorhandenen Feed-Datei durch eine neue Datei](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
+* **Manuelle Verarbeitung:** Sie können [Feed-Dateien hochladen](#feed-file-upload) aus dem [!UICONTROL Advanced] (ACM) angezeigt. Nachdem Sie eine Feed-Datei mit einer oder mehreren Ad-Netzwerk-spezifischen [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)können Sie Kampagnen- und Anzeigendaten generieren, indem Sie [Feed-Daten über die Vorlagen übertragen](feed-data-propagate.md) gemäß [Feed-Dateneinstellungen](feed-settings-manage.md). Sie können optional die generierten Daten in den Kampagnen-Hierarchieansichten in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [posten](propagated-data-post.md) später. Sie können später [Ersetzen der vorhandenen Feed-Datei durch eine neue Datei](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
 
 ## Dateivoraussetzungen für Feeds
 
@@ -119,9 +121,10 @@ Wenn Sie eine Feed-Datei ersetzen - auch wenn die neue Datei einen anderen Datei
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Im [!UICONTROL Feed] Spalte für eine beliebige Vorlage, klicken Sie auf ![Weitere Optionen](/help/search-social-commerce/assets/options.png "Weitere Optionen") und wählen Sie **[!UICONTROL Re-upload]**.
+   * Im [!UICONTROL Feed] Spalte für eine beliebige Vorlage, klicken Sie auf ![Weitere Optionen](/help/search-social-commerce/assets/options.png "Weitere Optionen") und wählen **[!UICONTROL Re-upload]**.
 
    * Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Feeds]**. Aktivieren Sie in der Liste der Feed-Dateien das Kontrollkästchen neben dem vorhandenen Dateinamen. Klicken Sie über der Datentabelle auf **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >Die Quelle der Feed-Datei (&quot;[!UICONTROL FTP]&quot; oder &quot;&amp;mdash&quot;für manuell hochgeladene Dateien) ist im [!UICONTROL Source] Spalte.
@@ -157,4 +160,3 @@ Sie können jede Feed-Datei löschen, die manuell oder via FTP hochgeladen wurde
 >* [Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke](propagated-data-post.md)
 >* [Beenden eines Veröffentlichungsauftrags für Inventar-Feed-Daten](stop-job.md)
 >* [Status der aus Feeds generierten Daten](propagated-data-status.md)
-

@@ -2,7 +2,8 @@
 title: Über Sonderberichte
 description: Erfahren Sie mehr über Spezialberichte.
 exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Über Sonderberichte
 
-Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken erfasst werden. Die [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report]und [!UICONTROL Campaign Impression Share Report]kann jedoch Umsatzdaten einschließen, die von [!DNL Adobe]. Für alle Benutzer stehen Spezialberichte zur Verfügung.
+Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken erfasst werden. Die [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report], und [!UICONTROL Campaign Impression Share Report]kann jedoch Umsatzdaten einschließen, die von [!DNL Adobe]. Für alle Benutzer stehen Spezialberichte zur Verfügung.
 
 >[!NOTE]
 >

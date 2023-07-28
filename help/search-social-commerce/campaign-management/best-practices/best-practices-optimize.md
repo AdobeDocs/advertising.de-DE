@@ -1,7 +1,9 @@
 ---
 title: Landingpages der Website optimieren
 description: Erfahren Sie mehr über Best Practices zur Optimierung Ihrer Landingpages auf Ihrer Website.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -30,9 +32,9 @@ Im Folgenden finden Sie einige Richtlinien zum Entwerfen von Landingpages, die e
 
 * Platzieren Sie das umsetzbare Element auf der Seite &quot;über der Kante&quot;, damit der Benutzer es sehen kann, ohne nach unten scrollen zu müssen.
 
-* Verwenden Sie ein gutes Seitendesign. Ein gutes Design kann sofort Vertrauen, ein Gefühl der Vertrautheit und Glaubwürdigkeit hervorrufen. Passen Sie die Formularschaltflächen an, damit sie besser sichtbar sind. Verwenden Sie nicht die Standard-Browser-generierte Schaltfläche mit dem Wort &quot;Senden&quot;. Verwenden Sie ein zweispaltiges Layout, wobei das umsetzbare Element in der Hauptspalte und die unterstützenden Informationen in der zweiten Spalte enthalten sind.
+* Verwenden Sie ein gutes Seitendesign. Ein gutes Design kann sofort Vertrauen, ein Gefühl der Vertrautheit und Glaubwürdigkeit hervorrufen. Passen Sie Ihre Formular-Schaltflächen an, damit sie besser sichtbar sind. Verwenden Sie nicht die standardmäßige, vom Browser generierte Schaltfläche mit dem Wort &quot;Senden&quot;. Verwenden Sie ein zweispaltiges Layout, wobei das umsetzbare Element in der Hauptspalte und die unterstützenden Informationen in der zweiten Spalte enthalten sind.
 
-* Geben Sie Glaubwürdigkeits- und Sicherheitsindikatoren an. Logos und Siegel helfen, die Angst der Besucher zu verringern. Dazu gehören [!DNL Verisign], [!DNL BBB] Logo, [!DNL eTrust], [!DNL HackerSafe], Zufriedenheitsgarantien, Geld-zurück-Angebote usw. Schließen Sie bei der Erfassung von Informationen eine Datenschutzanweisung ein. Positionieren Sie diese Indikatoren so nah wie möglich am umsetzbaren Element.
+* Geben Sie Glaubwürdigkeit und Sicherheitsindikatoren an. Logos und Siegel helfen, die Angst der Besucher zu verringern. Dazu gehören [!DNL Verisign], [!DNL BBB] Logo, [!DNL eTrust], [!DNL HackerSafe], Zufriedenheitsgarantien, Geld-zurück-Angebote usw. Schließen Sie bei der Erfassung von Informationen eine Datenschutzanweisung ein. Positionieren Sie diese Indikatoren so nah wie möglich am umsetzbaren Element.
 
 * Bieten Sie einen Anreiz, wie kostenlosen Versand, Geschenke, Rabatte oder einen kostenlosen Bericht oder eBook. Ein Besucher, der auf eine Landingpage klickt, kauft um und benötigt einen Anreiz, auf einer Seite zu bleiben und das Angebot zu vervollständigen. Der Anreiz sollte eines der bemerkenswertesten Elemente auf der Seite sein.
 
@@ -44,7 +46,7 @@ Im Folgenden finden Sie einige Richtlinien zum Entwerfen von Landingpages, die e
 
 * Fügen Sie schlüsselwortreichen Inhalt auf der Seite ein. Erstellen Sie Überschriftentext, nicht Bilder, und verwenden Sie die richtigen Tags für Titel, Meta-Beschreibung und Meta-Keywords. Diese Vorgehensweisen helfen dabei, das Qualitätsniveau einer Seite zu verbessern, sodass Sie höhere Anzeigenpositionen innerhalb der gesponserten Listen auf der Ergebnisseite eines Werbenetzwerks und niedrigere Kosten pro Klick erhalten.
 
-* Seien Sie bei der Anwendung von Hoden vorsichtig. Jegliches Zeugnis sollte sich wirklich anfühlen. Ein Zeugnis, das allgemein oder gefälscht klingt und von einem offensichtlichen Lagerportrait begleitet wird, ist schädlicher für die Seite als hilfreich. Ein bewährter Ansatz besteht darin, eine Botschaft, ein Bild und eine Unterschrift von jemandem in einem Unternehmen (wie dem Firmenvorsitzenden, Leiter der Produktentwicklung oder Leiter der Verbraucherforschung) einzubeziehen, der das Produkt oder die Dienstleistung anbietet.
+* Seien Sie bei der Anwendung von Hoden vorsichtig. Jedes Zeugnis sollte sich echt anfühlen; ein Zeugnis, das allgemein oder gefälscht klingt und von einem offensichtlichen Stock-Portrait begleitet wird, ist schädlicher für die Seite als hilfreich. Ein bewährter Ansatz besteht darin, eine Botschaft, ein Bild und eine Unterschrift von jemandem zu vermitteln, der im Unternehmen auftaucht (z. B. der Präsident des Unternehmens, Leiter der Produktentwicklung oder Leiter der Verbraucherforschung), der das Produkt oder die Dienstleistung anbietet.
 
 * Validieren Sie die Landingpages in Ihren Basis-/Endbenutzer-URLs oder Ziel-URLs mithilfe von Kampagnen-Bulksheets.
 
@@ -56,4 +58,3 @@ Um die Auswirkungen der Landingpage zu sehen (wenn alles andere konstant ist), f
 >
 >* [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
 >* [Effektive Textanzeigenkopie schreiben](best-practices-write.md)
-

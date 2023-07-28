@@ -1,7 +1,9 @@
 ---
 title: FTP-Zugriff auf Berichte
 description: Erfahren Sie, wie Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen können.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Für den FTP-Zugriff auf Berichte ist der Zugriff auf ein bestimmtes FTP-Konto e
 
 * Wenden Sie sich an Ihr Adobe Account Team, um ein FTP-Konto für den Zugriff auf Berichte einzurichten.
 
-   Das Team stellt Ihnen Ihren Benutzernamen und Ihr Passwort zur Verfügung.
+  Das Team stellt Ihnen Ihren Benutzernamen und Ihr Passwort zur Verfügung.
 
 ## Berichtsvorlagen für den FTP-Versand einrichten
 
@@ -39,6 +41,7 @@ Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstelle
       * `[SDATE]` — So fügen Sie das Startdatum des Berichtsdatumsbereichs hinzu.
 
       * `[EDATE]` — So fügen Sie das Enddatum des Berichtsdatumsbereichs hinzu.
+
    * (Optional) `[CSV]` (in Großbuchstaben und in Klammern eingeschlossen), um Dateien im CSV-Format und nicht im standardmäßigen TSV-Format zu erstellen.
 
    Beispiel: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` würde eine Datei wie 202305051656-Portfolio-FTP-20230428-20110504.csv erstellen.
@@ -51,7 +54,6 @@ Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstelle
 >
 >* Um abgeschlossene Berichte per E-Mail zu versenden, geben Sie bei der Erstellung des Berichts oder der Vorlage einfach die Adressen aller E-Mail-Empfänger an.
 >* Berichte werden entsprechend ihren festgelegten Zeitplänen ausgeführt und innerhalb einer Stunde nach Abschluss an das FTP-Konto gesendet.
-
 
 ## Zugriff auf Berichte in einem FTP-Repository
 
@@ -68,4 +70,3 @@ Um auf Ihre Berichte zuzugreifen, stellen Sie mithilfe der Anmeldedaten für Ihr
 >[!MORELIKETHIS]
 >
 >* [Berichtsvorlage erstellen](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Häufig gestellte Fragen zu Kampagnen
 description: Hier finden Sie Antworten auf Fragen zur Kampagnenverwaltung und zu Kampagnendaten.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Verschieben oder kopieren Sie keine Kampagnen- oder Kampagnenkomponente mit eine
 
 +++ Wann werden Klickdaten aus den Werbenetzwerken aktualisiert?
 
-Der Prozess, die Klickdaten des Vortags aus den Suchmaschinen abzurufen, beginnt um 6:00 Uhr in der Zeitzone des Werbetreibenden.
+Der Prozess zum Abrufen der Klickdaten des Vortags aus den Suchmaschinen beginnt um 6:00 Uhr in der Zeitzone des Werbetreibenden.
 
 Darüber hinaus [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag werden um 8:00 Uhr und 16:00 Uhr in der Zeitzone des Advertisers abgerufen.
 +++
@@ -34,9 +36,9 @@ Darüber hinaus [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchne
 
 Der vorhandene Suchbegriff oder die Anzeige wird gelöscht und ein anderer erstellt, wenn:
 
-* ([!DNL Baidu], [!DNL Google Ads]und [!DNL Yandex]) Sie bearbeiten einen Suchbegriffnamen.
+* ([!DNL Baidu], [!DNL Google Ads], und [!DNL Yandex]) Sie bearbeiten einen Suchbegriffnamen.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising]und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
 
 * Sie verschieben einen Suchbegriff zwischen Anzeigengruppen.
 
@@ -70,7 +72,7 @@ Wenn Sie die Anzeigenamen der Transaktionseigenschaften in Search, Social und Co
 
 +++(Google Ads-Kampagnen) Kann ich ein freigegebenes Budget für Kampagnen in Portfolios verwenden?
 
-Die besten Ergebnisse erzielen Sie, wenn Sie [!DNL Google Ads] Kampagnen an [!DNL Google Ads] freigegebenes Budget, wenn sie sich in optimierten Portfolios befinden, die für &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Wenn Sie dies tun, [!DNL Google Ads] überschreibt die optimierten Kampagnenbudgets für Suche, Social und Commerce, was zu Ineffizienzen bei Angeboten führen kann.
+Die besten Ergebnisse erzielen Sie, wenn Sie [!DNL Google Ads] Kampagnen an [!DNL Google Ads] freigegebenes Budget, wenn sie sich in optimierten Portfolios befinden, die für &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Wenn ja, [!DNL Google Ads] überschreibt die optimierten Kampagnenbudgets für Suche, Social und Commerce, was zu Ineffizienzen bei Angeboten führen kann.
 +++
 
 +++([!DNL Google Ads] Kampagnen) Kann ich mobile und nicht mobile Benutzer an verschiedene Landingpages senden?
@@ -79,11 +81,11 @@ Sie können die [!DNL Google Ads] [!DNL ValueTrack] parameters `{ifmobile}` und 
 
 * Fügen Sie die mobile Bezeichnung als Host-Server mit `{ifmobile:m}{ifnotmobile:www}`.
 
-   Beispiel: `http://{ifmobile:m}{ifnotmobile:www}.example.com` bringt mobile Benutzer zu m.example.com und Nicht-Mobilbenutzer zu www.example.com.
+  Beispiel: `http://{ifmobile:m}{ifnotmobile:www}.example.com` bringt mobile Benutzer zu m.example.com und Nicht-Mobilbenutzer zu www.example.com.
 
 * Fügen Sie die mobile Bezeichnung als Top-Level-Domäne mit `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Beispiel: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` bringt mobile Benutzer zu www.example.mobi und nicht mobile Benutzer zu www.example.com.
+  Beispiel: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` bringt mobile Benutzer zu www.example.mobi und Nicht-Mobilbenutzer zu www.example.com.
 
 In beiden Fällen enthalten die Basis-URLs mit Such-, Social- und Commerce-Tracking die nicht kodierten `{}` Tags und alle zusätzlichen Parameter, die an die Basis-URL angehängt sind.
 
@@ -107,11 +109,11 @@ Im [!UICONTROL Campaigns] in beiden [!UICONTROL Search] > [!UICONTROL Campaigns]
 
 +++([!DNL Google Ads] und [!DNL Microsoft Advertising]) Unterstützt Search, Social und Commerce das parallele Tracking von Anzeigen in [!DNL Google Ads] oder [!DNL Microsoft Advertising]?
 
-Beim parallelen Tracking werden Kunden direkt von Ihrer Anzeige an Ihre endgültige URL gesendet und Ihre Tracking-Vorlagen-URL (mit Klick-Messung) wird im Hintergrund geladen. Dadurch wird Ihre Landingpage schneller geladen.
+Beim parallelen Tracking werden Kunden direkt von Ihrer Anzeige an Ihre endgültige URL gesendet. Ihre Tracking-Vorlagen-URL (mit Klick-Messung) wird im Hintergrund geladen. Dadurch wird Ihre Landingpage schneller geladen.
 
-Search, Social und Commerce unterstützt das parallele Tracking für Such- und Einkaufskampagnen mithilfe der Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) oder [Kampagnenebene](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (genannt[!DNL final URL suffix]&quot; in den Werbenetzwerken), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social und Commerce unterstützt das parallele Tracking für Such- und Einkaufskampagnen mithilfe der Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) oder [Kampagnenebene](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (genannt &quot;[!DNL final URL suffix]&quot; in den Werbenetzwerken), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Wenn ein Benutzer Ihre Anzeige in einem Browser anzeigt, der kein paralleles Tracking unterstützt, verwendet das Werbenetzwerk stattdessen das sequenzielle Tracking: -Kunden werden zunächst an Ihre Tracking-Vorlagen-URL gesendet, die Kunden zu Zwischenverfolgungsservern weiterleitet, bevor sie zur endgültigen URL weitergeleitet werden. Alle Tracking-Vorlagen für ein Anzeigen-Netzwerk-Konto sollten denselben Klick-ID-Parameter enthalten, den Sie in der Variablen [!UICONTROL Landing Page Suffix]. Siehe [Tracking-Vorlagenformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [Tracking-Vorlagenformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Wenn ein Benutzer Ihre Anzeige in einem Browser anzeigt, der kein paralleles Tracking unterstützt, verwendet das Werbenetzwerk stattdessen das sequenzielle Tracking: Kunden werden zunächst an Ihre Tracking-Vorlage-URL gesendet, wodurch Kunden zu Tracking-Zwischenservern weitergeleitet werden, bevor sie zur endgültigen URL weitergeleitet werden. Alle Tracking-Vorlagen für ein Anzeigen-Netzwerk-Konto sollten denselben Klick-ID-Parameter enthalten, den Sie in der Variablen [!UICONTROL Landing Page Suffix]. Siehe [Tracking-Vorlagenformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [Tracking-Vorlagenformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++ Warum enthalten Tracking-URLs für meine Anzeigen &quot;`&EV_HASH={<hash>}`?&quot;
@@ -121,7 +123,7 @@ Wenn Sie Anzeigen mit einer [Produktinventar-Feed](/help/search-social-commerce/
 
 ## Inventar-Feeds
 
-+++(Produkt-Inventar-Feeds) Sollte ich Anzeigen anhalten oder löschen, die veraltet sind oder für ein Produkt gelten, dessen Lagerbestand unter einem bestimmten Minimum liegt?
++++(Produkt-Inventar-Feeds) Sollte ich Anzeigen anhalten oder löschen, die veraltet sind oder für ein Produkt bestimmt sind, dessen Lagerbestand unter einem bestimmten Minimum liegt?
 
 Dies hängt von den Geschäftsanforderungen des Werbetreibenden ab.
 
@@ -132,16 +134,16 @@ Wenn Sie Anzeigen löschen und erneut senden, werden neue Anzeigen erstellt und 
 
 +++(Produkt-Inventar-Feeds) Wenn ich eine Anzeigenvorlage lösche und dann eine neue, identische Vorlage erstelle, fehlen Elemente in der nächsten Feed-Datei, die angehalten wird (wenn die Feed-Dateieinstellungen dafür konfiguriert sind)?
 
-Wenn in der nächsten Feed-Datei Zeileneinträge fehlen und Sie diese Zeileneinträge noch nicht über eine vorherige Feed-Datei aus der neuen Vorlage gepostet haben, werden die fehlenden Zeileneinträge nicht als &quot;fehlend&quot;erkannt, sodass sie nicht erstellt werden. Um dies zu vermeiden, propagieren Sie die vorherige Feed-Datei durch die neue Vorlage und posten Sie die Daten, bevor Sie Daten aus einer neuen Datei propagieren und posten.
+Wenn in der nächsten Feed-Datei Zeileneinträge fehlen und Sie diese Zeileneinträge noch nicht aus der neuen Vorlage über eine vorherige Feed-Datei veröffentlicht haben, werden die fehlenden Zeileneinträge nicht als &quot;fehlend&quot;erkannt und werden daher nicht erstellt. Um dies zu vermeiden, propagieren Sie die vorherige Feed-Datei durch die neue Vorlage und posten Sie die Daten, bevor Sie Daten aus einer neuen Datei propagieren und posten.
 +++
 
 +++(Produktbestand-Feeds) Kann ich die Preise für meine Produkte aktualisieren, ohne dass sich dies auf die Qualitätsbewertung einer Anzeige auswirkt?
 
 Für [!DNL Google Ads] Kampagnen, ja: Die [!DNL Google Ads] `{Param 1}` und `{Param 2}` -Variablen ermöglichen es Ihnen, numerische Werte dynamisch in eine Anzeigenvariante einzufügen, ohne die Anzeige zu löschen und neu zu erstellen, sodass dies keine Auswirkungen auf die Qualitätsbewertung hat.
 
-So verwenden Sie eine `{Param 1}` oder `{Param 2}` für Ihre Preisdaten verwenden, ordnen Sie die Preisspalte in Ihrer Datendatei dieser Variablen in den entsprechenden Feed-Vorlagen zu und fügen Sie dann die Variable in Ihre Anzeigenvariationsvorlagen ein.
+So verwenden Sie `{Param 1}` oder `{Param 2}` für Ihre Preisdaten verwenden, ordnen Sie die Preisspalte in Ihrer Datendatei dieser Variablen in den entsprechenden Feed-Vorlagen zu und fügen Sie dann die Variable in Ihre Anzeigenvariationsvorlagen ein.
 
-Wenn die Spalte beispielsweise &quot;Preis&quot;heißt, öffnen Sie die Feed-Vorlage, mit der die Anzeigen erstellt werden, und klicken Sie auf das Eingabefeld neben **[!UICONTROL Param 1]** und klicken Sie dann auf **[!UICONTROL Price]** in der Spalte [!UICONTROL Feeds/Available Columns] list, die `[Price]` als Wert für [!UICONTROL Param 1]. Fügen Sie dann in die Anzeigenvariationsvorlage am unteren Rand der Feed-Vorlage `{param1:default text}`, wobei &quot;Standardtext&quot;Text ist, der verwendet werden soll, wenn die Parameterspalte in der Feed-Datei für eine Anzeigenzeile leer ist.
+Wenn die Spalte beispielsweise &quot;Preis&quot;heißt, öffnen Sie die Feed-Vorlage, die die Anzeigen erstellt, und klicken Sie auf das Eingabefeld neben **[!UICONTROL Param 1]** und klicken Sie dann auf **[!UICONTROL Price]** in der [!UICONTROL Feeds/Available Columns] list, die `[Price]` als Wert für [!UICONTROL Param 1]. Fügen Sie dann in die Anzeigenvariationsvorlage am unteren Rand der Feed-Vorlage `{param1:default text}`, wobei &quot;Standardtext&quot;Text ist, der verwendet werden soll, wenn die Parameterspalte in der Feed-Datei für eine Anzeigenzeile leer ist.
 
 Wenn Sie Daten senden, werden die Datenfelder für die [!UICONTROL Param1] und [!UICONTROL Param2] -Spalten können bis zu 25 Zeichen enthalten, darunter numerische Daten, Währungssymbole und Währungscodes sowie die folgenden nicht numerischen Zeichen: `, . % + - /`
 +++
@@ -155,6 +157,6 @@ Wenn die Variable [Feed-Dateneinstellungen](/help/search-social-commerce/campaig
 
 +++ Einige meiner Kampagnen geben mehr oder weniger aus als die Kampagnenbudgets.
 
-* Dies ist in einem optimierten Portfolio normal, das mit dem[!UICONTROL Auto-adjust campaign budget limits]&quot;. Wenn diese Option aktiviert ist, können Sie bis zu *N* die Zeiten für das Budget jeder Kampagne, wobei *N* ist der Wert des[!UICONTROL Multiple]&quot;. Diese Option ermöglicht es der Optimierungsfunktion, die Ausgaben für einzelne Kampagnen nach Bedarf anzupassen und gleichzeitig das gesamte Portfolio so zu steuern, dass es sein Ziel erreicht.
+* Dies ist in einem optimierten Portfolio normal, das mit dem[!UICONTROL Auto-adjust campaign budget limits]&quot;. Wenn diese Option aktiviert ist, können Sie bis zu *N* die Zeiten für das Budget jeder Kampagne, wobei *N* ist der Wert von &quot;[!UICONTROL Multiple]&quot;. Diese Option ermöglicht es der Optimierungsfunktion, die Ausgaben für einzelne Kampagnen nach Bedarf anzupassen und gleichzeitig das gesamte Portfolio so zu steuern, dass es sein Ziel erreicht.
 * Wenn [!DNL Google Ads] Kampagnen verwenden ein freigegebenes Budget und [!DNL Google Ads] passt die Ausgaben für einzelne Kampagnen nach Bedarf an, um den gesamten gemeinsamen Haushalt auszugeben.
 +++

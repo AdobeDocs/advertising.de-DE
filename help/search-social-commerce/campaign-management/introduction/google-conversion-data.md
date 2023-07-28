@@ -2,7 +2,8 @@
 title: '''[!DNL Google Ads] Konversionsdaten"'
 description: Erfahren Sie mehr über die Typen [!DNL Google Ads]-getrackte Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-source-git-commit: 29cda72cac949663cd2df822cf7223335a14504d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -11,13 +12,13 @@ ht-degree: 0%
 
 # [!DNL Google Ads] Konversionsdaten in Search, Social und Commerce
 
-Automatische Synchronisierung von Search, Social und Commerce [!DNL Google Ads]-getrackte Konversionsdaten für alle Kampagnen auf der [!DNL Google Ads] Suchen und Einkaufen von Netzwerken in Search, Social und Commerce zur Berichterstellung und Optimierung.
+Automatische Synchronisierung von Search, Social und Commerce [!DNL Google Ads]-getrackte Konversionsdaten für alle Kampagnen auf der [!DNL Google Ads] Suchen und Einkaufen von Netzwerken in Search, Social und Commerce für Reporting und Optimierung.
 
 Alle Metriken stehen automatisch in Ihren Kampagnenverwaltungsansichten und Basisberichten zur Verfügung und stehen auch zur Optimierung in Portfoliozielen zur Verfügung.
 
 ## Verfügbare Konversionsdaten
 
-Search, Social und Commerce synchronisiert Daten für Konversionen, für die die[!DNL Include in 'Conversions']&quot; aktiviert ist, wobei die Daten für die letzten 35 Tage abgerufen und dann Änderungen an den Daten täglich bis 09 abgerufen werden.:00-10:00 in der Zeitzone des Werbetreibenden. Historische Daten können sich von Tag zu Tag ändern, da bei jedem Klick neue Konversionen verfolgt werden.
+In Search, Social und Commerce werden Daten für Konversionen synchronisiert, für die die[!DNL Include in 'Conversions']&quot; aktiviert ist, wobei die Daten für die letzten 35 Tage abgerufen und dann Änderungen an den Daten täglich bis 09 abgerufen werden.:00-10:00 in der Zeitzone des Werbetreibenden. Historische Daten können sich von Tag zu Tag ändern, da bei jedem Klick neue Konversionen verfolgt werden.
 
 Bis zu drei Transaktionseigenschaften für jede [[!DNL Google Ads]-verfolgte Konversion](https://support.google.com/google-ads/answer/4677036) (die Sie in [!DNL Google Ads]) sind automatisch in Search, Social und Commerce verfügbar, wobei die Konversionsnamen verwendet werden, die in [!DNL Google Ads]. Zu den Transaktionseigenschaften für jede Konversion gehören:
 
@@ -34,7 +35,7 @@ Bis zu drei Transaktionseigenschaften für jede [[!DNL Google Ads]-verfolgte Kon
 >* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Angebotseinheit stimmen mit den Daten in [!DNL Google Ads] auf derselben Ebene. Allerdings [!DNL Google Ads]Die eigenen Konversionsdaten für höhere Ebenen können zusätzliche Konversionen umfassen, die nicht den untergeordneten Gebotseinheiten zugeordnet werden. Daten in Search, Social und Commerce werden immer auf der Ebene der Angebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene möglicherweise nicht die gleichen Summen wie ein Bericht auf Kampagnenebene in Google Ads aufweist.
 >* Datenabweichungen sind in der Regel nach der Morgensynchronisierung geringer als nach der Tageszeit, wenn noch keine zusätzlichen Konversionen synchronisiert wurden. Es wird empfohlen, die Daten morgens zu überprüfen.
->* Konversionsdaten sind nicht verfügbar für [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]und [!DNL YouTube] Anzeigen. Filtern Sie diese Arten von Anzeigen heraus, wenn Sie Daten in [!DNL Google Ads] mit Daten in Search, Social und Commerce.
+>* Konversionsdaten sind nicht verfügbar für [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], und [!DNL YouTube] Anzeigen. Filtern Sie diese Arten von Anzeigen heraus, wenn Sie Daten in [!DNL Google Ads] mit Daten in Search, Social und Commerce.
 >* Daten für [!DNL Google Ads] Konversionen sind nicht auf Zielgruppen- oder geografischer Standortebene verfügbar und werden daher nicht zur automatischen Optimierung von RLSA und Ortsgebotsanpassungen verwendet.
 
 ## Vergleichen von Konversionsdaten in [!DNL Google Ads] mit Daten in Search, Social und Commerce

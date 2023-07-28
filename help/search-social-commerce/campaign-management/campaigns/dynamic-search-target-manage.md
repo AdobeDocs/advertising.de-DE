@@ -1,7 +1,9 @@
 ---
 title: Verwalten [!DNL Google Ads] dynamische Suchziele
 description: Erfahren Sie, wie Sie [!DNL Google Ads] dynamische Suchziele.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Sie können den Status dynamischer Suchziele für Kampagnen erstellen, bearbeite
 
 >[!NOTE]
 >
->Sie können große Mengen von Zielgruppendaten gleichzeitig erstellen und bearbeiten, indem Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) und sie in das Werbenetzwerk posten.
+>Sie können große Mengen von Zieldaten gleichzeitig erstellen und bearbeiten, indem Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) und sie in das Werbenetzwerk posten.
 
 ## Erstellen Sie eine [!DNL Google Ads] dynamisches Suchziel
 
@@ -26,13 +28,13 @@ Sie können alle Kriterien oder bis zu drei einzelne Kriterien als Ziel auswähl
 
 >[!NOTE]
 >
->Um die Leistung optimal zu verfolgen, erstellen Sie einen[!UICONTROL All Targets]&quot; nur für eine Anzeigengruppe pro Kampagne.
+>Um die Leistung optimal zu verfolgen, erstellen Sie eine[!UICONTROL All Targets]&quot; nur für eine Anzeigengruppe pro Kampagne.
 
 >[!TIP]
 >
 >Um mehrere Kontokomponenten gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -50,7 +52,7 @@ Sie können den Status oder das Höchstangebot für eine [!DNL Google Ads] dynam
 >
 >Um große Datenmengen gleichzeitig zu bearbeiten, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zeile.
 
@@ -74,7 +76,7 @@ Sie können jedes aktive dynamische Suchziel in einem unterstützten Kampagnenty
 
 Sie können auch jedes dynamische Ziel löschen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte dynamische Ziele einzuschließen.
 
@@ -85,20 +87,20 @@ Sie können auch jedes dynamische Ziel löschen.
    * Gehen Sie wie folgt vor, um ein oder mehrere dynamische Ziele zu löschen:
 
       1. Aktivieren Sie das Kontrollkästchen neben jedem dynamischen Ziel, das Sie löschen möchten.
-      Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
-      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]**.
+     Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**.
 
       1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
-
 
 ## [!DNL Google Ads] Einstellungen für dynamische Suchzielgruppen {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** (Erforderlich, wenn Sie keine Website-Domäne und -Sprache im [!UICONTROL DSA Options] Abschnitt; schreibgeschützt für vorhandene Ziele) Dynamische Suchziele für die Anzeigengruppe:
+**[!UICONTROL Auto-targets]:** (Erforderlich, wenn Sie keine Website-Domäne und -Sprache im [!UICONTROL DSA Options] -Abschnitt; schreibgeschützt für vorhandene Ziele) Dynamische Suchziele für die Anzeigengruppe:
 
-* *[!UICONTROL All Targets]* (Standardeinstellung): Alle indizierten Seiten werden als Ziel ausgewählt.
+* *[!UICONTROL All Targets]* (Standard): Alle indizierten Seiten werden als Ziel ausgewählt.
 
 * *\[Spezifische Ziele\]:* Für die indizierten Seiten gelten bis zu drei Kriterien. Wenn Sie dies auswählen, müssen Sie die Kriterien angeben, indem Sie Informationskategorien und spezifische Werte angeben, für die Anzeigen als Ziel ausgewählt werden sollen (z. B. &quot;URL enthält Schuhe.example.com&quot;). Um mehr als ein Kriterium anzugeben, klicken Sie auf **[!UICONTROL + And]**. Zu den Zielkriterien gehören:
 
@@ -108,15 +110,15 @@ Sie können auch jedes dynamische Ziel löschen.
 
    * *[!UICONTROL Page Title]:* So zeigen Sie Anzeigen für indizierte Seiten mit einem bestimmten Text im Seitentitel an.
 
-   * *[!UICONTROL Page Content]:* So zeigen Sie Anzeigen für indizierte Seiten mit bestimmten Inhalten an.
+   * *[!UICONTROL Page Content]:* Anzeigen für indizierte Seiten mit bestimmten Inhalten.
 
 **Status:** Der Status der Zieleinstellungen:
 
-* *[!UICONTROL Active]* (Standardeinstellung): Aktiviert die Gebote.
+* *[!UICONTROL Active]* (Standardeinstellung): Aktiviert das Angebot.
 
 * *[!UICONTROL Paused]:* Deaktiviert das Gebot.
 
-* *[!UICONTROL Deleted]* (nur bestehende Ziele): Löscht die Zieleinstellungen.
+* *[!UICONTROL Deleted]* (nur vorhandene Ziele): Löscht die Zieleinstellungen.
 
 ### [!UICONTROL Bids]
 
@@ -129,4 +131,3 @@ Sie können auch jedes dynamische Ziel löschen.
 >[!MORELIKETHIS]
 >
 >* [Info [!DNL Google Ads] dynamische Suchziele](dynamic-search-target-about.md)
-

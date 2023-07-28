@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] Suchbegriffeinstellungen"
+title: '''[!DNL Microsoft Advertising] Suchbegriffeinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Suchbegriffe.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 >
 >* Sie können negative Suchbegriffe aus dem [!UICONTROL Keywords] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
 >* Ändern einer [!DNL Microsoft Advertising] löscht den vorhandenen Suchbegriff und erstellt einen neuen mit einer neuen Suchbegriff-ID. Beim Ändern des Übereinstimmungstyps wird jedoch der vorhandene Suchbegriff nicht gelöscht.
-
 
 **[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Suchbegriffe ist *Aktiv*.
 
@@ -53,4 +54,3 @@ Dieses Feld kann optional die `{Param2}` und `{Param3}` dynamische Ersatzvariabl
 >[!MORELIKETHIS]
 >
 >* [Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-
