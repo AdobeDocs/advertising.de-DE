@@ -1,15 +1,17 @@
 ---
 title: Konfigurieren von A/B-Tests für Adobe Advertising-Anzeigen in Adobe Target
-description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP und [!DNL Search, Social, & Commerce] Anzeigen.
+description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren von A/B-Tests in Adobe Target für Advertising DSP und [!DNL Advertising Search, Social, & Commerce] Anzeigen
+# Konfigurieren von A/B-Tests in Adobe Target für Anzeigen DSP
+
+<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 *Advertiser nur mit Advertising DSP*
 
-Adobe Advertising und Adobe Target erleichtern Marketern die Bereitstellung eines personalisierten und vernetzten Erlebnisses über Paid Media und On-site-Messaging hinweg. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
+Adobe Advertising und Adobe Target erleichtern es Marketern noch mehr, personalisierte und vernetzte Erlebnisse für Paid Media und On-site-Nachrichten bereitzustellen. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
 
 * Verringern Sie die Site-Durchfallraten, indem Sie die Anzeigenbelichtung von Kunden aus DSP Kampagnen mit ihren Vor-Ort-Erlebnissen verknüpfen.
 
@@ -85,7 +87,7 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
 
    1. Navigieren Sie zu **Audience Manager** > **Zielgruppendaten** > **Signale** und wählen Sie anschließend die **Suche** Registerkarte oben links.
 
-   1. Geben Sie die **Schlüssel** und **Wert** für das Signal, das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden. Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Impressionsereignis-Pixel des Audience Managers hinzugefügt haben.
+   1. Geben Sie die **Schlüssel** und **Wert** für das Signal, das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden. Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Impression-Ereignispixel des Audience Managers hinzugefügt haben.
 
       Um beispielsweise Benutzer für eine bestimmte Platzierung zu gruppieren, verwenden Sie die `d_placement` Schlüssel. Verwenden Sie für den Wert eine tatsächliche numerische Platzierungs-ID (z. B. 2501853 im obigen Screenshot), die vom DSP erfasst wird. `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
@@ -99,7 +101,7 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
 
    1. Aus dem **Datenquelle** Dropdown-Menü auswählen **Ad Cloud**.
 
-   1. Fügen Sie im Ausdrucksgenerator `d_event` im Feld Schlüssel und `imp` im **Wert** Feld, wählen Sie **Regel hinzufügen** und speichern Sie dann die Eigenschaft.
+   1. Fügen Sie im Ausdrucksgenerator `d_event` im Feld Schlüssel und `imp` im **Wert** Feld auswählen **Regel hinzufügen** und speichern Sie dann die Eigenschaft.
 
    ![Screenshot einer regelbasierten Eigenschaft](/help/integrations/assets/target-am-trait.png)
 
@@ -121,7 +123,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
 
 1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. Aus dem **Tätigkeiten** Liste, klicken Sie auf **Aktivität erstellen** > **A/B-Test**.
+1. Aus dem **Tätigkeiten** Liste, klicken Sie **Aktivität erstellen** > **A/B-Test**.
 
    ![Erstellen einer A/B-Test-Aktivität](/help/integrations/assets/target-create-ab.png)
 
@@ -155,7 +157,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
 
    1. Auswählen **Seiten der Site** > **Landingpage** > **Abfrage** und geben Sie den DSP Platzierungsschlüssel in die **Wert** -Feld, um die Target-Abfragezeichenfolgenparameter für Clickthrough-Zielgruppen zu verwenden.
 
-      ![Screenshot einer Zielklick-Zielgruppe](/help/integrations/assets/target-click-audience.jpg)
+      ![Screenshot einer Zielgruppen-Klick-Audience](/help/integrations/assets/target-click-audience.jpg)
 
 1. Für **Traffic-Zuordnungsmethode** auswählen **Manuell (Standard)** und teilen Sie die Zielgruppe 50/50 auf.
 
@@ -163,7 +165,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
 
 1. Verwendung [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) , um Designänderungen an der Landingpage-Vorlage für A/B-Tests vorzunehmen.
 
-   * Erlebnis A: Bearbeiten Sie nicht, da dies das standardmäßige/steuerbare Landingpage-Erlebnis ohne Personalisierung ist.
+   * Erlebnis A: Nicht bearbeiten, da dies das standardmäßige/steuerbare Landingpage-Erlebnis ohne Personalisierung ist.
 
    * Erlebnis B: Verwenden Sie die [!DNL Target] -Benutzeroberfläche, um die Landingpage-Vorlage auf der Grundlage der im Test enthaltenen Assets anzupassen (z. B. Überschriften, Kopien, Schaltflächenplatzierung und Kreativinhalte).
 
@@ -171,7 +173,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
    >
    >Wenden Sie sich beispielsweise in Bezug auf kreative Testanwendungsfälle an Ihr Adobe Account Team.
 
-## Schritt 4: Richten Sie Ihre [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
+## Schritt 4: Einrichten der [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
@@ -199,7 +201,7 @@ Die folgenden Dimensionen beziehen sich auf [!DNL Analytics for Target]:
 
 * **Target-Erlebnisse**: Namen der in der Aktivität verwendeten Landingpage-Erlebnisse
 
-* **Target-Aktivität** > **Erlebnis**: Aktivitäts- und Erlebnisname in derselben Zeile
+* **Target-Aktivität** > **Erlebnis**: Der Aktivitäts- und Erlebnisname in derselben Zeile
 
 ### Fehlerbehebung in Analytics für [!DNL Target] Daten
 
@@ -223,7 +225,7 @@ Wenn Sie in Analysis Workspace feststellen, dass die Daten zu Aktivitäten und E
 * [Überblick über A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beschreibt A/B-Test-Aktivitäten, die Sie mit DSP Anzeigen verwenden können.
 * [Erlebnisse und Angebote](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Erläuterung [!DNL Target] Tools zur Bestimmung der On-site-Inhalte, denen DSP Testbenutzer ausgesetzt sind.
 * [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Definiert einige der Audience Manager-Tools, die beim DSP Durchsichtstest helfen können.
-* [Übersicht über Analytics für Advertising](/help/integrations/analytics/overview.md) - Einführung in Analytics for Advertising, mit dem Sie Clickthrough- und Durchsichts-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
+* [Übersicht über Analytics für Werbung](/help/integrations/analytics/overview.md) - Einführung in Analytics for Advertising, mit dem Sie Clickthrough- und Durchsichts-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
 
 <!-- 
 >[!MORELIKETHIS]
