@@ -3,9 +3,9 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | Die vom Netzwerk zugewiesene Anzeigengruppen-ID. |
 | [!UICONTROL Network Campaign ID] | Die vom Netzwerk zugewiesene Kampagnen-ID. |
 | [!UICONTROL Objective Name] | Ziel des Portfolios. |
+| [!UICONTROL Objective Value] | Die gewichteten Gesamtumrechnungen, berechnet anhand des aktuellen Ziels des Portfolios. Siehe &quot;[Zielwert](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value Calculation] | Die Berechnung, die zum Ableiten des Zielwerts verwendet wird. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] Anzeigen) Die Anzahl der Klicks auf Links innerhalb von Anzeigen, durch die Benutzer von [!DNL Meta]-eigene Properties. |
 | [!UICONTROL Parent Product Groupings] | Die vollständige Hierarchie der übergeordneten Produktgruppen mit `>>` zwischen Ebenen (z. B. `All Products>>CategoryL1=Animals`), falls zutreffend. |
 | [!UICONTROL Partition Type] | Der Typ der Produktgruppe: <i>[!UICONTROL Sub-Division]</i> (übergeordnete Produktgruppen) oder <i>[!UICONTROL Unit]</i> (die niedrigste Ebene untergeordneter Produktgruppen, die ein Angebot hat). |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) Die Kennung des Benutzers, der die Transaktion abgeschlossen hat. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Ansichten, die die Anzeige vollständig angesehen haben. |
 | [!UICONTROL Top of Page CPC] | (Nur Google-Kampagnen) Die Kosten pro Klick (CPC) für Anzeigen, die während des angegebenen Datumsbereichs oben auf den Suchergebnisseiten angezeigt werden. |
-
-| [!UICONTROL Tracking URL] | (Nur Suchzielgruppen-Suchbegriffe) Die Tracking-Vorlage oder die Ziel-URL, die in den Trackingcode &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;eingebettet ist (falls zutreffend). | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Die werbespezifische Transaktionseigenschaft, der die Transaktion gutgeschrieben wird. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Der Zeitpunkt, zu dem die angegebene Transaktionseigenschaft gutgeschrieben wurde. | | [!UICONTROL User Account Type] | veraltet | | [!UICONTROL User SE Account ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] Anzeigen) Die durchschnittliche Zeit, zu der ein Video wiedergegeben wurde, einschließlich der Zeit, die mit der Wiederholung des Videos verbracht wurde, um eine einzige Impression zu erhalten. | | [!UICONTROL Video Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Wiedergaben Ihres Videos, ausgenommen Wiedergaben. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], und [!UICONTROL VideoQuartile100Rate] | (Videoanzeigen) Der Prozentsatz der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. | | [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). | | [!UICONTROL Views] | (Videoanzeigen) Die Anzahl der Wiedergaben oder Interaktionen von Personen mit Ihrer Anzeige. | | [!UICONTROL ViewThroughConversions] | (Anzeigen im Zielgruppennetzwerk) Die Anzahl der Konversionen, die aus einem oder mehreren Impressionen ohne Klicks resultierten. |
+| [!UICONTROL Tracking URL] | (Nur Suchzielgruppen-Suchbegriffe) Die Tracking-Vorlage oder die Ziel-URL, die in den Trackingcode &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;eingebettet ist (falls zutreffend). |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Die werbespezifische Transaktionseigenschaft, der die Transaktion gutgeschrieben wird. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Der Zeitpunkt, zu dem die angegebene Transaktionseigenschaft gutgeschrieben wurde. |
+| [!UICONTROL User Account Type] | Obsolete |
+| [!UICONTROL User SE Account ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] Anzeigen) Die durchschnittliche Zeit, zu der ein Video wiedergegeben wurde, einschließlich der Zeit, die mit der Wiederholung des Videos verbracht wurde, um eine einzige Impression zu erhalten. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] Anzeigen) Die Anzahl der Wiedergaben Ihres Videos, ausgenommen Wiedergaben. |
+| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], und [!UICONTROL VideoQuartile100Rate] | (Videoanzeigen) Der Prozentsatz der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. |
+| [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). |
+| [!UICONTROL Views] | (Videoanzeigen) Die Häufigkeit, mit der die Besucher Ihre Anzeige angesehen oder mit ihr interagiert haben. |
+| [!UICONTROL ViewThroughConversions] | (Anzeigen im Zielgruppennetzwerk) Die Anzahl der Konversionen, die aus einem oder mehreren Impressionen ohne Klicks resultierten. |
 
 <table style="table-layout:auto">
 

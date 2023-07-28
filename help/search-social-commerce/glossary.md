@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **Grenzkosten:** Die Veränderung der Gesamtkosten, wenn sich die Menge um eine Einheit ändert.
 
+**Grenzwert zwischen Kosten und Ziel:** Die Änderung der Kosten, die erforderlich ist, um den objektiven Wert um 1 zu erhöhen. Dieser Wert hat denselben Wert wie die veraltete Spalte &quot;Marge Kosten-bis-Umsatz&quot;.
+
 **Übereinstimmungstyp:** Eine Option, die angibt, wie Suchbegriffe mit Anzeigen übereinstimmen. Die Optionen variieren je nach Anzeigennetzwerk.
 
 **Mindestangebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für Suchbegriffe das Mindestangebot, das für einen bestimmten Suchbegriff basierend auf seinem Qualitätswert erforderlich ist. Das Mindestangebot ist in der Regel der geringste Betrag, den Sie pro Klick zahlen können, damit Ihr Suchbegriff Anzeigen anzeigt.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde setzt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. um die Gewinne zu maximieren oder ein bestimmtes Verkaufsziel zu erreichen. Ein Ziel besteht aus den Konversionsmetriken (auch als Transaktionseigenschaften bezeichnet), die für das Portfolio verfolgt und optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken.
+
+**Zielwert:** (Werbetreibende mit Portfolios) Die nach dem aktuellen Ziel des Portfolios berechneten gewichteten Gesamtkonversionen, einschließlich:
+
+* alle Konversionen, unter Berücksichtigung a) der Gewichtungen, die jeder Konversion in der objektiven Funktion des Portfolios zugewiesen werden, und b) der Durchsichtsgewichtung für Durchsichten der Anzeige.
+
+* alle Klicks, bei denen die Optimierungsfunktion eine einzelne Konversion berücksichtigt und anhand des Klickwerts für das Ziel gewichtet wird.
+
+Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quot;.
 
 **Optimierungsfunktion:** (Werbetreibende mit Portfolios) Suchbegriff-Bidding-Technologie, Social und Commerce, die die optimale Gebots- und Budgetmanagement-Strategie für ein Portfolio basierend auf seinem Geschäftsziel bestimmt.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## W-X {#w-x}
 
-**gewichtete Einnahmen:** (Advertiser mit Portfolios) Der Gesamtumsatz, der Folgendes umfasst:
-
-* alle Einnahmen, unter Berücksichtigung a) der Gewichtungen, die den einzelnen Transaktionseigenschaften im Portfolio-Ziel zugewiesen werden, und b) der Durchsichtsgewichtung für Display-/Social-Durchsichten.
-
-* alle Klicks, bei denen die Optimierungsfunktion eine einzelne Transaktionseigenschaft berücksichtigt und anhand des Klickwerts für das Ziel gewichtet wird.
+**gewichtete Einnahmen:** Siehe &quot;objektiver Wert&quot;.
 
 **XLS** oder **XLSX**: Ein binäres Dateiformat für [!DNL Microsoft Office Excel] Arbeitsmappen.
 
