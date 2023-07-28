@@ -3,9 +3,9 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | Die vom Netzwerk zugewiesene Anzeigengruppen-ID. |
 | [!UICONTROL Network Campaign ID] | Die vom Netzwerk zugewiesene Kampagnen-ID. |
 | [!UICONTROL Objective Name] | Ziel des Portfolios. |
-| [!UICONTROL Objective Value] | Die gewichteten Gesamtumrechnungen, berechnet anhand des aktuellen Ziels des Portfolios. Siehe &quot;[Zielwert](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value] | Die gewichteten Gesamtumrechnungen, berechnet anhand des aktuellen Ziels des Portfolios. |
 | [!UICONTROL Objective Value Calculation] | Die Berechnung, die zum Ableiten des Zielwerts verwendet wird. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] Anzeigen) Die Anzahl der Klicks auf Links innerhalb von Anzeigen, durch die Benutzer von [!DNL Meta]-eigene Properties. |
 | [!UICONTROL Parent Product Groupings] | Die vollständige Hierarchie der übergeordneten Produktgruppen mit `>>` zwischen Ebenen (z. B. `All Products>>CategoryL1=Animals`), falls zutreffend. |
