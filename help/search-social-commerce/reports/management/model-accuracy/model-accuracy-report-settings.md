@@ -3,7 +3,7 @@ title: Berichtseinstellungen für Modellgenauigkeit
 description: Erfahren Sie mehr über die erforderlichen und optionalen Einstellungen für Berichte zur Modellgenauigkeit.
 exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -31,8 +31,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Optional; nur verfügbar, wenn die[!UICONTROL Save as template]&quot;&quot;ausgewählt ist) Wann der Bericht ausgeführt werden soll: <i>[!UICONTROL Now]</i> (um den Bericht einmal auszuführen, Standardeinstellung), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Wochentag]</i>oder <i>[!UICONTROL Every Month] [Tag des Monats]</i>. Alle Zeiträume außer <i>[!UICONTROL Now]</i>, wählen Sie die Stunde in der Zeitzone des Advertisers aus, beginnend mit 09:00 Uhr. |
 |  | [!UICONTROL Email Recipients] | <b>Hinweis:</b>  Diese Einstellung wird nur verwendet, wenn E-Mail-Benachrichtigungen für [!UICONTROL Reports] are [aktiviert in [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>E-Mail-Adressen registrierter Search-, Social- und Commerce-Benutzer, an die Benachrichtigungen gesendet werden sollen, wenn der Bericht abgeschlossen ist oder aufgrund von Fehlern abgebrochen wird. Standardmäßig wird die Adresse für Ihr Benutzerkonto angegeben. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas, Leerzeichen oder neue Zeilen. Wenn die wiederholte Ausführung des Berichts geplant ist, wird bei jedem Abschluss eines Berichts eine Benachrichtigung gesendet. |
 |  | [!UICONTROL Email Notification] | <b>Hinweis:</b>  Diese Einstellung wird nur verwendet, wenn E-Mail-Benachrichtigungen für [!UICONTROL Reports] are [aktiviert in [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(When [!UICONTROL Email Recipients] festgelegt sind) Was in E-Mail-Benachrichtigungen an bestimmte Adressen eingeschlossen werden soll:<ul><li><i>[!UICONTROL Notification Only]</i> (Standardeinstellung): Um nur eine Benachrichtigung über den Abschluss oder Fehler eines Berichts ohne Anlagen zu senden. Die Benachrichtigung enthält temporäre Download-Links für alle Berichtsformate.</li><li><i>[!UICONTROL XLS Attachment]:</i> So fügen Sie eine Kopie des abgeschlossenen Berichts im XLS-Format ein, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert.</li><li><i>[!UICONTROL TSV Attachment]:</i> Um eine Kopie des abgeschlossenen Berichts im TSV-Format einzufügen, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert.</li><li><i>[!UICONTROL CSV Attachment]:</i> So fügen Sie eine Kopie des abgeschlossenen Berichts im CSV-Format ein, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

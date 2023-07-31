@@ -3,7 +3,7 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). |
 | [!UICONTROL Views] | (Videoanzeigen) Die Häufigkeit, mit der die Besucher Ihre Anzeige angesehen oder mit ihr interagiert haben. |
 | [!UICONTROL ViewThroughConversions] | (Anzeigen im Zielgruppennetzwerk) Die Anzahl der Konversionen, die aus einem oder mehreren Impressionen ohne Klicks resultierten. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

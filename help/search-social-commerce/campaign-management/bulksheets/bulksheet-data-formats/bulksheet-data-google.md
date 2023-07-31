@@ -3,7 +3,7 @@ title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '7842'
 ht-degree: 1%
@@ -124,8 +124,6 @@ Informationen zu den für Kontoentitäten relevanten Datenfeldern finden Sie unt
 | [!UICONTROL SE Error Message] | (Zu Informationszwecken in generierten Bulksheets enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus dem Anzeigennetzwerk bezüglich Daten aus der Zeile; Fehlermeldungen werden in [!UICONTROL SE Errors] -Dateien. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht. |
 | [!UICONTROL Exemption Request] | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige der Namen und des Textes von [!DNL Google Ads] Werberichtlinien, gegen die eine Anzeige verstößt. |
 | [!UICONTROL Retail Hash] | (Zu Informationszwecken in mit dem erweiterten Campaign Management generierten Bulksheets enthalten) Ein alphanumerischer Hash-Code (z. B. f9639f40cdf56524b541e5dacf55a991), der anzeigt, dass das Element mithilfe der Erweiterten (ACM) Ansicht generiert wurde. |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] konvertiert beim Öffnen der Datei große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666). Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 

@@ -3,7 +3,7 @@ title: Erforderliche Bulksheet-Daten für [!DNL Baidu] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Baidu] Konten.
 exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -64,8 +64,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL AMO ID] | Nicht zutreffend: Erstellen<br>Optional: Bearbeiten und Löschen | Nicht zutreffend: Erstellen<br>Optional: Bearbeiten und Löschen | Nicht zutreffend: Erstellen<br>Optional: Bearbeiten und Löschen | Nicht zutreffend: Erstellen<br>Optional: Bearbeiten und Löschen | Nicht zutreffend: Erstellen<br>Optional: Bearbeiten und Löschen | (In generierten Bulksheets) Ein [!DNL Adobe]-generierte eindeutige Kennung für eine synchronisierte Entität. Für responsive Suchanzeigen ist die AMO-ID erforderlich, um Anzeigen zu bearbeiten oder zu löschen, es sei denn, Sie enthalten die [!UICONTROL Ad ID]. Um Daten für alle anderen Entitätstypen mit AMO-ID zu bearbeiten, muss die AMO-ID die Daten bearbeiten oder löschen, es sei denn, Sie enthalten die Entitäts-ID und die übergeordnete Entitäts-ID.<br><br>Search, Social und Commerce verwenden den Wert zur Bestimmung der richtigen Identität, die bearbeitet werden soll, veröffentlichen die ID jedoch nicht im Werbenetzwerk. |
 | [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] -Dateien. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht. |
 | [!UICONTROL SE Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (Zu Informationszwecken in generierten Bulksheets enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus dem Anzeigennetzwerk bezüglich Daten aus der Zeile; Fehlermeldungen werden in [!UICONTROL SE Errors] -Dateien. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel konvertiert beim Öffnen der Datei große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666). Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 

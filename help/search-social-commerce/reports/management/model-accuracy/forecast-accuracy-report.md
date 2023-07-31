@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: Erfahren Sie mehr über den Prognosebericht zur Genauigkeit, einschließlich der Datenspalten.
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 | [!UICONTROL EF Portfolio Group ID] | Standard | Die numerische ID für die Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL Portfolio Group Name] | Standard | Der Name der Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL Portfolio ID] | Standard | Die numerische Portfolio-ID. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

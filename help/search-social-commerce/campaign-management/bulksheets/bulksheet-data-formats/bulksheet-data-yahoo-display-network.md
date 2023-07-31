@@ -3,7 +3,7 @@ title: Massenblattdaten für [!DNL Yahoo! Display Network] Konten
 description: Referenzieren Sie die Kopfzeilenfelder und Datenfelder in heruntergeladenen Bulksheets für [!DNL Yahoo! Display Network] Konten.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. |
 | [!UICONTROL AMO ID] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets) Eine von der Adobe generierte eindeutige Kennung für eine synchronisierte Entität. |
 | [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] -Dateien. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

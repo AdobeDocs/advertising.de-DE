@@ -3,7 +3,7 @@ title: Erforderliche Bulksheet-Daten für [!DNL Yandex] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Yandex] Konten.
 exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -67,8 +67,6 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional | Optional | Optional | Optional | Nicht zutreffend | (Benannt für eine Advertiser-spezifische Beschriftungs-Classification, z. B. &quot;Farbe&quot;für eine Beschriftungsklassifizierung namens &quot;Farbe&quot;) Ein Wert für die angegebene Classification, die mit der Entität verknüpft ist. Sie können pro Entität nur einen Wert einbeziehen (z. B. &quot;rot&quot;für die Klassifizierung &quot;Farbe&quot;für Kampagne A). Die maximale Länge beträgt 100 Zeichen. Der Wert kann ASCII- und Nicht-ASCII-Zeichen enthalten.<br><br>Beschriftungsklassifizierungen und ihre Beschriftungswerte werden auf alle untergeordneten Komponenten angewendet. Neue Komponenten, die später hinzugefügt werden, werden automatisch mit der Beschriftung verknüpft. Beschriftungsklassifizierungen für Produktgruppen werden auf die Einheitenebene (am detailliertesten) angewendet.<br><br>Beim Classification-Namen und Classification-Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
 | [!UICONTROL Constraints] | Optional | Optional | Optional | Nicht zutreffend | Nicht zutreffend | Eine Beschränkung, die der Entität zugewiesen wird. Sie können pro Entität nur eine Begrenzung zuweisen.<br><br>Einschränkungen werden von untergeordneten Entitäten übernommen. Sie müssen daher keine Werte für untergeordnete Entitäten eingeben, es sei denn, Sie möchten die vererbten Werte überschreiben. |
 | [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] -Dateien. Dieser Wert wird nicht im Werbenetzwerk veröffentlicht. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel konvertiert beim Öffnen der Datei große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666). Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Formelleiste.
 

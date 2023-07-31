@@ -3,7 +3,7 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeig
 | [!DNL Yahoo Native] (Synchronisierungsunterstützung ist 2022 beendet) | Natives Netzwerk | Nativ | Text | —<br><br>Ältere Kontoinformationen bis zum 10. März 2022 sind schreibgeschützt. | — | — | — | —<br><br>Alte Daten auf Anzeigenebene, die bis zum 10. März 2022 synchronisiert wurden. | Analytics-Daten für Suche, Social und Commerce, aber nicht umgekehrt |
 | [!DNL Yandex] | Suchnetzwerk | Suche | Text | Automatisch über API | Verwenden [Kampagnenverwaltungsansichten](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), und [Bestandsmanagement-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Ja | Kampagnen, die nur eine CPC-Angebotsstrategie aufweisen | Daten auf Anzeigenebene | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
 | | Netzwerk anzeigen | Anzeige/Inhalt | Text | Automatisch über API | Verwenden [Kampagnenverwaltungsansichten](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), und [Bestandsmanagement-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Ja | Kampagnen, die nur eine CPC-Angebotsstrategie aufweisen | Daten auf Anzeigenebene | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
-
-<table style="table-layout:auto">
 
 [^1]: Bei den meisten Werbenetzwerken und Kampagnentypen, wenn Sie die[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot;Tracking-Einstellungen für eine aktive Kampagne (entweder auf Kampagnenebene festgelegt oder aus den Kontoeinstellungen übernommen), erstellt Search, Social und Commerce automatisch Tracking-URLs für die Anzeigengruppenkomponenten und lädt sie jedes Mal, wenn sie mit ihr synchronisiert wird, in das Werbenetzwerk hoch. Andernfalls müssen Sie Tracking-URLs generieren und zu den Einstellungen der Konto-, Kampagnen- oder Kampagnenkomponenten hinzufügen. Siehe &quot;[Wann und wie Klick-Tracking-URLs nach Anzeigennetzwerk und -objekt generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
