@@ -3,7 +3,7 @@ title: Generieren eines Adobe Advertising-Konversions-Tracking-Tags
 description: Erfahren Sie, wie Sie ein Adobe Advertising-Konversions-Tag erstellen, um Ihre Konversionsereignisse zu verfolgen.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Erstellen Sie für jeden Metriksatz, den Sie verfolgen möchten, ein separates K
 
 >[!NOTE]
 >
->Jede Metrik im neuen Konversions-Tag wird automatisch in [!UICONTROL Admin] > [!UICONTROL Conversions], auch wenn sie nicht implementiert wurde oder auf den Webseiten keine Klicks empfangen wurden. Dieses Verhalten unterscheidet sich vom Verhalten von Metriken in manuell oder an anderer Stelle erstellten Tags, die nicht in [!UICONTROL Admin] > [!UICONTROL Conversions] bis eine der Webseiten, auf denen sie sich befindet, einen Klick erhalten hat. In allen Fällen wird jedoch jede Metrik zunächst aus Portfoliozielen, Berichten und Ansichten ausgeschlossen, bis Sie sie explizit verfügbar machen. Bevor Sie die Metriken zu Portfoliozielen hinzufügen, sollten Sie jedoch zuerst die Metriken verfügbar machen und sie zu Berichten hinzufügen, um zu überprüfen, wann sie Klicks erhalten.
+>Jede Metrik im neuen Konversions-Tag wird automatisch in [!UICONTROL Admin] > [!UICONTROL Transaction Properties], auch wenn sie nicht implementiert wurde oder auf den Webseiten keine Klicks empfangen wurden. Dieses Verhalten unterscheidet sich vom Verhalten von Metriken in manuell oder an anderer Stelle erstellten Tags, die nicht in [!UICONTROL Admin] > [!UICONTROL Transaction Properties] bis eine der Webseiten, auf denen sie sich befindet, einen Klick erhalten hat. In allen Fällen wird jedoch jede Metrik zunächst aus Portfoliozielen, Berichten und Ansichten ausgeschlossen, bis Sie sie explizit verfügbar machen. Bevor Sie die Metriken zu Portfoliozielen hinzufügen, sollten Sie jedoch zuerst die Metriken verfügbar machen und sie zu Berichten hinzufügen, um zu überprüfen, wann sie Klicks erhalten.
 
 ## Adobe Advertising-Konversions-Tag-Einstellungen {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ Siehe &quot;[Häufig gestellte Fragen zu Adobe Advertising-Konversions- und Seit
 >* [Format der JavaScript-Konversions-Trackingtags, Version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Das Adobe Advertising-Tag für die JavaScript-Konversions-Zuordnung](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [Über die Verwaltung der Konversionsmetriken eines Advertisers](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+>* [Über die Verwaltung der Transaktionseigenschaften eines Advertisers](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)

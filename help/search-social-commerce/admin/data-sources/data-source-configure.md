@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Datenquelle über eine [!DNL Google Anal
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
    Die Datenquelle heißt &quot;AccountName > PropertyName > ViewName&quot; und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter[Feed aus einer Datenquelle anhalten](data-source-pause.md).&quot;
 
-   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie in [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Jede neue Konversionsmetrik erhält den Namen`ga:backEndMetricName_propertyID_viewID`,&quot;wobei &quot;backEndMetricName&quot;der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Konversionsmetrik lautet &quot;`friendlyMetricName_ga:MetricTag`,&quot;wobei &quot;friendlyMetricName&quot;der Metrikname ist, der in [!DNL Google Analytics] und &quot;MetricTag&quot;ist der [!UICONTROL Metric Tag] definiert in den Datenquelleneinstellungen.
+   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie in [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Jede neue Konversionsmetrik erhält den Namen`ga:backEndMetricName_propertyID_viewID`,&quot;wobei &quot;backEndMetricName&quot;der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Konversionsmetrik lautet &quot;`friendlyMetricName_ga:MetricTag`,&quot;wobei &quot;friendlyMetricName&quot;der Metrikname ist, der in [!DNL Google Analytics] und &quot;MetricTag&quot;ist der [!UICONTROL Metric Tag] definiert in den Datenquelleneinstellungen.
 
    Sie können die Metriken direkt zu Kampagnen-Management- und Portfoliomanagementansichten, Berichten und Optimierungszielen hinzufügen.
 

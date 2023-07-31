@@ -3,7 +3,7 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Sie können Ihre Standardereignisse und benutzerspezifischen Ereignisse aus [!DN
 >
 > Berechnete Metriken können nicht zugeordnet werden aus [!DNL Analytics] in den Adobe Advertising.
 
-Ihr Adobe Advertising-Team hilft Ihnen dabei, die Ereignisse zu identifizieren und zuzuordnen, die für die Leistung von Paid Media relevant sind, wo sie in der [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Ihr Adobe Advertising-Team hilft Ihnen dabei, die Ereignisse zu identifizieren und zuzuordnen, die für die Leistung von Paid Media relevant sind, wo sie in der [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
 Siehe &quot;[Analytics-Metriken in Adobe Advertising](analytics-data-in-advertising.md)für eine Liste der verfügbaren Metriken.
 
