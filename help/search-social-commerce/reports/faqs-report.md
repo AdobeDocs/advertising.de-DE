@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Wenden Sie sich bei Bedarf an Ihr Kundenbetreuungsteam, um eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (wie die `trackingid`, `clickid`usw.).
 
@@ -196,7 +196,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Führen Sie die [!UICONTROL Portfolio Report]. Wenn es leer ist, führen Sie die [!UICONTROL Campaign Report] und [!UICONTROL Search Engine Report] um zu sehen, ob der Umsatz in diesen Berichten auftaucht. Ist dies der Fall, werden die Kampagnen möglicherweise nicht dem entsprechenden Portfolio zugewiesen.
 
