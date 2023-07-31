@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: Informationen zum [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Die [!UICONTROL Transaction Report] liefert Details auf Transaktionsebene für aktuelle Suchbegriffe in Anzeigengruppen in Such- und Display-Kampagnen — sowie für Anzeigensets in Social-Kampagnen — innerhalb bestimmter Portfolios (falls zutreffend) oder Anzeigenkonten. Optional können Sie Konversionsmetriken einbeziehen. Sie können die Ergebnisse aus diesem Bericht mit den Transaktionsdaten des Advertisers vergleichen, um sicherzustellen, dass Search, Social und Commerce alle Transaktionen des Advertisers meldet.
 
-Standardmäßig enthält der Bericht Daten zu Transaktionen, die innerhalb des angegebenen Datumsbereichs aufgetreten sind. Die Daten für jede Transaktion umfassen die Transaktions-ID, die Transaktions- und Klickzeiten, den Konversionstyp, die Transaktionseigenschaft und die Umsatzdaten für die Transaktionseigenschaft (z. B. 1 für eine Registrierung oder 12 für eine Bestellung im Wert von 12 USD) für jeden Suchbegriff oder jede Kombination aus Anzeigengruppe/Kampagne/Portfolio. Standardmäßig werden die Zeilen in aufsteigender Reihenfolge zuerst nach Transaktionszeit und dann nach Klickzeit angezeigt.
+Standardmäßig enthält der Bericht Daten zu Transaktionen, die innerhalb des angegebenen Datumsbereichs aufgetreten sind. Die Daten für jede Transaktion umfassen die Transaktions-ID, die Transaktions- und Klick-/Impressionszeiten, den Konversionstyp, die Konversionsmetrik und die Umsatzdaten für die Konversionsmetrik (z. B. 1 für eine Registrierung oder 12 für eine Bestellung im Wert von 12 Euro) für jeden Suchbegriff oder jede Kombination aus Anzeigengruppe/Kampagne/Portfolio. Standardmäßig werden die Zeilen in aufsteigender Reihenfolge zuerst nach Transaktionszeit und dann nach Klickzeit angezeigt.
 
 Sie können Daten der letzten 45 Tage anzeigen.
 

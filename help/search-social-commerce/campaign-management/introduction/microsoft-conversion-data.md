@@ -2,7 +2,7 @@
 title: '''[!DNL Microsoft Advertising] Konversionsdaten"'
 description: Erfahren Sie mehr über die Typen [!DNL Microsoft Advertising]-getrackte Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ Alle Metriken sind automatisch in Ihren Kampagnenverwaltungsansichten und Basisb
 
 In Search, Social und Commerce werden Daten für Konversionen synchronisiert, für die die[!DNL Include in 'Conversions']&quot; aktiviert ist, wobei die Daten für die letzten 35 Tage abgerufen und dann Änderungen an den Daten täglich bis 09 abgerufen werden.:00-10:00 in der Zeitzone des Werbetreibenden. Historische Daten können sich von Tag zu Tag ändern, da bei jedem Klick neue Konversionen verfolgt werden.
 
-Zwei Transaktionseigenschaften für jede [[!DNL Microsoft Advertising]-verfolgte Konversion](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (die Sie in [!DNL Microsoft Advertising]) sind automatisch in Search, Social und Commerce verfügbar, wobei die Konversionsnamen verwendet werden, die in [!DNL Microsoft Advertising]. Zu den Transaktionseigenschaften für jede Konversion gehören:
+Zwei Metriken für jede [[!DNL Microsoft Advertising]-verfolgte Konversion](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (die Sie in [!DNL Microsoft Advertising]) sind automatisch in Search, Social und Commerce verfügbar, wobei die Konversionsnamen verwendet werden, die in [!DNL Microsoft Advertising]. Zu den Metriken für jede Konversion gehören:
 
 * `<conversion-name>` — Der Konversionswert für den Suchbegriff (z. B. Kauf).
 
   >[!TIP]
   >
-  >Verwenden Sie diesen Eigenschaftstyp im Ziel für Portfolios mit [!DNL Microsoft Advertising] Kampagnen mit den Angebotsstrategien Max. Konversionswert und Target ROAS.
+  >Verwenden Sie diesen Konversionsmetriktyp im Ziel für Portfolios, die Folgendes enthalten: [!DNL Microsoft Advertising] Kampagnen mit den Angebotsstrategien Max. Konversionswert und Target ROAS.
 
 * `CT_<conversion-name>` — Die Anzahl (Anzahl) der Konversionen, beginnend mit dem Präfix &quot;CT_&quot; (z. B. CT_Purchase).
 
   >[!TIP]
   >
-  >Verwenden Sie diesen Eigenschaftstyp im Ziel für Portfolios mit [!DNL Microsoft Advertising] Kampagnen mit den Max Conversions- und Target-CPA-Angebotsstrategien.
+  >Verwenden Sie diesen Konversionsmetriktyp im Ziel für Portfolios, die Folgendes enthalten: [!DNL Microsoft Advertising] Kampagnen mit den Max Conversions- und Target-CPA-Angebotsstrategien.
 
 Daten sind basierend auf der Klickzeit und der Konversions-/Transaktionszeit ab dem Datum verfügbar, an dem die Funktion für das Konto aktiviert ist.
 
@@ -39,7 +39,7 @@ Daten sind basierend auf der Klickzeit und der Konversions-/Transaktionszeit ab 
 
 >[!NOTE]
 >
->* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
+>* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Angebotseinheit stimmen mit Daten im Anzeigennetzwerk auf derselben Ebene überein. Die eigenen Konversionsdaten des Werbenetzwerks für höhere Ebenen können jedoch zusätzliche Konversionen enthalten, die nicht den untergeordneten Gebotseinheiten zugeordnet werden. Die Daten in Search, Social und Commerce werden immer auf der Ebene der Angebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene nicht die gleichen Summen wie ein Bericht auf Kampagnenebene im Werbenetzwerk hat.
 >* Datenabweichungen sind in der Regel nach der Morgensynchronisierung geringer als nach der Tageszeit, wenn noch keine zusätzlichen Konversionen synchronisiert wurden. Es wird empfohlen, die Daten morgens zu überprüfen.
 >* Daten sind nicht auf Zielgruppen- oder geografischer Standortebene verfügbar und werden daher nicht zur automatischen Optimierung von RLSA und Ortsgebotsanpassungen verwendet.
@@ -78,4 +78,4 @@ Verwenden Sie in Search, Social und Commerce die Ansicht- oder Berichtsoption, u
 >
 >* [Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kampagnen](campaign-implemention-overview.md)
 >* [Überwachen und verwalten Sie die Leistung Ihrer Werbenetzwerk-Kampagnen.](monitor-performance-campaigns.md)
->* [Anzeigen der für einen Advertiser verfolgten Transaktionseigenschaften](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)

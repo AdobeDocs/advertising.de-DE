@@ -3,7 +3,7 @@ title: Dateianforderungen für Konversions-Feed-Dateien
 description: Verweisen Sie auf die Anforderungen für Konversions-Feed-Dateien.
 exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Im Folgenden finden Sie die Anforderungen an das Dateiformat, die erforderlichen
 
 Die Datendatei muss im Format &quot;Flattext&quot;(TXT), &quot;Komma-getrennte Werte&quot;(CSV) oder &quot;Tabulator-getrennte Werte&quot;(TSV) vorliegen. Die Datei kann aus einer Kopfzeile und Datenzeilen mit Werten bestehen, die durch Tabulatoren, Kommas oder ein anderes Zeichen (ohne Leerzeichen) getrennt sind:
 
-* **Kopfzeile:** (Optional) Die erste Zeile der Datei ist eine Kopfzeile, die die erforderlichen Feldnamen (oder Spaltennamen) in einer bestimmten Reihenfolge angibt, getrennt durch Registerkarten oder Kommas. Die erforderlichen Spaltennamen enthalten die Transaktionseigenschaften, die der Adobe Advertising als Konversionen verfolgt.
+* **Kopfzeile:** (Optional) Die erste Zeile der Datei ist eine Kopfzeile, die die erforderlichen Feldnamen (oder Spaltennamen) in einer bestimmten Reihenfolge angibt, getrennt durch Registerkarten oder Kommas. Die erforderlichen Spaltennamen enthalten die Konversionsmetriken, die der Adobe Advertising als Konversionen verfolgt.
 
-* **Datenzeilen:** Jede nachfolgende Zeile enthält Datenfelder in derselben Reihenfolge wie die Kopfzeile und durch Tabulatoren oder Kommas getrennt. Wenn der erste Datensatz keine Kopfzeile ist, muss jede Datenzeile alle möglichen Felder in einer angegebenen Reihenfolge enthalten. Die Werte aller IDs und Transaktionseigenschaften müssen alphanumerisch sein.
+* **Datenzeilen:** Jede nachfolgende Zeile enthält Datenfelder in derselben Reihenfolge wie die Kopfzeile und durch Tabulatoren oder Kommas getrennt. Wenn der erste Datensatz keine Kopfzeile ist, muss jede Datenzeile alle möglichen Felder in einer angegebenen Reihenfolge enthalten. Die Werte aller IDs und Konversionsmetriken müssen alphanumerisch sein.
 
   Wenn mehrere Klicks auf eine oder mehrere Anzeigen zu einer Transaktion führen, müssen Sie die Klick-ID und die Tracking-ID bestimmen, der die Transaktion zugeordnet werden soll. Da für jede Transaktion eine eindeutige ID gemeldet wird, können Sie einzelne Transaktionen aktualisieren.
 

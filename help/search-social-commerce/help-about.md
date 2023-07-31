@@ -3,7 +3,7 @@ title: Informationen zu diesem Handbuch
 description: Erfahren Sie, was in den einzelnen Kapiteln dieses Handbuchs behandelt wird.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Informationen zu bestimmten Gruppen von Aufgaben und weitere Informationen finde
 
 * &quot;Tools&quot;erläutert, wie Sie Ihr Kennwort ändern, Tools zum Generieren von Klick-Tracking- und Konversions-Tracking-Tags verwenden und Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele an die Werbenetzwerke zur Hybridoptimierung weiterleiten, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising] Konten.
 
-* &quot;Administration&quot;erläutert, wie Advertiser-Daten verwaltet werden, einschließlich der erfassten Transaktionseigenschaften und aller Daten, die aus Portfolio-Prognosen ausgeschlossen werden sollen. Synchronisieren Sie Ihre Konversionsmetriken mit einer [!DNL Google Analytics] -Konto; konfigurieren Sie verschiedene Einstellungen auf Advertiser-Ebene und verwalten (einige Rollen) Benutzer-, Agentur- und Advertiser-Konten.
+* &quot;Administration&quot;erläutert, wie Advertiser-Daten verwaltet werden, einschließlich der erfassten Konversionsmetriken und aller Daten, die aus Portfolioprognosen ausgeschlossen werden sollen. Synchronisieren Sie Ihre Konversionsmetriken mit einer [!DNL Google Analytics] -Konto; konfigurieren Sie verschiedene Einstellungen auf Advertiser-Ebene und verwalten (einige Rollen) Benutzer-, Agentur- und Advertiser-Konten.
 
 >[!NOTE]
 >

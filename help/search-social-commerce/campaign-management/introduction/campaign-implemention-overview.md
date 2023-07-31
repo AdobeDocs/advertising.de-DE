@@ -3,7 +3,7 @@ title: Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kamp
 description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    Weitere Informationen zu Portfolios finden Sie im Optimierungshandbuch, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Wenn neue Konversionen für den Advertiser verfolgt werden) [Verfügbar machen von Konvertierungen](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) für Berichte, Kampagnenverwaltungsansichten und Portfolioziele.
+1. (Wenn neue Konversionen für den Advertiser verfolgt werden) [Verfügbar machen von Konvertierungen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) für Berichte, Kampagnenverwaltungsansichten und Portfolioziele.
 
 1. Stellen Sie für jede Kampagne sicher, dass Search, Social und Commerce Klicks- und Kostendaten aus dem Werbenetzwerk erhalten, und validieren Sie die in Search, Social und Commerce angezeigten Umsatzdaten mit den eigenen Umsatzdaten des Werbetreibenden.
 

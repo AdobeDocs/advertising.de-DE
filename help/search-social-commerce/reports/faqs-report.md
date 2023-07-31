@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Die Optimierungsfunktion erstellt täglich ihre Umsatzmodelle für jede Angebots
 Wenn Sie nicht möchten, dass sich die Daten für den Zeitraum auf künftige Angebote auswirken, können Sie diese Daten aus dem Modell ausschließen. Wenden Sie sich an Ihr Adobe Account Team, um die Daten auszuschließen.
 +++
 
-+++ Kann ich einen Bericht für eine bestimmte Eigenschaftsmetrik erstellen, z. B. [!UICONTROL Device] oder [!UICONTROL Objective Name]?
+++ + Kann ich einen Bericht für eine bestimmte Metrik für Kontoeigenschaftseigenschaften erstellen, z. B. [!UICONTROL Device] oder [!UICONTROL Objective Name]?
 Für Kampagnenentitätsberichte ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], und [!UICONTROL Product Group Report]), werden die Metrikdaten dynamisch durch die Eigenschaftsspalten aggregiert, die Sie in den Bericht einbeziehen. Optional können Sie die Schlüsselspalte für den Bericht entfernen und nur die Eigenschaftenspalten einschließen, für die Sie Daten aggregieren möchten.
 
 Wenn Sie beispielsweise eine [!UICONTROL Keyword Report] , die Folgendes enthält: [!UICONTROL Ad Group] und  Gerätespalten, aggregiert der Bericht dann standardmäßig die Metriken für jeden Suchbegriff nach Anzeigengruppe und Gerätetyp. Wenn Sie jedoch die [!UICONTROL Keyword] vor der Berichterstellung, generiert der Bericht dynamisch Metriken für die angegebenen Anzeigengruppen nach Gerätetyp.
@@ -107,7 +107,7 @@ Umsatzdatenprobleme können aufgrund eines Tracking- oder Feed-Dateiproblems auf
 Standardmäßig werden alle monetären Daten in Berichten im Format für US-Dollar angezeigt (z. B. 1.000,00). Um den Wert im korrekten Währungsformat anzuzeigen (jedoch ohne Währungssymbole in CSV- und TSV-Formaten), fügen Sie &quot;[!UICONTROL Currency]&quot;. Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, wird eine beliebige[!UICONTROL Total]&quot;Geldwerte sind einfach die Summe aller Zahlen in der Spalte, unabhängig von der Währung.
 +++
 
-+++ Warum sehe ich Dezimalwerte für eine Transaktionseigenschaft, die eine natürliche Zahl sein sollte (1, 2 usw.)?
++++ Warum sehe ich Dezimalwerte für eine Konversionsmetrik, die eine natürliche Zahl sein sollte (1, 2 usw.)?
 In den folgenden Fällen können Dezimalwerte angezeigt werden:
 
 * Wenn Sie den Bericht mit einem anderen Konversionsattributionsparameter als [!UICONTROL Last Event] oder [!UICONTROL First Event], kann der Umsatz auf mehrere Ereignisse im Konversionspfad aufgeteilt werden.
@@ -162,13 +162,13 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 * Das Konversions-Tracking-Tag wurde nicht auf allen entsprechenden Webseiten korrekt implementiert oder bearbeitet.
 
-* Die Transaktionseigenschaften, die von Search, Social und Commerce verfolgt werden, werden aus Berichten ausgeschlossen und sind daher nicht sichtbar.
+* Die Konversionsmetriken, die von Search, Social und Commerce verfolgt werden, werden aus Berichten ausgeschlossen und sind daher nicht sichtbar.
 
 * Der Umsatz-Parser für den Client wurde nicht implementiert.
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Bereitstellen der Transaktionseigenschaften für Berichte](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Wenden Sie sich bei Bedarf an Ihr Kundenbetreuungsteam, um eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (wie die `trackingid`, `clickid`usw.).
 
@@ -188,7 +188,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 * Die Feed-Datei wurde nicht bereitgestellt, sie wurde nicht vollständig analysiert oder der Feed enthielt verwaiste Transaktionen.
 
-* Die relevanten Transaktionseigenschaften werden aus Berichten ausgeschlossen und sind daher nicht sichtbar.
+* Die relevanten Konversionsmetriken werden aus Berichten ausgeschlossen und sind daher nicht sichtbar.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Bereitstellen der Transaktionseigenschaften für Berichte](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Führen Sie die [!UICONTROL Portfolio Report]. Wenn es leer ist, führen Sie die [!UICONTROL Campaign Report] und [!UICONTROL Search Engine Report] um zu sehen, ob der Umsatz in diesen Berichten auftaucht. Ist dies der Fall, werden die Kampagnen möglicherweise nicht dem entsprechenden Portfolio zugewiesen.
 
@@ -313,8 +313,8 @@ Die [!UICONTROL Portfolio Report] zeigt nur Daten für die Kampagnen an, die den
 Die Werbenetzwerke stellen nicht die Kennung bereit, die erforderlich ist, um einer einzelnen Anzeige für diese Kampagnen Umsätze zuzuordnen. Folglich stehen für diese Kampagnentypen im [!UICONTROL Ads] oder in der [!UICONTROL Ad Variation Report]. Erwarten Sie Diskrepanzen zwischen den Gesamtdaten der Anzeigenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
 +++
 
-+++In der [!UICONTROL Transaction Report]Wie weiß ich, welche Transaktionseigenschaft von einem Daten-Feed stammt oder vom Adobe Advertising-Tracking-Pixel verfolgt wird?
-In einem Transaktionsbericht können Sie feststellen, ob eine enthaltene Transaktionseigenschaft vom Adobe Advertising-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit &quot;`http://pixel.everesttech.net`.&quot;
++++In der [!UICONTROL Transaction Report]Wie weiß ich, welche Konversionsmetrik aus einem Daten-Feed stammt oder vom Adobe Advertising-Tracking-Pixel verfolgt wird?
+In einem Transaktionsbericht können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++ Die Daten in der [!UICONTROL Transaction Report] stimmt nicht mit den Daten in meiner [!UICONTROL Keyword Report].

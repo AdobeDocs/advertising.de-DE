@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Informationen zum [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 | [!UICONTROL First Event Type] | Standard | Der Ereignistyp des ersten (frühesten) Ereignisses im Konversionspfad. |
 | [!UICONTROL Last Event Type] | Standard | Der Ereignistyp des letzten Ereignisses, das zu Konversionen führte (auch wenn das letzte Ereignis außerhalb der angegebenen Pfadgröße liegt). |
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Benutzerdefiniert | Der Wert für eine von Ihnen erstellte benutzerspezifische Metrik, der aus vorhandenen Metriken berechnet wird. |
-| \[Advertiser-spezifische Transaktionseigenschaften\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine angegebene Transaktionseigenschaft oder Site-Interaktionsmetrik. |
-| [!UICONTROL % of Total] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Transaktionseigenschaft eingeschlossen) Der Prozentsatz Ihrer Gesamtkonversionen über Portfolios, die dem Ereignismuster zugeordnet wurden. |
+| \[Advertiser-spezifische Konversionsmetriken\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine bestimmte Konversionsmetrik oder Site-Interaktionsmetrik. |
+| [!UICONTROL % of Total] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Konversionsmetrik eingeschlossen) Der Prozentsatz Ihrer Gesamtkonversionen über Portfolios hinweg, der dem Ereignismuster zugeordnet wurde. |
 | [!UICONTROL 6th Event] nach [!UICONTROL 30th Event] | Benutzerdefiniert | Die sechsten bis 30. Ereignistypen im Konversionspfad, die innerhalb des vom Advertiser verwendeten [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Transaktionseigenschaft eingeschlossen) Die durchschnittliche Latenz in Tagen vom ersten Ereignis zu einer Konversion. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe eingeschlossen) Die durchschnittliche Latenz in Tagen vom letzten Ereignis zu einer Konversion. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Konversionsmetrik eingeschlossen) Die durchschnittliche Latenz in Tagen vom ersten Ereignis zu einer Konversion. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe eingeschlossen) Die durchschnittliche Latenz in Tagen vom letzten Ereignis zu einer Konversion. |
 | [!UICONTROL Path Frequency] | Benutzerdefiniert | Die Häufigkeit, mit der der Pfad für diese Zeile vor der Konvertierung aufgetreten ist. |
 
 >[!MORELIKETHIS]

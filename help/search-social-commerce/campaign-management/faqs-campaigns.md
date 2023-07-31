@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu Kampagnen
 description: Hier finden Sie Antworten auf Fragen zur Kampagnenverwaltung und zu Kampagnendaten.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Je nach [Feed-Dateneinstellungen](/help/search-social-commerce/campaign-manageme
 
 +++([!DNL Google Ads] Kampagnen) Änderungen an den Anzeigenamen für meine [!DNL Google]-getrackte Konversionen zurückgesetzt wurden.
 
-Wenn Sie die Anzeigenamen der Transaktionseigenschaften in Search, Social und Commerce ändern, werden Ihre Änderungen mit den Namen überschrieben, die in [!DNL Google Ads]. Nehmen Sie Namensänderungen in vor [!DNL Google Ads].
+Wenn Sie die Anzeigenamen der Konversionsmetriken in Search, Social und Commerce ändern, werden Ihre Änderungen mit den in [!DNL Google Ads]. Nehmen Sie Namensänderungen in vor [!DNL Google Ads].
 +++
 
 +++(Google Ads-Kampagnen) Kann ich ein freigegebenes Budget für Kampagnen in Portfolios verwenden?

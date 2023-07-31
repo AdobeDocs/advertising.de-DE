@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **Einschränkung:** (Werbetreibende mit Portfolios; nur für Gebotseinheiten in Standard-Portfolios anwendbar) Eine Regel für Gebote auf einen bestimmten Suchbegriff oder eine bestimmte Anzeige. Sie überschreibt alle Beschränkungen auf Portfolioebene und die empfohlene Angebotsstrategie.
 
-**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird. Beispiele sind Registrierungen oder Käufe. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
+**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird. Beispiele sind Registrierungen und Käufe, die Zählungen oder Geldbeträge darstellen können. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
 
 **Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf Werbeanzeigen eines Werbetreibenden in den Werbenetzwerken und b) die daraus resultierenden Transaktionen auf der Website des Werbetreibenden zu verfolgen.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde setzt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. um die Gewinne zu maximieren oder ein bestimmtes Verkaufsziel zu erreichen. Ein Ziel besteht aus den Konversionsmetriken (auch als Transaktionseigenschaften bezeichnet), die für das Portfolio verfolgt und optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken.
+**Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde setzt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. um die Gewinne zu maximieren oder ein bestimmtes Verkaufsziel zu erreichen. Ein Ziel besteht aus den Konversionsmetriken, die verfolgt und für das Portfolio optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken.
 
 **Zielwert:** (Werbetreibende mit Portfolios) Die nach dem aktuellen Ziel des Portfolios berechneten gewichteten Gesamtkonversionen, einschließlich:
 
@@ -138,9 +138,9 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 
 **PPC:** Siehe &quot;Pay per Click&quot;.
 
-**Eigenschaft:** Siehe &quot;transaction property&quot;.
+**Eigenschaft:** Siehe &quot;Konversionsmetrik&quot;.
 
-**Eigenschaftenzeit:** Der Zeitpunkt, zu dem eine einzelne Transaktion stattfindet. Wenn eine Transaktion verwandte Folgetransaktionen enthält (z. B. ein Kunde, der sich zuerst für eine kostenlose Testversion registriert und später einen bezahlten Dienst abonniert), hat jede Transaktion ihre eigene Eigenschaftszeit.
+**Eigenschaftenzeit:** Der Zeitpunkt, zu dem ein einzelnes Konversionsereignis eintritt. Wenn ein Ereignis verwandte Folgeereignisse enthält (z. B. ein Kunde, der sich zuerst für eine kostenlose Testversion registriert und später einen gebührenpflichtigen Dienst abonniert), hat jedes Ereignis seine eigene Eigenschaftszeit.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 
 **Transaktions-ID:** Eine vom Advertiser angegebene ID, die eine Transaktion identifiziert. Wenn eine Transaktion mehrere Ereignisse enthält, haben alle dieselbe Transaktions-ID.
 
-**Transaktionseigenschaft:** Ein Attribut einer Transaktion, z. B. der Transaktions-/Konversionstyp, der Dollarbetrag eines Verkaufs oder ein Typ eines verkauften Produkts (z. B. &quot;Verkaufsleiter&quot;, &quot;Verkaufsbetrag&quot;oder &quot;1-Jahr&quot;). Registrierungen&quot;). In Search, Social und Commerce werden Transaktionseigenschaften für das Ziel eines Portfolios gemessen und in der Tracking-ID identifiziert. Die Begriffe &quot;Transaktionseigenschaft&quot;und &quot;Konversion&quot;<!-- type-->&quot; häufig synonym verwendet werden.
+**Transaktionseigenschaft:** Siehe &quot;Konversion&quot;.
 
 **Transaktionszeit:** Der Zeitpunkt, zu dem ein Klick oder eine Impression in eine Transaktion konvertiert wird. Wenn eine Transaktion aus mehreren Transaktionsereignissen besteht (z. B. wenn sich ein Kunde zuerst für eine kostenlose Prüfung registriert und später einen gebührenpflichtigen Dienst abonniert), beginnt die Transaktionszeit mit dem ersten Ereignis in der Kette (Registrierung für die kostenlose Prüfung).
 

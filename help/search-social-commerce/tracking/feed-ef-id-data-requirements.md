@@ -3,7 +3,7 @@ title: Datenanforderungen für Daten-Feeds mit EF IDs
 description: Referenzieren Sie die Datenanforderungen für Daten-Feeds mit EF IDs.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Im Folgenden finden Sie die Kopfzeilenfelder und entsprechenden Datenfelder, die
 
 ## Beispiel
 
-Die folgende Beispieldatei enthält Daten zu zwei Transaktionseigenschaften (Produkt und Umsatz).
+Die folgende Beispieldatei enthält Daten für zwei Konversionsmetriken (Produkt und Umsatz).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

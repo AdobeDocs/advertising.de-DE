@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Informationen zum [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 | [!UICONTROL First Keyword] | Standard | Das erste Keyword oder die erste Platzierung im Konversionspfad. |
 | [!UICONTROL Last Keyword] | Standard | Das letzte Keyword oder die letzte Platzierung, das/die zu Konversionen führte (auch wenn das letzte Keyword außerhalb der angegebenen Pfadgröße liegt). |
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Benutzerdefiniert | Der Wert für eine von Ihnen erstellte benutzerspezifische Metrik, der aus vorhandenen Metriken berechnet wird. |
-| \[Advertiser-spezifische Transaktionseigenschaften\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine angegebene Transaktionseigenschaft oder Site-Interaktionsmetrik. |
-| [!UICONTROL % of Total] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Transaktionseigenschaft eingeschlossen) Der Prozentsatz Ihrer Gesamtkonversionen in Portfolios, der dem Suchbegriff und/oder Platzierungsmuster zugeordnet wurde. |
+| \[Advertiser-spezifische Konversionsmetriken\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine bestimmte Konversionsmetrik oder Site-Interaktionsmetrik. |
+| [!UICONTROL % of Total] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Konversionsmetrik eingeschlossen) Der Prozentsatz Ihrer Gesamtkonversionen in Portfolios, der dem Suchbegriff- und/oder Platzierungsmuster zugeordnet wurde. |
 | [!UICONTROL 6th Keyword] nach [!UICONTROL 10th Keyword] | Benutzerdefiniert | Der sechste bis zehnte Paid-Search-Suchbegriff oder die Platzierungsklicks im Konversionspfad, die innerhalb des vom Advertiser verwendeten [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen enthält (die keine Keywords enthalten), zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Transaktionseigenschaft eingeschlossen) Die durchschnittliche Latenz in Tagen vom ersten Ereignis (im ersten Suchbegriff oder in der ersten Platzierung) bis hin zu einer Konversion. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Transaktionseigenschaft\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe eingeschlossen) Die durchschnittliche Latenz in Tagen vom letzten Ereignis (am letzten Suchbegriff oder in der letzten Platzierung) bis hin zu einer Konversion. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in die Berichtsausgabe für jede Konversionsmetrik eingeschlossen) Die durchschnittliche Latenz in Tagen vom ersten Ereignis (im ersten Suchbegriff oder in der ersten Platzierung) bis hin zu einer Konversion. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe eingeschlossen) Die durchschnittliche Latenz in Tagen vom letzten Ereignis (am letzten Suchbegriff oder in der letzten Platzierung) bis hin zu einer Konversion. |
 | [!UICONTROL Path Frequency] | Benutzerdefiniert | Die Häufigkeit, mit der der Pfad für diese Zeile vor der Konvertierung aufgetreten ist. |
 
 >[!MORELIKETHIS]

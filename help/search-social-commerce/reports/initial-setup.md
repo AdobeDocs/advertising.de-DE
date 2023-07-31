@@ -3,7 +3,7 @@ title: Die anfänglichen Einrichtungsaufgaben für Berichte
 description: Erfahren Sie, wie Sie Metriken in Berichten verfügbar machen und wie Sie Berichte automatisieren können.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Neue Benutzer sollten die folgenden grundlegenden Einrichtungsaufgaben ausführen:
 
-* Transaktionseigenschaften festlegen, die der Adobe Advertising für einen Advertiser verfolgt [für Berichte und andere Ansichten verfügbar](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)und optional [einen der Eigenschaftsnamen umbenennen](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) die zur besseren Lesbarkeit in Spaltenüberschriften angezeigt werden.
+* Konversionsmetriken festlegen, die der Adobe Advertising für einen Advertiser verfolgt [für Berichte und andere Ansichten verfügbar](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)und optional [Konversionsmetriken umbenennen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) die zur besseren Lesbarkeit in Spaltenüberschriften angezeigt werden.
 
   Transaktionseigenschaften stehen nur dann für Berichte zur Verfügung, wenn Sie sie speziell zur Verfügung stellen.
 
-  Wenn Sie später mit der Verfolgung einer neuen Transaktionseigenschaft beginnen, müssen Sie diese Aufgabe wiederholen.
+  Wenn Sie später mit der Verfolgung einer neuen Konversionsmetrik beginnen, müssen Sie diese Aufgabe wiederholen.
 
 * (Optional) Automatisieren der Berichterstellung:
 

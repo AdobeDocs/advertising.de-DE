@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zum Tracking
 description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zum Tracking, einschließlich Fehlerbehebungsproblemen.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Duplizierte Transaktionen können auftreten, wenn ein Benutzer die Bestätigungs
 
 Im Folgenden finden Sie die Deduplizierungslogik des Adobe Advertisings:
 
-* **Wenn ein Client einen Wert für die `ev_transid` Attribut:** Nachfolgende Pixelanforderungen werden als Duplikate der vorherigen betrachtet, wenn die folgenden identisch sind: die `ev_transid`; die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und den Wert für eine bestimmte Transaktionseigenschaft.
+* **Wenn ein Client einen Wert für die `ev_transid` Attribut:** Nachfolgende Pixelanforderungen werden als Duplikate der vorherigen betrachtet, wenn die folgenden identisch sind: die `ev_transid`; die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und den Wert für eine bestimmte Konversionsmetrik.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Anwendungs-ID und denselben Darlehensbetrag für denselben Suchbegriff in einem bestimmten Werbenetzwerk haben, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 
-* **Wenn ein Client keinen Wert für die `ev_transid` Attribut:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und denselben Wert für eine bestimmte Transaktionseigenschaft verwenden.
+* **Wenn ein Client keinen Wert für die `ev_transid` Attribut:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und denselben Wert für eine bestimmte Konversionsmetrik verwenden.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Schlüsselwort-ID und denselben Darlehensbetrag aufweisen, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 +++
@@ -57,9 +57,9 @@ Wenden Sie sich zunächst an Ihr Adobe-Kundenbetreuungsteam, um die Auswirkungen
 
 ## Datenfragen
 
-+++ Woher weiß ich, welche Transaktionseigenschaft aus einem Daten-Feed stammt oder vom Adobe Advertising-Konversions-Tracking-Tag verfolgt wird?
++++ Wie weiß ich, welche Konversionsmetrik aus einem Daten-Feed stammt oder vom Adobe Advertising-Konversions-Tracking-Tag verfolgt wird?
 
-In [!UICONTROL Transaction Report]können Sie feststellen, ob eine enthaltene Transaktionseigenschaft vom Adobe Advertising-Konversions-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit `http://pixel.everesttech.net`.
+In [!UICONTROL Transaction Report]können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Konversions-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit `http://pixel.everesttech.net`.
 +++
 
 +++ Was sind verwaiste Transaktionen?

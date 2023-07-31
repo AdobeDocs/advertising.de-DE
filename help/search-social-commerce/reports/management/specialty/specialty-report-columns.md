@@ -3,7 +3,7 @@ title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | Spalte | Beschreibung |
 |----|----|
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Der Wert für eine von Ihnen erstellte benutzerspezifische Metrik, der aus vorhandenen Metriken berechnet wird. |
-| \[Advertiser-spezifische Transaktionseigenschaften\] | Die Anzahl der Konversionen für eine angegebene Transaktionseigenschaft oder Site-Interaktionsmetrik. |
+| \[Advertiser-spezifische Konversionsmetriken\] | Die Anzahl der Konversionen für eine bestimmte Konversionsmetrik oder Site-Interaktionsmetrik. |
 | [!UICONTROL Account Name] | Der Kontoname. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] reports) Die vom Werbenetzwerk zugewiesene Kontokennung. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] Berichte) Der Kontostatus: *[!UICONTROL Active]*, *[!UICONTROL Paused]* oder *[!UICONTROL Inactive]*. |

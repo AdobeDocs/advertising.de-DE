@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angeze
 
 * **[!UICONTROL Tools]** — Dieses Menü enthält Optionen zum Ändern Ihres Kontokennworts, Generieren von Tags zum Verfolgen von Konversionen von Webseiten, Generieren und Dekodieren von Klick-Tracking-URLs und Hochladen von Metriken für Suchverfolgungskampagnen.
 
-* **[!UICONTROL Admin]** — Die [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Transaktionseigenschaften eines Advertisers in Datentabellen und -berichten, zum Konfigurieren der Synchronisation der Einstellungen mit einem Adobe Audience Manager-Konto und zum Synchronisieren der Konversionsmetriken für eine bestimmte [!DNL Google Analytics] Kombination aus Konto, Eigenschaft und Ansicht. Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
+* **[!UICONTROL Admin]** — Die [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Konversionsmetriken eines Advertisers in Datentabellen und Berichten, zum Konfigurieren der Einstellungen für die Synchronisierung mit einem Adobe Audience Manager-Konto und zum Synchronisieren der Konversionsmetriken für ein bestimmtes [!DNL Google Analytics] Kombination aus Konto, Eigenschaft und Ansicht. Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
 
 ## Andere Menüs auf Basis von Aufgaben und Informationen auf der rechten Seite
 
