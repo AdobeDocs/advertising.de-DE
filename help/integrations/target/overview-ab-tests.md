@@ -2,9 +2,9 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising-Anzeigen in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
+source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -85,83 +85,67 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
 
 1. Konfigurieren Sie ein Audience Manager-Segment aus DSP Impressionsdaten:
 
-   1. Navigieren Sie zu **Audience Manager** > **Zielgruppendaten** > **Signale** und wählen Sie anschließend die **Suche** Registerkarte oben links.
+   1. Stellen Sie sicher, dass die Segmentdaten verfügbar sind:
 
-   1. Geben Sie die **Schlüssel** und **Wert** für das Signal, das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden. Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Impression-Ereignispixel des Audience Managers hinzugefügt haben.
+      1. [Nach dem Signal suchen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) für die [Schlüssel-Wert-Paar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden.
 
-      Um beispielsweise Benutzer für eine bestimmte Platzierung zu gruppieren, verwenden Sie die `d_placement` Schlüssel. Verwenden Sie für den Wert eine tatsächliche numerische Platzierungs-ID (z. B. 2501853 im obigen Screenshot), die vom DSP erfasst wird. `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         Verwenden Sie eine [unterstützter Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Impression-Ereignispixel des Audience Managers hinzugefügt haben.
 
-      Wenn im Feld Gesamtanzahl die Benutzerzahlen für das Schlüssel-Wert-Paar angezeigt werden, was bedeutet, dass das Pixel korrekt platziert wurde und Daten fließen, können Sie mit dem nächsten Schritt fortfahren.
+         Um beispielsweise Benutzer für eine bestimmte Platzierung zu gruppieren, verwenden Sie die `d_placement` Schlüssel. Verwenden Sie für den Wert eine tatsächliche numerische Platzierungs-ID (z. B. 2501853), die vom DSP erfasst wird. `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-   ![Suchsignale](/help/integrations/assets/target-am-signals.png)
+         Wenn in den Suchergebnissen die Benutzerzahlen für das Schlüssel-Wert-Paar angezeigt werden, was darauf hinweist, dass das Pixel korrekt platziert wurde und Daten fließen, fahren Sie mit dem nächsten Schritt fort.
 
-1. [Regelbasierte Eigenschaft erstellen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) für die Segmenterstellung in Audience Manager.
+   1. [Regelbasierte Eigenschaft erstellen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) für die Segmenterstellung in Audience Manager.
 
-   1. Benennen Sie die Eigenschaft so, dass sie in Testaktivitäten leicht identifiziert werden kann. Speichern Sie die Eigenschaft in dem Ordner, den Sie bevorzugen.
+      * Benennen Sie die Eigenschaft so, dass sie in Testaktivitäten leicht identifiziert werden kann. Speichern Sie die Eigenschaft in dem Ordner, den Sie bevorzugen.
 
-   1. Aus dem **Datenquelle** Dropdown-Menü auswählen **Ad Cloud**.
+      * Auswählen `Ad Cloud` als **Datenquelle**.
 
-   1. Fügen Sie im Ausdrucksgenerator `d_event` im Feld Schlüssel und `imp` im **Wert** Feld auswählen **Regel hinzufügen** und speichern Sie dann die Eigenschaft.
+      * Verwenden Sie für den Eigenschaftsausdruck `d_event` als **Schlüssel** und `imp` als **Wert**.
 
-   ![Screenshot einer regelbasierten Eigenschaft](/help/integrations/assets/target-am-trait.png)
-
-1. Richten Sie ein Testsegment in Audience Manager ein:
-
-   1. Navigieren Sie oben auf der Seite zu **Zielgruppendaten** > **Eigenschaften** und suchen Sie nach dem vollständigen Eigenschaftsnamen. Aktivieren Sie das Kontrollkästchen neben dem Eigenschaftsnamen und klicken Sie auf **Segment erstellen**.
-
-   1. Benennen Sie das Segment, wählen Sie `Ad Cloud` als **Datenquelle** und speichern Sie das Segment.
+   1. [Einrichten eines Testsegments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) für die neue Eigenschaft in Audience Manager, indem Sie `Ad Cloud` als **Datenquelle**.
 
       Audience Manager teilt das Segment automatisch in eine Kontrollgruppe auf, die das standardmäßige Landingpage-Erlebnis erhält, und in eine Testgruppe, die ein personalisiertes Onsite-Erlebnis erhalten hat.
-
-   ![Screenshot eines Testsegments](/help/integrations/assets/target-am-segment.png)
 
 ## Schritt 3: Einrichten einer A/B-Test-Aktivität in Target
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorgehoben. Eine vollständige Anleitung finden Sie unter &quot;[Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
+In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorgehoben. Eine vollständige Anleitung finden Sie unter &quot;&quot;.
 
 1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. Aus dem **Tätigkeiten** Liste, klicken Sie **Aktivität erstellen** > **A/B-Test**.
+1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   ![Erstellen einer A/B-Test-Aktivität](/help/integrations/assets/target-create-ab.png)
+   1. Im **Aktivitäts-URL eingeben** Geben Sie die Landingpage-URL für den Test ein.
 
-1. Im **Aktivitäts-URL eingeben*** ein, geben Sie die URL der Landingpage für den Test ein.
+      >[!NOTE]
+      >
+      >Sie können mehrere URLs verwenden, um den Viewthrough-Site-Einstieg zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Sie können die Top-Einträge einfach anhand der Seiten-URL identifizieren, indem Sie eine [Site-Einstiegsbericht](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
 
-   ![Feld &quot;Aktivitäts-URL&quot;](/help/integrations/assets/target-create-ab-url.png)
+   1. Im **Ziel** geben Sie die Erfolgsmetrik für den Test ein.
 
-   >[!NOTE]
-   >
-   >Sie können mehrere URLs verwenden, um den Viewthrough-Site-Einstieg zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Sie können die Top-Einträge einfach anhand der Seiten-URL identifizieren, indem Sie eine [Site-Einstiegsbericht](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
+      >[!NOTE]
+      >
+      >Stellen Sie sicher, dass [!DNL Analytics] als Datenquelle in [!DNL Target]und dass die richtige Report Suite ausgewählt ist.
 
-1. Im **Ziel** geben Sie die Erfolgsmetrik für den Test ein.
+   1. Legen Sie die **Priorität** nach `High` oder `999` um Konflikte zu vermeiden, wenn Benutzer im Testsegment ein falsches On-site-Erlebnis erhalten.
 
-   >[!NOTE]
-   >
-   >Stellen Sie sicher, dass [!DNL Analytics] als Datenquelle in [!DNL Target]und dass die richtige Report Suite ausgewählt ist.
+   1. Within **Berichtseinstellungen**, wählen Sie die **Firmenname** und **Report Suite** mit Ihrem DSP-Konto verbunden.
 
-1. Legen Sie die **Priorität** nach `High` oder `999` um Konflikte zu vermeiden, wenn Benutzer im Testsegment ein falsches On-site-Erlebnis erhalten.
+      Weitere Tipps zur Berichterstellung finden Sie unter[Best Practices und Fehlerbehebung für die Berichterstellung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
-1. Within **Berichtseinstellungen**, wählen Sie die **Firmenname** und **Report Suite** mit Ihrem DSP-Konto verbunden.
+   1. Im **Datumsbereich** geben Sie das entsprechende Start- und Enddatum für den Test ein.
 
-   Weitere Tipps zur Berichterstellung finden Sie unter[Best Practices und Fehlerbehebung für die Berichterstellung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
+   1. Fügen Sie der Aktivität Zielgruppen hinzu:
 
-1. Im **Datumsbereich** geben Sie das entsprechende Start- und Enddatum für den Test ein.
+      1. Wählen Sie die [Segment, das Sie zuvor in Audience Manager erstellt haben, um Durchsichtszielgruppen zu testen](#view-through-framework).
 
-1. Fügen Sie der Aktivität Zielgruppen hinzu:
+      1. Auswählen **Seiten der Site** > **Landingpage** > **Abfrage** und geben Sie den DSP Platzierungsschlüssel in die **Wert** -Feld, um die Target-Abfragezeichenfolgenparameter für Clickthrough-Zielgruppen zu verwenden.
 
-   1. Wählen Sie die [Segment, das Sie zuvor in Audience Manager erstellt haben, um Durchsichtszielgruppen zu testen](#view-through-framework).
+   1. Für **Traffic-Zuordnungsmethode** auswählen **Manuell (Standard)** und teilen Sie die Zielgruppe 50/50 auf.
 
-      ![Zielgruppen zur Aktivität hinzufügen](/help/integrations/assets/target-create-ab-audiences.png)
-
-   1. Auswählen **Seiten der Site** > **Landingpage** > **Abfrage** und geben Sie den DSP Platzierungsschlüssel in die **Wert** -Feld, um die Target-Abfragezeichenfolgenparameter für Clickthrough-Zielgruppen zu verwenden.
-
-      ![Screenshot einer Zielgruppen-Klick-Audience](/help/integrations/assets/target-click-audience.jpg)
-
-1. Für **Traffic-Zuordnungsmethode** auswählen **Manuell (Standard)** und teilen Sie die Zielgruppe 50/50 auf.
-
-1. Speichern Sie die Aktivität.
+   1. Speichern Sie die Aktivität.
 
 1. Verwendung [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) , um Designänderungen an der Landingpage-Vorlage für A/B-Tests vorzunehmen.
 
