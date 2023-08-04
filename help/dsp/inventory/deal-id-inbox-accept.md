@@ -3,9 +3,9 @@ title: Akzeptieren eines Angebots im [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie, wie Sie ein privates Geschäft akzeptieren, das Sie bereits mit einem Herausgeber ausgehandelt haben in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]) über den Posteingang der Angebots-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox] um schnell ein privates Geschäft z
 
    1. Klicken **[!UICONTROL Save]**.
 
-1. (Nur programmgesteuerte Angebote) Befolgen Sie die Anweisungen, um eine Anzeige oder ein 1x1-Tracking-Pixel für von Herausgebern verwaltete Anzeigen für den Kauf auszuwählen und eine programmgesteuerte, garantierte Standardplatzierung zu erstellen, die auf den Deal ausgerichtet ist.
+1. (Nur programmgesteuerte Angebote) Befolgen Sie die Anweisungen, um eine Anzeige (oder ein 1x1-Tracking-Pixel für von Herausgebern verwaltete Anzeigen) für das Angebot auszuwählen und eine programmgesteuerte, garantierte Standardplatzierung zu erstellen, die auf das Geschäft ausgerichtet ist.
 
 Sobald Sie ein Geschäft angenommen haben, wird es von der [!UICONTROL Deal ID inbox] der [!UICONTROL Inventory] > [!UICONTROL Deals] anzeigen und der Deal ist als private Inventarquelle in der [!UICONTROL Inventory Targeting] Abschnitt.
 

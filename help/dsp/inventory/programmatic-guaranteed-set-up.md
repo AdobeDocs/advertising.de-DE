@@ -3,9 +3,9 @@ title: Einrichten eines programmgesteuerten "garantierten Angebots"
 description: Erfahren Sie, wie Sie einen programmgesteuerten garantierten (PG) Deal einrichten, den Sie mit einem Publisher ausgehandelt haben.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Verwenden Sie diese Methode für alle anderen SSPs.
 
 1. [Manuelles Einrichten der Details der Deal-ID](deal-id-create.md).
 
-1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder das 1x1-Tracking-Pixel für vom Herausgeber verwaltete Anzeigen), die für den Deal verwendet werden, und erstellen Sie nach Aufforderung eine PG-Standardplatzierung.
+1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder das 1x1-Tracking-Pixel für vom Publisher verwaltete Anzeigen), die für den Deal verwendet werden, und erstellen Sie nach Aufforderung eine PG-Standardplatzierung.
 
    Die Erstellung einer PG-Standardplatzierung für den Kauf ist obligatorisch, um 100 % Ihres Kaufs bereitzustellen. Dieser Platzierungstyp hat kein Targeting, sodass DSP jedem Angebotsantrag des Herausgebers ein Angebot zurückgeben kann.
 
