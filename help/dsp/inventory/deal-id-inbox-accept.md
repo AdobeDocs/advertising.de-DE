@@ -3,9 +3,9 @@ title: Akzeptieren eines Angebots im [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie, wie Sie ein privates Geschäft akzeptieren, das Sie bereits mit einem Herausgeber ausgehandelt haben in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]) über den Posteingang der Angebots-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox] um schnell ein privates Geschäft z
 
 >[!NOTE]
 >
->Einrichten programmgesteuerter garantierter Angebote für Herausgeber in [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Siehe[Übersicht über die Einrichtung programmgesteuerter Garantiegeschäfte in FreeWheel](freewheel-overview.md)&quot;.
+>Einrichten programmgesteuerter garantierter Angebote für Herausgeber in [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Siehe &quot;[Übersicht über die Einrichtung programmgesteuerter Garantiegeschäfte in FreeWheel](freewheel-overview.md)&quot; für weitere Informationen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -34,19 +34,19 @@ Verwenden Sie die [!UICONTROL Deal ID inbox] um schnell ein privates Geschäft z
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in den Details des Angebots auf **[!UICONTROL Accept]**.
+   * Klicken Sie in den Geschäftsdetails auf **[!UICONTROL Accept]**.
 
    * Im [!UICONTROL Deal ID inbox], halten Sie den Cursor über die Zeile &quot;Deal&quot;und klicken Sie auf ![Accept](/help/dsp/assets/accept.png).
 
 1. In den Details des Vorhabens:
-   1. Füllen Sie die erforderlichen Informationen aus: **[!UICONTROL Publisher]**, **[!UICONTROL Media Type]** und **[!UICONTROL Deal Access]** (Werbetreibende, die Zugriff auf das Geschäft haben).
+   1. Füllen Sie die erforderlichen Informationen aus: **[!UICONTROL Publisher]**, **[!UICONTROL Media Type]**, und **[!UICONTROL Deal Access]** (Werbetreibende, die Zugriff auf das Geschäft haben).
    1. (Optional) Geben Sie zusätzliche Konten an, für die Sie den Deal freigeben oder dem Deal-Datensatz Beschriftungen anhängen können.
 
    1. Klicken **[!UICONTROL Save]**.
 
-1. (Nur programmgesteuerte garantierte Angebote) Befolgen Sie die Anweisungen, um eine Anzeige für das Geschäft auszuwählen und eine programmgesteuerte garantierte Standardplatzierung zu erstellen, die auf das Geschäft ausgerichtet ist.
+1. (Nur programmgesteuerte Angebote) Befolgen Sie die Anweisungen, um eine Anzeige oder ein 1x1-Tracking-Pixel für von Herausgebern verwaltete Anzeigen für den Kauf auszuwählen und eine programmgesteuerte, garantierte Standardplatzierung zu erstellen, die auf den Deal ausgerichtet ist.
 
-Sobald Sie ein Geschäft angenommen haben, wird es von der [!UICONTROL Deal ID inbox] der [!UICONTROL Inventory] > [!UICONTROL Deals] anzeigen und der Deal ist als private Inventarquelle in den einzelnen Platzierungen verfügbar. [!UICONTROL Inventory Targeting] Abschnitt.
+Sobald Sie ein Geschäft angenommen haben, wird es von der [!UICONTROL Deal ID inbox] der [!UICONTROL Inventory] > [!UICONTROL Deals] anzeigen und der Deal ist als private Inventarquelle in der [!UICONTROL Inventory Targeting] Abschnitt.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +55,3 @@ Sobald Sie ein Geschäft angenommen haben, wird es von der [!UICONTROL Deal ID i
 >* [Senden einer Anzeige für einen programmgesteuerten, garantierten Deal mit [!DNL FreeWheel]](freewheel-submit.md)
 >* [Über programmatische Garantievereinbarungen](programmatic-guaranteed-about.md)
 >* [Übersicht über die Funktionen des Bestands](inventory-overview.md)
-
