@@ -3,9 +3,9 @@ title: Manuelles Erstellen von Details zur Angebots-ID
 description: Erfahren Sie, wie Sie Details für eine Angebots-ID manuell eingeben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Klicken **[!UICONTROL Save]**.
 
-1. (Nur garantierte Angebote) Wählen Sie die Anzeigen aus, die für das Angebot verwendet werden sollen, und erstellen Sie eine standardmäßige, programmgarantierte Platzierung (PG).
+1. (Nur garantierte Angebote) Wählen Sie die Anzeigen aus, die für das Angebot verwendet werden sollen (oder ein 1x1-Pixel für von Publisher verwaltete Anzeigen), und erstellen Sie eine standardmäßige, programmgarantierte Platzierung (PG).
 
    Standardmäßige PG-Platzierungen stellen sicher, dass Ihr Deal immer ein Angebot für jede Angebotsanforderung zurückgibt. Wenn Sie keine standardmäßige PG-Platzierung erstellen, platzieren Platzierungen, die auf den Deal abzielen, keine Angebote, es sei denn, sie sind korrekt eingerichtet. Sie sollten immer eine standardmäßige PG-Platzierung erstellen. Im [!UICONTROL Placements] Ansicht, standardmäßige PG-Platzierungen haben eine [!UICONTROL Sub-type] Spaltenwert von &quot;[!UICONTROL PG Default].&quot;
 
@@ -34,22 +34,23 @@ ht-degree: 0%
 
    1. Im [!UICONTROL Ad & Campaign Selection] -Einstellungen wählen Sie die Anzeigen aus, die für den Deal verwendet werden sollen:
 
-      1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus aus, nach dem die Anzeigen gefiltert werden sollen.
+      1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus zum Filtern der Anzeigen aus.
 
       1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben den einzelnen Anzeigen, die für das Geschäft verwendet werden sollen.
 
+      1. Bei von Publisher verwalteten Anzeigen wird nach Auswahl von Advertiser und Kampagne automatisch ein 1x1-Tracking-Pixel angewendet.
+
       1. Klicken **[!UICONTROL Apply]**.
+
    1. Im Bildschirm für die Platzierungseinstellungen:
 
       1. Geben Sie den Platzierungsnamen ein.
 
-      1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md), einschließlich des Überschreibens des Standardangebots, das automatisch mit dem CPM-Wert aus dem Deal gefüllt wird; Änderung des Datumsbereichs; oder fügen Sie weitere Anzeigen hinzu.
+      1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md), einschließlich Überschreiben des Standardangebots, das automatisch mit dem CPM-Wert aus dem Deal gefüllt wird, Ändern des Datumsbereichs oder Hinzufügen weiterer Anzeigen.
 
-      Der Deal wird automatisch im Abschnitt Inventarziele ausgerichtet. Alle anderen Targeting-Optionen sind nicht verfügbar.
+      Der Deal wird automatisch im Abschnitt Inventarziele angesprochen. Alle anderen Targeting-Optionen sind nicht verfügbar.
 
       1. Klicken **[!UICONTROL Create placement]**.
-
-
 
 Nachdem Sie den Deal erstellt haben, können Sie den Deal als Inventarziel für mehrere Platzierungen verwenden.
 
@@ -63,12 +64,10 @@ Nachdem Sie den Deal erstellt haben, können Sie den Deal als Inventarziel für 
 >
 >* Wenn der Versand zu kurz oder zu schnell verläuft, wenden Sie sich an Ihren Herausgeber, um die Menge anzupassen, die durch den Deal gesendet wird.
 
-
 >[!MORELIKETHIS]
 >
 >* [Manuelle Deal-ID-Einstellungen](deal-id-settings.md)
 >* [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](programmatic-guaranteed-set-up.md)
 >* [Senden einer Anzeige für einen programmgesteuerten, garantierten Deal mit [!DNL FreeWheel]](freewheel-submit.md)
 >* [Über programmatische Garantievereinbarungen](programmatic-guaranteed-about.md)
-
 <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
