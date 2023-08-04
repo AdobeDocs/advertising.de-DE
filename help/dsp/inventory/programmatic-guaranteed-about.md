@@ -3,9 +3,9 @@ title: Über programmatische Garantievereinbarungen
 description: Erfahren Sie mehr über programmgarantierte (PG) Angebote und welche SSPs für ihre Bereitstellung zertifiziert sind.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
+source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Ein programmgesteuertes garantiertes (PG) Geschäft ist ein garantierter Kauf di
 * In der Regel hat der Deal eine höhere Priorität auf dem Adserver des Herausgebers.
 * Angebotsanfragen schließen sich nicht nur einem Einzelgeschäft oder Käufer aus.
 * Für eine einzige Deal-ID werden mehrere Arten von Videos unterstützt.
-* Von Herausgebern verwaltete Anzeigen werden über die Google Authorized Buyers SSP akzeptiert.
+* Von Herausgebern verwaltete Anzeigen werden über [!DNL Google Authorized Buyers] SSP.
 * Die SSPs und Herausgeber verfügen über Bereitstellungs-SLAs.
 
-PG-Angebote erfordern eine PG-Standardplatzierung und -Anzeigen (oder 1x1 Pixel für von Publisher verwaltete Anzeigen), damit DSP eine Anfrage an jede Angebotsanforderung zurückgeben und Bereitstellungs-SLAs mit den SSPs erfüllen kann. Nachdem Sie die obligatorische PG-Standardplatzierung eingerichtet haben, können Sie den PG-Deal auch in anderen Platzierungen als Ziel auswählen.
+PG-Angebote erfordern eine PG-Standardplatzierung und -Anzeigen (oder ein 1x1-Pixel für von Publisher verwaltete Anzeigen), damit DSP eine Anfrage an jede Angebotsanforderung zurückgeben und Bereitstellungs-SLAs mit den SSPs erfüllen kann. Nachdem Sie die obligatorische PG-Standardplatzierung eingerichtet haben, können Sie den PG-Deal auch in anderen Platzierungen als Ziel auswählen.
 
 ## SSPs, die für PG-Angebote in DSP zertifiziert sind
 
