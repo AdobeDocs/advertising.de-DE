@@ -3,9 +3,9 @@ title: Manuelles Erstellen von Details zur Angebots-ID
 description: Erfahren Sie, wie Sie Details für eine Angebots-ID manuell eingeben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Klicken **[!UICONTROL Save]**.
 
-1. (Nur garantierte Angebote) Wählen Sie die Anzeigen aus, die für das Angebot verwendet werden sollen (oder das 1x1-Pixel für von Publisher verwaltete Anzeigen), und erstellen Sie eine standardmäßige, programmgarantierte Platzierung (PG).
+1. (Nur garantierte Angebote) Wählen Sie die Anzeigen aus, die für das Angebot verwendet werden sollen (oder das 1x1-Pixel für publisher-verwaltete Anzeigen), und erstellen Sie eine standardmäßige, programmgarantierte Platzierung (PG).
 
    Standardmäßige PG-Platzierungen stellen sicher, dass Ihr Deal immer ein Angebot für jede Angebotsanforderung zurückgibt. Wenn Sie keine standardmäßige PG-Platzierung erstellen, platzieren Platzierungen, die auf den Deal abzielen, keine Angebote, es sei denn, sie sind korrekt eingerichtet. Sie sollten immer eine standardmäßige PG-Platzierung erstellen. Im [!UICONTROL Placements] Ansicht, standardmäßige PG-Platzierungen haben eine [!UICONTROL Sub-type] Spaltenwert von &quot;[!UICONTROL PG Default].&quot;
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben den einzelnen Anzeigen, die für das Geschäft verwendet werden sollen.
 
-      1. Bei von Publisher verwalteten Anzeigen wird nach Auswahl von Advertiser und Kampagne automatisch ein 1x1-Tracking-Pixel angewendet.
+      1. Bei von Herausgebern verwalteten Anzeigen wird nach Auswahl von Advertiser und Kampagne automatisch ein 1x1-Tracking-Pixel angewendet.
 
       1. Klicken **[!UICONTROL Apply]**.
 
