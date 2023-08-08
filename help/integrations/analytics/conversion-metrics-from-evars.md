@@ -2,9 +2,9 @@
 title: "Erstellen von Konversionsmetriken aus Adobe Analytics [!DNL eVars] und props"
 description: "Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit [!DNL eVar]- und [!DNL prop]-Daten."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
-Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf [vorhandene [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [Ihre [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein Ereignis ein. Sonstiges [!DNL Analytics] Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
+Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf [vorhandene [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein Ereignis ein. Sonstiges [!DNL Analytics] Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
 
 ![Nutzungsbeispiel](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Nutzungsbeispiel")
 
