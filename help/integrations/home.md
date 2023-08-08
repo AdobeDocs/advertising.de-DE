@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 8. August 2023 | [!DNL Analytics for Advertising] | Einige [!DNL Analytics] Erfolgsereignismetriken, einschließlich standardmäßiger, benutzerspezifischer und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar. Jetzt können Sie auch Ihre eigenen Erfolgsmetriken basierend auf Ihren vorhandenen [!DNL Analytics] [!DNL eVars] und [!DNL props] durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein benutzerspezifisches Erfolgsereignis. | Siehe &quot;[Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
+| 8. August 2023 | [!DNL Analytics for Advertising] | Einige [!DNL Analytics] Erfolgsereignismetriken, einschließlich standardmäßiger, benutzerspezifischer und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und in Search, Social und Commerce verfügbar. Jetzt können Sie auch Ihre eigenen Erfolgsmetriken basierend auf Ihren vorhandenen [!DNL Analytics] [!DNL eVars] und [!DNL props] durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein benutzerspezifisches Erfolgsereignis. | Siehe &quot;[Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13. Juli 2023 | Berichterstellung | (DSP Benutzer mit [!DNL Analytics for Advertising]) Durchsichtskonversionen für verbundene TV-Platzierungen (CTV) sind jetzt in den in Adobe Analytics verfügbaren Konversionsdaten enthalten. | Siehe den Abschnitt &quot;Beispiele für die Verwendung der Integration&quot;in &quot;[Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 1. November 2022 | Hilfe | In einem neuen Dokument wird erläutert, wie Sie die Clickthrough- und Viewthrough-Signalfreigabe zwischen Advertising DSP und Adobe Target implementieren und eine A/B-Test-Aktivität in [!DNL Target] für Ihre DSP Anzeigen und wie Sie Adobe Analytics Analysis Workspace zur Ansicht der Testdaten einrichten. | Siehe &quot;[Konfigurieren von A/B-Tests in Adobe Target für Anzeigen DSP](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 17. August 2022 | Hilfe | In einem neuen Kapitel werden alle Möglichkeiten erläutert, wie Adobe Advertising in Adobe Audience Manager integriert wird. | Siehe Kapitel &quot;Integration mit Adobe Audience Manager&quot;, einschließlich einer Übersicht über &quot;[Adobe Advertising-Integrationen mit Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
