@@ -2,7 +2,7 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## [!UICONTROL General] Einstellungen
 
-**[!UICONTROL Advertiser Name]:** Der Name des Advertisers.
+**[!UICONTROL Advertiser Name]:** Der Anzeigename.
 
 **[!UICONTROL Category]:** Die Kategorie, in der das Geschäft des Werbetreibenden tätig ist. Die Kategorie wird den Herausgebern mitgeteilt, wenn Sie ein Angebot für den Bestand abgeben. Stellen Sie sicher, dass Sie eine Kategorie auswählen, die Ihren Anzeigen entspricht, oder Herausgeber können Ihre Anzeigen ablehnen.
 
@@ -37,13 +37,13 @@ Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten 
 
 ### [!UICONTROL Integrations]
 
-(Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Organisations-ID des Experience Cloud zugeordnet sein, die in der Variablen [!UICONTROL Adobe IMS IDs] Abschnitt.
+(Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Organisations-ID des Experience Cloud zugeordnet sein, die in der [!UICONTROL Adobe IMS IDs] Abschnitt.
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder Adobe Advertising-Konversionspixel verwenden) A [!DNL Search, Social, & Commerce] -Konto, mit dem DSP Attributionsdaten austauschen.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; fakultativ; gilt nur für Daten, die mit Adobe Advertising-Konversions-Trackingtags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; optional; nur für Daten verfügbar, die mit Adobe Advertising-Konversions-Trackingtags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
 
-Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL Search, Social, & Commerce] Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten vom Adobe Advertising konfiguriert sein.
+Damit die Daten in den Report Suites angezeigt werden, muss die [!DNL Search, Social, & Commerce] Einstellung auf Advertiser-Ebene muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten vom Adobe Advertising konfiguriert sein.
 
 >[!WARNING]
 >
@@ -51,11 +51,11 @@ Damit die Daten in den Report Suites angezeigt werden, muss die Variable [!DNL S
 
 Weitere Informationen zur Integration mit [!DNL Analytics], siehe[Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertiser mit Adobe Audience Manager oder Adobe Analytics; optional) ein Audience Manager oder [!DNL Analytics] -Konto, aus dem DSP Segmentmetadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Adobe-Zielgruppen des Advertisers abruft. Dazu gehören Daten für:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertiser mit Adobe Audience Manager oder Adobe Analytics; optional) Ein Audience Manager oder [!DNL Analytics] -Konto, aus dem DSP Segmentmetadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Adobe-Zielgruppen des Advertisers abruft. Dazu gehören Daten für:
 
 * Audience Manager-Segmente
-* [!DNL Analytics] Segmente, die in Adobe Experience Cloud veröffentlicht werden
-* Segmente, die mit Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
+* [!DNL Analytics] in Adobe Experience Cloud veröffentlichte Segmente
+* Segmente, die mit der Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
 * Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an den Adobe Advertising gesendet werden
 
 Die anfängliche Synchronisation dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von einer bis zwei Sekunden synchronisiert.
@@ -82,7 +82,7 @@ Sie können optional Standardziele für die neuen Platzierungen des Werbetreiben
 
 #### [!UICONTROL Contextual Filtering]
 
-Typen [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]und [!DNL Peer39] anzuwendende Kontextfilter. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
+Typen [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], und [!DNL Peer39] anzuwendende Kontextfilter. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
@@ -104,7 +104,7 @@ Typen [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]und [!DNL 
 
 #### [!UICONTROL Pre-Bid Fraud Blocking]
 
-Arten von zu blockierenden Websites auf der Grundlage von betrügerischem Traffic und verdächtigen Aktivitäten, die durch [!DNL DoubleVerify], [!DNL Integral Ad Science]und [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
+Arten von zu blockierenden Websites auf der Grundlage von betrügerischem Traffic und verdächtigen Aktivitäten, die durch [!DNL DoubleVerify], [!DNL Integral Ad Science], und [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
@@ -114,7 +114,7 @@ Arten von zu blockierenden Websites auf der Grundlage von betrügerischem Traffi
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Optional) Ein oder mehrere Arten von Betrug, durch den Anzeigen standardmäßig blockiert DSP: *[!UICONTROL Fraud]* (die alle betrügerischen Websites blockiert), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren erhoben werden.
+**[!UICONTROL Block sites that are]:** (Optional) Ein oder mehrere Arten von Betrug, durch den Anzeigen standardmäßig blockiert DSP: *[!UICONTROL Fraud]* (die alle betrügerischen Websites blockiert), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren erhoben werden.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
@@ -123,10 +123,10 @@ Arten von zu blockierenden Websites auf der Grundlage von betrügerischem Traffi
 #### [!UICONTROL Ads.text]
 
 **[!UICONTROL Ads.txt Filtering]:** Standardmäßig wird die Ebene von [[!DNL Ads.txt] Filter vor dem Angebot](https://iabtechlab.com/ads-txt-about/) zur Verwendung durch Nutzung der [!DNL Authorized Digital Sellers] list:
-* *[!UICONTROL Opt out of ads.txt (default)]*: Inventar von allen Verkäufern zu kaufen.
+* *[!UICONTROL Opt out of ads.txt (default)]*: Um Inventar von allen Verkäufern zu kaufen.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: Zur Priorisierung des Kaufinventars von autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
-* *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von autorisierten Direktverkäufern und Wiederverkäufern einer Domain zu kaufen.
-* *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von autorisierten Direktverkäufern einer Domain zu kaufen.
+* *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur bei autorisierten Direktverkäufern und Wiederverkäufern einer Domain zu kaufen.
+* *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur bei autorisierten Direktverkäufern einer Domain zu kaufen.
 
 Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -136,9 +136,9 @@ Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene](/he
 
 #### [!UICONTROL DoubleVerify Authentic Brand Safety]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] nur Kunden; optional) Die Kennung des Markensicherheitssegments, die der Organisation zugeordnet ist [!DNL DoubleVerify] -Konto.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] nur Kunden; optional) Die Kennung des Markensicherheitssegments, die mit dem [!DNL DoubleVerify] -Konto.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Optional) Standardmäßig aktiviert [!DNL DoubleVerify] Authentische Markensicherheit, die Impressionen nach dem Gebot blockiert, indem die benutzerdefinierten Markensicherheitsregeln verwendet werden, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
+**[!UICONTROL Enable Authentic Brand Safety]:** (Optional) Standardmäßig aktiviert [!DNL DoubleVerify] Authentische Markensicherheit, die Impressionen nach dem Angebot mithilfe der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
 
 Sie können die Einstellung auf Advertiser-Ebene auf Platzierungsebene überschreiben.
 
