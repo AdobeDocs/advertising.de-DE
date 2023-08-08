@@ -3,9 +3,9 @@ title: Kampagnen einem Portfolio zuweisen
 description: Erfahren Sie, wie Sie Kampagnen zur Optimierung in Portfolios einbeziehen.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wenn Sie eine Kampagne einem optimierten Portfolio zuweisen, können Sie mit Search, Social und Commerce Angebote und Kampagnenbudgets für Suchbegriffe und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen über die [!UICONTROL Campaigns] anzeigen, wenn Sie das Portfolio erstellen oder die Einstellungen eines Portfolios bearbeiten.
 
-Nicht alle Kampagnentypen und Anzeigennetzwerke können optimiert werden. Eine Liste der [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnenangebotsstrategie, indem Sie &quot;Geeignete Portfolio nach Kampagnenangebotsstrategie&quot;im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Verwalten von Portfolios&quot;konsultieren, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Nicht alle Kampagnentypen und Anzeigennetzwerke können optimiert werden. Eine Liste der [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnenangebotsstrategie, indem Sie &quot;Geeignete Portfolio nach Kampagnenangebotsstrategie&quot;im Kapitel &quot;Optimierungshandbuch&quot;zu &quot;Portfolio&quot;konsultieren, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >

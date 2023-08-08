@@ -3,9 +3,9 @@ title: Über die Kampagnenverwaltung in Search, Social und Commerce
 description: Erfahren Sie mehr über die Kampagnenverwaltungsfunktionen in Search, Social und Commerce.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Weitere Informationen zum Tracking finden Sie im Kapitel &quot;Tracking&quot;.
 
 Für [unterstützte Werbenetzwerke und Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)können Sie Ihre Kampagnen in Portfolios gruppieren, jeweils mit einem bestimmten Geschäftsziel und einem spezifischen Budget- oder Leistungsziel. In Standard-Portfolios optimiert Search, Social und Commerce CPC-Suchbegriffangebote und Kampagnenbudgets. Hybrid-Portfolios kombinieren Optimierungstechnologien aus Search, Social, &amp; Commerce und Ihren Werbenetzwerken.
 
-Weitere Informationen zu den verfügbaren Portfoliooptionen und zum Einrichten von Portfolios finden Sie im Kapitel &quot;Optimierungshandbuch&quot;zum &quot;Verwalten von Portfolios&quot;, das in &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Weitere Informationen zu den verfügbaren Portfoliooptionen und zum Einrichten von Portfolios finden Sie im Kapitel &quot;Optimierungshandbuch&quot;zu &quot;Portfolio&quot;, das in &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Ansichten der Kampagnenverwaltung
 

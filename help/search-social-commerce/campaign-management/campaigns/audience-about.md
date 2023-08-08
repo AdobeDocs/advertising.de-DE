@@ -3,7 +3,7 @@ title: Über Zielgruppen
 description: Erfahren Sie mehr über die Optionen zum Tracking, Erstellen und Verwalten [!DNL Google Ads] und [!DNL Microsoft® Advertising] Zielgruppen.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Sie können Zielgruppen auch mithilfe von Segmenten oder E-Mail-Listen aus Ihren
 
    * (Advertiser mit Audience Manager-Konten) Sie können [!DNL Google Ads] Zielgruppen mithilfe von Benutzer-IDs aus Audience Manager-Segmenten mit &quot;Search, Social und Commerce&quot;als Ziel zuordnen. Dies kann Adobe Analytics-Segmente umfassen, die in Adobe Experience Cloud veröffentlicht werden, sowie Segmente, die mithilfe der Adobe Experience Cloud-Zielgruppenbibliothek erstellt wurden.
 
-  Um Kundenabgleichs-Zielgruppen zu erstellen, muss der Werbetreibende [!DNL Google Ads] muss [für benutzerdefinierte Übereinstimmung geeignet](https://support.google.com/adspolicy/answer/6299717) und sich für [Benutzer-ID-Segmente](https://support.google.com/google-ads/answer/9199250). Außerdem muss das Advertiser-Konto in Search, Social und Commerce so konfiguriert sein, dass Zielgruppen für die Kundenabstimmung erstellt werden können.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  Um Kundenabgleichs-Zielgruppen zu erstellen, muss der Werbetreibende [!DNL Google Ads] muss [für benutzerdefinierte Übereinstimmung geeignet](https://support.google.com/adspolicy/answer/6299717) und sich für [Benutzer-ID-Segmente](https://support.google.com/google-ads/answer/9199250). Außerdem muss das Advertiser-Konto in Search, Social und Commerce so konfiguriert sein, dass Zielgruppen für die Kundenabstimmung erstellt werden können.
 
   [!DNL Adobe] Segmentdaten und Cookie-Synchronisierungsdateien für kundendatenbasierte Zielgruppen werden mit synchronisiert. [!DNL Google Ads] täglich.
 
