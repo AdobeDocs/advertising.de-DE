@@ -1,19 +1,19 @@
 ---
-title: Konversionsmetriken aus Adobe Analytics-eVars und -Props erstellen
-description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mithilfe von Daten auf eVar- und Eigenschaftenebene.
+title: "Erstellen von Konversionsmetriken aus Adobe Analytics [!DNL eVars] und props"
+description: "Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit [!DNL eVar]- und [!DNL prop]-Daten."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: d4f439ad23fc386bc85d95cc1291ec668ecf1cd2
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# Konversionsmetriken aus Adobe Analytics-eVars und -Props erstellen
+# Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL props]
 
 *Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
-Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [!DNL Analytics] [eVars](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [props](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) durch Trichtern von Daten auf eVar- und Prop-Ebene in ein Ereignis. Sonstiges [!DNL Analytics] Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
+Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf [vorhandene [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [Ihre [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein Ereignis ein. Sonstiges [!DNL Analytics] Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
 
 ![Nutzungsbeispiel](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Nutzungsbeispiel")
 
@@ -43,17 +43,17 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] Administra
 
    1. [Erstellen einer Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), unter Verwendung der folgenden Konfiguration:
 
-      * Geben Sie für die zu erfüllende Bedingung die erforderlichen eVars oder Eigenschaften an.
+      * Geben Sie für die zu erfüllende Bedingung die erforderlichen [!DNL eVars] oder [!DNL props].
 
         Sie können bei Bedarf zusätzliche Granularitätsstufen konfigurieren, um sicherzustellen, dass die Ereignisse mit der höchsten Genauigkeit erstellt werden.
 
         >[!TIP]
         >
-        >Es empfiehlt sich, nur eine eVar oder Eigenschaft zu verwenden.
+        >Es empfiehlt sich, nur eine [!DNL eVar] oder [!DNL prop].
 
       * Wählen Sie für die Aktion **Ereignis festlegen** und wählen Sie das Platzhalterereignis aus.
 
-   1. In [!DNL Analytics] [!DNL Analysis Workspace], [Erstellen eines Projekts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass Daten für die eVar- oder Eigenschaftsmetrik gefüllt werden.
+   1. In [!DNL Analytics] [!DNL Analysis Workspace], [Erstellen eines Projekts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass Daten für die [!DNL eVar] oder [!DNL prop] Metrik.
 
 1. Wenden Sie sich an Ihr Adobe Account Team, um die neue Metrik mit Adobe Advertising zu synchronisieren.
 

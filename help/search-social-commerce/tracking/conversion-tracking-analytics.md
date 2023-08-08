@@ -3,9 +3,9 @@ title: Adobe Analytics-Konversions-Tracking
 description: Erfahren Sie mehr über die Verwendung des Adobe Analytics-Konversions-Trackings für Ihre Kampagnen in Adobe Advertising.
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Siehe &quot;[Übersicht über [!DNL Analytics for Advertising]](https://experien
 
 1. In [!DNL Analytics], ändert Ihr Implementierungsteam für Suche, Social und Commerce die folgenden Konfigurationseinstellungen für jede Report Suite:
 
-   * Der Ablauf für die `ef_id` eVar wird so geändert, dass sie mit dem Klick-Lookback-Fenster des Advertisers für Adobe Advertising übereinstimmt.
+   * Der Ablauf für die `ef_id` [!DNL eVar] wurde geändert, um dem Klick-Lookback-Fenster des Advertisers für den Adobe Advertising zu entsprechen.
 
    * Die Adobe Advertising-Benutzer-ID.
 

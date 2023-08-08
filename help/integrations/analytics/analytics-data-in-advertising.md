@@ -3,9 +3,9 @@ title: '[!DNL Analytics] Daten in Adobe Advertising'
 description: '[!DNL Analytics] Daten in Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Es dauert 24 bis 48 Stunden, bis neue Segmente im Adobe Advertising angezeigt we
 
 >[!NOTE]
 >
->* [!DNL Analytics] übergibt Ereignisse für den EF ID-eVar an Adobe Advertising.  Die Standardintegration unterstützt nicht das Senden berechneter Metriken oder anderer Dimensionen (eVars) an Adobe Advertising. Wenn die berechnete Metrik jedoch vollständig in einem benutzerspezifischen Ereignis erfasst werden kann, kann der Adobe Advertising das benutzerspezifische Ereignis erfassen.
+>* [!DNL Analytics] übergibt Ereignisse für die EF ID [!DNL eVar] in den Adobe Advertising.  Die Standardintegration unterstützt nicht das Senden berechneter Metriken oder anderer Dimensionen ([!DNL eVars]) in den Adobe Advertising. Wenn die berechnete Metrik jedoch vollständig in einem benutzerspezifischen Ereignis erfasst werden kann, kann der Adobe Advertising das benutzerspezifische Ereignis erfassen.
 >* [!DNL Analytics] übergibt Daten stündlich an den Adobe Advertising.
 
 * [!UICONTROL Timespent_secs_1stvisit]: Die Anzahl der Sekunden, die während des ersten Besuchs des Besuchers auf der Site verbracht wurden.
@@ -56,9 +56,9 @@ Es dauert 24 bis 48 Stunden, bis neue Segmente im Adobe Advertising angezeigt we
 
 Diese Metriken sind spezifisch für die Report Suite, sodass die verfügbaren Metriken für jeden Kunden und jede Report Suite variieren.
 
-### Benutzerdefinierte Konversionsmetriken, die aus eVars und Props erstellt wurden
+### Benutzerdefinierte Konversionsmetriken, die aus [!DNL eVars] und [!DNL Props]
 
-Die verfügbaren Metriken variieren für jeden Kunden. Siehe &quot;[Konversionsmetriken aus Adobe Analytics-eVars und -Props erstellen](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+Die verfügbaren Metriken variieren für jeden Kunden. Siehe &quot;[Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### Reservierte Konversionsmetriken
 
