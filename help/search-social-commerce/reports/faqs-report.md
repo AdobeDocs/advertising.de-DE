@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Im Folgenden finden Sie häufige Gründe für das Fehlen von Klickdaten.
 
 | Ursache | Erkennung/Analyse | Auflösung |
 |---|---|---|
-| Der Prozess, der Klickdaten aus dem Anzeigenkonto abruft, ist fehlgeschlagen. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, auch wenn das Anzeigenkonto Geld ausgegeben hat. | Kontaktieren Sie den Kundensupport unter &lt;*Ihr Benutzerkonto für Suche, Social und Commerce*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Wenn die Daten länger als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenvorausschätzungen aus, bis die Daten abgerufen werden. Ihr Adobe-Kontoteam kann die Daten ausschließen. |
+| Der Prozess, der Klickdaten aus dem Anzeigenkonto abruft, ist fehlgeschlagen. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, auch wenn das Anzeigenkonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe Account Team.<br><br>Wenn die Daten länger als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenvorausschätzungen aus, bis die Daten abgerufen werden. Ihr Adobe-Kontoteam kann die Daten ausschließen. |
 | Ein Abrechnungsfehler zwischen dem Advertiser und dem Werbenetzwerk verhindert, dass das Werbekonto ausgegeben wird. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht ausgegeben werden konnte, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe-Kontoteam kann die Daten ausschließen. |
 +++
 

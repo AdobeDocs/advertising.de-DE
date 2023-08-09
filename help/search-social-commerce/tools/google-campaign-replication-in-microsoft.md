@@ -3,9 +3,9 @@ title: Replikation [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 description: Erfahren Sie, wie Sie Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] -Konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 **[!UICONTROL Credential ID]:** Eine ID, die [!DNL Microsoft® Advertising] verwendet, um Ihre [!DNL Google Ads] Anmeldedaten.
 
-Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an den technischen Support von Adobe oder an Ihr Adobe Account-Team. Diese generieren die Anmeldeinformationen und geben Sie die Kennung an.
+Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an Ihr Adobe Account Team, das die Anmeldeinformationen generiert und Ihnen die Kennung gibt.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Die synchronisierten [!DNL Microsoft® Advertising] Konto, in das die Kampagnendaten importiert werden.
 
