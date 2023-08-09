@@ -3,7 +3,7 @@ title: Die für Berichte verwendeten Daten
 description: Erfahren Sie mehr über die verschiedenen Datentypen, die in Datenansichten und benutzerdefinierten Berichten verfügbar sind.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Search, Social und Commerce umfasst einen umfassenden Satz von Leistungsberichten, die auf Klick- und Konversionsdaten basieren. Sie können grundlegende Leistungsdaten für die verschiedenen Komponenten eines Portfolios oder Anzeigenkontos über die [!UICONTROL Portfolios] und [!UICONTROL Campaigns] und durch die Erstellung verschiedener grundlegender und erweiterter Berichte.
 
-Werbetreibende, die den Adobe Advertising-Konversions-Tracking-Dienst verwenden, können auch die Anzahl der Klicks für einen geografischen Standort oder Domänennamen einer verweisenden Website identifizieren, wie Anzeigen in den einzelnen Kanälen und die verschiedenen Ereignisse, die zu einer Konversion führen, zur Gesamtkonversionsrate beitragen und die Verteilung der Konversionen für eine einzige Website [Konversionsmetrik](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) nach Marketing-Kanal. Die verfügbaren Berichte variieren je nach Benutzerkontotyp. Das Adobe Account Team hat Zugriff auf alle Berichte.
+Werbetreibende, die den Adobe Advertising-Konversions-Tracking-Dienst verwenden, können auch die Anzahl der Klicks für einen geografischen Standort oder Domänennamen einer verweisenden Website identifizieren, wie Anzeigen in den einzelnen Kanälen und die verschiedenen Ereignisse, die zu einer Konversion führen, zur Gesamtkonversionsrate beitragen und die Verteilung der Konversionen für eine einzige Website [Konversionsmetrik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) nach Marketing-Kanal. Die verfügbaren Berichte variieren je nach Benutzerkontotyp. Das Adobe Account Team hat Zugriff auf alle Berichte.
 
 Die meisten Berichte können so angepasst werden, dass nur die Informationen angezeigt werden, die Sie sehen möchten. Die folgenden Standardmetriken sind in den meisten Berichten verfügbar und werden auf Anzeigenebene berechnet:
 
