@@ -2,9 +2,9 @@
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie sich die Online-Hilfe und Community-Ressourcen ansehen und technischen Support erhalten.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Sie können die Online-Hilfe von jeder Seite in der Benutzeroberfläche aus öff
 
 Antworten auf Ihre Fragen finden Sie im Abschnitt [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Adobe kontaktieren
+## Kontakt [!DNL Adobe]
 
-| Für ... | Kontakt unter |
-| ---- | ---- |
-| Produkt- oder Kontoprobleme mit Search, Social und Commerce | Wenden Sie sich an Ihr Adobe Account Team. |
-| Feedback zu Search, Social und Commerce | Klicken Sie im oberen Menü auf ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **[!UICONTROL Provide Feedback]**, geben Sie Ihre Nachricht ein und klicken Sie auf **[!UICONTROL Send Feedback]**. |
+Führen Sie bei Produkt- oder Kontoproblemen mit Suche, Social und Commerce einen der folgenden Schritte aus:
 
-### Informationen für Produktprobleme
+* Wenden Sie sich an Ihr Adobe Account Team.
 
-Führen Sie detaillierte Schritte durch, um das Problem, den Namen und die Version des Browsers, alle relevanten Daten und Informationen über die vorläufige Fehlerbehebung, die Sie durchgeführt haben, zu reproduzieren.
+* Klicken Sie im oberen Menü auf ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **[!UICONTROL Provide Feedback]**, geben Sie Ihre Nachricht ein und klicken Sie auf **[!UICONTROL Send Feedback]**. |
+
+Führen Sie detaillierte Schritte durch, um das Problem zu reproduzieren, alle relevanten Daten und Informationen über die vorläufige Fehlerbehebung, die Sie durchgeführt haben. Wenn Sie das Problem an Ihr Adobe Account Team melden, geben Sie auch den Browsernamen und die Version an.
 
 Löschen Sie bei Berichtsproblemen den Bericht nicht und geben Sie den Berichtsnamen und die URL an.
