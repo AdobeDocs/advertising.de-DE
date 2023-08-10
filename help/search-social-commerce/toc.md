@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Klick-Tracking-Formate für [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optionale Tracking-Parameter für Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
-      + [Der Tracking-Parameter s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+      + [Der Tracking-Parameter AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konversions-Tracking {#conversion-tracking}
       + [Konversions-Tracking-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising-Konversions-Tracking {#advertising-conversion-tracking}

@@ -3,7 +3,7 @@ title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 
 * **S_kwcid-Format** - (Bestehend [!DNL Google Ads] Konten für Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde.
 
-Dieses Konto verwendet das ältere Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto für Adobe Analytics freigeben können. Die [neuestes Format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID, die erforderlich sind, um eine genaue Berichterstellung auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen und Entwürfe sowie Experimente mit Höchstleistung in Analytics:
+Dieses Konto verwendet das ältere Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto für Adobe Analytics freigeben können. Die [neuestes Format](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID, die erforderlich sind, um eine genaue Berichterstellung auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen und Entwürfe sowie Experimente mit Höchstleistung in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

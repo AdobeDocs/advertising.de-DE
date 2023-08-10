@@ -3,7 +3,7 @@ title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Microsoft Advertising] Konten.
 exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -107,4 +107,4 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [Formate für den AMO-ID-Trackingcode](skwcid-tracking-parameter.md)
+>* [Formate für den AMO-ID-Trackingcode](amo-id-tracking-parameter.md)

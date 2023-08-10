@@ -3,7 +3,7 @@ title: Klick-Tracking-Formate für [!DNL Yahoo! Display Network]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yahoo! Display Network] Konten.
 exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Beispiel:
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [Formate für den AMO-ID-Trackingcode](skwcid-tracking-parameter.md)
+>* [Formate für den AMO-ID-Trackingcode](amo-id-tracking-parameter.md)
