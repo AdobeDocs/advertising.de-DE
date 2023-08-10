@@ -3,7 +3,7 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeig
 
 [^3]: Erfordert eine Integration mit Adobe Analytics. Siehe &quot;[Übersicht über Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] -Daten werden mit dem aktualisierten AMO-ID-Tracking-Parameter (s_kwcid) unabhängig vom AMO-ID-Format, das Sie normalerweise für das Konto verwenden, an Search, Social und Commerce gesendet. Wenn Sie normalerweise die ältere Version der AMO-ID verwenden, empfehlen wir für das beste Erlebnis ein Upgrade auf das neue AMO-ID-Format. Selbst wenn Ihre Klick-/Kostendaten und Umsatzdaten mit unterschiedlichen AMO-IDs verfolgt werden, werden beide Datensätze vollständig klassifiziert und in derselben Kampagne und demselben Konto aggregiert.
+[^4]: [!DNL Analytics] Daten werden mithilfe des aktualisierten AMO-ID-Tracking-Parameters an Search, Social und Commerce gesendet (beginnend mit `s_kwcid`), unabhängig vom AMO-ID-Format, das Sie normalerweise für das Konto verwenden. Wenn Sie normalerweise die ältere Version der AMO-ID verwenden, empfehlen wir für das beste Erlebnis ein Upgrade auf das neue AMO-ID-Format. Selbst wenn Ihre Klick-/Kostendaten und Umsatzdaten mit unterschiedlichen AMO-IDs verfolgt werden, werden beide Datensätze vollständig klassifiziert und in derselben Kampagne und demselben Konto aggregiert.

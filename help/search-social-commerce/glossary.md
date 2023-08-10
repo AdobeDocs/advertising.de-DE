@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **Anzeigengruppe:** Eine Reihe von Anzeigen und zugehörigen Suchbegriffen, Platzierungen und Produktgruppen für eine Kampagne.
 
 **Anzeigenvariante:** Jede Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
+
+**AMO-ID:** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics freigeben können. Sie beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Suchbegriff, Social und Commerce für eine Einheit, auf der Gebote platziert werden. Bei den meisten Kampagnen in den meisten Netzwerken handelt es sich um einen Suchbegriff und dessen Übereinstimmungstyp für eine Such- oder Inhaltskampagne, eine Produktgruppe auf Eintebene (niedrigste Unterteilung) für eine Einkaufskampagne oder ein dynamisches Suchziel für eine dynamische Suchanzeigenkampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dieselbe Produktgruppe oder dasselbe dynamische Suchziel innerhalb mehrerer Anzeigengruppen in einer Kampagne auftritt, werden alle Instanzen als dieselbe Angebotseinheit betrachtet und verfügen daher über dasselbe Angebot.
 
@@ -166,7 +168,7 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 
 **Ausgabestrategie:** (Advertiser mit Portfolios) Die gewählte Strategie zur Optimierung von Keyword-/Anzeigengeboten für ein Portfolio.
 
-**`s_kwcid`:** Ein Trackingcode, mit dem Adobe Advertising Daten zu Suchkampagnen mit Adobe Analytics teilen können.
+**`s_kwcid`:** Siehe &quot;AMO-ID&quot;.
 
 **Tracking-URL:** Eine Tracking-Vorlage oder Ziel-URL mit zusätzlichen Parametern, um Informationen über Klicks auf die Anzeige zu verfolgen. Es kann eine Umleitungs-URL enthalten, über die Benutzer zunächst an einen Tracking-Server gesendet werden, bevor sie zur Landingpage des Advertisers weitergeleitet werden.
 
