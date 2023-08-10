@@ -2,7 +2,7 @@
 title: Erstellen Sie ein Konversions-Tag für [!DNL Google Ads]
 description: Erfahren Sie, wie Sie eine [!DNL Google Ads] Konversions-Tag.
 feature: Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Nachdem Sie die Tags zu Ihrer Website hinzugefügt haben und sie ausgelöst werd
 
 **[!UICONTROL Conversion Name]:** Ein eindeutiger Name für die Konversionsmetrik.
 
-**\[Zielkategorie\]:** Das Konversionsziel. Die verfügbaren Ziele variieren je nach Konversionstyp. Für *[!UICONTROL Calls to a phone number on your website]* und *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]ist standardmäßig ausgewählt.
+**\[Zielkategorie\]:** Die Konversionskategorie. Die verfügbaren Kategorien variieren je nach Konversionstyp. Für *[!UICONTROL Calls to a phone number on your website]* und *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]ist standardmäßig ausgewählt.
 
 **\[Aktionstyp\]:** Ob das Ziel eine *[!UICONTROL Primary action used for bidding optimization]* oder *[!UICONTROL Secondary action not used for bidding optimization]*.
 
