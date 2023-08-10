@@ -1,34 +1,38 @@
 ---
-title: Der Tracking-Parameter s_kwcid
+title: Der Tracking-Parameter AMO ID (s_kwcid)
 description: Erfahren Sie mehr über den Tracking-Parameter, der zum Freigeben von Adobe Advertising-Daten für Adobe Analytics verwendet wird.
 exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 47cb00bc456601ef943c37de14a2047220f756f1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# Der Tracking-Parameter s_kwcid
+# Der Tracking-Parameter AMO ID (s_kwcid)
 
 *Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
 
-<!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
+<!-- This should go in the Analytics integration chapter > IDs page, under "AMO IDs."  But I'll need to update with when/where to add the code for DSP clients. -->
 
-Adobe Advertising gibt Daten zu Ihren Kampagnen mithilfe von Adobe Analytics frei `s_kwcid` -Parameter anhängen, der aus Anzeigenkanal- und Anzeigen-Netzwerkelementen besteht. Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt:
+Adobe Advertising gibt Daten zu Ihren Kampagnen mithilfe des AMO-ID-Anlagenparameters, der auch als `s_kwcid` -Parameter, der aus Anzeigenkanal- und Anzeigennetzwerkspezifischen Elementen besteht.
 
-* (Empfohlen)<!--; the only option for Advertising DSP-->) Die serverseitige s_kwcid-Funktion ist implementiert.
+<!-- add everything below to IDs page -->
 
-  Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit [!UICONTROL Auto Upload] Wenn diese Einstellung für das Konto oder die Kampagne aktiviert ist, hängt der Pixelserver den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer auf eine Anzeige klickt <!-- click a search ad or views a display ad --> mit dem Adobe Advertising-Pixel.
+Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
-  für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit [!UICONTROL Auto Upload] Wenn diese Einstellung deaktiviert ist, fügen Sie den Parameter manuell zu Ihren Anlagenparametern auf Kontoebene hinzu, die ihn an Ihre Basis-URLs anhängen.
+* (Empfohlen) Die serverseitige Einfügefunktion ist implementiert.
 
-* <!-- (Search, Social, & Commerce only) -->Die serverseitige s_kwcid-Funktion ist nicht implementiert und Sie müssen den Parameter s_kwcid manuell zu Ihrem ([!DNL Google Ads] und [!DNL Microsoft Advertising]) Einstiegsseitensuffixe oder (andere Anzeigennetzwerke) -Parameter auf Kontoebene anhängen.
+  Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit [!UICONTROL Auto Upload] Wenn diese Einstellung für das Konto oder die Kampagne aktiviert ist, hängt der Pixelserver automatisch den AMO-ID-Parameter an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer auf eine Anzeige klickt <!-- click a search ad or views a display ad --> mit dem Adobe Advertising-Pixel.
 
-Wenden Sie sich an Ihr Adobe Account Team, um die serverseitige s_kwcid-Funktion zu implementieren oder die beste Option für Ihr Unternehmen zu bestimmen.
+  für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit [!UICONTROL Auto Upload] Wenn diese Einstellung deaktiviert ist, fügen Sie den Parameter AMO ID manuell zu Ihren Anlagenparametern auf Kontoebene hinzu, die ihn an Ihre Basis-URLs anhängen.
 
-## s_kwcid-Format für Anzeigen DSP
+* <!-- (Search, Social, & Commerce only) -->Die serverseitige Einfügefunktion ist nicht implementiert und Sie müssen den AMO-ID-Parameter manuell zu Ihrer hinzufügen ([!DNL Google Ads] und [!DNL Microsoft Advertising]) Einstiegsseitensuffixe oder (andere Anzeigennetzwerke) -Parameter auf Kontoebene anhängen.
+
+Wenden Sie sich an Ihr Adobe Account Team, um die serverseitige Einfügefunktion zu implementieren oder die beste Option für Ihr Unternehmen zu bestimmen.
+
+## AMO-ID-Format für Advertising DSP Anzeigen
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
@@ -40,7 +44,7 @@ wobei:
 
 * `{TM_PLACEMENT_ID}` ist der alphanumerische Platzierungsschlüssel.
 
-## s_kwcid-Formate für Such-, Social- und Commerce-Anzeigen
+## AMO-ID-Formate für Such-, Social- und Commerce-Anzeigen
 
 Die Parameter variieren je nach Anzeigennetzwerk, doch die folgenden Parameter sind für alle gemeinsam:
 
@@ -58,7 +62,7 @@ Die Parameter variieren je nach Anzeigennetzwerk, doch die folgenden Parameter s
 
 Dazu gehören auch Einkaufskampagnen mit [!DNL Google Merchant Center].
 
-* Konten, die das neueste s_kwcid-Format verwenden, das Berichte auf Kampagnen- und Anzeigengruppenebene für Kampagnen zur Leistungssteigerung sowie Entwürfe und Experimentkampagnen unterstützt:
+* Konten, die das neueste AMO-ID-Format verwenden, das Berichte auf Kampagnen- und Anzeigengruppenebene für Kampagnen- und Experimentkampagnen zur Leistungssteigerung unterstützt:
 
   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -70,7 +74,7 @@ Dazu gehören auch Einkaufskampagnen mit [!DNL Google Merchant Center].
 >
 >* Für dynamische Suchanzeigen: {keyword} mit dem automatischen Ziel gefüllt.
 >* Wenn Sie das Tracking für [!DNL Google] Shopping-Anzeigen, ein Produkt-ID-Parameter, `{adwords_producttargetid}`wird vor dem Suchbegriffparameter eingefügt. Der Produkt-ID-Parameter wird nicht im [!DNL Google Ads] Tracking-Parameter auf Kontoebene und Kampagnenebene.
->* Informationen zur Verwendung des neuesten s_kwcid-Trackingcodes finden Sie unter &quot;[Aktualisieren Sie den s_kwcid-Trackingcode für eine [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+>* Informationen zur Verwendung des neuesten AMO-ID-Trackingcodes finden Sie unter &quot;[Aktualisieren des AMO-ID-Trackingcodes für eine [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
 <!--
 
