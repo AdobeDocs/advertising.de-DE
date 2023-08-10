@@ -3,7 +3,7 @@ title: Implementierung [!DNL Google Ads] dynamische Suchanzeigen
 description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Google Ads] dynamische Suchanzeigen.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
 
    1. (Optional) Konfigurieren Sie eine Tracking-Vorlage auf Kampagnenebene, die die Tracking-Vorlage auf Kontoebene außer Kraft setzt, aber auf niedrigeren Ebenen überschrieben werden kann.
 
-      (Werbetreibende mit Adobe Analytics ohne serverseitiges Tracking) Wenn Sie das Tracking für den Rückwärtsfeed von Search, Social und Commerce zu Analytics einbeziehen möchten, fügen Sie den Trackingcode s_kwcid zu den Anfügeparametern auf Kontoebene hinzu, die den Code zur endgültigen URL hinzufügen. Siehe &quot;[Der Tracking-Parameter s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Werbetreibende mit Adobe Analytics ohne serverseitiges Tracking) Wenn Sie das Tracking für den Rückwärtsfeed von Search, Social und Commerce zu Analytics einbeziehen möchten, fügen Sie den AMO-ID-Trackingcode zu den Anfügeparametern auf Kontoebene hinzu, die den Code zur endgültigen URL hinzufügen. Siehe &quot;[Der AMO-ID-Tracking-Parameter](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
 
 1. [Erstellen einer Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) innerhalb der Kampagne, einschließlich der folgenden Schritte:
 

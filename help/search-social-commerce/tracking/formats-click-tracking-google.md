@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Google Ads]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Google Ads] Konten.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix eines der folgenden enthalten:
 
-   * [!DNL Google Ads] Konten, die die neueste `s_kwcid` -Format, das Berichte auf Kampagnen- und Anzeigengruppenebene für Performance-Max-Kampagnen sowie Entwürfe und Experimentkampagnen unterstützt:
+   * [!DNL Google Ads] Konten, die das neueste AMO-ID-Format verwenden (beginnend mit `s_kwcid`), das Berichte auf Kampagnen- und Anzeigengruppenebene für Performance-Max-Kampagnen sowie Entwürfe und Experimentkampagnen unterstützt:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Wenn das Konto über eine serverseitige s_kwcid-Implementierung verfügt und das Konto oder die Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie sie manuell hinzufügen.
+     Wenn das Konto über eine serverseitige AMO-ID-Implementierung verfügt und das Konto oder die Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie sie manuell hinzufügen.
 
    * Alle anderen [!DNL Google Ads] Konten:
 
@@ -88,9 +88,9 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >
 >* Die Suffixe der Landingpage auf niedrigeren Ebenen überschreiben das Suffix auf Kontoebene. Verwenden Sie zur einfacheren Wartung nur das Suffix auf Kontoebene, es sei denn, es ist eine unterschiedliche Verfolgung für einzelne Kontokomponenten erforderlich. Verwenden Sie den Editor des Werbenetzwerks, um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren.
 >
->* (Dynamische Suchanzeigen; Advertiser mit Adobe Analytics und ohne serverseitiges Tracking) Wenn Sie Tracking für den Rückwärts-Feed von Adobe Advertising zu Analytics einbeziehen möchten, hängen Sie die `s_kwcid` Trackingcode bis zum Ende des Suffixes der Landingpage auf Kontoebene.
+>* (Dynamische Suchanzeigen; Advertiser mit Adobe Analytics und ohne serverseitiges Tracking) Wenn Sie das Tracking für den Rückwärtsfeed von Adobe Advertising zu Analytics einbeziehen möchten, hängen Sie den AMO-ID-Trackingcode an das Ende des Suffixes der Landingpage auf Kontoebene an.
 
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [Formate für den s\_kwcid-Trackingcode](skwcid-tracking-parameter.md)
+>* [Formate für den AMO-ID-Trackingcode](skwcid-tracking-parameter.md)

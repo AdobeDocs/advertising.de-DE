@@ -3,7 +3,7 @@ title: Über Werbenetzkonten
 description: Erfahren Sie mehr über Ad-Netzwerk-Konten in Search, Social und Commerce.
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Weitere Informationen [!DNL Naver] reine Tracking-Kampagnen, siehe[Implementieru
 >
 >* [Verwalten von Anzeigen-Netzwerkkonten](ad-network-account-manage.md)
 >* [Verwalten von Merchant-Center-Konten](merchant-account-manage.md)
->* [Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account](update-skwcid-google.md)
+>* [Aktualisieren des AMO-ID-Trackingcodes für eine [!DNL Google Ads] account](update-amo-id-google.md)

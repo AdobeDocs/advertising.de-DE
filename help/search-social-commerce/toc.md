@@ -4,7 +4,7 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + Anzeigennetzwerkkonten {#ad-network-accounts}
          + [Über Werbenetzkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Verwalten von Anzeigen-Netzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Aktualisieren Sie den s\_kwcid-Trackingcode für eine [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [Aktualisieren des AMO-ID-Trackingcodes für eine [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Verwalten von Merchant-Center-Konten](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementierung [!DNL Naver] Nur-Tracking-Konten](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Verwalten von Kampagnen {#management}

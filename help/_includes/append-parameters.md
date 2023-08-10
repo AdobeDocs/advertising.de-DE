@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Sie können eine beliebige statische Textzeichenfolge verwenden, einschließlich Tracking-Parametern von Drittanbietern, oder einen der [unterstützte Tracking-Parameter](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md), die einen entsprechenden Datenwert in die Basis-URL einfügen.
 
-Trennen Sie mehrere Parameter durch Kommas oder kaufmännische Und-Zeichen (&amp;). Verschachtelte Klammern werden nicht unterstützt.
+Trennen Sie mehrere Parameter durch Kommas oder Und-Zeichen (&amp;). Verschachtelte Klammern werden nicht unterstützt.
 
 **Hinweise:**
 
@@ -19,4 +19,4 @@ Trennen Sie mehrere Parameter durch Kommas oder kaufmännische Und-Zeichen (&amp
 
 * (Werbenetzwerke mit paralleler Verfolgung) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-* (Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration) Um eine `s_kwcid` Parameter zum Senden von Such-, Social- und Commerce-Daten an [!DNL Analytics], siehe [Anzeigen von netzwerkspezifischen Formaten](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Es ist nicht erforderlich, den Parameter für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit einer serverseitigen s\_kwcid-Implementierung.
+* (Advertiser mit Adobe Advertising-Adobe Analytics-Integration) Einschließen eines AMO-ID-Parameters zum Senden von Such-, Social- und Commerce-Daten an [!DNL Analytics], siehe [Anzeigen von netzwerkspezifischen Formaten](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Es ist nicht erforderlich, den Parameter für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit einer serverseitigen AMO-ID-Implementierung.

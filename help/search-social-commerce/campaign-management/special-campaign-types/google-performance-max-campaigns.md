@@ -3,7 +3,7 @@ title: Implementierung [!DNL Google Ads] Performance-Max-Kampagnen
 description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Google Ads] Kampagnen mit maximaler Leistung.
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In [!DNL Google Ads] Performance-Max-Kampagnen verwenden, richten Sie keine Anzeigengruppen, Anzeigen oder Suchbegriffe ein. Stattdessen geben Sie in den Kampagneneinstellungen eine oder mehrere Asset-Gruppen an, die Überschriften, Beschreibungen sowie hochgeladene Bilder, Logos und [!DNL YouTube videos]. [!DNL Google Ads] kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen (z. B. [!DNL YouTube], [!DNL Gmail]oder [!DNL Search]).
 
-Sie können Ihre vorhandenen Performance-Max-Kampagnen mit Leistungsdaten im Tabellen- und Trend-Diagrammformat im [!DNL Campaigns] Ansicht; Daten sind nicht auf niedrigeren Ebenen verfügbar. Leistungsdaten auf Kampagnenebene sind auch in Berichten und in Adobe Analytics verfügbar (für Advertiser mit einer [Analytics-Integration](/help/integrations/analytics/overview.md). So zeigen Sie Leistungsdaten für Leistungsmax-Kampagnen in [!DNL Analytics], muss die Kampagne die [aktualisierter s_kwcid-Trackingcode](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (verfolgt die Kampagnen-ID und Anzeigengruppen-ID).
+Sie können Ihre vorhandenen Performance-Max-Kampagnen mit Leistungsdaten im Tabellen- und Trend-Diagrammformat im [!DNL Campaigns] Ansicht; Daten sind nicht auf niedrigeren Ebenen verfügbar. Leistungsdaten auf Kampagnenebene sind auch in Berichten und in Adobe Analytics verfügbar (für Advertiser mit einer [Analytics-Integration](/help/integrations/analytics/overview.md). So zeigen Sie Leistungsdaten für Leistungsmax-Kampagnen in [!DNL Analytics], muss die Kampagne die [aktualisierter AMO-ID-Trackingcode](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (verfolgt die Kampagnen-ID und Anzeigengruppen-ID).
 
 >[!NOTE]
 >
