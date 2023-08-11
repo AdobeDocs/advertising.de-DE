@@ -3,7 +3,7 @@ title: Aktualisierung des Trackingcodes der AMO-ID (s_kwcid) für eine [!DNL Goo
 description: Erfahren Sie, wie Sie zum neuesten AMO-ID-Trackingcode für eine [!DNL Google Ads] -Konto.
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]Nur Konten*
 
-Das alte Format für die [AMO-ID-Trackingcode](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) für bestehende [!DNL Google Ads] -Konten unterstützen einige Funktionen in Analytics nicht, z. B. Berichte auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen, Entwürfe und Experimente sowie andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeige- und Suchbegriff- und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
+Das alte Format für die [AMO-ID-Trackingcode](/help/integrations/analytics/ids.md#amo-id-formats) für bestehende [!DNL Google Ads] -Konten unterstützen einige Funktionen in Analytics nicht, z. B. Berichte auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen, Entwürfe und Experimente sowie andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeige- und Suchbegriff- und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
 
 Das neueste Format enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID:
 
@@ -58,7 +58,7 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das neue AMO-ID-Forma
 
    * Wenn die Variable [!UICONTROL Auto Upload]&quot;-Funktion in den Tracking-Einstellungen aktiviert ist, aktualisiert Search, Social und Commerce den Trackingcode im Suffix der Einstiegsseite für dieses Konto und seine Kampagnen automatisch. Du brauchst nichts zu tun.
 
-   * Wenn die Variable [!UICONTROL Auto Upload]&quot;nicht aktiviert ist und Sie die [serverseitige AMO-ID-Funktion](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)festgelegt ist, müssen Sie den AMO-ID-Parameter in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Konto- und Kampagneneinstellungen ändern oder indem Sie Änderungen in ein Bulksheet hochladen. Um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren, verwenden Sie die [!DNL Google Ads] Editor.
+   * Wenn die Variable [!UICONTROL Auto Upload]&quot;nicht aktiviert ist und Sie die [serverseitige AMO-ID-Funktion](/help/integrations/analytics/ids.md#amo-id-formats)festgelegt ist, müssen Sie den AMO-ID-Parameter in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Konto- und Kampagneneinstellungen ändern oder indem Sie Änderungen in ein Bulksheet hochladen. Um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren, verwenden Sie die [!DNL Google Ads] Editor.
 
    * Wenn Sie die AMO-ID in die Einstellung Basis-URL für eine beliebige Kampagnenkomponente aufnehmen, verschieben Sie sie in die entsprechende Einstellung des Suffix der Einstiegsseite .
 
@@ -67,5 +67,5 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das neue AMO-ID-Forma
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Anzeigen-Netzwerkkonten](ad-network-account-manage.md)
->* [Der AMO-ID-Tracking-Parameter](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
+>* [Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Übersicht über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

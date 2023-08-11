@@ -1,5 +1,5 @@
 ---
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Trennen Sie mehrere Parameter durch Kommas oder Und-Zeichen (&amp;). Verschachte
 
 * (Werbenetzwerke mit paralleler Verfolgung) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
-* (Advertiser mit Adobe Advertising-Adobe Analytics-Integration) Einschließen eines AMO-ID-Parameters zum Senden von Such-, Social- und Commerce-Daten an [!DNL Analytics], siehe [Anzeigen von netzwerkspezifischen Formaten](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). Es ist nicht erforderlich, den Parameter für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit einer serverseitigen AMO-ID-Implementierung.
+* (Advertiser mit Adobe Advertising-Adobe Analytics-Integration) Einschließen eines AMO-ID-Parameters zum Senden von Such-, Social- und Commerce-Daten an [!DNL Analytics], siehe [Anzeigen von netzwerkspezifischen Formaten](/help/integrations/analytics/ids.md#amo-id-formats). Es ist nicht erforderlich, den Parameter für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten mit einer serverseitigen AMO-ID-Implementierung.

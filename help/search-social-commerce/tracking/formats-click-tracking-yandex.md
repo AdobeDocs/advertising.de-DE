@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Yandex]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yandex] Konten.
 exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ Beispiel:
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [Formate für den AMO-ID-Trackingcode](amo-id-tracking-parameter.md)
+>* [AMO-ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
