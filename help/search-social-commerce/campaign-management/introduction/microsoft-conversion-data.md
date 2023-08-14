@@ -2,9 +2,9 @@
 title: '''[!DNL Microsoft Advertising] Konversionsdaten"'
 description: Erfahren Sie mehr über die Typen [!DNL Microsoft Advertising]-getrackte Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: c3d901e7cc2cf61b86f25c5942cbd116b5fca003
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Zwei Metriken für jede [[!DNL Microsoft Advertising]-verfolgte Konversion](http
 
 Daten sind basierend auf der Klickzeit und der Konversions-/Transaktionszeit ab dem Datum verfügbar, an dem die Funktion für das Konto aktiviert ist.
 
-[!DNL Microsoft Advertising] erfasst jede Konversion von [Bid-Unit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klicken auf Datum (nicht Konvertierungsdatum). Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Microsoft Advertising]; Die Zuordnung von Adobe Advertisingen wird nicht berücksichtigt, da Klick-Daten auf Ereignisebene nicht verfügbar sind.
+[!DNL Microsoft Advertising] erfasst jede Konversion von [Bid-Unit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klicken auf Datum (nicht Konvertierungsdatum). Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Microsoft Advertising]; Die Adobe Advertising-Attribution wird nicht berücksichtigt, da Klick-Ereignisdaten nicht verfügbar sind.
 
 >[!NOTE]
 >
->* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
+>* Wenn mehrere Konten mit denselben Konversionsnamen vorhanden sind, werden unter Adobe Advertising möglicherweise doppelte Konversionsnamen angezeigt. Tritt dies auf, [Anzeigenamen ändern](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken in [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Angebotseinheit stimmen mit Daten im Anzeigennetzwerk auf derselben Ebene überein. Die eigenen Konversionsdaten des Werbenetzwerks für höhere Ebenen können jedoch zusätzliche Konversionen enthalten, die nicht den untergeordneten Gebotseinheiten zugeordnet werden. Die Daten in Search, Social und Commerce werden immer auf der Ebene der Angebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene nicht die gleichen Summen wie ein Bericht auf Kampagnenebene im Werbenetzwerk hat.
 >* Datenabweichungen sind in der Regel nach der Morgensynchronisierung geringer als nach der Tageszeit, wenn noch keine zusätzlichen Konversionen synchronisiert wurden. Es wird empfohlen, die Daten morgens zu überprüfen.
 >* Daten sind nicht auf Zielgruppen- oder geografischer Standortebene verfügbar und werden daher nicht zur automatischen Optimierung von RLSA und Ortsgebotsanpassungen verwendet.
