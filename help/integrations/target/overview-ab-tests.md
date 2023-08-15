@@ -2,9 +2,9 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising-Anzeigen in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 *Advertiser nur mit Advertising DSP*
 
-Adobe Advertising und Adobe Target erleichtern es Marketern noch mehr, personalisierte und vernetzte Erlebnisse für Paid Media und On-site-Nachrichten bereitzustellen. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
+Adobe Advertising und Adobe Target erleichtern es Marketern, personalisierte und vernetzte Erlebnisse über Paid Media und On-site-Nachrichten bereitzustellen. Durch die Freigabe von Signalen zwischen den Produkten können Sie:
 
 * Verringern Sie die Site-Durchfallraten, indem Sie die Anzeigenbelichtung von Kunden aus DSP Kampagnen mit ihren Vor-Ort-Erlebnissen verknüpfen.
 
@@ -63,7 +63,7 @@ Aktualisieren Sie im Flash-Gespräch oder in Google Campaign Manager 360 die Cli
 
 * [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Wenden Sie sich an Ihr Adobe Account Team und die Advertising Solutions Group (aac-advertising-solutions-group@adobe.com), um den erforderlichen Platzierungsschlüssel abzurufen und die Einrichtung abzuschließen. Stellen Sie sicher, dass jede Clickthrough-URL mit dem Platzierungsschlüssel ausgefüllt wird.
+Wenden Sie sich an Ihr Adobe Account Team und die Advertising Solutions Group (aac-advertising-solutions-group@adobe.com), um den erforderlichen Platzierungsschlüssel abzurufen und das Setup abzuschließen und sicherzustellen, dass jede Clickthrough-URL mit dem Platzierungsschlüssel ausgefüllt wird.
 
 ## Schritt 2: Einrichten des Durchsichts-Frameworks mit dem Audience Manager {#view-through-framework}
 
@@ -155,7 +155,7 @@ In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorg
 
    >[!NOTE]
    >
-   >Wenden Sie sich beispielsweise in Bezug auf kreative Testanwendungsfälle an Ihr Adobe Account Team.
+   >Wenden Sie sich beispielsweise in Anwendungsfällen für kreative Tests an Ihr Adobe-Account-Team.
 
 ## Schritt 4: Einrichten der [!DNL Analytics for Target] Analysis Workspace in [!DNL Analytics]
 
@@ -171,11 +171,11 @@ Konfigurieren Sie in Analysis Workspace die [!DNL Analytics for Target panel] , 
 
 #### Metriken
 
-* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der spezifisch für die Adobe Advertising-Kampagne, das Paket oder die Platzierung ist, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassende Visualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die Target-Testleistung anzuzeigen.
+* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der speziell für die Adobe Advertising-Kampagne, das Paket oder die Platzierung gilt, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassungsvisualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die Target-Testleistung anzuzeigen.
 
 * Priorisieren Sie die Verwendung von On-site-Metriken (z. B. Besuche und Konversionen), um die Leistung zu messen.
 
-* Beachten Sie, dass aggregierte Medienmetriken aus Adobe Advertising (wie Impressionen, Klicks und Kosten) nicht mit Target-Metriken übereinstimmen können.
+* Beachten Sie, dass aggregierte Medienmetriken von Adobe Advertising (wie Impressionen, Klicks und Kosten) nicht mit Target-Metriken übereinstimmen können.
 
 #### Dimensionen
 
