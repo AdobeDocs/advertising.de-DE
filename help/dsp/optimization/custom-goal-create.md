@@ -3,9 +3,9 @@ title: Benutzerdefiniertes Ziel erstellen
 description: Benutzerdefiniertes Ziel erstellen
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können benutzerdefinierte Ziele als *Ziele* Innerhalb [!DNL Advertising Search, Social, & Commerce].
 
-Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL Search, Social, & Commerce] -Konto mit derselben Adobe Experience Cloud-Organisations-ID aus der [!DNL Search, Social, & Commerce] Clienteinstellungen. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce] Wenden Sie sich an Ihr Adobe Account Team.
+Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL Search, Social, & Commerce] -Konto mit derselben Adobe Experience Cloud-Organisations-ID aus der [!DNL Search, Social, & Commerce] Clienteinstellungen. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce] -Konto, wenden Sie sich an Ihr Adobe-Account-Team.
 
 >[!TIP]
 >
@@ -64,7 +64,7 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL
 
       1. Klicken Sie unten in den Einstellungen auf **[!UICONTROL Save]**.
 
-Nachdem Sie ein Ziel erstellt haben, können Sie es einem DSP als benutzerdefiniertes Ziel zuweisen, wenn das Optimierungsziel lautet[!UICONTROL Highest ROAS - Custom Goal]&quot; oder &quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+Nachdem Sie ein Ziel erstellt haben, können Sie es einem DSP als benutzerdefiniertes Ziel zuweisen, wenn das Optimierungsziel mit &quot;[!UICONTROL - Custom Goal]&quot; (z. B. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;).
 
 >[!TIP]
 >

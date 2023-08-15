@@ -3,9 +3,9 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Siehe die folgenden Best Practices für Leistungskampagnen:
 
 ## Schritt 1: Definieren Ihres Ziels
 
-Es ist wichtig zu verstehen, ob das Ziel der Kampagne darin besteht, den höchstmöglichen ROAS oder den niedrigstmöglichen CPA zu erreichen. Für jedes Kampagnenkit geben Sie das Ziel entsprechend an: *[!UICONTROL Highest ROAS - Custom Goal]* oder *[!UICONTROL Lowest CPA - Custom Goal]*.
+Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche ROAS oder den niedrigstmöglichen CPA zu erreichen. Leistungskampagnen haben folgende Möglichkeiten: [Optimierungsziele](/help/dsp/optimization/optimization-goals.md) , die mit &quot;[!UICONTROL - Custom Goal]&quot; (z. B. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Für jedes Kampagnenkit geben Sie das Ziel entsprechend an.
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 
@@ -47,7 +47,7 @@ Obertrichter-Pakete enthalten Platzierungen mit sehr breitem Targeting, um neue 
    * Kontextuelles Targeting.
    * Site-/Kategorie-Targeting.
 
-* Verwenden Sie das Targeting &quot;Run of network (RON)&quot;: Es ist wichtig, eine Reihe von Netzwerkplatzierungen ohne Zielgruppen-Targeting und breites Inventar-Targeting einzubeziehen. Dies ermöglicht die [!DNL Adobe Sensei] verwenden, um wertvolle Benutzer zu finden, die möglicherweise neuere Cookies haben, die noch nicht in eine Zielgruppe kategorisiert wurden.
+* Verwenden des Netzwerk-Targeting (RON): Es ist wichtig, eine Netzwerkplatzierung ohne Zielgruppen-Targeting und mit einem umfassenden Inventar-Targeting einzubeziehen. Dies ermöglicht die [!DNL Adobe Sensei] verwenden, um wertvolle Benutzer zu finden, die möglicherweise neuere Cookies haben, die noch nicht in eine Zielgruppe kategorisiert wurden.
 
 ### Retargeting-Strategien
 
@@ -69,11 +69,11 @@ Verwenden Sie außerdem die folgenden Einstellungen.
 
 ### Ziele und Budget
 
-* **Geschwindigkeit und Begrenzung:** Um ein CPA- oder ROAS-Optimierungsziel auszuwählen, muss das Paket Geschwindigkeit auf Paketebene verwenden. Dadurch wird sichergestellt, dass alle Platzierungen innerhalb des Pakets so optimiert sind, dass Ausgaben auf der Grundlage der Leistung und Skalierung auf die ausgewählten Ziele verteilt werden.
+* **Platzierung und Begrenzung:** Um ein CPA- oder ROAS-Optimierungsziel auszuwählen, muss das Paket Geschwindigkeit auf Paketebene verwenden. Dadurch wird sichergestellt, dass alle Platzierungen im Paket so optimiert sind, dass Ausgaben basierend auf Leistung und Skalierung an die ausgewählten Ziele verteilt werden.
 
 * **Flugdaten:** (Angebote) Wenn Ihre Kampagne länger als 25 Tage läuft, verwenden Sie die Variable [!UICONTROL Activate Custom Flighting] Funktion. Legen Sie zunächst einen benutzerdefinierten Flug für die ersten 10 Tage auf ca. 75 % des Tagesbudgets fest, um die Ausgaben während der *Lernphase*. Legen Sie dann einen zweiten benutzerdefinierten Flug für den Rest des Budgets fest.
 
-   Wenn Sie beispielsweise über 100.000 USD für 30 Tage verfügen, legen Sie das Budget für Flug 1 (Tage 1-10) auf 25.000 USD fest (75 % x 100.000/30 Tage = 2.500 USD pro Tag). Verwenden Sie das restliche Budget von 75.000 $ für Flug 2 (Tage 11-30).
+  Wenn Sie beispielsweise über 100.000 USD für 30 Tage verfügen, legen Sie das Budget für Flug 1 (Tage 1-10) auf 25.000 USD fest (75 % x 100.000/30 Tage = 2.500 USD pro Tag). Verwenden Sie das restliche Budget von 75.000 $ für Flug 2 (Tage 11-30).
 
 * **Budget:** DSP wird immer versuchen, 100 % des Package-Budgets gleichmäßig zwischen allen Platzierungen in einem Paket zu verteilen. Wenn eine Platzierung geringe Ausgaben oder keine Ausgaben aufweist, empfehlen wir eine Budgetbegrenzung für die Platzierung, damit mehr Geld für Platzierungen mit Skalierung bereitgestellt werden kann. Die Kalibrierung von Budgetänderungen kann 24 bis 48 Stunden dauern.
 
@@ -83,11 +83,11 @@ Verwenden Sie außerdem die folgenden Einstellungen.
    * Wenn ein neues Paket dasselbe Ziel wie ein vorhandenes Paket hat, können Sie optional das vorhandene Paket verknüpfen, damit der Algorithmus die vorhandenen Daten des maschinellen Lernens verwenden kann.
    * Geben Sie die entsprechende [!UICONTROL Target CPA] oder [!UICONTROL Target ROAS].
 
-* **Flug-Geschwindigkeit und Intraday-Geschwindigkeit:** Wählen Sie für beide Arten von Geschwindigkeit *[!UICONTROL Even]* um Ihre Leistungsziele zu maximieren, indem Sie gleichmäßig über jeden Tag und während des gesamten Fluges fahren.
+* **Flug-Geschwindigkeit und Intraday-Geschwindigkeit:** Wählen Sie für beide Arten von Geschwindigkeit die Option *[!UICONTROL Even]* um Ihre Leistungsziele zu maximieren, indem Sie gleichmäßig über jeden Tag und während des gesamten Fluges fahren.
 
-   >[!CAUTION]
-   >
-   >Verwendung *[!UICONTROL FrontLoad]* und *[!UICONTROL Aggressive Front Load]* für Flugplatzierungen und *[!UICONTROL ASAP]* Geschwindigkeit für die Intraday-Geschwindigkeit nur dann, wenn Sie die Bereitstellung vollständig priorisieren und Ausgaben der Leistungsoptimierung überlassen, da diese Strategien Ihre gewünschten Performance-KPIs negativ beeinflussen können.
+  >[!CAUTION]
+  >
+  >Verwendung *[!UICONTROL FrontLoad]* und *[!UICONTROL Aggressive Front Load]* für Flugplatzierungen und *[!UICONTROL ASAP]* Geschwindigkeit für die Intraday-Geschwindigkeit nur dann, wenn Sie die Bereitstellung vollständig priorisieren und Ausgaben der Leistungsoptimierung überlassen, da diese Strategien Ihre gewünschten Performance-KPIs negativ beeinflussen können.
 
 ## Schritt 4: Erstellen einer Platzierungsstruktur
 
@@ -136,15 +136,15 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 >
 >Ihre Anzeigen funktionieren am besten, wenn ein Benutzer nur durch eine Platzierung erreicht werden kann. Eine erhebliche Überlappung der Benutzer zwischen Platzierungen kann zu Wettbewerb führen, was einen Zyklus kontinuierlich steigender Angebote ergibt und die Kosten pro Benutzer erhöht. Wenn Sie daher mehrere Zielgruppen einbeziehen, stellen Sie sicher, dass diese nicht aus überlappenden Benutzern/Zielgruppenmitgliedern bestehen.
 >
-> Sie können sich überschneidende Zielgruppen vermeiden, indem Sie Zielgruppen in Ebenen erstellen, sodass Sie die höheren, integrativeren Ebenen von Platzierungen nach Bedarf unterdrücken können.
+> Sie können Zielgruppen nicht überschneiden, indem Sie Zielgruppen in Ebenen erstellen, sodass Sie die höheren, integrativeren Ebenen von Platzierungen nach Bedarf unterdrücken können.
 
 * **[!UICONTROL Frequency Capping]:**
    * Verwenden Sie für die Prospektion von Platzierungen enge Frequenzlimitierung (eine Impression pro Tag).
    * Setzen Sie für Retargeting-Platzierungen die primäre Platzierungsbegrenzung auf 6-10 Impressionen pro Tag und die sekundäre Begrenzung auf eine Impression pro Stunde.
 
 * **[!UICONTROL Device Targeting]**:
-   * Einschließen [!UICONTROL Computer], [!UICONTROL Mobile]und [!UICONTROL Tablet].
-   * Keine Zielgruppe [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Targeting- und Messbeschränkungen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team [!DNL Adobe] Unterstützung für [!DNL Safari ITP].
+   * Einschließen [!UICONTROL Computer], [!UICONTROL Mobile], und [!UICONTROL Tablet].
+   * Keine Zielgruppe [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Targeting- und Messungsbeschränkungen. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team [!DNL Adobe] Unterstützung für [!DNL Safari ITP].
    * Wenn Sie mobilen Webtraffic als Ziel auswählen, deaktivieren Sie alle mobilen Browser außer [!UICONTROL Chrome] und [!UICONTROL Edge].
 
 ### Markensicherheit und Medienqualität
@@ -154,7 +154,7 @@ Verwendung von kontextueller Filterung, Blockierung von Pre-Bid-Betrug und/oder 
 ## Schritt 5: Verwenden der richtigen kreativen Assets
 
 * Es empfiehlt sich, so viele individuelle Anzeigengrößen wie möglich einzubeziehen, um die Reichweite zu maximieren. Mit der universellen Anzeigevorlage können Sie eine beliebige standardmäßige Anzeigegröße hochladen.
-* Stellen Sie sicher, dass alle Platzierungen *mindestens* alle Hauptanzeigengrößen (300x250, 728x90, 160x600, 300x600, 320x50 und 300x50).
+* Stellen Sie sicher, dass alle Platzierungen *mindestens* alle Hauptanzeigengrößen (300 x 250, 728 x 90, 160 x 600, 300 x 600, 320 x 50 und 300 x 50).
 * Aktualisieren Sie kreative Inhalte häufig, um kreative Müdigkeit zu verhindern.
 
 >[!MORELIKETHIS]
@@ -165,4 +165,3 @@ Verwendung von kontextueller Filterung, Blockierung von Pre-Bid-Betrug und/oder 
 >* [Optimierungsziele und Verwendung](optimization-goals.md)
 >* [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md)
 >* [Checkliste für den Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
-
