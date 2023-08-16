@@ -3,49 +3,54 @@ title: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 description: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
 
 # Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser mit nur Adobe Advertising-Adobe Analytics-Integration*
 
 *Anwendbar auf Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
 
-Adobe Advertising verwendet zwei IDs für die On-site-Leistungsverfolgung: die *EF ID* und *AMO-ID*.
+Adobe Advertising verwendet zwei IDs für das On-site-Performance-Tracking: die *EF ID* und *AMO-ID*.
 
-Wenn eine Ad-Impression auftritt, erstellt Adobe Advertising die AMO-ID- und EF-ID-Werte und speichert sie. Wenn ein Besucher, der eine Anzeige gesehen hat, auf die Site gelangt, ohne auf eine Anzeige zu klicken, [!DNL Analytics] ruft diese Werte von Adobe Advertising über [!DNL Analytics for Advertising] JavaScript-Code. Für Durchsichts-Traffic: [!DNL Analytics] generiert eine zusätzliche ID (`SDID`), das zum Zuordnen der EF ID und AMO ID zu verwendet wird [!DNL Analytics]. Für Clickthrough-Traffic werden diese IDs mithilfe der `s_kwcid` und `ef_id` Abfragezeichenfolgenparameter.
+Wenn eine Ad-Impression auftritt, erstellt Adobe Advertising die AMO-ID- und EF-ID-Werte und speichert sie. Wenn ein Besucher, der eine Anzeige gesehen hat, auf die Site gelangt, ohne auf eine Anzeige zu klicken, [!DNL Analytics] ruft diese Werte von Adobe Advertising über auf. [!DNL Analytics for Advertising] JavaScript-Code. Für Durchsichts-Traffic: [!DNL Analytics] generiert eine zusätzliche ID (`SDID`), das zum Zuordnen der EF ID und AMO ID zu verwendet wird [!DNL Analytics]. Für Clickthrough-Traffic werden diese IDs mithilfe der `ef_id` und `s_kwcid` (für die AMO-ID) Abfragezeichenfolgenparameter.
 
-Adobe Advertising unterscheidet mithilfe der folgenden Kriterien zwischen einem Clickthrough- oder Durchsichtseintrag auf der Website:
+Adobe Advertising unterscheidet unter Verwendung der folgenden Kriterien zwischen einem Clickthrough- oder Durchsichtseintrag auf der Website:
 
 * Ein Durchsichtseintrag wird erfasst, wenn ein Benutzer die Site besucht, nachdem er eine Anzeige angesehen, aber nicht darauf geklickt hat. [!DNL Analytics] erfasst eine Durchsicht, wenn zwei Bedingungen erfüllt sind:
+
    * Der Besucher hat keine Clickthroughs für eine [!DNL DSP] oder [!DNL Search, Social, & Commerce] Anzeige während der [Lookback-Fenster](#lookback-a4adc).
+
    * Der Besucher hat mindestens eine [!DNL DSP] Anzeige während der [Impression-Lookback-Fenster](#lookback-a4adc). Die letzte Impression wird als Durchsicht übergeben.
+
 * Ein Clickthrough-Eintrag wird erfasst, wenn ein Site-Besucher auf eine Anzeige klickt, bevor er die Site betritt. [!DNL Analytics] erfasst einen Clickthrough, wenn eine der folgenden Bedingungen eintritt:
-   * Die URL enthält eine EF ID und eine AMO ID, die der Landingpage-URL nach Adobe Advertising hinzugefügt wurden.
-   * Die URL enthält keine Trackingcodes, aber der JavaScript-Code des Adobe Advertisings erkennt einen Klick innerhalb der letzten zwei Minuten.
 
-![Ansichtsbasierte Adobe Advertising [!DNL Analytics] Integration](/help/integrations/assets/a4adc-view-through-process.png)
+   * Die URL enthält eine EF ID und eine AMO ID, die von Adobe Advertising zur Landingpage-URL hinzugefügt wurden.
 
-*Abbildung 1: Ansichtsbasierte Adobe Advertising [!DNL Analytics] Integration*
+   * Die URL enthält keine Trackingcodes, aber der Adobe Advertising-JavaScript-Code erkennt innerhalb der letzten zwei Minuten einen Klick.
 
-![Adobe Advertising klickt URL-basiert auf [!DNL Analytics] Integration](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Advertising-Ansicht-basiert [!DNL Analytics] Integration](/help/integrations/assets/a4adc-view-through-process.png)
 
-*Abbildung 2: Adobe Advertising klickt auf URL-basiert [!DNL Analytics] Integration*
+*Abbildung 1: Adobe Advertising-Ansicht-basiert [!DNL Analytics] Integration*
+
+![Adobe Advertising klickt auf URL-basiert [!DNL Analytics] Integration](/help/integrations/assets/a4adc-click-through-process.png)
+
+*Abbildung 2: Adobe Advertising-Klick URL-basiert [!DNL Analytics] Integration*
 
 ## Adobe Advertising EF IDs
 
-Die EF-ID ist ein eindeutiges Token, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Anzeige verknüpfen. Die EF ID wird in [ein [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder [!DNL rVar] (reserviert [!DNL eVar]) (Adobe Advertising-EF-ID) und verfolgt jeden Anzeigenklick oder jede Anzeige auf der Browser- oder Geräteebene. EF-IDs dienen hauptsächlich als Schlüssel zum Senden [!DNL Analytics] Daten an Adobe Advertising zur Berichterstellung und Angebotsoptimierung innerhalb des Adobe Advertisings.
+Die EF-ID ist ein eindeutiges Token, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Anzeige verknüpft. Die EF ID wird in [ein [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder [!DNL rVar] (reserviert [!DNL eVar]) (Adobe Advertising EF ID) und verfolgt jeden Anzeigenklick oder jede Anzeige auf der Browser- oder Geräteebene. EF-IDs dienen hauptsächlich als Schlüssel zum Senden [!DNL Analytics] Daten an Adobe Advertising zur Berichterstellung und Angebotsoptimierung innerhalb von Adobe Advertising.
 
 ### EF ID Format
 
 >[!NOTE]
 >
->Bei EF IDs wird zwischen Groß- und Kleinschreibung unterschieden. Wenn eine [!DNL Analytics] -Implementierung erzwingt das URL-Tracking in Kleinbuchstaben. Anschließend erkennt der Adobe Advertising die EF-ID nicht. Dies wirkt sich auf Gebote und Berichterstellung von Adobe Advertisingen aus, hat jedoch keine Auswirkungen auf die Berichterstellung von Adobe Advertisingen innerhalb von [!DNL Analytics].
+>Bei EF IDs wird zwischen Groß- und Kleinschreibung unterschieden. Wenn eine [!DNL Analytics] -Implementierung erzwingt das URL-Tracking in Kleinbuchstaben. Anschließend erkennt Adobe Advertising die EF-ID nicht. Dies wirkt sich auf Adobe Advertising-Gebote und -Berichte aus, hat jedoch keine Auswirkungen auf die Adobe Advertising-Berichterstellung innerhalb von [!DNL Analytics].
 
 #### [!DNL Google Ads] Suchanzeigen
 
@@ -97,9 +102,41 @@ EF-IDs unterliegen in Analysis Workspace der Grenze von 500.000 eindeutigen Kenn
 
 ## Adobe Advertising AMO-IDs {#amo-id}
 
-Die AMO-ID verfolgt jede eindeutige Anzeigenkombination auf einer weniger detaillierten Ebene und wird für [!DNL Analytics] Datenklassifizierung und Erfassung von Werbemetriken (wie Impressionen, Klicks und Kosten) aus Adobe Advertising. Die AMO-ID wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder rVar-Dimension (AMO-ID) und wird ausschließlich für die Berichterstellung in [!DNL Analytics].
+Die AMO-ID verfolgt jede eindeutige Anzeigenkombination auf einer weniger detaillierten Ebene und wird für [!DNL Analytics] Datenklassifizierung und Erfassung von Werbemetriken (wie Impressionen, Klicks und Kosten) von Adobe Advertising. Die AMO-ID wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder rVar-Dimension (AMO-ID) und wird ausschließlich für die Berichterstellung in [!DNL Analytics].
 
 Die AMO-ID wird auch als `s_kwcid`, der manchmal als &quot;[!DNL the squid].&quot;
+
+### Methoden zur Implementierung der AMO-ID
+
+Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt:
+
+* (Empfohlen) Die serverseitige Einfügefunktion ist implementiert.
+
+   * DSP: Der Pixelserver hängt den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer eine Display-Anzeige mit dem Adobe Advertising-Pixel anzeigt.
+
+   * Kunden von Search, Social und Commerce:
+
+      * Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Wenn für das Konto oder die Kampagne aktiviert ist, hängt der Pixelserver den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer auf eine Anzeige mit dem Adobe Advertising-Pixel klickt.
+
+      * für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Wenn diese Einstellung deaktiviert ist, fügen Sie den Parameter manuell zu Ihren Anlagenparametern auf Kontoebene hinzu, die ihn an Ihre Basis-URLs anhängen.
+
+* Die serverseitige Einfügefunktion ist nicht implementiert:
+
+   * DSP Kunden:
+
+      * Für [!DNL Flashtalking] Anzeigen-Tags, manuelles Einfügen zusätzlicher Makros pro[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * Für [!DNL Google Campaign Manager 360] Anzeigen-Tags, manuelles Einfügen zusätzlicher Makros pro[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Kunden von Search, Social und Commerce:
+
+      * Für ([!DNL Google Ads] und [!DNL Microsoft® Advertising]) hinzufügen, fügen Sie den AMO ID-Parameter manuell zu den Suffixen Ihrer Landingpage hinzu.
+
+      * Fügen Sie bei Anzeigen in allen anderen Werbenetzwerken den Parameter AMO ID manuell zu Ihren Anlagenparametern auf Kontoebene hinzu, die ihn an Ihre Basis-URLs anhängen.
+
+Wenden Sie sich an Ihr Adobe Account Team, um die serverseitige Einfügefunktion zu implementieren oder die beste Option für Ihr Unternehmen zu bestimmen.
 
 ### AMO-ID-Formate {#amo-id-formats}
 
@@ -111,9 +148,9 @@ wobei:
 
 * `AC` zeigt den Anzeigekanal an.
 
-* `{TM_AD_ID}` ist der vom Adobe Advertising generierte alphanumerische Anzeigenschlüssel. Sie wird als eindeutige ID für eine Anzeige verwendet und dient als Schlüssel für die Übersetzung von Entitätsmetadaten von Adobe Advertisingen in lesbare [!DNL Analytics] Dimensionen.
+* `{TM_AD_ID}` ist der von der Adobe Advertising generierte alphanumerische Anzeigenschlüssel. Sie wird als eindeutige ID für eine Anzeige verwendet und dient als Schlüssel für die Übersetzung von Adobe Advertising-Entitätsmetadaten in lesbare [!DNL Analytics] Dimensionen.
 
-* `{TM_PLACEMENT_ID}` ist der vom Adobe Advertising generierte alphanumerische Platzierungsschlüssel. Sie wird als eindeutige Kennung für eine Platzierung verwendet und dient als Schlüssel für die Übersetzung von Adobe Advertising-Entitätsmetadaten in lesbare [!DNL Analytics] Dimensionen.
+* `{TM_PLACEMENT_ID}` ist der von der Adobe Advertising generierte alphanumerische Platzierungsschlüssel. Sie wird als eindeutige Kennung für eine Platzierung verwendet und dient als Schlüssel für die Übersetzung von Adobe Advertising-Entitätsmetadaten in lesbare [!DNL Analytics] Dimensionen.
 
 Beispiel einer AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
@@ -233,7 +270,7 @@ Für alle Berichte oder Prüfungen innerhalb von [!DNL Analytics]Best Practice i
 
 ## Informationen zu Analytics Classifications
 
-In [!DNL Analytics], a [Classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ist ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Rohdaten von Adobe Advertisingen mithilfe von Classifications, damit Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagnen). Klassifizierungen bilden die Grundlage für die Berichterstellung über Adobe Advertising in [!DNL Analytics] und kann mit den AMO-Metriken verwendet werden, z. B. [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], und [!UICONTROL AMO Clicks]sowie mit benutzerspezifischen und standardmäßigen On-site-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], und [!UICONTROL Revenue].
+In [!DNL Analytics], a [Classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ist ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert die Adobe Advertising von Rohdaten mithilfe von Klassifizierungen, damit Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagnen). Klassifizierungen bilden die Grundlage für Adobe Advertising-Reporting in [!DNL Analytics] und kann mit den AMO-Metriken verwendet werden, z. B. [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], und [!UICONTROL AMO Clicks]sowie mit benutzerspezifischen und standardmäßigen On-site-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], und [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
