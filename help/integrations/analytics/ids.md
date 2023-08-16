@@ -3,9 +3,9 @@ title: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 description: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
+source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,11 @@ Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt
 
 * Die serverseitige Einfügefunktion ist nicht implementiert:
 
-   * DSP Kunden:
+   * DSP Kunden: Die [JavaScript-Code](javascript.md) erfasst automatisch Clickthroughs und Durchsichten. Wenn ein Browser keine Drittanbieter-Cookies unterstützt, können Sie trotzdem klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
       * Für [!DNL Flashtalking] Anzeigen-Tags, manuelles Einfügen zusätzlicher Makros pro[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](/help/integrations/analytics/macros-flashtalking.md).&quot;
 
       * Für [!DNL Google Campaign Manager 360] Anzeigen-Tags, manuelles Einfügen zusätzlicher Makros pro[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
-
-  <!--  * For all other ads, XXXX. -->
 
    * Kunden von Search, Social und Commerce:
 
