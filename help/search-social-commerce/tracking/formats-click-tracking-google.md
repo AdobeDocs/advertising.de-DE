@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Google Ads]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Google Ads] Konten.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
@@ -54,7 +54,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
@@ -70,11 +70,11 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix eines der folgenden enthalten:
 
-   * [!DNL Google Ads] Konten, die das neueste AMO-ID-Format verwenden (beginnend mit `s_kwcid`), das Berichte auf Kampagnen- und Anzeigengruppenebene für Performance-Max-Kampagnen sowie Entwürfe und Experimentkampagnen unterstützt:
+   * [!DNL Google Ads] Konten, die die neueste [AMO-ID-Format](/help/integrations/analytics/ids.md#amo-id-formats) (beginnt mit `s_kwcid`), das Berichte auf Kampagnen- und Anzeigengruppenebene für Performance-Max-Kampagnen sowie Entwürfe und Experimentkampagnen unterstützt:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Wenn das Konto über eine serverseitige AMO-ID-Implementierung verfügt und das Konto oder die Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie sie manuell hinzufügen.
+     Wenn das Konto über eine serverseitige AMO-ID-Implementierung verfügt und das Konto oder die Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie sie manuell hinzufügen. Siehe &quot;Methoden zur Implementierung der AMO-ID&quot;in &quot;[Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Alle anderen [!DNL Google Ads] Konten:
 

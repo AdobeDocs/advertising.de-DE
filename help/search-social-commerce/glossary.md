@@ -3,7 +3,7 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Anzeigenvariante:** Jede Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**AMO-ID:** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics freigeben können. Sie beginnt mit `s_kwcid=`.
+**[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics freigeben kann. Sie beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Suchbegriff, Social und Commerce für eine Einheit, auf der Gebote platziert werden. Bei den meisten Kampagnen in den meisten Netzwerken handelt es sich um einen Suchbegriff und dessen Übereinstimmungstyp für eine Such- oder Inhaltskampagne, eine Produktgruppe auf Eintebene (niedrigste Unterteilung) für eine Einkaufskampagne oder ein dynamisches Suchziel für eine dynamische Suchanzeigenkampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dieselbe Produktgruppe oder dasselbe dynamische Suchziel innerhalb mehrerer Anzeigengruppen in einer Kampagne auftritt, werden alle Instanzen als dieselbe Angebotseinheit betrachtet und verfügen daher über dasselbe Angebot.
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 **Grenzkosten:** Die Veränderung der Gesamtkosten, wenn sich die Menge um eine Einheit ändert.
 
-**Grenzwert zwischen Kosten und Ziel:** Die Änderung der Kosten, die erforderlich ist, um den objektiven Wert um 1 zu erhöhen. Dieser Wert hat denselben Wert wie die veraltete Spalte &quot;Marge Kosten-bis-Umsatz&quot;.
+**Grenzwert zwischen Kosten und Ziel:** Die Änderung der Kosten, die erforderlich ist, um den objektiven Wert um 1 zu erhöhen. Dieser Wert hat denselben Wert wie die veraltete Spalte &quot;Marge zwischen Kosten und Umsatz&quot;.
 
 **Übereinstimmungstyp:** Eine Option, die angibt, wie Suchbegriffe mit Anzeigen übereinstimmen. Die Optionen variieren je nach Anzeigennetzwerk.
 
