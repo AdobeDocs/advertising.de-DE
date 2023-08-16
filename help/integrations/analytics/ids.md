@@ -3,7 +3,7 @@ title: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 description: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 336664e00f626a7841c328b53b8f5cea1444f3d7
+source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt
 
       * Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Wenn für das Konto oder die Kampagne aktiviert ist, hängt der Pixelserver den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer auf eine Anzeige mit dem Adobe Advertising-Pixel klickt.
 
-      * für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Einstellung deaktiviert, manuell [den Parameter zu Ihren Anlagenparametern auf Kontoebene hinzufügen](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, die sie an Ihre Basis-URLs anhängen.
+      * für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Einstellung deaktiviert festlegen, fügen Sie den Parameter manuell zu Ihrer [Anlagenparameter auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, die sie an Ihre Basis-URLs anhängen.
 
 * Die serverseitige Einfügefunktion ist nicht implementiert:
 
@@ -134,7 +134,7 @@ Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt
 
       * Für ([!DNL Google Ads] und [!DNL Microsoft® Advertising]) Anzeigen hinzufügen, fügen Sie den AMO ID-Parameter manuell zu den Suffixen Ihrer Landingpage hinzu, idealerweise bei der [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} es sei denn, es ist eine unterschiedliche Verfolgung für einzelne Kontokomponenten erforderlich.
 
-      * Bei Anzeigen in allen anderen Werbenetzwerken manuell [Fügen Sie den Parameter AMO ID zu Ihren Anlagenparametern auf Kontoebene hinzu.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, die sie an Ihre Basis-URLs anhängen.
+      * Fügen Sie bei Anzeigen in allen anderen Werbenetzwerken den Parameter AMO ID manuell zu Ihrem [Anlagenparameter auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, die sie an Ihre Basis-URLs anhängen.
 
 Wenden Sie sich an Ihr Adobe Account Team, um die serverseitige Einfügefunktion zu implementieren oder die beste Option für Ihr Unternehmen zu bestimmen.
 
