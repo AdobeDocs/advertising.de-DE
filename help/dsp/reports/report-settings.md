@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Siehe &quot;[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschrei
 * *[!UICONTROL sFTP]:* So senden Sie den abgeschlossenen Bericht an einen oder mehrere SFTP-Standorte, die Sie im Abschnitt **[!UICONTROL Destination Name]** -Feld.
 * *[!UICONTROL FTP]:* So senden Sie den abgeschlossenen Bericht an einen oder mehrere FTP-Speicherorte, die Sie im Abschnitt **[!UICONTROL Destination Name]** -Feld.
 * *[!UICONTROL FTP SSL](Aktuell in Beta):* So senden Sie den abgeschlossenen Bericht an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Abschnitt **[!UICONTROL Destination Name]** -Feld.
-* *[!UICONTROL Email]:* Angabe der E-Mail-Adresse(n), an die abgeschlossene Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas oder Leerzeichen.
+* *[!UICONTROL Email]:* Angabe der E-Mail-Adresse(n), an die abgeschlossene Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
 >[!NOTE]
 >
 > Sie können den Zieltyp nach dem Speichern des Berichts nicht mehr ändern.
+
+**[!UICONTROL Email]:** (Nur E-Mail-Zieltyp) Geben Sie für jede Adresse die Adresse ein und klicken Sie auf **+**.
 
 **[!UICONTROL Destination Name]:** (Nur S3-, FTP-, sFTP- und FTP-SSL-Zieltypen) Die Namen der Berichtsziele, an die der benutzerdefinierte Bericht gesendet wird.
 
@@ -148,9 +150,13 @@ Siehe &quot;[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschrei
 
 **[!UICONTROL Frequency]:** (Für jeden [!UICONTROL Destination Name]) Wie oft der Bericht an das Ziel gesendet wird: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (Für jeden [!UICONTROL Destination Name] mit [!UICONTROL Frequency] von *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*) Welcher Tag zum Generieren des Berichts. Wählen Sie für wöchentliche Berichte den Wochentag aus. Wählen Sie für monatliche Berichte den numerischen Tag des Monats aus.
+
 ## [!UICONTROL Save Report] Abschnitt
 
-**[!UICONTROL Send & Save]:** Zeitpunkt des Berichtversands: *[!UICONTROL On Schedule]* oder *[!UICONTROL Run Now]*. Geplante Berichte werden um 9:00 Uhr in der Zeitzone des Kontos bereitgestellt.
+**[!UICONTROL When to Generate]:** Wann wird der Bericht generiert? *[!UICONTROL On Schedule]* oder *[!UICONTROL Run Now]*. Geplante Berichte werden um 9:00 Uhr in der Zeitzone des Kontos bereitgestellt.
+
+**[!UICONTROL End Date]:** Das Ablaufdatum des Berichts, das bis zu vier Monate entfernt sein kann. Bevor ein Bericht abläuft, erhalten alle angegebenen E-Mail-Empfänger sieben Tage und einen Tag vor dem Ablaufdatum einen E-Mail-Warnhinweis. Um den Bericht länger zu halten, ändern Sie das Ablaufdatum in den Berichtseinstellungen.
 
 >[!NOTE]
 >
