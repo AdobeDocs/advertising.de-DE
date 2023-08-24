@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
+source-git-commit: 237b37a03664abab00c9fd4b68a564a0f57cdc5c
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 23. August 2023 | [!UICONTROL Placements] | Sie können jetzt schnell mehrere Anzeigen mit Platzierungen verknüpfen, indem Sie eine Tabellendatei für eine Kampagne oder für eine oder mehrere Platzierungen herunterladen und die Datei so bearbeiten, dass Werte in die neue &quot;[!UICONTROL Attached Ad ID]&quot; und dann die bearbeitete Datei hochladen. Verwenden Sie die Spalte, um der Platzierung Anzeigen hinzuzufügen, diese jedoch nicht zu entfernen.<br><br>So laden Sie eine Liste mit Anzeigennamen und zugehörigen [!UICONTROL Ad ID]s, gehen Sie zum [!UICONTROL Ads] Ansicht erstellen, erstellen Sie eine benutzerdefinierte Ansicht, die die [!UICONTROL ID] und exportieren Sie dann die Daten. | Siehe &quot;[Platzierungseinstellungen in einer Tabelle herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;&quot;[Platzierungseinstellung Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; und &quot;[Platzierungseinstellungen in eine Tabelle hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Siehe auch &quot;[Daten aus einer Campaign Management-Ansicht exportieren](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 | 19. Juli 2023 | Bestand | Sie können jetzt von Herausgebern verwaltete Anzeigen für programmgesteuerte garantierte Angebote für Google Authorized Buyers SSP ausführen. Indem Sie Ihre Anzeigen direkt beim Herausgeber hosten, anstatt DSP, können Sie benutzerdefinierte Rich-Media-Anzeigenformate nutzen. Benutzerdefinierte Anzeigenformate werden in der Regel über direkte Reservierungen ausgeführt. Daher können Sie mit der Möglichkeit, von Herausgebern verwaltete Anzeigen in DSP auszuwählen, auch Ihre Reservierungshaushalte auf das programmatische Ökosystem umstellen. | Siehe &quot;[Über programmatische Garantievereinbarungen](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; und &quot;[Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 19. Juli 2023 | Berichterstellung | Die neue [!UICONTROL Household Conversions Report] zeigt Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene an. | Siehe &quot;[Über Berichte](/help/dsp/reports/report-about.md)&quot; und &quot;[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29. Mai 2023 | [!UICONTROL Campaigns] | Sie können jetzt Kampagnen, Pakete und Anzeigen anhalten oder aktivieren. Sie konnten Platzierungen bereits anhalten und aktivieren. | Siehe &quot;[Anhalten oder Aktivieren einer Kampagne](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md), &quot;&quot;[Anhalten oder Aktivieren eines Pakets](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; und &quot;[Eine Anzeige anhalten oder aktivieren](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
