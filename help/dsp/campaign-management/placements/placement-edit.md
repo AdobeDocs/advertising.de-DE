@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 >[!TIP]
 >
-> Informationen dazu, wie Sie nur den Platzierungsnamen, den Status, das maximale Angebot und das Budget bearbeiten, finden Sie unter[Schnelles Bearbeiten der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Informationen zum Bearbeiten von Platzierungsname, Status, Höchstgebot und Budget finden Sie unter &quot;[Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -68,18 +68,18 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 
       * **Überschreiben** (um den vorhandenen Wert in einen neuen Wert zu ändern)
 
-      * **Anhalten** (zum Anhalten von Anzeigen)
+      * **Anhalten** (Anzeigen pausieren)
 
       * **Entfernen** (zum Entfernen spezifizierter Werte)
-   1. Bearbeiten Sie die [Platzierungseinstellung](placement-settings.md).
 
+   1. Bearbeiten Sie die [Platzierungseinstellung](placement-settings.md).
 
 1. Klicken **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Schnelles Bearbeiten der Einstellungen für die Schlüsselplatzierung](placement-quick-edit.md)
+>* [Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](placement-quick-edit.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
 >* [Bearbeiten des Anzeigenzeitplans für eine Platzierung](placement-edit-ad-schedule.md)
@@ -87,6 +87,5 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Informationen zum Korrigieren der Platzierungseinstellungen für eine Kampagne mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
->* [Video: Bearbeiten von Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
+>* [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

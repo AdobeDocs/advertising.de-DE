@@ -1,20 +1,22 @@
 ---
-title: Platzierungseinstellungen für eine Kampagne herunterladen
-description: Erfahren Sie, wie Sie die Platzierungseinstellungen für eine Kampagne mithilfe von Excel QA-Tabellen herunterladen können.
+title: Platzierungseinstellungen in einer Tabelle herunterladen
+description: Erfahren Sie, wie Sie Platzierungseinstellungen in Tabellen herunterladen können.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
+source-git-commit: d8c59b2c39a4c0f7c9dca92cdc8081de7debf629
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-# Platzierungseinstellungen für eine Kampagne herunterladen
+# Platzierungseinstellungen in einer Tabelle herunterladen
 
-Sie können die Platzierungseinstellungen für eine Kampagne im XLSX-Format (Excel-Tabelle) herunterladen.
+Sie können die Platzierungseinstellungen im XLSX-Format (Excel-Tabelle) herunterladen.
 
 Bei Bedarf können Sie die [Felder auswählen](qa-sheet-columns.md) in der heruntergeladenen Datei und [die Änderungen hochladen](qa-sheet-upload.md) DSP.
+
+## Download-Einstellungen für alle Platzierungen in einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -34,9 +36,23 @@ Bei Bedarf können Sie die [Felder auswählen](qa-sheet-columns.md) in der herun
 
    Die Datei wird im Ordner Downloads des Browsers gespeichert. Siehe &quot;[Spalten in heruntergeladenen/hochgeladenen Tabellen](qa-sheet-columns.md)&quot; für eine Liste der enthaltenen Spalten.
 
+## Download-Einstellungen für eine oder mehrere Platzierungen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+
+1. Klicken Sie auf den Namen der Kampagne.
+
+1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, deren Einstellungen Sie herunterladen möchten.
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
+
+Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Siehe &quot;[Spalten in heruntergeladenen/hochgeladenen Tabellen](qa-sheet-columns.md)&quot; für eine Liste der enthaltenen Spalten.
+
 >[!MORELIKETHIS]
 >
->* [Informationen zum Korrigieren der Platzierungseinstellungen für eine Kampagne mithilfe von Tabellen](qa-about.md)
->* [Platzierungseinstellungen für eine Kampagne hochladen](qa-sheet-upload.md)
+>* [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](qa-about.md)
+>* [Platzierungseinstellungen in eine Tabelle hochladen](qa-sheet-upload.md)
 >* [Spalten in heruntergeladenen/hochgeladenen Tabellen](qa-sheet-columns.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

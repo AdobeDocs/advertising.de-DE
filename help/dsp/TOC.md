@@ -4,7 +4,7 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
       + [Über die Platzierungsverwaltung](/help/dsp/campaign-management/placements/placement-about.md)
       + [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
       + [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Schnelles Bearbeiten der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Platzierung duplizieren](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Eine Anzeige an eine Platzierung anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Bearbeiten des Anzeigenzeitplans für eine Platzierung](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
@@ -107,9 +107,9 @@ ht-degree: 6%
       + [Datenvisualisierungen verwalten](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + Korrekte Platzierungseinstellungen mithilfe von Tabellen {#qa-spreadsheet}
       + [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Platzierungseinstellungen für eine Kampagne herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Platzierungseinstellungen für eine Kampagne hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
+      + [Platzierungseinstellungen in einer Tabelle herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Platzierungseinstellungen in eine Tabelle hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Spalten in heruntergeladenen/hochgeladenen Tabellen](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP Makros](/help/dsp/campaign-management/macros.md)
    + [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
@@ -135,7 +135,7 @@ ht-degree: 6%
       + [Segmentinformationen bearbeiten](/help/dsp/audiences/segment-edit.md)
       + [Freigeben oder Beenden der Freigabe eines Segments](/help/dsp/audiences/segment-share.md)
       + [Anzeigen von Tracking-Pixeln für ein Segment](/help/dsp/audiences/segment-view-pixels.md)
-      + [Löschen eines Segments](/help/dsp/audiences/segment-delete.md)
+      + [Segment löschen](/help/dsp/audiences/segment-delete.md)
    + Zielgruppen {#reusable-audiences}
       + [Wiederverwendbare Zielgruppe erstellen](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplizieren einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -165,7 +165,7 @@ ht-degree: 6%
          + [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
       + [Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [Erneute Anforderung [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [Erneutes Anfordern [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [Anzeigen des Status Ihrer [!DNL On Demand] Angebote und Abonnements](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Privates Inventar {#private-inventory}
       + [Über privates Inventar](/help/dsp/inventory/private-inventory-about.md)
@@ -212,7 +212,7 @@ ht-degree: 6%
       + [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
       + [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Administration {#admin}
    + [Profil bearbeiten](/help/dsp/admin/user-own-profile-edit.md)
@@ -224,8 +224,8 @@ ht-degree: 6%
       + [Über Listen auf Kontoebene und auf Advertiser-Ebene für blockierte Sites](/help/dsp/admin/blocked-sites-list-about.md)
       + [Eine Liste mit blockierten Sites auf Kontoebene oder Advertiser-Ebene bearbeiten](/help/dsp/admin/blocked-sites-list-edit.md)
    + Benachrichtigungen {#notifications}
-      + [Über Abonnements für Warnhinweise](/help/dsp/admin/alerts-about.md)
+      + [Über Warnungsanmeldungen](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnungsanmeldungen](/help/dsp/admin/alerts-manage.md)
 + [Integrationen mit Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [Support](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
++ [Kundensupport](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
 + [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
