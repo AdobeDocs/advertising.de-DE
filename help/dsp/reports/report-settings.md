@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] Abschnitt
 
-**[!UICONTROL Timezone]:** Die Zeitzone für die Berichterstellung.
+**[!UICONTROL Timezone]:** Die Zeitzone für das Reporting.
 
 **[!UICONTROL Observe Daylight Savings Time]:** Betrachtet die Sommerzeit in den gemeldeten Zeiten.
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** Umfasst Daten für den vorherigen Kalendermonat.
 
-**[!UICONTROL Add Filters]:** (Optional) Zusätzliche Dimensionen zum Filtern der Daten, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* und *[!UICONTROL Video Duration]*.
+**[!UICONTROL Add Filters]:** (Optional) Zusätzliche Dimensionen zum Filtern der Daten, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*, und *[!UICONTROL Video Duration]*.
 
-\* *[!UICONTROL Account]* ist nur für die folgenden Berichtstypen verfügbar, wenn Ihr Unternehmen für [kontoübergreifende Berichterstattung](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]und [!UICONTROL Conversion]. Wenden Sie sich an Ihr Adobe Account Team, um weitere Informationen zur kontoübergreifenden Berichterstellung zu erhalten.
+\* *[!UICONTROL Account]* ist nur für die folgenden Berichtstypen verfügbar, wenn Ihr Unternehmen für [kontoübergreifende Berichterstattung](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], und [!UICONTROL Conversion]. Wenden Sie sich an Ihr Adobe-Account-Team, um weitere Informationen zur kontoübergreifenden Berichterstellung zu erhalten.
 
 Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
   >[!NOTE]
   >
-  > Die [!UICONTROL Household Reach & Frequency] kann nur eine Dimension enthalten.
+  > Die [!UICONTROL Household Reach & Frequency] -Bericht kann nur eine Dimension enthalten.
 
 * [!UICONTROL Metrics]
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * [!UICONTROL Custom Goals] (sortiert nach Advertiser)
 
-Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen aller Optionen.
+Siehe &quot;[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen aller Optionen.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Die Reihenfolge der Spaltenüberschriften. Sie können jede Spalte per Drag-and-Drop verschieben, um die Reihenfolge anzupassen.
 
@@ -72,17 +72,17 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
 **[!UICONTROL Attribution Rule Settings]:** Die Einstellungen variieren je nach Berichtstyp:
 
-* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; wie Sie Konversionsdaten in einer Reihe von Adobe Advertisingen zuordnen, die zu einer Konversion führen:
+* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Wie werden im Bericht Konversionsdaten in einer Reihe von Ereignissen zugeordnet, die zu einer Konversion führen:
 
    * *[!UICONTROL Unique]:* (Standard) Zählt, wie oft sich ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Weg zur Konversion befunden hat.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Verteilt die Gutschrift jeder Konversion basierend auf der Häufigkeit des Auftretens des Dimensionswerts (z. B. ein Gerät oder eine Platzierung) auf dem Pfad zur Konversion. Wenn es beispielsweise insgesamt 10 Impressionen vor der Konvertierung gab, mit 8 bei CTV und 2 bei Mobile, werden 80 % der Gewichtung (0,8) an CTV-Bildschirme und 0,2 an Mobile vergeben.
 
-* **\[Regeltyp\]:** (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Wie werden im Bericht Konversionsdaten in einer Reihe von Ereignissen zugeordnet, die zu einer Konversion führen? Sie können mehrere Regeln auswählen, wenn Sie Unterschiede zwischen den Regeln vergleichen möchten.
+* **\[Regeltyp\]:** (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Wie werden im Bericht Konversionsdaten in einer Reihe von Ereignissen zugeordnet, die zu einer Konversion führen? Sie können mehrere Regeln auswählen, wenn Sie Unterschiede zwischen den Regeln vergleichen möchten.
 
   >[!NOTE]
   >
-  >Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Advertising Search, Social, & Commerce]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
+  >Konversionspfade umfassen alle Impressionen und Klicks innerhalb der Impressions- oder Klick-Lookback-Fenster des Advertisers, die in [!DNL Advertising Search, Social, & Commerce]. Klicks erhalten während der Konversionszuordnung Vorrang vor Impressionen. Alle Klicks in einem Konversionspfad erhalten die volle Gutschrift auf der Grundlage der Attributionsregel. Impressionen erhalten nur dann eine Gutschrift, wenn im Konversionspfad keine Klicks verfolgt werden.
 
    * *[!UICONTROL Last Event]:* Ordnet Konversionen dem letzten Klick oder der letzten Impression im Konversionspfad zu.
 
@@ -102,9 +102,9 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Die maximale Anzahl von Tagen nach einem Impressionsereignis, in denen ein Konversionsereignis ihm zugeordnet werden kann. Der Standardwert ist *[!UICONTROL 30 days]* und die maximale Dauer beträgt 92 Tage.
+* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten; Advertiser mit Adobe Advertising-Konversions-Tracking) Die maximale Anzahl von Tagen nach einem Impressionsereignis, in denen ein Konversionsereignis ihm zugeordnet werden kann. Der Standardwert ist *[!UICONTROL 30 days]* und die maximale Dauer beträgt 92 Tage.
 
-**[!UICONTROL Paths as Columns]:**  (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten) Welche Konversionstypen werden in Berichten aufgeführt, wenn auf demselben Gerät frühere Ereignisse aufgetreten sind. Sie können bis zu drei Typen einbeziehen. Für jeden ausgewählten Typ wird für jede Konversionsmetrik eine separate Spalte eingefügt und dem angegebenen Suffix ([!UICONTROL (tl)], [!UICONTROL (ct)]oder [!UICONTROL (vt)]):
+**[!UICONTROL Paths as Columns]:**  (Alle [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], und [!UICONTROL Site] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] -Spalten) Welche Konversionstypen werden in Berichten aufgeführt, wenn auf demselben Gerät frühere Ereignisse aufgetreten sind. Sie können bis zu drei Typen einbeziehen. Für jeden ausgewählten Typ wird für jede Konversionsmetrik eine separate Spalte eingefügt und dem angegebenen Suffix ([!UICONTROL (tl)], [!UICONTROL (ct)]oder [!UICONTROL (vt)]):
 
 * *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* Umrechnungen, die Klicks (CT für Clickthrough) und Impressionen (VT für Durchsicht) zugeordnet werden. Auf Impressionen zugeordnete Konversionen werden mit der angegebenen Durchsichtsgewichtung multipliziert. Die standardmäßige Durchsichtsgewichtung beträgt 100 %, d. h. Konversionen, die Impressionen zugeordnet werden, werden als 100 % des Werts der Konversionen gezählt, die den Klicks zugeordnet sind.
 
@@ -138,7 +138,7 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
 * So erstellen Sie ein neues Ziel:
 
-   1. Klicken **Neues Ziel hinzufügen**.
+   1. Klicks **Neues Ziel hinzufügen**.
 
    1. Geben Sie die [Berichtszieleinstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)und klicken Sie auf **Speichern**.
 
@@ -146,7 +146,7 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
       Das neue Ziel ist jetzt in der Liste der vorhandenen Ziele verfügbar und Sie können es optional zum Bericht hinzufügen.
 
-**[!UICONTROL Frequency]:** (Für jeden [!UICONTROL Destination Name] Wie oft wird der Bericht an das Ziel gesendet: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (Für jeden [!UICONTROL Destination Name]) Wie oft der Bericht an das Ziel gesendet wird: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] Abschnitt
 
@@ -154,7 +154,7 @@ Siehe[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschreibungen 
 
 >[!NOTE]
 >
->Sie können [jederzeit einen benutzerspezifischen Bericht ausführen](report-run-now.md) von [!UICONTROL Reports] anzeigen.
+>Sie können [jederzeit einen benutzerspezifischen Bericht ausführen](report-run-now.md) aus dem [!UICONTROL Reports] anzeigen.
 
 >[!MORELIKETHIS]
 >

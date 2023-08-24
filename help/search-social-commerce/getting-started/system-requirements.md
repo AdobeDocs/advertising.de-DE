@@ -3,9 +3,9 @@ title: Systemanforderungen
 description: Erfahren Sie mehr über Software- und Kontoanforderungen.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,15 @@ Sie benötigen die folgenden Software- und Kontoinformationen.
 
 ## Benutzername und Kennwort
 
-Um sich anzumelden, benötigen Sie einen Benutzernamen und ein Kennwort. Ihr Adobe Account Team richtet Ihr Benutzerkonto ein und erstellt Ihren Benutzernamen und Ihr Passwort.
+Um sich anzumelden, benötigen Sie einen Benutzernamen und ein Kennwort. Ihr Adobe Account-Team richtet Ihr Benutzerkonto ein und erstellt Ihren Benutzernamen und Ihr Passwort.
 
-## Computer- und Browserspracheinstellungen
+## Computer- und Browsereinstellungen
+
+### Einstellungen der Browser-Site
+
+Um die Bildvorschau für einige Anzeigen-/Asset-Typen anzuzeigen, deaktivieren Sie Anzeigenblocker/Inhaltsblocker für die `efrontier.com` Domäne, indem eine Ausnahme für die Site zugelassen wird. Verwalten Sie Anzeigensperren in den Site-/Website-Einstellungen Ihres Browsers oder (in Firefox), indem Sie die Einstellungen für alle installierten Adblocker-Browsererweiterungen bearbeiten.
+
+### Computer- und Browserspracheinstellungen
 
 Die folgenden Informationen legen fest, welche Zeichensätze verwendet werden und welche Formate zum Anzeigen von Zahlen, Daten, Uhrzeiten und Währungen verwendet werden sollen:
 
