@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 53c2712ff63aabf26b2f9a292ba62e068bf9db22
+source-git-commit: 3cfc1703e06ee5a8271de2eae3aac3f0494aedff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
-| ---- | ------- | ----------- | -------------------- |
+| ---- | ------- | ----------- | --------------------- |
 | 15. August 2023 | Konversionsmetriken | [!UICONTROL Admin] > [!DNL Transaction Properties] enthält jetzt &quot;[!UICONTROL Source]&quot;, die die Quelle jeder Metrik angibt, z. B. [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads]oder [!UICONTROL Custom Feed]. | Siehe &quot;[Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
 | 9. August 2023 | Konversionsmetriken | [!UICONTROL Admin] > [!DNL Transaction Properties] wurde umbenannt [!UICONTROL Conversions]. | Siehe &quot;[Über die Verwaltung der Konversionsmetriken eines Advertisers](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] Konversions-Tracking-Tags | Ein aktualisierter Bildschirm zur Erstellung [!DNL Google] Konversions-Tracking-Tags sind verfügbar über [!UICONTROL Admin] > [!UICONTROL Conversions]. Der alte Bildschirm unter [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] wird in der Zukunft entfernt. | Siehe &quot;[Erstellen Sie ein Konversions-Tag für [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
