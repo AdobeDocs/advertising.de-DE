@@ -3,18 +3,16 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # Best Practices zum Einrichten von Leistungskampagnen
 
-DSP können Ihre leistungsorientierten Kampagnen für Platzierungen mit den niedrigsten Kosten pro Akquise (CPA) oder der höchsten Rendite aus Werbeausgaben (ROAS) optimieren.
-
-Siehe die folgenden Best Practices für Leistungskampagnen:
+DSP können Ihre leistungsorientierten Kampagnen optimieren. Siehe die folgenden Best Practices für Leistungskampagnen:
 
 * Schritt 1: Definieren Sie Ihr Ziel
 * 2. Schritt - Strategie definieren
@@ -24,7 +22,7 @@ Siehe die folgenden Best Practices für Leistungskampagnen:
 
 ## Schritt 1: Definieren Ihres Ziels
 
-Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche ROAS oder den niedrigstmöglichen CPA zu erreichen. Leistungskampagnen haben folgende Möglichkeiten: [Optimierungsziele](/help/dsp/optimization/optimization-goals.md) , die mit &quot;[!UICONTROL - Custom Goal]&quot; (z. B. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Für jedes Kampagnenkit geben Sie das Ziel entsprechend an.
+Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche ROAS oder den niedrigstmöglichen CPA zu erreichen. Leistungskampagnen haben folgende Möglichkeiten: [Optimierungsziele](/help/dsp/optimization/optimization-goals.md) , die mit &quot;[!UICONTROL - Custom Goal]&quot; (z. B. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Für jedes Kampagnenkit geben Sie das Optimierungsziel entsprechend an.
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 
