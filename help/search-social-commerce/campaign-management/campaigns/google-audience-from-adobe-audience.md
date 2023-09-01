@@ -3,9 +3,9 @@ title: Erstellen [!DNL Google Ads] Kundenabgleich-Zielgruppen aus [!DNL Adobe] Z
 description: Erfahren Sie, wie Sie [!DNL Google Ads] Kundenabgleich von Zielgruppen aus Ihrer bestehenden Adobe Analytics- und Audience Manager-Zielgruppe.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]Konten, die nur für die Kundenübereinstimmung infrage kommen*
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser mit nur einer Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration*
 
 Opt-in-Advertiser können [!DNL Google Ads] Kundenabgleich von Zielgruppen mithilfe von Benutzer-IDs aus a) [!DNL Analytics] Segmente, die für Adobe Experience Cloud freigegeben sind, und b) Audience Manager-Segmente, die über Search, Social und Commerce als Ziel verfügen, einschließlich [!DNL Analytics] Segmente, die in Adobe Experience Cloud veröffentlicht werden, und Segmente, die mithilfe der Adobe Experience Cloud-Zielgruppenbibliothek erstellt werden. In Search, Social und Commerce wird automatisch ein [!DNL Google] Tracking-URL zu jedem [!DNL Analytics] oder Audience Manager [!DNL Google] kann die Zielgruppe verfolgen.
 
@@ -32,7 +32,7 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
 1. Führen Sie nach Bedarf die Voraussetzungen aus:
 
-   1. (So erstellen Sie Benutzer-ID-Remarketing-Listenzielgruppen) Eine [!DNL Adobe] Admin-Benutzer oder -Kundenbetreuer müssen die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für die Kundenabstimmung zu aktivieren. Die Einstellungen unterscheiden sich zwischen Advertisern mit Audience Manager und Advertisern mit [!DNL Analytics] nur.
+   1. (So erstellen Sie Benutzer-ID-Remarketing-Listenzielgruppen) Eine [!DNL Adobe] Admin-Benutzer oder -Kundenbetreuer müssen die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für die Kundenabstimmung zu aktivieren.
 
    1. Implementieren des [Adobe Experience Platform Identity-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
 
@@ -40,7 +40,9 @@ Jeder neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche 
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      where `Advertising_Cloud_UserID` ist die eindeutige Benutzer-ID, die dem Advertiser zugewiesen ist. Beispiel:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      where `Advertising_Cloud_UserID` ist die eindeutige numerische Benutzer-ID, die dem Advertiser zugewiesen ist.
+
+      Beispiel: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Falls noch nicht abgeschlossen) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, dass [Synchronisierung mit dem Organisationskonto des Advertisers in Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
