@@ -3,9 +3,9 @@ title: Anzeigen der platzierungsdiagnostischen Berichte
 description: Erfahren Sie, wie Sie Probleme bei der Platzierungs- und Platzierungseinrichtung diagnostizieren können.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Mit den folgenden Tools können Sie Probleme bei der Platzierungseinrichtung und
       1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
       1. Klicken Sie auf den Namen der Kampagne und anschließend auf **[!UICONTROL Placements]**.
       1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. Klicken Sie oben rechts auf ![Placement-Diagnose](/help/dsp/assets/placement-diagnostics.png) oder **[!UICONTROL Diagnostic]**.
+   1. Klicken Sie oben rechts auf ![Placement-Diagnose](/help/dsp/assets/placement-diagnostics.png).
 1. Führen Sie einen der folgenden Schritte aus:
-   * So zeigen Sie das Änderungsprotokoll an:
+   * Anzeigen des Änderungsprotokolls:
       1. Klicken **[!UICONTROL Change Log]**.
       1. (Optional) Filtern Sie die Berichtsergebnisse:
          * Ändern Sie im Datumsmenü den Berichtszeitraum von den standardmäßigen letzten 14 Tagen in einen anderen Zeitraum (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* oder *[!UICONTROL Last 1 year]*).
@@ -46,5 +46,5 @@ Mit den folgenden Tools können Sie Probleme bei der Platzierungseinrichtung und
 >[!MORELIKETHIS]
 >
 >* [Über In-Platform-Berichte](campaign-reports-about.md)
+>* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-
