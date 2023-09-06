@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Bis zu fünfzehn Bilder für die Anzeige, darunter die folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Hochformat-Bild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). So laden Sie Bilder hoch:
+**[!UICONTROL Images]:** Bis zu fünfzehn Bilder für die Anzeige, darunter die folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Hochformat-Bild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
-1. Klicks **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+* So laden Sie Bilder hoch:
 
-1. Für jedes Bild:
+   1. Im [!UICONTROL Upload from computer] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
-   1. Wählen Sie das Seitenverhältnis aus.
+   1. Für jedes Bild:
 
-   1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
+      1. Wählen Sie das Seitenverhältnis aus.
 
-   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+      1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
 
-      Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
 
-   1. Klicken **[!UICONTROL Proceed]**.
+         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+      1. Klicken **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformatlogo (4:1). Sie können bis zu fünf von jeder Größe einbeziehen. Siehe [[!DNL Google Ads] Logo-Spezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). So laden Sie Bilder hoch:
+   1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
 
-1. Klicks **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+* So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-1. Für jedes Bild:
+**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformatlogo (4:1). Sie können bis zu fünf von jeder Größe einbeziehen. Siehe [[!DNL Google Ads] Logo-Spezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
-   1. Wählen Sie das Seitenverhältnis aus.
+* So laden Sie Bilder hoch:
 
-   1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
+   1. Im [!UICONTROL Upload from computer] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
-   1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+   1. Für jedes Bild:
 
-      Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+      1. Wählen Sie das Seitenverhältnis aus.
 
-   1. Klicken **[!UICONTROL Proceed]**.
+      1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
 
-1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
 
-**[!UICONTROL Videos]:** (Optional) Die URL für mindestens eine und bis zu fünf, [!DNL YouTube] Videos mindestens 10 Sekunden lang.
+         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+
+      1. Klicken **[!UICONTROL Proceed]**.
+
+   1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+
+* So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
+
+**[!UICONTROL Videos]:** (Optional) Mindestens ein und bis zu fünf, [!DNL YouTube] Videos mit einer Länge von mindestens 10 Sekunden.  Sie können entweder URLs eingeben oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* So geben Sie URLs ein:
+
+   1. Im [!UICONTROL Upload from computer] Registerkarte eine URL eingeben.
+
+   1. (Optional) Um eine weitere URL hinzuzufügen, klicken Sie auf [!UICONTROL + Add]** und geben Sie die URL ein.
+
+* So wählen Sie Videos aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Videos aus.
 
 **[!UICONTROL Headlines]:** Mindestens drei bis fünf kurze Überschriften mit maximal 30 Zeichen pro Kopf. Mindestens eine Überschrift darf maximal 15 Zeichen lang sein. Wenn die Option auf Kampagnenebene zur Aktivierung der endgültigen URL-Erweiterung in [!DNL Google Ads], dann [!DNL Google Ads] ersetzt diesen Wert durch eine benutzerdefinierte Überschrift, die auf dem Inhalt der Landingpage basiert.
 
@@ -302,7 +318,24 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
 
+**[!UICONTROL Audience Signal]:** (Optional) [!DNL Google Ads] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Google Ads] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
+
+>[!NOTE]
+>Zielgruppensignale unterscheiden sich von [Zielgruppenziele auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** Ermöglicht die Angabe einer anderen Asset-Gruppe.
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Ob *[!UICONTROL Use account conversion goals for this campaign]* (Standardeinstellung) oder *[!UICONTROL Use campaign specific conversion goals]*. Wenn Sie sich dafür entscheiden, Konversionsziele für die Kampagne festzulegen, wählen Sie Standardziele aus und/oder erstellen Sie ein benutzerdefiniertes Ziel für die Kampagne.
+
+Ziele werden täglich synchronisiert, sodass vorhandene Ziele, die in den letzten 24 Stunden erstellt wurden, möglicherweise nicht aufgelistet werden. So aktualisieren Sie die Liste: [Manuelles Synchronisieren der Daten des Anzeigennetzwerks](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf **[!UICONTROL + Add custom goal]**, geben Sie den benutzerdefinierten Zielnamen ein, wählen Sie die [Konversionsaktionen](https://support.google.com/google-ads/answer/6032150) , um sie in das benutzerdefinierte Ziel einzubeziehen, und klicken Sie dann auf **[!UICONTROL Save]**. **Hinweis:** Jede Kampagne kann nur ein einziges benutzerdefiniertes Ziel haben.
+
+>[!TIP]
+>
+>Wenn die Kampagne Teil eines Portfolios ist, verwenden Sie dieselben Konversionsziele wie das Ziel des Portfolios. Die Verwendung verschiedener Konversionsziele kann sich auf die Portfolioleistung auswirken.
 
 >[!MORELIKETHIS]
 >
