@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 14. September 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] Leistungsmax-Kampagnen) In den Asset-Gruppen einer Kampagne können Sie jetzt aus vorhandenen Text-Assets in Ihrer [!UICONTROL Asset Library]. Sie können auch weiterhin neue Text-Assets hochladen. | — |
 | 5. September 2023 | Kampagnen | ([!DNL Google Ads] Kampagnen) Für alle verfügbaren Kampagnentypen können Sie jetzt in den Kampagneneinstellungen vorhandene Konversionsziele auswählen oder neue erstellen.</li> | Siehe &quot;[[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Kampagnen | ([!DNL Google Ads] Performance max campaigns) Neue Funktionen ermöglichen Ihnen Folgendes:<ul><li>Wählen Sie vorhandene Konversionsziele aus oder erstellen Sie neue für eine Kampagne, wie oben erwähnt.</li><li>Wählen Sie aus den vorhandenen Assets in Ihrer [!UICONTROL Asset Library] für Bilder, Logos und Videos in den Einstellungen für die maximale Leistung von Kampagnen. Sie können weiterhin neue Assets hochladen.</li><li>(Optional) Stellen Sie Zielgruppensignale für Ihre maximalen Leistungsgruppen bereit, indem Sie [!DNL Google Ads] Zielgruppen. [!DNL Google Ads] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. **Hinweis:** Zielgruppensignale unterscheiden sich von [Zielgruppenziele auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Siehe &quot;[[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 15. August 2023 | Konversionsmetriken | [!UICONTROL Admin] > [!DNL Transaction Properties] enthält jetzt &quot;[!UICONTROL Source]&quot;, die die Quelle jeder Metrik angibt, z. B. [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads]oder [!UICONTROL Custom Feed]. | Siehe &quot;[Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
