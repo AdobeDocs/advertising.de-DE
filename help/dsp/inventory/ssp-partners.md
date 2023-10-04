@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verfügbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 85fb7665ae2b6252c359ea254dbc783d73a4a078
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -18,29 +18,29 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 >
 >Alle SSP-Partnerschaften können sich ändern. Diese Liste spiegelt die aktuellen Partnerschaften wider.
 
-| SSP-Liste | Firma | Sitzungs-ID | Programmbezogene garantierte Unterstützung | Region | Unterstützte Währung | Video Desktop | Video Mobile | Video CTV | Display Desktop | Mobile anzeigen | Native Anzeige | Audio Desktop und Mobilgerät |
+| SSP-Liste | Firma | Sitzungs-ID | Programmbezogene garantierte Unterstützung | Region | Unterstützte Währung | Video Desktop | Video Mobile | Video CTV | Display Desktop | Mobilgerät anzeigen | Native Anzeige | Audio Desktop und Mobilgerät |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | X | X | X |  |  |  |  |
 | [!DNL AdColony] (zuvor [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Nein | Global | USD |  | x |  | x | x |  |  |
 | [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising | Ja | Global | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | Nicht zutreffend | [!DNL TubeMogul] | Ja | SEA | USD |  | x |  | x |  |  | x |
-| [!DNL AppNexus] | [!DNL Xandr] | Videositz-ID: 9094<br>Anzeigen der Sitzungs-ID: 3939 | Nein | Global | USD | x | x | x | x | x |  |  |
-| [!DNL DailyMotion] | Nicht zutreffend | [!DNL TubeMogul] oder Adobe Advertising | Nein | US + EMEA | USD, EUR | x | x | x |  |  |  |  |
+| [!DNL AppNexus] | [!DNL Xandr] | Videositz-ID: 9094<br>Anzeigesitz-ID: 3939 | Nein | Global | USD | x | x | x | x | x |  |  |
+| [!DNL DailyMotion] | Nicht zutreffend | [!DNL TubeMogul] oder Adobe Advertising | Nein | US + EMEA | USD, | x | x | x |  |  |  |  |
 | [!DNL DistrictM] |  | Adobe | Nein | US/CA | USD |  |  |  | x | x |  |  |
 | [!DNL EMX Digital] |  | Adobe Advertising | Nein | US/CA | USD | x | x | x |  |  |  |  |
-| [!DNL Equativ] (früher [!DNL SmartAdServer]) |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD, EUR | x | x |  | x | x |  |  |
+| [!DNL Equativ] (früher [!DNL SmartAdServer]) |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD, | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (früher [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | Nein | Global | USD | x | x |  |  |  |  |  |
 | [!DNL Google AdX] (jetzt [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe EU - 94893418<br>Adobe APAC - 89185975 | Ja | Global | USD, BRL | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | Nein | US/CA | USD | x | x |  | x | x |  |  |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Nein | Global | USD | x | x | x | x | x |  |  |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Nein | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite CTV] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | Nein | Global | USD |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | x | x |  | x | x | x |  |
-| [!DNL SmartClip] |  | Adobe Advertising | Nein | EMEA | Alle Währungen | x | x | x | x | x |  |  |
+| [!DNL SmartClip] |  | Adobe Advertising | Ja | EMEA | Alle Währungen | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising | Nein | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising | Nein | CA | USD |  |  |  | x | x |  |  |
 | [!DNL Soundcast] |  | Adobe Advertising | Ja | Global | EUR, USD |  |  |  |  |  |  | x |
@@ -54,9 +54,8 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising | Nein | US + EMEA | USD | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD |  |  |  | x | x |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Übersicht über die Funktionen des Bestands](inventory-overview.md)
-
