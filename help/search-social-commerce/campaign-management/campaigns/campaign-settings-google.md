@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]:* Zeigt Produktanzeigen an, die [!DNL Google] generiert automatisch basierend auf Ihren Produkten in [!DNL Google Merchant Center] on [!DNL Google Shopping], den Bereich neben [!DNL Google] Suchergebnisse (getrennt von Textanzeigen) und (optional) Suchpartner-Websites. Für jede Anzeigengruppe in der Kampagne können Sie Produktgruppen für die Werbung angeben.
 
-* *[!UICONTROL Display Network Only]:* Zeigt Anzeigen im Display-Netzwerk an. Für jede Anzeigengruppe müssen Sie Platzierungen angeben und optional Suchbegriffe angeben.
+* *[!UICONTROL Display Network Only]:* Zeigt Anzeigen im Display-Netzwerk an. Für jede Anzeigengruppe müssen Sie Platzierungen angeben und können optional Suchbegriffe angeben.
 
 * *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt Konversionen für Ihre Anzeigen kanalübergreifend an und optimiert sie mithilfe von [!DNL Google Ads] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, zu denen Bilder, Logos, Überschriften, Beschreibungen, optionale Videos und Zielgruppensignale gehören. [!DNL Google Ads] kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen (z. B. [!DNL YouTube], [!DNL Gmail]oder [!DNL Search]).
 
@@ -254,11 +254,11 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Bis zu fünfzehn Bilder für die Anzeige, darunter die folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Hochformat-Bild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+**[!UICONTROL Images]:** Bis zu 15 Bilder für die Anzeige, darunter die folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Hochformat-Bild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
 * So laden Sie Bilder hoch:
 
-   1. Im [!UICONTROL Upload from computer] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+   1. Im [!UICONTROL Upload from Device] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
    1. Für jedes Bild:
 
@@ -280,7 +280,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 * So laden Sie Bilder hoch:
 
-   1. Im [!UICONTROL Upload from computer] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+   1. Im [!UICONTROL Upload from Device] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
    1. Für jedes Bild:
 
@@ -298,21 +298,47 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 * So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Videos]:** (Optional) Mindestens ein und bis zu fünf, [!DNL YouTube] Videos mit einer Länge von mindestens 10 Sekunden.  Sie können entweder URLs eingeben oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+**[!UICONTROL Videos]:** (Optional) Mindestens ein und bis zu fünf, [!DNL YouTube] Videos mit einer Länge von mindestens 10 Sekunden. Sie können entweder URLs eingeben oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
 * So geben Sie URLs ein:
 
-   1. Im [!UICONTROL Upload from computer] Registerkarte eine URL eingeben.
+   1. Im [!UICONTROL Enter Video Url] Registerkarte eine URL eingeben.
 
-   1. (Optional) Um eine weitere URL hinzuzufügen, klicken Sie auf [!UICONTROL + Add]** und geben Sie die URL ein.
+   1. (Optional) Um eine weitere URL hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die URL ein.
 
 * So wählen Sie Videos aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Videos aus.
 
 **[!UICONTROL Headlines]:** Mindestens drei bis fünf kurze Überschriften mit maximal 30 Zeichen pro Kopf. Mindestens eine Überschrift darf maximal 15 Zeichen lang sein. Wenn die Option auf Kampagnenebene zur Aktivierung der endgültigen URL-Erweiterung in [!DNL Google Ads], dann [!DNL Google Ads] ersetzt diesen Wert durch eine benutzerdefinierte Überschrift, die auf dem Inhalt der Landingpage basiert.
 
-**[!UICONTROL Long Headlines]:** Mindestens eine und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf.
+Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
-**[!UICONTROL Descriptions]:** Mindestens zwei bis vier Beschreibungen mit jeweils maximal 90 Zeichen. Mindestens eine Beschreibung muss mindestens 30 Zeichen lang sein.
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
+
+**[!UICONTROL Long Headlines]:** Mindestens eine und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf. Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
+
+**[!UICONTROL Descriptions]:** Mindestens zwei bis vier Beschreibungen mit jeweils maximal 90 Zeichen. Mindestens eine Beschreibung muss mindestens 30 Zeichen lang sein. Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
 **[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Automated]* ausgewählt ist und [!DNL Google Ads] markiert den Aktionsaufruf. Sie können optional eine andere Aktion auswählen.
 
