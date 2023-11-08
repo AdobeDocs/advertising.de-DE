@@ -1,17 +1,18 @@
 ---
 title: Erstellen und Hochladen von Assets
-description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] Asset-Bibliothek auf Kontoebene.
+description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Asset-Bibliotheken auf Kontoebene.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Hochladen von Assets
 
-*Für [!DNL Google Ads] Nur Konten*
+*Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur Konten*
 
 *Open-Beta-Funktion*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         Sie können bis zu zehn Video-URLs gleichzeitig posten.
 
-      * Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.
+      * ([!DNL Google Ads] Nur Konten) Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.
 
         Jedes Textelement kann maximal 1000 Zeichen enthalten. Sie können maximal zehn Text-Assets gleichzeitig hochladen.
 
