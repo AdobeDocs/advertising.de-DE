@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -85,11 +85,11 @@ ht-degree: 2%
    + Konversions-Tracking {#conversion-tracking}
       + [Konversions-Tracking-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising-Konversions-Tracking {#advertising-conversion-tracking}
-         + [Über Adobe Advertising-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+         + [Über Adobe Advertising von Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format der JavaScript-Konversions-Trackingtags, Version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format der JavaScript-Konversions-Trackingtags, Version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format der Tracking-Tags für die Bildkonvertierung](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Das Adobe Advertising-Tag für die JavaScript-Konversions-Zuordnung](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Das Adobe Advertising-JavaScript-Tag zur Konversions-Zuordnung](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Adobe Analytics-Konversions-Tracking](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Vom Advertiser verfolgte Konversionen mithilfe von Feeds{#conversion-feeds}
@@ -317,6 +317,8 @@ ht-degree: 2%
                + [Die [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [Die [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [Die [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [Die [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [Die [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [Einen Spezialbericht erstellen](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Berichtsspalten für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
@@ -382,7 +384,7 @@ ht-degree: 2%
       + [Über die Tools zum Erstellen und Dekodieren von Tracking-Tags](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [Klick-Tracking-URL generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [Klick-Tracking-URL dekodieren](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Adobe Advertising-Konversions-Tag generieren](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Hochladen von Konversionsdaten in Werbenetzwerke {#upload-ad-networks}
       + [Hochladen von Konversionsmetriken in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Aktivieren des Hochladens von Zielen in Werbenetzwerke](/help/search-social-commerce/tools/objective-upload-to-networks.md)
