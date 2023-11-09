@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
+source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 8. November 2023 | [!UICONTROL Asset Library] | (Open Beta-Funktion; [!DNL Microsoft® Advertising] Konten) in [!UICONTROL Campaigns] > [!UICONTROL Asset Library], können Sie wiederverwendbare Bild- und Video-Assets erstellen und sie in Ihre [!DNL Microsoft® Advertising] Asset-Bibliothek auf Kontoebene. Sie können Ihre hochgeladenen Assets den entsprechenden Kampagnentypen im [!DNL Microsoft® Advertising] Editor. | Siehe &quot;[Über die [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot; und &quot;[Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | 7. Oktober 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Zwei neue Sonderberichte für [!DNL Microsoft Advertising] Konten zeigen die Leistung auf Kampagnenebene nach Anzeigenverteilung (Suche oder Zielgruppe) und/oder Netzwerk (z. B. [!DNL Microsoft] Sites und wählen Sie Traffic oder Zielgruppe aus):<ul><li>[!UICONTROL MSA Network Performance Report]: Umfasst grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen), Konversionen und Umsatz.</li><li>[!UICONTROL MSA Network Impression Share Report]: Umfasst Metriken zur Impressions-Freigabe und grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen).</li></ul> | — |
 | 14. September 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] Leistungsmax-Kampagnen) In den Asset-Gruppen einer Kampagne können Sie jetzt aus vorhandenen Text-Assets in Ihrer [!UICONTROL Asset Library]. Sie können auch weiterhin neue Text-Assets hochladen. | Siehe &quot;[[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5. September 2023 | Kampagnen | ([!DNL Google Ads] Kampagnen) Für alle verfügbaren Kampagnentypen können Sie jetzt in den Kampagneneinstellungen vorhandene Konversionsziele auswählen oder neue erstellen.</li> | Siehe &quot;[[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
