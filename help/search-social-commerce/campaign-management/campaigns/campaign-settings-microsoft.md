@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Zeigt native/Display-Anzeigen auf der [!DNL Microsoft® Audience Network]. Sie können entweder a) automatisch Feed-basierte Anzeigen generieren, indem Sie die Kampagne mit einem Händler-Center-Store im [!UICONTROL Shopping Settings] oder b) erstellen Sie responsive Anzeigen mit Text-Assets und hochgeladenen Bildern. Bei beiden Optionen müssen Sie Anzeigengruppen mit Benutzer-Targeting erstellen.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) für die Kampagne erstellen und [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft® Store]. Sie können untergeordnete Anzeigengruppen und Produktgruppen für die Kampagne erstellen und [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft® Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
 * *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt Videoanzeigen im Zielgruppen-Netzwerk an.
 
 * *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
 
-* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an.
+* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an. Zuweisen von Asset-Gruppen separat innerhalb der [!DNL Microsoft® Advertising] Anzeigeneditor.
 
 ## [!UICONTROL Campaign Details]
 

@@ -1,9 +1,9 @@
 ---
 title: Replikation [!DNL Google Ads] Kampagnen in [!DNL Microsoft® Advertising]
 description: Erfahren Sie, wie Sie Ihre synchronisierten Kampagnen in eine [!DNL Google Ads] direkt in einer synchronisierten [!DNL Microsoft® Advertising] -Konto.
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können die folgenden Kampagnentypen und deren Kampagnenstruktur replizieren
 
   Wenn Sie Shopping-Feed-basierte Display-Kampagnen replizieren möchten, replizieren Sie zunächst Ihre [!DNL Google Merchant Center] Produktangebote an [!DNL Microsoft® Merchant Center]. Wählen Sie bei der Replikation der Kampagnen die [!DNL Microsoft® Merchant Center] in den Importoptionen speichern, um den Speicher mit Ihren Feed-basierten Zielgruppenkampagnen zu verknüpfen.
 
-* [!DNL Google Ads] Leistungsmax-Kampagnen, einschließlich lokaler Inventaranzeigen in [!DNL Microsoft® Advertising] Smart Shopping-Kampagnen.
+* [!DNL Google Ads] Leistungsmax-Kampagnen, einschließlich lokaler Inventaranzeigen in [!DNL Microsoft® Advertising] Kampagnen mit maximaler Leistung.
 
 Sie können die Kampagnen einmalig, wöchentlich oder monatlich oder je nach [!DNL Microsoft® Advertising]wird empfohlen. Sie können optional Benachrichtigungen bei jeder Ausführung eines Importvorgangs oder bei Fehlern oder Änderungen konfigurieren. Importieren Sie Ihre Kampagnen in [!DNL Microsoft® Advertising]können Sie den Status Ihres Importvorgangs überprüfen, alle Fehlerprotokolle überprüfen, einen Importauftrag manuell ausführen und Ihren Importplan bearbeiten, anhalten, aktivieren oder löschen.
 
@@ -110,7 +110,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 **[!UICONTROL Credential ID]:** Eine ID, die [!DNL Microsoft® Advertising] verwendet, um Ihre [!DNL Google Ads] Anmeldedaten.
 
-Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an Ihr Adobe Account Team, das die Anmeldeinformationen generiert und Ihnen die Kennung gibt.
+Automatische Generierung von [!DNL Microsoft® Advertising] Die Anmeldeinformationen für den Import sind aufgrund von [!DNL Microsoft® Advertising] Einschränkungen. Wenden Sie sich an Ihr Adobe Account-Team, das die Anmeldeinformationen generiert und Ihnen die Kennung gibt.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Die synchronisierten [!DNL Microsoft® Advertising] Konto, in das die Kampagnendaten importiert werden.
 
