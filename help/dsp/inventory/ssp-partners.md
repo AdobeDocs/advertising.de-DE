@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verfügbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
+source-git-commit: 351350960ed4bc8ef500181b98a6d120035835fa
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL AppNexus] | [!DNL Xandr] | Videositz-ID: 9094<br>Anzeigesitz-ID: 3939 | Nein | Global | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | Nicht zutreffend | [!DNL TubeMogul] oder Adobe Advertising | Nein | US + EMEA | USD, | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | Nein | US/CA | USD |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | Nein | US/CA | USD | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nein | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL Equativ] (früher [!DNL SmartAdServer]) |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD, | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (früher [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | Nein | Global | USD | x | x |  |  |  |  |  |
@@ -37,7 +37,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL Magnite CTV] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | Nein | Global | USD |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x |  |  | x | x |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x | x | x | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | Nein | EMEA | Alle Währungen | x | x | x | x | x |  |  |
