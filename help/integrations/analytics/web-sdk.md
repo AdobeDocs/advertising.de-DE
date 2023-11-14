@@ -3,7 +3,7 @@ title: Verwenden der [!DNL Last Event Service] JavaScript-Bibliothek mit [!DNL W
 description: Erfahren Sie, wie Sie mit dem [!DNL Analytics] [!DNL visitorAPI] -Bibliothek [!DNL Experience Platform] [!DNL Web SDK] Bibliothek für Ihre [!DNL Analytics for Advertising] Implementierung.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 687f146b27765d59f172284e4cff7ab5c0e57b50
+source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Im [!DNL Analytics for Advertising] [!DNL Last Event Service] Tag, das Sie auf I
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id''rsid').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id','rsid').generateRandomId();
 </script>
 ```
 
