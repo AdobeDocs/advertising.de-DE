@@ -1,11 +1,11 @@
 ---
 title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 >[!NOTE]
 >
->Auch wenn die Empfehlungen und Leistungseinblicke des Anzeigennetzwerks Ihnen dabei helfen, die Kampagnenleistung zu verbessern, stimmen einige möglicherweise nicht mit Ihren allgemeinen Zielen überein. Daher sollten Sie sich vor der Implementierung von Empfehlungen oder Einblicken am besten mit Ihrem Adobe-Kundenbetreuungsteam beraten.
+>Auch wenn die Empfehlungen und Leistungseinblicke des Anzeigennetzwerks Ihnen dabei helfen, die Kampagnenleistung zu verbessern, stimmen einige möglicherweise nicht mit Ihren allgemeinen Zielen überein. Daher sollten Sie sich vor der Implementierung von Empfehlungen oder Einblicken an Ihr Adobe Account-Team wenden.
 
 ## Unterstützte Empfehlungstypen für [!DNL Google Ads]
 
@@ -56,7 +56,11 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Responsive search improve ad strength] | Vorschläge zur Verbesserung der Anzeigenstärke für eine responsive Suchanzeige |
 | | [!UICONTROL Sitelink extension] | Hinzufügen von Sitelink-Erweiterungen zu einer Kampagne |
 | | [!UICONTROL Text ad] | Hinzufügen von Anzeigenempfehlungen |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Aktualisieren einer älteren lokalen Kampagne auf eine Kampagne mit der höchsten Leistung |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrieren Sie dynamische Suchanzeigen zu Kampagnen mit maximaler Performance. |
+| | [!UICONTROL Dynamic image extension opt in] | Dynamische Bilderweiterungen für das Konto aktivieren, wodurch [!DNL Google Ads] maschinelles Lernen, um die relevantesten Bilder aus der Landingpage Ihrer Anzeige automatisch an Ihre Anzeige anzuhängen. |
+| | [!UICONTROL Leistungssteigerung und -stärke verbessern | Erhöhen Sie die Stärke der Asset-Gruppe einer Performance-Max-Kampagne, sodass sie die Bewertung &quot;Ausgezeichnet&quot;erhält. |
+| | [!UICONTROL Performance max opt in] | Opt-in für Kampagnen mit der maximalen Leistung. |
+| | [!UICONTROL Upgrade local campaign to performance max] | Aktualisieren einer älteren lokalen Kampagne auf eine Kampagne mit der höchsten Leistung |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aktualisieren einer alten Smart-Shopping-Kampagne auf eine Performance-Max-Kampagne |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Fehlerbehebung für Kampagnen, die nach Budget begrenzt sind |
 | | [!UICONTROL Enhanced CPC opt in] | Angebot mit [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Move unused budget] | Nicht verwendete verschieben für begrenzte Budgets |
 | | [!UICONTROL Raise Target CPA bid too low] | Erhöhen Sie die [!UICONTROL Target CPA] um einen empfohlenen Betrag zu erhöhen, wenn es zu niedrig ist und nur wenige oder keine Konversionen vorliegen |
 | | [!UICONTROL Target CPA opt in] | Angebot mit [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | Erhöhen Sie die [!UICONTROL Target CPA] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden. |
+| | [!UICONTROL Target ROAS lowering] | Reduzieren Sie die [!UICONTROL Target ROAS] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden. |
 | | [!UICONTROL Target ROAS opt in] | Angebot mit [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Erweiterung der Reichweite durch Aktualisierung einer Kampagne zur Verwendung der Anzeigeerweiterung |
 | | [!UICONTROL Keyword] | Neue Suchbegriffe hinzufügen |
