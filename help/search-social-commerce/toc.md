@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [Info [!DNL Google Ads] Callout-Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [Verwalten [!DNL Google Ads] Callout-Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Verknüpfen [!DNL Google Ads] freigegebene Callout-Erweiterungen für Kampagnen oder Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [Verwalten [!DNL Google Ads] Positionserweiterungen](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Sitelink-Erweiterungen {#sitelinks}
                + [Über Sitelink-Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [Verwalten freigegebener Sitelinks](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
