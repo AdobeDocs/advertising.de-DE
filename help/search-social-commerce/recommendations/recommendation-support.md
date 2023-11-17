@@ -3,9 +3,9 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
+source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Text ad] | Hinzufügen von Anzeigenempfehlungen |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrieren Sie dynamische Suchanzeigen zu Kampagnen mit maximaler Performance. |
 | | [!UICONTROL Dynamic image extension opt in] | Dynamische Bilderweiterungen für das Konto aktivieren, wodurch [!DNL Google Ads] maschinelles Lernen, um die relevantesten Bilder aus der Landingpage Ihrer Anzeige automatisch an Ihre Anzeige anzuhängen. |
-| | [!UICONTROL Leistungssteigerung und -stärke verbessern | Erhöhen Sie die Stärke der Asset-Gruppe einer Performance-Max-Kampagne, sodass sie die Bewertung &quot;Ausgezeichnet&quot;erhält. |
+| | [!UICONTROL Improve performance max ad strength] | Erhöhen Sie die Stärke der Asset-Gruppe einer Performance-Max-Kampagne, sodass sie die Bewertung &quot;Ausgezeichnet&quot;erhält. |
 | | [!UICONTROL Performance max opt in] | Opt-in für Kampagnen mit der maximalen Leistung. |
 | | [!UICONTROL Upgrade local campaign to performance max] | Aktualisieren einer älteren lokalen Kampagne auf eine Kampagne mit der höchsten Leistung |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aktualisieren einer alten Smart-Shopping-Kampagne auf eine Performance-Max-Kampagne |
