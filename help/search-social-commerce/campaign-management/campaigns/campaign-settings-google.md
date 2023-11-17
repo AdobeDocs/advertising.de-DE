@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
    * (Standorte in der Nähe einer Adresse; nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Address]**. Geben Sie die Adresse und den Radius in Meilen oder Kilometern um die Zieladresse ein und klicken Sie dann auf **[!UICONTROL Add]**.
 
    * (Standorte in der Nähe geografischer Koordinaten; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Coordinate]**. Geben Sie den Breiten- und Längengrad sowie den Radius in Meilen oder Kilometern um den Zielort ein und klicken Sie dann auf **[!UICONTROL Add]**.
-
-   * (Standorte in der Nähe Ihrer [!DNL My Business] Orte, die als Positionserweiterungen verfügbar sind; nur enthaltene Ziele) Klicken Sie auf **[!UICONTROL Location Group Target]** (![Standortgruppe](/help/search-social-commerce/assets/location-group.png "Standortgruppe")); geben Sie optional ein Land, einen Bundesstaat, eine großstädtische Region oder eine Stadt ein, um die Liste der verfügbaren Orte nach unten zu blättern, und wählen Sie dann einen oder mehrere Orte aus der Liste der verfügbaren Orte aus. [!DNL Google My Business] Standorte. Geben Sie den Radius in Meilen oder Kilometern um die Zielorte an und klicken Sie dann auf **[!UICONTROL Add]**.
 
 * (Um eine Angebotsanpassung für einen eingeschlossenen Zielort hinzuzufügen) Geben Sie einen Angebotsanpassungswert ein:
 
