@@ -1,11 +1,11 @@
 ---
 title: Erforderliche Bulksheet-Daten für [!DNL Baidu] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Baidu] Konten.
-exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 ## Verfügbare Datenfelder
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis vorübergehend ausblenden, indem Sie auf ![Inhaltsverzeichnis ausblenden](/help/search-social-commerce/assets/hide-toc.png "Inhaltsverzeichnis ausblenden") oben im linken Bereich.
 
 | Feld | Kampagne | Anzeigengruppe | Schlüsselwort | Textwerbung | Standort-Ziel | Beschreibung |
 |----|----|----|----|----|----|----|
@@ -55,7 +59,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL Keyword Status] | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder bearbeiten<br>Erforderlich: Löschen | Nicht zutreffend | Nicht zutreffend | Der Anzeigestatus des Suchbegriffs: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Deleted]</i> (nur vorhandene Suchbegriffe), <i>[!UICONTROL Inactive]</i> (nicht bearbeitbar), <i>[!UICONTROL Paused]</i> (nur vorhandene Suchbegriffe) oder <i>[!UICONTROL Pending]</i>(nicht bearbeitbar). Die Standardeinstellung für neue Suchbegriffe ist <i>[!UICONTROL Active]</i>.<br><br>Um einen Suchbegriff zu löschen, geben Sie den Wert ein <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Status] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder bearbeiten<br>Erforderlich: Löschen | Nicht zutreffend | Der Anzeigestatus der Anzeige: <i>[!UICONTROL Active]</i>(Standardeinstellung für neue Anzeigen), <i>[!UICONTROL Deleted]</i> (nur vorhandene Anzeigen), <i>[!UICONTROL Disapproved]</i> (nicht bearbeitbar), <i>[!UICONTROL Inactive]</i> (nicht bearbeitbar), <i>[!UICONTROL Paused]</i>oder <i>[!UICONTROL Pending (not editable)]</i>.<br><br>Geben Sie zum Löschen einer Anzeige den Wert ein <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Location Status] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder bearbeiten<br>Erforderlich: Löschen | Der Status des Standort-Ziels: <i>[!UICONTROL Active]</i> oder <i>[!UICONTROL Deleted] (nur vorhandene Speicherorte). Die Standardeinstellung für neue Speicherorte ist <i>[!UICONTROL Active]. Um eine aktive Position zu löschen, geben Sie den Wert ein <i>[!UICONTROL Deleted]. |
-| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional | Optional | Optional | Optional | Nicht zutreffend | (Benannt für eine Advertiser-spezifische Beschriftungs-Classification, z. B. &quot;Farbe&quot;für eine Beschriftungsklassifizierung namens &quot;Farbe&quot;) Ein Wert für die angegebene Classification, die mit der Entität verknüpft ist. Sie können pro Entität nur einen Wert einbeziehen (z. B. &quot;rot&quot;für die Klassifizierung &quot;Farbe&quot;für Kampagne A). Die maximale Länge beträgt 100 Zeichen. Der Wert kann ASCII- und Nicht-ASCII-Zeichen enthalten.<br><br>Beschriftungsklassifizierungen und ihre Beschriftungswerte werden auf alle untergeordneten Komponenten angewendet. Neue Komponenten, die später hinzugefügt werden, werden automatisch mit der Beschriftung verknüpft. <br><br>Beim Classification-Namen und Classification-Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| \[Advertiser-spezifische Beschriftungsklassifizierung\] | Optional | Optional | Optional | Optional | Nicht zutreffend | (Benannt für eine Advertiser-spezifische Beschriftungs-Classification, z. B. &quot;Farbe&quot;für eine Beschriftungsklassifizierung namens &quot;Farbe&quot;) Ein Wert für die angegebene Classification, die mit der Entität verknüpft ist. Sie können pro Entität nur einen Wert angeben (z. B. &quot;rot&quot;für die Klassifizierung der Farbbeschriftung für Kampagne A). Die maximale Länge beträgt 100 Zeichen. Der Wert kann ASCII- und Nicht-ASCII-Zeichen enthalten.<br><br>Beschriftungsklassifizierungen und ihre Beschriftungswerte werden auf alle untergeordneten Komponenten angewendet. Neue Komponenten, die später hinzugefügt werden, werden automatisch mit der Beschriftung verknüpft. <br><br>Beim Classification-Namen und Classification-Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
 | [!UICONTROL Constraints] | Optional | Optional | Optional | Nicht zutreffend | Nicht zutreffend | Eine Beschränkung, die der Entität zugewiesen wird. Sie können pro Entität nur eine Begrenzung zuweisen.<br><br>Einschränkungen werden von untergeordneten Entitäten übernommen. Sie müssen daher keine Werte für untergeordnete Entitäten eingeben, es sei denn, Sie möchten die vererbten Werte überschreiben. |
 | [!UICONTROL Campaign ID] | Nicht zutreffend: Erstellen<br>Erforderlich/Optional: Bearbeiten und löschen | Optional | Optional | Optional | Nicht zutreffend | Die eindeutige ID, die eine bestehende Kampagne identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
 | [!UICONTROL Ad Group ID] | Nicht zutreffend | Nicht zutreffend: Erstellen<br>Erforderlich/Optional: Bearbeiten und löschen | Optional | Optional | Nicht zutreffend | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. In CSV- und TSV-Dateien muss ein einfaches Anführungszeichen (&#39;) vorangestellt werden.[^1] Nur erforderlich, wenn Sie den Anzeigengruppennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Anzeigengruppe. |
