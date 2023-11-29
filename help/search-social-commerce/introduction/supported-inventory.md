@@ -3,16 +3,16 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Unterstützter Bestand
 
-Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeigentypen sowie die jeweils verfügbaren Funktionen aufgeführt.
+Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeigentypen sowie die für jeden Anzeigentyp verfügbaren Funktionen aufgeführt.
 
 >[!TIP]
 >
