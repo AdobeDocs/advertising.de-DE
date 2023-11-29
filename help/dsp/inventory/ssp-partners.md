@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verfügbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
+source-git-commit: 277ea1c216536138e1b08e451532dae1ab4b590d
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen.
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis vorübergehend ausblenden, indem Sie auf ![Inhaltsverzeichnis ausblenden](/help/dsp/assets/hide-toc.png "Inhaltsverzeichnis ausblenden") oben im linken Bereich.
 
 | SSP-Liste | Firma | Lizenz-ID | Programmbezogene garantierte Unterstützung | Region | Unterstützte Währung | Video Desktop | Video Mobile | Video CTV | Display Desktop | Mobilgerät anzeigen | Native Anzeige | Audio Desktop und Mobilgerät |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

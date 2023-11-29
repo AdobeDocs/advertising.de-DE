@@ -3,9 +3,9 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 3bdc21ee649ddc16e144bfa15e16eeac27dfe5d0
+source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Unterstützter Bestand
 
 Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeigentypen sowie die jeweils verfügbaren Funktionen aufgeführt.
+
+>[!TIP]
+>
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis vorübergehend ausblenden, indem Sie auf ![Inhaltsverzeichnis ausblenden](/help/dsp/assets/hide-toc.png "Inhaltsverzeichnis ausblenden") oben im linken Bereich.
 
 | Quelle | Netzwerk | Kampagnentyp | Anzeigentyp | Synchronisieren und Anzeigen | Erstellen/Bearbeiten | Verfolgen[^1] | Optimieren | Bericht[^2] | Adobe Analytics-Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|
