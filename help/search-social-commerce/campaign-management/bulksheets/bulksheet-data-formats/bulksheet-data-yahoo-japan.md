@@ -3,9 +3,9 @@ title: Massenblattdaten für [!DNL Yahoo! Japan] Konten
 description: Referenzieren Sie die Kopfzeilenfelder und Datenfelder in heruntergeladenen Bulksheets für [!DNL Yahoo! Japan] Konten.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2645'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie auf ![Bereich ausblenden](/help/search-social-commerce/assets/hide-pane.png "Bereich ausblenden") oben im linken oder rechten Bereich.
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie auf ![Linker Bereich ausblenden](/help/search-social-commerce/assets/hide-left-pane.png "Linker Bereich ausblenden") oben im linken Bereich oder ![Rechter Bereich ausblenden](/help/search-social-commerce/assets/hide-right-pane.png "Rechter Bereich ausblenden") oben im rechten Bereich.
 
 | Feld | Kampagne | Anzeigengruppe | Schlüsselwort | Textwerbung | Campaign Location Target | Beschreibung |
 |----|----|----|----|----|----|----|

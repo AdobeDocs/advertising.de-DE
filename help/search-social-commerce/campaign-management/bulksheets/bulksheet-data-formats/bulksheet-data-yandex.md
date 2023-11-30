@@ -3,9 +3,9 @@ title: Erforderliche Bulksheet-Daten für [!DNL Yandex] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Yandex] Konten.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1921'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie auf ![Bereich ausblenden](/help/search-social-commerce/assets/hide-pane.png "Bereich ausblenden") oben im linken oder rechten Bereich.
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie auf ![Linker Bereich ausblenden](/help/search-social-commerce/assets/hide-left-pane.png "Linker Bereich ausblenden") oben im linken Bereich oder ![Rechter Bereich ausblenden](/help/search-social-commerce/assets/hide-right-pane.png "Rechter Bereich ausblenden") oben im rechten Bereich.
 
 | Feld | Kampagne | Anzeigengruppe | Schlüsselwort | Textwerbung | Sitelink | Beschreibung |
 |----|----|-----|-----|----|----|----|
