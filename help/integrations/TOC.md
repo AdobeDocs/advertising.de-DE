@@ -4,9 +4,9 @@ user-guide-description: Erfahren Sie mehr über die Integration von Advertising 
 breadcrumb-title: Integrationen mit Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 12%
          + [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](/help/integrations/analytics/macros-flashtalking.md)
          + [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Datenaustausch {#data}
-      + [Adobe Advertising-Metriken in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+      + [Adobe Advertising von Metriken in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [[!DNL Analytics] Daten in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
       + [Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising](/help/integrations/analytics/data-variances.md)
    + Arbeiten in [!DNL Analytics Marketing Channels] {#mc}
@@ -44,6 +44,6 @@ ht-degree: 12%
       + [Übersicht über das Senden von DSP-Exposure-Daten an Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
       + [Impressions- und Klickdaten aus DSP Kampagnen erfassen](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [Nutzungsszenarios](/help/integrations/audience-manager/media-data-integration/use-cases.md)
-   + [Adobe Audience Analytics für Werbekunden](/help/integrations/audience-manager/audience-analytics.md)
-+ [Konfigurieren von A/B-Tests in Adobe Target für DSP Ads](/help/integrations/target/overview-ab-tests.md)
-+ [Tutorials zu Adobe Advertising-Integrationen](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
+   + [Adobe Audience Analytics für Advertising-Kunden](/help/integrations/audience-manager/audience-analytics.md)
++ [Konfigurieren von A/B-Tests in Adobe Target für DSP Ads](/help/integrations/target/ab-tests-dsp.md)
++ [Videos Tutorials über Adobe Advertising-Integrationen](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
