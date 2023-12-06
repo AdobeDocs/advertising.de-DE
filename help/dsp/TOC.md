@@ -4,10 +4,10 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 6%
       + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
    + [Unterstützte Währungen](/help/dsp/currency.md)
-   + [Unterstützung für den Kundendatenschutz](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Grundsätze und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Unterstützung des Verbraucherschutzes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Übersicht über die Campaign Management-Struktur](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planen {#planner}
+   + [Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md)
+   + [Erstellen eines Anbindungsplans für TV-Geräte](/help/dsp/planner/planner-create.md)
+   + [Connected TV-Reichweitenplan duplizieren](/help/dsp/planner/planner-duplicate.md)
+   + [Bearbeiten eines Anbindungs-TV-Reichweitenplans](/help/dsp/planner/planner-edit.md)
+   + [Einstellungen für Pläne zur Anbindung an das Fernsehen](/help/dsp/planner/planner-settings.md)
+   + [Export einer Prognose für einen Plan zur Anbindung an das Fernsehen](/help/dsp/planner/planner-export.md)
+   + [Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren](/help/dsp/planner/planner-forecast.md)
+   + [Archivieren eines Anbindungsplans für TV](/help/dsp/planner/planner-archive.md)
 + Administration {#admin}
    + [Profil bearbeiten](/help/dsp/admin/user-own-profile-edit.md)
    + Benutzer {#users}
