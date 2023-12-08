@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3217'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Wenn Sie jedoch die [!UICONTROL Adobe Advertising Clicks] und [!UICONTROL Adobe 
 
 ### Verwenden [!UICONTROL AMO ID Instances] als Ersatz für Klicks mit Nicht-Adobe Advertising-Dimensionen
 
-Da Sie nicht [!UICONTROL Adobe Advertising Clicks] mit On-site-Dimensionen verwenden, sollten Sie ein Äquivalent zu Klicks finden. Sie sind möglicherweise versucht, Besuche als Ersatz zu verwenden, doch sind sie nicht die beste Option, da jeder Besucher mehrere Besuche haben kann. (Siehe[Unterschied zwischen Klicks und Besuchen](#clicks-vs-visits).&quot; Stattdessen wird empfohlen, [!UICONTROL AMO ID Instances]: Häufigkeit, mit der die AMO-ID erfasst wird. while [!UICONTROL AMO ID Instances] will not match [!UICONTROL Adobe Advertising Clicks] genau sind sie die beste Option zur Messung des Klickverkehrs auf der Site. Weitere Informationen finden Sie unter &quot;[Datenvalidierung für [!DNL Analytics for Advertising]](#data-validation).&quot;
+Da Sie nicht [!UICONTROL AMO Clicks] mit On-site-Dimensionen verwenden, sollten Sie ein Äquivalent zu Klicks finden. Sie sind möglicherweise versucht, Besuche als Ersatz zu verwenden, doch sind sie nicht die beste Option, da jeder Besucher mehrere Besuche haben kann. (Siehe[Unterschied zwischen Klicks und Besuchen](#clicks-vs-visits).&quot; Stattdessen wird empfohlen, [!UICONTROL AMO ID Instances]: Häufigkeit, mit der die AMO-ID erfasst wird. while [!UICONTROL AMO ID Instances] will not match [!UICONTROL AMO Clicks] genau sind sie die beste Option zur Messung des Klickverkehrs auf der Site. Weitere Informationen finden Sie unter &quot;[Validierung von Clickthrough-Daten für [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![Beispiel für [!UICONTROL AMO ID Instances] anstelle von [!UICONTROL Adobe Advertising Clicks] für eine nicht unterstützte Dimension](/help/integrations/assets/a4adc-amo-id-instances.png)
 
