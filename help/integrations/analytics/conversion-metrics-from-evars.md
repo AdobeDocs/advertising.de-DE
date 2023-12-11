@@ -1,23 +1,24 @@
 ---
-title: "Erstellen von Konversionsmetriken aus Adobe Analytics [!DNL eVars] und props"
-description: "Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit [!DNL eVar]- und [!DNL prop]-Daten."
+title: Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und Props
+description: Benutzerdefinierte Erfolgsereignismetriken mit konfigurieren [!DNL eVar]- und [!DNL prop]-Daten.
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
+exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
+source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
 # Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL props]
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser mit nur Adobe Advertising-Adobe Analytics-Integration*
 
 Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) durch Trichteranalyse [!DNL eVar]- und [!DNL prop]-Daten in ein Ereignis ein. Sonstiges [!DNL Analytics] Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
 
 ![Nutzungsbeispiel](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Nutzungsbeispiel")
 
-Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] Administrator oder anderer Benutzer. Wenn Sie Hilfe benötigen, wenden Sie sich an (DSP Benutzer) das DSP technische Support-Team unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) Ihrem Adobe Account Team.
+Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] Administrator oder anderer Benutzer. Wenn Sie Hilfe benötigen, wenden Sie sich an (DSP Benutzer) das DSP technische Support-Team unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) Ihrem Adobe-Account-Team.
 
 1. In [!DNL Analytics], [ein Platzhalter-Erfolgsereignis erstellen](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
 
@@ -55,7 +56,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] Administra
 
    1. In [!DNL Analytics] [!DNL Analysis Workspace], [Erstellen eines Projekts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass Daten für die [!DNL eVar] oder [!DNL prop] Metrik.
 
-1. Wenden Sie sich an Ihr Adobe Account Team, um die neue Metrik mit Adobe Advertising zu synchronisieren.
+1. Wenden Sie sich an Ihr Adobe-Account-Team, um die neue Metrik mit Adobe Advertising zu synchronisieren.
 
 Sobald die Metrik verfügbar ist, können Sie sie verwenden, um ein Ziel zu erstellen, das Sie dann einem Search-, Social- und Commerce-Portfolio zuweisen oder als [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal-about.md) für ein DSP Paket.
 
@@ -64,6 +65,4 @@ Weitere Informationen zum Erstellen von Zielen finden Sie im Kapitel &quot;Optim
 >[!MORELIKETHIS]
 >
 >* [[!DNL Analytics] Daten in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
-<!--
->* [](/help/search-social-commerce/admin/conversion-metrics/ ????????)
--->
+>* [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)

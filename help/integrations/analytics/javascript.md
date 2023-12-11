@@ -3,22 +3,20 @@ title: JavaScript-Code für [!DNL Analytics for Advertising]
 description: JavaScript-Code für [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # JavaScript-Code für [!DNL Analytics for Advertising]
 
-*Advertiser mit nur Adobe Advertising-Adobe Analytics-Integration*
-
 *Advertiser nur mit Advertising DSP*
 
-Für Advertising DSP wird die [!DNL Analytics for Advertising] -Integration verfolgt Durchsichts- und Clickthrough-Site-Interaktionen. Clickthrough-Besuche werden anhand des standardmäßigen Adobe Analytics-Codes auf Ihren Webseiten verfolgt. Die Variable [!DNL Analytics] -Code erfasst die AMO-ID- und EF-ID-Parameter in der URL der Landingpage und verfolgt sie in ihren jeweiligen reservierten eVars. Sie können Durchsichtsbesuche verfolgen, indem Sie ein JavaScript-Snippet in Ihren Webseiten bereitstellen.
+Für Advertising DSP wird die [!DNL Analytics for Advertising] -Integration verfolgt Durchsichts- und Clickthrough-Site-Interaktionen. Clickthrough-Besuche werden anhand des standardmäßigen Adobe Analytics-Codes auf Ihren Webseiten verfolgt. Die Variable [!DNL Analytics] -Code erfasst die AMO-ID- und EF-ID-Parameter in der URL der Landingpage und verfolgt sie in ihren jeweiligen reservierten [!DNL eVars]. Sie können Durchsichtsbesuche verfolgen, indem Sie ein JavaScript-Snippet in Ihren Webseiten bereitstellen.
 
-Beim ersten Seitenaufruf eines Site-Besuchs prüft der Adobe Advertising-JavaScript-Code, ob der Besucher zuvor eine Anzeige gesehen oder angeklickt hat. Wenn der Benutzer zuvor über einen Clickthrough auf die Site gelangt ist oder noch keine Anzeige gesehen hat, wird der Besucher ignoriert. Wenn der Besucher eine Anzeige gesehen hat und nicht über einen Clickthrough während der [Lookback-Fenster](/help/integrations/analytics/prerequisites.md#lookback-a4adc) in Adobe Advertising festgelegt ist, verwendet der Adobe Advertising-JavaScript-Code entweder a) die [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zur Generierung einer zusätzlichen Kennung (`SDID`) oder b) verwendet die Adobe Experience Platform [!DNL Web SDK] `generateRandomID` -Methode zur Generierung einer `[!DNL StitchID]`. Jede ID wird verwendet, um Daten von Adobe Advertising dem Adobe Analytics-Treffer des Besuchers zuzuordnen. Adobe Analytics fragt dann Adobe Advertising nach der AMO-ID und der EF-ID ab, die mit der Anzeigenbelichtung verknüpft sind. Die AMO-ID und EF-IDs werden dann in ihre jeweiligen eVars eingefügt. Diese Werte bleiben für einen bestimmten Zeitraum bestehen (standardmäßig 60 Tage).
+Beim ersten Seitenaufruf eines Site-Besuchs prüft der Adobe Advertising-JavaScript-Code, ob der Besucher zuvor eine Anzeige gesehen oder angeklickt hat. Wenn der Benutzer zuvor über einen Clickthrough auf die Site gelangt ist oder noch keine Anzeige gesehen hat, wird der Besucher ignoriert. Wenn der Besucher eine Anzeige gesehen hat und nicht über einen Clickthrough während der [Lookback-Fenster](/help/integrations/analytics/prerequisites.md#lookback-a4adc) in Adobe Advertising festgelegt ist, verwendet der Adobe Advertising-JavaScript-Code entweder a) die [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) zur Generierung einer zusätzlichen Kennung (`SDID`) oder b) verwendet die Adobe Experience Platform [!DNL Web SDK] `generateRandomID` -Methode zur Generierung einer `[!DNL StitchID]`. Jede ID wird verwendet, um Daten von Adobe Advertising dem Adobe Analytics-Treffer des Besuchers zuzuordnen. Adobe Analytics fragt dann Adobe Advertising nach der AMO-ID und der EF-ID ab, die mit der Anzeigenbelichtung verknüpft sind. Die AMO-ID und EF-IDs werden dann in ihre jeweiligen [!DNL eVars]. Diese Werte bleiben für einen bestimmten Zeitraum bestehen (standardmäßig 60 Tage).
 
 [!DNL Analytics] sendet Site-Traffic-Metriken (wie Seitenansichten, Besuche und Besuchszeit) und [!DNL Analytics] benutzerspezifische oder standardmäßige Ereignisse stündlich Adobe Advertising, wobei die EF-ID als Schlüssel verwendet wird. Diese [!DNL Analytics] Metriken anschließend über das Adobe Advertising-Attributionssystem ausgeführt werden, um die Konversionen mit dem Klick- und Belichtungsverlauf zu verbinden.
 
@@ -107,8 +105,8 @@ Sie können eine Validierung mit einem beliebigen Paket-Sniffer-Tool durchführe
 1. Öffnen Sie die [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) auf Ihrer Homepage.
 1. Navigieren Sie zu [!UICONTROL Network] Registerkarte.
 1. Im [!UICONTROL Solutions Filter] Symbolleiste, klicken Sie [!UICONTROL Adobe Advertising] und [!UICONTROL Analytics].
-1. Im [!UICONTROL Request URL – Hostname] Parameterzeile, suchen `lasteventf-tm.everesttech.net`.
-1. Im [!UICONTROL Request – Parameters] -Zeile die generierten Signale, ähnlich wie Schritt 3, in &quot;[So bestätigen Sie den Code mit [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. Im [!UICONTROL Request URL - Hostname] Parameterzeile, suchen `lasteventf-tm.everesttech.net`.
+1. Im [!UICONTROL Request - Parameters] -Zeile die generierten Signale, ähnlich wie Schritt 3, in &quot;[So bestätigen Sie den Code mit [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementierungen, die den Experience Cloud Identity-Dienst verwenden `visitorAPI.js` Code) Stellen Sie sicher, dass `Sdid` -Parameter entspricht dem `Supplemental Data ID` im Adobe Analytics-Filter.
    * (Implementierungen, die die Experience Platform verwenden [!DNL Web SDK] `alloy.js`code) Stellen Sie sicher, dass der Wert der `advertisingStitchID` -Parameter entspricht dem `Sdid` an das Experience Platform Edge Network gesendet.
    * Wenn der Code nicht generiert wird, überprüfen Sie, ob das Adobe Advertising-Cookie im [!UICONTROL Application] Registerkarte. Nachdem sie entfernt wurde, aktualisieren Sie die Seite und wiederholen Sie den Vorgang.

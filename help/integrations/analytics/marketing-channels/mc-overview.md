@@ -3,26 +3,24 @@ title: Grundlagen [!DNL Marketing Channels]
 description: Wichtige Informationen [!DNL Analytics Marketing Channels] dass [!DNL Analytics for Advertising] -Benutzer sollten dies verstehen.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 29b49e8fa54580d7cdd62f9a10fd2616def4694b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # Grundlagen [!DNL Analytics Marketing Channels]
 
-*Werbetreibende mit nur einer Adobe Advertising-Adobe Analytics-Integration*
-
 Auf dieser Seite werden wichtige Informationen zu [!DNL Analytics Marketing Channels] dass [!DNL Analytics for Advertising] -Benutzer müssen dies verstehen.
 
-Vollständige Dokumentation zu [!DNL Marketing Channels], siehe[Erste Schritte mit [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
+Die vollständige Dokumentation finden Sie unter [!DNL Marketing Channels], siehe[Erste Schritte mit [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
 
 ## Übersicht über [!DNL Marketing Channels]
 
 [!DNL Marketing Channels] sind eine wichtige Funktion von Adobe Analytics. [!DNL Marketing Channels] Berichte zeigen an, wie Kunden über das Berichtsfenster zu Ihrer Website gelangen und wie sich die einzelnen Kanäle auf den Umsatz oder das Verhalten auf der Site auswirken.
 
-Betrachten Sie das folgende Beispiel einer besuchsübergreifenden Journey. Jeder Besuch Ihrer Website wird durch den Marketingkanal gekennzeichnet, von dem aus der Besucher eingestiegen ist. Der erste Besuch, der auch als Erstkontaktkanal bezeichnet wird, ist E-Mail. Die Anzeige bei Besuch 2 ist ein teilnehmender Kanal und die kostenlose Suche gilt als Letztkontakt-Kanal. Wenn Sie [!UICONTROL Last Touch Attribution] Innerhalb [!UICONTROL Attribution IQ], würde die kostenlose Suche die volle Gutschrift für das Konversionsereignis von 250 USD erhalten. Mithilfe des Experience Cloud-ID-Diensts können Sie diese individuellen Besuche miteinander verknüpfen, um eine Journey durch einen einzelnen Besucher anzuzeigen.
+Betrachten Sie das folgende Beispiel einer besuchsübergreifenden Journey. Jeder Besuch Ihrer Website wird durch den Marketingkanal gekennzeichnet, von dem aus der Besucher eingestiegen ist. Der erste Besuch, der auch als Erstkontaktkanal bezeichnet wird, ist E-Mail. Die Anzeige bei Besuch 2 ist ein teilnehmender Kanal und die kostenlose Suche gilt als Letztkontakt-Kanal. Wenn Sie [!UICONTROL Last Touch Attribution] Innerhalb [!UICONTROL Attribution IQ], würde die kostenlose Suche die volle Gutschrift für das Konversionsereignis von 250 USD erhalten. Mithilfe des Experience Cloud ID-Diensts können Sie diese individuellen Besuche miteinander verknüpfen, um eine Journey durch einen einzelnen Besucher anzuzeigen.
 
 ![Beispiel für besuchsübergreifende Konversions-Journey in Marketingkanälen](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -36,15 +34,14 @@ Häufig hängen Marketer Abfragezeichenfolgen-Parameter-Trackingcodes an Kanal-U
 
 Andere Kanäle verfügen nicht über verfolgbare URL-Pfade und benötigen weitere Logik zur Identifizierung. Beispiel: [!UICONTROL Earned Social], bei dem ein Benutzer auf einen Link klickt, den ein anderer Benutzer organisch in einem sozialen Netzwerk freigegeben hat, ist ein wichtiger zu verfolgender Kanal. Der Marketing-Experte hat jedoch keine Möglichkeit, einen Trackingcode für Abfragezeichenfolgen-Parameter an die freigegebene URL anzuhängen. In diesem Fall können Sie eine Verarbeitungsregel erstellen, um die Referrer-Domäne von sozialen Netzwerken von Interesse und das Fehlen von gebührenpflichtigen Trackingcodes zu überwachen und den Kanal zu bestimmen. Die Besuche, die diese Anforderungen erfüllen, werden dann im Marketingkanalbericht als Earned Social nachverfolgt.
 
-Adobe empfiehlt, mit Ihrem Analyseteam zusammenzuarbeiten, um einen umfassenden Satz von [!DNL Marketing Channels] Verarbeitungsregeln zur Verfolgung aller für Ihr Unternehmen relevanten Kanäle. Auf diese Weise können Sie leistungsstarke Attributionsberichte erstellen.
+Adobe empfiehlt, mit Ihrem Analyseteam zusammenzuarbeiten, um einen umfassenden Satz [!DNL Marketing Channels] Verarbeitungsregeln zur Verfolgung aller für Ihr Unternehmen relevanten Kanäle. Auf diese Weise können Sie leistungsstarke Attributionsberichte erstellen.
 
 Informationen dazu, wie Adobe Advertising zu den Signalen beitragen kann, die zum Erstellen benutzerdefinierter Marketingkanäle erforderlich sind, finden Sie unter &quot;[Erstellen von Advertising-IDs mit [!DNL Marketing Channels] Regeln](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Erstellen von Adobe Advertising-IDs mit [!DNL Marketing Channels] Verarbeitungsregeln](mc-ids.md)
->* [Warum können Kanaldaten zwischen Adobe Advertising und [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Erstellen von Adobe Advertising-IDs [!DNL Marketing Channels] Verarbeitungsregeln](mc-ids.md)
+>* [Warum Kanaldaten zwischen Adobe Advertising und variieren können [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Verwenden [!DNL Analytics Marketing Channels] mit Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden [!DNL Marketing Channels] für Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Verwendung [!DNL Marketing Channels] für Adobe Advertising-Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-
