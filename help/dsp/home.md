@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0c1880f667ce497637cdf218ed49aaa20d35b652
+source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
 | 6. Dezember 2023 | Planen | (Beta-Funktion) Das neue Planer-Tool hilft dabei, die individuelle Reichweite von vernetzten TV-Platzierungen (CTV) auf Haushaltsebene entsprechend dem festgelegten Budget und den Targeting-Kriterien vorherzusagen. Nachdem Sie mehrere Pläne ausgewertet haben, können Sie Pakete und Platzierungen implementieren, die am besten mit den gewünschten Ergebnissen übereinstimmen. | Siehe &quot;[Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md).&quot; |
+| 27. September 2023 | Optimierung | Zwei neue erreichungsbasierte Optimierungsziele, **[!UICONTROL Always Max Bid and Maximize Reach]** und **[!UICONTROL Lowest Cost per Reach]** können Sie so viele Unique Houses wie möglich erreichen, je nach Umfang der Impressionen bzw. Ausgaben. Beide Ziele sind sowohl auf Paket- als auch auf Platzierungsebene verfügbar. | Siehe &quot;[Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 23. August 2023 | [!UICONTROL Placements] | Das neue Planungs-Prognosewerkzeug zeigt die prognostizierte Anzahl von Impressionen, Ausgaben und das optimale Höchstgebot für eine bestimmte Targeting-Strategie. Die Prognose wird anhand des Gesamtinventars berechnet, das mit der Platzierung verfügbar ist, sowie anhand der verfügbaren Unique Users. | Siehe &quot;[Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
 |  |  | Sie können jetzt schnell mehrere Anzeigen mit Platzierungen verknüpfen, indem Sie eine Tabellendatei für eine Kampagne oder für eine oder mehrere Platzierungen herunterladen und die Datei so bearbeiten, dass Werte in die neue &quot;[!UICONTROL Attached Ad ID]&quot; und dann die bearbeitete Datei hochladen. Verwenden Sie die Spalte, um der Platzierung Anzeigen hinzuzufügen, diese jedoch nicht zu entfernen.<br><br>So laden Sie eine Liste mit Anzeigennamen und zugehörigen [!UICONTROL Ad ID]s, gehen Sie zum [!UICONTROL Ads] Ansicht erstellen, erstellen Sie eine benutzerdefinierte Ansicht, die die [!UICONTROL ID] und exportieren Sie dann die Daten. | Siehe &quot;[Platzierungseinstellungen in einer Tabelle herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;&quot;[Platzierungseinstellung Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; und &quot;[Platzierungseinstellungen in eine Tabelle hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Siehe auch &quot;[Daten aus einer Campaign Management-Ansicht exportieren](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | Benutzerdefinierte Berichte verfügen jetzt über eine [!UICONTROL End Date], die bis zu vier Monate entfernt sein kann. Für bestehende Berichte ist der 24. September 2023 abgelaufen.<br><br>Bevor ein Bericht abläuft, erhalten alle angegebenen E-Mail-Empfänger sieben Tage und einen Tag vor dem Ablaufdatum einen E-Mail-Warnhinweis. Um den Bericht länger zu halten, ändern Sie das Ablaufdatum in den Berichtseinstellungen. | Siehe &quot;[Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)&quot; und &quot;[Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md).&quot; |
