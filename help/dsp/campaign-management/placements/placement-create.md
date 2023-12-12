@@ -3,10 +3,10 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -66,17 +66,17 @@ ht-degree: 1%
       >
       >([!DNL Roku] Platzierungen) Drittanbieter, die von [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], und [!DNL Research Now].
 
-1. Klicken **[!UICONTROL Create Placement]**.
+1. Klicks **[!UICONTROL Create Placement]**.
 
 1. (Optional) Fügen Sie der Platzierung Anzeigen hinzu:
 
-   1. Klicken **[!UICONTROL Attach an ad]**.
+   1. Klicks **[!UICONTROL Attach an ad]**.
 
    1. Führen Sie einen der folgenden Schritte aus:
 
       * So erstellen Sie eine neue Anzeige:
 
-         1. Klicken **[!UICONTROL Create a New Ad].**
+         1. Klicks **[!UICONTROL Create a New Ad].**
 
          1. Geben Sie die Anzeigeneinstellungen für [Audio-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-audio.md), [vernetztes Fernsehen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [Display-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobile Anzeigen](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [native Anzeigen](/help/dsp/campaign-management/ads/ad-settings-native.md), [Pre-Roll-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)oder [universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
@@ -84,7 +84,7 @@ ht-degree: 1%
         >
         >Universelle Videoplatzierungen können nur universelle Videoanzeigen enthalten.
 
-         1. Klicken **[!UICONTROL Save & Submit for Review]**.
+         1. Klicks **[!UICONTROL Save & Submit for Review]**.
 
          1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie für die Platzierung erstellen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann die Schritte 1 bis 3.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
       * So fügen Sie vorhandene Anzeigen in der Kampagne hinzu:
 
-      1. Klicken **[!UICONTROL Select an Ad]**.
+      1. Klicks **[!UICONTROL Select an Ad]**.
 
       1. Führen Sie einen der folgenden Schritte aus:
 
@@ -108,13 +108,13 @@ ht-degree: 1%
 
             1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
 
-            1. Klicken **[!UICONTROL Attach]**.
+            1. Klicks **[!UICONTROL Attach]**.
 
             1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select]**.
 
       1. (Optional) So überschreiben Sie die standardmäßige Flugzeit und Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
 
-         1. Klicken **[!UICONTROL Custom Schedule Ads]**.
+         1. Klicks **[!UICONTROL Custom Schedule Ads]**.
 
          1. Führen Sie einen der folgenden Schritte aus:
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Eine Platzierung bearbeiten](placement-edit.md)
->* [Bearbeiten des Anzeigenzeitplans für eine Platzierung](placement-edit-ad-schedule.md)
+>* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
 >* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)

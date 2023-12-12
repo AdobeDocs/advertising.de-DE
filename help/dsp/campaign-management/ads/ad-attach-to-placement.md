@@ -3,10 +3,10 @@ title: Eine Anzeige an eine Platzierung anhängen
 description: Erfahren Sie, wie Sie eine Anzeige an eine Platzierung anhängen.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
+source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +30,13 @@ ht-degree: 1%
 
    * So erstellen Sie eine neue Platzierung für die Anzeige:
 
-      1. Klicken **[!UICONTROL Create New Placement]**.
+      1. Klicks **[!UICONTROL Create New Placement]**.
 
       1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)und klicken Sie anschließend auf **[!UICONTROL Create Placement]**.
+
    * So fügen Sie die Anzeige zu einer oder mehreren vorhandenen Platzierungen hinzu:
 
-      1. Klicken **[!UICONTROL Select a Placement].**
+      1. Klicks **[!UICONTROL Select a Placement].**
 
       1. Führen Sie einen der folgenden Schritte aus:
 
@@ -44,21 +45,20 @@ ht-degree: 1%
             1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
 
             1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach to Other Placement]**. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+
          * So fügen Sie die Anzeige bis zu 20 Platzierungen gleichzeitig hinzu:
 
             1. Aktivieren Sie das Kontrollkästchen neben &quot;Massenauswahl&quot;.
 
             1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, an die die Anzeige angehängt werden soll.
 
-            1. Klicken **[!UICONTROL Attach]**.
-      1. Wählen Sie auf der Registerkarte &quot;Abschließen und Überprüfen&quot;eine der folgenden Optionen aus:
+            1. Klicks **[!UICONTROL Attach]**.
 
-         * Um zur Ansicht &quot;Ads&quot;zurückzukehren, klicken Sie auf **[!UICONTROL I'm done for now]**.
+      1. Wählen Sie auf der Registerkarte Abschließen und Überprüfen eine der folgenden Optionen aus:
+
+         * Um zur Anzeigen-Ansicht zurückzukehren, klicken Sie auf **[!UICONTROL I'm done for now]**.
 
          * Um die Anzeige an eine andere Platzierung anzuhängen, klicken Sie auf **[!UICONTROL Attach To Other Placement]**.
-
-
-
 
 ## Fügen Sie eine neue oder vorhandene Anzeige aus der [!UICONTROL Placements] Ansicht
 
@@ -74,20 +74,21 @@ ht-degree: 1%
 
    * So erstellen Sie eine neue Anzeige:
 
-      1. Klicken **[!UICONTROL Create a New Ad]**.
+      1. Klicks **[!UICONTROL Create a New Ad]**.
 
       1. Geben Sie die Anzeigeneinstellungen für ein [Audio-Anzeigen](ad-settings-audio.md), [vernetztes Fernsehen](ad-settings-connected-tv.md), [Display-Anzeigen](ad-settings-display.md), [mobile Anzeigen](ad-settings-mobile.md), [native Anzeigen](ad-settings-native.md)oder [Pre-Roll-Anzeigen](ad-settings-pre-roll.md).
 
-      1. Klicken **[!UICONTROL Save & Submit for Review]**.
+      1. Klicks **[!UICONTROL Save & Submit for Review]**.
 
          Die [Anzeigenüberprüfung](ad-about.md) für die neue Anzeige dauert 24-48 Stunden und umfasst Prüfungen für sensible Kategorien, Klickfunktionen auf URL-Funktionalität und Vorschau-Rendering. Die [!UICONTROL Status] gibt an, ob DSP die Anzeige genehmigt hat. Beschädigte Anzeigen haben möglicherweise mehr als 24-48 Stunden den Status &quot;Ausstehend&quot;, sodass Sie Zeit haben, Fehler zu beheben, bevor sie abgelehnt werden.
 
          >[!NOTE]
          >
          >Ihre Werbeanzeige wird nur bereitgestellt, wenn sowohl DSP als auch die SSP die Kreativinhalte genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
+
    * So wählen Sie vorhandene Anzeigen aus:
 
-      1. Klicken **[!UICONTROL Select an Ad].**
+      1. Klicks **[!UICONTROL Select an Ad].**
 
       1. Geben Sie die Anzeigen an:
 
@@ -96,16 +97,18 @@ ht-degree: 1%
             1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
 
             1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Add Another Ad]**. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+
          * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
 
             1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Bulk Select]**.&quot;
 
             1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
 
-            1. Klicken **[!UICONTROL Attach]**.
+            1. Klicks **[!UICONTROL Attach]**.
+
       1. (Optional) So überschreiben Sie die standardmäßige Flugzeit und Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
 
-         1. Klicken **[!UICONTROL Custom Schedule Ads]**.
+         1. Klicks **[!UICONTROL Custom Schedule Ads]**.
 
          1. Führen Sie einen der folgenden Schritte aus:
 
@@ -117,16 +120,13 @@ ht-degree: 1%
 
             * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie auf **[!UICONTROL Even Rotation]** in den Fluginformationen und geben Sie dann die relative Gewichtung der einzelnen Anzeigen in Prozent an.
 
-               Die Gesamtgewichte müssen 100 betragen.
+              Die Gesamtgewichte müssen 100 betragen.
+
          1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
 
          1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
-      1. Klicken **[!UICONTROL I'm done for now]**.
 
-
-
-
-
+      1. Klicks **[!UICONTROL I'm done for now]**.
 
 >[!MORELIKETHIS]
 >
@@ -135,6 +135,5 @@ ht-degree: 1%
 >* [Erstellen mehrerer Drittanbieteranzeigen](ad-create-multiple.md)
 >* [Eine Anzeige bearbeiten](ad-edit.md)
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](ad-list-placements.md)
->* [Bearbeiten des Anzeigenzeitplans für eine Platzierung](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Bearbeiten von Anzeigenplänen für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
-
