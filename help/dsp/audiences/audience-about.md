@@ -3,9 +3,9 @@ title: Über Zielgruppen-Management in Advertising DSP
 description: Erfahren Sie mehr über die Funktionen des Zielgruppen-Managements.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwa
 
 * Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie Segmente erstellen und implementieren. Sie können später Benutzer im Segment mit Anzeigen erneut ansprechen oder verhindern, dass Benutzer im Segment Anzeigen empfangen. Sie können die folgenden Segmenttypen erstellen:
 
-   * [Benutzerspezifische Segmente](/help/dsp/audiences/custom-segment-create.md) zur Nachverfolgung a) Benutzer, die Anzeigen von Desktop-, Mobil- und CTV-Geräten ausgesetzt sind, und b) Benutzer, die bestimmte Webseiten besuchen.
+   * [Benutzerspezifische Segmente](/help/dsp/audiences/custom-segment-create.md) zur Verfolgung a) Benutzer, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind, und b) Benutzer, die bestimmte Webseiten besuchen.
 
    * [CCPA-Ausschluss von Verkaufssegmenten](/help/dsp/audiences/ccpa-opt-out-segment-create.md) , um die Benutzer-IDs aus Opt-out-Kaufanfragen von Verbrauchern auf Ihrer Website gemäß dem California Consumer Privacy Act (CCPA) zu verfolgen. Sie können monatliche Berichte über die Benutzer-IDs aus Opt-out-Kaufanfragen abrufen.
 
-      Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-of-Sale-Anfragen finden Sie unter [Adobe Advertising Support für den California Consumer Privacy Act: Opt-out-Support für Verbraucher](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Kaufanfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für Verbraucher-Opt-out](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * Sie können eine Zielgruppenbibliothek von [Wiederverwendbare Zielgruppen](/help/dsp/audiences/reusable-audience-create.md). Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe als Ziel angeben oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
 
-   Gespeicherte Zielgruppen ermöglichen es Medienplanern, Zielgruppen nach Bedarf zu gruppieren, indem mehrere Segmente mithilfe einer komplexen booleschen Logik einbezogen und ausgeschlossen werden. Die Größe jedes einzelnen Segments und die gesamte Zielgruppengröße werden beim Erstellen einer Zielgruppe angegeben. Kampagnenausführer können dann eine oder mehrere gespeicherte Zielgruppen als Platzierungsziele auswählen, anstatt Zielgruppenziele für jede Platzierung manuell zu konfigurieren.
+  Gespeicherte Zielgruppen ermöglichen es Medienplanern, Zielgruppen nach Bedarf zu gruppieren, indem mehrere Segmente mithilfe einer komplexen booleschen Logik einbezogen und ausgeschlossen werden. Die Größe jedes einzelnen Segments und die gesamte Zielgruppengröße werden beim Erstellen einer Zielgruppe angegeben. Kampagnenausführer können dann eine oder mehrere gespeicherte Zielgruppen als Platzierungsziele auswählen, anstatt Zielgruppenziele für jede Platzierung manuell zu konfigurieren.
 
 Für das Platzierungs-Targeting stehen auch zusätzliche Zielgruppentypen zur Verfügung.
 
@@ -36,13 +36,13 @@ DSP ist ein integriertes Ziel für [die [!DNL Adobe Real-Time Customer Data Prof
 
 DSP können auch benutzerdefinierte Drittanbietersegmente importieren, einschließlich komplexer Kombinationen von Drittanbietersegmenten. Sie können die Segmente nach Bedarf für beliebige Advertiser bereitstellen.
 
-Wenden Sie sich für weitere Informationen an Ihr Adobe Account Team.
+Wenden Sie sich für weitere Informationen an Ihr Adobe-Account-Team.
 
 ## Als Platzierungsziele verfügbare Zielgruppen
 
 Sie können Ihre Platzierungen auf alle der folgenden Arten von Zielgruppen ausrichten.
 
-* Alle vom Benutzer erstellten Zielgruppensätze, die in DSP gespeichert wurden.
+* Alle vom Benutzer erstellten Zielgruppen, die in DSP gespeichert wurden.
 
 * Alle vom Benutzer erstellten Zielgruppensegmente, die in DSP erstellt wurden:
 
@@ -56,19 +56,19 @@ Sie können Ihre Platzierungen auf alle der folgenden Arten von Zielgruppen ausr
 
 * (Nur für die USA bestimmte Platzierungen) [Alle Datensegmente von Drittanbietern, die DSP Kunden von über 30 Anbietern zur Verfügung stehen](/help/dsp/audiences/third-party-data-providers.md), einschließlich [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]und vieles mehr.
 
-   Sie können bestimmte Segmente als Ziel für Benutzer auswählen, die auf Zielgruppendaten basieren (z. B. Benutzer mit bestimmten demografischen Daten, Interessen oder Intents und/oder Verhaltensprofilen). Sie können nach Datenanbieter und Kategorie suchen, nach Segmenten nach Name oder Segment-ID suchen oder die Ergebnisse nach Datenanbieter, Gesamtgröße des Segments, Anzahl der Webbrowser oder Anzahl der Geräte filtern.
+  Sie können bestimmte Segmente als Ziel für Benutzer auswählen, die auf Zielgruppendaten basieren (z. B. Benutzer mit bestimmten demografischen Daten, Interessen oder Intents und/oder Verhaltensprofilen). Sie können nach Datenanbieter und Kategorie suchen, nach Segmenten nach Name oder Segment-ID suchen oder die Ergebnisse nach Datenanbieter, Gesamtgröße des Segments, Anzahl der Webbrowser oder Anzahl der Geräte filtern.
 
-   Für Drittanbietersegmente fallen zusätzliche Gebühren an, die neben jedem Segmentnamen angegeben werden.
+  Für Drittanbietersegmente fallen zusätzliche Gebühren an, die neben jedem Segmentnamen angegeben werden.
 
-* (Advertiser mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising JavaScript-Konversions-Tags verwenden) Alle verfügbaren Erst-, Zweit- oder Drittanbieter-Zielgruppensegmente, die in erstellt wurden. [!DNL Real-Time CDP], die in Audience Manager erstellt oder von Audience Manager aus in Adobe Experience Cloud veröffentlicht wurden, oder [!DNL Analytics].
+* (Werbetreibende mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising-JavaScript-Konversions-Tags verwenden) Alle verfügbaren Erst-, Zweit- oder Drittanbieter-Zielgruppensegmente, die in erstellt wurden [!DNL Real-Time CDP], die in Audience Manager erstellt oder von Audience Manager aus in Adobe Experience Cloud veröffentlicht wurden, oder [!DNL Analytics].
 
-   Die Preise für die Verwendung der Segmente werden vorverhandelt und sind in DSP nicht sichtbar.
+  Die Preise für die Verwendung der Segmente werden vorverhandelt und sind in DSP nicht sichtbar.
 
-   Segmente aus [!DNL Analytics] sind ca. eine Stunde nach der Erstellung oder Veröffentlichung als Experience Cloud-Zielgruppen verfügbar. Segmente, die direkt von Audience Manager oder [!DNL Real-Time CDP] sind innerhalb von 24 Stunden nach der Freigabe verfügbar.
+  Segmente aus [!DNL Analytics] sind ca. eine Stunde nach der Erstellung oder Veröffentlichung als Experience Cloud-Audiences verfügbar. Segmente, die direkt von Audience Manager oder [!DNL Real-Time CDP] sind innerhalb von 24 Stunden nach der Freigabe verfügbar.
 
-   >[!NOTE]
-   >
-   >Weitere Informationen finden Sie in der Dokumentation für [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html)und [die [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) für Informationen zum Einrichten und Erfassen von Daten für Segmente in diesen Lösungen.
+  >[!NOTE]
+  >
+  >Siehe die Dokumentation für [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html), und [die [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) für Informationen zum Einrichten und Erfassen von Daten für Segmente in diesen Lösungen.
 
 ## Zielgruppengrößendaten
 
@@ -76,11 +76,11 @@ In den gespeicherten Zielgruppeneinstellungen und Platzierungseinstellungen kön
 
 * Die gesamte und die aktive deduplizierte Zielgruppengröße für alle ausgewählten Segmente und gespeicherten Zielgruppen wird angezeigt. Details können nach Gerätetyp (Browser, Mobilgerät oder vernetztes TV) angezeigt werden.
 
-   ![die kombinierte Zielgruppengröße](/help/dsp/assets/audience-size.png)
+  ![die kombinierte Zielgruppengröße](/help/dsp/assets/audience-size.png)
 
 * Für einzelne Segmente und gespeicherte Zielgruppen werden die Gesamtgröße der Zielgruppe und der CPM (falls zutreffend) neben dem Segmentnamen angezeigt. Sie können weitere Details zum Segment anzeigen, einschließlich der Größe nach Gerätetyp (Browser, Mobilgerät oder vernetztes TV). Bei gespeicherten Zielgruppen entspricht die Gesamtgröße dem deduplizierten Gesamtwert.
 
-   ![die individuelle Segmentgröße](/help/dsp/assets/audience-size-segment.png)
+  ![die individuelle Segmentgröße](/help/dsp/assets/audience-size-segment.png)
 
 ## Ansichten der Zielgruppen
 
@@ -98,17 +98,17 @@ Die [!UICONTROL Segments] -Ansicht listet auch die folgenden Segmenttypen auf:
 
 * Alle vom Benutzer erstellten benutzerdefinierten Segmente, die für den Benutzer verfügbar sind.
 
-   Sie können Tracking-Tags für jedes der von Ihnen erstellten benutzerdefinierten Segmente anzeigen und diese Segmente für andere Benutzer freigeben. Sie können auch die von Ihnen erstellten benutzerdefinierten Segmente bearbeiten oder löschen.
+  Sie können Tracking-Tags für jedes der von Ihnen erstellten benutzerdefinierten Segmente anzeigen und diese Segmente für andere Benutzer freigeben. Sie können auch die von Ihnen erstellten benutzerdefinierten Segmente bearbeiten oder löschen.
 
-   Sie können keine benutzerdefinierten Segmente bearbeiten oder freigeben, die andere Benutzer für Sie freigegeben haben.
+  Sie können keine benutzerdefinierten Segmente bearbeiten oder freigeben, die andere Benutzer für Sie freigegeben haben.
 
-* Alle importierten Erstanbietersegmente, die für den Benutzer verfügbar sind.
+* Alle importierten Erstanbietersegmente sind für den Benutzer verfügbar.
 
-   Sie können keine Erstanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam, wenn Sie Erstanbietersegmente für weitere  freigeben möchten.
+  Sie können keine Erstanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe Account-Team, wenn Sie Erstanbietersegmente für weitere Benutzer freigeben möchten.
 
 * Alle benutzerdefinierten Drittanbietersegmente, die für den Benutzer verfügbar sind.
 
-   Sie können keine Segmente von Drittanbietern bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam, wenn Sie Segmente von Drittanbietern für weitere  freigeben möchten.
+  Sie können keine Segmente von Drittanbietern bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe Account-Team, wenn Sie Segmente von Drittanbietern für weitere Benutzer freigeben möchten.
 
 >[!MORELIKETHIS]
 >
@@ -119,4 +119,3 @@ Die [!UICONTROL Segments] -Ansicht listet auch die folgenden Segmenttypen auf:
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-
