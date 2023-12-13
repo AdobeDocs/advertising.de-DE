@@ -3,9 +3,9 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] nur Kampagnen) Die durchschnittliche Zeit, zu der ein Video wiedergegeben wurde, einschließlich der Zeit, die mit der Wiederholung des Videos verbracht wurde, um eine einzelne Impression zu erhalten. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] nur Kampagnen) Die Häufigkeit, mit der die Wiedergabe Ihres Videos beginnt, mit Ausnahme der Wiederholungen. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], und [!UICONTROLVVideo abgespielt mit 100 % Anzahl] | (Videoanzeigen) Die Anzahl der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], und [!UICONTROL Video Played at 100 Percent Count] | (Videoanzeigen) Die Anzahl der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], und [!UICONTROL VideoQuartile100Rate] | (Videoanzeigen) Der Prozentsatz der Videos, die 25 %, 50 %, 75 % oder 100 % des Durchlaufs wiedergegeben wurden. |
 | [!UICONTROL View Rate] | (Videoanzeigen) Die Anzahl der Ansichten oder Interaktionen dividiert durch die Anzahl der Wiedergaben der Anzeige (Video- und Miniaturimpressionen). |
 | [!UICONTROL Views] | (Videoanzeigen) Die Häufigkeit, mit der die Besucher Ihre Anzeige angesehen oder mit ihr interagiert haben. |
