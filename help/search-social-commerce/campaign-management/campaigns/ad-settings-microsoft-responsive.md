@@ -1,24 +1,30 @@
 ---
 title: '''[!DNL Microsoft® Advertising] Einstellungen für responsive Anzeigen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] responsive Anzeigen.
-exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft® Advertising] responsive Anzeigeneinstellungen (Zielgruppe)
 
-Das responsive Anzeigenformat ist für bildbasierte Zielgruppenanzeigen auf der [!DNL Microsoft® Audience Network]. Das Anzeigennetzwerk assembliert dynamische Anzeigen anhand der effektivsten Kombinationen aus Anzeigenelementen.
+Das responsive Anzeigenformat ist für bildbasierte, videobasierte und vernetzte TV-basierte Zielgruppenanzeigen auf [!DNL Microsoft® Audience Network]. Das Anzeigennetzwerk assembliert dynamische Anzeigen anhand der effektivsten Kombinationen aus Anzeigenelementen.
+
+## [!UICONTROL Ad Settings] (für Videoanzeigen) und [!UICONTROL Audience CTV Video Ad Details]
+
+**[!UICONTROL Videos]:** Die URL einer Videoanzeige.
+
+**[!UICONTROL Status]:** Der Anzeigenstatus.
+
+## [!UICONTROL Responsive Ad Details] (für Bildanzeigen)
 
 >[!NOTE]
 >
 >Das Werbenetzwerk erstellt automatisch Anzeigen für Zielgruppen-Kampagnen, die mit einem Händler-Center-Store verknüpft sind, unter Verwendung der Produktinformationen des Stores und des Targetings auf Anzeigengruppenebene. Sie müssen keine Anzeigen manuell erstellen.
-
-## [!UICONTROL Responsive Ad Details]
 
 **[!UICONTROL Images]:** Bis zu 15 JPEG- oder PNG-Bilder für die Anzeige. Schließen Sie mindestens ein Bild mit einem Seitenverhältnis von 1,91:1 ein. Siehe die zulässigen Seitenrationen und -dimensionen für [Zielgruppenanzeigenbilder](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
