@@ -1,21 +1,15 @@
 ---
-title: Konfigurieren von A/B-Tests für Adobe Advertising-Anzeigen in Adobe Target
+title: Konfigurieren von A/B-Tests für Adobe Advertising DSP-Anzeigen in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre DSP Anzeigen.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 48f755b6f3ac00a69086fe4c7ce69d320946635b
+source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren von A/B-Tests in Adobe Target für Anzeigen DSP
-
-<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
-
-<!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
-
-<!-- Break into sub-files, or just leave as one? -->
 
 *Advertiser nur mit Advertising DSP*
 
@@ -23,7 +17,7 @@ Adobe Advertising und Adobe Target erleichtern es Marketern, personalisierte und
 
 * Verringern Sie die Site-Durchfallraten, indem Sie die Anzeigenbelichtung von Kunden aus DSP Kampagnen mit ihren Vor-Ort-Erlebnissen verknüpfen.
 
-* Richten Sie A/B-Tests ein, indem Sie On-site-Erlebnisse mit Werbe-Messaging unter Verwendung von Adobe Audience Manager-Belichtungsdaten und Target-Zielgruppen mit Klick-zu-Feed-Zugriff spiegeln.
+* Richten Sie A/B-Tests ein, indem Sie On-site-Erlebnisse mit Werbe-Messaging unter Verwendung von Adobe Audience Manager-Belichtungsdaten und Clickthrough-Feed-Daten spiegeln. [!DNL Target] Zielgruppen.
 
 * Messen Sie die Auswirkungen von einheitlichem Messaging auf eine objektive Steigerung vor Ort mit einfachen Visualisierungen in Adobe Analytics für [!DNL Target].
 
@@ -45,8 +39,6 @@ Für dieses Anwendungsbeispiel sind die folgenden Produkte und Integrationen erf
 
 ## Schritt 1: Einrichten des Clickthrough-Frameworks {#click-through-framework}
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
 ![Clickthrough-Framework](/help/integrations/assets/target-ct-framework.png)
 
 Wenn Sie DSP Makros zu einer Clickthrough-URL hinzufügen (die URL, die angezeigt wird, wenn ein Benutzer auf eine Anzeige klickt und die Landingpage erreicht), erfasst DSP automatisch den Platzierungsschlüssel, indem `${TM_PLACEMENT_ID}` in der Clickthrough-URL. Dieses Makro erfasst den alphanumerischen Platzierungsschlüssel und nicht die numerische Platzierungs-ID.
@@ -66,8 +58,6 @@ Aktualisieren Sie im Flash-Gespräch oder in Google Campaign Manager 360 die Cli
 Wenden Sie sich an Ihr Adobe Account Team und die Advertising Solutions Group (aac-advertising-solutions-group@adobe.com), um den erforderlichen Platzierungsschlüssel abzurufen und das Setup abzuschließen und sicherzustellen, dass jede Clickthrough-URL mit dem Platzierungsschlüssel ausgefüllt wird.
 
 ## Schritt 2: Einrichten des Durchsichts-Frameworks mit dem Audience Manager {#view-through-framework}
-
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
 ![Durchsicht-Framework](/help/integrations/assets/targetr-vt-framework.png)
 
@@ -99,55 +89,53 @@ Durch Hinzufügen eines Audience Manager-Impressionsereignis-Pixels zu Ihren Anz
 
       * Benennen Sie die Eigenschaft so, dass sie in Testaktivitäten leicht identifiziert werden kann. Speichern Sie die Eigenschaft in dem Ordner, den Sie bevorzugen.
 
-      * Auswählen `Ad Cloud` als **Datenquelle**.
+      * Auswählen `Ad Cloud` als **[!UICONTROL Data Source]**.
 
-      * Verwenden Sie für den Eigenschaftsausdruck `d_event` als **Schlüssel** und `imp` als **Wert**.
+      * Verwenden Sie für den Eigenschaftsausdruck `d_event` als **[!UICONTROL Key]** und `imp` als **[!UICONTROL Value]**.
 
-   1. [Einrichten eines Testsegments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) für die neue Eigenschaft in Audience Manager, indem Sie `Ad Cloud` als **Datenquelle**.
+   1. [Einrichten eines Testsegments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) für die neue Eigenschaft in Audience Manager, indem Sie `Ad Cloud` als **[!UICONTROL Data Source]**.
 
       Audience Manager teilt das Segment automatisch in eine Kontrollgruppe auf, die das standardmäßige Landingpage-Erlebnis erhält, und in eine Testgruppe, die ein personalisiertes Onsite-Erlebnis erhalten hat.
 
-## Schritt 3: Einrichten einer A/B-Test-Aktivität in Target
+## Schritt 3: Einrichten einer A/B-Test-Aktivität in [!DNL Target] für DSP
 
-<!-- [If separate page, add "Adobe" before first-use of product names.] -->
-
-In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorgehoben. Eine vollständige Anleitung finden Sie unter &quot;&quot;.
+In den folgenden Anweisungen werden Informationen zum DSP Anwendungsfall hervorgehoben.
 
 1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   1. Im **Aktivitäts-URL eingeben** Geben Sie die Landingpage-URL für den Test ein.
+   1. Im **[!UICONTROL Enter Activity URL]** Geben Sie die Landingpage-URL für den Test ein.
 
       >[!NOTE]
       >
       >Sie können mehrere URLs verwenden, um den Viewthrough-Site-Einstieg zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Sie können die Top-Einträge einfach anhand der Seiten-URL identifizieren, indem Sie eine [Site-Einstiegsbericht](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
 
-   1. Im **Ziel** geben Sie die Erfolgsmetrik für den Test ein.
+   1. Im **[!UICONTROL Goal]** geben Sie die Erfolgsmetrik für den Test ein.
 
       >[!NOTE]
       >
       >Stellen Sie sicher, dass [!DNL Analytics] als Datenquelle in [!DNL Target]und dass die richtige Report Suite ausgewählt ist.
 
-   1. Legen Sie die **Priorität** nach `High` oder `999` um Konflikte zu vermeiden, wenn Benutzer im Testsegment ein falsches On-site-Erlebnis erhalten.
+   1. Legen Sie die **[!UICONTROL Priority]** nach `High` oder `999` um Konflikte zu vermeiden, wenn Benutzer im Testsegment ein falsches On-site-Erlebnis erhalten.
 
-   1. Within **Berichtseinstellungen**, wählen Sie die **Firmenname** und **Report Suite** mit Ihrem DSP-Konto verbunden.
+   1. Within **[!UICONTROL Reporting Settings]**, wählen Sie die **[!UICONTROL Company Name]** und **[!UICONTROL Report Suite]** mit Ihrem DSP-Konto verbunden.
 
       Weitere Tipps zur Berichterstellung finden Sie unter[Best Practices und Fehlerbehebung für die Berichterstellung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
-   1. Im **Datumsbereich** geben Sie das entsprechende Start- und Enddatum für den Test ein.
+   1. Im **[!UICONTROL Date Range]** geben Sie das entsprechende Start- und Enddatum für den Test ein.
 
    1. Fügen Sie der Aktivität Zielgruppen hinzu:
 
       1. Wählen Sie die [Segment, das Sie zuvor in Audience Manager erstellt haben, um Durchsichtszielgruppen zu testen](#view-through-framework).
 
-      1. Auswählen **Seiten der Site** > **Landingpage** > **Abfrage** und geben Sie den DSP Platzierungsschlüssel in die **Wert** -Feld, um die Target-Abfragezeichenfolgenparameter für Clickthrough-Zielgruppen zu verwenden.
+      1. Auswählen **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** und geben Sie den DSP Platzierungsschlüssel in die **[!UICONTROL Value]** -Feld, um die Target-Abfragezeichenfolgenparameter für Clickthrough-Zielgruppen zu verwenden.
 
-   1. Für **Traffic-Zuordnungsmethode** auswählen **Manuell (Standard)** und teilen Sie die Zielgruppe 50/50 auf.
+   1. Für **[!UICONTROL Traffic Allocation Method]** auswählen **[!UICONTROL Manual (Default)]** und teilen Sie die Zielgruppe 50/50 auf.
 
    1. Speichern Sie die Aktivität.
 
-1. Verwendung [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) , um Designänderungen an der Landingpage-Vorlage für A/B-Tests vorzunehmen.
+1. Verwendung [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) , um Designänderungen an der Landingpage-Vorlage für A/B-Tests vorzunehmen.
 
    * Erlebnis A: Nicht bearbeiten, da dies das standardmäßige/steuerbare Landingpage-Erlebnis ohne Personalisierung ist.
 
@@ -171,31 +159,31 @@ Konfigurieren Sie in Analysis Workspace die [!DNL Analytics for Target panel] , 
 
 #### Metriken
 
-* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der speziell für die Adobe Advertising-Kampagne, das Paket oder die Platzierung gilt, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassungsvisualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die Target-Testleistung anzuzeigen.
+* Erstellen Sie innerhalb des Arbeitsbereichs einen Bereich, der speziell für die Adobe Advertising-Kampagne, das Paket oder die Platzierung gilt, für die der Test ausgeführt wurde. Verwenden Sie Zusammenfassungsvisualisierungen, um Adobe Advertising-Metriken im selben Bericht wie die [!DNL Target] Testleistung.
 
 * Priorisieren Sie die Verwendung von On-site-Metriken (z. B. Besuche und Konversionen), um die Leistung zu messen.
 
-* Beachten Sie, dass aggregierte Medienmetriken von Adobe Advertising (wie Impressionen, Klicks und Kosten) nicht mit Target-Metriken übereinstimmen können.
+* Sie müssen wissen, dass aggregierte Medienmetriken von Adobe Advertising (wie Impressionen, Klicks und Kosten) nicht mit [!DNL Target] Metriken.
 
 #### Dimensionen
 
 Die folgenden Dimensionen beziehen sich auf [!DNL Analytics for Target]:
 
-* **Target Activities**: Name des A/B-Tests
+* **[!UICONTROL Target Activities]**: Name des A/B-Tests
 
-* **Target-Erlebnisse**: Namen der in der Aktivität verwendeten Landingpage-Erlebnisse
+* **[!UICONTROL Target Experiences]**: Namen der in der Aktivität verwendeten Landingpage-Erlebnisse
 
-* **Target-Aktivität** > **Erlebnis**: Der Aktivitäts- und Erlebnisname in derselben Zeile
+* **[!UICONTROL Target Activity]** > **[!UICONTROL Experience]**: Der Aktivitäts- und Erlebnisname in derselben Zeile
 
 ### Fehlerbehebung in Analytics für [!DNL Target] Daten
 
 Wenn Sie in Analysis Workspace feststellen, dass die Daten zu Aktivitäten und Erlebnissen minimal sind oder nicht ausgefüllt werden, führen Sie die folgenden Schritte aus:
 
-* Stellen Sie sicher, dass für Target und Analytics dieselbe zusätzliche Daten-ID (SDID) verwendet wird. Sie können die SDID-Werte mithilfe der [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) auf der Landingpage, zu der die Kampagne Benutzer steuert.
+* Stellen Sie sicher, dass [!UICONTROL Supplemental Data ID] (SDID) wird für beide [!DNL Target] und [!DNL Analytics]. Sie können die SDID-Werte mithilfe der [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) auf der Landingpage, zu der die Kampagne Benutzer steuert.
 
 [Zusätzliche Daten-ID-Werte (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* Vergewissern Sie sich auf derselben Landingpage, dass a) der im Adobe Debugger unter Lösungen > Ziel angezeigte Hostname mit b) dem in [!DNL Target] für die Aktivität (unter Ziele und Einstellungen > Berichtseinstellungen).
+* Überprüfen Sie auf derselben Landingpage, ob a) die Variable [!UICONTROL Hostname] im Adobe Debugger unter [!UICONTROL Solutions] > [!UICONTROL Target] entspricht b) [!UICONTROL Tracking Server] angezeigt in [!DNL Target] für die Aktivität (unter [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] erfordert [!DNL Analytics] Tracking-Server, der bei Aufrufen von [!DNL Target] der [!DNL Modstats] Datenerfassungsserver für Analytics.<!-- just "to Analytics?"-->
 
@@ -205,14 +193,12 @@ Wenn Sie in Analysis Workspace feststellen, dass die Daten zu Aktivitäten und E
 
 ## Weitere Informationen
 
-* [Integration von Target in Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html)- Erklärt, wie Sie Target-Berichte in Analysis Workspace einrichten.
+* [Integration von Target in Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Erläutert die Einrichtung [!DNL Target] Reporting in Analysis Workspace.
 * [Überblick über A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beschreibt A/B-Test-Aktivitäten, die Sie mit DSP Anzeigen verwenden können.
 * [Erlebnisse und Angebote](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Erläuterung [!DNL Target] Tools zur Bestimmung der On-site-Inhalte, denen DSP Testbenutzer ausgesetzt sind.
 * [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Definiert einige der Audience Manager-Tools, die beim DSP Durchsichtstest helfen können.
 * [Übersicht über Analytics für Werbung](/help/integrations/analytics/overview.md) - Einführung in Analytics for Advertising, mit dem Sie Clickthrough- und Durchsichts-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
 
-<!-- 
 >[!MORELIKETHIS]
 >
->* 
--->
+>* [Konfigurieren von A/B-Tests in Adobe Target für Werbe-, Social- und Commerce-Anzeigen](ab-tests-search.md)
