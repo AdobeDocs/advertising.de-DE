@@ -3,9 +3,9 @@ title: Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgrup
 description: Erfahren Sie, wie Sie eine Quelle erstellen, um Zielgruppen in Ihr Konto oder ein Advertiser-Konto zu importieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
+source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -14,37 +14,38 @@ ht-degree: 0%
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-Erstellen Sie eine Quelle, um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren. Derzeit können Sie Zielgruppen aus [die [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html).
+Erstellen Sie eine Quelle in DSP, um Erstanbieter-Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren.
 
->[!NOTE]
->
->Nachdem Sie eine Quelle für die [!DNL Real-Time CDP], müssen Sie Ihre [!DNL Real-Time CDP] Zielgruppen durch das Adobe Advertising DSP Ziel in [!DNL Real-Time CDP] um mit dem Import zu beginnen. Siehe [die Schritte im Aktivierungs-Workflow](source-about.md#workflow-sources).
+Weitere Schritte zur Aufnahme von Segmenten von bestimmten Kundendatenplattformen finden Sie unter [Zielgruppenspezifische Aktivierungs-Workflows](source-about.md)
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Klicken [!UICONTROL Add Source].
+1. Klicks **[!UICONTROL Add Source]**.
 
 1. Im [!UICONTROL Select a Type] wählen Sie den Quelltyp aus.
 
-   *[!UICONTROL RT-CDP]*: Dieser Quelltyp für [die [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), ist die einzige Option.
+   * *[!UICONTROL RT-CDP]*: [Die [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+
+   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+
+   * *[!UICONTROL Tealium CDP]*: Die [[!DNL Tealium] Kundendatenplattform](source-about.md).
 
 1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]*.
 
-1. Geben Sie den Rest ein [Quelleinstellungen](source-settings.md).
+1. Den Rest eingeben [Quelleinstellungen](source-settings.md).
 
    Eine Kopie der [!UICONTROL Source Key] wird generiert. Du wirst den Wert später benötigen.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
-1. Erstellen Sie in Experience Platform mithilfe der Funktion [!UICONTROL Source Key] , die in den DSP-Quelleinstellungen generiert wurde.
-
-   Anweisungen zum Aktivieren der DSP-Zielverbindung, Auswählen von Segmenten und Zugreifen auf Kontrollberechtigungen finden Sie unter[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+>[!NOTE]
+>
+>Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie weitere Schritte ausführen. Siehe [Aktivierungs-Workflow für [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> und [Aktivierungs-Workflow für [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](source-about.md)
->* [Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren](source-durable-id.md)<!-- title?-->
+>* [Authentifizierte Segmente von universellen ID-Partnern aktivieren](source-universal-id.md)<!-- title?-->
 >* [Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
-

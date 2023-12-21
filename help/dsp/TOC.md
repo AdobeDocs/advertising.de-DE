@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Syntax für Zielgruppensegmentlogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Quellen {#sources}
       + [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](/help/dsp/audiences/sources/source-about.md)
-      + [Authentifizierte Segmente von dauerhaften ID-Partnern aktivieren](/help/dsp/audiences/sources/source-durable-id.md)
+      + Workflows nach Kundendatenplattform {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [Workflow für die Verwendung der DSP Integration mit [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Authentifizierte Segmente von universellen ID-Partnern aktivieren](/help/dsp/audiences/sources/source-universal-id.md)
+         + [Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen](/help/dsp/audiences/sources/source-create.md)
       + [Einstellungen der Zielgruppenquelle](/help/dsp/audiences/sources/source-settings.md)
    + [Verfügbare Drittanbieter von Daten](/help/dsp/audiences/third-party-data-providers.md)

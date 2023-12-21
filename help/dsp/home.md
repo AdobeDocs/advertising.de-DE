@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 21. Dezember 2023 | [!UICONTROL Audiences] | Die Dokumentation ist jetzt für die Freigabe von Erstanbieterdaten aus der [!DNL Tealium] Kundendatenplattform mit DSP [!DNL Amazon Web Services]. Sie können Ihre DSP Platzierungen mithilfe von [!DNL RampIDs]. In den Platzierungseinstellungen für [!UICONTROL Audience Targeting], sind die freigegebenen Segmente in der [!UICONTROL First Party Segments] Liste. | Siehe &quot;[Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](/help/dsp/audiences/sources/source-about.md)&quot; und &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6. Dezember 2023 | Planen | (Beta-Funktion) Das neue Planer-Tool hilft dabei, die individuelle Reichweite von vernetzten TV-Platzierungen (CTV) auf Haushaltsebene entsprechend dem festgelegten Budget und den Targeting-Kriterien vorherzusagen. Nachdem Sie mehrere Pläne ausgewertet haben, können Sie Pakete und Platzierungen implementieren, die am besten mit den gewünschten Ergebnissen übereinstimmen. | Siehe &quot;[Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md).&quot; |
 |  | Optimierung | Zwei neue klickbasierte Optimierungsziele stehen allen Benutzern zur Verfügung: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** und **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Siehe &quot;[Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md)&quot; und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 27. September 2023 | Optimierung | Zwei neue erreichungsbasierte Optimierungsziele, **[!UICONTROL Always Max Bid and Maximize Reach]** und **[!UICONTROL Lowest Cost per Reach]** können Sie so viele Unique Houses wie möglich erreichen, indem Sie die gleichen Impressionen bzw. Ausgaben verwenden. Beide Ziele sind sowohl auf Paket- als auch auf Platzierungsebene verfügbar. | Siehe &quot;[Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md).&quot; |

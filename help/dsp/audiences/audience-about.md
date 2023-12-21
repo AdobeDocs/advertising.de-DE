@@ -3,7 +3,7 @@ title: Über Zielgruppen-Management in Advertising DSP
 description: Erfahren Sie mehr über die Funktionen des Zielgruppen-Managements.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Für das Platzierungs-Targeting stehen auch zusätzliche Zielgruppentypen zur Ve
 
 DSP können Ihre eigenen Erstanbieter-Datensegmente aus Ihrer Datenverwaltungsplattform (DMP) importieren und bei Bedarf für beliebige Advertiser bereitstellen.
 
-DSP ist ein integriertes Ziel für [die [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), sodass Sie authentifizierte Erstanbietersegmente für zugelassene Advertiser und Benutzer freigeben können, um Kampagnen zu aktivieren. Weitere Informationen zur Real-Time CDP-Integration finden Sie unter [Quellen, Abschnitt](/help/dsp/audiences/sources/source-about.md).
+DSP ist ein integriertes Ziel für [die [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), sodass Sie authentifizierte Erstanbietersegmente für zugelassene Advertiser und Benutzer freigeben können, um Kampagnen zu aktivieren. Weitere Informationen zur Real-Time CDP-Integration finden Sie unter [Quellen, Abschnitt](/help/dsp/audiences/sources/source-about.md).
 
 DSP können auch benutzerdefinierte Drittanbietersegmente importieren, einschließlich komplexer Kombinationen von Drittanbietersegmenten. Sie können die Segmente nach Bedarf für beliebige Advertiser bereitstellen.
 
