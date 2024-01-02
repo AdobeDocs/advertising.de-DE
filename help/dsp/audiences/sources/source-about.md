@@ -3,9 +3,9 @@ title: Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Q
 description: Erfahren Sie mehr über die Aufnahme von Erstanbietersegmenten aus einer Kundendatenplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
+source-git-commit: f01cfbf22628cec0510f4a860ad927b333d5946a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP ist mit [die [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://ex
 
 In [!DNL Real-Time CDP], *Ziele* sind Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Beispielsweise können Sie Ziele verwenden, um Ihre bekannten Kundenbeziehungen (z. B. Hash-E-Mail-Adressen) für gezielte Werbung in digitalen Formaten zu aktivieren, die von DSP unterstützt werden. Weitere Informationen zu Zielen finden Sie auf der Experience Platform [Zielhandbuch](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), einschließlich einer Übersicht über das Produkt, Anweisungen für [Erstellen von Ziel-Arbeitsbereichen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) und [Erstellen von Zielverbindungen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), und [Aktivieren von Daten für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Siehe &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Weitere Informationen finden Sie unter &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ## [!DNL ActionIQ]
 
@@ -32,7 +32,7 @@ Diese Integration muss angepasst werden. Wenden Sie sich für weitere Informatio
 
 ## [!DNL Tealium]
 
-Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Tealium] Kundendatenplattform mit [!DNL Amazon Web Services]. Anschließend können Sie Ihre DSP Platzierungen mithilfe von [!DNL RampIDs]. Siehe &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Tealium] Kundendatenplattform mit [!DNL Amazon Web Services]. Anschließend können Sie Ihre DSP Platzierungen mithilfe von [!DNL RampIDs]. Weitere Informationen finden Sie unter &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
