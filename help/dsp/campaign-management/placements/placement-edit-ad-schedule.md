@@ -3,9 +3,9 @@ title: Bearbeiten von Anzeigenplänen für Platzierungen
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die Anzeigen ändern, die an Platzierungen angehängt sind.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen �
 
    ![Herunterladen von vorbereitenden Benachrichtigungen](/help/dsp/assets/download-ready.png "Herunterladen von vorbereitenden Benachrichtigungen")
 
-1. Öffnen Sie die heruntergeladene Datei, bearbeiten Sie die Fluginformationen nach Bedarf und speichern Sie die aktualisierte Datei:
+1. Öffnen Sie die heruntergeladene Datei, bearbeiten Sie die Felder mit den Fluginformationen für jede Anzeigenzeile, die in den Flug aufgenommen werden soll, und speichern Sie die aktualisierte Datei:
 
-   * Um einen Flug hinzuzufügen, geben Sie mithilfe der **[!UICONTROL Flight N Start Date]** und **[!UICONTROL Flight N End Date]** Spalten. Verwenden Sie für jedes Datum das Format JJJJ-MM-TT .
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (z. B. [!UICONTROL Flight 1 Start Date] und [!UICONTROL Flight 1 End Date]): Das erste und letzte Datum des Fluges. Verwenden Sie für jedes Datum das Format JJJJ-MM-TT . Alle Anzeigen mit leeren Flugdatumsfeldern werden als nicht teilnehmende Anzeigen behandelt.
 
-     Geben Sie beispielsweise für Anzeigen im ersten Flug Werte in die [!UICONTROL Flight 1 Start Date] und [!UICONTROL Flight 1 End Date] -Felder. Wenn die Anzeigenzeilen nicht bereits in der Datei enthalten sind, geben Sie die erforderlichen Anzeigeninformationen in neue Zeilen ein.
+   **[!UICONTROL Flight N Weight]** (z. B. [!UICONTROL Flight 1 Weight]): So drehen Sie die Anzeigen für einen Flug. Geben Sie einen Wert ein:
 
-     Alle Anzeigen mit leeren Flugdatumsfeldern werden als nicht teilnehmende Anzeigen behandelt.
+   * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie &quot;**[!UICONTROL Even]**&quot;.
 
-   * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie &quot;**[!UICONTROL Even]**&quot; in den einschlägigen **[!UICONTROL Flight N Weight]** -Felder (z. B. [!UICONTROL Flight 1 Weight]).
-
-   * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie das relative Gewicht, um das jede Anzeige gedreht werden soll, in Prozent in die entsprechende **[!UICONTROL Flight N Weight]** -Felder (z. B. [!UICONTROL Flight 1 Weight]).
-
-     Die Gesamtgewichte für jeden Flug müssen 100 betragen.
+   * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie die relative Gewichtung der einzelnen Anzeigen in Prozent ein. Die Gesamtgewichte für den Flug müssen 100 betragen.
 
 1. Laden Sie die bearbeitete Anzeigenplanvorlage hoch:
 
