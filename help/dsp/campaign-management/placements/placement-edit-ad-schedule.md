@@ -3,9 +3,9 @@ title: Bearbeiten von Anzeigenplänen für Platzierungen
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die Anzeigen ändern, die an Platzierungen angehängt sind.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen �
 
       * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie `[!UICONTROL Even]`.
 
-      * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie die relative Gewichtung der einzelnen Anzeigen in Prozent ein. Die Gesamtgewichte für den Flug müssen 100 betragen.
+      * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie die relative Gewichtung der einzelnen Anzeigen in Prozent ein (z. B. `40` 40 %). Die Gesamtgewichte für den Flug müssen 100 betragen.
 
 1. Laden Sie die bearbeitete Anzeigenplanvorlage hoch:
 
