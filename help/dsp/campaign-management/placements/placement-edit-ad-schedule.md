@@ -3,44 +3,52 @@ title: Bearbeiten von Anzeigenplänen für Platzierungen
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die Anzeigen ändern, die an Platzierungen angehängt sind.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Anzeigenplänen für Platzierungen
 
-<!--
+## Bearbeiten von Anzeigenplänen für eine oder mehrere Platzierungen
 
-## Edit the Ad Schedules for One or More Placements
+Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen ändern, die an mehrere Platzierungen angehängt sind, indem Sie eine [!DNL Microsoft Excel] Tabelle. Jede Anzeige kann während mehrerer Flüge aktiv sein.
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Klicken Sie auf den Namen der Kampagne.
 
-1. Click the name of the campaign.
+1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, deren Anzeigendaten Sie herunterladen möchten.
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. Wenn die Datei verfügbar ist, klicken Sie auf **[!UICONTROL Download]** in der Benachrichtigung oben auf der Browser-Seite, um eine Arbeitsblattdatei (im XLSX-Format) gemäß der üblichen Vorgehensweise Ihres Browsers herunterzuladen.
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![Herunterladen von vorbereitenden Benachrichtigungen](/help/dsp/assets/download-ready.png "Herunterladen von vorbereitenden Benachrichtigungen")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. Öffnen Sie die heruntergeladene Datei, bearbeiten Sie die Fluginformationen nach Bedarf und speichern Sie die aktualisierte Datei:
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * Um einen Flug hinzuzufügen, geben Sie mithilfe der **[!UICONTROL Flight N Start Date]** und **[!UICONTROL Flight N End Date]** Spalten. Verwenden Sie für jedes Datum das Format JJJJ-MM-TT .
 
-1. Upload the edited ad schedule template:
+     Geben Sie beispielsweise für Anzeigen im ersten Flug Werte in die [!UICONTROL Flight 1 Start Date] und [!UICONTROL Flight 1 End Date] -Felder. Wenn die Anzeigenzeilen nicht bereits in der Datei enthalten sind, geben Sie die erforderlichen Anzeigeninformationen in neue Zeilen ein.
 
-   1. Select the check box next to each applicable placement.
+     Alle Anzeigen mit leeren Flugdatumsfeldern werden als nicht teilnehmende Anzeigen behandelt.
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie &quot;**[!UICONTROL Even]**&quot; in den einschlägigen **[!UICONTROL Flight N Weight]** -Felder (z. B. [!UICONTROL Flight 1 Weight]).
 
--->
+   * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie das relative Gewicht, um das jede Anzeige gedreht werden soll, in Prozent in die entsprechende **[!UICONTROL Flight N Weight]** -Felder (z. B. [!UICONTROL Flight 1 Weight]).
+
+     Die Gesamtgewichte für jeden Flug müssen 100 betragen.
+
+1. Laden Sie die bearbeitete Anzeigenplanvorlage hoch:
+
+   1. Aktivieren Sie das Kontrollkästchen neben jeder entsprechenden Platzierung.
+
+   1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** und geben Sie die hochzuladende Datei an.
 
 ## Bearbeiten des Anzeigenzeitplans für eine einzelne Platzierung
 
