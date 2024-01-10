@@ -3,7 +3,7 @@ title: Bearbeiten von Anzeigenplänen für Platzierungen
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die Anzeigen ändern, die an Platzierungen angehängt sind.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
+source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen �
 
 1. Öffnen Sie die heruntergeladene Datei, bearbeiten Sie die Felder mit den Fluginformationen für jede Anzeigenzeile, die in den Flug aufgenommen werden soll, und speichern Sie die aktualisierte Datei:
 
-   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (z. B. [!UICONTROL Flight 1 Start Date] und [!UICONTROL Flight 1 End Date]): Das erste und letzte Datum des Fluges. Verwenden Sie für jedes Datum das Format JJJJ-MM-TT . Alle Anzeigen mit leeren Flugdatumsfeldern werden als nicht teilnehmende Anzeigen behandelt.
+   * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (z. B. [!UICONTROL Flight 1 Start Date] und [!UICONTROL Flight 1 End Date]): Das erste und letzte Datum des Fluges. Verwenden Sie für jedes Datum das Format JJJJ-MM-TT . Alle Anzeigen mit leeren Flugdatumsfeldern werden als nicht teilnehmende Anzeigen behandelt.
 
-   **[!UICONTROL Flight N Weight]** (z. B. [!UICONTROL Flight 1 Weight]): So drehen Sie die Anzeigen für einen Flug. Geben Sie einen Wert ein:
+   * **[!UICONTROL Flight N Weight]** (z. B. [!UICONTROL Flight 1 Weight]): So drehen Sie die Anzeigen für einen Flug. Geben Sie einen Wert ein:
 
-   * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie &quot;**[!UICONTROL Even]**&quot;.
+      * Um die Anzeigen für einen Flug gleichmäßig zu drehen, geben Sie `[!UICONTROL Even]`.
 
-   * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie die relative Gewichtung der einzelnen Anzeigen in Prozent ein. Die Gesamtgewichte für den Flug müssen 100 betragen.
+      * Um die Anzeigen für einen Flug ungleichmäßig zu drehen, geben Sie die relative Gewichtung der einzelnen Anzeigen in Prozent ein. Die Gesamtgewichte für den Flug müssen 100 betragen.
 
 1. Laden Sie die bearbeitete Anzeigenplanvorlage hoch:
 
