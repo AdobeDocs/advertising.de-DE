@@ -3,18 +3,16 @@ title: Eine ausstehende Benutzereinladung erneut senden
 description: Erfahren Sie, wie Sie eine ausstehende Benutzereinladung erneut senden.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Eine ausstehende Benutzereinladung erneut senden
 
-*Nur Administrator-Benutzer*
-
-Sie können eine Einladung an einen Benutzer mit ausstehender Einladung zum Organisationskonto erneut senden.
+Administratoren können eine Einladung an einen Benutzer mit ausstehender Einladung für das Organisationskonto erneut senden.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
