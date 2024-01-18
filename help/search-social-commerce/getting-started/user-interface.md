@@ -1,11 +1,11 @@
 ---
 title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 Am oberen Rand jeder Seite befinden sich das Hauptmenü und andere Menüs, die auf Aufgaben und Informationen basieren.
 
 ## Hauptmenü
-
-Die Hauptmenüoptionen der obersten Ebene basieren auf den verfügbaren Werbekanälen. Sie sehen nur die Werbekanäle, die für Sie gelten:
-
-* **[!UICONTROL DSP]** — (Wenn Sie Zugriff auf Adobe Advertising DSP (Demand Side Platform)) Um Ihre Anzeige und vernetzte TV-Werbung zu verwalten. Ein separates [DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) ist verfügbar.
-
-* **[!UICONTROL Creative]** — (Wenn Sie Zugriff auf Adobe Advertising Creative haben) Zur Automatisierung von Echtzeit-, personalisierten Werbeerlebnissen und zur Optimierung Ihrer Anzeigen auf kreativer Elementebene. In Creative steht eine separate Hilfe zur Verfügung.
 
 * **[!UICONTROL Search]** — Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich derjenigen, für die Search, Social und Commerce verfolgt, aber keine Angebote unterbreitet.
 
@@ -56,7 +50,7 @@ Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angeze
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md)können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und der Benachrichtigungseinstellungen.
+  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md)können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Passworts und der Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >
