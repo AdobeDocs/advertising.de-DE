@@ -1,18 +1,18 @@
 ---
 title: Anzeigen verwalten
 description: Erfahren Sie, wie Sie Anzeigen erstellen und verwalten.
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Anzeigen verwalten
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] anzeigen.
 
@@ -40,7 +40,7 @@ Sie können den Status von Anzeigen erstellen, bearbeiten und ändern über die 
    >
    >(Kampagnen mit Adobe Advertising-Konversions-Tracking) Wenn in den Konto- oder Kampagneneinstellungen nur das Tracking auf Suchbegriffebene festgelegt ist, generieren Search, Social und Commerce kein Tracking für Anzeigen.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 1. (Shopping-Anzeigen in Kampagnen mit Adobe Advertising-Konversions-Tracking; optional) Um Klicks auf die Anzeige zu verfolgen, [eine Tracking-URL mit dem Tool Tracking-URLs generieren](/help/search-social-commerce/tools/click-tracking-url-generate.md)und fügen Sie sie manuell zu den Einstellungen für Konto, Kampagne oder Produktgruppe hinzu.
 

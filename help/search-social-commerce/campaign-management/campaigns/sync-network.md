@@ -1,20 +1,20 @@
 ---
 title: Manuelles Synchronisieren von Anzeigennetzwerkdaten
 description: Erfahren Sie, wie Sie die Synchronisierung Ihrer Kampagnenstruktur und Kampagnenentitäten für unterstützte Werbenetzwerke manuell durchführen können.
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Manuelles Synchronisieren von Anzeigennetzwerkdaten
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
-Bei der Synchronisierung werden von Search, Social und Commerce aktualisierte Informationen zu den Anzeigennetzwerkkonten jedes Advertisers erfasst [unterstützte Werbenetzwerke](/help/search-social-commerce/introduction/supported-inventory.md). Diese Daten umfassen die Kampagnenstruktur und Kampagnenentitäten des Advertisers, einschließlich der meisten ihrer Attribute, die in Search, Social und Commerce verwaltet oder in Berichten aufgeführt werden. Er enthält keine Klickdaten sowie Gebote und Gebotsmodifikatoren, die außerhalb von Search, Social und Commerce eingegeben werden und separat gesammelt werden.
+Bei der Synchronisierung sammeln Search, Social und Commerce aktualisierte Informationen für die mit dem Werbenetzwerk verbundenen Konten jedes Advertisers auf [unterstützte Werbenetzwerke](/help/search-social-commerce/introduction/supported-inventory.md). Diese Daten umfassen die Kampagnenstruktur und Kampagnenentitäten des Advertisers, einschließlich der meisten ihrer Attribute, die in Search, Social und Commerce verwaltet oder in Berichten aufgeführt werden. Er enthält keine Klickdaten sowie Gebote und Gebotsmodifikatoren, die außerhalb von Search, Social und Commerce eingegeben werden und separat gesammelt werden.
 
 Search, Social und Commerce synchronisieren einmal täglich automatisch mit Ihren Anzeigennetzwerkkonten und immer dann, wenn eine neue Kampagne in einem Ihrer Werbenetzwerke erkannt wird. Darüber hinaus werden sofort alle Änderungen an Kampagnendaten aus Search, Social und Commerce an das Werbenetzwerk gesendet.
 

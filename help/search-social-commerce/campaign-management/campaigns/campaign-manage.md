@@ -1,18 +1,18 @@
 ---
 title: Verwalten von Kampagnen
 description: Erfahren Sie, wie Sie Werbekampagnen erstellen und verwalten.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Kampagnen
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Eine Kampagne ist die Hauptkomponente eines Anzeigennetzwerkkontos. Bei den meisten Kampagnentypen besteht sie aus einem Satz von Anzeigengruppen oder Anzeigensets. Die Kampagneneinstellungen beinhalten Kampagnenbudgetparameter, Anzeigenziele und optionale Tracking-Parameter für alle Anzeigen in der Kampagne. Tracking-Parameter auf Kampagnenebene überschreiben die Parameter auf Kontoebene, können jedoch selbst auf einer niedrigeren Ebene überschrieben werden.
 
@@ -37,7 +37,7 @@ Einmal [Zugreifen auf das Anzeigennetzwerkkonto](/help/search-social-commerce/ca
 
    Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], und [!UICONTROL (Google) DSA Options]. So konfigurieren Sie, falls verfügbar, zusätzliche Einstellungen für [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups]oder [!UICONTROL Campaign Goals]klicken **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** oder **[!UICONTROL Set Campaign Goals]**, bzw.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 Je nach dem Werbenetzwerk, in dem die Kampagne erstellt wurde, müssen Sie möglicherweise verknüpfte Anzeigengruppen und Anzeigen erstellen, bevor die Kampagne in das Werbenetzwerk gesendet wird.
 

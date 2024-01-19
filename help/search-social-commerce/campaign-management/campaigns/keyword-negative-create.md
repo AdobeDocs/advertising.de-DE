@@ -1,18 +1,18 @@
 ---
 title: Negative Suchbegriffe erstellen
 description: Erfahren Sie, wie Sie negative Suchbegriffe für Suchkampagnen und Anzeigengruppen erstellen.
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # Negative Suchbegriffe erstellen
 
-*[!DNL Baidu], [!DNL Google Ads] und [!DNL Microsoft® Advertising], und [!DNL Yahoo! Japan Ads] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]und vorhandene [!DNL Baidu] Nur Konten*
 
 Sie können negative Suchbegriffe für eine Suchanzeigengruppe oder Kampagne erstellen, die auf die Suche oder das Display/native Netzwerk ausgerichtet ist. Negative Suchbegriffe geben keine Trigger-Anzeigen.
 
@@ -46,7 +46,7 @@ Sie können negative Suchbegriffe für eine Suchanzeigengruppe oder Kampagne ers
 
    * [!DNL Yandex]: Jeder Suchbegriff kann maximal sieben Wörter enthalten, wobei Stoppwörter ausgeschlossen sind. Jeder [!DNL Yandex ad group] kann maximal 200 Keywords enthalten.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,18 +1,18 @@
 ---
 title: Verwalten von Anzeigengruppen
 description: Erfahren Sie, wie Sie Anzeigengruppen erstellen und verwalten.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Anzeigengruppen
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Eine Anzeigengruppe enthält eine Reihe von Anzeigen und die zugehörigen Suchbegriffe. Eine Anzeigengruppe in einer Kampagne, die auf das Display-Netzwerk ausgerichtet ist, kann auch Platzierungen enthalten, die Positionen im Display-Netzwerk sind, in denen Ihre Anzeigen erscheinen können. Die Anzeigengruppeneinstellungen, die für alle Komponenten der Anzeigengruppe gelten, variieren je nach Anzeigennetzwerk.
 
@@ -34,7 +34,7 @@ Sie können Anzeigengruppen aus Search, Social &amp; Commerce für eine [unterst
 
    Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]**, bzw.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 Später können Sie optional die Gebote auf Anzeigengruppenebene überschreiben, indem Sie Gebote für einzelne Suchbegriffe oder Platzierungen in der Anzeigengruppe festlegen.
 

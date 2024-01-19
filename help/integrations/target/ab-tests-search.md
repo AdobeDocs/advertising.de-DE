@@ -1,7 +1,8 @@
 ---
 title: Konfigurieren von A/B-Tests für Adobe Advertising-Suchen-, Social- und Commerce-Anzeigen in Adobe Target
-description: "Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Anzeigen in Search, Social und Commerce."
-source-git-commit: 3e8290d85aba379ece4b6d488c01e4ddda2b554e
+description: Erfahren Sie, wie Sie einen A/B-Test einrichten in [!DNL Target] für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Anzeigen in Search, Social und Commerce.
+exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

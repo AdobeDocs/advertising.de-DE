@@ -1,11 +1,11 @@
 ---
 title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**campaign:** Ein Satz von Anzeigengruppen in einem einzelnen Anzeigenkonto, die ein Budget, eine Zeitspanne, ein Targeting und andere Einstellungen gemeinsam haben. **Hinweis:** [!DNL Baidu] hat nicht das Konzept von Kampagnen, aber Search, Social und Commerce erstellt Pseudo-Kampagnen für jeden Satz verwandter Anzeigengruppen in [!DNL Baidu] , die in Search, Social und Commerce synchronisiert werden.
+**campaign:** Ein Satz von Anzeigengruppen in einem einzelnen Anzeigenkonto, die ein Budget, eine Zeitspanne, ein Targeting und andere Einstellungen gemeinsam haben. **Hinweis:** [!DNL Baidu] hat nicht das Konzept von Kampagnen, aber Search, Social und Commerce erstellt Pseudo-Kampagnen für jeden Satz verwandter Anzeigengruppen in vorhandenen [!DNL Baidu] Konten, die in Search, Social und Commerce synchronisiert werden.
 
 **Groß-/Kleinschreibung beachten:** Bei einem Feld oder einer Abfrage, bei dem zwischen Groß- und Kleinschreibung unterschieden wird (z. B. C), unterscheidet sich die Groß-/Kleinschreibung von Buchstaben (z. B. c). Beispiel: &quot;Auto&quot;wird als anderer Wert behandelt als &quot;Auto&quot;.
 

@@ -1,9 +1,9 @@
 ---
 title: Über Suchbegriffe
 description: Erfahren Sie mehr über die Optionen für bidbare und negative Keywords.
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Über Suchbegriffe
 
-*[!DNL Baidu], [!DNL Google Ads] und [!DNL Microsoft® Advertising], und [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads]und [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Ein Suchbegriff ist ein Wort oder eine Wortgruppe, die mit einer Anzeige verknüpft ist. Zu den Suchbegriffeinstellungen gehören der Suchbegriff-Übereinstimmungstyp, die maximalen Angebote, die bei der Auslösung Ihrer Anzeige durch den Suchbegriff verwendet werden, und (einige Anzeigennetzwerke) optionale Tracking-Parameter. Einstellungen auf Suchbegriffebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft.
 

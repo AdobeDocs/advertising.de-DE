@@ -1,18 +1,18 @@
 ---
 title: Bietbare Suchbegriffe verwalten
 description: Erfahren Sie, wie Sie bidbare Suchbegriffe für Suchanzeigengruppen erstellen und verwalten.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Bietbare Suchbegriffe verwalten
 
-*[!DNL Baidu], [!DNL Google Ads] und [!DNL Microsoft® Advertising], und [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads]und [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Sie können Suchbegriffe für Suchanzeigengruppen in [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die die Suche und die Anzeige/die systemeigenen Netzwerke in einer [Synchronisiertes Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -36,7 +36,7 @@ Sie können Suchbegriffe für Suchanzeigengruppen in [unterstützte Kampagnentyp
 
    Wenn für die Konto- oder Kampagneneinstellungen nur das Tracking auf kreativer Ebene (Anzeige) erforderlich ist, können Sie kein Tracking für Suchbegriffe generieren.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 ## Einstellungen für Suchbegriffe bearbeiten
 

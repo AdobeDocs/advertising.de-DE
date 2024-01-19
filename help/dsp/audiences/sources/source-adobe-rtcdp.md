@@ -1,8 +1,9 @@
 ---
-title: "Workflow für die Verwendung der DSP Integration mit [!DNL Adobe] [!DNL Real-time CDP]"
-description: "Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente."
+title: Workflow für die Verwendung der DSP Integration mit [!DNL Adobe] [!DNL Real-time CDP]
+description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente.
 feature: DSP Audiences
-source-git-commit: fb42e4aacaf0ea22890e0b4a46719725c99fffdc
+exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

@@ -1,24 +1,24 @@
 ---
 title: Über Werbenetzkonten
 description: Erfahren Sie mehr über Ad-Netzwerk-Konten in Search, Social und Commerce.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
 # Über Werbenetzkonten
 
-*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
+*Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
 Search, Social und Commerce können beliebige Konten eines Advertisers in unterstützten Werbenetzwerken verfolgen. Um das Tracking eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kontodatensatz erstellen. Sie müssen Kontodetails für jeden Kontotyp einrichten, unabhängig davon, ob Search, Social und Commerce mit ihm synchronisiert oder Angebote und Budgets für dessen Anzeigen optimiert werden.
 
 ## Über APIs synchronisierte Konten
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Konten*
 
 Synchronisierungen für Suche, Social und Commerce (*syncs*) mit unterstützten Anzeigennetzwerkkonten, damit Sie die Leistung Ihrer Anzeigen verfolgen, in Berichten darstellen und visualisieren können. Alle Werbenetzwerke außer [!DNL Yahoo! Display Network]können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce verwalten. [!DNL Yahoo! Display Network], sind Kampagnen schreibgeschützt. Für alle Werbenetzwerke können Sie mit der Optimierungsfunktion Gebote für Anzeigen in verwalteten Konten optimieren, indem Sie sie zu Portfolios hinzufügen.
 

@@ -1,18 +1,18 @@
 ---
 title: Anzeigen verwalten
 description: Erfahren Sie mehr über Anzeigen in Search, Social und Commerce, einschließlich der verfügbaren Anzeigentypen.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Über Anzeigen
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Eine Anzeige kann auf einer Ziel-Website angezeigt werden (für Inhalte oder platzierungszielgerichtete Kampagnen); wenn ein Benutzer nach einem der Suchbegriffe in der Anzeigengruppe (für Suchkampagnen) oder nach Inhalten auf Ihrer Website (dynamische Suchanzeigen in [!DNL Google Ads] Suchkampagnen); oder wenn ein Benutzer eine Suche durchführt, die für eines der Elemente in Ihrer [!DNL Google Merchant Center] oder [!DNL Microsoft® Merchant Center] Produkt-Feed (Shopping-Anzeigen in [!DNL Google Ads] oder Produktanzeigen in [!DNL Microsoft® Advertising] Kampagnen).
 
