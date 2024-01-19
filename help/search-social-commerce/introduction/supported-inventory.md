@@ -3,9 +3,9 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: ca3d21fdfc770767502ea8757b5140d68a3e6328
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeig
 
 | Quelle | Netzwerk | Kampagnentyp | Anzeigentyp | Synchronisieren und Anzeigen | Erstellen/Bearbeiten | Verfolgen[^1] | Optimieren | Bericht[^2] | Adobe Analytics-Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu]: Vorhandene Konten nur in Search, Social und Commerce; keine Unterstützung für neue Konten | Suchnetzwerk | Manuell | Text | Automatisch über API | Bearbeiten und Löschen mit [Kampagnenverwaltungsansichten](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) und [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampagnen mit manueller CPC-Angebotsstrategie nur | Daten auf Anzeigenebene | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
+| [!DNL Baidu]: *Nur Unterstützung für vorhandene Konten in Search, Social und Commerce* | Suchnetzwerk | Manuell | Text | Automatisch über API | Bearbeiten und Löschen mit [Kampagnenverwaltungsansichten](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) und [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampagnen mit manueller CPC-Angebotsstrategie nur | Daten auf Anzeigenebene | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
 | [!DNL Google Ads] | Alle [!DNL Google] Feeds | Erkennung (Beta-Funktion) | Erkennung (Anzeigen mit einem Bild)<br><br>Karussell-Erkennung (Karussellanzeigen mit mehreren Bildern) | Automatisch über API | — | Ja | Nur bei hybriden Portfolios<br><br>Gebote und Angebotsstrategieziele werden auf Kampagnenebene zusammen mit Kampagnenbudgets festgelegt, je nach Optimierungstyp. | Daten auf Anzeigenebene | Daten auf Anzeigenebene für Search, Social und Commerce [mit dem aktualisierten AMO-ID-Trackingcode](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>Daten auf Anzeigenebene von Search, Social und Commerce zu Analytics |
 | | Alle | Standardleistung max (Beta-Funktion) | Alle Typen | Automatisch über API | Erstellen/bearbeiten Sie die Kampagne und laden Sie Anzeigen-Assets in die Kampagneneinstellungen in [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>Es sind nur erforderliche Einstellungen verfügbar. Für optionale Einstellungen und Auflistungsgruppen melden Sie sich bei [!DNL [!DNL Google Ads] Anzeigen]-Editor. | Ja | Nur bei hybriden Portfolios<br><br>Angebotsstrategieziele werden auf Kampagnenebene zusammen mit Kampagnenbudgets festgelegt. | Daten auf Kampagnenebene<br><br>Daten für die Auflistung von Gruppen sind nicht verfügbar und das Anzeigennetzwerk stellt keine Daten auf Anzeigenebene bereit. | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Kampagnenebene von &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;bis &quot;Analytics&quot;. Erfordert die Aktualisierung [AMO-ID-Trackingcode](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | Netzwerk anzeigen | Standardanzeige | Bild | Automatisch über API | URL bearbeiten und Status nur mit [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja, wenn Sie manuell Klick-Tracking-Tags zu Tracking-Vorlagen im Werbenetzwerk hinzufügen | — | Daten auf Anzeigenebene, aber keine Durchsichtsdaten | Analytics-Daten für Suche, Social und Commerce<br><br>Daten auf Anzeigenebene von &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;zu Analytics, jedoch keine Durchsichtsdaten |
