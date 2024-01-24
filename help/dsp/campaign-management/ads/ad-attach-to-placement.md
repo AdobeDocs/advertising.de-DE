@@ -1,132 +1,80 @@
 ---
-title: Eine Anzeige an eine Platzierung anhängen
-description: Erfahren Sie, wie Sie eine Anzeige an eine Platzierung anhängen.
+title: Anzeigen an Platzierungen anhängen
+description: Erfahren Sie, wie Sie eine Anzeige an Platzierungen anhängen.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# Eine Anzeige an eine Platzierung anhängen
+# Anzeigen an Platzierungen anhängen
 
 >[!NOTE]
 >
 >Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
 
-## Fügen Sie eine neue Anzeige aus dem [!UICONTROL Ads] Ansicht
+## Anzeigen an Platzierungen anhängen {#attach-ads-campaign}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
+1. Öffnen Sie die [!UICONTROL Ad Tools] auf eine der folgenden Arten anzuzeigen:
 
-1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Von der [!UICONTROL Packages] , [!UICONTROL Placements]oder [!UICONTROL Ads] Ansicht) Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Führen Sie im Bildschirm &quot;Anzeige platzieren&quot;einen der folgenden Schritte aus:
+   * (Von der [!UICONTROL Placements] view) Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * So erstellen Sie eine neue Platzierung für die Anzeige:
+   * (Von der [!UICONTROL Ads] view) Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Klicks **[!UICONTROL Create New Placement]**.
+1. Im [!UICONTROL Edit] untersuchen, führen Sie für jede Gruppe von Anzeigen, die Sie Platzierungen hinzufügen möchten, folgende Schritte aus:
 
-      1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)und klicken Sie anschließend auf **[!UICONTROL Create Placement]**.
+   1. (Optional) Suchen Sie bestimmte Platzierungen und Anzeigen auf eine der folgenden Arten:
 
-   * So fügen Sie die Anzeige zu einer oder mehreren vorhandenen Platzierungen hinzu:
+      * Klicken Sie über den Tabellen auf ![Filter](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
 
-      1. Klicks **[!UICONTROL Select a Placement].**
+      * Suchen Sie in der linken und rechten Tabelle nach bestimmten Textzeichenfolgen in der Platzierung und den Anzeigennamen.
 
-      1. Führen Sie einen der folgenden Schritte aus:
+   1. Aktivieren Sie in der linken Tabelle das Kontrollkästchen neben jeder Platzierung, an die die Anzeigen angehängt werden sollen.
 
-         * So fügen Sie jeweils eine Anzeige hinzu:
+   1. Aktivieren Sie in der rechten Tabelle das Kontrollkästchen neben jeder Anzeige, die Sie an die ausgewählten Platzierungen anhängen möchten.
 
-            1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+      Es können nur Anzeigen ausgewählt werden, die für den Platzierungstyp relevant sind und noch nicht an die ausgewählten Platzierungen angehängt sind.
 
-            1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach to Other Placement]**. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
+   1. Klicken Sie unten rechts auf  **[!UICONTROL Attach]**.
 
-         * So fügen Sie die Anzeige bis zu 20 Platzierungen gleichzeitig hinzu:
+1. (Optional) Um zu den Detailansichten der Kampagne zurückzukehren, klicken Sie auf ![Zurück zum Ordner](/help/dsp/assets/breadcrumb-return.png "Zurück zum Ordner") links von [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
 
-            1. Aktivieren Sie das Kontrollkästchen neben &quot;Massenauswahl&quot;.
+## Anzeigen, die an Platzierungen angehängt sind {#view-ads-campaign}
 
-            1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, an die die Anzeige angehängt werden soll.
-
-            1. Klicks **[!UICONTROL Attach]**.
-
-      1. Wählen Sie auf der Registerkarte Abschließen und Überprüfen eine der folgenden Optionen aus:
-
-         * Um zur Anzeigen-Ansicht zurückzukehren, klicken Sie auf **[!UICONTROL I'm done for now]**.
-
-         * Um die Anzeige an eine andere Platzierung anzuhängen, klicken Sie auf **[!UICONTROL Attach To Other Placement]**.
-
-## Fügen Sie eine neue oder vorhandene Anzeige aus der [!UICONTROL Placements] Ansicht
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
+1. Öffnen Sie die [!UICONTROL Ad Tools] auf eine der folgenden Arten anzuzeigen:
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Von der [!UICONTROL Packages] , [!UICONTROL Placements]oder [!UICONTROL Ads] Ansicht) Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Im [!UICONTROL Add Ad to Placement] -Bildschirm verwenden, führen Sie einen der folgenden Schritte aus:
+   * (Um Anzeigen anzuzeigen, die mit einer bestimmten Platzierung verbunden sind) Klicken Sie im Untermenü auf **[!UICONTROL Placements]**. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * So erstellen Sie eine neue Anzeige:
+   * (Um die Platzierungen anzuzeigen, an die eine Anzeige angehängt ist oder werden kann), klicken Sie im Untermenü auf **[!UICONTROL Ads]**. Klicken Sie neben einem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Klicks **[!UICONTROL Create a New Ad]**.
+1. Wechseln Sie zu **[!UICONTROL View]** oben rechts.
 
-      1. Geben Sie die Anzeigeneinstellungen für ein [Audio-Anzeigen](ad-settings-audio.md), [vernetztes Fernsehen](ad-settings-connected-tv.md), [Display-Anzeigen](ad-settings-display.md), [mobile Anzeigen](ad-settings-mobile.md), [native Anzeigen](ad-settings-native.md)oder [Pre-Roll-Anzeigen](ad-settings-pre-roll.md).
+1. (Optional) Suchen Sie nach Bedarf spezifische Platzierungen und Anzeigen:
 
-      1. Klicks **[!UICONTROL Save & Submit for Review]**.
+   * Filtern Sie die Listen über der linken Tabelle nach Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
 
-         Die [Anzeigenüberprüfung](ad-about.md) für die neue Anzeige dauert 24-48 Stunden und umfasst Prüfungen für sensible Kategorien, Klickfunktionen auf URL-Funktionalität und Vorschau-Rendering. Die [!UICONTROL Status] gibt an, ob DSP die Anzeige genehmigt hat. Beschädigte Anzeigen haben möglicherweise mehr als 24-48 Stunden den Status &quot;Ausstehend&quot;, sodass Sie Zeit haben, Fehler zu beheben, bevor sie abgelehnt werden.
+   * Suchen Sie in der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in der Platzierung oder im Anzeigennamen.
 
-         >[!NOTE]
-         >
-         >Ihre Werbeanzeige wird nur bereitgestellt, wenn sowohl DSP als auch die SSP die Kreativinhalte genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
+1. Klicken Sie auf eine beliebige Platzierungszeile in der linken Tabelle, um die angehängten Anzeigen in der rechten Tabelle anzuzeigen.
 
-   * So wählen Sie vorhandene Anzeigen aus:
-
-      1. Klicks **[!UICONTROL Select an Ad].**
-
-      1. Geben Sie die Anzeigen an:
-
-         * So fügen Sie jeweils eine Anzeige hinzu:
-
-            1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
-
-            1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Add Another Ad]**. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL Select].**
-
-         * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
-
-            1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Bulk Select]**.&quot;
-
-            1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
-
-            1. Klicks **[!UICONTROL Attach]**.
-
-      1. (Optional) So überschreiben Sie die standardmäßige Flugzeit und Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
-
-         1. Klicks **[!UICONTROL Custom Schedule Ads]**.
-
-         1. Führen Sie einen der folgenden Schritte aus:
-
-            * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
-
-            * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie auf **[!UICONTROL +]** in der Anzeigenzeile für die Flugspalte.
-
-            * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie auf **[!UICONTROL x]** in der Anzeigenzeile für die Flugspalte.
-
-            * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie auf **[!UICONTROL Even Rotation]** in den Fluginformationen und geben Sie dann die relative Gewichtung der einzelnen Anzeigen in Prozent an.
-
-              Die Gesamtgewichte müssen 100 betragen.
-
-         1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
-
-         1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
-
-      1. Klicks **[!UICONTROL I'm done for now]**.
+1. (Optional) Um weitere Anzeigen an die Platzierungen der Kampagne anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** Ansicht oben rechts. Siehe Schritt 4 des vorherigen Verfahrens: &quot;[Anzeigen an Platzierungen anhängen](#attach-ads-campaign),&quot; für Anweisungen.
 
 >[!MORELIKETHIS]
 >

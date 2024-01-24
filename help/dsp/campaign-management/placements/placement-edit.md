@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
    1. Wählen Sie die **[!UICONTROL Edit Mode]**.
 
       Die Optionen variieren je nach Einstellung, können jedoch Folgendes umfassen:
-
-      * **Hinzufügen** (zum Anfügen von Anzeigen)
 
       * **Anhängen** (um die vorhandenen Werte beizubehalten und neue Werte hinzuzufügen)
 

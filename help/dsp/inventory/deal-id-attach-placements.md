@@ -3,10 +3,10 @@ title: Festlegen von Platzierungen und Anzeigen für ein privates Geschäft
 description: Erfahren Sie, wie Sie einen privaten Deal mit zusätzlichen Platzierungen und Anzeigen verwenden.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Bei nicht garantierten Angeboten können Sie den Deal als Inventarziel für neue
 
 Bei programmgesteuerten garantierten (PG) Angeboten können Sie Platzierungen mit bestimmten Anzeigen aus der [!UICONTROL Deals] anzeigen.
 
-Sie können auch [neue Anzeigen an bestehende Platzierungen anfügen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) mit PG und nicht garantierten Angeboten zu einem beliebigen Zeitpunkt verknüpft sind.
+Sie können auch [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) mit PG und nicht garantierten Angeboten zu einem beliebigen Zeitpunkt verknüpft sind.
 
 ## Angeben eines nicht garantierten Angebots als Inventarziel für eine Platzierung
 
@@ -28,24 +28,23 @@ Sie können auch [neue Anzeigen an bestehende Platzierungen anfügen](/help/dsp/
 
 1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. Im [!UICONTROL Ad & Campaign Selection] -Einstellungen wählen Sie die Anzeigen aus, die für die Platzierung verwendet werden sollen:
+1. Im [!UICONTROL Ad & Campaign Selection] -Einstellungen wählen Sie die für die Platzierung zu verwendenden Anzeigen aus:
 
-       1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus aus, nach dem die Anzeigen gefiltert werden sollen.
+       1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus zum Filtern der Anzeigen aus.
        
        1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben jeder Anzeige, die für das Geschäft verwendet werden soll.
        
-       1. Klicken **[!UICONTROL Apply]**.
+       1. Klicken Sie auf **[!UICONTROL Apply]**.
    
    1. Im Bildschirm für die Platzierungseinstellungen:
 
       1. Geben Sie den Platzierungsnamen ein.
 
-      1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md), einschließlich des Überschreibens des Standardangebots, das automatisch mit dem CPM-Wert aus dem Deal gefüllt wird; Änderung des Datumsbereichs; oder fügen Sie weitere Anzeigen hinzu.
+      1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md), einschließlich Überschreiben des Standardangebots, das automatisch mit dem CPM-Wert aus dem Deal gefüllt wird, Ändern des Datumsbereichs oder Hinzufügen weiterer Anzeigen.
 
-      Der Deal wird automatisch im Abschnitt Inventarziele ausgerichtet. Alle anderen Targeting-Optionen sind nicht verfügbar.
+      Der Deal wird automatisch im Abschnitt Inventarziele angesprochen. Alle anderen Targeting-Optionen sind nicht verfügbar.
 
-      1. Klicken **[!UICONTROL Create placement]**.
-
+      1. Klicks **[!UICONTROL Create placement]**.
 
 Die Platzierung beginnt, nachdem der Publisher Ihre PG-Deal-ID aktiviert hat.
 
@@ -60,4 +59,3 @@ Die Platzierung beginnt, nachdem der Publisher Ihre PG-Deal-ID aktiviert hat.
 >* [Manuelles Erstellen von Details zur Angebots-ID](deal-id-create.md)
 >* [Manuelle Deal-ID-Einstellungen](deal-id-settings.md)
 >* [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](programmatic-guaranteed-set-up.md)
-

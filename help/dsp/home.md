@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
+source-git-commit: 48c37e0c85f34ec462631055dd207c1133809065
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 24. Januar 2024 | [!UICONTROL Placements] und [!UICONTROL Ads] | Der Arbeitsablauf für das Anhängen von Anzeigen an Platzierungen wurde neu gestaltet. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10. Januar 2024 | [!UICONTROL Placements] | Sie können die Anzeigenplanung für mehrere Platzierungen jetzt mithilfe einer Tabelle schnell anpassen:<ul><li>Sie können eine Anzeigenplanvorlage für Platzierungen herunterladen. Sie können die Flugdaten und die Anzeigenrotation in der heruntergeladenen Datei nach Bedarf bearbeiten.</li><li>Sie können dann die bearbeitete Anzeigenplanvorlage hochladen.</li></ul> | Siehe &quot;[Bearbeiten von Anzeigenplänen für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21. Dezember 2023 | [!UICONTROL Audiences] | Die Dokumentation ist jetzt für die Freigabe von Erstanbieterdaten aus der [!DNL Tealium] Kundendatenplattform mit DSP [!DNL Amazon Web Services]. Sie können Ihre DSP Platzierungen mithilfe von [!DNL RampIDs]. In den Platzierungseinstellungen für [!UICONTROL Audience Targeting], sind die freigegebenen Segmente in der [!UICONTROL First Party Segments] Liste. | Siehe &quot;[Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](/help/dsp/audiences/sources/source-about.md)&quot; und &quot;[Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6. Dezember 2023 | Planen | (Beta-Funktion) Das neue Planer-Tool hilft dabei, die individuelle Reichweite von vernetzten TV-Platzierungen (CTV) auf Haushaltsebene entsprechend dem festgelegten Budget und den Targeting-Kriterien vorherzusagen. Nachdem Sie mehrere Pläne ausgewertet haben, können Sie Pakete und Platzierungen implementieren, die am besten mit den gewünschten Ergebnissen übereinstimmen. | Siehe &quot;[Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md).&quot; |
