@@ -3,19 +3,19 @@ title: Benutzerspezifischen Bericht erstellen
 description: Erfahren Sie, wie Sie einen benutzerspezifischen Bericht erstellen.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 4%
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
 # Benutzerspezifischen Bericht erstellen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]**.
-1. Klicken **[!UICONTROL New Custom Report]**.
+1. Klicks **[!UICONTROL New Custom Report]**.
 1. Geben Sie die [Berichtseinstellungen](/help/dsp/reports/report-settings.md).
-1. Klicken **[!UICONTROL Create Custom Report]**.
+1. Klicks **[!UICONTROL Create Custom Report]**.
 
 >[!MORELIKETHIS]
 >
@@ -24,6 +24,5 @@ ht-degree: 4%
 >* [Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)
 >* [Benutzerspezifischen Bericht löschen](/help/dsp/reports/report-delete.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
-

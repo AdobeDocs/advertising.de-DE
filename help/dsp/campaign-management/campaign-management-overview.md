@@ -3,9 +3,9 @@ title: Überblick über Campaign Management in Advertising DSP
 description: Erfahren Sie mehr über die Kampagnenverwaltungshierarchie und -komponenten.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,7 @@ DSP Kampagnen weisen die folgende Hierarchie auf:
 * Kampagne
    * Paket(e)
       * Platzierung(en)
-         * Anzeigen
-
+         * Anzeige(en)
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -37,7 +36,7 @@ Pakete sind optional, werden jedoch empfohlen.
 
 ## [!UICONTROL Placements]
 
-A [placement](/help/dsp/campaign-management/placements/placement-about.md) speichert Targeting-Parameter für eine oder mehrere Anzeigen desselben Anzeigentyps. Sie können eine Platzierung für eine einzelne Kampagne oder ein einzelnes Paket erstellen und ihr dann Anzeigen zuweisen.
+A [placement](/help/dsp/campaign-management/placements/placement-about.md) speichert Zielgruppenparameter für eine oder mehrere Anzeigen desselben Anzeigentyps. Sie können eine Platzierung für eine einzelne Kampagne oder ein einzelnes Paket erstellen und ihr dann Anzeigen zuweisen.
 
 ## [!UICONTROL Ads]
 
@@ -55,7 +54,6 @@ Alle aktiven, genehmigten Anzeigen in einer aktiven Platzierung in einer aktiven
 >* [Über die Anzeigenverwaltung](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Checkliste für den Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Über Datenansichten in Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
+>* [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Datenansichten Ihrer Kampagne verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [Video: DSP Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-

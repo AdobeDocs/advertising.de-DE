@@ -3,9 +3,9 @@ title: Anzeigen von Auktionseinblicken für ein privates Geschäft
 description: Erfahren Sie, wie Sie mithilfe von Einblicken aus Auktionen die Zusammensetzung des Deals des privaten Deals analysieren können.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Auction Insights ist ein Tool zur Fehlerbehebung, mit dem Sie die Zusammensetzun
 
 >[!NOTE]
 >
->Auktionseinblicke sind auch über die Platzierung verfügbar [!UICONTROL Inspector] -Tool. Um sie zu öffnen, [Platzierung öffnen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) der [!UICONTROL Inventory tab]und klicken Sie anschließend auf **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** in der Deal-Zeile.
+>Auktionseinblicke sind auch über die Platzierung verfügbar. [!UICONTROL Inspector] -Tool. Um sie zu öffnen, [Platzierung öffnen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) der [!UICONTROL Inventory tab]und klicken Sie anschließend auf **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** in der Deal-Zeile.
 
 ## Auktionsattribute {#auction-attributes}
 
@@ -36,7 +36,7 @@ Flächendiagramme stehen für die folgenden Auktionsattribute zur Verfügung:
 
 * **Anzeigendauer:** Die maximale Dauer der Auktion (z. B. 15 s oder 30 s).
 
-* **Sicher:** Gibt an, ob für die Auktion ein sicheres kreatives HTTPS-URL-Asset erforderlich ist. Werte: <i>Secure</i> oder <i>Nicht sicher</i>.
+* **Sicher:** Gibt an, ob die Auktion ein sicheres kreatives HTTPS-URL-Asset erfordert. Werte: <i>Sicher</i> oder <i>Nicht sicher</i>.
 
 * **MIME-Typ:** Der in der Versteigerung angeforderte Anzeigenkreativ-MIME-Typ (z. B. MP4 oder mov).
 
@@ -51,5 +51,4 @@ Flächendiagramme stehen für die folgenden Auktionsattribute zur Verfügung:
 >* [Über privates Inventar](private-inventory-about.md)
 >* [Festlegen von Platzierungen und Anzeigen für eine Angebots-ID](deal-id-attach-placements.md)
 >* [Detaillierte Berichte für ein Angebot anzeigen](deal-view-report.md)
->* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-
+>* [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)

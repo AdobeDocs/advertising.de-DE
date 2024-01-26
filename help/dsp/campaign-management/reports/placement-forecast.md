@@ -2,9 +2,10 @@
 title: Anzeigen des Berichts zur Platzierungsvorschau
 description: Ermitteln Sie die Anzahl der Impressionen, Ausgaben und das für eine bestimmte Targeting-Strategie für eine Platzierung prognostizierte optimale maximale Angebot.
 feature: DSP Placements
-source-git-commit: bb44c1518a389a1decbedfa260939e75c8324aeb
+exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,6 @@ Die Prognose enthält folgende Informationen:
 
 >[!MORELIKETHIS]
 >
->* [Über In-Platform-Berichte](campaign-reports-about.md)
+>* [Über Leistungsberichte in Campaign Management-Ansichten](campaign-reports-about.md)
 >* [Anzeigen der platzierungsdiagnostischen Berichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Anzeigen der platzierungsdiagnostischen Berichte
 description: Erfahren Sie, wie Sie Probleme bei der Platzierungs- und Platzierungseinrichtung diagnostizieren können.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Mit den folgenden Tools können Sie Probleme bei der Platzierungseinrichtung und
    1. Klicken Sie oben rechts auf ![Placement-Diagnose](/help/dsp/assets/placement-diagnostics.png).
 1. Führen Sie einen der folgenden Schritte aus:
    * Anzeigen des Änderungsprotokolls:
-      1. Klicken **[!UICONTROL Change Log]**.
+      1. Klicks **[!UICONTROL Change Log]**.
       1. (Optional) Filtern Sie die Berichtsergebnisse:
          * Ändern Sie im Datumsmenü den Berichtszeitraum von den standardmäßigen letzten 14 Tagen in einen anderen Zeitraum (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* oder *[!UICONTROL Last 1 year]*).
          * Filtern Sie den Bericht im linken Menü nach einem bestimmten Benutzernamen.
@@ -45,6 +45,6 @@ Mit den folgenden Tools können Sie Probleme bei der Platzierungseinrichtung und
 
 >[!MORELIKETHIS]
 >
->* [Über In-Platform-Berichte](campaign-reports-about.md)
+>* [Über Leistungsberichte in Campaign Management-Ansichten](campaign-reports-about.md)
 >* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

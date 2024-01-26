@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
+source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -92,20 +92,13 @@ ht-degree: 3%
          + [Pre-Roll-Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universelle Videoanzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Spezifikationen für unterstützte Anzeigentypen](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Kampagnenberichte {#campaign-reports}
-      + [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Leistungsberichte in Campaign Management-Ansichten {#campaign-reports}
+      + [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Daten aus einer Campaign Management-Ansicht exportieren](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Anzeigen von Sites, Anzeigen und Frequenzdetails für eine Platzierung](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Anzeigen der platzierungsdiagnostischen Berichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + Datenansichten verwalten {#data-views}
-         + [Über Datenansichten in Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
-         + [Spaltenansicht ändern](/help/dsp/campaign-management/reports/column-view-change.md)
-         + [Benutzerdefinierte Spaltenansicht erstellen](/help/dsp/campaign-management/reports/column-view-create.md)
-         + [Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/column-view-edit.md)
-         + [Filtern von Kampagnendaten](/help/dsp/campaign-management/reports/campaign-data-filter.md)
-         + [Sortieren einer Spalte](/help/dsp/campaign-management/reports/campaign-data-sort.md)
-      + [Datenvisualisierungen verwalten](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
+      + [Datenansichten Ihrer Kampagne verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + Korrekte Platzierungseinstellungen mithilfe von Tabellen {#qa-spreadsheet}
       + [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
       + [Platzierungseinstellungen in einer Tabelle herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md)

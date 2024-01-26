@@ -3,10 +3,10 @@ title: Benutzerspezifischen Bericht bearbeiten
 description: Erfahren Sie, wie Sie benutzerdefinierte Berichtseinstellungen bearbeiten.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 1%
+source-wordcount: '74'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
    * Klicken Sie auf den Berichtsnamen.
    * Im [!UICONTROL Options] Spalte für die Berichtszeile, klicken Sie auf **[!UICONTROL options]** > **[!UICONTROL Edit]**.
 1. Bearbeiten Sie die [Berichtseinstellungen](/help/dsp/reports/report-settings.md).
-1. Klicken **[!UICONTROL Edit Custom Report]**.
+1. Klicks **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]
 >
@@ -27,6 +27,5 @@ ht-degree: 1%
 >* [Benutzerspezifischen Bericht ausführen](/help/dsp/reports/report-run-now.md)
 >* [Benutzerspezifischen Bericht löschen](/help/dsp/reports/report-delete.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Über In-Platform-Berichte](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
-

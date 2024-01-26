@@ -3,9 +3,9 @@ title: Anzeigen von Sites, Anzeigen, Häufigkeit und Inventardetails für eine P
 description: Erfahren Sie, wie Sie die zielgerichteten Sites, Anzeigen, Häufigkeit und Inventardaten für eine Platzierung anzeigen.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Die Platzierung [!UICONTROL Inspector] listet alle zielgerichteten Sites, Anzeig
       1. Klicken Sie auf den Namen der Kampagne.
 
       1. Klicken Sie auf **[!UICONTROL Placements]** Registerkarte.
+
    * Zeigen Sie alle Platzierungen innerhalb des übergeordneten Pakets an:
 
       1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
@@ -32,7 +33,6 @@ Die Platzierung [!UICONTROL Inspector] listet alle zielgerichteten Sites, Anzeig
       1. Klicken Sie auf **[!UICONTROL Packages]** Registerkarte.
 
       1. Klicken Sie auf den Namen des übergeordneten Pakets.
-
 
 1. Halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL More]** und klicken Sie dann auf eine Option:
 
@@ -44,12 +44,9 @@ Die Platzierung [!UICONTROL Inspector] listet alle zielgerichteten Sites, Anzeig
 
    * Um alle Angebote anzuzeigen, die die Platzierung als Ziel hat, klicken Sie auf **[!UICONTROL Inventory]**.
 
-1. (Optional) [Spaltenansicht ändern](column-view-change.md) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
+1. (Optional) [Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
 >[!MORELIKETHIS]
 >
->* [Über In-Platform-Berichte](campaign-reports-about.md)
->* [Über Datenansichten in Campaign](campaign-data-views-about.md)
->* [Spaltenansicht ändern](column-view-change.md)
->* [Datenvisualisierungen verwalten](campaign-data-visualization-manage.md)
-
+>* [Über Leistungsberichte in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Datenansichten Ihrer Kampagne verwalten](campaign-data-views-manage.md)
