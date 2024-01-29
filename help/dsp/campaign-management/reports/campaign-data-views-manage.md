@@ -2,9 +2,9 @@
 title: Datenansichten Ihrer Kampagne verwalten
 description: Erfahren Sie, wie Sie Ihre Datenansichten für Kampagnen, Pakete, Platzierungen und Anzeigen anpassen können.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Rechts unten auf einer beliebigen Seite, neben **[!UICONTROL Items per page]** a
 
 >[!MORELIKETHIS]
 >
->* [Über Leistungsberichte in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Arten von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
 >* [Anzeigen von Sites, Anzeigen und Frequenzdetails für eine Platzierung](placement-details-view.md)
 >* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Anzeigen der platzierungsdiagnostischen Berichte](placement-diagnostics.md)

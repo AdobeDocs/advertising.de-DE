@@ -3,9 +3,9 @@ title: Anzeigen von Auktionseinblicken für ein privates Geschäft
 description: Erfahren Sie, wie Sie mithilfe von Einblicken aus Auktionen die Zusammensetzung des Deals des privaten Deals analysieren können.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,4 @@ Flächendiagramme stehen für die folgenden Auktionsattribute zur Verfügung:
 >* [Über privates Inventar](private-inventory-about.md)
 >* [Festlegen von Platzierungen und Anzeigen für eine Angebots-ID](deal-id-attach-placements.md)
 >* [Detaillierte Berichte für ein Angebot anzeigen](deal-view-report.md)
->* [Über Leistungsberichte in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Arten von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)

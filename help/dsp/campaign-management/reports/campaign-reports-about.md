@@ -1,16 +1,16 @@
 ---
-title: Über Leistungsberichte in Campaign Management-Ansichten
+title: Arten von Leistungsberichten in Campaign Management-Ansichten
 description: Erfahren Sie mehr über die Berichtsdaten in den Kampagnenverwaltungsansichten.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# Über Leistungsberichte in Campaign Management-Ansichten
+# Arten von Leistungsberichten in Campaign Management-Ansichten
 
 Die Ansichten der Kampagnenverwaltung beinhalten umfassende Berichtdaten. Die verfügbaren Berichte helfen Ihnen dabei, die Pakete und Platzierungen zu identifizieren, die eine gute Leistung erbringen, und jene, die Ihre Aufmerksamkeit benötigen. Schnellaktion-Schaltflächen machen Sie auch produktiver.
 
@@ -62,49 +62,26 @@ In jeder Entitäts-Registerkarte enthält jede Zeile standardmäßig Pacing- und
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### Platzierung [!UICONTROL Inspector] {#placement-inspector}
-
-Für jede Platzierung können Sie [Öffnen einer (Detailansicht) [!UICONTROL Inspector])](placement-details-view.md), der die folgenden detaillierten Daten enthält:
-
-* **[!UICONTROL Sites]:** Alle Sites, auf denen die Platzierung Impressionen gehabt hat.
-
-  Die [!UICONTROL Sites] Registerkarte enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, und eine [!UICONTROL Exclude] in jeder Zeile, damit Sie eine Site schnell aus der Platzierung ausschließen können.
-
-* **[!UICONTROL Ads]:** Alle Anzeigen in der Platzierung.
-
-  Die [!UICONTROL Ads] enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, und Schnellaktionsschaltflächen in jeder Zeile, z. B. [!UICONTROL Pause] (sodass Sie eine Anzeige schnell anhalten können).
-
-* **[!UICONTROL Frequency]:** Daten für jede Anzeigenfrequenzebene für die Platzierung, einschließlich:
-   * die Häufigkeit der Anzeige (z. B. &quot;1&quot;für alle Instanzen, in denen Benutzer eine Anzeige einmal gesehen haben);
-   * die geschätzte eindeutige Anzahl von Geräten/Browsern oder Personen (je nach spezifiziertem [!UICONTROL Cross Device Level] für die Kampagne), die Impressionen auf der festgelegten Frequenzebene erhalten haben
-   * die geschätzte Anzahl von Impressionen auf der angegebenen Frequenzebene
-   * die geschätzte Durchschnittshäufigkeit für das angegebene Frequenzniveau. Dieser Wert ist gleich (Geschätzte Impressionen)/(Geschätzte Individuen).
-
-* **[!UICONTROL Inventory]:** Informationen zu allen Angeboten, die auf die Platzierung ausgerichtet sind.
-
-  Die [!UICONTROL Inventory] -Registerkarte ermöglicht die schnelle Fehlerbehebung, indem Leistungsstatistiken angezeigt werden, z. B. [!UICONTROL Auctions], [!UICONTROL Bids], und [!UICONTROL Win Rate]. Die Registerkarte enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, einschließlich [!UICONTROL Edit], [!UICONTROL View Report], und [[!UICONTROL Auction Insights] für weitere Fehlerbehebung](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### Fehlerbehebung beim Inventar
-
-| Problem | Mögliche Ursache | Maßnahmen |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | Der Herausgeber hat nicht damit begonnen, Angebotsanfragen zu senden. | Wenden Sie sich an den Herausgeber, um den Deal zu aktivieren. |
-| | Das Geschäft wurde falsch eingerichtet, z. B. durch Eingabe einer falschen externen Deal-ID. | Bestätigen Sie die Geschäftsdetails und bearbeiten Sie den Deal. |
-| [!UICONTROL Auctions but no Bids] | Das Platzierungs-Targeting stimmt nicht mit den eingehenden Angebotsanfragen für den Deal überein. <br><br> Eine Platzierung könnte beispielsweise auf eine Region ausgerichtet sein, die für den Deal nicht infrage kommt. | Bearbeiten Sie die Platzierungsziele nach Bedarf, um Targeting-Inkongruenzen zu vermeiden. |
-| | Die Platzierung verfügt nicht über eine aktive Anzeige mit dem erforderlichen Medientyp für das Geschäft. | Erstellen Sie eine Anzeige mit dem richtigen Medientyp und fügen Sie sie an die Platzierung an. |
-| | Die Platzierung hat kein angemessenes Budget. | Erhöhen Sie das Platzierungsbudget, um Gebote für eingehende Anforderungen zu ermöglichen. |
-| | Die Platzierungs-Flugdaten überschneiden sich nicht mit den Impressions-Sendedaten für den Deal. | Bearbeiten Sie bei Bedarf die Flugdaten der Platzierung. |
-| [!UICONTROL Low Win Rate] | Das Höchstgebot der Platzierung (Untergrenze oder Festbetrag) liegt unter dem für das Geschäft erforderlichen Minimum. | Erhöhen Sie die [!UICONTROL Max Bid] nach Bedarf. |
-| | Die Platzierung verwendet Filter vor dem Angebot, die das Angebot einschränken. | Verringern Sie die Schwellenwerte der Filter vor dem Angebot, um mehr Gebote zu ermöglichen. |
-| | Das Zielgruppen-Targeting für die Platzierung ist zu restriktiv. | Überprüfen Sie, ob die angegebenen Zielgruppen über ausreichend aktive Benutzer verfügen, und erweitern Sie die Zielgruppe nach Möglichkeit. |
-
-![placement Inspector](/help/dsp/assets/placement-inspector.png)
-
-Sie können die Daten im [!UICONTROL Sites], [!UICONTROL Ads]oder [!UICONTROL Frequency] zum standardmäßigen Download-Ordner Ihres Browsers als Bericht im XLSM-Format.
-
 ### Sonstige Berichtstypen auf Kampagnenebene
 
-Für andere Datenaufschlüsselungen anzeigen [Berichtsseiten auf Kampagnenebene](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Die <!--legacy --> Bericht enthält Abschnitte zu [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], und [!UICONTROL Audience Performance] Daten.
+Für andere Datenaufschlüsselungen anzeigen [Berichtsseiten auf Kampagnenebene](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Der Bericht enthält Abschnitte zu [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], und [!UICONTROL Audience Performance] Daten.
+
+### Sonstige Berichtstypen auf Platzierungsebene
+
+Für andere Datenaufschlüsselungen anzeigen [die Berichtsseiten auf Platzierungsebene](/help/dsp/campaign-management/placements/placement-view-report.md). Der Bericht enthält Abschnitte zu [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications], und [!UICONTROL Ads] Daten.
+
+Darüber hinaus können Sie die folgenden Daten in den Platzierungseinstellungen anzeigen:
+
+* [A (Detailansicht) [!UICONTROL Inspector])](placement-details-view.md), der alle zielgerichteten Sites, Anzeigen, Frequenzdaten und Angebote für eine Platzierung anzeigt.
+
+* A [Platzierungsvorhersagebericht](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [Platzierungsdiagnoseberichte](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### Sonstige Berichtstypen auf Anzeigenebene
+
+Für andere Datenaufschlüsselungen anzeigen [Berichterstellungsseiten auf Anzeigenebene](/help/dsp/campaign-management/ads/ad-view-report.md). Der Bericht enthält [!UICONTROL Overview], [!UICONTROL Geography], und [!UICONTROL Viewability] Daten.
 
 >[!MORELIKETHIS]
 >
