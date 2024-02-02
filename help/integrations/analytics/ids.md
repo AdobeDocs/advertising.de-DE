@@ -3,9 +3,9 @@ title: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 description: Von verwendete Adobe Advertising-IDs [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Die AMO-ID wird auch als `s_kwcid`, der manchmal als &quot;[!DNL the squid].&quo
 
 Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
-* (Empfohlen) Die serverseitige Einfügefunktion ist implementiert.
+* (Empfohlen) Wenn die serverseitige Einfügefunktion implementiert ist.
 
    * DSP: Der Pixelserver hängt den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer eine Display-Anzeige mit dem Adobe Advertising-Pixel anzeigt.
 
@@ -120,7 +120,7 @@ Der Parameter wird Ihren Tracking-URLs auf eine der folgenden Arten hinzugefügt
 
       * für andere Werbenetzwerke oder [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten mit [!UICONTROL Auto Upload] Einstellung deaktiviert festlegen, fügen Sie den Parameter manuell zu Ihrer [Anlagenparameter auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, die sie an Ihre Basis-URLs anhängen.
 
-* Die serverseitige Einfügefunktion ist nicht implementiert:
+* Wenn die serverseitige Einfügefunktion nicht implementiert ist:
 
    * DSP Kunden: Die [JavaScript-Code](javascript.md) erfasst automatisch Clickthroughs und Durchsichten. Wenn ein Browser keine Drittanbieter-Cookies unterstützt, können Sie trotzdem klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
@@ -152,7 +152,7 @@ wobei:
 
 Beispiel einer AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### AMO-ID-Formate für Such-, Social- und Commerce-Anzeigen
+#### AMO-ID-Formate für Such-, Social- und Commerce-Anzeigen {#amo-id-format-search}
 
 Die Parameter variieren je nach Anzeigennetzwerk, doch die folgenden Parameter sind für alle gemeinsam:
 

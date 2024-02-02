@@ -1,32 +1,32 @@
 ---
 title: Aktualisierung des Trackingcodes der AMO-ID (s_kwcid) für eine [!DNL Google Ads] account
 description: Erfahren Sie, wie Sie zum neuesten AMO-ID-Trackingcode für eine [!DNL Google Ads] -Konto.
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Aktualisierung des Trackingcodes der AMO-ID (s_kwcid) für eine [!DNL Google Ads] account
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser nur mit Adobe Advertising-Adobe Analytics-Integration*
 
 *[!DNL Google Ads]Nur Konten*
 
-Das alte Format für die [AMO-ID-Trackingcode](/help/integrations/analytics/ids.md#amo-id-formats) für bestehende [!DNL Google Ads] -Konten unterstützen einige Funktionen in Analytics nicht, z. B. Berichte auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen, Entwürfe und Experimente sowie andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeige- und Suchbegriff- und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
+Das ältere (vor Oktober 2019) Format für [AMO-ID-Trackingcode](/help/integrations/analytics/ids.md#amo-id-formats) für bestehende [!DNL Google Ads] -Konten unterstützen einige Funktionen in Analytics nicht, z. B. Berichte auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen, Entwürfe und Experimente sowie andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeige- und Suchbegriff- und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
 
-Das neueste Format enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID:
+Das aktuelle Format enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID:
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Sie können das neue Format für jedes oder alle Ihrer vorhandenen Konten einzeln ändern. Wenn Sie keine Kampagnen, Entwürfe und Experimente mit maximaler Leistung haben, ist eine Migration in das neue Format optional.
+Sie können das aktuelle Format für jedes oder alle Ihrer vorhandenen Konten einzeln ändern. Wenn Sie keine Kampagnen, Entwürfe und Experimente mit maximaler Leistung haben, ist eine Migration in das neue Format optional.
 
-Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das neue AMO-ID-Format.
+Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das aktuelle AMO-ID-Format.
 
 >[!NOTE]
 >
@@ -36,13 +36,13 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das neue AMO-ID-Forma
 
 1. Halten Sie den Cursor über den Kontonamen und klicken Sie auf ![PfeilDropdown-Symbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png)und wählen Sie **[!UICONTROL Edit]**.
 
-1. Klicken **[!UICONTROL Set Account Tracking]**.
+1. Klicks **[!UICONTROL Set Account Tracking]**.
 
 1. Starten Sie die Migration:
 
    1. Weiter zu **[!UICONTROL S_KWCID FORMAT]** klicken **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
-   1. Klicken **[!UICONTROL Migrate to new s_kwcid format]**.
+   1. Klicks **[!UICONTROL Migrate to new s_kwcid format]**.
 
    1. Aktivieren Sie in der Bestätigungsmeldung das Kontrollkästchen und klicken Sie auf **[!UICONTROL Continue]**.
 
