@@ -3,9 +3,9 @@ title: Verwalten von Anzeigengruppen
 description: Erfahren Sie, wie Sie Anzeigengruppen erstellen und verwalten.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Sie können Anzeigengruppen aus Search, Social &amp; Commerce für eine [unterst
 
 1. Geben Sie die [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft-Werbung](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen.
 
-   Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Negative Keywords] oder [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]**, bzw.
+   Je nach Werbenetzwerk können die Einstellungen in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], und [!UICONTROL URL Options]. So konfigurieren Sie Einstellungen für [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites]klicken Sie auf **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** oder **[!UICONTROL Add Negative Websites]**, bzw.
 
 1. Klicks **[!UICONTROL Post]**.
 

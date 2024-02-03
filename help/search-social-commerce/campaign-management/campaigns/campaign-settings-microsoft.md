@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
+source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft® Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
-* *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
+* *[!UICONTROL Audience CTV Video]:* (Beta-Funktion) Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
 
-* *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
+* *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
 
 * *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an. Zuweisen von Asset-Gruppen separat innerhalb der [!DNL Microsoft® Advertising] Anzeigeneditor.
 

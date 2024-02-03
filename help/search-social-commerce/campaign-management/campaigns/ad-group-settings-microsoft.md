@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] Anzeigengruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Anzeigengruppen.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *Aktiv*.
 
-**[!UICONTROL Ad Language]:** Die Zielsprache für Anzeigen.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (Suchkampagnen) Die Zielsprache für Anzeigen.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** Wie und wo innerhalb der Anzeigengruppe Anzeigen platziert werden:
+**[!UICONTROL Networks]:** (Suchanzeigen) Wie und wo Anzeigen innerhalb der Anzeigengruppe platziert werden:
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (Standardeinstellung): Zum Platzieren von Angeboten für Anzeigen im Suchnetzwerk.
 
@@ -105,6 +105,8 @@ Für [!DNL Microsoft Advertising] Anzeigengruppen im Zielgruppennetzwerk werden 
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Optional) Die Häufigkeit, mit der einem Kunden Anzeigen aus der Anzeigengruppe bereitgestellt werden. Geben Sie einen Wert ein und wählen Sie die Zeiteinheit (*[!UICONTROL Hour]*, *[!UICONTROL Day]* oder *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 
