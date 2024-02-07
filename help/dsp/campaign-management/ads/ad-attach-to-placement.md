@@ -3,9 +3,9 @@ title: Anzeigen an Platzierungen anhängen
 description: Erfahren Sie, wie Sie eine Anzeige an Platzierungen anhängen.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
+source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Optional) Suchen Sie nach Bedarf spezifische Platzierungen und Anzeigen:
 
-   * Filtern Sie die Listen über der linken Tabelle nach Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
+   * Filtern Sie über der linken Tabelle die Listen nach Paket, Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
 
    * Suchen Sie in der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in der Platzierung oder im Anzeigennamen.
 
