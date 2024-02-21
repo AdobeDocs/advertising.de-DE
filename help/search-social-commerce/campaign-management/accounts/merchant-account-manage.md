@@ -1,18 +1,18 @@
 ---
 title: Handelskonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Handelskonten verwalten
 
-*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
+*Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
 Search, Social und Commerce können täglich Produktdaten für die Google Merchant Center- oder Microsoft Merchant Center-Konten eines Advertisers herunterladen und anzeigen. Darüber hinaus können Search, Social und Commerce die Anzeigenerstellung anhand des Inhalts des Händlerkontos automatisieren. Um direkt mit Produktdaten in Search, Social und Commerce zu arbeiten, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Kontozugriffsberechtigungen und den Zugriff enthält *enabled*.
 
@@ -22,7 +22,7 @@ Search, Social und Commerce können täglich Produktdaten für die Google Mercha
 
 ## Details zum Handelskonto erstellen {#create-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
+*Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
 Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu generieren und anhand der Daten Anzeigen zu erstellen, müssen Sie einen entsprechenden Kontodatensatz mit den Kontozugriffsdaten und dem Zugriff auf das Konto erstellen *enabled*.
 
@@ -38,11 +38,19 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
    1. Im [!UICONTROL Product Source] wählen Sie die Handelsmitte aus.
 
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
+
    1. (Erforderlich für [!DNL Google Ads] Konten; fakultativ für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Nur Konten) Wählen Sie **[!UICONTROL oAuth]**.
 
-      1. Klicken **[!UICONTROL Enable Connection]**.
+      1. Klicks **[!UICONTROL Enable Connection]**.
 
       1. (Wenn Sie nicht im Konto des Werbetreibenden angemeldet sind) Melden Sie sich beim Konto des Werbetreibenden an. Die Best Practice ist, die Anmeldeinformationen für den API-Zugriff auf den Commerce-Center-Konto zu verwenden.
 
@@ -52,13 +60,13 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
       1. Geben Sie die anderen Kontoeinstellungen an.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
    Attributdaten für alle Produkte in dem Konto sind nach dem nächsten täglichen Synchronisierungsprozess in Search, Social und Commerce verfügbar (etwa 06:00 Uhr in der lokalen Zeitzone des Benutzers). Anschließend können Sie die Produktdaten verwenden, um die Anzeigenerstellung mithilfe von Inventar-Feeds zu automatisieren.
 
 ## Details zum Handelskonto bearbeiten {#edit-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
+*Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
 Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwenden von Daten für ein Handelskonto einstellen möchten, bearbeiten Sie die Kontodetails.
 
@@ -72,7 +80,7 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 1. Bearbeiten Sie die [Kontoeinstellungen für Händler](#merchant-account-settings).
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -80,7 +88,7 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 ## Zugriff auf ein Händlerkonto deaktivieren {#disable-merchant-account}
 
-*Nur für Adobe Account Manager,  Account Manager und Administratorbenutzer*
+*Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
 Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce nicht bei dem Konto an und rufen daher keine aktualisierten Produktdaten ab. Während der Aktivierung des Kontos erfasste Daten werden weiterhin gespeichert und vorhandene Anzeigen, die mithilfe von Produktdaten erstellt wurden, werden nicht gemäß der Feed-Vorlage und den Feed-Dateneinstellungen aktualisiert, angehalten oder gelöscht.
 
@@ -90,7 +98,7 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 
 1. Ändern Sie die [!UICONTROL EF Account Type] nach **[!UICONTROL Disabled]**.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 ## Einstellungen für Merchant-Konten {#merchant-account-settings}
 
