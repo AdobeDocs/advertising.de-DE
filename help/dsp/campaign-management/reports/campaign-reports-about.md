@@ -3,9 +3,9 @@ title: Arten von Leistungsberichten in Campaign Management-Ansichten
 description: Erfahren Sie mehr über die Berichtsdaten in den Kampagnenverwaltungsansichten.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ Standardmäßig enthält jede Kampagnenzeile die Geschwindigkeit und Versandmetr
 
 Sie können [Datentabellen anpassen](campaign-data-views-manage.md#data-tables-manage) auf zusätzliche Weise und [die sichtbaren Daten filtern](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 Um eine Kampagne detaillierter anzuzeigen, klicken Sie auf den Kampagnennamen.
+
+#### Warnhinweise
+
+*Beta-Funktion*
+
+Ein &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität darunter ein Problem hat. A [!UICONTROL Pulse Panel] rechts neben der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Siehe &quot;[Warnhinweise anzeigen](campaign-alerts.md)&quot; für weitere Informationen.
 
 ## Berichterstellung für einzelne Kampagnen {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ Siehe [Abschnitt &quot;Diagrammansicht&quot;zu kampagnenübergreifenden Metriken
 
 In jeder Entitäts-Registerkarte enthält jede Zeile standardmäßig Pacing- und Versandmetriken. Sie können jedoch [Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) oder sogar [Erstellen einer benutzerdefinierten Spaltenansicht](campaign-data-views-manage.md#column-view-create) auf alle Unterregisterkarten der Kampagne anwenden. Sie können [Datentabellen anpassen](campaign-data-views-manage.md#data-tables-manage) auf zusätzliche Weise. Jede Datentabelle enthält eine [!UICONTROL Subtotals] -Zeile, die entweder die Summe oder den Durchschnittswert jeder Metrik über alle sichtbaren Zeilen hinweg anzeigt.
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### Warnhinweise
+
+*Beta-Funktion*
+
+Ein &quot;[!UICONTROL Alerts]&quot; gibt an, wann ein Paket, eine Platzierung oder eine Anzeige - oder eine untergeordnete Entität unter einem Paket oder einer Platzierung - ein Problem hat. Ein &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität darunter ein Problem hat. A [!UICONTROL Pulse Panel] rechts neben der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Siehe &quot;[Warnhinweise anzeigen](campaign-alerts.md)&quot; für weitere Informationen.
 
 ### Sonstige Berichtstypen auf Kampagnenebene
 
@@ -89,3 +93,4 @@ Für andere Datenaufschlüsselungen anzeigen [Berichterstellungsseiten auf Anzei
 >* [Datenansichten Ihrer Kampagne verwalten](campaign-data-views-manage.md)
 >* [Daten aus einer Campaign Management-Ansicht exportieren](campaign-export-data.md)
 >* [Detaillierte Berichte für eine Kampagne anzeigen](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [Warnhinweise anzeigen](campaign-alerts.md)

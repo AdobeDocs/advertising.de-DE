@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 3%
       + [Anzeigen von Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Anzeigen der platzierungsdiagnostischen Berichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [Warnhinweise anzeigen](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Datenansichten Ihrer Kampagne verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + Korrekte Platzierungseinstellungen mithilfe von Tabellen {#qa-spreadsheet}
       + [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
