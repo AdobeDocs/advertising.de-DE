@@ -4,7 +4,7 @@ description: Siehe die Richtlinie für die Verwendung universeller IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Wenn Sie nach den effektiven Daten ein Opt-out erhalten, verwenden Sie nicht meh
 
 Sie dürfen die Services nicht dazu verwenden, eine Diskriminierung unter Verstoß gegen das Recht zu praktizieren, indem Sie beispielsweise fälschlicherweise bestimmte Personengruppen für Werbung ansprechen, bestimmte Personengruppen fälschlicherweise von der Anzeige ausschließen oder diskriminierende Inhalte in Anzeigen darstellen. Sie sind dafür verantwortlich, die Services verantwortungsbewusst zu nutzen, um Diskriminierungen gegenüber geschützten Klassen zu vermeiden, insbesondere um sicherzustellen, dass Ihre Anzeigen keine unterschiedlichen Auswirkungen auf geschützte Klassen haben.
 
-## AUSSTELLUNG A: VERBOTENE LÄNDER {#prohibited-countries}
+## Beispiel A: Verbotene Länder {#prohibited-countries}
 
 ### EU-Länder
 
