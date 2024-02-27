@@ -4,10 +4,10 @@ user-guide-title: Adobe Advertising – Unterstützung beim Verbraucherdatenschu
 user-guide-description: Erfahren Sie mehr über die Sicherheits- und Datenschutzkontrollen, die Adobe Advertising bietet, um Advertiser-Kundinnen und -Kunden bbei der Einhaltung der Datenschutzbestimmungen für Verbraucherinnen und Verbraucher zu unterstützen.
 breadcrumb-title: Unterstützung für den Kundendatenschutz
 index: true
-source-git-commit: 0f5283d114b60901777cef065f7647223671c086
+source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 50%
+source-wordcount: '64'
+ht-degree: 56%
 
 ---
 
@@ -19,4 +19,3 @@ ht-degree: 50%
 + Unterstützung für CCPA {#ccpa}
    + [Unterstützung für CCPA: Zugriff auf und Löschen von Verbraucherdaten](/help/privacy/ccpa/ccpa-access-delete.md)
    + [(Nur DSP) Unterstützung für CCPA: Opt-out vom Verkauf durch Verbraucher](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
-+ [Datenfreigabe mit Google Ads](/help/privacy/dma-agreement.md)
