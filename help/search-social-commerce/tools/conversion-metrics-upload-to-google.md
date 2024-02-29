@@ -3,7 +3,7 @@ title: Hochladen von Konversionsmetriken in [!DNL Google Ads]
 description: Erfahren Sie, wie Sie die von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Tägliche Uploads beinhalten die verfolgten `gclid` -Wert, der Konversionswert, 
 
 1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Upload Conversions to Google Ads]**.
 
-1. (Werbetreibende, die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) tätig sind; optional) Wenn Sie die Zustimmung von EWR- und britischen Benutzern erhalten haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (Werbetreibende, die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) tätig sind; optional) Wenn Sie die Zustimmung von EWR- und britischen Benutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Klicks **[!UICONTROL Save]**.
 
