@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zu Kampagnen
 description: Hier finden Sie Antworten auf Fragen zur Kampagnenverwaltung und zu Kampagnendaten.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Darüber hinaus [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchne
 
 >[!NOTE]
 >
->(Werbetreibende mit Portfolios) Erwarten Sie, dass die Leistung neuer Keyword- und Übereinstimmungstyp-Kombinationen schwankt, während Search, Social und Commerce Daten erfasst, um neue Modelle zu erstellen.
+>(Werbetreibende mit Portfolios) Erwarten Sie, dass die Leistung neuer Keyword- und Übereinstimmungstypkombinationen volatil ist, während Search, Social und Commerce Daten erfasst, um Modelle für sie zu erstellen.
 
 **Aktionen im [!UICONTROL Search] > [!UICONTROL Campaigns] -Ansichten im Bulksheet-Posting-Prozess und im eigenen Editor des Werbenetzwerks:**
 
@@ -38,11 +38,11 @@ Der vorhandene Suchbegriff oder die Anzeige wird gelöscht und ein anderer erste
 
 * ([!DNL Baidu], [!DNL Google Ads], und [!DNL Yandex]) Sie bearbeiten einen Suchbegriffnamen.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
 
 * Sie verschieben einen Suchbegriff zwischen Anzeigengruppen.
 
-* ([!DNL Google Ads] dynamische Suchanzeigen, [!DNL Microsoft Advertising] erweiterte Textanzeigen und alle Anzeigentypen in anderen unterstützten Werbenetzwerken) Sie bearbeiten Anzeigenkopien (Überschrift/Titel oder Beschreibung) oder ein Anzeigenbild.
+* ([!DNL Google Ads] dynamische Suchanzeigen, [!DNL Microsoft® Advertising] erweiterte Textanzeigen und alle Anzeigentypen in anderen unterstützten Werbenetzwerken) Sie bearbeiten Anzeigenkopien (Überschrift/Titel oder Beschreibung) oder ein Anzeigenbild.
 
 * Sie verschieben eine Anzeige zwischen Anzeigengruppen.
 
@@ -72,7 +72,7 @@ Wenn Sie die Anzeigenamen der Konversionsmetriken in Search, Social und Commerce
 
 +++(Google Ads-Kampagnen) Kann ich ein freigegebenes Budget für Kampagnen in Portfolios verwenden?
 
-Die besten Ergebnisse erzielen Sie, wenn Sie [!DNL Google Ads] Kampagnen an [!DNL Google Ads] freigegebenes Budget, wenn sie sich in optimierten Portfolios befinden, die für &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Wenn ja, [!DNL Google Ads] überschreibt die optimierten Kampagnenbudgets für Suche, Social und Commerce, was zu Ineffizienzen bei Angeboten führen kann.
+Die besten Ergebnisse erzielen Sie, wenn Sie [!DNL Google Ads] Kampagnen zu einer [!DNL Google Ads] freigegebenes Budget, wenn sie sich in optimierten Portfolios befinden, die für &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; Wenn ja, [!DNL Google Ads] überschreibt die optimierten Kampagnenbudgets für Suche, Social und Commerce, was zu Ineffizienzen bei Angeboten führen kann.
 +++
 
 +++([!DNL Google Ads] Kampagnen) Kann ich mobile und nicht mobile Benutzer an verschiedene Landingpages senden?
@@ -99,7 +99,7 @@ In beiden Fällen enthalten die Basis-URLs mit Such-, Social- und Commerce-Track
 
 [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag werden um 8:00 Uhr und 16:00 Uhr in der Zeitzone des Advertisers abgerufen.
 
-Im [!UICONTROL Campaigns] in beiden [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] und [!UICONTROL Optimization] > [!UICONTROL Portfolios] anzeigen, wenn Sie einen Bericht zu [!UICONTROL Today] oder einem benutzerdefinierten Datumsbereich, der den aktuellen Tag enthält, enthalten die Daten die zuletzt abgerufen Daten.
+Im [!UICONTROL Campaigns] in beiden [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] und [!UICONTROL Optimization] > [!UICONTROL Portfolios] anzeigen, wenn Sie einen Bericht zu [!UICONTROL Today] oder einem benutzerdefinierten Datumsbereich, der den aktuellen Tag enthält, enthalten die Daten die zuletzt synchronisierten Daten.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ Im [!UICONTROL Campaigns] in beiden [!UICONTROL Search] > [!UICONTROL Campaigns]
 
 +++
 
-+++([!DNL Google Ads] und [!DNL Microsoft Advertising]) Unterstützt Search, Social und Commerce das parallele Tracking von Anzeigen in [!DNL Google Ads] oder [!DNL Microsoft Advertising]?
++++Was ist der Unterschied zwischen einer Tracking-Vorlage und einem Landingpage-Suffix?
 
-Beim parallelen Tracking werden Kunden direkt von Ihrer Anzeige an Ihre endgültige URL gesendet. Ihre Tracking-Vorlagen-URL (mit Klick-Messung) wird im Hintergrund geladen. Dadurch wird Ihre Landingpage schneller geladen.
+Verwenden Sie das Suffix einer Landingpage nur für Werbenetzwerke, die paralleles Tracking unterstützen. In Search, Social und Commerce sollten sowohl Tracking-Vorlagen als auch Landingpage-Suffixe eine Klick-ID aus dem Werbenetzwerk enthalten, Tracking-Vorlagen enthalten jedoch zusätzliche Tracking-Parameter.
 
-Search, Social und Commerce unterstützt das parallele Tracking für Such- und Einkaufskampagnen mithilfe der Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) oder [Kampagnenebene](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (genannt &quot;[!DNL final URL suffix]&quot; in den Werbenetzwerken), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Weitere Informationen finden Sie in den nächsten häufig gestellten Fragen zu [parallele Tracking-Unterstützung](#parallel-tracking) für weitere Informationen darüber, wie Tracking-Vorlagen und Suffixe von Landingpages geladen werden, wenn ein Benutzer auf eine Anzeige klickt.
 
-Wenn ein Benutzer Ihre Anzeige in einem Browser anzeigt, der kein paralleles Tracking unterstützt, verwendet das Werbenetzwerk stattdessen das sequenzielle Tracking: Kunden werden zunächst an Ihre Tracking-Vorlage-URL gesendet, wodurch Kunden zu Tracking-Zwischenservern weitergeleitet werden, bevor sie zur endgültigen URL weitergeleitet werden. Alle Tracking-Vorlagen für ein Anzeigen-Netzwerk-Konto sollten denselben Klick-ID-Parameter enthalten, den Sie in der Variablen [!UICONTROL Landing Page Suffix]. Siehe [Tracking-Vorlagenformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [Tracking-Vorlagenformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] und [!DNL Microsoft® Advertising]) Unterstützt Search, Social und Commerce das parallele Tracking von Anzeigen in [!DNL Google Ads] oder [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+Beim parallelen Tracking werden Kunden direkt von Ihrer Anzeige an Ihre endgültige URL gesendet. Dazu können angehängte Parameter aus dem finalen URL-Suffix oder das &quot;Suffix der Landingpage&quot;gehören. Ihre Tracking-Vorlagen-URL (mit zusätzlichen Parametern für die Klick-Messung) wird separat im Hintergrund geladen. Daher wird Ihre Landingpage schneller geladen.
+
+Search, Social und Commerce unterstützt das parallele Tracking für Such- und Einkaufskampagnen mithilfe der Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft® Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) oder [Kampagnenebene](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (genannt &quot;[!DNL final URL suffix]&quot; in den Werbenetzwerken), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe [erforderliche Suffix-Formate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderliche Suffix-Formate für [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+Wenn ein Benutzer Ihre Anzeige in einem Browser anzeigt, der kein paralleles Tracking unterstützt, verwendet das Werbenetzwerk stattdessen das sequenzielle Tracking: Kunden werden zunächst an Ihre Tracking-Vorlage-URL gesendet. Dadurch können Kunden zu Tracking-Zwischenservern umgeleitet werden, bevor sie zur endgültigen URL weitergeleitet werden (was zusätzliche Parameter in einem Landingpage-Suffix enthalten kann). Alle Tracking-Vorlagen für ein Anzeigen-Netzwerk-Konto sollten denselben Klick-ID-Parameter enthalten, den Sie in der Variablen [!UICONTROL Landing Page Suffix]. Siehe [Tracking-Vorlagenformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [Tracking-Vorlagenformate für [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++ Warum enthalten Tracking-URLs für meine Anzeigen &quot;`&EV_HASH={<hash>}`?&quot;
@@ -123,18 +131,18 @@ Wenn Sie Anzeigen mit einer [Produktinventar-Feed](/help/search-social-commerce/
 
 ## Inventar-Feeds
 
-+++(Produkt-Inventar-Feeds) Sollte ich Anzeigen anhalten oder löschen, die veraltet sind oder für ein Produkt bestimmt sind, dessen Lagerbestand unter einem bestimmten Minimum liegt?
++++(Produkt-Inventar-Feeds) Sollte ich Anzeigen anhalten oder löschen, die veraltet sind oder für ein Produkt gelten, dessen Lagerbestand unter einem bestimmten Minimum liegt?
 
 Dies hängt von den Geschäftsanforderungen des Werbetreibenden ab.
 
 Wenn Sie Anzeigen anhalten, werden sie reaktiviert, wenn Sie dieselbe Anzeige erneut senden oder die Lagerbestände über das Minimum hinausgehen. Auf diese Weise können Sie den Verlauf der Anzeige beibehalten.
 
-Wenn Sie Anzeigen löschen und erneut senden, werden neue Anzeigen erstellt und historische Daten müssen gesammelt werden. Wenn Sie jedoch nicht erwarten, gelöschte Anzeigen erneut einzureichen, ist es nicht wichtig, historische Daten zu haben.
+Wenn Sie Anzeigen löschen und erneut senden, werden neue Anzeigen erstellt und historische Daten für die neuen Anzeigen gesammelt. Wenn Sie jedoch nicht erwarten, gelöschte Anzeigen erneut einzureichen, ist es nicht wichtig, historische Daten zu haben.
 +++
 
 +++(Produkt-Inventar-Feeds) Wenn ich eine Anzeigenvorlage lösche und dann eine neue, identische Vorlage erstelle, fehlen Elemente in der nächsten Feed-Datei, die angehalten wird (wenn die Feed-Dateieinstellungen dafür konfiguriert sind)?
 
-Wenn in der nächsten Feed-Datei Zeileneinträge fehlen und Sie diese Zeileneinträge noch nicht aus der neuen Vorlage über eine vorherige Feed-Datei veröffentlicht haben, werden die fehlenden Zeileneinträge nicht als &quot;fehlend&quot;erkannt und werden daher nicht erstellt. Um dies zu vermeiden, propagieren Sie die vorherige Feed-Datei durch die neue Vorlage und posten Sie die Daten, bevor Sie Daten aus einer neuen Datei propagieren und posten.
+Wenn in der nächsten Feed-Datei Zeileneinträge fehlen und Sie diese Zeileneinträge noch nicht über eine vorherige Feed-Datei aus der neuen Vorlage gepostet haben, werden die fehlenden Zeileneinträge nicht als &quot;fehlend&quot;erkannt, sodass sie nicht erstellt werden. Um dies zu vermeiden, propagieren Sie die vorherige Feed-Datei durch die neue Vorlage und posten Sie die Daten, bevor Sie Daten aus einer neuen Datei propagieren und posten.
 +++
 
 +++(Produktbestand-Feeds) Kann ich die Preise für meine Produkte aktualisieren, ohne dass sich dies auf die Qualitätsbewertung einer Anzeige auswirkt?
@@ -150,7 +158,7 @@ Wenn Sie Daten senden, werden die Datenfelder für die [!UICONTROL Param1] und [
 
 +++ Meine Kampagnen, die aus Inventar-Feeds generiert wurden, haben viele verwaiste Transaktionen.
 
-Wenn die Variable [Feed-Dateneinstellungen](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) so konfiguriert sind, dass Anzeigen in verschiedenen Situationen gelöscht werden, kann dies dazu führen, dass verzögerte Konversionen, die nach dem Klicken auf die Anzeige auftreten, [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p). Die Best Practice ist, Anzeigen anzuhalten, anstatt sie zu löschen. Wenn eine Werbeanzeige nach einem langen Zeitraum immer noch keinen Umsatz erhalten hat, können Sie sie über ein Bulksheet oder die Anzeigenverwaltungsansicht löschen.
+Wenn die Variable [Feed-Dateneinstellungen](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) so konfiguriert sind, dass Anzeigen in verschiedenen Situationen gelöscht werden, kann dies dazu führen, dass verzögerte Konversionen, die nach dem Klicken auf die Anzeige auftreten, [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p). Die Best Practice ist, Anzeigen anzuhalten, anstatt sie zu löschen. Wenn eine Werbeanzeige nach langer Zeit immer noch keinen Umsatz erhalten hat, können Sie sie über ein Bulksheet oder die Anzeigenverwaltungsansicht löschen.
 +++
 
 ## Leistungsprobleme im Zusammenhang mit Konten und Kampagnen

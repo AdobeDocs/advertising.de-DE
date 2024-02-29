@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten
 description: Erfahren Sie, wie Sie [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten.
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,17 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
 
       1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie den Bedingungen der [!DNL Adobe] Datenschutzrichtlinien für Werbenetzwerke.
 
-      1. Klicken **[!UICONTROL Upload File]**.
+      1. (Erstellen von Advertisern [!DNL Google Ads] Zielgruppen, die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) geschäftlich tätig sind (optional) Wenn Sie die Zustimmung von EWR- und britischen Benutzern erhalten haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] ignoriert alle Daten für Benutzer des EWR und des Vereinigten Königreichs mit einem nicht festgelegten Genehmigungsstatus. Dies kann zu Datendiskrepanzen und Leistungsproblemen führen.
+
+      1. Klicks **[!UICONTROL Upload File]**.
 
    1. Geben Sie die Anzahl der **[!UICONTROL Membership Days]**: die Anzahl der Tage, in denen das Cookie eines Benutzers in der Zielgruppe verbleibt.
 
    Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist. Kundenlisten laufen nur ab, wenn Sie einen Wert eingeben.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
@@ -103,9 +107,9 @@ Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-A
 
    1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie den Bedingungen der [!DNL Adobe] Datenschutzrichtlinien für Werbenetzwerke.
 
-   1. Klicken **[!UICONTROL Upload File]**.
+   1. Klicks **[!UICONTROL Upload File]**.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
