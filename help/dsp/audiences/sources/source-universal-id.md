@@ -3,16 +3,16 @@ title: Authentifizierte Segmente von universellen ID-Partnern aktivieren
 description: Erfahren Sie mehr über die Aktivierung authentifizierter Zielgruppen über eine universelle ID-Lösung.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Authentifizierte Segmente von universellen ID-Partnern aktivieren
 
-Um authentifizierte Zielgruppen über eine universelle ID-Lösung in Advertising DSP zu aktivieren, müssen Ihre Segmente in [!DNL RampIDs], die in einer bidbaren Umgebung erkennbar sind. Sie können dies erreichen, indem Sie
+Um authentifizierte Zielgruppen über eine universelle ID-Lösung in Advertising DSP zu aktivieren, müssen Ihre Segmente in [!DNL RampIDs], die in einer bidbaren Umgebung erkennbar sind. Sie können dies erreichen, indem Sie:
 
 * Nutzung der DSP-Integration mit der [!DNL Adobe Real-Time Customer Data Platform (CDP)] und [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -22,9 +22,9 @@ Um authentifizierte Zielgruppen über eine universelle ID-Lösung in Advertising
 
 1. Wenden Sie sich bei beiden Optionen an `adcloud-support@adobe.com` um die folgenden Einstellungen in DSP zu aktivieren, mit denen Sie authentifizierte Segmente in DSP Kampagnen einmal als Ziel auswählen können [alle Schritte im Aktivierungs-Workflow abgeschlossen sind](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] Kampagnenkonfiguration vor der Segmentfreigabe aus [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] Kampagnenkonfiguration vor der Segmentfreigabe aus [!DNL Real-Time CDP]
 
-   1. Die Kontoebene &quot;[!UICONTROL LiveRamp segments]&quot;.
+   * Die Kontoebene &quot;[!UICONTROL LiveRamp segments]&quot; option
 
 1. (Benutzer verwenden manuell authentifizierte Segmente aus [!DNL LiveRamp]) Führen Sie die folgenden Schritte im Abschnitt [!DNL LiveRamp] [!DNL Connect] Dashboard:
 
