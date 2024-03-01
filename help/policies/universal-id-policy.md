@@ -4,9 +4,9 @@ description: Siehe die Richtlinie für die Verwendung universeller IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
+source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,25 @@ Zusätzlich zu den nachfolgend und in der Vereinbarung dargelegten Anforderungen
 
 Wenn Sie sich für die Verwendung der über die Services bereitgestellten universellen IDs entscheiden, erklären Sie sich damit einverstanden, sicherzustellen, dass alle von Ihnen über die On-Demand-Dienste übermittelten, gespeicherten, angezeigten, verteilten oder anderweitig zur Verfügung gestellten Client-Daten mit den folgenden universellen ID-Spezifikationen und allen anderen Anforderungen dieser Richtlinie übereinstimmen, die möglicherweise durch überarbeitet werden [!DNL Adobe] von Zeit zu Zeit.
 
-Client-Daten wurden von Ihnen direkt von Benutzern erfasst oder von Ihnen von einer anderen Partei lizenziert, die entweder (i) die Client-Daten direkt von den Benutzern erfasst hat, auf die sich diese Daten beziehen, oder (ii) die Client-Daten über Vermittler abgerufen hat, die die Daten von einer anderen Partei bezogen haben, die diese Daten vom Benutzer erfasst hat, sofern Sie in der Lage sind, die ursprüngliche Partei zu identifizieren, die die Client-Daten von den Benutzern erfasst hat, auf die Daten sich beziehen.
+* Client-Daten wurden von Ihnen direkt von Benutzern erfasst oder von Ihnen von einer anderen Partei lizenziert, die entweder (i) die Client-Daten direkt von den Benutzern erfasst hat, auf die sich diese Daten beziehen, oder (ii) die Client-Daten über Vermittler abgerufen hat, die die Daten von einer anderen Partei bezogen haben, die diese Daten vom Benutzer erfasst hat, sofern Sie in der Lage sind, die ursprüngliche Partei zu identifizieren, die die Client-Daten von den Benutzern erfasst hat, auf die Daten sich beziehen.
 
-Client-Daten stammen nicht aus Web-Scraping oder dem Erwerb einer Datenbank aus einer Quelle, die nicht mit der ursprünglichen Datenerfassung verbunden ist.
+* Client-Daten stammen nicht aus Web-Scraping oder dem Erwerb einer Datenbank aus einer Quelle, die nicht mit der ursprünglichen Datenerfassung verbunden ist.
 
-Sie haben alle Mitteilungen und alle erforderlichen Einverständnisse zur Offenlegung der Client-Daten an [!DNL Adobe] und ihren Partnern für die in dem Abkommen festgelegten Zwecke.
+* Sie haben alle Mitteilungen und alle erforderlichen Einverständnisse zur Offenlegung der Client-Daten an [!DNL Adobe] und ihren Partnern für die in dem Abkommen festgelegten Zwecke.
 
-Client-Daten beziehen sich nicht auf Personen (i), die eine Option ausgeübt haben, die Sie direkt oder indirekt zugesagt haben, bei der Erstellung oder Verwendung von Daten für Zielgruppen zu berücksichtigen (&quot;Opt-out&quot;), (ii) Personen, die als minderjährig gelten (minderjährige Personen unter dem gesetzlich definierten Mehrheitsalter), (iii) wenn Sie tatsächlich wissen, dass diese Person unter einer bestimmten Gesundheitsbedingung leidet, oder (iv) die einen Wohnsitz haben von [Verbotene Länder, aufgeführt auf Ausstellung A](#prohibited-countries) in Erwägung ziehen.
+* Client-Daten beziehen sich nicht auf Personen (i), die eine Option ausgeübt haben, die Sie direkt oder indirekt zugesagt haben, bei der Erstellung oder Verwendung von Daten für Zielgruppen zu berücksichtigen (&quot;Opt-out&quot;), (ii) Personen, die bekanntermaßen minderjährig sind (minderjährig sind Einzelpersonen, die in einem anwendbaren Land rechtsverbindlich definiert sind) oder (iii), wenn Sie tatsächlich wissen, dass diese Person unter einer bestimmten Gesundheitsbedingung leidet.
 
-Wenn Sie nach den effektiven Daten ein Opt-out erhalten, verwenden Sie nicht mehr die universelle ID eines solchen Opt-out-Benutzers.
+* Wenn Sie nach dem Datum des Inkrafttretens der Vereinbarung ein Opt-out erhalten, verwenden Sie nicht mehr die universelle ID eines solchen Opt-out-Benutzers.
+
+### UID2 Verbotene Länder
+
+Durch die Verwendung von UID2 Universal IDs über die Services erklären Sie sich damit einverstanden sicherzustellen, dass alle von Ihnen über die On-Demand-Dienste für diese Verwendung in Verbindung mit UID2 Universal IDs übertragenen, gespeicherten, verteilten oder anderweitig zur Verfügung gestellten Client-Daten keine Person betreffen, die in einem der [UID2 Verbotene Länder, aufgeführt auf Ausstellung A](#prohibited-countries-uid2) in Erwägung ziehen.
 
 ## Keine Diskriminierung
 
 Sie dürfen die Services nicht dazu verwenden, eine Diskriminierung unter Verstoß gegen das Recht zu praktizieren, indem Sie beispielsweise fälschlicherweise bestimmte Personengruppen für Werbung ansprechen, bestimmte Personengruppen fälschlicherweise von der Anzeige ausschließen oder diskriminierende Inhalte in Anzeigen darstellen. Sie sind dafür verantwortlich, die Services verantwortungsbewusst zu nutzen, um Diskriminierungen gegenüber geschützten Klassen zu vermeiden, insbesondere um sicherzustellen, dass Ihre Anzeigen keine unterschiedlichen Auswirkungen auf geschützte Klassen haben.
 
-## Beispiel A: Verbotene Länder {#prohibited-countries}
+## Ausstellung A: UID2 Verbotene Länder {#prohibited-countries-uid2}
 
 ### EU-Länder
 
