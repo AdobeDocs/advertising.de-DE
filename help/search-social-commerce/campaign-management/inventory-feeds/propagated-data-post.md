@@ -1,11 +1,11 @@
 ---
 title: Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke
 description: Erfahren Sie, wie Sie Daten veröffentlichen, die aus Bestandsdaten-Feeds in Werbenetzwerke generiert wurden.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
 
               Um ein Datum anzugeben, verwenden Sie das Format TT/MM/JJJJ oder D/M/JJJJ oder klicken Sie auf [Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") , um den Kalender zu öffnen, und [Datum auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Um eine Zeit zu ändern, geben Sie die Zeit im 24-Stunden-Format HH/MM oder H/M ein oder wählen Sie eine Zeit (in Intervallen von 30 Minuten) aus der Liste aus.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Erstellt eine Bulk-Sheet-Datei, die über das [!UICONTROL Search] > [!UICONTROL Bulksheets] anzeigen. Sie können die Datei optional von dort aus posten.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Erstellt eine Bulk-Sheet-Datei, die über das [!UICONTROL Search] > [!UICONTROL Bulksheets] anzeigen. Sie können die Datei optional von dort aus posten.
 
            Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, weist die Datei das ZIP-Format auf. Sie müssen die Datei nicht entpacken, um sie zu posten.
 
