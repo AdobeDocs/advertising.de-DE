@@ -3,7 +3,7 @@ title: Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwer
 description: Erfahren Sie, wie Sie Daten veröffentlichen, die aus Bestandsdaten-Feeds in Werbenetzwerke generiert wurden.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
 
             * **[!UICONTROL End Time]:** Ein zukünftiges Datum und eine Uhrzeit, zu der die veröffentlichten Anzeigen basierend auf der Variablen [Feeddateneinstellung](feed-settings-manage.md#feed-data-settings) für &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Standardmäßig beträgt die Endzeit 30 Tage vor dem heutigen Tag 00:00 Uhr (12:00 Uhr). Auswählen **[!UICONTROL None]** um die Daten unbegrenzt aktiv zu halten (oder bis Sie neue Daten für die Vorlage propagieren) oder ein Datum und eine Uhrzeit anzugeben.
 
-              Um ein Datum anzugeben, verwenden Sie das Format TT/MM/JJJJ oder D/M/JJJJ oder klicken Sie auf [Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") , um den Kalender zu öffnen, und [Datum auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Um eine Zeit zu ändern, geben Sie die Zeit im 24-Stunden-Format HH/MM oder H/M ein oder wählen Sie eine Zeit (in Intervallen von 30 Minuten) aus der Liste aus.
+              Um ein Datum anzugeben, verwenden Sie das Format TT/MM/JJJJ oder D/M/JJJJ oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") , um den Kalender zu öffnen, und [Datum auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Um eine Zeit zu ändern, geben Sie die Zeit im 24-Stunden-Format HH/MM oder H/M ein oder wählen Sie eine Zeit (in Intervallen von 30 Minuten) aus der Liste aus.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Erstellt eine Bulk-Sheet-Datei, die über das [!UICONTROL Search] > [!UICONTROL Bulksheets] anzeigen. Sie können die Datei optional von dort aus posten.
 
