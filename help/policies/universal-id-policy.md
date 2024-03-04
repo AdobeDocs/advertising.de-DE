@@ -4,7 +4,7 @@ description: Siehe die Richtlinie für die Verwendung universeller IDs.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-Zuletzt aktualisiert: 1. März 2024
+Zuletzt aktualisiert: 29. Februar 2024
 
 Diese Richtlinie zu universellen ID-Anforderungen (&quot;Richtlinie&quot;) stellt die Anforderungen für die Verwendung universeller IDs in Verbindung mit Anzeigen dar, die über verteilt werden [!DNL Adobe's] On-Demand Services für Adobe Advertising (&quot;Services&quot;). Diese Politik wird durch Bezugnahme in das Abkommen zwischen [!DNL Adobe] und dem Kunden (&quot;Sie&quot;), der die On-Demand-Dienste verwendet. In dieser Richtlinie verwendete großgeschriebene Begriffe, die hier nicht definiert sind, haben die in der Vereinbarung festgelegte Bedeutung.
 
