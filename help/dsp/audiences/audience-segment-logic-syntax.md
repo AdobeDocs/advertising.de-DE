@@ -3,7 +3,7 @@ title: Syntax für Zielgruppensegmentlogik
 description: Referenzieren Sie die Syntax, die Sie verwenden können, um die Logik für Zielgruppensegmente zu definieren.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -24,7 +24,6 @@ Wenn Sie wiederverwendbare Zielgruppen erstellen, können Sie die Segmentlogik m
 >* Alle angegebenen Segmentgruppen sind eingeschlossen, es sei denn, ihnen wird vorangestellt! (der sie ausschließt).
 >* Sie können [Segment-ID für eine Zielgruppe suchen](reusable-audience-clipboard.md) von [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
-
 Beispielsweise die folgende Logik:
 
 ```
@@ -39,7 +38,7 @@ bedeutet (in einfachem Englisch)
 
 >[!NOTE]
 >
->In den Platzierungseinstellungen können Sie gespeicherte Zielgruppen entweder als Zielgruppen zum expliziten Targeting oder als separate Zielgruppen verwenden, die vom Targeting ausgeschlossen werden sollen. Stellen Sie sicher, dass Ihre Segmentlogik den Zweck widerspiegelt, für den Sie die Zielgruppe verwenden werden.
+>In den Platzierungseinstellungen können Sie gespeicherte Zielgruppen entweder als Zielgruppen zum expliziten Targeting oder als separate Zielgruppen verwenden, die vom Targeting ausgeschlossen werden sollen. Stellen Sie sicher, dass Ihre Segmentlogik dem Zweck entspricht, für den Sie die Zielgruppe verwenden werden.
 
 >[!MORELIKETHIS]
 >
@@ -48,4 +47,3 @@ bedeutet (in einfachem Englisch)
 >* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
 >* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
-

@@ -3,9 +3,9 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Verwendung von kontextueller Filterung, Blockierung von Pre-Bid-Betrug und/oder 
 
 ## Schritt 5: Verwenden der richtigen kreativen Assets
 
-* Es empfiehlt sich, so viele individuelle Anzeigengrößen wie möglich einzubeziehen, um die Reichweite zu maximieren. Mit der universellen Anzeigevorlage können Sie eine beliebige standardmäßige Anzeigegröße hochladen.
-* Stellen Sie sicher, dass alle Platzierungen *mindestens* alle Hauptanzeigengrößen (300 x 250, 728 x 90, 160 x 600, 300 x 600, 320 x 50 und 300 x 50).
+* Es empfiehlt sich, so viele individuelle Anzeigengrößen wie möglich einzubeziehen, um die Reichweite zu maximieren. Mit der universellen Anzeigevorlage können Sie eine beliebige standardmäßige Anzeigegröße hochladen.
+* Stellen Sie sicher, dass alle Platzierungen *mindestens* alle Hauptanzeigengrößen (300 x 250, 728 x 90, 160 x 600, 300 x 600, 320 x 50 und 300 x 50).
 * Aktualisieren Sie kreative Inhalte häufig, um kreative Müdigkeit zu verhindern.
 
 >[!MORELIKETHIS]
