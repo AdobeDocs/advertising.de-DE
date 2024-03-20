@@ -2,16 +2,15 @@
 title: Export einer Prognose für einen Plan zur Anbindung an das Fernsehen
 description: Erfahren Sie, wie Sie die Prognose für einen vernetzten TV-Reichweiten-Plan exportieren.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: f4bad569-1b56-439a-8c41-92a24a710476
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 # Export einer Prognose für einen Plan zur Anbindung an das Fernsehen
-
-*Beta-Funktion*
 
 Sie können die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft® Excel] Tabelle** mit [!UICONTROL Budget] und [!UICONTROL Reach] Spalten.
 

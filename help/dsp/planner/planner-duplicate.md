@@ -2,16 +2,15 @@
 title: Connected TV-Reichweitenplan duplizieren
 description: Erfahren Sie, wie Sie mithilfe der Einstellungen aus einem bestehenden Plan einen vernetzten TV-Reichweitenplan erstellen.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Connected TV-Reichweitenplan duplizieren
-
-*Beta-Funktion*
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 

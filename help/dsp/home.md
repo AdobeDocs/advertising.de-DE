@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 20. März 2024 | Planen | Das neue Planer-Tool befindet sich nicht mehr im Beta-Modus. | Siehe &quot;[Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md).&quot; |
 | 21. Februar 2024 | [!UICONTROL Alerts] für [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads], und [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] im [!UICONTROL Campaigns], [!UICONTROL Packages] und Paketdetails, [!UICONTROL Placements], und [!UICONTROL Ads] -Ansichten zeigen an, ob Warnhinweise für Elemente in der Ansicht verfügbar sind. Sie können das Bedienfeld öffnen, um jeden Warnhinweis anzuzeigen und optional die entsprechende Ansicht zu öffnen (z. B. die [!UICONTROL Placements] mit der entsprechenden Platzierung angezeigt), damit Sie die Einstellungen nach Bedarf bearbeiten können, um das Problem zu beheben. Optional können Sie auch jede Warnung verwerfen.<br><br>Darüber hinaus wird die [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], und [!UICONTROL Ads] -Ansichten umfassen[!UICONTROL Alerts]&quot;-Spalte, die angibt, wann ein Element oder eine seiner Komponenten ein Problem hat.<br><br>Warnhinweise sind auf der Kampagnen-, Paket-, Platzierungs-, Anzeigen- und Transaktionsebene verfügbar. | Siehe &quot;[Warnhinweise und Benachrichtigungen anzeigen](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
 |  | [!UICONTROL Placements] | Neue Platzierungseinstellungen ermöglichen es Ihnen, a) ein Mindestplatzierungsbudget festzulegen, das die Budgetzuweisung auf Paketebene außer Kraft setzt, sobald ein ausreichendes Budget verfügbar ist, und b) den Angebotspreisalgorithmus außer Kraft zu setzen, um mindestens die Festpreis- und Tiefstpreise für Angebote zu bieten:<ul><li>In den Einstellungen für Platzierungen, die zu Paketen gehören, können Sie jetzt ein Mindestbudget als Prozentsatz des Paketbudgets festlegen. Um die Funktion zu verwenden, wählen Sie die Platzierungsfinanzierungsoption auf &quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (früher &quot;[!UICONTROL Set a fixed budget cap]&quot;). Sie können weiterhin eine [!UICONTROL Maximum Budget] in USD (wie bei der Budgetbegrenzung) und Sie können auch eine [!UICONTROL Minimum Budget] als Prozentsatz des Package-Budgets. Bei vorhandenen Platzierungen werden Ihre vorhandenen Einstellungen mithilfe der neuen Feldnamen beibehalten.</li><li>Im [!UICONTROL Inventory Targeting] Einstellungen, eine neue Option für [!UICONTROL On Demand] Mit Inventar und privatem Inventar können Sie &quot;[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | Siehe &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 7. Februar 2024 | [!UICONTROL Placements] und [!UICONTROL Ads] | Die [!UICONTROL Ads Tool] verfügt jetzt über einen Paketfilter. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |

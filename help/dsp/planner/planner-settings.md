@@ -2,16 +2,15 @@
 title: Einstellungen für Pläne zur Anbindung an das Fernsehen
 description: Siehe Beschreibungen der Einstellungen für vernetzte TV-Reichweitenpläne.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
 # Einstellungen für Pläne zur Anbindung an das Fernsehen
-
-*Beta-Funktion*
 
 | Parameter | Beschreibung | Erforderlich? |
 | --- | --- | --- |
