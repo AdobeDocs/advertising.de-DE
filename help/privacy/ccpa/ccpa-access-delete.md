@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die unterstützten Datenanforderungstypen, 
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Alle diese Schritte sind erforderlich, um Unterstützung von Adobe Advertising z
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (die den [!DNL adcloud] Cookie-Leerzeichen)
+   * `"namespace": **411**` (die den [!DNL adCloud] Cookie-Leerzeichen)
 
    * `"value":` &lt;*der tatsächliche Cookie-ID-Wert des Kunden, der von abgerufen wurde`AdobePrivacy.js`*>
 
