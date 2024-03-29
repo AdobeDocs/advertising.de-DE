@@ -1,11 +1,11 @@
 ---
 title: Über Benachrichtigungen
 description: Erfahren Sie mehr über Benachrichtigungen, einschließlich der verschiedenen Typen und Kategorien.
-exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -44,25 +44,11 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, die darüber informieren, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitung von Aufträgen innerhalb der Datentabelle oder Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder anderer Aktionen in der Benutzeroberfläche (z. B. Synchronisierung mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Entitätszuweisungen umfassen das Zuweisen oder Aufheben der Zuweisung einer [Beschriftungsklassifizierungswert](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) jeder Entität eine Kampagne zuweisen und einem Portfolio eine Beschränkung zuweisen oder aufheben.<!--Link "constraint" to constraint-about.md if that file is ever public -->
-
    * **[!UICONTROL Bulksheets]**: Benachrichtigungen, die eine [Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
-   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die richtige Einrichtung kritischer Funktionen bestimmt sind.
+   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.
 
-  <!--
-  * [!UICONTROL Setup Errors]
-  
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
-    
-    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
-  -->
-
-   * [!UICONTROL Network Errors]
-
-      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht mit einer [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
-
-      * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht auf eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, die darüber informieren, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitung von Aufträgen innerhalb der Datentabelle oder Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder anderer Aktionen in der Benutzeroberfläche (z. B. Synchronisierung mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Entitätszuweisungen umfassen das Zuweisen oder Aufheben der Zuweisung einer [Beschriftungsklassifizierungswert](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) jeder Entität eine Kampagne zuweisen und einem Portfolio eine Beschränkung zuweisen oder aufheben.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -70,22 +56,51 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
       * **[!UICONTROL File Upload to Cloud Storage]**: Wird für eine geschlossene Beta-Version verwendet
 
-<!--
-* [!UICONTROL Optimization]
--->
+   * [!UICONTROL Network Errors]
+
+      * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht auf eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+
+      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht mit einer [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+
+  <!--
+  * [!UICONTROL Setup Errors]
+  
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
+  -->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, die [Warninstanzen](/help/search-social-commerce/alerts/alert-about.md) wurden für eine Warnhinweisvorlage ausgelöst.
+   * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, die [ein [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, die eine [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, die [Warninstanzen](/help/search-social-commerce/alerts/alert-about.md) wurden für eine Warnhinweisvorlage ausgelöst.
 
    * **[!UICONTROL Reports]**: Benachrichtigungen, die eine [benutzerspezifischer oder terminierter Bericht](/help/search-social-commerce/reports/report-about.md) wurde abgeschlossen oder fehlgeschlagen.
 
-   * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, die [ein [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, die eine [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) wurde abgeschlossen oder fehlgeschlagen.
+
+<!--
+* [!UICONTROL Optimization]
+
+  * **[!UICONTROL Accuracy]**: 
+
+-->
+
+<!--
+* [!UICONTROL Portfolio Management]
+
+  * **[!UICONTROL Simulation Report]**: 
+
+-->
 
 <!--
 * [!UICONTROL System]
+
+  * **[!UICONTROL Change Management]**: 
+
 -->
 
 >[!MORELIKETHIS]
