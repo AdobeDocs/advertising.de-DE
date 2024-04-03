@@ -3,7 +3,7 @@ title: JavaScript-Code für [!DNL Analytics for Advertising]
 description: JavaScript-Code für [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
+source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Sie können eine Validierung mit einem beliebigen Paket-Sniffer-Tool durchführe
      Wenn Sie den Aufruf zum Adobe Advertising nicht sehen, ist dies möglicherweise nicht der erste Seitenaufruf Ihres Besuchs. Zu Testzwecken können Sie das Cookie entfernen, sodass der nächste Aufruf der erste Seitenaufruf für den entsprechenden Besuch ist:
 
    1. Suchen Sie auf der Registerkarte Anwendung die `adcloud` und überprüfen Sie, ob das Cookie `_les_v` (letzter Besuch) mit dem Wert `y` und ein UTC-Epoch-Zeitstempel, der in 30 Minuten abläuft.
-      1. Löschen Sie die `ad cloud` Cookie und aktualisieren Sie die Seite.
+      1. Löschen Sie die `adcloud` Cookie und aktualisieren Sie die Seite.
 
 1. (Implementierungen, die den Experience Cloud Identity-Dienst verwenden `visitorAPI.js` code) Filtern nach `/b/ss` , um den Analytics-Treffer anzuzeigen.
 
