@@ -3,9 +3,9 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP können Ihre leistungsorientierten Kampagnen optimieren. Siehe die folgenden
 
 ## Schritt 1: Definieren Ihres Ziels
 
-Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche ROAS oder den niedrigstmöglichen CPA zu erreichen. Leistungskampagnen haben folgende Möglichkeiten: [Optimierungsziele](/help/dsp/optimization/optimization-goals.md) , die mit &quot;[!UICONTROL - Custom Goal]&quot; (z. B. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Für jedes Kampagnenkit geben Sie das Optimierungsziel entsprechend an.
+Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche ROAS oder den niedrigstmöglichen CPA zu erreichen. Leistungskampagnen verfügen über [Optimierungsziele](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Für jedes Kampagnenkit geben Sie das Optimierungsziel entsprechend an.
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 

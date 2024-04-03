@@ -3,9 +3,9 @@ title: Best Practices zum Erstellen eines benutzerdefinierten Ziels
 description: Lernen Sie die Best Practices zum Erstellen benutzerdefinierter Ziele kennen, um Ihre Erfolgsereignisse zu definieren.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Die folgenden Beispiele zeigen, wie Sie Ziele konfigurieren können, die auf eine einzige Konversionsmetrik abzielen.
 
-### Beispiel für eine Kampagne mit dem[!UICONTROL Highest ROAS - Custom Goal]&quot;Optimierungsziel
+### Beispiel für eine Kampagne mit dem[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Optimierungsziel
 
-Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest ROAS - Custom Goal]), dann enthält Ihr benutzerdefiniertes Ziel (Ziel) die[!UICONTROL Revenue]&quot;Metrik mit einer Gewichtung von 1 (1).
+Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)]), dann enthält Ihr benutzerdefiniertes Ziel (Ziel) die[!UICONTROL Revenue]&quot;Metrik mit einer Gewichtung von 1 (1).
 
 ![Beispiel eines benutzerdefinierten ROAS-Ziels mit einer einzigen Konversionsmetrik](/help/dsp/assets/custom-goal-roas.png)
 
@@ -26,9 +26,9 @@ Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest ROAS - Custom Goal]), dan
 >
 > A [!UICONTROL Property Weight] von einem entspricht einem Wert von 1 für jeden verfolgten Umsatz von 1 USD.
 >
-> Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 als 250 USD gemeldet. Wenn der Konversionsmetrik eine Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD als 125 USD im Adobe Advertising gemeldet ( 250 USD Konversion * 0,5 [!UICONTROL Property Weight] = 125 USD).
+> Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 als 250 USD gemeldet. Wenn der Konversionsmetrik eine Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD als 125 USD in Adobe Advertising gemeldet ( 250 USD Konversion * 0,5 [!UICONTROL Property Weight] = 125 USD).
 
-### Beispiel für eine Kampagne mit dem[!UICONTROL Lowest CPA - Custom Goal]&quot;Optimierungsziel
+### Beispiel für eine Kampagne mit dem[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Optimierungsziel
 
 Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein Erfolgsereignis erforderlich ist, schließen Sie diese Metrik ein (im folgenden Beispiel &quot;Antragsversand&quot;). Als Best Practice wird empfohlen, die Gewichtung auf 1 (1) festzulegen.
 
@@ -38,7 +38,7 @@ Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein 
 >
 > A [!UICONTROL Property Weight] von eins entspricht einem Wert für jede verfolgte Konversion.
 >
-> Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragssendungen gemeldet.  Wenn der Konversionsmetrik eine Gewichtung von 0,5 zugewiesen wird, werden die 10 Konversionen als fünf (5) in Adobe Advertising (10 Konversionen * 0,5) gemeldet. [!UICONTROL Property Weight] = 5).
+> Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragsübermittlungen gemeldet.  Wenn der Konversionsmetrik eine Gewichtung von 0,5 zugewiesen wird, werden die 10 Konversionen als fünf (5) in Adobe Advertising (10 Konversionen * 0,5) gemeldet. [!UICONTROL Property Weight] = 5).
 
 ## Benutzerdefinierte Ziele mit mehreren Eigenschaften
 
