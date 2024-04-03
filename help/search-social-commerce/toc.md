@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + Produktgruppen {#product-groups}
             + [Über Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [Verwalten von Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Produktgruppeneinstellungen für Google Ads](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Produktgruppeneinstellungen für Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] Produktgruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] Produktgruppeneinstellungen](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [Produktfilter für Shopping-Kampagne](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + Praktika {#placements}
             + [Informationen zu Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)

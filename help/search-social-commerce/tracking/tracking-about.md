@@ -1,11 +1,11 @@
 ---
 title: Informationen zum Tracking für Suche, Social und Commerce
 description: Erfahren Sie mehr über Tracking-Optionen für Suche, Social und Commerce.
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Wenn Sie Kampagnen in Werbenetzwerken verfolgen möchten, mit denen Search, Soci
 
 ### Klick-Tracking-Tags
 
-Ihr Implementierungsteam für Search, Social und Commerce richtet Klick-Tracking ein, indem es die Tracking-Vorlagen und Ziel-URLs für Anzeigen, Suchbegriffe, Platzierungen, Produktgruppen und Sitelink-Erweiterungen in Ihren synchronisierten Anzeigenkampagnen aktualisiert, um eine eindeutige Tracking-ID-Zeichenfolge und eine Adobe Advertising-Umleitung einzuschließen. Sie fügen außerdem Tracking zu den Suffixen der Landingpage (finale URL-Suffixe) für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten und Kampagnen.
+Ihr Implementierungsteam für Search, Social und Commerce richtet Klick-Tracking ein, indem es die Tracking-Vorlagen und Ziel-URLs für Anzeigen, Suchbegriffe, Platzierungen, Produktgruppen und Sitelink-Erweiterungen in Ihren synchronisierten Werbekampagnen aktualisiert, um eine eindeutige Tracking-ID-Zeichenfolge und eine Adobe Advertising-Umleitung einzuschließen. Sie fügen außerdem Tracking zu den Suffixen der Landingpage (finale URL-Suffixe) für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten und Kampagnen.
 
-Die Tracking-Parameter ermöglichen es dem Adobe Advertising, Klicks auf der Ebene einzelner Keywords (Suchkampagnen) oder Anzeigenvarianten (Suchkampagnen mit Inhalt oder Site-Targeting, Display-Kampagnen und Social-Media-Kampagnen) zu verfolgen. Jedes Mal, wenn ein Benutzer eine Anzeige/Inhaltsanzeige anzeigt oder auf eine Ihrer Anzeigen klickt, sendet das Werbenetzwerk das Ereignis mithilfe eines mit dem Suchbegriff oder der Anzeige verknüpften Klick-Tracking-Tags an die Adobe Advertising-Pixelserver. Für Klicks:
+Die Tracking-Parameter ermöglichen es Adobe Advertising, Klicks auf der Ebene einzelner Keywords (Suchkampagnen) oder Anzeigenvarianten (Suchkampagnen mit Inhalt oder Site-Targeting, Display-Kampagnen und Social-Media-Kampagnen) zu verfolgen. Jedes Mal, wenn ein Benutzer eine Anzeige/Inhaltsanzeige anzeigt oder auf eine Ihrer Anzeigen klickt, sendet das Werbenetzwerk das Ereignis mithilfe eines mit dem Suchbegriff oder der Anzeige verknüpften Klick-Tracking-Tags an die Adobe Advertising-Pixelserver. Für Klicks:
 
-* Bei Anzeigen von Google Ads und Microsoft Advertising in Browsern, die das parallele Tracking unterstützen, sendet das Werbenetzwerk den Klick zuerst an Ihre Website und dann an die Adobe Advertising-Pixelserver, die dann ein Cookie auf dem Benutzercomputer platzieren, falls noch keines vorhanden ist.
+* Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Anzeigen in Browsern, die das parallele Tracking unterstützen, sendet das Werbenetzwerk den Klick zuerst an Ihre Website und dann an die Adobe Advertising-Pixelserver, die dann ein Cookie auf dem Benutzercomputer platzieren, falls noch kein Cookie vorhanden ist.
 
 * In allen anderen Fällen sendet das Werbenetzwerk den Klick direkt an die Adobe Advertising-Pixelserver. Der Pixelserver platziert ein Cookie auf dem Computer des Benutzers (falls noch kein Cookie vorhanden ist) und leitet den Benutzer dann zur entsprechenden URL auf Ihrer Website weiter. Das Gesamterlebnis für den Endbenutzer entspricht dem ohne Umleitung.
 
-Das Cookie wird im [!DNL Adobe] Domäne (`everesttech.net`) als Erstanbieter-Cookie. Nach einer Umleitung befindet sich der Benutzer in der Domäne des Advertisers und das Cookie wird dann als Drittanbieter-Cookie behandelt. Weitere Informationen zu Adobe Advertising-Cookies finden Sie unter[Cookies in Adobe Advertisingen](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
+Das Cookie wird im [!DNL Adobe] Domäne (`everesttech.net`) als Erstanbieter-Cookie. Nach einer Umleitung befindet sich der Benutzer in der Domäne des Advertisers und das Cookie wird dann als Drittanbieter-Cookie behandelt. Weitere Informationen zu Adobe Advertising-Cookies finden Sie unter &quot;[Adobe Advertising-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
 
 ## Konversionsdaten
 
@@ -44,6 +44,6 @@ Sie können [Konversions-Tags verschiedener Anbieter](/help/search-social-commer
 
 Wenn Sie ein Adobe Advertising-Konversions-Tag verwenden und ein Benutzer eine erfolgreiche Transaktion abschließt und auf eine &quot;Erfolgsseite&quot;gelangt, prüft der Adobe Advertising-Pixelserver, ob das Cookie auf dem Benutzercomputer vorhanden ist, das zum Zeitpunkt der Klick-Umleitung festgelegt wurde. Wenn ein Cookie gefunden wird, werden Informationen über das Transaktionsereignis mithilfe des Parameters ef_transid weitergeleitet. Die Transaktion wird als Konversion erkannt und dem vorherigen Anzeigenklick bzw. der Anzeige-Impression gutgeschrieben.
 
-Wenn der Benutzer auf mehr als eine Ihrer Anzeigen geklickt hat, schreibt der Adobe Advertising die Transaktion dem letzten Klick auf die Werbeanzeige oder (für Anzeige- oder Videokampagnen) der endgültigen Anzeigenimpression zu, sofern Sie nichts anderes angeben. Ihre [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach einem gebührenpflichtigen Klick oder einer Anzeige-/Videoimpression (bzw. Videoimpressionen) bestimmen, in denen das Ereignis einer Konversion zugeordnet werden kann.
+Wenn der Benutzer auf mehr als eine Ihrer Anzeigen geklickt hat, ordnet die Adobe Advertising die Transaktion dem letzten Klick auf die Werbeanzeige oder (für Anzeige- oder Videokampagnen) der endgültigen Anzeigenimpression zu, sofern Sie nichts anderes angeben. Ihre [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach einem gebührenpflichtigen Klick oder einer Anzeige-/Videoimpression (bzw. Videoimpressionen) bestimmen, in denen das Ereignis einer Konversion zugeordnet werden kann.
 
-Das Implementierungsteam des Adobe Advertisings arbeitet mit dem Advertiser zusammen, um das Format der Konversions-Tags zu ermitteln, die der Advertiser implementieren muss, die Webseiten zu identifizieren, auf die jedes Konversions-Tag eingefügt werden soll, und die Konversions-Tags anzugeben, die implementiert werden sollen.
+Das Adobe Advertising-Implementierungsteam arbeitet mit dem Advertiser zusammen, um das Format der Konversions-Tags zu ermitteln, die der Advertiser implementieren muss, die Webseiten zu identifizieren, auf die jedes Konversions-Tag eingefügt werden soll, und die Konversions-Tags anzugeben, die implementiert werden sollen.

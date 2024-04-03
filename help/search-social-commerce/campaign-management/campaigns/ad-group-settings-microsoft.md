@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft Advertising] Anzeigengruppeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Anzeigengruppen.
+title: '''[!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Anzeigengruppen.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] Anzeigengruppeneinstellungen
+# [!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Suchanzeigen) Wie und wo Anzeigen innerhalb der Anzeigengruppe platziert werden:
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (Standardeinstellung): Zum Platzieren von Angeboten für Anzeigen im Suchnetzwerk.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (Standardeinstellung): Zum Platzieren von Angeboten für Anzeigen im Suchnetzwerk.
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* So platzieren Sie Gebote für Anzeigen auf Syndizierte Partner-Sites.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* So platzieren Sie Gebote für Anzeigen auf Syndizierte Partner-Sites.
 
 * *[!UICONTROL Content network]:* Veraltet
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Für [!DNL Microsoft Advertising] Anzeigengruppen im Zielgruppennetzwerk werden Gebotsmodifikatoren für Standortziele nicht in Standard-Portfolios mit dem Wert[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Für [!DNL Microsoft® Advertising] Anzeigengruppen im Zielgruppennetzwerk werden Gebotsmodifikatoren für Standortziele nicht in Standard-Portfolios mit dem Wert[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ Für [!DNL Microsoft Advertising] Anzeigengruppen im Zielgruppennetzwerk werden 
 
 **[!UICONTROL Negative Websites]:** (Nur Kampagnen im Display/nativen Netzwerk; optional) Sites im Display-Netzwerk, auf denen Ihre Anzeigen nicht angezeigt werden sollen. Geben Sie eine gültige URL ein, z. B. www.example.com. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein.
 
-Informationen zur Verfügbarkeit finden Sie in der Microsoft Advertising-Hilfe unter[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Informationen zur Verfügbarkeit finden Sie unter [!DNL Microsoft® Advertising] &quot;[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
