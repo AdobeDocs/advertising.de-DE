@@ -2,9 +2,9 @@
 title: Erweiterte Messlösungen
 description: Sehen Sie sich eine Liste der verfügbaren Lösungen für erweiterte Messungen an.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
+source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -23,61 +23,71 @@ Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr bester nächster M
 
 Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer Werbekampagnen zu überprüfen:
 
-* **Reichweite, Häufigkeit und Konversionen auf der Basis des Haushalts**
+* **Reichweite, Häufigkeit und Konversionen im Haushalt**
 
-   Erfahren Sie mehr über die gesamte Reichweite von Kampagnen auf Haushaltsebene sowie über den Beitrag der einzelnen Bildschirme. Zu den Berichtsoptionen gehören:
+  Erfahren Sie mehr über die gesamte Reichweite von Kampagnen auf Haushaltsebene sowie über den Beitrag der einzelnen Bildschirme. Zu den Berichtsoptionen gehören:
 
+   * Durchschnittliche Zeit bis Konversion
+   * Häufigkeit der Konversion
    * Berichterstellung für Connected TV (CTV)
    * CTV-App-Inkrementierung
    * Bildschirmübergreifende Berichterstellung (Digital &amp; CTV)
    * Bildschirmübergreifende Plus-Berichte (Digital, CTV und TV)
    * Reichweite und Häufigkeit digitaler In-Segment-Interaktionen
 
-* **Personenbezogene Reichweite**
+* **Benutzerbasierte Reichweite und Konversionen**
 
-   Erfahren Sie, wie sich Zielgruppen und Taktiken auf der Ebene von Personen überschneiden, einschließlich der Belichtung über mehrere digitale Umgebungen hinweg, z. B. Desktop, Mobilgeräte, native und Audio.
+  Erfahren Sie, wie sich Zielgruppen und Taktiken auf der Ebene von Personen überschneiden, einschließlich der Belichtung über mehrere digitale Umgebungen hinweg, z. B. Desktop, Mobilgeräte, native und Audio.
+
+* **ID-übergreifende personenbasierte Reichweite**
+
+  Quantifizieren Sie die eindeutige Reichweite und Überschneidung zwischen Cookies und RampIDs sowie die Kosten pro Metrik nach ID-Typ. Beweisen Sie die Effektivität des Testens von RampIDs beim Finden einer inkrementellen Reichweite im Verhältnis zu Cookie-basierten Segmenten in mehreren digitalen Umgebungen, z. B. Desktop, Mobilgeräte, native und Audio.
 
 * **[!DNL Dynata]Panel-basierte Umfragen**
 
-   Führen Sie Kontroll-/exponierte Umfragen durch, um die Auswirkungen der Anzeigenbelichtung auf Metriken wie Bewusstsein, Vertrautheit und Absicht zu ermitteln.
+  Führen Sie Kontroll-/exponierte Umfragen durch, um die Auswirkungen der Anzeigenbelichtung auf Metriken wie Bewusstsein, Vertrautheit und Absicht zu ermitteln.
 
 * **Fußdatenverkehr**
 
-   Informieren Sie sich über die durch die Anzeigenbelichtung bedingte Inkrementalität und darüber, wie Medieninvestitionen Veränderungen im Kaufverhalten und inkrementellen Besuchen verursachen, mit Metriken wie Inkrementeffekt, Kosten pro inkrementellem Besuch und Besuchseinblicken.
+  Informieren Sie sich über die durch die Anzeigenbelichtung bedingte Inkrementalität und darüber, wie Medieninvestitionen Veränderungen im Kaufverhalten und inkrementellen Besuchen verursachen, mit Metriken wie Inkrementeffekt, Kosten pro inkrementellem Besuch und Besuchseinblicken.
 
 * **Transaction Insights**
 
-   Reichern Sie Ihre Kampagnenstrategie mit deterministischen Kredit- und Lastschriftverkaufsdaten durch Segment-, Konkurrenzmarkt- und Kundenanalysen an.
+  Reichern Sie Ihre Kampagnenstrategie mit deterministischen Kredit- und Lastschriftverkaufsdaten durch Segment-, Konkurrenzmarkt- und Kundenanalysen an.
 
 * **Transaktionsmessung**
 
-   Ermitteln Sie den Einfluss der Ad-Exponierung auf den Verkauf mithilfe robuster, deterministischer Kredit- und Debitverkaufsdaten.
+  Ermitteln Sie den Einfluss der Ad-Exponierung auf den Verkauf mithilfe robuster, deterministischer Kredit- und Debitverkaufsdaten.
 
 * **Experiment-Designer (A/B-Tests)**
 
-   Vergleichen Sie das Verhalten und Sentiment randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
+  Vergleichen Sie das Verhalten und Sentiment randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
 
-## So finden Sie die perfekte Messgröße: Lösungen nach Vertikal
+## Finden der optimalen Messgröße: Lösungen nach Vertikal
 
 * **Beliebig vertikal:**
 
    * Experiment-Designer (Placebo und A/B-Tests)
 
-   * Personenbezogene Reichweite
+   * Benutzerbasierte Reichweite und Konversionen
 
-      Jede Organisation, die mehrere digitale Taktiken messen möchte; Organisationen, die den Wert von Audio präsentieren möchten
+     Jede Organisation, die über mehrere digitale Taktiken hinweg messen möchte; Organisationen, die den Wert von Audio zeigen möchten
 
    * Messung der Reichweite, Häufigkeit und Konversion im Haushalt
 
-      Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg verstehen möchte
+     Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg verstehen möchte
+
+   * ID-übergreifende personenbasierte Reichweite
+
+     Jeder Client, der die eindeutige Reichweite und Überschneidung zwischen Cookies und RampIDs quantifizieren möchte, sowie die Kosten pro Metrik nach ID-Typ über mehrere digitale Taktiken hinweg
 
    * Bildschirmweite, Häufigkeit und Konversionsmessung
 
-      Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken im Vergleich zu linearen TV-Investitionen verstehen möchte
+     Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken im Vergleich zu linearen TV-Investitionen verstehen möchte
 
    * Dynata Panel-basierte Umfragen
 
-      Jeder Kunde, der das Markenbewusstsein und die Wahrnehmung seiner Marke auf mehreren Bildschirmen messen möchte; am besten für Nischenzielgruppen geeignet
+     Jeder Kunde, der das Markenbewusstsein und die Wahrnehmung seiner Marke auf mehreren Bildschirmen messen möchte; am besten geeignet für Nischenzielgruppen
 
 * **QSR, Einzelhandel (Brick und Mortar):**
 
@@ -89,7 +99,7 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
    * Transaction Insights
 
-      Jeder Kunde, der einen bestimmten Typ von Käufer erreichen möchte, um In-Store- und Online-Verkäufe zu führen
+     Jeder Kunde, der einen bestimmten Typ von Käufer erreichen möchte, um In-Store- und Online-Verkäufe zu führen
 
 ## Weitere Informationen
 
