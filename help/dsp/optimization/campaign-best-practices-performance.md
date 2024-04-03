@@ -3,7 +3,7 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Verwenden Sie außerdem die folgenden Einstellungen.
 
 * **Budget:** DSP wird immer versuchen, 100 % des Package-Budgets gleichmäßig zwischen allen Platzierungen in einem Paket zu verteilen. Wenn eine Platzierung geringe Ausgaben oder keine Ausgaben aufweist, empfehlen wir eine Budgetbegrenzung für die Platzierung, damit mehr Geld für Platzierungen mit Skalierung bereitgestellt werden kann. Die Kalibrierung von Budgetänderungen kann 24 bis 48 Stunden dauern.
 
-* **Optimierungsziele:** Verwenden Sie eines der beiden Leistungsoptimierungsziele, *[!UICONTROL Highest ROAS]* oder *[!UICONTROL Lowest CPA]*, abhängig vom Paketziel. Mit diesen Zielen wird das Paket automatisch für die Platzierungen mit der höchsten ROAS bzw. der niedrigsten CPA optimiert.
+* **Optimierungsziele:** Verwenden Sie eines der beiden Leistungsoptimierungsziele, *[!UICONTROL Highest Return on Ad Spend]* oder *[!UICONTROL Lowest Cost per Acquisition]*, abhängig vom Paketziel. Mit diesen Zielen wird das Paket automatisch für die Platzierungen mit der höchsten ROAS bzw. der niedrigsten CPA optimiert.
 
 * **Benutzerdefinierte Ziele:**
    * Wenn ein neues Paket dasselbe Ziel wie ein vorhandenes Paket hat, können Sie optional das vorhandene Paket verknüpfen, damit der Algorithmus die vorhandenen Daten des maschinellen Lernens verwenden kann.
