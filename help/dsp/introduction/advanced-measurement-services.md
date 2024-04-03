@@ -2,9 +2,9 @@
 title: Erweiterte Messlösungen
 description: Sehen Sie sich eine Liste der verfügbaren Lösungen für erweiterte Messungen an.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
   Erfahren Sie, wie sich Zielgruppen und Taktiken auf der Ebene von Personen überschneiden, einschließlich der Belichtung über mehrere digitale Umgebungen hinweg, z. B. Desktop, Mobilgeräte, native und Audio.
 
-* **ID-übergreifende personenbasierte Reichweite**
+   * **ID-übergreifende personenbasierte Reichweite**
 
-  Quantifizieren Sie die eindeutige Reichweite und Überschneidung zwischen Cookies und RampIDs sowie die Kosten pro Metrik nach ID-Typ. Beweisen Sie die Effektivität des Testens von RampIDs beim Finden einer inkrementellen Reichweite im Verhältnis zu Cookie-basierten Segmenten in mehreren digitalen Umgebungen, z. B. Desktop, Mobilgeräte, native und Audio.
+     Quantifizieren Sie die eindeutige Reichweite und Überschneidung zwischen Cookies und RampIDs sowie die Kosten pro Metrik nach ID-Typ. Beweisen Sie die Effektivität des Testens von RampIDs beim Finden einer inkrementellen Reichweite im Verhältnis zu Cookie-basierten Segmenten in mehreren digitalen Umgebungen, z. B. Desktop, Mobilgeräte, native und Audio.
 
 * **[!DNL Dynata]Panel-basierte Umfragen**
 
@@ -76,10 +76,6 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
    * Messung der Reichweite, Häufigkeit und Konversion im Haushalt
 
      Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg verstehen möchte
-
-   * ID-übergreifende personenbasierte Reichweite
-
-     Jeder Client, der die eindeutige Reichweite und Überschneidung zwischen Cookies und RampIDs quantifizieren möchte, sowie die Kosten pro Metrik nach ID-Typ über mehrere digitale Taktiken hinweg
 
    * Bildschirmweite, Häufigkeit und Konversionsmessung
 
