@@ -2,9 +2,9 @@
 title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem verkn
 
 In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel verwenden &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],“ der Zielname ist jetzt im [!UICONTROL Custom Goals] Liste. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, wird die [!UICONTROL Conversion Metric] Die Liste enthält alle Zielmetriken für das Ziel.
 
-## Best Practices zum Erstellen eines benutzerdefinierten Ziels [#custom-goal-best-practices]
+## Best Practices zum Erstellen eines benutzerdefinierten Ziels {#custom-goal-best-practices}
 
 ### Benutzerdefinierte Ziele mit einer einzelnen Metrik
 
