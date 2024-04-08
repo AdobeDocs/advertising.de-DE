@@ -2,7 +2,7 @@
 title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem verkn
       >* [!DNL Analytics] Benutzerdefinierte Ereignisse folgen dieser Namenskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
       >* [!DNL Analytics] Dimensionen und Segmente sind nicht für die Adobe Advertising-Optimierung verfügbar.
 
-In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel verwenden &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],“ der Zielname ist jetzt im [!UICONTROL Custom Goals] Liste. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, wird die [!UICONTROL Conversion Metric] Die Liste enthält alle Zielmetriken für das Ziel.
+      >[!TIP]
+      >
+      >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Anwendungsstarts. Siehe [Best Practices zum Erstellen eines benutzerdefinierten Ziels](#custom-goal-best-practices) für Richtlinien.
 
->[!TIP]
->
->Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Anwendungsstarts. Siehe [Best Practices zum Erstellen eines benutzerdefinierten Ziels](custom-goal-best-practices.md) für Richtlinien.
+In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel verwenden &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],“ der Zielname ist jetzt im [!UICONTROL Custom Goals] Liste. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, wird die [!UICONTROL Conversion Metric] Die Liste enthält alle Zielmetriken für das Ziel.
 
 ## Best Practices zum Erstellen eines benutzerdefinierten Ziels [#custom-goal-best-practices]
 

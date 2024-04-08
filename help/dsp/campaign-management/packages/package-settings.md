@@ -3,7 +3,7 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
+source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Bei Paketen mit benutzerdefiniertem Flug ist das Budgetintervall immer *[!UICONT
 
 **[!UICONTROL Optimization Goal]:** (Pakete nur mit Geschwindigkeit auf Paketebene) Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter [Optimierungsziele und ihre Verwendung](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pakete mit dem &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„Nur Optimierungsziele) A [Benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal-about.md) Dazu gehören die Umsatz- oder Konversionsereignisse, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete Ereignisse im oberen Trichter (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu den Best Practices für benutzerdefinierte Ziele und Kampagnen, die sie verwenden, finden Sie unter  [Best Practices zum Erstellen eines benutzerdefinierten Ziels](/help/dsp/optimization/custom-goal-best-practices.md) und [Best Practices für die Einrichtung von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goal for Model Learning]:** (Pakete mit dem &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„Nur Optimierungsziele) A [Benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) Dazu gehören die Umsatz- oder Konversionsereignisse, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete Ereignisse im oberen Trichter (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu den Best Practices für benutzerdefinierte Ziele und Kampagnen, die sie verwenden, finden Sie unter [Best Practices zum Erstellen eines benutzerdefinierten Ziels](/help/dsp/optimization/custom-goal.md#custom-goal-best-practices) und [Best Practices für die Einrichtung von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Optional) Pakete mit dem &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„Nur Optimierungsziele) Weist das Optimierungsmodell an, nur aus klickbasierten Konversionen zu lernen. Andernfalls lernt das Optimierungsmodell sowohl aus Click- als auch aus Impression-basierten Konversionen.
 
