@@ -3,16 +3,16 @@ title: Optionale Tracking-Parameter für Klick-Tracking-URLs
 description: Erfahren Sie mehr über optionale Tracking-Parameter für Search, Social und Commerce sowie über netzwerkspezifische Tracking-Parameter für Anzeigen, die Sie zu Ihren Klick-Tracking-URLs hinzufügen können.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # Optionale Tracking-Parameter für Klick-Tracking-URLs
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], und [!DNL Yandex] Nur Konten*
 
 Statt nur die Standard-Tracking-Parameter für eine endgültige URL oder Ziel-URL zu verwenden, können Sie weitere Parameter hinzufügen, um bestimmte Daten für ein Anzeigennetzwerkkonto zu verfolgen. Sie können eine beliebige Kombination der folgenden Parameter in den Kontoeinstellungen oder den Kampagneneinstellungen hinzufügen:
 
@@ -66,16 +66,8 @@ Siehe [https://support.google.com/google-ads/answer/2375447](https://support.goo
 
 Siehe [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Upstream aktualisiert
-## [!DNL Yahoo Native] dynamische Tracking-Parameter
-
-Siehe [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] dynamische Tracking-Parameter
-========
 ## Yahoo! Dynamische Tracking-Parameter für Japan Ads
->>>>>>>>>>Gestapelte Änderungen
-> 
+
 Siehe [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] dynamische Tracking-Parameter
@@ -84,4 +76,4 @@ Siehe [https://yandex.com/support/direct/statistics/url-tags.html](https://yande
 
 >[!MORELIKETHIS]
 >
-* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
