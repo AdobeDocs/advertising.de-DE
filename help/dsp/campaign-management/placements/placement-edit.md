@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >* [Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](placement-quick-edit.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
+>* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
 >* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
 >* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)

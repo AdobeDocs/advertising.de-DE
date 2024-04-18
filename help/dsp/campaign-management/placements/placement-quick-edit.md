@@ -3,9 +3,9 @@ title: Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen schnell ändern können.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Eine Platzierung bearbeiten](placement-edit.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
+>* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
 >* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
 >* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
