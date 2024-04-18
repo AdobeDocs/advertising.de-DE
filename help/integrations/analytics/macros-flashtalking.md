@@ -3,20 +3,20 @@ title: Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] 
 description: Erfahren Sie, warum und wie Sie [!DNL Analytics for Advertising] Makros für Ihre [!DNL Flashtalking] Adtags
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser mit nur Adobe Advertising-Adobe Analytics-Integration*
 
 *Gilt nur für DSP*
 
-Wenn Sie Anzeigen-Tags aus [!DNL Flashtalking] Hängen Sie für Ihre Advertising DSP Anzeigen Analytics for Advertising-Parameter an Ihre Landingpage-URLs an. Die Parameter zeichnen die AMO-ID (`s_kwcid`) und `ef_id` Abfragezeichenfolgenparameter in der Landingpage-URL, sodass Adobe Advertising Klickdaten für die Anzeigen an Adobe Analytics senden können.
+Wenn Sie Anzeigen-Tags aus [!DNL Flashtalking] Hängen Sie für Ihre Advertising DSP Anzeigen Analytics for Advertising-Parameter an Ihre Landingpage-URLs an. Die Parameter zeichnen die AMO-ID (`s_kwcid`) und `ef_id` Abfragezeichenfolgenparameter in der Landingpage-URL, sodass Adobe Advertising Klick-Daten für die Anzeigen an Adobe Analytics senden kann.
 
 Verwenden Sie Makros für [!DNL Flashtalking] Anzeigen und Videoanzeigen für die folgenden Typen [!DNL Analytics for Advertising] Implementierungen:
 
@@ -26,27 +26,39 @@ Verwenden Sie Makros für [!DNL Flashtalking] Anzeigen und Videoanzeigen für di
 >
 >Der JavaScript-Code ist eine Lösung für Klick-Tracking, während Cookies weiterhin verfügbar sind. Sobald Cookies beendet sind, ist die Implementierung der folgenden Makros erforderlich.
 
-* **Advertiser, deren Websites die [!DNL Analytics for Advertising] JavaScript-Code und stattdessen auf [!DNL Analytics] Serverseitige Weiterleitung nur für Clickthrough-Daten** (ohne Durchsichtsdaten): Die folgenden Makros sind erforderlich, um die Klick-Aktivität auf der Site zu melden, die von Anzeigen gesteuert wird, die Sie über den Adobe Advertising kaufen.
+* **Advertiser, deren Websites die [!DNL Analytics for Advertising] JavaScript-Code und stattdessen auf [!DNL Analytics] Serverseitige Weiterleitung nur für Clickthrough-Daten** (ohne Durchsichtsdaten): Die folgenden Makros sind erforderlich, um die Klick-Aktivität auf der Site zu melden, die von Anzeigen gesteuert wird, die Sie über Adobe Advertising kaufen.
 
 ## Anzeigen von Anzeigen-Tags
 
 Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der Clickthrough-URL in der `Clicktag` -Feld:
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-Beispiel:  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+Hierbei handelt es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL, die dann von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+
+Beispiele:
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Videoanzeigen-Tags
 
 Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der Clickthrough-URL in der `Clicktag` -Feld:
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Beispiel:  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+Hierbei handelt es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL, die dann von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+
+Beispiele:
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
