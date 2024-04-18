@@ -2,9 +2,9 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für bestimmte Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Sie können Angebotsmodifikatoren nur für enthaltene Ziele, nicht für ausgesch
 
 * **Zielgruppenziele:** Segmente, Dayparting und Themen
 
-* **ads.txt-Ziele:** (Wenn Sie die Option &quot;ad.txt&quot;deaktivieren), werden nur Ads.txt-Verkäufer, Ads.txt-Direktverkäufer und Ads.txt-Verkäufer sowie Websites ohne Ads.txt angezeigt.
+* **ads.txt-Ziele:** (Wenn Sie sich von ads.txt abmelden, was es Ihnen ermöglicht, Inventar von allen Verkäufern zu kaufen), nur ads.txt sellers, ads.txt direct sellers und ads.txt sellers plus sites ohne ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Maximale Anzahl der Angebotsmultiplikatoren nach Zieltyp {#bid-multiplier-limits-by-target}
 
