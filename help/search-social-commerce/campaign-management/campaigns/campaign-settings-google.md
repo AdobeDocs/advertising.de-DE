@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,33 @@ ht-degree: 0%
 
 * *[!UICONTROL Enhanced CPC]:* (Nicht verfügbar für maximale Leistung oder vorhandene, schreibgeschützte [!DNL Gmail] Kampagnen) Verwendet das erweiterte &quot;Cost-per-Click&quot;-Modell des Werbenetzwerks, das es dem Werbenetzwerk ermöglicht, das Angebot pro Klick (Cost-per-Click) für jede Auktion automatisch zu ändern, um Konversionen zu maximieren, indem Konversionen verwendet werden, die im Werbenetzwerk (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, den durchschnittlichen CPC unter Ihrem maximalen CPC zu halten.
 
-Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Social und Handel hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio von Search, Social und Commerce hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (Standard): (Nicht verfügbar für Kampagnen mit maximaler Leistung) Verwendet das CPC-Modell (Cost-per-Click). Sie können optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
 
    * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung des[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Maximize Clicks]:* (Such-, Anzeige- und Einkaufskampagnen) Das Werbenetzwerk - nicht &quot;Search, Social, &amp; Commerce&quot; - optimiert Gebote zur Maximierung von Klicks. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick), um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Vorsicht:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden die Angebote von der Klickgewichtung und nicht vom Portfolioziel bestimmt.
+* *[!UICONTROL Maximize Clicks]:* (Such-, Anzeige- und Shopping-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social und Commerce&quot; - optimiert Gebote zur Maximierung von Klicks. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick), um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Vorsicht:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden die Angebote von der Klickgewichtung und nicht vom Portfolioziel bestimmt.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Such-, Leistungs- und Smart-Shopping-Kampagnen) Das Anzeigennetzwerk - nicht &quot;Search, Social&quot;und &quot;Commerce&quot;- optimiert Gebote zur Maximierung des Konversionswerts. Geben Sie optional eine **[!UICONTROL Target Return on Ad Spend]** (ROAS) als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversion Value]:* (Such-, Leistungs- und Smart-Shopping-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social&quot;und Commerce - optimiert Gebote zur Maximierung des Konversionswerts. Geben Sie optional eine **[!UICONTROL Target Return on Ad Spend]** (ROAS) als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
 
-* *[!UICONTROL Maximize Conversions]:* (Kampagnen für Suche, Anzeige und Performance-Maximalwerte) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional eine **[!UICONTROL Target CPA]** (Kosten pro Akquise). **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversions]:* (Kampagnen für Suche, Anzeige und Performance-Maximalwerte) Das Werbenetzwerk - nicht &quot;Search, Social&quot;und Commerce - optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional eine **[!UICONTROL Target CPA]** (Kosten pro Akquise). **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
 
-* *[!UICONTROL Target CPA]:* (Display-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), der Durchschnittsbetrag von 30 Tagen, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Display-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social&quot;und Commerce — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), der Durchschnittsbetrag von 30 Tagen, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
   Für neue Suchkampagnen: [!DNL Google Ads] hat diese Angebotsstrategie durch die Variable [!UICONTROL Maximize Conversions] -Strategie mithilfe einer [!UICONTROL Target CPA] -Wert. Bei vorhandenen Suchkampagnen mit dieser Strategie können Sie nur den Zielwert bearbeiten. Dadurch wird die Strategie in die [!UICONTROL Maximize Conversions] -Strategie unter Verwendung der angegebenen [!UICONTROL Target CPA] -Wert.
 
-* *[!UICONTROL Target Impression Share]:* (Suchkampagnen) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote, um eine zielgerichtete Impressions-Freigabe und Anzeigenposition zu erzielen. Geben Sie optional einen **[!UICONTROL Target Impression Share]** als Prozentsatz die **[!UICONTROL Target Ad Position]** und ein **[!UICONTROL Max CPC]** (Kosten pro Klick). **Hinweis:** Diese Option wird in Portfolios nicht unterstützt.
+* *[!UICONTROL Target Impression Share]:* (Suchkampagnen) Das Werbenetzwerk - nicht &quot;Search, Social und Commerce&quot; - optimiert Gebote, um eine zielgerichtete Impressions-Freigabe und Anzeigenposition zu erzielen. Geben Sie optional einen **[!UICONTROL Target Impression Share]** als Prozentsatz die **[!UICONTROL Target Ad Position]** und ein **[!UICONTROL Max CPC]** (Kosten pro Klick). **Hinweis:** Diese Option wird in Portfolios nicht unterstützt.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Display- und Shopping-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Basis eines angegebenen **[!UICONTROL Target ROAS]** (Rendite auf Werbeausgaben), angegeben als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (Display- und Shopping-Kampagnen; vorhandene Suchkampagnen) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines festgelegten **[!UICONTROL Target ROAS]** (Rendite auf Werbeausgaben), angegeben als Prozentsatz. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS].
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
   Für neue Suchkampagnen: [!DNL Google Ads] hat diese Angebotsstrategie durch die Variable [!UICONTROL Maximize Conversion Value] -Strategie mithilfe einer [!UICONTROL Target Return on Ad Spend value]. Bei vorhandenen Suchkampagnen mit dieser Strategie können Sie nur den Zielwert bearbeiten. Dadurch wird die Strategie in die [!UICONTROL Maximize Conversion Value] -Strategie unter Verwendung der angegebenen [!UICONTROL Target Return on Ad Spend] -Wert.
 
-* *[!UICONTROL Viewable CPM]:* (Vorhanden, schreibgeschützt [!DNL Gmail] nur Kampagnen) Das Werbenetzwerk — nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;— bietet nur Angebote für Anzeigen, die als sichtbar gemessen werden. **Hinweis:** Die Optimierung dieser Strategie wird in keinem Portfolio unterstützt.
+* *[!UICONTROL Viewable CPM]:* (Vorhanden, schreibgeschützt [!DNL Gmail] nur Kampagnen) Das Werbenetzwerk — nicht &quot;Search, Social und Commerce&quot; — bietet nur Angebote für Anzeigen an, die als sichtbar gemessen werden. **Hinweis:** Die Optimierung dieser Strategie wird in keinem Portfolio unterstützt.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -156,7 +156,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
 **Hinweis:**
 
-* Search, Social und Commerce bietet keine automatisch angepassten Angebotsanpassungen für die folgenden Standortziele aufgrund von Einschränkungen in den Daten, [!DNL Google Ads] stellt die Zuordnung von Surfer-Standorten zu Standortzielen bereit:
+* Search, Social und Commerce bieten keine automatisch angepassten Angebotsanpassungen für die folgenden Standortziele, da die Daten in den [!DNL Google Ads] stellt die Zuordnung von Surfer-Standorten zu Standortzielen bereit:
 
    * Radius-Ziele.
 
@@ -268,7 +268,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
          Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-      1. Klicken **[!UICONTROL Proceed]**.
+      1. Klicks **[!UICONTROL Proceed]**.
 
    1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
 
@@ -290,7 +290,7 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Socia
 
          Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-      1. Klicken **[!UICONTROL Proceed]**.
+      1. Klicks **[!UICONTROL Proceed]**.
 
    1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
 

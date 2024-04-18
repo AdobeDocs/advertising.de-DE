@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Feld &quot;Zielgruppen&quot;in einigen Kampagneneinstellungen und in den Einstellungen für MS-Anzeigengruppen
 
-**[!UICONTROL Location Targets]:** Bestimmte geografische Standorte des Benutzers, die als Ziele ein- oder ausgeschlossen werden sollen. Standardmäßig werden alle Orte als Ziel ausgewählt. Sie können Benutzer in einer beliebigen Kombination von Standorten ein- und ausschließen. Ausnahmen überschreiben Einschlüsse immer.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (Wenn verfügbar) Bestimmte geografische Standorte des Benutzers, die als Ziele ein- oder ausgeschlossen werden sollen. Standardmäßig werden alle Orte als Ziel ausgewählt. Sie können Benutzer in einer beliebigen Kombination von Standorten ein- und ausschließen. Ausnahmen überschreiben Einschlüsse immer.
 
 * Wählen Sie keine Orte aus, um alle Orte als Ziel auszuwählen.
 
