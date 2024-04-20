@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -342,7 +342,7 @@ Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Libra
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
 
-**[!UICONTROL Audience Signal]:** (Optional) [!DNL Google Ads] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Google Ads] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
+**[!UICONTROL Audience Signal]:** (Optional) [!DNL Google Ads] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Google Ads] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer zu finden wie Targeting, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
 
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von [Zielgruppenziele auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
@@ -364,3 +364,4 @@ Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf **[!UIC
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+
