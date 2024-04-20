@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
+source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Zeigt native/Display-Anzeigen auf der [!DNL Microsoft® Audience Network]. Sie können entweder a) automatisch Feed-basierte Anzeigen generieren, indem Sie die Kampagne mit einem Händler-Center-Store im [!UICONTROL Shopping Settings] oder b) erstellen Sie responsive Anzeigen mit Text-Assets und hochgeladenen Bildern. Bei beiden Optionen müssen Sie Anzeigengruppen mit Benutzer-Targeting erstellen.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen. Verwenden Sie für Einkaufskampagnen für Marken die Angebotsstrategie. [!UICONTROL Manual CPC]; für Shopping-Promotions für Marken, verwenden Sie die Angebotsstrategie. [!UICONTROL Cost per Sale].
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft® Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
 
-* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an. Zuweisen von Asset-Gruppen separat innerhalb der [!DNL Microsoft® Advertising] Anzeigeneditor.
+* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an, die [!DNL Microsoft Advertising] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, darunter Bilder, Logos, Überschriften, Beschreibungen, einen optionalen Aktionsaufruf und Zielgruppensignale. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,11 +58,15 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Angebotsstrategie für die Kampagne:
 
+* *[!UICONTROL Cost per Sale]:* (Nur Shopping-Kampagnen) Das Werbenetzwerk - nicht Search, Social und Commerce - optimiert Gebote auf der Grundlage der **[!UICONTROL Target CPS]** (Kosten pro Verkauf). Sie zahlen nur, wenn ein Klick auf Ihre Produktanzeige innerhalb von 24 Stunden zu einem Verkauf führt. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.<!-- Verify all -->
+
+  Nachdem Sie eine Einkaufskampagne für Marken mit dieser Angebotsstrategie gespeichert haben, können Sie die Angebotsstrategie nicht mehr ändern. Bei anderen Kampagnentypen ist diese Strategie nur für neue Kampagnen verfügbar.
+
 * *[!UICONTROL CPV]* (Nur Audience CTV-Videokampagnen) Verwendet das CPV-Modell (Cost-per-view). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
 
-* *[!UICONTROL Enhanced CPC]:* (Kampagnen in Zielgruppen-, Such- und Shopping-Netzwerken) Verwendet das verbesserte &quot;Cost-per-Click&quot;-Modell des Werbenetzwerks, mit dem das Anzeigennetzwerk das Angebot &quot;Cost-per-Click&quot;(CPC) für jede Auktion automatisch ändern kann, um Konversionen zu maximieren, indem Konversionen verwendet werden, die innerhalb des Werbenetzwerks (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, die durchschnittliche CPC unter Ihrer maximalen PC.
+* *[!UICONTROL Enhanced CPC]:* (Kampagnen in Zielgruppen-, Such- und Shopping-Netzwerken) Verwendet das verbesserte &quot;Cost-per-Click&quot;-Modell des Werbenetzwerks, mit dem das Anzeigennetzwerk das Angebot pro Klick (Cost-per-Click) für jede Auktion automatisch ändern kann, um Konversionen zu maximieren, indem Konversionen verwendet werden, die innerhalb des Werbenetzwerks (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, die durchschnittliche CPC unterhalb Ihrer maximalen PC.
 
-  Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio für Suche, Social und Handel hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen.
+  Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio von Search, Social und Commerce hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen.
 
 * *[!UICONTROL Manual CPC]*: (Shopping-Kampagnen für Marken; [!DNL Microsoft Store Ads] Kampagnen; veraltet von [!DNL Microsoft® Advertising] 2021 für andere Kampagnentypen) Verwendet das CPC-Modell (Cost-per-Click). Bei einigen Anzeigentypen können Sie optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
 
@@ -72,11 +76,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPM]* (Nur Zielgruppen-Kampagnen und Zielgruppen-Video-Kampagnen) Verwendet das CPM-Modell (Cost-per-Tausend-Impressions), für das Sie angeben, was Sie pro 1.000 angezeigten Impressionen ausgeben möchten. Kampagnen mit dieser Angebotsstrategie werden nicht optimiert, wenn sie in Portfolios enthalten sind.
 
-* *[!UICONTROL Maximize Clicks]:* (Such- und Shopping-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social, &amp; Commerce&quot; - optimiert Gebote zur Maximierung von Klicks. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick), um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Vorsicht:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden die Angebote von der Klickgewichtung und nicht vom Portfolioziel bestimmt.
+* *[!UICONTROL Maximize Clicks]:* (Such- und Shopping-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social und Commerce&quot; - optimiert Gebote zur Maximierung von Klicks. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick), um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Vorsicht:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden die Angebote von der Klickgewichtung und nicht vom Portfolioziel bestimmt.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Such- und Shopping-/Smart-Shopping-Netzwerke, Performance-Max-Kampagnen) Das Werbenetzwerk - nicht &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;- optimiert Gebote, um den Konversionswert zu maximieren. Geben Sie optional eine **[!UICONTROL Target Return on Ad Spend]** (ROAS) in Prozent. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversion Value]:* (Such- und Shopping-/Smart-Shopping-Netzwerke, Performance-Max-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social und Commerce&quot; - optimiert Gebote, um den Konversionswert zu maximieren. Geben Sie optional eine **[!UICONTROL Target Return on Ad Spend]** (ROAS) in Prozent. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
 
-* *[!UICONTROL Maximize Conversions]:* (Leistungsmax. Kampagnen und Kampagnen im Suchnetzwerk oder Zielgruppennetzwerk (aber nicht Zielgruppenvideos oder vernetztes Fernsehen) Das Werbenetzwerk — nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;— optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional eine **[!UICONTROL Target CPC]** (Kosten pro Klick). Für Zielgruppenkampagnen können Sie auch eine optionale **[!UICONTROL Target CPA]** (Kosten pro Akquise). **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversions]:* (Leistungsmax-Kampagnen und -Kampagnen im Suchnetzwerk oder Zielgruppennetzwerk (aber nicht Zielgruppenvideos oder vernetztes Fernsehen) Das Werbenetzwerk - nicht &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot; - optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional eine **[!UICONTROL Target CPC]** (Kosten pro Klick). Für Zielgruppenkampagnen können Sie auch eine optionale **[!UICONTROL Target CPA]** (Kosten pro Akquise). **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
 
 * *[!UICONTROL Target CPA]:* (Kampagnen im Suchnetzwerk) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), der Durchschnittsbetrag von 30 Tagen, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer beliebigen Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
 
@@ -104,7 +108,6 @@ Nachdem Sie die Kampagne mit einem Store verknüpft und die Einstellungen gespei
 
 {{$include /help/_includes/merchant-id.md}}
 
-
 **[!UICONTROL Products]:** (Nur Zielgruppenkampagnen, die mit einem Händler-Center-Store verknüpft sind) Die zu bewertenden Produkte. Standardmäßig ist *[!UICONTROL All products]* ausgewählt ist. Um nur Produkte mit bestimmten Attributen zu bewerben, wählen Sie *[!UICONTROL Filter products]* und geben Sie bis zu sieben Produkt-Dimensions- und -Attributkombinationen an, nach denen Ihre Produkte gefiltert werden sollen. Alle angegebenen Werte müssen gelten, damit Anzeigen für das Produkt angezeigt werden. Wenn Sie beispielsweise Anzeigen für Acme-Heimtiervorräte anzeigen möchten, können Sie die Filter erstellen `Custom Label 1=animals`, `Category=pet supplies`, und `Brand=Acme Pet Supplies`.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
@@ -112,6 +115,8 @@ Nachdem Sie die Kampagne mit einem Store verknüpft und die Einstellungen gespei
 {{$include /help/_includes/inventory-filter.md}}
 
 ## [!UICONTROL Campaign Targeting]
+
+**[!UICONTROL Languages]:** (Nur Kampagnen mit der maximalen Leistung) Die Sprache der Anzeige, die mit der Sprache der Sites übereinstimmen sollte, auf denen Ihre Anzeige erscheint. [!DNL Microsoft Advertising] bestimmt die Sprache eines Benutzers anhand verschiedener Signale, einschließlich der Abfrage des Benutzers, des Landes des Herausgebers und der Spracheinstellung des Benutzers.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -192,6 +197,103 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Asset Groups] (pro Asset-Gruppe)
+
+**[!UICONTROL Asset Group Name]:** Der Name des Asset-Ordners (Asset-Gruppe).
+
+**[!UICONTROL Asset Group Status]:** Der Status der Asset-Gruppe: *[!UICONTROL Active]* oder *[!UICONTROL Paused]*.
+
+**[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden.
+
+**[!UICONTROL Images]:** Bis zu 20 Bilder für die Anzeige, darunter mindestens ein quadratisches Bild und ein Landschaftsbild. Siehe [[!DNL Microsoft Advertising] Bildrichtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* So laden Sie Bilder hoch:
+
+   1. Im [!UICONTROL Upload from Device] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+
+   1. Für jedes Bild:
+
+      1. Wählen Sie das Seitenverhältnis aus.
+
+      1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
+
+      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+
+         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+
+      1. Klicks **[!UICONTROL Proceed]**.
+
+   1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+
+* So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
+
+**[!UICONTROL Logos]:** Mindestens ein Logo. Sie können bis zu fünf einbeziehen. Siehe [[!DNL Microsoft Advertising] Asset-Richtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* So laden Sie Bilder hoch:
+
+   1. Im [!UICONTROL Upload from Device] Registerkarte, klicken **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+
+   1. Für jedes Bild:
+
+      1. Wählen Sie das Seitenverhältnis aus.
+
+      1. Ziehen Sie das Zuschnittrahmen nach Bedarf an die gewünschte Position, um den sichtbaren Teil des Bildes auszuwählen und die Größe des sichtbaren Teils des Bildes nach Möglichkeit anzupassen.
+
+      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse aus und positionieren Sie das Bild nach Bedarf für jedes ausgewählte Seitenverhältnis neu und ändern Sie die Größe.
+
+         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+
+      1. Klicks **[!UICONTROL Proceed]**.
+
+   1. Wenn Sie mit der Angabe von Bildern fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+
+* So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
+
+**[!UICONTROL Headlines]:** Mindestens drei, bis zu 15, kurze Überschriften mit jeweils maximal 30 Zeichen. Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
+
+**[!UICONTROL Long Headlines]:** Mindestens eine und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf. Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
+
+**[!UICONTROL Descriptions]:** Mindestens zwei bis fünf Beschreibungen mit jeweils maximal 90 Zeichen. Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+
+* Texteingabe:
+
+   1. Im [!UICONTROL Enter Text] eingeben.
+
+   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+
+* So wählen Sie Assets aus Ihrem [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
+
+**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Act Now]* ausgewählt ist.
+
+**[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen. Es kann keine Skripte, HTML oder andere Markup-Sprachen enthalten.
+
+**[!UICONTROL Audience Signal]:** (Optional) [!DNL Microsoft Advertising] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Microsoft Advertising] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
+
+>[!NOTE]
+>Zielgruppensignale unterscheiden sich von [Zielgruppenziele auf Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
+<!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
+
+{{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Add new asset group]:** Ermöglicht die Angabe einer anderen Asset-Gruppe.
 
 ## [!UICONTROL Conversion Goals]
 
