@@ -3,7 +3,7 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Webseiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
+source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
    1. Fügen Sie Ihren Webseiten den folgenden Parameter vor oder innerhalb der [JavaScript-Code erforderlich für [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - an einer beliebigen Stelle, bevor der letzte Ereignisdienst initialisiert wird.
 
-      `window.id5PartnerId=Your_ID5_PartnerID;`
+      ```window.id5PartnerId=Your_ID5_PartnerID;```
 
       Beispiel:
 
