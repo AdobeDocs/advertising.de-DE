@@ -3,7 +3,7 @@ title: Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] 
 description: Erfahren Sie, warum und wie Sie [!DNL Analytics for Advertising] Makros für Ihre [!DNL Flashtalking] Adtags
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der 
 [ftqs:[AdobeAMO]]
 ```
 
-Hierbei handelt es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL, die dann von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
 
 Beispiele:
 
@@ -52,7 +52,7 @@ Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der 
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Hierbei handelt es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL, die dann von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
 
 Beispiele:
 
