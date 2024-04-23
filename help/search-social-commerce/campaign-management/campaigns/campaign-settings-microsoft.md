@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Angebotsstrategie für die Kampagne:
 
-* *[!UICONTROL Cost per Sale]:* (Nur Shopping-Kampagnen) Das Werbenetzwerk - nicht Search, Social und Commerce - optimiert Gebote auf der Grundlage der **[!UICONTROL Target CPS]** (Kosten pro Verkauf). Sie zahlen nur, wenn ein Klick auf Ihre Produktanzeige innerhalb von 24 Stunden zu einem Verkauf führt. **Hinweis:** Schließen Sie Kampagnen mit dieser Angebotsstrategie nicht in Portfolios ein. Die Optimierung von Suche, Social und Commerce steht nicht für Kampagnen mit dieser Angebotsstrategie zur Verfügung.
+* *[!UICONTROL Cost per Sale]:* (Nur Shopping-Kampagnen) Das Werbenetzwerk - nicht Search, Social und Commerce - optimiert Gebote auf der Grundlage der [!UICONTROL Target CPS] (Kosten pro Verkauf). Sie zahlen nur, wenn ein Klick auf Ihre Produktanzeige innerhalb von 24 Stunden zu einem Verkauf führt. **Hinweis:** Schließen Sie Kampagnen mit dieser Angebotsstrategie nicht in Portfolios ein. Die Optimierung von Suche, Social und Commerce steht nicht für Kampagnen mit dieser Angebotsstrategie zur Verfügung.
 
   Nachdem Sie eine Einkaufskampagne für Marken mit dieser Angebotsstrategie gespeichert haben, können Sie die Angebotsstrategie nicht mehr ändern. Bei anderen Kampagnentypen ist diese Strategie nur für neue Kampagnen verfügbar.
 
