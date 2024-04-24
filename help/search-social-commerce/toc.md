@@ -4,7 +4,7 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Einblicke in Recommendations und Publisher {#recommendations}
       + [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Anwenden oder Verwerfen eines [!DNL Google Ads] Empfehlung](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Instrumente {#tools}
    + [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
    + Tools zum Erstellen und Dekodieren von Tracking-Tags{#tracking}

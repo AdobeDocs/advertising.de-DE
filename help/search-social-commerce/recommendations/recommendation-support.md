@@ -3,9 +3,9 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *Beta-Funktion für [!DNL Microsoft® Advertising] Konten*
 
-[!DNL Google Ads] Empfehlungen und [!DNL Microsoft® Advertising] Leistungseinblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
+[!DNL Google Ads] und [!DNL Microsoft® Advertising] Empfehlungen und Einblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
 
 * Jeder [!DNL Google Ads] Die Empfehlung bietet benutzerdefinierte Vorschläge zu den verschiedenen Leistungsaspekten einer Kampagne - vom Hinzufügen eines Assets bis zur Erhöhung des Budgets - basierend auf dem Leistungsverlauf Ihres Kontos, den Kampagneneinstellungen und Trends über [!DNL Google Ads].
 
-* Jeder [!DNL Microsoft® Advertising] Performance Insight weist Sie auf erhebliche Schwankungen in einem Manager-Konto, Advertiser-Konto oder einer Kampagne hin. Identifiziert die möglichen Ursachen und schlägt Maßnahmen zur Leistungsoptimierung vor.
+* Jeder [!DNL Microsoft® Advertising] Leistungseinblicke und Empfehlungen schlagen Änderungen zur Optimierung der Kampagnenleistung anhand von Algorithmen und Best Practices für maschinelles Lernen vor.
 
 ## Die [!UICONTROL Recommendations & Publisher Insights] Ansicht
 
 Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]können Sie:
 
-* Sehen Sie sich auf einen Blick alle unterstützten Empfehlungen an, auf die für eine [!DNL Google Ads] Konto oder alle Leistungseinblicke, die in den letzten 30 Tagen für eine [Microsoft® Advertising] -Konto. Zu den Informationen für jeden Eintrag gehören die Details zu Empfehlungen/Insight und die betroffenen Entitäten. Für [!DNL Google Ads] Konten, erwartete Erhöhungen von Metriken werden grün hervorgehoben.
+* Sehen Sie sich auf einen Blick alle unterstützten Empfehlungen an, auf die für ein Konto nicht reagiert wurde. Zu den Informationen für jeden Eintrag gehören der Empfehlungstyp, die [!DNL Adobe] Empfehlung, die betroffenen Metriken, die betroffene Entität und einen Link zu weiteren Details. Prognostizierte Erhöhungen von Metriken werden grün hervorgehoben.
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
   Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") unten links auf der Seite.
 
-* Für [!DNL Google Ads] Konten:
+* Für [Microsoft® Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [Microsoft® Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des Microsoft® Advertising-Editors, über den Sie auf bestimmte Einblicke reagieren können.
 
-   * Zeigen Sie Empfehlungsdetails an und wenden Sie eine Empfehlung direkt an oder verwerfen Sie sie.
+* Zeigen Sie Details zu einer Empfehlung an und wenden Sie die Empfehlung direkt an oder verwerfen Sie sie.
 
-   * Zeigen Sie ein Protokoll aller Empfehlungen an, die für das Konto angewendet wurden, einschließlich der betroffenen Entitäten, die die Empfehlung angewendet haben, und des Zeitstempels.
-
-* Für [Microsoft® Advertising] Konten, öffnen Sie die [!DNL Microsoft® Advertising] Editor, in dem Sie auf einen bestimmten Einblick reagieren können.
+* Zeigen Sie ein Protokoll aller Empfehlungen an, die für das Konto angewendet wurden, einschließlich der betroffenen Entitäten, die die Empfehlung angewendet haben, und des Zeitstempels.
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Search partners opt in] | Reichweite erweitern mit [!DNL Google] Suchpartner |
 | | [!UICONTROL Use broad match keyword] | Verwenden Sie eine breite Übereinstimmung für konversionsbasierte Kampagnen mit vollautomatisierter konversionsbasierter Gebote. |
 
+## Unterstützte Empfehlungstypen für [!DNL Microsoft Advertising]
+
+| Empfehlungskategorie | Empfehlungstyp | Beschreibung |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Neue responsive Suchanzeige hinzufügen |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | Fehlerbehebung für Kampagnen, die nach Budget begrenzt sind |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | Neue Suchbegriffe aus allen Quellen hinzufügen |
+
 >[!MORELIKETHIS]
 >
 >* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
->* [Anwenden oder Verwerfen eines [!DNL Google Ads] Empfehlung](google-recommendation-apply-dismiss.md)
->* [Anzeigen des Empfehlungsprotokolls für eine [!DNL Google Ads] account](google-recommendation-view-log.md)
->* [Best Practices für die Verwendung von Empfehlungen und Einblicken von Herausgebern in Portfolios](recommendation-best-practices.md)
+>* [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](recommendation-apply-dismiss.md)
+>* [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](recommendation-view-log.md)
+>* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)
