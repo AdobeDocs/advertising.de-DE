@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Anzeigengruppen.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
+source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ ht-degree: 0%
 {{$include /help/_includes/location-targets.md}}
 
 Für [!DNL Microsoft® Advertising] Anzeigengruppen im Zielgruppennetzwerk werden Gebotsmodifikatoren für Standortziele nicht in Standard-Portfolios mit dem Wert[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+
+**[!UICONTROL Genre]:** (Anzeigengruppen in [!UICONTROL Audience CTV Video] Kampagnen; verfügbar in USA, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY und TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Die Zielgenerationen, die die Anzeigen und Kanäle bestimmen, auf denen Ihre Anzeigen erscheinen:
+
+* *[!UICONTROL All genres]:* (Standard) Alle Genres werden als Ziel ausgewählt.
+
+* *[!UICONTROL Select From Below List]:* Auswahl der Zielgruppen. Wählen Sie aus der Liste aller verfügbaren Genres aus.
+
+Die Werbeplatzierung für Connected TV (CTV) hängt von Ihrer Videoqualität und Ihrem Angebotsbetrag ab. Siehe [Technische Anforderungen für CTV-Anzeigen](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 
