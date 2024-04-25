@@ -3,7 +3,7 @@ title: Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto
 description: Erfahren Sie, wie Sie ein Protokoll der einzelnen Empfehlungen anzeigen, die für eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] -Konto.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -32,3 +32,4 @@ Die verworfenen Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 >* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
 >* [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](recommendation-apply-dismiss.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)
+
