@@ -3,9 +3,9 @@ title: Klick-Tracking-URL generieren
 description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Suche, Social und Commerce generieren.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Die Datei kann bis zu 10.000 Zeilen enthalten.
 
-         * ([!DNL Google Merchant Center] Produktgruppen [DNL Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
