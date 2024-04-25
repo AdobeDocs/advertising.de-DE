@@ -1,18 +1,18 @@
 ---
 title: Klick-Tracking-URL generieren
 description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Suche, Social und Commerce generieren.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Generieren einer Klick-Tracking-URL für Search, Social und Commerce mithilfe des Tools Tracking-URLs
 
-*Werbetreibende, die nur Adobe Advertising-Konversions-Tracking verwenden*
+*Advertiser mit nur Adobe Advertising-Konversions-Tracking*
 
 Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und implementieren müssen, finden Sie unter[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -48,7 +48,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Die Datei kann bis zu 10.000 Zeilen enthalten.
 
-         * ([!DNL Google Merchant Center] Produktgruppen [Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [DNL Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
@@ -76,7 +76,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Beispiel: Acme PR208**http://www.example.com/travel.html
 
-   1. Klicken **[!UICONTROL Generate Tracking URLs]**.
+   1. Klicks **[!UICONTROL Generate Tracking URLs]**.
 
 1. (Optional) Kopieren Sie die URLs (beginnend mit &quot;http&quot;oder &quot;https&quot;) von der Bildschirm- oder Ausgabeseite und implementieren Sie sie in das Such- oder Social-Konto.
 
