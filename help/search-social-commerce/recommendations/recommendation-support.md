@@ -3,9 +3,9 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
+source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
   Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") unten links auf der Seite.
 
-* Für [DNL Microsoft® Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [DNL Microsoft® Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des Microsoft® Advertising-Editors, über den Sie auf bestimmte Einblicke reagieren können.
+* Für [!DNL Microsoft® Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [!DNL Microsoft® Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen der [!DNL Microsoft® Advertising] Editor, von dem aus Sie auf bestimmte Einblicke reagieren können.
 
 * Zeigen Sie Details zu einer Empfehlung an und wenden Sie die Empfehlung direkt an oder verwerfen Sie sie.
 
