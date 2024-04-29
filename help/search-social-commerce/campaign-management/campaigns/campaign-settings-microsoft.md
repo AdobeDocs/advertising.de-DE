@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 
 **[!UICONTROL Conversion Goal]:** Ob *[!UICONTROL Use account conversion goals for this campaign]* (Standardeinstellung) oder *[!UICONTROL Use campaign specific conversion goals]*. Wenn Sie Konversionsziele für die Kampagne festlegen, wählen Sie die Ziele aus der Liste aller verfügbaren Ziele aus. **Hinweis:** Ziele werden täglich synchronisiert, sodass in den letzten 24 Stunden erstellte Ziele möglicherweise nicht aufgelistet werden. So aktualisieren Sie die Liste: [Manuelles Synchronisieren der Daten des Anzeigennetzwerks](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-Wenn die Kampagne Teil eines Portfolios ist, verwenden Sie dieselben Konversionsziele wie das Ziel des Portfolios. Die Verwendung verschiedener Konversionsziele kann sich auf die Portfolioleistung auswirken.
+>[!TIP]
+>
+>Bei hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch Konversionen umfassen, die von der [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag, und fügen Sie sie dann im [!DNL Microsoft Advertising] Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Microsoft Advertising] Entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie die Option &quot;In Konversionen einschließen&quot;deaktivieren.
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
