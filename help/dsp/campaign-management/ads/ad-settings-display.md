@@ -3,7 +3,7 @@ title: Anzeigeeinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Display-Anzeigen.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Die folgenden Einstellungen gelten für standardmäßige Display-Anzeigen.
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. die Holiday-Produktvorschau: 300x250 Gamer&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (wie z. B. Holiday Product Preview: 300x250 Gamer&quot;).
 
 **\[Anzeigenquelle\]**: (schreibgeschützt) *[!UICONTROL 3rd party]*.
 
@@ -52,7 +52,7 @@ Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel Trigger wird, um ausgelöst zu werden. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
 
@@ -60,7 +60,7 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 
 **[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, mit dem Sie das Pixel leicht identifizieren können.
 
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* oder *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [DSP Makros](/help/dsp/campaign-management/macros.md)
-

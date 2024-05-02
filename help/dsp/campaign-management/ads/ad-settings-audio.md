@@ -3,9 +3,9 @@ title: Audio-Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Audioanzeigen.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: Die VAST-Tag-URL.
 
-**[!UICONTROL Title]**: Ein Name für die Datei, der im [!UICONTROL Ads] Anzeigen und Berichten.
+**[!UICONTROL Title]**: Ein Name für die Datei, der im [!UICONTROL Ads] anzeigen und Berichte anzeigen.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. die Holiday-Produktvorschau: 30 Sek. Audio&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (wie z. B. Holiday Product Preview: 30sec Audio&quot;).
 
 **[!UICONTROL Ad Duration]:** Die Länge der Audiodatei. Sie wird automatisch als [!UICONTROL 15] oder [!UICONTROL 30], abhängig von der ausgewählten Anzeigeneinheit.
 
@@ -44,7 +44,7 @@ Je nach den Kontoberechtigungen kann dieses Feld angezeigt werden.
 
 **[!UICONTROL Final VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden) Die URL für die Anzeigenquelle eines Drittanbieters mit den erforderlichen [Anzeigen DSP Tracking-Makros](/help/dsp/campaign-management/macros.md) gegebenenfalls eingefügt.
 
-**[!UICONTROL Select Rate]:** (Nur Benutzer mit Berechtigung) Ein vorab ausgehandelter Preis, der über die Adobe in Rechnung gestellt wird, oder einer der Tarife, die Sie ausgehandelt haben und für die Sie vom Anbieter in Rechnung gestellt werden. Wenden Sie sich zum Hinzufügen einer Gebühr an Ihr Adobe Account Team.
+**[!UICONTROL Select Rate]:** (Nur Benutzer mit Berechtigung) Ein vorab ausgehandelter Preis, der über Adobe in Rechnung gestellt wird, oder einer der Tarife, die Sie ausgehandelt haben und für die Sie vom Anbieter in Rechnung gestellt werden. Wenden Sie sich zum Hinzufügen einer Gebühr an Ihr Adobe-Account-Team.
 
 ### Pixel
 
@@ -52,15 +52,15 @@ Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel Trigger wird, um ausgelöst zu werden. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG UR]L* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
 
 **[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für den angegebenen Pixeltyp.
 
 **[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, mit dem Sie das Pixel leicht identifizieren können.
 
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* oder *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Der Pixelanbieter:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [DSP Makros](/help/dsp/campaign-management/macros.md)
-

@@ -3,9 +3,9 @@ title: Native Anzeigeanzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für native Display-Anzeigen.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. die Holiday-Produktvorschau: 15sec Native&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung anhängen, in der [!UICONTROL Ads] und in Berichten anzeigen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (wie z. B. Holiday Product Preview: 15sec Native&quot;).
 
-**[!UICONTROL Native Creative]:** Bild mit einer Größe von 1200 x 627, um die Bereitstellung im mobilen Inventar zu maximieren. Klicken **[!UICONTROL Browse]** und suchen Sie die Datei auf Ihrem Gerät oder Netzwerk und klicken Sie auf **[!UICONTROL Upload]**.
+**[!UICONTROL Native Creative]:** Bild mit einer Größe von 1200 x 627, um die Bereitstellung im mobilen Inventar zu maximieren. Klicks **[!UICONTROL Browse]** und suchen Sie die Datei auf Ihrem Gerät oder Netzwerk und klicken Sie auf **[!UICONTROL Upload]**.
 
 **[!UICONTROL Title]:** Ein auffälliger Titel, mit dem Zuschauer interagieren können.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (Optional) Der Schritt, den Viewer ausführen sollen, sobald sie diese Anzeige sehen.
 
-**[!UICONTROL Advertiser Logo]:** (Optional) Ein 1:1-Ratio-Logo, das in die Anzeige aufgenommen wird, um die Markenerkennung zu verbessern. Klicken **[!UICONTROL Browse]** und suchen Sie die Datei auf Ihrem Gerät oder Netzwerk und klicken Sie auf **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (Optional) Ein 1:1-Ratio-Logo, das in die Anzeige aufgenommen wird, um die Markenerkennung zu verbessern. Klicks **[!UICONTROL Browse]** und suchen Sie die Datei auf Ihrem Gerät oder Netzwerk und klicken Sie auf **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
@@ -46,7 +46,7 @@ Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel Trigger wird, um ausgelöst zu werden. Für diesen Anzeigentyp ist die einzige Option *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel zum Auslösen Trigger wird. Für diesen Anzeigentyp ist die einzige Option *[!UICONTROL Impression]*.
 
 **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
 
@@ -54,7 +54,7 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 
 **[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, mit dem Sie das Pixel leicht identifizieren können.
 
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* oder *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -63,4 +63,3 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [DSP Makros](/help/dsp/campaign-management/macros.md)
-

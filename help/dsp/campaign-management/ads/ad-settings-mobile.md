@@ -3,7 +3,7 @@ title: Einstellungen für mobile Anzeigen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für mobile Anzeigen.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]** oder **[!UICONTROL Ad Tag]**: Ein VAST-Anzeigen-Tag oder Anzeigen-Tag eines Drittanbieters, das kreative Assets und Tracking-Pixel enthält
 
-**[!UICONTROL Ad Title]** oder **[!UICONTROL Title]**: Ein Name für die Anzeige, die in der [!UICONTROL Ads] Anzeigen und Berichten.
+**[!UICONTROL Ad Title]** oder **[!UICONTROL Title]**: Ein Name für die Anzeige, die in der [!UICONTROL Ads] anzeigen und Berichte anzeigen.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der Anzeigen-Ansicht und in Berichten anhängen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. die Holiday-Produktvorschau: 300x250 Gamer&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der Anzeigen-Ansicht und in Berichten anhängen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (wie z. B. Holiday Product Preview: 300x250 Gamer&quot;).
 
 **\[Anzeigenquelle\]**: (schreibgeschützt) *[!UICONTROL 3rd party]*.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der Anzeigen-Ansicht und in Berichten anhängen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. die Holiday-Produktvorschau: 30 Sek. Telefonvorwahl&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der Anzeigen-Ansicht und in Berichten anhängen. Beschreiben Sie beispielsweise den Gerätetyp und einige wichtige Attribute (z. B. Holiday Product Preview: 30 Sek. Phone Preroll).
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** Die Breite der gesamten Anzeigeneinheit. Diese Option kann je nach ausgewähltem Anzeigentyp gesperrt werden.
 
@@ -70,13 +70,13 @@ Dies entspricht dem **[!UICONTROL Height]** -Feld.
 
 **[!UICONTROL Show Controls]:** Wo Sie Videosteuerelemente für die Anzeige einbeziehen: *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* oder *[!UICONTROL None]* (Standardeinstellung).
 
-**[!UICONTROL Preserve Aspect Ratio]:** Gibt an, ob die Breite und Höhe des Videos beibehalten werden sollen (*[!UICONTROL Yes]*) oder um das Video so zu dehnen, dass der verfügbare Platz (*[!UICONTROL No]*).
+**[!UICONTROL Preserve Aspect Ratio]:** Gibt an, ob die Breite und Höhe des Videos beibehalten werden sollen (*[!UICONTROL Yes]*) oder das Video zu dehnen, um den verfügbaren Platz (*[!UICONTROL No]*).
 
 **[!UICONTROL Close Button Delay]:** (Einige Anzeigentypen) Die Anzahl der Sekunden, um die Anzeige der Schließen-Schaltfläche zu verzögern.
 
-**[!UICONTROL VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag des Drittanbieters, das Sie als kreatives Asset eingegeben haben.
+**[!UICONTROL VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag eines Drittanbieters, das Sie als kreatives Asset eingegeben haben.
 
-**[!UICONTROL Final VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag des Drittanbieters, das Sie als kreatives Asset mit den erforderlichen [Anzeigen DSP Tracking-Makros](/help/dsp/campaign-management/macros.md) gegebenenfalls eingefügt.
+**[!UICONTROL Final VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag eines Drittanbieters, das Sie als kreatives Asset mit den erforderlichen [Anzeigen DSP Tracking-Makros](/help/dsp/campaign-management/macros.md) gegebenenfalls eingefügt.
 
 **[!UICONTROL Wmode]:** (Einige Anzeigentypen) Der Fenstermodus: *[!UICONTROL window]*, *[!UICONTROL transparent]* oder *[!UICONTROL opaque]*.
 
@@ -86,7 +86,7 @@ Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel Trigger wird, um ausgelöst zu werden. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
 
@@ -94,7 +94,7 @@ Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bear
 
 **[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, mit dem Sie das Pixel leicht identifizieren können.
 
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* oder *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
 ### [!UICONTROL Sharing]
 
@@ -107,4 +107,3 @@ Veraltet
 >* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [DSP Makros](/help/dsp/campaign-management/macros.md)
-
