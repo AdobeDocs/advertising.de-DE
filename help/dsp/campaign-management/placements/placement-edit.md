@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere Platzierungen gleichzeitig bearbeiten.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer Teilmenge von Feldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md).&quot;
 
 ## Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budget bearbeiten, ohne die vollständigen Platzierungseinstellungen zu öffnen.
 
