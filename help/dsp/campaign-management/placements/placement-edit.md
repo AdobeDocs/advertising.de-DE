@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budget bearbeiten, ohne die vollständigen Platzierungseinstellungen zu öffnen.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+1. Klicken Sie auf den Namen der Kampagne.
+1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
+1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Bearbeiten von verfügbaren [Platzierungseinstellungen](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, und **[!UICONTROL Budget]**.
+1. Klicks **[!UICONTROL Apply]**.
+
 ## Einzelplatzierung bearbeiten
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten von Platzierungsname, Status, Höchstgebot und Budget finden Sie unter &quot;[Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Informationen zum Bearbeiten von Platzierungsname, Status, Höchstgebot und Budget finden Sie unter &quot;[Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](#placement-quick-edit).&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](placement-quick-edit.md)
+>* [Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >* [Platzierungseinstellungen](placement-settings.md)
 >* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

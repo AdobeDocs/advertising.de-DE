@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [Über die Platzierungsverwaltung](/help/dsp/campaign-management/placements/placement-about.md)
       + [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
       + [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Platzierung duplizieren](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Anzeigen der platzierungsdiagnostischen Berichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Warnhinweise anzeigen](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Datenansichten Ihrer Kampagne verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Korrekte Platzierungseinstellungen mithilfe von Tabellen {#qa-spreadsheet}
-      + [Informationen zum Korrigieren von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Platzierungseinstellungen in einer Tabelle herunterladen](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Platzierungseinstellungen in eine Tabelle hochladen](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Spalten in heruntergeladenen/hochgeladenen Tabellen](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP Makros](/help/dsp/campaign-management/macros.md)
    + [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
