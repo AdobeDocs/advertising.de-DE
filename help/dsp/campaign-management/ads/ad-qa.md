@@ -2,9 +2,9 @@
 title: Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen
 description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen überprüfen.
 feature: DSP Ads
-source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
+source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ Sie können die Einstellungen für alle Anzeigen einer Kampagne im XLSX-Format (
 >[!MORELIKETHIS]
 >
 >* [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
