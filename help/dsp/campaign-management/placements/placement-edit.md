@@ -3,9 +3,9 @@ title: Eine Platzierung bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Eine Platzierung bearbeiten
 
 Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere Platzierungen gleichzeitig bearbeiten.
+
+>[!NOTE]
+>
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer Teilmenge von Feldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md).&quot;
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
