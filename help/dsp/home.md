@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4f73beed93be30187148a4425e5062d5bcd05dc9
+source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
 workflow-type: tm+mt
-source-wordcount: '2723'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,14 @@ ht-degree: 0%
 # Neue Funktionen
 
 Die folgenden Funktionen sind neu oder kürzlich geändert worden.
-
+<!--
+|  | Ads, Pixels |  |  | 
+-->
+>>
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 2. Mai 2024 | Platzierungen, Anzeigen | Die [!UICONTROL Ad Tools] -Ansicht bietet jetzt die Möglichkeit, mehrere Tracking-Pixel von Drittanbietern an eine oder mehrere Anzeigen anzuhängen und vorhandene Tracking-Pixel von Drittanbietern von Anzeigen zu trennen. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2. Mai 2024 | Anzeigen, Pixel | Die [!UICONTROL Ad Tools] Ansicht > [!UICONTROL Attach Pixels] -Tab zeigt die an Ihre Anzeigen angehängten Tracking-Pixel von Drittanbietern an und bietet einen neuen Workflow zum Anhängen von Pixeln an eine oder mehrere Anzeigen und zum Trennen vorhandener Pixel. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+|  | Platzierungen, Zielgruppen | Sie können jetzt einzelne Zielgruppensegmente oder nicht wiederverwendbare Zielgruppen über Tools zur Massenbearbeitung oder den Platzierungs-Editor aus Platzierungen ausschließen. | Siehe &quot;[Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot; und &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18. April 2024 | Praktika | Sie können jetzt Angebotsmodifikatoren erstellen und verwalten, mit denen ein Angebot multipliziert wird, um das Angebot zu erhöhen oder zu verringern, und zwar für bestimmte Zieltypen für eine Platzierung. Der Standard-Angebotsmodifikator ist 1,00, was bedeutet, dass keine Erhöhung oder Verringerung erfolgt. Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise reduziert ein Angebotsmodifikator von 0,50 ein Angebot von 6 USD auf 3 USD (0,50 x 6). Wenn eine Auktion für mehrere Angebotsmodifikatoren qualifiziert ist, werden alle anwendbaren Angebotsmodifikatoren multipliziert. Angebotsmodifikatoren erhöhen das Angebot nie auf mehr als das Höchstangebot. | Siehe &quot;[Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 3. April 2024 | Inventarpartner | Der EU-Sitz der Adobe Advertising [!DNL Google Authorized Buyers] wurde mit dem vorhandenen APAC-Sitz zusammengeführt. | Siehe &quot;[SSP-Partner](/help/dsp/inventory/ssp-partners.md).&quot; |
 |   | Optimierung | Neu `CPA` (Kosten pro Akquisition) und `ROAS` Metriken (Rendite aus Werbeausgaben) in Paket-, Platzierungs- und zugehörigen Tabellen bieten ein präziseres Performance-Tracking für Pakete und Platzierungen mit zugehörigen Zielen. Die neue CPA-Metrik berücksichtigt nur das endgültige Konversionsereignis (z. B. Anmeldungen) zur Berechnung der Kosten pro Akquise, was ein genaueres Bild der tatsächlichen CPA liefert als die veraltete benutzerdefinierte Zielmetrik, die auch Obertrichter-Ereignisse (z. B. Seitenbesuche und Zusatz zum Warenkorb) in die Berechnung einbezog. In ähnlicher Weise berücksichtigt die neue ROAS-Metrik nur das endgültige Umsatzereignis (z. B. Käufe und Kaufwerte), das für die Nachverfolgung der Leistung zuverlässiger ist als die veraltete benutzerdefinierte Zielmetrik.<br><br>Wenn Sie jetzt ein Paket mit einem CPA- oder ROAS-basierten Optimierungsziel einrichten, müssen Sie das endgültige Konversions- oder Umsatzereignis sowie ein benutzerdefiniertes Ziel angeben, das das Konversions- oder Umsatzereignis enthält. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete Obertrichter-Ereignisse (wie Seitenbesuche und Zusatz zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik zur Paketoptimierung verwendet werden.<br><br>Darüber hinaus wurden die leistungsorientierten Optimierungsziele aus Gründen der Einfachheit kombiniert:<ul><li>Die neue &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Ziel ersetzt die alte[!UICONTROL Highest ROAS - Custom Goal]&quot; und [!UICONTROL Highest ROAS (click focused) - Custom Goal],&quot;mit Optionen, um eines der beiden Legacy-Szenarien zu erreichen.</li><li>Die neue &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Ziel ersetzt die alte[!UICONTROL Lowest CPA - Custom Goal]&quot; und [!UICONTROL Lowest CPA (click focused) - Custom Goal],&quot;mit Optionen, um eines der beiden Legacy-Szenarien zu erreichen.</li></ul>Ihre vorhandenen Pakete, die die alten Ziele verwendet haben, wurden automatisch mit den entsprechenden Einstellungen in die neuen Ziele migriert. Sie müssen keine Änderungen manuell vornehmen. | Siehe &quot;[Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md), &quot;&quot;[Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md),&quot; und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
