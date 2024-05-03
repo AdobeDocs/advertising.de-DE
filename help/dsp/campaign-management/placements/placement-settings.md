@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ Optional können Sie die Liste der Ziel- und Blockierungssites als CSV-Datei (CS
 
 * Um eine existierende Zielgruppe auszuwählen, klicken Sie auf ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Excluded Audiences]und wählen Sie dann die Zielgruppe aus.
 * Um eine Zielgruppe zu erstellen, klicken Sie auf ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Excluded Audiences]und wählen Sie **+ Zielgruppe erstellen**. Anweisungen finden Sie unter [Wiederverwendbare Zielgruppe erstellen](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
+* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[Wiederverwendbare Zielgruppe erstellen](/help/dsp/audiences/reusable-audience-create.md).&quot; Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 **[!UICONTROL Cross Device Targeting]:** (Verfügbar, wenn Sie mindestens ein Segment oder eine Zielgruppe auswählen und die [Die Kampagne ist für benutzerbasiertes geräteübergreifendes Targeting konfiguriert.](/help/dsp/campaign-management/campaigns/campaign-settings.md). Ermöglicht die Erweiterung des Targetings auf alle bekannten Geräte einer Person (entsprechend dem in den Kampagneneinstellungen angegebenen Gerätediagramm), auch auf Geräte, die nicht in den angegebenen Segmenten enthalten sind. Die Gebühren können je nach dem für die Kampagne angegebenen Diagramm gelten. Gerätediagrammdaten sind nur in Nordamerika verfügbar.
 
