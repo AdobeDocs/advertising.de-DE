@@ -1,16 +1,16 @@
 ---
-title: Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen
+title: Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen mithilfe von Tabellen überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen
+# Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen
 
 Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details wie die folgenden schnell zu überprüfen:
 
@@ -22,7 +22,7 @@ Anschließend können Sie Änderungen an den ausgewählten Feldern vornehmen und
 
 >[!TIP]
 >
->Verwenden Sie die [Massenbearbeitungsfunktion](/help/dsp/campaign-management/placements/placement-edit.md).
+>Weitere Felder für eine oder mehrere Platzierungen können Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Download-Einstellungen für alle Platzierungen in einer Kampagne
 
@@ -193,5 +193,5 @@ Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Siehe &q
 
 >[!MORELIKETHIS]
 >
->* [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

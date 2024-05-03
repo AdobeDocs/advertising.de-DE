@@ -3,9 +3,9 @@ title: Platzierungen auflisten, die einer Anzeige zugeordnet sind
 description: Erfahren Sie, wie Sie die Platzierungen sehen, die mit einer Anzeige verbunden sind.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Siehe auch &quot;[Anzeigen, die an Platzierungen angehängt sind](/help/dsp/camp
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
 >* [Eine Anzeige bearbeiten](ad-edit.md)
->* [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Detaillierte Berichte für eine Platzierung anzeigen](/help/dsp/campaign-management/placements/placement-view-report.md)

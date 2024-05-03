@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '3540'
+source-wordcount: '3539'
 ht-degree: 0%
 
 ---
@@ -477,7 +477,7 @@ Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filterung vor 
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Erstellen einer Platzierung](placement-create.md)
->* [Eine Platzierung bearbeiten](placement-edit.md)
+>* [Platzierungen bearbeiten](placement-edit.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

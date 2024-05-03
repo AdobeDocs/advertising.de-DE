@@ -2,9 +2,10 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für bestimmte Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
-source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
+exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 Mit dieser Funktion können Sie die Angebotsmultiplikatoren für Ihre vorhandenen Platzierungsziele ändern. Sie können die Angebotsmultiplikatoren für jeweils eine Platzierung verwalten.<!-- remove that line once we can edit multiple -->
 
-Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter[Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 <!-- 
 ## Manage the Bid Multipliers for a Single Placement
@@ -73,6 +74,6 @@ Sie können Angebotsmultiplikatoren (mit anderen Werten als 1,00) für eine begr
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Eine Platzierung bearbeiten](placement-edit.md)
+>* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)

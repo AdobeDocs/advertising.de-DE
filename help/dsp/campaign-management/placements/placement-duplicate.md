@@ -3,9 +3,9 @@ title: Duplizieren von Platzierungen
 description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Duplizieren Sie eine oder mehrere Platzierungen, um Platzierungen mit ähnlichen
 * (Für duplizierte Platzierungen in den ursprünglichen Kampagnen) Optional Duplizieren Sie die ursprünglichen Anzeigen.
 * Status und Flugdaten der neuen Platzierungen ändern
 
-Siehe[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Siehe &quot;[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -33,7 +33,7 @@ Siehe[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für eine Lis
 
    * Um eine Platzierung zu duplizieren, klicken Sie auf  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** neben dem Paketnamen.
 
-   * So duplizieren Sie mehrere Platzierungen:
+   * Duplizieren mehrerer Platzierungen:
 
       1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, die dupliziert werden soll.
 
@@ -51,9 +51,9 @@ Siehe[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für eine Lis
 
    Standardmäßig beziehen sich die neuen Platzierungen auf den ursprünglichen Anzeigentyp, werden den ursprünglichen Advertisern und Kampagnen zugewiesen, haben Flugpläne, die am aktuellen Tag beginnen, werden angehalten und enthalten nicht die ursprünglichen Anzeigen.
 
-   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen entsprechend der Konvention &lt;*original_placement_name #N*>, z. B. &quot;Meine Platzierung Nr. 2&quot;.
+   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen entsprechend der Konvention &lt;*original_placement_name #N*>, z. B. &quot;My Placement #2&quot;.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicks **[!UICONTROL Submit]**.
 
 ## Nicht duplizierte Elemente {#placement-not-duplicated}
 
@@ -73,7 +73,6 @@ Alle Einstellungen der ursprünglichen Platzierungen werden dupliziert, mit Ausn
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Erstellen einer Platzierung](placement-create.md)
->* [Eine Platzierung bearbeiten](placement-edit.md)
+>* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
-

@@ -3,10 +3,10 @@ title: Tastaturbefehle
 description: Referenzieren Sie die in den Platzierungseinstellungen verfügbaren Tastaturbefehle.
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu na
 | Platzierungseinstellungen | t | Verschiebt euch zum [!UICONTROL Tracking] settings |
 | Platzierungseinstellungen | l | Verschiebt euch zum [!UICONTROL Adobe Labs] settings |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- | Legacy placement settings | npv | Lets you create a new video placement | -->
 <!-- | Legacy placement settings | npd | Lets you create a new display placement | -->
@@ -35,6 +35,5 @@ Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu na
 >[!MORELIKETHIS]
 >
 >* [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
->* [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-

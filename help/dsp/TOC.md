@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Praktika {#placements}
       + [Über die Platzierungsverwaltung](/help/dsp/campaign-management/placements/placement-about.md)
       + [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Platzierung duplizieren](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [Einzelne Anzeige erstellen](/help/dsp/campaign-management/ads/ad-create.md)
       + [Erstellen mehrerer Drittanbieteranzeigen](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Erstellen von Anzeigen mit [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Eine Anzeige duplizieren](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [Anzeigen an Platzierungen anhängen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Eine Platzierung bearbeiten](placement-edit.md)
+>* [Platzierungen bearbeiten](placement-edit.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
 >* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
 >* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)

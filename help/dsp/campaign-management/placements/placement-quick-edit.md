@@ -3,9 +3,9 @@ title: Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen schnell ändern können.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten von Platzierungseinstellungen finden Sie unter[Eine Platzierung bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Informationen zum Bearbeiten von Platzierungseinstellungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
@@ -31,7 +31,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Erstellen einer Platzierung](placement-create.md)
->* [Eine Platzierung bearbeiten](placement-edit.md)
+>* [Platzierungen bearbeiten](placement-edit.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
 >* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)

@@ -1,16 +1,16 @@
 ---
-title: Eine Platzierung bearbeiten
+title: Platzierungen bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Eine Platzierung bearbeiten
+# Platzierungen bearbeiten
 
 Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere Platzierungen gleichzeitig bearbeiten.
 
@@ -18,7 +18,7 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md).&quot;
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md).&quot;
 
 ## Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Überprüfen und Korrigieren der Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md)
+>* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierung duplizieren](placement-duplicate.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
