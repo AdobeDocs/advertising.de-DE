@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # Neue Funktionen
 
 Die folgenden Funktionen sind neu oder kürzlich geändert worden.
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
 | 2. Mai 2024 | Anzeigen, Pixel | Sie können die Einstellungen für alle Anzeigen einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie im [!UICONTROL Ad Tools] anzeigen. | Siehe &quot;[Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
