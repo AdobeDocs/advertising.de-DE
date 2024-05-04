@@ -2,9 +2,9 @@
 title: Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen
 description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen überprüfen.
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Sie können die Einstellungen für alle Anzeigen einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie zu überprüfen.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*Um Ihre Anzeigeneinstellungen zu bearbeiten, verwenden Sie die [Massenbearbeitungsfunktion](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten Ihrer Anzeigeneinstellungen finden Sie unter [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum gleichzeitigen Ändern der Tracking-Pixel von Drittanbietern oder zum Anfügen von Anzeigen an Platzierungen finden Sie unter &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
