@@ -1,17 +1,17 @@
 ---
-title: Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen
-description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen überprüfen.
+title: Überprüfen von Anzeigendetails mithilfe von Tabellen
+description: Erfahren Sie, wie Sie Anzeigendetails, einschließlich der Anzeigeneinstellungen und der zugehörigen Platzierungen, mithilfe von Tabellen überprüfen können.
 feature: DSP Ads
-source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen
+# Überprüfen von Anzeigendetails mithilfe von Tabellen
 
-Sie können die Einstellungen für alle Anzeigen einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie zu überprüfen.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
+Sie können Details zu allen Anzeigen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie zu überprüfen. Die Details enthalten die Anzeigeneinstellungen und verknüpfen Platzierungen.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >

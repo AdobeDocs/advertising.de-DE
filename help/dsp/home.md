@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 2. Mai 2024 | Anzeigen, Pixel | Sie können die Einstellungen für alle Anzeigen einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie im [!UICONTROL Ad Tools] anzeigen. | Siehe &quot;[Überprüfen der Anzeigeneinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| 2. Mai 2024 | Anzeigen, Pixel | Sie können die Anzeigeneinstellungen und Platzierungszuordnungen für alle Anzeigen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie im [!UICONTROL Ad Tools] anzeigen. | Siehe &quot;[Überprüfen von Anzeigendetails mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | Die [!UICONTROL Ad Tools] Ansicht > [!UICONTROL Attach Pixels] -Tab zeigt die an Ihre Anzeigen angehängten Tracking-Pixel von Drittanbietern an und bietet einen neuen Workflow zum Anhängen von Pixeln an eine oder mehrere Anzeigen und zum Trennen vorhandener Pixel. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Platzierungen, Zielgruppen | Sie können jetzt einzelne Zielgruppensegmente oder nicht wiederverwendbare Zielgruppen über Tools zur Massenbearbeitung oder den Platzierungs-Editor aus Platzierungen ausschließen. | Siehe &quot;[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot; und &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18. April 2024 | Praktika | Sie können jetzt Angebotsmodifikatoren erstellen und verwalten, mit denen ein Angebot multipliziert wird, um das Angebot zu erhöhen oder zu verringern, und zwar für bestimmte Zieltypen für eine Platzierung. Der Standard-Angebotsmodifikator ist 1,00, was bedeutet, dass keine Erhöhung oder Verringerung erfolgt. Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise reduziert ein Angebotsmodifikator von 0,50 ein Angebot von 6 USD auf 3 USD (0,50 x 6). Wenn eine Auktion für mehrere Angebotsmodifikatoren qualifiziert ist, werden alle anwendbaren Angebotsmodifikatoren multipliziert. Angebotsmodifikatoren erhöhen das Angebot nie auf mehr als das Höchstangebot. | Siehe &quot;[Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
