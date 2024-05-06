@@ -3,9 +3,9 @@ title: Einstellungen für mobile Anzeigen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für mobile Anzeigen.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Dies entspricht dem **[!UICONTROL Height]** -Feld.
 
 ### [!UICONTROL Pixel]
 
-Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und je nach Ihren Tracking-Anforderungen für die einzelne Anzeige neue Pixel erstellen.
+Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und je nach Ihren Tracking-Anforderungen für die einzelne Anzeige neue Pixel erstellen. **Tipp:** So bearbeiten Sie die Verfolgungspixel von Drittanbietern für mehrere Anzeigen in einer Platzierung gleichzeitig mit der [!UICONTROL Ad Tools] Ansicht, siehe[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen an einer Platzierung](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
