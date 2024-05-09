@@ -3,9 +3,9 @@ title: Festlegen von Platzierungen und Anzeigen für ein privates Geschäft
 description: Erfahren Sie, wie Sie einen privaten Deal mit zusätzlichen Platzierungen und Anzeigen verwenden.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Sie können auch [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-manage
 
        1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus zum Filtern der Anzeigen aus.
        
-       1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben jeder Anzeige, die für das Geschäft verwendet werden soll.
+       1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben den einzelnen Anzeigen, die für das Geschäft verwendet werden sollen.
        
        1. Klicken Sie auf **[!UICONTROL Apply]**.
    

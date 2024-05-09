@@ -3,9 +3,9 @@ title: Manuelles Erstellen von Details zur Angebots-ID
 description: Erfahren Sie, wie Sie Details für eine Angebots-ID manuell eingeben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    1. (Nur Administrator-Benutzer; optional) Im [!UICONTROL Technical] ändern Sie die Standardeinstellungen nach Bedarf.
 
-   1. Klicken **[!UICONTROL Save]**.
+   1. Klicks **[!UICONTROL Save]**.
 
 1. (Nur garantierte Angebote) Wählen Sie die Anzeigen aus, die für das Angebot verwendet werden sollen (oder das 1x1-Pixel für publisher-verwaltete Anzeigen), und erstellen Sie eine standardmäßige, programmgarantierte Platzierung (PG).
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
          Für jede von Publisher verwaltete Anzeige wird automatisch ein 1x1-Tracking-Pixel angewendet, nachdem ein Advertiser und eine Kampagne ausgewählt wurden.
 
-      1. Klicken **[!UICONTROL Apply]**.
+      1. Klicks **[!UICONTROL Apply]**.
 
    1. Im Bildschirm für die Platzierungseinstellungen:
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
       Der Deal wird automatisch im Abschnitt Inventarziele angesprochen. Alle anderen Targeting-Optionen sind nicht verfügbar.
 
-      1. Klicken **[!UICONTROL Create placement]**.
+      1. Klicks **[!UICONTROL Create placement]**.
 
 Nachdem Sie den Deal erstellt haben, können Sie den Deal als Inventarziel für mehrere Platzierungen verwenden.
 

@@ -3,9 +3,9 @@ title: Anzeigen des Berichts zur Platzierungsvorschau
 description: Ermitteln Sie die Anzahl der Impressionen, Ausgaben und das für eine bestimmte Targeting-Strategie für eine Platzierung prognostizierte optimale maximale Angebot.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Die Prognose enthält folgende Informationen:
 
    * Die Platzierung verwendet einen neuen Anzeigentyp für die Kampagne.
 
-     Eine Platzierung ist in der Regel eine Sammlung mehrerer Anzeigenvorlagen, die von angebotsseitigen Plattformen definiert werden. Selbst wenn die Platzierung also schon seit langem existiert, kann die zugrunde liegende Anzeigenvorlage neu sein und das Prognosetool wird nicht vorhersagen können.
+     Eine Platzierung ist in der Regel eine Sammlung mehrerer Anzeigenvorlagen, die von angebotsseitigen Plattformen definiert werden. Selbst wenn die Platzierung also schon seit langer Zeit existiert und die zugrunde liegende Anzeigenvorlage neu ist, kann das Prognosetool keine Prognose erstellen.
 
 ## Platzierungsvorausschätzungsbericht öffnen
 

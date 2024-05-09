@@ -2,9 +2,9 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für bestimmte Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Bei allen ausgewählten Platzierungen können Sie entweder Werte manuell bearbei
 
    * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem zielspezifischen Tab ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und[!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele.
 
-   Dieselben Änderungen werden an allen ausgewählten Platzierungen vorgenommen.
+   Die gleichen Änderungen gelten für alle ausgewählten Platzierungen.
 
    * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, die die vorhandenen Werte überschreiben:
 

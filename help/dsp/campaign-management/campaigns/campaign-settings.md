@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Wenn Sie *[!UICONTROL Yes],* Geben Sie den Spannungstyp und Betrag an:
 
 Sie können optional ein zusätzliches Bruttobudget für Tag, Woche oder Monat hinzufügen:
 
-1. Klicken **[!UICONTROL Add an additional Gross Budget]**.
+1. Klicks **[!UICONTROL Add an additional Gross Budget]**.
 
 1. Geben Sie die **[!UICONTROL Gross Budget]** und wählen Sie das Budgetintervall aus: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly]*.
 
@@ -54,11 +54,11 @@ Das Nettogesamtbudget, das die Ausgabenobergrenze für die Kampagne darstellt, w
 
 **[!UICONTROL Budget]:** (Kampagnen ohne Margenverwaltung) Das Gesamtbudget der Kampagne.
 
-**[!UICONTROL Estimated Tax Withholding]:** Hält einen Prozentsatz der Gesamtausgaben für Anzeigengebühren, Werbekosten und/oder Datengebühren auf Kontoebene für landesweite oder lokale Steuern ein. Bei den Sätzen handelt es sich um Schätzungen für Budgetierungs- und Schrittzwecke, sodass die fakturierten Steuersätze variieren können.
+**[!UICONTROL Estimated Tax Withholding]:** Enthält einen Prozentsatz der Gesamtausgaben für Anzeigengebühren, Werbekosten und/oder Datengebühren auf Kontoebene für landesweite oder lokale Steuern. Bei den Sätzen handelt es sich um Schätzungen für Budgetierungs- und Schrittzwecke, sodass die berechneten Steuersätze variieren können.
 
 So schätzen Sie die einzubehaltenden Steuern:
 
-1. Klicken **[!UICONTROL Update rates here]**.
+1. Klicks **[!UICONTROL Update rates here]**.
 
 1. Geben Sie die **[!UICONTROL Estimated tax rate]** als Prozentsatz.
 
@@ -70,7 +70,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
    * *[!UICONTROL Include estimated tax - data fee]:* Gilt für alle Datenausgaben für DSP.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicks **[!UICONTROL Submit]**.
 
 >[!NOTE]
 >
@@ -78,22 +78,21 @@ So schätzen Sie die einzubehaltenden Steuern:
 >
 >* Sie können diese Werte auch in den Gebühreneinstellungen des Kontos konfigurieren.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
+**[!UICONTROL Cross Device Level]:** (Schreibgeschützt für bestehende Kampagnen, die seit dem 22. Juni 2020 erstellt wurden; nicht verfügbar für Kampagnen, die vor dem 22. Juni 2020 erstellt wurden) Die Ebene, auf der DSP Anzeigen ansprechen und Frequenzobergrenzen anwenden wird: *Gleiches Gerät* , um ein Gerät auszuwählen oder *Personen* , um eine Person auf allen ihren bekannten Geräten anzusprechen.
 
-**[!UICONTROL Cross Device Level]:** (Schreibgeschützt für bestehende Kampagnen, die seit dem 22. Juni 2020 erstellt wurden; nicht verfügbar für Kampagnen, die vor dem 22. Juni 2020 erstellt wurden. Die Ebene, auf der DSP Anzeigen ansprechen und Frequenzobergrenzen anwenden wird: *Gleiches Gerät* , um ein Gerät auszuwählen, oder *Personen* , um eine Person auf allen ihren bekannten Geräten anzusprechen.
-
-**[!UICONTROL Device Graph]:** (Schreibgeschützt für bestehende Kampagnen; Kampagnen mit benutzerspezifischem geräteübergreifendem Targeting) Das Gerätediagramm, das für geräteübergreifendes Targeting und Frequenzmanagement verwendet werden soll:
+**[!UICONTROL Device Graph]:** (Schreibgeschützt für bestehende Kampagnen; Kampagnen mit benutzerspezifischem geräteübergreifendem Targeting) Das Gerätediagramm zur Verwendung für geräteübergreifendes Targeting und Frequenzmanagement:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Verfügbar für alle Advertiser für geräteübergreifendes Targeting mit einem CPM-Preis von 0,35 USD für Impressionen, die durch Verwendung des [!DNL LiveRamp] Gerätediagramm (d. h. für Geräte, die nicht in den Zielgruppensegmenten gefunden werden). Sie können geräteübergreifendes Targeting auf Platzierungsebene einrichten.
 
-   Diese Option steht auch allen Advertisern ohne Gebühren für Frequenzverwaltung und Attributionsmessung zur Verfügung.
+  Diese Option steht auch allen Advertisern ohne Gebühren für Frequenzverwaltung und Attributionsmessung zur Verfügung.
 
-**[!UICONTROL Frequency Cap]:** (Optional) Die Häufigkeit, mit der ein eindeutiges Gerät oder eine eindeutige Person (je nach [!UICONTROL Cross Device Level]) werden Anzeigen aus der Kampagne bereitgestellt. Optionen umfassen *[!UICONTROL Unlimited]* oder einen bestimmten Betrag pro Tag, Woche oder Monat.
+**[!UICONTROL Frequency Cap]:** (Optional) Die Häufigkeit, mit der ein eindeutiges Gerät oder eine eindeutige Person (je nach [!UICONTROL Cross Device Level]) können Anzeigen aus der Kampagne bereitgestellt werden. Optionen umfassen *[!UICONTROL Unlimited]* oder einen bestimmten Betrag pro Tag, Woche oder Monat.
 
 >[!NOTE]
 >
 > Sie können Frequenzobergrenzen auf Kampagnen-, Paket- und Platzierungsebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
 
-**[!UICONTROL Packages]:** Die [packages](/help/dsp/campaign-management/packages/package-about.md) in die Kampagne aufgenommen werden. Wählen Sie vorhandene Pakete aus und/oder erstellen Sie Pakete, die einbezogen werden sollen. Wenn Sie Pakete erstellen, finden Sie weitere Informationen unter Beschreibungen der [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md) für weitere Informationen.
+**[!UICONTROL Packages]:** Die [packages](/help/dsp/campaign-management/packages/package-about.md) in die Kampagne aufgenommen werden. Wählen Sie vorhandene Pakete aus und/oder erstellen Sie Pakete, die einbezogen werden sollen. Wenn Sie Pakete erstellen, lesen Sie Beschreibungen der [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md) für weitere Informationen.
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -109,13 +108,13 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Measure On]:** Verzeichnis, in dem zu messen ist: *[!UICONTROL Display and VPAID video inventory]* (Standardeinstellung) oder *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >Die Sichtbarkeit von Videos ist nur im VPAID-Inventar messbar.
+  >[!NOTE]
+  >
+  >Die Sichtbarkeit von Videos ist nur im VPAID-Inventar messbar.
 
 * **[!UICONTROL IAS Account ID (AnID)]:** (Werbetreibende mit eigenen [!DNL IAS] Konten; optional) Die [!DNL IAS] Konto-ID, die [!DNL IAS] werden direkt zur Nutzung abgerechnet.
 
-* **[!UICONTROL IAS Team ID]:** (Werbetreibende mit eigenen [!DNL IAS] Konten; optional) Die Team-ID für die [!DNL IAS] Konto, [!DNL IAS] werden direkt zur Nutzung abgerechnet. <!-- verify -->
+* **[!UICONTROL IAS Team ID]:** (Werbetreibende mit eigenen [!DNL IAS] Konten; optional) Die Team-ID für die [!DNL IAS] -Konto, [!DNL IAS] werden direkt zur Nutzung abgerechnet. <!-- verify -->
 
 **[!UICONTROL MOAT]:** (Optional) Aktiviert [!DNL MOAT] Messung und Berichterstellung der Sichtbarkeit, Betrug, Markensicherheit und Zielgruppenüberprüfung. Es fallen zusätzliche Gebühren an.
 
@@ -127,7 +126,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
 
-* **[!UICONTROL Target Country]:** (Optional) Ein Land, das als Ziel ausgewählt werden soll. [!DNL Nielsen] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
+* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Nielsen] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
 
 **[!UICONTROL comScore vCE]:** (Optional) Aktiviert [!DNL Comscore validated Campaign Essentials (vCE)] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
@@ -135,7 +134,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
 
-* **[!UICONTROL Target Country]:** (Optional) Ein Land, das als Ziel ausgewählt werden soll. [!DNL Comscore] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
+* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Comscore] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
 
 ### [!UICONTROL 1st Party Metrics]
 
@@ -151,4 +150,3 @@ So schätzen Sie die einzubehaltenden Steuern:
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Eine Kampagne bearbeiten](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
-

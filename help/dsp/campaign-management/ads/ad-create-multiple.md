@@ -3,9 +3,9 @@ title: Erstellen mehrerer Drittanbieteranzeigen
 description: Erfahren Sie, wie Sie mehrere Anzeigen von Drittanbietern auf einmal erstellen.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. Klicken Sie auf den Namen der Kampagne, in der die Anzeige enthalten sein soll.
+1. Klicken Sie auf den Namen der Kampagne, in die die Anzeige eingefügt werden soll.
 
 1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**. Klicken Sie im Abschnitt &quot;Anzeigentypen&quot;des Menüs auf **[!UICONTROL Bulk upload ads]**.
 
@@ -30,9 +30,9 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 
 1. ([!DNL DoubleClick] und [!DNL Flashtalking] Anzeigen) Wählen Sie den Tag-Typ aus, der für jedes Video-Asset und jedes Display-Asset verwendet werden soll. Die verfügbaren Optionen variieren je nach Anzeigenserver.
 
-1. (Anzeigen auf allen Anzeigen-Servern außer [!DNL DoubleClick] und [!DNL Flashtalking]) Klicken Sie auf **[!UICONTROL Download this template]** zum Herunterladen einer Vorlage in [!DNL Microsoft Excel] Tabellenformat (XLSX), das Sie mit Anzeigendaten füllen und lokal speichern können. Die erforderlichen Spalten enthalten [!UICONTROL Ad Name], [!UICONTROL VAST/VPAID URL or Ad Tag]und [!UICONTROL Ad Types].
+1. (Anzeigen auf allen Anzeigen-Servern außer [!DNL DoubleClick] und [!DNL Flashtalking]) Klicken **[!UICONTROL Download this template]** zum Herunterladen einer Vorlage in [!DNL Microsoft Excel] Tabellenformat (XLSX), das Sie mit Anzeigendaten füllen und lokal speichern können. Die erforderlichen Spalten enthalten [!UICONTROL Ad Name], [!UICONTROL VAST/VPAID URL or Ad Tag], und [!UICONTROL Ad Types].
 
-1. Klicken **[!UICONTROL Upload]** und wählen Sie eine Datei im .xlsx- oder .xls-Format von Ihrem Gerät oder Netzwerk aus.
+1. Klicks **[!UICONTROL Upload]** und wählen Sie eine Datei im .xlsx- oder .xls-Format von Ihrem Gerät oder Netzwerk aus.
 
    Für [!DNL DoubleClick] und [!DNL Flashtalking] Anzeigen, laden Sie nicht bearbeitete Tag-Arbeitsblätter vom Anzeigen-Server hoch. Verwenden Sie für andere Adserver die Vorlage, die Sie in Schritt 3 heruntergeladen haben.
 
@@ -42,7 +42,7 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 
    1. (Universelle Videoanzeigen mit [!DNL Google] oder [!DNL Flashtalking] Tags) Klicken Sie auf **[!UICONTROL Ad Type]** Feld und wählen Sie **[!UICONTROL Universal Video]**.
 
-   1. (Universelle Videoanzeigen) Klicken Sie für jede neue Anzeige auf ![edit](/help/dsp/assets/edit.png), wählen Sie die [geeignetes Videoformat](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)und klicken Sie anschließend auf **Speichern**.
+   1. (Allgemeine Videoanzeigen) Klicken Sie für jede neue Anzeige auf ![edit](/help/dsp/assets/edit.png), wählen Sie die [geeignetes Videoformat](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)und klicken Sie anschließend auf **Speichern**.
 
    1. Überprüfen Sie den Status jeder Anzeige, der auf Validierungsprüfungen für das hochgeladene Tag basiert.
 
@@ -54,19 +54,19 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 
       * Um eine Anzeige zu entfernen, klicken Sie auf **[!UICONTROL X]** in der Anzeigenzeile.
 
-1. Klicken **[!UICONTROL Create *N *Anzeigen]**.
+1. Klicks **[!UICONTROL Create *N *Anzeige(en)]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken **[!UICONTROL Done]**.
+   * Klicks **[!UICONTROL Done]**.
 
-   * (Wenn eine Anzeige abgelehnt wird; optional) So bearbeiten Sie den Anzeigendatensatz und senden die Anzeige erneut zur Überprüfung:
+   * (Wenn eine Anzeige abgelehnt wird, optional) Um den Anzeigendatensatz zu bearbeiten und die Anzeige erneut zur Überprüfung einzureichen:
 
       1. Klicken Sie auf den Anzeigennamen.
 
       1. Bearbeiten Sie die Anzeigeneinstellungen.
 
-      1. Klicken **[!UICONTROL Save & submit for review]**.
+      1. Klicks **[!UICONTROL Save & submit for review]**.
 
 >[!NOTE]
 >
@@ -79,4 +79,3 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tagblätter oder
 >* [Einzelne Anzeige erstellen](ad-create.md)
 >* [Video: Massen-Upload von Anzeigen-Tags von Drittanbietern](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
-

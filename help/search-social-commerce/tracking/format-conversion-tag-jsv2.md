@@ -1,11 +1,11 @@
 ---
 title: Format der JavaScript-Konversions-Trackingtags, Version 2
 description: Verweisen Sie auf das Format der JavaScript-Konversions-Trackingtags, Version 2.
-exl-id: c4845694-10ac-41f8-bafb-ca813e42d190
+exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -41,18 +41,18 @@ wobei:
 
 * `<ef-userid>` ist eine eindeutige, numerische Benutzer-ID, die Search, Social und Commerce dem Advertiser zuweist.
 
-* `<propertyname>` ist die Konversion, die verfolgt wird. Wenn Sie beispielsweise eine Konversion mit dem Namen &quot;Registrierung&quot;verfolgen, würde das Tag den Parameter enthalten. `ev_registration=<registration>`und Sie müssen den tatsächlichen Umsatz für jede Transaktion (z. B. `ev_registration=1`). Wenn mehrere Eigenschaften verfolgt werden, werden sie durch ein Und-Zeichen (`&`), z. B. `ev_registration=<registration>&ev_sale=<sale>` (zum Beispiel: `ev_registration=1&ev_sale=12.99`). **Hinweis:**  Der Eigenschaftsname darf keine Sonderzeichen enthalten.
+* `<propertyname>` ist die zu verfolgende Konvertierung. Wenn Sie beispielsweise eine Konversion mit dem Namen &quot;Registrierung&quot;verfolgen, würde das Tag den Parameter enthalten. `ev_registration=<registration>`und Sie müssen den tatsächlichen Umsatz für jede Transaktion (z. B. `ev_registration=1`). Wenn mehrere Eigenschaften verfolgt werden, werden sie durch ein Und-Zeichen (`&`), z. B. `ev_registration=<registration>&ev_sale=<sale>` (zum Beispiel: `ev_registration=1&ev_sale=12.99`). **Hinweis:**  Der Eigenschaftsname darf keine Sonderzeichen enthalten.
 
 * `<transid>` ist eine eindeutige Transaktions-ID (z. B. eine tatsächliche Bestell-ID), die der Advertiser generiert und übergibt, um eine Transaktion zu identifizieren. Sie ist nur enthalten, wenn die[!UICONTROL Include unique transaction IDs]&quot;.
 
-  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu vermeiden. Die Transaktions-ID ist im [!UICONTROL Transaction Report], mit dem Sie Daten in Adobe Advertising mit den Daten des Advertisers validieren können. **Hinweis:** Wenn die Daten des Advertisers keine eindeutige ID pro Transaktion enthalten, wird in Search, Social und Commerce immer noch eine auf der Transaktionszeit basierende ID generiert.
+  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu vermeiden. Die Transaktions-ID ist im [!UICONTROL Transaction Report], mit dem Sie Daten innerhalb von Adobe Advertising mit den Daten des Advertisers validieren können. **Hinweis:** Wenn die Daten des Advertisers keine eindeutige ID pro Transaktion enthalten, wird in Search, Social und Commerce immer noch eine auf der Transaktionszeit basierende ID generiert.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [Über Adobe Advertising-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Über Adobe Advertising von Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Adobe Advertising-Konversions-Tag generieren](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format der JavaScript-Konversions-Trackingtags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der JavaScript-Konversions-Trackingtags, Version 3](format-conversion-tag-jsv3.md)

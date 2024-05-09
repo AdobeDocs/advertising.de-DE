@@ -3,9 +3,9 @@ title: Voraussetzungen und Schlüsselinformationen für die Implementierung [!DN
 description: Voraussetzungen und Schlüsselinformationen für die Implementierung [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising in Adobe Anal
 
 Stellen Sie dem Adobe Advertising-Implementierungsteam Folgendes zur Verfügung:
 
-* Die [!DNL Analytics] Report Suite-ID, die für die Berichterstellung über Paid-Media-Aktivitäten und für die Einspeisung von Site-Aktivitäten zur Optimierung und Berichterstellung im Adobe Advertising verwendet wird
+* Die [!DNL Analytics] Report Suite-ID, die für die Berichterstellung über Paid-Media-Aktivitäten und für die Bereitstellung von Site-Aktivitäten zur Optimierung und Berichterstellung in Adobe Advertising verwendet wird
 * Die Experience Cloud-Organisations-ID (Organisations-ID) des Unternehmens.
 
 Sie finden beide IDs auf der [Registerkarte &quot;Zusammenfassung&quot;des Adobe Experience Cloud Debuggers](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).

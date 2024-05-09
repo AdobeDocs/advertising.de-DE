@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Im folgenden Beispiel wird angenommen, dass einem Besucher an Tag 1 eine Anzeige
 
 ![Beispiel einer Durchsichtskonversion, die in [!DNL Analytics] aber nicht Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Eine weitere Ursache für Diskrepanzen besteht darin, dass Sie im Adobe Advertising Viewthrough-Konvertierungen eine benutzerdefinierte *Durchsichtsgewicht* , der relativ zur Gewichtung ist, die einer klickbasierten Konversion zugeordnet ist. Die standardmäßige Durchsichtsgewichtung beträgt 40 %, d. h. eine Durchsichtskonversion wird als 40 % des Werts einer klickbasierten Konversion gezählt. [!DNL Analytics] bietet keine solche Gewichtung von Durchsichtsumrechnungen. Beispielsweise eine Bestellung mit einem Umsatz von 100 USD in [!DNL Analytics] wird auf 40 USD an Adobe Advertising abgezinst, wenn Sie die standardmäßige Durchsichtsgewichtung verwenden - eine Differenz von 60 USD.
+Eine weitere Ursache für Diskrepanzen besteht darin, dass Sie im Adobe Advertising Viewthrough-Konvertierungen eine benutzerdefinierte *Durchsichtsgewicht* , der relativ zur Gewichtung ist, die einer klickbasierten Konversion zugeordnet ist. Die standardmäßige Durchsichtsgewichtung beträgt 40 %, d. h. eine Durchsichtskonversion wird als 40 % des Werts einer klickbasierten Konversion gezählt. [!DNL Analytics] bietet keine solche Gewichtung von Durchsichtsumrechnungen. Beispielsweise eine Bestellung mit einem Umsatz von 100 USD in [!DNL Analytics] wird auf 40 USD an Adobe Advertising abgezinst, wenn Sie das standardmäßige Durchsichtsgewicht verwenden - eine Differenz von 60 USD.
 
 Berücksichtigen Sie diese Unterschiede beim Vergleich von Durchsichtskonversionen zwischen Adobe Advertising und [!DNL Analytics] Berichte.
 
@@ -96,7 +96,7 @@ Wenn Sie angemeldet sind [!DNL Search, Social, & Commerce]finden Sie eine Liste
 
 #### Ereignisdatumszuordnung in Adobe Advertising
 
-Unter Adobe Advertising können Sie Konversionsdaten entweder nach dem zugehörigen Klickdatum/Ereignisdatum (dem Datum des Klick- oder Impressionsereignisses) oder nach dem Transaktionsdatum (Konversionsdatum) melden. Das Konzept der Berichterstellung für Klick-/Ereignisdaten existiert nicht in [!DNL Analytics]; alle in verfolgten Konversionen [!DNL Analytics] werden nach Transaktionsdatum gemeldet. Daher kann dieselbe Konversion mit unterschiedlichen Daten in Adobe Advertising und [!DNL Analytics]. Betrachten Sie beispielsweise einen Benutzer, der am 1. Januar auf eine Anzeige klickt und am 5. Januar konvertiert. Wenn Sie die Konversionsdaten nach Ereignisdatum in Adobe Advertising anzeigen, wird die Konversion am 1. Januar gemeldet, wenn der Klick stattgefunden hat. In [!DNL Analytics]wird dieselbe Konversion am 5. Januar gemeldet.
+Unter Adobe Advertising können Sie Konversionsdaten entweder nach dem zugehörigen Klickdatum/Ereignisdatum (dem Datum des Klick- oder Impressionsereignisses) oder nach dem Transaktionsdatum (Konversionsdatum) melden. Das Konzept der Berichterstellung für Klick-/Ereignisdaten existiert nicht in [!DNL Analytics]; alle in verfolgten Konversionen [!DNL Analytics] werden nach Transaktionsdatum gemeldet. Daher kann dieselbe Konversion mit unterschiedlichen Daten in Adobe Advertising und [!DNL Analytics]. Betrachten Sie beispielsweise einen Benutzer, der am 1. Januar auf eine Anzeige klickt und am 5. Januar konvertiert. Wenn Sie die Konversionsdaten nach Ereignisdatum in Adobe Advertising anzeigen, wird die Konversion am 1. Januar gemeldet, als der Klick erfolgte. In [!DNL Analytics], wird dieselbe Konversion am 5. Januar gemeldet.
 
 ![Beispiel einer Konvertierung, die unterschiedlichen Datumsangaben zugeordnet wurde](/help/integrations/assets/a4adc-conversions-based-on.png)
 

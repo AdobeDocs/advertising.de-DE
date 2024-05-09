@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,9 @@ Siehe &quot;[Verfügbare Berichtsspalten](report-columns.md)&quot; für Beschrei
 
 **[!UICONTROL Conversion Reporting Based On]:**  So melden Sie Konversionsdaten:
 
-* *[!UICONTROL Conversion Timestamp]:* (Standard) Konversionen werden mit dem Konvertierungsdatum verknüpft.
+* *[!UICONTROL Conversion Timestamp]:* (Standard) Konversionen sind mit dem Konvertierungsdatum verknüpft.
 
-* *[!UICONTROL Event Timestamp]:* Konversionen werden basierend auf dem Datum der Impression oder des Klicks gemeldet, der die Konversion verursacht hat, wie durch die angegebene [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* Konversionen werden basierend auf dem Datum der Impression oder des Klicks gemeldet, die die Konversion verursacht haben, wie durch die angegebene [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] Abschnitt
 

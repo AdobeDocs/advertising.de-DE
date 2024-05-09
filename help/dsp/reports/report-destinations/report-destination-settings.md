@@ -3,9 +3,9 @@ title: Berichtsziel-Einstellungen
 description: Sehen Sie sich die für Ihre Berichtsziele erforderlichen Details nach Zieltyp an.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -48,7 +48,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -62,7 +62,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -75,5 +75,4 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-
+>* [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

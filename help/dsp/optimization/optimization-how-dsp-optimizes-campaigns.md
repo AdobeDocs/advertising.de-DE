@@ -3,26 +3,26 @@ title: Wie DSP Ihre Kampagnen optimiert
 description: Erfahren Sie, wie DSP die Pakete in Ihren Kampagnen optimiert.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
 # Wie Werbung DSP Ihre Kampagnen optimiert
 
-Auf dieser Seite wird beschrieben, wie die DSP Optimierungs-Engine, die von [!DNL Adobe Sensei], optimiert die Pakete in Ihren Kampagnen. Tipps und Tricks zur manuellen Kampagnenoptimierung erhalten Sie von Ihrem Adobe Account Team. <!-- add link to trading playbook if we add it to help -->
+Auf dieser Seite wird beschrieben, wie die DSP Optimierungs-Engine, die von [!DNL Adobe Sensei], optimiert die Pakete in Ihren Kampagnen. Tipps und Tricks zur manuellen Kampagnenoptimierung erhalten Sie von Ihrem Adobe-Account-Team. <!-- add link to trading playbook if we add it to help -->
 
 Die Ziele der Paketoptimierung sind auf zwei Ebenen möglich:
 
-* Für jedes Paket: DSP ordnet jedem Platzierungsinnerhalb des Pakets basierend auf der Leistung der Platzierung im Vergleich zum ausgewählten KPI das Budget zu.
+* Für jedes Paket: DSP ordnet jeder Platzierung im Paket basierend auf der Leistung der Platzierung im Vergleich zum ausgewählten KPI das Budget zu.
 
-* Für jede Platzierung/Auktion im Paket: DSP berechnet den Echtzeit-ökonomischen KPI-Wert für jede Auktion pro Platzierung und verwendet diesen Wert dann zur Bestimmung des Angebots.
+* Für jede Platzierung/Auktion im Paket: DSP berechnet den Echtzeit-KPI-Wert für jede Auktion pro Platzierung und bestimmt dann anhand dieses Werts das Angebot.
 
-   >[!NOTE]
-   >
-   >Der wirtschaftliche Wert kann stark danach gewichtet werden, wie gut eine Platzierung ausgibt. Wenn eine Platzierung hinter ihrem Ausgabenziel liegt, kann sie minderwertige Auktionen kaufen. Wenn eine Platzierung ihr Ausgabenziel leicht erreicht, konzentriert sie sich auf qualitativ hochwertigere Auktionen.
+  >[!NOTE]
+  >
+  >Der wirtschaftliche Wert kann stark gewichtet werden, je nachdem, wie gut eine Platzierung ausgegeben wird. Wenn eine Platzierung hinter ihrem Ausgabenziel liegt, darf sie minderwertige Auktionen kaufen. Wenn eine Platzierung ihr Ausgabenziel leicht erreicht, verlagert sich der Fokus auf qualitativ hochwertigere Auktionen.
 
 ## Package-Optimierung
 
@@ -48,7 +48,7 @@ Dieser Optimierungsmodus funktioniert gut, wenn:
 
 #### Pacing-Logik {#pacing-logic-performance}
 
-* Wenn die Ausgaben im Tempo sind, wird das Bieten selektiver, sodass Sie nur Gebote für Auktionen machen, bei denen hohe Leistungsraten vorhergesagt werden.
+* Wenn die Ausgaben im Tempo sind, wird das Bieten selektiver, sodass Sie nur Gebote für Auktionen abgeben, bei denen hohe Leistungsraten vorhergesagt werden.
 
 * Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird das Bieten weniger selektiv, sodass Sie bei Auktionen, die voraussichtlich niedrigere Leistungsraten aufweisen, Angebote einreichen, um das Zwischenziel zu erreichen.
 
@@ -89,4 +89,3 @@ Siehe [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimiza
 >* [Optimierungsziele und Verwendung](optimization-goals.md)
 >* [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md)
 >* [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
-

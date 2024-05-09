@@ -3,9 +3,9 @@ title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Um die Synchronisierung oder Verfolgung eines Kontos zu aktivieren, müssen Sie 
 
 1. Klicks **[!UICONTROL Post]**.
 
-   Aktuelle Kosten- und Klickdaten für alle Kampagnen in dem Konto sind in Search, Social und Commerce in etwa 24 Stunden verfügbar. Je nach Werbenetzwerk sind die Daten standardmäßig für die letzten 5-10 Tage verfügbar. Bei Bedarf kann das Projekt-Launch-Team jedoch Daten für die letzten 60 Tage abrufen.
+   Die aktuellen Kosten- und Klickdaten für alle Kampagnen in dem Konto stehen in Search, Social und Commerce in etwa 24 Stunden zur Verfügung. Je nach Werbenetzwerk sind die Daten standardmäßig für die letzten 5-10 Tage verfügbar. Bei Bedarf kann das Projekt-Launch-Team jedoch Daten für die letzten 60 Tage abrufen.
 
 ## Details zu Anzeigennetzkonten bearbeiten {#edit-account}
 
@@ -81,7 +81,7 @@ Wenn sich die Kontoanmeldeinformationen ändern, möchten Sie die standardmäßi
 
    >[!NOTE]
    >
-   >Search, Social und Commerce müssen die neuen Kontodaten mit denen im Werbenetzwerk synchronisieren. Dies geschieht automatisch einmal täglich oder öfter, wenn Search, Social und Commerce Änderungen im Werbenetzwerk erkennt.
+   >Search, Social und Commerce müssen die neuen Kontodaten mit denen im Werbenetzwerk synchronisieren. Dies geschieht automatisch einmal täglich oder öfter, wenn Search, Social und Commerce Änderungen im Anzeigennetzwerk erkennen.
 
 ## Aktualisieren von oAuth-Zugriffstoken für Suchkonten {#refresh-oauth-tokens}
 
@@ -147,7 +147,7 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 >[!NOTE]
 >
->Wenn Sie eine Integration von Search, Social, &amp; Commerce-Adobe Analytics haben und den Namen des Suchkontos ändern, benachrichtigen Sie das Adobe-Kontoteam, damit es die Zuordnung aktualisieren kann.
+>Wenn Sie eine Integration von Search, Social und Commerce mit Adobe Analytics haben und den Namen des Suchkontos ändern, benachrichtigen Sie das Adobe-Kontoteam, damit es die Zuordnung aktualisieren kann.
 
 **[!UICONTROL Login Details]: \[Anmeldetyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] nur) Gibt an, ob Anmeldungen für das Konto mit folgenden Optionen autorisiert werden sollen:
 
@@ -183,7 +183,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 **Status:** Der Kontostatus in Search, Social und Commerce:
 
 * *Aktiviert:* Search, Social und Commerce synchronisiert Kampagnendaten mit dem -Konto (sofern unterstützt) und überträgt automatisierte Angebote und/oder Kampagnenbudgets für Kampagnen in Portfolios.
-* *Deaktiviert:* Search, Social und Commerce stoppt alle Aktivitäten auf dem Konto. Während der Kontoaktivierung erfasste Daten werden weiterhin gespeichert. Die Ansichten und Berichte der Kampagnenverwaltung enthalten jedoch keine Daten für den Zeitraum, in dem das Konto angehalten wurde. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto wieder aufzunehmen.
+* *Deaktiviert:* Search, Social und Commerce stoppen alle Aktivitäten auf dem Konto. Während der Kontoaktivierung erfasste Daten werden weiterhin gespeichert. Die Ansichten und Berichte der Kampagnenverwaltung enthalten jedoch keine Daten für den Zeitraum, in dem das Konto angehalten wurde. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto wieder aufzunehmen.
 
 **Tracking-Vorlage** - ([!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yahoo! Japan Ads] Nur Konten; optional) Die Standard-Tracking-Vorlage für das Konto, die alle Off-Landingpage-Umleitungen und Tracking-Parameter angibt und die finale URL/Landingpage in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
 
@@ -197,7 +197,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern hinzufügen.
 
-* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode vorgibt.
+* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;&quot;Search, Social und Commerce Präfixiert beim Speichern des Datensatzes automatisch seinen eigenen Umleitungs- und Trackingcode.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID des
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] Nur Konten) Das für das Konto zu verwendende Entwicklungstoken. Das gleiche Token wird für alle verwendet [!DNL Yandex] Konten.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] Konten, bei denen die Einstellung Freigegebenes Konto deaktiviert ist; optional) Die numerische ID für die Kampagne, die zur Bezahlung aller Anzeigenkampagnen in dem Konto verwendet wird.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] Konten, bei denen die Einstellung Freigegebenes Konto deaktiviert ist (optional) Die numerische ID der Kampagne, mit der für alle Anzeigenkampagnen in dem Konto bezahlt wird.
 
 **[!UICONTROL Finance Token]:** ([!DNL Yandex] -Konten, bei denen die Einstellung Freigegebenes Konto deaktiviert ist; optional) Das Entwicklungstoken, das für finanzierungsbezogene API-Aufrufe verwendet wird, z. B. für die Neuzuweisung von Geld aus der Geldbörse zwischen den Kampagnen des Advertisers, sofern dies für die Portfoliooptimierung erforderlich ist.
 

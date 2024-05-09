@@ -3,9 +3,9 @@ title: Syntax für Zielgruppensegmentlogik
 description: Referenzieren Sie die Syntax, die Sie verwenden können, um die Logik für Zielgruppensegmente zu definieren.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ bedeutet (in einfachem Englisch)
 
 >[!NOTE]
 >
->In den Platzierungseinstellungen können Sie gespeicherte Zielgruppen entweder als Zielgruppen zum expliziten Targeting oder als separate Zielgruppen verwenden, die vom Targeting ausgeschlossen werden sollen. Stellen Sie sicher, dass Ihre Segmentlogik dem Zweck entspricht, für den Sie die Zielgruppe verwenden werden.
+>In den Platzierungseinstellungen können Sie gespeicherte Zielgruppen entweder als Zielgruppen zum expliziten Targeting oder als separate Zielgruppen verwenden, die vom Targeting ausgeschlossen werden sollen. Stellen Sie sicher, dass Ihre Segmentlogik den Zweck der Verwendung der Zielgruppe widerspiegelt.
 
 >[!MORELIKETHIS]
 >
