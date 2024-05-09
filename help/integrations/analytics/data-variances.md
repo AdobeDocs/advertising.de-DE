@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Das Lookback-Fenster für [!DNL Marketing Channels] kann angepasst werden. Unter
 
 Adobe Advertising-Berichte erfassen nur Paid Media, die über Adobe Advertising weitergeleitet werden (gebührenpflichtige Suche nach [!DNL Advertising Search, Social, & Commerce] Anzeigen und Anzeigen für Advertising DSP Anzeigen), während [!DNL Marketing Channels] Berichte können alle digitalen Kanäle verfolgen. Dies kann zu einer Diskrepanz im Kanal führen, für den eine Konversion zugeordnet wird.
 
-Beispielsweise haben Paid Search- und natürliche Suchkanäle oft eine symbiotische Beziehung, in der jeder Kanal den anderen unterstützt. Die [!DNL Marketing Channels] -Bericht weist einige Konversionen der natürlichen Suche zu, die von Adobe Advertising nicht verfolgt wird, da die natürliche Suche nicht verfolgt wird.
+Beispielsweise haben Paid Search- und natürliche Suchkanäle oft eine symbiotische Beziehung, in der jeder Kanal den anderen unterstützt. Die [!DNL Marketing Channels] -Bericht weist einige Konversionen der kostenlosen Suche zu, die Adobe Advertising nicht durchführt, da die kostenlose Suche nicht verfolgt wird.
 
 Betrachten wir auch einen Kunden, der eine Display-Anzeige anzeigt, auf eine Paid-Search-Anzeige klickt, in eine E-Mail-Nachricht klickt und dann eine Bestellung von 30 USD aufgibt. Auch wenn Adobe Advertising und [!DNL Marketing Channels] beide das Attributionsmodell des letzten Kontakts verwenden, wird die Konversion trotzdem unterschiedlich zugeordnet. Adobe Advertising hat keinen Zugriff auf die [!UICONTROL Email] -Kanal, sodass die gebührenpflichtige Suche für die Konversion angerechnet wird. [!DNL Marketing Channels]hat jedoch Zugriff auf alle drei Kanäle, sodass [!UICONTROL Email] für die Konvertierung.
 

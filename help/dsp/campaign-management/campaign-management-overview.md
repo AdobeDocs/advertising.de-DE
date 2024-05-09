@@ -3,9 +3,9 @@ title: Überblick über Campaign Management in Advertising DSP
 description: Erfahren Sie mehr über die Kampagnenverwaltungshierarchie und -komponenten.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [placement](/help/dsp/campaign-management/placements/placement-about.md) speic
 
 [Anzeigen](/help/dsp/campaign-management/ads/ad-about.md) Kreativ-Assets und Tracking-URLs einschließen. Sie können Werbe-Tags von Drittanbietern einzeln oder in großen Mengen hochladen, indem Sie Partner-Tag-Tabellen oder die Bulk-Tag-Vorlage verwenden. Sie können auch manuell native Display-Anzeigen für DSP erstellen.
 
-Sobald Ihre Anzeigen eingerichtet sind, müssen Sie jede Anzeige an eine Platzierung anhängen. Sie können eine einzelne Anzeige an eine oder mehrere Platzierungen anhängen.
+Sobald Ihre Anzeigen eingerichtet sind, müssen Sie jede Anzeige an eine Platzierung anhängen, um die Anzeige auszuführen. Sie können eine einzelne Anzeige an eine oder mehrere Platzierungen anhängen.
 
 Alle aktiven, genehmigten Anzeigen in einer aktiven Platzierung in einer aktiven Kampagne können auf der Grundlage der Platzierungs-Targeting-Parameter ausgeführt werden.
 

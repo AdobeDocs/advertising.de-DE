@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die unterstützten Datenanforderungstypen, 
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
    >
    >Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie für jede Datei separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], und [!DNL DCO]), mit einem Konto pro Unterlösung.
 
-Alle diese Schritte sind zum Adobe Advertising erforderlich. Weitere Informationen zu diesen und anderen damit zusammenhängenden Aufgaben, die Sie mit der Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die benötigten Elemente finden können, finden Sie unter[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+Alle diese Schritte sind zum Adobe Advertising erforderlich. Weitere Informationen zu diesen und anderen damit zusammenhängenden Aufgaben, die Sie mit der Adobe Experience Platform Privacy Service ausführen müssen, sowie dazu, wo Sie die erforderlichen Elemente finden, finden Sie unter[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
 
 ## Erforderliche Feldwerte in Adobe Advertising-JSON-Anforderungen
 

@@ -2,9 +2,9 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten mithilfe der eindeutigen ID des Unternehmens zum Experience Cloud über einige Produkte hinweg freigeben. Sie können bestimmte Produktintegrationen im [!UICONTROL Integrations] Abschnitt.
+Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten mithilfe der eindeutigen ID des Unternehmens für Experience Cloud über einige Produkte hinweg freigeben. Sie können bestimmte Produktintegrationen im [!UICONTROL Integrations] Abschnitt.
 
 **[!UICONTROL Account IMS org and ID]:** (Advertiser mit zusätzlichen Experience Cloud-Produkten, die über ein Experience Cloud-Konto mit mehreren Advertisern lizenziert sind; optional) Die Experience Cloud-Organisations-ID des Advertisers.
 
@@ -37,13 +37,13 @@ Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten 
 
 ### [!UICONTROL Integrations]
 
-(Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Organisations-ID des Experience Cloud zugeordnet sein, die in der [!UICONTROL Adobe IMS IDs] Abschnitt.
+(Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Experience Cloud-Organisations-ID zugeordnet sein, die in der [!UICONTROL Adobe IMS IDs] Abschnitt.
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder Adobe Advertising-Konversionspixel verwenden) A [!DNL Search, Social, & Commerce] -Konto, mit dem DSP Attributionsdaten austauschen.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Werbetreibende mit Adobe Analytics; optional; nur für Daten verfügbar, die mit Adobe Advertising-Konversions-Trackingtags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertiser mit Adobe Analytics; optional; nur für Daten verfügbar, die mithilfe von Adobe Advertising-Konversions-Tracking-Tags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
 
-Damit die Daten in den Report Suites angezeigt werden, muss die [!DNL Search, Social, & Commerce] Einstellung auf Advertiser-Ebene muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten vom Adobe Advertising konfiguriert sein.
+Damit die Daten in den Report Suites angezeigt werden, muss die [!DNL Search, Social, & Commerce] Einstellung auf Advertiser-Ebene muss aktiviert sein. Darüber hinaus gibt die [!DNL Analytics] -Konto muss für den Empfang von Daten von Adobe Advertising konfiguriert sein.
 
 >[!WARNING]
 >
@@ -56,7 +56,7 @@ Weitere Informationen zur Integration mit [!DNL Analytics], siehe[Übersicht üb
 * Audience Manager-Segmente
 * [!DNL Analytics] in Adobe Experience Cloud veröffentlichte Segmente
 * Segmente, die mit der Adobe Experience Cloud erstellt wurden [!DNL Audience Library]
-* Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an den Adobe Advertising gesendet werden
+* Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet werden
 
 Die anfängliche Synchronisation dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von einer bis zwei Sekunden synchronisiert.
 <!-- I don't think this is true anymore:
