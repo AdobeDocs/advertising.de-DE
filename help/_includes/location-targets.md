@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * Wählen Sie keine Orte aus, um alle Orte als Ziel auszuwählen.
 
-* Um einen Ort und seine untergeordneten Positionen einzuschließen, klicken Sie einmal auf den Kreis daneben, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote für jeden Zielort um einen bestimmten Prozentsatz erhöhen oder verringern.
+* Um einen Ort und die untergeordneten Positionen einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote für jeden Zielort um einen bestimmten Prozentsatz erhöhen oder verringern.
 
-* Um eine Position auszuschließen, klicken Sie zweimal auf den Kreis neben ihr, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
 * Um einen Ort in seine Unterkomponenten (z. B. die Status, Präfekturen, Regionen oder Städte) zu erweitern, klicken Sie auf den Standortnamen.
 

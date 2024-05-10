@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen
 description: Erfahren Sie, wie Sie Zielgruppenziele für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Sie können Zielgruppenziele konfigurieren, die Angebotsmodifikatoren für Zielg
 
       1. (Optional) Um eine Kampagnenliste oder Anzeigengruppenliste nach einer im Namen enthaltenen Textzeichenfolge zu filtern, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , geben Sie die Textzeichenfolge ein oder fügen Sie sie in das Eingabefeld ein und drücken Sie dann die **[!UICONTROL Enter]** Schlüssel.
 
-      1. Geben Sie jedes Kampagnen- und Anzeigengruppenziel für das angegebene Anzeigennetzwerk an, indem Sie auf den leeren Kreis daneben klicken, sodass ein blaues Häkchen (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) angezeigt.
+      1. Geben Sie jedes Kampagnen- und Anzeigengruppenziel für das angegebene Anzeigennetzwerk an, indem Sie auf den angrenzenden leeren Kreis klicken, sodass ein blaues Häkchen (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) angezeigt.
 
       Es ist nicht möglich, eine Zielgruppe sowohl für eine übergeordnete Kampagne als auch für eine untergeordnete Anzeigengruppe zu konfigurieren (die automatisch das Ziel verwendet).
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 1. (Optional) Legen Sie eine Angebotsanpassung für das Ziel auf eine der folgenden Arten von der [!UICONTROL Targets] Ansicht:
 
@@ -98,7 +98,7 @@ Sie können den Angebotsmodifikator und den Status von Zielgruppenzielen für al
 
       1. (Optional) Klicken Sie auf **[!UICONTROL Additional Details]** und geben Sie optional einen Projektnamen und eine Beschreibung ein.
 
-      1. Klicken **[!UICONTROL Post]**.
+      1. Klicks **[!UICONTROL Post]**.
 
 ## Ändern des Status von Zielgruppenzielen
 

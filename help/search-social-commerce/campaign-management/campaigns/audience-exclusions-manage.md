@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Zielgruppenausschlüssen für Kampagnen und Anzeigengruppen
 description: Erfahren Sie, wie Sie Zielgruppenausschlüsse für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Sie können auch Zielgruppenausschlüsse löschen.
 
       1. Führen Sie einen der folgenden Schritte aus:
 
-         * Geben Sie jeden Anzeigengruppenausschluss an, indem Sie auf den Kreis daneben klicken, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+         * Geben Sie jeden Anzeigengruppenausschluss an, indem Sie auf den angrenzenden Kreis klicken, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
-         * Geben Sie jeden Kampagnenausschluss an, indem Sie auf den Kreis daneben klicken, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+         * Geben Sie jeden Kampagnenausschluss an, indem Sie auf den angrenzenden Kreis klicken, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 ## Löschen von Zielgruppenausschlüssen
 

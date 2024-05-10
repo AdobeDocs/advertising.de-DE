@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio von Search, Socia
 
    * (Länder, Bundesstaaten, Metropolregionen oder Städte) Klicken Sie auf **[!UICONTROL Location Target]** (![Standort-Ziel](/help/search-social-commerce/assets/location-target.png "Standort-Ziel")) und suchen Sie die Speicherorte, die ein- und ausgeschlossen werden sollen:
 
-      * Um einen Ort und seine untergeordneten Positionen einzuschließen, klicken Sie einmal auf den Kreis daneben, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt.
+      * Um einen Ort und die untergeordneten Positionen einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt.
 
-      * Um eine Position auszuschließen, klicken Sie zweimal auf den Kreis neben ihr, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+      * Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
       * Um einen Ort in seine Unterkomponenten (z. B. die Bundesstaaten, Metropolregionen oder Städte in den USA) einzuteilen, klicken Sie auf den Standortnamen.
 

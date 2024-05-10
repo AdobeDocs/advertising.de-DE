@@ -1,10 +1,10 @@
 ---
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie sich die Online-Hilfe und Community-Ressourcen ansehen und technischen Support erhalten.
-exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
+exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -15,25 +15,25 @@ Sie können die Online-Hilfe von jeder Seite in der Benutzeroberfläche aus öff
 
 ## Online-Hilfe öffnen
 
-* So zeigen Sie eine Beschreibung eines Begriffs mit einem Hilfesymbol an (![Hilfesymbol](/help/search-social-commerce/assets/help-field.png "Hilfesymbol") ) daneben halten Sie den Cursor über das Hilfesymbol, bis Sie fertig sind, oder klicken Sie in das Hilfe-Popup, um durch den Inhalt zu blättern.
+* So zeigen Sie eine Beschreibung eines Begriffs mit einem angrenzenden Hilfesymbol an (![Hilfesymbol](/help/search-social-commerce/assets/help-field.png "Hilfesymbol") ), halten Sie den Cursor über das Hilfesymbol, bis Sie fertig sind, oder klicken Sie in das Hilfe-Popup, um durch den Inhalt zu blättern.
 
   Um Links in einem Hilfethema zu öffnen, müssen Sie möglicherweise Ihre Browsereinstellungen so konfigurieren, dass Popups von der von Ihnen verwendeten Site &quot;Search, Social, &amp; Commerce&quot;zugelassen werden (z. B. https://enterprise-na.efrontier.com für nordamerikanische Benutzer oder https://enterprise-intl.efrontier.com für alle anderen Benutzer).
 
 * Um vollständige Hilfesätze zur Verwendung aller Funktionen zu öffnen, klicken Sie auf die folgenden Links am oberen Rand einer beliebigen Seite:
 
-   * ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **Hilfe zu Suche, Social und Commerce**.
+   * ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **Hilfe zu Search, Social und Commerce**.
 
-   * ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **Benutzerhandbuch zur Suche, Social- und Commerce-Optimierung**.
+   * ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **Benutzerhandbuch zur Suchoptimierung, Social und Commerce**.
 
-## Adobe Advertising-Community fragen
+## Fragen Sie die Adobe Advertising-Community
 
 Antworten auf Ihre Fragen finden Sie im Abschnitt [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
 ## Kontakt [!DNL Adobe]
 
-Führen Sie bei Produkt- oder Kontoproblemen mit Suche, Social und Commerce einen der folgenden Schritte aus:
+Führen Sie bei Produkt- oder Kontoproblemen mit Search, Social und Commerce einen der folgenden Schritte aus:
 
-* Wenden Sie sich an Ihr Adobe Account Team.
+* Wenden Sie sich an Ihr Adobe-Account-Team.
 
 * Klicken Sie im oberen Menü auf ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **[!UICONTROL Provide Feedback]**, geben Sie Ihre Nachricht ein und klicken Sie auf **[!UICONTROL Send Feedback]**. |
 

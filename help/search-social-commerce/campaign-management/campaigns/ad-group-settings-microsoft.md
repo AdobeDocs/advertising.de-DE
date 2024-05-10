@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Anzeigengruppen.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ Die Werbeplatzierung für Connected TV (CTV) hängt von Ihrer Videoqualität und
 
 * Um alle Werte als Ziel auszuwählen, dürfen Sie keine Werte auswählen.
 
-* Um einen Wert einzuschließen, klicken Sie einmal auf den Kreis neben dem Wert, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie Angebote für jedes ausgewählte Geschlecht um einen bestimmten Prozentsatz erhöhen oder verringern.
+* Um einen Wert einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie Angebote für jedes ausgewählte Geschlecht um einen bestimmten Prozentsatz erhöhen oder verringern.
 
-* Um einen Wert auszuschließen, klicken Sie zweimal auf den Kreis neben dem Wert, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um einen Wert auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
 **[!UICONTROL Age]:** (Zielgruppe und Gruppen; optional) Spezifische Alterskategorien, die als Ziele ein- oder ausgeschlossen werden: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, und *[!UICONTROL Unknown]*. Standardmäßig werden alle Altersgruppen angesprochen. Ausnahmen überschreiben Einschlüsse immer.
 
 * Um alle Werte als Ziel auszuwählen, dürfen Sie keine Werte auswählen.
 
-* Um einen Wert einzuschließen, klicken Sie einmal auf den Kreis neben dem Wert, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote für jede Zielseite um einen bestimmten Prozentsatz erhöhen oder verringern.
+* Um einen Wert einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote für jede Zielseite um einen bestimmten Prozentsatz erhöhen oder verringern.
 
-* Um einen Wert auszuschließen, klicken Sie zweimal auf den Kreis neben dem Wert, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um einen Wert auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
 **[!UICONTROL Industry]:** (Zielgruppe und Gruppen; optional) Spezifische Branchen, die als Zielgruppen ein- oder ausgeschlossen werden. Standardmäßig werden alle Branchen angesprochen. Ausnahmen überschreiben Einschlüsse immer.
 
 * Um alle Werte als Ziel auszuwählen, dürfen Sie keine Werte auswählen.
 
-* Um einen Wert einzuschließen, klicken Sie einmal auf den Kreis neben dem Wert, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote um einen bestimmten Prozentsatz für jede Branche erhöhen oder verringern.
+* Um einen Wert einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote um einen bestimmten Prozentsatz für jede Branche erhöhen oder verringern.
 
-* Um einen Wert auszuschließen, klicken Sie zweimal auf den Kreis neben dem Wert, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um einen Wert auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
 **[!UICONTROL Job Function Targets]:** (Zielgruppe und Gruppen; optional) Spezifische Auftragsfunktionen, die als Ziele ein- oder ausgeschlossen werden. Standardmäßig werden alle Auftragsfunktionen angesprochen. Ausnahmen überschreiben Einschlüsse immer.
 
 * Um alle Werte als Ziel auszuwählen, dürfen Sie keine Werte auswählen.
 
-* Um einen Wert einzuschließen, klicken Sie einmal auf den Kreis neben dem Wert, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote um einen bestimmten Prozentsatz für jede ausgewählte Auftragsfunktion erhöhen oder verringern.
+* Um einen Wert einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote um einen bestimmten Prozentsatz für jede ausgewählte Auftragsfunktion erhöhen oder verringern.
 
-* Um einen Wert auszuschließen, klicken Sie zweimal auf den Kreis neben dem Wert, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um einen Wert auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
 
 ## [!UICONTROL URL Options]
 
