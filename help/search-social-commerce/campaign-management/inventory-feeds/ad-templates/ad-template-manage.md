@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Bestandsdaten verarbeitet werden können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Vor oder nach dem Hochladen von Daten können Sie suchmaschinenspezifische Anzeigenvorlagen erstellen, mit denen Ihre Daten verarbeitet werden können. Sie können Vorlagen für Textanzeigen und erweiterte/erweiterte Textanzeigen erstellen. [!DNL Google Ads] und [!DNL Microsoft® Advertising] responsive Suchanzeigen und für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Shopping-Anzeigen.
 
-Sie können jede Vorlage mit einer Feed-Datei verknüpfen, [!DNL Google Merchant Center] Konto oder [!DNL Microsoft® Merchant Center] und Sie können mehrere Vorlagen mit derselben Feed-Datei oder demselben Konto verknüpfen. Eine Anzeigenvorlage kann Variablen enthalten, die durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem Konto ersetzt werden. In den meisten Fällen können die Variablen auch [Modifikatorgruppe](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Sie können in &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;einrichten, um für jede relevante Zeile in der Datendatei mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen zu erstellen. Mit den Vorlagenoptionen können Sie entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen erstellen oder die Anzeigen der bestehenden Kontostruktur zuordnen.
+Sie können jede Vorlage mit einer Feed-Datei verknüpfen, [!DNL Google Merchant Center] Konto oder [!DNL Microsoft® Merchant Center] und Sie können mehrere Vorlagen mit derselben Feed-Datei oder demselben Konto verknüpfen. Eine Anzeigenvorlage kann Variablen enthalten, die durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem Konto ersetzt werden. In den meisten Fällen können die Variablen auch [Modifikatorgruppe](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Sie richten diese Schritte in Search, Social und Commerce ein, um für jede relevante Zeile in der Datendatei mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen zu erstellen. Mit den Vorlagenoptionen können Sie entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen erstellen oder die Anzeigen der bestehenden Kontostruktur zuordnen.
 
 Sie können nicht nur von Grund auf neue Vorlagen erstellen, sondern auch neue Vorlagen erstellen, indem Sie vorhandene Vorlagen klonen und vorhandene Vorlagen bearbeiten.
 
@@ -119,7 +119,7 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
 
       1. Gehen Sie für jede Beschriftungsklassifizierung, die der Komponente zugewiesen werden soll, wie folgt vor:
 
-         1. Klicken **[!UICONTROL Add Label Classification]**.
+         1. Klicks **[!UICONTROL Add Label Classification]**.
 
          1. Wählen Sie die Beschriftungs-Classification aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
 

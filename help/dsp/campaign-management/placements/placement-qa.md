@@ -3,9 +3,9 @@ title: Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Ta
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen mithilfe von Tabellen überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details wie die folgenden schnell zu überprüfen:
 
 * Zielgruppen der Kampagne.
-* Wann und wann die Platzierungen mit der Bereitstellung beginnen.
+* Wenn die Platzierungen mit der Bereitstellung beginnen und beendet werden.
 * Welche Anzeigen sind mit den Platzierungen verbunden?
 
 Anschließend können Sie Änderungen an den ausgewählten Feldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Zu den bearbeitbaren Feldern gehören die Platzierungsnamen, Status, Gebote, Budgets, Schrittstrategien und Häufigkeitsbegrenzungen.

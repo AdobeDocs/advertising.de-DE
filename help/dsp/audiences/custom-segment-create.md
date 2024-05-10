@@ -3,9 +3,9 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Webseiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
       Das Standardfenster beträgt 45 Tage. Geben Sie einen Wert von 1 (1) bis 365 ein.
 
-   1. Klicks **[!UICONTROL Advanced]** , um die erweiterten Einstellungen zu erweitern, und wählen Sie dann die Arten von Benutzer-IDs aus, die das Segment-Tag verfolgen soll:
+   1. Klicks **[!UICONTROL Advanced]** , um die erweiterten Einstellungen zu erweitern, und wählen Sie dann die Typen von Benutzer-IDs aus, die das Segment-Tag verfolgt:
 
       * *[!UICONTROL Cookies]:* (Standard) Das Segment-Tag verfolgt Cookies.
 

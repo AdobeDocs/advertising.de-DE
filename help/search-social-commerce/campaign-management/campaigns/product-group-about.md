@@ -3,9 +3,9 @@ title: Über Einkaufsproduktgruppen
 description: Erfahren Sie mehr über Einkaufsproduktgruppen in Einkaufskampagnen.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Sie können Produktgruppen erstellen und bearbeiten sowie Produktgruppen und der
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Verwenden Sie diese Option nur, wenn Sie die Tracking-URLs für Suche, Social und Commerce nicht in eine benutzerdefinierte Spalte im Produkt-Feed aufnehmen. Wenn Sie beides tun, enthalten die URLs zwei Umleitungen und führen zu fehlerhaften Links.
+  >([!DNL Microsoft® Advertising]) Verwenden Sie diese Option nur, wenn Sie die Tracking-URLs für Suche, Social und Commerce nicht in eine benutzerdefinierte Spalte im Produkt-Feed aufnehmen. Wenn Sie beides tun, enthalten die URLs zwei Umleitungen und verursachen fehlerhafte Links.
 
 * ([!DNL Microsoft® Advertising] nur) Fügen Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft® Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die `link` oder `mobile_link` -Feld in einer benutzerdefinierten Spalte mit dem Namen [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) innerhalb des Produkt-Feeds. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen in Search, Social und Commerce angegeben sind.
 

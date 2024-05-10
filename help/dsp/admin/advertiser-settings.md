@@ -2,9 +2,9 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Werbetreibende mit zusätzlichen Adobe Experience Cloud-Produkten können Daten 
 
 (Optional) Zusätzliche Experience Cloud-Produkte, die mit dem DSP verknüpft sind. Die Produkte müssen derselben Experience Cloud-Organisations-ID zugeordnet sein, die in der [!UICONTROL Adobe IMS IDs] Abschnitt.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder Adobe Advertising-Konversionspixel verwenden) A [!DNL Search, Social, & Commerce] -Konto, mit dem DSP Attributionsdaten austauschen.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder Adobe Advertising-Konversionspixel verwenden) A [!DNL Search, Social, & Commerce] Konto, mit dem DSP Attributionsdaten austauschen.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertiser mit Adobe Analytics; optional; nur für Daten verfügbar, die mithilfe von Adobe Advertising-Konversions-Tracking-Tags erfasst wurden, die eine [!DNL EF Redirect] und nur Token) Eine oder mehrere [!DNL Analytics] Report Suites, an die DSP Daten sendet, die von Herausgebern und Anbietern erfasst werden. Analytics sendet außerdem die erfassten Daten von der Site des Kunden an DSP.
 
@@ -47,7 +47,7 @@ Damit die Daten in den Report Suites angezeigt werden, muss die [!DNL Search, So
 
 >[!WARNING]
 >
->Wenn Sie eine zuvor verknüpfte Report Suite entfernen, tauschen DSP keine Daten mehr mit dieser Suite aus. Datenfluktuationen werden erwartet.
+>Wenn Sie eine zuvor verknüpfte Report Suite entfernen, tauscht DSP keine Daten mehr mit dieser Suite aus. Datenfluktuationen werden erwartet.
 
 Weitere Informationen zur Integration mit [!DNL Analytics], siehe[Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
@@ -110,7 +110,7 @@ Arten von zu blockierenden Websites auf der Grundlage von betrügerischem Traffi
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Standardmäßig werden alle 100 % ungültigen Traffic, einschließlich Traffic auf entführten Geräten, für neue Platzierungen blockiert. Es können zusätzliche Gebühren erhoben werden.
 
-**[!UICONTROL Also block sites with]:** (Optional) Eine zusätzliche Stufe von Betrug und ungültigem Traffic, die dazu führt, dass DSP Anzeigen standardmäßig blockieren:  *[!UICONTROL None]* (Standardeinstellung, die zusätzlichen Traffic nicht blockiert), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* oder *[!UICONTROL >25% Average Fraud/IVT levels]*. Es können zusätzliche Gebühren erhoben werden.
+**[!UICONTROL Also block sites with]:** (Optional) Eine zusätzliche Stufe von Betrug und ungültigem Traffic, die dazu führt, dass Anzeigen standardmäßig DSP blockiert werden:  *[!UICONTROL None]* (Standardeinstellung, die zusätzlichen Traffic nicht blockiert), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* oder *[!UICONTROL >25% Average Fraud/IVT levels]*. Es können zusätzliche Gebühren erhoben werden.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 

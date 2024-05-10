@@ -3,9 +3,9 @@ title: Anzeigeeinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Display-Anzeigen.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Die folgenden Einstellungen gelten für standardmäßige Display-Anzeigen.
 
 **[!UICONTROL Final Display Code]:** (Nur Werbeanzeigen von Drittanbietern) Die URL für das kreative Asset von Drittanbietern mit den erforderlichen [Anzeigen DSP Tracking-Makros](/help/dsp/campaign-management/macros.md) gegebenenfalls eingefügt.
 
-**[!UICONTROL Ad Size]:** Die Breite und Höhe der Anzeige. Es muss ein [Unterstützte standardmäßige Anzeigeanzeigengröße](ad-specs.md). Sie können die Anzeigengröße manuell eingeben, bevor Sie die Anzeige hochladen, oder eine [!UICONTROL Display Code]. Wenn Sie die Anzeigengröße nicht eingeben, werden die Dimensionen der hochgeladenen Anzeige oder des Anzeigen-Tags automatisch als schreibgeschützt eingegeben. Beachten Sie, dass die Display-Anzeige nicht gespeichert wird, wenn die Abmessungen nicht der Standardanzeige in der Größe entsprechen - z. B. 301x250 anstelle der Anzeigengröße 300x250.
+**[!UICONTROL Ad Size]:** Die Breite und Höhe der Anzeige. Es muss ein [Unterstützte standardmäßige Anzeigeanzeigengröße](ad-specs.md). Sie können die Anzeigengröße manuell eingeben, bevor Sie die Anzeige hochladen, oder eine [!UICONTROL Display Code]. Wenn Sie die Anzeigengröße nicht eingeben, werden die Dimensionen der hochgeladenen Anzeige oder des Anzeigen-Tags automatisch als schreibgeschützt eingegeben.
 
 >[!IMPORTANT]
 >

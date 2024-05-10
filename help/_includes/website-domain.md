@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Website-Domänenfeld in GGL- und MS-Suchkampagneneinstellungen
 
-**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen) Die Stammdomäne (z. B. beispiel.com) oder Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk verwendet, um Ihre dynamischen Suchanzeigen auszurichten.
+**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen verfügbar) Die Stammdomäne (z. B. example.com) oder Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk zum Ansprechen Ihrer dynamischen Suchanzeigen verwenden sollte.
 
 **Hinweise:**
 

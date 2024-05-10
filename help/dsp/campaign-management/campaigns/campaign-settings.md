@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
 
-* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Nielsen] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
+* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Nielsen] -Messimpressionen nur in unterstützten Ländern angezeigt werden.
 
 **[!UICONTROL comScore vCE]:** (Optional) Aktiviert [!DNL Comscore validated Campaign Essentials (vCE)] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
@@ -134,7 +134,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
 
-* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Comscore] misst nur Impressionen, die in unterstützten Ländern bereitgestellt werden.
+* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Comscore] -Messimpressionen nur in unterstützten Ländern angezeigt werden.
 
 ### [!UICONTROL 1st Party Metrics]
 

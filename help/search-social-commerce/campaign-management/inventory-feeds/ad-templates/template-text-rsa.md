@@ -1,11 +1,11 @@
 ---
 title: Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für Inventar-Feeds
 description: Referenzieren Sie die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 **[!UICONTROL Campaign Tracking Template]:** (Nur Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
-* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * So betten Sie die endgültige URL ein:
 
@@ -136,7 +136,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 **[!UICONTROL Ad Group Tracking Template]:** (Nur Konten mit finalen/erweiterten URLs) Die Tracking-Vorlage auf Anzeigengruppenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet.
 
-Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So geben Sie die Landingpage-URL an:
 
@@ -184,8 +184,8 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 >
 >* Sie können mehrere Modifikatorwerte manuell in das Feld Keywords einfügen, indem Sie durch Kommas getrennte Werte in Klammern entweder vor oder nach einem Suchbegriffparameter einfügen (aber nicht an beiden Stellen). Beispiel: `(cheap, discount, affordable)[product]` produziert für jedes Produkt drei separate Anzeigen.
 >* Wenn Sie keinen Übereinstimmungstyp angeben, wird der standardmäßige Übereinstimmungstyp &quot;broad&quot;verwendet.
-* Negative Übereinstimmungen werden nicht unterstützt.
-* Google-Modifikatoren für breite Übereinstimmung verhalten sich nun genauso wie Phrase-Übereinstimmungen für einige Sprachen, und Sie können keine neuen Keywords für Modifikatoren für breite Übereinstimmung erstellen. Siehe [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/10286719) für weitere Informationen.
+>* Negative Übereinstimmungen werden nicht unterstützt.
+>* Google-Modifikatoren für breite Übereinstimmung verhalten sich nun genauso wie Phrase-Übereinstimmungen für einige Sprachen, und Sie können keine neuen Keywords für Modifikatoren für breite Übereinstimmung erstellen. Siehe [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/10286719) für weitere Informationen.
 
 **[!UICONTROL Map Only]:** Fügt neue Anzeigen zu Anzeigengruppen (oder zu Kampagnen für [!DNL Yandex] Konten), in denen die angegebenen Suchbegriffe gefunden werden, anstatt neue Suchbegriffe zu erstellen. Aktivieren Sie das Kontrollkästchen, um diese Option zu aktivieren. Wenn diese Option aktiviert ist, gelten alle Variablen von Param 1 und Param 2 in den angegebenen Keywords nicht, da die Keywords vorhanden sind.
 
@@ -195,12 +195,12 @@ Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &
 
 >[!NOTE]
 >
-* Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden Tracking-Parameter basierend auf den Konto-Tracking-Einstellungen an diesen Wert angehängt.
-* ([!DNL Google Ads] -Konten) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
+>* Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden Tracking-Parameter basierend auf den Konto-Tracking-Einstellungen an diesen Wert angehängt.
+>* ([!DNL Google Ads] -Konten) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account-Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
 **[!UICONTROL Keyword Tracking Template]:** (Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
-* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern eingeben.
 
@@ -216,9 +216,9 @@ Wenn Sie einen der beiden Parameter verwenden, haben Sie die Möglichkeit, den P
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** (Standard): Hiermit wird einfach der Wert des Parameters für neue Suchbegriffe eingefügt, die mit der Vorlage erstellt werden.
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]:** Neben der Erstellung neuer Suchbegriffe aus dem Feed aktualisiert Search, Social und Commerce auch den Wert des Parameters für alle vorhandenen Suchbegriffe in der Anzeigengruppe, die nicht mit der Vorlage erstellt wurden. Geben Sie einen einzelnen numerischen Wert ein, der für alle diese Suchbegriffe verwendet wird. Die Vorlage muss mindestens einen Suchbegriff enthalten.
+* **[!UICONTROL Apply to Existing Keywords: Constant]:** Neben der Erstellung neuer Suchbegriffe aus dem Feed aktualisiert Search, Social und Commerce auch den Parameterwert für alle vorhandenen Suchbegriffe in der Anzeigengruppe, die nicht mit der Vorlage erstellt wurden. Geben Sie einen einzelnen numerischen Wert ein, der für alle diese Suchbegriffe verwendet wird. Die Vorlage muss mindestens einen Suchbegriff enthalten.
 
-* **[!UICONTROL Apply to Existing Keywords: Min]:** Neben der Erstellung neuer Suchbegriffe aus dem Feed aktualisiert Search, Social und Commerce auch den Wert des Parameters für alle vorhandenen Suchbegriffe in der Anzeigengruppe, die nicht mit der Vorlage erstellt wurden, solange die Feed-Datei numerische Werte für den Parameter enthält, wobei bis zu einem Dezimalpunkt, jedoch keine Kommas, Währungssymbole oder Codes oder andere Zeichen enthalten sind. Der Mindestwert für den Parameter in der Feed-Datei wird für alle vorhandenen Suchbegriffe verwendet. Wenn die Feed-Datei beispielsweise [!UICONTROL Param1] Werte von 21500 und 22000, dann wird die [!UICONTROL Param1] -Werte für die vorhandenen Suchbegriffe auf 21500 geändert. Die Vorlage muss mindestens einen Suchbegriff enthalten. **Tipp:** Verwenden Sie diese Option nur, wenn Sie eng gefasste Anzeigengruppen verwenden, damit Suchbegriffe denselben Wert haben.
+* **[!UICONTROL Apply to Existing Keywords: Min]:** Neben der Erstellung neuer Suchbegriffe aus dem Feed aktualisiert Search, Social und Commerce auch den Parameterwert für alle vorhandenen Suchbegriffe in der Anzeigengruppe, die nicht mit der Vorlage erstellt wurden, sofern die Feed-Datei numerische Werte für den Parameter mit bis zu einem Dezimalpunkt ohne Kommas, Währungssymbole oder Codes oder andere Zeichen enthält. Der Mindestwert für den Parameter in der Feed-Datei wird für alle vorhandenen Suchbegriffe verwendet. Wenn die Feed-Datei beispielsweise [!UICONTROL Param1] Werte von 21500 und 22000, dann wird die [!UICONTROL Param1] -Werte für die vorhandenen Suchbegriffe auf 21500 geändert. Die Vorlage muss mindestens einen Suchbegriff enthalten. **Tipp:** Verwenden Sie diese Option nur, wenn Sie eng gefasste Anzeigengruppen verwenden, damit Suchbegriffe denselben Wert haben.
 
 Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur aus numerischen Daten mit den folgenden nicht numerischen Zeichen bestehen:
 
@@ -234,9 +234,9 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
    * Zwei Zahlen können mit einem Schrägstrich eingebettet werden. Beispielsweise sind 4/1 und 0.95/0.45 gültig.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] templates\]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param2}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge des Anzeigenelements, in dem Sie es verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
+**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] templates\]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param2}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param3}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge des Anzeigenelements, in dem Sie es verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param3}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das anfängliche Gebot für jeden Suchbegriff mit dem angegebenen Übereinstimmungstyp oder Anzeigentyp.
 
@@ -328,12 +328,12 @@ Wenn Sie [!DNL Google Merchant] Feed zentrieren und diesen Wert in die &quot;[!U
 
 >[!NOTE]
 >
-* Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden basierend auf den Konto-Tracking-Einstellungen Tracking-Parameter an diesen Wert angehängt.
-* ([!DNL Google Ads] Konten ) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
+>* Wenn Sie Tracking-URLs generieren, wenn Sie Daten veröffentlichen, die über die Vorlage propagiert wurden, werden basierend auf den Konto-Tracking-Einstellungen Tracking-Parameter an diesen Wert angehängt.
+>* ([!DNL Google Ads] Konten ) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account-Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
 **[!UICONTROL Tracking Template]:** (Konten mit finalen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als granularsten) überschreibt Werte auf allen anderen Ebenen.
 
-Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; Search, Social und Commerce hängt beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So geben Sie die Landingpage-URL an:
 
@@ -345,9 +345,9 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
 >[!NOTE]
 >
-* Wenn die Variable [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und können nach Bedarf bearbeitet werden.
-* Nur die Werbetexte, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die Originalbeschreibungen. Stellen Sie daher sicher, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
-* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
+>* Wenn die Variable [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und können nach Bedarf bearbeitet werden.
+>* Nur die Werbetexte, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die Originalbeschreibungen. Stellen Sie daher sicher, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
+>* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
 
 **\[Komponente\] [!UICONTROL Ad Label Classifications] > \[Beschriftungsklassifizierung und Wert\]:** (Optional) Werte für bis zu fünf vorhandene Beschriftungsklassifizierungen, um sie den Anzeigenvarianten zuzuweisen, die mit der Vorlage erstellt oder bearbeitet werden. Für jede Kampagnenkomponente, der Sie Beschriftungsklassifizierungen zuweisen möchten:
 
@@ -357,7 +357,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
    * Führen Sie für jede Beschriftungsklassifizierung und jeden Wert, der der Komponente zugewiesen werden soll, folgende Schritte aus:
 
-      1. Klicken **[!UICONTROL Add Label Classification]**.
+      1. Klicks **[!UICONTROL Add Label Classification]**.
 
       1. Wählen Sie die vorhandene Beschriftungs-Classification aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
 
@@ -385,8 +385,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
 >[!MORELIKETHIS]
 >
-* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
-* [Verwalten von Modifikatoren](../modifiers-manage.md)
-* [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
-* [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)
+>* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
+>* [Verwalten von Modifikatoren](../modifiers-manage.md)
+>* [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
+>* [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)

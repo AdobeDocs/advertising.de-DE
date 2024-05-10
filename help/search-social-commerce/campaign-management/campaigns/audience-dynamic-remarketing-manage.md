@@ -1,11 +1,11 @@
 ---
 title: Verwalten [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppen
 description: Erfahren Sie, wie Sie [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppen.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]Nur Konten*
 
-Sie können eine [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppe, wenn Sie das JavaScript-Konversions- und Zielgruppen-Tracking-Tag der Suchmaschine auf Ihren Webseiten verwenden. Jede Zielgruppe wird mithilfe eines bestimmten Tags erstellt, das in den Webseiten enthalten ist, deren Benutzer die Zielgruppe enthalten werden. Sie können mehrere Zielgruppen mit demselben Tracking-Tag erstellen. Sie können auch den Namen und die Datenquelle für bestehende Zielgruppen ändern oder vorhandene Zielgruppen löschen.
+Sie können eine [!DNL Microsoft Advertising] dynamische Remarketing-Zielgruppe, wenn Sie das JavaScript-Konversions- und Zielgruppen-Tracking-Tag der Suchmaschine auf Ihren Webseiten verwenden. Jede Zielgruppe wird mithilfe eines bestimmten Tags erstellt, das in den Webseiten enthalten ist, deren Benutzer die Zielgruppe bilden. Sie können mehrere Zielgruppen mit demselben Tracking-Tag erstellen. Sie können auch den Namen und die Datenquelle für bestehende Zielgruppen ändern oder vorhandene Zielgruppen löschen.
 
 Zielgruppen für dynamisches Remarketing haben den Zielgruppentyp &quot;[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot;(z. B. &quot;Dynamische Remarketing-Käufer in der Vergangenheit&quot;).
 
@@ -42,7 +42,7 @@ Weitere Informationen zum dynamischen Remarketing und zur Implementierung des er
 
    1. Geben Sie die **[!UICONTROL Audience Name]**.
 
-   1. Wählen Sie aus einer Liste aller verfügbaren Tags für das Suchmaschinenkonto den Namen der [!DNL Microsoft Advertising] UET-Tag, das auf den Webseiten enthalten ist, deren Benutzer die Zielgruppe enthalten werden.
+   1. Wählen Sie aus einer Liste aller verfügbaren Tags für das Suchmaschinenkonto den Namen der [!DNL Microsoft Advertising] UET-Tag, das auf den Webseiten enthalten ist, deren Benutzer die Zielgruppe bilden.
 
    1. Wählen Sie den Besuchertyp für die Zielgruppe aus, der auf den Besucheraktionen auf den relevanten Webseiten basiert: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* oder *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -50,7 +50,7 @@ Weitere Informationen zum dynamischen Remarketing und zur Implementierung des er
 
       Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
@@ -72,11 +72,11 @@ Sie können den Namen und die Datenquelle für eine [!DNL Microsoft Advertising]
 
    1. (Optional) Ändern Sie die **[!UICONTROL Audience Name]**.
 
-   1. (Optional) Ändern Sie in einer Liste aller verfügbaren Tags für das Anzeigennetzwerkkonto den Namen der [!DNL Microsoft Advertising] UET-Tag, das auf den Webseiten enthalten ist, deren Benutzer die Zielgruppe enthalten werden.
+   1. (Optional) Ändern Sie in einer Liste aller verfügbaren Tags für das Anzeigennetzwerkkonto den Namen der [!DNL Microsoft Advertising] UET-Tag, das auf den Webseiten enthalten ist, deren Benutzer die Zielgruppe bilden.
 
    1. (Optional) Ändern Sie den Besuchertyp für die Zielgruppe, der auf den Besucheraktionen auf den relevanten Webseiten basiert: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]* oder *[!UICONTROL Shopping Cart Abandoners]*.
 
-   1. Klicken **[!UICONTROL Post]**.
+   1. Klicks **[!UICONTROL Post]**.
 
 ## Dynamische Remarketing-Zielgruppe löschen
 

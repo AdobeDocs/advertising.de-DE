@@ -1,9 +1,9 @@
 ---
 title: Über die [!UICONTROL Deal ID Inbox]
-description: Erfahren Sie mehr über die [!UICONTROL Deal ID inbox] -Funktion, mit der Sie private Angebote akzeptieren können, über die Sie bereits mit Herausgebern verhandelt haben [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]).
+description: Informationen zum [!UICONTROL Deal ID inbox] -Funktion, mit der Sie private Angebote akzeptieren können, über die Sie bereits mit Herausgebern verhandelt haben [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -35,11 +35,11 @@ DSP aktualisiert automatisch täglich um 4:30 Uhr EST alle Details des Angebots.
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
 >
->Für programmgesteuerte garantierte Angebote durch [!DNL Google Authorized Buyers]müssen Sie mindestens 90 % Ihres Budgets einsetzen, sonst verliert Ihr Konto den Zugriff auf [!DNL Google] Angebote in [!UICONTROL Deal ID inbox].
+>Für programmgesteuerte garantierte Angebote durch [!DNL Google Authorized Buyers], müssen Sie mindestens 90 % Ihres Budgets einsetzen oder Ihr Konto verliert den Zugang zu [!DNL Google] Angebote in [!UICONTROL Deal ID inbox].
 
 ## Implementieren der [!UICONTROL Deal ID Inbox]
 
-So erhalten Sie Ihre Angebote im [!UICONTROL Deal ID inbox]müssen Ihre SSP-Konten das DSP Ihres Unternehmens Ihrem SSP-Konto zuordnen. DSP teilt die Kontonamen des Unternehmens mit den relevanten SSPs. Wenden Sie sich für weitere Informationen an Ihr Adobe Account Team.
+So erhalten Sie Ihre Angebote im [!UICONTROL Deal ID inbox]müssen Ihre SSP-Konten das DSP Ihres Unternehmens Ihrem SSP-Konto zuordnen. DSP können die Kontonamen des Unternehmens für die relevanten SSPs freigeben. Wenden Sie sich für weitere Informationen an Ihr Adobe Account-Team.
 
 Teilen Sie dem Herausgeber bei den Vertragsverhandlungen mit, dass er den Deal an den Käufer und nicht an das DSP übergeben soll. Die Deal-ID kann je nach SSP ein Name oder eine ID sein.
 
@@ -75,4 +75,3 @@ Die Details des Deals enthalten den Grund dafür, dass das Geschäft nicht akzep
 >
 >* [Akzeptieren eines Angebots im Deal-ID-Posteingang](deal-id-inbox-accept.md)
 >* [Übersicht über die Funktionen des Bestands](inventory-overview.md)
-

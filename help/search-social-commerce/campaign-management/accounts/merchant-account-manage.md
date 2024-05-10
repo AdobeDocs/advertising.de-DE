@@ -3,9 +3,9 @@ title: Handelskonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nur für Adobe Account Manager, Account Manager und Administratorbenutzer*
 
-Search, Social und Commerce können täglich Produktdaten für die Google Merchant Center- oder Microsoft Merchant Center-Konten eines Advertisers herunterladen und anzeigen. Darüber hinaus können Search, Social und Commerce die Anzeigenerstellung anhand des Inhalts des Händlerkontos automatisieren. Um direkt mit Produktdaten in Search, Social und Commerce zu arbeiten, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Kontozugriffsberechtigungen und den Zugriff enthält *enabled*.
+Search, Social und Commerce können täglich Produktdaten für die Google Merchant Center- oder Microsoft Merchant Center-Konten eines Advertisers herunterladen und anzeigen. Darüber hinaus können Search, Social und Commerce die Anzeigenerstellung anhand des Inhalts des Händlerkontos automatisieren. Um direkt mit Produktdaten in Search, Social und Commerce zu arbeiten, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Kontozugriffsberechtigungen und Zugriffsberechtigungen enthält *enabled*.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
    
    -->
 
-   1. (Erforderlich für [!DNL Google Ads] Konten; fakultativ für [!DNL Microsoft Advertising] Konten) Suche, Social &amp; Commerce erlauben, auf das Konto zuzugreifen, das die [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
+   1. (Erforderlich für [!DNL Google Ads] Konten; fakultativ für [!DNL Microsoft Advertising] Konten) Suchrechte, Social und Commerce für den Zugriff auf das Konto mit der [[!DNL OAuth] Autorisierungsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] Nur Konten) Wählen Sie **[!UICONTROL oAuth]**.
 
@@ -84,7 +84,7 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 >[!NOTE]
 >
->Search, Social und Commerce müssen die neuen Kontodaten mit denen im Händlernetzwerk synchronisieren. Dies geschieht automatisch einmal täglich um etwa 6:00 Uhr in der lokalen Zeitzone des Benutzers.
+>Search, Social und Commerce müssen die neuen Kontodaten mit denen im Handelsnetzwerk synchronisieren. Dies geschieht automatisch einmal täglich um etwa 6:00 Uhr in der lokalen Zeitzone des Benutzers.
 
 ## Zugriff auf ein Händlerkonto deaktivieren {#disable-merchant-account}
 
@@ -118,7 +118,7 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] nur) Der Zugriffsschlüssel für das zu verwendende Entwicklerkonto.
 
-**[!UICONTROL Account Name]:** Der Name, der für das Konto in Search, Social und Commerce angezeigt wird.
+**[!UICONTROL Account Name]:** Der in Search, Social und Commerce für das Konto angezeigte Name.
 
 **[!UICONTROL Login]:** Der Anmeldename oder die ID für das Konto.
 
@@ -126,15 +126,15 @@ Wenn Sie ein Händlerkonto deaktivieren, melden sich Search, Social und Commerce
 
 **[!UICONTROL Confirm Password]:** Das Kennwort für das Konto.
 
-**[!UICONTROL EF Account Type]:** Ob Search, Social und Commerce auf das Konto zugreifen:
+**[!UICONTROL EF Account Type]:** Gibt an, ob Search, Social und Commerce auf das Konto zugreifen:
 
-* *[!UICONTROL Enabled]* (Standardeinstellung): Search, Social und Commerce können sich beim Konto anmelden, um Produktdaten abzurufen.
+* *[!UICONTROL Enabled]* (Standardeinstellung): Search, Social und Commerce können sich bei dem Konto anmelden, um Produktdaten abzurufen.
 
-* *[!UICONTROL Disabled]:* Search, Social und Commerce melden sich nicht beim Konto an und rufen daher keine aktualisierten Produktdaten ab. Während der Aktivierung des Kontos erfasste Daten werden weiterhin gespeichert und vorhandene Anzeigen, die mithilfe von Produktdaten erstellt wurden, werden nicht gemäß der Feed-Vorlage und den Feed-Dateneinstellungen aktualisiert, angehalten oder gelöscht.
+* *[!UICONTROL Disabled]:* Search, Social und Commerce melden sich nicht bei dem Konto an und rufen daher keine aktualisierten Produktdaten ab. Während der Aktivierung des Kontos erfasste Daten werden weiterhin gespeichert und vorhandene Anzeigen, die mithilfe von Produktdaten erstellt wurden, werden nicht gemäß der Feed-Vorlage und den Feed-Dateneinstellungen aktualisiert, angehalten oder gelöscht.
 
 **[!UICONTROL Account ID]:** Die Konto-ID des Händlers. Wenn Sie nur ein Konto mit den angegebenen Anmeldeinformationen haben, ist dieser Wert optional.
 
-**[!UICONTROL Time Zone]:** Die Zeitzone des Werbetreibenden. Verwenden Sie dieselbe Zeitzone, die für die Kontoinformationen des Advertisers für Suchen, Social und Commerce konfiguriert ist (die bei der Erstellung des Kontos festgelegt wird). Sie können den Wert für ein vorhandenes Konto nicht ändern.
+**[!UICONTROL Time Zone]:** Die Zeitzone des Werbetreibenden. Verwenden Sie dieselbe Zeitzone, die für die Suchinformationen, Social- und Commerce-Kontoinformationen des Advertisers konfiguriert ist (die bei der Erstellung des Kontos festgelegt wird). Sie können den Wert für ein vorhandenes Konto nicht ändern.
 
 >[!MORELIKETHIS]
 >

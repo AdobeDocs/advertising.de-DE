@@ -3,7 +3,7 @@ title: Einzelne Anzeige erstellen
 description: Erfahren Sie, wie Sie eine einzelne Werbeanzeige eines Drittanbieters erstellen.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Informationen zum Erstellen mehrerer Drittanbieter-Anzeigen auf einmal finden Si
 
    >[!NOTE]
    >
-   >Ihre Werbeanzeige wird nur bereitgestellt, wenn sowohl DSP als auch die SSP die Kreativinhalte genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
+   >Ihre Werbeanzeige kann nur bereitgestellt werden, wenn sowohl DSP als auch die SSP die Kreativinhalte genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
 
 >[!MORELIKETHIS]
 >

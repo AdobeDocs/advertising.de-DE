@@ -3,7 +3,7 @@ title: Wie DSP Ihre Kampagnen optimiert
 description: Erfahren Sie, wie DSP die Pakete in Ihren Kampagnen optimiert.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP können Ihren Versand auf zwei grundlegende Arten optimieren, wobei 20 Varia
 
 * Kosteneffizienz mit Leistungsrate im Gleichgewicht priorisieren
 
-Siehe [Optimierungsziele und Verwendung](optimization-goals.md) , um zu bestimmen, welches Optimierungsziel Ihnen beim Erreichen Ihrer KPIs hilft.
+Siehe [Optimierungsziele und Verwendung](optimization-goals.md) , um zu bestimmen, welches Optimierungsziel Ihnen beim Erreichen Ihrer KPIs helfen kann.
 
 ### Pakete, die die Leistungsrate priorisieren
 
@@ -48,9 +48,9 @@ Dieser Optimierungsmodus funktioniert gut, wenn:
 
 #### Pacing-Logik {#pacing-logic-performance}
 
-* Wenn die Ausgaben im Tempo sind, wird das Bieten selektiver, sodass Sie nur Gebote für Auktionen abgeben, bei denen hohe Leistungsraten vorhergesagt werden.
+* Wenn die Ausgaben im Tempo sind, wird das Bieten selektiver, sodass Sie nur Gebote für Auktionen abgeben, für die hohe Leistungsraten vorhergesagt werden.
 
-* Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird das Bieten weniger selektiv, sodass Sie bei Auktionen, die voraussichtlich niedrigere Leistungsraten aufweisen, Angebote einreichen, um das Zwischenziel zu erreichen.
+* Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird das Bieten weniger selektiv, sodass Sie auf Auktionen bieten, die mit niedrigeren Leistungsraten rechnen, um das Zwischenziel zu erreichen.
 
 #### Löschen von Preis-/Angebotsschattierung {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ Platzierungs-Filter vor dem Gebot sind die strengste Methode, um eine starke Lei
 >
 >Die verfügbaren Vorangebotsfilter variieren je nach Anzeigentyp. Beispielsweise können Sie für eine standardmäßige Anzeigeplatzierung nach Clickthrough- und Sichtbarkeitsrate, aber nicht nach Abschlussrate filtern.
 
-Siehe [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md) , um zu bestimmen, welcher Filter vor dem Angebot Ihnen beim Erreichen Ihrer KPIs hilft.
+Siehe [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md) , um zu bestimmen, welcher Filter vor dem Angebot Ihnen beim Erreichen Ihrer KPIs helfen kann.
 
 >[!MORELIKETHIS]
 >

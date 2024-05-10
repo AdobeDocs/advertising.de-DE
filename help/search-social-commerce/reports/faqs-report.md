@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Sie können sehen, welche Konversionen durch einen Klick auf eine [!DNL Google A
 Wenn die Zeile Daten für inhaltsfähige Suchkampagnen, Display-Kampagnen oder Social-Media-Kampagnen enthält, die keine Keywords enthalten, wird die [!UICONTROL Keyword] zeigt stattdessen den entsprechenden Anzeigengruppennamen an.
 +++
 
-+++ Aufgrund saisonaler oder marktrelevanter Veränderungen zeigen meine Berichte atypische Daten. Wird sich dies auf Angebote auswirken, sobald sich die Bedingungen ändern?
++++ Aufgrund saisonaler oder marktrelevanter Veränderungen zeigen meine Berichte atypische Daten. Hat dies Auswirkungen auf Gebote, sobald sich die Bedingungen ändern?
 Die Optimierungsfunktion erstellt täglich ihre Umsatzmodelle für jede Angebotseinheit, um sicherzustellen, dass sie Trends identifiziert und sofort auf sie reagiert. Die Modelle enthalten langfristige historische Daten, um die saisonale Leistung vorherzusagen. Halbwertseinstellung des Umsatzmodells des Portfolios<!-- add link to glossary? --> bestimmt auch, wie stark aktuelle Umsatzdaten gewichtet werden. Die Best Practice ist, die Halbwertszeit in einem Zeitraum atypischer Performance zu reduzieren, aber nach Anpassung des Umsatzmodells zu erhöhen. Wenden Sie sich bei Fragen dazu, ob eine Anpassung der Halbwertszeit erforderlich ist, an Ihr Adobe Account Team.
 
 Wenn Sie nicht möchten, dass sich die Daten für den Zeitraum auf künftige Angebote auswirken, können Sie diese Daten aus dem Modell ausschließen. Wenden Sie sich an Ihr Adobe Account Team, um die Daten auszuschließen.
@@ -98,9 +98,9 @@ Diese Situation kann auftreten, wenn die Metrikformate Ganzzahlen verwenden:
 +++
 
 +++ Wenn Klick- oder Umsatzdaten fehlen, wie kann ich verhindern, dass sich dies auf zukünftige Angebote auswirkt?
-Klickdatenprobleme treten auf, wenn Search, Social und Commerce nicht mit dem Anzeigennetzwerk synchronisiert sind. Wenden Sie sich an Ihr Adobe Account Team, um das Konto manuell zu synchronisieren. Wenn Klickdaten für einen ganzen Tag fehlen, bitten Sie Ihr Adobe Account Team, diesen Tag von den Kostenmodellen auszuschließen.
+Klickdatenprobleme treten auf, wenn Search, Social und Commerce nicht mit dem Anzeigennetzwerk synchronisiert sind. Wenden Sie sich an Ihr Adobe Account-Team, um das Konto manuell zu synchronisieren. Wenn Klickdaten für einen ganzen Tag fehlen, bitten Sie Ihr Adobe Account-Team, diesen Tag von den Kostenmodellen auszuschließen.
 
-Umsatzdatenprobleme können aufgrund eines Tracking- oder Feed-Dateiproblems auftreten. Wenden Sie sich an Ihr Adobe Account Team, um das Problem zu untersuchen. Wenn Umsatzdaten einen ganzen Tag lang fehlen, bitten Sie Ihr Kundenbetreuungsteam, diesen Adobe von den Umsatzmodellen auszuschließen.
+Umsatzdatenprobleme können aufgrund eines Tracking- oder Feed-Dateiproblems auftreten. Wenden Sie sich an Ihr Adobe Account Team, um das Problem zu untersuchen. Wenn Umsatzdaten für einen ganzen Tag fehlen, bitten Sie Ihr Adobe Account-Team, diesen Tag aus den Umsatzmodellen auszuschließen.
 +++
 
 +++Währungsdaten werden im falschen Format angezeigt.
@@ -122,14 +122,14 @@ Im Folgenden finden Sie häufige Gründe für das Fehlen von Klickdaten.
 
 | Ursache | Erkennung/Analyse | Auflösung |
 |---|---|---|
-| Der Prozess, der Klickdaten aus dem Anzeigenkonto abruft, ist fehlgeschlagen. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, auch wenn das Anzeigenkonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe Account Team.<br><br>Wenn die Daten länger als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenvorausschätzungen aus, bis die Daten abgerufen werden. Ihr Adobe-Kontoteam kann die Daten ausschließen. |
-| Ein Abrechnungsfehler zwischen dem Advertiser und dem Werbenetzwerk verhindert, dass das Werbekonto ausgegeben wird. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht ausgegeben werden konnte, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe-Kontoteam kann die Daten ausschließen. |
+| Der Prozess, der Klickdaten aus dem Anzeigenkonto abruft, ist fehlgeschlagen. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, auch wenn das Anzeigenkonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-Account-Team.<br><br>Wenn die Daten länger als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenvorausschätzungen aus, bis die Daten abgerufen werden. Ihr Adobe-Account-Team kann die Daten ausschließen. |
+| Ein Abrechnungsfehler zwischen dem Advertiser und dem Werbenetzwerk verhindert, dass das Werbekonto ausgegeben wird. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht ausgegeben werden konnte, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe-Account-Team kann die Daten ausschließen. |
 +++
 
 +++ Leistungsdaten unterscheiden sich von Daten im Werbenetzwerk-Editor.
-Wenn das Werbenetzwerk Aktualisierungen an frühere Daten sendet (häufig weil sie Klickbetrug einigen Klicks zugeordnet haben), werden die Daten nur dann von Search, Social und Commerce aktualisiert, wenn mehr als 5 % Diskrepanz vorliegen und das Adobe Account Team eine Anfrage sendet.
+Wenn das Werbenetzwerk Aktualisierungen an frühere Daten sendet (häufig weil sie Klickbetrug einigen Klicks zugeordnet haben), aktualisiert Search, Social und Commerce die Daten nur, wenn mehr als eine 5-%-Diskrepanz vorliegt und das Adobe Account Team eine Anfrage sendet.
 
-Wenn Sie außerdem Daten von Impressions-Freigaben vergleichen, die über einen Datumsbereich aggregiert wurden, können die in den Berichten &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;enthaltenen Daten von den Daten abweichen, die das Anzeigennetzwerk meldet. Dieser Unterschied liegt daran, wie die Daten von der API des Anzeigennetzwerks gemeldet werden, mit der Search, Social und Commerce Daten abrufen. Beispiel: für [!DNL Google Ads] data:
+Wenn Sie außerdem Daten von Impressions-Freigaben vergleichen, die über einen Datumsbereich aggregiert wurden, unterscheiden sich die in den Berichten von Search, Social und Commerce enthaltenen Daten möglicherweise von den Daten, die das Anzeigennetzwerk meldet. Dieser Unterschied liegt daran, wie die Daten von der API des Anzeigennetzwerks gemeldet werden, mit der Search, Social und Commerce Daten abrufen. Beispiel: für [!DNL Google Ads] data:
 
 * Für die meisten Impressions-Share-Metriken [!DNL Google Ads] Begrenzt entweder das untere oder das obere Ende der Werte, die für Werte angegeben werden, die kleiner als 10 % oder größer als 90 % sind. Die Daten werden als 0,0999 für &lt;10% und 0,9001 für >90% gemeldet.
 
@@ -139,9 +139,9 @@ Wenn Sie außerdem Daten von Impressions-Freigaben vergleichen, die über einen 
 +++ Leistungsdaten in Berichten unterscheiden sich von den Daten in [!DNL Google Analytics].
 Die beiden Systeme messen unterschiedliche Daten, sodass Sie erwarten sollten, dass andere Daten angezeigt werden. Beispiel:
 
-* Klicks werden in Search, Social und Commerce (und Google Ads) verfolgt, während Klicks in [!DNL Google Analytics] verfolgt Besuche pro 30-minütige Browser-Sitzung. Wenn ein Benutzer beispielsweise einmal auf Ihre Anzeige klickt, dann auf die Schaltfläche &quot;Zurück&quot;und dann erneut auf die Anzeige klickt, zeichnet &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;zwei Klicks auf, aber [!DNL Google Analytics] erfasst einen Besuch.
+* Klicks in Search, Social und Commerce (und Google Ads) verfolgen, während Klicks in Social und nachverfolgt werden. [!DNL Google Analytics] verfolgt Besuche pro 30-minütige Browser-Sitzung. Wenn ein Benutzer beispielsweise einmal auf Ihre Anzeige klickt, dann auf die Schaltfläche &quot;Zurück&quot;und dann erneut auf die Anzeige klickt, zeichnet Search, Social und Commerce zwei Klicks auf, aber [!DNL Google Analytics] erfasst einen Besuch.
 
-* [!DNL Google Analytics] zeigt alle Traffic-Daten an, während &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;(und [!DNL Google Ads]) filtert ungültige Klicks (z. B. übermäßige, wiederholte Klicks).
+* [!DNL Google Analytics] zeigt alle Traffic-Daten an, während Search, Social und Commerce (und [!DNL Google Ads]) filtert ungültige Klicks (z. B. übermäßige, wiederholte Klicks).
 
 * [!DNL Google Analytics] enthält Klick- und Umsatzdaten für alle Klicks. In Search, Social und Commerce können Klick- und Umsatzdaten für Anzeigen und Suchbegriffe mit falschen oder fehlenden Tracking-URLs nicht verfolgt werden.
 +++
@@ -158,7 +158,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Ursachen:*
 
-* Suchbegriffe oder Anzeigen wurden hinzugefügt, ohne den Tracking-Vorlagen oder Ziel-URLs das Klick-Tracking-Präfix &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;voranzustellen, oder das Tracking-Präfix ist falsch.
+* Suchbegriffe oder Anzeigen wurden hinzugefügt, ohne den Tracking-Vorlagen oder Ziel-URLs das Klick-Tracking-Präfix &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;voranzustellen. Andernfalls ist das Tracking-Präfix falsch.
 
 * Das Konversions-Tracking-Tag wurde nicht auf allen entsprechenden Webseiten korrekt implementiert oder bearbeitet.
 
@@ -168,11 +168,11 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die richtigen Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe-Account-Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
-1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Wenden Sie sich bei Bedarf an Ihr Kundenbetreuungsteam, um eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (wie die `trackingid`, `clickid`usw.).
+1. Stellen Sie sicher, dass die richtigen Konversions-Tracking-Tags auf allen entsprechenden Webseiten implementiert sind. Bitten Sie bei Bedarf Ihr Adobe Account-Team, eine Testtransaktion für jedes zutreffende Konversions-Tracking-Tag zu erstellen und die Details der Transaktion zu erfassen, z. B. die `transactionid` und Details aus dem Cookie (wie die `trackingid`, `clickid`usw.).
 
-1. Wenn die Variable [!UICONTROL Auto Upload] -Option für die Kampagne deaktiviert ist und Sie Suchbegriffe oder Anzeigen hinzugefügt haben, müssen Sie dann sicherstellen, dass Sie eine Tracking-Vorlage oder Ziel-URL generiert haben, die das Klick-Umleitungs-Tracking für Search, Social und Commerce enthält. Ihr Adobe-Kontoteam kann einen internen Bericht ausführen, um zu sehen, ob Klick-Tracking-URLs (Tracking-Vorlagen oder Ziel-URLs) fehlen oder fehlerhaft sind.
+1. Wenn die Variable [!UICONTROL Auto Upload] -Option für die Kampagne deaktiviert ist und Sie Suchbegriffe oder Anzeigen hinzugefügt haben, müssen Sie dann sicherstellen, dass Sie eine Tracking-Vorlage oder Ziel-URL generiert haben, die das Klick-Umleitungs-Tracking in Search, Social und Commerce enthält. Ihr Adobe Account-Team kann einen internen Bericht ausführen, um zu sehen, ob Klick-Tracking-URLs (Tracking-Vorlagen oder Ziel-URLs) fehlen oder fehlerhaft sind.
 
    Generieren Sie bei Bedarf ein Tracking, indem Sie eine Bulksheet-Datei mit den richtigen URLs erstellen und die Datei mithilfe der **Tracking-URLs generieren** -Option.
 
@@ -196,7 +196,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 *Mögliche Lösung oder Problemumgehung:*
 
-1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die entsprechenden Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe Account Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Überprüfen Sie, ob die korrekten Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die richtigen Spalten nicht hinzugefügt werden können, müssen Sie oder Ihr Adobe-Account-Team [Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Führen Sie die [!UICONTROL Portfolio Report]. Wenn es leer ist, führen Sie die [!UICONTROL Campaign Report] und [!UICONTROL Search Engine Report] um zu sehen, ob der Umsatz in diesen Berichten auftaucht. Ist dies der Fall, werden die Kampagnen möglicherweise nicht dem entsprechenden Portfolio zugewiesen.
 
@@ -206,7 +206,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 1. Wenn die Datei gesendet wurde, dann [Kundenunterstützung kontaktieren](/help/search-social-commerce/get-help.md).
 
-   Die Kundenunterstützung prüft, ob die Datei empfangen und analysiert wurde. Wenn die Datei fehlerfrei verarbeitet wurde, wird geprüft, ob verwaiste Transaktionen vorliegen.
+   Die Kundenunterstützung prüft, ob die Datei empfangen und analysiert wurde. Wenn die Datei fehlerfrei verarbeitet wurde, wird auf verwaiste Transaktionen überprüft.
 +++
 
 +++ Einige erweiterte Berichte enthalten keine Konversionsdaten, die von einem Advertiser-Feed bereitgestellt werden.
@@ -219,7 +219,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
 *Mögliche Ursachen:*
 
-* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Werbetreibende kann dies jedoch als gültigen Umsatz betrachten.
+* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Advertiser kann jedoch davon ausgehen, dass der Umsatz gültig ist.
 
 * Der Traffic zur Seite des Werbetreibenden stammt von einem Lesezeichen oder einer organischen Suche anstelle einer Anzeige.
 
@@ -229,7 +229,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
 1. Navigieren Sie zu **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** und generieren Sie eine [!UICONTROL Transaction Report]. Vergleichen Sie die von Search, Social und Commerce empfangenen Transaktionen mit den Daten des Advertisers.
 
-1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass das entsprechende Konversions-Tracking-Tag auf allen zutreffenden Webseiten implementiert ist und nicht bearbeitet wurde, es sei denn, Ihr Adobe-Kundenbetreuungsteam hat Sie dazu angewiesen. Wenn die Website kürzlich aktualisiert wurde, fehlt möglicherweise ein -Tag oder ändert es sich.
+1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass das entsprechende Konversions-Tracking-Tag auf allen zutreffenden Webseiten implementiert ist und nicht bearbeitet wurde, es sei denn, Ihr Adobe Account-Team hat Sie dazu angewiesen. Wenn die Website kürzlich aktualisiert wurde, fehlt möglicherweise ein -Tag oder ändert es sich.
 
    Search, Social und Commerce erwarten wohlgeformte URLs (mit Parametern in Name/Wert-Paaren) innerhalb der Variablen `ef_transaction_properties` und innerhalb der Variablen `src` -Element des `img` -Tag.
 
@@ -245,7 +245,7 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 *Mögliche Ursachen:*
 
-* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abläuft oder gelöscht wird. Der Advertiser kann jedoch den Umsatz als gültig betrachten.
+* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abläuft oder gelöscht wird. Der Advertiser kann jedoch davon ausgehen, dass der Umsatz gültig ist.
 
 * Der Traffic zur Seite des Werbetreibenden stammt von einem Lesezeichen oder einer organischen Suche anstelle einer Anzeige.
 
@@ -265,11 +265,11 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 *Mögliche Ursachen:*
 
-* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Werbetreibende kann dies jedoch als gültigen Umsatz betrachten.
+* Search, Social und Commerce ignorieren den Umsatz, wenn das Cookie abgelaufen oder gelöscht ist. Der Advertiser kann jedoch davon ausgehen, dass der Umsatz gültig ist.
 
 * Der Traffic zur Seite des Werbetreibenden stammt von einem Lesezeichen oder einer organischen Suche anstelle einer Anzeige.
 
-* Es gibt [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p), also zählt &quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;nicht den gesamten Umsatz, den sie erzielen sollte.
+* Es gibt [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p), also zählt Search, Social und Commerce nicht den gesamten Umsatz, den sie erzielen sollte.
 
 * Der Advertiser validierte einen Bericht zu Search, Social und Commerce für einen anderen Datensatz als den im Feed gesendeten.
 
@@ -279,7 +279,7 @@ Siehe mögliche Ursachen und Lösungen für Pixelimplementierungen oben.
 
 * Beim Analysieren der Datei sind Fehler aufgetreten.
 
-* Die Deduplizierungslogik des Advertisers unterscheidet sich von der Logik von &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;.
+* Die Deduplizierungslogik des Advertisers unterscheidet sich von der Logik &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;.
 
 *Mögliche Lösung oder Problemumgehung:*
 
@@ -314,7 +314,7 @@ Die Werbenetzwerke stellen nicht die Kennung bereit, die erforderlich ist, um ei
 +++
 
 +++In der [!UICONTROL Transaction Report]Wie weiß ich, welche Konversionsmetrik aus einem Daten-Feed stammt oder vom Adobe Advertising-Tracking-Pixel verfolgt wird?
-In einem Transaktionsbericht können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit &quot;`http://pixel.everesttech.net`.&quot;
+In einem Transaktionsbericht können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++ Die Daten in der [!UICONTROL Transaction Report] stimmt nicht mit den Daten in meiner [!UICONTROL Keyword Report].

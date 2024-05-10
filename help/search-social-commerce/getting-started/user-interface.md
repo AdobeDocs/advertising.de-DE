@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Am oberen Rand jeder Seite befinden sich das Hauptmenü und andere Menüs, die a
 
 ## Hauptmenü
 
-* **[!UICONTROL Search]** — Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich derjenigen, für die Search, Social und Commerce verfolgt, aber keine Angebote unterbreitet.
+* **[!UICONTROL Search]** — Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber keine Angebote abgibt.
 
 ## [!UICONTROL Search] Menüs
 
-Unter dem [!UICONTROL Search] angezeigt, werden die folgenden Untermenüs angezeigt. Die verfügbaren Optionen werden durch Ihre Rolle bestimmt:
+Die [!UICONTROL Search] enthält die folgenden Untermenüs. Die verfügbaren Optionen werden durch Ihre Rolle bestimmt:
 
 * **[!UICONTROL Campaigns]** — Dieses Menü enthält Optionen zum Anzeigen und Verwalten von Informationen über die Anzeigenkonten und Kampagnen, die Sie verwalten oder verfolgen. Je nach Werbenetzwerk und Ihrer Rolle können Sie Konten, Kampagnen und deren Komponenten erstellen und bearbeiten. Sie können auch Beschriftungs-Classifications verwalten, die Sie verschiedenen Kontokomponenten zuweisen können.
 

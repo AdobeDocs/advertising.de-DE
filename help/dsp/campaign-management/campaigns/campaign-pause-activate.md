@@ -2,9 +2,10 @@
 title: Anhalten oder Aktivieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Live-Kampagne anhalten oder aktivieren.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Halten Sie eine Live-Kampagne an oder aktivieren Sie eine angehaltene Kampagne, wenn sie sich innerhalb des konfigurierten Flugplans befindet.
 
-Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten wurden, bleiben bei Aktivierung der Kampagne ausgesetzt.
+Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten werden, bleiben bei Aktivierung der Kampagne ausgesetzt.
 
 ## Eine Kampagne anhalten
 

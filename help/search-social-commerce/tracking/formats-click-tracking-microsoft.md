@@ -1,11 +1,11 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 description: Informationen zu den Klick-Tracking-Formaten für [!DNL Microsoft Advertising] Konten.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
@@ -44,7 +44,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
@@ -66,13 +66,13 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
 >
 >* `{TargetId}` entspricht der ID a) des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot;nur für Suchbegriffe).
 >
->* (Optional) Anstatt Tracking-Vorlagen auf Konto-, Kampagnen-, Anzeigengruppen- oder Produktgruppenebene einzugeben, können Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die`link`&quot; oder &quot;`mobile_link`&quot; in einer benutzerdefinierten Spalte &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;im Produkt-Feed. Der Wert im`bingads_redirect`&quot; ersetzt die Werte im`link`&quot; und &quot;`mobile_link`&quot;. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Einstellungen für das Konto &quot;Search, Social, &amp; Commerce&quot;oder &quot;Kampagne&quot;angegeben sind.
+>* (Optional) Anstatt Tracking-Vorlagen auf Konto-, Kampagnen-, Anzeigengruppen- oder Produktgruppenebene einzugeben, können Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die`link`&quot; oder &quot;`mobile_link`&quot; in einer benutzerdefinierten Spalte &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;im Produkt-Feed. Der Wert im`bingads_redirect`&quot; ersetzt die Werte im`link`&quot; und &quot;`mobile_link`&quot;. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen für Search, Social und Commerce angegeben sind.
 
 ## Formate für das Suffix von Landingpages (endgültiges URL-Suffix)
 

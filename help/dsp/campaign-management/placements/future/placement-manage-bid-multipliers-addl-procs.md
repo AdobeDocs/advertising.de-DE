@@ -2,7 +2,7 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für bestimmte Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Bei allen ausgewählten Platzierungen können Sie entweder Werte manuell bearbei
 
      >[!NOTE]
      >
-     >Wenn Sie ein Feld leer lassen, werden alle Werte für diesen Zieltyp gelöscht.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >Wenn Sie ein Feld leer lassen, werden alle Werte für diesen Zieltyp gelöscht.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. Klicks **[!UICONTROL CSV Edit]** oben rechts.
 

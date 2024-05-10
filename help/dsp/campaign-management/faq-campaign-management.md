@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zu Campaign Management
 description: Erfahren Sie mehr über das Kampagnenmanagement, einschließlich der Wartezeit für Änderungen und was passiert, wenn Sie während eines Fluges Budgetänderungen vornehmen.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   Einstellungsänderungen treten in der Regel sofort in Kraft, können jedoch bis zu 12 Stunden dauern.
 
-  Wenn es der letzte Bereitstellungstag ist, nehmen Sie Änderungen frühzeitig vor, damit DSP genügend Zeit hat, das Paket basierend auf den Änderungen neu zu alibrieren. Wenn Sie z. B. von der gerade Geschwindigkeit zum Frontload-Geschwindigkeit wechseln, muss DSP neu bewerten, wie die Ausgaben auf den Rest des Fluges verteilt werden. Nehmen Sie diese Änderung nicht vor, wenn Sie nur noch eine Stunde Zeit haben, um am letzten Tag des Fluges zu liefern.
+  Wenn es der letzte Bereitstellungstag ist, nehmen Sie Änderungen frühzeitig vor, damit DSP genügend Zeit hat, das Paket basierend auf den Änderungen neu zu alibrieren. Wenn Sie z. B. von der gerade Geschwindigkeit zur Frontend-Geschwindigkeit wechseln, muss DSP neu bewerten, wie die Ausgaben auf den Rest des Fluges verteilt werden. Nehmen Sie diese Änderung nicht vor, wenn Sie nur noch eine Stunde Zeit haben, um am letzten Tag des Fluges zu liefern.
 
 ## Budgetaktualisierungen - Mid-Flight
 

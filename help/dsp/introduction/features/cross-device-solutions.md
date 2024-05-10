@@ -3,7 +3,7 @@ title: Geräteübergreifende Lösungen
 description: Erfahren Sie mehr über geräteübergreifende Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Wenn Sie ein unterstütztes benutzerbasiertes Gerätediagramm verwenden, können
 
 * Gewährt eine gleichmäßige Abdeckung zwischen Cookie-IDs und Mobilgeräte-IDs
 
-* Umfasst Daten vorwiegend aus den Vereinigten Staaten
+* Umfasst Daten überwiegend aus den Vereinigten Staaten
 
 * Ist frei für Frequenzlimitierung und Attributionsmessung
 
 * Preiswert von 0,35 USD für erweiterte Impressionen (Impressionen, die ausschließlich durch Verwendung der Variablen [!DNL LiveRamp] Gerätediagramm anstelle von Geräten, die in Zielgruppensegmenten gefunden werden)
 
-   Der Preis wird auf Ihrer Kreditkarte angezeigt.
+  Der Preis wird auf Ihrer Kreditkarte angezeigt.
 
 ## Personenbasiertes Frequenzmanagement
 
@@ -40,7 +40,7 @@ Mit dem personenbasierten Frequenzmanagement können Sie Frequenzobergrenzen auf
 
 ### Benutzerbasiertes Frequenzmanagement aktivieren
 
-* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot;und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement auf Kampagnen-, Paket- und Platzierungsebene verwendet. Häufigkeitsbegrenzungen gelten für alle bekannten Geräte einer Person.
+* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement auf Kampagnen-, Paket- und Platzierungsebene verwendet. Häufigkeitsbegrenzungen gelten für alle bekannten Geräte einer Person.
 
 Weitere Informationen finden Sie unter [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
@@ -56,7 +56,7 @@ Mit personenbasiertem Targeting können Sie Kunden auf dem Desktop und auf Mobil
 
 ### Aktivieren von personenbasiertem Targeting
 
-* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot;und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement verwendet.
+* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement verwendet.
 
 Weitere Informationen finden Sie unter [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
@@ -64,25 +64,25 @@ Weitere Informationen finden Sie unter [Kampagneneinstellungen](/help/dsp/campai
 
 ### Einrichten von Berichten für personenbasiertes Targeting
 
-Sie können die folgenden Metriken in benutzerdefinierte Berichte aufnehmen:
+Sie können die folgenden Metriken in benutzerspezifische Berichte aufnehmen:
 
-* **Erweiterte Impressionen:** (Im [!UICONTROL Build Your Report] Abschnitt unter [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Das Volumen der inkrementellen Impressionen, die durch Nutzung eines Gerätediagramms bereitgestellt werden (und nicht in den ursprünglichen Zielgruppensegmenten gefunden werden). Diese Metrik wird auch verwendet, um die anwendbaren Gebühren für die Verwendung eines Gerätediagramms eines Drittanbieters zu berechnen.
+* **Erweiterte Impressionen:** (Im [!UICONTROL Build Your Report] Abschnitt unter [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Das Volumen der inkrementellen Impressionen, die durch Nutzung eines Gerätediagramms bereitgestellt werden (und nicht in den ursprünglichen Zielgruppensegmenten gefunden werden). Diese Metrik wird auch zur Berechnung der anwendbaren Gebühren für die Verwendung eines Gerätediagramms eines Drittanbieters verwendet.
 
-   Um die Kosten Ihrer erweiterten Impressionen während eines Zeitraums zu ermitteln, führen Sie einen benutzerspezifischen Bericht aus, der Folgendes enthält: [!UICONTROL Extended Impressions] und multiplizieren Sie dann die Gesamtanzahl der erweiterten Impressionen mit 0,00035 USD ($0,35/1000 Impressionen).
+  Um die Kosten Ihrer erweiterten Impressionen während eines Zeitraums zu ermitteln, führen Sie einen benutzerspezifischen Bericht aus, der Folgendes enthält: [!UICONTROL Extended Impressions] und multiplizieren Sie dann die Gesamtanzahl der erweiterten Impressionen mit 0,00035 USD ($0,35/1000 Impressionen).
 
-   Die aggregierten Kosten sind auch im [!UICONTROL Billable Other Net Spend] column (under [!UICONTROL Metrics] > [!UICONTROL Spend]), obwohl diese Metrik auch andere Kampagnengebühren enthält, die Sie möglicherweise hinzugefügt haben.
+  Die aggregierten Kosten sind auch im [!UICONTROL Billable Other Net Spend] column (under [!UICONTROL Metrics] > [!UICONTROL Spend]), obwohl diese Metrik auch andere Kampagnengebühren enthält, die Sie möglicherweise hinzugefügt haben.
 
 * **Gerätediagramm:** (Im [!UICONTROL Build Your Report] Abschnitt unter [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Das ausgewählte Gerätediagramm für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung.
 
 ## Benutzerbasierte Attributionsmessung
 
-*Advertiser mit Adobe Advertising Conversion Tracking (nur Konversions-Tracking)*
+*Advertiser mit nur Adobe Advertising-Konversions-Tracking*
 
-Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist DSP verfügbar. [!DNL Adobe Advertising Creative]und [!DNL Adobe Advertising Search, Social, & Commerce] für Advertiser, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
+Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist DSP verfügbar. [!DNL Adobe Advertising Creative], und [!DNL Adobe Advertising Search, Social, & Commerce] für Advertiser, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
 
 ### Benutzerbasierte Attributionsmessung aktivieren
 
-Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die geräteübergreifende Zuordnungsmessung aktivieren möchten.
+Wenden Sie sich an Ihr Adobe Account-Team, wenn Sie die geräteübergreifende Attributionsmessung aktivieren möchten.
 
 ### Einrichten von Konversionsberichten für die geräteübergreifende Konversionszuordnung
 
@@ -98,7 +98,7 @@ Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, wird die [!
 
 #### Interpretieren des Konversionsberichts
 
-Wenn Sie den Prozentsatz der geräteübergreifenden Gesamtkonversionen sortieren ([!UICONTROL (xd)]/[!UICONTROL (tl)]) von hoch zu niedrig, werden Sie verstehen, was überdurchschnittliche geräteübergreifende Konversionen verursacht. Sie können dies verwenden, um Ihre Kreativ- oder Targeting-Strategie zu informieren, um Messaging und Kanalinvestitionen auf das Benutzerverhalten abzugleichen.
+Sortieren Sie den Prozentsatz der geräteübergreifenden Gesamtkonversionen ([!UICONTROL (xd)]/[!UICONTROL (tl)]) von oben nach unten, um zu verstehen, was zu überdurchschnittlichen geräteübergreifenden Konversionen führt. Sie können dies verwenden, um Ihre Kreativ- oder Targeting-Strategie zu informieren, um Messaging und Kanalinvestitionen auf das Benutzerverhalten abzugleichen.
 
 * Pakete - Ermitteln Sie, welche Pakete die meisten Konversionen erzielen und welche einen hohen Prozentsatz geräteübergreifender Konversionen aufweisen. Auf diese Weise können Sie erkennen, wo die Ausgaben konzentriert werden.
 
@@ -116,4 +116,3 @@ Wenn Sie den Prozentsatz der geräteübergreifenden Gesamtkonversionen sortieren
 >* [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-

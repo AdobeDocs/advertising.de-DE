@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,7 @@ Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf **[!UIC
 
 >[!TIP]
 >
->Für Kampagnen in hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt sich die Verwendung von Kampagnenzielen, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch [!DNL Google]-getrackte Konvertierungen und fügen Sie sie dann im [!DNL Google Ads] Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Google Ads] entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie sie als sekundäre (nicht primäre) Ziele kennzeichnen.
+>Für Kampagnen in hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt sich die Verwendung von Kampagnenzielen, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch [!DNL Google]-getrackte Konvertierungen und fügen Sie sie dann im [!DNL Google Ads] -Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Google Ads] entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie sie als sekundäre (nicht primäre) Ziele kennzeichnen.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

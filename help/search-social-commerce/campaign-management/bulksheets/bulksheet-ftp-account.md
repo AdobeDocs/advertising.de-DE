@@ -1,11 +1,11 @@
 ---
 title: Einrichten eines FTP-Kontos für das Hochladen von Bulksheets
 description: Erfahren Sie, wie Sie ein FTP-Konto zum Hochladen von Bulksheet-Dateien anfordern.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die während der Veröffent
 
 1. Wenden Sie sich an Ihr Adobe Account Team, um ein FTP-Konto für das Hochladen von Bulksheet-Dateien einzurichten.
 
-   Ihr Adobe Account Team stellt Ihnen den FTP-Speicherort sowie Ihren Benutzernamen und Ihr Passwort zur Verfügung.
+   Ihr Adobe Account-Team stellt Ihnen den FTP-Speicherort sowie Ihren Benutzernamen und Ihr Passwort zur Verfügung.
 
-1. (Optional) Wenden Sie sich an Ihr Adobe Account Team, um E-Mail-Benachrichtigungen zu Bulksheet-Dateien zu erhalten, die über Ihr FTP-Konto verarbeitet werden.
+1. (Optional) Wenden Sie sich an Ihr Adobe Account-Team, um E-Mail-Benachrichtigungen zu Bulksheet-Dateien zu erhalten, die über Ihr FTP-Konto verarbeitet werden.
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Eine wiederverwendbare Zielgruppe löschen
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe löschen.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Sie können eine Zielgruppe löschen, die nicht in Platzierungen oder anderen wiederverwendbaren Zielgruppen verwendet wird.
 
-Wenn derzeit eine Audience verwendet wird, können Sie eine [!DNL Microsoft Excel] Arbeitsblatt mit allen Platzierungen und Zielgruppen, die die Zielgruppe verwenden.
+Wenn derzeit eine Audience verwendet wird, haben Sie die Möglichkeit, eine [!DNL Microsoft Excel] Arbeitsblatt, das alle Platzierungen und Zielgruppen anzeigt, die die Zielgruppe verwenden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Delete]**.
 
-1. (Wenn die Zielgruppe in Platzierungen oder anderen wiederverwendbaren Zielgruppen verwendet wird; optional) Klicken **[!UICONTROL Export XLS]** , um eine Arbeitsblattdatei (im XLSX-Format) gemäß der üblichen Vorgehensweise Ihres Browsers herunterzuladen.
+1. (Wenn die Zielgruppe in Platzierungen oder anderen wiederverwendbaren Zielgruppen verwendet wird; optional) Klicken Sie auf **[!UICONTROL Export XLS]** , um eine Arbeitsblattdatei (im XLSX-Format) gemäß der üblichen Vorgehensweise Ihres Browsers herunterzuladen.
 
    Der Dateiname enthält den Zielgruppennamen und das Datum.
 
@@ -39,4 +39,3 @@ Wenn derzeit eine Audience verwendet wird, können Sie eine [!DNL Microsoft Exce
 >* [Zielgruppeneinstellungen](audience-settings.md)
 >* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
 >* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
-

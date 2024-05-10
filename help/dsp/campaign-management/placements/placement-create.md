@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie für die Platzierung erstellen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann die Schritte 1 bis 3.
 
-         1. Wenn Sie keine vorhandenen Anzeigen hinzufügen, klicken Sie auf **[!UICONTROL I'm done for now]**.
+         1. Wenn Sie keine vorhandenen Anzeigen hinzufügen möchten, klicken Sie auf **[!UICONTROL I'm done for now]**.
 
       * So fügen Sie vorhandene Anzeigen in der Kampagne hinzu:
 

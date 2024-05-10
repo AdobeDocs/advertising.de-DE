@@ -3,9 +3,9 @@ title: Aktualisierung des Trackingcodes der AMO-ID (s_kwcid) für eine [!DNL Goo
 description: Erfahren Sie, wie Sie zum neuesten AMO-ID-Trackingcode für eine [!DNL Google Ads] -Konto.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das aktuelle AMO-ID-F
 
    >[!NOTE]
    >
-   >Alle Clickthroughs, die vor der Migration aufgetreten sind, melden weiterhin Konversionsdaten basierend auf dem alten Format.
+   >Alle Clickthroughs, die vor der Migration auftraten, melden weiterhin Konversionsdaten basierend auf dem alten Format.
 
 1. Nachdem Sie mit der Migration begonnen haben, aktualisieren Sie die Einstellungen für das Suffix der Einstiegsseite (in einigen Werbenetzwerken als &quot;endgültiges URL-Suffix&quot;bezeichnet) nach Bedarf:
 

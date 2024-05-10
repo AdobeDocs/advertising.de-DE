@@ -1,11 +1,11 @@
 ---
 title: Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern
 description: Erfahren Sie mehr über Best Practices für die Verwendung von Berichten zur Feinabstimmung Ihrer Suchbegriffe und Kampagneneinstellungen.
-exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---

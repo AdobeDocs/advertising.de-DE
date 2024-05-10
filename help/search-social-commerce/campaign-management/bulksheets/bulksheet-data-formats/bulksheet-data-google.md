@@ -3,9 +3,9 @@ title: Erforderliche Bulksheet-Daten für [!DNL Google Ads] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter[Alle verfügbaren D
 | [!UICONTROL Delivery Method] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Channel Type] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Networks] | Erforderlich zum Erstellen einer Kampagne. |
-| [!UICONTROL DSA Domain Name] | Erforderlich, um eine Kampagne im Suchnetzwerk zu erstellen, die über dynamische Suchanzeigen verfügt. |
-| [!UICONTROL DSA Domain Language] | Erforderlich, um eine Kampagne im Suchnetzwerk zu erstellen, die über dynamische Suchanzeigen verfügt. |
+| [!UICONTROL DSA Domain Name] | Erforderlich, um eine Kampagne mit dynamischen Suchanzeigen im Suchnetzwerk zu erstellen. |
+| [!UICONTROL DSA Domain Language] | Erforderlich, um eine Kampagne mit dynamischen Suchanzeigen im Suchnetzwerk zu erstellen. |
 | [!UICONTROL Campaign Priority] | Erforderlich zum Erstellen einer Warenkampagne. |
 | [!UICONTROL Merchant ID] | Erforderlich zum Erstellen einer Warenkampagne. |
 | [!UICONTROL Sales Country] | Erforderlich zum Erstellen einer Warenkampagne. |

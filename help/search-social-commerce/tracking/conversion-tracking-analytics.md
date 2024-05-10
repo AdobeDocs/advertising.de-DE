@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics-Konversions-Tracking
-description: Erfahren Sie mehr über die Verwendung des Adobe Analytics-Konversions-Trackings für Ihre Kampagnen in Adobe Advertising.
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+description: Erfahren Sie unter Adobe Advertising, wie Sie das Adobe Analytics-Konversions-Tracking für Ihre Kampagnen verwenden.
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-Konversions-Tracking
 
-*Werbetreibende, die nur über eine Adobe Advertising-Adobe Analytics-Integration verfügen*
+*Advertiser nur mit Adobe Advertising-Adobe Analytics-Integration*
 
 Für Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration kann Advertising Cloud Ihre Anzeigenklicks und -impressionen mit den Site-Interaktions- und Konversionsmetriken verbinden, die von [!DNL Analytics] bei Verwendung einer Umleitung mit einem Token (`ef_id` -Parameter) in Ihren Klick-Tracking-URLs für Ihre [Bid-Einheiten](/help/search-social-commerce/glossary.md#a-b). Die [!DNL Analytics] Daten werden automatisch über eine tägliche Feed-Datei an Advertising Cloud gesendet.
 
@@ -20,13 +20,13 @@ Siehe &quot;[Übersicht über [!DNL Analytics for Advertising]](https://experien
 
 >[!PREREQUISITES]
 >
-> Zeitzonen im Advertiser-Konto für Search, Social und Commerce, die [!DNL Analytics] Report Suites und die Anzeigennetzwerkkonten müssen übereinstimmen. Wenn sie nicht übereinstimmen, bestehen Datenabweichungen systemübergreifend.
+> Zeitzonen im Advertiser-Konto für Search, Social und Commerce, die [!DNL Analytics] Report Suites und die Anzeigennetzwerkkonten müssen übereinstimmen. Wenn sie nicht übereinstimmen, treten Datenabweichungen auf allen Systemen auf.
 
 ## Implementierungsübersicht
 
-1. In [!DNL Analytics], ändert Ihr Implementierungsteam für Suche, Social und Commerce die folgenden Konfigurationseinstellungen für jede Report Suite:
+1. In [!DNL Analytics], ändert Ihr Implementierungsteam für Search, Social und Commerce die folgenden Konfigurationseinstellungen für jede Report Suite:
 
-   * Der Ablauf für die `ef_id` [!DNL eVar] wurde geändert, um dem Klick-Lookback-Fenster des Advertisers für den Adobe Advertising zu entsprechen.
+   * Der Ablauf für die `ef_id` [!DNL eVar] wurde geändert, um dem Klick-Lookback-Fenster des Advertisers für Adobe Advertising zu entsprechen.
 
    * Die Adobe Advertising-Benutzer-ID.
 
@@ -34,7 +34,7 @@ Siehe &quot;[Übersicht über [!DNL Analytics for Advertising]](https://experien
 
 1. In Search, Social und Commerce Ihr Implementierungsteam:
 
-   1. Synchronisiert die Hierarchie der vorhandenen Anzeigennetzwerkkonten mit Search, Social und Commerce.
+   1. Synchronisiert die Hierarchie der bestehenden Anzeigennetzwerkkonten mit Search, Social und Commerce.
 
    1. Fügt Umleitungen mit hinzu`ef_id`&quot; Token, das an die Tracking-URLs übergeben und an das Werbenetzwerk sendet.
 

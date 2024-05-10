@@ -3,9 +3,9 @@ title: Wiederverwendbare Zielgruppe erstellen
 description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können wiederverwendbare Zielgruppen speichern und verwalten, bei denen es 
 
 1. (Optional) Deaktivieren Sie die Option zum **[!UICONTROL Share with all advertisers in my account]**.
 
-   Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser innerhalb des Kontos verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzern zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] -Konto verwenden, wird die Vorschau des Segments in dieser Zielgruppe für diesen Advertiser nicht angezeigt. Nur die für diesen Advertiser verfügbaren Segmente werden in der Zielgruppe in der Vorschau angezeigt.
+   Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser innerhalb des Kontos verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzern zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] -Konto verwenden, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die für diesen Advertiser verfügbaren Segmente werden in der Audience als Vorschau angezeigt.
 
 1. Klicks **[!UICONTROL Save]**.
 

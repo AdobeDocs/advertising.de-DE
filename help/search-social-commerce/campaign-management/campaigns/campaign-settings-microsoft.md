@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 
 >[!TIP]
 >
->Bei hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch Konversionen umfassen, die von der [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag, und fügen Sie sie dann im [!DNL Microsoft Advertising] Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Microsoft Advertising] Entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie die Option &quot;In Konversionen einschließen&quot;deaktivieren.
+>Bei hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch Konversionen umfassen, die von der [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag, und fügen Sie sie dann im [!DNL Microsoft Advertising] -Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Microsoft Advertising] Entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie die Option &quot;In Konversionen einschließen&quot;deaktivieren.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

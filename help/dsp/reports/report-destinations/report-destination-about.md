@@ -3,7 +3,7 @@ title: Info [!UICONTROL Report Destinations]
 description: Erfahren Sie mehr über die Verwaltung der Versandspeicherorte für Ihre benutzerspezifischen Berichte.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In dieser Ansicht können Sie neue Ziele erstellen sowie vorhandene Ziele bearbe
 
 >[!NOTE]
 >
->Die Aktualisierung der Anmeldeinformationen für Ihre vorhandenen Berichtsziele unterbricht nicht die Berichtbereitstellung, solange die Anmeldeinformationen gültig sind.
+>Die Aktualisierung der Anmeldeinformationen für Ihre vorhandenen Berichtsziele unterbricht die Berichtbereitstellung nicht, solange die Anmeldeinformationen gültig sind.
 
 ![Berichtsziele](/help/dsp/assets/report-destinations.png)
 
@@ -42,5 +42,4 @@ In dieser Ansicht können Sie neue Ziele erstellen sowie vorhandene Ziele bearbe
 >* [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-
+>* [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

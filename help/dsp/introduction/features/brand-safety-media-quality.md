@@ -3,9 +3,9 @@ title: Markensicherheit und Medienqualität
 description: Erfahren Sie mehr über Markensicherheit und Medienqualitätsmerkmale.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Sie können die Standardeinstellung [!DNL ads.txt] Steuerelemente für jeden Adv
 
 ### Überwachung von Platform-Betrug
 
-DSP verfügt über leistungsstarke interne Tools und Systeme, mit denen Betrug auf unserer gesamten Plattform in Zusammenarbeit mit führenden Branchenanbietern wie [!DNL Whiteops] und [!DNL Integral Ad Science].
+DSP verfügt über leistungsstarke interne Tools und Systeme, mit denen Betrug auf unserer Plattform in Zusammenarbeit mit führenden Branchenanbietern wie [!DNL Whiteops] und [!DNL Integral Ad Science].
 
-Darüber hinaus arbeitet Adobe eng mit [!DNL IAB] und [!DNL TAG] Sicherstellung einer robusten und branchenüblichen Betrugsblockierung zum Schutz unserer Werbetreibende durch Nutzung von Tools wie [!DNL ads.txt] (siehe vorherigen Abschnitt), wird die [!DNL IAB] Liste &quot;Bots and Spiders&quot;und die [!DNL TAG] IP-Liste des Datenzentrums.
+Außerdem arbeitet Adobe eng mit [!DNL IAB] und [!DNL TAG] Sicherstellung einer robusten und branchenüblichen Betrugsblockierung zum Schutz unserer Werbetreibende durch Nutzung von Tools wie [!DNL ads.txt] (siehe vorherigen Abschnitt), wird die [!DNL IAB] Liste &quot;Bots and Spiders&quot;und die [!DNL TAG] IP-Liste des Datenzentrums.
 
 Durch unseren mehrdimensionalen Qualitätsansatz überwacht unser Team Anomalien und ungültige Traffic-Muster und sorgt so für weniger als 3 % ungültigen Traffic im geschützten Inventar. Alle Bestände, die verdächtig sind - einschließlich Inventar auf bestimmten Domänen oder von bestimmten Herausgebern oder Verkäufern - werden sofort auf der gesamten Plattform blockiert.
 
@@ -62,7 +62,7 @@ Die Bestandszuordnung ist der detaillierte Überprüfungs- und Onboarding-Prozes
 
    * **[!UICONTROL T1]** — Markenname, international anerkannte Websites
 
-   * **[!UICONTROL T2]** - Optimale Sites, die aktuell und aktuell sind, ohne benutzergenerierten Inhalt und in der Regel nicht global erkannt werden
+   * **[!UICONTROL T2]** - Optimale Sites, die aktuell und aktuell sind, ohne benutzergenerierte Inhalte und in der Regel nicht global erkannt werden
 
    * **[!UICONTROL T3]** — Benutzergenerierte Inhalte und Nischeninhalte
 
@@ -82,7 +82,7 @@ Wenn Sie eine Site in die Liste der global blockierten Sites als Platzierungszie
 
 >[!NOTE]
 >
->Sie können optional die globale Liste der blockierten Sites für Standardanzeigen umgehen, die an ein vertrauenswürdiges privates Geschäft angehängt sind, indem Sie die[!UICONTROL Allow unscreened sites]&quot; in der [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md). Bei Bedarf kann das Adobe Account Team auch die Site-Blockierung für einen öffentlichen (Auktionsebene) Deal in den Publisher-Einstellungen für den Deal deaktivieren.
+>Sie können optional die globale Liste der blockierten Sites für Standardanzeigen umgehen, die an ein vertrauenswürdiges privates Geschäft angehängt sind, indem Sie die[!UICONTROL Allow unscreened sites]&quot; in der [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md). Falls nötig, kann das Adobe Account Team optional auch die Site-Blockierung für einen öffentlichen (Auktionsebene) Deal in den Publisher-Einstellungen für den Deal deaktivieren.
 
 #### Blockierte Sites auf Kontoebene und Advertiser-Ebene
 
@@ -104,7 +104,7 @@ Nutzen Sie unsere Drittanbieterintegrationen mit [!DNL Comscore], [!DNL DoubleVe
 
 Sie können für jeden Advertiser standardmäßige Pre-Bid-Betrug-Sperrkontrollen festlegen<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->und dann optional [Anpassen der Einstellungen für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
 
-Weitere Informationen zur Funktionalität erhalten Sie von Ihrem bevorzugten Anbieter direkt oder bei Ihrem Adobe Account Team.
+Weitere Informationen zur Funktionalität erhalten Sie direkt bei Ihrem bevorzugten Anbieter oder bei Ihrem Adobe-Account-Team.
 
 ![Comscore-Logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science-Logo](/help/dsp/assets/ias-logo.png) ![Peer39-Logo](/help/dsp/assets/peer39-logo.png)
 
@@ -126,7 +126,7 @@ So erstellen Sie benutzerdefinierte Themensegmente:
 
 * So erstellen Sie eine [!DNL Comscore] Konto erstellen und benutzerdefinierte Segmente erstellen, können Sie eine Anmeldung für [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). Siehe [[!DNL Comscore] Hilfesystem](https://comscoreactivation.zendesk.com/hc/) für vollständige Anweisungen zum Einrichten benutzerdefinierter Segmente. Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] während der Erstellung.
 
-* Erste Schritte mit [!DNL Oracle Data Cloud], Kontakt [!DNL Oracle Data Cloud] oder Ihrem Adobe Account Team.
+* Erste Schritte mit [!DNL Oracle Data Cloud], Kontakt [!DNL Oracle Data Cloud] oder Ihrem Adobe-Account-Team.
 
 ![Comscore-Logo](/help/dsp/assets/comscore-logo.png) ![Graustufen-Logo](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -138,7 +138,7 @@ Sobald Sie eine [!DNL DoubleVerify] Markensegment Sicherheit mit dem erforderlic
 
 Sie können eine [!DNL DoubleVerify] Segment-ID für jeden Advertiser<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->und dann optional [aktivieren oder deaktivieren [!UICONTROL Authentic Brand Safety] für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
 
-Weitere Informationen zur Funktion erhalten Sie bei [!DNL DoubleVerify] oder wenden Sie sich an Ihr Adobe Account Team.
+Weitere Informationen zur Funktion erhalten Sie bei [!DNL DoubleVerify] oder wenden Sie sich an Ihr Adobe-Account-Team.
 
 ![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png)
 

@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Baidu] Einstellungen für Textanzeigen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Baidu] Textanzeigen.
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** Die in einer Anzeige angezeigte URL. Die maximale Länge beträgt 35 Einzelbyte-Zeichen.
 
-**[!UICONTROL Mobile Preferred]:** (Optional) Ermöglicht dem Netzwerk, zu versuchen, die Anzeige- oder Anzeigenerweiterung für Benutzer mobiler Geräte und nicht für Benutzer von Desktop- oder Tablet-Geräten anzuzeigen. Standardmäßig ist die Option nicht aktiviert und die Anzeige wird auf jedem Gerätetyp angezeigt.
+**[!UICONTROL Mobile Preferred]:** (Optional) Ermöglicht dem Netzwerk, zu versuchen, die Anzeige- oder Anzeigenerweiterung für Benutzer mobiler Geräte und nicht für Benutzer von Desktop- oder Tablet-Geräten anzuzeigen. Standardmäßig ist die Option nicht aktiviert und die Anzeige kann auf jedem Gerätetyp angezeigt werden.
 
 >[!NOTE]
 >

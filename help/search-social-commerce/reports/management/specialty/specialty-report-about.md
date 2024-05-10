@@ -3,9 +3,9 @@ title: Über Sonderberichte
 description: Erfahren Sie mehr über Spezialberichte.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken 
 
 >[!NOTE]
 >
->Für die meisten Fachberichte werden die Daten für den vorherigen Tag täglich um 23:00 Uhr (23:00 Uhr) abgerufen. Beispiel: Um 23:00 Uhr am 18. Juni werden Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte und [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
+>Für die meisten Fachberichte werden die Daten für den vorherigen Tag täglich um 23:00 Uhr (23:00 Uhr) abgerufen. Beispiel: Um 23:00 Uhr am 18. Juni ruft es Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte und [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
 
 ## Typen von Spezialberichten
 
@@ -52,6 +52,6 @@ Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken 
 
 >[!MORELIKETHIS]
 >
-* [Einen Spezialbericht erstellen](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [Berichtsspalten für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Einen Spezialbericht erstellen](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Einstellungen für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Berichtsspalten für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
