@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds
+# [!DNL Microsoft Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds
 
 Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
@@ -59,9 +59,9 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Campaign Tracking Template]:** (Optional für Vorlagen für Client-Feed-Dateien) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
-* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; einen der folgenden Schritte ausführen&quot;:
+* Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; einen der folgenden Schritte ausführen&quot;:
 
-   * (Empfohlen) Verwenden Sie die [Tracking-Vorlagenformat für Microsoft® Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+   * (Empfohlen) Verwenden Sie die [Tracking-Vorlagenformat für Microsoft-Einkaufskampagnen](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
    * Wenn Sie stattdessen einen Wert für jedes Produkt in den Feed einschließen, indem Sie die[!DNL bingads_redirect]&quot; (mithilfe der [korrektes Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), geben Sie dann den Parameter ein. `{lpurl}`. Sie können optional Umleitungen und Tracking von Drittanbietern zum `{lpurl}` -Parameter.
 

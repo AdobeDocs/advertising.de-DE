@@ -1,11 +1,11 @@
 ---
 title: Daten aus einer Kampagnenverwaltungsansicht herunterladen
 description: Erfahren Sie, wie Sie Daten von den meisten Kampagnenverwaltungsansichten herunterladen können.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können Daten aus dem [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] Ansichten außer [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], und [!UICONTROL Extensions] Ansichten. Sie können Folgendes herunterladen:
 
-* Ein Bericht in [!DNL XLSM] (makro-fähig) [!DNL Microsoft® Excel] Tabellenformat). Wenn Sie bestimmte Zeilen in der Ansicht auswählen, enthält der Bericht eine Zeile für jede ausgewählte Zeile. Wenn Sie keine Zeilen auswählen, wird für jede Zeile in der Ansicht eine Zeile erstellt.
+* Ein Bericht in [!DNL XLSM] (makro-fähig) [!DNL Microsoft Excel] Tabellenformat). Wenn Sie bestimmte Zeilen in der Ansicht auswählen, enthält der Bericht eine Zeile für jede ausgewählte Zeile. Wenn Sie keine Zeilen auswählen, wird für jede Zeile in der Ansicht eine Zeile erstellt.
 
 * Eine Bulksheet-Datei im TXT-Format, die alle relevanten untergeordneten Entitäten enthält. Wenn Sie Zeilen für Entitäten in mehreren Werbenetzwerken auswählen, wird für jedes relevante Werbenetzwerk eine Datei erstellt. Wenn Sie keine Zeilen auswählen, wird für jedes Anzeigennetzwerk, das in der Ansicht dargestellt wird, eine Datei erstellt. Massenblattdateien, die für verschiedene Werbenetzwerke erstellt werden, enthalten unterschiedliche Datenspalten.
 

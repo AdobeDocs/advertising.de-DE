@@ -3,7 +3,7 @@ title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Bestandsdaten verarbeitet werden können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Verwalten von Anzeigenvorlagen für Inventar-Feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
-Vor oder nach dem Hochladen von Daten können Sie suchmaschinenspezifische Anzeigenvorlagen erstellen, mit denen Ihre Daten verarbeitet werden können. Sie können Vorlagen für Textanzeigen und erweiterte/erweiterte Textanzeigen erstellen. [!DNL Google Ads] und [!DNL Microsoft® Advertising] responsive Suchanzeigen und für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Shopping-Anzeigen.
+Vor oder nach dem Hochladen von Daten können Sie suchmaschinenspezifische Anzeigenvorlagen erstellen, mit denen Ihre Daten verarbeitet werden können. Sie können Vorlagen für Textanzeigen und erweiterte/erweiterte Textanzeigen erstellen. [!DNL Google Ads] und [!DNL Microsoft Advertising] responsive Suchanzeigen und für [!DNL Google Ads] und [!DNL Microsoft Advertising] Shopping-Anzeigen.
 
-Sie können jede Vorlage mit einer Feed-Datei verknüpfen, [!DNL Google Merchant Center] Konto oder [!DNL Microsoft® Merchant Center] und Sie können mehrere Vorlagen mit derselben Feed-Datei oder demselben Konto verknüpfen. Eine Anzeigenvorlage kann Variablen enthalten, die durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem Konto ersetzt werden. In den meisten Fällen können die Variablen auch [Modifikatorgruppe](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Sie richten diese Schritte in Search, Social und Commerce ein, um für jede relevante Zeile in der Datendatei mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen zu erstellen. Mit den Vorlagenoptionen können Sie entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen erstellen oder die Anzeigen der bestehenden Kontostruktur zuordnen.
+Sie können jede Vorlage mit einer Feed-Datei verknüpfen, [!DNL Google Merchant Center] Konto oder [!DNL Microsoft Merchant Center] und Sie können mehrere Vorlagen mit derselben Feed-Datei oder demselben Konto verknüpfen. Eine Anzeigenvorlage kann Variablen enthalten, die durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem Konto ersetzt werden. In den meisten Fällen können die Variablen auch [Modifikatorgruppe](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) Sie richten diese Schritte in Search, Social und Commerce ein, um für jede relevante Zeile in der Datendatei mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen zu erstellen. Mit den Vorlagenoptionen können Sie entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen erstellen oder die Anzeigen der bestehenden Kontostruktur zuordnen.
 
 Sie können nicht nur von Grund auf neue Vorlagen erstellen, sondern auch neue Vorlagen erstellen, indem Sie vorhandene Vorlagen klonen und vorhandene Vorlagen bearbeiten.
 
@@ -26,7 +26,7 @@ Jede Vorlage kann aktiviert, angehalten oder gelöscht werden. Feed-Daten könne
 
 ## Erstellen, Klonen oder Bearbeiten einer Feed-Vorlage
 
-Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsive Suchanzeigen, [!DNL Google Ads] Shopping-Anzeigen und [!DNL Microsoft® Advertising] Shopping-Anzeigen.
+Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsive Suchanzeigen, [!DNL Google Ads] Shopping-Anzeigen und [!DNL Microsoft Advertising] Shopping-Anzeigen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, der sich für [!UICONTROL Templates] Registerkarte.
 
@@ -42,7 +42,7 @@ Erstellen Sie separate Vorlagen für Text und erweiterte Textanzeigen, responsiv
 
    * (Um eine vorhandene Vorlage zu bearbeiten) Klicken Sie neben dem Vorlagennamen auf ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungen anzeigen/bearbeiten").
 
-1. Geben Sie die Einstellungen für die [Textanzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)oder [[!DNL Microsoft® Advertising] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Geben Sie die Einstellungen für die [Textanzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)oder [[!DNL Microsoft Advertising] Shopping-Anzeigenvorlage](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. Geben Sie oben im Fenster für die Vorlageneinstellungen den Vorlagennamen und das entsprechende Konto an.
 
@@ -158,5 +158,5 @@ Sie können jede angehaltene Daten-Feed-Vorlage aktivieren oder jede aktive Date
 >* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
 >* [Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen](template-text-rsa.md)
 >* [[!DNL Google Ads] Einstellungen für Shopping-Anzeigenvorlagen](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] Einstellungen für Shopping-Anzeigenvorlagen](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für Shopping-Anzeigenvorlagen](template-microsoft-shopping.md)
 >* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)

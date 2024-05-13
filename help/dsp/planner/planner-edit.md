@@ -3,7 +3,7 @@ title: Bearbeiten eines Anbindungs-TV-Reichweitenplans
 description: Erfahren Sie, wie Sie die Einstellungen für einen vernetzten TV-Reichweitenplan bearbeiten.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Durch die Bearbeitung der Planeinstellungen wird eine neue Prognose erstellt.
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft® Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

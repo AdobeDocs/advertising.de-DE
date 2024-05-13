@@ -1,9 +1,9 @@
 ---
 title: Vorgänge, die Sie in Bulksheets ausführen können
 description: Referenzieren allgemeiner Informationen zum Hinzufügen, Bearbeiten und Löschen von Kampagnendaten mithilfe von Bulksheets.
-exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren E
 
 * Hinzufügen:
 
-   * Um eine Komponente hinzuzufügen, schließen Sie alle Felder ein, die zum Hinzufügen dieser Komponente erforderlich sind, und fügen Sie optional Felder für die Eigenschaften der Komponente hinzu.
+   * Um eine Komponente hinzuzufügen, schließen Sie alle Felder ein, die zum Hinzufügen dieser Komponente erforderlich sind, sowie optional Felder für die Eigenschaften der Komponente ein.
 
    * So fügen Sie eine Eigenschaft für eine vorhandene Komponente hinzu, z. B. die [!UICONTROL Ad Group End Date] für eine Anzeigengruppe alle Felder einschließen, die zum Bearbeiten dieser Komponente (Anzeigengruppe) erforderlich sind, sowie das Feld für die Eigenschaft ([!UICONTROL Ad Group End Date]).
 
@@ -38,7 +38,7 @@ Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren E
 
       * ([!UICONTROL Google Ads] nur) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] nur) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] und [!DNL Microsoft Advertising] nur) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

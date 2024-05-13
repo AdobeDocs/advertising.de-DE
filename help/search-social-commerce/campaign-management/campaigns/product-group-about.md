@@ -3,7 +3,7 @@ title: Über Einkaufsproduktgruppen
 description: Erfahren Sie mehr über Einkaufsproduktgruppen in Einkaufskampagnen.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Über Einkaufsproduktgruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Nur Warenkorb*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Nur Warenkorb*
 
 Bei Einkaufskampagnen bestimmen Ihre Produktgruppen - nicht Suchbegriffe - die Produkte in Ihrem Händlercenter-Konto, für die Shopping-Anzeigen angezeigt werden. Jede Produktgruppe basiert auf einem einzelnen Produktattribut (z. B. Kategorie, Produkttyp, Marke, Bedingung, Produkt-ID oder benutzerdefinierte Beschriftungen) und verwendet dasselbe Angebot für alle übereinstimmenden Produkte. Sie können Angebote für die Produkte in jeder Gruppe ein- oder ausschließen.
 
@@ -20,7 +20,7 @@ Sie konfigurieren Produktgruppen auf Anzeigengruppenebene, um zu bestimmen, welc
 
 Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk zunächst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und welches zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt.
 
-Weitere Informationen finden Sie unter [!DNL Google] Einkaufskampagnen und Anzeigen, siehe[Implementierung [!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; und [Dokumentation zu Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Weitere Informationen finden Sie unter [!DNL Microsoft®] Shopping-Kampagnen, siehe[Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; und [[!DNL Microsoft® Advertising] Dokumentation](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+Weitere Informationen finden Sie unter [!DNL Google] Einkaufskampagnen und Anzeigen, siehe[Implementierung [!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; und [Dokumentation zu Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Weitere Informationen finden Sie unter [!DNL Microsoft] Shopping-Kampagnen, siehe[Implementierung [!DNL Microsoft Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; und [[!DNL Microsoft Advertising] Dokumentation](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Sie können Produktgruppen erstellen und bearbeiten sowie Produktgruppen und der
 
 (Konten/Kampagnen mit der &quot;[!UICONTROL EF Redirect]&quot;-Tracking-Option) Damit Search, Social und Commerce Konversionen für Produktgruppen verfolgen können, [Generieren von Tracking-URLs für Produktgruppen mit dem Tool Tracking-URLs](/help/search-social-commerce/tools/click-tracking-url-generate.md)und führen Sie dann einen der folgenden Schritte aus:
 
-* (Erforderlich für [!DNL Google Ads]; Best Practice für [!DNL Microsoft® Advertising]) Fügen Sie die Tracking-URL zum [!DNL Tracking Template] in der Einstellung für Konto, Kampagne oder Produktgruppe. Fügen Sie sie zur einfacheren Wartung auf der höchstmöglichen Ebene hinzu. Alle für das Konto oder die Kampagne angegebenen Anlagenparameter sind nicht enthalten.
+* (Erforderlich für [!DNL Google Ads]; Best Practice für [!DNL Microsoft Advertising]) Fügen Sie die Tracking-URL zum [!DNL Tracking Template] in der Einstellung für Konto, Kampagne oder Produktgruppe. Fügen Sie sie zur einfacheren Wartung auf der höchstmöglichen Ebene hinzu. Alle für das Konto oder die Kampagne angegebenen Anlagenparameter sind nicht enthalten.
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Verwenden Sie diese Option nur, wenn Sie die Tracking-URLs für Suche, Social und Commerce nicht in eine benutzerdefinierte Spalte im Produkt-Feed aufnehmen. Wenn Sie beides tun, enthalten die URLs zwei Umleitungen und verursachen fehlerhafte Links.
+  >([!DNL Microsoft Advertising]) Verwenden Sie diese Option nur, wenn Sie die Tracking-URLs für Suche, Social und Commerce nicht in eine benutzerdefinierte Spalte im Produkt-Feed aufnehmen. Wenn Sie beides tun, enthalten die URLs zwei Umleitungen und verursachen fehlerhafte Links.
 
-* ([!DNL Microsoft® Advertising] nur) Fügen Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft® Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die `link` oder `mobile_link` -Feld in einer benutzerdefinierten Spalte mit dem Namen [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) innerhalb des Produkt-Feeds. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen in Search, Social und Commerce angegeben sind.
+* ([!DNL Microsoft Advertising] nur) Fügen Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die `link` oder `mobile_link` -Feld in einer benutzerdefinierten Spalte mit dem Namen [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) innerhalb des Produkt-Feeds. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen in Search, Social und Commerce angegeben sind.
 
 Sie können Daten zu Produktgruppen in [die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 
@@ -59,5 +59,5 @@ Sie können Daten zu Produktgruppen in [die [!UICONTROL Product Group Report]](/
 >* [Verwalten von Einkaufsproduktgruppen](product-group-manage.md)
 >* [[!DNL Google Ads] Produktgruppeneinstellungen](product-group-settings-google.md)
 >* [Implementierung [!DNL Google Ads] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [[!DNL Microsoft® Advertising] Produktgruppeneinstellungen](product-group-settings-microsoft.md)
->* [Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [[!DNL Microsoft Advertising] Produktgruppeneinstellungen](product-group-settings-microsoft.md)
+>* [Implementierung [!DNL Microsoft Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

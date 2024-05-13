@@ -3,7 +3,7 @@ title: Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren
 description: Erfahren Sie, wie Sie eine neue Prognose für einen vernetzten TV-Reichweiten-Plan erstellen.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können die Prognose für einen vernetzten TV-Reichweitenplan anhand der neu
 
 1. Halten Sie den Cursor über die Zeile Plan und klicken Sie auf **[!UICONTROL Forecast]**.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft® Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

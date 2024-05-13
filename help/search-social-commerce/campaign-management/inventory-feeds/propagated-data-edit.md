@@ -1,9 +1,9 @@
 ---
 title: Aus Feeds generierte Daten bearbeiten
 description: Erfahren Sie, wie Sie Daten bearbeiten, die aus Bestandsdaten-Feeds generiert wurden.
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aus Feeds generierte Daten bearbeiten
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Wenn Sie Feed-Daten propagieren, ohne sie gleichzeitig in das Werbenetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten bearbeiten. Später können Sie optional [Post-Daten](propagated-data-post.md) von beiden Standorten zu den relevanten Werbenetzwerken:
 
@@ -43,7 +43,7 @@ Wenn Sie Feed-Daten propagieren, ohne sie gleichzeitig in das Werbenetzwerk zu p
 
       * Um alle Suchbegriffe aus einer Anzeigengruppe aufzulisten, klicken Sie auf den Anzeigengruppennamen.
 
-      * Um alle Elemente als in einer Anzeigengruppe aufzulisten, klicken Sie auf den Anzeigengruppennamen und anschließend auf [!UICONTROL Ads] Registerkarte.
+      * Um alle als in einer Anzeigengruppe aufzulisten, klicken Sie auf den Anzeigengruppennamen und anschließend auf die [!UICONTROL Ads] Registerkarte.
 
    1. Klicks [Symbol &quot;Einstellungen anzeigen/bearbeiten&quot;](/help/search-social-commerce/assets/settings.png "Symbol &quot;Einstellungen anzeigen/bearbeiten&quot;") neben der Kampagne, Anzeigengruppe, dem Keyword oder dem Anzeigennamen.
 

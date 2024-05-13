@@ -1,23 +1,24 @@
 ---
-title: "[!UICONTROL MSA Ad Extension Detail Report]"
+title: '[!UICONTROL MSA Ad Extension Detail Report]'
 description: Informationen zum [!UICONTROL MSA Ad Extension Detail Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+exl-id: 8fdbfdf8-502a-47e0-a0a0-8722726280e9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MSA Ad Extension Detail Report]
 
-*[!DNL Microsoft® Advertising]Nur Konten*
+*[!DNL Microsoft Advertising]Nur Konten*
 
 Dieser Bericht zeigt die Impressionen, Klicks, Ausgaben und durchschnittlichen Kosten pro Klick für einzelne Elemente der Anzeigenerweiterung (z. B. jeden Link in einer Sitelink-Erweiterung). Verwenden Sie diesen Bericht, um die Effektivität Ihrer Anzeigenerweiterungselemente anzuzeigen.
 
 Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der erstellte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.<!-- all metrics? -->
 
-Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce ruft die Daten ab von [!DNL Microsoft Advertising] in Echtzeit, und es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen erstellt werden.
+Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten ab von [!DNL Microsoft Advertising] in Echtzeit, und es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen erstellt werden.
 
 >[!NOTE]
 >

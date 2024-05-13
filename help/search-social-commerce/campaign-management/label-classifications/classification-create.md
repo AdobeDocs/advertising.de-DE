@@ -1,11 +1,11 @@
 ---
 title: Erstellen einer Bezeichnungsklassifizierung
 description: Erfahren Sie, wie Sie eine Bezeichnungsklassifizierung erstellen, um Ihre Kontokomponenten zu gruppieren.
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Jeder Advertiser kann über bis zu 30 Beschriftungsklassifizierungen verfügen.
 
 1. Geben Sie einen eindeutigen Titel-Classification-Namen ein und klicken Sie auf **[!UICONTROL Save]**.
 
-   Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/)und die maximale Länge 27 Einzelbyte-Zeichen beträgt. Der Name kann nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte übereinstimmen. Die Namen der Bulksheet-Spalten finden Sie unter [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Netzwerk anzeigen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/)und die maximale Länge 27 Einzelbyte-Zeichen beträgt. Der Name kann nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte übereinstimmen. Die Namen der Bulksheet-Spalten finden Sie unter [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft-Werbung](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Netzwerk anzeigen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 Nachdem Sie eine Bezeichnungsklassifizierung erstellt haben, können Sie spezifische Bezeichnungswerte für die Klassifizierung erstellen und die Bezeichnungswerte den Entitäten aus dem [Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md) oder [Verwendung von Bulksheets](classification-values-assign-bulksheets.md).
 

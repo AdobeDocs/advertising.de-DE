@@ -1,9 +1,9 @@
 ---
 title: Empfehlungen und Leistungseinblicke von Herausgebern anzeigen
-description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft® Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten.
+description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Empfehlungen und Leistungseinblicke für Herausgeber anzeigen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-*Beta-Funktion für [!DNL Microsoft® Advertising] Konten*
+*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
 ## Empfehlungen für Herausgeber anzeigen
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-   Für [!DNL Microsoft® Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
+   Für [!DNL Microsoft Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
 
 1. Im [!UICONTROL Actions] Spalte für die Zeile, klicken Sie auf **[!UICONTROL View]**. Wenn die Empfehlung Unterempfehlungen enthält, klicken Sie auf **[!UICONTROL View]** neben der Unterempfehlung.
 
    Sie können optional [anwenden oder verwerfen](recommendation-apply-dismiss.md) Empfehlungen des Werbenetzwerks.
 
-## Anzeigen Ihrer [!DNL Microsoft® Advertising] Leistungseinblicke
+## Anzeigen Ihrer [!DNL Microsoft Advertising] Leistungseinblicke
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 1. Klicks **[!UICONTROL Insights]** über die Datentabelle.
 
-1. Wenn die Variable [!UICONTROL Actions] -Spalte für die Zeile enthält eine Aktion, können Sie optional auf **[!UICONTROL Click here]** , um die [!DNL Microsoft® Advertising] Editor, in dem Sie auf den Einblick reagieren können.
+1. Wenn die Variable [!UICONTROL Actions] -Spalte für die Zeile enthält eine Aktion, können Sie optional auf **[!UICONTROL Click here]** , um die [!DNL Microsoft Advertising] Editor, in dem Sie auf den Einblick reagieren können.
 
-   Wenn Sie nicht bei der [!DNL Microsoft® Advertising] Editor, werden Sie zunächst zum Anmeldebildschirm weitergeleitet.
+   Wenn Sie nicht bei der [!DNL Microsoft Advertising] Editor, werden Sie zunächst zum Anmeldebildschirm weitergeleitet.
 
 >[!MORELIKETHIS]
 >

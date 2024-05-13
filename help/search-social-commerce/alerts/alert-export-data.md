@@ -1,9 +1,9 @@
 ---
 title: Daten für benutzerdefinierte Warnungen exportieren
 description: Erfahren Sie, wie Sie Daten für einen ausgelösten Warnhinweis in eine Datei exportieren.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Daten für benutzerdefinierte Warnungen exportieren
 
-Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletzt ausgelösten Warnhinweis für eine Warnhinweisvorlage als [!DNL Microsoft® Excel] Arbeitsmappe ([XLS](/help/search-social-commerce/glossary.md#w-x) Datei), tabulatorgetrennte Werte ([TSV](/help/search-social-commerce/glossary.md#s-t)) oder durch Kommas getrennte Werte ([CSV](/help/search-social-commerce/glossary.md#c-d)). Herunterladbare Berichte stehen zehn Tage nach Auslösung des Warnhinweises zur Verfügung und werden dann automatisch gelöscht.
+Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletzt ausgelösten Warnhinweis für eine Warnhinweisvorlage als [!DNL Microsoft Excel] Arbeitsmappe ([XLS](/help/search-social-commerce/glossary.md#w-x) Datei), tabulatorgetrennte Werte ([TSV](/help/search-social-commerce/glossary.md#s-t)) oder durch Kommas getrennte Werte ([CSV](/help/search-social-commerce/glossary.md#c-d)). Herunterladbare Berichte stehen zehn Tage nach Auslösung des Warnhinweises zur Verfügung und werden dann automatisch gelöscht.
 
 1. Führen Sie einen der folgenden Schritte aus:
 

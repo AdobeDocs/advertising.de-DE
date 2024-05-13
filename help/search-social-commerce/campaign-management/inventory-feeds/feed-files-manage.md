@@ -1,9 +1,9 @@
 ---
 title: Verwalten von Bestandsdaten-Feed-Dateien
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Verwalten von Bestandsdaten-Feed-Dateien
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Wenn Sie Ihre eigenen Feed-Daten senden, müssen Sie Dateien mit Ihren Produktdaten hochladen, um basierend auf Ihren Produktdaten dynamisch Kampagnenstruktur, Anzeigen und Suchbegriffe zu erstellen. Anschließend können Sie sie mit Anzeigennetzwerkspezifischen Anzeigenvorlagen verknüpfen und die Daten über die Vorlagen verarbeiten, um sie schließlich an die relevanten Anzeigennetzwerke zu senden. Sie können mehrere Vorlagen mit einer Feed-Datei verknüpfen, aber jede Vorlage kann nur einer Feed-Datei zugeordnet werden.
 
@@ -22,9 +22,9 @@ Wenn Sie Ihre eigenen Feed-Daten senden, müssen Sie Dateien mit Ihren Produktda
 
 Sie können Daten-Feed-Dateien auf eine der folgenden Arten hochladen und verarbeiten:
 
-* **Automatische Verwendung von FTP:** Sie können Dateien direkt in ein FTP-Verzeichnis hochladen. Der Feed-Dienst sucht alle zwei Stunden nach neuen Dateien. Nachdem Sie eine Datei zum ersten Mal hochgeladen haben, können Sie sie mit einer netzwerkspezifischen Anzeigenvorlage verknüpfen. Später werden alle Dateien, die Sie mit demselben Namen hochladen, automatisch derselben Vorlage zugeordnet. Abhängig von der [Konfigurieren der Feed-Dateneinstellungen](feed-settings-manage.md), Search, Social und Commerce können die Feed-Daten automatisch über alle relevanten Vorlagen übertragen und optional die resultierenden Kampagnen- und Anzeigendaten an die relevanten Anzeigennetzwerke posten.
+* **Automatische Verwendung von FTP:** Sie können Dateien direkt in ein FTP-Verzeichnis hochladen. Der Feed-Dienst sucht alle zwei Stunden nach neuen Dateien. Nachdem Sie eine Datei zum ersten Mal hochgeladen haben, können Sie sie mit einer netzwerkspezifischen Anzeigenvorlage verknüpfen. Später werden alle Dateien, die Sie mit demselben Namen hochladen, automatisch derselben Vorlage zugeordnet. Abhängig von der [Konfigurieren der Feed-Dateneinstellungen](feed-settings-manage.md), Search, Social und Commerce können die Feed-Daten automatisch über alle relevanten Vorlagen übertragen und optional die resultierenden Kampagnen- und Anzeigendaten an die relevanten Anzeigennetze posten.
 
-  Wenden Sie sich an Ihr Adobe Account-Team, um ein FTP-Verzeichnis zum Verwahren und automatischen Verarbeiten von Datendateien einzurichten.
+  Wenden Sie sich an Ihr Adobe-Account-Team, um ein FTP-Verzeichnis zum Verwahren und automatischen Verarbeiten von Datendateien einzurichten.
 
 * **Manuelle Verarbeitung:** Sie können [Feed-Dateien hochladen](#feed-file-upload) aus dem [!UICONTROL Advanced] (ACM) angezeigt. Nachdem Sie eine Feed-Datei mit einer oder mehreren Ad-Netzwerk-spezifischen [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)können Sie Kampagnen- und Anzeigendaten generieren, indem Sie [Feed-Daten über die Vorlagen übertragen](feed-data-propagate.md) gemäß [Feed-Dateneinstellungen](feed-settings-manage.md). Sie können optional die generierten Daten in den Kampagnen-Hierarchieansichten in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [posten](propagated-data-post.md) später. Sie können später [Ersetzen der vorhandenen Feed-Datei durch eine neue Datei](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie in der Online-Hilfe Ihres Browsers.
 
 1. Geben Sie die hochzuladende Datei an, indem Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf **[!UICONTROL Browse]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
 
-1. Klicken **[!UICONTROL Upload].
+1. Klicken Sie auf **[!UICONTROL Upload].
 
 Alle Felder in der Datei werden validiert. Sie können Elemente mit ungültigen Feldlängen erst später posten, wenn Sie die Werte korrigieren. Alle Spaltennamen in der Datei stehen in Vorlagen als dynamische Parameter zur Verfügung.
 
@@ -133,7 +133,7 @@ Wenn Sie eine Feed-Datei ersetzen - auch wenn die neue Datei einen anderen Datei
 
 Selbst wenn die neue Datei einen anderen Dateinamen oder eine andere Erweiterung aufweist, wird die vorhandene Datei mit der neuen Datei überschrieben.
 
-1. Klicken **[!UICONTROL Re-Upload]**.
+1. Klicks **[!UICONTROL Re-Upload]**.
 
 Alle Felder in der Datei werden validiert. Sie können Elemente mit ungültigen Feldlängen erst später posten, wenn Sie die Werte korrigieren. Alle Spaltennamen in der Datei stehen in Vorlagen als dynamische Parameter zur Verfügung.
 

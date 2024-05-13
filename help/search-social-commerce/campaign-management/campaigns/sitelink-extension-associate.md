@@ -1,20 +1,20 @@
 ---
 title: Verknüpfen freigegebener Sitelinks mit Konten, Kampagnen und Anzeigengruppen
 description: Erfahren Sie, wie Sie Konten, Kampagnen und Anzeigengruppen freigegebene Sitelink-Erweiterungen zuweisen.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Verknüpfen freigegebener Sitelinks mit Konten, Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] only*
 
-Sie können Anzeigenerweiterungen erstellen, indem Sie Sitelinks aus Ihren [!DNL Sitelinks] -Bibliothek, um Entitäten zu berücksichtigen, nur zur Verwendung im Suchnetzwerk. Für [!DNL Google Ads] Konten können Sie Konten Sitelinks oder Kampagnen und Anzeigengruppen im Suchnetzwerk zuweisen. Für [!DNL Microsoft® Advertising] -Konten können Sie Kampagnen im Suchnetzwerk Sitelinks zuweisen (sowie Konten und Anzeigengruppen aus dem [!DNL Microsoft® Advertising] Anzeigenmanager).
+Sie können Anzeigenerweiterungen erstellen, indem Sie Sitelinks aus Ihren [!DNL Sitelinks] -Bibliothek, um Entitäten zu berücksichtigen, nur zur Verwendung im Suchnetzwerk. Für [!DNL Google Ads] Konten können Sie Konten Sitelinks oder Kampagnen und Anzeigengruppen im Suchnetzwerk zuweisen. Für [!DNL Microsoft Advertising] -Konten können Sie Kampagnen im Suchnetzwerk Sitelinks zuweisen (sowie Konten und Anzeigengruppen aus dem [!DNL Microsoft Advertising] Anzeigenmanager).
 
 Sie müssen über mindestens sechs aktive Sitelinks für Desktop und Mobilgeräte verfügen, damit Ihre Sitelinks mit Anzeigen angezeigt werden. Sie können bis zu 20 Sitelinks pro Konto, Kampagne oder Anzeigengruppe zuweisen.
 
@@ -38,7 +38,7 @@ Sie müssen über mindestens sechs aktive Sitelinks für Desktop und Mobilgerät
 
    * Wählen Sie den Kreis (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) neben jeder Entität, der die Sitelinks zugewiesen sind.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

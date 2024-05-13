@@ -1,28 +1,28 @@
 ---
 title: Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds
 description: Erfahren Sie mehr über das erweiterte Kampagnenmanagement, mit dem Sie automatisch die Kontostruktur verwalten und dynamische Anzeigen bereitstellen können, die auf Daten zu Ihrem Produkt- oder Servicebestand basieren.
-exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
-Die [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] Ansicht für erweiterte Kampagnenverwaltung ermöglicht Ihnen, die Kontostruktur für Anzeigen-Netzwerke automatisch zu erstellen und zu aktualisieren und dynamische Anzeigen bereitzustellen, die auf Daten zu Ihrem Produkt- oder Service-Inventar basieren. Sie können neue Dateien mit Produktdaten täglich oder beliebig oft hochladen oder direkt eine Verknüpfung zu einem [!DNL Google] oder [!DNL Microsoft®] Konto des Händlers. Verwenden Sie die Funktion, um:
+Die [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] Ansicht für erweiterte Kampagnenverwaltung ermöglicht Ihnen, die Kontostruktur für Anzeigen-Netzwerke automatisch zu erstellen und zu aktualisieren und dynamische Anzeigen bereitzustellen, die auf Daten zu Ihrem Produkt- oder Service-Inventar basieren. Sie können neue Dateien mit Produktdaten täglich oder beliebig oft hochladen oder direkt eine Verknüpfung zu einem [!DNL Google] oder [!DNL Microsoft] Konto des Händlers. Verwenden Sie die Funktion, um:
 
 * Erstellen Sie neue Kampagnen aus geordneten Datenquellen.
 
-* Dynamisches Aktualisieren von Text und responsiven Suchanzeigen, [!DNL Google Ads] Shopping-Anzeigen oder [!DNL Microsoft® Advertising] Shopping-Anzeigen bei jeder Verarbeitung neuer Daten mithilfe dynamischer Variablen für veränderliche Datenelemente (z. B. Preis oder Menge). Jedes Mal, wenn Sie die Daten ändern, werden die vorhandenen Anzeigen gelöscht und neue erstellt.
+* Dynamisches Aktualisieren von Text und responsiven Suchanzeigen, [!DNL Google Ads] Shopping-Anzeigen oder [!DNL Microsoft Advertising] Shopping-Anzeigen bei jeder Verarbeitung neuer Daten mithilfe dynamischer Variablen für veränderliche Datenelemente (z. B. Preis oder Menge). Jedes Mal, wenn Sie die Daten ändern, werden die vorhandenen Anzeigen gelöscht und neue erstellt.
 
 * Werbegruppen, Suchbegriffe und Anzeigen automatisch anhalten oder entfernen, wenn der Lagerbestand gemäß einem bestimmten Enddatum unter eine bestimmte Ebene fällt oder wenn eine vorhandene Komponente aus den Feed-Daten weggelassen wird.
 
-Um Ihre Anzeigen einzurichten, erstellen Sie Inventar-Feed-Vorlagen mit Variablen (Platzhalter) und ersetzen Sie die Variablen dann durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem [Google- oder Microsoft®-Merchant-Center-Konto, das synchronisiert wird](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Die Variablen können auch Modifikatorgruppen enthalten, die Sie in einer Datei einrichten, oder einzelne Zeilen in der Datei, um mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen für jede relevante Zeile in der Datendatei zu erstellen. Wenn Sie beispielsweise eine Modifikatorgruppenvariable in einer Anzeigenüberschrift verwenden und die Modifikatorgruppe zwei Modifikatoren enthält (&quot;für billig&quot;und &quot;zu einem Rabatt&quot;), werden für jedes Produkt zwei separate Anzeigen erstellt - eine für jeden Modifikator. Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] dynamische Suchanzeigen, können Sie auch Werte für Anzeigenanpassungen einbeziehen.
+Um Ihre Anzeigen einzurichten, erstellen Sie Inventar-Feed-Vorlagen mit Variablen (Platzhalter) und ersetzen Sie die Variablen dann durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem [Google- oder Microsoft-Merchant-Center-Konto, das synchronisiert wird](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Die Variablen können auch Modifikatorgruppen enthalten, die Sie in einer Datei einrichten, oder einzelne Zeilen in der Datei, um mehrere Anzeigen, Suchbegriffe, Kampagnen oder Anzeigengruppen für jede relevante Zeile in der Datendatei zu erstellen. Wenn Sie beispielsweise eine Modifikatorgruppenvariable in einer Anzeigenüberschrift verwenden und die Modifikatorgruppe zwei Modifikatoren enthält (&quot;für billig&quot;und &quot;zu einem Rabatt&quot;), werden für jedes Produkt zwei separate Anzeigen erstellt - eine für jeden Modifikator. Für [!DNL Google Ads] und [!DNL Microsoft Advertising] dynamische Suchanzeigen, können Sie auch Werte für Anzeigenanpassungen einbeziehen.
 
 | [!UICONTROL Ad Variation] Vorlagenabschnitt | Modifikatoren in Search, Social und Commerce | Feed-Inhalte | Resultierende Anzeigen |
 |----|----|----|----|
@@ -35,11 +35,11 @@ Nachdem Sie die Anzeigen generiert haben, können Sie sie optional überprüfen 
 
 ## Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Testen Sie zunächst mindestens eine Feed-Datei oder ein Konto und dann können Sie den Prozess vollständig automatisieren oder ihn bei jedem Schritt weiter steuern:
 
-1. (Optional) Wenden Sie sich an Ihr Adobe Account Team, um ein FTP-Verzeichnis für die Speicherung von Datendateien einzurichten.
+1. (Optional) Wenden Sie sich an Ihr Adobe-Account-Team, um ein FTP-Verzeichnis für die Speicherung von Datendateien einzurichten.
 
    Wenn Sie den FTP-Ordner verwenden, sucht der Feed-Dienst alle zwei Stunden nach neuen Dateien.
 
@@ -49,7 +49,7 @@ Testen Sie zunächst mindestens eine Feed-Datei oder ein Konto und dann können 
 
    Wenn Sie FTP verwenden, veröffentlichen Sie anfangs nicht automatisch Daten in den Werbenetzwerken. Nachdem Sie die Ausgabe aus der ersten Datei überprüft haben und mit den Ergebnissen zufrieden sind, können Sie die Einstellungen ändern.
 
-1. Hochladen einer Datendatei in das FTP-Verzeichnis, [manuell eine Datendatei hochladen](feed-files-manage.md) im [!UICONTROL Advanced (ACM) view]oder [Zugriff auf ein Google- oder Microsoft®-Handelscenter-Konto aktivieren](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Hochladen einer Datendatei in das FTP-Verzeichnis, [manuell eine Datendatei hochladen](feed-files-manage.md) im [!UICONTROL Advanced (ACM) view]oder [Zugriff auf ein Google- oder Microsoft-Handelscenter-Konto aktivieren](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Um Dateien manuell hochzuladen, können Sie warten, bis Sie eine Vorlage erstellen, die die Datendatei verwendet.
 
@@ -57,7 +57,7 @@ Um Dateien manuell hochzuladen, können Sie warten, bis Sie eine Vorlage erstell
 
 1. [Erstellen einer oder mehrerer Vorlagen](ad-templates/ad-template-manage.md) die die Datenspalten verwenden, um Kampagnen, Anzeigengruppen, Suchbegriffe und/oder Anzeigenkopien für ein bestimmtes Anzeigennetzwerkkonto zu erstellen.
 
-1. [Übertragen von Feed-Daten über die Vorlagen](feed-data-propagate.md), der die Spaltennamen in der Vorlage durch Daten in der Datei oder dem Konto ersetzt. Abhängig von den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen mit Standardeinstellungen oder ordnet die Anzeigen der vorhandenen Kontostruktur zu.
+1. [Übertragen von Feed-Daten über die Vorlagen](feed-data-propagate.md), der die Spaltennamen in der Vorlage durch Daten in der Datei oder dem Konto ersetzt. Abhängig von den Vorlagenoptionen erstellen Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen mit Standardeinstellungen oder ordnen die Anzeigen der bestehenden Kontostruktur zu.
 
 1. (Optional) [Vorschau der Ausgabe anzeigen](propagated-data-view.md) im [!UICONTROL Advanced (ACM)] Ansichten und optional eine Zusammenfassung der Datenänderungen auf der [!UICONTROL Propagations] Registerkarte.
 

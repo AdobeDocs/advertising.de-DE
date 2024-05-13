@@ -1,9 +1,9 @@
 ---
 title: Aus Feeds generierte Daten anzeigen
 description: Erfahren Sie, wie Sie Daten anzeigen können, die aus Bestandsdaten-Feeds generiert wurden.
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aus Feeds generierte Daten anzeigen
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Wenn Sie Feed-Daten propagieren, ohne sie gleichzeitig in das Werbenetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten in der Vorschau anzeigen. Später können Sie optional [Post-Daten](propagated-data-post.md) von beiden Standorten zu den relevanten Werbenetzwerken.
 

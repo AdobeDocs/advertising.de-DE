@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] Einstellungen für Multimedia-Anzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Multimedia-Anzeigen.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '''[!DNL Microsoft Advertising] Einstellungen für Multimedia-Anzeigen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Multimedia-Anzeigen.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] Multimedia-Anzeigeneinstellungen
+# [!DNL Microsoft Advertising] Multimedia-Anzeigeneinstellungen
 
 Multimedia-Anzeigen sind im Suchnetzwerk verfügbar. Das Werbenetzwerk stellt mithilfe der effektivsten Kombinationen aus Anzeigenelementen dynamische Multimedia-Anzeigen zusammen.
 
@@ -54,7 +54,7 @@ Siehe die zulässigen Seitenrationen und -dimensionen für [Multimedia-Anzeigen]
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Microsoft® Advertising] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)

@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ Wenn Sie beide Berichte nach Portfolio generieren, unterscheiden sich die Daten,
 Die Ausgabe von +++ Berichten enthält eine Mischung aus Datumsbereichen.
 Es können verschiedene Datumsbereiche angezeigt werden, wenn der Feed Daten mithilfe einer anderen Datenaggregationsebene als &quot;[!UICONTROL Daily].&quot;
 
-Um das Problem zu beheben, aktualisieren Sie den Tabellenfeed, um täglich aggregierte Daten einzuschließen. Diese Aufgabe umfasst die Aktualisierung der Berichtsvorlage, die Erstellung eines Berichts mithilfe der Vorlage und die Erstellung eines benutzerdefinierten [!DNL Microsoft® Excel] Vorlage verwenden und dann die Feed-Einstellungen aktualisieren, um die neue Excel-Vorlage einzuschließen. Weitere Informationen finden Sie unter &quot;[Bearbeiten der Feed-Einstellungen für Tabellenberichte](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Um das Problem zu beheben, aktualisieren Sie den Tabellenfeed, um täglich aggregierte Daten einzuschließen. Diese Aufgabe umfasst die Aktualisierung der Berichtsvorlage, die Erstellung eines Berichts mithilfe der Vorlage und die Erstellung eines benutzerdefinierten [!DNL Microsoft Excel] Vorlage verwenden und dann die Feed-Einstellungen aktualisieren, um die neue Excel-Vorlage einzuschließen. Weitere Informationen finden Sie unter &quot;[Bearbeiten der Feed-Einstellungen für Tabellenberichte](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 ++ + Ein Tabellenfeed führt zu einem internen Fehler.
-Dieser Fehler kann auftreten, wenn Sie die Spalten in der Berichtsvorlage ändern, aber die [!DNL Microsoft® Excel] Vorlage entsprechend.
+Dieser Fehler kann auftreten, wenn Sie die Spalten in der Berichtsvorlage ändern, aber die [!DNL Microsoft Excel] Vorlage entsprechend.
 
 Um das Problem zu beheben, aktualisieren Sie den Tabellenfeed, um die neuen Spalten einzuschließen. Diese Aufgabe umfasst die Aktualisierung der Berichtsvorlage, die Erstellung eines Berichts mithilfe der Vorlage und die Erstellung eines benutzerdefinierten [!DNL Excel] Vorlage verwenden und dann die Feed-Einstellungen aktualisieren, um die neue Excel-Vorlage einzuschließen. Weitere Informationen finden Sie unter &quot;[Bearbeiten der Feed-Einstellungen für Tabellenberichte](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++ Wenn ich versuche, einen Tabellenfeed in [!DNL Excel], [!DNL Excel] meldet den Fehler &quot;Unlesbarer Inhalt&quot;, und Daten werden aus dem wiederhergestellten Inhalt entfernt.
-Wenn die Variable [!DNL Microsoft® Excel] -Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellenfeed leere Zeilen enthalten. Insbesondere [!DNL Excel] meldet den Fehler &quot;Excel hat unlesbaren Inhalt in &#39;&lt;*Berichtsname*>.xlsx.&#39; Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf &quot;Ja&quot;. Wenn Sie auf &quot;Ja&quot;klicken, erhalten Sie die folgende Meldung: &quot;Entfernte Datensätze: Zellinformationen aus /xl/worksheets/sheet1.xml Teil&quot;, und der Tabellenfeed enthält leere Zeilen.
+Wenn die Variable [!DNL Microsoft Excel] -Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellenfeed leere Zeilen enthalten. Insbesondere [!DNL Excel] meldet den Fehler &quot;Excel hat unlesbaren Inhalt in &#39;&lt;*Berichtsname*>.xlsx.&#39; Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf &quot;Ja&quot;. Wenn Sie auf &quot;Ja&quot;klicken, erhalten Sie die folgende Meldung: &quot;Entfernte Datensätze: Zellinformationen aus /xl/worksheets/sheet1.xml Teil&quot;, und der Tabellenfeed enthält leere Zeilen.
 
 Um das Problem zu beheben, bearbeiten Sie die [!DNL Excel] Vorlage, die mit dem Feed verknüpft ist, um Daten nach [!DNL Start date in Ascending (Oldest to Newest) order]und laden Sie dann die aktualisierte Vorlage über die Tabellen-Feed-Einstellungen hoch. Weitere Informationen finden Sie unter &quot;[Bearbeiten von Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

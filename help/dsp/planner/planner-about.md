@@ -2,13 +2,13 @@
 title: Über das DSP Planer-Tool
 description: Erfahren Sie mehr über das Planer-Tool, um die einzigartige Reichweite von vernetzten TV-Platzierungen (CTV) gemäß den festgelegten Budget- und Targeting-Kriterien vorherzusagen.
 feature: DSP Planner
-source-git-commit: 9799ff5464d48e6258026ec997c5d5091576b9c6
+exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
-
 
 # Über das DSP Planer-Tool
 
@@ -69,7 +69,7 @@ Der Planer generiert Prognosen basierend auf den neuesten beobachteten Daten, so
 
 ++ + Kann ich die Planervorhersage speichern?
 
-Ja, Sie können eine Vorschau in eine [!DNL Microsoft® Excel] Tabelle durch Klicken auf **[!UICONTROL ...]** > **[!UICONTROL Export]** oben rechts. Die Tabelle erfasst die in der Reichweiten-Budgetkurve angezeigten Informationen mithilfe von zwei Datenspalten: [!UICONTROL Budget] und [!UICONTROL Reach].
+Ja, Sie können eine Vorschau in eine [!DNL Microsoft Excel] Tabelle durch Klicken auf **[!UICONTROL ...]** > **[!UICONTROL Export]** oben rechts. Die Tabelle erfasst die in der Reichweiten-Budgetkurve angezeigten Informationen mithilfe von zwei Datenspalten: [!UICONTROL Budget] und [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >

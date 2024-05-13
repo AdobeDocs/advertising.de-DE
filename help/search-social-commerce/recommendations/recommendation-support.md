@@ -3,7 +3,7 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-*Beta-Funktion für [!DNL Microsoft® Advertising] Konten*
+*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
-[!DNL Google Ads] und [!DNL Microsoft® Advertising] Empfehlungen und Einblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
+[!DNL Google Ads] und [!DNL Microsoft Advertising] Empfehlungen und Einblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
 
 * Jeder [!DNL Google Ads] Die Empfehlung bietet benutzerdefinierte Vorschläge zu den verschiedenen Leistungsaspekten einer Kampagne - vom Hinzufügen eines Assets bis zur Erhöhung des Budgets - basierend auf dem Leistungsverlauf Ihres Kontos, den Kampagneneinstellungen und Trends über [!DNL Google Ads].
 
-* Jeder [!DNL Microsoft® Advertising] Leistungseinblicke und Empfehlungen schlagen Änderungen zur Optimierung der Kampagnenleistung anhand von Algorithmen und Best Practices für maschinelles Lernen vor.
+* Jeder [!DNL Microsoft Advertising] Leistungseinblicke und Empfehlungen schlagen Änderungen zur Optimierung der Kampagnenleistung anhand von Algorithmen und Best Practices für maschinelles Lernen vor.
 
 ## Die [!UICONTROL Recommendations & Publisher Insights] Ansicht
 
@@ -32,7 +32,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
   Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") unten links auf der Seite.
 
-* Für [!DNL Microsoft® Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [!DNL Microsoft® Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen der [!DNL Microsoft® Advertising] Editor, von dem aus Sie auf bestimmte Einblicke reagieren können.
+* Für [!DNL Microsoft Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [!DNL Microsoft Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen der [!DNL Microsoft Advertising] Editor, von dem aus Sie auf bestimmte Einblicke reagieren können.
 
 * Zeigen Sie Details zu einer Empfehlung an und wenden Sie die Empfehlung direkt an oder verwerfen Sie sie.
 

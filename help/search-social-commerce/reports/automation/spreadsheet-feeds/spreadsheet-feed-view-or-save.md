@@ -1,9 +1,9 @@
 ---
 title: Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei
 description: Erfahren Sie, wie Sie einen Tabellenfeed anzeigen und in einer Datei speichern können.
-exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
 
-Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speichern. Die Tabellen-Feed-Dateien befinden sich unter[!DNL Microsoft® Excel] XLSX-Format.
+Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speichern. Die Tabellen-Feed-Dateien befinden sich unter[!DNL Microsoft Excel] XLSX-Format.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 

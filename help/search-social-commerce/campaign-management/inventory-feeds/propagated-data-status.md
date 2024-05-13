@@ -1,9 +1,9 @@
 ---
 title: Status der aus Feeds generierten Daten
 description: Erfahren Sie mehr über die Status von Daten, die aus Bestandsdaten-Feeds generiert wurden.
-exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+exl-id: 45c93fb2-0ed2-4336-9883-e150c292a7a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Status der aus Feeds generierten Daten
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Jede Komponente kann einen der folgenden Status aufweisen:
 

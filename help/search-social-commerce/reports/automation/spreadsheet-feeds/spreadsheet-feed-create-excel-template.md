@@ -1,9 +1,9 @@
 ---
 title: Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed
 description: Erfahren Sie, wie Sie speziell formatierte Tabellenvorlagen erstellen.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
 
-Um Tabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL Microsoft® Excel] Tabellenvorlagen mithilfe regulärer Berichtvorlagen. Sie können optional die [!DNL Excel] , um zusätzliche Spalten und Diagramme einzuschließen.
+Um Tabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL Microsoft Excel] Tabellenvorlagen mithilfe regulärer Berichtvorlagen. Sie können optional die [!DNL Excel] , um zusätzliche Spalten und Diagramme einzuschließen.
 
 1. In **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, generieren Sie den gewünschten Berichtstyp mithilfe einer [!UICONTROL Date Aggregation] Einheit von &quot;[!UICONTROL Daily]und mit allen anderen gewünschten Datenparametern speichern Sie den Bericht als Vorlage.
 

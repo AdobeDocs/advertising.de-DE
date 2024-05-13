@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] Produktgruppeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Einkaufsproduktgruppen.
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: '''[!DNL Microsoft Advertising] Produktgruppeneinstellungen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Einkaufsproduktgruppen.
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] Produktgruppeneinstellungen
+# [!DNL Microsoft Advertising] Produktgruppeneinstellungen
 
 ## Produktgruppen &quot;Alle Produkte&quot;
 
@@ -52,4 +52,4 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 >* [Über Einkaufsproduktgruppen](product-group-about.md)
 >* [Verwalten von Einkaufsproduktgruppen](product-group-manage.md)
 >* [Produktfilter für Shopping-Kampagne](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementierung [!DNL Microsoft® Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementierung [!DNL Microsoft Advertising] Warenkorb](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

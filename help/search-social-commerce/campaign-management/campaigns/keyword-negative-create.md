@@ -3,7 +3,7 @@ title: Negative Suchbegriffe erstellen
 description: Erfahren Sie, wie Sie negative Suchbegriffe für Suchkampagnen und Anzeigengruppen erstellen.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Negative Suchbegriffe erstellen
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]und vorhandene [!DNL Baidu] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]und vorhandene [!DNL Baidu] Nur Konten*
 
 Sie können negative Suchbegriffe für eine Suchanzeigengruppe oder Kampagne erstellen, die auf die Suche oder das Display/native Netzwerk ausgerichtet ist. Negative Suchbegriffe geben keine Trigger-Anzeigen.
 
@@ -30,7 +30,7 @@ Sie können negative Suchbegriffe für eine Suchanzeigengruppe oder Kampagne ers
 
 1. Geben Sie die negativen Suchbegriffe ein. Verwenden Sie die folgende Syntax ohne Minuszeichen (`-`):
 
-   * Negatives breites Match: `keyword` (nicht unterstützt von [!DNL Microsoft® Advertising])
+   * Negatives breites Match: `keyword` (nicht unterstützt von [!DNL Microsoft Advertising])
 
    * Negative Wortgruppenübereinstimmung: `"keyword"`
 
@@ -38,7 +38,7 @@ Sie können negative Suchbegriffe für eine Suchanzeigengruppe oder Kampagne ers
 
    Trennen Sie mehrere Werte durch Kommas oder geben Sie sie in separate Zeilen ein. Sie können bis zu 2000 negative Keywords in einem Vorgang eingeben oder einfügen. Siehe auch die folgenden Anforderungen und Einschränkungen:
 
-   * Maximale Zeichenlängen: [!DNL Baidu]: 30 Einzelbyte- oder 15 Doppelbyte-Zeichen; [!DNL Microsoft® Advertising]: 100 Einzelbyte- oder 50 Doppelbyte-Zeichen; [!DNL Google Ads] und [!DNL Yahoo! Japan Ads]: 80 Einzelbyte- oder 40 Doppelbyte-Zeichen.
+   * Maximale Zeichenlängen: [!DNL Baidu]: 30 Einzelbyte- oder 15 Doppelbyte-Zeichen; [!DNL Microsoft Advertising]: 100 Einzelbyte- oder 50 Doppelbyte-Zeichen; [!DNL Google Ads] und [!DNL Yahoo! Japan Ads]: 80 Einzelbyte- oder 40 Doppelbyte-Zeichen.
 
    * [!DNL Baidu] erlaubt nur einen Übereinstimmungstyp pro Suchbegriff pro Anzeigengruppe. Beispielsweise kann Anzeigengruppe 1 nicht beide `"keyword"` und `[keyword]`.
 

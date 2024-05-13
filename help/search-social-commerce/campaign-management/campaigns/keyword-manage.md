@@ -3,7 +3,7 @@ title: Bietbare Suchbegriffe verwalten
 description: Erfahren Sie, wie Sie bidbare Suchbegriffe für Suchanzeigengruppen erstellen und verwalten.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bietbare Suchbegriffe verwalten
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
 
 Sie können Suchbegriffe für Suchanzeigengruppen in [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die die Suche und die Anzeige/die systemeigenen Netzwerke in einer [Synchronisiertes Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -28,7 +28,7 @@ Sie können Suchbegriffe für Suchanzeigengruppen in [unterstützte Kampagnentyp
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die [[!DNL Baidu] Keyword-Einstellungen](keyword-settings-baidu.md), [[!DNL Google Ads] Keyword-Einstellungen](keyword-settings-google.md), [[!DNL Microsoft® Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] Keyword-Einstellungen](keyword-settings-yahoo-japan.md)oder [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md).
+1. Geben Sie die [[!DNL Baidu] Keyword-Einstellungen](keyword-settings-baidu.md), [[!DNL Google Ads] Keyword-Einstellungen](keyword-settings-google.md), [[!DNL Microsoft Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] Keyword-Einstellungen](keyword-settings-yahoo-japan.md)oder [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md).
 
    Sie können bis zu 2000 Keywords in einem Vorgang eingeben oder einfügen. Trennen Sie mehrere Suchbegriffe durch Kommas oder geben Sie sie in separate Zeilen ein.
 
@@ -44,7 +44,7 @@ Der vorhandene Suchbegriff wird gelöscht und ein anderer erstellt, wenn:
 
 * ([!DNL Baidu], [!DNL Google Ads], und [!DNL Yandex]) Sie bearbeiten einen Suchbegriffnamen.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yandex]) Sie ändern den Übereinstimmungstyp eines Suchbegriffs.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ Der vorhandene Suchbegriff wird gelöscht und ein anderer erstellt, wenn:
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") .
 
-1. Bearbeiten Sie die [[!DNL Baidu] Keyword-Einstellungen](keyword-settings-baidu.md), [[!DNL Google Ads] Keyword-Einstellungen](keyword-settings-google.md), [[!DNL Microsoft® Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] Keyword-Einstellungen](keyword-settings-yahoo-japan.md)oder [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md).
+1. Bearbeiten Sie die [[!DNL Baidu] Keyword-Einstellungen](keyword-settings-baidu.md), [[!DNL Google Ads] Keyword-Einstellungen](keyword-settings-google.md), [[!DNL Microsoft Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] Keyword-Einstellungen](keyword-settings-yahoo-japan.md)oder [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md).
 
    Bei mehreren Suchbegriffen können Sie nur die Felder bearbeiten, die allen ausgewählten Suchbegriffen gemein sind, und Ihre Änderungen werden auf alle ausgewählten Suchbegriffe angewendet. Bei einigen alphanumerischen Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen angegebenen Wert zu ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge zu ersetzen, am Anfang jedes Werts ein angegebenes Präfix hinzuzufügen oder ein Suffix an das Ende jedes Werts anzuhängen. Bei einigen monetären Feldern haben Sie die Möglichkeit, die vorhandenen Werte in einen bestimmten Wert zu ändern oder den Betrag mit einer Begrenzung um einen bestimmten Prozentsatz oder Geldbetrag zu erhöhen oder zu verringern.
 
@@ -73,7 +73,7 @@ Der vorhandene Suchbegriff wird gelöscht und ein anderer erstellt, wenn:
 >* [Über Suchbegriffe](keyword-about.md)
 >* [[!DNL Baidu] Keyword-Einstellungen](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] Keyword-Einstellungen](keyword-settings-google.md)
->* [[!DNL Microsoft® Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md)
+>* [[!DNL Microsoft Advertising] Keyword-Einstellungen](keyword-settings-microsoft.md)
 >* [[!DNL Yahoo! Japan Ads] Keyword-Einstellungen](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] Keyword-Einstellungen](keyword-settings-yandex.md)
 >* [Negative Suchbegriffe erstellen](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)

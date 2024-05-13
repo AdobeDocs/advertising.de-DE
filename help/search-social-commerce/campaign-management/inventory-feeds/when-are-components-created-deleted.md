@@ -1,18 +1,18 @@
 ---
 title: Wann werden Kontokomponenten von Inventar-Feeds erstellt oder gelöscht?
 description: Erfahren Sie, in welchen Situationen Sie Kontokomponenten erstellen und löschen, wenn Sie Inventar-Feeds veröffentlichen.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Wann werden Kontokomponenten von Inventar-Feeds erstellt oder gelöscht?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Wenn eine Inventar-Feed-Datei über eine Vorlage propagiert wird, werden Kontokomponenten wie folgt erstellt und gelöscht.
 
@@ -23,9 +23,9 @@ Wenn eine Inventar-Feed-Datei über eine Vorlage propagiert wird, werden Kontoko
 | Szenario | Beispiel | Aktion |
 |----|----|----|
 | Feed-Daten enthalten einen neuen Wert für eine Spalte, die in einem Kampagnennamen, Anzeigengruppennamen, Suchbegriff oder Produktgruppe verwendet wird. | Vorherige Dateien:<br>Campaign=Hats<br>Campaign=Gloves<br><br>Neue Datei:<br>Campaign=Shoes | Eine neue Kampagne, Anzeigengruppe, ein Suchbegriff oder eine neue Produktgruppe wird erstellt, wenn sie nicht im Werbenetzwerk vorhanden ist. |
-| Feed-Daten enthalten einen neuen Wert für eine Spalte, die in einer Anzeige verwendet wird. | Vorherige Datei: Eine Anzeige enthielt Preis = 20<br><br>Neue Datei: Für dieselbe Anzeige: price=10 | Wenn die Anzeige für [!DNL Microsoft® Advertising] erweiterte Textanzeigen, [!DNL Yahoo! Japan ads]oder [!DNL Yandex] -Anzeigen geändert, die vorhandene Anzeige gelöscht und eine neue erstellt wird.<br><br>Wenn die Anzeigenkopie für andere Anzeigentypen geändert wird oder wenn die entsprechende Spalte für eine [!DNL Google Ads] Anzeigenparameter ({param1} oder {param2}), dann wird die vorhandene Anzeige aktualisiert. |
+| Feed-Daten enthalten einen neuen Wert für eine Spalte, die in einer Anzeige verwendet wird. | Vorherige Datei: Eine Anzeige enthielt Preis = 20<br><br>Neue Datei: Für dieselbe Anzeige: price=10 | Wenn die Anzeige für [!DNL Microsoft Advertising] erweiterte Textanzeigen, [!DNL Yahoo! Japan ads]oder [!DNL Yandex] -Anzeigen geändert, die vorhandene Anzeige gelöscht und eine neue erstellt wird.<br><br>Wenn die Anzeigenkopie für andere Anzeigentypen geändert wird oder wenn die entsprechende Spalte für eine [!DNL Google Ads] Anzeigenparameter ({param1} oder {param2}), dann wird die vorhandene Anzeige aktualisiert. |
 | Die Vorlageneinstellungen für die Kampagne, Anzeigengruppe, das Keyword oder die Produktgruppe haben sich seit der letzten Verbreitung geändert. | Vorherige Einstellung:Keyword=[Schlüsselwort]<br><br>Neue Einstellung: Keyword=&lt;color>[Schlüsselwort] | Eine neue Kampagne, Anzeigengruppe, ein Suchbegriff oder eine neue Produktgruppe wird erstellt, wenn sie nicht im Werbenetzwerk vorhanden ist. |
-| Die Vorlageneinstellungen für eine Anzeige haben sich seit der letzten Verbreitung geändert. | Vorherige Einstellung: Ad description=&quot;Buy [category] jetzt.&quot;<br><br>Neue Einstellung: Ad description=&quot;Buy [Marke] jetzt.&quot; | Wenn die Anzeige für [!DNL Microsoft® Advertising] erweiterte Textanzeigen, [!DNL Yahoo! Japan ads]oder [!DNL Yandex] -Anzeigen geändert, die vorhandene Anzeige gelöscht und eine neue erstellt wird.<br><br>Wenn die Anzeigenkopie für andere Anzeigentypen geändert wird oder wenn die Änderung eine Änderung in der Spalte widerspiegelt, die für eine einzelne Anzeige verwendet wird [!DNL Google Ads] Anzeigenparameter ({param1} oder {param2}), dann wird die vorhandene Anzeige aktualisiert. |
+| Die Vorlageneinstellungen für eine Anzeige haben sich seit der letzten Verbreitung geändert. | Vorherige Einstellung: Ad description=&quot;Buy [category] jetzt.&quot;<br><br>Neue Einstellung: Ad description=&quot;Buy [Marke] jetzt.&quot; | Wenn die Anzeige für [!DNL Microsoft Advertising] erweiterte Textanzeigen, [!DNL Yahoo! Japan ads]oder [!DNL Yandex] -Anzeigen geändert, die vorhandene Anzeige gelöscht und eine neue erstellt wird.<br><br>Wenn die Anzeigenkopie für andere Anzeigentypen geändert wird oder wenn die Änderung eine Änderung in der Spalte widerspiegelt, die für eine einzelne Anzeige verwendet wird [!DNL Google Ads] Anzeigenparameter ({param1} oder {param2}), dann wird die vorhandene Anzeige aktualisiert. |
 | Neue Feed-Daten enthalten keine Zeile für eine bestehende Kampagne oder Anzeigengruppe. | Nicht zutreffend | Die vorhandenen Kampagnen und Anzeigengruppen bleiben unverändert. |
 | Neue Feed-Daten enthalten keine Zeile für eine bestehende Anzeigengruppe, Anzeige, Keyword oder Produktgruppe. | Nicht zutreffend | Die vorhandene Anzeigengruppe, Anzeige, Keyword oder Produktgruppe bleibt unverändert, wird angehalten oder gelöscht, entsprechend der Variablen [Feed-Dateneinstellungen](feed-settings-manage.md#feed-data-settings). |
 | Neue Feed-Daten für eine bestehende übergeordnete Produktgruppe enthalten keine Zeilen für die vorhandenen untergeordneten Produktgruppen. | Nicht zutreffend | Die vorhandene übergeordnete Produktgruppe bleibt unverändert oder wird gelöscht, entsprechend der Variablen [Feed-Dateneinstellungen](feed-settings-manage.md#feed-data-settings). <b>Hinweis:</b> Wenn die Feed-Dateneinstellungen so konfiguriert sind, dass fehlende Zeileneinträge angehalten werden, wird die übergeordnete Produktgruppe dennoch gelöscht, da Sie Produktgruppen nicht anhalten können. |

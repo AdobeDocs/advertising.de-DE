@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Anzeigengruppen.
+title: '''[!DNL Microsoft Advertising] Anzeigengruppeneinstellungen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Anzeigengruppen.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] Anzeigengruppeneinstellungen
+# [!DNL Microsoft Advertising] Anzeigengruppeneinstellungen
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Suchanzeigen) Wie und wo Anzeigen innerhalb der Anzeigengruppe platziert werden:
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (Standardeinstellung): Zum Platzieren von Angeboten für Anzeigen im Suchnetzwerk.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (Standardeinstellung): Zum Platzieren von Angeboten für Anzeigen im Suchnetzwerk.
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* So platzieren Sie Gebote für Anzeigen auf Syndizierte Partner-Sites.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* So platzieren Sie Gebote für Anzeigen auf Syndizierte Partner-Sites.
 
 * *[!UICONTROL Content network]:* Veraltet
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Für [!DNL Microsoft® Advertising] Anzeigengruppen im Zielgruppennetzwerk werden Gebotsmodifikatoren für Standortziele nicht in Standard-Portfolios mit dem Wert[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Für [!DNL Microsoft Advertising] Anzeigengruppen im Zielgruppennetzwerk werden Gebotsmodifikatoren für Standortziele nicht in Standard-Portfolios mit dem Wert[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 **[!UICONTROL Genre]:** (Anzeigengruppen in [!UICONTROL Audience CTV Video] Kampagnen; verfügbar in USA, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY und TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Die Zielgenerationen, die die Anzeigen und Kanäle bestimmen, auf denen Ihre Anzeigen erscheinen:
 
@@ -130,7 +130,7 @@ Die Werbeplatzierung für Connected TV (CTV) hängt von Ihrer Videoqualität und
 
 **[!UICONTROL Negative Websites]:** (Nur Kampagnen im Display/nativen Netzwerk; optional) Sites im Display-Netzwerk, auf denen Ihre Anzeigen nicht angezeigt werden sollen. Geben Sie eine gültige URL ein, z. B. www.example.com. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein.
 
-Informationen zur Verfügbarkeit finden Sie unter [!DNL Microsoft® Advertising] &quot;[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Informationen zur Verfügbarkeit finden Sie unter [!DNL Microsoft Advertising] &quot;[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

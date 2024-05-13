@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Informationen zum [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Nur Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Nur Konten*
 
-Die [!UICONTROL AdWords and Bing Audience Target Report] umfasst Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten nach Zielgruppe ([!DNL Google Ads] Kundendatenbasierte, marktinterne und ähnliche Zielgruppen und Ihre [!DNL Microsoft® Advertising] Remarketing, benutzerdefinierte Inhalte, Kundenabgleich, ähnliche Zielgruppen und In-Market-Zielgruppen ) für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Zielgruppe, die mindestens eine Impression oder einen Klick für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen werden in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Zielgruppe sortiert. Der Bericht enthält Konversionsdaten, die von [!DNL Adobe] nur für Remarketing-Listenziele.
+Die [!UICONTROL AdWords and Bing Audience Target Report] umfasst Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten nach Zielgruppe ([!DNL Google Ads] Kundendatenbasierte, marktinterne und ähnliche Zielgruppen und Ihre [!DNL Microsoft Advertising] Remarketing, benutzerdefinierte Inhalte, Kundenabgleich, ähnliche Zielgruppen und In-Market-Zielgruppen ) für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Zielgruppe, die mindestens eine Impression oder einen Klick für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen werden in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Zielgruppe sortiert. Der Bericht enthält Konversionsdaten, die von [!DNL Adobe] nur für Remarketing-Listenziele.
 
 Sie können Daten für bis zum Vorjahr anzeigen.
 
@@ -42,6 +42,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
-* [Über Sonderberichte](specialty-report-about.md)
-* [Einen Spezialbericht erstellen](specialty-report-generate.md)
-* [Einstellungen für Sonderberichte](specialty-report-settings.md)
+>* [Über Sonderberichte](specialty-report-about.md)
+>* [Einen Spezialbericht erstellen](specialty-report-generate.md)
+>* [Einstellungen für Sonderberichte](specialty-report-settings.md)

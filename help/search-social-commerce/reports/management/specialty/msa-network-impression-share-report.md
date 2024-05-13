@@ -3,22 +3,22 @@ title: Die [!UICONTROL MSA Network Impression Share Report]
 description: Informationen zum [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
 # Die [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft® Advertising]Nur Konten*
+*[!DNL Microsoft Advertising]Nur Konten*
 
-Dieser Bericht zeigt Metriken zur Impressions-Freigabe auf Kampagnenebene und grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen) nach Anzeigenverteilung (Suche oder Zielgruppe) und Netzwerk (wie [!DNL Microsoft] Sites und wählen Sie Traffic oder Zielgruppe aus) für [!DNL Microsoft® Advertising] Konten.
+Dieser Bericht zeigt Metriken zur Impressions-Freigabe auf Kampagnenebene und grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen) nach Anzeigenverteilung (Suche oder Zielgruppe) und Netzwerk (wie [!DNL Microsoft] Sites und wählen Sie Traffic oder Zielgruppe aus) für [!DNL Microsoft Advertising] Konten.
 
 Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der erstellte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.
 
-Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce ruft die Daten ab von [!DNL Microsoft Advertising] in Echtzeit, und es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen erstellt werden.
+Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten ab von [!DNL Microsoft Advertising] in Echtzeit, und es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen erstellt werden.
 
 >[!NOTE]
 >

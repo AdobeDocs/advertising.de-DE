@@ -3,7 +3,7 @@ title: Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für 
 description: Referenzieren Sie die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Einstellungen für Textanzeigen und responsive Suchanzeigenvorlagen für Inventar-Feeds
 
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 * So betten Sie die endgültige URL ein:
 
-   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter . `!{unescapedurl}` um die Landingpage-URL anzugeben.
 
@@ -142,7 +142,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
 * Für Yahoo! Japan Ads-Konten verwenden den Parameter {lpurl}.
 
-* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Die für Microsoft Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 Dieser Wert setzt die Einstellungen auf Konto- und Kampagnenebene außer Kraft, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als dem granularsten) überschreiben diesen Wert.
 
@@ -166,7 +166,7 @@ Dieser Wert setzt die Einstellungen auf Konto- und Kampagnenebene außer Kraft, 
 
 Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste oder auf eine [Modifikatorname](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) in der Liste Modifikatoren . Um mehrere Suchbegriffe oder mehrere Übereinstimmungstypen für denselben Suchbegriff anzugeben, geben Sie sie in separate Zeilen ein. Verwenden Sie die folgende Übereinstimmungstyp-Syntax für den Spaltennamen, um den Keyword-Übereinstimmungstyp anzugeben:
 
-* Für [!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yahoo! Japan Ads] templates:
+* Für [!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yahoo! Japan Ads] templates:
 
    * Dynamische Parameter: Weit gefasste Übereinstimmung = `[keyword]`, Modifikator für breite Übereinstimmung für den ersten Begriff im [!UICONTROL Keyword] Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Modifikator für breite Übereinstimmung für jeden Begriff in der Spalte Suchbegriff (z. B. +Blue +Wildleder +Schuhe) = `+[keyword]+`, Phrase Match = `"[keyword]"`, genaue Übereinstimmung = `[[keyword]]`
 
@@ -206,7 +206,7 @@ Wenn Sie [!DNL Google Merchant Center] Feed hinzufügen und diesen Wert in die &
 
 * So geben Sie die Landingpage-URL an:
 
-   * ([!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft® Advertising] nur) [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] und [!DNL Microsoft Advertising] Nur) Eine Liste von Parametern zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie im Abschnitt ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] nur) Verwenden Sie den Parameter . `!{lpurl}` um die Landingpage-URL anzugeben.
 
@@ -234,15 +234,15 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
    * Zwei Zahlen können mit einem Schrägstrich eingebettet werden. Beispielsweise sind 4/1 und 0.95/0.45 gültig.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] templates\]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param2}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] templates\]:** ([!DNL Microsoft Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param2}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param3}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] Nur Vorlagen) Die Zeichenfolge, die als Ersatzwert für eine Anzeige verwendet werden soll, wenn der Titel, Text, die Anzeigen-URL oder die endgültige URL die Variable `{Param3}` dynamische Ersatzzeichenfolge. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Anzeigenelemente, in denen Sie sie verwenden (z. B. kann ein Anzeigentitel bis zu 25 Zeichen enthalten).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das anfängliche Gebot für jeden Suchbegriff mit dem angegebenen Übereinstimmungstyp oder Anzeigentyp.
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]:** ([!DNL Google Ads] und [!DNL Microsoft® Advertising] nur Kampagnen) Der Typ der Anzeigen: *[!UICONTROL Expanded Search Ads]* oder *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]:** ([!DNL Google Ads] und [!DNL Microsoft Advertising] nur Kampagnen) Der Typ der Anzeigen: *[!UICONTROL Expanded Search Ads]* oder *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]:** (Optional) Fügt alle alternativen Felder zum Kopieren von Anzeigen mit Text aus den Feldern zum Kopieren der ursprünglichen Anzeige vorab ein.
 
@@ -258,7 +258,7 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** (Vorhandene Microsoft® Advertising-Standardtextanzeigen; schreibgeschützt) Der Titel oder die erste Zeile einer Anzeige. Die Erstellung und Bearbeitung von Standardtextanzeigen wird von Microsoft® Advertising nicht mehr unterstützt.
+**[!UICONTROL Ad Title]:** (Vorhandene Microsoft Advertising Standard-Textanzeigen; schreibgeschützt) Der Titel oder die erste Zeile einer Anzeige. Die Erstellung und Bearbeitung von Standardtextanzeigen wird von Microsoft Advertising nicht mehr unterstützt.
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] und [!DNL Yahoo! Japan Ads] nur erweiterte Textanzeigenvorlagen) Die Überschrift einer Anzeige. Die maximale Länge jeder Zeile (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
 
@@ -270,13 +270,13 @@ Für jede Position muss mindestens ein Titel verfügbar sein. Wenn Sie mehrere T
 
 **[!UICONTROL Title]:** ([!DNL Yandex] nur) Der Titel oder die erste Zeile einer Anzeige. Die maximale Länge beträgt 33 Zeichen.
 
-**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Nur Microsoft® Advertising erweiterte Textanzeigen) Die Überschrift einer Anzeige. Die maximale Länge jeder Zeile (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
+**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Nur Microsoft Advertising erweiterte Textanzeigen) Die Überschrift einer Anzeige. Die maximale Länge jeder Zeile (nach der Ersetzung dynamischer Parameter) beträgt 30 Zeichen oder 15 Doppelbyte-Zeichen.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** (Nur Microsoft® Advertising erweiterte Textanzeigen) Der Hauptteil einer Anzeige. Die maximale Länge (nachdem dynamische Parameter ersetzt wurden) beträgt 80 Zeichen oder 40 Doppelbyte-Zeichen (z. B. Chinesisch, Japanisch und Koreanisch).
+**[!UICONTROL Ad Text]:** (Nur Microsoft Advertising erweiterte Textanzeigen) Der Hauptteil einer Anzeige. Die maximale Länge (nachdem dynamische Parameter ersetzt wurden) beträgt 80 Zeichen oder 40 Doppelbyte-Zeichen (z. B. Chinesisch, Japanisch und Koreanisch).
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ Fügen Sie für responsive Suchanzeigen einen Anzeigenanpasser mit den folgenden
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, beispielsweise `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, beispielsweise `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, beispielsweise `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (Bestehend [!DNL Microsoft® Advertising] und [!DNL Yahoo! Japan Ads] Nur Standardtextanzeigen; schreibgeschützt) Die in einer Anzeige angezeigte URL.
+**[!UICONTROL Display URL]:** (Bestehend [!DNL Microsoft Advertising] und [!DNL Yahoo! Japan Ads] Nur Standardtextanzeigen; schreibgeschützt) Die in einer Anzeige angezeigte URL.
 
-[!DNL Microsoft® Advertising] und [!DNL Yahoo! Japan Ads] die Erstellung und Bearbeitung von Standardtextanzeigen eingestellt haben.
+[!DNL Microsoft Advertising] und [!DNL Yahoo! Japan Ads] die Erstellung und Bearbeitung von Standardtextanzeigen eingestellt haben.
 
 **[!UICONTROL Base URL]:** (Nur Konten mit Ziel-URLs) Die Seite, auf die Benutzer geleitet werden. Sie kann Umleitung und Trackingcode von Drittanbietern enthalten. Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung der [!UICONTROL EF Redirect] Fügen Sie Tracking auf Anzeigenebene hinzu, fügt Search, Social und Commerce der Anzeige automatisch einen eigenen Weiterleitungs- und Trackingcode hinzu.
 
@@ -339,7 +339,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
 * Für Yahoo! Japan Ads-Konten verwenden den Parameter {lpurl}.
 
-* Die für Microsoft® Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Die für Microsoft Advertising- und Google Ads-Konten verfügbaren Parameter finden Sie im Abschnitt [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Alternative Anzeigenfelder unter den ursprünglichen Anzeigenfeldern\]:** (Optional) Ein alternativer Satz von Anzeigenkopien für eine Anzeige, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximal zulässige Länge überschreitet, sobald dynamische Parameter bei der Übertragung mit Daten gefüllt werden.
 

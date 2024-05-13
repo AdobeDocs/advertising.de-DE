@@ -1,11 +1,11 @@
 ---
 title: Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen über aktivieren und deaktivieren [!UICONTROL Notification Center].
-exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können Benachrichtigungen in Search, Social und Commerce aktivieren, wenn sie gemäß den Benachrichtigungskonventionen des Browsers angezeigt werden. Auf Geräten mit [!DNL Microsoft® Windows], werden Benachrichtigungen unten rechts im Bildschirm (Systemablage) angezeigt. on [!DNL Apple Mac] Geräte, werden Benachrichtigungen im rechten Menü angezeigt.
+Sie können Benachrichtigungen in Search, Social und Commerce aktivieren, wenn sie gemäß den Benachrichtigungskonventionen des Browsers angezeigt werden. Auf Geräten mit [!DNL Microsoft Windows], werden Benachrichtigungen unten rechts im Bildschirm (Systemablage) angezeigt. on [!DNL Apple Mac] Geräte, werden Benachrichtigungen im rechten Menü angezeigt.
 
 Push-Benachrichtigungen sind in den folgenden Browsern verfügbar:
 
 * [!DNL Google Chrome] 40 und höher
 
-* [!DNL Microsoft® Edge] 17 und höher
+* [!DNL Microsoft Edge] 17 und höher
 
 * [!DNL Mozilla Firefox] 44 und höher
 
@@ -36,9 +36,9 @@ Sie können Push-Benachrichtigungen entsprechend der üblichen Vorgehensweise de
 
 4. Konfigurieren Sie den Browser so, dass Benachrichtigungen von [!UICONTROL Notification Center] at`https://alert-center-ui-na.efrontier.com`.
 
-   Die standardmäßigen Benachrichtigungseinstellungen variieren je nach Browser. Sie können entweder a) automatisch mit der Option angezeigt werden, Benachrichtigungen von [!UICONTROL Notification Center] oder b) die Benachrichtigungseinstellungen manuell verwalten müssen. Beispiel: in [!DNL Microsoft® Edge], können Sie Benachrichtigungen von [!UICONTROL Notification Center] über die Browser-Symbolleiste. Siehe Anweisungen in der Hilfe des Browsers.
+   Die standardmäßigen Benachrichtigungseinstellungen variieren je nach Browser. Sie können entweder a) automatisch mit der Option angezeigt werden, Benachrichtigungen von [!UICONTROL Notification Center] oder b) die Benachrichtigungseinstellungen manuell verwalten müssen. Beispiel: in [!DNL Microsoft Edge], können Sie Benachrichtigungen von [!UICONTROL Notification Center] über die Browser-Symbolleiste. Siehe Anweisungen in der Hilfe des Browsers.
 
-   ![Verwalten der Benachrichtigungseinstellungen in Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Verwalten der Benachrichtigungseinstellungen in Microsoft® Edge")
+   ![Verwalten der Benachrichtigungseinstellungen in Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Verwalten der Benachrichtigungseinstellungen in Microsoft Edge")
 
 5. In der [Benachrichtigungseinstellungen](notification-edit.md), aktivieren [!UICONTROL Web] Benachrichtigungen für die Warnhinweistypen, die gesendet werden sollen.
 

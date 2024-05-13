@@ -1,18 +1,18 @@
 ---
-title: Informationen zum Tracking für Suche, Social und Commerce
-description: Erfahren Sie mehr über Tracking-Optionen für Suche, Social und Commerce.
+title: Informationen zum Tracking für Search, Social und Commerce
+description: Erfahren Sie mehr über Tracking-Optionen für Search, Social und Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-# Informationen zum Tracking für Suche, Social und Commerce
+# Informationen zum Tracking für Search, Social und Commerce
 
-Um die Leistung Ihrer Anzeigen zu verfolgen, benötigen Sie Impressions-, Klick-, Kosten- und Konversionsdaten (Transaktionen) für Ihre Anzeigen in Search, Social und Commerce. Search, Social und Commerce verwenden diese Daten zum Erstellen der Datenprognosemodelle, die zur Optimierung Ihrer Anzeigen-Portfolios erforderlich sind.
+Um die Performance Ihrer Anzeigen zu verfolgen, benötigt Search, Social und Commerce Impressions-, Klick-, Kosten- und Konversionsdaten (Transaktionen) für Ihre Anzeigen. Search, Social und Commerce verwenden diese Daten zum Erstellen der Datenprognosemodelle, die zur Optimierung Ihrer Anzeigen-Portfolios erforderlich sind.
 
 ## Kosten-, Klick- und Impressionsdaten
 
@@ -22,11 +22,11 @@ Wenn Sie Kampagnen in Werbenetzwerken verfolgen möchten, mit denen Search, Soci
 
 ### Klick-Tracking-Tags
 
-Ihr Implementierungsteam für Search, Social und Commerce richtet Klick-Tracking ein, indem es die Tracking-Vorlagen und Ziel-URLs für Anzeigen, Suchbegriffe, Platzierungen, Produktgruppen und Sitelink-Erweiterungen in Ihren synchronisierten Werbekampagnen aktualisiert, um eine eindeutige Tracking-ID-Zeichenfolge und eine Adobe Advertising-Umleitung einzuschließen. Sie fügen außerdem Tracking zu den Suffixen der Landingpage (finale URL-Suffixe) für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Konten und Kampagnen.
+Ihr Implementierungsteam für Search, Social und Commerce richtet Klick-Tracking ein, indem es die Tracking-Vorlagen und Ziel-URLs für Anzeigen, Suchbegriffe, Platzierungen, Produktgruppen und Sitelink-Erweiterungen in Ihren synchronisierten Werbekampagnen aktualisiert, um eine eindeutige Tracking-ID-Zeichenfolge und eine Adobe Advertising-Umleitung einzuschließen. Sie fügen außerdem Tracking zu den Suffixen der Landingpage (finale URL-Suffixe) für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten und Kampagnen.
 
 Die Tracking-Parameter ermöglichen es Adobe Advertising, Klicks auf der Ebene einzelner Keywords (Suchkampagnen) oder Anzeigenvarianten (Suchkampagnen mit Inhalt oder Site-Targeting, Display-Kampagnen und Social-Media-Kampagnen) zu verfolgen. Jedes Mal, wenn ein Benutzer eine Anzeige/Inhaltsanzeige anzeigt oder auf eine Ihrer Anzeigen klickt, sendet das Werbenetzwerk das Ereignis mithilfe eines mit dem Suchbegriff oder der Anzeige verknüpften Klick-Tracking-Tags an die Adobe Advertising-Pixelserver. Für Klicks:
 
-* Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Anzeigen in Browsern, die das parallele Tracking unterstützen, sendet das Werbenetzwerk den Klick zuerst an Ihre Website und dann an die Adobe Advertising-Pixelserver, die dann ein Cookie auf dem Benutzercomputer platzieren, falls noch kein Cookie vorhanden ist.
+* Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Anzeigen in Browsern, die das parallele Tracking unterstützen, sendet das Werbenetzwerk den Klick zuerst an Ihre Website und dann an die Adobe Advertising-Pixelserver, die dann ein Cookie auf dem Benutzercomputer platzieren, falls noch kein Cookie vorhanden ist.
 
 * In allen anderen Fällen sendet das Werbenetzwerk den Klick direkt an die Adobe Advertising-Pixelserver. Der Pixelserver platziert ein Cookie auf dem Computer des Benutzers (falls noch kein Cookie vorhanden ist) und leitet den Benutzer dann zur entsprechenden URL auf Ihrer Website weiter. Das Gesamterlebnis für den Endbenutzer entspricht dem ohne Umleitung.
 
@@ -34,7 +34,7 @@ Das Cookie wird im [!DNL Adobe] Domäne (`everesttech.net`) als Erstanbieter-Coo
 
 ## Konversionsdaten
 
-Wenn ein Kunde auf eine Anzeige klickt oder eine Anzeige oder soziale Anzeige anzeigt, müssen Search, Social und Commerce jede daraus resultierende Konversion wieder dem ursprünglichen Klick bzw. der ursprünglichen Anzeige/sozialen Impression zuordnen.
+Wenn ein Kunde auf eine Anzeige klickt oder eine Anzeige oder Social-Anzeige anzeigt, müssen Search, Social und Commerce jede daraus resultierende Konversion wieder dem ursprünglichen Klick bzw. der ursprünglichen Anzeige/Social-Impression zuordnen.
 
 Der Advertiser spielt eine Rolle bei der Bereitstellung der Konversionsdaten für alle Klicks und Anzeige-/Social-Impressionen. Konversionsdaten können Informationen zu allen Ereignistypen enthalten, die auf einer Website auftreten und zur Angebotsoptimierung verwendet werden können. Sie können Konversionsdaten bereitstellen, indem Sie Konversions-Trackingcode auf den Konversionsseiten des Werbetreibenden implementieren (z. B. die Erfolgsseite, die nach Abschluss einer Transaktion von einem Kunden angezeigt wird) oder eine tägliche Feed-Datei mit Konversionsdaten senden, die von einer anderen Methode erfasst wurden.
 

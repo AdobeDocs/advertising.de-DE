@@ -3,7 +3,7 @@ title: Erstellen eines Anbindungsplans für TV-Geräte
 description: Erfahren Sie, wie Sie einen vernetzten TV-Reichweiten-Plan erstellen.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft® Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

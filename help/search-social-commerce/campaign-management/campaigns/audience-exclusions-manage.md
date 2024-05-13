@@ -1,18 +1,18 @@
 ---
 title: Verwalten von Zielgruppenausschlüssen für Kampagnen und Anzeigengruppen
-description: Erfahren Sie, wie Sie Zielgruppenausschlüsse für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
+description: Erfahren Sie, wie Sie Zielgruppenausschlüsse für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Verwalten von Zielgruppenausschlüssen für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen
+# Verwalten von Zielgruppenausschlüssen für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] only*
 
 Sie können bestimmte Zielgruppen als Ziele für bestimmte Anzeigengruppen und Kampagnen ausschließen. Der Ausschluss einer Zielgruppe stellt sicher, dass diese Personen keine Anzeigen in den angegebenen Anzeigengruppen und Kampagnen erhalten.
 

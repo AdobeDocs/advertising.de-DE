@@ -1,18 +1,18 @@
 ---
 title: Konfigurieren der Feed-Dateneinstellungen
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Feed-Dateneinstellungen
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Sie können konfigurieren, wie Anzeigengruppen, Suchbegriffe und Anzeigen in Feed-Datendateien verarbeitet und wie die Daten in FTP-Dateien speziell über die Feed-Einstellungen verarbeitet werden.
 
@@ -28,7 +28,7 @@ Sie können konfigurieren, wie Anzeigengruppen, Suchbegriffe und Anzeigen in Fee
 
    1. Im [!UICONTROL Miscellaneous Auto-Processing] Informationen in den Feldern auswählen.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 ## Feed-Dateneinstellungen {#feed-data-settings}
 
@@ -63,7 +63,7 @@ Sie können konfigurieren, wie Anzeigengruppen, Suchbegriffe und Anzeigen in Fee
 
 * *[!UICONTROL None]* (Standard): Ändern Sie die vorhandenen Komponenten nicht.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Was tun mit vorhandenen Elementen, wenn 1) sie nicht a) in einer neuen Feed-Datei enthalten sind, die in ein FTP-Verzeichnis hochgeladen wurde, oder b) in einem Händlercenter-Konto, wenn sie das nächste Mal synchronisiert werden, oder 2), wenn sie nicht vorhandenen Kampagnen oder Anzeigengruppen gemäß [!UICONTROL Map Only] -Einstellungen in der Vorlage.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Was tun mit vorhandenen Elementen, wenn 1) sie nicht a) in einer neuen Feed-Datei enthalten sind, die in ein FTP-Verzeichnis hochgeladen wurde, oder b) in einem Händlercenter-Konto, wenn sie das nächste Mal mit Search, Social und Commerce synchronisiert werden, oder 2), wenn sie nicht vorhandenen Kampagnen oder Anzeigengruppen gemäß [!UICONTROL Map Only] -Einstellungen in der Vorlage.
 
 * *[!UICONTROL Delete]:* Löschen Sie die vorhandenen Komponenten.
 
@@ -95,7 +95,7 @@ Der Lagerbestand für jedes Zeilenelement stammt aus einer Spalte in der Feed-Da
 >[!NOTE]
 >
 >* Bei FTP-Dateien sucht der Feed-Dienst alle zwei Stunden nach Aktualisierungen im FTP-Verzeichnis (gerade nummerierte Stunden in der PST-Zeitzone). Diese Option verarbeitet alle Dateien, die seit der letzten Prüfung hochgeladen wurden.
->* Bei Handelscenter-Konten synchronisiert sich Search, Social und Commerce täglich um etwa 06:00 Uhr in der Zeitzone des Werbetreibenden mit dem Konto. Diese Option verarbeitet alle Daten, die seit der letzten Synchronisierung aktualisiert wurden.
+>* Bei Handelscenter-Konten synchronisiert sich Search, Social und Commerce täglich um ca. 06:00 Uhr in der Zeitzone des Werbetreibenden mit dem Konto. Diese Option verarbeitet alle Daten, die seit der letzten Synchronisierung aktualisiert wurden.
 >* Propagierte Daten sind über das [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], und [!UICONTROL Ads] Registerkarten, bis die Daten im Werbenetzwerk oder in der [!UICONTROL Bulksheets] anzeigen.
 
 **[!UICONTROL Post to the SE]:** (Werbetreibende, die Datendateien über FTP oder ein Händlernetzwerk-Konto hochladen) Erstellt automatisch Bulksheet-Dateien in den richtigen Formaten für die relevanten Anzeigennetzwerke, nachdem neue Daten über die entsprechenden Vorlagen übertragen wurden. Mit dieser Option werden auch die Daten aus dem [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], und [!UICONTROL Ads] Registerkarten, es sei denn, Unterkomponenten weisen Fehler auf.
@@ -104,7 +104,7 @@ Diese Option ist standardmäßig deaktiviert. Um diese Option zu aktivieren, akt
 
 * *[!UICONTROL Immediately]* (Standardeinstellung): Sendet die Bulk-Sheet-Dateien an die entsprechenden Anzeigenetzwerke, nachdem die Daten über die Vorlagen übertragen wurden. Die Bulksheet-Dateien bleiben im [!UICONTROL Bulksheets] 30 Tage lang anzeigen.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Posten Sie die Bulksheet-Dateien nicht in den relevanten Werbenetzwerken, sondern listen Sie sie in der [!UICONTROL Bulksheets] -Ansicht, aus der Sie sie später posten können. Die Bulksheet-Dateien bleiben im [!UICONTROL Bulksheets] 30 Tage lang anzeigen. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor. Sie müssen die Datei nicht entpacken, um sie zu posten. **Tipp:** Wenn Sie Ihre Landingpages noch nicht validiert haben, verwenden Sie diese Option, damit Sie sie im [!UICONTROL Bulksheets] anzeigen, bevor Sie die Daten in das Werbenetzwerk posten.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Posten Sie die Bulksheet-Dateien nicht in den relevanten Anzeigennetzwerken, sondern listen Sie sie im [!UICONTROL Bulksheets] -Ansicht, aus der Sie sie später posten können. Die Bulksheet-Dateien bleiben im [!UICONTROL Bulksheets] 30 Tage lang anzeigen. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor. Sie müssen die Datei nicht entpacken, um sie zu posten. **Tipp:** Wenn Sie Ihre Landingpages noch nicht validiert haben, verwenden Sie diese Option, damit Sie sie im [!UICONTROL Bulksheets] anzeigen, bevor Sie die Daten in das Werbenetzwerk posten.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Schließt das Posten von Suchbegriff-Wortgruppen mit mehr als einer angegebenen Anzahl von Wörtern in das Werbenetzwerk aus. Wenn diese Option aktiviert ist, werden Suchbegriffe mit mehr als der maximalen Wortanzahl propagiert und im [!UICONTROL Keywords] , aber sie werden nicht veröffentlicht, wenn Sie versuchen, die Daten zu posten.
 

@@ -3,7 +3,7 @@ title: Klick-Tracking-URL generieren
 description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Suche, Social und Commerce generieren.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Beispiel: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] Sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] Sitelinks) `sitelink <tab> ** <tab> landing_page`
 
            where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
@@ -48,7 +48,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Die Datei kann bis zu 10.000 Zeilen enthalten.
 
-         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft® Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
@@ -64,13 +64,13 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
            Beispiel: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] Sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] Sitelinks) `sitelink**landing_page`
 
            where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
            Beispiel: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft® Advertising] Produktanzeigen) `product name**landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft Advertising] Produktanzeigen) `product name**landing_page`
 
            where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
 
@@ -82,7 +82,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
 Geben Sie für Konten mit Ziel-URLs die Werte in der entsprechenden [!UICONTROL Base URL] -Felder.
 
-Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in die entsprechende [!UICONTROL Tracking Template] -Feld. Sie müssen einen Parameter für die endgültige URL nach der `&url=` -Parameter (z. B. `{lpurl}`). Für [!DNL Yahoo! Japan Ads] Konten, den Parameter verwenden `{lpurl}`. Für eine Liste von [!DNL Google Ads] und [!DNL Microsoft® Advertising] Parameter, die die endgültigen URLs in Tracking-Vorlagen angeben, finden Sie unter [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot;) [!DNL ValueTrack] Parameter&quot;) und der [[!DNL Microsoft® Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in die entsprechende [!UICONTROL Tracking Template] -Feld. Sie müssen einen Parameter für die endgültige URL nach der `&url=` -Parameter (z. B. `{lpurl}`). Für [!DNL Yahoo! Japan Ads] Konten, den Parameter verwenden `{lpurl}`. Für eine Liste von [!DNL Google Ads] und [!DNL Microsoft Advertising] Parameter, die die endgültigen URLs in Tracking-Vorlagen angeben, finden Sie unter [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot;) [!DNL ValueTrack] Parameter&quot;) und der [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] Kampagneneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft® Advertising] Kampagnen.
+title: '''[!DNL Microsoft Advertising] Kampagneneinstellungen'
+description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] Kampagneneinstellungen
+# [!DNL Microsoft Advertising] Kampagneneinstellungen
 
 ## \[Bildschirm zur Kampagnenerstellung\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* Zeigt Textanzeigen im Suchnetzwerk an.
 
-* *[!UICONTROL Shopping Network]:* Zeigt Produktanzeigen — für Ihre Produkte in Ihrer [!DNL Microsoft® Merchant Center] Produktkatalog — im Warenkorb.
+* *[!UICONTROL Shopping Network]:* Zeigt Produktanzeigen — für Ihre Produkte in Ihrer [!DNL Microsoft Merchant Center] Produktkatalog — im Warenkorb.
 
-* *[!UICONTROL Audience]:* Zeigt native/Display-Anzeigen auf der [!DNL Microsoft® Audience Network]. Sie können entweder a) automatisch Feed-basierte Anzeigen generieren, indem Sie die Kampagne mit einem Händler-Center-Store im [!UICONTROL Shopping Settings] oder b) erstellen Sie responsive Anzeigen mit Text-Assets und hochgeladenen Bildern. Bei beiden Optionen müssen Sie Anzeigengruppen mit Benutzer-Targeting erstellen.
+* *[!UICONTROL Audience]:* Zeigt native/Display-Anzeigen auf der [!DNL Microsoft Audience Network]. Sie können entweder a) automatisch Feed-basierte Anzeigen generieren, indem Sie die Kampagne mit einem Händler-Center-Store im [!UICONTROL Shopping Settings] oder b) erstellen Sie responsive Anzeigen mit Text-Assets und hochgeladenen Bildern. Bei beiden Optionen müssen Sie Anzeigengruppen mit Benutzer-Targeting erstellen.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen. Verwenden Sie für Einkaufskampagnen für Marken die Angebotsstrategie. [!UICONTROL Manual CPC]; für Shopping-Promotions für Marken, verwenden Sie die Angebotsstrategie. [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen. Verwenden Sie für Einkaufskampagnen für Marken die Angebotsstrategie. [!UICONTROL Manual CPC]; für Shopping-Promotions für Marken, verwenden Sie die Angebotsstrategie. [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft® Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft® Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
 * *[!UICONTROL Audience CTV Video]:* (Beta-Funktion) Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
 
 * *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
 
-* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an, die [!DNL Microsoft® Advertising] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, darunter Bilder, Logos, Überschriften, Beschreibungen, einen optionalen Aktionsaufruf und Zielgruppensignale. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
+* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an, die [!DNL Microsoft Advertising] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, darunter Bilder, Logos, Überschriften, Beschreibungen, einen optionalen Aktionsaufruf und Zielgruppensignale. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   Wenn Sie eine Kampagne mit eCPC zu einem optimierten Portfolio von Search, Social und Commerce hinzufügen, optimiert Search, Social und Commerce die Basisangebote und - wenn die Variable[!UICONTROL Auto adjust campaign budget limits]Die Option ist aktiviert - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Angebotsanpassungen und kann die von Search, Social und Commerce generierten Angebote zum Zeitpunkt der Benutzerabfrage basierend auf proprietären Daten und Einblicken ändern. **Vorsicht:** Verwenden Sie eCPC-Kampagnen in Portfolios nur, wenn die im Werbenetzwerk verfolgten Konversionen insgesamt mit dem Portfolioziel übereinstimmen.
 
-* *[!UICONTROL Manual CPC]*: (Shopping-Kampagnen für Marken; [!DNL Microsoft® Store Ads] Kampagnen; veraltet von [!DNL Microsoft® Advertising] 2021 für andere Kampagnentypen) Verwendet das CPC-Modell (Cost-per-Click). Bei einigen Anzeigentypen können Sie optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
+* *[!UICONTROL Manual CPC]*: (Shopping-Kampagnen für Marken; [!DNL Microsoft Store Ads] Kampagnen; veraltet von [!DNL Microsoft Advertising] 2021 für andere Kampagnentypen) Verwendet das CPC-Modell (Cost-per-Click). Bei einigen Anzeigentypen können Sie optional zulassen, dass das Werbenetzwerk Angebote für die Kampagne ändert:
 
    * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Diese Option entspricht der Verwendung des[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] campaigns) Verwendet das CPA-Modell (Cost per Akquise).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campaigns) Verwendet das CPA-Modell (Cost per Akquise).
 
 * *[!UICONTROL Manual CPM]* (Nur Zielgruppen-Kampagnen und Zielgruppen-Video-Kampagnen) Verwendet das CPM-Modell (Cost-per-Tausend-Impressions), für das Sie angeben, was Sie pro 1.000 angezeigten Impressionen ausgeben möchten. Kampagnen mit dieser Angebotsstrategie werden nicht optimiert, wenn sie in Portfolios enthalten sind.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]:** (Nur Zielgruppenkampagnen; optional) Verknüpft die Kampagne mit einem bestimmten Merchant Center Store für automatisierte Feed-basierte Anzeigen und nicht mit responsiven Anzeigen. Wenn Sie diese Option auswählen, geben Sie die [!UICONTROL Merchant ID] und [!UICONTROL Products]. Sie müssen Anzeigengruppen für die Kampagne erstellen, Sie müssen jedoch keine Anzeigen erstellen.
+**[!UICONTROL Link with Microsoft Merchant Center]:** (Nur Zielgruppenkampagnen; optional) Verknüpft die Kampagne mit einem bestimmten Merchant Center Store für automatisierte Feed-basierte Anzeigen und nicht mit responsiven Anzeigen. Wenn Sie diese Option auswählen, geben Sie die [!UICONTROL Merchant ID] und [!UICONTROL Products]. Sie müssen Anzeigengruppen für die Kampagne erstellen, Sie müssen jedoch keine Anzeigen erstellen.
 
 Nachdem Sie die Kampagne mit einem Store verknüpft und die Einstellungen gespeichert haben, können Sie diese Option nicht mehr ändern.
 
@@ -116,7 +116,7 @@ Nachdem Sie die Kampagne mit einem Store verknüpft und die Einstellungen gespei
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Nur Kampagnen mit der maximalen Leistung) Die Sprache der Anzeige, die mit der Sprache der Sites übereinstimmen sollte, auf denen Ihre Anzeige erscheinen kann. [!DNL Microsoft® Advertising] bestimmt die Sprache eines Benutzers anhand verschiedener Signale, einschließlich der Abfrage des Benutzers, des Landes des Herausgebers und der Spracheinstellung des Benutzers.
+**[!UICONTROL Languages]:** (Nur Kampagnen mit der maximalen Leistung) Die Sprache der Anzeige, die mit der Sprache der Sites übereinstimmen sollte, auf denen Ihre Anzeige erscheinen kann. [!DNL Microsoft Advertising] bestimmt die Sprache eines Benutzers anhand verschiedener Signale, einschließlich der Abfrage des Benutzers, des Landes des Herausgebers und der Spracheinstellung des Benutzers.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ Nachdem Sie die Kampagne mit einem Store verknüpft und die Einstellungen gespei
 
 **[!UICONTROL Negative Websites]:** (Nur Kampagnen im Display/nativen Netzwerk; optional) Sites im Display-Netzwerk, auf denen Ihre Anzeigen nicht angezeigt werden sollen. Geben Sie eine gültige URL ein, z. B. www.example.com. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein.
 
-Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe zu &quot;[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Informationen zur Verfügbarkeit finden Sie in der Microsoft Advertising-Hilfe zu &quot;[Verhindern der Anzeige von Anzeigen auf bestimmten Websites](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 
 **[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden.
 
-**[!UICONTROL Images]:** Bis zu 20 Bilder für die Anzeige, darunter mindestens ein quadratisches Bild und ein Landschaftsbild. Siehe [[!DNL Microsoft® Advertising] Bildrichtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+**[!UICONTROL Images]:** Bis zu 20 Bilder für die Anzeige, darunter mindestens ein quadratisches Bild und ein Landschaftsbild. Siehe [[!DNL Microsoft Advertising] Bildrichtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
 * So laden Sie Bilder hoch:
 
@@ -228,7 +228,7 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 
 * So wählen Sie Bilder aus [!UICONTROL Asset Library]klicken **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Logos]:** Mindestens ein Logo. Sie können bis zu fünf einbeziehen. Siehe [[!DNL Microsoft® Advertising] Asset-Richtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
+**[!UICONTROL Logos]:** Mindestens ein Logo. Sie können bis zu fünf einbeziehen. Siehe [[!DNL Microsoft Advertising] Asset-Richtlinien](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Sie können entweder Bilder hochladen oder aus Ihrem [!UICONTROL Asset Library] — aber nicht beide im selben Betrieb.
 
 * So laden Sie Bilder hoch:
 
@@ -284,7 +284,7 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft® Advertising-Hilfe
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen. Es kann keine Skripte, HTML oder andere Markup-Sprachen enthalten.
 
-**[!UICONTROL Audience Signal]:** (Optional) [!DNL Microsoft® Advertising] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Microsoft® Advertising] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
+**[!UICONTROL Audience Signal]:** (Optional) [!DNL Microsoft Advertising] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden. [!DNL Microsoft Advertising] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer für das Targeting zu finden, und zeigen möglicherweise auch Anzeigen für Zielgruppen an, die nicht als Signale angegeben sind, um Sie bei der Erreichung Ihrer Leistungsziele zu unterstützen. Wählen Sie Zielgruppen aus, die am ehesten konvertiert werden.
 
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von [Zielgruppenziele auf Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

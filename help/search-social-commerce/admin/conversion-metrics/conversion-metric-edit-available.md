@@ -2,8 +2,8 @@
 title: Ändern der in Verwaltungsansichten und Berichten verfügbaren Konversionsmetriken
 description: Erfahren Sie, wie Sie Konversionsmetriken in Ihren Management-Ansichten und -Berichten verfügbar machen.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Ändern der in Verwaltungsansichten und Berichten verfügbaren Konversionsmetriken
 
-Wenn der Adobe Advertising eine [Konversion](/help/search-social-commerce/glossary.md#c-d) -Metrik für einen Advertiser aus Portfoliozielen, Berichten und Managementansichten ausgeschlossen. Um eine Konversionsmetrik sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, der den angezeigten Namen darstellt. Die einzige Ausnahme ist, dass Konversionen verfolgt werden durch [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind automatisch verfügbar und sichtbar.
+Wenn Adobe Advertising eine [Konversion](/help/search-social-commerce/glossary.md#c-d) -Metrik für einen Advertiser aus Portfoliozielen, Berichten und Managementansichten ausgeschlossen. Um eine Konversionsmetrik sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, der den angezeigten Namen darstellt. Die einzige Ausnahme ist, dass Konversionen verfolgt werden durch [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft Advertising] universelle Ereignis-Tracking-Tags sind automatisch verfügbar und sichtbar.
 
 Auf ähnliche Weise können Sie eine Konversionsmetrik aus Portfoliozielen, Berichten und Managementansichten ausblenden. Wenn Sie eine Konversionsmetrik ausblenden, die zuvor sichtbar war, wird sie aus allen abgeleiteten Metriken entfernt, die die Konversionsmetrik enthalten.
 
@@ -50,10 +50,10 @@ Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugri
 
 >[!NOTE]
 >
->Wenn Adobe Advertising Daten für neue Konversionsmetriken erfasst, dann werden die neuen Metriken - mit Ausnahme der Konversionen, die von verfolgt werden [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags - werden automatisch von Management-Ansichten und -Berichten ausgeschlossen, bis Sie sie einschließen. Neue Konversionen verfolgt von [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft® Advertising] universelle Ereignis-Tracking-Tags sind immer automatisch verfügbar.
+>Wenn Adobe Advertising Daten für neue Konversionsmetriken erfasst, dann werden die neuen Metriken - mit Ausnahme der Konversionen, die von verfolgt werden [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft Advertising] universelle Ereignis-Tracking-Tags - werden automatisch von Management-Ansichten und -Berichten ausgeschlossen, bis Sie sie einschließen. Neue Konversionen verfolgt von [!DNL Google Ads], [!DNL Google Analytics], und [!DNL Microsoft Advertising] universelle Ereignis-Tracking-Tags sind immer automatisch verfügbar.
 
 >[!MORELIKETHIS]
 >
-* [Über die Verwaltung der Konversionsmetriken eines Advertisers](conversion-metric-about.md)
-* [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](conversion-metric-view-tracked.md)
-* [Anzeigenamen für eine Konversionsmetrik ändern](conversion-metric-edit-display-name.md)
+>* [Über die Verwaltung der Konversionsmetriken eines Advertisers](conversion-metric-about.md)
+>* [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](conversion-metric-view-tracked.md)
+>* [Anzeigenamen für eine Konversionsmetrik ändern](conversion-metric-edit-display-name.md)

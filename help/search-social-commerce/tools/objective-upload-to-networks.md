@@ -1,9 +1,9 @@
 ---
 title: Aktivieren des Hochladens von Zielen in Werbenetzwerke
-description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft® Advertising].
+description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Aktivieren des Hochladens von Zielen in Werbenetzwerke
 
-*Advertiser mit [!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur Konten*
+*Advertiser mit [!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten*
 
 *Advertiser, die nur für die Hybridoptimierung aktiviert wurden*
 
-Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft® Advertising] , damit Sie sie zur Hybridoptimierung verwenden können. Ihre hochgeladenen Ziele stehen als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Kontoebene und Kampagnenebene zur Verfügung.
+Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] , damit Sie sie zur Hybridoptimierung verwenden können. Ihre hochgeladenen Ziele stehen als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Kontoebene und Kampagnenebene zur Verfügung.
 
 Durch Aktivierung dieser Option wird automatisch ein Upload für Ziele in Portfolios mit Kampagnen mit Smart-Gebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im Ziel dar. Jede Konversion hat einen der folgenden Namen:
 
@@ -30,7 +30,7 @@ Durch Aktivierung dieser Option wird automatisch ein Upload für Ziele in Portfo
 
   Ihr Adobe Account-Team wird mit Ihnen zusammenarbeiten, um Ihre bestehenden Konvertierungsaktionsnamen innerhalb des Werbenetzwerks zu migrieren, bevor das alte Format nicht mehr unterstützt wird. Während des Migrationszeitraums werden sowohl die Uploads im alten als auch im neuen Format parallel ausgeführt. Modellierung und Optimierung sind nicht betroffen, da die neuen Konversionsaktionen zunächst mit dem Status &quot;sekundär&quot;(nicht optimiert) und mit Daten zum Aufstocken von 90 Tagen angezeigt werden.
 
-Hochladen in [!DNL Google Ads] treten täglich um 6:00 Uhr in der Zeitzone des Werbetreibenden auf. Hochladen in [!DNL Microsoft® Advertising] treten täglich um 9:00 Uhr in der Zeitzone des Werbetreibenden auf.
+Hochladen in [!DNL Google Ads] treten täglich um 6:00 Uhr in der Zeitzone des Werbetreibenden auf. Hochladen in [!DNL Microsoft Advertising] treten täglich um 9:00 Uhr in der Zeitzone des Werbetreibenden auf.
 
 >[!IMPORTANT]
 >

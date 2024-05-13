@@ -1,34 +1,34 @@
 ---
 title: Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten
-description: Erfahren Sie, wie Sie [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten.
+description: Erfahren Sie, wie Sie [!DNL Google Ads] und [!DNL Microsoft Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Verwalten [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich von Zielgruppen mithilfe von Kundendatenlisten
+# Verwalten [!DNL Google Ads] und [!DNL Microsoft Advertising] Kundenabgleich von Zielgruppen mithilfe von Kundendatenlisten
 
-Sie können [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten. Sie können auch jede [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe.
+Sie können [!DNL Google Ads] und [!DNL Microsoft Advertising] Kundenabgleich-Zielgruppen aus Ihren Kundendatenlisten. Sie können auch jede [!DNL Google Ads] oder [!DNL Microsoft Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe.
 
 ## Erstellen einer Zielgruppe für die Kundenabstimmung aus einer Kundendatenliste
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten, die nur für die Kundenübereinstimmung infrage kommen*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten, die nur für die Kundenübereinstimmung infrage kommen*
 
-Sie können eine [!DNL Google Ads] oder [!DNL Microsoft® Advertising] kundendatenbasierte Liste aus einer Datendatei, die Sie aus Ihrem CRM-System (Customer Relationship Management) generieren.
+Sie können eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] kundendatenbasierte Liste aus einer Datendatei, die Sie aus Ihrem CRM-System (Customer Relationship Management) generieren.
 
-Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen enthalten. Für [!DNL Google Ads] -Konten, kann die Datei E-Mail-Adressen, Postanschriften oder Telefonnummern, Benutzer-IDs oder Mobilgeräte-IDs aus Ihrem CRM-System enthalten.
+Für [!DNL Microsoft Advertising] Konten, kann die Datei E-Mail-Adressen enthalten. Für [!DNL Google Ads] -Konten, kann die Datei E-Mail-Adressen, Postanschriften oder Telefonnummern, Benutzer-IDs oder Mobilgeräte-IDs aus Ihrem CRM-System enthalten.
 
 >[!NOTE]
 >
->&quot;Search&quot;, &quot;Social&quot;und &quot;Commerce&quot;speichern keine der Kundendaten, die Sie hochladen, oder die aus dem [!DNL Adobe] Segmente zum Erstellen oder Bearbeiten von [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe.
+>Search, Social und Commerce speichern keine der Kundendaten, die Sie hochladen oder aus der [!DNL Adobe] Segmente zum Erstellen oder Bearbeiten von [!DNL Google Ads] oder [!DNL Microsoft Advertising] Zielgruppe.
 
 1. Erstellen Sie eine Datei mit den Kundendaten im gewünschten Format.
 
-   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft® Advertising] Zielgruppen, siehe [!DNL Microsoft® Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft® Excel] Vorlage für Kontaktinformationen.
+   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft Advertising] Zielgruppen, siehe [!DNL Microsoft Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ Für [!DNL Microsoft® Advertising] Konten, kann die Datei E-Mail-Adressen entha
 
 ## Bearbeiten einer Zielgruppe &quot;Kundenabgleich&quot;mithilfe einer Kundendatenliste
 
-Sie können jede [!DNL Google Ads] oder [!DNL Microsoft® Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe. Sie können Daten hochladen, um alle vorhandenen Daten für die Audience hinzuzufügen, zu löschen oder zu ersetzen.
+Sie können jede [!DNL Google Ads] oder [!DNL Microsoft Advertising] Zielgruppe für Kundenabgleich mit Ausnahme von [!DNL Google Ads] Zielgruppen, die aus einer [!DNL Adobe] Zielgruppe. Sie können Daten hochladen, um alle vorhandenen Daten für die Audience hinzuzufügen, zu löschen oder zu ersetzen.
 
 Die Daten müssen vom ursprünglichen Typ der Kundenliste sein (E-Mail-Adressen, Postanschriften, Telefonnummern, Benutzer-IDs oder Mobilgeräte-IDs für eine bestimmte App unter einem bestimmten mobilen Betriebssystem).
 
 1. Erstellen Sie eine Datei mit den Kundendaten im erforderlichen Format für den vorhandenen Datentyp.
 
-Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft® Advertising] Zielgruppen, siehe [!DNL Microsoft® Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft® Excel] Vorlage für Kontaktinformationen.
+Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Für [!DNL Google Ads] Zielgruppen, siehe [!DNL Google Ads] Dokumentation zu &quot;[Formatierungsrichtlinien für das Hochladen von Hash-Daten](https://support.google.com/google-ads/answer/7476159)&quot; für eine Liste der zulässigen Kontaktdatenfelder und Anforderungen. Für [!DNL Microsoft Advertising] Zielgruppen, siehe [!DNL Microsoft Advertising] Dokumentation zu [Anpassen der Kundenübereinstimmungslisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Sie können optional eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

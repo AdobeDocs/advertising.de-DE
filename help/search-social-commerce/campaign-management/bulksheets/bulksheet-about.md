@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Kampagnendaten mithilfe von Bulksheets
 description: Erfahren Sie mehr über die Bulksheet-Funktionalität, die über das Werbenetzwerk verfügbar ist, den Bulksheet-Workflow und die Fehlerbehandlung.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Alle Bulksheets, Validierungsfehlerdateien für Landingpages und andere Fehlerda
 
 ## Funktionalität nach Anzeigennetzwerk
 
-* **Herunterladen, Hochladen und Posten:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], und [!DNL Yandex] Konten
+* **Herunterladen, Hochladen und Posten:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], und [!DNL Yandex] Konten
 
 * **Nur herunterladen und hochladen:** [!DNL Naver] Konten
 
@@ -48,9 +48,9 @@ Die Standardschritte bei der Verwendung von Bulksheets für synchronisierte Kont
 
 1. Wenn Sie Daten hinzufügen oder Korrekturen vornehmen müssen:
 
-   1. [Datei exportieren](bulksheet-export.md) auf Ihren Desktop klicken und ihn in [!DNL Microsoft® Excel].
+   1. [Datei exportieren](bulksheet-export.md) auf Ihren Desktop klicken und ihn in [!DNL Microsoft Excel].
 
-   1. [Manuelles Hochladen der bearbeiteten Datei](bulksheet-upload.md) nach &quot;Suchen&quot;, &quot;Social&quot;und &quot;Commerce&quot;oder [Datei in ein bestimmtes FTP-Konto hochladen](bulksheet-ftp-account.md) für die automatische Veröffentlichung.
+   1. [Manuelles Hochladen der bearbeiteten Datei](bulksheet-upload.md) nach Search, Social und Commerce oder [Datei in ein bestimmtes FTP-Konto hochladen](bulksheet-ftp-account.md) für die automatische Veröffentlichung.
 
 1. (Für Dateien, die manuell hochgeladen werden) [Posten der Datei](bulksheet-post.md) in das Werbenetzwerk entweder beim Hochladen oder später.
 
@@ -58,7 +58,7 @@ Die Standardschritte bei der Verwendung von Bulksheets für synchronisierte Kont
 
 ## Fehler beim Hochladen und Veröffentlichen von Kampagnendaten beheben
 
-In Search-, Social- und Commerce-Uploads und -Posts können so viele Datenzeilen wie möglich aus einem Kampagnen-Bulk-Sheet abgerufen werden, einschließlich der Tracking-URLs, die bei Bedarf generiert werden.
+In Search, Social und Commerce werden so viele Datenzeilen hochgeladen und veröffentlicht, wie es in einem Kampagnen-Massenblatt möglich ist, einschließlich der Tracking-URLs, die bei Bedarf generiert werden.
 
 Wenn beim Bulksheet-Vorgang Fehler auftreten, wird eine der beiden folgenden Arten von Fehlerdateien generiert:
 

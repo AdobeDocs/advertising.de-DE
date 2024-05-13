@@ -1,20 +1,20 @@
 ---
 title: Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen
-description: Erfahren Sie, wie Sie Zielgruppenziele für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen.
+description: Erfahren Sie, wie Sie Zielgruppenziele für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# Verwalten von Zielgruppenzielen für Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Kampagnen und Anzeigengruppen
+# Verwalten von Zielgruppenzielen für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] only*
 
-[!DNL Google Ads] Kampagnen und Anzeigengruppen und [!DNL Microsoft® Advertising] Anzeigengruppen können bestimmte Zielgruppen aus demselben Werbenetzwerk ansprechen. Das Werbenetzwerk bestimmt, wie groß eine Zielgruppe sein muss, damit sie als Zielgruppe ausgewählt werden kann.
+[!DNL Google Ads] Kampagnen und Anzeigengruppen und [!DNL Microsoft Advertising] Anzeigengruppen können bestimmte Zielgruppen aus demselben Werbenetzwerk ansprechen. Das Werbenetzwerk bestimmt, wie groß eine Zielgruppe sein muss, damit sie als Zielgruppe ausgewählt werden kann.
 
 >[!NOTE]
 >

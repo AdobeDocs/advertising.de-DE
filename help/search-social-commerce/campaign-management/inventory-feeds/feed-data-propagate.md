@@ -1,24 +1,24 @@
 ---
 title: Propagieren von Inventar-Feed-Daten über Vorlagen
 description: Erfahren Sie mehr über das Übertragen von Daten aus Ihren Inventar-Feeds über Anzeigenvorlagen, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Propagieren von Inventar-Feed-Daten über Vorlagen
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
-Nachdem Sie eine Anzeigen-Netzwerk-spezifische Feed-Vorlage erstellt und eine Feed-Datei oder eine [!DNL Google] oder [!DNL Microsoft®] Merchant-Center-Konto mit ihm, können Sie Anzeigen dynamisch erstellen, indem Sie die Feed-Daten über die Vorlage entsprechend der [Feed-Dateneinstellungen](feed-settings-manage.md). Bei der Übertragung werden die Spaltennamen in der Vorlage durch Datenwerte im Feed ersetzt, und die generierten Kampagnen und ihre Komponenten haben die Standardeinstellungen, sofern in der Vorlage nichts anderes angegeben ist. Abhängig von den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen oder ordnet die Anzeigen der bestehenden Kontostruktur zu.
+Nachdem Sie eine Anzeigen-Netzwerk-spezifische Feed-Vorlage erstellt und eine Feed-Datei oder eine [!DNL Google] oder [!DNL Microsoft] Merchant-Center-Konto mit ihm, können Sie Anzeigen dynamisch erstellen, indem Sie die Feed-Daten über die Vorlage entsprechend der [Feed-Dateneinstellungen](feed-settings-manage.md). Bei der Übertragung werden die Spaltennamen in der Vorlage durch Datenwerte im Feed ersetzt, und die generierten Kampagnen und ihre Komponenten haben die Standardeinstellungen, sofern in der Vorlage nichts anderes angegeben ist. Abhängig von den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen oder ordnet die Anzeigen der bestehenden Kontostruktur zu.
 
 Wenn neue Feed-Daten neue Datenwerte für ein Element enthalten oder die Vorlage geändert wurde, werden vorhandene Anzeigen gelöscht und neue erstellt. Wenn die einzige Änderung die Bezeichnung der [!DNL Google Ads] Param 1 und Param 2, werden nur diese Werte aktualisiert. Duplizierte Anzeigen (dieselbe Anzeigenkopie und Landingpage) werden nie erstellt.
 
-Wenn Sie Daten propagieren, können Sie optional die generierten Daten in einer Kampagnen-Hierarchieansicht in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn jede Vermehrungsaktion abgeschlossen ist, wird dem Tab Propagationen eine Zusammenfassung der Propagationen hinzugefügt, die die Anzahl der Entitätstypen angibt, die basierend auf der Vermehrung erstellt, angehalten oder gelöscht wurden. Wenn Sie die Daten nicht sofort posten, können Sie sie in der Vorschau anzeigen und später posten.
+Wenn Sie Daten propagieren, können Sie optional die generierten Daten in einer Kampagnen-Hierarchieansicht in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn jede Vermehrungsaktion abgeschlossen ist, wird dem Tab Propagationen eine Zusammenfassung der Propagationen hinzugefügt, die die Anzahl der Entitätstypen angibt, die je nach Vermehrung erstellt, ausgesetzt oder gelöscht wurden. Wenn Sie die Daten nicht sofort posten, können Sie sie in der Vorschau anzeigen und später posten.
 
 ## Übertragen Sie Feed-Dateien aus der [!UICONTROL Templates] tab
 

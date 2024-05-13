@@ -3,7 +3,7 @@ title: Löschen von Anzeigenerweiterungszuordnungen mit Kampagnen und Anzeigengr
 description: Erfahren Sie, wie Sie die Verknüpfung von Anzeigenerweiterungen mit Kampagnen und Anzeigengruppen aufheben.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Löschen von Anzeigenerweiterungszuordnungen mit Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] only*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] only*
 
 Sie können Zuordnungen auf Kampagnen- und Anzeigengruppenebene mit jeder beliebigen Standort-, Telefon- und Sitelink-Erweiterung löschen.
 

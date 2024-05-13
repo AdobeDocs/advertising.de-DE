@@ -1,18 +1,18 @@
 ---
 title: Erstellen und Hochladen von Assets
-description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] und [!DNL Microsoft® Advertising] Asset-Bibliotheken auf Kontoebene.
+description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Hochladen von Assets
 
-*Für [!DNL Google Ads] und [!DNL Microsoft® Advertising] Nur Konten*
+*Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten*
 
 *Open-Beta-Funktion*
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
                Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-            1. Klicken **[!UICONTROL Proceed]**.
+            1. Klicks **[!UICONTROL Proceed]**.
 
       * Geben Sie für Video-Assets die URL für ein [!DNL YouTube] Video, das mindestens 10 Sekunden dauert. Um ein weiteres Video-Asset hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine andere URL ein.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
         Sie können die Text-Assets später für beliebige Anzeigenelemente Ihrer Wahl verwenden (z. B. Überschriften oder Kurzbeschreibungen), sofern sie die Zeichenbeschränkungen für dieses Anzeigenelement erfüllen.
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
