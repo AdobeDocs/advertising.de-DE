@@ -1,11 +1,11 @@
 ---
 title: Verwalten freigegebener Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Erstellen und verwalten Sie freigegebene Sitelinks auf Kontoebene für alle sync
 
 1. Geben Sie die [freigegebene Sitelink-Einstellungen](#shared-sitelink-settings).
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 Nachdem Sie einen Sitelink erstellt haben, können Sie [Zuweisung zu einem Konto, einer Kampagne oder einer Anzeigengruppe](sitelink-extension-associate.md).
 
@@ -42,7 +42,7 @@ Sie können jeweils einen freigegebenen Sitelink bearbeiten.
 
 1. Bearbeiten Sie die [freigegebene Sitelink-Einstellungen](#shared-sitelink-settings).
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicks **[!UICONTROL Post]**.
 
 ## Löschen freigegebener Sitelinks
 
@@ -58,7 +58,7 @@ Sie können jeweils einen freigegebenen Sitelink bearbeiten.
 
 ## Freigegebene Sitelink-Einstellungen {#shared-sitelink-settings}
 
-Weitere Richtlinien und Gründe für die Ablehnung von Sitelink finden Sie in der [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) und [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) Anforderungen an die Sitelink-Erweiterung.
+Weitere Richtlinien und Gründe für die Ablehnung von Sitelink finden Sie in der [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) und [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) Anforderungen an die Sitelink-Erweiterung.
 
 ### [!UICONTROL Sitelink]
 
@@ -92,11 +92,11 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 >
 >* (Konten mit finalen URLs) Die Basis-URL kann Umleitungen innerhalb der Landingpage-Domäne oder -Subdomäne, aber keine Umleitungen außerhalb der Landingpage-Domäne enthalten. Das Werbenetzwerk extrahiert die Domäne aus dieser URL und fügt optionale Anzeigepfade für die Anzeige hinzu, um die Anzeigen-URL für die Anzeige zu erstellen.
 >* ([!DNL Google Ads]) Jeder Sitelink in einer Kampagne oder Anzeigengruppe muss über eine eindeutige Landingpage verfügen und der Inhalt für jede Sitelink-Landingpage muss ungefähr 80 % eindeutiger Inhalte aufweisen. Sie können beispielsweise keine Sitelinks mit Links zu mehreren Ankern auf derselben Seite haben.
->* ([!DNL Google Ads]) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
+>* ([!DNL Google Ads]) Vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account-Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
 **[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die finale/Landingpage-URL in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
 
-* Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;Automatisches Hochladen&quot;, &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;setzen beim Speichern des Datensatzes automatisch einen eigenen Klick-Tracking-Code voran.
+* Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;Automatisches Hochladen&quot;, &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;fixieren beim Speichern des Datensatzes automatisch ihren eigenen Klick-Tracking-Code.
 
 * Informationen zu unterstützten Parametern zum Einbetten der endgültigen URL finden Sie unter ([!DNL Microsoft Advertising] nur) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder ([!DNL Google Ads] nur) die Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot; [!DNL ValueTrack] Parameter&quot;im [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
@@ -106,11 +106,11 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 
 >[!NOTE]
 >
->* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode vorgibt.
+>* Wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot;&quot;Search, Social und Commerce Präfixiert beim Speichern des Datensatzes automatisch seinen eigenen Umleitungs- und Trackingcode.
 >* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Suchbegriffeinstellungen einen Wert enthalten, wird der Suchbegriffwert angewendet.
 >* ([!DNL Google Ads]) Wenn Sie eine Tracking-Vorlage auf Sitelink- oder Suchbegriffebene aktualisieren, werden die relevanten Anzeigen erneut zur Überprüfung eingereicht. Sie können Ihre Tracking-Vorlagen auf Konto-, Kampagnen- oder Anzeigengruppenebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
 >* ([!DNL Microsoft Advertising]) Sie können Ihre Tracking-Vorlagen auf jeder Ebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
->* Für [!DNL Google Ads]vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
+>* Für [!DNL Google Ads]vermeiden Sie die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die das parallele Tracking ermöglichen. Wenn der Advertiser Makros verwenden muss, sollte das Adobe Account-Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um sie hinzuzufügen.
 
 >[!MORELIKETHIS]
 >
