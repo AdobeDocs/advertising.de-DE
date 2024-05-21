@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 10f86463b1b9f0a5ddf0bb48518eb6bf9bfe7219
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -9,4 +9,4 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:** Das Budget, das ist der Betrag, den Sie täglich ausgeben möchten, im Durchschnitt.
 
-Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits einer Kampagne automatisch angepasst werden, können Sie - je nach Suchbedingungen - in einem beliebigen Zeitraum mehr oder weniger als das angegebene Budget ausgeben.
+Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits einer Kampagne automatisch angepasst werden, können Sie - je nach Suchbedingungen - in einem bestimmten Zeitraum tatsächlich mehr oder weniger als das angegebene Budget ausgeben. Darüber hinaus können manuelle Änderungen am Kampagnenbudget - von Search, Social, &amp; Commerce oder dem Anzeigennetzwerk aus - durch die Optimierungsfunktion überschrieben werden.
