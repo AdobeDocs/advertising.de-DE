@@ -1,24 +1,24 @@
 ---
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
-description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für bestimmte Platzierungsziele erstellen und bearbeiten.
+description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # Verwalten von Angebotsmultiplikatoren für Platzierungen
 
-Mit dieser Funktion können Sie die Angebotsmultiplikatoren für Ihre vorhandenen Platzierungsziele ändern. Sie können die Angebotsmultiplikatoren für jeweils eine Platzierung verwalten.<!-- remove that line once we can edit multiple -->
+Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein Angebot multipliziert wird, um das Angebot zu erhöhen oder zu verringern, und zwar für Ihre vorhandenen Platzierungsziele von [förderfähige Zieltypen](#bid-multiplier-by-target). Sie können entweder Angebotsmultiplikatorwerte manuell bearbeiten oder eine Tabelle mit Werten hochladen.
 
-Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Standardmäßig beträgt der Angebotsmultiplikator für eine Zielgruppe 1,00, was bedeutet, dass das Angebot nicht an diese Zielgruppe angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise reduziert ein Angebotsmodifikator von 0,5 ein Angebot von 6 USD auf 3 USD (0,5 x 6). Wenn eine Auktion für mehrere Angebotsmodifikatoren qualifiziert ist, werden alle anwendbaren Angebotsmodifikatoren multipliziert. Angebotsmodifikatoren erhöhen das Angebot nie auf mehr als das Höchstangebot.
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+Sie können Angebotsmultiplikatoren (mit anderen Werten als 1,00) für eine [begrenzte Anzahl von Zielen](#bid-multiplier-limits-by-target).
+
+Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden
 
 1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Verschieben nach [Zielgruppenspezifischer Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele. Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten, sofern zutreffend.
+1. Passen Sie die Angebotsmultiplikatoren für die geeignete Zielgruppe manuell an oder indem Sie eine CSV-Datei mit Zielwerten hochladen:
 
-   Standardmäßig beträgt der Angebotsmultiplikator für eine Zielgruppe 1,00, was bedeutet, dass das Angebot nicht an diese Zielgruppe angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise reduziert ein Angebotsmodifikator von 0,5 ein Angebot von 6 USD auf 3 USD (0,5 x 6). Angebotsmodifikatoren erhöhen das Angebot nie auf mehr als das Höchstangebot.
+   * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem [Zielgruppenspezifischer Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele. Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten, sofern zutreffend.
 
-   Wenn eine Auktion für mehrere Angebotsmodifikatoren qualifiziert ist, werden alle anwendbaren Angebotsmodifikatoren multipliziert.
+   * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um die vorhandenen Werte zu überschreiben:
 
-   Sie können Angebotsmultiplikatoren (mit anderen Werten als 1,00) für eine [begrenzte Anzahl von Zielen](#bid-multiplier-limits-by-target).
+      1. Klicks **[!UICONTROL CSV File Edit]** oben rechts.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+      1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und geben Sie die Zielgruppen mit derselben Syntax ein, die in der Benutzeroberfläche sichtbar ist, sowie die entsprechenden Angebotsmultiplikatorwerte, oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage mit denselben Informationen. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+
+      1. Klicks **[!UICONTROL Next]** , um zum [!UICONTROL Upload File] und entweder a) ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
+
+      1. Überprüfen Sie die hochgeladenen Daten im [!UICONTROL Review & Submit] und klicken Sie anschließend auf **[!UICONTROL Save]**.
 
 ## Für Angebotsmultiplikatoren geeignete Zieltypen {#bid-multiplier-by-target}
 
