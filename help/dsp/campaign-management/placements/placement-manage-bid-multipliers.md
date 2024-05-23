@@ -3,9 +3,9 @@ title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informatio
 
 1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Passen Sie die Angebotsmultiplikatoren für die geeignete Zielgruppe manuell an oder indem Sie eine CSV-Datei mit Zielwerten hochladen:
+1. Passen Sie die Angebotsmultiplikatoren für die förderfähigen Ziele an:
 
-   * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem [Zielgruppenspezifischer Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele. Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten, sofern zutreffend.
+   * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem [Zielgruppenspezifischer Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele.
+
+     Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten.
 
    * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um die vorhandenen Werte zu überschreiben:
 
