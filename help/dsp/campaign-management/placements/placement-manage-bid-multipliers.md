@@ -3,7 +3,7 @@ title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informatio
 
       1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
-         Heruntergeladene Vorlagen enthalten für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie) eine Tabelle. Es werden nur bestehende Angebotsmultiplikatoren mit anderen Werten als 1.0 einbezogen.
+         Die heruntergeladenen Tabellen enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Es werden nur bestehende Angebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 einbezogen.
 
          * Um einen Angebotsmultiplikator für eine vorhandene Zielgruppe hinzuzufügen, geben Sie die Zielgruppe unter Verwendung der gleichen Syntax ein, die in der Benutzeroberfläche sichtbar ist, und des entsprechenden Angebotsmultiplikatorwerts.
 

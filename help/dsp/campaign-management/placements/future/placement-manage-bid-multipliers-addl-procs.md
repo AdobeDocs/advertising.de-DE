@@ -2,7 +2,7 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: xxx
 feature: DSP Placements
-source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
-         Heruntergeladene Vorlagen enthalten für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie) eine Tabelle. Es werden nur bestehende Angebotsmultiplikatoren mit anderen Werten als 1.0 einbezogen.
+         Die heruntergeladenen Tabellen enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Es werden nur bestehende Angebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 einbezogen.
 
          * Um einen Angebotsmultiplikator für eine vorhandene Zielgruppe hinzuzufügen, geben Sie die Zielgruppe unter Verwendung der gleichen Syntax ein, die in der Benutzeroberfläche sichtbar ist, und des entsprechenden Angebotsmultiplikatorwerts.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
-      Heruntergeladene Vorlagen enthalten für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie) eine Tabelle. Es werden nur bestehende Angebotsmultiplikatoren mit anderen Werten als 1.0 einbezogen.
+      Die heruntergeladenen Tabellen enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Es werden nur bestehende Angebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 einbezogen.
 
       * Um einen Angebotsmultiplikator für eine vorhandene Zielgruppe hinzuzufügen, geben Sie die Zielgruppe unter Verwendung der gleichen Syntax ein, die in der Benutzeroberfläche sichtbar ist, und des entsprechenden Angebotsmultiplikatorwerts.
 
