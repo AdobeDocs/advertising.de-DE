@@ -2,9 +2,9 @@
 title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten.
 
-   * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um die vorhandenen Werte zu überschreiben:
+   * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um alle vorhandenen Werte zu überschreiben:
 
       1. Klicks **[!UICONTROL CSV File Edit]** oben rechts.
 
-      1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und geben Sie die Zielgruppen mit derselben Syntax ein, die in der Benutzeroberfläche sichtbar ist, sowie die entsprechenden Angebotsmultiplikatorwerte, oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage mit denselben Informationen. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+      1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+
+         Heruntergeladene Vorlagen enthalten für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie) eine Tabelle. Es werden nur bestehende Angebotsmultiplikatoren mit anderen Werten als 1.0 einbezogen.
+
+         * Um einen Angebotsmultiplikator für eine vorhandene Zielgruppe hinzuzufügen, geben Sie die Zielgruppe unter Verwendung der gleichen Syntax ein, die in der Benutzeroberfläche sichtbar ist, und des entsprechenden Angebotsmultiplikatorwerts.
+
+         * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Angebotsmultiplikatorwert auf 1,0 oder löschen Sie alle Informationen für die Zeile.
+
+         ![Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren")
 
       1. Klicks **[!UICONTROL Next]** , um zum [!UICONTROL Upload File] und entweder a) ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    Die gleichen Änderungen gelten für alle ausgewählten Platzierungen.
 
-   * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, die die vorhandenen Werte überschreiben:
+* So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um alle vorhandenen Werte zu überschreiben:
 
-     >[!NOTE]
-     >
-     >Wenn Sie ein Feld leer lassen, werden alle Werte für diesen Zieltyp gelöscht.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. Klicks **[!UICONTROL CSV File Edit]** oben rechts.
 
-      1. Klicks **[!UICONTROL CSV Edit]** oben rechts.
+   1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
-      1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Angebotsmultiplikatorwerte oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+      Heruntergeladene Vorlagen enthalten für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie) eine Tabelle. Es werden nur bestehende Angebotsmultiplikatoren mit anderen Werten als 1.0 einbezogen.
 
-      1. a) Ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
+      * Um einen Angebotsmultiplikator für eine vorhandene Zielgruppe hinzuzufügen, geben Sie die Zielgruppe unter Verwendung der gleichen Syntax ein, die in der Benutzeroberfläche sichtbar ist, und des entsprechenden Angebotsmultiplikatorwerts.
+
+      * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Angebotsmultiplikatorwert auf 1,0 oder löschen Sie alle Informationen für die Zeile.
+
+      ![Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren")
+
+   1. Klicks **[!UICONTROL CSV Edit]** oben rechts.
+
+   1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Angebotsmultiplikatorwerte oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+
+   1. a) Ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
 
    1. Klicks **[!UICONTROL Upload]**.
 
