@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
 workflow-type: tm+mt
-source-wordcount: '2775'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 20. Mai 2024 | Connected TV-Anzeigen, Pixel, Retargeting-Segmente | (Offene Beta-Version; nur in den USA und AUS verfügbar) Sie können jetzt Zielgruppensegmente, die einer CTV-Kampagne ausgesetzt sind, mit zusätzlichen Anzeigen erneut ansprechen, um die kanalübergreifende Werbung zu verbessern:<ul><li>Richten Sie ein Anzeigenbelichtungssegment ein und kopieren Sie das Impression-Tracking-Tag in die gewünschte CTV-Platzierung oder Anzeige, um mit dem Tracking für das Segment zu beginnen.</li><li>Wählen Sie in der Retargeting-Platzierung das CTV-Belichtungssegment im [!UICONTROL Audience Targeting] Abschnitt.</li></ul> | Siehe &quot;[Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)&quot; und &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2. Mai 2024 | Anzeigen, Pixel | Sie können die Anzeigeneinstellungen und Platzierungszuordnungen für alle Anzeigen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie im [!UICONTROL Ad Tools] anzeigen. | Siehe &quot;[Überprüfen von Anzeigendetails mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | Die [!UICONTROL Ad Tools] Ansicht > [!UICONTROL Attach Pixels] -Tab zeigt die an Ihre Anzeigen angehängten Tracking-Pixel von Drittanbietern an und bietet einen neuen Workflow zum Anhängen von Pixeln an eine oder mehrere Anzeigen und zum Trennen vorhandener Pixel. | Siehe &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Platzierungen, Zielgruppen | Sie können jetzt einzelne Zielgruppensegmente oder nicht wiederverwendbare Zielgruppen über Tools zur Massenbearbeitung oder den Platzierungs-Editor aus Platzierungen ausschließen. | Siehe &quot;[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot; und &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
