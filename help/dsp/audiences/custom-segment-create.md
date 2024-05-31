@@ -3,9 +3,9 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Webseiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
          1. Kopieren Sie das Tracking-Tag für Seitenansichten mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (Tags für Segmente, die [!DNL ID5] IDs) Ersetzen Sie im kopierten Tag `ID5_PARTNER_ID` mit der Partner-ID, die [!DNL ID5] Ihrer Organisation zugewiesen wurde.
+
+            Wenn Ihre ID5-Partner-ID beispielsweise `abcde` und das generierte Segment-Tag
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            then replace `ID5_PARTNER_ID` mit `abcde` innerhalb des -Tags, um Folgendes zu erhalten:
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5]. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
+
+            Dieser Schritt ist nicht erforderlich, damit Tags verfolgt werden können. [!DNL ID5] IDs für Benutzer, die einer Anzeigeneinheit auf Desktop- oder Mobilgeräten ausgesetzt sind.
+
          1. Stellen Sie das Tag dem Advertiser oder Website-Kontakt zur Bereitstellung bereit.
 
             Möglicherweise muss die IT-Abteilung des Werbetreibenden oder eine andere Gruppe die Tag-Bereitstellung planen oder darüber informiert werden.
@@ -89,21 +103,7 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
          1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (Tags für Segmente, die [!DNL ID5] IDs für Desktop- und mobile Besucher einer Webseite) Ersetzen Sie im kopierten Tag `ID5_PARTNER_ID` mit der Partner-ID, die [!DNL ID5] Ihrer Organisation zugewiesen wurde.
-
-   Wenn Ihre ID5-Partner-ID beispielsweise `abcde` und das generierte Segment-Tag
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   then replace `ID5_PARTNER_ID` mit `abcde` innerhalb des -Tags, um Folgendes zu erhalten:
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5]. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
-
-   Dieser Schritt ist nicht erforderlich, damit Tags verfolgt werden können. [!DNL ID5] IDs für Benutzer, die einer Anzeigeneinheit auf Desktop- oder Mobilgeräten ausgesetzt sind.
-
-1. Fügen Sie das Tag entweder zum [!UICONTROL Pixel] für jede relevante Anzeige oder für die [!UICONTROL Event Pixels] Abschnitt [[!UICONTROL Tracking] Einstellungen für jede relevante Platzierung](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder zum [!UICONTROL Pixel] für jede relevante Anzeige oder für die [!UICONTROL Event Pixels] Abschnitt [[!UICONTROL Tracking] Einstellungen für jede relevante Platzierung](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder Ausschlüssen für jede Platzierung verwenden.
 
