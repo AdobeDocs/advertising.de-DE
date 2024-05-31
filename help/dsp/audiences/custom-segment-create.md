@@ -3,9 +3,9 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Webseiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
 * Für die Messung in Adobe Analytics müssen Sie:
 
-   1. Alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und [AMO-ID und EF-ID in Ihren Tracking-URLs](/help/integrations/analytics/ids.md).
+   1. Alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)und stellen Sie sicher, dass die Variable [AMO-ID und EF ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs aufgefüllt werden.
 
    1. Fügen Sie Ihren Webseiten den folgenden Parameter vor oder innerhalb der [JavaScript-Code erforderlich für [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - an einer beliebigen Stelle, bevor der letzte Ereignisdienst initialisiert wird.
 
