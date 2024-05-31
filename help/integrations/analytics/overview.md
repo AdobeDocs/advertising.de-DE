@@ -3,9 +3,9 @@ title: Übersicht über [!DNL Analytics for Advertising]
 description: Übersicht über [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Primäre Vorteile:
 
 Verwendung [!DNL Analytics] als Reporting-Tool für gebührenpflichtige Medien benötigt Ihr Unternehmen eine Experience Cloud-Anmeldung mit Zugriff auf Analysis Workspace. Ihr Adobe Advertising-Team hilft Ihnen bei der Zuordnung Ihrer Adobe Advertising-Daten zu einzelnen Report Suites in Analysis Workspace. Sie können Adobe Advertising-Daten an eine beliebige Report Suite senden. Beachten Sie jedoch die Report Suites, die Adobe Advertising zugeordnet wurden, und jene, die dies nicht getan haben. Abhängig von der Report Suite kann dies die gemeldeten Daten ändern.
 
-[Adobe Advertising-IDs in [!DNL Analytics]](ids.md) funktioniert wie andere [!DNL eVars], mit einer benutzerdefinierten, beständigen Gültigkeit. Standardmäßig ist das Attributions-Lookback-Fenster während der Adobe Advertising-Implementierung auf 60 Tage eingestellt. Wenden Sie sich an Ihr Adobe-Account-Team, um diese Einstellung zu ändern.
+[Adobe Advertising-IDs in [!DNL Analytics]](ids.md) wie andere [!DNL eVars], mit einer benutzerdefinierten, beständigen Gültigkeit. Standardmäßig ist das Attributions-Lookback-Fenster während der Adobe Advertising-Implementierung auf 60 Tage eingestellt. Wenden Sie sich an Ihr Adobe-Account-Team, um diese Einstellung zu ändern.
 
 Adobe Advertising-Dimensionen werden mit dem Suffix &quot;(AMO-ID)&quot;angehängt (z. B. &quot;Anzeigentyp (AMO-ID)&quot;). Siehe &quot;[Adobe Advertising von Metriken in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; für eine Liste der verfügbaren Dimensionen.
 
@@ -84,7 +84,7 @@ Siehe &quot;[Analytics-Metriken im Adobe Advertising](analytics-data-in-advertis
 
 Adobe Advertising can ingest [!DNL Analytics] Segmente für Remarketing-Zwecke für Advertising DSP und [!DNL Search, Social, & Commerce] Anzeigen, die die native Experience Cloud-Zielgruppenintegration zwischen [!DNL Analytics] und Experience Cloud.
 
-So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto über die [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiviert. Wenn der ID-Dienst aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] und auf Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, Segmente, die in Experience Cloud mithilfe der [!DNL People core service], und Segmente, die in Adobe Experience Platform erstellt und über den Audience Manager an Adobe Advertising gesendet wurden) in Adobe Advertising verfügbar werden, sobald sie verarbeitet werden.
+So greifen Sie auf die [!DNL Analytics] Segmente, muss ein Advertiser-Konto die [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html). Wenn der ID-Dienst aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] und auf Experience Cloud veröffentlicht werden, in Adobe Audience Manager erstellte Segmente, Segmente, die in Experience Cloud mithilfe der [!DNL People core service], und Segmente, die in Adobe Experience Platform erstellt und über den Audience Manager an Adobe Advertising gesendet wurden) in Adobe Advertising verfügbar werden, sobald sie verarbeitet werden.
 
 [!DNL Analytics] -Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 
@@ -135,6 +135,10 @@ Informationen dazu, wie Sie Ihre Adobe Advertising-Daten anhand Ihrer Ziele in A
 ### Verwenden der Adobe Advertising-ID für die Site-Einstiegsanalyse
 
 Wie Sie einen Site-Einstiegsbericht erstellen können, um Wochentage, Tageszeit, Browser und geografische Einflüsse zu überwachen, erfahren Sie im Video .[Erstellen von Adobe Advertising Site-Einstiegsberichten](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+
+## Initiieren eines [!DNL Analytics for Advertising] Implementierung
+
+Wenden Sie sich an Ihr Adobe Account-Team, das die für den Start erforderliche Erstkonfiguration abschließt und Ihnen bei der Planung Ihrer Implementierung und Datennutzung entsprechend den Anforderungen Ihres Unternehmens hilft.
 
 >[!MORELIKETHIS]
 >
