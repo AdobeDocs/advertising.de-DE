@@ -3,7 +3,7 @@ title: Arten von Leistungsberichten in Campaign Management-Ansichten
 description: Erfahren Sie mehr über die Berichtsdaten in den Kampagnenverwaltungsansichten.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Darüber hinaus können Sie die folgenden Daten in den Platzierungseinstellungen
 
 * [A (Detailansicht) [!UICONTROL Inspector])](placement-details-view.md), der alle zielgerichteten Sites, Anzeigen, Frequenzdaten und Angebote für eine Platzierung anzeigt.
 
-* A [Platzierungsvorhersagebericht](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [Platzierungsvorhersagebericht](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Platzierungsdiagnoseberichte](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
