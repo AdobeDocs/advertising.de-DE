@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
 * Vorkonfigurierte Berichtsvorlagen
 
-   * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken zu verstehen, wie z. B. Ausgabenmetriken für die Medienabrechnung nach Kampagne.
+   * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken zu verstehen, wie z. B. Ausgabenmetriken für die Medienabrechnung nach Kampagne. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
    * **[!UICONTROL Geo]**: Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach geografischen Dimensionen anzuzeigen.
 
-   * **[!UICONTROL Margin]:** Verwenden Sie diesen Bericht, um wichtige Metriken wie Marge, Gewinn und andere Ausgabenmetriken nach Kampagne oder Platzierung anzuzeigen.
+   * **[!UICONTROL Margin]:** Verwenden Sie diesen Bericht, um wichtige Metriken wie Marge, Gewinn und andere Ausgabenmetriken nach Kampagne oder Platzierung anzuzeigen. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
    * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach Segment anzuzeigen.
 
@@ -72,9 +72,9 @@ Sie können Berichte einmal generieren oder planen, dass sie in der angegebenen 
 
    * **[!UICONTROL Site]:** Standardmäßig enthält Standardmetriken, die Gesamtnettoausgaben der Medien und die gesamten abrechnungsfähigen Nettoausgaben pro Site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Siehe &quot;[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot; für weitere Informationen.
+   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Siehe &quot;[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot; für weitere Informationen. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
-   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Siehe &quot;[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot; für weitere Informationen.
+   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Siehe &quot;[Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)&quot; für weitere Informationen. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 

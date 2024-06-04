@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
 + Zielgruppen {#audiences}
    + [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
-   + Zielgruppen {#reusable-audiences}
+   + [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
+   + Wiederverwendbare Zielgruppen {#reusable-audiences}
       + [Wiederverwendbare Zielgruppe erstellen](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplizieren einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Eine wiederverwendbare Zielgruppe bearbeiten](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [Anzeigen von Tracking-Pixeln für ein Segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Segment löschen](/help/dsp/audiences/segment-delete.md)
    + Quellen {#sources}
-      + [Informationen zum Aktivieren authentifizierter Segmente aus Zielgruppen-Quellen](/help/dsp/audiences/sources/source-about.md)
+      + [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
       + Workflows nach Kundendatenplattform {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [Workflow für die Verwendung der DSP Integration mit [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [Authentifizierte Segmente von universellen ID-Partnern aktivieren](/help/dsp/audiences/sources/source-universal-id.md)
-         + [Workflow für die Verwendung der DSP Integration mit [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [Erstellen einer Zielgruppenquelle zum Aktivieren von Erstanbieterzielgruppen](/help/dsp/audiences/sources/source-create.md)
+         + [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
+      + [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-create.md)
       + [Einstellungen der Zielgruppenquelle](/help/dsp/audiences/sources/source-settings.md)
+   + [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Verfügbare Drittanbieter von Daten](/help/dsp/audiences/third-party-data-providers.md)
 + Bestand {#inventory}
    + [Übersicht über die Funktionen des Bestands](/help/dsp/inventory/inventory-overview.md)

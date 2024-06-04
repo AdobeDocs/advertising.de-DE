@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 >
 >* Sie können diese Werte auch in den Gebühreneinstellungen des Kontos konfigurieren.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Schreibgeschützt für bestehende Kampagnen, die seit dem 22. Juni 2020 erstellt wurden; nicht verfügbar für Kampagnen, die vor dem 22. Juni 2020 erstellt wurden) Die Ebene, auf der DSP Anzeigen ansprechen und Frequenzobergrenzen anwenden wird: *Gleiches Gerät* , um ein Gerät auszuwählen oder *Personen* , um eine Person auf allen ihren bekannten Geräten anzusprechen.
+**[!UICONTROL Cross Device Level]:** (Schreibgeschützt für bestehende Kampagnen, die seit dem 22. Juni 2020 erstellt wurden; nicht verfügbar für Kampagnen, die vor dem 22. Juni 2020 erstellt wurden) Die Ebene, auf der Anzeigen DSP und Frequenzobergrenzen angewendet werden: *Gleiches Gerät* , um ein Gerät auszuwählen oder *Personen* , um eine Person auf allen ihren bekannten Geräten anzusprechen. **Hinweis:** Geräteübergreifende Unterstützung ist nicht für Platzierungen verfügbar, die universelle IDs ansprechen.
 
 **[!UICONTROL Device Graph]:** (Schreibgeschützt für bestehende Kampagnen; Kampagnen mit benutzerspezifischem geräteübergreifendem Targeting) Das Gerätediagramm zur Verwendung für geräteübergreifendes Targeting und Frequenzmanagement:
 
@@ -86,7 +86,9 @@ So schätzen Sie die einzubehaltenden Steuern:
 
   Diese Option steht auch allen Advertisern ohne Gebühren für Frequenzverwaltung und Attributionsmessung zur Verfügung.
 
-**[!UICONTROL Frequency Cap]:** (Optional) Die Häufigkeit, mit der ein eindeutiges Gerät oder eine eindeutige Person (je nach [!UICONTROL Cross Device Level]) können Anzeigen aus der Kampagne bereitgestellt werden. Optionen umfassen *[!UICONTROL Unlimited]* oder einen bestimmten Betrag pro Tag, Woche oder Monat.
+  Die geräteübergreifende Unterstützung gilt nur für Platzierungen, die auf ältere IDs abzielen, jedoch nicht für Platzierungen, die universelle IDs ansprechen (einschließlich [!DNL LiveRamps]). Targeting, Frequenzverwaltung und Attribution für universelle IDs werden nur auf ID-Ebene angewendet.
+
+**[!UICONTROL Frequency Cap]:** (Optional) Gibt an, wie oft ein eindeutiges Gerät, eine universelle ID oder eine Person (je nach spezifiziertem [!UICONTROL Cross Device Level] und der Platzierung [!UICONTROL Targeting] -Einstellung) können Anzeigen aus der Kampagne bereitgestellt werden. Optionen umfassen *[!UICONTROL Unlimited]* oder einen bestimmten Betrag pro Tag, Woche oder Monat.
 
 >[!NOTE]
 >

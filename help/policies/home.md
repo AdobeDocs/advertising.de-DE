@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Richtlinien und Richtlinien für Advertisin
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 3d495d07a1f030d7c0c3a9752f405cbd73b26b3e
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 23%
+source-wordcount: '46'
+ht-degree: 21%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 23%
 
 Erfahren Sie mehr über Richtlinien und Richtlinien für Advertising DSP und Advertising Search:
 
-* [Richtlinie zu Anzeigenanforderungen](/help/policies/ad-requirements-policy.md)
-* [Richtlinien für zulässige Gesundheitssegmente](/help/policies/health-segment-guidelines.md)
-* [Richtlinien zur Datennutzung DSP](/help/policies/data-usage-guidelines.md)
++ [Richtlinie zu Anzeigenanforderungen](/help/policies/ad-requirements-policy.md)
++ [Richtlinien für universelle ID-Anforderungen](/help/policies/universal-id-policy.md)
++ [Richtlinien für zulässige Gesundheitssegmente](/help/policies/health-segment-guidelines.md)
++ [[!DNL DSP] Richtlinien zur Datennutzung](/help/policies/data-usage-guidelines.md)

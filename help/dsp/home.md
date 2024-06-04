@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e5a927a4a96dc44db01e000feb67aad8b520adc5
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -76,4 +76,3 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 |  | [!UICONTROL Deal IDs] | Die [!UICONTROL Deal ID] Einstellungen und andere Stellen in der Benutzeroberfläche spiegeln das neue Branding für [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) jetzt &quot;[!DNL Magnite CTV].&quot;</li><li>In den kommenden Wochen [!DNL Rubicon]&quot; wird geändert zu &quot;[!DNL Magnite DV+],&quot;wobei [!DNL DV+] steht für Anzeige-, Video- und andere Formate wie Audio.</li></ul> | Siehe &quot;[SSP-Partner](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] programmgesteuerte garantierte Deals | Sie können jetzt Anzeigen senden und den Status von Anzeigen für [!DNL Freewheel] programmgesteuerte garantierte Angebote aus dem [!UICONTROL Ads] anzeigen. Zuvor konnten Sie beide nur über die [!UICONTROL Deals] anzeigen. | Siehe &quot;[Senden Sie eine Anzeige für einen programmgesteuerten garantierten Deal an [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Gesicherte programmatische Vereinbarungen](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7. Oktober 2021 | Hilfe | Alle [DSP und andere Adobe Advertising-Dokumentation](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] ist nun maschinell in alle verfügbaren Sprachen übersetzt. Um die angezeigte Sprache zu ändern, verwenden Sie das Menü &quot;Sprache ändern&quot; unten links auf jeder Seite.<br>![Sprache ändern](/help/dsp/assets/change-language.png) |
-
