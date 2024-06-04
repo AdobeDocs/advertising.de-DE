@@ -3,7 +3,7 @@ title: Verwenden der DSP-Integration mit [!DNL Adobe] [!DNL Real-time CDP]
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 09151885a21e3f62df72d55802db8c2b2a3e4575
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -51,3 +51,7 @@ Segmente werden alle 24 Stunden aktualisiert. Die Aufnahme in ein Segment läuft
 >* [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->

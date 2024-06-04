@@ -3,7 +3,7 @@ title: Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Tealium] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 606e721d80f30fa3a3546a14f0f876f4338dd30c
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Konvertieren von E-Mail-Adressen in [!DNL RampIDs] oder [!DNL ID5] IDs verwenden
 
 1. [Erstellen einer Zielgruppenquelle](source-create.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren. Sie können Ihre Benutzer-IDs beliebig in [Verfügbare universelle ID-Formate](source-about.md).
 
-   Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Daten der Segmentzuordnung vorbereiten.
+   Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Daten für die Segmentzuordnung vorbereiten.
 
 1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL Tealium] Benutzer.
 
@@ -157,3 +157,7 @@ Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-suppo
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
