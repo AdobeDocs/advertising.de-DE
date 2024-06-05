@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* Zeigt Anzeigen im Display-Netzwerk an. Für jede Anzeigengruppe müssen Sie Platzierungen angeben und können optional Suchbegriffe angeben.
 
-* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt Konversionen für Ihre Anzeigen kanalübergreifend an und optimiert sie mithilfe von [!DNL Google Ads] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, zu denen Bilder, Logos, Überschriften, Beschreibungen, optionale Videos und Zielgruppensignale gehören. [!DNL Google Ads] kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen (z. B. [!DNL YouTube], [!DNL Gmail]oder [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Zeigt Konversionen für Ihre Anzeigen kanalübergreifend an und optimiert sie mithilfe von [!DNL Google Ads] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, zu denen Bilder, Logos, Überschriften, Beschreibungen, optionale Videos und Zielgruppensignale gehören. [!DNL Google Ads] kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen (z. B. [!DNL YouTube], [!DNL Gmail]oder [!DNL Search]).
 
   **Hinweise:**
 
