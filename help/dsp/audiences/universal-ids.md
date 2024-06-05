@@ -2,9 +2,10 @@
 title: Unterstützung für die Aktivierung von universellen IDs
 description: Erfahren Sie mehr über die Unterstützung für den Import Ihrer universellen ID-Segmente, die Erstellung benutzerdefinierter Segmente zur Verfolgung universeller IDs und die Konvertierung anderer Benutzer-IDs in Erstanbietersegmente in universelle IDs für das Targeting von Cookies.
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Führen Sie in einer neuen, geplanten oder ausgesetzten Platzierung folgende Sch
 
       1. Wählen Sie den universellen ID-Typ aus, der als Ziel dienen soll.
 
-         Die Einstellung enthält die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID],&quot;die die Unteroptionen &quot;[!UICONTROL ID5], &quot;&quot;[!UICONTROL RampID],&quot; und &quot;[!UICONTROL Unified ID2.0].&quot; Die tatsächlichen Unteroptionen werden durch die ausgewählten geografischen Ziele bestimmt.
+         Die Einstellung enthält die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID],&quot;die die Unteroptionen &quot;[!UICONTROL ID5], &quot;&quot;[!UICONTROL RampID],&quot; und &quot;[!UICONTROL Unified ID2.0].&quot; Die ausgewählten geografischen Ziele bestimmen die verfügbaren Unteroptionen.
 
          Sie können beide[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID],&quot;können Sie jedoch nur einen Typ der universellen ID pro Platzierung auswählen. Wenn Sie sowohl Legacy-IDs als auch universelle IDs auswählen, wird den universellen IDs die Gebotseinstellung vorgezogen.
 
@@ -108,7 +109,7 @@ Es gibt zwei Gründe für die Varianz von Hash-E-Mail-IDs, die in [!DNL RampIDs]
 
 * A [!DNL RampID] kann auf einen neuen Wert aktualisiert werden. Wenn [!DNL LiveRamp] erkennt keine E-Mail-ID oder kann sie nicht einer vorhandenen [!DNL RampID] in der Datenbank, weist sie dann eine neue [!DNL RampID] zur E-Mail-ID hinzu. Zukünftig, wenn sie die E-Mail-ID einer anderen zuordnen können [!DNL RampID] oder weitere Informationen über dieselbe E-Mail-ID erfassen kann, wird die [!DNL RampID] auf einen neuen Wert. [!DNL LiveRamp] bezieht sich auf diese Aktion als Upgrade von einer &quot;abgeleiteten&quot; [!DNL RampID] zu &quot;gepflegt&quot; [!DNL RampID]. DSP erhält jedoch keine Zuordnungen zwischen abgeleiteten und gewarteten [!DNL RampIDs] und kann daher die vorherige Version der RampID nicht aus dem DSP Segment entfernen. In diesem Fall kann die Segmentanzahl größer als die Profilanzahl sein.
 
-  Beispiel: Ein Benutzer meldet sich bei der [!DNL Adobe] und besuchen Sie die Photoshop-Seite. Wenn [!DNL LiveRamp] keine vorhandenen Informationen über die E-Mail-ID hat, weist sie ihr eine abgeleitete [!DNL RampID], beispielsweise D123. Fünfzehn Tage später besucht der Benutzer die gleiche Seite, jedoch [!DNL LiveRamp] hat die [!DNL RampID] während dieser 15 Tage und hat die [!DNL RampID] zu M123. Obwohl das Segment &quot;Photoshop Enthusiast&quot;der Kundendatenplattform nur eine E-Mail-ID für den Benutzer hat, verfügt das DSP-Segment über zwei Ramp-IDs: D123 und M123.
+  Beispiel: Ein Benutzer meldet sich bei der [!DNL Adobe] und die Photoshop-Seite aufrufen. Wenn [!DNL LiveRamp] keine vorhandenen Informationen über die E-Mail-ID hat, weist sie ihr eine abgeleitete [!DNL RampID], beispielsweise D123. Fünfzehn Tage später besucht der Benutzer die gleiche Seite, jedoch [!DNL LiveRamp] hat die [!DNL RampID] während dieser 15 Tage und hat die [!DNL RampID] zu M123. Obwohl das Segment &quot;Photoshop Enthusiast&quot;der Kundendatenplattform nur eine E-Mail-ID für den Benutzer hat, verfügt das DSP-Segment über zwei Ramp-IDs: D123 und M123.
 
 ## Fehlerbehebung
 
