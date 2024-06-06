@@ -2,7 +2,7 @@
 title: "Konvertieren von Benutzer-IDs aus [!DNL ActionIQ] zu universellen IDs"
 description: "Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL ActionIQ] Erstanbietersegmente."
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Es gibt <!-- NN --> Schritte zum Freigeben von Daten aus [!DNL ActionIQ] mit DSP
 
 ## Schritt 1: Erstellen einer Zielgruppenquelle in DSP {#source-create}
 
-1. [Erstellen einer Zielgruppenquelle](source-create.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren, wobei die [universelle ID-Formate](source-about.md) in die Sie Ihre Benutzer-IDs konvertieren möchten.
+1. [Erstellen einer Zielgruppenquelle](source-manage.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren, wobei die [universelle ID-Formate](source-about.md) in die Sie Ihre Benutzer-IDs konvertieren möchten.
 
 1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL ActionIQ] Benutzer.
 
