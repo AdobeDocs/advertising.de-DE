@@ -1,22 +1,20 @@
 ---
 title: Verwalten von Anmeldeinformationen für Ad-Netzwerk-Manager-Konten
 description: Erfahren Sie, wie Sie Anmeldedaten für Ihre [!DNL Google Ads] Manager-Konten.
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # Verwalten von Anmeldeinformationen für Ad-Netzwerk-Manager-Konten
 
-*Beta-Funktion*
-
 *[!DNL Google Ads]Nur Konten*
 
-Geben Sie die Anmeldeinformationen für Ihre [!DNL Google Ads] Manager-Konten, in die Sie kontoübergreifende Konversionen in Search, Social und Commerce hochladen möchten. Verwenden Sie diese Funktion, wenn Sie einen) Upload durchführen möchten. [!DNL Adobe]-verfolgte, kontenübergreifende Konversionsmetriken in eine [!DNL Google Ads] Manager-Konto oder b) Hochladen von Portfoliozielen, die kontoübergreifende Konversionen in [!DNL Google Ads] zur Hybridoptimierung.
+Geben Sie die Anmeldeinformationen für Ihre [!DNL Google Ads] Manager-Konten, in die Sie kontoübergreifende Konversionen von Search, Social und Commerce hochladen möchten. Verwenden Sie diese Funktion, wenn Sie einen) Upload durchführen möchten. [!DNL Adobe]-verfolgte, kontenübergreifende Konversionsmetriken in eine [!DNL Google Ads] Manager-Konto oder b) Hochladen von Portfoliozielen, die kontoübergreifende Konversionen in [!DNL Google Ads] zur Hybridoptimierung.
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 
@@ -36,9 +34,9 @@ Nachdem Sie Anmeldeinformationen für ein Manager-Konto hinzugefügt haben, wird
 
    Sie können optional eine **[!UICONTROL MCC Account Name]** zur Identifizierung in Search, Social &amp; Commerce und dem Konto **[!UICONTROL Password]**. Geben Sie das Kennwort ein, wenn Sie es verschlüsseln möchten, und speichern Sie es, damit der Kundenbetreuer Token nach Bedarf aktualisieren kann.
 
-1. Klicken **[!UICONTROL Authenticate]**.
+1. Klicks **[!UICONTROL Authenticate]**.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 ## So authentifizieren Sie ein vorhandenes Managerkonto erneut
 
@@ -54,9 +52,9 @@ Nachdem Sie Anmeldeinformationen für ein Manager-Konto hinzugefügt haben, wird
 
    Sie können optional eine **[!UICONTROL MCC Account Name]** zur Identifizierung in Search, Social &amp; Commerce und dem Konto **[!UICONTROL Password]**. Geben Sie das Kennwort ein, wenn Sie es verschlüsseln möchten, und speichern Sie es, damit der Kundenbetreuer Token nach Bedarf aktualisieren kann.
 
-1. Klicken **[!UICONTROL Authenticate]**.
+1. Klicks **[!UICONTROL Authenticate]**.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

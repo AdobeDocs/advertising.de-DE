@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Zeigt native/Display-Anzeigen auf der [!DNL Microsoft Audience Network]. Sie können entweder a) automatisch Feed-basierte Anzeigen generieren, indem Sie die Kampagne mit einem Händler-Center-Store im [!UICONTROL Shopping Settings] oder b) erstellen Sie responsive Anzeigen mit Text-Assets und hochgeladenen Bildern. Bei beiden Optionen müssen Sie Anzeigengruppen mit Benutzer-Targeting erstellen.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta-Funktion) Bewerben Sie Ihre Produkte über verknüpfte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen. Verwenden Sie für Einkaufskampagnen für Marken die Angebotsstrategie. [!UICONTROL Manual CPC]; für Shopping-Promotions für Marken, verwenden Sie die Angebotsstrategie. [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* Fördert Ihre Produkte durch verlinkte Einzelhändler in den Such- und Zielgruppen-Netzwerken. Sie können untergeordnete Anzeigengruppen und Produktgruppen (Apps zur Werbung) sowie optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen. Verwenden Sie für Einkaufskampagnen für Marken die Angebotsstrategie. [!UICONTROL Manual CPC]; für Shopping-Promotions für Marken, verwenden Sie die Angebotsstrategie. [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Beta-Funktion) Fördert Ihre Apps und Spiele, die im [!DNL Microsoft Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* Fördert Ihre im Abschnitt verfügbaren Apps und Spiele [!DNL Microsoft Store]. Sie können untergeordnete Anzeigengruppen, Produktgruppen und optionale Produktanzeigen für die Kampagne erstellen. [!DNL Microsoft Advertising] erstellt automatisch Anzeigen für die Produktgruppen.
 
-* *[!UICONTROL Audience CTV Video]:* (Beta-Funktion) Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
+* *[!UICONTROL Audience CTV Video]:* Zeigt verbundene TV-Videoanzeigen (CTV) im Zielgruppennetzwerk an.
 
-* *[!UICONTROL Audience Video]:* (Beta-Funktion) Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
+* *[!UICONTROL Audience Video]:* Zeigt standardmäßige Videoanzeigen im Zielgruppen-Netzwerk an.
 
-* *[!UICONTROL Performance Max]:* (Beta-Funktion) Zeigt mehrere Anzeigentypen in allen Netzwerken an, die [!DNL Microsoft Advertising] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, darunter Bilder, Logos, Überschriften, Beschreibungen, einen optionalen Aktionsaufruf und Zielgruppensignale. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
+* *[!UICONTROL Performance Max]:* Zeigt mehrere Anzeigentypen in allen Netzwerken mithilfe von [!DNL Microsoft Advertising] intelligentes Bidding. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, darunter Bilder, Logos, Überschriften, Beschreibungen, einen optionalen Aktionsaufruf und Zielgruppensignale. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
 
 ## [!UICONTROL Campaign Details]
 
