@@ -3,7 +3,7 @@ title: Anwenden oder Verwerfen einer Empfehlung für Herausgeber
 description: Erfahren Sie, wie Sie eine Empfehlung eines Herausgebers anzeigen, anwenden oder verwerfen.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Anwenden oder Verwerfen einer Empfehlung für Herausgeber
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-*Beta-Funktion für [!DNL Microsoft® Advertising] Konten*
+*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
 Zeigen Sie die empfohlenen Aktionen und eine Erläuterung, warum die Aktionen für eine Herausgeberempfehlung von Vorteil sind. Anschließend können Sie die Empfehlung anwenden, wenn sie an Ihren Geschäftszielen ausgerichtet ist, und eine Empfehlung verwerfen, wenn dies nicht der Fall ist.
 
@@ -26,7 +26,7 @@ Zeigen Sie die empfohlenen Aktionen und eine Erläuterung, warum die Aktionen f�
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-   Für [!DNL Microsoft® Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
+   Für [!DNL Microsoft Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
 
 1. (Optional) Filtern Sie die Empfehlungen nach Kategorie und Typ.
 

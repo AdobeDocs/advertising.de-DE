@@ -3,7 +3,7 @@ title: Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto
 description: Erfahren Sie, wie Sie ein Protokoll der einzelnen Empfehlungen anzeigen, die für eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] -Konto.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Empfehlungen für ein Konto anzeigen
 
-*[!DNL Google Ads]und [!DNL Microsoft® Advertising] Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-*Beta-Funktion für [!DNL Microsoft® Advertising] Konten*
+*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
 Sie können ein Protokoll jeder Empfehlung anzeigen, die für eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] -Konto. Zu den Informationen gehören die Empfehlungskategorie, der Empfehlungstyp, die betroffenen Entitäten, der Benutzer, der die Empfehlung angewendet hat, und der Zeitstempel.
 

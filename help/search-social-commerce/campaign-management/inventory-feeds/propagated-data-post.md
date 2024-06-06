@@ -3,7 +3,7 @@ title: Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwer
 description: Erfahren Sie, wie Sie Daten veröffentlichen, die aus Bestandsdaten-Feeds in Werbenetzwerke generiert wurden.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
 
 Sie können Kampagnendaten, die aus einem Feed generiert wurden, veröffentlichen, während Sie die Daten über die zugehörigen Vorlagen oder als separaten Prozess propagieren. Sobald Sie Daten posten, werden alle vorhandenen propagierten Daten aus der [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], und [!UICONTROL Ads] Listen.
 
