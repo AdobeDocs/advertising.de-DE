@@ -3,9 +3,9 @@ title: Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]
 description: Erfahren Sie mehr über das Aktivieren authentifizierter Zielgruppen durch [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,5 @@ Das Zuordnen und Hochladen von Segmenten für jeden Importauftrag kann bis zu si
 >
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
->* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
