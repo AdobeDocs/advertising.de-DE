@@ -3,9 +3,9 @@ title: Über Erstanbieter-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzer-IDs in Erstanbietersegmenten in universelle IDs für das Targeting von Cookies konvertieren.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Tealium] Ku
 >
 >* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
->* [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](source-create.md)
+>* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)

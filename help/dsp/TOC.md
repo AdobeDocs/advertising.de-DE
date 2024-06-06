@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '902'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 3%
       + Workflows nach Kundendatenplattform {#sources-workflows}
          + [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
-      + [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-create.md)
+      + [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
       + [Einstellungen der Zielgruppenquelle](/help/dsp/audiences/sources/source-settings.md)
    + [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Verfügbare Drittanbieter von Daten](/help/dsp/audiences/third-party-data-providers.md)

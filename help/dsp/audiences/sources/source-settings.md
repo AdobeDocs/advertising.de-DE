@@ -3,9 +3,9 @@ title: Einstellungen der Zielgruppenquelle
 description: Erfahren Sie mehr über die Einstellungen für Zielgruppenquellen.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Für [!DNL RampID] und [!DNL Unified ID2.0]sucht der Anbieter jede E-Mail-Adress
 
 >[!MORELIKETHIS]
 >
->* [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](source-create.md)
+>* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
 >* [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

@@ -3,9 +3,9 @@ title: Unterstützung für die Aktivierung von universellen IDs
 description: Erfahren Sie mehr über die Unterstützung für den Import Ihrer universellen ID-Segmente, die Erstellung benutzerdefinierter Segmente zur Verfolgung universeller IDs und die Konvertierung anderer Benutzer-IDs in Erstanbietersegmente in universelle IDs für das Targeting von Cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Wenn Sie das Problem nicht beheben können, wenden Sie sich an Ihr Adobe-Account
 
 >[!MORELIKETHIS]
 >
->* [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-create.md)
+>* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)

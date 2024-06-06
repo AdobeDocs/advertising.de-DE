@@ -2,9 +2,9 @@
 title: "Konvertieren von Benutzer-IDs aus [!DNL ActionIQ] zu universellen IDs"
 description: "Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL ActionIQ] Erstanbietersegmente."
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Segmente werden alle 24 Stunden aktualisiert.
 >[!MORELIKETHIS]
 >
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
->* [Erstellen einer Zielgruppenquelle zur Aktivierung von universellen ID-Zielgruppen](source-create.md)
+>* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
 >* [Einstellungen der Zielgruppenquelle](source-settings.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
