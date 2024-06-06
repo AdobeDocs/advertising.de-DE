@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 5. Juni 2024 | Praktika | Sie können jetzt mithilfe einer Tabelle Angebotsmultiplikatoren für mehrere Platzierungen gleichzeitig verwalten. | Siehe &quot;[Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
+|  | Zielgruppenquellen | Sie können jetzt die universellen ID-Typen ändern, in die die Quellzielgruppe übersetzt wird, und ein Protokoll der Änderungen anzeigen. | Siehe &quot;[Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22. Mai 2024 | Optimierung, vernetzte TV-Anzeigen | In Paketen mit den Optimierungszielen &quot;Niedrigster CPA&quot;und &quot;Höchster ROAS&quot;verwenden die Leistungsmodelle für verbundene TV-Anzeigen jetzt Daten aus mehreren Touchpoints im Konversionspfad, um schneller und robuster maschinelles Lernen zu erreichen. Vorhandene Pakete werden für die Verwendung der Multi-Touch-Optimierung aktualisiert, und es ist keine Aktion erforderlich. | — |
 | 20. Mai 2024 | Connected TV-Anzeigen, Pixel, Retargeting-Segmente | (Offene Beta-Version; nur in den USA und AUS verfügbar) Sie können nun Zielgruppensegmente, die einer verbundenen TV-Kampagne ausgesetzt sind, mit zusätzlichen Anzeigen erneut ansprechen, um die kanalübergreifende Werbung zu verbessern:<ol><li>Richten Sie ein Anzeigenbelichtungssegment ein und kopieren Sie das Impression-Tracking-Tag in die gewünschte verbundene TV-Platzierung oder Anzeige, um mit dem Tracking für das Segment zu beginnen.</li><li>Wählen Sie in der Retargeting-Platzierung das verbundene TV-Belichtungssegment im [!UICONTROL Audience Targeting] Abschnitt.</li></ol> | Siehe &quot;[Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)&quot; und &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2. Mai 2024 | Anzeigen, Pixel | Sie können die Anzeigeneinstellungen und Platzierungszuordnungen für alle Anzeigen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, um sie im [!UICONTROL Ad Tools] anzeigen. | Siehe &quot;[Überprüfen von Anzeigendetails mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
