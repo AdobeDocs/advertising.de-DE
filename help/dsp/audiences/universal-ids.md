@@ -3,7 +3,7 @@ title: Unterstützung für die Aktivierung von universellen IDs
 description: Erfahren Sie mehr über die Unterstützung für den Import Ihrer universellen ID-Segmente, die Erstellung benutzerdefinierter Segmente zur Verfolgung universeller IDs und die Konvertierung anderer Benutzer-IDs in Erstanbietersegmente in universelle IDs für das Targeting von Cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Wenn keine Benutzerzahlen angezeigt werden oder Ihre Zielgruppengrößen niedrig
 
 * Stellen Sie sicher, dass auf Ihrer Website der korrekte, universelle ID-Partner-spezifische Code implementiert ist, um On-site-Ereignisse und Anzeigenbelichtungen abzugleichen. Arbeiten mit [!DNL LiveRamp] oder [!DNL ID5] nach Bedarf.
 
-* (Für [!DNL RampIDs] und [!DNL UID 2.0] IDs) Stellen Sie sicher, dass Ihre [DSP Datenquelle richtig konfiguriert](/help/dsp/audiences/sources/source-settings.md)und dass die Benutzerzahlen für die generierten Zielgruppensegmente aufgefüllt werden.
+* (Für [!DNL RampIDs] und [!DNL UID 2.0] IDs) Stellen Sie sicher, dass Ihre [DSP Datenquelle richtig konfiguriert](/help/dsp/audiences/sources/source-manage.md#source-settings)und dass die Benutzerzahlen für die generierten Zielgruppensegmente aufgefüllt werden.
 
 * Wenn Ihre Reichweite geringer ist als erwartet, überprüfen Sie, ob die Zielgruppensegmentlogik nicht zu detailliert ist.
 

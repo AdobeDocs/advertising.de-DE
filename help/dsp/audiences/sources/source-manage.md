@@ -3,7 +3,7 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]*.
 
-1. Den Rest eingeben [Quelleinstellungen](source-settings.md).
+1. Den Rest eingeben [Quelleinstellungen](#source-settings).
 
    Eine Kopie der [!UICONTROL Source Key] wird generiert. Du wirst den Wert später benötigen.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Halten Sie den Cursor über die Quellzeile und klicken Sie auf **[!UICONTROL Edit]**.
 
-1. Ändern Sie die [Für die Quelle ausgewählte IDs](source-settings.md).
+1. Ändern Sie die [Für die Quelle ausgewählte IDs](#source-settings).
 
 1. Klicks **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Sie können Details zu Änderungen an einem Audience-Quelldatensatz anzeigen und
 
 1. (Optional) Um das Protokoll in einem größeren Detailbildschirm zu öffnen, halten Sie den Cursor über die Quellzeile und klicken Sie auf **[!UICONTROL View Details]**.
 
-## Einstellungen der Zielgruppenquelle
+## Einstellungen der Zielgruppenquelle {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Gibt an, ob die Segmente für einen einzelnen Advertiser mit Zugriff auf das Konto verfügbar sind (*[!UICONTROL Advertiser]*) oder für alle Advertiser mit Zugriff auf das Konto *[!UICONTROL Account]*.
 
