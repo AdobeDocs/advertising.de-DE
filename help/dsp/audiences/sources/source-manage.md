@@ -3,7 +3,7 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Klicks **[!UICONTROL Add Source]**.
 
-1. Im [!UICONTROL Select a Type] wählen Sie Ihre Kundendatenplattform aus:
+1. Im [!UICONTROL Select a Type] Menü, wählen Sie Ihre [Kundendatenplattform](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [Die [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: Die [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: Die [[!DNL ActionIQ] Kundendatenplattform](source-about.md).
+   * *[!UICONTROL ActionIQ]*: Die [!DNL ActionIQ] Kundendatenplattform.
 
-   * *[!UICONTROL Tealium CDP]*: (Nur konfigurierte Benutzer) Die [[!DNL Tealium] Kundendatenplattform](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (Nur konfigurierte Benutzer) Die [!DNL Tealium] Kundendatenplattform.
 
 1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]*.
 
