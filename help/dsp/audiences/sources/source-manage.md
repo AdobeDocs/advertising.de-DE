@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Erstellen Sie eine Quelle in DSP für jede Erstanbieter-Zielgruppe in Ihrer Kundendatenplattform, die Sie in Segmente mit bestimmten universellen ID-Typen konvertieren möchten. Sie können die Segmente in das DSP Ihrer Organisation oder in ein Advertiser-Konto importieren. Datenentgelte werden auf der Grundlage der ausgewählten universellen ID-Typen angewendet.
-
-Es sind zusätzliche Schritte erforderlich, um die Zielgruppen aus den einzelnen Kundendatenplattformen zu erfassen. Siehe Hinweis am Ende des Verfahrens.
+Erstellen Sie eine Quelle in DSP für jede Erstanbieter-Zielgruppe in Ihrer Kundendatenplattform, die Sie in Segmente mit bestimmten universellen ID-Typen konvertieren möchten. Sie können die Segmente in das DSP Ihrer Organisation oder in ein Advertiser-Konto importieren. Datenentgelte werden auf der Grundlage der ausgewählten universellen ID-Typen angewendet. Nachdem Sie eine Quelle erstellt haben, sind zusätzliche Schritte erforderlich, um die Zielgruppen aus den einzelnen Kundendatenplattformen zu erfassen. Lesen Sie den Hinweis am Ende des Verfahrens, um eine Quelle zu erstellen.
 
 Sie können später die universellen ID-Typen ändern, in die die Quellzielgruppe übersetzt wird, und ein Protokoll der Änderungen anzeigen.
 
