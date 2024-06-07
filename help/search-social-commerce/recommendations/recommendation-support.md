@@ -3,9 +3,9 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
-
-*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
 [!DNL Google Ads] und [!DNL Microsoft Advertising] Empfehlungen und Einblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
 

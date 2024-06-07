@@ -3,9 +3,9 @@ title: Über die [!UICONTROL Asset Library]
 description: Informationen zur Asset-Bibliothek für Ihre Anzeigen-Assets.
 feature: Search Campaign Management
 exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
-source-git-commit: 61eccefe29d38f925a6b0d2fc2de9af73b014c74
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 <!-- Combine with "Create" page into one page once you can do more than just create/upload. Or still combine them and rename this page; you can't really "manage" assets here, just create/upload and see a list of assets you've previously uploaded (including a preview), but not edit existing uploaded assets or anything on the ad network. -->
 
 *Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten*
-
-*Open-Beta-Funktion*
 
 In [!UICONTROL Campaigns] > [!UICONTROL Asset Library], können Sie wiederverwendbare Bilder, Videos und [!DNL Google Ads] Nur Text-Assets und Hochladen in Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene.
 

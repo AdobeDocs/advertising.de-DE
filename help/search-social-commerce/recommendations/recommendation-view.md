@@ -3,9 +3,9 @@ title: Empfehlungen und Leistungseinblicke von Herausgebern anzeigen
 description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Empfehlungen und Leistungseinblicke für Herausgeber anzeigen
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
-
-*Beta-Funktion für [!DNL Microsoft Advertising] Konten*
 
 ## Empfehlungen für Herausgeber anzeigen
 

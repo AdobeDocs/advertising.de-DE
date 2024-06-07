@@ -3,9 +3,9 @@ title: Erstellen und Hochladen von Assets
 description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets erstellen und in Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Erstellen und Hochladen von Assets
 
 *Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten*
-
-*Open-Beta-Funktion*
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
