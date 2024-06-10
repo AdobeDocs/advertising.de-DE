@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Löschen von Bezeichnungsklassifizierungswerten](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Beschriftungsklassifizierungen löschen](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + Verwalten von Anzeigen-Assets {#assets}
-      + [Über die [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Erstellen und Hochladen von Assets](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [Anzeigen und Erstellen von Anzeigen-Assets](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + Best Practices für Suchkampagnen {#best-practices-search}
       + [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Effektive Textanzeigenkopie schreiben](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
