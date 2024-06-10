@@ -3,9 +3,9 @@ title: Informationen zu Empfehlungen und Insights-Unterstützung für Publisher
 description: Erfahren Sie mehr über die Unterstützung für das Anzeigen und Verwalten von Empfehlungen und Einblicken von Herausgebern.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
+source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,6 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 ## Unterstützte Empfehlungstypen für [!DNL Google Ads]
 
-<!--
-
--- Add to "Bidding and budget" section of table
-
-| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
-
-| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
-
-| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
-
--->
-
 | Empfehlungskategorie | Empfehlungstyp | Beschreibung |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (jetzt als &quot;[!DNL Ads and assets]&quot;in [!DNL Google Ads]) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
@@ -74,6 +62,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Empfohlenes Budget für eine Kampagne, die derzeit durch ein Budget begrenzt ist |
 | | [!UICONTROL Enhanced CPC opt in] | Angebot mit [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Empfohlenes Budget für eine Kampagne, deren Budget in Zukunft voraussichtlich begrenzt wird |
+| | [!UICONTROL Forecasting set Target CPA] | Legen Sie einen Target-CPA für Kampagnen fest, die nicht vor einem saisonalen Ereignis stehen, das den Traffic voraussichtlich erhöhen wird. |
 | | [!UICONTROL Forecasting set Target ROAS] | Erhöhung des Budgets vor einem saisonalen Ereignis, das den Traffic voraussichtlich steigern wird, und Änderung der Angebotsstrategie von [!UICONTROL Maximize Conversion Value] nach [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Anpassen des Kampagnenbudgets zur Steigerung des ROI |
 | | [!UICONTROL Maximize clicks opt in] | Ändern Sie die [!UICONTROL Maximize Clicks] Angebotsstrategie |
@@ -81,6 +70,8 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Maximize conversions opt in] | Ändern Sie die [!UICONTROL Maximize Conversions] Angebotsstrategie |
 | | [!UICONTROL Move unused budget] | Verschieben nicht verwendeter Budgets in ein eingeschränktes Budget |
 | | [!UICONTROL Raise Target CPA bid too low] | Erhöhen Sie die [!UICONTROL Target CPA] um einen empfohlenen Betrag zu erhöhen, wenn es zu niedrig ist und nur wenige oder keine Konversionen vorliegen |
+| | [!UICONTROL Set Target CPA] | Festlegen einer Ziel-CPA für Kampagnen ohne eine |
+| | [!UICONTROL Set Target ROAS] | Festlegen einer Ziel-ROAS für Kampagnen ohne eine |
 | | [!UICONTROL Target CPA opt in] | Ändern Sie die [!UICONTROL Target CPA] Angebotsstrategie |
 | | [!UICONTROL Target CPA raising] | Erhöhen Sie die [!UICONTROL Target CPA] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden |
 | | [!UICONTROL Target ROAS lowering] | Reduzieren Sie die [!UICONTROL Target ROAS] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden |
