@@ -3,9 +3,9 @@ title: Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Tealium] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Verwenden Sie die DSP-Integration mit der [!DNL Tealium] Kundendatenplattform , 
 1. [Duplizieren Sie den vorhandenen Connector in [!DNL Tealium] weiterhin Segmente freigeben](#duplicate-connector).
 
 1. [Anzahl der universellen IDs mit der Anzahl der gehashten E-Mail-Adressen vergleichen](#compare-id-count).
-
-Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden alle 24 Stunden aktualisiert.
 
 ## Schritt 1: Tracking einrichten für [!DNL Analytics] messen {#analytics-tracking}
 
@@ -142,7 +140,7 @@ Pro Segment können Sie nur einen Connector und pro Connector ein Segment haben.
 
 ## Schritt 6: Vergleich der Anzahl universeller IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
 
-Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie diese in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen), die das Segment innerhalb von 24 Stunden füllt. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen.
+Nachdem Sie alle Schritte ausgeführt haben, sollten die Segmente in DSP innerhalb von 24 Stunden verfügbar sein. Überprüfen Sie dies in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen), die das Segment innerhalb von 24 Stunden füllt. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen.
 
 Die Übersetzungsrate von Hash-E-Mail-Adressen in universelle IDs sollte über 90 % liegen. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mehr als 90 universelle IDs übersetzt werden. Eine Übersetzungsrate von 90 % oder weniger ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
 

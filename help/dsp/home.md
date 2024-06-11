@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
+source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3035'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 10. Juni 2024 | [!UICONTROL Audiences] | (Beta-Funktion) Sie können jetzt Ihre Erstanbietersegmente aus dem [!DNL Amperity] und [!DNL Optimizely] Kundendatenplattformen zu Segmenten, die aus [[!DNL LiveRamp] [!DNL RampIDs]] oder [!DNL Unified ID 2.0 (UID2.0)] IDs. In den Platzierungseinstellungen für Zielgruppen-Targeting sind die freigegebenen Segmente in der Liste Erstanbietersegmente verfügbar. | Siehe &quot;[Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md), &quot;&quot;[Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md),&quot; und &quot;[Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md).&quot; |
 | 5. Juni 2024 | Praktika | Sie können jetzt mithilfe einer Tabelle Angebotsmultiplikatoren für mehrere Platzierungen gleichzeitig verwalten. | Siehe &quot;[Verwalten von Angebotsmultiplikatoren für Platzierungen](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 |  | Zielgruppenquellen | Sie können jetzt die universellen ID-Typen ändern, in die die Quellzielgruppe übersetzt wird, und ein Protokoll der Änderungen anzeigen. | Siehe &quot;[Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22. Mai 2024 | Optimierung, vernetzte TV-Anzeigen | In Paketen mit den Optimierungszielen &quot;Niedrigster CPA&quot;und &quot;Höchster ROAS&quot;verwenden die Leistungsmodelle für verbundene TV-Anzeigen jetzt Daten aus mehreren Touchpoints im Konversionspfad, um schneller und robuster maschinelles Lernen zu erreichen. Vorhandene Pakete werden für die Verwendung der Multi-Touch-Optimierung aktualisiert, und es ist keine Aktion erforderlich. | — |
