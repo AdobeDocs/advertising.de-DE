@@ -3,9 +3,9 @@ title: Über Erstanbieter-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzer-IDs in Erstanbietersegmenten in universelle IDs für das Targeting von Cookies konvertieren.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ So aktivieren DSP die Erfassung Ihrer [!DNL Adobe] [!DNL Real-time CDP] Erstanbi
 
 ### [!DNL ActionIQ]
 
-Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Action IQ] Kundendatenplattform mit DSP, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Wenden Sie sich für weitere Informationen an Ihr Adobe-Account-Team.
+Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL ActionIQ] Kundendatenplattform mit DSP, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Wenden Sie sich für weitere Informationen an Ihr Adobe-Account-Team.
+
+### [!DNL Amperity]
+
+Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Amperity] Kundendatenplattform mit DSP, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Optimizely] Kundendatenplattform mit DSP, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ Sie können die Erstanbieterdaten Ihrer Organisation über die [!DNL Tealium] Ku
 
 >[!MORELIKETHIS]
 >
->* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
 >* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

@@ -3,9 +3,9 @@ title: Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Tealium] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ Konvertieren von E-Mail-Adressen in [!DNL RampIDs] oder [!DNL ID5] IDs verwenden
 
 ## Schritt 3: Vorbereiten und Freigeben von Segmentzuordnungsdaten {#map-data}
 
-1. Der Advertiser muss Daten zur Segmentzuordnung vorbereiten und freigeben:
+Der Advertiser muss Daten zur Segmentzuordnung vorbereiten und freigeben.
 
-   1. Der Werbetreibende muss die Daten in [!DNL Tealium]:
+1. Der Werbetreibende muss die Daten in [!DNL Tealium]:
 
-      1. Hash der E-Mail-IDs für die Audience des Advertisers mithilfe des SHA-256-Algorithmus.
+   1. Hash der E-Mail-IDs für die Audience des Advertisers mithilfe des SHA-256-Algorithmus.
 
-      1. Ordnen Sie die Spalte mit Hash-E-Mail-IDs dem Attribut des Typs der Besucher-ID zu.
+   1. Ordnen Sie die Spalte mit Hash-E-Mail-IDs dem Attribut des Typs der Besucher-ID zu.
 
-      1. Erstellen Sie die Zielgruppe mit der `Tealium_visitor_id` -Attribut. Wenden Sie die richtige Anreicherung an, um die Audience Trigger. Siehe [[!DNL Tealium] Dokumentation zu Besucherkennungsattributen](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. Erstellen Sie die Zielgruppe mit der `Tealium_visitor_id` -Attribut. Wenden Sie die richtige Anreicherung an, um die Audience Trigger. Siehe [[!DNL Tealium] Dokumentation zu Besucherkennungsattributen](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. Der Werbetreibende muss dem Adobe Account Team Daten zur Segmentzuordnung zur Verfügung stellen, damit die Segmente in DSP erstellt werden können. Verwenden Sie die folgenden Spaltennamen und -werte in einer Datei mit kommagetrennten Werten:
+1. Der Werbetreibende muss dem Adobe Account Team Daten zur Segmentzuordnung zur Verfügung stellen, damit die Segmente in DSP erstellt werden können. Verwenden Sie die folgenden Spaltennamen und -werte in einer Datei mit kommagetrennten Werten:
 
-      * **Externer Segmentschlüssel:** Der externe Segmentschlüssel, den Sie später in den Aktionseinstellungen für den Connector in [!DNL Tealium]. Die empfohlene Benennungskonvention lautet &quot;`<DSP source key>_<Tealium segment name>`,&quot;z. B. &quot;57bf424dc10_ffee-drinkers&quot;. Verwenden Sie für den DSP Quellschlüssel die [!UICONTROL Source Key] aus den Quelleinstellungen der DSP Zielgruppe.
+   * **Externer Segmentschlüssel:** Der externe Segmentschlüssel, den Sie später in den Aktionseinstellungen für den Connector in [!DNL Tealium]. Die empfohlene Benennungskonvention lautet &quot;`<DSP source key>_<Tealium segment name>`,&quot;z. B. &quot;57bf424dc10_ffee-drinkers&quot;. Verwenden Sie für den DSP Quellschlüssel die [!UICONTROL Source Key] aus den Quelleinstellungen der DSP Zielgruppe.
 
-      * **Segmentname:** Der Segmentname.
+   * **Segmentname:** Der Segmentname.
 
-      * **Segmentbeschreibung:** Der Zweck oder die Regel des Segments oder beides.
+   * **Segmentbeschreibung:** Der Zweck oder die Regel des Segments oder beides.
 
-      * **Übergeordnete ID:** Leer lassen
+   * **Übergeordnete ID:** Leer lassen
 
-      * **Video-CPM:** 0
+   * **Video-CPM:** 0
 
-      * **CPM anzeigen:** 0
+   * **CPM anzeigen:** 0
 
-      * **Segmentfenster:** Die Gültigkeitsdauer des Segments.
+   * **Segmentfenster:** Die Gültigkeitsdauer des Segments.
 
 ## Schritt 4: Erstellen von Connectoren in [!DNL Tealium] Freigeben von Segmentdaten {#tealium-connector}
 
@@ -154,9 +154,5 @@ Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-suppo
 >
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

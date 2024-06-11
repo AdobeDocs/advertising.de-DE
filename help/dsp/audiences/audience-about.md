@@ -3,9 +3,9 @@ title: Über Zielgruppen-Management in Advertising DSP
 description: Erfahren Sie mehr über die Funktionen des Zielgruppen-Managements.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
+source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,7 @@ Die übersetzten Segmente können in wiederverwendbare Zielgruppen und in Platzi
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
+>* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
 >* [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

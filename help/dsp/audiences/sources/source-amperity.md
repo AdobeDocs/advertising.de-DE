@@ -1,23 +1,25 @@
 ---
-title: Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
-description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Optimizely] Erstanbietersegmente.
+title: Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs
+description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Amperity] Erstanbietersegmente.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
+# Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs
 
-Verwenden Sie die DSP-Integration mit der [!DNL Optimizely] Kundendatenplattform , um die Erstanbieter-Hash-E-Mail-Adressen Ihrer Organisation in universelle IDs für zielgerichtete Werbung zu konvertieren.
+Verwenden Sie die DSP-Integration mit der [!DNL Amperity] Kundendatenplattform , um die Erstanbieter-Hash-E-Mail-Adressen Ihrer Organisation in universelle IDs für zielgerichtete Werbung zu konvertieren.
 
 1. (Konvertieren von E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Tracking einrichten, um [!DNL Analytics] messen](#analytics-tracking).
 
 1. [Erstellen einer Zielgruppenquelle in DSP](#source-create).
 
-1. [Segmentdaten vorbereiten und pushen](#push-data).
+1. [Vorbereiten und Freigeben von Daten zur Segmentzuordnung](#map-data).
+
+1. [Daten-Push-Benachrichtigung anfordern von [!DNL Amperity] DSP](#push-data).
 
 1. [Anzahl der universellen IDs mit der Anzahl der gehashten E-Mail-Adressen vergleichen](#compare-id-count).
 
@@ -39,27 +41,39 @@ Konvertieren von E-Mail-Adressen in [!DNL RampIDs] oder [!DNL ID5] IDs verwenden
 
    Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, den Sie zum Pushen der Segmentdaten verwenden.
 
-1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL Optimizely] Benutzer.
+1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL Amperity] Benutzer.
 
-## Schritt 3: Segmentdaten vorbereiten und pushen {#push-data}
+## Schritt 3: Vorbereiten und Freigeben von Segmentzuordnungsdaten {#map-data}
 
-Der Werbetreibende muss die Daten mithilfe seiner [!DNL Optimizely] Vertreter.
+Der Advertiser muss Daten zur Segmentzuordnung vorbereiten und freigeben.
 
-1. Within [!DNL Optimizely Data Platform], Hash die E-Mail-IDs für die Audience des Advertisers mithilfe des SHA-256-Algorithmus.
+1. Within [!DNL Amperity], Hash die E-Mail-IDs für die Zielgruppe mithilfe des SHA-256-Algorithmus.
 
-1. Wenden Sie sich an die [!DNL Optimizely] repräsentativ für Anweisungen zum Senden des Segments an DSP. Fügen Sie beim Pushen des Segments die folgenden Informationen ein:
+1. Der Werbetreibende muss dem Adobe Account Team Daten zur Segmentzuordnung zur Verfügung stellen, damit die Segmente in DSP erstellt werden können. Verwenden Sie die folgenden Spaltennamen und -werte in einer Datei mit kommagetrennten Werten:
 
-   * **Quellschlüssel:** Dies ist der in [Schritt 2](#source-create).
+   * **Externer Segmentschlüssel:** Die [!DNL Amperity] Segmentschlüssel, der mit dem Segment verknüpft ist.
 
-   * **Kontocode:** Dies ist der alphanumerische DSP-Kontocode, den Sie in DSP finden unter [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Segmentname:** Der Segmentname.
 
-Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden entsprechend der Konfiguration für den Advertiser aktualisiert. Unabhängig davon, wie häufig das Segment aktualisiert wird, läuft die Aufnahme in ein Segment nach 30 Tagen ab, um die Einhaltung der Datenschutzbestimmungen sicherzustellen. Aktualisieren Sie daher die Zielgruppen, indem Sie sie erneut aus [!DNL Optimizely] alle 30 Tage oder weniger.
+   * **Segmentbeschreibung:** Der Zweck oder die Regel des Segments oder beides.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **Übergeordnete ID:** Leer lassen
 
-## Schritt 4: Vergleich der Anzahl universeller IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
+   * **Video-CPM:** 0
+
+   * **CPM anzeigen:** 0
+
+   * **Segmentfenster:** Die Gültigkeitsdauer des Segments.
+
+## Schritt 4: Daten-Push-Benachrichtigung anfordern von [!DNL Amperity] DSP {#push-data}
+
+1. Nachdem das Segment in DSP zugeordnet wurde, muss der Advertiser mit seiner [!DNL Amperity] repräsentativ sein, um die Segmentdaten an DSP zu verteilen.
+
+1. Der Werbetreibende muss dann mit dem Adobe Account Team bestätigen, dass die Segmentdaten empfangen wurden.
+
+Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden entsprechend der Konfiguration für den Advertiser aktualisiert. Unabhängig davon, wie häufig das Segment aktualisiert wird, läuft die Aufnahme in ein Segment nach 30 Tagen ab, um die Einhaltung der Datenschutzbestimmungen sicherzustellen. Aktualisieren Sie daher die Zielgruppen, indem Sie sie erneut aus [!DNL Amperity] alle 30 Tage oder weniger.
+
+## Schritt 5: Vergleich der Anzahl universeller IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
 
 Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie diese in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen), dass das Segment verfügbar ist und innerhalb von 24 Stunden gefüllt wird. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen.
 

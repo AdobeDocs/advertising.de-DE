@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: Die [!DNL ActionIQ] Kundendatenplattform.
 
+   * *[!UICONTROL Amperity]*: Die [!DNL Amperity] Kundendatenplattform.
+
+   * *[!UICONTROL Optimizely]*: Die [!DNL Optimizely]: Die [!DNL Amperity] Kundendatenplattform.
+
    * *[!UICONTROL Tealium CDP]*: (Nur konfigurierte Benutzer) Die [!DNL Tealium] Kundendatenplattform.
 
 1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie weitere Schritte ausführen. Siehe [Workflow zum Import von Audiences aus [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> und [Workflow zum Import von Audiences aus [!DNL Tealium]](source-tealium.md).
+>Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte ausführen, um Ihre Zielgruppe zu importieren. Siehe [Workflow für [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> die [Workflow für [!DNL Amperity]](source-amperity.md), die [Workflow für [!DNL Optimizely]](source-optimizely.md)und die [Workflow für [!DNL Tealium]](source-tealium.md).
 
 ## Ändern der ID-Typen für eine Zielgruppenquelle
 
@@ -131,6 +135,9 @@ Für [!DNL RampID] und [!DNL Unified ID2.0]sucht der Anbieter jede E-Mail-Adress
 >[!MORELIKETHIS]
 >
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
->* [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
