@@ -3,9 +3,9 @@ title: Best Practices zum Einrichten von Leistungskampagnen
 description: Lernen Sie Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen kennen, darunter Platzierungen, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. das höchstmögliche R
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 
-Sie müssen auch die Erfolgsereignisse bestimmen, die zum Gesamtziel führen, und benutzerdefinierte Ziele entsprechend erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung verwendet werden soll, indem Sie [!DNL Adobe Sensei]. Weitere Informationen zum Erstellen benutzerdefinierter Ziele finden Sie unter [Best Practices zum Erstellen eines benutzerdefinierten Ziels](custom-goal.md#custom-goal-best-practices).
-
-![benutzerdefinierte Ziele](/help/dsp/assets/objective-goals.png)
+Sie müssen auch die Erfolgsereignisse bestimmen, die zum Gesamtziel führen, und benutzerdefinierte Ziele entsprechend erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung verwendet werden soll, indem Sie [!DNL Adobe Sensei]. Weitere Informationen zum Erstellen benutzerdefinierter Ziele, einschließlich Best Practices, finden Sie unter [Benutzerdefinierte Ziele](custom-goal.md).
 
 ## 2. Schritt - Strategie definieren
 
