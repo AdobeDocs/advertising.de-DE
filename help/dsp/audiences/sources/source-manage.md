@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*: Die [!DNL Amperity] Kundendatenplattform.
 
-   * *[!UICONTROL Optimizely]*: Die [!DNL Optimizely]: Die [!DNL Amperity] Kundendatenplattform.
+   * *[!UICONTROL Optimizely]*: Die [!DNL Optimizely] Kundendatenplattform.
 
    * *[!UICONTROL Tealium CDP]*: (Nur konfigurierte Benutzer) Die [!DNL Tealium] Kundendatenplattform.
 
