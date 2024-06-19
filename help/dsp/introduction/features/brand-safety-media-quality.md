@@ -3,9 +3,9 @@ title: Markensicherheit und Medienqualität
 description: Erfahren Sie mehr über Markensicherheit und Medienqualitätsmerkmale.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -116,11 +116,21 @@ Sie können für jeden Advertiser standardmäßige Sichtbarkeitsfilter festlegen
 
 ![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising-Logo](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science-Logo](/help/dsp/assets/ias-logo.png)
 
+### Aufmerksamkeit-Targeting und -Messung
+
+[!DNL Adobe's] Partnerschaft [!DNL Adelaide] bietet Advertisern Unterstützung für die Adelaide-Metrik &quot;[!DNL Attention Units],&quot;die die Medienqualität anhand von Augentracking, Exposition und Ergebnisdaten misst.
+
+[Targeting der Aufmerksamkeit auf Platzierungsebene vor dem Angebot](/help/dsp/campaign-management/placements/placement-settings.md) ermöglicht es Werbetreibenden, bestimmte Aufmerksamkeitsstufen auf eine bessere Kundeninteraktion auszurichten.
+
+Darüber hinaus können Advertiser [Tracking für die Platzierungsebene [!UICONTROL Attention Score] Metrik](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (die gewichtete durchschnittliche Anzahl von [!DNL Attention Units] über Impressionen) für jede Kampagne, um zu verstehen, welche Platzierungs-Taktiken die besten Geschäftsergebnisse liefern.
+
+Für jede einzelne Funktion fallen zusätzliche Gebühren an.
+
 ### Themen-Targeting
 
-DSP Thema-Targeting ermöglicht es Ihnen, mithilfe unserer branchenführenden kontextbezogenen Partner Suchbegrifflisten als Ziel festzulegen oder zu blockieren. [!DNL Comscore] und [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Das Thema-Targeting hilft Ihnen dabei sicherzustellen, dass Ihre Anzeigen immer in einer mit Ihrer Marke abgestimmten Umgebung bereitgestellt werden, unabhängig davon, ob dies das Blockieren schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein höheres Ergebnis gewährleistet.
+DSP Thema-Targeting ermöglicht es Ihnen, mithilfe unserer branchenführenden kontextbezogenen Partner Suchbegrifflisten als Ziel festzulegen oder zu blockieren. [!DNL Comscore] und [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]). Das Thema-Targeting hilft Ihnen dabei sicherzustellen, dass Ihre Anzeigen immer in einer mit Ihrer Marke abgestimmten Umgebung bereitgestellt werden, unabhängig davon, ob dies das Blockieren schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein höheres Ergebnis gewährleistet.
 
-Für das Thema-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit [!DNL Comscore] oder [!DNL Grapeshot] (mithilfe von [!DNL Oracle Data Cloud]). Sobald diese in der Partnerplattform erstellt wurden, können Sie [Segment-ID in der [!UICONTROL Audience Targeting] für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
+Für das Thema-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie [Segment-ID in der [!UICONTROL Audience Targeting] für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
 
 So erstellen Sie benutzerdefinierte Themensegmente:
 

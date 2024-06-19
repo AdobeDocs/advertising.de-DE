@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 #### Zielgruppenüberprüfung
 
-**[!UICONTROL comScore Campaign Ratings]:** (Optional) Aktiviert die Messung und Berichterstellung der Zielgruppenüberprüfung durch [!DNL Comscore validierte Kampagnenbewertungen unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
+**[!UICONTROL comScore Campaign Ratings]:** (Optional) Aktiviert [!DNL Comscore] validiert [!DNL Campaign Ratings] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
 * **[!UICONTROL Target Gender]:** Das Zielgeschlecht: *[!UICONTROL Both]* (Standardeinstellung), *[!UICONTROL Male]* oder *[!UICONTROL Female]*
 
@@ -130,9 +130,9 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 * **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Comscore] -Messimpressionen nur in unterstützten Ländern angezeigt werden.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Aktiviert das Tracking für die Platzierungsebene [!UICONTROL Attention Score] Metrik (die gewichtete durchschnittliche Anzahl von Aufmerksamkeitseinheiten über Impressionen hinweg) aus [!DNL Adelaide]. Metriken sind für alle Platzierungstypen mit Ausnahme von [!DNL Roku] vernetztes Fernsehen, nur VPAID-Pre-Roll und Audio, das kein Podcast ist. DSP fügt automatisch ein JavaScript-Tag an alle zugehörigen kreativen Elemente an und [!DNL Adelaide] erfasst die Belichtungsdaten und sendet sie täglich an DSP. Sie können das Datum verwenden, um Ihre Ausgaben für Platzierungstaktiken mit besseren Aufmerksamkeitsbewertungen manuell zu optimieren.
+**[!UICONTROL Adelaide]:** Aktiviert das Tracking für die Platzierungsebene [!UICONTROL Attention Score] Metrik (die gewichtete durchschnittliche Anzahl der [!DNL Adelaide] &quot;[!DNL Attention Units]&quot;über Impressionen hinweg). Metriken sind für alle Platzierungstypen mit Ausnahme von [!DNL Roku] vernetztes Fernsehen, nur VPAID-Pre-Roll und Audio, das kein Podcast ist. DSP fügt automatisch ein JavaScript-Tag an alle zugehörigen kreativen Elemente an und [!DNL Adelaide] erfasst die Belichtungsdaten und sendet sie täglich an DSP. Sie können das Datum verwenden, um Ihre Ausgaben für Platzierungstaktiken mit besseren Aufmerksamkeitsbewertungen manuell zu optimieren.
 
 Die [!UICONTROL Attention Score] -Feld im [!UICONTROL Metrics] Berichtabschnitt; innerhalb der [!UICONTROL Campaigns], [!UICONTROL Packages], und [!UICONTROL Placements] Ansichten und die [!UICONTROL Sites], [!UICONTROL Ads], und [!UICONTROL Inventory] Registerkarten der [Platzierungsdetails-Ansicht](/help/dsp/campaign-management/reports/placement-details-view.md).
 
