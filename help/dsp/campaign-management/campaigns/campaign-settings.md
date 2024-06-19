@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 #### Zielgruppenüberprüfung
 
-**[!UICONTROL Nielsen]:** (Optional) Aktiviert [!DNL Nielsen] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
-
-* **[!UICONTROL Target Gender]:** Das Zielgeschlecht: *[!UICONTROL Both]* (Standardeinstellung), *[!UICONTROL Male]* oder *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
-
-* **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Nielsen] -Messimpressionen nur in unterstützten Ländern angezeigt werden.
-
-**[!UICONTROL comScore vCE]:** (Optional) Aktiviert [!DNL Comscore validated Campaign Essentials (vCE)] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
+**[!UICONTROL comScore Campaign Ratings]:** (Optional) Aktiviert die Messung und Berichterstellung der Zielgruppenüberprüfung durch [!DNL Comscore validierte Kampagnenbewertungen unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
 * **[!UICONTROL Target Gender]:** Das Zielgeschlecht: *[!UICONTROL Both]* (Standardeinstellung), *[!UICONTROL Male]* oder *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** Die Altersgruppe für die Zielgruppe. Verwenden Sie die linken und rechten Schieberegler, um den Bereich nach Bedarf zu reduzieren.
 
 * **[!UICONTROL Target Country]:** (Optional) Ein Land für die Zielgruppe. [!DNL Comscore] -Messimpressionen nur in unterstützten Ländern angezeigt werden.
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** Aktiviert das Tracking für die Platzierungsebene [!UICONTROL Attention Score] Metrik (die gewichtete durchschnittliche Anzahl von Aufmerksamkeitseinheiten über Impressionen hinweg) aus [!DNL Adelaide]. Metriken sind für alle Platzierungstypen mit Ausnahme von [!DNL Roku] vernetztes Fernsehen, nur VPAID-Pre-Roll und Audio, das kein Podcast ist. DSP fügt automatisch ein JavaScript-Tag an alle zugehörigen kreativen Elemente an und [!DNL Adelaide] erfasst die Belichtungsdaten und sendet sie täglich an DSP. Sie können das Datum verwenden, um Ihre Ausgaben für Platzierungstaktiken mit besseren Aufmerksamkeitsbewertungen manuell zu optimieren.
+
+Die [!UICONTROL Attention Score] -Feld im [!UICONTROL Metrics] Berichtabschnitt; innerhalb der [!UICONTROL Campaigns], [!UICONTROL Packages], und [!UICONTROL Placements] Ansichten und die [!UICONTROL Sites], [!UICONTROL Ads], und [!UICONTROL Inventory] Registerkarten der [Platzierungsdetails-Ansicht](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+Verwenden [!DNL Adelaide] Segmente für die Messung erhalten eine CPM-Gebühr für jede Impression, die von Anzeigen mit [!DNL Adelaide] Tags. Diese Gebühr unterscheidet sich von den Gebühren für [Targeting auf Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 

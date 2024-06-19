@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ So legen Sie das Inventar-Targeting fest:
 
 **[!UICONTROL Traffic type]:** Die Traffic-Typen für die Zielgruppe. Optionen umfassen **[!UICONTROL Websites]** und **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) Die Qualität der Zielseiten. Die Ebenen 1-3 sind alle markensicher und wurden vom DSP-Zuordnungsteam geprüft und genehmigt.
+**[!UICONTROL Site tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*) Die Qualität der Zielseiten. Die Ebenen 1 bis 3 sind alle markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
 
 * *[!UICONTROL Tier 1]:* Premium-Sites und -Anwendungen, die national erkennbar sind.
 
@@ -346,7 +346,7 @@ Wenn Sie sowohl Legacy-IDs als auch universelle IDs auswählen, wird den univers
    * Um ein Intervall manuell auszuwählen, klicken Sie in eine Zelle und ziehen Sie optional, um das Intervall auszuwählen.
 1. Klicks **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Optional; für Advertiser verfügbar, die mit [!DNL Comscore] und [!DNL Grapeshot] Segmente) Spezifische Segmentnamen oder IDs von [!DNL Comscore] und [!DNL Grapeshot] , um als Ziele einzubeziehen. Für diese Funktion können zusätzliche Gebühren anfallen. Wenden Sie sich an Ihr Adobe Account-Team, um diese Funktion zu aktivieren und Themensegmente einzurichten.
+**[!UICONTROL Topic Targeting]:** (Optional; für Advertiser verfügbar, die mit [!DNL Proximic by Comscore] und [!DNL Oracle Data Cloud] Segmente) Spezifische Segmentnamen oder IDs von [!DNL Proximic by Comscore] und [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]), um als Ziele einzuschließen. Für diese Funktion können zusätzliche Gebühren anfallen. Wenden Sie sich an Ihr Adobe Account-Team, um diese Funktion zu aktivieren und Themensegmente einzurichten.
 
 So legen Sie das Thema-Targeting fest:
 
@@ -361,7 +361,7 @@ So legen Sie das Thema-Targeting fest:
 >
 >* Beim Thema-Targeting wird der Bestand begrenzt, für den die Platzierung ein Angebot machen kann. Verwenden Sie daher das Thema-Targeting nur für einen geringen Prozentsatz Ihres Gesamtkaufs.
 >
->* Einrichten eines negativen Targetings innerhalb des Segments auf [!DNL Comscore] oder [!DNL Grapeshot].
+>* Einrichten eines negativen Targetings innerhalb des Segments auf [!DNL Proximic by Comscore] oder [!DNL Oracle Data Cloud].
 
 **[!UICONTROL Device Targeting]:** (Optional) Spezifische Geräteinformationen, einschließlich Gerätetypen, Hersteller, Betriebssysteme, Browser und Konnektivitätstypen, die als Ziele ein- und ausgeschlossen werden sollen. So legen Sie das Geräte-Targeting fest:
 
@@ -435,6 +435,8 @@ Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filterung vor 
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: Zur Priorisierung des Kaufinventars von autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur bei autorisierten Direktverkäufern und Wiederverkäufern einer Domain zu kaufen.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur bei autorisierten Direktverkäufern einer Domain zu kaufen.
+
+**[!UICONTROL Attention Targeting]:** (Display, Video, Mobile und standardmäßige vernetzte TV-Platzierungen) Ziele [!DNL Adelaide] Segmente mit einem bestimmten Aufmerksamkeitsniveau (hoch, mittel oder niedrig), basierend auf der angegebenen Site, dem Format und der Anzeigengröße. Die Segmente werden wöchentlich aktualisiert. **Hinweis:** Verwenden [!DNL Adelaide] Segmente für die Zielgruppenbestimmung erhalten eine CPM-Gebühr für jede mit [!DNL Adelaide] Zielgruppenbestimmung; diese Gebühr ist von den Gebühren für [Aufmerksamkeitsmessung](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressionen berechnet.
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Advertiser, die mit der [!UICONTROL DoubleVerify Authentic Brand Safety] Option) Aktiviert [!DNL DoubleVerify Authentic Brand Safety]: blockiert Impressionen nach dem Angebot mithilfe der benutzerdefinierten Markensicherheitsregeln, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der in den Advertiser-Einstellungen angegebenen Segment-ID in Rechnung.
 
