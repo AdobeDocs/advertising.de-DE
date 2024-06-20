@@ -3,9 +3,9 @@ title: Markensicherheit und Medienqualität
 description: Erfahren Sie mehr über Markensicherheit und Medienqualitätsmerkmale.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Sie können für jeden Advertiser standardmäßige Steuerelemente für kontextbe
 
 ### Blockierung von Vorab-Angebotsbetrug
 
-Nutzen Sie unsere Drittanbieterintegrationen mit [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], und [!DNL Peer39] , um nicht-menschlichen Traffic in Ihren Kampagnen zu blockieren. Diese Integrationen bieten branchenführende Pre-Bid-Blockierungsfunktionen, mit denen Sie den allgemeinen und komplexen ungültigen Traffic (GIVT und SIVT) in Ihren Kampagnen minimieren können.
+Nutzen Sie unsere Drittanbieterintegrationen mit [!DNL DoubleVerify], [!DNL Integral Ad Science], und [!DNL Peer39] , um nicht-menschlichen Traffic in Ihren Kampagnen zu blockieren. Diese Integrationen bieten branchenführende Pre-Bid-Blockierungsfunktionen, mit denen Sie den allgemeinen und komplexen ungültigen Traffic (GIVT und SIVT) in Ihren Kampagnen minimieren können.
 
 Sie können für jeden Advertiser standardmäßige Pre-Bid-Betrug-Sperrkontrollen festlegen<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->und dann optional [Anpassen der Einstellungen für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
 
 Weitere Informationen zur Funktionalität erhalten Sie direkt bei Ihrem bevorzugten Anbieter oder bei Ihrem Adobe-Account-Team.
 
-![Comscore-Logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science-Logo](/help/dsp/assets/ias-logo.png) ![Peer39-Logo](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science-Logo](/help/dsp/assets/ias-logo.png) ![Peer39-Logo](/help/dsp/assets/peer39-logo.png)
 
 ### Vorabanzeige {#pre-bid-viewability}
 

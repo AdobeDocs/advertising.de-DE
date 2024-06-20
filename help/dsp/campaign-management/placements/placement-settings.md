@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ So legen Sie das Thema-Targeting fest:
 >
 >* Beim Thema-Targeting wird der Bestand begrenzt, für den die Platzierung ein Angebot machen kann. Verwenden Sie daher das Thema-Targeting nur für einen geringen Prozentsatz Ihres Gesamtkaufs.
 >
->* Einrichten eines negativen Targetings innerhalb des Segments auf [!DNL Proximic by Comscore] oder [!DNL Oracle Data Cloud].
+>* Einrichten eines negativen Targetings innerhalb des Segments auf [!DNL Proximic by Comscore] oder [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]).
 
 **[!UICONTROL Device Targeting]:** (Optional) Spezifische Geräteinformationen, einschließlich Gerätetypen, Hersteller, Betriebssysteme, Browser und Konnektivitätstypen, die als Ziele ein- und ausgeschlossen werden sollen. So legen Sie das Geräte-Targeting fest:
 
