@@ -3,7 +3,7 @@ title: Über Zielgruppen-Management in Advertising DSP
 description: Erfahren Sie mehr über die Funktionen des Zielgruppen-Managements.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Sie können Ihre Platzierungen auf alle der folgenden Arten von Zielgruppen ausr
 
 * Alle von Ihnen importierten benutzerdefinierten Drittanbieter-Datensegmente.
 
-* (Nur für die USA bestimmte Platzierungen) [Alle Datensegmente von Drittanbietern, die DSP Kunden von über 30 Anbietern zur Verfügung stehen](/help/dsp/audiences/third-party-data-providers.md), einschließlich [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]und vieles mehr.
+* (Nur für die USA bestimmte Platzierungen) [Alle Datensegmente von Drittanbietern, die DSP Kunden von über 30 Anbietern zur Verfügung stehen](/help/dsp/audiences/third-party-data-providers.md), einschließlich [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar]und vieles mehr.
 
   Sie können bestimmte Segmente als Ziel für Benutzer auswählen, die auf Zielgruppendaten basieren (z. B. Benutzer mit bestimmten demografischen Daten, Interessen oder Intents und/oder Verhaltensprofilen). Sie können nach Datenanbieter und Kategorie suchen, nach Segmenten nach Name oder Segment-ID suchen oder die Ergebnisse nach Datenanbieter, Gesamtgröße des Segments, Anzahl der Webbrowser oder Anzahl der Geräte filtern.
 
