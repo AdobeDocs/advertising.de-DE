@@ -3,7 +3,7 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 #### Zielgruppenüberprüfung
 
-**[!UICONTROL comScore Campaign Ratings]:** (Optional) Aktiviert [!DNL Comscore] validiert [!DNL Campaign Ratings] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
+**[!UICONTROL Comscore Campaign Ratings]:** (Optional) Aktiviert [!DNL Comscore] validiert [!DNL Campaign Ratings] Messung und Berichterstellung der Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
 * **[!UICONTROL Target Gender]:** Das Zielgeschlecht: *[!UICONTROL Both]* (Standardeinstellung), *[!UICONTROL Male]* oder *[!UICONTROL Female]*
 
