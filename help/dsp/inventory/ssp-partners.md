@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verf체gbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 417d88b1d21d450e0b77e561ba9547bb41a68a4c
+source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nein | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (fr체her [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (fr체her [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC und EU - 89185975 | Ja | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | Nein | Global | USD | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | Nein | Global | USD | x | x |  | x | x |  | In-Slot-Startseite: 21x21, In-Slot-Hangtime-Mobilvideo: 22x22, In-Slot-Hangtime-Desktop: 24x24, In-Slot-Hoverboard: 25x25, In-Slot-Geschwindigkeit: 26x26, Super Skin: 29x29, Erweiterbare In-Screen-Ecke: 20x20 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Nein | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (fr체her [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (fr체her [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | Ja | Global | USD | x | x | x | x | x |  | x |
