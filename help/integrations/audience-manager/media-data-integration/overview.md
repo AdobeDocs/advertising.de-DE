@@ -3,9 +3,9 @@ title: Übersicht über das Senden von DSP-Exposure-Daten an Adobe Audience Mana
 description: Erfahren Sie, wie Sie mit Audience Manager-Ereignispixel Impressions- und Klickdaten aus Advertising DSP Kampagnen erfassen können.
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP lädt Sie nicht dazu ein, diese Signale an den Audience Manager zu senden. S
 
 ## Tracking der Daten
 
-Die Audience Manager-Impressions- und Klickereignis-Pixel sind Cookie-basiert. Die Pixel erfassen keine Ereignisse, die in Cookie-losen Umgebungen wie mobilen Apps und vernetztem TV (CTV) auftreten.<!-- Verify if this is still correct. -->
+Die Audience Manager-Impressions- und Klickereignis-Pixel sind Cookie-basiert. Die Pixel erfassen keine Ereignisse, die in Cookie-losen Umgebungen wie mobilen Apps auftreten.<!-- Verify if this is still correct. -->
 
 ### Impression-Tracking-Pixel
 
