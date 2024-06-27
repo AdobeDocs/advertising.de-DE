@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 0%
 
 **[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics freigeben kann. Sie beginnt mit `s_kwcid=`.
 
-**Gebotseinheit:** Ein Suchbegriff, Social und Commerce für eine Einheit, auf der Gebote platziert werden. Bei den meisten Kampagnen in den meisten Netzwerken handelt es sich um einen Suchbegriff und dessen Übereinstimmungstyp für eine Such- oder Inhaltskampagne, eine Produktgruppe auf Eintebene (niedrigste Unterteilung) für eine Einkaufskampagne oder ein dynamisches Suchziel für eine dynamische Suchanzeigenkampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dieselbe Produktgruppe oder dasselbe dynamische Suchziel innerhalb mehrerer Anzeigengruppen in einer Kampagne auftritt, werden alle Instanzen als dieselbe Angebotseinheit betrachtet und verfügen daher über dasselbe Angebot.
+**Gebotseinheit:** Ein Suchbegriff, Social und Commerce für eine Einheit, auf der Gebote platziert werden.
+
+* Bei CPC-Kampagnen handelt es sich um einen Suchbegriff und dessen Übereinstimmungstyp für eine Such- oder Inhaltskampagne, eine Produktgruppe auf Einheitsebene (Unterteilung auf der niedrigsten Ebene) für eine Einkaufskampagne oder ein dynamisches Suchziel für eine dynamische Suchanzeigenkampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dieselbe Produktgruppe oder dasselbe dynamische Suchziel innerhalb mehrerer Anzeigengruppen in einer Kampagne auftritt, werden alle Instanzen als dieselbe Angebotseinheit betrachtet und verfügen daher über dasselbe Angebot.
+
+* Für Kampagnen mit [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition]oder [!DNL Target Return on Ad Spend] Ausgabestrategien verwenden, ist jede Kampagne eine Angebotseinheit.
+
+* Für Kampagnen in [!DNL Yahoo! Display Network], die keine Suchbegriffe verwendet, haben alle Anzeigen innerhalb einer Anzeigengruppe dasselbe Angebot und werden als dieselbe Angebotseinheit betrachtet.
 
 **Gebotseinheiten-Einschränkung:** Siehe &quot;Einschränkung&quot;.
 
 ## C-D {#c-d}
 
-**campaign:** Ein Satz von Anzeigengruppen in einem einzelnen Anzeigenkonto, die ein Budget, eine Zeitspanne, ein Targeting und andere Einstellungen gemeinsam haben. **Hinweis:** [!DNL Baidu] hat nicht das Konzept von Kampagnen, aber Search, Social und Commerce erstellt Pseudo-Kampagnen für jeden Satz verwandter Anzeigengruppen in vorhandenen [!DNL Baidu] Konten, die in Search, Social und Commerce synchronisiert werden.
+**campaign:** Ein Satz von Anzeigengruppen in einem einzelnen Anzeigenkonto, die ein Budget, eine Zeitspanne, ein Targeting und andere Einstellungen gemeinsam haben. **Hinweis:** [!DNL Baidu] hat nicht das Kampagnenkonzept, aber Search, Social und Commerce erstellt Pseudo-Kampagnen für jeden Satz verwandter Anzeigengruppen in vorhandenen [!DNL Baidu] Konten, die in Search, Social und Commerce synchronisiert werden.
 
 **Groß-/Kleinschreibung beachten:** Bei einem Feld oder einer Abfrage, bei dem zwischen Groß- und Kleinschreibung unterschieden wird (z. B. C), unterscheidet sich die Groß-/Kleinschreibung von Buchstaben (z. B. c). Beispiel: &quot;Auto&quot;wird als anderer Wert behandelt als &quot;Auto&quot;.
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quot;.
 
-**Optimierungsfunktion:** (Werbetreibende mit Portfolios) Suchbegriff-Bidding-Technologie, Social und Commerce, die die optimale Gebots- und Budgetmanagement-Strategie für ein Portfolio basierend auf seinem Geschäftsziel bestimmt.
+**Optimierungsfunktion:** (Werbetreibende mit Portfolios) Suchmaschinen-, Social- und Commerce-Suchbegriffangebotstechnologie, die die optimale Gebots- und Budgetverwaltungsstrategie für ein Portfolio auf der Grundlage seines Geschäftsziels bestimmt.
 
 **verwaiste Transaktion:** Ein Transaktionsereignis, das keinem bestimmten Suchbegriff oder einer bestimmten Anzeige zugeordnet werden kann.
 

@@ -1,11 +1,11 @@
 ---
 title: Implementierung [!DNL Google Ads] Warenkorb
 description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Google Ads] Einkaufskampagnen.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Sie können Einkaufskampagnen mithilfe von [Inventar-Feed-Vorlagen](/help/search
 
 1. [Erstellen einer Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) innerhalb der Kampagne und legen Sie das Standardangebot für alle Anzeigen fest.
 
-Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
+   Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
 1. Erstellen Sie Produktgruppen für die Anzeigengruppe:
 

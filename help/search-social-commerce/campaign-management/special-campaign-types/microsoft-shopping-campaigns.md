@@ -3,7 +3,7 @@ title: Implementierung [!DNL Microsoft Advertising] Warenkorb
 description: Erfahren Sie mehr über den Workflow zur Einrichtung [!DNL Microsoft Advertising] Einkaufskampagnen.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Sie können Einkaufskampagnen mithilfe von [Inventar-Feed-Vorlagen](/help/search
 
 1. [Erstellen einer Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) innerhalb der Kampagne und legen Sie das Standardangebot für alle Anzeigen fest.
 
-Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
+   Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
 1. Erstellen Sie Produktgruppen für die Anzeigengruppe:
 
@@ -40,7 +40,7 @@ Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
    1. Erstellen [Produktanzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) mit [Werbelinien, die potenziell in jede Shopping-Anzeige eingeschlossen werden sollen](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) innerhalb der Anzeigengruppe.
 
-      Microsoft Advertising generiert dynamisch die Anzeigenkopie und die Landingpage-URL für jede Anzeige.
+      Microsoft Advertising generiert die Anzeigenkopie und die Landingpage-URL für jede Anzeige dynamisch.
 
       >[!NOTE]
       >
