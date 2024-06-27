@@ -1,11 +1,11 @@
 ---
 title: Übersicht über das Senden von DSP-Exposure-Daten an Adobe Audience Manager
-description: Erfahren Sie, wie Sie mit Audience Manager-Ereignispixel Impressions- und Klickdaten aus Advertising DSP Kampagnen erfassen können.
+description: Erfahren Sie, wie Sie mit Audience Manager-Ereignispixel Impressions- und Klickdaten aus Advertising DSP-Kampagnen erfassen können.
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertiser mit nur Adobe Advertising-Adobe Audience Manager-Integration*
 
-Advertising DSP Kunden mit Adobe Audience Manager können Audience Manager-Ereignispixel verwenden, um Daten auf Impressionsebene und Klickdaten aus DSP Kampagnen zu erfassen. Die Ereignispixel senden die Daten als umsetzbare Signale an den Audience Manager. Diese Signale ermöglichen verschiedene DSP Anwendungsfälle, z. B. erweiterte Segmentierung, Frequenzverwaltung, Marketing-Analyse und Reporting-Einblicke.
+Advertising DSP-Kunden mit Adobe Audience Manager können Audience Manager-Ereignispixel verwenden, um Impressionsdaten und Klickdaten aus DSP Kampagnen zu erfassen. Die Ereignispixel senden die Daten als umsetzbare Signale an den Audience Manager. Diese Signale ermöglichen verschiedene DSP Anwendungsfälle, z. B. erweiterte Segmentierung, Frequenzverwaltung, Marketing-Analyse und Reporting-Einblicke.
 
 DSP lädt Sie nicht dazu ein, diese Signale an den Audience Manager zu senden. Sie zahlen jedoch die standardmäßigen Audience Manager-Erfassungskosten basierend auf Server-Aufrufen gemäß Ihrem Audience Manager-Vertrag. Audience Manager entfernt doppelte Ereignisse, die auf zwei verschiedene Arten verfolgt werden, sodass jedes Ereignis nur einmal geladen wird.
 
@@ -36,7 +36,7 @@ DSP lädt Sie nicht dazu ein, diese Signale an den Audience Manager zu senden. S
 
 ## Tracking der Daten
 
-Die Audience Manager-Impressions- und Klickereignis-Pixel sind Cookie-basiert. Die Pixel erfassen keine Ereignisse, die in Cookie-losen Umgebungen wie mobilen Apps auftreten.<!-- Verify if this is still correct. -->
+Die Audience Manager-Impressions- und Klickereignis-Pixel sind Cookie-basiert. Die Pixel erfassen keine Ereignisse, die in Umgebungen ohne Cookies auftreten, z. B. mobile Apps und vernetztes TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Impression-Tracking-Pixel
 
@@ -52,5 +52,5 @@ Audience Manager verfolgt Klicks ähnlich wie Impressionen, allerdings wird das 
 
 >[!MORELIKETHIS]
 >
->* [Erfassen von Klick- und Impressionsdaten aus Advertising DSP Kampagnen](collect.md)
+>* [Erfassen von Klick- und Impressionsdaten aus Advertising DSP-Kampagnen](collect.md)
 >* [Nutzungsszenarios](use-cases.md)
