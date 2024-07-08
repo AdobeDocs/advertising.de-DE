@@ -1,18 +1,18 @@
 ---
-title: Benutzer-IDs von [!DNL Optimizely] in universelle IDs konvertieren
-description: Erfahren Sie, wie Sie DSP die Aufnahme Ihrer [!DNL Optimizely] Erstanbieter-Segmente aktivieren.
+title: Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
+description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Optimizely] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 2c42e8e4b7ca7e0cfaaf7895f067e4ccf7a2a40e
+source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-# Benutzer-IDs von [!DNL Optimizely] in universelle IDs konvertieren
+# Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
 
-*Beta Funktion*
+*Beta-Funktion*
 
 Verwenden Sie die DSP Integration mit der [!DNL Optimizely] Kundendatenplattform, um die Erstanbieter-E-Mail-Adressen Ihres Unternehmens mit Hash in universelle IDs für Zielgruppengerechte Werbung zu konvertieren.
 
@@ -26,15 +26,15 @@ Verwenden Sie die DSP Integration mit der [!DNL Optimizely] Kundendatenplattform
 
 ## Schritt 1: Festlegen Tracking für [!DNL Analytics] die Messung {#analytics-tracking}
 
-*Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
+*Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
 
-Gehen Sie folgendermaßen vor, um E-Mail-Adressen oder [!DNL ID5] IDs zu [!DNL RampIDs] konvertieren:
+Konvertieren von E-Mail-Adressen in [!DNL RampIDs] oder [!DNL ID5] IDs verwenden, müssen Sie Folgendes tun:
 
-1. (Falls Sie dies noch nicht getan haben) Alle Applikationen alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und stellen Sie sicher, dass die AMO-ID und die [EF-ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs ausgefüllt werden.
+1. (Wenn Sie dies noch nicht getan haben) Führen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und stellen Sie sicher, dass die Variable [AMO-ID und EF ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs aufgefüllt werden.
 
-1. Registrieren Sie sich bei der Universal ID-Partner und stellen Sie universellen ID-spezifischen Code auf Ihren Webseiten bereit, um Conversions von den IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Ansicht-Throughs abzugleichen:
+1. Registrieren Sie sich beim universellen ID-Partner und stellen Sie universellen ID-spezifischen Code auf Ihren Webseiten bereit, um Konversionen aus den IDs in Desktop- und mobilen Webbrowsern (aber nicht mobilen Apps) für Durchsichten zuzuordnen:
 
-   * **Für [!DNL RampIDs]:** Sie müssen ein zusätzliches JavaScript Tag auf Ihren Webseiten bereitstellen, um Konversionen von den IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Ansicht-Throughs abzugleichen. Wenden Sie sich an Ihr Adobe Systems Account Team, das Ihnen Anweisungen gibt, wie Sie sich für eine [!DNL LiveRamp] [!DNL LaunchPad] Tag von [!DNL LiveRamp] Authentication Traffic Solutions registrieren können. Die Registrierung ist gratis, Sie müssen jedoch eine Vereinbarung unterzeichnen. Sobald Sie sich registriert haben, generiert Ihr Adobe Systems-Account-Team eine eindeutige Tag für Ihre Organisation, die Sie auf Ihren Webseiten implementieren können.
+   * **Für [!DNL RampIDs]:** Sie müssen auf Ihren Webseiten ein zusätzliches JavaScript-Tag bereitstellen, um Konversionen aus den IDs in Desktop- und mobilen Webbrowsern (aber nicht mobilen Apps) zu ermöglichen, Durchsichten anzuzeigen. Wenden Sie sich an Ihr Adobe Systems Account Team, das Ihnen Anweisungen gibt, wie Sie sich für eine [!DNL LiveRamp] [!DNL LaunchPad] Tag von [!DNL LiveRamp] Authentication Traffic Solutions registrieren können. Die Registrierung ist gratis, Sie müssen jedoch eine Vereinbarung unterzeichnen. Sobald Sie sich registriert haben, generiert Ihr Adobe Systems-Account-Team eine eindeutige Tag für Ihre Organisation, die Sie auf Ihren Webseiten implementieren können.
 
 ## Schritt 2: Erstellen einer Zielgruppe Quelle in DSP {#source-create}
 
@@ -42,15 +42,15 @@ Gehen Sie folgendermaßen vor, um E-Mail-Adressen oder [!DNL ID5] IDs zu [!DNL R
 
    Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Segment Daten übertragen.
 
-1. Nachdem Sie die Zielgruppe Quelle erstellt haben, teilen Sie den Quellcodeschlüssel mit dem [!DNL Optimizely] User.
+1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL Optimizely] Benutzer.
 
-## Schritt 3: Bereiten Sie die Segment Daten vor und übertragen Sie sie {#push-data}
+## Schritt 3: Segmentdaten vorbereiten und pushen {#push-data}
 
-Der Advertiser muss die Daten mit Hilfe seines [!DNL Optimizely] Vertreters aufbereiten und übertragen.
+Der Werbetreibende muss die Daten mithilfe der [!DNL Optimizely Data Platform]. Wenden Sie sich bei Fragen zum Prozess an Ihren [!DNL Optimizely] Vertreter.
 
-1. Innerhalb [!DNL Optimizely Data Platform]von Hash die E-Mail-IDs für die Zielgruppe der Advertiser mithilfe des SHA-256-Algorithmus.
+1. Within [!DNL Optimizely Data Platform], Hash die E-Mail-IDs für die Zielgruppe mithilfe des SHA-256-Algorithmus.
 
-1. Befolgen Sie die Anweisungen [[!DNL Optimizely's] , um das Segment auf DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads) zu verschieben. Geben Sie die folgenden Informationen an, um die Integration zu aktivieren:
+1. Folgen [[!DNL Optimizely's] Anweisungen zum Senden des Segments an DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads). Fügen Sie die folgenden Informationen hinzu, um die Integration zu aktivieren:
 
    * **Quelle Schlüssel:** Dies ist der in [Schritt 2](#source-create) erstellte Quellschlüssel.
 
@@ -60,11 +60,11 @@ Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden 
 
 ## Schritt 4: Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
 
-Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie in Ihrem Zielgruppenbibliothek (das verfügbar ist, wenn Sie eine Zielgruppe in [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierung Einstellungen erstellen oder bearbeiten), ob die Segment verfügbar ist und innerhalb von 24 Stunden aufgefüllt wird. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen E-Mail-Adressen mit Hash.
+Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie in Ihrem Zielgruppenbibliothek (das verfügbar ist, wenn Sie eine Zielgruppe in [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierung Einstellungen erstellen oder bearbeiten), ob die Segment verfügbar ist und innerhalb von 24 Stunden aufgefüllt wird. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen.
 
-Die Übersetzungsrate von E-Mail-Adressen mit Hash in universelle IDs sollte über 90 % liegen. Wenn Sie beispielsweise 100 gehashte E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mehr als 90 universelle IDs übersetzt werden. Eine Übersetzungsrate von 90 % oder weniger ist ein Problem. Weitere Informationen darüber, wie die Anzahl der Segment variieren kann, finden Sie unter &quot;[Ursachen für Daten Abweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;.
+Die Übersetzungsrate von Hash-E-Mail-Adressen in universelle IDs sollte über 90 % liegen. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mehr als 90 universelle IDs übersetzt werden. Eine Übersetzungsrate von 90 % oder weniger ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
 
-Wenn Sie Unterstützung bei der Fehlerbehebung benötigen, wenden Sie sich an das Adobe Systems Account-Team oder `adcloud-support@adobe.com`an .
+Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
