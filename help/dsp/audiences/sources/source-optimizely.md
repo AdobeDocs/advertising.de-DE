@@ -1,77 +1,74 @@
 ---
-title: Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
-description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Optimizely] Erstanbietersegmente.
+title: Benutzer-IDs von [!DNL Optimizely] in universelle IDs konvertieren
+description: Erfahren Sie, wie Sie DSP die Aufnahme Ihrer [!DNL Optimizely] Erstanbieter-Segmente aktivieren.
 feature: DSP Audiences
-source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
+exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
+source-git-commit: 2c42e8e4b7ca7e0cfaaf7895f067e4ccf7a2a40e
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
-# Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
+# Benutzer-IDs von [!DNL Optimizely] in universelle IDs konvertieren
 
-*Beta-Funktion*
+*Beta Funktion*
 
-Verwenden Sie die DSP-Integration mit der [!DNL Optimizely] Kundendatenplattform , um die Erstanbieter-Hash-E-Mail-Adressen Ihrer Organisation in universelle IDs für zielgerichtete Werbung zu konvertieren.
+Verwenden Sie die DSP Integration mit der [!DNL Optimizely] Kundendatenplattform, um die Erstanbieter-E-Mail-Adressen Ihres Unternehmens mit Hash in universelle IDs für Zielgruppengerechte Werbung zu konvertieren.
 
-1. (Konvertieren von E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Tracking einrichten, um [!DNL Analytics] messen](#analytics-tracking).
+1. (Um E-Mail-Adressen konvertieren an [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Festlegen bis zu Tracking, um die Messung](#analytics-tracking) zu ermöglichen [!DNL Analytics] .
 
-1. [Erstellen einer Zielgruppenquelle in DSP](#source-create).
+1. [Erstellen eine Zielgruppe Quelle in DSP](#source-create).
 
-1. [Segmentdaten vorbereiten und pushen](#push-data).
+1. [Bereiten Sie die Segment Daten](#push-data) vor und übertragen Sie sie.
 
-1. [Anzahl der universellen IDs mit der Anzahl der gehashten E-Mail-Adressen vergleichen](#compare-id-count).
+1. [Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der E-Mail-Adressen](#compare-id-count) mit Hash.
 
-## Schritt 1: Tracking einrichten für [!DNL Analytics] messen {#analytics-tracking}
+## Schritt 1: Festlegen Tracking für [!DNL Analytics] die Messung {#analytics-tracking}
 
-*Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
+*Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
 
-Konvertieren von E-Mail-Adressen in [!DNL RampIDs] oder [!DNL ID5] IDs verwenden, müssen Sie Folgendes tun:
+Gehen Sie folgendermaßen vor, um E-Mail-Adressen oder [!DNL ID5] IDs zu [!DNL RampIDs] konvertieren:
 
-1. (Wenn Sie dies noch nicht getan haben) Führen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und stellen Sie sicher, dass die Variable [AMO-ID und EF ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs aufgefüllt werden.
+1. (Falls Sie dies noch nicht getan haben) Alle Applikationen alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und stellen Sie sicher, dass die AMO-ID und die [EF-ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs ausgefüllt werden.
 
-1. Registrieren Sie sich beim universellen ID-Partner und stellen Sie universellen ID-spezifischen Code auf Ihren Webseiten bereit, um Konversionen aus den IDs in Desktop- und mobilen Webbrowsern (aber nicht mobilen Apps) für Durchsichten zuzuordnen:
+1. Registrieren Sie sich bei der Universal ID-Partner und stellen Sie universellen ID-spezifischen Code auf Ihren Webseiten bereit, um Conversions von den IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Ansicht-Throughs abzugleichen:
 
-   * **Für [!DNL RampIDs]:** Sie müssen auf Ihren Webseiten ein zusätzliches JavaScript-Tag bereitstellen, um Konversionen aus den IDs in Desktop- und mobilen Webbrowsern (jedoch nicht mobilen Apps) zu ermöglichen, sodass Durchsichten möglich sind. Wenden Sie sich an Ihr Adobe Account-Team, das Ihnen Anweisungen zur Registrierung für eine [!DNL LiveRamp] [!DNL LaunchPad] Tag aus [!DNL LiveRamp] Authentifizierungs-Traffic-Lösungen. Die Registrierung ist kostenlos, Sie müssen jedoch eine Vereinbarung unterzeichnen. Nachdem Sie sich registriert haben, generiert Ihr Adobe Account-Team ein eindeutiges Tag, das Ihr Unternehmen für die Implementierung auf Ihren Webseiten bereitstellen kann.
+   * **Für [!DNL RampIDs]:** Sie müssen ein zusätzliches JavaScript Tag auf Ihren Webseiten bereitstellen, um Konversionen von den IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Ansicht-Throughs abzugleichen. Wenden Sie sich an Ihr Adobe Systems Account Team, das Ihnen Anweisungen gibt, wie Sie sich für eine [!DNL LiveRamp] [!DNL LaunchPad] Tag von [!DNL LiveRamp] Authentication Traffic Solutions registrieren können. Die Registrierung ist gratis, Sie müssen jedoch eine Vereinbarung unterzeichnen. Sobald Sie sich registriert haben, generiert Ihr Adobe Systems-Account-Team eine eindeutige Tag für Ihre Organisation, die Sie auf Ihren Webseiten implementieren können.
 
-## Schritt 2: Erstellen einer Zielgruppenquelle in DSP {#source-create}
+## Schritt 2: Erstellen einer Zielgruppe Quelle in DSP {#source-create}
 
-1. [Erstellen einer Zielgruppenquelle](source-manage.md) , um Zielgruppen in Ihr DSP- oder Advertiser-Konto zu importieren. Sie können Ihre Benutzer-IDs beliebig in [Verfügbare universelle ID-Formate](source-about.md).
+1. [Erstellen eine Zielgruppe Quelle](source-manage.md) , um Zielgruppen in Ihre DSP Konto oder ein Advertiser Konto zu importieren. Sie können Ihre User-IDs in einem der [verfügbaren universellen ID-Formate](source-about.md) konvertieren.
 
-   Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, den Sie zum Pushen der Segmentdaten verwenden.
+   Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Segment Daten übertragen.
 
-1. Geben Sie nach dem Erstellen der Zielgruppenquelle den Quellcode-Schlüssel für die [!DNL Optimizely] Benutzer.
+1. Nachdem Sie die Zielgruppe Quelle erstellt haben, teilen Sie den Quellcodeschlüssel mit dem [!DNL Optimizely] User.
 
-## Schritt 3: Segmentdaten vorbereiten und pushen {#push-data}
+## Schritt 3: Bereiten Sie die Segment Daten vor und übertragen Sie sie {#push-data}
 
-Der Werbetreibende muss die Daten mithilfe seiner [!DNL Optimizely] Vertreter.
+Der Advertiser muss die Daten mit Hilfe seines [!DNL Optimizely] Vertreters aufbereiten und übertragen.
 
-1. Within [!DNL Optimizely Data Platform], Hash die E-Mail-IDs für die Audience des Advertisers mithilfe des SHA-256-Algorithmus.
+1. Innerhalb [!DNL Optimizely Data Platform]von Hash die E-Mail-IDs für die Zielgruppe der Advertiser mithilfe des SHA-256-Algorithmus.
 
-1. Wenden Sie sich an die [!DNL Optimizely] repräsentativ für Anweisungen zum Senden des Segments an DSP. Fügen Sie beim Pushen des Segments die folgenden Informationen ein:
+1. Befolgen Sie die Anweisungen [[!DNL Optimizely's] , um das Segment auf DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads) zu verschieben. Geben Sie die folgenden Informationen an, um die Integration zu aktivieren:
 
-   * **Quellschlüssel:** Dies ist der in [Schritt 2](#source-create).
+   * **Quelle Schlüssel:** Dies ist der in [Schritt 2](#source-create) erstellte Quellschlüssel.
 
-   * **Kontocode:** Dies ist der alphanumerische DSP-Kontocode, den Sie in DSP finden unter [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Konto Symbol:** Dies ist das alphanumerische DSP Konto Symbol, das Sie unter DSP unter [!UICONTROL Settings] > [!UICONTROL Account]finden.
 
-Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden entsprechend der Konfiguration für den Advertiser aktualisiert. Unabhängig davon, wie häufig das Segment aktualisiert wird, läuft die Aufnahme in ein Segment standardmäßig nach 30 Tagen oder nach einem kundenspezifischen Ablaufzeitraum ab. Aktualisieren Sie Ihre Segmente, indem Sie sie erneut aus [!DNL Optimizely] vor Ablauf. Wenden Sie sich an Ihr Adobe-Account-Team, um einen benutzerdefinierten Segmentablauf anzufordern.
+Die Segmente sollten innerhalb von 24 Stunden in DSP verfügbar sein und werden entsprechend der Konfiguration für die Advertiser aktualisiert. Unabhängig davon, wie häufig die Segment aktualisiert wird, läuft die Aufnahme in eine Segment standardmäßig nach 30 Tagen oder nach einem vom Kunden angegebenen Gültigkeit Zeitraum ab. Aktualisieren Ihre Segmente, indem Sie sie vor [!DNL Optimizely] der Gültigkeit erneut verschieben. Wenden Sie sich an Ihr Adobe Systems Account-Team, um eine benutzerdefinierte Segment Gültigkeit zu Anfrage.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+## Schritt 4: Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
 
-## Schritt 4: Vergleich der Anzahl universeller IDs mit der Anzahl der gehashten E-Mail-Adressen {#compare-id-count}
+Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie in Ihrem Zielgruppenbibliothek (das verfügbar ist, wenn Sie eine Zielgruppe in [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierung Einstellungen erstellen oder bearbeiten), ob die Segment verfügbar ist und innerhalb von 24 Stunden aufgefüllt wird. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen E-Mail-Adressen mit Hash.
 
-Nachdem Sie alle Schritte ausgeführt haben, überprüfen Sie diese in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen), dass das Segment verfügbar ist und innerhalb von 24 Stunden gefüllt wird. Vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen.
+Die Übersetzungsrate von E-Mail-Adressen mit Hash in universelle IDs sollte über 90 % liegen. Wenn Sie beispielsweise 100 gehashte E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mehr als 90 universelle IDs übersetzt werden. Eine Übersetzungsrate von 90 % oder weniger ist ein Problem. Weitere Informationen darüber, wie die Anzahl der Segment variieren kann, finden Sie unter &quot;[Ursachen für Daten Abweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;.
 
-Die Übersetzungsrate von Hash-E-Mail-Adressen in universelle IDs sollte über 90 % liegen. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mehr als 90 universelle IDs übersetzt werden. Eine Übersetzungsrate von 90 % oder weniger ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
-
-Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-support@adobe.com`.
+Wenn Sie Unterstützung bei der Fehlerbehebung benötigen, wenden Sie sich an das Adobe Systems Account-Team oder `adcloud-support@adobe.com`an .
 
 >[!MORELIKETHIS]
 >
->* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
->* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](source-manage.md)
->* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
->* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
+>* [Informationen zu Erstanbieter-Audience Quellen](/help/dsp/audiences/sources/source-about.md)
+>* [Audience Quellen verwalten, um universelle ID-Audiences zu aktivieren](source-manage.md)
+>* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
+>* [Über Audience Management](/help/dsp/audiences/audience-about.md)
