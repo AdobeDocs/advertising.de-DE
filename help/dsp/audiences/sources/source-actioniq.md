@@ -2,9 +2,9 @@
 title: "Konvertieren von Benutzer-IDs aus [!DNL ActionIQ] zu universellen IDs"
 description: "Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL ActionIQ] Erstanbietersegmente."
 feature: DSP Audiences
-source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Es gibt <!-- NN --> Schritte zum Freigeben von Daten aus [!DNL ActionIQ] mit DSP
 
    Die Segmente sollten in DSP innerhalb von 24 Stunden verfügbar sein. Nachdem DSP die Segmentdaten erhalten hat, sollte die Zielgruppenanzahl innerhalb von neun (9) Stunden sichtbar sein.
 
-   Die Übersetzungsrate von Hash-E-Mail-Adressen auf universelle IDs sollte über 90 % liegen. Die Übersetzungsrate für [!DNL RampIDs] sollte insbesondere 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 übersetzt werden. [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs. Eine niedrigere Übersetzungsrate ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
+   Informationen zu akzeptablen ID-Übersetzungsraten und dazu, warum die Segmentzählungen variieren können, finden Sie unter &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
 
    Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-support@adobe.com`.
 

@@ -3,9 +3,9 @@ title: Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Amperity] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Die Segmente werden entsprechend der Konfiguration für den Advertiser in [!DNL 
 
 Nachdem DSP die Segmentdaten erhalten hat, sollte die Zielgruppenanzahl innerhalb von neun (9) Stunden sichtbar sein. In Ihrer Zielgruppenbibliothek (verfügbar, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen) die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen vergleichen.
 
-Die Übersetzungsrate von Hash-E-Mail-Adressen auf universelle IDs sollte über 90 % liegen. Die Übersetzungsrate für [!DNL RampIDs] sollte insbesondere 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 übersetzt werden. [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs. Eine niedrigere Übersetzungsrate ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
+Informationen zu akzeptablen ID-Übersetzungsraten und dazu, warum die Segmentzählungen variieren können, finden Sie unter &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
 
 Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-support@adobe.com`.
 

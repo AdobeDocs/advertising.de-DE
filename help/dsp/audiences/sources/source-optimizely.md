@@ -3,9 +3,9 @@ title: Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs
 description: Erfahren Sie, wie Sie DSP zur Aufnahme Ihrer [!DNL Optimizely] Erstanbietersegmente.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Die Segmente sollten in DSP innerhalb von 24 Stunden verfügbar sein. Nachdem DS
 
 Überprüfen Sie dies in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe aus [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in Platzierungseinstellungen), dass das Segment verfügbar ist und ausgefüllt wird, und die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Hash-E-Mail-Adressen vergleichen.
 
-Die Übersetzungsrate von Hash-E-Mail-Adressen auf universelle IDs sollte über 90 % liegen. Die Übersetzungsrate für [!DNL RampIDs] sollte insbesondere 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 übersetzt werden. [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs. Eine niedrigere Übersetzungsrate ist ein Problem. Weitere Informationen dazu, wie die Segmentzählungen variieren können, finden Sie unter[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
+Informationen zu akzeptablen ID-Übersetzungsraten und dazu, warum die Segmentzählungen variieren können, finden Sie unter &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).&quot;
 
 Wenden Sie sich zur Fehlerbehebung an Ihr Adobe-Account-Team oder `adcloud-support@adobe.com`.
 

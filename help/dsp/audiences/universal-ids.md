@@ -3,9 +3,9 @@ title: Unterstützung für die Aktivierung von universellen IDs
 description: Erfahren Sie mehr über die Unterstützung für den Import Ihrer universellen ID-Segmente, die Erstellung benutzerdefinierter Segmente zur Verfolgung universeller IDs und die Konvertierung anderer Benutzer-IDs in Erstanbietersegmente in universelle IDs für das Targeting von Cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID]-basierte Segmente 
 
 * Ungefähr 24 Stunden nach der Aktivierung eines Segments überprüfen Sie die konvertierte ID-Anzahl für das Segment in [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Wenn die ID-Anzahl unerwartet ist, wenden Sie sich an Ihr Adobe-Account-Team.
 
-  Siehe &quot;[Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;, um weitere Informationen darüber zu erhalten, wie die Segmentzahlen variieren können.
+  Siehe &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;, um weitere Informationen darüber zu erhalten, wie die Segmentzahlen variieren können.
 
 * Ändern Sie Ihre vorhandenen Pakete und Platzierungen nicht. Wenn Sie jedoch über kein inkrementelles Budget zum Testen universeller IDs verfügen, reduzieren Sie die ursprünglichen Budgets zur Finanzierung der Tests.
 
@@ -96,15 +96,21 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID]-basierte Segmente 
 
 * Beachten Sie, dass die Reichweite für authentifizierte Zielgruppensegmente von Natur aus kleiner ist als die Reichweite für Cookie-basierte Segmente, und dass die Verwendung zusätzlicher Targeting-Optionen Ihre Reichweite weiter verringert. Achten Sie auf die Verwendung von granularem Targeting, insbesondere durch die Verbindung mehrerer Ziele mit AND-Anweisungen.
 
-## Ursachen für Datenabweichungen zwischen E-Mail-IDs und universellen IDs {#universal-ids-data-variances}
+## Datenabweichungen zwischen E-Mail-IDs und universellen IDs {#universal-ids-data-variances}
+
+### Zulässige Varianzstufen
+
+Die Übersetzungsrate von Hash-E-Mail-Adressen auf universelle IDs sollte über 90 % liegen. Die Übersetzungsrate für [!DNL RampIDs] sollte insbesondere 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 übersetzt werden. [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs. Eine niedrigere Übersetzungsrate kann auf ein Problem hinweisen. Siehe &quot;[Ursachen von Abweichungen](#universal-ids-data-variances-reasons&quot; für mögliche Erklärungen.
+
+Für [!DNL RampIDs]Wenden Sie sich an Ihr Adobe Account Team, um weitere Informationen zu erhalten, falls die Übersetzungsraten unter 70 % liegen.
+
+### Ursachen von Abweichungen {#universal-ids-data-variances-causes}
 
 * In ID5-IDs übersetzte Hash-E-Mail-IDs:
 
   Das probabilistische Modell weist eine Fehlervarianz von +/- 5 % auf. Das bedeutet, dass die Zielgruppenanzahl dadurch um 5 % überschätzt oder unterschätzt werden kann.
 
 * Hash-E-Mail-IDs übersetzt in [!DNL RampIDs]:
-
-  Die Übersetzungsrate von Hash-E-Mail-Adressen in [!DNL RampIDs] sollte 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenden Sie sich bei Übersetzungsraten unter 70 % zur weiteren Prüfung an Ihr Adobe Account Team.
 
    * Wenn mehrere Profile dieselbe E-Mail-ID verwenden, kann die Anzahl der DSP Segmente niedriger sein als die Anzahl der Profile in Ihrer Kundendatenplattform. In Adobe Photoshop können Sie beispielsweise ein Unternehmenskonto und ein persönliches Konto mit einer einzelnen E-Mail-Adresse erstellen. Wenn jedoch beide Profile derselben Person angehören, werden die Profile einer E-Mail-ID und entsprechend einer [!DNL RampID].
 
