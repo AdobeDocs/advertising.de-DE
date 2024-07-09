@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp
 
 * **[!UICONTROL Placement level pacing]:**  Diese Schrittstrategie funktioniert durch Geschwindigkeit und Begrenzung aller enthaltenen Platzierungen *einzeln*. Die Best Practice ist, diese Strategie nur zu verwenden, um garantierte private Marktplatzierungen auszuführen.
 
-**[!UICONTROL Flight Dates]:** Das Start- und Enddatum des Pakets.
-
-Um optional nicht gerade Geschwindigkeitsflüge für das Paket zu erstellen, wählen Sie *[!UICONTROL *Activate Custom Flighting]** und richten benutzerdefinierte Flüge im [!UICONTROL Flighting] unten. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren.
+**[!UICONTROL Flight Dates]:** Das Startdatum und Enddatum des Pakets insgesamt. Die Flugdaten müssen innerhalb der Flugdaten der Kampagne angegeben werden.
 
 >[!NOTE]
 >
->* Die Flugdaten müssen innerhalb der Flugdaten der Kampagne angegeben werden. Darüber hinaus müssen die Flugdaten für alle Platzierungen, die diesem Package zugewiesen werden, innerhalb dieser Daten enthalten sein.
+>* Die Flugdaten für alle Platzierungen, die diesem Package zugewiesen werden, müssen innerhalb dieser Daten enthalten sein.
 > * Sie können das Startdatum des Pakets nicht bearbeiten, wenn die benutzerdefinierte Beleuchtung aktiviert ist.
+
+**[!UICONTROL *Activate Custom Flighting]:** Ermöglicht Ihnen die Erstellung von nicht gerade Geschwindigkeitsflügen für das Paket im [!UICONTROL Flighting] unten. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren und das Startdatum des Pakets nicht bearbeiten.
 
 **[!UICONTROL Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Die Obergrenze des Bruttobudgets und das Budgetintervall.
 
