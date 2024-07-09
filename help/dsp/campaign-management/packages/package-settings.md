@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ Geben Sie für jeden Flug das Startdatum, das Enddatum und das Zielausgabenziel 
 Bei vorhandenen Paketen können Sie optional einen Wert in die [!UICONTROL Rollover] Spalte für jeden Flug, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen. Der projizierte Wert im [!UICONTROL Adjusted Goal (Goal + Rollover)] entsprechend geändert.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-Für e
->>
-* [Über Package Management](package-about.md)
+>
+>* [Über Package Management](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
-* [Bearbeiten eines Pakets](package-edit.md)
-* [Platzierung an ein Paket anhängen](package-attach-placement.md)
-* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
-* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Bearbeiten eines Pakets](package-edit.md)
+>* [Platzierung an ein Paket anhängen](package-attach-placement.md)
+>* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
+>* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
