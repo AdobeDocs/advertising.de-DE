@@ -3,7 +3,7 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (Optional) Eine statische Drittanbietergebühr, die als nicht abrechnungsfähige Kosten verfolgt werden soll:
 
+* **[!UICONTROL CPM]:** Die Kosten pro 1000 Impressionen (CPM).
+
+* **[!UICONTROL Description]:** Beschreibung der CPM-Gebühr.
+
 >[!NOTE]
 >
 >Abrechenbare Gebühren werden im [!UICONTROL Net CPM] Metrik.
->
-* **[!UICONTROL CPM]:** Die Kosten pro 1000 Impressionen (CPM).
-
-* **[!UICONTROL CPM Description]:** Beschreibung der CPM-Gebühr.
 
 Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp
 >* Die Flugdaten für alle Platzierungen, die diesem Package zugewiesen werden, müssen innerhalb dieser Daten enthalten sein.
 > * Sie können das Startdatum des Pakets nicht bearbeiten, wenn die benutzerdefinierte Beleuchtung aktiviert ist.
 
-**[!UICONTROL Activate Custom Flighting]:** Ermöglicht Ihnen die Erstellung von nicht gerade Geschwindigkeitsflügen für das Paket im [!UICONTROL Flighting] unten. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren und das Startdatum des Pakets nicht bearbeiten.
+**[!UICONTROL *Activate Custom Flighting]:** Ermöglicht Ihnen die Erstellung von nicht gerade Geschwindigkeitsflügen für das Paket im [!UICONTROL Flighting] unten. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren und das Startdatum des Pakets nicht bearbeiten.
 
 **[!UICONTROL Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Die Obergrenze des Bruttobudgets und das Budgetintervall.
 
