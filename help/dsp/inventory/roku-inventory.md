@@ -3,22 +3,20 @@ title: Verwenden [!DNL Roku] Bestand
 description: Erfahren Sie mehr über DSP Partnerschaft mit [!DNL Roku], einschließlich Lagerbestandsoptionen, genehmigten Drittanbieter-Tracking-Anbietern und Best Practices für [!DNL Roku]-spezifische Platzierungen.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Verwenden [!DNL Roku] Bestand
 
-Advertising DSP bietet einzigartige Funktionen für Werbung in [!DNL Roku].
+Advertising DSP bietet Funktionen für Werbung in [!DNL Roku].
 
 ## DSP und [!DNL Roku] Partnerschaft
 
-Roku und DSP haben eine einzigartige Partnerschaft, die mit Ihrer [!DNL DSP] Zielgruppen zu [!DNL Roku] IDs für 1:1-deterministisches Zielgruppen-Targeting für [!DNL Roku] Inventar.
-
-Außerhalb der eigenen DSP (OneView) von Roku hat Advertising DSP ausschließlich Zugriff auf diese Targeting-Funktionen. Advertising DSP ist auch die einzige DSP mit der Berechtigung zum Messen [!DNL Roku] neben allen anderen angeschlossenen TV-Inventaren (CTV). weil [!DNL Roku] gibt nicht alle standardmäßigen RTB- und Impression-Pixelsignale frei, keine anderen DSP können auf Roku-verkaufte CTV-Geräte abzielen oder diese messen.
+Die [!DNL Roku] und DSP Ihrer Partnerschaft entsprechen [!DNL DSP] Zielgruppen zu [!DNL Roku] IDs für 1:1-deterministisches Zielgruppen-Targeting für [!DNL Roku] Inventar.
 
 ## [!DNL Roku] Lagerbestandsoptionen
 
@@ -53,7 +51,7 @@ Private Deals ermöglichen es Ihnen, die Deal-Parameter nach Ihren Bedürfnissen
 
 In DSP Kampagnen [erstellen [!DNL Roku]-spezifische Platzierungen](/help/dsp/campaign-management/placements/placement-create.md) mit dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)].&quot; Einschließen [!DNL Roku] Platzierungen in [!DNL Roku]-spezifische Pakete mit definierten Zielen.
 
-Jeder [!DNL Roku] Platzierung muss mindestens eine Zielgruppe enthalten [!DNL Roku] Geschäft oder Quelle. So verwenden Sie DSP eindeutige Zielgruppenabgleich mit [!DNL Roku], ein oder mehrere Zielgruppensegmente einschließen, die mit der [!DNL Roku] (Opt-in) deterministischer Datensatz.
+Jeder [!DNL Roku] Platzierung muss mindestens eine Zielgruppe enthalten [!DNL Roku] Geschäft oder Quelle. So verwenden Sie DSP Zielgruppenabgleich mit [!DNL Roku], ein oder mehrere Zielgruppensegmente einschließen, die mit der [!DNL Roku] (Opt-in) deterministischer Datensatz.
 
 ### [!DNL Roku]-Genehmigte Drittanbieter-Tracking-Anbieter
 
