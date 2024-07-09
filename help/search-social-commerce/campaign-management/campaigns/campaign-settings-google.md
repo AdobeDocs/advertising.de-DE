@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf **[!UIC
 
 >[!TIP]
 >
->Für Kampagnen in hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt sich die Verwendung von Kampagnenzielen, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch [!DNL Google]-getrackte Konvertierungen und fügen Sie sie dann im [!DNL Google Ads] -Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Google Ads] entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie sie als sekundäre (nicht primäre) Ziele kennzeichnen.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Wenn die Kampagne Teil eines hybriden Portfolios ist, empfiehlt es sich, kampagnenspezifische Ziele zu verwenden, die den Konversionszielen im Portfolio-Ziel entsprechen. Die Einbeziehung zusätzlicher Konversionsziele kann sich auf die Portfolioleistung auswirken.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>Für Kampagnen in hybriden Portfolios, für die Sie [Hochladen von Zielen in das Werbenetzwerk](/help/search-social-commerce/tools/objective-upload-to-networks.md)führen Sie im Editor des Anzeigennetzwerks anstelle von hier folgende Schritte aus: a) fügen Sie die hochgeladene Portfoliozielmetrik &quot;Suche&quot;, &quot;Social&quot;und &quot;Commerce&quot;als Konversionsaktion für die Kampagne hinzu (beginnend mit &quot;O_ACS_OBJ&quot;) und b) fügen Sie alle Kampagnenziele hinzu, die Folgendes enthalten: [!DNL Google]-getrackte Konversionen, da von Werbenetzwerken getrackte Metriken nicht mit dem Ziel in das Werbenetzwerk hochgeladen werden.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   Nachdem Sie eine Einkaufskampagne für Marken mit dieser Angebotsstrategie gespeichert haben, können Sie die Angebotsstrategie nicht mehr ändern. Bei anderen Kampagnentypen ist diese Strategie nur für neue Kampagnen verfügbar.
 
-* *[!UICONTROL CPV]* (Nur Audience CTV-Videokampagnen) Verwendet das CPV-Modell (Cost-per-view). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* (Nur Audience CTV-Videokampagnen) Verwendet das CPV-Modell (Cost-per-view). Search, Social und Commerce bieten keine Optimierung für Kampagnen mit dieser Angebotsstrategie, die in Portfolios enthalten sind.
 
 * *[!UICONTROL Enhanced CPC]:* (Kampagnen in Zielgruppen-, Such- und Shopping-Netzwerken) Verwendet das verbesserte &quot;Cost-per-Click&quot;-Modell des Werbenetzwerks, mit dem das Anzeigennetzwerk das Angebot pro Klick (Cost-per-Click) für jede Auktion automatisch ändern kann, um Konversionen zu maximieren, indem Konversionen verwendet werden, die innerhalb des Werbenetzwerks (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, die durchschnittliche CPC unterhalb Ihrer maximalen PC.
 
@@ -301,13 +301,9 @@ Informationen zur Verfügbarkeit finden Sie in der Microsoft Advertising-Hilfe z
 
 >[!TIP]
 >
->Bei hybriden Portfolios, für die Sie Ziele in das Werbenetzwerk hochladen, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die mit den Konversionszielen im Portfolio-Ziel übereinstimmen. Wenn die Kampagnenziele jedoch Konversionen umfassen, die von der [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag, und fügen Sie sie dann im [!DNL Microsoft Advertising] -Editor, da sie mit dem Ziel nicht erneut in das Werbenetzwerk hochgeladen werden. Darüber hinaus wird innerhalb der [!DNL Microsoft Advertising] Entfernen Sie die Konversionsaktionen der Kampagne als Standardziele des Kontos, indem Sie die Option &quot;In Konversionen einschließen&quot;deaktivieren.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Wenn die Kampagne Teil eines hybriden Portfolios ist, empfiehlt es sich, kampagnenspezifische Ziele zu verwenden, die den Konversionszielen im Portfolio-Ziel entsprechen. Die Einbeziehung zusätzlicher Konversionsziele kann sich auf die Portfolioleistung auswirken.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> Für Kampagnen in hybriden Portfolios, für die Sie [Hochladen von Zielen in das Werbenetzwerk](/help/search-social-commerce/tools/objective-upload-to-networks.md)führen Sie stattdessen folgende Schritte im Editor des Anzeigennetzwerks aus: a) fügen Sie die hochgeladene Portfolio-Zielmetrik für Suche, Social und Commerce (beginnend mit &quot;O_ACS_OBJ&quot;) als Konversionsziel für die Kampagne hinzu und b) fügen Sie alle Kampagnenziele hinzu, die Konversionen enthalten, die von der verfolgt werden. [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag, da von Werbenetzwerken getrackte Metriken nicht mit dem Ziel in das Werbenetzwerk hochgeladen werden.
 
 >[!MORELIKETHIS]
 >
