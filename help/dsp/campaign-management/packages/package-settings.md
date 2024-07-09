@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
+source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 
 (Pakete mit Geschwindigkeit auf Paketebene) Die Flugzeiten des Pauschalangebots, einschließlich benutzerspezifischer Flugzeiten innerhalb der Gesamtdauer [!UICONTROL Flight Dates] für das Paket. Sie können benutzerdefinierte Flüge nur konfigurieren, wenn die Variable [!UICONTROL Activate Custom Flighting] ist in der [!UICONTROL Goals & Budget] Abschnitt.
 
-**[DNL Flight N]:** (Nur verfügbar, wenn die Variable [!UICONTROL Activate Custom Flighting] -Option aktiviert ist) Geben Sie für jeden Flug das Startdatum, das Enddatum und das Zielausgabenziel an. Um einen weiteren Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (Nur verfügbar, wenn die Variable [!UICONTROL Activate Custom Flighting] -Option aktiviert ist) Geben Sie für jeden Flug das Startdatum, das Enddatum und das Zielausgabenziel an. Um einen weiteren Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]**.
 
 Bei vorhandenen Paketen können Sie optional einen Wert in die [!UICONTROL Rollover] Spalte für jeden Flug, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen. Der projizierte Wert im [!UICONTROL Adjusted Goal (Goal + Rollover)] entsprechend geändert.<!-- clarify usage -->
 
