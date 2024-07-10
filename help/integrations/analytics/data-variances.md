@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Werbetreibende mit [!DNL Analytics for Advertising] <!-- (A4AdC) --> Integration
 
 Die [!DNL Analytics for Advertising] -Integration verwendet zwei Variablen ([!DNL eVars] oder [!DNL rVars] \[reserviert [!DNL eVars]]\), um die [EF ID und AMO ID](ids.md). Diese Variablen werden mit einem einzelnen Lookback-Fenster (dem Zeitpunkt, innerhalb dessen Clickthroughs und Durchsichten zugeordnet werden) und einem Attributionsmodell konfiguriert. Sofern nicht anders angegeben, sind die Variablen so konfiguriert, dass sie mit dem standardmäßigen Klick-Lookback-Fenster auf Advertiser-Ebene und dem Attributionsmodell auf Adobe Advertising übereinstimmen.
 
-Lookback-Fenster und Attributionsmodelle können jedoch in beiden Analytics konfiguriert werden (über die [!DNL eVars]) und in Adobe Advertising. Darüber hinaus ist das Attributionsmodell in Adobe Advertising nicht nur auf Advertiser-Ebene (zur Angebotsoptimierung), sondern auch innerhalb einzelner Datenansichten und Berichte konfigurierbar (nur zu Berichtszwecken). Eine Organisation könnte beispielsweise das Gleichheitsverteilungsattributionsmodell zur Optimierung verwenden, aber die Letztkontakt-Attribution für Berichte in Advertising DSP verwenden oder [!DNL Advertising Search, Social, & Commerce]. Wenn Sie Attributionsmodelle ändern, ändert sich die Anzahl der zugeordneten Konversionen.
+Lookback-Fenster und Attributionsmodelle können jedoch in beiden Analytics konfiguriert werden (über die [!DNL eVars]) und in Adobe Advertising. Darüber hinaus ist das Attributionsmodell in Adobe Advertising nicht nur auf Advertiser-Ebene (zur Angebotsoptimierung), sondern auch innerhalb einzelner Datenansichten und Berichte konfigurierbar (nur zu Berichtszwecken). Ein Unternehmen kann beispielsweise das Gleichheitsverteilungsattributionsmodell zur Optimierung verwenden, aber die Letztkontakt-Attribution für Berichte in Advertising DSP oder [!DNL Advertising Search, Social, & Commerce]. Wenn Sie Attributionsmodelle ändern, ändert sich die Anzahl der zugeordneten Konversionen.
 
 Wenn ein Reporting-Lookback-Fenster oder Attributionsmodell in einem Produkt und nicht im anderen geändert wird, zeigen dieselben Berichte aus jedem System unterschiedliche Daten an:
 
 * **Beispiel für Diskrepanzen, die durch verschiedene Lookback-Fenster verursacht werden:**
 
-  Angenommen, Adobe Advertising verfügt über ein 60-tägiges Klick-Lookback-Fenster und [!DNL Analytics] verfügt über ein 30-Tage-Lookback-Fenster. Angenommen, ein Benutzer besucht die Site über eine von Adobe Advertising getrackte Anzeige, verlässt die Site und kehrt dann an Tag 45 zurück und konvertiert sie. Adobe Advertising ordnet die Konversion dem ersten Besuch zu, da die Konversion innerhalb des 60-Tage-Lookback-Fensters stattgefunden hat. [!DNL Analytics]kann die Konversion jedoch nicht dem ersten Besuch zuordnen, da die Konversion erfolgte, nachdem das 30-Tage-Lookback-Fenster abgelaufen war. In diesem Beispiel meldet Adobe Advertising eine höhere Anzahl von Konversionen als [!DNL Analytics] ist.
+  Angenommen, Adobe Advertising verfügt über ein 60-tägiges Klick-Lookback-Fenster und [!DNL Analytics] verfügt über ein 30-Tage-Lookback-Fenster. Angenommen, ein Benutzer besucht die Site über eine von Adobe Advertising getrackte Anzeige, verlässt die Site und kehrt dann an Tag 45 zurück und konvertiert sie. Adobe Advertising ordnet die Konversion dem ersten Besuch zu, da die Konversion innerhalb des 60-Tage-Lookback-Fensters stattgefunden hat. [!DNL Analytics]kann die Konversion jedoch nicht dem ersten Besuch zuordnen, da die Konversion nach Ablauf des 30-Tage-Lookback-Fensters erfolgte. In diesem Beispiel meldet Adobe Advertising eine höhere Anzahl von Konversionen als [!DNL Analytics] ist.
 
   ![Beispiel einer Konvertierung, die in Adobe Advertising, aber nicht [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
@@ -50,11 +50,11 @@ Diese Konzepte gelten für alle anderen Kanäle wie Kanäle, die unterschiedlich
 
 #### Verschiedene Lookback-Fenster für das Durchsichts-Tracking {#impression-lookback}
 
-Unter Adobe Advertising basiert die Attribution auf Klicks und Impressionen und Sie können verschiedene Lookback-Fenster für Klicks und Impressionen konfigurieren. In [!DNL Analytics]Die Attribution basiert jedoch auf Clickthroughs und Durchsichten und Sie haben nicht die Möglichkeit, verschiedene Attributionsfenster für Clickthroughs und Durchsichten festzulegen. Die Verfolgung für jeden beginnt beim ersten Site-Besuch. Eine Impression kann am selben Tag oder mehreren Tagen vor dem Eintreten einer Durchsicht auftreten. Dies kann sich auf den Beginn des Attributionsfensters in den einzelnen Systemen auswirken.
+Unter Adobe Advertising basiert die Attribution auf Klicks und Impressionen und Sie können verschiedene Lookback-Fenster für Klicks und Impressionen konfigurieren. In [!DNL Analytics]Die Attribution basiert jedoch auf Clickthroughs und Durchsichten und Sie haben nicht die Möglichkeit, verschiedene Attributionsfenster für Clickthroughs und Durchsichten festzulegen. Die Verfolgung für jeden beginnt beim ersten Site-Besuch. Eine Impression kann am selben Tag oder mehreren Tagen vor dem Durchsicht auftreten. Außerdem kann sich die Zeit auf den Start des Attributionsfensters in den einzelnen Systemen auswirken.
 
 In der Regel treten die meisten Durchsichtskonversionen schnell genug auf, sodass beide Systeme Gutschriften zuweisen. Einige Konversionen können jedoch außerhalb des Adobe Advertising Impression-Lookback-Fensters, aber innerhalb der [!DNL Analytics] Lookback-Fenster; solche Konversionen werden der Durchsicht in [!DNL Analytics] aber nicht für die Impression in Adobe Advertising.
 
-Im folgenden Beispiel wird angenommen, dass einem Besucher an Tag 1 eine Anzeige bereitgestellt wurde, an Tag 2 einen Durchsichtsbesuch (d. h. einen Besuch der Landingpage der Anzeige, ohne zuvor auf die Anzeige zu klicken) durchgeführt und an Tag 45 konvertiert wurde. In diesem Fall verfolgt Adobe Advertising den Benutzer von den Tagen 1 bis 14 (mit einem 14-tägigen Lookback). [!DNL Analytics] den Benutzer von den Tagen 2 bis 61 (mit einem 60-tägigen Lookback) verfolgt und die Konversion an Tag 45 der Anzeige in [!DNL Analytics] aber nicht innerhalb von Adobe Advertising.
+Im folgenden Beispiel nehmen wir an, dass einem Besucher an Tag 1 eine Anzeige gezeigt wurde, an Tag 2 einen Durchsichtsbesuch durchgeführt hat (d. h. die Landingpage der Anzeige besucht hat, ohne zuvor auf die Anzeige geklickt zu haben) und an Tag 45 konvertiert wurde. In diesem Fall verfolgt Adobe Advertising den Benutzer von den Tagen 1 bis 14 (mit einem 14-tägigen Lookback). [!DNL Analytics] den Benutzer von den Tagen 2 bis 61 (mit einem 60-tägigen Lookback) verfolgt und die Konversion an Tag 45 der Anzeige in [!DNL Analytics] aber nicht innerhalb von Adobe Advertising.
 
 ![Beispiel einer Durchsichtskonversion, die in [!DNL Analytics] aber nicht Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
@@ -118,7 +118,7 @@ Das Lookback-Fenster für [!DNL Marketing Channels] kann angepasst werden. Unter
 
 ### Verschiedene Kanalzuordnung in [!DNL Marketing Channels]
 
-Adobe Advertising-Berichte erfassen nur Paid Media, die über Adobe Advertising weitergeleitet werden (gebührenpflichtige Suche nach [!DNL Advertising Search, Social, & Commerce] Anzeigen und Anzeigen für Advertising DSP Anzeigen), während [!DNL Marketing Channels] Berichte können alle digitalen Kanäle verfolgen. Dies kann zu einer Diskrepanz im Kanal führen, für den eine Konversion zugeordnet wird.
+Adobe Advertising-Berichte erfassen nur Paid Media, die über Adobe Advertising weitergeleitet werden (gebührenpflichtige Suche nach [!DNL Advertising Search, Social, & Commerce] Anzeigen und Anzeigen für Advertising DSP-Anzeigen), während [!DNL Marketing Channels] Berichte können alle digitalen Kanäle verfolgen. Dies kann zu einer Diskrepanz im Kanal führen, für den eine Konversion zugeordnet wird.
 
 Beispielsweise haben Paid Search- und natürliche Suchkanäle oft eine symbiotische Beziehung, in der jeder Kanal den anderen unterstützt. Die [!DNL Marketing Channels] -Bericht weist einige Konversionen der kostenlosen Suche zu, die Adobe Advertising nicht durchführt, da die kostenlose Suche nicht verfolgt wird.
 
@@ -154,31 +154,60 @@ Die [!DNL Paid Search Detection] Berichte ermöglichen es Ihnen, den natürliche
 
 Für Ihre Integration sollten Sie Ihre Clickthrough-Daten validieren, um sicherzustellen, dass alle Seiten auf Ihrer Site Clickthroughs ordnungsgemäß verfolgen.
 
-In [!DNL Analytics], eine der einfachsten Methoden zur Validierung von [!DNL Analytics for Advertising] Tracking ist der Vergleich von Klicks mit Instanzen mithilfe eines &quot;Klicks zu [!UICONTROL AMO ID Instances]&quot;berechnete Metrik, die wie folgt berechnet wird:
+In [!DNL Analytics], eine der einfachsten Methoden zur Validierung von [!DNL Analytics for Advertising] Beim Tracking werden Instanzen mit Klicks anhand einer berechneten Metrik &quot;AMO-ID-Instanzen mit Adobe Advertising-Klicks&quot;verglichen, die wie folgt berechnet wird:
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] die Anzahl der [AMO-IDs](ids.md) werden auf der Site verfolgt. Jedes Mal, wenn auf eine Anzeige geklickt wird, wird eine AMO-ID (`s_kwcid`) wird der Landingpage-URL hinzugefügt. Die Anzahl [!UICONTROL AMO ID Instances]entspricht daher der Anzahl der Klicks und kann anhand der tatsächlichen Anzeigenklicks überprüft werden. Normalerweise wird eine Übereinstimmungsrate von 80 % für [!DNL Search, Social, & Commerce] und eine Übereinstimmungsrate von 30 % für [!DNL DSP] Traffic (wenn gefiltert, um nur Clickthrough einzuschließen) [!UICONTROL AMO ID Instances]). Der Unterschied in den Erwartungen zwischen Suche und Anzeige lässt sich durch das erwartete Traffic-Verhalten erklären. Die Suche erfasst die Absicht, und daher möchten Benutzer in der Regel auf die Suchergebnisse aus ihrer Abfrage klicken. Benutzer, die eine Anzeige oder Online-Videoanzeige sehen, klicken mit höherer Wahrscheinlichkeit unbeabsichtigt auf die Anzeige und springen dann entweder von der Site aus oder verlassen das neue Fenster, das geladen wird, bevor die Seitenaktivität verfolgt wird.
+[!UICONTROL AMO ID Instances] die Anzahl der [AMO-IDs](ids.md) werden auf der Site verfolgt. Jedes Mal, wenn auf eine Anzeige geklickt wird, wird eine AMO-ID (`s_kwcid`) wird der Landingpage-URL hinzugefügt. Die Anzahl [!UICONTROL AMO ID Instances]entspricht daher der Anzahl der Klicks und kann anhand der tatsächlichen Anzeigenklicks überprüft werden. Normalerweise wird eine Übereinstimmungsrate von 85 % für [!DNL Search, Social, & Commerce] und eine Übereinstimmungsrate von 30 % für [!DNL DSP] Traffic (wenn gefiltert, um nur Clickthrough einzuschließen) [!UICONTROL AMO ID Instances]). Der Unterschied in den Erwartungen zwischen Suche und Anzeige lässt sich durch das erwartete Traffic-Verhalten erklären. Die Suche erfasst die Absicht, und daher möchten Benutzer in der Regel auf die Suchergebnisse aus ihrer Abfrage klicken. Benutzer, die eine Anzeige oder Online-Videoanzeige sehen, klicken mit höherer Wahrscheinlichkeit unbeabsichtigt auf die Anzeige und springen dann entweder von der Site aus oder verlassen das neue Fenster, das geladen wird, bevor die Seitenaktivität verfolgt wird.
 
-In Adobe Advertising-Berichten können Sie Klicks auf ähnliche Weise mit Instanzen vergleichen, indem Sie die[!UICONTROL ef_id_instances]&quot; metric anstelle von [!UICONTROL AMO ID Instances]:
+In Adobe Advertising-Berichten können Sie Instanzen auf ähnliche Weise mit Klicks vergleichen, indem Sie die[!UICONTROL EF ID Instances]&quot; metric anstelle von [!UICONTROL AMO ID Instances]:
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Obwohl Sie eine hohe Übereinstimmungsrate zwischen der AMO-ID und der EF-ID erwarten sollten, erwarten Sie keine 100-%-Parität, da AMO-ID und EF-ID verschiedene Daten grundsätzlich verfolgen. Dieser Unterschied kann zu leichten Unterschieden in der Gesamtsumme führen [!UICONTROL AMO ID Instances] und [!UICONTROL EF ID Instances]. Wenn die Summe [!UICONTROL AMO ID Instances] in [!DNL Analytics] unterscheidet sich von [!UICONTROL EF ID Instances] in Adobe Advertising um mehr als 1%, wenden Sie sich jedoch an Ihr Adobe-Account-Team, um Hilfe zu erhalten.
 
 Weitere Informationen zur AMO-ID und zur EF ID finden Sie unter [Von Analytics verwendete Adobe Advertising-IDs](ids.md).
 
-Im Folgenden finden Sie ein Beispiel für einen Arbeitsbereich zum Verfolgen von Klicks zu Instanzen.
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![Beispiel eines Arbeitsbereichs zum Verfolgen von Klicks zu Instanzen](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### Beheben von Unterschieden zwischen Klicks und Instanzen
+
+Wenn die Variable [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] Das Verhältnis liegt unter 85 %, überprüfen Sie dann Folgendes:
+
+* Vermissen Sie das Klick-Tracking für das Konto oder auf einer beliebigen Unterebene oder haben Sie doppeltes Klick-Tracking (z. B. auf Konto- und Kampagnenebene)?
+
+  In Search, Social und Commerce [Bulksheet herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) für das Konto, um die Tracking-URLs zu überprüfen.
+
+  Außerdem in [!DNL Analytics]können Sie anhand eines &quot;&quot;erkennen, ob die AMO-ID und EF IF konsistent angehängt werden.[!DNL AMO ID] nach [!DNL EF ID]&quot;berechnete Metrik, die wie folgt berechnet wird:
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  Ein Wert größer als 100 % zeigt an, dass mehr EF-IDs als AMO-IDs fehlen.
+
+* Verfügt die Landingpage über ein Ladeproblem, sodass die AMO-ID und die EF-ID nicht erfasst werden?
+
+* Wird die Landingpage-URL so umgeleitet, dass die AMO-ID und die EF-ID verloren gehen?
+
+* Verwenden alle Landingpages die konfigurierte Report Suite?
+
+>[!NOTE]
+>
+>Theoretisch ist es möglich, dass eine Instanz mehrere Klicks hat. Stellen Sie sicher, dass Sie auf verschiedenen Geräten (z. B. Desktop, Mobilgerät und Tablet) nach Klicks suchen.
 
 ## Vergleichen von Datensätzen in [!DNL Analytics for Advertising] Versus in Adobe Advertising
 
-Die [AMO-ID](ids.md) (s_kwcid-Abfragezeichenfolgenparameter) wird für die Berichterstellung in [!DNL Analytics]und die [EF ID](ids.md) wird für die Berichterstellung in Adobe Advertising verwendet. Da es sich um unterschiedliche Werte handelt, kann ein Wert beschädigt oder nicht zur Landingpage hinzugefügt werden.
+Die [AMO-ID](ids.md) (s_kwcid-Abfragezeichenfolgenparameter) wird für die Berichterstellung in [!DNL Analytics]und die [EF ID](ids.md) (Abfragezeichenfolgenparameter ef_id) wird für die Berichterstellung in Adobe Advertising verwendet. Da es sich um unterschiedliche Werte handelt, kann ein Wert beschädigt oder nicht zur Landingpage hinzugefügt werden.
 
 Angenommen, wir haben die folgende Landingpage:
 
@@ -208,7 +237,7 @@ Sie scheinen identisch zu sein, Klicks und Besuche stellen jedoch unterschiedlic
 
 * **Klicken Sie auf:** [!DNL DSP] oder die Suchmaschine erfasst einen Klick, wenn ein Besucher auf eine Anzeige auf der Website eines Herausgebers klickt.
 
-* **Besuch:** [!DNL Analytics] definiert eine [Besuch](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) als eine Reihe von Seitenansichten durch einen Benutzer, die gemäß einem von mehreren Kriterien enden, z. B. 30 Minuten Inaktivität.
+* **Besuch:** [!DNL Analytics] definiert eine [Besuch](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) als eine Reihe von Seitenansichten durch einen Benutzer, die anhand eines von mehreren Kriterien enden, z. B. einer 30-minütigen Inaktivität.
 
 Ein Klick kann definitionsgemäß zu mehreren Besuchen führen.
 
@@ -230,7 +259,7 @@ Klicks und Clickthroughs können aufgrund versehentlicher Anzeigenklicks stark v
 
 Auf Mobilgeräten geladene Sites führen aufgrund niedrigerer Bandbreiten oder verfügbarer Verarbeitungsleistung auch weniger zu Clickthroughs, sodass das Laden von Landingpages länger dauert. Es ist nicht ungewöhnlich, dass 50-70 % der Klicks zu keinen Clickthroughs führen. In mobilen Umgebungen kann der Unterschied bis zu 90 % betragen, da die Kombination aus einem langsameren Browser und der höheren Wahrscheinlichkeit besteht, dass der Benutzer versehentlich auf die Anzeige klickt, während er durch die Seite scrollt oder versucht, die Anzeige zu schließen.
 
-Die Klickdaten können auch in Umgebungen aufgezeichnet werden, in denen Clickthroughs nicht mit den aktuellen Tracking-Mechanismen aufgezeichnet werden können (z. B. Klicks in oder von einer mobilen App) oder bei denen der Advertiser nur einen Tracking-Ansatz implementiert hat (z. B. beim JavaScript-Ansichtsansatz verfolgen Browser, die Drittanbieter-Cookies blockieren, Klicks und nicht Clickthroughs). Ein wichtiger Grund, warum Adobe empfiehlt, sowohl die Klick-URL-Tracking- als auch die Durchsichts-JavaScript-Tracking-Ansätze bereitzustellen, besteht darin, die Abdeckung verfolgbarer Clickthroughs zu maximieren.
+Die Klickdaten können auch in Umgebungen aufgezeichnet werden, in denen Clickthroughs nicht mit den aktuellen Tracking-Mechanismen aufgezeichnet werden können (z. B. Klicks in oder von einer mobilen App) oder bei denen der Advertiser nur einen Tracking-Ansatz implementiert hat (z. B. beim Viewthrough-JavaScript-Ansatz verfolgen Browser, die Drittanbieter-Cookies blockieren, Klicks, jedoch keine Clickthroughs). Ein Hauptgrund, warum Adobe empfiehlt, sowohl die Klick-URL-Tracking- als auch die Viewthrough-JavaScript-Tracking-Ansätze bereitzustellen, besteht darin, die Abdeckung verfolgbarer Clickthroughs zu maximieren.
 
 ### Verwenden von Adobe Advertising-Traffic-Metriken für Dimensionen ohne Adobe Advertising
 
@@ -240,7 +269,7 @@ Wenn Sie beispielsweise die [!UICONTROL Adobe Advertising Clicks] und [!UICONTRO
 
 ![Adobe Advertising-Metriken in einem Bericht mit einer Adobe Advertising-Dimension](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Wenn Sie jedoch die [!UICONTROL Adobe Advertising Clicks] und [!UICONTROL Adobe Advertising Cost] Metriken nach einer On-Page-Dimension (z. B. Seite), für die Adobe Advertising keine Daten bereitstellt, dann wird die [!UICONTROL Adobe Advertising Clicks] und [!UICONTROL Adobe Advertising Cost] für jede Seite ist null (0).
+Wenn Sie jedoch die [!UICONTROL Adobe Advertising Clicks] und [!UICONTROL Adobe Advertising Cost] Metriken nach einer On-Page-Dimension (z. B. Seite), für die Adobe Advertising keine Daten bereitstellt, wird die [!UICONTROL Adobe Advertising Clicks] und [!UICONTROL Adobe Advertising Cost] für jede Seite ist null (0).
 
 ![Adobe Advertising-Metriken in einem Bericht mit einer nicht unterstützten Dimension](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
