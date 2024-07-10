@@ -3,9 +3,9 @@ title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertisi
 description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Die [!DNL Paid Search Detection] Berichte ermöglichen es Ihnen, den natürliche
 
 Für Ihre Integration sollten Sie Ihre Clickthrough-Daten validieren, um sicherzustellen, dass alle Seiten auf Ihrer Site Clickthroughs ordnungsgemäß verfolgen.
 
-In [!DNL Analytics], eine der einfachsten Methoden zur Validierung von [!DNL Analytics for Advertising] Beim Tracking werden Instanzen mit Klicks anhand einer berechneten Metrik &quot;AMO-ID-Instanzen mit Adobe Advertising-Klicks&quot;verglichen, die wie folgt berechnet wird:
+In [!DNL Analytics], eine der einfachsten Methoden zur Validierung von [!DNL Analytics for Advertising] Tracking dient zum Vergleich von Instanzen mit Klicks mithilfe einer berechneten Metrik vom Typ &quot;AMO-ID-Instanzen mit Klicks&quot;, die wie folgt berechnet wird:
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] die Anzahl der [AMO-IDs](ids.md) werden auf der Site verfolgt. Jedes Mal, wenn auf eine Anzeige geklickt wird, wird eine AMO-ID (`s_kwcid`) wird der Landingpage-URL hinzugefügt. Die Anzahl [!UICONTROL AMO ID Instances]entspricht daher der Anzahl der Klicks und kann anhand der tatsächlichen Anzeigenklicks überprüft werden. Normalerweise wird eine Übereinstimmungsrate von 85 % für [!DNL Search, Social, & Commerce] und eine Übereinstimmungsrate von 30 % für [!DNL DSP] Traffic (wenn gefiltert, um nur Clickthrough einzuschließen) [!UICONTROL AMO ID Instances]). Der Unterschied in den Erwartungen zwischen Suche und Anzeige lässt sich durch das erwartete Traffic-Verhalten erklären. Die Suche erfasst die Absicht, und daher möchten Benutzer in der Regel auf die Suchergebnisse aus ihrer Abfrage klicken. Benutzer, die eine Anzeige oder Online-Videoanzeige sehen, klicken mit höherer Wahrscheinlichkeit unbeabsichtigt auf die Anzeige und springen dann entweder von der Site aus oder verlassen das neue Fenster, das geladen wird, bevor die Seitenaktivität verfolgt wird.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 In Adobe Advertising-Berichten können Sie Instanzen auf ähnliche Weise mit Klicks vergleichen, indem Sie die[!UICONTROL EF ID Instances]&quot; metric anstelle von [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Obwohl Sie eine hohe Übereinstimmungsrate zwischen der AMO-ID und der EF-ID erwarten sollten, erwarten Sie keine 100-%-Parität, da AMO-ID und EF-ID verschiedene Daten grundsätzlich verfolgen. Dieser Unterschied kann zu leichten Unterschieden in der Gesamtsumme führen [!UICONTROL AMO ID Instances] und [!UICONTROL EF ID Instances]. Wenn die Summe [!UICONTROL AMO ID Instances] in [!DNL Analytics] unterscheidet sich von [!UICONTROL EF ID Instances] in Adobe Advertising um mehr als 1%, wenden Sie sich jedoch an Ihr Adobe-Account-Team, um Hilfe zu erhalten.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### Beheben von Unterschieden zwischen Klicks und Instanzen
 
-Wenn die Variable [!UICONTROL EF ID Instances]-to-[!UICONTROL Adobe Advertising Clicks] Das Verhältnis liegt unter 85 %, überprüfen Sie dann Folgendes:
+Wenn die Variable [!UICONTROL EF ID Instances]Das Verhältnis zwischen Klicks und Klicks liegt unter 85 %. Überprüfen Sie dann Folgendes:
 
 * Vermissen Sie das Klick-Tracking für das Konto oder auf einer beliebigen Unterebene oder haben Sie doppeltes Klick-Tracking (z. B. auf Konto- und Kampagnenebene)?
 
