@@ -3,9 +3,9 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser be
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Jedes benutzerdefinierte Ziel besteht aus einer oder mehreren Konversionsmetriken und den relativen Gewichtungen dieser Metriken. Zu den verfügbaren Konversionsmetriken gehören alle Metriken, die mit dem Adobe Advertising-Konversionspol und über Adobe Analytics verfolgt werden.
+Jedes benutzerdefinierte Ziel (Ziel) besteht aus einer oder mehreren Konversionsmetriken und den relativen Gewichtungen dieser Metriken. Für DSP benutzerdefinierten Ziele werden nur Gewichtungen berücksichtigt, die nicht für Mobilgeräte gelten. Zu den verfügbaren Konversionsmetriken gehören alle Metriken, die mit dem Adobe Advertising-Konversionspol und über Adobe Analytics verfolgt werden.
 
 Angenommen, drei Konversionsmetriken sind für ein bestimmtes Kampagnenkit relevant: &quot;PDF-Download&quot;im Wert von 20 USD, &quot;E-Mail-Anmeldung&quot;im Wert von 30 USD und &quot;Auftragsbestätigung&quot;im Wert von 40 USD. Wenn Sie Gewichtung gemäß dem einmaligen Geldwert der Kundenaktion geben möchten, beträgt das relative Gewicht der Metriken 1, 1,5 und 2.
 
 Einmal [Erstellen eines benutzerdefinierten Ziels](#custom-goal-create), können Sie [Zuweisen zu einem Paket](/help/dsp/campaign-management/packages/package-settings.md) für die Berichterstellung und algorithmische Optimierung mit Adobe Sensei.
+
+Gewichtungsempfehlungen werden automatisch für DSP zugeordneten Metriken in Zielen generiert und können alle Gewichtungsempfehlungen mit einem Klick anwenden. Alle Gewichtsänderungen an Zielen mit dem Präfix &quot;ADSP_&quot;werden in DSP innerhalb von zwei Tagen algorithmisch angewendet. Weitere Informationen zu Gewichtungsempfehlungen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;zu &quot;Neue Ziele (Beta)&quot;, das in Search, Social und Commerce verfügbar ist.
 
 ## Benutzerdefiniertes Ziel erstellen {#custom-goal-create}
 
@@ -49,9 +51,15 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL
 
    1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/dsp/assets/create-search-ui.png "Erstellen").
 
-   1. Geben Sie die Zieleinstellungen, einschließlich der zugehörigen Metriken, und ihre relative numerische Gewichtung für Nicht-Mobilgeräte und Mobilgeräte ein und speichern Sie dann das Ziel.
+   1. Geben Sie die Zieleinstellungen, einschließlich der zugehörigen Metriken, und ihre relative numerische Gewichtung für Nicht-Mobilgeräte ein und speichern Sie dann das Ziel. Beachten Sie Folgendes:
 
-      Mindestens eine Metrik muss den Metriktyp aufweisen *[!UICONTROL Goal]*.
+      * Bei Zielen, die für Advertising DSP-Pakete verwendet werden, muss dem Zielnamen &quot;ADSP_&quot;vorangestellt werden, z. B. &quot;ADSP_Registrierungen&quot;. Beim Präfix wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+
+      * Nur Metriken einschließen, die DSP zugeordnet sind. Alle Metriken, die Search, Social und Commerce oder einem anderen Anzeigennetzwerk zugeordnet sind, werden ignoriert.
+
+      * Mindestens eine Metrik muss den Metriktyp aufweisen *[!UICONTROL Goal]*.
+
+      * DSP verwendet die nicht mobile Gewichtung für alle Anzeigen. Alle angegebenen Mobilgewichte werden ignoriert.
 
       >[!NOTE]
       >
