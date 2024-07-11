@@ -3,23 +3,23 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # Benutzerdefinierte Ziele
 
-Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das das Optimierungsziel verwendet &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; muss ein benutzerdefiniertes Ziel enthalten, um das Gesamtoptimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce].
+Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das das Optimierungsziel verwendet &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; muss ein benutzerdefiniertes Ziel enthalten, um das Gesamtoptimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce]. Dem Namen jedes Ziels für DSP muss &quot;ADSP_&quot;vorangestellt werden.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Jedes benutzerdefinierte Ziel (Ziel) besteht aus einer oder mehreren Konversionsmetriken und den relativen Gewichtungen dieser Metriken. Für DSP benutzerdefinierten Ziele werden nur Gewichtungen berücksichtigt, die nicht für Mobilgeräte gelten. Zu den verfügbaren Konversionsmetriken gehören alle Metriken, die mit dem Adobe Advertising-Konversionspol und über Adobe Analytics verfolgt werden.
+Jedes benutzerdefinierte Ziel (Ziel) besteht aus einer oder mehreren Konversionsmetriken und den relativen Gewichtungen dieser Metriken. Zu den verfügbaren Konversionsmetriken gehören alle Metriken, die mit dem Adobe Advertising-Konversionspol und über Adobe Analytics verfolgt werden. Für DSP benutzerspezifischen Ziele werden nur nicht mobile Gewichtungen berücksichtigt, die jedoch für alle Anzeigentypen verwendet werden.
 
 Angenommen, drei Konversionsmetriken sind für ein bestimmtes Kampagnenkit relevant: &quot;PDF-Download&quot;im Wert von 20 USD, &quot;E-Mail-Anmeldung&quot;im Wert von 30 USD und &quot;Auftragsbestätigung&quot;im Wert von 40 USD. Wenn Sie Gewichtung gemäß dem einmaligen Geldwert der Kundenaktion geben möchten, beträgt das relative Gewicht der Metriken 1, 1,5 und 2.
 
