@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# Grundsätze und Richtlinien für Adobe Advertising  {#policies}
+# Grundsätze und Richtlinien für Adobe Advertising {#policies}
 
 + [Richtlinie zu Anzeigenanforderungen](/help/policies/ad-requirements-policy.md)
 + [Richtlinien für universelle ID-Anforderungen](/help/policies/universal-id-policy.md)
