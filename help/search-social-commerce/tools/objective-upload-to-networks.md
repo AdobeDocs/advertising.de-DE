@@ -3,9 +3,9 @@ title: Aktivieren des Hochladens von Zielen in Werbenetzwerke
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social und Commerce können die Ziele für die Portfolios eines Advertis
 
 Durch Aktivierung dieser Option wird automatisch ein Upload für Ziele in Portfolios mit Kampagnen mit Smart-Gebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im Ziel auf EF ID-Ebene (Klick-ID) dar. Für [!DNL Google Ads] Klicks, die EF ID ist die [!DNL Google Ads] `gclid`; [!DNL Microsoft Advertising] Klicks, die EF ID ist die [!DNL Microsoft Advertising] `msclkid`. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Suchbegriff und der Klickzeit zugeordnet werden.
 
-Jede hochgeladene Konversion hat einen der folgenden Namen:
+Jede hochgeladene Konvertierung hat einen der folgenden Namen:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -56,7 +56,7 @@ Hochladen in [!DNL Google Ads] treten täglich um 6:00 Uhr in der Zeitzone des W
 
 ## Berechnung des gewichteten Ziels
 
-Das gewichtete Ziel, das an das Werbenetzwerk übergeben wird, ist die Summe aller erfassten Metrikwerte, mit Ausnahme der Konversionen, die von [!DNL Google Ads] oder [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag.
+Das gewichtete Ziel, das an das Werbenetzwerk übergeben wird, ist die Summe aller erfassten Metrikwerte, mit Ausnahme der Konversionen, die von [!DNL Google Ads] oder [!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tag. Der Wert wird anhand der Attributionsmethode berechnet, die für das Search-, Social- und Commerce-Konto des Advertisers eingerichtet wurde.
 
 Nehmen wir beispielsweise an, die Zielmetrik des Ziels ist &quot;Zusatz zum Warenkorb mit einer Gewichtung von 25&quot;und Ihre Hilfmetriken sind GGL_Lead und Umsatz mit einer Gewichtung von 1 und Downloads mit einer Gewichtung von 0,5.
 
@@ -70,6 +70,12 @@ Angenommen, ein Keyword führte zu den folgenden Aktionen für das Portfolio:
 * 5 GGL_Lead
 
 GGL_Lead ist nicht in die Berechnung/den Upload eingeschlossen, da es sich um eine von Google Ads getrackte Metrik handelt. Daher wird der gewichtete Zielwert berechnet als ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+
+>[!TIP]
+>
+>Sie können Daten zu Adobe Advertising gewichteten Umsätzen in den Berichten des Werbenetzwerks anzeigen. Als Best Practice wird empfohlen, den gewichteten Umsatz mit dem [!DNL Google Ads] &quot;Alle conv. (durch conv. time)&quot;oder die Metrik [!DNL Microsoft Advertising] Metrik &quot;Alle conv. Umsatz&quot;, segmentiert auf die Metrik O_ACS_OBJ*.<!--clarify -->
+
+im Editor des Werbenetzwerks
 
 ## Fehlerbehebung bei fehlenden Zielen
 
