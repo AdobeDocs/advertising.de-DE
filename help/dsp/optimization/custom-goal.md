@@ -3,9 +3,9 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
+source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Die folgenden Beispiele zeigen, wie Sie Ziele konfigurieren können, die auf ein
 
 #### Beispiel für eine Kampagne mit dem[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Optimierungsziel
 
-Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)]), und der Umsatz aus allen Gerätetypen ist für Sie gleichermaßen wichtig. Schließen Sie dann die[!UICONTROL Revenue]&quot; Metrik mit einer nicht mobilen Gewichtung (für Konversionen von einem nicht mobilen Gerät) von einer (1) und einer mobilen Gewichtung (für Konversionen von einem Mobilgerät) von einer (1). Metriktyp auswählen *[!UICONTROL Goal]*.
+Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)]), und der Umsatz aus allen Gerätetypen ist für Sie gleichermaßen wichtig. Schließen Sie dann die[!UICONTROL Revenue]&quot; mit einer nicht mobilen Gewichtung von 1 (1); die Mobilgewichtung wird ignoriert. Metriktyp auswählen *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,13 +90,11 @@ Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 >[!NOTE]
 >
-> Eine mobile oder nicht mobile Gewichtung von 1 (1) entspricht einem Wert von 1 (1) für jeden verfolgten Umsatz von 1 USD.
->
-> Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 (1) ohne Mobilgeräte für Konversionen als 250 USD gemeldet. Wenn der Konversionsmetrik eine nicht mobile Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD von einem nicht mobilen Gerät als 125 USD in Adobe Advertising ( 250 USD Konversion * 0,5) gemeldet. [!UICONTROL Non-mobile Weight] = 125 USD).
+> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert (1) für jeden $1 Umsatz, der für Display-Anzeigen auf jedem Gerät verfolgt wird. Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 (1) ohne Mobilgeräte für Konversionen als 250 USD gemeldet. Wenn der Konversionsmetrik eine nicht mobile Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD als 125 USD in Adobe Advertising gemeldet ( 250 USD Konversion * 0,5 [!UICONTROL Non-mobile Weight] = 125 USD).
 
 #### Beispiel für eine Kampagne mit dem[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Optimierungsziel
 
-Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein Erfolgsereignis erforderlich ist (z. B. &quot;Antragsversand&quot;), schließen Sie diese eine Metrik ein und geben Sie den Metriktyp als *[!UICONTROL Goal]*. Als Best Practice wird empfohlen, sowohl das nicht mobile als auch das mobile Gewicht auf 1 (1) festzulegen.
+Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein Erfolgsereignis erforderlich ist (z. B. &quot;Antragsversand&quot;), schließen Sie diese eine Metrik ein und geben Sie den Metriktyp als *[!UICONTROL Goal]*. Die Best Practice besteht darin, die Gewichtung für Nicht-Mobilgeräte auf 1 festzulegen (1). Die Mobilgewichtung wird ignoriert.
 
 <!-- update image or delete 
 
@@ -106,13 +104,13 @@ Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein 
 
 >[!NOTE]
 >
-> Eine mobile oder nicht mobile Gewichtung von 1 (1) entspricht einem Wert von 1 (1) für jede verfolgte Konversion. Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragsübermittlungen gemeldet. Wenn der Konversionsmetrik jedoch ein nicht mobiles Gewicht von 0,5 zugewiesen wird, werden die 10 nicht mobilen Konversionen als fünf (5) in Adobe Advertising (10 Konversionen * 0,5) gemeldet. [!UICONTROL Non-mobile Weight] = 5).
+> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert von 1 (1) für jede Konversion, die für Display-Anzeigen auf jedem Gerät verfolgt wird. Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragsübermittlungen gemeldet. Wenn der Konversionsmetrik jedoch ein nicht mobiles Gewicht von 0,5 zugewiesen wird, werden die 10 Konversionen als fünf (5) in Adobe Advertising (10 Konversionen * 0,5) gemeldet. [!UICONTROL Non-mobile Weight] = 5).
 
 ### Benutzerdefinierte Ziele mit mehreren Metriken
 
 Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefinierten Ziel verwenden würden:
 
-* Ihr Kampagnenziel umfasst mehrere Erfolgsereignisse. Vielleicht werben Sie beispielsweise für mehr als eine On-site-Aktion (PDF Download, Kontaktaufnahme und E-Mail-Anmeldung), und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen und mobilen Gewichtung von 1 (1) enthält, wird die [!DNL Adobe Sensei] -Algorithmus behandelt alle Metriken und Benutzergerätetypen mit gleicher Wichtigkeit. Wenn die verschiedenen Metriken und Gerätetypen unterschiedliche Kosten oder Bedeutung haben, passen Sie ihre relative Gewichtung entsprechend an.
+* Ihr Kampagnenziel umfasst mehrere Erfolgsereignisse. Vielleicht werben Sie beispielsweise für mehr als eine On-site-Aktion (PDF Download, Kontaktaufnahme und E-Mail-Anmeldung), und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen Gewichtung von 1 (1) enthält, wird die [!DNL Adobe Sensei] -Algorithmus behandelt alle Metriken und Benutzergerätetypen mit gleicher Wichtigkeit. Wenn die verschiedenen Metriken unterschiedliche Kosten oder Bedeutung haben, passen Sie ihre relative Gewichtung entsprechend an.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -124,7 +122,7 @@ Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefiniert
 
   Wenn Sie einem benutzerdefinierten Ziel unterstützende Metriken hinzufügen, gewichten Sie diese entsprechend ihrer relativen Bedeutung für das Haupterfolgsereignis und beachten Sie die Anzahl der Datenpunkte. Dadurch kann der Adobe Sensei-Algorithmus mehrere Metriken ausgleichen und Ihre Zielvorgabe optimieren.
 
-  Das folgende Beispielziel umfasst drei Metriken mit jeweils einer anderen Gewichtung als Mobilgeräte: Application Submit = 1, Application Start = 0.1 und Advertiser Landingpage = 0.01. Das bedeutet, dass jede Submit-Konversion von Nicht-Mobilgeräten für Ihr Unternehmen denselben Wert hat wie durchschnittlich 10 Application Start-Konversionen von Nicht-Mobilgeräten und 100 Advertiser-Landingpage-Konversionen von Nicht-Mobilgeräten.
+  Das folgende Beispielziel umfasst drei Metriken mit jeweils einer anderen Gewichtung als Mobilgeräte: Application Submit = 1, Application Start = 0.1 und Advertiser Landingpage = 0.01. Das bedeutet, dass jede Konvertierung des Antragsversands denselben Wert für Ihr Unternehmen hat wie im Durchschnitt 10 Konversionen des Anwendungsbeginns und 100 Konversionen der Advertiser-Landingpage.
 
 <!-- update image or delete it and adjust the wording above
 
