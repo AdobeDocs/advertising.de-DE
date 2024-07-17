@@ -3,16 +3,16 @@ title: Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 description: Siehe Richtlinien für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 1136589913b2648dd33fa2f6aae6d1aa13f94289
+source-git-commit: 703031baac908e2024d877f031ff164370528383
 workflow-type: tm+mt
-source-wordcount: '2190'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
 
 # Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 
-*Letzte Aktualisierung: 17. Juli 2024<!-- (except for formatting changes unrelated to content)-->*
+*Richtlinie zuletzt aktualisiert: 17. Juli 2024<!-- (except for formatting changes unrelated to content)-->*
 
 *Für Adobe Advertising DSP und Adobe Advertising-Suche, Social und Commerce*
 
