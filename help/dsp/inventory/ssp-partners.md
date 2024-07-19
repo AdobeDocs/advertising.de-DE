@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # SSP-Partner
 
-Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform für Werbetechnologie, die digitalen Medieninhabern und -verlegern beim Verkauf digitaler Anzeigen in automatisierten Auktionen hilft. Eigentümer und Herausgeber digitaler Medien verwenden SSPs, um die Bereitstellung und Verteilung ihrer Anzeigenbestände zu koordinieren, zu verwalten und zu monetarisieren. Advertising DSP ist in alle führenden SSPs integriert, sodass Werbetreibende einfach auf hochwertige Inventare für ihre Werbebedürfnisse zugreifen können.
+Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform für Werbetechnologie, die digitalen Medieninhabern und -verlegern beim Verkauf digitaler Anzeigen in automatisierten Auktionen hilft. Eigentümer und Herausgeber digitaler Medien verwenden SSPs, um die Bereitstellung und Verteilung ihrer Anzeigenbestände zu koordinieren, zu verwalten und zu monetarisieren. Advertising DSP ist in alle führenden SSPs integriert und ermöglicht Werbetreibenden den einfachen Zugriff auf hochwertige Inventare für ihre Werbebedürfnisse.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Sie können auch optional das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie auf ![Linker Bereich ausblenden](/help/dsp/assets/hide-left-pane.png "Linker Bereich ausblenden") oben im linken Bereich oder ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") oben im rechten Bereich.
+>Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Optional können Sie auch das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") oder oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken.
 
 | SSP-Liste | Firma | Lizenz-ID | Programmbezogene garantierte Unterstützung | Region | Unterstützte Währung | Video Desktop | Video Mobile | Video CTV | Display Desktop | Mobilgerät anzeigen | Native Anzeige | Audio Desktop und Mobilgerät |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -42,7 +42,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL SmartStream] |  | Adobe Advertising | Nein | EMEA | EUR, USD | x | x |  |  |  |  |  |
 | [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | Nein | CA | USD |  |  |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising | Nein | US/CA | USD | x | x |  |  |  |  |  |
-| [!DNL Teads] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Outstream Video = Global<br>Anzeige = NA + EMEA | USD | x | x |  | x | x |  |  |
+| [!DNL Teads] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Ausgehendes Video = Global<br>Display = NA + EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] oder Adobe Advertising | Nein | Global | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | Ja | Global | USD |  |  |  |  |  |  | x |
@@ -53,5 +53,5 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 
 >[!MORELIKETHIS]
 >
->* [Übersicht über die Funktionen des Bestands](inventory-overview.md)
+>* [Überblick über die Inventarfunktionen](inventory-overview.md)
 

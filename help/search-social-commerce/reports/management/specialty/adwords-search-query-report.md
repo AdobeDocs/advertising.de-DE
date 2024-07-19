@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
-description: Informationen zum [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+description: Erfahren Sie mehr über die [!UICONTROL AdWords Search Query Report].
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Search Query Report]
 
-*[!DNL Google Ads]Nur Konten*
+*[!DNL Google Ads]nur Konten*
 
-Die [!UICONTROL AdWords Search Query Report] umfasst Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten für Benutzersuchabfragen für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten eine Zeile für jeden Suchbegriff, der zu Impressionen oder Klicks für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich führte, und die Zeilen sind in aufsteigender Reihenfolge nach Anzeigengruppenname und dann nach Suchbegriff. Sie können optional den Suchbegriff einbeziehen, mit dem der Suchbegriff übereinstimmt. Der Bericht enthält weder den Suchbegriff, mit dem der Suchbegriff abgeglichen wurde, noch Konversionsdaten, die von [!DNL Adobe].
+Der [!UICONTROL AdWords Search Query Report] enthält Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten für Benutzersuchabfragebegriffe für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten eine Zeile für jeden Suchbegriff, der zu Impressionen oder Klicks für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich führte, und die Zeilen sind in aufsteigender Reihenfolge nach Anzeigengruppenname und dann nach Suchbegriff. Sie können optional den Suchbegriff einbeziehen, mit dem der Suchbegriff übereinstimmt. Der Bericht enthält weder den Suchbegriff, mit dem der Suchbegriff übereinstimmt, noch Konversionsdaten, die von [!DNL Adobe] verfolgt wurden.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Die [!UICONTROL AdWords Search Query Report] umfasst Kosten-, Klick-, Impression
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für Sonderberichte](specialty-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
-* [Über Sonderberichte](specialty-report-about.md)
-* [Einen Spezialbericht erstellen](specialty-report-generate.md)
-* [Einstellungen für Sonderberichte](specialty-report-settings.md)
+>* [Über Sonderberichte](specialty-report-about.md)
+>* [Erstellen eines Sonderberichts](specialty-report-generate.md)
+>* [Einstellungen für den Sonderbericht](specialty-report-settings.md)

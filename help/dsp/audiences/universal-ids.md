@@ -18,25 +18,25 @@ ht-degree: 0%
 
 DSP unterstützt benutzerbasierte, universelle IDs für Cookies, ein einzelnes Gerät (nicht geräteübergreifendes Targeting), das über digitale, von DSP unterstützte Formate hinweg verwendet wird.
 
-* Sie können Ihre authentifizierte Person manuell senden [[!DNL LiveRamp] [!DNL RampIDs]] direkt zu DSP mithilfe der [!DNL LiveRamp] [!DNL Connect] Dashboard. Siehe &quot;[Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
+* Sie können Ihre authentifizierte [[!DNL LiveRamp] [!DNL RampIDs]] manuell direkt an DSP senden, indem Sie das Dashboard [!DNL LiveRamp] [!DNL Connect] verwenden. Siehe &quot;[Manuelles Importieren authentifizierter Segmente aus  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP können Erstanbietersegmente erfassen, die aus in Ihrer Kundendatenplattform (CDP) erstellten Hash-E-Mail-IDs bestehen, und sie in konvertieren [!DNL LiveRamp] [!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)] IDs. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).&quot;
+* DSP können Erstanbietersegmente erfassen, die aus in Ihrer Kundendatenplattform (CDP) erstellten Hash-E-Mail-IDs bestehen, und sie in [!DNL LiveRamp] [!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)] IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für die einzelnen unterstützten universellen ID-Typen und den zugehörigen Workflows finden Sie unter &quot;[Über Zielgruppenquellen von Erstanbietern](/help/dsp/audiences/sources/source-about.md)&quot;.
 
-* Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen IDs für ID5 verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten erhalten und bestimmte Webseiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browsersignalen abgeleitet wurde. Weitere Informationen finden Sie unter &quot;[Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).&quot;
+* Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen IDs für ID5 verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten erhalten und bestimmte Webseiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browsersignalen abgeleitet wurde. Anweisungen finden Sie unter &quot;[Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
-* Drittanbietersegmente einiger Anbieter können zusätzlich zu den von Cookies oder Geräte-IDs verfolgten Benutzern automatisch universelle IDs enthalten. Zum Beispiel Segmente aus [!DNL Eyeota] kann automatisch ID5-IDs und Segmente aus [!DNL Lotame] kann UID2.0-IDs enthalten. Die Segmentdetails enthalten die Größe für jeden Typ. Für jedes Segment gilt die übliche Nutzungsgebühr, die neben dem Segmentnamen angegeben wird. Für die ID5-IDs werden keine zusätzlichen Gebühren erhoben.
+* Drittanbietersegmente einiger Anbieter können zusätzlich zu den von Cookies oder Geräte-IDs verfolgten Benutzern automatisch universelle IDs enthalten. Beispielsweise können Segmente von [!DNL Eyeota] automatisch ID5-IDs enthalten, und Segmente von [!DNL Lotame] können UID2.0-IDs enthalten. Die Segmentdetails enthalten die Größe für jeden Typ. Für jedes Segment gilt die übliche Nutzungsgebühr, die neben dem Segmentnamen angegeben wird. Für die ID5-IDs werden keine zusätzlichen Gebühren erhoben.
 
 ## Berichterstellung nach dem universellen ID-Typ
 
-* **Benutzerspezifische Berichte:** Kosten-, Impression-, Klick-, Konversions- und Häufigkeitsdaten nach dem universellen ID-Typ sind in benutzerdefinierten Berichten verfügbar.
+* **Benutzerspezifische Berichte:** In benutzerspezifischen Berichten sind Kosten-, Impression-, Klick-, Konversions- und Häufigkeitsdaten nach dem universellen ID-Typ verfügbar.
 
-* **[!DNL Analytics]Berichte:** Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) die alle erforderlichen Schritte implementiert haben, können Durchsichtskonvertierungen nach dem universellen ID-Typ in [!DNL Analytics].
+* **[!DNL Analytics]Berichte:** Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), die alle erforderlichen Schritte implementiert haben, können Durchsichtskonversionen nach universellen ID-Typen in [!DNL Analytics] sehen.
 
   >[!IMPORTANT]
   >
-  >Stellen Sie für eine ordnungsgemäße Konversionszuordnung sicher, dass die Clickthrough-URLs für Ihre Anzeigen beide [EF ID und AMO-ID](/help/integrations/analytics/ids.md).
+  >Stellen Sie für eine ordnungsgemäße Konversionszuordnung sicher, dass die Clickthrough-URLs für Ihre Anzeigen sowohl die [EF ID als auch die AMO ID](/help/integrations/analytics/ids.md) enthalten.
 
-* **Segmentdetails:** Bei allen Segmenttypen umfassen die Segmentdetails die Zielgruppengröße nach dem universellen ID-Typ und nach dem Gerätetyp, der von Cookies oder Geräte-IDs verfolgt wird.
+* **Segmentdetails:** Die Segmentdetails enthalten für alle Segmenttypen die Zielgruppengröße nach dem universellen ID-Typ und nach dem Gerätetyp, der von Cookies oder Geräte-IDs verfolgt wird.
 
 ## Targeting einer universellen ID-Zielgruppe in Ihren Platzierungen
 
@@ -46,27 +46,27 @@ DSP unterstützt benutzerbasierte, universelle IDs für Cookies, ein einzelnes G
 
 Führen Sie in einer neuen, geplanten oder ausgesetzten Platzierung folgende Schritte aus:
 
-1. Im [!UICONTROL Geo-Targeting] die zu berücksichtigenden geografischen Gebiete. Jeder universelle ID-Partner ermöglicht das Benutzer-Targeting nur in bestimmten geografischen Bereichen, und in der [!UICONTROL Targeting] -Einstellungen.
+1. Geben Sie im Abschnitt [!UICONTROL Geo-Targeting] die geografischen Gebiete an, die als Ziel ausgewählt werden sollen. Jeder universelle ID-Partner ermöglicht das Benutzer-Targeting nur in bestimmten geografischen Bereichen, und in den Einstellungen für [!UICONTROL Targeting] sind nur infrage kommende ID-Typen verfügbar.
 
-1. Im [!UICONTROL Audience Targeting] führen Sie folgende Schritte aus:
+1. Gehen Sie im Abschnitt [!UICONTROL Audience Targeting] wie folgt vor:
 
-   1. Im [!UICONTROL Included Audiences] -Einstellung wählen Sie das Segment aus, für das Benutzerdaten in universelle IDs konvertiert wurden.
+   1. Wählen Sie in der Einstellung &quot;[!UICONTROL Included Audiences]&quot;das Segment aus, für das Benutzerdaten in universelle IDs konvertiert wurden.
 
       Sie können bei Bedarf weitere Segmente hinzufügen.
 
-   1. Im [!UICONTROL Targeting] Einstellungen:
+   1. In den Einstellungen für [!UICONTROL Targeting] :
 
       1. Wählen Sie den universellen ID-Typ aus, der als Ziel dienen soll.
 
-         Die Einstellung enthält die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID],&quot;die die Unteroptionen &quot;[!UICONTROL ID5], &quot;&quot;[!UICONTROL RampID],&quot; und &quot;[!UICONTROL Unified ID2.0].&quot; Die ausgewählten geografischen Ziele bestimmen die verfügbaren Unteroptionen.
+         Die Einstellung enthält die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID]&quot;, die die Unteroptionen &quot;[!UICONTROL ID5]&quot;, &quot;[!UICONTROL RampID]&quot;und &quot;[!UICONTROL Unified ID2.0]&quot;enthalten können. Die ausgewählten geografischen Ziele bestimmen die verfügbaren Unteroptionen.
 
-         Sie können beide[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID],&quot;können Sie jedoch nur einen Typ der universellen ID pro Platzierung auswählen. Wenn Sie sowohl Legacy-IDs als auch universelle IDs auswählen, wird den universellen IDs die Gebotseinstellung vorgezogen.
+         Sie können sowohl &quot;[!UICONTROL Legacy IDs]&quot;als auch &quot;[!UICONTROL Universal ID]&quot;auswählen, Sie können jedoch nur einen Typ der universellen ID pro Platzierung auswählen. Wenn Sie sowohl Legacy-IDs als auch universelle IDs auswählen, wird den universellen IDs die Gebotseinstellung vorgezogen.
 
       1. (Bei Bedarf) Akzeptieren Sie die Nutzungsbedingungen für die Verwendung von universellen IDs.
 
          Bevor Sie Daten in einen neuen ID-Typ konvertieren können, muss ein Benutzer im DSP die Nutzungsbedingungen akzeptieren. Die Bedingungen dürfen pro ID-Typ und Konto nur einmal akzeptiert werden.
 
-Siehe &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).&quot;
+Siehe &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)&quot;.
 
 ## Best Practices für Tests und Datenvalidierung
 
@@ -74,11 +74,11 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID]-basierte Segmente 
 
 * Ungefähr 24 Stunden nach der Aktivierung eines Segments überprüfen Sie die konvertierte ID-Anzahl für das Segment in [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Wenn die ID-Anzahl unerwartet ist, wenden Sie sich an Ihr Adobe-Account-Team.
 
-  Siehe &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;, um weitere Informationen darüber zu erhalten, wie die Segmentzahlen variieren können.
+  Weitere Informationen dazu, wie die Segmentzählung variieren kann, finden Sie unter &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances)&quot;.
 
 * Ändern Sie Ihre vorhandenen Pakete und Platzierungen nicht. Wenn Sie jedoch über kein inkrementelles Budget zum Testen universeller IDs verfügen, reduzieren Sie die ursprünglichen Budgets zur Finanzierung der Tests.
 
-* Kopieren Sie Ihre ursprünglichen Pakete und Platzierungen, passen Sie die Budgets an die Größe des Tests an, ändern Sie die Zielgruppen, die verwendet werden sollen. [!DNL RampID]-basierte Segmente (für authentifizierte Benutzer) oder ID5-basierte Segmente (für nicht authentifizierte Benutzer) und überprüfen, ob die neuen Pakete und Platzierungen ihr ganzes Budget ausgeben.
+* Kopieren Sie Ihre ursprünglichen Pakete und Platzierungen, passen Sie die Budgets an die Größe des Tests an, ändern Sie die Zielgruppen so, dass sie [!DNL RampID]-basierte Segmente (für authentifizierte Benutzer) oder ID5-basierte Segmente (für nicht authentifizierte Benutzer) verwenden, und überprüfen Sie, ob die neuen Pakete und Platzierungen ihr ganzes Budget ausgeben.
 
    * Um die Leistung universeller ID-basierter Segmente mit der Leistung von Platzierungen zu vergleichen, die auf andere Zielgruppen-IDs abzielen, z. B. Cookies oder mobile Werbe-IDs, erstellen Sie eine Kampagne mit einer separaten universellen ID-basierten Platzierung und einer Legacy-ID-basierten Platzierung.
 
@@ -100,9 +100,9 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID]-basierte Segmente 
 
 ### Zulässige Varianzstufen
 
-Die Übersetzungsrate von Hash-E-Mail-Adressen auf universelle IDs sollte über 90 % liegen. Die Übersetzungsrate für [!DNL RampIDs] sollte insbesondere 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 übersetzt werden. [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs. Eine niedrigere Übersetzungsrate kann auf ein Problem hinweisen. Siehe &quot;[Ursachen von Abweichungen](#universal-ids-data-variances-reasons&quot; für mögliche Erklärungen.
+Die Übersetzungsrate von Hash-E-Mail-Adressen in universelle IDs sollte über 90 % liegen. Insbesondere für [!DNL RampIDs] sollte die Übersetzungsrate 95 % betragen, wenn alle Hash-E-Mail-Adressen eindeutig sind. Wenn Sie beispielsweise 100 Hash-E-Mail-Adressen von Ihrer Kundendatenplattform senden, sollten diese in mindestens 95 [!DNL RampIDs] oder mehr als 90 andere Typen universeller IDs übersetzt werden. Eine niedrigere Übersetzungsrate kann auf ein Problem hinweisen. Mögliche Erklärungen finden Sie unter &quot;[Varianzursachen](#universal-ids-data-variances-reasons&quot;.
 
-Für [!DNL RampIDs]Wenden Sie sich an Ihr Adobe Account Team, um weitere Informationen zu erhalten, falls die Übersetzungsraten unter 70 % liegen.
+Wenden Sie sich für [!DNL RampIDs] an Ihr Adobe Account Team, um weitere Informationen zu erhalten, wenn die Übersetzungsraten unter 70 % liegen.
 
 ### Ursachen von Abweichungen {#universal-ids-data-variances-causes}
 
@@ -110,23 +110,23 @@ Für [!DNL RampIDs]Wenden Sie sich an Ihr Adobe Account Team, um weitere Informa
 
   Das probabilistische Modell weist eine Fehlervarianz von +/- 5 % auf. Das bedeutet, dass die Zielgruppenanzahl dadurch um 5 % überschätzt oder unterschätzt werden kann.
 
-* Hash-E-Mail-IDs übersetzt in [!DNL RampIDs]:
+* Hash-E-Mail-IDs, übersetzt in [!DNL RampIDs]:
 
-   * Wenn mehrere Profile dieselbe E-Mail-ID verwenden, kann die Anzahl der DSP Segmente niedriger sein als die Anzahl der Profile in Ihrer Kundendatenplattform. In Adobe Photoshop können Sie beispielsweise ein Unternehmenskonto und ein persönliches Konto mit einer einzelnen E-Mail-Adresse erstellen. Wenn jedoch beide Profile derselben Person angehören, werden die Profile einer E-Mail-ID und entsprechend einer [!DNL RampID].
+   * Wenn mehrere Profile dieselbe E-Mail-ID verwenden, kann die Anzahl der DSP Segmente niedriger sein als die Anzahl der Profile in Ihrer Kundendatenplattform. In Adobe Photoshop können Sie beispielsweise ein Unternehmenskonto und ein persönliches Konto mit einer einzelnen E-Mail-Adresse erstellen. Wenn jedoch beide Profile derselben Person angehören, werden die Profile einer E-Mail-ID und entsprechend einem [!DNL RampID] zugeordnet.
 
-   * A [!DNL RampID] kann auf einen neuen Wert aktualisiert werden. Wenn [!DNL LiveRamp] erkennt keine E-Mail-ID oder kann sie nicht einer vorhandenen [!DNL RampID] in der Datenbank, weist sie dann eine neue [!DNL RampID] zur E-Mail-ID hinzu. Zukünftig, wenn sie die E-Mail-ID einer anderen zuordnen können [!DNL RampID] oder weitere Informationen über dieselbe E-Mail-ID erfassen kann, wird die [!DNL RampID] auf einen neuen Wert. [!DNL LiveRamp] bezieht sich auf diese Aktion als Upgrade von einer &quot;abgeleiteten&quot; [!DNL RampID] zu &quot;gepflegt&quot; [!DNL RampID]. DSP erhält jedoch keine Zuordnungen zwischen abgeleiteten und gewarteten [!DNL RampIDs] und kann daher die vorherige Version der RampID nicht aus dem DSP Segment entfernen. In diesem Fall kann die Segmentanzahl größer als die Profilanzahl sein.
+   * Ein [!DNL RampID] kann auf einen neuen Wert aktualisiert werden. Wenn [!DNL LiveRamp] eine E-Mail-ID nicht erkennt oder sie nicht einer vorhandenen [!DNL RampID] in der Datenbank zuordnen kann, wird der E-Mail-ID eine neue [!DNL RampID] zugewiesen. Wenn sie zukünftig die E-Mail-ID einem anderen [!DNL RampID] zuordnen oder mehr Informationen über dieselbe E-Mail-ID erfassen können, aktualisieren sie [!DNL RampID] auf einen neuen Wert. [!DNL LiveRamp] bezieht sich auf diese Aktion, da ein Upgrade von einem &quot;abgeleiteten&quot; [!DNL RampID] auf einen &quot;gepflegten&quot; [!DNL RampID] durchgeführt wird. DSP erhält jedoch keine Zuordnungen zwischen abgeleitetem und verwaltetem [!DNL RampIDs] und kann daher die vorherige Version der RampID nicht aus dem DSP Segment entfernen. In diesem Fall kann die Segmentanzahl größer als die Profilanzahl sein.
 
-     Beispiel: Ein Benutzer meldet sich bei der [!DNL Adobe] und die Photoshop-Seite aufrufen. Wenn [!DNL LiveRamp] keine vorhandenen Informationen über die E-Mail-ID hat, weist sie ihr eine abgeleitete [!DNL RampID], beispielsweise D123. Fünfzehn Tage später besucht der Benutzer die gleiche Seite, jedoch [!DNL LiveRamp] hat die [!DNL RampID] während dieser 15 Tage und hat die [!DNL RampID] zu M123. Obwohl das Segment &quot;Photoshop Enthusiast&quot;der Kundendatenplattform nur eine E-Mail-ID für den Benutzer hat, verfügt das DSP-Segment über zwei Ramp-IDs: D123 und M123.
+     Beispiel: Ein Benutzer meldet sich bei der [!DNL Adobe] -Website an und besucht die Photoshop-Seite. Wenn [!DNL LiveRamp] keine vorhandenen Informationen über die E-Mail-ID hat, wird ihr eine abgeleitete [!DNL RampID], z. B. D123, zugewiesen. Fünfzehn Tage später besucht der Benutzer dieselbe Seite, aber [!DNL LiveRamp] hat die [!DNL RampID] in diesen 15 Tagen aktualisiert und die [!DNL RampID] der M123 neu zugewiesen. Obwohl das Segment &quot;Photoshop Enthusiast&quot;der Kundendatenplattform nur eine E-Mail-ID für den Benutzer hat, verfügt das DSP-Segment über zwei Ramp-IDs: D123 und M123.
 
 ## Fehlerbehebung
 
 Wenn keine Benutzerzahlen angezeigt werden oder Ihre Zielgruppengrößen niedrig sind, überprüfen Sie Folgendes:
 
-* Wenn Sie [!DNL Flashtalking] oder [!DNL Google Campaign Manager 360] Anzeigen hinzufügen, stellen Sie sicher, dass die Clickthrough-URLs Ihrer Anzeigen mit den richtigen Makros angehängt werden. Siehe Makros für [[!DNL Flashtalking] Anzeigen](/help/integrations/analytics/macros-flashtalking.md) und [[!DNL Google Campaign Manager 360] Anzeigen](/help/integrations/analytics/macros-google-campaign-manager.md).
+* Wenn Sie [!DNL Flashtalking] - oder [!DNL Google Campaign Manager 360] -Anzeigen verwenden, stellen Sie sicher, dass die Clickthrough-URLs Ihrer Anzeigen mit den richtigen Makros angehängt sind. Siehe Makros für [[!DNL Flashtalking] Anzeigen](/help/integrations/analytics/macros-flashtalking.md) und [[!DNL Google Campaign Manager 360] Anzeigen](/help/integrations/analytics/macros-google-campaign-manager.md).
 
-* Stellen Sie sicher, dass auf Ihrer Website der korrekte, universelle ID-Partner-spezifische Code implementiert ist, um On-site-Ereignisse und Anzeigenbelichtungen abzugleichen. Arbeiten mit [!DNL LiveRamp] oder [!DNL ID5] nach Bedarf.
+* Stellen Sie sicher, dass auf Ihrer Website der korrekte, universelle ID-Partner-spezifische Code implementiert ist, um On-site-Ereignisse und Anzeigenbelichtungen abzugleichen. Arbeiten Sie bei Bedarf mit Ihrem [!DNL LiveRamp] - oder [!DNL ID5] -Vertreter zusammen.
 
-* (Für [!DNL RampIDs] und [!DNL UID 2.0] IDs) Stellen Sie sicher, dass Ihre [DSP Datenquelle richtig konfiguriert](/help/dsp/audiences/sources/source-manage.md#source-settings)und dass die Benutzerzahlen für die generierten Zielgruppensegmente aufgefüllt werden.
+* (Für [!DNL RampIDs] - und [!DNL UID 2.0] -IDs) Stellen Sie sicher, dass Ihre [DSP-Datenquelle richtig konfiguriert ist](/help/dsp/audiences/sources/source-manage.md#source-settings) und dass die Benutzerzahlen für die generierten Zielgruppensegmente aufgefüllt sind.
 
 * Wenn Ihre Reichweite geringer ist als erwartet, überprüfen Sie, ob die Zielgruppensegmentlogik nicht zu detailliert ist.
 
@@ -139,6 +139,6 @@ Wenn Sie das Problem nicht beheben können, wenden Sie sich an Ihr Adobe-Account
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)
->* [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [ Manuelles Importieren authentifizierter Segmente aus  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

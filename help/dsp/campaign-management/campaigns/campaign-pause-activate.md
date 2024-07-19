@@ -19,7 +19,7 @@ Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten werden, bleib
 ## Eine Kampagne anhalten
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie neben dem Kampagnennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Klicken Sie neben dem Kampagnennamen auf **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten werden, bleib
 ## Aktivieren einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie neben dem Kampagnennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Klicken Sie neben dem Kampagnennamen auf **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Eine Kampagne bearbeiten](campaign-edit.md)
+>* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Eine Kampagne archivieren](campaign-archive-unarchive.md)

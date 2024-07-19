@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Baidu] Suchbegriffeinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Baidu] Suchbegriffe.
-exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+title: '[!DNL Baidu] Suchbegriffeinstellungen'
+description: Verweisen Sie auf die Einstellungen für  [!DNL Baidu] Keywords.
+exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] Keyword-Einstellungen
+# Einstellungen für [!DNL Baidu] Keywords
 
 ## [!UICONTROL Keyword Details]
 
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrere Suchbegriffe durch Kommas oder geben Sie sie in separate Zeilen ein. Verwenden Sie die folgende Syntax:
 
-* `keyword` für breitgefächerte Übereinstimmung
+* `keyword` für breite Übereinstimmung
 * `"keyword"` für Wortgruppenübereinstimmung
-* `[keyword]` für exakte Übereinstimmung
+* `[keyword]` für genaue Übereinstimmung
 
 >[!NOTE]
 >
->* [!DNL Baidu] erlaubt nur einen Übereinstimmungstyp pro Suchbegriff pro Anzeigengruppe. Beispielsweise kann Anzeigengruppe 1 nicht beide `"keyword"` und `[keyword]`.
->* Sie können negative Suchbegriffe aus dem [!UICONTROL Keywords] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
->* Ändern einer [!DNL Baidu] löscht den vorhandenen Suchbegriff und erstellt einen neuen mit einer neuen Suchbegriff-ID. Beim Ändern des Übereinstimmungstyps wird jedoch der vorhandene Suchbegriff nicht gelöscht.
+>* [!DNL Baidu] erlaubt nur einen Übereinstimmungstyp pro Suchbegriff pro Anzeigengruppe. Beispielsweise kann Anzeigengruppe 1 nicht sowohl `"keyword"` als auch `[keyword]` enthalten.
+>* Sie können negative Suchbegriffe aus der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie aus den Anzeigengruppen- und Kampagneneinstellungen erstellen.
+>* Wenn Sie einen [!DNL Baidu] -Suchbegriff ändern, wird der vorhandene Suchbegriff gelöscht und ein neuer mit einer neuen Suchbegriff-ID erstellt. Beim Ändern des Übereinstimmungstyps wird jedoch der vorhandene Suchbegriff nicht gelöscht.
 
-**[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Suchbegriffe ist *Aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Der Standardwert für neue Suchbegriffe ist *aktiv*.
 
 ## [!UICONTROL Bids]
 
@@ -38,11 +38,12 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 
 ## URL-Optionen
 
-**[!UICONTROL Base URL]:** (Kampagnen, die nur auf Keyword-Ebene verfolgt werden; optional) Die Landingpage-URL, zu der Benutzer beim Klicken auf Ihre Anzeige gelangen. Sie kann Umleitung und Trackingcode von Drittanbietern enthalten. Wenn Sie einen Wert eingeben, überschreibt er die Basis-URL für die Anzeige.
+**[!UICONTROL Base URL]:** (Kampagnen nur mit Keyword-Level-Tracking; optional) Die Landingpage-URL, zu der Benutzer beim Klicken auf Ihre Anzeige gelangen. Sie kann Folgendes umfassen:
+Umleitung und Trackingcode von Drittanbietern. Wenn Sie einen Wert eingeben, überschreibt er die Basis-URL für die Anzeige.
 
 Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für die Kampagne oder das Konto konfigurierten Anlagenparameter.
 
-Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung der [!UICONTROL EF Redirect] und das Hinzufügen von Tracking auf Suchbegriffebene, fügt dann Search, Social und Commerce automatisch einen eigenen Klick-Tracking-Code hinzu.
+Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung von [!UICONTROL EF Redirect] und das Hinzufügen von Tracking auf Suchbegriffebene umfassen, fügt Search, Social und Commerce automatisch einen eigenen Klick-Tracking-Code hinzu.
 
 >[!MORELIKETHIS]
 >

@@ -1,9 +1,9 @@
 ---
 title: Beenden Sie den laufenden Bulksheet-Auftrag.
 description: Erfahren Sie, wie Sie einen Bulksheet-Auftrag stoppen können, während er in Bearbeitung ist.
-exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können jeden Bulksheet-Auftrag stoppen, einschließlich der Veröffentlichu
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Stop job]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL O]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL O]**.
 
 >[!NOTE]
 >
@@ -28,5 +28,5 @@ Sie können jeden Bulksheet-Auftrag stoppen, einschließlich der Veröffentlichu
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
->* [Hochgeladene Bulksheets und Fehlerdateien löschen](bulksheet-delete.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
+>* [Löschen hochgeladener Bulksheets und Fehlerdateien](bulksheet-delete.md)

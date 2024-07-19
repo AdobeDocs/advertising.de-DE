@@ -33,11 +33,11 @@ Die Prognose enthält folgende Informationen:
 
    * **[!UICONTROL Impression]:** Die geschätzte Anzahl von Impressionen für die Targeting-Einstellungen.
 
-* **[!UICONTROL Budget Yield Curve]:** Die geschätzte Anzahl von Impressionen, die die Platzierung auf unterschiedlichen Budgetebenen liefern kann, wenn alle anderen Targeting-Einstellungen identisch sind.
+* **[!UICONTROL Budget Yield Curve]:** Die geschätzte Anzahl von Impressionen, die die Platzierung auf unterschiedlichen Budgetebenen bereitstellen kann, wenn alle anderen Targeting-Einstellungen identisch sind.
 
-* **[!UICONTROL Max Bid Yield Curve]:** Die geschätzten Ausgaben für die Platzierung auf unterschiedlichen Max. Gebotsebenen, wenn alle anderen Targeting-Einstellungen identisch sind.
+* **[!UICONTROL Max Bid Yield Curve]:** Die geschätzten Ausgaben für die Platzierung auf unterschiedlichen Max. Angebotsebenen, wenn alle anderen Targeting-Einstellungen identisch sind.
 
-* **[!UICONTROL Message]:** Enthält Informationen über die prognostizierte Ausgabe, einschließlich aller Szenarien, in denen die Prognose nicht erstellt werden konnte. Außerdem werden alle Targeting-Einstellungen hervorgehoben, die aufgrund fehlender Daten überprüft, aber in diesem Szenario nicht berücksichtigt wurden.
+* **[!UICONTROL Message]:** Bietet Informationen über die prognostizierte Ausgabe, einschließlich aller Szenarien, in denen die Prognose nicht generiert werden konnte. Außerdem werden alle Targeting-Einstellungen hervorgehoben, die aufgrund fehlender Daten überprüft, aber in diesem Szenario nicht berücksichtigt wurden.
 
 ### Budgetberechnung
 
@@ -69,11 +69,11 @@ Die Prognose enthält folgende Informationen:
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. Klicken Sie auf den Namen der Kampagne und anschließend auf **[!UICONTROL Placements]**.
+1. Klicken Sie auf den Namen der Kampagne und dann auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Suchen Sie die **[!UICONTROL Forecast]** oben rechts. Klicken Sie bei Bedarf auf ![Prognose](/help/dsp/assets/placement-forecast.png).
+1. Suchen Sie den Abschnitt **[!UICONTROL Forecast]** oben rechts. Klicken Sie ggf. auf ![Prognose](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ Die Prognose enthält folgende Informationen:
 
 >[!MORELIKETHIS]
 >
->* [Arten von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
->* [Anzeigen der platzierungsdiagnostischen Berichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Anzeigen der Berichte zur Platzierungsdiagnose](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

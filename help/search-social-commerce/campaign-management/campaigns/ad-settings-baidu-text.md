@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Baidu] Einstellungen für Textanzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Baidu] Textanzeigen.
+title: '[!DNL Baidu] Einstellungen für Textanzeigen'
+description: Verweisen Sie auf die Einstellungen für  [!DNL Baidu] Textanzeigen.
 exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] Textanzeigeneinstellungen
+# [!DNL Baidu] Einstellungen für Textanzeigen
 
 >[!NOTE]
 >
->Ändern der Anzeigenkopie für eine [!DNL Baidu] und löscht die vorhandene Anzeige und erstellt eine neue Anzeige mit denselben Eigenschaften.
+>Wenn Sie die Anzeigenkopie für eine [!DNL Baidu] ändern, wird die vorhandene Anzeige gelöscht und eine neue Anzeige mit denselben Eigenschaften erstellt.
 
 ## [!UICONTROL Text Ad]
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** Die in einer Anzeige angezeigte URL. Die maximale Länge beträgt 35 Einzelbyte-Zeichen.
 
-**[!UICONTROL Mobile Preferred]:** (Optional) Ermöglicht dem Netzwerk, zu versuchen, die Anzeige- oder Anzeigenerweiterung für Benutzer mobiler Geräte und nicht für Benutzer von Desktop- oder Tablet-Geräten anzuzeigen. Standardmäßig ist die Option nicht aktiviert und die Anzeige kann auf jedem Gerätetyp angezeigt werden.
+**[!UICONTROL Mobile Preferred]:** (Optional) Ermöglicht dem Netzwerk, die Anzeige- oder Anzeigenerweiterung für Benutzer mobiler Geräte und nicht für Benutzer von Desktop- oder Tablet-Geräten anzuzeigen. Standardmäßig ist die Option nicht aktiviert und die Anzeige kann auf jedem Gerätetyp angezeigt werden.
 
 >[!NOTE]
 >

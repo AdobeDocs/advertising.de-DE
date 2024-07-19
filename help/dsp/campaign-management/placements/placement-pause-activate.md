@@ -19,14 +19,14 @@ Halten Sie eine Live-Platzierung an oder aktivieren Sie eine angehaltene Platzie
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Eine angehaltene Platzierung aktivieren
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >

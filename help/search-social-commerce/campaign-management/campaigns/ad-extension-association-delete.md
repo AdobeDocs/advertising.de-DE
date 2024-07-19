@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Löschen von Anzeigenerweiterungszuordnungen mit Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft Advertising] only*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising] nur*
 
 Sie können Zuordnungen auf Kampagnen- und Anzeigengruppenebene mit jeder beliebigen Standort-, Telefon- und Sitelink-Erweiterung löschen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben den einzelnen Zuordnungen, die Sie löschen möchten.
 
-   Tipps zur Auswahl mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Tipps zur Auswahl mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**.
+1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

@@ -5,7 +5,7 @@ feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe Advertising unterstützt die folgenden Währungen.
 
 >[!NOTE]
 >
->Adobe Analytics unterstützt [einen größeren Währungssatz](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics unterstützt [einen größeren Satz von Währungen](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP und Kreativ
 
@@ -27,15 +27,15 @@ Adobe Advertising unterstützt die folgenden Währungen.
 | BRL | Brasilianischer Real |
 | CAD | Kanada, Dollar |
 | CLP | Chilenischer Peso |
-| CNY | Chinesischer Renminbi |
+| CNY | Chinas Renminbi |
 | DKK | Dänische Krone |
 | EUR | Euro |
-| GBP | Vereinigtes Königreich Pfund |
-| HKD | Hongkong, Dollar |
+| GBP | Großbritannien, Pfund |
+| HKD | Hongkong Dollar |
 | INR | Indien, Rupie |
 | JPY | Japanischer Yen |
 | MXN | Mexiko, Peso |
-| MYR | Malaysischer Ringgit |
+| MYR | Malaysia Ringgit |
 | NZD | Neuseeland, Dollar |
 | RUB | Russischer Rubel |
 | SGD | Singapur, Dollar |
@@ -45,9 +45,9 @@ Adobe Advertising unterstützt die folgenden Währungen.
 
 >[!NOTE]
 >
-> [!DNL DSP] bietet Abrechnung nur in den folgenden Währungen: CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD und USD.
+> [!DNL DSP] erbringt die Abrechnung nur in folgenden Währungen: CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD und USD.
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-Alle von unterstützten Suchmaschinen unterstützten Währungen. Dies entspricht dem [von [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+Alle von unterstützten Suchmaschinen unterstützten Währungen. Dies entspricht den von  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes) unterstützten [Werten.
 

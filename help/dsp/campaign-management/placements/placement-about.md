@@ -28,21 +28,21 @@ Sie können eine Platzierung manuell oder durch Duplizieren einer vorhandenen Pl
 * Angeschlossener Fernseher
 * Universelle Videos
 
-## Die [!UICONTROL Placements] Dashboard
+## Das Dashboard [!UICONTROL Placements]
 
-Die [!UICONTROL Placements] Das Dashboard zentralisiert die Leistung und die Wirtschaftlichkeit der Berichterstellung für alle Platzierungen und bietet einen schnellen Überblick darüber, wie Ihre Platzierungen innerhalb eines bestimmten Datumsbereichs abgeschnitten wurden.
+Das Dashboard [!UICONTROL Placements] zentralisiert die Leistung und die Wirtschaftlichkeit der Berichterstellung für alle Platzierungen und bietet einen schnellen Überblick darüber, wie Ihre Platzierungen innerhalb eines bestimmten Datumsbereichs ausgeführt wurden.
 
-![Platzierungs-Dashboard](/help/dsp/assets/placement-dashboard.png)
+![Dashboard &quot;Platzierungen&quot;](/help/dsp/assets/placement-dashboard.png)
 
 Das Dashboard enthält ein übergeordnetes, anpassbares Trenddiagramm mit drei Metriken.
 
 Im Dashboard werden standardmäßig auch Geschwindigkeit- und Versandmetriken nach Platzierung angezeigt. Sie können optional Leistungsmetriken für die Platzierungen anzeigen und benutzerdefinierte Spaltensätze erstellen. Sie können die gesamte Datentabelle als Bericht in den standardmäßigen Download-Ordner Ihres Browsers im XLSM-Format (Excel-Tabelle mit Makros) herunterladen.
 
-Für jede Platzierung können Sie eine Detailansicht öffnen ([die [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), das Leistungsmetriken, Geschwindigkeit- und Bereitstellungsmetriken sowie benutzerdefinierte Spaltensätze nach Site, Anzeige und Bestand sowie Häufigkeitsmetriken enthält. Sie können auch Schnellaktionen für die eingeschlossenen Sites, Anzeigen und Inventare durchführen, z. B. eine Site ausschließen, eine Anzeige aussetzen oder ein Geschäft bearbeiten. Um den Inspektor zu öffnen, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL More]** und klicken Sie anschließend auf **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** oder **[!UICONTROL Inventory]**. Sie können die Daten im [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]oder [!UICONTROL Inventory]  zum standardmäßigen Download-Ordner Ihres Browsers als Bericht im XLSM-Format.
+Für jede Platzierung können Sie eine detaillierte Ansicht ([das [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)) öffnen, die Leistungsmetriken, Geschwindigkeit- und Bereitstellungsmetriken sowie benutzerdefinierte Spaltensätze nach Site, Anzeige und Bestand sowie Häufigkeitsmetriken enthält. Sie können auch Schnellaktionen für die eingeschlossenen Sites, Anzeigen und Inventare durchführen, z. B. eine Site ausschließen, eine Anzeige aussetzen oder ein Geschäft bearbeiten. Um den Inspektor zu öffnen, halten Sie den Cursor über die Platzierungszeile, klicken Sie auf **[!UICONTROL More]** und klicken Sie dann auf **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** oder **[!UICONTROL Inventory]**. Sie können die Daten auf den Registerkarten [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency] oder [!UICONTROL Inventory] als Bericht im XLSM-Format in den standardmäßigen Download-Ordner Ihres Browsers exportieren.
 
 >[!NOTE]
 >
->Sie können den Inhalt und die Bereitstellung von Platzierungsberichten weiter anpassen über [benutzerspezifische Berichte](/help/dsp/reports/report-about.md).
+>Sie können den Inhalt und die Bereitstellung von Platzierungsberichten über [benutzerdefinierte Berichte](/help/dsp/reports/report-about.md) weiter anpassen.
 
 >[!MORELIKETHIS]
 >

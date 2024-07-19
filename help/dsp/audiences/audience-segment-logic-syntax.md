@@ -22,7 +22,7 @@ Wenn Sie wiederverwendbare Zielgruppen erstellen, können Sie die Segmentlogik m
 >[!NOTE]
 >
 >* Alle angegebenen Segmentgruppen sind eingeschlossen, es sei denn, ihnen wird vorangestellt! (der sie ausschließt).
->* Sie können [Segment-ID für eine Zielgruppe suchen](reusable-audience-clipboard.md) von [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Sie können die Segment-ID für eine Zielgruppe ](reusable-audience-clipboard.md) unter [!UICONTROL Audiences] > [!UICONTROL All audiences] finden.[
 
 Beispielsweise die folgende Logik:
 
@@ -42,8 +42,8 @@ bedeutet (in einfachem Englisch)
 
 >[!MORELIKETHIS]
 >
->* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage.](reusable-audience-clipboard.md)
+>* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)

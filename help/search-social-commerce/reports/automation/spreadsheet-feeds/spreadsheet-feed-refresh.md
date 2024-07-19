@@ -1,18 +1,18 @@
 ---
 title: Manuelles Aktualisieren von Tabellenbericht-Feeds
 description: Erfahren Sie, wie Sie die Daten in Tabellenfeeds manuell aktualisieren können.
-exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Manuelles Aktualisieren von Tabellenbericht-Feeds
 
-*Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
+*Nur für grundlegende Berichte und Berichte zur Modellgenauigkeit*
 
 >[!NOTE]
 >
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Refresh]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]**.
 
-1. (Optional) Sobald ein Feed [!UICONTROL Update Status] is *[!UICONTROL Finished]* klicken **[!UICONTROL XLSX]** neben dem Feed klicken und die Datei dann gemäß der üblichen Vorgehensweise Ihres Browsers öffnen oder speichern.
+1. (Optional) Sobald die [!UICONTROL Update Status] eines Feeds den Wert *[!UICONTROL Finished]* hat, klicken Sie neben dem Feed auf **[!UICONTROL XLSX]** und öffnen oder speichern Sie dann die Datei gemäß der üblichen Vorgehensweise Ihres Browsers.
 
 >[!MORELIKETHIS]
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
->* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
->* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
+>* [Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
+>* [Bearbeiten Sie die Einstellungen des Tabellenbericht-Feeds](spreadsheet-feed-edit.md)
+>* [Einstellungen für den Spreadsheet-Bericht](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Löschen von Tabellenbericht-Feeds](spreadsheet-feed-delete.md)

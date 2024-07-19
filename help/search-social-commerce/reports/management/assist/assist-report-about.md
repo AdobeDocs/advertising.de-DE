@@ -1,39 +1,39 @@
 ---
 title: Über Hilfsberichte
 description: Erfahren Sie mehr über Berichte, die Einblicke in Konversionspfade bieten.
-exl-id: b402727e-a639-48f9-96c9-33fa1edafc6b
+exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # Über Hilfsberichte
 
-*Werbetreibende mit Klick-Tracking in Search, Social &amp; Commerce und Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder in Feeds mit einem Token (`ef_id`) nur*
+*Werbetreibende mit Such-, Social- und Commerce-Klick-Tracking und Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder , die in Feeds mit einem Token (`ef_id`) bereitgestellt werden,*
 
-Hilfsberichte bieten Einblicke in die Konversionspfade für alle Suchbegriffe und Anzeigen eines Advertisers. In Berichten werden Daten verwendet, die über den Adobe Advertising-Konversions-Tracking-Dienst, das Adobe Analytics-Konversions-Tracking und Feed-Dateien mit Token (`ef_id`) und kann nur für Advertiser mit diesen Diensten generiert werden.
+Hilfsberichte bieten Einblicke in die Konversionspfade für alle Suchbegriffe und Anzeigen eines Advertisers. Hilfsprotokolle verwenden Daten, die über den Adobe Advertising-Konversions-Tracking-Dienst, das Adobe Analytics-Konversions-Tracking und Feed-Dateien mit Token (`ef_id`) erfasst werden, und können nur für Advertiser mit diesen Diensten generiert werden.
 
 >[!NOTE]
 >
 >* Ein Konversionspfad kann mehrere Portfolios durchlaufen.
->* Adobe Advertising speichert für jeden Web-Surfer vor einer Konversion immer die folgenden Ereignisse: a) den ersten bezahlten Klick, b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klick, und c) bis zu 10 Anzeigenimpressionen.
+>* Adobe Advertising speichert immer die folgenden Ereignisse für jeden Web-Surfer vor einer Konversion: a) den ersten gebührenpflichtigen Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klicks, und c) bis zu 10 Display-Impressionen.
 
 ## Typen von Hilfsberichten
 
-* [Die [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [Der [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
 
-* [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [Der [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
 
-* [Die [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [Der [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Die [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [Die [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [Die [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [Berichtseinstellungen für Hilfe](assist-report-settings.md)
->* [Hilfsbericht erstellen](assist-report-generate.md)
+>* [Der [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [Der [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [Der [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [Bereiten Sie die Berichtseinstellungen vor](assist-report-settings.md)
+>* [ Hilfsbericht erzeugen](assist-report-generate.md)
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Erstellen von Anzeigen mit [!DNL Flashtalking]
 
-Wenn Sie mehr über Advertising DSP gebührenpflichtige Adserving-Partnerschaft mit [!DNL Flashtalking], Kontakt [!DNL adcloud-support@adobe.com] für weitere Informationen.
+Wenn Sie mehr über die gebührenpflichtige Ad-Serving-Partnerschaft von Advertising DSP mit [!DNL Flashtalking] erfahren möchten, wenden Sie sich für weitere Informationen an [!DNL adcloud-support@adobe.com] .

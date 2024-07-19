@@ -1,5 +1,5 @@
 ---
-title: Detailbericht für einen privaten, [!UICONTROL On Demand]oder [!UICONTROL Simple Ad Serving] Deal
+title: Detaillierte Berichte für private Angebote, [!UICONTROL On Demand] oder [!UICONTROL Simple Ad Serving] Angebote anzeigen
 description: Erfahren Sie, wie Sie einen Bericht auf Deal-Ebene öffnen.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
@@ -23,7 +23,6 @@ Der Bericht auf Transaktionsebene umfasst die Anzahl der Auktionen, die Gebotsra
 >[!MORELIKETHIS]
 >
 >* [Anzeigen von Auktionseinblicken für ein privates Geschäft](/help/dsp/inventory/private-deal-auction-insights.md)
->* [Info [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-about.md)
->* [Über privates Inventar](private-inventory-about.md)
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Über den privaten Bestand](private-inventory-about.md)
 >* [Info [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
-

@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Statusfeld in den Anzeigeneinstellungen
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Anzeige: *Aktiv* (Bietbarkeit; Standard), *Angehalten* (um Gebote zu deaktivieren) oder *Gelöscht* (Löschen der Anzeige; nur vorhandene Anzeigen).
+**[!UICONTROL Status]:** Der Anzeigestatus der Anzeige: *Aktiv* (zur Aktivierung von Geboten; Standard), *Ausgesetzt* (zur Deaktivierung des Gebots) oder *Gelöscht* (zum Löschen der Anzeige; nur vorhandene Anzeigen).

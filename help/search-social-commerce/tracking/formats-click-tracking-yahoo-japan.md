@@ -1,9 +1,9 @@
 ---
-title: Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]
-description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yahoo! Japan Ads] Konten.
-exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
+title: Klick-Tracking-Formate für  [!DNL Yahoo! Japan Ads]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads] Konten.
+exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Die folgenden grundlegenden Tracking-Vorlagenformate gelten für gesponserte Anz
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}`
 
-oder wenn die Option für das automatische Tagging für das Konto in [!DNL Yahoo! Japan Ads]:
+oder wenn die Option für das automatische Tagging für das Konto in [!DNL Yahoo! Japan Ads] festgelegt ist:
 
 `http://pixel.everesttech.net/<advertiser_ID>/cq?ev_sid=<ad network ID>&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_dvc={device}&url=!{unescapedlpurl}/?yclid=<yclid>`
 
@@ -26,9 +26,9 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 

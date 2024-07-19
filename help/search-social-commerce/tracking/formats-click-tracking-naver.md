@@ -1,9 +1,9 @@
 ---
-title: Klick-Tracking-Formate für [!DNL Naver]
-description: Informationen zu den Klick-Tracking-Formaten für [!DNL Naver] Konten.
-exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+title: Klick-Tracking-Formate für  [!DNL Naver]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Naver] Konten.
+exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
 * `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 

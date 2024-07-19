@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Erweiterte Messlösungen
 
-Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr bester nächster Medienkurs ausgegeben werden sollte, oder die Auswirkungen ihrer Online-Werbung zu quantifizieren. In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Die [!DNL Strategic Advertising Consulting] Team unterstützt Marken- und Agenturpartner bei der Messung der Elemente ihrer [!DNL Adobe] Verbindungen werden durch Werbung zum Leben erweckt. Mit den umfassenden Attributionsmessungsangeboten hilft das Team bei der Implementierung kuratierter Targeting-Strategien mithilfe eines komplexen Messungs-Frameworks, sodass Marken ihre Medienentscheidungen einfach mit echten Ergebnissen verbinden können, die ihre Unternehmen vorantreiben. Das Team kann Ihnen bei Folgendem helfen:
+Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr bester nächster Medienkurs ausgegeben werden sollte, oder die Auswirkungen ihrer Online-Werbung zu quantifizieren. In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das [!DNL Strategic Advertising Consulting]-Team hilft Marken- und Agenturpartnern dabei zu messen, wie Elemente ihrer [!DNL Adobe]-Verbindungen durch Werbung zum Leben erweckt werden. Mit den umfassenden Attributionsmessungsangeboten hilft das Team bei der Implementierung kuratierter Targeting-Strategien mithilfe eines komplexen Messungs-Frameworks, sodass Marken ihre Medienentscheidungen einfach mit echten Ergebnissen verbinden können, die ihre Unternehmen vorantreiben. Das Team kann Ihnen bei Folgendem helfen:
 
 * Aktivieren von Messungsstudien über vollständige digitale Medienkampagnen
 
@@ -23,7 +23,7 @@ Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr bester nächster M
 
 Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer Werbekampagnen zu überprüfen:
 
-* **Reichweite, Häufigkeit und Konversionen im Haushalt**
+* **Reichweite, Häufigkeit und Konversionen auf der Basis der Haushalte**
 
   Erfahren Sie mehr über die gesamte Reichweite der Kampagne auf Haushaltsebene sowie über den Beitrag der einzelnen Bildschirme. Zu den Berichtsoptionen gehören:
 
@@ -68,7 +68,7 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
   Informieren Sie sich über die durch die Anzeigenbelichtung bedingte Inkrementalität und darüber, wie Medieninvestitionen Veränderungen im Kaufverhalten und inkrementellen Besuchen verursachen, mit Metriken wie Inkrementeffekt, Kosten pro inkrementellem Besuch und Besuchseinblicken.
 
-* **Transaction Insights**
+* **Transaktionsinsights**
 
   Reichern Sie Ihre Kampagnenstrategie mit deterministischen Kredit- und Lastschriftverkaufsdaten durch Segment-, Konkurrenzmarkt- und Kundenanalysen an.
 
@@ -76,15 +76,15 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
   Ermitteln Sie den Einfluss der Ad-Exponierung auf den Verkauf mithilfe robuster, deterministischer Kredit- und Debitverkaufsdaten.
 
-* **Experiment-Designer (A/B-Tests)**
+* **Designer-Experiment (A/B-Tests)**
 
   Vergleichen Sie das Verhalten und Sentiment randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
 
 ## Finden der optimalen Messgröße: Lösungen nach Vertikal
 
-* **Beliebig vertikal:**
+* **Beliebige Vertikale:**
 
-   * Experiment-Designer (Placebo und A/B-Tests)
+   * Designer-Test (Placebo und A/B-Test)
 
    * Benutzerbasierte Reichweite und Konversionen
 
@@ -102,13 +102,13 @@ Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer
 
      Jeder Kunde, der das Markenbewusstsein und die Wahrnehmung seiner Marke auf mehreren Bildschirmen messen möchte; am besten geeignet für Nischenzielgruppen
 
-* **QSR, Einzelhandel (Brick und Mortar):**
+* **QSR, Retail (Brick and Mortar):**
 
    * Transaktionsmessung
 
    * Foot Traffic Measurement
 
-* **QSR, Einzelhandel, Reisen:**
+* **QSR, Retail, Travel:**
 
    * Transaction Insights
 

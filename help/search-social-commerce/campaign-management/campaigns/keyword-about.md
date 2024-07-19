@@ -12,20 +12,21 @@ ht-degree: 0%
 
 # Über Suchbegriffe
 
-*[!DNL Google Ads]und [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]und vorhandene [!DNL Baidu] Nur Konten*
+*[!DNL Google Ads]und [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und vorhandene [!DNL Baidu] Konten nur*
 
 Ein Suchbegriff ist ein Wort oder eine Wortgruppe, die mit einer Anzeige verknüpft ist. Zu den Suchbegriffeinstellungen gehören der Suchbegriff-Übereinstimmungstyp, die maximalen Angebote, die bei der Auslösung Ihrer Anzeige durch den Suchbegriff verwendet werden, und (einige Anzeigennetzwerke) optionale Tracking-Parameter. Einstellungen auf Suchbegriffebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft.
 
 Sie können Suchbegriffe für jede Anzeigengruppe in einer Kampagne erstellen, die auf das Suchnetzwerk ausgerichtet ist.
 
-## Die [!UICONTROL Keywords] views
+## Die [!UICONTROL Keywords] -Ansichten
 
-Die [!UICONTROL Keywords] > [!UICONTROL Keywords] Die Ansicht listet alle gebotenen Suchbegriffe auf und die [!UICONTROL Keywords] > [!UICONTROL Negatives] -Ansicht listet alle Ihre negativen Suchbegriffe auf, für die keine Anzeigen angezeigt werden.
+Die Ansicht [!UICONTROL Keywords] > [!UICONTROL Keywords] listet alle gebotenen Suchbegriffe auf und die Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] listet alle Ihre negativen Suchbegriffe auf, für die keine Anzeigen angezeigt werden.
 
-Sie können Suchbegriffe für eine Suchanzeigengruppe aus dem [!UICONTROL Keywords] > [!UICONTROL Keywords] anzeigen. Sie können negative Suchbegriffe für eine Anzeigengruppe oder Kampagne entweder aus dem [!UICONTROL Keywords] > [!UICONTROL Negatives] oder in den Einstellungen für Kampagne und Anzeigengruppe anzeigen. Sie können auch den Status aktiver und ausgesetzter Suchbegriffe bearbeiten und ändern sowie negative Suchbegriffe löschen.
+Sie können Suchbegriffe für eine Suchanzeigengruppe über die Ansicht [!UICONTROL Keywords] > [!UICONTROL Keywords] erstellen. Sie können
+negative Suchbegriffe für eine Anzeigengruppe oder Kampagne entweder aus der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] oder aus den Einstellungen für Kampagne und Anzeigengruppe. Sie können auch den Status aktiver und ausgesetzter Suchbegriffe bearbeiten und ändern sowie negative Suchbegriffe löschen.
 
 >[!MORELIKETHIS]
 >
->* [Bietbare Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
->* [Negative Suchbegriffe erstellen](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
->* [Ändern des Status von Keywords und negativen Keywords](keyword-status-edit.md)
+>* [Bidable Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Erstellen Sie negative Suchbegriffe](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
+>* [Ändern des Status von Suchbegriffen und negativen Suchbegriffen](keyword-status-edit.md)

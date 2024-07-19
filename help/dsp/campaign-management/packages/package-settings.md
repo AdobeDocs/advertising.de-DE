@@ -22,13 +22,13 @@ ht-degree: 0%
 
 * **[!UICONTROL CPM]:** Die Kosten pro 1000 Impressionen (CPM).
 
-* **[!UICONTROL Description]:** Beschreibung der CPM-Gebühr.
+* **[!UICONTROL Description]:** Eine Beschreibung der CPM-Gebühr.
 
 >[!NOTE]
 >
->Abrechenbare Gebühren werden im [!UICONTROL Net CPM] Metrik.
+>Abrechenbare Gebühren werden in der Metrik [!UICONTROL Net CPM] angezeigt.
 
-Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md) überschreiben.
 
 ## [!UICONTROL Goals & Budget]
 
@@ -36,7 +36,7 @@ Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp
 
 * **[!UICONTROL Package level pacing]:** Diese Schrittstrategie funktioniert durch Geschwindigkeit und Begrenzung aller enthaltenen Platzierungen als *Gruppe*. Diese Strategie stellt sicher, dass alle Platzierungen innerhalb eines Pakets ganzheitlich optimiert werden, indem die Ausgaben auf der Grundlage von Leistung und Skalierung auf ausgewählte KPIs (Key Performance Indicators) verteilt werden.
 
-* **[!UICONTROL Placement level pacing]:**  Diese Schrittstrategie funktioniert durch Geschwindigkeit und Begrenzung aller enthaltenen Platzierungen *einzeln*. Die Best Practice ist, diese Strategie nur zu verwenden, um garantierte private Marktplatzierungen auszuführen.
+* **[!UICONTROL Placement level pacing]:** Diese Schrittstrategie funktioniert durch Geschwindigkeit und Begrenzung aller eingeschlossenen Platzierungen *einzeln*. Die Best Practice ist, diese Strategie nur zu verwenden, um garantierte private Marktplatzierungen auszuführen.
 
 **[!UICONTROL Flight Dates]:** Das Startdatum und Enddatum des Pakets insgesamt. Die Flugdaten müssen innerhalb der Flugdaten der Kampagne angegeben werden.
 
@@ -45,25 +45,25 @@ Sie können die Einstellung auf Paketebene auf der [Platzierungsebene](/help/dsp
 >* Die Flugdaten für alle Platzierungen, die diesem Package zugewiesen werden, müssen innerhalb dieser Daten enthalten sein.
 > * Sie können das Startdatum des Pakets nicht bearbeiten, wenn die benutzerdefinierte Beleuchtung aktiviert ist.
 
-**[!UICONTROL Activate Custom Flighting]:** Ermöglicht Ihnen die Erstellung von nicht gerade Geschwindigkeitsflügen für das Paket im [!UICONTROL Flighting] unten. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren und das Startdatum des Pakets nicht bearbeiten.
+**[!UICONTROL Activate Custom Flighting]:** Ermöglicht es Ihnen, für das Paket im Abschnitt [!UICONTROL Flighting] unten nicht gerade Geschwindigkeitsflüge zu erstellen. Nachdem Sie die benutzerdefinierte Beleuchtung aktiviert und das Paket gespeichert haben, können Sie die benutzerdefinierte Beleuchtung nicht deaktivieren und das Startdatum des Pakets nicht bearbeiten.
 
-**[!UICONTROL Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Die Obergrenze des Bruttobudgets und das Budgetintervall.
+**[!UICONTROL Budget]:** (Nur Pakete mit Paketebenen-Geschwindigkeit) Die Obergrenze des Bruttobudgets und das Budgetintervall.
 
 Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICONTROL All time]*. Geben Sie für Pakete ohne benutzerdefinierte Beleuchtung das Budgetintervall an: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* oder *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Gross Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene und dynamischem Margenmanagement) Die Bruttobudgetsobergrenze für die Dauer des Pakets.
+**[!UICONTROL Gross Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene und dynamischem Margenmanagement) Die Obergrenze des Bruttobudgets für die Dauer des Pakets.
 
-**[!UICONTROL Optimization Goal]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter [Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Pakete mit nur Geschwindigkeit auf Paketebene) Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter [Optimierungsziele und Verwendung dieser Ziele](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Pakete mit dem[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Nur Optimierungsziele) A [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) , das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete obere Trichterereignisse (wie Seitenbesuche und Zusatz zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik zur Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich Best Practices für die Erstellung für benutzerdefinierte Ziele und Kampagnen, die diese Ziele verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md)&quot; und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot;und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Ein [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md), das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete obere Trichterereignisse (wie Seitenbesuche und Zusatz zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik zur Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich Best Practices zum Erstellen für benutzerdefinierte Ziele und Kampagnen, die sie verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md)&quot;und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
 
-**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Optional; Pakete mit &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; Nur Optimierungsziele) Weist das Optimierungsmodell an, nur aus klickbasierten Konversionen zu lernen. Andernfalls lernt das Optimierungsmodell sowohl aus Klick- als auch aus impressionsbasierten Konversionen.
+**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Optional; Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot;und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Weist das Optimierungsmodell an, nur aus klickbasierten Konvertierungen zu lernen. Andernfalls lernt das Optimierungsmodell sowohl aus Klick- als auch aus impressionsbasierten Konversionen.
 
-**[!UICONTROL Conversion Metric]:** (Optional; Pakete mit &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; Nur Optimierungsziele) Das endgültige Konversionsereignis (z. B. Anmeldungen) oder der Umsatz-/Verkaufsbetrag (z. B. Käufe und Kaufwerte), das zur Berechnung der Rendite aus Werbeausgaben oder der Kosten pro Akquise verwendet wird. Wählen Sie aus einer Liste aller primären Ereignisse (&quot;Zielmetriken&quot;), die dem ausgewählten benutzerdefinierten Ziel zugeordnet sind. Wenn die Liste leer ist, bearbeiten Sie das benutzerdefinierte Ziel, um mindestens eines der zugrunde liegenden Ereignisse als Zielmetrik einzuschließen.
+**[!UICONTROL Conversion Metric]:** (Optional; Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot;und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Das endgültige Konversionsereignis (z. B. Anmeldungen) oder der Umsatz-/Verkaufsbetrag (z. B. Käufe und Kaufwerte), das zur Berechnung der Rendite aus Werbeausgaben oder der Kosten pro Akquise verwendet wird. Wählen Sie aus einer Liste aller primären Ereignisse (&quot;Zielmetriken&quot;), die dem ausgewählten benutzerdefinierten Ziel zugeordnet sind. Wenn die Liste leer ist, bearbeiten Sie das benutzerdefinierte Ziel, um mindestens eines der zugrunde liegenden Ereignisse als Zielmetrik einzuschließen.
 
 **[!UICONTROL Package Goal Type]:** (Nur Pakete mit benutzerdefinierten Optimierungszielen) Der Zweck des Pakets. Diese Einstellung hilft bei der Bestimmung der Optimierung des Pakets:
 
-* *[!UICONTROL Prospecting]:* Interessante Pakete konzentrieren sich auf die Akquise neuer Kunden.
+* *[!UICONTROL Prospecting]:* Die voraussichtlichen Pakete konzentrieren sich auf die Akquise neuer Kunden.
 
 * *[!UICONTROL Retargeting]:* Retargeting-Pakete konzentrieren sich auf die Wiederbelebung früherer Besucher oder Kunden.
 
@@ -71,13 +71,13 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 
 **[!UICONTROL Linked Package for Optimization Learnings Carryover]:** (Nur Pakete mit benutzerdefinierten Optimierungszielen) Ein weiteres Paket, dessen historische Daten als Eingabe für die Optimierung des Pakets verwendet werden.
 
-**[!UICONTROL Target]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Das Zielziel, das zum Tracking der Leistung verwendet wird.
+**[!UICONTROL Target]:** (Pakete mit nur Geschwindigkeit auf Paketebene) Das Zielziel, das zum Tracking der Leistung verwendet wird.
 
 >[!NOTE]
 >
 >Dieses Feld ist nur ein Benchmark und wird nicht für die Entscheidungsfindung verwendet.
 
-**[!UICONTROL Frequency Cap]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Die Häufigkeit, mit der ein eindeutiges Gerät, eine universelle ID oder eine Person (je nach angegebenem [!UICONTROL Cross Device Level] für die Kampagne und die Platzierung [!UICONTROL Targeting] -Einstellung) können Anzeigen aus dem Paket bereitgestellt werden. Optionen umfassen *[!UICONTROL Unlimited]* oder einen bestimmten Betrag pro Tag, Woche oder Monat.
+**[!UICONTROL Frequency Cap]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) Die Häufigkeit, mit der ein eindeutiges Gerät, eine universelle ID oder eine Person (je nach der festgelegten Einstellung [!UICONTROL Cross Device Level] für die Kampagne und der Einstellung [!UICONTROL Targeting] der Platzierung) aus Anzeigen des Pakets bereitgestellt werden kann. Zu den Optionen gehören *[!UICONTROL Unlimited]* oder ein bestimmter Betrag pro Tag, Woche oder Monat.
 
 >[!NOTE]
 >
@@ -85,27 +85,27 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 >* Die Best Practice besteht darin, Frequenzobergrenzen für die Prospektion und Retargeting auf Paketebene festzulegen.
 > * Höhere Frequenzobergrenzen führen zu höheren Ausgaben und Impressionen, aber geringerer Reichweite. Niedrigere Frequenzobergrenzen führen zu geringeren Ausgaben und Impressionen, aber zu höherer Reichweite.
 
-**[!UICONTROL Pace on]:** (Nur Pakete mit Pacing auf Paketebene) Worauf basiert:
+**[!UICONTROL Pace on]:** (Pakete mit nur Pacing auf Paketebene) Worauf basiert die Geschwindigkeit:
 
 * *[!UICONTROL Budget]:* (Standard) Diese Option liefert so viele Impressionen wie möglich innerhalb des zugewiesenen Package-Budgets.
 
-* *[!UICONTROL Impressions]:* Diese Option liefert Impressionen, bis eine angegebene Menge innerhalb eines bestimmten Intervalls erreicht wird. Wenn Sie diese Option auswählen, geben Sie die Anzahl der Impressionen und das Intervall an: *Ganzzeit,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* oder *[!UICONTROL Weekly]*.
+* *[!UICONTROL Impressions]:* Diese Option liefert Impressionen, bis eine angegebene Menge innerhalb eines bestimmten Intervalls erreicht ist. Wenn Sie diese Option auswählen, geben Sie die Anzahl der Impressionen und das Intervall an: *Gesamte Zeit,* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* oder *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Flight pacing]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) So beschleunigen Sie die Bereitstellung von Anzeigen über den gesamten Flug:
+**[!UICONTROL Flight pacing]:** (Pakete mit nur Geschwindigkeit auf Paketebene) So beschleunigen Sie die Anzeigenbereitstellung über den gesamten Flug:
 
-* *[!UICONTROL Even]:* sorgt für eine gleichmäßige Auslieferung während jedes Fluges mit einer Zielvorgabe von 50 % des Versands in der ersten Hälfte des Fluges.
+* *[!UICONTROL Even]:* Die Auslieferung erfolgt gleichmäßig über jeden Flug, wobei die Zielgruppe 50 % des Versands in der ersten Hälfte des Fluges beträgt.
 
-* *[!UICONTROL Slightly Ahead]:* (Standardeinstellung) Beschleunigt den Versand, sodass er 55-65 % vollständig während der gesamten Flugdauer ist.
+* *[!UICONTROL Slightly Ahead]:* (Die Standardeinstellung) Beschleunigt den Versand, sodass er zur Hälfte der Flugdauer zu 55-65 % vollständig ist.
 
-* *[!UICONTROL Frontload]:* Beschleunigen Sie den Versand, sodass er 65-75 % vollständig während des Fluges ist.
+* *[!UICONTROL Frontload]:* Beschleunigt den Versand, sodass er zur Hälfte des Fluges vollständig ist (65-75 %).
 
-* *[!UICONTROL Aggressive Frontload]:* Beschleunigt den Versand, sodass 75-85 % des gesamten Fluges vollständig sind.
+* *[!UICONTROL Aggressive Frontload]:* Beschleunigt den Versand, sodass er 75-85 % vollständig während des gesamten Fluges erreicht.
 
-**[!UICONTROL Intraday pacing]:** (Nur Pakete mit Geschwindigkeit auf Paketebene) So beschleunigen Sie die Bereitstellung von Anzeigen über jeden Tag innerhalb des Fluges:
+**[!UICONTROL Intraday pacing]:** (Pakete mit nur Geschwindigkeit auf Paketebene) So beschleunigen Sie die Anzeigenbereitstellung über jeden Tag innerhalb des Fluges:
 
-* *[!UICONTROL Even]:* (Standard) Skaliert die Bereitstellung auf der Grundlage der Lagerverfügbarkeit. Im Allgemeinen werden pro Stunde mehr Anzeigen zur Verfügung gestellt, wenn das Auktionsvolumen höher ist, und morgens und abends weniger Anzeigen geliefert.
+* *[!UICONTROL Even]:* (Die Standardeinstellung) Skaliert die Bereitstellung auf Grundlage der Lagerverfügbarkeit. Im Allgemeinen werden pro Stunde mehr Anzeigen zur Verfügung gestellt, wenn das Auktionsvolumen höher ist, und morgens und abends weniger Anzeigen geliefert.
 
-* *[!UICONTROL ASAP]:* Beschleunigt die Bereitstellung auf die doppelte Geschwindigkeit von *Selbst*.
+* *[!UICONTROL ASAP]:* Beschleunigt die Bereitstellung auf die doppelte Geschwindigkeit von *Even*.
 
   >[!CAUTION]
   >
@@ -113,17 +113,17 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 
 ## [!UICONTROL Flighting]
 
-(Pakete mit Geschwindigkeit auf Paketebene) Die Flugzeiten des Pauschalangebots, einschließlich benutzerspezifischer Flugzeiten innerhalb der Gesamtdauer [!UICONTROL Flight Dates] für das Paket. Sie können benutzerdefinierte Flüge nur konfigurieren, wenn die Variable [!UICONTROL Activate Custom Flighting] ist in der [!UICONTROL Goals & Budget] Abschnitt.
+(Pakete mit Geschwindigkeit auf Paketebene) Die Flugzeiten des Pakets, einschließlich benutzerdefinierter Flugzeiten innerhalb der gesamten [!UICONTROL Flight Dates] für das Paket. Sie können benutzerdefinierte Flüge nur konfigurieren, wenn die Option [!UICONTROL Activate Custom Flighting] im Abschnitt [!UICONTROL Goals & Budget] aktiviert ist.
 
-**[!DNL Flight N]:** (Nur verfügbar, wenn die Variable [!UICONTROL Activate Custom Flighting] -Option aktiviert ist) Geben Sie für jeden Flug das Startdatum, das Enddatum und das Zielausgabenziel an. Um einen weiteren Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (Nur verfügbar, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist) Geben Sie für jeden Flug das Start- und Enddatum sowie das Ziel der Zielausgabe an. Um einen weiteren Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]**.
 
-Bei vorhandenen Paketen können Sie optional einen Wert in die [!UICONTROL Rollover] Spalte für jeden Flug, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen. Der projizierte Wert im [!UICONTROL Adjusted Goal (Goal + Rollover)] entsprechend geändert.<!-- clarify usage -->
+Für bestehende Pakete können Sie optional einen Wert in die Spalte [!UICONTROL Rollover] für jeden Flug eingeben, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen. Der projizierte Wert in der Spalte [!UICONTROL Adjusted Goal (Goal + Rollover)] wird entsprechend geändert.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
 >
->* [Über Package Management](package-about.md)
+>* [Über die Paketverwaltung](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Platzierung an ein Paket anhängen](package-attach-placement.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
->* [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [FAQs zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

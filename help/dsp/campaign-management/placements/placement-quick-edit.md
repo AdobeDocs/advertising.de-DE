@@ -18,24 +18,24 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten von Platzierungseinstellungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Informationen zum Bearbeiten von Platzierungseinstellungen finden Sie unter &quot;[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Bearbeiten von verfügbaren [Platzierungseinstellungen](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, und **[!UICONTROL Budget]**.
-1. Klicks **[!UICONTROL Apply]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Bearbeiten Sie eine der verfügbaren [Platzierungseinstellungen](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** und **[!UICONTROL Budget]**.
+1. Klicken Sie auf **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
->* [Platzierung duplizieren](placement-duplicate.md)
+>* [Duplizieren einer Platzierung](placement-duplicate.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
->* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
->* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
+>* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](placement-edit-ad-schedule.md)
+>* [Eine Platzierung anhalten oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Anleitung zum Bearbeiten von Platzierungen mithilfe der Tools für die Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -20,7 +20,7 @@ Die Datendatei muss im Format &quot;Flattext&quot;(TXT), &quot;Komma-getrennte W
 
 * **Kopfzeile:** (Optional) Die erste Zeile der Datei ist eine Kopfzeile, die die erforderlichen Feldnamen (oder Spaltennamen) in einer bestimmten Reihenfolge angibt, getrennt durch Registerkarten oder Kommas. Die erforderlichen Spaltennamen enthalten die Konversionsmetriken, die von Adobe Advertising als Konversionen verfolgt werden.
 
-* **Datenzeilen:** Jede nachfolgende Zeile enthält Datenfelder in derselben Reihenfolge wie die Kopfzeile und durch Tabulatoren oder Kommas getrennt. Wenn der erste Datensatz keine Kopfzeile ist, muss jede Datenzeile alle möglichen Felder in einer angegebenen Reihenfolge enthalten. Die Werte aller IDs und Konversionsmetriken müssen alphanumerisch sein.
+* **Datenzeilen:** Jede nachfolgende Zeile enthält Datenfelder in der gleichen Reihenfolge wie die Kopfzeile und durch Registerkarten oder Kommas getrennt. Wenn der erste Datensatz keine Kopfzeile ist, muss jede Datenzeile alle möglichen Felder in einer angegebenen Reihenfolge enthalten. Die Werte aller IDs und Konversionsmetriken müssen alphanumerisch sein.
 
   Wenn mehrere Klicks auf eine oder mehrere Anzeigen zu einer Transaktion führen, müssen Sie die Klick-ID und die Tracking-ID bestimmen, der die Transaktion zugeordnet werden soll. Da für jede Transaktion eine eindeutige ID gemeldet wird, können Sie einzelne Transaktionen aktualisieren.
 

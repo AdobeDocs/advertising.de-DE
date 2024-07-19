@@ -18,7 +18,7 @@ Diagnostische Berichte können Ihnen bei der Diagnose von Problemen bei der Plat
 
 ## Informationen in platzierungsdiagnostischen Berichten
 
-* **[!UICONTROL Change Log]:** Zeigt Änderungen an den Einstellungen für die Schlüsselplatzierung, wie Name, Status und Höchstgebot. Jeder Eintrag enthält das Datum und den Benutzernamen der Person, die die Änderung vorgenommen hat.
+* **[!UICONTROL Change Log]:** Zeigt Änderungen an den Einstellungen für die Schlüsselplatzierung an, z. B. Name, Status und Höchstgebot. Jeder Eintrag enthält das Datum und den Benutzernamen der Person, die die Änderung vorgenommen hat.
 
 * **[!UICONTROL Ad Approvals]:** Zeigt an, ob Anzeigen von den Inventaranbietern genehmigt oder abgelehnt wurden. Sie können optional den Status einer Anzeige ändern (z. B. eine zurückgewiesene Anzeige anhalten) oder die Anzeigeneinstellungen öffnen.
 
@@ -32,17 +32,17 @@ Diagnostische Berichte können Ihnen bei der Diagnose von Problemen bei der Plat
 
       1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-      1. Klicken Sie auf den Namen der Kampagne und anschließend auf **[!UICONTROL Placements]**.
+      1. Klicken Sie auf den Namen der Kampagne und dann auf **[!UICONTROL Placements]**.
 
-      1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-   1. Klicken Sie oben rechts auf ![Placement-Diagnose](/help/dsp/assets/placement-diagnostics.png).
+   1. Klicken Sie oben rechts auf ![Placement Diagnostics](/help/dsp/assets/placement-diagnostics.png).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Anzeigen des Änderungsprotokolls:
 
-      1. Klicks **[!UICONTROL Change Log]**.
+      1. Klicken Sie auf **[!UICONTROL Change Log]**.
 
       1. (Optional) Filtern Sie die Berichtsergebnisse:
 
@@ -56,9 +56,9 @@ Diagnostische Berichte können Ihnen bei der Diagnose von Problemen bei der Plat
 
       1. Klicken Sie oben rechts auf **[!UICONTROL Ad Approvals]**.
 
-      1. (Optional) Um die Anzeige anzuhalten oder zu aktivieren, klicken Sie auf den Statuswechsel (![Statusschalter](/help/dsp/assets/status-switch.png)) in der Anzeigenspalte).
+      1. (Optional) Um die Anzeige anzuhalten oder zu aktivieren, klicken Sie auf den Statuswechsel (![Statuswechsel](/help/dsp/assets/status-switch.png)) in der Spalte Anzeige .
 
-      1. (Optional) Um die Einstellungen für eine Anzeige zu öffnen, klicken Sie auf **[!UICONTROL View Ad]** neben der Anzeige.
+      1. (Optional) Um die Einstellungen für eine Anzeige zu öffnen, klicken Sie neben der Anzeige auf **[!UICONTROL View Ad]** .
 
    * So sehen Sie, warum DSP kein Angebot für die Platzierung abgegeben hat:
 
@@ -70,6 +70,6 @@ Diagnostische Berichte können Ihnen bei der Diagnose von Problemen bei der Plat
 
 >[!MORELIKETHIS]
 >
->* [Arten von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
 >* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

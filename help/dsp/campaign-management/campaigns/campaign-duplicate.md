@@ -17,10 +17,10 @@ ht-degree: 0%
 Duplizieren Sie eine Kampagne, um eine neue Kampagne mit ähnlichen Einstellungen zu erstellen. Sie können:
 
 * Duplizieren Sie die Kampagne für den ursprünglichen Advertiser oder für einen anderen
-* Optional Duplizieren Sie die Originalpakete und -platzierungen
+* Optional Duplizieren Sie die ursprünglichen Pakete und Platzierungen
 * Ändern der Flugdaten der neuen Kampagne
 
-Siehe[Nicht duplizierte Elemente](#campaign-not-duplicated)&quot; für eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &quot;[Was ist nicht dupliziert](#campaign-not-duplicated)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -34,7 +34,7 @@ Siehe[Nicht duplizierte Elemente](#campaign-not-duplicated)&quot; für eine List
 
       Standardmäßig wird die neue Kampagne dem ursprünglichen Advertiser zugewiesen, hat einen Flugplan, der am aktuellen Tag beginnt, und enthält die ursprünglichen Pakete und Platzierungen.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicken Sie auf **[!UICONTROL Submit]**.
 
 ## Nicht duplizierte Elemente {#campaign-not-duplicated}
 
@@ -43,18 +43,17 @@ Alle Einstellungen der ursprünglichen Platzierungen werden dupliziert, mit Ausn
 * Experimenteinstellungen
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
-* Standardplatzierungen für programmatisch garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
+* Standardplatzierungen für programmgarantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] Segmente (die die Segmente auf Advertiser-Ebene überschreiben)
+   * Segmente auf Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] (die die Segmente auf Advertiser-Ebene überschreiben)
 
 >[!MORELIKETHIS]
 >
->* [Über Campaign Management](campaign-about.md)
+>* [Info zu Campaign Management](campaign-about.md)
 >* [Erstellen einer Kampagne](campaign-create.md)
->* [Eine Kampagne bearbeiten](campaign-edit.md)
+>* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
 >* [Kampagneneinstellungen](campaign-settings.md)
-

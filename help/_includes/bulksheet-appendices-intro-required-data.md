@@ -14,5 +14,4 @@ Die folgende Tabelle zeigt, welche Felder erforderlich, optional oder nicht anwe
 >* Bei den Werten in allen Textspalten wird zwischen Groß- und Kleinschreibung unterschieden.
 >* Wenn Sie einen neuen Datensatz erstellen und keine Werte für alle erforderlichen Datenfelder einschließen, werden einigen dieser Felder die angegebenen Standardwerte zugewiesen.
 >* Für Felder, die unten nicht angegeben sind, wird der Standardwert für das Werbenetzwerk verwendet.
->* Eine Liste der verfügbaren Tabellenzeilen finden Sie im [!UICONTROL Download Bulksheet] Dialogfeld, siehe[Massenblatt-Zeilen nach Anzeigennetzwerk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
-
+>* Eine Liste der verfügbaren Bulksheet-Zeilen im Dialogfeld [!UICONTROL Download Bulksheet] finden Sie unter &quot;[Bulksheet-Zeilen nach Anzeigennetzwerk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;.

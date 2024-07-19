@@ -1,11 +1,11 @@
 ---
 title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden können.
-exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -26,16 +26,16 @@ Sie können sich direkt oder aus Adobe Experience Cloud bei Search, Social und C
 
 >[!NOTE]
 >
->Ihr Unternehmen muss in Adobe Experience Cloud bereitgestellt werden und Sie müssen über [Ihr Experience Cloud-Konto mit einem Search-, Social- und Commerce-Konto verknüpft hat](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Ihr Unternehmen muss in Adobe Experience Cloud bereitgestellt werden und Sie müssen Ihr Experience Cloud-Konto mit einem Search-, Social- und Commerce-Konto verknüpft haben](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).[
 
-1. [Bei Adobe Experience Cloud anmelden](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Melden Sie sich bei Adobe Experience Cloud an](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. Wählen Sie im oberen Menü ![Lösungsauswahl](/help/search-social-commerce/assets/menu-icon.png "Lösungsauswahl").
+1. Wählen Sie im oberen Menü ![Lösungsauswahl](/help/search-social-commerce/assets/menu-icon.png "Lösungsauswahl") aus.
 
-1. Wählen Sie im Untermenü **[!UICONTROL Advertising Cloud]**.
+1. Wählen Sie im Untermenü **[!UICONTROL Advertising Cloud]** aus.
 
 >[!MORELIKETHIS]
 >
 >* [Abmelden](log-out.md)
->* [Passwort ändern](/help/search-social-commerce/tools/password-change.md)
+>* [Kennwort ändern](/help/search-social-commerce/tools/password-change.md)
 >* [Organisation der Benutzeroberfläche](user-interface.md)

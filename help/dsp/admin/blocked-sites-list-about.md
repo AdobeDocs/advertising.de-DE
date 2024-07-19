@@ -14,18 +14,18 @@ ht-degree: 0%
 
 Sie können die Liste der gesperrten Sites bearbeiten, die für das gesamte DSP verwendet wird, sowie zusätzliche Listen für einzelne Advertiser im Konto.
 
-Blockierte Sites definieren Zielgruppen, die für Ihre Platzierungen ausgeschlossen werden sollen. Jede Liste kann aus Website-Domänen der obersten Ebene und einer beliebigen Ebene von Subdomains (z. B. beispiel.com, my.example.com oder my.new.example.com) sowie App-IDs oder Paketnamen (z. B. com.example.app123) bestehen.
+Blockierte Sites definieren Zielgruppen, die für Ihre Platzierungen ausgeschlossen werden sollen. Jede Liste kann aus Website-Domänen der obersten Ebene und beliebigen Unterdomänen (z. B. example.com, my.example.com oder my.new.example.com) sowie App-IDs oder Paketnamen (z. B. com.example.app123) bestehen.
 
 Listen auf Advertiser-Ebene überschreiben Listen auf Kontoebene.
 
 >[!NOTE]
 >
->* Zusätzlich zum DSP werden auf Kontoebene und auf Advertiser-Ebene Blockierungssite-Listen angewendet [global gesperrte Site-Liste](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites), die Sites enthalten, die für Anzeigen als unsicher gelten.
+>* Blockierungs-Site-Listen auf Kontoebene und auf Advertiser-Ebene werden zusätzlich zur DSP [global blockierten Site-Liste](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) angewendet, die Seiten enthält, die für Anzeigen als unsicher gelten.
 >* Benutzer können auch Targeting-Sites zu jeder Platzierung hinzufügen.
 >* Listen blockierter Sites überschreiben immer Listen zielgerichteter Sites. Wenn durch eine Platzierung dieselbe Zielgruppe für eine Anzeige ausgeschlossen und einbezogen wird, wird die Zielgruppe ausgeschlossen.
 
 >[!MORELIKETHIS]
 >
->* [Eine Liste mit blockierten Sites auf Kontoebene oder Advertiser-Ebene bearbeiten](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Bearbeiten einer Liste auf Kontoebene oder auf Advertiser-Ebene blockierter Sites](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

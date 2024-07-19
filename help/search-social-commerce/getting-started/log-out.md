@@ -1,11 +1,11 @@
 ---
 title: Abmelden
 description: Erfahren Sie, wo Sie sich abmelden können.
-exl-id: cebb97ca-8fa6-4b29-a3f7-613beb422450
+exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Ihre Anmeldesitzung endet automatisch, wenn Ihr Browser-Fenster 30 Minuten lang inaktiv ist.
 
-* Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil")und klicken Sie anschließend auf **[!UICONTROL Sign Out]**.
+* Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") und klicken Sie dann auf **[!UICONTROL Sign Out]**.
 
 >[!MORELIKETHIS]
 >

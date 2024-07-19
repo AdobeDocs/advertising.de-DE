@@ -1,9 +1,9 @@
 ---
 title: Berichtvorlage bearbeiten
 description: Erfahren Sie, wie Sie die Einstellungen für Ihre wiederverwendbaren Berichtsvorlagen bearbeiten.
-exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können die Einstellungen für jede von Ihnen erstellte Berichtsvorlage änd
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Klicken Sie auf **[!UICONTROL Templates]** Registerkarte.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
 1. Klicken Sie auf den Vorlagennamen.
 
@@ -24,13 +24,13 @@ Sie können die Einstellungen für jede von Ihnen erstellte Berichtsvorlage änd
 
    >[!NOTE]
    >
-   > Wenn Sie die Einstellungen bearbeiten, müssen Sie nicht das Kontrollkästchen neben &quot;[!UICONTROL Save as template]&quot; in der [!UICONTROL Scheduling and Delivery] Abschnitt. Auf diese Weise werden Sie aufgefordert, eine neue Vorlage mit einem anderen Namen zu erstellen.
+   > Wenn Sie die Einstellungen bearbeiten, müssen Sie das Kontrollkästchen neben &quot;[!UICONTROL Save as template]&quot;im Abschnitt &quot;[!UICONTROL Scheduling and Delivery]&quot;nicht aktivieren. Auf diese Weise werden Sie aufgefordert, eine neue Vorlage mit einem anderen Namen zu erstellen.
 
-1. Klicken **[!UICONTROL Update Template]**.
+1. Klicken Sie auf **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Berichtvorlagen](template-about.md)
->* [Berichtsvorlage erstellen](template-create.md)
->* [Berichtsvorlage anzeigen](template-view.md)
+>* [Erstellen einer Berichtsvorlage](template-create.md)
+>* [Berichtvorlage anzeigen](template-view.md)
 >* [Berichtvorlagen löschen](template-delete.md)

@@ -1,15 +1,15 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 # Feld &quot;Negative Suchbegriffe&quot;in Kampagnen- und Anzeigengruppeneinstellungen für Baidu, GGL, MS, YJP
 
-**[!UICONTROL Negative Keywords]:** (Optional) Alle Suchbegriffe, die bei der Abfrage keine Anzeige Trigger haben. Verwenden Sie die folgende Syntax ohne Minuszeichen (`-`):
+**[!UICONTROL Negative Keywords]:** (Optional) Suchbegriffe, die bei der Abfrage keine Anzeige Trigger haben. Verwenden Sie die folgende Syntax ohne Minuszeichen (`-`):
 
-* Negatives breites Match: `keyword` (nicht unterstützt von [!DNL Microsoft Advertising])
+* Negative breite Übereinstimmung: `keyword` (von [!DNL Microsoft Advertising] nicht unterstützt)
 * Negative Wortgruppenübereinstimmung: `"keyword"`
 * Negative exakte Übereinstimmung: `[keyword]`
 

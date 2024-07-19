@@ -1,9 +1,9 @@
 ---
 title: Überwachen und Verwalten der Leistung Ihrer Kampagnen
 description: Erfahren Sie, wie Sie die Leistung jeder Kampagne und jedes Portfolios überwachen und Änderungen vornehmen können, um Ihre Ziele zu erreichen.
-exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Überwachen und verwalten Sie die Leistung Ihrer Werbenetzwerk-Kampagnen.
 
-Das Adobe Account Team, das Agenturteam oder der Advertiser (je nach Vertragsbedingungen) müssen die Leistung der einzelnen Kampagnen und Portfolios überwachen (sofern zutreffend) und die entsprechenden Komponenten und Einstellungen entsprechend den vom Advertiser verfolgten Zielen ändern.
+Das Adobe Account-Team, das Agenturteam oder der Advertiser (je nach den Bedingungen der Service-Level-Vereinbarung) müssen die Leistung jeder Kampagne und jedes Portfolios überwachen (falls zutreffend) und die relevanten Komponenten und Einstellungen ändern, um die Ziele des Advertisers zu erreichen.
 
 ## Überwachen der Leistung von Kampagnen und Portfolios
 
 Führen Sie eine regelmäßige Überwachung der Leistung jeder Kampagne durch:
 
-* Anzeigen der [benutzerdefinierte Warnungen](/help/search-social-commerce/alerts/alert-view.md) die Ihnen zur Verfügung stehen.
+* Anzeigen der [benutzerdefinierten Warnhinweise](/help/search-social-commerce/alerts/alert-view.md), die für Sie verfügbar sind.
 
 * Anzeigen der Kontozusammenfassung und Leistungsdetails zu den enthaltenen Kampagnen.
 
-* Läuft [Berichte](/help/search-social-commerce/reports/report-about.md), einschließlich [die [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (falls zutreffend), [die [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)und gegebenenfalls zusätzliche Leistungsberichte. Wenn Sie Portfolios verwenden, vergleichen Sie die prognostizierte Leistung mit der tatsächlichen Leistung.
+* Ausführen von [Berichten](/help/search-social-commerce/reports/report-about.md), einschließlich [der [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (falls zutreffend), [der [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [der [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) und zusätzlicher Leistungsberichte, sofern zutreffend. Wenn Sie Portfolios verwenden, vergleichen Sie die prognostizierte Leistung mit der tatsächlichen Leistung.
 
 ## Verwalten der Leistung und Anpassen der Kampagnen- und Portfoliostrukturen
 

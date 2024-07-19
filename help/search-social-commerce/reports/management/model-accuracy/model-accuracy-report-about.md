@@ -1,9 +1,9 @@
 ---
 title: Über Berichte zur Modellgenauigkeit
 description: Erfahren Sie mehr über Berichte, die die Genauigkeit der Kosten- und Umsatzmodelle angeben, die zur Optimierung von Angeboten verwendet werden.
-exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 Berichte zur Modellgenauigkeit geben die Genauigkeit der Kosten- und Umsatzmodelle an, die zur Optimierung von Angeboten verwendet werden.
 
-Ungenauigkeiten können auf Leistungsprobleme hinweisen, sodass Sie die Portfolioeinstellungen möglicherweise anpassen müssen. Weitere Informationen zur Fehlerbehebung für Ungenauigkeiten bei Prognosen finden Sie unter &quot;Häufig gestellte Fragen zu Portfolios&quot;im Abschnitt &quot;Portfolio&quot;des Optimierungshandbuchs, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Ungenauigkeiten können auf Leistungsprobleme hinweisen, sodass Sie die Portfolioeinstellungen möglicherweise anpassen müssen. Weitere Informationen zur Fehlerbehebung für Ungenauigkeiten bei Prognosen finden Sie unter &quot;Häufig gestellte Fragen zu Portfolios&quot;im Abschnitt Portfolios des Optimierungshandbuchs, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Typen von Modellgenauigkeitsberichten
 
-* [Die [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+* [Der [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 
-* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+* [Der [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Die [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Modellexaktionsbericht generieren](model-accuracy-report-generate.md)
+>* [Der [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [Der [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [ Modellgenauigkeitsbericht erzeugen](model-accuracy-report-generate.md)
 >* [Berichtseinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)

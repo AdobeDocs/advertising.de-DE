@@ -1,12 +1,12 @@
 ---
 title: Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets
 description: Erfahren Sie, wie Sie mit Bulksheets Classification-Werte zu Kontokomponenten zuweisen.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
 >[!NOTE]
 >
->Ihre Suchbegriffe und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md), was bedeutet, dass die Bearbeitung dieser Elemente die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Titel-Classification der neuen Entität nicht zugewiesen.
+>Ihre Suchbegriffe und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md), was bedeutet, dass durch deren Bearbeitung die vorhandene Entität gelöscht und eine neue erstellt wird. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Titel-Classification der neuen Entität nicht zugewiesen.
 
-1. [Bulksheet herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) enthält die Entitäten, denen Sie Beschriftungs-Classification-Werte zuweisen möchten:
+1. [Laden Sie ein Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) herunter, das die Entitäten enthält, denen Sie Beschriftungs-Classification-Werte zuweisen möchten:
 
-   * Im [!UICONTROL Rows and Columns] Registerkarte, erweitern Sie die [!UICONTROL Campaign] in der [!UICONTROL Bulksheet Columns] -Bereich.
+   * Erweitern Sie auf der Registerkarte [!UICONTROL Rows and Columns] die Liste [!UICONTROL Campaign] im Bereich [!UICONTROL Bulksheet Columns] .
 
-   * Erweitern Sie die [!UICONTROL Label Classification] Liste.
+   * Erweitern Sie die Liste [!UICONTROL Label Classification] .
 
    * Wählen Sie jede Classification aus, für die Sie eine Spalte in die Bulksheet-Datei aufnehmen möchten.
 
@@ -38,7 +38,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
    Sie können nicht nur Werte hinzufügen, sondern auch vorhandene Werte löschen, indem Sie sie aus den entsprechenden Zeilen entfernen. Um Werte aus einer übergeordneten Entität und ihren untergeordneten Entitäten zu entfernen, schließen Sie entweder a) nur die Zeile der übergeordneten Entität ein und entfernen Sie den vorhandenen Classification-Wert oder b) schließen Sie sowohl die übergeordnete Entität als auch ihre untergeordneten Entitäten ein und entfernen Sie den vorhandenen Classification-Wert aus allen übergeordneten und untergeordneten Zeilen.
 
-1. [Datei hochladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) , um die Verknüpfungen zu erstellen.
+1. [Laden Sie die Datei hoch](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) , um die Verknüpfungen zu erstellen.
 
 Die hochgeladenen Beschriftungswerte sind in den relevanten Entitätsansichten sichtbar.
 
@@ -62,7 +62,7 @@ Dieses Beispiel enthält Spalten für Beschriftungsklassifizierungen &quot;Farbe
 >
 >* [Über Beschriftungsklassifizierungen](classification-about.md)
 >* [Erstellen einer Bezeichnungsklassifizierung](classification-create.md)
->* [Zuweisen von Classification-Werten zu Kontokomponenten aus Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md)
->* [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](classification-values-remove.md)
->* [Löschen von Bezeichnungsklassifizierungswerten](classification-values-delete.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus Ansichten der Kampagnenverwaltung](classification-values-assign-campaign-management.md)
+>* [Entfernen Sie Beschriftungs-Classification-Werte aus Kontokomponenten](classification-values-remove.md)
+>* [Löschen von Beschriftungs-Classification-Werten](classification-values-delete.md)
 >* [Beschriftungsklassifizierungen löschen](classification-delete.md)

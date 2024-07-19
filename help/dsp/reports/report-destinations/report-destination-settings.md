@@ -22,11 +22,11 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Name]:** Ein Name, der Ihnen bei der Identifizierung des Ziels hilft.
 
-**[!UICONTROL S3 Bucket URL]:** Der vollständige Pfad zum Ordner auf der [!DNL Amazon Simple Storage Service] (S3), in den der Bericht hochgeladen wird. Beispiel: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Der vollständige Pfad zum Ordner im Behälter [!DNL Amazon Simple Storage Service] (S3), in den der Bericht hochgeladen wird. Beispiel: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** Die Zugriffsschlüssel-ID für ([!DNL Amazon S3]) Behälter (bereitgestellt von [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** Die Zugriffsschlüssel-ID für den Bucket ([!DNL Amazon S3]) (bereitgestellt von [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** Der geheime Zugriffsschlüssel für ([!DNL Amazon S3]) Behälter (bereitgestellt von [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** Der geheime Zugriffsschlüssel für den Bucket ([!DNL Amazon S3]) (bereitgestellt von [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 
@@ -34,7 +34,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -48,7 +48,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -62,7 +62,7 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 
 **[!UICONTROL Server]:** Der Hostname für den Server.
 
-**[!UICONTROL Port]:** Die auf dem Server zu verwendende Portnummer. Der Standardwert ist *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Die Portnummer, die auf dem Server verwendet werden soll. Der Standardwert ist *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Der Benutzername, der beim Server angemeldet werden soll.
 
@@ -73,6 +73,6 @@ Die für Nicht-E-Mail-Berichtsziele erforderlichen Details variieren je nach Zie
 >[!MORELIKETHIS]
 >
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

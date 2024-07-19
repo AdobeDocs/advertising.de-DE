@@ -1,9 +1,9 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] Anzeigengruppeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Yahoo! Japan Ads] Anzeigengruppen.
-exl-id: 987c9627-06b3-447a-aa1b-a4040f4f5a0c
+title: '[!DNL Yahoo! Japan Ads] Anzeigengruppeneinstellungen'
+description: Referenzieren Sie die Einstellungen für  [!DNL Yahoo! Japan Ads] Anzeigengruppen.
+exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Ein Anzeigengruppenname, der innerhalb der Kampagne eindeutig ist.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *Aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *aktiv*.
 
 ## [!UICONTROL Budget Options]
 

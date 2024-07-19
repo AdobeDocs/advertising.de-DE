@@ -16,20 +16,20 @@ Sie können Details zu allen Anzeigen in einer Kampagne im XLSX-Format (Excel-Ta
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten Ihrer Anzeigeneinstellungen finden Sie unter [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md).
->*Informationen zum gleichzeitigen Ändern der Tracking-Pixel von Drittanbietern oder zum Anfügen von Anzeigen an Platzierungen finden Sie unter &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
+>*Informationen zum Bearbeiten Ihrer Anzeigeneinstellungen finden Sie unter [Bearbeiten einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter &quot;[Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Öffnen Sie die [!UICONTROL Ad Tools] auf eine der folgenden Arten anzuzeigen:
+1. Öffnen Sie die Ansicht [!UICONTROL Ad Tools] auf eine der folgenden Arten:
 
-   * (Von der [!UICONTROL Packages] , [!UICONTROL Placements]oder [!UICONTROL Ads] Ansicht) Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * (Klicken Sie in der Ansicht [!UICONTROL Packages] , [!UICONTROL Placements] oder [!UICONTROL Ads] rechts oben auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-   * (Von der [!UICONTROL Placements] view) Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Klicken Sie in der Ansicht [!UICONTROL Placements] neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * (Von der [!UICONTROL Ads] view) Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Klicken Sie in der Ansicht [!UICONTROL Ads] neben dem Anzeigennamen auf **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
 
@@ -37,11 +37,11 @@ Sie können Details zu allen Anzeigen in einer Kampagne im XLSX-Format (Excel-Ta
 
    1. Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png).
 
-   1. Wenn der Auftrag abgeschlossen ist und die Datei verfügbar ist, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
+   1. Wenn der Auftrag abgeschlossen ist und die Datei verfügbar ist, klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
       Die Datei wird als Arbeitsblattdatei (im XLSX-Format) gemäß der üblichen Vorgehensweise Ihres Browsers gespeichert.
 
 >[!MORELIKETHIS]
 >
->* [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md)
+>* [Bearbeiten einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)

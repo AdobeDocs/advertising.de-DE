@@ -1,20 +1,20 @@
 ---
 title: '''[!DNL Google Ads] erweiterte Einstellungen für dynamische Suchanzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] erweiterte dynamische Suchanzeigen.
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+description: Verweisen Sie auf die Einstellungen für erweiterte dynamische Suchanzeigen. [!DNL Google Ads]
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] erweiterte dynamische Suchanzeigeneinstellungen
+# [!DNL Google Ads] erweiterte Einstellungen für dynamische Suchanzeige
 
-Dynamische Suchanzeigen (DSAs) sind nur für [!DNL Google Ads] Suchen Sie dynamische Anzeigengruppen in reinen Suchkampagnen. Das Werbenetzwerk generiert dynamisch die Überschrift, wählt die Landingpage aus und zeigt die URL für eine dynamische Suchanzeige an. Anschließend wird automatisch die endgültige URL generiert.
+Dynamische Suchanzeigen (DSAs) sind nur für dynamische Anzeigengruppen mit [!DNL Google Ads] Suche in reinen Suchkampagnen verfügbar. Das Werbenetzwerk generiert dynamisch die Überschrift, wählt die Landingpage aus und zeigt die URL für eine dynamische Suchanzeige an. Anschließend wird automatisch die endgültige URL generiert.
 
-Weitere Informationen finden Sie in der Hilfe zu Google Ads für [Anzeigenbeschränkungen pro Konto](https://support.google.com/google-ads/answer/6372658?hl=en).
+Weitere Informationen zu den Anzeigenbeschränkungen pro Konto finden Sie in der Hilfe zu Google Ads [ .](https://support.google.com/google-ads/answer/6372658?hl=en)
 
 >[!NOTE]
 >
@@ -38,5 +38,5 @@ Weitere Informationen finden Sie in der Hilfe zu Google Ads für [Anzeigenbeschr
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Google Ads] Anzeigeneinstellungen, die nur aufgerufen werden können](ad-settings-google-call.md)
->* [[!DNL Google Ads] Einstellungen für responsive Suchanzeigen](ad-settings-google-rsa.md)
+>* [[!DNL Google Ads] Schreibgeschützte Anzeigeneinstellungen](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Einstellungen für responsive Suchanzeige](ad-settings-google-rsa.md)

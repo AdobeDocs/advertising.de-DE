@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # Tastaturbefehle
 
-Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu navigieren.<!-- and to create ads and placements -->.
+Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu navigieren.<!-- and to create ads and placements -->
 
 | Gültige Seite(n) | Tastaturbefehl | Beschreibung |
 | ---------------| ----------- | ---------------------- |
-| Platzierungseinstellungen | o | Verschiebt euch zum [!UICONTROL Goals] settings |
-| Platzierungseinstellungen | g | Verschiebt euch zum [!UICONTROL Geos] settings |
-| Platzierungseinstellungen | i | Verschiebt euch zum [!UICONTROL Inventory] settings |
-| Platzierungseinstellungen | s | Verschiebt euch zum [!UICONTROL Sites] settings |
-| Platzierungseinstellungen | a | Verschiebt euch zum [!UICONTROL Audience] settings |
-| Platzierungseinstellungen | b | Verschiebt euch zum [!UICONTROL Brand Safety] settings |
-| Platzierungseinstellungen | t | Verschiebt euch zum [!UICONTROL Tracking] settings |
-| Platzierungseinstellungen | l | Verschiebt euch zum [!UICONTROL Adobe Labs] settings |
+| Platzierungseinstellungen | o | Verschiebt Sie in die Einstellungen für [!UICONTROL Goals] . |
+| Platzierungseinstellungen | g | Verschiebt Sie in die Einstellungen für [!UICONTROL Geos] . |
+| Platzierungseinstellungen | i | Verschiebt Sie in die Einstellungen für [!UICONTROL Inventory] . |
+| Platzierungseinstellungen | s | Verschiebt Sie in die Einstellungen für [!UICONTROL Sites] . |
+| Platzierungseinstellungen | a | Verschiebt Sie in die Einstellungen für [!UICONTROL Audience] . |
+| Platzierungseinstellungen | b | Verschiebt Sie in die Einstellungen für [!UICONTROL Brand Safety] . |
+| Platzierungseinstellungen | t | Verschiebt Sie in die Einstellungen für [!UICONTROL Tracking] . |
+| Platzierungseinstellungen | l | Verschiebt Sie in die Einstellungen für [!UICONTROL Adobe Labs] . |
 
 {style="table-layout:auto"}
 

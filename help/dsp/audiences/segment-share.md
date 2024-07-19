@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Freigeben oder Beenden der Freigabe eines Segments
 
-Sie können Ihre benutzerdefinierten Segmente und CCPA-Opt-out-Kaufsegmente für zusätzliche DSP-Benutzerkonten freigeben. Durch die Freigabe eines Segments wird das Segment unter [!UICONTROL Audiences] > [!UICONTROL Segments] und auf [!UICONTROL Custom Segments] in den Platzierungen und wiederverwendbaren Zielgruppen der angegebenen Benutzer.
+Sie können Ihre benutzerdefinierten Segmente und CCPA-Opt-out-Kaufsegmente für zusätzliche DSP-Benutzerkonten freigeben. Durch die Freigabe eines Segments wird das Segment unter [!UICONTROL Audiences] > [!UICONTROL Segments] und auf der Registerkarte [!UICONTROL Custom Segments] in den Platzierungen und wiederverwendbaren Zielgruppen der angegebenen Benutzer verfügbar.
 
 Sie können auch die Freigabe eines Segments für andere DSP Benutzerkonten stoppen.
 
@@ -24,17 +24,16 @@ Sie können auch die Freigabe eines Segments für andere DSP Benutzerkonten stop
 
    * So geben Sie das Segment frei:
 
-      1. Geben Sie die **[!UICONTROL E-mail Address]** für den DSP Benutzer und klicken Sie dann auf **[!UICONTROL +]**.
+      1. Geben Sie die **[!UICONTROL E-mail Address]** für den DSP-Benutzer ein und klicken Sie dann auf **[!UICONTROL +]**.
 
-      1. (Optional) Geben Sie für jeden zusätzlichen Benutzer einen anderen **[!UICONTROL E-mail Address]** und klicken Sie anschließend auf **[!UICONTROL +]**.
-   * Um die Freigabe des Segments für einen Benutzer zu beenden, klicken Sie auf **[!UICONTROL Unshare]** neben der E-Mail-Adresse.
+      1. (Optional) Geben Sie für jeden zusätzlichen Benutzer einen weiteren **[!UICONTROL E-mail Address]** ein und klicken Sie dann auf **[!UICONTROL +]**.
 
+   * Um die Freigabe des Segments für einen Benutzer zu beenden, klicken Sie neben der E-Mail-Adresse auf **[!UICONTROL Unshare]** .
 
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
 >* [Benutzerdefiniertes Segment erstellen](custom-segment-create.md)
->* [Segmentinformationen bearbeiten](segment-edit.md)
+>* [Bearbeiten von Segmentinformationen](segment-edit.md)
 >* [Löschen eines Segments](segment-delete.md)
->* [Anzeigen von Tracking-Pixeln für ein Segment](segment-view-pixels.md)
-
+>* [Tracking-Pixel für ein Segment anzeigen](segment-view-pixels.md)

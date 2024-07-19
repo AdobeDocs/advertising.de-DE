@@ -5,7 +5,7 @@ exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -19,51 +19,50 @@ Ihr Kontoprofil enthält Ihre Anmeldedaten und andere Informationen. Einige Benu
 
    * So bearbeiten Sie die E-Mail-Adresse für das Benutzerkonto:
 
-      1. Neben dem vorhandenen **[!UICONTROL Email address]** klicken **[!UICONTROL Edit]**.
+      1. Klicken Sie neben dem vorhandenen **[!UICONTROL Email address]** auf **[!UICONTROL Edit]**.
 
       1. Geben Sie die neue E-Mail-Adresse und das vorhandene Kennwort für das Benutzerkonto ein.
 
-      1. Klicken **[!UICONTROL Continue]**.
+      1. Klicken Sie auf **[!UICONTROL Continue]**.
+
    * So bearbeiten Sie das Kennwort für das Benutzerkonto:
 
-      1. Neben dem vorhandenen **[!UICONTROL Password]** klicken **[!UICONTROL Change]**.
+      1. Klicken Sie neben dem vorhandenen **[!UICONTROL Password]** auf **[!UICONTROL Change]**.
 
       1. Geben Sie das neue Kennwort zweimal ein.
 
-      1. Klicken **[!UICONTROL Continue]**.
+      1. Klicken Sie auf **[!UICONTROL Continue]**.
+
    * So bearbeiten Sie die Sicherheitsfrage für das Benutzerkonto:
 
-      1. Neben dem vorhandenen **[!UICONTROL Security Question]** klicken **[!UICONTROL Change]**.
+      1. Klicken Sie neben dem vorhandenen **[!UICONTROL Security Question]** auf **[!UICONTROL Change]**.
 
-      1. Wählen Sie eine **[!UICONTROL Secret Question]** und geben Sie einen **[!UICONTROL Secret Question Answer]**.
+      1. Wählen Sie eine **[!UICONTROL Secret Question]** aus und geben Sie eine **[!UICONTROL Secret Question Answer]** ein.
 
-      1. Klicken **[!UICONTROL Continue]**.
+      1. Klicken Sie auf **[!UICONTROL Continue]**.
+
    * So bearbeiten Sie die standardmäßige Zeitzone für das Benutzerkonto:
 
-      1. Neben dem vorhandenen **[!UICONTROL Default Timezone]** klicken **[!UICONTROL Change]**.
+      1. Klicken Sie neben dem vorhandenen **[!UICONTROL Default Timezone]** auf **[!UICONTROL Change]**.
 
       1. Wählen Sie die neue Zeitzone aus.
 
-      1. (Optional) Um die Sommerzeit in den Berichtszeiten zu berücksichtigen, wählen Sie **[!UICONTROL Observe Daylight Savings Time]**.
+      1. (Optional) Wählen Sie &quot;**[!UICONTROL Observe Daylight Savings Time]**&quot;, um die Sommerzeit in den Berichtszeiten zu berücksichtigen.
 
-      1. Klicken **[!UICONTROL Continue]**.
-   * (Benutzer, die einen privaten Sitz auf [!DNL Google Authorized Buyers]) So bearbeiten Sie die private [!DNL Google Authorized Buyers] -Lizenz für das Benutzerkonto, das standardmäßig für alle Kampagnen verwendet wird:
+      1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-      1. Neben dem vorhandenen **[!UICONTROL Google AdEx ID]** klicken **[!UICONTROL Change]**.
+   * (Benutzer, die einen privaten Sitz auf [!DNL Google Authorized Buyers] verwenden möchten) So bearbeiten Sie den privaten [!DNL Google Authorized Buyers] -Platz für das Benutzerkonto, der standardmäßig für alle Kampagnen verwendet wird:
 
-      1. Geben Sie den neuen **[!UICONTROL Ad Group ID]**.
+      1. Klicken Sie neben dem vorhandenen **[!UICONTROL Google AdEx ID]** auf **[!UICONTROL Change]**.
 
-      1. Klicken **[!UICONTROL Save]**.
+      1. Geben Sie den neuen Wert **[!UICONTROL Ad Group ID]** ein.
 
+      1. Klicken Sie auf **[!UICONTROL Save]**.
 
-
-
-
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Einladen eines neuen Benutzers für Ihr Unternehmenskonto](user-invite.md)
-
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

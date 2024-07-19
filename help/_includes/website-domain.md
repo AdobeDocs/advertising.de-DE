@@ -7,9 +7,9 @@ ht-degree: 0%
 ---
 # Website-Domänenfeld in GGL- und MS-Suchkampagneneinstellungen
 
-**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen verfügbar) Die Stammdomäne (z. B. example.com) oder Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk zum Ansprechen Ihrer dynamischen Suchanzeigen verwenden sollte.
+**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen verfügbar) Die Stammdomäne (z. B. example.com) oder Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk für das Targeting Ihrer dynamischen Suchanzeigen verwenden sollte.
 
-**Hinweise:**
+**Notizen:**
 
 * Erweiterte dynamische Suchanzeigen zielen auf den Inhalt der Website und nicht auf Suchbegriffe ab.
 

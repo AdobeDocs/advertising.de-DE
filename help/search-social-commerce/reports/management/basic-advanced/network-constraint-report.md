@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Network Constraint Report]'
-description: Informationen zum [!UICONTROL Network Constraint Report].
-exl-id: 11eae03a-824f-4ba2-93f1-8e7532a8c8f0
+description: Erfahren Sie mehr über die [!UICONTROL Network Constraint Report].
+exl-id: ab908d86-2d37-476c-b2ac-f74c2f3a9a6d
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Network Constraint Report]
 
-Die [!UICONTROL Network Constraint Report] zeigt alle angegebenen Mindest- und Maximalbudgets für Werbenetzwerke sowie die tatsächlichen Ausgaben (Kosten) an. Der Bericht enthält Kosten-, Klick-, Impression-, Durchsichts- und (optional) Konversionsdaten für ein oder mehrere Portfolios. Standardmäßig enthalten die Daten eine Zeile für jedes zutreffende Ad-Network-Konto im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Portfolio und dann nach Anzeigennetzwerk.
+Die [!UICONTROL Network Constraint Report] zeigt alle angegebenen minimalen und maximalen Werbenetzwerk-Budgets sowie die tatsächlichen Ausgaben (Kosten) an. Der Bericht enthält Kosten-, Klick-, Impression-, Durchsichts- und (optional) Konversionsdaten für ein oder mehrere Portfolios. Standardmäßig enthalten die Daten eine Zeile für jedes zutreffende Ad-Network-Konto im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Portfolio und dann nach Anzeigennetzwerk.
 
-Die Daten sind ab dem 15. Oktober 2022 verfügbar.<!-- [Later: You can view data for the previous NN days.] -->
+Daten sind ab dem 15. Oktober 2022 verfügbar.<!-- [Later: You can view data for the previous NN days.] -->
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Portfolio Group Name]
@@ -38,5 +38,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
->* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

@@ -19,13 +19,13 @@ Duplizieren Sie ein Paket, um ein Paket mit ähnlichen Einstellungen zu erstelle
 * (Für duplizierte Pakete innerhalb der ursprünglichen Kampagnen) Duplizieren Sie optional die ursprünglichen Anzeigen und die Ereignispixel auf Platzierungsebene.
 * Ändern der Flugdaten des neuen Packages
 
-Siehe[Nicht duplizierte Elemente](#package-not-duplicated)&quot; für eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &quot;[Was ist nicht dupliziert](#package-not-duplicated)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] anzeigen.
+1. Klicken Sie auf den Namen der Kampagne, um die Ansicht [!UICONTROL Packages] zu öffnen.
 
-1. Klicken Sie neben dem Paketnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Klicken Sie neben dem Paketnamen auf **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Geben Sie die neuen Paketeinstellungen an:
 
@@ -43,7 +43,7 @@ Siehe[Nicht duplizierte Elemente](#package-not-duplicated)&quot; für eine Liste
 
       * Die Anzeigen und die Ereignispixel auf Platzierungsebene werden nicht in das neue Paket kopiert.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicken Sie auf **[!UICONTROL Submit]**.
 
 ## Nicht duplizierte Elemente {#package-not-duplicated}
 
@@ -52,18 +52,17 @@ Alle Einstellungen der ursprünglichen Platzierungen werden dupliziert, mit Ausn
 * Experimenteinstellungen
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
-* Standardplatzierungen für programmatisch garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
+* Standardplatzierungen für programmgarantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] Segmente (die die Segmente auf Advertiser-Ebene überschreiben)
+   * Segmente auf Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] (die die Segmente auf Advertiser-Ebene überschreiben)
 
 >[!MORELIKETHIS]
 >
->* [Über Package Management](package-about.md)
+>* [Über die Paketverwaltung](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Paketeinstellungen](package-settings.md)
-

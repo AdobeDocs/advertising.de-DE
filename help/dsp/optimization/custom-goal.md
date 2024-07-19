@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Benutzerdefinierte Ziele
 
-Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das das Optimierungsziel verwendet &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; muss ein benutzerdefiniertes Ziel enthalten, um das Gesamtoptimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce]. Dem Namen jedes Ziels für DSP muss &quot;ADSP_&quot;vorangestellt werden.
+Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot;oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;verwendet, muss ein benutzerdefiniertes Ziel enthalten, um das Gesamtoptimierungsziel zu erreichen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce] erstellen. Dem Namen jedes Ziels für DSP muss &quot;ADSP_&quot;vorangestellt werden.
 
 <!-- update image or omit it
 
@@ -23,15 +23,15 @@ Jedes benutzerdefinierte Ziel (Ziel) besteht aus einer oder mehreren Konversions
 
 Angenommen, drei Konversionsmetriken sind für ein bestimmtes Kampagnenkit relevant: &quot;PDF-Download&quot;im Wert von 20 USD, &quot;E-Mail-Anmeldung&quot;im Wert von 30 USD und &quot;Auftragsbestätigung&quot;im Wert von 40 USD. Wenn Sie Gewichtung gemäß dem einmaligen Geldwert der Kundenaktion geben möchten, beträgt das relative Gewicht der Metriken 1, 1,5 und 2.
 
-Einmal [Erstellen eines benutzerdefinierten Ziels](#custom-goal-create), können Sie [Zuweisen zu einem Paket](/help/dsp/campaign-management/packages/package-settings.md) für die Berichterstellung und algorithmische Optimierung mit Adobe Sensei.
+Nachdem Sie [ ein benutzerdefiniertes Ziel ](#custom-goal-create) erstellt haben, können Sie es [einem Paket](/help/dsp/campaign-management/packages/package-settings.md) zuweisen, um die Berichterstellung und Algorithmusoptimierung mit Adobe Sensei durchzuführen.
 
 Gewichtungsempfehlungen werden automatisch für DSP zugeordneten Metriken in Zielen generiert und können alle Gewichtungsempfehlungen mit einem Klick anwenden. Alle Gewichtsänderungen an Zielen mit dem Präfix &quot;ADSP_&quot;werden in DSP innerhalb von zwei Tagen algorithmisch angewendet. Weitere Informationen zu Gewichtungsempfehlungen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;zu &quot;Neue Ziele (Beta)&quot;, das in Search, Social und Commerce verfügbar ist.
 
 ## Benutzerdefiniertes Ziel erstellen {#custom-goal-create}
 
-Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL Search, Social, & Commerce] -Konto mit derselben Adobe Experience Cloud-Organisations-ID aus der [!DNL Search, Social, & Commerce] Clienteinstellungen. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce] und dann Ihr Adobe-Account-Team kontaktieren.
+Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL Search, Social, & Commerce]-Konto mit derselben Adobe Experience Cloud-Organisations-ID aus den [!DNL Search, Social, & Commerce]-Clienteinstellungen verknüpft sein. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce] -Konto verknüpft ist, wenden Sie sich an Ihr Adobe-Account-Team.
 
-1. Anmelden bei [!DNL Advertising Search, Social, & Commerce] unter (Benutzer in Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) oder (alle anderen Benutzer) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Melden Sie sich bei [!DNL Advertising Search, Social, & Commerce] an unter (Benutzer in Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) oder (alle anderen Benutzer) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 
 1. Stellen Sie sicher, dass die Metriken, die Sie in Ihr Ziel aufnehmen möchten, verfolgt wurden, im Produkt verfügbar sind und einen Anzeigenamen enthalten:
 
@@ -41,15 +41,15 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] Benutzerdefinierte Ereignisse folgen dieser Benennungskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
+      >* [!DNL Analytics] benutzerspezifische Ereignisse folgen dieser Benennungsregel: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
 
-   1. Wenn die Metrik keinen Wert im **[!UICONTROL Display Name]** und klicken Sie dann in die Zelle, geben Sie den Anzeigenamen ein und klicken Sie auf **[!UICONTROL Apply].**
+   1. Wenn die Metrik keinen Wert in der Spalte **[!UICONTROL Display Name]** hat, klicken Sie in die Zelle, geben Sie den Anzeigenamen ein und klicken Sie auf **[!UICONTROL Apply]**.
 
 1. Erstellen Sie das benutzerdefinierte Ziel als *Ziel*:
 
    1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
 
-   1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/dsp/assets/create-search-ui.png "Erstellen").
+   1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/dsp/assets/create-search-ui.png "Erstellen") .
 
    1. Geben Sie die Zieleinstellungen, einschließlich der zugehörigen Metriken, und ihre relative numerische Gewichtung für Nicht-Mobilgeräte ein und speichern Sie dann das Ziel. Beachten Sie Folgendes:
 
@@ -57,20 +57,20 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP Konto mit einem [!DNL
 
       * Nur Metriken einschließen, die DSP zugeordnet sind. Alle Metriken, die Search, Social und Commerce oder einem anderen Anzeigennetzwerk zugeordnet sind, werden ignoriert.
 
-      * Mindestens eine Metrik muss den Metriktyp aufweisen *[!UICONTROL Goal]*.
+      * Mindestens eine Metrik muss den Metriktyp *[!UICONTROL Goal]* aufweisen.
 
       * DSP verwendet die nicht mobile Gewichtung für alle Anzeigen. Alle angegebenen Mobilgewichte werden ignoriert.
 
       >[!NOTE]
       >
-      >* [!DNL Analytics] Benutzerdefinierte Ereignisse folgen dieser Benennungskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
-      >* [!DNL Analytics] -Dimensionen und -segmente stehen nicht zur Adobe Advertising-Optimierung zur Verfügung.
+      >* [!DNL Analytics] benutzerspezifische Ereignisse folgen dieser Benennungsregel: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
+      >* [!DNL Analytics] Dimensionen und Segmente stehen nicht zur Adobe Advertising-Optimierung zur Verfügung.
 
       >[!TIP]
       >
-      >Für eine optimale Leistung müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Andernfalls empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken wie Produktseiten oder Anwendungsstarts hinzuzufügen. Siehe [Best Practices zum Erstellen eines benutzerdefinierten Ziels](#custom-goal-best-practices) für Leitlinien.
+      >Für eine optimale Leistung müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Andernfalls empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken wie Produktseiten oder Anwendungsstarts hinzuzufügen. Richtlinien finden Sie unter [Best Practices zum Erstellen eines benutzerdefinierten Ziels](#custom-goal-best-practices) .
 
-In den DSP Paketeinstellungen für Pakete, die das Optimierungsziel verwenden &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot;wird der Objektname jetzt im [!UICONTROL Custom Goals] Liste. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, wird die [!UICONTROL Conversion Metric] enthält alle Zielmetriken für das Ziel.
+In den DSP Paketeinstellungen für Pakete, die das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot;oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;verwenden, ist der Objektname jetzt in der Liste [!UICONTROL Custom Goals] enthalten. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, enthält die Liste [!UICONTROL Conversion Metric] alle Zielmetriken für das Ziel.
 
 ## Best Practices zum Erstellen eines benutzerdefinierten Ziels {#custom-goal-best-practices}
 
@@ -78,9 +78,9 @@ In den DSP Paketeinstellungen für Pakete, die das Optimierungsziel verwenden &q
 
 Die folgenden Beispiele zeigen, wie Sie Ziele konfigurieren können, die auf eine einzige Konversionsmetrik abzielen.
 
-#### Beispiel für eine Kampagne mit dem[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;Optimierungsziel
+#### Beispiel für eine Kampagne mit dem Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
-Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)]), und der Umsatz aus allen Gerätetypen ist für Sie gleichermaßen wichtig. Schließen Sie dann die[!UICONTROL Revenue]&quot; mit einer nicht mobilen Gewichtung von 1 (1); die Mobilgewichtung wird ignoriert. Metriktyp auswählen *[!UICONTROL Goal]*.
+Wenn Ihr Kampagnenziel Umsatz ([!UICONTROL Highest Return on Ad Spend (ROAS)]) ist und der Umsatz aus allen Gerätetypen für Sie gleichermaßen wichtig ist, fügen Sie die Metrik &quot;[!UICONTROL Revenue]&quot;mit einer nicht mobilen Gewichtung von 1 (1) hinzu. Die Mobilgewichtung wird ignoriert. Wählen Sie den Metriktyp *[!UICONTROL Goal]* aus.
 
 <!-- update image or delete 
 
@@ -90,11 +90,11 @@ Wenn Ihr Kampagnenziel Umsatz ist ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 >[!NOTE]
 >
-> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert (1) für jeden $1 Umsatz, der für Display-Anzeigen auf jedem Gerät verfolgt wird. Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 (1) ohne Mobilgeräte für Konversionen als 250 USD gemeldet. Wenn der Konversionsmetrik eine nicht mobile Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD als 125 USD in Adobe Advertising gemeldet ( 250 USD Konversion * 0,5 [!UICONTROL Non-mobile Weight] = 125 USD).
+> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert (1) für jeden $1 Umsatz, der für Display-Anzeigen auf jedem Gerät verfolgt wird. Beispielsweise wird eine Konversion von 250 USD mit einer Gewichtung von 1 (1) ohne Mobilgeräte für Konversionen als 250 USD gemeldet. Wenn der Konversionsmetrik eine nicht mobile Gewichtung von 0,5 zugewiesen wird, wird die Konversion von 250 USD als 125 USD in Adobe Advertising gemeldet ($250 Konversion * 0,5 [!UICONTROL Non-mobile Weight] = $125).
 
-#### Beispiel für eine Kampagne mit dem[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;Optimierungsziel
+#### Beispiel für eine Kampagne mit dem Optimierungsziel &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
-Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein Erfolgsereignis erforderlich ist (z. B. &quot;Antragsversand&quot;), schließen Sie diese eine Metrik ein und geben Sie den Metriktyp als *[!UICONTROL Goal]*. Die Best Practice besteht darin, die Gewichtung für Nicht-Mobilgeräte auf 1 festzulegen (1). Die Mobilgewichtung wird ignoriert.
+Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein Erfolgsereignis erforderlich ist (z. B. &quot;Antragsversand&quot;), schließen Sie diese eine Metrik ein und geben Sie den Metriktyp als *[!UICONTROL Goal]* an. Die Best Practice besteht darin, die Gewichtung für Nicht-Mobilgeräte auf 1 festzulegen (1). Die Mobilgewichtung wird ignoriert.
 
 <!-- update image or delete 
 
@@ -104,13 +104,13 @@ Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) ist und nur ein 
 
 >[!NOTE]
 >
-> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert von 1 (1) für jede Konversion, die für Display-Anzeigen auf jedem Gerät verfolgt wird. Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragsübermittlungen gemeldet. Wenn der Konversionsmetrik jedoch ein nicht mobiles Gewicht von 0,5 zugewiesen wird, werden die 10 Konversionen als fünf (5) in Adobe Advertising (10 Konversionen * 0,5) gemeldet. [!UICONTROL Non-mobile Weight] = 5).
+> Eine nicht mobile Gewichtung von 1 (1) entspricht einem Wert von 1 (1) für jede Konversion, die für Display-Anzeigen auf jedem Gerät verfolgt wird. Wenn z. B. 10 Konvertierungen von Antragssendungen verfolgt werden, werden 10 Konversionen von Antragsübermittlungen gemeldet. Wenn der Konversionsmetrik jedoch eine nicht mobile Gewichtung von 0,5 zugewiesen wird, werden die 10 Konversionen als fünf (5) in Adobe Advertising gemeldet (10 Konversionen * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Benutzerdefinierte Ziele mit mehreren Metriken
 
 Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefinierten Ziel verwenden würden:
 
-* Ihr Kampagnenziel umfasst mehrere Erfolgsereignisse. Vielleicht werben Sie beispielsweise für mehr als eine On-site-Aktion (PDF Download, Kontaktaufnahme und E-Mail-Anmeldung), und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen Gewichtung von 1 (1) enthält, wird die [!DNL Adobe Sensei] -Algorithmus behandelt alle Metriken und Benutzergerätetypen mit gleicher Wichtigkeit. Wenn die verschiedenen Metriken unterschiedliche Kosten oder Bedeutung haben, passen Sie ihre relative Gewichtung entsprechend an.
+* Ihr Kampagnenziel umfasst mehrere Erfolgsereignisse. Vielleicht werben Sie beispielsweise für mehr als eine On-site-Aktion (PDF Download, Kontaktaufnahme und E-Mail-Anmeldung), und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen Gewichtung (1) enthält, behandelt der [!DNL Adobe Sensei] -Algorithmus jede Metrik und jeden Benutzergerätetyp mit gleicher Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder Bedeutung haben, passen Sie ihre relative Gewichtung entsprechend an.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -130,10 +130,10 @@ Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefiniert
 
 -->
 
-Wenn Sie stattdessen Landingpage-Besuche gleich den &quot;Application Submissions&quot;gewichten, könnte die natürlich höhere Anzahl von Landingpage-Besuchen Ihr Ziel überfordern und zu Landingpage-Besuchen verfälschen.<!--reword-->
+Wenn Sie stattdessen die Besuche von Landingpages gleich den Einstiegsseiten-Sendevorgängen gewichten, könnte die natürlich höhere Anzahl von Einstiegsseitenbesuchen Ihr Ziel überfordern und die Besuche von Landingpages verfälschen.<!--reword-->
 
 >[!MORELIKETHIS]
 >
->* [Optimierungsziele und Verwendung](optimization-goals.md)
+>* [Optimierungsziele und deren Verwendung](optimization-goals.md)
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
 > * [Wie DSP Ihre Kampagnen optimiert](optimization-how-dsp-optimizes-campaigns.md)

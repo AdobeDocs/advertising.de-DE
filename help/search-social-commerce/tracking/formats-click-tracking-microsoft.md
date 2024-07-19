@@ -1,6 +1,6 @@
 ---
-title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
-description: Informationen zu den Klick-Tracking-Formaten für [!DNL Microsoft Advertising] Konten.
+title: Klick-Tracking-Formate für  [!DNL Microsoft Advertising]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Microsoft Advertising] Konten.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 
-Im Folgenden finden Sie die Basis-Tracking-Vorlage und das Suffix-Format der Landingpage (endgültiges URL-Suffix), für das Search, Social und Commerce erforderlich sind [!DNL Microsoft Advertising].
+Im Folgenden finden Sie die Basis-Tracking-Vorlage und die Suffix-Formate für Landingpages (endgültiges URL-Suffix), die für Search, Social und Commerce für [!DNL Microsoft Advertising] erforderlich sind.
 
 ## Tracking-Vorlagenformate
 
@@ -30,9 +30,9 @@ Beispiel:
 >
 >* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` entspricht der ID a) des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot;nur für Suchbegriffe).
+>* `{TargetId}` steht für die ID a) entweder des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot; nur für Suchbegriffe).
 
 ### Sitelinks
 
@@ -46,13 +46,13 @@ Beispiel:
 >
 >* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` entspricht der ID a) des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot;nur für Suchbegriffe).
+>* `{TargetId}` steht für die ID a) entweder des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot; nur für Suchbegriffe).
 >
->* `{adextensionid}` nicht verwendet.
+>* `{adextensionid}` wird nicht verwendet.
 >
->* (Sitelinks) Sie können sehen, welche Konversionen durch einen Klick auf einen Sitelink entstanden sind, indem Sie eine [!UICONTROL Transaction Report]. Die [!UICONTROL Link Type] Spaltenwert für einen Sitelink ist `sl:<Sitelink text>`, beispielsweise `sl:See Current Offers`.
+>* (Sitelinks) Sie können sehen, welche Konversionen durch einen Klick auf einen Sitelink entstanden sind, indem Sie eine &quot;[!UICONTROL Transaction Report]&quot; generieren. Der Spaltenwert [!UICONTROL Link Type] für einen Sitelink ist `sl:<Sitelink text>`, z. B. `sl:See Current Offers`.
 
 ### Shopping-Netzwerk
 
@@ -68,11 +68,11 @@ Beispiel:
 >
 >* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` entspricht der ID a) des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot;nur für Suchbegriffe).
+>* `{TargetId}` steht für die ID a) entweder des Suchbegriffs oder b) der Suchbegriff- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. &quot;kwd-123:aud-456&quot;für einen Suchbegriff und eine Remarketing-Liste oder &quot;kwd-123&quot; nur für Suchbegriffe).
 >
->* (Optional) Anstatt Tracking-Vorlagen auf Konto-, Kampagnen-, Anzeigengruppen- oder Produktgruppenebene einzugeben, können Sie die Tracking-URL den Produktdaten innerhalb der [!DNL Microsoft Merchant Center] -Konto. Fügen Sie dazu die Tracking-URL sowie den Wert in die`link`&quot; oder &quot;`mobile_link`&quot; in einer benutzerdefinierten Spalte &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;im Produkt-Feed. Der Wert im`bingads_redirect`&quot; ersetzt die Werte im`link`&quot; und &quot;`mobile_link`&quot;. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen für Search, Social und Commerce angegeben sind.
+>* (Optional) Anstatt Tracking-Vorlagen auf Konto-, Kampagnen-, Anzeigengruppen- oder Produktgruppenebene einzugeben, können Sie die Tracking-URL den Produktdaten innerhalb des [!DNL Microsoft Merchant Center] -Kontos hinzufügen. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld &quot;`link`&quot; bzw. &quot;`mobile_link`&quot; in eine benutzerdefinierte Spalte &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; im Produkt-Feed ein. Der Wert im Feld &quot;`bingads_redirect`&quot; ersetzt die Werte in den Feldern &quot;`link`&quot; und &quot;`mobile_link`&quot;. Die mit dieser Methode generierten URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen für Search, Social und Commerce angegeben sind.
 
 ## Formate für das Suffix von Landingpages (endgültiges URL-Suffix)
 
@@ -82,7 +82,7 @@ Beispiel:
 
 ### Netzwerke für Suche und Zielgruppe
 
-Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]) im Suffix:
+Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]) im Suffix enthalten:
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix Folgendes enthalten:
 
@@ -94,7 +94,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 ### Shopping-Netzwerk
 
-Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks enthalten (`msclkid` für [!DNL Microsoft Advertising]) im Suffix:
+Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Klick-ID des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]) im Suffix enthalten:
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix Folgendes enthalten:
 

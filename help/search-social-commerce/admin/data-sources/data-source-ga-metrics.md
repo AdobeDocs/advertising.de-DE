@@ -1,19 +1,19 @@
 ---
-title: Verfügbar [!DNL Google Analytics] Metriken
-description: 'Referenz: [!DNL Google Analytics] Metriken, die für Datenquellen verfügbar sind.'
+title: Verfügbare [!DNL Google Analytics] Metriken
+description: Referenzieren Sie die für Datenquellen verfügbaren [!DNL Google Analytics] Metriken.
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Anhang - Verfügbar [!DNL Google Analytics] Metriken
+# Anhang - Verfügbare [!DNL Google Analytics] Metriken
 
-Die folgenden Metriken sind verfügbar, mit Ausnahme der aufgeführten Ausnahmen, wenn sie in der Implementierung des Kunden in [!DNL Google Analytics].
+Die folgenden Metriken mit Ausnahme der aufgeführten Ausnahmen sind verfügbar, wenn sie in der Implementierung des Kunden in [!DNL Google Analytics] aktiviert sind.
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -38,10 +38,10 @@ Die folgenden Metriken sind verfügbar, mit Ausnahme der aufgeführten Ausnahmen
 
 >[!MORELIKETHIS]
 >
->* [Über die Synchronisierung [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
->* [Voraussetzungen für die Konfiguration einer [!DNL Google Analytics] Datenquelle](data-source-prerequisites.md)
->* [Konfigurieren Sie eine [!DNL Google Analytics] als Datenquelle anzeigen](data-source-configure.md)
->* [Bearbeiten von [!DNL Google Analytics] Datenquelle](data-source-edit.md)
+>* [Über die Synchronisierung von [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
+>* [Voraussetzungen für die Konfiguration einer  [!DNL Google Analytics] Datenquelle](data-source-prerequisites.md)
+>* [Konfigurieren einer [!DNL Google Analytics] Ansicht als Datenquelle](data-source-configure.md)
+>* [Bearbeiten einer [!DNL Google Analytics] Datenquelle](data-source-edit.md)
 >* [Synchronisierung einer Datenquelle anhalten](data-source-pause.md)
->* [Erneutes Authentifizieren eines [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
+>* [Erneutes Authentifizieren einer  [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)

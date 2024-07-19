@@ -1,9 +1,9 @@
 ---
 title: Löschen von Tabellenbericht-Feeds
 description: Erfahren Sie, wie Sie Tabellen-Feeds löschen.
-exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Löschen von Tabellenbericht-Feeds
 
-*Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
+*Nur für grundlegende Berichte und Berichte zur Modellgenauigkeit*
 
 >[!NOTE]
 >
@@ -24,14 +24,14 @@ ht-degree: 0%
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
->* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
->* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
+>* [Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
+>* [Bearbeiten Sie die Einstellungen des Tabellenbericht-Feeds](spreadsheet-feed-edit.md)
+>* [Einstellungen für den Spreadsheet-Bericht](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)

@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # Anzeigen an Platzierungen anhängen
 
-Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen anzuhängen, Drittanbieter-Tracking-Pixel an die Anzeigen anzuhängen und vorhandene Drittanbieter-Tracking-Pixel von den Anzeigen zu trennen.
+Verwenden Sie die Ansicht &quot;[!UICONTROL Ad Tools]&quot;, um Anzeigen an Platzierungen anzuhängen, Tracking-Pixel von Drittanbietern an die Anzeigen anzuhängen und vorhandene Tracking-Pixel von Drittanbietern von den Anzeigen zu trennen.
 
 >[!NOTE]
 >
 >Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
 
-## Öffnen Sie die [!UICONTROL Ad Tools] Ansicht {#ad-tools-open}
+## Öffnen Sie die Ansicht &quot;[!UICONTROL Ad Tools]&quot; {#ad-tools-open}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Öffnen Sie die [!UICONTROL Ad Tools] auf eine der folgenden Arten anzuzeigen:
+1. Öffnen Sie die Ansicht [!UICONTROL Ad Tools] auf eine der folgenden Arten:
 
-   * (Von der [!UICONTROL Packages] , [!UICONTROL Placements]oder [!UICONTROL Ads] Ansicht) Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * (Klicken Sie in der Ansicht [!UICONTROL Packages] , [!UICONTROL Placements] oder [!UICONTROL Ads] rechts oben auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-   * (Von der [!UICONTROL Placements] view) Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Klicken Sie in der Ansicht [!UICONTROL Placements] neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * (Von der [!UICONTROL Ads] view) Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Klicken Sie in der Ansicht [!UICONTROL Ads] neben dem Anzeigennamen auf **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-   Die [!UICONTROL Attach Ads] ist standardmäßig ausgewählt.
+   Die Registerkarte [!UICONTROL Attach Ads] ist standardmäßig ausgewählt.
 
 ## Anzeigen an Platzierungen anhängen {#attach-ads-campaign}
 
 1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
 
-1. Im [!UICONTROL Edit] untersuchen, führen Sie für jede Gruppe von Anzeigen, die Sie Platzierungen hinzufügen möchten, folgende Schritte aus:
+1. Führen Sie in der Unteransicht &quot;[!UICONTROL Edit]&quot;für jede Gruppe von Anzeigen, die Sie Platzierungen hinzufügen möchten, folgende Schritte aus:
 
    1. (Optional) Suchen Sie bestimmte Platzierungen und Anzeigen auf eine der folgenden Arten:
 
@@ -62,7 +62,7 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
 1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
 
-1. Wechseln Sie zu **[!UICONTROL View]** oben rechts.
+1. Wechseln Sie zur Option **[!UICONTROL View]** oben rechts.
 
 1. (Optional) Suchen Sie nach Bedarf spezifische Platzierungen und Anzeigen:
 
@@ -72,15 +72,15 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
 1. Klicken Sie auf eine beliebige Platzierungszeile in der linken Tabelle, um die angehängten Anzeigen in der rechten Tabelle anzuzeigen.
 
-1. (Optional) Um weitere Anzeigen an die Platzierungen der Kampagne anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** Ansicht oben rechts. Siehe Schritt 2 im vorherigen Verfahren: &quot;[Anzeigen an Platzierungen anhängen](#attach-ads-campaign),&quot; für Anweisungen.
+1. (Optional) Um weitere Anzeigen an die Platzierungen der Kampagne anzuhängen, wechseln Sie zur Ansicht &quot;**[!UICONTROL Edit]**&quot;oben rechts. Anweisungen finden Sie unter Schritt 2 im vorherigen Verfahren &quot;[Anzeigen an Platzierungen anhängen](#attach-ads-campaign)&quot;.
 
 ## Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen an einer Platzierung {#attach-pixels-ads}
 
 1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
 
-1. Klicken Sie auf **[!UICONTROL Attach Pixels]** Registerkarte.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
 
-1. Im [!UICONTROL Edit] subview:
+1. In der Unteransicht [!UICONTROL Edit] :
 
    1. (Optional) Suchen Sie Anzeigen und Pixel von Drittanbietern auf eine der folgenden Arten:
 
@@ -96,7 +96,7 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
          **[!UICONTROL Integration Event]:** Das Ereignis, bei dem das Pixel ausgelöst wird, z. B. *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
 
-         **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (1x1-Pixel-Bilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]*.
+         **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel eine *[!UICONTROL IMG URL]* (1x1-Pixelbilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
 
          **[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für den angegebenen Pixeltyp.
 
@@ -104,7 +104,7 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
          **[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
-      1. Klicks **[!UICONTROL Save]**.
+      1. Klicken Sie auf **[!UICONTROL Save]**.
 
    1. Aktivieren Sie in der linken Tabelle das Kontrollkästchen neben jeder Anzeige, für die Sie Tracking-Pixel von Drittanbietern anhängen möchten.
 
@@ -120,9 +120,9 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
 1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
 
-1. Klicken Sie auf **[!UICONTROL Attach Pixels]** Registerkarte.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
 
-1. Im [!UICONTROL Edit] subview:
+1. In der Unteransicht [!UICONTROL Edit] :
 
    1. (Optional) Suchen Sie Anzeigen und Pixel von Drittanbietern auf eine der folgenden Arten:
 
@@ -144,9 +144,9 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
 1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
 
-1. Klicken Sie auf **[!UICONTROL Attach Pixels]** Registerkarte.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
 
-1. Wechseln Sie zu **[!UICONTROL View]** oben rechts.
+1. Wechseln Sie zur Option **[!UICONTROL View]** oben rechts.
 
 1. (Optional) Suchen Sie nach Bedarf Anzeigen und Pixel von Drittanbietern:
 
@@ -156,14 +156,14 @@ Verwenden Sie die [!UICONTROL Ad Tools] -Ansicht, um Anzeigen an Platzierungen a
 
 1. Klicken Sie auf eine beliebige Anzeigenzeile in der linken Tabelle, um die angehängten Pixel in der rechten Tabelle anzuzeigen.
 
-1. (Optional) Um weitere Pixel an die Anzeigen anzuhängen, wechseln Sie zum **[!UICONTROL Edit]** Ansicht oben rechts. Siehe Schritt 3 im vorherigen Verfahren: &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen an einer Platzierung](#attach-pixels-ads),&quot; für Anweisungen.
+1. (Optional) Um weitere Pixel an die Anzeigen anzuhängen, wechseln Sie zur Ansicht &quot;**[!UICONTROL Edit]**&quot;oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens, &quot;[Verfolgungspixel von Drittanbietern an Anzeigen in einer Platzierung anhängen](#attach-pixels-ads)&quot;.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
->* [Einzelne Anzeige erstellen](ad-create.md)
+>* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen mehrerer Drittanbieteranzeigen](ad-create-multiple.md)
->* [Eine Anzeige bearbeiten](ad-edit.md)
->* [Platzierungen auflisten, die einer Anzeige zugeordnet sind](ad-list-placements.md)
->* [Bearbeiten von Anzeigenplänen für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Bearbeiten einer Anzeige](ad-edit.md)
+>* [Auflisten der mit einer Anzeige verknüpften Platzierungen](ad-list-placements.md)
+>* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [FAQs über universelle Videos](/help/dsp/campaign-management/faq-universal-video.md)

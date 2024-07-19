@@ -1,11 +1,11 @@
 ---
 title: Berichtsvorlage erstellen
 description: Erfahren Sie, wie Sie eine wiederverwendbare Berichtsvorlage erstellen.
-exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ Sie können mehrere Berichtsvorlagen für jeden Leistungsberichtstyp speichern. 
 
 * Führen Sie einen der folgenden Schritte aus, um eine neue Vorlage zu erstellen:
 
-   * Aus dem [!UICONTROL Reports] , erstellen Sie einen Bericht und aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**, der sich neben dem Berichtsnamen befindet.
+   * Erstellen Sie auf der Registerkarte [!UICONTROL Reports] einen Bericht und aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]** neben dem Berichtnamen.
 
-   * Aus dem [!UICONTROL Templates] tab:
+   * Auf der Registerkarte [!UICONTROL Templates] :
 
       * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-      * Klicken Sie auf **[!UICONTROL Templates]** Registerkarte.
+      * Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-      * Klicks **[!UICONTROL Create Template]** und wählen Sie die Berichtkategorie aus.
+      * Klicken Sie auf **[!UICONTROL Create Template]** und wählen Sie die Berichtskategorie aus.
 
       * Geben Sie die Berichtseinstellungen an.
 
-        Die &quot;[!UICONTROL Save as Template]Die Einstellung &quot; wird automatisch ausgewählt.
+        Die Einstellung &quot;[!UICONTROL Save as Template]&quot; wird automatisch ausgewählt.
 
 * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
 
    1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-   1. Klicken Sie auf **[!UICONTROL Templates]** Registerkarte.
+   1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
    1. Klicken Sie auf den Vorlagennamen und bearbeiten Sie bei Bedarf die Berichtseinstellungen.
 
@@ -43,6 +43,6 @@ Sie können mehrere Berichtsvorlagen für jeden Leistungsberichtstyp speichern. 
 >[!MORELIKETHIS]
 >
 >* [Über Berichtvorlagen](template-about.md)
->* [Berichtvorlage bearbeiten](template-edit.md)
->* [Berichtsvorlage anzeigen](template-view.md)
+>* [Bearbeiten einer Berichtsvorlage](template-edit.md)
+>* [Berichtvorlage anzeigen](template-view.md)
 >* [Berichtvorlagen löschen](template-delete.md)

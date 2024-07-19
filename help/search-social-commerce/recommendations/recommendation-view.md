@@ -1,6 +1,6 @@
 ---
 title: Empfehlungen und Leistungseinblicke von Herausgebern anzeigen
-description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten.
+description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten anzeigen können.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-   Für [!DNL Microsoft Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
+   Bei [!DNL Microsoft Advertising] -Konten wird standardmäßig der [!UICONTROL Recommendations] für das Konto aufgelistet.
 
-1. Im [!UICONTROL Actions] Spalte für die Zeile, klicken Sie auf **[!UICONTROL View]**. Wenn die Empfehlung Unterempfehlungen enthält, klicken Sie auf **[!UICONTROL View]** neben der Unterempfehlung.
+1. Klicken Sie in der Spalte [!UICONTROL Actions] für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung Unterempfehlungen enthält, klicken Sie neben der Unterempfehlung auf **[!UICONTROL View]**.
 
-   Sie können optional [anwenden oder verwerfen](recommendation-apply-dismiss.md) Empfehlungen des Werbenetzwerks.
+   Sie können optional [die Empfehlungen des Werbenetzwerks anwenden oder verwerfen](recommendation-apply-dismiss.md).
 
 ## Anzeigen Ihrer [!DNL Microsoft Advertising] Leistungseinblicke
 
@@ -32,15 +32,15 @@ ht-degree: 0%
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-1. Klicks **[!UICONTROL Insights]** über die Datentabelle.
+1. Klicken Sie oberhalb der Datentabelle auf &quot;**[!UICONTROL Insights]**&quot;.
 
-1. Wenn die Variable [!UICONTROL Actions] -Spalte für die Zeile enthält eine Aktion, können Sie optional auf **[!UICONTROL Click here]** , um die [!DNL Microsoft Advertising] Editor, in dem Sie auf den Einblick reagieren können.
+1. Wenn die Spalte [!UICONTROL Actions] für die Zeile eine Aktion enthält, können Sie optional auf **[!UICONTROL Click here]** klicken, um den Editor [!DNL Microsoft Advertising] zu öffnen, über den Sie auf den Einblick reagieren können.
 
-   Wenn Sie nicht bei der [!DNL Microsoft Advertising] Editor, werden Sie zunächst zum Anmeldebildschirm weitergeleitet.
+   Wenn Sie nicht im [!DNL Microsoft Advertising]-Editor angemeldet sind, werden Sie zunächst zum Anmeldebildschirm geleitet.
 
 >[!MORELIKETHIS]
 >
->* [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](recommendation-support.md)
->* [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](recommendation-apply-dismiss.md)
+>* [Informationen zur Unterstützung von Publisher-Empfehlungen und Insights](recommendation-support.md)
+>* [Eine Empfehlung für Herausgeber anwenden oder verwerfen](recommendation-apply-dismiss.md)
 >* [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](recommendation-view-log.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)

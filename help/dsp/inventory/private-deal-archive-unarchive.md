@@ -18,35 +18,33 @@ Sie können die Archivierung eines Deals aufheben, um seinen vorherigen Status j
 
 >[!NOTE]
 >
->* Sie können nicht archivieren [!UICONTROL On Demand] Angebote.
+>* Sie können keine [!UICONTROL On Demand]-Angebote archivieren.
 >* Wenden Sie sich an den Herausgeber oder SSP, um einen Deal vom Herausgeber zu deaktivieren. Nachdem sie den Deal deaktiviert haben, können Sie ihn in DSP archivieren, um ihn zu verstecken.
-
 
 ## Privates Geschäft archivieren
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Archive]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Um archivierte Angebote anzuzeigen, klicken Sie auf ![Filter](/help/dsp/assets/filter.png) über die Liste der Geschäfte hinaus; click **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]*; und klicken Sie anschließend auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um archivierte Angebote anzuzeigen, klicken Sie auf ![Filter](/help/dsp/assets/filter.png) über der Liste der Angebote; klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]*; klicken Sie dann auf **[!UICONTROL Apply]**<!-- Verify the text to apply the filter(s).)-->.
 
 ## Archivierung eines privaten Angebots aufheben
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
-1. Klicken Sie über der Liste der Angebote auf ![Filter](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]*; und klicken Sie anschließend auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+1. Klicken Sie über der Liste der Geschäfte auf ![Filter](/help/dsp/assets/filter.png); klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus. Klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Unarchive]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Unarchive]**.
 
 Wenn der Herausgeber oder SSP den Deal zuvor deaktiviert hatte und Sie ihn erneut verwenden möchten, wenden Sie sich direkt an den Herausgeber oder SSP.
 
 >[!NOTE]
 >
->Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie auf ![Filter](/help/dsp/assets/filter.png) über die Liste der Geschäfte hinaus; click **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]*; und klicken Sie anschließend auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie auf ![Filter](/help/dsp/assets/filter.png) über der Liste der Geschäfte; klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]*; und klicken Sie dann auf **[!UICONTROL Apply]**<!-- Verify the text to apply the filter(s).)-->.
 
 >[!MORELIKETHIS]
 >
->* [Über privates Inventar](private-inventory-about.md)
+>* [Über den privaten Bestand](private-inventory-about.md)
 >* [Einstellungen für private Angebote bearbeiten](/help/dsp/inventory/deal-id-edit.md)
-

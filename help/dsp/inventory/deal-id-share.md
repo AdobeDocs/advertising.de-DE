@@ -18,7 +18,7 @@ Sie können die Freigabe eines Deals für Konten stoppen, um Bearbeitungs- und T
 
 >[!NOTE]
 >
-> Sie können auch [die einzelnen Advertiser mit Zugriff auf das Konto bearbeiten](deal-id-edit-advertisers.md).
+> Sie können auch die einzelnen Advertiser mit Zugriff auf das Konto ](deal-id-edit-advertisers.md) bearbeiten.[
 
 ## Freigeben einer Angebots-ID für Konten
 
@@ -28,9 +28,9 @@ Sie können die Freigabe eines Deals für Konten stoppen, um Bearbeitungs- und T
 
 1. Für jedes Konto, das freigegeben werden soll:
 
-   1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf das Geschäft.
+   1. Geben Sie die **[!UICONTROL Email Address]** für das Konto mit Zugriff auf den Deal ein.
 
-   1. Klicken **[!UICONTROL Share]**.
+   1. Klicken Sie auf **[!UICONTROL Share]**.
 
 ## Freigabe einer Angebots-ID für Konten beenden
 
@@ -38,13 +38,12 @@ Sie können die Freigabe eines Deals für Konten stoppen, um Bearbeitungs- und T
 
 1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
-1. Neben dem [!UICONTROL Account Email] Wert, klicken Sie **[!UICONTROL Unshare].**
+1. Klicken Sie neben dem Wert [!UICONTROL Account Email] auf **[!UICONTROL Unshare].**
 
-1. Klicken **[!UICONTROL Cancel]** , um das Fenster zu schließen.
+1. Klicken Sie auf **[!UICONTROL Cancel]** , um das Fenster zu schließen.
 
 >[!MORELIKETHIS]
 >
->* [Über privates Inventar](private-inventory-about.md)
->* [Bearbeiten von Advertisern mit Zugriff auf eine Angebots-ID](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [Manuelle Deal-ID-Einstellungen](deal-id-settings.md)
-
+>* [Über den privaten Bestand](private-inventory-about.md)
+>* [Bearbeiten der Advertiser mit Zugriff auf eine Angebots-ID](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Manuelle ID-Einstellungen für Geschäfte](deal-id-settings.md)

@@ -5,8 +5,8 @@ feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,6 @@ Bei der Aushandlung eines programmgesteuerten garantierten Geschäfts müssen de
 
 >[!MORELIKETHIS]
 >
->* [Über programmatische Garantievereinbarungen](programmatic-guaranteed-about.md)
->* [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](programmatic-guaranteed-set-up.md)
+>* [Über programmgesteuerte garantierte Deals](programmatic-guaranteed-about.md)
+>* [Einrichten eines programmgesteuerten Garantierten Deals](programmatic-guaranteed-set-up.md)
 >* [SSP-Partner](ssp-partners.md)
-

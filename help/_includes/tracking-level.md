@@ -7,17 +7,17 @@ ht-degree: 0%
 ---
 # Feld &quot;Tracking Level&quot; in Konto- und Kampagneneinstellungen
 
-**[!UICONTROL Tracking Level]:** (Für [!UICONTROL EF Redirect] nur; auf Konto- und Kampagnenebene verfügbar sind; nicht für Werbenetzwerke anwendbar, die für das parallele Tracking aktiviert sind) Die Ebene, auf der Klicks und Umsatz verfolgt werden sollen, indem eine Umleitung hinzugefügt (sofern zutreffend) und Parameter an die entsprechenden URLs angehängt werden:
+**[!UICONTROL Tracking Level]:** (Nur für [!UICONTROL EF Redirect]; nur auf Konto- und Kampagnenebene verfügbar; nicht anwendbar auf Werbenetzwerke, die für das parallele Tracking aktiviert sind) Die Ebene, auf der Klicks und Umsatz verfolgt werden sollen, indem eine Umleitung hinzugefügt (sofern relevant) und Parameter an die entsprechenden URLs angehängt werden:
 
-* *[!UICONTROL Keyword]:* So verfolgen Sie Daten nur auf Suchbegriffebene.
+* *[!UICONTROL Keyword]:* Zum Verfolgen von Daten nur auf Suchbegriffebene.
 
-* *[!UICONTROL Ad]:* So verfolgen Sie Daten nur auf Anzeigenebene.
+* *[!UICONTROL Ad]:* Zum Verfolgen von Daten nur auf Anzeigenebene.
 
-   **Hinweis:** Wenn Sie eine vorhandene Kampagne zu dieser Einstellung ändern, werden alle vorhandenen Keyword-Tracking-IDs gelöscht. Wenn Sie Multivarianz-Tests durchführen möchten, indem Sie für eine Anzeige mehrere Landingpages verwenden, erstellen Sie eine Bulksheet-Datei und bearbeiten Sie sie für die erforderlichen Komponenten.
+  **Hinweis:** Wenn Sie eine vorhandene Kampagne zu dieser Einstellung ändern, werden alle vorhandenen Keyword-Tracking-IDs gelöscht. Wenn Sie Multivarianz-Tests durchführen möchten, indem Sie für eine Anzeige mehrere Landingpages verwenden, erstellen Sie eine Bulksheet-Datei und bearbeiten Sie sie für die erforderlichen Komponenten.
 
-* *[!UICONTROL Keyword and Ad]:* So verfolgen Sie Daten sowohl auf Suchbegriff- als auch auf Anzeigenebene.
+* *[!UICONTROL Keyword and Ad]:* Zum Nachverfolgen von Daten auf Suchbegriff- und Anzeigenebene.
 
-**Hinweise:**
+**Notizen:**
 
-* Nur &quot;[!UICONTROL Keyword]&quot; ist verfügbar für [!DNL Naver].
-* Nur &quot;[!UICONTROL Ad]&quot; ist verfügbar für [!DNL Yandex].
+* Für [!DNL Naver] ist nur &quot;[!UICONTROL Keyword]&quot;verfügbar.
+* Für [!DNL Yandex] ist nur &quot;[!UICONTROL Ad]&quot;verfügbar.

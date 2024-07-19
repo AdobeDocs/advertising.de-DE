@@ -15,24 +15,24 @@ ht-degree: 0%
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 
 1. 
-   1. Halten Sie den Cursor über die Zeile Plan und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
+   1. Halten Sie den Cursor über die Planungszeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
-1. (Optional) Bearbeiten Sie den Plannamen und [Planeinstellungen](planner-settings.md).
+1. (Optional) Bearbeiten Sie den Plannamen und die [Planeinstellungen](planner-settings.md).
 
-   Der neue Plan heißt standardmäßig &quot;`<existing plan name> duplicate`.&quot;
+   Der neue Plan heißt standardmäßig &quot;`<existing plan name> duplicate`&quot;.
 
-1. Klicks **[!UICONTROL Save and Forecast]**.
+1. Klicken Sie auf **[!UICONTROL Save and Forecast]**.
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft Excel] Tabelle**, klicken Sie auf **[!UICONTROL ...]** oben rechts und klicken Sie dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach]-Vorschau in eine [!DNL Microsoft Excel] Tabelle** zu exportieren, klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über das DSP Planer-Tool](planner-about.md)
->* [Erstellen eines Anbindungsplans für TV-Geräte](planner-create.md)
+>* [Erstellen eines Anbindungs-TV-Reichweitenplans](planner-create.md)
 >* [Bearbeiten eines Anbindungs-TV-Reichweitenplans](planner-edit.md)
->* [Connected TV-Reichweitenplan exportieren](planner-export.md)
+>* [Einen Plan für die Anbindung an den Fernsehempfang exportieren](planner-export.md)
 >* [Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren](planner-forecast.md)
->* [Archivieren eines Anbindungsplans für TV](planner-archive.md)
->* [Einstellungen für Pläne zur Anbindung an das Fernsehen](planner-settings.md)
+>* [Archivieren eines Anbindungs-TV-Reichweiten-Plans](planner-archive.md)
+>* [Einstellungen für Pläne zur Anbindung an TV-Kanäle](planner-settings.md)

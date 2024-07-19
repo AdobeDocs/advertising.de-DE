@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. Klicken Sie oben in der Liste &quot;Benachrichtigungen&quot;auf **[!UICONTROL Add Subscription]**.
 
-1. Eindeutige Eingabe *Abonnementname** für die Warnhinweise.
+1. Geben Sie einen eindeutigen *Abonnementnamen** für die Warnhinweise ein.
 
-1. Im **[!UICONTROL Add Alerts]** Abschnitt:
+1. Im Abschnitt **[!UICONTROL Add Alerts]** :
 
    1. Wählen Sie den ersten Warnungstyp aus.
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
       Die Einstellungen variieren je nach Warentyp.
 
-   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]**. Standardmäßig wird der Warnhinweis um 8:00 Uhr in der Zeitzone des Kontos ausgeführt.
+   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]** aus. Standardmäßig wird der Warnhinweis um 8:00 Uhr in der Zeitzone des Kontos ausgeführt.
 
-   1. (Optional) Um dem Abonnement eine zusätzliche Warnung hinzuzufügen, klicken Sie auf **[!UICONTROL Add Alert]** und erstellen Sie den Warnhinweis.
+   1. (Optional) Um dem Abonnement eine zusätzliche Warnung hinzuzufügen, klicken Sie auf **[!UICONTROL Add Alert]** und erstellen Sie die Warnung.
 
-1. Im **[!UICONTROL Add Subscriber Email Addresses]** Geben Sie jede E-Mail-Adresse ein, an die die Warnungen gesendet werden sollen, und drücken Sie dann die **[!UICONTROL Enter]** Schlüssel.
+1. Geben Sie im Feld **[!UICONTROL Add Subscriber Email Addresses]** jede E-Mail-Adresse ein, an die die Warnungen gesendet werden sollen, und drücken Sie dann die Taste **[!UICONTROL Enter]** .
 
-1. Klicken **Speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## Warnhinweise für ein Abonnement verwalten
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
       Die Einstellungen variieren je nach Warentyp.
 
-   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]**. Standardmäßig wird der Warnhinweis ausgeführt <!-- at what time? -->.
+   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]** aus. Standardmäßig wird der Warnhinweis mit <!-- at what time? --> ausgeführt.
 
-   1. Klicken **[!UICONTROL Save]**.
+   1. Klicken Sie auf **[!UICONTROL Save]**.
 
 * So bearbeiten Sie einen Warnhinweis in einem Abonnement:
 
@@ -58,15 +58,15 @@ ht-degree: 0%
 
    1. Bearbeiten Sie die Warnhinweisparameter.
 
-   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]**. Standardmäßig wird der Warnhinweis ausgeführt <!-- at what time? -->.
+   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]** aus. Standardmäßig wird der Warnhinweis mit <!-- at what time? --> ausgeführt.
 
-   1. Klicken **[!UICONTROL Save]**.
+   1. Klicken Sie auf **[!UICONTROL Save]**.
 
 * Um einen Warnhinweis aus einem Abonnement zu entfernen, klicken Sie auf **[!UICONTROL X]** rechts neben dem Warnhinweisnamen.
 
 ## Abonnements verwalten
 
-* Um Abonnenten zu einem Abonnement hinzuzufügen, geben Sie die E-Mail-Adressen in das Eingabefeld unter **[!UICONTROL Subscribers]**.
+* Um Abonnenten zu einem Abonnement hinzuzufügen, geben Sie die E-Mail-Adressen in das Eingabefeld unter **[!UICONTROL Subscribers]** ein.
 
   Trennen Sie mehrere Adressen durch Leerzeichen.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. Klicken Sie rechts neben dem Abonnementnamen auf **[!UICONTROL X]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL yes]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL yes]**.
 
 >[!MORELIKETHIS]
 >

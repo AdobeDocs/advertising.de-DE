@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Über Adobe Advertising Search, Social und Commerce
 
-[!DNL Adobe] ist der Marktführer und Technologieführer in Customer Experience-Lösungen. Adobe Advertising vereinfacht die kanalübergreifende Bereitstellung von Werbekampagnen für das Marken- und Performance-Kampagnenmanagement auf allen Bildschirmen, in jedem beliebigen Format. Adobe Advertising besteht aus drei Unterlösungen: Advertising Search, Social und Commerce für Such-, Einkaufs-, Social-, Zielgruppen- und Performance-Maximalkanäle, Advertising DSP (Demand Side Platform) für Anzeigenkanäle und Advertising Creative zum Erstellen von Endbenutzererlebnissen für Ihre Display-Anzeigen.
+[!DNL Adobe] ist der Markt- und Technologieführer in Customer Experience-Lösungen. Adobe Advertising vereinfacht die kanalübergreifende Bereitstellung von Werbekampagnen für das Marken- und Performance-Kampagnenmanagement auf allen Bildschirmen, in jedem beliebigen Format. Adobe Advertising besteht aus drei Unterlösungen: Advertising Search, Social und Commerce for search, shopping, social, audience network, and performance max channels, Advertising DSP (Demand Side Platform) for display channels und Advertising Creative zur Erstellung von Endbenutzererlebnissen für Ihre Display-Anzeigen.
 
-Im Rahmen von Adobe Advertising kombiniert Advertising Search, Social und Commerce das branchenführende Portfolio-basierte Anzeigen-Management mit intelligenter Kampagnenvorhersage und zielgerichteter Anzeigenbereitstellung für datenoptimierte Werbung.
+Advertising Search, Social &amp; Commerce kombiniert im Rahmen von Adobe Advertising das branchenführende Portfolio-basierte Anzeigen-Management mit intelligenter Kampagnenvorhersage und gezielter Anzeigenbereitstellung für datenoptimierte Werbung.
 
 ## KI-gestützte Technologie zur Anzeigenoptimierung
 
 Search, Social und Commerce automatisiert und optimiert das Angebots- und Budgetmanagement für Anzeigenkampagnen in Anzeigennetzwerken innerhalb der Grenzen von Geschäftszielen, Metriken, Budgets und anderen geschäftlichen Einschränkungen eines Advertisers. Er verfolgt den Klick-, Kosten- und Konversionsverlauf für die Suchbegriffe und Anzeigen eines Advertisers sowie Informationen zur Angebotslandschaft auf den einzelnen Marketing-Kanälen. Mithilfe eines Portfoliotheorie-Ansatzes vergleicht die Optimierungsfunktion alle möglichen Zuweisungen Ihres Budgets für ein ganzes Kampagnenportfolio, um die Gebote und Kampagnenbudgets zu bestimmen, die die bestmögliche Rendite aus Werbeausgaben erzielen, und die Gebote und Budgets werden entsprechend ausgeführt. Die Optimierungsfunktion überwacht laufend die Suchbegriffe und Anzeigen eines Werbetreibenden und passt Gebote und Budgets dynamisch an, wenn sich der Marketplace ändert.
 
-Es stehen verschiedene Optimierungstypen zur Verfügung, die die Suche, Social und Commerce sowie das Werbenetzwerk in unterschiedlichem Maße über die Angebotsoptimierung steuern können. Je nach Optimierungstyp können Sie Ihre Portfolios mit von Adobe Advertising, Adobe Analytics, verfolgten Konversionen optimieren. [!DNL Google Ads], [!DNL Google Analytics], oder anderen Erstanbieter-Enterprise-Feeds.
+Es stehen verschiedene Optimierungstypen zur Verfügung, die die Suche, Social und Commerce sowie das Werbenetzwerk in unterschiedlichem Maße über die Angebotsoptimierung steuern können. Je nach Optimierungstyp können Sie Ihre Portfolios anhand von Konversionen optimieren, die von Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] oder anderen Erstanbieter-Enterprise-Feeds verfolgt werden.
 
 Abhängig von Ihrer Rolle können Sie möglicherweise Portfolio-Leistungssimulationen anzeigen, die mithilfe prädiktiver Modellierung Ihren optimalen Ausgabepunkt und detaillierte Prognosegenauigkeitsberichte ermitteln. Alle Benutzer können das Tool zur Ausgabenempfehlung verwenden, um die optimale Budgetverteilung über Portfolios hinweg zu ermitteln.
 
@@ -30,13 +30,13 @@ Weitere Informationen finden Sie im Kapitel Portfolio im Optimierungshandbuch, d
 
 Search, Social und Commerce bietet eine umfassende Kampagnenverwaltung, Optimierung, Verfolgung und Berichterstellung für Ihre Werbenetzwerke. In den Anzeigen-Management-Ansichten haben Sie folgende Möglichkeiten:
 
-* **Kampagnenverwaltung:**  Synchronisieren Sie Ihre Anzeigenkonten für unterstützte Werbenetzwerke und richten Sie anschließend viele Kampagnentypen manuell mithilfe von Bulksheets ein und verwalten Sie sie automatisch mithilfe von Bestandsdaten-Feeds.
+* **Kampagnenverwaltung:** Synchronisieren Sie Ihre Anzeigenkonten für unterstützte Werbenetzwerke und richten Sie anschließend viele Kampagnentypen manuell ein und verwalten Sie sie mithilfe von Bulksheets und automatisch mithilfe von Bestandsdaten-Feeds.
 
-* **Optimierung:** Gruppieren Sie Ihre Kampagnen und Anzeigensets zur Optimierung in verschiedene Portfolios. Verwenden Sie Portfoliosimulationen, um die Auswirkungen von Änderungen an der Ausgabenstrategie und anderen Portfolioeinstellungen vorherzusagen.
+* **Optimierung:** Gruppieren Sie Ihre Kampagnen und Anzeigen zur Optimierung in verschiedene Arten von Portfolios. Verwenden Sie Portfoliosimulationen, um die Auswirkungen von Änderungen an der Ausgabenstrategie und anderen Portfolioeinstellungen vorherzusagen.
 
 * **Kampagnen-Tracking:** Richten Sie den Zugriff auf andere Werbekampagnen ein, für die Sie nur verfolgen und Berichte erstellen möchten. Dazu kann das Hochladen von Kampagnendaten und -metriken gehören.
 
-* **Reporting:** Überwachen und analysieren Sie die Leistung Ihrer Portfolios und anderer Kampagnen, die Sie über Leistungsdatenansichten und detaillierte, anpassbare Berichte verfolgen. Sie können Konversionsmetriken aus Adobe Analytics einbeziehen, [!DNL Google Ads], [!DNL Google Analytics]und Ihre anderen Erstanbieter-Enterprise-Feeds in Datenansichten und Berichten.
+* **Berichterstellung:** Überwachen und analysieren Sie die Leistung Ihrer Portfolios und anderer Kampagnen, die Sie über Leistungsdatenansichten und detaillierte, anpassbare Berichte verfolgen. Sie können Konversionsmetriken aus Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] und Ihren anderen Erstanbieter-Enterprise-Feeds in Datenansichten und Berichte aufnehmen.
 
    * Konfigurieren Sie die verschiedenen Leistungsdatenansichten für eine optimale Sichtbarkeit der Leistungsdaten, die für Sie von Bedeutung sind.
 
@@ -44,13 +44,13 @@ Search, Social und Commerce bietet eine umfassende Kampagnenverwaltung, Optimier
 
    * Für Portfolios bieten verschreibungspflichtige Einblicke auch visuelle, umsetzbare Daten, mit denen Sie die Leistung verbessern können.
 
-Siehe &quot;[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)&quot;, um weitere Informationen zur Unterstützung für verschiedene Anzeigennetzwerke und -typen zu erhalten.
+Weitere Informationen zur Unterstützung für verschiedene Werbenetzwerke und Anzeigentypen finden Sie unter &quot;[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
 
 ## Integration mit Adobe Experience Cloud-Lösungen und -Diensten
 
-Durch native Integrationen mit Adobe Analytics und Adobe Audience Manager können Sie Ihre Daten und Zielgruppensegmente für das Anzeigen-Targeting miteinander verbinden. [!DNL Google Ads] Zielgruppenerstellung, -optimierung sowie Reporting/Analyse.
+Durch native Integrationen mit Adobe Analytics und Adobe Audience Manager können Sie Ihre Daten und Zielgruppensegmente für Anzeigen-Targeting, die Erstellung, Optimierung und Berichterstellung/Analyse von [!DNL Google Ads] Zielgruppen miteinander verbinden.
 
-Weitere Informationen zu Integrationen mit diesen und anderen Adobe-Produkten finden Sie unter &quot;[Integration mit Adobe Experience Cloud-Lösungen und -Diensten](/help/search-social-commerce/introduction/integrations.md).&quot;
+Weitere Informationen zu Integrationen mit diesen und anderen Adobe-Produkten finden Sie unter &quot;[Integration mit Adobe Experience Cloud-Lösungen und -Diensten](/help/search-social-commerce/introduction/integrations.md)&quot;.
 
 ## Konversions-Tracking
 

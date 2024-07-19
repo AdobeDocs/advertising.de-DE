@@ -1,6 +1,6 @@
 ---
 title: Glossar
-description: Siehe Definitionen der Schlüsselbegriffe.
+description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
@@ -14,190 +14,190 @@ ht-degree: 0%
 
 ## A-B {#a-b}
 
-**Anzeigengruppe:** Eine Reihe von Anzeigen und die damit verbundenen Suchbegriffe, Platzierungen und Produktgruppen für eine Kampagne.
+**Anzeigengruppe:** Ein Satz von Anzeigen und zugehörigen Suchbegriffen, Platzierungen und Produktgruppen für eine Kampagne.
 
-**Anzeige Variante:** Alle Anzeige innerhalb einer Anzeigengruppe oder Anzeige Strategie.
+**Anzeigenvariante:** Jede Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** Eine Trackingcode, die es Adobe Systems Advertising ermöglicht, Daten zu Kampagnen mit Adobe Analytics zu teilen. Es beginnt mit `s_kwcid=`.
+**[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics freigeben kann. Er beginnt mit `s_kwcid=`.
 
-**Gebot Einheit:** Ein Search, Social &amp; Commerce-Begriff für eine Einheit, für die Gebote abgegeben werden.
+**Angebotseinheit:** Ein Suchbegriff, Social und Commerce für eine Einheit, auf der Gebote platziert werden.
 
-* Bei CPC Kampagnen ist dies ein Keyword und sein Übereinstimmungstyp für eine suchen oder Inhalte Kampagne, ein Produkt auf Einheitsebene Gruppe (die unterste Ebene der Unterteilung) für eine Shopping-Kampagne oder eine dynamische suchen Target-Komponente für eine dynamische suchen Werbekampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dasselbe Produkt Gruppe oder dieselbe dynamische suchen Target-Komponente in mehreren Anzeige Gruppen in einer einzigen Kampagne auftritt, werden alle Instanzen als dieselbe Gebot Einheit betrachtet und haben daher dieselbe Gebot.
+* Bei CPC-Kampagnen handelt es sich um einen Suchbegriff und dessen Übereinstimmungstyp für eine Such- oder Inhaltskampagne, eine Produktgruppe auf Einheitsebene (Unterteilung auf der niedrigsten Ebene) für eine Einkaufskampagne oder ein dynamisches Suchziel für eine dynamische Suchanzeigenkampagne. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp, dieselbe Produktgruppe oder dasselbe dynamische Suchziel innerhalb mehrerer Anzeigengruppen in einer Kampagne auftritt, werden alle Instanzen als dieselbe Angebotseinheit betrachtet und verfügen daher über dasselbe Angebot.
 
-* Bei Kampagnen mit der [!DNL Maximize Clicks]Strategie , [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition]oder [!DNL Target Return on Ad Spend] &quot;Spend&quot; entspricht jeder Kampagne einer Gebot Einheit.
+* Bei Kampagnen mit den Ausgabestrategien [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] oder [!DNL Target Return on Ad Spend] ist jede Kampagne eine Angebotseinheit.
 
-* Bei Kampagnen auf [!DNL Yahoo! Display Network], die keine Suchbegriffe verwenden, haben alle Anzeigen innerhalb einer Anzeigengruppe dieselbe Gebot und gelten als dieselbe Gebot Einheit.
+* Bei Kampagnen für [!DNL Yahoo! Display Network], die keine Suchbegriffe verwenden, haben alle Anzeigen innerhalb einer Anzeigengruppe dasselbe Angebot und werden als dieselbe Angebotseinheit betrachtet.
 
-**Gebot Einheitenbeschränkung** : Siehe &quot;Beschränkung&quot;.
+**Gebotseinheiten-Einschränkung:** Siehe &quot;Einschränkung&quot;.
 
 ## C-D {#c-d}
 
-**Kampagne:** Eine Gruppe von Anzeige Gruppen in einer einzigen Anzeige Konto, die ein Budget, eine Zeitspanne, Targeting und andere Einstellungen teilen. **Hinweis:** [!DNL Baidu] Verfügt nicht über das Konzept von Kampagnen, aber Search, Social, &amp; Commerce erstellt Pseudokampagnen für jeden Satz verwandter Anzeige Gruppen in vorhandenen [!DNL Baidu] Konten, die innerhalb von Search, Social und Commerce synchronisiert werden.
+**Kampagne:** Ein Satz von Anzeigengruppen in einem einzelnen Anzeigenkonto, die ein Budget, eine Zeitspanne, ein Targeting und andere Einstellungen gemeinsam haben. **Hinweis:** [!DNL Baidu] hat kein Kampagnenkonzept, aber Search, Social und Commerce erstellt Pseudo-Kampagnen für jeden Satz verwandter Anzeigengruppen in vorhandenen [!DNL Baidu]-Konten, die in Search, Social und Commerce synchronisiert werden.
 
-**Feld mit Unterscheidung zwischen Groß- und Kleinschreibung:** Bei einem Feld oder Abfrage, bei dem die Groß- und Kleinschreibung beachtet wird, werden Großbuchstaben (z. B. C) anders behandelt als Kleinbuchstaben (z. B. c). So wird z. B. &quot;Auto&quot; als ein anderer Wert als &quot;Auto&quot; behandelt.
+**Feld, bei dem die Groß-/Kleinschreibung beachtet wird:** Bei einem Feld oder einer Abfrage wird Großbuchstaben (z. B. C) anders behandelt als Kleinbuchstaben (z. B. c). Beispiel: &quot;Auto&quot;wird als anderer Wert behandelt als &quot;Auto&quot;.
 
-**click:** Ein einzelner User Klick auf oder innerhalb einer online Anzeige.
+**Klick:** Ein einzelner Benutzer klickt auf oder innerhalb einer Online-Anzeige.
 
-**Klick-Lookback-Fenster: Eine Advertiser-Level-Einstellung,** die angibt, wie viele Tage nach einem bezahlten Klick in einer Ereignis-Reihe einem Konversion zugeordnet werden können.
+**Klick-Lookback-Fenster:** Eine Einstellung auf Advertiser-Ebene, die die Anzahl der Tage angibt, nach denen ein gebührenpflichtiger Klick in einer Ereignisreihe auftritt, in denen der Klick einer Konversion zugeordnet werden kann.
 
-**Klickzeit:** Der Zeitpunkt, zu dem ein Ende User mit einer eindeutigen IP-Adresse zum ersten Mal auf eine Anzeige in der Anzeigennetzwerk klickt.
+**Klickzeit:** Der Zeitpunkt, zu dem ein Endbenutzer mit einer eindeutigen IP-Adresse zuerst auf eine Anzeige im Werbenetzwerk klickt.
 
-**Clickthroughrate:** (CTR) Die Anzahl der Klicks geteilt durch die Anzahl der Impressionen auf einer Anzeige. Die für die Suchanfrage relevantesten Anzeigen weisen die höchsten Durchklickraten auf.
+**Clickthrough-Rate:** (CTR) Die Anzahl der Klicks dividiert durch die Anzahl der Impressionen auf eine Anzeige. Anzeigen, die für die Suchabfrage am relevantesten sind, weisen die höchsten Clickthrough-Raten auf.
 
-**Click-Tracking URL:** Eine Tracking Vorlage oder ein Ziel URL mit eingebettetem Code, um Klicks auf eine Keyword, Anzeige Variante oder Platzierung zu verfolgen.
+**Klick-Tracking-URL:** Eine Tracking-Vorlage oder Ziel-URL mit eingebettetem Code zur Verfolgung von Klicks auf einen Suchbegriff, eine Anzeigenvariation oder eine Platzierung.
 
-**Einschränkung:** (Werbetreibende mit Portfolios; gilt nur für Gebot Einheiten in Standardportfolios) Eine Regel für die Abgabe von Geboten auf eine bestimmte Keyword oder Anzeige. Sie setzt alle Portfolio-Level-Beschränkungen und die empfohlene Angebotsstrategie außer Kraft.
+**Beschränkung:** (Werbetreibende mit Portfolios; nur für Gebotseinheiten in Standard-Portfolios anwendbar) Eine Regel für Gebote auf einen bestimmten Suchbegriff oder eine bestimmte Anzeige. Sie überschreibt alle Beschränkungen auf Portfolioebene und die empfohlene Angebotsstrategie.
 
-**Konversion:** Der Abschluss einer Aktion nach einem Ende User Klicks auf eine Anzeige, die normalerweise als Kennzahl erfasst werden. Beispiele sind Registrierungen und Käufe. Sie können Anzahlen oder Geldbeträge darstellen. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot; und &quot;Transaktion&quot; werden oft synonym verwendet.
+**Konversion:** Der Abschluss einer Aktion, nachdem ein Endbenutzer auf eine Anzeige geklickt hat, die normalerweise als Metrik erfasst wird. Beispiele sind Registrierungen und Käufe, die Zählungen oder Geldbeträge darstellen können. Eine Konversion kann aus einem oder mehreren Transaktionsereignissen bestehen, aber die Begriffe &quot;Konversion&quot;und &quot;Transaktion&quot;werden häufig synonym verwendet.
 
-**Konversion Tracking:** Conversion-Tracking verwendet Cookies, um a) Klicks auf die Anzeigen eines Advertiser in den Anzeige Netzwerken und b) die daraus resultierenden Transaktionen auf der Website des Advertiser zu verfolgen.
+**Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf die Anzeigen eines Advertisers in den Werbenetzwerken und b) die resultierenden Transaktionen auf der Website des Advertisers zu verfolgen.
 
-**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio dividiert durch die prognostizierten Ausgaben.
+**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio geteilt durch die prognostizierten Ausgaben.
 
-**Kostenmodell:** (Werbetreibende mit Portfolios) Search, Social &amp; Commerce-Technologie, die das Kostenvolumen, die Gebot, die erforderlich sind, um jede Position oder Platzierung zu gewinnen, und die CPC (suchen) oder CPM (Anzeige) für jede Gebot Einheit unter Verwendung von historische Daten und mathematischen Prognosetechniken vorhersagt.
+**Kostenmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die Kostenvolumen vorhersagt, das Gebot, das erforderlich ist, um jede Position oder Platzierung zu gewinnen, und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit mithilfe von historischen Daten und mathematischen Prognosetechniken.
 
-**Kostenmodellabdeckung:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz von Gebot Einheiten in CPC- oder eCPC-Kampagnen, die in den letzten sieben Tagen mindestens eine Impression erhalten haben, damit die Optimierungsfunktion Kostenmodelle Build kann. Nicht alle Gebot Einheiten haben Kostenmodelle; Die Gebot Einheiten mit Kostenmodellen werden auf die Kostenmodellabdeckung angerechnet.
+**Kostenmodellabdeckung:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz der Gebotseinheiten in CPC- oder eCPC-Kampagnen, die in den letzten sieben Tagen mindestens eine Impression erhalten haben, sodass die Optimierungsfunktion Kostenmodelle erstellen kann. Nicht alle Gebotseinheiten verfügen über Kostenmodelle; die Gebotseinheiten mit Kostenmodellen zählen zur Abdeckung des Kostenmodells.
 
-**Halbwertszeit des Kostenmodells:** (Werbetreibende mit Portfolios) Die Anzahl der Tage vor dem aktuellen Datum, für die die Kostendaten als aktueller und daher relevanter für Kostenmodelle angesehen werden.
+**Halbwertszeit des Kostenmodells:** (Werbetreibende mit Portfolios) Die Anzahl der Tage vor dem aktuellen Datum, für die die Kostendaten als aktueller betrachtet werden und daher für Kostenmodelle relevanter sind.
 
-**Kosten pro 1000 Impressionen:** (CPM) Die Kosten für eine Anzeige pro tausend Impressionen. Werbetreibende, die ein CPM Preismodell verwenden, zahlen nach Impressionen, nicht nach Klicks.
+**Kosten pro 1000 Impressionen:** (CPM) Die Kosten einer Anzeige für jede tausend Impressionen. Werbetreibende, die ein CPM-Preismodell verwenden, zahlen nach Impressionen und nicht nach Klicks.
 
-**Kosten pro Akquise:** (CPA) Die Kosten einer Anzeige geteilt durch die Anzahl der Konversionen. Auch Cost-per-Transaction (CPT) oder Cost-per-bestellen (CPO) genannt.
+**Kosten pro Akquise:** (CPA) Die Kosten einer Anzeige dividiert durch die Anzahl der Konversionen. Auch Kosten pro Transaktion (CPT) oder Kosten pro Bestellung (CPO) genannt.
 
-**Cost per Click:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige. Wenn Sie z. B. 100 USD für ein Ad-Impression ausgeben und der Anzeige 10 Klicks generiert, beträgt die Cost per Click 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibenden jeder Anzeige Klicks in Rechnung gestellt wird.
+**Kosten pro Klick:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtanzahl der Klicks für die Anzeige. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibende für jeden Klick auf die Anzeige in Rechnung gestellt werden.
 
-**Kosten pro bestellen:** (CPO) Die Kosten einer Anzeige geteilt durch die Anzahl der Bestellungen. Auch Cost-per-Akquise (CPA) oder CPT (Cost-per-Transaction) genannt.
+**Kosten pro Bestellung:** (CPO) Die Kosten einer Anzeige dividiert durch die Anzahl der Bestellungen. Auch Kosten pro Akquise (CPA) oder Kosten pro Transaktion (CPT) genannt.
 
-**Kosten pro Transaktion:** (CPT) Die Kosten einer Anzeige geteilt durch die Anzahl der Transaktionen. Auch Cost-per-Akquise (CPA) genannt.
+**Kosten pro Transaktion:** (CPT) Die Kosten einer Anzeige dividiert durch die Anzahl der Transaktionen. Auch &quot;Kosten pro Akquise&quot;(CPA) genannt.
 
 **CPA:** Siehe &quot;Kosten pro Akquise&quot;.
 
-**CPC:** Siehe &quot;Cost per Click&quot;.
+**CPC:** Siehe &quot;Kosten pro Klick&quot;.
 
 **CPM:** Siehe &quot;Kosten pro 1000 Impressionen&quot;.
 
-**CPO:** Siehe &quot;Kosten pro bestellen&quot;.
+**CPO:** Siehe &quot;Kosten pro Bestellung&quot;.
 
 **CPT:** Siehe &quot;Kosten pro Transaktion&quot;.
 
-**CSV: Ein Dateiformat,** das aus kommagetrennten Werten (CSV) besteht.
+**CSV:** Ein Dateiformat, das aus kommagetrennten Werten (CSV) besteht.
 
 **CTR:** Siehe &quot;Clickthrough-Rate&quot;.
 
 ## E-F {#e-f}
 
-**eCPM:** Die effektive CPM, d. h. die durchschnittlichen Kosten pro 1000 Impressionen während einer bestimmten Datumsbereich. eCPM-Werte können sowohl für CPM als auch für CPC Kampagnen berechnet werden.
+**eCPM:** Der effektive CPM oder die durchschnittlichen Kosten, die pro 1000 Impressionen innerhalb eines bestimmten Datumsbereichs gezahlt wurden. eCPM-Werte können für CPM- oder CPC-Kampagnen berechnet werden.
 
 ## G-H {#g-h}
 
 ## I-J {#i-j}
 
-**Impression:** Eine einzelne Anzeige eines Anzeige auf einer Webseite, in einer mobilen App oder in einem anderen Sendungen Medium. Ein User muss nicht Ansicht oder auf den Anzeige klicken, damit er als Impression zählt.
+**impression:** Eine einzelne Anzeige einer Anzeige auf einer Webseite, mobilen App oder einem anderen Versandmedium. Ein Benutzer muss die Anzeige nicht anzeigen oder klicken, damit sie als Impression gezählt wird.
 
-**Impression Lookback-Fenster:** (Nur Anzeigen und Social-Media-Kampagnen) Eine Advertiser-stufige Einstellung, die angibt, wie viele Tage nach einem Ad-Impression der Impression einer Konversion zugeordnet werden kann.
+**Impression-Lookback-Fenster:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Anzahl der Tage angibt, nach denen eine Ad-Impression auftritt, die einer Konversion zugeordnet werden kann.
 
-**Impression Gewichtung überschreiben: Ein bestimmter Prozentsatz eines Konversion Werts,** der Impressionen zugeordnet werden soll, die innerhalb des Impression Lookback-Fensters des Kunden auftreten, wenn dem Konversion sowohl bezahlte Klicks als auch Impressionen vorausgehen. Wenn einem Konversion nur Impressionen vorangehen, wird der Viewthrough-Gewichtung des Advertiser und nicht der Impression Überschreibungs-Gewichtung auf die Impressionen angewendet.
+**Impressions override weight:** Ein angegebener Prozentsatz eines Konversionswerts, um Impressionen zuzuordnen, die im Impression-Lookback-Fenster des Kunden auftreten, wenn der Konversion sowohl Paid-Klicks als auch Impressionen vorangehen. Wenn einer Konversion nur Impressionen vorangestellt werden, wird die Viewthrough-Gewichtung des Werbetreibenden anstelle der Impressions-Überschreibungsgewichtung auf die Impressionen angewendet.
 
 ## K-L {#k-l}
 
-**Keyword:** Ein Wort oder eine Wortgruppe, die mit einer Anzeige verknüpft ist.
+**Suchbegriff:** Ein Wort oder eine Wortgruppe, das/die einer Anzeige zugeordnet ist.
 
-**Keyword Einschränkung:** Siehe &quot;Einschränkung&quot;.
+**Keyword-Beschränkung:** Siehe &quot;Einschränkung&quot;.
 
-**label Klassifizierung:** Eine Möglichkeit, Ihre Konto Komponenten in aussagekräftige Sätze zu Gruppe. Eine Beschriftung Klassifizierung kann mehrere Beschriftungswerte enthalten, die Attribute kennzeichnen. Beispielsweise könnte eine &quot;Geo&quot;-Beschriftung Klassifizierung Werte für verschiedene geografische Regionen enthalten.
+**Beschriftungs-Classification:** Eine Möglichkeit, Ihre Kontokomponenten in aussagekräftige Sätze zu gruppieren. Eine Beschriftungs-Classification kann mehrere Beschriftungswerte enthalten, die Attribute kennzeichnen. Beispielsweise könnte eine &quot;Geo&quot;-Beschriftungsklassifizierung Werte für verschiedene geografische Regionen enthalten.
 
-**labelvalue:** Ein Element einer Klassifizierung label. Es kann als Tag Anzeige Kampagnen und Kampagne Entitäten zugewiesen werden, sodass Sie Leistungsdaten und Berichte nach Label filtern oder optionale Einschränkungen für Gebot Einheiten konfigurieren können, die dem Label zugeordnet sind.
+**label-Wert:** Ein Element einer Bezeichnungsklassifizierung. Sie kann Anzeigenkampagnen und Kampagnenentitäten als Tag zugewiesen werden, damit Sie Leistungsdaten und Berichte nach Titel filtern oder optionale Begrenzungen für mit der Bezeichnung verknüpfte Angebotseinheiten konfigurieren können.
 
-**Landingpage URL:** Der URL der Webseite des Advertiser, der geöffnet wird, wenn das Ende User auf einen Anzeige klickt.
+**Landingpage-URL:** Die URL der Webseite des Advertisers, die beim Klicken auf eine Anzeige durch den Endbenutzer geöffnet wird.
 
 ## M-N {#m-n}
 
-**Grenzkosten: Die Änderung der Gesamtkosten,** wenn sich die Anzahl um eine Einheit ändert.
+**Grenzkosten:** Die Änderung der Gesamtkosten, wenn sich die Menge um eine Einheit ändert.
 
-**Grenzkosten im Verhältnis zu objektivem Wert: Die Änderung der Kosten,** die erforderlich ist, um den objektiven Wert um eins (1) zu erhöhen. Diese hat denselben Wert wie die alte Spalte &quot;Grenzkosten im Verhältnis zum Umsatz&quot;.
+**Grenzwert zwischen Kosten und Ziel:** Die zur Erhöhung des Zielwerts erforderliche Kostenänderung um 1 (1). Dieser Wert hat denselben Wert wie die veraltete Spalte &quot;Marge zwischen Kosten und Umsatz&quot;.
 
-**Übereinstimmungstyp:** Eine Option, die festlegt, wie suchen Begriffe mit Anzeigen abgeglichen werden. Die Optionen variieren je nach Anzeigennetzwerk.
+**Übereinstimmungstyp:** Eine Option, die angibt, wie Suchbegriffe mit Anzeigen übereinstimmen. Die Optionen variieren je nach Anzeigennetzwerk.
 
-**Mindest Gebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für suchen Keywords ist die Mindest Gebot erforderlich, die für eine bestimmte Keyword basierend auf ihrer Qualitätsbewertung erforderlich ist. Die Mindest Gebot ist in der Regel der Mindestbetrag, den Sie pro Klick bestellen für Ihre Keyword zur Anzeigenschaltung zahlen können.
+**Mindestangebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für Suchbegriffe das Mindestangebot, das für einen bestimmten Suchbegriff basierend auf seinem Qualitätswert erforderlich ist. Das Mindestangebot ist in der Regel der geringste Betrag, den Sie pro Klick zahlen können, damit Ihr Suchbegriff Anzeigen anzeigt.
 
 ## O-P {#o-p}
 
-**Zielsetzung:** (Werbetreibende mit Portfolios) Ein Ziel, das sich ein Kunde setzt, um sein Geschäftsziel für eine bestimmte Portfolio oder eine Display-Kampagne zu erreichen, z. B. Gewinnmaximierung oder Erreichen einer bestimmten Verkaufs Target-Komponente. Ein Ziel besteht aus den Konversion Metriken, die verfolgt und für die Portfolio optimiert werden sollen, und der relativen Gewichtung dieser Metriken.
+**Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde festlegt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. die Maximierung der Gewinne oder die Erreichung eines bestimmten Verkaufsziels. Ein Ziel besteht aus den Konversionsmetriken, die verfolgt und für das Portfolio optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken.
 
-**Objektiver Wert:** (Werbetreibende mit Portfolios) Die gewichteten Konversionen insgesamt, die gemäß dem aktuellen Ziel der Portfolio berechnet werden, einschließlich:
+**objektiver Wert:** (Werbetreibende mit Portfolios) Die gesamten gewichteten Konversionen, berechnet anhand des aktuellen Ziels des Portfolios, einschließlich:
 
-* alle Umrechnungen unter Berücksichtigung Konto a) der Gewichtungen, die jeder Konversion in der Zielfunktion des Portfolio zugewiesen wurden, und ggf. b) der Viewthrough-Gewichtung für die Anzeige Ansicht-Throughs.
+* alle Konversionen, unter Berücksichtigung a) der Gewichtungen, die jeder Konversion in der objektiven Funktion des Portfolios zugewiesen werden, und b) der Durchsichtsgewichtung für Durchsichten der Anzeige.
 
-* Alle Klicks, die von der Optimierungsfunktion als einzelne Konversion betrachtet und entsprechend dem Klickwert für das Ziel gewichtet werden.
+* alle Klicks, bei denen die Optimierungsfunktion eine einzelne Konversion berücksichtigt und anhand des Klickwerts für das Ziel gewichtet wird.
 
-Dies hat denselben Wert wie die alte Spalte &quot;Gewichteter Umsatz&quot;.
+Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quot;.
 
-**Optimierungsfunktion:** (Werbetreibende mit Portfolios) Search, Social &amp; Commerce Keyword-Bidding Technologie, die die optimale Gebots- und Budgetverwaltungsstrategie für ein Portfolio basierend auf seinem Geschäftsziel bestimmt.
+**Optimierungsfunktion:** (Werbetreibende mit Portfolios) Suchmaschinen-, Social- und Commerce-Suchbegriffangebotstechnologie, die die optimale Gebots- und Budgetverwaltungsstrategie für ein Portfolio auf der Grundlage seines Geschäftsziels bestimmt.
 
-**Verwaiste Transaktion:** Eine Transaktion, die Ereignis, die keiner bestimmten Keyword oder Anzeige zugeordnet werden kann.
+**verwaiste Transaktion:** Ein Transaktionsereignis, das keinem bestimmten Suchbegriff oder einer bestimmten Anzeige zugeordnet werden kann.
 
-**Pixel:** Ein transparentes, ein Pixel mal ein Pixel großes Bild, das zu Tracking Zwecken auf einer Webseite eingebettet wird. Adobe Systems Werbe-Konversion-Tracking-Tags enthalten entweder ein HTML Bildpixel oder JavaScript zur Nachverfolgung von Klicks und den daraus resultierenden Transaktionen.
+**pixel:** Ein transparentes, ein Pixel nach dem anderen Pixel großes Bild, das zu Tracking-Zwecken auf einer Webseite eingebettet ist. Adobe Advertising-Konversions-Tracking-Tags enthalten entweder ein HTML-Bildpixel oder JavaScript, um Klicks und die daraus resultierenden Transaktionen zu verfolgen.
 
-**Platzierung: Ein Ort im Displaynetzwerk,** an dem Ihre Anzeigen erscheinen sollen. Dabei kann es sich um eine ganze Website, eine Teilmenge einer Website oder eine Anzeige Position auf einer bestimmten Seite handeln.
+**placement:** Ein Ort in einem Display-Netzwerk, in dem Ihre Anzeigen erscheinen können. Dabei kann es sich um eine ganze Website, eine Untergruppe einer Website oder eine Anzeigenposition auf einer bestimmten Seite handeln.
 
-**Portfolio:** Eine Reihe von Anzeige Kampagnen und den zugehörigen Gebot Einheiten, die für ein einzelnes Geschäftsziel und eine Target-Komponente der Leistung optimiert sind.
+**Portfolio:** Eine Reihe von Werbekampagnen und den zugehörigen Gebotseinheiten, die für ein einzelnes Geschäftsziel und ein Leistungsziel optimiert sind.
 
 **POS:** Prozentsatz der Ausgaben
 
-**PPC:** Siehe &quot;Pay pro Klick&quot;.
+**PPC:** Siehe &quot;Pay per Click&quot;.
 
-**Eigenschaft:** Siehe &quot;Konversionskennzahl&quot;.
+**Eigenschaft:** Siehe &quot;Konversionsmetrik&quot;.
 
-**Eigenschaft Zeit:** Die Zeit, zu der ein Kontakt Konversion Ereignis auftritt. Wenn ein Ereignis zugehörige folgen-Ereignisse enthält (z. B. wenn sich ein Kunde zunächst für eine gratis Testversion registriert und später einen kostenpflichtigen Dienst abonniert), hat jeder Ereignis seine eigene Eigenschaft Zeit.
+**Eigenschaftszeit:** Der Zeitpunkt, zu dem ein einzelnes Konversionsereignis eintritt. Wenn ein Ereignis verwandte Folgeereignisse enthält (z. B. ein Kunde, der sich zuerst für eine kostenlose Testversion registriert und später einen gebührenpflichtigen Dienst abonniert), hat jedes Ereignis seine eigene Eigenschaftszeit.
 
 ## Q-R {#q-r}
 
-**Qualitätsfaktor:** Ein Wert, den ein Anzeigennetzwerk einem Ihrer Suchbegriffe zuweist, um den Gebot Preis und die Anzeige Position zu bestimmen. Er wird nach der Relevanz des Keyword für die zugehörigen Anzeige und der Suchanfrage des User, der Click-Through-Rate des Keyword und anderen Faktoren berechnet.
+**Qualitätsbewertung:** Ein Wert, den ein Werbenetzwerk einem Ihrer Suchbegriffe zuweist, um dessen Gebots- und Anzeigenposition zu bestimmen. Die Berechnung erfolgt in Abhängigkeit von der Relevanz des Suchbegriffs für die zugehörige Anzeige und die Suchabfrage des Benutzers, der Clickthrough-Rate des Suchbegriffs und anderen Faktoren.
 
-**Redirect URL:** Teil eines Ziel-URL, der die User vor oder anstelle der Landingpage der Advertiser an einen anderen Server sendet.
+**Umleitungs-URL:** Teil einer Ziel-URL, die den Benutzer vor oder anstelle der Landingpage des Advertisers an einen anderen Server sendet.
 
 **ROI:** (ROI) Umsatz abzüglich Kosten.
 
-**Umsatz Genauigkeit:** (Werbetreibende mit Portfolios) Die tatsächliche Umsatz für eine Portfolio geteilt durch die prognostizierte Umsatz.
+**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz aus einem Portfolio dividiert durch den prognostizierten Umsatz.
 
-**Umsatz Modell:** (Werbetreibende mit Portfolios) Search-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Gebot Einheit auf der Grundlage der Klickdaten (suchen und Social Media) oder Impression Daten (Anzeige) und der Konversion Daten des Advertiser prognostiziert.
+**Umsatzmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Angebotseinheit anhand der Klickdaten (Suche und Social) oder Impressionsdaten (Anzeige) und der Konversionsdaten des Werbetreibenden vorhersagt.
 
-**Umsatz Modellabdeckung:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz von Gebot Einheiten in einem Portfolio mit Umsatz Modellen. Gebotseinheiten können Umsatz Modelle Linear, wenn sie keine Umsatz, aber Impressionen erhalten haben.
+**Abdeckung des Umsatzmodells:** (Werbetreibende mit Portfolios) Die Anzahl und/oder der Prozentsatz der Gebotseinheiten in einem Portfolio mit Umsatzmodellen. Angebotseinheiten können über Umsatzmodelle verfügen, selbst wenn sie keinen Umsatz, aber Impressionen erhalten haben.
 
-**Umsatz Modellhalbwertszeit:** (Werbetreibende mit Portfolios) Die Anzahl der Tage vor dem aktuellen Datum, für die die Umsatz Daten als aktueller und daher relevanter für Umsatz Modelle angesehen werden.
+**Halbwertszeit des Umsatzmodells:** (Werbetreibende mit Portfolios) Die Anzahl der Tage vor dem aktuellen Datum, für die die Umsatzdaten als aktueller betrachtet werden und daher für Umsatzmodelle relevanter sind.
 
-**ROI:** Siehe &quot;ROI&quot;.
+**ROI:** Siehe &quot;Return on Investment&quot;.
 
 ## S-T {#s-t}
 
-**Simulation:** (Werbetreibende mit Portfolios) Portfolio Modellierung, die anhand von historische Daten die Anzahl der Klicks und Conversions schätzt, die ein Portfolio für verschiedene Ausgabenniveaus und entsprechende Tagesbudgets erwarten kann.
+**Simulation:** (Advertisers mit Portfolios) Portfolio-Modellierung, die die Anzahl der Klicks und Konversionen schätzt, die ein Portfolio für verschiedene Ausgabenebenen und die entsprechenden täglichen Budgets erwarten kann, wobei historische Daten verwendet werden.
 
-**Ausgabenstrategie:** (Werbetreibende mit Portfolios) Die ausgewählte Strategie zur Optimierung von Keyword/Anzeige-Geboten für eine Portfolio.
+**Ausgabestrategie:** (Werbetreibende mit Portfolios) Die gewählte Strategie zur Optimierung von Keyword-/Anzeigengeboten für ein Portfolio.
 
 **`s_kwcid`:** Siehe &quot;AMO-ID&quot;.
 
-**Tracking URL:** Eine Tracking Vorlage oder ein Ziel URL dem zusätzliche Parameter hinzugefügt wurden, um Informationen über Klicks auf der Anzeige zu verfolgen. Es kann eine Redirect URL enthalten, Benutzer zuerst an einen Tracking Server weiterzuleiten, bevor sie an die Landingpage des Advertiser weitergeleitet werden.
+**Tracking-URL:** Eine Tracking-Vorlage oder eine Ziel-URL mit zusätzlichen Parametern, um Informationen über Klicks auf die Anzeige zu verfolgen. Es kann eine Umleitungs-URL enthalten, über die Benutzer zunächst an einen Tracking-Server gesendet werden, bevor sie zur Landingpage des Advertisers weitergeleitet werden.
 
-**transaction:** Jede nachverfolgbare Ereignis, die online oder offline auftritt. Mehrere Transaktionsereignisse können zusammen als Teil derselben Transaktion oder derselben Konversion verfolgt werden. So können z.B. ein online Anfrage für Informationen und ein daraus resultierendes telefonisches bestellen als Bestandteile eines Kaufs betrachtet werden. Die Begriffe &quot;Transaktion&quot; und &quot;Konversion&quot; werden oft synonym verwendet. Eine Transaktion wird durch eine Transaktions-ID dargestellt und ihr sind eine oder mehrere Eigenschaften zugeordnet.
+**transaction:** Jedes trackable Ereignis, das online oder offline auftritt. Mehrere Transaktionsereignisse können im Rahmen derselben Transaktion oder Konversion zusammen nachverfolgt werden. So kann beispielsweise eine Online-Informationsanfrage sowie eine daraus resultierende telefonische Bestellung als Bestandteil eines Kaufs betrachtet werden. Die Begriffe &quot;Transaktion&quot; und &quot;Konversion&quot; werden häufig synonym verwendet. Eine Transaktion wird durch eine Transaktions-ID repräsentiert und ihr eine oder mehrere Eigenschaften zugeordnet.
 
-**Transaktions-ID:** Eine Advertiser-spezifische ID, die eine Transaktion identifiziert. Wenn eine Transaktion mehrere Ereignisse enthält, haben sie alle dieselbe Transaktions-ID.
+**Transaktions-ID:** Eine vom Advertiser angegebene ID, die eine Transaktion identifiziert. Wenn eine Transaktion mehrere Ereignisse enthält, haben alle dieselbe Transaktions-ID.
 
-**transaction Eigenschaft:** Siehe &quot;Konversion&quot;.
+**Transaktionseigenschaft:** Siehe &quot;Konversion&quot;.
 
-**Transaktionszeit:** Der Zeitpunkt, zu dem ein Klick oder Impression in eine Transaktion umgewandelt wird. Wenn eine Transaktion aus mehreren Transaktionsereignissen besteht (z. B. wenn sich ein Kunde zum ersten Mal für eine gratis Testversion registriert und später einen kostenpflichtigen Dienst abonniert), stammt die Transaktionszeit vom ersten Ereignis in der Kette (Registrierung für die gratis Testversion).
+**Transaktionszeit:** Der Zeitpunkt, zu dem ein Klick oder eine Impression in eine Transaktion konvertiert wird. Wenn eine Transaktion aus mehreren Transaktionsereignissen besteht (z. B. wenn sich ein Kunde zuerst für eine kostenlose Prüfung registriert und später einen gebührenpflichtigen Dienst abonniert), beginnt die Transaktionszeit mit dem ersten Ereignis in der Kette (Registrierung für die kostenlose Prüfung).
 
-**TSV: Ein Dateiformat,** das aus Tab-getrennten Werten (CSV) besteht.
+**TSV:** Ein Dateiformat, das aus tabulatorgetrennten Werten (CSV) besteht.
 
 ## U-V {#u-v}
 
-**Ansicht-durch:** (Anzeigen und soziale Anzeigen) Ein Ad-Impression (oder eine Folge von Impressionen), die zu einem Konversion führt, ohne dass der User auf eine Anzeige klickt.
+**Durchsicht:** (Anzeige und soziale Anzeigen) Eine Anzeigenimpression (oder eine Zeichenfolge aus Impressionen), die zu einer Konversion führt, ohne dass der Benutzer auf eine Anzeige klickt.
 
-**Viewthrough-Gewichtung:** (Nur Anzeigen und Social-Media-Kampagnen) Eine Advertiser-Level-Einstellung, die die Gewichtung angibt, die einem Ansicht-Through-Konversion relativ zu den Gewichtung zugeordnet werden soll, die einer klickbasierten Konversion in Prozent zugeordnet werden sollen.
+**Durchsichtsgewichtung:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Gewichtung angibt, die einer Durchsichtskonversion zugeordnet werden soll, in Bezug auf die Gewichtung, die einer klick-basierten Konversion zugeordnet ist, in Prozent.
 
 ## W-X {#w-x}
 
-**Gewichtete Umsatz:** Siehe &quot;Objektiver Wert&quot;.
+**gewichteter Umsatz:** Siehe &quot;objektiver Wert&quot;.
 
-**XLS oder** XLSX **: Ein binäres** Dateiformat für [!DNL Microsoft Office Excel] Arbeitsmappen.
+**XLS** oder **XLSX**: Ein binäres Dateiformat für [!DNL Microsoft Office Excel] Arbeitsmappen.
 
 ## Y-Z {#y-z}

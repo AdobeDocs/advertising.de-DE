@@ -1,9 +1,9 @@
 ---
-title: Klick-Tracking-Formate für [!DNL Baidu]
-description: Informationen zu den Klick-Tracking-Formaten für [!DNL Baidu] Konten.
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: Klick-Tracking-Formate für  [!DNL Baidu]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Baidu] Konten.
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
 >* `<campaignID>` ist eine Variable für die numerische Kampagnen-ID.
 >

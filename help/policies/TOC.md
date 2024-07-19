@@ -1,7 +1,7 @@
 ---
 role: User
 user-guide-title: Grundsätze und Richtlinien für Adobe Advertising
-user-guide-description: Erfahren Sie mehr über die Richtlinien und Richtlinien für Advertising DSP und [!DNL Advertising Search, Social, & Commerce].
+user-guide-description: Erfahren Sie mehr über die Richtlinien und Richtlinien für Advertising DSP und  [!DNL Advertising Search, Social, & Commerce].
 breadcrumb-title: Grundsätze und Richtlinien
 index: true
 source-git-commit: 87971361638d5d7d36c07b8c322a533f79705745

@@ -16,9 +16,9 @@ Verwenden Sie Pakete, um Platzierungen für die Bereitstellung in einem festgele
 
 Sie können Packages manuell oder durch Duplizieren vorhandener Packages erstellen. Sie können Platzierungen auch bearbeiten und an beliebige Pakete anhängen.
 
-## Die [!UICONTROL Packages] Dashboard
+## Das Dashboard [!UICONTROL Packages]
 
-Die [!UICONTROL Packages] Das Dashboard zentralisiert Leistungs- und Wirtschaftsberichte für all Ihre Paketstrategien und bietet einen schnellen Überblick darüber, wie Ihre Pakete in einem bestimmten Datumsbereich ausgeführt wurden.
+Das Dashboard [!UICONTROL Packages] zentralisiert die Leistungs- und Wirtschaftsberichte aller Paketstrategien und bietet einen schnellen Überblick darüber, wie Ihre Pakete in einem bestimmten Datumsbereich ausgeführt wurden.
 
 ![Pakete-Dashboard](/help/dsp/assets/package-dashboard.png)
 
@@ -28,7 +28,7 @@ Er zeigt standardmäßig auch Geschwindigkeit- und Versandmetriken nach Paket an
 
 >[!NOTE]
 >
->Sie können den Inhalt und die Bereitstellung der Paketberichte über [benutzerspezifische Berichte](/help/dsp/reports/report-about.md).
+>Sie können den Inhalt und die Bereitstellung der Paketberichte über [benutzerdefinierte Berichte](/help/dsp/reports/report-about.md) weiter anpassen.
 
 Klicken Sie auf den Paketnamen, um alle Platzierungen innerhalb eines Packages und die Flugdaten für das Paket anzuzeigen.
 

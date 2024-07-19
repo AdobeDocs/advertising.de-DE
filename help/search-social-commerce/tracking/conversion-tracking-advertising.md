@@ -18,13 +18,13 @@ Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren
 >
 >Wenn der Benutzer über kein gültiges Cookie verfügt, meldet Adobe Advertising die Konversion nicht.
 
-Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Geben Sie dem Werber oder der Agentur die Tags mit einer Liste von Webseiten an, auf denen jede Seite eingefügt werden soll. Sie können einen der folgenden Konversions-Tagtypen generieren. Siehe &quot;[Adobe Advertising-Konversions-Tag generieren](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;für Anweisungen.
+Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Geben Sie dem Werber oder der Agentur die Tags mit einer Liste von Webseiten an, auf denen jede Seite eingefügt werden soll. Sie können einen der folgenden Konversions-Tagtypen generieren. Anweisungen finden Sie unter &quot;[Generate an Adobe Advertising Conversion Tag](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;.
 
 * (Empfohlen) JavaScript-Tags (Version 3 oder Version 2), die nicht auf den Webseiten sichtbar sind.
 
 * HTML von Bild-Tags zur Anzeige transparenter Bilder (Pixel) mit einer Auflösung von 1 Pixel x 1 Pixel, die für Endbenutzer unsichtbar sind. Verwenden Sie Bild-Tags nur, wenn das Unternehmen eine Richtlinie gegen die Verwendung von JavaScript-Tags hat.
 
-Weitere Informationen zu den Unterschieden zwischen den Tag-Typen finden Sie unter[Häufig gestellte Fragen zu Advertising Cloud-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+Weitere Informationen zu den Unterschieden zwischen den Tag-Typen finden Sie unter &quot;[FAQs zu Advertising Cloud-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;.
 
 >[!NOTE]
 >
@@ -54,9 +54,9 @@ Das Konversions-Tracking-Pixel ermöglicht Adobe Advertising Folgendes:
 >[!MORELIKETHIS]
 >
 >* [Konversions-Tracking-Optionen](conversion-tracking-about.md)
->* [Adobe Advertising-Konversions-Tag generieren](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Format der JavaScript-Konversions-Trackingtags, Version 3](format-conversion-tag-jsv3.md)
->* [Format der JavaScript-Konversions-Trackingtags, Version 2](format-conversion-tag-jsv2.md)
+>* [Format der JavaScript-Konversions-Tracking-Tags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](format-conversion-tag-image.md)
->* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](faqs-conversion-page-view-tracking-tags.md)
->* [Das Adobe Advertising-JavaScript-Tag zur Konversions-Zuordnung](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [FAQs über Konversions- und Seitenansichts-Tracking-Tags](faqs-conversion-page-view-tracking-tags.md)
+>* [Das Adobe Advertising JavaScript-Konversions-Mapping-Tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

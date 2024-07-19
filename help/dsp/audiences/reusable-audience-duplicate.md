@@ -20,23 +20,22 @@ Sie können eine Audience erstellen, indem Sie eine vorhandene Audience duplizie
 
 1. (Optional) Ändern Sie den standardmäßigen Zielgruppennamen in einen anderen eindeutigen Namen.
 
-   Standardmäßig heißt die neue Zielgruppe &quot;[audience] kopieren.&quot;
+   Standardmäßig heißt die neue Zielgruppe &quot;[audience] copy&quot;.
 
-1. Klicken **[!UICONTROL Duplicate]**.
+1. Klicken Sie auf **[!UICONTROL Duplicate]**.
 
-1. (Optional) [Neue Zielgruppe verfeinern](reusable-audience-edit.md).
+1. (Optional) [Verfeinern Sie die neue Zielgruppe](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Eine wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
 >* [Details zu einer wiederverwendbaren Zielgruppe anzeigen](reusable-audience-view-details.md)
 >* [Wiederverwendbare Zielgruppe freigeben](reusable-audience-share.md)
->* [Wiederverwendbare Zielgruppe exportieren](reusable-audience-export.md)
->* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage.](reusable-audience-clipboard.md)
+>* [Exportieren einer wiederverwendbaren Zielgruppe](reusable-audience-export.md)
+>* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
 >* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
 >* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
-
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)

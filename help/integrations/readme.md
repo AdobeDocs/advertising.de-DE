@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Dokumentation für Adobe Advertising-Integrationen mit Adobe Experience Cloud
 
-Dieser Ordner richtet sich an Dokumente zu Adobe Advertising-Integrationen mit anderen Adobe-Produkten.
+Dieser Ordner dient zur Dokumentation von Adobe Advertising-Integrationen mit anderen Adobe-Produkten.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

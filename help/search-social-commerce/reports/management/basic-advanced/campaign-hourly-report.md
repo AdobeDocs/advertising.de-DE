@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Campaign Hourly Report]'
-description: Informationen zum [!UICONTROL Campaign Hourly Report].
-exl-id: 0819d249-c105-4408-b5a2-a82a9e553d31
+description: Erfahren Sie mehr über die [!UICONTROL Campaign Hourly Report].
+exl-id: 0e807e74-b8f8-4823-a9d9-1871a20e90b6
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Hourly Report]
 
-Die [!UICONTROL Campaign Hourly Report] umfasst Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere [!DNL Google Ads] Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kampagne für jede Stunde im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
+Der [!UICONTROL Campaign Hourly Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere [!DNL Google Ads] Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kampagne für jede Stunde im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
 
 Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
 
-Die Daten sind ab dem 15. Mai 2021 verfügbar. <!-- [Later: You can view data for the previous NN days.] -->
+Daten sind ab dem 15. Mai 2021 verfügbar. <!-- [Later: You can view data for the previous NN days.] -->
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -37,5 +37,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
->* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

@@ -5,7 +5,7 @@ feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Kampagnen sind das übergreifende Framework der Flugeinstellungen. Alle Einstell
 
 Sie können Kampagnen manuell oder durch Duplizieren vorhandener Kampagnen erstellen. Sie können auch bestehende Kampagnen bearbeiten.
 
-## Die [!UICONTROL Campaigns] Dashboard
+## Das Dashboard [!UICONTROL Campaigns]
 
 <!-- standardize on "dashboard" or "view" -->
-Die [!UICONTROL Campaigns] Das Dashboard zentralisiert Leistungs- und Wirtschaftsberichte für alle Kampagnen und bietet eine schnelle Übersicht über die Leistung Ihrer Kampagnen in einem bestimmten Datumsbereich.
+Das Dashboard [!UICONTROL Campaigns] zentralisiert die Leistung und die Wirtschaftlichkeit der Berichterstellung für alle Kampagnen und bietet eine schnelle Übersicht über die Leistung Ihrer Kampagnen in einem bestimmten Datumsbereich.
 
 ![Kampagnen-Dashboard](/help/dsp/assets/campaign-dashboard.png)
 
-Standardmäßig zeigt das Dashboard die Geschwindigkeit und Versandmetriken nach Kampagne an. Optional können Sie Leistungsmetriken für die Kampagnen anzeigen und benutzerdefinierte Spaltensätze erstellen. Sie können entweder die gesamte Datentabelle exportieren oder Daten für alle Platzierungen in einer Kampagne in den standardmäßigen Download-Ordner Ihres Browsers als Bericht im XLSM-Format (Excel-Tabelle mit Makros) herunterladen.
+Standardmäßig zeigt das Dashboard die Geschwindigkeit- und Versandmetriken nach Kampagne an. Optional können Sie Leistungsmetriken für die Kampagnen anzeigen und benutzerdefinierte Spaltensätze erstellen. Sie können entweder die gesamte Datentabelle exportieren oder Daten für alle Platzierungen in einer Kampagne in den standardmäßigen Download-Ordner Ihres Browsers als Bericht im XLSM-Format (Excel-Tabelle mit Makros) herunterladen.
 
 >[!NOTE]
 >
->Sie können den Inhalt und die Bereitstellung der Kampagnenberichte weiter anpassen über [benutzerspezifische Berichte](/help/dsp/reports/report-about.md).
+>Sie können den Inhalt und die Bereitstellung von Kampagnenberichten über [benutzerdefinierte Berichte](/help/dsp/reports/report-about.md) weiter anpassen.
 
 Um alle Pakete, Platzierungen und Anzeigen innerhalb einer Kampagne anzuzeigen, klicken Sie auf den Kampagnennamen.
 
@@ -36,4 +36,3 @@ Um alle Pakete, Platzierungen und Anzeigen innerhalb einer Kampagne anzuzeigen, 
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Kampagneneinstellungen](campaign-settings.md)
 >* [Video: DSP Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-

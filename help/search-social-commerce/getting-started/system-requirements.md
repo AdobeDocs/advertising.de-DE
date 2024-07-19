@@ -1,11 +1,11 @@
 ---
 title: Systemanforderungen
 description: Erfahren Sie mehr über Software- und Kontoanforderungen.
-exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Sie benötigen die folgenden Software- und Kontoinformationen.
 
    * [!DNL Mozilla Firefox] 102 oder höher; [!DNL Mozilla Firefox Extended Support Release] 91.11 und höher
 
-* (So zeigen Sie exportierte Dateien im XLS-Format an) [!DNL Microsoft Excel] empfohlen
+* (Um exportierte Dateien im XLS-Format anzuzeigen) [!DNL Microsoft Excel] empfohlen
 
-  Wenn Sie eine andere Anwendung als [!DNL Microsoft Excel] um exportierte XLS-Dateien anzuzeigen, liegen Zahlen, Daten, Uhrzeiten und Währungen möglicherweise nicht im richtigen Format vor.
+  Wenn Sie eine andere Anwendung als [!DNL Microsoft Excel] verwenden, um exportierte XLS-Dateien anzuzeigen, liegen Zahlen, Daten, Uhrzeiten und Währungen möglicherweise nicht im richtigen Format vor.
 
 ## Benutzername und Kennwort
 
@@ -38,7 +38,7 @@ Um sich anzumelden, benötigen Sie einen Benutzernamen und ein Kennwort. Ihr Ado
 
 ### Einstellungen der Browser-Site
 
-Um die Bildvorschau für einige Anzeigen-/Asset-Typen anzuzeigen, deaktivieren Sie Anzeigenblocker/Inhaltsblocker für die `efrontier.com` Domäne, indem eine Ausnahme für die Site zugelassen wird. Verwalten Sie Anzeigensperren in den Site-/Website-Einstellungen Ihres Browsers oder (in Firefox), indem Sie die Einstellungen für alle installierten Adblocker-Browsererweiterungen bearbeiten.
+Um die Bildvorschau für einige Anzeigen-/Asset-Typen anzuzeigen, deaktivieren Sie Anzeigensperren/Inhaltsblocker für die Domäne &quot;`efrontier.com`&quot;, indem Sie eine Ausnahme für die Site zulassen. Verwalten Sie Anzeigensperren in den Site-/Website-Einstellungen Ihres Browsers oder (in Firefox), indem Sie die Einstellungen für alle installierten Adblocker-Browsererweiterungen bearbeiten.
 
 ### Computer- und Browserspracheinstellungen
 

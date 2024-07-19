@@ -1,22 +1,22 @@
 ---
 title: Massenblattdaten für [!DNL Yahoo! Display Network] Konten
 description: Referenzieren Sie die Kopfzeilenfelder und Datenfelder in heruntergeladenen Bulksheets für [!DNL Yahoo! Display Network] Konten.
-exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Anhang - Bulksheet-Daten für [!DNL Yahoo! Display Network] Konten
+# Anhang - Bulksheet-Daten für [!DNL Yahoo! Display Network]-Konten
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Sie können Daten herunterladen für [!DNL Yahoo! Display Network] -Konten in Batches, können jedoch keine Bulksheets in das Werbenetzwerk hochladen oder dort posten.
+Sie können Daten für [!DNL Yahoo! Display Network] -Konten stapelweise herunterladen, aber keine Bulksheets in das Werbenetzwerk hochladen oder posten.
 
 <!-- Hiding because this is probably too long a list to be useful.
 
@@ -41,18 +41,18 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Description Line 1] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die erste Zeile des Hauptteils einer Anzeige. |
 | [!UICONTROL Description Line 2] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die zweite Zeile des Hauptteils einer Anzeige. |
 | [!UICONTROL Base URL/Final URL] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die Landingpage-URL, an die Endbenutzer beim Klicken auf Ihre Anzeige herangeführt werden, einschließlich aller für die Kampagne oder das Konto konfigurierten Anlagenparameter. Basis-/endgültige URLs auf Suchbegriffebene überschreiben URLs auf Anzeigenebene und höher. |
-| [!UICONTROL Destination URL] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets zu Informationszwecken enthalten; nicht im Werbenetzwerk veröffentlicht) Bei Konten mit Ziel-URLs ist dieser Wert die URL, die eine Anzeige mit einer Basis-URL/Landingpage auf der Website des Advertisers verknüpft (manchmal über eine andere Site, die den Klick verfolgt und den Benutzer dann zur Landingpage weiterleitet). Sie enthält alle für die Kampagne oder das Konto &quot;Search, Social und Commerce&quot;konfigurierten Anlagenparameter. Wenn Sie Tracking-URLs generiert haben, basiert dieser Wert auf den Tracking-Parametern in Ihren Konto- und Kampagneneinstellungen. Wenn Sie Anzeigennetzwerkspezifische Parameter angehängt haben, können diese durch die entsprechenden Parameter für Search, Social und Commerce ersetzt werden. |
+| [!UICONTROL Destination URL] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets zu Informationszwecken enthalten; nicht im Werbenetzwerk veröffentlicht) Bei Konten mit Ziel-URLs ist dieser Wert die URL, die eine Anzeige mit einer Basis-URL/Landingpage auf der Website des Advertisers verknüpft (manchmal über eine andere Site, die den Klick verfolgt und den Benutzer dann zur Landingpage weiterleitet). Er enthält alle für die Kampagne oder das Konto &quot;Search, Social und Commerce&quot;konfigurierten Anlagenparameter. Wenn Sie Tracking-URLs generiert haben, basiert dieser Wert auf den Tracking-Parametern in Ihren Konto- und Kampagneneinstellungen. Wenn Sie Anzeigennetzwerkspezifische Parameter angehängt haben, können diese durch die entsprechenden Parameter für Search, Social und Commerce ersetzt werden. |
 | \[Advertiser-spezifische Beschriftungsklassifizierung\] | Ist enthalten | Ist enthalten | Ist enthalten | (Benannt für eine Advertiser-spezifische Beschriftungs-Classification, z. B. &quot;Farbe&quot;für eine Beschriftungsklassifizierung namens &quot;Farbe&quot;) Ein Wert für die angegebene Classification, die mit der Entität verknüpft ist. |
 | [!UICONTROL Constraints] | Ist enthalten | Ist enthalten | Nicht zutreffend | Eine Beschränkung, die der Entität zugewiesen wird. |
-| [!UICONTROL Campaign Status] | Ist enthalten | Nicht zutreffend | Nicht zutreffend | Der Anzeigestatus der Kampagne: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>oder <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Ad Group Status] | Nicht zutreffend | Ist enthalten | Nicht zutreffend | Der Anzeigestatus der Anzeigengruppe: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>oder <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Keyword Status] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Der Anzeigestatus des Suchbegriffs: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>oder <i>[!UICONTROL Deleted]</i> (nur vorhandene Suchbegriffe). |
+| [!UICONTROL Campaign Status] | Ist enthalten | Nicht zutreffend | Nicht zutreffend | Der Anzeigestatus der Kampagne: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> oder <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Group Status] | Nicht zutreffend | Ist enthalten | Nicht zutreffend | Der Anzeigestatus der Anzeigengruppe: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> oder <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Keyword Status] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Der Anzeigestatus des Keywords: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> oder <i>[!UICONTROL Deleted]</i> (nur vorhandene Keywords). |
 | [!UICONTROL Campaign ID] | Ist enthalten | Ist enthalten | Ist enthalten | Die eindeutige ID, die eine bestehende Kampagne identifiziert. |
 | [!UICONTROL Ad Group ID] | Nicht zutreffend | Ist enthalten | Ist enthalten | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. |
 | [!UICONTROL Keyword ID] | Nicht zutreffend | Nicht zutreffend | Ist enthalten | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. |
-| [!UICONTROL AMO ID] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets) Eine von der Adobe generierte eindeutige Kennung für eine synchronisierte Entität. |
-| [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] -Dateien. |
+| [!UICONTROL AMO ID] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets) Eine von Adobe generierte eindeutige Kennung für eine synchronisierte Entität. |
+| [!UICONTROL EF Error Message] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | (In generierten Bulksheets für Informationszwecke enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus Search, Social und Commerce zu Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] -Dateien enthalten. |
 
 >[!MORELIKETHIS]
 >
->* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
+>* [Herunterladen/Erstellen einer Bulksheet-Datei](../bulksheet-download.md)

@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Dokumentation zur Verbraucherdatenschutzunterstützung für Adobe Advertising
+# Support-Dokumentation für den Kundendatenschutz für Adobe Advertising
 
-Dieser Ordner dient der Adobe Advertising-Unterstützung für den Datenschutz von Verbrauchern.
+Dieser Ordner dient der Adobe Advertising-Unterstützung für die Privatsphäre der Verbraucher.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

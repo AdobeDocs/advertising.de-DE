@@ -21,7 +21,7 @@ Duplizieren Sie eine oder mehrere Platzierungen, um Platzierungen mit ähnlichen
 * (Für duplizierte Platzierungen in den ursprünglichen Kampagnen) Optional Duplizieren Sie die ursprünglichen Anzeigen.
 * Status und Flugdaten der neuen Platzierungen ändern
 
-Siehe &quot;[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &quot;[Was ist nicht dupliziert](#placement-not-duplicated)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -31,7 +31,7 @@ Siehe &quot;[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für e
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine Platzierung zu duplizieren, klicken Sie auf  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** neben dem Paketnamen.
+   * Um eine Platzierung zu duplizieren, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** neben dem Paketnamen.
 
    * Duplizieren mehrerer Platzierungen:
 
@@ -43,7 +43,7 @@ Siehe &quot;[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für e
 
    1. (Einzelplatzierungen) Geben Sie den neuen Platzierungsnamen ein.
 
-   1. Im **[!UICONTROL Choose Package (Required)]** wählen Sie entweder das übergeordnete Paket oder **[!UICONTROL No package]*.
+   1. Wählen Sie im Menü **[!UICONTROL Choose Package (Required)]** entweder das übergeordnete Paket oder **[!UICONTROL No package]* aus.
 
    1. (Optional) Ändern Sie die Standardeinstellungen.
 
@@ -51,9 +51,9 @@ Siehe &quot;[Nicht duplizierte Elemente](#placement-not-duplicated)&quot; für e
 
    Standardmäßig beziehen sich die neuen Platzierungen auf den ursprünglichen Anzeigentyp, werden den ursprünglichen Advertisern und Kampagnen zugewiesen, haben Flugpläne, die am aktuellen Tag beginnen, werden angehalten und enthalten nicht die ursprünglichen Anzeigen.
 
-   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen entsprechend der Konvention &lt;*original_placement_name #N*>, z. B. &quot;My Placement #2&quot;.
+   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen entsprechend der Konvention &lt;*original_placement_name #N*> mit einer Zahl angehängt, z. B. &quot;My Placement #2&quot;.
 
-1. Klicks **[!UICONTROL Submit]**.
+1. Klicken Sie auf **[!UICONTROL Submit]**.
 
 ## Nicht duplizierte Elemente {#placement-not-duplicated}
 
@@ -62,12 +62,12 @@ Alle Einstellungen der ursprünglichen Platzierungen werden dupliziert, mit Ausn
 * Experimenteinstellungen
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
-* Standardplatzierungen für programmatisch garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
+* Standardplatzierungen für programmgarantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] Segmente (die die Segmente auf Advertiser-Ebene überschreiben)
+   * Segmente auf Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] (die die Segmente auf Advertiser-Ebene überschreiben)
 
 >[!MORELIKETHIS]
 >

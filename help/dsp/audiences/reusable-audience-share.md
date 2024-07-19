@@ -20,21 +20,20 @@ Nachdem Sie eine Zielgruppe freigegeben haben, können Sie die Freigabe nicht me
 
 1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Share]**.
 
-1. Wählen Sie die zu **[!UICONTROL Share with all advertisers in my account]**.
+1. Wählen Sie die Option auf **[!UICONTROL Share with all advertisers in my account]** aus.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Duplizieren einer wiederverwendbaren Zielgruppe](reusable-audience-duplicate.md)
 >* [Eine wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
 >* [Details zu einer wiederverwendbaren Zielgruppe anzeigen](reusable-audience-view-details.md)
->* [Wiederverwendbare Zielgruppe exportieren](reusable-audience-export.md)
->* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage.](reusable-audience-clipboard.md)
+>* [Exportieren einer wiederverwendbaren Zielgruppe](reusable-audience-export.md)
+>* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
 >* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
 >* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
-
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)

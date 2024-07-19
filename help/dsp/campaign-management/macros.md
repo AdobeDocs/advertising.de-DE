@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP Makros
 
-Ein Makro ist ein kurzer Befehl oder Kurzbefehl für eine Anweisung und folgt normalerweise dem Format `${MACRO_NAME}`. Makros, die in kreativen Code- oder Clickthrough-URLs enthalten sind, werden in eine längere Code-Zeichenfolge umgewandelt, die der Anzeigenserver verstehen kann. Der DSP Adserver führt Makros aus, wenn die Anzeige bereitgestellt oder angeklickt wird.
+Ein Makro ist ein kurzer Befehl oder eine Kurzschrift für eine Anweisung und folgt normalerweise dem Format `${MACRO_NAME}`. Makros, die in kreativen Code- oder Clickthrough-URLs enthalten sind, werden in eine längere Code-Zeichenfolge umgewandelt, die der Anzeigenserver verstehen kann. Der DSP Adserver führt Makros aus, wenn die Anzeige bereitgestellt oder angeklickt wird.
 
 Anzeigenserver-Makros sind nützlich, um wichtige Informationen an DSP- oder Drittanbieter-Anzeigenserver zu übergeben. Makros werden am häufigsten während des Handels mit kreativem Drittanbieter- und benutzerdefiniertem Code oder Metadaten (z. B. Pixeln von Drittanbietern) verwendet.
 
@@ -56,14 +56,14 @@ Verwenden Sie allgemeine Tracking-Makros für alle Anzeigen- und Tag-Typen, um b
 
 | Makro | Ersatzbeschreibung | Typ |
 | ----- | ----------------------- | ---- |
-| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) Die Plattform-ID, die dem Betriebssystem des Geräts entspricht:<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` wenn die Plattform keine der oben genannten ist</li></ul> | varchar(50) |
-| `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Der Gerätemodellname, URL-kodiert. | Zeichenfolge |
+| `${CS_PLATFORM_ID}` | ([!DNL ComScore]) Die Plattform-ID, die dem Betriebssystem des Geräts entspricht:<ul><li>`ios` = [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` , wenn die Plattform keine der oben genannten ist</li></ul> | varchar(50) |
+| `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Der Name des Gerätemodells, URL-kodiert. | Zeichenfolge |
 | `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) Die Umgebung, in der die Anzeige bereitgestellt wurde:<ul><li>`a` = Mobile App</li><li>`b` = mobile Website</li></ul> | string (`a` oder `b`) |
-| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) Die Plattform-ID, die dem Betriebssystem des Geräts entspricht:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` wenn die Plattform keine der oben genannten ist</li></ul> | Zeichenfolge |
-| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Der Gerätetyp, auf dem die Anzeige als Viewer angezeigt wurde:<ul><li>`TAB` = Tablet</li><li>`PHN` = mobile</li><li>`computer` = computer</li></ul> | Zeichenfolge |
-| `${UOO}` | ([!DNL Nielsen]) Gibt an, ob der Benutzer das Anzeigen-Tracking deaktiviert hat:<ul><li>`1` (DNT-Markierung = 1) = Benutzer hat sich vom Anzeigen-Tracking abgemeldet</li><li>`0` (DNT-Markierung = 0) = Benutzer hat sich für das Anzeigen-Tracking entschieden</li></ul> | integer (`0` oder `1`) |
-| `${TM_BUNDLE}` | Die [!DNL iOS] oder [!DNL Android] App Store-Bundle-ID. Beispiele: com.zynga.wwf2.free oder id804379658 | Zeichenfolge |
-| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` gibt an, ob der Bieter feststellt, dass die Angebotsanforderung aus dem Ursprung der Europäischen Union stammt und die Durchsetzung der DSGVO erfordert:<ul><li>`1` = Die DSGVO sollte durchgesetzt werden</li><li>`0` = Die DSGVO sollte nicht durchgesetzt werden</li></ul>`gdpr_consent=${GDPR_CONSENT}` ist der Zustimmungswert, der vom Versorgungspartner in der eingehenden Gebotsanfrage übergeben wird:<ul><li>In den meisten Fällen handelt es sich um eine base64url-kodierte Zustimmungszeichenfolge oder ein daisybit (Beispiel: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMBkIDIgM0AgOJXAnQA)</li><li>`0` = keine Zustimmung</li><li>`1` = Einverständnis</li></ul> | daisybit oder integer |
+| `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) Die Plattform-ID, die dem Betriebssystem des Geräts entspricht:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` , wenn die Plattform keine der oben genannten ist</li></ul> | Zeichenfolge |
+| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Der Gerätetyp, auf dem die Anzeige Betrachter war:<ul><li>`TAB` = Tablet</li><li>`PHN` = mobile</li><li>`computer` = Computer</li></ul> | Zeichenfolge |
+| `${UOO}` | ([!DNL Nielsen]) Gibt an, ob der Benutzer das Anzeigen-Tracking deaktiviert hat:<ul><li>`1` (DNT-Markierung = 1) = Benutzer hat sich vom Anzeigen-Tracking abgemeldet</li><li>`0` (DNT-Markierung = 0) = Benutzer hat sich für das Anzeigen-Tracking entschieden</li></ul> | Ganzzahl (`0` oder `1`) |
+| `${TM_BUNDLE}` | Die App Store-Bundle-ID [!DNL iOS] oder [!DNL Android] . Beispiele: com.zynga.wwf2.free oder id804379658 | Zeichenfolge |
+| `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` gibt an, ob der Bieter feststellt, dass die Angebotsanforderung aus dem Ursprung der Europäischen Union stammt und die Durchsetzung der DSGVO erfordert:<ul><li>`1` = Die DSGVO sollte erzwungen werden</li><li>`0` = Die DSGVO sollte nicht erzwungen werden</li></ul>`gdpr_consent=${GDPR_CONSENT}` ist der Zustimmungswert, der vom Lieferpartner in der eingehenden Angebotsanforderung übergeben wird:<ul><li>In den meisten Fällen handelt es sich um eine base64url-kodierte Zustimmungszeichenfolge oder ein daisybit (Beispiel: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMBkIDIgM0AgOJXAnQA)</li><li>`0` = keine Zustimmung</li><li>`1` = Einverständnis</li></ul> | daisybit oder integer |
 
 {style="table-layout:auto"}
 
@@ -81,13 +81,13 @@ Um Klicks für Anzeigen mithilfe von Display-Tags von Drittanbietern genau zu ve
 DSP fügt automatisch Klick-Makros in einem Drittanbieter-Display-Tag ein, wenn Sie:
 
 * Anzeigen-Tags von einem Adserver-Partner exportieren <!-- [Needs PM confirmation.] -->
-* Massen-Upload [!DNL Flashtalking] oder [!DNL Google DoubleClick for Advertisers] Anzeigen-Tags direkt in DSP
+* Massen-Upload von Anzeigen-Tags [!DNL Flashtalking] oder [!DNL Google DoubleClick for Advertisers] direkt in DSP
 
 Wenn beim Erstellen einer Display-Anzeige ein Klickmakro fehlt, zeigt DSP eine Warnmeldung an, in der Sie aufgefordert werden, das entsprechende Display-Klickmakro manuell in den richtigen Bereich des Tags einzufügen.
 
 ## [!DNL Analytics for Advertising] Makros
 
-Für zusätzliche Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden, siehe[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+Weitere speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) -Kunden verfügbare Makros finden Sie unter &quot;[Anhängen von [!DNL Analytics for Advertising] Makros an  [!DNL Flashtalking] Anzeigen-Tags](/help/integrations/analytics/macros-flashtalking.md)&quot;und &quot;[Anhängen von [!DNL Analytics for Advertising] Makros an  [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
 ## Fehlerbehebung bei Makrofehlern
 
@@ -100,10 +100,10 @@ Fehler werden generiert, wenn Zeichen am Anfang oder Ende des Makronamens fehlen
 
 >[!MORELIKETHIS]
 >
->* [Audio-Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Einstellungen für Connected TV-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Audioanzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Einstellungen für vernetzte TV-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [Anzeigeeinstellungen](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Einstellungen für mobile Anzeigen](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Native Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Pre-Roll-Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [Universelle Videoanzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [Einstellungen für universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

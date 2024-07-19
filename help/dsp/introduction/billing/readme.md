@@ -5,7 +5,7 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Werbung DSP Dokumentation
+# Dokumentation zu Advertising DSP
 
 Dies ist der Ordner für DSP Hilfedokumentation.
 

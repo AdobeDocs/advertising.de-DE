@@ -24,18 +24,18 @@ Das Planer-Tool verwendet historische Gebots-, Impressions- und Reichweitendaten
 
 Jede Prognose besteht aus einer Prognosekurve für den erreichten Haushalt, aus der hervorgeht, wie viel mit den Planeinstellungen erreichbar ist. Bewegen Sie den Cursor über die Visualisierung, um die inkrementellen Reichweitenmöglichkeiten mit höheren Budgets anzuzeigen.
 
-![Planprognose](/help/dsp/assets/planner-forecast.png "Planprognose")
+![Planerprognose](/help/dsp/assets/planner-forecast.png "Planerprognose")
 
-Die prognostizierte Ausgabe umfasst auch eine [!UICONTROL Inventory Breakdown] -Abschnitt, der zeigt, wie verschiedene Herausgeber zur einzigartigen Reichweite beitragen und wertvolle Entdeckungsmöglichkeiten bieten.
+Die Prognoseausgabe enthält auch einen Abschnitt &quot;[!UICONTROL Inventory Breakdown]&quot;, der zeigt, wie verschiedene Herausgeber zur einzigartigen Reichweite beitragen und wertvolle Entdeckungsmöglichkeiten bieten.
 
 >[!NOTE]
 >
->* Die [!UICONTROL Inventory Breakdown] -Abschnitt zeigt Daten nur für private und [!UICONTROL On Demand] Inventar.
+>* Im Abschnitt [!UICONTROL Inventory Breakdown] werden nur Daten für den privaten und den [!UICONTROL On Demand] Bestand angezeigt.
 >* Die geschätzte eindeutige Reichweite, die für zwei Herausgeber angezeigt wird, kann sich überschneiden.
 
 ## Die Planeransicht
 
-Im [!UICONTROL Planner] anzeigen, können Sie Ihre vorhandenen CTV-Reichweitenpläne anzeigen und neue erstellen.
+In der Ansicht [!UICONTROL Planner] können Sie Ihre vorhandenen CTV-Reichweitenpläne anzeigen und neue erstellen.
 
 Sie können die Vorschau für jeden Plan auch bearbeiten, duplizieren, exportieren, archivieren oder neu generieren.
 
@@ -43,13 +43,13 @@ Sie können die Vorschau für jeden Plan auch bearbeiten, duplizieren, exportier
 
 ++ Welche Inventartypen unterstützt das Planer-Tool?
 
-Das Planer-Tool unterstützt alle Arten von Beständen, einschließlich programmgesteuerter (PG), privater Marketplace (PMP), [!UICONTROL On Demand]und öffentlich. Um genaue Prognosen zu erstellen, schließen Sie Angebote mit mindestens 50.000 Impressionen in den letzten sieben Tagen ein.
+Das Planer-Tool unterstützt alle Arten von Beständen, einschließlich programmgesteuerter (PG), privater Marketplace (PMP), [!UICONTROL On Demand] und öffentlicher Ressourcen. Um genaue Prognosen zu erstellen, schließen Sie Angebote mit mindestens 50.000 Impressionen in den letzten sieben Tagen ein.
 
 +++
 
-+++ Warum sehe ich &quot;[!UICONTROL Unable to generate forecast]?&quot;
++++ Warum wird &quot;[!UICONTROL Unable to generate forecast]&quot;angezeigt?
 
-Einer der häufigsten Gründe für diesen Fehler ist ein unzureichendes Budget oder ein nicht ausreichendes Maximalgebot. Verwenden Sie für optimale Ergebnisse ein Mindestbudget von 5000 USD. Wenn die Variable [!UICONTROL Connected TV] Medientyp ausgewählt ist, geben Sie ein Höchstgebot von mindestens 10 USD ein.
+Einer der häufigsten Gründe für diesen Fehler ist ein unzureichendes Budget oder ein nicht ausreichendes Maximalgebot. Verwenden Sie für optimale Ergebnisse ein Mindestbudget von 5000 USD. Wenn der Medientyp [!UICONTROL Connected TV] ausgewählt ist, geben Sie ein Höchstgebot von mindestens 10 USD ein.
 
 Stellen Sie außerdem sicher, dass die eingeschlossenen Herausgeber oder Angebote aktiv sind und über eine Impressionsaktivität verfügen.
 
@@ -69,15 +69,15 @@ Der Planer generiert Prognosen basierend auf den neuesten beobachteten Daten, so
 
 ++ + Kann ich die Planervorhersage speichern?
 
-Ja, Sie können eine Vorschau in eine [!DNL Microsoft Excel] Tabelle durch Klicken auf **[!UICONTROL ...]** > **[!UICONTROL Export]** oben rechts. Die Tabelle erfasst die in der Reichweiten-Budgetkurve angezeigten Informationen mithilfe von zwei Datenspalten: [!UICONTROL Budget] und [!UICONTROL Reach].
+Ja, Sie können eine Vorschau in eine [!DNL Microsoft Excel] Tabelle exportieren, indem Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Export]** klicken. Die Tabelle erfasst die in der Reichweiten-Budgetkurve angezeigten Informationen mithilfe von zwei Datenspalten: [!UICONTROL Budget] und [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >
 >* [Über das DSP Planer-Tool](planner-about.md)
->* [Erstellen eines Anbindungsplans für TV-Geräte](planner-create.md)
->* [Connected TV-Reichweitenplan duplizieren](planner-duplicate.md)
+>* [Erstellen eines Anbindungs-TV-Reichweitenplans](planner-create.md)
+>* [Duplizieren eines Anbindungs-TV-Reichweitenplans](planner-duplicate.md)
 >* [Bearbeiten eines Anbindungs-TV-Reichweitenplans](planner-edit.md)
->* [Connected TV-Reichweitenplan exportieren](planner-export.md)
+>* [Einen Plan für die Anbindung an den Fernsehempfang exportieren](planner-export.md)
 >* [Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren](planner-forecast.md)
->* [Archivieren eines Anbindungsplans für TV](planner-archive.md)
->* [Einstellungen für Pläne zur Anbindung an das Fernsehen](planner-settings.md)
+>* [Archivieren eines Anbindungs-TV-Reichweiten-Plans](planner-archive.md)
+>* [Einstellungen für Pläne zur Anbindung an TV-Kanäle](planner-settings.md)

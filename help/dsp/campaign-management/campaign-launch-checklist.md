@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Kontofinanzierung
 
-Stellen Sie sicher, dass Ihr Konto genügend Guthaben besitzt, um die gesamte Kampagne auszuführen. Sie können Kontoguthaben überprüfen und erneut ausfüllen in [!UICONTROL Settings] > [!UICONTROL Account] oder wenden Sie sich an Ihr Adobe Account Team.
+Stellen Sie sicher, dass Ihr Konto genügend Guthaben besitzt, um die gesamte Kampagne auszuführen. Sie können Kontoguthaben in [!UICONTROL Settings] > [!UICONTROL Account] überprüfen und neu ausfüllen oder sich an Ihr Adobe Account Team wenden.
 
 ## Kampagnenstatus
 
@@ -22,7 +22,7 @@ Vergewissern Sie sich, dass die Kampagnendaten und das Budget korrekt festgelegt
 
 ## Platzierungsstatus
 
-Stellen Sie sicher, dass der Platzierungsstatus &quot;[!UICONTROL Active]&quot; oder &quot;[!UICONTROL Scheduled].&quot; Überprüfen Sie außerdem, ob die anderen Platzierungsparameter (z. B. Site-Liste, Budget, Ziel, Flugdatum und Häufigkeit) korrekt sind.
+Stellen Sie sicher, dass der Platzierungsstatus &quot;[!UICONTROL Active]&quot;oder &quot;[!UICONTROL Scheduled]&quot;lautet. Überprüfen Sie außerdem, ob die anderen Platzierungsparameter (z. B. Site-Liste, Budget, Ziel, Flugdatum und Häufigkeit) korrekt sind.
 
 ## Anzeigenstatus
 
@@ -33,4 +33,3 @@ Vergewissern Sie sich, dass alle Anzeigen angehängt, genehmigt und aktiv sind. 
 >* [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
-

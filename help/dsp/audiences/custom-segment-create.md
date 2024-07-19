@@ -16,19 +16,19 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
 >[!NOTE]
 >
->Um Benutzer-IDs aus Opt-out-Kaufanfragen von Verbrauchern auf Ihrer Website zu verfolgen, erstellen Sie gemäß dem California Consumer Privacy Act (CCPA) eine [CCPA-Ausschluss vom Verkaufssegment](ccpa-opt-out-segment-create.md).
+>Um Benutzer-IDs aus Opt-out-Kaufanfragen von Verbrauchern auf Ihrer Website zu verfolgen, erstellen Sie gemäß dem California Consumer Privacy Act (CCPA) ein Segment für die Opt-out-Kaufentscheidung mit dem CCPA-Wert [CCPA.](ccpa-opt-out-segment-create.md)
 
 ## Voraussetzungen für die Verfolgung von ID5-IDs durch Segmente
 
 *Beta-Funktion*
 
-* Bevor Sie ein Segment generieren, um Benutzer zu verfolgen, die mit ID5-IDs verknüpft sind, müssen Sie eine Vereinbarung mit [!DNL ID5] und rufen Sie die Partner-ID Ihres Unternehmens ab. Wenden Sie sich für weitere Informationen an Ihr Adobe Account-Team.
+* Bevor Sie ein Segment generieren, um Benutzer zu verfolgen, die mit ID5-IDs verknüpft sind, unterzeichnen Sie eine Vereinbarung mit [!DNL ID5] und erhalten Sie die Partner-ID Ihres Unternehmens. Wenden Sie sich für weitere Informationen an Ihr Adobe Account-Team.
 
 * Für die Messung in Adobe Analytics müssen Sie:
 
-   1. Alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)und stellen Sie sicher, dass die Variable [AMO-ID und EF ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs aufgefüllt werden.
+   1. Füllen Sie alle [Voraussetzungen für die Implementierung von [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) aus und stellen Sie sicher, dass die [AMO-ID und die EF ID](/help/integrations/analytics/ids.md) in Ihren Tracking-URLs eingetragen sind.
 
-   1. Fügen Sie Ihren Webseiten den folgenden Parameter vor oder innerhalb der [JavaScript-Code erforderlich für [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - an einer beliebigen Stelle, bevor der letzte Ereignisdienst initialisiert wird.
+   1. Fügen Sie den folgenden Parameter vor oder innerhalb des für  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) erforderlichen [JavaScript-Codes zu Ihren Webseiten hinzu - und zwar an einer beliebigen Stelle, bevor der letzte Ereignisdienst initialisiert wird.
 
       ```window.id5PartnerId=Your_ID5_PartnerID;```
 
@@ -43,7 +43,7 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
       </script>
       ```
 
-   1. Verwenden Sie ein Browser-Debugging-Tool, um sicherzustellen, dass jeder Aufruf an die Domäne initiiert wird. `lasteventf-tm.everesttech.net` und enthält den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert.
+   1. Verwenden Sie ein Browser-Debugging-Tool, um sicherzustellen, dass jeder Aufruf an die Domäne `lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
 ## Erstellen und Implementieren eines benutzerdefinierten Segments
 
@@ -53,15 +53,15 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
    1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**.
 
-   1. Eindeutige Eingabe **[!UICONTROL Segment Name]**.
+   1. Geben Sie eine eindeutige **[!UICONTROL Segment Name]** ein.
 
-   1. Für **[!UICONTROL Segment Type]** auswählen *[!UICONTROL Custom]*.
+   1. Wählen Sie für den Wert **[!UICONTROL Segment Type]** *[!UICONTROL Custom]* aus.
 
-   1. Geben Sie die **[!UICONTROL Lookback Window]**: die Anzahl der Tage, in denen das Cookie eines Benutzers im Segment verbleibt.
+   1. Geben Sie den Wert **[!UICONTROL Lookback Window]** ein, d. h. die Anzahl der Tage, in denen das Cookie eines Benutzers im Segment verbleibt.
 
       Das Standardfenster beträgt 45 Tage. Geben Sie einen Wert von 1 (1) bis 365 ein.
 
-   1. Klicks **[!UICONTROL Advanced]** , um die erweiterten Einstellungen zu erweitern, und wählen Sie dann die Typen von Benutzer-IDs aus, die das Segment-Tag verfolgt:
+   1. Klicken Sie auf &quot;**[!UICONTROL Advanced]**&quot;, um die erweiterten Einstellungen zu erweitern, und wählen Sie dann die vom Segment-Tag verfolgten Typen von Benutzerkennung aus:
 
       * *[!UICONTROL Cookies]:* (Standard) Das Segment-Tag verfolgt Cookies.
 
@@ -71,31 +71,31 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
         **[!UICONTROL Terms of Service]:** Die Nutzungsbedingungen für die Verwendung von universellen IDs. Sie oder ein anderer Benutzer im DSP müssen die Bedingungen einmal akzeptieren, bevor Sie universelle IDs für einen neuen ID-Typ verwenden können. Für Kunden mit verwalteten Serviceverträgen erhält Ihr Adobe Account Team Ihre Einwilligung und akzeptiert die Bedingungen im Namen Ihres Unternehmens. Um die Begriffe zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum unteren Rand der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
-   1. Klicks **[!UICONTROL Save]**.
+   1. Klicken Sie auf **[!UICONTROL Save]**.
 
 1. Kopieren Sie nach Bedarf Tags und implementieren Sie diese, um das Segment zu verfolgen:
 
-   1. Zurück zu **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. Kehren Sie zu **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** zurück.
 
    1. Halten Sie den Cursor über die Segmentzeile und klicken Sie auf **[!UICONTROL Get Pixel]**.
 
       * So verfolgen Sie Desktop- und Mobilbesucher einer Webseite:
 
-         1. Kopieren Sie das Tracking-Tag für Seitenansichten mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile websites].&quot;
+         1. Kopieren Sie das Tracking-Tag für Seitenansichten mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile websites]&quot;.
 
-         1. (Tags für Segmente, die [!DNL ID5] IDs) Ersetzen Sie im kopierten Tag `ID5_PARTNER_ID` mit der Partner-ID, die [!DNL ID5] Ihrer Organisation zugewiesen wurde.
+         1. (Tags für Segmente, die [!DNL ID5] IDs verfolgen) Ersetzen Sie im kopierten Tag `ID5_PARTNER_ID` durch die Partner-ID, die [!DNL ID5] Ihrer Organisation zugewiesen ist.
 
-            Wenn Ihre ID5-Partner-ID beispielsweise `abcde` und das generierte Segment-Tag
+            Wenn Ihre ID5-Partner-ID beispielsweise `abcde` lautet und das generierte Segment-Tag
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            then replace `ID5_PARTNER_ID` mit `abcde` innerhalb des -Tags, um Folgendes zu erhalten:
+            Ersetzen Sie dann `ID5_PARTNER_ID` durch `abcde` innerhalb des -Tags, um Folgendes zu erhalten:
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5]. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
+            Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5] unterzeichnete. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
 
-            Dieser Schritt ist nicht erforderlich, damit Tags verfolgt werden können. [!DNL ID5] IDs für Benutzer, die einer Anzeigeneinheit auf Desktop- oder Mobilgeräten ausgesetzt sind.
+            Dieser Schritt ist nicht erforderlich, damit Tags [!DNL ID5] IDs für Benutzer verfolgen können, die einer Anzeigeneinheit auf Desktop- oder Mobilgeräten ausgesetzt sind.
 
          1. Stellen Sie das Tag dem Advertiser oder Website-Kontakt zur Bereitstellung bereit.
 
@@ -103,9 +103,9 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
 
       * So verfolgen Sie Benutzer, die einer Anzeigeneinheit auf Desktop- oder Mobilgeräten ausgesetzt sind:
 
-         1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads].&quot;
+         1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Fügen Sie das Tag entweder zum [!UICONTROL Pixel] für jede relevante Anzeige oder für die [!UICONTROL Event Pixels] Abschnitt [[!UICONTROL Tracking] Einstellungen für jede relevante Platzierung](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking]-Einstellungen für jede relevante Platzierung hinzu.](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking)
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder Ausschlüssen für jede Platzierung verwenden.
 
@@ -116,11 +116,11 @@ Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgr
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Segmentinformationen bearbeiten](segment-edit.md)
->* [Segment löschen](segment-delete.md)
->* [Anzeigen von Tracking-Pixeln für ein Segment](segment-view-pixels.md)
->* [Freigeben oder Beenden der Freigabe eines Segments](segment-share.md)
->* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
+>* [Bearbeiten von Segmentinformationen](segment-edit.md)
+>* [Löschen eines Segments](segment-delete.md)
+>* [Tracking-Pixel für ein Segment anzeigen](segment-view-pixels.md)
+>* [Freigeben oder Beenden der Segmentfreigabe](segment-share.md)
+>* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

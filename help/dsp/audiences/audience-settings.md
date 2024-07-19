@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe von Segmenten
 
-(Optional) Jede [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics- oder Adobe Audience Manager-Segmente, die in die Zielgruppenkonfiguration aufgenommen werden sollen.
+(Optional) Alle [!DNL Adobe Real-Time Customer Data Platform]-, Adobe Analytics- oder Adobe Audience Manager-Segmente, die in die Zielgruppenkonfiguration aufgenommen werden sollen.
 
 ## Benutzerdefinierte Segmente
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)
 >* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
->* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
+>* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

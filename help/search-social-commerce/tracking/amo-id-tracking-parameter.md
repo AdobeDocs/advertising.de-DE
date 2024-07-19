@@ -1,11 +1,11 @@
 ---
 title: Der Tracking-Parameter AMO ID (s_kwcid)
 description: Erfahren Sie mehr über den Tracking-Parameter, mit dem Adobe Advertising-Daten für Adobe Analytics freigegeben werden.
-exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+exl-id: 07b78f0b-624e-4dc2-8588-7cc1a86d3945
 feature: Search Tracking
-source-git-commit: ad4450fc296703487e5a306eeb0d870db4dd5621
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Advertiser nur mit Adobe Advertising-Adobe Analytics-Integration*
 
-Adobe Advertising gibt Daten zu Ihren Kampagnen mithilfe des AMO ID-Anlagenparameters, der auch als `s_kwcid` -Parameter, der aus Anzeigenkanal- und Anzeigennetzwerkspezifischen Elementen besteht.
+Adobe Advertising gibt Daten zu Ihren Kampagnen mithilfe des AMO-ID-Anfügeparameters, der auch als `s_kwcid` -Parameter bezeichnet wird und aus Anzeigenkanal- und Anzeigennetzwerkspezifischen Elementen besteht, für Adobe Analytics frei.
 
-Informationen zum Hinzufügen des AMO ID-Parameters zu Ihren Tracking-URLs und den AMO ID-Formaten für DSP und Suche, Social und Commerce finden Sie unter &quot;[Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id).&quot;
+Informationen zum Hinzufügen des AMO-ID-Parameters zu Ihren Tracking-URLs und den AMO-ID-Formaten für DSP und Suche, Social und Commerce finden Sie unter &quot;[Von  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id) verwendete Adobe Advertising-IDs&quot;.
 
 >[!MORELIKETHIS]
 >
->* [Übersicht über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
->* [Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}
+>* [Überblick über  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
+>* [Von  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"} verwendete Adobe Advertising-IDs

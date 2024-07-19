@@ -18,39 +18,39 @@ Am oberen Rand jeder Seite befinden sich das Hauptmenü und andere Menüs, die a
 
 ## Hauptmenü
 
-* **[!UICONTROL Search]** — Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber keine Angebote abgibt.
+* **[!UICONTROL Search]** - Um Ihre Anzeigennetzwerkkonten in Search, Social und Commerce zu verwalten, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber keine Angebote unterbreitet.
 
 ## [!UICONTROL Search] Menüs
 
-Die [!UICONTROL Search] enthält die folgenden Untermenüs. Die verfügbaren Optionen werden durch Ihre Rolle bestimmt:
+Die Option [!UICONTROL Search] enthält die folgenden Untermenüs. Die verfügbaren Optionen werden durch Ihre Rolle bestimmt:
 
-* **[!UICONTROL Campaigns]** — Dieses Menü enthält Optionen zum Anzeigen und Verwalten von Informationen über die Anzeigenkonten und Kampagnen, die Sie verwalten oder verfolgen. Je nach Werbenetzwerk und Ihrer Rolle können Sie Konten, Kampagnen und deren Komponenten erstellen und bearbeiten. Sie können auch Beschriftungs-Classifications verwalten, die Sie verschiedenen Kontokomponenten zuweisen können.
+* **[!UICONTROL Campaigns]** - Dieses Menü enthält Optionen zum Anzeigen und Verwalten von Informationen über die Anzeigenkonten und Kampagnen, die Sie verwalten oder verfolgen. Je nach Werbenetzwerk und Ihrer Rolle können Sie Konten, Kampagnen und deren Komponenten erstellen und bearbeiten. Sie können auch Beschriftungs-Classifications verwalten, die Sie verschiedenen Kontokomponenten zuweisen können.
 
-* **[!UICONTROL Optimization]** — Dieses Menü enthält Optionen zum Verwalten von Geschäftszielen, zum Verwalten von Portfolios basierend auf Ihren Geschäftszielen und zum Überwachen der Portfolioleistung, zum Generieren des Portfolioübergreifenden [!UICONTROL Spend Recommendation Report], Verwalten von Angebotsbegrenzungen und Anzeigen und (einige Benutzer) Verwalten Ihrer [!DNL Google Ads] Konversionswertregeln.
+* **[!UICONTROL Optimization]** - Dieses Menü enthält Optionen zum Verwalten von Geschäftszielen, zum Verwalten von Portfolios basierend auf Ihren Geschäftszielen und zum Überwachen der Portfolioleistung, zum Generieren des Portfolio-übergreifenden [!UICONTROL Spend Recommendation Report], zum Verwalten von Angebotsbegrenzungen und zum Anzeigen und Verwalten Ihrer [!DNL Google Ads]-Konversionswertregeln (einige Benutzer).
 
-  Eine separate Dokumentation zu diesen Funktionen finden Sie im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")).
+  Eine separate Dokumentation zu diesen Funktionen finden Sie im Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")).
 
-* **[!UICONTROL Insights & Reports]** — Dieses Menü enthält Optionen zum Generieren detaillierter Einblicke und Berichte, Automatisieren der Berichtproduktion mithilfe von Tabellen-Feeds, Erstellen und Überwachen von Warnhinweisen, Konfigurieren Ihrer Benachrichtigungseinstellungen, Anzeigen von Netzwerkempfehlungen und Anzeigen eines Protokolls von Änderungen, die am Advertiser-Konto vorgenommen wurden.
+* **[!UICONTROL Insights & Reports]** - Dieses Menü enthält Optionen zum Generieren detaillierter Einblicke und Berichte, Automatisieren der Berichtproduktion mithilfe von Tabellenfeeds, Erstellen und Überwachen von Warnungen, Konfigurieren Ihrer Benachrichtigungseinstellungen, Anzeigen von Netzwerkempfehlungen und Anzeigen eines Protokolls der Änderungen, die am Advertiser-Konto vorgenommen wurden.
 
-* **[!UICONTROL Tools]** — Dieses Menü enthält Optionen zum Ändern Ihres Kontokennworts, Generieren von Tags zum Verfolgen von Konversionen von Webseiten, Generieren und Dekodieren von Klick-Tracking-URLs und Hochladen von Metriken für Suchverfolgungskampagnen.
+* **[!UICONTROL Tools]** - Dieses Menü enthält Optionen zum Ändern Ihres Kontokennworts, Generieren von Tags zum Verfolgen von Konversionen von Webseiten, Generieren und Dekodieren von Klick-Tracking-URLs und Hochladen von Metriken für Suchverfolgungskampagnen.
 
-* **[!UICONTROL Admin]** — Die [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Konversionsmetriken eines Advertisers in Datentabellen und Berichten, zum Konfigurieren der Einstellungen für die Synchronisierung mit einem Adobe Audience Manager-Konto und zum Synchronisieren der Konversionsmetriken für ein bestimmtes [!DNL Google Analytics] Kombination aus Konto, Eigenschaft und Ansicht. Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
+* **[!UICONTROL Admin]** - Das Menü [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Konversionsmetriken eines Advertisers in Datentabellen und Berichten, zum Konfigurieren der Einstellungen für die Synchronisierung mit einem Adobe Audience Manager-Konto und zum Synchronisieren der Konversionsmetriken für ein bestimmtes [!DNL Google Analytics] -Konto, eine bestimmte Eigenschaft und eine bestimmte Ansichtskombination. Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
 
 ## Andere Menüs auf Basis von Aufgaben und Informationen auf der rechten Seite
 
 * (Falls zutreffend) Eine auswählbare Liste von Advertisern, die Sie verwalten.
 
-* ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweis-Benachrichtigungen") Ein Bereich, in dem Ihre Benachrichtigungen zu Suchen, Social und Commerce aufgelistet werden.
+* ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweise") Ein Bereich, in dem Ihre Benachrichtigungen zu Suchen, Social und Commerce aufgelistet werden.
 
-  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md), zeigt dieses Bedienfeld Ihre Benachrichtigungen von Experience Cloud an.
+  Wenn Sie [über Adobe Experience Cloud angemeldet sind](log-in.md), zeigt dieses Bedienfeld Ihre Benachrichtigungen von Experience Cloud an.
 
-* ![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü") Ein Hilfemenü mit Links zur Dokumentation und anderen Informationen.
+* ![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü") Ein Hilfemenü mit Links zur Dokumentation und anderen Informationen.
 
 * ![Lösungsschalter](/help/search-social-commerce/assets/menu-icon.png "Lösungsschalter") Eine Liste der Adobe Experience Cloud-Lösungen und -Dienste, zu denen Sie wechseln können.
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wann bist du? [über Adobe Experience Cloud angemeldet](log-in.md)können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Passworts und der Benachrichtigungseinstellungen.
+  Wenn Sie [ über Adobe Experience Cloud angemeldet sind, können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Passworts und der Benachrichtigungseinstellungen.](log-in.md)
 
 >[!MORELIKETHIS]
 >

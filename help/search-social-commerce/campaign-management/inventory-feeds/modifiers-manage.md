@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Verwalten von Modifikatoren
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (Nur Aktionen löschen) und [!DNL Yandex] Nur Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Aktionen löschen) und [!DNL Yandex] Konten nur*
 
 Modifikatoren sind Adjektive oder Adverbien, die zu einem Satz hinzugefügt oder daraus entfernt werden können, ohne die grundlegende Satzstruktur zu ändern. Sie können Gruppen von Modifikatoren erstellen, die in verschiedenen Datenfeldern in Feed-Datenvorlagen als Variablen verwendet werden. Indem Sie Modifikatoren in die Kontostruktur (Kampagnen- und Anzeigengruppen)-Felder, Suchbegriffe, Basis-URLs und Anzeigen einfügen, erstellen Sie für jeden zugehörigen Modifikatorwert einen Wert. Wenn Sie beispielsweise eine Modifikatorgruppenvariable in einer Anzeigenüberschrift verwenden und die Modifikatorgruppe drei Modifikatoren enthält (&quot;billig&quot;, &quot;rabatt&quot;und &quot;bezahlbar&quot;), werden für jede Datenzeile im Daten-Feed drei separate Anzeigen erstellt - eine für jeden Modifikator. Wenn Sie eine Modifikatorgruppe mit mehreren Werten in die Basis-URL für eine Anzeigengruppe aufnehmen, wird für jede der resultierenden Basis-URLs ein Satz Suchbegriffe erstellt.
 
@@ -32,7 +32,7 @@ Jede Modifikatorgruppe kann beliebig viele Modifikatoren enthalten. Jede Vorlage
 
    **[!UICONTROL Modifiers]:** Die Modifikatorwerte für die Gruppe (1 pro Zeile).
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Bearbeiten einer Modifikatorgruppe
 
@@ -48,13 +48,13 @@ Jede Modifikatorgruppe kann beliebig viele Modifikatoren enthalten. Jede Vorlage
 
    **[!UICONTROL Modifiers]:** Die Modifikatorwerte für die Gruppe (1 pro Zeile).
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Modifikatorgruppen löschen
 
 >[!IMPORTANT]
 >
->Wenn Sie eine Modifikatorgruppe löschen, entfernen Sie alle Variablen für diese Modifikatorgruppe (gekennzeichnet als `<modifier_group_name>`) aus den Feldern existierender Vorlagen. Wenn Sie versuchen, Daten über eine Vorlage mit Variablen für nicht vorhandene Modifikatoren zu übertragen, schlägt der Auftrag fehl1.
+>Wenn Sie eine Modifikatorgruppe löschen, entfernen Sie alle Variablen für diese Modifikatorgruppe (mit der Bezeichnung &quot;`<modifier_group_name>`&quot;) aus den Feldern vorhandener Vorlagen. Wenn Sie versuchen, Daten über eine Vorlage mit Variablen für nicht vorhandene Modifikatoren zu übertragen, schlägt der Auftrag fehl1.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -64,9 +64,9 @@ Jede Modifikatorgruppe kann beliebig viele Modifikatoren enthalten. Jede Vorlage
 
 1. Klicken Sie über der Liste der Modifikatorgruppen auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]**.
 
-1. (Falls erforderlich) [Entfernen von Verweisen auf den Modifikator](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) aus allen anwendbaren Vorlagen.
+1. (Falls erforderlich) [Entfernen Sie Verweise auf den Modifikator](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) aus allen zutreffenden Vorlagen.
 
 >[!MORELIKETHIS]
 >

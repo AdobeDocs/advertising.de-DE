@@ -1,11 +1,11 @@
 ---
 title: Löschen von Bezeichnungsklassifizierungswerten
 description: Erfahren Sie, wie Sie Werte für Beschriftungsklassifizierungen löschen.
-exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Wenn Sie Beschriftungs-Classification-Werte löschen, stehen sie nicht mehr für
 
 >[!NOTE]
 >
->Informationen zum einfachen Trennen der Zuordnung eines Classification-Werts zu einer Kontokomponente finden Sie unter[Entfernen von Classification-Werten aus Kampagnenkomponenten](classification-values-remove.md).&quot;
+>Informationen zum einfachen Trennen der Zuordnung eines Klassifizierungswerts zu einer Kontokomponente finden Sie unter &quot;[Entfernen von Klassifizierungswerten aus Kampagnenkomponenten](classification-values-remove.md)&quot;.
 
-1. Klicks **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Klicken Sie auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
-1. Wählen Sie im Untermenü **[!UICONTROL Label Values]**.
+1. Wählen Sie im Untermenü **[!UICONTROL Label Values]** aus.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Beschriftungswerte einzuschließen.
 
@@ -28,17 +28,17 @@ Wenn Sie Beschriftungs-Classification-Werte löschen, stehen sie nicht mehr für
 
    Sie können bis zu 200 Zeilen gleichzeitig löschen.
 
-   Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Beschriftungsklassifizierungen](classification-about.md)
 >* [Erstellen einer Bezeichnungsklassifizierung](classification-create.md)
->* [Zuweisen von Classification-Werten zu Kontokomponenten aus Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus Ansichten der Kampagnenverwaltung](classification-values-assign-campaign-management.md)
 >* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
->* [Entfernen von Beschriftungs-Classification-Werten aus Kontokomponenten](classification-values-remove.md)
+>* [Entfernen Sie Beschriftungs-Classification-Werte aus Kontokomponenten](classification-values-remove.md)
 >* [Beschriftungsklassifizierungen löschen](classification-delete.md)

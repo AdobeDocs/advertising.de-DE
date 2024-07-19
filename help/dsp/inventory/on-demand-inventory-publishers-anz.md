@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland"'
+title: '[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland'
 description: Siehe verfügbare [!DNL On Demand] Premium-Inventarverlage in Australien und Neuseeland.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -92,13 +92,12 @@ ht-degree: 0%
 | [!DNL WWE] | Australia/New Zealand |
 | [!DNL Yahoo] | Australia/New Zealand |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [Info [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-about.md)
->* [Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
+>* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand Premium] Inventarverlage in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)
-
+>* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)

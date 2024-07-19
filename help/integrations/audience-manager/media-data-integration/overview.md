@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Advertiser nur mit Advertising DSP*
 
-*Advertiser mit nur Adobe Advertising-Adobe Audience Manager-Integration*
+*Advertiser mit nur einer Adobe Advertising-Adobe Audience Manager-Integration*
 
 Advertising DSP-Kunden mit Adobe Audience Manager können Audience Manager-Ereignispixel verwenden, um Impressionsdaten und Klickdaten aus DSP Kampagnen zu erfassen. Die Ereignispixel senden die Daten als umsetzbare Signale an den Audience Manager. Diese Signale ermöglichen verschiedene DSP Anwendungsfälle, z. B. erweiterte Segmentierung, Frequenzverwaltung, Marketing-Analyse und Reporting-Einblicke.
 
@@ -32,7 +32,7 @@ DSP lädt Sie nicht dazu ein, diese Signale an den Audience Manager zu senden. S
 
 * Sie können die Kampagnendaten für Anwendungsfälle wie Frequenzlimitierung für kreative Kreativinhalte, Retargeting von Benutzern, die früheren Kampagnen ausgesetzt waren, und Analyse des nachgelagerten Site-Verhaltens und der Einstiegspunkte nutzen.
 
-* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können zur Verbesserung der Ereignissequenz verwendet werden, die über den Audience Manager zu Konversionen führt [!DNL Audience Optimization Reports] oder durch [[!DNL Audience Analytics] Integration mit Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können zur Verbesserung der Ereignissequenz verwendet werden, die über den Audience Manager [!DNL Audience Optimization Reports] oder eine [[!DNL Audience Analytics] Integration mit Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md) zu Konversionen führt.
 
 ## Tracking der Daten
 
@@ -40,17 +40,17 @@ Die Audience Manager-Impressions- und Klickereignis-Pixel sind Cookie-basiert. D
 
 ### Impression-Tracking-Pixel
 
-Audience Manager verfolgt Impressionsdaten für eine Anzeige, wenn Sie ein transparentes Ereignis-Tracking-Pixel mit einer Größe von 1,5 Pixel an die Anzeige anhängen. Das Ereignis-Pixel wird jedes Mal geladen, wenn die Anzeige einem Benutzer bereitgestellt und vom Webbrowser geladen wird. Das Pixel wird aus einer clientspezifischen Subdomäne von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), die eine veraltete Domäne für Audience Manager ist und Parameter als Schlüssel-Wert-Paare enthält. Der Ereignisaufruf erfasst Impressions- und Konversionsdaten und sendet sie an die Datenerfassungsserver des Audience Managers.
+Audience Manager verfolgt Impressionsdaten für eine Anzeige, wenn Sie ein transparentes Ereignis-Tracking-Pixel mit einer Größe von 1,5 Pixel an die Anzeige anhängen. Das Ereignis-Pixel wird jedes Mal geladen, wenn die Anzeige einem Benutzer bereitgestellt und vom Webbrowser geladen wird. Das Pixel wird aus einer clientspezifischen Subdomäne von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) geladen, die eine veraltete Domäne für den Audience Manager ist und Parameter als Schlüssel-Wert-Paare enthält. Der Ereignisaufruf erfasst Impressions- und Konversionsdaten und sendet sie an die Datenerfassungsserver des Audience Managers.
 
 ### Klick-Tracking-Pixel
 
-Audience Manager verfolgt Klicks ähnlich wie Impressionen, allerdings wird das transparente Ereignispixel nicht jedes Mal geladen, wenn die Anzeige bereitgestellt wird. Stattdessen werden die Klickdaten in der Clickthrough-URL der Anzeige verfolgt. Die Anzeige verweist auf eine clientspezifische Subdomäne von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), eine veraltete Domäne für Audience Manager, zur Verarbeitung durch die Datenerfassungsserver des Audience Managers. Der Server leitet den Benutzer dann zur gewünschten Landingpage weiter. Die URL enthält Parameter als Schlüssel-Wert-Paare.
+Audience Manager verfolgt Klicks ähnlich wie Impressionen, allerdings wird das transparente Ereignispixel nicht jedes Mal geladen, wenn die Anzeige bereitgestellt wird. Stattdessen werden die Klickdaten in der Clickthrough-URL der Anzeige verfolgt. Die Anzeige verweist auf eine clientspezifische Subdomäne von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), die eine veraltete Domäne für den Audience Manager ist und von den Datenerfassungsservern des Audience Managers verarbeitet werden kann. Der Server leitet den Benutzer dann zur gewünschten Landingpage weiter. Die URL enthält Parameter als Schlüssel-Wert-Paare.
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics] -Tracking verwenden, ist möglicherweise kein Klick-Tracking für Audience Manager erforderlich. Adobe Analytics erfasst Klicksignale und kann sie an den Audience Manager senden, indem [serverseitige Weiterleitung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Wenn Ihr Unternehmen das [!DNL Analytics]-Tracking verwendet, ist möglicherweise kein Klick-Tracking für Audience Manager erforderlich. Adobe Analytics erfasst Klicksignale und kann diese über die [serverseitige Weiterleitung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) an den Audience Manager senden.
 
 >[!MORELIKETHIS]
 >
 >* [Erfassen von Klick- und Impressionsdaten aus Advertising DSP-Kampagnen](collect.md)
->* [Nutzungsszenarios](use-cases.md)
+>* [Anwendungsfälle](use-cases.md)

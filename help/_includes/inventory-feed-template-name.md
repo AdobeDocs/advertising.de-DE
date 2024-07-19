@@ -5,7 +5,7 @@ source-wordcount: '75'
 ht-degree: 0%
 
 ---
-# Textanzeigenvorlage - Vorlagenname
+# Text ad template - Template Name
 
 **[!UICONTROL Template Name]:** Der Name der Vorlage. Sie können den Namen einer vorhandenen Vorlage ohne Konsequenzen ändern. Der Vorlagenname darf keines der folgenden Zeichen enthalten: `# % * | \ : " < >  . ? /` (`&` ist erlaubt)
 

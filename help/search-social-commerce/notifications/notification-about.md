@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Sie können Ihre Benachrichtigungseinstellungen so konfigurieren, dass sie sich für verschiedene Arten von Warnungen anmelden oder diese abmelden. Sie können Ihre Benachrichtigungen auf eine der folgenden Arten anzeigen:
 
-* Aus dem [!UICONTROL Notifications] Bereich, der im Hauptmenü unter ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen").
+* Über das Bedienfeld [!UICONTROL Notifications] , das im Hauptmenü unter ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen") verfügbar ist.
 
 * Von [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
 
-* Von einem [!UICONTROL Notification Center] Webanwendung, die geöffnet wird [!UICONTROL Notification Center] in einem separaten Fenster außerhalb von Search, Social und Commerce.
+* Über eine [!UICONTROL Notification Center] -Webanwendung, die [!UICONTROL Notification Center] in einem separaten Fenster außerhalb von &quot;Search, Social und Commerce&quot;öffnet.
 
   Das Programm lädt schneller als die normale Browser-Version und wird automatisch aktualisiert. Sie können die Anwendung installieren und mithilfe des App-Managers des Browsers verwalten.
 
@@ -32,11 +32,11 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 ## Benachrichtigungstypen
 
-* **[!UICONTROL Notices]**: Versionshinweise, Hinweise zu Ausfallzeiten und anderen Änderungen.
+* **[!UICONTROL Notices]**: Hinweise zu Freigabe, Ausfallzeiten und anderen Änderungen.
 
 * **[!UICONTROL Recommendations]**: Chancen zur Leistungsverbesserung, Implementierung von Best Practices usw.
 
-* **[!UICONTROL Warnings]**: Probleme, die zwar beachtet werden müssen, aber für die Optimierung oder Verwaltung nicht von Bedeutung sind.
+* **[!UICONTROL Warnings]**: Probleme, die Aufmerksamkeit erfordern, aber für die Optimierung oder Verwaltung nicht wichtig sind.
 
 * **[!UICONTROL Issues]**: Kritische Probleme, die sofortige Aufmerksamkeit erfordern. Fehlerbenachrichtigungen bezüglich der Kontoautorisierung sind enthalten.
 
@@ -44,11 +44,11 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: Benachrichtigungen, die eine [Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Bulksheets]**: Benachrichtigungen, dass ein [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
-   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md), die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.
+   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerk-Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, die darüber informieren, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitung von Aufträgen innerhalb der Datentabelle oder Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder anderer Aktionen in der Benutzeroberfläche (z. B. Synchronisierung mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Entitätszuweisungen umfassen das Zuweisen oder Aufheben der Zuweisung einer [Beschriftungsklassifizierungswert](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) jeder Entität eine Kampagne zuweisen und einem Portfolio eine Beschränkung zuweisen oder aufheben.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen oder fehlgeschlagen sind. Zu den Auftragstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), Massenbearbeitungsvorgänge innerhalb der Datentabelle oder die Verwendung der Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisation mit Anzeigennetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Zu den Entitätszuweisungen gehören das Zuweisen oder Aufheben der Zuweisung eines [Beschriftungs-Classification-Werts](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) zu einer Entität, das Zuweisen einer Kampagne zu einem Portfolio sowie das Zuweisen oder Aufheben der Zuweisung einer Beschränkung zu einem Portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -58,11 +58,11 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht auf eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+      * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-Netzwerk-Konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) zugreifen konnten.
 
-      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für eine [Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Anzeigennetzwerkkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) fehlen.
 
-      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, die darauf hinweisen, dass Search, Social und Commerce nicht mit einer [Konto des Werbenetzwerks](/help/search-social-commerce/admin/manager-accounts.md) wegen ungültiger Anmeldedaten oder eines ungültigen oder abgelaufenen Autorisierungstokens.
+      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad-Netzwerk-Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnten.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -74,13 +74,13 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, die [ein [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, die darüber informieren, dass [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
-   * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, die [Warninstanzen](/help/search-social-commerce/alerts/alert-about.md) wurden für eine Warnhinweisvorlage ausgelöst.
+   * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, dass [Warninstanzen](/help/search-social-commerce/alerts/alert-about.md) für eine Warnhinweisvorlage ausgelöst wurden.
 
-   * **[!UICONTROL Reports]**: Benachrichtigungen, die eine [benutzerspezifischer oder terminierter Bericht](/help/search-social-commerce/reports/report-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Reports]**: Benachrichtigungen, die darüber informieren, dass ein benutzerdefinierter oder terminierter Bericht ](/help/search-social-commerce/reports/report-about.md) abgeschlossen wurde oder fehlgeschlagen ist.[
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, die eine [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) wurde abgeschlossen oder fehlgeschlagen.
+   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, die darüber informieren, dass ein [Tabellenfeed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
 <!--
 * [!UICONTROL Optimization]
@@ -105,9 +105,9 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 >[!MORELIKETHIS]
 >
->* [Anzeigen von Benachrichtigungen](notification-view.md)
->* [Benachrichtigung als gelesen oder ungelesen markieren](notification-mark-read-unread.md)
->* [Benachrichtigung löschen](notification-delete.md)
->* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
->* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
+>* [Anzeigen Ihrer Benachrichtigungen](notification-view.md)
+>* [Kennzeichnen einer Benachrichtigung als gelesen oder ungelesen](notification-mark-read-unread.md)
+>* [Löschen einer Benachrichtigung](notification-delete.md)
+>* [Bearbeiten der Benachrichtigungseinstellungen](notification-edit.md)
+>* [Push-Benachrichtigungen von [!UICONTROL Notification Center]](notifications-push-enable-disable.md) aktivieren und deaktivieren
+>* [Installieren und Deinstallieren der [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)

@@ -1,6 +1,6 @@
 ---
 title: '''[!DNL Microsoft Advertising] erweiterte Einstellungen für dynamische Suchanzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigen.
+description: Verweisen Sie auf die Einstellungen für erweiterte dynamische Suchanzeigen. [!DNL Microsoft Advertising]
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigeneinstellungen
+# [!DNL Microsoft Advertising] erweiterte Einstellungen für dynamische Suchanzeige
 
 Erweiterte dynamische Suchanzeigen (eDSAs) sind nur in dynamischen Anzeigengruppen in Kampagnen im Suchnetzwerk verfügbar. Das Werbenetzwerk generiert die Überschrift dynamisch, wählt die Landingpage für eine dynamische Suchanzeige aus und generiert dann automatisch die endgültige URL.
 
@@ -39,6 +39,6 @@ Erweiterte dynamische Suchanzeigen (eDSAs) sind nur in dynamischen Anzeigengrupp
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
 >* [[!DNL Microsoft Advertising] Multimedia-Anzeigeneinstellungen](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für Produktanzeigen](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeigeneinstellungen](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeige](ad-settings-microsoft-rsa.md)

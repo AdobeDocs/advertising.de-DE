@@ -28,5 +28,5 @@ Weitere Informationen zum Anpassen Ihrer Suchbegriffe und Kampagneneinstellungen
 
 >[!MORELIKETHIS]
 >
->* [Effektive Textanzeigenkopie schreiben](best-practices-write.md)
->* [Landingpages der Website optimieren](best-practices-optimize.md)
+>* [Effektives Schreiben von Text und Kopie](best-practices-write.md)
+>* [Optimieren der Landingpages der Website](best-practices-optimize.md)

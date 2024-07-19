@@ -22,15 +22,15 @@ Sie können die Daten nach der Spalte Typ, Geändert von oder Datum geändert so
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Um zwischen der Anzeige der Daten nur im Tabellenformular und sowohl in Tabellen- als auch in Diagrammformularen zu wechseln, klicken Sie auf ![Tabellen- und Diagrammansicht](/help/dsp/assets/table-plus-chart-view.png "Tabellen- und Diagrammansicht") oder ![Tabellenansicht](/help/dsp/assets/table-view.png "Tabellenansicht") in der oberen rechten Symbolleiste.
+   * Um zwischen der Anzeige der Daten nur im Tabellenformular und sowohl in Tabellen- als auch in Diagrammformularen zu wechseln, klicken Sie in der oberen rechten Symbolleiste auf ![Tabellen- und Diagrammansicht](/help/dsp/assets/table-plus-chart-view.png "Tabellen- und Diagrammansicht") oder ![Tabellenansicht](/help/dsp/assets/table-view.png "Tabellenansicht") .
 
-   * Um einem Eintrag eine Notiz hinzuzufügen, halten Sie den Cursor über den [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL Add Notes]**. Geben Sie Text in die Eingabefelder ein und klicken Sie auf **[!UICONTROL Save]**.
+   * Um einem Eintrag eine Notiz hinzuzufügen, halten Sie den Cursor über die Spalte [!UICONTROL Notes] für die Zeile und klicken Sie dann auf **[!UICONTROL Add Notes]**. Geben Sie Text in die Eingabefelder ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
-   * Um die Details für einen Eintrag in einem Popup-Fenster anzuzeigen, halten Sie den Cursor über den [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Um die Details für einen Eintrag in einem Popup-Fenster anzuzeigen, halten Sie den Cursor über die Spalte [!UICONTROL Notes] für die Zeile und klicken Sie dann auf **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
@@ -38,7 +38,7 @@ Sie können die Daten nach der Spalte Typ, Geändert von oder Datum geändert so
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
->* [Platzierung duplizieren](placement-duplicate.md)
->* [Bearbeiten von Anzeigenplänen für Platzierungen](placement-edit-ad-schedule.md)
->* [Anhalten oder Aktivieren einer Platzierung](placement-pause-activate.md)
+>* [Duplizieren einer Platzierung](placement-duplicate.md)
+>* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](placement-edit-ad-schedule.md)
+>* [Eine Platzierung anhalten oder aktivieren](placement-pause-activate.md)
 >* [Platzierungseinstellungen](placement-settings.md)

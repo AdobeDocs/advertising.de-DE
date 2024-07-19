@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Info [!UICONTROL Report Destinations]
 
-Sie können Versandspeicherorte erstellen und verwalten, die *[!DNL report destinations]*, für Ihre benutzerspezifischen Berichte. Nachdem Sie die Berichtsziele konfiguriert haben, können Sie jeden Ihrer benutzerspezifischen Berichte so einrichten, dass er an eine oder mehrere Stellen eines einzelnen Zieltyps bereitgestellt wird. Nach dem Speichern eines Berichts können Sie den Zieltyp nicht mehr ändern.
+Sie können Versandspeicherorte mit dem Namen *[!DNL report destinations]* für Ihre benutzerspezifischen Berichte erstellen und verwalten. Nachdem Sie die Berichtsziele konfiguriert haben, können Sie jeden Ihrer benutzerspezifischen Berichte so einrichten, dass er an eine oder mehrere Stellen eines einzelnen Zieltyps bereitgestellt wird. Nach dem Speichern eines Berichts können Sie den Zieltyp nicht mehr ändern.
 
 ## Verfügbar [!UICONTROL Destination Types]
 
@@ -25,9 +25,9 @@ Sie können Versandspeicherorte erstellen und verwalten, die *[!DNL report desti
 >
 > Sie können Ihre benutzerspezifischen Berichte auch an E-Mail-Empfänger senden, für die kein gespeichertes Berichtsziel erforderlich ist. Sie können in den Berichtseinstellungen E-Mail-Empfänger anstelle gespeicherter Ziele angeben.
 
-## Die [!UICONTROL Report Destinations] Ansicht
+## Die Ansicht [!UICONTROL Report Destinations]
 
-Die [!UICONTROL Report Destinations] zeigt alle vorhandenen Ziele und die Anzahl der miteinander verknüpften Berichte an. Sie können die Liste nach Zieltyp filtern.
+Die Ansicht &quot;[!UICONTROL Report Destinations]&quot; zeigt alle vorhandenen Ziele und die Anzahl der miteinander verknüpften Berichte an. Sie können die Liste nach Zieltyp filtern.
 
 In dieser Ansicht können Sie neue Ziele erstellen sowie vorhandene Ziele bearbeiten und löschen.
 
@@ -39,7 +39,7 @@ In dieser Ansicht können Sie neue Ziele erstellen sowie vorhandene Ziele bearbe
 
 >[!MORELIKETHIS]
 >
->* [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

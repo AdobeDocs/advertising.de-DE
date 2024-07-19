@@ -1,6 +1,6 @@
 ---
-title: Erneute Anforderung [!DNL On Demand] Premium-Inventarangebote
-description: Erfahren Sie, wie Sie eine erneute Anforderung durchführen [!DNL On Demand] Angebote, die zuvor abgelehnt wurden.
+title: Neu anfordern [!DNL On Demand] Premium-Inventarangebote
+description: Erfahren Sie, wie Sie [!DNL On Demand] Angebote erneut anfordern können, die zuvor abgelehnt wurden.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,17 +10,17 @@ ht-degree: 0%
 
 ---
 
-# Erneute Anforderung [!DNL On Demand] Premium-Inventarangebote
+# Neu anfordern [!DNL On Demand] Premium-Inventarangebote
 
-*Für Benutzer mit Kontotypen nicht verfügbar [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]und [!UICONTROL Other]; Advertiser mit der Kategorie [!UICONTROL Other]; und Wiederverkäufer*
+*Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other]; Advertiser mit der Kategorie [!UICONTROL Other]; und Wiederverkäufer*
 
-Sie können eine erneute Anfrage stellen [!DNL On Demand] Lagerergänzungen, für die Sie abgelehnt wurden, einschließlich der Angebote eines Herausgebers, für den Sie angemeldet sind. Führen Sie diese Schritte aus, um sicherzustellen, dass alle relevanten Kontoeinstellungen korrekt sind, bevor Sie eine neue Anforderung senden.
+Sie können [!DNL On Demand] Lagerergänzungen erneut anfordern, für die Sie abgelehnt wurden, einschließlich der Angebote eines Herausgebers, für den Sie angemeldet sind. Führen Sie diese Schritte aus, um sicherzustellen, dass alle relevanten Kontoeinstellungen korrekt sind, bevor Sie eine neue Anforderung senden.
 
-Wenn eine Transaktion nicht genehmigt wird, nachdem Sie sie erneut anfordern, wenden Sie sich an Ihr Adobe Account-Team, um zu sehen, ob der Herausgeber zusätzliche Einschränkungen aufweist, die den Zugriff auf das Angebot untersagen.
+Wenn eine Transaktion nicht genehmigt wird, nachdem Sie sie erneut anfordern, wenden Sie sich an Ihr Adobe-Account-Team, um zu sehen, ob der Herausgeber zusätzliche Einschränkungen aufweist, die den Zugriff Ihres Kontos auf die Transaktion verbieten.
 
-Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md)enthalten ist, wird es standardmäßig als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand] Inventar. Der neue Deal ist auch als Ziel für vorhandene Platzierungen verfügbar. Sie müssen jedoch die Platzierungseinstellungen manuell bearbeiten, um den Deal als Ziel hinzuzufügen.
+Sobald ein Geschäft [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md) ist, wird es standardmäßig als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand]-Bestände abdecken. Der neue Deal ist auch als Ziel für vorhandene Platzierungen verfügbar. Sie müssen jedoch die Platzierungseinstellungen manuell bearbeiten, um den Deal als Ziel hinzuzufügen.
 
-1. Vergewissern Sie sich bei Ihrem Adobe-Kundenbetreuungsteam, dass [!UICONTROL Account Type] für das DSP Ihrer Organisation korrekt ist.
+1. Vergewissern Sie sich bei Ihrem Adobe-Account-Team, dass die [!UICONTROL Account Type] für das DSP Ihrer Organisation korrekt ist.
 
 1. Vergewissern Sie sich, dass die Kategorie des Advertisers für das entsprechende Advertiser-Konto korrekt ist:
 
@@ -30,7 +30,7 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    1. Aktivieren Sie die ausgewählte Kategorie.
 
-      Werbetreibende, die als[!UICONTROL Other]&quot; sind nicht berechtigt für [!UICONTROL On Demand] Inventar. Wenn die Kategorie &quot;[!UICONTROL Other]&quot; und es sollte sich um eine andere Kategorie handeln.<!-- [category](/help/dsp/admin/advertiser-settings.md) -->.
+      Werbetreibende, die als &quot;[!UICONTROL Other]&quot; kategorisiert sind, kommen für den [!UICONTROL On Demand] -Bestand nicht infrage. Wenn die Kategorie &quot;[!UICONTROL Other]&quot; lautet und etwas Anderes sein sollte, wählen Sie die entsprechende Kategorie<!-- [category](/help/dsp/admin/advertiser-settings.md) --> aus.
 
 1. Anfordern des Inventars:
 
@@ -38,25 +38,24 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    1. Filtern Sie die verfügbaren Angebote, um Angebote einzuschließen, die Sie angefordert haben (**[!UICONTROL Currently subscribed to]**)**.
 
-   1. (Optional) Zwischen den [!UICONTROL Subscription] Ansicht, die die Logos aller Herausgeber basierend auf Ihren Filtern anzeigt, und [!UICONTROL Deal] Ansicht, die alle Angebote für jeden Herausgeber basierend auf Ihren Filtern auflistet, indem Sie auf **[!UICONTROL Subscription view]** und **[!UICONTROL Deal view]** nach Bedarf.
+   1. (Optional) Wechseln Sie zwischen der Ansicht &quot;[!UICONTROL Subscription]&quot;, in der die Logos aller Herausgeber basierend auf Ihren Filtern angezeigt werden, und der Ansicht &quot;[!UICONTROL Deal]&quot;, in der alle Angebote für jeden Herausgeber basierend auf Ihren Filtern aufgeführt werden, indem Sie nach Bedarf auf &quot;**[!UICONTROL Subscription view]**&quot;und &quot;**[!UICONTROL Deal view]**&quot;klicken.
 
    1. Fordern Sie die einzelnen Angebote erneut an:
-   * Aus dem [!UICONTROL Deal] Ansicht, klicken Sie auf **[!UICONTROL Rerequest]** im [!UICONTROL Action] -Spalte für die entsprechende Zeile.
 
-   * Aus dem [!UICONTROL Subscription] Ansicht:
+   * Klicken Sie in der Ansicht [!UICONTROL Deal] in der Spalte [!UICONTROL Action] für die entsprechende Zeile auf **[!UICONTROL Rerequest]** .
+
+   * In der Ansicht &quot;[!UICONTROL Subscription]&quot;:
 
       1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie auf **[!UICONTROL See Deals]**.
 
-      1. Klicken **[!UICONTROL Rerequest]** im [!UICONTROL Action] -Spalte für die entsprechende Zeile.
-
+      1. Klicken Sie in der Spalte [!UICONTROL Action] für die entsprechende Zeile auf **[!UICONTROL Rerequest]**.
 
 >[!MORELIKETHIS]
 >
->* [Info [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-about.md)
->* [Anzeigen des Status Ihrer [!DNL On Demand] Angebote und Abonnements](on-demand-inventory-view-status.md)
->* [Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Status Ihrer  [!DNL On Demand] Anfragen und Abonnements bearbeiten](on-demand-inventory-view-status.md) anzeigen
+>* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
+>* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)
-
+>* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)

@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] responsive Suchanzeigen.
+title: '[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeige'
+description: Referenzieren Sie die Einstellungen für responsive Suchanzeigen. [!DNL Microsoft Advertising]
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen
+# [!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeige
 
 Das responsive Suchanzeigenformat ist für Anzeigen im Suchnetzwerk verfügbar. Das Anzeigennetzwerk assembliert dynamische Suchanzeigen anhand der effektivsten Kombinationen aus Anzeigenelementen.
 
@@ -51,7 +51,7 @@ Das responsive Suchanzeigenformat ist für Anzeigen im Suchnetzwerk verfügbar. 
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] erweiterte Einstellungen der dynamischen Suchanzeige](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising] Multimedia-Anzeigeneinstellungen](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für Produktanzeigen](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeigeneinstellungen](ad-settings-microsoft-responsive.md)

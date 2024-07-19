@@ -1,6 +1,6 @@
 ---
 title: Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto
-description: Erfahren Sie, wie Sie ein Protokoll der einzelnen Empfehlungen anzeigen, die für eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] -Konto.
+description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads] oder [!DNL Microsoft Advertising] Konto angewendet wurde.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Sie können ein Protokoll jeder Empfehlung anzeigen, die für eine [!DNL Google Ads] oder [!DNL Microsoft Advertising] -Konto. Zu den Informationen gehören die Empfehlungskategorie, der Empfehlungstyp, die betroffenen Entitäten, der Benutzer, der die Empfehlung angewendet hat, und der Zeitstempel.
+Sie können ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads] - oder [!DNL Microsoft Advertising] -Konto angewendet wurde. Zu den Informationen gehören die Empfehlungskategorie, der Empfehlungstyp, die betroffenen Entitäten, der Benutzer, der die Empfehlung angewendet hat, und der Zeitstempel.
 
 Die verworfenen Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 
@@ -26,8 +26,8 @@ Die verworfenen Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 
 >[!MORELIKETHIS]
 >
->* [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](recommendation-support.md)
->* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
->* [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](recommendation-apply-dismiss.md)
+>* [Informationen zur Unterstützung von Publisher-Empfehlungen und Insights](recommendation-support.md)
+>* [Empfehlungen und Leistungseinblicke des Herausgebers anzeigen](recommendation-view.md)
+>* [Eine Empfehlung für Herausgeber anwenden oder verwerfen](recommendation-apply-dismiss.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)
 

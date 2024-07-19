@@ -1,11 +1,11 @@
 ---
 title: Exportieren einer generierten oder hochgeladenen Bulksheet-Datei
 description: Erfahren Sie, wie Sie eine Bulksheet-Datei herunterladen, einschließlich Fehlerdateien und Validierungsdateien für Landingpages.
-exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Sie können jede generierte oder hochgeladene Bulksheet-Datei, einschließlich F
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
-1. (Optional) Oberhalb der Bulksheet-Liste, [Filter hinzufügen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) , um die aufgelisteten Dateien zu beschränken.
+1. (Optional) Fügen Sie über der Bulksheet-Liste [Filter hinzu](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md), um die aufgelisteten Dateien zu beschränken.
 
 1. Klicken Sie in der Liste auf den Namen der Datei.
 
@@ -26,8 +26,8 @@ Sie können jede generierte oder hochgeladene Bulksheet-Datei, einschließlich F
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
->* [Bulksheet-Datei herunterladen/erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
+>* [Herunterladen/Erstellen einer Bulksheet-Datei](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
 >* [Validieren von Landingpages in Bulksheet-Dateien](bulksheet-validate-landing-pages.md)
 >* [Post-Bulksheets oder korrigierte Fehlerdateien](bulksheet-post.md)
 >* [Einrichten eines FTP-Kontos für das Hochladen von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)

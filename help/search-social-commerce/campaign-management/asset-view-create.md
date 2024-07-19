@@ -1,6 +1,6 @@
 ---
-title: Anzeigen und Erstellen von Anzeigen-Assets aus [!UICONTROL Asset Library]
-description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene.
+title: Anzeigen und Erstellen von Anzeigen-Assets aus Ihrem [!UICONTROL Asset Library]
+description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre Asset-Bibliotheken auf  [!DNL Google Ads] und  [!DNL Microsoft Advertising]  Kontoebene anzeigen und erstellen.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
 source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen und Erstellen von Anzeigen-Assets aus [!UICONTROL Asset Library]
+# Anzeigen und Erstellen von Anzeigen-Assets aus Ihrem [!UICONTROL Asset Library]
 
-*Für [!DNL Google Ads] und [!DNL Microsoft Advertising] Nur Konten*
+*Nur für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten*
 
-In [!UICONTROL Campaigns] > [!UICONTROL Asset Library]können Sie alle wiederverwendbaren Bilder, Videos und [!DNL Google Ads] Nur Text-Assets in Ihrer [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene. Sie können auch neue Assets für ein Anzeigennetzwerkkonto erstellen und in das Werbenetzwerk hochladen.
+Unter [!UICONTROL Campaigns] > [!UICONTROL Asset Library] können Sie alle wiederverwendbaren Bild-, Video- und (nur für [!DNL Google Ads]) Text-Assets in Ihren [!DNL Google Ads] - und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene anzeigen. Sie können auch neue Assets für ein Anzeigennetzwerkkonto erstellen und in das Werbenetzwerk hochladen.
 
 Sie können beliebige Assets für Ihre Kampagnen zur Leistungssteigerung verwenden.
 
@@ -28,19 +28,19 @@ Sie können beliebige Assets für Ihre Kampagnen zur Leistungssteigerung verwend
 
 1. Geben Sie jeden Asset-Typ an:
 
-   1. Wählen Sie die **[!UICONTROL Asset Type]**.
+   1. Wählen Sie den Wert **[!UICONTROL Asset Type]** aus.
 
    1. Laden Sie das Asset hoch oder geben Sie es ein:
 
       * Für Bild-Assets:
 
-         1. Klicks **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+         1. Klicken Sie auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
             Jedes Bild kann maximal 10 MB groß sein. Sie können maximal 200 MB Bilder gleichzeitig hochladen.
 
          1. Für jedes Bild:
 
-            1. Klicks ![Zuschneiden](/help/search-social-commerce/assets/crop.png "Zuschneiden").
+            1. Klicken Sie auf ![Zuschneiden](/help/search-social-commerce/assets/crop.png "Zuschneiden").
 
             1. Wählen Sie das Seitenverhältnis aus.
 
@@ -50,19 +50,19 @@ Sie können beliebige Assets für Ihre Kampagnen zur Leistungssteigerung verwend
 
                Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-            1. Klicks **[!UICONTROL Proceed]**.
+            1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
-      * Geben Sie für Video-Assets die URL für ein [!DNL YouTube] Video, das mindestens 10 Sekunden dauert. Um ein weiteres Video-Asset hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine andere URL ein.
+      * Geben Sie für Video-Assets die URL für ein [!DNL YouTube] Video ein, das mindestens 10 Sekunden dauert. Um ein weiteres Video-Asset hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere URL ein.
 
         Sie können bis zu zehn Video-URLs gleichzeitig posten.
 
-      * ([!DNL Google Ads] Nur Konten) Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.
+      * ( Nur [!DNL Google Ads] Konten) Geben Sie für Text-Assets die Textzeichenfolge ein. Um ein weiteres Textelement hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere Textzeichenfolge ein.
 
         Jedes Textelement kann maximal 1000 Zeichen enthalten. Sie können maximal zehn Text-Assets gleichzeitig hochladen.
 
         Sie können die Text-Assets später für beliebige Anzeigenelemente Ihrer Wahl verwenden (z. B. Überschriften oder Kurzbeschreibungen), sofern sie die Zeichenbeschränkungen für dieses Anzeigenelement erfüllen.
 
-1. Klicks **[!UICONTROL Post]**.
+1. Klicken Sie auf **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

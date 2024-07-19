@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können optional Bulksheet-Dateien für unterstützte Werbenetzwerke in ein bestimmtes FTP-Konto hochladen, um sie abzurufen und automatisch zu posten. Das Verzeichnis wird stündlich gescannt und neue Dateien werden in der Reihenfolge veröffentlicht, in der sie empfangen werden.
 
-Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die während der Veröffentlichung erstellt werden, werden im [!DNL Bulksheets] anzeigen.
+Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die beim Posten erstellt werden, werden in der Ansicht &quot;[!DNL Bulksheets]&quot;aufgeführt.
 
 >[!NOTE]
 >
@@ -28,5 +28,5 @@ Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die während der Veröffent
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
->* [Hochladen eines Bulksheets oder einer korrigierten Fehlerdatei](bulksheet-upload.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
+>* [Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](bulksheet-upload.md)

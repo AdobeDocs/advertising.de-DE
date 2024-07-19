@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Report]'
-description: Informationen zum [!UICONTROL Campaign Report].
-exl-id: a241535a-d32a-4f84-9e0e-addb68d75496
+description: Erfahren Sie mehr über die [!UICONTROL Campaign Report].
+exl-id: c0cbdacc-2fa3-4eca-9355-6b3547d83802
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Report]
 
-Die [!UICONTROL Campaign Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten für jede anwendbare Kampagne eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
+Der [!UICONTROL Campaign Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten für jede anwendbare Kampagne eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
 
 Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
 
@@ -20,7 +20,7 @@ Sie können Daten der letzten 36 Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -40,5 +40,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
->* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

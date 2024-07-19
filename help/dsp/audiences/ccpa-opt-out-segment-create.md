@@ -19,7 +19,7 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising, einen
 >[!NOTE]
 >
 >* Informationen zur Kommunikation von CCPA-Opt-out-of-Sale-Anfragen an Adobe Advertising mithilfe der Adobe Experience Platform Privacy Service-API finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
->* Um Benutzer zu verfolgen, die Webseiten zu Zwecken besuchen, die nicht mit dem Tracking von CCPA-Opt-out-Kaufereignissen in Verbindung stehen, sowie Benutzer, die Anzeigen von Desktop-, Mobil- und CTV-Geräten ausgesetzt sind, erstellen Sie eine [benutzerspezifisches Segment](/help/dsp/audiences/custom-segment-create.md).
+>* Um Benutzer zu verfolgen, die Webseiten zu Zwecken besuchen, die nicht mit dem Tracking von CCPA-Opt-out-Kaufereignissen in Verbindung stehen, sowie Benutzer, die Anzeigen von Desktop-, Mobil- und CTV-Geräten ausgesetzt sind, erstellen Sie ein [benutzerdefiniertes Segment](/help/dsp/audiences/custom-segment-create.md).
 
 1. Erstellen Sie das Segment:
 
@@ -27,21 +27,21 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising, einen
 
    1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**.
 
-   1. Eindeutige Eingabe **[!UICONTROL Segment Name]**.
+   1. Geben Sie eine eindeutige **[!UICONTROL Segment Name]** ein.
 
-      Empfohlener Segmentname: &quot;&lt;*Ihr Advertiser-Name*> - CCPA Opt-out of Sale (zum Beispiel &quot;Acme - CCPA Opt-out of Sale&quot;)
+      Empfohlener Segmentname: &quot;&lt;*Ihr Advertiser-Name*> - CCPA Opt-out of Sale&quot;(z. B. &quot;Acme - CCPA Opt-out of Sale&quot;)
 
-   1. Für [!UICONTROL Segment Type]auswählen **[!UICONTROL CCPA Opt-out of sale]**.
+   1. Wählen Sie für den Wert [!UICONTROL Segment Type] **[!UICONTROL CCPA Opt-out of sale]** aus.
 
-   1. Klicks **[!UICONTROL Save]**.
+   1. Klicken Sie auf **[!UICONTROL Save]**.
 
 1. Kopieren Sie ein Pixel-Tag und implementieren Sie es, um das Segment zu verfolgen:
 
-   1. Zurück zu **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. Kehren Sie zu **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** zurück.
 
    1. Halten Sie in der Segmentzeile den Cursor über das neue Segment und klicken Sie auf **[!UICONTROL Get pixel]**.
 
-   1. Kopieren Sie das Bildpixel (beginnend mit `<img src="https://rtd-tm.everesttech.net"`), um Benutzer-IDs von Desktop- und mobilen Besuchern einer Webseite zu erfassen.
+   1. Kopieren Sie das Bildpixel (beginnend mit `<img src="https://rtd-tm.everesttech.net"`), um Benutzer-IDs von Desktop- und mobilen Besuchern zu einer Webseite zu erfassen.
 
    1. Stellen Sie das Tag dem Advertiser oder Website-Kontakt für die Bereitstellung zur Verfügung. Verwenden Sie dazu den Mechanismus, den das Unternehmen verwendet, um CCPA-Opt-out-Anfragen für den Verkauf zu verfolgen (z. B. die Verwendung einer Consent Management Platform).
 
@@ -56,12 +56,12 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising, einen
       1. Dem Verbraucher wird eine Liste der Dienstleister angezeigt, mit denen der Werber arbeitet.
       1. Der Verbraucher prüft das Kontrollkästchen, um den Verkauf von Daten an Adobe Advertising abzuwählen.
 
-         Diese Aktion Trigger das Pixel, das ausgelöst und die Cookie-ID des Verbrauchers innerhalb der angegebenen &quot;[!UICONTROL CCPA Opt-out of sale]&quot;.
+         Diese Aktion Trigger das Pixel, das ausgelöst und die Cookie-ID des Verbrauchers innerhalb des angegebenen &quot;[!UICONTROL CCPA Opt-out of sale]&quot;-Segments erfasst werden soll.
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für Verbraucher-Opt-out](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Info [!UICONTROL CCPA Opt-out-of-Sale] Segmente und Berichte](ccpa-opt-out-about.md)
->* [Abrufen von Opt-out-Berichten für Verbraucher](ccpa-opt-out-segment-report-retrieve.md)
+>* [Info über [!UICONTROL CCPA Opt-out-of-Sale] Segmente und Berichte](ccpa-opt-out-about.md)
+>* [Abruf der Kundenabmeldeberichte](ccpa-opt-out-segment-report-retrieve.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
 >* [Über Zielgruppen-Management](audience-about.md)

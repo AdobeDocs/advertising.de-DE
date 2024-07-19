@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Google Ads] Anzeigengruppeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Anzeigengruppen.
-exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+title: '[!DNL Google Ads] Anzeigengruppeneinstellungen'
+description: Referenzieren Sie die Einstellungen für  [!DNL Google Ads] Anzeigengruppen.
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Ein Anzeigengruppenname, der innerhalb der Kampagne eindeutig ist. Die maximale Länge beträgt 255 Doppelbyte-Zeichen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *Aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *aktiv*.
 
-**[!UICONTROL Ad Group Type]:** (Nur erweiterte dynamische Suchanzeigekampagnen) Der Typ der Anzeigengruppe:
+**[!UICONTROL Ad Group Type]:** (Nur erweiterte dynamische Suchanzeigenkampagnen) Der Typ der Anzeigengruppe:
 
 * *[!UICONTROL Search Standard]* (Standard): Für Standardanzeigen.
 
 * *[!UICONTROL Search Dynamic]:* Für dynamische Suchanzeigen.
 
-**[!UICONTROL Ad Rotation Mode]:** Wie oft [!DNL Google Ads] stellt Ihre aktiven Anzeigen im Verhältnis zueinander innerhalb der Anzeigengruppe bereit:
+**[!UICONTROL Ad Rotation Mode]:** Wie oft [!DNL Google Ads] Ihre aktiven Anzeigen in der Anzeigengruppe im Verhältnis zueinander bereitstellt:
 
 * *[!UICONTROL Optimize]:* Google Ads bevorzugt Anzeigen, von denen erwartet wird, dass sie eine bessere Leistung erzielen als andere Anzeigen in der Anzeigengruppe. Diese Anzeigen treten häufiger in die Anzeigenauktion ein und im Laufe der Zeit wird eine einzelne Anzeige bevorzugt. Dies entspricht möglicherweise nicht Ihren Unternehmens- und Optimierungszielen.
 
 * *[!UICONTROL Rotate forever]:*   Jede Ihrer Anzeigen tritt in die Anzeigenauktion ein, was es Search, Social und Commerce ermöglicht, Ihre Anzeigen nicht nur mit der Clickthrough-Rate, sondern auch mit Konversionen zu bewerten.
 
-* *[!UICONTROL Use campaign setting]*(Standardeinstellung für neue Anzeigengruppen): Verwendet die Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist in &quot;Suchen&quot;, &quot;Sozial&quot;und &quot;Commerce&quot;nicht sichtbar.
+* *[!UICONTROL Use campaign setting]* (Standard für neue Anzeigengruppen): Verwendet die Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist in Search, Social und Commerce nicht sichtbar.
 
-Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONTROL Target CPA], [!UICONTROL Target ROAS]oder [!UICONTROL Enhanced CPC]), dann [!DNL Google Ads] setzt die Option automatisch auf &quot;[!UICONTROL Optimize].&quot;
+Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONTROL Target CPA], [!UICONTROL Target ROAS] oder [!UICONTROL Enhanced CPC]), setzt [!DNL Google Ads] die Option automatisch auf &quot;[!UICONTROL Optimize]&quot;.
 
-**[!UICONTROL Custom Bid Level]:** (Kampagnen, die nur auf das Display-Netzwerk abzielen) Anleitung zum Angebot: von *[!UICONTROL Ad Group]* (Standardeinstellung), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Interest &amp; Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (Website), *[!UICONTROL Unknown]* oder *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (Kampagnen, die nur auf das Display-Netzwerk abzielen) Angebotsmethode: von *[!UICONTROL Ad Group]* (Standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Interessen und Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (Website), *[!UICONTROL Unknown]* oder *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ Wenn die Kampagne eine Smart Bidding-Angebotsstrategie verwendet (z. B. [!UICONT
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Kampagnen mit [!UICONTROL Target CPA] Gebote; optional) Die Zielkosten pro Akquise (CPA) für die Anzeigengruppe. Dieser Wert überschreibt das Ziel auf Kampagnenebene.
+**[!UICONTROL Target CPA]:** (Kampagnen mit [!UICONTROL Target CPA] Angebot; optional) Die Zielkosten pro Akquise für die Anzeigengruppe. Dieser Wert überschreibt das Ziel auf Kampagnenebene.
 
-**[!UICONTROL Target ROAS]:** (Kampagnen mit [!UICONTROL Target ROAS] Gebote; optional) Die Zielrendite aus Werbeausgaben (ROAS) für die Anzeigengruppe in Prozent. Dieser Wert überschreibt das Ziel auf Kampagnenebene.
+**[!UICONTROL Target ROAS]:** (Kampagnen mit [!UICONTROL Target ROAS] Angebot; optional) Die Zielrendite aus Werbeausgaben (ROAS) für die Anzeigengruppe in Prozent. Dieser Wert überschreibt das Ziel auf Kampagnenebene.
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]:** (Kampagnen, die sich nur auf das Suchnetzwerk beziehen, sowie bestehende, schreibgeschützte [!DNL Gmail] Kampagnen im Display-Netzwerk) Ob:
+**[!UICONTROL Audience Target Method]:** (Kampagnen, die sich nur auf das Suchnetzwerk beziehen, und vorhandene schreibgeschützte [!DNL Gmail] Kampagnen im Anzeigenetzwerk) Ob:
 
-* *[!UICONTROL Target and Bid]:* So zeigen Sie Anzeigen nur Benutzern an, die mit Zielgruppen verknüpft sind, die auch andere Ziele für die Anzeigengruppe erfüllen.
+* *[!UICONTROL Target and Bid]:* So zeigen Sie Anzeigen nur für Benutzer an, die mit Zielgruppen verknüpft sind, die auch andere Ziele für die Anzeigengruppe erfüllen.
 
-* *[!UICONTROL Bid Only]:* Anzeigen auch für Personen anzeigen, die nicht mit Zielgruppen verbunden sind, solange sie andere Ziele auf Anzeigengruppenebene erfüllen. Sie können die Wahrscheinlichkeit erhöhen, dass Anzeigen bestimmten Zielgruppen angezeigt werden, indem Sie jedoch höhere Angebote für diese Zielgruppen festlegen.
+* *[!UICONTROL Bid Only]:* So zeigen Sie Anzeigen auch für Personen an, die nicht mit Zielgruppen verbunden sind, solange sie andere Ziele auf Anzeigengruppenebene erfüllen. Sie können die Wahrscheinlichkeit erhöhen, dass Anzeigen bestimmten Zielgruppen angezeigt werden, indem Sie jedoch höhere Angebote für diese Zielgruppen festlegen.
 
 <!-- **[!UICONTROL Devices]:** -->
 

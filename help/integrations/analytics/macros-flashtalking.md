@@ -1,6 +1,6 @@
 ---
-title: Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags
-description: Erfahren Sie, warum und wie Sie [!DNL Analytics for Advertising] Makros für Ihre [!DNL Flashtalking] Adtags
+title: Anhängen von [!DNL Analytics for Advertising] Makros an  [!DNL Flashtalking] Anzeigen-Tags
+description: Erfahren Sie, warum und wie Sie [!DNL Analytics for Advertising] Makros zu Ihren [!DNL Flashtalking] Anzeigen-Tags hinzufügen
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Flashtalking] Anzeigen-Tags
+# Anhängen von [!DNL Analytics for Advertising] Makros an [!DNL Flashtalking] Anzeigen-Tags
 
-*Advertiser mit nur Adobe Advertising-Adobe Analytics-Integration*
+*Advertiser mit nur einer Adobe Advertising-Adobe Analytics-Integration*
 
-*Gilt nur für DSP*
+*Nur für Advertising DSP anwendbar*
 
-Wenn Sie Anzeigen-Tags aus [!DNL Flashtalking] Hängen Sie für Ihre Advertising DSP Anzeigen Analytics for Advertising-Parameter an Ihre Landingpage-URLs an. Die Parameter zeichnen die AMO-ID (`s_kwcid`) und `ef_id` Abfragezeichenfolgenparameter in der Landingpage-URL, sodass Adobe Advertising Klick-Daten für die Anzeigen an Adobe Analytics senden kann.
+Wenn Sie Anzeigen-Tags von [!DNL Flashtalking] für Ihre Advertising DSP-Anzeigen verwenden, hängen Sie Analytics für Advertising-Parameter an Ihre Landingpage-URLs an. In den Parametern werden AMO-ID-Parameter (`s_kwcid`) und `ef_id` Abfragezeichenfolgenparameter in der URL der Landingpage aufgezeichnet, sodass Adobe Advertising Klick-Daten für die Anzeigen an Adobe Analytics senden kann.
 
-Verwenden Sie Makros für [!DNL Flashtalking] Anzeigen und Videoanzeigen für die folgenden Typen [!DNL Analytics for Advertising] Implementierungen:
+Verwenden Sie Makros für [!DNL Flashtalking] Display- und Videoanzeigen für die folgenden Typen von [!DNL Analytics for Advertising] -Implementierungen:
 
-* **Werbetreibende mit [!DNL Adobe] [!DNL Analytics for Advertising] Auf ihren Websites implementierter JavaScript-Code**: Der JavaScript-Code zeichnet die AMO-ID (`s_kwcid`) und `ef_id` Abfragezeichenfolgenparameter. Durch die Verwendung von Makros wird das Tracking jedoch auch auf klickbasierte Konversionen erweitert, wenn Drittanbieter-Cookies nicht unterstützt werden. Es empfiehlt sich, die Makros in den folgenden Abschnitten zu Ihren Anzeigen-Tags hinzuzufügen, um zusätzliche Clickthrough-Daten zu erfassen, die nicht über den JavaScript-Code erfasst werden.
+* **Advertiser mit dem auf ihren Websites implementierten JavaScript-Code [!DNL Adobe] [!DNL Analytics for Advertising]**: Der JavaScript-Code zeichnet bereits die Abfragezeichenfolgenparameter AMO ID (`s_kwcid`) und `ef_id` auf. Durch die Verwendung von Makros wird das Tracking jedoch auch auf klickbasierte Konversionen erweitert, wenn Drittanbieter-Cookies nicht unterstützt werden. Es empfiehlt sich, die Makros in den folgenden Abschnitten zu Ihren Anzeigen-Tags hinzuzufügen, um zusätzliche Clickthrough-Daten zu erfassen, die nicht über den JavaScript-Code erfasst werden.
 
 >[!NOTE]
 >
->Der JavaScript-Code ist eine Lösung für Klick-Tracking, während Cookies weiterhin verfügbar sind. Sobald Cookies beendet sind, ist die Implementierung der folgenden Makros erforderlich.
+>Der JavaScript-Code ist eine Lösung für Klick-Tracking, solange Cookies noch verfügbar sind. Sobald Cookies beendet sind, ist die Implementierung der folgenden Makros erforderlich.
 
-* **Advertiser, deren Websites die [!DNL Analytics for Advertising] JavaScript-Code und stattdessen auf [!DNL Analytics] Serverseitige Weiterleitung nur für Clickthrough-Daten** (ohne Durchsichtsdaten): Die folgenden Makros sind erforderlich, um die Klick-Aktivität auf der Site zu melden, die von Anzeigen gesteuert wird, die Sie über Adobe Advertising kaufen.
+* **Werbetreibende, deren Websites nicht den JavaScript-Code von [!DNL Analytics for Advertising] verwenden und stattdessen die serverseitige Weiterleitung nur für Clickthrough-Daten verwenden** (ohne Viewthrough-Daten): Die folgenden Makros sind erforderlich, um die Klick-Aktivität auf der Site über Anzeigen zu melden, die Sie über Adobe Advertising kaufen.[!DNL Analytics]
 
 ## Anzeigen von Anzeigen-Tags
 
-Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der Clickthrough-URL in der `Clicktag` -Feld:
+Hängen Sie in den Einstellungen für das Anzeigen-Tag [!DNL Flashtalking] das folgende Makro am Ende der Clickthrough-URL im Feld `Clicktag` an:
 
 ```
 [ftqs:[AdobeAMO]]
 ```
 
-Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL mit einem &quot;`?`&quot;. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einem `?` und jede nachfolgende Zeichenfolge mit einem `&`.
 
 Beispiele:
 
@@ -46,13 +46,13 @@ Beispiele:
 
 ## Videoanzeigen-Tags
 
-Innerhalb der [!DNL Flashtalking] Fügen Sie das folgende Makro an das Ende der Clickthrough-URL in der `Clicktag` -Feld:
+Hängen Sie in den Einstellungen für das Anzeigen-Tag [!DNL Flashtalking] das folgende Makro am Ende der Clickthrough-URL im Feld `Clicktag` an:
 
 ```
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL durch eine `?`. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einer `?` und jeder nachfolgenden Zeichenfolge mit `&`.
+Wenn es die erste oder einzige Abfragezeichenfolge nach der Basis-URL ist, trennen Sie sie von der Basis-URL mit einem &quot;`?`&quot;. Wenn die Basis-URL mehrere Abfragezeichenfolgen enthält, beginnen Sie die erste Zeichenfolge mit einem `?` und jede nachfolgende Zeichenfolge mit einem `&`.
 
 Beispiele:
 
@@ -62,7 +62,7 @@ Beispiele:
 
 >[!MORELIKETHIS]
 >
->* [Übersicht über [!DNL Analytics for Advertising]](overview.md)
->* [Von verwendete Adobe Advertising-IDs [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Anhängen [!DNL Analytics for Advertising] Makros zu [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [Überblick über  [!DNL Analytics for Advertising]](overview.md)
+>* [Von  [!DNL Analytics]](/help/integrations/analytics/ids.md) verwendete Adobe Advertising-IDs
+>* [Anhängen von [!DNL Analytics for Advertising] Makros an  [!DNL Google Campaign Manager 360] Anzeigen-Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
 

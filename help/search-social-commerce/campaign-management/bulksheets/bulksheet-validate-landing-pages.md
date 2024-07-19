@@ -1,22 +1,22 @@
 ---
 title: Validieren von Landingpages in Bulksheet-Dateien
 description: Erfahren Sie, wie Sie die Ziel-URLs in einer Bulksheet-Datei mit nur einem Konto validieren.
-exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Validieren von Landingpages in Bulksheet-Dateien
 
-*Konten nur mit Ziel-URLs*
+*Nur Konten mit Ziel-URLs*
 
-Sie können die Landingpages in allen Ziel-URLs in einer Bulksheet-Datei mit nur einem Konto validieren. Sie können Ausdrücke und URLs angeben, die auf eine ungültige Seite hinweisen, und optional Landingpage-Umleitungen als Fehler melden. Suchen, Social und Commerce sucht nach Ihren angegebenen Bedingungen und nach fehlenden Landingpages (was zu HTTP 404- oder &quot;Not Found&quot;-Fehlern führt).
+Sie können die Landingpages in allen Ziel-URLs in einer Bulksheet-Datei mit nur einem Konto validieren. Sie können Ausdrücke und URLs angeben, die auf eine ungültige Seite hinweisen, und optional Landingpage-Umleitungen als Fehler melden. Suchen, Social und Commerce sucht nach Ihren angegebenen Bedingungen und nach fehlenden Landingpages (was zu HTTP 404- oder &quot;Nicht gefunden&quot;-Fehlern führt).
 
-Wenn Fehler gefunden werden, erstellt Search, Social und Commerce eine Bulksheet-Fehlerdatei, die alle Zeilen im ursprünglichen Bulksheet und Fehlermeldungen für alle Zeilen mit ungültiger Landingpage enthält. Die Fehler werden im Abschnitt [!UICONTROL EF Errors] Spalte. Die Dateinamenkonvention lautet `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
+Wenn Fehler gefunden werden, erstellt Search, Social und Commerce eine Bulksheet-Fehlerdatei, die alle Zeilen im ursprünglichen Bulksheet und Fehlermeldungen für alle Zeilen mit ungültiger Landingpage enthält. Die Fehler werden in der Spalte [!UICONTROL EF Errors] aufgeführt. Die Dateinamenkonvention lautet `<bulksheet name>__lpv_errors.<extension used for the bulksheet>`.
 
 Sie können die Datei später herunterladen, die Fehler korrigieren und die korrigierte Datei hochladen und dann die korrigierte Datei in das Konto des Werbenetzwerks posten.
 
@@ -37,22 +37,22 @@ Sie können die Datei später herunterladen, die Fehler korrigieren und die korr
 
    **[!UICONTROL Enter invalid landing pages(one per line):]** Die URLs von Seiten, die als Landingpages ungültig sind. Um mehrere Werte anzugeben, geben Sie sie in separate Zeilen ein.
 
-   **[!UICONTROL User Agent:]** Identifizierung des Validierungs-Agenten für die Landingpage auf dem Webserver, auf dem sich die Landingpage befindet. Die Standardeinstellung ist, die Ansichten des Agenten anonym zuordnet [!DNL Mozilla Firefox] Benutzer. Wenn der Webserver Anforderungen von anonymen [!DNL Mozilla Firefox] Benutzer und geben Sie dann den Namen eines anderen Agenten ein. Beispiel: für [!DNL Googlebot], eingeben `Googlebot/2.1;+http://www.google.com/bot.html`.
+   **[!UICONTROL User Agent:]** Identifizieren des Validierungsagenten der Landingpage für den Webserver, auf dem sich die Landingpage befindet. Die Standardeinstellung ist, die Ansichten des Agenten einem anonymen [!DNL Mozilla Firefox] -Benutzer zuordnet. Wenn der Webserver Anforderungen von anonymen [!DNL Mozilla Firefox] -Benutzern blockiert, geben Sie den Namen eines anderen Agenten ein. Geben Sie beispielsweise für [!DNL Googlebot] den Wert `Googlebot/2.1;+http://www.google.com/bot.html` ein.
 
-   **[!UICONTROL Report redirects as errors]:** Wenn eine Landingpage zu einer anderen Seite umleitet (z. B. wenn die Landingpage fehlt und die Site eine Ersatzseite anzeigt), wird die [!UICONTROL ER Errors] in der Fehlerdatei der Landingpage gibt die URL an, zu der die Landingpage weitergeleitet wird.
+   **[!UICONTROL Report redirects as errors]:** Wenn eine Landingpage zu einer anderen Seite umleitet (z. B. wenn die Landingpage fehlt und die Site eine Ersatzseite anzeigt), gibt die Spalte [!UICONTROL ER Errors] in der Fehlerdatei der Landingpage die URL an, zu der die Landingpage umgeleitet wird.
 
-Wenn die Aufgabe beginnt, wird dem [!UICONTROL Bulksheets view]. Bei der Erstellung der Datei wird eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Sie können die Datei herunterladen, um sie zu bearbeiten, und sie dann erneut zum Posten hochladen, oder Sie können die Datei unverändert posten. Wenn die Dateierstellung jedoch fehlschlägt, wird eine Fehlerdatei im [!UICONTROL Bulksheet Management] und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet wird.
+Wenn die Aufgabe beginnt, wird dem [!UICONTROL Bulksheets view] eine neue Zeile hinzugefügt. Bei der Erstellung der Datei wird eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Sie können die Datei herunterladen, um sie zu bearbeiten, und sie dann erneut zum Posten hochladen, oder Sie können die Datei unverändert posten. Wenn die Dateierstellung jedoch fehlschlägt, wird eine Fehlerdatei auf der Seite [!UICONTROL Bulksheet Management] aufgelistet und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet.
 
 >[!NOTE]
 >
 >* Die Validierung großer Dateien dauert länger.
->* Bulksheet-Dateien für mehrere Kampagnen können bis zu 500.000 Datenzeilen enthalten. Wenn Sie Daten für mehrere Kampagnen generieren und die kombinierten Daten aus mehr als 500.000 Zeilen bestehen, werden die Daten nach Kampagne in zwei oder mehr Dateien mit dem Namen `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`usw.
+>* Bulksheet-Dateien für mehrere Kampagnen können bis zu 500.000 Datenzeilen enthalten. Wenn Sie Daten für mehrere Kampagnen generieren und die kombinierten Daten aus mehr als 500.000 Zeilen bestehen, werden die Daten nach Kampagne in zwei oder mehr Dateien mit den Namen `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv` usw. aufgeteilt.
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
->* [Hochgeladene Bulksheets und Fehlerdateien löschen](bulksheet-delete.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
+>* [Löschen hochgeladener Bulksheets und Fehlerdateien](bulksheet-delete.md)
 >* [Post-Bulksheets oder korrigierte Fehlerdateien](bulksheet-post.md)
->* [Beenden Sie den laufenden Bulksheet-Auftrag.](bulksheet-stop-job.md)
->* [Hochladen eines Bulksheets oder einer korrigierten Fehlerdatei](bulksheet-upload.md)
+>* [Beenden eines laufenden Bulksheet-Auftrags](bulksheet-stop-job.md)
+>* [Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](bulksheet-upload.md)
 >* [Exportieren einer generierten oder hochgeladenen Bulksheet-Datei](bulksheet-export.md)

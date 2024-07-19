@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] Einstellungen für Multimedia-Anzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Advertising] Multimedia-Anzeigen.
+title: '[!DNL Microsoft Advertising] multimedia ad settings'
+description: Referenzieren Sie die Einstellungen für  [!DNL Microsoft Advertising] Multimedia-Anzeigen.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -22,23 +22,23 @@ Multimedia-Anzeigen sind im Suchnetzwerk verfügbar. Das Werbenetzwerk stellt mi
 
 * Mindestens ein quadratisches Bild (1:1).
 
-Siehe die zulässigen Seitenrationen und -dimensionen für [Multimedia-Anzeigen](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
+Sehen Sie sich die zulässigen Seitenrationen und Dimensionen für [Multimedia-Anzeigen](https://help.ads.microsoft.com/#apex/ads/en/60107/0) an.
 
 <!-- Instructions -->
 
 {{$include /help/_includes/images-ms-multimedia-responsive-ad.md}}
 
-**[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
+**[!UICONTROL Business Name]:** Der Geschäftsname mit maximal 25 Zeichen.
 
-**[!UICONTROL Short Headlines]:** Mindestens drei bis 15 kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
+**[!UICONTROL Short Headlines]:** Mindestens drei und bis zu 15 kurze Überschriften mit mindestens einem Wort und maximal 30 Zeichen pro Wort.
 
-**[!UICONTROL Long Headlines]:** Mindestens drei und bis zu fünf lange Überschriften mit maximal 90 Zeichen pro Kopf.
+**[!UICONTROL Long Headlines]:** Mindestens drei und bis zu fünf lange Überschriften mit jeweils maximal 90 Zeichen.
 
-**[!UICONTROL Ad Text]:** Mindestens zwei bis vier Beschreibungen mit mindestens einem Wort und maximal 90 Zeichen.
+**[!UICONTROL Ad Text]:** Mindestens zwei und bis zu vier Beschreibungen mit mindestens einem Wort und maximal 90 Zeichen.
 
 **[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist Automatisiert ausgewählt und das Werbenetzwerk wählt den Aktionsaufruf aus. Sie können optional eine andere Aktion auswählen.
 
-**[!UICONTROL Call to Action Language]:** Die Sprache für die Aktionsoptionen.
+**[!UICONTROL Call to Action Language]:** Die Sprache für die Aktionsaufrufe.
 
 ## [!UICONTROL Tracking URLs]
 
@@ -54,7 +54,7 @@ Siehe die zulässigen Seitenrationen und -dimensionen für [Multimedia-Anzeigen]
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Microsoft Advertising] erweiterte dynamische Suchanzeigeneinstellungen](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] Produktanzeigeneinstellungen](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] responsive Anzeigeneinstellungen (Zielgruppe)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeigen](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] erweiterte Einstellungen der dynamischen Suchanzeige](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für Produktanzeigen](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] responsive (Zielgruppen-)Anzeigeneinstellungen](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] Einstellungen für responsive Suchanzeige](ad-settings-microsoft-rsa.md)

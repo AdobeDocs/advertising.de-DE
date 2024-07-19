@@ -1,26 +1,26 @@
 ---
-title: Verwalten [!DNL Google Ads] dynamische Suchziele
-description: Erfahren Sie, wie Sie [!DNL Google Ads] dynamische Suchziele.
-exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+title: Dynamische Suchziele verwalten [!DNL Google Ads]
+description: Erfahren Sie, wie Sie dynamische Suchziele für  [!DNL Google Ads] erstellen und verwalten.
+exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
-# Verwalten [!DNL Google Ads] dynamische Suchziele
+# Dynamische Suchziele für [!DNL Google Ads] verwalten
 
-*[!DNL Google Ads]Nur Konten*
+*[!DNL Google Ads]nur Konten*
 
 Sie können den Status dynamischer Suchziele für Kampagnen erstellen, bearbeiten und ändern, die das Suchnetzwerk verwenden.
 
 >[!NOTE]
 >
->Sie können große Mengen von Zieldaten gleichzeitig erstellen und bearbeiten, indem Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) und sie in das Werbenetzwerk posten.
+>Sie können große Mengen von Zieldaten gleichzeitig erstellen und bearbeiten, indem Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) hochladen und in das Werbenetzwerk veröffentlichen.
 
-## Erstellen Sie eine [!DNL Google Ads] dynamisches Suchziel
+## Dynamisches Suchziel [!DNL Google Ads] erstellen
 
 Sie können dynamische Suchziele erstellen, um Seiten auf Ihren Websites zu definieren (d. h. die Domänen, die in den Anzeigen-URLs Ihrer Anzeigen verwendet werden), deren Inhalt verwendet wird, um dynamische Suchanzeigen in derselben Anzeigengruppe als Ziel festzulegen.
 
@@ -28,41 +28,41 @@ Sie können alle Kriterien oder bis zu drei einzelne Kriterien als Ziel auswähl
 
 >[!NOTE]
 >
->Um die Leistung optimal zu verfolgen, erstellen Sie eine[!UICONTROL All Targets]&quot; nur für eine Anzeigengruppe pro Kampagne.
+>Um die Leistung optimal zu verfolgen, erstellen Sie ein &quot;[!UICONTROL All Targets]&quot;-Ziel für nur eine Anzeigengruppe pro Kampagne.
 
 >[!TIP]
 >
 >Um mehrere Kontokomponenten gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") .
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die [Einstellungen für dynamische Suchzielgruppen](#dynamic-search-target-settings).
+1. Geben Sie die Einstellungen für das dynamische Suchziel [ an.](#dynamic-search-target-settings)
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicken Sie auf **[!UICONTROL Post]**.
 
-## Bearbeiten [!DNL Google Ads] Einstellungen für dynamische Suchzielgruppen
+## Einstellungen des dynamischen Suchziels [!DNL Google Ads] bearbeiten
 
-Sie können den Status oder das Höchstangebot für eine [!DNL Google Ads] dynamisches Suchziel. Die Targeting-Kriterien können nicht geändert werden.
+Sie können den Status oder das Höchstangebot für ein dynamisches Suchziel vom Typ [!DNL Google Ads] bearbeiten. Die Targeting-Kriterien können nicht geändert werden.
 
 >[!TIP]
 >
 >Um große Datenmengen gleichzeitig zu bearbeiten, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zeile.
 
-   Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Geben Sie die [Einstellungen für dynamische Suchzielgruppen](#dynamic-search-target-settings).
+1. Geben Sie die Einstellungen für das dynamische Suchziel [ an.](#dynamic-search-target-settings)
 
-   Bei mehreren Zielgruppen werden Ihre Änderungen auf alle ausgewählten Zielgruppen angewendet. Für [!UICONTROL Bid field], haben Sie die Möglichkeit, die vorhandenen Werte in einen bestimmten Wert zu ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Begrenzung zu erhöhen oder zu verringern.
+   Bei mehreren Zielgruppen werden Ihre Änderungen auf alle ausgewählten Zielgruppen angewendet. Für den Wert [!UICONTROL Bid field] haben Sie die Möglichkeit, die vorhandenen Werte in einen bestimmten Wert zu ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Begrenzung zu erhöhen oder zu verringern.
 
 1. Speichern Sie die Daten:
 
@@ -70,53 +70,53 @@ Sie können den Status oder das Höchstangebot für eine [!DNL Google Ads] dynam
 
    * (Mehrere Anzeigengruppen) Klicken Sie auf **[!UICONTROL Post Now]**.
 
-## Ändern des Status von [!DNL Google Ads] dynamische Suchziele
+## Ändern des Status dynamischer Suchziele vom Typ [!DNL Google Ads]
 
 Sie können jedes aktive dynamische Suchziel in einem unterstützten Kampagnentyp anhalten, um die Verwendung dieser Ziele für dynamische Suchanzeigen in derselben Anzeigengruppe zu beenden. Sie können sie später als Ziele verwenden, indem Sie den Anzeigenstatus wieder in &quot;aktiv&quot;ändern.
 
 Sie können auch jedes dynamische Ziel löschen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte dynamische Ziele einzuschließen.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um den Status eines dynamischen Ziels zu ändern, klicken Sie auf die Schaltfläche **[!UICONTROL Status]** und ändern Sie den Status.
+   * Um den Status eines dynamischen Ziels zu ändern, klicken Sie in die Spalte **[!UICONTROL Status]** und ändern Sie den Status.
 
    * Gehen Sie wie folgt vor, um ein oder mehrere dynamische Ziele zu löschen:
 
       1. Aktivieren Sie das Kontrollkästchen neben jedem dynamischen Ziel, das Sie löschen möchten.
 
-     Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen **[!UICONTROL Delete]**.
+      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
 
-      1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
-## [!DNL Google Ads] Einstellungen für dynamische Suchzielgruppen {#dynamic-search-target-settings}
+## Einstellungen für dynamische Suchziele [!DNL Google Ads] {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** (Erforderlich, wenn Sie keine Website-Domäne und -Sprache im [!UICONTROL DSA Options] -Abschnitt; schreibgeschützt für vorhandene Ziele) Dynamische Suchziele für die Anzeigengruppe:
+**[!UICONTROL Auto-targets]:** (Erforderlich, wenn Sie keine Website-Domäne und -Sprache im Abschnitt [!UICONTROL DSA Options] der Kampagne angeben; schreibgeschützt für vorhandene Ziele) Dynamische Suchziele für die Anzeigengruppe:
 
 * *[!UICONTROL All Targets]* (Standard): Alle indizierten Seiten werden als Ziel ausgewählt.
 
-* *\[Spezifische Ziele\]:* Für die indizierten Seiten gelten bis zu drei Kriterien. Wenn Sie dies auswählen, müssen Sie die Kriterien angeben, indem Sie Informationskategorien und spezifische Werte angeben, für die Anzeigen als Ziel ausgewählt werden sollen (z. B. &quot;URL enthält Schuhe.example.com&quot;). Um mehr als ein Kriterium anzugeben, klicken Sie auf **[!UICONTROL + And]**. Zu den Zielkriterien gehören:
+* *\[Bestimmte Ziele\]:* Ermöglicht die Erreichung von bis zu drei Kriterien für die indizierten Seiten. Wenn Sie dies auswählen, müssen Sie die Kriterien angeben, indem Sie Informationskategorien und spezifische Werte angeben, für die Anzeigen als Ziel ausgewählt werden sollen (z. B. &quot;URL enthält Schuhe.example.com&quot;). Um mehr als ein Kriterium anzugeben, klicken Sie auf **[!UICONTROL + And]**. Zu den Zielkriterien gehören:
 
-   * *[!UICONTROL Category]:* So zeigen Sie Anzeigen für indizierte Seiten mit einer bestimmten [!DNL Google Ads] Inhaltskategorie.
+   * *[!UICONTROL Category]:* Anzeigen für indizierte Seiten mit einer bestimmten [!DNL Google Ads] Inhaltskategorie anzeigen.
 
-   * *[!UICONTROL URL]:* So zeigen Sie Anzeigen für indizierte Seiten mit einer bestimmten URL an, auf denen der Wert an einer beliebigen Stelle in der URL enthalten sein kann.
+   * *[!UICONTROL URL]:* Anzeigen für indizierte Seiten mit einer bestimmten URL, in denen der Wert an einer beliebigen Stelle in der URL enthalten sein kann.
 
-   * *[!UICONTROL Page Title]:* So zeigen Sie Anzeigen für indizierte Seiten mit einem bestimmten Text im Seitentitel an.
+   * *[!UICONTROL Page Title]:* Anzeigen für indizierte Seiten mit spezifischem Text im Seitentitel anzeigen.
 
-   * *[!UICONTROL Page Content]:* Anzeigen für indizierte Seiten mit bestimmten Inhalten.
+   * *[!UICONTROL Page Content]:* Anzeigen für indizierte Seiten mit bestimmten Inhalten anzeigen.
 
 **Status:** Der Status der Zieleinstellungen:
 
-* *[!UICONTROL Active]* (Standardeinstellung): Aktiviert das Angebot.
+* *[!UICONTROL Active]* (Standard): Aktiviert das Angebot.
 
-* *[!UICONTROL Paused]:* Deaktiviert das Gebot.
+* *[!UICONTROL Paused]:* Deaktiviert das Angebot.
 
 * *[!UICONTROL Deleted]* (nur vorhandene Ziele): Löscht die Zieleinstellungen.
 
@@ -130,4 +130,4 @@ Sie können auch jedes dynamische Ziel löschen.
 
 >[!MORELIKETHIS]
 >
->* [Info [!DNL Google Ads] dynamische Suchziele](dynamic-search-target-about.md)
+>* [Über [!DNL Google Ads] dynamische Suchziele](dynamic-search-target-about.md)

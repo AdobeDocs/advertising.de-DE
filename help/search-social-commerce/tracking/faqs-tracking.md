@@ -1,11 +1,11 @@
 ---
 title: Häufig gestellte Fragen zum Tracking
 description: Erfahren Sie mehr über Antworten auf häufig gestellte Fragen zum Tracking, einschließlich Fehlerbehebungsproblemen.
-exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ## Tracking-Funktionen
 
-++ Kann ich Kampagnen verfolgen, die von Adobe Advertising nicht verwaltet werden?
++++ Kann ich Kampagnen verfolgen, die von Adobe Advertising nicht verwaltet werden?
 
-Ja. Wenn Search, Social und Commerce eines Ihrer Anzeigennetzwerkkonten synchronisiert, werden die Klickdaten des Anzeigennetzwerks für alle [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) in diesem Konto. Sie verfolgt auch die Konversionsdaten, wenn Sie die Umleitung &quot;Search, Social, &amp; Commerce&quot;zu Ihren Anzeigen- und/oder Keyword-Ziel-URLs oder Tracking-Vorlagen hinzugefügt und die Konversions-Tracking in Ihre Konversionsseiten implementiert haben. Machen Sie sich mit Ihrem Adobe Account Team klar, welche Kampagnen Sie in Search, Social und Commerce einfach verfolgen möchten und welche Sie verwalten möchten.
+Ja. Wenn Search, Social und Commerce eines Ihrer Anzeigennetzwerkkonten synchronisieren, werden die Klickdaten des Anzeigennetzwerks für alle [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) in diesem Konto verfolgt. Sie verfolgt auch die Konversionsdaten, wenn Sie die Umleitung von Search, Social und Commerce zu Ihren Anzeigen- und/oder Keyword-Ziel-URLs oder Tracking-Vorlagen hinzugefügt und das Konversions-Tracking in Ihre Konversionsseiten implementiert haben. Machen Sie sich mit Ihrem Adobe Account-Team klar, welche Kampagnen Sie in Search, Social und Commerce einfach nachverfolgen möchten und welche Kampagnen Sie verwalten möchten.
 +++
 
 +++ Wie erhalte ich eine Zuordnung für mehrere Ereignisse?
 
-Für Advertiser, die Konversions-Tracking-Tags für Suche, Social, &amp; Commerce oder Adobe Analytics verwenden, bietet Adobe Advertising mehrere Optionen für die Zuordnung von Konversionsdaten aus einer Reihe von Ereignissen, die zu einer Konversion führen. Mit einer Einstellung auf Advertiser-Ebene wird bestimmt, wie Konversionsdaten ereignisübergreifend zugeordnet werden, selbst wenn sie über mehrere Anzeigenkanäle hinweg auftreten, solange die Kanäle das Impression-Tracking auf Ereignisebene ermöglichen. Standardmäßig werden Konversionen dem letzten (letzten) Ereignis zugeordnet. Die Einstellung kann jedoch anders konfiguriert werden, z. B. um Konversionen dem ersten Ereignis zuzuordnen oder alle Ereignisse gleichmäßig zu gewichten. Eine Änderung der Zuordnungsregel wirkt sich auf die Berechnung künftiger Angebote aus.
+Für Advertiser, die Konversions-Tracking-Tags für Search, Social und Commerce oder Adobe Analytics verwenden, bietet Adobe Advertising mehrere Optionen für die Zuordnung von Konversionsdaten aus einer Reihe von Ereignissen, die zu einer Konversion führen. Mit einer Einstellung auf Advertiser-Ebene wird bestimmt, wie Konversionsdaten ereignisübergreifend zugeordnet werden, selbst wenn sie über mehrere Anzeigenkanäle hinweg auftreten, solange die Kanäle das Impression-Tracking auf Ereignisebene ermöglichen. Standardmäßig werden Konversionen dem letzten (letzten) Ereignis zugeordnet. Die Einstellung kann jedoch anders konfiguriert werden, z. B. um Konversionen dem ersten Ereignis zuzuordnen oder alle Ereignisse gleichmäßig zu gewichten. Eine Änderung der Zuordnungsregel wirkt sich auf die Berechnung künftiger Angebote aus.
 
 Werbetreibende, die alle Konversionsdaten in einer Feed-Datei bereitstellen, müssen die Konversion den zugehörigen Transaktionsereignissen selbst zuordnen.
 
@@ -31,17 +31,17 @@ Werbetreibende, die alle Konversionsdaten in einer Feed-Datei bereitstellen, mü
 
 +++
 
-+++ Wie erkennt Adobe Advertising doppelte Transaktionen?
++++Wie erkennt Adobe Advertising doppelte Transaktionen?
 
-Duplizierte Transaktionen können auftreten, wenn ein Benutzer die Bestätigungsseite nach Abschluss einer Transaktion aktualisiert. Adobe Advertising verwendet die `ev_transid` -Attribut verwenden, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu vermeiden.
+Duplizierte Transaktionen können auftreten, wenn ein Benutzer die Bestätigungsseite nach Abschluss einer Transaktion aktualisiert. Adobe Advertising verwendet das Attribut `ev_transid` , um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu vermeiden.
 
-Im Folgenden finden Sie die Deduplizierungslogik des Adobe Advertisings:
+Im Folgenden finden Sie eine Adobe Advertising der Deduplizierungslogik:
 
-* **Wenn ein Client einen Wert für die `ev_transid` Attribut:** Nachfolgende Pixelanforderungen werden als Duplikate der vorherigen betrachtet, wenn die folgenden identisch sind: die `ev_transid`; die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und den Wert für eine bestimmte Konversionsmetrik.
+* **Wenn ein Client einen Wert für das Attribut `ev_transid` sendet:** Nachfolgende Pixelanfragen werden als Duplikate der vorherigen betrachtet, wenn die folgenden Elemente identisch sind: die `ev_transid`, die Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder Platzierung und der Wert für eine bestimmte Konversionsmetrik.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Anwendungs-ID und denselben Darlehensbetrag für denselben Suchbegriff in einem bestimmten Werbenetzwerk haben, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 
-* **Wenn ein Client keinen Wert für die `ev_transid` Attribut:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung und denselben Wert für eine bestimmte Konversionsmetrik verwenden.
+* **Wenn ein Client keinen Wert für das Attribut `ev_transid` sendet:** Nachfolgende Transaktionen werden als Duplikate der vorherigen Transaktion betrachtet, wenn sie eine Tracking-ID für denselben Suchbegriff, dieselbe Anzeige oder dieselbe Platzierung gemeinsam haben, und denselben Wert für eine bestimmte Konversionsmetrik.
 
   Wenn beispielsweise mehrere Kreditanträge dieselbe Schlüsselwort-ID und denselben Darlehensbetrag aufweisen, werden sie als Duplikate betrachtet und nur der erste Kreditantrag wird gezählt.
 +++
@@ -50,23 +50,23 @@ Im Folgenden finden Sie die Deduplizierungslogik des Adobe Advertisings:
 
 +++ Ich möchte die Verwendung des Adobe Advertising-Konversions-Tracking-Dienstes für eine oder mehrere Kampagnen oder Konten beenden. Wie kann ich den Trackingcode schnell aus den Tracking-URLs entfernen?
 
-Wenden Sie sich zunächst an Ihr Adobe-Kundenbetreuungsteam, um die Auswirkungen des Entfernens von Tracking-URLs zu verstehen.
+Wenden Sie sich zunächst an Ihr Adobe-Account-Team, um zu erfahren, welche Auswirkungen das Entfernen von Tracking-URLs hat.
 
-Ändern Sie die Tracking-Methode im Konto oder in der Kampagne in &quot;[!UICONTROL No EF Redirect].&quot; Erstellen Sie dann ein Bulksheet mit dem[!UICONTROL Generate Tracking URLs]und veröffentlichen Sie sie im Werbenetzwerk. Alle vorhandenen Tracking-URLs oder Ziel-URLs werden ersetzt.
+Ändern Sie die Tracking-Methode im Konto oder in der Kampagne in &quot;[!UICONTROL No EF Redirect]&quot;. Erstellen Sie dann ein Bulksheet mit der Option &quot;[!UICONTROL Generate Tracking URLs]&quot; und posten Sie es im Werbenetzwerk. Alle vorhandenen Tracking-URLs oder Ziel-URLs werden ersetzt.
 +++
 
 ## Datenfragen
 
 +++ Wie weiß ich, welche Konversionsmetrik aus einem Daten-Feed stammt oder vom Adobe Advertising-Konversions-Tracking-Tag verfolgt wird?
 
-In [!UICONTROL Transaction Report]können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Konversions-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL].&quot; Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit `http://pixel.everesttech.net`.
+In einem [!UICONTROL Transaction Report] können Sie feststellen, ob eine enthaltene Konversionsmetrik vom Adobe Advertising-Konversions-Tracking-Pixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL]&quot; einschließen. Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit `http://pixel.everesttech.net`.
 +++
 
 +++ Was sind verwaiste Transaktionen?
 
-Verwaiste Transaktionen sind Transaktionsereignisse, die nicht mit einem bestimmten Suchbegriff oder einer bestimmten Anzeige verknüpft werden können. Adobe Advertising ordnet Transaktionen/Umsätze einem Suchbegriff oder einer Anzeige zu, indem sie die mit dem Umsatzereignis empfangenen Tracking-IDs mit der eindeutigen Tracking-ID in der Tracking-URL des Suchbegriffs oder der Anzeige abgleichen.
+Verwaiste Transaktionen sind Transaktionsereignisse, die nicht mit einem bestimmten Suchbegriff oder einer bestimmten Anzeige verknüpft werden können. Adobe Advertising ordnet Transaktionen/Umsätze einem Suchbegriff oder einer Anzeige zu, indem die mit dem Umsatzereignis empfangenen Tracking-IDs mit der eindeutigen Tracking-ID in der Tracking-URL des Suchbegriffs oder der Anzeige abgeglichen werden.
 
-Wenn ein Kundenbetreuungsteam vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, prüft das Kundenunterstützungsteam nach Waisen und untersucht das Problem, falls es solche feststellt.
+Wenn ein Adobe-Account-Team vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, sucht das Kundenunterstützungsteam nach Waisen und untersucht das Problem, falls es welche findet.
 
 In den folgenden Situationen treten Waisen auf.
 
@@ -80,7 +80,7 @@ Verwaiste Transaktionen treten bei Pixelimplementierungen fast nie auf. Pixelver
 
 **Feed-Implementierungen**
 
-* Die im Feed gesendete Tracking-ID stammt aus einem Konto, von dem Search, Social und Commerce nichts weiß.
+* Die im Feed gesendete Tracking-ID stammt aus einem Konto, von dem Search, Social und Commerce nichts wissen.
 
 * Das Konto ist nicht synchron oder während des Synchronisierungsprozesses sind Fehler aufgetreten.
 
@@ -96,7 +96,7 @@ Vor dem Datum, für das Daten im Offline-Feed verfügbar sind, sind keine Online
 
 **Feed-Implementierungen mit einem Token (ef_id)**
 
-In Search, Social und Commerce kann ein entsprechender Klick auf den Server oder das Werbenetzwerk nicht gefunden werden. Dies kann daran liegen, dass die Klickdaten für das Klickdatum der Konversion nicht verfügbar sind oder (selten), da die Klickprotokolle nicht vor den Konversionsprotokollen verarbeitet wurden. Wenn Search, Social und Commerce die Klickdaten aus dem Anzeigennetzwerk erhalten oder die Klicklogs verarbeitet werden, werden die Daten der Konversion zugeordnet.
+Search, Social und Commerce können einen entsprechenden Klick auf den Server oder das Werbenetzwerk nicht finden. Dies kann daran liegen, dass die Klickdaten für das Klickdatum der Konversion nicht verfügbar sind oder (selten), da die Klickprotokolle nicht vor den Konversionsprotokollen verarbeitet wurden. Wenn Search, Social und Commerce die Klickdaten aus dem Anzeigennetzwerk erhalten oder die Klicklogs verarbeitet werden, werden die Daten der Konversion zugeordnet.
 +++
 
 ## Probleme bei der Umsatzverfolgung
@@ -108,7 +108,7 @@ Wenden Sie sich an die Kundenunterstützung mit der korrigierten Datendatei.
 
 +++Mehrere Suchbegriffe haben dieselben Tracking-URLs.
 
-**Auswirkungen**
+**Implikationen**
 
 Bei Feed-Implementierungen mit mehreren Tracking-IDs werden Daten für mehrere Keywords gemeldet. Bei anderen Implementierungen können Konversionen dem falschen Suchbegriff zugeordnet werden, da das System eine Konvertierung willkürlich einem der Suchbegriffe zuweist.
 
@@ -120,7 +120,7 @@ Das sollte nicht bei Display- oder Social-Anzeigen passieren.
 
 **Mögliche Lösung oder Problemumgehung**
 
-* Wenn Sie Ihre eigenen Suchbegriffe und Anzeigen verwalten, erstellen Sie eine Bulksheet-Datei mit den richtigen URLs für die doppelten URLs und posten Sie sie mit dem **[!UICONTROL Generate Tracking URLs]** -Option, die URLs für alle Suchbegriffe und Anzeigen neu generiert.
+* Wenn Sie Ihre eigenen Suchbegriffe und Anzeigen verwalten, erstellen Sie eine Bulksheet-Datei mit den richtigen URLs für die doppelten URLs und posten Sie sie mithilfe der Option **[!UICONTROL Generate Tracking URLs]** für das entsprechende Konto, wodurch URLs für alle Suchbegriffe und Anzeigen neu generiert werden.
 
-* Wenn ein Adobe Account Team Ihre Suchbegriffe verwaltet, bitten Sie sie, neue URLs für die doppelten URLs zu erstellen.
+* Wenn ein Adobe-Account-Team Ihre Suchbegriffe verwaltet, bitten Sie sie, neue URLs für die doppelten URLs zu erstellen.
 +++

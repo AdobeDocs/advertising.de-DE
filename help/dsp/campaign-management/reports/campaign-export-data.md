@@ -24,11 +24,11 @@ Sie können eine Momentaufnahme der aktuellen gefilterten Kampagnenverwaltungsan
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]** und öffnen Sie die Ansicht, die Sie exportieren möchten.
 
-1. Klicken Sie in der oberen rechten Symbolleiste auf  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. Klicken Sie in der oberen rechten Symbolleiste auf **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    Die Datei wird im standardmäßigen Ordner Downloads Ihres Browsers gespeichert.
 
 >[!MORELIKETHIS]
 >
->* [Arten von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
->* [Datenansichten Ihrer Kampagne verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Verwalten der Datenansichten Ihrer Kampagne](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

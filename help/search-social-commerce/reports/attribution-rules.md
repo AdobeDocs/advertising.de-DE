@@ -1,39 +1,39 @@
 ---
 title: Berechnung der Attributionsregeln
 description: Erfahren Sie, wie Adobe Advertising die verschiedenen Arten von Attributionsregeln berechnet.
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
-# Berechnung der Attributionsregeln für den Adobe Advertising
+# Berechnung der Attributionsregeln für Adobe Advertising
 
-*Werbetreibende, die nur Adobe Advertising-Konversions-Tracking verwenden*
+*Advertiser mit nur Adobe Advertising-Konversions-Tracking*
 
 <!-- Verify statements about cross-device events -->
 
 Die Attributionsregel auf Advertiser-Ebene wird verwendet, um Konversionsdaten - potenziell über mehrere Anzeigenkanäle - in einer Reihe von Ereignissen zu ordnen, die zu einer Konversion führen.
 
-In Berichten, Standardansichten und benutzerdefinierten Ansichten für Advertising Search, Social, &amp; Commerce (Suche, Social und Commerce) und (einige Benutzerrollen) Portfoliosimulationen für Search, Social und Commerce wird die ausgewählte Regel nur für Ansicht-, Berichts- oder Simulationsdaten verwendet. Die verschiedenen Attributionsregeln werden wie folgt angewendet.
+In Berichten, Standardansichten und benutzerdefinierten Ansichten für Advertising Search, Social und Commerce (Search, Social, &amp; Commerce) sowie (einige Benutzerrollen) Portfoliosimulationen für Search, Social und Commerce wird die ausgewählte Regel nur für Anzeige-, Bericht- oder Simulationsdaten verwendet. Die verschiedenen Attributionsregeln werden wie folgt angewendet.
 
 >[!NOTE]
 >
 >* Zuordnungsregeln gelten für Klicks auf gebührenpflichtige Anzeigen in beliebigen Kanälen sowie für Impressionen auf Display- und Social-Anzeigen. Sie gelten nicht für Impressionen für Paid Search-Anzeigen, die nicht auf Ereignisebene verfolgt werden können.
->* Adobe Advertising speichert für jeden Web-Surfer vor einer Konversion immer die folgenden Ereignisse: a) den ersten bezahlten Klick, b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klick, und c) bis zu 10 Anzeigenimpressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* In der Advertising-DSP und -Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad aus der ausgewählten Attributionsregel.<!-- cross-device attribution via LiveRamp only -->
+>* Adobe Advertising speichert immer die folgenden Ereignisse für jeden Web-Surfer vor einer Konversion: a) den ersten gebührenpflichtigen Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klicks, und c) bis zu 10 Display-Impressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+* In Advertising DSP und Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad aus der ausgewählten Attributionsregel.<!-- cross-device attribution via LiveRamp only -->
 * In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, Adobe Advertising speichert jedoch genauere Werte.
 
 ## Letztes Ereignis (Standard)
 
-Ordnet die Konversion dem letzten gebührenpflichtigen Klick in der Serie im Advertiser zu. [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) oder, wenn keine gebührenpflichtigen Klicks aufgetreten sind, zum letzten Impression innerhalb der [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j).
+Ordnet die Konversion dem letzten gebührenpflichtigen Klick in der Serie im [Klick-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) oder, wenn keine gebührenpflichtigen Klicks aufgetreten sind, dem letzten Impression im [Impression-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#i-j) zu.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Viewthrough-Gewichtung [ des Advertisers oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Viewthrough-Bewertungsmethode gewichtet wird.](/help/search-social-commerce/glossary.md#uv)
 
-![Prozentsätze der letzten Ereigniszuordnung](/help/search-social-commerce/assets/attribution-percent-last-event.png "Prozentsätze der letzten Ereigniszuordnung")
+![Letzte Ereignis-Zuordnungsprozentsätze](/help/search-social-commerce/assets/attribution-percent-last-event.png "Letzte Ereignis-Zuordnungsprozentsätze")
 
 <!-- start examples as collapsible content -->
 
@@ -47,7 +47,7 @@ Die Konversion wird Klicks 3 in Höhe von 120 USD zugeordnet.
 
 ### Beispiel mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Konversion von 120 USD
 
@@ -71,11 +71,11 @@ Die Konversion wird Impression 3 zugeordnet. Da es sich bei der Konversion um ei
 
 ## Erstes Ereignis
 
-Ordnet die Konversion dem ersten gebührenpflichtigen Klick in der Reihe innerhalb des Advertisers zu. [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) oder, wenn keine gebührenpflichtigen Klicks aufgetreten sind, zum ersten Impression innerhalb der [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j). Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
+Ordnet die Konversion dem ersten gebührenpflichtigen Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) oder, wenn keine gebührenpflichtigen Klicks aufgetreten sind, dem ersten Eindruck im [Impression-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#i-j) zu. Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Anzeigendurchsichtshöhe [ des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Durchsichtsbewertungsmethode gewichtet wird.
 
-![Prozentsätze der ersten Ereigniszuordnung](/help/search-social-commerce/assets/attribution-percent-first-event.png "Prozentsätze der ersten Ereigniszuordnung")
+![Erster Prozentsatz der Ereigniszuordnung](/help/search-social-commerce/assets/attribution-percent-first-event.png "Erster Prozentwert der Ereigniszuordnung")
 
 <!-- start examples as collapsible content -->
 
@@ -89,7 +89,7 @@ Die Konversion wird Klicks 1 in Höhe von 120 USD zugeordnet.
 
 ### Beispiel mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Konversion von 120 USD
 
@@ -101,7 +101,8 @@ Die Konversion wird Klicks 1 in Höhe von 120 USD zugeordnet.
 
 Ereignispfad: Impression 1, Impression 2, Impression 3, Konversion von 120 USD
 
-Die Konversion wird Impression 1 zugeordnet. Da es sich bei der Konversion um eine Durchsicht handelt, wird die im Abschnitt &quot;Konversionszuordnung (Display-Kampagnen)&quot;der Berichtseinstellungen ausgewählte Durchsichts-Bewertungsmethode angewendet:
+Die Konversion wird Impression 1 zugeordnet. Da es sich bei der Konversion um eine Durchsicht handelt, wurde bei der Konversion von &quot;Display-Kampagnen&quot;die Durchsicht-Bewertungsmethode ausgewählt
+Der Abschnitt &quot;Attribution&quot;der Berichtseinstellungen wird angewendet:
 
 * Wenn der Berichtsparameter eine gewichtete Durchsichtsgewichtung angibt, wird diese Gewichtung auf die Durchsicht angewendet. Wenn das Durchsichtsgewicht des Werbetreibenden beispielsweise 40 % beträgt, dann 120 x 40 % = 48 USD, sodass 48 USD Impression 1 zugeordnet werden.
 
@@ -113,17 +114,17 @@ Die Konversion wird Impression 1 zugeordnet. Da es sich bei der Konversion um ei
 
 ## Gewichtung des ersten Ereignisses - Mehr
 
-Ordnet die Konversion allen Ereignissen in der Reihe zu, die innerhalb der [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j), jedoch erhält das erste Ereignis die höchste Gewichtung und die folgenden Ereignisse eine schrittweise geringere Gewichtung. Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
+Ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) und im [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) stattgefunden haben. Dabei wird jedoch das erste Ereignis am meisten berücksichtigt und die Gewichtung für die folgenden Ereignisse wird schrittweise verringert. Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Anzeigendurchsichtshöhe [ des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Durchsichtsbewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl gebührenpflichtige Klicks als auch Impressionen enthält, werden die Impressionen von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
-* In Search, Social und Commerce wird die [Impressionsübergewicht](/help/search-social-commerce/glossary.md#i-j) - die in der Einstellung für die Impressions-Überschreibung des Werbetreibenden und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist - wird zuerst auf die Impressionen angewendet.
+* In Search, Social und Commerce wird zuerst die Impressions-Gewichtung [Impression override weight](/help/search-social-commerce/glossary.md#i-j) angewendet, die in der Einstellung für die Impressions-Überschreibung des Advertisers und in Berichts-, Ansichts- oder benutzerdefinierten Simulationsparametern angegeben ist.
 
 * In DSP werden die Impressionen ignoriert und nur Klicks gewichtet. DSP berücksichtigt die Gewichtungen für Impressionen bei der Zuordnung nicht.
 
-![Gewichtung der ersten Ereignis- und Zuordnungsprozentsätze](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Gewichtung der ersten Ereignis- und Zuordnungsprozentsätze")
+![Gewichtung des ersten Ereignisses mit weiteren Attributionsprozentsätzen](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Gewichtung des ersten Ereignisses mit zusätzlichen Attributionsprozentsätzen")
 
 <!-- start examples as collapsible content -->
 
@@ -137,11 +138,11 @@ Attribution: Klicken Sie auf 1 = 60 USD, klicken Sie auf 2 = 40 USD, klicken Sie
 
 ### Beispiele mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Click 2, Konversion von 120 USD
 
-#### (Nur Suche, Social und Commerce) Verwendung der standardmäßigen &quot;Impression Override Weight&quot;(Impression Override Weight) von 10 %
+#### (Nur Suche, Social und Commerce) Verwendung des standardmäßigen &quot;Impressions Override Weight&quot;(Impressions-Überschreibungsgewichtung) von 10 %
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, gilt die Gewichtung für Impressionen.
 
@@ -175,17 +176,17 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird zur Bestimmung de
 >
 >Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Weist die Konversion gleichmäßig jedem Ereignis in der Reihe zu, das innerhalb der [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j).
+Weist die Konversion gleichmäßig jedem Ereignis in der Reihe zu, das im [Klick-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) und im [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) aufgetreten ist.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Anzeigendurchsichtshöhe [ des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Durchsichtsbewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl gebührenpflichtige Klicks als auch Impressionen enthält, werden die Impressionen von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
-* In Search, Social und Commerce wird die [Impressionsübergewicht](/help/search-social-commerce/glossary.md#i-j) - die in der Einstellung für die Impressions-Überschreibung des Werbetreibenden und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist - wird zuerst auf die Impressionen angewendet.
+* In Search, Social und Commerce wird zuerst die Impressions-Gewichtung [Impression override weight](/help/search-social-commerce/glossary.md#i-j) angewendet, die in der Einstellung für die Impressions-Überschreibung des Advertisers und in Berichts-, Ansichts- oder benutzerdefinierten Simulationsparametern angegeben ist.
 
 * In DSP werden die Impressionen ignoriert und nur Klicks gewichtet. DSP berücksichtigt die Gewichtungen für Impressionen bei der Zuordnung nicht.
 
-![Sogar Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-even.png "Sogar Attributionsprozentsätze")
+![Sogar-Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-even.png "Sogar-Attributionsprozentsätze")
 
 <!-- start examples as collapsible content -->
 
@@ -201,17 +202,17 @@ Attribution: Klicken Sie auf 1 = 40 USD, klicken Sie auf 2 = 40 USD, klicken Sie
 
 ### Beispiele mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Click 2, Konversion von 120 USD
 
-#### (Nur Suche, Social und Commerce) Verwendung der standardmäßigen &quot;Impression Override Weight&quot;(Impression Override Weight) von 10 %
+#### (Nur Suche, Social und Commerce) Verwendung des standardmäßigen &quot;Impressions Override Weight&quot;(Impressions-Überschreibungsgewichtung) von 10 %
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, gilt die Gewichtung für Impressionen.
 
 Attribution: Impression 1 = 6 USD, Klick 1 = 54 USD, Impression 2 = 6 USD, Klick 2 = 54 USD (insgesamt 120 USD)
 
-#### Verwendung (nur Adobe Advertising DSP) des Werts &quot;Impression Override Weight&quot;oder (nur Suche, Social und Commerce) des Werts &quot;Impression Override Weight&quot;von 0 %
+#### Verwendung (nur Adobe Advertising DSP) eines Impressions-Überschreibungsgewichts von 0 % oder (nur Suche, Social und Commerce) eines &quot;Impressions-Überschreibungsgewichts&quot;
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
@@ -235,17 +236,17 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird zur Bestimmung de
 
 ## Last Event-Mehr
 
-Ordnet die Konversion allen Ereignissen in der Reihe zu, die innerhalb der [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j), gibt jedoch dem letzten Ereignis die höchste Gewichtung und den vorhergehenden Ereignissen schrittweise eine geringere Gewichtung.
+Ordnet die Konversion allen Ereignissen in der Reihe zu, die innerhalb des [Klick-Lookback-Fensters des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) und des [Impression-Lookback-Fensters](/help/search-social-commerce/glossary.md#i-j) stattgefunden haben, gibt jedoch dem letzten Ereignis die höchste Gewichtung und den vorhergehenden Ereignissen eine schrittweise geringere Gewichtung zu.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Anzeigendurchsichtshöhe [ des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Durchsichtsbewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl gebührenpflichtige Klicks als auch Impressionen enthält, werden die Impressionen von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
-* In Search, Social und Commerce wird die [Impressionsübergewicht](/help/search-social-commerce/glossary.md#i-j) - die in der Einstellung für die Impressions-Überschreibung des Werbetreibenden und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist - wird zuerst auf die Impressionen angewendet.
+* In Search, Social und Commerce wird zuerst die Impressions-Gewichtung [Impression override weight](/help/search-social-commerce/glossary.md#i-j) angewendet, die in der Einstellung für die Impressions-Überschreibung des Advertisers und in Berichts-, Ansichts- oder benutzerdefinierten Simulationsparametern angegeben ist.
 
 * In DSP werden die Impressionen ignoriert und nur Klicks gewichtet. DSP berücksichtigt die Gewichtungen für Impressionen bei der Zuordnung nicht.
 
-![Gewichtung des letzten Ereignisses - weitere Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Gewichtung des letzten Ereignisses - weitere Attributionsprozentsätze")
+![Gewichtet das letzte Ereignis mit weiteren Attributionsprozentsätzen](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Gewichtet das letzte Ereignis und mehr Attributionsprozentsätze")
 
 <!-- start examples as collapsible content -->
 
@@ -259,11 +260,11 @@ Attribution: Klicken Sie auf 3 = 60 USD, klicken Sie auf 2 = 40 USD, klicken Sie
 
 ### Beispiele mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Click 2, Konversion von 120 USD
 
-#### (Nur Suche, Social und Commerce) Verwendung der standardmäßigen &quot;Impression Override Weight&quot;(Impression Override Weight) von 10 %
+#### (Nur Suche, Social und Commerce) Verwendung des standardmäßigen &quot;Impressions Override Weight&quot;(Impressions-Überschreibungsgewichtung) von 10 %
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, gilt die Gewichtung für Impressionen.
 
@@ -277,7 +278,7 @@ Attribution: Impression 1 = 0 USD, Klick 1 = 40 USD, Impression 2 = 0 USD, Klick
 
 ### Beispiel mit allen Impressionen
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Impression 2, Impression 3, Konversion von 120 USD
 
@@ -293,13 +294,13 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird zur Bestimmung de
 
 ## U-förmig
 
-Ordnet die Konversion allen Ereignissen in der Reihe zu, die innerhalb der [Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j), gibt jedoch das erste Ereignis und das letzte Ereignis mit der höchsten Gewichtung an, wobei die Ereignisse in der Mitte des Konversionspfads nach und nach weniger berücksichtigt werden.
+Ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster des Werbetreibenden](/help/search-social-commerce/glossary.md#c-d) und im [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) stattgefunden haben. Dabei wird jedoch das erste Ereignis und das letzte Ereignis am meisten berücksichtigt, wobei die Ereignisse in der Mitte des Konversionspfads nach und nach weniger berücksichtigt werden.
 
-Wenn der Konversion nur Impressionen vorangehen, wird die Konversion als *Durchsicht*, die entweder nach der des Werbetreibenden gewichtet wird [Viewthrough-Gewichtungseinstellung](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen Sichtbarkeitsbewertungsmethode.
+Wenn der Konversion nur Impressionen vorangestellt werden, wird die Konversion als *Durchsicht* betrachtet, die entweder nach der Einstellung der Anzeigendurchsichtshöhe [ des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) oder — wie angegeben — nach der im Bericht, in der Ansicht oder in benutzerdefinierten Simulationsparametern angegebenen Durchsichtsbewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl gebührenpflichtige Klicks als auch Impressionen enthält, werden die Impressionen von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
-* In Search, Social und Commerce wird die [Impressionsübergewicht](/help/search-social-commerce/glossary.md#i-j) - die in der Einstellung für die Impressions-Überschreibung des Werbetreibenden und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist - wird zuerst auf die Impressionen angewendet.
+* In Search, Social und Commerce wird zuerst die Impressions-Gewichtung [Impression override weight](/help/search-social-commerce/glossary.md#i-j) angewendet, die in der Einstellung für die Impressions-Überschreibung des Advertisers und in Berichts-, Ansichts- oder benutzerdefinierten Simulationsparametern angegeben ist.
 
 * In DSP werden die Impressionen ignoriert und nur Klicks gewichtet. DSP berücksichtigt die Gewichtungen für Impressionen bei der Zuordnung nicht.
 
@@ -317,11 +318,11 @@ Attribution: Klicken Sie auf 1 = 36 USD, klicken Sie auf 2 = 24 USD, klicken Sie
 
 ### Beispiele mit Impressionen und Klicks
 
-**Hinweis:** Impressionen sind nur auf Display- und Social-Anzeigen anwendbar.
+**Hinweis:** Impressionen sind nur für Anzeige- und Social-Media-Anzeigen verfügbar.
 
 Ereignispfad: Impression 1, Click 1, Impression 2, Click 2, Konversion von 120 USD
 
-#### (Nur Suche, Social und Commerce) Verwendung der standardmäßigen &quot;Impression Override Weight&quot;(Impression Override Weight) von 10 %
+#### (Nur Suche, Social und Commerce) Verwendung des standardmäßigen &quot;Impressions Override Weight&quot;(Impressions-Überschreibungsgewichtung) von 10 %
 
 Da die Ereignisreihe sowohl Impressionen als auch Klicks enthält, gilt die Gewichtung für Impressionen.
 

@@ -14,16 +14,16 @@ ht-degree: 0%
 
 Zeigen Sie eine Liste der mit einer Anzeige verknüpften Platzierungen an, um Leistungsdaten nach Platzierung anzuzeigen, und bearbeiten Sie bei Bedarf die Platzierungseinstellungen.
 
-Siehe auch &quot;[Anzeigen, die an Platzierungen angehängt sind](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
+Siehe auch &quot;[Anzeigen anzeigen, die an Platzierungen angehängt sind](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
-1. Klicken Sie neben dem Anzeigennamen auf  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. Klicken Sie neben dem Anzeigennamen auf **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
->* [Eine Anzeige bearbeiten](ad-edit.md)
+>* [Bearbeiten einer Anzeige](ad-edit.md)
 >* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Detaillierte Berichte für eine Platzierung anzeigen](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Detaillierten Bericht für eine Platzierung anzeigen](/help/dsp/campaign-management/placements/placement-view-report.md)

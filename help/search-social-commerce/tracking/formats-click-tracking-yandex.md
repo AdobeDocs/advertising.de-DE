@@ -1,11 +1,11 @@
 ---
-title: Klick-Tracking-Formate für [!DNL Yandex]
-description: Informationen zu den Klick-Tracking-Formaten für [!DNL Yandex] Konten.
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+title: Klick-Tracking-Formate für  [!DNL Yandex]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Yandex] Konten.
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers in Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Tokenübergabe deaktiviert ist, ersetzen Sie `cq?` after `<advertiser_ID>` mit `c?`.
+>* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 >
->* `source_type`  ist der Übereinstimmungstyp.
+>* `source_type` ist der Übereinstimmungstyp.
 >
->* `source` ist, ob die Anzeige auf einer Such- oder inhaltsbasierten Site angezeigt wurde.
+>* `source` gibt an, ob die Anzeige auf einer Such- oder inhaltsbasierten Site angezeigt wurde.
 >
->* `position` ist die Positionsnummer der Anzeige im Block. Bei Traffic ohne Suchvorgänge ist der Wert &quot;0&quot;.
+>* `position` ist die Positionsnummer für die Anzeige im Block. Bei Traffic ohne Suchvorgänge ist der Wert &quot;0&quot;.
 >
->* `position_type` ist der Block, in dem die Anzeige auf [!DNL Yandex]. Mögliche Werte: &quot;Premium&quot;(oberster Block), &quot;other&quot;(rechter Block) oder &quot;none&quot;(nicht suchbasierter Traffic).
+>* `position_type` ist der Block, in dem die Anzeige auf [!DNL Yandex] angezeigt wurde. Mögliche Werte: &quot;Premium&quot;(oberster Block), &quot;other&quot;(rechter Block) oder &quot;none&quot;(nicht suchbasierter Traffic).
 
 >[!MORELIKETHIS]
 >

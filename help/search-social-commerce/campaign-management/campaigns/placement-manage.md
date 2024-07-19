@@ -1,49 +1,49 @@
 ---
-title: Verwalten [!DNL Google Ads] Platzierungen
-description: Erfahren Sie, wie Sie bidbare Platzierungen für [!DNL Google Ads] Anzeigengruppen.
-exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+title: Verwalten von [!DNL Google Ads] Platzierungen
+description: Erfahren Sie, wie Sie bidbare Platzierungen für [!DNL Google Ads] Anzeigengruppen erstellen und verwalten.
+exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Verwalten [!DNL Google Ads] Platzierungen
+# Verwalten von [!DNL Google Ads] Platzierungen
 
-*[!DNL Google Ads]Nur Konten*
+*[!DNL Google Ads]nur Konten*
 
-Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) , die das Display-Netzwerk in einem [Synchronisiertes Anzeigennetzkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Sie können Platzierungen für Anzeigengruppen in [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) erstellen und bearbeiten, die auf das Anzeigennetzwerk innerhalb eines [synchronisierten Anzeigennetzwerkkontos](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) abzielen.
 
-## Erstellen [!DNL Google Ads] Platzierungen
+## Erstellen von [!DNL Google Ads] Platzierungen
 
 >[!TIP]
 >
 >Um mehrere Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
 1. 
-   1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
+   1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") .
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie auf **[!UICONTROL Continue]**.
 
 1. Konfigurieren Sie die [Platzierungseinstellungen](#placement-settings).
 
-1. Klicken **[!UICONTROL Post]**.
+1. Klicken Sie auf **[!UICONTROL Post]**.
 
-## Bearbeiten [!DNL Google Ads] Platzierungen
+## [!DNL Google Ads] Platzierungen bearbeiten
 
 >[!TIP]
 >
 >Um viele Platzierungen gleichzeitig zu bearbeiten, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zeile.
 
-   Tipps zur Auswahl mehrerer Zeilen finden Sie unter[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") .
 
@@ -61,13 +61,13 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Sites im Inhaltsnetzwerk, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Die URL darf kein Fragezeichen (`?`). **Hinweis:** Sie können [Website-Platzierungen ausschließen](placement-negative-create.md) aus dem [!UICONTROL Placements] > [!UICONTROL Negatives] und in den Einstellungen für Anzeigengruppe und Kampagne anzeigen.
+**[!UICONTROL Placements]:** Sites im Inhaltsnetzwerk, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Die URL darf kein Fragezeichen (`?`) enthalten. **Hinweis:** Sie können [Website-Platzierungen](placement-negative-create.md) aus der Ansicht [!UICONTROL Placements] > [!UICONTROL Negatives] sowie aus den Anzeigengruppen- und Kampagneneinstellungen ausschließen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (um Gebote zu aktivieren; Standardeinstellung) *Angehalten* (um Gebote zu deaktivieren) oder *Gelöscht* (um die Platzierung zu löschen; nur vorhandene Platzierungen).
+**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (zur Aktivierung von Geboten; Standard), *Ausgesetzt* (zur Deaktivierung des Gebots) oder *Gelöscht* (zum Löschen der Platzierung; nur vorhandene Platzierungen).
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** (Optional) Die maximalen Kosten pro Klick (CPC) oder Kosten pro tausend sichtbaren Impressionen (vCPM) für die platzierungsbasierte Anzeige, je nach Kampagnen-Angebotsstrategie. Dieser Wert überschreibt das Angebot auf Anzeigengruppenebene.
+**[!UICONTROL Bid]:** (Optional) Die maximalen Kosten pro Klick (CPC) oder Kosten pro tausend sichtbaren Impressionen (vCPM) für die platzierungsbasierte Anzeige, je nach Kampagnenangebotsstrategie. Dieser Wert überschreibt das Angebot auf Anzeigengruppenebene.
 
 <!-- If the placement is in a standard optimized portfolio, then the specified bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations. -->
 
@@ -87,6 +87,6 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützte Kampagnentypen]
 
 >[!MORELIKETHIS]
 >
->* [Informationen zu Platzierungen](placement-about.md)
+>* [Über Platzierungen](placement-about.md)
 >* [Erstellen negativer Platzierungen](placement-negative-create.md)
 >* [Ändern des Status von Platzierungen und negativen Platzierungen](placement-status-edit.md)

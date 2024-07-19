@@ -1,9 +1,9 @@
 ---
 title: Entfernen von Kampagnen aus einem Portfolio
 description: Erfahren Sie, wie Sie Kampagnen aus einem Portfolio entfernen.
-exl-id: f86ebc10-650c-42ef-b3df-cd707a863c70
+exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -20,18 +20,18 @@ Weitere Informationen zur Optimierung finden Sie im Optimierungshandbuch, das in
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** und suchen Sie dann das Portfolio.
 
-   Sie können die Portfolioliste aus der [!UICONTROL Portfolios] im linken Bereich durch Auswahl einer Portfoliogruppe oder der [!UICONTROL Ungrouped Portfolios] Knoten.
+   Sie können die Portfolioliste aus dem Menü [!UICONTROL Portfolios] im linken Bereich filtern, indem Sie eine Portfoliogruppe oder den Knoten [!UICONTROL Ungrouped Portfolios] auswählen.
 
-1. Klicken Sie neben dem Portfolionamen auf ![Schaltfläche &quot;Einstellungen anzeigen/bearbeiten&quot;](/help/search-social-commerce/assets/settings.png "Schaltfläche &quot;Einstellungen anzeigen/bearbeiten&quot;") .
+1. Klicken Sie neben dem Portfolionamen auf ![Schaltfläche zum Anzeigen/Bearbeiten von Einstellungen](/help/search-social-commerce/assets/settings.png "Schaltfläche zum Anzeigen/Bearbeiten von Einstellungen") .
 
 1. Klicken Sie im linken Menü auf **[!UICONTROL Campaigns]** und entfernen Sie dann die Kampagnen:
 
-   * Um alle zugewiesenen Kampagnen zu entfernen, klicken Sie auf ![Entfernen aller Kampagnen aus dem Portfolio](/help/search-social-commerce/assets/arrow-remove-all.png "Entfernen aller Kampagnen aus dem Portfolio").
+   * Um alle zugewiesenen Kampagnen zu entfernen, klicken Sie auf ![Alle Kampagnen aus dem Portfolio entfernen](/help/search-social-commerce/assets/arrow-remove-all.png "Entfernen aller Kampagnen aus dem Portfolio").
 
-   * Um eine einzelne Kampagne zu entfernen, klicken Sie auf die Kampagne und ziehen Sie sie dann in den [!UICONTROL Available Campaigns] Liste oder Klicken ![Kampagne aus Portfolio entfernen](/help/search-social-commerce/assets/arrow-remove.png "Kampagne aus Portfolio entfernen") .
+   * Um eine einzelne Kampagne zu entfernen, klicken Sie auf die Kampagne und ziehen Sie sie dann entweder in die Liste [!UICONTROL Available Campaigns] oder klicken Sie auf ![Kampagne aus dem Portfolio entfernen](/help/search-social-commerce/assets/arrow-remove.png "Kampagne aus Portfolio entfernen") .
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Kampagnen einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
+>* [Zuweisen von Kampagnen zu einem Portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)

@@ -1,9 +1,9 @@
 ---
 title: Modellexaktionsbericht generieren
 description: Erfahren Sie, wie Sie Berichte zur Modellgenauigkeit erstellen.
-exl-id: 2ae8b344-7c05-4208-9457-174efd05fe53
+exl-id: 84a32782-e141-45bc-87df-c7b82d0e8ad0
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]** halten Sie den Cursor darüber. **[!UICONTROL Model Accuracy]** und klicken Sie dann auf den Berichtstyp.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf &quot;**[!UICONTROL Create Report]**&quot;, halten Sie den Cursor über &quot;**[!UICONTROL Model Accuracy]**&quot;und klicken Sie dann auf den Berichtstyp.
 
-1. (Optional) Im [!UICONTROL Report Settings] -Fenster, Standardeinstellung ändern [Berichtseinstellungen](forecast-accuracy-report.md):
+1. (Optional) Ändern Sie im Fenster [!UICONTROL Report Settings] die standardmäßigen [Berichtseinstellungen](forecast-accuracy-report.md):
 
    1. (Optional) Geben Sie einen benutzerdefinierten Namen für den Bericht und die Vorlage ein (wenn Sie den Bericht als Vorlage speichern).
 
-   1. (Optional) Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
+   1. (Optional) Um die Berichtseinstellungen als Vorlage zu speichern, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
 
-   1. (Optional) Auf der Registerkarte **[!UICONTROL Basic Settings]** eine vorhandene Berichtsvorlage auswählen, um die Standardeinstellungen für den Bericht zu verwenden oder zu ändern.
+   1. (Optional) Wählen Sie auf der Registerkarte **[!UICONTROL Basic Settings]** eine vorhandene Berichtsvorlage aus, um die Standardeinstellungen für den Bericht zu verwenden oder zu ändern.
 
-   1. ([!UICONTROL Forecast Accuracy Report] nur; optional) Klicken Sie auf **[!UICONTROL Columns tab]** und ändern Sie die Standardspalten im Bericht.
+   1. ([!UICONTROL Forecast Accuracy Report] only; optional) Klicken Sie auf den **[!UICONTROL Columns tab]** und ändern Sie die Standardspalten im Bericht.
 
-   1. ([!UICONTROL Forecast Accuracy Report] nur; optional) Klicken Sie auf **[!UICONTROL Advanced Filters]** und ändern Sie die erweiterten Standardoptionen.
+   1. ( Nur [!UICONTROL Forecast Accuracy Report]; optional) Klicken Sie auf die Registerkarte **[!UICONTROL Advanced Filters]** und ändern Sie die erweiterten Standardoptionen.
 
-   1. (Optional) Klicken Sie auf die **[!UICONTROL Attribution]** und ändern Sie die standardmäßige Zuordnungsregel.
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Attribution]** und ändern Sie die standardmäßige Zuordnungsregel.
 
-   1. (Optional) Klicken Sie auf die **[!UICONTROL Scheduling and Delivery]** und ändern Sie die standardmäßigen Zeitplan- und Bereitstellungsoptionen.
+   1. (Optional) Klicken Sie auf den Tab **[!UICONTROL Scheduling and Delivery]** und ändern Sie die standardmäßigen Zeitplan- und Bereitstellungsoptionen.
 
-1. Klicken **[!UICONTROL Create]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
-Wenn Sie keinen Berichtsplan festgelegt haben, wird der Bericht sofort ausgeführt. Andernfalls wird er gemäß dem festgelegten Zeitplan ausgeführt. Der Berichtsname wird dem [[!UICONTROL Latest Reports] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch zum [[!UICONTROL Templates] Ansicht](/help/search-social-commerce/reports/report-about.md). Wenn der Bericht abgeschlossen ist, kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
+Wenn Sie keinen Berichtsplan festgelegt haben, wird der Bericht sofort ausgeführt. Andernfalls wird er gemäß dem festgelegten Zeitplan ausgeführt. Der Berichtsname wird der [[!UICONTROL Latest Reports] Ansicht](/help/search-social-commerce/reports/report-about.md) hinzugefügt. Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch zur [[!UICONTROL Templates] Ansicht](/help/search-social-commerce/reports/report-about.md) hinzugefügt. Wenn der Bericht abgeschlossen ist, kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
 
-Wenn Sie eine E-Mail-Adresse zur Benachrichtigung eingegeben haben, erhält jeder Empfänger eine Benachrichtigung, wenn der Berichtsauftrag abgeschlossen ist oder aufgrund des Benutzerverhaltens fehlschlägt [konfigurierte Benachrichtigungseinstellungen](/help/search-social-commerce/notifications/notification-edit.md) für Berichte.
+Wenn Sie E-Mail-Adressen zur Benachrichtigung eingegeben haben, erhält jeder Empfänger eine Benachrichtigung, wenn der Berichtsauftrag abgeschlossen ist oder fehlschlägt. Dies basiert auf den [konfigurierten Benachrichtigungseinstellungen](/help/search-social-commerce/notifications/notification-edit.md) des Benutzers für Berichte.
 
 >[!MORELIKETHIS]
 >
 >* [Über Berichte zur Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [Die [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Der [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [Der [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Berichte löschen](/help/search-social-commerce/reports/management/report-delete.md)

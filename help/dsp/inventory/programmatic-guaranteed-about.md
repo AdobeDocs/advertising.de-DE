@@ -22,7 +22,7 @@ Ein programmgesteuertes garantiertes (PG) Geschäft ist ein garantierter Kauf di
 * In der Regel hat der Deal eine höhere Priorität auf dem Adserver des Herausgebers.
 * Angebotsanfragen schließen sich nicht nur einem Einzelgeschäft oder Käufer aus.
 * Für eine einzige Deal-ID werden mehrere Arten von Videos unterstützt.
-* Von Herausgebern verwaltete Anzeigen werden über [!DNL Google Authorized Buyers] SSP.
+* Von Herausgebern verwaltete Anzeigen werden über [!DNL Google Authorized Buyers] SSP akzeptiert.
 * Die SSPs und Herausgeber verfügen über Bereitstellungs-SLAs.
 
 Für PG-Angebote sind eine PG-Standardplatzierung und -Anzeigen (oder ein 1x1-Pixel für publisher verwaltete Anzeigen) erforderlich, damit DSP eine Anfrage an jede Angebotsanforderung senden und Bereitstellungs-SLAs mit den SSPs erfüllen kann. Nachdem Sie die obligatorische PG-Standardplatzierung eingerichtet haben, können Sie den PG-Deal auch in anderen Platzierungen als Ziel auswählen.
@@ -39,7 +39,7 @@ Für PG-Angebote sind eine PG-Standardplatzierung und -Anzeigen (oder ein 1x1-Pi
 
 >[!MORELIKETHIS]
 >
->* [Tipps für die Aushandlung eines programmgesteuerten &quot;garantierten Angebots&quot;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](programmatic-guaranteed-set-up.md)
+>* [Tipps für die Aushandlung eines programmatischen Garantierten Angebots](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Einrichten eines programmgesteuerten Garantierten Deals](programmatic-guaranteed-set-up.md)
 >* [SSP-Partner](ssp-partners.md)
->* [Übersicht über die Funktionen des Bestands](inventory-overview.md)
+>* [Überblick über die Inventarfunktionen](inventory-overview.md)

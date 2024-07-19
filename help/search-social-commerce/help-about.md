@@ -1,9 +1,9 @@
 ---
 title: Informationen zu diesem Handbuch
 description: Erfahren Sie, was in den einzelnen Kapiteln dieses Handbuchs behandelt wird.
-exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Informationen zu bestimmten Gruppen von Aufgaben und weitere Informationen finde
 
 * In &quot;Einblicke und Berichte&quot;wird erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte generieren und die Berichtproduktion automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und netzwerkgenerierte Empfehlungen für Ihre Konten anzeigen und anwenden können.
 
-* &quot;Tools&quot;erläutert, wie Sie Ihr Kennwort ändern, Tools zum Generieren von Klick-Tracking- und Konversions-Tracking-Tags verwenden und Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele an die Werbenetzwerke zur Hybridoptimierung weiterleiten, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising] Konten.
+* In &quot;Tools&quot;wird beschrieben, wie Sie Ihr Kennwort ändern, Tools zum Generieren von Klick-Tracking- und Konversions-Tracking-Tags verwenden, Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele zur Hybrid-Optimierung in die Anzeigennetzwerke hochladen, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads]-Kampagnen in Ihren [!DNL Microsoft Advertising]-Konten replizieren.
 
-* &quot;Administration&quot;erläutert, wie Advertiser-Daten verwaltet werden, einschließlich der erfassten Konversionsmetriken und aller Daten, die aus Portfolioprognosen ausgeschlossen werden sollen. Synchronisieren Sie Ihre Konversionsmetriken mit einer [!DNL Google Analytics] -Konto; konfigurieren Sie verschiedene Einstellungen auf Advertiser-Ebene und verwalten (einige Rollen) Benutzer-, Agentur- und Advertiser-Konten.
+* In &quot;Administration&quot;wird beschrieben, wie Sie Advertiser-Daten verwalten, einschließlich der erfassten Konversionsmetriken und aller Datumsangaben, die aus Portfolioprognosen ausgeschlossen werden sollen. Sie können Ihre Konversionsmetriken mit einem [!DNL Google Analytics] -Konto synchronisieren, verschiedene Einstellungen auf Advertiser-Ebene konfigurieren und (einige Rollen) Benutzer-, Agentur- und Advertiser-Konten verwalten.
 
 >[!NOTE]
 >
->Die Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Gebote, ist im Abschnitt [!UICONTROL Help] Menü (![Hilfe-Menü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")) oben rechts auf einer beliebigen Seite in Search, Social und Commerce.
+>Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Angebote, ist über das Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")) oben rechts auf jeder Seite in Search, Social und Commerce verfügbar.

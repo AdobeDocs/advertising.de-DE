@@ -1,9 +1,9 @@
 ---
 title: Landingpages der Website optimieren
 description: Erfahren Sie mehr über Best Practices zur Optimierung Ihrer Landingpages auf Ihrer Website.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Um das Benutzererlebnis und die Konversionsraten zu verbessern, ist es wichtig, 
 
 >[!NOTE]
 >
->Search, Social und Commerce bietet Anbietern mit Managed-Service-Verträgen kostenlose Landingpage-Tests.
+>Search, Social und Commerce bieten Advertisern mit Managed-Service-Verträgen kostenlose Landingpage-Tests an.
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ Im Folgenden finden Sie einige Richtlinien zum Entwerfen von Landingpages, die e
 
 * Verwenden Sie ein gutes Seitendesign. Ein gutes Design kann sofort Vertrauen, ein Gefühl der Vertrautheit und Glaubwürdigkeit hervorrufen. Passen Sie Ihre Formular-Schaltflächen an, damit sie besser sichtbar sind. Verwenden Sie nicht die standardmäßige, vom Browser generierte Schaltfläche mit dem Wort &quot;Senden&quot;. Verwenden Sie ein zweispaltiges Layout, wobei das umsetzbare Element in der Hauptspalte und die unterstützenden Informationen in der zweiten Spalte enthalten sind.
 
-* Geben Sie Glaubwürdigkeit und Sicherheitsindikatoren an. Logos und Siegel helfen, die Angst der Besucher zu verringern. Dazu gehören [!DNL Verisign], [!DNL BBB] Logo, [!DNL eTrust], [!DNL HackerSafe], Zufriedenheitsgarantien, Geld-zurück-Angebote usw. Schließen Sie bei der Erfassung von Informationen eine Datenschutzanweisung ein. Positionieren Sie diese Indikatoren so nah wie möglich am umsetzbaren Element.
+* Geben Sie Glaubwürdigkeit und Sicherheitsindikatoren an. Logos und Siegel helfen, die Angst der Besucher zu verringern. Dazu gehören [!DNL Verisign], [!DNL BBB] Logo, [!DNL eTrust], [!DNL HackerSafe], Zufriedenheitsgarantien, Rückerstattungsangebote usw. Schließen Sie bei der Erfassung von Informationen eine Datenschutzanweisung ein. Positionieren Sie diese Indikatoren so nah wie möglich am umsetzbaren Element.
 
 * Bieten Sie einen Anreiz, wie kostenlosen Versand, Geschenke, Rabatte oder einen kostenlosen Bericht oder eBook. Ein Besucher, der auf eine Landingpage klickt, kauft um und benötigt einen Anreiz, auf einer Seite zu bleiben und das Angebot zu vervollständigen. Der Anreiz sollte eines der bemerkenswertesten Elemente auf der Seite sein.
 
@@ -52,9 +52,9 @@ Im Folgenden finden Sie einige Richtlinien zum Entwerfen von Landingpages, die e
 
 ## Auswirkungen von Landingpages testen
 
-Um die Auswirkungen der Landingpage zu sehen (wenn alles andere konstant ist), führen Sie [die [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), der die Anzeigen-URL und die Basis-/EndURL- oder Ziel-URL für jede Anzeige enthält.
+Um die Auswirkungen einer Änderung der Landingpage zu sehen (wenn alles andere konstant ist), führen Sie [die  [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) aus, die die Anzeigen-URL und die Basis-/EndURL oder Ziel-URL für jede Anzeige enthält.
 
 >[!MORELIKETHIS]
 >
->* [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
->* [Effektive Textanzeigenkopie schreiben](best-practices-write.md)
+>* [Analysieren Sie Berichte, um Ihre Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
+>* [Effektives Schreiben von Text und Kopie](best-practices-write.md)

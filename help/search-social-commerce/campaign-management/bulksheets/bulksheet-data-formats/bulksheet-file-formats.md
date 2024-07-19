@@ -1,11 +1,11 @@
 ---
 title: Unterstützte Massendateiformate
 description: Referenzieren Sie die allgemeinen Dateianforderungen für Bulksheets.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Wenn Sie ein Bulksheet erstellen/herunterladen, wird es im angegebenen Dateiform
 
 ## Grundlegender Inhalt eines Bulksheets
 
-Der erste Datensatz (Zeile) einer Bulksheet-Datei enthält eine Reihe spezifischer Spaltennamen, die zusammen als <i>header</i>. Die Spaltennamen in der Kopfzeile sind in einer angegebenen Reihenfolge und entsprechen jedem der Felder in den nachfolgenden Datensätzen. Die in der Kopfzeile erforderlichen Spaltennamen variieren je nach Anzeigennetzwerk.
+Der erste Datensatz (Zeile) einer Bulksheet-Datei enthält eine Reihe spezifischer Spaltennamen, die zusammen als <i>header</i> bezeichnet werden. Die Spaltennamen in der Kopfzeile sind in einer angegebenen Reihenfolge und entsprechen jedem der Felder in den nachfolgenden Datensätzen. Die in der Kopfzeile erforderlichen Spaltennamen variieren je nach Anzeigennetzwerk.
 
 Jeder nachfolgende Datensatz (Zeile) enthält Daten, wobei Felder Werte (oder keine Werte) für jede Spalte in der Kopfzeile enthalten.
 
@@ -35,7 +35,7 @@ Bulksheet-Dateien können bis zu 2,5 GB groß sein, was etwa 2,5 Millionen Zeile
 
 >[!NOTE]
 >
->Wenn Sie ein Bulksheet für mehrere Kampagnen generieren und die kombinierten Daten aus mehr als 500.000 Zeilen bestehen, werden die Daten nach Kampagne in zwei oder mehr Dateien mit dem Namen `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`usw.
+>Wenn Sie ein Bulksheet für mehrere Kampagnen generieren und die kombinierten Daten aus mehr als 500.000 Zeilen bestehen, werden die Daten nach Kampagne in zwei oder mehr Dateien mit den Namen `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv` usw. aufgeteilt.
 
 ## Formatierungsanforderungen für verschiedene Dateitypen
 
@@ -59,25 +59,25 @@ Datenfelder in CSV-Dateien und TXT-Dateien, die durch Kommas getrennt sind, müs
 
   Beispiel: `Cruises,5000,Caribbean,,,`
 
-* Jedes Feld kann optional in doppelte Anführungszeichen (`""`).
+* Jedes Feld kann optional in doppelte Anführungszeichen (`""`) gesetzt werden.
 
-  Beispiel:  `"Cruises","5000","Caribbean",`
+  Beispiel: `"Cruises","5000","Caribbean",`
 
-* Felder mit eingebetteten Kommas müssen in doppelte Anführungszeichen (`""`).
+* Felder mit eingebetteten Kommas müssen in doppelte Anführungszeichen (`""`) gesetzt werden.
 
   Beispiel: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
-* Felder mit eingebetteten doppelten Anführungszeichen müssen in doppelte Anführungszeichen (`""`).
+* Felder mit eingebetteten doppelten Anführungszeichen müssen in doppelte Anführungszeichen (`""`) gesetzt werden.
 
   Beispiel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
-* Felder mit vorangestellten oder nachfolgenden Leerzeichen müssen in doppelte Anführungszeichen (`""`).
+* Felder mit vorangestellten oder nachfolgenden Leerzeichen müssen in doppelte Anführungszeichen (`""`) gesetzt werden.
 
   Beispiel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](../bulksheet-about.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](../bulksheet-about.md)
 >* [Vorgänge, die Sie in Bulksheets ausführen können](bulksheet-operations.md)
 >* [Anhang - Bulksheet-Fehler](../bulksheet-errors.md)
->* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
+>* [Herunterladen/Erstellen einer Bulksheet-Datei](../bulksheet-download.md)

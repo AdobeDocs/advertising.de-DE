@@ -1,9 +1,9 @@
 ---
 title: Benachrichtigung als gelesen oder ungelesen markieren
 description: Erfahren Sie, wie Sie angeben können, ob Sie eine Benachrichtigung gelesen haben oder nicht.
-exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+exl-id: b6f35d37-819c-489d-aca6-a0753e82e7fd
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Benachrichtigung als *lesen* oder *unread* ändert die Anzahl der ungelesenen Benachrichtigungen, die in der [!UICONTROL Notifications] -Link am oberen Rand jeder Seite (z. B. ![Benachrichtigungssymbol mit Zähler für nicht gelesene Benachrichtigungen](/help/search-social-commerce/assets/notifications-unread.png "Benachrichtigungssymbol mit Zähler für nicht gelesene Benachrichtigungen")).
+Durch die Kennzeichnung einer Benachrichtigung als *Lesen* oder *Ungelesen* wird die Anzahl der ungelesenen Benachrichtigungen geändert, die oben auf jeder Seite im Link [!UICONTROL Notifications] angezeigt werden (z. B. ![Benachrichtigungssymbol mit Zähler für nicht gelesene Benachrichtigungen](/help/search-social-commerce/assets/notifications-unread.png "Benachrichtigungssymbol mit Zähler für nicht gelesene Benachrichtigungen")).
 
-Benachrichtigungen als *lesen* in hellerem Text angezeigt werden, aber verfügbar bleiben, bis Sie sie löschen.
+Benachrichtigungen, die als *gelesen* gekennzeichnet sind, sind in hellerem Text enthalten, bleiben jedoch verfügbar, bis Sie sie löschen.
 
-![Benachrichtigungen lesen und nicht lesen](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Benachrichtigungen lesen und nicht lesen")
+![Lesen und Ungelesen-Benachrichtigungen](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Lesen und Ungelesen-Benachrichtigungen")
 
-1. [Benachrichtigungsbereich oder Benachrichtigungszentrum öffnen](notification-view.md).
+1. [Öffnen Sie das Benachrichtigungsfenster oder das Benachrichtigungszentrum](notification-view.md).
 
-1. Halten Sie den Cursor über den Warnungsnamen und klicken Sie auf ![Als gelesen oder ungelesen markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+1. Halten Sie den Cursor über den Warnungsnamen und klicken Sie auf ![Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als &quot;Gelesen&quot;oder &quot;Ungelesen&quot;markieren").
 
 >[!MORELIKETHIS]
 >
 >* [Über Benachrichtigungen](/help/search-social-commerce/notifications/notification-about.md)
->* [Anzeigen von Benachrichtigungen](notification-view.md)
->* [Benachrichtigung löschen](notification-delete.md)
->* [Benachrichtigungseinstellungen bearbeiten](notification-edit.md)
->* [Push-Benachrichtigungen aktivieren und deaktivieren von [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
+>* [Anzeigen Ihrer Benachrichtigungen](notification-view.md)
+>* [Löschen einer Benachrichtigung](notification-delete.md)
+>* [Bearbeiten der Benachrichtigungseinstellungen](notification-edit.md)
+>* [Push-Benachrichtigungen von [!UICONTROL Notification Center]](notifications-push-enable-disable.md) aktivieren und deaktivieren
+>* [Installieren und Deinstallieren der [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)

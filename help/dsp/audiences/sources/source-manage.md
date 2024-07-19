@@ -20,7 +20,7 @@ Sie können später die universellen ID-Typen ändern, in die die Quellzielgrupp
 
 Sie können auch eine Quelle löschen.
 
-## Erstellen einer Zielgruppenquelle
+## Erstellen einer Audience Source
 
 <!-- Not sure about this
 
@@ -30,11 +30,11 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Klicks **[!UICONTROL Add Source]**.
+1. Klicken Sie auf **[!UICONTROL Add Source]**.
 
-1. Im [!UICONTROL Select a Type] Menü, wählen Sie Ihre [Kundendatenplattform](source-about.md):
+1. Wählen Sie im Menü [!UICONTROL Select a Type] Ihre [Kundendatenplattform](source-about.md) aus:
 
-   * *[!UICONTROL RT-CDP]*: Die [!DNL Adobe Real-Time Customer Data Platform].
+   * *[!UICONTROL RT-CDP]*: Der [!DNL Adobe Real-Time Customer Data Platform].
 
    * *[!UICONTROL ActionIQ]*: Die [!DNL ActionIQ] Kundendatenplattform.
 
@@ -44,19 +44,19 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Tealium CDP]*: (Nur konfigurierte Benutzer) Die [!DNL Tealium] Kundendatenplattform.
 
-1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]*.
+1. Geben Sie die [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* oder *[!UICONTROL Account]* an.
 
-1. Den Rest eingeben [Quelleinstellungen](#source-settings).
+1. Geben Sie die restlichen [Quelleinstellungen](#source-settings) ein.
 
-   Eine Kopie der [!UICONTROL Source Key] wird generiert. Du wirst den Wert später benötigen.
+   Behalten Sie eine Kopie der generierten [!UICONTROL Source Key] bei. Du wirst den Wert später benötigen.
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte ausführen, um Ihre Zielgruppe zu importieren. Siehe [Workflow für [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> die [Workflow für [!DNL Amperity]](source-amperity.md), die [Workflow für [!DNL Optimizely]](source-optimizely.md)und die [Workflow für [!DNL Tealium]](source-tealium.md).
+>Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte ausführen, um Ihre Zielgruppe zu importieren. Siehe den [Workflow für  [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), <!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> den [Workflow für  [!DNL Amperity]](source-amperity.md), den [Workflow für  [!DNL Optimizely]](source-optimizely.md) und den [Workflow für  [!DNL Tealium]](source-tealium.md).
 
-## Ändern der ID-Typen für eine Zielgruppenquelle
+## Ändern der ID-Typen für eine Audience Source
 
 <!-- Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
@@ -71,11 +71,11 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Halten Sie den Cursor über die Quellzeile und klicken Sie auf **[!UICONTROL Edit]**.
 
-1. Ändern Sie die [Für die Quelle ausgewählte IDs](#source-settings).
+1. Ändern Sie die für die Quelle ausgewählten [IDs](#source-settings).
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Eine Zielgruppenquelle löschen
+## Löschen von Audience Source
 
 Durch Löschen einer Quelle werden die über die Quelle übersetzten Segmente entfernt.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
@@ -83,9 +83,9 @@ Durch Löschen einer Quelle werden die über die Quelle übersetzten Segmente en
 
 1. Halten Sie den Cursor über die Quellzeile und klicken Sie auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Delete]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
-## Anzeigen des Änderungsprotokolls für eine Zielgruppenquelle
+## Anzeigen des Änderungsprotokolls für eine Audience Source
 
 Sie können Details zu Änderungen an einem Audience-Quelldatensatz anzeigen und optional Notizen zum Protokoll anhängen.
 
@@ -103,41 +103,41 @@ Sie können Details zu Änderungen an einem Audience-Quelldatensatz anzeigen und
 
 1. (Optional) Um das Protokoll in einem größeren Detailbildschirm zu öffnen, halten Sie den Cursor über die Quellzeile und klicken Sie auf **[!UICONTROL View Details]**.
 
-## Einstellungen der Zielgruppenquelle {#source-settings}
+## Audience Source-Einstellungen {#source-settings}
 
-**[!UICONTROL Data Visibility Level]:** Gibt an, ob die Segmente für einen einzelnen Advertiser mit Zugriff auf das Konto verfügbar sind (*[!UICONTROL Advertiser]*) oder für alle Advertiser mit Zugriff auf das Konto *[!UICONTROL Account]*.
+**[!UICONTROL Data Visibility Level]:** Gibt an, ob die Segmente für einen einzelnen Advertiser mit Zugriff auf das Konto (*[!UICONTROL Advertiser]*) oder für alle Advertiser mit Zugriff auf das Konto verfügbar sind *[!UICONTROL Account]*.
 
 **[!UICONTROL Advertiser]:** (Nur Sichtbarkeit auf Advertiser-Ebene) Der Advertiser, für den die Segmente verfügbar sind. Wählen Sie einen aus der Liste der Advertiser mit Zugriff auf das Konto aus.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] Nur -Quellen) Die Adobe Experience Cloud-Organisations-ID für die [!DNL Adobe Experience Platform] -Konto.
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] nur Quellen) Die Adobe Experience Cloud-Organisations-ID für das [!DNL Adobe Experience Platform]-Konto.
 
-**[!UICONTROL Convert PII to the following IDs]:** Die ID-Typen, in die Sie Ihre personenbezogenen Daten (PII) konvertieren. Wenn Sie mehrere Typen auswählen, wird das generierte Segment mit Werten für jeden ausgewählten ID-Typ aufgefüllt (z. B. eine [!DNL RampID] und [!DNL Unified ID2.0] für jede E-Mail-Adresse). Die Datengebühren werden entsprechend angewendet.
+**[!UICONTROL Convert PII to the following IDs]:** Die ID-Typen, in die Sie Ihre personenbezogenen Daten (PII) konvertieren. Wenn Sie mehrere Typen auswählen, wird das generierte Segment mit Werten für jeden ausgewählten ID-Typ gefüllt (z. B. [!DNL RampID] und ein [!DNL Unified ID2.0] für jede E-Mail-Adresse). Die Datengebühren werden entsprechend angewendet.
 
-Für [!DNL RampID] und [!DNL Unified ID2.0]sucht der Anbieter jede E-Mail-Adresse, um zu sehen, ob bereits eine ID vorhanden ist, und übersetzt die Adresse in eine passende ID, sofern verfügbar. Wenn für die Adresse keine ID vorhanden ist, wird eine neue ID erstellt.
+Bei [!DNL RampID] und [!DNL Unified ID2.0] sucht der Anbieter jede E-Mail-Adresse, um zu sehen, ob bereits eine ID vorhanden ist, und übersetzt die Adresse in eine übereinstimmende ID, sofern verfügbar. Wenn für die Adresse keine ID vorhanden ist, wird eine neue ID erstellt.
 
 >[!NOTE]
 >
->Sie können nur einen ID-Typ in einer Platzierung als Ziel auswählen. So testen Sie die Leistung nach ID-Typ: [Erstellen einer separaten Platzierung](/help/dsp/campaign-management/placements/placement-create.md) für jeden ID-Typ im Segment.
+>Sie können nur einen ID-Typ in einer Platzierung als Ziel auswählen. Um die Leistung nach ID-Typ zu testen, erstellen Sie [eine separate Platzierung](/help/dsp/campaign-management/placements/placement-create.md) für jeden ID-Typ im Segment.
 
-* *[!DNL RampID]:* So konvertieren Sie PII in eine [!DNL RampID]. Sie können [!DNL RampIDs] für Benutzer, die sich erneut anmelden, und für [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Messung.
+* *[!DNL RampID]:* So konvertieren Sie personenbezogene Daten in eine [!DNL RampID]. Sie können [!DNL RampIDs] für die Retargeting-Anmeldung und für die Messung [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) verwenden.
 
-* *[!DNL Unified ID2.0](Beta):* So konvertieren Sie PII in eine [Unified ID 2.0](https://unifiedid.com) ID für Benutzer, die sich erneut anmelden.
+* *[!DNL Unified ID2.0](Beta):* So konvertieren Sie personenbezogene Daten in eine [einheitliche ID 2.0](https://unifiedid.com)-ID für Benutzer, die sich erneut anmelden.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
 
-**[!UICONTROL Terms of Service]:** Die Vertragsbedingungen für die Konvertierung von personenbezogenen Daten in universelle IDs. Sie oder ein anderer Benutzer im DSP müssen die Bedingungen einmal akzeptieren, bevor Sie Daten in einen neuen ID-Typ konvertieren können. Für Kunden mit verwalteten Serviceverträgen erhält Ihr Adobe Account Team Ihre Einwilligung und akzeptiert die Bedingungen im Namen Ihres Unternehmens. Um die Begriffe zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum unteren Rand der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** Die Nutzungsbedingungen für die Konvertierung von personenbezogenen Daten in universelle IDs. Sie oder ein anderer Benutzer im DSP müssen die Bedingungen einmal akzeptieren, bevor Sie Daten in einen neuen ID-Typ konvertieren können. Für Kunden mit verwalteten Serviceverträgen erhält Ihr Adobe Account Team Ihre Einwilligung und akzeptiert die Bedingungen im Namen Ihres Unternehmens. Um die Begriffe zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum unteren Rand der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (Schreibgeschützt; automatisch generiert) Der Quellschlüssel, mit dem Sie eine Zielverbindung in der Kundendatenplattform erstellen können, um Zielgruppen an Advertising DSP zu leiten. Sie können den Wert in die Zwischenablage kopieren, um ihn in die Zielverbindungseinstellungen oder in eine Datei einzufügen.
+**[!UICONTROL Source Key]:** (Schreibgeschützt; automatisch generiert) Der Quellschlüssel, den Sie zum Erstellen einer Zielverbindung in der Kundendatenplattform verwenden können, um Zielgruppen an Advertising DSP zu senden. Sie können den Wert in die Zwischenablage kopieren, um ihn in die Zielverbindungseinstellungen oder in eine Datei einzufügen.
 
 >[!MORELIKETHIS]
 >
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
->* [Unterstützung für die Aktivierung von universellen IDs](/help/dsp/audiences/universal-ids.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md)
->* [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
+>* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
+>* [Konvertieren von Benutzer-IDs aus  [!DNL Adobe Real-Time CDP] in universelle IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertieren von Benutzer-IDs aus  [!DNL Amperity] in universelle IDs](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertieren von Benutzer-IDs aus  [!DNL Optimizely] in universelle IDs](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertieren von Benutzer-IDs aus  [!DNL Tealium] in universelle IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Über Zielgruppen-Management](/help/dsp/audiences/audience-about.md)

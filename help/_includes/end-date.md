@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Enddatum in einigen Kampagneneinstellungen und den Einstellungen der MS-Anzeigengruppe
 
-**[!UICONTROL End date]:** Das letzte Datum, an dem Gebote abgegeben werden können. Der Standardwert ist *Kein Enddatum*. Um Angebote bis zu einem bestimmten Datum einzureichen, geben Sie ein Datum im Format MM/TT/JJJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png) und wählen Sie ein Datum aus.
+**[!UICONTROL End date]:** Das letzte Datum, an dem Gebote platziert werden können. Der Standardwert ist *Kein Enddatum*. Um Angebote bis zu einem bestimmten Datum einzureichen, geben Sie ein Datum im Format MM/TT/JJJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png) und wählen Sie ein Datum aus.

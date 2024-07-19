@@ -7,9 +7,10 @@ ht-degree: 0%
 ---
 # Feld &quot;Inventarfilter&quot;in den Einstellungen für GGL- und MS-Shopping-Kampagnen
 
-**[!UICONTROL Inventory Filter]:** (Nur Shopping-Kampagnen; (optional) Produkte mit bestimmten Attributen, die für die Kampagne beworben werden sollen. Wenn Sie keine Inventarfilter angeben, kann das Werbenetzwerk jedes Produkt in Ihrem Geschäft bewerben.
+**[!UICONTROL Inventory Filter]:** (Nur Shopping-Kampagnen; optional) Produkte mit bestimmten Attributen, die für die Kampagne werben sollen. Wenn Sie keine Inventarfilter angeben, kann das Werbenetzwerk jedes Produkt in Ihrem Geschäft bewerben.
 
-Sie können bis zu sieben Produktdimensionen- und -attribute-Kombinationen eingeben, nach denen Ihre Produkte gefiltert werden sollen. Verwenden Sie dazu das folgende Format: `dimension=attribute`. Trennen Sie mehrere Filter durch ein &quot;`>>`&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter[Produktfilter für Shopping-Kampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;
+Sie können bis zu sieben Kombinationen aus Produktdimension und -attribut eingeben, nach denen Ihre Produkte gefiltert werden sollen, wobei das Format `dimension=attribute` verwendet wird. Mehrere Filter trennen
+mit dem Trennzeichen &quot;`>>`&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[Produktfilter für Shopping-Kampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;.
 
 Das folgende Beispiel zeigt Anzeigen für Acme-Heimtiervorräte:
 

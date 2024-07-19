@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # FTP-Zugriff auf Berichte
 
-Sie können optional Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (z. B. um die Daten mit einem anderen Programm zu analysieren). Alle Basisberichte außer [!UICONTROL Search Engine Account Report] und alle erweiterten Berichte können als komprimierte TSV-Dateien (Standard) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
+Sie können optional Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (z. B. um die Daten mit einem anderen Programm zu analysieren). Alle grundlegenden Berichte mit Ausnahme von [!UICONTROL Search Engine Account Report] und alle erweiterten Berichte können als komprimierte TSV-Dateien (Standard) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
 
 Für den FTP-Zugriff auf Berichte ist der Zugriff auf ein bestimmtes FTP-Konto erforderlich. Außerdem müssen Sie Berichtsvorlagen mithilfe einer bestimmten Namenskonvention und eines Zeitplans einrichten.
 
@@ -24,11 +24,11 @@ Für den FTP-Zugriff auf Berichte ist der Zugriff auf ein bestimmtes FTP-Konto e
 
 ## Berichtsvorlagen für den FTP-Versand einrichten
 
-Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie eine [Berichtsvorlage](templates/template-create.md) mit den folgenden Benennungskonventionen und -zeitplänen.
+Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie eine [Berichtsvorlage](templates/template-create.md) mit den folgenden Benennungskonventionen und dem folgenden Zeitplan.
 
 >[!NOTE]
 >
->Alle erweiterten Berichte und alle Basisberichte außer [!UICONTROL Search Engine Account Report] kann an einen FTP-Speicherort bereitgestellt werden.
+>Alle erweiterten Berichte und alle grundlegenden Berichte mit Ausnahme von [!UICONTROL Search Engine Account Report] können an einen FTP-Speicherort gesendet werden.
 
 1. Schließen Sie in der Berichtsvorlage an einer beliebigen Stelle im Vorlagennamen die folgenden Informationen ein:
 
@@ -36,11 +36,11 @@ Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstelle
 
    * (Optional) Jedes der drei Systemdaten unter Verwendung der folgenden Syntax, bei der zwischen Groß- und Kleinschreibung unterschieden wird, einschließlich Klammern:
 
-      * `[TODAY]` - So fügen Sie das Datum, die Stunde und die Minute hinzu, in der der Bericht ausgeführt wurde. Da dies die genaue Uhrzeit enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
+      * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, in der der Bericht ausgeführt wurde. Da dies die genaue Uhrzeit enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
 
-      * `[SDATE]` — So fügen Sie das Startdatum des Berichtsdatumsbereichs hinzu.
+      * `[SDATE]` - Um das Startdatum des Berichtsdatumsbereichs einzuschließen.
 
-      * `[EDATE]` — So fügen Sie das Enddatum des Berichtsdatumsbereichs hinzu.
+      * `[EDATE]` - So schließen Sie das Enddatum des Datumsbereichs des Berichts ein.
 
    * (Optional) `[CSV]` (in Großbuchstaben und in Klammern eingeschlossen), um Dateien im CSV-Format und nicht im standardmäßigen TSV-Format zu erstellen.
 
@@ -57,7 +57,7 @@ Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstelle
 
 ## Zugriff auf Berichte in einem FTP-Repository
 
-Um auf Ihre Berichte zuzugreifen, stellen Sie mithilfe der Anmeldedaten für Ihr FTP-Konto (`amo<userID>rpt`, z. B. amo1234rpt) und entweder ein Kennwort oder einen privaten Verbindungsschlüssel, wenn eines eingerichtet ist:
+Um auf Ihre Berichte zuzugreifen, stellen Sie eine Verbindung zu einem der folgenden FTP-Hosts her. Verwenden Sie dazu das Login für Ihr FTP-Konto (`amo<userID>rpt`, z. B. amo1234rpt) und entweder ein Kennwort oder einen privaten Verbindungsschlüssel, falls einer eingerichtet ist:
 
 * Internationale Kunden: `ftp3.adobe.net`
 * US-Kunden: `ftp5.adobe.net`
@@ -69,4 +69,4 @@ Um auf Ihre Berichte zuzugreifen, stellen Sie mithilfe der Anmeldedaten für Ihr
 
 >[!MORELIKETHIS]
 >
->* [Berichtsvorlage erstellen](/help/search-social-commerce/reports/automation/templates/template-create.md)
+>* [Erstellen einer Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-create.md)

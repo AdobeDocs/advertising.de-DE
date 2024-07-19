@@ -1,5 +1,5 @@
 ---
-title: Über Abonnements für Warnhinweise
+title: Über Warnungsanmeldungen
 description: Erfahren Sie mehr über automatische E-Mail-Warnungen.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Über Abonnements für Warnhinweise
+# Über Warnungsanmeldungen
 
 Sie können Gruppen von automatischen E-Mail-Warnungen erstellen, so genannte Abonnements, die E-Mail-Benachrichtigungen senden, wenn die festgelegten Parameter für Konto, Kampagne, Anzeige und private Lagerbestandsgeschäfte erfüllt sind.
 
@@ -62,4 +62,4 @@ Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, 
 
 >[!MORELIKETHIS]
 >
->[Verwalten von Warnungsanmeldungen](alerts-manage.md)
+>[Warnhinweisanmeldungen verwalten](alerts-manage.md)

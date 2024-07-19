@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Advertiser mit nur Adobe Advertising-Konversions-Tracking*
 
-Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und implementieren müssen, finden Sie unter[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
+Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und implementieren müssen, finden Sie unter &quot;[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
 1. Wählen Sie das Konto für das Werbenetzwerk aus der Liste aus.
 
-   ([!DNL Google Ads] Suchbegriffe; Text, Installation mobiler Apps und dynamische Suchanzeigen; Platzierungen; Sitelinks; und Produktgruppen) Trackingtags für das Feld Tracking-Vorlage werden angezeigt. Sie enthalten keine Anlagenparameter auf Kontoebene. Fahren Sie mit Schritt 4 fort.
+   ([!DNL Google Ads] Keywords; Text, Installation mobiler Apps und dynamische Suchanzeigen; Platzierungen; Sitelinks; und Produktgruppen) Trackingtags für das Feld der Tracking-Vorlage werden angezeigt. Sie enthalten keine Anlagenparameter auf Kontoebene. Fahren Sie mit Schritt 4 fort.
 
    Geben Sie für alle anderen Typen von Tags Informationen ein, um ein Tag zu generieren.
 
@@ -32,25 +32,25 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
    1. Geben Sie die Landingpages mit Sitelinks oder Produktnamen auf eine der folgenden Arten an:
 
-      * Geben Sie eine Datei mit den Informationen an, indem Sie den vollständigen Pfad und Dateinamen eingeben oder auf **[!UICONTROL Browse]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen. Die Datei muss eine tabulatorgetrennte Textdatei mit einem Element pro Zeile im folgenden Format sein:
+      * Geben Sie eine Datei mit den Informationen an, indem Sie den vollständigen Pfad und den Dateinamen eingeben oder auf **[!UICONTROL Browse]** klicken, um die Datei auf Ihrem Gerät oder Netzwerk zu suchen. Die Datei muss eine tabulatorgetrennte Textdatei mit einem Element pro Zeile im folgenden Format sein:
 
          * (Kreative, Standardanzeigen) `**landing_page**`
 
-           where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising] Sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-           where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `sitelink` der Sitelink-Name und `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
            Die Datei kann bis zu 10.000 Zeilen enthalten.
 
-         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen und [!DNL Microsoft Advertising] Produktanzeigen) `product name <tab> ** <tab> landing_page`
 
-           where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `product name` der Produktname und `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
@@ -60,29 +60,29 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
          * (Kreative, Standardanzeigen) `landing_page`
 
-           where `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising] Sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
 
-           where `sitelink` ist der Sitelink-Name und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `sitelink` der Sitelink-Name und `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] Produktgruppen [!DNL Microsoft Advertising] Produktanzeigen) `product name**landing_page`
+         * ([!DNL Google Merchant Center] Produktgruppen und [!DNL Microsoft Advertising] Produktanzeigen) `product name**landing_page`
 
-           where `product name` ist der Produktname und `landing_page` ist eine gültige Landingpage-URL oder Basis-URL.
+           wobei `product name` der Produktname und `landing_page` eine gültige Landingpage-URL oder Basis-URL ist.
 
            Beispiel: Acme PR208**http://www.example.com/travel.html
 
-   1. Klicks **[!UICONTROL Generate Tracking URLs]**.
+   1. Klicken Sie auf **[!UICONTROL Generate Tracking URLs]**.
 
 1. (Optional) Kopieren Sie die URLs (beginnend mit &quot;http&quot;oder &quot;https&quot;) von der Bildschirm- oder Ausgabeseite und implementieren Sie sie in das Such- oder Social-Konto.
 
-Geben Sie für Konten mit Ziel-URLs die Werte in der entsprechenden [!UICONTROL Base URL] -Felder.
+Geben Sie bei Konten mit Ziel-URLs die Werte in die entsprechenden Felder [!UICONTROL Base URL] ein.
 
-Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in die entsprechende [!UICONTROL Tracking Template] -Feld. Sie müssen einen Parameter für die endgültige URL nach der `&url=` -Parameter (z. B. `{lpurl}`). Für [!DNL Yahoo! Japan Ads] Konten, den Parameter verwenden `{lpurl}`. Für eine Liste von [!DNL Google Ads] und [!DNL Microsoft Advertising] Parameter, die die endgültigen URLs in Tracking-Vorlagen angeben, finden Sie unter [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe Parameter &quot;Nur Tracking-Vorlage&quot; im Abschnitt &quot;Verfügbar&quot;) [!DNL ValueTrack] Parameter&quot;) und der [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Geben Sie bei Konten mit finalen URLs den Wert auf dem Bildschirm in das entsprechende Feld [!UICONTROL Tracking Template] ein. Sie müssen einen Parameter für die endgültige URL nach dem Parameter `&url=` hinzufügen (z. B. `{lpurl}`). Verwenden Sie für [!DNL Yahoo! Japan Ads] -Konten den Parameter `{lpurl}`. Eine Liste der Parameter [!DNL Google Ads] und [!DNL Microsoft Advertising] zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe die Parameter &quot;Nur Tracking-Vorlage&quot;im Abschnitt &quot;Verfügbare [!DNL ValueTrack] Parameter&quot;) und in der [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

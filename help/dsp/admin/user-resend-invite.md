@@ -5,7 +5,7 @@ role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Administratoren können eine Einladung an einen Benutzer mit ausstehender Einlad
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und klicken Sie anschließend auf **[!UICONTROL Edit users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und dann auf **[!UICONTROL Edit users]**.
 
-1. Im **Einladungen** Abschnitt, klicken Sie auf ![Erneut senden](/help/dsp/assets/resend.png).
+1. Klicken Sie im Abschnitt **Einladungen** auf ![Erneut senden](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >

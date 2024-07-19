@@ -24,13 +24,13 @@ Zeigen Sie die empfohlenen Aktionen und eine Erläuterung, warum die Aktionen f�
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-   Für [!DNL Microsoft Advertising] Konten, [!UICONTROL Recommendations] für das Konto aufgeführt sind, sind standardmäßig aufgeführt.
+   Bei [!DNL Microsoft Advertising] -Konten wird standardmäßig der [!UICONTROL Recommendations] für das Konto aufgelistet.
 
 1. (Optional) Filtern Sie die Empfehlungen nach Kategorie und Typ.
 
-1. Im [!UICONTROL Actions] Spalte für die Empfehlung oder Insight-Zeile, klicken Sie auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte [!UICONTROL Actions] für die Empfehlung- oder Insight-Zeile auf **[!UICONTROL View]**.
 
-1. (Recommendations mit Unterempfehlungen) Klicken Sie auf **[!UICONTROL View]** neben der Unterempfehlung.
+1. (Recommendations mit Unterempfehlungen) Klicken Sie neben der Unterempfehlung auf **[!UICONTROL View]** .
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
@@ -42,8 +42,8 @@ Zeigen Sie die empfohlenen Aktionen und eine Erläuterung, warum die Aktionen f�
 
 >[!MORELIKETHIS]
 >
->* [Informationen zu Empfehlungen und Insights-Unterstützung für Publisher](recommendation-support.md)
->* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
+>* [Informationen zur Unterstützung von Publisher-Empfehlungen und Insights](recommendation-support.md)
+>* [Empfehlungen und Leistungseinblicke des Herausgebers anzeigen](recommendation-view.md)
 >* [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](recommendation-view-log.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)
 

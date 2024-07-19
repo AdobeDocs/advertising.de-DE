@@ -5,7 +5,7 @@ feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ## Videoanzeigen (Pre-Roll, CTV und universelle Videos)
 
-### Unterstützte Bildschirme
+### Unterstützte Screens
 
 Anzeigen werden standardmäßig auf Desktop-, Mobil- und vernetzten TV-Geräten bereitgestellt. Die Zielgruppenbestimmung für Geräte ist verfügbar, um die Bereitstellung anzupassen.
 
 ### Unterstützte Drittanbieter-Anzeigenserver
 
-Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]und [!DNL Sizmek]. Eine vollständige Liste der unterstützten Anbieter finden Sie unter[Zertifizierte Ad Serving-Partner](certified-ad-servers.md).&quot;
+Sie können Tag-Tabellen aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[Zertifizierte Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Anforderungen für hochauflösende Video-Assets (erforderlich)
+### Anforderungen an Assets für hochauflösende Videos (erforderlich)
 
-**Video-Tag-Typ:** VPAID 2.0 JavaScript oder VAST (CTV). Alle VPAID-Anzeigeneinheiten müssen der [VPAID 2.0-Spezifikation](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) wie vom Interactive Advertising Bureau (IAB) definiert.
+**Video-Tag-Typ:** VPAID 2.0 JavaScript oder VAST (CTV). Alle VPAID-Anzeigeneinheiten müssen der [VPAID 2.0-Spezifikation](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) entsprechen, wie vom Interactive Advertising Bureau (IAB) definiert.
 
 **Video-Codec:** MP4/H.264
 
@@ -32,15 +32,15 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
 **Bitrate:** 1500-2500 kBit/s für 720p, 2500-3500 kBit/s für 1080p
 
-**H.264 Profil/Ebene:** hohes Profil, Stufe 3.1 für 720p; Hohes Profil, Stufe 4.0 für 1080p
+**H.264 Profil/Level:** Hohes Profil, Level 3.1 für 720p; High Profile, Level 4.0 für 1080p
 
-**Video-Framerate:** 29.970 fps (allgemein als 30 fps bezeichnet) für NTSC-Länder, 25 fps für PAL-Länder, 23.976 fps (allgemein als 24 fps bezeichnet) für Film-Look-Inhalte
+**Video-Framerate:** 29,970 fps (allgemein als 30 fps bezeichnet) für NTSC-Länder, 25 fps für PAL-Länder, 23,976 fps (allgemein als 24 fps bezeichnet) für Film-Look-Inhalte
 
 **Videofarbraum:** 4:2:0 YUV-Chroma-Subsampling
 
-**Video Interlacing:** Progressives Scannen, d. h. nicht-interlaced. Keine Bewegung innerhalb des Felds (Mischrahmen) oder Zwischenzeilenanzeige.
+**Video Interlacing:** Progressives Scannen, d. h. ohne Zeilensprung. Keine Bewegung innerhalb des Felds (Mischrahmen) oder Zwischenzeilenanzeige.
 
-**Führungskräfte (Split):** Unerlaubt
+**Kopfzeilen (Split):** Nicht zulässig
 
 **Audio-Codec:** AAC-LC oder HE-AACv1
 
@@ -48,19 +48,19 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
 **Audiokanal:** 2-Kanal-Stereo-Mix
 
-**Audio-Beispielrate:** 44.1 kHz oder 48 kHz, bezogen auf das Ausgangsmaterial
+**Audio-Probenrate:** 44,1 kHz oder 48 kHz, bezogen auf das Quellmaterial
 
-**Audio-Ebenen:** 24 LKFS (+/- 2,0 dB) in den USA gemäß ATSC A/85; 23 LUFS (+/- 1,0) in der EU gemäß EBU R128
+**Audiopegel:** 24 LKFS (+/- 2,0 dB) in den USA gemäß ATSC A/85; 23 LUFS (+/- 1,0) in der EU gemäß EBU R128
 
 #### Zusätzliche Anforderungen an Publisher für vernetzte TV-Anzeigen
 
-* **A+E-Netzwerk:** Siehe A+E-Netzwerke [Anzeigenspezifikationen](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **A+E-Netzwerk:** Siehe die [Anzeigenspezifikationen des A+E-Netzwerks](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Erkennung:** Siehe Erkennung [Anzeigenspezifikationen](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Erkennung:** Siehe die [Anzeigenspezifikationen der Erkennung](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (einschl. Hulu):** Siehe Disney&#39;s [Anzeigenspezifikationen](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (einschl. Hulu):** Siehe [Anzeigenspezifikationen von Disney](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **HBO Max.:** Siehe HBO Max&#39;s [Anzeigenspezifikationen](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **HBO Max:** Siehe [Anzeigenspezifikationen von HBO Max](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBCUniversal:**
 
@@ -70,11 +70,11 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 
    * [Pfau](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Paramount:** Siehe Paramount [Anzeigenspezifikationen](https://www.paramount.com/digital-ads).
+* **Paramount:** Siehe die [Anzeigenspezifikationen des Paramount](https://www.paramount.com/digital-ads).
 
 ## Display-Anzeigen
 
-### Unterstützte Bildschirme
+### Unterstützte Screens
 
 Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. Die Zielgruppenbestimmung für Geräte ist verfügbar, um die Bereitstellung anzupassen.
 
@@ -84,35 +84,35 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **HTML5:** Bilddateitypen: GIF, JPG/JPEG, PNG, SVG
 
-### Anforderungen für Bild-Assets (erforderlich)
+### Voraussetzungen für Image Assets (erforderlich)
 
 Universelle Anzeige wird unterstützt.
 
-**Empfohlene Anzeigengrößen:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x60 0, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
+**Empfohlene Anzeigengrößen:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x 90
 
-**Unterstützte Drittanbieter-Anzeigenserver:** Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]und [!DNL Sizmek]. Eine vollständige Liste der unterstützten Anbieter finden Sie unter[Zertifizierte Ad Serving-Partner](certified-ad-servers.md).&quot;
+**Unterstützte Drittanbieter-Anzeigenserver:** Sie können Tag-Tabellen von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[Zertifizierte Ad Serving Partners](certified-ad-servers.md)&quot;.
 
 ## Audioanzeigen
 
-### Unterstützte Bildschirme
+### Unterstützte Screens
 
 Desktop, Mobilgerät, Tablet, Smart-Lautsprecher und vernetztes TV
 
 ### Unterstützte Drittanbieter-Anzeigenserver
 
-Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]und [!DNL Sizmek]. Eine vollständige Liste der unterstützten Anbieter finden Sie unter[Zertifizierte Ad Serving-Partner](certified-ad-servers.md).&quot;
+Sie können Tag-Tabellen aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[Zertifizierte Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Anforderungen für Audio-Assets (erforderlich)
+### Voraussetzungen für Audio Assets (erforderlich)
 
 **Dateityp:** MP3, OGG, AAC
 
-**Führungskräfte (Tonschiefer):**  Unerlaubt
+**Kopfzeilen (schief):** Nicht zulässig
 
 **Maximale Dateigröße:** 2 MB
 
 **Bitrate:** 128
 
-**Dateilänge:** 0-60 s
+**Dateilänge:** 0-60s
 
 #### Zusätzliche Anforderungen an Publisher
 
@@ -120,11 +120,11 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
    * Länge: 5, 15, 30 oder 60 Sekunden
    * Dateityp: MP3
    * Maximale Dateigröße: 320 kBit/s
-   * Volumen: 44.1 kHz
+   * Volumen: 44,1 kHz
 
 * **[!DNL Pandora]**
    * Länge: 15 oder 30 Sekunden
-   * Dateityp: MP4 (in-App), MP3 (Desktop)
+   * Dateityp: MP4 (In-App), MP3 (Desktop)
    * Maximale Dateigröße: 2,2 MB
 
 * **[!DNL SoundCloud]**
@@ -145,7 +145,7 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 * **[!DNL TuneIn]**
    * Länge: 10, 15 oder 30 Sekunden
    * Dateityp: MP3, OGG
-   * Volumen: 44.1 kHz
+   * Volumen: 44,1 kHz
 
 ### Anforderungen für begleitende Banneranzeigen (optional)
 
@@ -156,33 +156,33 @@ Sie können Tag-Arbeitsblätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innov
 * **[!DNL iHeartRadio]:**
    * Dateityp: JPEG, JPG, PNG, GIF, SWF, HTML
    * Maximale Dateigröße: 2,2 MB
-   * Dimensionen: 300 x 250
+   * Dimensionen: 300x250
 
 * **[!DNL Pandora]:**
    * Dateityp: JPEG, GIF
    * Maximale Dateigröße: Größe: 100 KB
-   * Dimensionen: 300 x 250 (Mobil oder Desktop) oder 500 x 500 (Desktop)
+   * Dimensionen: 300x250 (Mobil- oder Desktop) oder 500x500 (Desktop)
 
 * **[!DNL SoundCloud]:**
-   * Dateityp: Statische JPG, PNG
-   * Maximale Dateigröße: Unter 400 KB
-   * Dimensionen: 1024 x 1024
+   * Dateityp: Statischer JPG, PNG
+   * Maximale Dateigröße: unter 400 KB
+   * Dimensionen: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Dateityp: Statische JPG, PNG
+   * Dateityp: Statischer JPG, PNG
    * Maximale Dateigröße: 200 KB
-   * Dimensionen: 300 x 250
+   * Dimensionen: 300x250
 
 * **[!DNL TuneIn]:**
    * Dateityp: JPEG, JPG, PNG, GIF, HTML
    * Maximale Dateigröße: 2 MB
-   * Dimensionen: 300 x 250
+   * Dimensionen: 300x250
 
 ## Native Display-Anzeigen
 
 Jede Anzeige kann entweder ein Standbild oder ein bewegliches GIF (Kinemagramm) enthalten.
 
-### Unterstützte Bildschirme
+### Unterstützte Screens
 
 Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. Die Zielgruppenbestimmung für Geräte ist verfügbar, um die Bereitstellung anzupassen.
 
@@ -190,19 +190,19 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 #### Bild-Asset
 
-**Auflösung:** Mindestens 600 x 600 px; Empfohlenes Minimum von 1200x627px
+**Auflösung:** Mindestens 600x600px; empfohlen mindestens 1200x627px
 
-**Dateityp:** JPEG (Bild- oder Videoanzeigenabbild), GIF (Cinemograph)
+**Dateityp:** JPEG (Bild- oder Videoanzeigendeckbild), GIF (Cinemograph)
 
 **Dateigröße:** Weniger als 1 MB (Bild sollte frei von Text sein.)
 
 #### Advertiser-Logo
 
-**Auflösung:** Mindestens 80 x 80 px; Empfohlenes Minimum von 300x300px
+**Auflösung:** Mindestens 80x80px; empfohlen mindestens 300x300px
 
 **Dateityp:** JPEG oder PNG.
 
-**Seitenverhältnis:**  1x1 Verhältnis
+**Seitenverhältnis:** 1x1-Verhältnis
 
 >[!NOTE]
 >
@@ -212,9 +212,9 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **Überschrift:** Maximal 200 Zeichen; 25 Zeichen empfohlen
 
-**Beschriftung:** Maximal 200 Zeichen; 100 Zeichen empfohlen
+**Beschriftung:** Maximal 200 Zeichen; 100 Zeichen werden empfohlen
 
-**Sponsored by:** Maximal 200 Zeichen; 30 Zeichen empfohlen
+**gesponsert von:** Maximal 200 Zeichen; 30 Zeichen empfohlen
 
 **Aktionsaufruf (nur MoPub):** Maximal 15 Zeichen
 
@@ -230,16 +230,15 @@ Anforderungen an Klick-Tracker:
 
 * Impression-Tracking-Pixel von Drittanbietern: Nur 1x1-Bild-URL-Format
 
-* JavaScript-Tracking zur Sichtbarkeit: Nur für IAS unterstützt; Nur 1x1-Bilder im JS.append-Format
+* Sichtbarkeit JavaScript-Tracker: Nur für IAS unterstützt; nur 1x1-Bilder im JS.append-Format
 
-* Clicktracking-Pixel von Drittanbietern: Muss zu der in die URL eingebetteten Landingpage weiterleiten (HTTP 302-Umleitung)
+* Clicktracking-Pixel von Drittanbietern: Muss zu der in die URL eingebetteten Landingpage weitergeleitet werden (HTTP 302-Weiterleitung)
 
 * Klick-Tracker mit Data Management Platform (DMP) mit 200 oder mehr Antworten werden nicht unterstützt.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
->* [Einzelne Anzeige erstellen](ad-create.md)
+>* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen mehrerer Drittanbieteranzeigen](ad-create-multiple.md)
->* [Eine Anzeige bearbeiten](ad-edit.md)
-
+>* [Bearbeiten einer Anzeige](ad-edit.md)

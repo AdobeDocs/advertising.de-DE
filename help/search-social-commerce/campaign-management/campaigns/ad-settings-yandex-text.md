@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Yandex] Einstellungen für Textanzeigen'
-description: Verweisen Sie auf die Einstellungen für [!DNL Yandex] Textanzeigen.
-exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+title: '[!DNL Yandex] Einstellungen für Textanzeigen'
+description: Verweisen Sie auf die Einstellungen für  [!DNL Yandex] Textanzeigen.
+exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] Textanzeigeneinstellungen
+# [!DNL Yandex] Einstellungen für Textanzeigen
 
 ## [!UICONTROL Text Ad]
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Ändern der Anzeigenkopie für eine [!DNL Yandex] und löscht die vorhandene Anzeige und erstellt eine neue Anzeige mit denselben Eigenschaften.
+>Wenn Sie die Anzeigenkopie für eine [!DNL Yandex] ändern, wird die vorhandene Anzeige gelöscht und eine neue Anzeige mit denselben Eigenschaften erstellt.
 
 **[!UICONTROL Description Line 1]:** Der Hauptteil des Banners (Anzeige). Die maximale Länge beträgt 75 Zeichen, ein einzelnes Wort darf maximal 22 Zeichen lang sein.
 
 >[!NOTE]
 >
->Ändern der Anzeigenkopie für eine [!DNL Yandex] und löscht die vorhandene Anzeige und erstellt eine neue Anzeige mit denselben Eigenschaften.
+>Wenn Sie die Anzeigenkopie für eine [!DNL Yandex] ändern, wird die vorhandene Anzeige gelöscht und eine neue Anzeige mit denselben Eigenschaften erstellt.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die URL kann auch die [`{param1}` und `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) Ersatzvariablen. Wenn Sie sie verwenden, werden die Variablen durch die Variable `{param1}` und `{param2}` -Werte, die für den Suchbegriff definiert sind, der zur Anzeige der Anzeige verwendet wird.
+>Die URL kann auch die Ersatzvariablen [`{param1}` und `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) enthalten. Wenn Sie sie verwenden, werden die Variablen durch die für den Suchbegriff, der zur Anzeige der Anzeige verwendet wird, definierten Werte `{param1}` und `{param2}` ersetzt.
 
 >[!MORELIKETHIS]
 >

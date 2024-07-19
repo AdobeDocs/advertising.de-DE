@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Vorgänge, die Sie in Bulksheets ausführen können
 
-Sie können Kampagnendaten über Bulksheets für [unterstützte Werbenetzwerke](../bulksheet-about.md#bulksheet-functionality-by-network).
+Sie können Kampagnendaten über Bulksheets für [unterstützte Werbenetzwerke](../bulksheet-about.md#bulksheet-functionality-by-network) hinzufügen, bearbeiten und löschen.
 
-Fügen Sie für jede Kampagnenkomponente (Kampagne, Anzeigengruppe, Suchbegriff oder Textanzeige), die Sie hinzufügen, bearbeiten oder löschen möchten oder deren Eigenschaften Sie hinzufügen, bearbeiten oder löschen möchten, eine separate Datenzeile ein. Wenn Sie z. B. eine Kampagne mit einer Anzeigengruppe, einem Keyword und einer Anzeige erstellen möchten - insgesamt vier Komponenten - benötigen Sie vier separate Datenzeilen. So bearbeiten Sie die [!UICONTROL Ad Group Name] für eine Anzeigengruppe (eine Komponente) benötigen Sie jedoch nur eine Zeile. Um vier verschiedene Eigenschaften für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie ebenfalls nur eine Zeile.
+Fügen Sie für jede Kampagnenkomponente (Kampagne, Anzeigengruppe, Suchbegriff oder Textanzeige), die Sie hinzufügen, bearbeiten oder löschen möchten oder deren Eigenschaften Sie hinzufügen, bearbeiten oder löschen möchten, eine separate Datenzeile ein. Wenn Sie z. B. eine Kampagne mit einer Anzeigengruppe, einem Keyword und einer Anzeige erstellen möchten - insgesamt vier Komponenten - benötigen Sie vier separate Datenzeilen. Um die [!UICONTROL Ad Group Name] für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie jedoch nur eine Zeile. Um vier verschiedene Eigenschaften für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie ebenfalls nur eine Zeile.
 
 Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren Eigenschaften.
 
@@ -22,7 +22,7 @@ Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren E
 
    * Um eine Komponente hinzuzufügen, schließen Sie alle Felder ein, die zum Hinzufügen dieser Komponente erforderlich sind, sowie optional Felder für die Eigenschaften der Komponente ein.
 
-   * So fügen Sie eine Eigenschaft für eine vorhandene Komponente hinzu, z. B. die [!UICONTROL Ad Group End Date] für eine Anzeigengruppe alle Felder einschließen, die zum Bearbeiten dieser Komponente (Anzeigengruppe) erforderlich sind, sowie das Feld für die Eigenschaft ([!UICONTROL Ad Group End Date]).
+   * Um eine Eigenschaft für eine vorhandene Komponente hinzuzufügen, z. B. [!UICONTROL Ad Group End Date] für eine Anzeigengruppe, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente (Anzeigengruppe) erforderlich sind, sowie das Feld für die Eigenschaft ([!UICONTROL Ad Group End Date]).
 
 * Um eine Eigenschaft für eine vorhandene Komponente zu bearbeiten, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, sowie das Feld für die Eigenschaft.
 
@@ -30,15 +30,15 @@ Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren E
 
 * Löschen:
 
-   * Um eine vorhandene Komponente zu löschen, fügen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und ändern Sie ihren Status in [!UICONTROL Deleted]. So löschen Sie beispielsweise eine [!DNL Google Ads] Anzeigengruppe, müssen Sie die [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] mit dem Wert <i>[!UICONTROL Deleted]</i>, und [!UICONTROL Ad Group ID].
+   * Um eine vorhandene Komponente zu löschen, fügen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und ändern Sie ihren Status in [!UICONTROL Deleted]. Um beispielsweise eine Anzeigengruppe [!DNL Google Ads] zu löschen, müssen Sie die Werte [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] mit den Werten <i>[!UICONTROL Deleted]</i> und [!UICONTROL Ad Group ID] einbeziehen.
 
-   * ([!UICONTROL Param1], [!UICONTROL Param2], und [!UICONTROL Param3] nur -Werte) So löschen Sie eine vorhandene [!DNL paramN] für einen Suchbegriff alle Felder einschließen, die zum Bearbeiten des Suchbegriffs erforderlich sind, und auch das vorhandene löschen [!DNL paramN] Wert durch Eingabe des Werts `[delete]` (einschließlich der Klammern) im entsprechenden Feld.
+   * ([!UICONTROL Param1], [!UICONTROL Param2] und [!UICONTROL Param3] -Werte) Um einen vorhandenen [!DNL paramN] -Wert für einen Suchbegriff zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten des Suchbegriffs erforderlich sind, und löschen Sie auch den vorhandenen [!DNL paramN] -Wert, indem Sie den Wert `[delete]` (einschließlich der Klammern) in das entsprechende Feld eingeben.
 
-   * (Zulässige Eigenschaftsfelder) Um einen vorhandenen Eigenschaftswert für eine Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und löschen Sie auch den Eigenschaftswert, indem Sie den Wert eingeben. `[delete]` (einschließlich der Klammern). Zulässige Felder umfassen:
+   * (Zulässige Eigenschaftsfelder) Um einen vorhandenen Eigenschaftswert für eine Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und löschen Sie auch den Eigenschaftswert, indem Sie den Wert `[delete]` eingeben (einschließlich der Klammern). Zulässige Felder umfassen:
 
-      * ([!UICONTROL Google Ads] nur) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
+      * ([!UICONTROL Google Ads] only) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] und [!DNL Microsoft Advertising] nur) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] und nur [!DNL Microsoft Advertising]) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Die folgenden Regeln gelten für die Arbeit mit Kampagnenkomponenten und deren E
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](../bulksheet-about.md)
->* [Unterstützte Massendateiformate](bulksheet-file-formats.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](../bulksheet-about.md)
+>* [Unterstützte Bulksheet-Dateiformate](bulksheet-file-formats.md)
 >* [Anhang - Bulksheet-Fehler](../bulksheet-errors.md)
->* [Bulksheet-Datei herunterladen/erstellen](../bulksheet-download.md)
+>* [Herunterladen/Erstellen einer Bulksheet-Datei](../bulksheet-download.md)

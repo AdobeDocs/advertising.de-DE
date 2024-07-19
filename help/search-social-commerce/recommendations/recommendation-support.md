@@ -16,21 +16,21 @@ ht-degree: 0%
 
 [!DNL Google Ads] und [!DNL Microsoft Advertising] Empfehlungen und Einblicke sind Vorschläge des Werbenetzwerks, um die Leistung und Effizienz Ihrer Kampagnen zu verbessern:
 
-* Jeder [!DNL Google Ads] Die Empfehlung bietet benutzerdefinierte Vorschläge zu den verschiedenen Leistungsaspekten einer Kampagne - vom Hinzufügen eines Assets bis zur Erhöhung des Budgets - basierend auf dem Leistungsverlauf Ihres Kontos, den Kampagneneinstellungen und Trends über [!DNL Google Ads].
+* Jede [!DNL Google Ads] -Empfehlung bietet benutzerdefinierte Vorschläge zu den verschiedenen Leistungsaspekten einer Kampagne - vom Hinzufügen eines Assets bis hin zur Erhöhung des Budgets - basierend auf dem Leistungsverlauf Ihres Kontos, Ihren Kampagneneinstellungen und Trends in [!DNL Google Ads].
 
-* Jeder [!DNL Microsoft Advertising] Leistungseinblicke und Empfehlungen schlagen Änderungen zur Optimierung der Kampagnenleistung anhand von Algorithmen und Best Practices für maschinelles Lernen vor.
+* Jeder [!DNL Microsoft Advertising]-Leistungseinblick und jede Empfehlung schlägt Änderungen zur Optimierung der Kampagnenleistung anhand von Algorithmen und Best Practices für maschinelles Lernen vor.
 
-## Die [!UICONTROL Recommendations & Publisher Insights] Ansicht
+## Die Ansicht [!UICONTROL Recommendations & Publisher Insights]
 
-Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]können Sie:
+Innerhalb von [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] können Sie:
 
-* Sehen Sie sich auf einen Blick alle unterstützten Empfehlungen an, auf die für ein Konto nicht reagiert wurde. Zu den Informationen für jeden Eintrag gehören der Empfehlungstyp, die [!DNL Adobe] Empfehlung, die betroffenen Metriken, die betroffene Entität und einen Link zu weiteren Details. Prognostizierte Erhöhungen von Metriken werden grün hervorgehoben.
+* Sehen Sie sich auf einen Blick alle unterstützten Empfehlungen an, auf die für ein Konto nicht reagiert wurde. Zu den Informationen für jeden Eintrag gehören der Empfehlungstyp, die [!DNL Adobe] Empfehlung, die betroffenen Metriken, die betroffene Entität und ein Link zu weiteren Details. Prognostizierte Erhöhungen von Metriken werden grün hervorgehoben.
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
-  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") unten links auf der Seite.
+  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken Sie unten links auf der Seite auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png "Aktualisieren") .
 
-* Für [!DNL Microsoft Advertising] -Konten, sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen generiert wurde, für einen [!DNL Microsoft Advertising] -Konto. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen der [!DNL Microsoft Advertising] Editor, von dem aus Sie auf bestimmte Einblicke reagieren können.
+* Für [!DNL Microsoft Advertising]-Konten sehen Sie auf einen Blick jeden Leistungseinblick, der in den letzten 30 Tagen für ein [!DNL Microsoft Advertising] -Konto generiert wurde. Insights bieten ähnliche Informationen wie Empfehlungen, jedoch in einem anderen Format. Jeder Einblick enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des [!DNL Microsoft Advertising]-Editors, über den Sie auf den spezifischen Einblick reagieren können.
 
 * Zeigen Sie Details zu einer Empfehlung an und wenden Sie die Empfehlung direkt an oder verwerfen Sie sie.
 
@@ -44,7 +44,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 | Empfehlungskategorie | Empfehlungstyp | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] (jetzt als &quot;[!DNL Ads and assets]&quot;in [!DNL Google Ads]) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
+| [!UICONTROL Ads and extensions] (jetzt als &quot;[!DNL Ads and assets]&quot; in [!DNL Google Ads] bezeichnet) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
 | | [!UICONTROL Callout extension] | Hinzufügen von Hinweiserweiterungen zu einer Kampagne |
 | | [!UICONTROL Optimize ad rotation] | Verwenden optimierter Anzeigenrotationen |
 | | [!UICONTROL Responsive search ad] | Neue responsive Suchanzeige hinzufügen |
@@ -53,7 +53,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Sitelink extension] | Hinzufügen von Sitelink-Erweiterungen zu einer Kampagne |
 | | [!UICONTROL Text ad] | Neue Textanzeige hinzufügen |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrieren dynamischer Suchanzeigen zu Leistungsmax-Kampagnen |
-| | [!UICONTROL Dynamic image extension opt in] | Dynamische Bilderweiterungen für das Konto aktivieren, wodurch [!DNL Google Ads] maschinelles Lernen zum automatischen Anhängen der relevantesten Bilder von der Landingpage Ihrer Anzeige an Ihre Anzeige |
+| | [!UICONTROL Dynamic image extension opt in] | Dynamische Bilderweiterungen für das Konto aktivieren, sodass [!DNL Google Ads] maschinelles Lernen die relevantesten Bilder von der Landingpage Ihrer Anzeige automatisch an Ihre Anzeige anhängen kann |
 | | [!UICONTROL Improve performance max ad strength] | Erhöhen Sie die Stärke der Asset-Gruppe einer Performance-Max-Kampagne auf die Bewertung &quot;Ausgezeichnet&quot;. |
 | | [!UICONTROL Performance max final URL opt in] | Aktivieren Sie die endgültige URL-Erweiterung für Ihre Performance-Max-Kampagnen. |
 | | [!UICONTROL Performance max opt in] | Opt-in für Leistungsmax-Kampagnen |
@@ -63,22 +63,22 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 | | [!UICONTROL Enhanced CPC opt in] | Angebot mit [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Empfohlenes Budget für eine Kampagne, deren Budget in Zukunft voraussichtlich begrenzt wird |
 | | [!UICONTROL Forecasting set Target CPA] | Legen Sie einen Target-CPA für Kampagnen fest, die nicht vor einem saisonalen Ereignis stehen, das den Traffic voraussichtlich erhöhen wird. |
-| | [!UICONTROL Forecasting set Target ROAS] | Erhöhung des Budgets vor einem saisonalen Ereignis, das den Traffic voraussichtlich steigern wird, und Änderung der Angebotsstrategie von [!UICONTROL Maximize Conversion Value] nach [!UICONTROL Target ROAS] |
+| | [!UICONTROL Forecasting set Target ROAS] | Heben Sie das Budget vor einem saisonalen Ereignis auf, das den Traffic voraussichtlich erhöhen wird, und ändern Sie die Angebotsstrategie von [!UICONTROL Maximize Conversion Value] in [!UICONTROL Target ROAS]. |
 | | [!UICONTROL Marginal ROI campaign budget] | Anpassen des Kampagnenbudgets zur Steigerung des ROI |
-| | [!UICONTROL Maximize clicks opt in] | Ändern Sie die [!UICONTROL Maximize Clicks] Angebotsstrategie |
+| | [!UICONTROL Maximize clicks opt in] | Änderung der [!UICONTROL Maximize Clicks] Angebotsstrategie |
 | | [!UICONTROL Maximize conversion value opt in] | Änderung der Angebotsstrategie &quot;Konversionswert maximieren&quot; |
-| | [!UICONTROL Maximize conversions opt in] | Ändern Sie die [!UICONTROL Maximize Conversions] Angebotsstrategie |
+| | [!UICONTROL Maximize conversions opt in] | Änderung der [!UICONTROL Maximize Conversions] Angebotsstrategie |
 | | [!UICONTROL Move unused budget] | Verschieben nicht verwendeter Budgets in ein eingeschränktes Budget |
-| | [!UICONTROL Raise Target CPA bid too low] | Erhöhen Sie die [!UICONTROL Target CPA] um einen empfohlenen Betrag zu erhöhen, wenn es zu niedrig ist und nur wenige oder keine Konversionen vorliegen |
+| | [!UICONTROL Raise Target CPA bid too low] | Erhöhen Sie die [!UICONTROL Target CPA] um einen empfohlenen Betrag, wenn sie zu niedrig ist und nur wenige oder keine Konversionen vorliegen. |
 | | [!UICONTROL Set Target CPA] | Festlegen einer Ziel-CPA für Kampagnen ohne eine |
 | | [!UICONTROL Set Target ROAS] | Festlegen einer Ziel-ROAS für Kampagnen ohne eine |
-| | [!UICONTROL Target CPA opt in] | Ändern Sie die [!UICONTROL Target CPA] Angebotsstrategie |
-| | [!UICONTROL Target CPA raising] | Erhöhen Sie die [!UICONTROL Target CPA] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden |
-| | [!UICONTROL Target ROAS lowering] | Reduzieren Sie die [!UICONTROL Target ROAS] basierend auf [!DNL Google Ads] Prognosen, die aus früheren Konversionen berechnet werden |
-| | [!UICONTROL Target ROAS opt in] | Ändern Sie die [!UICONTROL Target ROAS] Angebotsstrategie |
+| | [!UICONTROL Target CPA opt in] | Änderung der [!UICONTROL Target CPA] Angebotsstrategie |
+| | [!UICONTROL Target CPA raising] | Erhöhen Sie die [!UICONTROL Target CPA] auf der Grundlage von [!DNL Google Ads] -Prognosen, die aus früheren Konversionen berechnet werden. |
+| | [!UICONTROL Target ROAS lowering] | Verringern Sie den [!UICONTROL Target ROAS] basierend auf [!DNL Google Ads] -Prognosen, die aus früheren Konversionen berechnet werden. |
+| | [!UICONTROL Target ROAS opt in] | Änderung der [!UICONTROL Target ROAS] Angebotsstrategie |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Erweiterung der Reichweite durch Aktualisierung einer Kampagne zur Verwendung der Anzeigeerweiterung |
 | | [!UICONTROL Keyword] | Neue Suchbegriffe hinzufügen |
-| | [!UICONTROL Search partners opt in] | Reichweite erweitern mit [!DNL Google] Suchpartner |
+| | [!UICONTROL Search partners opt in] | Reichweite mit [!DNL Google] Suchpartnern erweitern |
 | | [!UICONTROL Use broad match keyword] | Verwenden Sie eine breite Übereinstimmung für konversionsbasierte Kampagnen mit vollautomatisierter konversionsbasierter Gebote. |
 
 ## Unterstützte Empfehlungstypen für [!DNL Microsoft Advertising]
@@ -91,7 +91,7 @@ Within [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher
 
 >[!MORELIKETHIS]
 >
->* [Empfehlungen und Leistungseinblicke für Herausgeber anzeigen](recommendation-view.md)
->* [Anwenden oder Verwerfen einer Empfehlung für Herausgeber](recommendation-apply-dismiss.md)
+>* [Empfehlungen und Leistungseinblicke des Herausgebers anzeigen](recommendation-view.md)
+>* [Eine Empfehlung für Herausgeber anwenden oder verwerfen](recommendation-apply-dismiss.md)
 >* [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](recommendation-view-log.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)

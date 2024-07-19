@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Feld &quot;Konto-Tracking&quot;in den Kampagneneinstellungen überschreiben
 
-**[!UICONTROL Override Account Tracking]:** (Optional) Ermöglicht die Festlegung von Tracking-Parametern für diese Kampagne. Standardmäßig ist diese Option deaktiviert und die Kampagne verwendet die Tracking-Parameter auf Kontoebene.
+**[!UICONTROL Override Account Tracking]:** (Optional) Ermöglicht das Festlegen von Tracking-Parametern für diese Kampagne. Standardmäßig ist diese Option deaktiviert und die Kampagne verwendet die Tracking-Parameter auf Kontoebene.

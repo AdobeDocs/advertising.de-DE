@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Adobe Advertising Policies and Guidelines Documentation
+# Dokumentation zu Adobe Advertising-Richtlinien und -Richtlinien
 
-In diesem Ordner finden Sie die Hilfedokumentation zu Richtlinien und Richtlinien für Adobe-übergreifende Werbung.
+Hier finden Sie die Hilfedokumentation zu Adobe Advertising-übergreifenden Richtlinien und Richtlinien.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

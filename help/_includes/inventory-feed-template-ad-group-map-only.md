@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Textanzeigenvorlage - Nur Anzeigengruppenzuordnung
 
-**[!UICONTROL Map Only]:** (Alle Anzeigennetze außer [!DNL Yandex]; optional) Ordnet alle neuen Suchbegriffe und Anzeigen vorhandenen Anzeigengruppen zu, anstatt neue Anzeigengruppen zu erstellen. Wenn Sie diese Option aktivieren, wählen Sie die Zuordnungsmethode aus.
+**[!UICONTROL Map Only]:** (Alle Anzeigennetzwerke außer [!DNL Yandex]; optional) Ordnet alle neuen Suchbegriffe und Anzeigen vorhandenen Anzeigengruppen zu, anstatt neue Anzeigengruppen zu erstellen. Wenn Sie diese Option aktivieren, wählen Sie die Zuordnungsmethode aus.
 
-Verwenden [!UICONTROL Map Only] auf Anzeigengruppenebene erfordert eine vorhandene Kontostruktur, die eng mit der Produkttaxonomie verknüpft ist und einfach dem Daten-Feed zugeordnet werden kann.
+Die Verwendung von [!UICONTROL Map Only] auf Anzeigengruppenebene erfordert eine vorhandene Kontostruktur, die eng mit der Produkttaxonomie verknüpft ist und einfach dem Daten-Feed zugeordnet werden kann.

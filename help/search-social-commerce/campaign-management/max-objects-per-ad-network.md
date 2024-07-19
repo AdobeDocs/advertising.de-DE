@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In der Dokumentation des Werbenetzwerks finden Sie die aktuellen Objektbeschränkungen, wie die maximale Anzahl von Kampagnen pro Konto, die maximale Anzahl von Anzeigengruppen pro Kampagne usw.
 
-* **[!DNL Baidu]:** Jeder [!DNL Baidu] -Konto kann bis zu 100 Kampagnen, 1000 Anzeigengruppen pro Kampagne, 5000 Keywords pro Anzeigengruppe und 50 Anzeigen pro Anzeigengruppe umfassen.
+* **[!DNL Baidu]:** Jedes [!DNL Baidu] Konto kann bis zu 100 Kampagnen, 1000 Anzeigengruppen pro Kampagne, 5000 Suchbegriffe pro Anzeigengruppe und 50 Anzeigen pro Anzeigengruppe enthalten.
 
 * **[!DNL Microsoft Advertising]:** Siehe &quot;Beschränkungen für Konten, Kampagnen und Anzeigengruppen&quot;unter [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 

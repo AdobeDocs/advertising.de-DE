@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Verwalten von Angebotsmultiplikatoren für Platzierungen
 
-Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot zu erhöhen oder zu verringern, und zwar für Ihre vorhandenen Platzierungsziele von [förderfähige Zieltypen](#bid-multiplier-by-target). Sie können entweder Angebotsmultiplikatorwerte für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
+Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot zu erhöhen oder zu verringern, und zwar für Ihre vorhandenen Platzierungsziele von [geeigneten Zieltypen](#bid-multiplier-by-target). Sie können entweder Angebotsmultiplikatorwerte für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
 
 Standardmäßig beträgt der Angebotsmultiplikator für eine Zielgruppe 1,00, was bedeutet, dass das Angebot nicht an diese Zielgruppe angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise senkt ein Angebotsmultiplikator von 0,5 ein Angebot von 6 USD auf 3 USD (0,5 x 6). Wenn eine Auktion für mehrere Angebotsmodifikatoren qualifiziert ist, werden alle anwendbaren Angebotsmultiplikatoren multipliziert. Wenn beispielsweise Kalifornien einen Angebotsmultiplikator von 2 hat und San Francisco einen Angebotsmultiplikator von 3 hat, dann ist der letzte Angebotsmultiplikator für Anzeigen, die in San Francisco ausgeführt werden, 6.
 
@@ -20,9 +20,9 @@ Standardmäßig beträgt der Angebotsmultiplikator für eine Zielgruppe 1,00, wa
 >
 >Angebotsmultiplikatoren erhöhen das Angebot nie auf mehr als das Höchstangebot.
 
-Sie können Angebotsmultiplikatoren (mit anderen Werten als 1,00) für eine [begrenzte Anzahl von Zielen](#bid-multiplier-limits-by-target).
+Sie können Angebotsmultiplikatoren (mit anderen Werten als 1,00) für eine [begrenzte Anzahl von Zielen](#bid-multiplier-limits-by-target) festlegen.
 
-Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter &quot;[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 ## Verwalten der Angebotsmultiplikatoren für eine einzelne Platzierung
 
@@ -34,19 +34,19 @@ Sie können Werte entweder manuell bearbeiten oder eine Tabelle für eine einzel
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
 1. Passen Sie die Angebotsmultiplikatoren für die förderfähigen Ziele an:
 
-   * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem [Zielgruppenspezifischer Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele.
+   * Um die Werte des Angebotsmultiplikators manuell anzupassen, wechseln Sie zu jedem [zielspezifischen Tab](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience] und [!UICONTROL Brand Safety]) und bearbeiten Sie die vorhandenen Werte für die Platzierungsziele.
 
      Die meisten Zielkategorien listen links Unterkategorien auf. Klicken Sie auf eine Unterkategorie, um Angebotsmultiplikatoren für diese Unterkategorie zu verwalten.
 
    * So laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um alle vorhandenen Werte zu überschreiben:
 
-      1. Klicks **[!UICONTROL CSV File Edit]** oben rechts.
+      1. Klicken Sie oben rechts auf &quot;**[!UICONTROL CSV File Edit]**&quot;.
 
-      1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+      1. a) Klicken Sie auf &quot;**[!UICONTROL Download Template]**&quot;und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
          Die heruntergeladenen Tabellen enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Es werden nur bestehende Angebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 einbezogen.
 
@@ -54,11 +54,11 @@ Sie können Werte entweder manuell bearbeiten oder eine Tabelle für eine einzel
 
          * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Angebotsmultiplikatorwert auf 1,0 oder löschen Sie alle Informationen für die Zeile.
 
-         ![Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren")
+         ![Beispielzeile in einer Tabellendatei mit Angebotsmultiplikator](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabellendatei mit Angebotsmultiplikator")
 
-      1. Klicks **[!UICONTROL Next]** , um zum [!UICONTROL Upload File] und entweder a) ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
+      1. Klicken Sie auf &quot;**[!UICONTROL Next]**&quot;, um zum Abschnitt &quot;[!UICONTROL Upload File]&quot; zu wechseln. Ziehen Sie die bearbeitete Datei per Drag-and-Drop in das Feld oder klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
 
-      1. Überprüfen Sie die hochgeladenen Daten im [!UICONTROL Review & Submit] und klicken Sie anschließend auf **[!UICONTROL Save]**.
+      1. Überprüfen Sie die hochgeladenen Daten im Abschnitt [!UICONTROL Review & Submit] und klicken Sie dann auf **[!UICONTROL Save]**.
 
 ## Hochladen von Angebotsmultiplikatoren für eine oder mehrere Platzierungen
 
@@ -76,7 +76,7 @@ Laden Sie eine Tabelle hoch, um dieselben Werte auf alle ausgewählten Platzieru
 
 1. Laden Sie eine CSV-Datei mit Angebotsmultiplikatorwerten hoch, um alle vorhandenen Werte für alle ausgewählten Platzierungen zu überschreiben.
 
-   1. Klicken Sie entweder a) **[!UICONTROL Download Template]** und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+   1. a) Klicken Sie auf &quot;**[!UICONTROL Download Template]**&quot;und bearbeiten Sie die Datei oder b) bearbeiten Sie eine zuvor heruntergeladene Vorlage. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
       Die heruntergeladenen Tabellen enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Es werden nur bestehende Angebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 einbezogen.
 
@@ -84,25 +84,25 @@ Laden Sie eine Tabelle hoch, um dieselben Werte auf alle ausgewählten Platzieru
 
       * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Angebotsmultiplikatorwert auf 1,0 oder löschen Sie alle Informationen für die Zeile.
 
-      ![Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabelle mit Angebotsmultiplikatoren")
+      ![Beispielzeile in einer Tabellendatei mit Angebotsmultiplikator](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Tabellendatei mit Angebotsmultiplikator")
 
-   1. Klicks **[!UICONTROL Next]** , um zum [!UICONTROL Upload File] und entweder a) ziehen Sie die bearbeitete Datei in das Feld oder b) klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
+   1. Klicken Sie auf &quot;**[!UICONTROL Next]**&quot;, um zum Abschnitt &quot;[!UICONTROL Upload File]&quot; zu wechseln. Ziehen Sie die bearbeitete Datei per Drag-and-Drop in das Feld oder klicken Sie in das Feld, um die Datei von Ihrem Gerät oder Netzwerk auszuwählen.
 
-   1. Überprüfen Sie die hochgeladenen Daten im [!UICONTROL Review & Submit] und klicken Sie anschließend auf **[!UICONTROL Save]**.
+   1. Überprüfen Sie die hochgeladenen Daten im Abschnitt [!UICONTROL Review & Submit] und klicken Sie dann auf **[!UICONTROL Save]**.
 
 ## Für Angebotsmultiplikatoren geeignete Zieltypen {#bid-multiplier-by-target}
 
 Sie können Angebotsmodifikatoren nur für enthaltene Ziele, nicht für ausgeschlossene Ziele konfigurieren.
 
-* **Geo-Ziele**: Geografie (Länder, Bundesländer und Städte), Postleitzahlen und DMAs
+* **Geoziele**: Geografie (Länder, Bundesländer und Städte), Postleitzahlen und DMAs
 
-* **Inventarziele**: Quellen und Feeds für das öffentliche Inventar und [!UICONTROL On Demand] inventory
+* **Inventarziele**: Quellen und Feeds für den öffentlichen Bestand und [!UICONTROL On Demand] Inventar
 
 * **Site-Ziele:** zielgerichtete (aber nicht ausgeschlossene) Sites/Apps, Site-Kategorien
 
-* **Zielgruppenziele:** Segmente, Dayparting und Themen
+* **Zielgruppenziele:** Segmente, Dayparts und Themen
 
-* **ads.txt-Ziele:** (Wenn Sie sich von ads.txt abmelden, was es Ihnen ermöglicht, Inventar von allen Verkäufern zu kaufen), nur ads.txt sellers, ads.txt direct sellers und ads.txt sellers plus sites ohne ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
+* **ads.txt-Ziele:** (Wenn Sie ads.txt abwählen, was es Ihnen ermöglicht, Inventar von allen Verkäufern zu kaufen) Nur ads.txt sellers, ads.txt direct sellers und ads.txt sellers plus sites ohne ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Maximale Anzahl der Angebotsmultiplikatoren nach Zieltyp {#bid-multiplier-limits-by-target}
 

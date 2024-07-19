@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Bearbeiten der Feed-Einstellungen für Tabellenberichte
 
-*Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
+*Nur für grundlegende Berichte und Berichte zur Modellgenauigkeit*
 
-Sie können die Berichtsvorlage ändern, [!DNL Microsoft Excel] -Vorlage und andere Parameter werden für einen Tabellenfeed verwendet.
+Sie können ändern, welche Berichtsvorlage, [!DNL Microsoft Excel] Vorlage und andere Parameter für einen Tabellenfeed verwendet werden.
 
 >[!NOTE]
 >
-> Wenn Sie die Spalten in der Berichtsvorlage bearbeiten oder eine neue oder aktualisierte Berichtsvorlage verwenden, müssen Sie die [!DNL Excel] und laden Sie sie erneut hoch.
+> Wenn Sie die Spalten in der Berichtsvorlage bearbeiten oder eine neue oder aktualisierte Berichtsvorlage verwenden, müssen Sie die Vorlage [!DNL Excel] entsprechend aktualisieren und erneut hochladen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
-1. (Optional) Um die Berichtsvorlage oder die [!DNL Excel] Vorlage, die für den Tabellenfeed verwendet wird:
+1. (Optional) Um die Berichtsvorlage oder die für den Tabellenfeed verwendete [!DNL Excel] Vorlage zu aktualisieren:
 
-   * (Optional) Um eine andere oder aktualisierte Berichtsvorlage für den Feed zu verwenden, [Erstellen Sie eine neue [!DNL Excel] Vorlage für die Berichtsvorlage](spreadsheet-feed-create-excel-template.md).
+   * (Optional) Um eine andere oder aktualisierte Berichtsvorlage für den Feed zu verwenden, erstellen Sie [eine neue [!DNL Excel] Vorlage für die Berichtsvorlage](spreadsheet-feed-create-excel-template.md).
 
-     Sie müssen sowohl die Berichtsvorlage als auch die neue [!DNL Excel] im nächsten Schritt.
+     Sie müssen im nächsten Schritt sowohl die Berichtsvorlage als auch die neue [!DNL Excel] -Datei hochladen.
 
-   * (Optional) So fügen Sie dem [!DNL Excel] Vorlage, fügen Sie die Spalten rechts von den Spalten aus der Berichtsvorlage ein und speichern Sie die Datei dann als [!DNL Excel] Tabelle im .XLSX-Format. Sie müssen die neue [!DNL Excel] im nächsten Schritt.
+   * (Optional) Um der Vorlage [!DNL Excel] einfach benutzerdefinierte Spalten hinzuzufügen, fügen Sie die Spalten rechts von den Spalten aus der Berichtsvorlage ein und speichern Sie die Datei dann als [!DNL Excel]-Tabelle im XLSX-Format. Sie müssen die neue [!DNL Excel]-Datei im nächsten Schritt hochladen.
 
 1. Ändern Sie die Einstellungen des Tabellenfeeds:
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
-   * Klicken Sie neben dem Namen des Tabellenfeeds auf ![Schaltfläche &quot;Einstellungen anzeigen/bearbeiten&quot;](/help/search-social-commerce/assets/settings.png "Schaltfläche &quot;Einstellungen anzeigen/bearbeiten&quot;").
+   * Klicken Sie neben dem Namen des Tabellenfeeds auf die Schaltfläche ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Schaltfläche &quot;Einstellungen anzeigen/bearbeiten&quot;").
 
-   * Im [!UICONTROL Edit Spreadsheet Feed] ändern Sie [Tabellen-Feed-Einstellungen](spreadsheet-feed-settings.md).
+   * Ändern Sie im Dialogfeld [!UICONTROL Edit Spreadsheet Feed] die Einstellungen für den [Tabellenfeed ](spreadsheet-feed-settings.md).
 
-   * Klicks **[!UICONTROL Submit]**.
+   * Klicken Sie auf **[!UICONTROL Submit]**.
 
-   * (Optional) Sobald der Feed [!UICONTROL Update Status] is *[!UICONTROL Finished]* klicken **[!UICONTROL XLSX]** neben dem Feed klicken und die Datei dann gemäß der üblichen Vorgehensweise Ihres Browsers öffnen oder speichern.
+   * (Optional) Sobald die [!UICONTROL Update Status] des Feeds den Wert *[!UICONTROL Finished]* hat, klicken Sie neben dem Feed auf **[!UICONTROL XLSX]** und öffnen oder speichern Sie dann die Datei gemäß der üblichen Vorgehensweise Ihres Browsers.
 
      >[!NOTE]
      >
@@ -52,8 +52,8 @@ Sie können die Berichtsvorlage ändern, [!DNL Microsoft Excel] -Vorlage und and
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
->* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
->* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
+>* [Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
+>* [Bearbeiten Sie die Einstellungen des Tabellenbericht-Feeds](spreadsheet-feed-edit.md)
+>* [Einstellungen für den Spreadsheet-Bericht](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)

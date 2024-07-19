@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Geräteübergreifende Lösungen
 
-Die Advertising DSP-Integration mit [!DNL LiveRamp] ermöglicht es Ihnen, Ihre Zielgruppe auf alle bekannten Geräte einer Person zu erweitern, nicht nur auf die Geräte, die Ihre Marke verfolgt hat. Die Integration bietet außerdem Frequenzlimitierung und Attributionsmessung für alle Geräte.
+Durch die Integration von Advertising DSP mit [!DNL LiveRamp] können Sie Ihre Zielgruppe auf alle bekannten Geräte einer Person erweitern, nicht nur auf die Geräte, die Ihre Marke verfolgt hat. Die Integration bietet außerdem Frequenzlimitierung und Attributionsmessung für alle Geräte.
 
 Wenn Sie ein unterstütztes benutzerbasiertes Gerätediagramm verwenden, können Sie:
 
@@ -20,7 +20,7 @@ Wenn Sie ein unterstütztes benutzerbasiertes Gerätediagramm verwenden, können
 * Ausgewogenheit und Exposition durch Verständnis und Begrenzung der Häufigkeit einzelner Personen.
 * Teststrategien, die Zielgruppen über Kanäle oder Geräte hinweg verfügbar machen oder konvertieren.
 
-## Vorteile der [!DNL LiveRamp] Gerätediagramm
+## Vorteile des [!DNL LiveRamp]-Gerätediagramms
 
 * Stellt einen deterministischen Datenpool bereit, einschließlich Offline-Kundendaten
 
@@ -30,7 +30,7 @@ Wenn Sie ein unterstütztes benutzerbasiertes Gerätediagramm verwenden, können
 
 * Ist frei für Frequenzlimitierung und Attributionsmessung
 
-* Preiswert von 0,35 USD für erweiterte Impressionen (Impressionen, die ausschließlich durch Verwendung der Variablen [!DNL LiveRamp] Gerätediagramm anstelle von Geräten, die in Zielgruppensegmenten gefunden werden)
+* Preiswert von 0,35 USD für erweiterte Impressionen (Impressionen, die ausschließlich durch Verwendung des [!DNL LiveRamp]-Gerätediagramms und nicht durch Verwendung von Geräten in Zielgruppensegmenten bereitgestellt werden)
 
   Der Preis wird auf Ihrer Kreditkarte angezeigt.
 
@@ -40,15 +40,15 @@ Mit dem personenbasierten Frequenzmanagement können Sie Frequenzobergrenzen auf
 
 ### Benutzerbasiertes Frequenzmanagement aktivieren
 
-* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement auf Kampagnen-, Paket- und Platzierungsebene verwendet. Häufigkeitsbegrenzungen gelten für alle bekannten Geräte einer Person.
+* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie die Einstellung [!UICONTROL Cross-Device Level] festlegen. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot;-> &quot;[!UICONTROL People]&quot;und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement auf Kampagnen-, Paket- und Platzierungsebene verwendet. Häufigkeitsbegrenzungen gelten für alle bekannten Geräte einer Person.
 
 Weitere Informationen finden Sie unter [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-Nachdem Sie eine Kampagne gespeichert haben, können Sie ihre [!UICONTROL Cross Device Level] -Einstellung.
+Nachdem Sie eine Kampagne gespeichert haben, können Sie die Einstellung [!UICONTROL Cross Device Level] nicht mehr ändern.
 
-* **Pakete:**  Sie können optional zusätzliche Frequenzobergrenzen auf Paketebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
+* **Pakete:** Sie können optional zusätzliche Häufigkeitsbegrenzungen auf Paketebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
 
-* **Platzierungen:** Sie können optional zusätzliche Frequenzobergrenzen auf Platzierungsebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
+* **Platzierungen:** Sie können optional zusätzliche Häufigkeitsbegrenzungen auf der Platzierungsebene festlegen. DSP respektiert die strengste Frequenzgrenze in der Kampagnenhierarchie.
 
 ## Personenbasiertes Targeting
 
@@ -56,29 +56,29 @@ Mit personenbasiertem Targeting können Sie Kunden auf dem Desktop und auf Mobil
 
 ### Aktivieren von personenbasiertem Targeting
 
-* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie eine [!UICONTROL Cross-Device Level] -Einstellung. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement verwendet.
+* **Kampagnen:** Wenn Sie eine neue Kampagne erstellen, können Sie die Einstellung [!UICONTROL Cross-Device Level] festlegen. Aktivieren Sie &quot;[!UICONTROL Same Device]&quot;-> &quot;[!UICONTROL People]&quot;und wählen Sie ein Gerätediagramm aus. Das angegebene Gerätediagramm wird sowohl für geräteübergreifendes Targeting auf Platzierungsebene als auch für benutzerbasiertes Frequenzmanagement verwendet.
 
 Weitere Informationen finden Sie unter [Kampagneneinstellungen](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **Platzierungen:** Wenn Sie Zielgruppenziele für eine Platzierung in einer Kampagne mit einem bestimmten Gerätediagramm auswählen, wird ein [!UICONTROL Cross-Device Targeting] ermöglicht es Ihnen, Ihr Targeting auf alle bekannten Geräte einer Person zu erweitern (entsprechend dem in den Kampagneneinstellungen angegebenen Gerätediagramm), auch auf Geräte, die nicht in den angegebenen Segmenten enthalten sind.
+* **Platzierungen:** Wenn Sie Zielgruppen für eine Platzierung in einer Kampagne mit einem bestimmten Gerätediagramm auswählen, können Sie mit der Option [!UICONTROL Cross-Device Targeting] Ihr Targeting auf alle bekannten Geräte einer Person (gemäß dem in den Kampagneneinstellungen festgelegten Gerätediagramm) erweitern, selbst auf Geräte, die nicht in den angegebenen Segmenten enthalten sind.
 
 ### Einrichten von Berichten für personenbasiertes Targeting
 
 Sie können die folgenden Metriken in benutzerspezifische Berichte aufnehmen:
 
-* **Erweiterte Impressionen:** (Im [!UICONTROL Build Your Report] Abschnitt unter [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Das Volumen der inkrementellen Impressionen, die durch Nutzung eines Gerätediagramms bereitgestellt werden (und nicht in den ursprünglichen Zielgruppensegmenten gefunden werden). Diese Metrik wird auch zur Berechnung der anwendbaren Gebühren für die Verwendung eines Gerätediagramms eines Drittanbieters verwendet.
+* **Erweiterte Impressionen:** (Im Abschnitt [!UICONTROL Build Your Report] unter [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Das Volumen der inkrementellen Impressionen, die durch Nutzung eines Gerätediagramms bereitgestellt werden (und nicht in den ursprünglichen Zielgruppensegmenten gefunden werden). Diese Metrik wird auch zur Berechnung der anwendbaren Gebühren für die Verwendung eines Gerätediagramms eines Drittanbieters verwendet.
 
-  Um die Kosten Ihrer erweiterten Impressionen während eines Zeitraums zu ermitteln, führen Sie einen benutzerspezifischen Bericht aus, der Folgendes enthält: [!UICONTROL Extended Impressions] und multiplizieren Sie dann die Gesamtanzahl der erweiterten Impressionen mit 0,00035 USD ($0,35/1000 Impressionen).
+  Um die Kosten Ihrer erweiterten Impressionen während eines Zeitraums zu ermitteln, führen Sie einen benutzerspezifischen Bericht aus, der die Spalte &quot;[!UICONTROL Extended Impressions]&quot;enthält, und multiplizieren Sie dann die Gesamtanzahl der erweiterten Impressionen um 0,0035 USD ($0,35/1000 Impressionen).
 
-  Die aggregierten Kosten sind auch im [!UICONTROL Billable Other Net Spend] column (under [!UICONTROL Metrics] > [!UICONTROL Spend]), obwohl diese Metrik auch andere Kampagnengebühren enthält, die Sie möglicherweise hinzugefügt haben.
+  Die aggregierten Kosten sind auch in der Spalte [!UICONTROL Billable Other Net Spend] enthalten (unter [!UICONTROL Metrics] > [!UICONTROL Spend]), obwohl diese Metrik auch andere Kampagnengebühren enthält, die Sie möglicherweise hinzugefügt haben.
 
-* **Gerätediagramm:** (Im [!UICONTROL Build Your Report] Abschnitt unter [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Das ausgewählte Gerätediagramm für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung.
+* **Gerätediagramm:** (Im Abschnitt [!UICONTROL Build Your Report] unter [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Das ausgewählte Gerätediagramm für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung.
 
 ## Benutzerbasierte Attributionsmessung
 
 *Advertiser mit nur Adobe Advertising-Konversions-Tracking*
 
-Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist DSP verfügbar. [!DNL Adobe Advertising Creative], und [!DNL Adobe Advertising Search, Social, & Commerce] für Advertiser, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
+Mit der benutzerbezogenen Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Die personenbasierte Attributionsmessung ist für Advertiser DSP, [!DNL Adobe Advertising Creative] und [!DNL Adobe Advertising Search, Social, & Commerce] verfügbar, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
 
 ### Benutzerbasierte Attributionsmessung aktivieren
 
@@ -88,17 +88,17 @@ Wenden Sie sich an Ihr Adobe Account-Team, wenn Sie die geräteübergreifende At
 
 #### Konversionsberichtseinstellungen
 
-Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, wird die [!UICONTROL Conversion] Der Bericht enthält eine [!UICONTROL Cross-Device Breakout] -Einstellung, mit der Sie bis zu drei separate Spalten für jede Konversionsmetrik einbeziehen können, darunter:
+Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, enthält der Bericht [!UICONTROL Conversion] eine Einstellung [!UICONTROL Cross-Device Breakout] , mit der Sie bis zu drei separate Spalten für jede Konversionsmetrik einbeziehen können, darunter:
 
-* &lt;*Konversion*>[!UICONTROL (tp)]: Umfasst die Gesamtkonversionen (Personen insgesamt), die sowohl Konversionen mit demselben Gerät als auch geräteübergreifende Konversionen enthalten (falls zutreffend). Im Bericht heißt es: &quot;[!UICONTROL (tp)]&quot; wird an den Konversionsmetriknamen, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(tp)).
+* &lt;*Konversion*>[!UICONTROL (tp)]: Umfasst die Gesamtkonversionen (Personen insgesamt), die sowohl Konversionen auf demselben Gerät als auch geräteübergreifende Konversionen enthalten (falls zutreffend). Im Bericht wird &quot;[!UICONTROL (tp)]&quot; an den Namen, den Regeltyp und die Konversionstypen der Konversionsmetrik im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(tp)).
 
-* &lt;*Konversion*>[!UICONTROL (sd)]: (Optional) Umfasst nur Konversionen, für die im Konversionspfad nur ein einzelnes Gerät verfolgt wurde. Im Bericht heißt es: &quot;[!UICONTROL (sd)]&quot; wird an den Konversionsmetriknamen, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(sd)).
+* &lt;*Konversion*>[!UICONTROL (sd)]: (Optional) Umfasst nur Konversionen, für die im Konversionspfad nur ein einziges Gerät verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (sd)]&quot; an den Namen, den Regeltyp und die Konversionstypen der Konversionsmetrik im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(sd)).
 
-* &lt;*Konversion*>[!UICONTROL (xd)]: (Optional) Umfasst nur Konversionen, für die im Konversionspfad mehr als ein Gerät verfolgt wurde. Im Bericht heißt es: &quot;[!UICONTROL (xd)]&quot; wird an den Konversionsmetriknamen, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(xd)).
+* &lt;*Konversion*>[!UICONTROL (xd)]: (Optional) Umfasst nur Konversionen, für die im Konversionspfad mehr als ein Gerät verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen, den Regeltyp und die Konversionstypen der Konversionsmetrik im Konversionspfad angehängt (z. B. &quot;Responses(le)(tl)(xd)).
 
 #### Interpretieren des Konversionsberichts
 
-Sortieren Sie den Prozentsatz der geräteübergreifenden Gesamtkonversionen ([!UICONTROL (xd)]/[!UICONTROL (tl)]) von oben nach unten, um zu verstehen, was zu überdurchschnittlichen geräteübergreifenden Konversionen führt. Sie können dies verwenden, um Ihre Kreativ- oder Targeting-Strategie zu informieren, um Messaging und Kanalinvestitionen auf das Benutzerverhalten abzugleichen.
+Sortieren Sie den Prozentsatz der gesamten Konversionen, die geräteübergreifend sind ([!UICONTROL (xd)]/[!UICONTROL (tl)]), von hoch zu niedrig, um zu verstehen, was zu überdurchschnittlichen geräteübergreifenden Konversionen führt. Sie können dies verwenden, um Ihre Kreativ- oder Targeting-Strategie zu informieren, um Messaging und Kanalinvestitionen auf das Benutzerverhalten abzugleichen.
 
 * Pakete - Ermitteln Sie, welche Pakete die meisten Konversionen erzielen und welche einen hohen Prozentsatz geräteübergreifender Konversionen aufweisen. Auf diese Weise können Sie erkennen, wo die Ausgaben konzentriert werden.
 

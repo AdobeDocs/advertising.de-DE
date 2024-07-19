@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Conversion Report]'
-description: Informationen zum [!UICONTROL AdWords Conversion Report].
-exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+description: Erfahren Sie mehr über die [!UICONTROL AdWords Conversion Report].
+exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Conversion Report]
 
-*[!DNL Google Ads]Konten mit [!DNL Google Ads] Nur Konversionsoptimierung*
+*[!DNL Google Ads]Konten mit [!DNL Google Ads] Konversionsoptimierung nur*
 
-Die [!UICONTROL AdWords Conversion Report] enthält Kosten-, Klick- und Impressionsdaten; Konversionsdaten nach Konversionstyp, der von der [!DNL Google Ads Conversion Optimizer]; und (optional) abgeleitete Metrikdaten für ein oder mehrere Konten, Kampagnen, Anzeigengruppen, Anzeigen oder Suchbegriffe. Daten werden nur angezeigt, wenn die Variable [!DNL Google Ads Conversion Optimizer] in den Gebotseinstellungen der Kampagne aktiviert ist (und daher optimiert Search, Social und Commerce die Angebote für die Kampagne nicht). Standardmäßig enthalten die Daten für jede Konversion für jeden relevanten Suchbegriff eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen werden in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Keyword angezeigt. Der Bericht enthält weder Kosten-, Klick- oder Impressionsdaten noch Konversionsdaten, die von [!DNL Adobe].
+Der [!UICONTROL AdWords Conversion Report] enthält Kosten-, Klick- und Impressionsdaten, Konversionsdaten nach Konversionstyp, die von [!DNL Google Ads Conversion Optimizer] verfolgt werden, und (optional) abgeleitete Metrikdaten für ein oder mehrere Konten, Kampagnen, Anzeigengruppen, Anzeigen oder Suchbegriffe. Daten werden nur angezeigt, wenn der [!DNL Google Ads Conversion Optimizer] in den Gebotseinstellungen der Kampagne aktiviert ist (und daher Optimieren von Angeboten für die Kampagne durch Search, Social und Commerce nicht erfolgt). Standardmäßig enthalten die Daten für jede Konversion für jeden relevanten Suchbegriff eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen werden in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Keyword angezeigt. Der Bericht enthält weder Kosten-, Klick- oder Impressionsdaten noch Konversionsdaten, die von [!DNL Adobe] verfolgt werden.
 
 Sie können Daten der letzten zwei Monate anzeigen.
 
@@ -24,7 +24,7 @@ Sie können Daten der letzten zwei Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für Sonderberichte](specialty-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -51,6 +51,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
-* [Über Sonderberichte](specialty-report-about.md)
-* [Einen Spezialbericht erstellen](specialty-report-generate.md)
-* [Einstellungen für Sonderberichte](specialty-report-settings.md)
+>* [Über Sonderberichte](specialty-report-about.md)
+>* [Erstellen eines Sonderberichts](specialty-report-generate.md)
+>* [Einstellungen für den Sonderbericht](specialty-report-settings.md)

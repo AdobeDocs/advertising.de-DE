@@ -1,22 +1,22 @@
 ---
-title: Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Inventarangebote
-description: Informationen zum Abonnieren und Anfordern des Zugriffs auf[!DNL On Demand] Angebote.
+title: Anmelden und Anfordern des Zugriffs auf [!DNL On Demand] Premium Inventory Deals
+description: Hier erfahren Sie, wie Sie[!DNL On Demand]-Angebote abonnieren und Zugriff darauf anfordern können.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Inventarangebote
+# Abonnieren und Anfordern des Zugriffs auf [!DNL On Demand] Premium-Inventarangebote
 
-*Für Benutzer mit Kontotypen nicht verfügbar [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]und [!UICONTROL Other]; Advertiser mit der Kategorie [!UICONTROL Other]; und Wiederverkäufer*
+*Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other]; Advertiser mit der Kategorie [!UICONTROL Other]; und Wiederverkäufer*
 
 Sie können einzelne Angebote anfordern oder einen Herausgeber abonnieren, um alle Angebote des Herausgebers anzufordern. Wenn Sie einen Herausgeber abonnieren, fordert DSP automatisch alle neuen Angebote an, die der Herausgeber in Ihrem Namen anbietet.
 
-Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md)enthalten ist, wird es standardmäßig als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand] Inventar. Der neue Deal ist auch als Ziel für vorhandene Platzierungen verfügbar. Sie müssen jedoch die Platzierungseinstellungen manuell bearbeiten, um den Deal als Ziel hinzuzufügen.
+Sobald ein Geschäft [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md) ist, wird es standardmäßig als Ziel für neue Platzierungen eingefügt, die alle [!DNL On Demand]-Bestände abdecken. Der neue Deal ist auch als Ziel für vorhandene Platzierungen verfügbar. Sie müssen jedoch die Platzierungseinstellungen manuell bearbeiten, um den Deal als Ziel hinzuzufügen.
 
 ## Abonnieren aller Angebote eines Herausgebers
 
@@ -38,13 +38,13 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren (**[!UICONTROL Tune-In]**)
 
-   * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen akzeptiert (**[!UICONTROL Legal drinking age]**)
+   * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen (**[!UICONTROL Legal drinking age]**) akzeptiert.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Um kürzlich hinzugefügte Herausgeber zu abonnieren) Halten Sie im oberen Karussell der Herausgeber den Cursor über das Herausgeberlogo und klicken Sie dann auf **[!UICONTROL Subscribe]**.
 
-   * (Um einen Herausgeber zu abonnieren) Klicken Sie auf **[!UICONTROL Subscription view]**, halten Sie den Cursor über das Publisher-Logo und klicken Sie auf **[!UICONTROL Subscribe]**.
+   * (Um einen Herausgeber zu abonnieren) Klicken Sie auf **[!UICONTROL Subscription view]**, halten Sie den Cursor über das Herausgeberlogo und klicken Sie dann auf **[!UICONTROL Subscribe]**.
 
 ## Anfordern des Zugriffs auf einzelne Angebote
 
@@ -66,29 +66,28 @@ Sobald ein Deal abgeschlossen ist [genehmigt](/help/dsp/inventory/on-demand-inve
 
    * Angebote von Herausgebern, die &quot;Tune-in&quot;-Kreativinhalte akzeptieren (**[!UICONTROL Tune-In]**)
 
-   * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen akzeptiert (**[!UICONTROL Legal drinking age]**)
+   * Angebote, für die der Herausgeber mindestens 21 Zielgruppen verwendet hat und Alkoholanzeigen (**[!UICONTROL Legal drinking age]**) akzeptiert.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * So fordern Sie kürzlich hinzugefügte Angebote an:
 
-      1. Halten Sie im oberen Karussell der Herausgeber den Cursor über das Publisher-Logo und klicken Sie auf **[!UICONTROL See Deals]**.
+      1. Halten Sie im oberen Karussell der Herausgeber den Cursor über das Herausgeberlogo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 
-      1. Klicken Sie auf **[!UICONTROL Request]** im [!UICONTROL Action] -Spalte für die entsprechende Zeile.
-   * So fordern Sie Angebote von der [!UICONTROL Deal] Ansicht:
+      1. Um einen einzelnen Deal zu abonnieren, klicken Sie in der Spalte [!UICONTROL Action] für die entsprechende Zeile auf **[!UICONTROL Request]** .
 
-      1. Klicken **[!UICONTROL Deal view]**.
+   * So fordern Sie Angebote aus der Ansicht [!UICONTROL Deal] an:
 
-      1. Klicken **[!UICONTROL Request]** im [!UICONTROL Action] -Spalte für die entsprechende Zeile.
+      1. Klicken Sie auf **[!UICONTROL Deal view]**.
 
+      1. Klicken Sie in der Spalte [!UICONTROL Action] für die entsprechende Zeile auf **[!UICONTROL Request]**.
 
 >[!MORELIKETHIS]
 >
->* [Info [!DNL On Demand] Premium-Lagerbestand](on-demand-inventory-about.md)
->* [Anzeigen des Status Ihrer [!DNL On Demand] Angebote und Abonnements](on-demand-inventory-view-status.md)
->* [Lagerergänzungen für On-Demand Premium erneut anfordern](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
+>* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
+>* [Status Ihrer  [!DNL On Demand] Anfragen und Abonnements bearbeiten](on-demand-inventory-view-status.md) anzeigen
+>* [Re-Request On-Demand Premium Inventory Deals](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)
-
+>* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage.
 
-Sie können den alphanumerischen Segmentschlüssel (ID) für eine Zielgruppe in die Zwischenablage kopieren. Sie können Segmentschlüssel verwenden, um [manuell Segmentlogik definieren](audience-segment-logic-syntax.md) für andere wiederverwendbare Zielgruppen.
+Sie können den alphanumerischen Segmentschlüssel (ID) für eine Zielgruppe in die Zwischenablage kopieren. Sie können Segmentschlüssel verwenden, um [manuell die Segmentlogik](audience-segment-logic-syntax.md) für andere wiederverwendbare Zielgruppen zu definieren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -23,16 +23,15 @@ Sie können den alphanumerischen Segmentschlüssel (ID) für eine Zielgruppe in 
 >[!MORELIKETHIS]
 >
 >* [Über Zielgruppen-Management](audience-about.md)
->* [Wiederverwendbare Zielgruppe erstellen](reusable-audience-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Duplizieren einer wiederverwendbaren Zielgruppe](reusable-audience-duplicate.md)
 >* [Eine wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
 >* [Details zu einer wiederverwendbaren Zielgruppe anzeigen](reusable-audience-view-details.md)
 >* [Wiederverwendbare Zielgruppe freigeben](reusable-audience-share.md)
->* [Wiederverwendbare Zielgruppe exportieren](reusable-audience-export.md)
+>* [Exportieren einer wiederverwendbaren Zielgruppe](reusable-audience-export.md)
 >* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
 >* [Wiederverwendbare Zielgruppe freigeben](reusable-audience-share.md)
 >* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
 >* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
->* [Verfügbare Drittanbieter von Daten](third-party-data-providers.md)
-
+>* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)

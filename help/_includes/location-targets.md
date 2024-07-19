@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * Wählen Sie keine Orte aus, um alle Orte als Ziel auszuwählen.
 
-* Um einen Ort und die untergeordneten Positionen einzuschließen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt. Optional können Sie die Angebote für jeden Zielort um einen bestimmten Prozentsatz erhöhen oder verringern.
+* Um einen Ort und seine untergeordneten Positionen einzubeziehen, klicken Sie einmal auf den benachbarten Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt wird. Optional können Sie die Angebote für jeden Zielort um einen bestimmten Prozentsatz erhöhen oder verringern.
 
-* Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt.
+* Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt wird.
 
 * Um einen Ort in seine Unterkomponenten (z. B. die Status, Präfekturen, Regionen oder Städte) zu erweitern, klicken Sie auf den Standortnamen.
 

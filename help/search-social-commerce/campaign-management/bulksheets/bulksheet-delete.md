@@ -1,11 +1,11 @@
 ---
 title: Hochgeladene Bulksheets und Fehlerdateien löschen
 description: Erfahren Sie, wie Sie Ihre Bulksheet-Dateien und Fehlerdateien löschen.
-exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Sie können Bulksheet-Dateien, Validierungsfehlerdateien für Landingpages und a
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Delete]**.
 
-1. (Wenn das Bulksheet für die Veröffentlichung geplant ist) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL OK]** , um das Bulksheet zu löschen, ohne die Daten zu veröffentlichen.
+1. (Wenn das Bulksheet geplant ist, wird es veröffentlicht.) Klicken Sie in der Bestätigungsmeldung auf &quot;**[!UICONTROL OK]**&quot;, um das Bulksheet zu löschen, ohne die Daten zu veröffentlichen.
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
->* [Beenden Sie den laufenden Bulksheet-Auftrag.](bulksheet-stop-job.md)
+>* [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](bulksheet-about.md)
+>* [Beenden eines laufenden Bulksheet-Auftrags](bulksheet-stop-job.md)
 >* [Exportieren einer generierten oder hochgeladenen Bulksheet-Datei](bulksheet-export.md)

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: Informationen zum [!UICONTROL Keyword Daily Impression Share Report].
+description: Erfahren Sie mehr über die [!UICONTROL Keyword Daily Impression Share Report].
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]und [!DNL Microsoft Advertising] Nur Konten*
+Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Die [!UICONTROL Keyword Daily Impression Share Report] enthält Metriken zur täglichen Impressions-Freigabe für jeden Suchbegriff, den entsprechenden Übereinstimmungstyp und den entsprechenden Gerätetyp für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jeden Suchbegriff, Übereinstimmungstyp und Gerät, der für jeden Tag im angegebenen Datumsbereich mindestens eine Impression oder ein Klick für jede zutreffende Anzeigengruppe erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum sortiert. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken.
+Der [!UICONTROL Keyword Daily Impression Share Report] enthält tägliche Metriken zur Impressions-Freigabe für jeden Suchbegriff, den entsprechenden Übereinstimmungstyp und den entsprechenden Gerätetyp für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jeden Suchbegriff, Übereinstimmungstyp und Gerät, der für jeden Tag im angegebenen Datumsbereich mindestens eine Impression oder ein Klick für jede zutreffende Anzeigengruppe erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum sortiert. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken verfolgt werden.
 
 Metriken zur Impressions-Freigabe sind um 13:00 Uhr in der Zeitzone des Advertisers für den vorherigen Tag verfügbar. Sie können Daten der letzten zwei Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für Sonderberichte](specialty-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -49,5 +49,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über Sonderberichte](specialty-report-about.md)
->* [Einen Spezialbericht erstellen](specialty-report-generate.md)
->* [Einstellungen für Sonderberichte](specialty-report-settings.md)
+>* [Erstellen eines Sonderberichts](specialty-report-generate.md)
+>* [Einstellungen für den Sonderbericht](specialty-report-settings.md)

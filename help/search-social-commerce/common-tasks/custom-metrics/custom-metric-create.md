@@ -1,12 +1,12 @@
 ---
 title: Benutzerdefinierte Metrik erstellen
 description: Erfahren Sie, wie Sie benutzerdefinierte Metriken konfigurieren, die aus Standardmetriken berechnet werden.
-exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,39 +18,39 @@ ht-degree: 1%
 
    * Klicken Sie auf den Namen der Standardansicht oder benutzerdefinierten Ansicht, um die Ansichtseinstellungen zu öffnen.
 
-   * Klicks ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns.png "Benutzerdefinierte Spalten") , um die Spaltenkonfigurationseinstellungen zu öffnen.
+   * Klicken Sie auf ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns.png "Benutzerdefinierte Spalten") , um die Spaltenkonfigurationseinstellungen zu öffnen.
 
-1. Klicken Sie unter der angezeigten Spaltenliste auf ![Neue benutzerdefinierte Metrik erstellen](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
+1. Klicken Sie unter der sich öffnenden Spaltenliste auf ![Neue benutzerdefinierte Metrik erstellen](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
 
-1. Geben Sie die [Benutzerdefinierte Metrikeinstellungen](custom-metric-settings.md).
+1. Geben Sie die [benutzerdefinierten Metrikeinstellungen](custom-metric-settings.md) an.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Benutzerdefinierte Metrik aus einem Bericht- oder Berichtsvorlagenformular erstellen
 
-1. Navigieren Sie in einem Bericht- oder Berichtsvorlagenformular zum **[!UICONTROL Columns]** Registerkarte.
+1. Gehen Sie in einem Berichts- oder Berichtsvorlagenformular zur Registerkarte **[!UICONTROL Columns]** .
 
-1. Klicken Sie im rechten Bereich auf **[!UICONTROL Create]**.
+1. Klicken Sie im rechten Abschnitt auf **[!UICONTROL Create]**.
 
-1. Geben Sie die [Benutzerdefinierte Metrikeinstellungen](custom-metric-settings.md).
+1. Geben Sie die [benutzerdefinierten Metrikeinstellungen](custom-metric-settings.md) an.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicken Sie auf **[!UICONTROL Submit]**.
 
-## Erstellen Sie eine benutzerdefinierte Metrik aus dem [!UICONTROL Portfolios] views
+## Benutzerdefinierte Metrik aus den [!UICONTROL Portfolios] Ansichten erstellen
 
-1. Klicken Sie über der Datentabelle auf ![Auswahl bearbeiten](/help/search-social-commerce/assets/view-settings.png "Auswahl bearbeiten").
+1. Klicken Sie über der Datentabelle auf ![Ausgewählte Ansicht bearbeiten](/help/search-social-commerce/assets/view-settings.png "Ausgewählte Ansicht bearbeiten").
 
-1. Klicken Sie auf **[!UICONTROL Columns]** Registerkarte.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Columns]** .
 
-1. Klicken Sie im rechten Bereich auf **[!UICONTROL Create]**.
+1. Klicken Sie im rechten Abschnitt auf **[!UICONTROL Create]**.
 
-1. Geben Sie die [Benutzerdefinierte Metrikeinstellungen](custom-metric-settings.md).
+1. Geben Sie die [benutzerdefinierten Metrikeinstellungen](custom-metric-settings.md) an.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicken Sie auf **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über benutzerdefinierte Metriken](custom-metric-about.md)
 >* [Benutzerdefinierte Metrik bearbeiten](custom-metric-edit.md)
->* [Benutzerdefinierte Metrik löschen](custom-metric-delete.md)
+>* [Löschen einer benutzerdefinierten Metrik](custom-metric-delete.md)
 >* [Benutzerdefinierte Metrikeinstellungen](custom-metric-settings.md)

@@ -1,9 +1,9 @@
 ---
 title: Über Rollen
 description: Erfahren Sie mehr über Benutzerrollen.
-exl-id: 54e17b15-59b2-413b-9670-feb31ba8b3ef
+exl-id: 5ce22392-fead-4a98-ac6a-1655e2ac062a
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Rollen bestimmen die Berechtigungen, die ein Benutzertyp ausführen kann. Jeder Benutzer ist einer Rolle zugewiesen und kann alle Aktivitäten ausführen, die die Rolle zulässt.
 
-Nur Benutzer mit [!DNL Adobe] Kontomanager- und Administratorrollen können Benutzern Rollen zuweisen.
+Nur Benutzer mit den Benutzerrollen [!DNL Adobe] Konto-Manager und Administrator können Benutzern Rollen zuweisen.

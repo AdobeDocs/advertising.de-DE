@@ -12,26 +12,25 @@ ht-degree: 0%
 
 # Einstellungen für private Angebote bearbeiten
 
-Änderungen an einem akzeptierten Deal werden nicht über die SSP synchronisiert. Wenn Sie ein Angebot akzeptiert haben, der Herausgeber jedoch Änderungen gesendet hat, können Sie einige Elemente der Deal-Einstellungen unter [!UICONTROL Inventory] > [!UICONTROL Deals]. Sie können einen Deal auch jederzeit umbenennen.
+Änderungen an einem akzeptierten Deal werden nicht über die SSP synchronisiert. Wenn Sie einen Deal akzeptiert haben, der Herausgeber jedoch Änderungen gesendet hat, können Sie einige Elemente der Deal-Einstellungen unter [!UICONTROL Inventory] > [!UICONTROL Deals] bearbeiten. Sie können einen Deal auch jederzeit umbenennen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. Bearbeiten Sie die [Deal-Einstellungen](deal-id-settings.md).
 
-   Sie können die [!UICONTROL Deal Name], [!UICONTROL Media Type] (wenn der Deal mehrere Medientypen umfasst), [!UICONTROL CPM] Wert, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates]und [!UICONTROL Impressions].
+   Sie können die Werte [!UICONTROL Deal Name], [!UICONTROL Media Type] (wenn das Geschäft mehrere Medientypen umfasst), [!UICONTROL CPM], [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] und [!UICONTROL Impressions] bearbeiten.
 
-   Sie können die [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type]oder [!UICONTROL Billing Method].
+   Sie können die [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] oder [!UICONTROL Billing Method] nicht bearbeiten.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Über privates Inventar](private-inventory-about.md)
+>* [Über den privaten Bestand](private-inventory-about.md)
 >* [Manuelles Erstellen von Details zur Angebots-ID](deal-id-create.md)
->* [Manuelle Deal-ID-Einstellungen](deal-id-settings.md)
->* [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](programmatic-guaranteed-set-up.md)
->* [Platzierungen und Anzeigen an ein privates Geschäft anhängen](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [Manuelle ID-Einstellungen für Geschäfte](deal-id-settings.md)
+>* [Einrichten eines programmgesteuerten Garantierten Deals](programmatic-guaranteed-set-up.md)
+>* [Platzierungen und Anzeigen an einen privaten Deal anhängen](/help/dsp/inventory/deal-id-attach-placements.md)
 >* [Archivieren oder Aufheben der Archivierung eines privaten Angebots](/help/dsp/inventory/private-deal-archive-unarchive.md)
-

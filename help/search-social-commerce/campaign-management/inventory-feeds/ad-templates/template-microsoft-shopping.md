@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
-description: Verweisen Sie auf die Einstellungen für [!DNL Microsoft Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
+title: '[!DNL Microsoft Ads] Einstellungen für Shopping-Anzeigenvorlagen für Inventar-Feeds'
+description: Referenzieren Sie die Einstellungen für  [!DNL Microsoft Ads] Einkaufs-Anzeigenvorlagen für Inventar-Feeds.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds
+# [!DNL Microsoft Ads] Einstellungen für Shopping-Anzeigenvorlagen für Inventar-Feeds
 
 Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 >[!NOTE]
 >
->* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher in allen Attributfeldern als Text verboten:  `[ ] < > `
+>* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher als Text in allen Attributfeldern verboten: `[ ] < > `
 
 
 ## \[Über allen Registerkarten\]
@@ -59,11 +59,11 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Campaign Tracking Template]:** (Optional für Vorlagen für Client-Feed-Dateien) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
-* Für Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; einen der folgenden Schritte ausführen&quot;:
+* Führen Sie für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot;und &quot;[!UICONTROL Auto Upload]&quot;enthalten, einen der folgenden Schritte aus:
 
-   * (Empfohlen) Verwenden Sie die [Tracking-Vorlagenformat für Microsoft-Einkaufskampagnen](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+   * (Empfohlen) Verwenden Sie das Tracking-Vorlagenformat [für Microsoft-Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
-   * Wenn Sie stattdessen einen Wert für jedes Produkt in den Feed einschließen, indem Sie die[!DNL bingads_redirect]&quot; (mithilfe der [korrektes Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), geben Sie dann den Parameter ein. `{lpurl}`. Sie können optional Umleitungen und Tracking von Drittanbietern zum `{lpurl}` -Parameter.
+   * Wenn Sie stattdessen mit der Spalte &quot;[!DNL bingads_redirect]&quot; (unter Verwendung des [richtigen Formats](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) einen Wert für jedes Produkt im Feed angeben, geben Sie den Parameter `{lpurl}` ein. Sie können optional Umleitungen und Tracking von Drittanbietern zum Parameter `{lpurl}` hinzufügen.
 
 * Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -73,7 +73,8 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlers, dessen Produkte für die Kampagne verwendet werden.
 
-**[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte mit Zielländern verknüpft sind, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
+**[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte zugeordnet sind
+mit Zielländern festlegen, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -97,7 +98,9 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen für dasselbe Produkt werben: *[!UICONTROL Low]* (Standardeinstellung für neue Kampagnen), *[!UICONTROL Medium]* oder *[!UICONTROL High]*. Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk zuerst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und welches zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt.
+**[!UICONTROL Campaign Priority]:** Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen auf die
+dasselbe Produkt: *[!UICONTROL Low]* (Standard für neue Kampagnen), *[!UICONTROL Medium]* oder *[!UICONTROL High]*. Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk
+die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und das zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -139,7 +142,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** Die standardmäßige, umfassende Produktgruppe, &quot;[!UICONTROL All products].&quot; Sie können diese übergeordnete Produktgruppe nicht löschen, sie wird jedoch automatisch gelöscht, wenn alle unteren Ebenen im Feed fehlen.
+**[!UICONTROL Tier 1]:** Die standardmäßige, alle inklusive Produktgruppe &quot;[!UICONTROL All products]&quot;. Sie können diese übergeordnete Produktgruppe nicht löschen, sie wird jedoch automatisch gelöscht, wenn alle unteren Ebenen im Feed fehlen.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -149,7 +152,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] -Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
+**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für das Produkt
+-Gruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen [!DNL ValueTrack] -Parameter einbettet. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene reicht aus.
 
@@ -171,8 +175,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 >[!MORELIKETHIS]
 >
->* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
+>* [Über die Automatisierung der Anzeigenverwaltung mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
 >* [Verwalten von Modifikatoren](../modifiers-manage.md)
 >* [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
->* [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)
+>* [Übertragen von Feed-Daten über Vorlagen](../feed-data-propagate.md)
+>* [Veröffentlichen von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 In den meisten Kampagnendaten können Sie die in der Datentabelle angezeigten Daten anpassen. Sie können die Daten wie folgt anpassen:
 
-* Bearbeiten Sie die Einstellungen für die gesamte Standardansicht einer bestimmten Entitätsansicht (z. B. [!UICONTROL Campaigns]), um eine bestimmte Spaltenreihenfolge, Filter, Datumsbereich, Attributionsregel und mehr einzubeziehen - und wenden Sie die Einstellungen entweder vorübergehend an oder speichern Sie sie. Sie können auch zusätzliche benutzerdefinierte Ansichten erstellen und jederzeit Ihre Ansichten anwenden.
+* Bearbeiten Sie die Einstellungen für Ihre gesamte Standardansicht einer bestimmten Entitätsansicht (z. B. [!UICONTROL Campaigns]), um eine bestimmte Spaltenreihenfolge, Filter, Datumsbereich, Attributionsregel und mehr einzuschließen - und wenden Sie die Einstellungen entweder vorübergehend an oder speichern Sie sie. Sie können auch zusätzliche benutzerdefinierte Ansichten erstellen und jederzeit Ihre Ansichten anwenden.
 
-* Spalten und ihre Sortierreihenfolge aus der [!UICONTROL Columns] rechts in der Symbolleiste oder ändern Sie schnell nur die Spalten einer Spaltenüberschrift in der Ansicht.
+* Ändern Sie die Spalten und ihre Sortierreihenfolge über das Symbol [!UICONTROL Columns] rechts in der Symbolleiste oder ändern Sie schnell nur die Spalten aus einer Spaltenüberschrift in der Ansicht.
 
 * Im linken Navigationsbereich haben Sie folgende Möglichkeiten:
 
@@ -32,4 +32,4 @@ In den meisten Kampagnendaten können Sie die in der Datentabelle angezeigten Da
 
 * Sortieren Sie die Daten nach den Werten in einer bestimmten Spalte.
 
-* Festlegen, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] unten rechts auf jeder Seite.
+* Legen Sie fest, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] unten rechts auf einer beliebigen Seite angezeigt werden sollen.

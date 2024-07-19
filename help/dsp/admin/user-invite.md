@@ -20,17 +20,17 @@ Bei Bedarf können Sie die Einladung eines Benutzers mit ausstehender Einladung 
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und klicken Sie anschließend auf **[!UICONTROL Edit users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und dann auf **[!UICONTROL Edit users]**.
 
-1. Im **[!UICONTROL Invitations]** Abschnitt, klicken Sie auf **[!UICONTROL Send Invite]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Invitations]** auf **[!UICONTROL Send Invite]**.
 
-1. Im **[!UICONTROL User Email]** Geben Sie die E-Mail-Adresse ein, an die die Einladung gesendet werden soll.
+1. Geben Sie im Feld **[!UICONTROL User Email]** die E-Mail-Adresse ein, an die die Einladung gesendet werden soll.
 
-1. Klicks **[!UICONTROL Send Invite]**.
+1. Klicken Sie auf **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
->* [Eine ausstehende Benutzereinladung erneut senden](user-resend-invite.md)
+>* [Erneutes Senden einer ausstehenden Benutzereinladung](user-resend-invite.md)
 >* [Aufheben der Einladung eines ausstehenden Benutzers](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

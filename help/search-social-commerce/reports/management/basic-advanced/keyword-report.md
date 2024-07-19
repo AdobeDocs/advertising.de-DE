@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Report]'
-description: Informationen zum [!UICONTROL Keyword Report].
-exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+description: Erfahren Sie mehr über die [!UICONTROL Keyword Report].
+exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Report]
 
-Die [!UICONTROL Keyword Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für Suchbegriffe, die Impressionen innerhalb einer oder mehrerer Anzeigengruppen erhalten haben. Optional können Sie die Daten so filtern, dass nur Suchbegriffe mit einer bestimmten Textzeichenfolge einbezogen werden. Standardmäßig enthalten die Daten eine Zeile für jede zutreffende Keyword- und Übereinstimmungstyp-Kombination, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen werden in aufsteigender Reihenfolge zuerst am Startdatum der Zeiteinheit und dann standardmäßig nach Kosten sortiert.
+Der [!UICONTROL Keyword Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für Suchbegriffe, die Impressionen innerhalb einer oder mehrerer Anzeigengruppen erhalten haben. Optional können Sie die Daten so filtern, dass nur Suchbegriffe mit einer bestimmten Textzeichenfolge einbezogen werden. Standardmäßig enthalten die Daten eine Zeile für jede zutreffende Keyword- und Übereinstimmungstyp-Kombination, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen werden in aufsteigender Reihenfolge zuerst am Startdatum der Zeiteinheit und dann standardmäßig nach Kosten sortiert.
 
 Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
 
@@ -20,11 +20,11 @@ Sie können Daten der letzten 36 Monate anzeigen.
 
 >[!NOTE]
 >
->Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, wird die [!UICONTROL Keyword] enthält im abgeschlossenen Bericht die entsprechenden Anzeigengruppennamen, wie z. B. &quot;(Adgroup-Inhalt) Ihr Anzeigengruppenname&quot;.
+>Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält die Spalte [!UICONTROL Keyword] im abgeschlossenen Bericht die entsprechenden Anzeigengruppennamen, wie z. B. &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,5 +48,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
->* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

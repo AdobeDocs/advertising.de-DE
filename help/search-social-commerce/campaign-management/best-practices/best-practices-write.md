@@ -1,11 +1,11 @@
 ---
 title: Effektive Textanzeigenkopie schreiben
 description: Erfahren Sie mehr über Best Practices zum Schreiben einer effektiven Anzeigenkopie.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * Sonderzeichen wie `@,~,\, ^,>,<` sind verboten.
 
-* Verknüpfungen oder die Verwendung von Symbolen zum Ersetzen von Wörtern sind verboten. Beispielsweise können Sie &quot;U&quot;nicht verwenden, um &quot;Sie&quot;oder &quot;`@`&quot;, um &quot;at&quot;zu ersetzen.
+* Verknüpfungen oder die Verwendung von Symbolen zum Ersetzen von Wörtern sind verboten. Beispielsweise können Sie &quot;U&quot;nicht verwenden, um &quot;Sie&quot;zu ersetzen, oder &quot;`@`&quot;, um &quot;at&quot;zu ersetzen.
 
 * Superlative Ausdrücke wie &quot;Beste&quot; oder &quot;#1&quot; sind verboten, es sei denn, diese Unterscheidung wurde von einem Dritten überprüft und die Überprüfung wird auf Ihrer Website deutlich dargestellt.
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 `{KeyWord:default}` = Rasenmäher
 
-`{KEYWord:default}` = LAWN-Rasenmäher (erlaubt nur, wenn &quot;LAWN&quot; eine Marke ist)
+`{KEYWord:default}` = LAWN Mowers (erlaubt nur, wenn &quot;LAWN&quot;eine Marke ist)
 
-`{KeyWORD:default}` = Lawn MOWERS (zulässig nur, wenn &quot;MOWERS&quot;eine Marke ist)
+`{KeyWORD:default}` = Lawn MOWERS (ist nur zulässig, wenn &quot;MOWERS&quot;eine Marke ist)
 
-`{KEYWORD:default}` = LAWN MOWERS (erlaubt nur, wenn &quot;LAWN MOWERS&quot; eine Marke ist)
+`{KEYWORD:default}` = LAWN MOWERS (ist nur zulässig, wenn &quot;LAWN MOWERS&quot;eine Marke ist)
 
 >[!MORELIKETHIS]
 >
->* [Berichte analysieren, um Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
->* [Landingpages der Website optimieren](best-practices-optimize.md)
+>* [Analysieren Sie Berichte, um Ihre Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
+>* [Optimieren der Landingpages der Website](best-practices-optimize.md)

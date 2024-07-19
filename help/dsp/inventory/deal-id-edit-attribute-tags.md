@@ -15,20 +15,19 @@ Sie können Tags erstellen und zuweisen, um IDs zu vergeben und ähnliche Angebo
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicken Sie in der Zeile &quot;Deal&quot;auf ![Optionen, Menü](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
+1. Klicken Sie in der Zeile &quot;Deal&quot;auf ![Menü &quot;Optionen&quot;](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 
-1. Im [!UICONTROL Ad & Deal Tagging] führen Sie einen der folgenden Schritte aus:
+1. Führen Sie in den Einstellungen für [!UICONTROL Ad & Deal Tagging] einen der folgenden Schritte aus:
 
-   * Um dem Deal ein vorhandenes Tag zuzuweisen, aktivieren Sie das Kontrollkästchen neben dem Deal im [!UICONTROL Custom Tags] Liste.
+   * Um dem Deal ein vorhandenes Tag zuzuweisen, aktivieren Sie in der Liste [!UICONTROL Custom Tags] das Kontrollkästchen neben dem Deal.
 
-   * Um ein Tag zu erstellen und es mit dem Deal zu verknüpfen, geben Sie den Tag-Namen in das **[!UICONTROL Create new tag(s)]** und klicken Sie auf **[!UICONTROL Create and Associate Tag]**.
+   * Um ein Tag zu erstellen und es mit dem Deal zu verknüpfen, geben Sie den Tag-Namen in das Feld **[!UICONTROL Create new tag(s)]** ein und klicken Sie dann auf **[!UICONTROL Create and Associate Tag]**.
 
-   * Um ein vorhandenes Tag aus dem Deal zu entfernen, deaktivieren Sie das Kontrollkästchen neben dem Deal im [!UICONTROL Custom Tags] Liste.
+   * Um ein vorhandenes Tag aus dem Deal zu entfernen, deaktivieren Sie in der Liste [!UICONTROL Custom Tags] das Kontrollkästchen neben dem Deal.
 
-1. Klicken **[!UICONTROL Update]**.
+1. Klicken Sie auf **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
->* [Über privates Inventar](private-inventory-about.md)
+>* [Über den privaten Bestand](private-inventory-about.md)
 >* [Einstellungen für private Angebote bearbeiten](/help/dsp/inventory/deal-id-edit.md)
-

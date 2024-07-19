@@ -20,21 +20,20 @@ Sie können die Daten nach einer beliebigen Spalte sortieren, mit Ausnahme von N
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Im **[!UICONTROL Packages]** Registerkarte neben dem Paketnamen klicken Sie auf  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Packages]** neben dem Paketnamen auf **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Um zwischen der Anzeige der Daten nur im Tabellenformular und sowohl in Tabellen- als auch in Diagrammformularen zu wechseln, klicken Sie auf ![Tabellen- und Diagrammansicht](/help/dsp/assets/table-plus-chart-view.png "Tabellen- und Diagrammansicht") oder ![Tabellenansicht](/help/dsp/assets/table-view.png "Tabellenansicht") in der oberen rechten Symbolleiste.
+   * Um zwischen der Anzeige der Daten nur im Tabellenformular und sowohl in Tabellen- als auch in Diagrammformularen zu wechseln, klicken Sie in der oberen rechten Symbolleiste auf ![Tabellen- und Diagrammansicht](/help/dsp/assets/table-plus-chart-view.png "Tabellen- und Diagrammansicht") oder ![Tabellenansicht](/help/dsp/assets/table-view.png "Tabellenansicht") .
 
-   * Um einem Eintrag eine Notiz hinzuzufügen, halten Sie den Cursor über den [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL Add Notes]**. Geben Sie Text in die Eingabefelder ein und klicken Sie auf **[!UICONTROL Save]**.
+   * Um einem Eintrag eine Notiz hinzuzufügen, halten Sie den Cursor über die Spalte [!UICONTROL Notes] für die Zeile und klicken Sie dann auf **[!UICONTROL Add Notes]**. Geben Sie Text in die Eingabefelder ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
-   * Um die Details für einen Eintrag in einem Popup-Fenster anzuzeigen, halten Sie den Cursor über den [!UICONTROL Notes] Spalte für die Zeile und klicken Sie dann auf **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Um die Details für einen Eintrag in einem Popup-Fenster anzuzeigen, halten Sie den Cursor über die Spalte [!UICONTROL Notes] für die Zeile und klicken Sie dann auf **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
->* [Über Package Management](package-about.md)
+>* [Über die Paketverwaltung](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Platzierung an ein Paket anhängen](package-attach-placement.md)
 >* [Paketeinstellungen](package-settings.md)
-

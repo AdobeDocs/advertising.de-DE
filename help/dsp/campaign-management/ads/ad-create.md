@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Einzelne Anzeige erstellen
 
-Sie können eine individuelle native Display-Anzeige oder eine Drittanbieter-Anzeige in verschiedenen [Anzeigentypen](ad-about.md#ad-types).
+Sie können eine individuelle native Display-Anzeige oder eine Drittanbieter-Anzeige in verschiedenen [Anzeigentypen](ad-about.md#ad-types) erstellen.
 
-Informationen zum Erstellen mehrerer Drittanbieter-Anzeigen auf einmal finden Sie unter [Erstellen mehrerer Drittanbieteranzeigen](ad-create-multiple.md).
+Informationen zum Erstellen mehrerer Drittanbieter-Anzeigen auf einmal finden Sie unter [Erstellen mehrerer Drittanbieter-Anzeigen](ad-create-multiple.md).
 
 >[!NOTE]
 >
@@ -24,25 +24,25 @@ Informationen zum Erstellen mehrerer Drittanbieter-Anzeigen auf einmal finden Si
 
 1. Klicken Sie auf den Namen der Kampagne, in die die Anzeige eingefügt werden soll.
 
-1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**. Im [!UICONTROL Ad Types] Klicken Sie im Menü auf die Schaltfläche [Anzeigenart](ad-about.md#ad-types).
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**. Klicken Sie im Abschnitt [!UICONTROL Ad Types] des Menüs auf den Anzeigentyp [2}.](ad-about.md#ad-types)
 
-1. Geben Sie die Anzeigeneinstellungen für [Audio-Anzeigen](ad-settings-audio.md), [vernetztes Fernsehen](ad-settings-connected-tv.md), [Display-Anzeigen](ad-settings-display.md), [mobile Anzeigen](ad-settings-mobile.md), [native Anzeigen](ad-settings-native.md), [Pre-Roll-Anzeigen](ad-settings-pre-roll.md)oder [universelle Videoanzeigen](ad-settings-universal-video.md):
+1. Geben Sie die Anzeigeneinstellungen für [Audioanzeigen](ad-settings-audio.md), [vernetztes TV](ad-settings-connected-tv.md), [Display-Anzeigen](ad-settings-display.md), [mobile Anzeigen](ad-settings-mobile.md), [native Anzeigen](ad-settings-native.md), [Pre-Roll-Anzeigen](ad-settings-pre-roll.md) oder [universelle Videoanzeigen](ad-settings-universal-video.md) an:
 
    >[!NOTE]
    >
    >Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
 
-   1. Im [!UICONTROL Insert Ad Tag] eingeben, Informationen über die Anzeige von einem zertifizierten Drittanbieter-Adserving-Partner eingeben und klicken Sie dann auf **[!UICONTROL Go]**.
+   1. Geben Sie auf dem Bildschirm &quot;[!UICONTROL Insert Ad Tag]&quot;Informationen über die Anzeige von einem zertifizierten Drittanbieter-Ad-Serving-Partner ein und klicken Sie dann auf &quot;**[!UICONTROL Go]**&quot;.
 
-   1. Im [!UICONTROL Options] screen:
+   1. Auf dem Bildschirm [!UICONTROL Options]:
 
-      1. Im [!UICONTROL Basics] -Registerkarte, geben Sie die Anzeigendetails an.
+      1. Geben Sie auf der Registerkarte [!UICONTROL Basics] die Anzeigendetails an.
 
-      1. (Optional) Auf der Registerkarte [!UICONTROL Pixel] angeben, geben Sie die Tracking-Pixel von Drittanbietern an, die Sie an die Anzeige anhängen möchten.
+      1. (Optional) Geben Sie auf der Registerkarte [!UICONTROL Pixel] die Tracking-Pixel von Drittanbietern an, die Sie an die Anzeige anhängen möchten.
 
 1. Klicken Sie nach Abschluss der Anzeige auf **[!UICONTROL Save & Submit for Review]**.
 
-   Die [Anzeigenüberprüfung](ad-about.md) dauert 24 bis 48 Stunden und umfasst Prüfungen auf sensible Kategorien, Klickfunktionen auf URL-Funktionen und Vorschau-Rendering. Die Spalte Status gibt an, ob DSP die Anzeige genehmigt hat. Beschädigte Anzeigen haben möglicherweise mehr als 24-48 Stunden den Status &quot;Ausstehend&quot;, sodass Sie Zeit haben, Fehler zu beheben, bevor sie abgelehnt werden.
+   Der [Anzeigenüberblick](ad-about.md) dauert 24-48 Stunden und umfasst Prüfungen für sensible Kategorien, Klickfunktionen und Vorschau-Rendering. Die Spalte Status gibt an, ob DSP die Anzeige genehmigt hat. Beschädigte Anzeigen haben möglicherweise mehr als 24-48 Stunden den Status &quot;Ausstehend&quot;, sodass Sie Zeit haben, Fehler zu beheben, bevor sie abgelehnt werden.
 
    >[!NOTE]
    >
@@ -52,6 +52,6 @@ Informationen zum Erstellen mehrerer Drittanbieter-Anzeigen auf einmal finden Si
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
 >* [Erstellen mehrerer Drittanbieteranzeigen](ad-create-multiple.md)
->* [Eine Anzeige bearbeiten](ad-edit.md)
+>* [Bearbeiten einer Anzeige](ad-edit.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
->* [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
+>* [FAQs über universelle Videos](/help/dsp/campaign-management/faq-universal-video.md)

@@ -1,37 +1,37 @@
 ---
 title: Häufig gestellte Fragen zu Haushalts-Berichten
 description: Erfahren Sie mehr über die Reichweite, Häufigkeit und Konversionsdaten von Haushalten, einschließlich der Unterschiede zwischen den Haushaltsberichten und anderen Berichten sowie über die Fehlerbehebung.
-exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
+exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # Häufig gestellte Fragen zu Haushalts-Berichten
 
-## Die [!UICONTROL Household Reach & Frequency] Bericht
+## Der Bericht [!UICONTROL Household Reach & Frequency]
 
-### Wie sind [!UICONTROL Household Reach & Frequency] Berichte unterscheiden sich von anderen benutzerspezifischen Berichten?
+### Inwiefern unterscheiden sich [!UICONTROL Household Reach & Frequency] -Berichte von anderen benutzerspezifischen Berichten?
 
-Die [!UICONTROL Household Reach & Frequency] -Bericht misst die Reichweite, Impressionen und Häufigkeit in verschiedenen Dimensionen auf Haushaltsebene basierend auf der IP-Adresse. Die anderen benutzerdefinierten Berichte werden auf Geräte- oder Cookie-Ebene generiert.
+Der Bericht [!UICONTROL Household Reach & Frequency] misst die Reichweite, Impression und Häufigkeit in verschiedenen Dimensionen auf Haushaltsebene basierend auf der IP-Adresse. Die anderen benutzerdefinierten Berichte werden auf Geräte- oder Cookie-Ebene generiert.
 
 Selbst wenn beispielsweise eine Impression an drei Geräte innerhalb eines Haushalts bereitgestellt wird, ist die Metrik Einzelhaushalt erreicht eine.
 
 #### Unterstützte Dimensionen
 
-Die [!UICONTROL Household Reach & Frequency] unterstützt [folgende Dimensionen](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign], &quot;[!UICONTROL Package], &quot;[!UICONTROL Placement], &quot;[!UICONTROL Site/Apps]&quot;(die keinen Zugriff auf Überlagerungsmetriken bietet), &quot;[!UICONTROL Media Type], &quot;[!UICONTROL Feed Type], &quot;[!UICONTROL Device], &quot;[!UICONTROL Publisher], &quot;[!UICONTROL Audience], &quot;[!UICONTROL Creative Length],&quot;und vom Benutzer erstellte Platzierung &quot;[!UICONTROL Tags].&quot; |
+Der Bericht [!UICONTROL Household Reach & Frequency] unterstützt die [folgenden Dimensionen](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign]&quot; &quot;[!UICONTROL Package]&quot;, &quot;[!UICONTROL Placement]&quot;, &quot;[!UICONTROL Site/Apps]&quot; (die keinen Zugriff auf Überschneidungsmetriken bieten), &quot;[!UICONTROL Media Type]&quot;, &quot;[!UICONTROL Feed Type]&quot;, &quot;[!UICONTROL Device]&quot;, &quot;[!UICONTROL Publisher]&quot;, &quot;[!UICONTROL Audience]&quot;, &quot;12}&quot;und vom Benutzer erstellte Platzierung. [!UICONTROL Tags].&quot; |[!UICONTROL Creative Length]
 
 #### Unterstützte Metriken
 
-Die [verfügbare Metriken](/help/dsp/reports/report-columns.md) include:
+Zu den [verfügbaren Metriken](/help/dsp/reports/report-columns.md) gehören:
 
-* Überlagerungsmetriken: [!UICONTROL Frequency Overlap], [!UICONTROL Measurable Impressions (Overlap)]und [!UICONTROL Unique Household (Overlap)].
+* Überlagerungsmetriken: [!UICONTROL Frequency Overlap], [!UICONTROL Measurable Impressions (Overlap)] und [!UICONTROL Unique Household (Overlap)].
 
   Überlagerungsmetriken sind die Werte, die nur für die gemeldete Dimension oder Kombination von Dimensionen und nicht für andere Dimensionen auftreten. <!-- For example, it might show the ?? -->
 
-* Nicht überlappende Metriken: [!UICONTROL Frequency], [!UICONTROL Incremental Household Reached], [!UICONTROL % Incremental Household Reached], [!UICONTROL Impressions], [!UICONTROL Measurable Impressions]und [!UICONTROL Unique Household Reached]
+* Nicht überlappende Metriken: [!UICONTROL Frequency], [!UICONTROL Incremental Household Reached], [!UICONTROL % Incremental Household Reached], [!UICONTROL Impressions], [!UICONTROL Measurable Impressions] und [!UICONTROL Unique Household Reached]
 
 Konversionsmetriken und benutzerdefinierte Ziele werden nicht unterstützt.
 
@@ -39,9 +39,9 @@ Konversionsmetriken und benutzerdefinierte Ziele werden nicht unterstützt.
 
 Die folgende Abbildung zeigt drei Metriken (Einzelhaushalt erreicht, Inkrementelle Haushalte erreicht und inkrementelle Haushalte (Überlappung)) für drei Kampagnen (A, B und C).
 
-![Abbildung von Metriken zur Haushaltsüberschneidung](/help/dsp/assets/household-overlap-metrics-illustration.png "Abbildung von Metriken zur Haushaltsüberschneidung")
+![Abbildung der Metriken zur Haushaltstaxüberschneidung](/help/dsp/assets/household-overlap-metrics-illustration.png "Abbildung der Metriken zur Haushaltstaxüberschneidung")
 
-* Einzelhaushalte erreicht (Gesamt) liefert die von jeder Kampagne erreichte Unique HousVom-Haushalt oder die Gesamtfläche jedes Kreises. In der Abbildung wurden Einzelhaushalte erreicht durch A = Inkrementelle Haushalte erreicht durch A + (A+B) + (A+C) + (A+B+C) +(A+C+C)
+* Einzelhaushalte erreicht (Gesamt) liefert die von jeder Kampagne erreichte Unique HousVom-Haushalt oder die Gesamtfläche jedes Kreises. In der Abbildung wurde der Einzelhaushalt erreicht durch A = Inkrementelle Haushalte erreicht durch A + (A+B) + (A+C) +(A+B+C) +(A+C)
 
 * Inkrementelle Erreichbarkeit des Haushalts ist der Einzelhaushalt, der nur durch eine Kampagne erreicht wird. In dieser Zahl sind die von A, B, C erreichten inkrementellen Haushalte der von A, B bzw. C erreichte inkrementelle Haushalt.
 
@@ -49,29 +49,29 @@ Die folgende Abbildung zeigt drei Metriken (Einzelhaushalt erreicht, Inkrementel
 
 ### Workflow
 
-Führen Sie die normalen Schritte aus, um [benutzerspezifischen Bericht erstellen](report-create.md).
+Führen Sie die normalen Schritte aus, um [einen benutzerdefinierten Bericht zu erstellen](report-create.md).
 
-Die [!UICONTROL Household Reach & Frequency] kann nur eine Dimension enthalten. Sie kann auch entweder a) Metriken nach beliebigen Dimensionen überlappen, mit Ausnahme von Site/Apps oder b) nicht überlappende Metriken, aber nicht beide.
+Der Bericht [!UICONTROL Household Reach & Frequency] kann nur eine Dimension enthalten. Sie kann auch entweder a) Metriken nach beliebigen Dimensionen überlappen, mit Ausnahme von Site/Apps oder b) nicht überlappende Metriken, aber nicht beides.
 
-### Was sind einige Einschränkungen der [!UICONTROL Household Reach & Frequency] Bericht?
+### Welche Einschränkungen gibt es im Bericht [!UICONTROL Household Reach & Frequency]?
 
-Berichte mit Überlagerungsmetriken geben Schnittmengen von bis zu drei Werten aus. Wenn Sie beispielsweise die Metrik [!UICONTROL Unique Household (Overlap)] für 10 Platzierungen können Sie die individuellen Haushalte sehen, die durch individuelle Platzierungen erreicht werden, gemeinsame Haushalte, die durch eine Kombination zweier Praktika erreicht werden, und allgemeine Haushalte, die durch Kombinationen von drei Platzierungen erreicht werden. Sie können keine allgemeinen Haushalte sehen, die durch vier oder mehr Platzierungen erreicht wurden.
+Berichte mit Überlagerungsmetriken geben Schnittmengen von bis zu drei Werten aus. Wenn Sie beispielsweise die Metrik &quot;[!UICONTROL Unique Household (Overlap)]&quot;für 10 Platzierungen verwenden, können Sie die Unique Houses sehen, die durch individuelle Platzierungen, durch eine Kombination zweier Platzierungen erreichte gemeinsame Haushalte und durch Kombinationen aus drei Platzierungen erreichte gemeinsame Haushalte erreicht wurden. Sie können keine allgemeinen Haushalte sehen, die durch vier oder mehr Platzierungen erreicht wurden.
 
-Bei anderen Dimensionen als Kampagne, Paket oder Platzierung unterstützt der Bericht bis zu 10 Werte in jeder Dimension. Um beispielsweise eine [!UICONTROL Unique Household Reached] Bericht für [!UICONTROL Audience] -Dimension, sollte die Anzahl der eindeutigen Zielgruppen kleiner als oder gleich 10 sein. Wenn Sie mehr als 10 eindeutige Zielgruppen einbeziehen, wird ein leerer Bericht generiert.
+Bei anderen Dimensionen als Kampagne, Paket oder Platzierung unterstützt der Bericht bis zu 10 Werte in jeder Dimension. Um beispielsweise einen [!UICONTROL Unique Household Reached] -Bericht für die Dimension [!UICONTROL Audience] zu generieren, sollte die Anzahl der eindeutigen Zielgruppen kleiner als oder gleich 10 sein. Wenn Sie mehr als 10 eindeutige Zielgruppen einbeziehen, wird ein leerer Bericht generiert.
 
-### Warum unterscheiden sich die Häufigkeit und die individuellen Reichweitenwerte zwischen [!UICONTROL Custom] und [!UICONTROL Household Reach & Frequency] Bericht?
+### Warum unterscheiden sich die Häufigkeit und die individuellen Reichweitenwerte zwischen meinen [!UICONTROL Custom] Berichten und dem [!UICONTROL Household Reach & Frequency] Bericht?
 
-Diese Metriken in [!UICONTROL Household] -Berichte werden anhand der tatsächlichen Anzahl der IP-Adressen berechnet, während die Metriken in der [!UICONTROL Custom] -Bericht verwenden geschätzte Zahlen, die anhand von Modellen berechnet werden. Die Diskrepanz sollte jedoch unter 10 % liegen.
+Diese Metriken in [!UICONTROL Household] -Berichten werden anhand der tatsächlichen Anzahl der IP-Adressen berechnet, während die Metriken im [!UICONTROL Custom] -Bericht geschätzte Zahlen verwenden, die anhand von Modellen berechnet wurden. Die Diskrepanz sollte jedoch unter 10 % liegen.
 
-### Wie konfiguriere ich den Bericht für die [!UICONTROL Placement Tags] Dimension?
+### Wie konfiguriere ich den Bericht für die Dimension &quot;[!UICONTROL Placement Tags]&quot;?
 
-So erstellen Sie Tags für die Platzierung: [Platzierungseinstellungen öffnen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in die [Feld für Platzierungs-Tags](/help/dsp/campaign-management/placements/placement-settings.md).
+Um Tags für die Platzierung zu erstellen, öffnen Sie [die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags](/help/dsp/campaign-management/placements/placement-settings.md) ein.
 
 Wenn eine Platzierung mehrere Tags enthält, betrachtet der Bericht die gesamte Zeichenfolge als ein Tag. Der Bericht enthält eine Zeile für jede eindeutige Zeichenfolge.
 
-## Die [!UICONTROL Household Conversions] Bericht
+## Der Bericht [!UICONTROL Household Conversions]
 
-### Welche Arten von Attributionsmethoden werden unterstützt in [!UICONTROL Household Conversions] Bericht?
+### Welche Arten von Attributionsmethoden werden im [!UICONTROL Household Conversions] -Bericht unterstützt?
 
 Es werden zwei Arten von Attributionsmethoden unterstützt:
 
@@ -81,25 +81,25 @@ Es werden zwei Arten von Attributionsmethoden unterstützt:
 
 ### Inwiefern unterscheiden sich die Berichte zur Konversion aus Haushalten von den CTV-Durchsichtsberichten in Adobe Analytics?
 
-CTV-Durchsichtsdaten in [!DNL Analytics] ist eingeschaltet [!DNL Analytics] -Tracking und verwenden die Haushaltskonversionsdaten Daten, die mithilfe des Adobe Advertising-Konversions-Tracking erfasst wurden. Darüber hinaus wird die DSP Attributionslogik in [!DNL Analytics] verwendet nur das letzte Ereignis, aber die Konversionsberichte der Haushalte unterstützen zwei verschiedene Attributionsmethoden: Eindeutig und MTA.
+CTV-Durchsichtsdaten in [!DNL Analytics] werden durch [!DNL Analytics]-Tracking unterstützt, und die Konversionsdaten der Haushalte verwenden Daten, die mithilfe des Adobe Advertising-Konversions-Trackings erfasst wurden. Darüber hinaus verwendet die DSP Attributionslogik in [!DNL Analytics] nur das letzte Ereignis, aber die Konversionsberichte der Haushalte unterstützen zwei verschiedene Attributionsmethoden: Eindeutig und MTA.
 
-### Kann ich CTV-Durchsichtsdaten in beiden anzeigen? [!DNL Analytics for Advertising] und in benutzerspezifischen Berichten?
+### Kann ich CTV-Durchsichtsdaten sowohl in [!DNL Analytics for Advertising] als auch in benutzerdefinierten Berichten anzeigen?
 
-Advertiser ohne [!DNL Analytics for Advertising] kann nur den Haushaltskonversionsbericht für Haushaltskonversionsberichte verwenden.
+Werbetreibende ohne [!DNL Analytics for Advertising] können nur den Haushaltskonversion-Bericht für Haushaltskonversionsberichte verwenden.
 
-Wenn Ihr Unternehmen [!DNL Analytics for Advertising]verwenden Sie beide Berichtstypen zusammen. Während CTV-Durchsichtsberichte für eine umfassende Kanalanalyse, das Site-Verhalten usw. geeignet sind, bieten benutzerdefinierte Berichte eine granulare Ansicht (mit Daten, die nach Medientyp, Herausgebern usw. aufgeschlüsselt sind), um die Faktoren anzuzeigen, die zu Konversionsraten führen.
+Wenn Ihr Unternehmen über [!DNL Analytics for Advertising] verfügt, verwenden Sie beide Berichtstypen zusammen. Während CTV-Durchsichtsberichte für eine umfassende Kanalanalyse, das Site-Verhalten usw. geeignet sind, bieten benutzerdefinierte Berichte eine granulare Ansicht (mit Daten, die nach Medientyp, Herausgebern usw. aufgeschlüsselt sind), um die Faktoren anzuzeigen, die zu Konversionsraten führen.
 
-## [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte vs. Daten aus [!DNL Advanced Measurement Services]
+## [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte vs. Daten von [!DNL Advanced Measurement Services]
 
-Für erweiterte Berichte zur budgetbasierten Reichweite und Häufigkeit oder Konversionen wird die Variable [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) kann hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen finden Sie unter [!DNL Advanced Measurement Services], wenden Sie sich an Ihr Adobe Account Team.
+Für erweiterte Berichte zur budgetbasierten Reichweite und Häufigkeit oder Konversionen kann das [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen zu [!DNL Advanced Measurement Services] erhalten Sie von Ihrem Adobe-Account-Team.
 
-### Wenn ich bereits verwende [!DNL Advanced Measurement Services], warum sollte ich die [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte?
+### Wenn ich bereits [!DNL Advanced Measurement Services] verwende, warum sollte ich dann die Berichte [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] verwenden?
 
-Die [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] -Berichte ermöglichen es Kunden, die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene in Echtzeit unabhängig abzurufen.
+Mit den Berichten [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] können Kunden die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene in Echtzeit autonom abrufen.
 
-### Kann ich beide [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte und [!DNL Advanced Measurement Services]?
+### Kann ich sowohl die [!UICONTROL Household Reach & Frequency] - als auch die [!UICONTROL Household Conversions] -Berichte und die [!DNL Advanced Measurement Services] verwenden?
 
-Der optimale Anwendungsfall besteht darin, beide [!UICONTROL Household] und [!DNL Advanced Measurement Services] Reporting- und Beratungsleistungen. Beachten Sie die [!UICONTROL Household] als Transaktionsnachrichten zu melden, um die täglichen Optimierungen zu unterstützen, und [!DNL Advanced Measurement Services] als strategischere, die ganzheitliche Lehren und Übernahmen mit übergeordneten Geschäftszielen.
+Der optimale Anwendungsfall besteht darin, sowohl den Bericht [!UICONTROL Household] als auch die Berichterstellungs- und Beratungsdienste für [!DNL Advanced Measurement Services] gemeinsam zu verwenden. Betrachten Sie den [!UICONTROL Household] -Bericht als Transaktionsbericht, der als Leitfaden für tägliche Optimierungen dienen soll, und [!DNL Advanced Measurement Services] als strategischerer Bericht, der ganzheitliche Erkenntnisse und Übernahmen in Verbindung mit übergeordneten Geschäftszielen vermittelt.
 
 >[!MORELIKETHIS]
 >

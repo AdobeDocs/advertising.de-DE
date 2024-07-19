@@ -5,7 +5,7 @@ role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Administratoren können die Einladung eines Benutzers mit ausstehender Einladung
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und klicken Sie anschließend auf **[!UICONTROL Edit users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und dann auf **[!UICONTROL Edit users]**.
 
-1. Im **[!UICONTROL Invitations]** Abschnitt, klicken Sie auf **[!UICONTROL X]** neben der Einladung.
+1. Klicken Sie im Abschnitt **[!UICONTROL Invitations]** neben der Einladung auf **[!UICONTROL X]** .
 
 >[!MORELIKETHIS]
 >
 >* [Einladen eines neuen Benutzers für Ihr Unternehmenskonto](user-invite.md)
->* [Eine ausstehende Benutzereinladung erneut senden](user-resend-invite.md)
+>* [Erneutes Senden einer ausstehenden Benutzereinladung](user-resend-invite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

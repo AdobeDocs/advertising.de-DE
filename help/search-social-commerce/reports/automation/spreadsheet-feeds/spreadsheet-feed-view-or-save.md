@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei
 
-*Nur für grundlegende Berichte und Modellgenauigkeitsberichte*
+*Nur für grundlegende Berichte und Berichte zur Modellgenauigkeit*
 
-Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speichern. Die Tabellen-Feed-Dateien befinden sich unter[!DNL Microsoft Excel] XLSX-Format.
+Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speichern. Tabellen-Feed-Dateien weisen das XLSX-Format auf.[!DNL Microsoft Excel]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
-1. Klicks **[!UICONTROL XLSX]** neben dem Feed klicken und die Datei dann gemäß der üblichen Vorgehensweise Ihres Browsers öffnen oder speichern.
+1. Klicken Sie neben dem Feed auf **[!UICONTROL XLSX]** und öffnen oder speichern Sie dann die Datei gemäß der üblichen Vorgehensweise Ihres Browsers.
 
 >[!MORELIKETHIS]
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
 >* [Erstellen eines Tabellenbericht-Feeds](spreadsheet-feed-create.md)
->* [Erstellen Sie eine [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
->* [Bearbeiten der Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-edit.md)
->* [Feed-Einstellungen für Tabellenberichte](spreadsheet-feed-settings.md)
+>* [Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
+>* [Bearbeiten Sie die Einstellungen des Tabellenbericht-Feeds](spreadsheet-feed-edit.md)
+>* [Einstellungen für den Spreadsheet-Bericht](spreadsheet-feed-settings.md)
 >* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)
 >* [Löschen von Tabellenbericht-Feeds](spreadsheet-feed-delete.md)

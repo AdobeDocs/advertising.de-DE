@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * Wie ändert sich das Package-Tempo am letzten Tag eines Fluges?
 
-  Am letzten Tag eines Fluges wird der Tag von 24 Stunden auf 23 Stunden verkürzt, sodass das Budget des Pauschalangebots nicht überschritten wird. Außerdem ändert sich die Strategie für das Ausfüllen des Pakets automatisch in &quot;[!UICONTROL Frontload],&quot;auch wenn auf &quot;[!UICONTROL even].&quot; Das bedeutet, dass 65 % des täglichen Budgets bis 11:30 Uhr EST bereitgestellt werden sollten.
+  Am letzten Tag eines Fluges wird der Tag von 24 Stunden auf 23 Stunden verkürzt, sodass das Budget des Pauschalangebots nicht überschritten wird. Außerdem ändert sich die Strategie für das Ausfüllen des Pakets automatisch in &quot;[!UICONTROL Frontload]&quot;, selbst wenn sie auf &quot;[!UICONTROL even]&quot;festgelegt ist. Das bedeutet, dass 65 % des täglichen Budgets bis 11:30 Uhr EST bereitgestellt werden sollten.
 
 >[!MORELIKETHIS]
 >

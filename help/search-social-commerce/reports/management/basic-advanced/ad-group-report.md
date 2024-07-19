@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Ad Group Report]'
-description: Informationen zum [!UICONTROL Ad Group Report].
-exl-id: 7939c015-4828-49d4-8f7a-efd5992e088b
+description: Erfahren Sie mehr über die [!UICONTROL Ad Group Report].
+exl-id: 1d82fbd3-748b-4c05-87b0-9dc016d5d1b1
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Ad Group Report]
 
-Die [!UICONTROL Ad Group Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten für jede relevante Anzeigengruppe eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Anzeigengruppe und dann nach Kampagne.
+Der [!UICONTROL Ad Group Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten für jede relevante Anzeigengruppe eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Anzeigengruppe und dann nach Kampagne.
 
 Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
 
@@ -20,11 +20,11 @@ Sie können Daten der letzten 36 Monate anzeigen.
 
 >[!NOTE]
 >
->Daten auf Anzeigengruppenebene stehen nicht zur Verfügung für [!DNL Google Ads] Kampagnen mit maximaler Leistung. Wenn Sie über Kampagnen mit der maximalen Leistung verfügen, erwarten Sie Abweichungen zwischen den Gesamtdaten auf Anzeigengruppenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
+>Daten auf Anzeigengruppenebene stehen nicht für maximal [!DNL Google Ads] Kampagnen zur Performance zur Verfügung. Wenn Sie über Kampagnen mit der maximalen Leistung verfügen, erwarten Sie Abweichungen zwischen den Gesamtdaten auf Anzeigengruppenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).&quot;
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Ad Group]
 * [!UICONTROL Campaign]
@@ -44,5 +44,5 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
->* [Erstellen eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
 >* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

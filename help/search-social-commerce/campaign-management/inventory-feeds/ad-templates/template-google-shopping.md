@@ -1,22 +1,22 @@
 ---
-title: '''[!DNL Google Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds'
-description: Verweisen Sie auf die Einstellungen für [!DNL Google Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
-exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+title: '[!DNL Google Ads] Einstellungen für Shopping-Anzeigenvorlagen für Inventar-Feeds'
+description: Referenzieren Sie die Einstellungen für  [!DNL Google Ads] Einkaufs-Anzeigenvorlagen für Inventar-Feeds.
+exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] Einkaufs- und Vorlageneinstellungen für Inventar-Feeds
+# [!DNL Google Ads] Einstellungen für Shopping-Anzeigenvorlagen für Inventar-Feeds
 
 Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 >[!NOTE]
 >
->* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher in allen Attributfeldern als Text verboten:  `[ ] < > `
+>* Die folgenden Zeichen sind in der Vorlage für die Bezeichnung von Spaltennamen und Modifikatornamen reserviert und sind daher als Text in allen Attributfeldern verboten: `[ ] < > `
 
 ## \[Über allen Registerkarten\]
 
@@ -58,7 +58,7 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Campaign Tracking Template]:** (Optional für Vorlagen für Client-Feed-Dateien) Die Tracking-Vorlage auf Kampagnenebene, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als granularster) überschreiben diesen Wert.
 
-Für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload],&quot; verwenden Sie die [Tracking-Vorlagenformat für Google Ads-Einkaufskampagnen](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+Verwenden Sie für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot;und &quot;[!UICONTROL Auto Upload]&quot;enthalten, das Tracking-Vorlagenformat für Google Ads-Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-google.md). [ Wenn das gesamte Konto für Shopping-Anzeigen vorgesehen ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -68,7 +68,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 **[!UICONTROL Merchant ID]:** Die Kunden-ID des Händlers, dessen Produkte für die Kampagne verwendet werden.
 
-**[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte mit Zielländern verknüpft sind, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
+**[!UICONTROL Sales Country]:** Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte zugeordnet sind
+mit Zielländern festlegen, bestimmt diese Einstellung, welche Produkte in der Kampagne beworben werden.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -92,9 +93,11 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Networks]:** Die Netzwerke, auf denen Anzeigen platziert werden. *[!UICONTROL Search]* bereits ausgewählt ist. So nehmen Sie Angebote in Listen für [!DNL Google Ads] Suchpartner, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Search partners]**.
+**[!UICONTROL Networks]:** Die Netzwerke, auf denen Anzeigen platziert werden sollen. *[!UICONTROL Search]* ist bereits ausgewählt. Um Angebote für Suchpartner vom Typ [!DNL Google Ads] in Listen einzubeziehen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Search partners]**.
 
-**[!UICONTROL Campaign Priority]:** Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen für dasselbe Produkt werben: *[!UICONTROL Low]* (Standardeinstellung für neue Kampagnen), *[!UICONTROL Medium]* oder *[!UICONTROL High]*. Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk zuerst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und welches zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt.
+**[!UICONTROL Campaign Priority]:** Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen auf die
+dasselbe Produkt: *[!UICONTROL Low]* (Standard für neue Kampagnen), *[!UICONTROL Medium]* oder *[!UICONTROL High]*. Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Werbenetzwerk
+die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und das zugehörige Angebot) für die Anzeigenauktion infrage kommt. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot berechtigt.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -126,7 +129,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** Die standardmäßige, umfassende Produktgruppe, &quot;[!UICONTROL All products].&quot; Sie können diese übergeordnete Produktgruppe nicht löschen, sie wird jedoch automatisch gelöscht, wenn alle unteren Ebenen im Feed fehlen.
+**[!UICONTROL Tier 1]:** Die standardmäßige, alle inklusive Produktgruppe &quot;[!UICONTROL All products]&quot;. Sie können diese übergeordnete Produktgruppe nicht löschen, sie wird jedoch automatisch gelöscht, wenn alle unteren Ebenen im Feed fehlen.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -136,7 +139,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für die Produktgruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in eine [!DNL ValueTrack] -Parameter. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
+**[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für das Produkt
+-Gruppe, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen [!DNL ValueTrack] -Parameter einbettet. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
 Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene reicht aus.
 
@@ -158,8 +162,8 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
 >[!MORELIKETHIS]
 >
->* [Über die Automatisierung des Anzeigen-Managements mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
+>* [Über die Automatisierung der Anzeigenverwaltung mithilfe von Inventar-Feeds](../inventory-feeds-about.md)
 >* [Verwalten von Modifikatoren](../modifiers-manage.md)
 >* [Verwalten von Bestandsdaten-Feed-Dateien](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [Feed-Daten über Vorlagen übertragen](../feed-data-propagate.md)
->* [Posten von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)
+>* [Übertragen von Feed-Daten über Vorlagen](../feed-data-propagate.md)
+>* [Veröffentlichen von Kampagnendaten aus Inventar-Feeds in Werbenetzwerke](../propagated-data-post.md)

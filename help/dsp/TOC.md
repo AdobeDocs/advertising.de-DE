@@ -25,13 +25,13 @@ ht-degree: 3%
 + [Neue Funktionen](/help/dsp/home.md)
 + Einführung {#introduction}
    + [Einführung in Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Wichtigste Funktionen {#features}
+   + Wichtige Funktionen {#features}
       + [Optimierung](/help/dsp/introduction/features/optimization.md)
       + [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
    + [Unterstützte Währungen](/help/dsp/currency.md)
-   + [Unterstützung des Verbraucherschutzes](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Unterstützung für den Verbraucherschutz](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
@@ -57,7 +57,7 @@ ht-degree: 3%
       + [Archivieren oder Archivieren eines Pakets aufheben](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Anzeigen des Änderungsprotokolls für ein Paket](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
-   + Praktika {#placements}
+   + Platzierungen {#placements}
       + [Über die Platzierungsverwaltung](/help/dsp/campaign-management/placements/placement-about.md)
       + [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
       + [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/placements/placement-qa.md)
@@ -76,7 +76,7 @@ ht-degree: 3%
       + [Zertifizierte Ad Serving-Partner](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [Einzelne Anzeige erstellen](/help/dsp/campaign-management/ads/ad-create.md)
       + [Erstellen mehrerer Drittanbieteranzeigen](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [Erstellen von Anzeigen mit [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Erstellen von Anzeigen mit  [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Überprüfen von Anzeigendetails mithilfe von Tabellen](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Eine Anzeige bearbeiten](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Eine Anzeige duplizieren](/help/dsp/campaign-management/ads/ad-duplicate.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + [Häufig gestellte Fragen zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Häufig gestellte Fragen zu universellen Videos](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimierung {#optimization}
-   + [How [!DNL DSP] Optimiert Ihre Kampagnen](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [So [!DNL DSP] optimiert Ihre Kampagnen](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimierungsziele und Verwendung](/help/dsp/optimization/optimization-goals.md)
    + [Filter und deren Verwendung auf Platzierungsebene vor dem Angebot](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md)
@@ -130,9 +130,9 @@ ht-degree: 3%
    + Segmente {#segments}
       + [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segmente {#ccpa-opt-out-of-sale-segments}
-         + [Info [!UICONTROL CCPA Opt-out-of-Sale] Segmente](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Abrufen [!UICONTROL Consumer Opt-Out-of-Sale] Berichte](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+         + [Über [!UICONTROL CCPA Opt-out-of-Sale] Segmente](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-out-of-Sale]-Segments](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [[!UICONTROL Consumer Opt-Out-of-Sale]-Berichte abrufen](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [Segmentinformationen bearbeiten](/help/dsp/audiences/segment-edit.md)
       + [Freigeben oder Beenden der Freigabe eines Segments](/help/dsp/audiences/segment-share.md)
       + [Anzeigen von Tracking-Pixeln für ein Segment](/help/dsp/audiences/segment-view-pixels.md)
@@ -140,44 +140,44 @@ ht-degree: 3%
    + Quellen {#sources}
       + [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
       + Workflows nach Kundendatenplattform {#sources-workflows}
-         + [Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] zu universellen IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [Konvertieren von Benutzer-IDs aus [!DNL Amperity] zu universellen IDs](/help/dsp/audiences/sources/source-amperity.md)
-         + [Konvertieren von Benutzer-IDs aus [!DNL Optimizely] zu universellen IDs](/help/dsp/audiences/sources/source-optimizely.md)
-         + [Konvertieren von Benutzer-IDs aus [!DNL Tealium] zu universellen IDs](/help/dsp/audiences/sources/source-tealium.md)
+         + [Konvertieren von Benutzer-IDs von  [!DNL Adobe Real-Time CDP]  in universelle IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Konvertieren von Benutzer-IDs von  [!DNL Amperity]  in universelle IDs](/help/dsp/audiences/sources/source-amperity.md)
+         + [Konvertieren von Benutzer-IDs von  [!DNL Optimizely]  in universelle IDs](/help/dsp/audiences/sources/source-optimizely.md)
+         + [Konvertieren von Benutzer-IDs von  [!DNL Tealium]  in universelle IDs](/help/dsp/audiences/sources/source-tealium.md)
       + [Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
-   + [Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [Manuelles Importieren authentifizierter Segmente aus  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Verfügbare Drittanbieter von Daten](/help/dsp/audiences/third-party-data-providers.md)
-+ Bestand {#inventory}
++ Inventar {#inventory}
    + [Übersicht über die Funktionen des Bestands](/help/dsp/inventory/inventory-overview.md)
-   + [Verwenden [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
+   + [Verwenden von [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP-Partner](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] Bestand {#on-demand}
-      + [Info [!DNL On Demand] Premium-Lagerbestand](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Verfügbar [!DNL On Demand] Premium Inventory Publishers {#publishers}
-         + [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+      + [Info über [!DNL On Demand] Premium Inventory](/help/dsp/inventory/on-demand-inventory-about.md)
+      + Verfügbare [!DNL On Demand] Premium-Inventarverlage {#publishers}
+         + [[!DNL On Demand] Premium Inventarverlage im asiatisch-pazifischen Raum](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [Abonnieren und Zugriff anfordern für [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [Erneutes Anfordern [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [Anzeigen des Status Ihrer [!DNL On Demand] Angebote und Abonnements](/help/dsp/inventory/on-demand-inventory-view-status.md)
-   + Privates Inventar {#private-inventory}
+      + [Anmelden und Anfordern des Zugriffs auf [!DNL On Demand] Premium Inventory Deals](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Neu anfordern [!DNL On Demand] Premium-Inventarangebote](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [Anzeigen des Status Ihrer [!DNL On Demand] Kaufanfragen und -anmeldungen](/help/dsp/inventory/on-demand-inventory-view-status.md)
+   + Privater Bestand {#private-inventory}
       + [Über privates Inventar](/help/dsp/inventory/private-inventory-about.md)
-      + Deal-IDs {#deal-ids}
+      + Angebots-IDs {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [Über die [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [Akzeptieren eines Angebots im [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
          + Manuell eingegebene Deal-IDs {#manual}
-            + [Manuelles Erstellen [!UICONTROL Deal ID] Details](/help/dsp/inventory/deal-id-create.md)
-            + [Manuell [!UICONTROL Deal ID] Einstellungen](/help/dsp/inventory/deal-id-settings.md)
-         + Gesicherte programmatische Vereinbarungen {#programmatic-guaranteed-deal}
+            + [Manuelles Erstellen von [!UICONTROL Deal ID] Details](/help/dsp/inventory/deal-id-create.md)
+            + [Manuelle [!UICONTROL Deal ID] Einstellungen](/help/dsp/inventory/deal-id-settings.md)
+         + Programmgarantierte Angebote {#programmatic-guaranteed-deal}
             + [Übersicht über die programmatischen garantierten Vereinbarungen](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Tipps für die Aushandlung eines programmgesteuerten &quot;garantierten Angebots&quot;](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Einrichten eines programmgesteuerten &quot;garantierten Angebots&quot;](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel] Gesicherte programmatische Vereinbarungen {#freewheel}
-               + [Übersicht über die Einrichtung von programmatischen Garantievereinbarungen in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Senden Sie eine Anzeige für einen programmgesteuerten garantierten Deal an [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [Überprüfen des Status von Anzeigen auf [!DNL FreeWheel] Gesicherte programmatische Vereinbarungen](/help/dsp/inventory/freewheel-check-status.md)
+            + [!DNL FreeWheel] Programmbezogene garantierte Angebote {#freewheel}
+               + [Übersicht über die Einrichtung programmgesteuerter garantierter Angebote in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Senden einer Anzeige für einen programmgesteuerten garantierten Deal an  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Überprüfen Sie den Status von Anzeigen für programmgesteuerte garantierte Angebote. [!DNL FreeWheel] ](/help/dsp/inventory/freewheel-check-status.md)
                + [Fehlercodes für FreeWheel-Anzeigenübermittlungen](/help/dsp/inventory/freewheel-error-codes.md)
       + [Einstellungen für private Angebote bearbeiten](/help/dsp/inventory/deal-id-edit.md)
       + [Festlegen von Platzierungen und Anzeigen für ein privates Geschäft](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -188,9 +188,9 @@ ht-degree: 3%
       + [Archivieren oder Aufheben der Archivierung eines privaten Angebots](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving] Angebote {#sas}
       + [Info [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-      + [Erstellen Sie eine [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-create.md)
-      + [Bearbeiten [!UICONTROL Simple Ad Serving] Deal Settings](/help/dsp/inventory/simple-deal-edit.md)
-      + [[!UICONTROL Simple Ad Serving] Deal Settings](/help/dsp/inventory/simple-deal-settings.md)
+      + [Erstellen eines [!UICONTROL Simple Ad Serving]-Angebots](/help/dsp/inventory/simple-deal-create.md)
+      + [Bearbeiten von [!UICONTROL Simple Ad Serving] Deal-Einstellungen](/help/dsp/inventory/simple-deal-edit.md)
+      + [[!UICONTROL Simple Ad Serving] Geschäftseinstellungen](/help/dsp/inventory/simple-deal-settings.md)
    + [Detaillierte Berichte für ein Angebot anzeigen](/help/dsp/inventory/deal-view-report.md)
 + Benutzerspezifische Berichte {#custom-reports}
    + [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
@@ -204,11 +204,11 @@ ht-degree: 3%
    + [Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)
    + Berichtsziele {#report-destinations}
       + [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [Erstellen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [Bearbeiten von [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [Löschen Sie eine [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [Erstellen einer [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
-+ Planen {#planner}
++ Planner {#planner}
    + [Über das DSP Planer-Tool](/help/dsp/planner/planner-about.md)
    + [Erstellen eines Anbindungsplans für TV-Geräte](/help/dsp/planner/planner-create.md)
    + [Connected TV-Reichweitenplan duplizieren](/help/dsp/planner/planner-duplicate.md)
@@ -231,4 +231,4 @@ ht-degree: 3%
       + [Verwalten von Warnungsanmeldungen](/help/dsp/admin/alerts-manage.md)
 + [Integrationen mit Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Kundensupport](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
-+ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud - Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

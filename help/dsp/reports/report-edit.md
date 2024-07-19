@@ -15,17 +15,17 @@ ht-degree: 0%
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]**.
 1. Führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf den Berichtsnamen.
-   * Im [!UICONTROL Options] Spalte für die Berichtszeile, klicken Sie auf **[!UICONTROL options]** > **[!UICONTROL Edit]**.
+   * Klicken Sie in der Spalte [!UICONTROL Options] für die Berichtszeile auf **[!UICONTROL options]** > **[!UICONTROL Edit]**.
 1. Bearbeiten Sie die [Berichtseinstellungen](/help/dsp/reports/report-settings.md).
-1. Klicks **[!UICONTROL Edit Custom Report]**.
+1. Klicken Sie auf **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Benutzerspezifischen Bericht duplizieren](/help/dsp/reports/report-copy.md)
->* [Benutzerspezifischen Bericht ausführen](/help/dsp/reports/report-run-now.md)
->* [Benutzerspezifischen Bericht löschen](/help/dsp/reports/report-delete.md)
+>* [Ausführen eines benutzerspezifischen Berichts](/help/dsp/reports/report-run-now.md)
+>* [Einen benutzerspezifischen Bericht löschen](/help/dsp/reports/report-delete.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Arten von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)

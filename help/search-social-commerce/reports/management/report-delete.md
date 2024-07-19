@@ -1,11 +1,11 @@
 ---
 title: Berichte löschen
 description: Erfahren Sie, wie Sie generierte Berichte löschen.
-exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+exl-id: 04ec3f7a-0cea-4f9d-bb76-d576f529b6ae
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ Sie können einen Bericht, der abgeschlossen ist oder noch in Bearbeitung ist, m
 
 >[!NOTE]
 >
->Wenn der Bericht mit einer [template](/help/search-social-commerce/reports/automation/templates/template-about.md)Wenn Sie dann den Bericht löschen, wird die Vorlage, mit der er erstellt wurde, nicht gelöscht und wirkt sich daher nicht auf zukünftige Berichtsinstanzen aus, die geplant sind. So löschen Sie einen Berichtsplan: [Berichtvorlage löschen](/help/search-social-commerce/reports/automation/templates/template-delete.md).
+>Wenn der Bericht mit einer [Vorlage](/help/search-social-commerce/reports/automation/templates/template-about.md) erstellt wurde, löscht das Löschen des Berichts nicht die Vorlage, mit der er erstellt wurde, und hat daher keine Auswirkungen auf zukünftige geplante Berichtsinstanzen. Um einen Berichtsplan zu löschen, [löschen Sie die Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-delete.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, der sich für **[!UICONTROL Latest Reports]** Registerkarte.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, wodurch die Registerkarte **[!UICONTROL Latest Reports]** geöffnet wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Bericht, den Sie löschen möchten.
 
-1. Klicken **[!UICONTROL Delete]**.
+1. Klicken Sie auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL Yes]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]**.
 
 >[!MORELIKETHIS]
 >

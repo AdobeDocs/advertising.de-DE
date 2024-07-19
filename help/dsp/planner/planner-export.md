@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Export einer Prognose für einen Plan zur Anbindung an das Fernsehen
 
-Sie können die [!UICONTROL Budget vs Reach] Prognosen zu [!DNL Microsoft Excel] Tabelle** mit [!UICONTROL Budget] und [!UICONTROL Reach] Spalten.
+Sie können die [!UICONTROL Budget vs Reach]-Vorschau in eine [!DNL Microsoft Excel] Tabelle** mit den Spalten [!UICONTROL Budget] und [!UICONTROL Reach] exportieren.
 
-* Klicken Sie in einer generierten Prognose auf **[!UICONTROL ...]** > **[!UICONTROL Export]** oben rechts.
+* Klicken Sie in einer generierten Prognose oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Export]** .
 
 >[!MORELIKETHIS]
 >
 >* [Über das DSP Planer-Tool](planner-about.md)
->* [Erstellen eines Anbindungsplans für TV-Geräte](planner-create.md)
->* [Connected TV-Reichweitenplan duplizieren](planner-duplicate.md)
+>* [Erstellen eines Anbindungs-TV-Reichweitenplans](planner-create.md)
+>* [Duplizieren eines Anbindungs-TV-Reichweitenplans](planner-duplicate.md)
 >* [Bearbeiten eines Anbindungs-TV-Reichweitenplans](planner-edit.md)
 >* [Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren](planner-forecast.md)
->* [Archivieren eines Anbindungsplans für TV](planner-archive.md)
->* [Einstellungen für Pläne zur Anbindung an das Fernsehen](planner-settings.md)
+>* [Archivieren eines Anbindungs-TV-Reichweiten-Plans](planner-archive.md)
+>* [Einstellungen für Pläne zur Anbindung an TV-Kanäle](planner-settings.md)
