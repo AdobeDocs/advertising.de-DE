@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] Kampagneneinstellungen'
 description: Referenzieren Sie die Einstellungen für [!DNL Microsoft Advertising] Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ die Kampagne kann Folgendes enthalten:
 
 * *[!UICONTROL Maximize Clicks]:* (Such- und Shopping-Kampagnen) Das Werbenetzwerk - nicht &quot;Search, Social, &amp; Commerce&quot; - optimiert Gebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Vorsicht:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, sorgt die Klickgewichtung (nicht das Portfolioziel) für Gebote.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Such- und Shopping-/Smart-Shopping-Netzwerke, Performance-Max-Kampagnen) Das Anzeigennetzwerk — nicht &quot;Search, Social und Commerce&quot; — optimiert Gebote, um den Konversionswert zu maximieren. Geben Sie optional einen ROAS (0) als Prozentsatz ein. **[!UICONTROL Target Return on Ad Spend]** **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversion Value]:* (Such- und Shopping-/Smart-Shopping-Netzwerke, Performance-Max-Kampagnen) Das Anzeigennetzwerk — nicht &quot;Search, Social und Commerce&quot; — optimiert Gebote, um den Konversionswert zu maximieren. Geben Sie optional einen ROAS (0) als Prozentsatz ein. **[!UICONTROL Target Return on Ad Spend]** **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios. In hybriden Portfolios optimiert Search, Social und Commerce die Target-ROAS.
 
-* *[!UICONTROL Maximize Conversions]:* (Performance max campaigns and campaigns on the search network or audience network (but not audience videos or linked TV)) Das Werbenetzwerk — not Search, Social, &amp; Commerce — optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional einen **[!UICONTROL Target CPC]** (Kosten pro Klick) ein. Für Zielgruppenkampagnen können Sie auch einen optionalen Wert **[!UICONTROL Target CPA]** (Kosten pro Akquise) eingeben. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios.
+* *[!UICONTROL Maximize Conversions]:* (Performance max campaigns and campaigns on the search network or audience network (but not audience videos or linked TV)) Das Werbenetzwerk — not Search, Social, &amp; Commerce — optimiert Gebote zur Maximierung von Konversionen. Geben Sie optional einen **[!UICONTROL Target CPC]** (Kosten pro Klick) ein. Für Zielgruppenkampagnen können Sie auch einen optionalen Wert **[!UICONTROL Target CPA]** (Kosten pro Akquise) eingeben. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios, jedoch nicht in standardmäßigen Portfolios. In hybriden Portfolios optimiert Search, Social und Commerce das Target-CPA.
 
-* *[!UICONTROL Target CPA]:* (Kampagnen im Suchnetzwerk) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), des 30-tägigen Durchschnittsbetrags, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Kampagnen im Suchnetzwerk) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf der Grundlage eines optionalen **[!UICONTROL Target CPA]** (Kosten pro Akquise), des 30-tägigen Durchschnittsbetrags, den Sie für eine Akquise (Konversion) bezahlen möchten. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target CPA]. In hybriden Portfolios optimiert Search, Social und Commerce das Target-CPA.
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
 * *[!UICONTROL Target Impression Share]:* (Kampagnen im Suchnetzwerk) Das Werbenetzwerk - nicht &quot;Search, Social, &amp; Commerce&quot; - optimiert Gebote, um eine zielgerichtete Impressions-Freigabe und Anzeigenposition zu erzielen. Geben Sie optional einen **[!UICONTROL Target Impression Share]** als Prozentsatz, den **[!UICONTROL Target Ad Position]** und einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein. **Hinweis:** Diese Option wird in Hybridportfolios nicht unterstützt.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (Kampagnen in den Such- und Shopping-Netzwerken) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf Grundlage Ihrer **[!UICONTROL Target ROAS]** (Rendite aus Werbeausgaben), angegeben als Prozentsatz. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Kampagnen in den Such- und Shopping-Netzwerken) Das Werbenetzwerk — nicht &quot;Search, Social, &amp; Commerce&quot; — optimiert Gebote auf Grundlage Ihrer **[!UICONTROL Target ROAS]** (Rendite aus Werbeausgaben), angegeben als Prozentsatz. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk nicht mehr als einen bestimmten Betrag für jeden Klick zahlt. **Hinweis:** Verwenden Sie diese Option für Kampagnen in hybriden Portfolios (aber nicht in Standard-Portfolios) mit einer Ausgabestrategie außer [!UICONTROL Weekly] oder [!UICONTROL Google Target ROAS]. In hybriden Portfolios optimiert Search, Social und Commerce die Target-ROAS.
 
   Durchschnittliche Position und CPC-Angebotsdaten sind nicht für Kampagnen mit dieser Angebotsstrategie verfügbar.
 
