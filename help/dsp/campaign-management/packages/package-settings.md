@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 
 (Pakete mit Geschwindigkeit auf Paketebene) Die Flugzeiten des Pakets, einschließlich benutzerdefinierter Flugzeiten innerhalb der gesamten [!UICONTROL Flight Dates] für das Paket. Sie können benutzerdefinierte Flüge nur konfigurieren, wenn die Option [!UICONTROL Activate Custom Flighting] im Abschnitt [!UICONTROL Goals & Budget] aktiviert ist.
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]:** (Nur verfügbar, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist) Fügt automatisch alle verbleibenden Budgets aus dem vorherigen Flug zum vorhandenen Budget für den nächsten Flug hinzu.
+
+In der Ansicht [!UICONTROL Packages] und in der Ansicht [!DNL Package Name] > [!UICONTROL Flights] enthält das Feld [!UICONTROL Interval Goal], das das aktuelle Flugziel anzeigt, ein beliebiges Rollover-Budget.
+
 **[!DNL Flight N]:** (Nur verfügbar, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist) Geben Sie für jeden Flug das Start- und Enddatum sowie das Ziel der Zielausgabe an. Um einen weiteren Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]**.
 
-Für bestehende Pakete können Sie optional einen Wert in die Spalte [!UICONTROL Rollover] für jeden Flug eingeben, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen. Der projizierte Wert in der Spalte [!UICONTROL Adjusted Goal (Goal + Rollover)] wird entsprechend geändert.<!-- clarify usage -->
+Bei vorhandenen Paketen ohne aktivierte Option &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; können Sie optional die Einstellungen erneut öffnen, um einen Wert in die Spalte **[!UICONTROL Rollover]** für jeden Flug einzugeben, um dem nächsten Flug potenziell nicht verbrauchte Mittel hinzuzufügen.
 
 >[!MORELIKETHIS]
 >
