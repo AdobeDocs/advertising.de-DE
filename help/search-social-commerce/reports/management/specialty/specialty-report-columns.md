@@ -3,9 +3,9 @@ title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Gesamtumsatz dividiert durch Ausgaben, ausgedrückt als Prozentsatz. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Umsatz pro Konversion. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) Das Asset. |
-| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) Die numerische ID, die Search, Social und Commerce dem Asset zuweisen. |
+| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) Die eindeutige ID, die ein vorhandenes Asset identifiziert. |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report]) Die [[!DNL Google Ads] Leistungsbewertung](https://support.google.com/google-ads/answer/9564897) für das Asset. |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report]) Der Asset-Status: *[!UICONTROL Enabled]* oder *[!UICONTROL Enabled]* (entfernt). |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report]) Der Asset-Typ: *[!UICONTROL Creative Title]* oder *[!UICONTROL Description]*. |
