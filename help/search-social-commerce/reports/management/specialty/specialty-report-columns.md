@@ -3,9 +3,9 @@ title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] -Berichte) Das Versionsattribut für die Anzeigenerweiterung. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Typ der Anzeigenerweiterung. |
 | [!UICONTROL Ad Group] | Die Anzeigengruppe. |
-| [!UICONTROL Ad Group ID] | Die numerische ID, die Search, Social und Commerce der Anzeigengruppe zuweisen. |
+| [!UICONTROL Ad Group ID] | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. |
 | [!UICONTROL Ad Group Name] | Die Anzeigengruppe. |
 | [!UICONTROL Ad Group Status] | Der Anzeigengruppenstatus: *[!UICONTROL Active]*, *[!UICONTROL Paused]* oder *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Anzeigentitel. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | Die Impressionen, die Sie erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, für die Sie berechtigt waren. |
 | [!UICONTROL Impressions] | Die Anzahl der Anzeigenimpressionen im angegebenen Datumsbereich. |
 | [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</b> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
-| [!UICONTROL Keyword ID] | Die numerische ID, die Search, Social und Commerce dem Suchbegriff zuweisen. |
+| [!UICONTROL Keyword ID] | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Die numerische ID, die das Werbenetzwerk der Anzeigenerweiterung zuweist. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Das Versionsattribut für die Anzeigenerweiterung. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Der Anzeigenerweiterungstyp. |

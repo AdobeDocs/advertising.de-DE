@@ -3,9 +3,9 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | Die Anzahl der aktiven Kampagnen. |
 | [!UICONTROL Active Keywords] | Die Anzahl der aktiven Suchbegriffe. |
 | [!UICONTROL Ad Group] | Die Anzeigengruppe. |
-| [!UICONTROL Ad Group ID] | Die numerische ID, die Search, Social und Commerce der Anzeigengruppe zuweisen. |
+| [!UICONTROL Ad Group ID] | Die eindeutige ID, die eine bestehende Anzeigengruppe identifiziert. |
 | [!UICONTROL Ad Group Status] | Der Anzeigengruppenstatus: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> oder <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | Der Anzeigengruppentyp, z. B. <i>[!UICONTROL Audience]</i> (nur für Zielgruppenkampagnen), <i>[!UICONTROL Discovery]</i> (nur für Erkundungskampagnen), <i>[!UICONTROL Display]</i> (nur für Display-Kampagnen), <i>[!UICONTROL Search Dynamic]</i> (nur für dynamische Suchanzeigen), <i>[!UICONTROL Search Standard]</i> (nur für responsive Suchanzeigen und vorhandene erweiterte Textanzeigen), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (nur für standardmäßige Shopping-Kampagnen) oder <i>[!UICONTROL Shopping Smart]</i> (für Smart-Shopping-Kampagnen). Bei einigen Kampagnentypen kann eine einzelne Kampagne mehrere Anzeigentypen enthalten. |
 | [!UICONTROL Ad Groups] | Die Anzahl der Anzeigengruppen, denen der Beschriftungswert zugewiesen wird. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (Videoanzeigen) Die Anzahl der Wiedergaben Ihrer Anzeige. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> , wenn das Portfolio Kampagnen mit der [!UICONTROL Maximize Clicks] -Angebotsstrategie enthält, andernfalls <i>false</i> . |
 | [!UICONTROL Keyword] | Das Keyword.<br><br><b>Hinweis:</b> Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen enthält, enthält diese Spalte die entsprechenden Anzeigengruppennamen wie &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;. Bei einer Site-orientierten Platzierung in einer Suchkampagne hat diese Spalte keinen Wert. |
-| [!UICONTROL Keyword ID] | Die numerische ID, die Search, Social und Commerce dem Suchbegriff zuweisen. |
+| [!UICONTROL Keyword ID] | Die eindeutige ID, die einen vorhandenen Suchbegriff identifiziert. |
 | [!UICONTROL Keyword Status] | Der Status des Suchbegriffs, mit dem der Suchbegriff übereinstimmt: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> oder <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] und [!UICONTROL Label Value Report]) Die Beschriftungsklassifizierung. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] und [!UICONTROL Label Value Report]) Ein Wert für die Beschriftungsklassifizierung. |
