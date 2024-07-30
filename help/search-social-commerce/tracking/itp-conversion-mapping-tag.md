@@ -3,7 +3,7 @@ title: Das Adobe Advertising-Konversions-Mapping-Tag
 description: Erfahren Sie mehr über das JavaScript-basierte Konversions-Mapping-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer Seite auftritt, die nicht die Landingpage ist.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ So verwenden Sie das Konversions-Mapping-Tag:
 
       * Ersetzen Sie `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
-Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, fragen Sie Ihren Adobe-Kundenbetreuer.
+Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, fragen Sie Ihr Adobe-Account-Team.
 
 ### Beispiele
 

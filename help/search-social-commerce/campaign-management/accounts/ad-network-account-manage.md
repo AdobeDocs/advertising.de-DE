@@ -3,7 +3,7 @@ title: Verwalten von Anzeigen-Netzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # Verwalten von Anzeigen-Netzwerkkonten
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Kontodetails für Anzeigen und Netzwerke, zum Aktualisieren des [!DNL oAuth]-Tokens für ein Konto und zum Deaktivieren von Konten.
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Weitere Informationen zu den für jedes Anzeigennetzwerk verfügbaren Funktionen finden Sie unter &quot;[Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
 
@@ -243,7 +249,7 @@ Konten, die das Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-ID
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid-Format** - (Vorhandenes [!DNL Google Ads] berücksichtigt Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
+* **S_kwcid-Format:** (Vorhandenes [!DNL Google Ads] berücksichtigt Advertiser mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
 
 Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto für Adobe Analytics freigeben kann. Das [neueste Format](/help/integrations/analytics/ids.md#amo-id-formats) enthält Parameter für die Kampagnen-ID und Anzeigengruppen-ID, die erforderlich sind, um in Analytics auf Kampagnen- und Anzeigengruppenebene präzise Berichte für maximal [!DNL Google Ads] Kampagnen und Entwürfe und Experimente zu erstellen:
 
@@ -253,9 +259,9 @@ Wenn für dieses Konto Berichte auf Kampagnen- und Anzeigengruppenebene erstellt
 
 Vollständige Anweisungen finden Sie unter &quot;[Aktualisieren des AMO-ID-Trackingcodes für ein [!DNL Google Ads] Konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;.
 
-**Report Suite-Namen** - (Nur für EF-Umleitung mit Token; Advertiser mit Adobe Advertising-Adobe Analytics-Integration; optional) Eine oder mehrere Analytics Report Suites, an die Search, Social und Commerce Daten aus dem Anzeigennetzwerk sendet, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto. Diese Funktion ist nur für unterstützte Werbenetzwerke verfügbar.
+**Report Suite-Namen:** (Nur für EF-Umleitung mit Token; Advertiser mit Adobe Advertising-Adobe Analytics-Integration; optional) Eine oder mehrere Analytics Report Suites, an die Search, Social und Commerce Daten aus dem Anzeigennetzwerk sendet, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto. Diese Funktion ist nur für unterstützte Werbenetzwerke verfügbar.
 
-Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die serverseitige AMO-ID-Funktion für das Konto konfiguriert werden oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; aktiviert sein. Darüber hinaus muss das Analytics-Konto des Advertisers für den Empfang von Daten aus Search, Social und Commerce konfiguriert werden. Weitere Informationen erhalten Sie von Ihrem Adobe-Kundenbetreuer.
+Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die serverseitige AMO-ID-Funktion für das Konto konfiguriert werden oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; aktiviert sein. Darüber hinaus muss das Analytics-Konto des Advertisers für den Empfang von Daten aus Search, Social und Commerce konfiguriert werden. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
 
 >[!MORELIKETHIS]
 >
