@@ -3,9 +3,9 @@ title: Native Anzeigeanzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für native Display-Anzeigen.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel ausgelöst wird. Für diesen Anzeigentyp ist die einzige Option *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel ausgelöst wird.
 
 **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel eine *[!UICONTROL IMG URL]* (1x1-Pixelbilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
 
