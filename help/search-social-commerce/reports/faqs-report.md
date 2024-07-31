@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Hier erhalten Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ Im Folgenden finden Sie häufige Gründe für das Fehlen von Klickdaten.
 |---|---|---|
 | Der Prozess, der Klickdaten aus dem Anzeigenkonto abruft, ist fehlgeschlagen. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, auch wenn das Anzeigenkonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-Account-Team.<br><br>Wenn die Daten länger als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenvorausschätzungen aus, bis die Daten abgerufen werden. Ihr Adobe-Account-Team kann die Daten ausschließen. |
 | Ein Abrechnungsfehler zwischen dem Advertiser und dem Werbenetzwerk verhindert, dass das Werbekonto ausgegeben wird. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen. Sie können jedoch feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht ausgegeben werden konnte, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe-Account-Team kann die Daten ausschließen. |
+
 +++
 
 +++ Leistungsdaten unterscheiden sich von Daten im Werbenetzwerk-Editor.
