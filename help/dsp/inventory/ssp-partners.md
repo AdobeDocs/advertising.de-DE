@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verfügbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Optional können Sie auch das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") oder oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken.
+>Die folgende Tabelle ist breit. Um den Anzeigebereich zu erweitern, können Sie das Inhaltsverzeichnis und den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") und oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken. Sie können auch die Bildlaufleiste am unteren Rand der Tabelle verwenden, um den gesamten Inhalt anzuzeigen.
 
 | SSP-Liste | Firma | Lizenz-ID | Programmbezogene garantierte Unterstützung | Region | Unterstützte Währung | Video Desktop | Video Mobile | Video CTV | Display Desktop | Mobilgerät anzeigen | Native Anzeige | Audio Desktop und Mobilgerät |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

@@ -3,9 +3,9 @@ title: Massenblattdaten für [!DNL Yahoo! Japan] Konten
 description: Referenzieren Sie die Kopfzeilenfelder und Datenfelder in heruntergeladenen Bulksheets für [!DNL Yahoo! Japan] Konten.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2668'
+source-wordcount: '2672'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Optional können Sie auch das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/search-social-commerce/assets/hide-left-pane.png "Linkes Fenster ausblenden") oder oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/search-social-commerce/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken.
+>Die folgende Tabelle ist breit. Um den Anzeigebereich zu erweitern, können Sie das Inhaltsverzeichnis und den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") und oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken. Sie können auch die Bildlaufleiste am unteren Rand der Tabelle verwenden, um den gesamten Inhalt anzuzeigen.
 
 | Feld | Kampagne | Anzeigengruppe | Schlüsselwort | Textwerbung | Campaign Location Target | Beschreibung |
 |----|----|----|----|----|----|----|

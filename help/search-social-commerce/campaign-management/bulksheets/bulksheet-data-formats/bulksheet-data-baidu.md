@@ -3,9 +3,9 @@ title: Erforderliche Bulksheet-Daten für [!DNL Baidu] Konten
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Baidu] Konten.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Optional können Sie auch das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/search-social-commerce/assets/hide-left-pane.png "Linkes Fenster ausblenden") oder oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/search-social-commerce/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken.
+>Die folgende Tabelle ist breit. Um den Anzeigebereich zu erweitern, können Sie das Inhaltsverzeichnis und den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") und oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken. Sie können auch die Bildlaufleiste am unteren Rand der Tabelle verwenden, um den gesamten Inhalt anzuzeigen.
 
 | Feld | Kampagne | Anzeigengruppe | Schlüsselwort | Textwerbung | Standort-Ziel | Beschreibung |
 |----|----|----|----|----|----|----|

@@ -3,9 +3,9 @@ title: Unterstützter Bestand
 description: Referenzieren Sie unterstützte Werbenetzwerke, Kampagnentypen und Anzeigentypen.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Im Folgenden werden die unterstützten Werbenetzwerke, Kampagnentypen und Anzeig
 
 >[!TIP]
 >
->Die folgende Tabelle ist breit. Verwenden Sie bei Bedarf die Bildlaufleiste am unteren Rand der Tabelle, um den gesamten Inhalt anzuzeigen. Optional können Sie auch das Inhaltsverzeichnis oder den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/search-social-commerce/assets/hide-left-pane.png "Linkes Fenster ausblenden") oder oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/search-social-commerce/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken.
+>Die folgende Tabelle ist breit. Um den Anzeigebereich zu erweitern, können Sie das Inhaltsverzeichnis und den rechten Bereich vorübergehend ausblenden, indem Sie oben im linken Bereich auf ![Linkes Fenster ausblenden](/help/dsp/assets/hide-left-pane.png "Linkes Fenster ausblenden") und oben im rechten Bereich auf ![Rechter Bereich ausblenden](/help/dsp/assets/hide-right-pane.png "Rechter Bereich ausblenden") klicken. Sie können auch die Bildlaufleiste am unteren Rand der Tabelle verwenden, um den gesamten Inhalt anzuzeigen.
 
 | Source | Netzwerk | Kampagnentyp | Anzeigentyp | Synchronisieren und Anzeigen | Erstellen/Bearbeiten | track[^1] | Optimieren | Bericht[^2] | Adobe Analytics-Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|
