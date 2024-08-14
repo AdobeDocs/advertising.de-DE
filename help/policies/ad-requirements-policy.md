@@ -3,9 +3,9 @@ title: Richtlinie zu Adobe Advertising-Anzeigenanforderungen
 description: Siehe Richtlinien für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 703031baac908e2024d877f031ff164370528383
+source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Anzeigen, die Inhalte in den folgenden Kategorien enthalten, sind mit den unten 
 
 * **Alkohol**. Werbung, die alkoholische Getränke und Alkoholfirmen bewirbt oder fördert, ist nur unter Einhaltung der geltenden Gesetze und Selbstregulierungsvorschriften gestattet. So dürfen Alkoholwerbung keine Minderjährigen ansprechen und nur in Ländern durchgeführt werden, in denen Alkoholwerbung zulässig ist. In keinem Fall dürfen Anzeigen einen übermäßigen Alkoholkonsum glamorisieren oder darstellen.
 
-* **Cannabis**. Anzeigen, die in den zugelassenen kanadischen Provinzen staatlich zugelassene Cannabis-Unternehmen oder Cannabis bewerben oder fördern, sind nur zulässig, wenn sie unter Einhaltung der geltenden nationalen bzw. kanadischen Gesetze a) zuvor die geltenden [!DNL Adobe Rider]-, b) die Einhaltung der [!DNL Adobe] Sorgfaltspflichten und c) die von den Medienanbietern und den geltenden Gesetzen gestattet sind. Anzeigen für staatlich gesetzlich vorgeschriebene Cannabis dürfen bestimmte Produkte nicht zum Verkauf anbieten oder bewerben und müssen an den jeweiligen Staat ausgerichtet sein. Alle zulässigen Cannabis-Anzeigen dürfen (1) nicht für Minderjährige attraktiv sein oder (2) Cannabis-Konsum glamorisieren oder darstellen. &quot;zugelassene kanadische Provinzen&quot;: die Provinzen Alberta, British Columbia, Manitoba, New Brunswick, Neufundland und Labrador, Nova Scotia, Nunavut, Ontario, Prinz Edward Island, Quebec, Saskatchewan und Yukon.
+* **Cannabis**. Anzeigen, die in den zugelassenen kanadischen Provinzen staatlich zugelassene Cannabis-Unternehmen oder Cannabis bewerben oder fördern, sind nur zulässig, wenn sie im Einklang mit den geltenden nationalen bzw. kanadischen Rechtsvorschriften stehen, sofern a) zuvor die geltenden [!DNL Adobe Rider]-, b) die Einhaltung der Sorgfaltspflichten gemäß [!DNL Adobe] bzw. \(c\) gemäß den von den Medienanbietern und den geltenden Gesetzen gestattet wurden. Anzeigen für staatlich gesetzlich vorgeschriebene Cannabis dürfen bestimmte Produkte nicht zum Verkauf anbieten oder bewerben und müssen an den jeweiligen Staat ausgerichtet sein. Alle zulässigen Cannabis-Anzeigen dürfen (1) nicht für Minderjährige attraktiv sein oder (2) Cannabis-Konsum glamorisieren oder darstellen. &quot;zugelassene kanadische Provinzen&quot;: die Provinzen Alberta, British Columbia, Manitoba, New Brunswick, Neufundland und Labrador, Nova Scotia, Nunavut, Ontario, Prinz Edward Island, Quebec, Saskatchewan und Yukon.
 
 * **Glücksspiel**. Anzeigen, die Inhalte im Zusammenhang mit Glücksspielen enthalten, einschließlich der Werbung für Casinos, Lotterien und andere Glücksspiele (online oder offline), dürfen nur im Einklang mit den geltenden Gesetzen beworben werden. Allerdings dürfen keine Anzeigen übermäßiges Spielverhalten glamorisieren oder darstellen oder die Chancen oder Risiken des Glücksspiels falsch darstellen.
 
-* **Hanf**. Anzeigen für Hanf- und Hanfprodukte müssen allen anwendbaren nationalen und bundesstaatlichen Rechtsvorschriften entsprechen, sofern a) sie zuvor in die geltenden [!DNL Adobe Rider]-Vorschriften eingegeben wurden, b) die Anforderungen an die Sorgfaltspflichten eingehalten wurden und c) die von den Medienanbietern und den geltenden Gesetzen gestattet wurden. [!DNL Adobe] Anzeigen für Hanf und aus Hanf gewonnene Produkte dürfen nicht (1) gesundheitsbezogene Angaben machen, (2) gefährdete Bevölkerungsgruppen, einschließlich Minderjähriger, ansprechen oder (3) das Rauchen glamorisieren oder darstellen oder (4) darauf hinweisen, dass diese Produkte ähnliche toxische Wirkungen wie Cannabis haben.
+* **Hanf**. Anzeigen für Hanf- und Hanfprodukte müssen allen anwendbaren Bundes- und Landesgesetzen entsprechen, sofern a) zuvor die geltenden [!DNL Adobe Rider]-, b) die Einhaltung der [!DNL Adobe] Sorgfaltspflichten und \(c\), wie es von den Medienanbietern und den geltenden Gesetzen erlaubt wird, eingehalten wurden. Anzeigen für Hanf und aus Hanf gewonnene Produkte dürfen nicht (1) gesundheitsbezogene Angaben machen, (2) gefährdete Bevölkerungsgruppen, einschließlich Minderjähriger, ansprechen oder (3) das Rauchen glamorisieren oder darstellen oder (4) darauf hinweisen, dass diese Produkte ähnliche toxische Wirkungen wie Cannabis haben.
 
 * **Pharmazeutische Werbung**. Werbung, die verschreibungspflichtige und außerbörsliche Medikamente fördert, muss den geltenden nationalen und lokalen Gesetzen, Vorschriften und Richtlinien entsprechen.
 
