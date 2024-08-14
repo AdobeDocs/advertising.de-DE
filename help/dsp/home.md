@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 14. August 2024 | [!UICONTROL Placements] | DSP aktualisiert die Segmentzahlen für [!DNL Audiences by Oracle (BlueKai)] -Segmente nicht mehr, was Ende September eingestellt wird, und alle Zahlen werden schrittweise auf null (0) reduziert. | — |
 | 30. Juli 2024 | [!UICONTROL Placements] | Ab dem 14. August wird DSP die Aktualisierung der Segmentzahlen für [!DNL Audiences by Oracle (BlueKai)] -Segmente einstellen, die Ende September eingestellt werden, und alle Zahlen werden schrittweise auf null (0) reduziert. | — |
 | | [!UICONTROL Packages] | Paketeinstellungen enthalten jetzt eine Option &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist. Wenn die Option aktiviert ist, wird das verbleibende Budget des vorherigen Fluges automatisch zum bestehenden Budget für den nächsten Flug hinzugefügt. Sie können die Spalte [!UICONTROL Rollover] nicht manuell bearbeiten, wenn die automatische Rollover-Option ausgewählt ist.<br><br> In der Ansicht [!UICONTROL Packages] und in der Ansicht [Paketname] > [!UICONTROL Flights] enthält die Spalte &quot;[!UICONTROL Interval Goal]&quot;, die das aktuelle Flugziel anzeigt, das Rollover-Budget. | Siehe &quot;[Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)&quot;. |
 | 12. Juli 2024 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | In den Ansichten [!UICONTROL Campaigns], [!UICONTROL Packages] und [!UICONTROL Placements] wurden einige Metriken basierend auf Feedback umbenannt:<ul><li>In Trenddiagrammen wurde &quot;Erforderliche Ausgaben&quot;in &quot;Ausgabenrichtwert&quot;umbenannt und &quot;Zielausgaben&quot;in &quot;Ausgabenziel&quot;.</li><li>In Datentabellen:<ul><li>&quot;Die erforderlichen Ausgaben von gestern&quot;und &quot;Die heutigen erforderlichen Ausgaben&quot;wurden in &quot;Ausgabenrichtwert von gestern&quot;und &quot;Benchmark für die heutigen Ausgaben&quot;umbenannt.</li><li>Die QuickInfos &quot;Die gestrige Geschwindigkeit % und &quot;die Geschwindigkeit von heute %&quot;wurden in &quot;Die Bruttoausgaben von gestern als % des gestrigen Ausgabenrichtwerts&quot;und &quot;Die Bruttoausgaben von heute als % des Ausgabenrichtwerts von gestern&quot;geändert.</li><li>&quot;Die gestrigen Zielausgaben&quot;und &quot;Die heutigen Zielausgaben&quot;wurden in &quot;gestern Ausgabenziel&quot;und &quot;Heute Ausgabenziel&quot;umbenannt.</li></ul></li><ul> | Siehe &quot;[Erstellen einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot;und &quot;[Bearbeiten einer benutzerdefinierten Spaltenansicht](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;. |
