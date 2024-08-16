@@ -3,9 +3,9 @@ title: Voraussetzungen und wichtige Informationen für die Implementierung von [
 description: Voraussetzungen und wichtige Informationen für die Implementierung von [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Wenden Sie sich an Ihr Adobe Account-Team, um die neuesten unterstützten Anzeig
 
 * Das Konversions-Tracking von [!DNL Analytics for Advertising] in Adobe Analytics verwendet ein konfigurierbares Tracking-Lookback-Fenster (standardmäßig 60 Tage). Adobe Advertising-Berichte spiegeln Site-Konversionen und Interaktionen am Ende dieses Tracking-Lookback-Fensters wider.
 
-* Alle Anzeigentypen werden unterstützt. Es werden jedoch nicht alle Anzeigenumgebungen unterstützt.
+* Alle Anzeigentypen werden unterstützt. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] -Konversionen werden derzeit verfolgt und nur einem Besucher auf demselben Gerät zugeordnet.
 
