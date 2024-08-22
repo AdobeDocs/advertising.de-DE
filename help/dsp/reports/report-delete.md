@@ -3,9 +3,9 @@ title: Benutzerspezifischen Bericht löschen
 description: Erfahren Sie, wie Sie einen benutzerspezifischen Bericht löschen.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 570eb1cba51bae5681f989f9450dfcb70a62666b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,6 @@ ht-degree: 0%
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Benutzerspezifischen Bericht duplizieren](/help/dsp/reports/report-copy.md)
 >* [Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)
+>* [Einen benutzerspezifischen Bericht herunterladen](/help/dsp/reports/report-download.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
