@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
+source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
 workflow-type: tm+mt
-source-wordcount: '3849'
+source-wordcount: '3906'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Die folgenden Funktionen sind neu oder kürzlich geändert worden.
 
 | Datum | Funktion | Beschreibung | Weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| 22. August 2024 | [!UICONTROL Packages] | Sie können jetzt die Einstellungen für ein oder mehrere Pakete im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Die Tabelle enthält einen separaten Tab mit Fluginformationen. Anschließend können Sie Änderungen an den ausgewählten Feldern auf beiden Registerkarten vornehmen und sie wieder DSP alle gleichzeitig hochladen. | Siehe &quot;[Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/packages/package-qa.md)&quot;. |
 | 14. August 2024 | [!UICONTROL Placements] | DSP aktualisiert die Segmentzahlen für [!DNL Audiences by Oracle (BlueKai)] -Segmente nicht mehr, was Ende September eingestellt wird, und alle Zahlen werden schrittweise auf null (0) reduziert. | — |
 | 30. Juli 2024 | [!UICONTROL Placements] | Ab dem 14. August wird DSP die Aktualisierung der Segmentzahlen für [!DNL Audiences by Oracle (BlueKai)] -Segmente einstellen, die Ende September eingestellt werden, und alle Zahlen werden schrittweise auf null (0) reduziert. | — |
 | | [!UICONTROL Packages] | Paketeinstellungen enthalten jetzt eine Option &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist. Wenn die Option aktiviert ist, wird das verbleibende Budget des vorherigen Fluges automatisch zum bestehenden Budget für den nächsten Flug hinzugefügt. Sie können die Spalte [!UICONTROL Rollover] nicht manuell bearbeiten, wenn die automatische Rollover-Option ausgewählt ist.<br><br> In der Ansicht [!UICONTROL Packages] und in der Ansicht [Paketname] > [!UICONTROL Flights] enthält die Spalte &quot;[!UICONTROL Interval Goal]&quot;, die das aktuelle Flugziel anzeigt, das Rollover-Budget. | Siehe &quot;[Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)&quot;. |
