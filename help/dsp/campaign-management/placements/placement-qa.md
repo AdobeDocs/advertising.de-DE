@@ -3,16 +3,16 @@ title: Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Ta
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen mithilfe von Tabellen überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen
 
-Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details wie die folgenden schnell zu überprüfen:
+Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details wie die folgenden schnell zu überprüfen:
 
 * Zielgruppen der Kampagne.
 * Wenn die Platzierungen mit der Bereitstellung beginnen und beendet werden.
@@ -42,7 +42,7 @@ Anschließend können Sie Änderungen an den ausgewählten Feldern vornehmen und
 
    * Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-   Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
+   Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
 
 ## Download-Einstellungen für eine oder mehrere Platzierungen
 
@@ -56,7 +56,7 @@ Anschließend können Sie Änderungen an den ausgewählten Feldern vornehmen und
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
 
-Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
+Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
 
 ## Einstellungen für alle Platzierungen in einer Kampagne hochladen
 

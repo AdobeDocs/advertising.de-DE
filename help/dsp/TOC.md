@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + Pakete {#packages}
       + [Über Package Management](/help/dsp/campaign-management/packages/package-about.md)
       + [Erstellen eines Pakets](/help/dsp/campaign-management/packages/package-create.md)
+      + [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Tabellen](/help/dsp/campaign-management/packages/package-qa.md)
       + [Bearbeiten eines Pakets](/help/dsp/campaign-management/packages/package-edit.md)
       + [Package duplizieren](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Platzierung an ein Paket anhängen](/help/dsp/campaign-management/packages/package-attach-placement.md)
