@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
+source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 3%
    + [Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)
    + [Benutzerspezifischen Bericht löschen](/help/dsp/reports/report-delete.md)
    + [Benutzerspezifischen Bericht ausführen](/help/dsp/reports/report-run-now.md)
+   + [Herunterladen eines benutzerspezifischen Berichts](/help/dsp/reports/report-download.md)
    + [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
    + [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
    + [Häufig gestellte Fragen zu Haushalts-Berichten](/help/dsp/reports/faq-household-report.md)

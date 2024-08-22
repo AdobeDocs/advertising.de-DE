@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** Der Berichtstyp: *[!UICONTROL Custom]* (der die meisten verfügbaren Optionen enthält), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* oder *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Apply Filters] Abschnitt
+## [!UICONTROL Report range] Abschnitt
+
+Dieser Abschnitt bestimmt die Daten, die im Bericht enthalten sind. Informationen zum Einrichten von Datumsangaben für den Berichtsplan finden Sie im Abschnitt &quot;[!UICONTROL Report run schedule]&quot;.
 
 **[!UICONTROL Timezone]:** Die Zeitzone für die Berichterstellung.
 
 **[!UICONTROL Observe Daylight Savings Time]:** Betrachtet die Sommerzeit in den gemeldeten Zeiten.
 
-**\[Datumsbereich\]:** Der Datumsbereich, für den Daten generiert werden sollen. Die Anzahl der Tage variiert je nach Bericht und ausgewählten Dimensionen. Wählen Sie eine aus:
+**Bereich:** Der Datumsbereich, für den Daten generiert werden sollen. Die Anzahl der Tage variiert je nach Bericht und ausgewählten Dimensionen. Wählen Sie eine aus:
 
-* **[!UICONTROL Previous N days]:** Umfasst Daten für eine bestimmte Anzahl von Tagen vor heute.
-
-* **[!UICONTROL Custom]:** Umfasst Daten zwischen bestimmten Start- und Enddaten. Um Daten über den vorherigen Tag zu berichten, wählen Sie **[!UICONTROL Present]** aus.
+* **[!UICONTROL Last Calendar Week]:** Umfasst Daten für die vorherige Kalenderwoche.
 
 * **[!UICONTROL Last Calendar Month]:** Umfasst Daten für den vorherigen Kalendermonat.
+
+* **[!UICONTROL Custom Range]:** Umfasst Daten zwischen bestimmten Start- und Enddaten. Um Daten über den vorherigen Tag zu berichten, wählen Sie **[!UICONTROL Present]** aus.
+
+## [!UICONTROL Report run schedule] Abschnitt
+
+In diesem Abschnitt werden die Daten festgelegt, zu denen der Bericht ausgeführt wird. Informationen zum Einrichten der Datumswerte, für die Berichtsdaten einbezogen werden sollen, finden Sie im Abschnitt &quot;[!UICONTROL Report range]&quot;.
+
+**\[Zeitplan\]:** Wann der Bericht generiert werden soll:
+
+* *[!UICONTROL Immediately]*: Hiermit wird der Bericht sofort zur Berichtswarteschlange hinzugefügt.
+
+  >[!NOTE]
+  >
+  >Sie können auch [ einen benutzerspezifischen Bericht jederzeit ausführen](report-run-now.md) aus der [!UICONTROL Reports]-Ansicht.
+
+* *[!UICONTROL On]\&lt;Datum\>:* Führt den Bericht an einem bestimmten Datum aus, um 09:00 Uhr in der Zeitzone des Kontos abgeschlossen zu sein.
+
+* *[!UICONTROL Recurring]:* Führt den Bericht gemäß einem Zeitplan während eines bestimmten Zeitraums aus.
+
+   * **\[Zeitplan\]:** Wie oft der Bericht ausgeführt wird:
+
+      * *Täglich* verwenden, um den Bericht alle N Tage auszuführen. Wenn Sie den Bericht beispielsweise alle zwei Wochen (14 Tage) ausführen möchten, wählen Sie diese Option aus und geben Sie **14** ein.
+
+      * *Wöchentlich* , um den Bericht an bestimmten Wochentagen auszuführen. Um den Bericht beispielsweise jeden Montag und Freitag auszuführen, wählen Sie diese Option aus und aktivieren Sie die Kontrollkästchen neben **Montag** und **Freitag**.
+
+      * *Monatlich* , um den Bericht an einem bestimmten numerischen Tag des Monats von 1 bis 30 auszuführen. Beispiel: Wenn Sie den Bericht am ersten Tag eines jeden Monats ausführen, wählen Sie diese Option aus und geben Sie **1** ein.
+
+   * **Von**: Das erste Datum, an dem der Bericht ausgeführt werden kann. Je nach festgelegtem Zeitplan kann die erste Berichtsinstanz nach diesem Datum auftreten.
+
+   * **Bis**: Das Ablaufdatum des Berichts, das bis zu vier Kalendermonate entfernt sein kann. Bevor ein Bericht abläuft, erhalten alle angegebenen E-Mail-Ziele sieben Tage und einen Tag vor dem Ablaufdatum einen E-Mail-Warnhinweis. Um den Bericht länger zu halten, ändern Sie dieses Datum.
+
+## [!UICONTROL Apply Filters] Abschnitt
 
 **[!UICONTROL Add Filters]:** (Optional) Zusätzliche Dimensionen, anhand derer die Daten gefiltert werden können, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* und *[!UICONTROL Video Duration]*.
 
@@ -120,17 +152,23 @@ Beschreibungen aller Optionen finden Sie unter &quot;[Verfügbare Berichtsspalte
 
 ## [!UICONTROL Add Report Destinations] Abschnitt
 
-**[!UICONTROL Destination Type]:** Wählen Sie einen der folgenden Zieltypen:
-
-* *[!UICONTROL S3]:* Um den abgeschlossenen Bericht an einen oder mehrere [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) Stellen zu senden, die Sie im Feld **[!UICONTROL Destination Name]** angeben müssen.
-* *[!UICONTROL sFTP]:* Zum Senden des abgeschlossenen Berichts an einen oder mehrere SFTP-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** angeben müssen.
-* *[!UICONTROL FTP]:* Zum Senden des abgeschlossenen Berichts an einen oder mehrere FTP-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** angeben müssen.
-* *[!UICONTROL FTP SSL](Aktuell in Beta):* Senden des abgeschlossenen Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** angeben müssen.
-* *[!UICONTROL Email]:* Geben Sie die E-Mail-Adresse(n) an, an die abgeschlossene Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
+**[!UICONTROL Destination Type]:** Wo sollen die abgeschlossenen Berichte und Fehlerbenachrichtigungen bereitgestellt werden? Sie können den Zieltyp nach dem Speichern des Berichts nicht mehr ändern.
 
 >[!NOTE]
 >
-> Sie können den Zieltyp nach dem Speichern des Berichts nicht mehr ändern.
+>Sie können abgeschlossene Berichte immer über die Ansicht [!UICONTROL Reports] > [!UICONTROL Custom Reports] herunterladen.
+
+* *[!UICONTROL None]:* So stellen Sie keine Berichte oder Benachrichtigungen bereit.
+
+* *[!UICONTROL S3]:* Um den abgeschlossenen Bericht an einen oder mehrere [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) Stellen zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+
+* *[!UICONTROL sFTP]:* Zum Senden des abgeschlossenen Berichts an einen oder mehrere SFTP-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+
+* *[!UICONTROL FTP]:* Zum Senden des abgeschlossenen Berichts an einen oder mehrere FTP-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+
+* *[!UICONTROL FTP SSL](Aktuell in Beta):* Senden des abgeschlossenen Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+
+* *[!UICONTROL Email]:* Geben Sie die E-Mail-Adresse(n) an, an die abgeschlossene Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
 **[!UICONTROL Email]:** (Nur E-Mail-Zieltyp) Geben Sie für jede Adresse die Adresse ein und klicken Sie auf **+**.
 
@@ -148,26 +186,13 @@ Beschreibungen aller Optionen finden Sie unter &quot;[Verfügbare Berichtsspalte
 
       Das neue Ziel ist jetzt in der Liste der vorhandenen Ziele verfügbar und Sie können es optional zum Bericht hinzufügen.
 
-**[!UICONTROL Frequency]:** (Für jeden [!UICONTROL Destination Name]) Wie oft der Bericht an das Ziel gesendet wird: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*.
-
-**[!UICONTROL Start Day]:** (Für jeden [!UICONTROL Destination Name] mit einem [!UICONTROL Frequency] von *[!UICONTROL Weekly]* oder *[!UICONTROL Monthly]*) Welchen Tag der Bericht generiert. Wählen Sie für wöchentliche Berichte den Wochentag aus. Wählen Sie für monatliche Berichte den numerischen Tag des Monats aus.
-
-## [!UICONTROL Save Report] Abschnitt
-
-**[!UICONTROL When to Generate]:** Wann der Bericht generiert werden soll: *[!UICONTROL On Schedule]* oder *[!UICONTROL Run Now]*. Geplante Berichte werden um 9:00 Uhr in der Zeitzone des Kontos bereitgestellt.
-
-**[!UICONTROL End Date]:** Das Ablaufdatum des Berichts, das bis zu vier Monate entfernt sein kann. Bevor ein Bericht abläuft, erhalten alle angegebenen E-Mail-Empfänger sieben Tage und einen Tag vor dem Ablaufdatum einen E-Mail-Warnhinweis. Um den Bericht länger zu halten, ändern Sie das Ablaufdatum in den Berichtseinstellungen.
-
->[!NOTE]
->
->Sie können [ einen benutzerspezifischen Bericht jederzeit ausführen](report-run-now.md) aus der [!UICONTROL Reports]-Ansicht.
-
 >[!MORELIKETHIS]
 >
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Benutzerspezifischen Bericht duplizieren](/help/dsp/reports/report-copy.md)
 >* [Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)
+>* [Einen benutzerspezifischen Bericht herunterladen](/help/dsp/reports/report-download.md)
 >* [Ausführen eines benutzerspezifischen Berichts](/help/dsp/reports/report-run-now.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Über Berichtsziele](/help/dsp/reports/report-destinations/report-destination-about.md)
