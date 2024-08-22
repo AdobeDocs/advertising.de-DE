@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Benutzerdefinierte Berichtseinstellungen
 
-**[!UICONTROL Name]** Der Berichtsname. Die maximale Länge beträgt 180 Zeichen.
+**[!UICONTROL Name]:** Der Berichtsname. Die maximale Länge beträgt 180 Zeichen.
 
-**[!UICONTROL Report Type]** Der Berichtstyp: *[!UICONTROL Custom]* (der die meisten verfügbaren Optionen enthält), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* oder *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** Der Berichtstyp: *[!UICONTROL Custom]* (der die meisten verfügbaren Optionen enthält), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* oder *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Report range] Abschnitt
+## [!UICONTROL Report Range] Abschnitt
 
 Dieser Abschnitt bestimmt die Daten, die im Bericht enthalten sind. Informationen zum Einrichten von Datumsangaben für den Berichtsplan finden Sie im Abschnitt &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -32,7 +32,7 @@ Dieser Abschnitt bestimmt die Daten, die im Bericht enthalten sind. Informatione
 
 * **[!UICONTROL Custom Range]:** Umfasst Daten zwischen bestimmten Start- und Enddaten. Um Daten über den vorherigen Tag zu berichten, wählen Sie **[!UICONTROL Present]** aus.
 
-## [!UICONTROL Report run schedule] Abschnitt
+## [!UICONTROL Report Run schedule] Abschnitt
 
 In diesem Abschnitt werden die Daten festgelegt, zu denen der Bericht ausgeführt wird. Informationen zum Einrichten der Datumswerte, für die Berichtsdaten einbezogen werden sollen, finden Sie im Abschnitt &quot;[!UICONTROL Report range]&quot;.
 
