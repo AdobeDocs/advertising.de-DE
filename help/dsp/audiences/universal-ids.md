@@ -3,7 +3,7 @@ title: Unterstützung für die Aktivierung von universellen IDs
 description: Erfahren Sie mehr über die Unterstützung für den Import Ihrer universellen ID-Segmente, die Erstellung benutzerdefinierter Segmente zur Verfolgung universeller IDs und die Konvertierung anderer Benutzer-IDs in Erstanbietersegmente in universelle IDs für das Targeting von Cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -106,9 +106,9 @@ Wenden Sie sich für [!DNL RampIDs] an Ihr Adobe Account Team, um weitere Inform
 
 ### Ursachen von Abweichungen {#universal-ids-data-variances-causes}
 
-* In ID5-IDs übersetzte Hash-E-Mail-IDs:
+* Alle Segmente:
 
-  Das probabilistische Modell weist eine Fehlervarianz von +/- 5 % auf. Das bedeutet, dass die Zielgruppenanzahl dadurch um 5 % überschätzt oder unterschätzt werden kann.
+  Die Anzahl von Segment zu Gerät verwendet ein probabilistisches Modell, das eine Fehlervarianz von +/- 5 % aufweist. Das bedeutet, dass die Zielgruppenanzahl dadurch um 5 % überschätzt oder unterschätzt werden kann.
 
 * Hash-E-Mail-IDs, übersetzt in [!DNL RampIDs]:
 
