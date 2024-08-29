@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Sehen Sie sich eine Liste der verfügbaren angebotsseitigen Plattformen (SSP) und offenen Austauschpartner an.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Eine angebotsseitige Plattform (Supply-Side Platform, SSP) ist eine Plattform f�
 | [!DNL TripleLift] |  | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Native Anzeige |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Desktop und Mobilgerät anzeigen<br><br>Video-Desktop, Mobilgerät und CTV |
 | [!DNL Triton] |  | Adobe Advertising | PG-Unterstützung | Global | USD | Audio-Desktop und Mobilgerät |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | US + EMEA | USD | Video-Desktop, Mobilgerät und CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | US + EMEA | USD | Desktop und Mobilgerät anzeigen<br><br>Video-Desktop, Mobilgerät und CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Desktop und Mobilgerät anzeigen<br><br>Video-Desktop, Mobilgerät und CTV |
 
 >[!MORELIKETHIS]
