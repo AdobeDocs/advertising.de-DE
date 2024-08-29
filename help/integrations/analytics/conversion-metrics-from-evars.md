@@ -3,9 +3,9 @@ title: Konversionsmetriken aus Adobe Analytics [!DNL eVars] und Props erstellen
 description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit Daten der Ebenen [!DNL eVar] und [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Co
 
 Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] -Administrator oder einem anderen Benutzer ausgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich an (DSP-Benutzer) das DSP technische Supportteam unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) Ihr Adobe-Account-Team.
 
-1. Erstellen Sie in [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. Erstellen Sie in [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Verwenden Sie die folgenden zusätzlichen Parameter:
 
@@ -60,7 +60,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] -Administr
 
 Nachdem die Metrik verfügbar ist, können Sie sie verwenden, um ein Ziel zu erstellen, das Sie dann einem Search-, Social- und Commerce-Portfolio zuweisen oder als [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) für ein DSP-Package verwenden können.
 
-Weitere Informationen zum Erstellen von Zielen finden Sie im Kapitel &quot;Ziele&quot;des Optimierungshandbuchs, das in &quot;Search, Social und Commerce&quot;verfügbar ist.
+Weitere Informationen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Ziele&quot;, das in Search, Social und Commerce verfügbar ist.
 
 >[!MORELIKETHIS]
 >
