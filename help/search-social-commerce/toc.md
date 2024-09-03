@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: a1e96400bb03fb327e9a8b25fb34fb690b4a5dfe
+source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -310,6 +310,7 @@ ht-degree: 2%
                + [Der [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
                + [Der [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
                + [Der [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [Der [!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
                + [Der [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [Der [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
                + [Der [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)

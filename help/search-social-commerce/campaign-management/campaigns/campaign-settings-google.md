@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] Kampagneneinstellungen'
 description: Referenzieren Sie die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrem [!UICONTROL Asset Libra
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von [Zielgruppen-Zielen auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Add new asset group]:** Ermöglicht die Angabe einer anderen Asset-Gruppe.
+**[!UICONTROL Primary Status]:** (Schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungssteigerung) Warum die Asset-Gruppe nicht mit voller Kapazität bereitgestellt wird oder nicht. Dabei werden der Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen berücksichtigt. Die Werte können *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNBEKANNT,* oder *UNSPECIFIIFIY enthalten. ED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+
+**[!UICONTROL Primary Status Reason]:** (Schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungssteigerung) Zusätzliche Details zum primären Status der Asset-Gruppe. Die Werte können *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN umfassen._ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNBEKANNT,* oder *UNSPECIFIED*. 1}
 
 ## [!UICONTROL Conversion Goals]
 

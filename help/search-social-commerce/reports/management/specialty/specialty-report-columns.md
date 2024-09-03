@@ -3,9 +3,9 @@ title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für spezielle Berichte.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c681e3da172244cf08114f1ae7e9ecdfb1a5dd25
+source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Konversionsrate als Prozentsatz. |
 | [!UICONTROL All Conversions] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Anzahl der Konversionen. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Anzahl der Konversionen. |
-| [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Kosten pro Konversion. &lt;!— Wie unterscheiden sich diese und die anderen Felder von normalen Metriken wie &quot;Kosten pro Konversion&quot;—> |
+| [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Kosten pro Konversion. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Gesamtumsatz dividiert durch Ausgaben, ausgedrückt als Prozentsatz. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Umsatz pro Konversion. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) Das Asset. |
@@ -68,9 +68,11 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] nur; [!UICONTROL Campaign Daily Impression Share Report]) Die Anzahl der Impressionen, die Sie für Anzeigen im Display-/Zielgruppennetzwerk erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, die Sie erhalten haben. Prozentsätze unter 10 % werden als &quot;`<10%`&quot;und Prozentsätze über 90 % als &quot;`>90%`&quot;angegeben. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] nur; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz der Impressionen, die Ihre Anzeigen im Display-/Zielgruppennetzwerk nicht erhalten haben, da Ihr tägliches oder monatliches Budget zu niedrig war. Prozentsätze unter 10 % werden als &quot;`<10%`&quot;und Prozentsätze über 90 % als &quot;`>90%`&quot;angegeben. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] nur; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz der Impressionen, die Ihre Anzeigen im Display-/Zielgruppennetzwerk aufgrund eines schlechten Anzeigenrangs nicht angezeigt wurden. Prozentsätze unter 10 % werden als &quot;`<10%`&quot;und Prozentsätze über 90 % als &quot;`>90%`&quot;angegeben. |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) Die Summe Ihrer Kosten pro Klick (CPC) und Kosten pro Tausend Impressionen (CPM) während des angegebenen Zeitraums. |
 | [!UICONTROL Conversion Rate] | Die Anzahl der Konversionen dividiert durch die Gesamtanzahl der Klicks. |
 | [!UICONTROL Conversion Type] | Der benutzerdefinierte Konversionstyp, der auf der Website des Advertisers verfolgt wurde. |
-| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] -Berichte) Klicks, die zu einem Verkauf oder einem anderen Erfolgsmaßstab führten. |
+| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] - und [!UICONTROL Google Asset Group Performance] -Berichte) Der Wert der Konversionen für den angegebenen Zeitraum. Bei den [!UICONTROL MSA Ad Extension] ist dies die Anzahl der Klicks, die zu einem Verkauf oder einem anderen Erfolgsmaßstab führten. |
+| [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report]) Die Anzahl der Konversionen aus Anzeigeninteraktionen dividiert durch die Anzahl der Anzeigeninteraktionen. Dieser Wert berücksichtigt nur Konversionsaktionen, für die das Attribut `include_in_conversions_metric` auf `true` gesetzt ist. |
 | [!UICONTROL Conversions Qualified] | ([!UICONTROL MSA Ad Extension] -Berichte) Die Anzahl der Konversionen. |
 | [!UICONTROL Cost] | Die Gesamtkosten für Anzeigen im angegebenen Datumsbereich. |
 | [!UICONTROL Cost Per Assist] | ([!UICONTROL MSA Ad Extension] Berichte) Die Gesamtkosten pro Hilfe. |
@@ -95,6 +97,8 @@ ht-degree: 0%
 | [!UICONTROL End Date] | Der letzte gemeldete Tag. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] -Berichte) Der [Anzeigename der Erweiterung](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] -Berichte) Die ID für den Anzeigenerweiterungstyp. |
+| [!UICONTROL Final URLs] | ([!UICONTROL Google Asset Group Performance Report]) Eine Liste der endgültigen URLs nach allen domänenübergreifenden Umleitungen. Die URLs können erweitert werden, wenn die URL-Erweiterung für die Kampagne aktiviert ist. |
+| [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report]) Eine Liste der endgültigen URLs für Mobilgeräte nach allen domänenübergreifenden Umleitungen. Die URLs können erweitert werden, wenn die URL-Erweiterung für die Kampagne aktiviert ist. |
 | [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] reports, [!UICONTROL MSA Network Performance Report]) Der Name des Konversionsziels. |
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] reports, [!UICONTROL MSA Network Performance Report]) Der Typ des Konversionsziels. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Die Anzahl der Online-Konversionen, die von [dem  [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) verfolgt werden. |
@@ -119,13 +123,19 @@ ht-degree: 0%
 | [!UICONTROL Network] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Marketplace für das Werbenetzwerk. |
 | [!UICONTROL Network Account ID] | Die vom Netzwerk zugewiesene Konto-ID. |
 | [!UICONTROL Network Ad Group ID] | Die vom Netzwerk zugewiesene Anzeigengruppen-ID. |
+| [!UICONTROL Network Asset Group ID] | Die vom Netzwerk zugewiesene Asset-Gruppen-ID. |
+| [!UICONTROL Network Asset Group Name] | Der Asset-Gruppenname. |
 | [!UICONTROL Network Campaign ID] | Die vom Netzwerk zugewiesene Kampagnen-ID. |
 | [!UICONTROL Network Type] | Das Netzwerk, in dem die Anzeige angezeigt wurde:<ul><li>*[!UICONTROL google_search]*: [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*: [!DNL Google Display Network]</li></ul> |
+| [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report]) Der erste Textsatz, der an die Anzeigen-URL in der Anzeige angehängt werden kann. |
+| [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report]) Der zweite Textsatz, der an die Anzeigen-URL in der Anzeige angehängt werden kann. Dieses Feld ist nur verfügbar, wenn ein Path1-Wert angegeben wird. |
 | [!UICONTROL Portfolio Group Name] | Der Name der Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL Portfolio ID] | Die numerische Portfolio-ID. |
 | [!UICONTROL Portfolio Name] | Das Portfolio. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio Report) Die Ausgabestrategie für das Portfolio: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* oder *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Der Portfoliostatus:<ul><li>*[!UICONTROL Optimize]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die Daten zur Optimierung von Angeboten und optimiert Angebote und/oder Kampagnenbudgets (je nach Optimierungstyp und Kampagnenangebotsstrategien).</li><li>*[!UICONTROL Active]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li>*[!UICONTROL Inactive]*: Die Optimierungsfunktion erfasst Klickdaten für die relevanten Kampagnen zu Berichtszwecken, modelliert aber nicht die Daten und optimiert keine Angebote oder Kampagnenbudgets.</li></ul> |
+| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Warum die Asset-Gruppe voll ausgelastet ist oder nicht. Dabei werden der Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen berücksichtigt. Die Werte können *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNBEKANNT,* oder *UNSPECIFIIFIY enthalten. ED.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Zusätzliche Details zum primären Status der Asset-Gruppe. Die Werte können *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN umfassen._ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNBEKANNT,* oder *UNSPECIFIED*. 1} |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkt-ID des Produkts, das mit der Anzeige angezeigt wird. <b>Hinweis:</b> Die ID wird nur erfasst, wenn die Produktliste den Tracking-Parameter `ev_plx=<GMC product ID>` enthält, den Sie in [!DNL Google Merchant Center] hinzufügen müssen. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkttypen der ersten bis fünften Ebene (Ihre selbstdefinierten Attribute für die Produktgruppe). |
 | [!UICONTROL Query Match Type] | (AdWords Search Query Report) Der Suchbegriffübereinstimmungstyp für die Suchabfrage. |
@@ -136,7 +146,7 @@ ht-degree: 0%
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] -Berichte) Der Gesamtumsatz pro Konversion. |
 | [!UICONTROL SE Account Name] | Der Kontoname im Werbenetzwerk. |
 | [!UICONTROL SE Creative ID] | Die vom Netzwerk zugewiesene Anzeigen-ID. |
-| [!UICONTROL SE_TERM_ID] | (AdWords Search Query Report) Die vom Anzeigennetzwerk zugewiesene Suchbegriff-ID.<!--??? what is this? --> |
+| [!UICONTROL SE_TERM_ID] | (AdWords Search Query Report) Die vom Anzeigennetzwerk zugewiesene Suchbegriff-ID. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] und [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] und [!UICONTROL Keyword Daily Impression Share Report]) Die Impressionen, die Sie am absoluten oberen Ort (die erste Anzeige über den organischen Suchergebnissen) erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, die Sie am oberen Ort erhalten konnten. Prozentsätze unter 10 % werden als &quot;`<10%`&quot;oder &quot;`0.0999`&quot;angegeben. |
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] und [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] und [!UICONTROL Keyword Daily Impression Share Report]) Die Impressionen, die Sie an den oberen Positionen (oberhalb der organischen Suchergebnisse) erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, die Sie an den oberen Positionen erhalten haben. Prozentsätze unter 10 % werden als &quot;`<10%`&quot;oder &quot;`0.0999`&quot;angegeben. |
 | [!UICONTROL Search Engine] | Das Werbenetzwerk. |
@@ -156,6 +166,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost top IS (rank)] | ([!DNL Google Ads] und [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] und [!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]) Der Prozentsatz der Zeit, zu der Ihre Anzeigen aufgrund eines schlechten Anzeigenrangs nicht über den organischen Suchergebnissen angezeigt wurden. Bei [!DNL Google Ads] -Kampagnen werden Prozentsätze über 90 % als &quot;`>90%`&quot; oder &quot;`0.9001`&quot; angegeben. |
 | [!UICONTROL Search Term] | (AdWords Search Query Report and Bing Ads Search Query Report) Ein Suchbegriff für Benutzer, aus dem Klicks stammen. |
 | [!UICONTROL Start Date] | Der erste gemeldete Tag. |
+| [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) Der Asset-Gruppenstatus. |
 | [!UICONTROL Store ID] | Die ID des Anzeigennetzwerks, die für den Händler-Center-Store verwendet wird. |
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) Die erste Zeile der Anzeige, die auf Ihre Website verweist. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) Die zweite Zeile der Anzeige, die auf Ihre Website verweist. |
