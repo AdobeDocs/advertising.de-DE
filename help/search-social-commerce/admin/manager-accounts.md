@@ -3,9 +3,9 @@ title: Verwalten von Anmeldeinformationen für Ad-Netzwerk-Manager-Konten
 description: Erfahren Sie, wie Sie Anmeldedaten für Ihre [!DNL Google Ads] Manager-Konten bereitstellen.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Nachdem Sie Anmeldeinformationen für ein Manager-Konto hinzugefügt haben, wird
 >[!MORELIKETHIS]
 >
 >* [Aktivieren des Hochladens von Zielen in Anzeigennetzwerke](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [Hochladen von Konversionsmetriken in  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [Laden Sie die von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md) hoch.
 >* [Bearbeiten der Benachrichtigungseinstellungen](/help/search-social-commerce/notifications/notification-edit.md)

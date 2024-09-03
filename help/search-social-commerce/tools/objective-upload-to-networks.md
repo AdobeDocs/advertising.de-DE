@@ -3,9 +3,9 @@ title: Aktivieren des Hochladens von Zielen in Werbenetzwerke
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ Wenn das Ziel mit dem Namen `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_acco
 >[!MORELIKETHIS]
 >
 >* [Über die Verwaltung der Konversionsmetriken eines Advertisers](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [Hochladen von Konversionsmetriken in  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [Laden Sie die von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads]](conversion-metrics-upload-to-google.md) hoch.

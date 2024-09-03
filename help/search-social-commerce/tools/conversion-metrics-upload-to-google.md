@@ -1,18 +1,18 @@
 ---
-title: Hochladen von Konversionsmetriken in  [!DNL Google Ads]
+title: Hochladen der von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads]
 description: Erfahren Sie, wie Sie Konversionsmetriken mit Such-, Social- und Commerce-Verfolgung in  [!DNL Google Ads] hochladen.
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Hochladen von Konversionsmetriken in [!DNL Google Ads]
+# Hochladen der von Search, Social und Commerce verfolgten Konversionsmetriken in [!DNL Google Ads]
 
-*Advertiser mit [!DNL Google Ads] Konten nur*
+*Werbetreibende mit [!DNL Google Ads] Konten und nur Adobe Advertising-Konversions-Tracking*
 
 Search, Social und Commerce können optional alle von ihr verfolgten Konversionsmetriken für [!DNL Google Ads] Kampagnen, die den Adobe Advertising-Konversions-Tracking-Dienst verwenden, in [!DNL Google Ads] hochladen. Mit dieser Option werden die Konversionen nicht für die Hybridoptimierung verfügbar. Wenn Sie Ihre Adobe-Konversionen für die Hybridoptimierung verwenden möchten, finden Sie weitere Informationen unter &quot;[Aktivieren des Hochladens von Zielgruppen in Werbenetzwerke](objective-upload-to-networks.md)&quot;.
 

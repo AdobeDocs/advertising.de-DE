@@ -3,7 +3,7 @@ title: Anzeigen verwalten
 description: Erfahren Sie mehr über Anzeigen in Search, Social und Commerce, einschließlich der verfügbaren Anzeigentypen.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen innerhalb eines syn
 
   Sie können steuern, welche Produkte mit Ihren [!DNL Microsoft Advertising] -Shopping-Anzeigen angezeigt werden, indem Sie separate Produktgruppen für die Anzeigengruppe über die Ansicht [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] einrichten.
 
-  Weitere Informationen zum Workflow für Produkt-/Shopping-Anzeigen finden Sie unter &quot;[Implementieren [!DNL Microsoft Advertising] Einkaufskampagnen](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot;.  Weitere Informationen zu Produktanzeigen finden Sie in der Dokumentation zu [Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Weitere Informationen zum Workflow für Produkt-/Shopping-Anzeigen finden Sie unter &quot;[Implementieren [!DNL Microsoft Advertising] Einkaufskampagnen](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot;.  Weitere Informationen zu Produktanzeigen finden Sie in der Dokumentation zu [Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Responsive Suchanzeigen für [!DNL Google Ads] - und [!DNL Microsoft Advertising] -Kampagnen im Suchnetzwerk. Das Anzeigennetzwerk assembliert dynamisch textbasierte responsive Suchanzeigen aus einer Reihe von Anzeigentiteln und -beschreibungen, wobei bevorzugt Kombinationen gewählt werden, die eine gute Leistung erzielen. Die Anzeige enthält bis zu drei Überschriften, zwei Beschreibungen und eine anpassbare URL aus den Basis-URL- und optionalen Feldern path1 und path2. Sie können Anzeigentitel und -beschreibungen optional an bestimmte Positionen anheften.
 

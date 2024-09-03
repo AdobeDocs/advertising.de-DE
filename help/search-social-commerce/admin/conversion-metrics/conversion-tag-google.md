@@ -3,9 +3,9 @@ title: Konversions-Tag für  [!DNL Google Ads] erstellen
 description: Erfahren Sie, wie Sie ein [!DNL Google Ads] Konversions-Tag erstellen.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Sie können Konversions-Tags für neue Konversionen erstellen, die für einzelne
 
 Verwenden Sie zum Generieren von Konversions-Tags für vorhandene Konversionen den Editor des Anzeigennetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, wodurch die Registerkarte **[!UICONTROL Summary]** geöffnet wird.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") .
 
@@ -42,7 +42,7 @@ Nachdem Sie die Tags zu Ihrer Website hinzugefügt haben und sie ausgelöst werd
 
 **[!UICONTROL Select an Account]:** Das entsprechende Google Ads-Konto.
 
-**[!UICONTROL Type of Conversion]:** Der Typ der zu verfolgenden Konvertierung: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* oder *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Der Typ der zu verfolgenden Konvertierung: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* oder *[!UICONTROL Clicks to your number on your mobile website]*. **Hinweis:** *[!UICONTROL Import conversion]* wird für einen anderen Zweck verwendet; siehe &quot;[Erstellen einer Konversionsaktion für eine  [!DNL Google Ads] erweiterte Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;.
 
 **[!UICONTROL Conversion Name]:** Ein eindeutiger Name für die Konversionsmetrik.
 
@@ -68,4 +68,5 @@ Nachdem Sie die Tags zu Ihrer Website hinzugefügt haben und sie ausgelöst werd
 
 >[!MORELIKETHIS]
 >
+>* [Hochladen von Offline-Konversionsdaten für erweiterte Konvertierungen](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
