@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
+source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,9 @@ Bei Paketen mit benutzerdefiniertem Flight ist das Budgetintervall immer *[!UICO
 **[!UICONTROL Gross Budget]:** (Nur Pakete mit Geschwindigkeit auf Paketebene und dynamischem Margenmanagement) Die Obergrenze des Bruttobudgets für die Dauer des Pakets.
 
 **[!UICONTROL Optimization Goal]:** (Pakete mit nur Geschwindigkeit auf Paketebene) Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter [Optimierungsziele und Verwendung dieser Ziele](/help/dsp/optimization/optimization-goals.md).
+
+
+**[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Nur Pakete mit Geschwindigkeit auf Paketebene und mit den Optimierungszielen &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot;und &quot;[!UICONTROL Lowest Cost per Reach]&quot;) Verwendet die Reichweitendaten aus allen programmgarantierten Platzierungen in der Kampagne, um die inkrementelle Reichweite zu optimieren.
 
 **[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot;und &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Ein [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md), das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel kann optional zusätzliche gewichtete obere Trichterereignisse (wie Seitenbesuche und Zusatz zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik zur Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich Best Practices zum Erstellen für benutzerdefinierte Ziele und Kampagnen, die sie verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md)&quot;und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
 
