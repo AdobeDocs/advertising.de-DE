@@ -3,16 +3,16 @@ title: Archivieren oder Archivieren einer Kampagne aufheben
 description: Erfahren Sie, wie Sie eine Kampagne archivieren oder deren Archivierung aufheben.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # Archivieren oder Archivieren einer Kampagne aufheben
 
-Verbergen Sie eine Kampagne, die nicht verwendet wird, indem Sie sie archivieren. Die einzige Aktion, die Sie für eine archivierte Kampagne durchführen können, ist die Aufhebung der Archivierung. Archivierte Kampagnen werden nicht standardmäßig angezeigt, stehen aber weiterhin für Berichte zur Verfügung.
+Archivieren Sie eine Kampagne, die nicht dazu verwendet wird, alle Ausgaben anzuhalten und alle zugehörigen Entitäten zu archivieren. Die einzige Aktion, die Sie für eine archivierte Kampagne durchführen können, ist die Aufhebung der Archivierung. Archivierte Kampagnen werden nicht standardmäßig angezeigt, stehen aber weiterhin für Berichte zur Verfügung.
 
 Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status jederzeit wiederherzustellen.
 
