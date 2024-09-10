@@ -3,7 +3,7 @@ title: Format der JavaScript-Konversions-Trackingtags, Version 3
 description: Verweisen Sie auf das Format der JavaScript-Konversions-Trackingtags, Version 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Das folgende Format gilt für Sites, die HTTPS verwenden. Bei Sites, die HTTP ve
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
-        window.id5PartnerId=<Your_ID5_PartnerID>
+        window.id5PartnerId=<ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -56,7 +56,7 @@ wobei:
 
 * `<ef-userid>` ist eine eindeutige, numerische Benutzer-ID, die Search, Social und Commerce dem Advertiser zuweisen.
 
-* `<Your_ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerspezifische Segmente verfügt, die Benutzer verfolgen, die mit universellen IDs für ID5 verknüpft sind ](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerspezifische Segmente verfügt, die Benutzer verfolgen, die mit universellen IDs für ID5 verknüpft sind ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` ist die Konvertierung, die verfolgt werden soll. Wenn Sie beispielsweise eine Konversion mit dem Namen &quot;Registrierung&quot;verfolgen, enthält das Tag den Parameter `ev_registration=<registration>` und Sie müssen den tatsächlichen Umsatz für jede Transaktion (z. B. `ev_registration=1`) weitergeben. Wenn mehrere Eigenschaften verfolgt werden, werden sie durch ein kaufmännisches Und-Zeichen (`&`) wie `ev_registration=<registration>&ev_sale=<sale>` (z. B. `ev_registration=1&ev_sale=12.99`) verbunden. **Hinweis:** Der Eigenschaftsname darf keine Sonderzeichen enthalten.
 
