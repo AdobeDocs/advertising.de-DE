@@ -3,9 +3,9 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Webseiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Sie können Ihre eigenen Erstanbieter-Zielgruppendaten erfassen, indem Sie ein b
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      Siehe &quot;[Format der JavaScript-Konversions-Tracking-Tags Version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot;und &quot;[Format der JavaScript-Konversions-Tracking-Tags Version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
 
    1. Verwenden Sie ein Browser-Debugging-Tool, um sicherzustellen, dass jeder Aufruf an die Domäne `lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
