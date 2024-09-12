@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen zu Adobe Advertising-Konversions- und Seitenansi
 description: Sehen Sie sich einen Vergleich der Adobe Advertising-Konversions- und Seitenansichts-Tracking-Tags an.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Folgendes gilt für Adobe Advertising-Konversions-Tracking-Tags und Seitenansich
 | ---- | ---- | ---- | ---- | ---- |
 | Kann auf derselben Webseite wie auf einer anderen JS-Version verwendet werden | — | — | — | Nicht zutreffend |
 | Ermöglicht die Verwendung mehrerer Tags mit denselben Advertiser-Benutzer-IDs auf derselben Webseite | Ja | Ja | Ja | — |
-| Ermöglicht die Verwendung mehrerer Tags mit verschiedenen Advertiser-Benutzer-IDs auf derselben Webseite | Ja | Ja | Nein | Nein |
+| Ermöglicht die Verwendung mehrerer Tags mit verschiedenen Advertiser-Benutzer-IDs auf derselben Webseite | Ja | Ja | — | — |
 | Wird von der Adobe Advertising-Erweiterung für Adobe Experience Platform verwendet und ist mit anderen Tags kompatibel, die mithilfe von Experience Platform generiert werden. | Ja | Ja | — | — |
 | Ermöglicht das Tracking aller Konversionen von [!DNL Apple Safari] und [!DNL Mozilla Firefox] bei Verwendung mit dem Adobe Advertising JavaScript-Konversions-Mapping-Tag | Ja | Ja | Ja | — |
 
