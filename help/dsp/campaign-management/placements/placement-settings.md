@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ Wenn Sie sowohl Legacy-IDs als auch universelle IDs auswählen, wird den univers
    * Um ein Intervall manuell auszuwählen, klicken Sie in eine Zelle und ziehen Sie optional, um das Intervall auszuwählen.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Optional; für Advertiser verfügbar, die mit den Segmenten [!DNL Proximic by Comscore] und [!DNL Oracle Data Cloud] konfiguriert wurden) Bestimmte Segmentnamen oder IDs aus [!DNL Proximic by Comscore] und [!DNL Oracle Data Cloud] (ehemals [!DNL Grapeshot]), die als Ziele einbezogen werden sollen. Für diese Funktion können zusätzliche Gebühren anfallen. Wenden Sie sich an Ihr Adobe Account-Team, um diese Funktion zu aktivieren und Themensegmente einzurichten.
-
-**Hinweis:** [!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einschränken, einschließlich aller Dienste von [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (Optional; für Advertiser verfügbar, die mit [!DNL Proximic by Comscore] Segmenten konfiguriert sind) Bestimmte Segmentnamen oder IDs aus [!DNL Proximic by Comscore], die als Ziele eingefügt werden sollen. Für diese Funktion können zusätzliche Gebühren anfallen. Wenden Sie sich an Ihr Adobe Account-Team, um diese Funktion zu aktivieren und Themensegmente einzurichten.
 
 So legen Sie das Thema-Targeting fest:
 
 1. Klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Zielsegmente an:
-   1. Wählen Sie in der linken Spalte den Partner (*[!UICONTROL Comscore]* oder *[!UICONTROL Grapeshot]*) aus.
+   1. Wählen Sie in der linken Spalte den Partner aus: (*[!UICONTROL Comscore]*)
    1. Geben Sie im Eingabefeld die Segmentnamen oder Segment-IDs ein.
 1. (Optional) Klicken Sie auf &quot;**[!UICONTROL Export]**&quot;, um eine CSV-Datei mit den Themeninformationen zum Speicherort der Downloads Ihres Browsers herunterzuladen.
 1. Klicken Sie auf **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ So legen Sie das Thema-Targeting fest:
 >
 >* Beim Thema-Targeting wird der Bestand begrenzt, für den die Platzierung ein Angebot machen kann. Verwenden Sie daher das Thema-Targeting nur für einen geringen Prozentsatz Ihres Gesamtkaufs.
 >
->* Richten Sie ein negatives Targeting innerhalb des Segments auf [!DNL Proximic by Comscore] oder [!DNL Oracle Data Cloud] ein (ehemals [!DNL Grapeshot]).
+>* Richten Sie ein negatives Targeting im Segment auf [!DNL Proximic by Comscore] ein.
 
 **[!UICONTROL Device Targeting]:** (Optional) Spezifische Geräteinformationen, einschließlich Gerätetypen, Hersteller, Betriebssysteme, Browser und Verbindungstypen, die als Ziele ein- und ausgeschlossen werden sollen. Die Typen variieren je nach Platzierungstyp. So legen Sie das Geräte-Targeting fest:
 
@@ -431,11 +429,7 @@ So legen Sie das Thema-Targeting fest:
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Welche Sichtbarkeit vor dem Gebot filtert nach [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) und [!DNL Integral Ad Science], um sie auf die Platzierung anzuwenden. Die Standardeinstellungen auf Advertiser-Ebene werden für neue Platzierungen ausgewählt, Sie können die Einstellungen jedoch ändern. Es können zusätzliche Gebühren erhoben werden.
-
->[!NOTE]
->
->[!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einstellen, einschließlich aller Dienste von [!DNL MOAT].
+Welche Sichtbarkeit vor dem Gebot filtert nach [!DNL DoubleVerify] und [!DNL Integral Ad Science], um sie auf die Platzierung anzuwenden. Die Standardeinstellungen auf Advertiser-Ebene werden für neue Platzierungen ausgewählt, Sie können die Einstellungen jedoch ändern. Es können zusätzliche Gebühren erhoben werden.
 
 **[!UICONTROL Ads.txt filtering]:**
 

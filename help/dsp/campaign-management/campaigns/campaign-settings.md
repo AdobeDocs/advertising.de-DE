@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagnenparameter.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ So schätzen Sie die einzubehaltenden Steuern:
 * **[!UICONTROL IAS Account ID (AnID)]:** (Werbetreibende mit eigenen [!DNL IAS]-Konten; optional) Die [!DNL IAS]-Konto-ID des Unternehmens, die [!DNL IAS] direkt für die Verwendung in Rechnung stellt.
 
 * **[!UICONTROL IAS Team ID]:** (Werbetreibende mit eigenen [!DNL IAS]-Konten; optional) Die Team-ID für das [!DNL IAS]-Konto des Unternehmens, die [!DNL IAS] direkt für die Verwendung anrechnet. <!-- verify -->
-
-**[!UICONTROL MOAT]:** (Optional) Ermöglicht die Messung und Berichterstellung von Sichtbarkeit, Betrug, Markensicherheit und Zielgruppenerkennung (2}). [!DNL MOAT] Es fallen zusätzliche Gebühren an. **Hinweis:** [!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einschränken, einschließlich aller Dienste von [!DNL MOAT].
 
 #### Zielgruppenüberprüfung
 

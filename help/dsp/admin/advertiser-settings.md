@@ -2,9 +2,9 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Arten von zu blockierenden Sites basierend auf betrügerischem Traffic und verd�
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Optionale Sichtbarkeitsfilter vor dem Angebot durch [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) und [!DNL Integral Ad Science], die auf Platzierungen angewendet werden sollen. Die Standardeinstellungen auf Advertiser-Ebene werden für neue Platzierungen ausgewählt. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md) überschreiben.
-
->[!NOTE]
->
->[!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einstellen, einschließlich aller Dienste von [!DNL MOAT].
+Optionale Sichtbarkeitsfilter vor dem Angebot durch [!DNL DoubleVerify] und [!DNL Integral Ad Science], die auf Platzierungen angewendet werden sollen. Die Standardeinstellungen auf Advertiser-Ebene werden für neue Platzierungen ausgewählt. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene](/help/dsp/campaign-management/placements/placement-settings.md) überschreiben.
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Optionale Sichtbarkeitsfilter vor dem Angebot durch [!DNL DoubleVerify], [!DNL O
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 Ein optionaler Filter **[!UICONTROL Video Viewability Targets]** und ein optionaler Filter **[!UICONTROL Display Viewability Targets]** . Es können zusätzliche Gebühren erhoben werden.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-Ein optionaler Filter **[!UICONTROL Video Viewability Standard]** und ein optionaler Filter **[!UICONTROL Display Viewability Standard]** . Es können zusätzliche Gebühren erhoben werden.
 
 #### [!UICONTROL Ads.text]
 

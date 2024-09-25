@@ -3,9 +3,9 @@ title: Markensicherheit und Medienqualität
 description: Erfahren Sie mehr über Markensicherheit und Medienqualitätsmerkmale.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP bietet eine Reihe von Markenschutzfunktionen, um sicherzustellen
 
 Unser Team von Fraud Surveillance arbeitet eng mit branchenführenden Partnern wie den [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] und [!DNL WhiteOps] zusammen, um den Bestand auf unserer Plattform sorgfältig zu kuratieren. Durch die proaktive Verwaltung unseres Angebots stellt DSP sicher, dass alle Advertiser auf der ganzen Plattform vor unmenschlichem Traffic (Bots, Crawler, Data Center Traffic und Betrug) geschützt sind und nur in markensicheren Kontexten bereitstellen.
 
-Neben dem zentralen Qualitätsmanagement möchten wir Werbetreibende in die Lage versetzen, die ihrer Marke entsprechenden Steuerelemente zu entwerfen. DSP bietet Integrationen mit [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] und [!DNL Peer39], um sicherzustellen, dass jeder Advertiser das gewünschte Maß an Betrugsschutz, kontextbezogener Filterung und Keyword-Targeting auswählen kann.
+Neben dem zentralen Qualitätsmanagement möchten wir Werbetreibende in die Lage versetzen, die ihrer Marke entsprechenden Steuerelemente zu entwerfen. DSP bietet Integrationen mit [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39], um sicherzustellen, dass jeder Advertiser sein gewünschtes Maß an Betrugsschutz, kontextbezogener Filterung und Keyword-Targeting auswählen kann.
 
 ## Qualitätsinitiativen
 
@@ -110,15 +110,11 @@ Weitere Informationen zur Funktionalität erhalten Sie direkt bei Ihrem bevorzug
 
 ### Vorabanzeige {#pre-bid-viewability}
 
-Mit den von unseren branchenführenden Partnern bereitgestellten Vorab-Sichtbarkeitsfiltern [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) und [!DNL Integral Ad Science] können Werbetreibende sicherstellen, dass ihre Kampagnen ihre gewünschten Leistungsziele bezüglich der Sichtbarkeit über Video- und Anzeigebestände hinweg erfüllen.
-
->[!NOTE]
->
->[!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einstellen, einschließlich aller Dienste von [!DNL MOAT].
+Mit den von unseren branchenführenden Partnern [!DNL DoubleVerify] und [!DNL Integral Ad Science] bereitgestellten Vorgebotsanzeige-Filtern können Werbetreibende sicherstellen, dass ihre Kampagnen ihre gewünschten Darstellungsleistungsziele über Video- und Anzeigebestände hinweg erfüllen.
 
 Sie können für jeden Advertiser standardmäßige Sichtbarkeitsfilter festlegen<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). [ Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
 
-![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising logo](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png)
+![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png)
 
 ### Aufmerksamkeit-Targeting und -Messung
 
@@ -132,17 +128,13 @@ Für jede einzelne Funktion fallen zusätzliche Gebühren an.
 
 ### Themen-Targeting
 
-DSP Thema-Targeting ermöglicht es Ihnen, Suchbegrifflisten durch Nutzung unserer branchenführenden kontextbezogenen Partner [!DNL Comscore] und [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]) als Ziel festzulegen oder zu blockieren. Das Thema-Targeting hilft Ihnen dabei sicherzustellen, dass Ihre Anzeigen immer in einer mit Ihrer Marke abgestimmten Umgebung bereitgestellt werden, unabhängig davon, ob dies das Blockieren schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein höheres Ergebnis gewährleistet.
-
->[!NOTE]
->
->[!DNL Oracle] wird sein Werbegeschäft bis zum 30. September 2024 einstellen, einschließlich aller Dienste von [!DNL Oracle Data Cloud] (früher [!DNL Grapeshot]).
+DSP Thema-Targeting ermöglicht es Ihnen, Suchbegrifflisten mithilfe unseres branchenführenden kontextbezogenen Partners [!DNL Comscore] als Ziel festzulegen oder zu blockieren. Das Thema-Targeting hilft Ihnen dabei sicherzustellen, dass Ihre Anzeigen immer in einer mit Ihrer Marke abgestimmten Umgebung bereitgestellt werden, unabhängig davon, ob dies das Blockieren schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein höheres Ergebnis gewährleistet.
 
 Für das Thema-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie für jede Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md) im Abschnitt [!UICONTROL Audience Targeting] eine Segment-ID als Ziel angeben oder ausschließen. [ Für diese Funktion können zusätzliche Gebühren anfallen.
 
 Um ein [!DNL Comscore] -Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie eine Anmeldung für [!DNL Activation Segment Manager] unter [https://agents.comscore.com](https://agents.comscore.com) anfordern. Vollständige Anweisungen zum Einrichten benutzerdefinierter Segmente finden Sie im [[!DNL Comscore] Hilfezentrum](https://comscoreactivation.zendesk.com/hc/) . Gebühren für benutzerspezifische Segmente werden beim Erstellen in [!DNL Segment Manager] angezeigt.
 
-![Comscore-Logo](/help/dsp/assets/comscore-logo.png) ![Grapeshot-Logo](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore-Logo](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
