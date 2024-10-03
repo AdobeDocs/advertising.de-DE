@@ -3,9 +3,9 @@ title: Konversionsmetriken aus Adobe Analytics [!DNL eVars] und Props erstellen
 description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit Daten der Ebenen [!DNL eVar] und [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: db815958b039508b005f4be60561ddc4656da86e
+source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] -Administr
 
 Nachdem die Metrik verfügbar ist, können Sie sie verwenden, um ein Ziel zu erstellen, das Sie dann einem Search-, Social- und Commerce-Portfolio zuweisen oder als [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) für ein DSP-Package verwenden können.
 
-Weitere Informationen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Ziele&quot;, das in Search, Social und Commerce verfügbar ist.
+Weitere Informationen zum Erstellen von Zielen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Ziele&quot;, das in Search, Social und Commerce verfügbar ist.
 
 >[!MORELIKETHIS]
 >
