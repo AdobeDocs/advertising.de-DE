@@ -3,9 +3,9 @@ title: Arten von Leistungsberichten in Campaign Management-Ansichten
 description: Erfahren Sie mehr über die Berichtsdaten in den Kampagnenverwaltungsansichten.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Um eine Kampagne detaillierter anzuzeigen, klicken Sie auf den Kampagnennamen.
 
 #### Warnhinweise
 
-*Beta-Funktion*
-
 Eine Spalte &quot;[!UICONTROL Alerts]&quot; gibt an, wenn eine Kampagne oder eine untergeordnete Entität darunter ein Problem hat. Das Symbol &quot;[!UICONTROL Pulse Panel]&quot;rechts neben der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden Sie unter &quot;[Warnhinweise anzeigen](campaign-alerts.md)&quot;.
 
 ## Berichterstellung für einzelne Kampagnen {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Weitere Informationen finden Sie im Abschnitt [&quot;Diagrammansicht&quot;zu kam
 In jeder Entitäts-Registerkarte enthält jede Zeile standardmäßig Pacing- und Bereitstellungsmetriken. Sie können jedoch [die Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) oder sogar [eine benutzerdefinierte Spaltenansicht erstellen](campaign-data-views-manage.md#column-view-create), um sie auf alle Unterregisterkarten für die Kampagne anzuwenden. Sie können die Datentabellen ](campaign-data-views-manage.md#data-tables-manage) auf zusätzliche Weise weiter anpassen. [ Jede Datentabelle enthält eine Zeile [!UICONTROL Subtotals], die entweder die Summe oder den Durchschnittswert jeder Metrik für alle sichtbaren Zeilen anzeigt.
 
 #### Warnhinweise
-
-*Beta-Funktion*
 
 Eine Spalte &quot;[!UICONTROL Alerts]&quot; gibt an, wann ein Paket, eine Platzierung oder eine Anzeige - oder eine untergeordnete Entität unter einem Paket oder einer Platzierung - ein Problem hat. Eine Spalte &quot;[!UICONTROL Alerts]&quot; gibt an, wenn eine Kampagne oder eine untergeordnete Entität darunter ein Problem hat. Das Symbol &quot;[!UICONTROL Pulse Panel]&quot;rechts neben der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden Sie unter &quot;[Warnhinweise anzeigen](campaign-alerts.md)&quot;.
 

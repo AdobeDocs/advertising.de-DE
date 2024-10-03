@@ -4,7 +4,7 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
+source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -50,7 +50,7 @@ ht-degree: 2%
             + [Anwenden von Datenfiltern aus der Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [Spaltenfilter bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
             + [Spaltenfilter entfernen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
-   + Verwalten benutzerdefinierter Metriken {#custom-metrics}
+   + Benutzerdefinierte Metriken verwalten {#custom-metrics}
       + [Über benutzerdefinierte Metriken](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
       + [Benutzerdefinierte Metrik erstellen](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
       + [Benutzerdefinierte Metrik bearbeiten](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)

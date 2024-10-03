@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] Konversionsdaten'
 description: Erfahren Sie mehr über die Typen der  [!DNL Microsoft Advertising]-verfolgten Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] Konversionsdaten in Search, Social und Commerce
 
-Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tags](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) verfolgt werden, für Website-Konversionen, einschließlich Durchsichtskonversionen, zur Berichterstellung und Optimierung.
+Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] Universal Event Tracking (UET)-Tags](https://help.ads.microsoft.com/#apex/ads/en/53056) verfolgt werden, für Website-Konversionen, einschließlich Durchsichtskonversionen, zur Berichterstellung und Optimierung.
 
 Alle Metriken sind automatisch in Ihren Kampagnenverwaltungsansichten und Basisberichten verfügbar und stehen auch zur Verwendung in Portfoliozielen zur Optimierung von [!DNL Microsoft Advertising] -Kampagnen zur Verfügung.
 
