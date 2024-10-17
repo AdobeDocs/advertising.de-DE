@@ -3,9 +3,9 @@ title: Über Werbenetzkonten
 description: Erfahren Sie mehr über Anzeigennetzwerkkonten in Search, Social und Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social und Commerce können beliebige Konten eines Advertisers in unters
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und vorhandene [!DNL Baidu] Konten*
 
-Die Suche, Social und Commerce synchronisiert (*synchronisiert*) mit unterstützten Anzeigennetzwerkkonten, sodass Sie die Leistung Ihrer Anzeigen verfolgen, in Berichten darstellen und visualisieren können. Bei allen Werbenetzwerken mit Ausnahme von [!DNL Yahoo! Display Network] können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce verwalten. [!DNL Yahoo! Display Network] Kampagnen sind schreibgeschützt. Für alle Werbenetzwerke können Sie mit der Optimierungsfunktion Gebote für Anzeigen in verwalteten Konten optimieren, indem Sie sie zu Portfolios hinzufügen.
+Die Suche, Social und Commerce synchronisiert (*synchronisiert*) mit unterstützten Anzeigennetzwerkkonten, sodass Sie die Leistung Ihrer Anzeigen verfolgen, in Berichten darstellen und visualisieren können. Bei allen Werbenetzwerken mit Ausnahme von [!DNL Yahoo! Display Network] können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce verwalten. [!DNL Yahoo! Display Network] Kampagnen sind schreibgeschützt. Für alle Werbenetzwerke können Sie mit der Optimierungsfunktion Gebote, Kampagnenbudgets und Kampagnenangebotsstrategieziele für Kampagnen in verwalteten Konten optimieren, indem Sie die Kampagnen zu Portfolios hinzufügen.
 
 Um die Synchronisierung eines Kontos zu aktivieren, muss der Kontodatensatz die Kontozugriffsberechtigungen enthalten und aktiviert (aktiv) sein.
 

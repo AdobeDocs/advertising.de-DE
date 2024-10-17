@@ -3,16 +3,16 @@ title: Kampagnen einem Portfolio zuweisen
 description: Erfahren Sie, wie Sie Kampagnen zur Optimierung in Portfolios einbeziehen.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Kampagnen einem Portfolio zuweisen
 
-Wenn Sie eine Kampagne einem optimierten Portfolio zuweisen, können Sie mit Search, Social und Commerce Angebote und Kampagnenbudgets für Suchbegriffe und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen über die Ansicht [!UICONTROL Campaigns] zuweisen, wenn Sie das Portfolio erstellen oder die Einstellungen eines Portfolios bearbeiten.
+Durch die Zuweisung einer Kampagne zu einem optimierten Portfolio können Search, Social und Commerce Angebote, Kampagnenbudgets und Angebotsstrategieziele für Suchbegriffe und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen über die Ansicht [!UICONTROL Campaigns] zuweisen, wenn Sie das Portfolio erstellen oder die Einstellungen eines Portfolios bearbeiten.
 
 Nicht alle Kampagnentypen und Anzeigennetzwerke können optimiert werden. Eine Liste der [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) finden Sie, die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnenangebotsstrategie, indem Sie &quot;Geeignete Portfolio nach Kampagnenangebotsstrategie&quot;im Kapitel &quot;Optimierungshandbuch&quot;zu &quot;Portfolio&quot;konsultieren, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 

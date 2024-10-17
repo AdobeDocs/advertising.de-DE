@@ -3,16 +3,16 @@ title: Über Berichte zur Modellgenauigkeit
 description: Erfahren Sie mehr über Berichte, die die Genauigkeit der Kosten- und Umsatzmodelle angeben, die zur Optimierung eines Portfolios verwendet werden.
 exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 93e8e7748c62f6938b6728e6ddcadc389b0ad85b
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Über Berichte zur Modellgenauigkeit
 
-Berichte zur Modellgenauigkeit geben die Genauigkeit der Kosten- und Umsatzmodelle an, die zur Optimierung von Angeboten, Budgets und Zielen für ein Portfolio verwendet werden, je nach Optimierungstyp.
+Modellexaktionsberichte geben die Genauigkeit der Kosten- und Umsatzmodelle an, die zur Optimierung von Angeboten, Kampagnenbudgets und Angebotsstrategiezielen für ein Portfolio verwendet werden, entsprechend dem Optimierungstyp und der Kampagnenangebotsstrategie.
 
 Ungenauigkeiten können auf Leistungsprobleme hinweisen, sodass Sie die Portfolioeinstellungen möglicherweise anpassen müssen. Weitere Informationen zur Fehlerbehebung für Ungenauigkeiten bei Prognosen finden Sie unter &quot;Häufig gestellte Fragen zu Portfolios&quot;im Abschnitt Portfolios des Optimierungshandbuchs, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 

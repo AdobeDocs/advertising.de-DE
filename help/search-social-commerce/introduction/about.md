@@ -3,9 +3,9 @@ title: Über Adobe Advertising Search, Social und Commerce
 description: Erfahren Sie mehr über Search, Social und Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising Search, Social &amp; Commerce kombiniert im Rahmen von Adobe Adverti
 
 ## KI-gestützte Technologie zur Anzeigenoptimierung
 
-Search, Social und Commerce automatisiert und optimiert das Angebots- und Budgetmanagement für Anzeigenkampagnen in Anzeigennetzwerken innerhalb der Grenzen von Geschäftszielen, Metriken, Budgets und anderen geschäftlichen Einschränkungen eines Advertisers. Er verfolgt den Klick-, Kosten- und Konversionsverlauf für die Suchbegriffe und Anzeigen eines Advertisers sowie Informationen zur Angebotslandschaft auf den einzelnen Marketing-Kanälen. Mithilfe eines Portfoliotheorie-Ansatzes vergleicht die Optimierungsfunktion alle möglichen Zuweisungen Ihres Budgets für ein ganzes Kampagnenportfolio, um die Gebote und Kampagnenbudgets zu bestimmen, die die bestmögliche Rendite aus Werbeausgaben erzielen, und die Gebote und Budgets werden entsprechend ausgeführt. Die Optimierungsfunktion überwacht laufend die Suchbegriffe und Anzeigen eines Werbetreibenden und passt Gebote und Budgets dynamisch an, wenn sich der Marketplace ändert.
+Search, Social und Commerce automatisiert und optimiert das Angebots- und Budgetmanagement für Anzeigenkampagnen in Anzeigennetzwerken innerhalb der Grenzen von Geschäftszielen, Metriken, Budgets und anderen geschäftlichen Einschränkungen eines Advertisers. Er verfolgt den Klick-, Kosten- und Konversionsverlauf für die Suchbegriffe und Anzeigen eines Advertisers sowie Informationen zur Angebotslandschaft auf den einzelnen Marketing-Kanälen. Mithilfe eines Portfoliotheorie-Ansatzes vergleicht die Optimierungsfunktion alle möglichen Zuweisungen Ihres Budgets für ein ganzes Kampagnenportfolio, um die Gebote und Kampagnenbudgets zu bestimmen, die die höchstmögliche Rendite aus Anzeigenausgaben erzielen, und die Gebote, Budgets und Gebotsstrategieziele werden entsprechend ausgeführt. Die Optimierungsfunktion überwacht ständig die Suchbegriffe und Anzeigen eines Werbetreibenden und passt Gebote, Budgets und Ziele dynamisch an, wenn sich der Marketplace ändert.
 
 Es stehen verschiedene Optimierungstypen zur Verfügung, die die Suche, Social und Commerce sowie das Werbenetzwerk in unterschiedlichem Maße über die Angebotsoptimierung steuern können. Je nach Optimierungstyp können Sie Ihre Portfolios anhand von Konversionen optimieren, die von Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] oder anderen Erstanbieter-Enterprise-Feeds verfolgt werden.
 

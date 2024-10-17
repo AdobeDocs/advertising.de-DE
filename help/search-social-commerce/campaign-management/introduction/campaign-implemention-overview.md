@@ -3,9 +3,9 @@ title: Übersicht über die Implementierung von Anzeigennetzwerkkonten und -kamp
 description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
 1. (Werbetreibende mit Adobe Analytics) [Integrieren Sie Adobe Advertising und Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html), damit sie Daten austauschen können.
 
-1. (Damit Search, Social und Commerce Angebote und/oder Kampagnenbudgets optimieren können; [nur unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Weisen Sie die Kampagne einem Portfolio zu](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Kampagnenangebotsstrategieziele optimieren können; [Nur unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Weisen Sie die Kampagne einem Portfolio zu](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Wenn das Portfolio noch nicht gestartet wurde (Optimierung von Angeboten und/oder Budgets), lassen Sie die Optimierungsfunktion genügend Daten sammeln, damit Kosten- und Umsatzmodelle erstellt werden können, damit Sie die Basisleistung für das Portfolio vor dem Start festlegen können.
 

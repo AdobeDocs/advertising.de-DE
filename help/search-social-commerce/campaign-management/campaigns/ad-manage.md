@@ -3,9 +3,9 @@ title: Anzeigen verwalten
 description: Erfahren Sie, wie Sie Anzeigen erstellen und verwalten.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Sie können den Status von Anzeigen in der Ansicht [!UICONTROL Campaigns] > [!UI
 >[!NOTE]
 >
 >* Die folgenden Anzeigentypen sind *veränderlich*, d. h. Sie können die Anzeigenkopie oder das Bild ändern und dieselbe Anzeigen-ID beibehalten: alle [!DNL Google Ads] Anzeigentypen außer dynamischen Suchanzeigen und [!DNL Microsoft Advertising] erweiterte Textanzeigen.
->* Alle anderen unterstützten Anzeigen sind *nicht veränderlich*. Das bedeutet, dass beim Ändern der Anzeigenkopie oder des Bildes die vorhandene Anzeige gelöscht und eine neue erstellt wird. Die Leistung der neuen Anzeige kann einige Wochen lang schwanken, während Search, Social und Commerce genügend Daten sammeln, um die Angebote zu optimieren.
+>* Alle anderen unterstützten Anzeigen sind *nicht veränderlich*. Das bedeutet, dass beim Ändern der Anzeigenkopie oder des Bildes die vorhandene Anzeige gelöscht und eine neue erstellt wird. Die Leistung der neuen Anzeige kann einige Wochen lang schwanken, während Search, Social und Commerce genügend Daten zur Optimierung sammeln.
 >* Sie können den Inhalt einer Produktanzeige nicht bearbeiten, mit Ausnahme der Promotion-Zeile für [!DNL Microsoft Advertising] Produktanzeigen. Sie können eine Anzeige jedoch anhalten oder löschen.
 
 >[!TIP]

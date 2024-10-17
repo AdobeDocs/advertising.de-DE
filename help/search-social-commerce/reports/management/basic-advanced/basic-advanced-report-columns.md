@@ -3,9 +3,9 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für grundlegende und erweiterte Berichte.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | Der Name der Portfoliogruppe, zu der das Portfolio gehört. |
 | [!UICONTROL Portfolio ID] | Die numerische Portfolio-ID. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) Die Ausgabenstrategie für das Portfolio: <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> oder <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | Der Portfoliostatus:<ul><li><i>[!UICONTROL Optimize]:</i> Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die Daten zur Optimierung von Angeboten und optimiert Angebote und/oder Kampagnenbudgets (je nach Optimierungstyp und Kampagnenangebotsstrategien).</li><li><i>[!UICONTROL Active]:</i> Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li><i>[!UICONTROL Inactive]:</i> Die Optimierungsfunktion erfasst Klickdaten für die relevanten Kampagnen zu Berichtszwecken, modelliert aber weder die Daten noch optimiert sie Gebote oder Kampagnenbudgets.</li></ul> |
+| [!UICONTROL Portfolio Status] | Der Portfoliostatus:<ul><li><i>[!UICONTROL Optimize]:</i> Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die für die Optimierung verwendeten Daten und optimiert Gebote, Kampagnenbudgets und Ziele der Kampagnenangebotsstrategie (je nach Optimierungstyp und Angebotsstrategien).</li><li><i>[!UICONTROL Active]:</i> Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li><i>[!UICONTROL Inactive]:</i> Die Optimierungsfunktion erfasst Klickdaten für die relevanten Kampagnen zu Berichtszwecken, modelliert aber weder die Daten noch optimiert sie Gebote oder Kampagnenbudgets.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) Das tägliche Ziel für die Ausgabenstrategie des Portfolios. Bei den Strategien für Tag/Monat und Tag der Woche/Monat wird das Ziel des aktuellen Tages angezeigt. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] und [!DNL Yahoo! Japan Ads] Kampagnen) Gibt an, ob die Anzeigeneinstellungen <i>[!UICONTROL Mobile ads]</i> oder <i>[!UICONTROL All ads]</i> den Vorzug geben. |
 | [!UICONTROL Product Group ID] | Die numerische ID, die das Werbenetzwerk der Produktgruppe zuweist. |

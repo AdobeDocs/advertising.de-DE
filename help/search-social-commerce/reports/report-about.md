@@ -3,9 +3,9 @@ title: Über Berichte
 description: Erfahren Sie mehr über Leistungsberichte, einschließlich der verschiedenen verfügbaren Berichtstypen und der Automatisierung von Berichten.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Die folgenden Berichtskategorien sind in der Ansicht [!UICONTROL Reports] verfü
 | [!UICONTROL Advanced Reports] | [Erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) bieten zusätzliche Einblicke in Ihre Werbekonfiguration, sodass Sie feststellen können, wo Sie von einer Änderung Ihrer geografischen Zielbestimmungen oder Netzwerkeinstellungen profitieren würden. Sie können Ihnen auch dabei helfen, Konversionsdaten in den Kampagnen- und Portfoliomanagementansichten und -berichten anhand der internen Konversions-Tracking-Daten des Advertisers zu validieren. |
 | [!UICONTROL Assist Reports] | [Hilfsberichte](/help/search-social-commerce/reports/management/assist/assist-report-about.md) bieten Einblicke in die Konversionspfade für alle Suchbegriffe und Anzeigen eines Advertisers. Sie verwenden Daten, die über den Adobe Advertising-Konversions-Tracking-Dienst erfasst werden und nur für Advertiser mit dem Dienst generiert werden können. |
 | [!UICONTROL Specialty Reports] | [Spezialitätsberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) bestehen aus Daten, die von Anzeigennetzwerken (und nicht vom Adobe Advertising-Tracking) erfasst werden. |
-| [!UICONTROL Model Accuracy Reports] | [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an, die zur Optimierung von Angeboten verwendet werden. |
+| [!UICONTROL Model Accuracy Reports] | [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an, die zur Optimierung von Angeboten, Kampagnenbudgets und Angebotsstrategiezielen für ein Portfolio verwendet werden. |
 
 ## Berichtsautomatisierung
 

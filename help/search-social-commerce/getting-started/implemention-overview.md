@@ -3,7 +3,7 @@ title: Übersicht über die Implementierung von Search, Social und Commerce
 description: Lernen
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Im Folgenden finden Sie den allgemeinen Workflow zur Implementierung und Verwend
 
       >[!NOTE]
       >
-      >In Search, Social und Commerce werden weiterhin Daten für Kampagnen verfolgt und berichtet, die nicht Portfolios zugewiesen sind. Die Angebote werden jedoch nicht für sie optimiert.
+      >In Search, Social und Commerce werden weiterhin Daten für Kampagnen verfolgt und berichtet, die nicht Portfolios zugewiesen sind, sie werden jedoch nicht optimiert.
 
    1. Sobald genügend Daten verfügbar sind, um eine Grundlinie zu erstellen, kann das Team das Portfolio starten, sodass Search, Social und Commerce die Angebote und/oder Budgets für das Portfolio basierend auf dem Optimierungstyp optimieren können.
 
