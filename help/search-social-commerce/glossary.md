@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf die Anzeigen eines Advertisers in den Werbenetzwerken und b) die resultierenden Transaktionen auf der Website des Advertisers zu verfolgen.
 
-**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio geteilt durch die prognostizierten Ausgaben.
+**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio geteilt durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die zur Optimierung verwendet werden.
 
 **Kostenmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die Kostenvolumen vorhersagt, das Gebot, das erforderlich ist, um jede Position oder Platzierung zu gewinnen, und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit mithilfe von historischen Daten und mathematischen Prognosetechniken.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**Halbwertszeit:** Die Zeit, die erforderlich ist, damit eine Menge auf die Hälfte ihres ursprünglichen Werts reduziert wird. Für jedes Portfolio können Sie Halbwertszeiten angeben, um anzugeben, wie lange Daten für Kostenmodelle und Umsatzmodelle relevant sind.
+Siehe &quot;Halbwertszeit des Kostenmodells&quot;und &quot;Halbwertszeit des Umsatzmodells&quot;.
+
 ## I-J {#i-j}
 
 **impression:** Eine einzelne Anzeige einer Anzeige auf einer Webseite, mobilen App oder einem anderen Versandmedium. Ein Benutzer muss die Anzeige nicht anzeigen oder klicken, damit sie als Impression gezählt wird.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **Mindestangebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für Suchbegriffe das Mindestangebot, das für einen bestimmten Suchbegriff basierend auf seinem Qualitätswert erforderlich ist. Das Mindestangebot ist in der Regel der geringste Betrag, den Sie pro Klick zahlen können, damit Ihr Suchbegriff Anzeigen anzeigt.
 
+**Modellgenauigkeit:** (Werbetreibende mit Portfolios) Der Prozentsatz der Genauigkeit der Kostenmodelle und Umsatzmodelle, die zur Optimierung von Angeboten, Budgets und Zielen für ein Portfolio verwendet werden. Siehe &quot;Kostenmodell&quot;, &quot;Kostengenauigkeit&quot;, &quot;Umsatzmodell&quot;und &quot;Umsatzgenauigkeit&quot;.  [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an.
+
 ## O-P {#o-p}
 
-**Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde festlegt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. die Maximierung der Gewinne oder die Erreichung eines bestimmten Verkaufsziels. Ein Ziel besteht aus den Konversionsmetriken, die verfolgt und für das Portfolio optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken.
+**Ziel:** (Werbetreibende mit Portfolios) Ein Ziel, das ein Kunde festlegt, um sein Geschäftsziel für ein bestimmtes Portfolio oder eine Display-Kampagne zu erreichen, z. B. die Maximierung der Gewinne oder die Erreichung eines bestimmten Verkaufsziels. Ein Ziel besteht aus den Konversionsmetriken, die verfolgt und für das Portfolio optimiert werden sollen, sowie den relativen Gewichtungen dieser Metriken. Die gewichteten Gesamtkonversionen für das Portfolio werden als &quot;objektiver Wert&quot;bezeichnet.
 
 **objektiver Wert:** (Werbetreibende mit Portfolios) Die gesamten gewichteten Konversionen, berechnet anhand des aktuellen Ziels des Portfolios, einschließlich:
 
-* alle Konversionen, unter Berücksichtigung a) der Gewichtungen, die jeder Konversion in der objektiven Funktion des Portfolios zugewiesen werden, und b) der Durchsichtsgewichtung für Durchsichten der Anzeige.
+* alle Konversionen, unter Berücksichtigung a) der Gewichtungen, die jeder Konversion im Portfolioziel zugewiesen werden, und b) des Durchsichtsgewichts für Durchsichten der Anzeige.
 
 * alle Klicks, bei denen die Optimierungsfunktion eine einzelne Konversion berücksichtigt und anhand des Klickwerts für das Ziel gewichtet wird.
 
@@ -158,7 +163,7 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 
 **ROI:** (ROI) Umsatz abzüglich Kosten.
 
-**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz aus einem Portfolio dividiert durch den prognostizierten Umsatz.
+**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz aus einem Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die zur Optimierung verwendet werden.
 
 **Umsatzmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Angebotseinheit anhand der Klickdaten (Suche und Social) oder Impressionsdaten (Anzeige) und der Konversionsdaten des Werbetreibenden vorhersagt.
 
@@ -195,6 +200,8 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 **Durchsichtsgewichtung:** (Nur Display- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Gewichtung angibt, die einer Durchsichtskonversion zugeordnet werden soll, in Bezug auf die Gewichtung, die einer klick-basierten Konversion zugeordnet ist, in Prozent.
 
 ## W-X {#w-x}
+
+**gewichtetes Ziel:** Siehe &quot;Ziel&quot;.
 
 **gewichteter Umsatz:** Siehe &quot;objektiver Wert&quot;.
 
