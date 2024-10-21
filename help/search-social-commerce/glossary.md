@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **Konversions-Tracking:** Das Konversions-Tracking verwendet Cookies, um a) Klicks auf die Anzeigen eines Advertisers in den Werbenetzwerken und b) die resultierenden Transaktionen auf der Website des Advertisers zu verfolgen.
 
-**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio geteilt durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die zur Optimierung verwendet werden.
+**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio geteilt durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]Insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält neben Empfehlungen zur Verbesserung der Modellgenauigkeit weitere Details.
 
 **Kostenmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die Kostenvolumen vorhersagt, das Gebot, das erforderlich ist, um jede Position oder Platzierung zu gewinnen, und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit mithilfe von historischen Daten und mathematischen Prognosetechniken.
 
@@ -123,7 +123,7 @@ Siehe &quot;Halbwertszeit des Kostenmodells&quot;und &quot;Halbwertszeit des Ums
 
 **Mindestangebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für Suchbegriffe das Mindestangebot, das für einen bestimmten Suchbegriff basierend auf seinem Qualitätswert erforderlich ist. Das Mindestangebot ist in der Regel der geringste Betrag, den Sie pro Klick zahlen können, damit Ihr Suchbegriff Anzeigen anzeigt.
 
-**Modellgenauigkeit:** (Werbetreibende mit Portfolios) Der Prozentsatz der Genauigkeit der Kostenmodelle und Umsatzmodelle, die zur Optimierung von Angeboten, Budgets und Zielen für ein Portfolio verwendet werden. Siehe &quot;Kostenmodell&quot;, &quot;Kostengenauigkeit&quot;, &quot;Umsatzmodell&quot;und &quot;Umsatzgenauigkeit&quot;.  [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an.
+**Modellgenauigkeit:** (Werbetreibende mit Portfolios) Der Prozentsatz der Genauigkeit der Kostenmodelle und Umsatzmodelle, die zur Optimierung von Angeboten, Kampagnenbudgets und Angebotsstrategiezielen für ein Portfolio verwendet werden. Siehe &quot;Kostenmodell&quot;, &quot;Kostengenauigkeit&quot;, &quot;Umsatzmodell&quot;und &quot;Umsatzgenauigkeit&quot;.  [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an.
 
 ## O-P {#o-p}
 
