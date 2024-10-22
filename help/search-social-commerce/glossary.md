@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Siehe &quot;Halbwertszeit des Kostenmodells&quot;und &quot;Halbwertszeit des Ums
 
 **Mindestangebot:** 1) Der Mindestbetrag, der pro Impression oder pro 1000 Impressionen zu zahlen ist. 2) Für Suchbegriffe das Mindestangebot, das für einen bestimmten Suchbegriff basierend auf seinem Qualitätswert erforderlich ist. Das Mindestangebot ist in der Regel der geringste Betrag, den Sie pro Klick zahlen können, damit Ihr Suchbegriff Anzeigen anzeigt.
 
-**Modellgenauigkeit:** (Werbetreibende mit Portfolios) Der Prozentsatz der Genauigkeit der Kostenmodelle und Umsatzmodelle, die zur Optimierung von Angeboten, Kampagnenbudgets und Angebotsstrategiezielen für ein Portfolio verwendet werden. Siehe &quot;Kostenmodell&quot;, &quot;Kostengenauigkeit&quot;, &quot;Umsatzmodell&quot;und &quot;Umsatzgenauigkeit&quot;.  [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kosten- und Umsatzmodelle an.
+**Modellgenauigkeit:** (Werbetreibende mit Portfolios) Der Prozentsatz der Genauigkeit der Kostenmodelle und Umsatzmodelle, die zur Optimierung von Angeboten, Kampagnenbudgets und Angebotsstrategiezielen für ein Portfolio verwendet werden. Siehe &quot;Kostenmodell&quot;, &quot;Kostengenauigkeit&quot;, &quot;Umsatzmodell&quot;und &quot;Umsatzgenauigkeit&quot;.
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ Dieser Wert entspricht dem Wert der älteren Spalte &quot;Gewichteter Umsatz&quo
 
 **ROI:** (ROI) Umsatz abzüglich Kosten.
 
-**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz aus einem Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die zur Optimierung verwendet werden.
+**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz aus einem Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die zur Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]Insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält neben Empfehlungen zur Verbesserung der Modellgenauigkeit weitere Details.
 
 **Umsatzmodell:** (Werbetreibende mit Portfolios) Such-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Angebotseinheit anhand der Klickdaten (Suche und Social) oder Impressionsdaten (Anzeige) und der Konversionsdaten des Werbetreibenden vorhersagt.
 
