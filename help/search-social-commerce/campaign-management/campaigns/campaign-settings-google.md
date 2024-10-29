@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] Kampagneneinstellungen'
 description: Referenzieren Sie die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
 source-wordcount: '2576'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[Bildschirm zur Kampagnenerstellung\]
 
-**[!UICONTROL Campaign Type]:** (Nur bei Kampagnenerstellung verfügbar) Wo Anzeigen platziert werden und welche Anzeigentypen
-die Kampagne kann Folgendes enthalten:
+**[!UICONTROL Campaign Type]:** (Nur bei Kampagnenerstellung verfügbar) Wo Anzeigen platziert werden und welche Anzeigentypen die Kampagne enthalten kann:
 
 * *[!UICONTROL Search Network Only]:* Zeigt Anzeigen im Suchnetzwerk an, die [!DNL Google] Suchergebnisse und optional Suchpartner-Sites enthalten. Sie müssen Suchbegriffe für jede Anzeigengruppe angeben.
 
