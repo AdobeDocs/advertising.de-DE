@@ -1,37 +1,62 @@
 ---
-title: Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Tabellen
-description: Erfahren Sie, wie Sie wichtige Paketeinstellungen mithilfe von Tabellen überprüfen und bearbeiten können.
+title: Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets
+description: Erfahren Sie, wie Sie wichtige Paketeinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Packages
-source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
+exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Tabellen
+# Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets
 
-Sie können die Einstellungen für ein oder mehrere Pakete im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Die Tabelle enthält einen separaten Tab mit Fluginformationen. Anschließend können Sie auf beiden Registerkarten Änderungen an den ausgewählten Feldern vornehmen und die Daten wieder DSP alle gleichzeitig hochladen. Zu bearbeitbaren Feldern gehören die meisten Einstellungen, die normalerweise bearbeitbar sind.
+Sie können die Einstellungen für ein oder mehrere Pakete im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Die Tabelle enthält einen separaten Tab mit Fluginformationen.
+
+Um mehrere Einstellungen gleichzeitig zu aktualisieren, können Sie einen der folgenden Schritte ausführen:
+
+* Nehmen Sie Änderungen an den ausgewählten Feldern vor, speichern Sie die Datei und laden Sie die bearbeitete Bulksheet-Datei wieder in DSP hoch.
+
+* Um Änderungen an zusätzlichen Packages vorzunehmen und Einstellungen für beliebige Platzierungen oder Anzeigen vorzunehmen, laden Sie eine leere Bulksheet-Vorlage herunter, die Registerkarten für jeden Kampagnentyp enthält, geben Sie neue oder aktualisierte Einstellungen ein oder fügen Sie sie in die Vorlagendatei ein und laden Sie dann die Datei hoch, um die Änderungen vorzunehmen. Anweisungen finden Sie unter &quot;[Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponenten mit Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+
+Zu bearbeitbaren Feldern gehören die meisten Einstellungen, die normalerweise bearbeitbar sind.
 
 >[!TIP]
 >
->Informationen zum Bearbeiten von mehr Feldern für ein oder mehrere Pakete finden Sie unter &quot;[Bearbeiten von Paketen](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+>Informationen zum schnellen Bearbeiten von mehr Feldern für ein oder mehrere Pakete finden Sie unter &quot;[Pakete bearbeiten](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+
+## Download-Einstellungen für alle Pakete in einer Kampagne
+
+Wenn Sie Einstellungen für alle Kampagnenkits herunterladen, enthält die Tabelle separate Registerkarten für die Paketeinstellungen und für die Fluginformationen. Sie können optional Einstellungen für die Platzierungen und Anzeigen einbeziehen, die mit den Paketen verknüpft sind. Zusätzliche Registerkarten sind für Platzierungs- und Anzeigeneinstellungen enthalten.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+
+1. Klicken Sie auf den Namen der Kampagne.
+
+1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
+
+1. Heben Sie im Dialogfeld [!UICONTROL QA Sheet Download] die Auswahl aller Kampagnenkomponenten auf, deren Einstellungen Sie aus der heruntergeladenen Datei ausschließen möchten, und klicken Sie auf **[!UICONTROL Download]**.
+
+Standardmäßig werden Einstellungen für alle Platzierungen und Anzeigen ausgewählt, die mit den Paketen verknüpft sind.
+
+Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
+
+1. Führen Sie einen der folgenden Schritte aus, um die Datei herunterzuladen:
+
+   * Klicken Sie in der Benachrichtigung auf **[!UICONTROL Download].**
+
+   * Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
+
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
+
+>[!NOTE]
+>
+>Sie können QA-Tabellen auf Kampagnenebene nicht bearbeiten und erneut hochladen. Um Änderungen an den Einstellungen der Kampagnenkomponenten in diesen Dateien vorzunehmen, laden Sie eine separate Bulksheet-Vorlage herunter, geben Sie Zeilen aus dem QA-Blatt ein oder fügen Sie sie in die Bulksheet-Vorlage ein, speichern Sie die Datei und laden Sie dann das ausgefüllte Bulksheet hoch. Anweisungen finden Sie unter &quot;[Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponenten mit Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 ## Download-Einstellungen für ein oder mehrere Pakete
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-
-1. Klicken Sie auf den Namen der Kampagne.
-
-1. Klicken Sie im Untermenü auf **[!UICONTROL Packages]**.
-
-1. Aktivieren Sie das Kontrollkästchen neben jedem Paket, dessen Einstellungen Sie herunterladen möchten.
-
-1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
-
-Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Spalten in heruntergeladenen/hochgeladenen Arbeitsblättern verpacken](#qa-sheet-columns-packages)&quot;.
-
-## Upload-Einstellungen für ein oder mehrere Pakete
+Wenn Sie Einstellungen für bestimmte Packages herunterladen, enthält die Bulksheet-Datei separate Registerkarten für die Paketeinstellungen und die Fluginformationen. Die Datei kann bearbeitet werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -39,11 +64,43 @@ Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Lis
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Packages]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben jedem Paket, dessen Einstellungen Sie hochladen möchten.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]**.
+   Eine Benachrichtigung gibt an, wann die Bulksheet-Datei zum Herunterladen verfügbar ist.
 
-1. Im Dialogfeld [!UICONTROL Edit in Excel] :
+1. Um das Bulksheet herunterzuladen, führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie in der Benachrichtigung auf **[!UICONTROL Download].**
+
+   * Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
+
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
+
+<!-- I don't think I need this here
+
+## Download a Bulksheet Template {#download-template}
+
+You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
+
+1. Click the name of the campaign.
+
+1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
+
+-->
+
+## Hochladen eines Bulksheets mit Paketeinstellungen {#upload-bulksheet-package}
+
+Sie können Einstellungen für Ihre Pakete, einschließlich der Platzierungen und Anzeigen, die mit den Paketen verknüpft sind, in eine Bulksheet-Datei hochladen.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+
+1. Klicken Sie auf den Namen der Kampagne.
+
+1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+1. Im Dialogfeld [!UICONTROL Upload Bulksheet] :
 
    1. Ziehen Sie eine Datei in das Feld oder klicken Sie in das Feld, um eine Datei aus Ihrem Gerät oder Netzwerk auszuwählen.
 
@@ -96,7 +153,7 @@ Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Lis
 | [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Nur verfügbar, wenn die Option [!UICONTROL Activate Custom Flighting] aktiviert ist) Gibt an, ob automatisch ein eventuell aus dem vorhergehenden Flug bestehendes Budget für den nächsten Flug hinzugefügt werden soll: *T* (true) oder *F* (false). | Ja |
 | [!UICONTROL Error] | [!UICONTROL Error] | Alle relevanten Fehler. | — |
 
-### [!UICONTROL Package_Flights] Tab
+### [!UICONTROL Package_Flights] Tab {#qa-sheet-columns-package-flights}
 
 | Abschnitt | Spalte | Beschreibung | Bearbeitbar? |
 |---------|--------|-------------|-----------|
@@ -109,5 +166,6 @@ Die Datei wird automatisch im Ordner Download des Browsers gespeichert. Eine Lis
 
 >[!MORELIKETHIS]
 >
+>* [Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponente mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Bearbeiten von Paketen](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)

@@ -3,9 +3,9 @@ title: Anzeigen der platzierungsdiagnostischen Berichte
 description: Erfahren Sie, wie Sie Probleme bei der Platzierungs- und Platzierungseinrichtung diagnostizieren können.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Diagnostische Berichte können Ihnen bei der Diagnose von Problemen bei der Plat
    * So sehen Sie, warum DSP kein Angebot für die Platzierung abgegeben hat:
 
       1. Klicken Sie oben rechts auf **[!UICONTROL Non Bids]**.
+
+      1. (Optional) Um die Platzierung nach einem bestimmten Ziel für private Angebote zu filtern, wählen Sie das Angebot aus. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (Optional) Um den Datumsbereich zu ändern, klicken Sie in das Datumsfeld und wählen Sie einen anderen Datums- oder Datumsbereich aus.
 

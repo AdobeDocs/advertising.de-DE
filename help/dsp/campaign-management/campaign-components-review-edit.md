@@ -1,42 +1,37 @@
 ---
-title: Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets
-description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen anhand von Tabellen stapelweise überprüfen und bearbeiten können.
+title: Überprüfen und Bearbeiten von Einstellungen der Kampagnenkomponente mithilfe von Bulksheets
+description: Erfahren Sie, wie Sie wichtige Parameter für Paket, Platzierung und Anzeige mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Placements
-exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-# Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets
+# Überprüfen und Bearbeiten von Einstellungen der Kampagnenkomponente mithilfe von Bulksheets
 
-Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details wie die folgenden schnell zu überprüfen:
+<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
 
-* Zielgruppen der Kampagne.
-* Wenn die Platzierungen mit der Bereitstellung beginnen und beendet werden.
-* Welche Anzeigen sind mit den Platzierungen verbunden?
+Sie können die Einstellungen für die Pakete, Platzierungen und Anzeigen in einer einzelnen Kampagne im XLSX-Format ([!DNL Microsoft Excel] Tabelle) zur Überprüfung herunterladen. Standardmäßig enthält die heruntergeladene Datei separate Registerkarten für Paketeinstellungen, Package-Fluginformationen, Platzierungseinstellungen und Platzierungs-Anzeigenzeitpläne. Optional können Sie die Einstellungen für einige Kampagnenkomponenten-Typen ausschließen.
 
-Um mehrere Einstellungen gleichzeitig zu aktualisieren, können Sie einen der folgenden Schritte ausführen:
+Um mehrere Einstellungen gleichzeitig zu aktualisieren, laden Sie eine gültige Bulksheet-Datei mit den Änderungen hoch. Um das Bulksheet zu erstellen, können Sie eine leere Bulksheet-Vorlage herunterladen, die Registerkarten für jeden Kampagnentyp enthält, neue oder aktualisierte Einstellungen eingeben oder in die Vorlagendatei einfügen und dann die Datei speichern, um sie hochzuladen. Zu bearbeitbaren Feldern gehören die meisten Einstellungen, die normalerweise bearbeitbar sind.
 
-* Nehmen Sie Änderungen an den ausgewählten Feldern vor, speichern Sie die Datei und laden Sie die bearbeitete Bulksheet-Datei wieder in DSP hoch.
-
-* Laden Sie eine leere Bulksheet-Vorlage mit Registerkarten für jeden Kampagnentyp herunter, geben Sie neue oder aktualisierte Einstellungen ein oder fügen Sie sie in die Vorlagendatei ein und laden Sie dann die Datei hoch, um die Änderungen vorzunehmen. Anweisungen finden Sie unter &quot;[Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponenten mit Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
-
-Zu den bearbeitbaren Feldern gehören die Platzierungsnamen, Status, Gebote, Budgets, Schrittstrategien und Häufigkeitsbegrenzungen.
-
->[!TIP]
+>[!NOTE]
 >
->Informationen zum schnellen Bearbeiten von mehr Feldern für eine oder mehrere Platzierungen finden Sie unter &quot;[Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+>Sie können die Einstellungen auch nur für bestimmte Pakete und bestimmte Platzierungen herunterladen und bearbeiten. Siehe &quot;[Überprüfen und Bearbeiten von Paketeinstellungen mit Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)&quot;und &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mit Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)&quot;.
 
-## Download-Einstellungen für alle Platzierungen in einer Kampagne
+## Download-Einstellungen für Pakete, Platzierungen und Anzeigen in einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Download Setup Excel]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
 
-   Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
+1. Heben Sie im Dialogfeld [!UICONTROL QA Sheet Download] die Auswahl aller Kampagnenkomponenten auf, deren Einstellungen Sie aus der heruntergeladenen Datei ausschließen möchten, und klicken Sie auf **[!UICONTROL Download]**.
+
+Standardmäßig sind Einstellungen für alle Kampagnenkomponenten ausgewählt.
+
+Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Datei herunterzuladen:
 
@@ -44,48 +39,31 @@ Zu den bearbeitbaren Feldern gehören die Platzierungsnamen, Status, Gebote, Bud
 
    * Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-   Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
 
-## Download-Einstellungen für eine oder mehrere Platzierungen
+>[!NOTE]
+>
+>QS-Dateien auf Kampagnenebene können nicht bearbeitet und erneut hochgeladen werden. Um Änderungen an den Einstellungen der Kampagnenkomponente in diesen Dateien vorzunehmen, laden Sie [eine separate Einstellungsvorlagendatei (Setup-Datei)](#download-template) herunter, geben Sie Zeilen aus der QA-Datei in die Vorlage ein oder fügen Sie sie in die Vorlage ein und speichern Sie die Datei. Laden Sie dann die ausgefüllte Vorlagendatei hoch ](#upload-bulksheet-campaign-components).[
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+## Herunterladen einer Bulksheet-Vorlage für eine Kampagne {#download-template}
+
+Laden Sie eine leere Bulksheet-Vorlage herunter, die Registerkarten für jeden Kampagnentyp enthält. Sie können später Zeilen zu jeder Registerkarte der Vorlage hinzufügen und [die bearbeitete Datei hochladen](##upload-bulksheet-campaign-components), um Änderungen an den Kampagnenkomponenten vorzunehmen.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, deren Einstellungen Sie herunterladen möchten.
-
-1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   Eine Benachrichtigung gibt an, wann die Bulksheet-Datei zum Herunterladen verfügbar ist.
-
-1. Um das Bulksheet herunterzuladen, führen Sie einen der folgenden Schritte aus:
-
-   * Klicken Sie in der Benachrichtigung auf **[!UICONTROL Download].**
-
-   * Klicken Sie rechts oben in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
+1. Klicken Sie im Dialogfeld [!UICONTROL Upload Bulksheet] auf **[!UICONTROL Bulksheet Template].**
 
    Die Datei wird im Ordner Downloads des Browsers gespeichert. Eine Liste der enthaltenen Spalten finden Sie unter &quot;[Platzierungsspalten in heruntergeladenen/hochgeladenen Arbeitsblättern](#qa-sheet-columns)&quot;.
 
+## Hochladen eines Bulksheets mit Paket-, Platzierungs- und Anzeigeneinstellungen für eine Kampagne{#upload-bulksheet-campaign-components}
 
-<!-- I don't think I need this here
+Laden Sie die Einstellungen für Pakete, Platzierungen und Anzeigen in einer einzelnen Kampagne gleichzeitig in ein ausgefülltes Bulksheet hoch.
 
-## Download a Bulksheet Template {#download-template}
+1. [Laden Sie bei Bedarf eine Bulksheet-Vorlage herunter](#download-template), geben Sie Paket-, Platzierungs- und/oder Anzeigeneinstellungen auf den entsprechenden Registerkarten einer Bulksheet-Vorlage ein oder fügen Sie sie ein und speichern Sie die Datei dann auf Ihrem Gerät oder Netzwerk.
 
-Download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
-
-## Hochladen eines Bulksheets mit Platzierungseinstellungen {#upload-bulksheet-placement}
-
-Sie können Einstellungen für Ihre Platzierungen sowie für die mit den Platzierungen verknüpften Anzeigen und Pakete in eine Bulksheet-Datei hochladen.
+   Siehe verfügbare Einstellungen unten.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -176,28 +154,7 @@ Sie können Einstellungen für Ihre Platzierungen sowie für die mit den Platzie
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | Die Namen aller Anzeigen, die mit der Platzierung verbunden sind, oder *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | Die eindeutigen DSP-generierten Anzeigen-IDs aller Anzeigen, die mit der Platzierung verbunden sind, getrennt durch Semikolons. Um eine Liste mit Anzeigennamen und zugehörigen Anzeigen-IDs aus der [!UICONTROL Ads]-Ansicht herunterzuladen, erstellen Sie eine benutzerdefinierte Ansicht mit der Metrik [!UICONTROL Ad ID] und exportieren Sie dann die Daten ](/help/dsp/campaign-management/reports/campaign-export-data.md).[ | Ja |
 
-### Bulksheets auf Platzierungsebene
-
-| Spalte | Beschreibung | Bearbeitbar? |
-|--------|-------------|-----------|
-| [!UICONTROL Placement ID] | Die numerische ID der Platzierung. | — |
-| [!UICONTROL Placement Name] | Der Name der Platzierung. | Ja |
-| [!UICONTROL Package Name] | Der Name des übergeordneten Pakets, sofern zutreffend. | — |
-| [!UICONTROL Start Date] | Das Startdatum der Platzierung. | — |
-| [!UICONTROL End Date] | Das Enddatum der Platzierung. | — |
-| [!UICONTROL Status] | Der Platzierungsstatus: *[!UICONTROL active]* oder *[!UICONTROL inactive]*. | — |
-| [!UICONTROL Max Bid] | Das maximale Angebot für die Platzierung. | Ja |
-| [!UICONTROL Budget] | Das Platzierungsbudget, falls vorhanden. | Ja |
-| [!UICONTROL Budget Interval] | Das Budgetintervall: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* oder *[!UICONTROL All Time]*. | Ja |
-| [!UICONTROL Primary Frequency Cap] | Die primäre Frequenzbegrenzung für die Platzierung während des angegebenen [!UICONTROL Primary Frequency Cap Interval]. | Ja |
-| [!UICONTROL Primary Frequency Cap Interval] | Das Intervall für die primäre Frequenzbegrenzung: *[!UICONTROL Day]*, *[!UICONTROL Week]* oder *[!UICONTROL Month]*. | Ja |
-| [!UICONTROL Secondary Frequency Cap] | Die sekundäre Frequenzbegrenzung für die Platzierung während des angegebenen [!UICONTROL Secondary Frequency Cap Interval] | Ja |
-| [!UICONTROL Secondary Frequency Cap Interval] | Der Intervalltyp für die sekundäre Frequenzbegrenzung: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* oder *[!UICONTROL Minute]*. Die anwendbare Anzahl von Wochen, Tagen, Stunden oder Minuten wird durch die [!UICONTROL Secondary Frequency Cap Interval Value] angegeben. | Ja |
-| [!UICONTROL Secondary Frequency Cap Interval Value] | Die Anzahl der Wochen, Tage, Stunden oder Minuten, für die der [!UICONTROL Secondary Frequency Cap] gilt. Wenn die sekundäre Begrenzung beispielsweise drei Impressionen pro sechs Stunden beträgt, wäre der Wert hier `6`. | Ja |
-| [!UICONTROL Attached Ad ID] | Die eindeutigen DSP-generierten Anzeigen-IDs aller Anzeigen, die mit der Platzierung verbunden sind, getrennt durch Semikolons. Um eine Liste mit Anzeigennamen und zugehörigen Anzeigen-IDs aus der [!UICONTROL Ads]-Ansicht herunterzuladen, erstellen Sie eine benutzerdefinierte Ansicht mit der Metrik [!UICONTROL Ad ID] und exportieren Sie dann die Daten ](/help/dsp/campaign-management/reports/campaign-export-data.md).[ | Ja |
-
 >[!MORELIKETHIS]
 >
->* [Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponente mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md)

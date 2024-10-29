@@ -3,7 +3,7 @@ title: Platzierungen bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md)&quot;.
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mit Bulksheets](placement-qa.md)&quot;.
 
 ## Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Tabellen](placement-qa.md)
+>* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md)
 >* [Erstellen einer Platzierung](placement-create.md)
 >* [Duplizieren einer Platzierung](placement-duplicate.md)
 >* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)

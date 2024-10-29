@@ -4,7 +4,7 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [Datum mithilfe des Kalenders angeben](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [Trenddiagramm ein- und ausblenden](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [Daten in Verwaltungsansichten aktualisieren](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + Herunterladen von Daten in Verwaltungsansichten {#download-data-views}
+      + Daten in Verwaltungsansichten herunterladen {#download-data-views}
          + [Daten aus einer Kampagnenverwaltungsansicht herunterladen](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [einen Leistungsdatenbericht oder eine Bulksheet-Datei aus dem Menü [!UICONTROL Downloads] löschen](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + Tracking {#tracking}
@@ -110,7 +110,7 @@ ht-degree: 2%
       + [[!DNL Microsoft Advertising] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Einrichten von Konten {#campaign-management-accounts}
       + Anzeigennetzwerkkonten {#ad-network-accounts}
-         + [Über Werbenetzkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+         + [Über Anzeigennetzwerk Konten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Verwalten von Anzeigen-Netzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
          + [Aktualisierung des AMO-ID-Trackingcodes für ein [!DNL Google Ads] Konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Verwalten von Merchant-Center-Konten](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
@@ -170,7 +170,7 @@ ht-degree: 2%
             + [Informationen zu Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
             + [Bietbare Platzierungen verwalten](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md)
             + [Erstellen negativer Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-negative-create.md)
-            + [Ändern des Status von Platzierungen und negativen Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
+            + [ändern den Status von Platzierungen und negativen Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
          + Automatisches Targeting {#auto-targets}
             + [Über  [!DNL Google Ads]  dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
             + [Dynamische Suchziele verwalten [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
@@ -231,7 +231,7 @@ ht-degree: 2%
             + [Aus Feeds generierte Daten anzeigen](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
             + [Aus Feeds generierte Daten bearbeiten](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
             + [Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
-            + [Beenden eines Veröffentlichungsauftrags für Inventar-Feed-Daten](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
+            + [Buchungsvorgang für Warenbestand Feed Daten Halt](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [Status der aus Feeds generierten Daten](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
       + Implementieren von Kampagnen, Anzeigen und Konversionen mit eindeutigen Workflows{#special-workflows}
          + [Implementieren von [!DNL Google Ads] erweiterten Konvertierungen für Leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
@@ -355,16 +355,16 @@ ht-degree: 2%
       + [Über Benachrichtigungen](/help/search-social-commerce/notifications/notification-about.md)
       + [Anzeigen von Benachrichtigungen](/help/search-social-commerce/notifications/notification-view.md)
       + [Benachrichtigung als gelesen oder ungelesen markieren](/help/search-social-commerce/notifications/notification-mark-read-unread.md)
-      + [Benachrichtigung löschen](/help/search-social-commerce/notifications/notification-delete.md)
-      + [Benachrichtigungseinstellungen bearbeiten](/help/search-social-commerce/notifications/notification-edit.md)
-      + [Push-Benachrichtigungen über [!UICONTROL Notification Center] aktivieren und deaktivieren](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
-      + [Installieren und Deinstallieren der [!UICONTROL Notification Center]-Webanwendung](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
-   + Benutzerdefinierte Warnhinweise {#alerts}
-      + [Über benutzerdefinierte Warnungen](/help/search-social-commerce/alerts/alert-about.md)
-      + Warnvorlagen {#alert-templates}
-         + [Benutzerdefinierte Warnhinweisvorlage erstellen](/help/search-social-commerce/alerts/alert-template-create.md)
-         + [Benutzerdefinierte Warnhinweisvorlage bearbeiten](/help/search-social-commerce/alerts/alert-template-edit.md)
-         + [Anhalten einer benutzerdefinierten Warnhinweisvorlage](/help/search-social-commerce/alerts/alert-template-pause.md)
+      + [Löschen ein Benachrichtigung](/help/search-social-commerce/notifications/notification-delete.md)
+      + [Bearbeiten Ihre Benachrichtigung Einstellungen](/help/search-social-commerce/notifications/notification-edit.md)
+      + [Aktivieren und Deaktivieren von Push-Benachrichtigungen über [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
+      + [Installieren und deinstallieren Sie die [!UICONTROL Notification Center] Web-Anwendung](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
+   + Benutzerspezifische Warnungen {#alerts}
+      + [Informationen zu benutzerdefinierten Warnungen](/help/search-social-commerce/alerts/alert-about.md)
+      + Warnungsvorlagen {#alert-templates}
+         + [Erstellen eine benutzerdefinierte Warnhinweis Vorlage](/help/search-social-commerce/alerts/alert-template-create.md)
+         + [Bearbeiten eine benutzerdefinierte Warnhinweis Vorlage](/help/search-social-commerce/alerts/alert-template-edit.md)
+         + [Pause-Taste eine benutzerdefinierte Warnhinweis Vorlage](/help/search-social-commerce/alerts/alert-template-pause.md)
          + [Benutzerdefinierte Warnhinweisvorlage aktivieren](/help/search-social-commerce/alerts/alert-template-activate.md)
          + [Benutzerdefinierte Warnhinweisvorlage löschen](/help/search-social-commerce/alerts/alert-template-delete.md)
          + [Benutzerdefinierte Vorlageneinstellungen](/help/search-social-commerce/alerts/alert-template-settings.md)
@@ -405,15 +405,15 @@ ht-degree: 2%
       + [Eine [!DNL Google Analytics] Datenquelle erneut authentifizieren](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] Datenquelleneinstellungen](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Anhang - Verfügbare [!DNL Google Analytics] Metriken](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + Verwalten der Konversionsmetriken eines Advertisers{#conversion-metrics}
-      + [Über die Verwaltung der Konversionsmetriken eines Advertisers](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
-      + [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
-      + [Ändern der in Verwaltungsansichten und Berichten verfügbaren Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
-      + [Anzeigenamen für eine Konversionsmetrik ändern](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+   + Konversion Metriken eines Advertiser verwalten{#conversion-metrics}
+      + [Verwaltung der Konversion Metriken eines Advertiser](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [Ansicht der Konversion Metriken, die für eine Advertiser verfolgt werden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [ändern der Konversion Metriken, die in Managementansichten und -berichten verfügbar sind](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [ändern des Anzeigenamens für eine Konversionskennzahl](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
       + Verwalten von Anzeigen-netzwerkspezifischen Konversions-Tags und Konversionsaktionen {#network-conversions}
-         + [Konversions-Tag für  [!DNL Google Ads] erstellen](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Verwalten von Konversionsaktionen {#conversion-actions}
-            + [Erstellen Sie eine Konversionsaktion für eine [!DNL Google Ads] erweiterte Konversion für Leads.](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
-            + [Hochladen von Offline-Konversionsdaten für erweiterte Konvertierungen](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
+         + [Erstellen eine Konversion Tag für [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + Verwalten von Konversion Aktionen {#conversion-actions}
+            + [Erstellen eine Konversion Aktion für eine [!DNL Google Ads] verbesserte Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [Laden Sie offline Konversion Daten hoch, um die Konversionen zu verbessern](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Hilfe erhalten](get-help.md)
 + [Glossar](glossary.md)
