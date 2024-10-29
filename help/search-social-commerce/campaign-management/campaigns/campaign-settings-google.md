@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] Kampagneneinstellungen'
 description: Referenzieren Sie die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -196,6 +196,18 @@ nach Ländern. Wenn Sie keine auswählen, werden alle Zielgruppen ausgewählt.
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:** (Nur Leistungsmax und Suchkampagnen) Zuweisen von Angeboten für neue Kunden und bestehende Kunden:
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **Hinweis:** Um diese Einstellung zu verwenden, müssen Sie zunächst das neue Kundenakquise-Ziel für das [!DNL Google Ads] -Konto oder, falls zutreffend, für das Managerkonto aktivieren. Das Ziel definiert die zulässigen vorhandenen Kundenlisten und den zusätzlichen Konversionswert für neue Kunden in den Konvertierungseinstellungen. Siehe Schritte 1 bis 2 in der [!DNL Google Ads] Hilfe &quot;[Aktivieren des neuen Kundenakquise-Ziels](https://support.google.com/google-ads/answer/14007601)&quot;.
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +380,3 @@ Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf &quot;*
 >[!MORELIKETHIS]
 >
 >* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

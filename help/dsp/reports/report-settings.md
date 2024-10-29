@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 * Wählen Sie eine Dimension aus, wählen Sie den Operator (*gleich* oder *nicht gleich*) und wählen Sie dann den entsprechenden Wert aus. Wenn Sie beispielsweise nur Daten für Pre-oll-Anzeigen zurückgeben möchten, geben Sie &quot;[!UICONTROL Ad Type equals Preroll]&quot;an.
 * (Optional) Fügen Sie dem Filter zusätzliche Kriterien hinzu.
 * (Optional) Fügen Sie zusätzliche Filter hinzu, von denen jeder ein oder mehrere Kriterien aufweist.
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** Umfasst Anzeigen in Advertising Search, Social und Commerce in die Berichtsergebnisse.
 
 ## [!UICONTROL Build Your Report] Abschnitt
 
