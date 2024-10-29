@@ -3,7 +3,7 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Sie können Berichte einmalig erstellen oder jeden Tag, jede Woche oder jeden Mo
 
    * **[!UICONTROL Site]:** Standardmäßig enthält Standardmetriken, die Gesamtnettoausgaben der Medien und die gesamten abrechnungsfähigen Nettoausgaben pro Site.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-household-report.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
+   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-reports.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
-   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-household-report.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
+   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-reports.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
    * **[!UICONTROL Path to Conversion Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um zu ermitteln, wie Budgets optimiert und Anzeigen basierend auf den leistungsstärksten Anzeigeninteraktionssequenzen personalisiert werden können. Der Bericht zeigt die Abfolge von Interaktionspunkten im selben Haushalt an, die zu jeder der ausgewählten Konversionsmetriken im angegebenen Datenbereich führen. Der Bericht verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion und kann eine Dimension enthalten:
 
@@ -130,7 +130,7 @@ Sie können neue benutzerdefinierte Berichte erstellen, vorhandene Berichte bear
 >* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
 >* [Einen benutzerspezifischen Bericht herunterladen](/help/dsp/reports/report-download.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [FAQs zu Haushaltsberichten](/help/dsp/reports/faq-household-report.md)
+>* [FAQs zu Haushaltsberichten](/help/dsp/reports/faq-reports.md)
 >* [Typen von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
 >* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
