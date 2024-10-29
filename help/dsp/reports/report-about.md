@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,26 @@ Sie können Berichte einmal generieren oder planen, dass sie täglich, wöchentl
    * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in Anzeigenformaten basierend auf der IP-Adresse auf Haushaltsebene und nicht auf Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Einblicke, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-household-report.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
 
    * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um Durchsichtskonversionen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Einblicke, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden Sie unter &quot;[FAQs zu Haushaltsberichten](/help/dsp/reports/faq-household-report.md)&quot;. Für Platzierungen mit universellen IDs sind keine Daten verfügbar.
+
+   * **[!UICONTROL Path to Conversion Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um die Abfolge von Interaktionspunkten im selben Haushalt anzuzeigen, die zu jeder der ausgewählten Konversionsmetriken im angegebenen Datenbereich führen, wobei ein spezifizierter Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion verwendet wird. Der Bericht kann eine Dimension enthalten:
+
+      * [!UICONTROL Channel Assist Type]: Zeigt an, wie die folgenden Marketingkanäle den Konvertierungsprozess unterstützt haben: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] oder [!UICONTROL Video Impression].
+
+      * [!UICONTROL Campaign ID] oder [!UICONTROL Campaign Name]: Zeigt an, welche Kampagnen den Konvertierungsprozess unterstützt haben.
+
+      * [!UICONTROL Ad ID] oder [!UICONTROL Ad Name] zeigt, welche DSP Anzeigen zu Konversionen geführt haben.
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)] oder [!UICONTROL Ad Name & Paid Keyword (SSC)] zeigt an, welche Suchbegriffe aus Suche, Social und Commerce zu Konversionen geführt haben.
+
+     Zu den Spalten im Bericht gehören &quot;[!UICONTROL Event #1]&quot; bis &quot;[!UICONTROL Event #10],&quot;[!UICONTROL Path Length]&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw.
+
+     Es werden bis zu 10 aktuelle Interaktionspunkte einbezogen. Die Pfadzeilen werden nach der Anzahl der Konvertierungen geordnet.
+
+   * **[!UICONTROL Path Length Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um die Anzahl der Konversionen nach Pfadlänge (Interaktionspunkte) anzuzeigen, z. B. wie viele Konversionen auftraten, nachdem Benutzer nur eine Anzeigeninteraktion, zwei Anzeigeninteraktionen usw. hatten. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw.
+
+     Daten werden für jede Pfadlänge von bis zu 10 angezeigt; Daten für Pfadlängen über 10 werden gruppiert.
+
+   * **[!UICONTROL Time to Conversion Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um die Anzahl der Konversionen nach der Zeitdauer (in Tagen) von der letzten Interaktion (Anzeigenbelichtung oder Klick) bis zur Konversion anzuzeigen. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw. Konversionen, die länger als den Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-Tage-Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot;von &quot;30+&quot;gruppiert).
 
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 
