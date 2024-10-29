@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 \* *[!UICONTROL Account]* ist für die folgenden Berichtstypen nur verfügbar, wenn Ihr Unternehmen für [kontoübergreifende Berichte](report-about.md#cross-account-reporting) konfiguriert ist: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion]. Wenden Sie sich an Ihr Adobe-Account-Team, um weitere Informationen zur kontoübergreifenden Berichterstellung zu erhalten.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Nur Berichte zu Pfad zur Konversion, Pfadlänge und Zeit zur Konversion) Umfasst Daten zu Klicks auf Suchanzeigen aus Advertising Search, Social und Commerce.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (Nur Berichte zu Pfad zur Konversion, Pfadlänge und Zeit zur Konversion) Umfasst Daten zu Klicks auf Suchanzeigen aus Advertising Search, Social und Commerce. Wenn Sie diese Option auswählen, wählen Sie die einzuschließenden Kampagnen für Suche, Social und Commerce aus.
 
 ## [!UICONTROL Build Your Report] Abschnitt
 
@@ -137,7 +137,11 @@ Beschreibungen aller Optionen finden Sie unter &quot;[Verfügbare Berichtsspalte
 
 Siehe auch &quot;[Berechnung der Attributionsregeln für Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] - oder [!UICONTROL Custom Goals] -Spalten und [!UICONTROL Path to Conversion] -, [!UICONTROL Path Length] - oder [!UICONTROL Time to Conversion] -Berichten nur mit [!UICONTROL Conversion Metrics] -Spalten; Werbetreibende mit nur Adobe Advertising-Konversions-Tracking) Innerhalb des Berichts die maximale Anzahl von Tagen nach einem Impressionsereignis <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports -->, in denen ein Konversionsereignis zugeordnet werden kann. Der Standardwert ist *[!UICONTROL 30 days]* und der Höchstwert beträgt 92 Tage.
+* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit den Spalten [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] und [!UICONTROL Path to Conversion], [!UICONTROL Path Length] oder [!UICONTROL Time to Conversion] nur mit den Spalten [!UICONTROL Conversion Metrics]; Werbetreibende mit nur Adobe Advertising-Konversions-Tracking) Innerhalb des Berichts die maximale Anzahl von Tagen nach einem Impressionsereignis oder Klickereignis (für [!UICONTROL Path to Conversion]-, [!UICONTROL Path Length]- oder [!UICONTROL Time to Conversion]-Berichte), in denen ein Konversionsereignis sein kann zu ihm hinzu. Der Standardwert ist *[!UICONTROL 30 days]* und der Höchstwert beträgt 92 Tage.
+
+  >[!TIP]
+  >
+  >Wenn Sie [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) verwenden, verwenden Sie dasselbe Lookback-Fenster wie in [!DNL Analytics].
 
 **[!UICONTROL Paths as Columns]:** (Alle [!UICONTROL Custom]-, [!UICONTROL Conversion]-, [!UICONTROL Device]-, [!UICONTROL Geo]-, [!UICONTROL Segment]- und [!UICONTROL Site]-Berichte mit den Spalten [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals]) Welche Konversionstypen werden in Berichten aufgeführt, wenn frühere Ereignisse auf demselben Gerät aufgetreten sind. Sie können bis zu drei Typen einbeziehen. Für jeden ausgewählten Typ wird eine separate Spalte für jede Konversionsmetrik eingefügt und dem angegebenen Suffix ([!UICONTROL (tl)], [!UICONTROL (ct)] oder [!UICONTROL (vt)]) angehängt:
 
