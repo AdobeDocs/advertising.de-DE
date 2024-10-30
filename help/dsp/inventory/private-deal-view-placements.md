@@ -3,9 +3,9 @@ title: Platzierungen und Anzeigen für ein privates Geschäft auflisten
 description: Erfahren Sie, wie Sie eine Liste mit Platzierungen und Anzeigen öffnen, die mit einem privaten Kauf verknüpft sind.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Sie können eine Liste aller Platzierungen und Anzeigen öffnen, die mit einem p
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
+   * Um die Gründe anzuzeigen, aus denen eine Platzierung kein Angebot für den privaten Deal abgeben konnte, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL Non bid reasons]**.
+
    * Um die Einstellungen für eine Platzierung zu bearbeiten, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL Edit]**. [Bearbeiten Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) und klicken Sie dann auf **[!UICONTROL Update placement]**.
 
    * Um den Deal aus den Inventarzielen einer Platzierung zu entfernen, halten Sie den Cursor über die Platzierungszeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]**.
@@ -35,3 +37,4 @@ Sie können eine Liste aller Platzierungen und Anzeigen öffnen, die mit einem p
 >* [Über den privaten Bestand](private-inventory-about.md)
 >* [Festlegen von Platzierungen und Anzeigen für eine Angebots-ID](deal-id-attach-placements.md)
 >* [Detaillierten Bericht für einen Deal anzeigen](deal-view-report.md)
+>* [Anzeigen der Berichte zur Platzierungsdiagnose](/help/dsp/campaign-management/reports/placement-diagnostics.md)
