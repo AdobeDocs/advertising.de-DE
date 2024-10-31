@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über die Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder zum Verwenden vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ Sie können Berichte einmalig erstellen oder jeden Tag, jede Woche oder jeden Mo
 
      Es werden bis zu 10 aktuelle Interaktionspunkte einbezogen. Die Pfadzeilen werden nach der Anzahl der Konvertierungen geordnet.
 
-   * **[!UICONTROL Path Length Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um die Anzeigenhäufigkeit basierend auf der Anzahl der für Konversionen erforderlichen Benutzerinteraktionspunkte zu verwalten. Der Bericht zeigt die Anzahl der Konversionen nach Pfadlänge (Interaktionspunkte) an, z. B. wie viele Konversionen auftraten, nachdem Benutzer nur eine Anzeigeninteraktion, zwei Anzeigeninteraktionen usw. hatten. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw.
+     Einen Vergleich dieses Berichts mit Berichten, die von [!DNL Advanced Measurement Services] und Adobe Analytics erstellt wurden, finden Sie unter &quot;[Häufig gestellte Fragen zu benutzerspezifischen Berichten](/help/dsp/reports/faq-reports.md)&quot;.
+
+   * **[!UICONTROL Path Length Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um      verfolgen Sie die Anzahl der Benutzerinteraktionspunkte, die für Konversionen im Zeitverlauf erforderlich sind, damit Sie die optimale Anzeigenfrequenz wählen können. Der Bericht zeigt die Anzahl der Konversionen nach Pfadlänge (Interaktionspunkte) an, z. B. wie viele Konversionen auftraten, nachdem Benutzer nur eine Anzeigeninteraktion, zwei Anzeigeninteraktionen usw. hatten. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw.
 
      Daten werden für jede Pfadlänge von bis zu 10 angezeigt; Daten für Pfadlängen über 10 werden gruppiert.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um das optimale Attributions-Lookback-Fenster zu ermitteln und neue Möglichkeiten für das Retargeting zu identifizieren. Der Bericht zeigt die Anzahl der Konversionen nach der Zeitdauer in Tagen von der letzten Interaktion (Anzeigenexposition oder Klick) bis zur Konversion an. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw. Konversionen, die länger als den Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-Tage-Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot;von &quot;30+&quot;gruppiert).
+   * **[!UICONTROL Time to Conversion Beta]:** (Beta-Funktion) Verwenden Sie diesen Bericht, um das optimale Attributions-Lookback-Fenster zu ermitteln und Kampagnen zu identifizieren, die längere Konversionszeiten aufweisen und von Retargeting profitieren können. Der Bericht zeigt die Anzahl der Konversionen nach der Zeitdauer in Tagen von der letzten Interaktion (Anzeigenexposition oder Klick) bis zur Konversion an. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen festgelegten Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Zu den Spalten im Bericht gehören &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Konversionsmetrikname 1\>&quot;, &quot;% \&lt;Konversionsmetrikname 1\>&quot;, \&lt;Konversionsmetrikname 2\>, &quot;% \&lt;Konversionsmetrikname 2\>&quot;usw. Konversionen, die länger als den Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-Tage-Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot;von &quot;30+&quot;gruppiert).
 
 ## Kontoübergreifende Berichterstellung {#cross-account-reporting}
 
