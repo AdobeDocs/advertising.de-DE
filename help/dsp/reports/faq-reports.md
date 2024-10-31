@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu benutzerspezifischen Berichten
 description: Erfahren Sie mehr über benutzerdefinierte Berichte, einschließlich Haushaltsberichten und Konversionspfadanalyseberichten.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ Der optimale Anwendungsfall besteht darin, sowohl den Bericht [!UICONTROL Househ
 
 ## Konversionspfad - Analyseberichte
 
-### Wie unterscheidet sich der Bericht Pfad zur Konversion von den von [!DNL Advanced Measurement Services] und Adobe Analytics erstellten Berichten?
+### Wie unterscheidet sich der Bericht Pfad zur Konversion von den von [!DNL Advanced Measurement Services] und Adobe Analytics Analysis Workspace erstellten Berichten?
 
-| | Pfad zum Konversionsbericht | Halbwerteeffekt von erweiterten Messungsdiensten auf Suchberichte | Adobe Analytics Workspace-Berichte |
+| | Pfad zum Konversionsbericht | Halbwerteeffekt von erweiterten Messungsdiensten auf Suchberichte | Berichte in Analysis Workspace |
 | --- | --- | --- |---|
 | Kundenwert | Erstellen Sie einen benutzerspezifischen Self-Service-Bericht, um zu verstehen, welche Pfade der Anzeigen-Journey zu mehr Konversionen führten, um die Optimierung zu verbessern. | Erfahren Sie mehr über den Einfluss von CTV-Taktiken auf Suchklicks. | Verstehen Sie den Einfluss Ihrer ganzheitlichen Adobe Advertising-Investition auf Suchklicks neben anderen Marketingkanälen |
 | Haushalts-Ebene | Ja | Ja | Nein |
