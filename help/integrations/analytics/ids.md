@@ -3,7 +3,7 @@ title: Von  [!DNL Analytics] verwendete Adobe Advertising-IDs
 description: Von  [!DNL Analytics] verwendete Adobe Advertising-IDs
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 66368bd3bd7dbbd9829e7587c297c9d467c785ec
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -104,7 +104,7 @@ EF-IDs unterliegen in Analysis Workspace der Grenze von 500.000 eindeutigen Kenn
 
 Die AMO-ID verfolgt jede eindeutige Anzeigenkombination auf einer weniger detaillierten Ebene und wird für die [!DNL Analytics] -Datenklassifizierung und Erfassung von Werbedetriken (wie Impressionen, Klicks und Kosten) von Adobe Advertising verwendet. Die AMO-ID wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) - oder rVar-Dimension (AMO-ID) gespeichert und wird ausschließlich für die Berichterstellung in [!DNL Analytics] verwendet.
 
-Die AMO-ID wird auch als `s_kwcid` bezeichnet, was manchmal als &quot;[!DNL the squid]&quot;ausgesprochen wird.
+Die AMO-ID wird auch als `s_kwcid` bezeichnet, was manchmal als &quot;[!DNL squid]&quot;ausgesprochen wird.
 
 ### Methoden zur Implementierung der AMO-ID {#amo-id-implement}
 
