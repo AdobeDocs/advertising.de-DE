@@ -3,7 +3,7 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -155,12 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Die Nettogesamtkosten nicht abrechnungsfähiger Medien, einschließlich der Technologiegebühr, die nicht über DSP abgerechnet werden. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Die Gesamtkosten für andere Servicegebühren (Prüfungspartner von Drittanbietern, Ad-Serving usw.), die nicht über DSP in Rechnung gestellt werden. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Die Summe von [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] und [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Die Gesamtnettokosten der Datengebühren für Zielgruppensegmente. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Die Gesamtnettokosten der Medien, einschließlich technischer Gebühren. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | Die Summe von [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] und [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | Die Summe von [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] und [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | Die Gesamtnettokosten anderer Servicegebühren (Prüfungspartner von Drittanbietern, Adserving usw.). |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Die Summe von [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] und [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Der Prozentsatz der Ansichten, die die Anzeige insgesamt angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Die Anzahl der Ansichten, die die Anzeige vollständig angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Der Prozentsatz der sichtbaren Impressionen, die die Anzeige insgesamt angesehen haben. |
