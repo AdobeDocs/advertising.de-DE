@@ -3,7 +3,7 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
+source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -137,9 +137,6 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Die durchschnittlichen Nettokosten pro abgeschlossener Videoansicht, berechnet durch <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen, berechnet durch <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Die durchschnittlichen Nettokosten pro Videoansicht, berechnet durch <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Die durchschnittlichen Nettodatenkosten pro 1000 Impressionen, berechnet durch <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Die durchschnittlichen Nettomedienkosten pro 1000 Impressionen, berechnet durch <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen für andere Gebühren, berechnet durch <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Der Prozentsatz der Gesamtgebote, die beim Max. CPM geboten wurden. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Die Anzahl unterschiedlicher Benutzer, für die DSP Gebot für die Platzierung abgegeben wurde. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Die Gesamtnettokosten der Datengebühren für Zielgruppensegmente, die über DSP in Rechnung gestellt werden. |
@@ -156,10 +153,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Die Gesamtkosten für andere Servicegebühren (Prüfungspartner von Drittanbietern, Ad-Serving usw.), die nicht über DSP in Rechnung gestellt werden. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Die Summe von [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] und [!UICONTROL Billable Spend (Other)]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | Die durchschnittlichen Nettodatenkosten pro 1000 Impressionen, berechnet durch <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Die Gesamtnettokosten der Datengebühren für Zielgruppensegmente. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | Die durchschnittlichen Nettomedienkosten pro 1000 Impressionen, berechnet durch <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Die Gesamtnettokosten der Medien, einschließlich technischer Gebühren. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | Die Summe von [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] und [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | Die Summe von [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] und [!UICONTROL Non-billable Spend (Other)]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen für andere Gebühren, berechnet durch <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | Die Gesamtnettokosten anderer Servicegebühren (Prüfungspartner von Drittanbietern, Adserving usw.). |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Der Prozentsatz der Ansichten, die die Anzeige insgesamt angesehen haben. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Die Anzahl der Ansichten, die die Anzeige vollständig angesehen haben. |
