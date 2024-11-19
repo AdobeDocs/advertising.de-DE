@@ -2,9 +2,10 @@
 title: Implementieren von [!DNL Google Ads] erweiterten Konvertierungen für Leads
 description: Erfahren Sie mehr über den Workflow zum Einrichten von  [!DNL Google Ads] erweiterten Konvertierungen für Leads.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 Mit [[!DNL Google Ads] erweiterten Konversionen für Leads](https://support.google.com/google-ads/answer/9888656) können Sie Benutzer mithilfe Ihrer Erstanbieter-Konversionsdaten Offline-Konversionen zuordnen. Verwenden Sie erweiterte Konversionen für Leads in Umgebungen, in denen Klick-IDs nicht verfügbar sind, z. B. zur Verfolgung von Telefon- oder E-Mail-Verkäufen, die aus Website-Leads resultieren.
 
-In Search, Social und Commerce können Sie Ihre erweiterten Konversionen für Leads als Metriken in Berichten und als gewichtete Metriken in Ziele zur Optimierung einbeziehen. Suchen, Social und Commerce synchronisiert Ihre vorhandenen erweiterten Konversionen für Leads täglich um 05:00 Uhr in der Zeitzone des Advertisers.
+In Search, Social und Commerce haben Sie folgende Möglichkeiten:
+
+* Zeigen Sie Ihre vorhandenen erweiterten Konversionen für Leads an.
+
+  Suchen, Social und Commerce synchronisiert Ihre vorhandenen erweiterten Konversionen für Leads täglich um 05:00 Uhr in der Zeitzone des Advertisers.
+
+* Erstellen Sie erweiterte Konversionen für Leads.
+
+* Laden Sie Erstanbieter- und Offline-Konversionsdaten hoch, um sie Ihren erweiterten Konversionen für Leads zuzuordnen.
+
+* Schließen Sie Ihre erweiterten Konversionen für Leads als Metriken in Berichten und als gewichtete Metriken in Ziele zur Optimierung ein.
 
 Führen Sie die folgenden Schritte aus, um diese Funktion zu verwenden. Die Schritte zum Erstellen von Konversions-Tracking-Tags und zum Erstellen von Konversionsaktionen können optional rückgängig gemacht werden.
 
