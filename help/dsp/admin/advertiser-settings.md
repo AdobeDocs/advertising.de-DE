@@ -2,9 +2,9 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Advertiser-Kontoeinstellungen
 
 *Nicht für schreibgeschützte Benutzer verfügbar*
+
+<!-- Not published -->
 
 ## [!UICONTROL General] Einstellungen
 
@@ -166,11 +168,11 @@ Sie können die Einstellung auf Advertiser-Ebene auf [Platzierungsebene](/help/d
 
 **[!UICONTROL Enable Site Safety Block]:** Standardmäßig ermöglicht einen Filter nach dem Angebot in Echtzeit, um sicherzustellen, dass Anzeigen auf den Sites bereitgestellt werden, auf denen der Advertiser ausgerichtet ist. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] nur Kunden; optional) Die Kennung des Markensicherheitssegments, die mit dem [!DNL DoubleVerify] -Konto des Unternehmens verknüpft ist.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Optional) Standardmäßig aktiviert [!DNL DoubleVerify] Authentische Markensicherheit, die Impressionen nach dem Gebot blockiert, indem die benutzerdefinierten Markensicherheitsregeln verwendet werden, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
+**[!UICONTROL Enable Authentic Brand Suitability]:** (Optional) Standardmäßig aktiviert [!DNL DoubleVerify Authentic Brand Safety], was Impressionen nach dem Angebot mithilfe der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
 
 Sie können die Einstellung auf Advertiser-Ebene auf Platzierungsebene überschreiben.
 

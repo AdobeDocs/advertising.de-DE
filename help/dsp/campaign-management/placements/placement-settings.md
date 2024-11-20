@@ -3,7 +3,7 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ So legen Sie das Inventar-Targeting fest:
 
 Über dem Inhalt angezeigte Werbeanzeigen werden in der Regel als Popup oder als Inhaltsangabe (im nativen Erlebnis) und nicht als normale Videoanzeigen in einem Videoplayer angezeigt.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** Die Traffic-Typen, die als Ziel ausgewählt werden sollen. Zu den Optionen gehören **[!UICONTROL Websites]** und **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** den Wert *[!UICONTROL Off]* hat) Die Qualität der Zielseiten. Die Ebenen 1 bis 3 sind alle markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
+**[!UICONTROL Tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** den Wert *[!UICONTROL Off]* hat) Die Qualität des zu verfolgenden Traffics. Die Ebenen 1 bis 3 sind alle markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
 
 * *[!UICONTROL Tier 1]:* Premium-Sites und -Anwendungen, die national erkennbar sind.
 
@@ -227,7 +227,7 @@ So legen Sie das Inventar-Targeting fest:
 
 * *[!UICONTROL Tier 3]:* Zielebenen 1-2 sowie legitime und markensichere Sites und Anwendungen, die einer Nischenzielgruppe entsprechen. Verwenden Sie Ebene 3 für Zielgruppen- oder Daten-Targeting-Käufe.
 
-* *[!UICONTROL All Sites]:* Zielebenen 1-3 und neuer Bestand, der nicht geprüft oder kategorisiert wurde und den Sie für die Reichweite verwenden können.
+* *[!UICONTROL All Sites or Apps]:* Zielebenen 1-3 und neuer Bestand, der nicht geprüft oder kategorisiert wurde und den Sie für die Reichweite verwenden können.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ So legen Sie das Inventar-Targeting fest:
 >
 >Für Leistungskampagnen wird empfohlen, *[!UICONTROL All Sites]* auszuwählen.
 
-**[!UICONTROL Site Categories]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Site-Kategorien innerhalb der ausgewählten Site-Ebenen, die entweder als Ziele ein- oder ausgeschlossen werden sollen (aber nicht beide). Wählen Sie aus den Listen der vertikalen Site, die DSP dem Betreff zugeordnet hat:
+**[!UICONTROL Site or App Categories]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Site-Kategorien innerhalb der ausgewählten Site-Ebenen, die entweder als Ziele ein- oder ausgeschlossen werden sollen (aber nicht beide). Wählen Sie aus den Listen der vertikalen Site, die DSP dem Betreff zugeordnet hat:
 
 1. Klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Site-Kategorien an, die entweder ein- oder ausgeschlossen werden sollen:
@@ -250,7 +250,7 @@ So legen Sie das Inventar-Targeting fest:
 1. (Optional) Klicken Sie auf &quot;**[!UICONTROL Export]**&quot;, um eine CSV-Datei mit den Targeting-Informationen zum Speicherort der Downloads Ihres Browsers herunterzuladen.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Sites, die ausgeschlossen werden sollen. Sie können entweder nach Sites suchen und diese auswählen oder Domänennamen eingeben oder einfügen:
+**[!UICONTROL Exclude Sites or Apps]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Sites, die ausgeschlossen werden sollen. Sie können entweder nach Sites suchen und diese auswählen oder Domänennamen eingeben oder einfügen:
 
 1. Klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Sites an:
@@ -273,7 +273,7 @@ So legen Sie das Inventar-Targeting fest:
 
 **[!UICONTROL Language]:** (Optional) Eine einzelne Sprache, die als Ziel ausgewählt werden soll.
 
-**[!UICONTROL Site List Preview]:** (Schreibgeschützt) Alle Targeting- und Blockierungssites für die Platzierung.
+**[!UICONTROL Site or App List Preview]:** (Schreibgeschützt) Alle Targeting- und Blockierungssites für die Platzierung.
 
 Optional können Sie die Liste der Ziel- und Blockierungssites als CSV-Datei (CSV) mit kommagetrennten Werten exportieren. Um die Liste zu exportieren, klicken Sie auf **[!UICONTROL Export full site list]** und öffnen oder speichern Sie dann die Datei entsprechend der üblichen Vorgehensweise Ihres Browsers.
 
@@ -389,7 +389,7 @@ So legen Sie das Thema-Targeting fest:
 1. (Optional) Klicken Sie auf &quot;**[!UICONTROL Export]**&quot;, um eine CSV-Datei mit den ISP-Targeting-Informationen zum Speicherort der Downloads Ihres Browsers herunterzuladen.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** Typen der anzuwendenden kontextuellen Filter [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39]. Die Standardeinstellungen auf Advertiser-Ebene werden für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 

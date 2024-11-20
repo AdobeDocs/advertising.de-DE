@@ -2,7 +2,7 @@
 title: Werbekonto erstellen
 description: Erfahren Sie, wie Sie ein Advertiser-Konto erstellen.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Werbekonto erstellen
 
 *Nicht für schreibgeschützte Benutzer verfügbar*
+
+<!-- Not published -->
 
 Advertiser sind für alle Benutzer im Unternehmenskonto verfügbar.
 
