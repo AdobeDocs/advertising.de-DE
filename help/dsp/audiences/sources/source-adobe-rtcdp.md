@@ -3,7 +3,7 @@ title: Verwenden der DSP Integration mit  [!DNL Adobe] [!DNL Real-time CDP]
 description: Erfahren Sie, wie Sie DSP aktivieren, Ihre Erstanbietersegmente zu erfassen. [!DNL Adobe] [!DNL Real-time CDP]
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Verwenden Sie die DSP-Integration mit [dem  [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), der Teil der Adobe Experience Platform ist, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung zu konvertieren.
+Verwenden Sie die DSP-Integration mit [dem  [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), der Teil der Adobe Experience Platform ist, um Ihre Hash-E-Mail-Adressen in universelle IDs für zielgerichtete Werbung zu konvertieren.
 
 1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Richten Sie das Tracking für die Messung [!DNL Analytics] ein:
 

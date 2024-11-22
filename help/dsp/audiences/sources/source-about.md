@@ -3,7 +3,7 @@ title: Über Erstanbieter-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzer-IDs in Erstanbietersegmenten in universelle IDs für das Targeting von Cookies konvertieren.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP hat Connectoren für die folgenden CDPs eingerichtet, um Ihre Erstanbieterse
 
 DSP können auch über Batch-, Streaming- oder API-basierte Datenfreigabe eine Verbindung zu allen zusätzlichen CDPs herstellen. Wenden Sie sich zur Integration in eine neue Kundendatenplattform an Ihr Adobe-Account-Team.
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP ist ein integriertes *Ziel* für [den  [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), der Teil der Adobe Experience Platform ist.
+DSP ist ein integriertes *Ziel* für [den  [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), der Teil der Adobe Experience Platform ist.
 
 In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Sie können Ziele verwenden, um Ihre Hash-E-Mail-Adressen für zielgerichtete Werbung in DSP zu aktivieren. Weitere Informationen zu Zielen finden Sie im Experience Platform [Leitfaden zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), einschließlich einer Produktübersicht, Anweisungen zum Erstellen von Ziel-Arbeitsbereichen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) und [Erstellen von Zielverbindungen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) und zum Aktivieren von Daten für Ziele [aktivieren](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).[
 
