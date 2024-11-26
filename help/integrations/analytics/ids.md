@@ -3,9 +3,9 @@ title: Von  [!DNL Analytics] verwendete Adobe Advertising-IDs
 description: Von  [!DNL Analytics] verwendete Adobe Advertising-IDs
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ wobei:
 
 >[!NOTE]
 >
->Alle Konten mit Leistungskampagnen wurden in das obige Format migriert. Bei Konten mit anderen Kampagnentypen werden die Suffixe Ihrer Landingpage so migriert, dass sie das neue s_kwcid-Format bis Anfang 2025 verwenden. In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiterhin:
+>Alle Konten mit Kampagnen mit Leistungsmax wurden in das obige Format migriert. Bei Konten mit anderen Kampagnentypen werden die Suffixe Ihrer Landingpage so migriert, dass sie das neue s_kwcid-Format bis Anfang 2025 verwenden. In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiterhin:
 >* Suchkampagnen:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Shopping-Kampagnen (mit [!DNL Microsoft Merchant Center]):
