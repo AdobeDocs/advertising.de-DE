@@ -4,7 +4,7 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -233,5 +233,5 @@ ht-degree: 3%
       + [Über Warnungsanmeldungen](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnungsanmeldungen](/help/dsp/admin/alerts-manage.md)
 + [Integrationen mit Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [Kundensupport](https://helpx.adobe.com/de/contact/enterprise-support.ec.html)
++ [Kundensupport](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Adobe Experience Cloud - Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
