@@ -3,9 +3,9 @@ title: Aktualisierung des Trackingcodes der AMO-ID (s_kwcid) für ein [!DNL Goog
 description: Erfahren Sie, wie Sie zum neuesten AMO-ID-Trackingcode für ein [!DNL Google Ads] Konto wechseln.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ Das aktuelle Format enthält Parameter für die Kampagnen-ID und Anzeigengruppen
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Sie können das aktuelle Format für jedes oder alle Ihrer vorhandenen Konten einzeln ändern. Wenn Sie keine Kampagnen, Entwürfe und Experimente mit maximaler Leistung haben, ist eine Migration in das neue Format optional.
+Bei einem vorhandenen Konto, das das ältere Format verwendet, können Sie das aktuelle Format ändern. Wenn Sie keine Kampagnen, Entwürfe und Experimente mit maximaler Leistung haben, ist eine Migration in das neue Format optional.
 
 Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das aktuelle AMO-ID-Format.
 
 >[!NOTE]
+>
+>Diese Option ist nur für Konten verfügbar, die nicht das aktuelle Format verwenden.
 >
 >Nachdem Sie ein Konto migriert haben, werden alle Klick-, Kosten- und Impressionsdaten nach der Änderung korrekt gemeldet, aber alle Clickthroughs, die vor der Migration stattgefunden haben, werden weiterhin Konversionsdaten basierend auf dem alten AMO-ID-Format zugeordnet.
 
@@ -40,7 +42,7 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das aktuelle AMO-ID-F
 
 1. Starten Sie die Migration:
 
-   1. Klicken Sie neben **[!UICONTROL S_KWCID FORMAT]** auf **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+   1. Klicken Sie in den Einstellungen für [!UICONTROL Account Tracking] neben **[!UICONTROL S_KWCID FORMAT]** auf **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
    1. Klicken Sie auf **[!UICONTROL Migrate to new s_kwcid format]**.
 
@@ -58,7 +60,7 @@ Alle neuen [!DNL Google Ads] -Konten verwenden automatisch das aktuelle AMO-ID-F
 
    * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; in den Tracking-Einstellungen aktiviert ist, aktualisiert Search, Social und Commerce automatisch den Trackingcode im Suffix der Landingpage für dieses Konto und seine Kampagnen. Du brauchst nichts zu tun.
 
-   * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; nicht aktiviert ist und Sie die [serverseitige AMO-ID-Funktion](/help/integrations/analytics/ids.md#amo-id-formats) nicht verwenden, müssen Sie den AMO-ID-Parameter in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Konto- und Kampagneneinstellungen ändern oder indem Sie Änderungen in ein Bulksheet hochladen. Verwenden Sie den Editor [!DNL Google Ads] , um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren.
+   * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; nicht aktiviert ist und Sie die [serverseitige AMO-ID-Funktion](/help/integrations/analytics/ids.md#amo-id-formats) nicht verwenden, müssen Sie den AMO-ID-Parameter in den Einstellungen für das Suffix der Einstiegsseite manuell aktualisieren. Sie können die Suffixe auf Konto- und Kampagnenebene manuell in den Einstellungen [Konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) und [Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oder durch das Hochladen von Änderungen in ein Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) ändern. [ Verwenden Sie den Editor [!DNL Google Ads] , um ein Suffix auf Anzeigengruppenebene oder niedriger zu konfigurieren.
 
    * Wenn Sie die AMO-ID in die Einstellung Basis-URL für eine beliebige Kampagnenkomponente aufnehmen, verschieben Sie sie in die entsprechende Einstellung des Suffix der Einstiegsseite .
 
