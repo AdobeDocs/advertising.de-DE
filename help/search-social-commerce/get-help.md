@@ -2,7 +2,7 @@
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie sich die Online-Hilfe und Community-Ressourcen ansehen und technischen Support erhalten.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sie können die Online-Hilfe von jeder Seite in der Benutzeroberfläche aus öff
 
 ## Fragen Sie die Adobe Advertising-Community
 
-Suchen Sie in den [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community) nach Antworten auf Ihre Fragen.
+Suchen Sie in den [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community) nach Antworten auf Ihre Fragen.
 
 ## Kontakt [!DNL Adobe]
 
