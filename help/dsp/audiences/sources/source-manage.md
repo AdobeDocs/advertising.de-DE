@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren von universellen ID-Zielg
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte ausführen, um Ihre Zielgruppe zu importieren. Siehe den [Workflow für  [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), <!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> den [Workflow für  [!DNL Amperity]](source-amperity.md), den [Workflow für  [!DNL Optimizely]](source-optimizely.md) und den [Workflow für  [!DNL Tealium]](source-tealium.md).
+>Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte zum Importieren Ihrer Audience ausführen. Siehe den [Workflow für  [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), <!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> den [Workflow für  [!DNL Amperity]](source-amperity.md), den [Workflow für  [!DNL Optimizely]](source-optimizely.md) und den [Workflow für  [!DNL Tealium]](source-tealium.md).
 
 ## Ändern der ID-Typen für eine Audience Source
 

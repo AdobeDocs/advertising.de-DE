@@ -3,9 +3,9 @@ title: Über die Anzeigenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Anzeigenverwaltung.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP unterstützt die Bereitstellung von Anzeigen über Werbeanzeigen von Drittan
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Sobald Ihre Anzeigen eingerichtet sind, fügen Sie jede Anzeige einer Platzierung hinzu, die die Targeting-Parameter (Geo, Zielgruppe, Gerät und Inventar-Targeting) enthält, die steuern, wie Ihre Kampagne bereitgestellt wird. Sie können eine einzelne Anzeige an eine oder mehrere Platzierungen anhängen.
+Nachdem Sie Ihre Anzeigen eingerichtet haben, fügen Sie jede Anzeige einer oder mehreren Platzierungen hinzu, die die Targeting-Parameter (z. B. Geografie, Zielgruppe, Gerät und Inventar-Targeting) enthalten, die steuern, wie Ihre Kampagne bereitgestellt wird. Sie müssen eine Anzeige an eine Platzierung anhängen, um mit der Ausführung der Anzeige beginnen zu können.
 
 ## Verfügbare Anzeigentypen {#ad-types}
 
