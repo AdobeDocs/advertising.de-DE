@@ -2,9 +2,9 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Sie können die Einstellung auf Advertiser-Ebene auf [Platzierungsebene](/help/d
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] nur Kunden; optional) Die Kennung des Markensicherheitssegments, die mit dem [!DNL DoubleVerify] -Konto des Unternehmens verknüpft ist.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] nur Kunden; optional) Eine [!DNL DoubleVerify Authentic Brand Safety] Segment-ID, die dem [!DNL DoubleVerify] -Konto des Unternehmens zugeordnet ist und standardmäßig für alle Platzierungen verwendet wird. Durch die Angabe einer ID werden Impressionen nach dem Gebot blockiert, indem die für die angegebene Segment-ID konfigurierten benutzerspezifischen Markensicherheitsregeln verwendet werden. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** (Optional) Standardmäßig aktiviert [!DNL DoubleVerify Authentic Brand Safety], was Impressionen nach dem Angebot mithilfe der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
-
-Sie können die Einstellung auf Advertiser-Ebene auf Platzierungsebene überschreiben.
+Die ID muss mit &quot;51&quot;beginnen und aus acht Ziffern bestehen. Sie können die ID auf Advertiser-Ebene auf Platzierungsebene ändern oder löschen.
 
 >[!MORELIKETHIS]
 >
