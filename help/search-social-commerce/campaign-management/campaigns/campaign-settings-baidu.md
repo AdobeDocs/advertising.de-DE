@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Baidu] Kampagneneinstellungen'
-description: Referenzieren Sie die Einstellungen für [!DNL Baidu] Kampagnen.
+description: Verweisen Sie auf die Einstellungen für  [!DNL Baidu] -Kampagnen.
 exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 ## \[Bildschirm zur Kampagnenerstellung\]
 
-**[!UICONTROL Campaign Type]:** (Nur bei der Erstellung einer Kampagne verfügbar) Wo Anzeigen platziert werden sollen. Der einzige Wert ist *Nur Netzwerk durchsuchen*.
+**[!UICONTROL Campaign Type]:** (nur während der Kampagnenerstellung verfügbar) Ort, an dem Anzeigen geschaltet werden sollen. Die einzige ist *Search Network Only*.
 
 ## [!UICONTROL Campaign Details]
 
 **[!UICONTROL Campaign Name]:** Ein Kampagnenname, der innerhalb des Kontos eindeutig ist. Die maximale Länge beträgt 15 Doppelbyte-Zeichen.
 
 **[!UICONTROL Ad Serving]:**
-Wie oft stellt die Suchmaschine Ihre aktiven Anzeigen in einer Anzeigengruppe im Verhältnis zueinander bereit:
+Wie oft die Suchmaschine Ihre aktiven Anzeigen innerhalb einer Anzeigengruppe im Verhältnis zueinander bereitstellt:
 
-* *[!UICONTROL Rotate]* (Standard für neue Kampagnen): Jede Ihrer Anzeigen hat dieselbe Wahrscheinlichkeit, an der Anzeigenauktion teilzunehmen.
+* *[!UICONTROL Rotate]* (Standard für neue Kampagnen): Jede Ihrer Anzeigen hat die gleiche Wahrscheinlichkeit, an der Anzeigenauktion teilzunehmen.
 
-* *[!UICONTROL Optimize]:* Das Werbenetzwerk bevorzugt Anzeigen, die eine bessere Leistung erzielen. Dies entspricht möglicherweise nicht Ihren Unternehmens- und Optimierungszielen.
+* *[!UICONTROL Optimize]:* Das Werbenetzwerk bevorzugt Anzeigen, die eine bessere Leistung erbringen. Dies kann im Widerspruch zu Ihren Geschäfts- und Optimierungszielen stehen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Kampagne: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Werbekampagnen ist *aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus der Kampagne: *Aktiv* oder *Paused*. Der Standardwert für neue Anzeigenkampagnen lautet *Aktiv*.
 
 ## [!UICONTROL Budget Options]
 
@@ -83,4 +83,4 @@ Wie oft stellt die Suchmaschine Ihre aktiven Anzeigen in einer Anzeigengruppe im
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Kampagnen verwalten](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

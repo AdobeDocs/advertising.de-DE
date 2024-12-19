@@ -5,8 +5,8 @@ source-wordcount: '59'
 ht-degree: 0%
 
 ---
-# Text-Anzeigenvorlage - Nur Campaign Map
+# Text und Vorlage - nur Kampagnenzuordnung
 
-**[!UICONTROL Map Only]:** (Optional) Ordnet alle neuen Anzeigengruppen (nicht verfügbar für [!DNL Yandex]), Suchbegriffe und Anzeigen vorhandenen Kampagnen zu, anstatt neue Kampagnen zu erstellen. Wenn Sie diese Option aktivieren, wählen Sie die Zuordnungsmethode aus.
+**[!UICONTROL Map Only]:** (Optional) Ordnet alle neuen Anzeigengruppen (nicht verfügbar für [!DNL Yandex]), Keywords und Anzeigen vorhandenen Kampagnen zu, anstatt neue Kampagnen zu erstellen. Wenn Sie diese Option aktivieren, wählen Sie die Zuordnungsmethode aus.
 
 Die Verwendung von [!UICONTROL Map Only] auf Kampagnenebene erfordert eine vorhandene Kontostruktur, die eng mit der Produkttaxonomie verknüpft ist und einfach dem Daten-Feed zugeordnet werden kann.

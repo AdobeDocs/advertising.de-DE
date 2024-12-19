@@ -1,6 +1,6 @@
 ---
-title: Archivieren oder Archivieren einer Kampagne aufheben
-description: Erfahren Sie, wie Sie eine Kampagne archivieren oder deren Archivierung aufheben.
+title: Archivieren oder Aufheben der Archivierung einer Kampagne
+description: Informationen zum Archivieren oder Aufheben der Archivierung einer Kampagne.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
 source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Archivieren oder Archivieren einer Kampagne aufheben
+# Archivieren oder Aufheben der Archivierung einer Kampagne
 
-Archivieren Sie eine Kampagne, die nicht dazu verwendet wird, alle Ausgaben anzuhalten und alle zugehörigen Entitäten zu archivieren. Die einzige Aktion, die Sie für eine archivierte Kampagne durchführen können, ist die Aufhebung der Archivierung. Archivierte Kampagnen werden nicht standardmäßig angezeigt, stehen aber weiterhin für Berichte zur Verfügung.
+Archivieren Sie eine Kampagne, die nicht verwendet wird, um alle Ausgaben anzuhalten und alle zugehörigen Entitäten zu archivieren. Die einzige Aktion, die Sie für eine archivierte Kampagne ausführen können, besteht darin, die Archivierung aufzuheben. Archivierte Kampagnen werden nicht standardmäßig angezeigt, stehen aber weiterhin für Berichte zur Verfügung.
 
 Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status jederzeit wiederherzustellen.
 
-## Eine Kampagne archivieren
+## Archivieren einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie neben dem Kampagnennamen auf **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
@@ -24,7 +24,7 @@ Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status
 
 >[!NOTE]
 >
->Um archivierte Kampagnen anzuzeigen, filtern Sie die Ansicht &quot;[!UICONTROL Campaigns]&quot;: Klicken Sie auf die Schaltfläche &quot;Filter&quot;](/help/dsp/assets/filter.png), klicken Sie auf &quot;**[!UICONTROL Campaign status]**&quot;, wählen Sie &quot;**[!UICONTROL Archived]**&quot;und klicken Sie dann auf &quot;**[!UICONTROL Apply]&quot;.![**
+>Um archivierte Kampagnen anzuzeigen, filtern Sie die [!UICONTROL Campaigns] Ansicht: Klicken Sie auf ![Filter-Schaltfläche](/help/dsp/assets/filter.png) klicken Sie auf **[!UICONTROL Campaign status]** und wählen Sie **[!UICONTROL Archived]** aus, und klicken Sie dann auf **[!UICONTROL Apply].**
 
 ## Archivierung einer Kampagne aufheben
 
@@ -36,4 +36,4 @@ Sie können die Archivierung einer Kampagne aufheben, um ihren vorherigen Status
 >
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
->* [Eine Kampagne anhalten oder aktivieren](campaign-pause-activate.md)
+>* [Kampagne anhalten oder aktivieren](campaign-pause-activate.md)

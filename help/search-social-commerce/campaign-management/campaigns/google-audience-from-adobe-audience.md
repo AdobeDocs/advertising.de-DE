@@ -1,6 +1,6 @@
 ---
-title: Erstellen von [!DNL Google Ads] Kundenabgleichs-Zielgruppen aus [!DNL Adobe] Zielgruppen
-description: Erfahren Sie, wie Sie aus bestehenden Adobe Analytics- und Audience Manager-Zielgruppen [!DNL Google Ads] Zielgruppen für die Kundenabstimmung erstellen.
+title: Zielgruppen  [!DNL Google Ads]  Kundenabgleich aus Zielgruppen  [!DNL Adobe]  Zielgruppen erstellen
+description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Ihren bestehenden Adobe Analytics- und Audience Manager-Zielgruppen Kundenabgleich erstellen.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von [!DNL Google Ads] Zielgruppen zur Kundenabstimmung aus Adobe Analytics- und Audience Manager-Zielgruppen
+# Erstellen [!DNL Google Ads] Zielgruppen für den Kundenabgleich aus Adobe Analytics- und Audience Manager-Zielgruppen
 
-*[!DNL Google Ads]Konten, die nur für eine Kundenübereinstimmung infrage kommen*
+*[!DNL Google Ads]Konten, die nur für den Kundenabgleich infrage kommen*
 
-*Advertiser nur mit einer Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende nur mit einer Adobe Advertising-Adobe Audience Manager- oder Adobe Advertising-Adobe Analytics-Integration*
 
-Opt-in-Advertiser können Zielgruppen für die [!DNL Google Ads]-Kundenabstimmung erstellen, indem sie Benutzer-IDs aus a) [!DNL Analytics] -Segmenten verwenden, die für Adobe Experience Cloud freigegeben sind, und b) Audience Manager-Segmenten mit Search, Social und Commerce als Ziel verwenden, einschließlich [!DNL Analytics] -Segmenten, die in Adobe Experience Cloud veröffentlicht werden, und Segmenten, die mithilfe der Adobe Experience Cloud-Zielgruppenbibliothek erstellt werden. In Search, Social und Commerce wird automatisch eine [!DNL Google]-Tracking-URL an jedes [!DNL Analytics]- oder Audience Manager-Segment zurückgegeben, damit [!DNL Google] die Zielgruppe verfolgen kann.
+[!DNL Google Ads] Opt-in-Werbetreibende können Zielgruppen für den Kundenabgleich erstellen, indem sie Benutzer-IDs aus a) [!DNL Analytics] Segmenten verwenden, die für Adobe Experience Cloud freigegeben sind, und b) Audience Manager-Segmenten, die Search, Social und Commerce als Ziel haben, einschließlich [!DNL Analytics] Segmenten, die für Adobe Experience Cloud veröffentlicht wurden, und Segmenten, die mit der Adobe Experience Cloud-Zielgruppenbibliothek erstellt wurden. Search, Social und Commerce sendet automatisch eine [!DNL Google] Tracking-URL zurück an jedes [!DNL Analytics]- oder Audience Manager-Segment, damit [!DNL Google] die Audience verfolgen können.
 
-Jede [!DNL Adobe] -Zielgruppe kann nur für eine [!DNL Google] -Zielgruppe verwendet werden.
+Jede [!DNL Adobe] Zielgruppe kann nur für eine [!DNL Google] Zielgruppe verwendet werden.
 
-Jede neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche [!DNL Adobe] -Zielgruppe. [!DNL Google] bestimmt, wie groß die Zielgruppe sein muss, um eine Zielgruppenbestimmung durchzuführen.
+Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!DNL Adobe] Zielgruppe. [!DNL Google] bestimmt, wie groß die Zielgruppe sein muss, damit sie anvisiert werden kann.
 
 >[!TIP]
 >
->Verwenden Sie für die Echtzeit-Segmentierung vom Audience Manager erstellte Zielgruppen. Segmente, die in [!DNL Analytics] erstellt und mit Adobe Experience Cloud synchronisiert wurden, weisen möglicherweise kleinere Populationen auf, da sie nur täglich synchronisiert werden. Ein Surfer, der sich für ein Segment qualifiziert, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] haben die Datenquelle &quot;Report Suite - .&quot;
+>Verwenden Sie für die Echtzeit-Segmentierung vom Audience Manager erstellte Zielgruppen. Segmente, die in [!DNL Analytics] erstellt und mit Adobe Experience Cloud synchronisiert wurden, können kleinere Populationen haben, da sie nur täglich synchronisiert werden. Ein Surfer, der für ein Segment qualifiziert ist, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] haben die Datenquelle „Report Suite - &quot;.
 
 >[!NOTE]
 >
->In Search, Social und Commerce werden keine Kundendaten aus Ihren [!DNL Adobe] -Segmenten gespeichert, die zum Erstellen oder Bearbeiten einer [!DNL Google] -Zielgruppe verwendet werden.
+>Search, Social und Commerce speichern keine Kundendaten aus Ihren [!DNL Adobe] Segmenten, die zum Erstellen oder Bearbeiten einer [!DNL Google] Zielgruppe verwendet werden.
 
-1. Führen Sie nach Bedarf die Voraussetzungen aus:
+1. Schließen Sie die Voraussetzungen nach Bedarf ab:
 
-   1. (Um Benutzer-ID-Remarketing-Listen-Zielgruppen zu erstellen) Ein [!DNL Adobe] Admin-Benutzer oder -Kundenbetreuer muss die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für die Kundenabstimmung zu aktivieren.
+   1. (Um Benutzer-ID-Remarketing-Listen-Zielgruppen zu erstellen) Ein [!DNL Adobe]-Admin-Benutzer oder Account Manager muss die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für den Kundenabgleich zu aktivieren.
 
-   1. Implementieren Sie den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
+   1. Implementieren Sie [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
 
-   1. Stellen Sie das folgende Tag so weit wie möglich auf den Webseiten des Advertisers bereit, von denen aus die Zielgruppe verfolgt werden soll
+   1. Stellen Sie das folgende Tag so hoch wie möglich auf den Webseiten des Werbetreibenden bereit, von denen aus die Zielgruppe verfolgt werden soll
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
@@ -44,49 +44,49 @@ Jede neue [!DNL Google] -Zielgruppe hat denselben Namen wie die ursprüngliche [
 
       Beispiel: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Falls noch nicht abgeschlossen) Ein autorisierter Benutzer muss das Konto des Advertisers so konfigurieren, dass es mit dem Organisationskonto des Advertisers in Adobe Experience Cloud ](/help/search-social-commerce/admin/sync-adobe-audiences.md) synchronisiert wird.[
+   1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [ es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert ](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") .
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
-1. Wählen Sie das Werbenetzwerk und den Kontonamen aus und klicken Sie auf **[!UICONTROL Continue]**.
+1. Wählen Sie das Anzeigennetzwerk und den Kontonamen aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
 1. Geben Sie die Zielgruppeninformationen an:
 
-   1. Wählen Sie im Menü **[!UICONTROL Data Source]** die Option **[!UICONTROL Adobe Audience]** aus.
+   1. Wählen Sie im **[!UICONTROL Data Source]** Menü **[!UICONTROL Adobe Audience]** aus.
 
    1. Wählen Sie die [!UICONTROL Adobe Audience] aus, auf der die [!DNL Google]-Zielgruppe basieren soll.
 
       >[!NOTE]
       >
-      >[!DNL Adobe] -Zielgruppen, die bereits für eine andere [!DNL Google] -Zielgruppe verwendet werden, sind nicht verfügbar.
+      >[!DNL Adobe] Zielgruppen, die bereits für eine andere [!DNL Google] Zielgruppe verwendet werden, sind nicht verfügbar.
 
       Sie können optional nach Zielgruppen suchen, die eine bestimmte Textzeichenfolge mit mindestens drei Zeichen enthalten. Klicken Sie für jede passende Zielgruppe auf **[!UICONTROL Include]** , um sie auszuwählen.
 
-      Wenn Sie mehrere [!DNL Adobe] Zielgruppen auswählen, wird für jede Zielgruppe eine separate [!DNL Google] -Zielgruppe erstellt.
+      Wenn Sie mehrere [!DNL Adobe] Zielgruppen auswählen, wird für jede eine separate [!DNL Google] erstellt.
 
    1. Wählen Sie die zu erstellende **[!UICONTROL Audience Type]** aus: **[!UICONTROL Customer List_User ID]**.
 
-      Das [!DNL Google Ads] -Konto des Advertisers muss [ für eine benutzerdefinierte Übereinstimmung qualifiziert sein](https://support.google.com/adspolicy/answer/6299717) und sich für das [Benutzer-ID-Remarketing](https://support.google.com/google-ads/answer/9199250) angemeldet haben.
+      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([ für benutzerdefinierte Übereinstimmung) ](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) ](https://support.google.com/google-ads/answer/9199250).
 
-   1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie den Bedingungen der Datenschutzrichtlinien für [!DNL Adobe] und Werbenetzwerke zustimmen.
+   1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie mit den Bedingungen der Datenschutzrichtlinien für [!DNL Adobe] und Werbenetzwerke einverstanden sind.
 
-   1. Geben Sie die Anzahl von **[!UICONTROL Membership Days]** an, also die Anzahl der Tage, in denen das Cookie eines Benutzers in der Zielgruppe verbleibt.
+   1. Geben Sie die Anzahl der **[!UICONTROL Membership Days]** an, d. h. die Anzahl der Tage, die das Cookie eines Benutzers in der Zielgruppe verbleibt.
 
-      Verwenden Sie die Zeitdauer, für die Sie erwarten, dass Ihre Anzeige für den Benutzer relevant ist. Remarketing-Listen haben eine maximale Dauer von 540 Tagen. Kundenlisten haben keine maximale Dauer. Um anzugeben, dass das Cookie nie abläuft, geben Sie 10000 ein.
+      Verwenden Sie die Zeitspanne, für die Ihre Anzeige für den Benutzer relevant sein soll. Remarketing-Listen haben eine maximale Dauer von 540 Tagen. Kundenlisten haben keine maximale Dauer. Um anzugeben, dass das Cookie nie abläuft, geben Sie 10000 ein.
 
    1. Klicken Sie auf **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
->* [!DNL Google] kann bis zu 24 Stunden dauern, bis die Datei verarbeitet wird.
+>* [!DNL Google] kann bis zu 24 Stunden dauern, um die Datei zu verarbeiten.
 >
->* Siehe die [[!DNL Google Ads] Dokumentation zur Funktionsweise der Kundenabgleich und zu Einschränkungen](https://support.google.com/displayvideo/answer/9539301).
+>* Siehe [[!DNL Google Ads] Dokumentation zur Funktionsweise von Customer Match und zu Einschränkungen](https://support.google.com/displayvideo/answer/9539301).
 
 >[!MORELIKETHIS]
 >
->* [Über Zielgruppen](audience-about.md)
->* [Erstellen einer [!DNL Google Ads] Kundenübereinstimmungs-Audience aus einer Adobe Campaign-E-Mail-Liste](google-audience-from-campaign-email-list.md)
->* [Verwalten von Zielgruppen zur Kundenabstimmung mithilfe von Kundendatenlisten](audience-from-customer-data-list.md)
->* [Dynamische Remarketing-Zielgruppen verwalten](audience-dynamic-remarketing-manage.md)
+>* [Info über Zielgruppen](audience-about.md)
+>* [Erstellen einer Zielgruppe  [!DNL Google Ads]  Kundenabgleich aus einer Adobe Campaign-E-Mail-Liste](google-audience-from-campaign-email-list.md)
+>* [Verwalten von Zielgruppen für den Kundenabgleich mithilfe von Kundendatenlisten](audience-from-customer-data-list.md)
+>* [Dynamische Remarketing-Audiences verwalten](audience-dynamic-remarketing-manage.md)

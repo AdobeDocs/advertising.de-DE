@@ -1,6 +1,6 @@
 ---
-title: Klick-Tracking-Formate für  [!DNL Yandex]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Yandex] Konten.
+title: Klick-Tracking-Formate für [!DNL Yandex]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Yandex] .
 exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -22,21 +22,21 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
+>* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
 >* `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 >
 >* `source_type` ist der Übereinstimmungstyp.
 >
->* `source` gibt an, ob die Anzeige auf einer Such- oder inhaltsbasierten Site angezeigt wurde.
+>* `source` ist, ob die Anzeige auf einer Suche oder einer inhaltsbasierten Website angezeigt wurde.
 >
->* `position` ist die Positionsnummer für die Anzeige im Block. Bei Traffic ohne Suchvorgänge ist der Wert &quot;0&quot;.
+>* `position` ist die Positionsnummer für die Anzeige im Block. Für Nicht-Such-Traffic ist der Wert „0“.
 >
->* `position_type` ist der Block, in dem die Anzeige auf [!DNL Yandex] angezeigt wurde. Mögliche Werte: &quot;Premium&quot;(oberster Block), &quot;other&quot;(rechter Block) oder &quot;none&quot;(nicht suchbasierter Traffic).
+>* `position_type` ist der Block, in dem die Anzeige auf [!DNL Yandex] angezeigt wurde. Mögliche Werte: „premium“ (oberster Block), „other“ (rechter Block) oder „none“ (Nicht-Such-Traffic).
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [AMO-ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
+>* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)

@@ -1,6 +1,6 @@
 ---
-title: Über Beschriftungsklassifizierungen
-description: Erfahren Sie mehr über die Verwendung von Beschriftungsklassifizierungen zur Gruppierung Ihrer Kontokomponenten.
+title: Über Kennzeichnungsklassifizierungen
+description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,29 +10,29 @@ ht-degree: 0%
 
 ---
 
-# Über Beschriftungsklassifizierungen
+# Über Kennzeichnungsklassifizierungen
 
-Mit Beschriftungsklassifizierungen können Sie Ihre Kontokomponenten in aussagekräftige Sätze gruppieren. Sie können beispielsweise eine übergeordnete Bezeichnungsklassifizierung mit dem Namen &quot;Geo&quot;erstellen, für jede geografische Region (z. B. &quot;Großbritannien&quot;und &quot;Japan&quot;) innerhalb der Klassifizierung einen anderen Bezeichnungswert erstellen und die Bezeichnungswerte dann Ihren [Angebotseinheiten](/help/search-social-commerce/glossary.md#a-b) oder übergeordneten Kampagnen zuweisen. Anschließend können Sie jeden Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte einfügen und Ihre Berichte nach verschiedenen Classification-Gruppen und -Werten untergliedern.
+Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder ](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
 
-## Beschriftungsklassifizierungen
+## Klassifizierungen kennzeichnen
 
-Jeder Advertiser kann über bis zu 30 Beschriftungsklassifizierungen verfügen, bei denen es sich um Kategorien der obersten Ebene handelt.
+Jeder Advertiser kann über bis zu 30 Label-Klassifizierungen verfügen, bei denen es sich um Kategorien der obersten Ebene handelt.
 
-## Bezeichnungswerte
+## Kennzeichnungswerte
 
-Jede Beschriftungsklassifizierung kann bis zu 2000 Werte aufweisen. Nachdem Sie bestimmte Bezeichnungswerte für eine Classification erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Suchbegriffen, Anzeigen, Platzierungen und Produktgruppen [aus den Ansichten für die Kampagnenverwaltung](classification-values-assign-campaign-management.md) oder [mithilfe von Bulksheets](classification-values-assign-bulksheets.md) zuweisen.
+Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [ Kampagnenverwaltungsansichten oder ](classification-values-assign-campaign-management.md)mithilfe [ Bulksheets) ](classification-values-assign-bulksheets.md).
 
-Jede zugelassene Entität kann Beschriftungswerte für mehrere Klassifizierungen, aber nur einen Beschriftungswert pro Klassifizierung aufweisen. Beschriftungswerte werden von untergeordneten Entitäten übernommen, können jedoch überschrieben werden. Der auf der niedrigsten Ebene zugewiesene Wert überschreibt immer die auf den übergeordneten Ebenen zugewiesenen Werte.
+Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen, aber nur einen Kennzeichnungswert pro Klassifizierung haben. Kennzeichnungswerte werden von untergeordneten Entitäten übernommen, können jedoch überschrieben werden. Der Wert, der auf der niedrigsten Ebene zugewiesen wird, überschreibt immer die Werte, die auf den übergeordneten Ebenen zugewiesen werden.
 
-## Ansicht &quot;Beschriftungsklassifizierungen&quot;
+## Die Ansicht Kennzeichnungen - Klassifizierungen
 
-Die Ansicht [!UICONTROL Labels Classifications] im Menü [!UICONTROL Search] > [!UICONTROL Campaigns] enthält die Unteransichten [!UICONTROL Classifications] und [!UICONTROL Label Values]. Sie können Daten zu Ihren Bezeichnungsklassifizierungen, [Erstellen](classification-create.md) und [Löschen](classification-delete.md) der Bezeichnungsklassifizierungen sowie Daten zu Ihren Bezeichnungsklassifizierungswerten anzeigen. Standardmäßig werden Daten für Ihre Bezeichnungsklassifizierungen und -werte auf Keyword-Ebene angezeigt, aber Sie können optional Daten für Ihre Klassifizierungen und Werte auf Anzeigenebene anzeigen.
+Die [!UICONTROL Labels Classifications] im Menü [!UICONTROL Search] > [!UICONTROL Campaigns] enthält [!UICONTROL Classifications] und [!UICONTROL Label Values] Unteransichten. Sie können Daten für Ihre Kennzeichnungsklassifizierungen anzeigen, Kennzeichnungsklassifizierungen [erstellen](classification-create.md) und [löschen](classification-delete.md) und Daten für Ihre Kennzeichnungsklassifizierungswerte anzeigen. Standardmäßig werden Daten für Ihre Kennzeichnungsklassifizierungen und -werte auf Schlüsselwortebene angezeigt, Sie können jedoch optional Daten für Ihre Klassifizierungen und Werte auf Anzeigenebene anzeigen.
 
 >[!MORELIKETHIS]
 >
->* [Erstellen einer Bezeichnungsklassifizierung](classification-create.md)
->* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus Ansichten der Kampagnenverwaltung](classification-values-assign-campaign-management.md)
->* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
->* [Entfernen Sie Beschriftungs-Classification-Werte aus Kontokomponenten](classification-values-remove.md)
->* [Löschen von Beschriftungs-Classification-Werten](classification-values-delete.md)
->* [Beschriftungsklassifizierungen löschen](classification-delete.md)
+>* [Erstellen einer Kennzeichnungsklassifizierung](classification-create.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements](classification-values-assign-campaign-management.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
+>* [Entfernen Sie Kennzeichnungswerte aus den Kontokomponenten](classification-values-remove.md)
+>* [Löschen von Kennzeichnungswerten](classification-values-delete.md)
+>* [Löschen von Kennzeichnungsklassifizierungen](classification-delete.md)

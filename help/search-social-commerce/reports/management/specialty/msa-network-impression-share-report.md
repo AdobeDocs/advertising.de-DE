@@ -1,5 +1,5 @@
 ---
-title: Der [!UICONTROL MSA Network Impression Share Report]
+title: Die [!UICONTROL MSA Network Impression Share Report]
 description: Erfahren Sie mehr über die [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
@@ -10,23 +10,23 @@ ht-degree: 0%
 
 ---
 
-# Der [!UICONTROL MSA Network Impression Share Report]
+# Die [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft Advertising]nur Konten*
+Nur *[!DNL Microsoft Advertising]Konten*
 
-Dieser Bericht zeigt Metriken zur Impressions-Freigabe auf Kampagnenebene und grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen) nach Anzeigenverteilung (Suche oder Zielgruppe) und Netzwerk (z. B. [!DNL Microsoft] Sites und ausgewählten Traffic oder Zielgruppe) für bestimmte [!DNL Microsoft Advertising]-Konten.
+Dieser Bericht zeigt Impression Share-Metriken auf Kampagnenebene und grundlegende Traffic-Metriken (Kosten, Klicks, Impressionen) nach Anzeigenverteilung (Suche oder Zielgruppe) und Netzwerk (z. B. [!DNL Microsoft] Sites und Traffic oder Zielgruppe auswählen) für bestimmte [!DNL Microsoft Advertising]-Konten.
 
-Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der erstellte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.
+Wenn Sie einen Bericht nur mit Metrikspalten und ohne Dimensionen ausführen, enthält der generierte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.
 
-Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten in Echtzeit von [!DNL Microsoft Advertising] ab. Es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen generiert werden.
+Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten in Echtzeit aus [!DNL Microsoft Advertising] ab und es kann mehrere Minuten dauern, bis Berichte mit größerem Datenvolumen erstellt sind.
 
 >[!NOTE]
 >
->Wenn der Bericht eine große Datenmenge enthält, schlägt der Bericht möglicherweise fehl. In diesem Fall führen Sie den Bericht für ein kleineres Zeitintervall aus.
+>Wenn der Bericht eine große Datenmenge enthält, kann der Bericht fehlschlagen. In diesem Fall können Sie den Bericht für ein kleineres Zeitintervall ausführen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -52,7 +52,7 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)
 >* [Berichtsspalten für Sonderberichte](specialty-report-columns.md)

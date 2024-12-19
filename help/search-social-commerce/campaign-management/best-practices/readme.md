@@ -5,7 +5,7 @@ source-wordcount: '19'
 ht-degree: 0%
 
 ---
-# Kapitelname
+# Name des Kapitels
 
 Dies ist der Arbeitsordner für dieses Kapitel.
 

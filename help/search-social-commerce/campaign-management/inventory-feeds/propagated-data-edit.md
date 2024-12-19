@@ -1,6 +1,6 @@
 ---
-title: Aus Feeds generierte Daten bearbeiten
-description: Erfahren Sie, wie Sie Daten bearbeiten, die aus Bestandsdaten-Feeds generiert wurden.
+title: Bearbeiten der von Feeds generierten Daten
+description: Erfahren Sie, wie Sie Daten bearbeiten, die aus Inventardaten-Feeds generiert wurden.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,49 +10,49 @@ ht-degree: 0%
 
 ---
 
-# Aus Feeds generierte Daten bearbeiten
+# Bearbeiten der von Feeds generierten Daten
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Aktionen löschen) und [!DNL Yandex] Konten nur*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
 
-Wenn Sie Feed-Daten propagieren, ohne sie gleichzeitig in das Werbenetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten bearbeiten. Später können Sie optional [Daten ](propagated-data-post.md) von beiden Standorten an die relevanten Anzeigennetzwerke posten:
+Wenn Sie Feed-Daten übertragen, ohne sie gleichzeitig im Anzeigennetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten bearbeiten. Später können Sie optional [Daten](propagated-data-post.md) von beiden Standorten an die entsprechenden Werbenetzwerke senden:
 
-* Wenn Sie die Option für &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, können Sie die generierte Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`&quot;) bearbeiten, indem Sie sie aus der [!UICONTROL Bulksheets]-Ansicht herunterladen, die Datei bearbeiten und erneut hochladen. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, können Sie die generierte Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„) bearbeiten, indem Sie sie aus der [!UICONTROL Bulksheets]-Ansicht herunterladen, die Datei bearbeiten und erneut hochladen. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten.
 
-* Wenn Sie die Option für &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem Status [[!UICONTROL New] status](propagated-data-status.md) in einer Kampagnen-Hierarchieansicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] bearbeiten.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem [[!UICONTROL New] Status ](propagated-data-status.md) einer Kampagnenhierarchieansicht von den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] aus bearbeiten.
 
-  Die Ansichten der Kampagnenhierarchie zeigen nur die aus der Feed-Datei generierten Daten, nicht die vorhandenen Kontokomponenten. Nachdem die Daten für eine Komponente und alle zugehörigen Unterkomponenten in das Werbenetzwerk veröffentlicht wurden, werden sie nicht mehr in der Kampagnenhierarchie aufgeführt.
+  Die Kampagnenhierarchieansichten zeigen nur die aus der Feed-Datei generierten Daten an, nicht die vorhandenen Kontokomponenten. Nachdem Daten für eine Komponente und alle zugehörigen Unterkomponenten an das Werbenetzwerk gesendet wurden, werden sie nicht mehr in der Kampagnenhierarchie aufgeführt.
 
    1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
    1. (Optional) So zeigen Sie nur Kampagnenkomponenten an, die für eine bestimmte Vorlage erstellt wurden:
 
-      1. Klicken Sie auf den Vorlagennamen.
+      1. Klicken Sie auf den Namen der Vorlage.
 
-      1. Erweitern Sie im Menü [!UICONTROL Accounts] im linken Navigationsbereich den Knoten Werbenetzwerk und das Konto für das Anzeigen-Netzwerk und aktivieren Sie dann das Kontrollkästchen neben dem Vorlagennamen.
+      1. Erweitern Sie im Menü [!UICONTROL Accounts] im linken Navigationsbereich den Knoten „Anzeigennetzwerk“ und den Knoten „Anzeigennetzwerkkonto“ und aktivieren Sie dann das Kontrollkästchen neben dem Vorlagennamen.
 
    1. Klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** oder **[!UICONTROL Ads]**, je nachdem, welche Komponenten Sie anzeigen möchten.
 
       >[!NOTE]
       >
-      >* Sofern Sie keine Daten für eine bestimmte Vorlage anzeigen, werden in den Registerkarten [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] alle Anzeigengruppen, Suchbegriffe und Anzeigen aufgelistet, die aus allen Vorlagen und Feed-Dateien erstellt wurden. Für [!DNL Google Ads] -Shopping-Anzeigen verwendete Produktgruppen werden auf der Registerkarte [!UICONTROL Keywords] aufgelistet.
-      >* Um nur die Unterkomponenten einer bestimmten Kampagne anzuzeigen, rufen Sie zunächst den Tab [!UICONTROL Campaigns] auf. Um nur die Unterkomponenten einer bestimmten Anzeigengruppe anzuzeigen, beginnen Sie mit der Anzeige der Registerkarte [!UICONTROL Ad Groups] .
+      >* Sofern Sie keine Daten für eine bestimmte Vorlage anzeigen, werden auf den Registerkarten [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] alle Anzeigengruppen, Keywords und Anzeigen aufgelistet, die aus allen Vorlagen und Feed-Dateien erstellt wurden. Für [!DNL Google Ads] Shopping-Anzeigen verwendete Produktgruppen werden auf der Registerkarte [!UICONTROL Keywords] aufgeführt.
+      >* Um nur die Unterkomponenten einer bestimmten Kampagne anzuzeigen, öffnen Sie zunächst die Registerkarte [!UICONTROL Campaigns] . Um nur die Unterkomponenten einer bestimmten Anzeigengruppe anzuzeigen, zeigen Sie zunächst die Registerkarte [!UICONTROL Ad Groups] an.
 
-   1. (Optional; nur zur Bearbeitung von Anzeigengruppen, Suchbegriffen oder Anzeigen) Filtern Sie die Liste so, dass nur die Unterkomponenten einer bestimmten Kampagne oder Anzeigengruppe einbezogen werden:
+   1. (Optional, um Anzeigengruppen, Keywords oder Anzeigen zu bearbeiten) Filtern Sie die Liste so, dass nur die Unterkomponenten einer bestimmten Kampagne oder Anzeigengruppe enthalten sind:
 
-      * Um alle Anzeigengruppen in einer Kampagne aufzulisten, klicken Sie auf den Kampagnennamen.
+      * Um alle Anzeigengruppen in einer Kampagne aufzulisten, klicken Sie auf den Namen der Kampagne.
 
-      * Um alle Suchbegriffe aus einer Anzeigengruppe aufzulisten, klicken Sie auf den Anzeigengruppennamen.
+      * Um alle Schlüsselwörter in einer Anzeigengruppe aufzulisten, klicken Sie auf den Namen der Anzeigengruppe.
 
-      * Um alle als in einer Anzeigengruppe aufzulisten, klicken Sie auf den Anzeigengruppennamen und dann auf die Registerkarte [!UICONTROL Ads] .
+      * Um alle Anzeigengruppen in einer Anzeigengruppe aufzulisten, klicken Sie auf den Namen der Anzeigengruppe und anschließend auf die Registerkarte [!UICONTROL Ads] .
 
-   1. Klicken Sie neben der Kampagne, Anzeigengruppe, dem Keyword oder dem Anzeigennamen auf [Einstellungssymbol anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Symbol &quot;Einstellungen anzeigen/bearbeiten&quot;") .
+   1. Klicken Sie [ Symbol „Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Symbol „Einstellungen anzeigen/bearbeiten“") neben der Kampagne, der Anzeigengruppe, dem Keyword oder dem Anzeigenamen.
 
    1. Bearbeiten Sie die Einstellungen und klicken Sie dann auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über Inventar-Feeds](inventory-feeds-about.md)
->* [Aus Feeds generierte Daten anzeigen](propagated-data-view.md)
->* [Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke](propagated-data-post.md)
->* [Beenden eines Veröffentlichungsauftrags für Inventar-Feed-Daten](stop-job.md)
->* [Status der aus Feeds generierten Daten](propagated-data-status.md)
+>* [Anzeigen der von Feeds generierten Daten](propagated-data-view.md)
+>* [Post-Kampagnendaten, die von Feeds an Werbenetzwerke generiert werden](propagated-data-post.md)
+>* [Buchungsauftrag für Inventar-Feed-Daten anhalten](stop-job.md)
+>* [Status der von Feeds generierten Daten](propagated-data-status.md)

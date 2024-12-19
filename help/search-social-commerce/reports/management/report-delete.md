@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Berichte löschen
 
-Sie können einen Bericht, der abgeschlossen ist oder noch in Bearbeitung ist, manuell löschen. Berichte werden automatisch 90 Tage nach ihrer Erstellung gelöscht.
+Sie können einen abgeschlossenen oder noch in Bearbeitung befindlichen Bericht manuell löschen. Berichte werden 90 Tage nach ihrer Erstellung automatisch gelöscht.
 
 >[!NOTE]
 >
->Wenn der Bericht mit einer [Vorlage](/help/search-social-commerce/reports/automation/templates/template-about.md) erstellt wurde, löscht das Löschen des Berichts nicht die Vorlage, mit der er erstellt wurde, und hat daher keine Auswirkungen auf zukünftige geplante Berichtsinstanzen. Um einen Berichtsplan zu löschen, [löschen Sie die Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-delete.md).
+>Wenn der Bericht mit einer [Vorlage](/help/search-social-commerce/reports/automation/templates/template-about.md) erstellt wurde, wird beim Löschen des Berichts die zur Erstellung verwendete Vorlage nicht gelöscht und es sind daher keine zukünftigen Berichtsinstanzen betroffen, die geplant sind. Um eine Berichtsplanung zu löschen, [Löschen der Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-delete.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, wodurch die Registerkarte **[!UICONTROL Latest Reports]** geöffnet wird.
 
@@ -29,4 +29,4 @@ Sie können einen Bericht, der abgeschlossen ist oder noch in Bearbeitung ist, m
 >[!MORELIKETHIS]
 >
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)
->* [Bericht anzeigen oder speichern](/help/search-social-commerce/reports/management/report-view-save.md)
+>* [Anzeigen oder Speichern eines Berichts](/help/search-social-commerce/reports/management/report-view-save.md)

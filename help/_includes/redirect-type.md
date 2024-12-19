@@ -5,15 +5,15 @@ source-wordcount: '158'
 ht-degree: 0%
 
 ---
-# Feld Umleitungstyp in Konto- und Kampagneneinstellungen
+# Feld „Weiterleitungstyp“ in den Konto- und Kampagneneinstellungen
 
-**[!UICONTROL Redirect Type]:** (Nur für [!UICONTROL EF Redirect]) Die Methode, Endbenutzer zur endgültigen URL oder Ziel-URL umzuleiten. Die ausgewählte Option gilt für alle Anzeigen, Suchbegriffe und Platzierungen in dem Konto oder der Kampagne. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen und die Standardeinstellung auf Kampagnenebene wird von den Kontoeinstellungen übernommen.
+**[!UICONTROL Redirect Type]:** (Nur für [!UICONTROL EF Redirect]) Die Methode, mit der Endbenutzer zur endgültigen URL oder Ziel-URL weitergeleitet werden. Die ausgewählte Option gilt für alle Anzeigen, Keywords und Platzierungen im Konto oder in der Kampagne. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen, und die Standardeinstellung auf Kampagnenebene wird von den Kontoeinstellungen übernommen.
 
 * *[!UICONTROL Standard]:* Um den Endbenutzer einfach zur angegebenen URL umzuleiten.
 
-* *[!UICONTROL Token]:* Um den Endbenutzer zur URL umzuleiten und auch die Such-, Social- und Commerce-ID für den Klick (`ef_id`) als Abfragezeichenfolgenparameter aufzuzeichnen, der als Token verwendet wird. Wählen Sie diese Option, wenn Sie Offline-Transaktionen melden, von Search, Social und Commerce Daten mit Adobe Analytics austauschen möchten oder alle Konversionen verfolgen möchten, die in [!DNL Apple Safari] -Browsern auftreten.
+* *[!UICONTROL Token]:* Um den Endbenutzer zur URL umzuleiten und auch die ID für Suche, Social und Commerce für den Klick (`ef_id`) als Abfragezeichenfolgenparameter aufzuzeichnen, der als Token verwendet wird. Wählen Sie diese Option aus, wenn Sie Offline-Transaktionen melden, Search, Social und Commerce Daten mit Adobe Analytics austauschen sollen oder alle Konversionen verfolgen möchten, die in [!DNL Apple Safari] Browsern auftreten.
 
-**Notizen:**
+**Hinweise:**
 
-* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] wechseln oder umgekehrt, müssen Sie Tracking-URLs für das Konto neu generieren.
-* Sie können die Einstellung auf Kontoebene auf Kampagnenebene überschreiben.
+* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie die Tracking-URLs für das Konto neu generieren.
+* Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.

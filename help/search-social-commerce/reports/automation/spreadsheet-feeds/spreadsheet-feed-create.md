@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # Erstellen eines Tabellenbericht-Feeds
 
-*Nur für grundlegende Berichte und Berichte zur Modellgenauigkeit*
+*Nur für Basisberichte und Berichte zur Modellgenauigkeit*
 
-Richten Sie Tabellen-Feeds mit speziell formatierten [!DNL Excel] -Tabellenvorlagen ein, die Sie aus normalen Berichtvorlagen erstellen.
+Richten Sie Tabellen-Feeds mit speziell formatierten [!DNL Excel]-Tabellenvorlagen ein, die Sie aus regulären Berichtsvorlagen erstellen.
 
-1. [Erstellen Sie die [!DNL Excel] Vorlage, die mit den Berichtsdaten gefüllt werden soll](spreadsheet-feed-create-excel-template.md).
+1. [Erstellen Sie die  [!DNL Excel] , die mit den Berichtsdaten aufgefüllt werden soll](spreadsheet-feed-create-excel-template.md).
 
-2. Erstellen Sie den Tabellenfeed:
+2. Erstellen des Tabellen-Feeds:
 
    1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
    1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create]**.
 
-   1. Geben Sie im Dialogfeld &quot;**[!UICONTROL Add Spreadsheet Feed]**&quot;die [Tabellen-Feed-Einstellungen ](spreadsheet-feed-settings.md) an.
+   1. Geben Sie im Dialogfeld **[!UICONTROL Add Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ ](spreadsheet-feed-settings.md).
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 
-   1. (Optional) Sobald die [!UICONTROL Update Status] des Feeds den Wert *[!UICONTROL Finished]* hat, klicken Sie neben dem Feed auf **[!UICONTROL XLSX]** und öffnen oder speichern Sie dann die Datei gemäß der üblichen Vorgehensweise Ihres Browsers.
+   1. (Optional) Klicken Sie nach der *[!UICONTROL Finished]* des Feed-[!UICONTROL Update Status] auf **[!UICONTROL XLSX]** neben dem Feed und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers.
 
       >[!NOTE]
       >
       >Wenn die mit dem Feed verknüpfte Berichtsvorlage später gelöscht wird, wird der Feed ebenfalls gelöscht.
 
-      Die Tabellen-Feeds werden jeden Tag automatisch mit dem konfigurierten [!UICONTROL Schedule Time] aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen Benachrichtigungen, wenn die Tabelle aktualisiert wird.
+      Die Tabellen-Feeds werden jeden Tag am konfigurierten [!UICONTROL Schedule Time] automatisch aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen beim Aktualisieren der Tabelle Benachrichtigungen.
 
 >[!MORELIKETHIS]
 >
 >* [Über Tabellenbericht-Feeds](spreadsheet-feed-about.md)
->* [Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
->* [Bearbeiten Sie die Einstellungen des Tabellenbericht-Feeds](spreadsheet-feed-edit.md)
->* [Einstellungen für den Spreadsheet-Bericht](spreadsheet-feed-settings.md)
+>* [Erstellen einer  [!DNL Excel]  für einen Tabellenbericht-Feed](spreadsheet-feed-create-excel-template.md)
+>* [Bearbeiten von Tabellenbericht-Feed-Einstellungen](spreadsheet-feed-edit.md)
+>* [Einstellungen für Tabellenbericht-Feeds](spreadsheet-feed-settings.md)
 >* [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](spreadsheet-feed-view-or-save.md)
->* [Manuelles Aktualisieren von Tabellenbericht-Feeds](spreadsheet-feed-refresh.md)
->* [Löschen von Tabellenbericht-Feeds](spreadsheet-feed-delete.md)
+>* [Tabellenbericht-Feeds manuell aktualisieren](spreadsheet-feed-refresh.md)
+>* [Tabellenbericht-Feeds löschen](spreadsheet-feed-delete.md)

@@ -5,8 +5,8 @@ source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# Angebotsfeld in Anzeigengruppeneinstellungen
+# Angebotsfeld in den Anzeigengruppeneinstellungen
 
-**[!UICONTROL Bid]:** Die maximalen Kosten pro Klick (CPC) für eine Anzeige oder Kosten pro 1000 Impressionen (CPM) für eine Anzeige, je nach Preismodell für Werbenetzwerke und Kampagnen. Gebote auf Suchbegriffebene setzen diesen Wert außer Kraft.
+**[!UICONTROL Bid]:** Die Maximalkosten pro Klick (CPC) für eine Anzeige oder Kosten pro 1000 Impressionen (CPM) für eine Anzeige, wie für das Anzeigennetzwerk- und Kampagnenpreismodell zutreffend. Gebote auf Keyword-Ebene überschreiben diesen Wert.
 
-Wenn sich eine Anzeigengruppe mit einem CPC-Angebot in einem optimierten Portfolio befindet, wird das angegebene Angebot für einen Tag angewendet. Danach platziert die Optimierungsfunktion Gebote nach ihren eigenen Berechnungen.
+Wenn sich eine Anzeigengruppe mit einem CPC-Angebot in einem optimierten Portfolio befindet, wird das angegebene Angebot einen Tag lang angewendet. Anschließend platziert die Optimierungsfunktion Angebote gemäß ihren eigenen Berechnungen.

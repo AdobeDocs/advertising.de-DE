@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] Suchbegriffeinstellungen'
-description: Verweisen Sie auf die Einstellungen für  [!DNL Yahoo! Japan Ads] Keywords.
+title: '[!DNL Yahoo! Japan Ads] Schlüsselworteinstellungen'
+description: Referenzieren Sie die Einstellungen für  [!DNL Yahoo! Japan Ads] -Keywords.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,20 +10,20 @@ ht-degree: 0%
 
 ---
 
-# Einstellungen für [!DNL Yahoo! Japan Ads] Keywords
+# [!DNL Yahoo! Japan Ads] Schlüsselworteinstellungen
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Die Suchbegriffe. Die maximale Länge beträgt 80 Zeichen, einschließlich einer Syntax vom Typ [[!DNL Yahoo! Japan Ads] match type](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) für Suchbegriffe.
+**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge für Schlüsselwörter beträgt 80 Zeichen, einschließlich [[!DNL Yahoo! Japan Ads] Syntax vom Typ Übereinstimmung](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) für Schlüsselwörter.
 
-Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrere Suchbegriffe durch Kommas oder geben Sie sie in separate Zeilen ein.
+Sie können bis zu 2.000 Keywords eingeben oder einfügen. Trennen Sie mehrere Keywords durch Kommas oder geben Sie sie in separaten Zeilen ein.
 
 >[!NOTE]
 >
->* Sie können negative Suchbegriffe aus der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie aus den Anzeigengruppen- und Kampagneneinstellungen erstellen.
->* Yahoo! japanische Schlüsselwörter und Übereinstimmungstypen sind veränderlich, d. h. Sie können sie bearbeiten, ohne den vorhandenen Suchbegriff zu löschen.
+>* Negative Keywords können in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie in den Anzeigengruppen- und Kampagneneinstellungen erstellt werden.
+>* Yahoo! Japan-Schlüsselwörter und Übereinstimmungstypen sind veränderlich, d. h. Sie können sie bearbeiten, ohne das vorhandene Schlüsselwort zu löschen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Der Standardwert für neue Suchbegriffe ist *aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus des Keywords: *Aktiv* oder *Paused*. Der Standardwert für neue Keywords ist *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -33,9 +33,9 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 
 ## Platzhalter
 
-**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet wird, wenn die Basis-URL oder die Tracking-Vorlage den benutzerdefinierten Parameter `{param1}` [4} enthält.](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)
+**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param1}`benutzerdefinierten Parameter[ enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet wird, wenn die Basis-URL oder die Tracking-Vorlage den benutzerdefinierten Parameter `{param2}` [4} enthält.](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US)
+**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param2}`benutzerdefinierten Parameter[ enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-Optionen
 
@@ -49,4 +49,4 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 
 >[!MORELIKETHIS]
 >
->* [Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Schlüsselwörter verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

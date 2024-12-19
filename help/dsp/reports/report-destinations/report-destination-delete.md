@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Löschen eines Berichtsziels
 
-Das Löschen eines Berichtsziels wirkt sich auf den Versand aller verknüpften benutzerspezifischen Berichte aus.
+Das Löschen eines Berichtsziels wirkt sich auf die Bereitstellung aller verknüpften benutzerdefinierten Berichte aus.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
@@ -22,7 +22,7 @@ Das Löschen eines Berichtsziels wirkt sich auf den Versand aller verknüpften b
 
 >[!MORELIKETHIS]
 >
->* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Über [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)

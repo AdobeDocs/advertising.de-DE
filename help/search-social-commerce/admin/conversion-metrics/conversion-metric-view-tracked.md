@@ -1,6 +1,6 @@
 ---
 title: Anzeigen der für einen Advertiser verfolgten Konversionsmetriken
-description: Erfahren Sie, wie Sie eine Liste der für einen Advertiser verfolgten Konversionsmetriken anzeigen können.
+description: Erfahren Sie, wie Sie eine Liste der für einen Advertiser verfolgten Konversionsmetriken anzeigen.
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Anzeigen der für einen Advertiser verfolgten Konversionsmetriken
 
-Sie können eine Liste aller [Konversionsmetriken](/help/search-social-commerce/glossary.md#c-d) anzeigen, die von Adobe Advertising für einen Advertiser verfolgt wurden. Jede Metrikzeile enthält die Quelle der Metrik.
+Sie können eine Liste aller Konversions[-Metriken anzeigen](/help/search-social-commerce/glossary.md#c-d) die Adobe Advertising für einen Advertiser verfolgt hat. Jede Metrikzeile enthält die Quelle der Metrik.
 
 * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
-Alle Konversionsmetriken, die für den Advertiser erfasst wurden, sowie alle anderen ihnen zugewiesenen Anzeigenamen werden aufgelistet.
+Es werden alle für den Advertiser erfassten Konversionsmetriken und alle ihnen zugewiesenen Anzeigenamen aufgelistet.
 
 >[!TIP]
 >
->Sobald der Advertiser (oder das Werbenetzwerk) die Erfassung einer Konversionsmetrik beendet hat, verbergen [ihn vor Verwaltungsansichten und Berichten](conversion-metric-edit-available.md) , es sei denn, Sie möchten damit historische Daten anzeigen.
+>Sobald der Advertiser (oder das Werbenetzwerk) die Erfassung einer Konversionsmetrik beendet hat, [blenden Sie sie aus den Verwaltungsansichten und Berichten aus](conversion-metric-edit-available.md) es sei denn, Sie möchten sie für die Anzeige historischer Daten verwenden.
 
 >[!MORELIKETHIS]
 >
->* [Über die Verwaltung der Konversionsmetriken eines Advertisers](conversion-metric-about.md)
->* [Ändern der in Verwaltungsansichten und Berichten verfügbaren Konversionsmetriken](conversion-metric-edit-available.md)
->* [Anzeigenamen für eine Konversionsmetrik ändern](conversion-metric-edit-display-name.md)
+>* [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](conversion-metric-about.md)
+>* [Ändern der Konversionsmetriken, die in Verwaltungsansichten und -berichten verfügbar sind](conversion-metric-edit-available.md)
+>* [Ändern des Anzeigenamens für eine Konversionsmetrik](conversion-metric-edit-display-name.md)

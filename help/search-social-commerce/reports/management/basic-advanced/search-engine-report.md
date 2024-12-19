@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL Search Engine Report]
 
-Der [!UICONTROL Search Engine Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für ein oder mehrere Werbenetzwerke. Standardmäßig enthalten die Daten eine Zeile für jedes relevante Anzeigennetzwerk für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen werden in aufsteigender Reihenfolge zuerst nach Anzeigennetzwerk und dann standardmäßig nach Startdatum für die Zeiteinheit sortiert. Optional können Sie detailliertere Informationen abrufen, z. B. separate Zeilen für jedes Konto, jede Kampagne, jede Angebotsstrategie, jede Währung und jedes Gerät.
+Die [!UICONTROL Search Engine Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für ein oder mehrere Werbenetzwerke. Standardmäßig enthalten die Daten eine Zeile für jedes anwendbare Anzeigennetzwerk für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge angeordnet, zuerst nach Anzeigennetzwerk und dann standardmäßig nach dem Startdatum für die Zeiteinheit. Sie können optional detailliertere Informationen abrufen, z. B. separate Zeilen für jedes Konto, jede Kampagne, jede Bid-Strategie, jede Währung und jedes Gerät.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Search Engine]
 * [!UICONTROL Start Date]
@@ -36,4 +36,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

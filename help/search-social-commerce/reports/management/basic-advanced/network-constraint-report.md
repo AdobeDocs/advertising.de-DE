@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL Network Constraint Report]
 
-Die [!UICONTROL Network Constraint Report] zeigt alle angegebenen minimalen und maximalen Werbenetzwerk-Budgets sowie die tatsächlichen Ausgaben (Kosten) an. Der Bericht enthält Kosten-, Klick-, Impression-, Durchsichts- und (optional) Konversionsdaten für ein oder mehrere Portfolios. Standardmäßig enthalten die Daten eine Zeile für jedes zutreffende Ad-Network-Konto im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Portfolio und dann nach Anzeigennetzwerk.
+Die [!UICONTROL Network Constraint Report] zeigt alle festgelegten minimalen und maximalen Werbenetzwerkbudgets sowie die tatsächlichen Ausgaben (Kosten). Der Bericht enthält Kosten-, Klick-, Impression-, Durchsichts- und (optional) Konversionsdaten für ein oder mehrere Portfolios. Standardmäßig enthalten die Daten eine Zeile für jedes anwendbare Anzeigennetzwerk-Konto im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge zuerst nach Portfolio und dann nach Anzeigennetzwerk.
 
-Daten sind ab dem 15. Oktober 2022 verfügbar.<!-- [Later: You can view data for the previous NN days.] -->
+Die Daten sind ab dem 15. Oktober 2022 verfügbar.<!-- [Later: You can view data for the previous NN days.] -->
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Portfolio Group Name]
@@ -39,4 +39,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

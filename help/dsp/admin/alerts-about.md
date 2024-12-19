@@ -1,5 +1,5 @@
 ---
-title: Über Warnungsanmeldungen
+title: Über Warnhinweis-Abonnements
 description: Erfahren Sie mehr über automatische E-Mail-Warnungen.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
@@ -10,17 +10,17 @@ ht-degree: 0%
 
 ---
 
-# Über Warnungsanmeldungen
+# Über Warnhinweis-Abonnements
 
-Sie können Gruppen von automatischen E-Mail-Warnungen erstellen, so genannte Abonnements, die E-Mail-Benachrichtigungen senden, wenn die festgelegten Parameter für Konto, Kampagne, Anzeige und private Lagerbestandsgeschäfte erfüllt sind.
+Sie können Gruppen von automatischen E-Mail-Warnhinweisen, so genannten Abonnements, erstellen, die E-Mail-Benachrichtigungen senden, wenn bestimmte Konto-, Kampagnen-, Anzeigen- und private Inventar-Abschlussparameter erfüllt sind.
 
-Sie können beispielsweise eine Warnung erhalten, wenn eine Kampagne einen bestimmten Betrag ihres Budgets ausgegeben hat. Sie können auch eine Warnung erhalten, wenn ein privater Lagerbestandsgeschäft in den letzten N Tagen weniger als eine bestimmte Gewinnrate erzielt hat.
+Sie können beispielsweise einen Warnhinweis erhalten, wenn eine Kampagne einen bestimmten Betrag ihres Budgets ausgegeben hat. Sie können auch einen Warnhinweis erhalten, wenn ein privates Inventargeschäft in den letzten N Tagen weniger als eine bestimmte Gewinnrate erhalten hat.
 
-Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, die Benutzer bearbeiten, die E-Mail-Benachrichtigungen für ein Abonnement erhalten, Warnhinweis-Abonnements deaktivieren und erneut aktivieren sowie Warnhinweis-Abonnements löschen.
+Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, die Benutzer bearbeiten, die E-Mail-Benachrichtigungen für ein Abonnement erhalten, Warnhinweis-Abonnements deaktivieren und wieder aktivieren und Warnhinweis-Abonnements löschen.
 
 >[!TIP]
 >
-> Wenn Sie Kampagnenberichte nicht aktiv überprüfen, richten Sie nach dem Start einer Kampagne so bald wie möglich E-Mail-Berichte ein.
+> Wenn Sie Kampagnenberichte nicht aktiv überprüfen, richten Sie E-Mail-Berichte so bald wie möglich nach dem Start einer Kampagne ein.
 
 ## Verfügbare Warnhinweise
 
@@ -28,7 +28,7 @@ Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, 
 
    * Kontostand
 
-   * Kontenausgaben
+   * Kontoausgaben
 
    * Neue Kampagne erstellt
 
@@ -38,21 +38,21 @@ Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, 
 
    * Kampagnenausgaben
 
-   * Kampagnenausgaben in % der Obergrenze
+   * Kampagnenausgaben % der Obergrenze
 
-   * Keine Kampagnenimpressionen
+   * Keine Kampagnen-Impressions
 
    * Campaign eCPM
 
 * Anzeigen
 
-   * Zurückweisungen von Anzeigen
+   * Zurückweisungen hinzufügen
 
-* Feeds (Private Inventory Deals)
+* Feeds (Angebote für private Inventare)
 
-   * Feed-Win-Rate
+   * Zustellrate
 
-   * Feed-Angebotsrate
+   * Gebotszins
 
    * Keine Feed-Ausgaben
 
@@ -62,4 +62,4 @@ Sie können Warnhinweise zu einem Abonnement hinzufügen oder daraus entfernen, 
 
 >[!MORELIKETHIS]
 >
->[Warnhinweisanmeldungen verwalten](alerts-manage.md)
+>[Verwalten von Warnhinweis-Abonnements](alerts-manage.md)

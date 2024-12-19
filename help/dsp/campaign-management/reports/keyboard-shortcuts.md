@@ -1,6 +1,6 @@
 ---
 title: Tastaturbefehle
-description: Referenzieren Sie die in den Platzierungseinstellungen verfügbaren Tastaturbefehle.
+description: Verweisen Sie auf die in den Platzierungseinstellungen verfügbaren Tastaturbefehle.
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
 source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # Tastaturbefehle
 
-Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu navigieren.<!-- and to create ads and placements -->
+Verwenden Sie in Platzierungseinstellungen Tastaturbefehle, um schnell zu navigieren<!-- and to create ads and placements -->.
 
-| Gültige Seite(n) | Tastaturbefehl | Beschreibung |
+| Entsprechende Seite(n) | Tastaturbefehl | Beschreibung |
 | ---------------| ----------- | ---------------------- |
-| Platzierungseinstellungen | o | Verschiebt Sie in die Einstellungen für [!UICONTROL Goals] . |
-| Platzierungseinstellungen | g | Verschiebt Sie in die Einstellungen für [!UICONTROL Geos] . |
-| Platzierungseinstellungen | i | Verschiebt Sie in die Einstellungen für [!UICONTROL Inventory] . |
-| Platzierungseinstellungen | s | Verschiebt Sie in die Einstellungen für [!UICONTROL Sites] . |
-| Platzierungseinstellungen | a | Verschiebt Sie in die Einstellungen für [!UICONTROL Audience] . |
-| Platzierungseinstellungen | b | Verschiebt Sie in die Einstellungen für [!UICONTROL Brand Safety] . |
-| Platzierungseinstellungen | t | Verschiebt Sie in die Einstellungen für [!UICONTROL Tracking] . |
-| Platzierungseinstellungen | l | Verschiebt Sie in die Einstellungen für [!UICONTROL Adobe Labs] . |
+| Platzierungseinstellungen | o | Wechselt zu den [!UICONTROL Goals] |
+| Platzierungseinstellungen | g | Wechselt zu den [!UICONTROL Geos] |
+| Platzierungseinstellungen | i | Wechselt zu den [!UICONTROL Inventory] |
+| Platzierungseinstellungen | s | Wechselt zu den [!UICONTROL Sites] |
+| Platzierungseinstellungen | a | Wechselt zu den [!UICONTROL Audience] |
+| Platzierungseinstellungen | B | Wechselt zu den [!UICONTROL Brand Safety] |
+| Platzierungseinstellungen | t | Wechselt zu den [!UICONTROL Tracking] |
+| Platzierungseinstellungen | l | Wechselt zu den [!UICONTROL Adobe Labs] |
 
 {style="table-layout:auto"}
 
@@ -34,6 +34,6 @@ Verwenden Sie in den Platzierungseinstellungen Tastaturbefehle, um schnell zu na
 
 >[!MORELIKETHIS]
 >
->* [Erstellen einer Platzierung](/help/dsp/campaign-management/placements/placement-create.md)
+>* [Platzierung erstellen](/help/dsp/campaign-management/placements/placement-create.md)
 >* [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

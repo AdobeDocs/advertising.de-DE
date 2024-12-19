@@ -1,6 +1,6 @@
 ---
-title: Info [!UICONTROL Report Destinations]
-description: Erfahren Sie mehr über die Verwaltung der Versandspeicherorte für Ihre benutzerspezifischen Berichte.
+title: Über [!UICONTROL Report Destinations]
+description: Erfahren Sie mehr über die Verwaltung von Versandspeicherorten für Ihre benutzerspezifischen Berichte.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# Info [!UICONTROL Report Destinations]
+# Über [!UICONTROL Report Destinations]
 
-Sie können Versandspeicherorte mit dem Namen *[!DNL report destinations]* für Ihre benutzerspezifischen Berichte erstellen und verwalten. Nachdem Sie die Berichtsziele konfiguriert haben, können Sie jeden Ihrer benutzerspezifischen Berichte so einrichten, dass er an eine oder mehrere Stellen eines einzelnen Zieltyps bereitgestellt wird. Nach dem Speichern eines Berichts können Sie den Zieltyp nicht mehr ändern.
+Sie können Versandspeicherorte, so genannte *[!DNL report destinations]*, für Ihre benutzerspezifischen Berichte erstellen und verwalten. Nachdem Sie die Berichtsziele konfiguriert haben, können Sie jeden Ihrer benutzerdefinierten Berichte so einrichten, dass er an einen oder mehrere Standorte eines einzelnen Zieltyps gesendet wird. Nachdem Sie einen Bericht gespeichert haben, können Sie den Zieltyp nicht mehr ändern.
 
-## Verfügbar [!UICONTROL Destination Types]
+## [!UICONTROL Destination Types] verfügbar
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* FTP-SSL (in der Beta-Version)
+* FTP-SSL (in der Betaversion)
 
 >[!NOTE]
 >
-> Sie können Ihre benutzerspezifischen Berichte auch an E-Mail-Empfänger senden, für die kein gespeichertes Berichtsziel erforderlich ist. Sie können in den Berichtseinstellungen E-Mail-Empfänger anstelle gespeicherter Ziele angeben.
+> Sie können Ihre benutzerdefinierten Berichte auch an E-Mail-Empfänger senden, für die kein gespeichertes Berichtsziel erforderlich ist. Sie können in den Berichtseinstellungen E-Mail-Empfänger anstelle gespeicherter Ziele angeben.
 
-## Die Ansicht [!UICONTROL Report Destinations]
+## Die [!UICONTROL Report Destinations]
 
-Die Ansicht &quot;[!UICONTROL Report Destinations]&quot; zeigt alle vorhandenen Ziele und die Anzahl der miteinander verknüpften Berichte an. Sie können die Liste nach Zieltyp filtern.
+Die [!UICONTROL Report Destinations] Ansicht zeigt alle Ihre vorhandenen Ziele und die Anzahl der mit jedem verknüpften Berichte an. Sie können die Liste nach Zieltyp filtern.
 
-In dieser Ansicht können Sie neue Ziele erstellen sowie vorhandene Ziele bearbeiten und löschen.
+Sie können in dieser Ansicht neue Ziele erstellen und vorhandene Ziele bearbeiten und löschen.
 
 >[!NOTE]
 >
->Die Aktualisierung der Anmeldeinformationen für Ihre vorhandenen Berichtsziele unterbricht die Berichtbereitstellung nicht, solange die Anmeldeinformationen gültig sind.
+>Durch die Aktualisierung der Anmeldeinformationen für Ihre vorhandenen Berichtsziele wird die Berichtsbereitstellung nicht unterbrochen, solange die Anmeldeinformationen gültig sind.
 
 ![Berichtsziele](/help/dsp/assets/report-destinations.png)
 

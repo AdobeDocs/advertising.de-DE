@@ -1,6 +1,6 @@
 ---
-title: Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto
-description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads] oder [!DNL Microsoft Advertising] Konto angewendet wurde.
+title: Empfehlungsprotokoll des Herausgebers für ein Konto anzeigen
+description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein - oder - [!DNL Google Ads]  angewendet  [!DNL Microsoft Advertising] .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Empfehlungen für ein Konto anzeigen
+# Anzeigen der Publisher-Empfehlungen für ein Konto
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Sie können ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads] - oder [!DNL Microsoft Advertising] -Konto angewendet wurde. Zu den Informationen gehören die Empfehlungskategorie, der Empfehlungstyp, die betroffenen Entitäten, der Benutzer, der die Empfehlung angewendet hat, und der Zeitstempel.
+Sie können ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads]- oder [!DNL Microsoft Advertising]-Konto angewendet wurde. Zu den Informationen gehören die Empfehlungskategorie, der Empfehlungstyp, die betroffenen Entitäten, der Benutzer, der die Empfehlung angewendet hat, und der Zeitstempel.
 
-Die verworfenen Empfehlungen sind nicht im Werbenetzwerk verfügbar.
+Abgelehnte Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
@@ -26,8 +26,8 @@ Die verworfenen Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 
 >[!MORELIKETHIS]
 >
->* [Informationen zur Unterstützung von Publisher-Empfehlungen und Insights](recommendation-support.md)
+>* [Über die Unterstützung von Publisher-Empfehlungen und -Einblicken](recommendation-support.md)
 >* [Empfehlungen und Leistungseinblicke des Herausgebers anzeigen](recommendation-view.md)
->* [Eine Empfehlung für Herausgeber anwenden oder verwerfen](recommendation-apply-dismiss.md)
+>* [Eine Publisher-Empfehlung anwenden oder verwerfen](recommendation-apply-dismiss.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)
 

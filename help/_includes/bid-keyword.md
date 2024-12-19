@@ -5,8 +5,8 @@ source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# Angebotsfeld in Suchbegriffeinstellungen
+# Angebotsfeld in den Keyword-Einstellungen
 
-**[!UICONTROL Bid]:** Die maximalen Kosten pro Klick (CPC) für eine Anzeige oder Kosten pro 1000 Impressionen (CPM) für eine Anzeige, die den Suchbegriff verwendet, sofern für das Anzeigennetzwerk und das Kampagnenpreismodell zutreffend. Dieser Wert überschreibt den Wert auf Anzeigengruppenebene.
+**[!UICONTROL Bid]:** Die Maximalkosten pro Klick (CPC) für eine Anzeige oder Kosten pro 1000 Impressionen (CPM) für eine Anzeige unter Verwendung des Keywords, wie für das Anzeigennetzwerk- und Kampagnenpreismodell zutreffend. Dieser Wert überschreibt den Wert auf Anzeigengruppenebene.
 
-Wenn sich ein CPM-Suchbegriff in einem optimierten Portfolio befindet, wird das angegebene Angebot für einen Tag angewendet. Danach platziert die Optimierungsfunktion Gebote nach ihren eigenen Berechnungen.
+Wenn sich ein CPM-Keyword in einem optimierten Portfolio befindet, wird das angegebene Angebot einen Tag lang angewendet. Anschließend platziert die Optimierungsfunktion Angebote gemäß ihren eigenen Berechnungen.

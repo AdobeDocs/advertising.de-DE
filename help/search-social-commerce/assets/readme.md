@@ -7,4 +7,4 @@ ht-degree: 7%
 ---
 # Assets
 
-Dies ist der Arbeitsordner für alle Bild-/Datei-Assets für dieses Handbuch.
+Dies ist der Arbeitsordner für alle Bild-/Datei-Assets in diesem Handbuch.

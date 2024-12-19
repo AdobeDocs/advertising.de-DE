@@ -5,24 +5,24 @@ source-wordcount: '211'
 ht-degree: 0%
 
 ---
-# Textanzeigenvorlage - Standorte
+# Text und Vorlage - Speicherorte
 
-**[!UICONTROL Locations]:** (Alle Anzeigennetzwerke außer [!DNL Yandex]) Die geografischen Positionen, an denen Anzeigen platziert werden sollen:
+**[!UICONTROL Locations]:** (Alle Werbenetzwerke außer [!DNL Yandex]) Die geografischen Orte, an denen Anzeigen platziert werden sollen:
 
-* *[!UICONTROL Target all locations]* oder *[!UICONTROL Target entire market]* (Standardeinstellung für neue Kampagnen): Um Anzeigen an allen Positionen für die angegebene Sprache zu platzieren.
+* *[!UICONTROL Target all locations]* oder *[!UICONTROL Target entire market]* (Standard für neue Kampagnen): Platzieren von Anzeigen an allen Speicherorten für die angegebene Sprache.
 
-* *[!UICONTROL Target specified locations]:* So beschränken Sie die Anzeigenplatzierung auf bestimmte geografische Regionen oder ([!DNL Google Ads] und [!DNL Yahoo! Japan Ads]) schließen die Anzeigenplatzierung an bestimmten geografischen Standorten aus. Für [!DNL Google Ads]-Kampagnen können Sie optional Angebotsanpassungen für jeden Ort hinzufügen, den Sie einbeziehen.
+* *[!UICONTROL Target specified locations]:* Um die Anzeigenplatzierung auf bestimmte geografische Regionen zu beschränken oder (nur [!DNL Google Ads] und [!DNL Yahoo! Japan Ads]) die Anzeigenplatzierung an bestimmten geografischen Orten auszuschließen. Für [!DNL Google Ads] Kampagnen können Sie optional Angebotsanpassungen für jeden Standort hinzufügen, den Sie einbeziehen.
 
-   * (Um bestimmte Orte als Ziel festzulegen oder auszuschließen) Suchen Sie die Position oder Unterposition und ziehen Sie sie in das Feld **[!UICONTROL Locations Included]** oder ([!DNL Google Ads] und [!DNL Yahoo! Japan Ads] nur) in das Feld **[!UICONTROL Locations Excluded]**.
+   * (Um bestimmte Orte anzusprechen oder auszuschließen) Suchen Sie den Ort oder Unterort und ziehen Sie ihn in das Feld **[!UICONTROL Locations Included]** oder (nur [!DNL Google Ads] und [!DNL Yahoo! Japan Ads]) in das Feld **[!UICONTROL Locations Excluded]**.
 
-     Um die Unterkomponenten eines Elements in der Liste aufzulisten (z. B. die Bundesstaaten, Metropolregionen oder Städte in den USA), klicken Sie auf das Element.
+     Um die Unterkomponenten eines Elements in der Liste (z. B. die Bundesstaaten, Metropolregionen oder Städte in den USA) aufzulisten, klicken Sie auf das Element.
 
-     Um nach einer Position zu suchen, beginnen Sie mit der Eingabe des Ortsnamens in das Suchfeld. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Add]** neben einer Position, die eingeschlossen werden soll, oder auf **[!UICONTROL Exclude]** neben einer Position, die ausgeschlossen werden soll.
+     Um nach einem Speicherort zu suchen, geben Sie den Speicherort-Namen in das Suchfeld ein. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Add]** neben einem einzuschließenden Speicherort oder auf **[!UICONTROL Exclude]** neben einem auszuschließenden Speicherort.
 
-   * ([!DNL Google Ads] Nur; Um eine Angebotsanpassung für einen eingeschlossenen Zielort hinzuzufügen) Klicken Sie auf einen Angebotsanpassungswert (standardmäßig &quot;[!UICONTROL No Adj]&quot;), geben Sie den Wert ein und klicken Sie auf **[!UICONTROL OK]**. **Hinweis:** Bei [!DNL Google Ads] Kampagnen in Standard-Portfolios optimieren Search, Social und Commerce keine Angebote durch Standortanpassungen.
+   * (Nur [!DNL Google Ads]; um eine Angebotsanpassung für einen eingeschlossenen Zielspeicherort hinzuzufügen) Klicken Sie auf einen Angebotsanpassungswert (standardmäßig &quot;[!UICONTROL No Adj]„), geben Sie den Wert ein und klicken Sie auf &quot;**[!UICONTROL OK]**&quot;. **Hinweis:** Für [!DNL Google Ads]-Kampagnen in Standardportfolios optimiert Search, Social und Commerce keine Angebote mithilfe von Standortangebotsanpassungen.
 
-     Die Werte können Folgendes umfassen:
+     Werte können Folgendes beinhalten:
 
-      * *[!UICONTROL 0%]:* So passen Sie keine Angebote für Anzeigen an dieser Position an.
+      * *[!UICONTROL 0%]:* Um Gebote für Anzeigen an diesem Speicherort nicht anzupassen.
 
-      * \[Andere Werte von -90 % bis 300 %\]: Um das Angebot für Anzeigen an diesem Ort zu erhöhen oder zu verringern.
+      * \[Andere Werte von -90% bis 300%\]: Erhöhen oder Verringern des Angebots für Anzeigen an diesem Ort.

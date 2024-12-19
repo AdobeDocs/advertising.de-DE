@@ -1,5 +1,5 @@
 ---
-title: Neusortieren einer Spalte
+title: Spalte neu sortieren
 description: Erfahren Sie, wie Sie Spalten neu sortieren.
 exl-id: 934e1f7e-a34d-4973-8219-27876cf50f0f
 feature: Search Common Tasks, Search Custom Data Views
@@ -10,12 +10,12 @@ ht-degree: 0%
 
 ---
 
-# Neusortieren einer Spalte
+# Spalte neu sortieren
 
-1. (Wenn verfügbar) Klicken Sie rechts neben der Spaltenüberschrift auf ![Nach-unten-Pfeil](/help/search-social-commerce/assets/arrow-down-expand.png "Nach-unten-Pfeil").
+1. (falls verfügbar) Klicken Sie rechts neben der Spaltenüberschrift auf ![Pfeil nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Pfeil nach unten").
 
 1. Wählen Sie die Sortieroption aus:
 
-   * *Aufsteigende Sortierung* (A bis Z oder 1 bis 10)
+   * *Aufsteigend sortieren* (A bis Z oder 1 bis 10)
 
-   * *Absteigende Sortierung* (Z nach A oder 10 nach 1)
+   * *Absteigend sortieren* (Z zu A oder 10 zu 1)

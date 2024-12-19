@@ -1,6 +1,6 @@
 ---
-title: Über Adobe Advertising von Konversions-Tracking-Tags
-description: Erfahren Sie mehr über die Verwendung der Adobe Advertising-Konversions-Tracking-Tags.
+title: Über das Adobe Advertising von Konversionsverfolgungstags
+description: Erfahren Sie mehr über die Verwendung der Adobe Advertising-Konversionsverfolgungstags.
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,53 +10,53 @@ ht-degree: 0%
 
 ---
 
-# Über Adobe Advertising von Konversions-Tracking-Tags
+# Über das Adobe Advertising von Konversionsverfolgungstags
 
-Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren, mithilfe von Adobe Advertising-Konversions-Tracking-Tags, die in Webseiten eingefügt werden, die geöffnet werden, wenn ein Konversionsereignis auftritt, z. B. eine &quot;Erfolgsseite&quot;. Die Tags enthalten eingebettete Informationen zum Senden der Transaktionsdaten zusammen mit dem Adobe Advertising-Cookie des Benutzers an einen Tracking-Server, von dem aus die Transaktion dem entsprechenden Anzeigenklick oder der entsprechenden Impression gutgeschrieben wird (gemäß den Konversions-Attributionseinstellungen des Advertisers).
-
->[!NOTE]
->
->Wenn der Benutzer über kein gültiges Cookie verfügt, meldet Adobe Advertising die Konversion nicht.
-
-Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Geben Sie dem Werber oder der Agentur die Tags mit einer Liste von Webseiten an, auf denen jede Seite eingefügt werden soll. Sie können einen der folgenden Konversions-Tagtypen generieren. Anweisungen finden Sie unter &quot;[Generate an Adobe Advertising Conversion Tag](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;.
-
-* (Empfohlen) JavaScript-Tags (Version 3 oder Version 2), die nicht auf den Webseiten sichtbar sind.
-
-* HTML von Bild-Tags zur Anzeige transparenter Bilder (Pixel) mit einer Auflösung von 1 Pixel x 1 Pixel, die für Endbenutzer unsichtbar sind. Verwenden Sie Bild-Tags nur, wenn das Unternehmen eine Richtlinie gegen die Verwendung von JavaScript-Tags hat.
-
-Weitere Informationen zu den Unterschieden zwischen den Tag-Typen finden Sie unter &quot;[FAQs zu Advertising Cloud-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;.
+Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren, mithilfe von Adobe Advertising-Konversionsverfolgungstags, die in die Web-Seiten eingefügt werden, die geöffnet werden, wenn ein Konversionsereignis auftritt, z. B. eine „Erfolgsseite“. Die Tags enthalten eingebettete Informationen, um die Transaktionsdaten zusammen mit dem Adobe Advertising-Cookie des Benutzers an einen Tracking-Server zu senden, von dem aus die Transaktion dem entsprechenden Anzeigenklick oder der Impression gutgeschrieben wird (gemäß den Konversionszuordnungseinstellungen des Advertisers).
 
 >[!NOTE]
 >
->* Mit dieser Funktion werden den Webseiten des Advertisers keine Bild-Tags oder JavaScript-Tags hinzugefügt. Die Tags müssen entsprechend der üblichen Vorgehensweise des Werbetreibenden zur Aktualisierung von Webseiten hinzugefügt werden.
->* Achten Sie darauf, wie lange die Implementierung der Tags dauert. Abhängig von den Richtlinien des Unternehmens kann die Implementierung Wochen oder sogar Monate dauern.
+>Wenn der Benutzer kein gültiges Cookie hat, meldet Adobe Advertising die Konversion nicht.
 
-## Funktionen der Adobe Advertising-Konversions-Tracking-Tags
+Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Stellen Sie dem Werbetreibenden oder der Agentur die Tags mit einer Liste von Web-Seiten zur Verfügung, auf denen jeder Tag eingefügt werden soll. Sie können einen der folgenden Typen von Konversions-Tags generieren. Anweisungen finden [ unter „Generieren eines Adobe Advertising-](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;.
 
-Das Konversions-Tracking-Pixel ermöglicht Adobe Advertising Folgendes:
+* (Empfohlen) JavaScript-Tags (Version 3 oder Version 2), die nicht auf den Web-Seiten sichtbar sind.
 
-* Verfolgen und melden Sie Konversionsdaten auf Suchbegriffebene für Suchkampagnen.
+* HTML von Bild-Tags zur Anzeige von 1 Pixel x 1 Pixel großen transparenten Bildern (Pixeln), die für Endbenutzer unsichtbar sind, auf den Web-Seiten. Verwenden Sie Bild-Tags nur, wenn das Unternehmen eine Richtlinie gegen die Verwendung von JavaScript-Tags hat.
 
-* Verfolgen und melden Sie Konversionsdaten auf Anzeigenebene (kreativ) über alle Marketing-Kanäle (Paid Search und Display) hinweg, was kreative Tests erleichtern kann.
+Weitere Informationen zu den Unterschieden zwischen den Tag-Typen finden Sie unter [Häufig gestellte Fragen zu Advertising Cloud-Konversionsverfolgungstags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
 
-* Verfolgen und melden Sie Konversionsdaten auf Transaktionsebene über alle Marketing-Kanäle hinweg.
+>[!NOTE]
+>
+>* Mit dieser Funktion werden den Web-Seiten des Werbetreibenden keine Bild-Tags oder JavaScript-Tags hinzugefügt. Die Tags müssen gemäß dem üblichen Verfahren des Advertisers zur Aktualisierung von Web-Seiten hinzugefügt werden.
+>* Stellen Sie sicher, dass Sie überlegen, wie lange es dauert, die Tags zu implementieren. Abhängig von den Richtlinien des Unternehmens kann die Implementierung Wochen oder sogar Monate dauern.
 
-* Zeigen Sie, wie Ihre Konversionen auf die verschiedenen Marketing-Kanäle verteilt sind, damit Sie sehen können, welche am effektivsten ist.
+## Funktionen der Adobe Advertising-Konversionsverfolgungstags
 
-* Berichte und Optimierungen auf unterschiedlichen Attributionsebenen (z. B. Zuordnung von Konversionen zum letzten verwandten Ereignis oder ausgewogene Gewichtung aller Ereignisse).
+Mit dem Konversionsverfolgungspixel kann Adobe Advertising Folgendes tun:
 
-* Bieten Sie Sichtbarkeit auf Klick-Assistenten (Suchbegriffe oder Platzierungen, die zu einem Konversionstrichter beigetragen haben) und Kanalassistenten (Benutzerereignisse, die zu einem Konversionstrichter beigetragen haben, möglicherweise über mehrere Marketing-Kanäle hinweg).
+* Konversionsdaten für Suchkampagnen auf Keyword-Ebene verfolgen und melden.
 
-* Zeigen Sie die geografische Verteilung und die Referrer-Domänen Ihres Site-Traffics und Ihrer Konversionen an, damit Sie Ihr geografisches Ziel und das Website-Targeting verfeinern können.
+* Konversionsdaten auf Anzeigenebene (kreativ) über alle Marketing-Kanäle (Paid Search und Display) verfolgen und melden, was kreative Tests erleichtern kann.
 
-* Analysieren Sie Wochentagstrends oder Intra-Tagestrends, die zur Verbesserung der Konversionsraten verwendet werden können.
+* Konversionsdaten auf Transaktionsebene über alle Marketing-Kanäle verfolgen und melden.
+
+* Zeigen Sie, wie Ihre Konversionen auf Ihre verschiedenen Marketing-Kanäle verteilt sind, damit Sie sehen können, welche am effektivsten ist.
+
+* Berichte und Optimierungen für verschiedene Attributionsebenen erstellen (z. B. Zuweisung von Konversionen zum letzten zugehörigen Ereignis oder gleichmäßige Gewichtung aller Ereignisse).
+
+* Sichtbarkeit bei Klickassistenten (Suchbegriffe oder Platzierungen, die zu einem Konversionstrichter beigetragen haben) und Kanalassistenten (Benutzerereignisse, die zu einem Konversionstrichter beigetragen haben, möglicherweise über mehrere Marketing-Kanäle hinweg) bieten.
+
+* Bieten Sie Einblicke in die geografische Verteilung und die verweisenden Domains Ihres Website-Traffics und der Konversionen, damit Sie Ihr geografisches und Website-Targeting verfeinern können.
+
+* Analysieren Sie Wochentags- oder Intraday-Trends, die zur Verbesserung der Konversionsraten verwendet werden können.
 
 >[!MORELIKETHIS]
 >
->* [Konversions-Tracking-Optionen](conversion-tracking-about.md)
->* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [Format der JavaScript-Konversions-Trackingtags, Version 3](format-conversion-tag-jsv3.md)
->* [Format der JavaScript-Konversions-Tracking-Tags, Version 2](format-conversion-tag-jsv2.md)
+>* [Konversionsverfolgungs-Optionen](conversion-tracking-about.md)
+>* [Erzeugen eines Adobe Advertising-Konvertierungs-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Format von JavaScript-Konversionsverfolgungstags Version 3](format-conversion-tag-jsv3.md)
+>* [Format von JavaScript-Konversionsverfolgungstags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](format-conversion-tag-image.md)
->* [FAQs über Konversions- und Seitenansichts-Tracking-Tags](faqs-conversion-page-view-tracking-tags.md)
->* [Das Adobe Advertising JavaScript-Konversions-Mapping-Tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](faqs-conversion-page-view-tracking-tags.md)
+>* [Das Adobe Advertising JavaScript Conversion Mapping Tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

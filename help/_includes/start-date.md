@@ -5,8 +5,8 @@ source-wordcount: '91'
 ht-degree: 0%
 
 ---
-# Feld Startdatum in einigen Kampagneneinstellungen und Einstellungen der MS-Anzeigengruppe
+# Feld Startdatum in einigen Kampagneneinstellungen und Einstellungen der MS- und Anzeigengruppe
 
-**[!UICONTROL Start date]:** Das erste Datum, an dem Angebote platziert werden können, solange die Kampagne oder Anzeigengruppe genehmigte Anzeigen enthält. Die Standardeinstellung für neue Kampagnen und Anzeigengruppen ist der aktuelle Tag. Um das Datum für eine Kampagne oder Anzeigengruppe zu ändern, die noch nicht gestartet wurde, geben Sie ein Datum im Format MM/TT/JJJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png) und wählen Sie ein Datum aus.
+**[!UICONTROL Start date]:** Das erste Datum, an dem Angebote abgegeben werden können, sofern die Kampagne oder Anzeigengruppe genehmigte Anzeigen enthält. Der Standardwert für neue Kampagnen und Anzeigengruppen ist der aktuelle Tag. Um das Datum für eine noch nicht gestartete Kampagne oder Anzeigengruppe zu ändern, geben Sie ein Datum im Format MM/TT/JJJJ ein oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png) und wählen Sie ein Datum aus.
 
-Nachdem eine Kampagne oder Anzeigengruppe gestartet wurde, können Sie sie anhalten, das Startdatum jedoch nicht ändern.
+Nachdem eine Kampagne oder Anzeigengruppe gestartet wurde, können Sie sie anhalten, aber das Startdatum nicht ändern.

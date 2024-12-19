@@ -16,17 +16,17 @@ ht-degree: 0%
 
 1. Klicken Sie auf **[!UICONTROL Add Destination]**.
 
-1. Geben Sie die [Berichtsziel-Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md) an, die je nach Zieltyp variieren.
+1. Geben Sie die [Berichtszieleinstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md) an, die je nach Zieltyp variieren.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Wenn der Bericht für die Bereitstellung an einen beliebigen FTP- oder [!DNL Amazon S3]-Speicherort konfiguriert ist, erhalten Sie keine Benachrichtigungen, wenn der Bericht aufgrund von Fehlern abgebrochen wird. Wenn Sie die erwarteten Berichte nicht erhalten, wenden Sie sich an Ihr Adobe Account-Team, um herauszufinden, warum.
+> Wenn der Bericht für die Bereitstellung an einen FTP- oder [!DNL Amazon S3]-Speicherort jeglicher Art konfiguriert ist, erhalten Sie keine Benachrichtigungen, wenn der Bericht aufgrund von Fehlern abgebrochen wird. Wenn Sie nicht die erwarteten Berichte erhalten, wenden Sie sich an Ihr Adobe-Account-Team, um herauszufinden, warum.
 
 >[!MORELIKETHIS]
 >
->* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Über [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

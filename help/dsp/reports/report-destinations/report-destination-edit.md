@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Bearbeiten eines Berichtsziels
 
-Änderungen an einem Berichtsziel wirken sich auf die Bereitstellung aller verknüpften benutzerspezifischen Berichte aus. Vergewissern Sie sich, dass die angegebenen Anmeldedaten gültig sind, um Unterbrechungen bei der Berichterstellung zu verhindern.
+Änderungen an einem Berichtsziel wirken sich auf die Bereitstellung aller verknüpften benutzerdefinierten Berichte aus. Stellen Sie sicher, dass die angegebenen Anmeldeinformationen gültig sind, um Unterbrechungen der Berichtsbereitstellung zu verhindern.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
 1. Halten Sie den Cursor über die Berichtszielzeile und klicken Sie dann auf **[!UICONTROL Edit]**.
 
-1. Klicken Sie für das gewünschte Ziel auf Bearbeiten
+1. Klicken Sie für das gewünschte Ziel auf Bearbeiten .
 
-1. Bearbeiten Sie die [Berichtsziel-Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md).
+1. Bearbeiten Sie die [Berichtszieleinstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Info [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Über [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

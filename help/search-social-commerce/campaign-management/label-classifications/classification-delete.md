@@ -1,6 +1,6 @@
 ---
-title: Beschriftungsklassifizierungen löschen
-description: Erfahren Sie, wie Sie eine Titel-Classification löschen.
+title: Löschen von Kennzeichnungsklassifizierungen
+description: Erfahren Sie, wie Sie eine Kennzeichnungsklassifizierung löschen.
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,23 +10,23 @@ ht-degree: 0%
 
 ---
 
-# Beschriftungsklassifizierungen löschen
+# Löschen von Kennzeichnungsklassifizierungen
 
-Durch Löschen einer Classification werden alle Verknüpfungen zwischen ihren untergeordneten Werten und Kontokomponenten entfernt. Eine gelöschte Classification und ihre Werte sind nicht für die zukünftige Verwendung verfügbar. Berichtsdaten für die Classification-Werte sind länger verfügbar.
+Durch das Löschen einer Klassifizierung werden alle Verknüpfungen zwischen ihren untergeordneten Werten und den Kontokomponenten entfernt. Eine gelöschte Klassifizierung und ihre Werte sind für die zukünftige Verwendung nicht verfügbar. Berichtsdaten für die Classification-Werte sind nicht mehr verfügbar.
 
 >[!NOTE]
 >
->Informationen zum einfachen Trennen der Zuordnung eines Klassifizierungswerts zu einer Kontokomponente finden Sie unter &quot;[Entfernen von Klassifizierungswerten aus Kampagnenkomponenten](classification-values-remove.md)&quot;.
+>Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[ von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
 
 1. Klicken Sie auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
-1. (Optional) Filtern Sie die Liste, um bestimmte Beschriftungsklassifizierungen einzuschließen.
+1. (Optional) Filtern Sie die Liste, um bestimmte Kennzeichnungsklassifizierungen einzuschließen.
 
-1. Aktivieren Sie das Kontrollkästchen neben den zu löschenden Bezeichnungsklassifizierungen.
+1. Aktivieren Sie das Kontrollkästchen neben jeder zu löschenden Kennzeichnungsklassifizierung.
 
    Sie können bis zu 200 Zeilen gleichzeitig löschen.
 
-   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
 
@@ -34,9 +34,9 @@ Durch Löschen einer Classification werden alle Verknüpfungen zwischen ihren un
 
 >[!MORELIKETHIS]
 >
->* [Über Beschriftungsklassifizierungen](classification-about.md)
->* [Erstellen einer Bezeichnungsklassifizierung](classification-create.md)
->* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus Ansichten der Kampagnenverwaltung](classification-values-assign-campaign-management.md)
->* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
->* [Entfernen Sie Beschriftungs-Classification-Werte aus Kontokomponenten](classification-values-remove.md)
->* [Löschen von Beschriftungs-Classification-Werten](classification-values-delete.md)
+>* [Über Klassifizierungen von Kennzeichnungen](classification-about.md)
+>* [Erstellen einer Kennzeichnungsklassifizierung](classification-create.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements](classification-values-assign-campaign-management.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
+>* [Entfernen Sie Kennzeichnungswerte aus den Kontokomponenten](classification-values-remove.md)
+>* [Löschen von Kennzeichnungswerten](classification-values-delete.md)

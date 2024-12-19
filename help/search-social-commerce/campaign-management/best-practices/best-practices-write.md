@@ -1,6 +1,6 @@
 ---
-title: Effektive Textanzeigenkopie schreiben
-description: Erfahren Sie mehr über Best Practices zum Schreiben einer effektiven Anzeigenkopie.
+title: Effektiven Text und Kopie schreiben
+description: Erfahren Sie mehr über Best Practices für das Schreiben effektiver Anzeigenkopien.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,65 +10,65 @@ ht-degree: 0%
 
 ---
 
-# Effektive Textanzeigenkopie schreiben
+# Effektiven Text und Kopie schreiben
 
 >[!TIP]
 >
->Weitere Best Practices für Kampagnen in Portfolios finden Sie im Abschnitt Optimierungshandbuch > Verwalten von Portfolios > Best Practices für Portfolios , der in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+>Weitere spezifische Best Practices für Kampagnen in Portfolios finden Sie im Abschnitt Optimierungshandbuch > Portfolios verwalten > Best Practices für Portfolios , der in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Allgemeine Anforderungen an alle Werbenetzwerke
 
 >[!NOTE]
 >
->Vollständige Anforderungen finden Sie in den Richtlinien der einzelnen Werbenetzwerke für akzeptable Anzeigenkopien .
+>Die vollständigen Anforderungen finden Sie in den Richtlinien der einzelnen Anzeigennetzwerke zu akzeptablen Anzeigenkopien .
 
-* Verwenden Sie korrekte Grammatik, Satzzeichen und Rechtschreibung.
+* Verwenden Sie korrekte Grammatik, Zeichensetzung und Rechtschreibung.
 
-* Alle Zeichen für Breite und Doppelbyte-Zeichen reduzieren die zulässige Anzahl von Zeichen pro Zeile.
+* Alle Breitzeichen und Doppelbyte-Zeichen verringern die Anzahl der pro Zeile zulässigen Zeichen.
 
-* Die Großschreibung des ersten Buchstabens in jedem Wort Ihrer Anzeige ist zulässig. Aber ein Wort kann nicht in allen Großbuchstaben erscheinen, um die Aufmerksamkeit zu lenken, es sei denn, so ist ein Begriff gekennzeichnet. Beispielsweise ist &quot;MAC&quot;für eine MAC-Markenanzeige zulässig, &quot;NEU&quot;ist jedoch nicht zulässig.
+* Der erste Buchstabe in jedem Wort der Anzeige darf großgeschrieben werden. Aber ein Wort kann nicht in Großbuchstaben erscheinen, um Aufmerksamkeit zu erregen, es sei denn, ein Begriff ist so gekennzeichnet. Beispielsweise ist &quot;MAC&quot; für eine MAC-Markenanzeige zulässig, „NEW“ jedoch nicht.
 
-* Ausrufezeichen sind in Überschriften/Titeln verboten, aber in Beschreibungszeilen zulässig. In der Beschreibung ist nur einer zulässig.
+* Ausrufezeichen sind in Überschriften/Titeln verboten, aber in Beschreibungszeilen erlaubt. In der Beschreibung ist nur ein Eintrag zulässig.
 
-* Sonderzeichen wie `@,~,\, ^,>,<` sind verboten.
+* Sonderzeichen wie `@,~,\, ^,>,<` sind nicht zulässig.
 
-* Verknüpfungen oder die Verwendung von Symbolen zum Ersetzen von Wörtern sind verboten. Beispielsweise können Sie &quot;U&quot;nicht verwenden, um &quot;Sie&quot;zu ersetzen, oder &quot;`@`&quot;, um &quot;at&quot;zu ersetzen.
+* Tastenkombinationen oder die Verwendung von Symbolen, um Wörter zu ersetzen, sind verboten. Sie können beispielsweise nicht „U“ verwenden, um „Sie“ zu ersetzen, oder &quot;`@`&quot;, um „at“ zu ersetzen.
 
-* Superlative Ausdrücke wie &quot;Beste&quot; oder &quot;#1&quot; sind verboten, es sei denn, diese Unterscheidung wurde von einem Dritten überprüft und die Überprüfung wird auf Ihrer Website deutlich dargestellt.
+* Superlative Ausdrücke wie „Best“ oder &quot;#1“ sind verboten, es sei denn, diese Unterscheidung wurde von einem Dritten überprüft und die Verifizierung wird auf Ihrer Website deutlich angezeigt.
 
-* Verwenden Sie Markenbezeichnungen nur, wenn Ihr Kunde Eigentümer der betreffenden Marken ist und die markenmarkierten Elemente auf der Landingpage sichtbar sein müssen.
+* Verwenden Sie Markenbegriffe nur, wenn Ihr Kunde Eigentümer der betreffenden Marken ist und die markenrechtlich geschützten Elemente auf der Landingpage sichtbar sein müssen.
 
-* Unangemessene Sprache ist verboten.
+* Unsachgemäße Sprache ist verboten.
 
 ## Recommendations für effektive Anzeigen
 
-* Schreiben Sie leistungsstarke Überschriften, um potenzielle Kunden anzuziehen.
+* Schreiben Sie überzeugende Schlagzeilen, um potenzielle Kunden anzulocken.
 
-* Fügen Sie Suchbegriffe in Ihre Überschrift ein, da die meisten Menschen nach diesem Thema suchen. [1]
+* Fügen Sie Schlüsselwörter in Ihre Überschrift ein, da dies das ist, wonach die meisten Menschen suchen. [1]
 
-* Erstellen Sie eine Anzeigenkopie, die für die gewünschte Zielgruppe entwickelt wurde.
+* Erstellen und kopieren Sie Inhalte, die für die vorgesehene Zielgruppe geeignet sind.
 
-* Erstellen Sie Anzeigen, die spezifisch sind, kommunizieren Sie eindeutig Ihre Absicht und fügen Sie das Wertversprechen Ihres Unternehmens hinzu, den Benutzer zu zwingen, auf die Anzeige zu klicken und Ihre Site zu besuchen.
+* Erstellen Sie Anzeigen, die spezifisch sind, Ihre Absicht klar kommunizieren und das Wertversprechen Ihres Unternehmens enthalten, um den Benutzer zu zwingen, auf die Anzeige zu klicken und Ihre Website zu besuchen.
 
-* Fügen Sie das Produkt, den Dienst und andere Details (wie Promotions) in die Beschreibung/den Text ein.
+* Fügen Sie das Produkt, den Service und andere Details (z. B. Werbeaktionen) in die Beschreibung/den Hauptteil ein.
 
-* Kommen Sie schnell zum Punkt: Schließen Sie zuerst die relevantesten Informationen über das Unternehmen ein.
+* Schneller Einstieg: Fügen Sie zuerst die relevantesten Informationen über das Unternehmen ein.
 
-* Ordnen Sie Ihre Anzeige den Angeboten auf der Landingpage zu, damit Benutzer den Verkaufszyklus abschließen können.
+* Verknüpfen Sie Ihre Anzeige mit Angeboten auf der Landingpage, um Benutzern den Verkaufszyklus zu erleichtern.
 
-* Verwenden Sie Ausdrücke wie &quot;Free Shipping&quot;, &quot;Easy Return&quot;, &quot;Free Exchange and In-store Return&quot;und &quot;Free Geschenke&quot;, um die Clickthrough-Rate zu erhöhen.
+* Verwenden Sie Ausdrücke wie „Kostenloser Versand“, „Einfache Rückgabe“, „Kostenloser Austausch und In-Store-Rückgabe“ und „Kostenlose Geschenke“, um die Clickthrough-Rate zu erhöhen.
 
-* Wenn Sie einen Rabatt anbieten, fügen Sie den spezifischen Betrag oder Prozentsatz des Rabatts hinzu (z. B. &quot;20% Rabatt&quot;oder &quot;20$ beim ersten Kauf sparen&quot;).
+* Wenn Sie einen Rabatt anbieten, geben Sie den spezifischen Betrag oder Prozentsatz des Rabatts an (z. B. „20 % Rabatt“ oder „20 USD beim ersten Kauf sparen„).
 
-* Verwenden Sie nach Möglichkeit das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [1]
+* Wenn möglich, verwenden Sie das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [1]
 
-* Schließen Sie immer einen Aktionsaufruf in den Text ein, z. B. &quot;Anzeigen&quot;, &quot;Auschecken&quot;, &quot;Bestellung&quot;oder &quot;Anmelden&quot;, um die Clickthrough-Rate zu erhöhen. Schließen Sie bei Bildanzeigen den Aktionsaufruf für eine Schaltfläche ein, die mit Ihrer Website verknüpft ist. Bei Rich-Media-Anzeigen fügen Sie den Aktionsaufruf in einen frühen Frame ein.
+* Fügen Sie immer einen Aktionsaufruf im Text ein, z. B. „Anzeigen“, „Checkout“, „Bestellen“ oder „Registrieren“, um die Klickrate zu erhöhen. Nehmen Sie bei Bildanzeigen den Aktionsaufruf für eine Schaltfläche auf, die mit Ihrer Website verknüpft ist. Bei Rich-Media-Anzeigen müssen Sie den Aktionsaufruf in einem frühen Frame einfügen.
 
-* Seien Sie sensibel darauf, wie die Marke des Werbetreibenden wahrgenommen werden soll. So darf beispielsweise ein Werber nicht wollen, dass das Wort &quot;billig&quot;in seinen Anzeigen erscheint.
+* Seien Sie sensibel dafür, wie der Werbetreibende seine Marke wahrnehmen möchte. Ein Werbetreibender möchte beispielsweise nicht, dass das Wort „billig“ in seinen Anzeigen erscheint.
 
-* Erforschen Sie, was Ihre Konkurrenten tun. Sehen Sie sich die Top-Anzeigen für einen Bereich an (auf Sites wie www.spyfu.com) und versuchen Sie zu verstehen, welche Anzeigen funktionieren.
+* Erfahren Sie, was Ihre Konkurrenten tun. Sehen Sie sich die Top-Anzeigen für einen Bereich an (auf Websites wie www.spyfu.com) und versuchen Sie zu verstehen, welche Anzeigen funktionieren.
 
-[1]: Wenn Sie Keyword-Einfügungen verwenden, verwenden Sie die richtige Groß-/Kleinschreibung für den Einfügecode:
+[1]: Wenn Sie das Einfügen von Keywords verwenden, verwenden Sie die richtige Groß-/Kleinschreibung für den Einfügecode:
 
 `{keyword:default}` = Rasenmäher
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
 `{KeyWord:default}` = Rasenmäher
 
-`{KEYWord:default}` = LAWN Mowers (erlaubt nur, wenn &quot;LAWN&quot;eine Marke ist)
+`{KEYWord:default}` = Rasenmäher (was nur zulässig ist, wenn „RASEN“ eine Marke ist)
 
-`{KeyWORD:default}` = Lawn MOWERS (ist nur zulässig, wenn &quot;MOWERS&quot;eine Marke ist)
+`{KeyWORD:default}` = Rasenmäher (was nur erlaubt ist, wenn „MÄHER“ eine Marke ist)
 
-`{KEYWORD:default}` = LAWN MOWERS (ist nur zulässig, wenn &quot;LAWN MOWERS&quot;eine Marke ist)
+`{KEYWORD:default}` = RASENMÄHER (was nur zulässig ist, wenn „RASENMÄHER“ eine Marke ist)
 
 >[!MORELIKETHIS]
 >
->* [Analysieren Sie Berichte, um Ihre Suchbegriffe und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
->* [Optimieren der Landingpages der Website](best-practices-optimize.md)
+>* [Berichte analysieren, um Keywords und Kampagneneinstellungen zu verfeinern](best-practices-analyze.md)
+>* [Optimieren Sie die Landingpages der Website](best-practices-optimize.md)

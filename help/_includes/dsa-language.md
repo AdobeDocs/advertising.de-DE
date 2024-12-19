@@ -5,8 +5,8 @@ source-wordcount: '51'
 ht-degree: 0%
 
 ---
-# DSA-Sprachfeld in den Suchkampagneneinstellungen GGL und MS
+# Feld „DSA-Sprache“ in den Einstellungen für GPL und MS-Suchkampagnen
 
-**[!UICONTROL DSA Language]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen verfügbar) Die Sprache für die angegebene Website-Domäne.
+**[!UICONTROL DSA Language]:** (Nur Netzwerk durchsuchen; gilt nur für erweiterte dynamische Suchanzeigen) Die Sprache für die angegebene Website-Domain.
 
-Wenn die Domäne Seiten in mehreren Sprachen enthält und Sie alle Seiten als Ziel auswählen möchten, erstellen Sie für jede Sprache eine separate Kampagne.
+Wenn die Domain Seiten in mehreren Sprachen enthält und Sie alle ansprechen möchten, erstellen Sie für jede Sprache eine separate Kampagne.

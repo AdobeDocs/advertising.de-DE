@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # [!UICONTROL Constraint Report]
 
-Der [!UICONTROL Constraint Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für Begrenzungen, die die Bezeichnungsklassifizierungsarchitektur verwenden und die über Portfolios, Anzeigennetzwerke, Konten, Kampagnen oder Anzeigengruppen aggregiert werden. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Beschränkung für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen werden in aufsteigender Reihenfolge angezeigt, zuerst durch Beschränkung und dann standardmäßig durch das Startdatum für die Zeiteinheit.
+Die [!UICONTROL Constraint Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für Einschränkungen, die die Architektur der Kennzeichnungsklassifizierung verwenden und über Portfolios, Werbenetzwerke, Konten, Kampagnen oder Anzeigengruppen aggregiert sind. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Begrenzung für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen befinden sich in aufsteigender Reihenfolge, zuerst nach der Einschränkung und dann standardmäßig nach dem Startdatum für die Zeiteinheit.
 
-Sie können Daten aus den letzten 36 Monaten anzeigen.
+Sie können Daten für bis zu den vorherigen 36 Monaten anzeigen.
 
 >[!NOTE]
 >
->Alle Änderungen, die Sie an Begrenzungen für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
+>Alle Änderungen, die Sie an Einschränkungen für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Constraint Name]
 * [!UICONTROL Constraint Status]
@@ -43,4 +43,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

@@ -5,11 +5,11 @@ source-wordcount: '69'
 ht-degree: 0%
 
 ---
-# Feld &quot;Versandmethode&quot;in den meisten Kampagnen
+# Feld Versandmethode in den meisten Kampagnen
 
 **[!UICONTROL Delivery Method]:** (Die meisten Kampagnentypen mit Tagesbudgets) Wie schnell Anzeigen für die Kampagne angezeigt werden
-jeden Tag:
+Jeden Tag:
 
-* *[!UICONTROL Distributed]:* Um Ihre Anzeigenimpressionen gleichmäßig über den Tag zu verteilen.
+* *[!UICONTROL Distributed]:* Ihre Anzeigen-Impressions gleichmäßig über den Tag zu verteilen.
 
-* *[!UICONTROL Accelerated]:* Um Ihre Anzeigen so schnell wie möglich anzuzeigen, bis Ihr Budget erreicht ist. Daher werden Ihre Anzeigen möglicherweise nicht später am Tag angezeigt. **Hinweis:** Bei Such- und Shopping-Kampagnen für [!DNL Google Ads] wurde diese Option im Oktober 2019 eingestellt.
+* *[!UICONTROL Accelerated]:* Ihre Anzeigen so schnell wie möglich anzuzeigen, bis Ihr Budget erreicht ist. Daher werden Ihre Anzeigen möglicherweise nicht zu einem späteren Zeitpunkt angezeigt. **Hinweis:** Für [!DNL Google Ads] Such- und Shopping-Kampagnen wird diese Option seit Oktober 2019 nicht mehr unterstützt.

@@ -1,6 +1,6 @@
 ---
 title: Synchronisierung einer Datenquelle anhalten
-description: Erfahren Sie, wie Sie eine Datenquelle anhalten, um die Synchronisierung zu beenden.
+description: Erfahren Sie, wie Sie eine Datenquelle anhalten, um die Synchronisierung zu stoppen.
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Synchronisierung einer Datenquelle anhalten
 
-*Agentenadministratoren (Basisrolle), Nur Adobe Account Manager und Administratoren*
+*Agenturadministratoren (Basisrolle), Adobe-Account-Manager und nur Administratoren*
 
-Durch Anhalten einer Datenquelle wird die künftige Synchronisierung mit der Datenquelle beendet. Wenn der Feed derzeit synchronisiert wird, wird der Prozess zuerst abgeschlossen, sodass die Daten in Adobe Advertising aktuell sind.
+Durch das Anhalten einer Datenquelle wird die zukünftige Synchronisierung mit der Datenquelle angehalten. Wenn der Feed gerade synchronisiert wird, wird der Prozess zuerst abgeschlossen, sodass die Daten auf Adobe Advertising aktuell sind.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -27,10 +27,10 @@ Durch Anhalten einer Datenquelle wird die künftige Synchronisierung mit der Dat
 
 >[!MORELIKETHIS]
 >
->* [Über die Synchronisierung von [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
->* [Voraussetzungen für die Konfiguration einer  [!DNL Google Analytics] Datenquelle](data-source-prerequisites.md)
->* [Konfigurieren einer [!DNL Google Analytics] Ansicht als Datenquelle](data-source-configure.md)
->* [Bearbeiten einer [!DNL Google Analytics] Datenquelle](data-source-edit.md)
->* [Erneutes Authentifizieren einer  [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
+>* [Über Synchronisierungs [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
+>* [Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle](data-source-prerequisites.md)
+>* [Konfigurieren einer  [!DNL Google Analytics] -Ansicht als Datenquelle](data-source-configure.md)
+>* [Datenquelle  [!DNL Google Analytics] bearbeiten](data-source-edit.md)
+>* [Erneutes Authentifizieren  [!DNL Google Analytics]  Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
->* [Anhang - Verfügbare [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
+>* [Anhang - Verfügbare  [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland'
-description: Siehe verfügbare [!DNL On Demand] Premium-Inventarverlage in Australien und Neuseeland.
+description: Siehe die  [!DNL On Demand] -Premium-Inventarverlage in Australien und Neuseeland.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -14,90 +14,90 @@ ht-degree: 0%
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Herausgeber | Geo |
+| Veröffentlicher | Geo |
 |------------------------------|--------------|
-| [!DNL Allure Media] | Australia/New Zealand |
-| [!DNL APN News and Media] | Australia/New Zealand |
-| [!DNL Archetype] | Australia/New Zealand |
-| [!DNL BBC] | Australia/New Zealand |
-| [!DNL Bloomberg] | Australia/New Zealand |
-| [!DNL BuzzFeed] | Australia/New Zealand |
-| [!DNL CBS Interactive] | Australia/New Zealand |
-| [!DNL Choice TV] | Australia/New Zealand |
-| [!DNL CNN International] | Australia/New Zealand |
-| [!DNL Cricket Australia] | Australia/New Zealand |
-| [!DNL DailyMail] | Australia/New Zealand |
-| [!DNL DAZN (Perform Media)] | Australia/New Zealand |
-| [!DNL Domain.com.au] | Australia/New Zealand |
-| [!DNL Drive] | Australia/New Zealand |
-| [!DNL EA] | Australia/New Zealand |
-| [!DNL ebay] | Australia/New Zealand |
-| [!DNL ESPN] | Australia/New Zealand |
-| [!DNL Fairfax Media] | Australia/New Zealand |
-| [!DNL Foxtel] | Australia/New Zealand |
-| [!DNL Gameloft] | Australia/New Zealand |
-| [!DNL Gentside] | Australia/New Zealand |
-| [!DNL Gumtree] | Australia/New Zealand |
-| [!DNL Hearst] | Australia/New Zealand |
-| [!DNL iBuildNew] | Australia/New Zealand |
-| [!DNL iHeartRadio] | Australia/New Zealand |
-| [!DNL Interplay] | Australia/New Zealand |
-| [!DNL Kayo Sports] | Australia/New Zealand |
-| [!DNL Ladbible] | Australia/New Zealand |
-| [!DNL Macquarie Media] | Australia/New Zealand |
-| [!DNL Mamamia] | Australia/New Zealand |
-| [!DNL MCN] | Australia/New Zealand |
-| [!DNL Mediaworks] | Australia/New Zealand |
-| [!DNL Mi9] | Australia/New Zealand |
-| [!DNL Microsoft Casual Gaming] | Australia/New Zealand |
-| [!DNL MLB] | Australia/New Zealand |
-| [!DNL MTV] | Australia/New Zealand |
-| [!DNL mySURF.tv] | Australia/New Zealand |
-| [!DNL NESN] | Australia/New Zealand |
-| [!DNL News Corp Australia] | Australia/New Zealand |
-| [!DNL Nickelodeon] | Australia/New Zealand |
-| [!DNL NineMSN] | Australia/New Zealand |
-| [!DNL Nova] | Australia/New Zealand |
-| [!DNL NRL] | Australia/New Zealand |
-| [!DNL New York Times] | Australia/New Zealand |
-| [!DNL OhMyMag] | Australia/New Zealand |
-| [!DNL Pacific Magazines] | Australia/New Zealand |
-| [!DNL Pedestrian] | Australia/New Zealand |
-| [!DNL PGA Tour] | Australia/New Zealand |
-| [!DNL realestate.com.au] | Australia/New Zealand |
-| [!DNL SBS] | Australia/New Zealand |
-| [!DNL Scripps Networks (Discovery)] | Australia/New Zealand |
-| [!DNL Seven West Media] | Australia/New Zealand |
-| [!DNL Soundcloud] | Australia/New Zealand |
-| [!DNL Southern Cross Austereo] | Australia/New Zealand |
-| [!DNL Spotify] | Australia/New Zealand |
-| [!DNL Starts at 60] | Australia/New Zealand |
-| [!DNL Techly] | Australia/New Zealand |
-| [!DNL TenPlay] | Australia/New Zealand |
-| [!DNL The New Daily] | Australia/New Zealand |
-| [!DNL The Roar] | Australia/New Zealand |
-| [!DNL Time Out] | Australia/New Zealand |
-| [!DNL Totally Radio] | Australia/New Zealand |
-| [!DNL TradeMe] | Australia/New Zealand |
-| [!DNL tubi TV] | Australia/New Zealand |
-| [!DNL TVNZ] | Australia/New Zealand |
-| [!DNL Twitch] | Australia/New Zealand |
-| [!DNL U.S. News] | Australia/New Zealand |
-| [!DNL unity] | Australia/New Zealand |
-| [!DNL USA Today] | Australia/New Zealand |
-| [!DNL USA Today Sports] | Australia/New Zealand |
-| [!DNL Viously] | Australia/New Zealand |
-| [!DNL Vungle] | Australia/New Zealand |
-| [!DNL World Surf League] | Australia/New Zealand |
-| [!DNL WWE] | Australia/New Zealand |
-| [!DNL Yahoo] | Australia/New Zealand |
+| [!DNL Allure Media] | Australien/Neuseeland |
+| [!DNL APN News and Media] | Australien/Neuseeland |
+| [!DNL Archetype] | Australien/Neuseeland |
+| [!DNL BBC] | Australien/Neuseeland |
+| [!DNL Bloomberg] | Australien/Neuseeland |
+| [!DNL BuzzFeed] | Australien/Neuseeland |
+| [!DNL CBS Interactive] | Australien/Neuseeland |
+| [!DNL Choice TV] | Australien/Neuseeland |
+| [!DNL CNN International] | Australien/Neuseeland |
+| [!DNL Cricket Australia] | Australien/Neuseeland |
+| [!DNL DailyMail] | Australien/Neuseeland |
+| [!DNL DAZN (Perform Media)] | Australien/Neuseeland |
+| [!DNL Domain.com.au] | Australien/Neuseeland |
+| [!DNL Drive] | Australien/Neuseeland |
+| [!DNL EA] | Australien/Neuseeland |
+| [!DNL ebay] | Australien/Neuseeland |
+| [!DNL ESPN] | Australien/Neuseeland |
+| [!DNL Fairfax Media] | Australien/Neuseeland |
+| [!DNL Foxtel] | Australien/Neuseeland |
+| [!DNL Gameloft] | Australien/Neuseeland |
+| [!DNL Gentside] | Australien/Neuseeland |
+| [!DNL Gumtree] | Australien/Neuseeland |
+| [!DNL Hearst] | Australien/Neuseeland |
+| [!DNL iBuildNew] | Australien/Neuseeland |
+| [!DNL iHeartRadio] | Australien/Neuseeland |
+| [!DNL Interplay] | Australien/Neuseeland |
+| [!DNL Kayo Sports] | Australien/Neuseeland |
+| [!DNL Ladbible] | Australien/Neuseeland |
+| [!DNL Macquarie Media] | Australien/Neuseeland |
+| [!DNL Mamamia] | Australien/Neuseeland |
+| [!DNL MCN] | Australien/Neuseeland |
+| [!DNL Mediaworks] | Australien/Neuseeland |
+| [!DNL Mi9] | Australien/Neuseeland |
+| [!DNL Microsoft Casual Gaming] | Australien/Neuseeland |
+| [!DNL MLB] | Australien/Neuseeland |
+| [!DNL MTV] | Australien/Neuseeland |
+| [!DNL mySURF.tv] | Australien/Neuseeland |
+| [!DNL NESN] | Australien/Neuseeland |
+| [!DNL News Corp Australia] | Australien/Neuseeland |
+| [!DNL Nickelodeon] | Australien/Neuseeland |
+| [!DNL NineMSN] | Australien/Neuseeland |
+| [!DNL Nova] | Australien/Neuseeland |
+| [!DNL NRL] | Australien/Neuseeland |
+| [!DNL New York Times] | Australien/Neuseeland |
+| [!DNL OhMyMag] | Australien/Neuseeland |
+| [!DNL Pacific Magazines] | Australien/Neuseeland |
+| [!DNL Pedestrian] | Australien/Neuseeland |
+| [!DNL PGA Tour] | Australien/Neuseeland |
+| [!DNL realestate.com.au] | Australien/Neuseeland |
+| [!DNL SBS] | Australien/Neuseeland |
+| [!DNL Scripps Networks (Discovery)] | Australien/Neuseeland |
+| [!DNL Seven West Media] | Australien/Neuseeland |
+| [!DNL Soundcloud] | Australien/Neuseeland |
+| [!DNL Southern Cross Austereo] | Australien/Neuseeland |
+| [!DNL Spotify] | Australien/Neuseeland |
+| [!DNL Starts at 60] | Australien/Neuseeland |
+| [!DNL Techly] | Australien/Neuseeland |
+| [!DNL TenPlay] | Australien/Neuseeland |
+| [!DNL The New Daily] | Australien/Neuseeland |
+| [!DNL The Roar] | Australien/Neuseeland |
+| [!DNL Time Out] | Australien/Neuseeland |
+| [!DNL Totally Radio] | Australien/Neuseeland |
+| [!DNL TradeMe] | Australien/Neuseeland |
+| [!DNL tubi TV] | Australien/Neuseeland |
+| [!DNL TVNZ] | Australien/Neuseeland |
+| [!DNL Twitch] | Australien/Neuseeland |
+| [!DNL U.S. News] | Australien/Neuseeland |
+| [!DNL unity] | Australien/Neuseeland |
+| [!DNL USA Today] | Australien/Neuseeland |
+| [!DNL USA Today Sports] | Australien/Neuseeland |
+| [!DNL Viously] | Australien/Neuseeland |
+| [!DNL Vungle] | Australien/Neuseeland |
+| [!DNL World Surf League] | Australien/Neuseeland |
+| [!DNL WWE] | Australien/Neuseeland |
+| [!DNL Yahoo] | Australien/Neuseeland |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
->* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium] Inventarverlage in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Über [!DNL On Demand] Premium-Inventar](on-demand-inventory-about.md)
+>* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventar](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand Premium] Inventar-Verlage in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)

@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die Best Practice besteht darin, Ihre Pakete nach Targeting-Taktiken, Anzeigentypen und Leistungszielen zu trennen.
+>Es empfiehlt sich, Ihre Pakete basierend auf Targeting-Taktiken, Anzeigentypen und Leistungszielen zu trennen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie auf den Namen der Kampagne, in der Sie das Package erstellen möchten.
-1. Klicken Sie auf der Registerkarte &quot;Pakete&quot;auf **[!UICONTROL Create]** > **[!UICONTROL Package]**.
+1. Klicken Sie auf den Namen der Kampagne, in der Sie das Paket erstellen möchten.
+1. Klicken Sie auf der Registerkarte Pakete auf **[!UICONTROL Create]** > **[!UICONTROL Package]**.
 1. Geben Sie die [Paketeinstellungen](package-settings.md) ein.
 1. Klicken Sie auf **[!UICONTROL Save and Close]**.
 
@@ -28,8 +28,8 @@ Nachdem Sie ein Paket erstellt haben, können Sie ihm Platzierungen zuweisen.
 >
 >* [Über die Paketverwaltung](package-about.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
->* [Platzierung an ein Paket anhängen](package-attach-placement.md)
+>* [Platzierung an Paket anhängen](package-attach-placement.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
->* [Ein Paket anhalten oder aktivieren](package-pause-activate.md)
+>* [Pausieren oder Aktivieren eines Pakets](package-pause-activate.md)
 >* [Paketeinstellungen](package-settings.md)
->* [Video: Erstellen eines Pakets](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Video: So erstellen Sie ein Paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

@@ -1,6 +1,6 @@
 ---
 title: Markensicherheit und Medienqualität
-description: Erfahren Sie mehr über Markensicherheit und Medienqualitätsmerkmale.
+description: Erfahren Sie mehr über die Funktionen für Markensicherheit und Medienqualität.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
 source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
@@ -14,139 +14,139 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-Advertising DSP bietet eine Reihe von Markenschutzfunktionen, um sicherzustellen, dass jede Ihrer Kampagnen echte Benutzer in einer markensicheren Umgebung erreicht.
+Advertising DSP bietet eine Reihe von Funktionen zum Markenschutz, mit denen sichergestellt werden kann, dass jede Ihrer Kampagnen echte Benutzende in einer markensicheren Umgebung erreicht.
 
-Unser Team von Fraud Surveillance arbeitet eng mit branchenführenden Partnern wie den [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] und [!DNL WhiteOps] zusammen, um den Bestand auf unserer Plattform sorgfältig zu kuratieren. Durch die proaktive Verwaltung unseres Angebots stellt DSP sicher, dass alle Advertiser auf der ganzen Plattform vor unmenschlichem Traffic (Bots, Crawler, Data Center Traffic und Betrug) geschützt sind und nur in markensicheren Kontexten bereitstellen.
+Unser Betrugsüberwachungsteam arbeitet eng mit branchenführenden Partnern wie der [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] und [!DNL WhiteOps] zusammen, um das Inventar auf unserer Plattform sorgfältig zu kuratieren. Durch die proaktive Verwaltung unseres Angebots stellt DSP sicher, dass alle Werbetreibenden auf der Plattform vor nicht menschlichem Traffic geschützt sind (Bots, Crawler, Datencenter-Traffic und Betrug) und nur in markensicheren Kontexten liefern.
 
-Neben dem zentralen Qualitätsmanagement möchten wir Werbetreibende in die Lage versetzen, die ihrer Marke entsprechenden Steuerelemente zu entwerfen. DSP bietet Integrationen mit [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39], um sicherzustellen, dass jeder Advertiser sein gewünschtes Maß an Betrugsschutz, kontextbezogener Filterung und Keyword-Targeting auswählen kann.
+Neben der Bereitstellung eines zentralen Qualitätsmanagements glauben wir daran, Werbetreibenden die Möglichkeit zu geben, die Kontrollen zu entwerfen, die mit ihrer Marke übereinstimmen. DSP bietet Integrationen mit [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39], sodass jeder Werbetreibende das gewünschte Maß an Betrugsschutz, kontextbezogener Filterung und Keyword-Targeting auswählen kann.
 
 ## Qualitätsinitiativen
 
-### Lagerbestandsverifizierung mit [!DNL Ads.txt] Unterstützung
+### Inventarüberprüfung mit [!DNL Ads.txt] Support
 
-[[!DNL Ads.txt], was für  [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) steht, ist eine Initiative, die von den [!DNL Interactive Advertising Bureau] ([!DNL IAB]) im Juni 2017 eingeleitet wurde, um die ordnungsgemäße Darstellung des Bestands auf dem freien Markt zu erleichtern und damit unrechtmäßige Quellen von Traffic und Domain-Spoofing zu bekämpfen. Beteiligte Herausgeber und Distributoren erklären öffentlich die Unternehmen, die zum Verkauf ihres digitalen Bestands berechtigt sind, sowie die Art dieser Beziehungen, indem sie eine `ads.txt` -Seite auf oberster Ebene der Domäne (z. B. `example.com/ads.txt`) verwalten.
+[[!DNL Ads.txt], das für steht [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) ist eine Initiative der [!DNL Interactive Advertising Bureau] ([!DNL IAB]) vom Juni 2017 zur Erleichterung der ordnungsgemäßen Darstellung von Beständen auf dem freien Markt und zur Bekämpfung von illegalen Quellen von Traffic und Domain-Spoofing. Teilnehmende Verlage und Distributoren erklären öffentlich, welche Unternehmen zum Verkauf ihres digitalen Inventars berechtigt sind, und geben die Art dieser Beziehungen an, indem sie eine `ads.txt` Seite auf der obersten Ebene der Domain (z. B. `example.com/ads.txt`) führen.
 
-DSP unterstützt &quot;[!DNL ads.txt]&quot;, indem die `ads.txt` -Datei jedes Herausgebers gelesen wird und Sie die Option erhalten, nur bei verifizierten [!DNL ads.txt] Verkäufern zu kaufen. Wenn wir beispielsweise die verkauften Artikel, auf die wir zugreifen, mit der Datei `ads.txt` der New York Times verknüpfen, können wir ermitteln, welche rechtmäßig sind und welche nicht, und wir blockieren die Straftäter, wenn die Platzierung so konfiguriert ist, dass sie nur bei bestätigten Verkäufern gekauft wird. <!-- can we actually mention NY Times? -->`nytimes.com`
+DSP unterstützt [!DNL ads.txt], indem es die `ads.txt` jedes Herausgebers liest und Ihnen die Möglichkeit gibt, nur bei verifizierten [!DNL ads.txt] zu kaufen. Indem wir beispielsweise die Verkäufer, die wir beim Zugriff auf `nytimes.com` sehen, mit der `ads.txt`-Datei der New York Times abgleichen, können wir identifizieren, welche legitim sind und welche nicht, und wir blockieren die Übeltäter, wenn die Platzierung so konfiguriert ist, dass sie nur von verifizierten Verkäufern kaufen. <!-- can we actually mention NY Times? -->
 
-Sie können die standardmäßigen [!DNL ads.txt] -Steuerelemente für jeden Advertiser<!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> festlegen und dann optional [die Einstellungen für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md) anpassen, um:
+Sie können standardmäßige [!DNL ads.txt] für jeden Advertiser festlegen <!-- [default ads.txt controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> dann optional [die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md) um:
 
-* Inventar nur von autorisierten Direktverkäufern einer Domain kaufen
+* Kaufen Sie Inventar nur von autorisierten Direktverkäufern einer Domain
 
-* Inventar nur von autorisierten Direktverkäufern und Wiederverkäufern einer Domain kaufen
+* Kaufen Sie Inventar nur bei autorisierten Direktverkäufern und Wiederverkäufern einer Domain
 
-* Kaufbestand von autorisierten Direktverkäufern und Wiederverkäufern einer Domain priorisieren
+* Priorisieren Sie den Kauf von Beständen von autorisierten Direktverkäufern und Wiederverkäufern einer Domain
 
-* Inventar von allen Verkäufern kaufen
+* Bestand von allen Verkäufern kaufen
 
-### Überwachung von Platform-Betrug
+### Überwachung von Plattformbetrug
 
-DSP hat leistungsstarke interne Tools und Systeme zur Verwaltung von Betrug auf unserer gesamten Plattform entwickelt und arbeitet mit führenden Branchenanbietern wie [!DNL Whiteops] und [!DNL Integral Ad Science] zusammen.
+DSP hat leistungsstarke interne Tools und Systeme entwickelt, um Betrugsfälle plattformübergreifend zu verwalten, und arbeitet dabei mit führenden Branchenanbietern wie [!DNL Whiteops] und [!DNL Integral Ad Science] zusammen.
 
-Darüber hinaus arbeitet Adobe eng mit [!DNL IAB] und [!DNL TAG] zusammen, um eine robuste und branchenübliche Betrugsblockierung zu gewährleisten, um unsere Advertiser zu schützen, indem es Tools wie [!DNL ads.txt] (siehe vorherigen Abschnitt), die Liste [!DNL IAB] Bots and Spiders und die IP-Liste [!DNL TAG] Datacenter nutzt.
+Darüber hinaus arbeitet Adobe eng mit [!DNL IAB] und [!DNL TAG] zusammen, um eine robuste, dem Branchenstandard entsprechende Betrugssperre zu gewährleisten, um unsere Werbetreibenden zu schützen. Dabei kommen Tools wie [!DNL ads.txt] (siehe vorherigen Abschnitt), die [!DNL IAB] Bots- und Spiders-Liste und die [!DNL TAG] Datacenter IP-Liste zum Einsatz.
 
-Durch unseren mehrdimensionalen Qualitätsansatz überwacht unser Team Anomalien und ungültige Traffic-Muster und sorgt so für weniger als 3 % ungültigen Traffic im geschützten Inventar. Alle Bestände, die verdächtig sind - einschließlich Inventar auf bestimmten Domänen oder von bestimmten Herausgebern oder Verkäufern - werden sofort auf der gesamten Plattform blockiert.
+Durch unseren mehrdimensionalen Qualitätsansatz überwacht unser Team Anomalien und ungültige Traffic-Muster und stellt sicher, dass weniger als 3 % ungültiger Traffic auf geschütztem Inventar vorhanden ist. Verdächtige Inventare - einschließlich Inventare auf bestimmten Domains oder von bestimmten Herausgebern oder Verkäufern - werden sofort auf der gesamten Plattform blockiert.
 
-### Inventarzuordnung, -unterteilung und -kategorisierung
+### Bestandszuordnung, Tiering und Kategorisierung
 
-Die Bestandszuordnung ist der detaillierte Überprüfungs- und Onboarding-Prozess, der für alle neuen Bestände erforderlich ist, bevor er zu unserer Plattform hinzugefügt wird. Dieser Prozess soll die Sicherheit und Qualität des gesamten Bestands auf DSP gewährleisten.
+Inventar-Mapping ist der detaillierte Überprüfungs- und Onboarding-Prozess, der für alle neuen Inventare erforderlich ist, bevor sie zu unserer Plattform hinzugefügt werden. Dieser Prozess soll die Sicherheit und Qualität aller DSP-Bestände gewährleisten.
 
-* **Zuordnung:** Unser Inventar-Team überprüft jede Domäne sorgfältig und bewertet Aspekte wie:
+* **Zuordnung:** Unser Inventar-Team prüft jede Domain sorgfältig und bewertet Aspekte wie:
 
    * Markensicherheit
 
-   * Verifizierung des Anzeigentyps
+   * Prüfung des Anzeigentyps
 
-   * Allgemeine Inhalte, doppelte Domänen und gefälschte Adserving
+   * Allgemeine Inhalte, doppelte Domains und Bereitstellung falscher Anzeigen
 
-* **Tiering:** Wir untersuchen ganzheitlich die Markenpräsenz im gesamten Ökosystem, um Inventare über verschiedene Ebenen hinweg zu klassifizieren. Sie können Ihre Platzierungen ](/help/dsp/campaign-management/placements/placement-settings.md) für die gewünschte Reichweite auf diese Stufen ausrichten:[
+* **Tiering** Wir untersuchen die Markenpräsenz im gesamten Ökosystem ganzheitlich, um Inventar über verschiedene Ebenen zu klassifizieren. Sie können [Ihre Platzierungen](/help/dsp/campaign-management/placements/placement-settings.md) auf diese Ebenen ausrichten, um die gewünschte Reichweite zu erreichen:
 
-   * **[!UICONTROL T1]** - Markenname, international erkennbare Sites
+   * **[!UICONTROL T1]** — Marken- und international anerkannte Websites
 
-   * **[!UICONTROL T2]** - Sehr ansprechende Sites, die aktuell und aktuell sind, ohne benutzergenerierten Inhalt und in der Regel keine globale Erkennung aufweisen
+   * **[!UICONTROL T2]** - Tolle Websites, die aktuell und aktuell sind, keine benutzergenerierten Inhalte enthalten und denen es in der Regel an globaler Anerkennung mangelt
 
    * **[!UICONTROL T3]** - Benutzergenerierte Inhalte und Nischeninhalte
 
-* **Site-Kategorisierung:** Um einfaches Content-Targeting und -Blockieren sicherzustellen, versehen wir jede Eigenschaft mit einer DSP definierten Site-Kategorie, die auf dem Inhalt der Eigenschaft basiert. Sie können diese Site-Kategorien anhand der Platzierungsziele für jede Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md) als Ziel festlegen oder ausschließen.[
+* **Site-Kategorisierung:** Um das einfache Targeting und Blockieren von Inhalten zu gewährleisten, versehen wir jede Eigenschaft mit einer DSP-definierten Site-Kategorie, die auf dem Inhalt der Eigenschaft basiert. Sie können [ diese Site-Kategorien für jede Platzierung basierend ](/help/dsp/campaign-management/placements/placement-settings.md) den Platzierungszielen auswählen oder ausschließen.
 
-### Umfassende Unterstützung für Site-Blocking
+### Umfassende Unterstützung für Site-Blockierung
 
-DSP bietet sowohl eine global gesperrte Siteliste als auch die Option, benutzerdefinierte Blockierungslisten für Advertiser und Konten zu erstellen.
+DSP bietet sowohl eine Liste global blockierter Websites als auch die Möglichkeit, benutzerdefinierte Listen blockierter Websites für Werbetreibende und Konten zu erstellen.
 
-#### DSP Liste global blockierter Sites {#global-blocked-sites}
+#### Liste der global blockierten DSP-Websites {#global-blocked-sites}
 
-DSP verwaltet eine global gesperrte Site-Liste von Sites, die für unsicher erachtet werden, um Anzeigen auf dieser Site auszuführen. Diese Liste enthält Websites mit verwerflichen Inhalten (z. B. Hass oder Terror) und von Bots infizierten Websites, gefälschten Pre-Roll-Dateien, nicht übereinstimmenden Domänen und anderen betrügerischen Aktivitäten.
+DSP verwaltet eine Liste global blockierter Websites, auf denen Anzeigen als unsicher eingestuft werden. Diese Liste enthält Websites mit anstößigen Inhalten (wie Hass oder Terror) und Websites, die mit Bots, gefälschten Pre-Roll-Inhalten, nicht übereinstimmenden Domains und anderen betrügerischen Aktivitäten infiziert sind.
 
-Im Rahmen unserer Initiative zur Markensicherheit, um Aktivitäten auszurotten, die Werbetreibende betrügen, werden alle Sites anhand der in der Liste der blockierten Sites der Grafik aufgeführten Maßnahmen überprüft. Alle Sites, die die Markensicherheitsprüfungen nicht bestehen, werden der Liste der global blockierten Sites hinzugefügt. Da DSP diese Liste dynamisch verwaltet, können Sites auf der Grundlage der neuesten Analyse der Markensicherheit jederzeit aus der Liste wechseln.
+Im Rahmen unserer Initiative zur Markensicherheit, um Aktivitäten auszumerzen, die Werbetreibende betrügen, werden alle Websites mit den Maßnahmen in der Liste der blockierten Websites des Diagramms gescreent. Alle Websites, die die Markensicherheitsprüfungen nicht bestehen, werden der Liste global blockierter Websites hinzugefügt. Da DSP diese Liste dynamisch verwaltet, können Websites basierend auf der neuesten Sicherheitsanalyse für Marken jederzeit in der Liste wechseln oder davon abweichen.
 
-Wenn Sie eine Site in die Liste der global blockierten Sites als Platzierungsziel einschließen, wird die Site mit einem roten Ausrufezeichen (!) gekennzeichnet. Dies bedeutet, dass Anzeigen nicht auf der gekennzeichneten Site ausgeführt werden.
+Wenn Sie eine Site als Platzierungsziel in die Liste global blockierter Sites aufnehmen, wird die Site mit einem roten Ausrufezeichen (!) gekennzeichnet. Dies bedeutet, dass Anzeigen nicht auf der gekennzeichneten Site ausgeführt werden.
 
 >[!NOTE]
 >
->Sie können optional die globale Liste der blockierten Sites für Standardanzeigen umgehen, die an ein vertrauenswürdiges privates Geschäft angehängt sind, indem Sie die Option &quot;[!UICONTROL Allow unscreened sites]&quot; in den [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) aktivieren. Falls nötig, kann das Adobe Account Team optional auch die Site-Blockierung für einen öffentlichen (Auktionsebene) Deal in den Publisher-Einstellungen für den Deal deaktivieren.
+>Sie können optional die globale Liste der blockierten Websites für Standardanzeigenanzeigen umgehen, die an ein vertrauenswürdiges privates Angebot angehängt sind, indem Sie die Option &quot;[!UICONTROL Allow unscreened sites]&quot; in den [Platzierungseinstellungen“ ](/help/dsp/campaign-management/placements/placement-settings.md). Bei Bedarf kann das Adobe-Account-Team optional auch die Website-Blockierung für einen öffentlichen Deal (auf Auktionsebene) in den Publisher-Einstellungen für den Deal deaktivieren.
 
-#### Blockierte Sites auf Kontoebene und Advertiser-Ebene
+#### Blockierte Sites-Listen auf Konto- und Advertiser-Ebene
 
-Benutzer können auch Blockierungslisten auf Kontoebene und auf Advertiser-Ebene verwalten<!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->, die automatisch für alle Platzierungen verwendet werden. Die Liste der blockierten Sites der unteren Ebene wird zusätzlich zur Liste der global blockierten Sites angewendet.
+Benutzer können auch Listen für blockierte Websites auf Konto- und Advertiser-Ebene verwalten<!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) --> die automatisch für alle Platzierungen verwendet werden. Die Blockierte-Sites-Liste auf niedrigerer Ebene wird zusätzlich zur Liste global blockierte Sites angewendet.
 
-## Drittanbieterintegrationen
+## Integrationen von Drittanbietern
 
-### Kontextuelle Filterung
+### Kontextbezogene Filterung
 
-Mit kontextuellen Filtern können Sie Anzeigenangebote basierend auf dem Kontext der Seite, auf der die Anzeige bereitgestellt wird, gezielt ausrichten oder blockieren. Adobe bietet kontextbezogene Filterung über Integrationen mit führenden Anbietern in der Branche: [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39]. Beispiele für aktuelle Filter sind [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics] und [!UICONTROL G-rated Sites].
+Mit der kontextuellen Filterung können Sie Anzeigenchancen basierend auf dem Kontext der Seite, auf der die Anzeige erscheinen soll, ansprechen oder blockieren. Adobe bietet kontextbezogene Filterung über Integrationen mit führenden Anbietern in der Branche: [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39]. Beispiele für aktuelle Filter sind [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics] und [!UICONTROL G-rated Sites].
 
-Sie können für jeden Advertiser standardmäßige Steuerelemente für kontextbezogene Filter festlegen<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional [die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
+Sie können für jeden Advertiser standardmäßige kontextuelle Filtersteuerelemente festlegen <!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> dann optional [die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). Bei Verwendung dieser Funktion können zusätzliche Gebühren anfallen.
 
-![Komprimierungslogo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
+![Comscore-Logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Integrales Ad-Science-Logo](/help/dsp/assets/ias-logo.png) ![Peer39-Logo](/help/dsp/assets/peer39-logo.png)
 
-### Blockierung von Vorab-Angebotsbetrug
+### Sperren von Betrug vor dem Bid
 
-Nutzen Sie unsere Drittanbieterintegrationen mit [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39], um nicht menschlichen Traffic von Ihren Kampagnen zu blockieren. Diese Integrationen bieten branchenführende Pre-Bid-Blockierungsfunktionen, mit denen Sie den allgemeinen und komplexen ungültigen Traffic (GIVT und SIVT) in Ihren Kampagnen minimieren können.
+Nutzen Sie unsere Drittanbieterintegrationen mit [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39], um nicht-menschlichen Traffic aus Ihren Kampagnen zu blockieren. Diese Integrationen bieten branchenführende Funktionen zum Sperren von Angeboten, um sowohl allgemeinen als auch komplexen ungültigen Traffic (GIVT und SIVT) in Ihren Kampagnen zu minimieren.
 
-Sie können für jeden Advertiser Standardkontrollen zum Blockieren von Betrug vor dem Angebot festlegen<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). [ Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
+Sie können für jeden Werbetreibenden standardmäßige Steuerelemente zum Blockieren von Betrug vor Angeboten festlegen <!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> dann optional [die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). Bei Verwendung dieser Funktion können zusätzliche Gebühren anfallen.
 
-Weitere Informationen zur Funktionalität erhalten Sie direkt bei Ihrem bevorzugten Anbieter oder bei Ihrem Adobe-Account-Team.
+Weitere Informationen zur Funktionalität erhalten Sie direkt von Ihrem bevorzugten Anbieter oder von Ihrem Adobe-Account-Team.
 
-![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify Logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science Logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
 
-### Vorabanzeige {#pre-bid-viewability}
+### Sichtbarkeit vor Gebot {#pre-bid-viewability}
 
-Mit den von unseren branchenführenden Partnern [!DNL DoubleVerify] und [!DNL Integral Ad Science] bereitgestellten Vorgebotsanzeige-Filtern können Werbetreibende sicherstellen, dass ihre Kampagnen ihre gewünschten Darstellungsleistungsziele über Video- und Anzeigebestände hinweg erfüllen.
+Mit Pre-Bid-Sichtbarkeitsfiltern, die von unseren branchenführenden Partnern [!DNL DoubleVerify] und [!DNL Integral Ad Science] unterstützt werden, können Werbetreibende sicherstellen, dass ihre Kampagnen die gewünschten Sichtbarkeitsleistungsziele im gesamten Video- und Display-Inventar erfüllen.
 
-Sie können für jeden Advertiser standardmäßige Sichtbarkeitsfilter festlegen<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). [ Wenn Sie diese Funktion verwenden, fallen möglicherweise zusätzliche Gebühren an.
+Sie können für jeden Advertiser standardmäßige Sichtbarkeitsfilter festlegen <!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> dann optional [die Einstellungen für jede Platzierung anpassen](/help/dsp/campaign-management/placements/placement-settings.md). Bei Verwendung dieser Funktion können zusätzliche Gebühren anfallen.
 
-![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png)
+![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png) ![Integrales Ad-Science-Logo](/help/dsp/assets/ias-logo.png)
 
-### Aufmerksamkeit-Targeting und -Messung
+### Zielgruppenbestimmung und Messung der Aufmerksamkeit
 
-[!DNL Adobe's] Durch die Partnerschaft mit [!DNL Adelaide] erhalten Werbetreibende Unterstützung für die Adelaide-Metrik &quot;[!DNL Attention Units]&quot;, die die Medienqualität anhand von Augentracking, Belichtung und Ergebnisdaten misst.
+[!DNL Adobe's] Partnerschaft mit [!DNL Adelaide] bietet Werbetreibenden Unterstützung für die Adelaide-Metrik &quot;[!DNL Attention Units]&quot;, die die Medienqualität anhand von Eye-Tracking-, Belichtungs- und Ergebnisdaten misst.
 
-[Das Targeting der Aufmerksamkeit auf Platzierungsebene vor dem Angebot](/help/dsp/campaign-management/placements/placement-settings.md) ermöglicht Werbetreibenden, bestimmte Aufmerksamkeitsstufen auf eine bessere Kundeninteraktion auszurichten.
+[Zielgruppenbestimmung auf Platzierungs-Ebene vor Angeboten](/help/dsp/campaign-management/placements/placement-settings.md) ermöglicht es Werbetreibenden, bestimmte Aufmerksamkeitsstufen anzusprechen, um die Kundeninteraktion zu verbessern.
 
-Darüber hinaus können Advertiser das [Tracking für die Metrik auf Platzierungsebene [!UICONTROL Attention Score]](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (die gewichtete durchschnittliche Anzahl von [!DNL Attention Units] über Impressionen hinweg) für jede Kampagne aktivieren, um zu verstehen, welche Platzierungs-Taktiken die besten Geschäftsergebnisse liefern.
+Darüber hinaus können Advertiser das [Tracking für die [!UICONTROL Attention Score]-Metrik auf Platzierungsebene](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (die gewichtete durchschnittliche Anzahl der [!DNL Attention Units] über Impressionen hinweg) für jede Kampagne aktivieren, um zu verstehen, welche Platzierungstaktiken die besten Geschäftsergebnisse erzielen.
 
 Für jede einzelne Funktion fallen zusätzliche Gebühren an.
 
 ### Themen-Targeting
 
-DSP Thema-Targeting ermöglicht es Ihnen, Suchbegrifflisten mithilfe unseres branchenführenden kontextbezogenen Partners [!DNL Comscore] als Ziel festzulegen oder zu blockieren. Das Thema-Targeting hilft Ihnen dabei sicherzustellen, dass Ihre Anzeigen immer in einer mit Ihrer Marke abgestimmten Umgebung bereitgestellt werden, unabhängig davon, ob dies das Blockieren schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein höheres Ergebnis gewährleistet.
+Mit DSP-Themen-Targeting können Sie Keyword-Listen durch die Nutzung unserer branchenführenden kontextuellen [!DNL Comscore] ansprechen oder blockieren. Mit dem Thema-Targeting können Sie sicherstellen, dass Ihre Anzeigen immer in einer Umgebung geschaltet werden, die Ihrer Marke entspricht, unabhängig davon, ob dies die Blockierung schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein besseres Ergebnis gewährleistet.
 
-Für das Thema-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie für jede Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md) im Abschnitt [!UICONTROL Audience Targeting] eine Segment-ID als Ziel angeben oder ausschließen. [ Für diese Funktion können zusätzliche Gebühren anfallen.
+Beim Themen-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie [für jede Platzierung eine Segment-ID im [!UICONTROL Audience Targeting] Abschnitt ansprechen oder ](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
 
-Um ein [!DNL Comscore] -Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie eine Anmeldung für [!DNL Activation Segment Manager] unter [https://agents.comscore.com](https://agents.comscore.com) anfordern. Vollständige Anweisungen zum Einrichten benutzerdefinierter Segmente finden Sie im [[!DNL Comscore] Hilfezentrum](https://comscoreactivation.zendesk.com/hc/) . Gebühren für benutzerspezifische Segmente werden beim Erstellen in [!DNL Segment Manager] angezeigt.
+Um ein [!DNL Comscore] Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie unter [https://agents.comscore.com eine Anmeldung zur [!DNL Activation Segment Manager] anfordern](https://agents.comscore.com). Vollständige Anweisungen [[!DNL Comscore]  Einrichten benutzerdefinierter Segmente finden Sie ](https://comscoreactivation.zendesk.com/hc/) Hilfezentrum . Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] sichtbar, während Sie sie erstellen.
 
 ![Comscore-Logo](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
-DSP hat sich mit [!DNL DoubleVerify] zusammengeschlossen, um seine Targeting-Lösung für [!DNL Authentic Brand Safety] anzubieten, mit der Sie einen zentralisierten Satz von Markensicherheitsanforderungen erstellen können, um auf alle Ihre Bestellplattformen Zielgruppen für Konsistenz zu bilden.
+DSP ist eine Partnerschaft mit [!DNL DoubleVerify] eingegangen, um seine [!DNL Authentic Brand Safety] Targeting-Lösung anzubieten, mit der Sie eine Reihe zentralisierter Anforderungen an die Markensicherheit erstellen können, die auf allen Ihren Einkaufsplattformen zur Konsistenz berücksichtigt werden.
 
-Nachdem Sie ein Markensicherheitssegment mit dem erforderlichen Targeting für [!DNL DoubleVerify] erstellt haben, können Sie es in DSP verwenden, um Ihre Blockierungsregeln nach dem Gebot in allen Webumgebungen mit dem Pre-Gebot zu replizieren.
+Nachdem Sie ein [!DNL DoubleVerify] Markensegment mit der erforderlichen Zielgruppenbestimmung erstellt haben, können Sie es in DSP verwenden, um Ihre Blockierungsregeln nach Angebotsabgabe mit Pre-Bid in Web-Umgebungen zu replizieren.
 
-Sie können eine [!DNL DoubleVerify] Segment-ID für jeden Advertiser <!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> angeben und dann optional [ [!UICONTROL Authentic Brand Safety] für jede Platzierung aktivieren oder deaktivieren](/help/dsp/campaign-management/placements/placement-settings.md). DSP stellt Ihr Konto für die Verwendung der Segment-ID in Rechnung.
+Sie können für jeden Advertiser eine [!DNL DoubleVerify] Segment-ID <!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional [Aktivieren oder Deaktivieren von [!UICONTROL Authentic Brand Safety] für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). DSP stellt Ihrem Konto die Nutzung für die Segment-ID in Rechnung.
 
-Weitere Informationen zur Funktionalität erhalten Sie direkt bei [!DNL DoubleVerify] oder bei Ihrem Adobe-Account-Team.
+Weitere Informationen zu Funktionen erhalten Sie direkt bei [!DNL DoubleVerify] oder bei Ihrem Adobe-Account-Team.
 
-![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png)
+![DoubleVerify-Logo](/help/dsp/assets/doubleverify-logo.png)
 
 >[!MORELIKETHIS]
 >

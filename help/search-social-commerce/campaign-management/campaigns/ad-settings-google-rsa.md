@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Google Ads] Einstellungen für responsive Suchanzeige'
-description: Referenzieren Sie die Einstellungen für responsive Suchanzeigen. [!DNL Google Ads]
+title: Einstellungen für responsive Suchanzeigen [!DNL Google Ads]
+description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  responsive Suchanzeigen.
 exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] Einstellungen für responsive Suchanzeige
+# Einstellungen für responsive Suchanzeigen [!DNL Google Ads]
 
-[!DNL Google Ads] stellt dynamisch [responsive Suchanzeigen](https://support.google.com/google-ads/answer/7684791?hl=en) (RSAs) mit bis zu drei Überschriften und zwei Beschreibungen zusammen.
+[!DNL Google Ads] stellt [Responsive Search Ads) ](https://support.google.com/google-ads/answer/7684791?hl=en) bis zu drei Überschriften und zwei Beschreibungen dynamisch zusammen.
 
 >[!NOTE]
 >
 >Jede Anzeigengruppe kann bis zu drei aktivierte responsive Suchanzeigen enthalten.
 
-Weitere Informationen finden Sie in der Hilfe zu [!DNL Google Ads] für [Anzeigenbeschränkungen pro Konto](https://support.google.com/google-ads/answer/6372658?hl=en).
+Siehe [!DNL Google Ads] Hilfe zu [Anzeigenbeschränkungen pro Konto](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -52,5 +52,5 @@ Weitere Informationen finden Sie in der Hilfe zu [!DNL Google Ads] für [Anzeige
 >
 >* [Über Anzeigen](ad-about.md)
 >* [Anzeigen verwalten](ad-manage.md)
->* [[!DNL Google Ads] Schreibgeschützte Anzeigeneinstellungen](ad-settings-google-call.md)
->* [[!DNL Google Ads] erweiterte Einstellungen der dynamischen Suchanzeige](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads] Anzeigeneinstellungen nur für Aufrufe](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Erweiterte Einstellungen für dynamische Suchanzeigen](ad-settings-google-dsa.md)

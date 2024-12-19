@@ -1,6 +1,6 @@
 ---
-title: Einladen eines neuen Benutzers für Ihr Unternehmenskonto
-description: Erfahren Sie, wie Sie einen neuen Benutzer einladen können, um dem Konto beizutreten.
+title: Einen neuen Benutzer für Ihr Unternehmenskonto einladen
+description: Erfahren Sie, wie Sie einen neuen Benutzer einladen, dem Konto beizutreten.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
 source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Einladen eines neuen Benutzers für Ihr Unternehmenskonto
+# Einen neuen Benutzer für Ihr Unternehmenskonto einladen
 
-Administratoren können einen neuen Benutzer zum Konto einladen. Sobald der Benutzer die Einladung angenommen hat, hat er Zugriff auf alle Advertiser für das Konto. Neue Benutzer haben standardmäßig schreibgeschützten Zugriff.
+Admin-Benutzer können einen neuen Benutzer für das Konto einladen. Sobald der Benutzer die Einladung annimmt, hat er Zugriff auf alle Werbetreibenden für das Konto. Neue Benutzer haben standardmäßig schreibgeschützten Zugriff.
 
-Der Einladungs-Link läuft nach 24 Stunden ab. Wenn der Link abläuft, können Sie die Einladung erneut senden.
+Der Einladungslink läuft in 24 Stunden ab. Wenn der Link abläuft, können Sie die Einladung erneut senden.
 
 Bei Bedarf können Sie die Einladung eines Benutzers mit ausstehender Einladung aufheben.
 
@@ -22,7 +22,7 @@ Bei Bedarf können Sie die Einladung eines Benutzers mit ausstehender Einladung 
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]** und dann auf **[!UICONTROL Edit users]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Account]**, und klicken Sie dann auf **[!UICONTROL Edit users]**.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Invitations]** auf **[!UICONTROL Send Invite]**.
 
@@ -33,6 +33,6 @@ Bei Bedarf können Sie die Einladung eines Benutzers mit ausstehender Einladung 
 >[!MORELIKETHIS]
 >
 >* [Erneutes Senden einer ausstehenden Benutzereinladung](user-resend-invite.md)
->* [Aufheben der Einladung eines ausstehenden Benutzers](user-uninvite.md)
+>* [Einladung eines ausstehenden Benutzers aufheben](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

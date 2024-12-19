@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Zielgruppeneinstellungen
 
-## Segmente von Drittanbietern
+## Drittanbietersegmente
 
-(Optional) Jedes Standardsegment, das über die Datenstaxonomie von Drittanbietern verfügbar ist, um es in die Zielgruppenkonfiguration einzubeziehen.
+(Optional) Jedes Standardsegment, das über die Adobe Advertising-Taxonomie für Daten von Drittanbietern verfügbar ist, um es in die Zielgruppenkonfiguration aufzunehmen.
 
-## Erstanbietersegmente
+## First-Party-Segmente
 
-(Optional) Alle Erstanbietersegmente, die für das Konto importiert und/oder in die Zielgruppenkonfiguration importiert werden.
+(Optional) Alle für das Konto importierten First-Party-Segmente und/oder benutzerdefinierten Segmente, die in die Zielgruppen-Konfiguration aufgenommen werden sollen.
 
-## Adobe von Segmenten
+## Adobe-Segmente
 
 (Optional) Alle [!DNL Adobe Real-Time CDP]-, Adobe Analytics- oder Adobe Audience Manager-Segmente, die in die Zielgruppenkonfiguration aufgenommen werden sollen.
 
 ## Benutzerdefinierte Segmente
 
-(Optional) Alle vom Benutzer erstellten Segmente, die mit benutzerdefinierten DSP Segmentpixel erfasst werden, die in die Zielgruppenkonfiguration aufgenommen werden sollen. Dies kann standardmäßige benutzerspezifische Segmente und CCPA-Opt-out-Kaufsegmente umfassen.
+(Optional) Alle vom Benutzer erstellten Segmente, die mit benutzerdefinierten DSP-Segmentpixeln erfasst werden, um sie in die Zielgruppenkonfiguration aufzunehmen. Dies kann standardmäßige benutzerdefinierte Segmente und CCPA-Opt-out-Segmente umfassen.
 
 ## Gespeicherte Zielgruppen
 
-(Optional) Alle vorhandenen Zielgruppen, die in der Zielgruppenbibliothek erstellt wurden und in die Zielgruppenkonfiguration aufgenommen werden sollen.
+(Optional) Alle vorhandenen Zielgruppen, die in der Zielgruppenbibliothek erstellt wurden, um sie in die Zielgruppenkonfiguration aufzunehmen.
 
 >[!MORELIKETHIS]
 >
->* [Über Zielgruppen-Management](audience-about.md)
+>* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
->* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)
->* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
+>* [Verfügbare Datenanbieter von Drittanbietern](third-party-data-providers.md)
+>* [Syntax für die Logik von Zielgruppensegmenten](audience-segment-logic-syntax.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

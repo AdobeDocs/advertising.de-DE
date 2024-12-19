@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Der [!UICONTROL Keyword Daily Impression Share Report] enthält tägliche Metriken zur Impressions-Freigabe für jeden Suchbegriff, den entsprechenden Übereinstimmungstyp und den entsprechenden Gerätetyp für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jeden Suchbegriff, Übereinstimmungstyp und Gerät, der für jeden Tag im angegebenen Datumsbereich mindestens eine Impression oder ein Klick für jede zutreffende Anzeigengruppe erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum sortiert. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken verfolgt werden.
+Die [!UICONTROL Keyword Daily Impression Share Report] enthält tägliche Impression-Share-Metriken für jedes Keyword, den entsprechenden Übereinstimmungstyp und den entsprechenden Gerätetyp für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jedes Keyword, jeden Übereinstimmungstyp und jedes Gerät, das mindestens eine Impression oder einen Klick für jede entsprechende Anzeigengruppe für jeden Tag im angegebenen Datumsbereich erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum sortiert. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken verfolgt werden.
 
-Metriken zur Impressions-Freigabe sind um 13:00 Uhr in der Zeitzone des Advertisers für den vorherigen Tag verfügbar. Sie können Daten der letzten zwei Monate anzeigen.
+Die Metriken zum Impression-Anteil sind um 13:00 Uhr in der Zeitzone des Werbetreibenden für den Vortag verfügbar. Sie können Daten der letzten zwei Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)

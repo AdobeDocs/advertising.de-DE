@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL Search Engine Account Report]
 
-Der [!UICONTROL Search Engine Account Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für ein oder mehrere Anzeigennetzwerkkonten mit Kampagnen. Standardmäßig enthalten die Daten für jedes zutreffende Konto für jede Zeiteinheit im angegebenen Datumsbereich eine Zeile, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Anzeigennetzwerk und dann nach Konto.
+Die [!UICONTROL Search Engine Account Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für ein oder mehrere Werbenetzwerkkonten mit Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jedes anwendbare Konto für jede Zeiteinheit im angegebenen Datumsbereich, und die Zeilen befinden sich in aufsteigender Reihenfolge, zuerst nach Anzeigennetzwerk und dann nach Konto.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Account]
 * [!UICONTROL Search Engine]
@@ -37,4 +37,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

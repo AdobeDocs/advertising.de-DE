@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Hourly Report]
 
-Der [!UICONTROL Campaign Hourly Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere [!DNL Google Ads] Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kampagne für jede Stunde im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
+Die [!UICONTROL Campaign Hourly Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere [!DNL Google Ads] mit Schlüsselwörtern. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kampagne für jede Stunde im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
 
-Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
+Sie können optional Advertiser-spezifische Label-Klassifizierungen einbeziehen.
 
-Daten sind ab dem 15. Mai 2021 verfügbar. <!-- [Later: You can view data for the previous NN days.] -->
+Die Daten sind ab dem 15. Mai 2021 verfügbar. <!-- [Later: You can view data for the previous NN days.] -->
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -38,4 +38,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Google Ads] Produktgruppeneinstellungen'
-description: Referenzieren Sie die Einstellungen für  [!DNL Google Ads] Einkaufsproduktgruppen.
+description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  Warenkorb-Produktgruppen.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
 source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!DNL Google Ads] Produktgruppeneinstellungen
 
-## Produktgruppen &quot;Alle Produkte&quot;
+## „Alle Produkte“-Produktgruppen
 
 **[!UICONTROL Condition]:** (schreibgeschützt) Alle Produkte
 
-**[!UICONTROL Bid]:** (Nur inklusive Produktgruppen) Die maximalen Kosten pro Klick (CPC), der höchste Betrag, der für einen Klick auf die Anzeige bezahlt wird. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Wertes auf Anzeigengruppenebene verwendet.
+**[!UICONTROL Bid]:** (Nur für Produktgruppen) Die maximalen Kosten pro Klick (CPC), die den höchsten Betrag darstellen, der für einen Anzeigenklick bezahlt werden muss. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Werts auf Anzeigengruppenebene.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -26,15 +26,15 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 
 ## Alle anderen Produktgruppen
 
-**[!UICONTROL Condition/Value]:** (Schreibgeschützt für vorhandene Produktgruppen) Die Produktdimensionen, die als Ziel dienen sollen. Geben Sie für neue Produktgruppen die Dimension an, mit der Produkte angesprochen werden sollen, und das qualifizierende Attribut für die ausgewählte Informationskategorie (z. B. &quot;Acme&quot;, wenn Sie ein Targeting nach Marke durchführen, oder &quot;Neu&quot;, wenn Sie ein Targeting nach Bedingung durchführen).
+**[!UICONTROL Condition/Value]:** (Schreibgeschützt für vorhandene Produktgruppen) Die Produktdimensionen, die Sie ansprechen möchten. Geben Sie für neue Produktgruppen die Dimension ein, nach der Produkte ausgewählt werden sollen, sowie das Attribut, das für die ausgewählte Informationskategorie qualifiziert ist (z. B. „Acme“ bei der Zielgruppenbestimmung nach Marke oder „Neu“ bei der Zielgruppenbestimmung nach Bedingung).
 
-Nachdem Sie eine Produktgruppe für bestimmte Produktdimensionen erstellt haben (d. h. nicht &quot;Alle Produkte&quot;), erstellt Search, Social und Commerce automatisch eine Produktgruppe für &quot;Alles andere&quot;.
+Nachdem Sie eine Produktgruppe für bestimmte Produktdimensionen (d. h. nicht für „Alle Produkte„) erstellt haben, erstellt Search, Social und Commerce automatisch eine Produktgruppe für „Alles andere“.
 
-Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[Produktfilter für Shopping-Kampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;. Die Liste der Dimensionen kann je nach der Einstellung [!UICONTROL Inventory Filter] der Kampagne begrenzt sein.
+Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[ von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md). Die Liste der Dimensionen kann je nach [!UICONTROL Inventory Filter] der Kampagne begrenzt sein.
 
-**[!UICONTROL Excluded]:** (Optional für neue Produktgruppen; schreibgeschützt für bestehende Produktgruppen) Schließt Gebote auf Anzeigen für übereinstimmende Produkte aus.
+**[!UICONTROL Excluded]:** (optional für neue Produktgruppen; schreibgeschützt für bestehende Produktgruppen) Schließt Angebote für Anzeigen für übereinstimmende Produkte aus.
 
-**[!UICONTROL Bid]:** (Nur inklusive Produktgruppen) Die maximalen Kosten pro Klick (CPC), der höchste Betrag, der für einen Klick auf die Anzeige bezahlt wird. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Wertes auf Anzeigengruppenebene verwendet.
+**[!UICONTROL Bid]:** (Nur für Produktgruppen) Die maximalen Kosten pro Klick (CPC), die den höchsten Betrag darstellen, der für einen Anzeigenklick bezahlt werden muss. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Werts auf Anzeigengruppenebene.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -49,7 +49,7 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 
 >[!MORELIKETHIS]
 >
->* [Über Einkaufsproduktgruppen](product-group-about.md)
->* [Verwalten von Einkaufsproduktgruppen](product-group-manage.md)
->* [Produktfilter für Kampagnenkampagnen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementieren von [!DNL Google Ads] Shopping-Kampagnen](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [Über Shopping-Produktgruppen](product-group-about.md)
+>* [Verwalten von Shopping-Produktgruppen](product-group-manage.md)
+>* [Kampagnenproduktfilter kaufen](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [Implementieren [!DNL Google Ads] Shopping-Kampagnen](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

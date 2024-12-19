@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Duplizieren Sie eine oder mehrere Platzierungen, um Platzierungen mit ähnlichen Einstellungen zu erstellen. Sie können:
 
-* Mehrere Duplikate von Platzierungen erstellen
-* Duplizieren Sie Platzierungen innerhalb der ursprünglichen Advertiser und Kampagnen oder in verschiedenen Kampagnen.
-* (Für duplizierte Platzierungen in den ursprünglichen Kampagnen) Optional Duplizieren Sie die ursprünglichen Anzeigen.
-* Status und Flugdaten der neuen Platzierungen ändern
+* Erstellen mehrerer Duplikate von Platzierungen
+* Duplizieren Sie Platzierungen innerhalb der ursprünglichen Werbetreibenden und Kampagnen oder innerhalb anderer
+* (Für duplizierte Platzierungen innerhalb der ursprünglichen Kampagnen) Duplizieren Sie optional die ursprünglichen Anzeigen
+* Status und Flugdatum der neuen Platzierungen ändern
 
-Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &quot;[Was ist nicht dupliziert](#placement-not-duplicated)&quot;.
+Unter [Was nicht dupliziert ist](#placement-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -35,13 +35,13 @@ Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &qu
 
    * Duplizieren mehrerer Platzierungen:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Platzierung, die dupliziert werden soll.
+      1. Aktivieren Sie das Kontrollkästchen neben jeder zu duplizierenden Platzierung.
 
       1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
 
 1. Geben Sie die neuen Platzierungseinstellungen an:
 
-   1. (Einzelplatzierungen) Geben Sie den neuen Platzierungsnamen ein.
+   1. (Einzelne Platzierungen) Geben Sie den neuen Platzierungsnamen ein.
 
    1. Wählen Sie im Menü **[!UICONTROL Choose Package (Required)]** entweder das übergeordnete Paket oder **[!UICONTROL No package]* aus.
 
@@ -49,30 +49,30 @@ Eine Liste der nicht duplizierten Platzierungseinstellungen finden Sie unter &qu
 
    Die Einstellungen gelten für alle ausgewählten Platzierungen.
 
-   Standardmäßig beziehen sich die neuen Platzierungen auf den ursprünglichen Anzeigentyp, werden den ursprünglichen Advertisern und Kampagnen zugewiesen, haben Flugpläne, die am aktuellen Tag beginnen, werden angehalten und enthalten nicht die ursprünglichen Anzeigen.
+   Standardmäßig beziehen sich die neuen Platzierungen auf den ursprünglichen Anzeigentyp, werden den ursprünglichen Werbetreibenden und Kampagnen zugewiesen, haben Flugpläne, die am aktuellen Tag beginnen, sind angehalten und enthalten nicht die ursprünglichen Anzeigen.
 
-   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen entsprechend der Konvention &lt;*original_placement_name #N*> mit einer Zahl angehängt, z. B. &quot;My Placement #2&quot;.
+   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen mit einer Nummer gemäß der Konvention &lt;*original_placement_name #N*> angehängt, z. B. „Meine Platzierung #2“.
 
 1. Klicken Sie auf **[!UICONTROL Submit]**.
 
-## Nicht duplizierte Elemente {#placement-not-duplicated}
+## Was nicht dupliziert wird {#placement-not-duplicated}
 
-Alle Einstellungen der ursprünglichen Platzierungen werden dupliziert, mit Ausnahme:
+Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit Ausnahme von:
 
 * Experimenteinstellungen
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
-* Standardplatzierungen für programmgarantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
+* Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * Segmente auf Platzierungsebene [!DNL DoubleVerify Authentic Brand Safety] (die die Segmente auf Advertiser-Ebene überschreiben)
+   * [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
 
 >[!MORELIKETHIS]
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
->* [Erstellen einer Platzierung](placement-create.md)
+>* [Platzierung erstellen](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)

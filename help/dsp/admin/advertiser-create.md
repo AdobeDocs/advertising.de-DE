@@ -1,5 +1,5 @@
 ---
-title: Werbekonto erstellen
+title: Erstellen eines Advertiser-Kontos
 description: Erfahren Sie, wie Sie ein Advertiser-Konto erstellen.
 role: User, Admin
 source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
@@ -9,29 +9,29 @@ ht-degree: 0%
 
 ---
 
-# Werbekonto erstellen
+# Erstellen eines Advertiser-Kontos
 
 *Nicht für schreibgeschützte Benutzer verfügbar*
 
 <!-- Not published -->
 
-Advertiser sind für alle Benutzer im Unternehmenskonto verfügbar.
+Werbetreibende stehen allen Benutzern im Konto der Organisation zur Verfügung.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-1. Geben Sie die [Advertiser-Einstellungen](advertiser-settings.md) an:
+1. Geben Sie die [Advertiser-Einstellungen](advertiser-settings.md):
 
-   1. In den Einstellungen für [!UICONTROL General] :
+   1. In den [!UICONTROL General] Einstellungen:
 
-      1. Geben Sie die Einstellungen für [!UICONTROL General] an.
+      1. Geben Sie die [!UICONTROL General] an.
 
-      1. (Optional) Um Integrationen zwischen DSP und anderen Adobe Experience Cloud-Produkten zu konfigurieren, geben Sie im Abschnitt &quot;[!UICONTROL Adobe IMS IDs]&quot;die Organisations-ID des Advertisers ein und konfigurieren Sie dann die Produktintegrationen im Abschnitt &quot;[!UICONTROL Integrations]&quot;.
+      1. (Optional) Um Integrationen zwischen DSP und anderen Adobe Experience Cloud-Produkten zu konfigurieren, geben Sie die Organisations-ID des Werbetreibenden für die Experience Cloud im [!UICONTROL Adobe IMS IDs] Abschnitt ein und konfigurieren Sie dann die Produktintegrationen im [!UICONTROL Integrations] Abschnitt.
 
-   1. (Optional) Geben Sie in den Abschnitten [!UICONTROL Targeting] Standardziele für jede neue Platzierung an.
+   1. (Optional) Geben Sie in den [!UICONTROL Targeting] Abschnitten Standardziele für jede neue Platzierung an.
 
-      Sie können die Standardziele für jede von Ihnen erstellte Platzierung überschreiben.
+      Sie können die Standardziele für jede erstellte Platzierung überschreiben.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

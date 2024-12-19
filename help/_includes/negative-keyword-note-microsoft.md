@@ -5,10 +5,10 @@ source-wordcount: '80'
 ht-degree: 0%
 
 ---
-# Hinweis für das Feld &quot;Negative Suchbegriffe&quot;in den Kampagnen- und Anzeigengruppeneinstellungen von Microsoft
+# Hinweis für das Feld „Negative Keywords“ in den Kampagnen- und Anzeigengruppeneinstellungen von Microsoft
 
 >[!NOTE]
 >
 >* Die maximale Länge pro Keyword beträgt 100 Zeichen.
->* Sie können negative Suchbegriffe auf Kampagnen- und Anzeigengruppenebene entweder in den Einstellungen für Kampagne und Anzeigengruppe oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative Kampagnenebenen werden auf Anzeigengruppenebene angewendet.
->* Wenn Sie einen [!DNL Microsoft Advertising] -Suchbegriff ändern, wird der vorhandene Suchbegriff gelöscht und ein neuer mit einer neuen Suchbegriff-ID erstellt. Beim Ändern des Übereinstimmungstyps wird jedoch der vorhandene Suchbegriff nicht gelöscht.
+>* Negative Keywords auf Kampagnen- und Anzeigengruppenebene können Sie entweder in den Kampagnen- und Anzeigengruppeneinstellungen oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative auf Kampagnenebene werden auf Anzeigengruppenebene angewendet.
+>* Wenn Sie ein [!DNL Microsoft Advertising] Schlüsselwort ändern, wird das vorhandene Schlüsselwort gelöscht und ein neues mit einer neuen Schlüsselwort-ID erstellt. Das Ändern des Übereinstimmungstyps löscht jedoch nicht das vorhandene Keyword.

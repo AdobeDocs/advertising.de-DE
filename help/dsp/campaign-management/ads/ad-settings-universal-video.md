@@ -1,5 +1,5 @@
 ---
-title: Universelle Videoanzeigeneinstellungen
+title: Einstellungen für universelle Videoanzeigen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für universelle Videoanzeigen.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Universelle Videoanzeigeneinstellungen
+# Einstellungen für universelle Videoanzeigen
 
 >[!NOTE]
 >
->Universelle Videoanzeigen können nur an universelle Videoplatzierungen angehängt werden.
+>Universelle Videoanzeigen können nur an Platzierungen für universelle Videos angehängt werden.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -22,61 +22,61 @@ ht-degree: 0%
 
 **[!UICONTROL URL]:** Die VAST-Tag-URL.
 
-**[!UICONTROL Title]:** Ein Titel für die Datei, der sich in der Ansicht und den Berichten [!UICONTROL Ads] befindet.
+**[!UICONTROL Title]:** Ein Titel für die Datei, der sich in der [!UICONTROL Ads] und in Berichten befindet.
 
 >[!TIP]
 >
-> Um die Gültigkeit eines VAST-Tags zu überprüfen, fügen Sie es in einen Browser ein und drücken Sie die **[!UICONTROL Enter]** -Taste. Wenn das Tag gültig ist, wird oben eine XML-Datei mit dem Wert `<VAST>` angezeigt.
+> Um die Gültigkeit eines VAST-Tags zu überprüfen, fügen Sie es in einen Browser ein und drücken Sie die **[!UICONTROL Enter]**. Wenn das Tag gültig ist, wird oben eine XML-Datei mit `<VAST>` angezeigt.
 
 ## [!UICONTROL Ad Options]
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]:** (Schreibgeschützt) Der von Ihnen erstellte Anzeigentyp, der dem Platzierungstyp entspricht, an den die Anzeige angehängt werden kann.
+**[!UICONTROL Ad Type]:** (Schreibgeschützt) Der Anzeigentyp, den Sie erstellen, der dem Platzierungstyp entspricht, dem die Anzeige angehängt werden kann.
 
-**[!UICONTROL Ad Name]:** Der Anzeigenname. Der Asset-Titel wird standardmäßig verwendet, Sie können jedoch den Namen ändern.
+**[!UICONTROL Ad Name]:** Der Anzeigename. Der Asset-Titel wird standardmäßig verwendet, Sie können den Namen jedoch ändern.
 
 >[!TIP]
 >
-> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der [!UICONTROL Ads]-Ansicht und in Berichten anhängen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (wie z. B. Holiday Product Preview: 30 Sek. Universal Video&quot;).
+> Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Anzeige an eine Platzierung, in der [!UICONTROL Ads] und in Berichten anhängen. Beschreiben Sie beispielsweise den Einheitentyp und einige wichtige Attribute (z. B. „Holiday Product Preview: 30sec Universal Video„).
 
-**[!UICONTROL Show Controls]:** Wo Sie Videosteuerelemente für die Anzeige einbeziehen sollen: *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* oder *[!UICONTROL None]* (der Standard).
+**[!UICONTROL Show Controls]:** Wohin sollen Videosteuerelemente für die Anzeige eingefügt werden: *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]* oder *[!UICONTROL None]* (Standard).
 
-**[!UICONTROL Preserve Aspect Ratio]:** Gibt an, ob die Breite und Höhe des Videos (*[!UICONTROL Yes]*) beibehalten oder das Video gestreckt werden soll, um den verfügbaren Platz zu füllen (*[!UICONTROL No]*).
+**[!UICONTROL Preserve Aspect Ratio]:**, ob die Breiten- und Höhenverhältnisse des Videos beibehalten (*[!UICONTROL Yes]*) oder das Video gedehnt werden soll, um verfügbaren Platz auszufüllen (*[!UICONTROL No]*).
 
-**[!UICONTROL VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag des Drittanbieters, das Sie als Anzeigenquelle eingegeben haben.
+**[!UICONTROL VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag eines Drittanbieters, das Sie als Anzeigenquelle eingegeben haben.
 
-**[!UICONTROL Final VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag des Drittanbieters, das Sie als Anzeigenquelle eingegeben haben, wobei gegebenenfalls die erforderlichen [Advertising DSP-Tracking-Makros](/help/dsp/campaign-management/macros.md) eingefügt wurden.
+**[!UICONTROL Final VAST Tag]:** (Anzeigen, die nur VAST-Tags verwenden; schreibgeschützt) Das VAST-Tag eines Drittanbieters, das Sie als Anzeigenquelle mit den erforderlichen [Advertising DSP-Tracking-Makros eingegeben haben](/help/dsp/campaign-management/macros.md) falls zutreffend.
 
 **[!UICONTROL Wmode]:** Der Fenstermodus: *[!UICONTROL window]*, *[!UICONTROL transparent]* oder *[!UICONTROL opaque]*. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
 
-**[!UICONTROL Video Format]:** Das Format des Anzeigenplayers für potenziellen Bestand: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* oder *[!UICONTROL VAST]*. Die Sichtbarkeit wird immer für [!UICONTROL VPAID] gemessen, aber [!UICONTROL VPAID & VAST] enthält Bestand, der keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
+**[!UICONTROL Video Format]:** Das Format des Anzeigen-Players für den potenziellen Bestand: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* oder *[!UICONTROL VAST]*. Die Sichtbarkeit wird immer für [!UICONTROL VPAID] gemessen, [!UICONTROL VPAID & VAST] umfasst jedoch ein Inventar, das keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
 
-Verwenden Sie &quot;[!UICONTROL VAST]&quot;, was keine Sichtbarkeitsmessung zulässt, wenn Sie angeschlossene Fernsehgeräte oder Inventare auswählen, für die ausschließlich das VAST-Format erforderlich ist (normalerweise aus Versorgungsquellen wie Google Ad Manager, Appnexus, SpotX und Freewheel). Verwenden Sie diese Option auch für das Inventar, das zuvor mit VAST-Platzierungen (Standard Pre-roll) oder Phone + Tablet Standard Pre-Roll (VAST)-Platzierungen/-Anzeigen kompatibel war.
+Verwenden Sie [!UICONTROL VAST], was keine Sichtbarkeitsmessung zulässt, wenn Sie auf angeschlossene Fernsehgeräte oder Inventare abzielen, die ausschließlich das VAST-Format erfordern (in der Regel aus Bezugsquellen wie Google Ad Manager, Appnexus, SpotX und Freewheel). Verwenden Sie diese Option auch für Inventare, die zuvor mit VAST (Standard Pre-roll)- oder VAST (Phone + Tablet Standard Pre-roll)-Platzierungen/-Anzeigen kompatibel waren.
 
-**[!UICONTROL Clock Number]**: (Wird nur im Vereinigten Königreich verwendet; nur für Benutzer mit Berechtigung verfügbar) Eine eindeutige Kennung, mit der sichergestellt wird, dass die richtige Anzeige gesendet wird. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
+**[!UICONTROL Clock Number]**: (Wird nur im Vereinigten Königreich verwendet; steht nur Benutzenden mit Genehmigung zur Verfügung) Eine eindeutige Kennung, die verwendet wird, um sicherzustellen, dass die richtige Anzeige gesendet wird. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
 
 ### [!UICONTROL Pixel]
 
-Alle vorhandenen Ereignis-Tracking-Pixel für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und je nach Ihren Tracking-Anforderungen für die einzelne Anzeige neue Pixel erstellen. **Tipp:** Informationen zum Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung auf einmal mithilfe der [!UICONTROL Ad Tools]-Ansicht finden Sie unter &quot;[Verfolgungspixel von Drittanbietern an Anzeigen an eine Platzierung anhängen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Alle vorhandenen Pixel der Ereignisverfolgung für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und bei Bedarf neue Pixel erstellen, basierend auf Ihren Tracking-Anforderungen für die einzelne Anzeige. **Tipp** Informationen zum gleichzeitigen Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung mithilfe der [!UICONTROL Ad Tools] finden Sie unter &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 
-**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel ausgelöst wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]* ausgelöst werden.
+**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]* ausgelöst werden.
 
-**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel eine *[!UICONTROL IMG URL]* (1x1-Pixelbilddatei), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
+**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
 
-**[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für den angegebenen [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für die angegebene [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, mit dem Sie das Pixel leicht identifizieren können.
+**[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
 
 **[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
->* [FAQs über universelle Videos](/help/dsp/campaign-management/faq-universal-video.md)
+>* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Über die Anzeigenverwaltung](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
->* [Auflisten der mit einer Anzeige verknüpften Platzierungen](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
->* [DSP Makros](/help/dsp/campaign-management/macros.md)
+>* [DSP-Makros](/help/dsp/campaign-management/macros.md)

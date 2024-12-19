@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # Verknüpfen freigegebener Sitelinks mit Konten, Kampagnen und Anzeigengruppen
 
-*[!DNL Google Ads]und [!DNL Microsoft Advertising] nur*
+Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising]*
 
-Sie können Anzeigenerweiterungen erstellen, indem Sie Sitelinks aus Ihrer [!DNL Sitelinks] -Bibliothek zuweisen, um Entitäten zu berücksichtigen, die nur im Suchnetzwerk verwendet werden können. Bei [!DNL Google Ads] -Konten können Sie Konten oder Kampagnen und Anzeigengruppen im Suchnetzwerk Sitelinks zuweisen. Bei [!DNL Microsoft Advertising] -Konten können Sie Kampagnen im Suchnetzwerk (sowie Konten und Anzeigengruppen aus dem [!DNL Microsoft Advertising] -Anzeigenmanager) Sitelinks zuweisen.
+Sie können Anzeigenerweiterungen erstellen, indem Sie Sitelinks aus Ihrer [!DNL Sitelinks]-Bibliothek Kontoentitäten zuweisen, die nur im Suchnetzwerk verwendet werden können. Bei [!DNL Google Ads] Konten können Sie Sitelinks Konten oder Kampagnen und Anzeigengruppen im Suchnetzwerk zuweisen. Bei [!DNL Microsoft Advertising] Konten können Sie den Kampagnen im Suchnetzwerk (und den Konten und Anzeigengruppen innerhalb des [!DNL Microsoft Advertising] Ad Managers) Sitelinks zuweisen.
 
-Sie müssen über mindestens sechs aktive Sitelinks für Desktop und Mobilgeräte verfügen, damit Ihre Sitelinks mit Anzeigen angezeigt werden. Sie können bis zu 20 Sitelinks pro Konto, Kampagne oder Anzeigengruppe zuweisen.
+Sie müssen über mindestens sechs aktive Sitelinks für Desktop und Mobile verfügen, damit Ihre Sitelinks mit Anzeigen angezeigt werden. Pro Konto, Kampagne oder Anzeigengruppe können bis zu 20 Sitelinks zugewiesen werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") und wählen Sie dann **[!UICONTROL Sitelink]** aus.
 
-1. Wählen Sie das Werbenetzwerk und den Kontonamen aus und klicken Sie auf **[!UICONTROL Continue]**.
+1. Wählen Sie das Anzeigennetzwerk und den Kontonamen aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die Einstellungen für die Sitelink-Erweiterung ein:
+1. Geben Sie die Sitelink-Erweiterungseinstellungen ein:
 
    1. Wählen Sie im Abschnitt [!UICONTROL Sitelinks] die entsprechenden Sitelinks aus einer Liste aller Sitelinks in Ihrer Bibliothek aus.
 
-   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
    1. Wählen Sie im Abschnitt [!UICONTROL Assignment] die Konten, Kampagnen und Anzeigengruppen aus, denen die ausgewählten Sitelinks zugewiesen sind:
 
-   * (Optional) Klicken Sie auf den Kontonamen, um ein Konto zur Ansicht der Kampagne zu erweitern. Um eine Kampagne zu erweitern und ihre untergeordneten Anzeigengruppen anzuzeigen, klicken Sie auf den Kampagnennamen.
+   * (Optional) Um ein Konto zu erweitern und seine Kampagne anzuzeigen, klicken Sie auf den Kontonamen. Um eine Kampagne zu erweitern und ihre untergeordneten Anzeigengruppen anzuzeigen, klicken Sie auf den Namen der Kampagne.
 
-   * (Optional) Um eine Kampagnenliste oder Anzeigengruppenliste nach einer im Namen enthaltenen Textzeichenfolge zu filtern, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , geben Sie die Textzeichenfolge ein oder fügen Sie sie in das Eingabefeld ein und drücken Sie dann die Taste **Enter**.
+   * (Optional) Um eine Kampagnenliste oder Anzeigengruppenliste nach einer im Namen enthaltenen Textzeichenfolge zu filtern, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , geben Sie die Textzeichenfolge entweder ein oder fügen Sie sie in das Eingabefeld ein und drücken Sie dann die **Eingabetaste**.
 
-   * Wählen Sie den Kreis (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) neben jeder Entität aus, der die Sitelinks zugewiesen sind.
+   * Wählen Sie den Kreis (![Auswählen](/help/search-social-commerce/assets/include.png "Auswählen")) neben der jeweiligen Entität, der die Sitelinks zugewiesen sind.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 

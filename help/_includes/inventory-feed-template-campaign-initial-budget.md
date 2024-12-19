@@ -5,9 +5,9 @@ source-wordcount: '111'
 ht-degree: 0%
 
 ---
-# Text-Anzeigenvorlage - Ursprüngliches Budget
+# Text und Vorlage - Ursprüngliches Budget
 
-**[!UICONTROL Initial Budget]:** (Optional) Das Budget für jede neu erstellte Kampagne. Geben Sie entweder einen numerischen Wert oder einen Spaltennamen ein. Wenn Sie einen Spaltennamen verwenden, wird der niedrigste Wert für die Spalte verwendet, die von der Vorlage verarbeitet wird. Um einen Spaltennamen als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und dann auf einen Spaltennamen in der Spaltenliste. Wenn Sie kein Budget eingeben, verwendet jede erstellte Kampagne das Standardbudget für das Konto.
+**[!UICONTROL Initial Budget]:** (Optional) Das Budget für jede neue Kampagne, die erstellt wurde. Geben Sie entweder einen numerischen Wert oder einen Spaltennamen ein. Wenn Sie einen Spaltennamen verwenden, wird der niedrigste Wert für die Spalte verwendet, die von der Vorlage verarbeitet wird. Um einen Spaltennamen als dynamischen Parameter einzufügen, klicken Sie auf das Eingabefeld und anschließend auf einen Spaltennamen in der Spaltenliste. Wenn Sie kein Budget eingeben, verwendet jede erstellte Kampagne das Standardbudget für das Konto.
 
 >[!TIP]
 >

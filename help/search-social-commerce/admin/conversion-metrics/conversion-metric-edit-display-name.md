@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Anzeigenamen für eine Konversionsmetrik ändern
 
-Sie können optional den Namen ändern, der in Spaltenüberschriften angezeigt wird, um lesbar zu sein, wenn eine [Konversionsmetrik](/help/search-social-commerce/glossary.md#c-d) für Kampagnen- und Portfoliomanagementansichten und Berichte ](conversion-metric-edit-available.md) verfügbar ist. [ Wenn Sie beispielsweise Registrierungsdaten mit einer Konversionsmetrik mit dem Namen *reg* erfassen, können Sie optional den Anzeigenamen ändern, um ihn als &quot;Registrierungen&quot;anzuzeigen.
+Sie können optional den Namen ändern, der in den Spaltenüberschriften angezeigt wird, um die Lesbarkeit zu verbessern, wenn eine [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metrik [für Kampagnen- und Portfolioverwaltungsansichten sowie in Berichten verfügbar](conversion-metric-edit-available.md). Wenn Sie beispielsweise Registrierungsdaten mithilfe einer Konversionsmetrik mit dem Namen *reg* erfassen, können Sie optional den Anzeigenamen ändern, damit er als „Registrierungen“ angezeigt wird.
 
 Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken aus Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden manuelle Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in Google Analytics ignoriert, es sei denn, Sie [aktualisieren](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [reauthentifizieren](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) die Integration erneut.
+>Bei [Metriken von Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen innerhalb von Google Analytics ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
@@ -26,10 +26,10 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 1. Geben Sie den Namen ein, der angezeigt werden soll, und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-   Anzeigenamen müssen eindeutig sein und dürfen folgende Sonderzeichen nicht enthalten: `\"<'>&`
+   Anzeigenamen müssen eindeutig sein und dürfen die folgenden Sonderzeichen nicht enthalten: `\"<'>&`
 
 >[!MORELIKETHIS]
 >
->* [Über die Verwaltung der Konversionsmetriken eines Advertisers](conversion-metric-about.md)
+>* [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](conversion-metric-about.md)
 >* [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](conversion-metric-view-tracked.md)
->* [Ändern der in Verwaltungsansichten und Berichten verfügbaren Konversionsmetriken](conversion-metric-edit-available.md)
+>* [Ändern der Konversionsmetriken, die in Verwaltungsansichten und -berichten verfügbar sind](conversion-metric-edit-available.md)

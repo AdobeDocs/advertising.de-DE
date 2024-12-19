@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Platzierungen bearbeiten
 
-Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere Platzierungen gleichzeitig bearbeiten. Einige Einstellungen können nach der Live-Schaltung nicht mehr geändert werden.
+Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere Platzierungen gleichzeitig bearbeiten. Einige Einstellungen können nicht geändert werden, sobald die Platzierung live ist.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Untergruppe von Schlüsselfeldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mit Bulksheets](placement-qa.md)&quot;.
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Teilmenge von Schlüsselfeldern vornehmen und sie gleichzeitig wieder in DSP hochladen. Siehe [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md).
 
-## Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung {#placement-quick-edit}
+## Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen {#placement-quick-edit}
 
 Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budget bearbeiten, ohne die vollständigen Platzierungseinstellungen zu öffnen.
 
@@ -31,11 +31,11 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 1. Bearbeiten Sie eine der verfügbaren [Platzierungseinstellungen](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** und **[!UICONTROL Budget]**.
 1. Klicken Sie auf **[!UICONTROL Apply]**.
 
-## Einzelplatzierung bearbeiten
+## Einzelne Platzierung bearbeiten
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten nur des Platzierungsnamens, des Status, des Höchstgebots und des Budgets finden Sie unter &quot;[Schnellere Bearbeitung der Einstellungen für die Schlüsselplatzierung](#placement-quick-edit)&quot;.
+> Informationen zum Bearbeiten von Platzierungsnamen, Status, Maximalgebot und Budget finden Sie unter &quot;[Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen](#placement-quick-edit)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -67,23 +67,23 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 
    1. Wählen Sie die Einstellung aus der Liste aus.
 
-   1. Wählen Sie den Wert **[!UICONTROL Edit Mode]** aus.
+   1. Wählen Sie die **[!UICONTROL Edit Mode]** aus.
 
-      Die Optionen variieren je nach Einstellung, können jedoch Folgendes umfassen:
+      Die Optionen variieren je nach Einstellung, können aber Folgendes umfassen:
 
       * **Anhängen** (um die vorhandenen Werte beizubehalten und neue Werte hinzuzufügen)
 
-      * **Löschen** (zum Entfernen aller vorhandenen Werte)
+      * **Löschen** (um alle vorhandenen Werte zu entfernen)
 
-      * **Verringern** (um einen vorhandenen Wert um einen bestimmten Betrag zu reduzieren)
+      * **Verringern** (um einen vorhandenen Wert um einen bestimmten Betrag zu verringern)
 
       * **Erhöhen** (um einen vorhandenen Wert um einen bestimmten Betrag zu erhöhen)
 
-      * **Überschreiben** (zum Ändern des vorhandenen Werts in einen neuen Wert)
+      * **Überschreiben** (um den vorhandenen Wert in einen neuen Wert zu ändern)
 
       * **Pause** (zum Anhalten von Anzeigen)
 
-      * **Entfernen** (zum Entfernen bestimmter Werte)
+      * **Entfernen** (zum Entfernen der angegebenen Werte)
 
    1. Bearbeiten Sie die [Platzierungseinstellung](placement-settings.md).
 
@@ -93,13 +93,13 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >
 >* [Über die Platzierungsverwaltung](placement-about.md)
 >* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md)
->* [Erstellen einer Platzierung](placement-create.md)
+>* [Platzierung erstellen](placement-create.md)
 >* [Duplizieren einer Platzierung](placement-duplicate.md)
->* [Verwalten von Angebotsmultiplikatoren für Platzierungen](placement-manage-bid-multipliers.md)
+>* [Angebotsmultiplikatoren für Platzierungen verwalten](placement-manage-bid-multipliers.md)
 >* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](placement-edit-ad-schedule.md)
->* [Eine Platzierung anhalten oder aktivieren](placement-pause-activate.md)
+>* [Platzierung anhalten oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Anzeigen des Berichts zur Platzierungsvorschau](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: Anleitung zum Bearbeiten von Platzierungen mithilfe der Tools für die Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

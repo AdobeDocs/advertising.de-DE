@@ -1,5 +1,5 @@
 ---
-title: Bearbeiten eines Anbindungs-TV-Reichweitenplans
+title: Bearbeiten eines Plans für die Reichweite von vernetzten Fernsehgeräten
 description: Erfahren Sie, wie Sie die Einstellungen für einen vernetzten TV-Reichweitenplan bearbeiten.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Bearbeiten eines Anbindungs-TV-Reichweitenplans
+# Bearbeiten eines Plans für die Reichweite von vernetzten Fernsehgeräten
 
-Durch die Bearbeitung der Planeinstellungen wird eine neue Prognose erstellt.
+Durch die Bearbeitung der Planeinstellungen wird eine neue Prognose generiert.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 
@@ -24,14 +24,14 @@ Durch die Bearbeitung der Planeinstellungen wird eine neue Prognose erstellt.
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach]-Vorschau in eine [!DNL Microsoft Excel] Tabelle** zu exportieren, klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP Planer-Tool](planner-about.md)
->* [Erstellen eines Anbindungs-TV-Reichweitenplans](planner-create.md)
->* [Duplizieren eines Anbindungs-TV-Reichweitenplans](planner-duplicate.md)
->* [Einen Plan für die Anbindung an den Fernsehempfang exportieren](planner-export.md)
->* [Vorhersage für einen vernetzten TV-Reichweitenplan regenerieren](planner-forecast.md)
->* [Archivieren eines Anbindungs-TV-Reichweiten-Plans](planner-archive.md)
->* [Einstellungen für Pläne zur Anbindung an TV-Kanäle](planner-settings.md)
+>* [Über das DSP-Planer-Tool](planner-about.md)
+>* [Erstellen eines Plans für die Reichweite von vernetzten Fernsehgeräten](planner-create.md)
+>* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
+>* [Exportieren eines Connected TV Reach Plans](planner-export.md)
+>* [Regenerieren Sie die Prognose für einen Connected TV Reach Plan](planner-forecast.md)
+>* [Archivieren eines Connected TV Reach Plans](planner-archive.md)
+>* [Einstellungen für Connected TV Reach Plans](planner-settings.md)

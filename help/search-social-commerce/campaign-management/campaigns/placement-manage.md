@@ -1,6 +1,6 @@
 ---
-title: Verwalten von [!DNL Google Ads] Platzierungen
-description: Erfahren Sie, wie Sie bidbare Platzierungen für [!DNL Google Ads] Anzeigengruppen erstellen und verwalten.
+title: ' [!DNL Google Ads]  Platzierungen verwalten'
+description: Erfahren Sie, wie Sie Bietbare Platzierungen für Anzeigengruppen  [!DNL Google Ads]  und verwalten.
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,24 +10,24 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von [!DNL Google Ads] Platzierungen
+# [!DNL Google Ads] Platzierungen verwalten
 
-*[!DNL Google Ads]nur Konten*
+Nur *[!DNL Google Ads]Konten*
 
-Sie können Platzierungen für Anzeigengruppen in [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) erstellen und bearbeiten, die auf das Anzeigennetzwerk innerhalb eines [synchronisierten Anzeigennetzwerkkontos](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) abzielen.
+Sie können Platzierungen für Anzeigengruppen in „Unterstützte Kampagnentypen[ erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die für das Anzeigennetzwerk in einem [synchronisierten Anzeigennetzwerkkonto vorgesehen sind](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
-## Erstellen von [!DNL Google Ads] Platzierungen
+## Erstellen [!DNL Google Ads] Platzierungen
 
 >[!TIP]
 >
->Um mehrere Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Um viele Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
 1. 
-   1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") .
+   1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
-1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie auf **[!UICONTROL Continue]**.
+1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne und die Anzeigengruppe aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
 1. Konfigurieren Sie die [Platzierungseinstellungen](#placement-settings).
 
@@ -43,17 +43,17 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützten Kampagnentypen
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zeile.
 
-   Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") .
 
 1. Bearbeiten Sie die [Platzierungseinstellungen](#placement-settings).
 
-   Bei mehreren Platzierungen werden Ihre Änderungen auf alle ausgewählten Platzierungen angewendet. Bei einigen alphanumerischen Feldern können Sie vorhandene Werte in einen angegebenen Wert ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge ersetzen, am Anfang jedes Werts ein angegebenes Präfix hinzufügen oder ein Suffix an das Ende jedes Werts anhängen. Bei einigen monetären Feldern können Sie die vorhandenen Werte in einen bestimmten Wert ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Begrenzung erhöhen oder verringern.
+   Bei mehreren Platzierungen werden Ihre Änderungen auf alle ausgewählten Platzierungen angewendet. Bei einigen alphanumerischen Feldern können Sie vorhandene Werte in einen angegebenen Wert ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge ersetzen, ein angegebenes Präfix an den Anfang jedes Werts hinzufügen oder ein Suffix an das Ende jedes Werts anhängen. Für einige Währungsfelder können Sie vorhandene Werte in einen bestimmten Wert ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Grenze erhöhen oder verringern.
 
 1. Speichern Sie die Daten:
 
-   * (Einzelplatzierungen) Klicken Sie auf **[!UICONTROL Post]**.
+   * (Einzelne Platzierungen) Klicken Sie auf **[!UICONTROL Post]**.
 
    * (Mehrere Platzierungen) Klicken Sie auf **[!UICONTROL Post Now]**.
 
@@ -61,13 +61,13 @@ Sie können Platzierungen für Anzeigengruppen in [unterstützten Kampagnentypen
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Sites im Inhaltsnetzwerk, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separate Zeilen ein. Die URL darf kein Fragezeichen (`?`) enthalten. **Hinweis:** Sie können [Website-Platzierungen](placement-negative-create.md) aus der Ansicht [!UICONTROL Placements] > [!UICONTROL Negatives] sowie aus den Anzeigengruppen- und Kampagneneinstellungen ausschließen.
+**[!UICONTROL Placements]:** Sites im Content Network, auf denen Ihre Anzeige erscheinen kann. Geben Sie eine gültige URL ein, z. B. www.example.com, example.com oder www.example.com/shoes/kids. Um mehrere Zeichenfolgen anzugeben, trennen Sie sie durch Kommas oder geben Sie sie in separaten Zeilen ein. Die URL darf kein Fragezeichen enthalten (`?`). **Hinweis** Sie können [Website-Platzierungen ausschließen](placement-negative-create.md) in der Ansicht [!UICONTROL Placements] > [!UICONTROL Negatives] sowie in den Anzeigengruppen- und Kampagneneinstellungen anzeigen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (zur Aktivierung von Geboten; Standard), *Ausgesetzt* (zur Deaktivierung des Gebots) oder *Gelöscht* (zum Löschen der Platzierung; nur vorhandene Platzierungen).
+**[!UICONTROL Status]:** Der Anzeigestatus der Platzierung: *Aktiv* (zum Aktivieren von Geboten; der Standard), *Paused* (zum Deaktivieren von Geboten) oder *Deleted* (zum Löschen der Platzierung; nur vorhandene Platzierungen).
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** (Optional) Die maximalen Kosten pro Klick (CPC) oder Kosten pro tausend sichtbaren Impressionen (vCPM) für die platzierungsbasierte Anzeige, je nach Kampagnenangebotsstrategie. Dieser Wert überschreibt das Angebot auf Anzeigengruppenebene.
+**[!UICONTROL Bid]:** (Optional) Die maximalen Kosten pro Klick (CPC) oder Kosten pro Tausend sichtbarer Impressionen (vCPM) für die platzierungsbasierte Anzeige, abhängig von der Bid-Strategie der Kampagne. Dieser Wert überschreibt das Angebot auf Anzeigengruppenebene.
 
 <!-- If the placement is in a standard optimized portfolio, then the specified bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations. -->
 

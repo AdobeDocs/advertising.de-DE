@@ -12,28 +12,28 @@ ht-degree: 0%
 
 # Über Hilfsberichte
 
-*Werbetreibende mit Such-, Social- und Commerce-Klick-Tracking und Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics] -Integration) oder , die in Feeds mit einem Token (`ef_id`) bereitgestellt werden,*
+*Werbetreibende mit Klick-Tracking für Search, Social und Commerce und mit Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics]-Integration) oder bereitgestellt in -Feeds nur mit einem Token (`ef_id`)*
 
-Hilfsberichte bieten Einblicke in die Konversionspfade für alle Suchbegriffe und Anzeigen eines Advertisers. Hilfsprotokolle verwenden Daten, die über den Adobe Advertising-Konversions-Tracking-Dienst, das Adobe Analytics-Konversions-Tracking und Feed-Dateien mit Token (`ef_id`) erfasst werden, und können nur für Advertiser mit diesen Diensten generiert werden.
+Assist-Berichte bieten Einblicke in die Konversionspfade für alle Keywords und Anzeigen eines Advertisers. Assist-Berichte verwenden Daten, die über den Konversionsverfolgungs-Service von Adobe Advertising, das Konversionsverfolgungs-Tracking von Adobe Analytics und Feed-Dateien erfasst werden, die Token (`ef_id`) enthalten und nur für Werbetreibende mit diesen Services generiert werden können.
 
 >[!NOTE]
 >
 >* Ein Konversionspfad kann mehrere Portfolios durchlaufen.
->* Adobe Advertising speichert immer die folgenden Ereignisse für jeden Web-Surfer vor einer Konversion: a) den ersten gebührenpflichtigen Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Anzeige), einschließlich des ersten Klicks, und c) bis zu 10 Display-Impressionen.
+>* Adobe Advertising speichert vor einer Konversion immer die folgenden Ereignisse für jeden Websurfer: a) den ersten bezahlten Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Display), einschließlich des ersten Klicks; und c) bis zu 10 Display-Impressionen.
 
-## Typen von Hilfsberichten
+## Arten von Hilfsberichten
 
-* [Der [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [Die [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
 
-* [Der [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
 
-* [Der [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [Die [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Der [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [Der [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [Der [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [Bereiten Sie die Berichtseinstellungen vor](assist-report-settings.md)
->* [ Hilfsbericht erzeugen](assist-report-generate.md)
+>* [Die [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [Die [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [Die [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [Unterstützen von Berichteinstellungen](assist-report-settings.md)
+>* [Erstellen eines Assist-Berichts](assist-report-generate.md)
 >* [Über Berichte](/help/search-social-commerce/reports/report-about.md)

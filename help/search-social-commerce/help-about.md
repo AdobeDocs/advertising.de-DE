@@ -1,6 +1,6 @@
 ---
-title: Informationen zu diesem Handbuch
-description: Erfahren Sie, was in den einzelnen Kapiteln dieses Handbuchs behandelt wird.
+title: Über dieses Handbuch
+description: Erfahren Sie, was in jedem Kapitel dieses Handbuchs behandelt wird.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,26 +10,26 @@ ht-degree: 0%
 
 ---
 
-# Informationen zu diesem Handbuch
+# Über dieses Handbuch
 
-Informationen zu bestimmten Gruppen von Aufgaben und weitere Informationen finden Sie in den folgenden Hilfekapiteln:
+Informationen zu bestimmten Aufgabengruppen und weitere Informationen finden Sie in den folgenden Hilfekapiteln:
 
-* &quot;Einführung&quot;führt die Hauptfunktionen von Advertising Search, Social und Commerce ein.
+* „Einführung“ führt in die Hauptfunktionen von Advertising Search, Social und Commerce ein.
 
-* &quot;Erste Schritte&quot;beschreibt die wichtigsten Aufgaben einer Advertiser-Implementierung, von der Einrichtung für den ersten Start bis zur Ausführung laufender Verwaltungsaufgaben und der Organisation der Benutzeroberfläche.
+* In „Erste Schritte“ werden die wichtigsten Aufgaben bei einer Advertiser-Implementierung erläutert, von der Einrichtung für den ersten Launch bis zur Durchführung laufender Verwaltungsaufgaben. Zudem wird erläutert, wie die Benutzeroberfläche organisiert ist.
 
-* In &quot;Allgemeine Aufgaben&quot;wird beschrieben, wie Sie die verschiedenen Leistungsdatenansichten basierend auf Ihren Informationsanforderungen und -präferenzen konfigurieren, wie Sie benutzerdefinierte Metriken verwalten, wie Sie Beschriftungsklassifizierungen und Angebotsbegrenzungen verwalten und wie Sie andere gängige Aufgaben durchführen.
+* Unter „Häufige Aufgaben“ wird beschrieben, wie Sie die verschiedenen Leistungsdatenansichten basierend auf Ihren Informationsanforderungen und Voreinstellungen konfigurieren, benutzerdefinierte Metriken verwalten, Kennzeichnungsklassifizierungen und Gebotsbeschränkungen verwalten und andere häufige Aufgaben ausführen.
 
-* &quot;Tracking&quot;erläutert, wie Sie Klick- und Konversions-Tracking für Ihre Anzeigen und Suchbegriffe einrichten.
+* Unter „Tracking“ wird erläutert, wie Sie das Klick- und Konversions-Tracking für Ihre Anzeigen und Keywords einrichten.
 
-* In &quot;Kampagnenverwaltung&quot;wird beschrieben, wie Sie Kampagnenkomponenten für Ihre Anzeigennetzwerkkonten einrichten und verwalten.
+* In „Kampagnen-Management“ wird beschrieben, wie Sie Kampagnenkomponenten für Ihre Anzeigennetzwerkkonten einrichten und verwalten.
 
-* In &quot;Einblicke und Berichte&quot;wird erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte generieren und die Berichtproduktion automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und netzwerkgenerierte Empfehlungen für Ihre Konten anzeigen und anwenden können.
+* In „Einblicke und Berichte“ wird erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte generieren und die Berichterstellung automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und netzwerkgenerierte Empfehlungen für Ihre Konten anzeigen und anwenden können.
 
-* In &quot;Tools&quot;wird beschrieben, wie Sie Ihr Kennwort ändern, Tools zum Generieren von Klick-Tracking- und Konversions-Tracking-Tags verwenden, Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele zur Hybrid-Optimierung in die Anzeigennetzwerke hochladen, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads]-Kampagnen in Ihren [!DNL Microsoft Advertising]-Konten replizieren.
+* „Tools“ erklärt, wie Sie Ihr Passwort ändern, Tools zum Generieren von Klick-Tracking- und Konversionsverfolgungstags verwenden, Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele in die Anzeigennetzwerke zur Hybridoptimierung hochladen, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads]-Kampagnen in Ihren [!DNL Microsoft Advertising]-Konten replizieren.
 
-* In &quot;Administration&quot;wird beschrieben, wie Sie Advertiser-Daten verwalten, einschließlich der erfassten Konversionsmetriken und aller Datumsangaben, die aus Portfolioprognosen ausgeschlossen werden sollen. Sie können Ihre Konversionsmetriken mit einem [!DNL Google Analytics] -Konto synchronisieren, verschiedene Einstellungen auf Advertiser-Ebene konfigurieren und (einige Rollen) Benutzer-, Agentur- und Advertiser-Konten verwalten.
+* In „Administration“ wird erläutert, wie Advertiser-Daten verwaltet werden, einschließlich der erfassten Konversionsmetriken und aller Daten, die aus Portfolioprognosen ausgeschlossen werden sollen. Außerdem werden die Konversionsmetriken in einem [!DNL Google Analytics]-Konto synchronisiert, verschiedene Einstellungen auf Advertiser-Ebene konfiguriert und (in einigen Rollen) Benutzer-, Agentur- und Advertiser-Konten verwaltet.
 
 >[!NOTE]
 >
->Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Angebote, ist über das Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfe-Menü")) oben rechts auf jeder Seite in Search, Social und Commerce verfügbar.
+>Die Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Gebote, ist über das Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite in Search, Social und Commerce verfügbar.

@@ -1,6 +1,6 @@
 ---
-title: Propagieren von Inventar-Feed-Daten über Vorlagen
-description: Erfahren Sie mehr über das Übertragen von Daten aus Ihren Inventar-Feeds über Anzeigenvorlagen, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
+title: Übertragen von Inventar-Feed-Daten über Vorlagen
+description: Erfahren Sie, wie Sie Daten aus Ihren Inventar-Feeds über Anzeigenvorlagen übertragen können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,39 +10,39 @@ ht-degree: 0%
 
 ---
 
-# Propagieren von Inventar-Feed-Daten über Vorlagen
+# Übertragen von Inventar-Feed-Daten über Vorlagen
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Aktionen löschen) und [!DNL Yandex] Konten nur*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
 
-Nachdem Sie eine Ad-Netzwerk-spezifische Feed-Vorlage erstellt und eine Feed-Datei oder ein Merchant-Center-Konto vom Typ [!DNL Google] oder [!DNL Microsoft] damit verknüpft haben, können Sie dynamische Anzeigen erstellen, indem Sie die Feed-Daten gemäß den [Feed-Dateneinstellungen](feed-settings-manage.md) über die Vorlage propagieren. Bei der Übertragung werden die Spaltennamen in der Vorlage durch Datenwerte im Feed ersetzt, und die generierten Kampagnen und ihre Komponenten haben die Standardeinstellungen, sofern in der Vorlage nichts anderes angegeben ist. Abhängig von den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Suchbegriffe) für die Anzeigen oder ordnet die Anzeigen der bestehenden Kontostruktur zu.
+Nachdem Sie eine Anzeigennetzwerk-spezifische Feed-Vorlage erstellt und eine Feed-Datei oder ein [!DNL Google]- oder [!DNL Microsoft]-Händlercenter-Konto damit verknüpft haben, können Sie Anzeigen dynamisch erstellen, indem Sie die Feed-Daten gemäß den Einstellungen für [-Daten über die Vorlage ](feed-settings-manage.md). Während der Übertragung werden die Spaltennamen in der Vorlage durch Datenwerte im Feed ersetzt, und die generierten Kampagnen und ihre Komponenten haben die Standardeinstellungen, sofern die Vorlage nicht etwas Anderes angibt. Je nach den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Keywords) für die Anzeigen oder ordnet die Anzeigen der bestehenden Kontostruktur zu.
 
-Wenn neue Feed-Daten neue Datenwerte für ein Element enthalten oder die Vorlage geändert wurde, werden vorhandene Anzeigen gelöscht und neue erstellt. Wenn die einzige Änderung die Bezeichnung von [!DNL Google Ads] Param 1 und Param 2 ist, werden nur diese Werte aktualisiert. Duplizierte Anzeigen (dieselbe Anzeigenkopie und Landingpage) werden nie erstellt.
+Wenn neue Feed-Daten neue Datenwerte für ein Element enthalten oder die Vorlage geändert wurde, werden vorhandene Anzeigen gelöscht und neue erstellt. Wenn die einzige Änderung die Bezeichnung von [!DNL Google Ads] Param 1 und Param 2 ist, werden nur diese Werte aktualisiert. Doppelte Anzeigen (dieselbe Anzeigenkopie und Landingpage) werden nie erstellt.
 
-Wenn Sie Daten propagieren, können Sie optional die generierten Daten in einer Kampagnen-Hierarchieansicht in der Vorschau anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei für die sofortige Veröffentlichung in das Werbenetzwerk generieren. Wenn jede Vermehrungsaktion abgeschlossen ist, wird dem Tab Propagationen eine Zusammenfassung der Propagationen hinzugefügt, die die Anzahl der Entitätstypen angibt, die je nach Vermehrung erstellt, ausgesetzt oder gelöscht wurden. Wenn Sie die Daten nicht sofort posten, können Sie sie in der Vorschau anzeigen und später posten.
+Bei der Übertragung von Daten können Sie optional eine Vorschau der generierten Daten in einer Hierarchieansicht der Kampagne anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei zur sofortigen Veröffentlichung im Werbenetzwerk generieren. Wenn jede Verbreitungsaktion abgeschlossen ist, wird der Registerkarte Ausbreitungen eine Zusammenfassung der Ausbreitung hinzugefügt, die die Anzahl jedes Entitätstyps angibt, der basierend auf der Ausbreitung erstellt wurde oder erstellt, angehalten oder gelöscht werden würde. Wenn Sie die Daten nicht sofort posten, können Sie sie in der Vorschau anzeigen und später posten.
 
-## Übertragen von Feed-Dateien über die Registerkarte &quot;[!UICONTROL Templates]&quot;
+## Übertragen von Feed-Dateien über die Registerkarte [!UICONTROL Templates]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben den zu propagierenden Vorlagen.
 
-1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Propagate]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Propagate]** und wählen Sie eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Propagate Only]:** Zum Anzeigen der propagierten Daten auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]. Sie können die Daten für jede Komponente und ihre Unterkomponenten auch später auf der Registerkarte [!UICONTROL Templates] posten.
+   * **[!UICONTROL Propagate Only]:** Anzeigen der propagierten Daten auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]. Sie können die Daten für eine beliebige Komponente und ihre Unterkomponenten auch später über die Registerkarte [!UICONTROL Templates] posten.
 
-   * **[!UICONTROL Propagate and Preview]:** Um eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`&quot;) zu erstellen, die in der [!UICONTROL Bulksheets]-Ansicht zur Überprüfung verfügbar ist (jedoch nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]). Sie können die Bulksheet-Datei später über die Ansicht &quot;[!UICONTROL Bulksheets]&quot;posten.
+   * **[!UICONTROL Propagate and Preview]:** So erstellen Sie eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„), die in der [!UICONTROL Bulksheets] zur Überprüfung verfügbar ist (jedoch nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]). Sie können die Bulksheet-Datei später über die [!UICONTROL Bulksheets] posten.
 
-     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, weist die Datei das ZIP-Format auf. Sie müssen die Datei nicht entpacken, um sie zu posten.
+     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, liegt die Datei im ZIP-Format vor. Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen.
 
-   * **[!UICONTROL Propagate and Post to SE]:** Um eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`&quot;) zu erstellen, die sofort zum Posten in das Werbenetzwerk in die Warteschlange gestellt wird. Die Bulksheet-Datei ist in der Ansicht [!UICONTROL Bulksheets] verfügbar, aber nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads].
+   * **[!UICONTROL Propagate and Post to SE]:** Erstellen einer Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„), die sofort zur Veröffentlichung im Werbenetzwerk in die Warteschlange gestellt wird. Die Bulksheet-Datei ist in der [!UICONTROL Bulksheets] verfügbar, nicht jedoch auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads].
 
-     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, weist die Datei das ZIP-Format auf.
+     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, liegt die Datei im ZIP-Format vor.
 
-   Die &quot;letzte Prop. Die Spalte Status zeigt den Auftragsstatus für die entsprechenden Vorlagen an.
+   Die „letzte Prop. Die Spalte „Status“ zeigt den Auftragsstatus für die entsprechenden Vorlagen an.
 
-   Wenn jede Vermehrungsaktion abgeschlossen ist, wird dem Tab [!UICONTROL Propagations] eine Zusammenfassung der Vermehrung hinzugefügt, die die Anzahl der Entitätstypen angibt, die basierend auf der Vermehrung erstellt, ausgesetzt oder gelöscht wurden. Die Schätzung enthält keine Änderungen, die aus dem eigenen Anzeigeneditor des Werbenetzwerks vorgenommen wurden.
+   Wenn jede Weiterleitungsaktion abgeschlossen ist, wird der Registerkarte [!UICONTROL Propagations] eine Zusammenfassung der Weiterleitung hinzugefügt, die die Anzahl jedes Entitätstyps angibt, der basierend auf der Weiterleitung erstellt wurde oder werden würde, angehalten oder gelöscht wurde. Die Schätzung umfasst keine Änderungen, die im eigenen Anzeigeneditor des Anzeigennetzwerks vorgenommen wurden.
 
-## Übertragen von Feed-Dateien aus der Liste &quot;[!UICONTROL Feeds]&quot;
+## Übertragen von Feed-Dateien aus der [!UICONTROL Feeds]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
@@ -52,35 +52,35 @@ Wenn Sie Daten propagieren, können Sie optional die generierten Daten in einer 
 
 1. Klicken Sie über der Datentabelle auf **[!UICONTROL Propagate/Post Feed Data]** und wählen Sie dann eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Propagate Only]:** Zum Anzeigen der propagierten Daten auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]. Sie können die Daten für jede Komponente und ihre Unterkomponenten auch später auf der Registerkarte [!UICONTROL Templates] posten.
+   * **[!UICONTROL Propagate Only]:** Anzeigen der propagierten Daten auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]. Sie können die Daten für eine beliebige Komponente und ihre Unterkomponenten auch später über die Registerkarte [!UICONTROL Templates] posten.
 
-   * **[!UICONTROL Propagate and Preview]:** Um eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`&quot;) zu erstellen, die in der [!UICONTROL Bulksheets]-Ansicht zur Überprüfung verfügbar ist (jedoch nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]). Sie können die Bulksheet-Datei später über die Ansicht &quot;[!UICONTROL Bulksheets]&quot;posten.
+   * **[!UICONTROL Propagate and Preview]:** So erstellen Sie eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„), die in der [!UICONTROL Bulksheets] zur Überprüfung verfügbar ist (jedoch nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads]). Sie können die Bulksheet-Datei später über die [!UICONTROL Bulksheets] posten.
 
-     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, weist die Datei das ZIP-Format auf. Sie müssen die Datei nicht entpacken, um sie zu posten.
+     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, liegt die Datei im ZIP-Format vor. Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen.
 
-   * **[!UICONTROL Propagate and Post to SE]:** Um eine Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`&quot;) zu erstellen, die sofort zum Posten in das Werbenetzwerk in die Warteschlange gestellt wird. Die Bulksheet-Datei ist in der Ansicht [!UICONTROL Bulksheets] verfügbar, aber nicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads].
+   * **[!UICONTROL Propagate and Post to SE]:** Erstellen einer Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„), die sofort zur Veröffentlichung im Werbenetzwerk in die Warteschlange gestellt wird. Die Bulksheet-Datei ist in der [!UICONTROL Bulksheets] verfügbar, nicht jedoch auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads].
 
-     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, weist die Datei das ZIP-Format auf.
+     Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, liegt die Datei im ZIP-Format vor.
 
 1. Aktivieren Sie im Popup-Fenster das Kontrollkästchen neben jeder Vorlage, durch die Sie Daten aus der Feed-Datei übertragen möchten, und klicken Sie dann auf **[!UICONTROL Propagate Feed]**.
 
    Alle mit der Datei verknüpften Vorlagen werden aufgelistet.
 
-Die Registerkarte [!UICONTROL Templates] wird geöffnet und die Spalte &quot;[!UICONTROL Last Prop. Status]&quot; zeigt den Auftragsstatus für die entsprechenden Vorlagen an.
+Die Registerkarte &quot;[!UICONTROL Templates]&quot; wird geöffnet und in der Spalte &quot;[!UICONTROL Last Prop. Status]&quot; wird der Auftragsstatus für die entsprechenden Vorlagen angezeigt.
 
-Wenn jede Vermehrungsaktion abgeschlossen ist, wird dem Tab [!UICONTROL Propagations] eine Zusammenfassung der Vermehrung hinzugefügt, die die Anzahl der Entitätstypen angibt, die basierend auf der Vermehrung erstellt, ausgesetzt oder gelöscht wurden. Die Schätzung enthält keine Änderungen, die aus dem eigenen Anzeigeneditor des Werbenetzwerks vorgenommen wurden.
+Wenn jede Weiterleitungsaktion abgeschlossen ist, wird der Registerkarte [!UICONTROL Propagations] eine Zusammenfassung der Weiterleitung hinzugefügt, die die Anzahl jedes Entitätstyps angibt, der basierend auf der Weiterleitung erstellt wurde oder werden würde, angehalten oder gelöscht wurde. Die Schätzung umfasst keine Änderungen, die im eigenen Anzeigeneditor des Anzeigennetzwerks vorgenommen wurden.
 
-## Anzeigen einer Propagierungszusammenfassung
+## Anzeigen einer Ausbreitungszusammenfassung
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Propagations]** .
 
-1. Klicken Sie neben dem Vorlagennamen auf ![Einstellungssymbol anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungssymbol anzeigen/bearbeiten") .
+1. Klicken Sie neben dem Vorlagennamen auf das Symbol ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungssymbol anzeigen/bearbeiten") .
 
-## Propagierungsauftrag stoppen
+## Stoppen eines Ausbreitungsauftrags
 
-Sie können einen Übermittlungsauftrag für Inventar-Feed-Daten stoppen, während der Auftrag noch in der Warteschlange ist.
+Sie können einen Verbreitungsauftrag für Inventar-Feed-Daten stoppen, während der Auftrag noch in der Warteschlange ist.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
@@ -90,8 +90,8 @@ Sie können einen Übermittlungsauftrag für Inventar-Feed-Daten stoppen, währe
 >
 >* [Über Inventar-Feeds](inventory-feeds-about.md)
 >* [Verwalten von Anzeigenvorlagen für Inventar-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
->* [Aus Feeds generierte Daten anzeigen](propagated-data-view.md)
->* [Aus Feeds generierte Daten bearbeiten](propagated-data-edit.md)
->* [Veröffentlichen von aus Feeds generierten Kampagnendaten in Werbenetzwerke](propagated-data-post.md)
->* [Beenden eines Veröffentlichungsauftrags für Inventar-Feed-Daten](stop-job.md)
->* [Status der aus Feeds generierten Daten](propagated-data-status.md)
+>* [Anzeigen der von Feeds generierten Daten](propagated-data-view.md)
+>* [Bearbeiten der von Feeds generierten Daten](propagated-data-edit.md)
+>* [Post-Kampagnendaten, die von Feeds an Werbenetzwerke generiert werden](propagated-data-post.md)
+>* [Buchungsauftrag für Inventar-Feed-Daten anhalten](stop-job.md)
+>* [Status der von Feeds generierten Daten](propagated-data-status.md)

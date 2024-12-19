@@ -14,10 +14,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für ein oder mehrere Pakete im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an den meisten Feldern vornehmen und sie wieder DSP alle gleichzeitig hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](package-qa.md)&quot;.
+>Sie können auch die Einstellungen für ein oder mehrere Pakete im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an den meisten Feldern vornehmen und sie gleichzeitig wieder in DSP hochladen. Siehe [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](package-qa.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
-1. Klicken Sie auf den Namen der Kampagne, um die Ansicht [!UICONTROL Packages] zu öffnen.
+1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] zu öffnen.
 1. Klicken Sie neben dem Paketnamen auf **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 1. Bearbeiten Sie die [Paketeinstellungen](package-settings.md).
 1. Klicken Sie auf **[!UICONTROL Save and Close]**.
@@ -27,7 +27,7 @@ ht-degree: 0%
 >* [Über die Paketverwaltung](package-about.md)
 >* [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Erstellen eines Pakets](package-create.md)
->* [Duplizieren eines Pakets](package-duplicate.md)
+>* [Duplizieren Sie ein Paket](package-duplicate.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
->* [Ein Paket anhalten oder aktivieren](package-pause-activate.md)
+>* [Pausieren oder Aktivieren eines Pakets](package-pause-activate.md)
 >* [Paketeinstellungen](package-settings.md)

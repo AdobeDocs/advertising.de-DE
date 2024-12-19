@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Dokumentation zu Advertising DSP
 
-Dies ist der Ordner für DSP Hilfedokumentation.
+Dies ist der Ordner für die DSP-Hilfedokumentation.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

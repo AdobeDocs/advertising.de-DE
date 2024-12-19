@@ -14,18 +14,18 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Der [!UICONTROL AdWords and Bing Audience Target Report] enthält Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten nach Zielgruppen-Ziel ([!DNL Google Ads] kundendatenbasierte, marktinterne und ähnliche Zielgruppen und Ihre [!DNL Microsoft Advertising] Remarketing-, benutzerspezifischen, Kundenabgleich-, Ähnliche- und In-Market-Zielgruppen ) für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Zielgruppe, die mindestens eine Impression oder einen Klick für jede zutreffende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen werden in aufsteigender Reihenfolge nach Anzeigengruppenname und dann standardmäßig nach Zielgruppe sortiert. Der Bericht enthält Konversionsdaten, die von [!DNL Adobe] nur für Remarketing-Listenziele verfolgt werden.
+Die [!UICONTROL AdWords and Bing Audience Target Report] enthält Kosten-, Klick-, Impression- und (optional) abgeleitete Metrikdaten nach Zielgruppen-Ziel ([!DNL Google Ads] kundendatenbasiert, marktintern und ähnliche Zielgruppen sowie Ihre [!DNL Microsoft Advertising] Remarketing-, benutzerdefinierten, Kundenabgleich-, ähnlichen und marktintern verwendeten Zielgruppen ) für eine oder mehrere Anzeigengruppen oder Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Zielgruppe, die mindestens eine Impression oder einen Klick für jede entsprechende Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen sind standardmäßig nach Anzeigengruppenname und dann nach Zielgruppe in aufsteigender Reihenfolge sortiert. Der Bericht enthält Konversionsdaten, die von [!DNL Adobe] nur für Remarketing-Listenziele verfolgt werden.
 
 Sie können Daten für bis zum Vorjahr anzeigen.
 
 >[!NOTE]
 >
->* [!DNL Google Ads] bietet nicht die Möglichkeit, Umsatzdaten für In-Market-Zielgruppen zu verfolgen.
->* Die Daten für diesen Bericht werden täglich um 23:00 Uhr (11:00 Uhr) für den vorherigen Tag abgerufen. Beispiel: Um 23:00 Uhr am 18. Juni ruft es Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, dann enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
+>* [!DNL Google Ads] bietet keine Möglichkeit, Umsatzdaten für marktinterne Zielgruppen zu verfolgen.
+>* Die Daten für diesen Bericht werden für den Vortag jeden Tag um 23:00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -42,6 +42,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)

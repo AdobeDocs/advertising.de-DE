@@ -1,6 +1,6 @@
 ---
 title: '[!DNL On Demand] Premium Inventory Publishers in Nordamerika'
-description: Siehe verfügbare [!DNL On Demand] Premium-Inventarverlage in Nordamerika.
+description: Siehe die  [!DNL On Demand] -Premium-Inventarverlage in Nordamerika.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Herausgeber | Geo |
+| Veröffentlicher | Geo |
 |---------------------------------------------|--------|
 | [!DNL AccuRadio] | Kanada |
 | [!DNL BBC] | Kanada |
@@ -177,8 +177,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
->* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
+>* [Über [!DNL On Demand] Premium-Inventar](on-demand-inventory-about.md)
+>* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventar](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)

@@ -1,6 +1,6 @@
 ---
-title: Eine [!DNL Google Analytics] Datenquelle bearbeiten
-description: Erfahren Sie, wie Sie die Konfiguration für eine  [!DNL Google Analytics] Datenquelle bearbeiten.
+title: 'Datenquelle  [!DNL Google Analytics] '
+description: Erfahren Sie, wie Sie die Konfiguration für eine Datenquelle  [!DNL Google Analytics] .
 role: User, Admin
 exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Eine [!DNL Google Analytics] Datenquelle bearbeiten
+# Bearbeiten einer [!DNL Google Analytics] Datenquelle
 
-*Agentenadministratoren (Basisrolle), Nur Adobe Account Manager und Administratoren*
+*Agenturadministratoren (Basisrolle), Adobe-Account-Manager und nur Administratoren*
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -27,10 +27,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Synchronisierung von [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
->* [Voraussetzungen für die Konfiguration einer  [!DNL Google Analytics] Datenquelle](data-source-prerequisites.md)
->* [Konfigurieren einer [!DNL Google Analytics] Ansicht als Datenquelle](data-source-configure.md)
+>* [Über Synchronisierungs [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
+>* [Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle](data-source-prerequisites.md)
+>* [Konfigurieren einer  [!DNL Google Analytics] -Ansicht als Datenquelle](data-source-configure.md)
 >* [Synchronisierung einer Datenquelle anhalten](data-source-pause.md)
->* [Erneutes Authentifizieren einer  [!DNL Google Analytics] Datenquelle](data-source-reauthenticate.md)
+>* [Erneutes Authentifizieren  [!DNL Google Analytics]  Datenquelle](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
->* [Anhang - Verfügbare [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)
+>* [Anhang - Verfügbare  [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)

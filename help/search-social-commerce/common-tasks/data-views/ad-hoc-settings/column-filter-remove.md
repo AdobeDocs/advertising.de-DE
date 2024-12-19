@@ -16,6 +16,6 @@ ht-degree: 0%
 >
 >Sie können auch mehrere Filter in einem Filtersatz entfernen, indem Sie [den Filtersatz bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
 
-1. (Falls erforderlich) Klicken Sie im Filtersatz über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more-filters.png "Mehr") , um den Filtersatz zu erweitern.
+1. (Falls erforderlich) Klicken Sie im Filtersatz über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more-filters.png "Mehr"), um den Filtersatz zu erweitern.
 
 1. Klicken Sie über der Datentabelle in der Filterdefinition auf **[!UICONTROL X]** .

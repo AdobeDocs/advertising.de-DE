@@ -1,6 +1,6 @@
 ---
-title: Verfügbare Drittanbieter-Datenanbieter in Advertising DSP
-description: Sehen Sie sich eine Liste aller verfügbaren Datenanbieter von Drittanbietern an.
+title: Verfügbare Datenanbieter von Drittanbietern in Advertising DSP
+description: Hier finden Sie eine Liste aller verfügbaren Drittanbieter von Daten.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
 source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 <!-- feature: audiences -->
 
-# Verfügbare Drittanbieter-Datenanbieter in Advertising DSP
+# Verfügbare Datenanbieter von Drittanbietern in Advertising DSP
 
-Datenkategorien und Segmente für die folgenden Drittanbieter sind als Platzierungsziele in DSP verfügbar. Diese Segmente sind in erster Linie für US-Zielgruppen verfügbar.
+Datenkategorien und Segmente für die folgenden Drittanbieter von Daten sind als Platzierungsziele in DSP verfügbar. Diese Segmente sind hauptsächlich für Zielgruppen in den USA verfügbar.
 
-Die Gebühr für die Verwendung der einzelnen Segmente wird neben dem Segmentnamen in den Platzierungseinstellungen und den gespeicherten Zielgruppeneinstellungen angezeigt.
+Die Gebühr für die Verwendung jedes Segments wird neben dem Segmentnamen in den Platzierungs- und gespeicherten Zielgruppeneinstellungen angezeigt.
 
 * [!DNL Adsquare]
 * [!DNL digitalAudience]
@@ -39,10 +39,10 @@ Die Gebühr für die Verwendung der einzelnen Segmente wird neben dem Segmentnam
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
-Weitere Informationen zum Importieren von benutzerdefinierten Drittanbietersegmenten für Ihr Konto erhalten Sie von Ihrem Adobe Account-Team.
+Weitere Informationen zum Importieren benutzerdefinierter Drittanbietersegmente für Ihr Konto erhalten Sie von Ihrem Adobe-Account-Team.
 
 >[!MORELIKETHIS]
 >
->* [Über Zielgruppen-Management](audience-about.md)
+>* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)

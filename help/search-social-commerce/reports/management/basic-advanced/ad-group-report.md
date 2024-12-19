@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # [!UICONTROL Ad Group Report]
 
-Der [!UICONTROL Ad Group Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten für jede relevante Anzeigengruppe eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Anzeigengruppe und dann nach Kampagne.
+Die [!UICONTROL Ad Group Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Anzeigengruppen. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Anzeigengruppe für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Anzeigengruppe und dann nach Kampagne.
 
-Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
+Sie können optional Advertiser-spezifische Label-Klassifizierungen einbeziehen.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 >[!NOTE]
 >
->Daten auf Anzeigengruppenebene stehen nicht für maximal [!DNL Google Ads] Kampagnen zur Performance zur Verfügung. Wenn Sie über Kampagnen mit der maximalen Leistung verfügen, erwarten Sie Abweichungen zwischen den Gesamtdaten auf Anzeigengruppenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
+>Daten auf Anzeigengruppenebene sind nicht für Kampagnen mit dem Typ „Maximale Leistung [!DNL Google Ads]&quot; verfügbar. Wenn Sie Kampagnen mit dem Typ „Performance Max“ haben, achten Sie auf Diskrepanzen zwischen den Gesamtdaten auf Anzeigengruppenebene für eine Kampagne und den Gesamtdaten für die Kampagne.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Ad Group]
 * [!UICONTROL Campaign]
@@ -45,4 +45,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

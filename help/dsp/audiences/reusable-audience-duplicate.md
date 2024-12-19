@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Duplizieren einer wiederverwendbaren Zielgruppe
 
-Sie können eine Audience erstellen, indem Sie eine vorhandene Audience duplizieren.
+Sie können eine Zielgruppe erstellen, indem Sie eine vorhandene Zielgruppe duplizieren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Duplicate]**.
+1. Halten Sie den Cursor über die Zeile Audience und klicken Sie auf **[!UICONTROL Duplicate]**.
 
-1. (Optional) Ändern Sie den standardmäßigen Zielgruppennamen in einen anderen eindeutigen Namen.
+1. (Optional) Ändern Sie den Standardnamen der Zielgruppe in einen anderen eindeutigen Namen.
 
-   Standardmäßig heißt die neue Zielgruppe &quot;[audience] copy&quot;.
+   Standardmäßig heißt die neue Zielgruppe &quot;[audience] copy“.
 
 1. Klicken Sie auf **[!UICONTROL Duplicate]**.
 
@@ -28,14 +28,14 @@ Sie können eine Audience erstellen, indem Sie eine vorhandene Audience duplizie
 
 >[!MORELIKETHIS]
 >
->* [Über Zielgruppen-Management](audience-about.md)
+>* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
->* [Eine wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
->* [Details zu einer wiederverwendbaren Zielgruppe anzeigen](reusable-audience-view-details.md)
->* [Wiederverwendbare Zielgruppe freigeben](reusable-audience-share.md)
->* [Exportieren einer wiederverwendbaren Zielgruppe](reusable-audience-export.md)
+>* [Wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
+>* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Freigeben einer wiederverwendbaren Zielgruppe](reusable-audience-share.md)
+>* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
->* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
+>* [Löschen einer wiederverwendbaren Zielgruppe](reusable-audience-delete.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
->* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
->* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)
+>* [Syntax für die Logik von Zielgruppensegmenten](audience-segment-logic-syntax.md)
+>* [Verfügbare Datenanbieter von Drittanbietern](third-party-data-providers.md)

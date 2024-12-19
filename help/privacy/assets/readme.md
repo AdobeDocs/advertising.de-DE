@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Verschiedene Unterlagen für Adobe Advertising
+# Verschiedene Dokumentationen zum Adobe Advertising
 
-Dieser Ordner ist nur für Bilddateien und andere Asset-Dateien für Dateien im Ordner /privacy/ vorgesehen.
+Dieser Ordner ist nur für Bilddateien und andere Asset-Dateien für Dateien im Ordner &quot;/privacy/&quot; vorgesehen.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

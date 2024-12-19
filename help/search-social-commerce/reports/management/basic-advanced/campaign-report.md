@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Report]
 
-Der [!UICONTROL Campaign Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Kampagnen mit Suchbegriffen. Standardmäßig enthalten die Daten für jede anwendbare Kampagne eine Zeile für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
+Die [!UICONTROL Campaign Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für eine oder mehrere Kampagnen mit Schlüsselwörtern. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kampagne für jede Zeiteinheit im angegebenen Datumsbereich, und die Zeilen sind in aufsteigender Reihenfolge, zuerst nach Kampagne und dann (falls zutreffend) nach Portfolio.
 
-Sie können optional Advertiser-spezifische Beschriftungsklassifizierungen einbeziehen.
+Sie können optional Advertiser-spezifische Label-Klassifizierungen einbeziehen.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -41,4 +41,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

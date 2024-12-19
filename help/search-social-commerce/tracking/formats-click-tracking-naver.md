@@ -1,6 +1,6 @@
 ---
-title: Klick-Tracking-Formate für  [!DNL Naver]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Naver] Konten.
+title: Klick-Tracking-Formate für [!DNL Naver]
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Naver] .
 exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -22,13 +22,13 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Advertisers innerhalb von Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
 >
->* Dieses Format gibt an, dass die Übergabe des Tokens für die Kampagne aktiviert ist (Standardeinstellung). Wenn die Übergabe des Tokens deaktiviert ist, ersetzen Sie `cq?` nach `<advertiser_ID>` durch `c?`.
+>* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
 * `<the landing page>` ist eine Variable, die die URL auf Ihrer Site darstellt, zu der Endbenutzer weitergeleitet werden.
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversions-Tracking-Dienst](formats-click-tracking-about.md)
->* [AMO-ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
+>* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)

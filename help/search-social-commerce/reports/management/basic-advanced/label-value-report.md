@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # [!UICONTROL Label Value Report]
 
-Der [!UICONTROL Label Value Report] enthält Kosten-, Klick- und (optional) Konversionsdaten nach Beschriftungs-Classification-Wert, der über Portfolios, Werbenetzwerke, Konten, Kampagnen oder Anzeigengruppen aggregiert ist. Standardmäßig enthalten die Daten eine Zeile für jeden entsprechenden Wert für Suchbegriffe, Anzeigen und Platzierungen, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten haben. Die Zeilen werden in aufsteigender Reihenfolge angezeigt, zunächst am Startdatum der Zeiteinheit, dann standardmäßig nach Kosten und dann nach Beschriftungswert. Sie können auch die Anzahl der Entitätstypen anzeigen, denen der Beschriftungswert zugewiesen ist.
+Die [!UICONTROL Label Value Report] enthält Kosten-, Klick- und (optional) Konversionsdaten nach Kennzeichnungsklassifizierungswert, der über Portfolios, Werbenetzwerke, Konten, Kampagnen oder Anzeigengruppen aggregiert ist. Standardmäßig enthalten die Daten eine Zeile für jeden entsprechenden Wert für Schlüsselwörter, Anzeigen und Platzierungen, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten haben. Die Zeilen sind in aufsteigender Reihenfolge sortiert, zuerst nach dem Startdatum für die Zeiteinheit, dann standardmäßig nach Kosten und dann nach dem Titelwert. Sie können auch die Nummer jedes Entitätstyps anzeigen, dem der Titelwert zugewiesen ist.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 >[!NOTE]
 >
->Alle Änderungen, die Sie an den Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
+>Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Label Value]
 * [!UICONTROL Label Classification]
@@ -40,4 +40,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

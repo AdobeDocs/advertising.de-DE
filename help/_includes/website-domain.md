@@ -5,14 +5,14 @@ source-wordcount: '103'
 ht-degree: 0%
 
 ---
-# Website-Domänenfeld in GGL- und MS-Suchkampagneneinstellungen
+# Website-Domain-Feld in den Einstellungen der GPL und MS Search-Kampagnen
 
-**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur für erweiterte dynamische Suchanzeigen verfügbar) Die Stammdomäne (z. B. example.com) oder Subdomäne (z. B. shoes.example.com) der Website, deren Inhalt das Werbenetzwerk für das Targeting Ihrer dynamischen Suchanzeigen verwenden sollte.
+**[!UICONTROL Website Domain]:** (Nur Suchnetzwerk; nur auf erweiterte dynamische Suchanzeigen anwendbar) Die Stamm-Domain (z. B. example.com) oder Subdomain (z. B. shoes.example.com) der Website, deren Inhalt das Anzeigennetzwerk für das Targeting Ihrer dynamischen Suchanzeigen verwenden soll.
 
-**Notizen:**
+**Hinweise:**
 
-* Erweiterte dynamische Suchanzeigen zielen auf den Inhalt der Website und nicht auf Suchbegriffe ab.
+* Erweiterte dynamische Suchanzeigen zielen auf Website-Inhalte statt auf Keywords ab.
 
-* Ihre Domäne muss durch den organischen Suchindex des Werbenetzwerks indiziert sein, damit Targeting erfolgt.
+* Ihre Domain muss vom organischen Suchindex des Anzeigennetzwerks indiziert sein, damit sie als Ziel ausgewählt werden kann.
 
-* Wenn Sie keine Domäne angeben, müssen Sie dynamische Suchziele erstellen, die für jede Anzeigengruppe entweder alle Seiten Ihrer Website oder eine Untergruppe von Seiten als Ziel auswählen.
+* Wenn Sie keine Domain angeben, müssen Sie für jede Anzeigengruppe dynamische Suchziele erstellen, die entweder alle Ihre Website-Seiten oder eine Untergruppe von Seiten ansprechen.

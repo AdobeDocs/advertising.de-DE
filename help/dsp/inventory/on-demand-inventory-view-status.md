@@ -1,6 +1,6 @@
 ---
-title: Anzeigen des Status Ihrer [!DNL On Demand] Kaufanfragen und -anmeldungen
-description: Erfahren Sie, wie Sie den Status Ihrer [!DNL On Demand] Kaufanfragen und -abonnements anzeigen können.
+title: Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen
+description: Erfahren Sie, wie Sie den Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -10,40 +10,40 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen des Status Ihrer [!DNL On Demand] Kaufanfragen und -anmeldungen
+# Status Ihrer [!DNL On Demand]-Deal-Anfragen und -Abonnements anzeigen
 
-Nachdem Sie ein individuelles Angebot angefordert oder alle Angebote eines Herausgebers abonniert haben, überprüfen Sie, ob der Herausgeber jedes Geschäft für jeden Advertiser in Ihrem Konto genehmigt oder abgelehnt hat.
+Nachdem Sie einen einzelnen Deal angefordert oder alle Deals eines Publishers abonniert haben, überprüfen Sie, ob der Publisher jeden Deal für jeden Advertiser in Ihrem Konto genehmigt oder abgelehnt hat.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
-1. Filtern Sie die verfügbaren Angebote, um Angebote einzuschließen, die Sie angefordert oder abonniert haben (**[!UICONTROL Currently subscribed to]**)**.
+1. Filtern Sie die verfügbaren Angebote nach Angeboten, die Sie angefordert oder abonniert haben (**[!UICONTROL Currently subscribed to]**)**.
 1. Führen Sie einen der folgenden Schritte aus:
-   * Um die Angebote in der Ansicht [!UICONTROL Deal] anzuzeigen, klicken Sie auf **[!UICONTROL Deal view]**.
-   * So zeigen Sie die Angebote in der Ansicht [!UICONTROL Subscription] an:
+   * Um die Angebote in der [!UICONTROL Deal] Ansicht anzuzeigen, klicken Sie auf **[!UICONTROL Deal view]**.
+   * So zeigen Sie die Angebote in der [!UICONTROL Subscription] an:
       1. Klicken Sie auf **[!UICONTROL Subscription view]**.
-      1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie auf **[!UICONTROL See Deals]**.
+      1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 1. Suchen Sie die Spalte [!UICONTROL Status] , um den Genehmigungsstatus anzuzeigen.
 
-## Verkaufsstatus
+## Abschlussstatus
 
-Die Genehmigung oder Ablehnung eines Herausgebers kann auf dem Kontotyp und der Kampagnenkategorie des Kontos, der Advertiser-Kategorie und der Blockierungsliste des Herausgebers basieren.
+Die Genehmigung oder Ablehnung durch den Herausgeber kann auf dem Kontotyp und der Kampagnenkategorie für das Konto, der Werbekategorie und der Liste der blockierten Werbekunden des Herausgebers basieren.
 
-* ![vollständig genehmigt](/help/dsp/assets/approved.png) für Geschäftsanforderungen, die für alle Advertiser im Konto genehmigt wurden
+* ![Vollständig genehmigt](/help/dsp/assets/approved.png) für Abschlussanfragen, die für alle Advertiser im Konto genehmigt wurden
 
-* ![teilweise genehmigt](/help/dsp/assets/partly-approved.png) für Geschäftsanforderungen, die für einige, aber nicht alle Advertiser im Konto genehmigt wurden
+* ![Teilweise genehmigt](/help/dsp/assets/partly-approved.png) für Abschlussanfragen, die für einige, aber nicht alle Werbetreibenden im Konto genehmigt wurden
 
-  Um zu sehen, warum eine Anfrage für einen Advertiser abgelehnt wurde, klicken Sie auf ![teilweise genehmigt](/help/dsp/assets/partly-approved.png).
+  Um zu sehen, warum eine Anfrage für einen Advertiser abgelehnt wurde, klicken Sie auf ![Teilweise genehmigt](/help/dsp/assets/partly-approved.png).
 
-* ![denied](/help/dsp/assets/denied.png) für Geschäftsanforderungen, die für alle Advertiser in dem Konto abgelehnt wurden
+* ![abgelehnt](/help/dsp/assets/denied.png) für Abschlussanfragen, die für alle Advertiser im Konto abgelehnt wurden
 
-  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![abgelehnt](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung eine Lösung ist, können Sie [den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [ den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-Wenden Sie sich bei Fragen zum Validierungsprozess an Ihr Adobe-Account-Team.
+Wenn Sie Fragen zum Genehmigungsprozess haben, wenden Sie sich an Ihr Adobe-Account-Team.
 
 >[!MORELIKETHIS]
 >
->* [Registrieren und Anfordern des Zugriffs auf [!DNL On Demand] Premium Inventory Deals](on-demand-inventory-subscribe.md)
->* [Re-Request On-Demand Premium Inventory Deals](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
+>* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventarangebote](on-demand-inventory-subscribe.md)
+>* [Prämienangebote auf Anfrage erneut anfordern](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)

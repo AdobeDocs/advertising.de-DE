@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # [!UICONTROL Transaction Report]
 
-Der [!UICONTROL Transaction Report] enthält Details auf Transaktionsebene für aktuelle Suchbegriffe in Anzeigengruppen in der Suche und
-Display-Kampagnen — und für Anzeigensets in Social-Media-Kampagnen — innerhalb bestimmter Portfolios (falls zutreffend) oder Anzeigenkonten. Optional können Sie Konversionsmetriken einbeziehen. Sie können die Ergebnisse aus diesem Bericht mit den Transaktionsdaten des Advertisers vergleichen, um sicherzustellen, dass Search, Social und Commerce alle Transaktionen des Advertisers meldet.
+Die [!UICONTROL Transaction Report] enthält Details auf Transaktionsebene für aktuelle Keywords in Anzeigengruppen in Suche und
+Zeigen Sie Kampagnen — und für Anzeigensätze in Social-Media-Kampagnen — innerhalb bestimmter Portfolios (falls zutreffend) oder Werbekonten an. Optional können Sie Konversionsmetriken einbeziehen. Sie können die Ergebnisse dieses Berichts mit den Transaktionsdaten des Werbetreibenden vergleichen, um zu überprüfen, ob Search, Social und Commerce alle Transaktionen des Werbetreibenden melden.
 
-Standardmäßig enthält der Bericht Daten zu Transaktionen, die innerhalb des angegebenen Datumsbereichs aufgetreten sind. Die Daten für jede Transaktion umfassen die Transaktions-ID, die Transaktions- und Klick-/Impressionszeiten, den Konversionstyp, die Konversionsmetrik und die Umsatzdaten für die Konversionsmetrik (z. B. 1 für eine Registrierung oder 12 für eine Bestellung im Wert von 12 Euro) für jeden Suchbegriff oder jede Kombination aus Anzeigengruppe/Kampagne/Portfolio. Standardmäßig werden die Zeilen in aufsteigender Reihenfolge zuerst nach Transaktionszeit und dann nach Klickzeit angezeigt.
+Standardmäßig enthält der Bericht Daten zu Transaktionen, die innerhalb des angegebenen Datumsbereichs aufgetreten sind. Die Daten für jede Transaktion umfassen die Transaktions-ID, die Transaktions- und Klick-/Impressionszeiten, den Konversionstyp, die Konversionsmetrik und die Umsatzdaten für die Konversionsmetrik (z. B. 1 für eine Registrierung oder 12 für eine Bestellung im Wert von 12 US-Dollar) für jedes Keyword oder jede Kombination aus Anzeigengruppe/Kampagne/Portfolio. Standardmäßig werden die Zeilen zuerst nach Transaktionszeit und dann nach Klickzeit in aufsteigender Reihenfolge angezeigt.
 
 Sie können Daten der letzten 45 Tage anzeigen.
 
 >[!NOTE]
 >
->* Wenn mehrere Angebotseinheiten mit unterschiedlichen Übereinstimmungstypen dieselbe Transaktions-ID haben, wird der Umsatz für die Tracking-ID nach der Anzahl der Klicks am angegebenen Klickdatum aufgeteilt.
->* Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen oder in Anzeige- oder Social-Kampagnen enthält (die keine Suchbegriffe enthalten), enthält die Spalte [!UICONTROL Keyword] im abgeschlossenen Bericht die entsprechenden Anzeigengruppennamen, wie z. B. &quot;(Anzeigengruppeninhalt) Ihr Anzeigengruppenname&quot;.
+>* Wenn mehrere Gebotseinheiten mit unterschiedlichen Übereinstimmungstypen dieselbe Transaktions-ID haben, wird der Umsatz für die Tracking-ID gemäß der Anzahl der Klicks am angegebenen Klickdatum aufgeteilt.
+>* Wenn der Bericht Daten aus Anzeigengruppen in inhaltsaktivierten Suchkampagnen oder in Display- oder Social-Media-Kampagnen enthält (die keine Keywords enthalten), enthält die Spalte [!UICONTROL Keyword] im abgeschlossenen Bericht die entsprechenden Anzeigengruppennamen, wie z. B. „Anzeigengruppeninhalt: Name Ihrer Anzeigengruppe“.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Portfolio]
@@ -43,4 +43,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

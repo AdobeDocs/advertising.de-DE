@@ -12,26 +12,26 @@ ht-degree: 0%
 
 # [!UICONTROL Geo Distribution Report]
 
-Der [!UICONTROL Geo Distribution Report] enthält die geschätzte Anzahl gebührenpflichtiger Klicks [^1] nach geografischer Region, die anhand der IP-Adresse des Suchbenutzers für Kampagnen innerhalb bestimmter Portfolios (falls zutreffend) oder Anzeigenkonten bestimmt wird. Optional können Sie Konversionsmetriken einbeziehen. Standardmäßig enthalten die Daten die geschätzte Anzahl der Klicks für jede Kombination aus Anzeigengruppe/Kampagne/Portfolio für jede Region, die Klicks generiert hat, und die Zeilen sind nach geschätzten Klicks in absteigender Reihenfolge sortiert.
+Die [!UICONTROL Geo Distribution Report] enthält die geschätzte Anzahl bezahlter Klicks [^1] nach geografischer Region, die anhand der IP-Adresse des Suchbenutzers für Kampagnen innerhalb bestimmter Portfolios (falls zutreffend) oder Werbekonten bestimmt wird. Optional können Sie Konversionsmetriken einbeziehen. Standardmäßig enthalten die Daten die geschätzte Anzahl der Klicks für jede Anzeigengruppen-/Kampagnen-/Portfoliokombination für jede Region, die Klicks generiert hat, und die Zeilen befinden sich in absteigender Reihenfolge nach den geschätzten Klicks.
 
-Geschätzte Impressionen und veranschlagte Kosten stehen nur für Display-Tracking-Kampagnen zur Verfügung.
+Geschätzte Impressionen und geschätzte Kosten sind nur für Kampagnen verfügbar, die nur die Verfolgung anzeigen.
 
-Sie können Daten aus den letzten zwei (2) Monaten plus dem aktuellen Monat anzeigen.
+Sie können Daten der letzten zwei (2) Monate plus des aktuellen Monats anzeigen.
 
 >[!NOTE]
 >
->* Daten sind nur für Such- und Display-Kampagnen verfügbar.
->* Die Summen für diesen Bericht können aufgrund verschiedener Anbieter und Methoden bei der Bestimmung geografischer Standorte von den Summen für dieselben Kampagnen in der [!DNL Google Ads Geo Report] (die von [!DNL Google Ads] kompiliert werden) abweichen.
+>* Daten sind nur für Kampagnen zum Suchen und Anzeigen verfügbar.
+>* Die Gesamtwerte für diesen Bericht können von den Gesamtwerten für dieselben Kampagnen in der [!DNL Google Ads Geo Report] (die erstellt [!DNL Google Ads]) abweichen, da bei der Bestimmung der geografischen Standorte unterschiedliche Anbieter und Methoden zum Einsatz kommen.
 
 >[!TIP]
 >
->Nutzen Sie die Ergebnisse, um geografische Trends zu nutzen. Wenn beispielsweise Benutzer in Kalifornien eine deutlich höhere Konversionsrate haben als andere Bereiche einer bestimmten Kampagne, sollten Sie für diese Kampagne speziell Benutzer in Kalifornien auswählen, mit Ausnahme von Benutzern in anderen Bereichen. Beachten Sie jedoch, dass plötzliche Markttrends das Benutzerverhalten in anderen Bereichen beeinflussen können, wodurch auch diese Bereiche potenziell profitabel werden. Verwenden Sie das geografische Targeting mit geografisch spezifischen Keywords und Anzeigen, um die besten Ergebnisse zu erzielen.
+>Nutzung der Ergebnisse zur Nutzung geografischer Trends. Wenn beispielsweise Benutzende in Kalifornien eine erheblich höhere Konversionsrate aufweisen als andere Bereiche für eine bestimmte Kampagne, empfiehlt es sich möglicherweise, für diese Kampagne speziell Benutzende in Kalifornien anzusprechen, jedoch keine Benutzenden in anderen Bereichen. Seien Sie sich jedoch bewusst, dass plötzliche Markttrends das Benutzerverhalten in anderen Bereichen beeinflussen und diese potenziell profitabel machen können. Verwenden Sie für optimale Ergebnisse geografisches Targeting mit geografisch spezifischen Keywords und Anzeigen.
 
-[^1]: Die Klickdaten (oder Clickthrough-Daten) für diese Berichte werden als Schätzungen und nicht als tatsächliche Daten angezeigt, da Search, Social und Commerce möglicherweise andere Algorithmen verwenden als die verschiedenen Werbenetzwerke, um gültige Klicks zu erkennen, und weil Search, Social und Commerce Suchbegriffe nicht zählt, für die in der Vorwoche keine Klicks aufgezeichnet wurden. Das Konversions-Tracking-System kann auch Daten für Anzeigennetzwerkkonten enthalten, mit denen Search, Social und Commerce nicht synchronisiert werden.
+[^1]: Die Klickdaten (oder Clickthrough-Daten) für diese Berichte werden als Schätzungen und nicht als tatsächliche Daten angezeigt, da Search, Social und Commerce möglicherweise andere Algorithmen verwenden als die verschiedenen Anzeigennetzwerke, um gültige Klicks zu erkennen, und da Search, Social und Commerce keine Keywords zählen, für die in der Vorwoche keine Klicks aufgezeichnet wurden. Das Konversionsverfolgungssystem kann auch Daten für Anzeigennetzwerkkonten enthalten, mit denen Search, Social und Commerce nicht synchronisiert werden.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Country]
 * [!UICONTROL State]
@@ -46,4 +46,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

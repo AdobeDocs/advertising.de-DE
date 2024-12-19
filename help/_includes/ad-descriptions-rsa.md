@@ -5,16 +5,16 @@ source-wordcount: '146'
 ht-degree: 0%
 
 ---
-# Anzeigenbeschreibungsfeld in den RSA-Anzeigeneinstellungen
+# Feld Anzeigenbeschreibungen in den RSA-Anzeigeneinstellungen
 
-**[!UICONTROL Ad Descriptions]:** Mindestens zwei und bis zu vier Anzeigenbeschreibungen mit optionalen Positionsnadeln. Das Werbenetzwerk zeigt Anzeigen mit bis zu zwei Beschreibungen an. Geben Sie mindestens zwei ein. Die maximale Länge für jede Beschreibung beträgt 90 Zeichen, einschließlich dynamischer Texte (z. B. Suchbegriffe und Anzeigenanpassungen).
+**[!UICONTROL Ad Descriptions]:** Mindestens zwei und bis zu vier Anzeigenbeschreibungen mit optionalen Positionsstiften. Das Anzeigennetzwerk zeigt Anzeigen mit bis zu zwei Beschreibungen an. Geben Sie mindestens zwei ein. Die maximale Länge für jede Beschreibung beträgt 90 Zeichen, einschließlich dynamischer Texte (z. B. Werte von Schlüsselwörtern und Anzeigenanpassungen).
 
-Verwenden Sie zum Einfügen eines Anzeigenanpassers die folgenden Formate, wobei `Default text` ein optionaler Wert ist, der eingefügt werden soll, wenn Ihre Feed-Datei keinen gültigen Wert enthält:
+Verwenden Sie zum Einfügen einer Anzeigenanpassung die folgenden Formate, wobei `Default text` ein optionaler Wert ist, der eingefügt wird, wenn Ihre Feed-Datei keinen gültigen Wert enthält:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}, such as {CUSTOMIZER.Discount:10%}`
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`
 
-Um eine Beschreibung an eine bestimmte Position zu veröffentlichen, wählen Sie die Pin-Option aus (z. B. &quot;[!UICONTROL Pinned at position 1]&quot;). Für jede Position muss mindestens eine Beschreibung verfügbar sein. Wenn Sie mehrere Beschreibungen an derselben Position veröffentlichen, enthält die endgültige Anzeige immer eine dieser Beschreibungen an der angegebenen Position. In Position 2 enthaltene Beschreibungen werden möglicherweise nicht zusammen mit der Anzeige angezeigt.
+Um eine Beschreibung an eine bestimmte Position zu heften, wählen Sie die Option „Anheften“ (z. B. &quot;[!UICONTROL Pinned at position 1]„). Für jede Position muss mindestens eine Beschreibung verfügbar sein. Wenn Sie mehrere Beschreibungen an derselben Position anheften, enthält die endgültige Anzeige immer eine dieser Beschreibungen an der angegebenen Position. An Position 2 angeheftete Beschreibungen werden in der Anzeige möglicherweise nicht angezeigt.
 
-Um eine weitere Beschreibung hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]**.
+Um eine zusätzliche Beschreibung hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]**.

@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >Ihre Anmeldesitzung endet automatisch, wenn Ihr Browser-Fenster 30 Minuten lang inaktiv ist.
 
-* Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") und klicken Sie dann auf **[!UICONTROL Sign Out]**.
+* Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") und dann auf **[!UICONTROL Sign Out]**.
 
 >[!MORELIKETHIS]
 >
->* [Anmelden](log-in.md)
+>* [Anmeldung](log-in.md)
 >* [Organisation der Benutzeroberfläche](user-interface.md)

@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # [!UICONTROL Label Classification Report]
 
-Der [!UICONTROL Label Classification Report] enthält Kosten-, Klick- und (optional) Konversionsdaten nach der Bezeichnungsklassifizierung auf Keyword- oder Anzeigenebene, die über Anzeigennetzwerke, Konten, Kampagnen oder Anzeigengruppen hinweg aggregiert wird. Standardmäßig enthalten die Daten eine Zeile für jede zutreffende Beschriftungsklassifizierung auf Suchbegriffebene für Suchbegriffe, Anzeigen und Platzierungen, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten haben. Die Zeilen werden in aufsteigender Reihenfolge zuerst nach dem Startdatum der Zeiteinheit, dann nach der Beschriftungs-Classification und dann standardmäßig nach dem Beschriftungswert angezeigt.
+Die [!UICONTROL Label Classification Report] enthält Kosten-, Klick- und (optional) Konversionsdaten nach Kennzeichnungsklassifizierung auf Schlüsselwort- oder Anzeigenebene, die in Anzeigennetzwerken, Konten, Kampagnen oder Anzeigengruppen aggregiert sind. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Kennzeichnungsklassifizierung auf Keyword-Ebene für Keywords, Anzeigen und Platzierungen, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten haben. Die Zeilen sind in aufsteigender Reihenfolge angeordnet, zunächst nach dem Startdatum für die Zeiteinheit, dann nach Label-Klassifizierung und standardmäßig nach Label-Wert.
 
-Sie können Daten der letzten 36 Monate anzeigen.
+Sie können Daten der vorherigen 36 Monate anzeigen.
 
 >[!NOTE]
 >
->* Die Berichterstellung nach Bezeichnungsklassifizierungen auf Anzeigenebene ist nicht für DSA-Kampagnen (Dynamic Search Ad) vom Typ [!DNL Microsoft Advertising] verfügbar.
->* Für dieselbe Entität können mehr als eine Beschriftungsklassifizierung gelten, sodass der Gesamtwert für jede Metrik höher sein kann als der tatsächliche Gesamtwert für die Entität. Nehmen wir beispielsweise an, ein Keyword &quot;Wildlederschuhe&quot;hat zwei Beschriftungswerte: &quot;Wildleder&quot;und &quot;Schuhe&quot;und der Keyword hat 100 Klicks erhalten. In der Spalte &quot;Klicks&quot;würde für jeden dieser Beschriftungswerte &quot;100&quot;angezeigt, sodass die Summe für beide Zeilen &quot;200&quot;wäre.
-* Alle Änderungen, die Sie an den Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
+>* Das Reporting nach Kennzeichnungsklassifizierungen auf Anzeigenebene ist nicht für [!DNL Microsoft Advertising] DSA-Kampagnen (Dynamic Search Ad) verfügbar.
+>* Dieselbe Entität kann mehr als eine Kennzeichnungsklassifizierung aufweisen, sodass die Summe für jede Metrik höher sein kann als die tatsächliche Summe für die Entität. Beispiel: Ein Keyword „Wildlederschuhe“ hat zwei Label-Werte: „Wildleder“ und „Schuhe“, und das Keyword erhielt 100 Klicks. Die Spalte Klicks würde für jeden dieser Kennzeichnungswerte „100“ anzeigen, sodass die Gesamtsumme für beide Zeilen „200“ wäre.
+* Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für einfache und erweiterte Berichte](basic-advanced-report-columns.md).
 
 * [!UICONTROL Label Classification]
 * [!UICONTROL Label Value]
@@ -42,4 +42,4 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 >
 >* [Über grundlegende und erweiterte Berichte](basic-advanced-report-about.md)
 >* [Generieren eines einfachen oder erweiterten Berichts](basic-advanced-report-generate.md)
->* [Grundlegende und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](basic-advanced-report-settings.md)

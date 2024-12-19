@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Dokumentation zu Adobe Advertising-Richtlinien und -Richtlinien
+# Dokumentation zu Adobe Advertising-Richtlinien
 
-Hier finden Sie die Hilfedokumentation zu Adobe Advertising-übergreifenden Richtlinien und Richtlinien.
+Dies ist der Ordner für die Hilfedokumentation zu Cross-Adobe Advertising-Richtlinien.
 
 **Hinweis: Diese Seite wird nicht in der kundenorientierten Dokumentation veröffentlicht.**

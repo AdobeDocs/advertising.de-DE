@@ -5,10 +5,10 @@ source-wordcount: '87'
 ht-degree: 0%
 
 ---
-# Hinweis für das Feld &quot;Negative Suchbegriffe&quot;in den Kampagnen- und Anzeigengruppeneinstellungen von Google
+# Hinweis für das Feld „Negative Keywords“ in den Kampagnen- und Anzeigengruppeneinstellungen von Google
 
 >[!NOTE]
 >
->* Die maximale Länge pro Keyword beträgt 80 Zeichen und höchstens 10 Wörter. Das Schlüsselwort darf nur Buchstaben, Ziffern und die folgenden Sonderzeichen enthalten: Leerzeichen `# $ & _ - " [ ] ' + . / :`
->* Sie können negative Suchbegriffe auf Kampagnen- und Anzeigengruppenebene entweder in den Einstellungen für Kampagne und Anzeigengruppe oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative Kampagnenebenen werden auf Anzeigengruppenebene angewendet.
->* Wenn Sie ein [!DNL Google Ads] -Keyword oder einen Übereinstimmungstyp ändern, wird der vorhandene Suchbegriff gelöscht und ein neuer erstellt.
+>* Die maximale Länge pro Keyword beträgt 80 Zeichen und maximal 10 Wörter. Das Keyword darf nur Buchstaben, Ziffern und die folgenden Sonderzeichen enthalten: `# $ & _ - " [ ] ' + . / :`
+>* Negative Keywords auf Kampagnen- und Anzeigengruppenebene können Sie entweder in den Kampagnen- und Anzeigengruppeneinstellungen oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative auf Kampagnenebene werden auf Anzeigengruppenebene angewendet.
+>* Wenn Sie ein [!DNL Google Ads] Schlüsselwort oder einen Übereinstimmungstyp ändern, wird das vorhandene Schlüsselwort gelöscht und ein neues erstellt.

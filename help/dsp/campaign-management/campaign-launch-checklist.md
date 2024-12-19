@@ -1,6 +1,6 @@
 ---
 title: Checkliste für den Kampagnenstart
-description: Erfahren Sie, was Sie vor dem Start einer Kampagne tun müssen.
+description: Hier erfahren Sie, was Sie vor dem Start einer Kampagne tun müssen.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## Kontofinanzierung
 
-Stellen Sie sicher, dass Ihr Konto genügend Guthaben besitzt, um die gesamte Kampagne auszuführen. Sie können Kontoguthaben in [!UICONTROL Settings] > [!UICONTROL Account] überprüfen und neu ausfüllen oder sich an Ihr Adobe Account Team wenden.
+Stellen Sie sicher, dass Ihr Konto über genügend Guthaben für die gesamte Kampagne verfügt. Sie können die Kontoguthaben unter [!UICONTROL Settings] > [!UICONTROL Account] überprüfen und auffüllen oder sich an Ihr Adobe-Account-Team wenden.
 
 ## Kampagnenstatus
 
-Vergewissern Sie sich, dass die Kampagnendaten und das Budget korrekt festgelegt sind.
+Vergewissern Sie sich, dass Kampagnendaten und -budget korrekt eingestellt sind.
 
 ## Platzierungsstatus
 
-Stellen Sie sicher, dass der Platzierungsstatus &quot;[!UICONTROL Active]&quot;oder &quot;[!UICONTROL Scheduled]&quot;lautet. Überprüfen Sie außerdem, ob die anderen Platzierungsparameter (z. B. Site-Liste, Budget, Ziel, Flugdatum und Häufigkeit) korrekt sind.
+Stellen Sie sicher, dass der Platzierungsstatus &quot;[!UICONTROL Active]&quot; oder &quot;[!UICONTROL Scheduled]&quot; lautet. Überprüfen Sie außerdem, ob die anderen Platzierungsparameter (z. B. die Site-Liste, das Budget, das Ziel, die Flugdaten und die Häufigkeit) korrekt sind.
 
 ## Anzeigenstatus
 
-Vergewissern Sie sich, dass alle Anzeigen angehängt, genehmigt und aktiv sind. Überprüfen Sie außerdem, ob alle Tracking-Pixel angehängt sind und funktionieren.
+Vergewissern Sie sich, dass alle Anzeigen angehängt, genehmigt und aktiv sind. Überprüfen Sie außerdem, ob alle Tracking-Pixel angeschlossen sind und funktionieren.
 
 >[!MORELIKETHIS]
 >

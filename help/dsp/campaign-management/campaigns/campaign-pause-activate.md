@@ -1,5 +1,5 @@
 ---
-title: Anhalten oder Aktivieren einer Kampagne
+title: Pausieren oder Aktivieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Live-Kampagne anhalten oder aktivieren.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
@@ -10,20 +10,20 @@ ht-degree: 0%
 
 ---
 
-# Anhalten oder Aktivieren einer Kampagne
+# Pausieren oder Aktivieren einer Kampagne
 
-Halten Sie eine Live-Kampagne an oder aktivieren Sie eine angehaltene Kampagne, wenn sie sich innerhalb des konfigurierten Flugplans befindet.
+Eine Live-Kampagne anhalten oder eine pausierte Kampagne aktivieren, wenn sie sich im konfigurierten Flugplan befindet.
 
-Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten werden, bleiben bei Aktivierung der Kampagne ausgesetzt.
+Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten wurden, bleiben bei der Kampagnenaktivierung angehalten.
 
-## Eine Kampagne anhalten
+## Pausieren einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie neben dem Kampagnennamen auf **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
->Wenn Sie eine Kampagne anhalten, werden alle Platzierungen angehalten, einschließlich programmgarantierter (PG-Platzierungen). Kontaktieren Sie betroffene Herausgeber, wenn eingehende Auktionen angehalten werden müssen.
+>Durch das Anhalten einer Kampagne werden alle Platzierungen angehalten, einschließlich programmgesteuert garantierter (PG-Platzierungen). Bitte betroffene Publisher kontaktieren, wenn eingehende Auktionen pausiert werden müssen.
 
 ## Aktivieren einer Kampagne
 
@@ -33,4 +33,4 @@ Alle Platzierungen, die vor dem Anhalten einer Kampagne angehalten werden, bleib
 >[!MORELIKETHIS]
 >
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
->* [Eine Kampagne archivieren](campaign-archive-unarchive.md)
+>* [Archivieren einer Kampagne](campaign-archive-unarchive.md)

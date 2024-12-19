@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Der [!UICONTROL Campaign Daily Impression Share Report] enthält tägliche Metriken zur Impressions-Freigabe nach Gerätetyp für eine oder mehrere Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Kampagne, die mindestens eine Impression oder einen Klick für jeden Tag im angegebenen Datumsbereich erhalten hat, und die Zeilen sind in aufsteigender Reihenfolge nach Datum sortiert. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken verfolgt werden.
+Die [!UICONTROL Campaign Daily Impression Share Report] enthält tägliche Metriken zum Impression-Anteil nach Gerätetyp für eine oder mehrere Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Kampagne, die mindestens eine Impression oder einen Klick für jeden Tag im angegebenen Datumsbereich erhalten hat, und die Zeilen befinden sich in aufsteigender Reihenfolge nach Datum. Der Bericht kann optional Daten enthalten, die von [!DNL Adobe] und abgeleiteten Metriken verfolgt werden.
 
-Metriken zur Impressions-Freigabe sind um 13:00 Uhr in der Zeitzone des Advertisers für den vorherigen Tag verfügbar. Sie können Daten der letzten zwei Monate anzeigen.
+Die Metriken zum Impression-Anteil sind um 13:00 Uhr in der Zeitzone des Werbetreibenden für den Vortag verfügbar. Sie können Daten der letzten zwei Monate anzeigen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -43,6 +43,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)

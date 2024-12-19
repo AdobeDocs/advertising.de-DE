@@ -1,6 +1,6 @@
 ---
-title: "[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika"
-description: "[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika"
+title: '[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika'
+description: '[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Herausgeber | Geo |
+| Veröffentlicher | Geo |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | Frankreich |
 | [!DNL BBC] | Frankreich |
@@ -90,51 +90,51 @@ ht-degree: 0%
 | [!DNL Targetspot] | Niederlande |
 | [!DNL U.S. News] | Niederlande |
 | [!DNL USA Today] | Niederlande |
-| [!DNL Aller SE] | Nordik |
-| [!DNL BBC] | Nordik |
-| [!DNL Bloomberg] | Nordik |
-| [!DNL DailyMail] | Nordik |
-| [!DNL eDreams Odigeo] | Nordik |
-| [!DNL Future] | Nordik |
-| [!DNL IDG Tech] | Nordik |
-| [!DNL IP Belgium] | Nordik |
-| [!DNL Key Mobile] | Nordik |
-| [!DNL King] | Nordik |
-| [!DNL Leeads] | Nordik |
-| [!DNL Life of Svea] | Nordik |
-| [!DNL NBC Universal] | Nordik |
-| [!DNL Publicidad] | Nordik |
-| [!DNL Skyscanner] | Nordik |
-| [!DNL Tapjoy] | Nordik |
-| [!DNL Targetspot] | Nordik |
-| [!DNL TV2.DK] | Nordik |
-| [!DNL U.S. News] | Nordik |
-| [!DNL USA Today] | Nordik |
-| [!DNL Vox Media] | Nordik |
-| [!DNL Vungle] | Nordik |
-| [!DNL BBC] | Andere EU |
-| [!DNL Bloomberg] | Andere EU |
-| [!DNL DailyMail] | Andere EU |
-| [!DNL ESI Media] | Andere EU |
-| [!DNL Future] | Andere EU |
-| [!DNL Gentside] | Andere EU |
-| [!DNL Goldbach] | Andere EU |
-| [!DNL IP Belgium] | Andere EU |
-| [!DNL KeyMobile] | Andere EU |
-| [!DNL King] | Andere EU |
-| [!DNL New York Times] | Andere EU |
-| [!DNL OhMyMag] | Andere EU |
-| [!DNL Publicidad] | Andere EU |
-| [!DNL SBS] | Andere EU |
-| [!DNL Skyscanner] | Andere EU |
-| [!DNL Snack Media] | Andere EU |
-| [!DNL Tapjoy] | Andere EU |
-| [!DNL Targetspot] | Andere EU |
-| [!DNL U.S. News] | Andere EU |
-| [!DNL United Internet Media] | Andere EU |
-| [!DNL USA Today] | Andere EU |
-| [!DNL Vox Media] | Andere EU |
-| [!DNL Vungle] | Andere EU |
+| [!DNL Aller SE] | Skandinavien |
+| [!DNL BBC] | Skandinavien |
+| [!DNL Bloomberg] | Skandinavien |
+| [!DNL DailyMail] | Skandinavien |
+| [!DNL eDreams Odigeo] | Skandinavien |
+| [!DNL Future] | Skandinavien |
+| [!DNL IDG Tech] | Skandinavien |
+| [!DNL IP Belgium] | Skandinavien |
+| [!DNL Key Mobile] | Skandinavien |
+| [!DNL King] | Skandinavien |
+| [!DNL Leeads] | Skandinavien |
+| [!DNL Life of Svea] | Skandinavien |
+| [!DNL NBC Universal] | Skandinavien |
+| [!DNL Publicidad] | Skandinavien |
+| [!DNL Skyscanner] | Skandinavien |
+| [!DNL Tapjoy] | Skandinavien |
+| [!DNL Targetspot] | Skandinavien |
+| [!DNL TV2.DK] | Skandinavien |
+| [!DNL U.S. News] | Skandinavien |
+| [!DNL USA Today] | Skandinavien |
+| [!DNL Vox Media] | Skandinavien |
+| [!DNL Vungle] | Skandinavien |
+| [!DNL BBC] | Sonstige EU |
+| [!DNL Bloomberg] | Sonstige EU |
+| [!DNL DailyMail] | Sonstige EU |
+| [!DNL ESI Media] | Sonstige EU |
+| [!DNL Future] | Sonstige EU |
+| [!DNL Gentside] | Sonstige EU |
+| [!DNL Goldbach] | Sonstige EU |
+| [!DNL IP Belgium] | Sonstige EU |
+| [!DNL KeyMobile] | Sonstige EU |
+| [!DNL King] | Sonstige EU |
+| [!DNL New York Times] | Sonstige EU |
+| [!DNL OhMyMag] | Sonstige EU |
+| [!DNL Publicidad] | Sonstige EU |
+| [!DNL SBS] | Sonstige EU |
+| [!DNL Skyscanner] | Sonstige EU |
+| [!DNL Snack Media] | Sonstige EU |
+| [!DNL Tapjoy] | Sonstige EU |
+| [!DNL Targetspot] | Sonstige EU |
+| [!DNL U.S. News] | Sonstige EU |
+| [!DNL United Internet Media] | Sonstige EU |
+| [!DNL USA Today] | Sonstige EU |
+| [!DNL Vox Media] | Sonstige EU |
+| [!DNL Vungle] | Sonstige EU |
 | [!DNL BBC] | Portugal |
 | [!DNL Bloomberg] | Portugal |
 | [!DNL DailyMail] | Portugal |
@@ -227,8 +227,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
->* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
+>* [Über [!DNL On Demand] Premium-Inventar](on-demand-inventory-about.md)
+>* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventar](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)

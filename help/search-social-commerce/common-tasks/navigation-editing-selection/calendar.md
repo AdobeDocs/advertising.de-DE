@@ -1,5 +1,5 @@
 ---
-title: Datum mithilfe des Kalenders angeben
+title: Datum im Kalender angeben
 description: Erfahren Sie, wie Sie Datumsangaben mithilfe des Kalenders auswählen.
 exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Datum mithilfe des Kalenders angeben
+# Datum im Kalender angeben
 
-1. Klicken Sie auf die Schaltfläche ![Kalender ](/help/search-social-commerce/assets/calendar-date-range.png "Kalender ") , um den Kalender zu öffnen.
+1. Klicken Sie auf ![Kalenderschaltfläche](/help/search-social-commerce/assets/calendar-date-range.png "Kalenderschaltfläche"), um den Kalender zu öffnen.
 
    >[!NOTE]
    >
-   >Die Kalenderschaltfläche kann nur aktiviert werden, wenn die Option zur Eingabe des Datums ausgewählt ist.
+   >Die Kalenderschaltfläche kann nur aktiviert werden, wenn die Option „Datumseingabe“ ausgewählt ist.
 
    ![Geöffneter Kalender](/help/search-social-commerce/assets/calendar-full.png "Geöffneter Kalender")
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
    * Klicken Sie auf das Datum.
 
-   * (Um einen Monat vorwärts oder zurück zu gehen) Klicken Sie auf **`<`** bzw. **`>`**.
+   * (Um einen Monat nach vorn oder zurück zu gehen) Klicken Sie auf **`<`** bzw. **`>`**.
 
-   * (Zur Auswahl eines anderen Monats oder Jahres) Klicken Sie auf den Namen des Monats oder Jahres und anschließend auf den Monat oder das Jahr.
+   * (Um einen weiteren Monat oder ein weiteres Jahr auszuwählen) Klicken Sie auf den Namen des Monats oder Jahres und dann auf den Monat oder das Jahr.
 
-   (Um das aktuelle Datum hervorzuheben) Klicken Sie auf **[!UICONTROL Today]**.
+   (Um das aktuelle Datum hervorzuheben, klicken Sie auf **[!UICONTROL Today]**.

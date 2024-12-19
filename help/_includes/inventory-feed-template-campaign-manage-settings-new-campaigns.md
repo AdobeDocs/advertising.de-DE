@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Text und Vorlage - Einstellungen für neue Kampagnen verwalten
+# Text und Vorlage - Einstellungen für NEUE Kampagnen verwalten
 
-**[!UICONTROL Manage Settings for NEW Campaigns]:**(Optional) Ermöglicht die Konfiguration von Einstellungen für alle erstellten Kampagnen.
+**[!UICONTROL Manage Settings for NEW Campaigns]:** (Optional) Ermöglicht die Konfiguration von Einstellungen für alle erstellten Kampagnen.

@@ -17,6 +17,6 @@ Sie können eine Platzierungsvorlage von Grund auf neu oder aus einer vorhandene
 
 ## Erstellen einer Platzierungsvorlage aus einer vorhandenen Platzierung
 
-1. Wählen Sie in der Platzierungsansicht die Platzierung aus, klicken Sie mit der rechten Maustaste auf &quot;Bearbeiten&quot;und wählen Sie &quot;Als Vorlage speichern&quot;.  ODER kann Platzierungseinstellungen öffnen und als Vorlage speichern.
+1. Wählen Sie in der Ansicht Platzierungen die Platzierung aus, klicken Sie mit der rechten Maustaste auf Bearbeiten und wählen Sie Als Vorlage speichern .  ODER kann Platzierungseinstellungen öffnen und als Vorlage speichern.
 1. XXX.
 1. Klicken Sie auf Senden.

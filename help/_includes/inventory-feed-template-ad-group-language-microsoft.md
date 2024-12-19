@@ -5,8 +5,8 @@ source-wordcount: '53'
 ht-degree: 0%
 
 ---
-# Text-Anzeigenvorlage - Sprache auf Anzeigengruppenebene
+# Text und Vorlage - Sprache auf Anzeigengruppenebene
 
-**[!UICONTROL Language]:** Die Zielsprache für Anzeigen in der Anzeigengruppe: *Englisch*, *Französisch*, *Finnisch*, *Deutsch*, *Norwegisch*, *Spanisch* oder *Schwedisch*. Die Standardeinstellung für neue Kampagnen ist *Englisch*.
+**[!UICONTROL Language]:** Die Zielsprache für Anzeigen in der Anzeigengruppe: *Englisch*, *Französisch*, *Finnisch*, *Deutsch*, ** Norwegisch *Spanisch* oder *Schwedisch*. Der Standardwert für neue Kampagnen lautet *Englisch*.
 
-Diese Einstellung bestimmt die Länder und Regionen, in denen Ihre Anzeige angezeigt werden kann. Wählen Sie eine Sprache aus, die mit den Standortzielen der Kampagne kompatibel ist.
+Diese Einstellung legt die Länder und Regionen fest, in denen Ihre Anzeige angezeigt werden kann. Wählen Sie eine Sprache aus, die mit den Standortzielen der Kampagne kompatibel ist.

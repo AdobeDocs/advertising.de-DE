@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Textanzeigenvorlage - Status
+# Text und Vorlage - Status
 
 **[!UICONTROL Status]:** Der Vorlagenstatus: *[!UICONTROL Active]*, *[!UICONTROL Paused]* oder *[!UICONTROL Deleted]*.
 
-Feed-Daten können automatisch nur über aktive Vorlagen übertragen werden. Sie können Daten jedoch manuell über eine angehaltene Vorlage übertragen.
+Feed-Daten können nur durch aktive Vorlagen automatisch weitergegeben werden. Sie können Daten jedoch manuell über eine pausierte Vorlage weitergeben.

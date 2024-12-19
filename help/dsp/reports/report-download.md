@@ -1,38 +1,39 @@
 ---
-title: Herunterladen eines benutzerspezifischen Berichts
-description: Erfahren Sie, wie Sie sofort einen benutzerspezifischen Bericht herunterladen können.
+title: Benutzerdefinierten Bericht herunterladen
+description: Erfahren Sie, wie Sie einen benutzerdefinierten Bericht sofort herunterladen können.
 feature: DSP Custom Reports
-source-git-commit: 02d670231e1362f902aeb8bc358986e8381512f4
+exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
+source-git-commit: f29d5173547a48ea818a93a0b931d5fb27e10044
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Herunterladen eines benutzerspezifischen Berichts
+# Benutzerdefinierten Bericht herunterladen
 
-Sie können jede abgeschlossene Berichtsinstanz aus den letzten vier Monaten herunterladen, die den Status &quot;[status](report-about.md#custom-report-status) &quot;[!UICONTROL Ready to Download]&quot; oder &quot;[!UICONTROL Completed]&quot; aufweist.
+Sie können jede abgeschlossene Berichtsinstanz der letzten vier Monate herunterladen, die mit dem [Status](report-about.md#custom-report-status) &quot;[!UICONTROL Ready to Download]&quot; oder &quot;[!UICONTROL Completed]&quot; aufweist.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
-1. Gehen Sie in der Spalte [!UICONTROL Download Report] für die Berichtszeile wie folgt vor:
+1. Führen Sie in der Spalte [!UICONTROL Download Report] für die Berichtszeile die folgenden Schritte aus:
 
    * Um die neueste Instanz des Berichts herunterzuladen, klicken Sie auf **[!UICONTROL Download]**.
 
-   * (Berichte mit mehreren Instanzen) Klicken Sie auf ![den Nach-unten-Pfeil](/help/dsp/assets/chevron-down.png "den Nach-unten-Pfeil") neben [!UICONTROL Download] und klicken Sie dann auf das Abschlussdatum für den Bericht, den Sie herunterladen möchten. Herunterladbare Berichtsinstanzen werden mit einem Download-Symbol (![Download-Symbol](/help/dsp/assets/indicator-downloadable.png "Download-Symbol")) angezeigt.
+   * (Berichte mit mehreren Instanzen) Klicken Sie auf ![Abwärtspfeil](/help/dsp/assets/chevron-down.png " Abwärtspfeil") neben [!UICONTROL Download] und klicken Sie dann auf das Abschlussdatum für den Bericht, den Sie herunterladen möchten. Herunterladbare Berichtsinstanzen werden mit einem Download-Symbol gekennzeichnet (![Download-Symbol](/help/dsp/assets/indicator-downloadable.png "Download-Symbol")).
 
      Wenn viele Instanzen verfügbar sind, klicken Sie bei Bedarf unten in der Liste auf **[!UICONTROL Load More]** .
 
-     Wenn ein Bericht mehrmals am selben Tag ausgeführt wird, werden die Berichtsinstanzen für diesen Tag in chronologischer Reihenfolge aufgelistet, wobei die neueste Instanz ganz oben steht.
+     Wenn ein Bericht am selben Tag mehrmals ausgeführt wird, werden die Berichtsinstanzen für diesen Tag in chronologischer Reihenfolge aufgelistet, wobei die neueste Instanz oben aufgeführt wird.
 
-     Fehlgeschlagene Berichtaufträge werden mit einem Fehlersymbol (![Fehleranzeige](/help/dsp/assets/indicator-critical.png "Fehleranzeige")) angezeigt und können nicht heruntergeladen werden. Halten Sie den Cursor über das Fehlersymbol, um eine Beschreibung des Fehlers zu erhalten.
+     Fehlgeschlagene Berichtsaufträge werden mit einem Fehlersymbol gekennzeichnet (![Fehleranzeige](/help/dsp/assets/indicator-critical.png " Fehleranzeige")) und können nicht heruntergeladen werden. Eine Beschreibung des Fehlers finden Sie, indem Sie den Cursor über das Fehlersymbol halten.
 
 >[!MORELIKETHIS]
 >
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
->* [Benutzerspezifischen Bericht erstellen](/help/dsp/reports/report-create.md)
->* [Benutzerspezifischen Bericht duplizieren](/help/dsp/reports/report-copy.md)
->* [Benutzerspezifischen Bericht bearbeiten](/help/dsp/reports/report-edit.md)
->* [Ausführen eines benutzerspezifischen Berichts](/help/dsp/reports/report-run-now.md)
+>* [Erstellen eines benutzerdefinierten Berichts](/help/dsp/reports/report-create.md)
+>* [Duplizieren eines benutzerdefinierten Berichts](/help/dsp/reports/report-copy.md)
+>* [Benutzerdefinierten Bericht bearbeiten](/help/dsp/reports/report-edit.md)
+>* [Benutzerdefinierten Bericht ausführen](/help/dsp/reports/report-run-now.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)

@@ -5,6 +5,6 @@ source-wordcount: '22'
 ht-degree: 0%
 
 ---
-# Textanzeigenvorlage - Einstellungen für NEUE Anzeigengruppen verwalten
+# Text-Anzeigenvorlage - Einstellungen für NEUE Anzeigengruppen verwalten
 
-**[!UICONTROL Manage Settings for NEW Ad Groups]:**(Optional) Ermöglicht Ihnen die Konfiguration von Einstellungen für alle Anzeigengruppen, die erstellt werden.
+**[!UICONTROL Manage Settings for NEW Ad Groups]:** (Optional) Ermöglicht die Konfiguration von Einstellungen für alle erstellten Anzeigengruppen.

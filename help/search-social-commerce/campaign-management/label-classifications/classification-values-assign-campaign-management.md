@@ -1,6 +1,6 @@
 ---
-title: Zuweisen von Classification-Werten zu Kontokomponenten aus Kampagnenverwaltungsansichten
-description: Erfahren Sie, wie Sie Classification-Werte Kontokomponenten zuweisen.
+title: Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements
+description: Erfahren Sie, wie Sie den Kontokomponenten Klassifizierungswerte zuweisen.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,79 +10,79 @@ ht-degree: 0%
 
 ---
 
-# Zuweisen von Classification-Werten zu Kontokomponenten aus Kampagnenverwaltungsansichten
+# Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements
 
-Sie können Classification-Werte für die folgenden Suchentitäten aus den Ansichten der Kampagnenverwaltung zuweisen und entfernen: Kampagne, Anzeigengruppe, Suchbegriff, Anzeige, Platzierung, Produktgruppe auf Einheitsebene und dynamisches Suchziel. Bei Bedarf können Sie während des Zuweisungsprozesses Classifications und Classification-Werte erstellen. Jede Beschriftungsklassifizierung kann bis zu 2000 Werte aufweisen.
+Sie können Classification-Werte für die folgenden Suchentitäten aus den Kampagnen-Management-Ansichten zuweisen und entfernen: Kampagne, Anzeigengruppe, Keyword, Anzeige, Platzierung, Produktgruppe auf Einheitenebene und dynamische Suchzielgruppe. Bei Bedarf können Sie während des Zuweisungsprozesses Klassifizierungen und Klassifizierungswerte erstellen. Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen.
 
-Jede Entität kann einen Beschriftungswert pro Classification haben. Shoes_Campaign kann beispielsweise den Farbwert &quot;red&quot;und den Geo-Wert &quot;Los Angeles&quot;haben, aber nicht mehrere Werte für Color oder Geo.
+Jede Entität kann einen Bezeichnungswert pro Klassifizierung aufweisen. Beispielsweise kann „Schuhe_Kampagne“ den Farbwert „Rot“ und den Geowert „Los Angeles“ haben, aber es können nicht mehrere Werte für „Farbe“ oder „Geo“ sein.
 
-Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie daher keine Werte für untergeordnete Entitäten ein, es sei denn, Sie möchten die vererbten Werte überschreiben.
+Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie daher keine Werte für untergeordnete Entitäten ein, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
 >[!NOTE]
 >
->Ihre Suchbegriffe und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md), was bedeutet, dass durch deren Bearbeitung die vorhandene Entität gelöscht und eine neue erstellt wird. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Titel-Classification der neuen Entität nicht zugewiesen.
+>Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
 
-1. Klicken Sie auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** und wählen Sie dann die Ansicht der Kontokomponente aus.
+1. Klicken Sie auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, und wählen Sie dann die Ansicht der Kontokomponente aus.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Um Werte einer einzelnen Entität zuzuweisen) Halten Sie den Cursor über den Entitätsnamen, klicken Sie auf die Schaltfläche ![Menü-Schaltfläche](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menü-Schaltfläche") und wählen Sie dann **[!UICONTROL Classification]** aus.
+   * (Um einem Element Werte zuzuweisen) Halten Sie den Cursor über den Entitätsnamen, klicken Sie auf ![Menüschaltfläche](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüschaltfläche") und wählen Sie dann **[!UICONTROL Classification]** aus.
 
-   * (So weisen Sie einer oder mehreren Entitäten Werte zu) Gehen Sie wie folgt vor:
+   * (Um einem oder mehreren Entitäten Werte zuzuweisen) Gehen Sie wie folgt vor:
 
       * Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
-        Tipps zum Auswählen mehrerer Zeilen finden Sie unter &quot;[Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und klicken Sie dann auf **[!UICONTROL Classification]**.
+      * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Classification]**.
 
-1. Führen Sie im [!UICONTROL Assignment Details] einen der folgenden Schritte aus:
+1. Führen Sie in der [!UICONTROL Assignment Details] einen der folgenden Schritte aus:
 
    * Um vorhandene Klassifizierungswerte in neue Werte zu ändern, wählen Sie **[!UICONTROL Set To]** aus.
 
-     Die maximale Länge pro Wert beträgt 100 Zeichen. Sie kann ASCII- und Nicht-ASCII-Zeichen enthalten.
+     Die maximale Länge für jeden Wert beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
 
-   * Um bestimmte Classification-Werte zuzuweisen, ohne vorhandene Werte zu entfernen, wählen Sie **[!UICONTROL Assign]** aus.
+   * Um bestimmte Klassifizierungswerte zuzuweisen, ohne vorhandene Werte zu entfernen, wählen Sie **[!UICONTROL Assign]** aus.
 
    * Um bestimmte, aktuell zugewiesene Klassifizierungswerte zu entfernen, wählen Sie **[!UICONTROL Remove]** aus.
 
-     Wenn Sie einen Classification-Wert entfernen, stehen für die angegebenen Kontokomponenten keine Berichtsdaten für den Wert mehr zur Verfügung.
+     Wenn Sie einen Klassifizierungswert entfernen, sind die Berichtsdaten für den Wert für die angegebenen Kontokomponenten nicht mehr verfügbar.
 
-   * Um bestimmte Classification-Werte zu löschen, wählen Sie **[!UICONTROL Delete]** aus.
+   * Um bestimmte Klassifizierungswerte zu löschen, wählen Sie **[!UICONTROL Delete]** aus.
 
-     Wenn Sie einen Classification-Wert löschen, steht er nicht mehr für die zukünftige Verwendung zur Verfügung und Berichtsdaten stehen für den Wert nicht mehr zur Verfügung. Alle Zuweisungen zwischen den Werten und bestimmten Kontokomponenten werden entfernt, die Kontokomponenten werden jedoch nicht gelöscht.
+     Durch das Löschen eines Klassifizierungswerts ist dieser nicht mehr für die zukünftige Verwendung verfügbar und die Berichtsdaten sind nicht mehr für diesen Wert verfügbar. Alle Zuweisungen zwischen den Werten und bestimmten Kontokomponenten werden entfernt, aber die Kontokomponenten werden nicht gelöscht.
 
-1. Führen Sie für jeden zutreffenden Classification-Wert folgende Schritte aus:
+1. Gehen Sie für jeden zutreffenden Classification-Wert wie folgt vor:
 
-   1. Geben Sie in der Spalte **[!UICONTROL Classification]** den Classification-Namen an:
+   1. Geben Sie in der Spalte **[!UICONTROL Classification]** den Klassifizierungsnamen an:
 
-      * Um eine vorhandene Classification zu verwenden, klicken Sie auf den Classification-Namen, um sie zu erweitern.
+      * Um eine vorhandene Klassifizierung zu verwenden, klicken Sie auf den Klassifizierungsnamen, um sie zu erweitern.
 
-      * Um eine Classification zu erstellen, klicken Sie auf [!UICONTROL +]. Geben Sie im Eingabefeld den Classification-Namen ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/select.png "Speichern") , um die Classification sofort zu speichern.
+      * Um eine Klassifizierung zu erstellen, klicken Sie auf [!UICONTROL +]. Geben Sie im Eingabefeld den Klassifizierungsnamen ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/select.png "Speichern"), um die Klassifizierung sofort zu speichern.
 
         Der Name muss aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen und die maximale Länge beträgt 27 Einzelbyte-Zeichen.
 
    1. Geben Sie in der Spalte **[!UICONTROL Value Name]** den Namen des Werts an:
 
-      * Um einen vorhandenen Wert zu verwenden, klicken Sie auf den Wertnamen, um ihn auszuwählen.
+      * Um einen vorhandenen Wert zu verwenden, klicken Sie auf den Namen des Werts, um ihn auszuwählen.
 
-      * Um einen Wert zu erstellen, klicken Sie auf [!UICONTROL +]. Geben Sie den Wert in das Eingabefeld ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/select.png "Speichern") , um den Wert sofort zu speichern.
+      * Um einen Wert zu erstellen, klicken Sie auf [!UICONTROL +]. Geben Sie im Eingabefeld den Wert ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/select.png "Speichern"), um den Wert sofort zu speichern.
 
         Die maximale Länge beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
 
 1. (Optional) Geben Sie zusätzliche Details ein:
 
-   1. Klicken Sie neben **[!UICONTROL Additional Details]** auf ![Öffnen](/help/search-social-commerce/assets/chevron-up.png "Öffnen") , um die Details zu erweitern.
+   1. Klicken Sie neben **[!UICONTROL Additional Details]** auf ![Öffnen](/help/search-social-commerce/assets/chevron-up.png "Öffnen"), um die Details zu erweitern.
 
-   1. Geben Sie optional **[!UICONTROL Project Name]** und/oder optional **[!UICONTROL Description]** ein.
+   1. Geben Sie eine optionale **[!UICONTROL Project Name]** und/oder eine optionale **[!UICONTROL Description]** ein.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Über Beschriftungsklassifizierungen](classification-about.md)
->* [Erstellen einer Bezeichnungsklassifizierung](classification-create.md)
->* [Zuweisen von Classification-Werten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
->* [Entfernen Sie Beschriftungs-Classification-Werte aus Kontokomponenten](classification-values-remove.md)
->* [Löschen von Beschriftungs-Classification-Werten](classification-values-delete.md)
->* [Beschriftungsklassifizierungen löschen](classification-delete.md)
+>* [Über Klassifizierungen von Kennzeichnungen](classification-about.md)
+>* [Erstellen einer Kennzeichnungsklassifizierung](classification-create.md)
+>* [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](classification-values-assign-bulksheets.md)
+>* [Entfernen Sie Kennzeichnungswerte aus den Kontokomponenten](classification-values-remove.md)
+>* [Löschen von Kennzeichnungswerten](classification-values-delete.md)
+>* [Löschen von Kennzeichnungsklassifizierungen](classification-delete.md)

@@ -5,10 +5,10 @@ source-wordcount: '47'
 ht-degree: 0%
 
 ---
-# Feld &quot;Basis-URL&quot;in Konto- und Kampagneneinstellungen kodieren
+# Basis-URL-Feld in den Konto- und Kampagneneinstellungen kodieren
 
-**[!UICONTROL Encode Base URL]:** (Nur Konten mit Ziel-URLs und dem Trackingtyp [!UICONTROL EF Redirect]) Gibt an, ob die URL in der Browser-Adressleiste des Endbenutzers eine Zeichenkodierung enthält (z. B. `%3D` anstelle von `=`):
+**[!UICONTROL Encode Base URL]:** (Nur Konten mit Ziel-URLs und dem Tracking-Typ [!UICONTROL EF Redirect]) Ob die URL in der Browser-Adressleiste des Endbenutzers die Zeichenkodierung enthält (z. B. `%3D` statt `=`):
 
-* *[!UICONTROL On]* (Standard): Zum Anzeigen der Zeichenkodierung in URLs.
+* *[!UICONTROL On]* (Standard): Zeigt die Zeichencodierung in URLs an.
 
-* *[!UICONTROL Off]:* So zeigen Sie nicht kodierte URLs an.
+* *[!UICONTROL Off]:* Anzeigen nicht kodierter URLs.

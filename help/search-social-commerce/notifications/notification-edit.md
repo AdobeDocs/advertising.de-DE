@@ -14,27 +14,27 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können optional E-Mail- und Webbenachrichtigungen zu Kontoauthentifizierungsfehlern, allen ausgelösten benutzerdefinierten Warnungen und zum Abschluss der von Ihnen generierten [!UICONTROL Advertising Insights] abonnieren oder abmelden.
+Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Kontoauthentifizierung, alle ausgelösten benutzerdefinierten Warnhinweise und den Abschluss der von Ihnen generierten [!UICONTROL Advertising Insights] abonnieren oder davon abmelden.
 
 1. Öffnen Sie die Benachrichtigungseinstellungen auf eine der folgenden Arten:
 
-   * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen") , um das Bedienfeld [!UICONTROL Notifications] zu öffnen. Klicken Sie oben rechts auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
+   * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen"), um den [!UICONTROL Notifications] zu öffnen. Klicken Sie oben rechts auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
 
    * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Klicken Sie im linken Menü auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
 
-1. Ändern Sie Ihre Einstellungen für eine beliebige [Benachrichtigungskategorie](notification-about.md):
+1. Ändern Sie Ihre Einstellungen für jede [Benachrichtigungskategorie](notification-about.md):
 
-   * Um Benachrichtigungen zu abonnieren oder abzumelden, verschieben Sie den Regler in die Spalte [!UICONTROL Subscribe] :
+   * Um Benachrichtigungen zu abonnieren oder zu kündigen, bewegen Sie den Schieberegler in die Spalte [!UICONTROL Subscribe] :
 
-      * Um sich von allen Benachrichtigungstypen abzumelden, bewegen Sie den Regler nach links (deaktiviert).
+      * Um das Abonnement aller Benachrichtigungstypen zu kündigen, bewegen Sie den Schieberegler nach links (deaktiviert).
 
-      * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Regler nach rechts (aktiviert).
+      * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Schieberegler nach rechts (aktiviert).
 
    * (Wenn [!UICONTROL Subscribe] aktiviert ist) Um E-Mail-Benachrichtigungen zu abonnieren, aktivieren Sie das Kontrollkästchen in der Spalte **[!UICONTROL Email]** .
 
-   * (Wenn [!UICONTROL Subscribe] deaktiviert ist) Um Webbenachrichtigungen in Search, Social und Commerce sowie Push-Benachrichtigungen zu abonnieren, sofern sie für den Browser aktiviert sind, aktivieren Sie das Kontrollkästchen in der Spalte **[!UICONTROL Web]** .
+   * (Wenn [!UICONTROL Subscribe] deaktiviert ist) Um Web-Benachrichtigungen in Search, Social und Commerce sowie Push-Benachrichtigungen zu abonnieren, wenn sie für den Browser aktiviert sind, aktivieren Sie das Kontrollkästchen in der Spalte **[!UICONTROL Web]** .
 
-     Webbenachrichtigungen werden nur bereitgestellt, wenn Sie [Push-Benachrichtigungen aktivieren](notifications-push-enable-disable.md) für Ihren Browser aktivieren.
+     Web-Benachrichtigungen werden nur gesendet, wenn Sie [Push-Benachrichtigungen aktivieren](notifications-push-enable-disable.md) in Ihrem Browser aktivieren.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -42,7 +42,7 @@ Sie können optional E-Mail- und Webbenachrichtigungen zu Kontoauthentifizierung
 >
 >* [Über Benachrichtigungen](/help/search-social-commerce/notifications/notification-about.md)
 >* [Anzeigen Ihrer Benachrichtigungen](notification-view.md)
->* [Kennzeichnen einer Benachrichtigung als gelesen oder ungelesen](notification-mark-read-unread.md)
+>* [Markieren einer Benachrichtigung als gelesen oder ungelesen](notification-mark-read-unread.md)
 >* [Löschen einer Benachrichtigung](notification-delete.md)
->* [Push-Benachrichtigungen von [!UICONTROL Notification Center]](notifications-push-enable-disable.md) aktivieren und deaktivieren
->* [Installieren und Deinstallieren der [!UICONTROL Notification Center] Webanwendung](notification-app-install-uninstall.md)
+>* [Aktivieren und Deaktivieren von Push-Benachrichtigungen über [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installieren und Deinstallieren der [!UICONTROL Notification Center]-Webanwendung](notification-app-install-uninstall.md)

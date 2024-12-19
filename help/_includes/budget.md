@@ -5,8 +5,8 @@ source-wordcount: '77'
 ht-degree: 0%
 
 ---
-# Budget-Feld auf Kampagnenebene
+# Budgetfeld auf Kampagnenebene
 
-**[!UICONTROL Budget]:** Das Budget, das dem Betrag entspricht, den Sie im Durchschnitt täglich ausgeben möchten.
+**[!UICONTROL Budget]:** Das Budget, das ist der Betrag, den Sie täglich ausgeben möchten, im Durchschnitt.
 
-Wenn Sie diese Kampagne einem Portfolio zuweisen, für das die Budgetlimits einer Kampagne automatisch angepasst werden, können Sie - je nach Suchbedingungen - in einem bestimmten Zeitraum tatsächlich mehr oder weniger als das angegebene Budget ausgeben. Darüber hinaus können manuelle Änderungen am Kampagnenbudget - von Search, Social, &amp; Commerce oder dem Anzeigennetzwerk aus - durch die Optimierungsfunktion überschrieben werden.
+Wenn Sie diese Kampagne einem Portfolio zuweisen, für das Kampagnenbudgetgrenzen automatisch angepasst werden, können Sie je nach Suchbedingungen in einem bestimmten Zeitraum tatsächlich mehr oder weniger als das angegebene Budget ausgeben. Darüber hinaus können alle manuellen Änderungen am Kampagnenbudget - aus den Bereichen Search, Social und Commerce oder dem Anzeigennetzwerk - durch die Optimierungsfunktion überschrieben werden.

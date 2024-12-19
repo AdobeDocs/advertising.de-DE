@@ -1,6 +1,6 @@
 ---
 title: Erweiterte Messlösungen
-description: Sehen Sie sich eine Liste der verfügbaren Lösungen für erweiterte Messungen an.
+description: Eine Liste der verfügbaren Lösungen für erweiterte Messungen anzeigen.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
 source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
@@ -11,109 +11,109 @@ ht-degree: 0%
 
 # Erweiterte Messlösungen
 
-Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr bester nächster Medienkurs ausgegeben werden sollte, oder die Auswirkungen ihrer Online-Werbung zu quantifizieren. In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das [!DNL Strategic Advertising Consulting]-Team hilft Marken- und Agenturpartnern dabei zu messen, wie Elemente ihrer [!DNL Adobe]-Verbindungen durch Werbung zum Leben erweckt werden. Mit den umfassenden Attributionsmessungsangeboten hilft das Team bei der Implementierung kuratierter Targeting-Strategien mithilfe eines komplexen Messungs-Frameworks, sodass Marken ihre Medienentscheidungen einfach mit echten Ergebnissen verbinden können, die ihre Unternehmen vorantreiben. Das Team kann Ihnen bei Folgendem helfen:
+Werbetreibende haben oft Schwierigkeiten zu verstehen, wo ihr nächster Mediendollar ausgegeben werden sollten, oder die Wirkung ihrer Online-Werbung zu quantifizieren. In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das [!DNL Strategic Advertising Consulting]-Team hilft Marken- und Agenturpartnern, zu messen, wie Elemente ihrer [!DNL Adobe] durch Werbung zum Leben erweckt werden. Mit robusten Attributionsmessungsangeboten hilft das Team dabei, kuratierte Targeting-Strategien mithilfe eines ausgefeilten Messungs-Frameworks bereitzustellen, sodass Marken ihre Medienentscheidungen einfach mit realen Ergebnissen verbinden können, die ihre Geschäfte antreiben. Das Team kann Ihnen bei Folgendem helfen:
 
-* Aktivieren von Messungsstudien über vollständige digitale Medienkampagnen
+* Aktivieren von Messstudien über digitale Medien-Kampagnen mit vollem Trichter
 
-* Kampagnen-Storyerzählung mit gepackten Berichterstellungslösungen optimieren
+* Verbessern Sie Ihr Kampagnen-Storytelling mit gebündelten Reporting-Lösungen
 
-* Entwickeln Sie Ihre Werbepraktiken, indem Sie lernen und die Effektivität Ihrer Kampagne im Laufe der Zeit verbessern.
+* Weiterentwicklung der Werbepraxis durch Erlernen und Verbesserung der Effektivität von Kampagnen im Laufe der Zeit
 
 ## Lösungspakete
 
-Die folgenden Lösungspakete für Messungen sind verfügbar, um den Erfolg Ihrer Werbekampagnen zu überprüfen:
+Die folgenden Messlösungspakete stehen zur Validierung des Erfolgs Ihrer Werbekampagnen zur Verfügung:
 
-* **Reichweite, Häufigkeit und Konversionen auf der Basis der Haushalte**
+* **Haushaltsbasierte Reichweite, Häufigkeit und Konversionen**
 
-  Erfahren Sie mehr über die gesamte Reichweite der Kampagne auf Haushaltsebene sowie über den Beitrag der einzelnen Bildschirme. Zu den Berichtsoptionen gehören:
+  Machen Sie sich mit der gesamten Reichweite der Kampagne auf Haushaltsebene sowie mit dem Beitrag der einzelnen Bildschirme vertraut. Zu den Reporting-Optionen gehören:
 
-   * ID-übergreifende Reichweite, Häufigkeit und Konversion der Haushalte (Cookies)
+   * ID-übergreifende Reichweite, Häufigkeit und Konversion (ohne Cookies)
 
      <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
      <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
-   * Durchschnittliche Zeit bis Konversion
+   * Durchschnittliche Zeit bis zur Konversion
 
    * Häufigkeit der Konversion
 
    * CTV-Berichte
 
-   * CTV-App-Inkrementierung
+   * Inkrementalität der CTV-App
 
-   * Bildschirmübergreifende Berichterstellung (Digital &amp; CTV)
+   * Cross-Screen-Reporting (Digital und CTV)
 
-   * Bildschirmübergreifende Plus-Berichte (Digital, CTV und TV)
+   * Cross-Screen Plus Reporting (Digital, CTV und TV)
 
-   * Reichweite und Häufigkeit digitaler In-Segment-Interaktionen
+   * Reichweite und Häufigkeit digitaler In-Segment-Berichte
 
-* **Benutzerbasierte Reichweite und Konversionen**
+* **Personenbasierte Reichweite und Konversionen**
 
-  Erfahren Sie, wie sich Zielgruppen und Taktiken auf der Ebene von Personen überschneiden, einschließlich der Belichtung über mehrere digitale Umgebungen hinweg, z. B. Desktop, Mobilgeräte, native und Audio.
+  Erfahren Sie, wie sich Zielgruppen und Taktiken auf Personenebene überschneiden, einschließlich der Belastungen in mehreren digitalen Umgebungen, wie Desktop, Mobilgerät, nativ und Audio.
 
   <!-- Hide for now * **Cross-ID People-Based Reach**
 
       Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
-* **Halbeffekt auf Suchberichte**
+* **Halo-Effekt bei Suchberichten**
 
-  Quantifizieren Sie die Auswirkungen von CTV- und digitalen Anzeigenbelichtungen auf Suchklicks, Suchkonversionen und ROAS auf Haushaltsebene für CTV-Apps, Suchbegriffe, Suchmaschinen sowie benutzerdefinierte Zielgruppen- und Taktikebenen.
+  Quantifizieren Sie die Auswirkungen von CTV und digitalen Anzeigenexpositionen auf die Förderung von Suchklicks, Suchkonversionen und ROAS auf Haushaltsebene in der CTV-App, in Suchbegriffen, in Suchmaschinen sowie auf der Ebene benutzerdefinierter Zielgruppen und Taktiken.
 
 
 * **[!DNL Dynata]Panel-basierte Umfragen**
 
-  Führen Sie Kontroll-/exponierte Umfragen durch, um die Auswirkungen der Anzeigenbelichtung auf Metriken wie Bewusstsein, Vertrautheit und Absicht zu ermitteln.
+  Führen Sie Kontroll-/exponierte Umfragen durch, um die Auswirkungen der Anzeigenexposition auf Metriken wie Bewusstsein, Vertrautheit und Absicht zu ermitteln.
 
-* **Fußdatenverkehr**
+* **Fußverkehr**
 
-  Informieren Sie sich über die durch die Anzeigenbelichtung bedingte Inkrementalität und darüber, wie Medieninvestitionen Veränderungen im Kaufverhalten und inkrementellen Besuchen verursachen, mit Metriken wie Inkrementeffekt, Kosten pro inkrementellem Besuch und Besuchseinblicken.
+  Erfahren Sie, wie die durch die Offenlegung von Anzeigen bedingte Zunahme und die Medieninvestitionen zu Veränderungen im Kaufverhalten und inkrementellen Besuchen führen, mithilfe von Metriken wie dem Inkrementalitätseffekt, den Kosten pro inkrementellem Besuch und Besuchserkenntnissen.
 
-* **Transaktionsinsights**
+* **Transaktionseinblicke**
 
-  Reichern Sie Ihre Kampagnenstrategie mit deterministischen Kredit- und Lastschriftverkaufsdaten durch Segment-, Konkurrenzmarkt- und Kundenanalysen an.
+  Reichern Sie Ihre Kampagnenstrategie mit deterministischen Kredit- und Debit-Verkaufsdaten durch Segment-, Markt- und Kundenanalyse an.
 
 * **Transaktionsmessung**
 
-  Ermitteln Sie den Einfluss der Ad-Exponierung auf den Verkauf mithilfe robuster, deterministischer Kredit- und Debitverkaufsdaten.
+  Ermitteln Sie den Einfluss der Werbeexponierung auf den Umsatz mithilfe robuster, deterministischer Kredit- und Debitverkaufsdaten.
 
-* **Designer-Experiment (A/B-Tests)**
+* **Experimentieren mit Designer (A/B-Tests)**
 
-  Vergleichen Sie das Verhalten und Sentiment randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
+  Vergleichen Sie das Verhalten und die Einstellung randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
 
-## Finden der optimalen Messgröße: Lösungen nach Vertikal
+## Finden der perfekten Messanpassung: Lösungen von Vertical
 
 * **Beliebige Vertikale:**
 
-   * Designer-Test (Placebo und A/B-Test)
+   * Experiment Designer (Placebo- und A/B-Tests)
 
-   * Benutzerbasierte Reichweite und Konversionen
+   * Personenbasierte Reichweite und Konversionen
 
-     Jede Organisation, die über mehrere digitale Taktiken hinweg messen möchte; Organisationen, die den Wert von Audio zeigen möchten
+     Jede Organisation, die über mehrere digitale Taktiken hinweg messen möchte; Organisationen, die den Wert von Audio präsentieren möchten
 
-   * Messung der Reichweite, Häufigkeit und Konversion im Haushalt
+   * Haushaltsbasierte Reichweiten-, Frequenz- und Konversionsmessung
 
-     Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg verstehen möchte
+     Jeder Client, der Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg verstehen möchte
 
-   * Bildschirmweite, Häufigkeit und Konversionsmessung
+   * Cross-Screen-Reichweite, -Frequenz und -Konversionsmessung
 
-     Jeder Kunde, der die Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken hinweg im Vergleich zu linearen TV-Investitionen verstehen möchte
+     Jeder Kunde, der Reichweite/inkrementelle Reichweite und kostenbasierte Effizienz- und/oder Konversionsmetriken über mehrere digitale Taktiken im Vergleich zu linearen TV-Investitionen hinweg verstehen möchte
 
    * Dynata Panel-basierte Umfragen
 
-     Jeder Kunde, der das Markenbewusstsein und die Wahrnehmung seiner Marke auf mehreren Bildschirmen messen möchte; am besten geeignet für Nischenzielgruppen
+     Jeder Kunde, der Markenwahrnehmung und -wahrnehmung über mehrere Bildschirme hinweg messen möchte; am besten geeignet für Nischenzielgruppen
 
-* **QSR, Retail (Brick and Mortar):**
+* **QSR, Einzelhandel (Ziegel und Mörtel):**
 
    * Transaktionsmessung
 
-   * Foot Traffic Measurement
+   * Fußverkehrsmessung
 
-* **QSR, Retail, Travel:**
+* **QSR, Einzelhandel, Reise:**
 
-   * Transaction Insights
+   * Transaktions-Insights
 
-     Jeder Kunde, der einen bestimmten Typ von Käufer erreichen möchte, um In-Store- und Online-Verkäufe zu führen
+     Jeder Kunde, der eine bestimmte Art von Käufer erreichen möchte, um den Online-Verkauf in Geschäften und im Internet zu fördern
 
 ## Weitere Informationen
 
-Wenden Sie sich an Ihr Adobe Account Team, um Informationen zu allen erweiterten Messlösungen zu erhalten und Preisinformationen sowie verfügbare Formate und Regionen für jede Lösung aufzulisten. Lösungsspezifische Fallstudien sind auch auf Anfrage verfügbar.
+Informationen zu allen erweiterten Messlösungen, Preisinformationen sowie verfügbare Formate und Regionen für jede Lösung erhalten Sie von Ihrem Adobe-Account-Team. Lösungsspezifische Fallstudien sind ebenfalls auf Anfrage erhältlich.

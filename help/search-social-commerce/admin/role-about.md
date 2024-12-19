@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Rollen bestimmen die Berechtigungen, die ein Benutzertyp ausführen kann. Jeder Benutzer ist einer Rolle zugewiesen und kann alle Aktivitäten ausführen, die die Rolle zulässt.
 
-Nur Benutzer mit den Benutzerrollen [!DNL Adobe] Konto-Manager und Administrator können Benutzern Rollen zuweisen.
+Nur Benutzer mit den Rollen &quot;[!DNL Adobe] Account Manager“ und „Administrator“ können Benutzern Rollen zuweisen.

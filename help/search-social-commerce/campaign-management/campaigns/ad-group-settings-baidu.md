@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Baidu] Anzeigengruppeneinstellungen'
-description: Referenzieren Sie die Einstellungen für  [!DNL Baidu] Anzeigengruppen.
+title: Einstellungen für Anzeigengruppen [!DNL Baidu]
+description: Verweisen Sie auf die Einstellungen  [!DNL Baidu]  Anzeigengruppen.
 exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] Anzeigengruppeneinstellungen
+# Einstellungen für Anzeigengruppen [!DNL Baidu]
 
 ## [!UICONTROL Adgroup Details]
 
 **[!UICONTROL Ad Group Name]:** Ein Anzeigengruppenname, der innerhalb der Kampagne eindeutig ist. Die maximale Länge beträgt 15 Doppelbyte-Zeichen.
 
-**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Angehalten*. Die Standardeinstellung für neue Anzeigengruppen ist *aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Paused*. Der Standardwert für neue Anzeigengruppen lautet *Aktiv*.
 
 ## [!UICONTROL Budget Options]
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Verwalten von Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Anzeigengruppen verwalten](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

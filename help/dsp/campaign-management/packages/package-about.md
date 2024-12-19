@@ -1,5 +1,5 @@
 ---
-title: Informationen zur Paketverwaltung in Advertising DSP
+title: Über die Paketverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Paketverwaltung.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
@@ -10,32 +10,32 @@ ht-degree: 0%
 
 ---
 
-# Informationen zur Paketverwaltung in Advertising DSP
+# Über die Paketverwaltung in Advertising DSP
 
-Verwenden Sie Pakete, um Platzierungen für die Bereitstellung in einem festgelegten Budget, Leistungsziel und einer benutzerdefinierten Schrittstrategie zu gruppieren. DSP optimiert Pakete, indem Budgets auf die leistungsstärksten Platzierungen im Paket umgestellt werden. Sie können Pakete nach Platzierungsformat, Inventartyp, Datenanbieter, Persona oder anderen unterscheidbaren Eigenschaften organisieren. Pakete sind optional.
+Verwenden Sie Pakete, um Platzierungen für die Bereitstellung nach einem festgelegten Budget, einem Leistungsziel und einer benutzerdefinierten Schrittmacherstrategie zu gruppieren. DSP optimiert Pakete durch Umschichtung der Budgets auf die leistungsstärksten Platzierungen im Paket. Sie können Pakete nach Platzierungsformat, Inventartyp, Datenanbieter, Rolle oder anderen unterscheidbaren Merkmalen organisieren. Pakete sind optional.
 
-Sie können Packages manuell oder durch Duplizieren vorhandener Packages erstellen. Sie können Platzierungen auch bearbeiten und an beliebige Pakete anhängen.
+Sie können Pakete manuell oder durch Duplizieren vorhandener Pakete erstellen. Sie können auch Platzierungen bearbeiten und an beliebige Pakete anhängen.
 
-## Das Dashboard [!UICONTROL Packages]
+## Das [!UICONTROL Packages] Dashboard
 
-Das Dashboard [!UICONTROL Packages] zentralisiert die Leistungs- und Wirtschaftsberichte aller Paketstrategien und bietet einen schnellen Überblick darüber, wie Ihre Pakete in einem bestimmten Datumsbereich ausgeführt wurden.
+Das [!UICONTROL Packages]-Dashboard zentralisiert die Leistungs- und Wirtschaftsberichte für alle Ihre Paketstrategien und bietet schnelle Momentaufnahmen der Leistung Ihrer Pakete während eines bestimmten Datumsbereichs.
 
 ![Pakete-Dashboard](/help/dsp/assets/package-dashboard.png)
 
-Das Dashboard enthält ein übergeordnetes, anpassbares Trenddiagramm mit drei Metriken.
+Das Dashboard enthält ein allgemeines, anpassbares Trenddiagramm mit drei Metriken.
 
-Er zeigt standardmäßig auch Geschwindigkeit- und Versandmetriken nach Paket an. Optional können Sie Leistungsmetriken für die Pakete anzeigen und benutzerdefinierte Spaltensätze erstellen. Sie können die gesamte Datentabelle als Bericht in den standardmäßigen Download-Ordner Ihres Browsers im XLSM-Format (Excel-Tabelle mit Makros) herunterladen.
+Außerdem werden standardmäßig Geschwindigkeits- und Versandmetriken nach Paket angezeigt. Sie können optional Leistungsmetriken für die Pakete anzeigen und benutzerdefinierte Spaltensätze erstellen. Sie können die gesamte Datentabelle als Bericht im XLSM-Format (Macro-Enabled Excel Spreadsheet) in den Standard-Download-Ordner Ihres Browsers herunterladen.
 
 >[!NOTE]
 >
->Sie können den Inhalt und die Bereitstellung der Paketberichte über [benutzerdefinierte Berichte](/help/dsp/reports/report-about.md) weiter anpassen.
+>Sie können den Inhalt und die Bereitstellung von Paketberichten über [benutzerspezifische Berichte](/help/dsp/reports/report-about.md) weiter anpassen.
 
-Klicken Sie auf den Paketnamen, um alle Platzierungen innerhalb eines Packages und die Flugdaten für das Paket anzuzeigen.
+Klicken Sie auf den Paketnamen, um alle Platzierungen innerhalb eines Pakets und die Flugdaten für das Paket anzuzeigen.
 
 >[!MORELIKETHIS]
 >
 >* [Erstellen eines Pakets](package-create.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
->* [Platzierung an ein Paket anhängen](package-attach-placement.md)
+>* [Platzierung an Paket anhängen](package-attach-placement.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Paketeinstellungen](package-settings.md)

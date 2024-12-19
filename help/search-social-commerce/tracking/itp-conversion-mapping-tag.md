@@ -1,6 +1,6 @@
 ---
-title: Das Adobe Advertising-Konversions-Mapping-Tag
-description: Erfahren Sie mehr über das JavaScript-basierte Konversions-Mapping-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer Seite auftritt, die nicht die Landingpage ist.
+title: Das Adobe Advertising-Konversionszuordnungs-Tag
+description: Erfahren Sie mehr über das JavaScript-basierte Konversionszuordnungs-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer Seite auftritt, die nicht die Landingpage ist.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
 source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# Das Adobe Advertising JavaScript-Konversions-Zuordnungs-Tag
+# Das Adobe Advertising JavaScript Conversion Mapping Tag
 
-*Advertiser mit nur Adobe Advertising-Konversions-Tracking*
+*Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
 
-Das Adobe Advertising JavaScript-basierte Konversions-Mapping-Tag ermöglicht es Adobe Advertising, bei Verwendung zusätzlich zum Adobe Advertising-JavaScript v2- oder v3-Konversions-Tracking-Tag ein Konversionsereignis zu verfolgen, das auf einer Seite auftritt, die nicht die Landingpage ist. Die ITP 2.2-Lösung speichert das Cookie eines Benutzers im lokalen Speicher in einem von Advertisern verwalteten iFrame. Der lokale Speicher kann dann den Cookie-Wert vom Klick nachgelagert zur Konvertierungsseite beibehalten.
+Wenn das Adobe Advertising JavaScript-basierte Konversionszuordnungs-Tag zusätzlich zum Adobe Advertising JavaScript v2- oder v3-Konversionsverfolgungs-Tag verwendet wird, kann Adobe Advertising ein Konversionsereignis verfolgen, das auf einer Seite auftritt, die nicht die Landingpage ist. Die ITP 2.2-Lösung speichert das Cookie eines Benutzers lokal in einem iFrame, der dem Werbetreibenden gehört. Der lokale Speicher kann dann den Cookie-Wert vom Klick stromabwärts zur Konversionsseite beibehalten.
 
-Verwenden Sie das Konversions-Mapping-Tag, um sicherzustellen, dass Adobe Advertising alle Konversionen verfolgen kann, die in Apple Safari und Mozilla Firefox-Browsern auftreten, wodurch die Persistenz von Erstanbieter-Cookies eingeschränkt wird. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Verwenden Sie das Tag für die Konversionszuordnung , um sicherzustellen, dass Adobe Advertising alle Konvertierungen verfolgen kann, die in Apple Safari- und Mozilla Firefox-Browsern auftreten, welche die Persistenz von Erstanbieter-Cookies einschränken. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
-So verwenden Sie das Konversions-Mapping-Tag:
+So verwenden Sie das Konversionszuordnungs-Tag:
 
-1. [Stellen Sie das Konversions-Mapping-Tag bereit](#deploy-conversion-mapping-tag).
+1. [Stellen Sie das Konversionszuordnungs-Tag bereit](#deploy-conversion-mapping-tag).
 
-1. Wenn Ihr Unternehmen mehrere Organisations-IDs des Adobe Experience Cloud Identity Service verwendet (ehemals &quot;IMS-Organisations-IDs&quot;), aktualisieren Sie [Ihre Konversions-Tags](#update-conversion-tags), um die Organisations-ID einzuschließen.
+1. Wenn Ihr Unternehmen mehrere Organisations-IDs für den Adobe Experience Cloud Identity Service (früher IMS-Organisations-IDs genannt) verwendet, [aktualisieren Sie Ihre Konversions-Tags](#update-conversion-tags) um die Organisations-ID aufzunehmen.
 
 1. [Validieren Sie die Tag-Bereitstellung](#validate-conversion-mapping).
 
-## Bereitstellen des JavaScript-Tags für die Konversions-Zuordnung für ITP 2.2 {#deploy-conversion-mapping-tag}
+## Bereitstellen des JavaScript-Konversionszuordnungs-Tags für ITP 2.2 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->Wenn Sie das JavaScript-Konversions-Mapping-Tag für ITP 2.0 verwenden, ersetzen Sie das vorhandene Tag auf allen Konversionsseiten durch eines der folgenden Tags.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>Wenn Sie das Konversionszuordnungs-Tag von JavaScript für ITP 2.0 verwenden, ersetzen Sie das vorhandene Tag auf allen Konversionsseiten durch eines der folgenden Tags.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
 * Wenn Ihr Unternehmen eine einzige Organisations-ID verwendet, die für Ihr Search-, Social- und Commerce-Konto verwendet wird, verwenden Sie das folgende Tag:
 
@@ -42,13 +42,13 @@ So verwenden Sie das Konversions-Mapping-Tag:
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-  wobei:
+  Dabei gilt:
 
-   * Ersetzen Sie den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie für alle Konversionsseiten dieselbe Organisations-ID.
+   * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
 
-   * Ersetzen Sie `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
+   * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
-* Wenn Sie ein Tag-Management-System verwenden, das das Hinzufügen der `imsorgid` -Variable zum Skript-Tag nicht unterstützt, verwenden Sie stattdessen den folgenden Code:
+* Wenn Sie ein Tag-Management-System verwenden, das das Hinzufügen der `imsorgid` Variable zum Skript-Tag nicht unterstützt, verwenden Sie stattdessen den folgenden Code:
 
   *Wenn Ihr Unternehmen eine einzige Organisations-ID verwendet:
 
@@ -73,13 +73,13 @@ So verwenden Sie das Konversions-Mapping-Tag:
      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
      ```
 
-     wobei:
+     Dabei gilt:
 
-      * Ersetzen Sie den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie für alle Konversionsseiten dieselbe Organisations-ID.
+      * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
 
-      * Ersetzen Sie `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
+      * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
-Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, fragen Sie Ihr Adobe-Account-Team.
+Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
 
 ### Beispiele
 
@@ -96,25 +96,25 @@ window.ad_cloud.userid = "99999"
 <script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>
 ```
 
-### Wo wird das Tag hinzugefügt?
+### Hinzufügen des Tags
 
-Fügen Sie das Tag zu jeder Seite hinzu, bei der es sich um eine Landingpage aus einem Suchklick handeln könnte (idealerweise auf allen Seiten, da sich Landingpages im Laufe der Zeit ändern können). Sie muss vor dem Adobe Advertising JavaScript v3-Konversions-Tracking-Tag geladen werden.
+Fügen Sie das Tag auf jeder Seite hinzu, die eine Landingpage aus einem Suchklick sein könnte (idealerweise auf allen Seiten, da sich die Landingpages im Laufe der Zeit ändern können). Es muss vor dem Konversionsverfolgungstag von Adobe Advertising JavaScript v3 geladen werden.
 
-Wenn sie in einem iframe- oder container-Tag platziert wird, gehen Sie wie folgt vor:
+Wenn es in einem iframe- oder Container-Tag platziert ist, dann:
 
-* Der iframe sollte sich auf derselben Ebene wie die Domäne der obersten Ebene befinden.
+* Der iframe sollte auf derselben Ebene wie die Domain auf oberster Ebene sein.
 
-* Das Konversions-Mapping-Tag sollte nur eine (1) Ebene unter der Domäne der obersten Ebene sein.
+* Das Konversionszuordnungs-Tag sollte nur eine Ebene (1) unter der Domain der obersten Ebene liegen.
 
-## JavaScript-Konversions-Tags aktualisieren {#update-conversion-tags}
+## Aktualisieren von JavaScript-Konversions-Tags {#update-conversion-tags}
 
-Wenn Ihr Unternehmen mehrere Organisations-IDs verwendet, fügen Sie die Organisations-ID hinzu, für die die Konversionen einer Seite verfolgt werden, zu Ihren vorhandenen JavaScript-Konversions-Tags.
+Wenn Ihr Unternehmen mehrere Organisations-IDs verwendet, fügen Sie die Organisations-ID, für die die Konversionen einer Seite verfolgt werden, zu Ihren bestehenden JavaScript-Konversions-Tags hinzu.
 
 Wenn Ihr Unternehmen eine Organisations-ID verwendet, ist dieser Schritt nicht erforderlich.
 
-### JavaScript V2-Tags
+### JavaScript v2-Tags
 
-Fügen Sie am Anfang des Konvertierungsskript-Tags die folgende Zeichenfolge hinzu:
+Fügen Sie die folgende Zeichenfolge am Anfang des Konvertierungsskript-Tags hinzu:
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
@@ -142,7 +142,7 @@ effp();
 <noscript><img src="https://pixel.everesttech.net/<ef-userid>/t?ev_property name=<property name>&ev_transid=<transid>" width="1" height="1"/></noscript>
 ```
 
-### JavaScript V3-Tags
+### JavaScript v3-Tags
 
 Nachdem `window.EF` definiert wurde, fügen Sie die folgende Zeichenfolge hinzu:
 
@@ -188,4 +188,4 @@ Beispiel:
 
 ## Validieren der Tag-Bereitstellung {#validate-conversion-mapping}
 
-Bitten Sie Ihr Adobe Account-Team, bei der Validierung des Konversions-Mapping-Tags und des normalen Konversions-Tags behilflich zu sein (sofern Sie es aktualisiert haben).
+Bitten Sie Ihr Adobe-Konto-Team um Hilfe bei der Validierung des Konversionszuordnungs-Tags und des regulären Konversions-Tags (wenn Sie es aktualisiert haben).

@@ -1,6 +1,6 @@
 ---
-title: Konversionsmetriken aus Adobe Analytics [!DNL eVars] und Props erstellen
-description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mit Daten der Ebenen [!DNL eVar] und [!DNL prop].
+title: Erstellen von Konversionsmetriken aus Adobe Analytics  [!DNL eVars]  Props
+description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mithilfe von  [!DNL eVar]- und  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
 source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 ---
 
-# Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL props]
+# Erstellen von Konversionsmetriken aus Adobe Analytics [!DNL eVars] und [!DNL props]
 
-*Advertiser mit nur einer Adobe Advertising-Adobe Analytics-Integration*
+*Nur Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
 
-Sie können Erfolgsereignismetriken verwenden, um DSP- und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die am besten zu den Zielen Ihrer Marke passen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) konfigurieren, indem Sie Daten der Ebenen [!DNL eVar] und [!DNL prop] in ein Ereignis umwandeln. Andere [!DNL Analytics] -Metriken, einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Suche, Social und Commerce verfügbar.
+Sie können Erfolgsereignismetriken verwenden, um DSP-Pakete und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die den Zielen Ihrer Marke am besten entsprechen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) konfigurieren, indem Sie Daten auf [!DNL eVar]- und [!DNL prop] Ebene in ein Ereignis einleiten. Andere [!DNL Analytics], einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Search, Social und Commerce verfügbar.
 
 ![Nutzungsbeispiel](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Nutzungsbeispiel")
 
-Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] -Administrator oder einem anderen Benutzer ausgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich an (DSP-Benutzer) das DSP technische Supportteam unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) Ihr Adobe-Account-Team.
+Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem anderen Benutzer durchgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich unter (DSP-Benutzer) an das technische Support-Team von DSP unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) an Ihr Adobe-Account-Team.
 
-1. Erstellen Sie in [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. Erstellen Sie [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Verwenden Sie die folgenden zusätzlichen Parameter:
 
-   **Typ:** `Counter`
+   **type:** `Counter`
 
    **Polarität:** entweder `Up is Good` oder `Up is Bad`
 
@@ -32,35 +32,35 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] -Administr
 
    **Eindeutige Ereignisaufzeichnung:** `Always Record Event`
 
-   **Beitrag:** `Enabled`
+   **Teilnahme:** `Enabled`
 
-   Sie müssen das neue Ereignis nicht auf der Website Ihrer Marke implementieren, da es bereits erfasste vorhandene Daten verwendet.
+   Sie müssen das neue Ereignis nicht auf der Website Ihrer Marke implementieren, da es vorhandene Daten verwendet, die bereits erfasst wurden.
 
 1. Erstellen und validieren Sie eine Verarbeitungsregel in [!DNL Analytics]:
 
    >[!NOTE]
    >
-   >Nur [!DNL Analytics] -Kontoadministratoren können Verarbeitungsregeln erstellen, es sei denn, sie haben Nicht-Administratoren Zugriff auf diese Regeln gewährt.
+   >Nur [!DNL Analytics]-Konto-Administratoren können Verarbeitungsregeln erstellen, es sei denn, sie haben Nicht-Administratoren die Berechtigung erteilt.
 
-   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) mit der folgenden Konfiguration:
+   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) mithilfe der folgenden Konfiguration:
 
-      * Geben Sie für die Bedingung, die erfüllt sein muss, den erforderlichen [!DNL eVars] oder den erforderlichen [!DNL props] an.
+      * Geben Sie für die Bedingung, die erfüllt werden muss, die erforderliche [!DNL eVars] oder [!DNL props] an.
 
-        Sie können bei Bedarf zusätzliche Granularitätsstufen konfigurieren, um sicherzustellen, dass die Ereignisse mit der höchsten Genauigkeit erstellt werden.
+        Sie können bei Bedarf zusätzliche Granularitätsstufen konfigurieren, um sicherzustellen, dass die genauesten Ereignisse erstellt werden.
 
         >[!TIP]
         >
-        >Es empfiehlt sich, nur einen [!DNL eVar] oder einen [!DNL prop] zu verwenden.
+        >Es empfiehlt sich, nur eine [!DNL eVar] oder [!DNL prop] zu verwenden.
 
-      * Wählen Sie für die Aktion **Ereignis festlegen** und dann das Platzhalterereignis aus.
+      * Wählen Sie für die Aktion **Ereignis festlegen** und wählen Sie das Platzhalterereignis aus.
 
-   1. Erstellen Sie in [!DNL Analytics] [!DNL Analysis Workspace] [ein Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass Daten für die Metrik [!DNL eVar] oder [!DNL prop] gefüllt werden.
+   1. Erstellen Sie in [!DNL Analytics] [!DNL Analysis Workspace] [ein Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass die Daten für die [!DNL eVar] oder [!DNL prop] Metrik gefüllt werden.
 
-1. Wenden Sie sich an Ihr Adobe-Account-Team, um die neue Metrik mit Adobe Advertising zu synchronisieren.
+1. Wenden Sie sich an Ihr Adobe-Konto-Team , um die neue Metrik mit Adobe Advertising zu synchronisieren.
 
-Nachdem die Metrik verfügbar ist, können Sie sie verwenden, um ein Ziel zu erstellen, das Sie dann einem Search-, Social- und Commerce-Portfolio zuweisen oder als [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) für ein DSP-Package verwenden können.
+Nachdem die Metrik verfügbar ist, können Sie sie zum Erstellen eines Ziels verwenden, das Sie dann einem Search-, Social- und Commerce-Portfolio zuweisen oder als [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) für ein DSP-Paket verwenden können.
 
-Weitere Informationen zum Erstellen von Zielen finden Sie im Kapitel &quot;Optimierungshandbuch&quot;unter &quot;Ziele&quot;, das in Search, Social und Commerce verfügbar ist.
+Weitere Informationen zum Erstellen von Zielen finden Sie im Kapitel „Optimierungshandbuch“ zu „Zielen“, das in Search, Social und Commerce verfügbar ist
 
 >[!MORELIKETHIS]
 >

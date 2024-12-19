@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # FTP-Zugriff auf Berichte
 
-Sie können optional Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (z. B. um die Daten mit einem anderen Programm zu analysieren). Alle grundlegenden Berichte mit Ausnahme von [!UICONTROL Search Engine Account Report] und alle erweiterten Berichte können als komprimierte TSV-Dateien (Standard) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
+Optional können Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem aus Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (um beispielsweise die Daten mit einem anderen Programm zu analysieren). Alle Basisberichte außer [!UICONTROL Search Engine Account Report] und allen erweiterten Berichten können als komprimierte TSV-Dateien (die Standardeinstellung) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
 
-Für den FTP-Zugriff auf Berichte ist der Zugriff auf ein bestimmtes FTP-Konto erforderlich. Außerdem müssen Sie Berichtsvorlagen mithilfe einer bestimmten Namenskonvention und eines Zeitplans einrichten.
+Der FTP-Zugriff auf Berichte erfordert Zugriff auf ein bestimmtes FTP-Konto, und Sie müssen Berichtsvorlagen mit einer bestimmten Namenskonvention und einem Zeitplan einrichten.
 
-## Einrichten eines FTP-Kontos für den Zugriff auf Berichte
+## FTP-Konto für den Zugriff auf Berichte einrichten
 
-* Wenden Sie sich an Ihr Adobe-Account-Team, um ein FTP-Konto für den Zugriff auf Berichte einzurichten.
+* Wenden Sie sich an Ihr Adobe-Konto-Team , um ein FTP-Konto für den Zugriff auf Berichte einzurichten.
 
   Das Team stellt Ihnen Ihren Benutzernamen und Ihr Passwort zur Verfügung.
 
-## Berichtsvorlagen für den FTP-Versand einrichten
+## Einrichten von Berichtsvorlagen für die FTP-Bereitstellung
 
-Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie eine [Berichtsvorlage](templates/template-create.md) mit den folgenden Benennungskonventionen und dem folgenden Zeitplan.
+Um Berichte in Ihrem vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie [Berichtsvorlage](templates/template-create.md) mit den folgenden Benennungskonventionen und Zeitplänen.
 
 >[!NOTE]
 >
->Alle erweiterten Berichte und alle grundlegenden Berichte mit Ausnahme von [!UICONTROL Search Engine Account Report] können an einen FTP-Speicherort gesendet werden.
+>Alle erweiterten Berichte und alle Standardberichte mit Ausnahme des [!UICONTROL Search Engine Account Report] können an einen FTP-Speicherort gesendet werden.
 
-1. Schließen Sie in der Berichtsvorlage an einer beliebigen Stelle im Vorlagennamen die folgenden Informationen ein:
+1. Fügen Sie in die Berichtsvorlage die folgenden Informationen an beliebiger Stelle im Vorlagennamen ein:
 
-   * `FTP` (in Großbuchstaben).
+   * `FTP` (in Großbuchstaben)
 
-   * (Optional) Jedes der drei Systemdaten unter Verwendung der folgenden Syntax, bei der zwischen Groß- und Kleinschreibung unterschieden wird, einschließlich Klammern:
+   * (Optional) Eines der drei Systemdaten, wobei die folgende Syntax (einschließlich Klammern) unter Berücksichtigung der Groß-/Kleinschreibung verwendet wird:
 
-      * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, in der der Bericht ausgeführt wurde. Da dies die genaue Uhrzeit enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
+      * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, an denen der Bericht ausgeführt wurde. Da dies den genauen Zeitpunkt enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
 
-      * `[SDATE]` - Um das Startdatum des Berichtsdatumsbereichs einzuschließen.
+      * `[SDATE]` - Zum Einschließen des Startdatums des Datumsbereichs des Berichts.
 
-      * `[EDATE]` - So schließen Sie das Enddatum des Datumsbereichs des Berichts ein.
+      * `[EDATE]` - Zum Einschließen des Enddatums des Datumsbereichs des Berichts.
 
-   * (Optional) `[CSV]` (in Großbuchstaben und in Klammern eingeschlossen), um Dateien im CSV-Format und nicht im standardmäßigen TSV-Format zu erstellen.
+   * (Optional) `[CSV]` (in Großbuchstaben und in eckigen Klammern), um Dateien im CSV-Format statt im Standard-TSV-Format zu erstellen.
 
-   Beispiel: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` würde eine Datei wie 202305051656-Portfolio-FTP-20230428-20110504.csv erstellen.
+   Beispiel: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` erstellt eine Datei wie 202305051656-Portfolio-FTP-20230428-20110504.csv.
 
 1. Planen Sie die Ausführung des Berichts zu einem bestimmten Zeitpunkt.
 
@@ -52,19 +52,19 @@ Um Berichte in Ihrem dafür vorgesehenen FTP-Verzeichnis zu generieren, erstelle
 
 >[!NOTE]
 >
->* Um abgeschlossene Berichte per E-Mail zu versenden, geben Sie bei der Erstellung des Berichts oder der Vorlage einfach die Adressen aller E-Mail-Empfänger an.
->* Berichte werden entsprechend ihren festgelegten Zeitplänen ausgeführt und innerhalb einer Stunde nach Abschluss an das FTP-Konto gesendet.
+>* Um ausgefüllte Berichte per E-Mail zu senden, geben Sie beim Generieren des Berichts oder der Vorlage einfach die Adressen aller E-Mail-Empfänger ein.
+>* Berichte werden gemäß ihren festgelegten Zeitplänen ausgeführt und innerhalb einer Stunde nach Abschluss an das FTP-Konto gesendet.
 
-## Zugriff auf Berichte in einem FTP-Repository
+## Zugreifen auf Berichte in einem FTP-Repository
 
-Um auf Ihre Berichte zuzugreifen, stellen Sie eine Verbindung zu einem der folgenden FTP-Hosts her. Verwenden Sie dazu das Login für Ihr FTP-Konto (`amo<userID>rpt`, z. B. amo1234rpt) und entweder ein Kennwort oder einen privaten Verbindungsschlüssel, falls einer eingerichtet ist:
+Um auf Ihre Berichte zuzugreifen, stellen Sie eine Verbindung mit einem der folgenden FTP-Hosts her, indem Sie die Anmeldedaten für Ihr FTP-Konto (`amo<userID>rpt`. B. amo1234rpt) und entweder ein Kennwort oder einen privaten Verbindungsschlüssel verwenden, falls einer eingerichtet ist:
 
 * Internationale Kunden: `ftp3.adobe.net`
 * US-Kunden: `ftp5.adobe.net`
 
 >[!NOTE]
 >
->Das Berichte-Repository ist schreibgeschützt und wird alle 15 Tage gelöscht.
+>Das Reporting-Repository ist schreibgeschützt und wird alle 15 Tage bereinigt.
 
 
 >[!MORELIKETHIS]

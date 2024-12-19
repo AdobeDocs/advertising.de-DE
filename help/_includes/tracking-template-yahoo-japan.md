@@ -5,17 +5,17 @@ source-wordcount: '138'
 ht-degree: 0%
 
 ---
-# Feld für Tracking-Vorlage für Yahoo! Japan Ads-Entitäten
+# Tracking-Vorlagenfeld für Yahoo! Japan Ads-Entitäten
 
 <!-- Search CRUD and bulk edit of Yahoo! Japan Ads entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder die Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die finale URL/Landingpage in einen Parameter einbettet. Verwenden Sie den Parameter `!{lpurl}`, um die URL der Landingpage anzugeben. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` , um eine Umleitung einzuschließen.
+**[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und auch die endgültige/Landingpage-URL in einen Parameter einbettet. Verwenden Sie den `!{lpurl}`, um die Landingpage-URL anzugeben. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
-Sie können optional Umleitungen und Tracking von Drittanbietern hinzufügen.
+Optional können Sie Umleitungen und Tracking von Drittanbietern hinzufügen.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot;und &quot;[!UICONTROL Auto Upload]&quot;enthalten, präfixiert Search, Social und Commerce beim Speichern des Datensatzes automatisch seinen eigenen Umleitungs- und Trackingcode.
+Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
 
 >[!NOTE]
 >
->* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Suchbegriffeinstellungen einen Wert enthalten, wird der Suchbegriffwert angewendet.
+>* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Keyword-Einstellungen einen Wert enthalten, wird der Keyword-Wert angewendet.
 >* Sie können Ihre Tracking-Vorlagen auf jeder Ebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.

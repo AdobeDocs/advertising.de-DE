@@ -5,9 +5,9 @@ source-wordcount: '54'
 ht-degree: 0%
 
 ---
-# Hinweis für das Feld &quot;Negative Suchbegriffe&quot;in Yahoo! Japan-Kampagnen- und Anzeigengruppeneinstellungen
+# Hinweis für das Feld Negative Keywords in Yahoo! Einstellungen für japanische Kampagnen und Anzeigengruppen
 
 >[!NOTE]
 >
 >* Die maximale Länge beträgt 80 Zeichen pro Keyword.
->* Sie können negative Suchbegriffe auf Kampagnen- und Anzeigengruppenebene entweder in den Einstellungen für Kampagne und Anzeigengruppe oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative Kampagnenebenen werden auf Anzeigengruppenebene angewendet.
+>* Negative Keywords auf Kampagnen- und Anzeigengruppenebene können Sie entweder in den Kampagnen- und Anzeigengruppeneinstellungen oder in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] festlegen. Negative auf Kampagnenebene werden auf Anzeigengruppenebene angewendet.

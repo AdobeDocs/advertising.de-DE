@@ -16,23 +16,23 @@ Sie können mehrere Zeilen in den Ansichten [!UICONTROL Search] > [!UICONTROL Ca
 
 * Tastaturbefehle:
 
-   * **[!DNL Shift+Click]**: Um mehrere aufeinander folgende Zeilen auszuwählen, klicken Sie auf die erste und drücken Sie beim Klicken auf die letzte.**[!DNL Shift]**
+   * **[!DNL Shift+Click]**: Um mehrere aufeinander folgende Zeilen auszuwählen, klicken Sie auf die erste Zeile und drücken Sie **[!DNL Shift]**, während Sie auf die letzte Zeile klicken.
 
-   * **[!DNL Ctrl+Click]**: Um mehrere nicht aufeinander folgende Zeilen auszuwählen, klicken Sie auf die erste und drücken Sie dann beim Klicken auf jede zusätzliche Zeile die Taste &quot;**[!DNL Ctrl]**&quot;.
+   * **[!DNL Ctrl+Click]**: Um mehrere, nicht aufeinander folgende Zeilen auszuwählen, klicken Sie auf die erste Zeile und drücken Sie dann **[!DNL Ctrl]**, während Sie auf jede zusätzliche Zeile klicken.
 
-* Globales Kontrollkästchen (![Kontrollkästchen](/help/search-social-commerce/assets/check-box.png) &quot;Kontrollkästchen&quot;) in der Spaltenüberschrift oben links:
+* Globales Kontrollkästchen (![Kontrollkästchen](/help/search-social-commerce/assets/check-box.png) „Kontrollkästchen„) in der linken oberen Spaltenüberschrift:
 
-   * Um alle Zeilen auf der aktuellen Seite auszuwählen, die einige oder alle Zeilen enthalten können, die mit den angewendeten Filtern verfügbar sind, je nachdem, ob Sie 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] anzeigen, aktivieren Sie das globale Kontrollkästchen.
+   * Um alle Zeilen auf der aktuellen Seite auszuwählen - die einige oder alle Zeilen enthalten können, die mit den angewendeten Filtern verfügbar sind, je nachdem, ob Sie 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] anzeigen -, aktivieren Sie das Kontrollkästchen global .
 
      Wenn Sie alle Zeilen auf der Seite auswählen, können Sie die Auswahl einzelner Zeilen aufheben.
 
-   * Um alle Zeilen auszuwählen, die mit den angewendeten Filtern verfügbar sind, aktivieren Sie das globale Kontrollkästchen und klicken Sie dann auf &quot;**[!DNL Select all N records?]**&quot;, wobei &quot;*N*&quot; die Anzahl der verfügbaren Datensätze ist.
+   * Um alle mit den angewendeten Filtern verfügbaren Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen global und klicken dann auf **[!DNL Select all N records?]**, wobei *N* die Anzahl der verfügbaren Datensätze ist.
 
      Wenn Sie alle verfügbaren Zeilen auswählen, können Sie die Auswahl einzelner Zeilen nicht aufheben.
 
 >[!MORELIKETHIS]
 >
->* [Anwenden eines Datenfilters aus einem Spaltenüberschriftsmenü](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
->* [Anwenden von Datenfiltern aus der Symbolleiste](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Anwenden eines Datenfilters über ein Spaltenüberschriften-Menü](../data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Anwenden von Datenfiltern über die Symbolleiste](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [Daten nach Datumsbereich filtern](../data-views/ad-hoc-settings/date-filter.md)
->* [Einen Filter entfernen](../data-views/ad-hoc-settings/column-filter-remove.md)
+>* [Filter entfernen](../data-views/ad-hoc-settings/column-filter-remove.md)

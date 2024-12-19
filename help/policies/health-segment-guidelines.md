@@ -1,6 +1,6 @@
 ---
-title: Adobe Advertising Acceptable Health Segments
-description: Siehe Richtlinien für akzeptable gesundheitsbezogene Zielgruppensegmente und -taktiken, die als Alternativen zum Targeting gesundheitsbezogener Zielgruppensegmente verwendet werden.
+title: Adobe Advertising akzeptabler Konsistenzsegmente
+description: Siehe Richtlinien für akzeptable gesundheitsbezogene Zielgruppensegmente und Taktiken, die als Alternativen zum Targeting von gesundheitsbezogenen Zielgruppensegmenten verwendet werden können.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,44 +10,44 @@ ht-degree: 0%
 
 ---
 
-# Adobe Advertising Akzeptable Health Segment-Richtlinien
+# Adobe Advertising Acceptable Health Segment Guidelines
 
 *Für Adobe Advertising DSP und[!DNL Adobe Advertising Search, Social, & Commerce]*
 
-Die folgenden Richtlinien enthalten inakzeptable und akzeptable gesundheitsbezogene Zielgruppensegmente. Außerdem wird empfohlen, Taktiken als Alternativen zum Targeting gesundheitsbezogener Zielgruppensegmente zu verwenden.
+Die folgenden Richtlinien beschreiben inakzeptable und akzeptable gesundheitsbezogene Zielgruppensegmente. Sie empfehlen außerdem Taktiken, die als Alternativen zum Targeting von gesundheitsbezogenen Zielgruppensegmenten verwendet werden können.
 
-Diese Richtlinien werden aus dem [!DNL Network Advertising Alliance (NAI)] zusammengefasst.
+Diese Richtlinien sind in der [!DNL Network Advertising Alliance (NAI)] zusammengefasst.
 
-Siehe auch [Adobe Advertising Ads Requirements Policy](/help/policies/ad-requirements-policy.md) , um zu bestimmen, ob ein gesundheitsbezogenes Zielgruppensegment pro Adobe Advertising-Targeting-Richtlinie verwendet werden kann.
+Siehe auch [Richtlinie für Adobe Advertising-Werbeanforderungen](/help/policies/ad-requirements-policy.md) um festzustellen, ob ein gesundheitsbezogenes Zielgruppensegment gemäß der Adobe Advertising-Zielgruppenbestimmungsrichtlinie verwendet werden kann.
 
-## Nicht verwendete Gesundheitssegmente
+## Konsistenzsegmente, die nicht verwendet werden sollten
 
-* Segmente, die auf geschützte Gesundheitsinformationen (PHI)\*, medizinische Aufzeichnungen auf Benutzerebene, pharmazeutische Verschreibungen oder ähnliche medizinische Quellen angewiesen sind, die tatsächliche Kenntnisse über den Zustand oder die Behandlung dieses Benutzers vermitteln.
+* Segmente, die auf geschützten Gesundheitsinformationen (PHI)\*, Patientenakten auf Benutzerebene, pharmazeutischen Verschreibungen oder ähnlichen medizinischen Quellen für Gesundheit oder Medizin basieren, die tatsächliche Kenntnisse über den Zustand oder die Behandlung dieses Benutzers liefern.
 
-  \* Adobe Advertising ist keine [!DNL HIPAA]-bereite Lösung.
+  \* Adobe Advertising ist keine [!DNL HIPAA] Lösung.
 
-* Segmente, die auf Gesundheitsbedingungen (oder verwandte Behandlungen) abzielen, wie Krebs, psychische Gesundheit, Drogensucht, sexuell übertragbare Krankheiten, Bedingungen, die hauptsächlich Kinder betreffen, oder andere empfindliche Gesundheitszustände, die nicht mit außermedikamentösen Arzneimitteln behandelt werden können (z. B. Diabetes, Psoriasis, rheumatoide Arthritis oder Fibromyalgie).
+* Segmente, die auf Gesundheitszustände (oder damit zusammenhängende Behandlungen) abzielen, z. B. jede Form von Krebs, psychische Gesundheit, Drogensucht, sexuell übertragbare Krankheiten, Erkrankungen, die hauptsächlich Kinder betreffen, oder andere sensible Gesundheitszustände, die nicht mit rezeptfreien Medikamenten behandelt werden können (z. B. Diabetes, Psoriasis, rheumatoide Arthritis oder Fibromyalgie).
 
-* Segmente, die sich auf die vorherige Web-Aktivität, App-Nutzung oder Aktivität zum Anzeigen von Inhalten eines Benutzers oder Geräts stützen und ein Interesse an einer sensiblen Gesundheit, einer medizinischen Erkrankung oder Behandlung ausdrücken (wie im obigen Block beschrieben).
+* Segmente, die auf der vorherigen Web-Aktivität, App-Nutzung oder angezeigten Inhaltsaktivitäten eines Benutzers oder Geräts basieren, welche ein Interesse an einem sensiblen Gesundheitszustand oder einer medizinischen Behandlung bekunden (wie im obigen Block beschrieben).
 
 ## Konsistenzsegmente, die verwendet werden können
 
-Folgendes muss zutreffen:
+Folgendes muss alle zutreffen:
 
 * Das Zielgruppensegment muss mindestens 10 % der Zielgruppenpopulation enthalten.
 
-* Das Zielgruppensegment beruht nur auf demografischen Informationen wie Alter, Geschlecht, Bildungsniveau und/oder Wohnraumeinstellung.
+* Das Zielgruppensegment basiert nur auf demografischen Informationen wie Alter, Geschlecht, Bildungsgrad und/oder Wohnumfeld.
 
-* Der Name des Zielgruppensegments ist so beschriftet, dass er auf der demografischen Zusammensetzung des Publikums basiert und nicht mit einer Gesundheitsbedingung gekennzeichnet ist (z. B. &quot;Frauen über 50&quot;, aber nicht &quot;Brustkrebs&quot;oder &quot;Hautpflege&quot;, aber nicht &quot;Akne Kranke&quot;).
+* Der Name des Zielgruppensegments ist so beschriftet, dass er von der demografischen Zusammensetzung der Zielgruppe abhängt und nicht mit einem Gesundheitszustand gekennzeichnet ist (z. B. „Frauen über 50“, aber nicht mit „Brustkrebs“ oder „Hautpflege“, aber nicht mit „Akne-Betroffener„).
 
-## Zusätzliche empfohlene Taktiken
+## Weitere empfohlene Taktiken
 
-* Targeting von Regionen, in denen die Zielgruppe eine hohe Tendenz aufweist und/oder in denen es Berufe/Profile gibt, die einen hohen Index aufweisen.
+* Zielgruppen-Geografien, in denen eine hohe Neigung der Zielgruppe besteht und/oder wenn es Berufe/Profile gibt, die einen hohen Index aufweisen.
 
-* Verwenden Sie kontextbezogenes Targeting für Suchbegriffe, die einen hohen Index aufweisen, aber nicht explizit drogenabhängig sind oder an eine Zielgruppe gebunden sind.
+* Verwenden Sie kontextuelles Targeting für Schlüsselwörter, die mit hoch indiziert sind, aber nicht explizit mit Drogenabhängigkeit zusammenhängen oder an eine Zielgruppe gebunden sind.
 
-* Wählen Sie demografische Segmente aus, die in hohem Maße Ihrer Zielgruppe entsprechen.
+* Demografische Segmente ansprechen, die stark auf Ihre Zielgruppe ausgerichtet sind.
 
 >[!MORELIKETHIS]
 >
->* [Richtlinie zu Anzeigenanforderungen](/help/policies/ad-requirements-policy.md)
+>* [Richtlinie für Anzeigenanforderungen](/help/policies/ad-requirements-policy.md)

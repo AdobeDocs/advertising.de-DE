@@ -1,6 +1,6 @@
 ---
-title: Über Listen auf Kontoebene und auf Advertiser-Ebene für blockierte Sites
-description: Erfahren Sie mehr über die Liste der blockierten Sites für ein Konto oder einen Advertiser.
+title: Über die Blockierungslisten auf Konto- und Werbekunden-Ebene
+description: Erfahren Sie mehr über die Liste der blockierten Websites für ein Konto oder einen Advertiser.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
@@ -10,22 +10,22 @@ ht-degree: 0%
 
 ---
 
-# Über Listen auf Kontoebene und auf Advertiser-Ebene für blockierte Sites
+# Über die Blockierungslisten auf Konto- und Werbekunden-Ebene
 
-Sie können die Liste der gesperrten Sites bearbeiten, die für das gesamte DSP verwendet wird, sowie zusätzliche Listen für einzelne Advertiser im Konto.
+Sie können die Liste der gesperrten Websites bearbeiten, die für das gesamte DSP-Konto verwendet wird, sowie zusätzliche Listen für einzelne Werbetreibende im Konto.
 
-Blockierte Sites definieren Zielgruppen, die für Ihre Platzierungen ausgeschlossen werden sollen. Jede Liste kann aus Website-Domänen der obersten Ebene und beliebigen Unterdomänen (z. B. example.com, my.example.com oder my.new.example.com) sowie App-IDs oder Paketnamen (z. B. com.example.app123) bestehen.
+Listen mit blockierten Sites definieren Zielgruppen, die für Ihre Platzierungen ausgeschlossen werden sollen. Jede Liste kann aus Website-Domains der obersten Ebene und Subdomains beliebiger Ebene (z. B. example.com, my.example.com oder my.new.example.com) sowie Mobile-App-IDs oder Paketnamen (z. B. com.example.app123) bestehen.
 
-Listen auf Advertiser-Ebene überschreiben Listen auf Kontoebene.
+Listen auf Advertiser-Ebene setzen Listen auf Kontoebene außer Kraft.
 
 >[!NOTE]
 >
->* Blockierungs-Site-Listen auf Kontoebene und auf Advertiser-Ebene werden zusätzlich zur DSP [global blockierten Site-Liste](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) angewendet, die Seiten enthält, die für Anzeigen als unsicher gelten.
->* Benutzer können auch Targeting-Sites zu jeder Platzierung hinzufügen.
->* Listen blockierter Sites überschreiben immer Listen zielgerichteter Sites. Wenn durch eine Platzierung dieselbe Zielgruppe für eine Anzeige ausgeschlossen und einbezogen wird, wird die Zielgruppe ausgeschlossen.
+>* Blockierte Site-Listen auf Konto- und Advertiser-Ebene werden zusätzlich zur DSP [Liste global blockierter Sites](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) angewendet, die Sites enthalten, die als unsicher für Anzeigen gelten.
+>* Benutzende können auch zielgerichtete Sites zu jeder Platzierung hinzufügen.
+>* Listen mit blockierten Sites setzen Listen mit ausgewählten Sites immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 >[!MORELIKETHIS]
 >
->* [Bearbeiten einer Liste auf Kontoebene oder auf Advertiser-Ebene blockierter Sites](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Bearbeiten einer Liste auf Konto- oder Werbekunden-Ebene für blockierte Websites](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Markensicherheit und Medienqualität](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

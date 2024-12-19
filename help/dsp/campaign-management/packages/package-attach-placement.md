@@ -1,5 +1,5 @@
 ---
-title: Platzierung an ein Paket anhängen
+title: Platzierung an Paket anhängen
 description: Erfahren Sie, wie Sie eine Platzierung an ein Paket anhängen.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Platzierung an ein Paket anhängen
+# Platzierung an Paket anhängen
 
-## Eine neue Platzierung aus der [!UICONTROL Placements]-Ansicht anhängen
+## Eine neue Platzierung über die [!UICONTROL Placements] anhängen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -24,25 +24,25 @@ ht-degree: 0%
 
 1. Geben Sie die verbleibenden [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
 
-## Eine neue oder vorhandene Platzierung aus der [!UICONTROL Packages]-Ansicht anhängen
+## Eine neue oder vorhandene Platzierung aus der [!UICONTROL Packages] anhängen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. Klicken Sie auf den Namen der Kampagne, um die Ansicht [!UICONTROL Packages] zu öffnen.
+1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] zu öffnen.
 
 1. Klicken Sie neben dem Paketnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * So erstellen Sie eine neue Platzierung:
+   * Erstellen einer neuen Platzierung:
 
       1. Klicken Sie auf **[!UICONTROL Create New Placement]**.
 
-      1. Wählen Sie den Anzeigentyp für die Platzierung aus und klicken Sie auf **[!UICONTROL Build this placement]**.
+      1. Wählen Sie den Anzeigentyp für die Platzierung aus und klicken Sie dann auf **[!UICONTROL Build this placement]**.
 
       1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
 
-   * So fügen Sie eine vorhandene Platzierung in die Kampagne hinzu:
+   * So fügen Sie eine vorhandene Platzierung in der Kampagne hinzu:
 
      >[!NOTE]
      >
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
 
-      1. (Optional) Klicken Sie für jede zusätzliche Platzierung, die Sie anhängen möchten, auf &quot;**[!UICONTROL Attach Another Placement]**&quot;und wiederholen Sie dann die Schritte 1 bis 2.
+      1. (Optional) Klicken Sie für jede weitere Platzierung, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Placement]**, und wiederholen Sie dann die Schritte 1 bis 2.
 
       1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
 

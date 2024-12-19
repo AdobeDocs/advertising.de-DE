@@ -10,12 +10,12 @@ ht-degree: 0%
 
 ---
 
-# Spaltenkonfiguration in Kampagnenansichten sperren und entsperren
+# Sperren und Entsperren einer Spaltenkonfiguration in Kampagnenansichten
 
-Durch das Sperren einer Spalte werden diese Spalte und alle anderen Spalten links davon in einem statischen Bereich gesperrt und alle Spalten rechts in einen anderen Bereich, durch den Sie horizontal scrollen können.
+Durch das Sperren einer Spalte werden diese Spalte und alle anderen Spalten links davon in einen statischen Bereich und alle Spalten rechts in einen anderen Bereich „gesperrt“, durch den Sie horizontal scrollen können.
 
-Eine Sperre funktioniert nur, bis Sie von der Entitätsansicht weg wechseln. Sie können sie nicht in der standardmäßigen oder benutzerdefinierten Ansicht speichern.
+Eine Sperre funktioniert nur, bis Sie sich von der Entitätsansicht entfernen. Sie können sie nicht in der Standard- oder benutzerdefinierten Ansicht speichern.
 
-* (Um eine Spaltenkonfiguration zu sperren) Klicken Sie rechts in der Spaltenüberschrift auf ![Nach-unten-Pfeil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nach-unten-Pfeil") und wählen Sie dann **[!UICONTROL Lock Column]** aus.
+* (So sperren Sie eine Spaltenkonfiguration) Klicken Sie rechts neben der Spaltenüberschrift auf ![Pfeil nach unten](/help/search-social-commerce/assets/arrow-down-dropdown.png " und ") Sie dann **[!UICONTROL Lock Column]** aus.
 
-* (Um eine Spaltenkonfiguration zu entsperren) Klicken Sie auf der rechten Seite einer Spaltenüberschrift im gesperrten Spaltensatz auf ![Nach-unten-Pfeil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nach-unten-Pfeil") und wählen Sie dann **[!UICONTROL Unlock Column]** aus.
+* (Zum Entsperren einer Spaltenkonfiguration) Klicken Sie auf der rechten Seite einer Spaltenüberschrift im gesperrten Spaltensatz auf ![Pfeil nach unten](/help/search-social-commerce/assets/arrow-down-dropdown.png "Pfeil nach ") und wählen Sie dann **[!UICONTROL Unlock Column]** aus.

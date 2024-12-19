@@ -1,6 +1,6 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers in Asia Pacific'
-description: Siehe verfügbare [!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum.
+title: '[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik'
+description: Siehe die  [!DNL On Demand] -Premium-Inventarverlage in der Region Asien-Pazifik.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,26 +10,26 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium Inventarverlage im asiatisch-pazifischen Raum{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Herausgeber | Geo |
+| Veröffentlicher | Geo |
 |-----------------------------|---------------|
-| [!DNL BBC] | Großes China |
-| [!DNL Bloomberg] | Großes China |
-| [!DNL CBS Interactive] | Großes China |
-| [!DNL CNN International] | Großes China |
-| [!DNL Conde Nast] | Großes China |
-| [!DNL EA] | Großes China |
-| [!DNL Gameloft] | Großes China |
-| [!DNL MSN] | Großes China |
-| [!DNL Tripadvisor] | Großes China |
-| [!DNL U.S. News] | Großes China |
-| [!DNL UDN] | Großes China |
-| [!DNL Vidol.tv] | Großes China |
-| [!DNL Vungle] | Großes China |
-| [!DNL Yahoo! Taiwan] | Großes China |
+| [!DNL BBC] | Großchina |
+| [!DNL Bloomberg] | Großchina |
+| [!DNL CBS Interactive] | Großchina |
+| [!DNL CNN International] | Großchina |
+| [!DNL Conde Nast] | Großchina |
+| [!DNL EA] | Großchina |
+| [!DNL Gameloft] | Großchina |
+| [!DNL MSN] | Großchina |
+| [!DNL Tripadvisor] | Großchina |
+| [!DNL U.S. News] | Großchina |
+| [!DNL UDN] | Großchina |
+| [!DNL Vidol.tv] | Großchina |
+| [!DNL Vungle] | Großchina |
+| [!DNL Yahoo! Taiwan] | Großchina |
 | [!DNL BBC] | Hongkong |
 | [!DNL Bloomberg] | Hongkong |
 | [!DNL CBS Interactive] | Hongkong |
@@ -181,88 +181,88 @@ ht-degree: 0%
 | [!DNL VIKI] | Philippinen |
 | [!DNL WeGo] | Philippinen |
 | [!DNL Yahoo] | Philippinen |
-| [!DNL 24H] | SEA |
-| [!DNL ABS CBN] | SEA |
-| [!DNL Astro] | SEA |
-| [!DNL Astro Gempak] | SEA |
-| [!DNL Bangkok Post] | SEA |
-| [!DNL BBC] | SEA |
-| [!DNL BBTV] | SEA |
-| [!DNL Bloomberg] | SEA |
-| [!DNL Bola] | SEA |
-| [!DNL Brilio] | SEA |
-| [!DNL Carousell] | SEA |
-| [!DNL CBS Interactive] | SEA |
-| [!DNL China Press] | SEA |
-| [!DNL CNBC] | SEA |
-| [!DNL CNN International] | SEA |
-| [!DNL Coconuts] | SEA |
-| [!DNL Conde Nast] | SEA |
-| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
-| [!DNL Dek-D] | SEA |
-| [!DNL Detik] | SEA |
-| [!DNL Doisongphapluat] | SEA |
-| [!DNL Dream] | SEA |
-| [!DNL EA] | SEA |
-| [!DNL Gameloft] | SEA |
-| [!DNL HOOQ] | SEA |
-| [!DNL Idntimes] | SEA |
-| [!DNL iFlix] | SEA |
-| [!DNL Investopedia] | SEA |
-| [!DNL Jakarta Post] | SEA |
-| [!DNL Kapanlagi] | SEA |
-| [!DNL Kapook] | SEA |
-| [!DNL Kaskus] | SEA |
-| [!DNL Kompas] | SEA |
-| [!DNL Line Today] | SEA |
-| [!DNL Line TV] | SEA |
-| [!DNL Liputan6] | SEA |
-| [!DNL Malay Mail Online] | SEA |
-| [!DNL Malaysiakini] | SEA |
-| [!DNL Media Prima] | SEA |
-| [!DNL Merdeka] | SEA |
-| [!DNL MSN] | SEA |
-| [!DNL Mthai] | SEA |
-| [!DNL New York Times] | SEA |
-| [!DNL Oona] | SEA |
-| [!DNL PPTV TH] | SEA |
-| [!DNL Rappler] | SEA |
-| [!DNL Sanook] | SEA |
-| [!DNL SethLui] | SEA |
-| [!DNL Siam Sport] | SEA |
-| [!DNL Sinar Harian] | SEA |
-| [!DNL SMX] | SEA |
-| [!DNL Spin.ph] | SEA |
-| [!DNL Spotify] | SEA |
-| [!DNL Star Media Group] | SEA |
-| [!DNL Tempo.co] | SEA |
-| [!DNL The Asian Parent - Malaysia] | SEA |
-| [!DNL The Inquirer] | SEA |
-| [!DNL The Philippine Star] | SEA |
-| [!DNL The Straits Times] | SEA |
-| [!DNL The Thao] | SEA |
-| [!DNL Thomson Reuters] | SEA |
-| [!DNL Time Inc] | SEA |
-| [!DNL TimeOut] | SEA |
-| [!DNL Tonton] | SEA |
-| [!DNL Tribun News] | SEA |
-| [!DNL Tripadvisor] | SEA |
-| [!DNL TrueID] | SEA |
-| [!DNL TVB Anywhere+] | SEA |
-| [!DNL Twitch] | SEA |
-| [!DNL U.S. News] | SEA |
-| [!DNL Vidio] | SEA |
-| [!DNL VIKI] | SEA |
-| [!DNL VIU] | SEA |
-| [!DNL Viva.co.id] | SEA |
-| [!DNL VNExpress] | SEA |
-| [!DNL VNG] | SEA |
-| [!DNL WeGo] | SEA |
-| [!DNL Wow Keren] | SEA |
-| [!DNL Yahoo] | SEA |
-| [!DNL Yan.vn] | SEA |
-| [!DNL Zalora] | SEA |
-| [!DNL Zing.vn] | SEA |
+| [!DNL 24H] | SEE |
+| [!DNL ABS CBN] | SEE |
+| [!DNL Astro] | SEE |
+| [!DNL Astro Gempak] | SEE |
+| [!DNL Bangkok Post] | SEE |
+| [!DNL BBC] | SEE |
+| [!DNL BBTV] | SEE |
+| [!DNL Bloomberg] | SEE |
+| [!DNL Bola] | SEE |
+| [!DNL Brilio] | SEE |
+| [!DNL Carousell] | SEE |
+| [!DNL CBS Interactive] | SEE |
+| [!DNL China Press] | SEE |
+| [!DNL CNBC] | SEE |
+| [!DNL CNN International] | SEE |
+| [!DNL Coconuts] | SEE |
+| [!DNL Conde Nast] | SEE |
+| [!DNL DAZN] ([!DNL Perform Media]) | SEE |
+| [!DNL Dek-D] | SEE |
+| [!DNL Detik] | SEE |
+| [!DNL Doisongphapluat] | SEE |
+| [!DNL Dream] | SEE |
+| [!DNL EA] | SEE |
+| [!DNL Gameloft] | SEE |
+| [!DNL HOOQ] | SEE |
+| [!DNL Idntimes] | SEE |
+| [!DNL iFlix] | SEE |
+| [!DNL Investopedia] | SEE |
+| [!DNL Jakarta Post] | SEE |
+| [!DNL Kapanlagi] | SEE |
+| [!DNL Kapook] | SEE |
+| [!DNL Kaskus] | SEE |
+| [!DNL Kompas] | SEE |
+| [!DNL Line Today] | SEE |
+| [!DNL Line TV] | SEE |
+| [!DNL Liputan6] | SEE |
+| [!DNL Malay Mail Online] | SEE |
+| [!DNL Malaysiakini] | SEE |
+| [!DNL Media Prima] | SEE |
+| [!DNL Merdeka] | SEE |
+| [!DNL MSN] | SEE |
+| [!DNL Mthai] | SEE |
+| [!DNL New York Times] | SEE |
+| [!DNL Oona] | SEE |
+| [!DNL PPTV TH] | SEE |
+| [!DNL Rappler] | SEE |
+| [!DNL Sanook] | SEE |
+| [!DNL SethLui] | SEE |
+| [!DNL Siam Sport] | SEE |
+| [!DNL Sinar Harian] | SEE |
+| [!DNL SMX] | SEE |
+| [!DNL Spin.ph] | SEE |
+| [!DNL Spotify] | SEE |
+| [!DNL Star Media Group] | SEE |
+| [!DNL Tempo.co] | SEE |
+| [!DNL The Asian Parent - Malaysia] | SEE |
+| [!DNL The Inquirer] | SEE |
+| [!DNL The Philippine Star] | SEE |
+| [!DNL The Straits Times] | SEE |
+| [!DNL The Thao] | SEE |
+| [!DNL Thomson Reuters] | SEE |
+| [!DNL Time Inc] | SEE |
+| [!DNL TimeOut] | SEE |
+| [!DNL Tonton] | SEE |
+| [!DNL Tribun News] | SEE |
+| [!DNL Tripadvisor] | SEE |
+| [!DNL TrueID] | SEE |
+| [!DNL TVB Anywhere+] | SEE |
+| [!DNL Twitch] | SEE |
+| [!DNL U.S. News] | SEE |
+| [!DNL Vidio] | SEE |
+| [!DNL VIKI] | SEE |
+| [!DNL VIU] | SEE |
+| [!DNL Viva.co.id] | SEE |
+| [!DNL VNExpress] | SEE |
+| [!DNL VNG] | SEE |
+| [!DNL WeGo] | SEE |
+| [!DNL Wow Keren] | SEE |
+| [!DNL Yahoo] | SEE |
+| [!DNL Yan.vn] | SEE |
+| [!DNL Zalora] | SEE |
+| [!DNL Zing.vn] | SEE |
 | [!DNL BBC] | Singapur |
 | [!DNL Bloomberg] | Singapur |
 | [!DNL Carousell] | Singapur |
@@ -371,8 +371,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [About [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
->* [Abonnieren und Zugriff auf [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md) anfordern
+>* [Über [!DNL On Demand] Premium-Inventar](on-demand-inventory-about.md)
+>* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventar](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand Premium] Inventory Publishers in North America](on-demand-inventory-publishers-na.md)

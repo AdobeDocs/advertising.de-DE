@@ -10,82 +10,82 @@ ht-degree: 0%
 
 ---
 
-# So optimiert Advertising DSP Ihre Kampagnen
+# Optimieren von Kampagnen mit Advertising DSP
 
-Auf dieser Seite wird beschrieben, wie die von [!DNL Adobe Sensei] unterstützte DSP Optimierungsmodul die Pakete in Ihren Kampagnen optimiert. Tipps und Tricks zur manuellen Kampagnenoptimierung erhalten Sie von Ihrem Adobe-Account-Team. <!-- add link to trading playbook if we add it to help -->
+Auf dieser Seite wird erläutert, wie die DSP-Optimierungs-Engine auf Basis von [!DNL Adobe Sensei] die Kampagnenkits optimiert. Tipps und Tricks zur manuellen Optimierung von Kampagnen erhalten Sie von Ihrem Adobe-Account-Team. <!-- add link to trading playbook if we add it to help -->
 
-Die Ziele der Paketoptimierung sind auf zwei Ebenen möglich:
+Paketoptimierungsziele werden auf zwei Ebenen ausgeführt:
 
-* Für jedes Paket: DSP ordnet jeder Platzierung im Paket basierend auf der Leistung der Platzierung im Vergleich zum ausgewählten KPI das Budget zu.
+* Für jedes Paket: DSP ordnet Budget für jede Platzierung innerhalb des Pakets basierend auf der Platzierungsleistung gegenüber dem ausgewählten KPI zu.
 
-* Für jede Platzierung/Auktion im Paket: DSP berechnet den Echtzeit-KPI-Wert für jede Auktion pro Platzierung und bestimmt dann anhand dieses Werts das Angebot.
+* Für jede Platzierung/Auktion im Package: DSP berechnet den wirtschaftlichen KPI-Wert in Echtzeit für jede Auktion pro Platzierung und verwendet diesen Wert dann, um das Angebot zu bestimmen.
 
   >[!NOTE]
   >
-  >Der wirtschaftliche Wert kann stark gewichtet werden, je nachdem, wie gut eine Platzierung ausgegeben wird. Wenn eine Platzierung hinter ihrem Ausgabenziel liegt, darf sie minderwertige Auktionen kaufen. Wenn eine Platzierung ihr Ausgabenziel leicht erreicht, verlagert sich der Fokus auf qualitativ hochwertigere Auktionen.
+  >Der wirtschaftliche Wert kann stark gewichtet werden, je nachdem, wie gut eine Platzierung ausgegeben wird. Wenn eine Platzierung hinter ihrem Ausgabenziel liegt, darf sie minderwertige Auktionen kaufen. Wenn eine Platzierung ihr Ausgabenziel problemlos erreicht, verlagert sich der Fokus auf Auktionen höherer Qualität.
 
-## Package-Optimierung
+## Paketoptimierung
 
-DSP können Ihren Versand auf zwei grundlegende Arten optimieren, wobei 20 Varianten zur Verfügung stehen, um ihn an Ihr spezifisches Leistungsziel anzupassen. Sie haben folgende Möglichkeiten:
+DSP kann Ihren Versand auf zwei grundlegende Arten optimieren: Es stehen 20 Varianten zur Verfügung, die sich an Ihrem spezifischen Leistungsziel orientieren. Folgende Optionen stehen zur Auswahl:
 
-* Leistungsrate priorisieren
+* Priorisieren der Leistungsrate
 
-* Kosteneffizienz mit Leistungsrate im Gleichgewicht priorisieren
+* Priorisierung des Ausgleichs zwischen Kosteneffizienz und Leistungsrate
 
-Siehe [Optimierungsziele und Verwendung dieser Ziele](optimization-goals.md) , um zu bestimmen, welches Optimierungsziel Ihnen beim Erreichen Ihrer KPIs helfen kann.
+Siehe [Optimierungsziele und ihre Verwendung](optimization-goals.md) um zu bestimmen, welches Optimierungsziel Ihnen beim Erreichen Ihrer KPIs helfen kann.
 
 ### Pakete, die die Leistungsrate priorisieren
 
-Für Optimierungsziele, die die Leistungsrate priorisieren, prognostiziert DSP die Leistung jeder Auktion und gibt immer Gebote zum Max. Angebot. Beispiele für anwendbare Optimierungsziele sind [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] usw.
+Bei Optimierungszielen, die die Leistungsrate priorisieren, sagt DSP die Leistung jeder Auktion voraus und bietet immer zum Höchstgebot. Beispiele für anwendbare Optimierungsziele sind [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] usw.
 
 Dieser Optimierungsmodus funktioniert gut, wenn:
 
-* Sie kennen bereits die effektive/akzeptable CPM-Ebene (z. B. einen historischen Benchmark).
+* Sie kennen bereits den effektiven/akzeptablen CPM-Level (z. B. einen historischen Benchmark).
 
-* Sie sind bereit, die [!UICONTROL Max Bid] für jede Platzierung manuell anzupassen, wenn Sie bei der Skalierung Probleme haben.
+* Sie sind bereit, die [!UICONTROL Max Bid] für jede Platzierung manuell anzupassen, wenn Sie Probleme mit der Skalierung haben.
 
-* Sie priorisieren Skalierung vor Effizienz.
+* Sie priorisieren Größe vor Effizienz.
 
-#### Pacing-Logik {#pacing-logic-performance}
+#### Schrittmacherlogik {#pacing-logic-performance}
 
-* Wenn die Ausgaben im Tempo sind, wird das Bieten selektiver, sodass Sie nur Gebote für Auktionen abgeben, für die hohe Leistungsraten vorhergesagt werden.
+* Wenn die Ausgaben im Tempo getätigt werden, wird das Gebot selektiver, sodass Sie nur auf Auktionen bieten, für die hohe Leistungsraten prognostiziert werden.
 
-* Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird das Bieten weniger selektiv, sodass Sie auf Auktionen bieten, die mit niedrigeren Leistungsraten rechnen, um das Zwischenziel zu erreichen.
+* Wenn die Ausgaben hinter dem Tempo zurückbleiben, werden Gebote weniger selektiv, sodass Sie auf Auktionen bieten, die voraussichtlich niedrigere Leistungsraten aufweisen, um zum Tempo des Ziels aufzuschließen.
 
-#### Löschen von Preis-/Angebotsschattierung {#clearing-price-performance}
+#### Clearing-Preis-/Gebotsschattierung {#clearing-price-performance}
 
-Nachdem es die Schrittlogik ausgeführt hat, führt DSP das vorgeschlagene Angebot über ein Prognosemodell für den Clearingpreis aus. Wenn die Prognose anzeigt, dass das Angebot bei minimaler Verringerung auf die Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose reduziert.
+Nach Ausführung der Pacing-Logik führt DSP das vorgeschlagene Gebot über ein Clearing-Preisprognosemodell aus. Wenn die Prognose anzeigt, dass das Angebot mit minimaler Abnahme der Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose verringert.
 
-### Pakete, die das Gleichgewicht zwischen Kosteneffizienz und Leistungsrate priorisieren
+### Pakete, die den Ausgleich zwischen Kosteneffizienz und Leistungsrate priorisieren
 
 Für einige Optimierungsziele prognostiziert DSP die Leistung jeder Auktion und passt die Gebotspreise automatisch an, wobei die [!UICONTROL Max Bid] einer Platzierung nie überschritten wird. Beispiele für anwendbare Optimierungsziele sind [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] usw.
 
-#### Schrittweise Logik {#pacing-logic-balanced}
+#### Schrittmacherlogik {#pacing-logic-balanced}
 
-* Wenn die Ausgaben im Tempo sind, wird DSP preissensibler, indem sie niedrigere Beträge anbieten, um die Gewinnrate mit dem Plan auszugleichen.
+* Wenn die Ausgaben im Tempo getätigt werden, wird das DSP preisempfindlicher und bietet niedrigere Beträge, um die Gewinnquote mit dem Tempo abzuwägen.
 
-* Wenn eine Leistungsmetrik ebenfalls ausgeglichen wird (alle Ziele mit Ausnahme von [!UICONTROL Lowest CPM]), wird der prognostizierte KPI mit dem Angebotsbetrag vermischt. Daher bieten Sie höhere Gebote für Auktionen, die auf der Grundlage der &quot;Kosten pro&quot; als leistungsfähiger vorhergesagt werden.
+* Wenn auch eine Leistungsmetrik ausgeglichen wird (alle Ziele außer [!UICONTROL Lowest CPM]), wird der prognostizierte KPI in den gebotenen Betrag integriert. Sie bieten daher höhere Gebote für Auktionen, bei denen eine höhere Leistung auf der Basis der „Kosten pro“ prognostiziert wird.
 
-* Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird DSP weniger preisempfindlich und bietet höhere Beträge bis zum [!UICONTROL Max Bid] an, um die Gewinnrate mit dem Plan auszugleichen.
+* Wenn die Ausgaben im Rückstand sind, wird das DSP weniger preisempfindlich und bietet bis zum [!UICONTROL Max Bid] höhere Summen, um die Gewinnquote mit dem Tempo abzuwägen.
 
-#### Löschen von Preis-/Angebotsschattierung {#clearing-price-balanced}
+#### Clearing-Preis-/Gebotsschattierung {#clearing-price-balanced}
 
-Nachdem es die Schrittlogik ausgeführt hat, führt DSP das vorgeschlagene Angebot über ein Prognosemodell für den Clearingpreis aus. Wenn die Prognose anzeigt, dass das Angebot bei minimaler Verringerung auf die Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose reduziert.
+Nach Ausführung der Pacing-Logik führt DSP das vorgeschlagene Gebot über ein Clearing-Preisprognosemodell aus. Wenn die Prognose anzeigt, dass das Angebot mit minimaler Abnahme der Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose verringert.
 
 ## Platzierungsoptimierung
 
-Platzierungs-Filter vor dem Gebot sind die strengste Methode, um eine starke Leistung zu gewährleisten. DSP verwendet vorab angebotene Filter strategisch für verschiedene Anzeigentypen, um Leistungsziele über Platzierungen innerhalb der einzelnen Pakete hinweg zu erreichen. Sie können Filter vor dem Angebot gleichzeitig mit der Optimierung auf Paketebene oder unabhängig voneinander verwenden.
+Pre-Bid-Filter für Platzierungen sind die strengste Methode, eine starke Leistung sicherzustellen. DSP verwendet Pre-Bid-Filter strategisch über verschiedene Anzeigentypen hinweg, um Leistungsziele für alle Platzierungen innerhalb jedes Pakets zu erreichen. Sie können Pre-Bid-Filter gleichzeitig mit der Optimierung auf Paketebene oder unabhängig voneinander verwenden.
 
 >[!NOTE]
 >
->Die verfügbaren Vorangebotsfilter variieren je nach Anzeigentyp. Beispielsweise können Sie für eine standardmäßige Anzeigeplatzierung nach Clickthrough- und Sichtbarkeitsrate, aber nicht nach Abschlussrate filtern.
+>Die verfügbaren Pre-Bid-Filter variieren je nach Anzeigentyp. Beispielsweise können Sie für eine standardmäßige Anzeigeplatzierung nach Clickthrough-Rate und Sichtbarkeit filtern, jedoch nicht nach Abschlussrate.
 
-Siehe [Vorab-Angebotsfilter auf Platzierungsebene und Verwendung dieser Filter](optimization-pre-bid-filters.md), um zu bestimmen, welcher Filter vor dem Angebot Ihnen beim Erreichen Ihrer KPIs helfen kann.
+Unter [Pre-Bid-Filter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md) erfahren Sie, welcher Pre-Bid-Filter Ihnen beim Erreichen Ihrer KPIs helfen kann.
 
 >[!MORELIKETHIS]
 >
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Optimierungsziele und deren Verwendung](optimization-goals.md)
->* [Vorab-Angebotsfilter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md)
->* [Fehlerbehebung bei der Leistung](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Optimierungsziele und ihre Verwendung](optimization-goals.md)
+>* [Pre-Bid-Filter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md)
+>* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)

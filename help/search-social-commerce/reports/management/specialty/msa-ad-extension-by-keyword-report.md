@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # [!UICONTROL MSA Ad Extension by Keyword Report]
 
-*[!DNL Microsoft Advertising]nur Konten*
+Nur *[!DNL Microsoft Advertising]Konten*
 
-Dieser Bericht zeigt die Impressionen, Klicks, Ausgaben und durchschnittlichen Kosten pro Klick auf die einzelnen Anzeigenerweiterungen und Klicktypen nach Keyword. Verwenden Sie diesen Bericht, um die Leistung Ihrer Anzeigenerweiterungen für jeden Suchbegriff zu vergleichen.
+Dieser Bericht zeigt die Impressionen, Klicks, Ausgaben und durchschnittlichen Kosten pro Klick für jede Anzeigenerweiterung und jeden Klick-Typ nach Keyword. Verwenden Sie diesen Bericht, um die Leistung Ihrer Anzeigenerweiterungen für jedes Keyword zu vergleichen.
 
-Wenn Sie einen Bericht ausführen, der nur Metrikspalten und keine Dimensionen enthält, enthält der generierte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.<!-- all metrics? -->
+Wenn Sie einen Bericht nur mit Metrikspalten und ohne Dimensionen ausführen, enthält der generierte Bericht zwei doppelte Zeilen: eine mit aggregierten Daten und die andere mit allen Metriken.<!-- all metrics? -->
 
-Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten in Echtzeit von [!DNL Microsoft Advertising] ab. Es kann mehrere Minuten dauern, bis Berichte mit einem größeren Datenvolumen generiert werden.
+Sie können Daten der letzten 180 Tage anzeigen. Search, Social und Commerce rufen die Daten in Echtzeit aus [!DNL Microsoft Advertising] ab und es kann mehrere Minuten dauern, bis Berichte mit größerem Datenvolumen erstellt sind.
 
 >[!NOTE]
 >
->Wenn der Bericht eine große Datenmenge enthält, schlägt der Bericht möglicherweise fehl. In diesem Fall führen Sie den Bericht für ein kleineres Zeitintervall aus.
+>Wenn der Bericht eine große Datenmenge enthält, kann der Bericht fehlschlagen. In diesem Fall können Sie den Bericht für ein kleineres Zeitintervall ausführen.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -46,6 +46,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)

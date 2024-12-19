@@ -1,6 +1,6 @@
 ---
-title: Empfehlungen und Leistungseinblicke von Herausgebern anzeigen
-description: Erfahren Sie, wie Sie die [!DNL Google Ads] Empfehlungen und [!DNL Microsoft Advertising] Leistungseinblicke für Ihre Anzeigennetzwerkkonten anzeigen können.
+title: Anzeigen von Publisher-Empfehlungen und Leistungseinblicken
+description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Recommendations- und  [!DNL Microsoft Advertising]  für Ihre Werbenetzwerkkonten anzeigen können.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# Empfehlungen und Leistungseinblicke für Herausgeber anzeigen
+# Empfehlungen und Leistungseinblicke des Herausgebers anzeigen
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-## Empfehlungen für Herausgeber anzeigen
+## Empfehlungen des Herausgebers anzeigen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-   Bei [!DNL Microsoft Advertising] -Konten wird standardmäßig der [!UICONTROL Recommendations] für das Konto aufgelistet.
+   Bei [!DNL Microsoft Advertising]-Konten werden die [!UICONTROL Recommendations] für das Konto standardmäßig aufgeführt.
 
-1. Klicken Sie in der Spalte [!UICONTROL Actions] für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung Unterempfehlungen enthält, klicken Sie neben der Unterempfehlung auf **[!UICONTROL View]**.
+1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können optional [die Empfehlungen des Werbenetzwerks anwenden oder verwerfen](recommendation-apply-dismiss.md).
+   Sie können [ Empfehlungen ](recommendation-apply-dismiss.md) Werbenetzwerks optional anwenden oder ablehnen.
 
-## Anzeigen Ihrer [!DNL Microsoft Advertising] Leistungseinblicke
+## Anzeigen von [!DNL Microsoft Advertising] Leistungseinblicken
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
-1. Klicken Sie oberhalb der Datentabelle auf &quot;**[!UICONTROL Insights]**&quot;.
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Insights]** .
 
-1. Wenn die Spalte [!UICONTROL Actions] für die Zeile eine Aktion enthält, können Sie optional auf **[!UICONTROL Click here]** klicken, um den Editor [!DNL Microsoft Advertising] zu öffnen, über den Sie auf den Einblick reagieren können.
+1. Wenn die [!UICONTROL Actions] Spalte für die Zeile eine Aktion enthält, können Sie optional auf **[!UICONTROL Click here]** klicken, um den [!DNL Microsoft Advertising]-Editor zu öffnen, in dem Sie die Einblicke bearbeiten können.
 
-   Wenn Sie nicht im [!DNL Microsoft Advertising]-Editor angemeldet sind, werden Sie zunächst zum Anmeldebildschirm geleitet.
+   Wenn Sie nicht beim [!DNL Microsoft Advertising]-Editor angemeldet sind, werden Sie zunächst zum Anmeldebildschirm weitergeleitet.
 
 >[!MORELIKETHIS]
 >
->* [Informationen zur Unterstützung von Publisher-Empfehlungen und Insights](recommendation-support.md)
->* [Eine Empfehlung für Herausgeber anwenden oder verwerfen](recommendation-apply-dismiss.md)
->* [Anzeigen des Empfehlungsprotokolls des Herausgebers für ein Konto](recommendation-view-log.md)
+>* [Über die Unterstützung von Publisher-Empfehlungen und -Einblicken](recommendation-support.md)
+>* [Eine Publisher-Empfehlung anwenden oder verwerfen](recommendation-apply-dismiss.md)
+>* [Das Empfehlungsprotokoll des Herausgebers für ein Konto anzeigen](recommendation-view-log.md)
 >* [Best Practices für die Verwendung von Publisher-Empfehlungen mit Portfolios](recommendation-best-practices.md)

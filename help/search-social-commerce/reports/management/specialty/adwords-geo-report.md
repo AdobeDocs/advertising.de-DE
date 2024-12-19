@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # [!UICONTROL AdWords Geo Report]
 
-*[!DNL Google Ads]nur Konten*
+Nur *[!DNL Google Ads]Konten*
 
-Der [!UICONTROL AdWords Geo Report] enthält Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten nach Land/Region/Metrocode/Städtekombinationen für eine oder mehrere Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Kombination aus Land/Region/Metro-Code/Stadt, die mindestens eine Impression oder einen Klick für jede zutreffende Kampagne für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat. Die Zeilen sind in aufsteigender Reihenfolge nach Kampagnenname und dann nach Land, Region, Metrocode und Stadt sortiert. Der Bericht enthält keine Konversionsdaten, die von [!DNL Adobe] verfolgt werden.
+Die [!UICONTROL AdWords Geo Report] enthält Kosten-, Klick-, Impressions- und (optional) abgeleitete Metrikdaten nach Land/Region/Metro-Code/Stadt-Kombinationen für eine oder mehrere Kampagnen. Standardmäßig enthalten die Daten eine Zeile für jede Kombination aus Land/Region/Metro-Code/Stadt, die mindestens eine Impression oder einen Klick für jede entsprechende Kampagne für jede Zeiteinheit im angegebenen Datumsbereich erhalten hat, und die Zeilen sind in aufsteigender Reihenfolge nach Kampagnenname und dann nach Land, Region, Metro-Code und Stadt sortiert. Der Bericht enthält keine von [!DNL Adobe] nachverfolgten Konversionsdaten.
 
 Sie können Daten der letzten zwei Monate anzeigen.
 
 >[!NOTE]
 >
->* Die Summen für diesen Bericht können sich aufgrund verschiedener Anbieter und Methoden bei der Bestimmung geografischer Standorte von den Summen für dieselben Kampagnen und den gleichen Zeitraum in der [!UICONTROL Geo Distribution Report] (die von Search, Social und Commerce erstellt werden) unterscheiden.
->* Die Daten für diesen Bericht werden täglich um 23:00 Uhr (11:00 Uhr) für den vorherigen Tag abgerufen. Beispiel: Um 23:00 Uhr am 18. Juni ruft es Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, dann enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
+>* Die Summen für diesen Bericht können von den Summen für dieselben Kampagnen und denselben Zeitraum in der [!UICONTROL Geo Distribution Report] (die Search, Social und Commerce erstellt) abweichen, da bei der Bestimmung geografischer Standorte unterschiedliche Anbieter und Methoden zum Einsatz kommen.
+>* Die Daten für diesen Bericht werden für den Vortag jeden Tag um 23:00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
 
 ## Standardspalten
 
-Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter &quot;[Berichtsspalten für Sonderberichte](specialty-report-columns.md)&quot;.
+Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -44,6 +44,6 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 
 >[!MORELIKETHIS]
 >
->* [Über Sonderberichte](specialty-report-about.md)
->* [Erstellen eines Sonderberichts](specialty-report-generate.md)
->* [Einstellungen für den Sonderbericht](specialty-report-settings.md)
+>* [Über Spezialberichte](specialty-report-about.md)
+>* [Erstellen eines Spezialberichts](specialty-report-generate.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)

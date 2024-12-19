@@ -5,9 +5,9 @@ source-wordcount: '104'
 ht-degree: 0%
 
 ---
-# Text-Anzeigenvorlage - Campaign Map-Methode
+# Text und Vorlage - Campaign Map-Methode
 
-**[!UICONTROL Map Method]:** (Wenn [!UICONTROL Map Only] für die Kampagne aktiviert ist) Die Methode, mit der neue Anzeigengruppen (nicht verfügbar für [!DNL Yandex]), Suchbegriffe und Anzeigen vorhandenen Kampagnen zugeordnet werden:
+**[!UICONTROL Map Method]:** (wenn [!UICONTROL Map Only] für die Kampagne aktiviert ist) Die Methode, mit der neue Anzeigengruppen (für [!DNL Yandex] nicht verfügbar), Schlüsselwörter und Anzeigen vorhandenen Kampagnen zugeordnet werden:
 
 * *[!UICONTROL Contains Anywhere]:* Fügt Daten zu einer vorhandenen Kampagne hinzu, deren Name die angegebene Zeichenfolge enthält, sofern vorhanden.
 
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 * *[!UICONTROL Exactly Matches]* (Standard): - Fügt Daten zu einer vorhandenen Kampagne mit demselben Namen hinzu, sofern vorhanden.
 
-Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne ignoriert. Wenn mehrere Kampagnenübereinstimmungen gefunden werden, werden ihnen Suchbegriffe und Anzeigen zugeordnet.
+Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne ignoriert. Wenn mehrere Kampagnenübereinstimmungen gefunden werden, werden die Schlüsselwörter und Anzeigen allen zugeordnet.

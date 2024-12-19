@@ -14,8 +14,8 @@ ht-degree: 56%
 
 # Adobe Advertising – Unterstützung beim Verbraucherdatenschutz {#privacy}
 
-+ [Über die Adobe Advertising-Unterstützung für den Verbraucherschutz](/help/privacy/home.md)
-+ [Unterstützung der DSGVO](/help/privacy/gdpr.md)
-+ Unterstützung für CCPA {#ccpa}
-   + [Unterstützung für CCPA: Zugriff auf und Löschen von Verbraucherdaten](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(Nur DSP) Unterstützung für CCPA: Opt-out vom Verkauf durch Verbraucher](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
++ [Über die Adobe Advertising-Unterstützung für den Verbraucherdatenschutz](/help/privacy/home.md)
++ [Unterstützung für die DSGVO](/help/privacy/gdpr.md)
++ Unterstützung für CCPA-{#ccpa}
+   + [Unterstützung für CCPA: Zugreifen auf und Löschen von Verbraucherdaten](/help/privacy/ccpa/ccpa-access-delete.md)
+   + [(Nur DSP) Unterstützung für CCPA: Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)

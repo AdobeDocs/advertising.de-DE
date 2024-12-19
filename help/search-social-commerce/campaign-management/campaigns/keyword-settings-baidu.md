@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Baidu] Suchbegriffeinstellungen'
-description: Verweisen Sie auf die Einstellungen für  [!DNL Baidu] Keywords.
+title: '[!DNL Baidu] Schlüsselworteinstellungen'
+description: Referenzieren Sie die Einstellungen für  [!DNL Baidu] -Keywords.
 exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
 source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
@@ -10,25 +10,25 @@ ht-degree: 0%
 
 ---
 
-# Einstellungen für [!DNL Baidu] Keywords
+# [!DNL Baidu] Schlüsselworteinstellungen
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Die Suchbegriffe. Die maximale Länge pro Keyword beträgt 30 Einzelbyte- oder 15 Doppelbyte-Zeichen
+**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge pro Keyword beträgt 30 Einzelbyte- oder 15 Doppelbyte-Zeichen
 
-Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrere Suchbegriffe durch Kommas oder geben Sie sie in separate Zeilen ein. Verwenden Sie die folgende Syntax:
+Sie können bis zu 2.000 Keywords eingeben oder einfügen. Trennen Sie mehrere Keywords durch Kommas oder geben Sie sie in separaten Zeilen ein. Verwenden Sie die folgende Syntax:
 
 * `keyword` für breite Übereinstimmung
-* `"keyword"` für Wortgruppenübereinstimmung
-* `[keyword]` für genaue Übereinstimmung
+* `"keyword"` für Phrasenübereinstimmung
+* Für exakte Übereinstimmung `[keyword]`
 
 >[!NOTE]
 >
->* [!DNL Baidu] erlaubt nur einen Übereinstimmungstyp pro Suchbegriff pro Anzeigengruppe. Beispielsweise kann Anzeigengruppe 1 nicht sowohl `"keyword"` als auch `[keyword]` enthalten.
->* Sie können negative Suchbegriffe aus der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie aus den Anzeigengruppen- und Kampagneneinstellungen erstellen.
->* Wenn Sie einen [!DNL Baidu] -Suchbegriff ändern, wird der vorhandene Suchbegriff gelöscht und ein neuer mit einer neuen Suchbegriff-ID erstellt. Beim Ändern des Übereinstimmungstyps wird jedoch der vorhandene Suchbegriff nicht gelöscht.
+>* [!DNL Baidu] ist nur ein Übereinstimmungstyp pro Keyword pro Anzeigengruppe zulässig. Beispielsweise kann Anzeigengruppe 1 nicht sowohl `"keyword"` als auch `[keyword]` enthalten.
+>* Negative Keywords können in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie in den Anzeigengruppen- und Kampagneneinstellungen erstellt werden.
+>* Wenn Sie ein [!DNL Baidu] Schlüsselwort ändern, wird das vorhandene Schlüsselwort gelöscht und ein neues mit einer neuen Schlüsselwort-ID erstellt. Das Ändern des Übereinstimmungstyps löscht jedoch nicht das vorhandene Keyword.
 
-**[!UICONTROL Status]:** Der Anzeigestatus des Suchbegriffs: *Aktiv* oder *Angehalten*. Der Standardwert für neue Suchbegriffe ist *aktiv*.
+**[!UICONTROL Status]:** Der Anzeigestatus des Keywords: *Aktiv* oder *Paused*. Der Standardwert für neue Keywords ist *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -38,13 +38,13 @@ Sie können bis zu 2000 Suchbegriffe eingeben oder einfügen. Trennen Sie mehrer
 
 ## URL-Optionen
 
-**[!UICONTROL Base URL]:** (Kampagnen nur mit Keyword-Level-Tracking; optional) Die Landingpage-URL, zu der Benutzer beim Klicken auf Ihre Anzeige gelangen. Sie kann Folgendes umfassen:
-Umleitung und Trackingcode von Drittanbietern. Wenn Sie einen Wert eingeben, überschreibt er die Basis-URL für die Anzeige.
+**[!UICONTROL Base URL]:** (Nur Kampagnen mit Tracking auf Keyword-Ebene; optional) Die Landingpage-URL, zu der Benutzer geleitet werden, wenn sie auf Ihre Anzeige klicken. Sie kann Folgendes umfassen
+Weiterleitungs- und Trackingcode von Drittanbietern. Wenn Sie einen Wert eingeben, überschreibt dieser die Basis-URL für die Anzeige.
 
 Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für die Kampagne oder das Konto konfigurierten Anlagenparameter.
 
-Wenn Sie den Adobe Advertising-Konversions-Tracking-Dienst verwenden und die Kampagneneinstellungen die Verwendung von [!UICONTROL EF Redirect] und das Hinzufügen von Tracking auf Suchbegriffebene umfassen, fügt Search, Social und Commerce automatisch einen eigenen Klick-Tracking-Code hinzu.
+Wenn Sie den Adobe Advertising-Konversions-Tracking-Service verwenden und die Kampagneneinstellungen die Verwendung des [!UICONTROL EF Redirect] und das Hinzufügen des Trackings auf Keyword-Ebene beinhalten, fügt Search, Social und Commerce automatisch einen eigenen Klick-Tracking-Code hinzu.
 
 >[!MORELIKETHIS]
 >
->* [Suchbegriffe verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Schlüsselwörter verwalten](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

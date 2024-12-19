@@ -1,6 +1,6 @@
 ---
-title: Wiederverwendbare Zielgruppe freigeben
-description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe für andere Advertiser freigeben können, die für Ihr Konto verfügbar sind.
+title: Freigeben einer wiederverwendbaren Zielgruppe
+description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe mit anderen Advertisern teilen, die für Ihr Konto verfügbar sind.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# Wiederverwendbare Zielgruppe freigeben
+# Freigeben einer wiederverwendbaren Zielgruppe
 
-Wenn Sie noch keine Zielgruppe mit den für Ihr Konto verfügbaren Advertisern teilen, können Sie jederzeit mit der Freigabe beginnen.
+Wenn Sie eine Zielgruppe noch nicht für die Advertiser freigeben, die für Ihr Konto verfügbar sind, können Sie jederzeit mit der Freigabe beginnen.
 
-Nachdem Sie eine Zielgruppe freigegeben haben, können Sie die Freigabe nicht mehr aufheben.
+Sobald Sie eine Zielgruppe freigegeben haben, können Sie die Freigabe nicht mehr beenden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Halten Sie den Cursor über die Zielgruppenzeile und klicken Sie auf **[!UICONTROL Share]**.
+1. Halten Sie den Cursor über die Zeile Audience und klicken Sie auf **[!UICONTROL Share]**.
 
-1. Wählen Sie die Option auf **[!UICONTROL Share with all advertisers in my account]** aus.
+1. Wählen Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option aus.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Über Zielgruppen-Management](audience-about.md)
+>* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
->* [Duplizieren einer wiederverwendbaren Zielgruppe](reusable-audience-duplicate.md)
->* [Eine wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
->* [Details zu einer wiederverwendbaren Zielgruppe anzeigen](reusable-audience-view-details.md)
->* [Exportieren einer wiederverwendbaren Zielgruppe](reusable-audience-export.md)
+>* [Duplizieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-duplicate.md)
+>* [Wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
+>* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
->* [Eine wiederverwendbare Zielgruppe löschen](reusable-audience-delete.md)
+>* [Löschen einer wiederverwendbaren Zielgruppe](reusable-audience-delete.md)
 >* [Zielgruppeneinstellungen](audience-settings.md)
->* [Syntax für Zielgruppensegmentlogik](audience-segment-logic-syntax.md)
->* [Verfügbare Drittanbieter-Datenanbieter](third-party-data-providers.md)
+>* [Syntax für die Logik von Zielgruppensegmenten](audience-segment-logic-syntax.md)
+>* [Verfügbare Datenanbieter von Drittanbietern](third-party-data-providers.md)
