@@ -3,7 +3,7 @@ title: Optimierungsziele und ihre Verwendung
 description: Verweisen Sie auf die verfügbaren Optimierungsziele und sehen Sie, wann sie verwendet werden.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
+source-git-commit: d9cefafe7411febe2fcc6ae57eec1d9e02266769
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
