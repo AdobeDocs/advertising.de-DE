@@ -3,7 +3,7 @@ title: '[!DNL Yahoo! Japan Ads] Schlüsselworteinstellungen'
 description: Referenzieren Sie die Einstellungen für  [!DNL Yahoo! Japan Ads] -Keywords.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge für Schlüsselwörter beträgt 80 Zeichen, einschließlich [[!DNL Yahoo! Japan Ads] Syntax vom Typ Übereinstimmung](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) für Schlüsselwörter.
+**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge für Schlüsselwörter beträgt 80 Zeichen, einschließlich [[!DNL Yahoo! Japan Ads] Syntax vom Typ Übereinstimmung](https://ads-help.yahoo-net.jp/s/article/H000044997) für Schlüsselwörter.
 
 Sie können bis zu 2.000 Keywords eingeben oder einfügen. Trennen Sie mehrere Keywords durch Kommas oder geben Sie sie in separaten Zeilen ein.
 
