@@ -3,7 +3,7 @@ title: Manuelles Synchronisieren von Werbenetzwerkdaten
 description: Erfahren Sie, wie Sie die Synchronisierung Ihrer Kampagnenstruktur und Kampagnenentitäten für unterstützte Anzeigennetzwerke manuell mit Triggern durchführen.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Upload]&quot; generiert und
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Konto oder jeder Kampagne, das bzw. die Sie synchronisieren möchten. Sie können bis zu 50 Kampagnen gleichzeitig synchronisieren. Wenn Sie mehr als fünf Konten gleichzeitig synchronisieren, wird der Vorgang in Batches von jeweils bis zu fünf Konten unterteilt.
 
-1. Klicken Sie auf **![Mehr](/help/search-social-commerce/assets/more.png "Mehr")** in der Symbolleiste und wählen Sie dann **[!UICONTROL Sync]** aus.
+1. Klicken Sie auf ![**Mehr**](/help/search-social-commerce/assets/more.png " Mehr") in der Symbolleiste und wählen Sie dann **[!UICONTROL Sync]** aus.
 
 In der [!UICONTROL Workspace] können Sie den Status des Synchronisierungsauftrags verfolgen. Der Vorgang kann dauern
 Eine Stunde oder mehr, um angezeigt zu werden.
