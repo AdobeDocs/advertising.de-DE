@@ -3,7 +3,7 @@ title: Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -261,7 +261,7 @@ Vollständige Anweisungen finden Sie unter &quot;[Aktualisieren des AMO-ID-Track
 
 **Report Suite-Namen:** (Nur für EF-Umleitung mit Token; Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration; optional) Eine oder mehrere Analytics-Report Suites, an die Search, Social und Commerce Daten senden, die sie aus dem Werbenetzwerk erfasst, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto. Diese Funktion steht nur unterstützten Werbenetzwerken zur Verfügung.
 
-Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Server-seitige AMO-ID-Funktion für das Konto konfiguriert sein oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; aktiviert sein. Darüber hinaus muss das Analytics-Konto des Werbetreibenden so konfiguriert sein, dass es Daten von Search, Social und Commerce empfängt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Server-seitige AMO-ID-Funktion für das Konto konfiguriert sein oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; aktiviert sein. Darüber hinaus muss das Analytics-Konto des Werbetreibenden so konfiguriert sein, dass es Daten von Search, Social und Commerce empfängt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 >[!MORELIKETHIS]
 >

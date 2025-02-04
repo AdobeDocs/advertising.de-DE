@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,8 @@ Dies hat denselben Wert wie die alte Spalte „Gewichteter Umsatz“.
 **Ausgabenstrategie:** (Werbetreibende mit Portfolios) Die ausgewählte Strategie zur Optimierung von Keyword-/Anzeigengeboten für ein Portfolio.
 
 **`s_kwcid`:** Siehe „AMO-ID“.
+
+**Tracking-Vorlage:** (Nur Konten mit endgültigen URLs) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige/erweiterte URL in einen Parameter einbettet. Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
 
 **Tracking-URL** Eine Tracking-Vorlage oder eine Ziel-URL mit zusätzlichen Parametern wurde hinzugefügt, um Informationen über Klicks auf die Anzeige zu verfolgen. Sie kann eine Umleitungs-URL enthalten, um Benutzende zunächst an einen Tracking-Server zu senden, bevor sie zur Landingpage des Werbetreibenden umgeleitet werden.
 
