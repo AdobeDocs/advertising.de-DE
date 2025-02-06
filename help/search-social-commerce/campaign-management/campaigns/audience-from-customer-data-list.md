@@ -3,9 +3,9 @@ title: Verwalten von Zielgruppen für den Kundenabgleich mithilfe von Kundendate
 description: Erfahren Sie, wie Sie Zielgruppen  [!DNL Google Ads]  Kundenabgleich und  [!DNL Microsoft Advertising]  in Ihren Kundendatenlisten erstellen und bearbeiten.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Bei [!DNL Microsoft Advertising]-Konten kann die Datei E-Mail-Adressen enthalten
 
 1. Generieren Sie eine Datei mit den Kundendaten im erforderlichen Format.
 
-   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für ](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten](https://help.ads.microsoft.com/#apex/ads/en/56921. Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
+   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für ](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten](https://help.ads.microsoft.com/#apex/ads/en/56921). Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -54,11 +54,11 @@ Bei [!DNL Microsoft Advertising]-Konten kann die Datei E-Mail-Adressen enthalten
 
          * ([!DNL Android™] Apps) Der [!DNL Android™] Paketname in [!DNL Google Play], der durch &quot;`id=<package_name>`&quot; identifiziert wird.
 
-           In https://play.google.com/store/apps/details?id=com.example.game lautet der Paketname beispielsweise com.example.game.
+           In `https://play.google.com/store/apps/details?id=com.example.game` lautet der Paketname beispielsweise com.example.game.
 
          * ([!DNL iOS] Apps) Die Anwendungs-ID innerhalb der [!DNL iTunes App Store], die durch &quot;`<idNNNNNNNNN>`&quot; am Ende der URL identifiziert wird. Es ist auch im [!DNL iOS Developer Console] erhältlich.
 
-           In https://itunes.apple.com/us/app/id284882215 ist die ID beispielsweise id284882215.
+           In `https://itunes.apple.com/us/app/id284882215` ist die ID beispielsweise id284882215.
 
          Ihr Entwicklungs-Team hat Zugriff auf die [!UICONTROL App ID] für die entsprechende Plattform.
 
