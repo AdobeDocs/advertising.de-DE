@@ -2,9 +2,10 @@
 title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Beispiel-Pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] unterstützt derzeit universelle IDs nur für Advertising DSP. In einer zukünftigen Version werden universelle IDs für Drittanbieter-DSP unterstützt.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] unterstützt derzeit universelle IDs nur für Advertising DSP. In einer zukünftigen Version werden universelle IDs für DSPs von Drittanbietern unterstützt.<!-- Clarify this and reword as needed -->
 >* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ ](/help/creative/experiences/experience-settings-targeting.md).
 >* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden.
 >* Website-Besuchende, die sich gegen das Tracking für das Anzeigen-Targeting entschieden haben, erhalten keine Anzeigen mit personalisierten kreativen Inhalten, die auf dem Zielgruppensegment oder dem Retargeting-Profil basieren.
@@ -78,7 +79,7 @@ Beispiel-Pixel:
 
    Wenn Sie zusätzliche Attribute manuell hinzufügen, müssen Sie die URL-Codierung einbeziehen.
 
-   Wenn Sie beispielsweise die Attribute „category“, „color“ und „size“ einbeziehen und universelle IDs der Kategorie „id5“ erfassen, enthält das Pixel-Tag die folgenden Parameter: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` und `&id5pid=--Insert ID5_PARTNER_ID--`. Um beispielsweise Benutzer anzusprechen, die rote Sandalen in Größe 10 auswählen, ändern Sie die Parameter sowohl im Bild-Tag als auch im Skript-Tag in `&ut1=--sandals--&ut2=--red--&ut3=--10--` und geben Sie außerdem Ihre ID5-Partner-ID im Skript-Tag ein, z. B. `&id5pid=--0123456789--`.&lt;!— Überprüfen der endgültigen Syntax — sollte es nur sein: &amp;ut1=sandals&amp;ut2=10&amp;ut2=red ? —>
+   Wenn Sie beispielsweise die Attribute „category“, „color“ und „size“ einbeziehen und universelle IDs der Kategorie „id5“ erfassen, enthält das Pixel-Tag die folgenden Parameter: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` und `&id5pid=--Insert ID5_PARTNER_ID--`. Um beispielsweise Benutzer anzusprechen, die rote Sandalen in Größe 10 auswählen, ändern Sie die Parameter sowohl im Bild-Tag als auch im Skript-Tag in `&ut1=sandals&ut2=red&ut3=10` und geben Sie außerdem Ihre ID5-Partner-ID im Skript-Tag ein, z. B. `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

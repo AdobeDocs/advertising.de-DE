@@ -2,7 +2,8 @@
 title: Verfügbare Makros zum Tracking von URLs
 description: Referenzieren Sie die Makros, die Sie Ihren Landingpage-URLs, Tracking-URLs und Kreativen von Drittanbietern hinzufügen können.
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,15 +39,15 @@ Einige der verfügbaren Makros oder ihre Entsprechungen werden automatisch in Ex
 -->
 
 | Makro | Beschreibung | Automatisch in Experience Tags für Advertising DSP? |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | Verfolgt und meldet die Kampagnen-ID über die DSP | Ja |
-| `${TM_SITE_ID_NUM}` | Verfolgt und meldet die Site-ID über die DSP | Ja |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Verfolgt und meldet die Kampagnen-ID aus der DSP | Ja |
+| `${TM_SITE_ID_NUM}` | Verfolgt und meldet die Site-ID aus der DSP | Ja |
 | `${TM_PLACEMENT_ID_NUM}` | Verfolgt und meldet die Platzierungs-ID aus der DSP | Ja |
 | `${TM_AD_ID_NUM}` | Verfolgt und meldet die Anzeigen-ID aus der DSP | Ja |
 | `${TM_CREATIVE_ID_NUM}` | Verfolgt und meldet die Kreativ-ID aus der DSP | Nicht zutreffend |
 | `${TM_SESSION_ID}` | Verfolgt und meldet die Impression-ID aus der DSP. Wenn kein Wert zurückgegeben wird, generiert Advertising Creative einen. | Ja |
-| `${TM_ACC_EXPERIENCE_ID}` | Verfolgt und meldet die Advertising Creative-Erlebnis-ID | — |
-| `${TM_ACC_CREATIVE_ID}` | Verfolgt und meldet die Advertising Creative-Kreativ-ID | — |
+| `${TM_ACC_EXPERIENCE_ID}` | Verfolgt und meldet die Advertising Creative Experience ID | — |
+| `${TM_ACC_CREATIVE_ID}` | Verfolgt und meldet die Kreativ-ID von Advertising Creative | — |
 | `${TM_RANDOM}` | Eine zufällige Zahl zwischen 1 und 1000000 | — |
 | `${TM_TIMESTAMP}` | Unix-Zeitstempel (in Sekunden) | — |
 | `${TM_CLICK_URL_URLENC}` | (Für Drittanbieter-Anzeigen von Anbietern, die URL-Codierung benötigen) Die codierte Klick-Umleitungs-URL, mit der Anzeigen-Server Anzeigenklicks verfolgen und zählen können. Wenn die Anzeige geschaltet wird und der Benutzer darauf klickt, wird das Makro aktiviert, und der Klick wird aufgezeichnet und zu Berichtszwecken gezählt. | Ja |
