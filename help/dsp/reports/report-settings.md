@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ In diesem Abschnitt werden die Daten festgelegt, die im Bericht enthalten sind. 
 
 **Range:** Der Datumsbereich, für den Daten generiert werden sollen. Die Anzahl der verfügbaren Tage variiert je nach Bericht und den ausgewählten Dimensionen. Eine Option auswählen:
 
-* **[!UICONTROL Last Calendar Week]:** Enthält Daten zur vorherigen Kalenderwoche.
+* **[!UICONTROL Previous Calendar Week]:** Enthält Daten zur vorherigen Kalenderwoche.
 
-* **[!UICONTROL Last Calendar Month]:** Enthält Daten für den vorherigen Kalendermonat.
+* **[!UICONTROL Previous Calendar Month]:** Enthält Daten für den vorherigen Kalendermonat.
 
 * **[!UICONTROL Custom Range]:** Schließt Daten zwischen einem bestimmten Anfangs- und Enddatum ein. Um Daten über den Vortag zu melden, wählen Sie **[!UICONTROL Present]** aus.
 

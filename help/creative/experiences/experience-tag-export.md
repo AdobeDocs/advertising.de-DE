@@ -2,9 +2,10 @@
 title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 >* Beim Erstellen eines Erlebnisses mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede anwendbare Kreativgröße.
 >* Wenn Sie ein Erlebnis ohne Targeting mit einem Entscheidungsbaum erstellen, müssen Sie für jede [ Kreativgröße ](experience-tag-create-manually.md)manuell ein Anzeigen-Tag erstellen).
 >* Experience Tags sind dynamisch. Sie müssen die Tags nicht aktualisieren, wenn Sie ein Erlebnis bearbeiten.
-
-## Exportieren eines Anzeigen-Tags für ein Erlebnis mit Entscheidungsbaum-Targeting
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

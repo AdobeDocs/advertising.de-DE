@@ -1,0 +1,165 @@
+---
+title: Leistungsberichte auf Erlebnisebene
+description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
+feature: Creative Experiences
+exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
+source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 0%
+
+---
+
+# Leistungsberichte auf Erlebnisebene
+
+*Geschlossene Beta-Version*
+
+Sie können detaillierte Leistungsdaten für jedes Erlebnis anzeigen.
+
+## Daten in Leistungsberichten auf Erlebnisebene
+
+Die Berichtsansicht enthält die folgenden Daten:
+
+* Registerkarte **Übersicht** : Eine Leistungsübersicht für das gesamte Erlebnis, einschließlich:
+
+   * Abschnitt **Gesamtleistung**:
+
+   * **Gesamtleistung**: Die Gesamtzahl der Impressionen, Klicks, Clickthrough-Rate (CTR) sowie Durchsichtskonversionen und Clickthrough-Konversionen für eine einzelne Konversionsmetrik. <!-- Just one, or can you select multiple? And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+
+     <!--
+     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+          -->
+
+   * **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, generischen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
+
+     <!--
+     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+     -->
+
+   * **Leistungsaufschlüsselung** Abschnitt:
+
+      * **Regionale Leistung:*: Einzelne Metriken nach geografischem Standort.
+
+        <!-- You can optionally do the following:
+    
+      * Click a metric name (such as [!UICONTROL Impressions]) to view that metric.
+
+      * Select the region in the **[!UICONTROL Region]** menu.
+      
+      -->
+
+        <!--   
+      ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
+      -->
+
+      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der <!-- NN --> Kreativen anzuzeigen, die mit diesen Kriterien bedient werden.
+
+        <!--    
+      ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
+      -->
+
+* Registerkarte **Creative Performance***: Leistungsübersicht nach Kreativ- und Bundle- oder Anzeigen-Tag, einschließlich:
+
+   * **Kreative** Unterregisterkarte: Die Gesamtzahl der Impressionen, Klicks und CTR für jeden Kreativen im Erlebnis.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+
+     <!--
+
+     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each creative. You can optionally do the following:
+     
+       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
+
+       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report. [Find out about this:  ..., and total conversions for specified conversion metricsYour conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search.]
+
+     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each creative. You can optionally do the following:
+
+       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
+
+     -->
+
+   * Unterregisterkarte **Bundles/Tags**: Die Gesamtzahl der Impressionen, Klicks und CTR für einzelne Bundles (Erlebnisse beim Targeting mit Entscheidungsbäumen) oder Anzeigen-Tags (Erlebnisse ohne Targeting mit Entscheidungsbäumen) in dem Erlebnis.
+
+     <!--
+   
+     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each bundle. You can optionally do the following:
+     
+       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
+
+       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions  and click-through conversions (using on the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
+
+     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each ad tag. You can optionally do the following:
+
+       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
+
+     -->
+
+## Anzeigen von Leistungsberichten für ein Erlebnis
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Erlebnisse einzuschließen.
+
+1. Erlebnis auswählen:
+
+   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Reports]**.
+
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Reports]**.
+
+   Die Registerkarte [!UICONTROL Overview] wird geöffnet.
+
+1. (Optional) Geben Sie in der Symbolleiste oben rechts den Datumsbereich, die Konversionszuordnungsregel und die Konversionen an, die in allen Leistungsberichten gemeldet wurden:
+
+   * (Optional) Um den Datumsbereich für die Leistungsdaten zu ändern, wählen Sie eine Option im Menü „Datum“:
+
+      * Um einen voreingestellten Zeitraum festzulegen, wählen Sie den Bericht aus: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* oder *[!UICONTROL Yesterday]*.
+
+      * Um einen benutzerdefinierten Datumsbereich anzugeben, geben Sie das Start- und Enddatum <!-- in the format MM/DD/YYYY or M/D/YYYY,--> oder klicken Sie auf ![Kalendersymbol](/help/search-social-commerce/assets/calendar.png) neben einem Feld und wählen Sie ein Datum aus.
+
+   * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
+
+   * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus.&lt;!— Nur ein oder mehrere? Überprüfen Sie, wie diese angezeigt werden — Ich möchte einen Advertiser sehen, für den bereits mehrere Konversionen eingerichtet sind —>
+
+     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Dazu können Konversions- und Site-Interaktionsmetriken gehören, die mit Adobe Analytics synchronisiert werden. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce unter &quot;[Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
+
+1. (Auf der Registerkarte [!UICONTROL Overview] ):
+
+   * (Optional) Halten Sie im [!UICONTROL Overall Regional Performance] Abschnitt den Cursor über einen Punkt im Diagramm, um Daten für diesen Punkt anzuzeigen.
+
+   * (Optional) Führen Sie im Abschnitt [!UICONTROL Regional Performance] einen der folgenden Schritte aus:
+
+      * Klicken Sie auf einen Metriknamen (z. B. [!UICONTROL Impressions]), um diese Metrik anzuzeigen.
+
+      * Wählen Sie im Menü [!UICONTROL Region] die Region aus.
+
+      * Halten Sie den Cursor über ein Land oder einen Staat, um Daten für diese Region anzuzeigen.
+
+   * (Optional) Führen Sie im Abschnitt [!UICONTROL Device Performance] einen der folgenden Schritte aus:
+
+      * Halten Sie den Cursor über den Wert für eine beliebige Gerätekategorie, um Daten für dieses Kriterium anzuzeigen.
+
+      * Klicken Sie auf den Wert für eine beliebige Gerätekategorie, um eine Liste der wichtigsten <!-- NN--> Kreativen anzuzeigen, die mit diesen Kriterien beliefert wurden.
+
+1. (Optional) Um Daten nach Kreativ- und Bundle- oder Anzeigen-Tag anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Creative Performance]** .
+
+   * Auf der Unterregisterkarte [!UICONTROL Creatives] haben Sie folgende Möglichkeiten:
+
+      * (Optional) Um zwischen der Diagrammansicht und der Rasteransicht zu wechseln, klicken Sie ![Diagramm](/help/creative/assets/chart-view-button.png "Diagramm") bzw. ![Gitter](/help/creative/assets/table-view-button.png "Gitter").
+
+      * (Optional) Halten Sie in der Diagrammansicht den Cursor über einen Punkt im Diagramm, um Daten für diesen Punkt anzuzeigen.
+
+      * (Nur Erlebnisse mit Targeting mit Entscheidungsbäumen; optional) Aktivieren Sie **[!UICONTROL Split targeting]**, um die Leistung für jede angewendete Anzeigenzielgruppe aufzuschlüsseln.
+
+1. Um Daten nach Bundle (Erlebnisse beim Targeting mit Entscheidungsbäumen) oder Anzeigen-Tag (Erlebnisse ohne Targeting mit Entscheidungsbäumen) anzuzeigen, klicken Sie auf die Unterregisterkarte **[!UICONTROL Bundles]** . Sie können einen der folgenden Schritte ausführen:
+
+   * (Optional) Um zwischen der Diagrammansicht und der Rasteransicht zu wechseln, klicken Sie ![Diagramm](/help/creative/assets/chart-view-button.png "Diagramm") bzw. ![Gitter](/help/creative/assets/table-view-button.png "Gitter").
+
+   * (Optional) Halten Sie in der Diagrammansicht den Cursor über einen Punkt im Diagramm, um Daten für diesen Punkt anzuzeigen.
+
+   * (Nur Erlebnisse mit Targeting mit Entscheidungsbäumen; optional) Aktivieren Sie **[!UICONTROL Split targeting]**, um die Leistung für jede angewendete Anzeigenzielgruppe aufzuschlüsseln.
+
+1. (Optional) Um die Daten in einer [!DNL Microsoft Excel] Datei im XLSX-Format (Spreadsheet) herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download") in der Symbolleiste.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+>[!MORELIKETHIS]
+>
+>* [Benutzerdefinierter kreativer Bericht](/help/creative/report-custom-creative.md)

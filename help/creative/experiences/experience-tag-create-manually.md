@@ -2,9 +2,10 @@
 title: Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für eine bestimmte Kreativgröße erstellen.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ Sie können für jede für ein Erlebnis verwendete Kreativgröße ein oder mehre
    Sie können mehrere Tags für dieselbe kreative Größe erstellen.<!-- What are the implications? -->
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
+
+   Sie können die Tag-Zeile erweitern, um die eingeschlossenen Kreativen anzuzeigen.
 
 >[!MORELIKETHIS]
 >
