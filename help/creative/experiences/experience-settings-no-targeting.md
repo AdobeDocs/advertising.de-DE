@@ -2,9 +2,10 @@
 title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 
 ## [!UICONTROL Advanced]
 
-**Datenübergabe:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die die DSP, der Publisher oder der Partner in Echtzeit nach der Impression weitergibt. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden.<!-- May move this to just within the decision tree. -->
+**Datenübergabe:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit nach der Impression übergeben. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden.<!-- May move this to just within the decision tree. -->
 
 Wenn Sie später ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstellen, wird jeder Schlüssel, der in diesem Feld angegeben ist, als Makro im -Tag angehängt. Sie müssen den Wert für jedes Schlüssel-Wert-Paar innerhalb des Tags eingeben, bevor Sie das Tag als Anzeige in Ihrer DSP implementieren.
 
@@ -67,7 +68,7 @@ Wenn Sie später ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe 
 
 **[!UICONTROL Impression Tracking URL]:** (Optional) Eine Impression-Tracking-URL eines Drittanbieters, die für jede aus dem Erlebnis erstellte Anzeige an die Landingpage-URL angehängt werden soll. Sie können bis zu fünf URLs einschließen. Um eine zusätzliche URL hinzuzufügen, klicken Sie auf ![Symbol](/help/creative/assets/create.png) **[!UICONTROL Add More] und geben Sie die URL ein.
 
-Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
+Sobald Sie eine URL eingeben, werden [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit
 
 **[!UICONTROL Click Tracking URL]:** (Optional) (Optional) Eine Klick-Tracking-URL eines Drittanbieters, die an die Landingpage-URL angehängt werden soll. Sie können bis zu fünf URLs einschließen. Um eine zusätzliche URL hinzuzufügen, klicken Sie auf ![Symbol](/help/creative/assets/create.png) **[!UICONTROL Add More]** und geben Sie die URL ein.
 
-Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
+Sobald Sie eine URL eingeben, werden [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit
 >
 >* [Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum](experience-create-no-targeting.md)
 >* [Bearbeiten eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum](experience-edit-no-targeting.md)
+>* [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 >* [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](experience-tag-create-manually.md)
 >* [Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting](experience-tag-assign-creatives.md)
 >* [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](experience-tracking-urls-no-targeting.md)

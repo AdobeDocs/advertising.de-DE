@@ -2,9 +2,10 @@
 title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: cb6fd855-6534-4eac-b34b-323073d186be
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -49,7 +50,7 @@ Nachdem Sie das Erlebnis gespeichert haben, können Sie diese Einstellung nicht 
 
 ## [!UICONTROL Advanced]
 
-**Datenübergabe:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Um Benutzende basierend auf bestimmten Schlüssel-Wert-Paaren anzusprechen, die die DSP, der Publisher oder Partner in Echtzeit bei einer Impression übergibt. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden. Wenn Sie die Zielgruppenbestimmung im Entscheidungsbaum einrichten, können Sie eine Ebene von Daten einbeziehen, um Zielknoten zu übergeben, und die Werte angeben, die für jeden Knoten anvisiert werden sollen. Wenn Sie beim Erstellen des Erlebnisses keinen Schlüssel in diesem Feld angeben, können Sie trotzdem einen Schlüssel in der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree.  -->
+**Datenübergabe:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit bei einer Impression übergeben. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden. Wenn Sie die Zielgruppenbestimmung im Entscheidungsbaum einrichten, können Sie eine Ebene von Daten einbeziehen, um Zielknoten zu übergeben, und die Werte angeben, die für jeden Knoten anvisiert werden sollen. Wenn Sie beim Erstellen des Erlebnisses keinen Schlüssel in diesem Feld angeben, können Sie trotzdem einen Schlüssel in der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree.  -->
 
 Jeder Schlüssel wird in der Anzeige als Makro angehängt
 -Tag, das Sie generieren können, um es als Anzeige in Ihrer DSP zu implementieren.
@@ -70,7 +71,7 @@ Jeder Schlüssel wird in der Anzeige als Makro angehängt
 
 **Impression-Tracking-URL:** (Optional) Eine Impression-Tracking-URL eines Drittanbieters, die für jede aus dem Erlebnis erstellte Anzeige an die Landingpage-URL angehängt werden soll. Sie können bis zu fünf URLs einschließen. Um eine zusätzliche URL hinzuzufügen, klicken Sie auf ![Symbol](/help/creative/assets/create.png) **[!UICONTROL Add More] und geben Sie die URL ein.
 
-Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
+Sobald Sie eine URL eingeben, werden [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit
 
 **Klick-Tracking-URL:** (Optional) (Optional) Eine Klick-Tracking-URL eines Drittanbieters, die an die Landingpage-URL angehängt werden soll. Sie können bis zu fünf URLs einschließen. Um eine zusätzliche URL hinzuzufügen, klicken Sie auf ![Symbol](/help/creative/assets/create.png) **[!UICONTROL Add More] und geben Sie die URL ein.
 
-Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
+Sobald Sie eine URL eingeben, werden [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, weiter unten auf der Seite aufgeführt. Um eines der Makros in die URL einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie das Makro dann an der gewünschten Stelle in das URL-Feld ein.
 
 >[!NOTE]
 >
@@ -97,3 +98,4 @@ Sobald Sie eine URL eingeben, werden alle verfügbaren Makros und die Daten, mit
 >
 >* [Erstellen eines Erlebnisses mit Entscheidungsbaum-Targeting](experience-create-targeting.md)
 >* [Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting](experience-edit-targeting.md)
+>* [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)

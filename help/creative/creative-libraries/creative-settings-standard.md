@@ -2,9 +2,10 @@
 title: Kreative Einstellungen
 description: Informationen zu xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
 * Einige Einstellungen werden auf alle ausgewählten Kreativen angewendet.
 
-## Flexible kreative HTML5-Einstellungen {#creative-settings-flexible-html5}
+## Flexible Kreativeinstellungen für HTML5 {#creative-settings-flexible-html5}
 
 ### Registerkarte „Details“
 
@@ -83,11 +84,11 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
-1. Bearbeiten Sie die neuen [flexiblen HTML-Anzeigeneinstellungen](#flexible-ad-settings) nach Bedarf.
+1. Bearbeiten Sie die neuen [flexiblen Einstellungen für HTML-Anzeigen](#flexible-ad-settings) nach Bedarf.
 
 1. **[!UICONTROL Edit]** klicken
 
-## HTML5-Kreativeinstellungen {#creative-settings-html5}
+## HTML5 Creative-Einstellungen {#creative-settings-html5}
 
 ## Registerkarte „Details“
 
@@ -99,7 +100,7 @@ Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer ben
 
 **Creative Size:** (Schreibgeschützt für vorhandene Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
 
-**[!UICONTROL Click Tags]:** (Nur für statische HTML5-Kreative) Die Variablen, die Klick-Tracking-Umleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
+**[!UICONTROL Click Tags]:** (nur für statische HTML5-Kreative) Die Variablen, die Klick-Tracking-Umleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
 
 >[!NOTE]
 >
@@ -173,9 +174,9 @@ Wenn Sie einen Kreativen in ein Bundle aufnehmen und das Bundle einem Erlebnis z
 
 **JavaScriptCode:** Ein JavaScript-Tag (und optional ein alternatives Tag für Browser, die JavaScript nicht unterstützen), das auf das Kreativ-Tag auf dem Werbeserver des Drittanbieters verweist. Das Skript variiert je nach Anzeigenserver. Wenn Sie mehrere Kreative bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
-Alle verfügbaren Makros und die Daten, mit denen sie ersetzt werden, sind unter dem Eingabefeld aufgeführt. Um eines der Makros in das Tag einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie dann das Bild an der gewünschten Stelle im Tag ein.
+Alle [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, sind unter dem Eingabefeld aufgeführt. Um eines der Makros in das Tag einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie dann das Bild an der gewünschten Stelle im Tag ein.
 
-Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige über eine DSP implementieren, verwendet die DSP die Informationen in diesem Tag, um die Anzeige anzuzeigen und Impressionen und Klicks darauf zu verfolgen, und pusht das Tag dann in den Anzeigenaustausch. Wenn die Anzeige angezeigt und angeklickt wird, verfolgen der Anzeigenserver, die DSP und [!DNL Creative] die Ereignisse.
+Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige aus einer DSP implementieren, verwendet die DSP die Informationen in diesem Tag, um die Anzeige anzuzeigen und Impressionen und Klicks darauf zu verfolgen, und pusht das Tag dann in den Anzeigenaustausch. Wenn die Anzeige angezeigt und angeklickt wird, verfolgen der Anzeigenserver, der DSP und [!DNL Creative] die Ereignisse.
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt) Der Advertiser, für den die Bibliothek verfügbar ist.
 
@@ -201,3 +202,4 @@ U
 >
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Standard-Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)

@@ -2,9 +2,10 @@
 title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative müssen im ZIP-Format vorliegen und können bis zu 2 MB groß sein. Informationen zu Dateianforderungen finden Sie in der Creative Specification [HTML5](html5-creative-specification.md).
+Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative müssen im ZIP-Format vorliegen und können bis zu 2 MB groß sein. Informationen zu Dateianforderungen finden Sie in der [Creative Specification für HTML5](html5-creative-specification.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -58,7 +59,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Legen Sie die [Einstellungen für flexible HTML5-Anzeigen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) fest.
+1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
    Standardmäßig werden alle Kreativen ausgewählt, die Sie gerade hochgeladen haben. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Kreativen. Für einige Einstellungen können Sie einzelne Werte angeben. Um Einstellungen für bestimmte Kreative einzugeben, deaktivieren Sie das Kontrollkästchen neben den einzelnen nicht anwendbaren Kreativen.
 
@@ -101,7 +102,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 -->
 
-## Hinzufügen eines HTML5-Kreativprodukts zu einer Kreativbibliothek
+## Hinzufügen eines HTML5-Creative zu einer Kreativbibliothek
 
 <!-- verify -->Sie können mehrere HTML5-Kreative eines einzelnen Typs (einfach oder statisch) gleichzeitig hinzufügen.
 
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->Sie können auch [Flexible HTML5-Kreative hinzufügen](#flexible-creative-add) bei denen es sich um HTML5-Kreative mit allen Attributen als Standard-HTML-Tags handelt, die Sie direkt in [!DNL Creative] bearbeiten können.
+>Sie können auch [flexible HTML5-Kreative hinzufügen](#flexible-creative-add) wobei es sich um HTML5-Kreative mit allen Attributen als standardmäßige HTML-Tags handelt, die Sie direkt in [!DNL Creative] bearbeiten können.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -175,7 +176,7 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. **[!UICONTROL Create]** klicken
 
-## Hinzufügen von Kreativen von Drittanbietern zu einer Kreativbibliothek
+## Hinzufügen von Kreativen von Drittanbietern zu einer Kreativbibliothek {#creative-add-third-party}
 
 [!DNL Creative] unterstützt Tracking-Tags von JavaScript für Kreative, die auf den meisten Werbeservern von Drittanbietern gehostet werden.
 
@@ -187,9 +188,9 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ].
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
-   Sie können jedes der verfügbaren Makros kopieren und in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. **[!UICONTROL Create]** klicken
 
@@ -197,6 +198,7 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 >
 >* [Standard-Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 >* [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
 >* [Vorschau eines Kreativen anzeigen](/help/creative/creative-libraries/creative-preview.md)
 >* [Kreative an Bundles anhängen und von ihnen trennen](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
