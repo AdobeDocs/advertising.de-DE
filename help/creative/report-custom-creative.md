@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom Creative Report] generieren.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -107,13 +107,13 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 **[!UICONTROL Attribution Rule Settings]:** Die Einstellungen variieren je nach Berichtstyp:
 
-* **\[Attributionstyp\]:** (nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) Wie können innerhalb des Berichts Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führt:
+* **\[Attributionstyp\]:** (Nur Werbetreibende mit Adobe Advertising-Konversionsverfolgung) Wie können innerhalb des Berichts Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führt:
 
    * *[!UICONTROL Unique]:* (Standard) Zählt, wie oft ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Konversionspfad war.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Verteilt die Gewichtung jeder Konversion auf Basis der Häufigkeit des Auftretens des Dimensionswerts (z. B. eines Geräts oder einer Platzierung) auf dem Konversionspfad. Wenn beispielsweise vor der Konversion insgesamt 10 Impressions vorhanden waren, davon 8 auf CTV und 2 auf Mobile, werden 80 % der Credits (0,8) auf CTV-Bildschirme und 0,2 auf Mobile übertragen.
 
-* **\[Regeltyp\]:** (nur Werbetreibende mit Adobe Advertising-Konversionsverfolgung) Wie werden innerhalb des Berichts Konversionsdaten in einer Ereignisreihe zugeordnet, die zu einer Konversion führen. Sie können mehr als eine Regel auswählen, wenn Sie die Unterschiede zwischen den Regeln vergleichen möchten.
+* **\[Regeltyp\]:** (Nur Werbetreibende mit Adobe Advertising-Konversionsverfolgung) Im Bericht, wie Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führen. Sie können mehr als eine Regel auswählen, wenn Sie die Unterschiede zwischen den Regeln vergleichen möchten.
 
   >[!NOTE]
   >
@@ -131,11 +131,11 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
    * *[!UICONTROL U-shaped]:* Ordnet die Konvertierung allen Ereignissen im Konvertierungspfad zu, gewichtet jedoch am meisten das erste und letzte Ereignis, wobei den Ereignissen in der Mitte des Konvertierungspfads nacheinander weniger Gewicht zugewiesen wird.
 
-   * *[!UICONTROL Display Only]:* Attributkonversionen werden auf den letzten DSP-Klick oder die letzte Impression im Konversionspfad gesetzt. Dazu gehören Video- und vernetzte TV-Anzeigen und Klicks auf [!DNL Advertising Search, Social, & Commerce].
+   * *[!UICONTROL Display Only]:* Attributkonvertierungen auf den letzten DSP-Klick oder die letzte Impression im Konversionspfad. Dazu gehören Video- und vernetzte TV-Anzeigen und Klicks auf [!DNL Advertising Search, Social, & Commerce].
 
    * *[!UICONTROL Social Only]:* veraltet
 
-Siehe auch [How Attribution Rules are Calculated for Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).
+Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help/search-social-commerce/reports/attribution-rules.md).
 
 **[!UICONTROL Paths as Columns]:** Welche Konversionstypen gemeldet werden sollen, wenn auf demselben Gerät frühere Ereignisse aufgetreten sind. Sie können bis zu drei Typen einschließen. Für jeden ausgewählten Typ ist eine separate Spalte für jede Konversionsmetrik enthalten und mit dem angegebenen Suffix ([!UICONTROL (tl)], [!UICONTROL (ct)] oder [!UICONTROL (vt)]) versehen:
 
@@ -251,7 +251,7 @@ Siehe auch [How Attribution Rules are Calculated for Adobe Advertising](/help/se
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Der Gesamtumsatz der für ein Produkt geschalteten Anzeigen. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Die Gesamteinnahmen aus geschalteten Anzeigen. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen benutzerdefinierten Ziel [Advertising DSP enthalten ](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

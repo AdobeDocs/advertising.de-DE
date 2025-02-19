@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus.&lt;!— Nur ein oder mehrere? Überprüfen Sie, wie diese angezeigt werden — Ich möchte einen Advertiser sehen, für den bereits mehrere Konversionen eingerichtet sind —>
 
-     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Dazu können Konversions- und Site-Interaktionsmetriken gehören, die mit Adobe Analytics synchronisiert werden. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce unter &quot;[Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
+     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Dazu können Konversions- und Site-Interaktionsmetriken gehören, die mit Adobe Analytics synchronisiert werden, wenn der Advertiser über [eine [!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) verfügt. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce unter &quot;[Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
 
 1. (Auf der Registerkarte [!UICONTROL Overview] ):
 
