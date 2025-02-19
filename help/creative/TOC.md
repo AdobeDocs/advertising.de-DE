@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Creative Guide
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [Das Layout des Entscheidungsbaums](/help/creative/experiences/experience-decision-tree.md)
       + [Erstellen eines Erlebnisses mit Targeting](/help/creative/experiences/experience-create-targeting.md)
       + [Bearbeiten eines Erlebnisses mit Targeting](/help/creative/experiences/experience-edit-targeting.md)
+      + [Einstellungen für zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-targeting.md)
       + Teilaufgaben zum Erstellen und Bearbeiten von Erlebnissen {#subtasks}
          + Zielknoten {#nodes}
             + [Hinzufügen eines Zielknotens zur letzten Ebene](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgültigen Knoten](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Anpassen der Tracking-URLs für Kreative](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Kreative Optimierung und Planung anpassen](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [Einstellungen für zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-targeting.md)
    + Erlebnisse ohne {#experience-nontargeted}
       + [Erstellen eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md)
       + [Bearbeiten eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Kreative{#non-targeted-creatives}
+      + Tags und Kreative hinzufügen{#non-targeted-creatives}
          + [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](/help/creative/experiences/experience-tag-create-manually.md)
          + [Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
