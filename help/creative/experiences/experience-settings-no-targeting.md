@@ -3,9 +3,9 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 4d362e7321433cb3c4ef34790f8ae26f817cd9d9
+source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 
 Wenn Sie später ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstellen, wird jeder Schlüssel, der in diesem Feld angegeben ist, als Makro im -Tag angehängt. Sie müssen den Wert für jedes Schlüssel-Wert-Paar innerhalb des Tags eingeben, bevor Sie das Tag als Anzeige in Ihrer DSP implementieren.
 
-**Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann Benutzenden im Umkreis von 10 Meilen eine Anzeige für ein in 95110 verfügbares Produkt innerhalb von 10 Meilen von 95110 angezeigt werden.
+**Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann eine Anzeige für ein in 95110 verfügbares Produkt im Umkreis von 10 Meilen für Benutzende im Umkreis von 10 Meilen von 95110 angezeigt werden (bestimmt durch die IP-Adresse des/r Benutzenden).
 
 **RT Pixel:** (Erlebnisse nur mit dynamischen Anzeigen; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen und das Pixel angeben, das für jeden Knoten anvisiert werden soll, sowie die erforderlichen Werte für die Attribute des Pixels, die vorhanden sein müssen, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie in diesem Feld kein Pixel angeben, können Sie dennoch eines innerhalb des Entscheidungsbaums angeben.&lt;!— Von R: „Das RT-Pixel sollte über die Inhaltsauswahl in der dynamischen Anzeigeneinrichtung sein“ — klären Sie auf. Ich sehe „Datapass“ (ein Wort) in den dynamischen Anzeigeneinstellungen, aber ich bin mir nicht sicher, wie diese Einstellung und diese Erlebnisebene zusammenarbeiten. —>
 

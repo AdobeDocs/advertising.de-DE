@@ -3,9 +3,9 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
+source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Nachdem Sie das Erlebnis gespeichert haben, können Sie diese Einstellung nicht 
 Jeder Schlüssel wird in der Anzeige als Makro angehängt
 -Tag, das Sie generieren können, um es als Anzeige in Ihrer DSP zu implementieren.
 
-**Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann Benutzenden im Umkreis von 10 Meilen eine Anzeige für ein in 95110 verfügbares Produkt innerhalb von 10 Meilen von 95110 angezeigt werden.
+**Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann eine Anzeige für ein in 95110 verfügbares Produkt im Umkreis von 10 Meilen für Benutzende im Umkreis von 10 Meilen von 95110 angezeigt werden (bestimmt durch die IP-Adresse des/r Benutzenden).
 
 **RT Pixel:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen und das Pixel angeben, das für jeden Knoten anvisiert werden soll, sowie die erforderlichen Werte für die Attribute des Pixels, die vorhanden sein müssen, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie beim Erstellen des Erlebnisses kein Pixel in diesem Feld angeben, können Sie dennoch eines innerhalb der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree. -->
 
