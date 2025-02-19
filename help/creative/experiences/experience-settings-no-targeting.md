@@ -3,7 +3,7 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
+source-git-commit: 4d362e7321433cb3c4ef34790f8ae26f817cd9d9
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 0%
