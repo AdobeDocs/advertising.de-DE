@@ -3,9 +3,9 @@ title: Erfassen historischer Daten für AMO-IDs und EF-IDs zur Verwendung in Ado
 description: Erfahren Sie, wie Sie historische Daten für Ihre reservierten Variablen in Adobe Analytics zur zukünftigen Verwendung in Adobe Customer Journey Analytics erfassen
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Dieser Schritt ist manuell und muss für jede Report Suite ausgeführt werden, d
          1. Wählen Sie **Abfragezeichenfolgen-Parameter** aus.
          1. `ef_id` eingeben.
 
-        Beispiel: Wert von `rVar11` mit Abfragezeichenfolgen-Parameter `ef_id` überschreiben
+        Beispiel: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * Verwenden Sie [!UICONTROL Reason for rule] einen beschreibenden Hinweis wie „Die AMO-ID und die EF-ID werden über den Adobe Analytics-Connector zu AEP transportiert.“
 
