@@ -3,7 +3,7 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erste
 
 ## Leistungsdaten für Ihre Erlebnisse
 
-Wenn Sie die Option [!UICONTROL Metrics] in der [!UICONTROL Experiences] aktivieren, gibt jede Erlebniskarte oder Zeile die Anzahl der Impressionen und Klicks an, die das Erlebnis erhalten hat.
+Wenn Sie die Option [!UICONTROL Metrics] in der Ansicht [!UICONTROL Creative] > [!UICONTROL Experiences] aktivieren, gibt jede Erlebniskarte oder -zeile die Anzahl der Impressionen und Klicks an, die das Erlebnis erhalten hat.
 
 ![Metriken-Option](/help/creative/assets/metrics-option.png "Metriken-Option")
 
@@ -59,11 +59,9 @@ Wenn Sie die Option [!UICONTROL Metrics] in der [!UICONTROL Experiences] aktivie
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Detaillierte Leistungsdaten für ein Erlebnis finden Sie in der Ansicht [!UICONTROL Creative] > [!UICONTROL Experiences] . Erstellen Sie eine [!UICONTROL Custom Creative Report], um die Leistung für alle Erlebnisse zu überwachen.
+Sie können [detaillierte Leistungsdaten für jedes Erlebnis anzeigen](experience-performance-details.md) in der [!UICONTROL Experiences] anzeigen.
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+Erstellen Sie eine [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md), um die Leistung für alle Erlebnisse zu überwachen.
 
 ## Erlebnisstatus {#experience-statuses}
 
