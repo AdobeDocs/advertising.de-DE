@@ -2,9 +2,10 @@
 title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standardpakete können nur Standardanzeigen enthalten, und dynamische Pakete können nur dynamische Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen innerhalb eines einem Erlebnis zugewiesenen Bundles innerhalb der Erlebnis-Entscheidungsstruktur überschreiben, ohne die Basis-Kreativen zu beeinflussen.
+Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standardpakete können nur Standardanzeigen enthalten, und dynamische Pakete können nur dynamische Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
 
 [!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis auf der Grundlage der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von Adobe Sensei unterstützt wird.
 
@@ -103,11 +104,13 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 ## Kreative an Bundle anhängen
 
-Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/creative-libraries-about.md) an ein Standardpaket anhängen und vorhandene dynamische <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> an ein dynamisches Paket anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
+Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/creative-libraries-about.md) an ein Standardpaket und vorhandene dynamische Kreative <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> ein dynamisches Paket anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
 
+<!--
 >[!NOTE]
 >
->Sie können auch [Kreative an Pakete aus den Ansichten Standardanzeigen und Dynamische Anzeigen anhängen](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Bundles löschen
 
-Sie können Pakete löschen, die keinem Live-Erlebnis zugewiesen sind.<!-- Add an x-ref?  --> Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, entfernen Sie das Bundle aus der Entscheidungsstruktur für das Erlebnis<!-- add x-ref --> bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -250,5 +253,6 @@ Sie können Pakete löschen, die keinem Live-Erlebnis zugewiesen sind.<!-- Add a
 >[!MORELIKETHIS]
 >
 >* [Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgültigen Knoten in einem Erlebnis](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Verwalten von Kreativbibliotheken](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)

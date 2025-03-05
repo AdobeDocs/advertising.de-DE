@@ -2,9 +2,10 @@
 title: Kreative löschen
 description: Erfahren Sie, wie Sie Kreative in einer Kreativbibliothek löschen.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,11 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Sie können Kreative löschen, die sich nicht in einem Bundle befinden, das einem Live- oder Entwurfserlebnis zugewiesen ist.<!-- verify if we can have child creative variations anymore:  , and that doesn't have child creative variations in a bundle that's assigned to a live or draft experience  -->,<!-- Add an x-ref to experience statuses, or an about page??  --> <!-- add with an x-ref once this feature is added:  If a creative is assigned to a live experience, then remove it from the experience before you continue. -->
+Sie können Folgendes löschen
+
+* Kreative, die sich nicht in einem Bundle befinden, das einem (Live[- oder Entwurfszielerlebnis](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [ zugewiesen ](/help/creative/experiences/experience-about.md).
+
+* Kreative, die keinem Anzeigen-Tag für ein Live-Erlebnis oder einen Entwurf (nicht [) zugewiesen ](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >

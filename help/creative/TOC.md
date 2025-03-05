@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Creative Guide
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
    + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ Creative Libraries-{#creative-libraries}
++ Creative-{#creative-libraries}
    + [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
    + [Verwalten von Kreativbibliotheken](/help/creative/creative-libraries/creative-library-manage.md)
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 Creative Specification](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Kreative in der Vorschau anzeigen](/help/creative/creative-libraries/creative-preview.md)
-      + [Kreative an Bundles anhängen und von ihnen trennen](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Kreative an Bundles anhängen](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Kreative dupliziert](/help/creative/creative-libraries/creative-duplicate.md)
       + [Kreative herunterladen](/help/creative/creative-libraries/creative-download.md)
       + [Kreative löschen](/help/creative/creative-libraries/creative-delete.md)

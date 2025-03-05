@@ -3,7 +3,7 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Angegebene Standardkreative\]:** Die Standardbildkreativen, die verwendet werden, wenn ein Browser keine dem Erlebnis zugewiesenen Kreativen anzeigen kann, z. B. wenn der Browser nicht JavaScript aktiviert ist oder der Anzeigenserver die Anzeige aufgrund von Verzögerungen nicht personalisieren kann. Schließen Sie pro Anzeigengröße, für die das Erlebnis gilt, ein kreatives Bild ein. Ihre Auswahl bestimmt die kreativen Größen, die für das Erlebnis verwendet werden können. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standardmäßigen Kreativen mit Kreativen derselben Größe in [!UICONTROL Tag Manager] überschreiben.<!-- verify -->
+Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standardmäßigen Kreativen mit Kreativen derselben Größe in [!UICONTROL Tag Manager] überschreiben.
 
 * Um ein Standardkreativ mit verschiedenen Dimensionen hinzuzufügen, klicken Sie auf **[!UICONTROL + Add Sizes]**, aktivieren Sie im rechten Bereich die Kontrollkästchen neben den einzelnen Kreativen, die hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Add Creatives]**.
 

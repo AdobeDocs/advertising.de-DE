@@ -2,9 +2,10 @@
 title: Bearbeiten von Standard-Kreativen in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie die Einstellungen von standardmäßigen (nicht dynamischen) Kreativen in einer Kreativbibliothek ändern.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Sie können einige Einstellungen für jeden Kreativtyp bearbeiten. Sie können mehrere Kreative <!-- or creative variations --> desselben Kreativtyps (einfache HTML5 mit nur einer Einstiegsseite, statische HTML5 mit mehreren Einstiegsseiten, flexible HTML5, Bild oder Drittanbieter<!-- , or dynamic -->) bearbeiten.
+Sie können einige Einstellungen für jeden Kreativtyp bearbeiten. Sie können mehrere Kreative <!-- or creative variations --> Kreativtyps bearbeiten (einfache HTML5 mit nur einer Landingpage, statische HTML5 mit mehreren Landingpages, flexible HTML5, Bild oder Drittanbieter<!-- , or dynamic -->).
 
-Für flexible HTML5- und statische HTML5-Kreative können Sie eine neue Vorlagendatei mit einem anderen Layout, aber denselben Attributnamen hochladen. Für einfache HTML5-Kreative können Sie beliebige Attribute bearbeiten oder Bilder hinzufügen, indem Sie eine neue Vorlage mit den neuen Attributen oder Bildern hochladen. In allen Fällen muss die Vorlage eine lokale Datei im ZIP-Format mit maximal 2 MB sein.
+Für flexible HTML5- und statische HTML5-Kreative können Sie eine neue Vorlagendatei mit einem anderen Layout, aber denselben Attributnamen hochladen. Einfache HTML5-Kreative können beliebige Attribute bearbeiten oder Bilder hinzufügen, indem sie eine neue Vorlage mit den neuen Attributen oder Bildern hochladen. In allen Fällen muss die Vorlage eine lokale Datei im ZIP-Format mit maximal 2 MB sein.
 
-Wenn Sie eine kreative <!-- or creative variation --> bearbeiten, die in einem Bundle enthalten ist, werden Ihre Änderungen automatisch auf alle Erlebnisse angewendet, die das Bundle enthalten. Der Unterschied besteht darin, dass alle benutzerdefinierten Landingpages und Tracking-URLs, die auf Erlebnisebene angegeben wurden, für das mit diesem Erlebnis verknüpfte Bundle weiterhin gelten.
+Wenn Sie ein Kreativ-<!-- or creative variation --> bearbeiten, das in einem Bundle enthalten ist, werden Ihre Änderungen automatisch auf alle Erlebnisse angewendet, die das Bundle enthalten. Der Unterschied besteht darin, dass alle benutzerdefinierten Landingpages und Tracking-URLs, die auf Erlebnisebene angegeben wurden, für das Bundle gelten, das an dieses Erlebnis angehängt ist.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -39,7 +40,7 @@ Wenn Sie eine kreative <!-- or creative variation --> bearbeiten, die in einem B
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings von Drittanbietern](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) Drittanbieters<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
@@ -49,7 +50,7 @@ Wenn Sie eine kreative <!-- or creative variation --> bearbeiten, die in einem B
 
    >[!NOTE]
    >
-   >* (Nur flexible HTML5-Kreative) Sie können Attribute nur für einzelne Kreative bearbeiten.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Nur flexible HTML5-Kreative) Sie können Attribute nur für einzelne Kreative bearbeiten.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ Wenn Sie eine kreative <!-- or creative variation --> bearbeiten, die in einem B
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](creative-add-standard.md)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Vorschau eines Kreativen anzeigen](/help/creative/creative-libraries/creative-preview.md)
->* [Kreative duplizieren](/help/creative/creative-libraries/creative-duplicate.md)
->* [Kreative löschen](/help/creative/creative-libraries/creative-delete.md)

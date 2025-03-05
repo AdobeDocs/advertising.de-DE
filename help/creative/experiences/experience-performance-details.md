@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Die Berichtsansicht enthält die folgenden Daten:
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* Registerkarte **Creative Performance***: Leistungsübersicht nach Kreativ- und Bundle- oder Anzeigen-Tag, einschließlich:
+* Registerkarte **Creative-***: Eine Leistungsübersicht nach Kreativ- und Bundle- oder Anzeigen-Tag, einschließlich:
 
    * **Kreative** Unterregisterkarte: Die Gesamtzahl der Impressionen, Klicks und CTR für jeden Kreativen im Erlebnis.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -106,7 +106,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    Die Registerkarte [!UICONTROL Overview] wird geöffnet.
 
-1. (Optional) Geben Sie in der Symbolleiste oben rechts den Datumsbereich, die Konversionszuordnungsregel und die Konversionen an, die in allen Leistungsberichten gemeldet wurden:
+1. (Optional) Geben Sie in der Symbolleiste oben rechts den Datumsbereich, die Konversionszuordnungsregel und die Konversionen an, die in allen Leistungsberichten gemeldet werden:
 
    * (Optional) Um den Datumsbereich für die Leistungsdaten zu ändern, wählen Sie eine Option im Menü „Datum“:
 

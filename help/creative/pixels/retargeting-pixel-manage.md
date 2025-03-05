@@ -3,9 +3,9 @@ title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -99,17 +99,17 @@ Beispiel-Pixel:
 
 ## Pixel-Einstellungen für das Retargeting {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** Der Name des Pixels. **Hinweis** Das Pixel-Tag enthält die Pixel-ID (`pxId=<ID>`), nicht den Pixelnamen.
+**[!UICONTROL Pixel Name]:** Der Name des Pixels. **Hinweis:** Das Pixel-Tag enthält die Pixel-ID (`pxId=<ID>`), nicht den Pixelnamen.
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Pixel) Der Advertiser, für den das Pixel verfolgt wird.
 
 **[!UICONTROL Attribute 1]:** Ein Attribut, das in das Pixel-Tag aufgenommen werden soll, z. B. „SKU“, „Kategorie“, „Größe“ oder andere Attribute der Seite oder des Produkts, die auf der Seite angezeigt werden. Geben Sie einen Wert für das -Attribut im Pixel-Tag an, bevor Sie es in die entsprechenden Web-Seiten einfügen.
 
-Wenn Sie Anzeigen-Erlebnisse für Benutzende erstellen, die dem Pixel ausgesetzt sind, geben die Targeting-Einstellungen die Attributwerte an, die vorhanden sein müssen, um den Kreativen angezeigt zu werden.
+Wenn Sie Anzeigen-Erlebnisse für Benutzende festlegen, die dem Pixel ausgesetzt sind, geben die Targeting-Einstellungen die Attributwerte an, die vorhanden sein müssen, um die Kreativen anzuzeigen.
 
 **[!UICONTROL Attribute 2]**, **[!UICONTROL Attribute 3]**, **[!UICONTROL Attribute 4]**, **[!UICONTROL Attribute 5]:** (Optional) Zusätzliche Attribute, die in das Pixel-Tag aufgenommen werden sollen. Geben Sie für jedes zusätzliche Attribut im Pixel-Tag einen Wert an, bevor Sie es in die entsprechenden Web-Seiten einfügen.
 
-Wenn Sie Anzeigen-Erlebnisse für Benutzende erstellen, die dem Pixel ausgesetzt sind, geben die Targeting-Einstellungen die Attributwerte an, die vorhanden sein müssen, um den Kreativen angezeigt zu werden.
+Wenn Sie Anzeigen-Erlebnisse für Benutzende festlegen, die dem Pixel ausgesetzt sind, geben die Targeting-Einstellungen die Attributwerte an, die vorhanden sein müssen, um die Kreativen anzuzeigen.
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Beta-Funktion; nur neue Pixel; optional) Typen universeller IDs für das nachzuverfolgende Pixel-Tag:
 

@@ -2,9 +2,10 @@
 title: Verwalten von Kreativbibliotheken
 description: Erfahren Sie, wie Sie Ihre Kreativbibliotheken erstellen, umbenennen und löschen.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später können Sie jede Bibliothek mit &quot;[ Creatives“, ](creative-add-standard.md) <!-- , dynamic creatives, --> und [Creative Bundles](bundle-manage.md) füllen. Ihr Adobe-Konto-Team kann Ihren Bibliotheken auch dynamische Kreative hinzufügen.
+Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später können Sie jede Bibliothek mit &quot;[ Creatives“ ](creative-add-standard.md)<!-- , dynamic creatives, --> &quot;[ Bundles“ ](bundle-manage.md). Ihr Adobe-Konto-Team kann Ihren Bibliotheken auch dynamische Kreative hinzufügen.
 
 ## Erstellen einer Kreativbibliothek
 
@@ -51,7 +52,7 @@ Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später
 
 ## Kreative Bibliotheken löschen
 
-Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live-Erlebnis zugewiesen sind.<!-- Add an x-ref?  --> Entfernen Sie alle Kreativen oder Bundles, die einem Live-Erlebnis zugewiesen sind, aus der Entscheidungsstruktur für das Erlebnis<!-- add x-ref --> bevor Sie fortfahren.
+Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live[Erlebnis ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) sind. Für ein zielgerichtetes Live[Erlebnis entfernen Sie zunächst alle Kreativen oder Bundles aus ](/help/creative/experiences/experience-target-node-delete.md) Entscheidungsstruktur für das Erlebnis, bevor Sie fortfahren.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -65,7 +66,7 @@ Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live-Erl
 
       * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Delete]**.
 
-   * Um eine oder mehrere Bibliotheken zu löschen, aktivieren Sie das Kontrollkästchen für jede Bibliothek, die Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete].
+   * Um eine oder mehrere Bibliotheken zu löschen, aktivieren Sie das Kontrollkästchen für jede Bibliothek, die Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete]**.
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 

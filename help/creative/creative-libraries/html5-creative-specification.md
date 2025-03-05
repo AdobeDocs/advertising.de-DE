@@ -2,9 +2,10 @@
 title: HTML5 Creative Specification
 description: Verweisen Sie auf die Kreativspezifikation HTML5 für Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ In diesem Dokument werden die Anforderungen und die API-Unterstützung für HTML
 
 ## Umfang
 
-[!DNL Creative] unterstützt HTML5-Banner mit nicht-Rich-Media-Kreativen, die innerhalb festgelegter Seitengrenzen angezeigt werden. Sie können die folgenden Arten von HTML5-Kreativen verwenden:
+[!DNL Creative] unterstützt HTML5-Banner mit nicht-Rich-Media-Kreativen, die innerhalb festgelegter Seitengrenzen angezeigt werden. Sie können die folgenden HTML5-Kreativtypen verwenden:
 
 <!--Remove to simplify:
 
@@ -25,9 +26,9 @@ In diesem Dokument werden die Anforderungen und die API-Unterstützung für HTML
 
 -->
 
-* **HTML5:** Unterstützt bis zu 5 Landingpage-URLs, die während der kreativen Erstellung und des Traffics konfiguriert werden können.
+* **HTML5:** unterstützt bis zu 5 Landingpage-URLs, die während der Erstellung und des Traffics von Kreativen konfiguriert werden können.
 
-* **Flexibles HTML5:** Unterstützt bis zu 5 Landingpage-URLs, die während der kreativen Erstellung und des Traffics konfiguriert werden können, und ermöglicht auch das Ändern von Kreativattributen während der kreativen Erstellung und des Traffics.
+* **Flexible HTML5:** Unterstützt bis zu 5 Landingpage-URLs, die während der kreativen Erstellung und des Traffics konfiguriert werden können. Außerdem können kreative Attribute während der kreativen Erstellung und des Traffics geändert werden.
 
 ## Anforderungen
 
@@ -35,15 +36,15 @@ In diesem Dokument werden die Anforderungen und die API-Unterstützung für HTML
 
 * Das Kreativ-Tool muss in einer ZIP-Datei (.ZIP-Format) verpackt sein. Verschachtelte ZIP-Dateien werden nicht unterstützt. Daher sollten Sie im äußeren komprimierten Ordner keinen komprimierten Ordner einschließen.
 
-* Die ZIP-Datei muss mindestens eine HTML-Datei enthalten - die Haupt-HTML-Anzeigedatei -, die einen Verweis auf die [!DNL Creative] JavaScript-Bibliothek enthält. Die HTML-Hauptdatei kann sich entweder im Stammordner oder in einem Unterordner befinden.
+* Die ZIP-Datei muss mindestens eine HTML-Datei enthalten - die HTML-Hauptanzeigedatei -, die einen Verweis auf die [!DNL Creative] JavaScript-Bibliothek enthält. Die HTML-Hauptdatei kann sich entweder im Stammordner oder in einem Unterordner befinden.
 
-* Die Haupt-HTML-Datei kann beliebig benannt werden, sofern sie keine Sonderzeichen enthält. `index.html` wird jedoch empfohlen.
+* Die HTML-Hauptdatei kann beliebig benannt werden, sofern sie keine Sonderzeichen enthält. `index.html` wird jedoch empfohlen.
 
 * Alle unterstützenden Assets, die zum Rendern des endgültigen Kreativinhalts benötigt werden, müssen sich entweder im selben Ordner wie die HTML-Anzeigedatei oder in Unterordnern im Hauptordner befinden.
 
-* Schließen Sie keine Dateien in das Kreativ-Tool ein, auf die für dieses Kreativ-Tool nicht verwiesen wird.
+* Schließen Sie keine Dateien in das Kreativ-Tool ein, auf die der Kreative nicht verweist.
 
-### Einbinden der Advertising Creative-JavaScript-Datei
+### Einschließen der Advertising Creative JavaScript-Datei
 
 Die HTML-Hauptdatei - und keine anderen Dateien - müssen einen Verweis auf die JavaScript-`AMOLibrary.js` enthalten. Rufen Sie die Datei in der ersten Zeile des `<head>` Abschnitts mit der folgenden Adresse auf:
 
@@ -75,17 +76,17 @@ var clickTag = “http://www.example.com”;
 ### Static HTML5 creative requirements
 -->
 
-### HTML5 Creative Requirements
+### HTML5 Creative-Anforderungen
 
 #### Unterstützung für Clickthrough-URLs in statischem HTML5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verweisen auf jede URL verwendet werden (als `clickTag` bezeichnet). Dies informiert den [!DNL Creative]-Anzeigen-Server darüber, wo Klick-Tracking hinzugefügt werden soll. Mit dieser API können Sie bis zu fünf Klick-Tag-Variablen mit jeweils einer entsprechenden Landingpage-URL registrieren.
+Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verweisen auf jede URL verwendet werden (als `clickTag` bezeichnet). Diese API informiert den [!DNL Creative]-Anzeigen-Server darüber, wo Klick-Tracking hinzugefügt werden soll. Mit dieser API können Sie bis zu fünf Klick-Tag-Variablen mit jeweils einer entsprechenden Landingpage-URL registrieren.
 
 >[!NOTE]
 >
->Die statischen URLs, die Sie in die kreative HTML5-Datei aufnehmen, werden nur zu lokalen Testzwecken verwendet und werden überschrieben. Wenn Sie eine HTML5-Kreativseite hochladen, definieren Sie die standardmäßige Landingpage für jede `clickTag`. Wenn Sie einem Werbeerlebnis eine hochgeladene kreative HTML5 zuweisen, können Sie optional die standardmäßige Landingpage für jede `clickTag`-Variable überschreiben und [!DNL Creative] beim Speichern des Erlebnisses Klick-Tracking zu den URLs hinzufügen.
+>Die statischen URLs, die Sie in das HTML5-Kreativ-Repository aufnehmen, werden nur zu lokalen Testzwecken verwendet und werden überschrieben. Wenn Sie ein HTML5-Kreativprojekt hochladen, definieren Sie die standardmäßige Landingpage für jede `clickTag`. Wenn Sie einem Werbeerlebnis ein hochgeladenes HTML5-Creative-Erlebnis zuweisen, können Sie optional die standardmäßige Landingpage für jede `clickTag`-Variable überschreiben und den URLs beim Speichern des Erlebnisses [!DNL Creative] Klick-Tracking hinzufügen.
 
 ###### Parameter
 
@@ -95,7 +96,7 @@ Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verwei
 
 ###### Nutzung
 
-Rufen Sie `amo.registerClick()` im `<head>` Abschnitt der HTML-Hauptdatei auf.
+Rufen Sie `amo.registerClick()` im Abschnitt `<head>` der HTML-Hauptdatei auf.
 
 ###### Beispiel
 
@@ -113,23 +114,23 @@ Trigger des Exit-Ereignisses, das den Benutzer zur für die `clickTag` konfiguri
 
 ###### Nutzung
 
-Rufen Sie `amo.onAdClick()` im `<body>` Abschnitt der HTML-Hauptdatei auf.
+Rufen Sie `amo.onAdClick()` im Abschnitt `<body>` der HTML-Hauptdatei auf.
 
 ###### Beispiele
 
 `amo.onAdClick('clickTag')` ODER `amo.onAdClick('clickTag',clickEvt)`
 
-### Flexible HTML5-Kreativanforderungen
+### Flexible kreative HTML5-Anforderungen
 
-#### Unterstützung für Clickthrough-URLs in flexiblem HTML5
+#### Unterstützung für Clickthrough-URLs im flexiblen HTML5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verweisen auf jede URL verwendet werden (als `clickTag` bezeichnet). Dies informiert den [!DNL Creative]-Anzeigen-Server darüber, wo Klick-Tracking hinzugefügt werden soll. Mit dieser API können Sie bis zu fünf Klick-Tag-Variablen mit jeweils einer entsprechenden Landingpage-URL registrieren.
+Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verweisen auf jede URL verwendet werden (als `clickTag` bezeichnet). Diese API informiert den [!DNL Creative]-Anzeigen-Server darüber, wo Klick-Tracking hinzugefügt werden soll. Mit dieser API können Sie bis zu fünf Klick-Tag-Variablen mit jeweils einer entsprechenden Landingpage-URL registrieren.
 
 >[!NOTE]
 >
->Die statischen URLs, die Sie in die kreative HTML5-Datei aufnehmen, werden nur zu lokalen Testzwecken verwendet und werden überschrieben. Wenn Sie eine HTML5-Kreativseite hochladen, definieren Sie die standardmäßige Landingpage für jede `clickTag`. Wenn Sie einem Werbeerlebnis eine hochgeladene kreative HTML5 zuweisen, können Sie optional die standardmäßige Landingpage für jede `clickTag`-Variable überschreiben und [!DNL Creative] beim Speichern des Erlebnisses Klick-Tracking zu den URLs hinzufügen.
+>Die statischen URLs, die Sie in das HTML5-Kreativ-Repository aufnehmen, werden nur zu lokalen Testzwecken verwendet und werden überschrieben. Wenn Sie ein HTML5-Kreativprojekt hochladen, definieren Sie die standardmäßige Landingpage für jede `clickTag`. Wenn Sie einem Werbeerlebnis ein hochgeladenes HTML5-Creative-Erlebnis zuweisen, können Sie optional die standardmäßige Landingpage für jede `clickTag`-Variable überschreiben und den URLs beim Speichern des Erlebnisses [!DNL Creative] Klick-Tracking hinzufügen.
 
 ###### Parameter
 
@@ -139,7 +140,7 @@ Registriert die Clickthrough-URLs und die zugehörigen Parameter, die zum Verwei
 
 ###### Nutzung
 
-Rufen Sie `amo.registerClick()` im `<head>` Abschnitt der HTML-Hauptdatei auf.
+Rufen Sie `amo.registerClick()` im Abschnitt `<head>` der HTML-Hauptdatei auf.
 
 ###### Beispiel
 
@@ -157,13 +158,13 @@ Trigger des Exit-Ereignisses, das den Benutzer zur für die `clickTag` konfiguri
 
 ###### Nutzung
 
-Rufen Sie `amo.onAdClick()` im `<body>` Abschnitt der HTML-Hauptdatei auf.
+Rufen Sie `amo.onAdClick()` im Abschnitt `<body>` der HTML-Hauptdatei auf.
 
 ###### Beispiele
 
 `amo.onAdClick('clickTag')` ODER `amo.onAdClick('clickTag',clickEvt)`
 
-#### Unterstützung für kreative Attribute in flexiblem HTML5
+#### Unterstützung für kreative Attribute im flexiblen HTML5
 
 ##### `amo.registerAttribute(key, type, value)`
 
@@ -191,7 +192,7 @@ Ein JSON-Objekt zum Abfragen der Namen und Werte der Variablen des kreativen Att
 
 Im lokalen Testmodus sind die Schlüssel-Wert-Paare die Paare, die von der `amo.registerAttribute`-API registriert werden. Für die Produktion müssen die Namen und Werte der kreativen Attributvariablen zum Zeitpunkt der kreativen Erstellung und des Handels konfiguriert werden.
 
-### Anforderungen an kreative Inhalte
+### Creative-Inhaltsanforderungen
 
 Die meisten der in Advertising DSP verfügbaren Anzeigeaustauschprogramme haben die folgenden kreativen Anforderungen:
 
@@ -254,7 +255,7 @@ Die meisten der in Advertising DSP verfügbaren Anzeigeaustauschprogramme haben 
 
    * bg.jpg (JPG-, PNG-, SVG- oder GIF-Bild)
 
-### Beispiel einer HTML-Datei (index.html) für einfache HTML5-Kreative
+### Beispiel einer HTML-Datei (index.html) für HTML5-Kreative
 
 ```
 <!DOCTYPE html>

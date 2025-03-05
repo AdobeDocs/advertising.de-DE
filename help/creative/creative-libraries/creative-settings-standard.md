@@ -1,20 +1,20 @@
 ---
-title: Kreative Einstellungen
+title: Creative-Einstellungen
 description: Informationen zu xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
 
-# Kreative Einstellungen
+# Creative-Einstellungen
 
 *Geschlossene Beta-Version*
 
-Die Einstellungen variieren je nach Kreativität.
+Die Einstellungen variieren je nach Kreativtyp.
 
 Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
@@ -26,7 +26,7 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
 ### Registerkarte „Details“
 
-**Kreativer Name** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
@@ -94,7 +94,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer benannten Registerkarte.
 
-**Kreativer Name** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
@@ -150,15 +150,15 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 ## Kreative Bildeinstellungen {#creative-settings-image}
 
-**Kreativer Name** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
 
-**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. &lt;!— ÜBERPRÜFEN SIE, OB ETWAS AUF BUNDLE-EBENE GESCHEHEN KANN UND OB die Erlebniseinstellungen nur auf Erlebnisebene sind: Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional Spracheinstellungen für das Erlebnis anpassen.
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
 
 **Creative Size:** (Schreibgeschützt) Die Abmessungen der hochgeladenen Bilder.
 
 **Landingpage-URL** Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie die Kreativen verknüpfen. Die Landingpage-URL muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören. Der gleiche Wert gilt für alle ausgewählten Bilder.
 
-Wenn Sie einen Kreativen in ein Bundle aufnehmen und das Bundle einem Erlebnis zuweisen, können Sie für jeden Kreativen im Bundle optional die Landingpage-URL ändern sowie Impression- und Klick-Tracking-URLs und JavaScript hinzufügen. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+Wenn Sie einen Kreativen in ein Bundle aufnehmen und dieses dann einem Erlebnis zuweisen, können Sie für jeden Kreativen im Bundle optional die Landingpage-URL ändern sowie Impression- und Klick-Tracking-URLs und JavaScript hinzufügen. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
 
@@ -172,21 +172,21 @@ Wenn Sie einen Kreativen in ein Bundle aufnehmen und das Bundle einem Erlebnis z
 
 ## Kreative Einstellungen von Drittanbietern {#creative-settings-third-party}
 
-**JavaScriptCode:** Ein JavaScript-Tag (und optional ein alternatives Tag für Browser, die JavaScript nicht unterstützen), das auf das Kreativ-Tag auf dem Werbeserver des Drittanbieters verweist. Das Skript variiert je nach Anzeigenserver. Wenn Sie mehrere Kreative bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
+**JavaScriptCode:** Ein JavaScript-Tag (und optional ein alternatives Tag für Browser, die JavaScript nicht unterstützen), das auf das Kreativ-Tag auf dem Werbeserver des Drittanbieters verweist. Das Skript kann je nach Anzeigenserver variieren. Wenn Sie mehrere Kreative bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
 Alle [verfügbaren Makros](/help/creative/creative-macros.md) und die Daten, mit denen sie ersetzt werden, sind unter dem Eingabefeld aufgeführt. Um eines der Makros in das Tag einzufügen, halten Sie den Cursor über die Makrobeschreibung und klicken Sie auf ![In Zwischenablage kopieren](/help/creative/assets/copy-to-clipboard.png "In Zwischenablage kopieren") und fügen Sie dann das Bild an der gewünschten Stelle im Tag ein.
 
-Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige aus einer DSP implementieren, verwendet die DSP die Informationen in diesem Tag, um die Anzeige anzuzeigen und Impressionen und Klicks darauf zu verfolgen, und pusht das Tag dann in den Anzeigenaustausch. Wenn die Anzeige angezeigt und angeklickt wird, verfolgen der Anzeigenserver, der DSP und [!DNL Creative] die Ereignisse.
+Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige aus einer DSP implementieren, verwendet die DSP die Informationen in diesem Tag, um die Anzeige anzuzeigen und Impressionen und Klicks darauf zu verfolgen. Der DSP überträgt das Tag dann an den Anzeigenaustausch. Wenn die Anzeige angezeigt und angeklickt wird, verfolgen der Anzeigenserver, der DSP und [!DNL Creative] die Ereignisse.
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt) Der Advertiser, für den die Bibliothek verfügbar ist.
 
-**Kreativer Name** Der Name des Kreativen. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
 
-**Creative Size:** (Schreibgeschützt für vorhandene Anzeigen) Die Dimensionen der Kreativen. Für neue Kreative wählen Sie aus einer Liste von Standardanzeigengrößen.
+**Creative-Größe:** (Schreibgeschützt für bestehende Anzeigen) Die Dimensionen der Kreativen. Für neue Kreative wählen Sie aus einer Liste von Standardanzeigengrößen.
 U
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen.
 
-**Landingpage-URL:** Die Landingpage-URL, die zur Validierung jeder Anzeige verwendet wird, mit der Sie die Kreativen verknüpfen. Die tatsächliche Landingpage für jede Anzeige wird vom Werbeserver des Drittanbieters bestimmt.
+**Landingpage-URL:** Die Landingpage-URL, die zur Validierung jeder Anzeige verwendet wird, mit der Sie die Kreativen verknüpfen. Der Drittanbieter-Anzeigenserver bestimmt die tatsächliche Landingpage für jede Anzeige.
 
 **Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
 
