@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **Erlebnisse beim Targeting mit Entscheidungsbäumen:** [!DNL Creative] ermöglicht es Ihnen, personalisierte Anzeigenerlebnisse auf der gesamten Kunden-Journey mithilfe eines Entscheidungsbaummodells zu konfigurieren. Sie können alle Werbeelemente - Bilder, Überschriften, Angebote und Landingpages - je nach Zielgruppe anpassen.
 
-  Sie können beispielsweise dasselbe Creative Bundle für Personen in Chicago und New York City angeben, die sich in einem bestimmten Zielgruppensegment von Adobe Analytics befinden, Personen in Chicago, die sich im selben Segment befinden, aber an andere Landingpages als New Yorker senden. Sie können auch ein anderes Bundle für Personen im Segment angeben, die an einem beliebigen Ort außer Chicago und New York City leben, und ein drittes Bundle für andere Personen, die nicht im Segment sind.
+  Sie können beispielsweise dasselbe Creative Bundle für Personen in Chicago und New York City angeben, die sich in einem bestimmten Zielgruppensegment von Adobe Analytics befinden, Personen in Chicago jedoch an andere Landingpages als New Yorker senden. Sie können auch ein anderes Bundle für Personen im Segment angeben, die an einem beliebigen Ort außer Chicago und New York City leben, und ein drittes Bundle für andere Personen, die nicht im Segment sind.
 
-  Zu den Targeting-Optionen gehören Viewer in Erstanbieter-Zielgruppensegmenten aus Adobe Audience Manager, Adobe Analytics und Advertising Cloud DSP, Viewer an bestimmten geografischen Standorten, einschließlich Ländern, Bundesstaaten, DMAs in den USA, Städten und Postleitzahlen, Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden, Viewer mit [!DNL Creative] Retargeting-Pixeln und angegebenen Attributwerten sowie Viewer mit bestimmten Gerätetypen, Betriebssystemen und Browsern.
+  Zu den Targeting-Optionen gehören:
 
-  Sie können jedem Erlebnis Kreativ-Bundles zuweisen, optional die Optimierung und Planung für die Kreativ-Bundles anpassen und die Standard-Landingpages und Tracking-URLs <!-- and any flexible attributes --> einzelne Kreative in jedem Bundle ändern.
+   * Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager, Adobe Analytics und Advertising Cloud DSP
 
-* **Erlebnisse ohne Targeting mit Entscheidungsbaum:** [!DNL Creative] optimiert die Anzeigenelemente für das Anzeigenerlebnis, ohne die Zielgruppe einzugrenzen.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Sie geben Start- und Enddatum sowie einige Standardeinstellungen für jedes Erlebnis an, aber ein Großteil des Workflows ist nicht direkt im Erlebnis enthalten. Anstatt Kreative direkt zum Erlebnis hinzuzufügen, erstellen Sie für jede Anzeigengröße des Erlebnisses ein Tag mit Kreativen, fügen diesem Kreative hinzu, konfigurieren die kreative Optimierung und Planung und passen die Landingpages und Tracking-URLs in [!UICONTROL Tag Manager] an.
+   * Bestimmte geografische Standorte, einschließlich Länder, Bundesstaaten, DMAs in den USA, Städte und Postleitzahlen
+
+   * Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden
+
+   * [!DNL Creative] Retargeting von Pixeln und angegebenen Attributwerten
+
+   * Spezifische Gerätetypen, Betriebssysteme und Browser
+
+  Jedem Erlebnis können kreative Bundles zugewiesen werden. Für jedes Erlebnis können Sie die Optimierung und Planung für die Kreativ-Bundles anpassen und die standardmäßigen Landingpages und Tracking-URLs <!-- and any flexible attributes --> einzelne Kreative in jedem Bundle ändern.
+
+* **Erlebnisse ohne Targeting mit Entscheidungsbaum:** [!DNL Creative] optimiert die Anzeigenelemente für das Anzeigenerlebnis, ohne die Zielgruppe einzugrenzen.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Für jedes Erlebnis geben Sie Start- und Enddatum sowie einige Standardeinstellungen an, aber ein Großteil des Workflows ist nicht direkt im Erlebnis enthalten. Anstatt Kreative direkt zum Erlebnis hinzuzufügen, verwenden Sie [!UICONTROL Tag Manager], um ein Anzeigen-Tag für jede Anzeigengröße für das Erlebnis zu erstellen und dann Kreative hinzuzufügen, die kreative Optimierung und Planung zu konfigurieren und die Landingpages und Tracking-URLs anzupassen.
 
 ## Anzeigenoptimierung
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## Implementieren und Verwalten von Erlebnissen
 
-Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erstellt haben, können Sie [ein JavaScript- oder iFrame-Tag für das gesamte Erlebnis generieren](experience-tag-export.md) das Sie optional als Anzeige in eine Kampagne in Adobe Advertising DSP hochladen oder als Anzeige in einer DSP eines Drittanbieters implementieren können. [!DNL Creative] stellt Anzeigen für das Erlebnis bereit, die auf den Optionen für Targeting und Anzeigenrotation sowie dem verfügbaren Anzeigeninventar basieren.
+Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erstellt haben, können Sie [ein JavaScript- oder iframe-Tag für das gesamte Erlebnis generieren](experience-tag-export.md). Sie können das Erlebnis-Tag als Anzeige in eine Kampagne in Adobe Advertising DSP hochladen oder als Anzeige in einer DSP eines Drittanbieters implementieren. [!DNL Creative] stellt Anzeigen für das Erlebnis bereit, die auf den Optionen für Targeting und Anzeigenrotation sowie dem verfügbaren Anzeigeninventar basieren.
 
 ## Leistungsdaten für Ihre Erlebnisse
 
@@ -65,7 +75,7 @@ Der Status eines Erlebnisses wird automatisch festgelegt, mit Ausnahme von *gel�
 
 *Entwurf:* Nicht allen Verzweigungen des Erlebnisses werden Kreative zugewiesen, sodass das Erlebnis unvollständig ist und Sie kein Erlebnis-Tag generieren können.
 
-*Verarbeitung läuft* Ein zuvor Live-Erlebnis wurde bearbeitet, ist jetzt aber unvollständig. Es kann kein Erlebnis-Tag dafür generiert werden. **Hinweis:** Wenn Sie bereits ein Erlebnis-Tag für das Erlebnis implementiert haben, wird die zuvor aktive Version weiterhin bereitgestellt. Wenn Sie das Erlebnis später abschließen und es erneut live schalten, wird die neue Version unter Verwendung der vorhandenen Tag-Implementierung bereitgestellt.
+*Verarbeitung läuft* Ein zuvor Live-Erlebnis wurde bearbeitet, ist jetzt aber unvollständig. Es kann kein Erlebnis-Tag dafür generiert werden. **Hinweis:** Wenn Sie bereits ein Erlebnis-Tag für das Erlebnis implementiert haben, kann die zuvor aktive Version weiterhin bereitgestellt werden. Wenn Sie das Erlebnis später abschließen und es erneut aktivieren, kann die neue Version mithilfe der vorhandenen Tag-Implementierung bereitgestellt werden.
 
 *Gelöscht:* Das Erlebnis wurde aus [!DNL Creative] gelöscht und ist in den [!UICONTROL Experiences] nicht mehr sichtbar.
 

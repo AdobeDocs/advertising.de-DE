@@ -3,7 +3,7 @@ title: Verfügbare Makros zum Tracking von URLs
 description: Verweisen Sie auf die Makros, die Sie Ihren Landingpage-URLs, Tracking-URLs und Kreativen von Drittanbietern hinzufügen können.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Sie können eines der folgenden Makros in Kreative von Drittanbietern, in Tracking-URLs von Drittanbietern für Ihre Erlebnisse und in URLs von Landingpages für Ihre eigene Verwendung einschließen.
 

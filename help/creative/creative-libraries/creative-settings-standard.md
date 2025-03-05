@@ -3,9 +3,9 @@ title: Creative-Einstellungen
 description: Informationen zu xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
 ### Registerkarte „Details“
 
-**Creative-Name:** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
@@ -94,7 +94,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer benannten Registerkarte.
 
-**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
@@ -150,7 +150,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 ## Kreative Bildeinstellungen {#creative-settings-image}
 
-**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
 
@@ -180,7 +180,7 @@ Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige aus einer
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt) Der Advertiser, für den die Bibliothek verfügbar ist.
 
-**Creative-Name:** Der Name des Kreativen. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie die Kreativen in ein Erlebnis einbeziehen.
+**Creative-Name:** Der Name des Kreativen. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
 
 **Creative-Größe:** (Schreibgeschützt für bestehende Anzeigen) Die Dimensionen der Kreativen. Für neue Kreative wählen Sie aus einer Liste von Standardanzeigengrößen.
 U

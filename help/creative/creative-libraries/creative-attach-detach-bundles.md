@@ -3,7 +3,7 @@ title: Kreative an Kreativ-Bundles anhängen
 description: Erfahren Sie, wie Sie ein Kreativ-Paket an ein Kreativ-Bundle anhängen.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 Sie können Standard-Kreative an Standard-Bundles anhängen und dynamische Kreative an dynamische Bundles, damit Sie sie zu [Anzeigenerlebnissen“ hinzufügen ](/help/creative/experiences/experience-about.md). Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
 

@@ -2,7 +2,8 @@
 title: Kreative in der Vorschau anzeigen
 description: Erfahren Sie, wie Sie eine Vorschau eines Kreativen öffnen.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Nur Standard-Kreative*
 *Geschlossene Beta-Version*
 
-Sie können ein Kreativ mit Hyperlinks in der Vorschau anzeigen, wie die Betrachter es sehen werden.
+Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen, wie es den Betrachtern angezeigt wird.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

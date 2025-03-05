@@ -3,7 +3,7 @@ title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Beispiel-Pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] unterstützt derzeit universelle IDs nur für Advertising DSP. In einer zukünftigen Version werden universelle IDs für DSPs von Drittanbietern unterstützt.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] unterstützt derzeit universelle IDs nur für Advertising DSP. In einer zukünftigen Version werden universelle IDs für DSPs von Drittanbietern unterstützt.<!-- Clarify this and reword as needed  -->
 >* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ ](/help/creative/experiences/experience-settings-targeting.md).
 >* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden.
 >* Website-Besuchende, die sich gegen das Tracking für das Anzeigen-Targeting entschieden haben, erhalten keine Anzeigen mit personalisierten kreativen Inhalten, die auf dem Zielgruppensegment oder dem Retargeting-Profil basieren.
