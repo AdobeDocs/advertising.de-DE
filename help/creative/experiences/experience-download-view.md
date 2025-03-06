@@ -2,9 +2,10 @@
 title: Herunterladen von Daten aus der [!UICONTROL Experiences]
 description: Weitere Informationen zu
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,6 @@ Jede Zeile in der Datei enthält Details zu einem Erlebnis, einschließlich des 
 1. Klicken Sie in der Symbolleiste oben rechts auf ![Herunterladen](/help/creative/assets/download.png "Herunterladen").
 
    Die Datei wird im Standard-Downloads-Ordner Ihres Browsers gespeichert.
+
+>[!MORELIKETHIS]
+>* [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)

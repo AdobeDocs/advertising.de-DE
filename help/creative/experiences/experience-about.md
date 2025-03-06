@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
+source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Wenn Sie die Option [!UICONTROL Metrics] in der Ansicht [!UICONTROL Creative] > 
 
 Sie können [detaillierte Leistungsdaten für jedes Erlebnis anzeigen](experience-performance-details.md) in der [!UICONTROL Experiences] anzeigen.
 
-Erstellen Sie eine [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md), um die Leistung für alle Erlebnisse zu überwachen.
+Um die Leistung in all Ihren Erlebnissen zu überwachen, erstellen Sie [benutzerdefinierten Creative-Bericht](/help/creative/report-custom-creative.md).
 
 ## Erlebnisstatus {#experience-statuses}
 
