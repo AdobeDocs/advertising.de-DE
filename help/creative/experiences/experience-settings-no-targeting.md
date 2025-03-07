@@ -3,9 +3,9 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Wenn Sie ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstelle
 
 **Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann eine Anzeige für ein in 95110 verfügbares Produkt im Umkreis von 10 Meilen für Benutzende im Umkreis von 10 Meilen von 95110 angezeigt werden (bestimmt durch die IP-Adresse des/r Benutzenden).
 
-**RT Pixel:** (Erlebnisse nur mit dynamischen Anzeigen; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen. Für jeden Knoten geben Sie das anzusprechende Pixel und die Werte für die Attribute des Pixels an, die erforderlich sind, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie in diesem Feld kein Pixel angeben, können Sie dennoch eines innerhalb des Entscheidungsbaums angeben.&lt;!— Von R: „Das RT-Pixel sollte über die Inhaltsauswahl in der dynamischen Anzeigeneinrichtung sein“ — klären Sie auf. Ich sehe „Datapass“ (ein Wort) in den dynamischen Anzeigeneinstellungen, aber ich bin mir nicht sicher, wie diese Einstellung und diese Erlebnisebene zusammenarbeiten. —>
+**RT Pixel:** (Erlebnisse nur mit dynamischen Anzeigen; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen. Für jeden Knoten geben Sie das anzusprechende Pixel und die Werte für die Attribute des Pixels an, die erforderlich sind, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie in diesem Feld kein Pixel angeben, können Sie trotzdem eines innerhalb der Entscheidungsstruktur angeben.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Kennzeichnungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
 
