@@ -2,9 +2,10 @@
 title: Kopieren Sie untergeordnete Knoten auf derselben Ebene in einen anderen Zielknoten.
 description: Erfahren Sie, wie Sie alle untergeordneten Knoten eines übergeordneten Zielknotens auf derselben Ebene in einen anderen Zielknoten kopieren
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Nur Erlebnisse mit Targeting mit Entscheidungsbäumen*
 *Geschlossene Beta-Version*
 
-Sie können alle untergeordneten Knoten eines übergeordneten Zielknotens (einschließlich aller untergeordneten Ziele und der ihnen zugewiesenen kreativen Bundles) auf derselben Ebene in einen anderen Zielknoten kopieren, indem Sie entweder die kopierten Knoten zum vorhandenen Framework hinzufügen oder das vorhandene Framework vollständig ersetzen. <!-- Give the main use case or an example to explain. -->
+Sie können alle untergeordneten Knoten eines übergeordneten Zielknotens (einschließlich aller untergeordneten Ziele und der ihnen zugewiesenen Kreativ-Bundles) auf derselben Ebene in einen anderen Zielknoten kopieren. Sie können die Knoten kopieren, indem Sie entweder a) die kopierten Knoten zum vorhandenen Framework hinzufügen oder b) das vorhandene Framework vollständig ersetzen. <!-- Give the main use case or an example to explain. -->
 
 Diese Funktion wirkt sich nicht auf das für den übergeordneten Knoten angegebene Ziel aus, sondern nur auf die untergeordneten Knoten.
 

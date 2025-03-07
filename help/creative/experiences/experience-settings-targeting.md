@@ -3,9 +3,9 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Advertiser, der für die in dem Erlebnis enthaltenen Kreativ- und Zielkombinationen bietet. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Advertiser nicht mehr ändern.
 
-**[!UICONTROL Experience Name]:** Ein eindeutiger Name für das Erlebnis. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie das Erlebnis als Anzeige in Advertising DSP oder einer anderen DSP verwenden.
+**[!UICONTROL Experience Name]:** Ein eindeutiger Name für das Erlebnis. **Tipp** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Erlebnis als Anzeige in Advertising DSP oder einer anderen DSP verwenden.
 
 **[!UICONTROL Creative Library]:** (Schreibgeschützt für vorhandene Erlebnisse) Eine einzelne Kreativbibliothek, die für das Erlebnis verwendet werden soll. Nachdem Sie das Erlebnis gespeichert haben, können Sie die Bibliothek nicht mehr ändern.
 
@@ -57,9 +57,9 @@ Jeder Schlüssel wird in der Anzeige als Makro angehängt
 
 **Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann eine Anzeige für ein in 95110 verfügbares Produkt im Umkreis von 10 Meilen für Benutzende im Umkreis von 10 Meilen von 95110 angezeigt werden (bestimmt durch die IP-Adresse des/r Benutzenden).
 
-**RT Pixel:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen und das Pixel angeben, das für jeden Knoten anvisiert werden soll, sowie die erforderlichen Werte für die Attribute des Pixels, die vorhanden sein müssen, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie beim Erstellen des Erlebnisses kein Pixel in diesem Feld angeben, können Sie dennoch eines innerhalb der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree. -->
+**RT Pixel:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen. Für jeden Knoten geben Sie das anzusprechende Pixel und die Werte für die Attribute des Pixels an, die erforderlich sind, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie beim Erstellen des Erlebnisses kein Pixel in diesem Feld angeben, können Sie dennoch eines innerhalb der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree. -->
 
-**Beschriftung:** <!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Beschriftungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
+**Beschriftung:**<!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Beschriftungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
 
 * Um vorhandene Kennzeichnungen auszuwählen, klicken Sie ![Nach unten](/help/creative/assets/chevron-down.png "Nach unten") und aktivieren Sie das Kontrollkästchen neben den einzelnen Kennzeichnungen, die angewendet werden sollen.
 

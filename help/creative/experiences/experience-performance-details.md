@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Die Berichtsansicht enthält die folgenden Daten:
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, generischen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
+   * **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, allgemeinen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -52,7 +52,7 @@ Die Berichtsansicht enthält die folgenden Daten:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der <!-- NN --> Kreativen anzuzeigen, die mit diesen Kriterien bedient werden.
+      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der Top-Kreativen <!-- NN --> sehen, die mit diesen Kriterien beliefert wurden.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ Die Berichtsansicht enthält die folgenden Daten:
 
       * Um einen voreingestellten Zeitraum festzulegen, wählen Sie den Bericht aus: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* oder *[!UICONTROL Yesterday]*.
 
-      * Um einen benutzerdefinierten Datumsbereich anzugeben, geben Sie das Start- und Enddatum <!-- in the format MM/DD/YYYY or M/D/YYYY,--> oder klicken Sie auf ![Kalendersymbol](/help/search-social-commerce/assets/calendar.png) neben einem Feld und wählen Sie ein Datum aus.
+      * Um einen benutzerdefinierten Datumsbereich anzugeben, geben Sie das Start- und <!-- in the format MM/DD/YYYY or M/D/YYYY,--> an oder klicken Sie auf ![Kalendersymbol](/help/search-social-commerce/assets/calendar.png) neben einem Feld und wählen Sie ein Datum aus.
 
    * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
 
-   * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus.&lt;!— Nur ein oder mehrere? Überprüfen Sie, wie diese angezeigt werden — Ich möchte einen Advertiser sehen, für den bereits mehrere Konversionen eingerichtet sind —>
+     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[ der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
 
-     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Dazu können Konversions- und Site-Interaktionsmetriken gehören, die mit Adobe Analytics synchronisiert werden, wenn der Advertiser über [eine [!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) verfügt. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce unter &quot;[Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
+   * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus.&lt;!— Nur ein oder mehrere? Überprüfen Sie, wie diese angezeigt werden - Ich muss einen Advertiser sehen, für den bereits mehrere Konversionen eingerichtet sind. Ab dem 6. März sehe ich nur „Alle auswählen“ —>
+
+     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Die Liste kann Konversions- und Site-Interaktionsmetriken enthalten, die mit Adobe Analytics synchronisiert werden, wenn der Advertiser über [eine [!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) verfügt. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce unter &quot;[Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
 
 1. (Auf der Registerkarte [!UICONTROL Overview] ):
 
@@ -136,7 +138,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
       * Halten Sie den Cursor über den Wert für eine beliebige Gerätekategorie, um Daten für dieses Kriterium anzuzeigen.
 
-      * Klicken Sie auf den Wert für eine beliebige Gerätekategorie, um eine Liste der wichtigsten <!-- NN--> Kreativen anzuzeigen, die mit diesen Kriterien beliefert wurden.
+      * Klicken Sie auf den Wert für eine beliebige Gerätekategorie, um eine Liste der <!-- NN--> Kreativen anzuzeigen, die mit diesen Kriterien beliefert wurden.
 
 1. (Optional) Um Daten nach Kreativ- und Bundle- oder Anzeigen-Tag anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Creative Performance]** .
 
@@ -163,3 +165,5 @@ Die Berichtsansicht enthält die folgenden Daten:
 >[!MORELIKETHIS]
 >
 >* [Benutzerdefinierter kreativer Bericht](/help/creative/report-custom-creative.md)
+>* [Alle Erlebnisse in der Ansicht herunterladen](/help/creative/experiences/experience-download-view.md)
+>* [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)

@@ -2,9 +2,10 @@
 title: Hinzufügen eines Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie in einem Werbeerlebnis einen Zielknoten zwischen Zielknoten hinzufügen.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Wenn Sie einen Zielknoten zwischen vorhandenen Ebenen einfügen, behält der neue Zielknoten alle vorhandenen untergeordneten Ziele und Kreativen bei, und der neue Knoten heißt zunächst „Alle“. Optional können Sie den neuen Knoten beibehalten, ohne spezifischere Ziele hinzuzufügen.
 
-Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangigen Zielknoten auf derselben Ebene hinzu, geben Sie das neue Ziel an und weisen Sie dann nur diesem Ziel Kreative zu. Dadurch wird der neue Zielknoten erstellt und alle untergeordneten Ziele und Kreativen, die zuvor „Alle“ zugewiesen waren, werden auf derselben Ebene in einen neuen Knoten „Alles andere“ verschoben. Auf diese Weise sind die vorhandenen untergeordneten Verzweigungen von der Hinzufügung des neuen Ziels nicht betroffen, da nur der neue gleichrangige Knoten die neuen Zielgruppenbestimmungsinformationen enthält.
+Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangigen Zielknoten auf derselben Ebene hinzu, geben Sie das neue Ziel an und weisen Sie dann nur diesem Ziel Kreative zu. Durch Hinzufügen eines gleichrangigen Zielknotens wird der neue Zielknoten erstellt und alle untergeordneten Ziele und Kreativen, die zuvor „Alle“ zugewiesen waren, werden auf derselben Ebene in einen neuen Knoten „Alles andere“ verschoben. Auf diese Weise wirkt sich das Hinzufügen der neuen Zielgruppe nicht auf die vorhandenen untergeordneten Verzweigungen aus, da nur der neue gleichrangige Knoten die neuen Zielgruppenbestimmungsinformationen enthält.
 
 >[!NOTE]
 >
@@ -44,13 +45,13 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
    * Wenn gleichrangige Knoten bereits vorhanden sind, führen Sie die folgenden Schritte aus:
 
-      * Gehen Sie zum Adobe von Zielgruppenzielen wie folgt vor:
+      * Gehen Sie bei Adobe-Zielgruppenzielen wie folgt vor:
 
          1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] Optionen zu öffnen, öffnen Sie die Registerkarte **[!UICONTROL Adobe Segments]** , geben Sie ein oder mehrere [!DNL Adobe] Zielgruppenziele des Werbetreibenden an und klicken Sie dann auf **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere Zielgruppen angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-            Dadurch wird für jede angegebene Zielgruppe ein separater Zielknoten (mit separaten kreativen Bundles) erstellt. Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören.
+            Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören.
 
          1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
          1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-            Dadurch wird ein separater Zielknoten (mit separaten kreativen Bundles) für jedes angegebene geografische Ziel erstellt. Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+            Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
 
          1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
         Der Schlüssel für das Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt.
 
-      * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die erforderlichen Werte für die Attribute des Pixels an, die vorhanden sein müssen, um die Kreativen anzuzeigen. Klicken Sie dann auf **[!UICONTROL Apply]**.
+      * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die Werte für die Attribute des Pixels an, die zur Anzeige für die Kreativen erforderlich sind. Klicken Sie dann auf **[!UICONTROL Apply]**.
 
         Die Attribute für das Retargeting-Pixel werden unter [Einstellungen für Retargeting-Pixel](/help/creative/pixels/retargeting-pixel-manage.md) konfiguriert.
 
@@ -80,7 +81,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
          1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-            Dadurch wird ein separater Zielknoten (mit separaten kreativen Bundles) für jedes angegebene geografische Ziel erstellt. Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+            Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
 
          1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
@@ -90,7 +91,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
    * (Optional) [Weisen Sie dem neuen ](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
 
-   * (Optional) [Einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md) der ein Ziel des angegebenen Typs enthält.
+   * (Optional) [Einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md) des angegebenen Zieltyps.
 
    * (Optional) So speichern Sie das Erlebnis:
 

@@ -2,9 +2,10 @@
 title: Freigeben einer Demo-URL für ein Erlebnis
 description: Erfahren Sie, wie Sie eine Demo-URL eines Erlebnisses freigeben.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ Sie können anderen Personen ohne Anmeldung erlauben, eine Vorschau eines Erlebn
 1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share.png "Freigeben").
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
+
+>[!MORELIKETHIS]
+>
+>* [Vorschau eines Erlebnisses](/help/creative/experiences/experience-preview.md)

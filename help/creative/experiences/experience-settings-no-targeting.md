@@ -3,9 +3,9 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Werbetreibende, der Gebote für die in das Erlebnis eingeschlossenen Kreativen abgibt. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Advertiser nicht mehr ändern.
 
-**[!UICONTROL Experience Name]:** Ein eindeutiger Name für das Erlebnis. **Tipp:** Verwenden Sie einen Namen, der leicht zu finden ist, wenn Sie das Erlebnis als Anzeige in Advertising DSP oder einer anderen DSP verwenden.
+**[!UICONTROL Experience Name]:** Ein eindeutiger Name für das Erlebnis. **Tipp** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Erlebnis als Anzeige in Advertising DSP oder einer anderen DSP verwenden.
 
 **[!UICONTROL Creative Library]:** (Schreibgeschützt für vorhandene Erlebnisse) Eine einzelne Kreativbibliothek, die für das Erlebnis verwendet werden soll. Nachdem Sie das Erlebnis gespeichert haben, können Sie die Bibliothek nicht mehr ändern.
 
@@ -38,7 +38,7 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 
 ## [!UICONTROL Targeting]
 
-**[!UICONTROL Targeting]:** (Schreibgeschützt für vorhandene Erlebnisse) Trifft nicht zu, wenn Sie die Zielgruppenbestimmung nicht mithilfe eines Entscheidungsbaums aktivieren möchten; deaktivieren Sie diese Option.
+**[!UICONTROL Targeting]:** (Schreibgeschützt für vorhandene Erlebnisse) Trifft nicht zu, wenn Sie die Zielgruppenbestimmung mithilfe eines Entscheidungsbaums nicht aktivieren. Lassen Sie diese Option deaktiviert.
 
 **[!UICONTROL Dynamic ads]:** (Schreibgeschützt für vorhandene Erlebnisse) Gibt an, dass das Erlebnis dynamische Anzeigen enthält. **Hinweis:** Ein Erlebnis kann entweder alle Standardanzeigen oder alle dynamischen Anzeigen enthalten.
 
@@ -50,13 +50,13 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 
 **Datenübergabe:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit nach der Impression übergeben. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden.<!-- May move this to just within the decision tree. -->
 
-Wenn Sie später ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstellen, wird jeder Schlüssel, der in diesem Feld angegeben ist, als Makro im -Tag angehängt. Sie müssen den Wert für jedes Schlüssel-Wert-Paar innerhalb des Tags eingeben, bevor Sie das Tag als Anzeige in Ihrer DSP implementieren.
+Wenn Sie ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstellen, wird jeder Schlüssel, der in diesem Feld angegeben ist, als Makro im -Tag angehängt. Geben Sie den Wert für jedes Schlüssel-Wert-Paar innerhalb des Tags ein, bevor Sie das Tag als Anzeige in Ihre DSP implementieren.
 
 **Radius:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Ein Radius von einer US-Postleitzahl, die in der zu zielenden Feed-Datei angegeben ist; wählen Sie einen Radius von 0 Meilen bis 200 Meilen aus. Die Feed-Datei, die zur Erstellung der dynamischen Anzeigen für das Erlebnis verwendet wird, muss eine [!UICONTROL ZIP] Spalte <!-- or a user-named column mapped to a ZIP column -->, die für jede Produktzeile in der Datei einen Wert enthält. Beispielsweise kann eine Anzeige für ein in 95110 verfügbares Produkt im Umkreis von 10 Meilen für Benutzende im Umkreis von 10 Meilen von 95110 angezeigt werden (bestimmt durch die IP-Adresse des/r Benutzenden).
 
-**RT Pixel:** (Erlebnisse nur mit dynamischen Anzeigen; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen und das Pixel angeben, das für jeden Knoten anvisiert werden soll, sowie die erforderlichen Werte für die Attribute des Pixels, die vorhanden sein müssen, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie in diesem Feld kein Pixel angeben, können Sie dennoch eines innerhalb des Entscheidungsbaums angeben.&lt;!— Von R: „Das RT-Pixel sollte über die Inhaltsauswahl in der dynamischen Anzeigeneinrichtung sein“ — klären Sie auf. Ich sehe „Datapass“ (ein Wort) in den dynamischen Anzeigeneinstellungen, aber ich bin mir nicht sicher, wie diese Einstellung und diese Erlebnisebene zusammenarbeiten. —>
+**RT Pixel:** (Erlebnisse nur mit dynamischen Anzeigen; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen. Für jeden Knoten geben Sie das anzusprechende Pixel und die Werte für die Attribute des Pixels an, die erforderlich sind, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie in diesem Feld kein Pixel angeben, können Sie dennoch eines innerhalb des Entscheidungsbaums angeben.&lt;!— Von R: „Das RT-Pixel sollte über die Inhaltsauswahl in der dynamischen Anzeigeneinrichtung sein“ — klären Sie auf. Ich sehe „Datapass“ (ein Wort) in den dynamischen Anzeigeneinstellungen, aber ich bin mir nicht sicher, wie diese Einstellung und diese Erlebnisebene zusammenarbeiten. —>
 
-**[!UICONTROL Label]:** <!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Kennzeichnungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Kennzeichnungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
 
 * Um vorhandene Kennzeichnungen auszuwählen, klicken Sie ![Nach unten](/help/creative/assets/chevron-down.png "Nach unten") und aktivieren Sie das Kontrollkästchen neben den einzelnen Kennzeichnungen, die angewendet werden sollen.
 

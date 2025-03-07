@@ -2,9 +2,10 @@
 title: Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting
 description: Erfahren Sie, wie Sie die Tracking-URLs für jedes Kreative in einem Erlebnis ohne Targeting mit einem Entscheidungsbaum anpassen.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie aus [!UICONTROL Tag Manager] heraus bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL für jeden einzelnen Kreativen erstellen, der für das Anzeigen-Erlebnis-Tag verwendet wird.
+Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL für jeden einzelnen Kreativen erstellen, der für das Anzeigen-Erlebnis-Tag verwendet wird. Sie können die Tracking-URLs in [!UICONTROL Tag Manager] anpassen.
 
 Die benutzerdefinierten URLs werden nur für Anzeigen verwendet, die aus dem Ad-Erlebnis-Tag erstellt wurden, und werden nicht in den kreativen Basiseinstellungen in [!UICONTROL Creative Libraries] gespeichert.
 
@@ -33,13 +34,13 @@ Die benutzerdefinierten URLs werden nur für Anzeigen verwendet, die aus dem Ad-
 
    1. Geben Sie eine eindeutige **[!UICONTROL Tag name]** ein und wählen Sie die **[!UICONTROL Tag size]** aus.
 
-      Die verfügbaren Größen werden durch die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmt.
+      Die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmen die verfügbaren Größen.
 
    1. Klicken Sie auf **[!UICONTROL Create]**.
 
 1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie auf ![Tracking-URLs bearbeiten](/help/creative/assets/edit-gray.png " Tracking-URLs ") bearbeiten **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— Tag Manager hat ab 2/2 nur eine Listenansicht, aber keine Kartenansicht. >
 
-   Auf den Registerkarten [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] und [!UICONTROL Landing URLs] werden die Namen aller Kreativen in den entsprechenden Größen in den zugewiesenen Bundles aufgelistet. Die entsprechenden Größen werden durch die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmt.<!-- There's no distinct "Creative Sizes" setting. -->
+   Auf den Registerkarten [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] und [!UICONTROL Landing URLs] werden die Namen aller Kreativen in den entsprechenden Größen in den zugewiesenen Bundles aufgelistet. Die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmen die verfügbaren Größen.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Gehen Sie auf den Registerkarten **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** und **[!UICONTROL Landing URLs]** für jeden Kreativen nach Bedarf wie folgt vor:
 

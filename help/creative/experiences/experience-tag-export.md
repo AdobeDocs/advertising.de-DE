@@ -3,7 +3,7 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Sobald ein Anzeigen-Tag für eine bestimmte Kreativgröße für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in den Formaten JavaScript und iFrame generieren und kopieren, um es in Advertising DSP oder einer anderen DSP zu implementieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
+Sobald ein Anzeigen-Tag für eine bestimmte Kreativgröße für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in den Formaten JavaScript und iframe zur Implementierung auf Advertising DSP oder anderen DSPs generieren und kopieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
 
 Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in eine Advertising DSP-Kampagne hochladen.
 
@@ -50,7 +50,7 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 
    * *Adobe Advertising:* Für Anzeigen, die Sie in Advertising DSP erstellen werden.
 
-   * *Generisch:* Für Anzeigen, die Sie in einer anderen DSP erstellen. **Hinweis:** Sie müssen ggf. manuell zusätzliche Makros einfügen.
+   * *Generisch:* Für Anzeigen, die Sie in anderen DSPs erstellen werden. **Hinweis:** Sie müssen ggf. manuell zusätzliche Makros einfügen.
 
 1. Klicken Sie auf **[!UICONTROL Generate tags]**.
 
@@ -64,13 +64,13 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 
 1. Implementieren Sie die Tags für die entsprechende DSP:
 
-   * Geben Sie für andere DSP als Advertising DSP die Tags an die Person weiter, die die Anzeigen in der DSP erstellt.
+   * Geben Sie bei anderen DSPs als Advertising DSP die Tags an die Person weiter, die die Anzeigen in der DSP erstellen wird.
 
    * Für Advertising DSP:
 
       1. Klicken Sie oben rechts auf **[!UICONTROL Next]** oder im Menü links auf **[!UICONTROL DSP link]**.
 
-      1. Wählen Sie die Kampagne aus, für die das Anzeigen-Tag verfügbar sein soll.
+      1. Wählen Sie die Kampagne aus, in die Sie das Anzeigen-Tag hochladen möchten.
 
       1. Klicken Sie auf **[!UICONTROL Assign Tags]**.
 
