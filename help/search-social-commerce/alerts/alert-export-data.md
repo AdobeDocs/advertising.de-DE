@@ -3,7 +3,7 @@ title: Exportieren von Daten für benutzerdefinierte Warnhinweise
 description: Erfahren Sie, wie Sie Daten für einen ausgelösten Warnhinweis in eine Datei exportieren.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 03475909ca942010e4380456079519f0c18adca3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletz
 
 1. Klicken Sie in der Spalte [!UICONTROL Export] neben dem Namen der Vorlage oder des Berichts auf den Namen eines Formats und öffnen oder speichern Sie dann die Datei entsprechend der normalen Vorgehensweise Ihres Browsers:
 
-   * **[!UICONTROL XLS]** - Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLS). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, mit einer Zeile für jede eingeschlossene Komponente, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen. Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
+   * **[!UICONTROL XLS]:** Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLS). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, mit einer Zeile für jede eingeschlossene Komponente, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen. Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
 
-   * **[!UICONTROL TSV]** - Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede eingeschlossene Komponente.
+   * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede eingeschlossene Komponente.
 
-   * **[!UICONTROL CSV]** - Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede eingeschlossene Komponente.
+   * **[!UICONTROL CSV]:** Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede eingeschlossene Komponente.
 
 >[!MORELIKETHIS]
 >
