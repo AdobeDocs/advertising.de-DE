@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für  [!DNL Google Ads] -Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ Ihre Anzeigen im Netzwerk der Suchpartner des Werbenetzwerks. Standardmäßig is
 
 **[!UICONTROL Bid strategy]:** Die Bid-Strategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* (nicht verfügbar für Kampagnen mit maximaler Leistung oder für bestehende, schreibgeschützte [!DNL Gmail]) Verwendet das erweiterte eCPC-Modell (Cost-Per-Click) des Anzeigennetzwerks, das es dem Anzeigennetzwerk ermöglicht, das Cost-Per-Click-Angebot (CPC) für jede Auktion automatisch zu ändern, um Konversionen zu maximieren, wobei Konversionen verwendet werden, die innerhalb des Anzeigennetzwerks (nicht in Search, Social und Commerce) angegeben sind, während versucht wird, den durchschnittlichen CPC unter dem maximalen CPC zu halten.
-
-Wenn Sie eine Kampagne mit eCPC zu einem optimierten Search-, Social- und Commerce-Portfolio hinzufügen, optimiert Search, Social und Commerce die Basisgebote und - wenn die Option &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; aktiviert ist - das Kampagnenbudget. Das Werbenetzwerk optimiert alle Gebotsanpassungen und kann die von Search, Social und Commerce generierten Gebote zum Zeitpunkt der Benutzerabfrage auf der Grundlage proprietärer Daten und Erkenntnisse ändern. **Achtung:** Sie eCPC-Kampagnen nur dann in Portfolios, wenn die Gesamtzahl der im Werbenetzwerk nachverfolgten Konversionen mit dem Portfolioziel übereinstimmt. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Manual CPC]* (Standard): (Für Kampagnen mit dem Typ „Performance Max“ nicht verfügbar) Verwendet das CPC-Modell (Cost Per Click) . Optional können Sie dem Werbenetzwerk erlauben, Gebote für die Kampagne zu ändern:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Maximize Clicks]:* (Search-, Display- und Shopping-Kampagnen) Das Anzeigennetzwerk - nicht Search, Social und Commerce - optimiert Angebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk für jeden Klick nicht mehr als einen bestimmten Betrag zahlt. **Achtung:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden Gebote durch die Klickgewichtung gesteuert und nicht durch das Portfolioziel.
 
