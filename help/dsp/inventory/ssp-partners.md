@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Hier finden Sie eine Liste der verfügbaren anbieterseitigen Plattformen (SSP) und der offenen Exchange-Partner.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Eine Plattform auf der Angebotsseite (Supply-Side Platform, SSP) ist eine Werbet
 
 | SSP aufgelistet | Firma | Lizenz-ID | Programmgesteuerte garantierte Unterstützung | Region | Unterstützte Währung | Unterstütztes Inventar |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (zuvor [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Global | USD | Desktop- und Mobile-Video<br><br>Desktop und Mobilgerät anzeigen |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG-Unterstützung | Global | USD, EUR, GBP | Audio Desktop und Mobilgeräte |
 | [!DNL AppNexus] | [!DNL Xandr] | Video Seat ID: 9094<br>Display Seat ID: 3939 | — | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] oder Adobe Advertising | — | USA + EMEA | USD, EUR | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
