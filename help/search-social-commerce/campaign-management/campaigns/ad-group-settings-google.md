@@ -3,9 +3,9 @@ title: Einstellungen für Anzeigengruppen [!DNL Google Ads]
 description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  Anzeigengruppen.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]*(Standard für neue Anzeigengruppen): Verwendet die vorhandene Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist in Search, Social und Commerce nicht sichtbar.
 
-Wenn die Kampagne eine intelligente Gebotsstrategie verwendet (z. B. [!UICONTROL Target CPA], [!UICONTROL Target ROAS] oder [!UICONTROL Enhanced CPC]), setzt [!DNL Google Ads] die Option automatisch auf &quot;[!UICONTROL Optimize]&quot;.
+Wenn die Kampagne eine intelligente Gebotsstrategie verwendet (z. B. [!UICONTROL Target CPA], [!UICONTROL Target ROAS]), setzt [!DNL Google Ads] die Option automatisch auf &quot;[!UICONTROL Optimize]&quot;.
 
 **[!UICONTROL Custom Bid Level]:** (Kampagnen, die nur auf das Anzeigennetzwerk abzielen) Anleitung: nach *[!UICONTROL Ad Group]* (Standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Interessen und Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (Website), *[!UICONTROL Unknown]* oder *[!UICONTROL Vertical]*.
 
