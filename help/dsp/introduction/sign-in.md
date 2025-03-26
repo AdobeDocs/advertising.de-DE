@@ -2,9 +2,9 @@
 title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
-source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
+source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Um ein neues Anmeldekonto hinzuzufügen, geben Sie die E-Mail-Adresse für Ihr A
 
 In der Zwischenzeit kann der Benutzer weiterhin seine alten DSP-Anmeldeinformationen verwenden.
 
-#### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich nicht mehr zu adobe.advertising.com weitergeleitet.
+#### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich zurück zur Anmeldeseite von adobe.advertising.com geleitet.
 
 Erkundigen Sie sich bei Ihrem IMS-Organisationsadministrator, ob die von Ihnen verwendete E-Mail zur IMS-Organisation hinzugefügt wurde. Wenn der Administrator bestätigt, dass Sie zur IMS-Organisation hinzugefügt wurden, bitten Sie Ihr Adobe-Accountteam, Ihr Konto für die Verwendung von DSP bereitzustellen.
 
