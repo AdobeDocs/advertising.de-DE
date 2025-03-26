@@ -2,9 +2,9 @@
 title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließl
 
 ### Fehlerbehebung
 
-Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)“.
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 
@@ -57,7 +57,7 @@ Um ein neues Anmeldekonto hinzuzufügen, geben Sie die E-Mail-Adresse für Ihr A
 
 In der Zwischenzeit kann der Benutzer weiterhin seine alten DSP-Anmeldeinformationen verwenden.
 
-#### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich nicht mehr zur Anmeldeseite von adobe.advertising.com weitergeleitet.
+#### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich nicht mehr zu adobe.advertising.com weitergeleitet.
 
 Erkundigen Sie sich bei Ihrem IMS-Organisationsadministrator, ob die von Ihnen verwendete E-Mail zur IMS-Organisation hinzugefügt wurde.
 
