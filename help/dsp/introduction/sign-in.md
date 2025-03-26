@@ -2,7 +2,7 @@
 title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ In der Zwischenzeit kann der Benutzer weiterhin seine alten DSP-Anmeldeinformati
 
 #### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich nicht mehr zu adobe.advertising.com weitergeleitet.
 
-Erkundigen Sie sich bei Ihrem IMS-Organisationsadministrator, ob die von Ihnen verwendete E-Mail zur IMS-Organisation hinzugefügt wurde.
-
-Wenn der Administrator bestätigt, dass Sie zur IMS-Organisation hinzugefügt wurden, bitten Sie Ihr Adobe-Accountteam, Ihr Konto für die Verwendung von DSP bereitzustellen.
+Erkundigen Sie sich bei Ihrem IMS-Organisationsadministrator, ob die von Ihnen verwendete E-Mail zur IMS-Organisation hinzugefügt wurde. Wenn der Administrator bestätigt, dass Sie zur IMS-Organisation hinzugefügt wurden, bitten Sie Ihr Adobe-Accountteam, Ihr Konto für die Verwendung von DSP bereitzustellen.
 
 In der Zwischenzeit können Sie weiterhin Ihre alten DSP-Anmeldedaten verwenden.
 
@@ -69,7 +67,7 @@ In der Zwischenzeit können Sie weiterhin Ihre alten DSP-Anmeldedaten verwenden.
 
 1. Gehen Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich ab.
 
-Gehen Sie zu [advertising.adobe.com](https://advertising.adobe.com) und melden Sie sich mit der richtigen E-Mail-ID an.
+1. Gehen Sie zu [advertising.adobe.com](https://advertising.adobe.com) und melden Sie sich mit der richtigen E-Mail-ID an.
 
 #### Mein [!DNL Adobe] IMS- und DSP-Konto sind mit verschiedenen E-Mails registriert. Wie melde ich mich mit meinem [!DNL Adobe] IMS-Konto an?
 
