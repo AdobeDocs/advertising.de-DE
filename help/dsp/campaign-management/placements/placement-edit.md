@@ -3,7 +3,7 @@ title: Platzierungen bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können die Einstellungen für eine einzelne Platzierung oder für mehrere P
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an einer begrenzten Teilmenge von Schlüsselfeldern vornehmen und sie gleichzeitig wieder in DSP hochladen. Siehe [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md).
+>Sie können auch die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format (Excel-Tabelle) herunterladen, Änderungen an den meisten Feldern vornehmen und sie gleichzeitig wieder in DSP hochladen. Siehe [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md).
 
 ## Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 1. Klicken Sie auf **[!UICONTROL Update placement]**.
 
-## Mehrere Platzierungen bearbeiten {#edit-multiple-placements}
+## Nehmen Sie dieselben Änderungen an mehreren Platzierungen vor {#edit-multiple-placements}
 
 Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewählten Platzierungen anwenden möchten.
 
