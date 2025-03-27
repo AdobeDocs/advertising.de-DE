@@ -3,7 +3,7 @@ title: Adobe Advertising-IDs verwendet von [!DNL Analytics]
 description: Adobe Advertising-IDs verwendet von [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
+source-git-commit: 19d96e6016c2d170c2a08091249c024ee92e5e64
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 0%
@@ -164,7 +164,7 @@ Die Parameter variieren je nach Anzeigennetzwerk, aber die folgenden Parameter s
 
 ##### [!DNL Baidu]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+`s_kwcid=AL!{userid}!{88}!{creative}!{placement}!{keywordid}`
 
 Dabei gilt:
 
@@ -178,11 +178,11 @@ Dazu gehören Shopping-Kampagnen mit [!DNL Google Merchant Center].
 
 * Konten, die das neueste AMO ID-Format verwenden, das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente sowie Kampagnen mit dem Typ „Performance Max“ unterstützt:
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * Alle anderen Konten:
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 Dabei gilt:
 
@@ -207,7 +207,7 @@ Dabei gilt:
 
 ##### [!DNL Meta]
 
-`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+`s_kwcid=AL!{userid}!{45}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
 
 where:
 
@@ -223,7 +223,7 @@ where:
 
 * All campaign types:
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+  `s_kwcid=AL!{userid}!{10}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 Dabei gilt:
 
@@ -237,15 +237,15 @@ Dabei gilt:
 > Für Konten mit Kampagnen ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, aktualisieren Sie manuell jedes Landingpage-Suffix, um das obige Format aufzunehmen.
 >In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
 >* Suchkampagnen:
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Einkaufskampagnen (mit [!DNL Microsoft Merchant Center]):
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{CriterionId}`
 >* Audience Network-Kampagnen:
->  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+`s_kwcid=AL!{userid}!{94}!{creative}!{matchtype}!{network}!{keyword}`
 
 Dabei gilt:
 
@@ -256,7 +256,7 @@ Dabei gilt:
 
 ##### [!DNL Yandex]
 
-`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+`s_kwcid=AL!{userid}!{90}!{ad_id}!{source_type}!!!{phrase_id}`
 
 Dabei gilt:
 
