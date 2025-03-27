@@ -3,9 +3,9 @@ title: Adobe Advertising-IDs verwendet von [!DNL Analytics]
 description: Adobe Advertising-IDs verwendet von [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ Dabei gilt:
 
 >[!NOTE]
 >
->Für alle Konten mit Kampagnen des Typs „Performance Max“ und der [!UICONTROL Auto Upload]-Tracking-Option wurden die Landingpage-Suffixe in das oben genannte Format migriert. Für andere Kampagnentypen mit der Option [!UICONTROL Auto Upload]-Tracking werden Ihre Landingpage-Suffixe bis Anfang 2025 so migriert, dass sie das obige s_kwcid-Format verwenden.
 > Für Konten mit Kampagnen ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, aktualisieren Sie manuell jedes Landingpage-Suffix, um das obige Format aufzunehmen.
 >In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
 >* Suchkampagnen:
