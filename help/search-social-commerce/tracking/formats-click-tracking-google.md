@@ -3,7 +3,7 @@ title: Klick-Tracking-Formate für [!DNL Google Ads]
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Google Ads] .
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -54,7 +54,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -72,13 +72,13 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
    * [!DNL Google Ads] Konten, die das neueste [AMO ID-Format](/help/integrations/analytics/ids.md#amo-id-formats) verwenden (beginnend mit `s_kwcid`), das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente mit dem Wert „Performance Max“ unterstützt:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt und die Konto- oder Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie es manuell hinzufügen. Siehe &quot;[Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).“
+     Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt und die Konto- oder Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie es manuell hinzufügen. Siehe &quot;[Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
 
    * Alle anderen [!DNL Google Ads]:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Wenn der Advertiser keine Adobe Analytics-Integration hat, muss das Suffix Folgendes enthalten:
 
@@ -88,9 +88,9 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >
 >* Landingpage-Suffixe auf niedrigeren Ebenen überschreiben das Suffix auf Kontoebene. Zur einfacheren Wartung verwenden Sie nur das Suffix auf Kontoebene, es sei denn, eine andere Nachverfolgung für einzelne Kontokomponenten ist erforderlich. Um ein Suffix auf Anzeigengruppenebene oder darunter zu konfigurieren, verwenden Sie den Editor des Anzeigennetzwerks.
 >
->* (Dynamische Suchanzeigen; Werbetreibende mit Adobe Analytics und ohne Server-seitiges Tracking) Wenn Sie Tracking für den Reverse-Feed von Adobe Advertising nach Analytics einbeziehen möchten, hängen Sie den AMO-ID-Tracking-Code an das Ende des Suffix der Landingpage auf Kontoebene an.
+>* (Dynamische Suchanzeigen; Werbetreibende mit Adobe Analytics und ohne Server-seitiges Tracking) Wenn Sie Tracking für den Reverse-Feed von Adobe Advertising an Analytics einbeziehen möchten, hängen Sie den AMO-ID-Tracking-Code an das Ende des Suffix der Landingpage auf Kontoebene an.
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
+>* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
 >* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)

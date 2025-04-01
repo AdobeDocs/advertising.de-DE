@@ -3,7 +3,7 @@ title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -44,7 +44,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -66,7 +66,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -86,7 +86,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix Folgendes enthalten:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * Wenn der Advertiser keine Adobe Analytics-Integration hat, muss das Suffix Folgendes enthalten:
 
@@ -98,7 +98,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix Folgendes enthalten:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * Wenn der Advertiser keine Adobe Analytics-Integration hat, muss das Suffix Folgendes enthalten:
 
@@ -106,5 +106,5 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
+>* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
 >* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
