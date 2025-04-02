@@ -2,7 +2,7 @@
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie Online-Hilfe und Community-Ressourcen anzeigen und technischen Support erhalten.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -33,10 +33,10 @@ Antworten auf Ihre Fragen finden Sie in den [Adobe Advertising-Community-Foren](
 
 Führen Sie für Produkt- oder Kontoprobleme in den Bereichen Suche, Social und Commerce einen der folgenden Schritte aus:
 
-* Wenden Sie sich an Ihr Adobe-Account-Team.
+* Wenden Sie sich an Ihr Adobe-Accountteam.
 
-* Klicken Sie im oberen Menü auf ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **[!UICONTROL Provide Feedback]**, geben Sie Ihre Nachricht ein und klicken Sie dann auf **[!UICONTROL Send Feedback]**. |
+* Klicken Sie im oberen Menü auf ![Hilfe](/help/search-social-commerce/assets/help-main-menu.png "Hilfe") > **[!UICONTROL Provide Feedback]**, geben Sie Ihre Nachricht ein und klicken Sie dann auf **[!UICONTROL Send Feedback]**.
 
-Geben Sie detaillierte Schritte zur Reproduktion des Problems, alle relevanten Daten und Informationen zur von Ihnen durchgeführten vorläufigen Fehlerbehebung an. Wenn Sie das Problem Ihrem Adobe-Account-Team melden, geben Sie auch den Browsernamen und die Version an.
+Geben Sie detaillierte Schritte zur Reproduktion des Problems, alle relevanten Daten und Informationen zur von Ihnen durchgeführten vorläufigen Fehlerbehebung an. Wenn Sie das Problem Ihrem Adobe-Account-Team melden, geben Sie auch den Browser-Namen und die Version an.
 
 Löschen Sie den Bericht nicht, um Berichtsprobleme zu beheben, und geben Sie den Berichtsnamen und die URL an.
