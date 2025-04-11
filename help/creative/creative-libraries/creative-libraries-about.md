@@ -3,7 +3,7 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 *Closed Beta-Funktion*
 
-Mit Ihren Kreativ-Bibliotheken können Sie die Kreativen verwalten, die Sie in Ihren Werberlebnissen verwenden werden. Sie können mehrere Bibliotheken mit jeweils einer Reihe von Kreativen und *Kreativ-Bundles* erstellen, bei denen es sich um Kreativgruppen handelt, die Sie einem Erlebnis als eine Einheit hinzufügen können.
+Mit Ihren Werbemittel Bibliotheken können Sie die Creatives managen, die Sie in Ihren Anzeige Erlebnissen verwenden werden. Sie können mehrere Bibliotheken mit jeweils einem Satz von Creatives und *Werbemittel Bundles* erstellen, bei denen es sich um Gruppen von Creatives handelt, die Sie einem Erlebnis als eine Einheit hinzufügen können.
 
-Ihre Bibliotheken können Folgendes enthalten:
+Ihre Bibliotheken können Folgendes umfassen:
 
-* **Individuelle Kreative:** Sie können einzelne Kreative direkt in Anzeigenerlebnisse einbeziehen, für die keine Benutzerziele definiert sind. Sie können Ihre Kreativen auch verwenden, um Bundles zu erstellen, die Sie in zielgerichtete ([) Erlebnisse ](/help/creative/experiences/experience-about.md) können.
+* **Individuelle Creatives:** Sie können Kontakt Creatives direkt in Anzeige Erlebnissen einbinden, für die keine User Ziele definiert sind. Sie können Ihre kreativen Elemente auch verwenden, um Pakete zu erstellen, die Sie in zielgerichtete [Anzeige](/help/creative/experiences/experience-about.md) Erlebnisse einbinden können.
 
-   * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen ](#creative-creative-formats) verwalten. Für jeden Kreativen geben Sie die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die die kreativen und optionalen Beschriftungen enthält, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] verwendet werden sollen.
+   * **Standardmäßig Creatives:** Sie können Creatives in [verschiedenen Formaten](#creative-creative-formats) Upload und managen. Für jede Werbemittel geben Sie die Standardsprache für jede Anzeige an, mit der Sie die Werbemittel verknüpfen, die Standard Landingpage, die geöffnet wird, wenn ein User auf eine Anzeige klickt, die die Werbemittel enthält, sowie optionale Beschriftungen, die in verschiedenen Ansichten innerhalb von [!DNL Creative]Filter verwendet werden sollen.
 
-   * **Dynamische Kreative:** (Nur für bestehende Adobe Advertising DCO-Kundinnen und -Kunden) Administratoren können dynamisch generierte Kreative erstellen, indem sie dynamische Variablen in einer Anzeigenvorlage Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
+   * **Dynamische Kreative:** (Nur für bestehende Adobe Advertising DCO-Kundinnen und -Kunden) Administratoren können dynamisch generierte Kreative erstellen, indem sie dynamische Variablen in einer Anzeigenvorlage Werten in einer Feed-Datei zuordnen. Alle Nutzer können dynamische Werbeanzeigen Vorschau, Duplikat und löschen.
 
-* **Kreativ-Bundles:** Kreative in Bundles zusammen, die für mehrere Erlebnisse mit definierten Benutzerzielen verwendet werden können. Sie können *Standard-Bundles* erstellen, die aus Standardanzeigen und *dynamischen Bundles* bestehen, die aus dynamisch generierten Anzeigen bestehen.
+* **Creatives-Bundles:** Gruppe Creatives in Bundles, um sie für mehrere Erlebnisse mit definierten User-Zielen zu verwenden. Sie können Standard-Bundles *erstellen*, die aus Standardanzeigen bestehen, und *dynamische Bundles*, die aus dynamisch generierten Anzeigen bestehen.
 
-## Unterstützte Creative-Formate {#creative-creative-formats}
+## Unterstützte Creative Formate {#creative-creative-formats}
 
-### Formate für Standard-Kreative
+### Formate für Standardmäßig Creatives
 
 Sie können die folgenden Kreativtypen in den [unterstützten Kreativgrößen“ hinzufügen und ](creative-sizes.md).
 
@@ -40,9 +40,9 @@ Sie können die folgenden Kreativtypen in den [unterstützten Kreativgrößen“
 
 #### Flexible HTML5
 
-Flexible HTML5-Kreative sind HTML5-Kreative mit allen Bildern und anderen Attributen als standardmäßige HTML-Tags, die Sie direkt in [!DNL Creative] bearbeiten können, entweder in einer Kreativbibliothek oder in einem individuellen Erlebnis (wodurch eine Variation des ursprünglichen Kreativen erstellt wird). Flexible HTML5-Kreative verwenden den Standard des Interactive Advertising Bureau (IAB) Technology Laboratory für ein [Anzeigenportfolio](https://flexibleads.iabtechlab.com/), für das Anzeigenformatgrößen flexibel (und nicht fest) sind und auf dem Seitenverhältnis und dem Größenbereich der Anzeige basieren und für das Anzeigen ihre Auflösung geräteübergreifend und auf Veröffentlichungs-Sites beibehalten.
+Flexible HTML5-Kreative sind HTML5-Kreative mit allen Bildern und anderen Attributen als standardmäßige HTML-Tags, die Sie direkt in [!DNL Creative] bearbeiten können, entweder in einer Kreativbibliothek oder in einem individuellen Erlebnis (wodurch eine Variation des ursprünglichen Kreativen erstellt wird). Flexible HTML5-Kreative verwenden den Standard des Interactive Advertising Bureau (IAB) Technology Laboratory für ein [Anzeigenportfolio](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, für das Anzeigenformatgrößen flexibel (und nicht fest) sind und auf dem Seitenverhältnis und dem Größenbereich der Anzeige basieren und für das Anzeigen ihre Auflösung geräteübergreifend und auf Veröffentlichungs-Sites beibehalten.
 
-Sie können <!-- either --> flexible HTML5-Kreative als ZIP-Dateien hochladen<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Siehe [Spezifikationen für flexible HTML5-Kreative](html5-creative-specification.md).
+Sie können<!-- either --> flexible HTML5-Creatives als ZIP-Dateien<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point --> Upload. Siehe [Spezifikationen für flexible HTML5-Kreative](html5-creative-specification.md).
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
@@ -58,15 +58,15 @@ Sie können optional die Standardwerte der Attribute ändern, die in einem flexi
 
 #### HTML5-Kreative
 
-Sie können einfache oder statische HTML5-Kreative mit allen angegebenen Attributen und Bildern als ZIP-Dateien hochladen. Sie können keine Attribute bearbeiten oder Bilder hinzufügen. Laden Sie stattdessen eine neue ZIP-Datei hoch, um ein neues Kreativprofil hinzuzufügen. Siehe [Spezifikationen für einfache und statische HTML5-Kreative](html5-creative-specification.md).
+Sie können einfache oder statische HTML5-Kreative mit allen angegebenen Attributen und Bildern als ZIP-Dateien hochladen. Sie können keine Attribute bearbeiten oder Bilder hinzufügen. Laden Sie stattdessen eine neue ZIP-Datei hoch, um ein neues Kreativprofil hinzuzufügen. [Siehe Spezifikationen für einfache und statische HTML5-Creatives](html5-creative-specification.md).
 
-#### Image-Kreative
+#### Bild kreativen Elemente
 
-Sie können Bildkreative im GIF-, JPEG-, JPG- oder PNG-Format einbeziehen. Sie können <!--LATER:   images from your Adobe Experience Manager accounts or --> Bilder von Ihrem Gerät oder Netzwerk hochladen.
+Sie können Bildmotive im GIF-, JPEG-, JPG- oder PNG-Format einbeziehen. Sie können Bilder von Ihrer Device oder aus Ihrem Netzwerk Upload<!--LATER:   images from your Adobe Experience Manager accounts or --> .
 
-Für jedes Werbeerlebnis ist ein Standardbild erforderlich, das für jede dem Erlebnis zugewiesene Kreativgröße erstellt wird.
+Für jede Anzeige Erlebnis ist eine Werbemittel für jede Werbemittel Größe erforderlich, die der Erlebnis zugewiesen ist.
 
-#### Kreative von Drittanbietern
+#### Drittanbieter-Creatives
 
 Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von Drittanbietern gehostet werden. Das Skript variiert je nach Anzeigenserver. Das folgende Beispiel:
 
@@ -76,11 +76,11 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 
 ### Format für dynamische Anzeigen
 
-Administratorbenutzer können Kreative dynamisch im statischen HTML5- und dynamischen HTML5-Format generieren, indem sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Dynamische Kreative können auch Kreative aus Ihren veralteten Adobe Advertising Dynamic Creative Optimization (DCO)-Erlebnissen einschließen.
+Administratoren können dynamische Creatives im statischen HTML5- und im dynamischen HTML5-Format generieren, indem sie dynamische Variablen in einem Anzeige Vorlage Werten in einer Feed Datei zuordnen. Dynamische Creatives können Creatives aus Ihren bisherigen Adobe Systems Advertising Dynamic Creative Optimization (DCO)-Erlebnissen enthalten.
 
-## Die [!UICONTROL Creative Libraries]
+## Die [!UICONTROL Creative Libraries] Aussichten
 
-Weitere [ zum Anpassen der einzelnen Ansichten finden ](/help/creative/introduction/customize-data-views.md) unter „Anpassen der Datenansichten“.
+Weitere Informationen zum Anpassen der einzelnen Ansicht finden Sie unter &quot;[Anpassen Ihrer Datenansichten](/help/creative/introduction/customize-data-views.md)&quot;.
 
 ### Die [!UICONTROL Creative Libraries] Hauptansicht
 
@@ -90,7 +90,7 @@ Die [!UICONTROL Creative Libraries] Hauptansicht zeigt alle Ihre Kreativbiblioth
 
 * Erstellen neuer Bibliotheken
 
-* Für jede Kreativbibliothek gilt Folgendes:
+* Gehen Sie für jeden Werbemittel Bibliothek wie folgt vor:
 
    * Bibliotheksnamen bearbeiten
 
@@ -102,15 +102,15 @@ Die [!UICONTROL Creative Libraries] Hauptansicht zeigt alle Ihre Kreativbiblioth
 
 #### [!UICONTROL Standard Ads]
 
-Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten Standard-Kreativen angezeigt. Die Daten für jeden Kreativen umfassen die Kreativgröße, den Kreativtyp und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Standardsprache und die standardmäßige Landingpage.
+Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten Standard-Kreativen angezeigt. Daten für jede Werbemittel enthalten die Werbemittel Größe, den Werbemittel Typ und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Standardsprache und die standardmäßige Landingpage.
 
 ##### Verfügbare Aktionen
 
-* [Hinzufügen von Standard-Kreativen zu einer Bibliothek](creative-add-standard.md)
+* [hinzufügen Standard-Creatives zu einer Bibliothek](creative-add-standard.md)
 
-* [Bearbeiten von Standard-Kreativen](creative-edit-standard.md)
+* [Bearbeiten einer Standard Werbemittel](creative-edit-standard.md)
 
-* [Vorschau eines Standard-Kreativen anzeigen](creative-preview.md)
+* [Vorschau eine Standard Werbemittel](creative-preview.md)
 
 * [Standard-Kreative zu Standard-Bundles hinzufügen und Standard-Kreative aus einem Standard-Bundle entfernen](creative-attach-detach-bundles.md)
 
@@ -130,11 +130,11 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [ der Registerkarte [!UICONTROL Dynamic Ads] manuell ](creative-delete.md) haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) alle dynamischen Kreativen seit der letzten Verarbeitung eines Katalogs enthalten, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
 
-Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Vorlage, mit der die kreative Seite generiert wurde, und die Anzahl der Angebote.
+Daten für jede Werbemittel enthält den Werbemittel Typ, die Werbemittel Größe, die Anzahl der Kataloge, zu denen die Werbemittel gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Vorlage, über die die Werbemittel generiert wurde, und die Angebot Anzahl.
 
 >[!NOTE]
 >
->Bei jeder Verarbeitung eines Katalogs werden die Daten der vorhandenen dynamischen Kreativen für diesen Katalog aktualisiert.
+>Jedes Mal, wenn ein Katalog verarbeitet wird, werden die Daten für die vorhandenen dynamischen Creatives für diesen Katalog aktualisiert.
 
 ##### Verfügbare Aktionen
 
@@ -142,27 +142,27 @@ Die Möglichkeit, dynamische Kreative zu erstellen und zu bearbeiten, ist derzei
 
 * [Vorschau für dynamische Kreative](creative-preview.md)
 
-* [Dynamische Kreative zu dynamischen Paketen hinzufügen und dynamische Kreative aus einem dynamischen Paket entfernen](creative-attach-detach-bundles.md)
+* [hinzufügen dynamischen Creatives in dynamische Bundles und entfernen Sie dynamische Creatives aus einem dynamischen Paket](creative-attach-detach-bundles.md)
 
-* [Dynamische Kreative duplizieren](creative-duplicate.md)
+* [Duplizieren dynamische Kreativinhalte](creative-duplicate.md)
 
-* [Dynamische Kreative löschen](creative-delete.md)
+* [Löschen dynamische Kreativinhalte](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
-### Die Ansicht [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
+### Der [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] Ansicht
 
-Die [!UICONTROL Bundles] zeigt alle standardmäßigen und dynamischen Bundle-Container an. Sie können die Kreativnamen, die Kreativgrößen und die Sprachen der in den einzelnen Bundles enthaltenen Kreativen anzeigen.
+In der [!UICONTROL Bundles] Ansicht werden alle Ihre standardmäßigen und dynamischen Paket Container angezeigt. Sie können die Werbemittel Namen, Werbemittel Größen und Sprachen der in jeder Paket enthaltenen Creatives sehen.
 
 #### Verfügbare Aktionen
 
-* Hinzufügen von standardmäßigen und dynamischen Bundles zu einer Bibliothek
+* Standard- und dynamische Bundles hinzufügen einer Bibliothek
 
-* Auflisten und Vorschau der Kreativen in einem Bundle
+* Liste und Vorschau der Kreativen in einem Paket
 
-* Bundle-Namen bearbeiten
+* Bearbeiten einen Paket Namen
 
-* Standard-Kreative zu Standard-Bundles hinzufügen und Standard-Kreative aus einem Standard-Bundle entfernen
+* hinzufügen Standard-Creatives in Standard-Bundles und Entfernung von Standard-Creatives aus Standard-Creatives aus einem Standard-Paket
 
 * Bundles duplizieren
 
