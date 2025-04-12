@@ -2,9 +2,9 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising DSP Ads in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test in  [!DNL Target]  für Ihre DSP-Anzeigen einrichten.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Wenn Sie DSP-Makros zu einer Clickthrough-URL hinzufügen (die URL, die angezeig
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-Aktualisieren Sie in Flash Talking oder Google Campaign Manager 360 die Clickthrough-URL für jede Anzeige manuell, um die Makros einzuschließen, die zur Erfassung von AMO ID-Variablen erforderlich sind. Die AMO ID-Variablen werden verwendet, um Klickdaten an Adobe Analytics zu senden und Platzierungsschlüssel für A/B-Tests freizugeben. Anweisungen finden Sie auf den folgenden Seiten:
+Aktualisieren Sie in [!DNL Flashtalking] oder Google Campaign Manager 360 die Clickthrough-URL für jede Anzeige manuell, um die Makros einzuschließen, die zur Erfassung von AMO ID-Variablen erforderlich sind. Die AMO ID-Variablen werden verwendet, um Klickdaten an Adobe Analytics zu senden und Platzierungsschlüssel für A/B-Tests freizugeben. Anweisungen finden Sie auf den folgenden Seiten:
 
-* [Append [!DNL Analytics for Advertising] Macros to. [!DNL Flashtalking]  Tags](/help/integrations/analytics/macros-flashtalking.md). **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie mithilfe von Datenpass-Makros Klickdaten gemäß der [!DNL Flashtalking]-Support-Dokumentation unter `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` erfassen.
+* [[!DNL Analytics for Advertising] Makros an [[!DNL Flashtalking] Anzeigen-Tags“ ](/help/integrations/analytics/macros-flashtalking.md). **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie mithilfe von Datenpass-Makros Klickdaten gemäß der [!DNL Flashtalking]-Support-Dokumentation unter `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros` erfassen.
 
 * [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
 

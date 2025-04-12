@@ -3,7 +3,7 @@ title: Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad 
 description: Erfahren Sie, warum und wie Sie  [!DNL Analytics for Advertising] -Makros zu Ihren  [!DNL Flashtalking]  hinzufügen
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: 181a22c83b77dabbd949d9e47d0a7cadf1e68c18
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
