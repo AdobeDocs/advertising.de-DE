@@ -3,9 +3,9 @@ title: Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad 
 description: Erfahren Sie, warum und wie Sie  [!DNL Analytics for Advertising] -Makros zu Ihren  [!DNL Flashtalking]  hinzufügen
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wenn Sie Anzeigen-Tags aus [!DNL Flashtalking] für Ihre Advertising DSP-Anzeige
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] hat, ist dieses Verfahren für Sie nicht erforderlich. Melden Sie sich stattdessen bei Ihrem [!DNL Flashtalking]-Konto an und befolgen Sie die [!DNL Flashtalking]-Support-Dokumentation unter `https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros` , um Datenweiterleitungsmakros zur Verfolgung der `s_kwcid` und `ef_id` Tracking-Parameter zu verwenden.
+>Wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] hat, ist dieses Verfahren für Sie nicht erforderlich. Melden Sie sich stattdessen bei Ihrem [!DNL Flashtalking]-Konto an und befolgen Sie die Dokumentation zum [!DNL Flashtalking]-Support unter [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros), um Datenweiterleitungsmakros zur Verfolgung der `s_kwcid` und `ef_id` Tracking-Parameter zu verwenden.
 
 Verwenden Sie Makros für [!DNL Flashtalking] Anzeige- und Videoanzeigen für die folgenden Arten von [!DNL Analytics for Advertising]:
 
