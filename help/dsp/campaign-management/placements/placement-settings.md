@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder T
 
   Sie können die Liste nach Quelle oder Feed anzeigen. Wenn Sie die Liste nach Feed anzeigen, können Sie nach Feed-Name, Feed-Schlüssel oder einem ausgewählten charakteristischen Tag suchen.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: Bestehende private Angebote (oder bestehende private [!DNL Roku] für [!DNL Roku] Platzierungen) bei Herausgebern, die Sie in DSP eingerichtet haben. Sie können öffentliche Inventare einbeziehen, aber nicht ausschließen.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: Bestehende private Angebote (oder bestehende private [!DNL Roku] für [!DNL Roku] Platzierungen) mit Herausgebern, die Sie in DSP eingerichtet haben. Sie können öffentliche Inventare einbeziehen, aber nicht ausschließen.
 
   Sie können die Liste nach Keyword, Schlüssel, Angebots-ID oder benutzerdefiniertem Tag durchsuchen.
 
@@ -219,7 +219,7 @@ Ausgelagerte Anzeigen werden in der Regel über dem Inhalt als Popup oder mit In
 
 **[!UICONTROL Traffic type]:** Die Traffic-Typen an die Zielgruppe. Zu den Optionen gehören **[!UICONTROL Websites]** und **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Die Qualität des Traffics auf das Ziel. Die Stufen 1-3 sind markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
+**[!UICONTROL Tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Die Qualität des Traffics auf das Ziel. Die Stufen 1 bis 3 sind markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
 
 * *[!UICONTROL Tier 1]:* Premium-Websites und -Anwendungen, die landesweit anerkannt sind.
 
@@ -268,7 +268,7 @@ Ausgelagerte Anzeigen werden in der Regel über dem Inhalt als Popup oder mit In
 
 >[!NOTE]
 >
->* Zusätzlich zur DSP (Liste global blockierter Websites), die auch Websites umfasst, die als [ für Anzeigen eingestuft ](/help/dsp/introduction/features/brand-safety-media-quality.md), werden auf Kontoebene und auf Advertiser-Ebene Blockierungslisten angewendet.
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
 >* Listen blockierter Websites setzen Listen zielgerichteter Websites immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 **[!UICONTROL Language]:** (Optional) Eine einzelne Sprache zum Auswählen.
@@ -317,7 +317,7 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (Standard) Targeting von Benutzern basierend auf ihren Cookies, IDs für mobile Werbung oder Connected TV-IDs (CTV). IDs werden basierend auf dem Browser-, In-App- oder CTV-Inventar ausgewählt.
 
-* *[!UICONTROL Universal ID Beta]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierte Segmente](/help/dsp/audiences/sources/source-import-liveramp-segments.md) (Segmente[ für die DSP Ihre personenbezogenen Daten in universelle IDs konvertiert](/help/dsp/audiences/sources/source-about.md) oder [benutzerdefinierte Segmente, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID Beta]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle IDs konvertiert](/help/dsp/audiences/sources/source-about.md) oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
    * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die wahrscheinlich aus E-Mail-Adressen und anderen Signalen erstellt wurden.<!-- What countries/geos are these available for? Everywhere?--> ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
 
@@ -391,11 +391,11 @@ So geben Sie die Themenzielgruppe an:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (Optional; nur [!DNL DoubleVerify] Kunden; verfügbar für Desktop-Pre-Roll, Standard- und Click-to-Play-Anzeige und nur native Anzeige- und Video-Platzierungen; nicht unterstützt für [Standardmäßige programmgesteuerte garantierte Platzierungen für Angebote](/help/dsp/inventory/programmatic-guaranteed-about.md)) Eine [!DNL DoubleVerify Authentic Brand Safety] Segment-ID, die mit dem [!DNL DoubleVerify]-Konto des Unternehmens verknüpft ist, das für die Platzierung verwendet werden soll. Durch die Angabe einer ID werden Impressionen nach dem Angebot anhand der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihrem Konto die Nutzung für die Segment-ID in Rechnung.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Optional; nur [!DNL DoubleVerify] Kunden; verfügbar für Desktop-Pre-Roll, Standard- und Click-to-Play-Anzeige und nur native Anzeige- und Video-Platzierungen; nicht unterstützt für [Standardmäßige programmgesteuerte garantierte Platzierungen für Angebote](/help/dsp/inventory/programmatic-guaranteed-about.md)) Eine [!DNL DoubleVerify Authentic Brand Safety] Segment-ID, die mit dem [!DNL DoubleVerify]-Konto des Unternehmens verknüpft ist, das für die Platzierung verwendet werden soll. Durch die Angabe einer ID werden Impressionen nach dem Angebot anhand der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihrem Konto die Nutzung der Segment-ID in Rechnung.
 
 Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Einstellungen des Advertiser-Kontos eine Segment-ID angegeben ist, wird standardmäßig die ID auf Advertiser-Ebene eingegeben. Sie können die ID jedoch ändern, um ein anderes Segment zu verwenden, oder die ID löschen, um die Funktion zu deaktivieren.
 
-**[!UICONTROL Contextual filtering]:** Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
+**[!UICONTROL Contextual filtering]:** (gilt für Desktop- und mobile Web-Anzeigen, native und Video-Anzeigen) Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 **[!UICONTROL Pre-bid fraud blocking]:** Arten von Websites, die aufgrund von betrügerischem Traffic und verdächtigen Aktivitäten blockiert werden sollen, die über [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] gemessen werden. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 
-* [!UICONTROL DoubleVerify]:
+* [!UICONTROL DoubleVerify]: (Gilt für Desktop- und mobile Web-Anzeigen, native Anzeigen und Videoanzeigen)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** blockiert standardmäßig den gesamten zu 100 % ungültigen Traffic für neue Platzierungen, einschließlich Traffic auf entführten Geräten. Es können zusätzliche Gebühren anfallen.
 
    * **[!UICONTROL Also block sites with]:** (Optional) Eine zusätzliche Ebene von Betrug und ungültigem Traffic, die dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (die Standardeinstellung, die zusätzlichen Traffic nicht blockiert), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* oder *[!UICONTROL >25% Average Fraud/IVT levels]*. Es können zusätzliche Gebühren anfallen.
 
-* [!UICONTROL Peer 39]:
+* [!UICONTROL Peer 39]: (Gilt für Desktop- und mobile Web-Anzeigen, native Anzeigen und Videoanzeigen)
 
-   * **[!UICONTROL Block sites that are]:** (Optional) Eine oder mehrere Arten von Betrug, der dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL Fraud]* (der alle Websites mit Betrug blockiert), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren anfallen.
+   * **[!UICONTROL Block sites that are]:** (Optional) Eine oder mehrere Betrugsarten, die dazu führen, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL Fraud]* (blockiert alle betrügerischen Websites), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren anfallen.
 
-* [!UICONTROL Integral Ad Science]:
+* [!UICONTROL Integral Ad Science]: (Gilt für Desktop- und mobile Web-Anzeigen, native Anzeigen und Videoanzeigen)
 
    * **[!UICONTROL Block sites that are]:** (Optional) Ein Typ einer verdächtigen Website- oder App-Aktivität, der dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (der Standard, der Anzeigen nicht aufgrund verdächtiger Aktivitäten blockiert), *[!UICONTROL Suspicious Activity - High Risk]* oder *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Es können zusätzliche Gebühren anfallen.
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:** (Gilt für Desktop- und mobile Web-Anzeigen, native und Video-Anzeigen) Welche Pre-Bid-Sichtbarkeitsfilter nach [!DNL DoubleVerify] filtern und [!DNL Integral Ad Science] für die Platzierung beantragen. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern. Es können zusätzliche Gebühren anfallen.
 
-Welche Pre-Bid-Sichtbarkeitsfilter nach [!DNL DoubleVerify] und [!DNL Integral Ad Science] für die Platzierung angewendet werden sollen. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern. Es können zusätzliche Gebühren anfallen.
-
-**[!UICONTROL Ads.txt filtering]:**
-
-Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Vorangebotfilterung zu verwenden ist, indem die Liste der autorisierten digitalen Verkäufer jedes Herausgebers angewendet wird. Der Standardwert auf Advertiser-Ebene wird für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
+**[!UICONTROL Ads.txt filtering]:** (gilt für Desktop- und mobile Web-Anzeigen, native Video- und Audio-Anzeigen) Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Vorangebotfilterung ist zu verwenden, indem die Liste der autorisierten digitalen Verkäufer jedes Herausgebers angewendet wird. Der Standardwert auf Advertiser-Ebene wird für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: Zu kaufen Inventar von allen Verkäufern.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: Priorisierung des Kaufbestands bei den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-**[!UICONTROL Attention Targeting]:** (Display-, Video- und standardmäßige verbundene TV-Platzierungen) [!DNL Adelaide] Segmente mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab anbieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
+**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ Welche Ebene von [Ads.txt](https://iabtechlab.com/ads-txt-about/) Vorangebotfilt
 >* [Angebotsmultiplikatoren für Platzierungen verwalten](placement-manage-bid-multipliers.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [FAQs zu Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/dsp/campaign-management/faq-campaign-management.md)
