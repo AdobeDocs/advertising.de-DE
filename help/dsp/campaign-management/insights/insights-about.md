@@ -2,9 +2,10 @@
 title: Über Leistungseinblicke
 description: Erfahren Sie mehr über Leistungseinblicke für Ihre Kampagnen.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie benötigen, um Ihre Kampagnen effizient zu optimieren und neue Möglichkeiten zur Leistungsskalierung zu entdecken.
+Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie benötigen, um Ihre Kampagnen effizient zu optimieren und neue Möglichkeiten zur Leistungsskalierung zu entdecken. Sie können Daten über Kampagnen hinweg anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
 
-Für jede insight können Sie einen Bericht ohne Visualisierungen im Microsoft Excel-Tabellenformat (XLSX) herunterladen.
+Verwenden Sie Performance Insights, um:
+
+* Verfolgen Sie langfristige Trends für die strategische Planung und fundierte Entscheidungsfindung.
+
+* Identifizieren Sie Möglichkeiten, bessere Ergebnisse zu erzielen.
+
+* Verbessern Sie die Effizienz, indem Sie die Zeit zwischen dem Abrufen der Rohdaten und dem Erlangen umsetzbarer Einblicke verkürzen.
+
+Sie können alle Visualisierungen für eine Registerkarte in eine PDF-Datei exportieren oder die Daten für eine bestimmte insight ohne Visualisierungen im Microsoft Excel-Tabellenformat (XLSX) herunterladen.
+
+Sie können [ Ansicht auch konfigurieren und als benutzerdefinierte Ansicht speichern](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) wie bei Ansichten des Kampagnen-Managements.
 
 ## Arten von Einblicken
 
@@ -35,13 +46,15 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
 * Ein Trenddiagramm nach Tag oder Woche für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Unique Reach] und [!UICONTROL Net CPM]).
 
-* Ein Tortendiagramm der inkrementellen Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type]. Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird.
+* Ein Ringdiagramm, das die inkrementelle Reichweite eines Haushalts nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird.
 
-* Ein Balkendiagramm, das die [!UICONTROL Unique Reach] nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. **Hinweis:** Ein Haushalt, der mit mehreren Medien, Geräten oder Inventartypen erreicht wird, gilt als überlappend.
+* Die inkrementelle eindeutige Haushaltsreichweite im Vergleich zur überlappenden Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type].
 
-* Eine Liste der ausgabeintensivsten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen. Zu den Metriken gehören [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
+  Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird. Ein Haushalt, der mit mehreren Medien, Geräten oder Inventartypen erreicht wird, gilt als überlappend.
 
-* Ein <!-- ???? --> Diagramm der [!UICONTROL Cost per Reach] und [!UICONTROL Net Spend] nach Paket, Publisher oder Site/App.
+* Die leistungsstärksten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen nach [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
+
+* Die [!UICONTROL Cost per Reach] und [!UICONTROL Net Spend] nach Paket, Publisher oder Site/App. Verwenden Sie diese insight, um zu sehen, welche Pakete, Publisher oder Websites/Programme das Potenzial für eine signifikante inkrementelle Reichweite aufweisen.
 
 ## Leistungseinblicke öffnen
 
@@ -72,7 +85,13 @@ Klicken Sie ![Filterschaltfläche](/help/dsp/assets/filter.png).
 
 1. Wählen Sie die Metriken aus und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-## Herunterladen einer Insight
+## Exportieren aller Visualisierungen für eine Registerkarte in eine PDF-Datei
+
+* Klicken Sie über der Registerkarte auf **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+
+  Die Datei wird im Standard-Downloads-Ordner Ihres Browsers gespeichert.
+
+## Herunterladen einer bestimmten Insight in eine XLSX-Datei
 
 * Klicken Sie oben rechts in der insight auf ![Download](/help/creative/assets/download.png "Download").
 
