@@ -2,14 +2,14 @@
 title: Über Leistungseinblicke
 description: Erfahren Sie mehr über Leistungseinblicke für Ihre Kampagnen.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# Über Performance Insights&lt;!— Titel?—>
+# Über Leistungseinblicke
 
 *Beta-Funktion*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
