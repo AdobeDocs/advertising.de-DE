@@ -3,9 +3,9 @@ title: Über Leistungseinblicke
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
+source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
 ## Leistungseinblicke öffnen
 
-* (Um Insights für alle Kampagnen zu öffnen) Klicken Sie im Hauptmenü auf **[UICONTROL Insights BETA]**.
+* (Um Insights für alle Kampagnen zu öffnen) Klicken Sie im Hauptmenü auf **[!UICONTROL Insights BETA]**.
 
 * (Um Einblicke für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung zu öffnen) Klicken Sie neben dem Entitätsnamen in der [!UICONTROL Campaigns]-, [!UICONTROL Packages]- oder [!UICONTROL Placements] auf **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
