@@ -3,9 +3,9 @@ title: Über Leistungseinblicke
 description: Erfahren Sie mehr über Leistungseinblicke für Ihre Kampagnen.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Verwenden Sie Performance Insights, um:
 
 Sie können alle Visualisierungen für eine Registerkarte in eine PDF-Datei exportieren oder die Daten für eine bestimmte insight ohne Visualisierungen im Microsoft Excel-Tabellenformat (XLSX) herunterladen.
 
-Sie können [ Ansicht auch konfigurieren und als benutzerdefinierte Ansicht speichern](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) wie bei Ansichten des Kampagnen-Managements.
+Sie können auch [Datumsbereich ändern, die Ansicht konfigurieren und eine benutzerdefinierte Ansicht speichern](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) wie bei Ansichten des Kampagnen-Managements.
 
 ## Arten von Einblicken
 
@@ -102,3 +102,4 @@ Klicken Sie ![Filterschaltfläche](/help/dsp/assets/filter.png).
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
 >* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
+>* [Campaign-Datenansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

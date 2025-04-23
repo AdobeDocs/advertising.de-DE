@@ -3,7 +3,7 @@ title: Campaign-Datenansichten verwalten
 description: Erfahren Sie, wie Sie Ihre Datenansichten für Kampagnen, Pakete, Platzierungen und Anzeigen anpassen können.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -142,7 +142,6 @@ Die folgenden Filter sind für Ihre [!UICONTROL Campaigns]-, [!UICONTROL Package
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### Ändern des Datumsbereichs
 
 Ändern Sie den in allen Standard- und benutzerdefinierten Ansichten verwendeten Datumsbereich, indem Sie die Datumsbereichsauswahl über einer beliebigen Datentabelle verwenden.
@@ -172,9 +171,9 @@ Wählen Sie unten rechts auf einer beliebigen Seite neben **[!UICONTROL Items pe
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
 >* [Anzeigen, Sites und Häufigkeitsdetails für eine Platzierung anzeigen](placement-details-view.md)
 >* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Anzeigen der Platzierungs-Diagnoseberichte](placement-diagnostics.md)
->* [Exportieren von Daten aus einer Campaign Management-Ansicht](campaign-export-data.md)
+>* [Exportieren von Daten aus einer Kampagnenverwaltungsansicht](campaign-export-data.md)
 >* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
