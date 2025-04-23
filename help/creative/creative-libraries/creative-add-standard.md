@@ -3,7 +3,7 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -163,6 +163,10 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
    * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
    * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+<!--  Verify wording and workflow and add when available:
+
+   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
+-->
 
 1. Bilder hinzufügen oder entfernen:
 
