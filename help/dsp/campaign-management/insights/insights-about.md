@@ -1,9 +1,9 @@
 ---
 title: Über Leistungseinblicke
-description: Erfahren Sie mehr über Leistungseinblicke für Ihre Kampagnen.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie benötigen, um Ihre Kampagnen effizient zu optimieren und neue Möglichkeiten zur Leistungsskalierung zu entdecken. Sie können Daten über Kampagnen hinweg anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
+Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie zur effizienten Optimierung Ihrer Kampagnen und zur Entdeckung neuer Möglichkeiten zur Leistungsskalierung benötigen. Sie können Daten über Kampagnen hinweg anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
 
 Verwenden Sie Performance Insights, um:
 
@@ -50,7 +50,7 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
 * Die inkrementelle eindeutige Haushaltsreichweite im Vergleich zur überlappenden Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type].
 
-  Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird. Ein Haushalt, der mit mehreren Medien, Geräten oder Inventartypen erreicht wird, gilt als überlappend.
+  Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird. Ein Haushalt, der über mehrere Medien, Geräte oder Inventartypen erreicht wird, gilt als überlappend.
 
 * Die leistungsstärksten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen nach [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
 
