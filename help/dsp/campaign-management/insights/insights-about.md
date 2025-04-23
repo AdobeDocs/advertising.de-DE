@@ -3,9 +3,9 @@ title: Über Leistungseinblicke
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
 * Ein Trenddiagramm nach Tag oder Woche für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Unique Reach] und [!UICONTROL Net CPM]).
 
-* Ein Ringdiagramm, das die inkrementelle Reichweite eines Haushalts nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird.
+* Ein Ringdiagramm, das die inkrementelle Reichweite eines Haushalts nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. *Inkrementelle Haushaltsreichweite* ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, ein einzelnes Gerät oder einen einzelnen Inventartyp erreicht wird.
 
 * Die inkrementelle eindeutige Haushaltsreichweite im Vergleich zur überlappenden Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type].
 
-  Inkrementelle Haushaltsreichweite ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, Gerät oder einen Inventartyp erreicht wird. Ein Haushalt, der über mehrere Medien, Geräte oder Inventartypen erreicht wird, gilt als überlappend.
+  *Inkrementelle Haushaltsreichweite* ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, ein einzelnes Gerät oder einen einzelnen Inventartyp erreicht wird. *Überschneidende Haushaltsreichweite* wird als Haushalt definiert, der von mehreren Medien, Geräten oder Inventartypen erreicht wird.
 
 * Die leistungsstärksten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen nach [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
 
@@ -64,8 +64,7 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
 ## Anwenden von Filtern auf eine Registerkarte
 
-1. In der Symbolleiste oben auf der Registerkarte
-Klicken Sie ![Filterschaltfläche](/help/dsp/assets/filter.png).
+1. Klicken Sie in der Symbolleiste oben auf der Registerkarte auf ![Filterschaltfläche](/help/dsp/assets/filter.png).
 
 1. Wählen Sie in der linken Spalte eine Dimension und dann einen oder mehrere Werte in der rechten Spalte aus.
 
