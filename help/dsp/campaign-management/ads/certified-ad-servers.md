@@ -3,9 +3,9 @@ title: Zertifizierte Werbepartner
 description: Alle zertifizierten Werbeserver und Werbeeinheiten anzeigen.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | VPAID wird im Outstream-Inventar nicht unterstützt. |
+| [!DNL Teads] | | X | | | Beinhaltet eine native Anzeige. VPAID wird im Outstream-Inventar nicht unterstützt. |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | Benutzerdefinierte Page-Grabber-Anzeigeneinheit, hochgeladen als 180x150 in DSP</br></br>Wenn Index Exchange eine 180x150-Auktion und DSP-Gebote auf der Auktion durchläuft und eine Impression bereitstellt, erweitert sich das Kreativteam auf eine ganzseitige Display-Anzeige.</br></br>Ursprünglich für Page Grabber, Expandable Adhäsion und Screen Shift-Anzeigen-Einheiten zertifiziert. Dies muss erneut zertifiziert werden, wobei die Schritte für die Prozesse markiert werden müssen. |
 | [!DNL Vox] | | | X | | [!DNL Athena] Werbeeinheiten |
