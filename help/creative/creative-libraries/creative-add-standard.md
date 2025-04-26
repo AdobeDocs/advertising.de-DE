@@ -3,9 +3,9 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
 
-1. Geben Sie die Dateien auf eine der folgenden Arten an:
+1. Legen Sie die Bilder fest:
 
-   * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
+   * Führen Sie für lokale Bild-Assets einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
-<!--  Verify wording and workflow and add when available:
+      * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * Klicken Sie auf **[!UICONTROL select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
+
+   * Gehen Sie für Bilder in Ihrer Adobe Experience Manager-Bibliothek wie folgt vor:
+
+      1. Klicken Sie auf **[!UICONTROL AEM Asset Library]**.
+
+      1. Melden Sie sich bei Ihrem Experience Manager-Konto an.
+
+      1. Suchen Sie die Dateien in Ihrer [!UICONTROL Assets]- oder [!UICONTROL Collections]-Ansicht, wählen Sie sie aus und klicken Sie dann oben rechts auf **[!UICONTROL Select]** .
 
 1. Bilder hinzufügen oder entfernen:
 
