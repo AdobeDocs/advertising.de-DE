@@ -26,9 +26,9 @@ Sie können sich direkt oder über Adobe Experience Cloud bei Search, Social und
 
 >[!NOTE]
 >
->Ihr Unternehmen muss in Adobe Experience Cloud bereitgestellt werden und Sie müssen [Ihr Experience Cloud-Konto mit einem Search, Social und Commerce-Konto verknüpft haben](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Ihr Unternehmen muss in Adobe Experience Cloud bereitgestellt werden und Sie müssen [Ihr Experience Cloud-Konto mit einem Search, Social und Commerce-Konto verknüpft haben](https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html).
 
-1. [Melden Sie sich bei Adobe Experience Cloud an](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Melden Sie sich bei Adobe Experience Cloud an](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#signin).
 
 1. Wählen Sie im oberen Menü die Option ![Lösungsauswahl](/help/search-social-commerce/assets/menu-icon.png "Lösungsauswahl") aus.
 

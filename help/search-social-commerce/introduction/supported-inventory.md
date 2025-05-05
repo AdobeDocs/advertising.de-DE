@@ -64,6 +64,6 @@ Im Folgenden finden Sie die unterstützten Werbenetzwerke, Kampagnentypen und An
 
 [^2]: Siehe „Mögliche Portfoliotypen nach Kampagnenangebotstrategie“ im Optimierungshandbuch, das in Search, Social und Commerce verfügbar ist.
 
-[^3]: Erfordert eine Integration mit Adobe Analytics. Siehe &quot;[ von Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)&quot;.
+[^3]: Erfordert eine Integration mit Adobe Analytics. Siehe &quot;[ von Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de)&quot;.
 
 [^4]: [!DNL Analytics] Daten werden mit dem aktualisierten AMO ID-Tracking-Parameter (beginnend mit `s_kwcid`) an Search, Social und Commerce gesendet, unabhängig vom AMO ID-Format, das Sie normalerweise für das Konto verwenden. Wenn Sie normalerweise die ältere Version der AMO ID verwenden, empfehlen wir, für ein optimales Benutzererlebnis auf das neue AMO ID-Format zu aktualisieren. Aber selbst wenn Ihre Klick-/Kosten- und Umsatzdaten mit verschiedenen AMO-IDs verfolgt werden, sind beide Datensätze vollständig unter derselben Kampagne und demselben Konto klassifiziert und aggregiert.

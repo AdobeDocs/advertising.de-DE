@@ -24,7 +24,7 @@ Sie können Search, Social und Commerce erlauben, Metadaten, Hierarchiedaten und
 
 * Segmente, die mit dem Adobe Experience Cloud-[!DNL Audience Library] erstellt werden
 
-Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
+Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
 
 Die erste Synchronisierung dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von ein bis zwei Sekunden synchronisiert.
 

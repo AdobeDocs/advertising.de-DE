@@ -18,7 +18,7 @@ Sie können Adobe Advertising-IDs ([AMO-ID und EF-ID](../ids.md)) verwenden, um 
 
 ## Die AMO-ID in Verarbeitungsregeln
 
-Die AMO-ID ist der primäre Trackingcode, mit dem Adobe Advertising-Daten in [!DNL Analytics] gemeldet werden. Die AMO-ID ist eine Verkettung dynamischer Werte, die von Adobe verwaltet werden, um innerhalb von [!DNL Analytics] ein granulares Reporting zu ermöglichen. Er wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder rVar-Dimension (AMO-ID) gespeichert. Die AMO-ID kann auf zwei Arten in [!DNL Analytics] festgelegt werden:
+Die AMO-ID ist der primäre Trackingcode, mit dem Adobe Advertising-Daten in [!DNL Analytics] gemeldet werden. Die AMO-ID ist eine Verkettung dynamischer Werte, die von Adobe verwaltet werden, um innerhalb von [!DNL Analytics] ein granulares Reporting zu ermöglichen. Er wird in einer [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) oder rVar-Dimension (AMO-ID) gespeichert. Die AMO-ID kann auf zwei Arten in [!DNL Analytics] festgelegt werden:
 
 * Clickthrough-Tracking: Adobe Advertising legt den Parameter der `s_kwcid` Abfragezeichenfolge in einem Link fest und [!DNL Analytics] nimmt den Parameter bei einem Clickthrough von der Landingpage-URL auf.
 * View-Through-Tracking (nur [!DNL DSP]): Der Last Event Service erkennt eine View-Through auf der Server-Seite und sendet die AMO-ID an [!DNL Analytics]. In diesem Fall enthält die URL keinen `s_kwcid`.
@@ -94,5 +94,5 @@ Um einen Viewthrough-Kanal für die Anzeige zu erstellen, erstellen Sie eine Reg
 >* [Grundlagen von [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Warum Kanaldaten zwischen Adobe Advertising und variieren können [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Verwenden  [!DNL Analytics Marketing Channels]  Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden von  [!DNL Marketing Channels]  für das Adobe Advertising-Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Verwenden von  [!DNL Marketing Channels]  für das Adobe Advertising-Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=de)
 >* [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)

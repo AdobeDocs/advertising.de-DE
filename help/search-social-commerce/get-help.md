@@ -27,7 +27,7 @@ Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzerober
 
 ## Fragen an die Adobe Advertising-Community
 
-Antworten auf Ihre Fragen finden Sie in den [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Antworten auf Ihre Fragen finden Sie in den [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=de).
 
 ## [!DNL Adobe]
 

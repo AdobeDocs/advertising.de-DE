@@ -70,4 +70,4 @@ Alle neuen [!DNL Google Ads]-Konten verwenden automatisch das aktuelle AMO-ID-Fo
 >
 >* [Verwalten von Anzeigennetzwerkkonten](ad-network-account-manage.md)
 >* [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de){target="_blank"}

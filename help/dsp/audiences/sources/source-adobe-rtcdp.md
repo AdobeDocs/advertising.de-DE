@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), die Teil von Adobe Experience Platform ist, um Ihre gehashten E-Mail-Adressen für die zielgruppengerechte Werbung in universelle IDs zu konvertieren.
+Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de), die Teil von Adobe Experience Platform ist, um Ihre gehashten E-Mail-Adressen für die zielgruppengerechte Werbung in universelle IDs zu konvertieren.
 
 1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Einrichten des Trackings für die [!DNL Analytics]:
 
@@ -30,7 +30,7 @@ Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://e
 
 1. Konfigurieren Sie in Adobe Experience Platform eine Advertising DSP-Zielverbindung mit dem -[!UICONTROL Source Key], der in den DSP-Quelleinstellungen generiert wurde.
 
-   Anweisungen zum Aktivieren der DSP-Zielverbindung, zum Auswählen von Segmenten und zum Zugriff auf Kontrollberechtigungen finden Sie unter &quot;[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Anweisungen zum Aktivieren der DSP-Zielverbindung, zum Auswählen von Segmenten und zum Zugriff auf Kontrollberechtigungen finden Sie unter &quot;[Adobe Advertising Cloud DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)&quot;.
 
    Die Quell-E-Mail-Adressen müssen mit dem SHA-256-Algorithmus gehasht werden.
 
@@ -50,7 +50,7 @@ Wenden Sie sich zur Fehlerbehebung bei Konvertierungsproblemen an Ihr Adobe-Kund
 >
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](source-manage.md)
->* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)
+>* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
 >* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)

@@ -32,4 +32,4 @@ Nachdem Sie ein Paket erstellt haben, können Sie ihm Platzierungen zuweisen.
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Pausieren oder Aktivieren eines Pakets](package-pause-activate.md)
 >* [Paketeinstellungen](package-settings.md)
->* [Video: So erstellen Sie ein Paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Video: So erstellen Sie ein Paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=de)

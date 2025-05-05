@@ -84,7 +84,7 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
   >[!NOTE]
   >
-  >In der Dokumentation für [Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) und [die [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finden Sie Informationen zum Einrichten und Erfassen von Daten für Segmente in diesen Lösungen.
+  >In der Dokumentation für [Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=de) und [die [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=de) finden Sie Informationen zum Einrichten und Erfassen von Daten für Segmente in diesen Lösungen.
 
 ## Daten zur Zielgruppengröße
 

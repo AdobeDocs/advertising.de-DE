@@ -60,13 +60,13 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den Web-Seiten des Werbetreibenden und/oder die Einrichtung einer täglichen Feed-Drop für Konversionsdaten beinhalten, die der Werbetreibende separat erfasst hat.
 
-      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Konversionsverfolgungstags (in [, Social und Commerce) oder ](/help/search-social-commerce/tools/conversion-tag-generate.md)mithilfe von [Adobe Experience Platform) ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Konversionsverfolgungstags (in [, Social und Commerce) oder ](/help/search-social-commerce/tools/conversion-tag-generate.md)mithilfe von [Adobe Experience Platform) ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=de).
 
    1. Validieren Sie die nachverfolgten Daten.
 
    Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel „Tracking“.
 
-1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html), damit sie Daten austauschen können.
+1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de), damit sie Daten austauschen können.
 
 1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [ unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

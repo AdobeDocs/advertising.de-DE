@@ -34,7 +34,7 @@ Primäre Vorteile:
 
 >[!TIP]
 >
-> Sehen Sie sich ein [Video Einführung in an [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Sehen Sie sich ein [Video Einführung in an [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=de#analytics).
 
 ## Verwenden von Analytics für Paid Media-Berichte
 
@@ -86,17 +86,17 @@ Eine Liste der verfügbaren [ finden Sie unter &quot;](analytics-data-in-adverti
 
 Adobe Advertising kann mithilfe der nativen Experience Cloud Audiences-Integration zwischen [!DNL Analytics] und Experience Cloud [!DNL Analytics] für Remarketing-Zwecke für Advertising DSP- und [!DNL Search, Social, & Commerce]-Anzeigen aufnehmen.
 
-Um auf die [!DNL Analytics] Segmente zugreifen zu können, muss ein Advertiser-Konto den [Experience Cloud-ID-Service aktivieren](https://experienceleague.adobe.com/docs/id-service/using/home.html). Wenn der ID-Service aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] erstellten und auf Experience Cloud veröffentlichten Segmente, der in Adobe Audience Manager erstellten Segmente, der mit dem [!DNL People core service] in Experience Cloud erstellten Segmente und der in Adobe Experience Platform erstellten und über den Audience Manager an Adobe Advertising gesendeten Segmente) innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden.
+Um auf die [!DNL Analytics] Segmente zugreifen zu können, muss ein Advertiser-Konto den [Experience Cloud-ID-Service aktivieren](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Wenn der ID-Service aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] erstellten und auf Experience Cloud veröffentlichten Segmente, der in Adobe Audience Manager erstellten Segmente, der mit dem [!DNL People core service] in Experience Cloud erstellten Segmente und der in Adobe Experience Platform erstellten und über den Audience Manager an Adobe Advertising gesendeten Segmente) innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden.
 
 [!DNL Analytics] Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 
-Weitere Informationen zum Experience Cloud-Zielgruppen-Service finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Weitere Informationen zum Experience Cloud-Zielgruppen-Service finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de).
 
 ## Beispiele für die Verwendung der Integration {#integration-examples}
 
 ### Verwenden von Adobe Advertising-Daten in Analysis Workspace
 
-Informationen dazu, wie Sie Ihre Adobe Advertising-Daten zum Erstellen visueller Berichte in Analysis Workspace verwenden können, finden Sie im Video &quot;[Einführung in Workspace und Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).
+Informationen dazu, wie Sie Ihre Adobe Advertising-Daten zum Erstellen visueller Berichte in Analysis Workspace verwenden können, finden Sie im Video &quot;[Einführung in Workspace und Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=de).
 
 #### Verwenden von Connected TV-View-Through-Konversionen in Berichten
 
@@ -132,11 +132,11 @@ Verwenden der Marketing-Kanal-Ansicht:
 
 ### Erstellen von Adobe Advertising-Dashboards
 
-Informationen dazu, wie Sie Ihre Adobe Advertising-Daten im Vergleich zu Ihren Zielen in Analysis Workspace verfolgen können, finden Sie im Video [Erstellen von Adobe Advertising-Dashboards mit Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).
+Informationen dazu, wie Sie Ihre Adobe Advertising-Daten im Vergleich zu Ihren Zielen in Analysis Workspace verfolgen können, finden Sie im Video [Erstellen von Adobe Advertising-Dashboards mit Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=de).
 
 ### Verwenden der Adobe Advertising-ID für Site Entry Analysis
 
-Wie Sie einen Adobe Advertising-Site-Einstiegsbericht erstellen können, um Wochentag, Tageszeit, Browser und geografische Einflüsse zu überwachen, erfahren Sie im Video &quot;[Erstellen von Adobe Advertising-Site-Einstiegsberichten](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;.
+Wie Sie einen Adobe Advertising-Site-Einstiegsbericht erstellen können, um Wochentag, Tageszeit, Browser und geografische Einflüsse zu überwachen, erfahren Sie im Video &quot;[Erstellen von Adobe Advertising-Site-Einstiegsberichten](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=de)&quot;.
 
 ## So starten Sie eine [!DNL Analytics for Advertising] Implementierung
 
@@ -144,7 +144,7 @@ Wenden Sie sich an Ihr Adobe-Account-Team, das die für den Einstieg erforderlic
 
 >[!MORELIKETHIS]
 >
->* [Video: Einführung in [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Video: Einführung in [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=de)
 >* [Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]](prerequisites.md)
 >* Von Analytics verwendete [Adobe Advertising-IDs](ids.md)
 >* [JavaScript-Code für Analytics für Advertising](/help/integrations/analytics/javascript.md)

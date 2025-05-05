@@ -77,5 +77,5 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 >* [Über die Anzeigenverwaltung](ad-about.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
->* [Video: Massenhochladen von Anzeigen-Tags von Drittanbietern](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Video: Massenhochladen von Anzeigen-Tags von Drittanbietern](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=de)
 >* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)

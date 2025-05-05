@@ -40,15 +40,15 @@ Die Audience Manager-Impression- und Klickereignis-Pixel sind Cookie-basiert. Di
 
 ### Impression-Tracking-Pixel
 
-Der Audience Manager verfolgt die Impressionsdaten für eine Anzeige, wenn Sie ein 1-Pixel-transparentes Ereignis-Tracking-Pixel an die Anzeige anhängen. Das Ereignis-Pixel wird jedes Mal geladen, wenn die Anzeige einem Benutzer bereitgestellt und vom Webbrowser geladen wird. Das Pixel wird aus einer Client-spezifischen Subdomain von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) geladen, bei der es sich um eine ältere Domain für Audience Manager handelt, und enthält Parameter als Schlüssel-Wert-Paare. Der Ereignisaufruf erfasst Impression- und Konversionsdaten und sendet sie an die Datenerfassungsserver des Audience Managers.
+Der Audience Manager verfolgt die Impressionsdaten für eine Anzeige, wenn Sie ein 1-Pixel-transparentes Ereignis-Tracking-Pixel an die Anzeige anhängen. Das Ereignis-Pixel wird jedes Mal geladen, wenn die Anzeige einem Benutzer bereitgestellt und vom Webbrowser geladen wird. Das Pixel wird aus einer Client-spezifischen Subdomain von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) geladen, bei der es sich um eine ältere Domain für Audience Manager handelt, und enthält Parameter als Schlüssel-Wert-Paare. Der Ereignisaufruf erfasst Impression- und Konversionsdaten und sendet sie an die Datenerfassungsserver des Audience Managers.
 
 ### Klick-Tracking-Pixel
 
-Der Audience Manager verfolgt Klicks ähnlich wie Impressions, mit dem Unterschied, dass er nicht jedes Mal das Transparenzereignis-Pixel lädt, wenn die Anzeige geschaltet wird. Stattdessen werden die Klickdaten in der Clickthrough-URL der Anzeige verfolgt. Die Anzeige verweist auf eine Client-spezifische Subdomain von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), bei der es sich um eine ältere Domain für Audience Manager handelt, zur Verarbeitung durch die Datenerfassungsserver des Audience Managers. Der Server leitet den Benutzer dann zur gewünschten Landingpage weiter. Die URL enthält Parameter als Schlüssel-Wert-Paare.
+Der Audience Manager verfolgt Klicks ähnlich wie Impressions, mit dem Unterschied, dass er nicht jedes Mal das Transparenzereignis-Pixel lädt, wenn die Anzeige geschaltet wird. Stattdessen werden die Klickdaten in der Clickthrough-URL der Anzeige verfolgt. Die Anzeige verweist auf eine Client-spezifische Subdomain von [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de), bei der es sich um eine ältere Domain für Audience Manager handelt, zur Verarbeitung durch die Datenerfassungsserver des Audience Managers. Der Server leitet den Benutzer dann zur gewünschten Landingpage weiter. Die URL enthält Parameter als Schlüssel-Wert-Paare.
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) Audience Manager senden.
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) Audience Manager senden.
 
 >[!MORELIKETHIS]
 >
