@@ -35,7 +35,7 @@ Wenn die Aufgabe beginnt, werden der Status und das geplante Veröffentlichungsd
 >
 >* Die Veröffentlichung großer Datenmengen dauert länger. Sie können den Fortschritt der Datei in der [!UICONTROL Progress] in der [!UICONTROL Bulksheets] verfolgen.
 >* Alle veröffentlichten Daten unterliegen dem redaktionellen Prozess des Netzwerks.
-* Bevor die Bulksheet-Datei veröffentlicht wird, können Sie die Veröffentlichung abbrechen.
+>* Bevor die Bulksheet-Datei veröffentlicht wird, können Sie die Veröffentlichung abbrechen.
 
 ## Einstellungen für Bulksheets und korrigierte Fehlerdateien posten {#bulksheet-post-settings}
 

@@ -20,7 +20,7 @@ ht-degree: 10%
 + [!DNL Analytics for Advertising] {#analytics}
    + [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
    + [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)
-   + {#planning} planen
+   + planen{#planning}
       + [Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
       + [(DSP) JavaScript-Code für [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [Verwenden der  [!DNL Last Event Service] JavaScript-Bibliothek mit Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)

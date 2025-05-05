@@ -27,7 +27,7 @@ Diese Funktion wirkt sich nicht auf das für den übergeordneten Knoten angegebe
 
    * Um alle untergeordneten Knoten und Kreativen für einen Knoten zu ersetzen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie dann entweder a\) **[!UICONTROL Replace ctrl+shift+v]** aus oder b\) geben Sie **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) oder **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
 
-   * (Knoten mit mehreren untergeordneten Zielen, ohne „Alle“-Knoten und nur ohne Kreative) Um alle untergeordneten Knoten und Kreativen zu einem Knoten hinzuzufügen, ohne die vorhandenen zu löschen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie entweder a\) **[!UICONTROL Add ctrl+v]** ** aus oder b\) geben Sie **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) oder **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
+   * (Knoten mit mehreren untergeordneten Zielen, ohne „Alle“-Knoten und nur ohne Kreative) Um alle untergeordneten Knoten und Kreativen zu einem Knoten hinzuzufügen, ohne die vorhandenen zu löschen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie entweder a\) **[!UICONTROL Add ctrl+v]** **&#x200B; aus oder b\) geben Sie &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) oder &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

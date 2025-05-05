@@ -238,7 +238,7 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
 **[!UICONTROL Param 3]:** (nur [!DNL Microsoft Advertising]) Die Zeichenfolge, die als Ersatzwert in einer Anzeige verwendet werden soll, wenn Titel, Text, Anzeige-URL oder endgültige URL die `{Param3}` dynamische Ersatzzeichenfolge enthalten. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (ein Anzeigentitel kann beispielsweise bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
 
 ## [!UICONTROL Ads]
 

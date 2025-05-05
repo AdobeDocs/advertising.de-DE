@@ -20,7 +20,7 @@ Sie können Daten der vorherigen 36 Monate anzeigen.
 >
 >* Das Reporting nach Kennzeichnungsklassifizierungen auf Anzeigenebene ist nicht für [!DNL Microsoft Advertising] DSA-Kampagnen (Dynamic Search Ad) verfügbar.
 >* Dieselbe Entität kann mehr als eine Kennzeichnungsklassifizierung aufweisen, sodass die Summe für jede Metrik höher sein kann als die tatsächliche Summe für die Entität. Beispiel: Ein Keyword „Wildlederschuhe“ hat zwei Label-Werte: „Wildleder“ und „Schuhe“, und das Keyword erhielt 100 Klicks. Die Spalte Klicks würde für jeden dieser Kennzeichnungswerte „100“ anzeigen, sodass die Gesamtsumme für beide Zeilen „200“ wäre.
-* Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
+>* Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
 
 ## Standardspalten
 

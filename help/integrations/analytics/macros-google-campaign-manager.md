@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Wenn die Landingpage-URL ein Hash-Symbol (#) enthält, was nicht üblich ist, platzieren Sie den `amo` vor dem Hash-Symbol.
+>&#x200B;>* Wenn die Landingpage-URL ein Hash-Symbol (#) enthält, was nicht üblich ist, platzieren Sie den `amo` vor dem Hash-Symbol.
 >* Wenn nach dem `amo` Parameter keine anderen Parameter enthalten sind, fügen Sie nach diesem Parameter einen Parameter hinzu (z. B. &quot;&amp;a=b„). Beispiel: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Advertiser-Ebene

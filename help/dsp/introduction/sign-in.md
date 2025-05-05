@@ -42,7 +42,7 @@ Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 26. Juni 2025 aktiv, damit Sie s
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto** aus.
+   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto** aus.
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 

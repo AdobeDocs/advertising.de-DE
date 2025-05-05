@@ -356,9 +356,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von Zielgruppenzielen [auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.*
+**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.*
 
 ## [!UICONTROL Conversion Goals]
 

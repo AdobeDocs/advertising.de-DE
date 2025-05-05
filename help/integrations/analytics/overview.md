@@ -47,7 +47,7 @@ Um [!DNL Analytics] als Reporting-Tool für bezahlte Medien verwenden zu können
 
 [Adobe Advertising-IDs innerhalb von [!DNL Analytics]](ids.md) funktionieren wie andere [!DNL eVars] mit einer benutzerdefinierten, dauerhaften Gültigkeit. Standardmäßig ist das Attributions-Lookback-Fenster während der Adobe Advertising-Implementierung auf 60 Tage festgelegt. Um diese Einstellung zu ändern, wenden Sie sich an Ihr Adobe-Account-Team.
 
-Adobe Advertising-Dimensionen werden mit dem Suffix „(AMO ID)“ angehängt (z. B. „Ad Type (AMO ID)„). Eine Liste der verfügbaren Dimensionen finden Sie unter &quot;{0](advertising-metrics-in-analytics.md)Adobe Advertising Metriken in Analysis Workspace&quot;.[
+Adobe Advertising-Dimensionen werden mit dem Suffix „(AMO ID)“ angehängt (z. B. „Ad Type (AMO ID)„). Eine Liste der verfügbaren Dimensionen finden Sie unter &quot;&lbrace;0[&#128279;](advertising-metrics-in-analytics.md)Adobe Advertising Metriken in Analysis Workspace&quot;.
 
 >[!NOTE]
 >

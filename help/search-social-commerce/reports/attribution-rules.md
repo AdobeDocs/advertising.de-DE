@@ -24,8 +24,8 @@ In Berichten, standardmäßigen und benutzerdefinierten Ansichten für Advertisi
 >
 >* Die Zuordnungsregeln gelten für Klicks auf bezahlte Anzeigen in jedem beliebigen Kanal und für Impressionen auf Display- und Social-Media-Anzeigen. Sie gelten nicht für Impressionen für Paid Search-Anzeigen, die nicht auf Ereignisebene verfolgt werden können.
 >* Adobe Advertising speichert vor einer Konversion immer die folgenden Ereignisse für jeden Websurfer: a) den ersten bezahlten Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Display), einschließlich des ersten Klicks; und c) bis zu 10 Display-Impressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* In Advertising DSP und Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad, der in der ausgewählten Attributionsregel angegeben ist.<!-- cross-device attribution via LiveRamp only -->
-* In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, Adobe Advertising speichert jedoch präzisere Werte.
+>* In Advertising DSP und Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad, der in der ausgewählten Attributionsregel angegeben ist.<!-- cross-device attribution via LiveRamp only -->
+>* In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, Adobe Advertising speichert jedoch präzisere Werte.
 
 ## Letztes Ereignis (Standard)
 

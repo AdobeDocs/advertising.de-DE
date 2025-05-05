@@ -45,7 +45,7 @@ ht-degree: 2%
          + [Spalte neu sortieren](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
          + [Daten nach Datumsbereich filtern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
          + [Filtern von Daten über das linke Navigationsfenster](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)
-         + Daten nach Spaltenwerten {#filter-column-values} filtern
+         + Daten nach Spaltenwerten filtern {#filter-column-values}
             + [Anwenden eines Datenfilters über ein Spaltenüberschriftenmenü](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
             + [Anwenden von Datenfiltern über die Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [Spaltenfilter bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
@@ -101,7 +101,7 @@ ht-degree: 2%
             + [Datenanforderungen für Daten-Feeds mit einer Transaktions-ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
          + [Dateianforderungen für Konversions-Feed-Dateien](/help/search-social-commerce/tracking/feed-file-requirements.md)
    + [Häufig gestellte Fragen zum Tracking](/help/search-social-commerce/tracking/faqs-tracking.md)
-+ {#campaign-management} der Kampagnenverwaltung
++ der Kampagnenverwaltung{#campaign-management}
    + {#campaign-management-intro}
       + [Über die Kampagnenverwaltung in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagnen](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
@@ -117,7 +117,7 @@ ht-degree: 2%
    + [Nur [!DNL Naver] Tracking-Konten implementieren](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Verwalten von Kampagnen {#management}
       + [Optionen für die Verwaltung von Werbenetzwerkkampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
-      + Verwalten von Daten im {#campaigns} [!UICONTROL Campaigns] > [!UICONTROL Campaigns]
+      + Verwalten von Daten im [!UICONTROL Campaigns] > [!UICONTROL Campaigns] {#campaigns}
          + [Erstellen und Bearbeiten von Kampagnendaten in großen Mengen mithilfe von Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
          + Kampagnen {#campaigns}
             + [Verwalten von Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
@@ -184,7 +184,7 @@ ht-degree: 2%
                + Zielgruppenziele und -ausschlüsse {#audience-targets}
                   + [Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
                   + [Verwalten von Zielgruppenausschlüssen für Kampagnen und Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-         + {#ad-extensions} der Anzeigenerweiterungen
+         + der Anzeigenerweiterungen{#ad-extensions}
             + [!DNL Google Ads] Callout-Erweiterungen {#callouts}
                + [Über  [!DNL Google Ads] -Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [ [!DNL Google Ads]  verwalten](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
@@ -227,7 +227,7 @@ ht-degree: 2%
             + [Einstellungen für Shopping-Anzeigen-Vorlagen [!DNL Google Ads]](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
             + [Einstellungen für Shopping-Anzeigen-Vorlagen [!DNL Microsoft Advertising]](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
          + [Verbreiten von Feed-Daten durch Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
-         + Arbeiten mit Kampagnendaten, die aus Feeds {#propagated-data} erstellt wurden
+         + Arbeiten mit Kampagnendaten, die aus Feeds erstellt wurden {#propagated-data}
             + [Anzeigen der von Feeds generierten Daten](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-view.md)
             + [Bearbeiten der von Feeds generierten Daten](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-edit.md)
             + [Von Feeds generierte Kampagnendaten in Werbenetzwerke posten](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
@@ -269,9 +269,9 @@ ht-degree: 2%
       + [Ersteinrichtung von Berichten](/help/search-social-commerce/reports/initial-setup.md)
       + [Die für Berichte verwendeten Daten](/help/search-social-commerce/reports/data-used-for-reports.md)
       + Verwalten von {#report-management}
-         + {#basic-advanced-reports} für einfache und erweiterte Berichte
+         + für einfache und erweiterte Berichte{#basic-advanced-reports}
             + [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
-            + Grundlegende {#basic-report-formats} für Berichtsformate
+            + Grundlegende für Berichtsformate {#basic-report-formats}
                + [Die [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
                + [Die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
                + [Die [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
@@ -340,7 +340,7 @@ ht-degree: 2%
             + [Erstellen einer Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-create.md)
             + [Bearbeiten einer Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-edit.md)
             + [Löschen von Berichtsvorlagen](/help/search-social-commerce/reports/automation/templates/template-delete.md)
-         + {#spreadsheet-feeds} für Kalkulationstabellen
+         + für Kalkulationstabellen{#spreadsheet-feeds}
             + [Über Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
             + [Erstellen  [!DNL Excel]  Vorlage für einen Tabellenbericht-Feed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
             + [Erstellen eines Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
