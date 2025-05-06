@@ -3,9 +3,9 @@ title: Überprüfen und Bearbeiten der Einstellungen von Kampagnenkomponenten mi
 description: Erfahren Sie, wie Sie wichtige Paket-, Platzierungs- und Anzeigeneinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können die Einstellungen für die Pakete, Platzierungen und Anzeigen in einer einzelnen Kampagne im XLSX-Format ([!DNL Microsoft Excel]-Arbeitsblatt) herunterladen, um die Einstellungen zu überprüfen und zu bearbeiten. Standardmäßig enthält die heruntergeladene Datei, die als *bezeichnet wird,* separate Registerkarten für Paketeinstellungen, Paketfluginformationen, Platzierungseinstellungen und Platzierungs-Anzeigenzeitpläne. Optional können Sie die Einstellungen für einige Kampagnenkomponentententypen ausschließen.
 
-Um mehrere Einstellungen gleichzeitig zu aktualisieren, laden Sie eine gültige Bulksheet-Datei mit den Änderungen hoch. Um die Bulksheet zu erstellen, bearbeiten Sie eine heruntergeladene Bulksheet mit den vorhandenen Einstellungen. Bearbeitbare Felder enthalten die meisten Einstellungen, die normalerweise bearbeitet werden können.
+Um mehrere Einstellungen gleichzeitig zu aktualisieren, laden Sie eine gültige Bulksheet-Datei mit den Änderungen hoch. Um die Bulksheet zu erstellen, bearbeiten Sie eine heruntergeladene Bulksheet mit den vorhandenen Einstellungen. Bearbeitbare Felder enthalten die meisten Einstellungen, die normalerweise bearbeitet werden können. Felder für nicht verwendete Einstellungen enthalten leere Werte.
 
 >[!NOTE]
 >
