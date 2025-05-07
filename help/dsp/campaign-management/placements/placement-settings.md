@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 >
 >Wenn Sie [!UICONTROL On Demand] Inventar abonniert haben, aber die Herausgeber oder Angebote für Target nicht finden können, überprüfen Sie den Status der Angebote. Weitere Informationen zu Status finden Sie unter [Über [!DNL On Demand] Premium-Inventar](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (Nur Videoplatzierungen) Schließt den ausgehenden Traffic aus.
+**[!UICONTROL Video targeting]:** Zielbestand (aber nicht ausschließen) nach Inventarattributen. Wenn Sie mehrere Werte für dasselbe Videoattribut auswählen, kann jedes der ausgewählten Attribute als Ziel ausgewählt werden (z. B. \[Player-Größe = groß ODER Player-Größe = HD\]). Wenn mehrere Attribute ausgewählt werden, muss jedes der angegebenen Attribute vorhanden sein (z. B. \[Dauer = 30-60 min] UND \[Player-Größe = groß ODER Player-Größe = HD\]).
 
-Ausgelagerte Anzeigen werden in der Regel über dem Inhalt als Popup oder mit Inhalten gefüllt (im nativen Erlebnis) und nicht als normale Videoanzeigen in einem Videoplayer angezeigt.
+* **[!UICONTROL Player size]:** Zielinventar (aber nicht ausschließen) nach Player-Größe. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig sind alle Größen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielgrößen und/oder *Unbekannt* aus.
+
+* **[!UICONTROL Playback mode]:** Zielinventar (aber nicht ausschließen) durch die Art und Weise, wie die Wiedergabe gestartet wird. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig werden alle Modi als Ziel ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielmodi und/oder *Unbekannt* aus.
+
+* **[!UICONTROL Skippability]:** Zielbestand (aber nicht ausschließen), je nachdem, ob er übersprungen werden kann oder nicht. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig sind alle Optionen ausgewählt. Um die Ziele einzugrenzen, wählen Sie bestimmte Ziele und/oder *Unbekannt* aus.
+
+**[!UICONTROL Position targeting]:** Zielbestand (aber nicht ausschließen) nach Anzeigenposition. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig werden alle Positionen als Zielgruppen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielpositionen und/oder *Unbekannt* aus.
 
 ## [!UICONTROL Site and App Targeting]
 
