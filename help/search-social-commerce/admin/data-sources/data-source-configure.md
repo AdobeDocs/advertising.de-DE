@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Datenquelle über eine  [!DNL Google Ana
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Konfigurieren einer [!DNL Google Analytics] als Datenquelle
 
-*Agenturadministratoren, Agenturkonto-Manager, Adobe-Kontomanager und nur Administratoren*
+*Nur Agenturadministratoren, Agenturkontomanager, Adobe-Kontomanager und Administratoren*
 
 Sie können für jede Kombination aus Konto, Eigenschaft und Ansicht eine [!DNL Google Analytics] Datenquelle erstellen.
 
@@ -27,7 +27,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
 1. Aktivieren Sie im Dialogfeld [!UICONTROL Deployment Prerequisites] das Kontrollkästchen, um zu bestätigen, dass die erforderliche benutzerdefinierte Dimension „ef_id“ im [!DNL Google Analytics] implementiert ist, und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-   Einige Voraussetzungen wurden möglicherweise von anderen Rollen in Ihrer Organisation erfüllt. Wenn Sie Fragen zu den Voraussetzungen haben, wenden Sie sich an Ihr Adobe-Account-Team.
+   Einige Voraussetzungen wurden möglicherweise von anderen Rollen in Ihrer Organisation erfüllt. Wenden Sie sich bei Fragen zu den Voraussetzungen an Ihr Adobe-Account-Team.
 
 1. Geben Sie die [Datenquelleneinstellungen“ ](data-source-settings.md):
 
@@ -39,13 +39,13 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
          >[!TIP]
          >
-         >Um sicherzustellen, dass nur bestimmte [!DNL Google Analytics] Eigenschaften und Ansichten auf dem Adobe Advertising verfügbar sind, melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
+         >Um sicherzustellen, dass in Adobe Advertising nur bestimmte [!DNL Google Analytics] und Ansichten verfügbar sind, melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
 
          >[!NOTE]
          >
          >Wenn Sie später das Passwort für dieses E-Mail-Konto ändern, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen. Um mit der Synchronisierung von Daten fortzufahren, kehren Sie zu dieser Seite zurück und [erneut authentifizieren](data-source-reauthenticate.md).
 
-      1. Aktivieren Sie das Kontrollkästchen, um Adobe Advertising den Zugriff auf die Metriken für das Konto zu autorisieren.
+      1. Aktivieren Sie das Kontrollkästchen, um Adobe Advertising zu autorisieren, auf Metriken für das Konto zuzugreifen.
 
       1. Klicken Sie auf **[!UICONTROL Authenticate]**.
 

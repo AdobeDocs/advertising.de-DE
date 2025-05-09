@@ -3,7 +3,7 @@ title: Systemanforderungen
 description: Erfahren Sie mehr über Software- und Kontoanforderungen.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Sie benötigen die folgenden Software- und Kontoinformationen.
 
 ## Benutzername und Kennwort
 
-Zum Anmelden benötigen Sie einen Benutzernamen und ein Kennwort. Ihr Adobe-Konto-Team richtet Ihr Benutzerkonto ein und erstellt Ihren Benutzernamen und Ihr Kennwort.
+Zum Anmelden benötigen Sie einen Benutzernamen und ein Kennwort. Ihr Adobe Account Team richtet Ihr Benutzerkonto ein und erstellt Ihren Benutzernamen und Ihr Kennwort.
 
 ## Computer- und Browsereinstellungen
 

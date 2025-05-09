@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Die verfügbar
 
 * ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweise") Ein Bedienfeld, in dem Ihre Benachrichtigungen zu Suche, Social und Commerce aufgelistet sind.
 
-  Wenn Sie über [Adobe Experience Cloud&quot; angemeldet sind](log-in.md) werden Ihre Benachrichtigungen vom Experience Cloud angezeigt.
+  Wenn Sie über [Adobe Experience Cloud](sign-in.md) angemeldet sind, werden in diesem Bedienfeld Ihre Benachrichtigungen von Experience Cloud angezeigt.
 
 * ![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
@@ -50,9 +50,9 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Die verfügbar
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wenn Sie über [ Adobe Experience Cloud angemeldet sind](log-in.md) können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und Ihrer Benachrichtigungseinstellungen.
+  Wenn Sie über [Adobe Experience Cloud](sign-in.md) angemeldet sind, können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und Ihrer Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >
->* [Anmeldung](log-in.md)
->* [Abmelden](log-out.md)
+>* [Anmelden](sign-in.md)
+>* [Abmelden](sign-out.md)

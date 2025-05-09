@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Datenquelle  [!DNL Google Analytics]  er
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Google Analytics] Datenquelle erneut authentifizieren
 
-*Agenturadministratoren, Agenturkonto-Manager, Adobe-Kontomanager und nur Administratoren*
+*Nur Agenturadministratoren, Agenturkontomanager, Adobe-Kontomanager und Administratoren*
 
 Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle verwendet wird, oder wenn das [!DNL OAuth] für das Konto abläuft, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen und Sie müssen sich erneut authentifizieren, um die Synchronisierung von Daten fortzusetzen.
 
