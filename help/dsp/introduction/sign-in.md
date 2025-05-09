@@ -46,11 +46,11 @@ Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 26. Juni 2025 aktiv, damit Sie s
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 

@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Unterstütztes Inventar](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integration mit Adobe Experience Cloud {#integrations}
       + [Integration mit Adobe Experience Cloud-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de){target="_blank"}
+      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=de){target="_blank"}
+   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
+   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=de){target="_blank"}
 + Erste Schritte {#getting-started}
    + [Implementierungsübersicht](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemanforderungen](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -80,7 +80,7 @@ ht-degree: 2%
             + [Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klick-Tracking-Formate für [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optionale Tracking-Parameter für Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=de){target="_blank"}
       + [Der Tracking-Parameter der AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konversionsverfolgung {#conversion-tracking}
       + [Konversionsverfolgungs-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
