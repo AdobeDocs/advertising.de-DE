@@ -3,9 +3,9 @@ title: Duplizieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Kampagne duplizieren.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
 * Pausieren Sie die neue Kampagne, bis Sie sie aktivieren können.
 
-* Beachten Sie Folgendes und bearbeiten Sie die neuen Kampagneneinstellungen nach Bedarf:
+* Beachten Sie Folgendes und bearbeiten Sie die neue Kampagne nach Bedarf:
 
    * Verfügt das Konto über genügend Mittel für das neue Kampagnenbudget?
 

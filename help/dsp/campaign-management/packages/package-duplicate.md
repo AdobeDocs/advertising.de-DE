@@ -3,9 +3,9 @@ title: Duplizieren eines Pakets
 description: Erfahren Sie, wie Sie ein Paket duplizieren.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
 * Pausieren Sie das neue Paket, bis Sie es aktivieren können.
 
-* Beachten Sie Folgendes und bearbeiten Sie die neuen Paketeinstellungen nach Bedarf:
+* Beachten Sie Folgendes und bearbeiten Sie das neue Paket nach Bedarf:
 
    * Verfügt das Konto über genügend Mittel, um das neue Budgetpaket aufzunehmen?
 
