@@ -3,9 +3,9 @@ title: Duplizieren eines Pakets
 description: Erfahren Sie, wie Sie ein Paket duplizieren.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Unter [Was nicht dupliziert ist](#package-not-duplicated) finden Sie eine Liste 
 Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit Ausnahme von:
 
 * Experimenteinstellungen
+* Mindestbudgets auf Platzierungsebene
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
 * Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
@@ -76,6 +77,8 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Verfügt das Konto über genügend Mittel, um das neue Budgetpaket aufzunehmen?
 
    * Benötigt das neue Paket ein anderes Budget als das vorherige?
+
+   * Sind Mindestbudgets für eine der Platzierungen erforderlich?
 
    * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
 

@@ -3,9 +3,9 @@ title: Duplizieren von Platzierungen
 description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Unter [Was nicht dupliziert ist](#placement-not-duplicated) finden Sie eine List
 Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit Ausnahme von:
 
 * Experimenteinstellungen
+* Mindestbudgets auf Platzierungsebene
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
 * Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
@@ -82,7 +83,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Verfügt das Konto über genügend Mittel, um die neuen Platzierungsbudgets aufzunehmen?
 
-   * Benötigen die neuen Platzierungen ein anderes Budget als die vorherigen?
+   * Benötigen die neuen Platzierungen ein anderes Budget als die vorherigen? Sind Mindestbudgets erforderlich?
 
    * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
 

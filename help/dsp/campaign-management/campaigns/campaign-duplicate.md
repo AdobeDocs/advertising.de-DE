@@ -3,9 +3,9 @@ title: Duplizieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Kampagne duplizieren.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Unter [Was nicht dupliziert ist](#campaign-not-duplicated) finden Sie eine Liste
 Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit Ausnahme von:
 
 * Experimenteinstellungen
+* Mindestbudgets auf Platzierungsebene
 * (Wenn Sie die Flugdaten ändern) Benutzerdefinierte Anzeigenplanung
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
 * Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
@@ -66,6 +67,8 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Verfügt das Konto über genügend Mittel für das neue Kampagnenbudget?
 
    * Benötigt die neue Kampagne ein anderes Budget als die vorherige Kampagne?
+
+   * Sind Mindestbudgets für eine der Platzierungen erforderlich?
 
    * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
 
