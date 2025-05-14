@@ -3,9 +3,9 @@ title: Duplizieren von Platzierungen
 description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Ereignispixel
    * Anzeigen
    * [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+
+## Best Practices zum Konfigurieren der neuen Platzierungen
+
+>[!TIP]
+>
+>* Verwenden Sie Bulksheets, [Änderungen an mehreren Kampagnenkomponenten gleichzeitig vorzunehmen](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Verwenden Sie Anzeigen-Tag[Blätter, um (mehrere Anzeigen von Drittanbietern hochzuladen](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pausieren Sie die neuen Platzierungen, bis Sie bereit sind, sie zu aktivieren.
+
+* Beachten Sie Folgendes und bearbeiten Sie die neuen Platzierungseinstellungen nach Bedarf:
+
+   * Verfügt das Konto über genügend Mittel, um die neuen Platzierungsbudgets aufzunehmen?
+
+   * Benötigen die neuen Platzierungen ein anderes Budget als die vorherigen?
+
+   * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
+
+   * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
+
+   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene in die Platzierungen ein.
+
+   * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
+
+   * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Duplizieren eines Pakets
 description: Erfahren Sie, wie Sie ein Paket duplizieren.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 Duplizieren Sie ein Paket, um ein Paket mit ähnlichen Einstellungen zu erstellen. Sie können:
 
 * Duplizieren Sie das Paket innerhalb des ursprünglichen Werbetreibenden und der ursprünglichen Kampagne oder innerhalb anderer
+
 * Optional können Sie die Platzierungen innerhalb des Pakets duplizieren
+
 * (Für duplizierte Pakete innerhalb der ursprünglichen Kampagnen) Duplizieren Sie optional die Original-Anzeigen und Ereignispixel auf Platzierungsebene
+
 * Ändern der Flugdaten des neuen Pakets
 
 Unter [Was nicht dupliziert ist](#package-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
@@ -58,6 +61,33 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Ereignispixel
    * Anzeigen
    * [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+
+## Best Practices für die Konfiguration des neuen Pakets
+
+>[!TIP]
+>
+>* Verwenden Sie Bulksheets, [Änderungen an mehreren Kampagnenkomponenten gleichzeitig vorzunehmen](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Verwenden Sie Anzeigen-Tag[Blätter, um (mehrere Anzeigen von Drittanbietern hochzuladen](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pausieren Sie das neue Paket, bis Sie es aktivieren können.
+
+* Beachten Sie Folgendes und bearbeiten Sie die neuen Paketeinstellungen nach Bedarf:
+
+   * Verfügt das Konto über genügend Mittel, um das neue Budgetpaket aufzunehmen?
+
+   * Benötigt das neue Paket ein anderes Budget als das vorherige?
+
+   * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
+
+   * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
+
+   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene in Platzierungen ein.
+
+   * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
+
+   * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
+
+* Verwenden Sie bei Paketen, die benutzerdefinierte Optimierungsziele verwenden, die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung](/help/dsp/campaign-management/packages/package-settings.md) damit jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
 
 >[!MORELIKETHIS]
 >
