@@ -57,7 +57,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 >[!TIP]
 >
 >* Verwenden Sie Bulksheets, [Änderungen an mehreren Kampagnenkomponenten gleichzeitig vorzunehmen](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Verwenden Sie Anzeigen-Tag[Blätter, um (mehrere Anzeigen von Drittanbietern hochzuladen](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Verwenden Sie Anzeigen-Tag[Blätter, um (mehrere Anzeigen von Drittanbietern hochzuladen](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Pausieren Sie die neue Kampagne, bis Sie sie aktivieren können.
 
