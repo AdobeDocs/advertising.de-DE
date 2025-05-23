@@ -3,9 +3,9 @@ title: Erlebnisvorschau
 description: Erfahren Sie, wie Sie eine Vorschau der Kreativen in einem Werbeerlebnis anzeigen.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
-
 ## Vorschau von Kreativen in einem Erlebnis ohne Targeting mit Entscheidungsbaum
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -97,11 +96,15 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
    Standardmäßig werden Kreative aller Größen aufgelistet.
 
-1. Klicken Sie auf den Namen eines Anzeigen-Tags, um die Zeile zu erweitern und eine Vorschau des Kreativen anzuzeigen.
+1. Klicken Sie auf den Namen eines Anzeigen-Tags, um die Zeile zu erweitern und eine Vorschau der Kreativen anzuzeigen.
+
+1. (Optional) Um auf die Landingpage für einen Kreativen zu gelangen, klicken Sie auf den Kreativen.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Optional) So kopieren Sie eine Demo-URL des Erlebnisses, das Sie ohne Anmeldung für [!DNL Creative] freigeben können:
 
-   1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share.png "Freigeben").
+   1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share2.png "Freigeben").
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 

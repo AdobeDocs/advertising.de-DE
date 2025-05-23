@@ -3,9 +3,9 @@ title: Kreative in der Vorschau anzeigen
 description: Erfahren Sie, wie Sie eine Vorschau eines Kreativen öffnen.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 1. (Optional) Um die Größe des Bildes auf dem Bildschirm zu ändern, wählen Sie eine Option in der **[!UICONTROL Zoom]**-Liste aus, die 10 % bis 100 % der Bildgröße beträgt.
 
 1. (Flexible HTML5-Kreative; optional) Um zwischen den Frames für die Kreativen zu scrollen, klicken Sie auf **\&lt;** und **\>**.
+
+1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Optional) Um das Kreativ-Asset herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download").
 

@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/creative-libraries-about.md) an ein Standardpaket und vorhandene dynamische Kreative <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> ein dynamisches Paket anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>Sie können auch [Kreative an Pakete aus den Ansichten Standardanzeigen und Dynamische Anzeigen anhängen](creative-attach-detach-bundles.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -127,6 +125,8 @@ Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/crea
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Attach Creatives]**.
 
    Alle Kreativen, die für den Bundle-Typ infrage kommen, werden im rechten Rahmen aufgelistet. Kreative, die bereits mit dem Bundle verbunden sind, werden aufgelistet, können jedoch nicht ausgewählt werden.
+
+1. (Optional) Wechseln Sie zwischen der Standard-Tabellenansicht und einer Kartenansicht der verfügbaren Bundles, indem Sie auf ![Kartenansicht](/help/creative/assets/card-view-button.png "Kartenansicht") klicken, um die Kartenansicht zu öffnen, oder ![Tabellen-/Listenansicht](/help/creative/assets/table-view-button.png "Tabellenansicht"), um zur Tabellenansicht zurückzukehren.
 
 1. Aktivieren Sie im rechten Rahmen das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Optional) Um das Kreativ-Asset herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download").
 
    Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
@@ -205,6 +209,10 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 1. (Optional) Um die Kreativen nach Größe zu filtern, wählen Sie eine Option in der **[!UICONTROL Size]** Liste aus und klicken Sie dann oben rechts in der Vorschau auf **[!UICONTROL Preview]** .
 
 1. (Optional) Um die Größe der Bilder auf dem Bildschirm zu ändern, wählen Sie eine Option in der **[!UICONTROL Zoom]**-Liste aus, die 10 % bis 100 % der Bildgröße beträgt.
+
+1. (Optional) Um die Landingpage für einen Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 

@@ -3,14 +3,14 @@ title: Kreative an Kreativ-Bundles anhängen
 description: Erfahren Sie, wie Sie ein Kreativ-Paket an ein Kreativ-Bundle anhängen.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- and detach -->: Kreative an Kreativ-Bundles anhängen
+# Kreative an Kreativ-Bundles anhängen
 
 *Geschlossene Beta-Version*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Sie können<!-- also --> [Hängen Sie Kreative an Bundles an und trennen Sie Kreative von Bundles in der Bundles-Ansicht](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Attach to Bundles]**.
 
    Jedes Bundle, das für den Kreativtyp infrage kommt, wird im rechten Rahmen aufgeführt. Bundles, denen das Kreativ-Tool bereits angehängt ist, werden aufgelistet, können jedoch nicht ausgewählt werden.
+
+1. (Optional) Wechseln Sie zwischen der Standard-Tabellenansicht und einer Kartenansicht der verfügbaren Bundles, indem Sie auf ![Kartenansicht](/help/creative/assets/card-view-button.png "Kartenansicht") klicken, um die Kartenansicht zu öffnen, oder ![Tabellen-/Listenansicht](/help/creative/assets/table-view-button.png "Tabellenansicht"), um zur Tabellenansicht zurückzukehren.
 
 1. Aktivieren Sie im rechten Rahmen das Kontrollkästchen neben jedem Bundle, an das das Kreativteam angehängt werden soll, und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundle]**.
 
