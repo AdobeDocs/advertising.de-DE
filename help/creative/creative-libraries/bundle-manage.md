@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Wenn Sie eine Kreative aus dem Bundle entfernen, wird die Kreative nicht aus der
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-## Vorschau eines Kreativs in einem Bundle
+## Vorschau eines einzelnen Kreativs in einem Bundle
 
 Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen, wie es den Betrachtern angezeigt wird.
 
@@ -186,6 +186,31 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
    Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
 
+## Vorschau aller Kreativen in einem Bundle
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf den Bibliotheksnamen.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Bundle auswählen:
+
+   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Preview]**.
+
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Preview]**.
+
+1. (Optional) Um die Kreativen nach Sprache zu filtern, wählen Sie eine Option in der **[!UICONTROL Language]** Liste aus und klicken Sie dann oben rechts in der Vorschau auf **[!UICONTROL Preview]** .
+
+1. (Optional) Um die Kreativen nach Größe zu filtern, wählen Sie eine Option in der **[!UICONTROL Size]** Liste aus und klicken Sie dann oben rechts in der Vorschau auf **[!UICONTROL Preview]** .
+
+1. (Optional) Um die Größe der Bilder auf dem Bildschirm zu ändern, wählen Sie eine Option in der **[!UICONTROL Zoom]**-Liste aus, die 10 % bis 100 % der Bildgröße beträgt.
+
+1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
+
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+
+   1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/ex
 >[!MORELIKETHIS]
 >
 >* [Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgültigen Knoten in einem Erlebnis](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Vorschau eines Kreativen anzeigen](/help/creative/creative-libraries/creative-preview.md)
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Verwalten von Kreativbibliotheken](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
