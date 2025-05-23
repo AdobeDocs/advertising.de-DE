@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: c69b01e12801947f156120e50615225eb3dad261
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Sie können die folgenden Kreativtypen in den [unterstützten Kreativgrößen“
 
 Flexible HTML5-Kreative sind HTML5-Kreative mit allen Bildern und anderen Attributen als standardmäßige HTML-Tags, die Sie direkt in [!DNL Creative] bearbeiten können, entweder in einer Kreativbibliothek oder in einem individuellen Erlebnis (wodurch eine Variation des ursprünglichen Kreativen erstellt wird). Flexible HTML5-Kreative verwenden den Standard des Interactive Advertising Bureau (IAB) Technology Laboratory für ein [Anzeigenportfolio](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, für das Anzeigenformatgrößen flexibel (und nicht fest) sind und auf dem Seitenverhältnis und dem Größenbereich der Anzeige basieren und für das Anzeigen ihre Auflösung geräteübergreifend und auf Veröffentlichungs-Sites beibehalten.
 
-Sie können <!-- either --> flexible HTML5-Kreative als ZIP-Dateien hochladen<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Siehe [Spezifikationen für flexible HTML5-Kreative](html5-creative-specification.md).
+Sie können flexible HTML5-Kreative entweder als ZIP-Dateien hochladen oder eine der Ihrem Konto zur Verfügung stehenden Vorlagen als Ausgangspunkt verwenden —>. Siehe [Spezifikationen für flexible HTML5-Kreative](html5-creative-specification.md).
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
