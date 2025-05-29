@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles ](experience-tracking-urls-targeting.md).
 
          * [Passen Sie die kreative Optimierung und ](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+
+1. (Optional) Wechseln zwischen Entscheidungsbaum und allgemeinen Einstellungen:
+
+   * Um die allgemeinen Einstellungen im Entscheidungsbaum zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Experience Form]** .
+
+   * Um den Entscheidungsbaum über die allgemeinen Einstellungen zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Decision Tree]** .
 
 1. Klicken Sie auf **[!UICONTROL Save]**, und führen Sie dann folgende Schritte aus.
 

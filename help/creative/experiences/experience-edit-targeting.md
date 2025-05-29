@@ -3,9 +3,9 @@ title: Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
 description: Erfahren Sie, wie Sie die Einstellungen für ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums bearbeiten.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
+   Der Entscheidungsbaum wird standardmäßig geöffnet.
 
-1. (Optional) Um den Entscheidungsbaum zu bearbeiten, klicken Sie oben rechts auf **[!UICONTROL Decision Tree]** und führen Sie dann einen der folgenden Schritte aus:
+1. (Optional) Wechseln Sie bei Bedarf zwischen dem Entscheidungsbaum und den allgemeinen Einstellungen:
+
+   * Um die allgemeinen Einstellungen im Entscheidungsbaum zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Experience Form]** .
+
+   * Um den Entscheidungsbaum über die allgemeinen Einstellungen zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Decision Tree]** .
+
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Entscheidungsbaum zu bearbeiten:
 
    * ([Verarbeitung](experience-about.md#experience-statuses) Erlebnisse) Führen Sie einen der folgenden Schritte aus:
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles ](experience-tracking-urls-targeting.md).
 
          * [Passen Sie die kreative Optimierung und ](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+
+1. (Optional) Bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**, und führen Sie dann folgende Schritte aus.
 
