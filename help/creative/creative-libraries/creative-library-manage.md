@@ -3,7 +3,7 @@ title: Verwalten von Kreativbibliotheken
 description: Erfahren Sie, wie Sie Ihre Kreativbibliotheken erstellen, umbenennen und löschen.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live[Erl
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete].** <!--Verify wording -->
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >

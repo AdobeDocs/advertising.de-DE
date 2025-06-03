@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für  [!DNL Google Ads] -Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 
 * Um Assets aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
-**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Automated]* ausgewählt, und [!DNL Google Ads] wählt den Aktionsaufruf aus. Sie können optional eine andere Aktion auswählen.
+**[!UICONTROL Call to Action]:** Die call to action, die in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Automated]* ausgewählt, und [!DNL Google Ads] wählt die call to action aus. Sie können optional eine andere Aktion auswählen.
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen.
 
@@ -356,9 +356,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von Zielgruppenzielen [auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.*
+**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.*
 
 ## [!UICONTROL Conversion Goals]
 
