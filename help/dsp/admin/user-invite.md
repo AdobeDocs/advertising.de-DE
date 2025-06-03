@@ -3,14 +3,16 @@ title: Einen neuen Benutzer für Ihr Unternehmenskonto einladen
 description: Erfahren Sie, wie Sie einen neuen Benutzer einladen, dem Konto beizutreten.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Einen neuen Benutzer für Ihr Unternehmenskonto einladen
+
+*Nur Administrator-Benutzer*
 
 Admin-Benutzer können einen neuen Benutzer für das Konto einladen. Sobald der Benutzer die Einladung annimmt, hat er Zugriff auf alle Werbetreibenden für das Konto. Neue Benutzer haben standardmäßig schreibgeschützten Zugriff.
 
