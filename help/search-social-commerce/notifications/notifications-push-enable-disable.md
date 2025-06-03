@@ -3,7 +3,7 @@ title: Aktivieren und Deaktivieren von Push-Benachrichtigungen über [!UICONTROL
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen in [!UICONTROL Notification Center] aktivieren und deaktivieren.
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie können Push-Benachrichtigungen gemäß dem Standardverfahren des Browsers d
 
 3. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Enable]**.
 
-4. Konfigurieren Sie den Browser so, dass Benachrichtigungen von [!UICONTROL Notification Center] unter zugelassen `https://alert-center-ui-na.efrontier.com`.
+4. Konfigurieren Sie den Browser so, dass Benachrichtigungen von [!UICONTROL Notification Center] unter `https://alert-center-ui-na.efrontier.com` zugelassen werden.
 
    Die standardmäßigen Benachrichtigungseinstellungen variieren je nach Browser. Möglicherweise wird Ihnen entweder a) automatisch die Option zum Zulassen von Benachrichtigungen von [!UICONTROL Notification Center] angezeigt oder b) Sie müssen die Benachrichtigungseinstellungen manuell verwalten. In [!DNL Microsoft Edge] können Sie beispielsweise Benachrichtigungen von [!UICONTROL Notification Center] aus der Browser-Symbolleiste aus zulassen. Weitere Informationen finden Sie in den Anweisungen in der Browser-Hilfe.
 
