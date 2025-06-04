@@ -20,7 +20,7 @@ Um einen vollständigen Hilfesatz zu öffnen, der die Verwendung aller Funktione
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=de).
 -->
 
 ## [!DNL Adobe]
