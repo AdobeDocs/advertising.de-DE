@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
-breadcrumb-title: Creative Guide
+breadcrumb-title: Handbuch zu Creative
 hide: true
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 0%
 # (Closed Beta) Handbuch zu Advertising Creative 2.0 {#creative}
 
 + [Neue Funktionen](/help/creative/home.md)
-+ {#introduction}
++ Einführung {#introduction}
    + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
-   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ Creative-{#creative-libraries}
+   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ Creative-Bibliotheken {#creative-libraries}
    + [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
    + [Verwalten von Kreativbibliotheken](/help/creative/creative-libraries/creative-library-manage.md)
    + Kreative {#creatives}
-      + Standard-{#standard-creatives}
+      + Standard-Kreative {#standard-creatives}
          + [Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-standard.md)
          + [Standard-Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
@@ -34,11 +34,11 @@ ht-degree: 0%
       + [Kreative dupliziert](/help/creative/creative-libraries/creative-duplicate.md)
       + [Kreative herunterladen](/help/creative/creative-libraries/creative-download.md)
       + [Kreative löschen](/help/creative/creative-libraries/creative-delete.md)
-   + Kreative Bundles {#bundles}
+   + Creative-Bundles {#bundles}
       + [Verwalten von kreativen Bundles](/help/creative/creative-libraries/bundle-manage.md)
 + Anzeigen-Erlebnisse {#creative-experiences}
    + [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)
-   + Erlebnisse mit {#experience-targeted}
+   + Erlebnisse beim Targeting {#experience-targeted}
       + [Das Layout des Entscheidungsbaums](/help/creative/experiences/experience-decision-tree.md)
       + [Erstellen eines Erlebnisses mit Targeting](/help/creative/experiences/experience-create-targeting.md)
       + [Bearbeiten eines Erlebnisses mit Targeting](/help/creative/experiences/experience-edit-targeting.md)
@@ -50,11 +50,11 @@ ht-degree: 0%
             + [Hinzufügen eines gleichrangigen Zielknotens](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Kopieren Sie untergeordnete Knoten in einen anderen Knoten derselben Ebene.](/help/creative/experiences/experience-target-node-copy.md)
             + [Löschen eines Zielknotens oder eines kreativen Blattknotens](/help/creative/experiences/experience-target-node-delete.md)
-         + Kreativ-Bundles und Kreativ-{#bundles}
+         + Creative-Bundles und Kreative {#bundles}
             + [Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgültigen Knoten](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Anpassen der Tracking-URLs für Kreative](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Kreative Optimierung und Planung anpassen](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + Erlebnisse ohne {#experience-nontargeted}
+   + Erlebnisse ohne Zielgruppenbestimmung {#experience-nontargeted}
       + [Erstellen eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md)
       + [Bearbeiten eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
@@ -72,8 +72,8 @@ ht-degree: 0%
    + [Erlebnis löschen](/help/creative/experiences/experience-delete.md)
 + Leistungsberichte {#reports}
    + [Leistungsberichte auf Erlebnisebene](/help/creative/experiences/experience-performance-details.md)
-   + [Benutzerdefinierter kreativer Bericht](/help/creative/report-custom-creative.md)
+   + [Benutzerdefinierter Creative-Bericht](/help/creative/report-custom-creative.md)
 + [Retargeting von Pixeln](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
-+ [Kunden-Support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support){target="_blank"}
-+ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de){target="_blank"}
++ [Hilfe erhalten](/help/creative/get-help.md)
++ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

@@ -1,10 +1,11 @@
 ---
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie Online-Hilfe und Community-Ressourcen anzeigen und technischen Support erhalten.
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzerober
 
    * ![help](/help/search-social-commerce/assets/help-main-menu.png "help") > **Search, Social, &amp; Commerce Optimization Guide**.
 
-## Fragen an die Adobe Advertising-Community
+<!--
+## Ask the Adobe Advertising community
 
-Antworten auf Ihre Fragen finden Sie in den [Adobe Advertising-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=de).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## [!DNL Adobe]
 
