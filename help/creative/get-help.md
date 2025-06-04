@@ -2,25 +2,27 @@
 title: Hilfe erhalten
 description: Erfahren Sie, wie Sie Online-Hilfe und Community-Ressourcen anzeigen und technischen Support erhalten.
 feature: Creative Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # Hilfe erhalten
 
+<!-- Can remove this page when we move this into DSP help -->
+
 Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzeroberfläche öffnen. Wenn die Online-Hilfe Ihre Fragen nicht beantwortet, kontaktieren Sie uns.
 
 ## Online-Hilfe öffnen
 
-Um einen vollständigen Hilfesatz zu öffnen, der die Verwendung aller Funktionen erklärt, klicken Sie im Hauptmenü auf **[!UICONTROL Help]** und öffnen Sie das Kapitel &quot;[!DNL Creative].
+Um einen vollständigen Hilfesatz zu öffnen, der die Verwendung aller Funktionen erklärt, klicken Sie im Hauptmenü auf **[!UICONTROL Help]** und öffnen Sie das Kapitel &quot;[!DNL Creative]&quot;.
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=de).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## [!DNL Adobe]
