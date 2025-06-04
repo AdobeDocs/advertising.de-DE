@@ -15,7 +15,7 @@ Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzerober
 
 ## Online-Hilfe öffnen
 
-Um einen vollständigen Hilfesatz zu öffnen, der die Verwendung aller Funktionen erklärt, klicken Sie im Hauptmenü auf **[!UICONTROL Help]** und öffnen Sie das Kapitel &quot;[DNL Creative].
+Um einen vollständigen Hilfesatz zu öffnen, der die Verwendung aller Funktionen erklärt, klicken Sie im Hauptmenü auf **[!UICONTROL Help]** und öffnen Sie das Kapitel &quot;[!DNL Creative].
 
 <!--
 ## Ask the Adobe Advertising community
