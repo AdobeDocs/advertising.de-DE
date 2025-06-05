@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zur letzten Ebene eines Erlebnisses
 description: Erfahren Sie, wie Sie einen Zielknoten zur endgültigen Zielebene eines Anzeigenerlebnisses hinzufügen.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
-   * Wählen Sie als Ziel für die Datenübergabe &quot;**[!UICONTROL Data Pass]**&quot; aus, geben Sie einen einzelnen Datenübergabewert ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
+   * Wählen Sie für ein Ziel für die Datenübergabe &quot;**[!UICONTROL Data Pass]**&quot; aus, passen Sie optional den Datenübergabeschlüssel an, geben Sie einen einzelnen Datenübergabewert ein und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-   Der Schlüssel für das Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt.
+   Ein Standardwert für den Schlüssel im Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt. Sie können optional den Schlüssel anpassen.
 
    * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung **[!UICONTROL RT Pixel]**, wählen Sie ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die Werte für alle Attribute des Pixels an, die zur Anzeige für die Kreativen erforderlich sind, und klicken Sie dann auf **[!UICONTROL Apply]**.
 
