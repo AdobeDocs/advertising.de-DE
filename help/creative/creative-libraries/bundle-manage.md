@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/crea
 >
 >Sie können auch [Kreative an Pakete aus den Ansichten Standardanzeigen und Dynamische Anzeigen anhängen](creative-attach-detach-bundles.md).
 
+### Kreative von der Bundles-Liste an ein Bundle anhängen
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
@@ -129,6 +131,24 @@ Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/crea
 1. (Optional) Wechseln Sie zwischen der Standard-Tabellenansicht und einer Kartenansicht der verfügbaren Bundles, indem Sie auf ![Kartenansicht](/help/creative/assets/card-view-button.png "Kartenansicht") klicken, um die Kartenansicht zu öffnen, oder ![Tabellen-/Listenansicht](/help/creative/assets/table-view-button.png "Tabellenansicht"), um zur Tabellenansicht zurückzukehren.
 
 1. Aktivieren Sie im rechten Rahmen das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundle]**.
+
+### Kreative aus der Kreativliste des Bundles an ein Bundle anhängen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Klicken Sie auf den Bibliotheksnamen.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie auf die Bundle-Karte oder -Zeile, um alle Kreativen im Bundle anzuzeigen.
+
+1. Klicken Sie oben rechts auf **[!UICONTROL Attach Creatives]**.
+
+1. Aktivieren Sie im rechten Bedienfeld das Kontrollkästchen für jeden Kreativen, den Sie anhängen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Trennen von Kreativen von einem Bundle {#bundle-detach-creatives}
 
