@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -158,12 +158,14 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Nur Erlebnisse mit Targeting mit Entscheidungsbäumen; optional) Aktivieren Sie **[!UICONTROL Split targeting]**, um die Leistung für jede angewendete Anzeigenzielgruppe aufzuschlüsseln.
 
-1. (Optional) Um die Daten in einer [!DNL Microsoft Excel] Datei im XLSX-Format (Spreadsheet) herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download") in der Symbolleiste.
+## Herunterladen von Leistungsberichten für ein Erlebnis
 
-   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+* Klicken Sie in der Symbolleiste oben in den Leistungsberichten auf ![Herunterladen](/help/creative/assets/download.png "Herunterladen").
+
+  Die Datei wird in einer [!DNL Microsoft Excel]-Datei im XLSX-Format (Spreadsheet) heruntergeladen, entsprechend dem normalen Verfahren Ihres Browsers.
 
 >[!MORELIKETHIS]
 >
->* [Benutzerdefinierter kreativer Bericht](/help/creative/report-custom-creative.md)
+>* [Benutzerdefinierter Creative-Bericht](/help/creative/report-custom-creative.md)
 >* [Alle Erlebnisse in der Ansicht herunterladen](/help/creative/experiences/experience-download-view.md)
 >* [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)
