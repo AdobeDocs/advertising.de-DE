@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie in einem Werbeerlebnis einen Zielknoten zwischen Zielknoten hinzufügen.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
          1. Klicken Sie auf **[!UICONTROL Apply]**.
 
-      * Geben Sie für ein Ziel für die Datenübergabe einen einzelnen Datenübergabewert ein und klicken Sie dann auf **[!UICONTROL Apply]**.
+      * Für ein Ziel für die Datenübergabe können Sie optional den Datenübergabeschlüssel anpassen, einen einzelnen Datenübergabewert eingeben und dann auf &quot;**[!UICONTROL Apply]**&quot; klicken.
 
-        Der Schlüssel für das Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt.
+        Ein Standardwert für den Schlüssel im Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt. Sie können optional den Schlüssel anpassen.
 
       * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die Werte für die Attribute des Pixels an, die zur Anzeige für die Kreativen erforderlich sind. Klicken Sie dann auf **[!UICONTROL Apply]**.
 

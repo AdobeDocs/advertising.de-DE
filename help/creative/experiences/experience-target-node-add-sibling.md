@@ -2,9 +2,10 @@
 title: Hinzufügen eines gleichrangigen Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie einen gleichrangigen Knoten zu jedem Knoten hinzufügen, der ein Ziel hat oder sich auf derselben Ebene wie ein Knoten mit einem Ziel befindet.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. Geben Sie die Ziele an:
 
-   * Gehen Sie zum Adobe von Zielgruppenzielen wie folgt vor:
+   * Gehen Sie bei Adobe-Zielgruppenzielen wie folgt vor:
 
       1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] Optionen zu öffnen, öffnen Sie die Registerkarte **[!UICONTROL Adobe Segments]** , geben Sie ein oder mehrere [!DNL Adobe] Zielgruppenziele des Werbetreibenden an und klicken Sie dann auf **[!UICONTROL Save]**.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
-   * Geben Sie für Ziele für die Datenübergabe einen einzelnen Datenübergabewert ein, und klicken Sie dann auf **[!UICONTROL Apply]**.
+   * Für Datenübergabeziele können Sie optional den Datenübergabeschlüssel anpassen, einen einzelnen Datenübergabewert eingeben und dann auf &quot;**[!UICONTROL Apply]**&quot; klicken.
 
-   Der Schlüssel für das Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt und Sie können keine zusätzlichen Schlüssel hinzufügen.
+     Ein Standardwert für den Schlüssel im Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt. Sie können optional den Schlüssel anpassen.
 
    * Wählen Sie für die erneute Zielgruppenbestimmung von Pixelzielen das zu verwendende Retargeting-Pixel und die erforderlichen Werte für eines der Pixelattribute aus, die vorhanden sein müssen, um den Kreativen angezeigt zu werden. Klicken Sie dann auf **[!UICONTROL Apply]**.
 
