@@ -3,9 +3,9 @@ title: Hinzufügen eines gleichrangigen Zielknotens zwischen Knoten in einem Erl
 description: Erfahren Sie, wie Sie einen gleichrangigen Knoten zu jedem Knoten hinzufügen, der ein Ziel hat oder sich auf derselben Ebene wie ein Knoten mit einem Ziel befindet.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In an existing experience,
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere Zielgruppen angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören.
+         Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -48,7 +48,7 @@ In an existing experience,
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -66,7 +66,7 @@ In an existing experience,
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 

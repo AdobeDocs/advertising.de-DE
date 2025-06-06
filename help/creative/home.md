@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,12 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| 10. Februar 2025 | [!UICONTROL Creative Libraries] | Zuvor hatten Sie eine kreative Bibliothek. Jetzt können Sie für jeden Advertiser mehrere Bibliotheken erstellen. | Siehe &quot;[ zu Ihren Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md).“ |
+| &#x200B;21. Mai 2025 | [!UICONTROL Creative Libraries] | Sie können jetzt Bilder aus Ihrer Adobe Experience Manager Asset-Bibliothek zu Ihrer [!UICONTROL Creative Libraries] hinzufügen, damit Sie sie in Anzeigenerlebnissen verwenden können. | Siehe &quot;[Zugriff auf Adobe Experience Manager-Bild-Assets konfigurieren](/help/creative/creative-libraries/aem-assets-configure.md) und &quot;[Hinzufügen von Standardkreativen zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-standard.md)&quot;. |
+| &#x200B;10. Februar 2025 | [!UICONTROL Creative Libraries] | Zuvor hatten Sie eine kreative Bibliothek. Jetzt können Sie für jeden Advertiser mehrere Bibliotheken erstellen. | Siehe &quot;[ zu Ihren Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md).“ |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | Die [!UICONTROL Creatives] enthält Registerkarten für [!UICONTROL Standard Ads] und [!UICONTROL Dynamic Ads].<ul><li>Auf der Registerkarte **[!UICONTROL Standard Ads]** Sie Bilder, HTML5, das flexible HTML5 und Kreative von Drittanbietern hochladen und verwalten.</li><li>Auf der Registerkarte **[!UICONTROL Dynamic Ads]** können Sie dynamisch generierte Anzeigen verwalten, die aus hochgeladenen Feed-Dateien mithilfe definierter Anzeigenvorlagen erstellt werden. Zuvor wurden dynamische Anzeigen in [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)] generiert.<br><br> Derzeit können Sie dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen. Sie können auch dynamische Anzeigen an kreative Bundles für zielgerichtete Anzeigenerlebnisse oder an Anzeigen-Tags für nicht zielgerichtete Erlebnisse anhängen. Nur Admin-Benutzer können Anzeigen dynamisch generieren.</li></ul> | Siehe &quot;[ zu Ihren Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md).“ |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Gruppieren Sie mehrere Kreative in einem *Bundle*, um sie einfach zu einem Erlebnis hinzuzufügen. Sie können Standard-Anzeigenpakete erstellen und ihnen Standard-Kreative anhängen. Auf ähnliche Weise können Sie dynamische Anzeigenpakete erstellen und dynamische Kreative daran anhängen. | Siehe [Verwalten von Creative-](/help/creative/creative-libraries/bundle-manage.md)&quot; |
 | | [!UICONTROL Experiences] | In den neuen Einstellungen für das Anzeigenerlebnis legen Sie jetzt fest, ob das Erlebnis Entscheidungsbaum-Targeting verwendet oder nicht. Nach dem Speichern des Erlebnisses können Sie die Einstellung nicht mehr ändern. Die Workflows für Erlebnisse mit Entscheidungsbaum-Targeting und Erlebnisse ohne Entscheidungsbaum-Targeting sind unterschiedlich. | Siehe &quot;[ Erlebnis mit Targeting erstellen](/help/creative/experiences/experience-create-targeting.md) und &quot;[Erlebnis ohne Targeting erstellen](/help/creative/experiences/experience-create-no-targeting.md). |

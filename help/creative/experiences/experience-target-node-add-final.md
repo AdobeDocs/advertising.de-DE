@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zur letzten Ebene eines Erlebnisses
 description: Erfahren Sie, wie Sie einen Zielknoten zur endgültigen Zielebene eines Anzeigenerlebnisses hinzufügen.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere Zielgruppen angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören.
+         Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -45,7 +45,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
@@ -63,7 +63,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
       1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere geografische Ziele angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
 
-         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören.
+         Diese Funktion erstellt für jedes angegebene geografische Ziel einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer zu allen angegebenen Speicherorten gehören (eine [!DNL Boolean] `AND`).
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 
