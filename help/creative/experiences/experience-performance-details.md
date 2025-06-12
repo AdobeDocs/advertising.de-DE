@@ -3,7 +3,7 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ Sie können detaillierte Leistungsdaten für jedes Erlebnis anzeigen.
 
 Die Berichtsansicht enthält die folgenden Daten:
 
-* Registerkarte **Übersicht** : Ein Leistungsüberblick über alle Konversionsmetriken für das gesamte Erlebnis, einschließlich:
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* Registerkarte **Übersicht** : Ein Leistungsüberblick über alle Konversionsmetriken für das gesamte Erlebnis<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." --> einschließlich:
 
    * Abschnitt **Gesamtleistung**:
 
