@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
+source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Sie können die folgenden Kreativtypen in den [unterstützten Kreativgrößen“
 
 #### Flexible HTML5
 
-Flexible HTML5-Kreative sind HTML5-Kreative mit allen Bildern und anderen Attributen als standardmäßige HTML-Tags, die Sie direkt in [!DNL Creative] bearbeiten können, entweder in einer Kreativbibliothek oder in einem individuellen Erlebnis (wodurch eine Variation des ursprünglichen Kreativen erstellt wird). Flexible HTML5-Kreative verwenden den Standard des Interactive Advertising Bureau (IAB) Technology Laboratory für ein [Anzeigenportfolio](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, bei dem die Anzeigenformatgrößen flexibel (und nicht fest) sind und auf dem Seitenverhältnis und dem Größenbereich der Anzeige basieren und bei dem Anzeigen ihre Auflösung geräteübergreifend und auf Veröffentlichungs-Sites beibehalten.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
+Flexible HTML5-Kreative sind HTML5-Kreative mit allen Bildern und anderen Attributen als standardmäßige HTML-Tags, die Sie direkt in [!DNL Creative] bearbeiten können, entweder in einer Kreativbibliothek oder in einem individuellen Erlebnis (wodurch eine Variation des ursprünglichen Kreativen erstellt wird). In DSP sind flexible HTML5-Kreative für eine einzelne bestimmte Anzeigengröße (in Pixel) vorgesehen. Sie können optional die Standardwerte der Attribute ändern, die in einem flexiblen HTML5-Creative angegeben sind. Später können Sie benutzerdefinierte Werte für die Attribute innerhalb eines bestimmten Erlebnisses angeben, wodurch eine Variante des übergeordneten kreativen Elements erstellt wird.
+
+<!-- Removed:
+
+Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
+
+-->
 
 Sie können flexible HTML5-Kreative entweder als ZIP-Dateien hochladen oder eine der Ihrem Konto zur Verfügung stehenden Vorlagen als Ausgangspunkt verwenden. Siehe [Spezifikationen für flexible HTML5-Kreative](html5-creative-specification.md).
 
@@ -53,8 +59,6 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 [Example card for a flexible creative with one variation]() [add image]
 
  -->
-
-Sie können optional die Standardwerte der Attribute ändern, die in einem flexiblen HTML5-Creative angegeben sind. Später können Sie benutzerdefinierte Werte für die Attribute innerhalb eines bestimmten Erlebnisses angeben, wodurch eine Variante des übergeordneten kreativen Elements erstellt wird.
 
 #### HTML5-Kreative
 
