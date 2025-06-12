@@ -3,7 +3,7 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ Die Berichtsansicht enthält die folgenden Daten:
 
 * Registerkarte **Übersicht** : Ein Leistungsüberblick über alle Konversionsmetriken für das gesamte Erlebnis, einschließlich:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* Abschnitt **Gesamtleistung**:
+   * Abschnitt **Gesamtleistung**:
 
-* **Gesamtleistung**: Die Gesamtzahl der Impressionen; Klicks; Clickthrough-Rate (CTR); und Durchsichtskonversionen und Clickthrough-Konversionen.
+      * **Gesamtleistung**: Die Gesamtzahl der Impressionen; Klicks; Clickthrough-Rate (CTR); und Durchsichtskonversionen und Clickthrough-Konversionen.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, allgemeinen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
+      * **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, allgemeinen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **Leistungsaufschlüsselung** Abschnitt:
+   * **Leistungsaufschlüsselung** Abschnitt:
 
-   * **Regionale Leistung:*: Einzelne Metriken nach geografischem Standort.
+      * **Regionale Leistung:*: Einzelne Metriken nach geografischem Standort.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der Top-Kreativen <!-- NN --> sehen, die mit diesen Kriterien beliefert wurden.
+      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der Top-Kreativen <!-- NN --> sehen, die mit diesen Kriterien beliefert wurden.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
