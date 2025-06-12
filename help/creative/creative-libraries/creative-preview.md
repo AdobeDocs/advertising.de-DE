@@ -3,7 +3,7 @@ title: Kreative in der Vorschau anzeigen
 description: Erfahren Sie, wie Sie eine Vorschau eines Kreativen öffnen.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 
 # Kreative in der Vorschau anzeigen
 
-*Nur Standard-Kreative*
 *Geschlossene Beta-Version*
 
 Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen, wie es den Betrachtern angezeigt wird.
@@ -21,7 +20,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** das Kreative aus:
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** oder auf der Registerkarte **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]** die Option Kreativ aus:
 
    * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Namen der Kreativen, und klicken Sie dann auf **[!UICONTROL Preview]**.
 
