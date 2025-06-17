@@ -2,9 +2,10 @@
 title: Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis ohne Targeting erstellen.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
 
 *Geschlossene Beta-Version*
+
+Erstellen eines Anzeigen-Erlebnisses ohne Targeting. Jedes Erlebnis kann Anzeigen aus einer einzigen Kreativbibliothek verwenden.
+
+>[!NOTE]
+>
+> Nachdem Sie ein nicht zielgerichtetes Erlebnis erstellt haben, können Sie es später nicht mehr in ein zielgerichtetes Erlebnis ändern, das einen anderen Workflow verwendet.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [Erstellen Sie manuell ein Anzeigen-Tag für eine entsprechende Kreativgröße](experience-tag-create-manually.md).
 
+     [!DNL Creative] erstellt nicht automatisch Anzeigen-Tags für nicht zielgerichtete Erlebnisse.
+
    * [Zuweisen von Kreativen zu einem Anzeigen-Tag](experience-tag-assign-creatives.md).
+
+     Weisen Sie dem Anzeigen-Tag Kreative zu, nicht in den Erlebniseinstellungen.
 
    * [Tracking-URLs anpassen](experience-tracking-urls-no-targeting.md)
 

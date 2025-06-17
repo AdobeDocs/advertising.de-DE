@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-[!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer Kreativbibliothek<!-- can use a single library only -->:
+[!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
 
 * **Erlebnisse beim Targeting mit Entscheidungsbäumen:** [!DNL Creative] ermöglicht es Ihnen, personalisierte Anzeigenerlebnisse auf der gesamten Kunden-Journey mithilfe eines Entscheidungsbaummodells zu konfigurieren. Sie können alle Werbeelemente - Bilder, Überschriften, Angebote und Landingpages - je nach Zielgruppe anpassen.
 
@@ -34,16 +34,32 @@ ht-degree: 0%
 
   Nachdem Sie eine Verzweigung für die Zielgruppe im Entscheidungsbaum erstellt haben, können Sie die Zielgruppe mit potenziellen Kreativen verbinden, indem Sie der Verzweigung Kreativ-Bundles zuweisen. Für jedes Erlebnis können Sie die Optimierung und Planung für die Kreativ-Bundles anpassen und die standardmäßigen Landingpages und Tracking-URLs <!-- later: and any flexible attributes --> einzelne Kreative in jedem Bundle ändern.
 
-* **Erlebnisse ohne Targeting mit Entscheidungsbaum:** [!DNL Creative] optimiert die Anzeigenelemente für das Anzeigenerlebnis, ohne die Zielgruppe einzugrenzen. Für jedes Erlebnis geben Sie Start- und Enddatum sowie einige Standardeinstellungen an, aber ein Großteil des Workflows ist nicht direkt im Erlebnis enthalten. Anstatt Kreative direkt zum Erlebnis hinzuzufügen, verwenden Sie [!UICONTROL Tag Manager], um ein Anzeigen-Tag für jede Anzeigengröße für das Erlebnis zu erstellen und dann Kreative hinzuzufügen, die kreative Optimierung und Planung zu konfigurieren und die Landingpages und Tracking-URLs anzupassen<!-- later: and any flexible attributes -->.
+* **Erlebnisse ohne Targeting mit Entscheidungsbaum:** [!DNL Creative] optimiert die Anzeigenelemente für das Anzeigenerlebnis, ohne die Zielgruppe einzugrenzen. Für jedes Erlebnis geben Sie Start- und Enddatum sowie einige Standardeinstellungen an, aber ein Großteil des Workflows ist nicht direkt im Erlebnis enthalten. Anstatt Kreative direkt zum Erlebnis hinzuzufügen, verwenden Sie [!UICONTROL Tag Manager] , um ein Anzeigen-Tag für jede Anzeigengröße für das Erlebnis zu erstellen und dann Kreative hinzuzufügen, die kreative Optimierung und Planung zu konfigurieren und die Landingpages und Tracking-URLs anzupassen<!-- later: and any flexible attributes -->.
 
-## Anzeigenoptimierung
+>[!NOTE]
+>
+> Da die beiden Erlebnistypen unterschiedliche Workflows aufweisen, können Sie nach dem Speichern des Erlebnisses nicht mehr ändern, ob Sie Entscheidungsbaum-Targeting verwenden oder nicht. Das bedeutet, dass Sie ein nicht zielgerichtetes Erlebnis nicht in ein zielgerichtetes Erlebnis ändern können. Ebenso können Sie kein zielgerichtetes Erlebnis in ein nicht zielgerichtetes Erlebnis ändern.
+
+## Bereitstellung und Optimierung von Anzeigen
 
 <!-- MORE -->
-[!DNL Creative] optimiert die Anzeigenelemente für jedes Erlebnis basierend auf der Leistung. Bei Erlebnissen, die auf bestimmte Zielgruppen ausgerichtet sind, können Anzeigen basierend auf der Leistung der einzelnen Anzeigenelemente für die Zielgruppen-Sets optimiert werden. Bei Erlebnissen ohne spezifische Zielgruppenziele werden die Anzeigenelemente allein auf der Grundlage der Leistung der einzelnen Anzeigenelemente optimiert.
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative] stellt Erstanbieter-Anzeigen und Trigger-Anzeigen von Drittanbietern für das Erlebnis bereit, die auf den angegebenen Optionen für Targeting (falls zutreffend), Planung, Anzeigenrotation und Optimierungsziel sowie dem verfügbaren Anzeigeninventar basieren.
+
+* **Planung:** (Optional) Planen Sie die Ausführung bestimmter Kreativer während bestimmter, sequenzieller Zeiträume.
+
+* **Anzeigenrotation:** Drehen Sie die Kreativen entweder manuell entsprechend der relativen Gewichtung oder algorithmisch entsprechend dem angegebenen Optimierungsziel.
+
+* **Optimierungsziel:** Sie Anzeigenelemente für die beste Klickrate oder ein bestehendes benutzerdefiniertes [Advertising DSP-Ziel](/help/dsp/optimization/custom-goal.md)
+
+  [!DNL Creative] optimiert Anzeigenerlebnisse, indem es den Assets mit der besten Performance einen Impression-Anteil verleiht. Bei Erlebnissen, die auf bestimmte Zielgruppen ausgerichtet sind, können Anzeigen basierend auf der Leistung der einzelnen Anzeigenelemente für die Zielgruppen-Sets optimiert werden. Bei Erlebnissen ohne spezifische Zielgruppenziele werden die Anzeigenelemente ausschließlich auf der Grundlage der Leistung der einzelnen Anzeigenelemente optimiert.
+
+Beispielsweise können Sie die Ausführung von Creative 1 für die ersten beiden Wochen planen, um die Clickthrough-Rate zu optimieren, und Creative 2 für die folgenden zwei Wochen, um für ein bestimmtes benutzerdefiniertes Ziel zu optimieren.
 
 ## Implementieren und Verwalten von Erlebnissen
 
-Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erstellt haben, können Sie [ein JavaScript- oder iframe-Tag für das gesamte Erlebnis generieren](experience-tag-export.md). Sie können das Erlebnis-Tag als Anzeige in eine Kampagne in Adobe Advertising DSP hochladen oder es als Anzeige in einer DSP eines Drittanbieters implementieren. [!DNL Creative] stellt Erstanbieter- und Trigger-Anzeigen von Drittanbietern für das -Erlebnis bereit, die auf den Optionen für Targeting und Anzeigenrotation sowie dem verfügbaren Anzeigeninventar basieren.
+Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erstellt haben, können Sie [ein JavaScript- oder iframe-Tag für das gesamte Erlebnis generieren](experience-tag-export.md). Sie können das Erlebnis-Tag als Anzeige in eine Kampagne in Adobe Advertising DSP hochladen oder es als Anzeige in einer DSP eines Drittanbieters implementieren.
 
 ## Leistungsdaten für Ihre Erlebnisse
 
@@ -69,7 +85,7 @@ Der Status eines Erlebnisses wird automatisch festgelegt, mit Ausnahme von *Gel�
 | ------ | ----------- |
 | [!UICONTROL Live] | Das Erlebnis enthält alle erforderlichen Elemente, sodass Sie ein Erlebnis-Tag generieren können, das als Anzeige in einer DSP implementiert werden soll. Der Start eines Live-Erlebnisses kann für die Zukunft geplant werden. |
 | [!UICONTROL Draft] | Nicht allen Verzweigungen des Erlebnisses werden Kreative zugewiesen, sodass das Erlebnis unvollständig ist und Sie kein Erlebnis-Tag generieren können. |
-| [!UICONTROL Processing] | Ein zuvor Live-Erlebnis wurde bearbeitet, ist jedoch jetzt unvollständig. Es kann kein Erlebnis-Tag dafür generiert werden. **Hinweis:** Wenn Sie bereits ein Erlebnis-Tag für das Erlebnis implementiert haben, kann die zuvor aktive Version weiterhin bereitgestellt werden. Wenn Sie das Erlebnis später abschließen und es erneut aktivieren, kann die neue Version mithilfe der vorhandenen Tag-Implementierung bereitgestellt werden. |
+| [!UICONTROL Processing] | Ein zuvor Live-Erlebnis wurde bearbeitet, ist jetzt jedoch unvollständig. Es kann kein Erlebnis-Tag dafür generiert werden. **Hinweis:** Wenn Sie bereits ein Erlebnis-Tag für das Erlebnis implementiert haben, kann die zuvor Live-Version weiterhin bereitgestellt werden. Wenn Sie das Erlebnis später abschließen und es erneut aktivieren, kann die neue Version mithilfe der vorhandenen Tag-Implementierung bereitgestellt werden. |
 | [!UICONTROL Deleted] | Das Erlebnis wurde aus [!DNL Creative] gelöscht und ist in den [!UICONTROL Experiences] nicht mehr sichtbar. |
 
 >[!NOTE]

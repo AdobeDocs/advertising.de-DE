@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 
 *Geschlossene Beta-Version*
+
+Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums. Jedes Erlebnis verwendet Anzeigen aus einer einzigen Kreativbibliothek.
+
+>[!NOTE]
+>
+> Nachdem Sie ein zielgerichtetes Erlebnis erstellt haben, können Sie es später nicht mehr in ein nicht zielgerichtetes Erlebnis ändern, das einen anderen Workflow verwendet.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Die Berichtsansicht enthält die folgenden Daten:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der Top-Kreativen <!-- NN --> sehen, die mit diesen Kriterien beliefert wurden.
+      * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der 10 Kreativen anzuzeigen, die mit diesen Kriterien am häufigsten bedient werden.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}

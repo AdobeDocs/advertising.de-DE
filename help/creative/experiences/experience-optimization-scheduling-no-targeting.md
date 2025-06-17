@@ -3,7 +3,7 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Weitere Informationen zu
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Erlebnisse nur mit vorhandenen Kreativen*
 *Geschlossene Beta-Version*
 
-Standardmäßig wird die kreative Rotation für ein Anzeigen-Erlebnis-Tag algorithmisch bestimmt, um die Gesamtklickrate zu optimieren, und die Einstellungen für die kreative Optimierung gelten für alle zugewiesenen Kreativen. Sie können die Kreativrotation so anpassen, dass die Kreativen manuell entsprechend der relativen Gewichtung ausgeführt oder algorithmisch für ein bestimmtes benutzerdefiniertes Advertising DSP-Ziel optimiert werden. <!-- verify --> Sie können auch festlegen, dass bestimmte Kreative während bestimmter, sequenzieller Zeiträume ausgeführt werden, und benutzerdefinierte Kreativ-Rotationseinstellungen für jeden Zeitplan anwenden.
+Standardmäßig wird die kreative Rotation für ein Anzeigen-Erlebnis-Tag algorithmisch bestimmt, um die Gesamtklickrate zu optimieren, und die Einstellungen für die kreative Optimierung gelten für alle zugewiesenen Kreativen. Sie können die Kreativrotation so anpassen, dass die Kreativen manuell entsprechend der relativen Gewichtung ausgeführt oder algorithmisch für ein bestimmtes benutzerdefiniertes Advertising DSP-Ziel optimiert werden. Sie können auch festlegen, dass bestimmte Kreative während bestimmter, sequenzieller Zeiträume ausgeführt werden, und benutzerdefinierte Kreativ-Rotationseinstellungen für jeden Zeitplan anwenden.
 
 ## Konfigurieren der kreativen Optimierung ohne Planung
 
