@@ -3,16 +3,16 @@ title: Übersicht über Inventarfunktionen in Advertising DSP
 description: Erfahren Sie mehr über verfügbare Inventarfunktionen.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Inventarfunktionen in Advertising DSP
 
-DSP kann Ihre Inventaranforderungen unterstützen, unabhängig davon, ob Sie Skalierung mit öffentlichem Inventar, Skalierung unter Premium-Herausgebern mit [!DNL On Demand] oder einen 1:1-PMP (Private Marketplace)-Deal mit einem Herausgeber einrichten möchten, um ihn für bestimmte Zielgruppen oder Websites zu aktivieren. Ihre Kampagnenziele helfen zu bestimmen, welche Art von Inventar am besten zu den Leistungsanforderungen Ihrer Kampagne passt. Integrationen mit Top Supply Side Plattformen (SSPs) ermöglichen die nahtlose Einrichtung und Aktivierung Ihrer PMPs.
+DSP kann Ihre Inventaranforderungen unterstützen, unabhängig davon, ob Sie Skalierung mit öffentlichem Inventar, Skalierung bei Premium-Herausgebern mit [!DNL On Demand] oder einen 1:1-PMP (Private Marketplace)-Deal mit einem Herausgeber einrichten möchten, um ihn für bestimmte Zielgruppen oder Websites zu aktivieren. Ihre Kampagnenziele helfen zu bestimmen, welche Art von Inventar am besten zu den Leistungsanforderungen Ihrer Kampagne passt. Integrationen mit Top Supply Side Plattformen (SSPs) ermöglichen die nahtlose Einrichtung und Aktivierung Ihrer PMPs.
 
 Sobald Sie Ihre Inventarangebote in DSP aufgerufen oder identifiziert haben, können Sie sie als Platzierungsziele für Ihre Kampagnen verwenden.
 
@@ -24,11 +24,19 @@ Zu den verfügbaren Inventartypen gehören:
 
 * **[!DNL Simple Ad Serving]:** Nutzen Sie optimierte Technologien für garantierte, unkontrollierte Anzeigenbereitstellung und Reporting, wenn Ihr Publisher Ihr Geschäft nicht über Angebots-IDs ausführen kann.
 
-## Die Ansicht Angebote
+## Die Ansichten „Angebote“
 
-Sie können alle Ihre bestehenden Angebote in der Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] anzeigen. Sie können die Darstellung der vorhandenen Abschlussdaten weiter anpassen, indem Sie Filter anwenden, die sichtbaren Spalten anpassen und optional benutzerdefinierte Ansichten speichern, die Spalten sortieren und die Daten als Diagramme anzeigen.
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
-Sie können auch Einstellungen für private Angebote und [!DNL Simple Ad Serving] Angebote in der Ansicht [!UICONTROL Deals] erstellen und verwalten. Um [!DNL On Demand] Inventar anzuzeigen und zu verwalten, gehen Sie zu [!UICONTROL Inventory] > [!UICONTROL On Demand].
+   * Alle vorhandenen Angebote anzeigen.
+
+   * Passen Sie die Darstellung der vorhandenen Abschlussdaten weiter an, indem Sie Filter anwenden, die sichtbaren Spalten anpassen und optional benutzerdefinierte Ansichten speichern, die Spalten sortieren und die Daten als Diagramme anzeigen.
+
+   * Erstellen und verwalten Sie private Deal-Einstellungen und [!DNL Simple Ad Serving].
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:** Anzeigen und Verwalten [!DNL On Demand] Inventars.
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deal Lists]:** Gruppieren Sie Ihre privaten Angebote in Listen, um das Platzierungs-Targeting zu vereinfachen.
 
 >[!MORELIKETHIS]
 >

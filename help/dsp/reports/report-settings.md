@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ In diesem Abschnitt werden die Daten festgelegt, an denen der Bericht ausgeführ
 
 ## [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (Optional) Zusätzliche Dimensionen, nach denen die Daten gefiltert werden sollen, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* und *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (Optional) Zusätzliche Dimensionen, nach denen die Daten gefiltert werden sollen, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* und *[!UICONTROL Video Duration]*.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
@@ -70,7 +74,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 * (Optional) Fügen Sie dem Filter zusätzliche Kriterien hinzu.
 * (Optional) Fügen Sie zusätzliche Filter hinzu, die jeweils ein oder mehrere Kriterien aufweisen.
 
-\* *[!UICONTROL Account]* ist nur für die folgenden Berichtstypen verfügbar, wenn Ihre Organisation für [kontenübergreifendes Reporting](report-about.md#cross-account-reporting) konfiguriert ist: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion]. Wenden Sie sich an Ihr Adobe-Account-Team , um weitere Informationen zu kontoübergreifenden Berichten zu erhalten.
+\* *[!UICONTROL Account]* ist nur für die folgenden Berichtstypen verfügbar, wenn Ihre Organisation für [kontenübergreifendes Reporting](report-about.md#cross-account-reporting) konfiguriert ist: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion]. Wenden Sie sich an Ihr Adobe-Account-Team , um weitere Informationen zur kontenübergreifenden Berichterstellung zu erhalten.
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** (Nur Berichte zu Konversionspfad, Pfadlänge und Zeit bis zur Konversion) Enthält Daten zu Klicks auf Suchanzeigen aus angegebenen Advertising-Kampagnen für Suche, Social und Commerce. Bei Auswahl dieser Option:
 
@@ -113,13 +117,13 @@ Beschreibungen [ Optionen finden Sie unter „Verfügbare ](report-columns.md)&q
 
 **[!UICONTROL Attribution Rule Settings]:** Die Einstellungen variieren je nach Berichtstyp:
 
-* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten; Werbetreibende nur mit Adobe Advertising-Konversions-Tracking) Wie kann innerhalb des Berichts die Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führt:
+* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] von Berichten mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals] Spalten; Werbetreibende nur mit Adobe Advertising-Konversionsverfolgung) Wie kann innerhalb des Berichts die Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führt:
 
    * *[!UICONTROL Unique]:* (Standard) Zählt, wie oft ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Konversionspfad war.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Verteilt die Gewichtung jeder Konversion auf Basis der Häufigkeit des Auftretens des Dimensionswerts (z. B. eines Geräts oder einer Platzierung) auf dem Konversionspfad. Wenn beispielsweise vor der Konversion insgesamt 10 Impressions vorhanden waren, davon 8 auf CTV und 2 auf Mobile, werden 80 % der Credits (0,8) auf CTV-Bildschirme und 0,2 auf Mobile übertragen.
 
-* **\[Regeltyp\]:** (Alle [!UICONTROL Custom]-, [!UICONTROL Conversion]-, [!UICONTROL Device]-, [!UICONTROL Geo]-, [!UICONTROL Segment]- und [!UICONTROL Site]-Berichte mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals]-Spalten; Werbetreibende nur mit Adobe Advertising-Konversionsverfolgung) Im Bericht, wie Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führen. Sie können mehr als eine Regel auswählen, wenn Sie die Unterschiede zwischen den Regeln vergleichen möchten.
+* **\[Regeltyp\]:** (Alle [!UICONTROL Custom]-, [!UICONTROL Conversion]-, [!UICONTROL Device]-, [!UICONTROL Geo]-, [!UICONTROL Segment]- und [!UICONTROL Site]-Berichte mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals]-Spalten; Werbetreibende nur mit Adobe Advertising-Konversionsverfolgung) Im Bericht, wie Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen. Sie können mehr als eine Regel auswählen, wenn Sie die Unterschiede zwischen den Regeln vergleichen möchten.
 
   >[!NOTE]
   >
@@ -137,13 +141,13 @@ Beschreibungen [ Optionen finden Sie unter „Verfügbare ](report-columns.md)&q
 
    * *[!UICONTROL U-shaped]:* Ordnet die Konvertierung allen Ereignissen im Konvertierungspfad zu, gewichtet jedoch am meisten das erste und letzte Ereignis, wobei den Ereignissen in der Mitte des Konvertierungspfads nacheinander weniger Gewicht zugewiesen wird.
 
-   * *[!UICONTROL Display Only]:* Attributkonversionen werden auf den letzten DSP-Klick oder die letzte Impression im Konversionspfad gesetzt. Dazu gehören Video- und vernetzte TV-Anzeigen und Klicks auf [!DNL Advertising Search, Social, & Commerce].
+   * *[!UICONTROL Display Only]:* Attributkonvertierungen auf den letzten DSP-Klick oder die letzte Impression im Konversionspfad. Dazu gehören Video- und vernetzte TV-Anzeigen und Klicks auf [!DNL Advertising Search, Social, & Commerce].
 
    * *[!UICONTROL Social Only]:* veraltet
 
-Siehe auch [How Attribution Rules are Calculated for Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).
+Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help/search-social-commerce/reports/attribution-rules.md).
 
-* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals]-Spalten und [!UICONTROL Path to Conversion]-, [!UICONTROL Path Length]- oder [!UICONTROL Time to Conversion]-Berichten nur mit [!UICONTROL Conversion Metrics] Spalten; Advertiser nur mit Adobe Advertising-Konversions-Tracking) Innerhalb des Berichts die maximale Anzahl von Tagen nach einem Impressionsereignis oder einem Klickereignis (für [!UICONTROL Path to Conversion]-, [!UICONTROL Path Length]- oder [!UICONTROL Time to Conversion]-Berichte), in denen ihm ein Konversionsereignis zugeordnet werden kann. Der Standardwert ist *[!UICONTROL 30 days]* und der maximale Wert ist 92 Tage.
+* **Lookback:** ([!UICONTROL Household Conversion] Berichte mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals]-Spalten und [!UICONTROL Path to Conversion]-, [!UICONTROL Path Length]- oder [!UICONTROL Time to Conversion]-Berichten nur mit [!UICONTROL Conversion Metrics] Spalten; Advertiser nur mit Adobe Advertising-Konversionsverfolgung) Innerhalb des Berichts die maximale Anzahl von Tagen nach einem Impressionsereignis oder einem Klickereignis (für [!UICONTROL Path to Conversion]-, [!UICONTROL Path Length]- oder [!UICONTROL Time to Conversion]-Berichte), in denen ihm ein Konversionsereignis zugeordnet werden kann. Der Standardwert ist *[!UICONTROL 30 days]* und der maximale Wert ist 92 Tage.
 
   >[!TIP]
   >
@@ -179,7 +183,7 @@ Siehe auch [How Attribution Rules are Calculated for Adobe Advertising](/help/se
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 

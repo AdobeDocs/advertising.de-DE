@@ -3,9 +3,9 @@ title: Über den privaten Bestand
 description: Über den privaten Bestand
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Werbetreibende, die über die RTB hinausblicken, können private Inventare verwe
 
 ## Angebots-IDs
 
-Wenn Sie direkte Beziehungen zu Herausgebern haben, können Sie Ihren Prozess und Workflow zum Medienkauf optimieren, indem Sie Ihre eigenen privaten Angebote mit deren ausgehandeltem Bestand und Preisen in Ihren Advertising DSP-Platzierungen verwenden. DSP kann bei der Einrichtung eines Kontos mit allen Publishern integriert werden. Wenn Sie später Zugriff auf weitere Herausgeber wünschen, wenden Sie sich an Ihr Adobe-Account-Team, um den Zugriff einzurichten. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Wenn Sie direkte Beziehungen zu Herausgebern haben, können Sie Ihren Prozess und Workflow zum Medienkauf optimieren, indem Sie Ihre eigenen privaten Angebote mit deren ausgehandeltem Bestand und Preisen in Ihren Advertising DSP-Platzierungen verwenden. DSP kann bei der Einrichtung eines Kontos mit allen Publishern integriert werden. Wenn Sie später Zugriff auf weitere Herausgeber erhalten möchten, wenden Sie sich an Ihr Adobe-Accountteam, um den Zugriff einzurichten. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 Alle Ihre privaten Angebote mit einer Angebots-ID werden von [!DNL Adobe] finanziert und fakturiert.
 
@@ -40,9 +40,14 @@ Die Spalte „Angebotsstatus“ zeigt den Status jedes privaten Angebots an: „
 
 Sie können anpassen, wie die vorhandenen Abschlussdaten dargestellt werden, indem Sie Filter anwenden, die sichtbaren Spalten anpassen und optional benutzerdefinierte Ansichten speichern, die Spalten sortieren und die Daten als Diagramme anzeigen.
 
+## Die Ansicht Angebotslisten
+
+In der Ansicht [!UICONTROL Inventory] > [!UICONTROL Deal Lists] können Sie Ihre privaten Angebote in Listen gruppieren, um das Platzierungs-Targeting zu erleichtern.
+
 >[!MORELIKETHIS]
 >
 >* [Übersicht über die Inventar-Funktionen](/help/dsp/inventory/inventory-overview.md)
 >* [Über die [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
 >* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
 >* [Details zur Angebots-ID manuell erstellen](deal-id-create.md)
+>* [Verwalten von Angebotslisten](/help/dsp/inventory/lists-deals-manage.md)

@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder T
 
   Sie können die Liste nach Quelle oder Feed anzeigen. Wenn Sie die Liste nach Feed anzeigen, können Sie nach Feed-Name, Feed-Schlüssel oder einem ausgewählten charakteristischen Tag suchen.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: Bestehende private Angebote (oder bestehende private [!DNL Roku] für [!DNL Roku] Platzierungen) mit Herausgebern, die Sie in DSP eingerichtet haben. Sie können öffentliche Inventare einbeziehen, aber nicht ausschließen.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: Ihre bestehenden privaten Angebote (oder bestehenden privaten [!DNL Roku] für [!DNL Roku] Platzierungen) mit Herausgebern, die Sie in DSP eingerichtet haben, und Ihre bestehenden [privaten Deal-Listen](/help/dsp/inventory/lists-deals-manage.md). Sie können öffentliche Inventare einbeziehen, aber nicht ausschließen.
 
-  Sie können die Liste nach Keyword, Schlüssel, Angebots-ID oder benutzerdefiniertem Tag durchsuchen.
+  Auf der Registerkarte [!UICONTROL Deals] können Sie die Liste nach Keyword, Schlüssel, Angebots-ID oder benutzerdefiniertem Tag durchsuchen. Auf der Registerkarte &quot;[!UICONTROL Deal Lists]&quot; können Sie die Liste nach Name der Angebotsliste oder ID der Angebotsliste durchsuchen.
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Optional) Überschreibt den Bid-Price-Algorithmus, um mindestens die Festpreise und Mindestpreise für Angebote zu bieten.
 
@@ -199,12 +199,15 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
       1. ([!UICONTROL Public] und [!UICONTROL On Demand] Inventar) Klicken Sie auf **[!UICONTROL View by Source]** oder **[!UICONTROL View by Feed]**, um zu ändern, wie die Quellen aufgeführt werden.
       1. Filtern Sie den Bestand nach Bedarf.
       1. Geben Sie die ein- und auszuschließenden Quellen an:
-         * Um eine [!UICONTROL Public] oder [!UICONTROL On Demand] Quelle einzuschließen, klicken Sie auf **[!UICONTROL Include]** neben dem Quellnamen.
-         * So schließen Sie [!UICONTROL Private] ein:
-            * Um den gesamten Bestand in ein Angebot aufzunehmen, klicken Sie **[!UICONTROL Include all]** neben dem Angebotsnamen.
-            * Um eine einzelne Lagerbestandsquelle einzubeziehen, erweitern Sie den Abschlussnamen und klicken Sie dann auf das Kontrollkästchen neben dem Quellennamen.
-         * Um eine [!UICONTROL Public] oder einen [!UICONTROL On source] auszuschließen, klicken Sie auf **[!UICONTROL Exclude]** neben dem Quellnamen.
-   1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Save & Export]**.
+         * Für [!UICONTROL Public] oder [!UICONTROL On Demand]:
+            * Um eine Quelle einzuschließen, klicken Sie **[!UICONTROL Include]** neben dem Quellnamen.
+            * Um eine Quelle auszuschließen, klicken Sie **[!UICONTROL Exclude]** neben dem Quellnamen.
+         * Für [!UICONTROL Private]:
+            * Auf der Registerkarte [!UICONTROL Deals] :
+               * Um den gesamten Bestand in ein Angebot aufzunehmen, klicken Sie **[!UICONTROL Include all]** neben dem Angebotsnamen.
+               * Um eine einzelne Lagerbestandsquelle einzubeziehen, erweitern Sie den Abschlussnamen und klicken Sie dann auf das Kontrollkästchen neben dem Quellennamen.
+            * Klicken Sie auf der Registerkarte [!UICONTROL Deal Lists] auf das Kontrollkästchen neben dem Namen der Angebotsliste.
+   1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
    1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!TIP]
@@ -256,30 +259,34 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Auszuschließende Websites. Sie können entweder nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen:
+**[!UICONTROL Exclude Sites or Apps]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Auszuschließende Sites/Apps und [URL-](/help/dsp/resources/lists-url-manage.md). Auf der Registerkarte [!UICONTROL Paste URL] können Sie nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen. Auf der Registerkarte [!UICONTROL URL Lists] können Sie URL-Listen auswählen.
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Sites an:
-   * So suchen Sie nach einer Site:
-      1. Klicken Sie auf **[!UICONTROL Search]**.
-      1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
-      1. Wählen Sie in den Suchergebnissen die auszuschließenden Websites aus:
-         * Um ein einzelnes Gebiet auszuschließen, aktivieren Sie das entsprechende Kontrollkästchen.
-         * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these 50]**. Um alle Suchergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these \<*NN *\>]**.
-   * Domain-Namen eingeben:
-      1. Klicken Sie auf **[!UICONTROL Paste]**.
-      1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
-      1. Klicken Sie auf **[!UICONTROL Exclude All]**.
+   * Auf der Registerkarte [!UICONTROL Paste URL] :
+      * So suchen Sie nach einer Site:
+         1. Klicken Sie auf **[!UICONTROL Search]**.
+         1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
+         1. Wählen Sie in den Suchergebnissen die auszuschließenden Websites aus:
+            * Um ein einzelnes Gebiet auszuschließen, aktivieren Sie das entsprechende Kontrollkästchen.
+            * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these 50]**. Um alle Suchergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these \<*NN *\>]**.
+      * Domain-Namen eingeben:
+         1. Klicken Sie auf **[!UICONTROL Paste]**.
+         1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
+         1. Klicken Sie auf **[!UICONTROL Exclude All]**.
+   * Auf der Registerkarte [!UICONTROL URL Lists] :
+      1. (Optional) Suchen Sie nach einer URL-Liste, indem Sie den Listennamen ganz oder teilweise in das Suchfeld eingeben.
+      1. Aktivieren Sie das Kontrollkästchen neben jeder auszuschließenden URL-Liste.
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** .
 
 >[!NOTE]
 >
 >* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
->* Listen blockierter Websites setzen Listen zielgerichteter Websites immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
+>* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 **[!UICONTROL Language]:** (Optional) Eine einzelne Sprache zum Auswählen.
 
-**[!UICONTROL Site or App List Preview]:** (Schreibgeschützt) Alle für die Platzierung ausgewählten und blockierten Sites.
+**[!UICONTROL Site or app list preview]:** (Schreibgeschützt) Alle für die Platzierung ausgewählten und blockierten Websites/Apps, einschließlich Websites/Apps auf Kontoebene, Advertiser-Ebene und globaler Listen blockierter DSP-Websites.
 
 Optional können Sie die Liste der zielgerichteten und blockierten Websites als CSV-Datei (CSV) exportieren. Um die Liste zu exportieren, klicken Sie auf **[!UICONTROL Export full site list]** und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers.
 
@@ -287,21 +294,30 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 
 **[!UICONTROL Paste list of targeted sites]:** Ermöglicht das Targeting nur für bestimmte Sites. Wenn Sie diese Option aktivieren, sind die anderen Site-Targeting-Optionen deaktiviert.
 
-**[!UICONTROL Sites]:** (verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** ist *[!UICONTROL On]*) Zu adressierende Sites. Sie können entweder nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen:
+**[!UICONTROL Sites or Apps]:** (verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** ist *[!UICONTROL On]*) Zu adressierende Sites. Auf der Registerkarte [!UICONTROL Paste URL] können Sie nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen. Auf der Registerkarte [!UICONTROL URL Lists] können Sie URL-Listen auswählen.
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Sites an:
-   * So suchen Sie nach einer Site:
-      1. Klicken Sie auf **[!UICONTROL Search]**.
-      1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
-      1. Wählen Sie in den Suchergebnissen die einzuschließenden Websites aus:
-         * Um ein einzelnes Gebiet auszuschließen, aktivieren Sie das entsprechende Kontrollkästchen.
-         * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these 50]**. Um alle Suchergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these \<*NN *\>]**.
-   * Domain-Namen eingeben:
-      1. Klicken Sie auf **[!UICONTROL Paste]**.
-      1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
-      1. Klicken Sie auf **[!UICONTROL Include All]**.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+   * Auf der Registerkarte [!UICONTROL Paste URL] :
+      * So suchen Sie nach einer Site:
+         1. Klicken Sie auf **[!UICONTROL Search]**.
+         1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
+         1. Wählen Sie in den Suchergebnissen die einzuschließenden Websites aus:
+            * Um eine einzelne Site einzubeziehen, aktivieren Sie das angrenzende Kontrollkästchen.
+            * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these 50]**. Um alle Suchergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these \<*NN *\>]**.
+      * Domain-Namen eingeben:
+         1. Klicken Sie auf **[!UICONTROL Paste]**.
+         1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
+         1. Klicken Sie auf **[!UICONTROL Include All]**.
+   * Auf der Registerkarte [!UICONTROL URL Lists] :
+      1. (Optional) Suchen Sie nach einer URL-Liste, indem Sie den Listennamen ganz oder teilweise in das Suchfeld eingeben.
+      1. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden URL-Liste.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** .
+
+>[!NOTE]
+>
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
+>* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen. Sie können entweder nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen:
 
 ## [!UICONTROL Audience Targeting]
 
