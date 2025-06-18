@@ -3,7 +3,7 @@ title: Erlebnisvorschau
 description: Erfahren Sie, wie Sie eine Vorschau der Kreativen in einem Werbeerlebnis anzeigen.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
 1. (Optional) So kopieren Sie eine Demo-URL des Erlebnisses, das Sie ohne Anmeldung für [!DNL Creative] freigeben können:
 
-   1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share2.png "Freigeben").
+   1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share.png "Freigeben").
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
