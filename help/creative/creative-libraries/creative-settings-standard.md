@@ -3,9 +3,9 @@ title: Creative-Einstellungen
 description: Informationen zu xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
-**Creative Size:** (Schreibgeschützt für vorhandene Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
+**Creative-Größe:** (Schreibgeschützt für bestehende Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
 
 **[!UICONTROL Click Tags]:** Die Variablen, die Klick-Tracking-Weiterleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
 
@@ -40,7 +40,7 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
+**Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative nach Label in verschiedenen Ansichten innerhalb von [!DNL Creative] filtern und die [!UICONTROL Creative Label] Dimension in die [!UICONTROL Custom Creative Report] einbeziehen.
 
 * Um vorhandene Kennzeichnungen auszuwählen, klicken Sie ![Nach unten](/help/creative/assets/chevron-down.png "Nach unten") und aktivieren Sie das Kontrollkästchen neben den einzelnen Kennzeichnungen, die angewendet werden sollen.
 
@@ -98,7 +98,7 @@ Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer ben
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
 
-**Creative Size:** (Schreibgeschützt für vorhandene Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
+**Creative-Größe:** (Schreibgeschützt für bestehende Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
 
 **[!UICONTROL Click Tags]:** (nur für statische HTML5-Kreative) Die Variablen, die Klick-Tracking-Umleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
 
@@ -154,7 +154,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
 
-**Creative Size:** (Schreibgeschützt) Die Abmessungen der hochgeladenen Bilder.
+**Creative-Größe:** (Schreibgeschützt) Die Abmessungen der hochgeladenen Bilder.
 
 **Landingpage-URL** Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie die Kreativen verknüpfen. Die Landingpage-URL muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören. Der gleiche Wert gilt für alle ausgewählten Bilder.
 

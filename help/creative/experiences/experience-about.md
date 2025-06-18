@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Der Status eines Erlebnisses wird automatisch festgelegt, mit Ausnahme von *Gel�
 
 ## Die [!UICONTROL Experiences]
 
-Die [!UICONTROL Experiences] Ansicht zeigt alle zielgerichteten und nicht zielgerichteten Erlebnisse. Sie können die Erlebnisnamen, den Status, das Start- und Enddatum, die Anzahl und Dimensionen der zugewiesenen Kreativen oder Kreativ-Bundles sehen und sehen, ob das Erlebnis dynamische Anzeigen enthält. Wenn Sie die Option [!UICONTROL Metrics] in der [!UICONTROL Experiences] aktivieren, gibt jede Erlebniskarte oder Zeile die Anzahl der Impressionen und Klicks an, die das Erlebnis erhalten hat.
+Die [!UICONTROL Experiences] Ansicht zeigt alle zielgerichteten und nicht zielgerichteten Erlebnisse. Sie können die Erlebnisnamen, den Status, das Start- und Enddatum, die Anzahl und Dimensionen der zugewiesenen Kreativen oder Kreativ-Bundles sehen und sehen, ob das Erlebnis dynamische Anzeigen enthält. Wenn Sie die Option [!UICONTROL Metrics] in der [!UICONTROL Experiences] aktivieren, gibt jede Erlebniskarte oder Zeile die Anzahl der Impressionen und Klicks an, die das Erlebnis erhalten hat. Wenn Sie sich im Kartenmodus befinden, können Sie mithilfe der Schaltflächen &lt; und > einen Bildlauf durch die Kreativen in einem Erlebnis mit mehreren Kreativen durchführen.
 
 Sie können Ihre Erlebnisse erstellen und verwalten, Erlebnis-Tags erstellen und umbenennen und die Tags in den Formaten JavaScript und iframe zur Implementierung in Ihren DSPs exportieren. Werbetreibende mit Advertising DSP können optional Anzeigen-Tags direkt in eine Advertising DSP-Kampagne hochladen.
 

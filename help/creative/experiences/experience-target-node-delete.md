@@ -3,9 +3,9 @@ title: Löschen von Zielknoten oder kreativen Blattknoten in einem Erlebnis
 description: Erfahren Sie, wie Sie einen Knoten in einem Erlebnis löschen.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Sie können einen Zielknoten löschen, einschließlich aller untergeordneten Zie
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. Halten Sie den Cursor über den Zielknoten oder den Creative Leaf-Knoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+1. Halten Sie den Cursor über den Zielknoten oder Kreativ-Blattknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete Node]**.
 

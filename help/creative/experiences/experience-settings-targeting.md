@@ -3,9 +3,9 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Jeder Schlüssel wird als Makro im Anzeigen-Erlebnis-Tag angehängt, das Sie gen
 
 **RT Pixel:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Ein [!UICONTROL Creative] Retargeting-Pixel zum potenziellen Targeting. Wenn Sie das Targeting innerhalb des Entscheidungsbaums einrichten, können Sie eine Ebene von RT-Pixel-Zielknoten einbeziehen. Für jeden Knoten geben Sie das anzusprechende Pixel und die Werte für die Attribute des Pixels an, die erforderlich sind, um die Kreativen in den zugewiesenen kreativen Bundles anzuzeigen. Wenn Sie beim Erstellen des Erlebnisses kein Pixel in diesem Feld angeben, können Sie dennoch eines innerhalb der Entscheidungsstruktur angeben.<!-- May move this to just within the decision tree. -->
 
-**Beschriftung:**<!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Beschriftungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach <!-- sic --> filtern.
+**Beschriftung:**<!-- should be "Labels" --> (Optional) Alle [!DNL Creative] Beschriftungen, die auf das Erlebnis angewendet werden sollen. Sie können Erlebnisse in der Ansicht Erlebnisse nach Beschriftung filtern und die Dimension [!UICONTROL Experience Label] in die [!UICONTROL Custom Creative Report] einbeziehen.
 
 * Um vorhandene Kennzeichnungen auszuwählen, klicken Sie ![Nach unten](/help/creative/assets/chevron-down.png "Nach unten") und aktivieren Sie das Kontrollkästchen neben den einzelnen Kennzeichnungen, die angewendet werden sollen.
 

@@ -3,7 +3,7 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungs
 
       * Zielgruppen:
 
-        *[Zielknoten zur letzten Ebene hinzufügen](experience-target-node-add-final.md) in einem Erlebnis.
+         * [Zielknoten zur letzten Ebene hinzufügen](experience-target-node-add-final.md) in einem Erlebnis.
 
          * [Fügen Sie einen Zielknoten zwischen Knoten ein](experience-target-node-add-inner.md).
 
