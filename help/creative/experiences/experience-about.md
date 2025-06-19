@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * Bestimmte geografische Standorte, einschließlich Länder, Bundesstaaten, DMAs in den USA, Städte und Postleitzahlen
 
-   * Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden
+   * Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden (z. B. SKU=01234567890123 oder Cart=empty)
 
    * [!DNL Creative] Retargeting von Pixeln und angegebenen Attributwerten
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Da die beiden Erlebnistypen unterschiedliche Workflows aufweisen, können Sie nach dem Speichern des Erlebnisses nicht mehr ändern, ob Sie Entscheidungsbaum-Targeting verwenden oder nicht. Das bedeutet, dass Sie ein nicht zielgerichtetes Erlebnis nicht in ein zielgerichtetes Erlebnis ändern können. Ebenso können Sie kein zielgerichtetes Erlebnis in ein nicht zielgerichtetes Erlebnis ändern.
+> Da die beiden Erlebnistypen unterschiedliche Workflows aufweisen, können Sie ein nicht zielgerichtetes Erlebnis nicht in ein zielgerichtetes Erlebnis oder ein zielgerichtetes Erlebnis in ein nicht zielgerichtetes Erlebnis ändern.
 
 ## Bereitstellung und Optimierung von Anzeigen
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] stellt Erstanbieter-Anzeigen und Trigger-Anzeigen von Drittanbietern für das Erlebnis bereit, die auf den angegebenen Optionen für Targeting (falls zutreffend), Planung, Anzeigenrotation und Optimierungsziel sowie dem verfügbaren Anzeigeninventar basieren.
 
@@ -61,6 +61,10 @@ Beispielsweise können Sie die Ausführung von Creative 1 für die ersten beiden
 
 Nachdem Sie ein Live-Erlebnis (mit allen erforderlichen Anzeigenelementen) erstellt haben, können Sie [ein JavaScript- oder iframe-Tag für das gesamte Erlebnis generieren](experience-tag-export.md). Sie können das Erlebnis-Tag als Anzeige in eine Kampagne in Adobe Advertising DSP hochladen oder es als Anzeige in einer DSP eines Drittanbieters implementieren.
 
+>[!NOTE]
+>
+>Das hierarchische Targeting-Verhalten kann je nach DSP variieren. Advertising DSP wendet Targeting auf Anzeigenebene zusätzlich zum Targeting auf Platzierungsebene an.
+
 ## Leistungsdaten für Ihre Erlebnisse
 
 Die folgenden Leistungsdaten sind verfügbar:
@@ -68,10 +72,6 @@ Die folgenden Leistungsdaten sind verfügbar:
 * Wenn Sie die Option [!UICONTROL Metrics] in der Ansicht [!UICONTROL Creative] > [!UICONTROL Experiences] aktivieren, gibt jede Erlebniskarte oder -zeile die Anzahl der Impressionen und Klicks an, die das Erlebnis erhalten hat.
 
   ![Metriken-Option](/help/creative/assets/metrics-option.png "Metriken-Option")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Sie können [detaillierte Leistungsdaten für jedes Erlebnis anzeigen](experience-performance-details.md) in der [!UICONTROL Experiences] anzeigen.
 

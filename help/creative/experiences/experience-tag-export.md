@@ -3,9 +3,9 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 >* Beim Erstellen eines Erlebnisses mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede anwendbare Kreativgröße.
 >* Wenn Sie ein Erlebnis ohne Targeting mit einem Entscheidungsbaum erstellen, müssen Sie für jede [ Kreativgröße ](experience-tag-create-manually.md)manuell ein Anzeigen-Tag erstellen).
 >* Experience Tags sind dynamisch. Sie müssen die Tags nicht aktualisieren, wenn Sie ein Erlebnis bearbeiten.
+>* Stellen Sie sicher, dass die Kampagnen, in denen Sie ein Anzeigen-Erlebnis implementieren, ein mit dem Erlebnis kompatibles Targeting enthalten. Das hierarchische Targeting-Verhalten kann je nach DSP variieren. In Advertising DSP wird das Targeting auf Anzeigenebene nach dem Targeting auf Platzierungsebene angewendet und ersetzt nicht das Targeting auf Platzierungsebene. Wenn sich eine Advertising DSP-Platzierung beispielsweise an Benutzende in Australien und eine Anzeige an Benutzende in Japan richtet, zielt die Anzeige auf den Zweig „Alle anderen“ ab.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -32,7 +33,7 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,7 +45,7 @@ Werbetreibende mit Advertising DSP können Tags optional direkt als Anzeigen in 
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Next]** oder im Menü links auf **[!UICONTROL Generate ad tags]**.
 
-1. Wählen Sie den Tag-Typ aus: ** *JavaScript<!-- sic -->* **&#x200B; oder &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Wählen Sie den Tag-Typ aus: ** *JavaScript<!-- sic -->* ** oder ** *IFRAME* ** <!-- sic -->.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 

@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungs
 
 >[!NOTE]
 >
-> Nachdem Sie ein zielgerichtetes Erlebnis erstellt haben, können Sie es später nicht mehr in ein nicht zielgerichtetes Erlebnis ändern, das einen anderen Workflow verwendet.
+>* Nachdem Sie ein zielgerichtetes Erlebnis erstellt haben, können Sie es später nicht mehr in ein nicht zielgerichtetes Erlebnis ändern, das einen anderen Workflow verwendet.
+>* Stellen Sie sicher, dass Ihre Anzeigenerlebnisse ein Targeting enthalten, das mit den Kampagnen kompatibel ist, in denen Sie es implementieren werden. Das hierarchische Targeting-Verhalten kann je nach DSP variieren. Wenn Sie ein Anzeigen-Erlebnis-Tag in Advertising DSP hochladen und es an eine Platzierung anhängen, wird das Targeting auf Anzeigenebene über dem Targeting auf Platzierungsebene (nicht anstelle des Targetings auf Platzierungsebene) angewendet. Wenn sich eine Platzierung beispielsweise an Benutzende in Australien und eine Anzeige an Benutzende in Japan richtet, zielt die Anzeige auf den Zweig „Alle anderen“ ab.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

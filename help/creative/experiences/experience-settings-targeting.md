@@ -3,9 +3,9 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Nachdem Sie das Erlebnis gespeichert haben, können Sie diese Einstellung nicht 
 
 ## [!UICONTROL Advanced]
 
-**Datenübergabe:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit bei einer Impression übergeben. Sie können bis zu fünf standardmäßige Datenübergabeschlüssel (Parameter) angeben. Wenn Sie die Zielgruppenbestimmung im Entscheidungsbaum einrichten, können Sie eine Ebene von Datenübermittlungszielknoten einbeziehen, optional die Schlüssel anpassen und die Werte angeben, die für jeden Knoten anvisiert werden sollen. Wenn Sie beim Erstellen des Erlebnisses keine Schlüssel in diesem Feld angeben, können Sie sie dennoch innerhalb der Entscheidungsstruktur angeben.
+**Datenübergabe:** (Schreibgeschützt für vorhandene Erlebnisse; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit bei Impressionen übergeben (z. B. SKU=01234567890123 oder Cart=empty). Sie können bis zu fünf standardmäßige Datenübergabeschlüssel (Parameter) angeben. Wenn Sie die Zielgruppenbestimmung im Entscheidungsbaum einrichten, können Sie eine Ebene von Datenübermittlungszielknoten einbeziehen, optional die Schlüssel anpassen und die Werte angeben, die für jeden Knoten anvisiert werden sollen. Wenn Sie beim Erstellen des Erlebnisses keine Schlüssel in diesem Feld angeben, können Sie sie dennoch innerhalb der Entscheidungsstruktur angeben.
 
 Jeder Schlüssel wird als Makro im Anzeigen-Erlebnis-Tag angehängt, das Sie generieren können, um es als Anzeige in Ihrer DSP zu implementieren.
 

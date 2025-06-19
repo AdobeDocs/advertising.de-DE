@@ -3,9 +3,9 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 
 ## [!UICONTROL Advanced]
 
-**Datenübergabe:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die DSP, Publisher oder Partner in Echtzeit nach der Impression übergeben. Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden.<!-- May move this to just within the decision tree. -->
+**Datenübergabe:** (Nur Erlebnisse mit dynamischen Anzeigen; optional) Um Benutzende auf der Grundlage bestimmter Schlüssel-Wert-Paare anzusprechen, die der DSP, Publisher oder Partner in Echtzeit bei Impressionen übergibt (z. B. SKU=01234567890123 oder Cart=empty). Es können bis zu fünf Datenübergabeschlüssel (Parameter) angegeben werden.<!-- May move this to just within the decision tree. -->
 
 Wenn Sie ein Anzeigen-Erlebnis-Tag für eine bestimmte kreative Größe erstellen, wird jeder Schlüssel, der in diesem Feld angegeben ist, als Makro im -Tag angehängt. Geben Sie den Wert für jedes Schlüssel-Wert-Paar innerhalb des Tags ein, bevor Sie das Tag als Anzeige in Ihre DSP implementieren.
 
