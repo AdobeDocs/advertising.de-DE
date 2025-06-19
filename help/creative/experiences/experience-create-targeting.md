@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: d774117a1dbfc83e6f0e51350a54e0376d360daf
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungs
 
       * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
 
-Wenn das Erlebnis live ist, erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede entsprechende Kreativgröße.
+Wenn das Erlebnis live ist, erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede entsprechende Kreativgröße. Anschließend können Sie [das Anzeigen-Tag exportieren und in einer DSP implementieren](/help/creative/experiences/experience-tag-export.md).
 
 >[!MORELIKETHIS]
 >

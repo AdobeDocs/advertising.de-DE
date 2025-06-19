@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis ohne Targeting erstellen.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Erstellen eines Anzeigen-Erlebnisses ohne Targeting. Jedes Erlebnis kann Anzeige
 1. (Optional) Fahren Sie mit der Konfiguration des Erlebnisses fort:
 
    * [Erstellen Sie manuell ein Anzeigen-Tag für eine entsprechende Kreativgröße](experience-tag-create-manually.md).
+
+     Anschließend können Sie [das Anzeigen-Tag exportieren und in einer DSP implementieren](/help/creative/experiences/experience-tag-export.md).
 
      [!DNL Creative] erstellt nicht automatisch Anzeigen-Tags für nicht zielgerichtete Erlebnisse.
 
