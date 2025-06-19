@@ -2,9 +2,9 @@
 title: Über Adobe Advertising Creative
 description: Informationen über [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,37 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Als Teil von Adobe Advertising ist Advertising Creative eine Self-Service-Plattform für die Automatisierung von personalisierten Echtzeit-Anzeigen-Erlebnissen und die optionale Optimierung Ihrer Anzeigen auf der Ebene der Werbeelemente.
+Als Teil von Adobe Advertising ist Advertising Creative eine Self-Service-Plattform für die Automatisierung von personalisierten Echtzeit-Anzeigen-Erlebnissen und die optionale Optimierung Ihrer Anzeigen auf der Ebene der Werbeelemente.<!-- Verify --> Sie können die Anzeigenerlebnisse als Anzeigen in jeder DSP implementieren, einschließlich Adobe Advertising DSP.
 
 ## Benutzerdefinierte Kreativ-Bibliotheken wiederverwendbarer Kreativer
 
-Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie für Ihre Anzeigenerlebnisse verwenden werden. Sie können mehrere Bibliotheken mit jeweils einzelnen Kreativen und Kreativgruppen (so genannten „Bundles *)*. Sie fügen Ihren Anzeigenerlebnissen kreative Bundles hinzu.
+Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie für Ihre Anzeigenerlebnisse verwenden werden. Sie können mehrere Bibliotheken mit jeweils einzelnen Kreativen und Kreativgruppen (so genannten *-Bundles* erstellen, die Sie an Erlebnisse anhängen).
 
-## Regelbasierte Erlebnisse
+### [!DNL Adobe] Asset-Integrationen
 
-Mit [!DNL Creative] können Sie Storys mithilfe eines regelbasierten Entscheidungsbaum-Modells erstellen - indem Sie eine choreografische Reihe von Anzeigen entfalten, die in Echtzeit auf der Grundlage dessen angepasst werden, was Sie über Ihre Zielgruppe wissen, und die Ihren Kunden folgen, selbst wenn sie zu verschiedenen Websites wechseln<!-- verify if that's true without Adobe CDP -->. Die Storys können sich beispielsweise je nach Kundenverhalten, Geografie, Demografie, Retargeting, Position auf der Kunden-Journey und mehr ändern.
+[!DNL Creative] ist direkt in Adobe Experience Manager integriert, sodass Sie die [!DNL Adobe] Bild-Assets, die Ihr Design-Team erstellt und genehmigt, einfach hochladen und dann für das Storyboarding und die Bearbeitung von Anzeigenerlebnissen in Echtzeit verwenden können.
 
-<!-- Add when available:
+## Regelbasierte und nicht zielgerichtete Erlebnisse
 
-## [!DNL Adobe] content and data integrations
+* **Zielgerichtete, regelbasierte Erlebnisse:** Erstellen Sie Geschichten mithilfe eines regelbasierten Entscheidungsbaum-Modells - Entfalten Sie eine choreografierte Reihe von Anzeigen, die in Echtzeit auf der Grundlage dessen angepasst werden, was Sie über Ihre Zielgruppe wissen. Die Storys können sich beispielsweise je nach Kundenverhalten, Geografie, Demografie, Retargeting, Position auf der Kunden-Journey und mehr ändern.
 
-[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+* **Nicht zielgerichtete Erlebnisse:** Anzeigen-Elemente zu planen und zu optimieren, ohne die Zielgruppe einzuschränken.
 
-You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
-or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
--->
+### [!DNL Adobe] von Datenintegrationen
+
+Sie können Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager und Adobe Analytics sowie Zielgruppensegmente, die Sie in Advertising Cloud DSP erstellen, und Retargeting-Pixel, die Sie mithilfe von [!DNL Creative] erstellen, als Ziele für bestimmte Kreative in einem Werbeerlebnis verwenden. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementierung von Erlebnissen als Anzeigen
 
-Nachdem Sie ein Erlebnis erstellt haben, können Sie ein JavaScript- oder iframe-Tag für das Erlebnis generieren und das Tag als Drittanbieteranzeige in Advertising DSP oder einem anderen DSP implementieren.<!-- Add any more info about integration with DSP? -->
-
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
-
-Advertiser should be able to target all segments which are available in DSP for targeting
--->
+Nachdem Sie ein Erlebnis erstellt haben, können Sie ein JavaScript- oder iframe-Tag für das Erlebnis generieren und das Tag als Standardanzeige eines Drittanbieters in einer Advertising DSP-Kampagne oder in einem anderen DSP implementieren.<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
 
 ### Optimierung von Werbeelementen
 
 Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis basierend auf der Leistung zu optimieren - unabhängig davon, ob Sie bestimmte Zielgruppenziele definieren oder nicht -, indem Sie eine optimierte, gewichtete Anzeigenrotation verwenden, die von Adobe Sensei unterstützt wird.
+
+<!--
+[!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
+-->
 
 ## Retargeting von Pixeln
 
@@ -67,7 +66,7 @@ to the DSP.
 
 Sie können detaillierte Leistungsberichte auf Erlebnisebene unter Kreative > Erlebnisse anzeigen.
 
-Sie können unter Berichte > Benutzerdefinierte Berichte auch benutzerdefinierte Creative-Berichte erstellen, um die Leistung auf Erlebnisebene in allen Ihren Erlebnissen zu überwachen. Wenn Sie Ihre [!DNL Creative] Erlebnisse als Anzeigen in DSP-Kampagnen verwenden, sind Leistungsdaten für diese Anzeigen in zusätzlichen benutzerdefinierten Berichten verfügbar, genau wie Daten für Ihre anderen DSP-Anzeigen. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Sie können unter Berichte > Benutzerdefinierte Berichte auch benutzerdefinierte Creative-Berichte erstellen, um die Leistung auf Erlebnisebene in allen Ihren Erlebnissen zu überwachen. Wenn Sie Ihre [!DNL Creative] Erlebnisse als Anzeigen in DSP-Kampagnen verwenden, sind Leistungsdaten für diese Anzeigen in zusätzlichen benutzerdefinierten Berichten verfügbar, genau wie Daten für Ihre anderen DSP-Anzeigen. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
 Optional können Sie Ihre benutzerdefinierten Berichte an bestimmte [Berichtsziele](/help/dsp/reports/report-destinations/report-destination-about.md) senden.
 

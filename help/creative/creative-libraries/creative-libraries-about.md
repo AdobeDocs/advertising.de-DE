@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
+source-git-commit: 9782471837db19d14839027ea7a576484863bb69
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie können einfache oder statische HTML5-Kreative mit allen angegebenen Attribu
 
 #### Image-Kreative
 
-Sie können Bildkreative im GIF-, JPEG-, JPG- oder PNG-Format einbeziehen. Sie können Bilder von Ihren Adobe Experience Manager-Konten oder Bilder von Ihrem Gerät oder Netzwerk hochladen.
+Sie können Bildkreative im GIF-, JPEG-, JPG- oder PNG-Format einbeziehen. Sie können genehmigte Bilder von Ihren Adobe Experience Manager-Konten oder Bilder von Ihrem Gerät oder Netzwerk hochladen.
 
 Für jedes Werbeerlebnis ist ein Standardbild erforderlich, das für jede dem Erlebnis zugewiesene Kreativgröße erstellt wird.
 
