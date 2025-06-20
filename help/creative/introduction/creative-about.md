@@ -2,7 +2,7 @@
 title: Über Adobe Advertising Creative
 description: Informationen über [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
+source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie fü
 
 ### [!DNL Adobe] von Datenintegrationen
 
-Sie können Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager und Adobe Analytics sowie Zielgruppensegmente, die Sie in Advertising Cloud DSP erstellen, und Retargeting-Pixel, die Sie mithilfe von [!DNL Creative] erstellen, als Ziele für bestimmte Kreative in einem Werbeerlebnis verwenden. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Sie können Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager und Adobe Analytics sowie benutzerdefinierte Zielgruppensegmente, die Sie in Advertising DSP erstellen, und Retargeting-Pixel, die Sie mit [!DNL Creative] erstellen, als Ziele für bestimmte Kreative in einem Werbeerlebnis verwenden. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementierung von Erlebnissen als Anzeigen
 
