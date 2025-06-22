@@ -3,18 +3,24 @@ title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 12bed1b0a88009ef2a4ee2bad6f2d47a99034a7e
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
 
 # Anmelden
 
-Sie können sich direkt oder über Adobe Experience Cloud bei Search, Social und Commerce anmelden.
+<!-- update with new info -->
 
-## Direkt anmelden
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * Melden Sie sich bei einer der folgenden URLs an:
 
@@ -22,17 +28,21 @@ Sie können sich direkt oder über Adobe Experience Cloud bei Search, Social und
 
    * Benutzer in allen anderen Bereichen: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Von Adobe Experience Cloud anmelden
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->Ihr Unternehmen muss in Adobe Experience Cloud bereitgestellt werden und Sie müssen [Ihr Experience Cloud-Konto mit einem Search, Social und Commerce-Konto verknüpft haben](https://experiencecloud.adobe.com/resources/help/de_DE/mcloud/organizations.html).
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Bei Adobe Experience Cloud anmelden](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=de#signin).
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. Wählen Sie im oberen Menü die Option ![Lösungsauswahl](/help/search-social-commerce/assets/menu-icon.png "Lösungsauswahl") aus.
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. Wählen Sie im Untermenü **[!UICONTROL Advertising Cloud]** aus.
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
