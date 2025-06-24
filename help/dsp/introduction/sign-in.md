@@ -3,7 +3,7 @@ title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
+source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Advertising DSP stellt zur Anmeldeauthentifizierung auf den Adobe Identity
 
 * Sie können 24 Stunden lang angemeldet bleiben, anstatt sich stündlich anzumelden.
 
-Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 26. Juni 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
+Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 15. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
 ## Legacy-DSP-Anmeldung zur Authentifizierung verwenden
 
@@ -42,15 +42,15 @@ Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 26. Juni 2025 aktiv, damit Sie s
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto** aus.
+   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto** aus.
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 
