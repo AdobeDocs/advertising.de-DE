@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1746'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,16 @@ ht-degree: 2%
    + [Unterstütztes Inventar](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integration mit Adobe Experience Cloud {#integrations}
       + [Integration mit Adobe Experience Cloud-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de){target="_blank"}
-      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=de){target="_blank"}
-   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=de){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Erste Schritte {#getting-started}
    + [Implementierungsübersicht](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemanforderungen](/help/search-social-commerce/getting-started/system-requirements.md)
    + [Anmelden](/help/search-social-commerce/getting-started/sign-in.md)
    + [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md)
+   + [Wechseln zwischen der neuen und der alten Benutzeroberfläche](/help/search-social-commerce/getting-started/ui-switch.md)
    + [Abmelden](/help/search-social-commerce/getting-started/sign-out.md)
 + Allgemeine Aufgaben {#common-tasks}
    + [Anzeigen von Daten für einen anderen Advertiser](/help/search-social-commerce/common-tasks/change-advertiser.md)
@@ -80,7 +81,7 @@ ht-degree: 2%
             + [Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klick-Tracking-Formate für [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optionale Tracking-Parameter für Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=de){target="_blank"}
+      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Der Tracking-Parameter der AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konversionsverfolgung {#conversion-tracking}
       + [Konversionsverfolgungs-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
