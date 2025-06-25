@@ -34,7 +34,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. (Um Benutzer-ID-Remarketing-Listen-Zielgruppen zu erstellen) Ein [!DNL Adobe]-Admin-Benutzer oder Account Manager muss die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für den Kundenabgleich zu aktivieren.
 
-   1. Implementieren Sie [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
+   1. Implementieren Sie [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) Version 2.0 oder höher.
 
    1. Stellen Sie das folgende Tag so hoch wie möglich auf den Webseiten des Werbetreibenden bereit, von denen aus die Zielgruppe verfolgt werden soll
 
