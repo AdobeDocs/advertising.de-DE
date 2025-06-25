@@ -3,7 +3,7 @@ title: Anwenden oder Abbrechen einer Publisher-Empfehlung
 description: Erfahren Sie, wie Sie eine Publisher-Empfehlung anzeigen, anwenden oder ablehnen können.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Sehen Sie sich für eine Empfehlung des Herausgebers die empfohlenen Aktionen un
 
 >[!NOTE]
 >
->Zwar helfen Ihnen die Empfehlungen, die Leistung von Kampagnen zu verbessern, doch stimmen einige möglicherweise nicht mit Ihren umfassenderen Zielen überein. Daher ist es am besten, sich vor der Implementierung einer Empfehlung mit Ihrem Adobe-Account-Team in Verbindung zu setzen.
+>Zwar helfen Ihnen die Empfehlungen, die Leistung von Kampagnen zu verbessern, doch stimmen einige möglicherweise nicht mit Ihren umfassenderen Zielen überein. Daher ist es am besten, sich vor der Implementierung einer Empfehlung mit Ihrem Adobe Account Team in Verbindung zu setzen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
@@ -28,9 +28,9 @@ Sehen Sie sich für eine Empfehlung des Herausgebers die empfohlenen Aktionen un
 
 1. (Optional) Filtern Sie die Empfehlungen nach Kategorie und Typ.
 
-1. Klicken Sie in der Spalte [!UICONTROL Actions] für die Empfehlung- oder Insight-Zeile auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte [!UICONTROL Actions] für die Zeile Empfehlung oder insight auf **[!UICONTROL View]**.
 
-1. (Recommendations mit Empfehlungen unter) Klicken Sie **[!UICONTROL View]** neben der Empfehlung unter.
+1. (Recommendations mit untergeordneten Recommendations) Klicken Sie **[!UICONTROL View]** neben der untergeordneten Recommendation.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 

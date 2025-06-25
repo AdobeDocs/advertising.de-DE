@@ -3,7 +3,7 @@ title: Von Feeds generierte Kampagnendaten in Werbenetzwerke posten
 description: Erfahren Sie, wie Sie aus Inventardaten-Feeds generierte Daten in Werbenetzwerke posten.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
   >
   >Wenn Sie Ihre Landingpages zuvor nicht validiert haben und dies tun möchten, [ Sie die Daten in der [!UICONTROL Bulksheets]-Ansicht ](feed-data-propagate.md) und in der Vorschau anzeigen, anstatt sie im Werbenetzwerk zu posten. Anschließend können Sie [URLs überprüfen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) bevor Sie die Datei manuell im Werbenetzwerk posten.
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
    1. Aktivieren Sie das Kontrollkästchen neben der Vorlage.
 
@@ -54,7 +54,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
 
               Um ein Datum anzugeben, verwenden Sie das Format TT/MM/JJJJ oder TT/M/JJJJ oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender"), um den Kalender zu öffnen und [ein Datum auszuwählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Um eine Zeit zu ändern, geben Sie die Zeit im 24-Stunden-Format HH/MM oder H/M ein oder wählen Sie eine Zeit (in 30-Minuten-Intervallen) aus der Liste aus.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Erstellt eine Bulk Sheet-Datei, die in der Ansicht [!UICONTROL Search] > [!UICONTROL Bulksheets] verfügbar ist. Sie können die Datei optional von dort aus posten.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Erstellt eine Bulk Sheet-Datei, die in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets] verfügbar ist. Sie können die Datei optional von dort aus posten.
 
            Wenn die resultierende Bulksheet-Datei größer als 2 MB ist, liegt die Datei im ZIP-Format vor. Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen.
 

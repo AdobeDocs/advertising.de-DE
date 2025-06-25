@@ -3,7 +3,7 @@ title: Nur [!DNL Naver] Tracking-Konten implementieren
 description: Erfahren Sie, wie Sie Tracking-Kampagnen für Ihre  [!DNL Naver]  einrichten, damit Sie die Leistung der Anzeigen, die Sie direkt im Anzeigennetzwerk kaufen, verfolgen, in Berichten erfassen und visualisieren können.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -64,11 +64,11 @@ Sie können Leistungsmetriken für all Ihre Kampagnen und für jede einzelne Kam
 
    Schließen Sie die vollständige Kontenhierarchie und alle Metriken ein, die Sie einbeziehen möchten. Search, Social und Commerce stimmen die hochgeladenen Daten mit den Daten in bestehenden Kampagnen überein.
 
-1. (Optional) Wenn Sie Adobe Advertising-Konversions-Tracking-Service-Tags auf Ihren Web-Seiten verwenden, um Konversionen zu verfolgen, die nicht im Werbenetzwerk verfolgt werden, senden Sie Feed-Dateien mit täglich aggregierten Konversionsdaten, um sie zu Ihren Tracking-Kampagnen hinzuzufügen.
+1. (Optional) Wenn Sie auf Ihren Web-Seiten Service-Tags des Adobe Advertising-Konversionsverfolgungs-Services verwenden, um Konversionen zu verfolgen, die nicht im Werbenetzwerk verfolgt werden, senden Sie Feed-Dateien mit täglich aggregierten Konversionsdaten, um sie zu Ihren Tracking-Kampagnen hinzuzufügen.
 
    Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] unter [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
+Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
 
 >[!MORELIKETHIS]
 >

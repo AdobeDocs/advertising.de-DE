@@ -3,7 +3,7 @@ title: Anhalten eines laufenden Bulksheet-Vorgangs
 description: Erfahren Sie, wie Sie einen Bulksheet-Auftrag stoppen, während er in Bearbeitung ist.
 exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können jeden Bulksheet-Vorgang, einschließlich der Veröffentlichung einer Datei, stoppen, während er noch in Bearbeitung ist.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Aufgabe, die Sie stoppen möchten.
 

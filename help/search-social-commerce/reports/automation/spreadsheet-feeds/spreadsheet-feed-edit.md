@@ -3,7 +3,7 @@ title: Bearbeiten von Tabellenbericht-Feed-Einstellungen
 description: Erfahren Sie, wie Sie die Einstellungen für Tabellen-Feeds bearbeiten.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können ändern, welche Berichtsvorlage, [!DNL Microsoft Excel] Vorlage und 
 >
 > Wenn Sie die Spalten in der Berichtsvorlage bearbeiten oder eine neue oder aktualisierte Berichtsvorlage verwenden, müssen Sie die [!DNL Excel] entsprechend aktualisieren und erneut hochladen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. (Optional) So aktualisieren Sie die Berichtsvorlage oder die [!DNL Excel], die für den Tabellen-Feed verwendet wird:
 

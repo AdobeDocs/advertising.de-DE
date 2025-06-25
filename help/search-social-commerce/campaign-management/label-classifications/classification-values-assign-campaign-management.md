@@ -3,7 +3,7 @@ title: Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten
 description: Erfahren Sie, wie Sie den Kontokomponenten Klassifizierungswerte zuweisen.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 >
 >Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
 
-1. Klicken Sie auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, und wählen Sie dann die Ansicht der Kontokomponente aus.
+1. Klicken Sie auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, und wählen Sie dann die Ansicht der Kontokomponente aus.
 
 1. Führen Sie einen der folgenden Schritte aus:
 

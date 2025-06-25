@@ -3,7 +3,7 @@ title: Erstellen einer Berichtsvorlage
 description: Erfahren Sie, wie Sie eine wiederverwendbare Berichtsvorlage erstellen.
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können mehrere Berichtsvorlagen für jede Art von Leistungsbericht speicher
 
    * Auf der Registerkarte [!UICONTROL Templates] :
 
-      * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+      * Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
       * Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
@@ -32,7 +32,7 @@ Sie können mehrere Berichtsvorlagen für jede Art von Leistungsbericht speicher
 
 * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
    1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 

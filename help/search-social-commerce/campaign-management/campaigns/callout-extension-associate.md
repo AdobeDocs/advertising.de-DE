@@ -3,7 +3,7 @@ title: Verknüpfen  [!DNL Google Ads]  freigegebenen Callout-Erweiterungen mit K
 description: Erfahren Sie, wie Sie  [!DNL Google Ads] freigegebenen Callout-Erweiterungen Kampagnen oder Anzeigengruppen zuweisen.
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können Callout-Erweiterungen für beliebige [unterstützte [!DNL Google Ads
 
 Weisen Sie mindestens zwei Hinweisen pro Kampagne oder Anzeigengruppe zu, damit Ihre Anzeigen für die Anzeige mit Hinweisen geeignet sind.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") und wählen Sie dann **[!UICONTROL Callout]** aus.
 

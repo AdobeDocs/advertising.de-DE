@@ -3,7 +3,7 @@ title: ' [!DNL Adobe]  Zielgruppen'
 description: Erfahren Sie, wie Sie Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für Ihre Zielgruppen  [!DNL Adobe] .
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Sie können Search, Social und Commerce erlauben, Metadaten, Hierarchiedaten und
 
 * Segmente, die mit dem Adobe Experience Cloud-[!DNL Audience Library] erstellt werden
 
-Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
+Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
 
 Die erste Synchronisierung dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von ein bis zwei Sekunden synchronisiert.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
 
 1. Geben Sie die eindeutige Organisations-ID für das Adobe Experience Cloud-Konto des Werbetreibenden ein und klicken Sie dann auf **[!UICONTROL Submit]**.
 

@@ -3,7 +3,7 @@ title: Über Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen,
 
 ## Die Ansicht Kennzeichnungen - Klassifizierungen
 
-Die [!UICONTROL Labels Classifications] im Menü [!UICONTROL Search] > [!UICONTROL Campaigns] enthält [!UICONTROL Classifications] und [!UICONTROL Label Values] Unteransichten. Sie können Daten für Ihre Kennzeichnungsklassifizierungen anzeigen, Kennzeichnungsklassifizierungen [erstellen](classification-create.md) und [löschen](classification-delete.md) und Daten für Ihre Kennzeichnungsklassifizierungswerte anzeigen. Standardmäßig werden Daten für Ihre Kennzeichnungsklassifizierungen und -werte auf Schlüsselwortebene angezeigt, Sie können jedoch optional Daten für Ihre Klassifizierungen und Werte auf Anzeigenebene anzeigen.
+Die [!UICONTROL Labels Classifications] im Menü [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] enthält [!UICONTROL Classifications] und [!UICONTROL Label Values] Unteransichten. Sie können Daten für Ihre Kennzeichnungsklassifizierungen anzeigen, Kennzeichnungsklassifizierungen [erstellen](classification-create.md) und [löschen](classification-delete.md) und Daten für Ihre Kennzeichnungsklassifizierungswerte anzeigen. Standardmäßig werden Daten für Ihre Kennzeichnungsklassifizierungen und -werte auf Schlüsselwortebene angezeigt, Sie können jedoch optional Daten für Ihre Klassifizierungen und Werte auf Anzeigenebene anzeigen.
 
 >[!MORELIKETHIS]
 >

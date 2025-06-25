@@ -3,7 +3,7 @@ title: Exportieren einer generierten oder hochgeladenen Bulksheet-Datei
 description: Erfahren Sie, wie Sie eine Bulksheet-Datei herunterladen, einschließlich Fehlerdateien und Landingpage-Validierungsdateien.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können alle generierten oder hochgeladenen Bulksheet-Dateien, einschließlich Fehlerdateien und Landingpage-Validierungsdateien, für 30 Tage herunterladen. Die Dateien werden 30 Tage nach dem Hochladen oder Generieren automatisch gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. (Optional) Wählen Sie über der Bulksheet-Liste [Filter hinzufügen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md), um die aufgeführten Dateien zu begrenzen.
 

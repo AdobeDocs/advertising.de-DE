@@ -3,7 +3,7 @@ title: Anzeigen von Publisher-Empfehlungen und Leistungseinblicken
 description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Recommendations- und  [!DNL Microsoft Advertising]  für Ihre Werbenetzwerkkonten anzeigen können.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Empfehlungen des Herausgebers anzeigen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ## Anzeigen von [!DNL Microsoft Advertising] Leistungseinblicken
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 
 1. Klicken Sie über der Datentabelle auf **[!UICONTROL Insights]** .
 
-1. Wenn die [!UICONTROL Actions] Spalte für die Zeile eine Aktion enthält, können Sie optional auf **[!UICONTROL Click here]** klicken, um den [!DNL Microsoft Advertising]-Editor zu öffnen, in dem Sie die Einblicke bearbeiten können.
+1. Wenn die [!UICONTROL Actions] Spalte für die Zeile eine Aktion enthält, können Sie optional auf **[!UICONTROL Click here]** klicken, um den [!DNL Microsoft Advertising]-Editor zu öffnen, in dem Sie die insight bearbeiten können.
 
    Wenn Sie nicht beim [!DNL Microsoft Advertising]-Editor angemeldet sind, werden Sie zunächst zum Anmeldebildschirm weitergeleitet.
 

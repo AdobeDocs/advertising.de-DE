@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * Negative Übereinstimmung der Phrasen: `"keyword"`
 * Negative exakte Übereinstimmung: `[keyword]`
 
-Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.
+Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.

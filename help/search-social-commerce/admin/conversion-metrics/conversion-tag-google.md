@@ -3,7 +3,7 @@ title: Erstellen Sie ein Konvertierungs-Tag für [!DNL Google Ads]
 description: Erfahren Sie, wie Sie ein Konversions [!DNL Google Ads] Tag erstellen.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können Konversions-Tags für neue Konversionen erstellen, die für einzelne
 
 Verwenden Sie den Editor des Anzeigennetzwerks, um Konvertierungs-Tags für vorhandene Konvertierungen zu generieren.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, wodurch die Registerkarte **[!UICONTROL Summary]** geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, wodurch die Registerkarte **[!UICONTROL Summary]** geöffnet wird.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 

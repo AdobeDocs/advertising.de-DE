@@ -3,7 +3,7 @@ title: Einrichten von Cookie-basiertem Klick-Tracking
 description: Erfahren Sie, wie Sie Klick-Tracking-Tags einrichten und validieren.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und validiert werden, um Klicks zu verfolgen.
 
-1. (Adobe-Account-Team) Richten Sie den Advertiser als Pixel-Kunde ein.
+1. (Adobe-Konto-Team) Richten Sie den Advertiser als Pixel-Kunde ein.
 
 1. [Geben Sie die richtigen Tracking-Optionen für die einzelnen Konten und Kampagnen des Werbenetzwerks des Werbetreibenden an](#set-up-click-tracking-options).
 
@@ -28,7 +28,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 1. Gehen Sie für jedes Anzeigennetzwerkkonto wie folgt vor:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Halten Sie den Cursor über den Kontonamen, klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol") und wählen Sie dann **[!UICONTROL Edit]** aus.
 
@@ -42,7 +42,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 1. Gehen Sie für jede Kampagne wie folgt vor:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Halten Sie den Cursor über den Kampagnennamen, klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol") und wählen Sie dann **[!UICONTROL Edit]**.
 

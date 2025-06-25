@@ -3,7 +3,7 @@ title: Löschen von Anzeigenerweiterungsverknüpfungen mit Kampagnen und Anzeige
 description: Erfahren Sie, wie Sie Anzeigenerweiterungen von Kampagnen und Anzeigengruppen trennen.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising]*
 
 Sie können Zuordnungen auf Kampagnen- und Anzeigengruppenebene mit einer beliebigen Standort-, Telefon- und Sitelink-Erweiterung löschen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Verknüpfung, die Sie löschen möchten.
 

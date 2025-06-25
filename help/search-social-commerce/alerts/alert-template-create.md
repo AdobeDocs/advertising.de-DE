@@ -3,7 +3,7 @@ title: Erstellen einer benutzerdefinierten Warnhinweisvorlage
 description: Erfahren Sie, wie Sie eine Vorlage zum Generieren benutzerdefinierter Warnhinweise erstellen.
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können eine Warnhinweisvorlage für Portfolios, Kampagnen, Anzeigengruppen,
 
 ## Erstellen einer Warnhinweisvorlage aus der [!UICONTROL Alert Templates]
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, wodurch die [!UICONTROL Alert Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, wodurch die [!UICONTROL Alert Templates] geöffnet wird.
 
 1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") und wählen Sie dann den auszuwertenden Entitätstyp aus ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] oder [!UICONTROL Product Group]).
 
@@ -32,9 +32,9 @@ Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartenna
 >
 >Diese Option ist nicht für Warnvorlagen auf Portfolioebene verfügbar.
 
-1. Öffnen Sie in der Ansicht **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** die Unteransicht Kampagnenverwaltung für den zu evaluierenden Entitätstyp ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] oder [!UICONTROL Product Groups]).
+1. Öffnen Sie in der Ansicht **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** die Unteransicht Kampagnenverwaltung für den zu evaluierenden Entitätstyp ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] oder [!UICONTROL Product Groups]).
 
-Um beispielsweise eine Warnhinweisvorlage auf Keyword-Ebene zu erstellen, navigieren Sie zu [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] und klicken Sie dann auf [!UICONTROL Keywords].
+Um beispielsweise eine Warnhinweisvorlage auf Keyword-Ebene zu erstellen, navigieren Sie zu [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] und klicken Sie dann auf [!UICONTROL Keywords].
 
 1. Klicken Sie rechts in der Symbolleiste oberhalb der Datentabelle auf ![Warnhinweis erstellen](/help/search-social-commerce/assets/add-alert.png "Warnhinweis erstellen").
 

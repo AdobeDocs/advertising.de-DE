@@ -3,7 +3,7 @@ title: Erstellen einer Konvertierungsaktion für eine  [!DNL Google Ads]  Konver
 description: Erfahren Sie, wie Sie eine  [!DNL Google Ads]  für eine erweiterte Konversion für Leads erstellen.
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
-source-git-commit: f29d5173547a48ea818a93a0b931d5fb27e10044
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Nur *[!DNL Google Ads]Konten*
 
 Sie können Konversionsaktionen für [!DNL Google Ads] erweiterten Konversionen für Leads erstellen, die für einzelne [!DNL Google Ads] verfolgt werden sollen, und nicht für Konversionen, die auf der Ebene eines Manager-Kontos verfolgt werden.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**. Dadurch wird die Registerkarte **[!UICONTROL Summary]** geöffnet.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**. Dadurch wird die Registerkarte **[!UICONTROL Summary]** geöffnet.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 

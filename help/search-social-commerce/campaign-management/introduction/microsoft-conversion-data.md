@@ -3,7 +3,7 @@ title: Konvertierungsdaten [!DNL Microsoft Advertising]
 description: Erfahren Sie mehr über die Typen  [!DNL Microsoft Advertising] verfolgten Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -36,11 +36,11 @@ Zwei Metriken für jede [[!DNL Microsoft Advertising]-getrackte Konversion](http
 
 Daten sind basierend auf der Klickzeit und auf der Konversions-/Transaktionszeit ab dem Datum verfügbar, an dem die Funktion für das Konto aktiviert wurde.
 
-[!DNL Microsoft Advertising] zeichnet jede Konvertierung nach [Gebotseinheit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klickdatum (nicht Konvertierungsdatum) auf. Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Microsoft Advertising]. Die Adobe Advertising-Attribution wird nicht berücksichtigt, da keine Daten auf Klickereignis-Ebene verfügbar sind.
+[!DNL Microsoft Advertising] zeichnet jede Konvertierung nach [Gebotseinheit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klickdatum (nicht Konvertierungsdatum) auf. Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Microsoft Advertising]. Die Adobe Advertising-Attribution wird nicht berücksichtigt, da keine Daten auf Klick-Ereignisebene verfügbar sind.
 
 >[!NOTE]
 >
->* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Wenn dies auftritt, [ändern Sie den Anzeigenamen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken unter [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
+>* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden in Adobe Advertising möglicherweise doppelte Konversionsnamen angezeigt. Wenn dies auftritt, [ändern Sie den Anzeigenamen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken unter [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Gebotseinheiten stimmen mit Daten im Anzeigennetzwerk auf derselben Ebene überein. Die eigenen Konversionsdaten des Anzeigennetzwerks für höhere Ebenen können jedoch zusätzliche Konversionen enthalten, die nicht den untergeordneten Gebotseinheiten zugeordnet werden. Daten in Search, Social und Commerce werden immer ab der Ebene der Gebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene nicht dieselben Summen wie ein Bericht auf Kampagnenebene im Werbenetzwerk hat.
 >* Die Datenvarianz ist in der Regel nach der morgendlichen Synchronisierung geringer als nach der späteren am Tag, wenn zusätzliche Konversionen noch nicht synchronisiert wurden. Es wird empfohlen, die Daten morgens zu validieren.
 >* Daten sind nicht auf Audience- oder geografischer Standortebene verfügbar und werden daher nicht zur automatischen Optimierung von RLSA- und Standortangebotsanpassungen verwendet.
@@ -57,7 +57,7 @@ Generieren Sie den Bericht für die ausgewählten Konversionsaktionen nach Tag u
 
 Verwenden Sie in Search, Social und Commerce die Option Anzeigen oder Bericht , um Konversionen basierend auf dem Klickdatum (nicht dem Transaktionsdatum) anzuzeigen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]**, halten Sie den Cursor über **[!UICONTROL Basic Reports]** und klicken Sie dann auf **[!UICONTROL Search Engine Account Report]**.
 

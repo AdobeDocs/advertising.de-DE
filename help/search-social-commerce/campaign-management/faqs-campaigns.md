@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu Kampagnen
 description: Antworten auf Fragen zur Kampagnenverwaltung und zu den Ansichten der Kampagnendaten.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Darüber hinaus werden [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im
 >
 >(Werbetreibende mit Portfolios) Erwarten, dass die Performance neuer Keyword- und Match-Type-Kombinationen volatil ist, während Search, Social und Commerce Daten sammeln, um Modelle für sie zu erstellen.
 
-**Aktionen in den [!UICONTROL Search] > [!UICONTROL Campaigns], im Bulksheet-Buchungsprozess und im eigenen Editor des Anzeigennetzwerks:**
+**Aktionen in den [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], im Bulksheet-Buchungsprozess und im eigenen Editor des Anzeigennetzwerks:**
 
 Das vorhandene Keyword oder die Anzeige wird gelöscht und ein weiteres wird erstellt, wenn:
 
@@ -99,7 +99,7 @@ In beiden Fällen enthalten die Basis-URLs mit Search-, Social- und Commerce-Tra
 
 [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag werden um 08:00 Uhr und 16:00 Uhr in der Zeitzone des Werbetreibenden abgerufen.
 
-Wenn Sie auf der Registerkarte [!UICONTROL Campaigns] sowohl in der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] als auch in der Ansicht [!UICONTROL Optimization] > [!UICONTROL Portfolios] Berichte zu [!UICONTROL Today] oder einem benutzerdefinierten Datumsbereich erstellen, der den aktuellen Tag enthält, umfassen die Daten die zuletzt synchronisierten Daten.
+Wenn Sie auf der Registerkarte [!UICONTROL Campaigns] sowohl in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] als auch in der Ansicht [!UICONTROL Optimization] > [!UICONTROL Portfolios] Berichte zu [!UICONTROL Today] oder einem benutzerdefinierten Datumsbereich erstellen, der den aktuellen Tag enthält, umfassen die Daten die zuletzt synchronisierten Daten.
 
 >[!NOTE]
 >

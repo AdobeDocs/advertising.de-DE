@@ -3,7 +3,7 @@ title: Verwalten von Einkaufsproduktgruppen
 description: Erfahren Sie, wie Sie in Shopping-Kampagnen Shopping-Produktgruppen erstellen und verwalten.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
 
-In der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > Produktgruppen können Sie Produktgruppen erstellen und bearbeiten sowie Produktgruppen und deren untergeordnete Produktgruppen [!UICONTROL Product Groups].
+In der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > Produktgruppen können Sie Produktgruppen erstellen und bearbeiten sowie Produktgruppen und deren untergeordnete Produktgruppen [!UICONTROL Product Groups].
 
 ## Erstellen einer &quot;[!UICONTROL All Products]&quot;-Produktgruppe
 
@@ -24,7 +24,7 @@ Bevor Sie Produktgruppen mit bestimmten Attributen erstellen können, müssen Si
 >
 >Um mehrere Kontokomponenten gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -46,7 +46,7 @@ Nachdem Sie mindestens eine vollständige &quot;[!UICONTROL All Products]&quot;-
 >
 >Um mehrere Kontokomponenten gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Optional) Um eine Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen, halten Sie den Cursor über dem Namen der Produktgruppe, klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol") und wählen Sie dann **[!UICONTROL Tree View]** aus.
 
@@ -60,7 +60,7 @@ Nachdem Sie mindestens eine vollständige &quot;[!UICONTROL All Products]&quot;-
 
 Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produktgruppen ohne untergeordnete Produktgruppenknoten) bearbeiten, die für eine Anzeigengruppe enthalten sind. Sie können keine Informationen für ausgeschlossene Produktgruppen oder für eingeschlossene oder ausgeschlossene Unterteilungsknoten bearbeiten, bei denen es sich um Produktgruppen mit untergeordneten Produktgruppenknoten handelt.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Optional) Um eine Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen, halten Sie den Cursor über dem Namen der Produktgruppe, klicken Sie auf ![Menüsymbol](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menüsymbol") und wählen Sie dann **[!UICONTROL Tree View]** aus.
 
@@ -88,7 +88,7 @@ Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produ
 
 Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles andere“, wenn andere Produktgruppen auf derselben Ebene vorhanden sind -, mit der bestimmt wird, welche Produkte in Ihrem Merchant-Center-Konto in den Shopping-Anzeigen für die Anzeigengruppe enthalten sind. Beim Löschen einer Produktgruppe werden alle untergeordneten Produktgruppen gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Optional) Filtern Sie die Liste nach bestimmten Produktgruppen.
 

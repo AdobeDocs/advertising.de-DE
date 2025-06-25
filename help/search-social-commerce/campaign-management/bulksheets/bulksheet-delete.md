@@ -3,7 +3,7 @@ title: Hochgeladene Bulksheets und Fehlerdateien löschen
 description: Erfahren Sie, wie Sie Bulksheet-Dateien und Fehlerdateien löschen können.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können Bulksheet-Dateien, Fehlerdateien bei der Landingpage-Validierung und
 >
 >Wenn Sie eine Bulksheet gepostet haben, aber Fehler erhalten haben, löschen Sie die Fehlerdatei nicht, bis alle Fehler behoben sind.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder zu löschenden Datei.
 

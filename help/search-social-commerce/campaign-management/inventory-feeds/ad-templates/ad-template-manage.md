@@ -3,7 +3,7 @@ title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Inventardaten zur Verwaltung der Kontostruktur und zur Bereitstellung dynamischer Anzeigen verarbeitet werden können.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Jede Vorlage kann aktiviert, angehalten oder gelöscht werden. Feed-Daten könne
 
 Erstellen Sie separate Vorlagen für Text- und erweiterte/erweiterte Textanzeigen, responsive Suchanzeigen, [!DNL Google Ads] Shopping-Anzeigen und [!DNL Microsoft Advertising] Shopping-Anzeigen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -137,7 +137,7 @@ Sie können jede pausierte Daten-Feed-Vorlage aktivieren oder jede aktive Daten-
 >
 >Sie können Daten manuell über eine pausierte Vorlage weitergeben, Daten werden jedoch nicht automatisch weitergegeben.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, deren Status Sie ändern möchten.
 
@@ -145,7 +145,7 @@ Sie können jede pausierte Daten-Feed-Vorlage aktivieren oder jede aktive Daten-
 
 ## Feed-Vorlagen löschen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie löschen möchten.
 

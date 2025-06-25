@@ -3,7 +3,7 @@ title: Decodieren einer Klick-Tracking-URL
 description: Erfahren Sie, wie Sie Klick-Tracking-Code für Search, Social und Commerce aus einer Basis-URL entfernen können.
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Sie können sehen, wohin eine Ziel-URL eine Benutzerin oder einen Benutzer tats�
 >
 >* Sie können beliebig viele URLs gleichzeitig decodieren. Die Leistung hängt jedoch vom verwendeten Browser ab.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
 
 1. Geben Sie im Eingabefeld jede URL ein, die den Trackingcode für Suche, Social und Commerce enthält.
 

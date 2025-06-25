@@ -3,7 +3,7 @@ title: Übertragen von Inventar-Feed-Daten über Vorlagen
 description: Erfahren Sie, wie Sie Daten aus Ihren Inventar-Feeds über Anzeigenvorlagen übertragen können, um die Kontostruktur zu verwalten und dynamische Anzeigen bereitzustellen.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Bei der Übertragung von Daten können Sie optional eine Vorschau der generierte
 
 ## Übertragen von Feed-Dateien über die Registerkarte [!UICONTROL Templates]
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Aktivieren Sie das Kontrollkästchen neben den zu propagierenden Vorlagen.
 
@@ -44,7 +44,7 @@ Bei der Übertragung von Daten können Sie optional eine Vorschau der generierte
 
 ## Übertragen von Feed-Dateien aus der [!UICONTROL Feeds]
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Feeds]**.
 
@@ -72,7 +72,7 @@ Wenn jede Weiterleitungsaktion abgeschlossen ist, wird der Registerkarte [!UICON
 
 ## Anzeigen einer Ausbreitungszusammenfassung
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Propagations]** .
 
@@ -82,7 +82,7 @@ Wenn jede Weiterleitungsaktion abgeschlossen ist, wird der Registerkarte [!UICON
 
 Sie können einen Verbreitungsauftrag für Inventar-Feed-Daten stoppen, während der Auftrag noch in der Warteschlange ist.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Klicken Sie in der Spalte &quot;[!UICONTROL Last Prop. Status]&quot; neben dem Vorlagennamen auf **[!UICONTROL Cancel]**.
 

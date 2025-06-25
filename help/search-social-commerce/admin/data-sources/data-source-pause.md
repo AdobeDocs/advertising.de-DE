@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Datenquelle anhalten, um die Synchronisi
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Synchronisierung einer Datenquelle anhalten
 
-*Agenturadministratoren (Basisrolle), Adobe-Account-Manager und nur Administratoren*
+*Agenturadministratoren (Basisrolle), Adobe-Kundenbetreuer und nur Administratoren*
 
-Durch das Anhalten einer Datenquelle wird die zukünftige Synchronisierung mit der Datenquelle angehalten. Wenn der Feed gerade synchronisiert wird, wird der Prozess zuerst abgeschlossen, sodass die Daten auf Adobe Advertising aktuell sind.
+Durch das Anhalten einer Datenquelle wird die zukünftige Synchronisierung mit der Datenquelle angehalten. Wenn der Feed derzeit synchronisiert wird, wird der Prozess zuerst abgeschlossen, damit die Daten in Adobe Advertising aktuell sind.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben der Datenquelle, die Sie anhalten möchten.
 

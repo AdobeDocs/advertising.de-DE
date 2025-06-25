@@ -3,7 +3,7 @@ title: Zielgruppen  [!DNL Google Ads]  Kundenabgleich aus Zielgruppen  [!DNL Ado
 description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Ihren bestehenden Adobe Analytics- und Audience Manager-Zielgruppen Kundenabgleich erstellen.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
 >[!TIP]
 >
->Verwenden Sie für die Echtzeit-Segmentierung vom Audience Manager erstellte Zielgruppen. Segmente, die in [!DNL Analytics] erstellt und mit Adobe Experience Cloud synchronisiert wurden, können kleinere Populationen haben, da sie nur täglich synchronisiert werden. Ein Surfer, der für ein Segment qualifiziert ist, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] haben die Datenquelle „Report Suite - &quot;.
+>Verwenden Sie für die Echtzeit-Segmentierung von Audience Manager erstellte Zielgruppen. Segmente, die in [!DNL Analytics] erstellt und mit Adobe Experience Cloud synchronisiert wurden, können kleinere Populationen haben, da sie nur täglich synchronisiert werden. Ein Surfer, der für ein Segment qualifiziert ist, kann erst am nächsten Tag in das Segment aufgenommen werden. Segmente aus [!DNL Analytics] haben die Datenquelle „Report Suite - &quot;.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. (Um Benutzer-ID-Remarketing-Listen-Zielgruppen zu erstellen) Ein [!DNL Adobe]-Admin-Benutzer oder Account Manager muss die Einstellung auf Advertiser-Ebene auswählen, um Zielgruppen für den Kundenabgleich zu aktivieren.
 
-   1. Implementieren Sie [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) Version 2.0 oder höher.
+   1. Implementieren Sie [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) Version 2.0 oder höher.
 
    1. Stellen Sie das folgende Tag so hoch wie möglich auf den Webseiten des Werbetreibenden bereit, von denen aus die Zielgruppe verfolgt werden soll
 
@@ -46,7 +46,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [ es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert ](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 

@@ -3,7 +3,7 @@ title: Anzeigenamen für eine Konversionsmetrik ändern
 description: Erfahren Sie, wie Sie den Namen der Konversionsmetrik ändern, der in Spaltenüberschriften in Ihren Verwaltungsansichten und Berichten angezeigt wird.
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen innerhalb von Google Analytics ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken aus Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in Google Analytics ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
 1. Klicken Sie in der Spalte **[!UICONTROL Display Name]** für die Metrik in die Zelle.
 

@@ -3,7 +3,7 @@ title: Replizieren  [!DNL Google Ads]  Kampagnen in [!DNL Microsoft Advertising]
 description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem - [!DNL Google Ads]  direkt in ein synchronisiertes - [!DNL Microsoft Advertising]  exportieren.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Nicht alle Kampagneninformationen werden repliziert, und Sie müssen möglicherw
 
 Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Klicken Sie im Hauptmenü von Search, Social und Commerce auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicken Sie im Hauptmenü von Search, Social und Commerce auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Klicken Sie auf **[!UICONTROL +Import]**.
 
@@ -64,7 +64,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Importauftrag und klicken Sie dann auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
@@ -78,15 +78,15 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
 * Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
      Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+   * Klicken Sie auf der ](#campaign-import-log) [[!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Importauftrag.
 
@@ -96,7 +96,7 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
 Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten, einschließlich der Startzeit, des [!DNL Google Ads], des Zielgruppen-[!DNL Microsoft Advertising], des Benutzers, der den Auftrag erstellt hat, der Anzahl erfolgreicher und fehlgeschlagener Vorgänge und aller E-Mail-Adressen, die Benachrichtigungen für jeden Auftrag erhalten haben. Sie können weitere Details zu den Änderungen am [!DNL Microsoft Advertising]-Zielkonto anzeigen, die für jeden Auftrag aufgetreten sind, einschließlich der Anzahl der hinzugefügten, synchronisierten, gelöschten Elemente, die Fehler für jede Entitätsebene (z. B. Kampagne oder Keyword) im Konto verursacht haben.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Import Logs]** .
 

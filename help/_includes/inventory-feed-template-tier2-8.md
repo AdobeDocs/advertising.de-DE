@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ Sie können bis zu acht Ebenen (Ebenen) von Produktgruppen einbeziehen, einschli
 >[!NOTE]
 >
 >* (Nur [!DNL Google Ads]) Die möglichen Werte für [!UICONTROL Channel] sind &quot;[!UICONTROL Local]&quot; oder &quot;[!UICONTROL Online]&quot;, und die möglichen Werte für [!UICONTROL ChannelExclusivity] sind &quot;[!UICONTROL SingleChannel]&quot; und &quot;[!UICONTROL MultiChannel]&quot;.
->* Wenn Sie eine zweite (untergeordnete) Produktgruppe für eine Anzeigengruppe auf der Registerkarte [!UICONTROL Product Groups] in der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] erstellen, wird automatisch eine andere Produktgruppe namens &quot;[!UICONTROL Everything Else]&quot; mit dem Standardgebot für die Anzeigengruppe erstellt. Bei Verwendung von Inventar-Feed-Vorlagen sind jedoch &quot;[!UICONTROL Everything Else]&quot; Produktgruppen ausgeschlossen.
+>* Wenn Sie eine zweite (untergeordnete) Produktgruppe für eine Anzeigengruppe auf der Registerkarte [!UICONTROL Product Groups] in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] erstellen, wird automatisch eine andere Produktgruppe namens &quot;[!UICONTROL Everything Else]&quot; mit dem Standardgebot für die Anzeigengruppe erstellt. Bei Verwendung von Inventar-Feed-Vorlagen sind jedoch &quot;[!UICONTROL Everything Else]&quot; Produktgruppen ausgeschlossen.
 >* Wenn Sie mehrere Ebenen einbeziehen und für die endgültige (höchste) Ebene kein Wert verfügbar ist, wird die nächsthöhere Ebene als bidable-Produktgruppe verwendet. Beispiel: Wenn Sie fünf Ebenen einbeziehen und für Ebene 5 kein Wert verfügbar ist, wird Ebene 4 als bidable Produktgruppe (Einheit) verwendet. Wenn jedoch kein Wert für eine mittlere Ebene verfügbar ist, wird die Zeile ignoriert. Beispiel: Wenn Sie fünf Ebenen berücksichtigen und Ebene 5 einen Wert hat, Ebene 4 jedoch nicht, wird Zeile 4 ignoriert.

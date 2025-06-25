@@ -3,7 +3,7 @@ title: Status von Platzierungen und negativen Platzierungen ändern
 description: Erfahren Sie, wie Sie den Status von Platzierungen und negativen Platzierungen für  [!DNL Google Ads] ändern.
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können eine aktive, bidable Platzierung anhalten, um ein bidding dafür zu 
 
 Sie können auch eine aktive oder pausierte Platzierung oder eine negative Platzierung löschen. Gelöschte Platzierungen/negative Platzierungen werden aus dem Werbenetzwerk gelöscht. Sie sind immer noch sichtbar, aber man kann sie nicht ändern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
 
 1. (Optional) Filtern Sie die Liste nach bestimmten Platzierungen oder negativen Platzierungen.
 

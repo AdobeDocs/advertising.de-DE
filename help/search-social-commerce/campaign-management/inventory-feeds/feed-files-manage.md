@@ -3,7 +3,7 @@ title: Verwalten von Inventardaten-Feed-Dateien
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -24,9 +24,9 @@ Sie können Daten-Feed-Dateien wie folgt hochladen und verarbeiten:
 
 * **Automatisch per FTP:** Sie können Dateien direkt in ein FTP-Verzeichnis hochladen; der Feed-Service sucht alle zwei Stunden nach neuen Dateien. Nachdem Sie eine Datei zum ersten Mal hochgeladen haben, können Sie sie mit einer Ad-Network-spezifischen Vorlage verknüpfen. Später werden alle Dateien, die Sie mit demselben Namen hochladen, automatisch derselben Vorlage zugeordnet. Je nachdem, wie Sie [Feed-Dateneinstellungen konfigurieren](feed-settings-manage.md) können Search, Social und Commerce die Feed-Daten automatisch durch alle anwendbaren Vorlagen übertragen und optional die resultierenden Kampagnen- und Anzeigendaten an die entsprechenden Werbenetzwerke senden.
 
-  Um ein FTP-Verzeichnis zum Ablegen und automatischen Verarbeiten von Datendateien einzurichten, wenden Sie sich an Ihr Adobe-Account-Team.
+  Wenden Sie sich an Ihr Adobe-Accountteam, um ein FTP-Verzeichnis zum Ablegen und automatischen Verarbeiten von Datendateien einzurichten.
 
-* **Manuelle Verarbeitung** Sie können [Feed-Dateien hochladen](#feed-file-upload) über die Ansicht [!UICONTROL Advanced] (ACM) manuell anzeigen. Nachdem Sie eine Feed-Datei mit einer oder mehreren Anzeigennetzwerk-spezifischen [Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) verknüpft haben, können Sie Kampagnen- und Anzeigendaten generieren, indem [&#128279;](feed-settings-manage.md)die Feed-Daten entsprechend den Einstellungen für [-Daten ](feed-data-propagate.md) die Vorlagen übertragen. Sie können optional eine Vorschau der generierten Daten in Kampagnenhierarchieansichten anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei zur sofortigen Veröffentlichung im Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [veröffentlichen](propagated-data-post.md) später. Sie können [ die vorhandene Feed-Datei durch eine neue Datei ersetzen](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
+* **Manuelle Verarbeitung** Sie können [Feed-Dateien hochladen](#feed-file-upload) über die Ansicht [!UICONTROL Advanced] (ACM) manuell anzeigen. Nachdem Sie eine Feed-Datei mit einer oder mehreren Anzeigennetzwerk-spezifischen [Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) verknüpft haben, können Sie Kampagnen- und Anzeigendaten generieren, indem [die Feed-Daten entsprechend den Einstellungen für [-Daten ](feed-data-propagate.md) die Vorlagen übertragen](feed-settings-manage.md). Sie können optional eine Vorschau der generierten Daten in Kampagnenhierarchieansichten anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei zur sofortigen Veröffentlichung im Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [veröffentlichen](propagated-data-post.md) später. Sie können [ die vorhandene Feed-Datei durch eine neue Datei ersetzen](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
 
 ## Anforderungen an die Feed-Datei
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 Sie können jede Feed-Datei öffnen oder herunterladen, die manuell oder per FTP hochgeladen wurde.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Suchen Sie die Feed-Datei:
 
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie in der Online-Hilfe Ihres Browsers.
 >[!NOTE]
 > Wenn Sie eine Vorlage mit einer manuell hochgeladenen Datei verknüpfen, dann aber über FTP eine andere Datei mit demselben Namen, derselben Dateierweiterung und derselben grammatischen Groß-/Kleinschreibung hochladen, wird die FTP-Datei verwendet, wenn Sie die Daten über die Vorlage übertragen. Beispiel: myfile.csv ersetzt myfile.csv, aber Myfile.csv nicht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Feeds]**.
 
@@ -117,7 +117,7 @@ Alle Felder in der Datei werden validiert. Sie können Elemente mit ungültigen 
 
 Wenn Sie eine Feed-Datei ersetzen, bleiben alle vorhandenen Vorlagenzuordnungen erhalten, selbst wenn die neue Datei einen anderen Dateinamen oder eine andere Erweiterung aufweist. Die neue Datei wird verwendet, wenn Sie Daten durch alle Vorlagen übertragen, die ursprünglich mit der vorherigen Datei verknüpft waren.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -141,7 +141,7 @@ Alle Felder in der Datei werden validiert. Sie können Elemente mit ungültigen 
 
 Sie können jede Feed-Datei löschen, die manuell oder über FTP hochgeladen wurde. Wenn Sie eine Feed-Datei löschen, ist sie mit keiner Vorlage mehr verknüpft.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Feeds]**.
 

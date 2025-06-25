@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Klicken Sie für jede Zeichenfolge auf **[!UICONTROL Add (Up to 3)]** und geben 
    * Negative Übereinstimmung der Phrasen: `"keyword"`
    * Negative exakte Übereinstimmung: `[keyword]`
 
-Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.
+Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.
 
 **[!UICONTROL All other campaigns: Apply these negatives]:** (Alle Werbenetzwerke außer [!DNL Yandex]; optional) Alle statischen negativen Keywords auf Kampagnenebene, die für Kampagnen hinzugefügt werden sollen, deren Name nicht mit einer angegebenen Zeichenfolge übereinstimmt. Um mehrere Keywords oder mehrere Übereinstimmungstypen für dasselbe Keyword anzugeben, geben Sie sie in separaten Zeilen ein. Verwenden Sie die folgende Syntax ohne Minuszeichen:
 
@@ -29,4 +29,4 @@ Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der B
 * Negative Übereinstimmung der Phrasen: `"keyword"`
 * Negative exakte Übereinstimmung: `[keyword]`
 
-Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.
+Die übliche Syntax für Phrasen und exakte Übereinstimmungstypen wird in der Bulksheet verwendet, die erstellt wird, wenn Feed-Daten über die Vorlage übertragen werden. **Hinweis** Die negativen Keywords werden auf der Registerkarte &quot;[!UICONTROL Keywords]&quot; oder in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nicht angezeigt.

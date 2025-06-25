@@ -3,7 +3,7 @@ title: Anzeigen-Assets aus Ihrem [!UICONTROL Asset Library] anzeigen und erstell
 description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre Asset [!DNL Google Ads] Bibliotheken auf  [!DNL Microsoft Advertising] - und Kontoebene anzeigen und erstellen.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können jedes der Assets für Ihre -Kampagnen mit dem Titel „Performance M
 
 ## Erstellen und Hochladen von Assets
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 

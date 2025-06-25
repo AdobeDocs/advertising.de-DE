@@ -3,7 +3,7 @@ title: Anzeigen der für einen Advertiser verfolgten Konversionsmetriken
 description: Erfahren Sie, wie Sie eine Liste der für einen Advertiser verfolgten Konversionsmetriken anzeigen.
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Anzeigen der für einen Advertiser verfolgten Konversionsmetriken
 
-Sie können eine Liste aller Konversions[-Metriken anzeigen](/help/search-social-commerce/glossary.md#c-d) die Adobe Advertising für einen Advertiser verfolgt hat. Jede Metrikzeile enthält die Quelle der Metrik.
+Sie können eine Liste aller [Konversions-)Metriken anzeigen](/help/search-social-commerce/glossary.md#c-d) die Adobe Advertising für einen Advertiser verfolgt hat. Jede Metrikzeile enthält die Quelle der Metrik.
 
-* Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+* Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
 Es werden alle für den Advertiser erfassten Konversionsmetriken und alle ihnen zugewiesenen Anzeigenamen aufgelistet.
 

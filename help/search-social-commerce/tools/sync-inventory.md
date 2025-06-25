@@ -3,7 +3,7 @@ title: Aktivieren der zusätzlichen Inventarsynchronisierung
 description: Erfahren Sie, wie Sie  [!DNL YouTube] - und  [!DNL Google Ads] - [!DNL Microsoft Advertising] -Shopping-Kampagnen synchronisieren.
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Sie können die Synchronisierung von [!DNL Google Ads] [!DNL YouTube] Kampagnen 
 >
 >Die einfache Synchronisation [!DNL Microsoft Advertising] Smart Shopping-Kampagnen befindet sich für Self-Service-Advertiser in der Beta-Phase.
 
-Diese Kampagnentypen werden wie die anderen Kampagnentypen in Rechnung gestellt. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Diese Kampagnentypen werden wie die anderen Kampagnentypen in Rechnung gestellt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben einer Option, um die Synchronisierung zu aktivieren, oder deaktivieren Sie ein Kontrollkästchen, um die Synchronisierung zu deaktivieren.
 

@@ -3,7 +3,7 @@ title: Bearbeiten einer Berichtsvorlage
 description: Erfahren Sie, wie Sie die Einstellungen für Ihre wiederverwendbaren Berichtsvorlagen bearbeiten.
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können die Einstellungen für jede von Ihnen erstellte Berichtsvorlage ändern. Die neuen Einstellungen werden auf alle Berichte angewendet, die die Vorlage verwenden und die in Zukunft generiert werden.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 

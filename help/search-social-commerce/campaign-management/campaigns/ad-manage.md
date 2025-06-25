@@ -3,7 +3,7 @@ title: Anzeigen verwalten
 description: Erfahren Sie, wie Sie Anzeigen erstellen und verwalten.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sie können den Status von Anzeigen in der Ansicht [!UICONTROL Campaigns] > [!UI
 >
 >Um mehrere Anzeigen gleichzeitig zu erstellen, verwenden Sie die [Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -56,7 +56,7 @@ Sie können den Status von Anzeigen in der Ansicht [!UICONTROL Campaigns] > [!UI
 >
 >Um große Datenmengen gleichzeitig zu bearbeiten, verwenden Sie die Funktion [Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -86,7 +86,7 @@ Sie können eine aktive Anzeige anhalten, um die Angebotsabgabe dafür zu deakti
 
 Sie können auch alle aktiven oder pausierten Suchanzeigen löschen. Gelöschte Anzeigen werden aus dem Werbenetzwerk gelöscht. Sie sind immer noch sichtbar, aber man kann sie nicht ändern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Anzeigen einzuschließen.
 

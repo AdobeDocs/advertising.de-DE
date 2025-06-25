@@ -3,7 +3,7 @@ title: Erstellen negativer Platzierungen
 description: Erfahren Sie, wie Sie negative Platzierungen für  [!DNL Google Ads]  und Anzeigengruppen erstellen.
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können negative Platzierungen für eine [!DNL Google Ads] Anzeigengruppe in
 >[!TIP]
 >Um viele negative Platzierungen gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen") und klicken Sie dann auf **[!UICONTROL Campaign]** , um negative Platzierungen auf Kampagnenebene zu erstellen, oder auf **[!UICONTROL Ad Group]**, um negative Platzierungen auf Anzeigengruppenebene zu erstellen.
 

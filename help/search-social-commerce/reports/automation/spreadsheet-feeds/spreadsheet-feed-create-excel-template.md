@@ -3,7 +3,7 @@ title: Erstellen  [!DNL Excel]  Vorlage für einen Tabellenbericht-Feed
 description: Erfahren Sie, wie Sie speziell formatierte Tabellenvorlagen erstellen.
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL Microsoft Excel]-Kalkulationstabellenvorlagen mithilfe regulärer Berichtsvorlagen erstellen. Optional können Sie die [!DNL Excel] Tabelle anpassen, um zusätzliche Spalten und Diagramme einzuschließen.
 
-1. Generieren Sie in **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** den gewünschten Berichtstyp unter Verwendung einer [!UICONTROL Date Aggregation] Einheit von &quot;[!UICONTROL Daily]&quot; und mit allen anderen gewünschten Datenparametern und speichern Sie den Bericht als Vorlage.
+1. Generieren Sie in **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** den gewünschten Berichtstyp unter Verwendung einer [!UICONTROL Date Aggregation] Einheit von &quot;[!UICONTROL Daily]&quot; und mit allen anderen gewünschten Datenparametern und speichern Sie den Bericht als Vorlage.
 
    >[!NOTE]
    >
    > * Sie können Tabellen-Feeds für [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] und [!UICONTROL Forecast Accuracy] Berichte erstellen. Wenn Sie die [!UICONTROL Ad Group Report] verwenden, begrenzen Sie die Anzahl der enthaltenen Anzeigengruppen, um schnellere Ergebnisse zu erzielen.
    > * Die in der Vorlage definierte [!UICONTROL Date Range] wird nicht verwendet. Sie definieren die Daten, für die Daten aktualisiert werden sollen, wenn Sie den Tabellen-Feed später konfigurieren.
 
-1. Nachdem der Bericht generiert wurde, navigieren Sie zu **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** und exportieren Sie eine TSV- oder XLS-Version der Berichtsausgabe in eine -Datei.
+1. Nachdem der Bericht generiert wurde, navigieren Sie zu **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** und exportieren Sie eine TSV- oder XLS-Version der Berichtsausgabe in eine -Datei.
 
 1. Erstellen Sie [!DNL Excel] eine benutzerdefinierte Vorlage für den Bericht:
 

@@ -3,7 +3,7 @@ title: Tabellenbericht-Feeds löschen
 description: Erfahren Sie, wie Sie Tabellen-Feeds löschen.
 exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Wenn die mit einem Feed verknüpfte Berichtsvorlage gelöscht wird, wird der Feed automatisch gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Feed, den Sie löschen möchten.
 

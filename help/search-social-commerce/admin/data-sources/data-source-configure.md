@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Datenquelle über eine  [!DNL Google Ana
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
 1. [Führen Sie alle Voraussetzungen für die Integration des  [!DNL Google Analytics] -Kontos ](data-source-prerequisites.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 

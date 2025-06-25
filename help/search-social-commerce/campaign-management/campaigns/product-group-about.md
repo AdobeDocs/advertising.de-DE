@@ -3,7 +3,7 @@ title: Über Shopping-Produktgruppen
 description: Erfahren Sie mehr über Warengruppen in Shopping-Kampagnen.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie konfigurieren Produktgruppen auf Anzeigengruppenebene, um zu bestimmen, welc
 
 Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Anzeigennetzwerk zunächst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und das zugehörige Angebot) für die Anzeigenauktion geeignet ist. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot geeignet.
 
-Weitere Informationen zu [!DNL Google] Shopping-Kampagnen und Anzeigen finden Sie unter [Implementieren von  [!DNL Google Ads] -Shopping-](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot; und in der Dokumentation zu [Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Weitere Informationen zu [!DNL Microsoft] Shopping-Kampagnen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot; und in der [[!DNL Microsoft Advertising] Dokumentation](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+Weitere Informationen zu [!DNL Google] Shopping-Kampagnen und Anzeigen finden Sie unter [Implementieren von  [!DNL Google Ads] -Shopping-](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)&quot; und in der Dokumentation zu [Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1). Weitere Informationen zu [!DNL Microsoft] Shopping-Kampagnen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot; und in der [[!DNL Microsoft Advertising] Dokumentation](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Innerhalb einer Anzeigengruppe können Sie bis zu sieben Ebenen von Produktgrupp
 
 ## Die [!UICONTROL Product Groups]
 
-In der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > Produktgruppen können Sie Produktgruppen erstellen und bearbeiten sowie Produktgruppen und deren untergeordnete Produktgruppen [!UICONTROL Product Groups].
+In der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > Produktgruppen können Sie Produktgruppen erstellen und bearbeiten sowie Produktgruppen und deren untergeordnete Produktgruppen [!UICONTROL Product Groups].
 
 ## Tracking- und Leistungsdaten für Shopping-Produktgruppen
 
@@ -52,7 +52,7 @@ In der Ansicht [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campai
 
 * (Nur [!DNL Microsoft Advertising]) Fügen Sie die Tracking-URL den Produktdaten im [!DNL Microsoft Merchant Center] hinzu. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld `link` oder `mobile_link` je nach Bedarf in eine benutzerdefinierte Spalte mit dem Namen [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) im Produkt-Feed ein. Mit dieser Methode generierte URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen in Search, Social und Commerce angegeben sind.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md) .
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md) [.
 
 >[!MORELIKETHIS]
 >

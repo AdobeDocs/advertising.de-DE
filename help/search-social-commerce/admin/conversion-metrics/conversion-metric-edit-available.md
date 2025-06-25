@@ -3,7 +3,7 @@ title: Ändern der Konversionsmetriken, die in Verwaltungsansichten und -bericht
 description: Erfahren Sie, wie Sie Konversionsmetriken in Ihren Verwaltungsansichten und -berichten verfügbar machen.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Ändern der Konversionsmetriken, die in Verwaltungsansichten und -berichten verfügbar sind
 
-Wenn Adobe Advertising für einen Advertiser eine [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metrik nachverfolgt, ist sie zunächst von Portfoliozielen, Berichten und Verwaltungsansichten ausgeschlossen. Um eine Konversionsmetrik sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, d. h. den angezeigten Namen. Die einzige Ausnahme besteht darin, dass Konversionen, die von [!DNL Google Ads], [!DNL Google Analytics] und [!DNL Microsoft Advertising] universellen Ereignisverfolgungs-Tags verfolgt werden, automatisch verfügbar und sichtbar sind.
+Wenn Adobe Advertising eine [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metrik für einen Advertiser verfolgt, wird diese zunächst aus Portfoliozielen, Berichten und Verwaltungsansichten ausgeschlossen. Um eine Konversionsmetrik sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, d. h. den angezeigten Namen. Die einzige Ausnahme besteht darin, dass Konversionen, die von [!DNL Google Ads], [!DNL Google Analytics] und [!DNL Microsoft Advertising] universellen Ereignisverfolgungs-Tags verfolgt werden, automatisch verfügbar und sichtbar sind.
 
 Ebenso können Sie eine Konversionsmetrik aus Portfoliozielen, Berichten und Verwaltungsansichten ausblenden. Wenn Sie eine Konversionsmetrik ausblenden, die zuvor sichtbar war, wird sie aus allen abgeleiteten Metriken entfernt, die die Konversionsmetrik enthalten.
 
 Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugriff auf die Daten des Werbetreibenden die Metriken anpassen, die er für Verwaltungsansichten und -berichte ansieht, einschließlich oder ohne Angabe bestimmter Metriken je nach Wahl.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
    Es werden alle Konversionsmetriken aufgelistet, die für den Advertiser erfasst wurden, sowie alle anderen Namen, die für die Anzeige angegeben wurden.
 

@@ -3,7 +3,7 @@ title: Hochladen von Zielen in Werbenetzwerke aktivieren
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in  [!DNL Google Ads] / [!DNL Microsoft Advertising] hochladen.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Uploads auf [!DNL Google Ads] erfolgen täglich um 06:00 Uhr in der Zeitzone des
 >
 >Konversionen, die von Google Ads und vom UET-Tag (Universal Event Tracking) von Microsoft Advertising verfolgt werden, werden nicht erneut in die Werbenetzwerke hochgeladen. Wenn Sie sie in ein Ziel einbeziehen, müssen Sie sie im Editor des Anzeigennetzwerks zu den Kampagnenzielen hinzufügen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Enable Objective Upload]**.
 
@@ -40,7 +40,7 @@ Uploads auf [!DNL Google Ads] erfolgen täglich um 06:00 Uhr in der Zeitzone des
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) [Anmeldeinformationen für Ihr Manager-Konto hinzufügen](/help/search-social-commerce/admin/manager-accounts.md) unter **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) [Anmeldeinformationen für Ihr Manager-Konto hinzufügen](/help/search-social-commerce/admin/manager-accounts.md) unter **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Stellen Sie sicher, dass jedes Ziel — namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — innerhalb von zwei Tagen im Werbenetzwerk angezeigt wird.
 
@@ -67,7 +67,7 @@ GGL_Lead ist nicht in der Berechnung/dem Upload enthalten, da es sich um eine vo
 
 >[!TIP]
 >
->Sie können Daten zum Adobe Advertising des gewichteten Umsatzes in den Berichten des Werbenetzwerks anzeigen. Vergleichen Sie als Best Practice den gewichteten Umsatz mit dem [!DNL Google Ads] „Alle Konversionen“. (durch Konv. die Metrik „time“ oder die [!DNL Microsoft Advertising] Metrik „All conv. Umsatz,“ segmentiert in die Metrik O_ACS_OBJ*.<!--clarify -->
+>Sie können Daten zum gewichteten Umsatz von Adobe Advertising in den Berichten des Werbenetzwerks anzeigen. Vergleichen Sie als Best Practice den gewichteten Umsatz mit dem [!DNL Google Ads] „Alle Konversionen“. (durch Konv. die Metrik „time“ oder die [!DNL Microsoft Advertising] Metrik „All conv. Umsatz,“ segmentiert in die Metrik O_ACS_OBJ*.<!--clarify -->
 
 ## Fehlerbehebung bei fehlenden Zielen
 
@@ -75,7 +75,7 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 
 * ([!DNL Google Ads]) Überprüfen Sie, ob die Konversionen auf Konto- oder Managerebene hochgeladen werden sollen. Wenn sie auf Managerebene hochgeladen werden sollen:
 
-   * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto unter **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** angegeben sind. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/admin/manager-accounts.md).
+   * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto unter **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** angegeben sind. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
 

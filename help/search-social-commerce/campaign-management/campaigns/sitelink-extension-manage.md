@@ -3,7 +3,7 @@ title: Verwalten von freigegebenen Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Erstellen und verwalten Sie freigegebene Sitelinks auf Kontoebene für alle sync
 
 ## Erstellen eines freigegebenen Sitelink
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -34,7 +34,7 @@ Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kamp
 
 Sie können jeweils nur einen freigegebenen Sitelink bearbeiten.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Sitelink, der bearbeitet werden soll.
 
@@ -46,7 +46,7 @@ Sie können jeweils nur einen freigegebenen Sitelink bearbeiten.
 
 ## Freigegebene Sitelinks löschen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem freigegebenen Sitelink, den Sie löschen möchten.
 
@@ -92,11 +92,11 @@ Nachdem Sie den Datensatz gespeichert haben, enthält die Basis-URL alle für di
 >
 >* (Konten mit endgültigen URLs) Die Basis-URL kann Umleitungen innerhalb der Landingpage-Domain oder Subdomain enthalten, jedoch keine Umleitungen außerhalb der Landingpage-Domain. Das Werbenetzwerk extrahiert die Domain aus dieser URL und fügt optionale Anzeigepfade für die Anzeige hinzu, um die Anzeige-URL für die Anzeige zu erstellen.
 >* ([!DNL Google Ads]) Jeder Sitelink in einer Kampagne oder Anzeigengruppe muss über eine eindeutige Landingpage verfügen und der Inhalt für jede Sitelink-Landingpage muss zu etwa 80 % über eindeutige Inhalte verfügen. Sie können beispielsweise keine Sitelinks mit Links zu mehreren Ankern innerhalb derselben Seite haben.
->* ([!DNL Google Ads]) Verwenden Sie keine Makros, da diese nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
+>* ([!DNL Google Ads]) Verwenden Sie keine Makros, da diese nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Kunden-Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
 
 **[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und auch die endgültige/Landingpage-URL in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und „Automatisches Hochladen“ enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Klick-Tracking-Code als Präfix voran.
+* Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und „Automatisches Hochladen“ enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Klick-Tracking-Code voran.
 
 * Informationen zu den unterstützten Parametern zum Einbetten der endgültigen URL finden Sie unter den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) „Tracking-Vorlage“ im Abschnitt zu „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 

@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]  verwalten'
 description: Erfahren Sie, wie Sie Callout [!DNL Google Ads] Erweiterungen erstellen und verwalten.
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Erstellen und verwalten Sie freigegebene Callout-Erweiterungen auf Kontoebene f�
 
 ## Erstellen eines [!DNL Google Ads] freigegebenen Callouts
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -34,7 +34,7 @@ Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kamp
 
 Sie können jeweils nur einen freigegebenen Callout bearbeiten.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem zu bearbeitenden Callout.
 
@@ -46,7 +46,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten.
 
 ## Löschen [!DNL Google Ads] freigegebenen Hinweisen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem freigegebenen Callout, den Sie löschen möchten.
 

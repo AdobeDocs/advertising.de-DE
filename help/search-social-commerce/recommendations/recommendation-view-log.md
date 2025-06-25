@@ -3,7 +3,7 @@ title: Empfehlungsprotokoll des Herausgebers für ein Konto anzeigen
 description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein - oder - [!DNL Google Ads]  angewendet  [!DNL Microsoft Advertising] .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google A
 
 Abgelehnte Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. Wählen Sie oben rechts das Werbenetzwerk und das Konto aus.
 

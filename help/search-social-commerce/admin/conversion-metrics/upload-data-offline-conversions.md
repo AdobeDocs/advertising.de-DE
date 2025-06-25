@@ -3,7 +3,7 @@ title: Hochladen von Offline-Konversionsdaten für erweiterte Konversionen
 description: Erfahren Sie, wie Sie First-Party- und Offline-Konversionsdaten hochladen, um sie Leads  [!DNL Google Ads]  erweiterten Konversionen  [!DNL Microsoft Advertising] .
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: eb7320fdddce4895a689c32ec6fb1e44cb8f2705
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können Ihre Erstanbieter-Offline-Konversionsdaten - einschließlich gehasht
 
 ## Hochladen von Daten für erweiterte Konversionen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, und klicken Sie dann auf die Registerkarte **[!UICONTROL Upload]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, und klicken Sie dann auf die Registerkarte **[!UICONTROL Upload]**.
 
 1. Wählen Sie das Werbenetzwerk und dann das Konto aus.
 
@@ -67,5 +67,5 @@ Weitere Informationen zur Verwendung der Vorlage finden Sie unter [https://help.
 >
 >* [Implementieren [!DNL Google Ads] verbesserter Konversionen für Leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementieren  [!DNL Microsoft Advertising]  erweiterten Offline-Konversionen](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only]) [Erstellen einer Konversionsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only])[Erstellen einer Konversionsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Konversionsmetriken für Suche, Social Media und Commerce-Tracking hochladen nach [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

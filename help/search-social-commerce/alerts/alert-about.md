@@ -3,7 +3,7 @@ title: Über benutzerdefinierte Warnhinweise
 description: Erfahren Sie mehr über benutzerdefinierte Warnhinweise, einschließlich der Erstellung von Warnhinweisvorlagen und dem Zeitpunkt der Auslösung von Warnhinweisen.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Wenn eine Warnhinweisinstanz für eine Warnhinweisvorlage ausgelöst wird:
 
 * Die angegebenen Empfänger erhalten eine E-Mail-Benachrichtigung. Wenn der Warnhinweis bis zu 1.000 Datensätze enthält, enthält der E-Mail-Hinweis eine [CSV](/help/search-social-commerce/glossary.md#c-d)-Datei mit den Warnhinweisdaten, einschließlich der Daten für alle Entitäten, die den Warnhinweis ausgelöst haben.
 
-* Der Warnhinweis wird in der [!UICONTROL Triggered Alerts] unter [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] angezeigt. Ein herunterladbarer Bericht steht zehn Tage nach Auslösung des Warnhinweises zur Verfügung.
+* Der Warnhinweis wird in der [!UICONTROL Triggered Alerts] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] angezeigt. Ein herunterladbarer Bericht steht zehn Tage nach Auslösung des Warnhinweises zur Verfügung.
 
 * Der Warnhinweis wird im [!UICONTROL Notifications] in der entsprechenden Entitätsansicht aufgelistet, die in der rechten Symbolleiste verfügbar ist. Benachrichtigungen verbleiben im [!UICONTROL Notifications], es sei denn, sie werden gelöscht oder als gelesen markiert.
 

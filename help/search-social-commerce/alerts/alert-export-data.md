@@ -3,7 +3,7 @@ title: Exportieren von Daten für benutzerdefinierte Warnhinweise
 description: Erfahren Sie, wie Sie Daten für einen ausgelösten Warnhinweis in eine Datei exportieren.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletz
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Zum Exportieren der Daten des zuletzt ausgelösten Warnhinweises für eine Warnhinweisvorlage) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Daraufhin wird die Ansicht Warnhinweisvorlagen geöffnet.
+   * (Zum Exportieren der Daten des zuletzt ausgelösten Warnhinweises für eine Warnhinweisvorlage) Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Daraufhin wird die Ansicht Warnhinweisvorlagen geöffnet.
 
-   * (Um Daten für einen bestimmten ausgelösten Warnhinweis zu exportieren) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Klicken Sie im Untermenü auf **[!UICONTROL Triggered Alerts]**.
+   * (Um Daten für einen bestimmten ausgelösten Warnhinweis zu exportieren) Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Klicken Sie im Untermenü auf **[!UICONTROL Triggered Alerts]**.
 
 1. Klicken Sie in der Spalte [!UICONTROL Export] neben dem Namen der Vorlage oder des Berichts auf den Namen eines Formats und öffnen oder speichern Sie dann die Datei entsprechend der normalen Vorgehensweise Ihres Browsers:
 

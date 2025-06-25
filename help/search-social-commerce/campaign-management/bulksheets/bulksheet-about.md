@@ -3,7 +3,7 @@ title: Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets
 description: Erfahren Sie mehr über die vom Anzeigennetzwerk verfügbaren Bulksheet-Funktionen, den Bulksheet-Workflow und die Fehlerbehandlung.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Fehlerdateien werden nach 30 Tagen automatisch gelöscht, es sei denn, Sie lösc
 
 ## Informationen zu den einzelnen Dateien
 
-Alle heruntergeladenen Datendateien, hochgeladenen Dateien und Fehlerdateien sind unter [!UICONTROL Search] > [!UICONTROL Bulksheets] verfügbar.
+Alle heruntergeladenen Datendateien, hochgeladenen Dateien und Fehlerdateien sind unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets] verfügbar.
 
 Zu den Informationen für jede Datei gehören der aktuelle Aufgabenstatus und der Prozentsatz der abgeschlossenen Aufgabe, das Erstellungsdatum, (falls zutreffend) das Datum, an dem sie im angegebenen Werbenetzwerk veröffentlicht wurde oder werden wird, das geplante Löschdatum und der Anmeldename des Benutzers, der die Aufgabe initiiert hat.
 

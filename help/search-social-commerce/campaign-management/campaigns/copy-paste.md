@@ -3,7 +3,7 @@ title: Erstellen und Bearbeiten von Kampagnendaten in großen Mengen mithilfe vo
 description: Erfahren Sie, wie Sie mit der Funktion zum Kopieren und Einfügen Kampagnendaten massenweise verwalten können.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Mit dieser Funktion können Sie vorhandene Kampagnenobjekte (mit ID-Feldern) bea
 
 ## Datenzeilen kopieren
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Zeile, die Sie kopieren möchten.
 
@@ -58,7 +58,7 @@ Mit dieser Funktion können Sie vorhandene Kampagnenobjekte (mit ID-Feldern) bea
 
 1. Kopieren Sie in [!DNL Excel] oder einem anderen Editor die entsprechenden tabulatorgetrennten Zeilen.
 
-1. Klicken Sie im Hauptmenü von Search, Social und Commerce auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Öffnen Sie die Ansicht, in die Sie Daten einfügen möchten (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
+1. Klicken Sie im Hauptmenü von Search, Social und Commerce auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Öffnen Sie die Ansicht, in die Sie Daten einfügen möchten (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Paste]**.
 

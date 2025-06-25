@@ -3,7 +3,7 @@ title: Konvertierungsdaten [!DNL Google Ads]
 description: Erfahren Sie mehr über die Typen von  [!DNL Google Ads]-getrackten Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Bis zu drei Metriken für jede [[!DNL Google Ads]-getrackte Konversion](https://
 
 * `GGL_XD_CT*` - (wenn für den Konversionstyp verfügbar, wenn Sie ihn verfolgen) Die Anzahl (Anzahl) geräteübergreifender Konversionen, wie von Google gemessen, beginnend mit dem Präfix „GGL_XD_CT_“ (z. B. GGL_XD_CT_Purchase).
 
-[!DNL Google Ads] zeichnet jede Konvertierung nach [Gebotseinheit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klickdatum (nicht Konvertierungsdatum) auf. Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Google Ads]. Die Adobe Advertising-Attribution wird nicht berücksichtigt, da keine Daten auf Klickereignis-Ebene verfügbar sind.
+[!DNL Google Ads] zeichnet jede Konvertierung nach [Gebotseinheit](/help/search-social-commerce/glossary.md#a-b), Gerät und Klickdatum (nicht Konvertierungsdatum) auf. Die Attribution basiert auf der standardmäßigen Attributionseinstellung für jede Metrik in [!DNL Google Ads]. Die Adobe Advertising-Attribution wird nicht berücksichtigt, da keine Daten auf Klick-Ereignisebene verfügbar sind.
 
 >[!NOTE]
 >
->* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden möglicherweise doppelte Konversionsnamen in Adobe Advertising angezeigt. Wenn dies auftritt, [ändern Sie den Anzeigenamen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken unter [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
+>* Wenn Sie mehrere Konten mit denselben Konversionsnamen haben, werden in Adobe Advertising möglicherweise doppelte Konversionsnamen angezeigt. Wenn dies auftritt, [ändern Sie den Anzeigenamen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) für eine der doppelten Metriken unter [!UICONTROL Admin] > [!UICONTROL Conversions]. Die Berichterstellung ist nicht korrekt, wenn zwei verschiedene Metriken denselben Namen haben.
 >* Daten auf der Ebene der Gebotseinheit stimmen mit Daten in [!DNL Google Ads] auf derselben Ebene überein. Die eigenen Konversionsdaten von [!DNL Google Ads] für höhere Ebenen können jedoch zusätzliche Konversionen enthalten, die nicht den untergeordneten Bid-Einheiten zugeordnet werden. Daten in Search, Social und Commerce werden immer ab der Ebene der Gebotseinheiten aggregiert, sodass beispielsweise ein Bericht auf Kampagnenebene nicht dieselben Summen wie ein Bericht auf Kampagnenebene in Google Ads hat.
 >* Die Datenvarianz ist in der Regel nach der morgendlichen Synchronisierung geringer als nach der späteren am Tag, wenn zusätzliche Konversionen noch nicht synchronisiert wurden. Es wird empfohlen, die Daten morgens zu validieren.
 >* Konversionsdaten sind für [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] und [!DNL YouTube] Anzeigen nicht verfügbar. Filtern Sie diese Arten von Anzeigen heraus, wenn Sie Daten in [!DNL Google Ads] mit Daten in Search, Social und Commerce vergleichen.
@@ -82,7 +82,7 @@ Generieren Sie den Bericht für die ausgewählten Konversionsaktionen nach Tag u
 
 Verwenden Sie in Search, Social und Commerce die Option Anzeigen oder Bericht , um Konversionen basierend auf dem Klickdatum (nicht dem Transaktionsdatum) anzuzeigen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]**, halten Sie den Cursor über **[!UICONTROL Basic Reports]** und klicken Sie dann auf **[!UICONTROL Search Engine Account Report]**.
 

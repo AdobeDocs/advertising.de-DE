@@ -3,7 +3,7 @@ title: Mehrere Zeilen auswählen
 description: Erfahren Sie, wie Sie mehrere Zeilen auswählen, damit Sie für alle dieselbe Aktion ausführen können.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Mehrere Zeilen auswählen
 
-Sie können mehrere Zeilen in den Ansichten [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] wie folgt auswählen:
+Sie können mehrere Zeilen in den Ansichten [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] wie folgt auswählen:
 
 * Tastaturbefehle:
 
