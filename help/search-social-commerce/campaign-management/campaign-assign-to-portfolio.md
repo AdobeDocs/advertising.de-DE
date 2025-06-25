@@ -3,7 +3,7 @@ title: Zuweisen von Kampagnen zu einem Portfolio
 description: Erfahren Sie, wie Sie zur Optimierung Kampagnen in Portfolios aufnehmen.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Geben Sie auf dem Bildschirm [!UICONTROL Create Portfolio] die [Portfolioeinstellungen“ ](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+1. Geben Sie auf dem [!UICONTROL Create Portfolio] die Portfolioeinstellungen an<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
 
    Die zuvor ausgewählten Kampagnen sind der Kampagne bereits zugewiesen. Optional können Sie die Kampagnenliste für das Portfolio bearbeiten.
 
@@ -48,7 +48,7 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 ## (Alte Benutzeroberfläche) Zuweisen von Kampagnen zu einem Portfolio über die [!UICONTROL Campaigns] Ansicht
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -86,7 +86,7 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 ## (Alte Benutzeroberfläche) Ändern der Kampagnen in einem Portfolio über die [!UICONTROL Portfolios] Ansicht
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, und suchen Sie dann das Portfolio.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, und suchen Sie dann das Portfolio.
 
    Sie können die Portfolioliste über das Menü [!UICONTROL Portfolios] im linken Bereich filtern, indem Sie eine Portfoliogruppe oder den Knoten [!UICONTROL Ungrouped Portfolios] auswählen.
 
