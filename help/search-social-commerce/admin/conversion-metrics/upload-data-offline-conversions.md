@@ -67,5 +67,5 @@ Weitere Informationen zur Verwendung der Vorlage finden Sie unter [https://help.
 >
 >* [Implementieren [!DNL Google Ads] verbesserter Konversionen für Leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementieren  [!DNL Microsoft Advertising]  erweiterten Offline-Konversionen](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[Erstellen einer Konversionsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [Erstellen einer Konversionsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Konversionsmetriken für Suche, Social Media und Commerce-Tracking hochladen nach [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

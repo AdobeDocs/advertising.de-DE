@@ -52,7 +52,7 @@ In der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] 
 
 * (Nur [!DNL Microsoft Advertising]) Fügen Sie die Tracking-URL den Produktdaten im [!DNL Microsoft Merchant Center] hinzu. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld `link` oder `mobile_link` je nach Bedarf in eine benutzerdefinierte Spalte mit dem Namen [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) im Produkt-Feed ein. Mit dieser Methode generierte URLs enthalten keine Tracking-Parameter, die in den Konto- oder Kampagneneinstellungen in Search, Social und Commerce angegeben sind.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md) [.
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md) .
 
 >[!MORELIKETHIS]
 >

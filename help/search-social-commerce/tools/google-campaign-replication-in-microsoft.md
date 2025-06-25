@@ -82,7 +82,7 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
      Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der ](#campaign-import-log) [[!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
