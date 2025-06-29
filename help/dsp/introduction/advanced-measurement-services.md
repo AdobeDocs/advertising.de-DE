@@ -2,9 +2,9 @@
 title: Erweiterte Messlösungen
 description: Eine Liste der verfügbaren Lösungen für erweiterte Messungen anzeigen.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
+source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Werbetreibende haben oft Schwierigkeiten zu verstehen, wie ihre verschiedenen Medienkanäle zusammenarbeiten, wo ihr nächster Mediendollar am besten ausgegeben werden kann oder wie man die Wirkung ihrer Online-Werbung im Vergleich zu den Kerngeschäftszielen quantifiziert.
 
-In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das AMS-Team (Advanced Measurement &amp; Strategy) unterstützt Marken- und Agenturpartner dabei, zu messen, wie Elemente ihrer Adobe Advertising-Käufe in Verbindung mit ihren [!DNL Adobe]-Integrationen die Ergebnisse fördern. Mit robusten Attributionsmessungsangeboten kann AMS kuratierte Targeting-Strategien mithilfe ausgeklügelter Messrahmen bereitstellen, wodurch es Marken leicht gemacht wird, ihre Medieneinkünfte mit realen Ergebnissen zu verbinden, die ihre Geschäfte antreiben. Das Team kann Ihnen bei Folgendem helfen:
+In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das AMS-Team (Advanced Measurement &amp; Strategy) unterstützt Marken- und Agenturpartner dabei, zu messen, wie Elemente ihrer Adobe Advertising-Käufe zusammen mit ihren [!DNL Adobe]-Integrationen die Ergebnisse fördern. Mit robusten Attributionsmessungsangeboten kann AMS kuratierte Targeting-Strategien mithilfe ausgeklügelter Messrahmen bereitstellen, wodurch es Marken leicht gemacht wird, ihre Medieneinkünfte mit realen Ergebnissen zu verbinden, die ihre Geschäfte antreiben. Das Team kann Ihnen bei Folgendem helfen:
 
 * Aktivieren von Messstudien über digitale Medien-Kampagnen mit vollem Trichter
 
