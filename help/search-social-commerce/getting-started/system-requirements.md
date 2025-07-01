@@ -3,9 +3,9 @@ title: Systemanforderungen
 description: Erfahren Sie mehr über Software- und Kontoanforderungen.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ Sie benötigen die folgenden Software- und Kontoinformationen.
 
 ## Software
 
-* einem der folgenden Browser:
+* (Neue Benutzeroberfläche) Die neueste Version abzüglich eines der folgenden Browser:
+
+   * Für ein optimales Erlebnis:
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* (Legacy-Benutzeroberfläche) Einer der folgenden Browser:
 
    * [!DNL Apple Safari] (einschließlich [!DNL Safari] für [!DNL iOS]) 10 oder höher
 
