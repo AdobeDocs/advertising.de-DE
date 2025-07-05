@@ -3,7 +3,7 @@ title: Abmelden
 description: Erfahren Sie, wo Sie sich abmelden können.
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: b0b4c6e41310102fc46d30f197a746c7b79f8dd6
+source-git-commit: 1717795d835eb7970a10ba7cd254fd32ad98e6d2
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") und dann auf **[!UICONTROL Sign Out]**.
 
-## Melden Sie sich von der Beta-Benutzeroberfläche ab
+## Melden Sie sich bei der neuen Benutzeroberfläche ab
 
 * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Konto](/help/search-social-commerce/assets/account.png "Konto") und dann auf **[!UICONTROL Sign Out]**.
 

@@ -3,9 +3,9 @@ title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben bis zum 15. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
@@ -30,15 +30,21 @@ Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließl
 
 Diese Option ist bis zum 15. Juli 2025 verfügbar.
 
-* Navigieren Sie zu [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) oder [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) und melden Sie sich mit Ihren Legacy-Anmeldedaten für Suche, Social und Commerce an.
+* Navigieren Sie zu [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) oder [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) und melden Sie sich mit Ihrem veralteten Search, Social &amp; Commerce-Benutzernamen und -Kennwort an.
 
   Die alte Benutzeroberfläche wird standardmäßig geöffnet.
 
 ## [!DNL Adobe ID] zur Authentifizierung verwenden
 
-1. Navigieren Sie zu [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) oder [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) und melden Sie sich mit Ihrer [!DNL Adobe] ID an.
+1. Gehen Sie zu [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) oder [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) und klicken Sie auf **[!UICONTROL Sign in with SSO]**.
 
-Die neue Benutzeroberfläche wird standardmäßig geöffnet.
+1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
+
+1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
+
+   Die neue Benutzeroberfläche wird standardmäßig geöffnet.
+
+1. Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie oben rechts auf der Seite die richtige Organisation aus.
 
 ## Von Adobe Experience Cloud aus mit einer [!DNL Adobe ID] anmelden
 
@@ -46,19 +52,17 @@ Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
 1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com).
 
-1. Geben Sie Ihre [!DNL Adobe]-ID-Anmeldedaten ein.
+1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**..
 
-1. Wählen Sie Ihre Organisation:
-
-   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
-
-   * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
+1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Klicken Sie im Abschnitt [!UICONTROL Quick Access] Ihrer Startseite auf **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
 ![Advertising-Suche, Social und Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising-Suche, Social und Commerce)")
 
 Die neue Benutzeroberfläche wird standardmäßig geöffnet.
+
+1. Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie oben rechts auf der Seite die richtige Organisation aus.
 
 >[!MORELIKETHIS]
 >
