@@ -22,7 +22,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben bis zum 15. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
