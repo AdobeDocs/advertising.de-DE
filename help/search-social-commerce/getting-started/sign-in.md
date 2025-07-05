@@ -50,7 +50,7 @@ Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
+   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
