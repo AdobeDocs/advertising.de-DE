@@ -3,9 +3,9 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** Der Berichtsname. Die maximale Länge beträgt 180 Zeichen.
 
-**[!UICONTROL Report Type]:** Der Berichtstyp: *[!UICONTROL Custom]* (was die meisten verfügbaren Optionen umfasst), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, *[!UICONTROL Path to Conversions Beta]*,, *[!UICONTROL Path Length Beta]* oder *[!UICONTROL Time to Conversion Beta]*.
+**[!UICONTROL Report Type]:** Der Berichtstyp: *[!UICONTROL Custom]* (was die meisten verfügbaren Optionen umfasst), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, **,, *[!UICONTROL Path Length]* oder *[!UICONTROL Time to Conversion]*.
 
 ## [!UICONTROL Report Range]
 
@@ -117,7 +117,7 @@ Beschreibungen [ Optionen finden Sie unter „Verfügbare ](report-columns.md)&q
 
 **[!UICONTROL Attribution Rule Settings]:** Die Einstellungen variieren je nach Berichtstyp:
 
-* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] von Berichten mit [!UICONTROL Conversion Metrics]- oder [!UICONTROL Custom Goals] Spalten; Werbetreibende nur mit Adobe Advertising-Konversionsverfolgung) Wie kann innerhalb des Berichts die Konversionsdaten in einer Ereignisreihe zugeordnet werden, die zu einer Konversion führt:
+* **\[Attributionstyp\]:** ([!UICONTROL Household Conversion] von Berichten mit [!UICONTROL Conversion Metrics] oder [!UICONTROL Custom Goals] Spalten) Innerhalb des Berichts, wie Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen:
 
    * *[!UICONTROL Unique]:* (Standard) Zählt, wie oft ein Dimensionswert (z. B. ein Gerät oder eine Platzierung) auf dem Konversionspfad war.
 
@@ -183,7 +183,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 

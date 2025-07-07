@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu benutzerdefinierten Berichten
 description: Erfahren Sie mehr über benutzerspezifische Berichte, einschließlich Haushaltsberichten und Konversionspfadanalyseberichten.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -83,19 +83,17 @@ Es werden zwei Arten von Attributionsmethoden unterstützt:
 
 #### Inwiefern unterscheidet sich das Reporting über Haushaltskonversionen vom CTV-View-Through-Reporting in Adobe Analytics?
 
-CTV-Durchsichtsdaten in [!DNL Analytics] basieren [!DNL Analytics] Tracking, und die Haushaltskonversionsdaten verwenden Daten, die mit dem Adobe Advertising-Konversionstracking erfasst wurden. Darüber hinaus verwendet die DSP-Attributionslogik in [!DNL Analytics] nur das letzte Ereignis, aber das Reporting über die Konversion in Haushalten unterstützt zwei verschiedene Attributionsmethoden: Eindeutig und MTA.
+* [!DNL Analytics] zeigt der [!DNL CTV View-Through Conversion] die Anzahl der Konversionen an, bei denen eine CTV-Impression der letzte Touchpoint vor der Konversion war. Im Gegensatz dazu zeigt der DSP [!UICONTROL Household Conversions]-Bericht die Anzahl der eindeutigen Haushalte an, die zu einem beliebigen Zeitpunkt innerhalb des definierten Lookback-Fensters vor der Konversion einem CTV-Impression ausgesetzt waren.
 
-#### Kann ich CTV-Durchsichtsdaten sowohl in [!DNL Analytics for Advertising] als auch in benutzerdefinierten Berichten anzeigen?
+* [!DNL Analytics] weist die Attributionslogik Konversionen ausschließlich dem letzten Touchpoint aus Adobe Advertising zu. Im Gegensatz dazu unterstützt der DSP [!UICONTROL Household Conversions]-Bericht zusätzliche Attributionsmodelle, *[!UICONTROL Unique]* und *[!UICONTROL Multi-Touch Attribution (MTA)]*.
 
-Werbetreibende ohne [!DNL Analytics for Advertising] können nur den Haushaltskonversionsbericht für Haushaltskonversionsberichte verwenden.
-
-Wenn Ihr Unternehmen über [!DNL Analytics for Advertising] verfügt, verwenden Sie beide Berichtstypen gemeinsam. Während CTV-Durchsichtsberichte für eine umfassende Kanalanalyse, das Verhalten von Websites usw. geeignet sind, bieten benutzerdefinierte Berichte eine granulare Ansicht (mit Daten aufgeschlüsselt nach Medientyp, Herausgebern usw.), um die Faktoren anzugeben, die die Konversionsraten fördern.
+* [!DNL Analytics] Berichtsdaten sind besonders nützlich, um nach Marketing-Kanälen, Site-Interaktionsmetriken usw. zu analysieren. Der DSP-[!UICONTROL Household Conversions] bietet detailliertere Einblicke, da Konversionsdaten nach verschiedenen Dimensionen wie Medientyp und Publisher aufgeteilt werden können.
 
 ### [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] Berichte im Vergleich zu Daten aus [!DNL Advanced Measurement Services]
 
 Für erweiterte Berichte zur häuslichen Reichweite und Häufigkeit von Konversionen kann das [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen zu [!DNL Advanced Measurement Services] erhalten Sie von Ihrem Adobe Account Team.
 
-#### Warum sollte ich die Berichte [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] verwenden, wenn ich [!DNL Advanced Measurement Services] bereits verwende?
+#### Warum sollte ich die Berichte [!DNL Advanced Measurement Services] und [!UICONTROL Household Reach & Frequency] verwenden, wenn ich [!UICONTROL Household Conversions] bereits verwende?
 
 Die [!UICONTROL Household Reach & Frequency]- und [!UICONTROL Household Conversions] ermöglichen es Kunden, die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene autonom in Echtzeit abzurufen.
 
@@ -115,8 +113,8 @@ Der ideale Anwendungsfall besteht darin, sowohl den [!UICONTROL Household] Beric
 | Attributionsmethode | Das Last-Touch-Ereignis (Impression oder Klick) muss sich im Lookbook-Fenster befinden. | Eindeutig | Letztkontakt |
 | | Interaktionspunkte, die mehr als 30 Tage vor dem Letztkontakt-Ereignis liegen, werden für den Konversionspfad berücksichtigt. | (CTV erhält eine Gutschrift, unabhängig davon, wo die CTV-Exposition im Pfad des Benutzers auftritt) | (CTV wird angerechnet, wenn die Impression das letzte Ereignis im Lookback-Fenster ist UND es keinen gebührenpflichtigen Klick aus anderen Formaten vor oder nach der CTV-Exposition gibt) |
 | Berichtsebene | körnig | körnig | umfassend |
-| | (Kanaltyp, Creative/Ad, Keyword, Pfade, Länge, Time-to-Conversion) | (CTV-Taktik, CTV-App/Publisher) | (Adobe Advertising und andere Marketing-Kanäle) |
-| Marketing-Kanäle | DSP + Suche (aus Suche, Social und Commerce) | DSP + Suche (aus Suche, Social und Commerce) | Marketing-Kanäle, die nicht von der Adobe Advertising-Clickthrough-EF-ID verfolgt werden (z. B. organische Suche, organische soziale Medien, E-Mail und Affiliate) |
+| | (Kanaltyp, Creative/Anzeige, Keyword, Pfade, Länge, Zeit bis zur Konversion) | (CTV-Taktik, CTV-App/Publisher) | (Adobe Advertising und andere Marketing-Kanäle) |
+| Marketing-Kanäle | DSP + Search (aus Search, Social und Commerce) | DSP + Search (aus Search, Social und Commerce) | Marketing-Kanäle, die nicht von der Adobe Advertising-Clickthrough-EF-ID verfolgt werden (z. B. organische Suche, organische soziale Medien, E-Mail und Tochterunternehmen) |
 | Konversionsmetriken werden unterstützt | Mit dem Adobe Advertising-Ereignispixel (AMO-ID) und Adobe Analytics-Tracking verfolgte Metriken | Klicks (keine Konversionen) | Mit Adobe Analytics-Tracking verfolgte Metriken |
 
 Weitere Informationen über den Halo-Effekt von Advanced Measurement Services für Suchberichte finden Sie unter [Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).
