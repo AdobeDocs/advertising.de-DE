@@ -3,9 +3,9 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Mit den Standardansichten und benutzerdefinierten Ansichten können Sie die Leistungsdaten anpassen, die in den Datenansichten für die Suchkampagne angezeigt werden. Die Anzeigeeinstellungen umfassen die einzuschließenden Spalten, Filter, Datumsbereich, Konversions-Attributionseinstellungen und andere erweiterte Einstellungen. Sie können die Einstellungen entweder vorübergehend anwenden oder speichern. (Ausnahme: Filter für Standardansichten können nicht gespeichert werden.) Jede standardmäßige und reguläre benutzerdefinierte Ansicht gilt für eine bestimmte Entitätsansicht (z. B. [!UICONTROL Campaigns]) und nur für ein bestimmtes Advertiser-Konto. Jede universelle benutzerdefinierte Ansicht gilt für alle Entitätsansichten eines bestimmten Advertisers und kann daher keine Eigenschaftsspalten (wie Entitätsname oder -status) enthalten, die je nach Entitätstyp variieren.
+Mit den Standardansichten und benutzerdefinierten Ansichten können Sie die Leistungsdaten anpassen, die in den Datenansichten für die Suchkampagne angezeigt werden. Die Anzeigeeinstellungen umfassen die einzuschließenden Spalten, Filter, Datumsbereich, Konversions-Attributionseinstellungen und andere erweiterte Einstellungen. Sie können die Einstellungen entweder vorübergehend anwenden oder speichern. (Ausnahme: Filter für Standardansichten können nicht gespeichert werden.) Jede standardmäßige und reguläre benutzerdefinierte Ansicht gilt für eine bestimmte Ansicht (z. B. [!UICONTROL Portfolios] oder [!UICONTROL Campaigns]) und nur für ein bestimmtes Advertiser-Konto. In der veralteten Benutzeroberfläche ist jede universelle benutzerdefinierte Ansicht für alle Entitätsansichten für einen bestimmten Advertiser anwendbar und kann daher keine Eigenschaftsspalten (wie Entitätsname oder -status) enthalten, die je nach Entitätstyp variieren.
 
-Standardansichten werden standardmäßig bei jeder Anmeldung angezeigt. Sie können zusätzliche benutzerdefinierte Ansichten erstellen und sie jederzeit anwenden. Optional können Sie jede benutzerdefinierte Ansicht, die Sie erstellen, für alle anderen Benutzer freigeben, die die Daten des Werbetreibenden anzeigen können. In Ihren Ansichtslisten ist jede Ansicht, die eine andere Person teilt, kursiv gedruckt, z. B *„Kampagnen mit der besten Leistung*. Nur die Person, die eine benutzerdefinierte Ansicht erstellt, kann sie löschen.
+Standardansichten werden standardmäßig bei jeder Anmeldung angezeigt. Sie können zusätzliche benutzerdefinierte Ansichten erstellen und sie jederzeit anwenden. Optional können Sie jede benutzerdefinierte Ansicht, die Sie erstellen, für alle anderen Benutzer freigeben, die die Daten des Werbetreibenden anzeigen können.<!-- I no longer see this in the legacy CM views - why? --> In Ihren Ansichtslisten ist jede Ansicht, die eine andere Person freigibt, kursiv gedruckt, z. B *„Kampagnen mit der besten Leistung*. Nur die Person, die eine benutzerdefinierte Ansicht erstellt, kann sie löschen.
 
-Jede Ansicht ist als Kurzbefehl im [!UICONTROL Custom Views] Bereich des linken Bedienfelds verfügbar.
+In der Legacy-Benutzeroberfläche ist jede Ansicht als Verknüpfung im Abschnitt [!UICONTROL Custom Views] des linken Bedienfelds verfügbar.
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## Standardansicht oder benutzerdefinierte Ansicht anwenden
 
-## (Alte Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht anwenden
+### (Neue Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht auf eine Verwaltungsansicht anwenden
+
+1. Klicken Sie über der Datentabelle auf den Namen der aktuell angewendeten Ansicht (![Ansicht](/help/search-social-commerce/assets/view.png "Ansicht")).
+
+1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
+
+1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf **[!UICONTROL Apply]**.
+
+### (Alte Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht auf Kampagnen-Management-Ansicht anwenden
 
 * (Standardansichten) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]** \> **\[Entitätstyp\]**.
 
@@ -43,6 +49,12 @@ Jede Ansicht ist als Kurzbefehl im [!UICONTROL Custom Views] Bereich des linken 
       Wenn die Ansicht universell ist oder für die aktuelle Entität gilt, wird die Datentabelle gemäß der Ansichtskonfiguration erneut angezeigt. Wenn die Ansicht für eine andere Entität gilt, werden Daten für die entsprechende Entität gemäß der Ansichtskonfiguration angezeigt.
 
 ## Erstellen einer benutzerdefinierten Ansicht {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## (Alte Benutzeroberfläche) Erstellen einer benutzerdefinierten Ansicht aus Kampagnen-Management-Ansichten
 
 Benutzerdefinierte Ansichten gelten nur für die Ansichten des Kampagnen-Managements.
 

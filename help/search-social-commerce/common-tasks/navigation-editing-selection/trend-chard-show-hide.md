@@ -3,16 +3,18 @@ title: Ein Trenddiagramm ein- und ausblenden
 description: Erfahren Sie, wie Sie in einigen Ansichten des Kampagnen-Managements ein Trenddiagramm für die Daten anzeigen und ausblenden.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # Ein Trenddiagramm ein- und ausblenden
 
-Sie können ein Trenddiagramm für die Daten in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] und [!UICONTROL Product Groups] anzeigen.
+*Nur ältere Benutzeroberfläche*
+
+Sie können ein Trenddiagramm für die Daten in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] und [!UICONTROL Product Groups] anzeigen.
 
 Standardmäßig zeigt das Diagramm die Anzahl der Klicks im Vergleich zu den Kosten im ausgewählten Datumsbereich für Konten, die eine bestimmte Währung verwenden. Sie können optional die zu vergleichenden Metriken ändern und - wenn Sie Konten mit mehreren Währungen haben - die Währung ändern, für die Daten einbezogen werden sollen.
 

@@ -3,16 +3,16 @@ title: Mehrere Zeilen auswählen
 description: Erfahren Sie, wie Sie mehrere Zeilen auswählen, damit Sie für alle dieselbe Aktion ausführen können.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # Mehrere Zeilen auswählen
-
-Sie können mehrere Zeilen in den Ansichten [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] wie folgt auswählen:
+i
+Sie können in der neuen Benutzeroberfläche in den Verwaltungsansichten und in der Legacy-Benutzeroberfläche mehrere Zeilen aus [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] auswählen:
 
 * Tastaturbefehle:
 
@@ -22,11 +22,11 @@ Sie können mehrere Zeilen in den Ansichten [!UICONTROL Search, Social, & Commer
 
 * Globales Kontrollkästchen (![Kontrollkästchen](/help/search-social-commerce/assets/check-box.png) „Kontrollkästchen„) in der linken oberen Spaltenüberschrift:
 
-   * Um alle Zeilen auf der aktuellen Seite auszuwählen - die einige oder alle Zeilen enthalten können, die mit den angewendeten Filtern verfügbar sind, je nachdem, ob Sie 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] anzeigen -, aktivieren Sie das Kontrollkästchen global .
+   * Um alle Zeilen auf der aktuellen Seite auszuwählen - die einige oder alle mit den angewendeten Filtern verfügbaren Zeilen enthalten können, je nachdem, ob Sie 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder (nur veraltete Kampagnenverwaltungsansichten) [!UICONTROL Continuous Scroll] anzeigen -, aktivieren Sie das Kontrollkästchen global .
 
      Wenn Sie alle Zeilen auf der Seite auswählen, können Sie die Auswahl einzelner Zeilen aufheben.
 
-   * Um alle mit den angewendeten Filtern verfügbaren Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen global und klicken dann auf **[!DNL Select all N records?]**, wobei *N* die Anzahl der verfügbaren Datensätze ist.
+   * (Nur veraltete Kampagnenverwaltungsansichten) Um alle mit den angewendeten Filtern verfügbaren Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen global und klicken dann auf **[!DNL Select all N records?]**, wobei *N* die Anzahl der verfügbaren Datensätze darstellt.
 
      Wenn Sie alle verfügbaren Zeilen auswählen, können Sie die Auswahl einzelner Zeilen nicht aufheben.
 
