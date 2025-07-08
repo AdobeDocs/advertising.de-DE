@@ -3,7 +3,7 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 0%
@@ -32,7 +32,7 @@ In der Legacy-Benutzeroberfläche ist jede Ansicht als Verknüpfung im Abschnitt
 
 ### (Alte Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht auf Kampagnen-Management-Ansicht anwenden
 
-* (Standardansichten) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]** \> **\[Entitätstyp\]**.
+* (Standardansichten) Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]** \> **\[Entitätstyp\]**.
 
 * (Benutzerdefinierte Ansichten) Über das linke Navigationsfenster:
 
@@ -52,6 +52,17 @@ In der Legacy-Benutzeroberfläche ist jede Ansicht als Verknüpfung im Abschnitt
 
 <!--
 ## (New UI) Create a custom view from management views
+
+*Available in the [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns], and [!UICONTROL Ad Groups] views*
+
+Custom views are specific to a single view (such as the [!UICONTROL Portfolios] view).
+
+1. Above the data table, click the name of the currently-applied view (![View](/help/search-social-commerce/assets/view.png "View")).
+
+2. Click **[!UICONTROL Create View]**.
+
+
+
 -->
 
 ## (Alte Benutzeroberfläche) Erstellen einer benutzerdefinierten Ansicht aus Kampagnen-Management-Ansichten

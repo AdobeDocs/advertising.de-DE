@@ -3,7 +3,7 @@ title: Händlerkonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Händlerkonten verwalten
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Search, Social und Commerce können Produktdaten jeden Tag für jedes Google Merchant Center- oder Microsoft Merchant Center-Konto eines Werbetreibenden herunterladen und anzeigen. Darüber hinaus können Search, Social und Commerce die Anzeigenerstellung basierend auf dem Inhalt des Händlerkontos automatisieren. Um direkt mit Produktdaten in Search, Social und Commerce zu arbeiten, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Anmeldeinformationen für den Kontozugriff enthält und mit *aktiviert*.
 
@@ -22,7 +22,7 @@ Search, Social und Commerce können Produktdaten jeden Tag für jedes Google Mer
 
 ## Details zum Händlerkonto erstellen {#create-merchant-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu generieren sowie Anzeigen basierend auf den Daten zu erstellen, müssen Sie einen entsprechenden Kontodatensatz erstellen, der die Anmeldeinformationen für den Kontozugriff enthält und Zugriff auf das Konto *aktiviert*.
 
@@ -30,7 +30,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 >
 >Um ein tatsächliches Konto im Händlernetzwerk zu erstellen, gehen Sie auf die Website des Netzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, um zur Registerkarte [!UICONTROL Accounts] zu gelangen.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, um zur Registerkarte [!UICONTROL Accounts] zu gelangen.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Account]**.
 
@@ -66,7 +66,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
 ## Details zum Händlerkonto bearbeiten {#edit-merchant-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwenden von Daten für ein Händlerkonto stoppen möchten, bearbeiten Sie die Kontodetails.
 
@@ -88,11 +88,11 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 ## Zugriff auf ein Händlerkonto deaktivieren {#disable-merchant-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Wenn Sie ein Händlerkonto deaktivieren, meldet sich Search, Social und Commerce nicht beim Konto an und ruft daher keine aktualisierten Produktdaten ab. Daten, die während der Aktivierung des Kontos erfasst wurden, werden weiterhin gespeichert und vorhandene Anzeigen, die mit Produktdaten erstellt wurden, werden nicht gemäß den Einstellungen für Feed-Vorlagen und Feed-Daten aktualisiert, angehalten oder gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , wodurch die Registerkarte [!UICONTROL Accounts] geöffnet wird.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , wodurch die Registerkarte [!UICONTROL Accounts] geöffnet wird.
 
 1. Klicken Sie neben dem Kontonamen auf ![Einstellungen anzeigen/bearbeiten/](/help/search-social-commerce/assets/settings.png " anzeigen/bearbeiten").
 

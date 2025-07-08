@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Oben auf jeder Seite befinden sich das Hauptmenü und andere aufgabenbasierte un
 
 ## Das Hauptmenü
 
-* **[!UICONTROL Search]** - Verwalten Sie Ihre Anzeigennetzwerkkonten in Search, Social und Commerce, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber nicht bietet.
+* **[!UICONTROL Search, Social, & Commerce]** \> — Zum Verwalten Ihrer Anzeigennetzwerkkonten in Search, Social und Commerce, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber nicht geboten wird.
 
 ## [!UICONTROL Search] Menüs
 

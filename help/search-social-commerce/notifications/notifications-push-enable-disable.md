@@ -3,7 +3,7 @@ title: Aktivieren und Deaktivieren von Push-Benachrichtigungen über [!UICONTROL
 description: Erfahren Sie, wie Sie Push-Benachrichtigungen in [!UICONTROL Notification Center] aktivieren und deaktivieren.
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Sie können Push-Benachrichtigungen gemäß dem Standardverfahren des Browsers d
 
 ## Push-Benachrichtigungen aktivieren
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 2. Klicken Sie unten rechts auf ![Push-Benachrichtigungen aktivieren](/help/search-social-commerce/assets/notifications-push.png "Push-Benachrichtigungen aktivieren").
 

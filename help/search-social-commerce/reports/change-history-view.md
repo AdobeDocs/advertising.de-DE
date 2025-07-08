@@ -3,7 +3,7 @@ title: '[!UICONTROL Change History] anzeigen'
 description: Erfahren Sie, wie Sie die letzten Änderungen am Advertiser-Konto anzeigen.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Der [!UICONTROL Change History] enthält ein Protokoll der Änderungen, die in d
 
 Sie können die Daten nach einer beliebigen Spalte sortieren und filtern.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
 
 1. (Optional) Ändern Sie die im Bericht enthaltenen Daten auf eine der folgenden Arten:
 

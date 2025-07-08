@@ -3,7 +3,7 @@ title: Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
 ## Erstellen und Netzwerkkonto-Details {#create-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kontodatensatz mit den Anmeldedaten für den Kontozugriff und den Tracking-Optionen und mit dem Status *aktiv“*.
 
@@ -33,7 +33,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 >* Für neue [!DNL Baidu]-Konten ist kein Support verfügbar.
 >* Um ein tatsächliches Konto im Werbenetzwerk zu erstellen, gehen Sie zur Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
@@ -65,7 +65,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
 ## Details zum Anzeigen-Netzwerkkonto bearbeiten {#edit-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Wenn sich die Kontoanmeldeinformationen ändern, die standardmäßigen Tracking-Parameter eines Kontos geändert werden sollen oder die Aktivität eines Kontos aktiviert oder deaktiviert werden soll, bearbeiten Sie die Kontodetails.
 
@@ -73,7 +73,7 @@ Wenn sich die Kontoanmeldeinformationen ändern, die standardmäßigen Tracking-
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu bearbeiten, gehen Sie auf die Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Halten Sie den Cursor über den Kontonamen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more-filters.png "Mehr") und wählen Sie dann **[!UICONTROL Edit]** aus.
 
@@ -91,15 +91,15 @@ Wenn sich die Kontoanmeldeinformationen ändern, die standardmäßigen Tracking-
 
 ## OAuth-Zugriffstoken für Suchkonten aktualisieren {#refresh-oauth-tokens}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Wenn Search, Social und Commerce mit dem [OAuth-Autorisierungsprotokoll](https://oauth.net/2/) auf das Konto zugreift und sich die Kontoanmeldeinformationen ändern, oder wenn zusätzlicher Zugriff erforderlich ist, um neue Funktionen in Search, Social und Commerce zu unterstützen, müssen Sie ein neues Zugriffstoken für das Konto abrufen.
 
-Ihr Adobe-Account-Team wird Sie informieren, wenn neue Funktionen ein neues Token erfordern.
+Ihr Adobe-Konto-Team wird Sie informieren, wenn neue Funktionen ein neues Token erfordern.
 
 1. (Wenn Sie in einem anderen Konto für dasselbe Werbenetzwerk in derselben Browser-Anwendung angemeldet sind) Melden Sie sich von einem anderen Konto als dem des Werbetreibenden ab.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Halten Sie den Cursor über den Kontonamen, klicken Sie auf ![Mehr](/help/search-social-commerce/assets/more-filters.png "Mehr") und wählen Sie dann **[!UICONTROL Edit]** aus.
 
@@ -117,11 +117,11 @@ Ihr Adobe-Account-Team wird Sie informieren, wenn neue Funktionen ein neues Toke
 
 ## Aktivieren oder Deaktivieren von Anzeigennetzwerkkonten {#enable-disable-account}
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und Commerce Kampagnendaten mit dem Konto (falls unterstützt) und pusht automatisierte Gebote und/oder Kampagnenbudgets für Kampagnen in Portfolios. Wenn Sie ein Anzeigennetzwerkkonto deaktivieren, stoppt Search, Social und Commerce alle Aktivitäten auf dem Konto. Daten, die erfasst wurden, während das Konto aktiv war, werden weiterhin gespeichert, aber die Kampagnenverwaltungsansichten und -berichte enthalten keine Daten für den Zeitraum, in dem das Konto deaktiviert ist. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto fortzusetzen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicken Sie im Untermenü auf **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -153,7 +153,7 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 >[!NOTE]
 >
->Wenn Sie eine Integration zwischen Search, Social und Commerce und Adobe Analytics haben und den Namen des Suchkontos ändern, benachrichtigen Sie Ihr Adobe-Account-Team, damit es die Zuordnung aktualisieren kann.
+>Wenn Sie eine Integration zwischen Search, Social und Commerce und Adobe Analytics haben und den Namen des Suchkontos ändern, benachrichtigen Sie Ihr Adobe-Accountteam, damit es die Zuordnung aktualisieren kann.
 
 **[!UICONTROL Login Details]: \[Login Type\]** - (nur [!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]) Ob Anmeldungen am Konto autorisiert werden sollen mit:
 
@@ -177,7 +177,7 @@ Für [!DNL Microsoft Advertising]-Konten können nur [!DNL oAuth]-autorisierte A
 
 Beispiel: `param1=value1&param2=value2`
 
-Konten, die das Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennung des Werbenetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix enthalten. Konten mit einer Adobe Analytics-Integration müssen den AMO ID-Parameter verwenden (beginnend mit `s_kwcid`). Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. Andernfalls müssen Sie ihn hier manuell hinzufügen. Siehe die [erforderlichen Suffixformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderlichen Suffixformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennung des Werbenetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für Google) im Suffix enthalten. Konten mit einer Adobe Analytics-Integration müssen den AMO ID-Parameter verwenden (beginnend mit `s_kwcid`). Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt, wird der Parameter automatisch hinzugefügt, wenn ein Benutzer auf eine Anzeige klickt. Andernfalls müssen Sie ihn hier manuell hinzufügen. Siehe die [erforderlichen Suffixformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderlichen Suffixformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >

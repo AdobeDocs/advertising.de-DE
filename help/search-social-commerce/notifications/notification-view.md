@@ -3,7 +3,7 @@ title: Anzeigen von Benachrichtigungen
 description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, Ihre Benachrichtigungen anzuzeigen.
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Wenn Sie [abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
 ## Anzeigen von Benachrichtigungen in [!UICONTROL Notification Center]
 
-1. (Von Search, Social und Commerce aus) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (Von Search, Social und Commerce aus) Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. (Optional) Um Ihre Benachrichtigungen nach Typ zu filtern, klicken Sie auf *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] oder[!UICONTROL Issues]*.
 

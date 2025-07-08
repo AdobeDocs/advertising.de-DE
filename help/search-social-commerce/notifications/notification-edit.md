@@ -3,7 +3,7 @@ title: Benachrichtigungseinstellungen bearbeiten
 description: Erfahren Sie, wie Sie die Einstellungen für Ihre Benachrichtigungen bearbeiten.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Konto
 
    * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-panel.png "Benachrichtigungen"), um den [!UICONTROL Notifications] zu öffnen. Klicken Sie oben rechts auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Klicken Sie im linken Menü auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Klicken Sie im linken Menü auf ![Einstellungen](/help/search-social-commerce/assets/settings-nc.png "Einstellungen").
 
 1. Ändern Sie Ihre Einstellungen für jede [Benachrichtigungskategorie](notification-about.md):
 
