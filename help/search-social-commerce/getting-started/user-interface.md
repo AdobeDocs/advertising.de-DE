@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,4 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Die verfügbar
 >
 >* [Anmelden](sign-in.md)
 >* [Abmelden](sign-out.md)
+>* [Wechseln zwischen der neuen und der veralteten Benutzeroberfläche](ui-switch.md)
