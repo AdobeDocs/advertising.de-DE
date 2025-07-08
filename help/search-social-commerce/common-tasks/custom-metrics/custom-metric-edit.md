@@ -3,9 +3,9 @@ title: Bearbeiten einer benutzerdefinierten Metrik
 description: Erfahren Sie, wie Sie benutzerdefinierte Metriken bearbeiten, die anhand von Standardmetriken berechnet werden.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Wenn Sie eine benutzerdefinierte Metrik bearbeiten, die als Spalte in einer Ihre
 
 1. Führen Sie über der Datentabelle einen der folgenden Schritte aus:
 
-   * Klicken Sie auf ![Ansichtsauswahl](/help/search-social-commerce/assets/view.png "Ansichtsauswahl") \[Der Name der Standardansicht oder der benutzerdefinierten Ansicht\], um die Ansichtseinstellungen zu öffnen. Beispiel: ![Beispielansicht](/help/search-social-commerce/assets/view-selector-example.png "Beispielansicht")
+   * Klicken Sie auf den Namen der aktuell angewendeten Ansicht (![View](/help/search-social-commerce/assets/view.png "View")). Halten Sie den Cursor über den Namen einer bearbeitbaren Ansicht und klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") , um die Anzeigeeinstellungen zu öffnen.
+
+     Ihre Änderungen werden in allen Ansichten angezeigt.
 
    * Klicken Sie auf ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns-new.png "Benutzerdefinierte Spalten"), um die Spaltenkonfigurationseinstellungen zu öffnen.
 
