@@ -3,14 +3,18 @@ title: Bearbeiten Sie den Spaltensatz über das Menü Spaltenüberschrift .
 description: Erfahren Sie, wie Sie die Spalten in der Spaltenüberschrift anzeigen und ausblenden.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten Sie den Spaltensatz über das Menü Spaltenüberschrift .
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+*Nur ältere Benutzeroberfläche*
 
 Sie können die in einer der Ansichten enthaltenen Spalten vorübergehend für jede Spaltenüberschrift in der Ansicht ein- und ausblenden. Die Änderungen werden nur angewendet, bis Sie die Ansicht verlassen oder Daten für einen anderen Advertiser anzeigen.
 

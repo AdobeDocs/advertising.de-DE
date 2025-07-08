@@ -3,16 +3,18 @@ title: Daten nach Datumsbereich filtern
 description: Erfahren Sie, wie Sie den Filter für globale Datumsbereiche verwenden.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Daten nach Datumsbereich filtern
 
-Derselbe Filter für den globalen Datumsbereich wird auf die meisten Datenansichten in Ihren Kampagnen für alle Ihre Werbetreibenden angewendet, mit Ausnahme von standardmäßigen und benutzerdefinierten Ansichten, für die Sie bestimmte Datumsbereiche gespeichert haben. Der standardmäßige Datumsbereich für Kampagnenverwaltungsansichten ist „Gestern“.
+<!-- The same in new UI and legacy CM views -->
+
+Derselbe Filter für den globalen Datumsbereich wird auf die meisten Datenansichten in allen Ihren Werbetreibenden angewendet, mit Ausnahme von standardmäßigen und benutzerdefinierten Ansichten, für die Sie bestimmte Datumsbereiche gespeichert haben. Der standardmäßige Datumsbereich für Kampagnenverwaltungsansichten ist „Gestern“.
 
 Ihre Datumsbereichseinstellungen werden in einem browserspezifischen Cookie gespeichert, sodass alle Änderungen am Datumsbereichsfilter für alle Ihre Werbetreibenden bei jeder Anmeldung mit derselben Browser-Anwendung verwendet werden, bis Sie den Filter ändern oder das Cookie löschen. Jede von Ihnen verwendete Browser-Anwendung speichert die Filtereinstellungen für den Datumsbereich in einem anderen Cookie.
 
@@ -38,7 +40,7 @@ Wenn Sie einen bestimmten Datumsbereich für eine Standardansicht oder benutzerd
 
 1. (Optional) Vergleichen von Daten für den angegebenen Datumsbereich mit Daten für einen zweiten Datumsbereich:
 
-   1. Schieben Sie den **[!UICONTROL Comparison]** auf *[!UICONTROL On]*.
+   1. Schieben Sie den **[!UICONTROL Comparison]** auf „on“.
 
       Wenn Sie diese Option auswählen, werden für jede reguläre Datenspalte zwei zusätzliche Spalten hinzugefügt. Beispielsweise enthält die Tabelle nicht nur eine Spalte für &quot;[!UICONTROL Impressions]&quot;, sondern auch Spalten für &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; und &quot;[!UICONTROL Impressions Diff]&quot;.  Wenn Sie die Daten exportieren, werden dieselben Spalten als &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; und &quot;[!UICONTROL Impressions Difference]&quot; geschrieben.
 

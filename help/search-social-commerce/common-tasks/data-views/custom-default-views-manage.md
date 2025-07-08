@@ -3,14 +3,16 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # Verwalten von standardmäßigen und benutzerdefinierten Ansichten
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 Mit den Standardansichten und benutzerdefinierten Ansichten können Sie die Leistungsdaten anpassen, die in den Datenansichten für die Suchkampagne angezeigt werden. Die Anzeigeeinstellungen umfassen die einzuschließenden Spalten, Filter, Datumsbereich, Konversions-Attributionseinstellungen und andere erweiterte Einstellungen. Sie können die Einstellungen entweder vorübergehend anwenden oder speichern. (Ausnahme: Filter für Standardansichten können nicht gespeichert werden.) Jede standardmäßige und reguläre benutzerdefinierte Ansicht gilt für eine bestimmte Entitätsansicht (z. B. [!UICONTROL Campaigns]) und nur für ein bestimmtes Advertiser-Konto. Jede universelle benutzerdefinierte Ansicht gilt für alle Entitätsansichten eines bestimmten Advertisers und kann daher keine Eigenschaftsspalten (wie Entitätsname oder -status) enthalten, die je nach Entitätstyp variieren.
 
@@ -18,7 +20,11 @@ Standardansichten werden standardmäßig bei jeder Anmeldung angezeigt. Sie kön
 
 Jede Ansicht ist als Kurzbefehl im [!UICONTROL Custom Views] Bereich des linken Bedienfelds verfügbar.
 
-## Standardansicht oder benutzerdefinierte Ansicht anwenden
+<!--
+## (New UI) Apply a default or custom view
+-->
+
+## (Alte Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht anwenden
 
 * (Standardansichten) Klicken Sie im Hauptmenü auf **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]** \> **\[Entitätstyp\]**.
 

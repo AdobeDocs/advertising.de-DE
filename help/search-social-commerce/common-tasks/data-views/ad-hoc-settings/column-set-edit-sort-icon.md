@@ -3,16 +3,20 @@ title: Bearbeiten und Sortieren des Spaltensatzes über das [!UICONTROL Custom C
 description: Erfahren Sie, wie Sie die sichtbaren Spalten mithilfe der Spaltenanpassung ändern.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten und Sortieren des Spaltensatzes über das [!UICONTROL Custom Columns]
 
-Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste ändern. Die Änderungen werden nur so lange angewendet, bis Sie die Kampagnenverwaltungsansichten verlassen oder Daten für einen anderen Advertiser anzeigen.
+<!-- The same in new UI and legacy CM views except for icon -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste ändern. Die Änderungen werden nur angewendet, bis Sie die entsprechenden Ansichten verlassen oder Daten für einen anderen Advertiser anzeigen.
 
 >[!NOTE]
 >
@@ -20,9 +24,9 @@ Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste 
 >
 >Sie können Änderungen an den Spalten, die für einen bestimmten Advertiser enthalten sind, speichern, indem Sie die Standardansicht bearbeiten oder [eine benutzerdefinierte Ansicht erstellen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. Klicken Sie rechts in der Symbolleiste auf ![Spalten](/help/search-social-commerce/assets/custom-columns.png "Spalten").
+1. Klicken Sie rechts in der Symbolleiste auf ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns.png "Benutzerdefinierte Spalten") oder ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns-new.png "Benutzerdefinierte Spalten").
 
-1. (Optional) [Erstellen Sie eine benutzerdefinierte (abgeleitete) Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) die als Spalte aufgenommen werden soll.
+1. (Optional) [Erstellen einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) um als Spalte einzuschließen.
 
 1. Geben Sie die Spalten an, die in die Ansicht aufgenommen werden sollen:
 
@@ -40,6 +44,10 @@ Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste 
 
    * Die Spalte angeben, nach der die Zeilen sortiert werden sollen.
 
-   * (Optional) Bewegen Sie den Schieberegler, um die Werte der ausgewählten Spalte in **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]** Reihenfolge zu sortieren.
+   * (Optional) Geben Sie die Sortierreihenfolge für die Werte der ausgewählten Spalte an:
+
+      * (Neue Benutzeroberfläche) Wählen Sie **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]** aus.
+
+      * (Alte Benutzeroberfläche) Schieben Sie den Schieberegler auf **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]**.
 
 1. Klicken Sie auf **[!UICONTROL Apply]**.

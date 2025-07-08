@@ -3,7 +3,7 @@ title: Spaltenkonfiguration sperren und entsperren
 description: Erfahren Sie, wie Sie eine Spaltenkonfiguration in Kampagnenansichten sperren und entsperren.
 exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -11,6 +11,10 @@ ht-degree: 0%
 ---
 
 # Sperren und Entsperren einer Spaltenkonfiguration in Kampagnenansichten
+
+<!-- The same in new UI and legacy CM views -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
 Durch das Sperren einer Spalte werden diese Spalte und alle anderen Spalten links davon in einen statischen Bereich und alle Spalten rechts in einen anderen Bereich „gesperrt“, durch den Sie horizontal scrollen können.
 
