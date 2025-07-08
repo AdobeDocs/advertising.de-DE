@@ -3,19 +3,13 @@ title: Anzeigen von Daten für einen anderen Advertiser
 description: Erfahren Sie, wie Sie Daten für einen anderen Advertiser anzeigen.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: 6487410267dcb17ee02320eed62c7744adbce1fb
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-&#x200B;---
-Titel: Daten für einen anderen Advertiser anzeigen
-Beschreibung: Erfahren Sie, wie Sie Daten für einen anderen Advertiser anzeigen.
-EXL-ID: 31C5DB71-9EF1-4088-8FDC-FF091E0EAEF8
-Funktion: Suchen nach allgemeinen Aufgaben
----
 # Anzeigen von Daten für einen anderen Advertiser
 
 *Benutzer, die nur mehrere Advertiser-Konten verwalten*
