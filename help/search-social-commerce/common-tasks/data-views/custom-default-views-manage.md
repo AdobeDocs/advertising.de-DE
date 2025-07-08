@@ -3,7 +3,7 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
+source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ Die Standardeinstellungen des Systems variieren je nach Verwaltungsansicht. Für
 
    1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
 
-   1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Wiederherstellen](/help/search-social-commerce/assets/revert-new.jpg).
+   1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Wiederherstellen](/help/search-social-commerce/assets/revert-new.png).
 
 * In den alten Ansichten für die Kampagnenverwaltung:
 
