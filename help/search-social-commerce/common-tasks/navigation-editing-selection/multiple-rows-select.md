@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Mehrere Zeilen auswählen
-i
-Sie können in der neuen Benutzeroberfläche in den Verwaltungsansichten und in der Legacy-Benutzeroberfläche mehrere Zeilen aus [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] auswählen:
+# Mehrere Zeilen auswähleniSie können in der neuen Benutzeroberfläche in den Verwaltungsansichten und in der Legacy-Benutzeroberfläche mehrere Zeilen aus [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] und [!UICONTROL Optimization] > [!UICONTROL Constraints] auswählen:
 
 * Tastaturbefehle:
 
