@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
----
+&#x200B;---
 Titel: Daten für einen anderen Advertiser anzeigen
 Beschreibung: Erfahren Sie, wie Sie Daten für einen anderen Advertiser anzeigen.
 EXL-ID: 31C5DB71-9EF1-4088-8FDC-FF091E0EAEF8
