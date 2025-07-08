@@ -3,9 +3,9 @@ title: Spaltenfilter entfernen
 description: Erfahren Sie, wie Sie einen Spaltenfilter entfernen.
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 >
 >Sie können auch mehrere Filter in einem Filtersatz entfernen, indem Sie [den Filtersatz bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
 
-1. (Falls erforderlich) Klicken Sie im Filtersatz über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more-filters.png "Mehr"), um den Filtersatz zu erweitern.
+* (falls verfügbar) Klicken Sie über der Datentabelle in der Filterdefinition auf **[!UICONTROL X]** .
 
-1. Klicken Sie über der Datentabelle in der Filterdefinition auf **[!UICONTROL X]** .
+>[!MORELIKETHIS]
+>
+>* [Anwenden eines Datenfilters über ein Spaltenüberschriftenmenü](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Anwenden von Datenfiltern über die Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Spaltenfilter bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
