@@ -3,9 +3,9 @@ title: Über das Anpassen von Daten in Ansichten des Kampagnen-Managements
 description: Erfahren Sie mehr über die Datentypen, die Sie in Kampagnendatenansichten anpassen können.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 42495874f93f3af2d6aaec19148d007062fd3b9b
+source-git-commit: 062c63c314bb6eb262fc57f6acc79bc4f2164258
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datentabelle angezeigt werden, anpassen. Sie können die Daten wie folgt anpassen:
 
-* Bearbeiten Sie die Einstellungen für Ihre gesamte Standardansicht für eine bestimmte Entitätsansicht (z. B. [!UICONTROL Campaigns]), um eine bestimmte Spaltenreihenfolge, Filter, Datumsbereich, Attributionsregel und mehr einzuschließen - und wenden Sie die Einstellungen entweder vorübergehend an oder speichern Sie sie. Sie können auch zusätzliche benutzerdefinierte Ansichten erstellen und jede Ihrer Ansichten jederzeit anwenden.
+* [Bearbeiten Sie die Einstellungen für die gesamte Standardansicht](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) für eine bestimmte Entitätsansicht (z. B. [!UICONTROL Campaigns]), um eine bestimmte Spaltenreihenfolge, Filter, Datumsbereich, Attributionsregel und mehr einzuschließen - und wenden Sie die Einstellungen entweder vorübergehend an oder speichern Sie sie. Sie können auch [zusätzliche benutzerdefinierte Ansichten erstellen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view) vorhandene Ansichten [klonen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone) und [jede Ihrer Ansichten anwenden](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view).
 
-* Ändern Sie die Spalten und ihre Sortierreihenfolge über das [!UICONTROL Columns]-Symbol auf der rechten Seite der Symbolleiste oder ändern Sie schnell nur die Spalten aus einer beliebigen Spaltenüberschrift in der Ansicht.
+* [Ändern Sie die Spalten und ihre Sortierreihenfolge](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) über das [!UICONTROL Columns]-Symbol auf der rechten Seite der Symbolleiste oder [ändern Sie nur die Spalten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) in einer beliebigen Spaltenüberschrift in der Ansicht.
 
-* Im linken Navigationsbereich haben Sie folgende Möglichkeiten:
+* (Nur veraltete Benutzeroberfläche) [Im linken Navigationsbereich ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md) Sie folgende Möglichkeiten:
 
    * Suchen Sie nach Entitäten nach Anzeigennetzwerk und filtern Sie nach dem Status der Entität und dem Status des Kontos, der Kampagne und der Anzeigengruppe oder des Anzeigensatzes. Klicken Sie auf eine beliebige Entität oder Entitätsgruppe im Bedienfeld, um eine Ansicht der untergeordneten Entitäten zu laden (klicken Sie beispielsweise auf einen Kampagnennamen, um die untergeordneten Anzeigengruppen anzuzeigen).
 
@@ -28,10 +28,10 @@ In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datent
 
    * Zugreifen auf, Bearbeiten und Zurücksetzen von Standardansichten sowie Zugreifen auf, Bearbeiten und Löschen von benutzerdefinierten Ansichten. Wenn Sie auf einen Ansichtsnamen klicken, wird die entsprechende Ansicht geladen.
 
-* Wenden Sie Filter auf alle verfügbaren Datenspalten an, um die Daten zu ändern, die auf der aktuellen Registerkarte angezeigt werden. Sie können Filter aus den Spaltenüberschriften oder aus einer Schaltfläche in der Symbolleiste erstellen. Filter werden beibehalten, wenn Sie untergeordnete Entitäten öffnen. Wenn Sie beispielsweise Kampagnen mit \> 100 Klicks anzeigen und dann eine Anzeigengruppe innerhalb dieser Kampagne öffnen, werden nur Anzeigengruppen mit \> 100 Klicks angezeigt.
+* Wenden Sie Filter auf alle verfügbaren Datenspalten an, um die Daten zu ändern, die auf der aktuellen Registerkarte angezeigt werden. Sie können Filter erstellen [aus den Spaltenüberschriften ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)oder [aus einer Schaltfläche in der Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). In Ansichten des Kampagnen-Managements werden die Filter nach Bedarf beibehalten, wenn Sie untergeordnete Entitäten öffnen. Wenn Sie beispielsweise Kampagnen mit \> 100 Klicks anzeigen und dann eine Anzeigengruppe innerhalb dieser Kampagne öffnen, werden nur Anzeigengruppen mit \> 100 Klicks angezeigt.
 
-* Ändern Sie den Datumsbereich, der in allen standardmäßigen und benutzerdefinierten Ansichten verwendet wird, für die Sie keine bestimmten Datumsbereiche gespeichert haben.
+* [Ändern des Datumsbereichs](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md) wird in allen standardmäßigen und benutzerdefinierten Ansichten verwendet, für die Sie keine bestimmten Datumsbereiche gespeichert haben.
 
-* Sortieren Sie die Daten entsprechend den Werten in einer bestimmten Spalte neu.
+* [Sortieren Sie die Daten ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md) den Werten in einer bestimmten Spalte neu.
 
-* Steuern Sie, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, 200 Zeilen oder [!UICONTROL Continuous Scroll] unten rechts auf einer Seite angezeigt werden sollen.
+* Steuern Sie, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, (nur für veraltete Benutzeroberfläche) 200 Zeilen oder (nur für veraltete Benutzeroberfläche) [!UICONTROL Continuous Scroll] am unteren Rand einer Seite angezeigt werden sollen.
