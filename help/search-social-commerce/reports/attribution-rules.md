@@ -3,14 +3,14 @@ title: Wie Attributionsregeln berechnet werden
 description: Erfahren Sie, wie Adobe Advertising die einzelnen Attributionsregeltypen berechnet.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
-# Berechnen der Attributionsregeln für das Adobe Advertising
+# Berechnen der Attributionsregeln für Adobe Advertising
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
 
@@ -23,7 +23,7 @@ In Berichten, standardmäßigen und benutzerdefinierten Ansichten für Advertisi
 >[!NOTE]
 >
 >* Die Zuordnungsregeln gelten für Klicks auf bezahlte Anzeigen in jedem beliebigen Kanal und für Impressionen auf Display- und Social-Media-Anzeigen. Sie gelten nicht für Impressionen für Paid Search-Anzeigen, die nicht auf Ereignisebene verfolgt werden können.
->* Adobe Advertising speichert vor einer Konversion immer die folgenden Ereignisse für jeden Websurfer: a) den ersten bezahlten Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Display), einschließlich des ersten Klicks; und c) bis zu 10 Display-Impressionen. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising speichert vor einer Konversion immer die folgenden Ereignisse für jeden Websurfer: a) den ersten gebührenpflichtigen Klick; b) bis zu 10 Klicks für jeden Kanal (Suche, Social oder Display), einschließlich des ersten Klicks; und c) bis zu 10 Display-Impressionen.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* In Advertising DSP und Advertising Creative berücksichtigen geräteübergreifende Definitionen nur den Ereignispfad, der in der ausgewählten Attributionsregel angegeben ist.<!-- cross-device attribution via LiveRamp only -->
 >* In Berichten und Verwaltungsansichten hängt die Anzahl der für einen Wert angezeigten Dezimalstellen von der Währung ab, Adobe Advertising speichert jedoch präzisere Werte.
 
@@ -122,7 +122,7 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 * In Search, Social und Commerce wird die [Impression Override-Gewichtung](/help/search-social-commerce/glossary.md#i-j), die in der Einstellung „Impression Override-Gewichtung“ des Advertisers und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist, zunächst auf die Impressionen angewendet.
 
-* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. Die DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
+* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
 
 ![Gewicht des ersten Ereignisses - mehr Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Gewicht des ersten Ereignisses - mehr Attributionsprozentsätze")
 
@@ -184,7 +184,7 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 * In Search, Social und Commerce wird die [Impression Override-Gewichtung](/help/search-social-commerce/glossary.md#i-j), die in der Einstellung „Impression Override-Gewichtung“ des Advertisers und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist, zunächst auf die Impressionen angewendet.
 
-* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. Die DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
+* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
 
 ![Gerade Prozentsätze](/help/search-social-commerce/assets/attribution-percent-even.png "Gerade Prozentsätze")
 
@@ -212,7 +212,7 @@ Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, gilt die Gewi
 
 Attribution: Impression 1 = 6 USD, Klick 1 = 54 USD, Impression 2 = 6 USD, Klick 2 = 54 USD (insgesamt 120 USD)
 
-#### Verwendung (nur Adobe Advertising DSP) ohne Impression Override-Gewichtung oder (Nur Suche, Social und Commerce) einer „Impression Override-Gewichtung“ von 0 %
+#### Verwendung von (nur Adobe Advertising DSP) ohne Impression Override-Gewichtung oder (Nur Suche, Social und Commerce) einer „Impression Override-Gewichtung“ von 0 %
 
 Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
@@ -244,7 +244,7 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 * In Search, Social und Commerce wird die [Impression Override-Gewichtung](/help/search-social-commerce/glossary.md#i-j), die in der Einstellung „Impression Override-Gewichtung“ des Advertisers und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist, zunächst auf die Impressionen angewendet.
 
-* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. Die DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
+* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
 
 ![Gewicht des letzten Ereignisses - mehr Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Gewicht des letzten Ereignisses - mehr Attributionsprozentsätze")
 
@@ -302,7 +302,7 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 * In Search, Social und Commerce wird die [Impression Override-Gewichtung](/help/search-social-commerce/glossary.md#i-j), die in der Einstellung „Impression Override-Gewichtung“ des Advertisers und in Berichten, Ansichten oder benutzerdefinierten Simulationsparametern angegeben ist, zunächst auf die Impressionen angewendet.
 
-* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. Die DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
+* In DSP werden die Impressionen ignoriert und nur Klicks werden gewichtet. DSP berücksichtigt bei der Attribution nicht die Gewichtung der Impression-Überschreibung.
 
 ![U-förmige Attributionsprozentsätze](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-förmige Attributionsprozentsätze")
 
@@ -328,7 +328,7 @@ Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, gilt die Gewi
 
 Attribution: Impression 1 = 6 USD, Klick 1 = 54 USD, Impression 2 = 6 USD, Klick 2 = 54 USD (insgesamt 120 USD)
 
-#### Verwenden von (nur DSP) keine Impression-Überschreibungsgewichtung oder (nur Search, Social und Commerce) eine „Impression-Überschreibungsgewichtung“ von 0 %
+#### Verwenden von (nur DSP) kein Impression Override-Gewicht oder (nur Search, Social und Commerce) ein „Impression Override-Gewicht“ von 0 %
 
 Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
