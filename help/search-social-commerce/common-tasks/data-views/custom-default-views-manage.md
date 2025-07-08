@@ -3,7 +3,7 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Benutzerdefinierte Ansichten gelten nur für die Ansichten des Kampagnen-Managem
    >
    >Verwenden Sie einen Namen, der Ihnen hilft, die Registerkarte und die Informationen zu identifizieren, für die sie gilt (z. B. „Ausgesetzte Kampagnen“ oder „Top 50-Anzeigen„).
 
-## Standardansicht oder benutzerdefinierte Ansicht bearbeiten
+## Standardansicht oder benutzerdefinierte Ansicht bearbeiten {#view-edit}
 
 ### (Neue Benutzeroberfläche) Standardansicht oder benutzerdefinierte Ansicht bearbeiten
 
@@ -132,7 +132,7 @@ Benutzerdefinierte Ansichten gelten nur für die Ansichten des Kampagnen-Managem
 
    * Um die Einstellungen in einer neuen benutzerdefinierten Ansicht zu speichern, klicken Sie auf **[!UICONTROL Save As]**. Geben Sie im [!UICONTROL Enter New Custom View Name] den Namen der neuen Ansicht ein, und klicken Sie dann auf **[!UICONTROL Save]**.
 
-## (Neue Benutzeroberfläche) Klonen einer standardmäßigen oder benutzerdefinierten Ansicht
+## (Neue Benutzeroberfläche) Klonen einer standardmäßigen oder benutzerdefinierten Ansicht {#view-clone}
 
 *Verfügbar in den Ansichten [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] und [!UICONTROL Ad Groups]*
 
