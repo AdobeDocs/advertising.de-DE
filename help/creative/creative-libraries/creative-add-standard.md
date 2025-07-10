@@ -3,9 +3,9 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
-   * Klicken Sie auf **[!UICONTROL select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
+   * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
    Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
@@ -64,7 +64,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
-   * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+   * Klicken Sie auf **[!UICONTROL Select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
 
    Siehe die [HTML5-Anzeigenspezifikation](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -167,7 +167,7 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
       * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
-      * Klicken Sie auf **[!UICONTROL select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
+      * Klicken Sie auf **[!UICONTROL Select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
    * Gehen Sie für genehmigte Bilder in einer [Adobe Experience Manager-Bibliothek, die mit Ihrem DSP](/help/creative/creative-libraries/aem-assets-configure.md)Konto verbunden ist, wie folgt vor:
 
@@ -206,6 +206,30 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
    Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+
+1. **[!UICONTROL Create]** klicken
+
+## Hinzufügen eines Kreativvideos zu einer Kreativbibliothek
+
+Siehe [Video Creative Specifications](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) und die [unterstützten Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf den Bibliotheksnamen.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
+
+1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+
+1. Geben Sie die Videodateien auf eine der folgenden Arten an:
+
+   * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
+
+   * Klicken Sie auf **[!UICONTROL Select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
+
+1. Legen Sie die [kreativen Videoeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video) fest.
+
+   Standardmäßig wird das gerade hochgeladene Kreativ-Asset ausgewählt und alle angegebenen Einstellungen gelten für das ausgewählte Kreativ-Asset.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. **[!UICONTROL Create]** klicken
 

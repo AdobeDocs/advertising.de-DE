@@ -3,9 +3,9 @@ title: Das Layout des Entscheidungsbaums
 description: Erfahren Sie mehr über das Entscheidungsbaum-Layout für Erlebnisse beim Targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Zunächst beginnt jeder Entscheidungsbaum mit der Stammebene „Alle“. Sie kö
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Begriffe
 
@@ -38,7 +38,7 @@ Zunächst beginnt jeder Entscheidungsbaum mit der Stammebene „Alle“. Sie kö
 
 ## Ziele in einem Entscheidungsbaum
 
-Jeder Entscheidungsbaum kann bis zu fünf Zielgruppenebenen haben. Jede Zielebene kann mehrere Verzweigungen mit jeweils einem oder mehreren Knoten mit demselben Zieltyp enthalten (Zielgruppensegment, geografischer Standorttyp, Werte für angegebene Datenübergabeschlüssel, Attribute für ein bestimmtes Retargeting-Pixel oder Gerätekategorie). Sie können den Zielknoten der untersten Ebene kreative Bundles in jeder Anzeigengröße zuweisen, für die Sie ein Standardbild für kreative Inhalte angegeben haben.
+Jeder Entscheidungsbaum kann bis zu fünf Zielgruppenebenen haben. Jede Zielebene kann mehrere Verzweigungen mit jeweils einem oder mehreren Knoten mit demselben Zieltyp enthalten (Zielgruppensegment, geografischer Standorttyp, Werte für angegebene Datenübergabeschlüssel, Attribute für ein bestimmtes Retargeting-Pixel oder Gerätekategorie). Sie können den Zielknoten der untersten Ebene Kreativ-Bundles in jeder Anzeigengröße zuweisen, für die Sie ein Standardbild oder ein Kreativ-Video angegeben haben.
 
 ![Beispiel eines Entscheidungsbaums mit Zielen](/help/creative/assets/experience-decision-tree.png "Beispiel eines Entscheidungsbaums mit Zielen")
 

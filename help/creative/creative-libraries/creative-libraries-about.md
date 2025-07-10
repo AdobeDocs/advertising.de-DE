@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ihre Bibliotheken können Folgendes enthalten:
 
    * **Dynamische Kreative:** (Nur für bestehende Adobe Advertising DCO-Kundinnen und -Kunden) Administratoren können dynamisch generierte Kreative erstellen, indem sie dynamische Variablen in einer Anzeigenvorlage Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
 
-* **Kreativ-Bundles:** Kreative in Bundles zusammen, die für mehrere Erlebnisse mit definierten Benutzerzielen verwendet werden können. Sie können *Standard-Bundles* erstellen, die aus Standardanzeigen und *dynamischen Bundles* bestehen, die aus dynamisch generierten Anzeigen bestehen.
+* **Kreativ-Bundles:** Kreative in Bundles zusammen, die für mehrere Erlebnisse mit definierten Benutzerzielen verwendet werden können. Sie können *Standard-Display* Bundles erstellen, die aus Standard-Display-Anzeigen, *Standard-Video-Bundles* die aus Standard-Video-Anzeigen bestehen, und *Dynamische Display-Bundles* die aus dynamisch generierten Display-Anzeigen bestehen.
 
 ## Unterstützte Creative-Formate {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ Sie können die folgenden Kreativtypen in den [unterstützten Kreativgrößen“
 
 >[!IMPORTANT]
 >
->Selbst wenn Sie beabsichtigen, HTML5, Flexible HTML5 oder Kreative von Drittanbietern für Ihre Anzeigenerlebnisse zu verwenden, müssen Sie für jede verwendete Kreativgröße auch Bildkreative hinzufügen.
->
->Für jedes Erlebnis ist ein Standardbild erforderlich, das für jede dem Erlebnis zugewiesene Kreativgröße erstellt wird. Die Standardbildkreative werden verwendet, wenn ein Browser nicht JavaScript-fähig ist oder wenn der Anzeigenserver die Anzeige aufgrund von Verzögerungen nicht personalisieren kann.
+>* Selbst wenn Sie beabsichtigen, HTML5, Flexible HTML5 oder Kreative von Drittanbietern für Ihre standardmäßigen Display-Anzeigenerlebnisse zu verwenden, müssen Sie für jede verwendete Kreativgröße auch Image-Kreative hinzufügen.
+>* Für jedes standardmäßige Anzeigeerlebnis ist ein Standardbild erforderlich, das für jede dem Erlebnis zugewiesene Kreativgröße erstellt wird. Die Standardbildkreative werden verwendet, wenn ein Browser nicht JavaScript-fähig ist oder wenn der Anzeigenserver die Anzeige aufgrund von Verzögerungen nicht personalisieren kann.
+>* Für jedes Standard-Videoerlebnis ist ein Standardvideo für jede dem Erlebnis zugewiesene Kreativgröße erforderlich.<!-- when is it used? -->
 
 #### Flexible HTML5
 
@@ -52,7 +52,7 @@ Sie können einfache oder statische HTML5-Kreative mit allen angegebenen Attribu
 
 Sie können Bildkreative im GIF-, JPEG-, JPG- oder PNG-Format einbeziehen. Sie können genehmigte Bilder von Ihren Adobe Experience Manager-Konten oder Bilder von Ihrem Gerät oder Netzwerk hochladen.
 
-Für jedes Werbeerlebnis ist ein Standardbild erforderlich, das für jede dem Erlebnis zugewiesene Kreativgröße erstellt wird.
+Für jedes standardmäßige Display- und Erlebniserlebnis ist ein Standardbild für jede dem Erlebnis zugewiesene Kreativgröße erforderlich.
 
 #### Kreative von Drittanbietern
 
@@ -61,6 +61,38 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### Video-Kreative {#creative-video-specs}
+
+Sie können Video-Kreative von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist ein Standardvideo für jede dem Erlebnis zugewiesene Kreativgröße erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional eine [publisher-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
+
+Siehe folgendes Video: Creative Requirements.
+
+**Dateityp:** .mov, .mp4, .webm
+
+**Dateigröße:** Maximal 512 MB
+
+**Bildseitenverhältnis:** 16:9, 4:3
+
+**Videoauflösung:** 640x360 für 360p, 1280x720 für 720p, 1920x1080 für 1080p
+
+**Videolänge:** Maximal 90 Sekunden
+
+**Bitrate:** 600-1200 kbps für 360p, 1500-2500 kbps für 720p, 3000-5000+ kbps für 1080p
+
+**Video-Bildwechselfrequenz:** 23,98 Bilder/s. Zusätzliche Frameraten können je nach regionalen oder Publisher-Anforderungen akzeptiert werden
+
+**Video-Codec:** H.264 (Industriestandard), AV1, H.265
+
+**Audioformat:** ACC (Industriestandard/MP4), Opus (WebM/AV1)
+
+**Audio-Bitrate:** 16-512 kBit/s
+
+**Audio-Abtastrate:** 44100-48000 Hz
+
+**Audiorate:** 44,1 kHz oder 48 kHz
+
+**Sonstiges Audio** Die hochgeladene Datei darf nicht verschachtelt und gemischt sein und eine Audiospur enthalten. Möglicherweise ist kein Ton vorhanden, aber die Videodatei muss eine Audiospur enthalten.
 
 ### Format für dynamische Anzeigen
 
@@ -102,7 +134,9 @@ Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten
 
 * [Vorschau eines Standard-Kreativen anzeigen](creative-preview.md)
 
-* [Standard-Kreative zu Standard-Bundles hinzufügen und Standard-Kreative aus einem Standard-Bundle entfernen](creative-attach-detach-bundles.md)
+* [Standard-Kreative zu Standard-Display-Bundles hinzufügen und Standard-Kreative aus einem Standard-Display-Bundle entfernen](creative-attach-detach-bundles.md)
+
+* [Hinzufügen von Videokreativen zu Standard-Videopaketen und Entfernen von Videokreativen aus einem Standard-Videopaket](creative-attach-detach-bundles.md)
 
 * [Standardkreative duplizieren](creative-duplicate.md)
 
@@ -112,7 +146,7 @@ Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten
 
 #### [!UICONTROL Dynamic Ads]
 
-Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [ der Registerkarte [!UICONTROL Dynamic Ads] manuell ](creative-delete.md) haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) alle dynamischen Kreativen seit der letzten Verarbeitung eines Katalogs enthalten, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
+Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [ der Registerkarte ](creative-delete.md) manuell [!UICONTROL Dynamic Ads] haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) alle dynamischen Kreativen seit der letzten Verarbeitung eines Katalogs enthalten, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
 
 Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Vorlage, mit der die kreative Seite generiert wurde, und die Anzahl der Angebote.
 
@@ -126,7 +160,7 @@ Die Möglichkeit, dynamische Kreative zu erstellen und zu bearbeiten, ist derzei
 
 * [Vorschau für dynamische Kreative](creative-preview.md)
 
-* [Dynamische Kreative zu dynamischen Paketen hinzufügen und dynamische Kreative aus einem dynamischen Paket entfernen](creative-attach-detach-bundles.md)
+* [Fügen Sie dynamische Kreative zu dynamischen Display-Bundles hinzu und entfernen Sie dynamische Kreative aus einem dynamischen Display-Bundle](creative-attach-detach-bundles.md)
 
 * [Dynamische Kreative duplizieren](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ Die [!UICONTROL Bundles] zeigt alle standardmäßigen und dynamischen Bundle-Con
 
 #### Verfügbare Aktionen
 
-* Hinzufügen von standardmäßigen und dynamischen Bundles zu einer Bibliothek
+* Hinzufügen von Bundles mit Standardbildschirmen, Standardvideos und dynamischen Anzeigen zu einer Bibliothek
 
 * Auflisten und Vorschau der Kreativen in einem Bundle
 
 * Bundle-Namen bearbeiten
 
-* Standard-Kreative zu Standard-Bundles hinzufügen und Standard-Kreative aus einem Standard-Bundle entfernen
+* Fügen Sie Standarddarstellungskreative zu Standarddarstellungspaketen hinzu und entfernen Sie Standarddarstellungskreative aus einem Standarddarstellungspaket
+
+* Hinzufügen von Standard-Video-Kreativen zu Standard-Video-Bundles und Entfernen von Standard-Video-Kreativen aus einem Standard-Video-Bundle
 
 * Bundles duplizieren
 

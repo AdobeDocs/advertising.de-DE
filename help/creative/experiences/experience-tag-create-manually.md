@@ -3,9 +3,9 @@ title: Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgr
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für eine bestimmte Kreativgröße erstellen.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ Sie können für jede für ein Erlebnis verwendete Kreativgröße ein oder mehre
 
    * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Tag Manager]**.
 
-   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create Tag]**.
 
 1. Geben Sie eine eindeutige **[!UICONTROL Tag name]** ein und wählen Sie die **[!UICONTROL Tag size]** aus.
 
-   Die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmen die verfügbaren Kreativ-Größen.
+   Die Größe der standardmäßigen Kreativen für das Erlebnis bestimmt die verfügbaren Kreativgrößen.
 
    Sie können mehrere Tags für dieselbe kreative Größe erstellen.<!-- What are the implications? -->
 
@@ -41,10 +41,13 @@ Sie können für jede für ein Erlebnis verwendete Kreativgröße ein oder mehre
 
    Sie können die Tag-Zeile erweitern, um die eingeschlossenen Kreativen anzuzeigen.
 
+   Für Videowerberlebnisse werden Videokreative von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. Sie können optional [publisher-spezifische Transkodierung anwenden](experience-tag-video-transcoding.md).
+
 >[!MORELIKETHIS]
 >
 >* [Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting](experience-tag-assign-creatives.md)
 >* [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](experience-tracking-urls-no-targeting.md)
 >* [Passen Sie die kreative Optimierung und Planung für ein Erlebnis ohne Targeting an](experience-optimization-scheduling-no-targeting.md)
+>* [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](experience-tag-video-transcoding.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](experience-tag-export.md)
 >* [Umbenennen eines Anzeigen-Tags](experience-tag-rename.md)

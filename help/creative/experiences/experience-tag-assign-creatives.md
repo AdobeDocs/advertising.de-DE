@@ -3,9 +3,9 @@ title: Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeti
 description: Erfahren Sie, wie Sie einem Anzeigen-Tag Kreative für eine bestimmte Kreativgröße zuweisen.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können später [Tracking-URLs anpassen](experience-tracking-urls-no-targeti
 
    * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Tag Manager]**.
 
-   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
 1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie auf **[!UICONTROL + Add Creatives]**. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ Sie können später [Tracking-URLs anpassen](experience-tracking-urls-no-targeti
 >* [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](experience-tag-create-manually.md)
 >* [Passen Sie die Tracking-URLs für die Kreativen ](experience-tracking-urls-no-targeting.md).
 >* [Passen Sie die kreative Optimierung und Planung für die Kreativen an](experience-optimization-scheduling-no-targeting.md)
+>* [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](experience-tag-video-transcoding.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](experience-tag-export.md)

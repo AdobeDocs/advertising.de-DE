@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standardpakete können nur Standardanzeigen enthalten, und dynamische Pakete können nur dynamische Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
+Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standard-Display-Bundles können nur Standard-Display-Anzeigen enthalten, Standard-Video-Bundles können nur Standard-Video-Anzeigen enthalten und dynamische Display-Bundles können nur dynamische Display-Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
 
 [!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis auf der Grundlage der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von Adobe Sensei unterstützt wird.
 
@@ -40,7 +40,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Geben Sie einen eindeutigen **[!UICONTROL Bundle Name]** und die **[!UICONTROL Bundle Type]:** *Standard* (für Standardkreative) oder *Dynamisch* (für dynamische Kreative) ein.
+1. Geben Sie eine eindeutige **[!UICONTROL Bundle Name]** ein und **[!UICONTROL Bundle Type]Sie Folgendes** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamisches Display* (für Kreative von dynamischen Bildschirmen), *Standardvideo* (für Kreative von Standardvideos).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -104,7 +104,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 ## Kreative an Bundle anhängen
 
-Sie können [vorhandene Standardkreative](/help/creative/creative-libraries/creative-libraries-about.md) an ein Standardpaket und vorhandene dynamische Kreative <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> ein dynamisches Paket anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
+Sie können bestehende Kreative von Standardbildschirmen an ein Bundle mit Standardbildschirmen, Kreative von Standardvideos an Standard-Videopakete und Kreative von dynamischen Anzeigen an ein dynamisches Bundle anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
 
 >[!NOTE]
 >

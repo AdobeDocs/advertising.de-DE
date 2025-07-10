@@ -3,9 +3,9 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Tag Manager]**.
 
-   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+
+>[!NOTE]
+>
+>Warten Sie bei Standard-Videoanzeigen, bis die Spalte [!UICONTROL Tag Status] &quot;[!UICONTROL Ready]&quot; anzeigt. Dies bedeutet, dass alle Videos im Erlebnis transcodiert wurden. Alle Video-Kreativen werden automatisch von DSP transkodiert, aber Sie können optional [publisher-spezifische Transkodierung](experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +49,7 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Next]** oder im Menü links auf **[!UICONTROL Generate ad tags]**.
 
-1. Wählen Sie den Tag-Typ aus: ** *JavaScript<!-- sic -->* **&#x200B; oder &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Wählen Sie den Tag-Typ aus: ** *JavaScript<!-- sic -->* ** oder ** *IFRAME* ** <!-- sic -->.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 
@@ -81,7 +85,6 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
       1. Überprüfen Sie in der [!UICONTROL Create ads] die Anzeigen-Tags, wählen Sie jedes Tag aus, für das Sie eine Anzeige erstellen möchten, und klicken Sie dann auf **[!UICONTROL Create]**.
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 >* [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](experience-tag-create-manually.md)
 >* [Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting](experience-tag-assign-creatives.md)
 >* [Umbenennen eines Anzeigen-Tags](experience-tag-rename.md)
+>* [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](experience-tag-video-transcoding.md)

@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-[!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
+Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standardvideo oder dynamische Anzeige). [!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
 
 * **Erlebnisse beim Targeting mit Entscheidungsbäumen:** [!DNL Creative] ermöglicht es Ihnen, personalisierte Anzeigenerlebnisse auf der gesamten Kunden-Journey mithilfe eines Entscheidungsbaummodells zu konfigurieren. Sie können alle Werbeelemente - Bilder, Überschriften, Angebote und Landingpages - je nach Zielgruppe anpassen.
 

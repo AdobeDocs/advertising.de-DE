@@ -3,9 +3,9 @@ title: Spezifikationen hinzufügen
 description: Verweisen Sie auf allgemeine und publisherspezifische Anzeigenspezifikationen.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Die Werbeanzeigen werden standardmäßig auf Desktop- und Mobilgeräten sowie au
 
 Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
 
-### Voraussetzungen für High-Definition-Assets (erforderlich)
+### Voraussetzungen für HD-Video-Assets
 
 **Video-Tag-Typ:** VPAID 2.0 JavaScript oder VAST (CTV). Alle VPAID-Anzeigeneinheiten müssen der [VPAID 2.0-Spezifikation](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) entsprechen, die vom Interactive Advertising Bureau (IAB) definiert wurde.
 
@@ -84,7 +84,7 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **HTML5:** Bilddateitypen: GIF, JPG/JPEG, PNG, SVG
 
-### Voraussetzungen für Image-Assets (erforderlich)
+### Voraussetzungen für Image-Assets
 
 Die universelle Anzeige wird unterstützt.
 
@@ -102,7 +102,7 @@ Desktop, Mobilgerät, Tablet, Smart-Lautsprecher und Connected TV
 
 Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
 
-### Voraussetzungen für Audio Assets (erforderlich)
+### Voraussetzungen für Audio Assets
 
 **Dateityp:** MP3, OGG, AAC
 
@@ -156,31 +156,31 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 * **[!DNL iHeartRadio]:**
    * Dateityp: JPEG, JPG, PNG, GIF, SWF, HTML
    * Maximale Dateigröße: 2,2 MB
-   * Dimensionen: 300x250
+   * Abmessungen: 300x250
 
 * **[!DNL Pandora]:**
    * Dateityp: JPEG, GIF
    * Maximale Dateigröße: Größe: 100 KB
-   * Dimensionen: 300 x 250 (mobil oder Desktop) oder 500 x 500 (Desktop)
+   * Abmessungen: 300 x 250 (mobil oder Desktop) oder 500 x 500 (Desktop)
 
 * **[!DNL SoundCloud]:**
-   * Dateityp: Statische JPG, PNG
+   * Dateityp: Statischer JPG, PNG
    * Maximale Dateigröße: Unter 400 KB
-   * Dimensionen: 1024 x 1024
+   * Abmessungen: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Dateityp: Statische JPG, PNG
+   * Dateityp: Statischer JPG, PNG
    * Maximale Dateigröße: 200 KB
-   * Dimensionen: 300x250
+   * Abmessungen: 300x250
 
 * **[!DNL TuneIn]:**
    * Dateityp: JPEG, JPG, PNG, GIF, HTML
    * Maximale Dateigröße: 2 MB
-   * Dimensionen: 300x250
+   * Abmessungen: 300x250
 
 ## Native Display-Anzeigen
 
-Jede Anzeige kann entweder ein Standbild oder eine bewegte GIF (Cinemagraph) enthalten.
+Jede Anzeige kann entweder ein Standbild oder einen bewegten GIF (Cinemagraph) enthalten.
 
 ### Unterstützte Screens
 
@@ -216,7 +216,7 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **Gesponsert von:** Maximal 200 Zeichen; 30 Zeichen empfohlen
 
-**Aktionsaufruf (nur MoPub):** maximal 15 Zeichen
+**Call to action (nur MoPub):** maximal 15 Zeichen
 
 >[!NOTE]
 >

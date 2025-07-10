@@ -3,9 +3,9 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]
 
+**[!UICONTROL Ad Type]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Typ der in dem Erlebnis enthaltenen Anzeigen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* oder *[!UICONTROL Video]*. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Anzeigentyp nicht mehr ändern.
+
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Werbetreibende, der Gebote für die in das Erlebnis eingeschlossenen Kreativen abgibt. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Advertiser nicht mehr ändern.
 
 **[!UICONTROL Experience Name]:** Ein eindeutiger Name für das Erlebnis. **Tipp** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Erlebnis als Anzeige in Advertising DSP oder einer anderen DSP verwenden.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives]
 
-**\[Angegebene Standardkreative\]:** Die Standardbildkreativen, die verwendet werden, wenn ein Browser keine dem Erlebnis zugewiesenen Kreativen anzeigen kann, z. B. wenn der Browser nicht JavaScript aktiviert ist oder der Anzeigenserver die Anzeige aufgrund von Verzögerungen nicht personalisieren kann. Schließen Sie pro Anzeigengröße, für die das Erlebnis gilt, ein kreatives Bild ein. Ihre Auswahl bestimmt die kreativen Größen, die für das Erlebnis verwendet werden können. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[Angegebene Standardkreative\]:** Die Standardkreativen, die verwendet werden, wenn ein Browser keine dem Erlebnis zugewiesenen Kreativen anzeigen kann, z. B. wenn der Browser nicht JavaScript aktiviert ist oder der Anzeigenserver die Anzeige aufgrund von Verzögerungen nicht personalisieren kann. Geben Sie für standardmäßige Anzeigeerlebnisse pro Anzeigengröße, für die das Erlebnis gilt, ein kreatives Bild an. Schließen Sie für standardmäßige Videoerlebnisse pro Anzeigengröße, für die das Erlebnis gilt, ein kreatives Video ein. Ihre Auswahl bestimmt die kreativen Größen, die für das Erlebnis verwendet werden können.
 
 Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standardmäßigen Kreativen mit Kreativen derselben Größe in [!UICONTROL Tag Manager] überschreiben.
 
@@ -39,8 +41,6 @@ Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie die standard
 ## [!UICONTROL Targeting]
 
 **[!UICONTROL Targeting]:** (Schreibgeschützt für vorhandene Erlebnisse) Trifft nicht zu, wenn Sie die Zielgruppenbestimmung mithilfe eines Entscheidungsbaums nicht aktivieren. Lassen Sie diese Option deaktiviert. **Hinweis** Wenn Sie ein Erlebnis ohne Targeting gespeichert haben, können Sie die Zielgruppenbestimmung später nicht mehr hinzufügen.
-
-**[!UICONTROL Dynamic ads]:** (Schreibgeschützt für vorhandene Erlebnisse) Gibt an, dass das Erlebnis dynamische Anzeigen enthält. **Hinweis:** Ein Erlebnis kann entweder alle Standardanzeigen oder alle dynamischen Anzeigen enthalten.
 
 **[!UICONTROL Language Targeting]:** (Erlebnisse nur mit Standardanzeigen; optional; schreibgeschützt für vorhandene Erlebnisse) Überprüft die Browser-Spracheinstellungen des Benutzers und zeigt ein Kreativ in der angegebenen Sprache an, wenn ein Kreativ in dieser Sprache verfügbar ist. Wenn kein Kreativ in der im Browser angegebenen Sprache verfügbar ist, wird stattdessen die [!UICONTROL Preferred language] verwendet. Nachdem Sie das Erlebnis gespeichert haben, können Sie diese Einstellung nicht mehr ändern.
 

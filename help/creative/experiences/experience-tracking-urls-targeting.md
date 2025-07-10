@@ -3,9 +3,9 @@ title: Anpassen der Tracking-URLs für ein Erlebnis
 description: Erfahren Sie, wie Sie die Tracking-URLs für jedes Kreative in einem Erlebnis mit Entscheidungsbaum-Targeting anpassen.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Die benutzerdefinierten URLs werden nur für Anzeigen verwendet, die aus dem Erl
 
 1. Halten Sie den Cursor über das Blatt/den Ordner des Kreativpakets unter dem Zielknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Auf den Registerkarten [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] und [!UICONTROL Landing URLs] werden die Namen aller Kreativen in den entsprechenden Größen in den zugewiesenen Bundles aufgelistet. Die Größen der standardmäßigen Image-Kreativen für das Erlebnis bestimmen die verfügbaren Größen.<!-- There's no distinct "Creative Sizes" setting. -->
+   Auf den Registerkarten [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] und [!UICONTROL Landing URLs] werden die Namen aller Kreativen in den entsprechenden Größen in den zugewiesenen Bundles aufgelistet. Die Größen der Standard-Kreativen für das Erlebnis bestimmen die verfügbaren Größen.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Gehen Sie auf den Registerkarten **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** und **[!UICONTROL Landing URLs]** für jeden Kreativen nach Bedarf wie folgt vor:
 

@@ -3,9 +3,9 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Weitere Informationen zu
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Standardmäßig wird die kreative Rotation für ein Erlebnis algorithmisch besti
 
 >[!NOTE]
 >
->Diese Funktionen sind nicht für Knoten verfügbar, die die standardmäßigen Bildkreativen anstelle der zugewiesenen Kreativen verwenden.
+>Diese Funktionen sind nicht für Knoten verfügbar, die die standardmäßigen Kreativen anstelle der zugewiesenen Kreativen verwenden.
 
 ## Konfigurieren der kreativen Optimierung ohne Planung
 
@@ -35,7 +35,7 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
    * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
 
-      * Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
+      * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
 
-         * Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
+         * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
 1. Für jeden zusätzlichen Zeitplan:
 
