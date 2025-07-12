@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 
 #### Video-Kreative {#creative-video-specs}
 
-Sie können Video-Kreative von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist ein Standardvideo für jede dem Erlebnis zugewiesene Kreativgröße erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional eine [publisher-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
+Sie können Erstanbieter-Videokreative für Web-, Mobil- oder vernetztes Fernsehen von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist ein Standardvideo für jede dem Erlebnis zugewiesene Kreativgröße erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional eine [publisher-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
 Siehe folgendes Video: Creative Requirements.
 

@@ -3,9 +3,9 @@ title: Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgr
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für eine bestimmte Kreativgröße erstellen.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Erlebnisse ohne Targeting mit Entscheidungsbäumen*
 *Geschlossene Beta-Version*
 
-Sie können für jede für ein Erlebnis verwendete Kreativgröße ein oder mehrere Anzeigen-Tags erstellen. Sie können später [dem Anzeigen-Tag Kreative zuweisen](experience-tag-assign-creatives.md).
+Sie können für jede kreative Größe oder Videodauer, die für ein Erlebnis verwendet wird, ein oder mehrere Anzeigen-Tags pro Sprache erstellen. Sie können später [dem Anzeigen-Tag Kreative zuweisen](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->Für Erlebnisse mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Tag für jede anwendbare Kreativgröße.
+>Für Erlebnisse mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Tag pro Sprache für jede anwendbare Kreativgröße oder Videodauer.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -31,11 +31,11 @@ Sie können für jede für ein Erlebnis verwendete Kreativgröße ein oder mehre
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create Tag]**.
 
-1. Geben Sie eine eindeutige **[!UICONTROL Tag name]** ein und wählen Sie die **[!UICONTROL Tag size]** aus.
+1. Geben Sie eine eindeutige **[!UICONTROL Tag name]** ein und wählen Sie entweder (Standardanzeige-Anzeigen) die **[!UICONTROL Tag size]** oder (Standardvideo-Anzeigen) die **[!UICONTROL Duration]** aus.
 
-   Die Größe der standardmäßigen Kreativen für das Erlebnis bestimmt die verfügbaren Kreativgrößen.
+   Die Größen oder die Dauer der Standard-Kreativen für das Erlebnis bestimmen die verfügbaren Kreativgrößen oder die Videodauer.
 
-   Sie können mehrere Tags für dieselbe kreative Größe erstellen.<!-- What are the implications? -->
+   Sie können mehrere Tags für dieselbe kreative Größe oder Dauer erstellen.<!-- What are the implications? -->
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

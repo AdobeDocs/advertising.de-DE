@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinz
 
 [!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis auf der Grundlage der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von Adobe Sensei unterstützt wird.
 
-Um die Optimierung von Anzeigenelementen über Bundles hinweg in einem Anzeigenerlebnis zu ermöglichen, kann jedes Bundle nur eine der \[Creative Size + Language\]-Kombinationen enthalten. Beispiel: Wenn ein Bundle eine 250x250-Kreative mit der Standardsprache „Französisch“ enthält, können Sie keine zweite 250x250-Kreative mit der Standardsprache „Französisch“ hinzufügen. Wenn Sie mehrere Kreative derselben Größe in derselben Sprache haben, fügen Sie sie separat zum -Erlebnis hinzu.
+Um die Optimierung von Anzeigenelementen über Bundles hinweg in einem Anzeigenerlebnis zu ermöglichen, kann jedes Bundle nur eines von jeder Kombination aus \[Creative Size oder Duration + Language\] enthalten. Beispiel: Wenn ein Bundle eine 250x250-Kreative mit der Standardsprache „Französisch“ enthält, können Sie keine zweite 250x250-Kreative mit der Standardsprache „Französisch“ hinzufügen. Wenn Sie mehrere Kreative derselben Größe in derselben Sprache haben, fügen Sie sie separat zum -Erlebnis hinzu.
 
 Kreative, die an Bundles angehängt sind, sind weiterhin als individuelle Kreative verfügbar. Sie können ein einzelnes Kreativ zu mehreren Bundles hinzufügen. Wenn Sie Einstellungen für ein Kreativ bearbeiten, das an ein Bundle angehängt ist, werden die Änderungen an das Bundle weitergegeben. Allerdings werden für das Erlebnis immer benutzerdefinierte Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags verwendet, die für die Kreativen in einem Erlebnis konfiguriert sind.
 
@@ -104,7 +104,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 ## Kreative an Bundle anhängen
 
-Sie können bestehende Kreative von Standardbildschirmen an ein Bundle mit Standardbildschirmen, Kreative von Standardvideos an Standard-Videopakete und Kreative von dynamischen Anzeigen an ein dynamisches Bundle anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size + Language\]-Kombinationen enthalten.
+Sie können bestehende Kreative von Standardbildschirmen an ein Bundle mit Standardbildschirmen, Kreative von Standardvideos an Standard-Videopakete und Kreative von dynamischen Anzeigen an ein dynamisches Bundle anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size oder Duration + Language\]-Kombinationen enthalten.
 
 >[!NOTE]
 >

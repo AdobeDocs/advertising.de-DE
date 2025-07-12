@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungs
 
       * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
 
-Wenn das Erlebnis live ist, erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede entsprechende Kreativgröße. Anschließend können Sie [das Anzeigen-Tag exportieren und in einer DSP implementieren](/help/creative/experiences/experience-tag-export.md).
+Wenn das Erlebnis live ist, erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede entsprechende kreative Größe oder Videodauer. Anschließend können Sie [ein Anzeigen-Tag exportieren und in einer DSP implementieren](/help/creative/experiences/experience-tag-export.md).
 
 Für Videowerberlebnisse werden Videokreative von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. Sie können optional [publisher-spezifische Transkodierung](experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
