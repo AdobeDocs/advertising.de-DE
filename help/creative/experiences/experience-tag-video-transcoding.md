@@ -3,7 +3,7 @@ title: Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag
 description: Erfahren Sie, wie Sie die Transkodierungsoptionen für ein Video-Anzeigen-Tag anpassen.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 3d0d42d19c11276f13a4e003c382a2d2410ab037
+source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Sie können die Transkodierungsoptionen für ein Video- und Anwendererlebnis anp
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-* Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Tag Manager]**.
+   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Tag Manager]**.
 
-* Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
 1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Video Settings]**.
 
