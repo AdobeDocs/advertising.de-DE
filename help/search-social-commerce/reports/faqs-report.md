@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu benutzerdefinierten Berichten
 description: Erfahren Sie Antworten auf häufig gestellte Fragen zu Leistungsberichten, einschließlich der Fehlerbehebung bei Datenproblemen.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Wenn die Zeile Daten für inhaltsaktivierte Suchkampagnen, Anzeigekampagnen oder
 +++Aufgrund von saisonalen oder Marktveränderungen zeigen meine Berichte atypische Daten. Wirkt sich dies auf Angebote aus, sobald sich die Bedingungen ändern?
 Die Optimierungsfunktion erstellt täglich ihre Umsatzmodelle für jede Gebotseinheit, um sicherzustellen, dass sie Trends erkennt und sofort darauf reagiert. Die Modelle beinhalten langfristige historische Daten, um die Vorhersage der saisonalen Leistung zu erleichtern. Die Einstellung der Halbwertszeit des Umsatzmodells des Portfolios bestimmt <!-- add link to glossary? -->, wie stark aktuelle Umsatzdaten gewichtet werden. Best Practice ist es, die Halbwertszeit während eines Zeitraums mit atypischer Leistung zu reduzieren, sie jedoch nach der Anpassung des Umsatzmodells zu erhöhen. Wenden Sie sich an Ihr Adobe-Account-Team, wenn Sie Fragen haben, ob eine Anpassung der Halbwertszeit erforderlich ist.
 
-Wenn Sie nicht möchten, dass sich die Daten für den Zeitraum auf zukünftige Gebote auswirken, können Sie diese Datumsangaben aus dem Modell ausschließen. Wenden Sie sich an Ihr Adobe-Account-Team, um die Daten auszuschließen.
+Wenn Sie nicht möchten, dass sich die Daten für den Zeitraum auf zukünftige Gebote auswirken, können Sie diese Datumsangaben aus dem Modell ausschließen. Wenden Sie sich an Ihr Adobe-Accountteam, um die Daten auszuschließen.
 +++
 
 +++Kann ich einen Bericht zu einer bestimmten Kontoeigenschaftsmetrik erstellen, z. B. [!UICONTROL Device] oder [!UICONTROL Objective Name]?
@@ -81,7 +81,7 @@ Wenn Sie einen Bericht mehrmals mit denselben Berichtsparametern, aber mit unter
 
 * Die Portfoliofilterauswahl schließt einige der Ereignisse aus, die zur Konversion führen.
 
-  Wenn Sie Berichte zu einer Untergruppe von Portfolios erstellen, beziehen Sie möglicherweise nicht die Kampagnen ein, die das Ereignis enthalten haben, dem die Konversion gemäß einer der Attributionsregeln zugeordnet wurde. Angenommen, ein Benutzer klickt auf Keyword_1 in Portfolio_1, klickt auf Keyword_2 in Portfolio_2 und konvertiert dann. Wenn der Bericht die Attributionsregel &quot;[!UICONTROL First Event]&quot; verwendet, muss Portfolio_1 einbezogen werden, damit die Konversion in den Bericht aufgenommen wird. Wenn der Bericht jedoch die Attributionsregel „Letztes Ereignis“ verwendet, muss Portfolio_2 eingeschlossen werden.
+  Wenn Sie Berichte zu einer Untergruppe von Portfolios erstellen, beziehen Sie möglicherweise nicht die Kampagnen ein, die das Ereignis enthalten haben, dem die Konversion gemäß einer der Attributionsregeln zugeordnet wurde. Angenommen, ein Benutzer klickt auf Keyword_1 in Portfolio_1, klickt auf Keyword_2 in Portfolio_2 und konvertiert dann. Wenn der Bericht die Attributionsregel &quot;[!UICONTROL First Event]&quot; verwendet, muss Portfolio_1 einbezogen werden, damit die Konversion in den Bericht aufgenommen wird. Wenn der Bericht jedoch die Attributionsregel „Letztes Ereignis“ verwendet, muss Portfolio_2 einbezogen werden.
 
 >[!TIP]
 >
@@ -100,7 +100,7 @@ Diese Situation kann auftreten, wenn die Metrikformate Ganzzahlen verwenden:
 +++Wenn Klick- oder Umsatzdaten fehlen, wie kann ich verhindern, dass sich dies auf zukünftige Angebote auswirkt?
 Klickdatenprobleme treten auf, wenn Search, Social und Commerce nicht mehr mit dem Anzeigennetzwerk synchron sind. Wenden Sie sich an Ihr Adobe-Konto-Team, um das Konto manuell zu synchronisieren. Wenn Klickdaten für einen ganzen Tag fehlen, bitten Sie Ihr Adobe-Account-Team, diesen Tag aus den Kostenmodellen auszuschließen.
 
-Probleme mit Umsatzdaten können aufgrund eines Tracking- oder Feed-Datei-Problems auftreten. Wenden Sie sich an Ihr Adobe-Account-Team, um das Problem zu untersuchen. Wenn für einen ganzen Tag Umsatzdaten fehlen, bitten Sie Ihr Adobe-Account-Team, diesen Tag aus den Umsatzmodellen auszuschließen.
+Probleme mit Umsatzdaten können aufgrund eines Tracking- oder Feed-Datei-Problems auftreten. Wenden Sie sich an Ihr Adobe-Konto-Team, um das Problem zu untersuchen. Wenn für einen ganzen Tag Umsatzdaten fehlen, bitten Sie Ihr Adobe-Accountteam, diesen Tag aus den Umsatzmodellen auszuschließen.
 +++
 
 +++Monetäre Daten werden im falschen Format angezeigt.
@@ -122,13 +122,13 @@ Im Folgenden finden Sie häufige Gründe für einen Mangel an Klickdaten.
 
 | Ursache | Erkennung/Analyse | Auflösung |
 |---|---|---|
-| Fehler beim Abrufen der Klickdaten aus dem Werbekonto. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, obwohl das Werbekonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-Account-Team.<br><br>Wenn die Daten für mehr als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenprognosen aus, bis die Daten abgerufen werden. Ihr Adobe-Account-Team kann die Daten ausschließen. |
-| Ein Problem mit der Rechnungsstellung zwischen dem Werbetreibenden und dem Werbenetzwerk verhindert, dass das Werbekonto Ausgaben tätigt. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht in der Lage war, Ausgaben zu tätigen, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe-Account-Team kann die Daten ausschließen. |
+| Fehler beim Abrufen der Klickdaten aus dem Werbekonto. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, obwohl das Werbekonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-Accountteam.<br><br>Wenn die Daten für mehr als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenprognosen aus, bis die Daten abgerufen werden. Ihr Adobe Account Team kann die Daten ausschließen. |
+| Ein Problem mit der Rechnungsstellung zwischen dem Werbetreibenden und dem Werbenetzwerk verhindert, dass das Werbekonto Ausgaben tätigt. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht in der Lage war, Ausgaben zu tätigen, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe Account Team kann die Daten ausschließen. |
 
 +++
 
 +++Leistungsdaten unterscheiden sich von den Daten im Anzeigennetzwerk-Editor.
-Wenn das Werbenetzwerk Aktualisierungen an vorherigen Daten sendet (häufig, weil Klickbetrug einigen Klicks zugeordnet wurde), aktualisiert Search, Social und Commerce die Daten nur, wenn eine Diskrepanz von mehr als 5 % besteht und das Adobe-Account-Team eine Anfrage sendet.
+Wenn das Werbenetzwerk Aktualisierungen an vorherigen Daten sendet (häufig, weil Klickbetrug einigen Klicks zugeordnet wurde), aktualisiert Search, Social und Commerce die Daten nur, wenn eine Diskrepanz von mehr als 5 % besteht und das Adobe-Konto-Team eine Anfrage sendet.
 
 Wenn Sie Impression Share-Daten vergleichen, die über einen Datumsbereich aggregiert sind, können die Daten, die in Such-, Social- und Commerce-Berichten enthalten sind, von den Daten abweichen, die das Werbenetzwerk meldet. Dieser Unterschied beruht darauf, wie die Daten von der API des Anzeigennetzwerks gemeldet werden, die Search, Social und Commerce verwenden, um Daten abzurufen. Zum Beispiel für [!DNL Google Ads]:
 
@@ -155,7 +155,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 +++Einnahmen fehlen in Berichten.
 
-**Werbetreibende, die Adobe Advertising-Konversions-Tags verwenden**
+**Werbetreibende, die Konversions-Tags für Adobe Advertising verwenden**
 
 *Mögliche Ursachen:*
 
@@ -171,7 +171,7 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 
 1. Überprüfen Sie, ob die richtigen Spalten in den Berichten oder Datenansichten enthalten sind. Wenn die richtigen Spalten nicht zum Hinzufügen verfügbar sind, müssen Sie oder Ihr Adobe-Konto-Team [die Konversionsmetriken für Berichte verfügbar machen](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
-1. Überprüfen Sie, ob die richtigen Konversionsverfolgungstags auf allen entsprechenden Web-Seiten implementiert sind. Bitten Sie bei Bedarf Ihr Adobe-Account-Team, eine Testtransaktion für jedes anwendbare Konversionsverfolgungs-Tag zu erstellen und die Details der Transaktion zu erfassen, wie den `transactionid` und Details aus dem Cookie (wie `trackingid`, `clickid` usw.).
+1. Überprüfen Sie, ob die richtigen Konversionsverfolgungstags auf allen entsprechenden Web-Seiten implementiert sind. Bitten Sie bei Bedarf Ihr Adobe-Account-Team, eine Testtransaktion für jedes anwendbare Konversionsverfolgungs-Tag zu erstellen und die Details der Transaktion zu erfassen, wie z. B. die `transactionid` und Details aus dem Cookie (wie `trackingid`, `clickid` usw.).
 
 1. Wenn die Option [!UICONTROL Auto Upload] für die Kampagne deaktiviert ist und Sie Keywords oder Anzeigen hinzugefügt haben, stellen Sie sicher, dass Sie eine Tracking-Vorlage oder Ziel-URL generiert haben, die das Weiterleitungs-Tracking für Search, Social und Commerce enthält. Ihr Adobe-Konto-Team kann einen internen Bericht ausführen, um festzustellen, ob Klick-Tracking-URLs (Tracking-Vorlagen oder Ziel-URLs) fehlen oder fehlerhaft sind.
 
@@ -211,12 +211,12 @@ Der Bericht enthält möglicherweise keine Konversionsmetriken, für die Konvers
 +++
 
 +++Einige erweiterte Berichte enthalten keine Konversionsdaten, die von einem Advertiser-Feed bereitgestellt werden.
-Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report] verwenden Daten, die über den Konversionsverfolgungs-Service von Adobe Advertising erfasst werden, und können nur für Werbetreibende mit dem Service generiert werden. Die Berichte enthalten keine Konversionsdaten, die außerhalb des Adobe Advertising-Konversions-Tracking-Systems verfolgt werden.
+Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report] verwenden Daten, die über den Konversionsverfolgungs-Service von Adobe Advertising erfasst werden und nur für Werbetreibende mit dem Service generiert werden können. Die Berichte enthalten keine Konversionsdaten, die außerhalb des Konversionsverfolgungs-Systems von Adobe Advertising verfolgt werden.
 +++
 
 +++Umsatzdaten unterscheiden sich von den eigenen Umsatzdaten des Werbetreibenden.
 
-**Werbetreibende, die Adobe Advertising-Konversions-Tags verwenden**
+**Werbetreibende, die Konversions-Tags für Adobe Advertising verwenden**
 
 *Mögliche Ursachen:*
 
@@ -230,7 +230,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
 1. Navigieren Sie zu **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** und generieren Sie eine [!UICONTROL Transaction Report]. Vergleichen Sie die Transaktionen, die Search, Social und Commerce erhalten haben, mit den Daten des Werbetreibenden.
 
-1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass das entsprechende Conversion-Tracking-Tag auf allen entsprechenden Web-Seiten implementiert ist und nicht bearbeitet wurde, es sei denn, Ihr Adobe-Account-Team hat Sie dazu aufgefordert. Ein Tag kann fehlen oder geändert werden, wenn die Website kürzlich aktualisiert wurde.
+1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass das entsprechende Konversionsverfolgungs-Tag auf allen entsprechenden Web-Seiten implementiert ist und nicht bearbeitet wurde, es sei denn, Ihr Adobe Account Team hat Sie dazu aufgefordert. Ein Tag kann fehlen oder geändert werden, wenn die Website kürzlich aktualisiert wurde.
 
    Search, Social und Commerce erwarten wohlgeformte URLs (mit Parametern in Name-Wert-Paaren) innerhalb der `ef_transaction_properties`-Variablen und innerhalb des `src` des `img`-Tags.
 
@@ -294,13 +294,13 @@ Siehe die möglichen Ursachen und Lösungen für Pixelimplementierungen oben.
 +++
 
 +++Umsatzdaten unterscheiden sich von den Daten in Adobe Analytics
-Siehe [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=de](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=de).<!-- change link URL to relative link -->
+Siehe [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Spezifische Berichte
 
 +++Sollte der [!UICONTROL Portfolio Report] dieselben Zahlen wie die [!UICONTROL Portfolios] anzeigen?
-Die [!UICONTROL Portfolio Report]- und die [!UICONTROL Portfolios] zeigen dieselben Daten an, wenn alle Filter für die Ansicht, die Berichtsparameter und die Datenspalten für die Ansicht und den Bericht identisch sind. Wenn die [!UICONTROL Portfolios] beispielsweise Portfolios anzeigt, die für den Datumsbereich &quot;[!UICONTROL Last 7 days]&quot; &quot;[!UICONTROL All but inactive]&quot; sind und in denen nur die Standarddatenspalten angezeigt werden, zeigt eine [!UICONTROL Portfolio Report] mit den Standardparametern identische Daten an. Wenn Sie einen der Berichtsparameter ändern oder verschiedene Filter in der [!UICONTROL Portfolios] verwenden, können die Datenwerte unterschiedlich sein.
+Die [!UICONTROL Portfolio Report]- und die [!UICONTROL Portfolios] zeigen dieselben Daten an, wenn alle Filter für die Ansicht, die Berichtsparameter und die Datenspalten für die Ansicht und den Bericht identisch sind. Wenn die [!UICONTROL Portfolios] beispielsweise Portfolios anzeigt, die für den Datumsbereich &quot;[!UICONTROL All but inactive]&quot; &quot;[!UICONTROL Last 7 days]&quot; sind und in denen nur die Standarddatenspalten angezeigt werden, zeigt eine [!UICONTROL Portfolio Report] mit den Standardparametern identische Daten an. Wenn Sie einen der Berichtsparameter ändern oder verschiedene Filter in der [!UICONTROL Portfolios] verwenden, können die Datenwerte unterschiedlich sein.
 +++
 
 +++Die Daten in meinen [!UICONTROL Portfolio Report] stimmen nicht mit den Daten in meinen [!UICONTROL Search Engine Report] oder [!UICONTROL Search Engine Account Report] überein.
@@ -308,7 +308,7 @@ Die [!UICONTROL Portfolio Report] zeigt nur Daten für die Kampagnen an, die den
 +++
 
 +++Wie unterscheidet sich die [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] von der [!UICONTROL Model Accuracy Report] auf Portfolioebene?
-(Nur für Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzer) Die unter [!UICONTROL Reports] > [!UICONTROL Model Accuracy] verfügbaren [!UICONTROL Forecast Accuracy Report] liefern dieselben Daten wie die [!UICONTROL Model Accuracy Report] auf Portfolioebene, mit dem Unterschied, dass sie für mehrere Portfolios ausgeführt werden können und die Attributionsregel geändert werden kann. Sie können den Bericht auch mithilfe benutzerdefinierter Parameter ausführen und planen. Außerdem können Sie damit Tabellen-Feeds erstellen. Darüber hinaus ist der [!UICONTROL Forecast Accuracy Report] genauer als der alte Bericht auf Portfolioebene, da er die Umsatzgenauigkeit anhand der historischen Ziele für das Portfolio und nicht anhand des aktuellen Ziels bewertet und Daten für die jeweilige Zeitzone genauer darstellt.
+(Nur für Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzer) Die [!UICONTROL Forecast Accuracy Report], die unter [!UICONTROL Reports] > [!UICONTROL Model Accuracy] verfügbar sind, bietet dieselben Daten wie die [!UICONTROL Model Accuracy Report] auf Portfolioebene, mit dem Unterschied, dass Sie sie für mehrere Portfolios ausführen und die Attributionsregel ändern können. Sie können den Bericht auch mithilfe benutzerdefinierter Parameter ausführen und planen. Außerdem können Sie damit Tabellen-Feeds erstellen. Darüber hinaus ist der [!UICONTROL Forecast Accuracy Report] genauer als der alte Bericht auf Portfolioebene, da er die Umsatzgenauigkeit anhand der historischen Ziele für das Portfolio und nicht anhand des aktuellen Ziels bewertet und Daten für die jeweilige Zeitzone genauer darstellt.
 +++
 
 +++Daten auf Anzeigenebene sind nicht für [!DNL Google Ads] DSA (Dynamic Search Ad), DSA (Performance Max), Smart Shopping und [!DNL YouTube]-Kampagnen verfügbar.
