@@ -294,7 +294,7 @@ Siehe die möglichen Ursachen und Lösungen für Pixelimplementierungen oben.
 +++
 
 +++Umsatzdaten unterscheiden sich von den Daten in Adobe Analytics
-Siehe [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Siehe [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=de](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=de).<!-- change link URL to relative link -->
 +++
 
 ## Spezifische Berichte
