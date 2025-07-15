@@ -3,9 +3,9 @@ title: Entfernen von Kampagnen aus einem Portfolio
 description: Erfahren Sie, wie Sie Kampagnen aus einem Portfolio entfernen.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Weitere Informationen zur Optimierung finden Sie im Optimierungshandbuch , das b
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") **[!UICONTROL Edit]**.
 
-1. Gehen Sie in <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> Portfolioeinstellungen zum Abschnitt [!UICONTROL Assign Campaigns] und ändern Sie die Kampagnenzuweisungen.
+1. Gehen Sie in den Portfolioeinstellungen zum Abschnitt [!UICONTROL Assign Campaigns] und ändern Sie die Kampagnenzuweisungen.
+
+   Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungshandbuch , das bei Search, Social und Commerce verfügbar ist.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
