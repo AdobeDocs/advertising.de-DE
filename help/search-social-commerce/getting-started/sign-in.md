@@ -3,7 +3,7 @@ title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
+source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 * Sie können 24 Stunden lang eingeloggt bleiben.
 
-Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben bis zum 15. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
+Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben bis zum 21. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
@@ -40,7 +40,7 @@ Diese Option ist bis zum 15. Juli 2025 verfügbar.
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
@@ -54,7 +54,7 @@ Diese Option ist bis zum 15. Juli 2025 verfügbar.
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**..
 
-1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder **Firmen- oder Schulkonto**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Klicken Sie im Abschnitt [!UICONTROL Quick Access] Ihrer Startseite auf **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
