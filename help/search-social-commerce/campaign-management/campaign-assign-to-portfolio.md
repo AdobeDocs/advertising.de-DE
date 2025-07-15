@@ -3,9 +3,9 @@ title: Zuweisen von Kampagnen zu einem Portfolio
 description: Erfahren Sie, wie Sie zur Optimierung Kampagnen in Portfolios aufnehmen.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Durch die Zuweisung einer Kampagne zu einem optimierten Portfolio können Search, Social und Commerce Gebote, Kampagnenbudgets und Bid-Strategie-Ziele für Keywords und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen in der [!UICONTROL Campaigns]-Ansicht zuweisen, wenn Sie das Portfolio erstellen, oder indem Sie die Einstellungen eines Portfolios bearbeiten.
 
-Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie sich eine Liste der [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) an, die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die Optimierungsunterstützung für jede Kampagnen-Bid-Strategie, indem Sie im Kapitel „Optimierungshandbuch zu Portfolios“ unter „Mögliche Portfolio-Typen nach Kampagnen-Bid-Strategie“ nachsehen, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie sich eine Liste der [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) an, die Sie in ein Portfolio aufnehmen können. Überprüfen Sie außerdem die [Optimierungsunterstützung für jede Kampagnenangebotstrategie](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Geben Sie auf dem [!UICONTROL Create Portfolio] die Portfolioeinstellungen an<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
+1. Geben Sie auf dem Bildschirm [!UICONTROL Create Portfolio] die Portfolioeinstellungen an.
 
    Die zuvor ausgewählten Kampagnen sind der Kampagne bereits zugewiesen. Optional können Sie die Kampagnenliste für das Portfolio bearbeiten.
+
+   Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungshandbuch , das bei Search, Social und Commerce verfügbar ist.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 

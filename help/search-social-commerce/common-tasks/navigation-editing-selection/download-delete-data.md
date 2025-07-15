@@ -3,20 +3,21 @@ title: Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem 
 description: Erfahren Sie, wie Sie einen Bericht oder eine Bulksheet-Datei löschen, die Sie als Kampagnenverwaltungsansicht heruntergeladen haben.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-# Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads]
+# (Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü
 
 *Alte Benutzeroberfläche*
 
 >[!NOTE]
 >
->Wenn Sie eine Bulksheet-Datei löschen, wird sie aus [!UICONTROL Downloads] Liste und auch aus der [!UICONTROL Bulksheets] entfernt.
+>*Durch das Löschen einer Bulksheet-Datei wird diese aus [!UICONTROL Downloads] Liste und auch aus der [!UICONTROL Bulksheets] entfernt.
+>* Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. Klicken Sie im Hauptmenü auf [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], und öffnen Sie eine beliebige Entitätsansicht.
 
@@ -28,4 +29,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Daten aus einer Kampagnen-Management-Ansicht herunterladen](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

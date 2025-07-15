@@ -3,14 +3,14 @@ title: Herunterladen von Daten aus einer Kampagnenverwaltungsansicht
 description: Erfahren Sie, wie Sie Daten aus den meisten Ansichten des Kampagnen-Managements herunterladen.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Herunterladen von Daten aus einer Kampagnenverwaltungsansicht
+# (Alte Benutzeroberfläche) Herunterladen von Daten aus der Ansicht Kampagnen-Management
 
 *Alte Benutzeroberfläche*
 
@@ -23,6 +23,10 @@ Sie können Daten von den Ansichten [!UICONTROL Search, Social, & Commerce] > [!
   Wenn Sie Daten für mehrere Kampagnen generieren und die kombinierten Daten aus mehr als 500.000 Zeilen bestehen, werden die Daten nach Kampagne in zwei oder mehr Dateien (mit den Namen `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt` usw.) aufgeteilt.
 
   Jede Bulksheet-Datei im [!UICONTROL Downloads] wird auch in der [!UICONTROL Bulksheets] angezeigt. Wenn die Datei erstellt wird, erhalten Sie eine E-Mail-Benachrichtigung mit einem Link, über den Sie die Datei herunterladen können. Je nach Datenmenge, die kompiliert wird, kann die Benachrichtigung mehrere Minuten oder länger dauern. Wenn die Dateigenerierung jedoch fehlschlägt, wird eine Fehlerdatei in der Bulksheets-Ansicht aufgelistet und Sie erhalten eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei. Wenn Sie eine Bulksheet-Datei aus dem [!UICONTROL Download] oder der Registerkarte [!UICONTROL Bulksheets] löschen, wird sie aus beiden Speicherorten gelöscht.
+
+>[!NOTE]
+>
+>Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Optional) Wählen Sie einzelne Zeilen aus, die in die Datei aufgenommen werden sollen.
 
@@ -42,4 +46,7 @@ Sie können Daten von den Ansichten [!UICONTROL Search, Social, & Commerce] > [!
 
 >[!MORELIKETHIS]
 >
->[Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

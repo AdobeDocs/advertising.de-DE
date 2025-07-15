@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+source-git-commit: 190f2e5bbf394de05e0d47b46090795d9ee19552
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1867'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Unterstütztes Inventar](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integration mit Adobe Experience Cloud {#integrations}
       + [Integration mit Adobe Experience Cloud-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de){target="_blank"}
-      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=de){target="_blank"}
-   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=de){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Erste Schritte {#getting-started}
    + [Implementierungsübersicht](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemanforderungen](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -65,6 +65,41 @@ ht-degree: 2%
       + Herunterladen von Daten in Verwaltungsansichten {#download-data-views}
          + [Herunterladen von Daten aus einer Kampagnenverwaltungsansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
++ (Beta) NEUE BENUTZEROBERFLÄCHE {#new-ui}
+   + [Anzeigen des Leistungs-Dashboards](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + Plan {#plan}
+      + Ziele {#objectives}
+         + [Über Ziele](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
+         + [Erstellen eines Ziels](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
+         + [Bearbeiten eines Ziels](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
+         + [Löschen eines Ziels](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
+         + [Gewichtungsempfehlungen auf ein Ziel anwenden](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
+         + [Zieleinstellungen](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+      + Simulationen {#simulations}
+         + [Über Simulationen](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [Benutzerdefinierte Simulation ausführen oder erneut ausführen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [Simulationen herunterladen](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + [Verwenden der [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+   + Verwalten {#manage}
+      + Portfolios {#portfolios}
+         + [Über Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [Portfolio erstellen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [Duplizieren eines Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [Portfoliodetails bearbeiten](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [Massenbearbeitung von Portfolioeinstellungen mithilfe von Bulksheet-Dateien](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Portfolio-Einstellungen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [Anzeigen von Portfolioleistungsdetails](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+      + Kampagnen {#campaigns}
+         + [Über die [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+      + Anzeigengruppen {#ad-groups}
+         + [Über die [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 + Tracking {#tracking}
    + [Über das Tracking](/help/search-social-commerce/tracking/tracking-about.md)
    + Klick-Tracking {#click-tracking}
@@ -81,7 +116,7 @@ ht-degree: 2%
             + [Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klick-Tracking-Formate für [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optionale Tracking-Parameter für Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=de){target="_blank"}
+      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Der Tracking-Parameter der AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konversionsverfolgung {#conversion-tracking}
       + [Konversionsverfolgungs-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
