@@ -3,7 +3,8 @@ title: (Neue Benutzeroberfläche) Anzeigen des Leistungs-Dashboards
 description: Erfahren Sie mehr über die in Ihrem Leistungs-Dashboard verfügbaren Daten.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Neue Benutzeroberfläche) Anzeigen des Leistungs-Dashboards
 
 *Beta-Funktion*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 Mit der anpassbaren [!UICONTROL Dashboard] können Sie die Leistung aller Ihrer Portfolios überwachen, <!-- May later include other entity-level data --> potenzielle Leistungsprobleme zu identifizieren, die untersucht und behoben werden müssen. Sie können tägliche, wöchentliche oder monatliche Daten für einen beliebigen Zeitraum in den letzten 90 Tagen anzeigen.
 
@@ -57,4 +56,3 @@ Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
    * Die gemeldete Metrik ändern ([!UICONTROL Cost] \[standardmäßig ausgewählt\], [!UICONTROL Clicks] oder [!UICONTROL Objective Value]).
 
    * Um die [!UICONTROL Portfolios] zu öffnen, klicken Sie unten rechts im Diagramm auf **[!UICONTROL View More]** . <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
