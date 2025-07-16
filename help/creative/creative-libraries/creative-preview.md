@@ -3,9 +3,9 @@ title: Kreative in der Vorschau anzeigen
 description: Erfahren Sie, wie Sie eine Vorschau eines Kreativen öffnen.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
+source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,21 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Preview]**.
 
-1. (Optional) Um die Größe des Bildes auf dem Bildschirm zu ändern, wählen Sie eine Option in der **[!UICONTROL Zoom]**-Liste aus, die 10 % bis 100 % der Bildgröße beträgt.
+1. (Optional, falls verfügbar) Wenn Sie die Größe des Bildes auf dem Bildschirm ändern möchten, wählen Sie eine Option in der Liste &quot;**[!UICONTROL Zoom]**&quot; aus, die 10 % bis 100 % der Bildgröße beträgt.
 
 1. (Flexible HTML5-Kreative; optional) Um zwischen den Frames für die Kreativen zu scrollen, klicken Sie auf **\&lt;** und **\>**.
 
-1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+1. (Video-Kreative; optional) Führen Sie einen der folgenden Schritte mithilfe der Steuerelemente unter „Kreative“ aus:
+
+   * Wiedergabe oder Stoppen des Videos.
+
+   * Stummschaltung oder Aufheben der Stummschaltung des Tons.
+
+   * Öffnen Sie das Video im Vollbildmodus und beenden Sie den Vollbildmodus.
+
+   * Laden Sie [!UICONTROL More Options] das Video herunter, ändern Sie die Wiedergabegeschwindigkeit oder wechseln Sie zu Bild-in-Bild.
+
+1. (Optional, nicht im Video enthaltene Kreative) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
