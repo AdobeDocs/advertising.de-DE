@@ -3,9 +3,9 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 *Geschlossene Beta-Version*
 
-Sobald ein Anzeigen-Tag für eine bestimmte Kreativgröße für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in JavaScript-, iFrame- und Videoformaten zur Implementierung in Advertising DSP oder anderen DSPs generieren und kopieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
+Sobald ein Anzeigen-Tag für eine bestimmte kreative Größe oder Videodauer für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in JavaScript-, iFrame- und Videoformaten zur Implementierung in Advertising DSP oder anderen DSPs generieren und kopieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
 
 Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit dem Werbetyp „Standardanzeige“ oder „Universelles Video“ in eine Advertising DSP-Kampagne hochladen.
 
 >[!NOTE]
 >
->* Beim Erstellen eines Erlebnisses mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede anwendbare Kreativgröße.
->* Wenn Sie ein Erlebnis ohne Targeting mit einem Entscheidungsbaum erstellen, müssen Sie für jede [ Kreativgröße ](experience-tag-create-manually.md)manuell ein Anzeigen-Tag erstellen).
+>* Beim Erstellen eines Erlebnisses mit Entscheidungsbaum-Targeting erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede anwendbare Kreativgröße (Nicht-Videokreative) oder Videodauer (Videokreative).
+>* Wenn Sie ein Erlebnis ohne Targeting mit einem Entscheidungsbaum erstellen, müssen Sie [manuell ein Anzeigen-Tag erstellen](experience-tag-create-manually.md) für jede anwendbare Kreativgröße (Nicht-Videokreative) oder Videodauer (Videokreative) festlegen.
 >* Experience Tags sind dynamisch. Sie müssen die Tags nicht aktualisieren, wenn Sie ein Erlebnis bearbeiten.
 >* Stellen Sie sicher, dass die Kampagnen, in denen Sie ein Anzeigen-Erlebnis implementieren, ein mit dem Erlebnis kompatibles Targeting enthalten. Das hierarchische Targeting-Verhalten kann je nach DSP variieren. In Advertising DSP wird das Targeting auf Anzeigenebene zusätzlich zum Targeting auf Platzierungsebene (nicht anstelle des Targeting) angewendet.
 
@@ -33,11 +33,11 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
->Warten Sie bei Standard-Videoanzeigen, bis die Spalte [!UICONTROL Tag Status] &quot;[!UICONTROL Ready]&quot; anzeigt. Dies bedeutet, dass alle Videos im Erlebnis transcodiert wurden. Alle Video-Kreativen werden automatisch von DSP transkodiert, aber Sie können optional [publisher-spezifische Transkodierung](experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
+>Warten Sie bei Standard-Videoanzeigen, bis die Spalte [!UICONTROL Tag Status] &quot;[!UICONTROL Ready]&quot; anzeigt. Dies bedeutet, dass alle Videos im Erlebnis transcodiert wurden. Alle kreativen Videoinhalte werden automatisch von DSP transkodiert, aber Sie können optional [Transkodierung für eine andere DSP anwenden](experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -51,9 +51,9 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Auswählen des Tag-Typs:
 
-   * (Nicht-Videoerlebnisse) ** *JavaScript<!-- sic -->* **&#x200B; oder &#x200B;** *IFRAME* ** <!-- sic -->.
+   * (Nicht-Videoerlebnisse) ** *JavaScript<!-- sic -->* ** oder ** *IFRAME* ** <!-- sic -->.
 
-   * (Videoerlebnisse) **&#x200B; *Video* &#x200B;**.
+   * (Videoerlebnisse) ** *Video* **.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 
@@ -67,7 +67,7 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Kopieren Sie die Tags oder laden Sie sie herunter:
 
-   * Um ein Tag für eine einzelne Anzeigengröße zu kopieren, erweitern Sie die Tag-Zeile, halten Sie den Cursor über der Zeile und klicken Sie dann auf ![Kopieren](/help/creative/assets/copy.png "Kopieren") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * Um ein Tag für eine einzelne Anzeigengröße (nicht Videoanzeigen) oder Dauer (Videoanzeigen) zu kopieren, erweitern Sie die Tag-Zeile, halten Sie den Cursor über der Zeile und klicken Sie dann auf ![Kopieren](/help/creative/assets/copy.png "Kopieren") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
    * Um alle generierten Tags als Datei zum standardmäßigen Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf ![Tags herunterladen](/help/creative/assets/download.png "Tags herunterladen").
 

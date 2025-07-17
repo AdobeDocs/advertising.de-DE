@@ -3,9 +3,9 @@ title: Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgr
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für eine bestimmte Kreativgröße erstellen.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Erlebnisse ohne Targeting mit Entscheidungsbäumen*
 *Geschlossene Beta-Version*
 
-Sie können für jede kreative Größe oder Videodauer, die für ein Erlebnis verwendet wird, ein oder mehrere Anzeigen-Tags pro Sprache erstellen. Sie können später [dem Anzeigen-Tag Kreative zuweisen](experience-tag-assign-creatives.md).
+Sie können für jede kreative Größe (Nicht-Videokreative) oder Videodauer, die für ein Erlebnis verwendet wird, ein oder mehrere Anzeigen-Tags pro Sprache erstellen. Sie können später [dem Anzeigen-Tag Kreative zuweisen](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Sie können für jede kreative Größe oder Videodauer, die für ein Erlebnis ve
 
    Sie können die Tag-Zeile erweitern, um die eingeschlossenen Kreativen anzuzeigen.
 
-   Für Videowerberlebnisse werden Videokreative von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. Sie können optional [publisher-spezifische Transkodierung anwenden](experience-tag-video-transcoding.md).
+   Für Videoanzeigen werden Kreative automatisch mit Adobe Advertising DSP-Kodierung als VAST 2.0-Tags transkodiert, damit sie eine Vorschau anzeigen können. Sie können optional [Transkodierung für eine andere DSP anwenden](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

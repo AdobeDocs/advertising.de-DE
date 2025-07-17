@@ -3,9 +3,9 @@ title: Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag
 description: Erfahren Sie, wie Sie die Transkodierungsoptionen für ein Video-Anzeigen-Tag anpassen.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sie können die Transkodierungsoptionen für ein Video- und Anwendererlebnis anp
 
 1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Video Settings]**.
 
-1. Wählen Sie in der Liste der **[!UICONTROL Publisher specific transcodes]** den Typ der Transkodierung aus.
+1. Wählen Sie in der Liste der **[!UICONTROL Publisher-specific transcodes]** die DSP aus, deren Transkodierung Sie anwenden möchten.
 
 1. Klicken Sie auf **[!UICONTROL Save Settings]**.
 
