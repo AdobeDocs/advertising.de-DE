@@ -66,7 +66,7 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 
 Sie können Erstanbieter-Videokreative für Web-, Mobil- oder vernetztes Fernsehen von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist für jede dem Erlebnis zugewiesene kreative Dauer ein Standard-Kreativvideo erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional [DSP-spezifische Transkodierung“ ](/help/creative/experiences/experience-tag-video-transcoding.md) jedes Video-Werbe-Erlebnis-Tag anwenden.
 
-Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
+Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/de/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
 
 **Dateityp:** .mov, .mp4, .webm
 
