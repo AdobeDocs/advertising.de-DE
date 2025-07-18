@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 83dfe26af50e6540ceda70854cf63359bc8b0b2c
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-![Benutzeroberfläche](/help/search-social-commerce/assets/new-ui.png "Benutzeroberfläche")
+![Benutzeroberfläche](/help/search-social-commerce/assets/ui-new.png "Benutzeroberfläche")
 
 Jede Seite enthält das Hauptmenü sowie weitere aufgabenbasierte und informationsbasierte Menüs.
 
