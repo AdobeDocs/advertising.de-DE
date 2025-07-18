@@ -3,9 +3,9 @@ title: Über dieses Handbuch
 description: Erfahren Sie, was in jedem Kapitel dieses Handbuchs behandelt wird.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 21d642ce63740c983d767e4829367673d68c69c9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Informationen zu bestimmten Aufgabengruppen und weitere Informationen finden Sie
 
 * Unter „Häufige Aufgaben“ wird beschrieben, wie Sie die verschiedenen Leistungsdatenansichten basierend auf Ihren Informationsanforderungen und Voreinstellungen konfigurieren, benutzerdefinierte Metriken verwalten, Kennzeichnungsklassifizierungen und Gebotsbeschränkungen verwalten und andere häufige Aufgaben ausführen.
 
+* In der „neuen Benutzeroberfläche“ werden die Aufgaben erläutert, die Sie in der neuen Benutzeroberfläche ausführen können: Verwalten von Zielen, Ausführen von Simulationen, Verwalten von Portfolios, Zuweisen und Entfernen von Kampagnen aus Portfolios sowie Zuweisen oder Entfernen von Einschränkungen zu Kampagnen und Anzeigengruppen. Siehe „Hinweis“ unten.
+
 * Unter „Tracking“ wird erläutert, wie Sie das Klick- und Konversions-Tracking für Ihre Anzeigen und Keywords einrichten.
 
 * In „Kampagnen-Management“ wird beschrieben, wie Sie Kampagnenkomponenten für Ihre Anzeigennetzwerkkonten einrichten und verwalten.
@@ -32,4 +34,4 @@ Informationen zu bestimmten Aufgabengruppen und weitere Informationen finden Sie
 
 >[!NOTE]
 >
->Die Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Gebote, ist über das Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite in Search, Social und Commerce verfügbar.
+>Weitere Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Gebote in der alten Benutzeroberfläche, finden Sie im Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite in Search, Social und Commerce.
