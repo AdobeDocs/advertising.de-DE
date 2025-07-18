@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 83dfe26af50e6540ceda70854cf63359bc8b0b2c
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können. Die Zieleinstellungen sind mit den Einstellungen in der alten Benutzeroberfläche unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta] identisch.
 
-   * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
+   * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
 
 * **[!UICONTROL Manage]** Untermenü:
 
