@@ -3,9 +3,10 @@ title: (Neue Benutzeroberfläche) Erstellen eines Ziels
 description: Erfahren Sie, wie Sie ein Ziel erstellen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Objectives]**.
 
-1. Klicken Sie oben rechts auf ![Hinzufügen](/help/search-social-commerce/assets/add-new.png "Hinzufügen").
+1. Klicken Sie oben rechts auf **[!UICONTROL Create Objective]** oder ![Hinzufügen](/help/search-social-commerce/assets/add-new.png "Hinzufügen").
+
+   Die angezeigte Schaltfläche hängt von Ihrer Browser-Breite ab.
 
 1. Geben Sie die Zieleinstellungen ein.
 
