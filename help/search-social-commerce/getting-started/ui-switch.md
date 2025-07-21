@@ -3,7 +3,7 @@ title: Wechseln zwischen der neuen und der alten Benutzeroberfläche
 description: Erfahren Sie, wie Sie zwischen der neuen und der alten Benutzeroberfläche wechseln.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ Sie können zwischen der neuen Benutzeroberfläche (UI), die den <!-- default op
 
 ## Von der alten Benutzeroberfläche zur neuen Benutzeroberfläche wechseln
 
-* Klicken Sie oben auf einer beliebigen Seite auf **[!UICONTROL Try the new UI Beta]**.
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* Klicken Sie oben auf einer beliebigen Seite auf **[!UICONTROL Switch to New UI]**.
 
 >[!MORELIKETHIS]
 >
