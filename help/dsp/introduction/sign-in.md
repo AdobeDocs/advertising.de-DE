@@ -3,9 +3,9 @@ title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
+source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 15. Juli 2025 aktiv, damit Sie s
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **Persönliches Konto“ oder &#x200B;** Firmen- oder Schulkonto** aus.
+   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]** aus.
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 
