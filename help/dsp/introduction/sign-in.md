@@ -42,7 +42,7 @@ Ihre aktuellen DSP-Anmeldedaten bleiben bis zum 15. Juli 2025 aktiv, damit Sie s
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]** aus.
+   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]** aus.
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
