@@ -3,16 +3,16 @@ title: Bei DSP anmelden
 description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Bei Adobe Advertising DSP anmelden
 
-Adobe Advertising DSP stellt zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet Single Sign-on-Zugriff (SSO) auf alle [!DNL Adobe], die IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, Target und Analytics. Mit der Änderung:
+Adobe Advertising DSP stellt zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet SSO-Zugriff (Single Sign-on) mit Federated IDs auf alle Produkte, [!DNL Adobe] IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, Target und Analytics. Mit der Änderung:
 
 * Sie können eine [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] gesamte Produktpalette von der Experience Cloud-Anmeldeseite oder der bisherigen DSP-Anmeldeseite aus anzumelden. Ihr [!DNL Adobe ID] ermöglicht die Verwaltung von Benutzerprofilen. In einer zukünftigen Version können Sie das DSP-Konto, das IMS-Organisationskonto und [!DNL Adobe] Produkt über das obere Menü ändern.
 
@@ -42,15 +42,15 @@ Ihre aktuellen DSP-Anmeldeinformationen bleiben für kurze Zeit aktiv, damit Sie
 
 1. Wählen Sie Ihre Organisation:
 
-   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]** aus.
+   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]** aus.
 
    * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 

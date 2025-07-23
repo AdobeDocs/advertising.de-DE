@@ -3,16 +3,16 @@ title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
+source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Anmelden
 
-Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet Single Sign-on-Zugriff (SSO) auf alle [!DNL Adobe], die IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, Target und Analytics. Mit der Änderung:
+Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet SSO-Zugriff (Single Sign-on) mit Federated IDs auf alle Produkte, [!DNL Adobe] IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, Target und Analytics. Mit der Änderung:
 
 * Sie können eine [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] Produktlisten hinweg anzumelden - entweder über die Experience Cloud-Anmeldeseite oder die veraltete Anmeldeseite für Search, Social und Commerce. Ihr [!DNL Adobe ID] bietet Benutzerprofilverwaltung und die Möglichkeit, über das obere Menü zu einem anderen [!DNL Adobe] zu wechseln. In einer zukünftigen Version können Sie das Konto für Search, Social und Commerce sowie das IMS-Organisationskonto über das obere Menü ändern.
 
@@ -20,9 +20,9 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 * Sie können 24 Stunden lang eingeloggt bleiben.
 
-Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben bis zum 21. Juli 2025 aktiv, damit Sie sich auf die Änderung vorbereiten können.
+Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben für kurze Zeit aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
@@ -40,7 +40,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
@@ -54,7 +54,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**..
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Klicken Sie im Abschnitt [!UICONTROL Quick Access] Ihrer Startseite auf **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
