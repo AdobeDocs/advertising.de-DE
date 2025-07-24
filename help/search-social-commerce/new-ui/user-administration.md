@@ -101,7 +101,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende Experience Cloud-Organisation aus.
 
@@ -135,7 +135,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    Benutzerdefinierte Profile werden zusätzlich zu den vier bereits verfügbaren Standardproduktprofilen hinzugefügt.
 
-   Jedes Produktprofil für eine Organisation muss über einen eindeutigen Namen verfügen. Wenn Ihr Unternehmen mehrere Search-, Social- und Commerce-Instanzen verwendet (z. B. Acme_US und Acme_JP), können Sie einen Produktprofilnamen nicht in mehreren Instanzen duplizieren. **Best Practice** Verwenden der Namenskonvention &quot;<Name>_<Instance>,“ wie „Simulations_Only_JP“.
+   Jedes Produktprofil für eine Organisation muss über einen eindeutigen Namen verfügen. Wenn Ihr Unternehmen mehrere Search-, Social- und Commerce-Instanzen verwendet (z. B. Acme_US und Acme_JP), können Sie einen Produktprofilnamen nicht in mehreren Instanzen duplizieren. **Best Practice** Verwenden der Namenskonvention &quot;&lt;Name>_&lt;Instance>,“ wie „Simulations_Only_JP“.
 
 1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
 
