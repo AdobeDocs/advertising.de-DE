@@ -2,9 +2,9 @@
 title: Benutzerverwaltung
 description: Erfahren Sie mehr über .
 feature: Search Introduction
-source-git-commit: ab6acc0ac777edb625b91a29464ca00a4407dcf1
+source-git-commit: 5a4c608d8c8371c24cf220cc5eed9a39989dc850
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende Experience Cloud-Organisation aus.
 
@@ -113,7 +113,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
 1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
 
-1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/de/enterprise/using/admin-roles.html#enterprise)&quot;
+1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
 
 <!-- what else? -->
 
@@ -121,9 +121,9 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
 1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
 
-1. Erstellen Sie bei Bedarf Endbenutzer [einzeln](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder [zusammen](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html).
+1. Erstellen Sie bei Bedarf Endbenutzer [einzeln](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) oder [zusammen](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Optional) Erstellen Sie [Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html) für jede Produktinstanz und weisen Sie jeder Benutzergruppe Benutzer zu.
+1. (Optional) Erstellen Sie [Benutzergruppen](https://helpx.adobe.com/enterprise/using/user-groups.html) für jede Produktinstanz und weisen Sie jeder Benutzergruppe Benutzer zu.
 
    Wenn die Instanz viele Benutzer hat, erstellen Sie Benutzergruppen, um sicherzustellen, dass Benutzern auf Grundlage ihres Fachwissens die richtigen Profile zugewiesen werden. (Siehe Schritt 4 für das Zuweisen von Benutzergruppen zu Produktprofilen.) Sie können Benutzergruppen basierend auf dem Geschäftsbereich, den Anforderungen an den Benutzerzugriff, dem Einstellungsdatum der Benutzer oder anderen Kriterien erstellen.
 
@@ -131,16 +131,16 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
    >
    >Die Namen von Benutzergruppen sollten die Rechte, die der Benutzergruppe zugewiesen werden sollen, klar angeben. Wenn Sie beispielsweise eine Benutzergruppe mit „Schreibgeschützt“-Rechten erstellen möchten, schließen Sie „Schreibgeschützt“ in den Namen der Benutzergruppe ein, z. B. „Acme_Uk_ReadOnly“ oder „Acme_ReadOnly“.
 
-1. (Optional) [Erstellen benutzerdefinierter Produktprofile](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) mit definierten Berechtigungssätzen.
+1. (Optional) [Erstellen benutzerdefinierter Produktprofile](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) mit definierten Berechtigungssätzen.
 
    Benutzerdefinierte Profile werden zusätzlich zu den vier bereits verfügbaren Standardproduktprofilen hinzugefügt.
 
-   Jedes Produktprofil für eine Organisation muss über einen eindeutigen Namen verfügen. Wenn Ihr Unternehmen mehrere Search-, Social- und Commerce-Instanzen verwendet (z. B. Acme_US und Acme_JP), können Sie einen Produktprofilnamen nicht in mehreren Instanzen duplizieren. **Best Practice** Verwenden der Namenskonvention &quot;&lt;Name>_&lt;Instance>,“ wie „Simulations_Only_JP“.
+   Jedes Produktprofil für eine Organisation muss über einen eindeutigen Namen verfügen. Wenn Ihr Unternehmen mehrere Search-, Social- und Commerce-Instanzen verwendet (z. B. Acme_US und Acme_JP), können Sie einen Produktprofilnamen nicht in mehreren Instanzen duplizieren. **Best Practice:** Verwenden Sie die `<Name>_<Instance>,` der Benennungskonvention wie „Simulations_Only_JP“.
 
-1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
+1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
 
 ## Vollständiges Benutzerhandbuch für die Administration und zusätzliche Links
 
-* Weitere Informationen zur Benutzerverwaltung mit Adobe Admin Console finden Sie unter &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/de/enterprise/admin-guide.html)&quot;, einschließlich der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html)
+* Weitere Informationen zur Benutzerverwaltung mit Adobe Admin Console finden Sie unter &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, einschließlich der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
