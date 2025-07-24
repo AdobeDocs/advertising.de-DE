@@ -1,0 +1,146 @@
+---
+title: Benutzerverwaltung
+description: Erfahren Sie mehr über .
+feature: Search Introduction
+source-git-commit: ab6acc0ac777edb625b91a29464ca00a4407dcf1
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 0%
+
+---
+
+# (Neue Benutzeroberfläche) Benutzerverwaltung für Suche, Social und Commerce
+
+Einige Benutzende können den Zugriff auf die neue Benutzeroberfläche für Search, Social und Commerce mithilfe von Adobe Admin Console verwalten, dem zentralen Speicherort für die Verwaltung aller Adobe-Berechtigungen und die Benutzerverwaltung. Benutzer werden entweder als Endbenutzer oder als Administratoren kategorisiert. Ihr Adobe-Konto-Team benachrichtigt Sie, wenn Sie Administrator sind. Wenn Sie Administrator sind, finden Sie in den folgenden Abschnitten Informationen zu Ihren Berechtigungen und Workflows für die Benutzerverwaltung.<!-- How can you see what your user role is, or will your Adobe Account Team tell you? -->
+
+## Relevante Arten von Administratoren
+
+Admin Console bietet mehrere Arten von Administratoren, aber nur die folgenden Administratortypen und -berechtigungen sind für Search, Social und Commerce relevant.
+
+**Systemadministrator:** Superuser für die Organisation. Ein Systemadministrator bzw. eine Systemadministratorin kann alle administrativen Aufgaben in Admin Console für das Unternehmen ausführen und administrative Funktionen an andere Benutzende (Produktadministratoren) delegieren.&lt;!— Produktprofil-Admins und Benutzergruppen-Admins.  - Ich denke, es sind NUR PRODUKTADMINISTRATOREN FÜR UNS?  Überprüfen. —>
+
+**Produktadministrator** Verwaltet den Zugriff auf ein bestimmtes [!DNL Adobe]-Produkt (z. B. Suche, Social Media und Commerce) und die Berechtigungen der Benutzer für dieses Produkt. Produktadministratoren können Produktprofile für das Produkt erstellen, Benutzer und Benutzergruppen erstellen (aber nicht entfernen), Benutzer und Benutzergruppen zu Produktprofilen hinzufügen oder entfernen und andere Produktadministratoren zum Produkt hinzufügen oder daraus entfernen.
+
+<!--
+**Product profile admin:** Manages assigned product profiles for individual products. A product profile admin can add (but not remove) users and user groups to the organization; add or remove users and user groups from product profiles; and assign or revoke permissions from product profiles. [I don't think this is applicable: and manage the product roles for product profiles.]
+
+**User group admin:** Manages assigned user groups and their access rights. A user group admin can add or remove users from groups and add or remove user group admins from groups.
+-->
+
+## Standardproduktprofile
+
+Produktprofile, die Rollen ähnlich sind, geben Benutzern die Berechtigung mit bestimmten Services für ein bestimmtes Produkt.
+
+Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die folgenden Standardproduktprofile, die verschiedene Untergruppen von Funktionen und Services bereitstellen. Die Standardproduktprofile können nicht bearbeitet oder gelöscht werden. Systemadministratoren können jedoch bei Bedarf zusätzliche Produktprofile mit verschiedenen Untergruppen von Berechtigungen erstellen und verwalten.
+
+* **Einfache Optimierung** Dieses Profil bietet die folgenden Funktionen:
+
+   * Ziele: Vollständiger Zugriff
+
+   * Simulationen: Vollständiger Zugriff
+
+   * Portfolio-Gruppen: Vollständiger Zugriff
+
+   * Portfolios: Erstellen/Bearbeiten des Zugriffs auf Portfolioeinstellungen für Ziele, Kampagnen und Ausgabenverwaltung; schreibgeschützter Zugriff auf die verbleibenden Portfolioeinstellungen.
+
+   * Kampagnen: Nur-Lese-Zugriff auf Kampagneneinstellungen (es sind keine Funktionen zum Erstellen, Bearbeiten oder Löschen verfügbar); vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen<!-- Is that the correct wording? -->
+
+   * Anzeigengruppen: Nur-Lese-Zugriff auf Anzeigengruppeneinstellungen (es sind keine Funktionen zum Erstellen, Bearbeiten oder Löschen verfügbar); uneingeschränkter Zugriff auf Einschränkungs- und Portfoliozuweisungen<!-- Is that the correct wording? -->
+
+  Diese Zugriffsebene wird für Benutzende bevorzugt, die noch lernen, Search, Social und Commerce zu verwenden.
+
+* **Expertenoptimierung** Dieses Profil bietet die folgenden Funktionen:
+
+   * Ziele: Vollständiger Zugriff
+
+   * Simulationen: Vollständiger Zugriff
+
+   * Portfolio-Gruppen: Vollständiger Zugriff
+
+   * Portfolios: Vollständiger Zugriff
+
+   * Kampagnen: Nur-Lese-Zugriff auf die Kampagnenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen<!-- Is that the correct wording? -->
+
+   * Anzeigengruppen: Nur-Lese-Zugriff auf die Liste der Anzeigengruppen (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen<!-- Is that the correct wording? -->
+
+  Diese Zugriffsebene wird für erfahrene Benutzer von Search, Social und Commerce empfohlen.
+
+* **Schreibgeschützt:** Dieses Profil bietet die folgenden Funktionen:
+
+   * Ziele: Nur-Lese-Zugriff
+
+   * Simulationen: Nur-Lese-Zugriff
+
+   * Portfolio-Gruppen: Nur-Lese-Zugriff
+
+   * Portfolios: Nur-Lese-Zugriff
+
+   * Kampagnen: Nur-Lese-Zugriff
+
+   * Anzeigengruppen: Nur-Lese-Zugriff
+
+* **Admin:** Dieses Profil gewährt vollen Zugriff auf alle verfügbaren Funktionen und ermöglicht Benutzern das Erstellen neuer Client-Instanzen. Weisen Sie dieses Recht niemandem zu, es sei denn, Sie haben eine ordnungsgemäße geschäftliche Begründung.
+
+<!-- Do I need to include this? If so, adjust wording as needed
+
+## Product-specific instances
+
+ -->
+
+## Aufgaben für Administratoren
+
+### Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce
+
+>[!PREREQUISITES]
+>
+>Sie benötigen Administratorzugriff&lt;!— Welche Art? Produktadministrator, Systemadministrator, aber ich bin sicher, auch Produktprofil-Administrator oder Benutzergruppen-Administrator (dies kann eine interne Gruppe sein - Häkchen setzen) —> zu Suche, Social und Commerce.
+
+1. Navigieren Sie zu https://adminconsole.adobe.com/enterprise/.
+
+1. (Wenn Sie nicht bei Experience Cloud angemeldet sind) Melden Sie sich bei Experience Cloud an:
+
+   1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
+
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+
+   1. Wählen Sie die entsprechende Experience Cloud-Organisation aus.
+
+   1. Klicken Sie unter „Produkte und Services“ auf &quot;[!UICONTROL Adobe Advertising, Search, Social, & Commerce — Org Name]&quot;.
+
+   Die Produktseite wird standardmäßig auf der Registerkarte [!UICONTROL Product profiles] für Suche, Social und Commerce geöffnet. Zu den zusätzlichen Registerkarten gehören [!UICONTROL Users] und [!UICONTROL Product Admins].
+
+### Workflow für Systemadministratoren
+
+1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
+
+1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
+
+<!-- what else? -->
+
+### Workflow für Produktadministratoren
+
+1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
+
+1. Erstellen Sie bei Bedarf Endbenutzer [einzeln](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) oder [zusammen](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. (Optional) Erstellen Sie [Benutzergruppen](https://helpx.adobe.com/enterprise/using/user-groups.html) für jede Produktinstanz und weisen Sie jeder Benutzergruppe Benutzer zu.
+
+   Wenn die Instanz viele Benutzer hat, erstellen Sie Benutzergruppen, um sicherzustellen, dass Benutzern auf Grundlage ihres Fachwissens die richtigen Profile zugewiesen werden. (Siehe Schritt 4 für das Zuweisen von Benutzergruppen zu Produktprofilen.) Sie können Benutzergruppen basierend auf dem Geschäftsbereich, den Anforderungen an den Benutzerzugriff, dem Einstellungsdatum der Benutzer oder anderen Kriterien erstellen.
+
+   >[!IMPORTANT]
+   >
+   >Die Namen von Benutzergruppen sollten die Rechte, die der Benutzergruppe zugewiesen werden sollen, klar angeben. Wenn Sie beispielsweise eine Benutzergruppe mit „Schreibgeschützt“-Rechten erstellen möchten, schließen Sie „Schreibgeschützt“ in den Namen der Benutzergruppe ein, z. B. „Acme_Uk_ReadOnly“ oder „Acme_ReadOnly“.
+
+1. (Optional) [Erstellen benutzerdefinierter Produktprofile](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) mit definierten Berechtigungssätzen.
+
+   Benutzerdefinierte Profile werden zusätzlich zu den vier bereits verfügbaren Standardproduktprofilen hinzugefügt.
+
+   Jedes Produktprofil für eine Organisation muss über einen eindeutigen Namen verfügen. Wenn Ihr Unternehmen mehrere Search-, Social- und Commerce-Instanzen verwendet (z. B. Acme_US und Acme_JP), können Sie einen Produktprofilnamen nicht in mehreren Instanzen duplizieren. **Best Practice** Verwenden der Namenskonvention &quot;<Name>_<Instance>,“ wie „Simulations_Only_JP“.
+
+1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
+
+## Vollständiges Benutzerhandbuch für die Administration und zusätzliche Links
+
+* Weitere Informationen zur Benutzerverwaltung mit Adobe Admin Console finden Sie unter &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, einschließlich der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html)
+
+* Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
