@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Die Datumsangaben für das Paket (falls zutreffend) oder die Kampagne werden sta
    * *[!UICONTROL Minimum Budget]*: Das Mindestbudget in Prozent des Paketbudgets. Wenn eine Intervallbegrenzung angegeben ist, wird der minimale Budgetwert immer als Prozentsatz der Intervallbegrenzung berechnet. Andernfalls wird er als Prozentsatz des Paketbudgets berechnet.
 
 **[!UICONTROL Max Bid]:** Das Maximum für 1000 Impressionen zu bezahlen.
+
+**[!UICONTROL Min Bid]:** (Nur für private und [!DNL On-Demand] Angebote) Das Mindestgebot basierend auf dem Inventartyp. Eine Option auswählen:
+
+* *[!UICONTROL None]*: Kein Mindestgebot für einen Lagertyp. Wenn das berechnete Angebot unter dem Festpreis/Mindestpreis der geplanten Angebote liegt, bietet DSP kein Angebot an. Dies kann sich auf die Skalierung auswirken.
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*: DSP bietet mindestens den Festpreis/Mindestpreis für die anvisierten Privatangebote an, auch wenn das algorithmisch berechnete Angebot geringer ist. Dies kann sich auf die Leistung auswirken.
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*: DSP bietet mindestens den Festpreis/Mindestpreis für die anvisierten [!DNL On-Demand] an, auch wenn das algorithmisch berechnete Angebot geringer ist. Dies kann sich auf die Leistung auswirken.
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP bietet mindestens den Festpreis/Mindestpreis für die anvisierten privaten und [!DNL On-Demand] Angebote an, auch wenn das algorithmisch berechnete Angebot geringer ist. Dies kann sich auf die Leistung auswirken.
 
 **[!UICONTROL Placement Pre-bid Filters]:** Bis zu fünf KPI-Schwellenwerte (z. B. eine Metrik für die minimale Sichtbarkeit oder Clickthrough-Rate), die erfüllt sein müssen, damit Angebote unterbreitet werden können. Sie können Pre-Bid-Filter als Optimierungstaktik verwenden, aber verstehen Sie, dass jede Regel die Chancen einschränken kann, für die diese Platzierung Gebote abgeben kann. So fügen Sie Filter hinzu oder bearbeiten sie:
 
@@ -181,13 +191,9 @@ Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder T
 
   Auf der Registerkarte [!UICONTROL Deals] können Sie die Liste nach Keyword, Schlüssel, Angebots-ID oder benutzerdefiniertem Tag durchsuchen. Auf der Registerkarte &quot;[!UICONTROL Deal Lists]&quot; können Sie die Liste nach Name der Angebotsliste oder ID der Angebotsliste durchsuchen.
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Optional) Überschreibt den Bid-Price-Algorithmus, um mindestens die Festpreise und Mindestpreise für Angebote zu bieten.
-
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alle [Premium-, nicht garantierten [!UICONTROL On Demand]-](/help/dsp/inventory/on-demand-inventory-about.md) (oder [!UICONTROL On Demand] [!DNL Roku] für [!DNL Roku] Platzierungen), die Sie in [!DNL DSP] abonniert haben. Sie können [!UICONTROL On Demand] Inventar ein- und ausschließen.
 
   Sie können die Liste nach Quelle oder Feed anzeigen. Wenn Sie die Liste nach Feed anzeigen, können Sie nach Feed-Namen, Feed-Schlüssel oder einer ausgewählten Publisher-Region, einem Kategorie-Tag oder einem charakteristischen Tag suchen.
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Optional) Überschreibt den Bid-Price-Algorithmus, um mindestens die Festpreise und Mindestpreise für Angebote zu bieten.
 
 So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
@@ -472,7 +478,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 >[!NOTE]
 >
->([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Placed], [!DNL Oracle], [!DNL Polk] und [!DNL Research Now].
+>([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]:** (Optional) Ereignisverfolgungs-Pixel von Drittanbietern, die standardmäßig an alle neuen Anzeigen in der Platzierung angehängt werden sollen. So geben Sie Ereignispixel an:
 
