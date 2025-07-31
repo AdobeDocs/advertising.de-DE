@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Diese Funktion gilt nur für Ihr veraltetes Search-, Social- und Commerce-Konto. Die meisten Benutzenden verwenden jetzt stattdessen eine [!DNL Adobe] ID.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Diese Funktion gilt nur für Ihr veraltetes Search-, Social- und Commerce-Konto. Die meisten Benutzenden verwenden jetzt stattdessen eine [!DNL Adobe] ID.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 Wenn Sie Ihr Kennwort ändern, werden Sie von der aktuellen Sitzung abgemeldet. Um weiterhin zu funktionieren, müssen Sie sich mit dem neuen Kennwort anmelden.
 
