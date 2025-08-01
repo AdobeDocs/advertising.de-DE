@@ -3,18 +3,20 @@ title: Passwort ändern
 description: Erfahren Sie, wie Sie Ihr Kontokennwort ändern.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
+source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # Passwort ändern
 
+<!-- Replace this with just a link to the DX page once we remove the legacy option? -->
+
 >[!NOTE]
 >
->Diese Funktion gilt nur für Ihr veraltetes Search-, Social- und Commerce-Konto. Die meisten Benutzenden verwenden jetzt stattdessen eine [!DNL Adobe] ID.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Diese Funktion gilt nur für Ihre Anmeldedaten aus den Bereichen Suche, Social und Commerce. Die meisten Benutzer verwenden jetzt stattdessen eine [!DNL Adobe]-ID für die Authentifizierung. Informationen zum Ändern des Kennworts für Ihre [!DNL Adobe]-ID finden Sie unter [Zurücksetzen oder Ändern des Adobe-Kennworts](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html).
 
 Wenn Sie Ihr Kennwort ändern, werden Sie von der aktuellen Sitzung abgemeldet. Um weiterhin zu funktionieren, müssen Sie sich mit dem neuen Kennwort anmelden.
 
