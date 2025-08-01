@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Diese Funktion gilt nur für Ihre Anmeldedaten aus den Bereichen Suche, Social und Commerce. Die meisten Benutzer verwenden jetzt stattdessen eine [!DNL Adobe]-ID für die Authentifizierung. Informationen zum Ändern des Kennworts für Ihre [!DNL Adobe]-ID finden Sie unter [Zurücksetzen oder Ändern des Adobe-Kennworts](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html).
+>Diese Funktion gilt nur für Ihre Anmeldedaten aus den Bereichen Suche, Social und Commerce. Die meisten Benutzer verwenden jetzt stattdessen eine [!DNL Adobe]-ID für die Authentifizierung. Informationen zum Ändern des Kennworts für Ihre [!DNL Adobe]-ID finden Sie unter [Zurücksetzen oder Ändern des Adobe-Kennworts](https://helpx.adobe.com/de/manage-account/using/change-or-reset-password.html).
 
 Wenn Sie Ihr Kennwort ändern, werden Sie von der aktuellen Sitzung abgemeldet. Um weiterhin zu funktionieren, müssen Sie sich mit dem neuen Kennwort anmelden.
 
