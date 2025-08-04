@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie in einem Werbeerlebnis einen Zielknoten zwischen Zielknoten hinzufügen.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,31 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
       * Gehen Sie bei Audience-Zielen wie folgt vor:
 
-         1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] zu öffnen und eine oder mehrere Zielgruppen des Werbetreibenden anzugeben.
+         1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] zu öffnen, und führen Sie dann folgende Schritte aus:
 
-         1. Wählen Sie in der rechten Spalte aus, ob (Standard) oder *[!UICONTROL Include any]* der angegebenen Ziele für den Knoten *[!UICONTROL Include all]* werden sollen.
+            * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
 
-        Diese Option bestimmt, ob der Benutzer mindestens einer der angegebenen Zielgruppen angehören muss (eine [!DNL Boolean] `OR`-Anweisung) oder allen angegebenen Zielgruppen (eine [!DNL Boolean] `AND`-Anweisung), um sich für eine Impression zu qualifizieren.
+            * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
+
+               1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
+
+               1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+
+                  *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Erstellen Sie für eine Zielgruppe, die nur Ausschlüsse enthält, diese Zielgruppe als *[!UICONTROL Include Any]* und schließen Sie diese Zielgruppe aus, wenn Sie sie zu einer Platzierung in Ihrer DSP hinzufügen.
+
+               1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+
+                  Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
+
+            * Hinzufügen einer neuen Segmentgruppe:
+
+               1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
+
+               1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
+
+               1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+
+               1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
 
          1. Klicken Sie auf **[!UICONTROL Create]**.
 
