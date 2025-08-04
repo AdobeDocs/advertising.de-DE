@@ -3,9 +3,9 @@ title: Hinzufügen eines gleichrangigen Zielknotens zwischen Knoten in einem Erl
 description: Erfahren Sie, wie Sie einen gleichrangigen Knoten zu jedem Knoten hinzufügen, der ein Ziel hat oder sich auf derselben Ebene wie ein Knoten mit einem Ziel befindet.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. Geben Sie die Ziele an:
 
-   * Gehen Sie bei Adobe-Zielgruppenzielen wie folgt vor:
+   * Gehen Sie bei Audience-Zielen wie folgt vor:
 
-      1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] Optionen zu öffnen, öffnen Sie die Registerkarte **[!UICONTROL Adobe Segments]** , geben Sie ein oder mehrere [!DNL Adobe] Zielgruppenziele des Werbetreibenden an und klicken Sie dann auf **[!UICONTROL Save]**.
+      1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] zu öffnen und eine oder mehrere Zielgruppen des Werbetreibenden anzugeben.
 
-      1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere Zielgruppen angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
+      1. Wählen Sie in der rechten Spalte aus, ob (Standard) oder *[!UICONTROL Include any]* der angegebenen Ziele für den Knoten *[!UICONTROL Include all]* werden sollen.
 
-         Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören (eine [!DNL Boolean] `AND`).
+     Diese Option bestimmt, ob der Benutzer mindestens einer der angegebenen Zielgruppen angehören muss (eine [!DNL Boolean] `OR`-Anweisung) oder allen angegebenen Zielgruppen (eine [!DNL Boolean] `AND`-Anweisung), um sich für eine Impression zu qualifizieren.
+
+      1. Klicken Sie auf **[!UICONTROL Create]**.
 
       1. Klicken Sie auf **[!UICONTROL Apply]**.
 

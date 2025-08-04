@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standa
 
   Zu den Targeting-Optionen gehören:
 
-   * Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager, Adobe Analytics und Advertising DSP, Ihre benutzerdefinierten Segmente aus Advertising DSP und die von Advertising DSP bereitgestellten Drittanbietersegmente
+   * Ihre Zielgruppensegmente aus Adobe Audience Manager, Adobe Analytics und Advertising DSP, alle anderen für das Konto importierten Erstanbietersegmente, Ihre benutzerdefinierten Segmente aus Advertising DSP, von Advertising DSP bereitgestellte Drittanbietersegmente und alle in der Zielgruppenbibliothek erstellten bestehenden Advertising DSP-Zielgruppen
 
    * Bestimmte geografische Standorte, einschließlich Länder, Bundesstaaten, DMAs in den USA, Städte und Postleitzahlen
 

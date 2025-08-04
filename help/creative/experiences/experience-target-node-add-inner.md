@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie in einem Werbeerlebnis einen Zielknoten zwischen Zielknoten hinzufügen.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
       1. Wählen Sie den Zieltyp aus und klicken Sie dann auf **[!UICONTROL Apply]**:
 
-         * Wählen Sie für Adobe-Zielgruppenziele **[!UICONTROL Adobe Audience]** aus.
+         * Wählen Sie für Zielgruppenziele **[!UICONTROL Audience]** aus.
 
          * Wählen Sie für geografische Ziele eine einzelne geografische Kategorie aus (z. B. [!UICONTROL Geo: Country]).
 
@@ -45,13 +45,15 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
    * Wenn gleichrangige Knoten bereits vorhanden sind, führen Sie die folgenden Schritte aus:
 
-      * Gehen Sie bei Adobe-Zielgruppenzielen wie folgt vor:
+      * Gehen Sie bei Audience-Zielen wie folgt vor:
 
-         1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] Optionen zu öffnen, öffnen Sie die Registerkarte **[!UICONTROL Adobe Segments]** , geben Sie ein oder mehrere [!DNL Adobe] Zielgruppenziele des Werbetreibenden an und klicken Sie dann auf **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
+         1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] zu öffnen und eine oder mehrere Zielgruppen des Werbetreibenden anzugeben.
 
-         1. (Optional) Um mehrere Zielknoten zu erstellen, wenn mehrere Zielgruppen angegeben sind, wählen Sie **[!UICONTROL Split targets to create nodes]** aus.
+         1. Wählen Sie in der rechten Spalte aus, ob (Standard) oder *[!UICONTROL Include any]* der angegebenen Ziele für den Knoten *[!UICONTROL Include all]* werden sollen.
 
-            Diese Funktion erstellt für jede angegebene Zielgruppe einen separaten Zielknoten (mit separaten kreativen Bundles). Wenn Sie die Ziele nicht aufteilen, muss der Benutzer allen angegebenen Zielgruppen angehören (eine [!DNL Boolean] `AND`).
+        Diese Option bestimmt, ob der Benutzer mindestens einer der angegebenen Zielgruppen angehören muss (eine [!DNL Boolean] `OR`-Anweisung) oder allen angegebenen Zielgruppen (eine [!DNL Boolean] `AND`-Anweisung), um sich für eine Impression zu qualifizieren.
+
+         1. Klicken Sie auf **[!UICONTROL Create]**.
 
          1. Klicken Sie auf **[!UICONTROL Apply]**.
 
