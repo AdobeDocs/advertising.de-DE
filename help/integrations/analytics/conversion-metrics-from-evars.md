@@ -3,24 +3,24 @@ title: Erstellen von Konversionsmetriken aus Adobe Analytics  [!DNL eVars]  Prop
 description: Konfigurieren Sie benutzerdefinierte Erfolgsereignismetriken mithilfe von  [!DNL eVar]- und  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
+source-git-commit: be78460b42e1d9622cb781a0a32b01a34464a76d
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Erstellen von Konversionsmetriken aus Adobe Analytics [!DNL eVars] und [!DNL props]
 
-*Nur Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
 
-Sie können Erfolgsereignismetriken verwenden, um DSP-Pakete und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die den Zielen Ihrer Marke am besten entsprechen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=de) konfigurieren, indem Sie Daten auf [!DNL eVar]- und [!DNL prop] Ebene in ein Ereignis einleiten. Andere [!DNL Analytics], einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Search, Social und Commerce verfügbar.
+Sie können Erfolgsereignismetriken verwenden, um DSP-Pakete und Such-, Social- und Commerce-Kampagnen auf der Grundlage von Adobe Analytics-Site-Daten zu optimieren, die den Zielen Ihrer Marke am besten entsprechen. Sie können benutzerdefinierte Erfolgsereignismetriken basierend auf Ihren vorhandenen [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) und [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) konfigurieren, indem Sie Daten auf [!DNL eVar]- und [!DNL prop] Ebene in ein Ereignis einleiten. Andere [!DNL Analytics], einschließlich standardmäßiger, benutzerdefinierter und reservierter Konversionsmetriken und Traffic-Metriken, sind automatisch in DSP und Search, Social und Commerce verfügbar.
 
 ![Nutzungsbeispiel](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Nutzungsbeispiel")
 
-Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem anderen Benutzer durchgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich unter (DSP-Benutzer) an das technische Support-Team von DSP unter `adcloud_support@adobe.com` oder (Benutzer von Search, Social und Commerce) an Ihr Adobe-Account-Team.
+Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem anderen Benutzer durchgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich an Ihr Adobe Account Team.
 
-1. Erstellen Sie [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. Erstellen Sie [!DNL Analytics] [ein Platzhalter-Erfolgsereignis](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Verwenden Sie die folgenden zusätzlichen Parameter:
 
@@ -42,7 +42,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem
    >
    >Nur [!DNL Analytics]-Konto-Administratoren können Verarbeitungsregeln erstellen, es sei denn, sie haben Nicht-Administratoren die Berechtigung erteilt.
 
-   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=de) mithilfe der folgenden Konfiguration:
+   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) mithilfe der folgenden Konfiguration:
 
       * Geben Sie für die Bedingung, die erfüllt werden muss, die erforderliche [!DNL eVars] oder [!DNL props] an.
 
@@ -54,7 +54,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem
 
       * Wählen Sie für die Aktion **Ereignis festlegen** und wählen Sie das Platzhalterereignis aus.
 
-   1. Erstellen Sie in [!DNL Analytics] [!DNL Analysis Workspace] [ein Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass die Daten für die [!DNL eVar] oder [!DNL prop] Metrik gefüllt werden.
+   1. Erstellen Sie in [!DNL Analytics] [!DNL Analysis Workspace] [ein Projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) und ziehen Sie das neue Ereignis in eine Freiformtabelle, um sicherzustellen, dass die Daten für die [!DNL eVar] oder [!DNL prop] Metrik gefüllt werden.
 
 1. Wenden Sie sich an Ihr Adobe-Konto-Team , um die neue Metrik mit Adobe Advertising zu synchronisieren.
 
