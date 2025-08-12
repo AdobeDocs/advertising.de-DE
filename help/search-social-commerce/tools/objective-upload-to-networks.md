@@ -3,9 +3,9 @@ title: Hochladen von Zielen in Werbenetzwerke aktivieren
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in  [!DNL Google Ads] / [!DNL Microsoft Advertising] hochladen.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar.
 
-Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der `msclkid` der [!DNL Microsoft Advertising]. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
+Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der [!DNL Microsoft Advertising] der `msclkid`. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
 
 Jede hochgeladene Konversion hat den folgenden Namen:
 
@@ -26,7 +26,7 @@ Jede hochgeladene Konversion hat den folgenden Namen:
 
 Dabei ist `<network_ID>` die numerische ID, die Search, Social und Commerce für das Werbenetzwerk verwendet, `<objective_id>` die numerische Ziel-ID und `<network_account_ID>` die numerische ID für das Werbenetzwerkkonto oder das Managerkonto.
 
-Uploads auf [!DNL Google Ads] erfolgen täglich um 06:00 Uhr in der Zeitzone des Werbetreibenden. Uploads auf [!DNL Microsoft Advertising] erfolgen täglich um 09:00 Uhr in der Zeitzone des Werbetreibenden.
+Bei den meisten Werbetreibenden werden Uploads zu [!DNL Google Ads] stündlich durchgeführt. Bei Werbetreibenden mit großen Konten oder benutzerdefinierten Konfigurationen werden Uploads mindestens dreimal täglich durchgeführt. Uploads auf [!DNL Microsoft Advertising] erfolgen täglich um 09:00 in der Zeitzone des Werbetreibenden.
 
 >[!IMPORTANT]
 >
