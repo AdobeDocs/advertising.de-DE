@@ -3,9 +3,9 @@ title: Hochladen von Zielen in Werbenetzwerke aktivieren
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in  [!DNL Google Ads] / [!DNL Microsoft Advertising] hochladen.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
+source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Jede hochgeladene Konversion hat den folgenden Namen:
 
 Dabei ist `<network_ID>` die numerische ID, die Search, Social und Commerce für das Werbenetzwerk verwendet, `<objective_id>` die numerische Ziel-ID und `<network_account_ID>` die numerische ID für das Werbenetzwerkkonto oder das Managerkonto.
 
-Bei den meisten Werbetreibenden werden Uploads zu [!DNL Google Ads] stündlich durchgeführt. Bei Werbetreibenden mit großen Konten oder benutzerdefinierten Konfigurationen werden Uploads mindestens dreimal täglich durchgeführt. Uploads auf [!DNL Microsoft Advertising] erfolgen täglich um 09:00 in der Zeitzone des Werbetreibenden.
+Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über den ganzen Tag, manchmal sogar stündlich. Bei Werbetreibenden mit großen Konten oder benutzerdefinierten Konfigurationen werden Uploads mindestens dreimal täglich durchgeführt.
 
 >[!IMPORTANT]
 >
