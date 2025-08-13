@@ -1,22 +1,20 @@
 ---
-title: Über Leistungseinblicke
+title: Über Insights
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-# Über Leistungseinblicke
+# Über Insights
 
 *Beta-Funktion*
 
-<!-- Edit title and metadata as necessary -->
-
-Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie zur effizienten Optimierung Ihrer Kampagnen und zur Entdeckung neuer Möglichkeiten zur Leistungsskalierung benötigen. Sie können Daten über Kampagnen hinweg anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
+Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie zur effizienten Optimierung Ihrer Kampagnen und zur Entdeckung neuer Möglichkeiten zur Leistungsskalierung benötigen. Sie können Daten über Kampagnen hinweg für einen bestimmten Advertiser anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
 
 Verwenden Sie Performance Insights, um:
 
@@ -34,27 +32,57 @@ Sie können auch [Datumsbereich ändern, die Ansicht konfigurieren und eine benu
 
 ### Registerkarte [!UICONTROL Home]
 
-Die Registerkarte [!UICONTROL Home] enthält wichtige Metriken zu Standard, Leistung und Sichtbarkeit für alle Kampagnen eines Werbetreibenden<!-- active only? -->. Standardmäßig werden kampagnenübergreifende Daten angezeigt. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser oder nur Daten für bestimmte Kampagnen<!-- active only? --> Pakete, <!-- active only? -->, benutzerdefinierte Ziele und Platzierungen anzuzeigen<!-- active only? -->. Zu den Erkenntnissen gehören:
+Die Registerkarte [!UICONTROL Home] enthält wichtige Metriken zu Standard, Leistung und Sichtbarkeit für alle Kampagnen eines Werbetreibenden. Standardmäßig werden Cross-Placement-Daten für einen bestimmten Advertiser und ein benutzerdefiniertes Ziel angezeigt. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser, ein anderes benutzerdefiniertes Ziel oder eine bestimmte Platzierung anzuzeigen. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Zu den Erkenntnissen gehören:
 
-* Ein Trenddiagramm für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Impressions] und [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Ein Trenddiagramm für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Impressions] und [!UICONTROL Net CPM]).
 
-* Eine Aufschlüsselung der Daten für bestimmte Metriken nach drei kundenspezifischen Dimensionen, z. B. nach Kampagne, Publisher und Medientyp. Für jede Dimensionsaufschlüsselung können Sie eine andere Metrik auswählen.
+* **[!UICONTROL Delivery Breakdown]:** Aufschlüsselung der Daten für bestimmte Metriken nach drei kundenspezifischen Dimensionen, z. B. nach Kampagne, Publisher und Medientyp. Für jede Dimensionsaufschlüsselung können Sie eine andere Metrik auswählen.
 
 ### Registerkarte [!UICONTROL Household Reach]
 
-Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite von Haushalten in allen Kampagnen eines Werbetreibenden<!-- active only? -->. Standardmäßig werden kampagnenübergreifende Daten angezeigt. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser oder nur für bestimmte Kampagnen anzuzeigen<!-- active only? -->. Zu den Erkenntnissen gehören:
+Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite der Haushalte in allen Kampagnen eines Werbetreibenden. Standardmäßig werden kampagnenübergreifende Daten angezeigt. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser, für eine bestimmte Kampagne, über Pakete oder Platzierungen hinweg oder für ein bestimmtes Paket oder eine bestimmte Platzierung anzuzeigen. Zu den Erkenntnissen gehören:
 
-* Ein Trenddiagramm nach Tag oder Woche für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Unique Reach] und [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Ein Trenddiagramm nach Tag oder Woche für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Unique Reach] und [!UICONTROL Net CPM]).
 
-* Ein Ringdiagramm, das die inkrementelle Reichweite eines Haushalts nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. *Inkrementelle Haushaltsreichweite* ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, ein einzelnes Gerät oder einen einzelnen Inventartyp erreicht wird.
+* **[!UICONTROL Incremental Household Reach]:** Ein Ringdiagramm, das die inkrementelle Reichweite eines Haushalts nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type] anzeigt. *Inkrementelle Haushaltsreichweite* ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, ein einzelnes Gerät oder einen einzelnen Inventartyp erreicht wird.
 
-* Die inkrementelle eindeutige Haushaltsreichweite im Vergleich zur überlappenden Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type].
+* **[!UICONTROL Reach Breakdown]:** Die inkrementelle eindeutige Haushaltsreichweite im Vergleich zur überlappenden Haushaltsreichweite nach [!UICONTROL Media Type], [!UICONTROL Device Type] oder [!UICONTROL Inventory Type].
 
   *Inkrementelle Haushaltsreichweite* ist definiert als Haushalt, der ausschließlich über ein einzelnes Medium, ein einzelnes Gerät oder einen einzelnen Inventartyp erreicht wird. *Überschneidende Haushaltsreichweite* wird als Haushalt definiert, der von mehreren Medien, Geräten oder Inventartypen erreicht wird.
 
-* Die leistungsstärksten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen nach [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
+* **[!UICONTROL Top Performers]:** Die leistungsstärksten Kampagnen, Platzierungen, Pakete, Publisher, Sites/Apps, Medientypen, Inventartypen oder Gerätetypen nach [!UICONTROL Unique Reach], [!UICONTROL Net Spend] und [!UICONTROL Cost per Reach].
 
-* Die [!UICONTROL Cost per Reach] und [!UICONTROL Net Spend] nach Paket, Publisher oder Site/App. Verwenden Sie diese insight, um zu sehen, welche Pakete, Publisher oder Websites/Programme das Potenzial für eine signifikante inkrementelle Reichweite aufweisen.
+* **[!UICONTROL Performance Analysis]:** Die [!UICONTROL Cost per Reach] und [!UICONTROL Net Spend] nach Paket, Publisher oder Site/App. Verwenden Sie diese insight, um zu sehen, welche Pakete, Publisher oder Websites/Programme das Potenzial für eine signifikante inkrementelle Reichweite aufweisen.
+
+  Die Größe jeder Blase zeigt den inkrementellen Reichweitenwert an, wobei größere Blasen im Durchschnitt einen höheren inkrementellen Reichweite angeben. Um den vollständigen Entitätsnamen und die Schlüsselmetriken für eine Blase anzuzeigen, halten Sie den Cursor über der Blase.
+
+  Zu den Auswirkungen zählen:
+
+   * **Große Wirkung:** erwägen, das Budget zu erhöhen.
+   * **Mäßige Auswirkung**
+   * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
+
+### Registerkarte [!UICONTROL Household Conversion]
+
+Die Registerkarte [!UICONTROL Household Conversion] enthält Haushaltskonversionsmetriken für alle Kampagnen eines Werbetreibenden<!-- active only? -->. Standardmäßig werden kampagnenübergreifende Daten für einen bestimmten Advertiser und eine bestimmte Konversionsmetrik angezeigt. Sie können optional Filter konfigurieren, um Daten für eine andere Advertiser- oder Konversionsmetrik, für eine bestimmte Kampagne, für mehrere Pakete oder Platzierungen oder für ein bestimmtes Paket oder eine bestimmte Platzierung anzuzeigen. Zu den Erkenntnissen gehören:
+
+* **[!UICONTROL Trends]:** Ein Trenddiagramm nach Tag oder Woche für drei kundenspezifische Metriken (standardmäßig [!UICONTROL Net Spend], [!UICONTROL Conversions] und [!UICONTROL Net CPM]).
+
+* **[!UICONTROL Conversion Participation Overview]:** Ein Balkendiagramm, das anzeigt, welche Medientypen, Inventartypen und Gerätetypen zu den meisten Haushaltskonversionen führen.
+
+  Impressionen, die innerhalb des Lookback-Zeitraums (30 Tage) bereitgestellt werden, gelten als gültig für die Konversionsbeteiligung.
+
+* **[!UICONTROL Top Performers]:** Eine Tabelle der Kampagnen, Pakete, Platzierungen, Herausgeber, Sites/Apps, Medientypen und Inventartypen, die die Leistung für drei kundenspezifische Metriken steigern (standardmäßig [!UICONTROL Net Spend], [!UICONTROL CPA] und [!UICONTROL Conversions]). Die beste Leistung wird an erster Stelle aufgeführt.
+
+* **[!UICONTROL Performance Analysis]:** Die [!UICONTROL CPA] und [!UICONTROL Net Spend] nach Paket, Publisher oder Site/App. Verwenden Sie diese insight, um zu sehen, welche Pakete, Publisher oder Websites/Programme das Potenzial für eine signifikante inkrementelle Reichweite aufweisen.
+
+  Die Größe jeder Blase zeigt den inkrementellen Reichweitenwert an, wobei größere Blasen im Durchschnitt einen höheren inkrementellen Reichweite angeben. Um den vollständigen Entitätsnamen und die Schlüsselmetriken für eine Blase anzuzeigen, halten Sie den Cursor über der Blase.
+
+  Zu den Auswirkungen zählen:
+
+   * **Große Wirkung:** erwägen, das Budget zu erhöhen.
+   * **Mäßige Auswirkung**
+   * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
 
 ## Leistungseinblicke öffnen
 
