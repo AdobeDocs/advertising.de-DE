@@ -3,9 +3,9 @@ title: Über Insights
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ Die Registerkarte [!UICONTROL Household Conversion] enthält Haushaltskonversion
 * Wählen Sie aus dem Dropdown-Menü links oben in der insight die Dimension aus.
 
 ## Ändern der für eine Insight gemeldeten Metriken
+
+Konversionsmetriken werden sowohl von Adobe Advertising als auch von Adobe Analytics nachverfolgte Konversionen unterstützt.
 
 1. Klicken Sie oben rechts in der insight auf ![Metrikeinstellungen](/help/dsp/assets/metric-settings.png "Metrikeinstellungen").
 
