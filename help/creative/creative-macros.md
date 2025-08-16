@@ -55,4 +55,4 @@ Einige der verfügbaren Makros oder ihre Entsprechungen werden automatisch in Ex
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Einstellungen für zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-targeting.md)
->  >*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
+>  &#x200B;>*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
