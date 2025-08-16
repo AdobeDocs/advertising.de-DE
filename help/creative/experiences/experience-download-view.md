@@ -3,16 +3,14 @@ title: Herunterladen von Daten aus der [!UICONTROL Experiences]
 description: Weitere Informationen zu
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # Herunterladen von Daten aus der [!UICONTROL Experiences]
-
-*Geschlossene Beta-Version*
 
 Sie können Metadaten zu den Erlebnissen in der aktuellen gefilterten [!UICONTROL Experiences] in eine Datei im Microsoft Excel-Tabellenformat (XLSX) exportieren.
 

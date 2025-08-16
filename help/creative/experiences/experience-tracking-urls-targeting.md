@@ -3,9 +3,9 @@ title: Anpassen der Tracking-URLs für ein Erlebnis
 description: Erfahren Sie, wie Sie die Tracking-URLs für jedes Kreative in einem Erlebnis mit Entscheidungsbaum-Targeting anpassen.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Anpassen der Tracking-URLs für Kreative in einem Erlebnis mit Entscheidungsbaum-Targeting
 
 *Targeting von Knoten nur mit vorhandenen Kreativen*
-*Geschlossene Beta-Version*
 
 Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL für jeden einzelnen Kreativen erstellen, der für das Erlebnis verwendet wird. Sie können die Tracking-URLs innerhalb des Entscheidungsbaums anpassen.
 

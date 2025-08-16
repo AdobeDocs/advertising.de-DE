@@ -3,16 +3,14 @@ title: Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag
 description: Erfahren Sie, wie Sie die Transkodierungsoptionen für ein Video-Anzeigen-Tag anpassen.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag
-
-*Geschlossene Beta-Version*
 
 Sie können die Transkodierungsoptionen für ein Video- und Anwendererlebnis anpassen, um eine schnelle Wiedergabe und Qualitätskontrolle über alle Publisher hinweg sicherzustellen.
 

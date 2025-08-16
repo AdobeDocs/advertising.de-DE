@@ -3,16 +3,14 @@ title: Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting
 description: Erfahren Sie, wie Sie die Tracking-URLs für jedes Kreative in einem Erlebnis ohne Targeting mit einem Entscheidungsbaum anpassen.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting mit Entscheidungsbaum
-
-*Geschlossene Beta-Version*
 
 Für Erlebnisse ohne Targeting mit Entscheidungsbäumen können Sie bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL für jeden einzelnen Kreativen erstellen, der für das Anzeigen-Erlebnis-Tag verwendet wird. Sie können die Tracking-URLs in [!UICONTROL Tag Manager] anpassen.
 

@@ -3,16 +3,14 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bc3309523572656362cebebab9b735530003a81c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
-
-*Geschlossene Beta-Version*
 
 Fügen Sie Ihren [kreativen Bibliotheken](creative-library-manage.md) Kreative hinzu, um sie für [Anzeigenerlebnisse](/help/creative/experiences/experience-about.md) zu verwenden.
 
@@ -64,7 +62,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.

@@ -3,16 +3,14 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis
-
-*Geschlossene Beta-Version*
 
 Sobald ein Anzeigen-Tag für eine bestimmte kreative Größe oder Videodauer für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in JavaScript-, iFrame- und Videoformaten zur Implementierung in Advertising DSP oder anderen DSPs generieren und kopieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
 
@@ -33,7 +31,7 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +49,9 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Auswählen des Tag-Typs:
 
-   * (Nicht-Videoerlebnisse) **&#x200B; *JavaScript* &#x200B;** oder **&#x200B; *Iframe* &#x200B;**.
+   * (Nicht-Videoerlebnisse) ** *JavaScript* ** oder ** *Iframe* **.
 
-   * (Videoerlebnisse) **&#x200B; *Video* &#x200B;**.
+   * (Videoerlebnisse) ** *Video* **.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 

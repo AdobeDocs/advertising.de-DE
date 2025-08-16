@@ -3,9 +3,9 @@ title: Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeti
 description: Erfahren Sie, wie Sie einem Anzeigen-Tag Kreative für eine bestimmte Kreativgröße zuweisen.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting
 
 *Erlebnisse ohne Targeting mit Entscheidungsbäumen*
-*Geschlossene Beta-Version*
 
 Sie können einem für ein Erlebnis verwendeten Anzeigen-Tag Kreative in den entsprechenden Kreativgrößen zuweisen. Sie können Kreative aus der in den Erlebniseinstellungen angegebenen Kreativbibliothek verwenden. Für Standard-Werbeerlebnisse können Sie nur Standard-Kreative zuweisen. Für dynamische Werbeerlebnisse können Sie nur dynamische Kreative zuweisen.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 

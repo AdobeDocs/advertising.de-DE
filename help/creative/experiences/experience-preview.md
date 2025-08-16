@@ -3,16 +3,14 @@ title: Erlebnisvorschau
 description: Erfahren Sie, wie Sie eine Vorschau der Kreativen in einem Werbeerlebnis anzeigen.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Erlebnisvorschau
-
-*Geschlossene Beta-Version*
 
 Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anzeigen, die Target-Betrachterinnen und -Betrachtern für ein Erlebnis angezeigt wird, einschließlich aller Hyperlinks. Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie eine Vorschau eines einzelnen Kreativen, der Kreativen für eine bestimmte Verzweigung (Zieltyp) oder aller Kreativen im Erlebnis anzeigen. Für Erlebnisse ohne Entscheidungsbaum-Targeting können Sie eine Vorschau eines einzelnen Kreativen anzeigen. <!-- verify -->
 

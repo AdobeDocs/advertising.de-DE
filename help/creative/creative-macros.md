@@ -3,16 +3,14 @@ title: Verfügbare Makros zum Tracking von URLs
 description: Verweisen Sie auf die Makros, die Sie Ihren Landingpage-URLs, Tracking-URLs und Kreativen von Drittanbietern hinzufügen können.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Verfügbare Makros zum Tracking von URLs
-
-*Geschlossene Beta-Version*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ Einige der verfügbaren Makros oder ihre Entsprechungen werden automatisch in Ex
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Einstellungen für zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-targeting.md)
->*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)

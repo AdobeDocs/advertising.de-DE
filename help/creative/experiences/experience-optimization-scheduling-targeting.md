@@ -3,9 +3,9 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Weitere Informationen zu
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Kreative Optimierung und Planung für ein Erlebnis mit Entscheidungsbaum-Targeting anpassen
 
 *Targeting von Knoten nur mit vorhandenen Kreativen*
-*Geschlossene Beta-Version*
 
 Standardmäßig wird die kreative Rotation für ein Erlebnis algorithmisch bestimmt, um die gesamte Clickthrough-Rate zu optimieren. Die Einstellungen für die kreative Optimierung gelten für alle zugewiesenen Bundles. Sie können die Kreativrotation so anpassen, dass die Kreativen in jedem Bundle entsprechend der relativen Gewichtung manuell ausgeführt oder für ein bestimmtes benutzerdefiniertes Advertising DSP-Ziel algorithmisch optimiert werden. Sie können auch bestimmte kreative Bundles für bestimmte, sequenzielle Zeiträume planen und benutzerdefinierte kreative Rotationseinstellungen für jeden Zeitplan anwenden.
 

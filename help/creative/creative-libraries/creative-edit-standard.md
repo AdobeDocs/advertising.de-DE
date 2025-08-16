@@ -3,16 +3,14 @@ title: Bearbeiten von Standard-Kreativen in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie die Einstellungen von standardmäßigen (nicht dynamischen) Kreativen in einer Kreativbibliothek ändern.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Standard-Kreativen in einer Kreativbibliothek
-
-*Geschlossene Beta-Version*
 
 Sie können einige Einstellungen für jeden Kreativtyp bearbeiten. Sie können mehrere Kreative <!-- or creative variations --> Kreativtyps bearbeiten (einfache HTML5 mit nur einer Landingpage, statische HTML5 mit mehreren Landingpages, flexible HTML5, Bild oder Drittanbieter<!-- , or dynamic -->).
 

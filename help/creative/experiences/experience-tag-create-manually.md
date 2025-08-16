@@ -3,9 +3,9 @@ title: Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgr
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für eine bestimmte Kreativgröße erstellen.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Erlebnisse ohne Targeting) Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße
 
 *Erlebnisse ohne Targeting mit Entscheidungsbäumen*
-*Geschlossene Beta-Version*
 
 Sie können für jede kreative Größe (Nicht-Videokreative) oder Videodauer, die für ein Erlebnis verwendet wird, ein oder mehrere Anzeigen-Tags pro Sprache erstellen. Sie können später [dem Anzeigen-Tag Kreative zuweisen](experience-tag-assign-creatives.md).
 

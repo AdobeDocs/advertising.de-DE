@@ -3,16 +3,14 @@ title: Verwalten von Kreativbibliotheken
 description: Erfahren Sie, wie Sie Ihre Kreativbibliotheken erstellen, umbenennen und löschen.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Kreativbibliotheken
-
-*Geschlossene Beta-Version*
 
 Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später können Sie jede Bibliothek mit &quot;[ Creatives“ ](creative-add-standard.md)<!-- , dynamic creatives, --> &quot;[ Bundles“ ](bundle-manage.md). Ihr Adobe-Konto-Team kann Ihren Bibliotheken auch dynamische Kreative hinzufügen.
 

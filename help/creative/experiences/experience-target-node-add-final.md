@@ -3,9 +3,9 @@ title: Hinzufügen eines Zielknotens zur letzten Ebene eines Erlebnisses
 description: Erfahren Sie, wie Sie einen Zielknoten zur endgültigen Zielebene eines Anzeigenerlebnisses hinzufügen.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Hinzufügen eines Zielknotens zur letzten Ebene eines Erlebnisses
 
 *Nur Erlebnisse mit Targeting mit Entscheidungsbäumen*
-*Geschlossene Beta-Version*
 
 Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei es den Stammknoten „Alle“, einen zielspezifischen Knoten oder einen „Alles andere“-Knoten - definieren Sie das Ziel direkt und müssen keinen gleichrangigen Knoten erstellen. Durch Hinzufügen eines Knotens auf unterster Ebene werden der Zielknoten und ein zusätzlicher Knoten „Alles andere“ auf derselben Ebene erstellt.
 

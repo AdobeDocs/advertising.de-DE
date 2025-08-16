@@ -3,16 +3,14 @@ title: Umbenennen eines Anzeigen-Tags
 description: Erfahren Sie, wie Sie ein Anzeigen-Tag für ein Erlebnis umbenennen.
 feature: Creative Experiences
 exl-id: 8c2fda31-2e4c-49ea-bcf2-f1bf564068b8
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # Umbenennen eines Anzeigen-Tags für ein Erlebnis
-
-*Geschlossene Beta-Version*
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
