@@ -3,16 +3,14 @@ title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Verwalten des Retargeting von Pixeln
-
-*Geschlossene Beta-Version*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ Wenn Sie Anzeigen-Erlebnisse für Benutzende festlegen, die dem Pixel ausgesetzt
 
 Wenn Sie Anzeigen-Erlebnisse für Benutzende festlegen, die dem Pixel ausgesetzt sind, geben die Targeting-Einstellungen die Attributwerte an, die vorhanden sein müssen, um die Kreativen anzuzeigen.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Beta-Funktion; nur neue Pixel; optional) Typen universeller IDs für das nachzuverfolgende Pixel-Tag:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Nur neue Pixel; optional) Typen universeller IDs für das nachzuverfolgende Pixel-Tag:
 
 * *[!UICONTROL ID5]:* Das Pixel-Tag verfolgt [!DNL ID5] IDs. Für Impressionen, die an universelle IDs gesendet werden, fallen keine Gebühren an.
 
