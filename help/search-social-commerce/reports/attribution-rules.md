@@ -2,10 +2,10 @@
 title: Wie Attributionsregeln berechnet werden
 description: Erfahren Sie, wie Adobe Advertising die einzelnen Attributionsregeltypen berechnet.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 Die Attributionsregel auf Advertiser-Ebene wird verwendet, um Konversionsdaten - möglicherweise über mehrere Anzeigenkanäle hinweg - in einer Reihe von Ereignissen zuzuordnen, die zu einer Konversion führen.
 
-In Berichten, standardmäßigen und benutzerdefinierten Ansichten für Advertising Search-, Social- und Commerce (Search, Social und Commerce)- und (einige Benutzerrollen)-Portfoliosimulationen für Search, Social und Commerce wird die ausgewählte Regel nur für die Ansichts-, Berichts- oder Simulationsdaten verwendet. Die verschiedenen Attributionsregeln werden wie folgt angewendet.
+Sie können an den folgenden Stellen auch eine Attributionsregel auswählen, um die Regel nur auf die resultierenden Daten anzuwenden:
+
+* DSP
+
+   * Benutzerdefinierte Berichte mit Multi-Touch-Attribution
+
+* Suche, Social und Commerce
+
+   * Benutzerdefinierte Berichte
+
+   * Standardmäßige und benutzerdefinierte Ansichten
+
+   * (Einige Benutzerrollen) Simulationen auf Portfolio-Ebene.
 
 >[!NOTE]
 >
