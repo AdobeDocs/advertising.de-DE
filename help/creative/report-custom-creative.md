@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom Creative Report] generieren.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
+source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Mit dem [!UICONTROL Custom Creative Report] können Sie den Inhalt und die Bereitstellung von Berichtsdaten für alle Ihre Anzeigenerlebnisse anpassen.
 
-Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder monatlich um 03 :00 in der angegebenen Zeitzone gemäß den angegebenen Kriterien planen (z. B. alle 15 Tage oder am 1. eines jeden Monats). Nachdem ein Bericht generiert wurde, können Sie ihn von [!UICONTROL Reports] > [!UICONTROL Custom Reports] oder von verknüpften [Berichtszielen](/help/dsp/reports/report-destinations/report-destination-about.md) der folgenden Typen herunterladen:
+Sie können Berichte einmal generieren oder sie können täglich, wöchentlich oder monatlich um 03 :00 in der angegebenen Zeitzone gemäß den angegebenen Kriterien planen (z. B. alle 15 Tage oder am 1. eines jeden Monats). Nachdem ein Bericht generiert wurde, können Sie ihn von [!UICONTROL Reports] > [!UICONTROL Custom Reports] oder von verknüpften [Berichtszielen](/help/dsp/reports/report-destinations/report-destination-about.md) der folgenden Typen herunterladen:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -161,7 +161,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
