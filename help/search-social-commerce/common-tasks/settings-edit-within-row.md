@@ -3,9 +3,9 @@ title: Bearbeiten von Einstellungen direkt in einer Zeile
 description: Erfahren Sie, wie Sie Daten in Verwaltungsansichten innerhalb der Zeile bearbeiten.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## (Neue Benutzeroberfläche) Bearbeiten von Einstellungen in einer Zeile
 
-1. Klicken Sie in die Zelle, um sie zu aktivieren, oder halten Sie den Cursor über dem Wert und klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten").
+1. Klicken Sie in die Zelle, um sie zu aktivieren, oder halten Sie den Cursor über dem Wert.
 
-1. Ändern Sie den Wert.
+1. Ändern Sie den Wert:
 
-1. Klicken Sie **Apply**.
+   * (Optionen in einer Liste) Wählen Sie eine neue Option aus der Liste aus.
 
-<!--
-1. Change the value:
+   * (Freiformwerte) Klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") ändern Sie den Wert und klicken Sie dann auf **Anwenden**.
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## (Alte Benutzeroberfläche) Bearbeiten von Einstellungen innerhalb einer Zeile
 
