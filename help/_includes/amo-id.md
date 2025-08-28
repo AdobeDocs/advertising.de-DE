@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6fa4e5d06271789edc915d67d320f775a83ed653
+source-git-commit: 41a1485539e6943287b04ee31f64088025c2af80
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Die AMO ID verfolgt jede einzelne Anzeigenkombination auf einer weniger detaillierten Ebene und wird für die [!DNL Analytics] und Customer Journey Analytics-Datenklassifizierung und die Aufnahme von Werbemetriken (wie Impressionen, Klicks und Kosten) aus Adobe Advertising verwendet.
 
-[!DNL Analytics] wird die AMO-ID in einer [eVar- oder ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de)-Dimension (AMO-ID) gespeichert.
+[!DNL Analytics] wird die AMO-ID in einer [eVar- oder ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)-Dimension (AMO-ID) gespeichert.
 
 Bei Customer Journey Analytics wird die AMO-ID in der `trackingCode`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] ist.
 
@@ -35,7 +35,7 @@ Der Parameter wird den Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
 * Wenn die Server-seitige Einfügefunktion nicht implementiert ist:
 
-   * DSP-Kunden: Der [JavaScript](javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
+   * DSP-Kunden: Der [JavaScript](/help/integrations/analytics/javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
       * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum `s_kwcid`-Support unter `ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking] Datenweiterleitungs-Makros zum Tracking der [- und ](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) verwenden.
 
@@ -148,13 +148,13 @@ Dabei gilt:
 >[!NOTE]
 >
 > Für Konten mit Kampagnen ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, aktualisieren Sie manuell jedes Landingpage-Suffix, um das obige Format aufzunehmen.
-> &#x200B;>In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
+> >In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
 >* Suchkampagnen:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Einkaufskampagnen (mit [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Audience Network-Kampagnen:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
