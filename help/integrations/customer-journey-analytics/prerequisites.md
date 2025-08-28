@@ -3,9 +3,9 @@ title: Voraussetzungen für die Integration von Adobe Advertising mit Customer J
 description: Voraussetzungen für die Integration von Adobe Advertising mit Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 3ddda4ed7b644e8c6bcb28547a98982769b08c2e
+source-git-commit: ba23ab97c916f829cf9d640669423dd8e72949c0
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,26 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Cus
 * Werbetreibende mit [!DNL Analytics for Advertising] und Customer Journey Analytics:
 
    * Adobe Customer Journey Analytics<!-- any specific version? -->
+
    * [Alle anderen Voraussetzungen für [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
+
+* Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising]:
+
+   * Adobe Experience Platform Web SDK-Bibliothek: `alloy.js`
+
+     Die für Web SDK und für das Adobe Advertising Advertiser-Konto verwendete [!DNL Org ID] muss identisch sein. Diese ID finden Sie auf der [Registerkarte Zusammenfassung des Adobe Experience Cloud Debuggers](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+
+     ![Übersichtsbildschirm des Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
+
+     Sie benötigen die Unterstützung Ihres Experience Platform-Site-Administrators, um einen Experience Platform-Datenstrom und ein XDM-Schema zu erstellen.
+
+   * Adobe Customer Journey Analytics<!-- any specific version? -->
+
+     Sie benötigen die Unterstützung Ihres internen Web-Analysten, um eine Verbindung zu Ihrem Datensatz herzustellen und Berichte zu konfigurieren.
+
+>[!TIP]
+>
+>Verwenden Sie zum Verbessern der Datengenauigkeit die neueste Version jeder Bibliothek.
 
 >[!MORELIKETHIS]
 >
