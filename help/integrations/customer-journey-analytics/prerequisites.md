@@ -28,7 +28,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Cus
 
    * Adobe Experience Platform Web SDK-Bibliothek: `alloy.js`
 
-     Die für Web SDK und für das Adobe Advertising Advertiser-Konto verwendete [!DNL Org ID] muss identisch sein. Diese ID finden Sie auf der [Registerkarte Zusammenfassung des Adobe Experience Cloud Debuggers](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+     Die für Web SDK und für das Adobe Advertising Advertiser-Konto verwendete [!DNL Org ID] muss identisch sein. Diese ID finden Sie auf der [Registerkarte Zusammenfassung des Adobe Experience Cloud Debuggers](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de).
 
      ![Übersichtsbildschirm des Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
