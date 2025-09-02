@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* „XDM-Feldname“ ist der Feldname in Adobe Experience Platform.
 >* „XDM-Feldanzeigename“ gibt den Anzeigenamen in Customer Journey Analytics an.
 
