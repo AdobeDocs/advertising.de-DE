@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Werbetreibende mit Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
 
-* Datenmodellierungs- und Verwaltungstechnologien für Adobe Experience Platform ([Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) und [Datensätze](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* Datenmodellierungs- und Verwaltungstechnologien für Adobe Experience Platform ([Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/de/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home))
 
   Diese Technologien erfordern die Unterstützung durch Ihren Experience Platform-Site-Administrator.
 
