@@ -2,9 +2,9 @@
 title: Adobe Advertising-Metriken und -Dimensionen in Customer Journey Analytics
 description: Referenzieren Sie die in Customer Journey Analytics verfügbaren Adobe Advertising-Metriken und -Dimensionen.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 519d1ac2269e5ebaf8cc90a15b0eb421f8187229
+source-git-commit: eddd9c997ada380d5624703b82bca189be90b893
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* &#x200B;
+>* 
 >* „XDM-Feldname“ ist der Feldname in Adobe Experience Platform.
 >* „XDM-Feldanzeigename“ gibt den Anzeigenamen in Customer Journey Analytics an.
 
@@ -94,4 +94,3 @@ ht-degree: 0%
 >* [Übersicht](overview.md)
 >* [Voraussetzungen](prerequisites.md)
 >* [Adobe Advertising-IDs verwendet von [!DNL Customer Journey Analytics]](ids.md)
->* [Einrichten von Datenerfassung, Datenübertragung und Reporting](set-up.md)
