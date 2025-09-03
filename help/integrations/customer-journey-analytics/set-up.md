@@ -2,14 +2,16 @@
 title: Einrichten von Datenerfassung, Datenübertragung und Reporting
 description: Erfahren Sie, wie Sie die Datenerfassung, Datenübertragung und Berichterstellung einrichten.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: cbfdc1ca3334debe984c1a86249cc65d3567ff5b
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # Einrichten von Datenerfassung, Datenübertragung und Reporting
+
+*Beta-Funktion*
 
 Die folgenden Aufgaben sind erforderlich, um Advertising Cloud-Daten in Customer Journey Analytics anzuzeigen.
 
@@ -36,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [Adobe Advertising-IDs verwendet von [!DNL Customer Journey Analytics]](ids.md)
 >* [Adobe Advertising-Metriken und -Dimensionen in Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Erfassen historischer Daten für AMO-IDs und EF-IDs zur Verwendung in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* [Handbuch zu Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Benutzerhandbuch für Adobe Analytics-Benutzer](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Handbuch zu Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Benutzerhandbuch für Adobe Analytics-Benutzer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
