@@ -3,7 +3,7 @@ title: Erlebnisvorschau
 description: Erfahren Sie, wie Sie eine Vorschau der Kreativen in einem Werbeerlebnis anzeigen.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
    * Für die algorithmische Anzeigenrotation wird der Kreative basierend auf dem Optimierungsziel ausgewählt.
 
-   * Bei einer gewichteten Anzeigenrotation wird das Kreativ jedes Mal anhand der angegebenen Gewichtung ausgewählt (z. B. eine 80%ige Chance, dass Creative A angezeigt wird, und eine 20%ige Chance, dass Creative B angezeigt wird).
+   * Für die geplante Anzeigenrotation wird der erste Kreative im Zeitplan angezeigt. Sie können die Vorschau weiter aktualisieren, um die Sequenz zu durchlaufen.
 
-   * Für die geplante Anzeigenrotation wird der erste Kreative im Zeitplan angezeigt. Sie können die Vorschau weiter aktualisieren, um die Sequenz zu durchlaufen.<!-- Refresh isn't there as of 2/3 -->
+   * Bei einer gewichteten Anzeigenrotation wird das Kreativ jedes Mal anhand der angegebenen Gewichtung ausgewählt (z. B. eine 80%ige Chance, dass Creative A angezeigt wird, und eine 20%ige Chance, dass Creative B angezeigt wird).
 
 ## Kreative in einem Erlebnis in der Vorschau anzeigen mit Targeting in einem Entscheidungsbaum
 
