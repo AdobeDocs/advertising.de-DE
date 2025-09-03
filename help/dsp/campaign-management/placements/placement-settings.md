@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 * Um eine vorhandene Audience auszuwählen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann die Audience aus.
 * Um eine Audience zu erstellen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann **[!UICONTROL + Create Audience]** aus. Anweisungen finden Sie unter [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
 * Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[ einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+
+>[!NOTE]
+>
+>Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
 **[!UICONTROL Excluded Audiences]:** Alle Zielgruppen, die für die Platzierung ausgeschlossen werden sollen, einschließlich Zielgruppen mit [Drittanbietersegmenten, Erstanbietersegmenten, Adobe-Segmenten, benutzerdefinierten Segmenten und gespeicherten Zielgruppen](/help/dsp/audiences/audience-settings.md). Außerdem wird die gesamte und aktive deduplizierte Zielgruppengröße für alle ausgeschlossenen Zielgruppen angezeigt. Sie können eine vorhandene Zielgruppe auswählen oder eine neue Zielgruppe erstellen, die Sie später wiederverwenden können:
 

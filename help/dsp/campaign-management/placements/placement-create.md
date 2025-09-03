@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ ht-degree: 0%
 
       1. Einschränken Sie die Audience. Dazu gehört auch die Auswahl von Zielgruppensegmenten, die in der Platzierung angesprochen werden sollen.
 
-         Für [!DNL Roku] Platzierungen können Sie den eindeutigen Zielgruppenabgleich von [DSP mit nutzen [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) indem Sie ein oder mehrere Zielgruppensegmente einschließen, die mit dem deterministischen [!DNL Roku]-Datensatz (Opt-in) abgeglichen werden können.
+         Für [!DNL Roku] Platzierungen können Sie den eindeutigen Zielgruppenabgleich von [DSP mit nutzen [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) indem Sie ein oder mehrere Zielgruppensegmente einbeziehen, die mit dem deterministischen [!DNL Roku]-Datensatz (Opt-in) abgeglichen werden können.
+
+         Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
       1. (Für Kampagnen mit geräteübergreifendem Targeting auf Benutzerebene; optional) Wenn die Platzierung auf eine oder mehrere bestimmte Zielgruppen abzielt, aktivieren Sie für die Platzierung geräteübergreifendes Targeting für Personen.
 
@@ -64,7 +66,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Pixel-Drittanbieter sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Placed], [!DNL Oracle], [!DNL Polk] und [!DNL Research Now].
+      >([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Pixel-Drittanbieter sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now].
 
 1. Klicken Sie auf **[!UICONTROL Create Placement]**.
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/346219?captions=ger)
+>* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/340454)

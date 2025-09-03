@@ -3,9 +3,9 @@ title: Bearbeiten einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe bearbeiten.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Bearbeiten einer wiederverwendbaren Zielgruppe
 
 Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederverwendbaren Zielgruppen verwendet wird, werden die Änderungen sofort auf diese Platzierungen und Zielgruppen angewendet.<!-- verify -->
+
+>[!NOTE]
+>
+>(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 

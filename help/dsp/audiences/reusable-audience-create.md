@@ -3,9 +3,9 @@ title: Erstellen einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmenten und sogar andere gespeicherte Zielgruppen, speichern und verwalten. Diese können Sie als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
+
+>[!NOTE]
+>
+>(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 

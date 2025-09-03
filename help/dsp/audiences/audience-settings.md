@@ -3,9 +3,9 @@ title: Zielgruppeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Zielgruppeneinstellungen.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 ## Drittanbietersegmente
 
-(Optional) Jedes Standardsegment, das über die Adobe Advertising-Taxonomie für Daten von Drittanbietern verfügbar ist, um es in die Zielgruppenkonfiguration aufzunehmen.
+(Optional) Jedes Standardsegment, das über die Adobe Advertising-Taxonomie für Drittanbieterdaten verfügbar ist, um es in die Zielgruppenkonfiguration aufzunehmen.
 
 ## First-Party-Segmente
 
 (Optional) Alle für das Konto importierten First-Party-Segmente und/oder benutzerdefinierten Segmente, die in die Zielgruppen-Konfiguration aufgenommen werden sollen.
+
+>[!NOTE]
+>
+>(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden jetzt pausiert. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
 ## Adobe-Segmente
 
