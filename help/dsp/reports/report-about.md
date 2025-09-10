@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder die Verwendung vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Benutzerdefinierte Berichte ermöglichen es Ihnen, den Inhalt und die Bereitstel
 
 * Wählen Sie aus vorkonfigurierten Berichtsvorlagen und passen Sie sie optional weiter an.
 
-Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder monatlich um 03:00 Uhr in der angegebenen Zeitzone gemäß den angegebenen Kriterien planen (z. B. alle 15 Tage oder am 1. eines jeden Monats). Nachdem ein Bericht generiert wurde, können Sie ihn von [!UICONTROL Reports] > [!UICONTROL Custom Reports] oder von verknüpften [Berichtszielen](/help/dsp/reports/report-destinations/report-destination-about.md) der folgenden Typen herunterladen:
+Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder monatlich um 03 :00 in der angegebenen Zeitzone gemäß den angegebenen Kriterien planen (z. B. alle 15 Tage oder am 1. eines jeden Monats). Nachdem ein Bericht generiert wurde, können Sie ihn von [!UICONTROL Reports] > [!UICONTROL Custom Reports] oder von verknüpften [Berichtszielen](/help/dsp/reports/report-destinations/report-destination-about.md) der folgenden Typen herunterladen:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -97,11 +97,13 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
      Einen Vergleich dieses Berichts mit Berichten, die von [!DNL Advanced Measurement Services] und Adobe Analytics erstellt wurden, finden Sie unter [Häufig gestellte Fragen zu benutzerdefinierten Berichten](/help/dsp/reports/faq-reports.md).
 
-   * **[!UICONTROL Path Length]:** Verwenden Sie diesen Bericht, um      Verfolgen Sie im Zeitverlauf die Anzahl der für Konversionen erforderlichen Benutzerinteraktionspunkte, um die optimale Anzeigenfrequenz auswählen zu können. Der Bericht zeigt die Anzahl der Konversionen nach Pfadlänge (Interaktionspunkte) an, z. B. wie viele Konversionen stattgefunden haben, nachdem Benutzende nur eine Anzeigeninteraktion, zwei Anzeigeninteraktionen usw. hatten. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Die Spalten im Bericht enthalten &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Name der Konversionsmetrik 1\>,“ &quot;% \&lt;Name der Konversionsmetrik 1\>,“ \&lt;Name der Konversionsmetrik 2\>,“ &quot;% \&lt;Name der Konversionsmetrik 2\>&quot; usw.
+   * **[!UICONTROL Path Length]:** Verwenden Sie diesen Bericht, um die Anzahl der für Konversionen erforderlichen Benutzerinteraktionspunkte im Zeitverlauf zu verfolgen, sodass Sie die optimale Anzeigenfrequenz auswählen können. Der Bericht zeigt die Anzahl der Konversionen nach Pfadlänge (Interaktionspunkte) an, z. B. wie viele Konversionen stattgefunden haben, nachdem Benutzende nur eine Anzeigeninteraktion, zwei Anzeigeninteraktionen usw. hatten. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Die Spalten im Bericht enthalten &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Name der Konversionsmetrik 1\>,“ &quot;% \&lt;Name der Konversionsmetrik 1\>,“ \&lt;Name der Konversionsmetrik 2\>,“ &quot;% \&lt;Name der Konversionsmetrik 2\>&quot; usw.
 
      Es werden Daten für jede Pfadlänge von bis zu 10 angezeigt. Daten für Pfadlängen von mehr als 10 werden gruppiert.
 
    * **[!UICONTROL Time to Conversion]:** Verwenden Sie diesen Bericht, um das optimale Attribution-Lookback-Fenster zu bestimmen und Kampagnen mit längeren Konversionszeiten zu identifizieren, die vom Retargeting profitieren können. Der Bericht zeigt die Anzahl der Konversionen nach der Zeitdauer in Tagen von der letzten Interaktion (Anzeigenbelichtung oder Klick) bis zur Konversion an. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Die Spalten im Bericht enthalten &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Name der Konversionsmetrik 1\>,“ &quot;% \&lt;Name der Konversionsmetrik 1\>,“ \&lt;Name der Konversionsmetrik 2\>,“ &quot;% \&lt;Name der Konversionsmetrik 2\>&quot; usw. Konversionen, die länger als der Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-tägigen Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot; „30+&quot; gruppiert).
+
+   * **[!UICONTROL Content BETA]:** Verwenden Sie diesen Bericht, um die Bereitstellung von Impressionen und andere Metriken anhand bestimmter Inhaltsdimensionen (wie Genre, Produktionsqualität und Inhaltsbewertung) zu verstehen, sodass Sie die Zielgruppenbestimmung optimieren und die Markensicherheit gewährleisten können. Zusätzlich zu den Inhaltsdimensionen enthält der Bericht die meisten Standarddimensionen, Metriken und Filter. Daten nach Inhaltsdimension sind für [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] und [!DNL Triplelift] verfügbar. Inhaltssignale werden von Publishern während des Bid-Streams weitergeleitet und unterliegen der Verfügbarkeit.
 
 ## Kontoübergreifende Berichterstattung {#cross-account-reporting}
 
