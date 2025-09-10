@@ -1,13 +1,11 @@
 ---
-source-git-commit: 4428fb626de79a98d6a37c36057a0d468ce23166
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
-# Adobe Advertising AMO-IDs
-
-### AMO-ID-Formate {#amo-id-formats}
+# AMO-ID-Formate {#amo-id-formats}
 
 #### AMO-ID-Format für [!DNL DSP]
 
@@ -106,13 +104,13 @@ Dabei gilt:
 >[!NOTE]
 >
 > Für Konten mit Kampagnen ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, aktualisieren Sie manuell jedes Landingpage-Suffix, um das obige Format aufzunehmen.
-> &#x200B;>In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
+> >In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
 >* Suchkampagnen:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Einkaufskampagnen (mit [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Audience Network-Kampagnen:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 

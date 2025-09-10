@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Anzeigenvariation:** Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten mit Adobe Analytics teilen kann. Es beginnt mit `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Begriff aus den Bereichen Suche, Social und Commerce für eine Einheit, für die Gebote abgegeben werden.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **Conversion-Tracking:** Conversion-Tracking verwendet Cookies, um a) Klicks auf Anzeigen eines Werbetreibenden in den Werbenetzwerken und b) die resultierenden Transaktionen auf der Website des Werbetreibenden zu verfolgen.
 
-**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio dividiert durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die für die Optimierung verwendet werden, und [[!UICONTROL Model Accuracy]Insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
+**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio dividiert durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
 
 **Kostenmodell:** (Werbetreibende mit Portfolios) Suche, Social und Commerce-Technologie, die das Kostenvolumen, das Angebot, das zum Gewinnen jeder Position oder Platzierung erforderlich ist, und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit vorhersagt, unter Verwendung historischer Daten und mathematischer Prognosetechniken.
 
@@ -141,7 +141,7 @@ Dies hat denselben Wert wie die alte Spalte „Gewichteter Umsatz“.
 
 **verwaiste Transaktion:** Ein Transaktionsereignis, das nicht mit einem bestimmten Keyword oder einer bestimmten Anzeige verknüpft werden kann.
 
-**Pixel:** Ein transparentes Bild, das Pixel für Pixel zu Tracking-Zwecken auf einer Web-Seite eingebettet wird. Adobe Advertising-Konversionsverfolgungstags umfassen entweder ein HTML-Bildpixel oder JavaScript, um Klicks und ihre resultierenden Transaktionen zu verfolgen.
+**Pixel:** Ein transparentes Bild, das Pixel für Pixel zu Tracking-Zwecken auf einer Web-Seite eingebettet wird. Adobe Advertising-Konversionsverfolgungs-Tags enthalten entweder ein HTML-Bildpixel oder JavaScript, um Klicks und ihre resultierenden Transaktionen zu verfolgen.
 
 **placement:** Ein Ort in einem Display-Netzwerk, an dem Ihre Anzeigen angezeigt werden können. Dabei kann es sich um eine gesamte Website, eine Untergruppe einer Website oder eine Anzeigenposition auf einer bestimmten Seite handeln.
 
@@ -163,7 +163,7 @@ Dies hat denselben Wert wie die alte Spalte „Gewichteter Umsatz“.
 
 **ROI:** (ROI) Umsatz abzüglich Kosten.
 
-**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz für ein Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die für die Optimierung verwendet werden, und [[!UICONTROL Model Accuracy]Insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
+**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz für ein Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
 
 **Umsatzmodell:** (Advertiser mit Portfolios) Such-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Gebotseinheit vorhersagt, basierend auf den Klickdaten (Such- und Social-Media-Daten) oder Impressionsdaten (Anzeige) und den Konversionsdaten des Advertisers.
 
@@ -175,13 +175,13 @@ Dies hat denselben Wert wie die alte Spalte „Gewichteter Umsatz“.
 
 ## S-T {#s-t}
 
-**Simulation:** (Advertisers mit Portfolios)-Portfoliomodellierung, die die Anzahl der Klicks und Konversionen schätzt, die ein Portfolio für verschiedene Ausgabenebenen und entsprechende tägliche Budgets erwarten kann, unter Verwendung historischer Daten.
+**Simulation:** (Advertisers mit Portfolios) Portfolio-Modellierung, die die Anzahl der Klicks und Konversionen schätzt, die ein Portfolio für verschiedene Ausgabenebenen und entsprechende tägliche Budgets erwarten kann, unter Verwendung historischer Daten.
 
 **Ausgabenstrategie:** (Werbetreibende mit Portfolios) Die ausgewählte Strategie zur Optimierung von Keyword-/Anzeigengeboten für ein Portfolio.
 
 **`s_kwcid`:** Siehe „AMO-ID“.
 
-**Tracking-Vorlage:** (Nur Konten mit endgültigen URLs) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige/erweiterte URL in einen Parameter einbettet. Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
+**Tracking-Vorlage:** (Nur Konten mit endgültigen URLs) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige/erweiterte URL in einen Parameter einbettet. Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode voran.
 
 **Tracking-URL** Eine Tracking-Vorlage oder eine Ziel-URL mit zusätzlichen Parametern wurde hinzugefügt, um Informationen über Klicks auf die Anzeige zu verfolgen. Sie kann eine Umleitungs-URL enthalten, um Benutzende zunächst an einen Tracking-Server zu senden, bevor sie zur Landingpage des Werbetreibenden umgeleitet werden.
 
