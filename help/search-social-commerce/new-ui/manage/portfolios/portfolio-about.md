@@ -3,9 +3,10 @@ title: (Neue Benutzeroberfläche) Über Portfolios
 description: Informationen zu Portfolios.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Sie können Ihre Anzeigenkampagnen mithilfe von Portfolios gemeinsam verwalten (
 
 Einige Benutzerrollen können Portfolios erstellen und konfigurieren. Je nach Portfoliotyp können die Portfolioeinstellungen das Portfolioziel, die zugewiesenen Kampagnen, die Ausgabenstrategie, alle Gebotsbeschränkungen auf Portfolioebene und die Modellierungs- und Optimierungsparameter umfassen. Wenn Sie für Suche, Social und Commerce bereit sind, mit der Optimierung für ein Portfolio zu beginnen, ändern Sie den Status in „Optimiert“.
 
-Optional können Sie Portfolios in Portfoliogruppen gruppieren, damit Sie zusammengesetzte Klick- und Umsatzdaten für die gesamte Gruppe anzeigen können. Erstellen Sie Portfoliogruppen über die [veraltete Benutzeroberfläche](/help/search-social-commerce/getting-started/ui-switch.md).
+Sie können Portfolios optional in [Portfoliogruppen](portfolio-group-manage.md) gruppieren, sodass zusammengesetzte Daten für die gesamte Gruppe angezeigt werden können.
 
 Je nach Ihrer Rolle können Sie möglicherweise Leistungssimulationen generieren, die prädiktive Modellierung verwenden, um Ihren optimalen Ausgabenpunkt und detaillierte Berichte zur Prognosegenauigkeit zu identifizieren.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -28,7 +29,7 @@ Kampagnen sind für die Optimierung auf der Grundlage der Kampagnen- oder Anzeig
 
 >[!NOTE]
 >
->„Smartes Bieten“ und „automatisiertes Bieten“ werden oft synonym verwendet, sind aber nicht dasselbe. Smart Bidding bezieht sich nur auf [!DNL Google Ads] und [!DNL Microsoft Advertising] automatisierte Gebotsstrategien, die Auktionszeitgebote verwenden, was bedeutet, dass das Werbenetzwerk zum Zeitpunkt jeder Auktion für Konversionen oder Konversionswerte optimiert.
+>„Intelligente Gebote“ und „automatisierte Gebote“ werden oft synonym verwendet, sind aber nicht dasselbe. Smart Bidding bezieht sich nur auf [!DNL Google Ads] und [!DNL Microsoft Advertising] automatisierte Gebotsstrategien, die Auktionszeitgebote verwenden, was bedeutet, dass das Werbenetzwerk zum Zeitpunkt jeder Auktion für Konversionen oder Konversionswerte optimiert.
 
 <!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
 
