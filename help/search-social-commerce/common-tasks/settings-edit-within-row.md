@@ -3,9 +3,9 @@ title: Bearbeiten von Einstellungen direkt in einer Zeile
 description: Erfahren Sie, wie Sie Daten in Verwaltungsansichten innerhalb der Zeile bearbeiten.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
+source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## (Neue Benutzeroberfläche) Bearbeiten von Einstellungen in einer Zeile
 
-1. Klicken Sie in die Zelle, um sie zu aktivieren, oder halten Sie den Cursor über dem Wert.
+1. Halten Sie den Cursor über der Zeile und wählen Sie den Wert aus. Je nach Spalte müssen Sie möglicherweise auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") oder **[!UICONTROL ...]** > ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") neben dem Wert klicken. Um einen Entitätsnamen umzubenennen, klicken Sie auf den Namen und wählen Sie **[!UICONTROL Rename]** aus.
 
 1. Ändern Sie den Wert:
 
    * (Optionen in einer Liste) Wählen Sie eine neue Option aus der Liste aus.
 
-   * (Freiformwerte) Klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") ändern Sie den Wert und klicken Sie dann auf **Anwenden**.
+   * (Freiformwerte) Ändern Sie die Werte und klicken Sie dann auf **Anwenden**.
 
 
 ## (Alte Benutzeroberfläche) Bearbeiten von Einstellungen innerhalb einer Zeile
