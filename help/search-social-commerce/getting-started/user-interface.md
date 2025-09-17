@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
+source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -38,15 +38,13 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
 * **[!UICONTROL Manage]** Untermenü:
 
-<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
+   * **[!UICONTROL Portfolios]:** Öffnet eine neue [!UICONTROL Portfolios], in der alle Portfolios für den Advertiser aufgelistet sind. Über diese Ansicht können Sie Ihre Portfolios verwalten. Sie können eine Liste der zugewiesenen Einschränkungen öffnen und Leistungs- und Kompositionsdetails für jedes Portfolio anzeigen.
 
-* **[!UICONTROL Portfolios]:** Öffnet eine neue [!UICONTROL Portfolios], in der alle Portfolios für den Advertiser aufgelistet sind. Über diese Ansicht können Sie Ihre Portfolios verwalten. Sie können eine Liste der zugewiesenen Einschränkungen öffnen und Leistungs- und Kompositionsdetails für jedes Portfolio anzeigen.
+     Die Portfolioeinstellungen umfassen Registerkarten zum Zuweisen der Ziele und Kampagnen, Verwalten von Ausgaben, Verwalten von Einschränkungen und Steuern der Optimierung. Nur Benutzer mit der Rolle „Expertenoptimierung“ oder höher können die Einstellungen auf der Registerkarte &quot;[!UICONTROL Control Optimization]&quot; bearbeiten.
 
-  Die Portfolioeinstellungen umfassen Registerkarten zum Zuweisen der Ziele und Kampagnen, Verwalten von Ausgaben, Verwalten von Einschränkungen und Steuern der Optimierung. Nur Benutzer mit der Rolle „Expertenoptimierung“ oder höher können die Einstellungen auf der Registerkarte &quot;[!UICONTROL Control Optimization]&quot; bearbeiten.
+   * **[!UICONTROL Campaigns]:** Öffnet eine neue [!UICONTROL Campaigns], die alle Kampagnen für den Werbetreibenden anzeigt. Sie können Kampagnen Portfolios zuweisen und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-* **[!UICONTROL Campaigns]:** Öffnet eine neue [!UICONTROL Campaigns], die alle Kampagnen für den Werbetreibenden anzeigt. Sie können Kampagnen Portfolios zuweisen und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
-
-  Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** Öffnet eine neue [!UICONTROL Ad Groups], die alle Anzeigengruppen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen.
 
