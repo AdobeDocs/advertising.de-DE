@@ -3,7 +3,7 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * So fügen Sie vorhandene Anzeigen in der Kampagne hinzu:
 
-      1. Klicken Sie auf **[!UICONTROL Select an Ad]**.
-
-      1. Führen Sie einen der folgenden Schritte aus:
-
-         * So fügen Sie jeweils eine Anzeige hinzu:
-
-            1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select].**
-
-            1. (Optional) Klicken Sie für jede weitere Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Vorgang.
-
-         * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
-
-            1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
-
-            1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
-
-            1. Klicken Sie auf **[!UICONTROL Attach]**.
-
-            1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select]**.
-
-      1. (Optional) So überschreiben Sie den standardmäßigen Flugzeitraum und die Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
-
-         1. Klicken Sie auf **[!UICONTROL Custom Schedule Ads]**.
+         1. Klicken Sie auf **[!UICONTROL Select an Ad]**.
 
          1. Führen Sie einen der folgenden Schritte aus:
 
-            * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
+            * So fügen Sie jeweils eine Anzeige hinzu:
 
-            * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL +]**.
+               1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select].**
 
-            * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL x]**.
+               1. (Optional) Klicken Sie für jede weitere Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Vorgang.
 
-            * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie in den Fluginformationen auf **[!UICONTROL Even Rotation]** und geben Sie dann das relative Gewicht, um das jede Anzeige gedreht werden soll, als Prozentsatz ein.
+            * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
 
-              Die Gesamtgewichte müssen 100 betragen.
+               1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
 
-         1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
+               1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
 
-         1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
+               1. Klicken Sie auf **[!UICONTROL Attach]**.
+
+               1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select]**.
+
+         1. (Optional) So überschreiben Sie den standardmäßigen Flugzeitraum und die Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
+
+            1. Klicken Sie auf **[!UICONTROL Custom Schedule Ads]**.
+
+            1. Führen Sie einen der folgenden Schritte aus:
+
+               * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
+
+               * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL +]**.
+
+               * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL x]**.
+
+               * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie in den Fluginformationen auf **[!UICONTROL Even Rotation]** und geben Sie dann das relative Gewicht, um das jede Anzeige gedreht werden soll, als Prozentsatz ein.
+
+                 Die Gesamtgewichte müssen 100 betragen.
+
+            1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
+
+            1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Angebotsmultiplikatoren für Platzierungen verwalten](placement-manage-bid-multipliers.md)
 >* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](placement-edit-ad-schedule.md)
->* [Platzierung anhalten oder aktivieren](placement-pause-activate.md)
+>* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
 >* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/346219?captions=ger)
+>* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/340454)

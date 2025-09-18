@@ -3,9 +3,9 @@ title: Native Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für native Display-Anzeigen.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (Optional) Der Schritt, den Betrachterinnen und Betrachter ausführen sollen, sobald sie diese Anzeige sehen.
 
-**[!UICONTROL Advertiser Logo]:** (Optional) Ein Logo im Verhältnis 1:1, das in der Anzeige enthalten sein soll, um die Markenbekanntheit zu steigern. Klicken Sie auf **[!UICONTROL Browse]**, suchen Sie die Datei auf Ihrem Gerät oder Netzwerk, und klicken Sie dann auf **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (Optional) Ein 1:1-Logo, das in der Anzeige enthalten sein muss, um die Markenbekanntheit zu steigern. Klicken Sie auf **[!UICONTROL Browse]**, suchen Sie die Datei auf Ihrem Gerät oder Netzwerk, und klicken Sie dann auf **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Alle vorhandenen Pixel der Ereignisverfolgung für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und bei Bedarf neue Pixel erstellen, basierend auf Ihren Tracking-Anforderungen für die einzelne Anzeige. **Tipp** Informationen zum gleichzeitigen Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung mithilfe der [!UICONTROL Ad Tools] finden Sie unter &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Alle vorhandenen Pixel der Ereignisverfolgung für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und bei Bedarf neue Pixel erstellen, basierend auf Ihren Tracking-Anforderungen für die einzelne Anzeige. **Tipp** Informationen zum gleichzeitigen Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung mithilfe der [!UICONTROL Ad Tools] finden Sie unter &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
 

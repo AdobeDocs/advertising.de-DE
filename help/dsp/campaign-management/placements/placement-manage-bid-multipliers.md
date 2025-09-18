@@ -3,7 +3,7 @@ title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Sie können Werte entweder manuell bearbeiten oder eine Tabelle für eine einzel
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Placements]**.
 
-1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]**.
 
 1. Anpassen der Angebotsmultiplikatoren für geeignete Ziele:
 

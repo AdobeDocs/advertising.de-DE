@@ -3,7 +3,7 @@ title: Archivieren oder Aufheben der Archivierung einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung archivieren oder die Archivierung aufheben.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ Sie können die Archivierung einer Platzierung aufheben, um ihren vorherigen Sta
 
 >[!MORELIKETHIS]
 >
->* [Platzierung anhalten oder aktivieren](placement-pause-activate.md)
+>* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)

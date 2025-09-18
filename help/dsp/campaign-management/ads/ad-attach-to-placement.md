@@ -1,166 +1,113 @@
 ---
-title: Hinzufügen von Anzeigen zu Platzierungen
-description: Erfahren Sie, wie Sie Anzeigen an Platzierungen anhängen.
+title: Hinzufügen und Entfernen von Anzeigen aus Platzierungen
+description: Erfahren Sie, wie Sie Anzeigen an Platzierungen anhängen und Anzeigen aus Platzierungen entfernen können.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 86acfaecdf761adc7c6585a49dbcdf4490290a8c
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen von Anzeigen zu Platzierungen
+# Hinzufügen und Entfernen von Anzeigen aus Platzierungen
 
-Verwenden Sie die [!UICONTROL Ad Tools], um Anzeigen an Platzierungen anzuhängen, Tracking-Pixel von Drittanbietern an die Anzeigen anzuhängen und vorhandene Tracking-Pixel von Drittanbietern von den Anzeigen zu trennen.
+Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
 
 >[!NOTE]
 >
 >Universelle Videoanzeigen können nur an Platzierungen für universelle Videos angehängt werden.
 
-## [!UICONTROL Ad Tools] öffnen {#ad-tools-open}
+## Hinzufügen von Anzeigen zu Platzierungen über die [!UICONTROL Placements] {#attach-ads-placement}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf den Namen der Kampagne.
 
-1. Öffnen Sie die [!UICONTROL Ad Tools] auf eine der folgenden Arten:
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Placements]** .
 
-   * (In der [!UICONTROL Packages]-, [!UICONTROL Placements]- oder [!UICONTROL Ads] Ansicht) Klicken Sie oben rechts auf **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+1. Führen Sie einen der folgenden Schritte aus:
 
-   * (In der [!UICONTROL Placements] Ansicht) Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Für eine einzelne Platzierung) Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Attach Ads]**.
 
-   * (In der [!UICONTROL Ads] Ansicht) Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Um dieselben Anzeigen an mehrere Platzierungen anzuhängen) Aktivieren Sie das Kontrollkästchen für jeden Platzierungsnamen. Klicken Sie im Menü Massenaktionen auf **[!UICONTROL Attach Ads]**.
 
-   Die Registerkarte [!UICONTROL Attach Ads] ist standardmäßig ausgewählt.
+1. Aktivieren Sie das Kontrollkästchen neben jeder anzuhängenden Anzeige
 
-## Hinzufügen von Anzeigen zu Platzierungen {#attach-ads-campaign}
+1. Klicken Sie auf **[!UICONTROL Attach Selected Ads]**.
 
-1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
+## Hinzufügen von Anzeigen zu Platzierungen über die [!UICONTROL Ads] {#attach-ads}
 
-1. Gehen Sie in der [!UICONTROL Edit]-Unteransicht für jede Gruppe von Anzeigen, die Sie Platzierungen anhängen möchten, wie folgt vor:
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-   1. (Optional) Suchen Sie bestimmte Platzierungen und Anzeigen auf eine der folgenden Arten:
+1. Klicken Sie auf den Namen der Kampagne.
 
-      * Klicken Sie über der linken Tabelle auf ![Filtern](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Paket, Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Ads]** .
 
-      * Suchen Sie über der rechten und der linken Tabelle nach bestimmten Textzeichenfolgen in den Platzierungs- und Anzeigenamen.
+1. Klicken Sie neben der Anzeige auf **[!UICONTROL ...]** > **[!UICONTROL Add to placements]**.
 
-   1. Aktivieren Sie in der linken Tabelle das Kontrollkästchen neben jeder Platzierung, an die die Anzeigen angehängt werden sollen.
+1. Führen Sie einen der folgenden Schritte aus:
 
-   1. Aktivieren Sie in der rechten Tabelle das Kontrollkästchen neben jeder Anzeige, die Sie an die ausgewählten Platzierungen anhängen möchten.
+   * So erstellen Sie eine neue Platzierung und fügen die Anzeige hinzu:
 
-      Es können nur Anzeigen ausgewählt werden, die für den Platzierungstyp gelten und noch nicht an die ausgewählten Platzierungen angehängt sind.
+      1. Klicken Sie auf **[!UICONTROL Create a New Placement]**.
 
-   1. Klicken Sie unten rechts auf **[!UICONTROL Attach]**.
+      1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
 
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
+         Der Platzierungstyp wird durch den Anzeigentyp bestimmt.
 
-## Anzeigen anzeigen, die Platzierungen angehängt sind {#view-ads-campaign}
+      1. Klicken Sie auf **[!UICONTROL Attach ad]**.
 
-<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
+      1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeige, die der Platzierung angehängt werden soll.
 
-1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
+      1. Klicken Sie auf **[!UICONTROL Attach Selected Ads]**.
 
-1. Wechseln Sie zur Option **[!UICONTROL View]** oben rechts.
+   * So fügen Sie die Anzeige einer vorhandenen Platzierung hinzu:
 
-1. (Optional) Suchen Sie nach Bedarf bestimmte Platzierungen und Anzeigen:
+      1. Klicken Sie auf **[!UICONTROL Select a Placement].**
 
-   * Klicken Sie über der linken Tabelle auf ![Filtern](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Paket, Platzierungstyp, Platzierungsstatus, Anzeigentyp oder Anzeigenstatus.
+      1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
 
-   * Suchen Sie in der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in der Platzierung oder im Anzeigenamen.
+      1. (Optional) Klicken Sie für jede zusätzliche Platzierung auf **[!UICONTROL Attach To Another Placement]** und wiederholen Sie dann die vorherigen Schritte.
 
-1. Klicken Sie auf eine beliebige Platzierungszeile in der linken Tabelle, um die angehängten Anzeigen in der rechten Tabelle anzuzeigen.
+      1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
 
-1. (Optional) Um den Platzierungen der Kampagne weitere Anzeigen hinzuzufügen, wechseln Sie zur **[!UICONTROL Edit]** Ansicht oben rechts. Anweisungen finden Sie in Schritt 2 des vorherigen Verfahrens [Anhängen von Anzeigen an ](#attach-ads-campaign)&quot;.
+## Entfernen von Anzeigen aus Platzierungen aus der [!UICONTROL Placements] {#remove-ads-placement}
 
-## Anfügen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung {#attach-pixels-ads}
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
+1. Klicken Sie auf den Namen der Kampagne.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Placements]** .
 
-1. In der [!UICONTROL Edit] Unteransicht:
+1. Führen Sie einen der folgenden Schritte aus:
 
-   1. (Optional) Suchen Sie Anzeigen und Pixel von Drittanbietern auf eine der folgenden Arten:
+   * (Für eine einzelne Platzierung) Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Detach Ads]**.
 
-      * Klicken Sie über der linken Tabelle auf ![Filtern](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Anzeigenstatus, Anzeigentyp, Pixelintegrationsereignis oder Pixeltyp.
+   * (Um dieselben Anzeigen aus mehreren Platzierungen zu entfernen) Aktivieren Sie das Kontrollkästchen für jeden Platzierungsnamen. Klicken Sie im Menü Massenaktionen auf **[!UICONTROL Detach Ads]**.
 
-      * Suchen Sie über der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in den Anzeigenamen und Pixelnamen.
+1. Aktivieren Sie das Kontrollkästchen neben jeder zu entfernenden Anzeige.
 
-   1. (Wenn für die Kampagne keine Tracking-Pixel von Drittanbietern vorhanden sind) Erstellen Sie ein Pixel:
+1. Klicken Sie auf **[!UICONTROL Detach Selected Ads]**.
 
-      1. Klicken Sie in der rechten Tabelle auf **[!UICONTROL Create pixel]**.
+## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
 
-      1. Legen Sie die Einstellungen fest:
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-         **[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird, z. B. *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]*.
+1. Klicken Sie auf den Namen der Kampagne.
 
-         **[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Placements]** .
 
-         **[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für den angegebenen Pixeltyp.
+1. Halten Sie den Cursor über der Platzierungszeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
-         **[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Ads]** .
 
-         **[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
-
-      1. Klicken Sie auf **[!UICONTROL Save]**.
-
-   1. Aktivieren Sie in der linken Tabelle das Kontrollkästchen neben jeder Anzeige, für die Sie Tracking-Pixel von Drittanbietern anhängen möchten.
-
-   1. Aktivieren Sie in der rechten Tabelle das Kontrollkästchen neben jedem Tracking-Pixel eines Drittanbieters, das Sie an die ausgewählten Anzeigen anhängen möchten.
-
-      Es können nur Pixel ausgewählt werden, die noch nicht mit den ausgewählten Anzeigen verbunden sind.
-
-   1. Klicken Sie unten rechts auf **[!UICONTROL Attach]**.
-
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
-
-## Trennen von Tracking-Pixeln von Drittanbietern von Anzeigen in einer Platzierung {#detach-pixels-ads}
-
-1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
-
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
-
-1. In der [!UICONTROL Edit] Unteransicht:
-
-   1. (Optional) Suchen Sie Anzeigen und Pixel von Drittanbietern auf eine der folgenden Arten:
-
-      * Klicken Sie über der linken Tabelle auf ![Filtern](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Anzeigenstatus, Anzeigentyp, Pixelintegrationsereignis oder Pixeltyp.
-
-      * Suchen Sie über der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in den Anzeigenamen und Pixelnamen.
-
-   1. Aktivieren Sie in der linken Tabelle das Kontrollkästchen neben jeder Anzeige, von der Sie die Tracking-Pixel von Drittanbietern trennen möchten.
-
-   1. Aktivieren Sie in der rechten Tabelle das Kontrollkästchen neben jedem Tracking-Pixel eines Drittanbieters, das Sie von den ausgewählten Anzeigen trennen möchten.
-
-      Es können nur Pixel ausgewählt werden, die mit allen ausgewählten Anzeigen verbunden sind.
-
-   1. Klicken Sie unten rechts auf **[!UICONTROL Detach]**.
-
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
-
-## An Anzeigen angehängte Pixel anzeigen {#view-pixels-ads}
-
-1. [Öffnen Sie die [!UICONTROL Ad Tools] Ansicht](#ad-tools-open).
-
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Attach Pixels]** .
-
-1. Wechseln Sie zur Option **[!UICONTROL View]** oben rechts.
-
-1. (Optional) Suchen Sie nach Bedarf Anzeigen und Pixel von Drittanbietern:
-
-   * Klicken Sie über der linken Tabelle auf ![Filtern](/help/dsp/assets/filter.png) und filtern Sie die Listen nach Anzeigenstatus, Anzeigentyp, Pixelintegrationsereignis oder Pixeltyp.
-
-   * Suchen Sie über der rechten und linken Tabelle nach bestimmten Textzeichenfolgen in den Anzeigenamen und Pixelnamen.
-
-1. Klicken Sie auf eine beliebige Anzeigenzeile in der linken Tabelle, um die angehängten Pixel in der rechten Tabelle anzuzeigen.
-
-1. (Optional) Um mehr Pixel an die Anzeigen anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens [Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer ](#attach-pixels-ads)&quot;.
+1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
 >[!MORELIKETHIS]
 >
 >* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Pixel an Anzeigen anhängen und daraus entfernen](ad-pixel-attach-detach.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen Sie mehrere Anzeigen von Drittanbietern](ad-create-multiple.md)
 >* [Bearbeiten einer Anzeige](ad-edit.md)

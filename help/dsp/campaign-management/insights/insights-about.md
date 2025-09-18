@@ -3,9 +3,9 @@ title: Über Insights
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Die Registerkarte [!UICONTROL Household Conversion] enthält Haushaltskonversion
 * (Um Insights für alle Kampagnen zu öffnen) Klicken Sie im Hauptmenü auf **[!UICONTROL Insights BETA]**.
 
 * (Um Einblicke für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung zu öffnen) Klicken Sie neben dem Entitätsnamen in der [!UICONTROL Campaigns]-, [!UICONTROL Packages]- oder [!UICONTROL Placements] auf **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+* (Um Insights für eine bestimmte Platzierung zu öffnen) Klicken Sie neben dem Entitätsnamen in der [!UICONTROL Campaigns]-, [!UICONTROL Packages]- oder [!UICONTROL Placements] auf **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
 
 ## Anwenden von Filtern auf eine Registerkarte
 

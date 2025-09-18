@@ -3,9 +3,9 @@ title: Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine P
 description: Erfahren Sie, wie Sie die Zielseiten, Anzeigen, Häufigkeit und Inventardaten für eine Platzierung anzeigen.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 * **[!UICONTROL Ads]:** Alle Anzeigen in der Platzierung.
 
-  Die Registerkarte [!UICONTROL Ads] enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, z. B. [!UICONTROL Pause] (sodass Sie eine Anzeige schnell anhalten können).
+  Die Registerkarte [!UICONTROL Ads] enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, z. B. [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** Daten für jede Anzeigenhäufigkeitsstufe für die Platzierung, einschließlich:
    * Die Anzeigenhäufigkeit (z. B. „1“ für alle Instanzen, in denen Benutzende eine Anzeige einmal gesehen haben)
@@ -36,7 +36,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
   Die Registerkarte [!UICONTROL Inventory] ermöglicht eine schnelle Fehlerbehebung durch die Anzeige von Leistungsstatistiken wie [!UICONTROL Auctions], [!UICONTROL Bids] und [!UICONTROL Win Rate]. Die Registerkarte enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, einschließlich [!UICONTROL Edit], [!UICONTROL View Report] und [[!UICONTROL Auction Insights] für weitere Fehlerbehebungen](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## [!UICONTROL Placement Inspector] öffnen
+## [!UICONTROL Placement Inspector] öffnen {#inspector-open}
 
 1. Öffnen Sie die Ansicht Platzierungen für die übergeordnete Kampagne oder das übergeordnete Paket:
 
@@ -58,21 +58,21 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
       1. Klicken Sie auf den Namen des übergeordneten Pakets.
 
-1. Halten Sie den Cursor über der Platzierungszeile, klicken Sie auf **[!UICONTROL More]** und klicken Sie dann auf eine Option:
-
-   * Um alle Websites anzuzeigen, die Ziel der Platzierung sind, klicken Sie auf **[!UICONTROL Sites]**.
-
-   * Um alle Anzeigen in der Platzierung anzuzeigen, klicken Sie auf **[!UICONTROL Ads]**.
-
-   * Um Häufigkeitsdaten für die Platzierung anzuzeigen, klicken Sie auf **[!UICONTROL Frequency]**.
-
-   * Um alle Angebote anzuzeigen, auf die sich die Platzierung bezieht, klicken Sie auf **[!UICONTROL Inventory]**.
+1. Halten Sie den Cursor über der Platzierungszeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
 1. (Optional) [Ändern Sie die Spaltenansicht](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
 1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![ oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
 
    Die Daten werden im Standard-Download-Ordner Ihres Browsers als Bericht im XLSM-Format gespeichert.
+
+## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+
+1. [Öffnen Sie die [!UICONTROL Placement Inspector]](#inspector-open).
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Ads]** .
+
+1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
 ## Fehlerbehebung bei Inventar
 
@@ -90,5 +90,5 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
 >* [Campaign-Datenansichten verwalten](campaign-data-views-manage.md)
