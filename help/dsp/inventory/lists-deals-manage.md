@@ -1,26 +1,21 @@
 ---
 title: Verwalten von Deal-Listen
 description: Erfahren Sie, wie Sie Angebotslisten für das Platzierungs-Targeting erstellen und verwalten.
-feature: DSP Private Inventory, DSP Deal IDs, DSP Placements
-source-git-commit: 60c808fe1b78443a55d900a1a424442bd388e872
+feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
+exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
+source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Deal-Listen
 
-<!-- Will later add fct for On-Demand deals, too, so keep title generic. Later add "DSP On Demand Inventory to feature metadata -->
+Sie können Listen mit privaten Angeboten und [!DNL On Demand] Angeboten für das Platzierungs-Targeting erstellen und verwalten. Targeting oder Ausschließen spezifischer privater Angebotslisten in den Platzierungseinstellungen.
 
-Sie können Listen mit privaten Angeboten für das Platzierungs-Targeting erstellen und verwalten. Targeting oder Ausschließen spezifischer privater Angebotslisten in den Platzierungseinstellungen.
-
-In benutzerdefinierten Berichten können Sie a) Daten nach Angebotslisten filtern und b) die [!UICONTROL Feed] Dimension &quot;[!UICONTROL Deal list]&quot; in den Abschnitt &quot;[!UICONTROL Build Your Report]&quot; einbeziehen.
-
-<!--
-What's New:  
-
-In custom reports, you can now a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section.
+<!-- Later:
+In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
 ## Angebotsliste anzeigen
@@ -35,9 +30,15 @@ In custom reports, you can now a) filter data by deal lists and deals and b) inc
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create].**
 
+1. Geben Sie die **[!UICONTROL List name]** ein und wählen Sie die **[!UICONTROL Inventory Type]** aus (*[!UICONTROL Private]* oder *[!UICONTROL On Demand]*).
+
 1. Klicken Sie auf **[!UICONTROL Add Deals].**
 
-1. (Option) Filtern Sie die Liste nach Publisher, SSP oder Abschlusstyp (*[!UICONTROL Guaranteed]* oder *[!UICONTROL Non-Guaranteed]*) oder suchen Sie nach dem Angebotsnamen oder der Angebots-ID.
+1. (Optional) Filtern oder Suchen nach Angeboten:
+
+   * Bei privaten Angeboten filtern Sie die Liste nach Herausgeber, SSP oder Abschlusstyp (*[!UICONTROL Guaranteed]* oder *[!UICONTROL Non-Guaranteed]*) oder suchen Sie die Liste nach Angebotsname oder Angebots-ID.
+
+   * Für [!UICONTROL On Demand] Angebote filtern Sie die Liste nach Herausgeber, Region oder Medientyp oder suchen Sie nach dem Angebotsnamen.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das in die Liste aufgenommen werden soll.
 
