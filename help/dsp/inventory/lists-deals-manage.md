@@ -3,9 +3,9 @@ title: Verwalten von Deal-Listen
 description: Erfahren Sie, wie Sie Angebotslisten für das Platzierungs-Targeting erstellen und verwalten.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Bei privaten Angeboten filtern Sie die Liste nach Herausgeber, SSP oder Abschlusstyp (*[!UICONTROL Guaranteed]* oder *[!UICONTROL Non-Guaranteed]*) oder suchen Sie die Liste nach Angebotsname oder Angebots-ID.
 
-   * Für [!UICONTROL On Demand] Angebote filtern Sie die Liste nach Herausgeber, Region oder Medientyp oder suchen Sie nach dem Angebotsnamen.
+   * Für [!UICONTROL On Demand] Angebote filtern Sie die Liste nach Herausgeber, Region oder Medientyp oder suchen Sie nach dem Angebotsnamen. Die Liste enthält nur die [!DNL On Demand] Angebote, die Sie abonniert haben.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das in die Liste aufgenommen werden soll.
 
