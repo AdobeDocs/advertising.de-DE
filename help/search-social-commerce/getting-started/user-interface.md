@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Recommendations]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
 
-* **[!UICONTROL Alerts & Notifications]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+   * **[!UICONTROL Alerts & Notifications]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
 * **[!UICONTROL Goals]** Untermenü:
 
