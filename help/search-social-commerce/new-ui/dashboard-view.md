@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die in Ihrem Leistungs-Dashboard verfügbar
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Mit der anpassbaren [!UICONTROL Dashboard] können Sie die Leistung aller Ihrer Portfolios überwachen, <!-- May later include other entity-level data --> potenzielle Leistungsprobleme zu identifizieren, die untersucht und behoben werden müssen. Sie können tägliche, wöchentliche oder monatliche Daten für einen beliebigen Zeitraum in den letzten 90 Tagen anzeigen.
+Mit dem anpassbaren [!UICONTROL Dashboard] [!UICONTROL Overview] > können Sie die Leistung aller Ihrer Portfolios überwachen <!-- May later include other entity-level data --> potenzielle Leistungsprobleme identifizieren, die untersucht und behoben werden müssen. Sie können tägliche, wöchentliche oder monatliche Daten für einen beliebigen Zeitraum in den letzten 90 Tagen anzeigen.
 
 Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 
