@@ -116,13 +116,13 @@ Dabei gilt:
 >[!NOTE]
 >
 > Für Konten mit Kampagnen ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, aktualisieren Sie manuell jedes Landingpage-Suffix, um das obige Format aufzunehmen.
-> >In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
+> &#x200B;>In der Zwischenzeit funktionieren die Legacy-Formate wie folgt weiter:
 >* Suchkampagnen:
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Einkaufskampagnen (mit [!DNL Microsoft Merchant Center]):
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Audience Network-Kampagnen:
->  >  `s_kwcid=AL!{userid}!10!{AdId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
