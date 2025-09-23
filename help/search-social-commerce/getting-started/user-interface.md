@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ Jede Seite enthält das Hauptmenü sowie weitere aufgabenbasierte und informatio
 
 ## Das Hauptmenü
 
-Die neue Benutzeroberfläche verfügt über ein neues Hauptmenü auf der linken Seite, das Aufgaben nach Arbeitsphase organisiert (Planen, Verwalten, Überprüfen, Einrichten). Weitere Untermenüs und Optionen aus der veralteten Benutzeroberfläche werden später hinzugefügt.
+Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Hauptmenü, in dem die Aufgaben nach Arbeitsphase organisiert werden. Weitere Untermenüs und Optionen aus der veralteten Benutzeroberfläche werden später hinzugefügt.
 
 ### Optionen im Hauptmenü
 
 Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** Öffnet eine konfigurierbare [!UICONTROL Dashboard] mit Leistungsvisualisierungen für alle Ihre Portfolios.
+* **[!UICONTROL Dashboard]** Untermenü:
+
+   * **[!UICONTROL Overview]** Öffnet eine konfigurierbare [!UICONTROL Dashboard] mit Leistungsvisualisierungen für alle Ihre Portfolios.
+
+   * **[!UICONTROL Recommendations]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+
+* **[!UICONTROL Alerts & Notifications]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+
+* **[!UICONTROL Goals]** Untermenü:
+
+   * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
+
+   * **[!UICONTROL Conversions]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Admin] > [!UICONTROL Conversions].
+
+   * **[!UICONTROL Conversion Value Rules]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+
+   * **[!UICONTROL Constraints]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Constraints].
 
 * **[!UICONTROL Plan]** Untermenü:
 
-   * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können. Die Zieleinstellungen sind mit den Einstellungen in der alten Benutzeroberfläche unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta] identisch.
-
    * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
+
+   * **[!UICONTROL Spend Planner]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Label Classification]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * **[!UICONTROL Manage]** Untermenü:
 
@@ -46,27 +64,59 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
      Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Ad Groups]:** Öffnet eine neue [!UICONTROL Ad Groups], die alle Anzeigengruppen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen.
+   * **[!UICONTROL Ad Groups]:** Öffnet eine neue [!UICONTROL Ad Groups], die alle Anzeigengruppen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen.
 
-  Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Review]** Untermenü:
+   * **[!UICONTROL Ads]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* **[!UICONTROL Reports]** Untermenü:
 
    * **[!UICONTROL Insights]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Reports]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Reports].
-
-   * **[!UICONTROL Recommendations]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Scheduled Reports]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Reports].
 
    * **[!UICONTROL Spreadsheet Feeds]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
 
    * **[!UICONTROL History Logs]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+* **[!UICONTROL Target]** Untermenü:
+
+   * **[!UICONTROL Audience]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Audiences].
+
+   * **[!UICONTROL Keywords]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Placements]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* **[!UICONTROL Assets]** Untermenü:
+
+   * **[!UICONTROL Auto Targets]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Creatives]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Extensions]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Shopping]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]** Untermenü:
 
    * **[!UICONTROL Accounts]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Audiences]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Audiences].
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### Hauptmenü reduzieren
 

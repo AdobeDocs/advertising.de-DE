@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die in Ihrem Leistungs-Dashboard verfügbar
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 * **Größte Beweger - \[ausgewählte Metrik\]:** Die 10 Portfolios mit der größten Änderung an einer angegebenen Metrik im Vergleich zum vorherigen Zeitraum.
 
 * **Ausgabenverteilung:** Die Ausgabenverteilung nach Anzeigennetzwerk.
+
+## Anzeigen des Leistungs-Dashboards
+
+* Klicken Sie im Hauptmenü auf **[!UICONTROL Dashboard]>[!UICONTROL Overview]**.
 
 ## Anpassen des Leistungs-Dashboards
 

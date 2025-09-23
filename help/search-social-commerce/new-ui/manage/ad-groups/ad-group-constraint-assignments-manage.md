@@ -3,9 +3,10 @@ title: Einschränkungszuweisungen für Anzeigengruppen verwalten
 description: Erfahren Sie, wie Sie Anzeigengruppen Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, der Sie eine einzelne Einschränkung zuweisen.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Wählen Sie die Einschränkung aus.
 
@@ -58,7 +59,7 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, deren Zuweisung von Einschränkungen Sie aufheben möchten.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/unassign.png "Zuweisung aufheben") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 

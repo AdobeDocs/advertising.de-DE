@@ -3,9 +3,10 @@ title: Massenbearbeitung von Portfolioeinstellungen mithilfe von Bulksheet-Datei
 description: Erfahren Sie, wie Sie die Einstellungen für mehrere Portfolios mithilfe einer Bulksheet-Datei bearbeiten.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Eine Portfolio-Bulksheet ist eine Datei, die Portfolioeinstellungen in einem bes
 
 * Ein schreibgeschütztes [!UICONTROL Instructions]-Arbeitsblatt mit Informationen zum Bearbeiten der Felder.
 
-* Eine [!UICONTROL Portfolio Settings Edit] Registerkarte mit einer Zeile pro eingeschlossenem Portfolio. Sie können die Felder nach Bedarf bearbeiten, die Datei lokal speichern und anschließend [die bearbeitete Datei hochladen](#portfolio-bulksheet-upload) in Search, Social und Commerce.
+* Eine [!UICONTROL Portfolio Settings Edit] Registerkarte mit einer Zeile pro eingeschlossenem Portfolio. Sie können die Felder nach Bedarf bearbeiten, die Datei lokal speichern und anschließend [die bearbeitete Datei hochladen](#portfolio-bulksheet-upload) in Search, Social und Commerce. Die bearbeitbaren Felder sind farblich hervorgehoben.
 
 ## Herunterladen einer Bulksheet-Datei mit Portfolioeinstellungen
 

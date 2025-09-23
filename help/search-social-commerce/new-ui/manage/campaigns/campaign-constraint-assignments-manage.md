@@ -3,9 +3,10 @@ title: Einschränkungszuweisungen für Kampagnen verwalten
 description: Erfahren Sie, wie Sie Kampagnen Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne, der Sie eine einzelne Einschränkung zuweisen.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Wählen Sie die Einschränkung aus.
 
@@ -65,7 +66,7 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne, deren Zuweisung von Einschränkungen Sie aufheben möchten.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/unassign.png "Zuweisung aufheben") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 >[!MORELIKETHIS]
 >
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

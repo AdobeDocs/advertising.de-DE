@@ -3,9 +3,9 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ Angenommen, drei Konversionsmetriken sind für ein bestimmtes Paket in einer Ihr
 
 Nachdem Sie [benutzerdefiniertes Ziel erstellt haben](#custom-goal-create) können Sie es [einem Paket zuweisen](/help/dsp/campaign-management/packages/package-settings.md) für die Berichterstellung und algorithmische Optimierung mit Adobe Sensei verwenden.
 
-Gewichtungsempfehlungen werden automatisch für DSP-zugeordnete Metriken in Zielen generiert und können mit einem Klick auf alle Gewichtungsempfehlungen angewendet werden. Alle Gewichtungsänderungen an Zielen mit dem Präfix „ADSP_“ werden in DSP innerhalb von zwei Tagen algorithmisch angewendet. Weitere Informationen zu Gewichtungsempfehlungen finden Sie im Kapitel Optimierungshandbuch zu (Beta) neuen Zielen, das in Search, Social und Commerce verfügbar ist.
+Gewichtungsempfehlungen werden automatisch für DSP-zugeordnete Metriken in Zielen generiert und können mit einem Klick auf alle Gewichtungsempfehlungen angewendet werden. Alle Gewichtungsänderungen an Zielen mit dem Präfix „ADSP_“ werden in DSP innerhalb von zwei Tagen algorithmisch angewendet. Weitere Informationen zu Gewichtungsempfehlungen finden Sie im Kapitel Optimierungshandbuch unter „Ziele“, das in Search, Social und Commerce verfügbar ist.
 
 ## Erstellen eines benutzerdefinierten Ziels {#custom-goal-create}
 
 Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL Search, Social, & Commerce]-Konto mit derselben Adobe Experience Cloud-Organisations-ID aus den [!DNL Search, Social, & Commerce] Client-Einstellungen heraus verknüpft werden. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce]-Konto verknüpft ist, wenden Sie sich an Ihr Adobe-Konto-Team.
 
-1. Melden Sie sich bei [!DNL Advertising Search, Social, & Commerce] unter (Benutzer in Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) oder (alle anderen Benutzer) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com) an.
+1. [Bei Advertising Search, Social und Commerce anmelden](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. Stellen Sie sicher, dass die Metriken, die Sie in Ihr Ziel aufnehmen möchten, verfolgt wurden, im Produkt verfügbar sind und einen Anzeigenamen enthalten:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**.
+
+      Die Ansicht Konvertierungen wird in einem neuen Browser oder auf einer neuen Browser-Registerkarte geöffnet.
 
    1. Suchen Sie die Metrik und stellen Sie sicher, dass **[!UICONTROL Show in UI and Reports]** für die Metrik aktiviert ist.
 
@@ -45,30 +47,24 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL
 
    1. Wenn die Metrik in der **[!UICONTROL Display Name]** keinen Wert hat, klicken Sie in die Zelle, geben Sie den Anzeigenamen ein und klicken Sie auf **[!UICONTROL Apply].**
 
-1. Erstellen Sie das benutzerdefinierte Ziel als *Ziel*:
+1. [Erstellen Sie das benutzerdefinierte Ziel als *Ziel*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Beachten Sie Folgendes:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
+   * Bei Zielen, die für Advertising DSP-Pakete verwendet werden, muss der Zielname mit dem Präfix „ADSP_“ versehen werden, z. B. „ADSP_Registrations“. Beim Präfix wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-   1. Klicken Sie in der Symbolleiste auf ![Erstellen](/help/dsp/assets/create-search-ui.png "Erstellen").
+   * Nur Metriken einschließen, die DSP zugeordnet sind. Alle Metriken, die Search, Social und Commerce oder einem anderen Werbenetzwerk zugeordnet wurden, werden ignoriert.
 
-   1. Geben Sie die Zieleinstellungen ein, einschließlich der zugehörigen Metriken und ihrer relativen numerischen Gewichtung für Nicht-Mobilgeräte, und speichern Sie dann das Ziel. Beachten Sie Folgendes:
+   * Mindestens eine Metrik muss den Metriktyp *[!UICONTROL Goal]* aufweisen.
 
-      * Bei Zielen, die für Advertising DSP-Pakete verwendet werden, muss der Zielname mit dem Präfix „ADSP_“ versehen werden, z. B. „ADSP_Registrations“. Beim Präfix wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+   * DSP verwendet für alle Anzeigen die Gewichtungen für Nicht-Mobilgeräte. Alle angegebenen Gewichtungen für Mobilgeräte werden ignoriert.
 
-      * Nur Metriken einschließen, die DSP zugeordnet sind. Alle Metriken, die Search, Social und Commerce oder einem anderen Werbenetzwerk zugeordnet wurden, werden ignoriert.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics] benutzerdefinierten Ereignisse folgen dieser Namenskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
+   >* [!DNL Analytics] Dimensionen und Segmente sind nicht für die Adobe Advertising-Optimierung verfügbar.
 
-      * Mindestens eine Metrik muss den Metriktyp *[!UICONTROL Goal]* aufweisen.
-
-      * DSP verwendet für alle Anzeigen die Gewichtungen für Nicht-Mobilgeräte. Alle angegebenen Gewichtungen für Mobilgeräte werden ignoriert.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] benutzerdefinierten Ereignisse folgen dieser Namenskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid`
-      >* [!DNL Analytics] Dimensionen und Segmente sind nicht für die Adobe Advertising-Optimierung verfügbar.
-
-      >[!TIP]
-      >
-      >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [ unter „Best Practices zum Erstellen eines benutzerdefinierten ](#custom-goal-best-practices)&quot;.
+   >[!TIP]
+   >
+   >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [ unter „Best Practices zum Erstellen eines benutzerdefinierten ](#custom-goal-best-practices)&quot;.
 
 In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwenden, ist der Zielname jetzt in der [!UICONTROL Custom Goals]-Liste enthalten. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, enthält die [!UICONTROL Conversion Metric] alle Zielmetriken für das Ziel.
 
@@ -110,7 +106,7 @@ Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) sind und nur ein
 
 Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefinierten Ziel verwenden würden:
 
-* Ihr Kampagnenziel hat mehrere Erfolgsereignisse. Vielleicht werben Sie für mehr als eine Aktion auf der Site (PDF-Download, Kontakt und E-Mail-Anmeldung), und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken umfasst, von denen jede eine nicht mobile Gewichtung (1) aufweist, behandelt der [!DNL Adobe Sensei]-Algorithmus jede der Metriken und Benutzergerätetypen mit derselben Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder eine unterschiedliche Bedeutung haben, passen Sie ihre relativen Gewichtungen entsprechend an.
+* Ihr Kampagnenziel hat mehrere Erfolgsereignisse. Vielleicht werben Sie für mehr als eine Aktion auf der Site (PDF-Download, Kontakt und E-Mail-Anmeldung) und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken umfasst, von denen jede eine nicht mobile Gewichtung (1) aufweist, behandelt der [!DNL Adobe Sensei]-Algorithmus jede der Metriken und Benutzergerätetypen mit derselben Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder eine unterschiedliche Bedeutung haben, passen Sie ihre relativen Gewichtungen entsprechend an.
 
 <!-- update image or delete it and adjust the wording above
 

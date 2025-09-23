@@ -3,9 +3,9 @@ title: Zuweisen von Kampagnen zu einem Portfolio
 description: Erfahren Sie, wie Sie zur Optimierung Kampagnen in Portfolios aufnehmen.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne, die Sie einem einzelnen Portfolio zuweisen möchten.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
 
 1. Portfolio auswählen.
 
@@ -38,7 +38,7 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne, für die Sie das neue Portfolio erstellen möchten.
 
-1. Klicken Sie in der Symbolleiste auf ![Mehr Aktionen](/help/search-social-commerce/assets/more-actions.png "Mehr Aktionen") **[!UICONTROL More Actions]** > ![Zuweisen](/help/search-social-commerce/assets/assign.png "Zuweisen") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
 1. Geben Sie auf dem Bildschirm [!UICONTROL Create Portfolio] die Portfolioeinstellungen an.
 
