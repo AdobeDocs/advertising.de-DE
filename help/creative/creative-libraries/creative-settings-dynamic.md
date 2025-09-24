@@ -2,9 +2,9 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Anzeigenvorlage
 
-**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen.&lt;!— auch eine Option zum Hochladen einer eigenen Anzeigenvorlage — die Spezifikationen dafür müssen hinzugefügt werden —>
+**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der Angebote, die für jede Anzeige erstellt werden können.&lt;!— Klärung: Ist dies die Frequenzlimitierung (maximale Anzahl, wie oft eine Anzeige geschaltet werden darf)? —>
+**[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der Angebote, die für jede Anzeige erstellt werden können.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Kataloge
 
-**[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.&lt;!— auch eine Option zum Hochladen einer eigenen Feed-Vorlage — die Spezifikationen dafür hinzufügen müssen —>
+**[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catalogs\]**: Einer oder mehrere der Kataloge des angegebenen Werbetreibenden, aus denen Anzeigen generiert werden sollen.&lt;!— auch eine Option zum Hochladen eines eigenen Katalogs (Sie können den benötigten Katalog nicht finden? Laden Sie eine Vorlage herunter, erstellen Sie eine eigene und laden Sie sie von Ihrem Gerät hoch.) — müssen die Spezifikationen dafür hinzufügen —>
+**\[Catalogs\]**: Einer oder mehrere der Kataloge des angegebenen Werbetreibenden, aus denen Anzeigen generiert werden sollen.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
