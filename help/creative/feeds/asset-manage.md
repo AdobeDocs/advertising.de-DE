@@ -2,7 +2,7 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
 >[!NOTE]
 >
 > Jede Feed-Datei kann nur für einen Katalog verwendet werden.
-
 
 ## Dateianforderungen
 

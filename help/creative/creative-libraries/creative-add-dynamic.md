@@ -2,9 +2,9 @@
 title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
-source-git-commit: 7f4bfd6072a732a779368a5f59bfe40f90e64c82
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
       1. Wählen Sie die Bundles aus und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Um die Anzeigen zu speichern, klicken Sie auf **[!UICONTROL Save]** und dann erneut auf **[!UICONTROL Save]**.
+   * Um die Anzeigen zu speichern und das Setup zu beenden, klicken Sie auf **[!UICONTROL Save]** und anschließend erneut auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

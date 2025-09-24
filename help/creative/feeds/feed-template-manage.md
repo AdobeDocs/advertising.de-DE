@@ -2,9 +2,9 @@
 title: Verwalten von Feed-Vorlagen
 description: Erfahren Sie, wie Sie Feed-Vorlagen verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Heruntergeladene Feed-Vorlagen sind im ZIP-Format von Microsoft Excel-Tabellen (
 
 ### [!UICONTROL Field Mapping]
 
-Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backend zu.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Sie müssen mindestens ein Feld für die Feed-Datei einbeziehen, das als &quot;[!UICONTROL Is Unique]&quot; markiert ist. Um eine Feldzuordnung hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Um die letzte Feldzuordnung zu entfernen, klicken Sie auf **[!UICONTROL +]**.
+Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backend zu.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Mindestens ein Feld der Feed-Datei muss als &quot;[!UICONTROL Is Unique]&quot; markiert sein. Um eine Feldzuordnung hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Um die letzte Feldzuordnung zu entfernen, klicken Sie auf **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** Das Feld in der Feed-Datei.
 

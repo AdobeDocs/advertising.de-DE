@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Ihre Bibliotheken können Folgendes enthalten:
 
 * **Individuelle Kreative:** Sie können einzelne Kreative direkt in Anzeigenerlebnisse einbeziehen, für die keine Benutzerziele definiert sind. Sie können Ihre Kreativen auch verwenden, um Bundles zu erstellen, die Sie in zielgerichtete ([) Erlebnisse ](/help/creative/experiences/experience-about.md) können.
 
-   * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen ](#creative-creative-formats) verwalten. Für jeden Kreativen geben Sie die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
+   * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen ](#creative-creative-formats) verwalten. Geben Sie für jeden Kreativen die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
 
    * **Dynamische Kreative:** Sie können dynamisch generierte Kreative erstellen, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
 
@@ -62,9 +62,9 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 
 #### Video-Kreative {#creative-video-specs}
 
-Sie können Erstanbieter-Videokreative für Web-, Mobil- oder vernetztes Fernsehen von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist für jede dem Erlebnis zugewiesene kreative Dauer ein Standard-Kreativvideo erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional [DSP-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
+Sie können Erstanbieter-Videokreative für Web-, Mobil- oder vernetztes Fernsehen von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist für jede dem Erlebnis zugewiesene kreative Dauer ein Standard-Kreativvideo erforderlich. DSP transkodiert alle Videokreativen automatisch als VAST 2.0-Tags, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional [DSP-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
-Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/de/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
+Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
 
 **Dateityp:** .mov, .mp4, .webm
 

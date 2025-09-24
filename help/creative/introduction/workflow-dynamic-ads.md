@@ -2,9 +2,9 @@
 title: Workflow für dynamische Anzeigen
 description: Erfahren Sie mehr über den Workflow zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
 
-1. Erstellen Sie dynamische Anzeigenerlebnisse mit [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie sie Ihren dynamischen Anzeigenerlebnissen zu](/help/creative/experiences/experience-assign-creative-bundles.md).
+1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
 
 1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
 

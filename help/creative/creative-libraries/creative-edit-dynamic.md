@@ -2,9 +2,9 @@
 title: Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie ein dynamisches Kreativ in einer Kreativbibliothek bearbeiten.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Wählen Sie die Bundles aus und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Um die Anzeigen zu speichern, klicken Sie auf **[!UICONTROL Save]** und dann erneut auf **[!UICONTROL Save]**.
+   * Um die Anzeigen zu speichern und das Setup zu beenden, klicken Sie auf **[!UICONTROL Save]** und anschließend erneut auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
