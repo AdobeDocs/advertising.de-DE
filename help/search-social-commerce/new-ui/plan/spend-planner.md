@@ -2,9 +2,10 @@
 title: Verwenden der [!UICONTROL Spend Planner]
 description: Erfahren Sie, wie Sie die [!UICONTROL Spend Planner] zur Ermittlung der optimalen Ausgabenverteilung auf die Portfolios verwenden.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Die Berichte über Ausgabenempfehlungen enthalten die folgenden Daten:
 
 * Ein Balkendiagramm für jedes der Portfolios, das die empfohlenen täglichen Ausgaben (Kosten) und die prognostizierte Umsatzverteilung oder Klick-Verteilung anzeigt, wenn Sie das aktuelle Ziel für die gesamten täglichen Ausgaben für alle ausgewählten Portfolios oder für ein vorgeschlagenes Ziel für die Gesamtausgaben beibehalten. Sie können optional die empfohlenen Ausgabenziele auf die ausgewählten Portfolios anwenden, was sich auf die Gebote im nächsten Angebotsausführungszyklus auswirkt.
 
-## (Neue Benutzeroberfläche) Generieren eines [!UICONTROL Spend Planner] Berichts über die Ansicht [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Neue Benutzeroberfläche) Erstellen eines [!UICONTROL Spend Planner] Berichts
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Führen Sie einen der folgenden Schritte aus:
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Ausgabenplaner](/help/search-social-commerce/assets/spend-planner-icon.png "Ausgabenplaner").
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Ausgabenplaner](/help/search-social-commerce/assets/spend-planner-icon.png "Ausgabenplaner").
 
    Das [!UICONTROL Spend Recommendation]-Tool wird in der Benutzeroberfläche der veralteten Version geöffnet.
 
