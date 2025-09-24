@@ -3,9 +3,9 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ihre Bibliotheken können Folgendes enthalten:
 
    * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen ](#creative-creative-formats) verwalten. Für jeden Kreativen geben Sie die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
 
-   * **Dynamische Kreative:** (Nur für bestehende Adobe Advertising DCO-Kundinnen und -Kunden) Administratoren können dynamisch generierte Kreative erstellen, indem sie dynamische Variablen in einer Anzeigenvorlage Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
+   * **Dynamische Kreative:** Sie können dynamisch generierte Kreative erstellen, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
 
 * **Kreativ-Bundles:** Kreative in Bundles zusammen, die für mehrere Erlebnisse mit definierten Benutzerzielen verwendet werden können. Sie können *Standard-Display* Bundles erstellen, die aus Standard-Display-Anzeigen, *Standard-Video-Bundles* die aus Standard-Video-Anzeigen bestehen, und *Dynamische Display-Bundles* die aus dynamisch generierten Display-Anzeigen bestehen.
 
@@ -64,7 +64,7 @@ Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von 
 
 Sie können Erstanbieter-Videokreative für Web-, Mobil- oder vernetztes Fernsehen von Ihrem Gerät oder Netzwerk hochladen. Für jedes Standard-Video- und -Erlebnis ist für jede dem Erlebnis zugewiesene kreative Dauer ein Standard-Kreativvideo erforderlich. Alle Video-Kreativen werden von DSP automatisch als VAST 2.0-Tags transkodiert, damit Sie eine Vorschau davon anzeigen können. In [!UICONTROL Tag Manager] können Sie optional [DSP-spezifische Transkodierung](/help/creative/experiences/experience-tag-video-transcoding.md) auf jedes Video- und Erlebnis-Tag anwenden.
 
-Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/de/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
+Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebnisse in Advertising DSP hochladen, lesen Sie auch den Abschnitt [Voraussetzungen für High-Definition-Video-Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) von DSP, der möglicherweise eingeschränkter ist.
 
 **Dateityp:** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebni
 
 ### Format für dynamische Anzeigen
 
-Administratorbenutzer können Kreative dynamisch im statischen HTML5- und dynamischen HTML5-Format generieren, indem sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Dynamische Kreative können auch Kreative aus Ihren veralteten Adobe Advertising Dynamic Creative Optimization (DCO)-Erlebnissen einschließen.
+Sie können Kreative dynamisch im statischen HTML5- und dynamischen HTML5-Format generieren, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Zu den dynamischen Kreativen können Kreative gehören, die aus Ihren veralteten Adobe Advertising Dynamic Creative Optimization (DCO)-Erlebnissen migriert wurden.
 
 ## Die [!UICONTROL Creative Libraries]
 
@@ -144,17 +144,19 @@ Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten
 
 #### [!UICONTROL Dynamic Ads]
 
-Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [ der Registerkarte ](creative-delete.md) manuell [!UICONTROL Dynamic Ads] haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) alle dynamischen Kreativen seit der letzten Verarbeitung eines Katalogs enthalten, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
+Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [ der Registerkarte ](creative-delete.md) manuell [!UICONTROL Dynamic Ads] haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) beliebige dynamische Kreative <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
 
-Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Vorlage, mit der die kreative Seite generiert wurde, und die Anzahl der Angebote.
+Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Anzeigenvorlage, über die die kreative Seite generiert wurde, und die Anzahl der Angebote.
 
 >[!NOTE]
 >
->Bei jeder Verarbeitung eines Katalogs werden die Daten der vorhandenen dynamischen Kreativen für diesen Katalog aktualisiert.
+>Bei jeder Verarbeitung eines Katalogs werden die Daten der vorhandenen dynamischen Kreativen für diesen Katalog aktualisiert.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Verfügbare Aktionen
 
-Die Möglichkeit, dynamische Kreative zu erstellen und zu bearbeiten, ist derzeit nur für das Adobe Account Team verfügbar. Alle Benutzer können jedoch:
+* [Hinzufügen dynamischer Kreativer zu einer Bibliothek](creative-add-dynamic.md)
+
+* [Bearbeiten eines dynamischen Kreativen](creative-edit-dynamic.md)
 
 * [Vorschau für dynamische Kreative](creative-preview.md)
 

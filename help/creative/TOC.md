@@ -3,9 +3,9 @@ role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Handbuch zu Creative
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,9 @@ ht-degree: 0%
 + Einführung {#introduction}
    + [Über Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
-   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative-Bibliotheken {#creative-libraries}
    + [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
@@ -30,6 +31,10 @@ ht-degree: 0%
          + [Standard-Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 Creative Specification](/help/creative/creative-libraries/html5-creative-specification.md)
+      + Dynamische Kreative {#dynamic-creatives}
+         + [Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [Dynamische Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [Dynamische kreative Einstellungen](/help/creative/creative-libraries/creative-settings-dynamic.md)
       + [Kreative in der Vorschau anzeigen](/help/creative/creative-libraries/creative-preview.md)
       + [Kreative an Bundles anhängen](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Kreative dupliziert](/help/creative/creative-libraries/creative-duplicate.md)
@@ -72,10 +77,16 @@ ht-degree: 0%
    + [Herunterladen von Daten aus der [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Umbenennen eines Anzeigen-Tags](/help/creative/experiences/experience-tag-rename.md)
    + [Erlebnis löschen](/help/creative/experiences/experience-delete.md)
++ Feeds {#feeds}
+   + [Verwalten von Asset-Dateien](/help/creative/feeds/asset-manage.md)
+   + [Verwalten von Feed-Vorlagen](/help/creative/feeds/feed-template-manage.md)
+   + [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
+   + [Verfolgen des Status von Katalogverarbeitungsaufträgen](/help/creative/feeds/job-status-track.md)
++ [Verwalten dynamischer Anzeigenvorlagen](/help/creative/ad-templates/ad-template-manage.md)
 + Leistungsberichte {#reports}
    + [Leistungsberichte auf Erlebnisebene](/help/creative/experiences/experience-performance-details.md)
    + [Benutzerdefinierter Creative-Bericht](/help/creative/report-custom-creative.md)
 + [Retargeting von Pixeln](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 + [Hilfe erhalten](/help/creative/get-help.md)
-+ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de){target="_blank"}
++ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

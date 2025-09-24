@@ -3,16 +3,16 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken](creative-library-manage.md) Kreative hinzu, um sie für [Anzeigenerlebnisse](/help/creative/experiences/experience-about.md) zu verwenden.
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -34,9 +34,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Klicken Sie auf **[!UICONTROL Upload New]**.
 
@@ -62,7 +60,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -74,22 +72,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Klicken Sie auf **[!UICONTROL Browse System Flexible Templates]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 1. (Optional) Um eine Vorschau der Vorlage anzuzeigen, klicken Sie auf **[!UICONTROL ...]** neben dem Vorlagennamen und dann auf **[!UICONTROL Preview]**.
 
@@ -102,6 +87,17 @@ For information about the attributes available in predefined templates, see "[Av
    Die maximale Dateigröße des Kreativen beträgt nach dem Komprimieren 2 MB.<!-- Still true? -->
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
+
+<!-- Not options as of 5/22/25:
+
+1. In the left panel, select the creative size to see all available templates for that size.
+
+1. Select the template:
+
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
+-->
 
 ## Hinzufügen eines HTML5-Creative zu einer Kreativbibliothek
 
@@ -119,9 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
 
 <!-- Not an option as of 3/4:
 
@@ -155,9 +149,7 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
 
 1. Legen Sie die Bilder fest:
 
@@ -197,9 +189,7 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
 1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
@@ -215,9 +205,7 @@ Siehe [Video Creative Specifications](/help/creative/creative-libraries/creative
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf die Unterregisterkarte **[!UICONTROL Standard Ads]** .
-
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**.
 
 1. Geben Sie die Videodateien auf eine der folgenden Arten an:
 
