@@ -2,9 +2,9 @@
 title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
    1. Wählen Sie die Kriterien aus, für die Katalogzeilen zum Erstellen von Anzeigen verwendet werden sollen.
 
-   1. Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte in der angegebenen Feed-Datei (Katalogbeschriftung) zu.
+   1. Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte in der angegebenen Feed-Datei (Katalogbeschriftung) zu oder geben Sie statische Werte ein.
 
    1. Klicken Sie auf **[!UICONTROL Continue]** , um eine Vorschau der zu generierenden Kreativen anzuzeigen. Sie können in der Vorschau einen der folgenden Schritte ausführen:
 
@@ -75,7 +75,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
       * So suchen Sie anhand der eindeutigen ID im Suchfeld unter dem Vorschaubereich nach einem Produkt.
 
-      * Um die angezeigten Spalten zu ändern, klicken Sie auf ![Spaltenfilter](/help/creative/assets/custom-columns. "Spaltenfilter") unterhalb des Vorschaubereichs.
+      * Um die angezeigten Spalten zu ändern, klicken Sie auf ![Spaltenfilter](/help/creative/assets/custom-columns.png "Spaltenfilter") unterhalb des Vorschaubereichs.
 
       * Um eine bestimmte Kreative in der Vorschau anzuzeigen, aktivieren Sie das Kontrollkästchen für die Zeile.
 

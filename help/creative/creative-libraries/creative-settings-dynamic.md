@@ -2,9 +2,9 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Hochgeladene Kataloge müssen im ZIP-Format vorliegen und Folgendes enthalten:
 
 **[!UICONTROL Dynamic Ad Fields]**/**[!UICONTROL Maps to Catalog Labels]:**
 
-Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte im angegebenen Katalog (Katalogbeschriftung) zu.
+Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte im angegebenen Katalog zu (Katalogbeschriftung) oder geben Sie einen statischen Wert ein.
 
 >[!MORELIKETHIS]
 >
