@@ -2,9 +2,9 @@
 title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
    1. Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte in der angegebenen Feed-Datei (Katalogbeschriftung) zu.
 
-   1. Klicken Sie auf **[!UICONTROL Continue]** , um eine Vorschau der zu generierenden Kreativen anzuzeigen.
+   1. Klicken Sie auf **[!UICONTROL Continue]** , um eine Vorschau der zu generierenden Kreativen anzuzeigen. Sie können in der Vorschau einen der folgenden Schritte ausführen:
 
-      Um eine bestimmte Kreative in der Vorschau anzuzeigen, aktivieren Sie das Kontrollkästchen für die Zeile. Filtern Sie die Kreativen nach Katalog, <!-- explain more--> und Anzeigengröße.
+      * Um die Kreativen nach Katalog, Filterwert <!-- explain more--> Anzeigengröße zu filtern, verwenden Sie die Filter über dem Vorschaubereich.
+
+      * So suchen Sie anhand der eindeutigen ID im Suchfeld unter dem Vorschaubereich nach einem Produkt.
+
+      * Um die angezeigten Spalten zu ändern, klicken Sie auf ![Spaltenfilter](/help/creative/assets/custom-columns. "Spaltenfilter") unterhalb des Vorschaubereichs.
+
+      * Um eine bestimmte Kreative in der Vorschau anzuzeigen, aktivieren Sie das Kontrollkästchen für die Zeile.
+
+      * Inhalt ändern:
+
+         * Um den Wert einer Zelle in der Tabelle zu bearbeiten, klicken Sie in die Zelle und bearbeiten Sie den Wert. Klicken Sie auf eine Stelle außerhalb der Zelle oder drücken Sie die **[!DNL Enter]**, um die Änderungen zu speichern.
+
+         * Um ein einzelnes Produkt als Standard zu markieren<!--Explain what this means. --> halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+         * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte als Standard zu markieren, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Set as Default]**.
+
+      * Um ein Produkt aus dem Katalog zu löschen, halten Sie den Cursor über die Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte aus dem Katalog zu löschen, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete Row]** .
 
 1. Speichern Sie die Kreativen:
 
