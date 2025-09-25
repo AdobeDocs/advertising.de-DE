@@ -2,9 +2,9 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Die Kreativbibliothek, in der die Anzeigen erstellt werden sollen. Wenn Sie die Anzeigen in [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] erstellen, ist der Bibliotheksname bereits ausgewählt und schreibgeschützt.
 
-**[!UICONTROL Ad Template Size]:** Die Anzeigendimensionen für die Anzeigenvorlage, aus der die Anzeige erstellt werden soll. Wenn Sie zuerst eine bestimmte [!UICONTROL Ad Template] auswählen, wird dieser Wert automatisch ausgewählt.
+**[!UICONTROL Ad Template Size]:** Die [Anzeigendimensionen](/help/creative/creative-libraries/creative-sizes.md) für die Anzeigenvorlage, aus der die Anzeige erstellt werden soll. Wenn Sie zuerst eine bestimmte [!UICONTROL Ad Template] auswählen, wird dieser Wert automatisch ausgewählt.
 
 ## Anzeigenvorlage
 
-**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch.<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch und wählen Sie den Vorlagentyp aus *statisch* oder *dynamisch*. Eine hochgeladene Vorlage muss im ZIP-Format vorliegen und HTML5-Dateien sowie eine Vorlagendefinitionsdatei (template.tDF) enthalten. <!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der Angebote, die für jede Anzeige erstellt werden können.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der in einem Karussell anzuzeigenden Produkte.
 
 ## Kataloge
 
 **[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.
 
-**\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen.<!-- Need to add the specs for that -->
+**\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen.
+
+Hochgeladene Kataloge müssen im ZIP-Format vorliegen und Folgendes enthalten:
+
+* Eine oder mehrere Feed-Dateien im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX).<!-- Need to add more specs for that -->
+
+* Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format
+
+* (Optional) Video-Assets im MP4- oder WEBM-Format
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: Die Spaltentypen in der Feed-Datei, für die Werte vorhanden sein müssen, um Anzeigen zu erstellen: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Hinweis:** Diese Einstellungen funktionieren unabhängig von den erweiterten Einstellungen in den Einstellungen für das Anzeigen-Erlebnis.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->Die Typen von Spalten in der Feed-Datei, für die Werte vorhanden sein müssen, um Anzeigen zu erstellen: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Hinweis:** Diese Einstellungen funktionieren unabhängig von den erweiterten Einstellungen in den Einstellungen für das Anzeigen-Erlebnis.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]**/**[!UICONTROL Maps to Catalog Labels]:**
 
-Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte in der angegebenen Feed-Datei (Katalogbeschriftung) zu.
+Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigenvorlage einer Spalte im angegebenen Katalog (Katalogbeschriftung) zu.
 
 >[!MORELIKETHIS]
 >

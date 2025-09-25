@@ -2,9 +2,9 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
 
      Referenzieren Sie das Bild für Bilder, die Sie hochladen möchten, mit dem `images/image_name` Format (z. B. `images/300x250_acme_logo.png`)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * Die zugehörigen Bild-Assets im JPEG-, JPG- oder PNG-Format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Siehe die [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
+   * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Siehe die [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
   Sie können eine einzelne XLSX-Datei, eine einzelne Bilddatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination aus XLSX- und Bilddateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Statische HTML5-Anzeigen:
 
-   * Ein Bild-Asset pro Anzeige im Format JPG, JPEG oder PNG.
+   * Ein Bild-Asset pro Anzeige im Format GIF, JPG, JPEG oder PNG.
 
      Sie können entweder ein einzelnes Bild oder mehrere Bilder in eine ZIP-Datei hochladen.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

@@ -2,14 +2,16 @@
 title: Workflows für dynamische Anzeigen
 description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # Workflows für dynamische Anzeigen
+
+*Benutzer mit Berechtigungen zum Erstellen dynamischer Anzeigen*
 
 Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
@@ -22,6 +24,11 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
   Verwenden Sie diesen Workflow, wenn mehrere Personen verschiedene Aufgaben ausführen oder wenn Sie jeweils nur eine Aufgabe ausführen möchten.
 
 ## Workflow 1
+
+>[!PREREQUISITES]
+>
+>* Anzeigenvorlagen im HTML5-Format
+>* Produktkataloge im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX)
 
 1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Laden Sie für dynamische HTML5-Anzeigen eine Anzeigenvorlage und Kataloge hoch.
 
