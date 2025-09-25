@@ -2,9 +2,9 @@
 title: Verwalten von Feed-Vorlagen
 description: Erfahren Sie, wie Sie Feed-Vorlagen verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Feed-Vorlagen ordnen Felder in Ihren Feed-Dateien den Feldern im Advertising Creative-Backend zu. Dynamische HTML5-Anzeigen, aber keine statischen HTML5-Anzeigen, benötigen eine Feed-Vorlage, um dynamische Anzeigen zu erstellen.
+Feed-Vorlagen ordnen Felder in Ihren Feed-Dateien/Katalogen den Feldern im Advertising Creative-Backend zu. Dynamische HTML5-Anzeigen, aber keine statischen HTML5-Anzeigen, benötigen eine Feed-Vorlage, um dynamische Anzeigen zu erstellen.
 
 Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
 
@@ -101,7 +101,7 @@ Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backe
 
 >[!MORELIKETHIS]
 >
->* [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Verwalten von Asset-Dateien](/help/creative/feeds/asset-manage.md)
 >* [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
 >* [Verfolgen Sie den Status von Katalogverarbeitungsaufträgen](/help/creative/feeds/job-status-track.md)

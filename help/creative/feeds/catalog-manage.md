@@ -2,9 +2,9 @@
 title: Verwalten von Feed-Katalogen
 description: Erfahren Sie, wie Sie Feed-Kataloge verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ Verarbeitete Feed-Kataloge sind Gruppen von potenziellen und Varianten, die aus 
 Verarbeiten Sie den Katalog, bevor Sie die Anzeigenvarianten zum [Hinzufügen dynamischer Anzeigen zu einer ](/help/creative/creative-libraries/creative-add-dynamic.md)-Bibliothek“ verwenden können.
 
 ## Erstellen eines Katalogs {#feed-catalog-create}
+
+>[!NOTE]
+>
+>Sie können einen Katalog auch direkt hochladen, wenn Sie [dynamische Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-dynamic.md). Alle dort erstellten Kataloge werden in der [!UICONTROL Catalogs] für die zukünftige Verwendung verfügbar.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -102,7 +106,7 @@ Archivieren Sie einen Katalog, um ihn zu löschen.
 >[!MORELIKETHIS]
 >
 >* [Verfolgen Sie den Status von Katalogverarbeitungsaufträgen](/help/creative/feeds/job-status-track.md)
->* [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Verwalten von Asset-Dateien](/help/creative/feeds/asset-manage.md)
 >* [Verwalten von Feed-Vorlagen](/help/creative/feeds/feed-template-manage.md)
 >* [Verwalten dynamischer Anzeigenvorlagen](/help/creative/ad-templates/ad-template-manage.md)

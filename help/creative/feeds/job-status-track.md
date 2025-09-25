@@ -2,7 +2,7 @@
 title: Verfolgen des Status von Katalogverarbeitungsaufträgen
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -40,4 +40,4 @@ By clicking on "View Failure" on the right, you can see further details about th
 >[!MORELIKETHIS]
 >
 >* [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
->* [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)

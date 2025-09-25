@@ -2,9 +2,9 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Anzeigenvorlage
 
-**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der Angebote, die für jede Anzeige erstellt werden können.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Kataloge
 
-**[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.
 
-**\[Catalogs\]**: Einer oder mehrere der Kataloge des angegebenen Werbetreibenden, aus denen Anzeigen generiert werden sollen.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen.<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Ordnen Sie jedes Attribut (dynamisches Anzeigenfeld) in der angegebenen Anzeigen
 >
 >* [Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](creative-add-dynamic.md)
 >* [Dynamische Kreative in einer Kreativbibliothek bearbeiten](creative-edit-dynamic.md)
->* [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)

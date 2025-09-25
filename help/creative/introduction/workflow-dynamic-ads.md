@@ -1,17 +1,43 @@
 ---
-title: Workflow für dynamische Anzeigen
-description: Erfahren Sie mehr über den Workflow zum Verwalten dynamischer Anzeigen.
+title: Workflows für dynamische Anzeigen
+description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Workflow für dynamische Anzeigen
+# Workflows für dynamische Anzeigen
 
-1. [Erstellen Sie eine Anzeigenvorlage](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets
+Sie können dynamische Anzeigen auf zwei Arten einrichten:
+
+* Workflow 1: Laden Sie eine Anzeigenvorlage und einen Anzeigenvariantenkatalog direkt in die dynamischen Anzeigeneinstellungen hoch, wenn Sie dynamische Anzeigen zu einer Kreativbibliothek hinzufügen. Sie können eine vorhandene Feed-Vorlage herunterladen, um den Katalog zu erstellen.
+
+  Verwenden Sie diesen Workflow, wenn dieselbe Person alle Informationen (mit Ausnahme der Feed-Vorlage) bereitstellen kann, um die Anzeigen zu erstellen. Die hochgeladenen Dateien bleiben für die zukünftige Verwendung verfügbar.
+
+* Workflow 2: Richten Sie eine Anzeigenvorlage und Anzeigenvariantenkataloge in separaten Ansichten ein und fügen Sie dann einem Kreativen mithilfe der bereits verfügbaren Anzeigenvorlage und Kataloge separat dynamische Anzeigen hinzu.
+
+  Verwenden Sie diesen Workflow, wenn mehrere Personen verschiedene Aufgaben ausführen oder wenn Sie jeweils nur eine Aufgabe ausführen möchten.
+
+## Workflow 1
+
+1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Laden Sie für dynamische HTML5-Anzeigen eine Anzeigenvorlage und Kataloge hoch.
+
+1. Verwenden Sie die dynamischen Kreativen für Anzeigen-Erlebnisse:
+
+   1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
+
+   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
+
+   1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
+
+      Um ein Anzeigen-Erlebnis als Anzeige in Adobe Advertising DSP zu verwenden, laden Sie das Anzeigen-Erlebnis-Tag in eine Advertising DSP-Kampagne hoch. Um ein Anzeigen-Erlebnis als Anzeige in einer anderen DSP zu verwenden, implementieren Sie das Anzeigen-Erlebnis-Tag in dieser DSP.
+
+## Workflow 2
+
+1. [Erstellen Sie eine ](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets.
 
 1. Werbeelemente einrichten:
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Verwenden Sie für dynamische HTML5-Anzeigen eine bestimmte Anzeigenvorlage und bestimmte Kataloge.
 
-1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
+1. Verwenden Sie die dynamischen Kreativen für Anzeigen-Erlebnisse:
 
-1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
 
-1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
+   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
 
-   Um ein Anzeigen-Erlebnis als Anzeige in Adobe Advertising DSP zu verwenden, laden Sie das Anzeigen-Erlebnis-Tag in eine Advertising DSP-Kampagne hoch. Um ein Anzeigen-Erlebnis als Anzeige in einer anderen DSP zu verwenden, implementieren Sie das Anzeigen-Erlebnis-Tag in dieser DSP.
+   1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
+
+      Um ein Anzeigen-Erlebnis als Anzeige in Adobe Advertising DSP zu verwenden, laden Sie das Anzeigen-Erlebnis-Tag in eine Advertising DSP-Kampagne hoch. Um ein Anzeigen-Erlebnis als Anzeige in einer anderen DSP zu verwenden, implementieren Sie das Anzeigen-Erlebnis-Tag in dieser DSP.

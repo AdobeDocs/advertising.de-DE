@@ -2,9 +2,9 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
      Sie können entweder ein einzelnes Bild oder mehrere Bilder in eine ZIP-Datei hochladen.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Hochladen einer Asset-Datei
+
+>[!NOTE]
+>
+>Anstatt Asset-Dateien hochzuladen, können Sie auch einen Katalog direkt hochladen, wenn Sie [dynamische Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-dynamic.md). Alle dort erstellten Kataloge werden in der [!UICONTROL Catalogs] für die zukünftige Verwendung verfügbar.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -77,7 +81,7 @@ Alle ZIP-Dateien werden automatisch dekomprimiert. Wenn Sie eine Tabellenkalkula
 
 >[!MORELIKETHIS]
 >
->* [Workflow für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Verwalten von Feed-Vorlagen](/help/creative/feeds/feed-template-manage.md)
 >* [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
 >* [Verwalten dynamischer Anzeigenvorlagen](/help/creative/ad-templates/ad-template-manage.md)
