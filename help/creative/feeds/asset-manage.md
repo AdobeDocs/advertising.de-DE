@@ -2,9 +2,9 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
 
 * Dynamic HTML5-Anzeigen:
 
-   * Eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen oder einen Verweis auf eine Adobe Experience Manager ein.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen oder einen Verweis auf eine Adobe Experience Manager ein.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      Referenzieren Sie das Bild für Bilder, die Sie hochladen möchten, mit dem `images/image_name` Format (z. B. `images/300x250_acme_logo.png`)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
    * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Siehe die [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
-  Sie können eine einzelne XLSX-Datei, eine einzelne Bilddatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination aus XLSX- und Bilddateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * (Optional) Video-Assets im MP4- oder WEBM-Format
+
+  Sie können eine einzelne XLSX-Datei, eine einzelne Bild- oder Videodatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination von XLSX-, Bild- und Videodateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Statische HTML5-Anzeigen:
 
