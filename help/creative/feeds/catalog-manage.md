@@ -2,9 +2,9 @@
 title: Verwalten von Feed-Katalogen
 description: Erfahren Sie, wie Sie Feed-Kataloge verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Verarbeitete Feed-Kataloge sind Gruppen von potenziellen und Varianten, die aus einer bestimmten Feed-Datei und einer bestimmten Feed-Vorlage erstellt wurden. Für dynamische HTML5-Anzeigen, jedoch nicht für statische HTML5-Anzeigen, ist ein Katalog erforderlich, um dynamische Anzeigen zu erstellen.
 
-Verarbeiten Sie den Katalog, bevor Sie die Anzeigenvarianten zum [Hinzufügen dynamischer Anzeigen zu einer ](/help/creative/creative-libraries/creative-add-dynamic.md)-Bibliothek“ verwenden können.
+Bevor Sie Anzeigenvarianten erstellen und [dynamische Anzeigen zu einer Kreativbibliothek hinzufügen können](/help/creative/creative-libraries/creative-add-dynamic.md) verarbeiten Sie den Katalog. Sie können die Feed-Datei später aktualisieren und den Katalog erneut verarbeiten, um einen neuen Satz von Anzeigenvarianten zu erstellen.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Erstellen eines Katalogs {#feed-catalog-create}
 
