@@ -2,9 +2,9 @@
 title: Workflows für dynamische Anzeigen
 description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
    * (Für dynamische HTML5-Anzeigen) Erstellen Sie Kataloge Ihrer Werbeelemente:
 
-      1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen oder einen Verweis auf eine Adobe Experience Manager ein. Erfassen Sie die zugehörigen Bild-Assets separat.
+      1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen ein. Erfassen Sie die zugehörigen Bild-Assets separat.
 
       1. [Laden Sie die Feed-Datei und Bild-Assets hoch](/help/creative/feeds/asset-manage.md).
 

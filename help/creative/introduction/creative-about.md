@@ -3,9 +3,9 @@ title: Über Adobe Advertising Creative
 description: Informationen über [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie fü
 
 ### [!DNL Adobe] Asset-Integrationen
 
-[!DNL Creative] ist direkt in Adobe Experience Manager integriert, sodass Sie die [!DNL Adobe] Bild-Assets, die Ihr Design-Team erstellt und genehmigt, einfach hochladen und dann für das Storyboarding und die Bearbeitung von Anzeigenerlebnissen in Echtzeit verwenden können.
+[!DNL Creative] ist direkt in Adobe Experience Manager integriert, sodass Sie die [!DNL Adobe] Bild-Assets, die Ihr Design-Team erstellt und für Standard-Bild-Anzeigen genehmigt, einfach hochladen können.
 
 ## Regelbasierte und nicht zielgerichtete Erlebnisse
 
