@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zu Kampagnen
 description: Antworten auf Fragen zur Kampagnenverwaltung und zu den Ansichten der Kampagnendaten.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Verschieben oder kopieren Sie keine Kampagnen- oder Kampagnenkomponente, die ein
 
 +++Wann werden Klickdaten aus den Werbenetzwerken aktualisiert?
 
-Der Prozess des Abrufs der Klickdaten des Vortages aus den Suchmaschinen beginnt um 06:00 Uhr in der Zeitzone des Werbetreibenden.
+Der Prozess des Abrufs der Klickdaten des Vortages aus den Suchmaschinen beginnt um 06:00 in der Zeitzone des Werbetreibenden.
 
-Darüber hinaus werden [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag um 08:00 Uhr und 16:00 Uhr in der Zeitzone des Werbetreibenden abgerufen.
+Darüber hinaus werden [!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag um 08 :00 16 :00 in der Zeitzone des Werbetreibenden abgerufen.
 +++
 
 +++Welche Aktionen führen dazu, dass Keywords und Anzeigen ihren Verlauf verlieren?
@@ -70,7 +70,7 @@ Abhängig von den [Feed-Dateneinstellungen](/help/search-social-commerce/campaig
 Wenn Sie die Anzeigenamen der Konversionsmetriken in Search, Social und Commerce ändern, werden Ihre Änderungen mit den in [!DNL Google Ads] konfigurierten Namen überschrieben. Nehmen Sie in [!DNL Google Ads] alle Namensänderungen vor.
 +++
 
-+++(Google Ads-Kampagnen) Kann ich für Kampagnen in Portfolios ein freigegebenes Budget verwenden?
++++(Google Ads-Kampagnen) Kann ich für Kampagnen in Portfolios ein gemeinsames Budget verwenden?
 
 Für optimale Ergebnisse sollten Sie [!DNL Google Ads] Kampagnen nicht zu einem [!DNL Google Ads] freigegebenen Budget hinzufügen, wenn sie sich in optimierten Portfolios befinden, die auf &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; konfiguriert sind. Wenn Sie dies tun, überschreibt [!DNL Google Ads] die für Search, Social und Commerce optimierten Kampagnenbudgets, was zu Ineffizienzen bei Geboten führen kann.
 +++
@@ -97,7 +97,7 @@ In beiden Fällen enthalten die Basis-URLs mit Search-, Social- und Commerce-Tra
 
 +++([!DNL Google Ads] Kampagnen im Suchnetzwerk) Welche Daten werden für heute angezeigt?
 
-[!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag werden um 08:00 Uhr und 16:00 Uhr in der Zeitzone des Werbetreibenden abgerufen.
+[!DNL Google Ads] Leistungsmetriken auf Kampagnenebene im Suchnetzwerk für den aktuellen Tag werden um 08:00 und 16 :00 in der Zeitzone des Werbetreibenden abgerufen.
 
 Wenn Sie auf der Registerkarte [!UICONTROL Campaigns] sowohl in der Ansicht [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] als auch in der Ansicht [!UICONTROL Optimization] > [!UICONTROL Portfolios] Berichte zu [!UICONTROL Today] oder einem benutzerdefinierten Datumsbereich erstellen, der den aktuellen Tag enthält, umfassen die Daten die zuletzt synchronisierten Daten.
 
@@ -119,7 +119,7 @@ In den nächsten häufig gestellten Fragen [Unterstützung für paralleles Track
 
 Das parallele Tracking sendet Kundinnen und Kunden direkt von Ihrer Anzeige an Ihre endgültige URL. Diese kann angehängte Parameter aus einem endgültigen URL-Suffix oder dem „Landingpage-Suffix“ enthalten. Die Tracking-Vorlagen-URL (mit zusätzlichen Parametern für die Klick-Messung) wird separat im Hintergrund geladen, was dazu führt, dass die Landingpage schneller geladen wird.
 
-Search, Social und Commerce unterstützen paralleles Tracking für Search- und Shopping-Kampagnen mit der Klickkennung des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [!UICONTROL Landing Page Suffix] [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) oder [Kampagnenebene](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) (in den Werbenetzwerken als &quot;[!DNL final URL suffix]&quot; bezeichnet), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe die [erforderlichen Suffixformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderlichen Suffixformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social und Commerce unterstützen paralleles Tracking für Search- und Shopping-Kampagnen mit der Klickkennung des Anzeigennetzwerks (`msclkid` für [!DNL Microsoft Advertising]; `gclid` für [!DNL Google Ads]). Verwenden Sie eine [ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings)Kontoebene[ oder ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)Kampagnenebene[!UICONTROL Landing Page Suffix] (in den Werbenetzwerken als &quot;[!DNL final URL suffix]&quot; bezeichnet), die an Landingpage-URLs angehängt wird, um Klicks auf untergeordnete Anzeigen von Browsern zu verfolgen, die paralleles Tracking unterstützen. Siehe die [erforderlichen Suffixformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [erforderlichen Suffixformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 Wenn ein(e) Benutzende(r) Ihre Anzeige in einem Browser aufruft, der kein paralleles Tracking unterstützt, verwendet das Werbenetzwerk stattdessen das sequenzielle Tracking: Kundinnen und Kunden werden zunächst an die URL Ihrer Tracking-Vorlage gesendet, die Kundinnen und Kunden möglicherweise zu Tracking-Zwischenservern weiterleitet, bevor sie zur endgültigen URL weitergeleitet werden (die zusätzliche Parameter in einem Landingpage-Suffix enthalten kann). Alle Tracking-Vorlagen für ein Werbenetzwerkkonto sollten denselben Klick-Kennungsparameter enthalten, den Sie in der [!UICONTROL Landing Page Suffix] verwenden. Siehe [Tracking-Vorlagenformate für [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) und [Tracking-Vorlagenformate für [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
@@ -147,7 +147,7 @@ Wenn in der nächsten Feed-Datei Zeileneinträge fehlen und Sie diese Zeileneint
 
 +++(Produktinventar-Feeds) Kann ich die Preise für meine Produkte aktualisieren, ohne die Qualitätsbewertung einer Anzeige zu beeinflussen?
 
-Ja: Mit den Variablen [!DNL Google Ads] `{Param 1}` und `{Param 2}` können Sie für [!DNL Google Ads] Kampagnen numerische Werte dynamisch in eine Anzeigenvariante einfügen, ohne die Anzeige zu löschen und neu zu erstellen und somit ohne die Qualitätsbewertung zu beeinflussen.
+Ja: Mit den Variablen [!DNL Google Ads] [!DNL Google Ads] und `{Param 1}` können Sie für `{Param 2}` Kampagnen numerische Werte dynamisch in eine Anzeigenvariante einfügen, ohne die Anzeige zu löschen und neu zu erstellen und somit ohne die Qualitätsbewertung zu beeinflussen.
 
 Um eine `{Param 1}`- oder `{Param 2}` für Ihre Preisdaten zu verwenden, ordnen Sie die Preisspalte in Ihrer Datendatei dieser Variablen in den entsprechenden Feed-Vorlagen zu und nehmen Sie die Variable dann in Ihre Anzeigenvariantenvorlagen auf.
 
@@ -165,6 +165,6 @@ Wenn die [Feed-Dateneinstellungen](/help/search-social-commerce/campaign-managem
 
 +++Einige meiner Kampagnen geben mehr oder weniger aus als die Kampagnenbudgets.
 
-* Dies ist in einem optimierten Portfolio, das mit der Option &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot; konfiguriert wird, normal. Wenn diese Option aktiviert ist, kann das Budget jeder Kampagne bis *N* Mal verwendet werden, wobei *N* der Wert der Einstellung &quot;[!UICONTROL Multiple]&quot; ist. Diese Option ermöglicht es der Optimierungsfunktion, die Ausgaben für einzelne Kampagnen bei Bedarf anzupassen und gleichzeitig das gesamte Portfolio so zu steuern, dass es seine Zielsetzung erfüllt.
+* Dies ist in einem optimierten Portfolio, das mit der Option &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; konfiguriert wird, normal. Wenn diese Option aktiviert ist, kann das Budget jeder Kampagne bis *N* Mal verwendet werden, wobei *N* der Wert der Einstellung &quot;[!UICONTROL Multiple]&quot; ist. Diese Option ermöglicht es der Optimierungsfunktion, die Ausgaben für einzelne Kampagnen bei Bedarf anzupassen und gleichzeitig das gesamte Portfolio so zu steuern, dass es seine Zielsetzung erfüllt.
 * Wenn [!DNL Google Ads] Kampagnen ein freigegebenes Budget verwenden, passt [!DNL Google Ads] die Ausgaben für einzelne Kampagnen nach Bedarf an, um das gesamte freigegebene Budget auszugeben.
 +++
