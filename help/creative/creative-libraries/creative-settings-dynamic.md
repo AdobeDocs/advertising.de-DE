@@ -2,9 +2,9 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 Hochgeladene Kataloge müssen im ZIP-Format vorliegen und Folgendes enthalten:
 
-* Eine oder mehrere Feed-Dateien im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX).<!-- Need to add more specs for that -->
+* Eine oder mehrere Feeddateien im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX). Die maximale Dateigröße beträgt 512 MB.<!-- Need to add more specs for the feed files -->
 
 * Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format
-
-* (Optional) Video-Assets im MP4- oder WEBM-Format
 
 ### [!UICONTROL Attributes Mapping]
 
