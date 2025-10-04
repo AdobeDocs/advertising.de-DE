@@ -38,7 +38,7 @@ Wenn Sie ein Kreativ-<!-- or creative variation --> bearbeiten, das in einem Bun
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) Drittanbieters<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) Drittanbieters<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Flexible kreative Dateien hinzufügen oder entfernen:
 
@@ -52,7 +52,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
 
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
@@ -62,7 +62,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -94,7 +94,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -190,9 +190,9 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
 
-   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. **[!UICONTROL Create]** klicken
 
