@@ -3,9 +3,9 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
    Standardmäßig werden alle Kreativen ausgewählt, die Sie gerade hochgeladen haben. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Kreativen. Für einige Einstellungen können Sie einzelne Werte angeben. Um Einstellungen für bestimmte Kreative einzugeben, deaktivieren Sie das Kontrollkästchen neben den einzelnen nicht anwendbaren Kreativen.
@@ -60,7 +62,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen mit einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. (Optional) Um eine Vorschau der Vorlage anzuzeigen, klicken Sie auf **[!UICONTROL ...]** neben dem Vorlagennamen und dann auf **[!UICONTROL Preview]**.
 
-   Optional können Sie die Vorlage herunterladen
+   Sie können optional die Vorlage herunterladen: Klicken Sie **[!UICONTROL ...]** neben dem Vorlagennamen und dann auf **[!UICONTROL Download]**.
 
 1. Klicken Sie neben dem Vorlagennamen auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Use Selected]**.
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    Die maximale Dateigröße des Kreativen beträgt nach dem Komprimieren 2 MB.<!-- Still true? -->
 
+1. Fügen Sie Ihre eigenen flexiblen kreativen Dateien hinzu oder entfernen Sie sie:
+
+   * Um eine Datei von Ihrem Gerät oder Netzwerk hinzuzufügen, klicken Sie auf ![Hinzufügen](/help/creative/assets/create.png "Hinzufügen") oben links und suchen Sie die Datei. Aktivieren Sie das Kontrollkästchen neben dem Kreativen, deaktivieren Sie das Kontrollkästchen neben den anderen Kreativen und bearbeiten Sie die [flexiblen HTML5-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5), um die Sprache anzugeben und Ihre eigenen Click-Tags, Bilder und andere Attribute einzuschließen.
+
+   * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
+
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+
 1. Klicken Sie auf **[!UICONTROL Create]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## Hinzufügen eines HTML5-Creative zu einer Kreativbibliothek
 

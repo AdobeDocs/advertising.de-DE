@@ -3,9 +3,9 @@ title: Bearbeiten von Standard-Kreativen in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie die Einstellungen von standardmäßigen (nicht dynamischen) Kreativen in einer Kreativbibliothek ändern.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ Wenn Sie ein Kreativ-<!-- or creative variation --> bearbeiten, das in einem Bun
 
    >[!NOTE]
    >
-   >* (Nur flexible HTML5-Kreative) Sie können Attribute nur für einzelne Kreative bearbeiten.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Nur flexible HTML5-Kreative) Sie können Attribute nur für einzelne Kreative bearbeiten.
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (Flexible HTML5-Kreative; optional) Nachdem Sie Ihre Änderungen vorgenommen haben, klicken Sie über dem Bild ![Vorschau](/help/creative/assets/preview.png "Vorschau"), um eine Vorschau des neuen Kreativen anzuzeigen.
 
 1. Klicken Sie **Speichern**.
 
