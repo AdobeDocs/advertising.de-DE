@@ -2,16 +2,16 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Asset-Dateien
 
-Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Tabellenformat (XLSX) als auch die in der Tabelle referenzierten Bild-Assets erforderlich (mit Ausnahme von Adobe Experience Manager-Asset-Referenzen). Für statische HTML5-Anzeigen ist nur ein Bild-Asset pro Anzeige erforderlich.
+Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Tabellenformat (XLSX) als auch die in der Tabelle referenzierten Bild-Assets erforderlich. Für statische HTML5-Anzeigen ist nur ein Bild-Asset pro Anzeige erforderlich.
 
 
 >[!NOTE]
@@ -24,13 +24,11 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
 
    * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jede Zeile einen Bildnamen ein, indem Sie das `images/image_name` Format verwenden (z. B. `images/300x250_acme_logo.png`).
 
-     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [&#x200B; für dynamische Anzeigenfeed-Dateien) &#x200B;](/help/creative/appendix-available-feed-fields.md).
+     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
    * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format.<!-- Is this true: The maximum file size is two (2) MB. --> Siehe die [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Optional) Video-Assets im MP4- oder WEBM-Format
-
-  Sie können eine einzelne XLSX-Datei, eine einzelne Bild- oder Videodatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination von XLSX-, Bild- und Videodateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  Sie können eine einzelne XLSX-Datei, eine einzelne Bilddatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination aus XLSX- und Bilddateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Statische HTML5-Anzeigen:
 
