@@ -2,9 +2,9 @@
 title: Workflows für dynamische Anzeigen
 description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
 ## Workflow 2
 
-1. [Erstellen Sie eine ](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets.
+1. [Erstellen Sie eine ](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets. Die Anzeigenvorlage enthält eine HTML5-Datei mit dem gewünschten Anzeigenformat und (nur für dynamische HTML5-Anzeigen) eine -Datei mit den Anzeigenattributen.
 
 1. Werbeelemente einrichten:
 

@@ -2,9 +2,9 @@
 title: Verwalten von Feed-Vorlagen
 description: Erfahren Sie, wie Sie Feed-Vorlagen verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ Heruntergeladene Feed-Vorlagen sind im ZIP-Format von Microsoft Excel-Tabellen (
 
 ### [!UICONTROL Field Mapping]
 
-Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backend zu.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Mindestens ein Feld der Feed-Datei muss als &quot;[!UICONTROL Is Unique]&quot; markiert sein. Um eine Feldzuordnung hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Um die letzte Feldzuordnung zu entfernen, klicken Sie auf **[!UICONTROL +]**.
+Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backend zu. Unter [Verfügbare Felder für dynamische Ad-Feed-](/help/creative/appendix-available-feed-fields.md)&quot; finden Sie eine Liste der Backend-Felder und der erforderlichen Attribute.<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+Mindestens ein Feld der Feed-Datei muss als &quot;[!UICONTROL Is Unique]&quot; markiert sein. Um eine Feldzuordnung hinzuzufügen, klicken Sie auf **[!UICONTROL +]**. Um die letzte Feldzuordnung zu entfernen, klicken Sie auf **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** Das Feld in der Feed-Datei.
 
@@ -97,7 +99,7 @@ Ordnen Sie jedes Feld in der Feed-Datei einem Feld im Advertising Creative-Backe
 
 **[!UICONTROL Is Unique]:** Gibt an, dass das Feld eine eindeutige ID (Schlüssel) ist. Mindestens ein Feld pro Feed-Vorlage muss eindeutig sein. Um diese Option auszuwählen, klicken Sie auf die Schaltfläche, um sie nach rechts zu verschieben.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Das Feld im Advertising Creative-Backend, das dem angegebenen [!UICONTROL Field Name] in der Feed-Datei zugeordnet ist.
+**[!UICONTROL Backend Field]:** Das [Feld im Advertising Creative-Backend](/help/creative/appendix-available-feed-fields.md) das dem angegebenen [!UICONTROL Field Name] in der Feed-Datei zugeordnet wird.
 
 >[!MORELIKETHIS]
 >

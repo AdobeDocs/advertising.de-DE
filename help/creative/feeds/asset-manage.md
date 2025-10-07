@@ -2,9 +2,9 @@
 title: Verwalten von Asset-Dateien
 description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochladen und verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Für dynamische HTML5-Anzeigen sind sowohl eine Feed-Datei im Microsoft Excel-Ta
 
 * Dynamic HTML5-Anzeigen:
 
-   * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen oder einen Verweis auf eine Adobe Experience Manager ein.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jede Zeile einen Bildnamen ein, indem Sie das `images/image_name` Format verwenden (z. B. `images/300x250_acme_logo.png`).
 
-     Referenzieren Sie das Bild für Bilder, die Sie hochladen möchten, mit dem `images/image_name` Format (z. B. `images/300x250_acme_logo.png`)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
    * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format.<!-- Is this true: The maximum file size is two (2) MB. --> Siehe die [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Alle ZIP-Dateien werden automatisch dekomprimiert. Wenn Sie eine Tabellenkalkula
 
 >[!MORELIKETHIS]
 >
+>* [Verfügbare Felder für dynamische Anzeigen-Feed-Dateien](/help/creative/appendix-available-feed-fields.md)
 >* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Verwalten von Feed-Vorlagen](/help/creative/feeds/feed-template-manage.md)
 >* [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
