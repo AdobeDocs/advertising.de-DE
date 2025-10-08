@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Hier finden Sie eine Liste der verfügbaren anbieterseitigen Plattformen (SSP) und der offenen Exchange-Partner.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Eine Plattform auf der Angebotsseite (Supply-Side Platform, SSP) ist eine Werbet
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Desktop- und Mobile-Video<br><br>Desktop und Mobilgerät anzeigen |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL Magnite DV+] | [!DNL Magnite] (früher [!DNL Rubicon]) | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | USD | Audio Desktop und Mobile<br><br>Display Desktop und Mobile<br><br>Video Desktop, Mobile und CTV |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | USD | Video Desktop, Mobile und CTV |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (früher [!DNL Telaria] und [!DNL Tremor]) | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | AUD, USD | Video Desktop, Mobile und CTV |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] (früher [!DNL Xandr], [!DNL AppNexus]) | Video Seat ID: 9094<br>Display Seat ID: 3939 | — | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL Nexxen] | [!DNL Nexxen] (früher [!DNL Unruly]) | Adobe Advertising | — | USA + EMEA | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
