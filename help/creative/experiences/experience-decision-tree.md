@@ -3,9 +3,9 @@ title: Das Layout des Entscheidungsbaums
 description: Erfahren Sie mehr über das Entscheidungsbaum-Layout für Erlebnisse beim Targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Zunächst beginnt jeder Entscheidungsbaum mit der Stammebene „Alle“. Sie kö
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Begriffe
 
@@ -50,7 +50,7 @@ Für alle übergeordneten Knoten können Sie optional alle untergeordneten Zielk
 
 Weisen Sie jedem endgültigen Zielknoten im Erlebnis kreative Bundles zu.
 
-Innerhalb jedes Knotens mit kreativen Bundles können Sie die enthaltenen Kreativen optional rotieren, entweder a) entsprechend der angegebenen Gewichtung oder b) algorithmisch, um die Clickthrough-Rate oder ein benutzerdefiniertes Ziel zu optimieren. Optional können Sie die Kreativen auch in einer bestimmten Zeitsequenz drehen, indem Sie dieselben Optionen verwenden.
+Innerhalb jedes Knotens mit kreativen Bundles können Sie optional die eingeschlossenen Kreativen a) algorithmisch drehen, um die Clickthrough-Rate oder ein benutzerdefiniertes Ziel zu optimieren, b) entsprechend einer bestimmten Gewichtung oder c) in einer bestimmten Sequenz. Optional können Sie auch die Kreativen in einer bestimmten Zeitsequenz drehen, indem Sie eine beliebige Kombination derselben Optionen auswählen.
 
 Sie können bei Bedarf die URLs für Landingpages, Impression-Tracking-URLs und Klick-Tracking-URLs für einzelne Kreative anpassen. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
