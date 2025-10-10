@@ -3,9 +3,9 @@ title: Das Layout des Entscheidungsbaums
 description: Erfahren Sie mehr über das Entscheidungsbaum-Layout für Erlebnisse beim Targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Zunächst beginnt jeder Entscheidungsbaum mit der Stammebene „Alle“. Sie kö
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Begriffe
 
@@ -36,7 +36,9 @@ Zunächst beginnt jeder Entscheidungsbaum mit der Stammebene „Alle“. Sie kö
 
 ## Ziele in einem Entscheidungsbaum
 
-Jeder Entscheidungsbaum kann bis zu fünf Zielgruppenebenen haben. Jede Zielebene kann mehrere Verzweigungen mit jeweils einem oder mehreren Knoten mit demselben Zieltyp enthalten (Zielgruppensegment, geografischer Standorttyp, Werte für angegebene Datenübergabeschlüssel, Attribute für ein bestimmtes Retargeting-Pixel oder Gerätekategorie). Sie können den Zielknoten der untersten Ebene Kreativ-Bundles in jeder Anzeigengröße zuweisen, für die Sie ein Standardbild oder ein Kreativ-Video angegeben haben.
+Jeder Entscheidungsbaum kann bis zu fünf Zielgruppenebenen haben. Die Ziele auf Erlebnisebene werden in Verbindung mit den Zielgruppenbestimmungsoptionen Ihrer DSP angewendet. Das hierarchische Zielgruppenbestimmungsverhalten kann je nach DSP variieren. Stellen Sie sicher, dass Ihre Anzeigenerlebnisse ein Targeting enthalten, das mit den Kampagnen kompatibel ist, in denen Sie es implementieren werden.
+
+Jede Zielebene kann mehrere Verzweigungen mit jeweils einem oder mehreren Knoten mit demselben Zieltyp enthalten (Zielgruppensegment, geografischer Standorttyp, Werte für angegebene Datenübergabeschlüssel, Attribute für ein bestimmtes Retargeting-Pixel oder Gerätekategorie). Sie können den Zielknoten der untersten Ebene Kreativ-Bundles in jeder Anzeigengröße zuweisen, für die Sie ein Standardbild oder ein Kreativ-Video angegeben haben.
 
 ![Beispiel eines Entscheidungsbaums mit Zielen](/help/creative/assets/experience-decision-tree.png "Beispiel eines Entscheidungsbaums mit Zielen")
 
