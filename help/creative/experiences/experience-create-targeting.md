@@ -55,9 +55,9 @@ Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungs
 
            Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
-         * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles ](experience-tracking-urls-targeting.md).
+         * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
 
-         * [Passen Sie die kreative Optimierung und ](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+         * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
 
 1. (Optional) Wechseln zwischen Entscheidungsbaum und allgemeinen Einstellungen:
 

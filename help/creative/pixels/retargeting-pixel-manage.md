@@ -29,7 +29,7 @@ Beispiel-Pixel:
 >[!NOTE]
 >
 > * [!DNL Creative] unterstützt universelle IDs nur für Advertising DSP.
->* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ ](/help/creative/experiences/experience-settings-targeting.md).
+>* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ &#x200B;](/help/creative/experiences/experience-settings-targeting.md).
 >* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden. Advertising DSP wendet Targeting auf Anzeigenebene zusätzlich zum Targeting auf (nicht anstelle des Targeting auf Platzierungsebene an.
 >* Website-Besuchende, die sich gegen das Tracking für das Anzeigen-Targeting entschieden haben, erhalten keine Anzeigen mit personalisierten kreativen Inhalten, die auf dem Zielgruppensegment oder dem Retargeting-Profil basieren.
 
