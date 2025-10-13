@@ -3,9 +3,9 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie die standardmäßige
 * Um den Kreativbereich auf der rechten Seite ein- oder auszublenden, klicken Sie ![Anzeigen/Ausblenden](/help/creative/assets/hide-show-creatives.png "Anzeigen/Ausblenden") oben rechts im rechten Bereich.
 
 ## [!UICONTROL Targeting]
+
+Die Ziele auf Erlebnisebene werden in Verbindung mit den Zielgruppenbestimmungsoptionen Ihrer DSP angewendet. Das hierarchische Zielgruppenbestimmungsverhalten kann je nach DSP variieren. Adobe Advertising DSP wendet beispielsweise das Targeting auf Anzeigenebene zusätzlich zum Targeting auf (nicht anstelle des Targeting auf Platzierungsebene an. Stellen Sie sicher, dass Ihre Anzeigenerlebnisse ein Targeting enthalten, das mit den Kampagnen kompatibel ist, in denen Sie es implementieren werden.
 
 **[!UICONTROL Targeting]:** (Schreibgeschützt für vorhandene Erlebnisse) Aktiviert das kreative Targeting mithilfe eines Entscheidungsbaums und der automatischen Tag-Erstellung. Nachdem Sie das Erlebnis gespeichert haben, können Sie diese Einstellung nicht mehr ändern.
 

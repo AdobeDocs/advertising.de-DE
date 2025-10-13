@@ -3,9 +3,9 @@ title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-Sie können ein Retargeting-Pixel erstellen, um Besucher der Landingpages oder Konversionsseiten eines Advertisers mithilfe von Benutzer-Cookies oder universellen IDs zu identifizieren und bestimmte Attribute zu erfassen, die die Seiten für diese Besucher verfolgen. Das Pixel verfolgt das Ereignis, das der Besucher zuletzt auf der Seite ausgeführt hat. Nachdem Sie das Pixel erstellt haben, können Sie ein Pixel-Tag generieren, das Sie in die entsprechenden Web-Seiten einfügen können, um Besucher zu verfolgen.<!-- Note to self: surfer id=cookie or universal ID -->
+Sie können ein Retargeting-Pixel erstellen, um Besucher der Landingpages oder Konversionsseiten eines Advertisers mithilfe von Benutzer-Cookies oder universellen IDs zu identifizieren. Das Pixel verfolgt das jüngste Ereignis, das der Besucher auf einer Seite durchführt, und erfasst bestimmte Attribute, die die Seite für diese Besucher verfolgt. Generieren Sie nach dem Erstellen des Pixels ein Pixel-Tag, das Sie in die entsprechenden Web-Seiten einfügen können, um Besucher zu verfolgen.<!-- Note to self: surfer id=cookie or universal ID -->
 
-Sie können dann das Pixel als Ziel für jedes kreative Element innerhalb eines Anzeigenerlebnisses verwenden, um Anzeigen nur Benutzern mit bestimmten Attributen anzuzeigen, die zuvor die mit dem Pixel verknüpften Web-Seiten besucht haben. Sie können beispielsweise Besucherinnen und Besucher, die rote Schuhe in Größe 10 anzeigen, ansprechen, wenn die Web-Seiten diese Attributwerte verfolgen.<!-- better example? Make sure they match attribute examples below -->
+Sie können dann das Pixel als Ziel für jedes kreative Element innerhalb eines Anzeigenerlebnisses verwenden, um Anzeigen nur Benutzern mit bestimmten Attributen anzuzeigen, die zuvor die mit dem Pixel verknüpften Web-Seiten besucht haben. Sie können beispielsweise Besucherinnen und Besucher, die rote Schuhe in Größe 10 betrachten, ansprechen, wenn die Web-Seiten diese Attributwerte verfolgen.<!-- better example? Make sure they match attribute examples below --> Die Zielgruppen auf Erlebnisebene werden in Verbindung mit den Zielgruppenbestimmungsoptionen Ihrer DSP angewendet. Das hierarchische Zielgruppenbestimmungsverhalten kann je nach DSP variieren.
 
 Retargeting-Profile werden 180 Tage lang gespeichert.
 
@@ -28,9 +28,9 @@ Beispiel-Pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] unterstützt derzeit universelle IDs nur für Advertising DSP. In einer zukünftigen Version werden universelle IDs für DSPs von Drittanbietern unterstützt.<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative] unterstützt universelle IDs nur für Advertising DSP.
 >* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ ](/help/creative/experiences/experience-settings-targeting.md).
->* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden.
+>* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden. Advertising DSP wendet Targeting auf Anzeigenebene zusätzlich zum Targeting auf (nicht anstelle des Targeting auf Platzierungsebene an.
 >* Website-Besuchende, die sich gegen das Tracking für das Anzeigen-Targeting entschieden haben, erhalten keine Anzeigen mit personalisierten kreativen Inhalten, die auf dem Zielgruppensegment oder dem Retargeting-Profil basieren.
 
 ## Erstellen eines Retargeting-Pixels
@@ -75,9 +75,9 @@ Beispiel-Pixel:
 
 1. Geben Sie im Pixel-Tag einen Wert für jedes Attribut sowohl im `<img src>`- als auch im `<script src>`-Abschnitt an, indem Sie jedes &quot;`Insert <attribute>`&quot; durch einen Wert ersetzen. Geben Sie eine ID5-Partner-ID an, wenn das Tag eine universelle ID erfasst.
 
-   Wenn Sie zusätzliche Attribute manuell hinzufügen, müssen Sie die URL-Codierung einbeziehen.
+   Wenn Sie zusätzliche Attribute manuell hinzufügen, schließen Sie die URL-Codierung ein.
 
-   Wenn Sie beispielsweise die Attribute „category“, „color“ und „size“ einbeziehen und universelle IDs der Kategorie „id5“ erfassen, enthält das Pixel-Tag die folgenden Parameter: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` und `&id5pid=--Insert ID5_PARTNER_ID--`. Um beispielsweise Benutzer anzusprechen, die rote Sandalen in Größe 10 auswählen, ändern Sie die Parameter sowohl im Bild-Tag als auch im Skript-Tag in `&ut1=sandals&ut2=red&ut3=10` und geben Sie außerdem Ihre ID5-Partner-ID im Skript-Tag ein, z. B. `&id5pid=0123456789`.
+   Wenn Sie beispielsweise die Attribute „category“, „color“ und „size“ einbeziehen und universelle IDs der Kategorie „id5“ erfassen, enthält das Pixel-Tag die folgenden Parameter: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` und `&id5pid=--Insert ID5_PARTNER_ID--`. Um Benutzer anzusprechen, die rote Sandalen in Größe 10 auswählen, ändern Sie die Parameter sowohl im Bild-Tag als auch im Skript-Tag in `&ut1=sandals&ut2=red&ut3=10` und geben Sie außerdem Ihre ID5-Partner-ID im Skript-Tag ein, z. B. `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
