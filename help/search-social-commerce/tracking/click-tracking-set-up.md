@@ -18,7 +18,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 1. [Geben Sie die richtigen Tracking-Optionen für die einzelnen Konten und Kampagnen des Werbenetzwerks des Werbetreibenden an](#set-up-click-tracking-options).
 
-1. Generieren [ bei Bedarf Tracking-URLs und laden Sie sie ](#generate-upload-tracking-urls) einige Kampagnenelemente hoch.
+1. Generieren [&#x200B; bei Bedarf Tracking-URLs und laden Sie sie &#x200B;](#generate-upload-tracking-urls) einige Kampagnenelemente hoch.
 
 1. [Validieren Sie das Format einiger Klick-Tracking-URLs und testen Sie sie, um sicherzustellen, dass die richtige Landingpage geöffnet wird](#validate-tracking-urls).
 
@@ -56,7 +56,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 ## Tracking-URLs generieren und hochladen {#generate-upload-tracking-urls}
 
-Siehe &quot;[ und Generieren von Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
+Siehe &quot;[&#x200B; und Generieren von Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
 ### Testen des Formats von Klick-Tracking-URLs {#validate-tracking-urls}
 

@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * [!UICONTROL Custom Goals] (sortiert nach Advertiser)
 
-Beschreibungen [ Optionen finden Sie unter „Verfügbare ](report-columns.md)&quot;.
+Beschreibungen [&#x200B; Optionen finden Sie unter „Verfügbare &#x200B;](report-columns.md)&quot;.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Die Reihenfolge der Spaltenüberschriften. Sie können eine beliebige Spalte per Drag-and-Drop verschieben, um die Reihenfolge anzupassen.
 

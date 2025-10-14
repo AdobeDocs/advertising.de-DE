@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
 
-Sie können Keywords für Suchanzeigengruppen in „Unterstützte Kampagnentypen[ erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die die Suche und Anzeige/native Netzwerke in einem [synchronisierten Anzeigennetzwerkkonto“ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Sie können Keywords für Suchanzeigengruppen in „Unterstützte Kampagnentypen[&#x200B; erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die die Suche und Anzeige/native Netzwerke in einem [synchronisierten Anzeigennetzwerkkonto“ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## Schlüsselwörter erstellen
 

@@ -33,9 +33,9 @@ Sie können bis zu 2.000 Keywords eingeben oder einfügen. Trennen Sie mehrere K
 
 ## Platzhalter
 
-**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param1}`benutzerdefinierten Parameter[ enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param1]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param1}`benutzerdefinierten Parameter[&#x200B; enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param2}`benutzerdefinierten Parameter[ enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param2]:** Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL oder Tracking-Vorlage den `{param2}`benutzerdefinierten Parameter[&#x200B; enthält](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-Optionen
 

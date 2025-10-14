@@ -54,7 +54,7 @@ Ein Portfolio kann die folgenden Status aufweisen:
 
 ## Die [!UICONTROL Portfolios]
 
-In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 

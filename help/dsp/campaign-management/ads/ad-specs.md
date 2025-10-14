@@ -20,7 +20,7 @@ Die Werbeanzeigen werden standardmäßig auf Desktop- und Mobilgeräten sowie au
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
 
 ### Voraussetzungen für HD-Video-Assets
 
@@ -90,7 +90,7 @@ Die universelle Anzeige wird unterstützt.
 
 **Empfohlene Anzeigengrößen:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
 
-**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
+**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
 
 ## Audio-Anzeigen
 
@@ -100,7 +100,7 @@ Desktop, Mobilgerät, Tablet, Smart-Lautsprecher und Connected TV
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
 
 ### Voraussetzungen für Audio Assets
 

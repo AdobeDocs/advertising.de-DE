@@ -32,7 +32,7 @@ Sie können den Status von Anzeigen in der Ansicht [!UICONTROL Campaigns] > [!UI
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne, die Anzeigengruppe und den Anzeigentyp aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-   Weitere Informationen zu den verschiedenen Anzeigentypen finden Sie unter &quot;[ zu Anzeigen](ad-about.md).
+   Weitere Informationen zu den verschiedenen Anzeigentypen finden Sie unter &quot;[&#x200B; zu Anzeigen](ad-about.md).
 
 1. Geben Sie die Einstellungen [[!DNL Baidu] Textanzeige](ad-settings-baidu-text.md), [[!DNL Google Ads] Nur-Aufruf-Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] Erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google-Anzeigen nur „dynamische Suchanzeige“ genannt), [[!DNL Google Ads] Responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] Erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktanzeige](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] Responsive (Zielgruppe) Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] Responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [[!DNL Yandex] Text-Anzeige](ad-settings-yandex-text.md) ein.
 

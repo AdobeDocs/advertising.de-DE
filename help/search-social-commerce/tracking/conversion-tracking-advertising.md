@@ -18,7 +18,7 @@ Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren
 >
 >Wenn der Benutzer kein gültiges Cookie hat, meldet Adobe Advertising die Konversion nicht.
 
-Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Stellen Sie dem Werbetreibenden oder der Agentur die Tags mit einer Liste von Web-Seiten zur Verfügung, auf denen jeder Tag eingefügt werden soll. Sie können einen der folgenden Typen von Konversions-Tags generieren. Anweisungen finden [ unter „Generieren eines Adobe Advertising-](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;.
+Für jeden Satz von Konversionsmetriken, den Sie verfolgen möchten, müssen Sie ein separates Konversions-Tag erstellen. Stellen Sie dem Werbetreibenden oder der Agentur die Tags mit einer Liste von Web-Seiten zur Verfügung, auf denen jeder Tag eingefügt werden soll. Sie können einen der folgenden Typen von Konversions-Tags generieren. Anweisungen finden [&#x200B; unter „Generieren eines Adobe Advertising-](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;.
 
 * (Empfohlen) JavaScript-Tags (Version 3 oder Version 2), die nicht auf den Web-Seiten sichtbar sind.
 

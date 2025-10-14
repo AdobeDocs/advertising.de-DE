@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. Klicken Sie auf **[!UICONTROL Generate Insight]**.
 
-   Sie erhalten eine Benachrichtigung, wenn der Auftrag abgeschlossen wurde oder fehlschlägt, basierend auf Ihren [ Benachrichtigungseinstellungen ](/help/search-social-commerce/notifications/notification-edit.md) der [!UICONTROL Advertising Insights].
+   Sie erhalten eine Benachrichtigung, wenn der Auftrag abgeschlossen wurde oder fehlschlägt, basierend auf Ihren [&#x200B; Benachrichtigungseinstellungen &#x200B;](/help/search-social-commerce/notifications/notification-edit.md) der [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

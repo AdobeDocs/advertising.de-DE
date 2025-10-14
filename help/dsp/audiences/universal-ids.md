@@ -20,7 +20,7 @@ DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting v
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP kann Ihre Erstanbietersegmente, die aus gehashten E-Mail-IDs bestehen, aufnehmen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und sie in [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[ zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+* DSP kann Ihre Erstanbietersegmente, die aus gehashten E-Mail-IDs bestehen, aufnehmen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und sie in [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
 * Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind und bestimmte Web-Seiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browser-Signalen abgeleitet wird. Anweisungen finden Sie unter [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).
 
@@ -126,7 +126,7 @@ Wenn Sie keine Benutzeranzahl sehen oder Ihre Zielgruppengrößen niedrig sind, 
 
 * Stellen Sie sicher, dass auf Ihrer Website der richtige, universelle Partner-spezifische ID-Code implementiert ist, um Ereignisse vor Ort und Anzeigen-Expositionen abzugleichen. Arbeiten Sie bei Bedarf mit Ihrem [!DNL LiveRamp] oder [!DNL ID5].
 
-* (Für [!DNL RampIDs]- und [!DNL UID 2.0]-IDs) Vergewissern Sie sich, dass Ihre [DSP-Datenquelle korrekt konfiguriert ist ](/help/dsp/audiences/sources/source-manage.md#source-settings) dass die Benutzerzahlen für die generierten Zielgruppensegmente ausgefüllt sind.
+* (Für [!DNL RampIDs]- und [!DNL UID 2.0]-IDs) Vergewissern Sie sich, dass Ihre [DSP-Datenquelle korrekt konfiguriert ist &#x200B;](/help/dsp/audiences/sources/source-manage.md#source-settings) dass die Benutzerzahlen für die generierten Zielgruppensegmente ausgefüllt sind.
 
 * Wenn Sie weniger Reichweite haben als erwartet, stellen Sie sicher, dass die Logik des Zielgruppensegments nicht zu detailliert ist.
 

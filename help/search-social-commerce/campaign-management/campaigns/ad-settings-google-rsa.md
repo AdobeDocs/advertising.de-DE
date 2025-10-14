@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Einstellungen für responsive Suchanzeigen [!DNL Google Ads]
 
-[!DNL Google Ads] stellt [Responsive Search Ads) ](https://support.google.com/google-ads/answer/7684791?hl=en) bis zu drei Überschriften und zwei Beschreibungen dynamisch zusammen.
+[!DNL Google Ads] stellt [Responsive Search Ads) &#x200B;](https://support.google.com/google-ads/answer/7684791?hl=en) bis zu drei Überschriften und zwei Beschreibungen dynamisch zusammen.
 
 >[!NOTE]
 >

@@ -71,11 +71,11 @@ Ihre Anzeigen im Netzwerk der Suchpartner des Werbenetzwerks. Standardmäßig is
 
 **[!UICONTROL Bid strategy]:** Die Bid-Strategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
+* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann am 15[&#x200B; März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Manual CPC]* (Standard): (Für Kampagnen mit dem Typ „Performance Max“ nicht verfügbar) Verwendet das CPC-Modell (Cost Per Click) . Optional können Sie dem Werbenetzwerk erlauben, Gebote für die Kampagne zu ändern:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
+   * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann am 15[&#x200B; März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Maximize Clicks]:* (Search-, Display- und Shopping-Kampagnen) Das Anzeigennetzwerk - nicht Search, Social und Commerce - optimiert Angebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk für jeden Klick nicht mehr als einen bestimmten Betrag zahlt. **Achtung:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden Gebote durch die Klickgewichtung gesteuert und nicht durch das Portfolioziel.
 
@@ -261,7 +261,7 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 **[!UICONTROL Final URL]:** Die endgültige URL für alle Anzeigen, die aus der Asset-Gruppe erstellt wurden. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Bis zu 15 Bilder für die Anzeige, einschließlich der folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Porträtbild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
+**[!UICONTROL Images]:** Bis zu 15 Bilder für die Anzeige, einschließlich der folgenden Größen: 1) mindestens drei quadratische Bilder, 2) mindestens drei Landschaftsbilder und 3) mindestens ein Porträtbild. Siehe [[!DNL Google Ads] Bildspezifikationen](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
 
 * So laden Sie Bilder hoch:
 
@@ -283,7 +283,7 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 * Um Bilder aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformat (4:1) Logo. Sie können bis zu fünf von jeder Größe einbeziehen. Siehe &quot;[[!DNL Google Ads] &quot; ](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
+**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformat (4:1) Logo. Sie können bis zu fünf von jeder Größe einbeziehen. Siehe &quot;[[!DNL Google Ads] &quot; &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
 
 * So laden Sie Bilder hoch:
 

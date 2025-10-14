@@ -80,7 +80,7 @@ Für [!DNL Google Ads]- und [!DNL Google Microsoft Advertising]-Kampagnen in den
 
 Ihr Adobe Advertising-Team hilft Ihnen, die Ereignisse, die für die Paid-Media-Leistung relevant sind, zu identifizieren und in Adobe Advertising zuzuordnen, wo sie unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Conversions] aufgeführt sind.
 
-Eine Liste der verfügbaren [ finden Sie unter &quot;](analytics-data-in-advertising.md) in Adobe Advertising&quot;.
+Eine Liste der verfügbaren [&#x200B; finden Sie unter &quot;](analytics-data-in-advertising.md) in Adobe Advertising&quot;.
 
 ### Analytics-Segmente für Site-Retargeting
 

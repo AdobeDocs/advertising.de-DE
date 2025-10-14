@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## (Alte Benutzeroberfläche) Bearbeiten eines Filtersatzes in der Ansicht Kampagnenverwaltung
 
-1. Klicken Sie ![ der Symbolleiste ](/help/search-social-commerce/assets/filter.png "Filter").
+1. Klicken Sie ![&#x200B; der Symbolleiste &#x200B;](/help/search-social-commerce/assets/filter.png "Filter").
 
 1. Führen Sie in den Filtereinstellungen einen der folgenden Schritte aus:
 

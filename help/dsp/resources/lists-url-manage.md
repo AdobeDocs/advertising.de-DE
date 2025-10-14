@@ -59,7 +59,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
@@ -127,7 +127,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 

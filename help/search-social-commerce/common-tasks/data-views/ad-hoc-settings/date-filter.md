@@ -23,8 +23,8 @@ Wenn Sie einen bestimmten Datumsbereich für eine Standardansicht oder benutzerd
 >[!NOTE]
 >
 >* Sie können Daten der vorherigen 13 Monate anzeigen, aber alle vorhandenen benutzerdefinierten Ansichten können nur Daten für bis zu den vorherigen 180 Tagen enthalten.
->* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
->* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
+>* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Ändern des globalen Datumsfilters in Kampagnenansichten
 

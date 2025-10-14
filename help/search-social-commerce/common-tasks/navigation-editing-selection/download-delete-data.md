@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

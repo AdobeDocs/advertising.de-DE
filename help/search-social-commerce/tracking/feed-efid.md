@@ -36,7 +36,7 @@ Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein(e) Benutzende(r
 
 1. Der technische Dienst analysiert die Konvertierungsdaten in den hochgeladenen Dateien und lädt die Daten dann auf die Adobe Advertising hoch. Adobe Advertising verfolgt die Daten dann anhand einzelner Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
 
-1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; ](/help/search-social-commerce/glossary.md#o-p).
+1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; &#x200B;](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

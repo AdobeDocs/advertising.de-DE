@@ -52,7 +52,7 @@ Um diese Funktion zu verwenden, führen Sie die folgenden Schritte aus. Die Schr
 
      Alle hochgeladenen Daten werden in Echtzeit mit [!DNL Google Ads] synchronisiert.
 
-   * Weitere Informationen zum Hochladen von Daten mit [!DNL Google Data Manager] finden Sie unter &quot;[ zum Daten-Manager](https://support.google.com/google-ads/answer/14639041).
+   * Weitere Informationen zum Hochladen von Daten mit [!DNL Google Data Manager] finden Sie unter &quot;[&#x200B; zum Daten-Manager](https://support.google.com/google-ads/answer/14639041).
 
 >[!MORELIKETHIS]
 >

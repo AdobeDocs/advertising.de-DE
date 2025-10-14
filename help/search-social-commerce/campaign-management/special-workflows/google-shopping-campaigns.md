@@ -28,7 +28,7 @@ Sie können Shopping-Kampagnen [!DNL Google Shopping] mithilfe von [Inventar-Fee
 
 1. [Erstellen einer Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) im Shopping-Netzwerk.
 
-1. [Erstellen Sie innerhalb ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
+1. [Erstellen Sie innerhalb &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
 
    Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
@@ -51,7 +51,7 @@ Sie können Shopping-Kampagnen [!DNL Google Shopping] mithilfe von [Inventar-Fee
 
       Wenn die Kampagne Teil eines Portfolios ist, können Search, Social und Commerce mit der Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; die Budgets für alle Kampagnen im Portfolio optimieren.
 
-   1. [Passen Sie das maximale Angebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [löschen Sie Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe „Alle Produkte“ ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), um Anzeigen für zusätzliche Produkte zu erstellen.
+   1. [Passen Sie das maximale Angebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [löschen Sie Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe „Alle Produkte“ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), um Anzeigen für zusätzliche Produkte zu erstellen.
 
 >[!NOTE]
 >

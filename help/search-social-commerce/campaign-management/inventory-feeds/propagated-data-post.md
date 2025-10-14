@@ -18,11 +18,11 @@ Sie können Kampagnendaten, die aus einem Feed generiert wurden, veröffentliche
 
 Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen zugewiesen werden, alle Keywords und Anzeigen müssen Anzeigengruppen zugewiesen werden und alle erforderlichen Informationen müssen ohne Längenverletzungen enthalten sein.
 
-* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben[ veröffentlichen Sie die generierte Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)Datei (mit dem Namen &quot;`<feed file name>_<template name>`„) aus der [!UICONTROL Bulksheets].
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben[&#x200B; veröffentlichen Sie die generierte Bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)Datei (mit dem Namen &quot;`<feed file name>_<template name>`„) aus der [!UICONTROL Bulksheets].
 
   Wenn Sie Ihre Landingpages zuvor nicht [validiert haben](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) können Sie dies tun, bevor Sie die Datei posten.
 
-* Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem [[!UICONTROL New] Status ](propagated-data-status.md) einer Kampagnenhierarchieansicht von der Registerkarte &quot;[!UICONTROL Templates]&quot; aus veröffentlichen.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem [[!UICONTROL New] Status &#x200B;](propagated-data-status.md) einer Kampagnenhierarchieansicht von der Registerkarte &quot;[!UICONTROL Templates]&quot; aus veröffentlichen.
 
   >[!NOTE]
   >
@@ -30,7 +30,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
 
   >[!TIP]
   >
-  >Wenn Sie Ihre Landingpages zuvor nicht validiert haben und dies tun möchten, [ Sie die Daten in der [!UICONTROL Bulksheets]-Ansicht ](feed-data-propagate.md) und in der Vorschau anzeigen, anstatt sie im Werbenetzwerk zu posten. Anschließend können Sie [URLs überprüfen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) bevor Sie die Datei manuell im Werbenetzwerk posten.
+  >Wenn Sie Ihre Landingpages zuvor nicht validiert haben und dies tun möchten, [&#x200B; Sie die Daten in der [!UICONTROL Bulksheets]-Ansicht &#x200B;](feed-data-propagate.md) und in der Vorschau anzeigen, anstatt sie im Werbenetzwerk zu posten. Anschließend können Sie [URLs überprüfen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) bevor Sie die Datei manuell im Werbenetzwerk posten.
 
    1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, wodurch die Registerkarte [!UICONTROL Templates] geöffnet wird.
 
@@ -50,7 +50,7 @@ Für eine erfolgreiche Veröffentlichung müssen alle Anzeigengruppen Kampagnen 
 
             * **[!UICONTROL Start Time]:** Ein Datum und eine Uhrzeit in der Zukunft, zu der die Bulksheet-Datei im Anzeigennetzwerk veröffentlicht werden soll. Standardmäßig wird die Datei am nächsten Tag um 0:00 Uhr (12:00 Uhr) gesendet. **Hinweis** Bei großen Dateien, die eine längere Verarbeitung erfordern, sind die veröffentlichten Daten nicht sofort in den Kampagnenverwaltungsansichten oder im Anzeigenmanager des Netzwerks verfügbar.
 
-            * **[!UICONTROL End Time]:** Ein künftiges Datum und eine zukünftige Uhrzeit, zu der die veröffentlichten Anzeigen basierend auf der Einstellung &quot;[-Daten“ ](feed-settings-manage.md#feed-data-settings) &quot;[!UICONTROL When the Scheduled End Date is reached]&quot; angehalten oder gelöscht werden können. Standardmäßig ist die Endzeit um 00:00 Uhr (12:00 Uhr) 30 Tage von heute entfernt. Wählen Sie **[!UICONTROL None]** aus, um die Daten unbegrenzt aktiv zu halten (oder bis Sie neue Daten für die Vorlage übertragen), oder geben Sie ein Datum und eine Uhrzeit an.
+            * **[!UICONTROL End Time]:** Ein künftiges Datum und eine zukünftige Uhrzeit, zu der die veröffentlichten Anzeigen basierend auf der Einstellung &quot;[-Daten“ &#x200B;](feed-settings-manage.md#feed-data-settings) &quot;[!UICONTROL When the Scheduled End Date is reached]&quot; angehalten oder gelöscht werden können. Standardmäßig ist die Endzeit um 00:00 Uhr (12:00 Uhr) 30 Tage von heute entfernt. Wählen Sie **[!UICONTROL None]** aus, um die Daten unbegrenzt aktiv zu halten (oder bis Sie neue Daten für die Vorlage übertragen), oder geben Sie ein Datum und eine Uhrzeit an.
 
               Um ein Datum anzugeben, verwenden Sie das Format TT/MM/JJJJ oder TT/M/JJJJ oder klicken Sie auf ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender"), um den Kalender zu öffnen und [ein Datum auszuwählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Um eine Zeit zu ändern, geben Sie die Zeit im 24-Stunden-Format HH/MM oder H/M ein oder wählen Sie eine Zeit (in 30-Minuten-Intervallen) aus der Liste aus.
 

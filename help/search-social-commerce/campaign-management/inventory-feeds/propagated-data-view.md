@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wenn Sie Feed-Daten übertragen, ohne sie gleichzeitig im Anzeigennetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten in der Vorschau anzeigen. Sie können später optional [Daten](propagated-data-post.md) von beiden Standorten an die entsprechenden Werbenetzwerke senden.
 
-* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, zeigen Sie das generierte Bulksheet (mit dem Namen &quot;`<feed file name>_<template name>`„) in der [!UICONTROL Bulksheets] an. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten. Mit dieser Option können Sie [ Landingpages, die mit den Anzeigen und Keywords ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) sind, validieren, bevor Sie die Daten posten.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, zeigen Sie das generierte Bulksheet (mit dem Namen &quot;`<feed file name>_<template name>`„) in der [!UICONTROL Bulksheets] an. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten. Mit dieser Option können Sie [&#x200B; Landingpages, die mit den Anzeigen und Keywords &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) sind, validieren, bevor Sie die Daten posten.
 
 * Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, zeigen Sie die generierten Daten in einer Kampagnenhierarchieansicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] an.
 

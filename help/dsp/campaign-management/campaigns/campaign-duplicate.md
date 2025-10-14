@@ -80,7 +80,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
-* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, ](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
+* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
 
 >[!MORELIKETHIS]
 >

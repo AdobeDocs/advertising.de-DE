@@ -24,7 +24,7 @@ Richten Sie Tabellen-Feeds mit speziell formatierten [!DNL Excel]-Tabellenvorlag
 
    1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create]**.
 
-   1. Geben Sie im Dialogfeld **[!UICONTROL Add Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ ](spreadsheet-feed-settings.md).
+   1. Geben Sie im Dialogfeld **[!UICONTROL Add Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ &#x200B;](spreadsheet-feed-settings.md).
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 

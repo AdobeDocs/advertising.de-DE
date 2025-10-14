@@ -112,7 +112,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 

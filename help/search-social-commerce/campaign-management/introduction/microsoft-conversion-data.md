@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] von Konversionsdaten in Search, Social und Commerce
 
-Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] UET-Tags (Universal Event Tracking) ](https://help.ads.microsoft.com/#apex/ads/en/53056) werden, für Website-Konversionen, einschließlich View-Through-Konversionen, um Berichte zu erstellen und zu optimieren.
+Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] UET-Tags (Universal Event Tracking) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/53056) werden, für Website-Konversionen, einschließlich View-Through-Konversionen, um Berichte zu erstellen und zu optimieren.
 
 Alle Metriken sind automatisch in Ihren Kampagnenverwaltungsansichten und Basisberichten verfügbar und können auch in Portfoliozielen zur Optimierung [!DNL Microsoft Advertising] Kampagnen verwendet werden.
 

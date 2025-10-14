@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-Sie können standardmäßige Display-Kreative an standardmäßige Display-Bundles anhängen, standardmäßige Video-Kreative an standardmäßige Video-Bundles und dynamische Display-Kreative an dynamische Display-Bundles, damit Sie sie zu [Anzeigen-Erlebnissen“ ](/help/creative/experiences/experience-about.md) können. Jedes Bundle kann nur eine der \[Creative Size oder Duration + Language\]-Kombinationen enthalten.
+Sie können standardmäßige Display-Kreative an standardmäßige Display-Bundles anhängen, standardmäßige Video-Kreative an standardmäßige Video-Bundles und dynamische Display-Kreative an dynamische Display-Bundles, damit Sie sie zu [Anzeigen-Erlebnissen“ &#x200B;](/help/creative/experiences/experience-about.md) können. Jedes Bundle kann nur eine der \[Creative Size oder Duration + Language\]-Kombinationen enthalten.
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

@@ -26,7 +26,7 @@ Wenn Sie [abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -50,7 +50,7 @@ Wenn Sie [abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 

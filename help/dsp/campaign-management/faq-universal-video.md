@@ -38,9 +38,9 @@ Erstellen Sie universelle Video-Platzierungen und -Anzeigen ähnlich wie Sie and
    * **[!UICONTROL VPAID & VAST (Default)]:** Enthält ein Inventar, das keine Sichtbarkeitsmessung zulässt.
    * **[!UICONTROL VAST]** - Geeignet für vernetzten TV-Bestand.
 
-   Weitere Informationen finden Sie [ „Einstellungen für universelle ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
+   Weitere Informationen finden Sie [&#x200B; „Einstellungen für universelle &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
 
-1. [Fügen Sie die neuen universellen Videoanzeigen ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) der Platzierung „Universelles Video“ hinzu.
+1. [Fügen Sie die neuen universellen Videoanzeigen &#x200B;](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) der Platzierung „Universelles Video“ hinzu.
 
 ## Warum sind einige Optimierungsziele und -pakete nicht verfügbar, wenn die Connected TV-Umgebung für eine universelle Videoplatzierung ausgewählt wird?
 

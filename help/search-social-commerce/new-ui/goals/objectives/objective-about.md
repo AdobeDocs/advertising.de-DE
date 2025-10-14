@@ -47,7 +47,7 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 * (Advertisers mit [!DNL Adobe Analytics for Advertising]) [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/overview.md).
 
-  In Search, Social und Commerce [ die folgenden ](/help/integrations/analytics/analytics-data-in-advertising.md)Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
+  In Search, Social und Commerce [&#x200B; die folgenden &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
 
 * [!DNL Google] Metriken:<!-- Search only, or might DSP-only clients also have these? -->
 
@@ -59,7 +59,7 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 ## Option zum Hochladen von Zielen in die Werbenetzwerke
 
-Sie können [ Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
+Sie können [&#x200B; Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
 
 >[!MORELIKETHIS]
 >

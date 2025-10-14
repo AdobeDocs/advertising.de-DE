@@ -26,7 +26,7 @@ Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugri
 
    * Um nach einem bestimmten Metriknamen oder Anzeigenamen zu suchen, klicken Sie auf ![Suchen](/help/search-social-commerce/assets/search.png "Suchen"), geben Sie das Wort oder die Zeichenfolge in das Eingabefeld ein und drücken Sie dann die **[!DNL Enter]**.
 
-     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [ Kleinschreibung unterschieden ](/help/search-social-commerce/glossary.md#c-d).
+     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [&#x200B; Kleinschreibung unterschieden &#x200B;](/help/search-social-commerce/glossary.md#c-d).
 
    * Um nach Konversionsmetriken anhand ihrer Verfügbarkeit in Verwaltungsansichten und Berichten zu suchen, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") und wählen Sie die **[!UICONTROL Show in UI and Reports]** aus. Wählen Sie dann entweder **[!UICONTROL Show]** (um die verfügbaren Konversionsmetriken anzuzeigen, die in Berichte und Verwaltungsansichten aufgenommen werden können) oder **[!UICONTROL Hide]** (um die Konversionsmetriken anzuzeigen, die nicht in Berichten und Verwaltungsansichten verfügbar sind).
 

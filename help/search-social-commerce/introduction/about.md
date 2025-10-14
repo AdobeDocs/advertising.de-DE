@@ -44,7 +44,7 @@ Search, Social und Commerce bieten umfassende Kampagnenverwaltung, Optimierung, 
 
    * Präskriptive Einblicke bieten für Portfolios auch visuelle, verwertbare Daten, mit denen Sie die Leistung verbessern können.
 
-Weitere Informationen zur Unterstützung [ verschiedenen Werbenetzwerke und Anzeigentypen finden Sie unter &quot;](/help/search-social-commerce/introduction/supported-inventory.md) Inventar“.
+Weitere Informationen zur Unterstützung [&#x200B; verschiedenen Werbenetzwerke und Anzeigentypen finden Sie unter &quot;](/help/search-social-commerce/introduction/supported-inventory.md) Inventar“.
 
 ## Integration mit Adobe Experience Cloud-Lösungen und -Services
 

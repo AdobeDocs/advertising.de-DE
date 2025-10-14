@@ -73,7 +73,7 @@ Dieser Schritt ist manuell und muss für jede Report Suite ausgeführt werden, d
 
    Wenn beispielsweise die neue eVar-`eVar142` `amo.s_kwcid(Context Data)` zugeordnet wird, sollten die Daten für die `eVar142` und die `AMO ID` identisch sein.
 
-Weitere Informationen zur Anwendung von Verarbeitungsregeln finden Sie unter &quot;[ der Funktionsweise von ](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
+Weitere Informationen zur Anwendung von Verarbeitungsregeln finden Sie unter &quot;[&#x200B; der Funktionsweise von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
 
 >[!MORELIKETHIS]
 >

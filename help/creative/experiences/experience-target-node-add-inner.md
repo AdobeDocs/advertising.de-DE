@@ -120,7 +120,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Optional) [Weisen Sie dem neuen ](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
+   * (Optional) [Weisen Sie dem neuen &#x200B;](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
 
    * (Optional) [Einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md) des angegebenen Zieltyps.
 

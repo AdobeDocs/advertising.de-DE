@@ -22,7 +22,7 @@ Erstellen eines Anzeigen-Erlebnisses ohne Targeting. Jedes Erlebnis kann Anzeige
 
 1. Klicken Sie auf **[!UICONTROL Create New Experience]**.
 
-1. Geben Sie die [Erlebniseinstellungen“ ](experience-settings-no-targeting.md).
+1. Geben Sie die [Erlebniseinstellungen“ &#x200B;](experience-settings-no-targeting.md).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

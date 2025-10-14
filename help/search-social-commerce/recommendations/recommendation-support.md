@@ -28,7 +28,7 @@ Innerhalb von [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Pu
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
-  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![ unten links auf ](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
+  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![&#x200B; unten links auf &#x200B;](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
 
 * [!DNL Microsoft Advertising] Konten finden Sie in jedem in den letzten 30 Tagen generierten Performance insight für ein [!DNL Microsoft Advertising] Konto auf einen Blick. Insights bietet ähnliche Informationen wie Recommendations, jedoch in einem anderen Format. Jede insight enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des [!DNL Microsoft Advertising]-Editors, von dem aus Sie auf die spezifische insight reagieren können.
 

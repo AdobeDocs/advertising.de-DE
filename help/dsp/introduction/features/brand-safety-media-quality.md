@@ -66,7 +66,7 @@ Inventar-Mapping ist der detaillierte Überprüfungs- und Onboarding-Prozess, de
 
    * **[!UICONTROL T3]** - Benutzergenerierte Inhalte und Nischeninhalte
 
-* **Site-Kategorisierung:** Um das einfache Targeting und Blockieren von Inhalten zu gewährleisten, versehen wir jede Eigenschaft mit einer DSP-definierten Site-Kategorie, die auf dem Inhalt der Eigenschaft basiert. Sie können [ diese Site-Kategorien für jede Platzierung basierend ](/help/dsp/campaign-management/placements/placement-settings.md) den Platzierungszielen auswählen oder ausschließen.
+* **Site-Kategorisierung:** Um das einfache Targeting und Blockieren von Inhalten zu gewährleisten, versehen wir jede Eigenschaft mit einer DSP-definierten Site-Kategorie, die auf dem Inhalt der Eigenschaft basiert. Sie können [&#x200B; diese Site-Kategorien für jede Platzierung basierend &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) den Platzierungszielen auswählen oder ausschließen.
 
 ### Umfassende Unterstützung für Site-Blockierung
 
@@ -82,7 +82,7 @@ Wenn Sie eine Site als Platzierungsziel in die Liste global blockierter Sites au
 
 >[!NOTE]
 >
->Sie können optional die globale Liste der blockierten Websites für Standardanzeigenanzeigen umgehen, die an ein vertrauenswürdiges privates Angebot angehängt sind, indem Sie die Option &quot;[!UICONTROL Allow unscreened sites]&quot; in den [Platzierungseinstellungen“ ](/help/dsp/campaign-management/placements/placement-settings.md). Bei Bedarf kann das Adobe-Account-Team optional auch die Website-Blockierung für einen öffentlichen Deal (auf Auktionsebene) in den Publisher-Einstellungen für den Deal deaktivieren.
+>Sie können optional die globale Liste der blockierten Websites für Standardanzeigenanzeigen umgehen, die an ein vertrauenswürdiges privates Angebot angehängt sind, indem Sie die Option &quot;[!UICONTROL Allow unscreened sites]&quot; in den [Platzierungseinstellungen“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md). Bei Bedarf kann das Adobe-Account-Team optional auch die Website-Blockierung für einen öffentlichen Deal (auf Auktionsebene) in den Publisher-Einstellungen für den Deal deaktivieren.
 
 #### Blockierte Sites-Listen auf Konto- und Advertiser-Ebene
 
@@ -130,9 +130,9 @@ Für jede einzelne Funktion fallen zusätzliche Gebühren an.
 
 Mit DSP-Themen-Targeting können Sie Keyword-Listen durch die Nutzung unserer branchenführenden kontextuellen [!DNL Comscore] ansprechen oder blockieren. Mit dem Thema-Targeting können Sie sicherstellen, dass Ihre Anzeigen immer in einer Umgebung geschaltet werden, die Ihrer Marke entspricht, unabhängig davon, ob dies die Blockierung schädlicher Inhalte oder die Sicherstellung von Ausgaben in einem Kontext umfasst, der ein besseres Ergebnis gewährleistet.
 
-Beim Themen-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie [für jede Platzierung eine Segment-ID im [!UICONTROL Audience Targeting] Abschnitt ansprechen oder ](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
+Beim Themen-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie [für jede Platzierung eine Segment-ID im [!UICONTROL Audience Targeting] Abschnitt ansprechen oder &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
 
-Um ein [!DNL Comscore] Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie unter [https://agents.comscore.com eine Anmeldung zur [!DNL Activation Segment Manager] anfordern](https://agents.comscore.com). Vollständige Anweisungen [[!DNL Comscore]  Einrichten benutzerdefinierter Segmente finden Sie ](https://comscoreactivation.zendesk.com/hc/) Hilfezentrum . Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] sichtbar, während Sie sie erstellen.
+Um ein [!DNL Comscore] Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie unter [https://agents.comscore.com eine Anmeldung zur [!DNL Activation Segment Manager] anfordern](https://agents.comscore.com). Vollständige Anweisungen [[!DNL Comscore]  Einrichten benutzerdefinierter Segmente finden Sie &#x200B;](https://comscoreactivation.zendesk.com/hc/) Hilfezentrum . Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] sichtbar, während Sie sie erstellen.
 
 ![Comscore-Logo](/help/dsp/assets/comscore-logo.png)
 

@@ -41,7 +41,7 @@ Alle folgenden Anzeigentypen sind in DSP verfügbar. Die vollständigen Spezifik
 
   Universelle Videoanzeigen können nur an Platzierungen für universelle Videos angehängt werden.
 
-  Weitere Informationen [ universellen Videoanzeigen finden Sie ](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
+  Weitere Informationen [&#x200B; universellen Videoanzeigen finden Sie &#x200B;](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
 
 ## DSP-Anzeigengenehmigungen
 

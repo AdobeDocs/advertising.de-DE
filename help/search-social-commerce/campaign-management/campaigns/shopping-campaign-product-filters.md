@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kampagnen-Produktfilter kaufen
 
-Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit ](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
+Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit &#x200B;](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
 
 | Einkaufsnetz | Dimension des Produkts | Attribute | Notizen |
 |----|----|----|----|

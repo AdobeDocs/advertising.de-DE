@@ -28,7 +28,7 @@ Sie können Shopping-Kampagnen [!DNL Microsoft Advertising] mithilfe von [Invent
 
 1. [Erstellen einer Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) im Shopping-Netzwerk.
 
-1. [Erstellen Sie innerhalb ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
+1. [Erstellen Sie innerhalb &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
 
    Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
@@ -38,7 +38,7 @@ Sie können Shopping-Kampagnen [!DNL Microsoft Advertising] mithilfe von [Invent
 
    1. (Optional) [Erstellen von untergeordneten Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
-   1. Erstellen Sie [Produktanzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) mit [Promotion-Zeilen, die potenziell in jede Shopping-Anzeige ](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) der Anzeigengruppe aufgenommen werden sollen.
+   1. Erstellen Sie [Produktanzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) mit [Promotion-Zeilen, die potenziell in jede Shopping-Anzeige &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) der Anzeigengruppe aufgenommen werden sollen.
 
       Microsoft Advertising generiert für jede Anzeige dynamisch die Anzeigenkopie und die Landingpage-URL.
 
@@ -50,7 +50,7 @@ Sie können Shopping-Kampagnen [!DNL Microsoft Advertising] mithilfe von [Invent
 
    Alternativ können Sie die Tracking-URL zu den Produktdaten im [!DNL Microsoft Merchant Center]-Konto hinzufügen. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld „link“ bzw. „mobile_link“ in eine benutzerdefinierte Spalte &quot;[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)&quot; im Produkt-Feed ein. Der Wert im Feld „bingads_redirect“ ersetzt die Werte in den Feldern „link“ und „mobile_link“. Mit dieser Methode generierte URLs enthalten keine Tracking-Parameter, die in den Such-, Social- und Commerce-Konto- oder Kampagneneinstellungen angegeben sind.
 
-1. Überwachen Sie die Leistung, [ Sie die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) generieren.
+1. Überwachen Sie die Leistung, [&#x200B; Sie die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) generieren.
 
 1. Bei Bedarf:
 

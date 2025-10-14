@@ -20,7 +20,7 @@ Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste 
 
 >[!NOTE]
 >
->Sie können die Spalten in einer Ansicht auch vorübergehend ändern, ohne die Sortierreihenfolge (aus [ Spaltenüberschrift) in ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) Ansicht zu ändern.
+>Sie können die Spalten in einer Ansicht auch vorübergehend ändern, ohne die Sortierreihenfolge (aus [&#x200B; Spaltenüberschrift) in &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) Ansicht zu ändern.
 >
 >Sie können Änderungen an den Spalten, die für einen bestimmten Advertiser enthalten sind, speichern, indem Sie die Standardansicht bearbeiten oder [eine benutzerdefinierte Ansicht erstellen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
@@ -32,7 +32,7 @@ Sie können die sichtbaren Spalten in jeder Ansicht in der rechten Symbolleiste 
 
    * (So fügen Sie eine Spalte hinzu) Klicken Sie in der [!UICONTROL Available Columns] auf einen Spaltennamen, und ziehen Sie ihn dann entweder in die [!UICONTROL Selected Columns & Ordering] Liste oder klicken Sie auf ![Spalte hinzufügen](/help/search-social-commerce/assets/chevron-right.png "Spalte hinzufügen"), um sie dorthin zu verschieben.
 
-   * (So ändern Sie die horizontale Position einer Spalte) Klicken Sie in der Liste [!UICONTROL Selected Columns & Ordering] auf den Spaltennamen, und ziehen Sie die Spalte dann entweder an die gewünschte Position, oder klicken Sie auf ![Spalte nach oben ](/help/search-social-commerce/assets/chevron-up.png "Spalte nach oben ") oder ![Spalte nach unten verschieben](/help/search-social-commerce/assets/chevron-down.png "Spalte nach unten verschieben"), um sie dorthin zu verschieben.
+   * (So ändern Sie die horizontale Position einer Spalte) Klicken Sie in der Liste [!UICONTROL Selected Columns & Ordering] auf den Spaltennamen, und ziehen Sie die Spalte dann entweder an die gewünschte Position, oder klicken Sie auf ![Spalte nach oben &#x200B;](/help/search-social-commerce/assets/chevron-up.png "Spalte nach oben ") oder ![Spalte nach unten verschieben](/help/search-social-commerce/assets/chevron-down.png "Spalte nach unten verschieben"), um sie dorthin zu verschieben.
 
      Der Name der oberen Spalte wird in der linken Spalte angezeigt.
 

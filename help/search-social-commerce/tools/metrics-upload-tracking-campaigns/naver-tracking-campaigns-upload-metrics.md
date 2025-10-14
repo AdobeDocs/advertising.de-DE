@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nur Naver-Konten*
 
-Sie können eine TSV-, CSV- oder TXT-Datei mit täglich aggregierten Traffic-Metriken und Konversionsmetriken zum Tracking und Reporting nur für Ihre Werbenetzwerkkonten hochladen. Die Daten müssen einem &quot;[ Format“ ](naver-tracking-campaigns-data-requirements.md). Wenn die Datei Daten für Entitäten enthält, die nicht in Search, Social und Commerce vorhanden sind, werden diese Zeilen übersprungen.
+Sie können eine TSV-, CSV- oder TXT-Datei mit täglich aggregierten Traffic-Metriken und Konversionsmetriken zum Tracking und Reporting nur für Ihre Werbenetzwerkkonten hochladen. Die Daten müssen einem &quot;[&#x200B; Format“ &#x200B;](naver-tracking-campaigns-data-requirements.md). Wenn die Datei Daten für Entitäten enthält, die nicht in Search, Social und Commerce vorhanden sind, werden diese Zeilen übersprungen.
 
 Search, Social und Commerce synchronisieren keine Daten mit dem Anzeigennetzwerk und geben keine Gebote für das Konto ab.
 

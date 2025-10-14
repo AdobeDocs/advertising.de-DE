@@ -101,7 +101,7 @@ In an existing experience,
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Optional) [Weisen Sie dem neuen Zielknoten ](experience-assign-creative-bundles.md)Kreative“ zu.
+   * (Optional) [Weisen Sie dem neuen Zielknoten &#x200B;](experience-assign-creative-bundles.md)Kreative“ zu.
 
    * (Optional) So speichern Sie das Erlebnis:
 

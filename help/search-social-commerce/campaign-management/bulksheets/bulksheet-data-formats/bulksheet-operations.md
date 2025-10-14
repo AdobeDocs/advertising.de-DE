@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Vorgänge, die Sie in Bulksheets ausführen können
 
-Sie können Kampagnendaten über Bulksheets für (unterstützte Werbenetzwerke[ hinzufügen, bearbeiten und ](../bulksheet-about.md#bulksheet-functionality-by-network).
+Sie können Kampagnendaten über Bulksheets für (unterstützte Werbenetzwerke[&#x200B; hinzufügen, bearbeiten und &#x200B;](../bulksheet-about.md#bulksheet-functionality-by-network).
 
 Fügen Sie für jede Kampagnenkomponente (Kampagne, Anzeigengruppe, Keyword oder Textanzeige), die Sie hinzufügen, bearbeiten oder löschen möchten oder deren Eigenschaften Sie hinzufügen, bearbeiten oder löschen möchten, eine separate Datenzeile ein. Wenn Sie beispielsweise eine Kampagne mit einer Anzeigengruppe, einem Keyword und einer Anzeige erstellen möchten - insgesamt vier Komponenten -, benötigen Sie vier separate Datenzeilen. Um die [!UICONTROL Ad Group Name] für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie jedoch nur eine Zeile. Um vier verschiedene Eigenschaften für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie nur eine Zeile.
 

@@ -20,7 +20,7 @@ Nachdem Sie einen programmgesteuert garantierten (PG) Deal mit einem unterstütz
 >
 > Bei PG-Angeboten übernimmt der Herausgeber das gesamte Budget, die Budgetbegrenzung und die Zielgruppenbestimmung. Alle SSPs, die PG über DSP zulassen, bestätigen, dass der Herausgeber eine Budgetbegrenzung einrichten kann.
 >
-> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [ unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
+> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [&#x200B; unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
 
 ## Erstellen eines programmgesteuerten garantierten Angebots mithilfe des [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
@@ -46,7 +46,7 @@ Die folgende Methode ist das bevorzugte Verfahren für [!DNL FreeWheel], [!DNL G
 
 Verwenden Sie diese Methode für alle anderen SSPs.
 
-1. [Richten Sie die Details der Angebots-ID manuell ](deal-id-create.md).
+1. [Richten Sie die Details der Angebots-ID manuell &#x200B;](deal-id-create.md).
 
 1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder 1x1 Tracking-Pixel für Publisher-verwaltete Anzeigen) aus, die für den Deal verwendet werden sollen, und erstellen Sie eine PG-Standardplatzierung, wie Sie dazu aufgefordert werden.
 

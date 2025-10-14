@@ -20,7 +20,7 @@ Sie können die in einer der Ansichten enthaltenen Spalten vorübergehend für j
 
 >[!NOTE]
 >
->* Sie können auch die Spalten in einer Ansicht vorübergehend ändern und die Sortierreihenfolge ([ über das [!UICONTROL Columns]-Symbol](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) rechts in der Symbolleiste ändern.
+>* Sie können auch die Spalten in einer Ansicht vorübergehend ändern und die Sortierreihenfolge ([&#x200B; über das [!UICONTROL Columns]-Symbol](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) rechts in der Symbolleiste ändern.
 >* Sie können die für einen bestimmten Advertiser enthaltenen Spalten ändern, indem Sie die Standardansicht bearbeiten oder [eine benutzerdefinierte Ansicht erstellen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
 * (Um bestimmte Spalten für alle Werbetreibenden anzuzeigen) Klicken Sie auf der rechten Seite einer Spaltenüberschrift auf ![Pfeil nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Pfeil nach unten"), markieren Sie **[!UICONTROL Select Columns]**, aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Spalte und klicken Sie dann auf **[!UICONTROL Apply]**.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Sie können auch [eine Angebots-ID für alle Advertiser innerhalb bestimmter Konten freigeben und nicht mehr ](deal-id-share.md).
+>Sie können auch [eine Angebots-ID für alle Advertiser innerhalb bestimmter Konten freigeben und nicht mehr &#x200B;](deal-id-share.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 

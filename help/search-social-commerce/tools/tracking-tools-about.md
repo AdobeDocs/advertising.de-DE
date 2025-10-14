@@ -14,17 +14,17 @@ ht-degree: 0%
 
 Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Tracking-Tags mithilfe der folgenden Tools erstellen und decodieren:
 
-* Mit dem [[!UICONTROL Conversion Tags]-Tool ](conversion-tag-generate.md) Sie manuell Adobe Advertising-Konversions-Tracking-Tags generieren, um sie zu den „success“- oder „thank you“-Seiten auf Ihren Websites hinzuzufügen.
+* Mit dem [[!UICONTROL Conversion Tags]-Tool &#x200B;](conversion-tag-generate.md) Sie manuell Adobe Advertising-Konversions-Tracking-Tags generieren, um sie zu den „success“- oder „thank you“-Seiten auf Ihren Websites hinzuzufügen.
 
   >[!NOTE]
   >
   >Das Adobe-Konto-Team stellt Ihnen in der Regel Tags zum Konversions-Tracking von Adobe zur Verfügung, sodass Sie diese Funktion möglicherweise nicht benötigen.
 
-* Mit dem [[!UICONTROL Tracking URLs]-Tool ](click-tracking-url-generate.md) Sie manuell eine Klick-Tracking-URL generieren, bei der es sich um eine Tracking-Vorlage oder Ziel-URL mit Such-, Social- und Commerce-Tracking für Keywords, Anzeigen, dynamische Suchanzeigen, Platzierungen, Produktgruppen oder Sitelinks für ein [unterstütztes Anzeigennetzwerk](/help/search-social-commerce/introduction/supported-inventory.md) handelt.
+* Mit dem [[!UICONTROL Tracking URLs]-Tool &#x200B;](click-tracking-url-generate.md) Sie manuell eine Klick-Tracking-URL generieren, bei der es sich um eine Tracking-Vorlage oder Ziel-URL mit Such-, Social- und Commerce-Tracking für Keywords, Anzeigen, dynamische Suchanzeigen, Platzierungen, Produktgruppen oder Sitelinks für ein [unterstütztes Anzeigennetzwerk](/help/search-social-commerce/introduction/supported-inventory.md) handelt.
 
   Weitere Informationen dazu, ob Klick-Tracking-URLs manuell generiert werden sollen, finden Sie unter &quot;[Wann und wie Klick-Tracking-URLs generiert werden](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
-* (Nur Konten mit Ziel-URLs) Mit dem [[!UICONTROL Decode Tracking URLs]-Tool ](click-tracking-url-decode.md) Sie den Such-, Social- und Commerce-Code aus einer Tracking-fähigen Ziel-URL entfernen, um die Basis-URL anzuzeigen.
+* (Nur Konten mit Ziel-URLs) Mit dem [[!UICONTROL Decode Tracking URLs]-Tool &#x200B;](click-tracking-url-decode.md) Sie den Such-, Social- und Commerce-Code aus einer Tracking-fähigen Ziel-URL entfernen, um die Basis-URL anzuzeigen.
 
 >[!MORELIKETHIS]
 >

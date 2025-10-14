@@ -24,7 +24,7 @@ Weitere Informationen zu dynamischem Remarketing und zur Implementierung des erf
 
 >[!NOTE]
 >
->Bei [!DNL Microsoft Advertising]-Konten muss das JavaScript-Tag die [Produkt-ID und Seitentypparameter“ ](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
+>Bei [!DNL Microsoft Advertising]-Konten muss das JavaScript-Tag die [Produkt-ID und Seitentypparameter“ &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85).
 
 1. Geben Sie den Namen des [!DNL Microsoft Advertising] UET-Tags (Universal Event Tracking) an, das in den Web-Seiten enthalten ist, von denen aus die Zielgruppe erstellt wird.
 

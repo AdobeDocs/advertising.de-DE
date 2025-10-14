@@ -34,7 +34,7 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. (Falls erforderlich) Richten Sie das Konto im Werbenetzwerk ein.
 
-   1. Integrieren Sie ihn mit dem Konto[ indem Sie in Search, Social ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) Commerce einen entsprechenden Kontodatensatz erstellen, der die Anmeldedaten für den Kontozugriff und Tracking-Optionen enthält, und setzen Sie den Kontostatus auf „Aktiviert“.
+   1. Integrieren Sie ihn mit dem Konto[&#x200B; indem Sie in Search, Social &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) Commerce einen entsprechenden Kontodatensatz erstellen, der die Anmeldedaten für den Kontozugriff und Tracking-Optionen enthält, und setzen Sie den Kontostatus auf „Aktiviert“.
 
       Search, Social und Commerce werden dann mit dem Werbenetzwerk synchronisiert. Wenn das Konto bereits Kampagnendaten enthält, stehen die Daten in etwa 24 Stunden zur Verfügung.
 
@@ -54,21 +54,21 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. (Werbetreibende mit dem Adobe Advertising-Konversions-Tracking-Service) Richten Sie bei Bedarf [Klick-Tracking ein](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Keywords, Platzierungen und Anzeigenerweiterungen ein, indem Sie Klick-Tracking-URLs für Search, Social und Commerce generieren und hochladen.
 
-      Richten Sie für Kampagnen mit dem [!DNL Google Ads] „Performance Max“ das gesamte Tracking in den [Tracking-Einstellungen der Kampagne) ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
+      Richten Sie für Kampagnen mit dem [!DNL Google Ads] „Performance Max“ das gesamte Tracking in den [Tracking-Einstellungen der Kampagne) &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
 1. Für Kampagnen, die nur das Tracking betreffen, müssen Sie stattdessen Ziel-URLs mithilfe von Bulksheets generieren und dann die generierten Ziel-URLs mithilfe des nativen Editors des Anzeigennetzwerks zu den relevanten Entitäten hinzufügen.
 
    1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den Web-Seiten des Werbetreibenden und/oder die Einrichtung einer täglichen Feed-Drop für Konversionsdaten beinhalten, die der Werbetreibende separat erfasst hat.
 
-      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Konversionsverfolgungstags (in [, Social und Commerce) oder ](/help/search-social-commerce/tools/conversion-tag-generate.md)mithilfe von [Adobe Experience Platform) ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=de).
+      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Konversionsverfolgungstags (in [, Social und Commerce) oder &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)mithilfe von [Adobe Experience Platform) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=de).
 
    1. Validieren Sie die nachverfolgten Daten.
 
    Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel „Tracking“.
 
-1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de), damit sie Daten austauschen können.
+1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de), damit sie Daten austauschen können.
 
-1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [ unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [&#x200B; unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Wenn das Portfolio noch nicht gestartet wurde (Gebote und/oder Budgets optimieren), lassen Sie die Optimierungsfunktion genügend Daten sammeln, damit sie Kosten- und Umsatzmodelle erstellen kann, damit Sie die Grundleistung für das Portfolio vor dem Start ermitteln können.
 

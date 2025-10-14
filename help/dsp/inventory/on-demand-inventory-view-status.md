@@ -35,7 +35,7 @@ Die Genehmigung oder Ablehnung durch den Herausgeber kann auf dem Kontotyp und d
 
 * ![abgelehnt](/help/dsp/assets/denied.png) für Abschlussanfragen, die für alle Advertiser im Konto abgelehnt wurden
 
-  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [ den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [&#x200B; den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
 Wenn Sie Fragen zum Genehmigungsprozess haben, wenden Sie sich an Ihr Adobe-Account-Team.
 

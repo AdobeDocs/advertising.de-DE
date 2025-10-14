@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Über die Verwaltung der Konversionsmetriken eines Werbetreibenden
 
-Die [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metriken, die Adobe Advertising für einen Advertiser verfolgt, einschließlich [Konversions- und Site-Interaktionsmetriken, die mit Adobe Analytics synchronisiert ](/help/integrations/analytics/analytics-data-in-advertising.md), werden in Search, Social, und Commerce und Advertising DSP verwendet.
+Die [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metriken, die Adobe Advertising für einen Advertiser verfolgt, einschließlich [Konversions- und Site-Interaktionsmetriken, die mit Adobe Analytics synchronisiert &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md), werden in Search, Social, und Commerce und Advertising DSP verwendet.
 
 * In Search, Social und Commerce können Sie Konversionsmetriken verwenden, um Ziele zu erstellen, mit denen Portfolios optimiert werden. Darüber hinaus können Daten für Konversionsmetriken in Spalten in Kampagnen- und Portfolio-Management-Ansichten und in Berichten angezeigt werden.
 

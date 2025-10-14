@@ -28,7 +28,7 @@ Erstellen und verwalten Sie freigegebene Sitelinks auf Kontoebene für alle sync
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 
-Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](sitelink-extension-associate.md).
+Nachdem Sie einen Sitelink erstellt haben, können [&#x200B; ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](sitelink-extension-associate.md).
 
 ## Einstellungen für freigegebene Sitelinks bearbeiten
 

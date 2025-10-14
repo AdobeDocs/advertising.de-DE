@@ -29,7 +29,7 @@ Wenn Sie Konversionen nach Klickdatum melden, umfassen die Daten Transaktionen, 
 +++Was passiert, wenn ich das Click-Lookback-Fenster oder das Impression-Lookback-Fenster ändere?
 (Nur Werbetreibende mit Advertising Pixel-basiertem Konversionsverfolgungs-Service) Daten zu Ereignissen, die aus dem ersten Klick resultieren, werden über einen längeren oder kürzeren Zeitraum erfasst.
 
-Das [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster eines Advertisers ](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach dem Auftreten eines Paid-Click oder einer Display-Impression (bzw. einer Display-Impression), in denen das Ereignis einer Konversion zugeordnet werden kann. Das Ändern eines Werts in einen längeren oder kürzeren Zeitraum kann für Werbetreibende mit besonders kurzen oder langen Umsatzklicks oder zur Anzeige von Impression-zu-Umsatz-Zeiträumen wichtig sein.
+Das [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster eines Advertisers &#x200B;](/help/search-social-commerce/glossary.md#i-j) die Anzahl der Tage nach dem Auftreten eines Paid-Click oder einer Display-Impression (bzw. einer Display-Impression), in denen das Ereignis einer Konversion zugeordnet werden kann. Das Ändern eines Werts in einen längeren oder kürzeren Zeitraum kann für Werbetreibende mit besonders kurzen oder langen Umsatzklicks oder zur Anzeige von Impression-zu-Umsatz-Zeiträumen wichtig sein.
 
 **Best Practice:** Stellen Sie sicher, dass die Lookback-Fenster länger sind als die Umsätze per Klick und die Impressions-zu-Umsätzen-Zeiten für die meisten Ihrer Keywords oder Anzeigen angezeigt werden. Wenn sie kürzer sind, sind einige Konversionen nicht mit dem ersten Klick oder der ersten Impression verbunden.
 +++
@@ -94,7 +94,7 @@ Diese Situation kann auftreten, wenn die Metrikformate Ganzzahlen verwenden:
 
 * Wenn Sie eine [benutzerdefinierte Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) mit dem Format *Zahl ohne Dezimalpunkte* (die Daten als Ganzzahlen anzeigt) erstellen und sie in eine Ansicht oder einen Bericht aufnehmen, die bzw. der eine Attributionsregel für die gewichtete Konversion verwendet ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] oder [!UICONTROL Even Distribution]), wird die Ausgabe in Ganzzahlen angezeigt, nicht in Dezimalzahlen. In diesem Fall können einzelne Datenfelder falsch sein, obwohl die Summen korrekt sind. Wenn beispielsweise eine Reihenfolge gleichmäßig auf drei Ereignisse aufgeteilt wird, wird jedem der drei Ereignisse eine Reihenfolge (statt 0,33 Reihenfolge) zugeordnet. Um das Problem zu beheben, [ändern Sie das Metrikformat](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) in *Zahl zu 2 Dezimalpunkten*.
 
-* Wenn Sie eine Umsatzmetrik haben, die als Ganzzahl gesendet wird, tritt dasselbe Problem auf. (Das Umsatzformat wird durch das Konversions-Tag gesteuert, das die Daten übermittelt.) Um das Problem zu beheben[ erstellen Sie eine benutzerdefinierte Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) die ausschließlich aus der Umsatzmetrik und mit dem Format *Zahl bis 2 Dezimalpunkte* besteht und nehmen Sie sie in Ansichten und Berichte und nicht in die ursprüngliche Metrik auf.
+* Wenn Sie eine Umsatzmetrik haben, die als Ganzzahl gesendet wird, tritt dasselbe Problem auf. (Das Umsatzformat wird durch das Konversions-Tag gesteuert, das die Daten übermittelt.) Um das Problem zu beheben[&#x200B; erstellen Sie eine benutzerdefinierte Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) die ausschließlich aus der Umsatzmetrik und mit dem Format *Zahl bis 2 Dezimalpunkte* besteht und nehmen Sie sie in Ansichten und Berichte und nicht in die ursprüngliche Metrik auf.
 +++
 
 +++Wenn Klick- oder Umsatzdaten fehlen, wie kann ich verhindern, dass sich dies auf zukünftige Angebote auswirkt?
@@ -234,7 +234,7 @@ Die [!UICONTROL Geo Distribution Report] und [!UICONTROL Domain Referral Report]
 
    Search, Social und Commerce erwarten wohlgeformte URLs (mit Parametern in Name-Wert-Paaren) innerhalb der `ef_transaction_properties`-Variablen und innerhalb des `src` des `img`-Tags.
 
-1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [ sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
+1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [&#x200B; sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
 
    Die Kundenunterstützung wird versuchen, die fehlenden Transaktionen zu identifizieren und dann nach verwaisten Transaktionen und Transaktionen zu suchen, die nicht von einer Anzeige stammen („unkorrelierte Konversionen„).
 
@@ -258,7 +258,7 @@ Siehe die möglichen Ursachen und Lösungen für Pixelimplementierungen oben.
 
 1. Wenn eine Transaktion in der Feed-Datei im Bericht fehlt, überprüfen Sie, ob vor der Offline-Konversion eine Online-Transaktion mit derselben Transaktions-ID (verfolgt über das Pixel) aufgetreten ist.
 
-1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [ sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
+1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [&#x200B; sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
 
    Die Kundenunterstützung prüft auf Fehler bei der Datenanalyse und [verwaiste Transaktionen](/help/search-social-commerce/glossary.md#o-p).
 
@@ -288,7 +288,7 @@ Siehe die möglichen Ursachen und Lösungen für Pixelimplementierungen oben.
 
 1. Wenn einige Transaktionen falsch sind oder fehlen, stellen Sie sicher, dass a) die Feed-Datei alle erforderlichen Transaktions-IDs und keine doppelten Tracking-IDs enthält und b) die Transaktions-IDs eindeutig und korrekt sind.
 
-1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [ sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
+1. Wenn Sie das Problem nicht ermitteln und beheben können, wenden [&#x200B; sich an die Kundenunterstützung](/help/search-social-commerce/get-help.md).
 
    Die Kundenunterstützung prüft, ob Fehler beim Parsen von Daten und verwaiste Transaktionen vorliegen.
 +++

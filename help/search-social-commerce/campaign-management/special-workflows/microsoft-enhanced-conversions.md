@@ -28,7 +28,7 @@ Innerhalb von Search, Social und Commerce können Sie:
 
 Um diese Funktion zu verwenden, führen Sie die folgenden Schritte aus.
 
-1. Befolgen Sie alle Voraussetzungen in der [!DNL Microsoft Advertising]-Hilfe unter &quot;[ Konversionen](https://help.ads.microsoft.com/#apex/ads/en/60178).
+1. Befolgen Sie alle Voraussetzungen in der [!DNL Microsoft Advertising]-Hilfe unter &quot;[&#x200B; Konversionen](https://help.ads.microsoft.com/#apex/ads/en/60178).
 
 1. [Richten Sie in ein erweitertes Konversionsziel  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178).
 

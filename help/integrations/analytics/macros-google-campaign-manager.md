@@ -47,12 +47,12 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Advertiser-Ebene
 
-1. Weitere Informationen finden [ in den Anweisungen zum Öffnen der Advertiser-Eigenschaften](https://support.google.com/campaignmanager/answer/2829344).
+1. Weitere Informationen finden [&#x200B; in den Anweisungen zum Öffnen der Advertiser-Eigenschaften](https://support.google.com/campaignmanager/answer/2829344).
 1. Fügen Sie in den [!UICONTROL Landing page URL suffix] Einstellungen `%pamo!;` in das Feld [!UICONTROL URL suffix] ein.
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Kampagnenebene
 
-1. Weitere Informationen finden [ in den Anweisungen zum Öffnen der Kampagneneigenschaften](https://support.google.com/campaignmanager/answer/2838056#set).
+1. Weitere Informationen finden [&#x200B; in den Anweisungen zum Öffnen der Kampagneneigenschaften](https://support.google.com/campaignmanager/answer/2838056#set).
 1. Fügen Sie in den [!UICONTROL Landing page URL suffix] Einstellungen `%pamo!;` in das Feld [!UICONTROL URL suffix] ein.
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Kreativebene

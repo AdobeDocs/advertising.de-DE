@@ -66,7 +66,7 @@ Sie können Portfoliogruppen erstellen, Portfolios zu Portfoliogruppen hinzufüg
 
 1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Portfolio Groups]**.
 
-1. Halten Sie den Cursor über den Namen der Portfoliogruppe und klicken Sie auf ![Portfolio-Gruppe ](/help/search-social-commerce/assets/edit-new.png "Portfolio-Gruppe umbenennen").
+1. Halten Sie den Cursor über den Namen der Portfoliogruppe und klicken Sie auf ![Portfolio-Gruppe &#x200B;](/help/search-social-commerce/assets/edit-new.png "Portfolio-Gruppe umbenennen").
 
 1. Bearbeiten Sie die **[!UICONTROL Name]** und klicken Sie dann auf **[!UICONTROL Save]**.
 

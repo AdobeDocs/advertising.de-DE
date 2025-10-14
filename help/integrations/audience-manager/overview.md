@@ -16,7 +16,7 @@ Sie können Adobe Advertising wie folgt mit Audience Manager integrieren.
 
 ## Synchronisieren von Audience Manager und anderen [!DNL Adobe] für das Anzeigen-Targeting
 
-[!DNL Search, Social, & Commerce] und DSP können Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Audience Manager eines Werbetreibenden oder einer Agentur und andere [!DNL Adobe] Zielgruppen abrufen. Diese eindeutige Verbindung steht nur Marketern zur Verfügung, die Adobe Advertising verwenden. Siehe &quot;[ von Adobe Audience Manager-Segmenten für das Anzeigen-Targeting](/help/integrations/audience-manager/import-audiences.md).“
+[!DNL Search, Social, & Commerce] und DSP können Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Audience Manager eines Werbetreibenden oder einer Agentur und andere [!DNL Adobe] Zielgruppen abrufen. Diese eindeutige Verbindung steht nur Marketern zur Verfügung, die Adobe Advertising verwenden. Siehe &quot;[&#x200B; von Adobe Audience Manager-Segmenten für das Anzeigen-Targeting](/help/integrations/audience-manager/import-audiences.md).“
 
 ### Verwenden von Audience Manager und anderen [!DNL Adobe] zum Erstellen von [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
@@ -30,7 +30,7 @@ Um die erforderlichen Benutzer-IDs zu erstellen, müssen Sie ein Adobe Advertisi
 
 ![Prozess der Segmenterstellung](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [ Kampagnen oder Anzeigengruppen ](#audience-manager-targets).
+Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [&#x200B; Kampagnen oder Anzeigengruppen &#x200B;](#audience-manager-targets).
 
 ### Verwenden von Audience Manager und anderen [!DNL Adobe], um Anzeigen anzusprechen oder auszuschließen {#audience-manager-targets}
 
@@ -50,7 +50,7 @@ Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als
 
 DSP-Kunden mit Adobe Audience Manager können Daten aus Anzeigenkampagnen mithilfe von Pixelaufrufen an den Audience Manager erfassen. Anschließend können Sie mit den Kampagnendaten regelbasierte Eigenschaften erstellen. Damit können Sie neue Segmente definieren, um verschiedene DSP-Anwendungsfälle zu ermöglichen, z. B. erweiterte Segmentierung, Frequenzverwaltung, Marketing-Analysen und Reporting-Insights.
 
-Weitere Informationen finden [ unter „Übersicht über das Senden von DSP Media Exposure-Daten ](/help/integrations/audience-manager/media-data-integration/overview.md) Adobe Audience Manager&quot;.
+Weitere Informationen finden [&#x200B; unter „Übersicht über das Senden von DSP Media Exposure-Daten &#x200B;](/help/integrations/audience-manager/media-data-integration/overview.md) Adobe Audience Manager&quot;.
 
 ## Bessere Einblicke in Site-Aktivitäten mit Audience Analytics
 

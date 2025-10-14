@@ -36,7 +36,7 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
   Wenn der Suchbegriff eines Benutzers genau mit einem Keyword in einer Ihrer schlüsselwortbasierten Kampagnen übereinstimmt, wird anstelle einer dynamischen Suchanzeige eine Anzeige aus der schlüsselwortbasierten Kampagne angezeigt. Das Anzeigennetzwerk zeigt eine dynamische Suchanzeige anstelle einer auf ein Keyword ausgerichteten Anzeige an, wenn der Suchbegriff des Benutzers eine breite Übereinstimmung oder Phrase mit einem Ihrer Keywords aufweist und Ihre dynamische Suchanzeige einen höheren Anzeigenrang hat.
 
-  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] ](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
+  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] &#x200B;](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimedia-Anzeigen** für [!DNL Microsoft Advertising] Suchkampagnen. Multimedia-Anzeigen sind große Bildanzeigen, die an hervorgehobenen Positionen in der Haupt- und Seitenleiste angezeigt werden und pro Seite nur eine Multimedia-Anzeige angezeigt wird. Sie können mehrere Text- und Bild-Assets enthalten, z. B. responsive Anzeigen. Das Werbenetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen. Multimedia-Anzeigen ersetzen nicht Ihre Text-Anzeigenplatzierungen.
 

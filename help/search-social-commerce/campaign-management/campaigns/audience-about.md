@@ -24,7 +24,7 @@ Sie können Zielgruppen auch mithilfe von Segmenten oder E-Mail-Listen aus Ihren
 
    * [!DNL Google Ads] (Werbetreibende mit Audience Manager-Konten) Sie können Zielgruppen für den Kundenabgleich mithilfe von Benutzer-IDs aus Audience Manager-Segmenten erstellen, die „Search“, „Social“ und &quot;Commerce&quot; als Ziel haben. Dazu können Adobe Analytics-Segmente gehören, die in Adobe Experience Cloud veröffentlicht werden, und Segmente, die mit der Adobe Experience Cloud-Zielgruppenbibliothek erstellt wurden.
 
-  Um Zielgruppen für den Kundenabgleich zu erstellen, muss das [!DNL Google Ads] des Werbetreibenden ([ für benutzerdefinierte Abgleiche) ](https://support.google.com/adspolicy/answer/6299717) und für (Benutzer[ID-Segmente) ](https://support.google.com/google-ads/answer/9199250) sein. Außerdem muss das Advertiser-Konto in Search, Social und Commerce so konfiguriert sein, dass Zielgruppen für den Kundenabgleich erstellt werden können.
+  Um Zielgruppen für den Kundenabgleich zu erstellen, muss das [!DNL Google Ads] des Werbetreibenden ([&#x200B; für benutzerdefinierte Abgleiche) &#x200B;](https://support.google.com/adspolicy/answer/6299717) und für (Benutzer[ID-Segmente) &#x200B;](https://support.google.com/google-ads/answer/9199250) sein. Außerdem muss das Advertiser-Konto in Search, Social und Commerce so konfiguriert sein, dass Zielgruppen für den Kundenabgleich erstellt werden können.
 
   [!DNL Adobe] Segmentdaten und Cookie-Synchronisierungsdateien für kundendatenbasierte Zielgruppen werden täglich mit [!DNL Google Ads] synchronisiert.
 

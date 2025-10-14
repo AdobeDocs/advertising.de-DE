@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. (Optional) Filtern Sie die Ansicht so, dass sie eine Zeile mit bestimmten Namen, einen zu bewertenden Datenbereich oder andere Kriterien enthält.
 
-   Sie können Datenfilter ([ der Symbolleiste) ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) [aus Spaltenüberschriften](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) anwenden.
+   Sie können Datenfilter ([&#x200B; der Symbolleiste) &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) [aus Spaltenüberschriften](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) anwenden.
 
 1. Klicken Sie neben dem Vorlagennamen auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 

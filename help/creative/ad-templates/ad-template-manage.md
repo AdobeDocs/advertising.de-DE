@@ -71,7 +71,7 @@ Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigenty
 
    Im [!UICONTROL New Dynamic Ad] werden die Felder [!UICONTROL Ad Template Size], [!UICONTROL Ad Template Type] und [!UICONTROL Ad Template] automatisch ausgewählt und schreibgeschützt.
 
-1. Geben Sie die Einstellungen für dynamische Anzeigen an[ um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
+1. Geben Sie die Einstellungen für dynamische Anzeigen an[&#x200B; um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
 
 ## Einstellungen für Anzeigenvorlagen {#ad-template-settings}
 

@@ -50,7 +50,7 @@ Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später
 
 ## Kreative Bibliotheken löschen
 
-Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live[Erlebnis ](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) sind. Für ein zielgerichtetes Live[Erlebnis entfernen Sie zunächst alle Kreativen oder Bundles aus ](/help/creative/experiences/experience-target-node-delete.md) Entscheidungsstruktur für das Erlebnis, bevor Sie fortfahren.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
+Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live[Erlebnis &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) sind. Für ein zielgerichtetes Live[Erlebnis entfernen Sie zunächst alle Kreativen oder Bundles aus &#x200B;](/help/creative/experiences/experience-target-node-delete.md) Entscheidungsstruktur für das Erlebnis, bevor Sie fortfahren.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

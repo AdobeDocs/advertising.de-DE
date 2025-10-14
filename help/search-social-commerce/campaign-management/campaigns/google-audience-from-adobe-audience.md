@@ -44,7 +44,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
       Beispiel: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [ es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert ](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [&#x200B; es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert &#x200B;](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -68,7 +68,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. Wählen Sie die zu erstellende **[!UICONTROL Audience Type]** aus: **[!UICONTROL Customer List_User ID]**.
 
-      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([ für benutzerdefinierte Übereinstimmung) ](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) ](https://support.google.com/google-ads/answer/9199250).
+      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([&#x200B; für benutzerdefinierte Übereinstimmung) &#x200B;](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) &#x200B;](https://support.google.com/google-ads/answer/9199250).
 
    1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie mit den Bedingungen der Datenschutzrichtlinien für [!DNL Adobe] und Werbenetzwerke einverstanden sind.
 

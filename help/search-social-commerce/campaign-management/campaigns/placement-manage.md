@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]Konten*
 
-Sie können Platzierungen für Anzeigengruppen in „Unterstützte Kampagnentypen[ erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die für das Anzeigennetzwerk in einem [synchronisierten Anzeigennetzwerkkonto vorgesehen sind](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Sie können Platzierungen für Anzeigengruppen in „Unterstützte Kampagnentypen[&#x200B; erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die für das Anzeigennetzwerk in einem [synchronisierten Anzeigennetzwerkkonto vorgesehen sind](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## Erstellen [!DNL Google Ads] Platzierungen
 

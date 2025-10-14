@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]Konten*
 
-Sie können Callout-Erweiterungen für beliebige [unterstützte [!DNL Google Ads] Kampagnen oder Anzeigengruppen](/help/search-social-commerce/introduction/supported-inventory.md) im Suchnetzwerk in einem [synchronisierten [!DNL Google Ads] Konto erstellen und ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Sie können Callout-Erweiterungen für beliebige [unterstützte [!DNL Google Ads] Kampagnen oder Anzeigengruppen](/help/search-social-commerce/introduction/supported-inventory.md) im Suchnetzwerk in einem [synchronisierten [!DNL Google Ads] Konto erstellen und &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 Weisen Sie mindestens zwei Hinweisen pro Kampagne oder Anzeigengruppe zu, damit Ihre Anzeigen für die Anzeige mit Hinweisen geeignet sind.
 

@@ -49,7 +49,7 @@ Mit privaten Angeboten können Sie die Angebotsparameter Ihren Bedürfnissen ent
 
 ## Platzierungen [!DNL Roku]
 
-Erstellen Sie [ DSP [!DNL Roku]Kampagnen spezifische Platzierungen ](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
+Erstellen Sie [&#x200B; DSP [!DNL Roku]Kampagnen spezifische Platzierungen &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
 
 Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle ansprechen. Um den Zielgruppenabgleich von DSP mit [!DNL Roku] zu verwenden, schließen Sie ein oder mehrere Zielgruppensegmente ein, die mit dem deterministischen [!DNL Roku]-Datensatz (Opt-in) abgeglichen werden können.
 

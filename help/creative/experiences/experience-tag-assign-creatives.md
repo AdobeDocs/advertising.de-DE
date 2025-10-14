@@ -44,7 +44,7 @@ Sie können später [Tracking-URLs anpassen](experience-tracking-urls-no-targeti
 
 >[!MORELIKETHIS]
 >* [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](experience-tag-create-manually.md)
->* [Passen Sie die Tracking-URLs für die Kreativen ](experience-tracking-urls-no-targeting.md).
+>* [Passen Sie die Tracking-URLs für die Kreativen &#x200B;](experience-tracking-urls-no-targeting.md).
 >* [Passen Sie die kreative Optimierung und Planung für die Kreativen an](experience-optimization-scheduling-no-targeting.md)
 >* [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](experience-tag-video-transcoding.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](experience-tag-export.md)

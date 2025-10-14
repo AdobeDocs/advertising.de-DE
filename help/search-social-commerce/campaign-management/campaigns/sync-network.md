@@ -24,7 +24,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Upload]&quot; generiert und
 
 >[!NOTE]
 >
->Jedes Mal, [ Sie eine Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
+>Jedes Mal, [&#x200B; Sie eine Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**. Wählen Sie im Untermenü entweder **[!UICONTROL Accounts]** aus, um alle Kampagnen in bestimmten Konten zu synchronisieren, oder **[!UICONTROL Campaigns]**, um bestimmte Kampagnen zu synchronisieren.
 

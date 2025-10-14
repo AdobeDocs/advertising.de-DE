@@ -19,7 +19,7 @@ Search, Social und Commerce können Konversionsmetriken für ein bestimmtes [!DN
 >
 >Advertising DSP-Benutzer können die Konversionsmetriken als benutzerdefinierte Ziele und in Berichten verwenden.
 
-Die gesamte API-Nutzung für die Datenübertragungen wird zu einem Projekt im entsprechenden [!DNL Google Analytics]-Konto bewertet. Sie können Ihre Kontingente für dieses Projekt in [der [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas) anzeigen. Weitere Informationen zu ([ und Aufrufbeschränkungen für Reporting-API-Anfragen](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas) finden Sie in [!DNL Google Analytics] Dokumentation.
+Die gesamte API-Nutzung für die Datenübertragungen wird zu einem Projekt im entsprechenden [!DNL Google Analytics]-Konto bewertet. Sie können Ihre Kontingente für dieses Projekt in [der [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas) anzeigen. Weitere Informationen zu ([&#x200B; und Aufrufbeschränkungen für Reporting-API-Anfragen](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas) finden Sie in [!DNL Google Analytics] Dokumentation.
 
 Die folgenden Schritte beschreiben den Prozess zum Synchronisieren von Konvertierungsdaten aus [!DNL Google Analytics].
 

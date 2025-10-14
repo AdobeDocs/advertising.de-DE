@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Auktionseinblicke für einen privaten Deal anzeigen
 
-Auction Insights ist ein Tool zur Fehlerbehebung, mit dem Sie die Zusammensetzung von garantierten und nicht garantierten Privatgeschäften analysieren können. Mithilfe von Datenvisualisierungen zeigt dieses Tool den Trend und die relativen Anteile der Werte an, die innerhalb [ bestimmten Zeitraums für ](#auction-attributes)wichtige Auktionsattribute“ empfangen wurden.
+Auction Insights ist ein Tool zur Fehlerbehebung, mit dem Sie die Zusammensetzung von garantierten und nicht garantierten Privatgeschäften analysieren können. Mithilfe von Datenvisualisierungen zeigt dieses Tool den Trend und die relativen Anteile der Werte an, die innerhalb [&#x200B; bestimmten Zeitraums für &#x200B;](#auction-attributes)wichtige Auktionsattribute“ empfangen wurden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -20,7 +20,7 @@ Auction Insights ist ein Tool zur Fehlerbehebung, mit dem Sie die Zusammensetzun
 
 >[!NOTE]
 >
->Auktionseinblicke sind auch über das Platzierungs-[!UICONTROL Inspector] verfügbar. Um sie zu öffnen[ öffnen Sie die Platzierungs-[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) auf der [!UICONTROL Inventory tab] und klicken Sie dann in der Zeile Angebot auf **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** .
+>Auktionseinblicke sind auch über das Platzierungs-[!UICONTROL Inspector] verfügbar. Um sie zu öffnen[&#x200B; öffnen Sie die Platzierungs-[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) auf der [!UICONTROL Inventory tab] und klicken Sie dann in der Zeile Angebot auf **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** .
 
 ## Auktionsattribute {#auction-attributes}
 

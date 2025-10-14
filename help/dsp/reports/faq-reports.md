@@ -67,7 +67,7 @@ Diese Metriken in [!UICONTROL Household] Berichten werden anhand der tatsächlic
 
 #### Wie konfiguriere ich den Bericht für die [!UICONTROL Placement Tags] Dimension?
 
-Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Wenn eine Platzierung mehrere Tags enthält, betrachtet der Bericht die gesamte Zeichenfolge als ein Tag. Der Bericht enthält eine Zeile für jede eindeutige Zeichenfolge.
 

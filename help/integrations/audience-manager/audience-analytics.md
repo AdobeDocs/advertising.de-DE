@@ -26,7 +26,7 @@ Adobe Advertising-Kunden können von der Verwendung von [!DNL Audience Analytics
 
 * (Werbetreibende mit Advertising DSP) Fügen Sie zusätzliche Belichtungssegmente hinzu, um ganzheitliche Einblicke in das Journey-Management zu erhalten.
 
-  Advertising DSP kann Belichtungsdaten als verwertbare Signale an Audience Manager senden, indem entweder Adobe Experience Platform oder Audience Manager-Impression-Tracking-Pixel implementiert werden. Die Weiterleitung derselben Daten an [!DNL Analytics] ermöglicht eine erweiterte Datenanalyse. Weitere Informationen finden [ unter „Übersicht über die Integration von Adobe Advertising Adobe Audience Manager-Media-Daten mit ](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;.
+  Advertising DSP kann Belichtungsdaten als verwertbare Signale an Audience Manager senden, indem entweder Adobe Experience Platform oder Audience Manager-Impression-Tracking-Pixel implementiert werden. Die Weiterleitung derselben Daten an [!DNL Analytics] ermöglicht eine erweiterte Datenanalyse. Weitere Informationen finden [&#x200B; unter „Übersicht über die Integration von Adobe Advertising Adobe Audience Manager-Media-Daten mit &#x200B;](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;.
 
 Weitere Informationen zu [!DNL Audience Analytics], einschließlich der Voraussetzungen und des Workflows, finden Sie unter &quot;[Übersicht über das Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de)&quot;.
 

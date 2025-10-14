@@ -29,7 +29,7 @@ Sie können die Archivierung eines Deals aufheben, um den vorherigen Status jede
 
 >[!NOTE]
 >
->Um archivierte Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um archivierte Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Archivierung eines privaten Angebots aufheben
 
@@ -42,7 +42,7 @@ Wenn der Publisher oder SSP den Deal zuvor deaktiviert hatte und Sie ihn erneut 
 
 >[!NOTE]
 >
->Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >

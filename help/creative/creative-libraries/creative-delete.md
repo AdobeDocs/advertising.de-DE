@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Sie können Folgendes löschen:
 
-* Kreative, die sich nicht in einem Bundle befinden, das einem (Live[- oder Entwurfszielerlebnis](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [ zugewiesen ](/help/creative/experiences/experience-about.md).
+* Kreative, die sich nicht in einem Bundle befinden, das einem (Live[- oder Entwurfszielerlebnis](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [&#x200B; zugewiesen &#x200B;](/help/creative/experiences/experience-about.md).
 
-* Kreative, die keinem Anzeigen-Tag für ein Live-Erlebnis oder einen Entwurf (nicht [) zugewiesen ](/help/creative/experiences/experience-about.md).
+* Kreative, die keinem Anzeigen-Tag für ein Live-Erlebnis oder einen Entwurf (nicht [) zugewiesen &#x200B;](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >

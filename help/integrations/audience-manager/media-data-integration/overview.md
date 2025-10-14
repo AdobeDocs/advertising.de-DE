@@ -32,7 +32,7 @@ DSP lädt Sie nicht auf, diese Signale an den Audience Manager zu senden. Sie za
 
 * Sie können die Kampagnendaten für Anwendungsfälle wie Frequenzlimitierung für Kreative, Retargeting von Benutzenden, die mit früheren Kampagnen konfrontiert waren, und Analyse des nachgelagerten Site-Verhaltens und der Einstiegspunkte nutzen.
 
-* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können verwendet werden, um die Ereignissequenz zu verbessern, die zu Konversionen durch Audience Manager-[!DNL Audience Optimization Reports] oder durch eine [[!DNL Audience Analytics] Integration mit Adobe Analytics) ](/help/integrations/audience-manager/audience-analytics.md).
+* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können verwendet werden, um die Ereignissequenz zu verbessern, die zu Konversionen durch Audience Manager-[!DNL Audience Optimization Reports] oder durch eine [[!DNL Audience Analytics] Integration mit Adobe Analytics) &#x200B;](/help/integrations/audience-manager/audience-analytics.md).
 
 ## So werden die Daten verfolgt
 
@@ -48,7 +48,7 @@ Der Audience Manager verfolgt Klicks ähnlich wie Impressions, mit dem Unterschi
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) Audience Manager senden.
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) Audience Manager senden.
 
 >[!MORELIKETHIS]
 >

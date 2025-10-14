@@ -16,7 +16,7 @@ Durch das Löschen einer Klassifizierung werden alle Verknüpfungen zwischen ihr
 
 >[!NOTE]
 >
->Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[ von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
+>Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[&#x200B; von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
 
 1. Klicken Sie auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 

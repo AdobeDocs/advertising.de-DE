@@ -18,7 +18,7 @@ Sie können die Daten für mehrere Simulationen gleichzeitig in eine Datei im ZI
 
 >[!NOTE]
 >
->Sie können auch [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden [ Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
+>Sie können auch [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden [&#x200B; Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 

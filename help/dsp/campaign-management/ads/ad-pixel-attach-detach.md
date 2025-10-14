@@ -65,7 +65,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
    1. Klicken Sie unten rechts auf **[!UICONTROL Attach]**.
 
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
+1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück &#x200B;](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
 
 ## Trennen von Tracking-Pixeln von Drittanbietern von Anzeigen in einer Platzierung {#detach-pixels-ads}
 
@@ -89,7 +89,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
    1. Klicken Sie unten rechts auf **[!UICONTROL Detach]**.
 
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
+1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück &#x200B;](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
 
 ## An Anzeigen angehängte Pixel anzeigen {#view-pixels-ads}
 
@@ -107,7 +107,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
 1. Klicken Sie auf eine beliebige Anzeigenzeile in der linken Tabelle, um die angehängten Pixel in der rechten Tabelle anzuzeigen.
 
-1. (Optional) Um mehr Pixel an die Anzeigen anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens [Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer ](#attach-pixels-ads)&quot;.
+1. (Optional) Um mehr Pixel an die Anzeigen anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens [Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer &#x200B;](#attach-pixels-ads)&quot;.
 
 >[!MORELIKETHIS]
 >

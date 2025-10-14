@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Verwenden Sie die DSP-Integration mit der [!DNL Tealium] Kundendatenplattform, um die gehashten First-Party-E-Mail-Adressen Ihres Unternehmens in universelle IDs für zielgerichtete Werbung zu konvertieren. Der Prozess verwendet den Firehose-Connector von [!DNL Amazon Web Services] (AWS). Führen Sie die folgenden Schritte aus, um Daten von Tealium für DSP freizugeben:
 
-1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Richten Sie das Tracking ein, um  [!DNL Analytics]  Messung zu ](#analytics-tracking).
+1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Richten Sie das Tracking ein, um  [!DNL Analytics]  Messung zu &#x200B;](#analytics-tracking).
 
 1. [Erstellen einer Zielgruppenquelle in DSP](#source-create).
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um E-Mail-Adressen in [!DNL RampIDs]- oder [!DNL ID5]-I
 
 ## Schritt 2: Erstellen einer Zielgruppenquelle in DSP {#source-create}
 
-1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([ universellen ID-Formate) ](source-about.md).
+1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([&#x200B; universellen ID-Formate) &#x200B;](source-about.md).
 
    Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Segmentzuordnungsdaten vorbereiten.
 
@@ -124,7 +124,7 @@ Erstellen Sie für jedes Segment, das Sie freigeben möchten, einen separaten Co
 
                * Benennen Sie für das Cookies -Attribut die benutzerdefinierte `cookies`.
 
-            1. Geben Sie in der Option zum Erstellen eines benutzerdefinierten Felds im Feld [!DNL Source Key] die [!UICONTROL External Segment Key] ein, die in den [Segmentzuordnungsdaten“ ](#map-data) vorherigen Verfahren enthalten waren.
+            1. Geben Sie in der Option zum Erstellen eines benutzerdefinierten Felds im Feld [!DNL Source Key] die [!UICONTROL External Segment Key] ein, die in den [Segmentzuordnungsdaten“ &#x200B;](#map-data) vorherigen Verfahren enthalten waren.
 
                DSP verwendet diesen Schlüssel zum Ausfüllen Ihres Segments.
 
@@ -136,7 +136,7 @@ Pro Segment und Segment kann nur ein Connector verwendet werden.
 
 1. Duplizieren Sie [!DNL Tealium] das Segment, für das Sie ein weiteres Segment erstellen möchten, und benennen Sie das neue Segment um.
 
-1. Duplizieren Sie [!DNL Tealium] [den von Ihnen ](#tealium-connector) vorherigen Vorgang erstellten Connector) und benennen Sie den neuen Connector von &quot;`<original name>-copy`&quot; in den neuen Segmentnamen um.
+1. Duplizieren Sie [!DNL Tealium] [den von Ihnen &#x200B;](#tealium-connector) vorherigen Vorgang erstellten Connector) und benennen Sie den neuen Connector von &quot;`<original name>-copy`&quot; in den neuen Segmentnamen um.
 
 ## Schritt 6: Anzahl der universellen IDs mit der Anzahl der Hash-E-Mail-Adressen vergleichen {#compare-id-count}
 
@@ -148,7 +148,7 @@ Segmente werden alle 24 Stunden aktualisiert. Die Aufnahme in ein Segment läuft
 
 ## Fehlerbehebung
 
-Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[ für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
+Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[&#x200B; für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
 
 Wenden Sie sich zur Fehlerbehebung bei Konvertierungsproblemen an Ihr Adobe-Kundenbetreuungsteam oder `adcloud-support@adobe.com`.
 

@@ -67,7 +67,7 @@ Erstellen Sie separate Vorlagen für Text- und erweiterte/erweiterte Textanzeige
       >* Sie können bis zu vier Anzeigenvariantenvorlagen pro Standardtext-Anzeigenvorlage, fünf Anzeigenvariantenvorlagen pro erweiterter/erweiterter Text-Anzeigenvorlage und drei Anzeigenvariantenvorlagen pro responsiver Suchanzeigenvorlage einbeziehen.
       >* Jede Anzeigengruppe kann bis zu drei aktivierte responsive Suchanzeigen enthalten.
       >* Sie können keine vorhandenen Standardtextanzeigen-Varianten bearbeiten, und vorhandene Vorlagen generieren keine Standardtextanzeigen mehr.
-      >* Wenn Sie eine Anzeigenvariantenvorlage ändern, können bestehende Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage weitergeben ([ nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
+      >* Wenn Sie eine Anzeigenvariantenvorlage ändern, können bestehende Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage weitergeben ([&#x200B; nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
 
       * Gehen Sie wie folgt vor, um eine Anzeigenvariante hinzuzufügen:
 

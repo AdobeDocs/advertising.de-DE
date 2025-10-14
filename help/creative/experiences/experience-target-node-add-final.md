@@ -18,7 +18,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
 >[!NOTE]
 >
->Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[ eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
+>Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[&#x200B; eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
 
 <!-- 1. [ways to get to the decision tree] -->
 
@@ -98,7 +98,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Optional) [Weisen Sie dem neuen ](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
+   * (Optional) [Weisen Sie dem neuen &#x200B;](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
 
    * (Optional) So speichern Sie das Erlebnis:
 

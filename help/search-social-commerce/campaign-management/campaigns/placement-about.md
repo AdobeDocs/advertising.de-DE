@@ -16,7 +16,7 @@ Nur *[!DNL Google Ads]Konten*
 
 Platzierungen sind Orte im Display-Netzwerk, an denen Ihre Anzeigen erscheinen können. Die Platzierungseinstellungen umfassen das maximale Angebot und optionale Tracking-Parameter. Einstellungen auf Platzierungsebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft.
 
-Sie können Platzierungen für jede Anzeigengruppe in einem [unterstützten [!DNL Google Ads] Kampagnentyp erstellen](/help/search-social-commerce/introduction/supported-inventory.md) der auf das Anzeigennetzwerk in einem [synchronisierten Suchmaschinenkonto) ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Sie können Platzierungen für jede Anzeigengruppe in einem [unterstützten [!DNL Google Ads] Kampagnentyp erstellen](/help/search-social-commerce/introduction/supported-inventory.md) der auf das Anzeigennetzwerk in einem [synchronisierten Suchmaschinenkonto) &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 ## Die [!UICONTROL Placements]
 
