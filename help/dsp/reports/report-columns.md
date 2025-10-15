@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | Der Anbieter des Betriebssystems, auf dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Microsoft] oder [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Die Version des Betriebssystems, auf dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Windows 10] oder [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | Das Betriebssystem, auf dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Apple iOS] oder [!UICONTROL Android]). |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Die eindeutige Kennung, die einem Abschluss über den externen Versorgungspartner zugewiesen wurde. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Der vom Benutzer zugewiesene Name für den Abschluss, wie in DSP eingegeben. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | Der Partner auf der Angebotsseite, der das Inventar bereitstellt. Dies ist normalerweise ein Publisher, kann aber auch ein SSP sein. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | Der vom Benutzer zugewiesene Name für den Abschluss, wie in DSP eingegeben. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | Ob das Geschäft *[!UICONTROL Guaranteed]* oder *[!UICONTROL Non-Guaranteed]* ist. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | Klassifizierung des Bestands: *[!UICONTROL Private],* *[!UICONTROL On Demand],* oder *[!UICONTROL Public]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | Die eindeutige Kennung, die einem privaten Abschluss über den externen Versorgungspartner zugewiesen wurde. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | Der Partner auf der Angebotsseite, der das Inventar bereitstellt. Dies ist normalerweise ein Publisher, kann aber auch ein SSP sein. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | Der angebotsseitige Partner (SSP), dem die Medien zugeordnet werden. |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | Die Häufigkeit, mit der ein Gerät eine Anzeige erhalten hat, basierend auf dem eindeutigen Cookie oder der Geräte-ID. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Die Stadt, der die gemeldeten Daten zugeordnet sind. |
@@ -213,7 +214,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
