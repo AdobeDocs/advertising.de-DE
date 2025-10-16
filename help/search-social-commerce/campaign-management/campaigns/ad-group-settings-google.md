@@ -3,9 +3,9 @@ title: Einstellungen für Anzeigengruppen [!DNL Google Ads]
 description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  Anzeigengruppen.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Wenn die Kampagne eine intelligente Gebotsstrategie verwendet (z. B. [!UICONTROL
 >* Erstellen Sie Tracking-Vorlagen auf Keyword-Ebene, wenn Sie Gebote nach Keyword erstellen. Erstellen Sie auf ähnliche Weise Tracking-Vorlagen auf Platzierungsebene, wenn Sie nach Platzierung bieten. Erstellen Sie für alle anderen Dimensionen Tracking-Vorlagen auf Anzeigenebene.
 >* Wenn Sie nach Alter, Geschlecht, Interesse und Liste oder vertikal für Kampagnen in Portfolios bieten, optimiert die Optimierungsfunktion keine Angebote für die Dimension. Außerdem wird die gesamte Attribution auf die Anzeigengruppe angewendet.
 >* Werbeanzeigen im Suchnetzwerk verwenden immer Keyword-Gebote.
+
+**[!UICONTROL AI Max Search Term Matching]:** (Kampagnen, die auf das Suchnetzwerk abzielen und für die die [KI-Max-Funktion](https://support.google.com/google-ads/answer/15910366) und die Suchbegriffabgleichfunktion auf Kampagnenebene aktiviert sind; schreibgeschützt) Ob die Abgleichung von Suchbegriffen auf Anzeigengruppenebene aktiviert ist: *[!UICONTROL Disabled]* oder *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 
