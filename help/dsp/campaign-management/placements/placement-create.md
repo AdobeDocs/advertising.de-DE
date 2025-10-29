@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       Bei den meisten Platzierungstypen sind standardmäßig alle Inventartypen und alle Quellen für jeden Typ enthalten. Für [!DNL Roku] Platzierungen müssen Sie den Inventartyp und die Quellen angeben.
 
-   1. (Optional) Grenzen Sie im Abschnitt [!UICONTROL Site Targeting] die Sites ein, die Sie ansprechen möchten, und geben Sie alle Sites an, die Sie ausschließen möchten.
+   1. (Optional) Grenzen Sie im Abschnitt [!UICONTROL Site or app And Keyword Targeting] die Sites und Apps ein, die Sie ansprechen und ausschließen möchten.
 
    1. (Optional) Im [!UICONTROL Audience Targeting] Abschnitt:
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/346219?captions=ger)
+>* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/340454)
