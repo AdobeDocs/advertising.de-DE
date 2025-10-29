@@ -3,9 +3,9 @@ title: Audio-Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Audioanzeigen.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -48,19 +48,9 @@ Dieses Feld kann je nach den Kontoberechtigungen angezeigt werden oder nicht.
 
 ### [!UICONTROL Pixel]
 
-Alle vorhandenen Pixel der Ereignisverfolgung für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und bei Bedarf neue Pixel erstellen, basierend auf Ihren Tracking-Anforderungen für die einzelne Anzeige. **Tipp** Informationen zum gleichzeitigen Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung mithilfe der [!UICONTROL Ad Tools] finden Sie unter &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
+<!-- **[!UICONTROL Pixel]:** -->
 
-Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
-
-**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]* ausgelöst werden.
-
-**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
-
-**[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für den angegebenen Pixeltyp.
-
-**[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
-
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >

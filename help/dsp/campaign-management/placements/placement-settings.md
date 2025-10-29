@@ -3,9 +3,9 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: f8f877552018de50649fbba22c56452775e72df3
 workflow-type: tm+mt
-source-wordcount: '4586'
+source-wordcount: '4436'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Beschreibungen der einzelnen Pre-Bid-Filter finden Sie unter &quot;[Pre-Bid-Filt
 
 **[!UICONTROL Gross Budget Goal]:** (nur Platzierungen in Kampagnen mit Margin-Verwaltung) Die Bruttobudgetbegrenzung und das Budgetzeitintervall (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter „Optimierungsziele [&#x200B; Verwendung](/help/dsp/optimization/optimization-goals.md)&quot;.
+**[!UICONTROL Optimization Goal]:** Das Optimierungsziel für das Paket. Beschreibungen der einzelnen Optimierungsziele finden Sie unter „Optimierungsziele [ Verwendung](/help/dsp/optimization/optimization-goals.md)&quot;.
 
 **[!UICONTROL Target Goal]:** Das Zielziel, mit dem die Leistung verfolgt wird.
 
@@ -226,15 +226,15 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 * **[!UICONTROL Playback mode]:** Zielinventar (aber nicht ausschließen) durch die Art und Weise, wie die Wiedergabe gestartet wird. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig werden alle Modi als Ziel ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielmodi und/oder *Unbekannt* aus.
 
-* **[!UICONTROL Skippability]:** Zielbestand (aber nicht ausschließen), je nachdem, ob er übersprungen werden kann oder nicht. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig sind alle Optionen ausgewählt. Um die Ziele einzugrenzen, wählen Sie bestimmte Ziele und/oder *Unbekannt* aus.
+* **[!UICONTROL Skippability]:** Zielinventar (aber nicht ausschließen), je nachdem, ob es übersprungen werden kann oder nicht. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig sind alle Optionen ausgewählt. Um die Ziele einzugrenzen, wählen Sie bestimmte Ziele und/oder *Unbekannt* aus.
 
 **[!UICONTROL Position targeting]:** Zielbestand (aber nicht ausschließen) nach Anzeigenposition. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig werden alle Positionen als Zielgruppen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielpositionen und/oder *Unbekannt* aus.
 
-## [!UICONTROL Site and App Targeting]
+## [!UICONTROL Site or App and Keyword Targeting]
 
 **[!UICONTROL Traffic type]:** Die Traffic-Typen an die Zielgruppe. Zu den Optionen gehören **[!UICONTROL Websites]** und **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (Verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Die Qualität des Traffics auf das Ziel. Die Stufen 1 bis 3 sind markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
+**[!UICONTROL Tier]:** (Verfügbar, wenn **[!UICONTROL Toggle for Sites or Apps Tiering]** *[!UICONTROL On]* ist) Die Qualität des Traffics auf das Ziel. Die Stufen 1 bis 3 sind markensicher und wurden vom DSP-Zuordnungsteam genehmigt.
 
 * *[!UICONTROL Tier 1]:* Premium-Websites und -Anwendungen, die landesweit anerkannt sind.
 
@@ -252,7 +252,7 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 >
 >Für Leistungskampagnen ist es am besten, *[!UICONTROL All Sites]* auszuwählen.
 
-**[!UICONTROL Site or App Categories]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Websitekategorien innerhalb der ausgewählten Website-Ebenen, die als Ziele ein- oder ausgeschlossen werden sollen (aber nicht beide). Wählen Sie aus den vertikalen Site-Listen aus, die DSP basierend auf dem Betreff zugeordnet hat:
+**[!UICONTROL Site or App Categories]:** (Optional) Website-Kategorien innerhalb der ausgewählten Traffic-Typen und (falls angegeben) die Website-Ebenen, um (aber nicht beide) als Ziele ein- oder auszuschließen. Wählen Sie aus den vertikalen Site-Listen aus, die DSP basierend auf dem Betreff zugeordnet hat:
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die einzuschließenden oder auszuschließenden Site-Kategorien an:
@@ -265,7 +265,7 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (Optional; verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** *[!UICONTROL Off]* ist) Auszuschließende Sites/Apps und [URL-](/help/dsp/resources/lists-url-manage.md). Auf der Registerkarte [!UICONTROL Paste URL] können Sie nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen. Auf der Registerkarte [!UICONTROL URL Lists] können Sie URL-Listen auswählen.
+**[!UICONTROL Exclude Sites or Apps]:** (Optional; verfügbar, wenn **[!UICONTROL Toggle for Sites or Apps Tiering]** *[!UICONTROL On]* ist) Auszuschließende Sites/Apps und [URL-](/help/dsp/resources/lists-url-manage.md). Auf der Registerkarte [!UICONTROL Paste URL] können Sie nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen. Auf der Registerkarte [!UICONTROL URL Lists] können Sie URL-Listen auswählen.
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Sites an:
@@ -287,43 +287,26 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 >[!NOTE]
 >
->* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [&#x200B; für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
 >* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
+
+**[!UICONTROL Context of Sites or App]:** (Optional) Kontextuelle Zielsegmente zum Targeting oder Ausschließen. Wählen Sie aus der folgenden URL aus
+
+* Registerkarte **[!UICONTROL Marketplace]** : Listet [!DNL Peer39] Segmente auf, die allen Benutzern für die angegebene Gebühr zur Verfügung stehen.
+
+* Registerkarte **[!UICONTROL Custom Segments]** : Listet die [!DNL Peer39] benutzerdefinierten Segmente Ihres Unternehmens auf.
+
+* Registerkarte &quot;**[!UICONTROL Paste Segments]**&quot;: (Werbetreibende, deren Unternehmen [!DNL Comscore] Partnerschaften eingegangen sind; verfügbar nach der Aktivierung durch Ihr Adobe-Account-Team) Geben Sie eine oder mehrere Segment-IDs oder Segmentnamen für die [!DNL Comscore] kontextuellen Segmente Ihres Unternehmens ein. Trennen Sie mehrere Werte durch Kommas (z. B. Segment1, Segment2, Segment3).
 
 **[!UICONTROL Language]:** (Optional) Eine einzelne Sprache zum Auswählen.
 
-**[!UICONTROL Site or app list preview]:** (Schreibgeschützt) Alle für die Platzierung ausgewählten und blockierten Websites/Apps, einschließlich Websites/Apps auf Kontoebene, Advertiser-Ebene und globaler Listen blockierter DSP-Websites.
+**[!UICONTROL Site or app list preview]:** (Schreibgeschützt; verfügbar, wenn **[!UICONTROL Toggle for Sites or Apps Tiering]** *[!UICONTROL On]* ist) Alle zielgerichteten und blockierten Websites/Apps für die Platzierung, einschließlich Websites/Apps auf Kontoebene, Advertiser-Ebene und globaler Listen blockierter DSP-Websites.
 
 Optional können Sie die Liste der zielgerichteten und blockierten Websites als CSV-Datei (CSV) exportieren. Um die Liste zu exportieren, klicken Sie auf **[!UICONTROL Export full site list]** und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers.
 
 **[!UICONTROL Allow unscreened sites]:** (Nur Standardplatzierungen für Anzeigen) Aktiviert die Bereitstellung von Anzeigen auf nicht geprüften Sites. Wenn die Platzierung auf ein privates Inventar abzielt, kann diese Option Anzeigen auf blockierten Websites bereitstellen.
 
-**[!UICONTROL Paste list of targeted sites]:** Ermöglicht das Targeting nur für bestimmte Sites. Wenn Sie diese Option aktivieren, sind die anderen Site-Targeting-Optionen deaktiviert.
-
-**[!UICONTROL Sites or Apps]:** (verfügbar, wenn **[!UICONTROL Paste list of targeted sites]** ist *[!UICONTROL On]*) Zu adressierende Sites. Auf der Registerkarte [!UICONTROL Paste URL] können Sie nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen. Auf der Registerkarte [!UICONTROL URL Lists] können Sie URL-Listen auswählen.
-
-1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
-1. Geben Sie die Sites an:
-   * Auf der Registerkarte [!UICONTROL Paste URL] :
-      * So suchen Sie nach einer Site:
-         1. Klicken Sie auf **[!UICONTROL Search]**.
-         1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
-         1. Wählen Sie in den Suchergebnissen die einzuschließenden Websites aus:
-            * Um eine einzelne Site einzubeziehen, aktivieren Sie das angrenzende Kontrollkästchen.
-            * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these 50]**. Um alle Suchergebnisse einzubeziehen, klicken Sie auf **[!UICONTROL Include these \<*NN *\>]**.
-      * Domain-Namen eingeben:
-         1. Klicken Sie auf **[!UICONTROL Paste]**.
-         1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
-         1. Klicken Sie auf **[!UICONTROL Include All]**.
-   * Auf der Registerkarte [!UICONTROL URL Lists] :
-      1. (Optional) Suchen Sie nach einer URL-Liste, indem Sie den Listennamen ganz oder teilweise in das Suchfeld eingeben.
-      1. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden URL-Liste.
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** .
-
->[!NOTE]
->
->* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [&#x200B; für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
->* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen. Sie können entweder nach Sites suchen und diese auswählen oder Domain-Namen eingeben oder einfügen:
+**[!UICONTROL Toggle for Sites or Apps Tiering]:** Ermöglicht die Angabe von Site- oder App-Ebenen, die ausgewählt oder ausgeschlossen werden sollen.
 
 ## [!UICONTROL Audience Targeting]
 
@@ -331,7 +314,7 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 
 * Um eine vorhandene Audience auszuwählen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann die Audience aus.
 * Um eine Audience zu erstellen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann **[!UICONTROL + Create Audience]** aus. Anweisungen finden Sie unter [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
-* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[&#x200B; einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[ einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
@@ -476,7 +459,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
+**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

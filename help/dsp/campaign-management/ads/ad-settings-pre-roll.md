@@ -3,9 +3,9 @@ title: Pre-roll-Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Pre-roll-Anzeigen.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,15 @@ Dies ist dasselbe wie das Feld **[!UICONTROL Height]** .
 
 **[!UICONTROL Wmode]:** (Nur interaktive Pre-Roll) Der Fenstermodus: *[!UICONTROL window]*, *[!UICONTROL transparent]* oder *[!UICONTROL opaque]*.
 
-**[!UICONTROL Video Format]:** (Nur interaktive Pre-Roll) Das Format des Anzeigen-Players für den potenziellen Bestand: *[!UICONTROL VPAID]* oder *[!UICONTROL VPAID & VAST]*. Die Sichtbarkeit wird für VPAID immer gemessen, aber VPAID &amp; VAST umfasst einen Bestand, der keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
+**[!UICONTROL Video Format]:** (Nur interaktive Pre-Roll) Das Format des Anzeigen-Players für den potenziellen Bestand: *[!UICONTROL VPAID]* oder *[!UICONTROL VPAID & VAST]*. Die Sichtbarkeit wird für VPAID immer gemessen, aber VPAID &amp; VAST umfasst ein Inventar, das keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
 
 **[!UICONTROL Clock Number]**: (Interaktive Pre-Roll-Funktion; nur in Großbritannien verwendet; nur für Benutzer mit Genehmigung verfügbar) Eine eindeutige Kennung, die sicherstellt, dass die richtige Anzeige gesendet wird. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
 
 ### [!UICONTROL Pixel]
 
-Alle vorhandenen Pixel der Ereignisverfolgung für die Platzierung werden automatisch angehängt. Sie können vorhandene Pixel trennen und bei Bedarf neue Pixel erstellen, basierend auf Ihren Tracking-Anforderungen für die einzelne Anzeige. **Tipp** Informationen zum gleichzeitigen Bearbeiten der Tracking-Pixel von Drittanbietern für mehrere Anzeigen in einer Platzierung mithilfe der [!UICONTROL Ad Tools] finden Sie unter &quot;[Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer Platzierung](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
+<!-- **[!UICONTROL Pixel]:** -->
 
-Die folgenden Einstellungen gelten für jedes Pixel, das Sie erstellen oder bearbeiten.
-
-**[!UICONTROL Integration Event]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird. Verwenden Sie für diesen Anzeigentyp Pixel, die auf dem *[!UICONTROL Impression]* oder *[!UICONTROL Click-through]* ausgelöst werden.
-
-**[!UICONTROL Pixel Type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
-
-**[!UICONTROL Pixel URL or Code]:** Die URL des Pixelbilds im entsprechenden Format für die angegebene [!UICONTROL Pixel Type].
-
-**[!UICONTROL Pixel Name]:** Der Pixelname. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
-
-**[!UICONTROL Pixel Provider]:** Der Pixelanbieter: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* oder *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >
