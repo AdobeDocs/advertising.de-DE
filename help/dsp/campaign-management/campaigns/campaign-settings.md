@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagneneinstellungen.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:**, ob die Ränder für die Kampagne verwaltet werden sollen: *[!UICONTROL Yes]* oder *[!UICONTROL No]* (Standard).
+**[!UICONTROL Margin Management]:** (Self-Service-Konten, die von Agenturen mit Margen bedient werden) Optionen für die Margenverwaltung:
 
-Bei Auswahl von *[!UICONTROL Yes]geben* die Art und den Betrag der Spanne an:
+* **[!UICONTROL Would you like to manage margins for this campaign?]:**, ob die Ränder für die Kampagne verwaltet werden sollen: *[!UICONTROL Yes]* oder *[!UICONTROL No]* (Standard). Wenn Sie *[!UICONTROL Yes]wählen, geben* die zusätzlichen Einstellungen an. Sobald Sie die Verwaltung der Spanne aktiviert und die Kampagne gespeichert haben, können Sie die Verwaltung der Spanne nicht mehr deaktivieren.
 
-* **[!UICONTROL Margin Type]:** Die Art des Rands. Sie können den Margin-Typ nicht mehr ändern, sobald Sie die Margin-Verwaltung aktiviert und die Kampagne gespeichert haben.
+* **[!UICONTROL How would you like to compute agency fees?]:** (Nur Kampagnen mit Margin-Verwaltung) Berechnung der Agenturgebühren:
 
-   * *[!UICONTROL Fixed]:* (Standard) Ermöglicht es DSP, die Ausgaben automatisch zu berechnen und auf der Grundlage eines festen prozentualen Margenanteils der [!UICONTROL Gross Budget] zu begrenzen.
+   * *[!UICONTROL Margin % of Total Budget]:* (Standard) Berechnet Gebühren als Prozentsatz der [!UICONTROL Gross Budget]. Geben Sie die [!UICONTROL Agency Fee Type] (fest oder zusammengesetzt) und die [!UICONTROL Margin %] oder [!UICONTROL Composite Margin %] an.
 
-   * *[!UICONTROL Dynamic]:* Ermöglicht die Verwaltung der Margen bis hinunter zur Platzierungsebene durch Angabe einer separaten [!UICONTROL Budget Reserve %] und [!UICONTROL Gross Budget] für jedes Paket und jede Platzierung in der Kampagne. DSP optimiert anhand der finanziellen Effizienz jeder Platzierung, ohne eine bestimmte Marge zu garantieren. Verwenden Sie diese Option für Einfügungsaufträge, die aus mehreren Positionen bestehen, für die Sie sich bereit erklärt haben, einen festen Betrag von Einheiten oder Einheitentypen zu einem festen Satz zu liefern.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Fügt einen bestimmten Prozentsatz der [!UICONTROL Gross Budget] zu Ihren Medienkosten, Daten- und anderen Kosten und/oder [!DNL Adobe] Technikgebühren hinzu. Geben Sie die [!UICONTROL Markup %] an und wählen Sie die Komponenten aus, auf die das Markup angewendet werden soll.
 
-* **[!UICONTROL Fixed Margin %]:** (Nur Kampagnen mit festen Rändern) Das standardmäßige Markup für jede Einfügereihenfolge <!-- impression? --> als Prozentsatz. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren.
+* **[!UICONTROL Agency Fee Type]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] verwenden) Die Art der Agenturgebühr.
 
-* **[!UICONTROL Budget Reserve %]:** (Nur Kampagnen mit festen Margen; optional) Reserviert einen bestimmten Prozentsatz der [!UICONTROL Gross Budget] als Schutz. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren.
+   * *[!UICONTROL Fixed]:* (Standard) Ermöglicht DSP die automatische Berechnung und Begrenzung der Ausgaben auf der Grundlage eines festen Prozentsatzes der [!UICONTROL Gross Budget]. Geben Sie die [!UICONTROL Margin %] an.
+
+   * *[!UICONTROL Composite]:* Ermöglicht DSP die automatische Berechnung und Begrenzung der Ausgaben auf der Grundlage eines Prozentsatzes der [!UICONTROL Gross Budget] unter Verwendung des zusammengesetzten Prozentsatzes der Agenturgebühren und [!DNL Adobe] Technikgebühren. Geben Sie die [!UICONTROL Composite Margin %] an.
+
+* **[!UICONTROL Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit festen Rändern verwenden) Das standardmäßige Markup für jede Einfügereihenfolge <!-- impression? --> als Prozentsatz. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren. Der Rand wird nicht auf die [!UICONTROL Estimated Tax Withholding] auf der [!UICONTROL Gross Budget] angewendet.
+
+* **[!UICONTROL Composite Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit zusammengesetzten Margen verwenden) Die Summe der Agenturgebühren und [!DNL Adobe] Tech-Gebühren in Prozent. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren. Der Rand wird nicht auf die [!UICONTROL Estimated Tax Withholding] auf der [!UICONTROL Gross Budget] angewendet.
+
+* **[!UICONTROL Markup %]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Der Prozentsatz der [!UICONTROL Gross Budget], der zu bestimmten Kostenkomponenten hinzugefügt werden soll.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Die Kostenkomponenten, für die die [!UICONTROL Markup %] angewendet wird. Wählen Sie alle entsprechenden Komponenten aus: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* und/oder *[!UICONTROL Adobe tech fees]*.
 
 **[!UICONTROL Gross Budget]:** (Nur Kampagnen mit Margin-Verwaltung) Das Bruttokampagnenbudget, bevor die angegebenen marginalen Anpassungen angewendet werden.
-
-Sie können optional ein zusätzliches tägliches, wöchentliches oder monatliches Bruttobudget hinzufügen:
-
-1. Klicken Sie auf **[!UICONTROL Add an additional Gross Budget]**.
-
-1. Geben Sie den **[!UICONTROL Gross Budget]** ein und wählen Sie das Budgetintervall aus: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly]*.
-
-Das Nettogesamtbudget, das die Ausgabenobergrenze für die Kampagne darstellt, wird automatisch auf der Grundlage der Einstellungen für die Spanne berechnet und unter diesem Wert angegeben.
 
 **[!UICONTROL Budget]:** (Kampagnen ohne Margin-Verwaltung) Das Gesamtbudget der Kampagne.
 
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Über Campaign Management](campaign-about.md)
+>* [Über die Kampagnenverwaltung](campaign-about.md)
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
