@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagneneinstellungen.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
+source-git-commit: 9d26e097f007b570c0f0e3b7f02c683a84d5e647
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,35 @@ ht-degree: 0%
 
 * **[!UICONTROL Would you like to manage margins for this campaign?]:**, ob die Ränder für die Kampagne verwaltet werden sollen: *[!UICONTROL Yes]* oder *[!UICONTROL No]* (Standard). Wenn Sie *[!UICONTROL Yes]wählen, geben* die zusätzlichen Einstellungen an. Sobald Sie die Verwaltung der Spanne aktiviert und die Kampagne gespeichert haben, können Sie die Verwaltung der Spanne nicht mehr deaktivieren.
 
-* **[!UICONTROL How would you like to compute agency fees?]:** (Nur Kampagnen mit Margin-Verwaltung) Berechnung der Agenturgebühren:
+* **[!UICONTROL How would you like to compute agency fees?]:** (Nur Kampagnen mit Margin-Management) Berechnung der Agenturgebühren, die den einbehaltenen und nicht in den Nettoausgaben enthaltenen Teil des Bruttobudgets der Kampagne ausmachen:
 
-   * *[!UICONTROL Margin % of Total Budget]:* (Standard) Berechnet Gebühren als Prozentsatz der [!UICONTROL Gross Budget]. Geben Sie die [!UICONTROL Agency Fee Type] (fest oder zusammengesetzt) und die [!UICONTROL Margin %] oder [!UICONTROL Composite Margin %] an.
+   * *[!UICONTROL Margin % of Total Budget]:* (Standard) Die Gebühren als Prozentsatz der Bruttoausgaben berechnen. Geben Sie die [!UICONTROL Agency Fee Type] (fest oder zusammengesetzt) und die [!UICONTROL Margin %] oder [!UICONTROL Composite Margin %] an.
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Fügt einen bestimmten Prozentsatz zu Ihren Medienkosten, Daten- und anderen Kosten und/oder [!DNL Adobe] Technikgebühren hinzu. Geben Sie die [!UICONTROL Markup %] an und wählen Sie die Komponenten aus, auf die das Markup angewendet werden soll.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Berechnen Sie die Gebühren als einen bestimmten Prozentsatz Ihrer Medienkosten, Daten- und anderen Kosten und/oder [!DNL Adobe] technischen Gebühren. Geben Sie die [!UICONTROL Markup %] an und wählen Sie die Komponenten aus, auf die das Markup angewendet werden soll.
 
 * **[!UICONTROL Agency Fee Type]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] verwenden) Die Art der Agenturgebühr.
 
-   * *[!UICONTROL Fixed]:* (Standard) Ermöglicht DSP die automatische Berechnung und Begrenzung der Ausgaben auf der Grundlage eines festen Prozentsatzes der [!UICONTROL Gross Budget]. Geben Sie die [!UICONTROL Margin %] an.
+   * *[!UICONTROL Fixed]:* (Standard) Ermöglicht es DSP, einen festen Prozentsatz der Bruttoausgaben als Agenturgebühren einzubehalten. Geben Sie die [!UICONTROL Margin %] an.
 
-   * *[!UICONTROL Composite]:* Ermöglicht DSP die automatische Berechnung und Begrenzung der Ausgaben auf der Grundlage eines Prozentsatzes der [!UICONTROL Gross Budget] unter Verwendung des zusammengesetzten Prozentsatzes der Agenturgebühren und [!DNL Adobe] Technikgebühren. Geben Sie die [!UICONTROL Composite Margin %] an.
+   * *[!UICONTROL Composite]:* Ermöglicht DSP, einen Prozentsatz der Bruttoausgaben einzubehalten, um sowohl Agenturgebühren als auch [!DNL Adobe]-Tech-Gebühren zu berücksichtigen. Geben Sie die [!UICONTROL Composite Margin %] an.
 
-* **[!UICONTROL Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit festen Rändern verwenden) Das standardmäßige Markup für jede Einfügereihenfolge <!-- impression? --> als Prozentsatz. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren. Der Rand wird nicht auf die [!UICONTROL Estimated Tax Withholding] auf der [!UICONTROL Gross Budget] angewendet.
+* **[!UICONTROL Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit festen Margen verwenden) Der Prozentsatz der Bruttoausgaben, die als Agenturgebühren einzubehalten sind. Änderungen am Wert der Spanne werden nur auf künftige Bruttoausgaben und nicht auf die historischen Bruttoausgaben für die Kampagne angewendet. Der [!UICONTROL Estimated Tax Withholding] ist vor Anwendung der Marge von den Bruttoausgaben auszuschließen. Sehen Sie sich die folgenden Beispiele an, in denen davon ausgegangen wird, dass die Kampagne nicht zu viel oder zu wenig ausgibt.
 
-* **[!UICONTROL Composite Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit zusammengesetzten Margen verwenden) Die Summe der Agenturgebühren und [!DNL Adobe] Tech-Gebühren in Prozent. Dieser Betrag wird von der [!UICONTROL Gross Budget] abgezogen, um das Nettokampagnenbudget zu definieren. Der Rand wird nicht auf die [!UICONTROL Estimated Tax Withholding] auf der [!UICONTROL Gross Budget] angewendet.
+   * Beispiel 1: Angenommen, der [!UICONTROL Gross Budget] ist `100 USD` und der [!UICONTROL Margin %] ist während des gesamten Fluges `5%`. Am Ende des Kampagnenflugs werden die Agenturgebühren als `5 USD` berechnet (was `5% of 100 USD` ist), und die Nettoausgaben sind `95 USD` (was `campaign budget [100 USD] - agency fees [5 USD]` ist).
 
-* **[!UICONTROL Markup %]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Der Prozentsatz, der zu bestimmten Kostenkomponenten hinzugefügt werden soll.
+   * Beispiel 2 mit Änderungen der Spanne: Angenommen, [!UICONTROL Margin %] wurde für dieselbe Kampagne von `5%` in `10%` geändert, als die Bruttoausgaben `40 USD` wurden. Für den Zeitraum vor der Änderung werden die Agenturgebühren als `2 USD` berechnet (was `5% of 40 USD` ist); für den Zeitraum nach der Änderung werden die Agenturgebühren als `6 USD` berechnet (was `10% of 60 USD` ist). Die gesamten Agenturgebühren werden als `8 USD` berechnet (was `2 USD + 6 USD` ist), und die Nettoausgaben sind `92 USD` (was `campaign budget [100 USD] - total agency fees [8 USD]` ist).
 
-* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Die Kostenkomponenten, für die die [!UICONTROL Markup %] angewendet wird. Wählen Sie alle entsprechenden Komponenten aus: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* und/oder *[!UICONTROL Adobe tech fees]*.
+   * Beispiel 3 mit Steuereinbehaltung: Angenommen, die [!UICONTROL Gross Budget] ist `100 USD`, die [!UICONTROL Estimated Tax Withholding] am Ende des Kampagnenflugs ist `10 USD` und die [!UICONTROL Margin %] ist während des gesamten Flugs `5%`. Am Ende des Kampagnenflugs werden die Agenturgebühren als `4.5 USD` berechnet (was `5% of (campaign budget [100 USD] - tax withholding [USD 10])` ist), und die Nettoausgaben sind `85.5 USD` (was `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]` ist).
+
+* **[!UICONTROL Composite Margin %]:** (Kampagnen, die [!UICONTROL Margin % of Total Budget] mit zusammengesetzten Margen verwenden) Der Prozentsatz der Bruttoausgaben, der als [!DNL Adobe] und Agenturgebühren zusammen einzubehalten ist. Die Agenturgebühren werden durch Abzug der Adobe Tech-Gebühren vom zusammengesetzten Margenbetrag berechnet. Änderungen am zusammengesetzten Wert der Spanne werden nur auf die künftigen Bruttoausgaben und nicht auf die historischen Bruttoausgaben für die Kampagne angewendet. Der [!UICONTROL Estimated Tax Withholding] ist vor Anwendung der Gesamtspanne von den Bruttoausgaben auszuschließen.
+
+  Angenommen, der [!UICONTROL Gross Budget] ist `100 USD`, die [!DNL Adobe] Tech-Gebühren am Ende des Kampagnenflugs sind `10 USD` und der [!UICONTROL Composite Margin %] wird während des gesamten Flugs `17%`. Am Ende des Kampagnenflugs (vorausgesetzt, dass die Kampagne nicht zu viel oder zu viel ausgibt) werden die Agenturgebühren als `7 USD` berechnet (was `(17% of 100 USD) - 10` ist) und die Nettoausgaben sind `93 USD` (was `campaign budget [100 USD] - agency fees [7 USD]` ist).
+
+* **[!UICONTROL Markup %]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Der Prozentsatz, der auf bestimmte Kostenkomponenten zur Berechnung der Agenturgebühren angewendet werden soll. Änderungen am Aufschlagwert werden nur auf zukünftige Kosten und nicht auf die historischen Kosten für die Kampagne angewendet.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampagnen, die [!UICONTROL Apply Markup % on top of individual cost components] verwenden) Die Kostenkomponenten, für die die [!UICONTROL Markup %] angewendet wird. Wählen Sie alle entsprechenden Komponenten aus: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* und/oder *[!UICONTROL Adobe tech fees]*. Änderungen an der Komponentenauswahl werden nur auf die zukünftigen Kosten und nicht auf die historischen Kosten für die Kampagne angewendet.
+
+  Beispielsweise wird die [!UICONTROL Markup %] für &quot;`10%`&quot; und &quot;[!UICONTROL Media cost]&quot; [!UICONTROL Data and Other costs]. Wenn zu einem beliebigen Zeitpunkt während des Kampagnenflugs die Medienkosten `20 USD`, Daten und andere Kosten `5 USD` werden und [!DNL Adobe] Technologiegebühren `2 USD` werden, werden die Agenturgebühren als `2.50 USD` berechnet (was `10% of (20 USD + 5 USD)` ist, und die Bruttoausgaben `29.50 USD` (was `media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]` ist).
 
 **[!UICONTROL Gross Budget]:** (Nur Kampagnen mit Margin-Verwaltung) Das Bruttokampagnenbudget, bevor die angegebenen marginalen Anpassungen angewendet werden.
 
