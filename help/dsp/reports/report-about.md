@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder die Verwendung vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
+source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 >[!NOTE]
 >
->Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [&#x200B; entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [ entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
 ## Verfügbare Berichtstypen
 
@@ -43,9 +43,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
    * **[!UICONTROL Conversion]:** Verwenden Sie diesen Bericht, um zu verstehen, wie Ihre Kampagnen auf der Grundlage von Konversionsmetriken funktionieren, die mit dem Konversionstracking von Adobe Advertising erfasst wurden. Dieser Bericht enthält die Multi-Touch-Attribution.
 
-  <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
-    -->
+   * **[!UICONTROL Custom Creative Report]:** (Advertisers mit Advertising Creative; Beta-Funktion) Verwenden Sie diesen Bericht, um die Leistung Ihrer Advertising Creative-Anzeigen-Erlebnisse zu überwachen.
 
    * **[!UICONTROL Device]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach gerätebezogenen Dimensionen anzuzeigen.
 
@@ -77,9 +75,9 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
    * **[!UICONTROL Site]:** Enthält standardmäßig Standardmetriken, Nettoausgaben für Medien insgesamt und abrechenbare Nettoausgaben insgesamt nach Standort.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [&#x200B; unter „FAQs &#x200B;](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [ unter „FAQs ](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
-   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [&#x200B; unter „FAQs &#x200B;](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [ unter „FAQs ](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
    * **[!UICONTROL Path to Conversion]:** Verwenden Sie diesen Bericht, um zu ermitteln, wie Sie basierend auf leistungsstärksten Anzeigeninteraktionssequenzen Budgets optimieren und Anzeigen personalisieren können. Der Bericht zeigt die Sequenz von Interaktionspunkten im selben Haushalt an, die zu jeder der ausgewählten Konversionsmetriken im angegebenen Datenbereich führen. Der Bericht verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion und kann eine Dimension enthalten:
 
@@ -109,7 +107,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 Jedes Unternehmen mit mehreren DSP-Konten kann optional kontenübergreifende Daten in benutzerdefinierten Berichten aktivieren, je nach den Anforderungen des Unternehmens. Beispielsweise können Sie Konto A Zugriff auf Daten von Konto B und Konto B Zugriff auf Daten von Konto C (aber nicht auf Daten von Konto A) gewähren. Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihr Adobe-Account-Team.
 
-Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [&#x200B; einen &#x200B;](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
+Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [ einen ](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
 
 Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] geben a) die anderen Konten an, deren Daten für Ihr Konto verfügbar sind, und b) die anderen Konten, die auf die Daten Ihres Kontos zugreifen können.
 
