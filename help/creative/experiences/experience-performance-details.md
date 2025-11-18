@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
 
-     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[&#x200B; der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
+     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[ der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus. Derzeit ist nur die Metrik „Alle auswählen“ verfügbar, um alle Konversionsmetriken einzuschließen.
 
@@ -128,6 +128,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
 >[!MORELIKETHIS]
 >
->* [Benutzerdefinierter Creative-Bericht](/help/creative/report-custom-creative.md)
+>* [Über benutzerdefinierte Berichte](/help/creative/reports/reports-about.md)
+>* [Verwalten benutzerdefinierter Berichte](/help/creative/report-manage.md)
 >* [Alle Erlebnisse in der Ansicht herunterladen](/help/creative/experiences/experience-download-view.md)
 >* [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)

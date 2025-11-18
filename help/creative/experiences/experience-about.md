@@ -3,7 +3,7 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Die folgenden Leistungsdaten sind verfügbar:
 
 * Sie können [detaillierte Leistungsdaten für jedes Erlebnis anzeigen](experience-performance-details.md) in der [!UICONTROL Experiences] anzeigen.
 
-* Um die Leistung in all Ihren Erlebnissen zu überwachen, erstellen Sie [benutzerdefinierten Creative-Bericht](/help/creative/report-custom-creative.md).
+* Um die Leistung in all Ihren Erlebnissen zu überwachen, erstellen Sie [benutzerdefinierten Creative-Bericht](/help/creative/report-manage.md).
 
 ## Erlebnisstatus {#experience-statuses}
 
@@ -112,7 +112,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 
