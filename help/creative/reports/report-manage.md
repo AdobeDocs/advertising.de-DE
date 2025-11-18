@@ -45,13 +45,13 @@ Duplizieren Sie einen benutzerdefinierten Bericht, um einen neuen Bericht mit ä
 
 1. Klicken Sie auf **[!UICONTROL Edit Custom Report]**.
 
-## Benutzerdefinierten Bericht ausführen {report-run-now}
+## Benutzerdefinierten Bericht ausführen &lbrace;report-run-now&rbrace;
 
 Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit nicht ausgeführt werden.
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](#report-create) oder [bearbeiten](#report-edit).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](#report-create) oder [bearbeiten](#report-edit).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
@@ -207,7 +207,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
