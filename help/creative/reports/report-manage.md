@@ -1,19 +1,17 @@
 ---
-title: '[!UICONTROL Manage custom reports]'
-description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom Creative Report] generieren.
+title: Verwalten benutzerdefinierter Berichte
+description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom Creative Report] generieren und verwalten.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Manage custom reports]
 
-
-
-
+Sie können benutzerdefinierte Berichte erstellen, duplizieren, bearbeiten, ausführen, herunterladen und löschen.
 
 ## Erstellen eines benutzerdefinierten Berichts {#report-create}
 
@@ -47,21 +45,13 @@ Duplizieren Sie einen benutzerdefinierten Bericht, um einen neuen Bericht mit ä
 
 1. Klicken Sie auf **[!UICONTROL Edit Custom Report]**.
 
-## Benutzerdefinierten Bericht löschen
-
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
-
-1. Klicken Sie neben dem Berichtsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
-
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
-
-## Benutzerdefinierten Bericht ausführen &lbrace;report-run-now&rbrace;
+## Benutzerdefinierten Bericht ausführen {report-run-now}
 
 Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit nicht ausgeführt werden.
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](#report-create) oder [bearbeiten](#report-edit).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](#report-create) oder [bearbeiten](#report-edit).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
@@ -86,6 +76,14 @@ Sie können eine beliebige abgeschlossene Berichtsinstanz aus den letzten vier M
      Wenn ein Bericht am selben Tag mehrmals ausgeführt wird, werden die Berichtsinstanzen für diesen Tag in chronologischer Reihenfolge aufgelistet, wobei die neueste Instanz oben aufgeführt wird.
 
      Fehlgeschlagene Berichtsaufträge werden mit einem Fehlersymbol gekennzeichnet (![Fehleranzeige](/help/dsp/assets/indicator-critical.png " Fehleranzeige")) und können nicht heruntergeladen werden. Eine Beschreibung des Fehlers finden Sie, indem Sie den Cursor über das Fehlersymbol halten.
+
+## Benutzerdefinierten Bericht löschen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
+
+1. Klicken Sie neben dem Berichtsnamen auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 ## Berichteinstellungen {#report-settings}
 
@@ -209,7 +207,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
