@@ -3,9 +3,9 @@ title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über Optionen zum manuellen Erstellen benutzerdefinierter Berichte oder die Verwendung vorkonfigurierter Berichtsvorlagen.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 >[!NOTE]
 >
->Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [&#x200B; entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [ entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
 ## Verfügbare Berichtstypen
 
@@ -35,15 +35,19 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 * Vorkonfigurierte Berichtsvorlagen
 
+   * **[!UICONTROL All-in Cost BETA]**: (Nur Werbetreibende mit Advertising Creative und Advertising DSP; Beta-Funktion) Verwenden Sie diesen Bericht, um zu sehen, wie viel Advertising DSP-Ausgaben der Anzeigenauslieferung für Adobe Creative zugeordnet wurden. Sie können Kreativ-, Attribut-, Ziel- und andere Daten auf Kampagnen-, Paket-, Platzierungs- und Anzeigenebene anzeigen.
+
    * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken wie Ausgabenmetriken für die Medienabrechnung nach Kampagne zu verstehen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
      >[!NOTE]
      >
      >Dieser Bericht enthält Daten zum Abrechnungssegment. Wenn einem Benutzer oder Gerät eine Impression bereitgestellt wird, die zu mehreren Segmenten gehört, wird nur ein abrechnungsfähiges Segment mit der Impression gutgeschrieben.
 
+   * **[!UICONTROL Content]:** Verwenden Sie diesen Bericht, um die Bereitstellung von Impressionen und andere Metriken anhand bestimmter Inhaltsdimensionen (wie Genre, Produktionsqualität und Inhaltsbewertung) zu verstehen, sodass Sie die Zielgruppenbestimmung optimieren und die Markensicherheit gewährleisten können. Zusätzlich zu den Inhaltsdimensionen enthält der Bericht die meisten Standarddimensionen, Metriken und Filter. Daten nach Inhaltsdimension sind für [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] und [!DNL Triplelift] verfügbar. Inhaltssignale werden von Publishern während des Bid-Streams weitergeleitet und unterliegen der Verfügbarkeit.
+
    * **[!UICONTROL Conversion]:** Verwenden Sie diesen Bericht, um zu verstehen, wie Ihre Kampagnen auf der Grundlage von Konversionsmetriken funktionieren, die mit dem Konversionstracking von Adobe Advertising erfasst wurden. Dieser Bericht enthält die Multi-Touch-Attribution.
 
-   * **[!UICONTROL Custom Creative Report]:** (Advertisers mit Advertising Creative; Beta-Funktion) Verwenden Sie diesen Bericht, um die Leistung Ihrer Advertising Creative-Anzeigen-Erlebnisse zu überwachen.
+   * **[!UICONTROL Custom Creative]:** (Nur Werbetreibende mit Advertising Creative) Verwenden Sie diesen Bericht, um die Leistung in allen Ihren Advertising Creative-Anzeigenerlebnissen zu überwachen.
 
    * **[!UICONTROL Device]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach gerätebezogenen Dimensionen anzuzeigen.
 
@@ -64,20 +68,11 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
    * **[!UICONTROL Geo]**: Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach geografischen Dimensionen anzuzeigen.
 
+   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [ unter „FAQs ](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+
+   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [ unter „FAQs ](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+
    * **[!UICONTROL Margin]:** Verwenden Sie diesen Bericht, um Schlüsselmetriken wie Marge, Gewinn und andere Ausgabenmetriken nach Kampagne oder Platzierung anzuzeigen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
-
-   * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach Segment anzuzeigen.
-
-     >[!NOTE]
-     >
-     >* Dieser Bericht soll zeigen, wie verschiedene Zielsegmente funktionieren. Es werden Daten zur Segmentzugehörigkeit verwendet. Wenn einer Person oder einem Gerät, die bzw. das zu zwei oder mehr Zielsegmenten gehört, eine Impression bereitgestellt wird, enthält dieser Bericht eine Zeile für jedes Segment. Aus diesem Grund stimmen die Gesamtwerte in diesem Bericht möglicherweise nicht mit dem tatsächlichen Versand überein.
-     >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente stehen ab dem 1. Juni 2018 zur Verfügung.
-
-   * **[!UICONTROL Site]:** Enthält standardmäßig Standardmetriken, Nettoausgaben für Medien insgesamt und abrechenbare Nettoausgaben insgesamt nach Standort.
-
-   * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [&#x200B; unter „FAQs &#x200B;](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
-
-   * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [&#x200B; unter „FAQs &#x200B;](/help/dsp/reports/faq-reports.md) Haushaltsberichte“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
    * **[!UICONTROL Path to Conversion]:** Verwenden Sie diesen Bericht, um zu ermitteln, wie Sie basierend auf leistungsstärksten Anzeigeninteraktionssequenzen Budgets optimieren und Anzeigen personalisieren können. Der Bericht zeigt die Sequenz von Interaktionspunkten im selben Haushalt an, die zu jeder der ausgewählten Konversionsmetriken im angegebenen Datenbereich führen. Der Bericht verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion und kann eine Dimension enthalten:
 
@@ -99,15 +94,22 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
      Es werden Daten für jede Pfadlänge von bis zu 10 angezeigt. Daten für Pfadlängen von mehr als 10 werden gruppiert.
 
-   * **[!UICONTROL Time to Conversion]:** Verwenden Sie diesen Bericht, um das optimale Attribution-Lookback-Fenster zu bestimmen und Kampagnen mit längeren Konversionszeiten zu identifizieren, die vom Retargeting profitieren können. Der Bericht zeigt die Anzahl der Konversionen nach der Zeitdauer in Tagen von der letzten Interaktion (Anzeigenbelichtung oder Klick) bis zur Konversion an. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Die Spalten im Bericht enthalten &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Name der Konversionsmetrik 1\>,“ &quot;% \&lt;Name der Konversionsmetrik 1\>,“ \&lt;Name der Konversionsmetrik 2\>,“ &quot;% \&lt;Name der Konversionsmetrik 2\>&quot; usw. Konversionen, die länger als der Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-tägigen Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot; „30+&quot; gruppiert).
+   * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach Segment anzuzeigen.
 
-   * **[!UICONTROL Content]:** Verwenden Sie diesen Bericht, um die Bereitstellung von Impressionen und andere Metriken anhand bestimmter Inhaltsdimensionen (wie Genre, Produktionsqualität und Inhaltsbewertung) zu verstehen, sodass Sie die Zielgruppenbestimmung optimieren und die Markensicherheit gewährleisten können. Zusätzlich zu den Inhaltsdimensionen enthält der Bericht die meisten Standarddimensionen, Metriken und Filter. Daten nach Inhaltsdimension sind für [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] und [!DNL Triplelift] verfügbar. Inhaltssignale werden von Publishern während des Bid-Streams weitergeleitet und unterliegen der Verfügbarkeit.
+     >[!NOTE]
+     >
+     >* Dieser Bericht soll zeigen, wie verschiedene Zielsegmente funktionieren. Es werden Daten zur Segmentzugehörigkeit verwendet. Wenn einer Person oder einem Gerät, die bzw. das zu zwei oder mehr Zielsegmenten gehört, eine Impression bereitgestellt wird, enthält dieser Bericht eine Zeile für jedes Segment. Aus diesem Grund stimmen die Gesamtwerte in diesem Bericht möglicherweise nicht mit dem tatsächlichen Versand überein.
+     >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente stehen ab dem 1. Juni 2018 zur Verfügung.
+
+   * **[!UICONTROL Site]:** Enthält standardmäßig Standardmetriken, Nettoausgaben für Medien insgesamt und abrechenbare Nettoausgaben insgesamt nach Standort.
+
+   * **[!UICONTROL Time to Conversion]:** Verwenden Sie diesen Bericht, um das optimale Attribution-Lookback-Fenster zu bestimmen und Kampagnen mit längeren Konversionszeiten zu identifizieren, die vom Retargeting profitieren können. Der Bericht zeigt die Anzahl der Konversionen nach der Zeitdauer in Tagen von der letzten Interaktion (Anzeigenbelichtung oder Klick) bis zur Konversion an. Der Bericht kann Daten für mehrere Konversionsmetriken enthalten und verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion. Die Spalten im Bericht enthalten &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Name der Konversionsmetrik 1\>,“ &quot;% \&lt;Name der Konversionsmetrik 1\>,“ \&lt;Name der Konversionsmetrik 2\>,“ &quot;% \&lt;Name der Konversionsmetrik 2\>&quot; usw. Konversionen, die länger als der Lookback-Zeitraum dauern, werden in einer Zeile gruppiert (wenn der Bericht beispielsweise einen 30-tägigen Lookback-Zeitraum verwendet, werden alle Konversionen, die länger als 30 Tage dauern, in einer Zeile mit dem Wert &quot;[!UICONTROL Time Taken (in days)]&quot; „30+&quot; gruppiert).
 
 ## Kontoübergreifende Berichterstattung {#cross-account-reporting}
 
 Jedes Unternehmen mit mehreren DSP-Konten kann optional kontenübergreifende Daten in benutzerdefinierten Berichten aktivieren, je nach den Anforderungen des Unternehmens. Beispielsweise können Sie Konto A Zugriff auf Daten von Konto B und Konto B Zugriff auf Daten von Konto C (aber nicht auf Daten von Konto A) gewähren. Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihr Adobe-Account-Team.
 
-Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [&#x200B; einen &#x200B;](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
+Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [ einen ](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
 
 Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] geben a) die anderen Konten an, deren Daten für Ihr Konto verfügbar sind, und b) die anderen Konten, die auf die Daten Ihres Kontos zugreifen können.
 
