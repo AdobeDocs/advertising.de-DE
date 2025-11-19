@@ -3,9 +3,10 @@ title: Simulationen herunterladen
 description: Erfahren Sie, wie Sie Simulationen in einer Tabellenkalkulationsdatei herunterladen.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ Sie können die Daten für mehrere Simulationen gleichzeitig in eine Datei im ZI
 
 >[!NOTE]
 >
->Sie können auch [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden [&#x200B; Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
+>* Sie können auch [die Simulationsergebnisse auf dem Bildschirm anzeigen](simulation-view.md).
+>* Sie können [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden [ Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
@@ -32,3 +34,4 @@ Sie können die Daten für mehrere Simulationen gleichzeitig in eine Datei im ZI
 >
 >* [Über Simulationen](simulation-about.md)
 >* [Simulation ausführen oder erneut ausführen](simulation-create.md)
+>* [Anzeigen von Simulationsdetails](simulation-view.md)
