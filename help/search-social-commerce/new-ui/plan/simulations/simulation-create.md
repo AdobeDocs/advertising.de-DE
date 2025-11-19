@@ -3,9 +3,10 @@ title: Benutzerdefinierte Simulation ausführen oder erneut ausführen
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Simulation für ein Portfolio ausführen oder erneut ausführen.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können eine benutzerdefinierte Simulation für ein (optimiertes [&#x200B; aktives) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) erstellen. Sie können auch die Parameter einer vorhandenen Simulation ändern und die Simulation neu generieren oder eine vorhandene Simulation mit den vorhandenen Parametern erneut ausführen.
+Sie können eine benutzerdefinierte Simulation für ein (optimiertes [ aktives) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) erstellen. Sie können auch die Parameter einer vorhandenen Simulation ändern und die Simulation neu generieren oder eine vorhandene Simulation mit den vorhandenen Parametern erneut ausführen.
 
 [!UICONTROL Admin] und [!UICONTROL Account Manager] Benutzer können Simulationen sehen, die von anderen Benutzern erstellt wurden. Alle anderen Benutzer können nur die von ihnen erstellten benutzerdefinierten Simulationen sehen.
 
@@ -107,4 +108,5 @@ Weitere Informationen zu den benutzerdefinierten Simulationseinstellungen finden
 >[!MORELIKETHIS]
 >
 >* [Über Simulationen](simulation-about.md)
+>* [Anzeigen von Simulationsdetails](simulation-view.md)
 >* [Simulationen herunterladen](simulation-download.md)
