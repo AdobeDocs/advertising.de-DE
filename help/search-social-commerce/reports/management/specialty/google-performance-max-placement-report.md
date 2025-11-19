@@ -2,9 +2,9 @@
 title: '[!UICONTROL Google Performance Max Placement Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Google Performance Max Placement Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 83523acea2890272987ea9dcc1fe2f5ce4663c7e
+source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,13 @@ ht-degree: 0%
 
 Die [!UICONTROL Google Performance Max Placement Report] enthält Impressionsdaten für Platzierungen in [!DNL Google Ads] Kampagnen mit dem Typ „Performance Max“ innerhalb eines bestimmten Kontos. Der Bericht enthält die Impressionen für jede enthaltene Platzierung nach Ziel-URL. Standardmäßig enthalten Daten eine Zeile für jede Platzierungs- und Ziel-URL-Kombination, die mindestens eine Impression im angegebenen Datenbereich erhalten hat, selbst wenn die Platzierung während des Berichtszeitraums gelöscht wurde. Standardmäßig werden die Zeilen in aufsteigender Reihenfolge angezeigt.
 
-Verwenden Sie diesen Bericht, um auszuschließende URLs zu finden und die Leistung von -Kampagnen mit maximaler Leistung zu verbessern.
+Verwenden Sie diesen Bericht für Folgendes:
+
+* Ermitteln Sie, welche Websites, Apps und [!DNL YouTube] Kanäle Ihre Anzeigen bereitstellen.
+
+* Identifizieren und Ausschließen von irrelevanten oder leistungsschwachen Platzierungen zur Verbesserung des Kampagnen-ROI.
+
+* Stellen Sie sicher, dass Ihre Anzeigen nur in markensicheren Umgebungen angezeigt werden, indem Sie robuste Ausschlusslisten erstellen.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
