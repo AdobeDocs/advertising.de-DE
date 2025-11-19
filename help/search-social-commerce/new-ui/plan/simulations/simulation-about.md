@@ -3,9 +3,10 @@ title: Über Simulationen
 description: Erfahren Sie mehr über Portfoliosimulationen.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
+source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Simulationsberichte zeigen den geschätzten Grenzwert der Kosten im Verhältnis zum Ziel, die Kosten, die Anzahl der Klicks und den Zielwert, den Sie für ein Portfolio auf verschiedenen Ausgabenebenen (Kosten) und den entsprechenden Tagesbudgets oder anderen Zielen erwarten können. Sie können optional die Ansicht <!-- add link -->, um zusätzliche Traffic-Metriken, Simulationseinstellungen und nur einen bestimmten Simulationstyp ([!UICONTROL Weekly] oder [!UICONTROL Custom]) anzuzeigen.
+Simulationsberichte zeigen den geschätzten Grenzwert der Kosten im Verhältnis zum Ziel, die Kosten, die Anzahl der Klicks und den Zielwert, den Sie für ein Portfolio auf verschiedenen Ausgabenebenen (Kosten) und den entsprechenden Tagesbudgets oder anderen Zielen erwarten können. Sie können optional [Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um zusätzliche Traffic-Metriken, Simulationseinstellungen und nur einen bestimmten Simulationstyp ([!UICONTROL Weekly] oder [!UICONTROL Custom]) anzuzeigen.
 
 <!-- Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
@@ -22,17 +23,73 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ## Simulationstypen
 
-* **Automatisierte wöchentliche Simulationen:** Simulationsberichte werden automatisch jede Woche unter Verwendung der aktuellen Portfolioeinstellungen ausgeführt. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([&#x200B; oder aktiv) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+* Automatisierte wöchentliche Simulationen
 
-  Jede heruntergeladene wöchentliche Simulation besteht aus einer Arbeitsmappe. Jede Arbeitsmappe enthält die Zielgruppe für jede der 20 Schrittebenen und die prognostizierten Kosten, Klicks, den gewichteten Umsatz (Zielwert) und die Konversionsmetriken, die in der Zielgruppe enthalten sind, basierend auf der entsprechenden Zielgruppe. Für die ersten 20 Datenzeilen wurden keine Einschränkungen angewendet, für die übrigen Datenzeilen hingegen Einschränkungen.
+* Benutzerdefinierte, benutzergenerierte Simulationen
 
-* **Benutzerdefinierte, benutzergenerierte Simulationen:** Sie können einen benutzerdefinierten Simulationsbericht für ein einzelnes [&#128279;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) optimiertes oder aktives) Portfolio erstellen, indem Sie die aktuellen Portfolioeinstellungen verwenden oder benutzerdefinierte Portfolioeinstellungen verwenden, um die Ergebnisse anzuzeigen, die diese Einstellungen erzeugen würden, ohne sie tatsächlich zu ändern. Sie können beispielsweise eine benutzerdefinierte Simulation erstellen, um die Auswirkungen der Verwendung einer anderen Ausgabenstrategie oder eines anderen Lernbudgets zu <!-- Not available yet:  , or without considering active constraints on bid units in the portfolio-->. Sie können die geschätzte Leistung auf Portfolio-, Kampagnen-, Gebots- und Geräteebene anzeigen. Benutzerdefinierte Simulationen übernehmen die Ausgabenbeschränkungseinstellung aus dem Portfolio.
+### Automatisierte wöchentliche Simulationen
 
-  >[!NOTE]
-  >
-  > Das neue benutzerdefinierte Simulationsformular verwendet dieselben Einstellungen wie das alte Formular, mit dem Unterschied, dass es die Informationen zu den Beschränkungen der Gebotseinheiten von den Portfolioeinstellungen übernimmt. Sie haben nicht die Möglichkeit, Einschränkungen für Gebotseinheiten zu ignorieren, wie Sie es auf der Seite mit den alten benutzerdefinierten Simulationseinstellungen getan haben.
+Simulationsberichte werden automatisch jede Woche unter Verwendung der aktuellen Portfolioeinstellungen ausgeführt. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([ oder aktiv) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
-  Jede heruntergeladene benutzerdefinierte Simulation besteht aus einer Arbeitsmappe. Jede Arbeitsmappe enthält ein Arbeitsblatt für jede angegebene Entitätsebene der Simulation (Portfolios, Kampagnen, Anzeigengruppen, Gebotseinheiten), wenn Daten für diese Ebene verfügbar sind. Wenn Sie Daten auf Geräteebene angeben, enthält jedes Arbeitsblatt eine [!UICONTROL Device] Spalte. Jedes Arbeitsblatt enthält eine Zeile mit Daten für jede anwendbare Entität und (wenn für den Bericht angegeben) sowie einen Gerätetyp für jeden der 20 Schritte (z. B. eine Zeile pro Kampagne). Die Daten in jeder Zeile umfassen die projizierten Grenzkosten zum Umsatz, Kosten, Klicks, den gewichteten Umsatz (Zielwert), den Gerätetyp und die Konversionsmetriken, die in dem Ziel enthalten sind, basierend auf dem entsprechenden Ziel. Das Arbeitsblatt auf Portfolioebene enthält auch die Zielgruppe für die Schrittebenen, und das Arbeitsblatt auf Entitätsebene enthält das Werbenetzwerk, das Konto, die Kampagne und (falls zutreffend) die Anzeigengruppe.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+#### Heruntergeladene wöchentliche Simulationen
+
+Jede heruntergeladene wöchentliche Simulation besteht aus einer Arbeitsmappe. Jede Arbeitsmappe enthält die Zielgruppe für jede der 20 Schrittebenen und die prognostizierten Kosten, Klicks, den gewichteten Umsatz (Zielwert) und die Konversionsmetriken, die in der Zielgruppe enthalten sind, basierend auf der entsprechenden Zielgruppe. Für die ersten 20 Datenzeilen wurden keine Einschränkungen angewendet, für die übrigen Datenzeilen hingegen Einschränkungen.
+
+#### Wöchentliche Simulationsdetails auf dem Bildschirm
+
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
+
+##### Diagrammansicht
+
+Die Diagrammansicht zeigt für jedes der 20 Ausgabenebenen den erwarteten Zielwert oder eine andere angegebene Metrik ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) für das Ausgabenziel an. Der Zielmittelpunkt wird identifiziert, und Sie können optional den Zielmittelpunkt ändern, um die prognostizierten Daten mithilfe dieses Werts anzuzeigen. Halten Sie den Cursor über einen beliebigen Punkt im Diagramm, um die Daten für diesen Punkt anzuzeigen.
+
+Sie können die Daten mit und ohne angewendete Einschränkungen, mit angewendeten Einschränkungen und ohne angewendete Einschränkungen anzeigen. Wenn Sie Daten anzeigen, die Einschränkungen berücksichtigen, werden die angewendeten Einschränkungen über dem Diagramm identifiziert.
+
+##### Tabellenansicht
+
+Die Tabellenansicht zeigt die Zielausgaben für jede der 20 Ausgabenebenen. Sie enthält auch die entsprechenden geschätzten Kosten, Grenzkosten zu Zielwert, Klicks, Zielwert und Konversionsmetriken im Ziel des Portfolios für jede Ausgabenebene. Der Zielmittelpunkt wird identifiziert, und Sie können optional den Zielmittelpunkt ändern, um die prognostizierten Daten mithilfe dieses Werts anzuzeigen.
+
+Sie können die Daten mit und ohne angewendete Einschränkungen, mit angewendeten Einschränkungen und ohne angewendete Einschränkungen anzeigen. Wenn Sie Daten anzeigen, die Einschränkungen berücksichtigen, werden die angewendeten Einschränkungen über dem Diagramm identifiziert.
+
+##### Simulationseinstellungen
+
+Die Simulationseinstellungen werden unter dem Diagramm oder der Tabelle als schreibgeschützt angezeigt.
+
+##### Portfolio-Einstellungen
+
+Um die schreibgeschützten Einstellungen für das entsprechende Portfolio anzuzeigen, klicken Sie oben rechts auf **[!UICONTROL Portfolio Settings]** .
+
+### Benutzerdefinierte, benutzergenerierte Simulationen
+
+Sie können einen benutzerdefinierten Simulationsbericht für ein einzelnes [optimiertes oder aktives](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) Portfolio unter Verwendung der aktuellen Portfolioeinstellungen oder unter Verwendung der benutzerdefinierten Portfolioeinstellungen mit oder ohne Einschränkungen auf Ebene der Gebotseinheiten erstellen, um die Ergebnisse anzuzeigen, die diese Einstellungen erzeugen würden, ohne sie tatsächlich zu ändern. Sie können beispielsweise eine benutzerdefinierte Simulation erstellen, um die Auswirkungen einer anderen Ausgabenstrategie oder eines anderen Lernbudgets zu sehen, ohne aktive Einschränkungen für Gebotseinheiten im Portfolio zu berücksichtigen. Sie können die geschätzte Leistung auf Portfolio-, Kampagnen-, Gebots- und Geräteebene anzeigen.
+
+#### Heruntergeladene benutzerdefinierte Simulationen
+
+Jede heruntergeladene benutzerdefinierte Simulation besteht aus einer Arbeitsmappe. Jede Arbeitsmappe enthält ein Arbeitsblatt für jede angegebene Entitätsebene der Simulation (Portfolios, Kampagnen, Anzeigengruppen, Gebotseinheiten), wenn Daten für diese Ebene verfügbar sind. Wenn Sie Daten auf Geräteebene angeben, enthält jedes Arbeitsblatt eine [!UICONTROL Device] Spalte. Jedes Arbeitsblatt enthält eine Zeile mit Daten für jede anwendbare Entität und (wenn für den Bericht angegeben) sowie einen Gerätetyp für jeden der 20 Schritte (z. B. eine Zeile pro Kampagne). Die Daten in jeder Zeile umfassen die projizierten Grenzkosten zum Umsatz, Kosten, Klicks, den gewichteten Umsatz (Zielwert), den Gerätetyp und die Konversionsmetriken, die in dem Ziel enthalten sind, basierend auf dem entsprechenden Ziel. Das Arbeitsblatt auf Portfolioebene enthält auch die Zielgruppe für die Schrittebenen, und das Arbeitsblatt auf Entitätsebene enthält das Werbenetzwerk, das Konto, die Kampagne und (falls zutreffend) die Anzeigengruppe.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+
+#### Benutzerdefinierte Simulationsdetails auf dem Bildschirm
+
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
+
+#### Diagrammansicht
+
+Die Diagrammansicht zeigt den erwarteten Zielwert oder eine andere angegebene Metrik ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) für das Ausgabenziel für die angegebene Anzahl von Ausgabenebenen (Schritten) für die Simulation an. Der Zielmittelpunkt ist identifiziert. Halten Sie den Cursor über einen beliebigen Punkt im Diagramm, um die Daten für diesen Punkt anzuzeigen.
+
+Wenn die Simulation unter Berücksichtigung von Abhängigkeiten erstellt wurde, werden die angewendeten Abhängigkeiten über dem Diagramm identifiziert.
+
+##### Tabellenansicht
+
+Die Tabellenansicht zeigt die Zielausgaben für jede der angegebenen Ausgabenebenen (Schritte) für die Simulation an. Es zeigt auch die entsprechenden geschätzten Kosten, Grenzkosten zu Zielwert, Klicks, Zielwert und Konversionsmetriken im Ziel des Portfolios für jede Ausgabenebene. Der Zielmittelpunkt ist identifiziert.
+
+Wenn die Simulation unter Berücksichtigung von Abhängigkeiten erstellt wurde, werden die angewendeten Abhängigkeiten über dem Diagramm identifiziert.
+
+##### Simulationseinstellungen
+
+Die Simulationseinstellungen werden unter dem Diagramm oder der Tabelle als schreibgeschützt angezeigt.
+
+##### Portfolio-Einstellungen
+
+Um die schreibgeschützten Einstellungen für das entsprechende Portfolio anzuzeigen, klicken Sie oben rechts auf **[!UICONTROL Portfolio Settings]** .
 
 ## Die [!UICONTROL Simulations]
 
@@ -42,9 +99,11 @@ Die Datentabelle enthält den Fortschritt jeder Simulation, eine [!UICONTROL Tar
 
 ### Verfügbare Aktionen {#simulations-actions}
 
-* [Passen Sie die Ansicht &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
+* [Passen Sie die Ansicht ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
 
 * [Generieren oder erneutes Ausführen einer benutzerdefinierten Simulation](simulation-create.md) für ein einzelnes Portfolio. Sie können entweder eine neue Simulation erstellen oder eine vorhandene Simulation in der Liste neu generieren.
+
+* [Zeigen Sie eine wöchentliche oder benutzerdefinierte Simulation auf dem Bildschirm ](simulation-view.md).
 
 * [Wöchentliche und benutzerdefinierte Simulationen herunterladen](simulation-download.md) als [!DNL Microsoft Excel] in ZIP-Dateien.
 
@@ -56,11 +115,12 @@ Die Datentabelle enthält den Fortschritt jeder Simulation, eine [!UICONTROL Tar
 
 * Bevor Sie ein Portfolio starten, schätzen Sie die Leistung ein, die Sie mit den entsprechenden Portfolioeinstellungen erwarten können. Verwenden Sie dazu Daten aus mindestens zwei Wochen. Wenn die Simulationsergebnisse eine geringere Leistung zeigen, als Sie anhand historischer Daten für die eingeschlossenen Kampagnen erwarten würden, untersuchen und beheben Sie die Probleme, bevor Sie das Portfolio starten.
 
-* Nach jeder größeren Änderung an einem Portfolio, z. B. beim Hinzufügen einer Kampagne oder beim Ändern des Ziels. Wenn Sie Änderungen am Startdatum der Modellierung des Portfolios, an der Gewichtung einer Konversionsmetrik oder am Klickwert eines Ziels vornehmen, warten Sie bis zum nächsten Tag, um 17:00 Uhr PST, bis die Simulation ausgeführt wird, wenn aktualisierte Kosten- und Umsatzmodelle verfügbar sind.
+* Nach jeder größeren Änderung an einem Portfolio, z. B. beim Hinzufügen einer Kampagne oder beim Ändern des Ziels. Wenn Sie Änderungen am Startdatum der Modellierung des Portfolios, an der Gewichtung einer Konversionsmetrik oder am Klickwert eines Ziels vornehmen, warten Sie bis zum nächsten Tag (nach 17 :00), um die Simulation auszuführen, wenn aktualisierte Kosten- und Umsatzmodelle verfügbar sind.
 
 * Regelmäßige Überwachung der Leistungstrends auf der Ebene der Konversionsmetriken
 
 >[!MORELIKETHIS]
 >
 >* [Simulation ausführen oder erneut ausführen](simulation-create.md)
+>* [Anzeigen von Simulationsdetails](simulation-view.md)
 >* [Simulationen herunterladen](simulation-download.md)
