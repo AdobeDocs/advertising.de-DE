@@ -3,7 +3,7 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für einfache und erweiterte Berichte.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
+source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
 workflow-type: tm+mt
 source-wordcount: '3806'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Die Abmessungen der Anzeige. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsive Suchanzeigen) Die Effektivität der Anzeige: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> oder <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yahoo! Japan Ads]) Die aktuelle Mobile-Bid-Anpassung auf Anzeigengruppenebene, die bestimmt, wie Gebote angepasst werden, wenn die Anzeige auf einem Mobilgerät angezeigt wird. |
-| [!UICONTROL AI Max Bundling Required] | (Nur für das Suchnetzwerk geeignete Kampagnen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob die Bündelung erforderlich ist: *[!UICONTROL NOT_REQUIRED]* oder null. |
-| [!UICONTROL AI Max Enabled] | Ob die [[!UICONTROL AI Max] Funktion](https://support.google.com/google-ads/answer/15910366) aktiviert ist: *[!UICONTROL false]* oder null. |
-| [!UICONTROL AI Max Search Term Matching] | (Kampagnen, die auf das Suchnetzwerk abzielen und für die die [AI Max-Funktion](https://support.google.com/google-ads/answer/15910366) und die Suchbegriffabgleichfunktion auf Kampagnenebene aktiviert sind; schreibgeschützt) Ob die Abgleichung von Suchbegriffen auf Anzeigengruppenebene aktiviert ist: *[!UICONTROL true]* oder null. |
+| [!UICONTROL AI Max Bundling Required] | (Nur für das Suchnetzwerk geeignete Kampagnen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob die Bündelung erforderlich ist: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* oder null. |
+| [!UICONTROL AI Max Enabled] | Ob die [[!UICONTROL AI Max] Funktion](https://support.google.com/google-ads/answer/15910366) aktiviert ist: [!UICONTROL true]*, *[!UICONTROL false]* oder null. |
+| [!UICONTROL AI Max Search Term Matching] | (Kampagnen, die auf das Suchnetzwerk abzielen und für die die [AI Max-Funktion](https://support.google.com/google-ads/answer/15910366) und die Suchbegriffabgleichfunktion auf Kampagnenebene aktiviert sind; schreibgeschützt) Ob die Abgleichung von Suchbegriffen auf Anzeigengruppenebene aktiviert ist: *[!UICONTROL true]*, *[!UICONTROL false]* oder null. |
 | [!UICONTROL Advertiser] | Der Name des Werbetreibenden. |
 | [!UICONTROL Advertiser ID] | Die numerische ID für das Konto des Werbetreibenden für Suche, Social und Commerce. |
 | [!UICONTROL Avg Position] | Die durchschnittliche Position der Anzeigen während des angegebenen Datumsbereichs.<br><br>Für [!DNL Google Ads]- und [!DNL Yahoo! Japan Ads]-Kampagnen sind diese Daten nur bis September 2019 verfügbar. [!DNL Microsoft Advertising] sind diese Daten nur bis zum 22. Januar 2021 verfügbar. |
