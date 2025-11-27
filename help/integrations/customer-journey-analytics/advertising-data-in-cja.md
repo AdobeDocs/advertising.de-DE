@@ -2,7 +2,8 @@
 title: Adobe Advertising-Metriken und -Dimensionen in Customer Journey Analytics
 description: Referenzieren Sie die in Customer Journey Analytics verfügbaren Adobe Advertising-Metriken und -Dimensionen.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ In der folgenden Tabelle:
 
 | Adobe Advertising-Feldname | XDM-Feldname | Anzeigename des XDM-Felds | Source |
 |------------------------------|----------------|------------------------|--------|
-| Schlüssel | skacid | ADOBE ADVERTISING ID |
-| Werbeplattform | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |
-| Konto | adobe_advertising_account | Adobe Advertising-Konto |
-| Campaign | adobe_advertising_campaign | Adobe Advertising Campaign |
-| Anzeigengruppe | adobe_advertising_ad_group | Adobe Advertising-Anzeigengruppe |
-| Schlüsselwort | adobe_advertising_keyword | Adobe Advertising-Schlüsselwort |
-| Anzeige | adobe_advertising_ad | Adobe Advertising-Anzeige |
-| Platzierung | adobe_advertising_placement | Platzierung in Adobe Advertising |
-| Übereinstimmungstyp | adobe_advertising_match_type | Adobe Advertising-Übereinstimmungstyp |
-| Anzeigentitel | adobe_advertising_ad_title | Adobe Advertising-Anzeigentitel |
-| Anzeigenbeschreibung | adobe_advertising_ad_description | Adobe Advertising-Anzeigenbeschreibung |
-| Ziel-URL hinzufügen | adobe_advertising_ad_destination_url | Ziel-URL der Adobe Advertising-Anzeige |
-| Anzeige-URL | adobe_advertising_ad_display_url | Adobe Advertising Anzeigenansichts-URL |
-| Gerät | adobe_advertising_device | Adobe Advertising Device |
-| Übereinstimmungstyp des Schlüsselworts | adobe_advertising_keyword_matchType | Adobe Advertising-Schlüsselwort MatchType |
-| Netzwerk | adobe_advertising_network | Adobe Advertising-Netzwerk |
-| Ad-Typ | adobe_advertising_ad_type | Adobe Advertising Ad Type |
-| Produktzielgruppe | adobe_advertising_product_target | Adobe Advertising Product Target |
-| Landing-Typ | adobe_advertising_landing_type | Adobe Advertising Landing Type |
-| Optimierung | adobe_advertising_optimization | Adobe Advertising-Optimierung |
+| Schlüssel | skacid | ADOBE ADVERTISING ID |  |
+| Werbeplattform | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |  |
+| Konto | adobe_advertising_account | Adobe Advertising-Konto |  |
+| Campaign | adobe_advertising_campaign | Adobe Advertising Campaign |  |
+| Anzeigengruppe | adobe_advertising_ad_group | Adobe Advertising-Anzeigengruppe |  |
+| Schlüsselwort | adobe_advertising_keyword | Adobe Advertising-Schlüsselwort |  |
+| Anzeige | adobe_advertising_ad | Adobe Advertising-Anzeige |  |
+| Platzierung | adobe_advertising_placement | Platzierung in Adobe Advertising |  |
+| Übereinstimmungstyp | adobe_advertising_match_type | Adobe Advertising-Übereinstimmungstyp |  |
+| Anzeigentitel | adobe_advertising_ad_title | Adobe Advertising-Anzeigentitel |  |
+| Anzeigenbeschreibung | adobe_advertising_ad_description | Adobe Advertising-Anzeigenbeschreibung |  |
+| Ziel-URL hinzufügen | adobe_advertising_ad_destination_url | Ziel-URL der Adobe Advertising-Anzeige |  |
+| Anzeige-URL | adobe_advertising_ad_display_url | Adobe Advertising Anzeigenansichts-URL |  |
+| Gerät | adobe_advertising_device | Adobe Advertising Device |  |
+| Übereinstimmungstyp des Schlüsselworts | adobe_advertising_keyword_matchType | Adobe Advertising-Schlüsselwort MatchType |  |
+| Netzwerk | adobe_advertising_network | Adobe Advertising-Netzwerk |  |
+| Ad-Typ | adobe_advertising_ad_type | Adobe Advertising Ad Type |  |
+| Produktzielgruppe | adobe_advertising_product_target | Adobe Advertising Product Target |  |
+| Landing-Typ | adobe_advertising_landing_type | Adobe Advertising Landing Type |  |
+| Optimierung | adobe_advertising_optimization | Adobe Advertising-Optimierung |  |
 
 >[!MORELIKETHIS]
 >

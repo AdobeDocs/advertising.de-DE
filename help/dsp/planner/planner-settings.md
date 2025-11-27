@@ -3,7 +3,7 @@ title: Einstellungen für Connected TV Reach-Pläne
 description: Siehe Beschreibungen der Einstellungen für vernetzte TV-Reichweitenpläne.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 5d8d981f08eaea2b0a0bc553ab06bd47f1e88ac9
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP-Planer-Tool](planner-about.md)
+>* [Über das DSP Planner Tool](planner-about.md)
 >* [Erstellen eines Plans für die Reichweite von vernetzten Fernsehgeräten](planner-create.md)
 >* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
 >* [Bearbeiten eines Connected TV-Reach-Plans](planner-edit.md)

@@ -3,7 +3,7 @@ title: 'Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] '
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Microsoft Advertising]  Konten.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Anhang - Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising]
 
-Um [!DNL Microsoft Advertising] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Microsoft Advertising]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten &#x200B;](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
+Um [!DNL Microsoft Advertising] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Microsoft Advertising]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten ](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
 
 Jedes Bulksheet muss die Header-Felder und die entsprechenden Datenfelder enthalten, die für die [spezifischen Vorgänge, die Sie durchführen möchten, (](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md). B. das Erstellen einer Anzeige) erforderlich sind. Wenn ein Feld nicht erforderlich ist, können Sie es in der Kopfzeile und in den Datenzeilen auslassen. Alle benutzerdefinierten Spalten werden beim Hochladen der Bulk-Sheet-Datei gelöscht.
 
@@ -35,7 +35,7 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 | [!UICONTROL Campaign Priority] | (Nur Einkaufskampagnen) Die Priorität, mit der die Kampagne verwendet wird, wenn mehrere Kampagnen für dasselbe Produkt werben: <i>[!UICONTROL Low]</i> (der Standard für neue Kampagnen), <i>[!UICONTROL Medium]</i> oder <i>[!UICONTROL High]</i>.<br><br>Wenn dasselbe Produkt in mehr als einer Kampagne enthalten ist, verwendet das Anzeigennetzwerk zuerst die Kampagnenpriorität, um zu bestimmen, welche Kampagne (und das zugehörige Angebot) für die Anzeigenauktion geeignet ist. Wenn alle Kampagnen dieselbe Priorität haben, ist die Kampagne mit dem höchsten Angebot geeignet. |
 | [!UICONTROL Merchant ID] | (Nur Shopping-Kampagnen und Audience-Kampagnen, die mit einem Händler-Feed verknüpft sind) Die Kunden-ID des Händler-Kontos, dessen Produkte für die Kampagne verwendet werden. |
 | [!UICONTROL Sales Country] | (Nur Shopping-Kampagnen; bei bestehenden Kampagnen schreibgeschützt) Das Land, in dem die Produkte der Kampagne verkauft werden. Da Produkte mit Zielländern verknüpft sind, bestimmt diese Einstellung, für welche Produkte in der Kampagne geworben wird. |
-| [!UICONTROL Product Scope Filter] | (Nur Kampagnen, die das Shopping-Netzwerk verwenden) Die Produkte in Ihrem Händlerkonto, für die Produktanzeigen für die Kampagne erstellt werden können. Mit dem Format dimension=attribute können Sie bis zu sieben Produktdimensions- und Attributkombinationen eingeben, nach denen Ihre Produkte gefiltert werden sollen. Trennen Sie mehrere Filter durch ein Trennzeichen &quot;>>&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).<br><br> Beispiel: &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br> Um die vorhandenen Werte zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
+| [!UICONTROL Product Scope Filter] | (Nur Kampagnen, die das Shopping-Netzwerk verwenden) Die Produkte in Ihrem Händlerkonto, für die Produktanzeigen für die Kampagne erstellt werden können. Mit dem Format dimension=attribute können Sie bis zu sieben Produktdimensions- und Attributkombinationen eingeben, nach denen Ihre Produkte gefiltert werden sollen. Trennen Sie mehrere Filter durch ein Trennzeichen &quot;>>&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[ von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).<br><br> Beispiel: &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br> Um die vorhandenen Werte zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
 | [!UICONTROL DSA Domain Name] | (Kampagnen vom Typ a) &quot;<i>[!UICONTROL DynamicSearchAds]</i>&quot; oder b) &quot;<i>[!UICONTROL Search]</i>&quot;, wenn das [!DNL ExperimentId] nicht festgelegt ist) Der Domain-Name der Website, die für dynamische Suchanzeigen ausgewählt werden soll. Die maximale Länge beträgt 2.048 Zeichen. Wenn der Domain-Name `www` enthält, wird er gekürzt und nicht verwendet.<br><br>Für bestehende Kampagnen können Sie die Domain nicht bearbeiten, müssen sie jedoch einbeziehen, um andere Eigenschaften zu aktualisieren. |
 | [!UICONTROL DSA Domain Language] | (Kampagnen vom Typ a) &quot;<i>[!UICONTROL DynamicSearchAds]</i>&quot; oder b) &quot;<i>[!UICONTROL Search]</i>&quot;, wenn das [!DNL ExperimentId] nicht festgelegt ist) Die Sprache der Website-Seiten, die für dynamische Suchanzeigen ausgewählt werden sollen. Die unterstützten Domänensprachen sind [!UICONTROL Dutch], [!UICONTROL English], [!UICONTROL French], [!UICONTROL German], [!UICONTROL Italian], [!UICONTROL Spanish] und [!UICONTROL Swedish].<br><br>Für bestehende Kampagnen können Sie die Sprache nicht bearbeiten, müssen sie jedoch einbeziehen, um andere Eigenschaften zu aktualisieren. |
 | [!UICONTROL Ad Group Name] | Der eindeutige Name, der eine Anzeigengruppe identifiziert. Die maximale Länge beträgt 128 Zeichen. Nachfolgende leere Zeichen werden nicht gespeichert (z. B. wird „Anzeigengruppe 1 &quot; als „Anzeigengruppe 1 &quot; gespeichert). |
@@ -65,8 +65,8 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 | [!UICONTROL Display Path 1] | (Nur erweiterte Textanzeigen, dynamische Suchanzeigen und responsive Suchanzeigen) Ein zusätzlicher Anzeigepfad; [!UICONTROL Display Path 1] finden Sie im Eintrag.<br><br>Beispiel: Wenn [!UICONTROL Display Path 1] „Angebote“ und [!UICONTROL Display Path 2] „lokal“ ist, dann würde die Anzeige-URL &lt;<i>Display URL>/</i>/local sein, z. B. www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Nur erweiterte Sitelinks) Das erste Datum, an dem Gebote für den Sitelink in der Zeitzone des Werbetreibenden in einem der folgenden Formate abgegeben werden können: M/D/JJJJ, M/D/JJJ, M-D-JJJJ oder M-D-JJJ. Der Standardwert für neue erweiterte Sitelinks ist der aktuelle Tag. <b>Hinweis</b> Neue erweiterte Sitelinks können nur in Kampagnen mit vorhandenen erweiterten Sitelinks oder ohne Sitelinks erstellt werden. |
 | [!UICONTROL End Date] | Das letzte Datum, an dem der Sitelink mit Anzeigen in der Zeitzone des Werbetreibenden und in einem der folgenden Formate angezeigt werden kann: M/D/JJJJ, M/D/JJJJ, M-D-JJJJ oder M-D-JJJ. Für einen neuen Sitelink ist der Standardwert `[blank]` (d. h. kein Enddatum). |
-| [!UICONTROL Call To Action] | Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Siehe die [API-Referenz für eine Liste möglicher Werte](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction) geben Sie jedoch mehrwortige Aktionsaufrufe als mehrere Wörter (z. B. „Bet Now“ anstelle von „BetNow„) in Bulksheets ein. |
-| [!UICONTROL Call To Action Language] | Die Sprache für die Aktionsaufruf-Optionen. Eine Liste [&#x200B; Sprachen finden Sie in der &#x200B;](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action] | Die call to action, die in die Anzeige aufgenommen werden soll. Siehe die [API-Referenz für eine Liste möglicher Werte](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction) geben Sie jedoch mehrwortige Aktionsaufrufe als mehrere Wörter (z. B. „Bet Now“ anstelle von „BetNow„) in Bulksheets ein. |
+| [!UICONTROL Call To Action Language] | Die Sprache für die call to action-Optionen. Eine Liste [ Sprachen finden Sie in der ](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | Die Landingpage-URL, zu der Suchmaschinenbenutzer beim Klicken auf Ihre Anzeige geleitet werden, einschließlich aller für die Kampagne oder das Konto konfigurierten Anlagenparameter. Basis-/endgültige URLs auf Keyword-Ebene überschreiben diese auf Anzeigenebene und höher.<br><br>Um den vorhandenen Wert zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
 | [!UICONTROL Destination URL] | (Zu Informationszwecken in generierten Bulksheets enthalten; nicht an die Suchmaschine gepostet) Bei Konten mit Ziel-URLs handelt es sich um die URL, die eine Anzeige mit einer Basis-URL/Landingpage auf der Website des Werbetreibenden verknüpft (manchmal über eine andere Site, die den Klick verfolgt und den Benutzer dann zur Landingpage weiterleitet). Sie enthält alle Anlagenparameter, die für die Kampagne oder das Konto „Suche“, „Social“ und &quot;Commerce&quot; konfiguriert wurden. Wenn Sie Tracking-URLs generiert haben, basiert dies auf den Tracking-Parametern in Ihren Konto- und Kampagneneinstellungen. Wenn Sie suchmaschinenspezifische Parameter angehängt haben, können diese durch die entsprechenden Parameter für Search, Social und Commerce ersetzt werden.<br><br>Bei Konten mit endgültigen URLs zeigt diese Spalte denselben Wert wie die Spalte „Basis-URL/Endgültige URL“ an. |
 | [!UICONTROL Custom URL Param] | Daten, die durch die dynamische Variable `{custom_code}` ersetzt werden sollen, wenn die Variable in den Tracking-Parametern für das Suchkonto oder die Kampagneneinstellungen enthalten ist. Um den benutzerdefinierten Wert in die Tracking-URL einzufügen, müssen Sie die Bulksheet-Datei mit der Option Tracking-URLs generieren hochladen. |
@@ -112,7 +112,7 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 | [!UICONTROL EF Error Message] | (In generierten Bulksheets zu Informationszwecken enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus dem Werbenetzwerk bezüglich Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL EF Errors] Dateien enthalten. Dieser Wert wird nicht an das Werbenetzwerk gesendet. |
 | [!UICONTROL SE Error Message] | (In generierten Bulksheets zu Informationszwecken enthalten) Platzhalter für die Anzeige von Fehlermeldungen aus dem Werbenetzwerk bezüglich Daten in der Zeile; Fehlermeldungen sind in [!UICONTROL SE Errors] Dateien enthalten. Dieser Wert wird nicht an das Werbenetzwerk gesendet. |
 | [!UICONTROL Exemption Request] | (In generierten Bulksheets zu Informationszwecken enthalten) Platzhalter für die Anzeige der Namen und des Texts aller Google-Werberichtlinien, die eine Anzeige verletzt. |
-| [!UICONTROL Retail Hash] | (Zu Informationszwecken in Bulksheets enthalten, die mit Advanced Campaign Management generiert wurden) Ein alphanumerischer Hash-Code (z. B. f9639f40cdf56524b541e5dacf55a991), der angibt, dass das Element mithilfe der erweiterten (ACM) Ansicht generiert wurde. |
+| [!UICONTROL Retail Hash] | (Zu Informationszwecken in Bulksheets enthalten, die mit der erweiterten Kampagnenverwaltung generiert wurden) Ein alphanumerischer Hash-Code (wie z. B. f9639f40cdf56524b541e5dacf55a991), der angibt, dass das Element mit der erweiterten (ACM) Ansicht generiert wurde. |
 
 [^1]: [!DNL Excel] konvertiert große Zahlen in wissenschaftliche Notation (z. B. 2.12E+09 für 2115585666), wenn er die Datei öffnet. Um Ziffern in der Standardnotation anzuzeigen, wählen Sie eine beliebige Zelle in der Spalte aus und klicken Sie in die Leiste Formel .
 
@@ -131,8 +131,8 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 | Feld | Erforderlich? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot; für die Entität. |
-| [!UICONTROL Campaign Name] | Erforderlich | Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
-| [!UICONTROL Campaign Budget] | Erforderlich zum Erstellen einer Kampagne. | Eine tägliche Ausgabenbegrenzung für die Kampagne, mit oder ohne Währungssymbole und Satzzeichen. Dieser Wert überschreibt das Kontobudget, darf es jedoch nicht überschreiten. |
+| [!UICONTROL Campaign Name] | Erforderlich. Der eindeutige Name, der eine Kampagne für ein Konto identifiziert. |
+| [!UICONTROL Campaign Budget] | Erforderlich zum Erstellen einer Kampagne. Eine tägliche Ausgabenbegrenzung für die Kampagne, mit oder ohne Währungssymbole und Satzzeichen. Dieser Wert überschreibt das Kontobudget, darf es jedoch nicht überschreiten. |
 | [!UICONTROL Channel Type] | Erforderlich zum Erstellen einer Kampagne. |
 | [!UICONTROL Delivery Method] | optional |
 | [!UICONTROL Campaign Priority] | Erforderlich zum Erstellen einer Shopping-Kampagne. |
@@ -216,7 +216,7 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot; für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] Erforderlich zum Bearbeiten der Beschreibung. <b>Hinweis:</b> Bei diesem Anzeigentyp wird durch Ändern der Anzeigenkopie die vorhandene Anzeige gelöscht und eine neue erstellt. |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Erforderlich zum Bearbeiten der Beschreibung. <b>Hinweis:</b> Bei diesem Anzeigentyp wird durch Ändern der Anzeigenkopie die vorhandene Anzeige gelöscht und eine neue erstellt. |
 | [!UICONTROL Display Path 1] | Erforderlich zum Bearbeiten des Felds. |
 | [!UICONTROL Display Path 2] | Erforderlich zum Bearbeiten des Felds. |
 | [!UICONTROL Creative Type] | Erforderlich zum Erstellen oder Bearbeiten des Status einer Produktanzeige. |
@@ -225,12 +225,12 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 | \[Advertiser-spezifische Label-Klassifizierung\] | optional |
 | [!UICONTROL Campaign ID] | optional |
 | [!UICONTROL Ad Group ID] | optional |
-| [!UICONTROL Ad ID] | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a) ausreichend Anzeigeneigenschaftsspalten, um die Anzeige zu identifizieren, oder b) ein &quot;[!UICONTROL AMO ID]&quot;. Wenn Sie jedoch weder die [!UICONTROL Ad ID] noch die [!UICONTROL AMO ID] einbeziehen und die Anzeigeneigenschaftsspalten mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
+| [!UICONTROL Ad ID] | Nur erforderlich, wenn Sie den Anzeigenstatus ändern, es sei denn, die Zeile enthält a&amp;rpar; genügend Anzeigeneigenschaftsspalten, um die Anzeige oder b&amp;rpar; ein &quot;[!UICONTROL AMO ID]&quot; zu identifizieren. Wenn Sie jedoch weder die [!UICONTROL Ad ID] noch die [!UICONTROL AMO ID] einbeziehen und die Anzeigeneigenschaftsspalten mit mehreren Anzeigen übereinstimmen, ändert sich der Status nur für eine der Anzeigen. |
 | [!UICONTROL AMO ID] | Erforderlich zum Bearbeiten oder Löschen der Daten, es sei denn, Sie beziehen die Entitäts-ID und die übergeordnete Entitäts-ID ein.<br><br>Search, Social und Commerce verwenden den Wert zum Bestimmen der richtigen Identität, die bearbeitet werden soll, senden die ID jedoch nicht an das Werbenetzwerk. |
 
 ### Produkt (Einkaufen) und Felder
 
-Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=de).
+Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
 
 Verwenden Sie für diesen Anzeigentyp die Zeile &quot;[!UICONTROL Creative (except RSA)]&quot; im [!UICONTROL Download Bulksheet].
 
@@ -290,7 +290,7 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Erforderlich, es sei denn, jede Zeile enthält ein &quot;[!UICONTROL AMO ID]&quot; für die Entität. |
 | [!UICONTROL Campaign Name] | Erforderlich |
-| [!UICONTROL Ad Group Name] | Erforderlich | |
+| [!UICONTROL Ad Group Name] | Erforderlich |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | Für responsive Suchanzeigen sind [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] und [!UICONTROL Ad Title 3] erforderlich, um eine Anzeige zu erstellen. Alle anderen Felder für den Anzeigentitel sind optional. Um den vorhandenen Wert für ein nicht erforderliches Feld zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | optional |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | Für responsive Suchanzeigen sind [!UICONTROL Description Line 1] und [!UICONTROL Description Line 2] erforderlich, um eine Anzeige zu erstellen. [!UICONTROL Description Line 3] und [!UICONTROL Description Line 4] sind optional. Um den vorhandenen Wert zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
@@ -324,7 +324,7 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 | [!UICONTROL Campaign Name] | Erforderlich |
 | [!UICONTROL Ad Group Name] | Erforderlich |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | Schreibgeschützt |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] Schreibgeschützt |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Schreibgeschützt |
 | [!UICONTROL Display URL] | Schreibgeschützt |
 | [!UICONTROL Display Path 1] | Schreibgeschützt |
 | [!UICONTROL Display Path 2] | Schreibgeschützt |

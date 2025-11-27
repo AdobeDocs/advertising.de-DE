@@ -2,9 +2,9 @@
 title: Publisher-spezifische Anzeigenspezifikationen
 description: Verweisen Sie auf die Anzeigenspezifikationen für unterstützte Herausgeber.
 feature: DSP Ads
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,10 @@ Einige Herausgeber haben strengere Anzeigenspezifikationen als die Adobe Adverti
 
 Über die folgenden Links gelangen Sie zu den Anzeigenspezifikationen für einige Herausgeber mit strengeren Anforderungen.
 
-* [!DNL Channel 10] ([!DNL Viacom]; nur AU): https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
-* &#x200B;
-  [!DNL CBS Interactive Advanced Media]: https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media
-* &#x200B;
-  [!DNL Hulu]: https://advertising.hulu.com/ad-products/video-commercial
-* &#x200B;
-  [!DNL NBCUniversal]: https://together.nbcuni.com/nbcu-creative-guidelines
+* [[!DNL Channel 10] ([!DNL Viacom]; nur AU)](https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf)
+* [[!DNL CBS Interactive Advanced Media]](https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media)
+* [[!DNL Hulu]](https://advertising.hulu.com/ad-products/video-commercial)
+* [[!DNL NBCUniversal]](https://together.nbcuni.com/nbcu-creative-guidelines)
 
 >[!MORELIKETHIS]
 >
