@@ -105,7 +105,7 @@ ht-degree: 3%
    + [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimierung {#optimization}
-   + [ [!DNL DSP]  optimiert Ihre Kampagnen](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [&#x200B; [!DNL DSP]  optimiert Ihre Kampagnen](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimierungsziele und ihre Verwendung](/help/dsp/optimization/optimization-goals.md)
    + [Pre-Bid-Filter auf Platzierungsebene und deren Verwendung](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md)
