@@ -3,9 +3,9 @@ title: Einstellungen der Shopping-Anzeigenvorlage für Inventar-Feeds [!DNL Goog
 description: Verweisen Sie auf die Einstellungen für  [!DNL Google Ads] -Shopping-Anzeigenvorlagen für Inventar-Feeds.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ Die Kampagnenpriorität wird zuerst festgelegt, welche Kampagne (und das zugehö
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**(Nur [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Kampagnen; anwendbar auf Kampagnen, die sich an Zielgruppen in der Europäischen Union (EU) richten Unabhängig davon, ob die Kampagne politische Werbung gemäß den Anforderungen für in der Europäischen Union gemäß der EU-Verordnung 2024/90 geschaltete Anzeigen enthält: *[!UICONTROL Yes]* oder *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -119,7 +121,7 @@ Die Kampagnenpriorität wird zuerst festgelegt, welche Kampagne (und das zugehö
 
 **[!UICONTROL Ad Group Tracking Template]:** (Optional) Eine Tracking-Vorlage auf Anzeigengruppenebene, die alle off-landing-domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellungen auf Konto- und Kampagnenebene, aber Tracking-Vorlagen auf detaillierteren Ebenen überschreiben diesen Wert.
 
-Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene ist ausreichend.
+Für das Adobe Advertising-Konversionstracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene ist ausreichend.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -142,7 +144,7 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 **[!UICONTROL Tracking Template]:** (Einheiten ohne untergeordnete Produktgruppen; optional) Die Tracking-Vorlage für das Produkt
 Gruppe, die alle Umleitungs- und Tracking-Parameter für die Off-Landing-Domain angibt und die endgültige URL in einen [!DNL ValueTrack] einbettet. Diese Vorlage überschreibt Vorlagen auf höheren Ebenen.
 
-Für das Adobe Advertising-Konversions-Tracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene ist ausreichend.
+Für das Adobe Advertising-Konversionstracking müssen Sie keinen Wert eingeben. Der Wert auf Kampagnenebene ist ausreichend.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 

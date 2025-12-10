@@ -3,15 +3,14 @@ title: Einstellungen für Textanzeigen und responsive Suchanzeigen-Vorlagen für
 description: Verweisen Sie auf die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # Einstellungen für Textanzeigen und responsive Suchanzeigen-Vorlagen für Inventar-Feeds
-
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
 
@@ -66,7 +65,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 **[!UICONTROL Campaign Tracking Template]:** (Nur Konten mit endgültigen/erweiterten URLs; optional) Die Tracking-Vorlage auf Kampagnenebene, die alle Umleitungs- und Tracking-Parameter für ausgelagerte Domains angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als am detailliertesten) überschreiben diesen Wert.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * Einbetten der endgültigen URL:
 
@@ -120,6 +119,8 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**(Nur [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Kampagnen; anwendbar auf Kampagnen, die sich an Zielgruppen in der Europäischen Union (EU) richten Unabhängig davon, ob die Kampagne politische Werbung gemäß den Anforderungen für in der Europäischen Union gemäß der EU-Verordnung 2024/90 geschaltete Anzeigen enthält: *[!UICONTROL Yes]* oder *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -136,7 +137,7 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 **[!UICONTROL Ad Group Tracking Template]:** (Nur Konten mit endgültigen/erweiterten URLs) Die Tracking-Vorlage auf Anzeigengruppen-Ebene, die alle off-landing-domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So geben Sie die Landingpage-URL an:
 
@@ -178,14 +179,14 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 
    * Für dynamische Parameter: Fügen Sie den Spaltennamen ein, z. B. `[keyword]`. Um den Übereinstimmungstyp anzugeben, verwenden Sie die [[!DNL Yandex] Syntax](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Hinweis:** Verwenden Sie für allgemeine Übereinstimmungsbegriffe die folgende Syntax: Broad Match Modifier für den ersten Begriff in der Keyword-Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Broad Match Modifier für jeden Begriff in der Keyword-Spalte (z. B. +blau +Wildleder +Schuhe) = `+[keyword]+`
 
-   * Für statische Keywords werden nur Suchbegriffe unterstützt. Verwenden Sie die [[!DNL Yandex] Syntax für &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Schlüsselwort . Klammern (`[]`), um anzugeben, dass die Wortreihenfolge nicht unterstützt wird.
+   * Für statische Keywords werden nur Suchbegriffe unterstützt. Verwenden Sie die [[!DNL Yandex] Syntax für ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Schlüsselwort . Klammern (`[]`), um anzugeben, dass die Wortreihenfolge nicht unterstützt wird.
 
 >[!NOTE]
 >
 >* Sie können mehrere Modifikatorwerte manuell in das Keywords-Feld einschließen, indem Sie kommagetrennte Werte entweder vor oder nach einem Keyword-Parameter in Klammern einschließen (aber nicht an beiden Stellen). Beispielsweise produziert `(cheap, discount, affordable)[product]` drei separate Anzeigen für jedes Produkt.
 >* Wenn Sie keinen Übereinstimmungstyp angeben, wird der standardmäßige Übereinstimmungstyp „Broad“ verwendet.
 >* Negative Übereinstimmungen werden nicht unterstützt.
->* Google-Modifikatoren für breite Übereinstimmungen weisen jetzt für einige Sprachen dasselbe Übereinstimmungsverhalten wie Phrasenübereinstimmung auf, und Sie können keine neuen Keywords für breite Übereinstimmungen erstellen. Weitere Informationen finden [[!DNL Google Ads]  in der &#x200B;](https://support.google.com/google-ads/answer/10286719).
+>* Google-Modifikatoren für breite Übereinstimmungen weisen jetzt für einige Sprachen dasselbe Übereinstimmungsverhalten wie Phrasenübereinstimmung auf, und Sie können keine neuen Keywords für breite Übereinstimmungen erstellen. Weitere Informationen finden [[!DNL Google Ads]  in der ](https://support.google.com/google-ads/answer/10286719).
 
 **[!UICONTROL Map Only]:** Fügt alle neuen Anzeigen zu Anzeigengruppen (oder zu Kampagnen für [!DNL Yandex] Konten) hinzu, in denen die angegebenen Schlüsselwörter gefunden werden, anstatt neue Schlüsselwörter zu erstellen. Um diese Option zu aktivieren, aktivieren Sie das Kontrollkästchen. Wenn diese Option aktiviert ist, werden alle Parameter 1 und Parameter 2 Variablen in den angegebenen Keywords nicht angewendet, da die Keywords vorhanden sind.
 
@@ -196,11 +197,11 @@ Wenn Sie einen [!DNL Google Merchant Center] Feed verwenden und diesen Wert in d
 >[!NOTE]
 >
 >* Wenn Sie Tracking-URLs generieren, während Sie über die Vorlage verteilte Daten posten, werden Tracking-Parameter basierend auf den Tracking-Einstellungen des Kontos an diesen Wert angehängt.
->* ([!DNL Google Ads] Konten) Verwenden Sie keine Makros, die nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
+>* ([!DNL Google Ads] Konten) Verwenden Sie keine Makros, die nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Kunden-Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
 
 **[!UICONTROL Keyword Tracking Template]:** (Konten mit endgültigen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als der detailliertesten) überschreibt Werte auf allen anderen Ebenen.
 
-* Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+* Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 * Sie können optional Umleitungen und Tracking von Drittanbietern eingeben.
 
@@ -238,7 +239,7 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
 **[!UICONTROL Param 3]:** (nur [!DNL Microsoft Advertising]) Die Zeichenfolge, die als Ersatzwert in einer Anzeige verwendet werden soll, wenn Titel, Text, Anzeige-URL oder endgültige URL die `{Param3}` dynamische Ersatzzeichenfolge enthalten. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (ein Anzeigentitel kann beispielsweise bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
 
 ## [!UICONTROL Ads]
 
@@ -318,7 +319,7 @@ Fügen Sie für responsive Suchanzeigen eine Anzeigenanpassung mit den folgenden
 
 [!DNL Microsoft Advertising] und [!DNL Yahoo! Japan Ads] haben die Erstellung und Bearbeitung von Standard-Textanzeigen eingestellt.
 
-**[!UICONTROL Base URL]:** (Nur Konten mit Ziel-URLs) Die Seite, zu der Benutzer weitergeleitet werden. Es kann Umleitungs- und Trackingcode von Drittanbietern enthalten. Wenn Sie den Adobe Advertising-Konversions-Tracking-Service verwenden und die Kampagneneinstellungen die Verwendung der [!UICONTROL EF Redirect] und das Hinzufügen von Tracking auf Anzeigenebene beinhalten, fügt Search, Social und Commerce der Anzeige automatisch einen eigenen Weiterleitungs- und Trackingcode hinzu.
+**[!UICONTROL Base URL]:** (Nur Konten mit Ziel-URLs) Die Seite, zu der Benutzer weitergeleitet werden. Es kann Umleitungs- und Trackingcode von Drittanbietern enthalten. Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden und die Kampagneneinstellungen die Verwendung des [!UICONTROL EF Redirect] und das Hinzufügen des Trackings auf Anzeigenebene beinhalten, fügt Search, Social und Commerce der Anzeige automatisch einen eigenen Umleitungs- und Trackingcode hinzu.
 
 Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und klicken Sie dann auf einen Spaltennamen in der Spaltenliste oder auf einen [Modifikatornamen](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) in der [!UICONTROL Modifiers].
 
@@ -333,7 +334,7 @@ Wenn Sie einen [!DNL Google Merchant] Center-Feed verwenden und diesen Wert in d
 
 **[!UICONTROL Tracking Template]:** (Konten mit endgültigen/erweiterten URLs; optional) Die Tracking-Vorlage, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und die endgültige URL in einen Parameter einbettet. Die Tracking-Vorlage auf der detailliertesten Ebene (mit dem Keyword als der detailliertesten) überschreibt Werte auf allen anderen Ebenen.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
+Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch Umleitungs- und Trackingcode an.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So geben Sie die Landingpage-URL an:
 

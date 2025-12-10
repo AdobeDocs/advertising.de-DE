@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] Kampagneneinstellungen'
 description: Verweisen Sie auf die Einstellungen für  [!DNL Microsoft Advertising] -Kampagnen.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Die Kampagne kann Folgendes enthalten:
 
 * *[!UICONTROL Audience Video]:* Zeigt Standard-Videoanzeigen im Zielgruppennetzwerk an.
 
-* *[!UICONTROL Performance Max]:* Zeigt mehrere Anzeigentypen in allen Netzwerken mithilfe [!DNL Microsoft Advertising] intelligenten Gebots an. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, zu denen Bilder, Logos, Überschriften, Beschreibungen, ein optionaler Aktionsaufruf und Zielgruppensignale gehören. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
+* *[!UICONTROL Performance Max]:* Zeigt mehrere Anzeigentypen in allen Netzwerken mithilfe [!DNL Microsoft Advertising] intelligenten Gebots an. In den Kampagneneinstellungen müssen Sie eine oder mehrere Asset-Gruppen angeben, zu denen Bilder, Logos, Überschriften, Beschreibungen, eine optionale call to action und Zielgruppensignale gehören. Das Werbenetzwerk kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ Die Kampagne kann Folgendes enthalten:
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]:**(Gilt für Kampagnen, die sich an Zielgruppen in der Europäischen Union (EU) richten) Gibt an, ob die Kampagne politische Werbung gemäß den Anforderungen für in der Europäischen Union gemäß der EU-Verordnung 2024/90 geschaltete Anzeigen enthält: *[!UICONTROL Yes]* oder *[!UICONTROL No]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -282,7 +284,7 @@ Informationen zur Verfügbarkeit finden Sie in der Hilfe zu Microsoft Advertisin
 
 * Um Assets aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
-**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Act Now]* ausgewählt.
+**[!UICONTROL Call to Action]:** Die call to action, die in die Anzeige aufgenommen werden soll. Standardmäßig ist *[!UICONTROL Act Now]* ausgewählt.
 
 **[!UICONTROL Business Name]:** Der Unternehmensname mit maximal 25 Zeichen. Es darf keine Skripte, HTML oder andere Markup-Sprache enthalten.
 
