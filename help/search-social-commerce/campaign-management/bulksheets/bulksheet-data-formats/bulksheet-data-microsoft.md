@@ -232,7 +232,7 @@ Eine Beschreibung der einzelnen Datenfelder finden Sie unter &quot;[Alle verfüg
 
 ### Produkt (Einkaufen) und Felder
 
-Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
+Weitere Informationen zum Erstellen von Shopping-Anzeigen finden Sie unter [Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=de).
 
 Verwenden Sie für diesen Anzeigentyp die Zeile &quot;[!UICONTROL Creative (except RSA)]&quot; im [!UICONTROL Download Bulksheet].
 
