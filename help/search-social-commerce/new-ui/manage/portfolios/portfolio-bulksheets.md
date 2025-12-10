@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Einstellungen für mehrere Portfolios mit
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Benachrichtigungen werden auch zum Benachrichtigungszentrum hinzugefügt und Sie
 
 ## Datenanforderungen für hochgeladene Bulksheet-Dateien
 
-Siehe die Registerkarte [!UICONTROL Instructions] in der heruntergeladenen Bulksheet-Datei.
+Alle Bulksheet-Dateien müssen die [!UICONTROL Portfolio ID] enthalten, und jede Datenzeile muss einen Wert für die [!UICONTROL Portfolio ID] enthalten, damit sie verarbeitet werden kann. Weitere Informationen zu den Datenanforderungen finden Sie auf der Registerkarte [!UICONTROL Instructions] der heruntergeladenen Bulksheet-Datei.
 
 Erläuterungen zu den Spalten der Portfolioeinstellungen auf der Registerkarte [!UICONTROL Portfolio Settings Edit] finden Sie im Optimierungshandbuch , das bei Search, Social und Commerce verfügbar ist.
 
