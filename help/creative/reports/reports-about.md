@@ -2,7 +2,7 @@
 title: Über benutzerdefinierte Berichte
 description: Erfahren Sie mehr über Optionen zum Erstellen benutzerdefinierter Berichte.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 ## Verfügbare Berichte
 
-* **[!UICONTROL All-in Cost BETA]**: (Nur Werbetreibende mit Advertising Creative und Advertising DSP; Beta-Funktion) Verwenden Sie diesen Bericht, um zu sehen, wie viel Advertising DSP-Ausgaben der Anzeigenauslieferung für Adobe Creative zugeordnet wurden. Sie können Kreativ-, Attribut-, Ziel- und andere Daten auf Kampagnen-, Paket-, Platzierungs- und Anzeigenebene anzeigen.
+* **[!UICONTROL All-in Cost]**: (Nur Werbetreibende mit Advertising Creative und Advertising DSP; Beta-Funktion) Verwenden Sie diesen Bericht, um zu sehen, wie viel Advertising DSP-Ausgaben der Anzeigenauslieferung für Adobe Creative zugeordnet wurden. Sie können Kreativ-, Attribut-, Ziel- und andere Daten auf Kampagnen-, Paket-, Platzierungs- und Anzeigenebene anzeigen.
 
 * **[!UICONTROL Custom Creative Report]:** Verwenden Sie diesen Bericht, um die Leistung Ihrer Advertising Creative-Anzeigen-Erlebnisse zu überwachen.
