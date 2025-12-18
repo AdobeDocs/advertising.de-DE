@@ -3,9 +3,9 @@ title: Anzeigen von Warnhinweisen
 description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Kampagnen und Kampagnenkomponenten anzeigen.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Warnhinweise sind an den folgenden Orten verfügbar:
 
 * Ein [!UICONTROL Pulse Panel] in der Ansicht [!UICONTROL Campaigns], [!UICONTROL Packages] und Paketdetails, [!UICONTROL Placements] und [!UICONTROL Ads] zeigt an, ob Warnhinweise für die Elemente in dieser Ansicht verfügbar sind. Wenn das Symbol einen blauen Punkt aufweist (![Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel.png "Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind")), sind Warnhinweise verfügbar. Wenn kein Punkt sichtbar ist (![Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel-empty.png "Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind")), sind keine Warnhinweise verfügbar.
 
-* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![&#x200B; (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
+* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![ (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
 
 Sie können für jeden Warnhinweis die entsprechende Ansicht der Kampagnenverwaltung öffnen, um die Einstellungen nach Bedarf zu bearbeiten und das Problem zu beheben.
 
@@ -50,7 +50,7 @@ Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde
 
 1. Um eine Liste aller betroffenen Kampagnenkomponenten für einen bestimmten Warnhinweistyp anzuzeigen, klicken Sie auf den Namen des Warnhinweises, z. B. &quot;[!UICONTROL Package: No Active Placement (*N*)]. Um die Details für jede betroffene Komponente anzuzeigen, einschließlich der empfohlenen Aktion, klicken Sie auf [!UICONTROL EXPAND ALL] oder auf den Komponentennamen. Um die entsprechende Kampagnenverwaltungsansicht für eine betroffene Komponente zu öffnen, sodass Sie die empfohlenen Änderungen vornehmen können, halten Sie den Cursor über dem Komponentennamen und klicken Sie auf ![Gehe zu Ansicht](/help/dsp/assets/go-to-view.png "Gehe zu Ansicht").
 
-1. (Optional) Um einen Warnhinweis zu ignorieren (auszublenden), halten Sie den Cursor über den Komponentennamen und klicken Sie auf ![Ignorieren](/help/dsp/assets/alert-ignore.png "Ignorieren") und dann auf **[!UICONTROL Ignore indefinitely]**. <!-- **[!UICONTROL Ignore alert for three days]**, **[!UICONTROL Ignore alert until next check]**, or **[!UICONTROL Ignore indefinitely] -->
+1. (Optional) Um einen Warnhinweis zu ignorieren (auszublenden), halten Sie den Cursor über den Komponentennamen und klicken Sie auf ![Ignorieren](/help/dsp/assets/alert-ignore.png "Ignorieren") und klicken Sie dann auf **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** oder **[!UICONTROL Ignore indefinitely]**.
 
 Sie haben einige Sekunden, nachdem Sie einen Warnhinweis ignoriert haben, um die Aktion rückgängig zu machen. Sobald die Optionsmeldung geschlossen ist, können Sie die Aktion nicht mehr abbrechen.
 
@@ -62,4 +62,4 @@ Sie haben einige Sekunden, nachdem Sie einen Warnhinweis ignoriert haben, um die
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)

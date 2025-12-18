@@ -3,9 +3,9 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Die folgenden Leistungsdaten sind verfügbar:
 
 * Um die Leistung in all Ihren Erlebnissen zu überwachen, erstellen Sie [benutzerdefinierten Creative-Bericht](/help/creative/reports/report-manage.md).
 
+## Warnhinweise
+
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [ unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
+
 ## Erlebnisstatus {#experience-statuses}
 
 Der Status eines Erlebnisses wird automatisch festgelegt, mit Ausnahme von *Gelöscht* die Sie manuell festlegen.
@@ -112,7 +116,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 
