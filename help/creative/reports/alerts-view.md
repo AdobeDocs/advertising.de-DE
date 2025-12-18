@@ -19,7 +19,7 @@ Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde
 
 >[!NOTE]
 >
->Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen ](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
+>Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
 
 ## Anzeigen von Warnhinweisen im [!UICONTROL Pulse Panel]
 

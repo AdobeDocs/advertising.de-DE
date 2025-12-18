@@ -77,7 +77,7 @@ Die folgenden Leistungsdaten sind verfügbar:
 
 ## Warnhinweise
 
-Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [ unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [&#x200B; unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
 
 ## Erlebnisstatus {#experience-statuses}
 
@@ -116,7 +116,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 
