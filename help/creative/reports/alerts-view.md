@@ -2,9 +2,9 @@
 title: Anzeigen von Warnhinweisen
 description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Erlebnisse anzeigen können.
 feature: Creative Experiences
-source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
+source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 [!DNL Creative] können Sie identifizieren, wenn bei einem Ihrer Erlebnisse, einschließlich der Kreativen in diesem Erlebnis, Probleme auftreten. Für jedes Problem gibt [!DNL Creative] einen Warnhinweis mit einem Zeitstempel und der empfohlenen Aktion zur Behebung des Problems aus. Gründe für Warnhinweise sind der Ablauf von Live-Erlebnissen und ein hoher Versand bei Standardanzeigen anstelle von zielgerichteten Anzeigen. Warnhinweise sind auf Erlebnisebene verfügbar.
 
-Sie können das entsprechende Erlebnis für jeden Warnhinweis öffnen, um es nach Bedarf zu bearbeiten und so das Problem zu beheben. Sie können auch einzelne Warnhinweise ignorieren, wodurch sie aus dem [!UICONTROL Pulse] entfernt werden.
+Sie können das entsprechende Erlebnis oder den Kreativen für jeden Warnhinweis öffnen, um es nach Bedarf zu bearbeiten und das Problem zu beheben. Sie können auch einzelne Warnhinweise ignorieren, wodurch sie aus dem [!UICONTROL Pulse] entfernt werden.
 
 Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde liegenden Probleme behoben sind.
 
 >[!NOTE]
 >
->Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
+>Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen ](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
 
 ## Anzeigen von Warnhinweisen im [!UICONTROL Pulse Panel]
 
@@ -31,7 +31,7 @@ Alle Warnhinweise für den Werbetreibenden werden aufgelistet. Standardmäßig w
 
 1. (Optional) Um die Warnhinweise nach ihrem ersten Entdeckungsdatum zu gruppieren oder die Warnhinweise nach Warnhinweisstatus zu filtern, klicken Sie auf ![Schaltfläche Filtern](/help/creative/assets/filter.png) oben rechts im Bedienfeld, wählen Sie die Filteroptionen aus und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-1. Um eine Liste aller betroffenen Erlebnisse für einen bestimmten Warnhinweistyp anzuzeigen, klicken Sie auf den Namen des Warnhinweises. Um die Details für jede betroffene Komponente anzuzeigen, einschließlich der empfohlenen Aktion, klicken Sie auf [!UICONTROL EXPAND ALL] oder auf den Komponentennamen. Um das relevante Erlebnis für eine betroffene Komponente zu öffnen und die empfohlenen Änderungen vorzunehmen, halten Sie den Cursor über dem Komponentennamen und klicken Sie auf ![Gehe zu Ansicht](/help/creative/assets/go-to-view.png "Gehe zu Ansicht").
+1. Um eine Liste aller betroffenen Erlebnisse für einen bestimmten Warnhinweistyp anzuzeigen, klicken Sie auf den Namen des Warnhinweises. Um die Details für jede betroffene Komponente anzuzeigen, einschließlich der empfohlenen Aktion, klicken Sie auf [!UICONTROL EXPAND ALL] oder auf den Komponentennamen. Um das entsprechende Erlebnis oder die Kreativkomponente zu öffnen, sodass Sie die empfohlenen Änderungen vornehmen können, halten Sie den Cursor über dem Komponentennamen und klicken Sie auf ![Gehe zu Ansicht](/help/creative/assets/go-to-view.png "Gehe zu Ansicht").
 
 1. (Optional) Um einen Warnhinweis zu ignorieren (auszublenden), halten Sie den Cursor über den Komponentennamen und klicken Sie auf ![Ignorieren](/help/creative/assets/alert-ignore.png "Ignorieren") und klicken Sie dann auf **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** oder **[!UICONTROL Ignore indefinitely]**.
 
