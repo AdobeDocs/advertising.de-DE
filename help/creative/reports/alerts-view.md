@@ -2,16 +2,16 @@
 title: Anzeigen von Warnhinweisen
 description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Erlebnisse anzeigen können.
 feature: Creative Experiences
-source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
+source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Anzeigen von Warnhinweisen
 
-[!DNL Creative] können Sie identifizieren, wenn bei einem Ihrer Erlebnisse, einschließlich der Kreativen in diesem Erlebnis, Probleme auftreten. Für jedes Problem gibt [!DNL Creative] einen Warnhinweis mit einem Zeitstempel und der empfohlenen Aktion zur Behebung des Problems aus. Gründe für Warnhinweise sind abgelaufene Erlebnisse und ein hoher Versanddurchsatz bei Standardanzeigen anstelle von zielgerichteten Anzeigen. Warnhinweise sind auf Erlebnisebene verfügbar.
+[!DNL Creative] können Sie identifizieren, wenn bei einem Ihrer Erlebnisse, einschließlich der Kreativen in diesem Erlebnis, Probleme auftreten. Für jedes Problem gibt [!DNL Creative] einen Warnhinweis mit einem Zeitstempel und der empfohlenen Aktion zur Behebung des Problems aus. Gründe für Warnhinweise sind der Ablauf von Live-Erlebnissen und ein hoher Versand bei Standardanzeigen anstelle von zielgerichteten Anzeigen. Warnhinweise sind auf Erlebnisebene verfügbar.
 
 Sie können das entsprechende Erlebnis für jeden Warnhinweis öffnen, um es nach Bedarf zu bearbeiten und so das Problem zu beheben. Sie können auch einzelne Warnhinweise ignorieren, wodurch sie aus dem [!UICONTROL Pulse] entfernt werden.
 
@@ -19,7 +19,7 @@ Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde
 
 >[!NOTE]
 >
->Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
+>Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen ](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
 
 ## Anzeigen von Warnhinweisen im [!UICONTROL Pulse Panel]
 
