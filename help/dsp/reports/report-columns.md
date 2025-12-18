@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7b7e9687bf79fce564103606efbe8c5997d3c05c
+source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Die Stadt, der die gemeldeten Daten zugeordnet sind. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | Das Land, dem die gemeldeten Daten zugeordnet sind. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | Das Designated Market Area (DMA), dem die gemeldeten Daten zugeordnet werden. |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Pin Code] | Die PIN-Nummer (Postal Index Number), der die gemeldeten Daten zugeordnet werden. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | Der Status, dem die gemeldeten Daten zugeordnet werden. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | Die Zielgruppe. Der Bericht unterstützt bis zu 10 eindeutige Zielgruppen. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | Die Kampagne. |
@@ -85,6 +86,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | Der Medientyp (wie Display, Audio usw.) |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | Der Publisher. |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | Die Platzierung. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Budget] | Das Budget für den Paketflug. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight End Date] | Das Enddatum für den Paketflug. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Rollover] | Jegliches Rollover-Budget für den Paketflug. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Start Date] | Das Startdatum für den Paketflug. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Das Enddatum für das Paket. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Der Geschwindigkeits-Zielbetrag für das Paket. Dieser Betrag ist entweder in Ausgaben oder in Impressionen enthalten. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Die eindeutige Kennung für das Paket in DSP. |
@@ -144,13 +149,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | Die Gesamtzahl der erreichten eindeutigen Haushalte (verschiedene IP-Adressen). |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | Der Typ der Zielgruppenkennung. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Der Prozentsatz der gesamten Gebote, die bei der Max. CPM geboten wurden. |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Die durchschnittlichen Bruttokosten pro Akquise, berechnet nach <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Die durchschnittlichen Bruttokosten pro Akquise, berechnet nach <code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Die durchschnittlichen Bruttokosten pro Anzeigenklick, berechnet nach <code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Die durchschnittlichen Kosten pro abgeschlossener Videoansicht, berechnet nach <code>[!UICONTROL Gross Spend]/[!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | Die durchschnittlichen Bruttokosten pro Anzeigeninteraktion, berechnet nach <code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Engagements]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | Die durchschnittlichen Bruttokosten pro Anzeigenaufruf, berechnet nach <code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Die durchschnittlichen Kosten pro 1000 Impressionen, berechnet nach <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Die durchschnittlichen Kosten pro Videoansicht, berechnet nach <code>[!UICONTROL Gross Spend]/[!UICONTROL Views]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | Die <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>, wobei [!UICONTROL Custom Goal] die Zielgewichtung für alle Konversionen ist, die an das benutzerdefinierte Ziel angehängt sind. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Die durchschnittlichen Kosten pro 1000 sichtbaren Impressions, berechnet nach <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Die durchschnittlichen Nettokosten pro Anzeigenklick, berechnet nach <code>[!UICONTROL Net Spend]/[!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Die durchschnittlichen Nettokosten pro abgeschlossener Videoansicht, berechnet nach <code>[!UICONTROL Net Spend]/[!UICONTROL 100% Completions]</code>. |
@@ -225,11 +231,10 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
 <!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
