@@ -78,7 +78,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
 
-     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[ der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
+     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[&#x200B; der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus. Derzeit ist nur die Metrik „Alle auswählen“ verfügbar, um alle Konversionsmetriken einzuschließen.
 
