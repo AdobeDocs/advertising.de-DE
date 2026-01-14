@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Informationen zu xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standard-Display-Bundles können nur Standard-Display-Anzeigen enthalten, Standard-Video-Bundles können nur Standard-Video-Anzeigen enthalten und dynamische Display-Bundles können nur dynamische Display-Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
 
-[!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis auf der Grundlage der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von Adobe Sensei unterstützt wird.
+[!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis basierend auf der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von [!DNL Adobe AI] basiert.
 
 Um die Optimierung von Anzeigenelementen über Bundles hinweg in einem Anzeigenerlebnis zu ermöglichen, kann jedes Bundle nur eines von jeder Kombination aus \[Creative Size oder Duration + Language\] enthalten. Beispiel: Wenn ein Bundle eine 250x250-Kreative mit der Standardsprache „Französisch“ enthält, können Sie keine zweite 250x250-Kreative mit der Standardsprache „Französisch“ hinzufügen. Wenn Sie mehrere Kreative derselben Größe in derselben Sprache haben, fügen Sie sie separat zum -Erlebnis hinzu.
 
@@ -234,7 +234,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 
-   1. Klicken ![&#x200B; oben rechts in &#x200B;](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
@@ -272,7 +272,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Bundles löschen
 
-Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [&#x200B; Sie das Bundle aus der Entscheidungsstruktur &#x200B;](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

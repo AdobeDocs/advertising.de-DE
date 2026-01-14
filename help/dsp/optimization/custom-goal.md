@@ -3,9 +3,9 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Jedes benutzerdefinierte Ziel (Ziel) besteht aus einer oder mehreren Konversions
 
 Angenommen, drei Konversionsmetriken sind für ein bestimmtes Paket in einer Ihrer Kampagnen relevant: &quot;PDF-Download“ im Wert von 20 USD, „E-Mail-Anmeldung“ im Wert von 30 USD und „Bestellbestätigung“ im Wert von 40 USD. Wenn Sie eine Gewichtung anhand des einmaligen Geldwerts der Kundenaktion angeben möchten, wären die relativen Gewichtungen der Metriken 1, 1,5 und 2.
 
-Nachdem Sie [benutzerdefiniertes Ziel erstellt haben](#custom-goal-create) können Sie es [einem Paket zuweisen](/help/dsp/campaign-management/packages/package-settings.md) für die Berichterstellung und algorithmische Optimierung mit Adobe Sensei verwenden.
+Sobald Sie [ein benutzerdefiniertes Ziel erstellen](#custom-goal-create) können Sie es [einem Paket zuweisen](/help/dsp/campaign-management/packages/package-settings.md) für das Reporting und die algorithmische Optimierung mit [!DNL Adobe AI].
 
 Gewichtungsempfehlungen werden automatisch für DSP-zugeordnete Metriken in Zielen generiert und können mit einem Klick auf alle Gewichtungsempfehlungen angewendet werden. Alle Gewichtungsänderungen an Zielen mit dem Präfix „ADSP_“ werden in DSP innerhalb von zwei Tagen algorithmisch angewendet. Weitere Informationen zu Gewichtungsempfehlungen finden Sie im Kapitel Optimierungshandbuch unter „Ziele“, das in Search, Social und Commerce verfügbar ist.
 
@@ -64,7 +64,7 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL
 
    >[!TIP]
    >
-   >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [&#x200B; unter „Best Practices zum Erstellen eines benutzerdefinierten &#x200B;](#custom-goal-best-practices)&quot;.
+   >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [ unter „Best Practices zum Erstellen eines benutzerdefinierten ](#custom-goal-best-practices)&quot;.
 
 In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwenden, ist der Zielname jetzt in der [!UICONTROL Custom Goals]-Liste enthalten. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, enthält die [!UICONTROL Conversion Metric] alle Zielmetriken für das Ziel.
 
@@ -106,7 +106,7 @@ Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) sind und nur ein
 
 Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefinierten Ziel verwenden würden:
 
-* Ihr Kampagnenziel hat mehrere Erfolgsereignisse. Vielleicht werben Sie für mehr als eine Aktion auf der Site (PDF-Download, Kontakt und E-Mail-Anmeldung) und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken umfasst, von denen jede eine nicht mobile Gewichtung (1) aufweist, behandelt der [!DNL Adobe Sensei]-Algorithmus jede der Metriken und Benutzergerätetypen mit derselben Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder eine unterschiedliche Bedeutung haben, passen Sie ihre relativen Gewichtungen entsprechend an.
+* Ihr Kampagnenziel hat mehrere Erfolgsereignisse. Vielleicht werben Sie für mehr als eine Aktion auf der Site (PDF-Download, Kontakt und E-Mail-Anmeldung) und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen Gewichtung von 1 (1) umfasst, behandelt der [!DNL Adobe AI] Algorithmus jede der Metriken und Benutzergerätetypen mit derselben Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder eine unterschiedliche Bedeutung haben, passen Sie ihre relativen Gewichtungen entsprechend an.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefiniert
 
 * Die einzelne Konversionsmetrik in Ihrem benutzerdefinierten Ziel erreicht nicht das Minimum von 10 Konversionen pro Tag, die für eine optimierte Leistung erforderlich sind. Dies kann aufgrund minimaler täglicher Paketausgaben oder einer begrenzten Anzahl natürlicher Konversionen auftreten. Durch Hinzufügen zusätzlicher unterstützender Metriken zum benutzerdefinierten Ziel können Sie den Schwellenwert von 10 Konversionen pro Tag erreichen. Zehn unterstützende Ereignisse können einem Paket helfen, den Schwellenwert von 10/Tag zu erreichen, auch wenn jedes seiner Gewichtungen unter eins liegt (1). Sie müssen jedoch möglicherweise nicht so viele Ereignisse hinzufügen.
 
-  Wenn Sie einem benutzerdefinierten Ziel unterstützende Metriken hinzufügen, gewichten Sie diese entsprechend ihrer relativen Bedeutung für das Haupterfolgsereignis und berücksichtigen Sie dabei die Anzahl der Datenpunkte. Auf diese Weise kann der Adobe Sensei-Algorithmus mehrere Metriken ausgleichen und für Ihr Ziel optimieren.
+  Wenn Sie einem benutzerdefinierten Ziel unterstützende Metriken hinzufügen, gewichten Sie diese entsprechend ihrer relativen Bedeutung für das Haupterfolgsereignis und berücksichtigen Sie dabei die Anzahl der Datenpunkte. Auf diese Weise kann der [!DNL Adobe AI] Algorithmus mehrere Metriken ausgleichen und für Ihr Ziel optimieren.
 
   Das folgende Beispielziel enthält drei Metriken mit jeweils einer anderen Nicht-Mobile-Gewichtung: Antragseinsendung = 1, Anwendungsstart = 0,1 und Advertiser-Landingpage = 0,01. Das bedeutet, dass jede Konvertierung einer Anwendung bei der Übermittlung denselben Wert für Ihr Unternehmen hat wie durchschnittlich 10 Konversionen beim Anwendungsstart und 100 Konversionen bei der Advertiser-Landingpage.
 

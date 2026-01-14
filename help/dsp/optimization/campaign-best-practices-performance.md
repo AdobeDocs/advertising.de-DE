@@ -3,22 +3,22 @@ title: Best Practices für das Einrichten von Leistungskampagnen
 description: Erfahren Sie mehr über die Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen, zu denen Platzierungen gehören, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
 # Best Practices für das Einrichten von Leistungskampagnen
 
-DSP kann leistungsorientierte Kampagnen optimieren. Siehe die folgenden Best Practices für Leistungskampagnen:
+DSP kann Ihre leistungsorientierten Kampagnen optimieren. Siehe die folgenden Best Practices für Leistungskampagnen:
 
 * Schritt 1: Definieren des Ziels
 * Schritt 2: Definieren der Strategie
 * Schritt 3: Erstellen von Paketen
 * Schritt 4: Erstellen der Platzierungsstruktur
-* Schritt 5: Verwenden der richtigen Creative Assets
+* Schritt 5: Verwenden des richtigen Creative Assets
 
 ## Schritt 1: Definieren des Ziels
 
@@ -26,13 +26,13 @@ Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. die höchstmögliche R
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 
-Sie müssen auch die Erfolgsereignisse ermitteln, die zum Gesamtziel führen, und dementsprechend benutzerdefinierte Ziele erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung mithilfe von [!DNL Adobe Sensei] verwendet werden soll. Weitere Informationen zum Erstellen benutzerdefinierter Ziele, einschließlich Best Practices, finden Sie unter [Benutzerdefinierte Ziele](custom-goal.md).
+Sie müssen auch die Erfolgsereignisse ermitteln, die zum Gesamtziel führen, und dementsprechend benutzerdefinierte Ziele erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung mithilfe von [!DNL Adobe AI] verwendet werden soll. Weitere Informationen zum Erstellen benutzerdefinierter Ziele, einschließlich Best Practices, finden Sie unter [Benutzerdefinierte Ziele](custom-goal.md).
 
 ## Schritt 2: Definieren Sie Ihre Strategie
 
 ### Strategien zur Kundenakquise
 
-Obere Trichterpakete enthalten Platzierungen mit sehr breitem Targeting, um neue Kunden zu erreichen.
+Funnel-Pakete in der oberen Preisklasse enthalten Platzierungen mit sehr breit gefächerter Zielgruppenbestimmung, um neue Kunden zu erreichen.
 
 #### Empfohlene Platzierungsstrategien für Interessenten
 
@@ -43,11 +43,11 @@ Obere Trichterpakete enthalten Platzierungen mit sehr breitem Targeting, um neue
    * Kontextuelles Targeting.
    * Website-/Kategorie-Targeting.
 
-* Verwenden des RON-Targeting (Run of Network): Es ist wichtig, eine Reihe von Netzwerkplatzierungen ohne Zielgruppen-Targeting und mit breitem Inventar-Targeting einzubeziehen. Auf diese Weise kann der [!DNL Adobe Sensei]-Algorithmus wertvolle Benutzer finden, die möglicherweise über neuere Cookies verfügen, die noch nicht in eine Zielgruppe kategorisiert wurden.
+* Verwenden des RON-Targeting (Netzwerkausführung) : Es ist wichtig, eine Netzwerkplatzierung ohne Zielgruppen-Targeting und mit breitem Inventar-Targeting einzubeziehen. Auf diese Weise kann der [!DNL Adobe AI] Algorithmus wertvolle Benutzer finden, die möglicherweise über neuere Cookies verfügen, die noch nicht in eine Zielgruppe kategorisiert wurden.
 
 ### Retargeting-Strategien
 
-Untere Trichterpakete enthalten Platzierungen, die auf Benutzende abzielen, die bereits auf der Web-Seite des Werbetreibenden waren oder für die der Werbetreibende CRM-Daten hat.
+Niedrigere funnel-Pakete enthalten Platzierungen, die auf Benutzende abzielen, die bereits auf der Web-Seite des Werbetreibenden waren oder für die der Werbetreibende CRM-Daten hat.
 
 #### Empfohlene Platzierungsstrategien für das Retargeting
 
@@ -57,7 +57,7 @@ Untere Trichterpakete enthalten Platzierungen, die auf Benutzende abzielen, die 
 
 ## Schritt 3: Erstellen von Paketen
 
-Es empfiehlt sich, separate Pakete für die Prospektion des oberen und des unteren Trichters zu erstellen. Die Optimierung erfolgt auf Paketebene, sodass Leistungsdaten aus allen Platzierungen innerhalb eines Pakets in Pools zusammengefasst werden. Gruppieren Sie daher Platzierungen in Paketen mit ähnlicher erwarteter Leistung.
+Es empfiehlt sich, separate Pakete für die Interessentenakquise nach funnel oben und für das Retargeting nach funnel unten zu erstellen. Die Optimierung erfolgt auf Paketebene, sodass Leistungsdaten aus allen Platzierungen innerhalb eines Pakets in Pools zusammengefasst werden. Gruppieren Sie daher Platzierungen in Paketen mit ähnlicher erwarteter Leistung.
 
 ![Beispiel für separate Pakete für die Prospektion und das Retargeting](/help/dsp/assets/p-r.png)
 
@@ -140,14 +140,14 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 
 * **[!UICONTROL Device Targeting]**:
    * [!UICONTROL Computer], [!UICONTROL Mobile] und [!UICONTROL Tablet] einschließen.
-   * [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Einschränkungen bei Zielgruppenbestimmung und Messung nicht als Ziel auswählen. Wenden Sie sich an Ihr Adobe-Account-Team , um weitere Informationen zum [!DNL Adobe]-Support für [!DNL Safari ITP] zu erhalten.
+   * [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Einschränkungen bei Zielgruppenbestimmung und Messung nicht als Ziel auswählen. Wenden Sie sich an Ihr Adobe Account Team , um weitere Informationen zum [!DNL Adobe]-Support für [!DNL Safari ITP] zu erhalten.
    * Wenn Sie mobilen Web-Traffic als Ziel wählen, deaktivieren Sie alle mobilen Browser mit Ausnahme von [!UICONTROL Chrome] und [!UICONTROL Edge].
 
 ### Markensicherheit und Medienqualität
 
 Durch die Verwendung von kontextueller Filterung, die Blockierung von Betrug vor dem Bid und/oder die [!UICONTROL Ads.txt] Filterung wird der Umfang Ihrer Platzierungen begrenzt. Sie können diese jedoch bei Bedarf verwenden.
 
-## Schritt 5: Verwenden der richtigen Creative Assets
+## Schritt 5: Verwenden des richtigen Creative Assets
 
 * Es empfiehlt sich, so viele einzigartige Anzeigengrößen wie möglich einzubeziehen, um die Reichweite zu maximieren. Mit der universellen Anzeigevorlage können Sie eine beliebige standardmäßige Anzeigegröße hochladen.
 * Stellen Sie sicher, dass alle Platzierungen *mindestens* alle primären Anzeigengrößen (300x250, 728x90, 160x600, 300x600, 320x50 und 300x50) enthalten.
