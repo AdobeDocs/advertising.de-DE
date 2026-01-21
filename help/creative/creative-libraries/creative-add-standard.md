@@ -3,16 +3,16 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Flexible kreative Dateien hinzufügen oder entfernen:
 
@@ -52,7 +52,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
@@ -62,7 +62,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
 ### Hinzufügen flexibler Kreativer mithilfe einer Vorlage {#flexible-creative-use-template}
 
-Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen] (flexible-creative-upload)>
+Sie können jede der flexiblen Kreativvorlagen verwenden, die in Ihr Konto hochgeladen wurden, um Anzeigen einer vordefinierten Größe zu erstellen. Nachdem Sie eine zu verwendende Vorlage ausgewählt haben, bearbeiten Sie die Click-Tags und -Attribute.&lt;!— Ersetzen Sie den letzten Satz durch diesen, wenn wir die Funktion zum Herunterladen von Vorlagen wieder hinzufügen: Sie können entweder a\) eine zu verwendende Vorlage auswählen und dann die Klicktags und -attribute bearbeiten; oder b\) [eine Vorlage als ZIP-Datei herunterladen](#download-flexible-creative-template) den Inhalt offline bearbeiten, um Ihr eigenes Kreativ zu erstellen, und dann [die bearbeitete Datei als neues Kreativ hochladen](flexible-creative-upload)>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -94,13 +94,17 @@ For information about the attributes available in predefined templates, see "[Av
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-## Hinzufügen eines HTML5-Creative zu einer Kreativbibliothek
+## Hinzufügen eines Standard-Kreativdisplays zu einer Kreativbibliothek
 
-Sie können mehrere HTML5-Kreative eines einzelnen Typs (einfach oder statisch) gleichzeitig hinzufügen.
+Zu den standardmäßigen Display-Kreativen gehören Bild- und HTML5-Kreative, einschließlich aus Adobe Experience Manager und Adobe GenStudio for Performance Marketing importierter Kreative.
+
+* Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximale Dateigröße beträgt zwei (2) MB. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
+
+* Sie können mehrere Experience Manager-Assets, mehrere GenStudio-Erlebnisse oder mehrere lokale HTML5-Kreative eines einzelnen Typs (einfach oder statisch) gleichzeitig hinzufügen. HTML5-Kreative finden weitere Informationen in der [HTML5-Anzeigenspezifikation](/help/creative/creative-libraries/html5-creative-specification.md).
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -114,71 +118,49 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Standard Display]**.
 
-<!-- Not an option as of 3/4:
+1. Geben Sie die Kreativen an:
 
-1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
-
-   The ZIP file is downloaded according to your browser's normal procedure, usually to the folder that is specified for downloads. 
-   
-   To create your own HTML5 creative using the sample, unzip the file and edit the contents to include your own ad images and attributes. Then, rename the folder and zip it, and continue below.
-
--->
-
-1. Geben Sie die Dateien auf eine der folgenden Arten an:
-
-   * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
-
-   * Klicken Sie auf **[!UICONTROL Select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
-
-   Siehe die [HTML5-Anzeigenspezifikation](/help/creative/creative-libraries/html5-creative-specification.md).
-
-1. Geben Sie die Einstellungen für die [HTML5-Anzeige an](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
-
-Standardmäßig werden alle Kreativen ausgewählt, die Sie gerade hochgeladen haben. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Kreativen. Für einige Einstellungen können Sie einzelne Werte angeben. Um Einstellungen für bestimmte Kreative einzugeben, deaktivieren Sie das Kontrollkästchen neben den einzelnen nicht anwendbaren Kreativen.
-
-1. **[!UICONTROL Create]** klicken
-
-## Hinzufügen eines Kreativbilds zu einer Kreativbibliothek
-
-Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximale Dateigröße beträgt zwei (2) MB. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
-
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
-
-1. Klicken Sie auf den Bibliotheksnamen.
-
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
-
-1. Legen Sie die Bilder fest:
-
-   * Führen Sie für lokale Bild-Assets einen der folgenden Schritte aus:
+   * Führen Sie für lokale Bild- oder HTML5-Assets einen der folgenden Schritte aus:
 
       * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
       * Klicken Sie auf **[!UICONTROL Select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   * Gehen Sie für genehmigte Bilder in einer [Adobe Experience Manager-Bibliothek, die mit Ihrem DSP](/help/creative/creative-libraries/aem-assets-configure.md)Konto verbunden ist, wie folgt vor:
+   * Gehen Sie für genehmigte Bilder in einer [Experience Manager-Bibliothek, die mit Ihrem DSP](/help/creative/creative-libraries/aem-assets-configure.md)Konto verbunden ist, wie folgt vor:
 
       1. Klicken Sie auf **[!UICONTROL AEM Asset Library]**.
 
-      1. Melden Sie sich bei Ihrem Experience Manager-Konto an.
+      1. (Wenn Sie noch nicht bei Ihrem Experience Manager-Konto angemeldet sind) Melden Sie sich bei Ihrem Experience Manager-Konto an.
 
       1. Suchen Sie die Dateien in Ihrer [!UICONTROL Assets]- oder [!UICONTROL Collections]-Ansicht, wählen Sie sie aus und klicken Sie dann oben rechts auf **[!UICONTROL Select]** .
 
          <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
-1. Bilder hinzufügen oder entfernen:
+   * Gehen Sie für GenStudio-Erlebnisse wie folgt vor:
+
+      1. Klicken Sie auf **[!UICONTROL GenStudio Library]**.
+
+      1. (Wenn Sie noch nicht bei Ihrem GenStudio-Konto angemeldet sind) Melden Sie sich bei Ihrem GenStudio-Konto an.
+
+         Ihre Display-Anzeigenerlebnisse werden standardmäßig angezeigt. Filtern Sie Ihre Erlebnisse nach Bedarf nach Kampagne oder anderen Attributen.
+
+      1. Suchen Sie die Anzeige-Erlebnisse für Anzeigen, wählen Sie sie aus und klicken Sie oben rechts auf **[!UICONTROL Select]** .
+
+         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+
+1. Kreative hinzufügen oder entfernen:
 
    * Um ein Bild hinzuzufügen, klicken Sie ![Hinzufügen](/help/creative/assets/create.png "Hinzufügen") oben links und suchen Sie die Datei auf Ihrem Gerät oder Netzwerk.
 
    * Um ein Bild zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Geben Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
+1. Geben Sie die Kreativeinstellungen für [HTML5 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
 
    Standardmäßig werden alle Kreativen, die Sie gerade hochgeladen haben, ausgewählt. Alle von Ihnen angegebenen Einstellungen gelten für alle ausgewählten Kreativen. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Kreativen. Um Einstellungen für bestimmte Kreative einzugeben, heben Sie die Auswahl der nicht zutreffenden Kreativen auf.
 
-1. **[!UICONTROL Create]** klicken
+1. Klicken Sie auf **[!UICONTROL Create]** oder **[!UICONTROL Import]**.
 
 ## Hinzufügen von Kreativen von Drittanbietern zu einer Kreativbibliothek {#creative-add-third-party}
 
@@ -190,9 +172,9 @@ Bildkreative können im GIF-, JPEG-, JPG- oder PNG-Format vorliegen. Die maximal
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
-   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. **[!UICONTROL Create]** klicken
 
