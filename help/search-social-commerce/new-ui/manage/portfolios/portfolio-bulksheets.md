@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Einstellungen für mehrere Portfolios mit
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,15 @@ Eine Portfolio-Bulksheet ist eine Datei, die Portfolioeinstellungen in einem bes
 
 Die Datei muss im XLSX-Format vorliegen.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**. &lt;!— Sollte &quot;Portfolio-Einstellungen importieren“ sein — „Details“ sind möglicherweise zu vage und schlagen vor, dass sie etwas Anderes enthalten könnten. —>
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**.
 
-1. Im Dialogfeld [!UICONTROL Import Portfolio Details File] : <!-- reword if we change the name of the operation -->
+1. Im Dialogfeld [!UICONTROL Import Portfolio Details File] :
 
-   1. Ziehen Sie eine Datei per Drag-and-Drop in das Feld oder klicken Sie auf **[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->, um eine Datei auf Ihrem Gerät oder Netzwerk auszuwählen.
+   1. Ziehen Sie eine Datei per Drag-and-Drop in das Feld oder klicken Sie auf **[!UICONTROL Browse File]**, um eine Datei auf Ihrem Gerät oder Netzwerk auszuwählen.
 
    1. Klicken Sie auf **[!UICONTROL Import]**.
 
-Sie können den Status des Uploads über die Schaltfläche [!UICONTROL Global Sync Status] (![Globaler Synchronisierungsstatus](/help/search-social-commerce/assets/global-sync-status.png "Globaler Synchronisierungsstatus")) neben der Datumsbereichsauswahl überprüfen.<!-- icon similar to Refresh -->. Wenn eine der Änderungen nicht erfolgreich war, können Sie eine Fehlerdatei herunterladen, die anzeigt, was fehlgeschlagen ist.
+Sie können den Status des Uploads über die Schaltfläche [!UICONTROL Global Sync Status] (![Globaler Synchronisierungsstatus](/help/search-social-commerce/assets/global-sync-status.png "Globaler Synchronisierungsstatus")) neben der Datumsbereichsauswahl überprüfen. Wenn eine der Änderungen nicht erfolgreich war, können Sie eine Fehlerdatei herunterladen, die anzeigt, was fehlgeschlagen ist.
 
 Benachrichtigungen werden auch zum Benachrichtigungszentrum hinzugefügt und Sie können den Bereich Benachrichtigungen über das Symbol ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-new.png "Benachrichtigungen") neben der Schaltfläche [!UICONTROL Global Sync Status] öffnen (![Globaler Synchronisierungsstatus](/help/search-social-commerce/assets/global-sync-status.png "Globaler Synchronisierungsstatus")).
 
