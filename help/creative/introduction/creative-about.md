@@ -3,9 +3,9 @@ title: Über Adobe Advertising Creative
 description: Informationen über [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie fü
 
 ### [!DNL Adobe] Asset-Integrationen
 
-[!DNL Creative] ist direkt in Adobe Experience Manager integriert, sodass Sie die [!DNL Adobe] Bild-Assets, die Ihr Design-Team erstellt und für Standard-Bild-Anzeigen genehmigt, einfach hochladen können.
+[!DNL Creative] ist direkt mit den folgenden [!DNL Adobe]-Produkten integriert, sodass Sie Assets in Ihre Kreativbibliotheken importieren können:
+
+* **Adobe Experience Manager:** Laden Sie die [!DNL Adobe] Bild-Assets hoch, die Ihr Design-Team für Standard-Bild-Anzeigen erstellt und genehmigt.
+
+* **Adobe GenStudio for Performance Marketing:** Importieren Sie alle Anzeigenvarianten aus Ihren Display-Anzeigenerlebnissen als HTML5-Kreative.
 
 ## Regelbasierte und nicht zielgerichtete Erlebnisse
 
@@ -32,7 +36,7 @@ Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie fü
 
 ### [!DNL Adobe] von Datenintegrationen
 
-Sie können Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager und Adobe Analytics sowie benutzerdefinierte Zielgruppensegmente, die Sie in Advertising DSP erstellen, und Retargeting-Pixel, die Sie mit [!DNL Creative] erstellen, als Ziele für bestimmte Kreative in einem Werbeerlebnis verwenden. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Verwenden Sie Ihre Erstanbieter-Zielgruppensegmente aus Adobe Audience Manager und Adobe Analytics sowie benutzerdefinierte Zielgruppensegmente, die Sie in Advertising DSP erstellen, und Retargeting-Pixel, die Sie mit [!DNL Creative] erstellen, als Ziele für bestimmte Kreative in einem Werbeerlebnis. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementierung von Erlebnissen als Anzeigen
 
