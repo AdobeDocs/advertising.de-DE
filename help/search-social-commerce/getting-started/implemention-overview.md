@@ -1,11 +1,11 @@
 ---
 title: Übersicht über die Implementierung von Search, Social und Commerce
-description: Mehr erfahren
+description: Erfahren Sie mehr über den allgemeinen Workflow zum Starten und Verwalten eines Portfolios.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Im Folgenden finden Sie den allgemeinen Workflow für die Implementierung und Ve
 
    * Wenn die Konten noch keine Kampagnendaten enthalten, fügen Sie Kampagnen, Anzeigengruppen, Keywords, Anzeigen und Platzierungen aus Search, Social und Commerce oder aus dem Anzeigennetzwerk hinzu.
 
-     Einzelheiten zum Einrichten von Suchkampagnen finden Sie im Hilfekapitel zu &quot;Campaign Management&quot;.
+     Weitere Informationen zum Einrichten von Suchkampagnen finden Sie im Hilfekapitel zu „Kampagnen-Management“.
 
 1. Richten Sie das Tracking für alle Anzeigen ein, für die Adobe Advertising Konversionen verfolgen soll:
 
    1. Richten Sie (falls erforderlich) Klick-Tracking für Anzeigen und optional für Schlüsselwörter, [!DNL Google Ads] Platzierungen und [!DNL Google Ads] ein, indem Sie Klick-Tracking-URLs generieren und hochladen.
 
-      Klick-Tracking-URLs für Werbetreibende mit dem Adobe Advertising-Pixel-basierten Konversionsverfolgungs-Service enthalten eine Umleitung zu [!DNL Adobe].
+      Klick-Tracking-URLs für Werbetreibende mit dem pixelbasierten Konversionsverfolgungs-Service von Adobe Advertising enthalten eine Umleitung zu [!DNL Adobe].
 
    1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den entsprechenden Web-Seiten und/oder das Einrichten eines täglichen Feed-Abrufs für Konversionsdaten beinhalten, den Sie mit Ihrer eigenen Methode erfasst haben.
 
@@ -108,4 +108,4 @@ Nach dem ersten Launch sind die folgenden laufenden Aufgaben erforderlich. Abhä
 
    * Neue Portfolios hinzufügen.
 
-Anweisungen zum Überwachen von Portfolios und Anpassen der Portfoliostrategien finden Sie im Hilfekapitel „Optimierung“ > „Verwalten von Portfolios&quot; > „Überwachen und Verwalten der Performance“, das über das [!UICONTROL Help]-Menü (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite von Search, Social und Commerce verfügbar ist.
+Anweisungen zum Überwachen von Portfolios und zum Anpassen der Portfoliostrategien finden Sie im Hilfekapitel „Optimierung“ > „Portfolios verwalten“ > „Überwachung und Verwaltung der Performance“, das über das [!UICONTROL Help]-Menü (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite von Search, Social und Commerce verfügbar ist.

@@ -1,11 +1,11 @@
 ---
 title: Herunterladen von Daten aus der [!UICONTROL Experiences]
-description: Weitere Informationen zu
+description: Erfahren Sie, wie Sie Metadaten aus der [!UICONTROL Experiences] exportieren.
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sie können Metadaten zu den Erlebnissen in der aktuellen gefilterten [!UICONTROL Experiences] in eine Datei im Microsoft Excel-Tabellenformat (XLSX) exportieren.
 
-Jede Zeile in der Datei enthält Details zu einem Erlebnis, einschließlich des Namens und der ID des Erlebnisses; ob das Erlebnis dynamische Anzeigen enthält oder nicht; die Anzahl der Kreativen, Bundles und zugehörigen Anzeigen-Tags; ob das Erlebnis einen Entscheidungsbaum enthält oder nicht; die eingeschlossenen Kreativgrößen; alle anwendbaren Beschriftungen; das Miniaturbild, das [!DNL Creative] für das Erlebnis anzeigt; der Name der zugewiesenen Bundles; und die Namen der zugehörigen Anzeigen-Tags.
+Jede Zeile in der Datei enthält Details zu einem Erlebnis, darunter: der Erlebnisname und die ID; ob das Erlebnis dynamische Anzeigen enthält oder nicht; die Anzahl der Kreativen, Bundles und zugehörigen Anzeigen-Tags; ob das Erlebnis einen Entscheidungsbaum enthält oder nicht; die eingeschlossenen Kreativgrößen; alle anwendbaren Beschriftungen; das Miniaturbild, das [!DNL Creative] für das Erlebnis anzeigt; der Name der zugewiesenen Bundles; und die Namen der zugehörigen Anzeigen-Tags.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

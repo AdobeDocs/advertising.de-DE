@@ -1,10 +1,10 @@
 ---
 title: Verwalten dynamischer Anzeigenvorlagen
-description: Informationen zu xxxx.
+description: Erfahren Sie, wie Sie dynamische Anzeigenvorlagen verwalten und daraus Anzeigen erstellen.
 feature: Creative Templates
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigenty
 
    Im [!UICONTROL New Dynamic Ad] werden die Felder [!UICONTROL Ad Template Size], [!UICONTROL Ad Template Type] und [!UICONTROL Ad Template] automatisch ausgewählt und schreibgeschützt.
 
-1. Geben Sie die Einstellungen für dynamische Anzeigen an[&#x200B; um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
+1. Geben Sie die Einstellungen für dynamische Anzeigen an[ um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
 
 ## Einstellungen für Anzeigenvorlagen {#ad-template-settings}
 
