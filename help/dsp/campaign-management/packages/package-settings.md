@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Fakturierbare Gebühren werden in der [!UICONTROL Net CPM] Metrik angezeigt.
 
-Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
