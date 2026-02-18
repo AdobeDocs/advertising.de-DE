@@ -3,7 +3,7 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | Der Anbieter des Browsers, in dem die Anzeige angezeigt wurde (z. B. Google oder Mozilla). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | Die Version des Browsers, in dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Safari 4.3] oder [!UICONTROL Chrome 7.0]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | Der Browser, in dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Chrome] oder [!UICONTROL Firefox]). |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | Ob die Anzeige auf *[!UICONTROL sites]* oder *[!UICONTROL Apps]* angezeigt wurde. |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | Die Geräteumgebungen, auf die sich die Platzierung bezieht: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* und/oder *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | Der Typ des Geräts, auf dem die Anzeige angezeigt wurde (z. B. [!UICONTROL Set Top Box] oder [!UICONTROL Mobile Phone]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | Der Hersteller des Geräts, auf dem die Anzeige gezeigt wurde (z. B. [!UICONTROL Samsung], [!UICONTROL Lenovo] oder [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | Das Modell des Geräts, auf dem die Anzeige angezeigt wurde (z. B. [!UICONTROL iPhone XS] oder [!UICONTROL Galaxy Note 7]). |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | Der Name der Platzierung, wie von der Benutzerin bzw. dem Benutzer zugewiesen. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | Das Platzierungsbudget. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | Das maximale Angebot für die Platzierung. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | Die Geräteumgebungen, auf die sich die Platzierung bezieht: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* und/oder *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | Das Enddatum der Platzierung. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | Das Startdatum der Platzierung. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | Das Platzierungs-Tag, das als benutzerdefinierte Kennung für die Platzierung verwendet wird. |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | Der Name des mit einem Segment verknüpften Datenanbieters. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Die eindeutige Kennung für die Site oder die App in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Der Name der Site. |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | Ob die Anzeige auf *[!UICONTROL sites]* oder *[!UICONTROL Apps]* angezeigt wurde. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | Die Videolänge, die nach dem Hochladen verarbeitet wird. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Die eindeutige Kennung für das kreative Video in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | Der Name des vom Benutzer zugewiesenen Kreativen. |
@@ -231,7 +231,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
