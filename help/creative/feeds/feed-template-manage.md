@@ -66,7 +66,7 @@ Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
 
 1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **[!UICONTROL Duplicate]**.
 
-1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [ anderen Einstellungen ](#feed-template-settings)Feed-Vorlage).
+1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [&#x200B; anderen Einstellungen &#x200B;](#feed-template-settings)Feed-Vorlage).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
