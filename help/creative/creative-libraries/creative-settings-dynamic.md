@@ -2,9 +2,10 @@
 title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## Dynamische Anzeigeneinstellungen<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### Grundlegende Details
 
-**[!UICONTROL Dynamic Ad Name]:** Ein eindeutiger Name für den Kreativen.
+**[!UICONTROL Creative Type]:** Ob es sich bei dem Kreativen um eine *[!UICONTROL Display]* Anzeige (HTML5) oder eine *[!UICONTROL Video]* Anzeige handelt.
 
-**[!UICONTROL Advertiser]:** Der Werbetreibende, für den die Anzeigen erstellt werden sollen.
+**[!UICONTROL Dynamic Display Ad Name]** oder **[!UICONTROL Dynamic Video Ad Name]:** Eindeutiger Name für den Kreativen.
+
+**[!UICONTROL Advertiser]:** Der Werbetreibende, für den die Anzeigen erstellt werden sollen. Wenn Sie die Anzeigen in [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] erstellen, ist der Advertiser bereits ausgewählt und schreibgeschützt.
 
 **[!UICONTROL Library]:** Die Kreativbibliothek, in der die Anzeigen erstellt werden sollen. Wenn Sie die Anzeigen in [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] erstellen, ist der Bibliotheksname bereits ausgewählt und schreibgeschützt.
 
-**[!UICONTROL Ad Template Size]:** Die [Anzeigendimensionen](/help/creative/creative-libraries/creative-sizes.md) für die Anzeigenvorlage, aus der die Anzeige erstellt werden soll. Wenn Sie zuerst eine bestimmte [!UICONTROL Ad Template] auswählen, wird dieser Wert automatisch ausgewählt.
+**[!UICONTROL Ad Template Size]:** (nur dynamische Anzeigen) Die [Anzeigendimensionen](/help/creative/creative-libraries/creative-sizes.md) für die Anzeigenvorlage, aus der die Anzeige erstellt werden soll. Wenn Sie zuerst eine bestimmte [!UICONTROL Ad Template] auswählen, wird dieser Wert automatisch ausgewählt.
 
 ## Anzeigenvorlage
 
-**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch und wählen Sie den Vorlagentyp aus *statisch* oder *dynamisch*. Eine hochgeladene Vorlage muss im ZIP-Format vorliegen und HTML5-Dateien sowie eine Vorlagendefinitionsdatei (template.tDF) enthalten. <!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch und wählen Sie den Vorlagentyp aus *statisch* oder *dynamisch*. Die Vorlage muss im ZIP-Format vorliegen und Folgendes enthalten:<!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Die Anzahl der in einem Karussell anzuzeigenden Produkte.
+* Kreative anzeigen: HTML5-Dateien mit dem gewünschten Anzeigenformat und (nur für dynamische HTML5-Anzeigen) eine -Datei mit den Anzeigenattributen (.tdf)
+
+* Video-Kreative: Eine Scene-Datei mit dem gewünschten Anzeigenformat. Die ZIP-Datei darf maximal 512 MB groß sein.
+
+Um fortzufahren, klicken Sie auf **[!UICONTROL Select Ad Template]**.
+
+**[!UICONTROL Card Count (Max 50)]:** (Nur Anzeigen) Die Anzahl der Produkte, die in einem Karussell angezeigt werden sollen.
+
+**[!UICONTROL Duration]:** (Nur Videoanzeigen; schreibgeschützt) Die Videodauer, die von der ausgewählten Anzeigenvorlage abgeleitet wird. Die Dauer jedes Videos muss zwischen 1 und 90 Sekunden liegen.
 
 ## Kataloge
 
 **[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.
 
-**\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen.
+**\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen. Klicken Sie auf **[!UICONTROL Select Catalog]**.
 
 Hochgeladene Kataloge müssen im ZIP-Format vorliegen und Folgendes enthalten:
 
-* Eine oder mehrere Feeddateien im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX). Die maximale Dateigröße beträgt 512 MB.<!-- Need to add more specs for the feed files -->
+* (Dynamische Anzeige- und Videoanzeigen) Eine oder mehrere Feeddateien im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX). Die maximale Dateigröße beträgt 512 MB.<!-- Need to add more specs for the feed files -->
 
-* Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format
+* (Anzeigen) Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format
+
+* (Videoanzeigen) Video-Assets im MP4-, MOV- oder WEBM-Format. Unterstützte Anzeigenvorlagen umfassen Startkarte, Endkarte, obere Überlagerung, untere Überlagerung oder L-förmig. Die Dauer jedes Videos muss zwischen 1 und 90 Sekunden liegen.
 
 ### [!UICONTROL Attributes Mapping]
 

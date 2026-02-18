@@ -2,9 +2,10 @@
 title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
 >[!PREREQUISITES]
 >
->Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[&#x200B; für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
+>Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[ für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -59,9 +60,11 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
 1. Geben Sie die [Einstellungen für dynamische Anzeigen](/help/creative/creative-libraries/creative-settings-dynamic.md) an:
 
-   1. Geben Sie die grundlegenden Anzeigendetails an.
+   1. Geben Sie die grundlegenden Anzeigendetails an, einschließlich des Kreativtyps.
 
    1. Wählen Sie die Anzeigenvorlage aus, die für die Kreativen verwendet werden soll.
+
+      Verwenden Sie eine HTML5-Anzeigenvorlage für Display-Anzeigen und eine Videoanzeigenvorlage für Videoanzeigen.
 
    1. Wählen Sie den Katalog aus, aus dem die Anzeigen erstellt werden sollen.
 

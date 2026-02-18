@@ -3,16 +3,16 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # Über Erlebnisse in Advertising Creative 2.0
 
-Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standardvideo oder dynamische Anzeige). [!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
+Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standardvideo, dynamische Anzeige oder dynamisches Video). [!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
 
 * **Erlebnisse beim Targeting mit Entscheidungsbäumen:** [!DNL Creative] ermöglicht es Ihnen, personalisierte Anzeigenerlebnisse auf der gesamten Kunden-Journey mithilfe eines Entscheidungsbaummodells zu konfigurieren. Sie können alle Werbeelemente - Bilder, Überschriften, Angebote und Landingpages - je nach Zielgruppe anpassen.
 
@@ -77,7 +77,7 @@ Die folgenden Leistungsdaten sind verfügbar:
 
 ## Warnhinweise
 
-Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [&#x200B; unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [ unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
 
 ## Erlebnisstatus {#experience-statuses}
 
@@ -116,7 +116,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 

@@ -3,7 +3,7 @@ title: Einstellungen für zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für zielgerichtete Anzeigenerlebnisse.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Typ der in dem Erlebnis enthaltenen Anzeigen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* oder *[!UICONTROL Video]*. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Anzeigentyp nicht mehr ändern.
+**[!UICONTROL Ad Type]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Typ der in dem Erlebnis enthaltenen Anzeigen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* oder *[!UICONTROL Display Video]*. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Anzeigentyp nicht mehr ändern.
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Advertiser, der für die in dem Erlebnis enthaltenen Kreativ- und Zielkombinationen bietet. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Advertiser nicht mehr ändern.
 

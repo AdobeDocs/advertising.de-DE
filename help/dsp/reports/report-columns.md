@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
+source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | Die Summe aller Klicks auf eine Anzeige. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | Die Gesamtzahl der Minuten, die eine Videoanzeige angesehen wurde. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | Die Gesamtzahl der Video-Anzeigenansichten. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (Benutzerdefinierter Creative-Bericht) Der Prozentsatz der Ansichten, die die gesamte Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (Benutzerdefinierter Creative-Bericht) Die Anzahl der Ansichten, die die gesamte Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (Benutzerdefinierter Creative-Bericht) Der Prozentsatz der Ansichten, die mindestens ein Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (Benutzerdefinierter Creative-Bericht) Die Anzahl der Ansichten, die mindestens ein Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (Benutzerdefinierter Creative-Bericht) Der Prozentsatz der Ansichten, die mindestens zwei Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (Benutzerdefinierter Creative-Bericht) Die Anzahl der Ansichten, die mindestens zwei Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (Benutzerdefinierter Creative-Bericht) Der Prozentsatz der Ansichten, die mindestens drei Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (Benutzerdefinierter Creative-Bericht) Die Anzahl der Ansichten, die mindestens drei Viertel der Anzeige angesehen haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (Benutzerdefinierter Creative-Bericht) Der durchschnittliche Prozentsatz, um den eine Anzeige bis zum Abschluss angesehen wurde, wobei alle Ansichten berücksichtigt werden. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (Benutzerdefinierter Creative-Bericht) Der Prozentsatz der bereitgestellten Impressionen, die zu Videoansichten geführt haben. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (Custom Creative Report) Die durchschnittliche Dauer einer Videoansicht, gemessen in Sekunden. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Stummschaltungen des Videos. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Pausen des Videos. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Fälle, in denen das Video nach dem Anhalten fortgesetzt wurde. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Zurückspulungen des Videos. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Starts des Videos. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Aufhebungen der Stummschaltung für das Video. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Minuten, die eine Videoanzeige angesehen wurde. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (Benutzerdefinierter Creative-Bericht) Die Gesamtzahl der Video-Anzeigenansichten. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | Die durchschnittliche Breite und Höhe des Spielers. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | Die Gesamtzahl der bereitgestellten Impressionen, die zur Sichtbarkeit gemessen werden konnten. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Der Prozentsatz der erzielten Impressionen, die hinsichtlich der Sichtbarkeit gemessen werden konnten, berechnet als <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |
@@ -231,7 +250,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

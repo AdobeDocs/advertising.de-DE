@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Erfahren Sie, wie Sie Kreativgruppen verwalten und verwenden.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standard-Display-Bundles können nur Standard-Display-Anzeigen enthalten, Standard-Video-Bundles können nur Standard-Video-Anzeigen enthalten und dynamische Display-Bundles können nur dynamische Display-Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
+Bundles sind Gruppen von Kreativen, die Sie einem Erlebnis als eine Einheit hinzufügen können. Nachdem Sie einen Bundle-Container erstellt haben, können Sie Kreative an das Bundle anhängen. Standard-Display-Bundles können nur Standard-Display-Anzeigen enthalten, Standard-Video-Bundles können nur Standard-Video-Anzeigen enthalten, Bundles mit dynamischen Anzeigen können nur dynamische Display-Anzeigen enthalten und dynamische Video-Bundles können nur dynamische Video-Anzeigen enthalten. Sie können die Landingpages, Impression-Tracking-Tags und Klick-Tracking-Tags für alle Kreativen in einem Bundle, das einem Erlebnis aus der Erlebnis-Entscheidungsstruktur zugewiesen ist, überschreiben, ohne die Basis-Kreativen zu beeinflussen.
 
 [!DNL Creative] rotiert durch die Kreativen im Bundle, wie für jedes Erlebnis angegeben, dem das Bundle zugewiesen ist. Optional können Sie [!DNL Creative] erlauben, die Anzeigenelemente für jedes Erlebnis basierend auf der Leistung mithilfe der algorithmischen Anzeigenrotation zu optimieren, die von [!DNL Adobe AI] basiert.
 
@@ -38,7 +38,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Geben Sie eine eindeutige **[!UICONTROL Bundle Name]** ein und **[!UICONTROL Bundle Type]Sie Folgendes** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamisches Display* (für Kreative von dynamischen Bildschirmen), *Standardvideo* (für Kreative von Standardvideos).
+1. Geben Sie einen eindeutigen **[!UICONTROL Bundle Name]** ein und **[!UICONTROL Bundle Type]Sie:** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamic Display* (für Kreative von dynamischen Displays), *Standardvideo* (für Kreative von Standardvideos) oder *Dynamic Video* (für Kreative von dynamischen Videos).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -102,7 +102,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
 ## Kreative an Bundle anhängen
 
-Sie können bestehende Kreative von Standardbildschirmen an ein Bundle mit Standardbildschirmen, Kreative von Standardvideos an Standard-Videopakete und Kreative von dynamischen Anzeigen an ein dynamisches Bundle anhängen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size oder Duration + Language\]-Kombinationen enthalten.
+Sie können vorhandene Kreative für Standardanzeigen mit einem Bundle für Standardanzeigen, Kreative für Standardvideos mit Standard-Videopaketen, Kreative für dynamische Anzeigen mit einem Bundle für dynamische Videos und Kreative für dynamische Videos mit einem Videopaket verknüpfen. Wenn Sie ein Kreativ-Asset an ein Bundle anhängen, ist das Kreativ-Asset in allen Erlebnissen verfügbar, denen das Bundle zugewiesen ist. Jedes Bundle kann nur eine der \[Creative Size oder Duration + Language\]-Kombinationen enthalten.
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 
-   1. Klicken ![&#x200B; oben rechts in &#x200B;](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
@@ -272,7 +272,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Bundles löschen
 
-Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [&#x200B; Sie das Bundle aus der Entscheidungsstruktur &#x200B;](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

@@ -2,18 +2,25 @@
 title: Verwalten von Feed-Katalogen
 description: Erfahren Sie, wie Sie Feed-Kataloge verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Feed-Katalogen
 
-Verarbeitete Feed-Kataloge sind Gruppen von potenziellen und Varianten, die aus einer bestimmten Feed-Datei und einer bestimmten Feed-Vorlage erstellt wurden. Für dynamische HTML5-Anzeigen, jedoch nicht für statische HTML5-Anzeigen, ist ein Katalog erforderlich, um dynamische Anzeigen zu erstellen.
+Verarbeitete Feed-Kataloge sind Gruppen von potenziellen und Varianten, die aus einer bestimmten Feed-Datei und einer bestimmten Feed-Vorlage erstellt wurden. Für dynamische HTML5- und Videoanzeigen, jedoch nicht für statische HTML5-Anzeigen, ist ein Katalog erforderlich, um dynamische Anzeigen zu erstellen.
 
 Bevor Sie Anzeigenvarianten erstellen und [dynamische Anzeigen zu einer Kreativbibliothek hinzufügen können](/help/creative/creative-libraries/creative-add-dynamic.md) verarbeiten Sie den Katalog. Sie können die Feed-Datei später aktualisieren und den Katalog erneut verarbeiten, um einen neuen Satz von Anzeigenvarianten zu erstellen.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+Jede Feed-Datei kann bis zu 500 Zeilen mit Video-Assets verarbeiten.
+
+>[!TIP]
+>
+>Für alle Konten mit dynamischen Videos ist die Best Practice [, die [!UICONTROL Adobe Creative Template]](feed-template-manage.md) der primären Feed-Vorlage herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um einen Katalog zu erstellen.
 
 ## Erstellen eines Katalogs {#feed-catalog-create}
 

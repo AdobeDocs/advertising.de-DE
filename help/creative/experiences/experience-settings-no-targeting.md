@@ -3,7 +3,7 @@ title: Einstellungen für nicht zielgerichtete Erlebnisse
 description: Siehe Beschreibungen aller Einstellungen für Anzeigenerlebnisse ohne Targeting mit Entscheidungsbaum.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics]
 
-**[!UICONTROL Ad Type]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Typ der in dem Erlebnis enthaltenen Anzeigen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* oder *[!UICONTROL Video]*. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Anzeigentyp nicht mehr ändern.
+**[!UICONTROL Ad Type]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Typ der in dem Erlebnis enthaltenen Anzeigen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* oder *[!UICONTROL Display Video]*. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Anzeigentyp nicht mehr ändern.
 
 **[!UICONTROL Advertiser]:** (Schreibgeschützt für vorhandene Erlebnisse) Der Werbetreibende, der Gebote für die in das Erlebnis eingeschlossenen Kreativen abgibt. Nachdem Sie das Erlebnis gespeichert haben, können Sie den Advertiser nicht mehr ändern.
 

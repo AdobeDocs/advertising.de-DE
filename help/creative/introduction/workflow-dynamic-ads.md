@@ -2,9 +2,10 @@
 title: Workflows für dynamische Anzeigen
 description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,16 +28,16 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
 >[!PREREQUISITES]
 >
->* Anzeigenvorlagen im HTML5-Format
+>* Anzeigenvorlagen: Eine Anzeigenvorlage (eine ZIP-Datei mit HTML5-Dateien) oder eine Videoanzeigenvorlage (eine ZIP-Datei mit einer Scene-Datei)
 >* Produktkataloge im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX)
 
-1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Laden Sie für dynamische HTML5-Anzeigen eine Anzeigenvorlage und Kataloge hoch.
+1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Laden Sie für dynamische HTML5- und Videoanzeigen eine vorhandene Anzeigenvorlage und einen vorhandenen Katalog hoch oder wählen Sie diese aus.
 
 1. Verwenden Sie die dynamischen Kreativen für Anzeigen-Erlebnisse:
 
    1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
 
-   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit &#x200B;](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
 
@@ -44,25 +45,29 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
 ## Workflow 2
 
-1. [Erstellen Sie eine &#x200B;](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets. Die Anzeigenvorlage enthält eine HTML5-Datei mit dem gewünschten Anzeigenformat und (nur für dynamische HTML5-Anzeigen) eine -Datei mit den Anzeigenattributen.
+1. [Erstellen Sie eine ](/help/creative/ad-templates/ad-template-manage.md) für Ihre dynamischen Anzeigen basierend auf den verfügbaren Assets. Die Anzeigenvorlage muss im ZIP-Format vorliegen und Folgendes enthalten:<!-- Need to add more specs for templates -->
+
+* Kreative anzeigen: HTML5-Dateien mit dem gewünschten Anzeigenformat und (nur für dynamische HTML5-Anzeigen) eine -Datei mit den Anzeigenattributen (.tdf)
+
+* Videokreative: Eine Szenendatei mit dem gewünschten Anzeigenformat und eine Datei mit den Anzeigenattributen (.tdf)
 
 1. Werbeelemente einrichten:
 
-   * (Für einzelne statische HTML5-Anzeigen) Erfassen und [laden Sie die Bild-Assets &#x200B;](/help/creative/feeds/asset-manage.md) Ihre Anzeigen hoch.
+   * (Für einzelne statische HTML5-Anzeigen) Erfassen und [laden Sie die Bild-Assets ](/help/creative/feeds/asset-manage.md) Ihre Anzeigen hoch.
 
-   * (Für dynamische HTML5-Anzeigen) Erstellen Sie Kataloge Ihrer Werbeelemente:
+   * (Für dynamische HTML5- und Videoanzeigen) Erstellen Sie Kataloge Ihrer Werbeelemente:
 
-      1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bildnamen ein. Erfassen Sie die zugehörigen Bild-Assets separat.
+      1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bild- oder Videonamen ein. Erfassen Sie die zugehörigen Bild- und Video-Assets separat.
 
-      1. [Laden Sie die Feed-Datei und Bild-Assets hoch](/help/creative/feeds/asset-manage.md).
+      1. [Laden Sie die Feed-Datei und die Assets hoch](/help/creative/feeds/asset-manage.md).
 
-      1. [Erstellen Sie eine Feed](/help/creative/feeds/feed-template-manage.md)Vorlage, um die Felder in Ihrer Feed-Datei (Kalkulationstabelle) den Feldern im Advertising Creative-Backend zuzuordnen.
+      1. [Erstellen Sie eine Feed](/help/creative/feeds/feed-template-manage.md)Vorlage, um die Felder in Ihrer Feed-Datei (Kalkulationstabelle) den Feldern im Advertising Creative-Backend zuzuordnen. Sie können optional Master-Feed-Vorlagen mit für den Einzelhandel relevanten Feldern herunterladen und <!-- and what is the creative template?-->.
 
-      1. [Erstellen Sie einen &#x200B;](/help/creative/feeds/catalog-manage.md#feed-catalog-create) aus einer angegebenen Feed-Datei und einer angegebenen Feed-Vorlage und [verarbeiten Sie dann den Katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-process) um die Anzeigenvarianten anzuzeigen, die daraus erstellt werden können.
+      1. [Erstellen Sie einen ](/help/creative/feeds/catalog-manage.md#feed-catalog-create) aus einer angegebenen Feed-Datei und einer angegebenen Feed-Vorlage und [verarbeiten Sie dann den Katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-process) um die Anzeigenvarianten anzuzeigen, die daraus erstellt werden können.
 
          Jede Feed-Datei kann nur für einen Katalog verwendet werden.
 
-         Sie können [&#x200B; Status von Katalogverarbeitungsaufträgen &#x200B;](/help/creative/feeds/job-status-track.md) der Registerkarte [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] verfolgen.
+         Sie können [ Status von Katalogverarbeitungsaufträgen ](/help/creative/feeds/job-status-track.md) der Registerkarte [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] verfolgen.
 
 1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Verwenden Sie für dynamische HTML5-Anzeigen eine bestimmte Anzeigenvorlage und bestimmte Kataloge.
 
@@ -70,7 +75,7 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
    1. [Erstellen dynamischer Anzeigenpakete](/help/creative/creative-libraries/bundle-manage.md) die Sie gleichzeitig an ein Anzeigenerlebnis anhängen können.
 
-   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit &#x200B;](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Erstellen Sie dynamische Anzeigenerlebnisse [mit ](/help/creative/experiences/experience-create-targeting.md) oder [ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md) und [weisen Sie den Erlebnissen die Kreativ-Bundles zu](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Erstellen und Implementieren von Anzeigen-Erlebnis-](/help/creative/experiences/experience-tag-export.md), um sie als Anzeigen in Ihrer DSP auszuführen.
 

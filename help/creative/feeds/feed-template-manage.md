@@ -2,9 +2,10 @@
 title: Verwalten von Feed-Vorlagen
 description: Erfahren Sie, wie Sie Feed-Vorlagen verwalten.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Feed-Vorlagen ordnen Felder in Ihren Feed-Dateien/Katalogen den Feldern im Advertising Creative-Backend zu. Dynamische HTML5-Anzeigen, aber keine statischen HTML5-Anzeigen, benötigen eine Feed-Vorlage, um dynamische Anzeigen zu erstellen.
+Feed-Vorlagen ordnen Felder in Ihren Feed-Dateien/Katalogen den Feldern im Advertising Creative-Backend zu. Dynamische HTML5- und Videoanzeigen, jedoch keine statischen HTML5-Anzeigen, erfordern eine Feed-Vorlage, um dynamische Anzeigen zu erstellen. Sie können optional Master-Feed-Vorlagen ([!UICONTROL Retail] und [!UICONTROL Adobe Creative Template]) herunterladen und ausfüllen.
 
 Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
+
+>[!TIP]
+>
+>Für alle Konten mit dynamischen Videos ist die Best Practice [, die [!UICONTROL Adobe Creative Template]](feed-template-manage.md) der primären Feed-Vorlage herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um [Katalog zu erstellen](catalog-manage.md).
 
 ## Erstellen einer Feed-Vorlage
 
@@ -61,7 +66,7 @@ Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
 
 1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **[!UICONTROL Duplicate]**.
 
-1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [&#x200B; anderen Einstellungen &#x200B;](#feed-template-settings)Feed-Vorlage).
+1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [ anderen Einstellungen ](#feed-template-settings)Feed-Vorlage).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
