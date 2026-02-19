@@ -3,7 +3,7 @@ title: Verwalten von Feed-Katalogen
 description: Erfahren Sie, wie Sie Feed-Kataloge verwalten.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Jede Feed-Datei kann bis zu 500 Zeilen mit Video-Assets verarbeiten.
 
 >[!TIP]
 >
->Für alle Konten mit dynamischen Videos ist die Best Practice [, die [!UICONTROL Adobe Creative Template]](feed-template-manage.md) der primären Feed-Vorlage herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um einen Katalog zu erstellen.
+>Für alle Konten mit dynamischen Videos empfiehlt es sich, [ universellen Feed-Vorlagen-[!UICONTROL Adobe Creative Template]](feed-template-manage.md) herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um einen Katalog zu erstellen.
 
 ## Erstellen eines Katalogs {#feed-catalog-create}
 
