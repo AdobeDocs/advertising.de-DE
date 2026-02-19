@@ -3,9 +3,9 @@ title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
 >[!PREREQUISITES]
 >
->Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[&#x200B; für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
+>Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[ für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -84,7 +84,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
       * Inhalt ändern:
 
-         * Um den Wert einer Zelle in der Tabelle zu bearbeiten, klicken Sie in die Zelle und bearbeiten Sie den Wert. Klicken Sie auf eine Stelle außerhalb der Zelle oder drücken Sie die **[!DNL Enter]**, um die Änderungen zu speichern.
+         * (Nur Anzeigen) Um den Wert einer Zelle in der Tabelle zu bearbeiten, klicken Sie in die Zelle und bearbeiten Sie den Wert. Klicken Sie auf eine Stelle außerhalb der Zelle oder drücken Sie die **[!DNL Enter]**, um die Änderungen zu speichern.
 
          * Um ein einzelnes Produkt als Standard zu markieren<!--Explain what this means. --> halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
