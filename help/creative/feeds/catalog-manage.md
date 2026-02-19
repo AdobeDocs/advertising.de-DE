@@ -20,7 +20,7 @@ Jede Feed-Datei kann bis zu 500 Zeilen mit Video-Assets verarbeiten.
 
 >[!TIP]
 >
->Für alle Konten mit dynamischen Videos empfiehlt es sich, [ universellen Feed-Vorlagen-[!UICONTROL Adobe Creative Template]](feed-template-manage.md) herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um einen Katalog zu erstellen.
+>Für alle Konten mit dynamischen Videos empfiehlt es sich, [&#x200B; universellen Feed-Vorlagen-[!UICONTROL Adobe Creative Template]](feed-template-manage.md) herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um einen Katalog zu erstellen.
 
 ## Erstellen eines Katalogs {#feed-catalog-create}
 
