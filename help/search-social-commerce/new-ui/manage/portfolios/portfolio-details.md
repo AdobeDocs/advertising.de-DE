@@ -3,9 +3,10 @@ title: (Neue Benutzeroberfläche) Anzeigen von Details zur Portfolioleistung
 description: Erfahren Sie, wie Sie Details zur Portfolioleistung anzeigen, einschließlich tatsächlicher und prognostizierter Metriken auf Portfolioebene und für jede zugewiesene Kampagne.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
    * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
+1. Klicken Sie auf **[!UICONTROL Download report]**.
+
 ## Auflisten der Kampagnen im Portfolio
 
 * Klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** .
@@ -103,6 +106,14 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
    * Um sichtbare Portfolioeinstellungen zu bearbeiten, klicken Sie ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") neben dem Abschnitt Einstellungen und [Portfolioeinstellungen bearbeiten](portfolio-edit.md).
 
 Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungshandbuch , das bei Search, Social und Commerce verfügbar ist.
+
+## Herunterladen von Portfolioleistungsberichten und Listen der Portfoliokomponenten
+
+1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
+
+   Bei einigen Leistungsberichten können Sie auswählen, ob Sie die Daten als Warenkorb oder Tabelle herunterladen möchten.
 
 >[!MORELIKETHIS]
 >
