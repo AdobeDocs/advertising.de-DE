@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Details zur Portfolioleistung anzeigen, einsc
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,23 @@ Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungsha
 
 ## Herunterladen von Portfolioleistungsberichten und Listen der Portfoliokomponenten
 
-1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
+* Herunterladen aller Berichte:
 
-1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
+   1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
 
-   Bei einigen Leistungsberichten können Sie auswählen, ob Sie die Daten als Warenkorb oder Tabelle herunterladen möchten.
+   1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
+
+      Bei einigen Leistungsberichten können Sie auswählen, ob die Daten als Diagramm oder Tabelle heruntergeladen werden sollen.
+
+   1. Klicken Sie auf **[!UICONTROL Download report]**.
+
+* So laden Sie einen [!DNL model accuracy] mit bestimmten Datentypen herunter:
+
+   1. Klicken Sie in der Symbolleiste für den Bericht auf **[!UICONTROL Download report]**.
+
+   1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Datentyp und legen Sie fest, wie die Daten aufgeschlüsselt werden (nach Gebotseinheit und/oder nach Klickvolumen).
+
+   1. Klicken Sie auf **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
