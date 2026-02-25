@@ -23,7 +23,7 @@ Oberhalb der Datentabelle können Sie ein Leistungsdiagramm mit bis zu drei Metr
 
 * [Anzeigen eines Leistungsdiagramms für alle Kampagnen in der Ansicht](campaign-view-performance-graph.md)
 
-* [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Zuweisen von Einschränkungen zu Kampagnen und Aufheben der Zuweisung von Einschränkungen zu Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +31,7 @@ Oberhalb der Datentabelle können Sie ein Leistungsdiagramm mit bis zu drei Metr
 
 >[!MORELIKETHIS]
 >
->* [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Einschränkungszuweisungen für Kampagnen verwalten](campaign-constraint-assignments-manage.md)
 >* [Daten aus der [!UICONTROL Campaigns] herunterladen](campaign-view-report.md)
