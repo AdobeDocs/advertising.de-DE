@@ -2,9 +2,10 @@
 title: Konfigurieren von Ad-Network-Konten für den Datenupload
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
    1. Bearbeiten Sie auf der Registerkarte **[!UICONTROL Account Details]** die Kontodetails.
 
-   1. (Werbetreibende mit einer [[!DNL Adobe Analytics for Advertising]-Integration] (/help/integrations/analytics/overview.md) Klicken Sie auf die Registerkarte **[!UICONTROL Set up Adobe Analytics]** und bearbeiten Sie die [!DNL Analytics] Reporting-Suites, die für die Tracking- und Reporting-Kampagnenaktivität verwendet werden sollen.
+   1. (Werbetreibende mit einer [[!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md)) Klicken Sie auf die Registerkarte **[!UICONTROL Set up Adobe Analytics]** und bearbeiten Sie die [!DNL Analytics] Reporting-Suites, die für die Tracking- und Reporting-Kampagnenaktivität verwendet werden sollen.
 
    1. (Optional) Laden Sie auf der Registerkarte &quot;**[!UICONTROL Upload File]**&quot; Datendateien für das Konto hoch.
 
