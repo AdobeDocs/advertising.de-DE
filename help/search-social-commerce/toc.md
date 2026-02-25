@@ -164,7 +164,7 @@ ht-degree: 2%
       + Anzeigen von Netzwerkkonten {#ad-network-accounts}
          + [Über Anzeigennetzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Verwalten von Anzeigennetzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [AMO-ID-Trackingcode für ein Konto  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [AMO-ID-Trackingcode für ein Konto  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Händlercenter-Konten verwalten](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Nur [!DNL Naver] Tracking-Konten implementieren](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Verwalten von Kampagnen {#management}
@@ -239,7 +239,7 @@ ht-degree: 2%
          + Anzeigenerweiterungen {#ad-extensions}
             + [!DNL Google Ads] Callout-Erweiterungen {#callouts}
                + [Über  [!DNL Google Ads] -Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-               + [ [!DNL Google Ads]  verwalten](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+               + [&#x200B; [!DNL Google Ads]  verwalten](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Verknüpfen  [!DNL Google Ads]  freigegebenen Callout-Erweiterungen mit Kampagnen oder Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
             + Sitelink-Erweiterungen {#sitelinks}
                + [Über Sitelink-Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
@@ -260,13 +260,13 @@ ht-degree: 2%
          + Erforderliche/eingeschlossene Daten in Bulksheets{#bulksheet-data-formats}
             + [Unterstützte Bulksheet-Dateiformate](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [Vorgänge, die Sie in Bulksheets ausführen können](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Bulksheet-Daten für  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Bulksheet-Daten für  [!DNL Yahoo! Japan] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [Bulksheet-Daten für  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Bulksheet-Daten für  [!DNL Yahoo! Japan] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisieren von Kampagnendaten mithilfe von Inventar-Feeds {#inventory-feeds}
          + [Automatisieren der Anzeigenverwaltung mithilfe von Inventar-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [Wann werden Kontokomponenten von Inventar-Feeds erstellt oder gelöscht?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
@@ -450,16 +450,16 @@ ht-degree: 2%
 + Administration {#admin}
    + [Über Rollen](/help/search-social-commerce/admin/role-about.md)
    + [Verwalten von Anmeldeinformationen für Ad Network Manager-Konten](/help/search-social-commerce/admin/manager-accounts.md)
-   + [ [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/admin/sync-adobe-audiences.md)
+   + [&#x200B; [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Konfigurieren von Datenquellen {#data-sources}
       + [Über Synchronisierungs [!DNL Google Analytics] Konversionsmetriken](/help/search-social-commerce/admin/data-sources/data-source-about.md)
       + [Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Konfigurieren einer  [!DNL Google Analytics] -Ansicht als Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Datenquelle  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Datenquelle  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Synchronisierung einer Datenquelle anhalten](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
       + [Erneutes Authentifizieren  [!DNL Google Analytics]  Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] Datenquelleneinstellungen](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
-      + [Anhang - Verfügbare  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
+      + [Anhang - Verfügbare  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Konversionsmetriken eines Werbetreibenden verwalten{#conversion-metrics}
       + [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
       + [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)

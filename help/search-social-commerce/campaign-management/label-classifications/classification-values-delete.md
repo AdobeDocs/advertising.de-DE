@@ -16,7 +16,7 @@ Durch das Löschen von Kennzeichnungsklassifizierungswerten sind diese nicht meh
 
 >[!NOTE]
 >
->Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[ von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
+>Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[&#x200B; von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
 
 ## (Neue Benutzeroberfläche) Löschen von Klassifizierungswerten für Bezeichnungen
 
