@@ -49,7 +49,7 @@ Klick-Tracking in Search, Social und Commerce und Konversionstracking in Adobe A
 
 Die Daten müssen den Datenanforderungen für das Werbenetzwerk entsprechen, sodass die Datenfelder für jede Entität je nach Werbenetzwerk variieren können.
 
-1. <!-- For all ad networks (excluding DSP), -->Laden Sie die Anfangsdaten für ein einzelnes Konto auf eine der folgenden Arten hoch:
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Laden Sie die Anfangsdaten für ein einzelnes Konto auf eine der folgenden Arten hoch:
 
 * Laden Sie eine Datei manuell von Ihrem Gerät oder Netzwerk hoch.
 
