@@ -2,7 +2,7 @@
 title: (Neue Benutzeroberfläche) Anzeigen eines Leistungsdiagramms in der [!UICONTROL Portfolios]
 description: Erfahren Sie, wie Sie ein Leistungsdiagramm in der [!UICONTROL Portfolios] öffnen und konfigurieren.
 feature: Search Campaign Management
-source-git-commit: f20f9d5608b830927d9184f9b96f0ad5a724b04d
+source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -27,5 +27,5 @@ Sie können ein Leistungsdiagramm mit bis zu drei Metriken insgesamt für alle P
 
 >[!MORELIKETHIS]
 >
->* [Über die [!UICONTROL Portfolios view]](portfolio-view-about.md)
+>* [Über die [!UICONTROL Portfolios view]](portfolio-about.md)
 >* [Daten aus der [!UICONTROL Portfolios] herunterladen](portfolio-view-report.md)

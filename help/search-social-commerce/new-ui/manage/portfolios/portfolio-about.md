@@ -4,9 +4,9 @@ description: Informationen zu Portfolios.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Ein Portfolio kann die folgenden Status aufweisen:
 
 ## Die [!UICONTROL Portfolios]
 
-In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
+Oberhalb der Datentabelle können Sie ein Leistungsdiagramm mit bis zu drei Metriken öffnen, die sich über alle Portfolios in der Ansicht für den angegebenen Datumsbereich summieren.
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
@@ -77,6 +79,8 @@ In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit an
 * [Portfolioeinstellungen bearbeiten](portfolio-edit.md)
 
 * [Massenbearbeitung von Portfolioeinstellungen mithilfe von Bulksheet-Dateien](portfolio-bulksheets.md)
+
+* [Anzeigen eines Leistungsdiagramms für alle Portfolios in der Ansicht](portfolio-view-performance-graph.md)
 
 * [Anzeigen von Portfolioleistungsdetails](portfolio-details.md)
 

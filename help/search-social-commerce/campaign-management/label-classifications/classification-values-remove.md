@@ -3,9 +3,9 @@ title: Entfernen von Kennzeichnungswerten aus Kontokomponenten
 description: Erfahren Sie, wie Sie Zuordnungen zwischen Kennzeichnungswerten und Kontokomponenten entfernen können.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 >[!NOTE]
 >
 >Informationen zum Löschen eines Werts aus einer Kennzeichnungsklassifizierung finden Sie unter [Löschen von Kennzeichnungsklassifizierungswerten](classification-values-delete.md).
+
+## (Neue Benutzeroberfläche) Entfernen von Kennzeichnungswerten aus den Kontokomponenten
+
+Sie können Klassifizierungswerte aus allen anwendbaren Kontokomponenten entfernen, die in der neuen Benutzeroberfläche verfügbar sind.
+
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
+
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben jedem Classification-Wert, der aus den ausgewählten Entitäten entfernt werden soll.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Um alle zugewiesenen Werte auszuwählen, klicken Sie auf **[!UICONTROL Select All]**. Um die Auswahl aller zugewiesenen Werte aufzuheben, klicken Sie auf **[!UICONTROL Deselect All]**.
+
+1. Klicken Sie auf **[!UICONTROL Unassign Selected]**.
+
+## (Alte Benutzeroberfläche) Entfernen von Kennzeichnungswerten aus den Kontokomponenten
 
 1. Wählen Sie in **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** die Entitätsansicht aus.
 

@@ -3,9 +3,9 @@ title: Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten
 description: Erfahren Sie, wie Sie den Kontokomponenten Klassifizierungswerte zuweisen.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 >[!NOTE]
 >
 >Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
+
+## (Neue Benutzeroberfläche) Zuweisen von Klassifizierungswerten zu Kontokomponenten
+
+Sie können allen entsprechenden Kontokomponenten, die in der neuen Benutzeroberfläche verfügbar sind, Klassifizierungswerte zuweisen.
+
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
+
+   Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**.
+
+1. Gehen Sie für jeden zutreffenden Classification-Wert wie folgt vor:
+
+   1. Geben Sie in der Spalte **[!UICONTROL Classifications]** die Klassifizierung an:
+
+      * Um eine vorhandene Klassifizierung zu verwenden, klicken Sie auf den Klassifizierungsnamen, um sie zu erweitern.
+
+      * Um eine Klassifizierung zu erstellen, klicken Sie in der Spaltenüberschrift auf [!UICONTROL +] . Geben Sie im Eingabefeld den Klassifizierungsnamen ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/save-checkmark.png "Speichern"), um die Klassifizierung sofort zu speichern. Um die neue Klassifizierung zu verwenden, klicken Sie auf den Klassifizierungsnamen, um sie zu erweitern.
+
+        Der Name muss aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen und die maximale Länge beträgt 27 Einzelbyte-Zeichen.
+
+   1. Geben Sie in der Spalte **[!UICONTROL Value Name]** den Wert für die ausgewählte Klassifizierung an:
+
+      * Um einen vorhandenen Wert zu verwenden, wählen Sie den Wert aus.
+
+      * Um einen Wert zu erstellen, klicken Sie in der Spaltenüberschrift auf [!UICONTROL +] . Geben Sie im Eingabefeld den Wert ein und klicken Sie dann auf ![Speichern](/help/search-social-commerce/assets/save-checkmark.png "Speichern"), um den Wert sofort zu speichern und standardmäßig auszuwählen.
+
+        Die maximale Länge beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
+
+1. Klicken Sie auf **+[!UICONTROL Assign Now]**.
+
+## (Alte Benutzeroberfläche) Zuweisen von Klassifizierungswerten zu Kontokomponenten
 
 1. Klicken Sie auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, und wählen Sie dann die Ansicht der Kontokomponente aus.
 
