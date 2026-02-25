@@ -3,16 +3,14 @@ title: Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Anzeigennetzwerkkonten
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Details zu Werbenetzwerkkonten, zum Aktualisieren des [!DNL oAuth]-Tokens für ein Konto und zum Deaktivieren von Konten.
 
@@ -21,6 +19,8 @@ Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Details zu 
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
+
+Anweisungen zum Verwalten von Anzeigennetzwerkkonten in der neuen Benutzeroberfläche finden Sie unter &quot;[(Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über API-Verbindung](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
 
 ## Erstellen und Netzwerkkonto-Details {#create-account}
 
@@ -43,7 +43,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
    1. Geben Sie im Abschnitt **[!UICONTROL Account Details]** die Kontodetails ein.
 
-      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto &#x200B;](https://oauth.net/2/):
+      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto ](https://oauth.net/2/):
 
       1. Geben Sie den **[!UICONTROL Login]** für das Konto ein, geben Sie optional das Kennwort ein, und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
