@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Klicken Sie auf **[!UICONTROL Save]**.
 
-# Hochladen von Kontodaten in einen [!DNL Amazon] [!DNL S3] Bucket {#data-upload-s3}
+&#x200B;# Hochladen von Kontodaten in einen [!DNL Amazon] [!DNL S3] Bucket {#data-upload-s3}
 
 Sie können ein Konto mit Kampagneninhalten und Kosten-, Klick- und Konversionsdaten füllen, indem Sie die Daten in einen Ordner „Suche“, „Social“ und &quot;Commerce&quot; in einem [!DNL Amazon Web Services] ([!DNL Simple Storage Service]) des Typs [!DNL S3] (AWS) hochladen.
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Upload Logs]**.
 
-1. (Optional) Um die Daten für eine hochgeladene Datei herunterzuladen, klicken Sie in der ![ Spalte auf ](/help/search-social-commerce/assets/download.png "Herunterladen")Herunterladen[!UICONTROL Download] und laden Sie die Datei entsprechend dem normalen Verfahren Ihres Browsers herunter.
+1. (Optional) Um die Daten für eine hochgeladene Datei herunterzuladen, klicken Sie in der ![&#x200B; Spalte auf &#x200B;](/help/search-social-commerce/assets/download.png "Herunterladen")Herunterladen[!UICONTROL Download] und laden Sie die Datei entsprechend dem normalen Verfahren Ihres Browsers herunter.
 
 ## Erforderliche Daten
 
