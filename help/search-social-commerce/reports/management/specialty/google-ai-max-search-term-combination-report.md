@@ -2,9 +2,10 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c31ba390e3f1ae5eb404c6e3f97c75d03cebbc20
+exl-id: 6980dd42-ce5c-4fa7-920d-9c23bf98fa8d
+source-git-commit: bf4531494fe248a4a2bd290dcb8abfa6fdb6451d
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,8 @@ ht-degree: 0%
 *Gilt für [!DNL Google Ads] Konten, bei denen Kampagnen nur für KI-Max aktiviert sind*
 
 Die [!UICONTROL Google AI Max Search Term Combination Report] zeigt die Leistung bestimmter Anzeigenkombinationen und Landingpages an, die [!DNL Google Ads AI Max] auf der Grundlage von Suchvorgängen innerhalb des Suchnetzwerks verwendet. Der Bericht enthält Impressions-, Klicks- und Kostendaten für Anzeigen in [!DNL Google Ads] Kampagnen, die [!DNL AI Max] innerhalb bestimmter Konten verwenden. Standardmäßig enthalten die Daten eine Zeile für jede Suchbegriff-, Überschriften- und Landingpage-Kombination, die mindestens eine Impression im angegebenen Datenbereich erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum und dann nach Kampagne sortiert.
+
+Verwenden Sie diesen Bericht, um zu sehen, wie bestimmte Suchabfragen KI-generierten Überschriften und dynamischen Landingpages zugeordnet werden. Sie können die Daten verwenden, um die Absicht und die Leistung der resultierenden Werbeelemente pro Abfrage zu analysieren, sodass Sie robuste negative Keyword-Listen erstellen können.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
