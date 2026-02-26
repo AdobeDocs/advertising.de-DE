@@ -3,7 +3,7 @@ role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Handbuch zu Creative
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 6%
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Über Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
    + [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
+   + [Unterstützung für den Datenschutz von Privatkunden](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative-Bibliotheken {#creative-libraries}
    + [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
@@ -58,8 +58,8 @@ ht-degree: 6%
             + [Löschen eines Zielknotens oder eines kreativen Blattknotens](/help/creative/experiences/experience-target-node-delete.md)
          + Creative-Bundles und Kreative {#bundles}
             + [Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgültigen Knoten](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [Anpassen der Tracking-URLs für Kreative](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Kreative Optimierung und Planung anpassen](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [Anpassen der Tracking-URLs für Kreative](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + Erlebnisse ohne Zielgruppenbestimmung {#experience-nontargeted}
       + [Erstellen eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-create-no-targeting.md)
       + [Bearbeiten eines Erlebnisses ohne Targeting](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -67,8 +67,8 @@ ht-degree: 6%
       + Tags und Kreative hinzufügen{#non-targeted-creatives}
          + [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](/help/creative/experiences/experience-tag-create-manually.md)
          + [Zuweisen von Kreativen zu einem Anzeigen-Tag für Erlebnisse ohne Targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
          + [Anpassen der kreativen Optimierung und Planung für ein Erlebnis ohne Targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
    + [Erlebnis klonen](/help/creative/experiences/experience-clone.md)
    + [Erlebnisvorschau](/help/creative/experiences/experience-preview.md)
    + [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](/help/creative/experiences/experience-tag-video-transcoding.md)
@@ -93,4 +93,4 @@ ht-degree: 6%
 + [Retargeting von Pixeln](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 + [Hilfe erhalten](/help/creative/get-help.md)
-+ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de){target="_blank"}
++ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
