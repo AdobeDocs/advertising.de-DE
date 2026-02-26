@@ -3,9 +3,9 @@ title: Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgü
 description: Erfahren Sie, wie Sie jedem einzelnen Ziel in Ihren Anzeigenerlebnissen Kreative zuweisen.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ Für Standard-Anzeigenerlebnisse können Sie nur standardmäßige kreative Bundl
 
 >[!NOTE]
 >
->Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten &#x200B;](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+>Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten ](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
 <!-- 1. [ways to get to the decision tree] -->
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Abschließende Knoten ohne Kreative) Klicken Sie unter dem Knoten auf ![Hinzufügen](/help/creative/assets/add.png "Hinzufügen") und wählen Sie dann **[!UICONTROL Assign Bundles]** aus.
+   * (Abschließende Knoten ohne Kreative) Klicken Sie unter dem Knoten auf **[!UICONTROL Assign Bundles]**.
 
-   * (Knoten mit vorhandenen Kreativen) Halten Sie den Cursor über das Feld für das kreative Bundle unter dem Zielknoten <!-- wording???? --> und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Knoten mit vorhandenen Kreativen) Halten Sie den Cursor über das Feld für das kreative Bundle unter dem Zielknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Bundle, das Sie dem Zielknoten zuweisen möchten, und deaktivieren Sie das Kontrollkästchen neben jedem Bundle, dessen Zuweisung Sie aufheben möchten.
 
    Es werden nur Bundles des relevanten Bundle-Typs für das Erlebnis (Standard oder dynamisch) aufgelistet.
 
-1. Klicken Sie auf **[!UICONTROL Attach to Bundles]**.
-
-1. (Optional) [Anpassen der Tracking-URLs für Kreative in den zugewiesenen Bundles](experience-tracking-urls-targeting.md).
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 1. (Optional) [Anpassung der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles.
+
+1. (Optional) [Anpassen der Tracking-URLs für Kreative in den zugewiesenen Bundles](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
