@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | Die Summe aus [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] und [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Die durchschnittlichen Nettokosten pro 1000 Impressionen für andere Gebühren, berechnet nach <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | Die gesamten Nettokosten anderer Service-Gebühren (Verifizierungspartner von Drittanbietern, Anzeigenschaltung usw.). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | Die Gesamtzahl der Klicks. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | Der Prozentsatz der Klicks dividiert durch die Impressionen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | Die Anzahl der Interaktionen auf einer geschalteten Anzeige. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | Der Prozentsatz der Interaktionen auf einer Server-Anzeige dividiert durch die Impressionen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | Die Gesamtzahl der Impressionen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | Der Anteil der Impressionen (oder Ereignisse), für die das Kreativ-Asset erfolgreich dem vorgesehenen Medien-/Inventar oder der vorgesehenen Zielgruppe zugeordnet wurde. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | Die Gesamtzahl der Klicks, die einem bestimmten Produkt zugeordnet wurden. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | Die Gesamtzahl der Konversionen, die einem bestimmten Produkt zugeordnet wurden. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions] geteilt durch [!UICONTROL Product Impressions], die einem bestimmten Produkt zugeordnet wurden. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks] geteilt durch [!UICONTROL Product Impressions], die einem bestimmten Produkt zugeordnet wurden. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | Die Gesamtzahl der Impressions, die einem bestimmten Produkt zugeordnet wurden. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | Der Gesamtumsatz, der einem bestimmten Produkt zugeordnet wurde. Wird verwendet, wenn Ihre Kreativen mehrere Produkte anzeigen (z. B. in einer Karussellanzeige) und Sie Berichte nach Produkt erstellen. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | Die Gesamteinnahmen. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Der Prozentsatz der Ansichten, die die Anzeige insgesamt angesehen haben. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Die Anzahl der Ansichten, die die gesamte Anzeige angesehen haben. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Der Prozentsatz der anzeigbaren Impressionen, die die Anzeige insgesamt angesehen haben. |
@@ -250,7 +263,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
