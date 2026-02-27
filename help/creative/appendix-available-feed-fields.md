@@ -2,9 +2,10 @@
 title: Verfügbare Felder für dynamische Anzeigen-Feed-Dateien
 description: Erfahren Sie mehr über die Felder, die Sie in die Feed-Dateien aufnehmen können, die Sie zum Erstellen dynamischer Anzeigen verwenden.
 feature: Creative Dynamic Creatives
-source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
+exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
+source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,37 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 | Feldname | Datentyp | Erforderlich? |
 |------------|-----------|-----------|
-| PART_NUM | varchar(64) | JA |
-| PRODUCT_NAME | Text | NEIN |
-| PRODUCT_URL | Text | NEIN |
-| PREIS | DECIMAL(10,2) | NEIN |
+| AD_SIZE | varchar(32) | NEIN |
+| ADDITIONAL_PRICE_1 | DECIMAL(10,2) | NEIN |
+| ADDITIONAL_PRICE_2 | DECIMAL(10,2) | NEIN |
+| ADDITIONAL_PRICE_3 | DECIMAL(10,2) | NEIN |
+| AREA_CODE | Text | NEIN |
+| AUDIENCE_SEGMENT | Text | NEIN |
+| AUDIO_1 | varchar(1024) | NEIN |
+| AUDIO_2 | varchar(1024) | NEIN |
+| AUDIO_3 | varchar(1024) | NEIN |
+| AUDIO_4 | varchar(1024) | NEIN |
+| AUDIO_5 | varchar(1024) | NEIN |
+| STADT | Text | NEIN |
+| LAND | Text | NEIN |
+| CREATIVE_ATTRIBUTE_1 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_2 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_3 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_4 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_5 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_6 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_7 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_8 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_9 | varchar(256) | NEIN |
+| CREATIVE_ATTRIBUTE_10 | varchar(256) | NEIN |
+| DATAPASS_FILTER_1 | Text | NEIN |
+| DATAPASS_FILTER_2 | Text | NEIN |
+| DATAPASS_FILTER_3 | Text | NEIN |
+| DATAPASS_FILTER_4 | Text | NEIN |
+| DATAPASS_FILTER_5 | Text | NEIN |
 | DISCOUNT_PRICE | DECIMAL(10,2) | NEIN |
+| DMA | Text | NEIN |
 | IMAGE | varchar(1024) | NEIN |
-| IMAGE_HEIGHT | int | NEIN |
-| IMAGE_WIDTH | int | NEIN |
 | IMAGE_1 | varchar(1024) | NEIN |
 | IMAGE_2 | varchar(1024) | NEIN |
 | IMAGE_3 | varchar(1024) | NEIN |
@@ -57,6 +81,21 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | IMAGE_8 | varchar(1024) | NEIN |
 | IMAGE_9 | varchar(1024) | NEIN |
 | IMAGE_10 | varchar(1024) | NEIN |
+| IMAGE_HEIGHT | int | NEIN |
+| IMAGE_WIDTH | int | NEIN |
+| IS_DEFAULT | Aufzählung | NEIN |
+| SPRACHE | Text | NEIN |
+| PART_NUM | varchar(64) | JA |
+| PREIS | DECIMAL(10,2) | NEIN |
+| PRODUCT_NAME | Text | NEIN |
+| PRODUCT_URL | Text | NEIN |
+| PROFILE_FILTER_1 | Text | NEIN |
+| PROFILE_FILTER_2 | Text | NEIN |
+| PROFILE_FILTER_3 | Text | NEIN |
+| PROFILE_FILTER_4 | Text | NEIN |
+| PROFILE_FILTER_5 | Text | NEIN |
+| RANG | int | NEIN |
+| STATUS | Text | NEIN |
 | TEXT_1 | Text | NEIN |
 | TEXT_2 | Text | NEIN |
 | TEXT_3 | Text | NEIN |
@@ -72,39 +111,12 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | TEXT_13 | Text | NEIN |
 | TEXT_14 | Text | NEIN |
 | TEXT_15 | Text | NEIN |
-| ADDITIONAL_PRICE_1 | DECIMAL(10,2) | NEIN |
-| ADDITIONAL_PRICE_2 | DECIMAL(10,2) | NEIN |
-| ADDITIONAL_PRICE_3 | DECIMAL(10,2) | NEIN |
-| AD_SIZE | varchar(32) | NEIN |
-| RANG | int | NEIN |
-| LAND | Text | NEIN |
-| STATUS | Text | NEIN |
-| STADT | Text | NEIN |
+| VIDEO_1 | varchar(1024) | NEIN |
+| VIDEO_2 | varchar(1024) | NEIN |
+| VIDEO_3 | varchar(1024) | NEIN |
+| VIDEO_4 | varchar(1024) | NEIN |
+| VIDEO_5 | varchar(1024) | NEIN |
 | PLZ | Text | NEIN |
-| DMA | Text | NEIN |
-| PROFILE_FILTER_1 | Text | NEIN |
-| PROFILE_FILTER_2 | Text | NEIN |
-| PROFILE_FILTER_3 | Text | NEIN |
-| PROFILE_FILTER_4 | Text | NEIN |
-| PROFILE_FILTER_5 | Text | NEIN |
-| DATAPASS_FILTER_1 | Text | NEIN |
-| DATAPASS_FILTER_2 | Text | NEIN |
-| DATAPASS_FILTER_3 | Text | NEIN |
-| DATAPASS_FILTER_4 | Text | NEIN |
-| DATAPASS_FILTER_5 | Text | NEIN |
-| AUDIENCE_SEGMENT | Text | NEIN |
-| SPRACHE | Text | NEIN |
-| CREATIVE_ATTRIBUTE_1 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_2 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_3 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_4 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_5 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_6 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_7 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_8 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_9 | varchar(256) | NEIN |
-| CREATIVE_ATTRIBUTE_10 | varchar(256) | NEIN |
-| IS_DEFAULT | Aufzählung | NEIN |
 
 >[!MORELIKETHIS]
 >
