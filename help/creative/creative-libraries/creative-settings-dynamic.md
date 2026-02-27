@@ -3,9 +3,9 @@ title: Dynamische kreative Einstellungen
 description: Verweisen Sie auf die Einstellungen für dynamische Kreative.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Die Kreativbibliothek, in der die Anzeigen erstellt werden sollen. Wenn Sie die Anzeigen in [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] erstellen, ist der Bibliotheksname bereits ausgewählt und schreibgeschützt.
 
-**[!UICONTROL Ad Template Size]:** (nur dynamische Anzeigen) Die [Anzeigendimensionen](/help/creative/creative-libraries/creative-sizes.md) für die Anzeigenvorlage, aus der die Anzeige erstellt werden soll. Wenn Sie zuerst eine bestimmte [!UICONTROL Ad Template] auswählen, wird dieser Wert automatisch ausgewählt.
-
 ## Anzeigenvorlage
 
 **[!UICONTROL Ad Template]:** Die Anzeigenvorlage, aus der die Anzeigen erstellt werden sollen. Wählen Sie eine vorhandene Anzeigenvorlage aus oder laden Sie eine neue Anzeigenvorlage hoch und wählen Sie den Vorlagentyp aus *statisch* oder *dynamisch*. Die Vorlage muss im ZIP-Format vorliegen und Folgendes enthalten:<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Um fortzufahren, klicken Sie auf **[!UICONTROL Select Ad Template]**.
 
+**[!UICONTROL Size]:** (Nur dynamische Anzeigen; schreibgeschützt) Die [Anzeigendimensionen](/help/creative/creative-libraries/creative-sizes.md) für die ausgewählte Anzeigenvorlage, die zum Erstellen der Anzeigen verwendet wird.
+
 **[!UICONTROL Card Count (Max 50)]:** (Nur Anzeigen) Die Anzahl der Produkte, die in einem Karussell angezeigt werden sollen.
 
 **[!UICONTROL Duration]:** (Nur Videoanzeigen; schreibgeschützt) Die Videodauer, die von der ausgewählten Anzeigenvorlage abgeleitet wird. Die Dauer jedes Videos muss zwischen 1 und 90 Sekunden liegen.
 
 ## Kataloge
-
-**[!UICONTROL Template]:** Die Feed-Vorlage, die zum Erstellen der Anzeigen verwendet werden soll.
 
 **\[Catalogs\]**: Ein oder mehrere Kataloge, aus denen Anzeigen generiert werden sollen. Wählen Sie einen vorhandenen Katalog aus oder erstellen Sie einen neuen Katalog, indem Sie eine vorhandene Feed-Vorlage herunterladen und den neuen Katalog erstellen und hochladen. Klicken Sie auf **[!UICONTROL Select Catalog]**.
 
