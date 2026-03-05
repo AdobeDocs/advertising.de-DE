@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
 * **[!UICONTROL Target]** Untermenü:
 
-   * **[!UICONTROL Audience]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Audiences].
+   * **[!UICONTROL Audience]**: Öffnet eine neue [!UICONTROL Audiences], die alle bestehenden Zielgruppen für den Advertiser anzeigt. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Keywords]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Keywords]** Öffnet eine neue [!UICONTROL Keywords], die für den Werbetreibenden vorhandene Keywords und negative Keywords anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Schlüsselwörter verwalten.
+
+     Um Keywords und negative Keywords zu erstellen, zu bearbeiten und zu löschen, verwenden Sie die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Placements]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
