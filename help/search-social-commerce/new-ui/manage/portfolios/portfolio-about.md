@@ -4,9 +4,9 @@ description: Informationen zu Portfolios.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Ein Portfolio kann die folgenden Status aufweisen:
 
 ## Die [!UICONTROL Portfolios]
 
-In der [!UICONTROL Portfolios] Ansicht werden Ihre vorhandenen Portfolios mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+In der [!UICONTROL Portfolios] werden alle vorhandenen Portfolios in der gefilterten Ansicht mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Oberhalb der Datentabelle können Sie ein Leistungsdiagramm mit bis zu drei Metriken öffnen, die sich über alle Portfolios in der Ansicht für den angegebenen Datumsbereich summieren.
 

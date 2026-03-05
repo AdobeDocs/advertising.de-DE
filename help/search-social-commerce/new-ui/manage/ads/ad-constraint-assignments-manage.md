@@ -1,17 +1,16 @@
 ---
-title: Einschränkungszuweisungen für Anzeigengruppen verwalten
-description: Erfahren Sie, wie Sie Anzeigengruppen Einschränkungen zuweisen.
+title: Einschränkungszuweisungen für Anzeigen verwalten
+description: Erfahren Sie, wie Sie Anzeigen Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Einschränkungszuweisungen für Anzeigengruppen verwalten
+# (Neue Benutzeroberfläche) Einschränkungszuweisungen für Anzeigen verwalten
 
 *Beta-Funktion*
 
@@ -21,11 +20,18 @@ Beschränkungen werden von untergeordneten Entitäten übernommen, sodass Sie un
 
 Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit den Kontokomponenten und allen untergeordneten Komponenten entfernt, und es sind keine Berichtsdaten für die Einschränkung mehr für diese Komponenten verfügbar. Durch Aufheben der Zuweisung einer Beschränkung werden weder die Beschränkung noch die Kontokomponenten selbst gelöscht.
 
-## Weisen Sie ausgewählten Anzeigengruppen in der neuen [!UICONTROL Ad Groups] eine Einschränkung zu
+>[!NOTE]
+>
+>* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in aktiven Portfolios befinden, sich in hybriden Portfolios befinden oder nicht in Portfolios sind.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Weisen Sie ausgewählten Anzeigen in der neuen [!UICONTROL Ads] eine Einschränkung zu
 
-1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, der Sie eine einzelne Einschränkung zuweisen.
+Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werden.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeige, der Sie eine einzelne Einschränkung zuweisen.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -53,11 +59,11 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Anzeigengruppen in der neuen [!UICONTROL Ad Groups] auf
+## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Kampagnen in der neuen [!UICONTROL Ads] auf
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, deren Zuweisung von Einschränkungen Sie aufheben möchten.
+1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeige, deren Zuweisung von Einschränkungen aufgehoben werden soll.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -82,4 +88,4 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 >[!MORELIKETHIS]
 >
 >* [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Einschränkungszuweisungen für Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
