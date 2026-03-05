@@ -1,6 +1,6 @@
 ---
-title: Einschränkungszuweisungen für Schlüsselwörter verwalten
-description: Erfahren Sie, wie Sie Keywords Einschränkungen zuweisen.
+title: Einschränkungszuweisungen für Platzierungen verwalten
+description: Erfahren Sie, wie Sie Platzierungen Begrenzungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
 source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Schlüsselwörter
+# (Neue Benutzeroberfläche) Einschränkungszuweisungen für Platzierungen verwalten
 
 *Beta-Funktion*
 
@@ -25,13 +25,13 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 >* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
 >* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in aktiven Portfolios befinden, sich in hybriden Portfolios befinden oder nicht in Portfolios sind.
 
-## Weisen Sie ausgewählten Anzeigen in der neuen [!UICONTROL Keywords] eine Einschränkung zu
+## Ausgewählten Platzierungen aus der neuen [!UICONTROL Placements] eine Begrenzung zuweisen
 
-Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werden.
+Sie können einer oder mehreren Platzierungen eine einzelne Begrenzung zuweisen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Keywords]** das Kontrollkästchen neben jedem Keyword, dem Sie eine einzelne Einschränkung zuweisen möchten.
+1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Placements]** das Kontrollkästchen neben jeder Platzierung, der Sie eine einzelne Begrenzung zuweisen.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -59,11 +59,11 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Kampagnen in der neuen [!UICONTROL Keywords] auf
+## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Platzierungen in der neuen [!UICONTROL Placements] auf
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Keywords]** das Kontrollkästchen neben jedem Keyword, dessen Zuweisung Sie aufheben möchten.
+1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Placements]** das Kontrollkästchen neben jeder Platzierung, deren Zuweisung von Einschränkungen Sie aufheben möchten.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 

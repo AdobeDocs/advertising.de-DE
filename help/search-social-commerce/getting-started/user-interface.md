@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
      Um Keywords und negative Keywords zu erstellen, zu bearbeiten und zu löschen, verwenden Sie die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Placements]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Placements]** Öffnet eine neue [!UICONTROL Placements], die vorhandene Platzierungen und negative Platzierungen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Platzierungen verwalten.
+
+     Um Platzierungen und negative Platzierungen zu erstellen, zu bearbeiten und zu löschen, verwenden Sie die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Assets]** Untermenü:
 
