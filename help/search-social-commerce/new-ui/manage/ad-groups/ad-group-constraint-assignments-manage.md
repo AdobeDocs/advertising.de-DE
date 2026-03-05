@@ -83,4 +83,4 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 >
 >* [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

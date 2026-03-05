@@ -90,4 +90,4 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 >
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
