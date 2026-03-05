@@ -3,9 +3,9 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] .
+   * **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Constraints]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Constraints].
 
@@ -62,13 +62,15 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** Öffnet eine neue [!UICONTROL Campaigns], die alle Kampagnen für den Werbetreibenden anzeigt. Sie können Kampagnen Portfolios zuweisen und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Öffnet eine neue [!UICONTROL Ad Groups], die alle Anzeigengruppen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen.
 
-     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie im Hauptmenü auf **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** oder auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+     Um Kampagnen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Ads]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Ads]** Öffnet eine neue [!UICONTROL Ads], in der alle Anzeigen für den Advertiser angezeigt werden. Sie können Einschränkungszuweisungen für ausgewählte Anzeigen verwalten.
+
+     Um Anzeigen zu erstellen, zu bearbeiten und zu löschen, kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Reports]** Untermenü:
 
@@ -94,7 +96,7 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Creatives]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Extensions]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Extensions]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Anzeigenerweiterungen. Um Ihre Erweiterungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Shopping]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
 
