@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Kampagnen Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -90,4 +90,5 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 >
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
->[Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
