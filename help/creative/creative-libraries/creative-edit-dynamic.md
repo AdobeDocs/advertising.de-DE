@@ -3,9 +3,9 @@ title: Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie ein dynamisches Kreativ in einer Kreativbibliothek bearbeiten.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,5 @@ ht-degree: 0%
 >
 >* [Dynamische kreative Einstellungen](creative-settings-dynamic.md)
 >* [Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](creative-add-dynamic.md)
+>* [Anzeigen des Änderungsprotokolls für einen Kreativen](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)

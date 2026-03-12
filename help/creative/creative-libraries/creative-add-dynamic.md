@@ -3,9 +3,9 @@ title: Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek dynamische Kreative hinzufügen.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
 >[!PREREQUISITES]
 >
->Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[&#x200B; für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
+>Bevor Sie einer Kreativbibliothek dynamische Kreative hinzufügen können, müssen Sie andere Schritte ausführen, z. B. die Anzeigenvorlage erstellen, Assets hochladen und (dynamische HTML5-Anzeigen) eine Feed-Vorlage und einen Katalog erstellen. Siehe &quot;[ für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md).“
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -110,4 +110,5 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 >
 >* [Dynamische kreative Einstellungen](creative-settings-dynamic.md)
 >* [Bearbeiten eines dynamischen Kreativen in einer Kreativbibliothek](creative-edit-dynamic.md)
+>* [Anzeigen des Änderungsprotokolls für einen Kreativen](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)

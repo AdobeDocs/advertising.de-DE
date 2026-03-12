@@ -3,9 +3,9 @@ title: Bearbeiten von Standard-Kreativen in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie die Einstellungen von standardmäßigen (nicht dynamischen) Kreativen in einer Kreativbibliothek ändern.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Wenn Sie ein Kreativ-<!-- or creative variation --> bearbeiten, das in einem Bun
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) Drittanbieters<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Bearbeiten Sie die [Image Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [Flexible HTML5 Creative Settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) oder [Creative Settings ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party) Drittanbieters<!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
@@ -63,3 +63,4 @@ Wenn Sie ein Kreativ-<!-- or creative variation --> bearbeiten, das in einem Bun
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](creative-add-standard.md)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Vorschau eines Kreativen anzeigen](/help/creative/creative-libraries/creative-preview.md)
+>* [Anzeigen des Änderungsprotokolls für einen Kreativen](/help/creative/creative-libraries/creative-view-change-log.md)
