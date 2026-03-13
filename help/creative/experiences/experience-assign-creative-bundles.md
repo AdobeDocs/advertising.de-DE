@@ -20,7 +20,7 @@ Für Standard-Anzeigenerlebnisse können Sie nur standardmäßige kreative Bundl
 
 >[!NOTE]
 >
->Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten ](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+>Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten &#x200B;](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
 <!-- 1. [ways to get to the decision tree] -->
 
