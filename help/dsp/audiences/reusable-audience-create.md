@@ -1,11 +1,11 @@
 ---
 title: Erstellen einer wiederverwendbaren Zielgruppe
-description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen.
+description: Learn how to create a reusable audiences that consist of audience segments and other saved audiences.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -14,80 +14,84 @@ ht-degree: 0%
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmenten und sogar andere gespeicherte Zielgruppen, speichern und verwalten. Diese können Sie als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
+You can save and manage reusable audiences, which are groups of audience segments and even other saved audiences, which you can use as targets or exclusions for multiple placements.
 
 >[!NOTE]
 >
->(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
+>(Advertisers for whom DSP converts hashed email IDs to LiveRamp RampID segments) First-party RampID segments that aren&#39;t attached to an active, scheduled, or paused placement are paused. The segment is noted in the segment list as &quot;Auto paused.&quot;
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
-1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**.
+1. Above the data table, click **[!UICONTROL Create]**.
 
-1. Eindeutige **[!UICONTROL Audience Name]** eingeben.
+1. Enter a unique **[!UICONTROL Audience Name]**.
 
-1. (Optional) Deaktivieren Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option.
+1. (Optional) Deselect the option to **[!UICONTROL Share with all advertisers in my account]**.
 
-   Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] zugeordnet ist, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die Segmente, die diesem Advertiser zur Verfügung stehen, werden in der Zielgruppe in der Vorschau angezeigt.
+   Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. For example, if you share an audience containing Adobe Analytics segments with an advertiser who isn&#39;t mapped to the same [!DNL Analytics] account, then the segment isn&#39;t previewed in that audience for that advertiser. Only the segments available to that advertiser are previewed in the audience.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-1. Erstellen Sie die Zielgruppe:
+1. Build the audience:
 
    >[!NOTE]
    >
-   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
+   >As you build the audience, detailed [audience size data](audience-about.md) is updated in the right panel
 
-   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell &#x200B;](audience-settings.md) erstellen.
+   * To manually create the segment logic, using segments available on the [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments], and [!UICONTROL Saved Audiences] tabs](audience-settings.md), do the following.
 
-      * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+      * (Optional) Search for a segment name, description, or path.
 
-      * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
+        Search results include segments based on the exact terms you use. When you enter multiple terms, all of the terms must be found for a segment.
 
-         1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
+      * To add the first segment, locate the segment in the left panel, and select the check box next to the segment name.
 
-         1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+      * To add a segment to an existing segment group:
 
-            *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Für eine Zielgruppe, die nur Ausschlüsse enthält, erstellen Sie diese Zielgruppe als *[!UICONTROL Include Any]* und wählen Sie dann innerhalb einer Platzierung diese Zielgruppe aus dem Menü Ausgeschlossene Zielgruppen aus.
+         1. Click the segment group in the right panel.
 
-         1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+         1. (Optional) Change the group logic to *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, or *[!UICONTROL Exclude All]*, as needed.
 
-            Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
+            *[!UICONTROL Exclude All]* isn&#39;t available to the first segment group. For an audience that includes only exclusions, build this audience as *[!UICONTROL Include Any]* and then, within a placement, select that audience from the Excluded Audiences menu.
 
-      * Hinzufügen einer neuen Segmentgruppe:
+         1. Locate the new segment in the left panel, and select the check box next to the segment name.
 
-         1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
+            The segment group is automatically updated with the new segment.
 
-         1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
+      * To add a new segment group:
 
-         1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+         1. Click **[!UICONTROL + New Group]** in the right panel.
 
-         1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+         1. (Optional) Change the logic between the previous group and the new group to *[!UICONTROL And]* or *[!UICONTROL Or]*, as needed.
 
-   * So verwenden Sie die Segmentlogik einer bestehenden Audience:
+         1. Locate the segments for the new group in the left panel, and select the check boxes next to the segment names.
 
-      1. Kopieren Sie die Segmentlogik aus der bestehenden Audience auf eine der folgenden Arten:
+         1. (Optional) Change the group logic to *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, or *[!UICONTROL Exclude All]*, as needed.
 
-         * Halten Sie in der Ansicht Alle Zielgruppen den Cursor über die Zeile Zielgruppe und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+   * To use segment logic from an existing audience:
 
-         * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+      1. Copy the segment logic from the existing audience in any of the following ways:
 
-         * Erstellen Sie in einem Texteditor manuell die Segmentlogik mit alphanumerischen Segment-IDs und [boolesche Syntax](audience-segment-logic-syntax.md) und kopieren Sie sie in die Zwischenablage.
+         * In the All Audiences view, hold the cursor over the audience row, and then click **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-      1. Klicken Sie auf **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.
+         * In the settings for the existing audience, at the top of the segment logic panel, click **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+
+         * In a text editor, manually create the segment logic using alphanumeric segment IDs and [Boolean syntax](audience-segment-logic-syntax.md), and copy it to your clipboard.
+
+      1. Click **[!UICONTROL paste in an audience rule to begin building]**, paste the existing segment logic into the input field, and then click **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
-         >Wenn die Zielgruppe bereits eine Segmentlogik enthält, überschreibt das Einfügen einer neuen Segmentlogik die vorhandene Logik.
+         >If the audience already includes any segment logic, pasting in new segment logic overwrites the existing logic.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
->* [Über die Zielgruppenverwaltung](audience-about.md)
->* [Zielgruppeneinstellungen](audience-settings.md)
->* [Syntax für die Logik von Zielgruppensegmenten](audience-segment-logic-syntax.md)
->* [Verfügbare Datenanbieter von Drittanbietern](third-party-data-providers.md)
->* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
->* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
->* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [About Audience Management](audience-about.md)
+>* [Audience Settings](audience-settings.md)
+>* [Syntax for Audience Segment Logic](audience-segment-logic-syntax.md)
+>* [Available Third-party Data Providers](third-party-data-providers.md)
+>* [Create and Implement a Custom Segment](custom-segment-create.md)
+>* [Create and Implement a [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
+>* [Placement Settings](/help/dsp/campaign-management/placements/placement-settings.md)
