@@ -3,9 +3,9 @@ title: Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis ohne Targeting erstellen.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Erstellen eines Anzeigen-Erlebnisses ohne Targeting. Jedes Erlebnis kann Anzeige
 
 1. Klicken Sie auf **[!UICONTROL Create New Experience]**.
 
-1. Geben Sie die [Erlebniseinstellungen“ &#x200B;](experience-settings-no-targeting.md).
+1. Geben Sie die [Erlebniseinstellungen“ ](experience-settings-no-targeting.md).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -51,3 +51,4 @@ Erstellen eines Anzeigen-Erlebnisses ohne Targeting. Jedes Erlebnis kann Anzeige
 >* [Anpassen der Tracking-URLs für ein Erlebnis ohne Targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
 >* [Passen Sie die kreative Optimierung und Planung für ein Erlebnis ohne Targeting an](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](/help/creative/experiences/experience-tag-export.md)
+>* [Anzeigen des Änderungsprotokolls für ein Erlebnis](/help/creative/experiences/experience-view-change-log.md)

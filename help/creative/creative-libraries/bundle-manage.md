@@ -3,9 +3,9 @@ title: Verwalten von kreativen Bundles
 description: Erfahren Sie, wie Sie Kreativgruppen verwalten und verwenden.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 
-   1. Klicken ![&#x200B; oben rechts in &#x200B;](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
@@ -270,9 +270,31 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
  -->
 
+## Änderungsprotokoll für ein Bundle anzeigen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Klicken Sie auf den Bibliotheksnamen.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Bundle auswählen:
+
+   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Change Log]**.
+
+   * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
+
+1. (Optional) Ändern des gemeldeten Zeitbereichs.
+
+1. (Optional) Um einen Hinweis hinzuzufügen, halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Add Notes]**. Geben Sie die Anmerkung ein und klicken Sie auf **[!UICONTROL Save]**.
+
+1. (Optional) Um den Eintrag des Änderungsprotokolls einschließlich der hinzugefügten Notizen anzuzeigen, halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL View Details]**.
+
 ## Bundles löschen
 
-Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [&#x200B; Sie das Bundle aus der Entscheidungsstruktur &#x200B;](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

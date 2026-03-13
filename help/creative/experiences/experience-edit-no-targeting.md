@@ -1,16 +1,16 @@
 ---
-title: Bearbeiten eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
-description: Erfahren Sie, wie Sie die Einstellungen für ein Anzeigen-Erlebnis ohne Targeting bearbeiten.
+title: Edit an experience without decision tree targeting
+description: Learn how to edit the settings for an ad experience without targeting.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Bearbeiten eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum
+# Edit an experience without decision tree targeting
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Erlebniseinstellungen](experience-settings-no-targeting.md).
+1. Edit the [experience settings](experience-settings-no-targeting.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Passen Sie die kreative Optimierung und Planung für ein Erlebnis ohne Targeting an](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](/help/creative/experiences/experience-tag-export.md)
 >* [Erstellen eines Erlebnisses ohne Targeting mit einem Entscheidungsbaum](experience-create-no-targeting.md)
+>* [View the change log for an experience](/help/creative/experiences/experience-view-change-log.md)

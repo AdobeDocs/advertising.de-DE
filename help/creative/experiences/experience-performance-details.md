@@ -3,9 +3,9 @@ title: Leistungsberichte auf Erlebnisebene
 description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 39e0b8b57fd54e99b09e56ecf9cef753b0c6ea44
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
 
-     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[&#x200B; der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
+     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[ der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus. Derzeit ist nur die Metrik „Alle auswählen“ verfügbar, um alle Konversionsmetriken einzuschließen.
 
@@ -131,5 +131,6 @@ Die Berichtsansicht enthält die folgenden Daten:
 >* [Über benutzerdefinierte Berichte](/help/creative/reports/reports-about.md)
 >* [Verwalten benutzerdefinierter Berichte](/help/creative/reports/report-manage.md)
 >* [Alle Erlebnisse in der Ansicht herunterladen](/help/creative/experiences/experience-download-view.md)
+>* [Anzeigen des Änderungsprotokolls für ein Erlebnis](/help/creative/experiences/experience-view-change-log.md)
 >* [Über Erlebnisse in Advertising Creative](/help/creative/experiences/experience-about.md)
 >* [Warnhinweise anzeigen](/help/creative/reports/alerts-view.md)

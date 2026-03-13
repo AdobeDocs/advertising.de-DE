@@ -3,9 +3,9 @@ title: Zuweisen und Aufheben der Zuweisung von kreativen Bundles zu einem endgü
 description: Erfahren Sie, wie Sie jedem einzelnen Ziel in Ihren Anzeigenerlebnissen Kreative zuweisen.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Für Standard-Anzeigenerlebnisse können Sie nur standardmäßige kreative Bundl
 
 >[!NOTE]
 >
->Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten &#x200B;](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+>Wenn Sie nicht jedem endgültigen Knoten mindestens ein Kreativ-Bundle zuweisen, können Sie beim Speichern des Erlebnisses ([) die Standard-Kreativen für jeden nicht zugewiesenen Knoten ](experience-create-targeting.md). Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
 <!-- 1. [ways to get to the decision tree] -->
 
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting](experience-edit-targeting.md)
 >* [Einstellungen für zielgerichtete Erlebnisse](experience-settings-targeting.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](experience-tag-export.md)
+>* [Anzeigen des Änderungsprotokolls für ein Erlebnis](/help/creative/experiences/experience-view-change-log.md)
