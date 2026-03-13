@@ -3,9 +3,9 @@ title: Anzeigen von Details zu wiederverwendbaren Audiences
 description: Erfahren Sie, wie Sie die Konfiguration und Zielgruppengröße für eine wiederverwendbare Zielgruppe anzeigen.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
+source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Halten Sie den Cursor über die Zeile Audience und klicken Sie auf **[!UICONTROL View Details]**.
 
-1. (Optional) Um die Anzahl der aktiven oder gesamten Zielgruppenmitglieder nach Gerätetyp (für Cookie-basierte IDs) und nach universeller ID-Typ anzuzeigen, klicken Sie auf ![Geräteaufschlüsselung](/help/dsp/assets/device-breakdown.png) neben der **[!UICONTROL Active]** oder **[!UICONTROL Total]** Zielgruppengröße.
+1. (Optional) Um die Anzahl der aktiven Zielgruppenmitglieder nach Gerätetyp (für Cookie-basierte IDs) und nach universeller ID-Typ anzuzeigen, klicken Sie ![Geräteaufschlüsselung](/help/dsp/assets/device-breakdown.png) neben der Zielgruppengröße.
 
 1. (Optional) Um die Zielgruppeneinstellungen zu bearbeiten, klicken Sie auf **[!UICONTROL Edit Audience]** und [Bearbeiten Sie den Zielgruppennamen und die Konfiguration](reusable-audience-edit.md).
 
