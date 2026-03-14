@@ -3,16 +3,16 @@ title: Exportieren von Details zu wiederverwendbaren Audiences
 description: Erfahren Sie, wie Sie die Konfiguration, die Zielgruppengröße und die zielgerichteten Platzierungen für eine wiederverwendbare Zielgruppe anzeigen.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1e573c443cff2db2cd59ad8a77ab47a3cdd93e07
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # Exportieren von Details zu wiederverwendbaren Audiences
 
-Sie können eine [!DNL Microsoft Excel] Arbeitsblattdatei mit der Zielgruppen-Konfigurationsregel, der Anzahl der aktiven und der gesamten Zielgruppenmitglieder nach Gerätetyp, Details zu jedem Segment in der Zielgruppe und zu allen Platzierungen, die auf die Zielgruppe abzielen, herunterladen.
+Sie können eine [!DNL Microsoft Excel] Arbeitsblattdatei mit der Zielgruppen-Konfigurationsregel, der Anzahl der aktiven Zielgruppenmitglieder nach Gerätetyp, Details zu jedem Segment in der Zielgruppe und zu allen Platzierungen, die auf die Zielgruppe abzielen, herunterladen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
