@@ -3,9 +3,9 @@ title: Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagn
 description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe arbeitet mit jedem Advertiser zusammen, um seine Anzeigennetzwerkkonten und -kampagnen einzurichten. Dazu gehört die Konfiguration von Search, Social und Commerce für die Verbindung und Synchronisierung mit den Konten des Advertisers, die Erstellung neuer Kampagnen und Kampagnenkomponenten nach Bedarf, die Einrichtung des Trackings für die Komponentenanzeigen, das optionale Hinzufügen der Kampagnen zu Portfolios, damit Search, Social und Commerce die Gebote für die Anzeigen optimieren können, und die Validierung der anfänglichen Kosten-, Klick- und Umsatzdaten.
 
-Nachdem eine Kampagne aktiviert und optional einem Portfolio hinzugefügt wurde, müssen das Adobe-Kundenbetreuungsteam, das Agenturteam oder der Werbetreibende (je nach den Bedingungen der service level agreement) jede Kampagne überwachen und die entsprechenden Komponenten und Einstellungen nach Bedarf ändern, um die Ziele des Werbetreibenden zu erreichen.
+Nachdem eine Kampagne aktiviert und optional einem Portfolio hinzugefügt wurde, muss das Adobe-Kundenbetreuungsteam, das Agenturteam oder der Werbetreibende (je nach den Bedingungen des service level agreements) jede Kampagne überwachen und die relevanten Komponenten und Einstellungen nach Bedarf ändern, um die Ziele des Werbetreibenden zu erreichen.
 
 Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einrichtung der Kampagnenstruktur für synchronisierte Konten. Weitere Anweisungen zum Einrichten von Nur-Tracking-Konten für [!DNL Naver] finden Sie unter [Implementieren [!DNL Naver] Nur-Tracking-Konten](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
 
@@ -34,7 +34,7 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. (Falls erforderlich) Richten Sie das Konto im Werbenetzwerk ein.
 
-   1. Integrieren Sie ihn mit dem Konto[&#x200B; indem Sie in Search, Social &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) Commerce einen entsprechenden Kontodatensatz erstellen, der die Anmeldedaten für den Kontozugriff und Tracking-Optionen enthält, und setzen Sie den Kontostatus auf „Aktiviert“.
+   1. Integrieren Sie ihn mit dem Konto[ indem Sie in Search, Social ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#create-account) Commerce einen entsprechenden Kontodatensatz erstellen, der die Anmeldedaten für den Kontozugriff und Tracking-Optionen enthält, und setzen Sie den Kontostatus auf „Aktiviert“.
 
       Search, Social und Commerce werden dann mit dem Werbenetzwerk synchronisiert. Wenn das Konto bereits Kampagnendaten enthält, stehen die Daten in etwa 24 Stunden zur Verfügung.
 
@@ -52,23 +52,23 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
 1. Richten Sie das Tracking für alle Anzeigen ein, für die Adobe Advertising Konversionen verfolgt:
 
-   1. (Werbetreibende mit dem Adobe Advertising-Konversions-Tracking-Service) Richten Sie bei Bedarf [Klick-Tracking ein](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Keywords, Platzierungen und Anzeigenerweiterungen ein, indem Sie Klick-Tracking-URLs für Search, Social und Commerce generieren und hochladen.
+   1. (Werbetreibende mit dem Adobe Advertising-Konversionsverfolgungs-Service) Richten Sie bei Bedarf [Klick-Tracking ein](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Keywords, Platzierungen und Anzeigenerweiterungen, indem Sie Klick-Tracking-URLs für Search, Social und Commerce generieren und hochladen.
 
-      Richten Sie für Kampagnen mit dem [!DNL Google Ads] „Performance Max“ das gesamte Tracking in den [Tracking-Einstellungen der Kampagne) &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
+      Richten Sie für Kampagnen mit dem [!DNL Google Ads] „Performance Max“ das gesamte Tracking in den [Tracking-Einstellungen der Kampagne) ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
 1. Für Kampagnen, die nur das Tracking betreffen, müssen Sie stattdessen Ziel-URLs mithilfe von Bulksheets generieren und dann die generierten Ziel-URLs mithilfe des nativen Editors des Anzeigennetzwerks zu den relevanten Entitäten hinzufügen.
 
    1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den Web-Seiten des Werbetreibenden und/oder die Einrichtung einer täglichen Feed-Drop für Konversionsdaten beinhalten, die der Werbetreibende separat erfasst hat.
 
-      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie Konversionsverfolgungstags (in [, Social und Commerce) oder &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md)mithilfe von [Adobe Experience Platform) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=de).
+      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie [Konversionsverfolgungstags](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social und Commerce oder mithilfe von [Tags aus Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (früher Adobe Experience Platform Launch) generieren.
 
    1. Validieren Sie die nachverfolgten Daten.
 
    Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel „Tracking“.
 
-1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de), damit sie Daten austauschen können.
+1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html), damit sie Daten austauschen können.
 
-1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [&#x200B; unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [ unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Wenn das Portfolio noch nicht gestartet wurde (Gebote und/oder Budgets optimieren), lassen Sie die Optimierungsfunktion genügend Daten sammeln, damit sie Kosten- und Umsatzmodelle erstellen kann, damit Sie die Grundleistung für das Portfolio vor dem Start ermitteln können.
 
