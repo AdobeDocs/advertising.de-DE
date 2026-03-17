@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren, mithilfe von Adobe Advertising-Konversionsverfolgungstags, die in die Web-Seiten eingefügt werden, die geöffnet werden, wenn ein Konversionsereignis eintritt, z. B. eine „Erfolgsseite“. Die Tags enthalten eingebettete Informationen, um die Transaktionsdaten zusammen mit dem Adobe Advertising-Cookie des Benutzers an einen Tracking-Server zu senden, von dem aus die Transaktion dem entsprechenden Anzeigenklick oder der Impression gutgeschrieben wird (gemäß den Konversionszuordnungseinstellungen des Advertisers).
 
-Sie können [Konversionsverfolgungstags“ in ](/help/search-social-commerce/tools/conversion-tag-generate.md), Social und Commerce oder mithilfe von Tags in Adobe Experience Platform (früher Adobe Experience Platform Launch) generieren.
+Sie können [Konversionsverfolgungstags“ in &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md), Social und Commerce oder mithilfe von Tags in Adobe Experience Platform (früher Adobe Experience Platform Launch) generieren.
 
 >[!NOTE]
 >
