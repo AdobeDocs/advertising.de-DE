@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie ein Ziel erstellen.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,4 @@ Ziele mit dem Präfix &quot;`ADSP_`&quot; (nicht unter Berücksichtigung der Gro
 >* [Bearbeiten eines Ziels](objective-edit.md)
 >* [Wenden Sie Gewichtungsempfehlungen auf ein Ziel an](objective-apply-weight-recommendations.md)
 >* [Zieleinstellungen](objective-settings.md)
+>* [Leistungsdaten für Ziele herunterladen](objective-download-performance-data.md)
