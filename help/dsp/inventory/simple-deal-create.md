@@ -1,16 +1,16 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] Angebot erstellen'
+title: '[!UICONTROL Simple Ad Serving] erstellen'
 description: Erfahren Sie, wie Sie ein Tracking-Pixel für ein [!UICONTROL Simple Ad Serving] Angebot erstellen.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] Angebot erstellen
+# [!UICONTROL Simple Ad Serving] erstellen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -29,7 +29,7 @@ ht-degree: 0%
          * Erstellen Sie für neue Anzeigen einen Proxy [Anzeige eines Drittanbieters](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
       >[!NOTE]
-      > DSP bedient nicht die von Ihnen angegebenen Anzeigen. Der Herausgeber bedient die Anzeige.
+      > DSP stellt die von Ihnen angegebenen Anzeigen nicht bereit. Der Herausgeber bedient die Anzeige.
 
       1. Klicken Sie auf **[!UICONTROL Next]**.
 

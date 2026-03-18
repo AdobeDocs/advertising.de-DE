@@ -1,11 +1,11 @@
 ---
-title: using [!DNL Roku] inventory
+title: Using [!DNL Roku] Inventory
 description: Erfahren Sie mehr über die Partnerschaft von DSP mit  [!DNL Roku], einschließlich Inventaroptionen, genehmigten Tracking-Anbietern von Drittanbietern und Best Practices für  [!DNL Roku] Platzierungen.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Advertising DSP bietet Funktionen für die Werbung auf [!DNL Roku].
 
 ## Zielgruppen-Matching
 
-Die [!DNL Roku]- und DSP-Partnerschaft gleicht Ihre [!DNL DSP] Zielgruppen mit [!DNL Roku]-IDs für die 1:1-Zielgruppenbestimmung auf [!DNL Roku] Inventar ab.
+Die Partnerschaft zwischen [!DNL Roku] und DSP ordnet Ihre [!DNL DSP] Zielgruppen [!DNL Roku] IDs für die 1:1 deterministische Zielgruppenbestimmung auf [!DNL Roku] Inventar zu.
 
-## [!DNL Roku]
+## [!DNL Roku] Bestandsoptionen
 
 Sie können entweder a) private Angebots-IDs direkt mit [!DNL Roku] einrichten und dann die Angebots-ID-Daten in DSP eingeben oder b) die [!DNL On Demand] Galerie besuchen, um [!DNL Roku] Profile zu abonnieren:
 
@@ -26,7 +26,7 @@ Sie können entweder a) private Angebots-IDs direkt mit [!DNL Roku] einrichten u
 >
 >[!DNL Roku] Inventar ist nicht in offenen Marktplätzen und Börsen verfügbar.
 
-* Richten Sie für Ihre privaten Angebote [Informationen zu den Angebots-IDs in DSP ein](/help/dsp/inventory/deal-id-create.md) und wählen Sie dann in [!DNL Roku] Platzierungen &quot;[!UICONTROL Roku Network - Audience]&quot; und &quot;[!UICONTROL The Roku Channel - Audience]&quot; aus.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Richten Sie für Ihre privaten Angebote [Informationen zu den Angebots-IDs in DSP ein](/help/dsp/inventory/deal-id-create.md) und wählen Sie dann in [!UICONTROL Roku Network - Audience] Platzierungen &quot;[!UICONTROL The Roku Channel - Audience]&quot; und &quot;[!DNL Roku]&quot; aus.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Sie können [das folgende  [!DNL Roku]  im  [!DNL On Demand] -Katalog abonnieren](/help/dsp/inventory/on-demand-inventory-subscribe.md) und dann eines der genehmigten Angebote in [!DNL Roku] Platzierungen auswählen:
 
@@ -49,11 +49,11 @@ Mit privaten Angeboten können Sie die Angebotsparameter Ihren Bedürfnissen ent
 
 ## Platzierungen [!DNL Roku]
 
-Erstellen Sie [&#x200B; DSP [!DNL Roku]Kampagnen spezifische Platzierungen &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
+DSP Erstellen Sie in [-Kampagnen  [!DNL Roku] Platzierungen ](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
 
-Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle ansprechen. Um den Zielgruppenabgleich von DSP mit [!DNL Roku] zu verwenden, schließen Sie ein oder mehrere Zielgruppensegmente ein, die mit dem deterministischen [!DNL Roku]-Datensatz (Opt-in) abgeglichen werden können.
+Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle ansprechen. Um die Zielgruppenzuordnung von DSP mit [!DNL Roku] zu verwenden, schließen Sie ein oder mehrere Zielgruppensegmente ein, die mit dem deterministischen Datensatz des [!DNL Roku] (Opt-in) abgeglichen werden können.
 
-### Von [!DNL Roku] genehmigte Drittanbieter-Tracking-Anbieter
+### Von [!DNL Roku] genehmigte Drittanbieter-Tracking
 
 [!DNL Roku] Platzierungen können Ereignis-Pixel von Drittanbietern und Konversionspixel von den folgenden Anbietern enthalten: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now].
 

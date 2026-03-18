@@ -3,9 +3,9 @@ title: Über [!DNL On Demand] Premium-Inventar
 description: Erfahren Sie mehr über die Angebote, die DSP vorab mit Premium-Publisher-Partnern ausgehandelt hat.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other], Werbetreibende mit der Kategorie [!UICONTROL Other] und Wiederverkäufer*
 
-Die [!DNL On Demand] Gallery ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1-Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
+Die [!DNL On Demand] Gallery ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1 Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
 
 Der DSP Premium Marketplace bietet folgende Möglichkeiten:
 
@@ -36,7 +36,7 @@ Der DSP Premium Marketplace bietet folgende Möglichkeiten:
 
 Sobald ein Abschluss genehmigt wurde, ist er als Zielgruppe für vorhandene Platzierungen verfügbar und wird automatisch als Zielgruppe für neue Platzierungen eingefügt, die alle [!DNL On Demand] betreffen. Wenn eine Deal-Anfrage abgelehnt wird, können Sie mit Ihrem Adobe-Account-Team zusammenarbeiten, um das Problem zu beheben, und dann den Deal erneut anfordern.
 
-## Die On-Demand-Ansichten
+## Die [!UICONTROL On Demand]
 
 Unter [!UICONTROL Inventory] > [!UICONTROL On Demand] finden Sie die neuesten Angebote und <!-- how recent? --> von Publishern in einem Karussell am oberen Seitenrand.
 

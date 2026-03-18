@@ -3,7 +3,7 @@ title: Spezifikationen hinzufügen
 description: Verweisen Sie auf allgemeine und publisherspezifische Anzeigenspezifikationen.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Spezifikationen für unterstützte Anzeigentypen
 
-## Videoanzeigen (Pre-Roll, CTV und Universal Video)
+## Videoanzeigen (Pre-Roll, CTV und universelle Videos)
 
-### Unterstützte Screens
+### Unterstützte Bildschirme
 
 Die Werbeanzeigen werden standardmäßig auf Desktop- und Mobilgeräten sowie auf angeschlossenen Fernsehgeräten bereitgestellt. Die Geräte-Zielgruppenbestimmung ist verfügbar, um den Versand anzupassen.
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
 
-### Voraussetzungen für HD-Video-Assets
+### Voraussetzungen für High-Definition-Video-Assets
 
 **Video-Tag-Typ:** VPAID 2.0 JavaScript oder VAST (CTV). Alle VPAID-Anzeigeneinheiten müssen der [VPAID 2.0-Spezifikation](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) entsprechen, die vom Interactive Advertising Bureau (IAB) definiert wurde.
 
@@ -74,7 +74,7 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 
 ## Anzeigen anzeigen
 
-### Unterstützte Screens
+### Unterstützte Bildschirme
 
 Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. Die Geräte-Zielgruppenbestimmung ist verfügbar, um den Versand anzupassen.
 
@@ -84,25 +84,25 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **HTML5:** Bilddateitypen: GIF, JPG/JPEG, PNG, SVG
 
-### Voraussetzungen für Image-Assets
+### Voraussetzungen für Bild-Assets
 
 Die universelle Anzeige wird unterstützt.
 
 **Empfohlene Anzeigengrößen:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
 
-**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
 
 ## Audio-Anzeigen
 
-### Unterstützte Screens
+### Unterstützte Bildschirme
 
 Desktop, Mobilgerät, Tablet, Smart-Lautsprecher und Connected TV
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[ Ad Serving Partners](certified-ad-servers.md).
 
-### Voraussetzungen für Audio Assets
+### Anforderungen für Audio-Assets
 
 **Dateityp:** MP3, OGG, AAC
 
@@ -147,7 +147,7 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
    * Dateityp: MP3, OGG
    * Lautstärke: 44,1 kHz
 
-### Voraussetzungen für begleitende Bannerwerbung (optional)
+### Voraussetzungen für Begleitbanner-Anzeigen (optional)
 
 **Unterstützte Größen:** 300x250, 500x500, 640x640, 1024x1024
 
@@ -178,15 +178,15 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
    * Maximale Dateigröße: 2 MB
    * Abmessungen: 300x250
 
-## Native Display-Anzeigen
+## Native Anzeigen
 
 Jede Anzeige kann entweder ein Standbild oder einen bewegten GIF (Cinemagraph) enthalten.
 
-### Unterstützte Screens
+### Unterstützte Bildschirme
 
 Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. Die Geräte-Zielgruppenbestimmung ist verfügbar, um den Versand anzupassen.
 
-### Assets für alle nativen In-Feed-Formate erforderlich
+### Erforderliche Assets für alle nativen In-Feed-Formate
 
 #### Bild-Asset
 

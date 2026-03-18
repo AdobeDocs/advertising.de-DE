@@ -3,14 +3,14 @@ title: Übersicht über das Einrichten von PG-Angeboten in [!DNL Freewheel]
 description: Erfahren Sie mehr über die Voraussetzungen und zusätzlichen Schritte, die erforderlich sind, um Anzeigen für programmgesteuerte garantierte -Angebote mit Herausgebern in  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Überblick über die Einrichtung von garantierten programmgesteuerten Angeboten in [!DNL Freewheel]
+# Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]
 
 Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL Freewheel] erfordert zusätzliche Berechtigungen und Schritte.
 

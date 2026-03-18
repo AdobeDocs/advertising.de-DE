@@ -1,16 +1,16 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] bearbeiten'
+title: Bearbeiten [!UICONTROL Simple Ad Serving] Angebotseinstellungen
 description: Erfahren Sie, wie Sie die Einstellungen für ein [!UICONTROL Simple Ad Serving] Angebot bearbeiten.
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Simple Ad Serving] bearbeiten
+# Bearbeiten [!UICONTROL Simple Ad Serving] Angebotseinstellungen
 
 Sie können einige Einstellungen für ein [!UICONTROL Simple Ad Serving] Angebot bearbeiten, das noch nicht beendet wurde.
 

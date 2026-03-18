@@ -1,9 +1,9 @@
 ---
-title: Fehler-Codes für  [!DNL FreeWheel]  Anzeigenübermittlungen
+title: Fehler-Codes für  [!DNL FreeWheel] -Anzeigen-Übermittlungen
 description: Verweisen Sie auf die Fehler-Codes, die für Anzeigenübermittlungen an zurückgegeben werden [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
@@ -33,13 +33,13 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 
 | Code | Bedeutung | Beschreibung | Nächste Schritte |
 |--- |--- |--- |--- |
-| 401 | Nicht autorisiert | Falsche, fehlende oder ungültige Zugriffsberechtigungen. | Wenden Sie sich an Ihr Adobe-Account-Team. |
-| 403 | Verboten | Der Server hat die Anfrage verstanden, weigert sich jedoch, sie zu autorisieren. | Wenden Sie sich an Ihr Adobe-Account-Team. |
-| 404 | Nicht gefunden | Die angeforderte Ressource ist nicht verfügbar. Wenn die Creative ID im PUT-Vorgang nicht gefunden wird, wird eine 404 zurückgegeben. | Wenden Sie sich an Ihr Adobe-Account-Team. |
-| 405 | Methode nicht zulässig | Eine Anfrage einer Ressource wurde mit einer Anfragemethode durchgeführt, die von dieser Ressource nicht unterstützt wird (z. B. mit GET bei einer Methode, für die Daten per POST gesendet werden müssen, oder mit PUT bei einer schreibgeschützten Ressource). | Wenden Sie sich an Ihr Adobe-Account-Team. |
-| 408 | Zeitüberschreitung der Anfrage | Zeitüberschreitung während der Verarbeitung dieser Anfrage. Zeitüberschreitungen werden in der Regel durch gleichzeitige Anfragen nach exklusivem Zugriff auf bestimmte Ressourcen verursacht. | Senden Sie die Anfrage erneut, wenn Sie diesen Status erhalten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe-Account-Team. |
-| 422 | Nicht verarbeitbare Entität | Ungültige Ressource. Dieser Fehler tritt auf, wenn der Anfragetext ungültig ist oder die erstellte/aktualisierte Ressource ungültig ist (beispielsweise, wenn die Angebots-ID nicht gefunden wurde). Siehe [Fehler der FreeWheel-API 422](#freewheel-422-errors) für weitere Informationen. | Wenden Sie sich an Ihr Adobe-Account-Team. |
-| 500 | Interner Server-Fehler | API-Systemfehler. | Wenden Sie sich an Ihr Adobe-Account-Team. |
+| 401 | Nicht autorisiert | Falsche, fehlende oder ungültige Zugriffsberechtigungen. | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 403 | Verboten | Der Server hat die Anfrage verstanden, weigert sich jedoch, sie zu autorisieren. | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 404 | Nicht gefunden | Die angeforderte Ressource ist nicht verfügbar. Wenn die Creative-ID im PUT-Vorgang nicht gefunden wird, wird eine 404 zurückgegeben. | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 405 | Methode nicht zulässig | Eine Anfrage einer Ressource wurde mit einer Anfragemethode durchgeführt, die von dieser Ressource nicht unterstützt wird (z. B. Verwendung von GET bei einer Methode, für die Daten per POST gesendet werden müssen, oder Verwendung von PUT bei einer schreibgeschützten Ressource). | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 408 | Zeitüberschreitung der Anfrage | Zeitüberschreitung während der Verarbeitung dieser Anfrage. Zeitüberschreitungen werden in der Regel durch gleichzeitige Anfragen nach exklusivem Zugriff auf bestimmte Ressourcen verursacht. | Senden Sie die Anfrage erneut, wenn Sie diesen Status erhalten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
+| 422 | Nicht verarbeitbare Entität | Ungültige Ressource. Dieser Fehler tritt auf, wenn der Anfragetext ungültig ist oder die erstellte/aktualisierte Ressource ungültig ist (beispielsweise, wenn die Angebots-ID nicht gefunden wurde). Siehe [Fehler der FreeWheel-API 422](#freewheel-422-errors) für weitere Informationen. | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 500 | Interner Server-Fehler | API-Systemfehler. | Wenden Sie sich an Ihr Adobe-Accountteam. |
 
 {style="table-layout:auto"}
 
