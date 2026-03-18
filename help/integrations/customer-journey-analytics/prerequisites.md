@@ -3,7 +3,7 @@ title: Voraussetzungen für die Integration von Adobe Advertising mit Customer J
 description: Voraussetzungen für die Integration von Adobe Advertising mit Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 *Werbetreibende mit Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
 
-* Datenmodellierungs- und Verwaltungstechnologien für Adobe Experience Platform ([Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/de/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home))
-
-  Diese Technologien erfordern die Unterstützung durch Ihren Experience Platform-Site-Administrator.
-
 * Adobe Customer Journey Analytics mit Zugriff auf Datenverwaltungs-Tools
 
   Sie benötigen die Unterstützung Ihres internen Web-Analysten, um eine Verbindung zu Ihrem Datensatz herzustellen und Berichte zu konfigurieren.
+
+* Datenmodellierungs- und Verwaltungstechnologien für Adobe Experience Platform ([Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) und [Datensätze](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+
+  Diese Technologien erfordern die Unterstützung durch Ihren Experience Platform-Site-Administrator.
 
 >[!MORELIKETHIS]
 >
