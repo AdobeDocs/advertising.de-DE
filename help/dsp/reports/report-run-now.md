@@ -16,7 +16,7 @@ Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](report-create.md) oder [bearbeiten](report-edit.md).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](report-create.md) oder [bearbeiten](report-edit.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
