@@ -35,4 +35,4 @@ Um alle Pakete, Platzierungen und Anzeigen innerhalb einer Kampagne anzuzeigen, 
 >
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Kampagneneinstellungen](campaign-settings.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
