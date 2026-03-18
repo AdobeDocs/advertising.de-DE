@@ -3,9 +3,9 @@ title: Über die Zielgruppenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über Funktionen zur Zielgruppenverwaltung.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwa
 
    * [CCPA-Opt-out-of-Sale-Segmente](/help/dsp/audiences/ccpa-opt-out-segment-create.md) um die Benutzer-IDs aus Verbraucher-Opt-out-of-Sale-Anfragen auf Ihrer Website gemäß dem California Consumer Privacy Act (CCPA) zu verfolgen. Sie können monatliche Berichte zu Benutzer-IDs aus Opt-out-Kaufanfragen abrufen.
 
-     Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Anfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Kaufanfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für das Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (Beta-Funktion) [Abrufen und Verwenden universeller IDs für das Cookie-lose Targeting](/help/dsp/audiences/universal-ids.md):
 
@@ -40,9 +40,9 @@ Für das Platzierungs-Targeting sind auch zusätzliche Zielgruppentypen verfügb
 
 Sie haben viele Möglichkeiten, Datensegmente von Erstanbietern und Drittanbietern mithilfe der DSP-Benutzeroberfläche und/oder über benutzerdefinierte Importdienste in DSP zu importieren.
 
-* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting &#x200B;](/help/integrations/audience-manager/import-audiences.md).
+* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting ](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs &#x200B;](/help/dsp/audiences/sources/source-about.md). Sie können [&#x200B; authentifizierte Segmente auch manuell  [!DNL LiveRamp] [!DNL RampID] DSP &#x200B;](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs ](/help/dsp/audiences/sources/source-about.md). Sie können [ authentifizierte Segmente auch manuell  [!DNL LiveRamp] [!DNL RampID] DSP ](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
 * DSP kann Ihre anderen Erstanbieter-Datensegmente direkt von Ihrer Datenverwaltungsplattform (DMP) importieren und sie nach Bedarf für eine beliebige Gruppe von Werbetreibenden bereitstellen.
 
@@ -66,7 +66,7 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
 * Alle Ihre importierten Erstanbieter-Datensegmente, einschließlich der Segmente, die in universelle IDs übersetzt wurden.
 
-  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Weitere Informationen zu [&#x200B; finden Sie unter „Über First-Party](/help/dsp/audiences/sources/source-about.md)Zielgruppenquellen“.
+  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Weitere Informationen zu [ finden Sie unter „Über First-Party](/help/dsp/audiences/sources/source-about.md)Zielgruppenquellen“.
 
 * Alle Ihre importierten benutzerdefinierten Datensegmente von Drittanbietern
 
@@ -84,7 +84,7 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
   >[!NOTE]
   >
-  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in [&#x200B; Lösungen finden Sie in &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de) Dokumentation für &lbrace;0[&#128279;](https://experienceleague.adobe.com/docs/analytics.html?lang=de)Audience Manager[, Analytics [!DNL Real-Time CDP] und.](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=de)
+  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in [ Lösungen finden Sie in ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) Dokumentation für {0[](https://experienceleague.adobe.com/docs/analytics.html)Audience Manager[, Analytics [!DNL Real-Time CDP] und.](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)
 
 ## Daten zur Zielgruppengröße
 
@@ -134,11 +134,11 @@ In der [!UICONTROL Segments] Ansicht werden auch die folgenden Segmenttypen aufg
 
   Sie können keine Drittanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Account-Team , wenn Sie Drittanbietersegmente für zusätzliche Benutzende freigeben müssen.
 
-### Die Quellenansicht
+### Die Quellansicht
 
 In der [!UICONTROL Sources] können Sie Quellen für Erstanbietersegmente in unterstützten Kundendatenplattformen konfigurieren, die Sie in Segmente mit angegebenen universellen ID-Typen konvertieren möchten. Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, den Sie Ihrer Kundendatenplattform bereitstellen, um die Verbindung herzustellen.
 
-Weitere Informationen zu den unterstützten Kundendatenplattformen, den unterstützten universellen ID-Typen und den Workflows zum Einrichten von Verbindungen zu jeder Kundendatenplattform finden Sie unter &quot;[&#x200B; zu Quellen](/help/dsp/audiences/sources/source-about.md).
+Weitere Informationen zu den unterstützten Kundendatenplattformen, den unterstützten universellen ID-Typen und den Workflows zum Einrichten von Verbindungen zu jeder Kundendatenplattform finden Sie unter &quot;[ zu Quellen](/help/dsp/audiences/sources/source-about.md).
 
 Die übersetzten Segmente können in wiederverwendbare Zielgruppen und in Platzierungseinstellungen für das Cookie-lose Targeting einbezogen werden.
 
