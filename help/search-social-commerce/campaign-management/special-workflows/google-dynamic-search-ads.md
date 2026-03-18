@@ -32,7 +32,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
       >
       >Ihre Domain muss vom [!DNL Google Ads] organischen Suchindex indiziert sein, damit sie als Ziel ausgewählt werden kann. Wenn die Domain Seiten in mehreren Sprachen enthält und Sie alle ansprechen möchten, erstellen Sie für jede Sprache eine separate Kampagne.
 
-      Wenn Sie Ihre Website-Domain nicht zum Targeting Ihrer Anzeigen verwenden, erstellen Sie für jede Anzeigengruppe dynamische Suchziele (siehe Schritt 4). Sie können die Ziele ([) ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) mithilfe von [Bulk Sheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) erstellen.
+      Wenn Sie Ihre Website-Domain nicht zum Targeting Ihrer Anzeigen verwenden, erstellen Sie für jede Anzeigengruppe dynamische Suchziele (siehe Schritt 4). Sie können die Ziele ([) &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) mithilfe von [Bulk Sheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) erstellen.
 
    1. Stellen Sie sicher, dass die Kampagne auf den Suchkanal und nur auf das [!DNL Google Ads] Suchnetzwerk (nicht auf das Anzeigennetzwerk) ausgerichtet ist. Diese Einstellungen sind auf der Registerkarte [!UICONTROL Networks and Devices] verfügbar.
 
@@ -63,4 +63,4 @@ Wenn Sie ein Adobe Analytics-Tracking auf höheren Ebenen mit einem Tracking auf
 
    Die Ziele definieren, ob das Anzeigennetzwerk alle oder eine Teilmenge der Seiten auf Ihrer Website verwendet, um Ihre dynamischen Suchanzeigen gezielt anzusprechen. Um die Leistung optimal zu verfolgen, konfigurieren Sie Ihre Kampagne mit einer Anzeigengruppe pro dynamischem Suchziel und schließen Sie eine Anzeigengruppe ein, die alle Kriterien berücksichtigt.
 
-1. Bearbeiten Sie bei [ die Kampagneneinstellungen, ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) das Kampagnenbudget anzupassen und den Traffic zu verfeinern, indem Sie zusätzliche Keywords aus der Kampagne ausschließen.
+1. Bearbeiten Sie bei [&#x200B; die Kampagneneinstellungen, &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) das Kampagnenbudget anzupassen und den Traffic zu verfeinern, indem Sie zusätzliche Keywords aus der Kampagne ausschließen.
