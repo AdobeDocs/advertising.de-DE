@@ -3,7 +3,7 @@ title: Adobe Advertising-Metriken und -Dimensionen in Customer Journey Analytics
 description: Referenzieren Sie die in Customer Journey Analytics verfügbaren Adobe Advertising-Metriken und -Dimensionen.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
