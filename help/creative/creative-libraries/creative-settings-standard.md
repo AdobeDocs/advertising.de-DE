@@ -3,7 +3,7 @@ title: Kreative Standardeinstellungen
 description: Verweisen Sie auf die Einstellungen für Standard-Kreative.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -80,7 +80,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Bearbeiten Sie die neuen [flexiblen Einstellungen für HTML-Anzeigen](#flexible-ad-settings) nach Bedarf.
 
@@ -88,7 +88,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 ## HTML5 Creative-Einstellungen {#creative-settings-html5}
 
-## Registerkarte „Details“
+### Registerkarte „Details“
 
 Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer benannten Registerkarte.
 
@@ -142,7 +142,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    Siehe [HTML-Anzeigenspezifikationen](html5-creative-specification.md).
 
-1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen &#x200B;](#creative-settings-html5) Bedarf.
+1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen ](#creative-settings-html5) Bedarf.
 
 1. **[!UICONTROL Edit]** klicken
 

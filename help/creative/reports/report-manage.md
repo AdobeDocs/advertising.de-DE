@@ -2,7 +2,8 @@
 title: Verwalten benutzerdefinierter Berichte
 description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom Creative Report] generieren und verwalten.
 feature: Creative Reporting
-source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
+exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -51,7 +52,7 @@ Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](#report-create) oder [bearbeiten](#report-edit).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](#report-create) oder [bearbeiten](#report-edit).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
@@ -207,7 +208,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 
@@ -230,7 +231,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 <!-- This needs a lot of updating for new report:
 
-## Available Report Columns {#report-custom-creative-columns}
+## Available report columns {#report-custom-creative-columns}
 
 |Metric Type|Subtype|Column Name|Description|
 |-----------|-------|-----------|-----------|
