@@ -4,10 +4,10 @@ user-guide-description: Erfahren Sie mehr über die Integration von Advertising 
 breadcrumb-title: Integrationen mit Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 10%
 + [Neue Funktionen](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
    + [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-   + [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)
+   + [Von Adobe Advertising verwendete IDs [!DNL Analytics]](/help/integrations/analytics/ids.md)
    + Planung der Implementierung {#planning}
       + [Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
       + [(DSP) JavaScript-Code für [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [Verwenden der  [!DNL Last Event Service] JavaScript-Bibliothek mit Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
       + [Erfassen historischer Daten für AMO-IDs und EF-IDs zur Verwendung in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP) Makros für Anzeigen-Tags {#macros}
-         + [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md)
-         + [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md)
+         + [Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad tags](/help/integrations/analytics/macros-flashtalking.md)
+         + [Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Datenaustausch {#data}
       + [Adobe Advertising-Metriken in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [[!DNL Analytics] von Daten in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
@@ -41,8 +41,8 @@ ht-degree: 10%
    + [Audience Manager-Segmente nach Adobe Advertising importieren](/help/integrations/audience-manager/import-audiences.md)
    + DSP Media-Datenintegration mit Adobe Audience Manager {#media-data-ingestion}
       + [Übersicht über das Senden von DSP Media Exposure-Daten an Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
-      + [Erfassen von Impressions- und Klickdaten aus DSP Campaign](/help/integrations/audience-manager/media-data-integration/collect.md)
-      + [Anwendungsfälle](/help/integrations/audience-manager/media-data-integration/use-cases.md)
+      + [Erfassen von Impressions- und Klickdaten aus DSP-Kampagnen](/help/integrations/audience-manager/media-data-integration/collect.md)
+      + [Anwendungsszenarien](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Adobe Audience Analytics für Advertising-Kunden](/help/integrations/audience-manager/audience-analytics.md)
 + Integration mit Adobe Target {#target}
    + [Konfigurieren von A/B-Tests in Adobe Target für DSP Ads](/help/integrations/target/ab-tests-dsp.md)
@@ -53,4 +53,4 @@ ht-degree: 10%
    + [Von Customer Journey Analytics verwendete Adobe Advertising-IDs](/help/integrations/customer-journey-analytics/ids.md)
    + [Einrichten von Datenerfassung, Datenübertragung und Reporting](/help/integrations/customer-journey-analytics/set-up.md)
    + [Adobe Advertising-Metriken und -Dimensionen in Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Video-Tutorials zu Integrationen mit Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=de)
++ [Video-Tutorials zu Integrationen mit Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
