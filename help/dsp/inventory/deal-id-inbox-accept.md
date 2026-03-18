@@ -18,7 +18,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft 
 
 >[!NOTE]
 >
->Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [ „Überblick über das Einrichten programmgesteuerter garantierter ](freewheel-overview.md) in FreeWheel“.
+>Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [&#x200B; „Überblick über das Einrichten programmgesteuerter garantierter &#x200B;](freewheel-overview.md) in FreeWheel“.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
