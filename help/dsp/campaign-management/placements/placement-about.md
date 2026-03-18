@@ -3,7 +3,7 @@ title: Über die Platzierungsverwaltung in Advertising DSP
 description: Informationen zur Platzierungsverwaltung.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -21,14 +21,14 @@ Sie können eine Platzierung manuell erstellen oder eine vorhandene duplizieren.
 ## Verfügbare Platzierungstypen
 
 * vorwalzen
-* Mobiltelefon
+* Mobile
 * Anzeige
 * Nativ
 * Audio
 * Connected TV
 * Universelles Video
 
-## Das [!UICONTROL Placements] Dashboard
+## Das [!UICONTROL Placements]-Dashboard
 
 Das [!UICONTROL Placements]-Dashboard zentralisiert die Leistungs- und Wirtschaftsberichte für alle Ihre Platzierungen und bietet schnelle Momentaufnahmen der Leistung Ihrer Platzierungen während eines bestimmten Datumsbereichs.
 

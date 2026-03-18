@@ -3,7 +3,7 @@ title: Duplizieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Kampagne duplizieren.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
-* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
+* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, ](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
 
 >[!MORELIKETHIS]
 >

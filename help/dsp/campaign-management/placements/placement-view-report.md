@@ -3,7 +3,7 @@ title: Anzeigen eines detaillierten Berichts für eine Platzierung
 description: Erfahren Sie, wie Sie einen Bericht auf Platzierungsebene mit Abschnitten zu [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] und [!UICONTROL Ads] öffnen.
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

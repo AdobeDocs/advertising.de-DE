@@ -3,7 +3,7 @@ title: Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheet
 description: Erfahren Sie, wie Sie wichtige Paketeinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Wenn Sie Einstellungen für bestimmte Pakete herunterladen, enthält die Bulkshe
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[&#x200B; in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[ in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
 
      Um eine der Einstellungen zu bearbeiten, bearbeiten Sie die Datei direkt und laden Sie dann die Änderungen hoch. Alle bearbeitbaren Spalten sind blau hervorgehoben. Um das richtige Format für ein Feld zu verwenden, wählen Sie den Wert aus der entsprechenden Paketeinstellung oder Platzierungseinstellung aus und kopieren Sie ihn. Für einige Zieleinstellungen, wie z. B. DayParting, benutzerdefinierte Ziele und Konversionsmetriken, ist eine Kopieroption innerhalb der Einstellung verfügbar.
 
@@ -102,12 +102,12 @@ Sie können Einstellungen für Ihre Pakete, einschließlich der Platzierungen un
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: Anhalten oder Aktivieren einer Anzeige
 description: Erfahren Sie, wie Sie eine Anzeige anhalten oder aktivieren können.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Um eine Anzeige für eine einzelne Platzierung anzuhalten, verwenden Sie die Pla
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
 1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL Pause]** oder **[!UICONTROL Activate]**.
 
-## Mehrere Anzeigen über alle Platzierungen hinweg anhalten oder aktivieren
+## Pausieren oder Aktivieren mehrerer Anzeigen für alle Platzierungen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.

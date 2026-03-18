@@ -3,7 +3,7 @@ title: Advertising DSP-Makros
 description: Verweisen Sie auf die verfügbaren Makros für das allgemeine Tracking und das Tracking von Klicks auf Display-Anzeigen von Drittanbietern.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Advertising DSP-Makros
 
-Ein Makro ist ein kurzer Befehl oder eine Abkürzung für eine Anweisung und folgt normalerweise dem `${MACRO_NAME}`. Im Kreativ-Code enthaltene Makros oder Clickthrough-URLs werden zu einer längeren Code-Zeichenfolge erweitert, die der Anzeigen-Server versteht. Der DSP-Werbeserver führt Makros aus, wenn die Anzeige geschaltet oder angeklickt wird.
+Ein Makro ist ein kurzer Befehl oder eine Abkürzung für eine Anweisung und folgt normalerweise dem `${MACRO_NAME}`. Im Kreativ-Code enthaltene Makros oder Clickthrough-URLs werden zu einer längeren Code-Zeichenfolge erweitert, die der Anzeigen-Server versteht. Der DSP-Anzeigenserver führt Makros aus, wenn die Anzeige geschaltet oder angeklickt wird.
 
 Werbeserver-Makros sind nützlich, um wichtige Informationen an DSP oder Werbeserver von Drittanbietern weiterzugeben. Makros werden am häufigsten während des Handels mit kreativem Code oder Metadaten von Drittanbietern und deren Bearbeitung verwendet (z. B. Pixel von Drittanbietern).
 
-Sie können ein Makro manuell an einer beliebigen Stelle einfügen, z. B. in einem VAST-Tag, in einer beliebigen URL oder in einem DSP- oder Ereignispixel eines Drittanbieters. Jeder DSP-Client und -Partner hat jedoch ein anderes Tag-Format für die Anzeige, und die Makros sollten entsprechend an verschiedenen Stellen im Tag eingefügt werden. Fragen Sie bei jeder Arbeit mit einem neuen Client oder Partner nach der Dokumentation, wo die Makros in die Anzeigen-Tags eingefügt werden können, die DSP-Traffic unterstützen.
+Sie können ein Makro manuell an einer beliebigen Stelle einfügen, z. B. in einem VAST-Tag, in einer beliebigen URL oder in einem DSP- oder Drittanbieter-Ereignispixel. Jeder DSP-Client und -Partner hat jedoch ein anderes Tag-Format für die Anzeige, und die Makros sollten entsprechend an verschiedenen Stellen im Tag eingefügt werden. Fragen Sie bei jeder Arbeit mit einem neuen Client oder Partner nach der Dokumentation, wo die Makros in die Anzeigen-Tags eingefügt werden können, die von DSP versendet werden.
 
 ## Allgemeine Tracking-Makros
 

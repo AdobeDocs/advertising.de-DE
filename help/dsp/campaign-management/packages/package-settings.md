@@ -3,7 +3,7 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Fakturierbare Gebühren werden in der [!UICONTROL Net CPM] Metrik angezeigt.
 
-Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 

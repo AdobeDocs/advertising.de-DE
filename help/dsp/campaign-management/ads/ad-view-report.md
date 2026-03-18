@@ -3,7 +3,7 @@ title: Anzeigen eines detaillierten Berichts für eine Anzeige
 description: Erfahren Sie, wie Sie einen Bericht auf Anzeigenebene mit Übersichts-, Geografie- und Sichtbarkeitsdaten öffnen.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -23,5 +23,5 @@ Der <!--legacy --> Bericht auf Anzeigenebene enthält [!UICONTROL Overview]-, [!
 >
 >* [Anzeigen eines detaillierten Berichts für eine Platzierung](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [Anzeigen eines detaillierten Berichts für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)

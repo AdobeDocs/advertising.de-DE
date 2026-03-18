@@ -1,32 +1,32 @@
 ---
-title: Anzeigen der Platzierungs-Diagnoseberichte
+title: Anzeigen des Berichts [!UICONTROL Diagnostics] Platzierungen
 description: Erfahren Sie, wie Sie Probleme mit der Einrichtung und Geschwindigkeit von Platzierungen diagnostizieren.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Anzeigen der Platzierungs-Diagnoseberichte
+# Anzeigen des Berichts [!UICONTROL Diagnostics] Platzierungen
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 Diagnoseberichte können Ihnen dabei helfen, Probleme bei der Einrichtung und Geschwindigkeit von Platzierungen zu diagnostizieren, sobald eine Kampagne live ist.
 
-## Informationen in Diagnoseberichten für Platzierungen
+## Informationen im Bericht [!UICONTROL Diagnostics] Platzierungen
 
 * **[!UICONTROL Change Log]:** Zeigt Änderungen an wichtigen Platzierungseinstellungen an, wie z. B. den Namen, den Status und das maximale Angebot. Jeder Eintrag enthält das Datum und den Benutzernamen der Person, die die Änderung vorgenommen hat.
 
 * **[!UICONTROL Ad Approvals]:** Zeigt an, ob Anzeigen von den Inventaranbietern genehmigt oder abgelehnt wurden. Sie können optional den Status jeder Anzeige ändern (z. B. eine abgelehnte Anzeige anhalten) oder die Anzeigeneinstellungen öffnen.
 
-* **[!UICONTROL Non Bids]:** Zeigt an, warum DSP bei der Platzierung kein Gebot abgegeben hat.
+* **[!UICONTROL Non Bids]:** Zeigt, warum DSP bei der Platzierung kein Gebot abgegeben hat.
 
-## Öffnen Sie die Diagnoseberichte für Platzierungen
+## Platzierungs-[!UICONTROL Diagnostics] öffnen
 
-1. Öffnen Sie den Diagnosebericht:
+1. Öffnen Sie den [!UICONTROL Diagnostics] Bericht:
 
    1. Öffnen Sie die Platzierungseinstellungen:
 
@@ -72,6 +72,6 @@ Diagnoseberichte können Ihnen dabei helfen, Probleme bei der Einrichtung und Ge
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
 >* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

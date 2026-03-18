@@ -1,16 +1,16 @@
 ---
-title: Campaign-Datenansichten verwalten
+title: Ansichten der Kampagnendaten verwalten
 description: Erfahren Sie, wie Sie Ihre Datenansichten für Kampagnen, Pakete, Platzierungen und Anzeigen anpassen können.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
-# Campaign-Datenansichten verwalten
+# Ansichten der Kampagnendaten verwalten
 
 Sie können die Daten anpassen, die in Ihren Ansichten zur Kampagnenverwaltung angezeigt werden ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] und [!UICONTROL Ads]).
 
@@ -176,4 +176,4 @@ Wählen Sie unten rechts auf einer beliebigen Seite neben **[!UICONTROL Items pe
 >* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Anzeigen der Platzierungs-Diagnoseberichte](placement-diagnostics.md)
 >* [Exportieren von Daten aus einer Kampagnenverwaltungsansicht](campaign-export-data.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

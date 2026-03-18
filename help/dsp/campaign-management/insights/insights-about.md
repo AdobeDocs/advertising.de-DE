@@ -1,16 +1,16 @@
 ---
-title: Über Insights
+title: Über Einblicke
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Über Insights
+# Über Einblicke
 
 *Beta-Funktion*
 
@@ -104,11 +104,11 @@ Die Registerkarte [!UICONTROL Household Conversion] enthält Haushaltskonversion
 
 1. (Optional) Um die Daten weiter einzugrenzen, wählen Sie den Entitätstyp in der Symbolleiste und wählen Sie dann einen bestimmten Entitätswert aus (eine einzelne Kampagne, ein einzelnes Paket oder eine einzelne Platzierung).
 
-## Ändern der für eine Insight gemeldeten Dimension
+## Ändern der für eine insight gemeldeten Dimension
 
 * Wählen Sie aus dem Dropdown-Menü links oben in der insight die Dimension aus.
 
-## Ändern der für eine Insight gemeldeten Metriken
+## Ändern der für eine insight gemeldeten Metriken
 
 Konversionsmetriken werden sowohl von Adobe Advertising als auch von Adobe Analytics nachverfolgte Konversionen unterstützt.
 
@@ -122,7 +122,7 @@ Konversionsmetriken werden sowohl von Adobe Advertising als auch von Adobe Analy
 
   Die Datei wird im Standard-Downloads-Ordner Ihres Browsers gespeichert.
 
-## Herunterladen einer bestimmten Insight in eine XLSX-Datei
+## Herunterladen einer bestimmten insight in eine XLSX-Datei
 
 * Klicken Sie oben rechts in der insight auf ![Download](/help/creative/assets/download.png "Download").
 
@@ -131,6 +131,6 @@ Konversionsmetriken werden sowohl von Adobe Advertising als auch von Adobe Analy
 >[!MORELIKETHIS]
 >
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
->* [Campaign-Datenansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Kampagnendaten-Ansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

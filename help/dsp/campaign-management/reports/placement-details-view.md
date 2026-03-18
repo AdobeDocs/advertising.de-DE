@@ -1,16 +1,16 @@
 ---
-title: Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung anzeigen
+title: Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung
 description: Erfahren Sie, wie Sie die Zielseiten, Anzeigen, Häufigkeit und Inventardaten für eine Platzierung anzeigen.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung anzeigen
+# Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung
 
 Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) öffnen](placement-details-view.md) in der alle Zielseiten, Anzeigen und Angebote einer Platzierung aufgelistet sind. Es enthält auch Häufigkeitsdaten für die Platzierung. Sie können optional die Daten aus jeder Registerkarte exportieren.
 
@@ -62,7 +62,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 1. (Optional) [Ändern Sie die Spaltenansicht](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
-1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![&#x200B; oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
+1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![ oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
 
    Die Daten werden im Standard-Download-Ordner Ihres Browsers als Bericht im XLSM-Format gespeichert.
 
@@ -74,7 +74,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
-## Fehlerbehebung bei Inventar
+## Fehlerbehebung im Inventar
 
 | Problem | Mögliche Ursache | Zu ergreifende Maßnahmen |
 | -----------| ---------- | ---------- |
