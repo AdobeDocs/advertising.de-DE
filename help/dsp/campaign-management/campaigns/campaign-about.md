@@ -1,22 +1,22 @@
 ---
-title: Über Campaign Management in Advertising DSP
+title: Über die Kampagnenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Kampagnenverwaltung.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Über Campaign Management in Advertising DSP
+# Über die Kampagnenverwaltung in Advertising DSP
 
 Kampagnen sind das übergeordnete Framework der Flugeinstellungen. Alle Einstellungen auf Kampagnenebene gelten automatisch für jedes Paket und jede Platzierung innerhalb der Kampagne. Jede Kampagne ist mit einem bestimmten Advertiser verknüpft.
 
 Sie können Kampagnen manuell oder durch Duplizieren bestehender Kampagnen erstellen. Sie können auch vorhandene Kampagnen bearbeiten.
 
-## Das [!UICONTROL Campaigns] Dashboard
+## Das [!UICONTROL Campaigns]-Dashboard
 
 <!-- standardize on "dashboard" or "view" -->
 Das [!UICONTROL Campaigns]-Dashboard zentralisiert die Leistungs- und Wirtschaftsberichte für alle Ihre Kampagnen und bietet einen schnellen Schnappschuss der Leistung Ihrer Kampagnen während eines bestimmten Datumsbereichs.
@@ -35,4 +35,4 @@ Um alle Pakete, Platzierungen und Anzeigen innerhalb einer Kampagne anzuzeigen, 
 >
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Kampagneneinstellungen](campaign-settings.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

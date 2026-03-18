@@ -3,7 +3,7 @@ title: Angeben von Platzierungen und Anzeigen für ein privates Angebot
 description: Erfahren Sie, wie Sie einen privaten Deal mit zusätzlichen Platzierungen und Anzeigen verwenden.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können auch [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-manage
 
 * [Platzierung über die [!UICONTROL Placements] erstellen](/help/dsp/campaign-management/placements/placement-create.md). Wählen Sie in den [!UICONTROL Inventory Targeting] Einstellungen den privaten Deal aus.
 
-## Platzierungen und Anzeigen an einen PG-Abschluss anhängen
+## Platzierungen und Anzeigen an einen PG-Deal anhängen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 

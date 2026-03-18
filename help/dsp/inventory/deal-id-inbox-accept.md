@@ -3,7 +3,7 @@ title: Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie, wie Sie einen privaten Deal akzeptieren, den Sie bereits mit einem Herausgeber über  [!DNL FreeWheel], [!DNL Google Authorized Buyers] ehemals bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (ehemals)  [!DNL Rubicon] haben, indem Sie den Deal ID-Posteingang verwenden.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft 
 
 >[!NOTE]
 >
->Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [&#x200B; „Überblick über das Einrichten programmgesteuerter garantierter &#x200B;](freewheel-overview.md) in FreeWheel“.
+>Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [ „Überblick über das Einrichten programmgesteuerter garantierter ](freewheel-overview.md) in FreeWheel“.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -26,7 +26,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft 
 
 1. (Optional) Um die Details des Angebots zu aktualisieren, klicken Sie auf **[!UICONTROL Refresh]**.
 
-   DSP aktualisiert alle Deal-Details automatisch täglich um 4:30 Uhr EST. Außerdem werden alle [!DNL FreeWheel] Angebote und bestehenden Angebote ab [!DNL Google] und [!DNL Magnite DV+] stündlich aktualisiert.
+   DSP aktualisiert alle Details des Angebots automatisch täglich um :30 Uhr EST. Außerdem werden alle [!DNL FreeWheel] Angebote und bestehenden Angebote ab [!DNL Google] und [!DNL Magnite DV+] stündlich aktualisiert.
 
 1. (Wenn Sie den Deal zuvor ignoriert haben) Klicken Sie auf die Registerkarte **[!UICONTROL Ignored Deals]** .
 

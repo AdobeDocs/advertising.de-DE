@@ -2,7 +2,7 @@
 title: Erweiterte Messlösungen
 description: Eine Liste der verfügbaren Lösungen für erweiterte Messungen anzeigen.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,9 +15,9 @@ Werbetreibende haben oft Schwierigkeiten zu verstehen, wie ihre verschiedenen Me
 
 In einer datengesteuerten Medienlandschaft bietet die Attributionsmessung eine Lösung für diese Herausforderung. Das AMS-Team (Advanced Measurement &amp; Strategy) unterstützt Marken- und Agenturpartner dabei, zu messen, wie Elemente ihrer Adobe Advertising-Käufe zusammen mit ihren [!DNL Adobe]-Integrationen die Ergebnisse fördern. Mit robusten Attributionsmessungsangeboten kann AMS kuratierte Targeting-Strategien mithilfe ausgeklügelter Messrahmen bereitstellen, wodurch es Marken leicht gemacht wird, ihre Medieneinkünfte mit realen Ergebnissen zu verbinden, die ihre Geschäfte antreiben. Das Team kann Ihnen bei Folgendem helfen:
 
-* Aktivieren von Messstudien über digitale Medien-Kampagnen mit vollem Trichter
+* Aktivieren von Messstudien in Full-funnel-Kampagnen für digitale Medien
 
-* Verbessern Sie Ihr Kampagnen-Storytelling mit gebündelten Reporting-Lösungen
+* Verbessern Sie Ihre Campaign-storytelling mit gebündelten Reporting-Lösungen
 
 * Weiterentwicklung der Werbepraxis durch Erlernen und Verbesserung der Effektivität von Kampagnen im Laufe der Zeit
 
@@ -57,7 +57,7 @@ Die folgenden Messlösungspakete stehen zur Validierung des Erfolgs Ihrer Werbek
 
   Vergleichen Sie das Verhalten randomisierter, sich gegenseitig ausschließender Stichprobengruppen mit einfachen, sauberen A/B-Tests.
 
-## Finden der perfekten Messanpassung: Lösungen von Vertical
+## Finden der perfekten Maßhaltigkeit: Lösungen von Vertical
 
 * **Alle vertikalen Elemente:**
 

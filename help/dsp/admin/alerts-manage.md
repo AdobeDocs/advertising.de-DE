@@ -1,16 +1,16 @@
 ---
-title: Abonnements von Warnhinweisen verwalten
+title: Verwalten von Warnhinweis-Abonnements
 description: Erfahren Sie, wie Sie automatische E-Mail-Warnungen verwalten.
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Abonnements von Warnhinweisen verwalten
+# Verwalten von Warnhinweis-Abonnements
 
 ## Abonnement hinzufügen
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
       Die Einstellungen variieren je nach Warnhinweistyp.
 
-   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]** aus. Standardmäßig wird der Warnhinweis um 08:00 Uhr in der Zeitzone des Kontos ausgeführt.
+   1. (Optional) Um den Warnhinweis sofort auszuführen, wählen Sie **[!UICONTROL Alert immediately]** aus. Standardmäßig wird der Warnhinweis um 08 :00 in der Zeitzone des Kontos ausgeführt.
 
    1. (Optional) Um einen zusätzlichen Warnhinweis zum Abonnement hinzuzufügen, klicken Sie auf **[!UICONTROL Add Alert]** und erstellen Sie den Warnhinweis.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 * Um einen Warnhinweis aus einem Abonnement zu entfernen, klicken Sie auf **[!UICONTROL X]** rechts neben dem Namen des Warnhinweises.
 
-## Abonnenten eines Abonnements verwalten
+## Abonnentinnen und Abonnenten eines Abonnements verwalten
 
 * Um einen Abonnenten zu einem Abonnement hinzuzufügen, geben Sie die E-Mail-Adressen in das Eingabefeld unter **[!UICONTROL Subscribers]** ein.
 

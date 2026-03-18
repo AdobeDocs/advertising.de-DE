@@ -3,7 +3,7 @@ title: Anzeigen der Tracking-Pixel für ein Segment
 description: Erfahren Sie, wie Sie die Tracking-Pixel für ein benutzerdefiniertes oder CCPA-Opt-out vom Verkauf -Segment anzeigen.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Halten Sie den Cursor über die Segmentzeile und klicken Sie auf **[!UICONTROL Get Pixel]**.
 
-   * Das Seitenansichts-Tracking-Tag, mit dem Besucher auf Desktop- und Mobilgeräten auf einer Web-Seite verfolgt werden, trägt die Bezeichnung &quot;[!UICONTROL Desktop or mobile websites]&quot;. Ersetzen Sie bei Segmenten, die [!DNL ID5]-IDs verfolgen, `ID5_PARTNER_ID` im kopierten Tag durch die Partner-ID, die Ihrer Organisation zugewiesen [!DNL ID5], als sie eine Vereinbarung mit [!DNL ID5] unterzeichnet hat. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
+   * Das Seitenansichts-Tracking-Tag, mit dem Besucher auf Desktop- und Mobilgeräten auf einer Web-Seite verfolgt werden, trägt die Bezeichnung &quot;[!UICONTROL Desktop or mobile websites]&quot;. Ersetzen Sie bei Segmenten, die [!DNL ID5]-IDs verfolgen, `ID5_PARTNER_ID` im kopierten Tag durch die Partner-ID, die Ihrer Organisation zugewiesen [!DNL ID5], als sie eine Vereinbarung mit [!DNL ID5] unterzeichnet hat. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
 
      Fügen Sie das Tag den Seiten hinzu, deren Ansichten Sie verfolgen möchten.
 

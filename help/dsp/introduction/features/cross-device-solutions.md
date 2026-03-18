@@ -3,9 +3,9 @@ title: Geräteübergreifende Lösungen
 description: Weitere Informationen zu geräteübergreifenden Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Wenn Sie ein unterstütztes personenbasiertes Gerätediagramm verwenden, können
 * Ausgewogenheit und Exposition durch Verständnis und Begrenzung der Häufigkeit bei allen Personen.
 * Teststrategien, die Zielgruppen kanalübergreifend oder geräteübergreifend verfügbar machen bzw. konvertieren.
 
-## Vorteile des [!DNL LiveRamp] Device Graph
+## Vorteile des [!DNL LiveRamp] Gerätediagramms
 
 * Stellt einen deterministischen Datenpool bereit, einschließlich Offline-Kundendaten
 
@@ -78,15 +78,15 @@ Sie können die folgenden Metriken in benutzerdefinierte Berichte aufnehmen:
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
 
-Mit der personenbasierten Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Personenbasierte Attributionsmessung ist in DSP, [!DNL Adobe Advertising Creative] und [!DNL Adobe Advertising Search, Social, & Commerce] für Werbetreibende verfügbar, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
+Mit der personenbasierten Attribution können Sie Konversionen zuordnen, die auf einem anderen Gerät stattgefunden haben als auf dem Gerät, auf dem die Medienbelichtung stattgefunden hat. Personenbasierte Attributionsmessungen sind in DSP, [!DNL Adobe Advertising Creative] und [!DNL Adobe Advertising Search, Social, & Commerce] für Werbetreibende verfügbar, die Adobe Advertising-Konversionspixel auf ihren Sites implementiert haben.
 
 ### Personenbasierte Attributionsmessung aktivieren
 
 Wenn Sie die geräteübergreifende Attributionsmessung aktivieren möchten, wenden Sie sich an Ihr Adobe-Account-Team.
 
-### Einrichten von Konversionsberichten für die geräteübergreifende Konversionszuordnung
+### Einrichten von [!UICONTROL Conversion] für geräteübergreifende Konversionszuordnung
 
-#### Einstellungen für Konversionsberichte
+#### Berichtseinstellungen [!UICONTROL Conversion]
 
 Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, enthält der [!UICONTROL Conversion] eine [!UICONTROL Cross-Device Breakout], mit der Sie bis zu drei separate Spalten für jede Konversionsmetrik einbeziehen können, darunter:
 
@@ -96,7 +96,7 @@ Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, enthält de
 
 * &lt;*Conversion*>[!UICONTROL (xd)]: (Optional) Enthält nur Konversionen, bei denen mehr als ein Gerät im Konversionspfad verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(xd)„).
 
-#### Interpretation des Konversionsberichts
+#### Interpretation des [!UICONTROL Conversion]
 
 Sortieren Sie den Prozentsatz der gesamten Konversionen, die geräteübergreifend sind ([!UICONTROL (xd)]/[!UICONTROL (tl)]), von hoch nach niedrig, um zu verstehen, was zu überdurchschnittlichen geräteübergreifenden Konversionen führt. Auf diese Weise können Sie Ihre Kreativ- oder Targeting-Strategie so gestalten, dass Messaging und Kanalinvestitionen auf das Benutzerverhalten abgestimmt werden.
 

@@ -3,7 +3,7 @@ title: Private Deal-Einstellungen bearbeiten
 description: Erfahren Sie, wie Sie Details für ein privates Angebot bearbeiten.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

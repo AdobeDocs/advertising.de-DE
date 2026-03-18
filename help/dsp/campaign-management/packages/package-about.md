@@ -3,7 +3,7 @@ title: Über die Paketverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Paketverwaltung.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Über die Paketverwaltung in Advertising DSP
 
-Verwenden Sie Pakete, um Platzierungen für die Bereitstellung nach einem festgelegten Budget, einem Leistungsziel und einer benutzerdefinierten Schrittmacherstrategie zu gruppieren. DSP optimiert Pakete durch Umschichtung der Budgets auf die leistungsstärksten Platzierungen im Paket. Sie können Pakete nach Platzierungsformat, Inventartyp, Datenanbieter, Rolle oder anderen unterscheidbaren Merkmalen organisieren. Pakete sind optional.
+Verwenden Sie Pakete, um Platzierungen für die Bereitstellung nach einem festgelegten Budget, einem Leistungsziel und einer benutzerdefinierten Schrittmacherstrategie zu gruppieren. DSP optimiert Pakete, indem Budgets auf die Platzierungen verschoben werden, die im Paket am besten abschneiden. Sie können Pakete nach Platzierungsformat, Inventartyp, Datenanbieter, Rolle oder anderen unterscheidbaren Merkmalen organisieren. Pakete sind optional.
 
 Sie können Pakete manuell oder durch Duplizieren vorhandener Pakete erstellen. Sie können auch Platzierungen bearbeiten und an beliebige Pakete anhängen.
 
-## Das [!UICONTROL Packages] Dashboard
+## Das [!UICONTROL Packages]-Dashboard
 
 Das [!UICONTROL Packages]-Dashboard zentralisiert die Leistungs- und Wirtschaftsberichte für alle Ihre Paketstrategien und bietet schnelle Momentaufnahmen der Leistung Ihrer Pakete während eines bestimmten Datumsbereichs.
 

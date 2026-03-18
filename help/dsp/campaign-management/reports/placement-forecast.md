@@ -1,16 +1,16 @@
 ---
-title: Bericht zu Platzierungs-Forecasts anzeigen
+title: Anzeigen des Berichts zur Platzierungs-Forecast
 description: Anzeigen der Anzahl der Impressionen, Ausgaben und des optimalen Maximalangebots, die für eine bestimmte Targeting-Strategie für eine Platzierung prognostiziert wurden.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Bericht zu Platzierungs-Forecasts anzeigen
+# Anzeigen des Berichts zur Platzierungs-Forecast
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -21,7 +21,7 @@ Das Tool für Platzierungs-Forecasts zeigt die prognostizierte Anzahl von Impres
 >* Postleitzahlen werden bei den Berechnungen für Platzierungs-Forecasts nicht berücksichtigt.
 >* Für Platzierungen mit nur programmgesteuertem garantiertem (PG) Targeting wird keine Prognose generiert, da Verfügbarkeit und Ausgaben deterministisch sind.
 
-## Prognoseinformationen
+## Angaben in der Prognose
 
 Die Prognose enthält folgende Angaben:
 
@@ -65,7 +65,7 @@ Die Prognose enthält folgende Angaben:
 
      Eine Platzierung ist in der Regel eine Sammlung mehrerer Anzeigenvorlagen, die von anbieterseitigen Plattformen definiert werden. Selbst wenn die Platzierung schon lange besteht, kann das Prognose-Tool keine Prognose erstellen, wenn die zugrunde liegende Anzeigenvorlage neu ist.
 
-## Bericht „Platzierungs-Forecast“ öffnen
+## Bericht für Platzierungs-Forecasts öffnen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -81,6 +81,6 @@ Die Prognose enthält folgende Angaben:
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
 >* [Anzeigen der Platzierungs-Diagnoseberichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

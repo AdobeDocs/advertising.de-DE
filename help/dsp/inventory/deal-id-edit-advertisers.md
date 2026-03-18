@@ -1,20 +1,20 @@
 ---
-title: Bearbeiten der Werbetreibenden mit Zugriff auf einen privaten Deal
+title: Bearbeiten der Werbetreibenden mit Zugriff auf ein privates Angebot
 description: Erfahren Sie, wie Sie angeben, welche Advertiser auf ein privates Angebot zugreifen können.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# Bearbeiten der Werbetreibenden mit Zugriff auf einen privaten Deal
+# Bearbeiten der Werbetreibenden mit Zugriff auf ein privates Angebot
 
 >[!NOTE]
 >
->Sie können auch [eine Angebots-ID für alle Advertiser innerhalb bestimmter Konten freigeben und nicht mehr &#x200B;](deal-id-share.md).
+>Sie können auch [eine Angebots-ID für alle Advertiser innerhalb bestimmter Konten freigeben und nicht mehr ](deal-id-share.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
