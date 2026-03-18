@@ -18,7 +18,7 @@ Sie können die Prognose für einen Connected-TV-Reichweitenplan auf der Grundla
 
 1. Halten Sie den Cursor über die Planungszeile und klicken Sie auf **[!UICONTROL Forecast]**.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren **&#x200B; klicken Sie oben rechts auf &#x200B;** [!UICONTROL ...] **&#x200B; und dann auf &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 
-1. 
+1. &#x200B;
    1. Halten Sie den Cursor über der Planungszeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Optional) Bearbeiten Sie den Plannamen und die [Planeinstellungen](planner-settings.md).
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren **&#x200B; klicken Sie oben rechts auf &#x200B;** [!UICONTROL ...] **&#x200B; und dann auf &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

@@ -24,7 +24,7 @@ Durch die Bearbeitung der Planeinstellungen wird eine neue Prognose generiert.
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren **&#x200B; klicken Sie oben rechts auf &#x200B;** [!UICONTROL ...] **&#x200B; und dann auf &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
