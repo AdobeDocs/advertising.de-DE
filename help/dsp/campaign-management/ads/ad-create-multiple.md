@@ -48,7 +48,7 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 
    1. (Optional) Führen Sie für jede Anzeige einen der folgenden Schritte aus:
 
-      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![ in der ](/help/dsp/assets/play.png) auf „Abspielen“.
+      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![&#x200B; in der &#x200B;](/help/dsp/assets/play.png) auf „Abspielen“.
 
       * Um die Anzeigendetails zu bearbeiten, klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png), bearbeiten Sie die Details und klicken Sie dann auf **Speichern**.
 
