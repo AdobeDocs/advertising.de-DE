@@ -34,17 +34,17 @@ Optional können Sie auch die drei Metriken überlagern, um Anomalien und Bereic
 
 Standardmäßig enthält jede Kampagnenzeile Geschwindigkeits- und Versandmetriken. Zu den Geschwindigkeits-Metriken gehören [!UICONTROL Gross Spend (Lifetime)], die ein Maß für die tatsächlichen Ausgaben auf der Zielseite im Vergleich zu den erwarteten Ausgaben auf der Zielseite für alle Pakete in der Kampagne enthalten, sodass Sie unterdurchschnittliche Kampagnen auf einen Blick erkennen können. Sie können optional [Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) oder sogar [eine benutzerdefinierte Spaltenansicht erstellen](campaign-data-views-manage.md#column-view-create).
 
-Sie können [ Datentabellen auf zusätzliche ](campaign-data-views-manage.md#data-tables-manage) anpassen und [ sichtbaren Daten ](campaign-data-views-manage.md#filter-data-tables).
+Sie können [&#x200B; Datentabellen auf zusätzliche &#x200B;](campaign-data-views-manage.md#data-tables-manage) anpassen und [&#x200B; sichtbaren Daten &#x200B;](campaign-data-views-manage.md#filter-data-tables).
 
 Um eine Kampagne detaillierter anzuzeigen, klicken Sie auf den Namen der Kampagne.
 
 #### Warnhinweise
 
-Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität unter ihr ein Problem hat. Ein [!UICONTROL Pulse Panel] rechts von der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden [ unter &quot;](campaign-alerts.md) anzeigen“.
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität unter ihr ein Problem hat. Ein [!UICONTROL Pulse Panel] rechts von der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden [&#x200B; unter &quot;](campaign-alerts.md) anzeigen“.
 
 ## Reporting über einzelne Kampagnen {#single-campaign-reporting}
 
-Innerhalb einer Kampagne können Sie Daten nach der Kampagnenentität filtern: [!UICONTROL Packages], [!UICONTROL Placements] und [!UICONTROL Ads]. Sie können [ die sichtbaren Daten filtern](campaign-data-views-manage.md#filter-data-tables) um nur die Pakete, Platzierungen oder Anzeigen einzuschließen, die Sie sehen möchten.
+Innerhalb einer Kampagne können Sie Daten nach der Kampagnenentität filtern: [!UICONTROL Packages], [!UICONTROL Placements] und [!UICONTROL Ads]. Sie können [&#x200B; die sichtbaren Daten filtern](campaign-data-views-manage.md#filter-data-tables) um nur die Pakete, Platzierungen oder Anzeigen einzuschließen, die Sie sehen möchten.
 
 ![Kampagnenentitäts-Registerkarten](/help/dsp/assets/campaign-subtabs.png)
 
@@ -52,15 +52,15 @@ Innerhalb einer Kampagne können Sie Daten nach der Kampagnenentität filtern: [
 
 Für jede Kampagne können Sie [Zeitreihen-Trenddiagramme](campaign-data-views-manage.md#data-visualizations-manage) mit drei Metriken anpassen, die in jeder Entitätsansicht verfügbar sind. Dieselben Metriken werden in allen Trenddiagrammen für die Kampagne beibehalten.
 
-Weitere Informationen finden Sie [ Abschnitt „Diagrammansicht“ ](#chart-view) Kampagnenübergreifende Metriken.
+Weitere Informationen finden Sie [&#x200B; Abschnitt „Diagrammansicht“ &#x200B;](#chart-view) Kampagnenübergreifende Metriken.
 
 ### Tabellenansicht
 
-Standardmäßig enthält jede Zeile in jeder Entitäts-Registerkarte Geschwindigkeits- und Versandmetriken. Sie können jedoch [die Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) oder sogar [eine benutzerdefinierte Spaltenansicht erstellen](campaign-data-views-manage.md#column-view-create) um sie auf alle Unterregisterkarten der Kampagne anzuwenden. Sie können [ Datentabellen auf weitere ](campaign-data-views-manage.md#data-tables-manage) anpassen. Jede Datentabelle enthält eine [!UICONTROL Subtotals] Zeile, die entweder die Summe oder den Durchschnittswert jeder Metrik über alle sichtbaren Zeilen hinweg anzeigt.
+Standardmäßig enthält jede Zeile in jeder Entitäts-Registerkarte Geschwindigkeits- und Versandmetriken. Sie können jedoch [die Spaltenansicht ändern](campaign-data-views-manage.md#column-view-change) oder sogar [eine benutzerdefinierte Spaltenansicht erstellen](campaign-data-views-manage.md#column-view-create) um sie auf alle Unterregisterkarten der Kampagne anzuwenden. Sie können [&#x200B; Datentabellen auf weitere &#x200B;](campaign-data-views-manage.md#data-tables-manage) anpassen. Jede Datentabelle enthält eine [!UICONTROL Subtotals] Zeile, die entweder die Summe oder den Durchschnittswert jeder Metrik über alle sichtbaren Zeilen hinweg anzeigt.
 
 #### Warnhinweise
 
-Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn ein Paket, eine Platzierung oder eine Anzeige — oder eine untergeordnete Entität unter einem Paket oder einer Platzierung — ein Problem hat. Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität unter ihr ein Problem hat. Ein [!UICONTROL Pulse Panel] rechts von der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden [ unter &quot;](campaign-alerts.md) anzeigen“.
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn ein Paket, eine Platzierung oder eine Anzeige — oder eine untergeordnete Entität unter einem Paket oder einer Platzierung — ein Problem hat. Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn eine Kampagne oder eine untergeordnete Entität unter ihr ein Problem hat. Ein [!UICONTROL Pulse Panel] rechts von der Symbolleiste zeigt auch an, ob Warnhinweise für die aufgelisteten Entitäten verfügbar sind. Weitere Informationen finden [&#x200B; unter &quot;](campaign-alerts.md) anzeigen“.
 
 ### Andere Arten von Reporting auf Kampagnenebene
 
