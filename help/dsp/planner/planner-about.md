@@ -1,16 +1,16 @@
 ---
-title: Über das DSP-Planer-Tool
+title: Über das DSP Planner-Tool
 description: Erfahren Sie mehr über das Planer-Tool zur Prognose der eindeutigen Reichweite für Platzierungen von vernetztem Fernsehen (CTV) gemäß den festgelegten Budget- und Zielgruppenkriterien.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# Über das DSP-Planer-Tool
+# Über das DSP Planner-Tool
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -41,13 +41,13 @@ Sie können die Prognose auch für jeden Plan bearbeiten, duplizieren, exportier
 
 ## Häufig gestellte Fragen
 
-+++Welche Arten von Inventar unterstützt das Planer-Tool?
++++Welche Arten von Inventar unterstützt das Tool Planer?
 
 Das Planer-Tool unterstützt alle Arten von Inventar, einschließlich programmgesteuert garantierter (PG), privater Marktplatz (PMP), [!UICONTROL On Demand] und öffentlicher. Um genaue Prognosen zu generieren, sollten Sie Angebote mit mindestens 50.000 Impressionen in den letzten sieben Tagen einschließen.
 
 +++
 
-+++Warum sehe ich &quot;[!UICONTROL Unable to generate forecast]?“
++++Warum sehe ich &quot;[!UICONTROL Unable to generate forecast]&quot;?
 
 Einer der häufigsten Gründe für diesen Fehler ist ein unzureichendes Budget oder ein Höchstgebot. Für optimale Ergebnisse verwenden Sie ein Mindestbudget von 5000 USD. Wenn der [!UICONTROL Connected TV] Medientyp ausgewählt ist, geben Sie ein maximales Angebot von mindestens 10 USD ein.
 
@@ -55,13 +55,13 @@ Stellen Sie außerdem sicher, dass die enthaltenen Herausgeber oder Angebote akt
 
 +++
 
-+++Ich habe eine Platzierung basierend auf der Prognose erstellt, aber es wurde nicht die in der Reach-Prognose angegebene Anzahl an einzigartigen Reichweiten erreicht. Warum?
++++Ich habe eine Platzierung basierend auf der Prognose erstellt, aber es wurde nicht die in der Reach-Prognose angegebene Menge an eindeutiger Reichweite erreicht. Warum? 
 
 Die REACH-Prognose ist nur eine Schätzung, und es wird erwartet, dass die tatsächlichen Ergebnisse aufgrund mehrerer Faktoren, die sich häufig ändern, wie Saisonabhängigkeit, Angebotswettbewerbsfähigkeit und Angebot und Nachfrage, variieren. Es wird nicht erwartet, dass er vollständig korrekt ist, aber am nützlichsten für direktionale Einblicke in Kampagnenstrategien, die möglicherweise die besten Ergebnisse erzielen können.
 
 +++
 
-+++Kann der Planer mit denselben Eingabeeinstellungen verschiedene Prognoseergebnisse generieren?
++++Kann der Planer mit denselben Eingabeeinstellungen verschiedene Prognoseergebnisse erzeugen?
 
 Der Planer generiert Prognosen auf der Basis der zuletzt beobachteten Daten, sodass die prognostizierte Leistung zu unterschiedlichen Zeiten variieren kann, obwohl die Planeinstellungen unverändert bleiben. Erwägen Sie, mehrere Prognosen für denselben Plan zu generieren und die Ergebnisse für jeden Plan zu exportieren.
 
@@ -73,7 +73,7 @@ Ja, Sie können eine Prognose in eine [!DNL Microsoft Excel] Tabelle exportieren
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP-Planer-Tool](planner-about.md)
+>* [Über das DSP Planner Tool](planner-about.md)
 >* [Erstellen eines Plans für die Reichweite von vernetzten Fernsehgeräten](planner-create.md)
 >* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
 >* [Bearbeiten eines Connected TV-Reach-Plans](planner-edit.md)

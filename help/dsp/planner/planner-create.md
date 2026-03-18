@@ -1,16 +1,16 @@
 ---
-title: Erstellen eines Connected TV Reach Plans
+title: Erstellen eines vernetzten TV-Reach-Plans
 description: Erfahren Sie, wie Sie einen Plan für eine vernetzte TV-Reichweite erstellen.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-# Erstellen eines Connected TV Reach Plans
+# Erstellen eines vernetzten TV-Reach-Plans
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren **&#x200B; klicken Sie oben rechts auf &#x200B;** [!UICONTROL ...] **&#x200B; und dann auf &#x200B;** [!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP-Planer-Tool](planner-about.md)
+>* [Über das DSP Planner Tool](planner-about.md)
 >* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
 >* [Bearbeiten eines Connected TV-Reach-Plans](planner-edit.md)
 >* [Exportieren eines Connected TV Reach Plans](planner-export.md)

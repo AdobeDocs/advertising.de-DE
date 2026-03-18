@@ -1,16 +1,16 @@
 ---
-title: Best Practices für das Einrichten von Leistungskampagnen
+title: Best Practices für die Einrichtung von Leistungskampagnen
 description: Erfahren Sie mehr über die Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen, zu denen Platzierungen gehören, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-# Best Practices für das Einrichten von Leistungskampagnen
+# Best Practices für die Einrichtung von Leistungskampagnen
 
 DSP kann Ihre leistungsorientierten Kampagnen optimieren. Siehe die folgenden Best Practices für Leistungskampagnen:
 
@@ -28,7 +28,7 @@ Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. die höchstmögliche R
 
 Sie müssen auch die Erfolgsereignisse ermitteln, die zum Gesamtziel führen, und dementsprechend benutzerdefinierte Ziele erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung mithilfe von [!DNL Adobe AI] verwendet werden soll. Weitere Informationen zum Erstellen benutzerdefinierter Ziele, einschließlich Best Practices, finden Sie unter [Benutzerdefinierte Ziele](custom-goal.md).
 
-## Schritt 2: Definieren Sie Ihre Strategie
+## Schritt 2: Definieren der Strategie
 
 ### Strategien zur Kundenakquise
 
@@ -147,7 +147,7 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 
 Durch die Verwendung von kontextueller Filterung, die Blockierung von Betrug vor dem Bid und/oder die [!UICONTROL Ads.txt] Filterung wird der Umfang Ihrer Platzierungen begrenzt. Sie können diese jedoch bei Bedarf verwenden.
 
-## Schritt 5: Verwenden des richtigen Creative Assets
+## Schritt 5: Verwenden der richtigen Kreativ-Assets
 
 * Es empfiehlt sich, so viele einzigartige Anzeigengrößen wie möglich einzubeziehen, um die Reichweite zu maximieren. Mit der universellen Anzeigevorlage können Sie eine beliebige standardmäßige Anzeigegröße hochladen.
 * Stellen Sie sicher, dass alle Platzierungen *mindestens* alle primären Anzeigengrößen (300x250, 728x90, 160x600, 300x600, 320x50 und 300x50) enthalten.

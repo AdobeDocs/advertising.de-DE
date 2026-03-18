@@ -3,7 +3,7 @@ title: Optimieren von Kampagnen mit DSP
 description: Erfahren Sie, wie DSP die Pakete in Ihren Kampagnen optimiert.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Dieser Optimierungsmodus funktioniert gut, wenn:
 
 * Wenn die Ausgaben hinter dem Tempo zurückbleiben, werden Gebote weniger selektiv, sodass Sie auf Auktionen bieten, die voraussichtlich niedrigere Leistungsraten aufweisen, um zum Tempo des Ziels aufzuschließen.
 
-#### Clearing-Preis-/Gebotsschattierung {#clearing-price-performance}
+#### Clearing-Preis/Angebotsabstufung {#clearing-price-performance}
 
 Nachdem DSP die Pacing-Logik ausgeführt hat, führt es das vorgeschlagene Angebot über ein Clearing-Preisprognosemodell aus. Wenn die Prognose anzeigt, dass das Angebot mit minimaler Abnahme der Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose verringert.
 
@@ -68,7 +68,7 @@ Bei einigen Optimierungszielen prognostiziert DSP die Performance jeder Auktion 
 
 * Wenn die Ausgaben hinter dem Tempo zurückbleiben, wird DSP weniger preisempfindlich und bietet bis zum [!UICONTROL Max Bid] höhere Summen an, um die Gewinnquote mit dem Tempo-Plan abzuwägen.
 
-#### Clearing-Preis-/Gebotsschattierung {#clearing-price-balanced}
+#### Clearing-Preis/Angebotsabstufung {#clearing-price-balanced}
 
 Nachdem DSP die Pacing-Logik ausgeführt hat, führt es das vorgeschlagene Angebot über ein Clearing-Preisprognosemodell aus. Wenn die Prognose anzeigt, dass das Angebot mit minimaler Abnahme der Gewinnrate gesenkt werden kann, wird das Angebot gemäß der Prognose verringert.
 
