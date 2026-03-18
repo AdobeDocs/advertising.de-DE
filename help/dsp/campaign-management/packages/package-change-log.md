@@ -3,14 +3,14 @@ title: Anzeigen eines Paketänderungsprotokolls
 description: Erfahren Sie, wie Sie Änderungen am Paket anzeigen.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 1c2b75ea10fc1c619a6fa342581b9c8fb8289fb7
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Anzeigen des Änderungsprotokolls für ein Paket
+# Änderungsprotokoll für ein Paket anzeigen
 
 Änderungsprotokolle zeigen Änderungen an, die während des ausgewählten Datumsbereichs am Paket vorgenommen wurden, einschließlich Paketname, Entitätstyp (Paket), Änderungstyp, neue und alte Werte, der Benutzer, der die Änderung vorgenommen hat, und das Datum. Sie können optional Anmerkungen zu jedem Eintrag hinzufügen.
 

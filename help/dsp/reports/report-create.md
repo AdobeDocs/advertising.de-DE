@@ -3,7 +3,7 @@ title: Erstellen eines benutzerdefinierten Berichts
 description: Erfahren Sie, wie Sie einen benutzerdefinierten Bericht erstellen.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [Benutzerdefinierten Bericht ausführen](/help/dsp/reports/report-run-now.md)
 >* [Benutzerdefinierten Bericht löschen](/help/dsp/reports/report-delete.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)

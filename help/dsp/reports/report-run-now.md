@@ -3,7 +3,7 @@ title: Benutzerdefinierten Bericht ausführen
 description: Erfahren Sie, wie Sie einen benutzerdefinierten Bericht sofort ausführen können.
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](report-create.md) oder [bearbeiten](report-edit.md).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](report-create.md) oder [bearbeiten](report-edit.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 

@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zu benutzerdefinierten Berichten
 description: Erfahren Sie mehr über benutzerspezifische Berichte, einschließlich Haushaltsberichten und Konversionspfadanalyseberichten.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Diese Metriken in [!UICONTROL Household] Berichten werden anhand der tatsächlic
 
 #### Wie konfiguriere ich den Bericht für die [!UICONTROL Placement Tags] Dimension?
 
-Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Wenn eine Platzierung mehrere Tags enthält, betrachtet der Bericht die gesamte Zeichenfolge als ein Tag. Der Bericht enthält eine Zeile für jede eindeutige Zeichenfolge.
 

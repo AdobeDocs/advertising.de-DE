@@ -2,7 +2,8 @@
 title: URL-Listen verwalten
 description: Erfahren Sie, wie Sie URL-Listen für das Platzierungs-Targeting erstellen und verwalten.
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting erstellen und verwalten. Targeting oder Ausschließen von bestimmten URL-Listen in den Platzierungseinstellungen.
 
-## Anzeigen einer URL-Liste
+## URL-Liste anzeigen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Resources]** > **[!UICONTROL URL Lists]**.
 
@@ -59,7 +60,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
@@ -127,7 +128,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 

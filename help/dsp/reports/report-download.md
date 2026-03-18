@@ -3,7 +3,7 @@ title: Benutzerdefinierten Bericht herunterladen
 description: Erfahren Sie, wie Sie einen benutzerdefinierten Bericht sofort herunterladen können.
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: f29d5173547a48ea818a93a0b931d5fb27e10044
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
