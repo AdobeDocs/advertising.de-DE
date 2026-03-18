@@ -3,7 +3,7 @@ title: Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inve
 description: Erfahren Sie, wie Sie [!DNL On Demand] Angebote abonnieren und Zugriff darauf anfordern können.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können einzelne Angebote anfordern oder einen Herausgeber abonnieren, um al
 
 Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md) ist, wird es standardmäßig als Ziel für neue Platzierungen einbezogen, die auf [!DNL On Demand] gesamte Inventar abzielen. Das neue Angebot ist auch als Ziel für bestehende Platzierungen verfügbar, aber Sie müssen die Platzierungseinstellungen manuell bearbeiten, um das Angebot als Ziel hinzuzufügen.
 
-## Alle Angebote eines Herausgebers abonnieren
+## Abonnieren aller Angebote eines Herausgebers
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
@@ -74,13 +74,13 @@ Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-stat
 
       1. Halten Sie im oberen Karussell der Publisher den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 
-      1. Um ein einzelnes Angebot zu abonnieren, klicken Sie in der [!UICONTROL Action] Spalte für die entsprechende Zeile auf **[!UICONTROL Request]**.
+      1. Um ein einzelnes Angebot zu abonnieren, klicken Sie in der **[!UICONTROL Request]** Spalte für die entsprechende Zeile auf [!UICONTROL Action].
 
    * So fordern Sie Angebote über die [!UICONTROL Deal] an:
 
       1. Klicken Sie auf **[!UICONTROL Deal view]**.
 
-      1. Klicken Sie in der [!UICONTROL Action] Spalte für die entsprechende Zeile auf **[!UICONTROL Request]** .
+      1. Klicken Sie in der **[!UICONTROL Request]** Spalte für die entsprechende Zeile auf [!UICONTROL Action] .
 
 >[!MORELIKETHIS]
 >

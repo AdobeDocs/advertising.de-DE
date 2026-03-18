@@ -1,16 +1,16 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik'
+title: '[!DNL On Demand] Premium-Inventarverlage in Asien/Pazifik'
 description: Siehe die  [!DNL On Demand] -Premium-Inventarverlage in der Region Asien-Pazifik.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] Premium-Inventarverlage in Asien/Pazifik{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 

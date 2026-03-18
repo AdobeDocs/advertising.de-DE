@@ -1,16 +1,16 @@
 ---
-title: Programmgesteuerte garantierte Vereinbarung einrichten
+title: Programmgesteuertes garantiertes Angebot einrichten
 description: Erfahren Sie, wie Sie einen programmgesteuert garantierten (PG) Deal einrichten, den Sie mit einem Publisher ausgehandelt haben.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# Programmgesteuerte garantierte Vereinbarung einrichten
+# Programmgesteuertes garantiertes Angebot einrichten
 
 *[Nur unterstützte Plattformen auf der Angebotsseite](programmatic-guaranteed-about.md)*
 
@@ -18,11 +18,11 @@ Nachdem Sie einen programmgesteuert garantierten (PG) Deal mit einem unterstütz
 
 >[!NOTE]
 >
-> Bei PG-Angeboten übernimmt der Herausgeber das gesamte Budget, die Budgetbegrenzung und die Zielgruppenbestimmung. Alle SSPs, die PG über DSP zulassen, bestätigen, dass der Herausgeber eine Budgetbegrenzung einrichten kann.
+> Bei PG-Angeboten übernimmt der Herausgeber das gesamte Budget, die Budgetbegrenzung und die Zielgruppenbestimmung. Alle SSPs, die PG über DSP zulassen, bestätigen, dass der Publisher Budgetbegrenzungen einrichten kann.
 >
-> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [&#x200B; unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
+> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [ unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
 
-## Erstellen eines programmgesteuerten garantierten Angebots mithilfe des [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
+## Erstellen eines programmgesteuerten garantierten Angebots mit dem [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
 Die folgende Methode ist das bevorzugte Verfahren für [!DNL FreeWheel], [!DNL Google Authorized Buyers] und [!DNL Magnite DV+].
 
@@ -30,7 +30,7 @@ Die folgende Methode ist das bevorzugte Verfahren für [!DNL FreeWheel], [!DNL G
 
 1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder 1x1 Tracking-Pixel für Publisher-verwaltete Anzeigen) aus, die für den Deal verwendet werden sollen, und erstellen Sie nach Aufforderung eine programmgesteuerte garantierte (PG) Standardplatzierung.
 
-   Die Erstellung einer standardmäßigen PG-Platzierung für den Abschluss ist obligatorisch, um 100 % Ihres Kaufs zu liefern. Diese Platzierung hat keine Zielgruppenbestimmung, sodass DSP an jede Bid-Anfrage des Publishers ein Angebot zurückgeben kann.
+   Die Erstellung einer standardmäßigen PG-Platzierung für den Abschluss ist obligatorisch, um 100 % Ihres Kaufs zu liefern. Diese Platzierung hat keine Zielgruppenbestimmung, sodass DSP an jede Bid-Anfrage des Herausgebers ein Angebot zurückgeben kann.
 
    * Wenn Sie einen einzelnen Deal akzeptieren, werden Sie automatisch zum Workflow für die Erstellung von PG-Standardplatzierungen weitergeleitet.
 
@@ -46,11 +46,11 @@ Die folgende Methode ist das bevorzugte Verfahren für [!DNL FreeWheel], [!DNL G
 
 Verwenden Sie diese Methode für alle anderen SSPs.
 
-1. [Richten Sie die Details der Angebots-ID manuell &#x200B;](deal-id-create.md).
+1. [Richten Sie die Details der Angebots-ID manuell ](deal-id-create.md).
 
 1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder 1x1 Tracking-Pixel für Publisher-verwaltete Anzeigen) aus, die für den Deal verwendet werden sollen, und erstellen Sie eine PG-Standardplatzierung, wie Sie dazu aufgefordert werden.
 
-   Die Erstellung einer PG-Standardplatzierung für den Abschluss ist obligatorisch, um 100 % Ihres Kaufs zu liefern. Diese Platzierung hat keine Zielgruppenbestimmung, sodass DSP an jede Bid-Anfrage des Publishers ein Angebot zurückgeben kann.
+   Die Erstellung einer PG-Standardplatzierung für den Abschluss ist obligatorisch, um 100 % Ihres Kaufs zu liefern. Diese Platzierung hat keine Zielgruppenbestimmung, sodass DSP an jede Bid-Anfrage des Herausgebers ein Angebot zurückgeben kann.
 
 1. (Optional) Targeting des PG-Angebots in zusätzlichen PG- oder Nicht-PG-Platzierungen durch Klicken auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 

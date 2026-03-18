@@ -1,9 +1,9 @@
 ---
-title: Inventarangebote erneut  [!DNL On Demand]  Premium anfordern
+title: Inventarangebote erneut  [!DNL On Demand] /Premium anfordern
 description: Erfahren Sie, wie Sie zuvor abgelehnte  [!DNL On Demand]  erneut anfordern können.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Sie können [!DNL On Demand] Inventarangebote, für die Sie abgelehnt wurden, erneut anfordern, einschließlich Angebote von einem Publisher, für den Sie abonniert wurden. Führen Sie diese Schritte aus, um sicherzustellen, dass alle anwendbaren Kontoeinstellungen korrekt sind, bevor Sie eine neue Anfrage senden.
 
-Wenn ein Deal nicht genehmigt wurde, nachdem Sie ihn erneut angefordert haben, wenden Sie sich an Ihr Adobe-Account-Team, um zu sehen, ob der Publisher zusätzliche Einschränkungen hat, die Ihrem Account den Zugriff auf den Deal verbieten.
+Wenn ein Deal nicht genehmigt wurde, nachdem Sie ihn erneut angefordert haben, wenden Sie sich an Ihr Adobe-Accountteam, um zu erfahren, ob der Publisher zusätzliche Einschränkungen hat, die Ihrem Account den Zugriff auf den Deal verbieten.
 
 Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-status.md) ist, wird es standardmäßig als Ziel für neue Platzierungen einbezogen, die auf [!DNL On Demand] gesamte Inventar abzielen. Das neue Angebot ist auch als Ziel für bestehende Platzierungen verfügbar, aber Sie müssen die Platzierungseinstellungen manuell bearbeiten, um das Angebot als Ziel hinzuzufügen.
 
-1. Bestätigen Sie mit Ihrem Adobe-Account-Team, dass der [!UICONTROL Account Type] für das DSP-Konto Ihres Unternehmens korrekt ist.
+1. Bestätigen Sie mit Ihrem Adobe-Account-Team, dass der [!UICONTROL Account Type] für das DSP-Account Ihres Unternehmens korrekt ist.
 
 1. Vergewissern Sie sich, dass die Advertiser-Kategorie für das entsprechende Advertiser-Konto korrekt ist:
 
@@ -48,7 +48,7 @@ Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-stat
 
       1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 
-      1. Klicken Sie in der [!UICONTROL Action] Spalte für die entsprechende Zeile auf **[!UICONTROL Rerequest]** .
+      1. Klicken Sie in der **[!UICONTROL Rerequest]** Spalte für die entsprechende Zeile auf [!UICONTROL Action] .
 
 >[!MORELIKETHIS]
 >

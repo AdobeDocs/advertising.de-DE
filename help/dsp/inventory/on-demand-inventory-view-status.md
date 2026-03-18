@@ -1,9 +1,9 @@
 ---
-title: Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen
+title: Status Ihrer Deal [!DNL On Demand] Anfragen und Abonnements anzeigen
 description: Erfahren Sie, wie Sie den Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -35,9 +35,9 @@ Die Genehmigung oder Ablehnung durch den Herausgeber kann auf dem Kontotyp und d
 
 * ![abgelehnt](/help/dsp/assets/denied.png) für Abschlussanfragen, die für alle Advertiser im Konto abgelehnt wurden
 
-  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [&#x200B; den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [ den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-Wenn Sie Fragen zum Genehmigungsprozess haben, wenden Sie sich an Ihr Adobe-Account-Team.
+Wenden Sie sich bei Fragen zum Genehmigungsprozess an Ihr Adobe-Account-Team.
 
 >[!MORELIKETHIS]
 >

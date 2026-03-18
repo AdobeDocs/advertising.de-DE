@@ -3,7 +3,7 @@ title: Über programmgesteuerte garantierte -Angebote
 description: Erfahren Sie mehr über programmgesteuert garantierte (PG) Angebote und welche SSPs zertifiziert sind, um sie bereitzustellen.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Über programmgesteuerte garantierte -Angebote
 
-Ein programmgesteuert garantierter (PG) Deal ist ein garantierter Kauf direkt bei einem Herausgeber über eine Deal ID (anstatt über Anzeigen-Server-Tags). PG ist für Sie und Ihren Publisher flexibler zu verwalten und bietet mehr Transparenz als normale Tag-Käufe. Abrechnung und Reporting werden über DSP konsolidiert, was Zeit spart.
+Ein programmgesteuert garantierter (PG) Deal ist ein garantierter Kauf direkt bei einem Herausgeber über eine Deal ID (anstatt über Anzeigen-Server-Tags). PG ist für Sie und Ihren Publisher flexibler zu verwalten und bietet mehr Transparenz als normale Tag-Käufe. Abrechnung und Reporting werden über DSP konsolidiert, wodurch Sie Zeit sparen.
 
 ## Merkmale eines PG-Angebots
 
-* Der Deal wird immer über DSP abgerechnet.
+* Der Deal wird immer über DSP in Rechnung gestellt.
 * Der Deal hat einen festen Preis und eine feste Menge.
 * Die Publisher- oder Supply-Side-Plattform (SSP) übernimmt die Budgetplanung, Budgetbegrenzung und das Targeting.
 * In der Regel hat der Abschluss eine höhere Priorität im Anzeigenserver des Herausgebers.

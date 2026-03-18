@@ -1,16 +1,16 @@
 ---
-title: Exportieren von Daten aus einer Campaign Management-Ansicht
+title: Exportieren von Daten aus einer Kampagnenverwaltungsansicht
 description: Erfahren Sie, wie Sie die Daten aus einer beliebigen Ansicht des Kampagnen-Managements in eine Tabellendatei exportieren.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Exportieren von Daten aus einer Campaign Management-Ansicht
+# Exportieren von Daten aus einer Kampagnenverwaltungsansicht
 
 Sie können eine Momentaufnahme der aktuellen gefilterten Kampagnenverwaltungsansicht in eine Datei im Microsoft Excel-Tabellenformat (XLSX) exportieren. Sie können Daten exportieren für:
 
@@ -30,5 +30,5 @@ Sie können eine Momentaufnahme der aktuellen gefilterten Kampagnenverwaltungsan
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Campaign Management-Ansichten](campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
 >* [Campaign-Datenansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
