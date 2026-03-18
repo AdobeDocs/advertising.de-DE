@@ -32,7 +32,7 @@ DSP berechnet Ihnen keine Gebühren für das Senden dieser Signale an Audience M
 
 * Sie können die Kampagnendaten für Anwendungsfälle wie Frequenzlimitierung für Kreative, Retargeting von Benutzenden, die mit früheren Kampagnen konfrontiert waren, und Analyse des nachgelagerten Site-Verhaltens und der Einstiegspunkte nutzen.
 
-* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können verwendet werden, um die Ereignissequenz zu verbessern, die über Audience Manager [!DNL Audience Optimization Reports] oder eine [[!DNL Audience Analytics] Integration mit Adobe Analytics) zu Konversionen ](/help/integrations/audience-manager/audience-analytics.md).
+* Die aggregierten Daten bieten eine einheitliche Ansicht der Kampagnenleistung, helfen bei der Identifizierung benutzerdefinierter Konversionspfade und können verwendet werden, um die Ereignissequenz zu verbessern, die über Audience Manager [!DNL Audience Optimization Reports] oder eine [[!DNL Audience Analytics] Integration mit Adobe Analytics) zu Konversionen &#x200B;](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Tracking der Daten
 
@@ -48,7 +48,7 @@ Audience Manager verfolgt Klicks ähnlich wie Impressions, mit dem Unterschied, 
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
