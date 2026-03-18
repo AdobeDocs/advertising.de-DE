@@ -3,7 +3,7 @@ title: Richtlinie für universelle Adobe Advertising-ID-Anforderungen
 description: Siehe Richtlinie für die Verwendung universeller IDs.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Durch die Verwendung der universellen IDs, die über die Services zur Verfügung
 
 * Wenn Sie nach dem Datum des In-Kraft-Tretens der Vereinbarung eine Abmeldung erhalten, werden Sie die universelle ID dieses abgemeldeten Benutzers nicht mehr verwenden.
 
-### UID2 Verbotene Länder
+### UID2 - Verbotene Länder
 
 Indem Sie sich dafür entscheiden, universelle UID2-IDs über die Services zu verwenden, stimmen Sie zu, sicherzustellen, dass alle Kundendaten, die von Ihnen über die On-Demand-Services für eine solche Verwendung in Verbindung mit universellen UID2-IDs übermittelt, gespeichert, angezeigt, verteilt oder anderweitig zur Verfügung gestellt werden, sich nicht auf eine Person beziehen, die in einem der [in UID2 verbotenen Länder ansässig ist, die in Anlage A](#prohibited-countries-uid2) aufgeführt sind.
 

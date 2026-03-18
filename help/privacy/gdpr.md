@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die unterstützten Datenanfragetypen, die e
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 8e9dac77b4f687fb175adaf27a4e726fa80ca7b4
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
    >
    >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens - einschließlich [!DNL DSP]-Konten oder Werbekunden, [!DNL Search, Social, & Commerce]-Konten sowie [!DNL Creative]- oder [!DNL DCO]-Konten - mit Ihrer Experience Cloud-Organisations-ID verknüpft sind.
 
-1. Verwenden Sie entweder die [Adobe Experience Platform Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de) (für automatisierte Anfragen) oder die [Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de) (für Ad-hoc-Anfragen), um im Namen der betroffenen Personen Zugriffs- und Löschanfragen an Adobe Advertising zu senden und den Status vorhandener Anfragen zu überprüfen.
+1. Verwenden Sie entweder die [Adobe Experience Platform Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (für automatisierte Anfragen) oder die [Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de) (für Ad-hoc-Anfragen), um im Namen der betroffenen Personen Zugriffs- und Löschanfragen an Adobe Advertising zu senden und den Status vorhandener Anfragen zu überprüfen.
 
    Für Werbetreibende, die über eine mobile App verfügen, um mit betroffenen Personen zu interagieren und Kampagnen mit DSP zu starten, müssen Sie die datenschutzfähigen Mobile SDKs für Experience Cloud herunterladen. Mit den Mobile SDKs können Datenverantwortliche Status-Flags zum Opt-out festlegen, die Geräte-ID der betroffenen Person abrufen (Namespace-ID: `deviceID`) und Anfragen an die Privacy Service-API senden. Für Ihre Mobile App ist die SDK-Version 4.15.0 oder höher erforderlich.
 
@@ -73,7 +73,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
    >
    >Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie für jede API separate Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] und [!DNL DCO]) mit einem Konto pro Unterlösung senden.
 
-Für Adobe Advertising sind alle erforderlichen Schritte erforderlich. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mithilfe des Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter &quot;[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)&quot;.
+Für Adobe Advertising sind alle erforderlichen Schritte erforderlich. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mithilfe des Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter &quot;[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;.
 
 ## Erforderliche Feldwerte in Adobe Advertising-JSON-Anfragen
 
@@ -98,7 +98,7 @@ Für Adobe Advertising sind alle erforderlichen Schritte erforderlich. Weitere I
 
 * `"regulation": **gdpr**` (dies ist die Datenschutzverordnung, die für die Anfrage gilt)
 
-## Beispiel einer von einer betroffenen Person mit einer Adobe Advertising-Benutzer-ID gesendeten Anfrage, die von `AdobePrivacy.js` abgerufen wurde
+## Beispiel einer Anfrage, die von einer betroffenen Person mit einer von `AdobePrivacy.js` abgerufenen Adobe Advertising-Benutzer-ID gesendet wurde
 
 ```
 {

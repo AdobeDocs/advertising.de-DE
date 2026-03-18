@@ -3,7 +3,7 @@ title: Adobe Advertising-Anzeigenanforderungsrichtlinie
 description: Siehe Richtlinie für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Richtlinie zuletzt aktualisiert: 17. Juli 2024<!-- (except for formatting changes unrelated to content)-->*
 
-*Für Adobe Advertising DSP- und Adobe Advertising-Suche, Social und Commerce*
+*Für Adobe Advertising DSP und Adobe Advertising Search, Social und Commerce*
 
-Diese Richtlinie zu Anzeigenanforderungen („Richtlinie„) legt die Anforderungen für Anzeigen fest, die über [!DNL Adobe’s] On-Demand-Dienste für Adobe Advertising („Dienste„) geschaltet werden. Diese Richtlinie wird durch Verweis in den Vertrag zwischen [!DNL Adobe] und dem Kunden („Sie„) über die On-Demand-Services aufgenommen. Begriffe, die in dieser Richtlinie verwendet, aber hier nicht definiert werden, haben die in dieser Vereinbarung festgelegte Bedeutung.
+Diese Richtlinie zu Anzeigenanforderungen („Richtlinie„) legt die Anforderungen für Anzeigen fest, die über [!DNL Adobe’s] On-Demand-Services für Adobe Advertising („Services„) geschaltet werden. Diese Richtlinie wird durch Verweis in den Vertrag zwischen [!DNL Adobe] und dem Kunden („Sie„) über die On-Demand-Services aufgenommen. Begriffe, die in dieser Richtlinie verwendet, aber hier nicht definiert werden, haben die in dieser Vereinbarung festgelegte Bedeutung.
 
 [!DNL Adobe] behält sich das Recht vor, nach eigenem Ermessen zu bestimmen, ob eine Anzeige oder die Website(s), auf die die Anzeige umleitet oder verlinkt, gegen die Anforderungen dieser Richtlinie verstößt. In diesem Fall können [!DNL Adobe] diese Anzeige ablehnen und/oder den Zugriff auf die Dienste auf dieser Grundlage beenden oder aussetzen.
 
@@ -24,7 +24,7 @@ Zusätzlich zu den unten und in der Vereinbarung dargelegten Anforderungen müss
 
 ## Voraussetzungen für Anzeigeninhalte
 
-### Creative Requirements
+### Creative-Anforderungen
 
 Alle Anzeigen, die über die On-Demand-Services übertragen, gespeichert, angezeigt, verteilt oder anderweitig von Ihnen zur Verfügung gestellt werden, müssen den in den Adobe Advertising-Werbespezifikationen enthaltenen Werbespezifikationen entsprechen, die von [!DNL Adobe] von Zeit zu Zeit überarbeitet werden können.
 

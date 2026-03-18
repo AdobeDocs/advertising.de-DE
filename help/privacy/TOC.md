@@ -1,18 +1,18 @@
 ---
 role: User, Admin
-user-guide-title: Adobe Advertising – Unterstützung beim Verbraucherdatenschutz
+user-guide-title: Adobe Advertising-Unterstützung für den Verbraucherdatenschutz
 user-guide-description: Erfahren Sie mehr über die Sicherheits- und Datenschutzkontrollen, die Adobe Advertising bietet, um Advertiser-Kundinnen und -Kunden bbei der Einhaltung der Datenschutzbestimmungen für Verbraucherinnen und Verbraucher zu unterstützen.
-breadcrumb-title: Unterstützung für den Kundendatenschutz
+breadcrumb-title: Unterstützung für den Datenschutz von Privatkund*innen
 index: true
-source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 56%
+ht-degree: 31%
 
 ---
 
 
-# Adobe Advertising – Unterstützung beim Verbraucherdatenschutz {#privacy}
+# Adobe Advertising-Unterstützung für den Verbraucherdatenschutz {#privacy}
 
 + [Über die Adobe Advertising-Unterstützung für den Verbraucherdatenschutz](/help/privacy/home.md)
 + [Unterstützung für die DSGVO](/help/privacy/gdpr.md)

@@ -1,16 +1,16 @@
 ---
-title: Adobe Advertising akzeptabler Konsistenzsegmente
+title: Von Adobe Advertising akzeptable Konsistenzsegmente
 description: Siehe Richtlinien für akzeptable gesundheitsbezogene Zielgruppensegmente und Taktiken, die als Alternativen zum Targeting von gesundheitsbezogenen Zielgruppensegmenten verwendet werden können.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Acceptable Health Segment Guidelines
+# Adobe Advertising Acceptable Health-Segmentrichtlinien
 
 *Für Adobe Advertising DSP und[!DNL Adobe Advertising Search, Social, & Commerce]*
 
@@ -18,7 +18,7 @@ Die folgenden Richtlinien beschreiben inakzeptable und akzeptable gesundheitsbez
 
 Diese Richtlinien sind in der [!DNL Network Advertising Alliance (NAI)] zusammengefasst.
 
-Siehe auch [Richtlinie für Adobe Advertising-Werbeanforderungen](/help/policies/ad-requirements-policy.md) um festzustellen, ob ein gesundheitsbezogenes Zielgruppensegment gemäß der Adobe Advertising-Zielgruppenbestimmungsrichtlinie verwendet werden kann.
+Siehe auch [Adobe Advertising-Anzeigenanforderungsrichtlinie](/help/policies/ad-requirements-policy.md) um festzustellen, ob ein gesundheitsbezogenes Zielgruppensegment gemäß der Adobe Advertising-Zielgruppenbestimmungsrichtlinie verwendet werden kann.
 
 ## Konsistenzsegmente, die nicht verwendet werden sollten
 
