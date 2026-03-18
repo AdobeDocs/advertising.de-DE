@@ -3,7 +3,7 @@ title: Über die Anzeigenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Anzeigenverwaltung.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Alle folgenden Anzeigentypen sind in DSP verfügbar. Die vollständigen Spezifik
 
 * **Audioanzeigen (nur von Drittanbietern)**: Audioanzeigen werden zwischen Inhalten auf digitalen Publisher-Sites wiedergegeben und können eigenständig als Audiodateien oder zusammen mit begleitenden Bannern ausgeführt werden. Audio wird am besten verwendet, um das Markenbewusstsein zu steigern und mit Zielgruppen unterwegs zu interagieren. Zu den wichtigsten Leistungsindikatoren für Audio gehören [!UICONTROL Completion Rate] und [!UICONTROL Cost per Completion].
 
-* **Display-Anzeigen (nur Drittanbieter)**: Display-Anzeigen sind animierte oder statische Bilder, die in Webbrowsern oder in Apps angezeigt werden. Durch Klicken auf die Werbeeinheit gelangt der Benutzer zu einer gebrandeten Website oder Microsite. Display eignet sich am besten, um effiziente CPMs zu fördern, die Nachrichtenzuordnung zu verbessern, zusätzliche Marken- oder Produkt-Touchpoints hinzuzufügen und Benutzer den Einkaufstrichter hinunter zu bringen. Zu den wichtigsten Leistungsindikatoren für die Anzeige gehören [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] und [!UICONTROL Cost per Conversion]. DSP unterstützt eine Vielzahl von Anzeigengrößen für Anzeigenbanner.
+* **Display-Anzeigen (nur Drittanbieter)**: Display-Anzeigen sind animierte oder statische Bilder, die in Webbrowsern oder in Apps angezeigt werden. Durch Klicken auf die Werbeeinheit gelangt der Benutzer zu einer gebrandeten Website oder Microsite. Display eignet sich am besten, um effiziente CPMs zu fördern, die Nachrichtenzuordnung zu verbessern, zusätzliche Marken- oder Produkt-Touchpoints hinzuzufügen und die Zahl der Nutzer zu senken, die funnel erwerben möchten. Zu den wichtigsten Leistungsindikatoren für die Anzeige gehören [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] und [!UICONTROL Cost per Conversion]. DSP unterstützt eine Vielzahl von Anzeigengrößen für Banner.
 
 * **Mobile Anzeigen (nur Drittanbieter)**: Mobile Anzeigen können im Pre-Roll-Video- (VAST, MRAID) oder Standard-Anzeigeformat vorliegen. Mobile Pre-Roll-Videos können automatisch oder per Klick wiedergegeben werden und eignen sich am besten, um Viewer über mehrere Bildschirme zu erreichen. Bei der standardmäßigen Mobilgeräteanzeige handelt es sich um ein statisches Bild, das in mobilen Webbrowsern oder in Apps angezeigt wird. Es wird am besten verwendet, um digitale Videoeinkäufe zu ergänzen, die Nachrichtenverknüpfung zu fördern und zusätzliche Branding- oder Produkt-Touchpoints hinzuzufügen. Mobile Anzeigen können auch als Vollbild-Übernahmen oder als mobile Zwischenräume fungieren, bei denen es sich um leistungsstarke Mobile-Anzeigen im Vollbildmodus handelt, die am besten verwendet werden, um Markenbewusstsein für mobile Zielgruppen zu entwickeln und Konversionen zu fördern.
 
@@ -41,11 +41,11 @@ Alle folgenden Anzeigentypen sind in DSP verfügbar. Die vollständigen Spezifik
 
   Universelle Videoanzeigen können nur an Platzierungen für universelle Videos angehängt werden.
 
-  Weitere Informationen [&#x200B; universellen Videoanzeigen finden Sie &#x200B;](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
+  Weitere Informationen [ universellen Videoanzeigen finden Sie ](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
 
 ## DSP-Anzeigengenehmigungen
 
-Wenn Sie eine Anzeige erstellen, prüft die DSP diese auf sensible Kategorien, klickt auf URL-Funktionen und zeigt eine Vorschau für das Rendering an.
+Wenn Sie eine Anzeige erstellen, prüft DSP diese auf sensible Kategorien, klickt auf URL-Funktionen und zeigt eine Vorschau für das Rendering an.
 
 Zunächst zeigt die [!UICONTROL Status] der Anzeige einen roten Punkt an. Der Überprüfungsprozess dauert normalerweise 24-48 Stunden. Eine beschädigte Anzeige kann jedoch länger als 48 Stunden den Status „Ausstehend“ aufweisen, sodass Sie Zeit haben, Fehler zu beheben, bevor die Anzeige abgelehnt wird. Abgelehnte Werbeanzeigen enthalten einen Grund für die Ablehnung.
 
@@ -55,7 +55,7 @@ Wenn DSP eine Anzeige genehmigt, wird in der Spalte Status der Anzeige ein grün
 
 >[!NOTE]
 >
->Ihre Anzeige kann nur geschaltet werden, wenn sowohl DSP als auch SSP die Kreativität genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
+>Ihre Anzeige kann nur geschaltet werden, wenn sowohl DSP als auch der SSP die Kreativaktion genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
 
 >[!MORELIKETHIS]
 >

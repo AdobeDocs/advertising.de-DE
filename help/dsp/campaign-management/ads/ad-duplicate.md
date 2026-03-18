@@ -3,7 +3,7 @@ title: Duplizieren einer Anzeige
 description: Informationen zum Duplizieren einer Anzeige.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie können eine Anzeige innerhalb derselben Kampagne duplizieren.
 
    >[!NOTE]
    >
-   >Ihre Anzeige kann nur geschaltet werden, wenn sowohl DSP als auch SSP die Kreativität genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
+   >Ihre Anzeige kann nur geschaltet werden, wenn sowohl DSP als auch der SSP die Kreativaktion genehmigt haben. Jeder SSP hat seine eigenen Genehmigungsanforderungen und -prozesse.
 
 >[!MORELIKETHIS]
 >

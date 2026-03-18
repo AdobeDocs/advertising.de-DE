@@ -1,15 +1,16 @@
 ---
-title: Pixel aus Anzeigen anhängen und entfernen
+title: Pixel an Anzeigen anhängen und daraus entfernen
 description: Erfahren Sie, wie Sie Tracking-Pixel von Drittanbietern an Anzeigen anhängen und daraus entfernen können.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
-# Pixel aus Anzeigen anhängen und entfernen
+# Pixel an Anzeigen anhängen und daraus entfernen
 
 Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihnen trennen.
 
@@ -65,7 +66,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
    1. Klicken Sie unten rechts auf **[!UICONTROL Attach]**.
 
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück &#x200B;](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
+1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
 
 ## Trennen von Tracking-Pixeln von Drittanbietern von Anzeigen in einer Platzierung {#detach-pixels-ads}
 
@@ -89,7 +90,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
    1. Klicken Sie unten rechts auf **[!UICONTROL Detach]**.
 
-1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück &#x200B;](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
+1. (Optional) Um zu den Kampagnendetailansichten zurückzukehren, klicken Sie auf ![Zurück ](/help/dsp/assets/breadcrumb-return.png " Ordner") links neben [!UICONTROL Ad Tools] und wählen Sie den Kampagnennamen aus.
 
 ## An Anzeigen angehängte Pixel anzeigen {#view-pixels-ads}
 
@@ -107,7 +108,7 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 
 1. Klicken Sie auf eine beliebige Anzeigenzeile in der linken Tabelle, um die angehängten Pixel in der rechten Tabelle anzuzeigen.
 
-1. (Optional) Um mehr Pixel an die Anzeigen anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens [Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer &#x200B;](#attach-pixels-ads)&quot;.
+1. (Optional) Um mehr Pixel an die Anzeigen anzuhängen, wechseln Sie zur **[!UICONTROL Edit]** oben rechts. Anweisungen finden Sie in Schritt 3 des vorherigen Verfahrens [Anhängen von Tracking-Pixeln von Drittanbietern an Anzeigen in einer ](#attach-pixels-ads)&quot;.
 
 >[!MORELIKETHIS]
 >
@@ -119,4 +120,3 @@ Sie können Tracking-Pixel von Drittanbietern an Anzeigen anhängen und von ihne
 >* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](ad-list-placements.md)
 >* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

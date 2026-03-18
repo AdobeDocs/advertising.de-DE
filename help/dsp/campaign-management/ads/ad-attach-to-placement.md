@@ -3,7 +3,7 @@ title: Hinzufügen und Entfernen von Anzeigen aus Platzierungen
 description: Erfahren Sie, wie Sie Anzeigen an Platzierungen anhängen und Anzeigen aus Platzierungen entfernen können.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
 
 1. Klicken Sie auf **[!UICONTROL Attach Selected Ads]**.
 
-## Hinzufügen von Anzeigen zu Platzierungen über die [!UICONTROL Ads] {#attach-ads}
+## Hinzufügen einer Anzeige zu Platzierungen über die [!UICONTROL Ads] {#attach-ads}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 

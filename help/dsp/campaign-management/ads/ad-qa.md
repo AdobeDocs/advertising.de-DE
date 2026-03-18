@@ -1,16 +1,16 @@
 ---
-title: Überprüfen und Bearbeiten von Anzeigendetails mithilfe von Bulksheets
+title: Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten
 description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen stapelweise überprüfen können.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Überprüfen und Bearbeiten von Anzeigendetails mithilfe von Bulksheets
+# Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
@@ -20,7 +20,7 @@ Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen 
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[&#x200B; einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[ einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter [Anhängen von Anzeigen an Platzierungen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).
 
 ## Download-Details für alle Anzeigen in einer Kampagne
