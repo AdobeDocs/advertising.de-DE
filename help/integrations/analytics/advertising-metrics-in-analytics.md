@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >* Adobe Advertising übergibt Traffic-Metriken und -Dimensionen täglich an [!DNL Analytics].
 >* [!DNL Analytics] erfasst Clickthroughs und Viewthroughs von Adobe Advertising in Echtzeit.
->* [!DNL Search, Social, & Commerce] wird diese Funktion für die meisten Werbenetzwerke und Kampagnentypen unterstützt. Weitere Informationen finden Sie [ „Unterstütztes ](/help/search-social-commerce/introduction/supported-inventory.md)&quot; im [!DNL Search, Social, & Commerce].
+>* [!DNL Search, Social, & Commerce] wird diese Funktion für die meisten Werbenetzwerke und Kampagnentypen unterstützt. Weitere Informationen finden Sie [&#x200B; „Unterstütztes &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)&quot; im [!DNL Search, Social, & Commerce].
 
 ## Traffic-Metriken von Adobe Advertising
 

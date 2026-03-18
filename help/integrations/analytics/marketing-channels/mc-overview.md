@@ -36,7 +36,7 @@ Andere Kanäle haben keine verfolgbaren URL-Pfade und benötigen weitere Logik z
 
 Adobe empfiehlt, mit Ihrem Analytics-Team zusammenzuarbeiten, um einen umfassenden Satz an [!DNL Marketing Channels] Verarbeitungsregeln zu erstellen, mit denen alle Kanäle verfolgt werden, die für Ihr Unternehmen relevant sind. Auf diese Weise können Sie leistungsstarke Attributionsberichte erstellen.
 
-Informationen dazu, wie Adobe Advertising zu den Signalen beitragen kann, die zum Erstellen benutzerdefinierter Marketing-Kanäle erforderlich sind, finden Sie unter &quot;[ von Advertising-IDs zum Erstellen  [!DNL Marketing Channels]  Regeln](mc-ids.md).
+Informationen dazu, wie Adobe Advertising zu den Signalen beitragen kann, die zum Erstellen benutzerdefinierter Marketing-Kanäle erforderlich sind, finden Sie unter &quot;[&#x200B; von Advertising-IDs zum Erstellen  [!DNL Marketing Channels]  Regeln](mc-ids.md).
 
 >[!MORELIKETHIS]
 >

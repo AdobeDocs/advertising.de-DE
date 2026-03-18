@@ -50,7 +50,7 @@ Um die erforderlichen Benutzer-IDs zu erstellen, müssen Sie ein Adobe Advertisi
 
 ![Prozess der Segmenterstellung](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [ Kampagnen oder Anzeigengruppen ](#audience-manager-targets).
+Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [&#x200B; Kampagnen oder Anzeigengruppen &#x200B;](#audience-manager-targets).
 
 ### Verwenden [!DNL Analytics] Segmente zum Targeting oder Ausschließen von Anzeigen {#analytics-targets}
 

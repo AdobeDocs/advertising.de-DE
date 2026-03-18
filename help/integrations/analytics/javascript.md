@@ -138,7 +138,7 @@ Sie können die Validierung mit einem beliebigen Tool vom Typ „Paket-Sniffer�
 1. Wechseln Sie zur Registerkarte [!UICONTROL Network] .
 1. Klicken Sie in der [!UICONTROL Solutions Filter]-Symbolleiste auf [!UICONTROL Adobe Advertising] und [!UICONTROL Analytics] Sie.
 1. Suchen Sie in der [!UICONTROL Request URL - Hostname] Parameterzeile nach `lasteventf-tm.everesttech.net`.
-1. Überprüfen Sie in der [!UICONTROL Request - Parameters] Zeile die generierten Signale, ähnlich wie in Schritt 3 unter &quot;[ zum Bestätigen des Codes mit [!DNL Chrome Developer Tools]](#validate-js-chrome).
+1. Überprüfen Sie in der [!UICONTROL Request - Parameters] Zeile die generierten Signale, ähnlich wie in Schritt 3 unter &quot;[&#x200B; zum Bestätigen des Codes mit [!DNL Chrome Developer Tools]](#validate-js-chrome).
    * (Implementierungen, die den `visitorAPI.js`-Code des Experience Cloud Identity Services verwenden) Stellen Sie sicher, dass der `Sdid` mit dem `Supplemental Data ID` im Adobe Analytics-Filter übereinstimmt.
    * (Implementierungen, die den Experience Platform-[!DNL Web SDK] verwenden `alloy.js`Code) Stellen Sie sicher, dass der Wert des `advertisingStitchID`-Parameters mit dem an Experience Platform Edge Network gesendeten `Sdid` übereinstimmt.
    * Wenn der Code nicht generiert wird, überprüfen Sie, ob das Adobe Advertising-Cookie auf der Registerkarte &quot;[!UICONTROL Application]&quot; entfernt wurde. Aktualisieren Sie die Seite nach dem Entfernen und wiederholen Sie den Vorgang.
