@@ -28,9 +28,9 @@ Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederver
    >
    >Wenn Sie die Zielgruppensegmentlogik bearbeiten, werden [Daten zur Zielgruppengröße](audience-about.md) im rechten Bedienfeld aktualisiert.
 
-   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![ klicken Sie neben ](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
+   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![&#x200B; klicken Sie neben &#x200B;](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
 
-   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md), manuell zu bearbeiten.
+   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar &#x200B;](audience-settings.md), manuell zu bearbeiten.
 
       * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
 
