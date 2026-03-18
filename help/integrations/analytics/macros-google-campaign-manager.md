@@ -1,18 +1,18 @@
 ---
-title: Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags
+title: Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags
 description: Erfahren Sie, warum und wie Sie  [!DNL Analytics for Advertising] -Makros zu Ihren  [!DNL Google Campaign Manager 360]  hinzufügen
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-# [!DNL Analytics for Advertising] an [!DNL Google Campaign Manager 360]-Anzeigen-Tags anhängen
+# Anfügen [!DNL Analytics for Advertising] Makros an [!DNL Google Campaign Manager 360] Anzeigentags
 
-*Nur Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
+*Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
 
 *Gilt nur für Advertising DSP*
 
@@ -42,17 +42,17 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->&#x200B;>* Wenn die Landingpage-URL ein Hash-Symbol (#) enthält, was nicht üblich ist, platzieren Sie den `amo` vor dem Hash-Symbol.
+>>* Wenn die Landingpage-URL ein Hash-Symbol (#) enthält, was nicht üblich ist, platzieren Sie den `amo` vor dem Hash-Symbol.
 >* Wenn nach dem `amo` Parameter keine anderen Parameter enthalten sind, fügen Sie nach diesem Parameter einen Parameter hinzu (z. B. &quot;&amp;a=b„). Beispiel: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Advertiser-Ebene
 
-1. Weitere Informationen finden [&#x200B; in den Anweisungen zum Öffnen der Advertiser-Eigenschaften](https://support.google.com/campaignmanager/answer/2829344).
+1. Weitere Informationen finden [ in den Anweisungen zum Öffnen der Advertiser-Eigenschaften](https://support.google.com/campaignmanager/answer/2829344).
 1. Fügen Sie in den [!UICONTROL Landing page URL suffix] Einstellungen `%pamo!;` in das Feld [!UICONTROL URL suffix] ein.
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Kampagnenebene
 
-1. Weitere Informationen finden [&#x200B; in den Anweisungen zum Öffnen der Kampagneneigenschaften](https://support.google.com/campaignmanager/answer/2838056#set).
+1. Weitere Informationen finden [ in den Anweisungen zum Öffnen der Kampagneneigenschaften](https://support.google.com/campaignmanager/answer/2838056#set).
 1. Fügen Sie in den [!UICONTROL Landing page URL suffix] Einstellungen `%pamo!;` in das Feld [!UICONTROL URL suffix] ein.
 
 ### Konfigurieren des URL-Suffix der Landingpage auf Kreativebene
@@ -60,11 +60,11 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 1. Öffnen Sie die Kreativ-Eigenschaften.
 1. Fügen Sie in der [!UICONTROL Click tags]-Einstellung `%pamo!;` in die Spalte [!UICONTROL Landing page] für das Klick-Tag ein.
 
-## Wie [!DNL Analytics for Advertising] Makros in DSP erweitert werden
+## Erweitern [!DNL Analytics for Advertising] Makros in DSP
 
 Wenn Sie in DSP eine Anzeige erstellen, die den [!DNL Analytics for Advertising] (`amo`) enthält, werden die `ef_id`- und `s_kwcid` automatisch an die Klick-URL angehängt. Es empfiehlt sich, das -Tag in DSP zu überprüfen, um sicherzustellen, dass die `ef_id`- und `s_kwcid` vorhanden sind.
 
-Im Folgenden finden Sie ein Beispiel für ein [!DNL Google Campaign Manager 360]-Tag [ins](https://support.google.com/campaignmanager/answer/6080468) wie es in DSP angezeigt wird.
+Im Folgenden finden Sie ein Beispiel für ein [!DNL Google Campaign Manager 360]ins[Tag](https://support.google.com/campaignmanager/answer/6080468) wie es in DSP angezeigt wird.
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'
