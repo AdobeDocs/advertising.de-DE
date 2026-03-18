@@ -3,7 +3,7 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgrupp
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und sie in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Sie können später die universellen ID-Typen ändern, in die die Quell-Audience
 
 Sie können auch eine Quelle löschen.
 
-## Erstellen einer Zielgruppen-Source
+## Erstellen einer Zielgruppenquelle
 
 <!-- Not sure about this
 
@@ -56,7 +56,7 @@ You can create one source for each combination of universal ID partner and data 
 >
 >Nachdem Sie eine Quelle für Ihre Kundendatenplattform erstellt haben, müssen Sie zusätzliche Schritte ausführen, um Ihre Audience zu importieren. Siehe [Workflow für [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), <!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> der [Workflow für [!DNL Amperity]](source-amperity.md), [Workflow für [!DNL Optimizely]](source-optimizely.md) und [Workflow für [!DNL Tealium]](source-tealium.md).
 
-## Ändern der ID-Typen für eine Zielgruppen-Source
+## Ändern der ID-Typen für eine Zielgruppenquelle
 
 <!-- Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
@@ -75,7 +75,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Löschen einer Zielgruppen-Source
+## Löschen einer Zielgruppenquelle
 
 Durch das Löschen einer Quelle werden die übersetzten Segmente aus der Quelle entfernt.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
@@ -85,7 +85,7 @@ Durch das Löschen einer Quelle werden die übersetzten Segmente aus der Quelle 
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
-## Anzeigen des Änderungsprotokolls für eine Zielgruppen-Source
+## Anzeigen des Änderungsprotokolls für eine Zielgruppenquelle
 
 Sie können Details zu Änderungen an einem Zielgruppen-Quelldatensatz anzeigen und optional Notizen an das Protokoll anhängen.
 
@@ -103,7 +103,7 @@ Sie können Details zu Änderungen an einem Zielgruppen-Quelldatensatz anzeigen 
 
 1. (Optional) Um das Protokoll in einem größeren Detailbildschirm zu öffnen, halten Sie den Cursor über der Quellzeile und klicken Sie auf **[!UICONTROL View Details]**.
 
-## Einstellungen für Audience Source {#source-settings}
+## Einstellungen der Zielgruppenquelle {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Ob die Segmente einem einzelnen Advertiser mit Zugriff auf das Konto (*[!UICONTROL Advertiser]*) oder allen Advertisern mit Zugriff auf das *[!UICONTROL Account]* zur Verfügung stehen.
 
@@ -117,11 +117,11 @@ Für [!DNL RampID] und [!DNL Unified ID2.0] sucht der Anbieter nach jeder E-Mail
 
 >[!NOTE]
 >
->Sie können nur einen ID-Typ in einer Platzierung auswählen. Um die Leistung nach ID-Typ zu testen[&#x200B; erstellen Sie für &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) ID-Typ im Segment eine separate Platzierung.
+>Sie können nur einen ID-Typ in einer Platzierung auswählen. Um die Leistung nach ID-Typ zu testen[ erstellen Sie für ](/help/dsp/campaign-management/placements/placement-create.md) ID-Typ im Segment eine separate Platzierung.
 
 * *[!DNL RampID]:* Konvertieren von personenbezogenen Daten in ein [!DNL RampID]. Sie können [!DNL RampIDs] für die Retargeting-Zielgruppenbestimmung der angemeldeten Benutzer und für [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Messung verwenden.
 
-* *[!DNL Unified ID2.0] (Beta):* Konvertieren von personenbezogenen Daten in eine [Unified ID 2.0](https://unifiedid.com)-ID für die erneute Zielgruppenbestimmung von angemeldeten Benutzenden.
+* *[!DNL Unified ID2.0](Beta):* Konvertieren von personenbezogenen Daten in eine [Unified ID 2.0](https://unifiedid.com)-ID für die erneute Zielgruppenbestimmung von angemeldeten Benutzenden.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.

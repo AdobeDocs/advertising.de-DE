@@ -3,7 +3,7 @@ title: Über First-Party-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzerkennung in Erstanbietersegmenten in universelle IDs für das Cookie-lose Targeting konvertieren können.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -68,27 +68,27 @@ Sie können Ihre Erstanbietersegmente in Segmente mit authentifizierten (determi
 
 DSP hat Connectoren zu den folgenden CDPs eingerichtet, um Ihre First-Party-Segmente schnell aufzunehmen.
 
-DSP kann auch über Batch, Streaming oder API-basierte Datenfreigabe eine Verbindung zu beliebigen zusätzlichen CDPs herstellen. Wenden Sie sich zur Integration in eine neue CDP an Ihr Adobe-Account-Team.
+DSP kann auch mithilfe von Batch-, Streaming- oder API-basierter Datenfreigabe eine Verbindung zu beliebigen zusätzlichen CDPs herstellen. Wenden Sie sich zur Integration in eine neue CDP an Ihr Adobe-Account-Team.
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP ist ein integriertes *Ziel* für [die [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de), das Teil von Adobe Experience Platform ist.
+DSP ist ein integriertes *Ziel* für [die [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), das Teil von Adobe Experience Platform ist.
 
-In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Sie können Ziele verwenden, um Ihre gehashten E-Mail-Adressen für zielgruppengerechte Werbung in DSP zu aktivieren. Weitere Informationen zu Zielen finden Sie im Experience Platform [Handbuch für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de), einschließlich einer Übersicht über das Produkt, Anweisungen zum [Erstellen von Ziel-](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=de) und [Erstellen von &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de) und [Aktivieren von Daten für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=de).
+In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Sie können Ziele verwenden, um Ihre gehashten E-Mail-Adressen für zielgruppengerechte Werbung in DSP zu aktivieren. Weitere Informationen zu Zielen finden Sie im Experience Platform [Handbuch zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), einschließlich einer Übersicht über das Produkt, Anweisungen zum [Erstellen von Ziel-](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) und [Erstellen von ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) und [Aktivieren von Daten für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Informationen dazu, wie DSP Ihre [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente aufnehmen und Ihre gehashten E-Mail-Adressen in universelle IDs konvertieren kann, finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Adobe Real-Time CDP]  universelle IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md).
 
 ### [!DNL ActionIQ]
 
-Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL ActionIQ] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL ActionIQ] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgruppengerechte Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 ### [!DNL Amperity]
 
-Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL Amperity] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Amperity]  universelle IDs](/help/dsp/audiences/sources/source-amperity.md)&quot;.
+Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL Amperity] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgruppengerechte Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Amperity]  universelle IDs](/help/dsp/audiences/sources/source-amperity.md)&quot;.
 
 ### [!DNL Optimizely]
 
-Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL Optimizely] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgerichtete Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Optimizely]  universelle IDs](/help/dsp/audiences/sources/source-optimizely.md)&quot;.
+Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL Optimizely] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgruppengerechte Werbung in DSP zu konvertieren. Weitere Informationen finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Optimizely]  universelle IDs](/help/dsp/audiences/sources/source-optimizely.md)&quot;.
 
 ### [!DNL Tealium]
 

@@ -3,7 +3,7 @@ title: Zertifizierte Werbepartner
 description: Alle zertifizierten Werbeserver und Werbeeinheiten anzeigen.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Starke Skins (einschließlich Cavai Conversational Ads) müssen mit einer Display-Deal-ID von 180 x 150 im gesamten Inskin-Inventarnetzwerk bereitgestellt werden. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anker, BYOC, Hover, Breakout, Breakaway, Runway und Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display (spezielle Anzeigen-Plug-in-IDs sind nicht erforderlich); Video Anchor (nur VAST); CTV über [!DNL Pubmatic]</br></br>Wenden Sie sich an Ihr Adobe Account Team, um Unterstützung beim Einrichten von Anzeigeneinheiten zu erhalten. |
+| [!DNL Kargo] | | X | | X | 320x50 Anker, BYOC, Hover, Breakout, Breakaway, Runway und Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display (spezielle Anzeigen-Plugin-IDs sind nicht erforderlich); Video Anchor (nur VAST); CTV über [!DNL Pubmatic]</br></br>Wenden Sie sich an Ihr Adobe Account Team, um Unterstützung beim Einrichten von Anzeigeneinheiten zu erhalten. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

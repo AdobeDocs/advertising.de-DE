@@ -3,7 +3,7 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Web-Seiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
 *Beta-Funktion*
 
-* Bevor Sie ein Segment zum Tracking von Benutzern generieren, die mit ID5-IDs verknüpft sind, unterzeichnen Sie eine Vereinbarung mit [!DNL ID5] und erhalten Sie die Partner-ID Ihres Unternehmens. Wenden Sie sich an Ihr Adobe-Account-Team.
+* Bevor Sie ein Segment zum Tracking von Benutzern generieren, die mit ID5-IDs verknüpft sind, unterzeichnen Sie eine Vereinbarung mit [!DNL ID5] und erhalten Sie die Partner-ID Ihres Unternehmens. Wenden Sie sich an Ihr Adobe Account Team, um Anweisungen zu erhalten.
 
 * Für Messungen in Adobe Analytics ist Folgendes erforderlich:
 
@@ -43,7 +43,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
       </script>
       ```
 
-      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
+      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
 
    1. Verwenden Sie ein beliebiges Browser-Debugging-Tool, um zu überprüfen, ob jeder Aufruf an die Domain-`lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
@@ -71,7 +71,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
          * *[!UICONTROL ID5]:* Das Segment-Tag verfolgt [!DNL ID5] IDs. Für Impressionen, die an universelle IDs gesendet werden, fallen keine Gebühren an.
 
-        **[!UICONTROL Terms of Service]:** Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto muss die Bedingungen nur einmal akzeptieren, bevor Sie universelle IDs für einen neuen ID-Typ verwenden können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto müssen die Bedingungen nur einmal akzeptieren, bevor Sie universelle IDs für einen neuen ID-Typ verwenden können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
    1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -95,7 +95,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5] unterzeichnet hat. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
+            Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5] unterzeichnet hat. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
 
             Dieser Schritt ist für Tags nicht erforderlich, um [!DNL ID5] IDs für Benutzende zu verfolgen, die einer Werbeeinheit auf Desktop- oder Mobilgeräten bereitgestellt werden.
 
@@ -107,7 +107,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
          1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder -Ausschlüssen für jede Platzierung verwenden.
 
