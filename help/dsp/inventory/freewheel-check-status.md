@@ -3,9 +3,9 @@ title: Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Ang
 description: Erfahren Sie, wie Sie den Status der Anzeigen für  [!DNL Freewheel]  programmgesteuerte garantierte -Angebote finden.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlun
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie unter der [!UICONTROL Deal ID inbox] auf **[!UICONTROL View Freewheel creative status]**.
+   * Klicken Sie unter der [!UICONTROL Deal ID Inbox] auf **[!UICONTROL View Freewheel creative status]**.
 
    * Klicken Sie in einer beliebigen Abschlusszeile auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
 
@@ -48,7 +48,7 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlun
 
 >[!MORELIKETHIS]
 >
->* [Überblick über die Einrichtung von garantierten programmgesteuerten Angeboten in [!DNL Freewheel]](freewheel-overview.md)
+>* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]](freewheel-overview.md)
 >* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL Freewheel]](freewheel-submit.md)
->* [Fehler-Codes für  [!DNL Freewheel] Anzeigenübermittlungen](freewheel-error-codes.md)
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
+>* [Fehler-Codes für  [!DNL FreeWheel] Anzeigenübermittlungen](freewheel-error-codes.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)

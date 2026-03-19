@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zur Kampagnenverwaltung
 description: Erfahren Sie mehr über die Kampagnenverwaltung, einschließlich der Latenzzeit für Änderungen und was passiert, wenn Sie während eines Fluges Budgetänderungen vornehmen.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -46,4 +46,4 @@ ht-degree: 0%
 >
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Best Practices für die Einrichtung von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)

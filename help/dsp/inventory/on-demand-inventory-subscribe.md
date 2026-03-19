@@ -3,9 +3,9 @@ title: Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inve
 description: Erfahren Sie, wie Sie [!DNL On Demand] Angebote abonnieren und Zugriff darauf anfordern können.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-stat
 >
 >* [Über [!DNL On Demand] Premium-Inventar](on-demand-inventory-about.md)
 >* [Anzeigen des Status Ihrer  [!DNL On Demand]  und Abonnements](on-demand-inventory-view-status.md)
->* [Prämienangebote auf Anfrage erneut anfordern](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Re-request [!DNL On Demand] premium Inventarangebote](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)

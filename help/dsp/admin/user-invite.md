@@ -3,7 +3,7 @@ title: Einen neuen Benutzer für Ihr Unternehmenskonto einladen
 description: Erfahren Sie, wie Sie einen neuen Benutzer einladen, dem Konto beizutreten.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -35,6 +35,6 @@ Bei Bedarf können Sie die Einladung eines Benutzers mit ausstehender Einladung 
 >[!MORELIKETHIS]
 >
 >* [Erneutes Senden einer ausstehenden Benutzereinladung](user-resend-invite.md)
->* [Einladung eines ausstehenden Benutzers aufheben](user-uninvite.md)
+>* [Ausstehende Benutzer einladen](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

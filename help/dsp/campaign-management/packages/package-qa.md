@@ -3,7 +3,7 @@ title: Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheet
 description: Erfahren Sie, wie Sie wichtige Paketeinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Um mehrere Einstellungen gleichzeitig zu aktualisieren, haben Sie folgende Mögl
 
 * Nehmen Sie Änderungen an den Feldern vor, speichern Sie die Datei und laden Sie die bearbeitete Bulksheet-Datei wieder in DSP hoch.
 
-* Um Änderungen an zusätzlichen Paketen, Platzierungen oder Anzeigen in der Kampagne vorzunehmen, laden Sie ein Bulksheet für die Kampagne herunter. Geben Sie aktualisierte Einstellungen ein oder fügen Sie sie in die Datei ein und laden Sie dann die Datei hoch, um die Änderungen vorzunehmen. Anweisungen finden Sie unter [Überprüfen und Bearbeiten der Einstellungen von Kampagnenkomponenten mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Um Änderungen an zusätzlichen Paketen, Platzierungen oder Anzeigen in der Kampagne vorzunehmen, laden Sie ein Bulksheet für die Kampagne herunter. Geben Sie aktualisierte Einstellungen ein oder fügen Sie sie in die Datei ein und laden Sie dann die Datei hoch, um die Änderungen vorzunehmen. Anweisungen finden Sie unter [Überprüfen und Bearbeiten der Kampagnenkomponenteneinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md).
 
 Bearbeitbare Felder enthalten die meisten Einstellungen, die normalerweise bearbeitet werden können.
 
 >[!TIP]
 >
->Informationen zum schnellen Bearbeiten mehrerer Felder für ein oder mehrere Pakete finden Sie unter [Bearbeiten von Paketen](/help/dsp/campaign-management/packages/package-edit.md).
+>Informationen zum schnellen Bearbeiten mehrerer Felder für ein oder mehrere Pakete finden Sie unter &quot;[ von Paketen](/help/dsp/campaign-management/packages/package-edit.md).
 
 ## Download-Einstellungen für alle Pakete in einer Kampagne
 
@@ -50,7 +50,7 @@ Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Um eine der Einstellungen zu bearbeiten, bearbeiten Sie die Datei direkt und laden Sie dann die Änderungen hoch. Alle bearbeitbaren Spalten sind blau hervorgehoben.
 
@@ -76,7 +76,7 @@ Wenn Sie Einstellungen für bestimmte Pakete herunterladen, enthält die Bulkshe
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[&#x200B; in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[ in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
 
      Um eine der Einstellungen zu bearbeiten, bearbeiten Sie die Datei direkt und laden Sie dann die Änderungen hoch. Alle bearbeitbaren Spalten sind blau hervorgehoben. Um das richtige Format für ein Feld zu verwenden, wählen Sie den Wert aus der entsprechenden Paketeinstellung oder Platzierungseinstellung aus und kopieren Sie ihn. Für einige Zieleinstellungen, wie z. B. DayParting, benutzerdefinierte Ziele und Konversionsmetriken, ist eine Kopieroption innerhalb der Einstellung verfügbar.
 
@@ -102,7 +102,7 @@ Sie können Einstellungen für Ihre Pakete, einschließlich der Platzierungen un
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 

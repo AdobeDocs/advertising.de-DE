@@ -3,9 +3,9 @@ title: Hinzufügen und Entfernen von Anzeigen aus Platzierungen
 description: Erfahren Sie, wie Sie Anzeigen an Platzierungen anhängen und Anzeigen aus Platzierungen entfernen können.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
 
 1. Klicken Sie auf **[!UICONTROL Detach Selected Ads]**.
 
-## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -106,11 +106,11 @@ Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Pixel an Anzeigen anhängen und daraus entfernen](ad-pixel-attach-detach.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen Sie mehrere Anzeigen von Drittanbietern](ad-create-multiple.md)
 >* [Bearbeiten einer Anzeige](ad-edit.md)
 >* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](ad-list-placements.md)
 >* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)

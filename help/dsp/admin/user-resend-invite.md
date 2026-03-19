@@ -3,7 +3,7 @@ title: Erneutes Senden einer ausstehenden Benutzereinladung
 description: Erfahren Sie, wie Sie eine ausstehende Benutzereinladung erneut senden.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Admin-Benutzer können eine Einladung an einen Benutzer mit einer ausstehenden E
 >[!MORELIKETHIS]
 >
 >* [Laden Sie einen neuen Benutzer für Ihr Unternehmenskonto ein](user-invite.md)
->* [Einladung eines ausstehenden Benutzers aufheben](user-uninvite.md)
+>* [Ausstehende Benutzer einladen](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

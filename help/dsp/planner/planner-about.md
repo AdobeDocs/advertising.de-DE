@@ -1,16 +1,16 @@
 ---
-title: Über das DSP Planner-Tool
+title: Über das DSP [!UICONTROL Planner] Tool
 description: Erfahren Sie mehr über das Planer-Tool zur Prognose der eindeutigen Reichweite für Platzierungen von vernetztem Fernsehen (CTV) gemäß den festgelegten Budget- und Zielgruppenkriterien.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Über das DSP Planner-Tool
+# Über das DSP [!UICONTROL Planner] Tool
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -73,11 +73,11 @@ Ja, Sie können eine Prognose in eine [!DNL Microsoft Excel] Tabelle exportieren
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP Planner Tool](planner-about.md)
->* [Erstellen eines Plans für die Reichweite von vernetzten Fernsehgeräten](planner-create.md)
->* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
->* [Bearbeiten eines Connected TV-Reach-Plans](planner-edit.md)
->* [Exportieren eines Connected TV Reach Plans](planner-export.md)
->* [Regenerieren Sie die Prognose für einen Connected TV Reach Plan](planner-forecast.md)
->* [Archivieren eines Connected TV Reach Plans](planner-archive.md)
->* [Einstellungen für Connected TV Reach Plans](planner-settings.md)
+>* [Über das DSP-[!UICONTROL Planner]-Tool](planner-about.md)
+>* [Erstellen eines Plans für die Reichweite eines vernetzten Fernsehers](planner-create.md)
+>* [Duplizieren Sie einen verbundenen TV-Reach-Plan](planner-duplicate.md)
+>* [Bearbeiten eines verbundenen TV-Reichweitenplans](planner-edit.md)
+>* [Exportieren eines vernetzten TV-Reach-Plans](planner-export.md)
+>* [Generieren Sie die Prognose für einen angeschlossenen TV-Reach-Plan](planner-forecast.md)
+>* [Archivieren eines vernetzten TV-Reach-Plans](planner-archive.md)
+>* [Einstellungen für Pläne zur Reichweite von vernetzten Fernsehgeräten](planner-settings.md)

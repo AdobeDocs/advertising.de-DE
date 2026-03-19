@@ -3,9 +3,9 @@ title: SSP-Partner
 description: Hier finden Sie eine Liste der verfügbaren anbieterseitigen Plattformen (SSP) und der offenen Exchange-Partner.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -49,5 +49,5 @@ Eine Plattform auf der Angebotsseite (Supply-Side Platform, SSP) ist eine Werbet
 
 >[!MORELIKETHIS]
 >
->* [Übersicht über die Inventar-Funktionen](inventory-overview.md)
+>* [Übersicht über Inventarfunktionen in Advertising DSP](inventory-overview.md)
 

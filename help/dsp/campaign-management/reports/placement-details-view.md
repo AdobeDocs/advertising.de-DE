@@ -3,9 +3,9 @@ title: Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine P
 description: Erfahren Sie, wie Sie die Zielseiten, Anzeigen, Häufigkeit und Inventardaten für eine Platzierung anzeigen.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 ![Placement Inspector](/help/dsp/assets/placement-inspector.png)
 
-## Informationen im [!UICONTROL Inspector] Platzierung {#placement-inspector}
+## Informationen im Platzierungs-[!UICONTROL Inspector] {#placement-inspector}
 
 * **[!UICONTROL Sites]:** Alle Seiten, auf denen die Platzierung Impressionen hatte.
 
@@ -36,7 +36,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
   Die Registerkarte [!UICONTROL Inventory] ermöglicht eine schnelle Fehlerbehebung durch die Anzeige von Leistungsstatistiken wie [!UICONTROL Auctions], [!UICONTROL Bids] und [!UICONTROL Win Rate]. Die Registerkarte enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, einschließlich [!UICONTROL Edit], [!UICONTROL View Report] und [[!UICONTROL Auction Insights] für weitere Fehlerbehebungen](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## [!UICONTROL Placement Inspector] öffnen {#inspector-open}
+## Platzierung [!UICONTROL Inspector] {#inspector-open}
 
 1. Öffnen Sie die Ansicht Platzierungen für die übergeordnete Kampagne oder das übergeordnete Paket:
 
@@ -62,13 +62,13 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 1. (Optional) [Ändern Sie die Spaltenansicht](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
-1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![&#x200B; oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
+1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![ oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
 
    Die Daten werden im Standard-Download-Ordner Ihres Browsers als Bericht im XLSM-Format gespeichert.
 
-## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Entfernen einer Anzeige aus einer Platzierung aus der [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Öffnen Sie die [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Öffnen Sie die Platzierungs-[!UICONTROL Inspector]](#inspector-open).
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Ads]** .
 
@@ -90,5 +90,5 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
->* [Campaign-Datenansichten verwalten](campaign-data-views-manage.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](campaign-reports-about.md)
+>* [Kampagnendaten-Ansichten verwalten](campaign-data-views-manage.md)

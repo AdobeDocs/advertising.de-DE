@@ -3,7 +3,7 @@ title: Pre-Bid-Filter auf Platzierungsebene und deren Verwendung
 description: Verweisen Sie auf die verfügbaren Pre-Bid-Filter auf Platzierungsebene und sehen Sie sich an, wie sie verwendet werden.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%

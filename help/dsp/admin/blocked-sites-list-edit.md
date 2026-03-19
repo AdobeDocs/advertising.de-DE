@@ -3,7 +3,7 @@ title: Bearbeiten einer Liste mit gesperrten Websites auf Konto- oder Werbekunde
 description: Erfahren Sie, wie Sie die Liste der blockierten Websites für ein Konto oder einen Advertiser verwalten.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%

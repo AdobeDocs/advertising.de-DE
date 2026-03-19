@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] Abschlusseinstellungen'
 description: Erfahren Sie mehr über die verfügbaren Einstellungen für [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 <!-- 
-## Existing Simple Ad Serving Deals
+## Existing [!UICONTROL Simple Ad Serving] deals
 
 Changes aren't applied retroactively.
 -->
@@ -82,9 +82,9 @@ But I see:
 >
 >* [Über [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [Erstellen eines [!UICONTROL Simple Ad Serving] Angebots](simple-deal-create.md)
->* [Bearbeiten [!UICONTROL Simple Ad Serving] Angebotseinstellungen](simple-deal-edit.md)
+>* [Bearbeiten [!UICONTROL Simple Ad Serving] Deal-Einstellungen](simple-deal-edit.md)
 >* [Detailbericht für einen Abschluss anzeigen](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->
