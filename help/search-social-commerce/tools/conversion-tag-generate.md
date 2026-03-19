@@ -78,7 +78,7 @@ Siehe &quot;[Häufig gestellte Fragen zu Adobe Advertising-Konversions- und Seit
 
 Sie können das Konversions-Tracking für Search, Social und Commerce mithilfe von Tags in Adobe Experience Platform einrichten. Tags stehen Adobe Experience Cloud-Kunden als integrierte Mehrwertfunktion zur Verfügung.
 
-Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suche, Social und Commerce über die Experience Platform-Benutzeroberfläche oder die Experience Platform-Datenerfassungs-Benutzeroberfläche zu konfigurieren. Vollständige Informationen und Anweisungen zum Konfigurieren von Tags finden Sie im Experience Platform Tags-Handbuch, beginnend mit der „Übersicht über [ Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) und der &quot;[Schnellstartanleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).
+Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suche, Social und Commerce über die Experience Platform-Benutzeroberfläche oder die Experience Platform-Datenerfassungs-Benutzeroberfläche zu konfigurieren. Vollständige Informationen und Anweisungen zum Konfigurieren von Tags finden Sie im Experience Platform Tags-Handbuch, beginnend mit der „Übersicht über [&#x200B; Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) und der &quot;[Schnellstartanleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).
 
 >[!PREREQUISITES]
 >
