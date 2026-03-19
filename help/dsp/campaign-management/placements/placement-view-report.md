@@ -3,7 +3,7 @@ title: Anzeigen eines detaillierten Berichts für eine Platzierung
 description: Erfahren Sie, wie Sie einen Bericht auf Platzierungsebene mit Abschnitten zu [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] und [!UICONTROL Ads] öffnen.
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Der Bericht auf Legacy-Platzierungsebene enthält eine Übersicht und Abschnitte
 
 >[!MORELIKETHIS]
 >
->* [Anzeigen, Sites und Häufigkeitsdetails für eine Platzierung anzeigen](/help/dsp/campaign-management/reports/placement-details-view.md)
->* [Anzeigen-Detailbericht anzeigen](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [Anzeigen der Sites, Anzeigen und Häufigkeitsdetails für eine Platzierung anzeigen](/help/dsp/campaign-management/reports/placement-details-view.md)
+>* [Anzeigen eines detaillierten Berichts für eine Anzeige](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Anzeigen eines detaillierten Berichts für eine Kampagne](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Über benutzerdefinierte Berichte](/help/dsp/reports/report-about.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)

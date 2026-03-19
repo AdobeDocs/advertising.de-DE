@@ -1,24 +1,24 @@
 ---
 title: Über die [!UICONTROL Deal ID Inbox]
-description: Erfahren Sie mehr über die [!UICONTROL Deal ID inbox]-Funktion, mit der Sie private Angebote akzeptieren können, die Sie bereits mit Herausgebern ausgehandelt haben  [!DNL FreeWheel], [!DNL Google Authorized Buyers] früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]).
+description: Erfahren Sie mehr über die [!UICONTROL Deal ID Inbox]-Funktion, mit der Sie private Angebote akzeptieren können, die Sie bereits mit Herausgebern ausgehandelt haben  [!DNL FreeWheel], [!DNL Google Authorized Buyers] früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Über die [!UICONTROL Deal ID Inbox]
 
-Mit dem Advertising DSP-[!UICONTROL Deal ID inbox] können Sie schnell Angebote einrichten, die DSP von Publishern über Supply Side Platforms (SSPs) importiert hat, sodass Sie nicht jedes Angebot manuell einrichten müssen. Sie können die garantierten und nicht garantierten privaten Inventarangebote akzeptieren, die Sie bereits mit Herausgebern in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (ehemals als [!DNL AdX] bezeichnet) und [!DNL Magnite DV+] (ehemals [!DNL Rubicon]) aus dem [!UICONTROL Deal ID inbox] ausgehandelt haben.
+Mit dem Advertising DSP-[!UICONTROL Deal ID Inbox] können Sie schnell Angebote einrichten, die DSP von Publishern über Supply Side Platforms (SSPs) importiert hat, sodass Sie nicht jedes Angebot manuell einrichten müssen. Sie können die garantierten und nicht garantierten privaten Inventarangebote akzeptieren, die Sie bereits mit Herausgebern in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (ehemals als [!DNL AdX] bezeichnet) und [!DNL Magnite DV+] (ehemals [!DNL Rubicon]) aus dem [!UICONTROL Deal ID Inbox] ausgehandelt haben.
 
 >[!NOTE]
 >
 >Advertising DSP ist das erste DSP, das mit der [!DNL FreeWheel] API integriert wird.
 
-In der [!UICONTROL Deal ID inbox] können Sie die Details des Angebots so anzeigen, wie es Ihr Publisher sieht, Ihre Angebotseinrichtung beschleunigen und manuelle Eingabefehler vermeiden.
+In der [!UICONTROL Deal ID Inbox] können Sie die Details des Angebots so anzeigen, wie es Ihr Publisher sieht, Ihre Angebotseinrichtung beschleunigen und manuelle Eingabefehler vermeiden.
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -36,11 +36,11 @@ DSP aktualisiert alle Details des Angebots automatisch täglich um :30 Uhr EST. 
 
 >[!NOTE]
 >
->Für programmgesteuerte garantierte -Angebote über [!DNL Google Authorized Buyers] müssen Sie mindestens 90 % Ihres Budgets einhalten, sonst verliert Ihr Konto den Zugriff auf [!DNL Google] -Angebote im [!UICONTROL Deal ID inbox].
+>Für programmgesteuerte garantierte -Angebote über [!DNL Google Authorized Buyers] müssen Sie mindestens 90 % Ihres Budgets einhalten, sonst verliert Ihr Konto den Zugriff auf [!DNL Google] -Angebote im [!UICONTROL Deal ID Inbox].
 
-## Implementieren des [!UICONTROL Deal ID inbox]
+## Implementieren des [!UICONTROL Deal ID Inbox]
 
-Um Ihre Angebote im [!UICONTROL Deal ID inbox] zu erhalten, müssen Ihre SSP-Konten das DSP-Konto Ihres Unternehmens Ihrem SSP-Konto zuordnen. DSP kann die Kontonamen des Unternehmens für die entsprechenden SSPs freigeben. Wenden Sie sich an Ihr Adobe Account Team, um Anweisungen zu erhalten.
+Um Ihre Angebote im [!UICONTROL Deal ID Inbox] zu erhalten, müssen Ihre SSP-Konten das DSP-Konto Ihres Unternehmens Ihrem SSP-Konto zuordnen. DSP kann die Kontonamen des Unternehmens für die entsprechenden SSPs freigeben. Wenden Sie sich an Ihr Adobe Account Team, um Anweisungen zu erhalten.
 
 Bitten Sie den Publisher während der Vertragsverhandlungen, das Angebot an Ihren Käufer und nicht an das übergeordnete DSP-Konto zu senden. Die Abschlusskennung kann je nach SSP ein Name oder eine ID sein.
 
@@ -48,15 +48,15 @@ Bitten Sie den Publisher während der Vertragsverhandlungen, das Angebot an Ihre
 
 * **Angebote überprüfen** um sicherzustellen, dass der SSP die richtigen Publisher-, Flugdaten-, CPM- und anderen Angebotsdetails gesendet hat. Wenn der Publisher einen Fehler gemacht hat, kontaktieren Sie ihn außerhalb von DSP, damit er den Deal korrigieren und erneut senden kann.
 
-* **Akzeptieren von Angeboten** nachdem sie geprüft wurden, und sie werden nicht mehr in der [!UICONTROL Deal ID inbox] angezeigt. Akzeptierte Angebote sind unter [!UICONTROL Inventory] > [!UICONTROL Deals] aufgeführt und können in den Platzierungen der Werbetreibenden gezielt ausgewählt werden.
+* **Akzeptieren von Angeboten** nachdem sie geprüft wurden, und sie werden nicht mehr in der [!UICONTROL Deal ID Inbox] angezeigt. Akzeptierte Angebote sind unter [!UICONTROL Inventory] > [!UICONTROL Deals] aufgeführt und können in den Platzierungen der Werbetreibenden gezielt ausgewählt werden.
 
-* **Ignoriere Angebote** die nicht benötigt werden oder nicht angefordert werden. Ignorierte Angebote werden auf die Registerkarte [!UICONTROL Ignored Deals] im [!UICONTROL Deal ID inbox] verschoben, die als Archiv dient. DSP warnt SSPs und Publisher nicht, wenn Sie einen Deal ignorieren.
+* **Ignoriere Angebote** die nicht benötigt werden oder nicht angefordert werden. Ignorierte Angebote werden auf die Registerkarte [!UICONTROL Ignored Deals] im [!UICONTROL Deal ID Inbox] verschoben, die als Archiv dient. DSP warnt SSPs und Publisher nicht, wenn Sie einen Deal ignorieren.
 
-* **Ändern Sie Details für bereits akzeptierte Angebote** über [!UICONTROL Inventory] > [!UICONTROL Deals] (nicht im [!UICONTROL Deal ID inbox]). Ebenso sind Advertiser dafür verantwortlich, wenn Herausgeber Änderungen an Angeboten senden, diese Änderungen in [!UICONTROL Inventory] > [!UICONTROL Deals] zu implementieren, da der [!UICONTROL Deal ID inbox] nach der Einrichtung von Angeboten keine Änderungen aus den SSPs synchronisiert.
+* **Ändern Sie Details für bereits akzeptierte Angebote** über [!UICONTROL Inventory] > [!UICONTROL Deals] (nicht im [!UICONTROL Deal ID Inbox]). Ebenso sind Advertiser dafür verantwortlich, wenn Herausgeber Änderungen an Angeboten senden, diese Änderungen in [!UICONTROL Inventory] > [!UICONTROL Deals] zu implementieren, da der [!UICONTROL Deal ID Inbox] nach der Einrichtung von Angeboten keine Änderungen aus den SSPs synchronisiert.
 
 ## Welche Arten von Angeboten können nicht akzeptiert werden?
 
-Wenn eine Angebotsliste kein Symbol ![Akzeptieren](/help/dsp/assets/accept.png) oder eine [!UICONTROL Accept] Schaltfläche enthält, können Sie sie nicht vom [!UICONTROL Deal ID inbox] akzeptieren. Stattdessen können Sie [die Details der Angebots-ID manuell erstellen](/help/dsp/inventory/deal-id-create.md).
+Wenn eine Angebotsliste kein Symbol ![Akzeptieren](/help/dsp/assets/accept.png) oder eine [!UICONTROL Accept] Schaltfläche enthält, können Sie sie nicht vom [!UICONTROL Deal ID Inbox] akzeptieren. Stattdessen können Sie [die Details der Angebots-ID manuell erstellen](/help/dsp/inventory/deal-id-create.md).
 
 Folgende Arten von Angeboten können Sie nicht akzeptieren:
 
@@ -74,5 +74,5 @@ Die Details des Angebots enthalten den Grund, warum das Angebot nicht akzeptiert
 
 >[!MORELIKETHIS]
 >
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
->* [Übersicht über die Inventar-Funktionen](inventory-overview.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Übersicht über die Inventarfunktionen](inventory-overview.md)

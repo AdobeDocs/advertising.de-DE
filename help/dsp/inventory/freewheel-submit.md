@@ -3,9 +3,9 @@ title: Senden einer Anzeige für einen PG-Deal an [!DNL FreeWheel]
 description: Erfahren Sie, wie Sie eine Genehmigung für eine Anzeige für einen programmgesteuerten garantierten Deal mit einem Herausgeber in anfordern [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Sobald Sie [einen programmgesteuert garantierten Deal mit einem Publisher auf Fr
 
 >[!MORELIKETHIS]
 >
->* [Überblick über die Einrichtung von garantierten programmgesteuerten Angeboten in [!DNL Freewheel]](freewheel-overview.md)
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
->* [Überprüfen Sie den Status der Anzeigen  [!DNL FreeWheel]  programmgesteuerte garantierte -Angebote](freewheel-check-status.md)
->* [Fehler-Codes für  [!DNL Freewheel] Anzeigenübermittlungen](freewheel-error-codes.md)
+>* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]](freewheel-overview.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Angebot](freewheel-check-status.md)
+>* [Fehler-Codes für  [!DNL FreeWheel] Anzeigenübermittlungen](freewheel-error-codes.md)

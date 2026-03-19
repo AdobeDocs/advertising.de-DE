@@ -3,7 +3,7 @@ title: Anzeigen des Berichts [!UICONTROL Diagnostics] Platzierungen
 description: Erfahren Sie, wie Sie Probleme mit der Einrichtung und Geschwindigkeit von Platzierungen diagnostizieren.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -72,6 +72,6 @@ Diagnoseberichte können Ihnen dabei helfen, Probleme bei der Einrichtung und Ge
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
->* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](campaign-reports-about.md)
+>* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

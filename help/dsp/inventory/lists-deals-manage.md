@@ -3,7 +3,7 @@ title: Verwalten von Deal-Listen
 description: Erfahren Sie, wie Sie Angebotslisten für das Platzierungs-Targeting erstellen und verwalten.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -75,4 +75,4 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
->* [Über den privaten Bestand](/help/dsp/inventory/private-inventory-about.md)
+>* [Über die private Bestandsaufnahme](/help/dsp/inventory/private-inventory-about.md)

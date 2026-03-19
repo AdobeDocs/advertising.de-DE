@@ -3,7 +3,7 @@ title: Konten mit Zugriff auf ein privates Angebot bearbeiten
 description: Erfahren Sie, wie Sie einen privaten Deal für verschiedene Konten freigeben und nicht mehr freigeben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -44,6 +44,6 @@ Sie können die Freigabe eines Deals für Konten beenden, um Bearbeitungs- und T
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
 >* [Bearbeiten Sie die Werbetreibenden mit Zugriff auf eine Angebots-ID](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [Manuelle Deal ID-Einstellungen](deal-id-settings.md)

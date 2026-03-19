@@ -3,9 +3,9 @@ title: Private Deal-Einstellungen bearbeiten
 description: Erfahren Sie, wie Sie Details für ein privates Angebot bearbeiten.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
    Sie können [!UICONTROL Deal Name], [!UICONTROL Media Type] (wenn das Angebot mehrere Medientypen umfasst), [!UICONTROL CPM], [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] und [!UICONTROL Impressions] bearbeiten.
 
-   Sie können [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] oder [!UICONTROL Billing Method] nicht bearbeiten.
+   Die Einstellungen [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] oder [!UICONTROL Billing Method] können nicht bearbeitet werden.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
 >* [Details zur Angebots-ID manuell erstellen](deal-id-create.md)
 >* [Manuelle Deal ID-Einstellungen](deal-id-settings.md)
 >* [Richten Sie einen programmgesteuerten garantierten Abschluss ein](programmatic-guaranteed-set-up.md)
->* [Platzierungen und Anzeigen einem privaten Angebot hinzufügen](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [Platzierungen und Anzeigen für ein privates Angebot angeben](/help/dsp/inventory/deal-id-attach-placements.md)
 >* [Archivieren oder Aufheben der Archivierung eines privaten Angebots](/help/dsp/inventory/private-deal-archive-unarchive.md)

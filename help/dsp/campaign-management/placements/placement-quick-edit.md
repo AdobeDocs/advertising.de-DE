@@ -3,9 +3,9 @@ title: Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen schnell ändern können.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten einer Platzierungseinstellung finden Sie unter [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).
+> Informationen zum Bearbeiten einer Platzierungseinstellung finden Sie unter &quot;[ von Platzierungen](/help/dsp/campaign-management/placements/placement-edit.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
@@ -29,7 +29,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierung erstellen](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Duplizieren einer Platzierung](placement-duplicate.md)
@@ -38,4 +38,4 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 >* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=de)
+>* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

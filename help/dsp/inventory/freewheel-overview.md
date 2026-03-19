@@ -3,9 +3,9 @@ title: Übersicht über das Einrichten von PG-Angeboten in [!DNL Freewheel]
 description: Erfahren Sie mehr über die Voraussetzungen und zusätzlichen Schritte, die erforderlich sind, um Anzeigen für programmgesteuerte garantierte -Angebote mit Herausgebern in  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf
 
 >[!MORELIKETHIS]
 >
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL Freewheel]](freewheel-submit.md)
->* [Überprüfen Sie den Status der Anzeigen  [!DNL FreeWheel]  programmgesteuerte garantierte -Angebote](freewheel-check-status.md)
->* [Fehler-Codes für  [!DNL Freewheel] Anzeigenübermittlungen](freewheel-error-codes.md)
+>* [Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Angebot](freewheel-check-status.md)
+>* [Fehler-Codes für  [!DNL FreeWheel] Anzeigenübermittlungen](freewheel-error-codes.md)

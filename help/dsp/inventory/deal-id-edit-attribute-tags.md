@@ -1,15 +1,15 @@
 ---
-title: Bearbeiten der Attributtags für eine Angebots-ID
+title: Bearbeiten der Attribut-Tags für eine Angebots-ID
 description: Erfahren Sie, wie Sie die Attribut-Tags für eine Angebots-ID erstellen und bearbeiten.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Bearbeiten der Attributtags für eine Angebots-ID
+# Bearbeiten der Attribut-Tags für eine Angebots-ID
 
 Sie können Tags für Angebots-IDs erstellen und zuweisen, um ähnliche Angebote zu gruppieren. Wenn Sie eine Platzierung erstellen oder bearbeiten, können Sie das verfügbare Inventar nach Tag-Namen durchsuchen.
 
@@ -29,5 +29,5 @@ Sie können Tags für Angebots-IDs erstellen und zuweisen, um ähnliche Angebote
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
->* [Einstellungen für private Angebote bearbeiten](/help/dsp/inventory/deal-id-edit.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
+>* [Private Deal-Einstellungen bearbeiten](/help/dsp/inventory/deal-id-edit.md)

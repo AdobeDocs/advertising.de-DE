@@ -3,9 +3,9 @@ title: Übersicht über Inventarfunktionen in Advertising DSP
 description: Erfahren Sie mehr über verfügbare Inventarfunktionen.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Zu den verfügbaren Inventartypen gehören:
 >[!MORELIKETHIS]
 >
 >* [Über On-Demand-Inventar](on-demand-inventory-about.md)
->* [Über den Angebots-ID-Posteingang](deal-id-inbox-about.md)
->* [Über programmgesteuerte garantierte -Angebote](programmatic-guaranteed-about.md)
+>* [Über den Deal ID-Posteingang](deal-id-inbox-about.md)
+>* [Über programmgesteuerte garantierte Angebote](programmatic-guaranteed-about.md)
 >* [SSP-Partner](ssp-partners.md)
->* [Über den privaten Bestand](private-inventory-about.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)

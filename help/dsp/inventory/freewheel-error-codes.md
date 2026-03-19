@@ -3,9 +3,9 @@ title: Fehler-Codes für  [!DNL FreeWheel] -Anzeigen-Übermittlungen
 description: Verweisen Sie auf die Fehler-Codes, die für Anzeigenübermittlungen an zurückgegeben werden [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 
 >[!MORELIKETHIS]
 >
->* [Überblick über die Einrichtung von garantierten programmgesteuerten Angeboten in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
+>* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Überprüfen Sie den Status der Anzeigen  [!DNL FreeWheel]  programmgesteuerte garantierte -Angebote](/help/dsp/inventory/freewheel-check-status.md)
+>* [Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Angebot](/help/dsp/inventory/freewheel-check-status.md)

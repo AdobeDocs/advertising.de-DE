@@ -3,7 +3,7 @@ title: Angeben von Platzierungen und Anzeigen für ein privates Angebot
 description: Erfahren Sie, wie Sie einen privaten Deal mit zusätzlichen Platzierungen und Anzeigen verwenden.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Die Platzierung beginnt zu laufen, nachdem der Publisher Ihre PG-Angebots-ID akt
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
 >* [Platzierungen und Anzeigen für ein privates Angebot auflisten](/help/dsp/inventory/private-deal-view-placements.md)
 >* [Details zur Angebots-ID manuell erstellen](deal-id-create.md)
 >* [Manuelle Deal ID-Einstellungen](deal-id-settings.md)
