@@ -3,16 +3,16 @@ title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
 
 # Verwalten von Angebotsmultiplikatoren für Platzierungen
 
-Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot für Ihre vorhandenen Platzierungsziele (geeignete Zieltypen[&#x200B; zu erhöhen oder zu &#x200B;](#bid-multiplier-by-target). Sie können entweder die Werte des Angebotsmultiplikators für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
+Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot für Ihre vorhandenen Platzierungsziele (geeignete Zieltypen[ zu erhöhen oder zu ](#bid-multiplier-by-target). Sie können entweder die Werte des Angebotsmultiplikators für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
 
 Der Bid-Multiplikator für ein Ziel ist standardmäßig 1,00, was bedeutet, dass das Gebot nicht für dieses Ziel angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. So verringert ein Gebotsmultiplikator von 0,5 ein Gebot von 6 USD auf 3 USD (0,5 x 6). Wenn sich eine Auktion für mehrere Angebotsmodifikatoren qualifiziert, werden alle entsprechenden Gebotsmultiplikatoren multipliziert. Wenn beispielsweise Kalifornien über einen Angebotsmultiplikator von 2 verfügt und San Francisco über einen Angebotsmultiplikator von 3, ist der letzte Angebotsmultiplikator für Anzeigen, die in San Francisco geschaltet werden, 6.
 
@@ -20,7 +20,7 @@ Der Bid-Multiplikator für ein Ziel ist standardmäßig 1,00, was bedeutet, dass
 >
 >Angebotsmultiplikatoren erhöhen das Angebot nie auf mehr als das Höchstgebot.
 
-Sie können Angebotsmultiplikatoren (mit Werten ungleich 1,00) für eine [begrenzte Anzahl von Zielen) &#x200B;](#bid-multiplier-limits-by-target).
+Sie können Angebotsmultiplikatoren (mit Werten ungleich 1,00) für eine [begrenzte Anzahl von Zielen) ](#bid-multiplier-limits-by-target).
 
 Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).
 
@@ -125,7 +125,7 @@ Sie können für eine begrenzte Anzahl von Zielen Angebotsmultiplikatoren (mit W
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
