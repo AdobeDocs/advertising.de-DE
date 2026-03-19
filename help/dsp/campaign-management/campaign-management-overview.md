@@ -56,4 +56,4 @@ Alle aktiven, genehmigten Anzeigen in einer aktiven Platzierung in einer aktiven
 >* [Best Practices für die Einrichtung von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Kampagnendaten-Ansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
