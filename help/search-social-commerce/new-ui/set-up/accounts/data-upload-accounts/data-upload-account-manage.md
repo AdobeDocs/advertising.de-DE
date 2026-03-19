@@ -3,7 +3,7 @@ title: Konfigurieren von Ad-Network-Konten für den Datenupload
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** Search, Social und Commerce ermöglichen den automatischen Datenabruf für einen bestimmten S3-Bucket.
 
-## Registerkarte [!UICONTROL Setup Analytics]
+### Registerkarte [!UICONTROL Setup Analytics]
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Werbetreibende mit einer [[!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md); optional) Eine oder mehrere Analytics-Report Suites, an die Search, Social und Commerce Daten sendet, die Sie für das Werbenetzwerk hochladen, einschließlich Entitätsklassifizierungen und Klickdaten für das Konto.
 
