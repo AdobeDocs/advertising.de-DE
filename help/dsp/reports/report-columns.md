@@ -3,9 +3,9 @@ title: Verfügbare Berichtsspalten
 description: Siehe Beschreibungen der verfügbaren Spalten in benutzerdefinierten Berichten.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | Der Inhalts-/Filmtitel. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | Die Inhaltsreihe. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | Das Inhalts-Genre. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Die Produktionsqualität, wie vom IAB [Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) definiert. Werte können `Unknown`, `Professionally Produced`, `Prosumer` oder `User Generated` sein. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Die Art des Inhalts, wie vom [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md) definiert. Werte können `Video,` `Game`, `Music`, `Application`, `Text`, `Other` oder `Unknown` sein. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Die Produktionsqualität gemäß der Definition [der [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Werte können `Unknown`, `Professionally Produced`, `Prosumer` oder `User Generated` sein. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Der Typ des Inhalts, wie durch ([)  [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Werte können `Video,` `Game`, `Music`, `Application`, `Text`, `Other` oder `Unknown` sein. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | Die Inhaltsbewertung, z. B. PG oder R. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Ob die Anzeige in einem Livestream erschien: `Not Live` oder `Live`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | Die Länge des Inhalts in Sekunden; wird normalerweise für Video oder Audio verwendet. |
@@ -263,7 +263,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
