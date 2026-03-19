@@ -3,7 +3,7 @@ title: Überprüfen und Bearbeiten der Einstellungen von Kampagnenkomponenten mi
 description: Erfahren Sie, wie Sie wichtige Paket-, Platzierungs- und Anzeigeneinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Um mehrere Einstellungen gleichzeitig zu aktualisieren, laden Sie eine gültige 
 
 >[!NOTE]
 >
->Sie können die Einstellungen auch nur für bestimmte Pakete und bestimmte Platzierungen herunterladen und bearbeiten. Siehe [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/packages/package-qa.md) und [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md).
+>Sie können die Einstellungen auch nur für bestimmte Pakete und bestimmte Platzierungen herunterladen und bearbeiten. Siehe &quot;[Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/packages/package-qa.md) und &quot;[Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/placements/placement-qa.md).
 
 ## Download-Einstellungen für die Pakete, Platzierungen und Anzeigen in einer Kampagne {#download-bulksheet-campaign}
 
@@ -42,7 +42,7 @@ Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Um eine der Einstellungen zu bearbeiten, bearbeiten Sie die Datei direkt und laden Sie dann die Änderungen hoch. Alle bearbeitbaren Spalten sind blau hervorgehoben. Um das richtige Format für ein Feld zu verwenden, wählen Sie den Wert aus der entsprechenden Paketeinstellung oder Platzierungseinstellung aus und kopieren Sie ihn. Für einige Zieleinstellungen, wie z. B. DayParting, benutzerdefinierte Ziele und Konversionsmetriken, ist eine Kopieroption innerhalb der Einstellung verfügbar.
 
@@ -68,7 +68,7 @@ Laden Sie Einstellungen für Pakete, Platzierungen und Anzeigen in einer Kampagn
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 

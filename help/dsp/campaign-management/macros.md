@@ -3,7 +3,7 @@ title: Advertising DSP-Makros
 description: Verweisen Sie auf die verfügbaren Makros für das allgemeine Tracking und das Tracking von Klicks auf Display-Anzeigen von Drittanbietern.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -85,9 +85,9 @@ DSP fügt automatisch Display-Klick-Makros in ein Display-Tag eines Drittanbiete
 
 Wenn beim Erstellen einer Display-Anzeige ein Klick-Makro fehlt, zeigt DSP eine Warnmeldung an, die Sie auffordert, das entsprechende Display-Klick-Makro manuell in den richtigen Bereich des Tags einzufügen.
 
-## Makros [!DNL Analytics for Advertising]
+## [!DNL Analytics for Advertising] Makros
 
-Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter [Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) und [Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md).
+Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad ](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
 
 ## Fehlerbehebung bei Makro-Fehlern
 
@@ -101,7 +101,7 @@ Fehler werden erzeugt, wenn am Anfang oder Ende des Makronamens Zeichen fehlen. 
 >[!MORELIKETHIS]
 >
 >* [Audio-Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Einstellungen für verbundene TV-Werbeanzeigen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Einstellungen für vernetzte TV-Werbeanzeigen](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
 >* [Anzeigeneinstellungen anzeigen](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Mobile-Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Native Anzeigeneinstellungen](/help/dsp/campaign-management/ads/ad-settings-native.md)
