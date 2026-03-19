@@ -18,7 +18,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten einer Platzierungseinstellung finden Sie unter &quot;[ von Platzierungen](/help/dsp/campaign-management/placements/placement-edit.md).
+> Informationen zum Bearbeiten einer Platzierungseinstellung finden Sie unter &quot;[&#x200B; von Platzierungen](/help/dsp/campaign-management/placements/placement-edit.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne.
