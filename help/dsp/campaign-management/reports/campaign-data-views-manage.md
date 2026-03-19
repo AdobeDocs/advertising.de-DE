@@ -3,7 +3,7 @@ title: Ansichten der Kampagnendaten verwalten
 description: Erfahren Sie, wie Sie Ihre Datenansichten für Kampagnen, Pakete, Platzierungen und Anzeigen anpassen können.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sie können die Daten anpassen, die in Ihren Ansichten zur Kampagnenverwaltung a
 
 Sie können die Metriken und den Diagrammmodus für alle Datenvisualisierungen in Kampagnen oder für eine einzelne Kampagne ändern. Änderungen an einer einzelnen Kampagne werden auf alle Datenvisualisierungen für die Kampagne angewendet, einschließlich der [!UICONTROL Packages]-, [!UICONTROL Placements]- und [!UICONTROL Ads].
 
-### Ändern von Metriken für eine Datenvisualisierung
+### Ändern der Metriken für eine Datenvisualisierung
 
 1. Klicken Sie oben rechts in der Datenvisualisierung auf ![Einstellungen](/help/dsp/assets/settings-chart.png).
 
@@ -171,9 +171,9 @@ Wählen Sie unten rechts auf einer beliebigen Seite neben **[!UICONTROL Items pe
 
 >[!MORELIKETHIS]
 >
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](campaign-reports-about.md)
->* [Anzeigen, Sites und Häufigkeitsdetails für eine Platzierung anzeigen](placement-details-view.md)
->* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](campaign-reports-about.md)
+>* [Anzeigen der Sites, Anzeigen und Häufigkeitsdetails für eine Platzierung anzeigen](placement-details-view.md)
+>* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Anzeigen der Platzierungs-Diagnoseberichte](placement-diagnostics.md)
 >* [Exportieren von Daten aus einer Kampagnenverwaltungsansicht](campaign-export-data.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zum universellen Video
 description: Erfahren Sie mehr über universelle Videoanzeigen.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Erstellen Sie universelle Video-Platzierungen und -Anzeigen ähnlich wie Sie and
    * **[!UICONTROL VPAID & VAST (Default)]:** Enthält ein Inventar, das keine Sichtbarkeitsmessung zulässt.
    * **[!UICONTROL VAST]** - Geeignet für vernetzten TV-Bestand.
 
-   Weitere Informationen finden Sie [&#x200B; „Einstellungen für universelle &#x200B;](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
+   Weitere Informationen finden Sie [ „Einstellungen für universelle ](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
 
-1. [Fügen Sie die neuen universellen Videoanzeigen &#x200B;](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) der Platzierung „Universelles Video“ hinzu.
+1. [Fügen Sie die neuen universellen Videoanzeigen ](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) der Platzierung „Universelles Video“ hinzu.
 
-## Warum sind einige Optimierungsziele und -pakete nicht verfügbar, wenn die Connected TV-Umgebung für eine universelle Videoplatzierung ausgewählt wird?
+## Warum sind einige Optimierungsziele und -pakete nicht verfügbar, wenn die verbundene TV-Umgebung für eine universelle Videoplatzierung ausgewählt wird?
 
 Ziele, die mit standardmäßigen Platzierungen für angeschlossene Fernsehgeräte inkompatibel sind, wie z. B. niedrigste Kosten pro Klick, werden für die angeschlossene TV-Umgebung in universellen Videoplatzierungen nicht unterstützt. Ebenso sind Pakete mit inkompatiblen Optimierungszielen ebenfalls nicht zur Auswahl verfügbar.
 

@@ -3,7 +3,7 @@ title: Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten
 description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen stapelweise überprüfen können.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Sie können Details zu allen Anzeigen in einer Kampagne im XLSX-Format (Excel-Tabelle) zur Überprüfung herunterladen. Die *Bulksheet*-Details enthalten eine Registerkarte mit den Einstellungen und zugehörigen Platzierungen für jede Anzeige und eine weitere Registerkarte mit jedem Pixel, das für Anzeigen in der Kampagne verwendet wird.
 
-Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen und Bearbeiten der Einstellungen der Kampagnenkomponenten mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md).
+Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen und Bearbeiten der Kampagnenkomponenteneinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/campaign-components-review-edit.md).
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[&#x200B; einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[ einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter [Anhängen von Anzeigen an Platzierungen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).
 
 ## Download-Details für alle Anzeigen in einer Kampagne
@@ -45,7 +45,7 @@ Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
