@@ -43,7 +43,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
       </script>
       ```
 
-      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
+      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
 
    1. Verwenden Sie ein beliebiges Browser-Debugging-Tool, um zu überprüfen, ob jeder Aufruf an die Domain-`lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
@@ -107,7 +107,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
          1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder -Ausschlüssen für jede Platzierung verwenden.
 
