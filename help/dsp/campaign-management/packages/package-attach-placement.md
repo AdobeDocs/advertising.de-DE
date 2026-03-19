@@ -3,9 +3,9 @@ title: Platzierung an Paket anhängen
 description: Erfahren Sie, wie Sie eine Platzierung an ein Paket anhängen.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Paketverwaltung](package-about.md)
+>* [Über die Paketverwaltung in Advertising DSP](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Paketeinstellungen](package-settings.md)

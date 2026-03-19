@@ -3,9 +3,9 @@ title: Erstellen mehrerer Anzeigen von Drittanbietern
 description: Erfahren Sie, wie Sie mehrere Anzeigen von Drittanbietern gleichzeitig erstellen können.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 
    1. (Optional) Führen Sie für jede Anzeige einen der folgenden Schritte aus:
 
-      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![&#x200B; in der &#x200B;](/help/dsp/assets/play.png) auf „Abspielen“.
+      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![ in der ](/help/dsp/assets/play.png) auf „Abspielen“.
 
       * Um die Anzeigendetails zu bearbeiten, klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png), bearbeiten Sie die Details und klicken Sie dann auf **Speichern**.
 
@@ -74,8 +74,8 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
->* [Video: Massenhochladen von Anzeigen-Tags von Drittanbietern](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=de)
->* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Video: So laden Sie Anzeigen-Tags von Drittanbietern stapelweise hoch](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)

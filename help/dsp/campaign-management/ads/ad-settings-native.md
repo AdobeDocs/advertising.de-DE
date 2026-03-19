@@ -3,9 +3,9 @@ title: Native Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für native Display-Anzeigen.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)

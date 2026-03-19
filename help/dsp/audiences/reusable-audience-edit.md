@@ -3,7 +3,7 @@ title: Bearbeiten einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe bearbeiten.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederver
    >
    >Wenn Sie die Zielgruppensegmentlogik bearbeiten, werden [Daten zur Zielgruppengröße](audience-about.md) im rechten Bedienfeld aktualisiert.
 
-   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![&#x200B; klicken Sie neben &#x200B;](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
+   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![ klicken Sie neben ](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
 
-   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar &#x200B;](audience-settings.md), manuell zu bearbeiten.
+   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md), manuell zu bearbeiten.
 
       * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
 
@@ -79,7 +79,7 @@ Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederver
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Duplizieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-duplicate.md)
->* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Anzeigen von Details zu einer wiederverwendbaren Zielgruppe](reusable-audience-view-details.md)
 >* [Freigeben einer wiederverwendbaren Zielgruppe](reusable-audience-share.md)
 >* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)

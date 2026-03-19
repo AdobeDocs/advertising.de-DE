@@ -3,9 +3,9 @@ title: Erstellen einer Kampagne
 description: Erfahren Sie, wie Sie eine Kampagne erstellen.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Kampagnenverwaltung](campaign-about.md)
+>* [Über die Kampagnenverwaltung in Advertising DSP](campaign-about.md)
 >* [Duplizieren einer Kampagne](campaign-duplicate.md)
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)

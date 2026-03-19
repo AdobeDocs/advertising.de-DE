@@ -3,9 +3,9 @@ title: Anzeigeneinstellungen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für Display-Anzeigen.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Die folgenden Einstellungen gelten für Standard-Display-Anzeigen.
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)

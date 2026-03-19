@@ -3,7 +3,7 @@ title: Erstellen einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
    >[!NOTE]
    >
-   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
+   >Beim Erstellen der Zielgruppe werden [ Daten zur ](audience-about.md) im rechten Bedienfeld aktualisiert
 
-   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell &#x200B;](audience-settings.md) erstellen.
+   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell ](audience-settings.md) erstellen.
 
       * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
 

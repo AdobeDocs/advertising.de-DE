@@ -3,9 +3,9 @@ title: Duplizieren einer Anzeige
 description: Informationen zum Duplizieren einer Anzeige.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Sie können eine Anzeige innerhalb derselben Kampagne duplizieren.
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen Sie mehrere Anzeigen von Drittanbietern](ad-create-multiple.md)
 >* [Bearbeiten einer Anzeige](ad-edit.md)

@@ -3,7 +3,7 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Web-Seiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
       </script>
       ```
 
-      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
+      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
 
    1. Verwenden Sie ein beliebiges Browser-Debugging-Tool, um zu überprüfen, ob jeder Aufruf an die Domain-`lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
@@ -107,7 +107,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
          1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder -Ausschlüssen für jede Platzierung verwenden.
 
@@ -120,7 +120,7 @@ Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgr
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Segmentinformationen bearbeiten](segment-edit.md)
 >* [Segment löschen](segment-delete.md)
->* [Tracking-Pixel für ein Segment anzeigen](segment-view-pixels.md)
+>* [Anzeigen von Tracking-Pixeln für ein Segment](segment-view-pixels.md)
 >* [Freigeben oder Beenden der Segmentfreigabe](segment-share.md)
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)

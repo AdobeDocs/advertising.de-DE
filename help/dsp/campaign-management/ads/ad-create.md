@@ -3,9 +3,9 @@ title: Erstellen einer einzelnen Anzeige
 description: Erfahren Sie, wie Sie eine einzelne Drittanbieteranzeige erstellen.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Informationen zum gleichzeitigen Erstellen mehrerer Anzeigen von Drittanbietern 
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen Sie mehrere Anzeigen von Drittanbietern](ad-create-multiple.md)
 >* [Bearbeiten einer Anzeige](ad-edit.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
->* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)

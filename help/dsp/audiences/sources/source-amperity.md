@@ -3,7 +3,7 @@ title: Konvertieren von Benutzer-IDs  [!DNL Amperity]  universellen IDs
 description: Erfahren Sie, wie Sie DSP die Aufnahme  [!DNL Amperity]  Erstanbietersegmenten ermöglichen.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Verwenden Sie die DSP-Integration mit der [!DNL Amperity] Kundendatenplattform, um die gehashten First-Party-E-Mail-Adressen Ihres Unternehmens in universelle IDs für zielgerichtete Werbung zu konvertieren.
 
-1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Richten Sie das Tracking ein, um  [!DNL Analytics]  Messung zu &#x200B;](#analytics-tracking).
+1. (So konvertieren Sie E-Mail-Adressen in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Richten Sie das Tracking ein, um  [!DNL Analytics]  Messung zu ](#analytics-tracking).
 
 1. [Erstellen einer Zielgruppenquelle in DSP](#source-create).
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um E-Mail-Adressen in [!DNL RampIDs]- oder [!DNL ID5]-I
 
 ## Schritt 2: Erstellen einer Zielgruppenquelle in DSP {#source-create}
 
-1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([&#x200B; universellen ID-Formate) &#x200B;](source-about.md).
+1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([ universellen ID-Formate) ](source-about.md).
 
    Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, mit dem Sie die Segmentdaten pushen.
 
@@ -82,11 +82,11 @@ Die Segmente werden wie für den Advertiser in [!DNL Amperity] konfiguriert aktu
 
 Nachdem DSP die Segmentdaten erhalten hat, sollte die Zielgruppengröße innerhalb von neun (9) Stunden sichtbar sein.
 
-Vergleichen Sie in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe unter [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in den Platzierungseinstellungen erstellen oder bearbeiten) die Anzahl der universellen IDs mit der Anzahl der ursprünglichen gehashten E-Mail-Adressen. Informationen zu akzeptablen ID-Übersetzungsraten und dazu, warum die Segmentanzahl variieren kann, finden Sie unter &quot;[Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).
+Vergleichen Sie in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe unter [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in den Platzierungseinstellungen erstellen oder bearbeiten) die Anzahl der universellen IDs mit der Anzahl der ursprünglichen gehashten E-Mail-Adressen. Informationen zu akzeptablen ID-Übersetzungsraten und dazu, warum die Segmentanzahl variieren kann, finden Sie unter [Datenabweichungen zwischen E-Mail-IDs und universellen IDs](#universal-ids-data-variances).
 
 ## Fehlerbehebung
 
-Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[&#x200B; für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
+Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[ für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
 
 Wenden Sie sich zur Fehlerbehebung bei Konvertierungsproblemen an Ihr Adobe-Account-Team oder an `adcloud-support@adobe.com`.
 

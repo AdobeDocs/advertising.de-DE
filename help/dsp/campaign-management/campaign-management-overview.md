@@ -3,9 +3,9 @@ title: Überblick über die Kampagnenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Hierarchie und Komponenten der Kampagnenverwaltung.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ Alle aktiven, genehmigten Anzeigen in einer aktiven Platzierung in einer aktiven
 
 >[!MORELIKETHIS]
 >
->* [Über die Kampagnenverwaltung](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [Über die Paketverwaltung](/help/dsp/campaign-management/packages/package-about.md)
->* [Über die Platzierungsverwaltung](/help/dsp/campaign-management/placements/placement-about.md)
->* [Über die Anzeigenverwaltung](/help/dsp/campaign-management/ads/ad-about.md)
->* [Checkliste für den Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
->* [Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Campaign-Datenansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
+>* [Über die Kampagnenverwaltung in Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Über die Paketverwaltung in Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
+>* [Checkliste zum Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Best Practices für die Einrichtung von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Kampagnendaten-Ansichten verwalten](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

@@ -3,9 +3,9 @@ title: Kampagneneinstellungen
 description: Siehe Beschreibungen der verfügbaren Kampagneneinstellungen.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 **[!UICONTROL Packages]:** Die [Pakete](/help/dsp/campaign-management/packages/package-about.md) die in die Kampagne aufgenommen werden sollen. Vorhandene Pakete auswählen und/oder Pakete erstellen, die einbezogen werden sollen. Wenn Sie Pakete erstellen, finden Sie unter Beschreibungen zu den [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md) weitere Informationen.
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ So schätzen Sie die einzubehaltenden Steuern:
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]:** (Optional) Ermöglicht [!DNL IAS] Messung und Berichterstellung von Sichtbarkeit, Betrug, Markensicherheit und Zielgruppenüberprüfung unter Verwendung der angegebenen Einstellungen. Es fallen zusätzliche Gebühren an.
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Über die Kampagnenverwaltung](campaign-about.md)
+>* [Über die Kampagnenverwaltung in Advertising DSP](campaign-about.md)
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)

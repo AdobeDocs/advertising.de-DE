@@ -3,7 +3,7 @@ title: Unterstützung für die Aktivierung universeller IDs
 description: Erfahren Sie mehr über die Unterstützung beim Importieren Ihrer universellen ID-Segmente, Erstellen benutzerdefinierter Segmente zum Nachverfolgen universeller IDs und Konvertieren anderer Benutzerkennung in Erstanbietersegmente in universelle IDs für das Cookie-lose Targeting.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting v
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP kann First-Party-Segmente aufnehmen, die aus gehashten E-Mail-IDs bestehen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und diese in [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+* DSP kann First-Party-Segmente aufnehmen, die aus gehashten E-Mail-IDs bestehen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und diese in [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[ zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
 * Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind und bestimmte Web-Seiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browser-Signalen abgeleitet wird. Anweisungen finden Sie unter [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).
 
@@ -74,7 +74,7 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID] und ID5-basierte S
 
 * Etwa 24 Stunden nach der Aktivierung eines Segments überprüfen Sie die Anzahl der konvertierten IDs für das Segment unter [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Wenn die Anzahl der IDs unerwartet ist, wenden Sie sich an Ihr Adobe Account Team.
 
-  Weitere Informationen [, wie die Segmentzahlen variieren können, finden Sie unter „Datenabweichungen zwischen E-Mail](#universal-ids-data-variances)IDs und universellen IDs“.
+  Weitere Informationen [, wie die Segmentzahlen variieren können, finden Sie unter &quot;](#universal-ids-data-variances) zwischen E-Mail-IDs und universellen IDs“.
 
 * Vorhandene Pakete und Platzierungen nicht ändern. Wenn Sie jedoch kein inkrementelles Budget haben, um universelle IDs zu testen, reduzieren Sie die ursprünglichen Budgets, um die Tests zu finanzieren.
 
@@ -139,6 +139,6 @@ Wenn Sie das Problem nicht beheben können, wenden Sie sich an Ihr Adobe Account
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)
->* [Importieren Sie authentifizierte Segmente manuell aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

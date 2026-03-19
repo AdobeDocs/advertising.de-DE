@@ -3,9 +3,9 @@ title: Einstellungen für verbundene TV-Werbeanzeigen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für verbundene TV-Anzeigen.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Dies ist dasselbe wie das Feld **[!UICONTROL Height]** .
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Platzierungen auflisten, die mit einer Anzeige verbunden sind](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Anzeigenspezifikationen](ad-specs.md)

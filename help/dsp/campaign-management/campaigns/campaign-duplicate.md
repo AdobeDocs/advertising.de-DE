@@ -3,9 +3,9 @@ title: Duplizieren einer Kampagne
 description: Erfahren Sie, wie Sie eine Kampagne duplizieren.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Duplizieren Sie eine Kampagne, um eine neue Kampagne mit ähnlichen Einstellunge
 
 * Ändern der Flugdaten der neuen Kampagne
 
-Unter [Was nicht dupliziert ist](#campaign-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Unter [Was nicht dupliziert wird](#campaign-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -80,11 +80,11 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
-* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
+* Verwenden Sie für Leistungskampagnen (d. h. Kampagnen mit Paketen, die benutzerdefinierte Optimierungsziele verwenden) die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung, ](/help/dsp/campaign-management/packages/package-settings.md) jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
 
 >[!MORELIKETHIS]
 >
->* [Über die Kampagnenverwaltung](campaign-about.md)
+>* [Über die Kampagnenverwaltung in Advertising DSP](campaign-about.md)
 >* [Erstellen einer Kampagne](campaign-create.md)
 >* [Bearbeiten einer Kampagne](campaign-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Kampagne](campaign-change-log.md)
