@@ -2,9 +2,9 @@
 title: Häufig gestellte Fragen zu benutzerdefinierten Berichten
 description: Erfahren Sie mehr über benutzerspezifische Berichte, einschließlich Haushaltsberichten und Konversionspfadanalyseberichten.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Diese Metriken in [!UICONTROL Household] Berichten werden anhand der tatsächlic
 
 #### Wie konfiguriere ich den Bericht für die [!UICONTROL Placement Tags] Dimension?
 
-Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [Platzierungs-Tags“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Um Tags für die Platzierung zu erstellen, [öffnen Sie die Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-edit.md) und geben Sie Werte in das Feld [[!UICONTROL Placement Tags] ein](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Wenn eine Platzierung mehrere Tags enthält, betrachtet der Bericht die gesamte Zeichenfolge als ein Tag. Der Bericht enthält eine Zeile für jede eindeutige Zeichenfolge.
 
@@ -103,9 +103,9 @@ Der ideale Anwendungsfall besteht darin, sowohl den [!UICONTROL Household] Beric
 
 ## Konversionspfad-Analyseberichte
 
-### Wie lässt sich der Konversionsbericht mit den Berichten vergleichen, die von [!DNL Advanced Measurement Services] und Adobe Analytics Analysis Workspace erstellt wurden?
+### Wie sieht der [!UICONTROL Path to Conversion] Bericht im Vergleich zu den Berichten aus, die von [!DNL Advanced Measurement Services] und Adobe Analytics Analysis Workspace erstellt wurden?
 
-| | Pfad zum Konversionsbericht | Advanced Measurement Services hat keine Auswirkungen auf das Suchberichterstellung | Berichte in Analysis Workspace |
+| | Bericht [!UICONTROL Path to Conversion] | Advanced Measurement Services hat keine Auswirkungen auf das Suchberichterstellung | Berichte in Analysis Workspace |
 | --- | --- | --- |---|
 | Kundennutzen | Erstellen Sie einen benutzerdefinierten Self-Service-Bericht, um zu verstehen, welche Pfade der Anzeigen-Journey zu mehr Konversionen geführt haben, um die Optimierung zu optimieren | Den Einfluss der CTV-Taktik (Connected TV) auf Suchklicks verstehen | Machen Sie sich mit dem Einfluss Ihrer ganzheitlichen Adobe Advertising-Investition neben anderen Marketing-Kanälen auf Suchklicks vertraut |
 | Haushaltsebene | Ja | Ja | Nein |
@@ -117,7 +117,7 @@ Der ideale Anwendungsfall besteht darin, sowohl den [!UICONTROL Household] Beric
 | Marketing-Kanäle | DSP + Search (aus Search, Social und Commerce) | DSP + Search (aus Search, Social und Commerce) | Marketing-Kanäle, die nicht von der Adobe Advertising-Clickthrough-EF-ID verfolgt werden (z. B. organische Suche, organische soziale Medien, E-Mail und Tochterunternehmen) |
 | Konversionsmetriken werden unterstützt | Mit dem Adobe Advertising-Ereignispixel (AMO-ID) und Adobe Analytics-Tracking verfolgte Metriken | Klicks (keine Konversionen) | Mit Adobe Analytics-Tracking verfolgte Metriken |
 
-Weitere Informationen über den Halo-Effekt von Advanced Measurement Services für Suchberichte finden Sie unter [Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).
+Weitere Informationen über den Halo-Effekt von Advanced Measurement Services für Suchberichte finden Sie unter [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md).
 
 >[!MORELIKETHIS]
 >

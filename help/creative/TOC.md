@@ -3,7 +3,7 @@ role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Handbuch zu Creative
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 5%
@@ -18,8 +18,8 @@ ht-degree: 5%
    + [Über Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
    + [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Unterstützung für Privatsphäre von Verbrauchern](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
+   + [Unterstützung für Privatsphäre von Verbrauchern](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative-Bibliotheken {#creative-libraries}
    + [Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [Retargeting von Pixeln](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 + [Hilfe erhalten](/help/creative/get-help.md)
-+ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de){target="_blank"}
++ [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
