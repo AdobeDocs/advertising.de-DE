@@ -87,7 +87,7 @@ Wenn beim Erstellen einer Display-Anzeige ein Klick-Makro fehlt, zeigt DSP eine 
 
 ## [!DNL Analytics for Advertising] Makros
 
-Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad ](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
+Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad &#x200B;](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
 
 ## Fehlerbehebung bei Makro-Fehlern
 
