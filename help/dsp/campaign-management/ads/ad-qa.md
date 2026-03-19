@@ -20,7 +20,7 @@ Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen 
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[ einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[&#x200B; einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter [Anhängen von Anzeigen an Platzierungen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).
 
 ## Download-Details für alle Anzeigen in einer Kampagne
