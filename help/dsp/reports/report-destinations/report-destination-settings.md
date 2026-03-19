@@ -3,9 +3,9 @@ title: Berichtszieleinstellungen
 description: Sehen Sie sich die für Ihre Berichtsziele erforderlichen Details an, aufgeschlüsselt nach Zieltyp.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Die für Ziele ohne E-Mail-Berichte erforderlichen Details variieren je nach Zie
 
 >[!MORELIKETHIS]
 >
->* [Über [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Über Berichtsziele](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Erstellen eines Berichtsziels](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Löschen eines Berichtsziels](/help/dsp/reports/report-destinations/report-destination-delete.md)

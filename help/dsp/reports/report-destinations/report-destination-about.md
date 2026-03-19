@@ -1,16 +1,16 @@
 ---
-title: Über [!UICONTROL Report Destinations]
+title: Über Berichtsziele
 description: Erfahren Sie mehr über die Verwaltung von Versandspeicherorten für Ihre benutzerspezifischen Berichte.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Über [!UICONTROL Report Destinations]
+# Über Berichtsziele
 
 Sie können Versandspeicherorte, so genannte *[!DNL report destinations]*, für Ihre benutzerspezifischen Berichte erstellen und verwalten. Nachdem Sie die Berichtsziele konfiguriert haben, können Sie jeden Ihrer benutzerdefinierten Berichte so einrichten, dass er an einen oder mehrere Standorte eines einzelnen Zieltyps gesendet wird. Nachdem Sie einen Bericht gespeichert haben, können Sie den Zieltyp nicht mehr ändern.
 
@@ -39,7 +39,7 @@ Sie können in dieser Ansicht neue Ziele erstellen und vorhandene Ziele bearbeit
 
 >[!MORELIKETHIS]
 >
->* [Erstellen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Einstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Erstellen eines Berichtsziels](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Berichtszieleinstellungen](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Bearbeiten eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Löschen eines [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Löschen eines Berichtsziels](/help/dsp/reports/report-destinations/report-destination-delete.md)

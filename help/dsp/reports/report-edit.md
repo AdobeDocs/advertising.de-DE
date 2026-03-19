@@ -3,7 +3,7 @@ title: Benutzerdefinierten Bericht bearbeiten
 description: Erfahren Sie, wie Sie benutzerdefinierte Berichtseinstellungen bearbeiten.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [Benutzerdefinierten Bericht ausführen](/help/dsp/reports/report-run-now.md)
 >* [Benutzerdefinierten Bericht löschen](/help/dsp/reports/report-delete.md)
 >* [Benutzerdefinierte Berichtseinstellungen](/help/dsp/reports/report-settings.md)
->* [Typen von Leistungsberichten in Ansichten des Kampagnen-Managements](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typen von Leistungsberichten in Kampagnenverwaltungsansichten](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Verfügbare Berichtsspalten](/help/dsp/reports/report-columns.md)
