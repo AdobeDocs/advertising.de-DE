@@ -176,4 +176,4 @@ Wählen Sie unten rechts auf einer beliebigen Seite neben **[!UICONTROL Items pe
 >* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Anzeigen der Platzierungs-Diagnoseberichte](placement-diagnostics.md)
 >* [Exportieren von Daten aus einer Kampagnenverwaltungsansicht](campaign-export-data.md)
->* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP-Kontostruktur und Benutzeroberfläche](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=de)
