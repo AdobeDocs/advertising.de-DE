@@ -38,4 +38,4 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 >* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=de)
