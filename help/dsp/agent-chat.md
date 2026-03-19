@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu ](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert ](https://experienceleague.adobe.com/en/docs/advertising).
+Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu &#x200B;](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/en/docs/advertising).
 
 Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können. Ihr Chat-Verlauf wird gepflegt und Ihre Abfragen werden nicht mit anderen Benutzern geteilt.
 
@@ -60,7 +60,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 1. Geben Sie Ihre Abfrage ein und klicken Sie auf ![Submit prompt](/help/dsp/assets/submit-prompt.png "Submit prompt").
 
-   Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts).
+   Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts).
 
    Die Antwort enthält Inline-Zitate und unten eine **[!UICONTROL Documentation Sources]**. Es können auch Folgefragen und Vorschläge angezeigt werden.
 
