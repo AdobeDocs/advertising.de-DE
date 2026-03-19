@@ -3,9 +3,9 @@ title: Archivieren eines vernetzten TV-Reach-Plans
 description: Erfahren Sie, wie Sie einen vernetzten TV-Reichweitenplan archivieren.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Wenn Sie einen Plan archivieren, wird er aus der [!UICONTROL Planner] entfernt.<
 
 >[!MORELIKETHIS]
 >
->* [Über das DSP Planner Tool](planner-about.md)
->* [Erstellen eines Plans für die Reichweite von vernetzten Fernsehgeräten](planner-create.md)
->* [Duplizieren Sie einen Plan für die Reichweite eines verbundenen Fernsehers](planner-duplicate.md)
->* [Bearbeiten eines Connected TV-Reach-Plans](planner-edit.md)
->* [Exportieren eines Connected TV Reach Plans](planner-export.md)
->* [Regenerieren Sie die Prognose für einen Connected TV Reach Plan](planner-forecast.md)
->* [Einstellungen für Connected TV Reach Plans](planner-settings.md)
+>* [Über das DSP-[!UICONTROL Planner]-Tool](planner-about.md)
+>* [Erstellen eines Plans für die Reichweite eines vernetzten Fernsehers](planner-create.md)
+>* [Duplizieren Sie einen verbundenen TV-Reach-Plan](planner-duplicate.md)
+>* [Bearbeiten eines verbundenen TV-Reichweitenplans](planner-edit.md)
+>* [Exportieren eines vernetzten TV-Reach-Plans](planner-export.md)
+>* [Generieren Sie die Prognose für einen angeschlossenen TV-Reach-Plan](planner-forecast.md)
+>* [Einstellungen für Pläne zur Reichweite von vernetzten Fernsehgeräten](planner-settings.md)

@@ -3,9 +3,9 @@ title: Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie, wie Sie einen privaten Deal akzeptieren, den Sie bereits mit einem Herausgeber über  [!DNL FreeWheel], [!DNL Google Authorized Buyers] ehemals bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (ehemals)  [!DNL Rubicon] haben, indem Sie den Deal ID-Posteingang verwenden.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 *Benutzende in DSP-Konten, die nur SSP-Konten zugeordnet sind*
 
-Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft zu akzeptieren, das Sie bereits mit einem Herausgeber in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher als [!DNL AdX] bezeichnet) und [!DNL Magnite DV+] (früher [!DNL Rubicon]) ausgehandelt haben.
+Verwenden Sie die [!UICONTROL Deal ID Inbox], um schnell ein privates Geschäft zu akzeptieren, das Sie bereits mit einem Herausgeber in [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher als [!DNL AdX] bezeichnet) und [!DNL Magnite DV+] (früher [!DNL Rubicon]) ausgehandelt haben.
 
 >[!NOTE]
 >
->Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [&#x200B; „Überblick über das Einrichten programmgesteuerter garantierter &#x200B;](freewheel-overview.md) in FreeWheel“.
+>Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden Sie [ „Überblick über das Einrichten programmgesteuerter garantierter ](freewheel-overview.md) in FreeWheel“.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicken Sie über der [!UICONTROL Deals] auf die blaue Leiste, um die [!UICONTROL Deal ID inbox] zu öffnen.
+1. Klicken Sie über der [!UICONTROL Deals] auf die blaue Leiste, um die [!UICONTROL Deal ID Inbox] zu öffnen.
 
 1. (Optional) Um die Details des Angebots zu aktualisieren, klicken Sie auf **[!UICONTROL Refresh]**.
 
@@ -36,7 +36,7 @@ Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft 
 
    * Klicken Sie in den Angebotsdetails auf **[!UICONTROL Accept]**.
 
-   * Halten Sie im [!UICONTROL Deal ID inbox] den Cursor über die Abschlusszeile und klicken Sie auf ![Akzeptieren](/help/dsp/assets/accept.png).
+   * Halten Sie im [!UICONTROL Deal ID Inbox] den Cursor über die Abschlusszeile und klicken Sie auf ![Akzeptieren](/help/dsp/assets/accept.png).
 
 1. Im Deal-Detail:
    1. Füllen Sie die erforderlichen Informationen aus: **[!UICONTROL Publisher]**, **[!UICONTROL Media Type]** und **[!UICONTROL Deal Access]** (die Werbetreibenden mit Zugriff auf das Angebot).
@@ -46,12 +46,12 @@ Verwenden Sie die [!UICONTROL Deal ID inbox], um schnell ein privates Geschäft 
 
 1. (Nur programmgesteuerte garantierte Angebote) Befolgen Sie die Anweisungen zum Auswählen einer Anzeige (oder eines 1x1-Tracking-Pixels für Publisher-verwaltete Anzeigen) für den Deal und erstellen Sie eine programmgesteuerte garantierte Standardplatzierung, die auf den Deal abzielt.
 
-Sobald Sie ein Angebot annehmen, wird es von der [!UICONTROL Deal ID inbox] in die Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] verschoben, und das Angebot ist als private Bestandsquelle im [!UICONTROL Inventory Targeting] jeder Platzierung verfügbar.
+Sobald Sie ein Angebot annehmen, wird es von der [!UICONTROL Deal ID Inbox] in die Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] verschoben, und das Angebot ist als private Bestandsquelle im [!UICONTROL Inventory Targeting] jeder Platzierung verfügbar.
 
 >[!MORELIKETHIS]
 >
->* [Über den Angebots-ID-Posteingang](deal-id-inbox-about.md)
+>* [Über die [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md)
 >* [Richten Sie einen programmgesteuerten garantierten Abschluss ein](programmatic-guaranteed-set-up.md)
->* [Senden einer Anzeige für einen programmgesteuerten garantierten Deal mit [!DNL FreeWheel]](freewheel-submit.md)
->* [Über programmgesteuerte garantierte -Angebote](programmatic-guaranteed-about.md)
->* [Übersicht über die Inventar-Funktionen](inventory-overview.md)
+>* [Senden einer Anzeige für einen programmgesteuerten garantierten Vertrag mit [!DNL FreeWheel]](freewheel-submit.md)
+>* [Über programmgesteuerte garantierte Angebote](programmatic-guaranteed-about.md)
+>* [Übersicht über die Inventarfunktionen](inventory-overview.md)

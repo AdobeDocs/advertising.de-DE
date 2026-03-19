@@ -3,9 +3,9 @@ title: Doppelte Platzierungen
 description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Duplizieren Sie eine oder mehrere Platzierungen, um Platzierungen mit ähnlichen
 * (Für duplizierte Platzierungen innerhalb der ursprünglichen Kampagnen) Duplizieren Sie optional die ursprünglichen Anzeigen
 * Status und Flugdatum der neuen Platzierungen ändern
 
-Unter [Was nicht dupliziert ist](#placement-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
+Unter [Was nicht dupliziert wird](#placement-not-duplicated) finden Sie eine Liste der Platzierungseinstellungen, die nicht dupliziert werden.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -97,7 +97,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierung erstellen](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)

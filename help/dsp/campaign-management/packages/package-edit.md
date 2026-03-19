@@ -3,9 +3,9 @@ title: Bearbeiten eines Pakets
 description: Erfahren Sie, wie Sie ein Paket bearbeiten.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Sie können auch die Einstellungen für ein oder mehrere Pakete im XLSX-Format (Excel-Tabelle) herunterladen, die meisten Felder ändern und sie gleichzeitig wieder in DSP hochladen. Siehe [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](package-qa.md).
+>Sie können auch die Einstellungen für ein oder mehrere Pakete im XLSX-Format (Excel-Tabelle) herunterladen, die meisten Felder ändern und sie gleichzeitig wieder in DSP hochladen. Siehe &quot;[Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](package-qa.md).“
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 1. Klicken Sie auf den Namen der Kampagne, um die [!UICONTROL Packages] zu öffnen.
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Paketverwaltung](package-about.md)
+>* [Über die Paketverwaltung in Advertising DSP](package-about.md)
 >* [Überprüfen und Bearbeiten von Paketeinstellungen mithilfe von Bulksheets](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Duplizieren Sie ein Paket](package-duplicate.md)
