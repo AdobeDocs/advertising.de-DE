@@ -3,7 +3,7 @@ title: Über die Anzeigenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über die Anzeigenverwaltung.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Alle folgenden Anzeigentypen sind in DSP verfügbar. Die vollständigen Spezifik
 
   Universelle Videoanzeigen können nur an Platzierungen für universelle Videos angehängt werden.
 
-  Weitere Informationen [&#x200B; universellen Videoanzeigen finden Sie &#x200B;](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
+  Weitere Informationen [ universellen Videoanzeigen finden Sie ](/help/dsp/campaign-management/faq-universal-video.md) „FAQs zu universellen“.
 
 ## DSP-Anzeigengenehmigungen
 

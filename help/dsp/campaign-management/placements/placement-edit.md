@@ -3,9 +3,9 @@ title: Platzierungen bearbeiten
 description: Erfahren Sie, wie Sie eine Platzierung bearbeiten.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie können den Platzierungsnamen, den Status, das maximale Angebot und das Budg
 
 >[!TIP]
 >
-> Informationen zum Bearbeiten von Platzierungsnamen, Status, Maximalgebot und Budget finden Sie unter &quot;[Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen](#placement-quick-edit)&quot;.
+> Um nur den Platzierungsnamen, den Status, das maximale Angebot und das Budget zu bearbeiten, siehe &quot;[Schnelles Bearbeiten der wichtigsten Platzierungseinstellungen](#placement-quick-edit)&quot;.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
@@ -91,7 +91,7 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets](placement-qa.md)
 >* [Platzierung erstellen](placement-create.md)
 >* [Duplizieren einer Platzierung](placement-duplicate.md)
@@ -100,6 +100,6 @@ Verwenden Sie diese Option nur, wenn Sie dieselben Änderungen auf alle ausgewä
 >* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=de)
+>* [Video: So bearbeiten Sie Platzierungen mit Tools zur Massenbearbeitung](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -1,18 +1,18 @@
 ---
-title: Search for product documentation using AI-assisted chat
-description: Learn how to search Adobe Advertising DSP and [!DNL Creative] documentation using AI-assisted chat. Get answers with citations and suggested follow-up prompts.
+title: Suchen nach Produktdokumentation im KI-unterstützten Chat
+description: Erfahren Sie, wie Sie mit  [!DNL Creative]  KI-gestützten Chat nach Adobe Advertising DSP und Dokumentation suchen. Erhalten Sie Antworten mit Zitaten und empfohlenen Folgeaufforderungen.
 feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
-# Search for product documentation using an AI-assisted chat interface
+# Suchen nach Produktdokumentation mithilfe einer KI-unterstützten Chat-Oberfläche
 
 *Beta-Funktion*
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu &#x200B;](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/de/docs/advertising).
+Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu ](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert ](https://experienceleague.adobe.com/en/docs/advertising).
 
 Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können. Ihr Chat-Verlauf wird gepflegt und Ihre Abfragen werden nicht mit anderen Benutzern geteilt.
 
@@ -28,15 +28,15 @@ Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folge
 >
 >Abfragen geben keine Daten zu Ihrem Konto zurück, z. B. Kampagnen-, Angebots- oder Zielgruppenkonfigurationen, Status oder Leistung. Sie helfen Ihnen auch nicht bei der Fehlerbehebung.
 
-![Example of a query and response](/help/dsp/assets/agent-chat-response.png "Example of a query and response")
+![Beispiel einer Abfrage und Antwort](/help/dsp/assets/agent-chat-response.png "Beispiel einer Abfrage und Antwort")
 
 >[!IMPORTANT]
 >
->AI-generated responses may be inaccurate or misleading. Always verify responses and sources before using them for decisions that affect cost or effort.
+>KI-generierte Antworten können ungenau oder irreführend sein. Überprüfen Sie die Antworten und Quellen immer, bevor Sie sie für Entscheidungen verwenden, die sich auf Kosten oder Aufwand auswirken.
 
-## Example queries
+## Beispielabfragen
 
-You can ask about campaign management, optimization, audience management, deals, reports, and other product features. The following are examples:
+Fragen Sie nach Kampagnenverwaltung, Optimierung, Zielgruppen-Management, Angeboten, Berichten und anderen Produktfunktionen. Im Folgenden finden Sie Beispiele:
 
 * Wie kann ich eine Anzeige an eine Platzierung anhängen?
 
@@ -50,17 +50,17 @@ You can ask about campaign management, optimization, audience management, deals,
 
 * Was ist der Unterschied zwischen einem zielgerichteten Erlebnis und einem nicht zielgerichteten Erlebnis in [!DNL Creative]?
 
-* How do I create an ad tag for a [!DNL Creative] experience?
+* Wie erstelle ich ein Anzeigen-Tag für ein [!DNL Creative] Erlebnis?
 
-## Submit a query
+## Senden einer Abfrage
 
-You can ask multiple questions in one message, but only one message at a time. Wait for a response before sending another.
+Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nachricht. Warten Sie auf eine Antwort, bevor Sie eine weitere senden.
 
-1. In the upper right of any page, click ![Agentic Chat](/help/dsp/assets/agent-chat.png "Agentic chat").
+1. Klicken Sie oben rechts auf einer beliebigen Seite auf ![Agent-Chat](/help/dsp/assets/agent-chat.png "Agent-Chat").
 
 1. Geben Sie Ihre Abfrage ein und klicken Sie auf ![Submit prompt](/help/dsp/assets/submit-prompt.png "Submit prompt").
 
-   Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts).
+   Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts).
 
    Die Antwort enthält Inline-Zitate und unten eine **[!UICONTROL Documentation Sources]**. Es können auch Folgefragen und Vorschläge angezeigt werden.
 
@@ -68,19 +68,19 @@ You can ask multiple questions in one message, but only one message at a time. W
 
    * Klicken Sie auf das nummerierte Zitat.
 
-   * Click **[!UICONTROL Documentation Sources]** to show a list of all pages cited in the response, and then click the page link.
+   * Klicken Sie auf **[!UICONTROL Documentation Sources]** , um eine Liste aller in der Antwort genannten Seiten anzuzeigen, und klicken Sie dann auf den Seitenlink.
 
-## Provide feedback about a response
+## Feedback zu einer Antwort geben
 
 <!-- Not actionable in terms of improving page content -->
 
-* Next to the [!UICONTROL Documentation Sources] list:
+* Neben der [!UICONTROL Documentation Sources]:
 
-   * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+   * Klicken Sie für hilfreiche Antworten auf ![Daumen hoch](/help/dsp/assets/thumbs-up.png "Daumen hoch").
 
-   * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+   * Klicken Sie bei nicht hilfreichen Antworten auf ![Daumen runter](/help/dsp/assets/thumbs-down.png "Daumen runter").
 
-## Basics of writing prompts {#writing-prompts}
+## Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
 * **Klar und präzise sein.** Verwenden Sie vollständige Fragen („Wie abonniere ich ein On-Demand-Inventar?„), Aufgabensätze („Abonnieren eines On-Demand-Inventars„) oder Themensätze („On-Demand-Inventar„).
 
@@ -90,4 +90,4 @@ You can ask multiple questions in one message, but only one message at a time. W
 
 * **Detail hinzufügen** um die Ergebnisse einzugrenzen oder zu erweitern. Verfeinern Sie dies mit Folgefragen nach Bedarf.
 
-* **Don&#39;t worry about punctuation and capitalization** except when they affect meaning.
+* **Machen Sie sich keine Gedanken über Interpunktion und**, außer wenn sie die Bedeutung beeinflussen.

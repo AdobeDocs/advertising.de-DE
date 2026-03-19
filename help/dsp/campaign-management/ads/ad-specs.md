@@ -3,9 +3,9 @@ title: Spezifikationen hinzufügen
 description: Verweisen Sie auf allgemeine und publisherspezifische Anzeigenspezifikationen.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Die Werbeanzeigen werden standardmäßig auf Desktop- und Mobilgeräten sowie au
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter [Zertifizierte Ad-Serving-](certified-ad-servers.md)&quot;.
 
 ### Voraussetzungen für High-Definition-Video-Assets
 
@@ -52,7 +52,7 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 
 **Audiopegel:** 24 LKFS (+/- 2,0 dB) in den USA gemäß ATSC A/85; 23 LUFS (+/- 1,0) in der EU gemäß EBU R128
 
-#### Zusätzliche Publisher-Anforderungen für Connected TV Ads
+#### Zusätzliche Publisher-Anforderungen für verbundene TV-Anzeigen
 
 * **A+E-Netzwerk:** Siehe A+E-Netzwerk [Anzeigenspezifikationen](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
@@ -90,7 +90,7 @@ Die universelle Anzeige wird unterstützt.
 
 **Empfohlene Anzeigengrößen:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
 
-**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+**Unterstützte Werbeserver von Drittanbietern:** Sie können Tag-Blätter von [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter [Zertifizierte Ad-Serving-](certified-ad-servers.md)&quot;.
 
 ## Audio-Anzeigen
 
@@ -100,7 +100,7 @@ Desktop, Mobilgerät, Tablet, Smart-Lautsprecher und Connected TV
 
 ### Unterstützte Werbeserver von Drittanbietern
 
-Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter &quot;[&#x200B; Ad Serving Partners](certified-ad-servers.md).
+Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und [!DNL Sizmek] verwenden. Eine vollständige Liste der unterstützten Anbieter finden Sie unter [Zertifizierte Ad-Serving-](certified-ad-servers.md)&quot;.
 
 ### Anforderungen für Audio-Assets
 
@@ -196,7 +196,7 @@ Anzeigen werden standardmäßig auf Desktop- und Mobilgeräten bereitgestellt. D
 
 **Dateigröße:** Weniger als 1 MB (Bild sollte textfrei sein.)
 
-#### Advertiser-Logo
+#### Werbelogo
 
 **Auflösung:** Minimum 80x80px; Empfohlenes Minimum 300x300px
 
@@ -238,7 +238,7 @@ Voraussetzungen für Klick-Tracker:
 
 >[!MORELIKETHIS]
 >
->* [Über die Anzeigenverwaltung](ad-about.md)
+>* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
 >* [Erstellen Sie mehrere Anzeigen von Drittanbietern](ad-create-multiple.md)
 >* [Bearbeiten einer Anzeige](ad-edit.md)
