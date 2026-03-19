@@ -3,7 +3,7 @@ title: Freigeben oder Beenden der Freigabe eines Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes oder CCPA-Opt-out vom Verkauf-Segment für andere DSP-Benutzerkonten freigeben oder die Freigabe beenden können.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Freigeben oder Beenden der Freigabe eines Segments
 
-Sie können Ihre benutzerdefinierten Segmente und CCPA-Opt-out-Segmente für weitere DSP-Benutzerkonten freigeben. Durch die Freigabe eines Segments wird das Segment unter [!UICONTROL Audiences] > [!UICONTROL Segments] und auf der Registerkarte [!UICONTROL Custom Segments] in den Platzierungen und wiederverwendbaren Zielgruppen der angegebenen Benutzenden verfügbar.
+Sie können benutzerdefinierte Segmente und CCPA-Opt-out vom Verkauf von Segmenten für weitere DSP-Benutzerkonten freigeben. Durch die Freigabe eines Segments wird das Segment unter [!UICONTROL Audiences] > [!UICONTROL Segments] und auf der Registerkarte [!UICONTROL Custom Segments] in den Platzierungen und wiederverwendbaren Zielgruppen der angegebenen Benutzenden verfügbar.
 
 Sie können auch die Freigabe eines Segments für andere DSP-Benutzerkonten beenden.
 
@@ -36,4 +36,4 @@ Sie können auch die Freigabe eines Segments für andere DSP-Benutzerkonten been
 >* [Benutzerdefiniertes Segment erstellen](custom-segment-create.md)
 >* [Segmentinformationen bearbeiten](segment-edit.md)
 >* [Segment löschen](segment-delete.md)
->* [Tracking-Pixel für ein Segment anzeigen](segment-view-pixels.md)
+>* [Anzeigen von Tracking-Pixeln für ein Segment](segment-view-pixels.md)

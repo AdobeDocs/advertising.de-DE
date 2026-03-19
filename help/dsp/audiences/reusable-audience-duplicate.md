@@ -3,7 +3,7 @@ title: Duplizieren einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe duplizieren.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -30,8 +30,8 @@ Sie können eine Zielgruppe erstellen, indem Sie eine vorhandene Zielgruppe dupl
 >
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
->* [Wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
->* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Bearbeiten einer wiederverwendbaren Zielgruppe](reusable-audience-edit.md)
+>* [Anzeigen von Details zu einer wiederverwendbaren Zielgruppe](reusable-audience-view-details.md)
 >* [Freigeben einer wiederverwendbaren Zielgruppe](reusable-audience-share.md)
 >* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)

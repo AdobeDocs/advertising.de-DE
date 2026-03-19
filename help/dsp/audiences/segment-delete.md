@@ -3,7 +3,7 @@ title: Segment löschen
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes oder CCPA-Opt-out vom Verkaufssegment löschen.
 feature: DSP Segments
 exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -25,5 +25,5 @@ Wenn Sie ein benutzerdefiniertes oder CCPA-Opt-out vom Verkauf löschen, wird es
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Benutzerdefiniertes Segment erstellen](custom-segment-create.md)
 >* [Segmentinformationen bearbeiten](segment-edit.md)
->* [Tracking-Pixel für ein Segment anzeigen](segment-view-pixels.md)
+>* [Anzeigen von Tracking-Pixeln für ein Segment](segment-view-pixels.md)
 >* [Freigeben oder Beenden der Segmentfreigabe](segment-share.md)

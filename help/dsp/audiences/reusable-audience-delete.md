@@ -3,7 +3,7 @@ title: Löschen einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe löschen.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -31,8 +31,8 @@ Wenn derzeit eine Zielgruppe verwendet wird, haben Sie die Möglichkeit, ein [!D
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Duplizieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-duplicate.md)
->* [Wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
->* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Bearbeiten einer wiederverwendbaren Zielgruppe](reusable-audience-edit.md)
+>* [Anzeigen von Details zu einer wiederverwendbaren Zielgruppe](reusable-audience-view-details.md)
 >* [Freigeben einer wiederverwendbaren Zielgruppe](reusable-audience-share.md)
 >* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)

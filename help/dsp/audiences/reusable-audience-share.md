@@ -3,7 +3,7 @@ title: Freigeben einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe mit anderen Advertisern teilen, die für Ihr Konto verfügbar sind.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -29,8 +29,8 @@ Sobald Sie eine Zielgruppe freigegeben haben, können Sie die Freigabe nicht meh
 >* [Über die Zielgruppenverwaltung](audience-about.md)
 >* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Duplizieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-duplicate.md)
->* [Wiederverwendbare Zielgruppe bearbeiten](reusable-audience-edit.md)
->* [Anzeigen von Details zu wiederverwendbaren Zielgruppen](reusable-audience-view-details.md)
+>* [Bearbeiten einer wiederverwendbaren Zielgruppe](reusable-audience-edit.md)
+>* [Anzeigen von Details zu einer wiederverwendbaren Zielgruppe](reusable-audience-view-details.md)
 >* [Exportieren Sie eine wiederverwendbare Zielgruppe](reusable-audience-export.md)
 >* [Kopieren Sie den Segmentschlüssel für eine wiederverwendbare Zielgruppe in die Zwischenablage](reusable-audience-clipboard.md)
 >* [Löschen einer wiederverwendbaren Zielgruppe](reusable-audience-delete.md)
