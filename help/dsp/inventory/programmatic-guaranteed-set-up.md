@@ -3,7 +3,7 @@ title: Programmgesteuertes garantiertes Angebot einrichten
 description: Erfahren Sie, wie Sie einen programmgesteuert garantierten (PG) Deal einrichten, den Sie mit einem Publisher ausgehandelt haben.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[Nur unterstützte Plattformen auf der Angebotsseite](programmatic-guaranteed-about.md)*
 
-Nachdem Sie einen programmgesteuert garantierten (PG) Deal mit einem unterstützten Herausgeber ausgehandelt haben, können Sie den Deal in DSP einrichten, indem Sie entweder die [!DNL Deal ID inbox] verwenden oder die Deal-Details manuell eingeben.
+Nachdem Sie einen programmgesteuert garantierten (PG) Deal mit einem unterstützten Herausgeber ausgehandelt haben, können Sie den Deal in DSP einrichten, indem Sie entweder die [!DNL Deal ID Inbox] verwenden oder die Deal-Details manuell eingeben.
 
 >[!NOTE]
 >
 > Bei PG-Angeboten übernimmt der Herausgeber das gesamte Budget, die Budgetbegrenzung und die Zielgruppenbestimmung. Alle SSPs, die PG über DSP zulassen, bestätigen, dass der Publisher Budgetbegrenzungen einrichten kann.
 >
-> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [&#x200B; unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
+> Das Einrichten programmgesteuerter garantierter Abschlüsse mit Herausgebern auf [!DNL FreeWheel] erfordert zusätzliche Berechtigungen und Schritte. Weitere Informationen finden [ unter „Überblick über das Einrichten programmgesteuerter garantierter  [!DNL FreeWheel]](freewheel-overview.md) in“.
 
 ## Erstellen eines programmgesteuerten garantierten Angebots mit dem [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
@@ -46,7 +46,7 @@ Die folgende Methode ist das bevorzugte Verfahren für [!DNL FreeWheel], [!DNL G
 
 Verwenden Sie diese Methode für alle anderen SSPs.
 
-1. [Richten Sie die Details der Angebots-ID manuell &#x200B;](deal-id-create.md).
+1. [Richten Sie die Details der Angebots-ID manuell ](deal-id-create.md).
 
 1. Nachdem Sie den Deal gespeichert haben, wählen Sie die Anzeigen (oder 1x1 Tracking-Pixel für Publisher-verwaltete Anzeigen) aus, die für den Deal verwendet werden sollen, und erstellen Sie eine PG-Standardplatzierung, wie Sie dazu aufgefordert werden.
 
@@ -58,10 +58,10 @@ Verwenden Sie diese Methode für alle anderen SSPs.
 
 >[!MORELIKETHIS]
 >
->* [Über programmgesteuerte garantierte -Angebote](programmatic-guaranteed-about.md)
+>* [Über programmgesteuerte garantierte Angebote](programmatic-guaranteed-about.md)
 >* [Tipps für die Aushandlung eines programmgesteuerten garantierten Deals](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Senden einer Anzeige für einen programmgesteuerten garantierten Deal mit [!DNL FreeWheel]](freewheel-submit.md)
->* [Akzeptieren eines Angebots im Angebots-ID-Posteingang](deal-id-inbox-accept.md)
+>* [Senden einer Anzeige für einen programmgesteuerten garantierten Vertrag mit [!DNL FreeWheel]](freewheel-submit.md)
+>* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Details zur Angebots-ID manuell erstellen](deal-id-create.md)
 >* [SSP-Partner](ssp-partners.md)
->* [Übersicht über die Inventar-Funktionen](inventory-overview.md)
+>* [Übersicht über Inventarfunktionen in Advertising DSP](inventory-overview.md)

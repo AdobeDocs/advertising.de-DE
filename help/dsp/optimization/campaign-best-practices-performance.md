@@ -3,7 +3,7 @@ title: Best Practices für die Einrichtung von Leistungskampagnen
 description: Erfahren Sie mehr über die Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen, zu denen Platzierungen gehören, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -157,7 +157,7 @@ Durch die Verwendung von kontextueller Filterung, die Blockierung von Betrug vor
 >
 >* [Paketeinstellungen](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Wie DSP Ihre Kampagnen optimiert](optimization-how-dsp-optimizes-campaigns.md)
+>* [Wie DSP Ihre Kampagnen optimiert](optimization-how-dsp-optimizes-campaigns.md)
 >* [Optimierungsziele und ihre Verwendung](optimization-goals.md)
 >* [Pre-Bid-Filter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md)
->* [Checkliste für den Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Checkliste zum Kampagnenstart](/help/dsp/campaign-management/campaign-launch-checklist.md)

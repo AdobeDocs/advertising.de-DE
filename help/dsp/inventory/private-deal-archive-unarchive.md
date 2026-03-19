@@ -3,7 +3,7 @@ title: Archivieren oder Aufheben der Archivierung eines privaten Angebots
 description: Erfahren Sie, wie Sie ein privates Angebot archivieren oder die Archivierung aufheben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Sie können die Archivierung eines Deals aufheben, um den vorherigen Status jede
 
 >[!NOTE]
 >
->Um archivierte Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um archivierte Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Archivierung eines privaten Angebots aufheben
 
@@ -42,9 +42,9 @@ Wenn der Publisher oder SSP den Deal zuvor deaktiviert hatte und Sie ihn erneut 
 
 >[!NOTE]
 >
->Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
->* [Einstellungen für private Angebote bearbeiten](/help/dsp/inventory/deal-id-edit.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
+>* [Private Deal-Einstellungen bearbeiten](/help/dsp/inventory/deal-id-edit.md)

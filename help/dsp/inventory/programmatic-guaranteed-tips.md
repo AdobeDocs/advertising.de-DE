@@ -3,7 +3,7 @@ title: Tipps für die Aushandlung eines programmgesteuert garantierten Deals
 description: Tipps für die Verhandlung eines programmgesteuert garantierten (PG) Deals und Listen der Verantwortlichkeiten von Käufern und Verlegern.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -45,6 +45,6 @@ Bei der Aushandlung eines programmgesteuert garantierten Deals müssen Käufer u
 
 >[!MORELIKETHIS]
 >
->* [Über programmgesteuerte garantierte -Angebote](programmatic-guaranteed-about.md)
+>* [Über programmgesteuerte garantierte Angebote](programmatic-guaranteed-about.md)
 >* [Richten Sie einen programmgesteuerten garantierten Abschluss ein](programmatic-guaranteed-set-up.md)
 >* [SSP-Partner](ssp-partners.md)

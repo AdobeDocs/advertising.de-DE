@@ -3,7 +3,7 @@ title: Using [!DNL Roku] Inventory
 description: Erfahren Sie mehr über die Partnerschaft von DSP mit  [!DNL Roku], einschließlich Inventaroptionen, genehmigten Tracking-Anbietern von Drittanbietern und Best Practices für  [!DNL Roku] Platzierungen.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Mit privaten Angeboten können Sie die Angebotsparameter Ihren Bedürfnissen ent
 
 ## Platzierungen [!DNL Roku]
 
-DSP Erstellen Sie in [-Kampagnen  [!DNL Roku] Platzierungen &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
+DSP Erstellen Sie in [-Kampagnen  [!DNL Roku] Platzierungen ](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
 
 Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle ansprechen. Um die Zielgruppenzuordnung von DSP mit [!DNL Roku] zu verwenden, schließen Sie ein oder mehrere Zielgruppensegmente ein, die mit dem deterministischen Datensatz des [!DNL Roku] (Opt-in) abgeglichen werden können.
 

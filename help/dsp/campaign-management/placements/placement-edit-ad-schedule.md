@@ -3,9 +3,9 @@ title: Bearbeiten von Anzeigenplänen für Platzierungen
 description: Erfahren Sie, wie Sie die Anzeigenzeitpläne für die an Platzierungen angehängten Anzeigen ändern.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Sie können die geplanten Flugdaten und die Anzeigenrotation für die Anzeigen �
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)

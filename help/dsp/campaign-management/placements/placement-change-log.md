@@ -3,9 +3,9 @@ title: Anzeigen eines Platzierungs-Änderungsprotokolls
 description: Erfahren Sie, wie Sie Änderungen an der Platzierung anzeigen.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sie können die Daten nach Typ, Änderungsdatum oder Änderungsspalte sortieren.
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierung erstellen](placement-create.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Duplizieren einer Platzierung](placement-duplicate.md)

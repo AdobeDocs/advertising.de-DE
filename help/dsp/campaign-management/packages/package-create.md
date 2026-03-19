@@ -3,9 +3,9 @@ title: Erstellen eines Pakets
 description: Erfahren Sie, wie Sie ein Paket erstellen.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ Nachdem Sie ein Paket erstellt haben, können Sie ihm Platzierungen zuweisen.
 
 >[!MORELIKETHIS]
 >
->* [Über die Paketverwaltung](package-about.md)
+>* [Über die Paketverwaltung in Advertising DSP](package-about.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Platzierung an Paket anhängen](package-attach-placement.md)
 >* [Anzeigen des Änderungsprotokolls für ein Paket](package-change-log.md)
 >* [Pausieren oder Aktivieren eines Pakets](package-pause-activate.md)
 >* [Paketeinstellungen](package-settings.md)
->* [Video: So erstellen Sie ein Paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=de)
+>* [Video: So erstellen Sie ein Paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

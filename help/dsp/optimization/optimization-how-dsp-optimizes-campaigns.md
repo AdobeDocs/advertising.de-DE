@@ -3,7 +3,7 @@ title: Optimieren von Kampagnen mit DSP
 description: Erfahren Sie, wie DSP die Pakete in Ihren Kampagnen optimiert.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Pre-Bid-Filter für Platzierungen sind die strengste Methode, eine starke Leistu
 >
 >Die verfügbaren Pre-Bid-Filter variieren je nach Anzeigentyp. Beispielsweise können Sie für eine standardmäßige Anzeigeplatzierung nach Clickthrough-Rate und Sichtbarkeit filtern, jedoch nicht nach Abschlussrate.
 
-Unter [Pre-Bid-Filter auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md) erfahren Sie, welcher Pre-Bid-Filter Ihnen beim Erreichen Ihrer KPIs helfen kann.
+Unter [Filter für die Vorangebotsphase auf Platzierungsebene und deren Verwendung](optimization-pre-bid-filters.md) erfahren Sie, welcher Filter für die Vorangebotserstellung Ihnen helfen kann, Ihre KPIs zu erreichen.
 
 >[!MORELIKETHIS]
 >

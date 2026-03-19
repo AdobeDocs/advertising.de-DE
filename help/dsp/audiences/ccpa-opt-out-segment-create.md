@@ -3,7 +3,7 @@ title: Erstellen und Implementieren eines CCPA-Opt-out vom Verkauf -Segments
 description: Erfahren Sie, wie Sie ein Segment erstellen und implementieren, um Benutzer-IDs aus Verbraucher-Opt-out-Kaufanfragen zu verfolgen.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising mit de
 
 >[!NOTE]
 >
->* Informationen zur Kommunikation von CCPA-Opt-out-Anfragen an Adobe Advertising mithilfe der Adobe Experience Platform Privacy Service-API finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=de](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=de).
+>* Informationen zur Kommunikation von CCPA-Opt-out-Anfragen an Adobe Advertising mithilfe der Adobe Experience Platform Privacy Service-API finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Um Benutzende, die Web-Seiten für Zwecke besuchen, die nicht mit dem Tracking von CCPA-Opt-out-of-Sale-Ereignissen zusammenhängen, sowie Benutzende, die Anzeigen von Desktop-, Mobile- und CTV-Geräten ausgesetzt sind, zu verfolgen, erstellen Sie ein [benutzerdefiniertes Segment](/help/dsp/audiences/custom-segment-create.md).
 
 1. Erstellen Sie das Segment:

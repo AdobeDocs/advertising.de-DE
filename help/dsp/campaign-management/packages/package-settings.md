@@ -3,9 +3,9 @@ title: Paketeinstellungen
 description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Fakturierbare Gebühren werden in der [!UICONTROL Net CPM] Metrik angezeigt.
 
-Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
@@ -57,7 +57,7 @@ Bei Paketen mit benutzerdefiniertem Flug ist das Budgetintervall immer *[!UICONT
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pakete mit Geschwindigkeit auf Paketebene und nur mit den Optimierungszielen &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; und &quot;[!UICONTROL Lowest Cost per Reach]„) Verwendet Haushaltsreichweiten-Daten aus allen programmgesteuerten garantierten Platzierungen in der Kampagne zur Optimierung für die inkrementelle Reichweite.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Ein [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel muss zusätzliche gewichtete funnel-Ereignisse (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich der Best Practices zum Erstellen benutzerdefinierter Ziele und Kampagnen, die diese verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md).“<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Ein [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel muss zusätzliche gewichtete funnel-Ereignisse (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich der Best Practices zum Erstellen benutzerdefinierter Ziele und Kampagnen, die diese verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Optional; Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Weist das Optimierungsmodell an, nur aus klickbasierten Konversionen zu lernen. Andernfalls lernt das Optimierungsmodell sowohl aus Klicks- als auch aus Impression-basierten Konversionen.
 
@@ -127,7 +127,7 @@ Bei bestehenden Paketen, bei denen die Option &quot;[!UICONTROL Automatically ro
 
 >[!MORELIKETHIS]
 >
->* [Über die Paketverwaltung](package-about.md)
+>* [Über die Paketverwaltung in Advertising DSP](package-about.md)
 >* [Erstellen eines Pakets](package-create.md)
 >* [Bearbeiten eines Pakets](package-edit.md)
 >* [Platzierung an Paket anhängen](package-attach-placement.md)

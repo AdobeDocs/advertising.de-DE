@@ -3,9 +3,9 @@ title: Über programmgesteuerte garantierte -Angebote
 description: Erfahren Sie mehr über programmgesteuert garantierte (PG) Angebote und welche SSPs zertifiziert sind, um sie bereitzustellen.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ PG-Angebote erfordern eine PG-Standardplatzierung und Anzeigen (oder ein 1x1-Pix
 >* [Tipps für die Aushandlung eines programmgesteuerten garantierten Deals](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [Richten Sie einen programmgesteuerten garantierten Abschluss ein](programmatic-guaranteed-set-up.md)
 >* [SSP-Partner](ssp-partners.md)
->* [Übersicht über die Inventar-Funktionen](inventory-overview.md)
+>* [Übersicht über Inventarfunktionen in Advertising DSP](inventory-overview.md)

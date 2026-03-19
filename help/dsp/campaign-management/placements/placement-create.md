@@ -3,9 +3,9 @@ title: Erstellen einer Platzierung
 description: Erfahren Sie, wie Sie eine Platzierung erstellen.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,15 +136,15 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Über die Platzierungsverwaltung](placement-about.md)
+>* [Über die Platzierungsverwaltung in Advertising DSP](placement-about.md)
 >* [Platzierungen bearbeiten](placement-edit.md)
 >* [Angebotsmultiplikatoren für Platzierungen verwalten](placement-manage-bid-multipliers.md)
 >* [Bearbeiten der Anzeigenzeitpläne für Platzierungen](placement-edit-ad-schedule.md)
 >* [Platzierung deaktivieren oder aktivieren](placement-pause-activate.md)
 >* [Anzeigen des Änderungsprotokolls für eine Platzierung](placement-change-log.md)
 >* [Platzierungseinstellungen](placement-settings.md)
->* [Anzeigen des Berichts für Platzierungs-Forecasts](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [FAQs zu Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/346219?captions=ger)
+>* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/340454)

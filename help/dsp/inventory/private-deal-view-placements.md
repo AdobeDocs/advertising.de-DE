@@ -3,7 +3,7 @@ title: Platzierungen und Anzeigen für ein privates Angebot auflisten
 description: Erfahren Sie, wie Sie eine Liste der Platzierungen und Anzeigen öffnen, die mit einem privaten Angebot verknüpft sind.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie können eine Liste aller Platzierungen und Anzeigen öffnen, die mit einem p
 
 >[!MORELIKETHIS]
 >
->* [Über den privaten Bestand](private-inventory-about.md)
->* [Platzierungen und Anzeigen für eine Angebots-ID angeben](deal-id-attach-placements.md)
+>* [Über die private Bestandsaufnahme](private-inventory-about.md)
+>* [Angeben von Platzierungen und Anzeigen für eine Angebots-ID](deal-id-attach-placements.md)
 >* [Detailbericht für einen Abschluss anzeigen](deal-view-report.md)
->* [Anzeigen der Platzierungs-Diagnoseberichte](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Anzeigen des Platzierungs-Diagnoseberichts](/help/dsp/campaign-management/reports/placement-diagnostics.md)
