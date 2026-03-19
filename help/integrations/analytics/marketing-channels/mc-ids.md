@@ -70,7 +70,7 @@ Im Beispiel-Screenshot sind weitere Kanäle enthalten, um die empfohlene Reihenf
 
 >[!IMPORTANT]
 >
->Informationen [ Reihenfolge, in der Ihre Regeln verarbeitet werden sollen [!DNL Marketing Channels]  finden Sie unter „Reihenfolge der Vorgänge für ](#rule-order)-Regeln“.
+>Informationen [&#x200B; Reihenfolge, in der Ihre Regeln verarbeitet werden sollen [!DNL Marketing Channels]  finden Sie unter „Reihenfolge der Vorgänge für &#x200B;](#rule-order)-Regeln“.
 
 ![Beispiel für einen Satz von Verarbeitungsregeln](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -114,7 +114,7 @@ Manchmal werden Clickthroughs über die URL verfolgt (die Standardeinstellung). 
 
 Erstellen Sie eine Regel, bei der die AMO-ID auf [!DNL DSP] endet, um `"!ctv"` Durchsichten des verbundenen Fernsehens (CTV) zu verfolgen. Da der Besucher nicht auf die Anzeige geklickt hat, enthält das View-Through-Tracking nicht die `ef_id` oder `s_kwcid` in der URL, und die Regel erfordert nur eine Bedingung.
 
-![Beispiel einer CTV ViewThrough-Regel für ](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " AnzeigeBeispiel einer CTV ViewThrough-Regel für Anzeige")
+![Beispiel einer CTV ViewThrough-Regel für &#x200B;](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " AnzeigeBeispiel einer CTV ViewThrough-Regel für Anzeige")
 
 ### Durchsichtsregel anzeigen
 
