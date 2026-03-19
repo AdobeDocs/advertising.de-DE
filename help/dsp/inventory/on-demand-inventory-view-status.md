@@ -3,9 +3,9 @@ title: Status Ihrer Deal [!DNL On Demand] Anfragen und Abonnements anzeigen
 description: Erfahren Sie, wie Sie den Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Die Genehmigung oder Ablehnung durch den Herausgeber kann auf dem Kontotyp und d
 
 * ![abgelehnt](/help/dsp/assets/denied.png) für Abschlussanfragen, die für alle Advertiser im Konto abgelehnt wurden
 
-  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [&#x200B; den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [ den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
 Wenden Sie sich bei Fragen zum Genehmigungsprozess an Ihr Adobe-Account-Team.
 
 >[!MORELIKETHIS]
 >
 >* [Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventarangebote](on-demand-inventory-subscribe.md)
->* [Prämienangebote auf Anfrage erneut anfordern](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Asien/Pazifik](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Re-request [!DNL On Demand] premium Inventarangebote](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] Premium-Inventarverlage im asiatisch-pazifischen Raum](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Australien und Neuseeland](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Europa, dem Nahen Osten und Afrika](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Premium-Inventarverlage in Nordamerika](on-demand-inventory-publishers-na.md)
