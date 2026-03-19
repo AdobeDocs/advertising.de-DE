@@ -3,7 +3,7 @@ title: Richtlinie für universelle Adobe Advertising-ID-Anforderungen
 description: Siehe Richtlinie für die Verwendung universeller IDs.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Zusätzlich zu den unten und in der Vereinbarung dargelegten Anforderungen müss
 
 ### Verbotene Daten
 
-Durch die Verwendung der universellen IDs, die über die Services zur Verfügung gestellt werden, stimmen Sie zu, sicherzustellen, dass alle von Ihnen über die On-Demand-Services übermittelten, gespeicherten, angezeigten, verteilten oder anderweitig zur Verfügung gestellten Kundendaten den folgenden Spezifikationen für die universelle ID und anderen Anforderungen dieser Richtlinie entsprechen, die von [!DNL Adobe] zu Zeit überarbeitet werden können.
+Durch die Verwendung der universellen IDs, die über die Services zur Verfügung gestellt werden, stimmen Sie zu, sicherzustellen, dass alle von Ihnen über die On-Demand-Services übermittelten, gespeicherten, angezeigten, verteilten oder anderweitig zur Verfügung gestellten Kundendaten den folgenden universellen ID-Spezifikationen und anderen Anforderungen dieser Richtlinie entsprechen, die von [!DNL Adobe] zu Zeit überarbeitet werden können.
 
 * Client-Daten wurden von Ihnen direkt von Benutzern erfasst oder von Ihnen von einer anderen Partei lizenziert, die entweder (i) die Client-Daten direkt von den Benutzern erfasst hat, auf die sich diese Daten beziehen, oder (ii) die Client-Daten über Vermittler erhalten hat, die die Daten von einer anderen Partei erhalten haben, die solche Daten von dem Benutzer erfasst hat, vorausgesetzt, Sie können die ursprüngliche Partei identifizieren, die die Client-Daten von den Benutzern erfasst hat, auf die sich die Daten beziehen.
 
