@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Flexible kreative Dateien hinzufügen oder entfernen:
 
@@ -52,7 +52,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
 
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
@@ -99,7 +99,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -162,7 +162,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Um ein Bild zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Geben Sie die Kreativeinstellungen für [HTML5 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
+1. Geben Sie die Kreativeinstellungen für [HTML5 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
 
    Standardmäßig sind alle Kreativen oder GenStudio-Erlebnisse, die Sie gerade hochgeladen haben, ausgewählt. Alle von Ihnen angegebenen Einstellungen gelten für alle ausgewählten Elemente. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Elemente. Um Einstellungen für bestimmte Kreative oder GenStudio-Erlebnisse einzugeben, heben Sie die Auswahl der einzelnen nicht zutreffenden Kreativen oder Erlebnisse auf.
 
@@ -178,9 +178,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
 
-   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. **[!UICONTROL Create]** klicken
 
