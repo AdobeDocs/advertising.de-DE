@@ -3,7 +3,7 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '4439'
 ht-degree: 0%
@@ -287,7 +287,7 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 >[!NOTE]
 >
->* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [&#x200B; für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
 >* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 **[!UICONTROL Context of Sites or App]:** (Optional) Kontextuelle Zielsegmente zum Targeting oder Ausschließen. Wählen Sie aus der folgenden URL aus
@@ -314,7 +314,7 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 
 * Um eine vorhandene Audience auszuwählen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann die Audience aus.
 * Um eine Audience zu erstellen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann **[!UICONTROL + Create Audience]** aus. Anweisungen finden Sie unter [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
-* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[&#x200B; einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[ einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
@@ -412,7 +412,8 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 **[!UICONTROL Contextual filtering]:** (gilt für Desktop- und mobile Web-Anzeigen, native und Video-Anzeigen) Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 
-<!-- Looks like we didn't rename this:
+<!--
+ Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 
@@ -459,7 +460,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
+**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

@@ -3,7 +3,7 @@ title: Organisation der Benutzeroberfläche
 description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 0%
@@ -108,7 +108,8 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Accounts]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-<!-- What's happenening to these?
+<!--
+ What's happenening to these?
 
 Campaigns > ACM
 Campaigns > Bulksheets

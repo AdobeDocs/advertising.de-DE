@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über Portfoliosimulationen.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 Simulationsberichte zeigen den geschätzten Grenzwert der Kosten im Verhältnis zum Ziel, die Kosten, die Anzahl der Klicks und den Zielwert, den Sie für ein Portfolio auf verschiedenen Ausgabenebenen (Kosten) und den entsprechenden Tagesbudgets oder anderen Zielen erwarten können. Sie können optional [Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um zusätzliche Traffic-Metriken, Simulationseinstellungen und nur einen bestimmten Simulationstyp ([!UICONTROL Weekly] oder [!UICONTROL Custom]) anzuzeigen.
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 
@@ -29,7 +30,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ### Automatisierte wöchentliche Simulationen
 
-Simulationsberichte werden automatisch jede Woche unter Verwendung der aktuellen Portfolioeinstellungen ausgeführt. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([&#x200B; oder aktiv) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+Simulationsberichte werden automatisch jede Woche unter Verwendung der aktuellen Portfolioeinstellungen ausgeführt. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([ oder aktiv) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
 #### Heruntergeladene wöchentliche Simulationen
 
@@ -37,7 +38,7 @@ Jede heruntergeladene wöchentliche Simulation besteht aus einer Arbeitsmappe. J
 
 #### Wöchentliche Simulationsdetails auf dem Bildschirm
 
-Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation &#x200B;](simulation-download.md).
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
 
 ##### Diagrammansicht
 
@@ -69,7 +70,7 @@ Jede heruntergeladene benutzerdefinierte Simulation besteht aus einer Arbeitsmap
 
 #### Benutzerdefinierte Simulationsdetails auf dem Bildschirm
 
-Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation &#x200B;](simulation-download.md).
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
 
 #### Diagrammansicht
 
@@ -99,11 +100,11 @@ Die Datentabelle enthält den Fortschritt jeder Simulation, eine [!UICONTROL Tar
 
 ### Verfügbare Aktionen {#simulations-actions}
 
-* [Passen Sie die Ansicht &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
+* [Passen Sie die Ansicht ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
 
 * [Generieren oder erneutes Ausführen einer benutzerdefinierten Simulation](simulation-create.md) für ein einzelnes Portfolio. Sie können entweder eine neue Simulation erstellen oder eine vorhandene Simulation in der Liste neu generieren.
 
-* [Zeigen Sie eine wöchentliche oder benutzerdefinierte Simulation auf dem Bildschirm &#x200B;](simulation-view.md).
+* [Zeigen Sie eine wöchentliche oder benutzerdefinierte Simulation auf dem Bildschirm ](simulation-view.md).
 
 * [Wöchentliche und benutzerdefinierte Simulationen herunterladen](simulation-download.md) als [!DNL Microsoft Excel] in ZIP-Dateien.
 

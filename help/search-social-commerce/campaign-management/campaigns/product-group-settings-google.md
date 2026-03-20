@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] Produktgruppeneinstellungen'
 description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  Warenkorb-Produktgruppen.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einhe
 
 Nachdem Sie eine Produktgruppe für bestimmte Produktdimensionen (d. h. nicht für „Alle Produkte„) erstellt haben, erstellt Search, Social und Commerce automatisch eine Produktgruppe für „Alles andere“.
 
-Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md). Die Liste der Dimensionen kann je nach [!UICONTROL Inventory Filter] der Kampagne begrenzt sein.
+Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[ von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md). Die Liste der Dimensionen kann je nach [!UICONTROL Inventory Filter] der Kampagne begrenzt sein.
 
 **[!UICONTROL Excluded]:** (optional für neue Produktgruppen; schreibgeschützt für bestehende Produktgruppen) Schließt Angebote für Anzeigen für übereinstimmende Produkte aus.
 
@@ -38,7 +38,8 @@ Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; 
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-google.md}}
 -->

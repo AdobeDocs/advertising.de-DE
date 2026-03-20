@@ -3,7 +3,7 @@ title: Benutzerdefinierte Ziele
 description: Erfahren Sie mehr über benutzerdefinierte Ziele, um Ihre Erfolgsereignisse in Paketen zu definieren, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 Benutzerdefinierte Ziele definieren die Erfolgsereignisse, die ein Advertiser benötigt, um seine Geschäftsziele zu erreichen. Jedes Paket, das das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwendet, muss ein benutzerdefiniertes Ziel enthalten, um zum Erreichen des übergeordneten Optimierungsziels beizutragen. Sie können benutzerdefinierte Ziele als *Ziele* in [!DNL Advertising Search, Social, & Commerce] erstellen. Dem Namen jedes Ziels für DSP muss „ADSP_“ vorangestellt werden.
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -64,7 +65,7 @@ Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL
 
    >[!TIP]
    >
-   >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [&#x200B; unter „Best Practices zum Erstellen eines benutzerdefinierten &#x200B;](#custom-goal-best-practices)&quot;.
+   >Um eine optimale Leistung zu erzielen, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Objective) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [ unter „Best Practices zum Erstellen eines benutzerdefinierten ](#custom-goal-best-practices)&quot;.
 
 In den DSP-Paketeinstellungen für Pakete, die das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwenden, ist der Zielname jetzt in der [!UICONTROL Custom Goals]-Liste enthalten. Wenn Sie das Ziel als benutzerdefiniertes Ziel für ein Paket auswählen, enthält die [!UICONTROL Conversion Metric] alle Zielmetriken für das Ziel.
 
@@ -78,7 +79,8 @@ Die folgenden Beispiele zeigen, wie Sie Ziele konfigurieren können, die auf ein
 
 Wenn Ihr Kampagnenziel der Umsatz ([!UICONTROL Highest Return on Ad Spend (ROAS)]) ist und der Umsatz mit allen Gerätetypen für Sie gleich wichtig ist, dann beziehen Sie die Metrik &quot;[!UICONTROL Revenue]&quot; mit einer Nicht-Mobilgerät-Gewichtung von 1 ein (1). Die Mobilgerät-Gewichtung wird ignoriert. Wählen Sie den Metriktyp *[!UICONTROL Goal]* aus.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ Wenn Ihr Kampagnenziel der Umsatz ([!UICONTROL Highest Return on Ad Spend (ROAS)
 
 Wenn Ihr Kampagnenziel die niedrigsten Kosten pro Akquise (CPA) sind und nur ein Erfolgsereignis erforderlich ist (z. B. „Antrag einreichen„), beziehen Sie diese eine Metrik ein und geben Sie den Metriktyp als *[!UICONTROL Goal]* an. Es empfiehlt sich, für die Gewichtung nicht mobiler Geräte einen Wert (1) festzulegen. Die Gewichtung für Mobilgeräte wird dabei ignoriert.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefiniert
 
 * Ihr Kampagnenziel hat mehrere Erfolgsereignisse. Vielleicht werben Sie für mehr als eine Aktion auf der Site (PDF-Download, Kontakt und E-Mail-Anmeldung) und alle Aktionen tragen zu Ihrem CPA-Ziel bei. Wenn das Ziel die drei separaten Metriken mit jeweils einer nicht mobilen Gewichtung von 1 (1) umfasst, behandelt der [!DNL Adobe AI] Algorithmus jede der Metriken und Benutzergerätetypen mit derselben Bedeutung. Wenn die verschiedenen Metriken unterschiedliche Kosten oder eine unterschiedliche Bedeutung haben, passen Sie ihre relativen Gewichtungen entsprechend an.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ Es gibt zwei Szenarien, in denen Sie mehrere Metriken in einem benutzerdefiniert
 
   Das folgende Beispielziel enthält drei Metriken mit jeweils einer anderen Nicht-Mobile-Gewichtung: Antragseinsendung = 1, Anwendungsstart = 0,1 und Advertiser-Landingpage = 0,01. Das bedeutet, dass jede Konvertierung einer Anwendung bei der Übermittlung denselben Wert für Ihr Unternehmen hat wie durchschnittlich 10 Konversionen beim Anwendungsstart und 100 Konversionen bei der Advertiser-Landingpage.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

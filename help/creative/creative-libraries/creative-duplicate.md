@@ -1,9 +1,9 @@
 ---
 title: Kreative dupliziert
-description: Learn how to duplicate creatives in a creative library.
+description: Erfahren Sie, wie Sie Kreative in einer Kreativbibliothek duplizieren.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -12,31 +12,32 @@ ht-degree: 0%
 
 # Kreative dupliziert
 
-Duplicate creatives to add new creatives with the same settings to the same library. You can later rename the new creatives and edit the creative settings as needed.
+Duplizieren Sie Kreative, um neue Kreative mit denselben Einstellungen derselben Bibliothek hinzuzufügen. Sie können die neuen Kreativen später umbenennen und die kreativen Einstellungen nach Bedarf bearbeiten.
 
 >[!NOTE]
 >
->When you duplicate a dynamic creative, the duplicate is added to the same catalog as the original creative.
+>Wenn Sie ein dynamisches Kreativ duplizieren, wird das Duplikat demselben Katalog wie das Original-Kreativ hinzugefügt.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-1. Click the library name.
+1. Klicken Sie auf den Bibliotheksnamen.
 
-1. On the **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** tab, select the creatives:
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** die Kreativen aus:
 
-   * To duplicate a single creative:
+   * So duplizieren Sie ein einzelnes Creative-Element:
 
       * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Namen der Kreativen, und klicken Sie dann auf **[!UICONTROL Duplicate]**.
 
       * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Duplicate]**.
 
-   * To duplicate one or more creatives, select the check box for each creative that you want to duplicate. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
+   * Um einen oder mehrere Kreative zu duplizieren, aktivieren Sie das Kontrollkästchen für jeden Kreativen, den Sie duplizieren möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
 
-     To select all rows, select the global check box in the upper left.
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-   The new creatives are named `<original name> (copy) # 1` (or the next number in the sequence). For example, if you make two duplicates of &quot;Test image,&quot; then the duplicates are named &quot;Test image (copy) # 1&quot; and &quot;Test image (copy) # 2.&quot;
+   Die neuen Kreativen erhalten den Namen `<original name> (copy) # 1` (oder die nächste Nummer in der Sequenz). Wenn Sie beispielsweise zwei Duplikate von „Testbild“ erstellen, heißen die Duplikate „Testbild (Kopie) # 1“ und „Testbild (Kopie) # 2“.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)
@@ -46,5 +47,5 @@ Duplicate creatives to add new creatives with the same settings to the same libr
 >
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](creative-add-standard.md)
 >* [Standard-Kreative bearbeiten](creative-edit-standard.md)
->* [Standard creative settings](creative-settings-standard.md)
->* [View the change log for a creative](/help/creative/creative-libraries/creative-view-change-log.md)
+>* [Kreative Standardeinstellungen](creative-settings-standard.md)
+>* [Anzeigen des Änderungsprotokolls für einen Kreativen](/help/creative/creative-libraries/creative-view-change-log.md)

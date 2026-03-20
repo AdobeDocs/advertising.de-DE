@@ -3,7 +3,7 @@ title: Manuelles Importieren authentifizierter Segmente aus [!DNL LiveRamp]
 description: Erfahren Sie mehr über das Aktivieren authentifizierter Zielgruppen durch [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Sie können authentifizierte [!DNL LiveRamp] über das Dashboard [!DNL LiveRamp]
 
 Die Segmentzuordnung und das Hochladen für jeden Importvorgang kann bis zu sieben Tage dauern.
 
-<!--Is this first step relevant for this process?
+<!--
+Is this first step relevant for this process?
 
 1. For measurement using [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md):
 
@@ -44,5 +45,5 @@ Die Segmentzuordnung und das Hochladen für jeden Importvorgang kann bis zu sieb
 >
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](source-manage.md)
->* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)
+>* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)

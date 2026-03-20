@@ -3,7 +3,7 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags &#x200B;](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Auswählen des Tag-Typs:
 
-   * (Nicht-Videoerlebnisse) **&#x200B; *JavaScript* &#x200B;** oder **&#x200B; *Iframe* &#x200B;**.
+   * (Nicht-Videoerlebnisse) ** *JavaScript* ** oder ** *Iframe* **.
 
-   * (Videoerlebnisse) **&#x200B; *Video* &#x200B;**.
+   * (Videoerlebnisse) ** *Video* **.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 
@@ -89,7 +89,8 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
-<!-- Add this info, with descriptions:
+<!--
+ Add this info, with descriptions:
 
 ## Ad tag formats
 

@@ -4,9 +4,9 @@ description: Referenzieren Sie die  [!DNL Google Analytics]  Metriken, die für 
 role: User, Admin
 exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 0%
 
 Die folgenden Metriken, mit Ausnahme der angegebenen Ausschlüsse, sind verfügbar, wenn sie in der Implementierung des Kunden in [!DNL Google Analytics] aktiviert sind.
 
-<!-- Notes as FYI to self:
+<!--
+ Notes as FYI to self:
 >[!NOTE]
 >
 >* For some of these metrics, [!DNL Google] assigns the friendly name, and the name is consistent. For some metrics, the advertiser assigns the friendly name in [!DNL Google Analytics], and the name has a dynamic value.
@@ -25,16 +26,16 @@ Die folgenden Metriken, mit Ausnahme der angegebenen Ausschlüsse, sind verfügb
 | Kategorie | Ausgeschlossen | Kommentare |
 | ---- | ---- | ---- |
 | \[Alle\] | Metriken mit dem Datentyp „PERCENT“ | Metriken, die als Prozentsatz angezeigt werden, sind immer ausgeschlossen. |
-| Benutzer | ga:1dayBenutzer, ga:7dayBenutzer, ga:14dayBenutzer, ga:28dayBenutzer, ga:sessionsPerBenutzer | — |
-| Sitzung | ga:uniqueDimensionCombinations | — |
+| Benutzer | GA:1dayUsers, GA:7dayUsers, GA:14dayUsers, GA:28dayUsers, GA:sessionsPerUser | — |
+| Sitzung | allgemein verfügbar:uniqueDimensionCombinations | — |
 | Zielkonversionen | — | — |
-| Seiten-Tracking | ga:eintritte, ga:timeOnPage, ga:exits | — |
+| Seiten-Tracking | GA:entrances, GA:timeOnPage, GA:exits | — |
 | Interne Suche | — | Den Anzeigenamen aller Metriken aus der internen Suche wird der Wert „InternalSearch: &quot; vorangestellt. |
 | Ereignisverfolgung | — | — |
 | E-Commerce | — | — |
 | Soziale Interaktionen | — | — |
 | Ausnahmen | — | — |
-| Benutzerdefinierte Variablen oder Spalten | ga:calcMetric_* | Berechnete Metriken sind immer ausgeschlossen. |
+| Benutzerdefinierte Variablen oder Spalten | GA :calcMetric_* | Berechnete Metriken sind immer ausgeschlossen. |
 
 >[!MORELIKETHIS]
 >

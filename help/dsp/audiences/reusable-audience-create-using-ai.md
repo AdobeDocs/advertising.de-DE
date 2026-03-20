@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -46,11 +46,11 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
 1. Erstellen Sie die Zielgruppe:
 
-   Für Benutzer mit Beta-Berechtigungen ist die Option KI die Standardoption. Um [&#x200B; Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
+   Für Benutzer mit Beta-Berechtigungen ist die Option KI die Standardoption. Um [ Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
       Wenn der Zielgruppen-Agent relevante Segmente findet, erstellt er einen Zielgruppen-Ausdruck basierend auf Ihren Kriterien. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird.
 
@@ -68,7 +68,7 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
    >[!NOTE]
    >
-   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
+   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
@@ -94,9 +94,10 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
   Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ Eine Audience Brief ist eine strategische Zusammenfassung, die die Zielgruppe f�
 
 Nehmen Sie in Ihre Zusammenfassung so viele Zielgruppenattribut-Typen wie möglich aus der folgenden Liste auf. Geben Sie die Attribute an, die Sie ausschließen möchten.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

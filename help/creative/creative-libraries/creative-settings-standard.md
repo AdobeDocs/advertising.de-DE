@@ -3,7 +3,7 @@ title: Kreative Standardeinstellungen
 description: Verweisen Sie auf die Einstellungen für Standard-Kreative.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -32,7 +32,8 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 
 **[!UICONTROL Click Tags]:** Die Variablen, die Klick-Tracking-Weiterleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
 
-<!-- I don't see this as of 1/30. I do see the option to create one custom LP per creative (for any creative type), not one per click tag for flexible HTML5 creatives.
+<!--
+ I don't see this as of 1/30. I do see the option to create one custom LP per creative (for any creative type), not one per click tag for flexible HTML5 creatives.
 >[!NOTE]
 >
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
@@ -80,7 +81,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Bearbeiten Sie die neuen [flexiblen Einstellungen für HTML-Anzeigen](#flexible-ad-settings) nach Bedarf.
 
@@ -142,7 +143,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    Siehe [HTML-Anzeigenspezifikationen](html5-creative-specification.md).
 
-1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen &#x200B;](#creative-settings-html5) Bedarf.
+1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen ](#creative-settings-html5) Bedarf.
 
 1. **[!UICONTROL Edit]** klicken
 

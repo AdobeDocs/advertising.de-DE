@@ -2,7 +2,8 @@
 title: (Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails in der neuen Benutzeroberfläche für ein über die Werbenetzwerk-API synchronisiertes Werbenetzwerk einrichten und verwalten.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: a50b2943-7568-401c-be5b-ff6f62629488
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 0%
@@ -133,7 +134,8 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
 Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werden nicht alle Einstellungen unten angezeigt.
 
-<!-- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+<!--
+ When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
 
 ### Authenticate tab
 
@@ -201,7 +203,7 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 >* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie die Tracking-URLs für das Konto neu generieren.
 >* Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
-**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
+**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
 Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Der automatische Upload-Prozess handhabt zukünftige Änderungen.
 

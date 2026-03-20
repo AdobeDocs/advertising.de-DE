@@ -3,7 +3,7 @@ title: Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets
 description: Erfahren Sie mehr über die vom Anzeigennetzwerk verfügbaren Bulksheet-Funktionen, den Bulksheet-Workflow und die Fehlerbehandlung.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Alle Bulksheets, Dateien mit Fehlern bei der Landingpage-Validierung und andere 
 
 Die Standardschritte bei der Verwendung von Bulksheets für synchronisierte Konten lauten wie folgt:
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 

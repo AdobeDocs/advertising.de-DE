@@ -3,7 +3,7 @@ title: Über [!UICONTROL Simple Ad Serving]
 description: Erfahren Sie mehr über [!UICONTROL Simple Ad Serving] Angebote mit Pixel für die Ereignisverfolgung.
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -35,6 +35,7 @@ Sie können in der Ansicht [!UICONTROL Simple Ad Serving] > [!UICONTROL Inventor
 >* [[!UICONTROL Simple Ad Serving] Einstellungen](simple-deal-settings.md)
 >* [Detailbericht für einen Abschluss anzeigen](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

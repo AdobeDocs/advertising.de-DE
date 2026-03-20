@@ -3,7 +3,7 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 0%
@@ -64,7 +64,8 @@ In diesem Abschnitt werden die Daten festgelegt, an denen der Bericht ausgeführ
 
 **[!UICONTROL Filter by]:** (Optional) Zusätzliche Dimensionen, nach denen die Daten gefiltert werden sollen, unabhängig davon, ob die Dimensionen als Spalten im Bericht enthalten sind oder nicht. Die verfügbaren Filter variieren je nach Berichtstyp und können Folgendes umfassen: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* und *[!UICONTROL Video Duration]*.
 
-<!-- Add when available:
+<!--
+ Add when available:
 *[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
 -->
 
@@ -105,7 +106,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * [!UICONTROL Custom Goals] (sortiert nach Advertiser)
 
-Beschreibungen [&#x200B; Optionen finden Sie unter &quot;](report-columns.md) Berichtsspalten“.
+Beschreibungen [ Optionen finden Sie unter &quot;](report-columns.md) Berichtsspalten“.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Die Reihenfolge der Spaltenüberschriften. Sie können eine beliebige Spalte per Drag-and-Drop verschieben, um die Reihenfolge anzupassen.
 
@@ -183,7 +184,7 @@ Siehe auch [Wie Attributionsregeln für Adobe Advertising berechnet werden](/hel
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 

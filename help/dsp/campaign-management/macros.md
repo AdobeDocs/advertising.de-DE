@@ -3,7 +3,7 @@ title: Advertising DSP-Makros
 description: Verweisen Sie auf die verfügbaren Makros für das allgemeine Tracking und das Tracking von Klicks auf Display-Anzeigen von Drittanbietern.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -48,7 +48,8 @@ Verwenden Sie allgemeine Tracking-Makros für alle Anzeigen- und Tag-Typen, um b
 
 {style="table-layout:auto"}
 
-<!-- Removed because not found in code base:
+<!--
+ Removed because not found in code base:
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 
@@ -87,7 +88,7 @@ Wenn beim Erstellen einer Display-Anzeige ein Klick-Makro fehlt, zeigt DSP eine 
 
 ## [!DNL Analytics for Advertising] Makros
 
-Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad &#x200B;](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
+Weitere Makros, die speziell für [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Kunden verfügbar sind, finden Sie unter &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Flashtalking] ad ](/help/integrations/analytics/macros-flashtalking.md)&quot; und &quot;[Append [!DNL Analytics for Advertising] macros to [!DNL Google Campaign Manager 360] ad tags](/help/integrations/analytics/macros-google-campaign-manager.md).
 
 ## Fehlerbehebung bei Makro-Fehlern
 

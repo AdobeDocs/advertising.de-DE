@@ -2,7 +2,7 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -61,7 +61,8 @@ Weitere Informationen zur Integration mit [!DNL Analytics] finden Sie unter [Üb
 * Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet werden
 
 Die erste Synchronisierung dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von ein bis zwei Sekunden synchronisiert.
-<!-- I don't think this is true anymore:
+<!--
+ I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
 * The segment is targeted in an Adobe Advertising placement or audience library
@@ -86,7 +87,7 @@ Sie können optional Standardziele für die neuen Platzierungen des Advertisers 
 
 #### [!UICONTROL Contextual Filtering]
 
-Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
@@ -108,7 +109,7 @@ Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [
 
 #### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
-Arten von Websites, die aufgrund von betrügerischem Traffic und verdächtigen Aktivitäten blockiert werden sollen, gemessen durch [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Arten von Websites, die aufgrund von betrügerischem Traffic und verdächtigen Aktivitäten blockiert werden sollen, gemessen durch [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
@@ -126,25 +127,25 @@ Arten von Websites, die aufgrund von betrügerischem Traffic und verdächtigen A
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Optionale Pre-Bid-Sichtbarkeitsfilter nach [!DNL DoubleVerify] und [!DNL Integral Ad Science] zur Anwendung auf Platzierungen. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Optionale Pre-Bid-Sichtbarkeitsfilter nach [!DNL DoubleVerify] und [!DNL Integral Ad Science] zur Anwendung auf Platzierungen. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Wählen Sie mit dieser Option die Kriterien aus.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Wählen Sie mit dieser Option die Kriterien aus.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Wählen Sie mit dieser Option die Kriterien aus.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Wählen Sie mit dieser Option die Kriterien aus.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Wählen Sie mit dieser Option die Kriterien aus.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Wählen Sie mit dieser Option die Kriterien aus.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Anzeige
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Wählen Sie mit dieser Option die Kriterien aus.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Wählen Sie mit dieser Option die Kriterien aus.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -164,7 +165,7 @@ Ein optionaler **[!UICONTROL Video Viewability Targets]** und ein optionaler **[
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 

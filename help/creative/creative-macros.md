@@ -3,7 +3,7 @@ title: Verfügbare Makros zum Tracking von URLs
 description: Verweisen Sie auf die Makros, die Sie Ihren Landingpage-URLs, Tracking-URLs und Kreativen von Drittanbietern hinzufügen können.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Sie können eines der folgenden Makros in Kreative von Drittanbietern, in Tracki
 
 Einige der verfügbaren Makros oder ihre Entsprechungen werden automatisch in Experience Tags eingeschlossen.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ Einige der verfügbaren Makros oder ihre Entsprechungen werden automatisch in Ex
 >* [Standard-Kreative zu einer Kreativbibliothek hinzufügen](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Kreative Standardeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Einstellungen für zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[Einstellungen für nicht zielgerichtete Erlebnisse](/help/creative/experiences/experience-settings-no-targeting.md)

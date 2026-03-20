@@ -3,7 +3,7 @@ title: '[!DNL Adobe] [!DNL Audience Analytics] Für Adobe Advertising-Kunden'
 description: Erfahren Sie, wie Sie  [!DNL Adobe] [!DNL Audience Analytics] für Anwendungsfälle in der Werbung verwenden können
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Adobe] [!DNL Audience Analytics] für Adobe Advertising-Kunden
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) ist eine Integration zwischen Adobe Audience Manager und Adobe Analytics, die es Audience Manager-Kunden ermöglicht, Segmente an [!DNL Analytics] zu senden, um mehr über die Site-Aktivität zu erfahren.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) ist eine Integration zwischen Adobe Audience Manager und Adobe Analytics, die es Audience Manager-Kunden ermöglicht, Segmente an [!DNL Analytics] zu senden, um mehr über die Site-Aktivität zu erfahren.
 
 Adobe Advertising-Kunden können von der Verwendung von [!DNL Audience Analytics] profitieren. Die Integration bietet folgende Möglichkeiten:
 
@@ -20,15 +20,15 @@ Adobe Advertising-Kunden können von der Verwendung von [!DNL Audience Analytics
 
 * Ermitteln Sie die Marketing-Kanäle und Site-Einstiegspunkte aus funnel-Werbeanzeigen der oberen Preisklasse.
 
-* Sie können die Integration mit [!DNL Analytics for Advertising] abgleichen, um demografische Segmente von Drittanbietern aus [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=de) mit [!DNL Analytics for Advertising] Daten zu integrieren, damit Sie mehr über Benutzerprofile erfahren.
+* Sie können die Integration mit [!DNL Analytics for Advertising] abgleichen, um demografische Segmente von Drittanbietern aus [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) mit [!DNL Analytics for Advertising] Daten zu integrieren, damit Sie mehr über Benutzerprofile erfahren.
 
   [!DNL Audience Marketplace] bietet Zugriff auf Daten-Feeds von Drittanbietern mit „Aktivierungs“-Abonnementmodellen, die es Käufern ermöglichen, Daten an ein Ziel zu senden. Wenn die Daten in einem [!DNL Analytics] Ziel verwendet werden, werden keine Aktivierungsgebühren erhoben.
 
 * (Werbetreibende mit Advertising DSP) Fügen Sie zusätzliche Belichtungssegmente hinzu, um ganzheitliche Einblicke in das Journey-Management zu erhalten.
 
-  Advertising DSP kann Belichtungsdaten als verwertbare Signale an Audience Manager senden, indem entweder Adobe Experience Platform oder Audience Manager-Impression-Tracking-Pixel implementiert werden. Die Weiterleitung derselben Daten an [!DNL Analytics] ermöglicht eine erweiterte Datenanalyse. Weitere Informationen finden [&#x200B; unter „Übersicht über das Senden von DSP-](/help/integrations/audience-manager/media-data-integration/overview.md) an Adobe Audience Manager&quot;.
+  Advertising DSP kann Belichtungsdaten als verwertbare Signale an Audience Manager senden, indem entweder Adobe Experience Platform oder Audience Manager-Impression-Tracking-Pixel implementiert werden. Die Weiterleitung derselben Daten an [!DNL Analytics] ermöglicht eine erweiterte Datenanalyse. Weitere Informationen finden [ unter „Übersicht über das Senden von DSP-](/help/integrations/audience-manager/media-data-integration/overview.md) an Adobe Audience Manager&quot;.
 
-Weitere Informationen zu [!DNL Audience Analytics], einschließlich der Voraussetzungen und des Workflows, finden Sie unter &quot;[Übersicht über Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de)&quot;.
+Weitere Informationen zu [!DNL Audience Analytics], einschließlich der Voraussetzungen und des Workflows, finden Sie unter &quot;[Übersicht über Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;.
 
 ## Beispiele für die Verwendung [!DNL Audience Analytics] Daten mit Adobe Advertising-Daten
 
@@ -44,7 +44,9 @@ Die wichtigsten Vorteile:
 
 * Bestimmen Sie die Auswirkungen der Aktivität des oberen funnel auf die nachgelagerte Site-Aktivität.
 
-* Verbinden Sie [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event -->- und [!DNL Audience Analytics]-<!-- (which includes the user's last exposure event) -->, um eine ganzheitliche Journey zur Site zu bestimmen.
+* Verbinden Sie [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event -->- und [!DNL Audience Analytics], um eine ganzheitliche Journey zur Website zu bestimmen.
+
+<!-- (which includes the user's last exposure event) -->
 
 Im Folgenden finden Sie Beispiele für Berichte, die Sie in [!DNL Analysis Workspace] erstellen können.
 
