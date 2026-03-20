@@ -3,7 +3,7 @@ title: 'Erforderliche Bulksheet-Daten für  [!DNL Yandex] '
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Yandex]  Konten.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -12,19 +12,9 @@ ht-degree: 0%
 
 # Anhang - Erforderliche Bulksheet-Daten für [!DNL Yandex]
 
-Um [!DNL Yandex] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Yandex]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten &#x200B;](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
+Um [!DNL Yandex] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Yandex]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten ](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Verfügbare Datenfelder
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | Nicht zutreffend | Optional: Erstellen oder Bearbeiten<br> Erforderlich: Löschen | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Der Anzeigestatus der Anzeigengruppe: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> oder <i>[!UICONTROL stop]</i> (angehalten). Der Standardwert für neue Anzeigengruppen ist <i>[!UICONTROL active]</i>.<br><br><b>Hinweise:</b><ul></li>Wenn eine Anzeigengruppe schon einmal aktiv war, können Sie sie nicht löschen. Stattdessen archivieren Sie sie.</li><li>Sie können den Status weder manuell auf <i>[!UICONTROL disapproved]</i> oder <i>[!UICONTROL pending]</i> setzen noch diese Status ändern.</li></ul> |
 | [!UICONTROL Ad Status] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder Bearbeiten<br> Erforderlich: Löschen | Nicht zutreffend | Der Anzeigestatus des Banners (Ad): <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> oder <i>[!UICONTROL stop]</i> (angehalten). Die Standardeinstellung für neue Banner ist <i>[!UICONTROL active]</i>.<br><br><b>Hinweis: Sie können den Status nicht manuell auf <i>[!UICONTROL disapproved]</i> oder <i>[!UICONTROL pending]</i> setzen oder ändern. |
 | [!UICONTROL Keyword Status] | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder Bearbeiten<br> Erforderlich: Löschen | Nicht zutreffend | Nicht zutreffend | Der Anzeigestatus der Phrase (Keyword): <i>[!UICONTROL active]</i>. Der Standardwert für neue Phrasen ist <i>[!UICONTROL active]</i>.<br><br><b>Hinweis: Sie können den Status nicht manuell auf <i>[!UICONTROL disapproved]</i> oder <i>[!UICONTROL pending]</i> setzen oder ändern. |
-| [!UICONTROL SiteLink Status] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder Bearbeiten<br> Erforderlich: Löschen | Der Anzeigestatus des Sitelinks: <i>[!UICONTROL * Active]</i> oder <i>[!UICONTROL * Paused]</i>. Der Standardwert für neue Sitelinks ist <i>[!UICONTROL * Active]</i>. |
+| [!UICONTROL SiteLink Status] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Optional: Erstellen oder Bearbeiten<br> Erforderlich: Löschen | Der Anzeigestatus des Sitelinks: <i>[*UICONTROL Active]</i> oder <i>[*UICONTROL Paused]</i>. Der Standardwert für neue Sitelinks ist <i>[*UICONTROL Active]</i>. |
 | [!UICONTROL Campaign ID] | Nicht zutreffend: Erstellen<br>Erforderlich/Optional: Bearbeiten<br>Optional: Löschen | optional | optional | optional | optional | Die eindeutige ID, die eine vorhandene Kampagne identifiziert. In CSV- und TSV-Dateien muss vor ihr ein einfaches Anführungszeichen (&#39;) stehen.[^1] Nur erforderlich, wenn Sie den Kampagnennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Kampagne. |
 | [!UICONTROL Ad Group ID] | Nicht zutreffend | Nicht zutreffend: Erstellen<br>Erforderlich/Optional: Bearbeiten<br>Optional: Löschen | optional | optional | Nicht zutreffend | Die eindeutige ID, die eine vorhandene Anzeigengruppe identifiziert. In CSV- und TSV-Dateien muss vor ihr ein einfaches Anführungszeichen (&#39;) stehen.[^1] Nur erforderlich, wenn Sie den Anzeigengruppennamen ändern, es sei denn, die Zeile enthält eine AMO-ID für die Anzeigengruppe. |
 | [!UICONTROL Ad ID] | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend | Nicht zutreffend: Erstellen<br>Erforderlich/Optional: Bearbeiten oder Löschen | Nicht zutreffend | Die eindeutige ID, die ein vorhandenes Keyword identifiziert. In CSV- und TSV-Dateien muss vor ihr ein einfaches Anführungszeichen (&#39;) stehen.[^1] Nur erforderlich, wenn Sie den Schlüsselwortnamen ändern, es sei denn, die Zeile enthält a) ausreichend Eigenschaftenspalten zur Identifizierung des Schlüsselworts oder b) eine AMO-ID. |

@@ -2,9 +2,10 @@
 title: Verwalten dynamischer Anzeigenvorlagen
 description: Erfahren Sie, wie Sie dynamische Anzeigenvorlagen verwalten und daraus Anzeigen erstellen.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigenty
 
 1. Halten Sie den Cursor über die Zeile mit der Anzeigenvorlage und klicken Sie auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.<!-- Confirm -->
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 ## Erstellen dynamischer Anzeigen aus einer Anzeigenvorlage
 
@@ -71,7 +72,7 @@ Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigenty
 
    Im [!UICONTROL New Dynamic Ad] werden die Felder [!UICONTROL Ad Template Size], [!UICONTROL Ad Template Type] und [!UICONTROL Ad Template] automatisch ausgewählt und schreibgeschützt.
 
-1. Geben Sie die Einstellungen für dynamische Anzeigen an[&#x200B; um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
+1. Geben Sie die Einstellungen für dynamische Anzeigen an[ um die dynamischen Anzeigen zu erstellen](/help/creative/creative-libraries/creative-add-dynamic.md).
 
 ## Einstellungen für Anzeigenvorlagen {#ad-template-settings}
 
@@ -87,13 +88,9 @@ Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigenty
 
 **[!UICONTROL Description]**: (Optional) Informationen, die für alle Benutzer der Anzeigenvorlage hilfreich sind.
 
-<!-- I don't see this on 9/24:
+### (Statische HTML5-Anzeigenvorlagen) Klicken Sie auf Tags
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Click Tag Parameter\]**: Die Click-Tag-Parameter, um Weiterleitungen durch Klick-Tracking von Anzeigen zu ermöglichen, die mit der Anzeigenvorlage erstellt wurden. Um einen Parameter hinzuzufügen, klicken Sie auf **[!UICONTROL + Add More]** und geben Sie einen zusätzlichen Parameter ein. Sie können bis zu fünf Parameter einbeziehen.
 
 ### HTML5-Postleitzahl
 
@@ -109,9 +106,7 @@ Hochladen einer Datei:
 
 ### (Dynamische HTML5-Anzeigenvorlagen) Attributdatei
 
-<!-- EXPLAIN -->Eine Datei, die Attribute für die Anzeigenvorlage enthält. Wenn Sie bereits eine Datei hochgeladen haben, wird der Dateiname aufgelistet.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->Eine Datei, die Attribute für die Anzeigenvorlage enthält. Wenn Sie bereits eine Datei hochgeladen haben, wird der Dateiname aufgelistet.
 
 Hochladen einer Datei:
 
@@ -126,4 +121,3 @@ Hochladen einer Datei:
 >* [Verwalten von Feed-Vorlagen](/help/creative/feeds/feed-template-manage.md)
 >* [Kataloge verwalten](/help/creative/feeds/catalog-manage.md)
 >* [Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-dynamic.md)
-
