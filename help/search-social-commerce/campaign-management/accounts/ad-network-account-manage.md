@@ -251,7 +251,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 * **S_kwcid-Format:** (Bestehende [!DNL Google Ads]-Konten für Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
 
-Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
+Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

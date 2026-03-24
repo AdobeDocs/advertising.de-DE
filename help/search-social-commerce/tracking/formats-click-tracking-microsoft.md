@@ -107,4 +107,4 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items)

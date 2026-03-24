@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]Konten*
 
-Das veraltete Format (vor Oktober 2019) für den [AMO ID-Trackingcode](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) für bestehende [!DNL Google Ads]-Konten unterstützt einige Funktionen in Analytics nicht, z. B. das Reporting auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen des Typs „Performance Max“, Entwürfe und Experimente und andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeigen, Keyword und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
+Das veraltete Format (vor Oktober 2019) für den [AMO ID-Trackingcode](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) für bestehende [!DNL Google Ads]-Konten unterstützt einige Funktionen in Analytics nicht, z. B. das Reporting auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen des Typs „Performance Max“, Entwürfe und Experimente und andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeigen, Keyword und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
 
 Das aktuelle Format enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID:
 
@@ -70,4 +70,4 @@ Alle neuen [!DNL Google Ads]-Konten verwenden automatisch das aktuelle AMO-ID-Fo
 >
 >* [Verwalten von Anzeigennetzwerkkonten](ad-network-account-manage.md)
 >* [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de){target="_blank"}

@@ -11,15 +11,15 @@ ht-degree: 0%
 
 Die AMO ID verfolgt jede einzelne Anzeigenkombination auf einer weniger detaillierten Ebene und wird für die [!DNL Analytics] und Customer Journey Analytics-Datenklassifizierung und die Aufnahme von Werbemetriken (wie Impressionen, Klicks und Kosten) aus Adobe Advertising verwendet.
 
-[!DNL Analytics] wird die AMO-ID in einer [eVar- oder &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)-Dimension (AMO-ID) gespeichert.
+[!DNL Analytics] wird die AMO-ID in einer [eVar- oder &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de)-Dimension (AMO-ID) gespeichert.
 
-Bei Customer Journey Analytics wird die AMO-ID in der `trackingCode`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
+Bei Customer Journey Analytics wird die AMO-ID in der `trackingCode`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
 
 Die AMO-ID wird auch als `s_kwcid` bezeichnet, was manchmal als &quot;[!DNL squid]&quot; ausgesprochen wird.
 
 ### AMO-ID-Formate {#amo-id-formats}
 
-Siehe [Formate für AMO-ID-Dimensionselemente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) im &quot;Adobe Analytics Components Guide“.
+Siehe [Formate für AMO-ID-Dimensionselemente](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) im &quot;Adobe Analytics Components Guide“.
 
 <!-- Legacy content:
 

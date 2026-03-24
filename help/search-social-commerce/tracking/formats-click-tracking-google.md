@@ -70,7 +70,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix eines der folgenden Elemente enthalten:
 
-   * [!DNL Google Ads] Konten, die das neueste [AMO ID-Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden (beginnend mit `s_kwcid`), das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente mit dem Wert „Performance Max“ unterstützt:
+   * [!DNL Google Ads] Konten, die das neueste [AMO ID-Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden (beginnend mit `s_kwcid`), das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente mit dem Wert „Performance Max“ unterstützt:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -93,4 +93,4 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Anzeigenvariation:** Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Begriff aus den Bereichen Suche, Social und Commerce für eine Einheit, für die Gebote abgegeben werden.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM:** Die effektive CPM oder die Durchschnittskosten, die pro 1.000 Impressionen innerhalb eines bestimmten Datumsbereichs bezahlt wurden. eCPM-Werte können für CPM- oder CPC-Kampagnen berechnet werden.
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Ein Trackingcode, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Werbeexposition verknüpfen und Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann.
+**[EF ID](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-ef-id):** Ein Trackingcode, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Werbeexposition verknüpfen und Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann.
 
 ## G-H {#g-h}
 
