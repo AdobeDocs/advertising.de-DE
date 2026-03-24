@@ -3,7 +3,7 @@ title: '[!DNL Analytics] von Daten in Adobe Advertising'
 description: '[!DNL Analytics] von Daten in Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Es dauert 24-48 Stunden, bis neue Segmente in Adobe Advertising angezeigt werden
 * [!UICONTROL Timespent_secs_total]: Die Gesamtzahl der Sekunden, die auf der Website bei allen Besuchen im ClickLookback-Fenster verbracht wurden.
 * [!UICONTROL Pageviews_1stvisit]: Die Anzahl der Seitenansichten auf der Website beim ersten Besuch des Besuchers.
 * [!UICONTROL Pageviews_total]: Die Gesamtzahl der Seitenansichten auf der Website für alle Besuche im ClickBack-Fenster.
-* [[!UICONTROL Bounces] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=de)
-* [[!UICONTROL Visits] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=de)
+* [[!UICONTROL Bounces] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: Die Häufigkeit, mit der ein [!DNL Analytics] erfasst [!UICONTROL EF ID].
 
 ## Konversionsmetriken
@@ -43,14 +43,14 @@ Es dauert 24-48 Stunden, bis neue Segmente in Adobe Advertising angezeigt werden
 
 ### Standard-Konversionsmetriken
 
-* [[!UICONTROL Revenue] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=de)
-* [[!UICONTROL Orders] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=de)
-* [[!UICONTROL Units] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=de)
-* [[!UICONTROL Carts] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=de)
-* [[!UICONTROL Cart Views] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=de)
-* [[!UICONTROL Checkouts] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=de)
-* [[!UICONTROL Cart Additions] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=de)
-* [[!UICONTROL Cart Removals] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=de)
+* [[!UICONTROL Revenue] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals] Metrik](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### Benutzerdefinierte Konversionsmetriken
 
@@ -58,7 +58,7 @@ Diese Metriken sind spezifisch für die Report Suite. Daher variieren die verfü
 
 ### Benutzerdefinierte Konversionsmetriken, die aus [!DNL eVars] und [!DNL Props] erstellt wurden
 
-Die verfügbaren Metriken variieren je nach Kunde. Siehe &quot;[&#x200B; von Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)&quot;.
+Die verfügbaren Metriken variieren je nach Kunde. Siehe &quot;[ von Konversionsmetriken aus Adobe Analytics erstellen [!DNL eVars] und [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)&quot;.
 
 ### Reservierte Konversionsmetriken
 

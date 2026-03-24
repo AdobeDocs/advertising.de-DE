@@ -3,9 +3,9 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **Anzeigenvariation:** Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Begriff aus den Bereichen Suche, Social und Commerce für eine Einheit, für die Gebote abgegeben werden.
 
@@ -88,6 +88,8 @@ ht-degree: 0%
 
 **eCPM:** Die effektive CPM oder die Durchschnittskosten, die pro 1.000 Impressionen innerhalb eines bestimmten Datumsbereichs bezahlt wurden. eCPM-Werte können für CPM- oder CPC-Kampagnen berechnet werden.
 
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Ein Trackingcode, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Werbeexposition verknüpfen und Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann.
+
 ## G-H {#g-h}
 
 **Halbwertszeit:** Die Zeit, die benötigt wird, um eine Menge auf die Hälfte ihres ursprünglichen Werts zu reduzieren. Für jedes Portfolio können Sie Halbwertszeiten angeben, um anzugeben, wie lange Daten für Kostenmodelle und Umsatzmodelle relevant sind.
@@ -99,7 +101,7 @@ Siehe „Halbwertszeit des Kostenmodells“ und „Halbwertszeit des Umsatzmodel
 
 **Impression-Lookback-Fenster:** (Nur Anzeige- und Social-Media-Kampagnen) Eine Einstellung auf Advertiser-Ebene, die die Anzahl der Tage angibt, nach denen eine Anzeigenimpression angezeigt wird, die einer Konversion zugeordnet werden kann.
 
-**Gewichtung der Impression-Überschreibung:** Ein bestimmter Prozentsatz eines Konversionswerts, der Impressionen zugeordnet werden soll, die im Impression-Lookback-Fenster des Clients auftreten, wenn der Konversion sowohl bezahlte Klicks als auch Impressionen vorausgehen. Wenn einer Konversion nur Impressionen vorangestellt werden, wird die Durchsichtsgewichtung des Advertisers und nicht die Impressions-Überschreibungsgewichtung auf die Impressionen angewendet.
+**Gewichtung der Impression-Überschreibung:** Ein bestimmter Prozentsatz eines Konversionswerts, der Impressionen zugeordnet werden soll, die im Impression-Lookback-Fenster des Clients auftreten, wenn der Konversion sowohl bezahlte Klicks als auch Impressionen vorangestellt sind. Wenn einer Konversion nur Impressionen vorangestellt werden, wird die Durchsichtsgewichtung des Advertisers und nicht die Impressions-Überschreibungsgewichtung auf die Impressionen angewendet.
 
 ## K-L {#k-l}
 

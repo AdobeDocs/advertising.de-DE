@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Baidu]
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Baidu] .
 exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -32,5 +32,5 @@ Beispiel:
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
->* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

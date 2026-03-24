@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Microsoft Advertising] .
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Beispiel:
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` steht für die ID von a) entweder dem Keyword oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456“ sowohl für ein Keyword als auch für eine Remarketing-Liste oder „kwd-123“ nur für Keyword).
+>* `{TargetId}` steht für die ID a) des Keywords oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456&quot; für sowohl ein Keyword als auch eine Remarketing-Liste oder „kwd-123“ nur für Keywords).
 
 ### Sitelinks
 
@@ -48,7 +48,7 @@ Beispiel:
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` steht für die ID von a) entweder dem Keyword oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456“ sowohl für ein Keyword als auch für eine Remarketing-Liste oder „kwd-123“ nur für Keyword).
+>* `{TargetId}` steht für die ID a) des Keywords oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456&quot; für sowohl ein Keyword als auch eine Remarketing-Liste oder „kwd-123“ nur für Keywords).
 >
 >* `{adextensionid}` wird nicht verwendet.
 >
@@ -70,7 +70,7 @@ Beispiel:
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
->* `{TargetId}` steht für die ID von a) entweder dem Keyword oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456“ sowohl für ein Keyword als auch für eine Remarketing-Liste oder „kwd-123“ nur für Keyword).
+>* `{TargetId}` steht für die ID a) des Keywords oder b) der Keyword- und Remarketing-Liste (Zielgruppe), die die Anzeige ausgelöst hat (z. B. „kwd-123:aud-456&quot; für sowohl ein Keyword als auch eine Remarketing-Liste oder „kwd-123“ nur für Keywords).
 >
 >* (Optional) Anstatt Tracking-Vorlagen auf Konto-, Kampagnen-, Anzeigengruppen- oder Produktgruppenebene einzugeben, können Sie die Tracking-URL zu den Produktdaten im [!DNL Microsoft Merchant Center]-Konto hinzufügen. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld &quot;`link`&quot; bzw. &quot;`mobile_link`&quot; in eine benutzerdefinierte Spalte &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; im Produkt-Feed ein. Der Wert im Feld &quot;`bingads_redirect`&quot; ersetzt die Werte in den Feldern &quot;`link`&quot; und &quot;`mobile_link`&quot;. Mit dieser Methode generierte URLs enthalten keine Tracking-Parameter, die in den Such-, Social- und Commerce-Konto- oder Kampagneneinstellungen angegeben sind.
 
@@ -107,4 +107,4 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

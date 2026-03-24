@@ -3,9 +3,9 @@ title: Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Yahoo! Japan Ads] .
 exl-id: 79e45205-5c72-4612-9b60-36538e3c48c4
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Beispiel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden auf Adobe Advertising.
+>* `<advertiser_ID>` ist eine Variable für die eindeutige ID des Werbetreibenden in Adobe Advertising.
 >
 >* Dieses Format gibt an, dass die Token-Übergabe für die Kampagne aktiviert ist (Standard). Wenn die Token-Übergabe deaktiviert ist, ersetzen Sie `cq?` nach der `<advertiser_ID>` durch `c?`.
 >
@@ -34,5 +34,5 @@ Beispiel:
 
 >[!MORELIKETHIS]
 >
->* [Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service](formats-click-tracking-about.md)
->* [AMO ID-Formate](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
