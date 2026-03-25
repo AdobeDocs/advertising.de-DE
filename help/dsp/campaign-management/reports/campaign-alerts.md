@@ -1,11 +1,11 @@
 ---
 title: Anzeigen von Warnhinweisen
-description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Kampagnen und Kampagnenkomponenten anzeigen.
+description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Kampagnen und Kampagnenkomponenten anzeigen. Verwenden Sie Warnhinweise, um Probleme mit Ihren Kampagnen zu beheben.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 747606b120cdd36eb025b320f89abb5cc7704bf0
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Warnhinweise sind an den folgenden Orten verfügbar:
 
 * Ein [!UICONTROL Pulse Panel] in der Ansicht [!UICONTROL Campaigns], [!UICONTROL Packages] und Paketdetails, [!UICONTROL Placements] und [!UICONTROL Ads] zeigt an, ob Warnhinweise für die Elemente in dieser Ansicht verfügbar sind. Wenn das Symbol einen blauen Punkt aufweist (![Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel.png "Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind")), sind Warnhinweise verfügbar. Wenn kein Punkt sichtbar ist (![Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel-empty.png "Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind")), sind keine Warnhinweise verfügbar.
 
-* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![&#x200B; (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
+* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![ (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
 
 Sie können für jeden Warnhinweis die entsprechende Ansicht der Kampagnenverwaltung öffnen, um die Einstellungen nach Bedarf zu bearbeiten und das Problem zu beheben.
 
