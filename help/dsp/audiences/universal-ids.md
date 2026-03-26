@@ -3,9 +3,9 @@ title: Unterstützung für die Aktivierung universeller IDs
 description: Erfahren Sie mehr über die Unterstützung beim Importieren Ihrer universellen ID-Segmente, Erstellen benutzerdefinierter Segmente zum Nachverfolgen universeller IDs und Konvertieren anderer Benutzerkennung in Erstanbietersegmente in universelle IDs für das Cookie-lose Targeting.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting v
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP kann First-Party-Segmente aufnehmen, die aus gehashten E-Mail-IDs bestehen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und diese in [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und den zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+* DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[ zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
 * Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind und bestimmte Web-Seiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browser-Signalen abgeleitet wird. Anweisungen finden Sie unter [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).
 
@@ -97,6 +97,8 @@ Verwenden Sie die folgenden Best Practices für [!DNL RampID] und ID5-basierte S
 * Denken Sie daran, dass die Reichweite authentifizierter Zielgruppensegmente naturgemäß kleiner ist als die Reichweite Cookie-basierter Segmente, und dass die Verwendung zusätzlicher Targeting-Optionen Ihre Reichweite weiter verringert. Seien Sie vorsichtig bei der Verwendung von granularem Targeting, insbesondere indem Sie mehrere Ziele mit AND-Anweisungen verbinden.
 
 ## Datenabweichungen zwischen E-Mail-IDs und universellen IDs {#universal-ids-data-variances}
+
+Dieser Abschnitt gilt nur für E-Mail-IDs, die in universelle IDs übersetzt werden.
 
 ### Zulässige Varianzniveaus
 
