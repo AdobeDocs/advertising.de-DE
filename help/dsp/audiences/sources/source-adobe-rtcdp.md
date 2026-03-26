@@ -18,13 +18,13 @@ Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://e
 
 1. (Um Benutzer-IDs in [!DNL RampIDs]<!-- or [!DNL ID5] IDs --> zu konvertieren; Advertiser mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Einrichten des Trackings für die [!DNL Analytics]:
 
-   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs ](/help/integrations/analytics/ids.md).
+   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs &#x200B;](/help/integrations/analytics/ids.md).
 
    1. Registrieren Sie sich beim universellen ID-Partner und stellen Sie auf Ihren Web-Seiten einen universellen ID-spezifischen Code bereit, um Konversionen aus den IDs in Desktop-Browsern und mobilen Webbrowsern (aber nicht in mobilen Apps) abzugleichen und Anleitungen zu erhalten:
 
       * **[!DNL RampIDs]:** Sie müssen ein zusätzliches JavaScript-Tag auf Ihren Web-Seiten bereitstellen, damit die Konversionen der IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) für die Viewthroughs übereinstimmen. Wenden Sie sich an Ihr Adobe-Konto-Team, das Ihnen Anweisungen zur Registrierung für ein [!DNL LiveRamp] [!DNL LaunchPad]-Tag von [!DNL LiveRamp] Authentication Traffic Solutions gibt. Die Registrierung ist kostenlos, Sie müssen jedoch eine Vereinbarung unterzeichnen. Nach der Registrierung erstellt Ihr Adobe-Account-Team ein eindeutiges Tag, das Ihr Unternehmen auf Ihren Web-Seiten implementieren kann.
 
-1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([ universellen ID-Formate) ](source-about.md).
+1. [Erstellen einer Zielgruppenquelle](source-manage.md) um Zielgruppen in Ihr DSP-Konto oder ein Advertiser-Konto zu importieren. Sie können Ihre Benutzerkennungen in eines der ([&#x200B; universellen ID-Formate) &#x200B;](source-about.md).
 
    Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, den Sie im nächsten Schritt verwenden werden.
 
@@ -36,7 +36,7 @@ Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://e
 
    >[!NOTE]
    >
-   >Die alte Verbindung, die nur die Unterstützung für Hash-E-Mail-Adressen umfasst, wird jetzt als &quot;[Legacy Adobe Advertising Cloud DSP-Verbindung“ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Wenn Sie bereits die alte Verbindung verwenden, müssen Sie nicht sofort Änderungen vornehmen. Die alte Verbindung wird jedoch letztendlich entfernt.
+   >Die alte Verbindung, die nur die Unterstützung für Hash-E-Mail-Adressen umfasst, wird jetzt als &quot;[Legacy Adobe Advertising Cloud DSP-Verbindung“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Wenn Sie bereits die alte Verbindung verwenden, müssen Sie nicht sofort Änderungen vornehmen. Die alte Verbindung wird jedoch letztendlich entfernt.
 
 1. Überprüfen Sie in Ihrer Zielgruppenbibliothek (die verfügbar ist, wenn Sie eine Zielgruppe unter [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in den Platzierungseinstellungen erstellen oder bearbeiten), ob das Segment aufgefüllt ist, und vergleichen Sie die Anzahl der universellen IDs mit der Anzahl der ursprünglichen Benutzer-IDs.
 
@@ -46,7 +46,7 @@ Segmente werden alle 24 Stunden aktualisiert. Die Aufnahme in ein Segment läuft
 
 ## Fehlerbehebung
 
-Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[ für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
+Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[&#x200B; für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
 
 Wenden Sie sich zur Fehlerbehebung bei Konvertierungsproblemen an Ihr Adobe-Account-Team oder an `adcloud-support@adobe.com`.
 
