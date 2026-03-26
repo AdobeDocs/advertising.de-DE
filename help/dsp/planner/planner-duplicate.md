@@ -3,7 +3,7 @@ title: Duplizieren eines verbundenen TV-Reach-Plans
 description: Erfahren Sie, wie Sie einen verbundenen TV-Reach-Plan mit den Einstellungen aus einem vorhandenen Plan erstellen.
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Planner]**.
 
-1. &#x200B;
+1. 
    1. Halten Sie den Cursor über der Planungszeile und klicken Sie auf **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Optional) Bearbeiten Sie den Plannamen und die [Planeinstellungen](planner-settings.md).
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    Nachdem Sie den Plan gespeichert haben, wird die prognostizierte Ausgabe angezeigt.
 
-1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren **&#x200B; klicken Sie oben rechts auf &#x200B;** [!UICONTROL ...] **&#x200B; und dann auf &#x200B;** [!UICONTROL Export]**.
+1. (Optional) Um die [!UICONTROL Budget vs Reach] in eine [!DNL Microsoft Excel] Tabelle zu exportieren** klicken Sie oben rechts auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
