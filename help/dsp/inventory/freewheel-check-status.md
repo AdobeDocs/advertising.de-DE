@@ -1,18 +1,18 @@
 ---
 title: Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Angebot
-description: Erfahren Sie, wie Sie den Status der Anzeigen für  [!DNL Freewheel]  programmgesteuerte garantierte -Angebote finden.
+description: Erfahren Sie, wie Sie den Status der Anzeigen für  [!DNL FreeWheel]  programmgesteuerte garantierte -Angebote finden.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Überprüfen Sie den Status der Anzeigen für [!DNL Freewheel] programmgesteuerte garantierte -Angebote.
+# Überprüfen Sie den Status der Anzeigen für [!DNL FreeWheel] programmgesteuerte garantierte -Angebote.
 
-Überprüfen Sie, ob Ihre Anzeigeneinreichungen an [!DNL Freewheel] erfolgreich waren. Sie können jede Anzeige nach Bedarf erneut senden.
+Überprüfen Sie, ob Ihre Anzeigeneinreichungen an [!DNL FreeWheel] erfolgreich waren. Sie können jede Anzeige nach Bedarf erneut senden.
 
 Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlung an Ihr Adobe-Account-Team.
 
@@ -24,7 +24,7 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlun
 
 1. Klicken Sie im Untermenü auf **[!UICONTROL Ads]**.
 
-1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
+1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL ...]** > **[!UICONTROL See FreeWheel status]**.
 
 1. (Optional) Um eine Anzeige erneut zur Genehmigung einzureichen, halten Sie den Cursor über der Anzeigenzeile und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
@@ -34,9 +34,9 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlun
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie unter der [!UICONTROL Deal ID Inbox] auf **[!UICONTROL View Freewheel creative status]**.
+   * Klicken Sie unter der [!UICONTROL Deal ID Inbox] auf **[!UICONTROL View FreeWheel creative status]**.
 
-   * Klicken Sie in einer beliebigen Abschlusszeile auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
+   * Klicken Sie in einer beliebigen Abschlusszeile auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**.
 
 1. (Optional) Filtern Sie die Daten, um spezifische Angebote und Anzeigen zu finden.
 
@@ -48,7 +48,7 @@ Wenden Sie sich bei weiteren Fragen oder Problemen mit der erneuten Übermittlun
 
 >[!MORELIKETHIS]
 >
->* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]](freewheel-overview.md)
->* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL Freewheel]](freewheel-submit.md)
+>* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL FreeWheel]](freewheel-overview.md)
+>* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL FreeWheel]](freewheel-submit.md)
 >* [Fehler-Codes für  [!DNL FreeWheel] Anzeigenübermittlungen](freewheel-error-codes.md)
 >* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)

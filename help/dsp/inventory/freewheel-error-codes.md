@@ -3,16 +3,16 @@ title: Fehler-Codes für  [!DNL FreeWheel] -Anzeigen-Übermittlungen
 description: Verweisen Sie auf die Fehler-Codes, die für Anzeigenübermittlungen an zurückgegeben werden [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
 # Fehler-Codes für [!DNL FreeWheel] Anzeigenübermittlungen
 
-Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entweder von Advertising DSP oder von [!DNL FreeWheel] stammen. Fehlermeldungen werden in der Spalte [!UICONTROL API Response] im Dialogfeld [[!UICONTROL Freewheel Status] angezeigt](freewheel-check-status.md).
+Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entweder von Advertising DSP oder von [!DNL FreeWheel] stammen. Suchen Sie Fehlermeldungen in der Spalte [!UICONTROL API Response] im Dialogfeld [[!UICONTROL FreeWheel Status]](freewheel-check-status.md).
 
 ## Interne Advertising DSP-Fehler
 
@@ -24,12 +24,12 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 | [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | Der eingereichte Deal ist nicht als programmgesteuert garantierter Deal eingerichtet. [!DNL FreeWheel] akzeptiert nur garantierte Angebote. | Richten Sie die Angebots-ID als programmgesteuert garantierten Abschluss ein. Die Anzeige wird automatisch an [!DNL FreeWheel] gesendet, wenn Sie die programmgesteuerte garantierte Standardplatzierung am Ende des Workflows „Angebots-ID“ speichern. |
 | [!DNL Invalid external_deal_id:] \&lt;DEAL_ID\> | Die übermittelte Angebots-ID ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Vergewissern Sie sich, dass der Deal aktiv ist, und senden Sie die Anzeige dann erneut. |
 | [!DNL \[public_id=]\&lt;deal\>] existiert nicht | Die übermittelte Angebots-ID ist am [!DNL FreeWheel] Ende nicht vorhanden. | Wenden Sie sich an Ihren [!DNL FreeWheel], um die Angebots-ID zu bestätigen. |
-| [!DNL Ad with identifier] \&lt;*Anzeigename*\> [!DNL was not found.] | Der gesendete Anzeigenschlüssel ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Finden Sie den richtigen Anzeigenschlüssel und senden Sie die Anzeige dann erneut. |
+| [!DNL Ad with identifier] \*Anzeigename*\> [!DNL was not found.] | Der gesendete Anzeigenschlüssel ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Finden Sie den richtigen Anzeigenschlüssel und senden Sie die Anzeige dann erneut. |
 | [!DNL Pending Submission] | Die Übermittlung ist noch ausstehend. | Aktualisieren Sie die Seite. |
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API-Fehler
+## [!DNL FreeWheel] API-Fehler
 
 | Code | Bedeutung | Beschreibung | Nächste Schritte |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API 422-Fehler {#freewheel-422-errors}
+## [!DNL FreeWheel] API 422-Fehler {#freewheel-422-errors}
 
 | Code | HTTP-Code | Beschreibung |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 
 >[!MORELIKETHIS]
 >
->* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Überblick über das Einrichten programmgesteuerter garantierter Angebote in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
->* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Senden einer Anzeige für einen programmgesteuerten garantierten Abschluss an [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [Überprüfen Sie den Status der Anzeigen für ein [!DNL FreeWheel] PG-Angebot](/help/dsp/inventory/freewheel-check-status.md)

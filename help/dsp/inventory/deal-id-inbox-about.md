@@ -3,9 +3,9 @@ title: Über die [!UICONTROL Deal ID Inbox]
 description: Erfahren Sie mehr über die [!UICONTROL Deal ID Inbox]-Funktion, mit der Sie private Angebote akzeptieren können, die Sie bereits mit Herausgebern ausgehandelt haben  [!DNL FreeWheel], [!DNL Google Authorized Buyers] früher bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (früher [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Mit dem Advertising DSP-[!UICONTROL Deal ID Inbox] können Sie schnell Angebote 
 >
 >Advertising DSP ist das erste DSP, das mit der [!DNL FreeWheel] API integriert wird.
 
-In der [!UICONTROL Deal ID Inbox] können Sie die Details des Angebots so anzeigen, wie es Ihr Publisher sieht, Ihre Angebotseinrichtung beschleunigen und manuelle Eingabefehler vermeiden.
+In der [!UICONTROL Deal ID Inbox] können Sie die Details des Angebots so anzeigen, wie Ihr Publisher sie sieht, Ihre Angebotseinrichtung beschleunigen und manuelle Eingabefehler vermeiden.
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -48,7 +48,7 @@ Bitten Sie den Publisher während der Vertragsverhandlungen, das Angebot an Ihre
 
 * **Angebote überprüfen** um sicherzustellen, dass der SSP die richtigen Publisher-, Flugdaten-, CPM- und anderen Angebotsdetails gesendet hat. Wenn der Publisher einen Fehler gemacht hat, kontaktieren Sie ihn außerhalb von DSP, damit er den Deal korrigieren und erneut senden kann.
 
-* **Akzeptieren von Angeboten** nachdem sie geprüft wurden, und sie werden nicht mehr in der [!UICONTROL Deal ID Inbox] angezeigt. Akzeptierte Angebote sind unter [!UICONTROL Inventory] > [!UICONTROL Deals] aufgeführt und können in den Platzierungen der Werbetreibenden gezielt ausgewählt werden.
+* **Akzeptieren von Angeboten** nachdem sie geprüft wurden, und sie werden nicht mehr in der [!UICONTROL Deal ID Inbox] angezeigt. Akzeptierte Angebote werden unter [!UICONTROL Inventory] > [!UICONTROL Deals] aufgeführt und können in den Platzierungen der Werbetreibenden ausgewählt werden.
 
 * **Ignoriere Angebote** die nicht benötigt werden oder nicht angefordert werden. Ignorierte Angebote werden auf die Registerkarte [!UICONTROL Ignored Deals] im [!UICONTROL Deal ID Inbox] verschoben, die als Archiv dient. DSP warnt SSPs und Publisher nicht, wenn Sie einen Deal ignorieren.
 

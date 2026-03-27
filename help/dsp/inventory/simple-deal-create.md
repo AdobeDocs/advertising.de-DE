@@ -3,9 +3,9 @@ title: '[!UICONTROL Simple Ad Serving] erstellen'
 description: Erfahren Sie, wie Sie ein Tracking-Pixel für ein [!UICONTROL Simple Ad Serving] Angebot erstellen.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. Bearbeiten Sie in den Feed-Details die Feed-Details und klicken Sie dann auf **[!UICONTROL Next]**.
 
-      DSP generiert automatisch eine Platzierung mit dem Namen „SAS-Platzierung - &lt;*Geschäftsname*>&quot; für die Anzeige. In der Platzierung wird das Angebot automatisch im Abschnitt [!UICONTROL Inventory Targets] angesprochen. Alle anderen Targeting-Optionen sind nicht anwendbar.
+      DSP generiert automatisch eine Platzierung mit dem Namen „SAS-Platzierung - „ph id=&#39;65&#39;/>*&quot; für die Anzeige.* In der Platzierung wird das Angebot automatisch im Abschnitt [!UICONTROL Inventory Targets] angesprochen. Alle anderen Targeting-Optionen sind nicht anwendbar.
 
 1. Senden Sie die Pixel für die Ereignisverfolgung zur Implementierung auf eine der folgenden Arten an den Herausgeber:
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * Um die Informationen in eine E-Mail-Nachricht in einer E-Mail-Anwendung auf Ihrem Gerät einzufügen, klicken Sie auf **[!UICONTROL Email & Done]** und wählen Sie die E-Mail-Anwendung aus. Das Feld [!UICONTROL CC:] wird vorab mit einer [!DNL Adobe] Support-Adresse ausgefüllt. Sie können die Nachricht dann an den entsprechenden Kontakt für den Herausgeber senden.
 
-         * Um die Informationen in die Zwischenablage zu kopieren, klicken Sie auf **[!UICONTROL Copy Email].** Sie können dann den Inhalt manuell in eine E-Mail-Nachricht einfügen und an den entsprechenden Kontakt für den Herausgeber senden. Sie müssen eine Kopie (CC:) zu `publisher-support-global@adobe.com` hinzufügen. Wenn Sie mit dem Kopieren der Nachricht fertig sind, klicken Sie auf **[!UICONTROL Email & Done]**.
+         * Um die Informationen in die Zwischenablage zu kopieren, klicken Sie auf **[!UICONTROL Copy Email].** Sie können dann den Inhalt manuell in eine E-Mail-Nachricht einfügen und an den entsprechenden Kontakt für den Herausgeber senden. Fügen Sie eine Kopie (CC:) zu `publisher-support-global@adobe.com` hinzu. Wenn Sie mit dem Kopieren der Nachricht fertig sind, klicken Sie auf **[!UICONTROL Email & Done]**.
 
       1. (Falls erforderlich) Wenden Sie sich an den Herausgeber, um festzustellen, ob das Tag die entsprechenden Makros enthält, damit das Tag mit dem Anzeigen-Server des Herausgebers zusammenarbeitet.
 

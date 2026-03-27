@@ -3,9 +3,9 @@ title: Über die private Inventarisierung
 description: Über die private Inventarisierung
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Werbetreibende, die über die RTB hinausblicken, können private Inventare verwe
 ## Angebots-IDs
 
 
-Wenn Sie direkte Beziehungen zu Herausgebern haben, können Sie Ihren Prozess und Workflow zum Medienkauf optimieren, indem Sie Ihre eigenen privaten Angebote mit deren ausgehandeltem Bestand und Preisen in Ihren Advertising DSP-Platzierungen verwenden. DSP kann bei der Einrichtung eines Kontos mit allen Publishern integriert werden. Wenn Sie später Zugriff auf weitere Herausgeber erhalten möchten, wenden Sie sich an Ihr Adobe-Accountteam, um den Zugriff einzurichten. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Wenn Sie direkte Beziehungen zu Publishern haben, können Sie Ihren Prozess und Workflow zum Medienkauf optimieren, indem Sie Ihre eigenen privaten Angebote mit ausgehandelten Beständen und Preisen in Ihren Advertising DSP-Platzierungen verwenden. DSP kann bei der Einrichtung eines Kontos mit allen Publishern integriert werden. Wenn Sie später Zugriff auf weitere Herausgeber erhalten möchten, wenden Sie sich an Ihr Adobe-Accountteam, um den Zugriff einzurichten.
 
 Alle Ihre privaten Angebote mit einer Angebots-ID werden von [!DNL Adobe] finanziert und fakturiert.
 
@@ -39,7 +39,7 @@ In der Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] können Sie Einstellu
 
 Die Spalte „Angebotsstatus“ zeigt den Status jedes privaten Angebots an: „Erfolg“, „Warnung“, „Kritisch“ oder „Nicht verfügbar“. Sie können auf den Status klicken, um weitere Details anzuzeigen, einschließlich der Gründe, warum ein Angebot nicht wie erwartet funktioniert oder nicht die erwarteten Ausgaben erzielt werden, und der Schritte zur Behebung potenzieller Probleme.
 
-Sie können anpassen, wie die vorhandenen Abschlussdaten dargestellt werden, indem Sie Filter anwenden, die sichtbaren Spalten anpassen und optional benutzerdefinierte Ansichten speichern, die Spalten sortieren und die Daten als Diagramme anzeigen.
+Sie können die sichtbaren Abschlussdaten anpassen, indem Sie Filter anwenden, die sichtbaren Spalten anpassen und optional benutzerdefinierte Ansichten speichern, die Spalten sortieren und die Daten als Diagramme anzeigen.
 
 ## Die [!UICONTROL Deal Lists]
 

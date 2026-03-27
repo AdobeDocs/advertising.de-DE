@@ -3,7 +3,7 @@ title: Über [!DNL On Demand] Premium-Inventar
 description: Erfahren Sie mehr über die Angebote, die DSP vorab mit Premium-Publisher-Partnern ausgehandelt hat.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other], Werbetreibende mit der Kategorie [!UICONTROL Other] und Wiederverkäufer*
 
-Die [!DNL On Demand] Gallery ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1 Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
+Die [!DNL On Demand] Galerie ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1 Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
 
 Der DSP Premium Marketplace bietet folgende Möglichkeiten:
 
@@ -45,7 +45,7 @@ Unter dem Karussell können Sie alle verfügbaren Angebote und Publisher anzeige
 Die Details zu den einzelnen Abschlüssen enthalten Daten in den folgenden Spalten:
 
 * **[!UICONTROL TVB]:** Zeigt an, wenn der Herausgeber ein Fernsehsender ist
-* **[!UICONTROL Tune]:** Zeigt an, wann der Publisher „tune-in“-Kreative akzeptiert (z. B. „tune-in heute Abend um 21 Uhr für die neue Folge von \&lt;*unsere Sendung*\>)
+* **[!UICONTROL Tune]:** Zeigt an, wann der Publisher „Tune-In“-Kreative akzeptiert (z. B. „Melde dich heute Abend um 21 Uhr für die neue Folge von \*unserer Sendung an*\>)
 * **[!UICONTROL LDA]:** (Legal Drinking Age) Zeigt an, wann der Publisher 21+ Targeting angewendet hat und Alkoholanzeigen akzeptiert
 * **[!UICONTROL CPM]:** Zeigt an, wenn die CPM-Untergrenze oder der Festsatz für das Angebot erst sichtbar ist, nachdem dem Werbetreibenden Zugriff auf das Angebot gewährt wurde
 * **[!UICONTROL Status]:** Der Status Ihrer Abonnementanfrage (falls zutreffend)

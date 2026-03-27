@@ -3,9 +3,9 @@ title: Using [!DNL Roku] Inventory
 description: Erfahren Sie mehr über die Partnerschaft von DSP mit  [!DNL Roku], einschließlich Inventaroptionen, genehmigten Tracking-Anbietern von Drittanbietern und Best Practices für  [!DNL Roku] Platzierungen.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ Die Partnerschaft zwischen [!DNL Roku] und DSP ordnet Ihre [!DNL DSP] Zielgruppe
 
 ## [!DNL Roku] Bestandsoptionen
 
-Sie können entweder a) private Angebots-IDs direkt mit [!DNL Roku] einrichten und dann die Angebots-ID-Daten in DSP eingeben oder b) die [!DNL On Demand] Galerie besuchen, um [!DNL Roku] Profile zu abonnieren:
+Sie haben folgende Möglichkeiten:
+
+* Richten Sie private Angebots-IDs direkt mit [!DNL Roku] ein und geben Sie dann die Angebots-ID-Daten in DSP ein.
+
+* Besuchen Sie die [!DNL On Demand], um [!DNL Roku] Profile zu abonnieren:
 
 >[!NOTE]
 >
@@ -28,9 +32,10 @@ Sie können entweder a) private Angebots-IDs direkt mit [!DNL Roku] einrichten u
 
 * Richten Sie für Ihre privaten Angebote [Informationen zu den Angebots-IDs in DSP ein](/help/dsp/inventory/deal-id-create.md) und wählen Sie dann in [!UICONTROL Roku Network - Audience] Platzierungen &quot;[!UICONTROL The Roku Channel - Audience]&quot; und &quot;[!DNL Roku]&quot; aus.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* Sie können [das folgende  [!DNL Roku]  im  [!DNL On Demand] -Katalog abonnieren](/help/dsp/inventory/on-demand-inventory-subscribe.md) und dann eines der genehmigten Angebote in [!DNL Roku] Platzierungen auswählen:
+* Sie können [das folgende Inventar  [!DNL Roku]  der  [!DNL On Demand] -](/help/dsp/inventory/on-demand-inventory-subscribe.md) abonnieren und dann eines der genehmigten Angebote in [!DNL Roku] Platzierungen auswählen:
 
    * &quot;[!UICONTROL Roku Network - Audience]&quot; für Inventar im gesamten [!DNL Roku]-Ökosystem mit Premium-Content-Partnern wie [!DNL The CW], [!DNL ABC] und [!DNL ESPN].
+
    * &quot;[!UICONTROL The Roku Channel - Audience]&quot; für [!DNL Roku] eigenen und betriebenen (O&amp;O) App-Inhalte.
 
 ### Vorteile der Anpassung privater Marktplätze mit [!DNL Roku]
@@ -49,7 +54,7 @@ Mit privaten Angeboten können Sie die Angebotsparameter Ihren Bedürfnissen ent
 
 ## Platzierungen [!DNL Roku]
 
-DSP Erstellen Sie in [-Kampagnen  [!DNL Roku] Platzierungen &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
+Erstellen Sie in [-Kampagnen  [!DNL Roku] Platzierungen ](/help/dsp/campaign-management/placements/placement-create.md) dem Platzierungstyp &quot;[!UICONTROL Connected TV (Roku)]&quot;. [!DNL Roku] Platzierungen in [!DNL Roku] Pakete mit definierten Zielen einbeziehen.
 
 Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle ansprechen. Um die Zielgruppenzuordnung von DSP mit [!DNL Roku] zu verwenden, schließen Sie ein oder mehrere Zielgruppensegmente ein, die mit dem deterministischen Datensatz des [!DNL Roku] (Opt-in) abgeglichen werden können.
 

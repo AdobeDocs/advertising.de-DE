@@ -3,7 +3,7 @@ title: Einstellungen für universelle Videoanzeigen
 description: Siehe Beschreibungen der verfügbaren Anzeigeneinstellungen für universelle Videoanzeigen.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Das Format des Anzeigen-Players für den potenziellen Bestand: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* oder *[!UICONTROL VAST]*. Die Sichtbarkeit wird immer für [!UICONTROL VPAID] gemessen, [!UICONTROL VPAID & VAST] umfasst jedoch ein Inventar, das keine Sichtbarkeitsmessung zulässt. Beachten Sie diese Unterscheidung, wenn Sichtbarkeitsmetriken für Ihre Kampagne wichtig sind.
 
-Verwenden Sie [!UICONTROL VAST], was keine Sichtbarkeitsmessung zulässt, wenn Sie auf angeschlossene Fernsehgeräte oder Inventare abzielen, die ausschließlich das VAST-Format erfordern (in der Regel aus Bezugsquellen wie Google Ad Manager, Appnexus, SpotX und Freewheel). Verwenden Sie diese Option auch für Inventare, die zuvor mit VAST (Standard Pre-roll)- oder VAST (Phone + Tablet Standard Pre-roll)-Platzierungen/-Anzeigen kompatibel waren.
+Verwenden Sie [!UICONTROL VAST], was keine Sichtbarkeitsmessung zulässt, wenn Sie auf angeschlossene Fernsehgeräte oder Inventare abzielen, die ausschließlich das VAST-Format erfordern (in der Regel aus Bezugsquellen wie Google Ad Manager, Appnexus, SpotX und FreeWheel). Verwenden Sie diese Option auch für Inventare, die zuvor mit VAST (Standard Pre-roll)- oder VAST (Phone + Tablet Standard Pre-roll)-Platzierungen/-Anzeigen kompatibel waren.
 
 **[!UICONTROL Clock Number]**: (Wird nur im Vereinigten Königreich verwendet; steht nur Benutzenden mit Genehmigung zur Verfügung) Eine eindeutige Kennung, die verwendet wird, um sicherzustellen, dass die richtige Anzeige gesendet wird. Wenn diese Einstellung nicht anwendbar ist, lassen Sie sie leer.
 
