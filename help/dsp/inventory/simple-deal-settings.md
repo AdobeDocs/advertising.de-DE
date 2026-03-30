@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * Wenn Sie vorhandene Anzeigen verwenden, aktivieren Sie das Kontrollkästchen neben jeder Anzeige, die in das Angebot aufgenommen werden soll.
 
-* Wenn Sie neue Anzeigen erstellen, verwenden Sie die Bildschirme, um eine neue [Drittanbieteranzeige“ ](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+* Wenn Sie neue Anzeigen erstellen, verwenden Sie die Bildschirme, um eine neue [Drittanbieteranzeige“ &#x200B;](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 ### [!UICONTROL Feed Details]
 
