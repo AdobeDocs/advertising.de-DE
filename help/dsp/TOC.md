@@ -4,7 +4,7 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [Unterstützung für Privatsphäre von Verbrauchern](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
    + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
    + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Suchen nach Produktdokumentation im KI-unterstützten Chat](/help/dsp/agent-chat.md)
++ {hide-from-toc}[Suchen Sie mithilfe des KI-unterstützten Chats nach Produktdokumentation](/help/dsp/agent-chat.md)
 + Kampagnen-Management {#campaign-management}
    + [Überblick über die Kampagnenverwaltung in Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Kampagnen {#campaigns}
@@ -117,7 +117,7 @@ ht-degree: 4%
    + [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
    + Wiederverwendbare Zielgruppen {#reusable-audiences}
       + [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md)
-      + [Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + {hide-from-toc}[Erstellen Sie eine wiederverwendbare Zielgruppe mit generativer KI](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplizieren einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Bearbeiten einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-edit.md)
       + [Anzeigen von Details zu wiederverwendbaren Audiences](/help/dsp/audiences/reusable-audience-view-details.md)

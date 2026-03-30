@@ -3,9 +3,9 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Erfahren Sie, wie Sie die Optimierung und Anzeigenplanung für Erlebnisse ohne Targeting konfigurieren.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie auf ![Kreative Optimierung bearbeiten](/help/creative/assets/edit-gray.png "Kreative Optimierung bearbeiten") **[!UICONTROL Creative Optimization]**.&lt;!—
-Tag Manager hat ab 2/2 nur eine Listenansicht, aber keine Kartenansicht. >
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie auf ![Kreative Optimierung bearbeiten](/help/creative/assets/edit-gray.png "Kreative Optimierung bearbeiten") **[!UICONTROL Creative Optimization]**.
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. **[!UICONTROL Schedule]** deaktivieren.
 
