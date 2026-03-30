@@ -3,7 +3,7 @@ title: Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgrupp
 description: Erfahren Sie, wie Sie eine Quelle erstellen und verwalten, um Zielgruppen aus Ihrer Kundendatenplattform zu importieren und sie in Segmente mit universellen IDs zu konvertieren.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -59,7 +59,8 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Ändern der ID-Typen für eine Zielgruppenquelle
 
-<!-- Clarify this:
+<!-- 
+Clarify this:
 
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
@@ -115,11 +116,11 @@ Für [!DNL RampID] und [!DNL Unified ID2.0] sucht der Anbieter nach jeder E-Mail
 
 >[!NOTE]
 >
->Sie können nur einen ID-Typ in einer Platzierung auswählen. Um die Leistung nach ID-Typ zu testen[&#x200B; erstellen Sie für &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) ID-Typ im Segment eine separate Platzierung.
+>Sie können nur einen ID-Typ in einer Platzierung auswählen. Um die Leistung nach ID-Typ zu testen[ erstellen Sie für ](/help/dsp/campaign-management/placements/placement-create.md) ID-Typ im Segment eine separate Platzierung.
 
 * *[!DNL RampID]:* Konvertieren von personenbezogenen Daten in ein [!DNL RampID]. Sie können [!DNL RampIDs] für die Retargeting-Zielgruppenbestimmung der angemeldeten Benutzer und für [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) Messung verwenden.
 
-* *[!DNL Unified ID2.0] (Beta):* Konvertieren von personenbezogenen Daten in eine [Unified ID 2.0](https://unifiedid.com)-ID für die erneute Zielgruppenbestimmung von angemeldeten Benutzenden.
+* *[!DNL Unified ID2.0](Beta):* Konvertieren von personenbezogenen Daten in eine [Unified ID 2.0](https://unifiedid.com)-ID für die erneute Zielgruppenbestimmung von angemeldeten Benutzenden.
 
 <!--
  Later

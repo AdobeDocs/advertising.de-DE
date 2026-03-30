@@ -3,7 +3,7 @@ title: Von Adobe Advertising verwendete IDs [!DNL Analytics]
 description: Von Adobe Advertising verwendete IDs [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -46,19 +46,20 @@ Adobe Advertising unterscheidet anhand der folgenden Kriterien zwischen einem Cl
 
 Die EF ID ist ein eindeutiges Token, das Adobe Advertising verwendet, um Aktivitäten mit einem Online-Klick oder einer Anzeigenbelichtung auf individueller Browser- oder Geräteebene zu verknüpfen. EF-IDs dienen hauptsächlich als Schlüssel zum Senden von [!DNL Analytics] und Customer Journey Analytics-Daten an Adobe Advertising für die Berichterstellung und Angebotsoptimierung innerhalb von Adobe Advertising.
 
-[!DNL Analytics] wird die EF-ID in der Dimension [eine [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) oder [!DNL rVar] (reservierte [!DNL eVar]) (Adobe Advertising EF ID) gespeichert.
+[!DNL Analytics] wird die EF-ID in der Dimension [eine [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder [!DNL rVar] (reservierte [!DNL eVar]) (Adobe Advertising EF ID) gespeichert.
 
-Bei Customer Journey Analytics wird die EF-ID in der `trackingIdentities`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
+Bei Customer Journey Analytics wird die EF-ID in der `trackingIdentities`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
 
 ### EF ID-Formate {#ef-id-formats}
 
-Siehe [Formate für EF ID-Dimensionselemente](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-ef-id#dimension-items) im Adobe Analytics-Komponentenhandbuch.
+Siehe [Formate für EF ID-Dimensionselemente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) im Adobe Analytics-Komponentenhandbuch.
 
 >[!NOTE]
 >
 >Bei EF-IDs wird zwischen Groß- und Kleinschreibung unterschieden. Wenn eine [!DNL Analytics]- oder Customer Journey Analytics-Implementierung das URL-Tracking in Kleinbuchstaben erzwingt, erkennt Adobe Advertising die EF-ID nicht. Dies wirkt sich auf die Gebote und das Reporting von Adobe Advertising aus, hat jedoch keine Auswirkungen auf das Reporting von Adobe Advertising in [!DNL Analytics] oder Customer Journey Analytics.
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 #### [!DNL Google Ads] search ads
 
@@ -132,7 +133,7 @@ Der Parameter wird den Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
    * DSP-Kunden: Der [JavaScript](javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
-      * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum `s_kwcid`-Support unter `ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking] Datenweiterleitungs-Makros zum Tracking der [- und &#x200B;](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) verwenden.
+      * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum `s_kwcid`-Support unter `ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking] Datenweiterleitungs-Makros zum Tracking der [- und ](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) verwenden.
 
       * Fügen Sie für [!DNL Google Campaign Manager 360]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) ein.
 
@@ -152,7 +153,7 @@ Für Reporting- oder Auditing-Vorgänge innerhalb von [!DNL Analytics] ist die B
 
 ## Über Analytics-Klassifizierungen
 
-[!DNL Analytics] ist eine [Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Adobe Advertising-Rohdaten mithilfe von Klassifizierungen, sodass Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagne). Klassifizierungen bilden die Grundlage des Adobe Advertising-Reportings in [!DNL Analytics] und können mit den AMO-Metriken wie [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] und [!UICONTROL AMO Clicks] sowie mit benutzerdefinierten und standardmäßigen Onsite-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] und [!UICONTROL Revenue] verwendet werden.
+[!DNL Analytics] ist eine [Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Adobe Advertising-Rohdaten mithilfe von Klassifizierungen, sodass Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagne). Klassifizierungen bilden die Grundlage des Adobe Advertising-Reportings in [!DNL Analytics] und können mit den AMO-Metriken wie [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] und [!UICONTROL AMO Clicks] sowie mit benutzerdefinierten und standardmäßigen Onsite-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] und [!UICONTROL Revenue] verwendet werden.
 
 >[!MORELIKETHIS]
 >
