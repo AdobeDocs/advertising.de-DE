@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] Abschlusseinstellungen'
 description: Erfahren Sie mehr über die verfügbaren Einstellungen für [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
+source-git-commit: 1af0dd2cdcfdf7f63f4ad9be5bec445d5fd78687
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Neue [!UICONTROL Simple Ad Serving] Angebote
 
-### [!UICONTROL Select ad source]
+### [!UICONTROL Ad Source]
 
 | Parameter | Beschreibung |
 |-----------|-------------|
@@ -28,15 +28,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select ad(s)]
+### [!UICONTROL Select/Upload Creative]
 
-(Wenn Sie vorhandene Anzeigen verwenden) Die Anzeigen, die in das Angebot aufgenommen werden sollen. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Anzeige.
+* Wenn Sie vorhandene Anzeigen verwenden, aktivieren Sie das Kontrollkästchen neben jeder Anzeige, die in das Angebot aufgenommen werden soll.
 
-### [!UICONTROL Select & upload [Media Type]]
+* Wenn Sie neue Anzeigen erstellen, verwenden Sie die Bildschirme, um eine neue [Drittanbieteranzeige“ ](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-(Nur neue Anzeigen) Screens zum Erstellen einer neuen [Drittanbieteranzeige](/help/dsp/campaign-management/ads/ad-create-multiple.md).
-
-### [!UICONTROL Feed details]
+### [!UICONTROL Feed Details]
 
 | Parameter | Beschreibung |
 |-----------|-------------|
