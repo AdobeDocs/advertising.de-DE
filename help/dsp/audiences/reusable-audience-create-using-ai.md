@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *Beta-Funktion*
 
 *Support nur für Englisch*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
       Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
-      Wenn der Zielgruppen-Agent relevante Segmente findet, erstellt er einen Zielgruppen-Ausdruck basierend auf Ihren Kriterien. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird.
+      Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird.
 
       Sie können optional die Anfrage ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
 
    1. Wenn der Zielgruppenagent einen Zielgruppenausdruck präsentiert, der Ihre Zielgruppe angemessen beschreibt, weisen Sie den Zielgruppenagenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
 
-      Sie können „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort eingeben.
+      Sie können „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort eingeben. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Erweitern Sie eine Eigenschaft, um Details zu den einzelnen Segmenten anzuzeigen, die für diese Eigenschaft vorgeschlagen werden.
 
    1. Geben Sie bei Bedarf zusätzliche Kriterien an. Wenn der Zielgruppen-Agent einen Zielgruppen-Ausdruck präsentiert, der all Ihre Kriterien erfüllt, weisen Sie den Zielgruppen-Agenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
 
-      Geben Sie zum Zusammenstellen der Zielgruppe „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort ein.
+      Geben Sie zum Zusammenstellen der Zielgruppe „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort ein. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Erweitern Sie eine Eigenschaft, um Details zu den einzelnen Segmenten anzuzeigen, die für diese Eigenschaft vorgeschlagen werden.
 
 1. Wenn Sie mit der zusammengestellten Zielgruppe zufrieden sind, klicken Sie auf **[!UICONTROL Create]** , um die angegebene Zielgruppe zu erstellen.
 
