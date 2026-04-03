@@ -3,9 +3,12 @@ title: Angebotsfähige Schlüsselwörter verwalten
 description: Erfahren Sie, wie Sie angebotfähige Keywords für Suchanzeigen-Gruppen erstellen und verwalten.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
 
-Sie können Keywords für Suchanzeigengruppen in „Unterstützte Kampagnentypen[&#x200B; erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die die Suche und Anzeige/native Netzwerke in einem [synchronisierten Anzeigennetzwerkkonto“ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Sie können Keywords für Suchanzeigengruppen in „Unterstützte Kampagnentypen[ erstellen und bearbeiten](/help/search-social-commerce/introduction/supported-inventory.md) die die Suche und Anzeige/native Netzwerke in einem [synchronisierten Anzeigennetzwerkkonto“ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## Schlüsselwörter erstellen
 

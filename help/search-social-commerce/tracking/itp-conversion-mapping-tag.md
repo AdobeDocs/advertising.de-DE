@@ -1,22 +1,25 @@
 ---
 title: Das Adobe Advertising-Konversionszuordnungs-Tag
-description: Erfahren Sie mehr über das JavaScript-basierte Konversionszuordnungs-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer Seite auftritt, die nicht die Landingpage ist.
+description: Erfahren Sie mehr über das JavaScript-basierte Konversionszuordnungs-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer anderen Seite als der Landingpage auftritt.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# Das Adobe Advertising JavaScript Conversion Mapping Tag
+# Das Adobe Advertising JavaScript-Konversionszuordnungs-Tag
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
 
 Wenn das Adobe Advertising JavaScript-basierte Konversionszuordnungs-Tag zusätzlich zum Adobe Advertising JavaScript v2- oder v3-Konversionsverfolgungs-Tag verwendet wird, kann Adobe Advertising ein Konversionsereignis verfolgen, das auf einer Seite auftritt, die nicht die Landingpage ist. Die ITP 2.2-Lösung speichert das Cookie eines Benutzers lokal in einem iFrame, der dem Werbetreibenden gehört. Der lokale Speicher kann dann den Cookie-Wert vom Klick stromabwärts zur Konversionsseite beibehalten.
 
-Verwenden Sie das Tag für die Konversionszuordnung , um sicherzustellen, dass Adobe Advertising alle Konvertierungen verfolgen kann, die in Apple Safari- und Mozilla Firefox-Browsern auftreten, welche die Persistenz von Erstanbieter-Cookies einschränken. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Verwenden Sie das Tag für die Konversionszuordnung , um sicherzustellen, dass Adobe Advertising alle Konversionen verfolgen kann, die in Apple Safari- und Mozilla Firefox-Browsern auftreten, wodurch die Persistenz von Erstanbieter-Cookies beschränkt wird. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 So verwenden Sie das Konversionszuordnungs-Tag:
 
@@ -79,7 +82,7 @@ So verwenden Sie das Konversionszuordnungs-Tag:
 
       * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
-Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, wenden Sie sich an Ihr Adobe-Account-Team.
+Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
 
 ### Beispiele
 
@@ -98,7 +101,7 @@ window.ad_cloud.userid = "99999"
 
 ### Hinzufügen des Tags
 
-Fügen Sie das Tag auf jeder Seite hinzu, die eine Landingpage aus einem Suchklick sein könnte (idealerweise auf allen Seiten, da sich die Landingpages im Laufe der Zeit ändern können). Es muss vor dem Konversionsverfolgungstag von Adobe Advertising JavaScript v3 geladen werden.
+Fügen Sie das Tag auf jeder Seite hinzu, die eine Landingpage aus einem Suchklick sein könnte (idealerweise auf allen Seiten, da sich die Landingpages im Laufe der Zeit ändern können). Sie muss vor dem Konversionsverfolgungstag von Adobe Advertising JavaScript v3 geladen werden.
 
 Wenn es in einem iframe- oder Container-Tag platziert ist, dann:
 

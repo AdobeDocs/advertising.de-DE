@@ -3,9 +3,13 @@ title: Verwalten von kreativen Bundles
 description: Erfahren Sie, wie Sie Kreativgruppen verwalten und verwenden.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: 1587
 ht-degree: 0%
 
 ---
@@ -234,7 +238,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 
-   1. Klicken ![&#x200B; oben rechts in &#x200B;](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
@@ -295,7 +299,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Bundles löschen
 
-Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [&#x200B; Sie das Bundle aus der Entscheidungsstruktur &#x200B;](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

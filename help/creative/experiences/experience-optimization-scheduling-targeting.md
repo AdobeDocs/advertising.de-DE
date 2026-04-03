@@ -3,9 +3,14 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Erfahren Sie, wie Sie die Optimierung und Anzeigenplanung für zielgerichtete Erlebnisse konfigurieren.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/gDBTQn7F0ZNeiEylTDA9HNgDockR6FHE3MSvr0bJaDM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: 1190
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ Standardmäßig wird die kreative Rotation für ein Erlebnis algorithmisch besti
 
 Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kreative Optimierung für alle zugewiesenen Kreativen.
 
-1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -42,7 +47,7 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
    * *[!UICONTROL Algorithmic]:* Zeigt die effektivsten Anzeigenvarianten häufiger an, basierend auf einem bestimmten Ziel.
 
-      * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
+      * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
    * *[!UICONTROL Sequencing]:* Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge an (wobei Bundle 1 zuerst bereitgestellt wird, Bundle 2 als zweites bereitgestellt wird usw.), mit einer angegebenen Gesamtanzahl von Impressions für jede Bundle-Sequenz. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Sie können das endgültige Bundle in der Sequenz so konfigurieren, dass a\) auf unbestimmte Zeit angezeigt wird (Standard) oder b\) zum ersten Bundle zurückkehrt. Sie können beispielsweise jede der Anzeigenvarianten in Bundle 1 für drei (3) Impressionen anzeigen, dann jede Anzeigenvariante in Bundle 2 für eine (1) Impression anzeigen, dann jede der Anzeigenvarianten in Bundle 3 für zwei (2) Impressionen anzeigen und dann die Schleife erneut starten. Alternativ können Sie, sobald die Anzeigenvarianten in Bundle 3 angezeigt werden, die Anzeigenvarianten in Bundle 3 weiterhin unbegrenzt anzeigen, anstatt eine Schleife zu erstellen. Beim Aktivieren der Sequenzierung:
 
@@ -62,7 +67,7 @@ Sie können optional die Ausführung bestimmter Kreativ-Bundles während bestimm
 
 Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebnisses planen.
 
-1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -86,7 +91,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
 
-         * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
+         * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
       * *[!UICONTROL Sequencing]:* Dreht die zugehörigen kreativen Bundles in einer bestimmten Reihenfolge (wobei Bundle 1 zuerst bereitgestellt wird, Bundle 2 erst bereitgestellt wird usw.) mit einer bestimmten Gesamtzahl von Impressions für jede Bundle-Sequenz. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Sie können das endgültige Bundle in der Sequenz so konfigurieren, dass a\) auf unbestimmte Zeit angezeigt wird (Standard) oder b\) zum ersten Bundle zurückkehrt. Sie können beispielsweise eines der Kreativen in Bundle 1 für drei (3) Impressions anzeigen, dann ein Kreatives in Bundle 2 für eine (1) Impression anzeigen, dann eines der Kreativen in Bundle 3 für zwei (2) Impressionen anzeigen und dann die Schleife erneut starten. Alternativ können Sie, sobald die Kreativen in Bundle 3 angezeigt werden, die Kreativen in Bundle 3 weiterhin auf unbestimmte Zeit anzeigen, anstatt eine Schleife zu erstellen. Beim Aktivieren der Sequenzierung:
 
@@ -112,7 +117,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
 
-         * Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
+         * Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
       * *[!UICONTROL Sequencing]:* Dreht die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge mit einer angegebenen Gesamtzahl von Impressionen über jede Bundle-Sequenz hinweg. Beim Aktivieren der Sequenzierung:
 

@@ -3,16 +3,19 @@ title: Herunterladen/Erstellen einer Bulksheet-Datei
 description: Erfahren Sie, wie Sie Bulksheet-Dateien erstellen, indem Sie Kontodaten für Ihre Werbenetzwerke herunterladen.
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: 1759
 ht-degree: 0%
 
 ---
 
 # Herunterladen/Erstellen einer Bulksheet-Datei
 
-Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([&#x200B; Werbenetzwerken) &#x200B;](bulksheet-about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
+Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([ Werbenetzwerken) ](bulksheet-about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
 
 Bei synchronisierten Kampagnen können Sie optional vor dem Herunterladen der Daten mit dem Werbenetzwerk synchronisieren, um sicherzustellen, dass aktuelle Datenänderungen auf der Werbenetzwerk-Seite enthalten sind. Für alle Werbenetzwerke können Sie optional neue Klick-Tracking-URLs generieren, die in die Datei aufgenommen werden sollen.
 

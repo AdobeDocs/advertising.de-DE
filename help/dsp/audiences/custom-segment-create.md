@@ -3,9 +3,15 @@ title: Erstellen und Implementieren eines benutzerdefinierten Segments
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Segment erstellen und implementieren, um Benutzer zu verfolgen, die Anzeigen oder Benutzern ausgesetzt sind, die Ihre Web-Seiten besuchen.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 694
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
       </script>
       ```
 
-      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version &#x200B;](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
+      Siehe &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; und &quot;[Format von JavaScript-Konversionsverfolgungstags Version ](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; für das vollständige Tag-Format.
 
    1. Verwenden Sie ein beliebiges Browser-Debugging-Tool, um zu überprüfen, ob jeder Aufruf an die Domain-`lasteventf-tm.everesttech.net` initiiert wird und den Parameter `_les_id5` mit einer verschlüsselten ID5-ID als Wert enthält.
 
@@ -107,7 +113,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
          1. Kopieren Sie das Impression-Tracking-Tag mit der Bezeichnung &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Fügen Sie das Tag entweder der Registerkarte [!UICONTROL Pixel] für jede relevante Anzeige oder dem Abschnitt [!UICONTROL Event Pixels] der [[!UICONTROL Tracking] für jede relevante Platzierung ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Sobald ein Tracking-Tag implementiert ist, können Sie das Segment in den Zielgruppen-Zielen oder -Ausschlüssen für jede Platzierung verwenden.
 

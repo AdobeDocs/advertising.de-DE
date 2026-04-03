@@ -3,9 +3,12 @@ title: Bearbeiten der von Feeds generierten Daten
 description: Erfahren Sie, wie Sie Daten bearbeiten, die aus Inventardaten-Feeds generiert wurden.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ Wenn Sie Feed-Daten übertragen, ohne sie gleichzeitig im Anzeigennetzwerk zu po
 
 * Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, können Sie die generierte Bulksheet-Datei (mit dem Namen &quot;`<feed file name>_<template name>`„) bearbeiten, indem Sie sie aus der [!UICONTROL Bulksheets]-Ansicht herunterladen, die Datei bearbeiten und erneut hochladen. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten.
 
-* Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem [[!UICONTROL New] Status &#x200B;](propagated-data-status.md) einer Kampagnenhierarchieansicht von den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] aus bearbeiten.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, können Sie die generierten Daten für Komponenten mit dem [[!UICONTROL New] Status ](propagated-data-status.md) einer Kampagnenhierarchieansicht von den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] aus bearbeiten.
 
   Die Kampagnenhierarchieansichten zeigen nur die aus der Feed-Datei generierten Daten an, nicht die vorhandenen Kontokomponenten. Nachdem Daten für eine Komponente und alle zugehörigen Unterkomponenten an das Werbenetzwerk gesendet wurden, werden sie nicht mehr in der Kampagnenhierarchie aufgeführt.
 
@@ -45,7 +48,7 @@ Wenn Sie Feed-Daten übertragen, ohne sie gleichzeitig im Anzeigennetzwerk zu po
 
       * Um alle Anzeigengruppen in einer Anzeigengruppe aufzulisten, klicken Sie auf den Namen der Anzeigengruppe und anschließend auf die Registerkarte [!UICONTROL Ads] .
 
-   1. Klicken Sie [&#x200B; Symbol „Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Symbol „Einstellungen anzeigen/bearbeiten“") neben der Kampagne, der Anzeigengruppe, dem Keyword oder dem Anzeigenamen.
+   1. Klicken Sie [ Symbol „Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Symbol „Einstellungen anzeigen/bearbeiten“") neben der Kampagne, der Anzeigengruppe, dem Keyword oder dem Anzeigenamen.
 
    1. Bearbeiten Sie die Einstellungen und klicken Sie dann auf **[!UICONTROL Save]**.
 

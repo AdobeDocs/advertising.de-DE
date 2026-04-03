@@ -4,9 +4,15 @@ description: Erfahren Sie, wie Sie eine Datenquelle über eine  [!DNL Google Ana
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ Sie können für jede Kombination aus Konto, Eigenschaft und Ansicht eine [!DNL 
 
 Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine einzelne Eigenschaft zu integrieren, richten Sie für jede Eigenschaft eine separate Datenquelle ein.
 
-1. [Führen Sie alle Voraussetzungen für die Integration des  [!DNL Google Analytics] -Kontos &#x200B;](data-source-prerequisites.md).
+1. [Führen Sie alle Voraussetzungen für die Integration des  [!DNL Google Analytics] -Kontos ](data-source-prerequisites.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -29,7 +35,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
    Einige Voraussetzungen wurden möglicherweise von anderen Rollen in Ihrer Organisation erfüllt. Wenden Sie sich bei Fragen zu den Voraussetzungen an Ihr Adobe-Account-Team.
 
-1. Geben Sie die [Datenquelleneinstellungen“ &#x200B;](data-source-settings.md):
+1. Geben Sie die [Datenquelleneinstellungen“ ](data-source-settings.md):
 
    1. Gehen Sie im Abschnitt **[!UICONTROL Connect to [!DNL Google Analytics]]** wie folgt vor.
 
@@ -63,9 +69,9 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Post]**.
 
-   Die Datenquelle heißt „AccountName > PropertyName > ViewName“ und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter &quot;[&#x200B; eines Feeds aus einer Data Source](data-source-pause.md).
+   Die Datenquelle heißt „AccountName > PropertyName > ViewName“ und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter &quot;[ eines Feeds aus einer Data Source](data-source-pause.md).
 
-   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie unter [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) sichtbar. Jede neue Konversionsmetrik trägt den Namen &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, wobei „backEndMetricName“ der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Konversionsmetrik lautet &quot;`friendlyMetricName_ga:MetricTag`&quot;, wobei „friendlyMetricName“ der Metrikname ist, der in [!DNL Google Analytics] angezeigt wird, und „MetricTag“ der in den Datenquelleneinstellungen definierte [!UICONTROL Metric Tag] ist.
+   Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05 :00 in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie unter [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) sichtbar. Jede neue Konversionsmetrik trägt den Namen &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, wobei „backEndMetricName“ der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Konversionsmetrik lautet &quot;`friendlyMetricName_ga:MetricTag`&quot;, wobei „friendlyMetricName“ der Metrikname ist, der in [!DNL Google Analytics] angezeigt wird, und „MetricTag“ der in den Datenquelleneinstellungen definierte [!UICONTROL Metric Tag] ist.
 
    Sie können die Metriken direkt zu Kampagnen- und Portfolioverwaltungsansichten, Berichten und Optimierungszielen hinzufügen.
 

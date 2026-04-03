@@ -3,9 +3,12 @@ title: Format der Tracking-Tags für die Bildkonvertierung
 description: Referenzieren Sie das Format der Bildkonvertierungs-Tracking-Tags.
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -32,14 +35,14 @@ Dabei gilt:
 
 * `<transid>` ist eine eindeutige Transaktions-ID (z. B. eine tatsächliche Auftrags-ID), die der Advertiser generiert und übergibt, um eine Transaktion zu identifizieren. Sie ist nur enthalten, wenn die Option &quot;[!UICONTROL Include unique transaction IDs]&quot; ausgewählt ist.
 
-  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu eliminieren. Die Transaktions-ID ist im [!UICONTROL Transaction Report] enthalten, mit dem Sie Daten auf dem Adobe Advertising mit den Daten des Werbetreibenden validieren können. **Hinweis:** Wenn die Daten des Werbetreibenden keine eindeutige ID pro Transaktion enthalten, generiert Search, Social und Commerce weiterhin eine ID basierend auf der Transaktionszeit.
+  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu eliminieren. Die Transaktions-ID ist in der [!UICONTROL Transaction Report] enthalten, mit der Sie Daten in Adobe Advertising mit den Daten des Advertisers validieren können. **Hinweis:** Wenn die Daten des Werbetreibenden keine eindeutige ID pro Transaktion enthalten, generiert Search, Social und Commerce weiterhin eine ID basierend auf der Transaktionszeit.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [Über Adobe Advertising-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Erzeugen eines Adobe Advertising-Konvertierungs-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Über Konversionsverfolgungstags in Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format von JavaScript-Konversionsverfolgungstags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format von JavaScript-Konversionsverfolgungstags Version 3](format-conversion-tag-jsv3.md)

@@ -3,9 +3,12 @@ title: Replizieren  [!DNL Google Ads]  Kampagnen in [!DNL Microsoft Advertising]
 description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem - [!DNL Google Ads]  direkt in ein synchronisiertes - [!DNL Microsoft Advertising]  exportieren.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 942
 ht-degree: 0%
 
 ---
@@ -82,7 +85,7 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
      Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+   * Klicken Sie auf der [[!UICONTROL Import Logs] ](#campaign-import-log) auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 

@@ -3,9 +3,15 @@ title: Benutzerdefinierte Berichtseinstellungen
 description: Siehe Beschreibungen der benutzerdefinierten Berichtseinstellungen.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -44,7 +50,7 @@ In diesem Abschnitt werden die Daten festgelegt, an denen der Bericht ausgeführ
   >
   >Sie können auch [einen benutzerdefinierten Bericht jederzeit ausführen](report-run-now.md) über die [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum (bis 09) :00 der Zeitzone des Kontos aus.
+* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum bis zum 9. :00 in der Zeitzone des Kontos aus.
 
 * *[!UICONTROL Recurring]:* Führt den Bericht nach einem Zeitplan für einen bestimmten Zeitraum aus.
 
@@ -106,7 +112,7 @@ Gehen Sie wie folgt vor, um einen oder mehrere Filter anzuwenden:
 
 * [!UICONTROL Custom Goals] (sortiert nach Advertiser)
 
-Beschreibungen [&#x200B; Optionen finden Sie unter &quot;](report-columns.md) Berichtsspalten“.
+Beschreibungen [ Optionen finden Sie unter &quot;](report-columns.md) Berichtsspalten“.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Die Reihenfolge der Spaltenüberschriften. Sie können eine beliebige Spalte per Drag-and-Drop verschieben, um die Reihenfolge anzupassen.
 
@@ -184,7 +190,7 @@ Siehe auch [Wie Attributionsregeln für Adobe Advertising berechnet werden](/hel
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 

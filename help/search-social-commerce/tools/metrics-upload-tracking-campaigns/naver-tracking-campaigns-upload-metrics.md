@@ -3,9 +3,13 @@ title: Hochladen von Traffic- und Konversionsmetriken  [!DNL Naver]  Nur-Trackin
 description: Erfahren Sie, wie Sie Traffic- und Konversionsmetriken für das Tracking und Reporting nur für  [!DNL Naver]  hochladen.
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 *Nur Naver-Konten*
 
-Sie können eine TSV-, CSV- oder TXT-Datei mit täglich aggregierten Traffic-Metriken und Konversionsmetriken zum Tracking und Reporting nur für Ihre Werbenetzwerkkonten hochladen. Die Daten müssen einem &quot;[&#x200B; Format“ &#x200B;](naver-tracking-campaigns-data-requirements.md). Wenn die Datei Daten für Entitäten enthält, die nicht in Search, Social und Commerce vorhanden sind, werden diese Zeilen übersprungen.
+Sie können eine TSV-, CSV- oder TXT-Datei mit täglich aggregierten Traffic-Metriken und Konversionsmetriken zum Tracking und Reporting nur für Ihre Werbenetzwerkkonten hochladen. Die Daten müssen einem &quot;[ Format“ ](naver-tracking-campaigns-data-requirements.md). Wenn die Datei Daten für Entitäten enthält, die nicht in Search, Social und Commerce vorhanden sind, werden diese Zeilen übersprungen.
 
 Search, Social und Commerce synchronisieren keine Daten mit dem Anzeigennetzwerk und geben keine Gebote für das Konto ab.
 

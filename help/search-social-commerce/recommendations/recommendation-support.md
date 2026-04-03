@@ -3,9 +3,13 @@ title: Über die Unterstützung von Publisher-Empfehlungen und -Einblicken
 description: Erfahren Sie mehr über die Unterstützung zum Anzeigen und Verwalten von Publisher-Empfehlungen und -Einblicken.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
+TQID: https://experienceleague.adobe.com/Ual5eWu0z8jyBAPFOkJw1nUuYnOadW-FqezsD4rXySE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 734
 ht-degree: 0%
 
 ---
@@ -28,7 +32,7 @@ Innerhalb von [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Pu
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
-  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![&#x200B; unten links auf &#x200B;](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
+  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![ unten links auf ](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
 
 * [!DNL Microsoft Advertising] Konten finden Sie in jedem in den letzten 30 Tagen generierten Performance insight für ein [!DNL Microsoft Advertising] Konto auf einen Blick. Insights bietet ähnliche Informationen wie Recommendations, jedoch in einem anderen Format. Jede insight enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des [!DNL Microsoft Advertising]-Editors, von dem aus Sie auf die spezifische insight reagieren können.
 
@@ -44,7 +48,7 @@ Innerhalb von [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Pu
 
 | Empfehlungskategorie | Empfehlungstyp | Beschreibung |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] (wird in [!DNL Google Ads] jetzt als &quot;[!DNL Ads and assets]&quot; bezeichnet) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
+| [!UICONTROL Ads and extensions] (wird in [!DNL Ads and assets] jetzt als &quot;[!DNL Google Ads]&quot; bezeichnet) | [!UICONTROL Call extension] | Hinzufügen von Aufruferweiterungen zu einer Kampagne |
 | | [!UICONTROL Callout extension] | Hinzufügen von Callout-Erweiterungen zu einer Kampagne |
 |  | [!UICONTROL Improve demand gen ad strength] | Vorschläge zur Verbesserung der Anzeigenstärke für eine Bedarfsanzeige |
 | | [!UICONTROL Optimize ad rotation] | Verwenden optimierter Anzeigenrotationen |

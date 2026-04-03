@@ -3,9 +3,14 @@ title: Grundlagen von [!DNL Marketing Channels]
 description: Wichtige Informationen zu  [!DNL Analytics Marketing Channels] , die  [!DNL Analytics for Advertising]  verstehen sollten.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
+TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: 542
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden wichtige Informationen zu [!DNL Analytics Marketing Channels] erläutert, die [!DNL Analytics for Advertising] Benutzer verstehen müssen.
 
-Eine vollständige Dokumentation zu [!DNL Marketing Channels] finden Sie unter [Erste Schritte mit [!DNL Marketing Channels]](https://experienceleague.adobe.com/de/docs/analytics/components/marketing-channels/c-getting-started-mchannel).
+Eine vollständige Dokumentation zu [!DNL Marketing Channels] finden Sie unter [Erste Schritte mit [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel).
 
 ## Übersicht über [!DNL Marketing Channels]
 
@@ -43,5 +48,5 @@ Informationen dazu, wie Adobe Advertising zu den Signalen beitragen kann, die zu
 >* [Verwenden von Adobe Advertising-IDs zum Erstellen  [!DNL Marketing Channels]  Verarbeitungsregeln](mc-ids.md)
 >* [Warum Kanaldaten zwischen Adobe Advertising und variieren können [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Verwenden [!DNL Analytics Marketing Channels] mit Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden von  [!DNL Marketing Channels]  für Berichte in Adobe Advertising](https://experienceleague.adobe.com/de/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [Video: Verwenden von  [!DNL Marketing Channels]  für Berichte in Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

@@ -3,9 +3,12 @@ title: Implementieren  [!DNL Google Ads]  dynamischen Suchanzeigen
 description: Erfahren Sie mehr über den Workflow zum Einrichten  [!DNL Google Ads]  dynamischen Suchanzeigen.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 0%
 
 ---
@@ -32,7 +35,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
       >
       >Ihre Domain muss vom [!DNL Google Ads] organischen Suchindex indiziert sein, damit sie als Ziel ausgewählt werden kann. Wenn die Domain Seiten in mehreren Sprachen enthält und Sie alle ansprechen möchten, erstellen Sie für jede Sprache eine separate Kampagne.
 
-      Wenn Sie Ihre Website-Domain nicht zum Targeting Ihrer Anzeigen verwenden, erstellen Sie für jede Anzeigengruppe dynamische Suchziele (siehe Schritt 4). Sie können die Ziele ([) &#x200B;](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) mithilfe von [Bulk Sheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) erstellen.
+      Wenn Sie Ihre Website-Domain nicht zum Targeting Ihrer Anzeigen verwenden, erstellen Sie für jede Anzeigengruppe dynamische Suchziele (siehe Schritt 4). Sie können die Ziele ([) ](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) mithilfe von [Bulk Sheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) erstellen.
 
    1. Stellen Sie sicher, dass die Kampagne auf den Suchkanal und nur auf das [!DNL Google Ads] Suchnetzwerk (nicht auf das Anzeigennetzwerk) ausgerichtet ist. Diese Einstellungen sind auf der Registerkarte [!UICONTROL Networks and Devices] verfügbar.
 
@@ -63,4 +66,4 @@ Wenn Sie ein Adobe Analytics-Tracking auf höheren Ebenen mit einem Tracking auf
 
    Die Ziele definieren, ob das Anzeigennetzwerk alle oder eine Teilmenge der Seiten auf Ihrer Website verwendet, um Ihre dynamischen Suchanzeigen gezielt anzusprechen. Um die Leistung optimal zu verfolgen, konfigurieren Sie Ihre Kampagne mit einer Anzeigengruppe pro dynamischem Suchziel und schließen Sie eine Anzeigengruppe ein, die alle Kriterien berücksichtigt.
 
-1. Bearbeiten Sie bei [&#x200B; die Kampagneneinstellungen, &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) das Kampagnenbudget anzupassen und den Traffic zu verfeinern, indem Sie zusätzliche Keywords aus der Kampagne ausschließen.
+1. Bearbeiten Sie bei [ die Kampagneneinstellungen, ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) das Kampagnenbudget anzupassen und den Traffic zu verfeinern, indem Sie zusätzliche Keywords aus der Kampagne ausschließen.

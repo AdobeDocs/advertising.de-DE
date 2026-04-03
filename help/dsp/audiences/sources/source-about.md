@@ -3,9 +3,15 @@ title: Über First-Party-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzerkennung in Erstanbietersegmenten in universelle IDs für das Cookie-lose Targeting konvertieren können.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -75,9 +81,9 @@ DSP kann auch mithilfe von Batch-, Streaming- oder API-basierter Datenfreigabe e
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP ist ein integriertes *Ziel* für [die [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de), das Teil von Adobe Experience Platform ist.
+DSP ist ein integriertes *Ziel* für [die [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), das Teil von Adobe Experience Platform ist.
 
-In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Sie können Ziele verwenden, um Ihre gehashten E-Mail-Adressen, Cookies und Mobile-Advertising-IDs für zielgruppengerechte Werbung in DSP zu aktivieren. Weitere Informationen zu Zielen finden Sie im Experience Platform [Handbuch zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de), einschließlich einer Übersicht über das Produkt, Anweisungen zum [Erstellen von Ziel-](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=de) und [Erstellen von &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=de) und [Aktivieren von Daten für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=de).
+In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, die eine nahtlose Datenaktivierung ermöglichen. Sie können Ziele verwenden, um Ihre gehashten E-Mail-Adressen, Cookies und Mobile-Advertising-IDs für zielgruppengerechte Werbung in DSP zu aktivieren. Weitere Informationen zu Zielen finden Sie im Experience Platform [Handbuch zu Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), einschließlich einer Übersicht über das Produkt, Anweisungen zum [Erstellen von Ziel-](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) und [Erstellen von ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) und [Aktivieren von Daten für Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Informationen dazu, wie DSP Ihre [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente aufnehmen und Ihre Hash-E-Mail-Adressen, Cookies und Mobile-Advertising-IDs in universelle IDs konvertieren kann, finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Adobe Real-Time CDP]  universelle IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md).
 

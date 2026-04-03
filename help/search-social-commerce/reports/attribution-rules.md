@@ -3,9 +3,15 @@ title: Wie Attributionsregeln berechnet werden
 description: Erfahren Sie, wie Adobe Advertising die einzelnen Attributionsregeltypen berechnet.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
+TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2707'
+source-wordcount: 2707
 ht-degree: 0%
 
 ---
@@ -41,9 +47,9 @@ Sie können an den folgenden Stellen auch eine Attributionsregel auswählen, um 
 
 ## Letztes Ereignis (Standard)
 
-ordnet die Konversion dem letzten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#c-d), falls keine bezahlten Klicks aufgetreten sind, der letzten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#i-j).
+ordnet die Konversion dem letzten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#c-d), falls keine bezahlten Klicks aufgetreten sind, der letzten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#i-j).
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 ![Prozentsatz der Attribution des letzten Ereignisses](/help/search-social-commerce/assets/attribution-percent-last-event.png "Prozentsatz der Attribution des letzten Ereignisses")
 
@@ -83,9 +89,9 @@ Die Konversion wird Impression 3 zugeordnet. Da es sich bei der Konversion um ei
 
 ## Erstes Ereignis
 
-ordnet die Konversion dem ersten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#c-d), oder, falls keine bezahlten Klicks aufgetreten sind, der ersten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden zu](/help/search-social-commerce/glossary.md#i-j). Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
+ordnet die Konversion dem ersten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#c-d), oder, falls keine bezahlten Klicks aufgetreten sind, der ersten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden zu](/help/search-social-commerce/glossary.md#i-j). Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 ![Prozentsätze der ersten Ereigniszuordnung](/help/search-social-commerce/assets/attribution-percent-first-event.png "Prozentsätze der ersten Ereigniszuordnung")
 
@@ -128,7 +134,7 @@ Der Abschnitt „Attribution“ der Berichteinstellungen wird angewendet:
 
 ordnet die Konversion allen Ereignissen der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Advertisers aufgetreten sind, gewichtet jedoch das erste Ereignis am meisten und die folgenden Ereignisse wurden weniger gewichtet. Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -188,9 +194,9 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 >
 >Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Attributiert die Konversion zu gleichen Teilen jedem Ereignis in der Reihe, das innerhalb des (Klick[Lookback-Fensters und &#x200B;](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback-Fensters[&#x200B; des Werbetreibenden aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j).
+Attributiert die Konversion zu gleichen Teilen jedem Ereignis in der Reihe, das innerhalb des (Klick[Lookback-Fensters und ](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback-Fensters[ des Werbetreibenden aufgetreten ](/help/search-social-commerce/glossary.md#i-j).
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -250,7 +256,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Werbetreibenden stattfanden, gewichtet jedoch am häufigsten das letzte Ereignis und hat nacheinander weniger Gewicht auf die vorherigen Ereignisse.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -308,7 +314,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Advertisers aufgetreten sind, gewichtet jedoch am meisten das erste und das letzte Ereignis, wobei den Ereignissen in der Mitte des Konversionspfads sukzessive weniger Gewicht zugewiesen wird.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 

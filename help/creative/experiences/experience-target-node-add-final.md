@@ -3,9 +3,13 @@ title: Hinzufügen eines Zielknotens zur letzten Ebene eines Erlebnisses
 description: Erfahren Sie, wie Sie einen Zielknoten zur endgültigen Zielebene eines Anzeigenerlebnisses hinzufügen.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: 824
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
 >[!NOTE]
 >
->Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[&#x200B; eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
+>Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[ eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
 
 <!-- 1. [ways to get to the decision tree] -->
 
@@ -98,7 +102,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Optional) [Weisen Sie dem neuen &#x200B;](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
+   * (Optional) [Weisen Sie dem neuen ](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
 
    * (Optional) So speichern Sie das Erlebnis:
 

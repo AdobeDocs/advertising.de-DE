@@ -3,16 +3,20 @@ title: Konversionsverfolgung mit einem EF-ID-Feed
 description: Erfahren Sie mehr über die Verwendung eines EF ID-Feeds für Konversions-Tracking-Daten.
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---
 
 # Konversionsverfolgung mit einem EF-ID-Feed
 
-Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein(e) Benutzende(r) auf die Landingpage klickt und eine Anzeige anzeigt, einen `ef_id` Wert, und der Advertiser speichert den `ef_id` Wert mit den Konversionsdaten und sendet ihn in einem Daten-Feed.
+Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein Benutzer auf die Landingpage klickt und eine Anzeige anzeigt, einen `ef_id` Wert, und der Advertiser speichert den `ef_id` mit den Konversionsdaten und sendet ihn in einem Daten-Feed.
 
 ## Implementierungsübersicht
 
@@ -21,10 +25,10 @@ Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein(e) Benutzende(r
 1. Verwenden Sie die Konto- oder Kampagnen-Tracking-Optionen &quot;[!UICONTROL EF Redirect]&quot;, den Umleitungstyp &quot;[!UICONTROL Token]&quot; und &quot;[!UICONTROL Auto Upload]&quot;, um automatisch eine Ziel-URL oder eine endgültige URL mit einem Adobe Advertising-Token (ef_id) für jedes Keyword (für Keyword-Tracking auf Ebene) oder jede Anzeige (für Tracking auf Anzeigenebene) im Konto oder in der Kampagne zu generieren.
 
    >[!NOTE]
-   >* Bei dieser Methode muss der Advertiser keine Adobe Advertising-Konversionsverfolgungstags verwenden.
+   >* Für diese Methode muss der Advertiser keine Konversionsverfolgungstags für Adobe Advertising verwenden.
    >* Wenn Sie den Umleitungstyp für ein vorhandenes Konto oder eine vorhandene Kampagne von [!UICONTROL Standard] in [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie alle entsprechenden Tracking-URLs neu generieren.
 
-   Die ef_id wird ausgefüllt und an die Landingpage-URL angehängt, wenn der Endbenutzer auf die Anzeige klickt und zu einem Adobe Advertising-Server weitergeleitet wird. Die ef_id wird dann in der Ziel-URL oder der endgültigen URL für die Anzeige oder das Keyword an den Advertiser übergeben. Im Folgenden finden Sie ein Beispiel für eine Ziel-URL, die während der Umleitung an den Advertiser übergeben wird:
+   Die ef_id wird ausgefüllt und an die Landingpage-URL angehängt, wenn der Endbenutzer bzw. die Endbenutzerin auf die Anzeige klickt und zu einem Adobe Advertising-Server weitergeleitet wird. Die ef_id wird dann in der Ziel-URL oder der endgültigen URL für die Anzeige oder das Keyword an den Advertiser übergeben. Im Folgenden finden Sie ein Beispiel für eine Ziel-URL, die während der Umleitung an den Advertiser übergeben wird:
 
    `http://pixel.everesttech.net/1180/cq?ev_sid=3&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx=&ev_pl={placement}&url=http%3A//www.example.com&ef_id=D59Nu0u@BD0AAM1q:20110630172936:s`
 
@@ -34,9 +38,9 @@ Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein(e) Benutzende(r
 
 1. Der Werbetreibende lädt eine Datei mit den [erforderlichen Konvertierungsdaten](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) auf den angegebenen Serverspeicherort hoch.
 
-1. Der technische Dienst analysiert die Konvertierungsdaten in den hochgeladenen Dateien und lädt die Daten dann auf die Adobe Advertising hoch. Adobe Advertising verfolgt die Daten dann anhand einzelner Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
+1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in Adobe Advertising hoch. Adobe Advertising vergleicht die Daten dann mit einzelnen Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
 
-1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; &#x200B;](/help/search-social-commerce/glossary.md#o-p).
+1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; ](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

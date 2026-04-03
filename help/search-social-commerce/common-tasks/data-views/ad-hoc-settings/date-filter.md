@@ -3,9 +3,13 @@ title: Daten nach Datumsbereich filtern
 description: Erfahren Sie, wie Sie den Filter für globale Datumsbereiche verwenden.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+TQID: https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: 398
 ht-degree: 0%
 
 ---
@@ -23,8 +27,8 @@ Wenn Sie einen bestimmten Datumsbereich für eine Standardansicht oder benutzerd
 >[!NOTE]
 >
 >* Sie können Daten der vorherigen 13 Monate anzeigen, aber alle vorhandenen benutzerdefinierten Ansichten können nur Daten für bis zu den vorherigen 180 Tagen enthalten.
->* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
->* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
+>* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Ändern des globalen Datumsfilters in Kampagnenansichten
 

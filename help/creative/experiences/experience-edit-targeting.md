@@ -3,9 +3,13 @@ title: Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
 description: Erfahren Sie, wie Sie die Einstellungen für ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums bearbeiten.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 528
 ht-degree: 0%
 
 ---
@@ -66,9 +70,9 @@ ht-degree: 0%
 
            Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
-         * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
+         * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles ](experience-tracking-urls-targeting.md).
 
-         * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+         * [Passen Sie die kreative Optimierung und ](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
 
 1. (Optional) Bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
 

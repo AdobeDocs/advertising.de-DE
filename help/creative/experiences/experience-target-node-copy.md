@@ -3,9 +3,12 @@ title: Kopieren Sie untergeordnete Knoten auf derselben Ebene in einen anderen Z
 description: Erfahren Sie, wie Sie alle untergeordneten Knoten eines übergeordneten Zielknotens auf derselben Ebene in einen anderen Zielknoten kopieren
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Diese Funktion wirkt sich nicht auf das für den übergeordneten Knoten angegebe
 
    * Um alle untergeordneten Knoten und Kreativen für einen Knoten zu ersetzen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie dann entweder a\) **[!UICONTROL Replace ctrl+shift+v]** aus oder b\) geben Sie **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) oder **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
 
-   * (Knoten mit mehreren untergeordneten Zielen, ohne „Alle“-Knoten und nur ohne Kreative) Um alle untergeordneten Knoten und Kreativen zu einem Knoten hinzuzufügen, ohne die vorhandenen zu löschen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie entweder a\) **[!UICONTROL Add ctrl+v]** **&#x200B; aus oder b\) geben Sie &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) oder &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
+   * (Knoten mit mehreren untergeordneten Zielen, ohne „Alle“-Knoten und nur ohne Kreative) Um alle untergeordneten Knoten und Kreativen zu einem Knoten hinzuzufügen, ohne die vorhandenen zu löschen, klicken Sie auf den Knoten, in den Sie die kopierten Informationen einfügen möchten, klicken Sie auf **…** und wählen Sie entweder a\) **[!UICONTROL Add ctrl+v]** ** aus oder b\) geben Sie **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) oder **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) auf Ihrer Tastatur ein.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

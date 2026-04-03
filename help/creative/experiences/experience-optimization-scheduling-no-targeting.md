@@ -3,9 +3,14 @@ title: Anpassen der kreativen Optimierung und Planung für ein Erlebnis
 description: Erfahren Sie, wie Sie die Optimierung und Anzeigenplanung für Erlebnisse ohne Targeting konfigurieren.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
+TQID: https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -46,7 +51,7 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
    * *[!UICONTROL Algorithmic]:* Zeigt die effektivsten Anzeigenvarianten häufiger an, basierend auf einem bestimmten Ziel.
 
-      * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
+      * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
    * *[!UICONTROL Sequencing]:* Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge an (wobei Bundle 1 zuerst bereitgestellt wird, Bundle 2 als zweites bereitgestellt wird usw.), mit einer angegebenen Gesamtanzahl von Impressions für jede Bundle-Sequenz. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Sie können das endgültige Bundle in der Sequenz so konfigurieren, dass a\) auf unbestimmte Zeit angezeigt wird (Standard) oder b\) zum ersten Bundle zurückkehrt. Sie können beispielsweise jede der Anzeigenvarianten in Bundle 1 für drei (3) Impressionen anzeigen, dann jede Anzeigenvariante in Bundle 2 für eine (1) Impression anzeigen, dann jede der Anzeigenvarianten in Bundle 3 für zwei (2) Impressionen anzeigen und dann die Schleife erneut starten. Alternativ können Sie, sobald die Anzeigenvarianten in Bundle 3 angezeigt werden, die Anzeigenvarianten in Bundle 3 weiterhin unbegrenzt anzeigen, anstatt eine Schleife zu erstellen. Beim Aktivieren der Sequenzierung:
 

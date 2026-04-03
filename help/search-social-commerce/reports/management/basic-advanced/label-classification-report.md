@@ -3,9 +3,13 @@ title: '[!UICONTROL Label Classification Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ Sie können Daten der vorherigen 36 Monate anzeigen.
 >
 >* Das Reporting nach Kennzeichnungsklassifizierungen auf Anzeigenebene ist nicht für [!DNL Microsoft Advertising] DSA-Kampagnen (Dynamic Search Ad) verfügbar.
 >* Dieselbe Entität kann mehr als eine Kennzeichnungsklassifizierung aufweisen, sodass die Summe für jede Metrik höher sein kann als die tatsächliche Summe für die Entität. Beispiel: Ein Keyword „Wildlederschuhe“ hat zwei Label-Werte: „Wildleder“ und „Schuhe“, und das Keyword erhielt 100 Klicks. Die Spalte Klicks würde für jeden dieser Kennzeichnungswerte „100“ anzeigen, sodass die Gesamtsumme für beide Zeilen „200“ wäre.
->* Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
+* Alle Änderungen, die Sie an Beschriftungsklassifizierungen und den untergeordneten Beschriftungswerten für eine Entität vornehmen, sind in etwa einer Stunde sichtbar.
 
 ## Standardspalten
 

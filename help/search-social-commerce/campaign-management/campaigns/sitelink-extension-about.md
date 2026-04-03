@@ -3,9 +3,13 @@ title: Über Sitelink-Erweiterungen
 description: Informationen zu Sitelink-Erweiterungen.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ In der Ansicht [!UICONTROL Extensions] > [!UICONTROL Associations] können Sie a
 
 ## Leistungsdaten für Sitelinks
 
-Search, Social und Commerce ordnen die Klicks auf eine Anzeigenerweiterung und die daraus resultierende Konversion dem Keyword zu, das mit der Anzeige verbunden ist, in der die Erweiterung enthalten ist. In Search, Social und Commerce sind keine Kosten- oder Klickdaten auf der Erweiterungs-Ebene verfügbar. In [der [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) können Sie jedoch erkennen, ob eine Transaktion aus einem Sitelink resultierte (und nicht aus der Anzeige selbst), wenn der Wert in der Spalte Link-Typ als `sl:<Sitelink text>` aufgeführt ist, z. B. „sl:See Current Offers“.
+Search, Social und Commerce ordnen die Klicks auf eine Anzeigenerweiterung und die daraus resultierende Konversion dem Keyword zu, das mit der Anzeige verbunden ist, in der die Erweiterung enthalten ist. In Search, Social und Commerce sind keine Kosten- oder Klickdaten auf der Erweiterungs-Ebene verfügbar. In [der [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) können Sie jedoch erkennen, ob eine Transaktion aus einem Sitelink resultierte (und nicht aus der Anzeige selbst), wenn der Wert in der Spalte Linktyp als `sl:<Sitelink text>` aufgeführt ist, z. B. „sl:See Aktuelle Angebote“.
 
 In [!DNL Google Ads] und [!DNL Microsoft Advertising] können Sie auf der Registerkarte [!DNL Ad Extensions] Kosten- und Klickdaten anzeigen.
 

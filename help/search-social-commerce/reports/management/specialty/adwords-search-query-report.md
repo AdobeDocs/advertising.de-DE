@@ -3,9 +3,13 @@ title: '[!UICONTROL AdWords Search Query Report]'
 description: Erfahren Sie mehr über die [!UICONTROL AdWords Search Query Report].
 exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/iZ2j7QXg4-u3rfN6gzVZ7CYhgb-k03-GkwJowaaMg4E
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: 186
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ Die [!UICONTROL AdWords Search Query Report] enthält Kosten-, Klick-, Impressio
 
 >[!NOTE]
 >
->Die Daten für diesen Bericht werden für den Vortag jeden Tag um 23:00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
+>Die Daten für diesen Bericht werden für den Vortag um :00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel ruft sie am :00. Juni um 23 Uhr Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen :00 bevor Daten für den 18. Juni abgerufen werden, enthält der Bericht bis zum 17. Juni um 23::00 Daten.
 
 ## Standardspalten
 

@@ -3,16 +3,20 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Keyword Assist Report].
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 781
 ht-degree: 0%
 
 ---
 
 # Die [!UICONTROL Keyword Assist Report]
 
-*Werbetreibende mit Klick-Tracking für Search, Social und Commerce und mit Konversions-Tracking von Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics]-Integration) oder bereitgestellt in -Feeds nur mit einem Token (`ef_id`)*
+*Werbetreibende mit Klick-Tracking für Suche, Social und Commerce und mit Konversions-Tracking aus Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics]-Integration) oder bereitgestellt in -Feeds nur mit einem Token (`ef_id`)*
 
 Die [!UICONTROL Keyword Assist Report] gibt an, welche Keywords oder Platzierungen Klicks fördern. Der Bericht zeigt jedes Muster von Paid Search-Keywords oder Platzierungen, die Klicks in einem Konversionspfad erhalten haben, und zeigt an, wie dieses Muster zu Ihren Gesamtkonversionen beigetragen hat. Sie können beispielsweise sehen, wie viele Konversionen aufgetreten sind, wenn Benutzer zuerst auf eine Anzeige geklickt haben, die aus der Keyword-Suche nach „Lederschuhe“ resultiert, dann auf eine Anzeige geklickt haben, nachdem ein Keyword nach „Wildlederschuhe“ gesucht und dann eine Bestellung aufgegeben hat, oder Sie können sehen, wie viele Konversionen stattgefunden haben, nachdem Benutzer auf Anzeigen geklickt haben, die aus mehr als 10 Keywords hervorgegangen sind.
 
@@ -33,14 +37,14 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 
 | Spalte | Standard? | Beschreibung |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Keyword] zu [!UICONTROL 5th Keyword] | Standard | Die fünf frühesten Paid Search-Keywords oder Platzierungs-Klicks im Konversionspfad, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster des Werbetreibenden aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen (die keine Keywords enthalten) enthält, zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. „Ihr Anzeigengruppenname (AdGroup-Inhalt)“. |
-| [!UICONTROL Path Size] | Standard | Die Anzahl der Keywords und/oder Platzierungen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers &#x200B;](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) &#x200B;](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL 1st Keyword] zu [!UICONTROL 5th Keyword] | Standard | Die fünf frühesten Paid Search-Keywords oder Platzierungs-Klicks im Konversionspfad, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster des Werbetreibenden aufgetreten ](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen (die keine Keywords enthalten) enthält, zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. „Ihr Anzeigengruppenname (AdGroup-Inhalt)“. |
+| [!UICONTROL Path Size] | Standard | Die Anzahl der Keywords und/oder Platzierungen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers ](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Standard | Das erste Keyword oder die erste Platzierung im Konversionspfad. |
 | [!UICONTROL Last Keyword] | Standard | Das letzte Keyword oder die letzte Platzierung, die zu Konversionen geführt hat (selbst wenn das letzte Keyword außerhalb der angegebenen Pfadgröße liegt). |
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Benutzerdefiniert | Der Wert für eine von Ihnen erstellte benutzerdefinierte Metrik, die aus vorhandenen Metriken berechnet wird. |
 | \[Advertiser-spezifische Konversionsmetriken\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine bestimmte Konversionsmetrik oder Site-Interaktionsmetrik. |
 | [!UICONTROL % of Total] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe für jede eingeschlossene Konversionsmetrik enthalten) Der Prozentsatz der Gesamtkonversionen in den Portfolios, die dem Keyword und/oder dem Platzierungsmuster zugeordnet wurden. |
-| [!UICONTROL 6th Keyword] zu [!UICONTROL 10th Keyword] | Benutzerdefiniert | Das sechste bis zehnte Paid-Search-Keyword oder die Platzierungsklicks im Konversionspfad, die innerhalb des „Klick-Lookback[-Fensters &#x200B;](/help/search-social-commerce/glossary.md#c-d) Impression-Lookback-[&#x200B; des Werbetreibenden aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen (die keine Keywords enthalten) enthält, zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. „Ihr Anzeigengruppenname (AdGroup-Inhalt)“. |
+| [!UICONTROL 6th Keyword] zu [!UICONTROL 10th Keyword] | Benutzerdefiniert | Das sechste bis zehnte Paid-Search-Keyword oder die Platzierungsklicks im Konversionspfad, die innerhalb des „Klick-Lookback[-Fensters ](/help/search-social-commerce/glossary.md#c-d) Impression-Lookback-[ des Werbetreibenden aufgetreten ](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen (die keine Keywords enthalten) enthält, zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. „Ihr Anzeigengruppenname (AdGroup-Inhalt)“. |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe für jede eingeschlossene Konversionsmetrik enthalten) Die durchschnittliche Latenz in Tagen vom ersten Ereignis (beim ersten Keyword oder der ersten Platzierung) bis zu einer Konversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe enthalten) Die durchschnittliche Latenz in Tagen vom letzten Ereignis (beim letzten Keyword oder der letzten Platzierung) bis zu einer Konversion. |
 | [!UICONTROL Path Frequency] | Benutzerdefiniert | Die Häufigkeit, mit der der Pfad für diese Zeile vor der Konvertierung aufgetreten ist. |

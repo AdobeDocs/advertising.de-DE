@@ -3,9 +3,13 @@ title: Häufig gestellte Fragen zum Tracking
 description: Erfahren Sie Antworten auf häufige Fragen zum Tracking, einschließlich der Fehlerbehebung.
 exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: 1190
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 +++Kann ich Kampagnen verfolgen, die von Adobe Advertising nicht verwaltet werden?
 
-Ja. Wenn Search, Social und Commerce eines Ihrer Werbenetzwerkkonten synchronisiert, werden die Klickdaten des Werbenetzwerks für alle [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) in diesem Konto verfolgt. Es verfolgt auch Konversionsdaten, wenn Sie die Weiterleitung von Search, Social und Commerce zu Ihren Anzeigen- und/oder Keyword-Ziel-URLs oder Tracking-Vorlagen hinzugefügt und das Konversions-Tracking auf Ihren Konversionsseiten implementiert haben. Klären Sie mit Ihrem Adobe-Account-Team, welche Kampagnen Search, Social und Commerce einfach verfolgen sollen und welche Sie verwalten möchten.
+Ja. Wenn Search, Social und Commerce eines Ihrer Werbenetzwerkkonten synchronisiert, werden die Klickdaten des Werbenetzwerks für alle [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) in diesem Konto verfolgt. Es verfolgt auch Konversionsdaten, wenn Sie die Weiterleitung von Search, Social und Commerce zu Ihren Anzeigen- und/oder Keyword-Ziel-URLs oder Tracking-Vorlagen hinzugefügt und das Konversions-Tracking auf Ihren Konversionsseiten implementiert haben. Klären Sie mit Ihrem Adobe Account Team, welche Kampagnen Search, Social und Commerce einfach verfolgen sollen und welche Sie verwalten möchten.
 +++
 
 +++Wie erhalte ich die Attribution mehrerer Ereignisse?
@@ -35,7 +39,7 @@ Werbetreibende, die alle Konversionsdaten in einer Feed-Datei bereitstellen, mü
 
 Doppelte Transaktionen können auftreten, wenn ein Benutzer die Bestätigungsseite nach Abschluss einer Transaktion aktualisiert. Adobe Advertising verwendet das `ev_transid`-Attribut, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu eliminieren.
 
-Im Folgenden finden Sie eine Deduplizierungslogik für Adobe Advertising:
+Im Folgenden finden Sie die Deduplizierungslogik von Adobe Advertising:
 
 * **Wenn ein Client einen Wert für das `ev_transid`-Attribut sendet:** Nachfolgende Pixelanfragen werden als Duplikate der vorherigen betrachtet, wenn Folgendes alle gleich sind: die `ev_transid`, die Tracking-ID für dasselbe Keyword, dieselbe Anzeige oder dieselbe Platzierung und der Wert für eine bestimmte Konversionsmetrik.
 
@@ -48,7 +52,7 @@ Im Folgenden finden Sie eine Deduplizierungslogik für Adobe Advertising:
 
 ## Typen der Tracking-Implementierung
 
-+++Ich möchte den Adobe Advertising-Konversionsverfolgungs-Service für eine oder mehrere Kampagnen oder Konten nicht mehr verwenden. Wie kann ich den Trackingcode schnell aus den Tracking-URLs entfernen?
++++Ich möchte die Verwendung des Konversionsverfolgungs-Services von Adobe Advertising für eine oder mehrere Kampagnen oder Konten beenden. Wie kann ich den Trackingcode schnell aus den Tracking-URLs entfernen?
 
 Wenden Sie sich zunächst an Ihr Adobe-Account-Team, um die Auswirkungen des Entfernens von Tracking-URLs zu verstehen.
 
@@ -57,7 +61,7 @@ Wenden Sie sich zunächst an Ihr Adobe-Account-Team, um die Auswirkungen des Ent
 
 ## Datenfragen
 
-+++Wie weiß ich, welche Konversionsmetrik von einem Daten-Feed stammt oder vom Adobe Advertising-Konversions-Tracking-Tag verfolgt wird?
++++Woher weiß ich, welche Konversionsmetrik von einem Daten-Feed stammt oder vom Adobe Advertising-Konversionsverfolgungs-Tag verfolgt wird?
 
 In einem [!UICONTROL Transaction Report] können Sie erkennen, ob eine eingeschlossene Konversionsmetrik vom Adobe Advertising-Konversionsverfolgungspixel verfolgt wurde, wenn Sie die benutzerdefinierte Spalte &quot;[!UICONTROL Tracking URL]&quot; einbeziehen. Tracking-URLs mit dem Adobe Advertising-Tracking-Pixel beginnen mit `http://pixel.everesttech.net`.
 +++
@@ -66,7 +70,7 @@ In einem [!UICONTROL Transaction Report] können Sie erkennen, ob eine eingeschl
 
 Verwaiste Transaktionen sind Transaktionsereignisse, die nicht mit einem bestimmten Keyword oder einer bestimmten Anzeige verknüpft werden können. Adobe Advertising ordnet Transaktion/Umsatz einem Keyword oder einer Anzeige zu, indem die mit dem Umsatzereignis empfangenen Tracking-IDs mit der eindeutigen Tracking-ID in der Tracking-URL des Keywords oder der Anzeige abgeglichen werden.
 
-Wenn ein Adobe-Account-Team vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, sucht das Kundenunterstützungs-Team nach Waisen und untersucht das Problem, falls es welche findet.
+Wenn ein Adobe-Accountteam vermutet, dass verwaiste Transaktionen für einen Umsatzrückgang verantwortlich sind, sucht das Kundenunterstützungs-Team nach Waisen und untersucht das Problem, falls es welche findet.
 
 Waisen treten in den folgenden Situationen auf.
 
@@ -122,5 +126,5 @@ Dies sollte nicht mit Display- oder Social-Media-Anzeigen geschehen.
 
 * Wenn Sie Ihre eigenen Keywords und Anzeigen verwalten, erstellen Sie eine Bulksheet-Datei mit den richtigen URLs für die doppelten URLs und veröffentlichen Sie sie mit der Option **[!UICONTROL Generate Tracking URLs]** im entsprechenden Konto, wodurch die URLs für alle Keywords und Anzeigen neu generiert werden.
 
-* Wenn ein Adobe-Account-Team Ihre Keywords verwaltet, bitten Sie es, neue URLs für die doppelten URLs zu erstellen.
+* Wenn ein Adobe Account Team Ihre Keywords verwaltet, bitten Sie es darum, neue URLs für die doppelten URLs zu erstellen.
 +++

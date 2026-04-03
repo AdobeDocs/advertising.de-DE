@@ -3,9 +3,12 @@ title: Kreative in der Vorschau anzeigen
 description: Erfahren Sie, wie Sie eine Vorschau eines Kreativen öffnen.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional, falls verfügbar) Wenn Sie die Größe des Bildes auf dem Bildschirm ändern möchten, wählen Sie eine Option in der Liste &quot;**[!UICONTROL Zoom]**&quot; aus, die 10 % bis 100 % der Bildgröße beträgt.
 
-1. (Flexible HTML5-Kreative; optional) Um zwischen den Frames für die Kreativen zu scrollen, klicken Sie auf **\&lt;** und **\>**.
+1. (Flexible HTML5-Kreative; optional) Um zwischen den Frames für die Kreativen zu scrollen, klicken Sie auf **\„ph id=&#39;94&#39;/> und**\>**.**
 
 1. (Video-Kreative; optional) Führen Sie einen der folgenden Schritte mithilfe der Steuerelemente unter „Kreative“ aus:
 

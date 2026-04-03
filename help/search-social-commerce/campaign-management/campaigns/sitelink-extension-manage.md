@@ -3,9 +3,14 @@ title: Verwalten von freigegebenen Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ Erstellen und verwalten Sie freigegebene Sitelinks auf Kontoebene für alle sync
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 
-Nachdem Sie einen Sitelink erstellt haben, können [&#x200B; ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](sitelink-extension-associate.md).
+Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](sitelink-extension-associate.md).
 
 ## Einstellungen für freigegebene Sitelinks bearbeiten
 

@@ -3,9 +3,13 @@ title: Über Spezialberichte
 description: Erfahren Sie mehr über Spezialberichte.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 138
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken 
 
 >[!NOTE]
 >
->Bei den meisten Spezialberichten werden die Daten für den Vortag jeden Tag um 23:00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht bis zum 17. Juni um 23:00 Uhr Daten. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte sowie für die [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
+>Bei den meisten Spezialberichten werden die Daten für den Vortag jeden Tag um :00 Uhr (:00 Uhr) abgerufen. Zum Beispiel ruft sie am :00. Juni um 23 Uhr Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen :00 bevor Daten für den 18. Juni abgerufen werden, enthält der Bericht bis zum 17. Juni um 23::00 Daten. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte sowie für die [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
 
 ## Arten von Spezialberichten
 

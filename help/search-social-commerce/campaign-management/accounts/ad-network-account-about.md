@@ -3,16 +3,20 @@ title: Über Anzeigennetzwerkkonten
 description: Erfahren Sie mehr über Anzeigennetzwerkkonten in Search, Social und Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
 # Über Anzeigennetzwerkkonten
 
-*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Administratorrollen*
+*Nur Agenturkonto-Manager, Adobe-Konto-Manager und Admin-Benutzerrollen*
 
 Search, Social und Commerce können jedes Konto eines Werbetreibenden in unterstützten Werbenetzwerken verfolgen. Um das Tracking eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kontodatensatz erstellen. Sie müssen Kontodetails für jede Art von Konto einrichten, unabhängig davon, ob Search, Social und Commerce mit ihr synchronisiert wird oder Angebote und Budgets für ihre Anzeigen optimiert.
 
@@ -26,7 +30,7 @@ Um die Synchronisierung eines Kontos zu aktivieren, muss der Kontodatensatz die 
 
 Während der Synchronisierung ruft Search, Social und Commerce die Kampagnenstrukturen und unterstützten Kampagnenentitäten des Advertisers ab, einschließlich der meisten ihrer Attribute, die in Search, Social und Commerce verwaltet oder gemeldet werden. Es enthält keine Klickdaten und auch keine Gebote und Gebotsmodifikatoren, die außerhalb von Search, Social und Commerce eingegeben und separat erfasst wurden. Search, Social und Commerce synchronisiert sich automatisch einmal täglich mit Ihren Anzeigennetzwerkkonten und auch immer dann, wenn eine neue Kampagne in einem Ihrer Anzeigennetzwerke erkannt wird. Darüber hinaus sendet es sofort alle Änderungen an Kampagnendaten, die innerhalb von Search, Social und Commerce vorgenommen wurden, an das Werbenetzwerk. Sie können bei Bedarf auch eine manuelle Synchronisierung anfordern.
 
-Weitere Informationen zum Erstellen und Bearbeiten synchronisierter Kampagnen finden Sie im Kapitel zu &quot;Campaign Management&quot;.
+Weitere Informationen zum Erstellen und Bearbeiten synchronisierter Kampagnen finden Sie im Kapitel „Kampagnenverwaltung“.
 
 ## Nur-Tracking-Konten
 
@@ -36,7 +40,7 @@ Mit Tracking-Kampagnen können Sie die Leistung der Anzeigen, die Sie direkt im 
 
 Damit Search, Social und Commerce Konversionen Klicks zuordnen können, richten Sie Tracking-Optionen im Kontodatensatz ein und aktivieren Sie den Kontodatensatz. Anschließend können Sie Bulksheets verwenden, um Tracking-URLs für Ihre Anzeigen und Keywords zu generieren, und die Tracking-URLs manuell in den [!DNL Naver] Ad Manager einfügen.
 
-Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
+Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
 
 >[!MORELIKETHIS]
 >

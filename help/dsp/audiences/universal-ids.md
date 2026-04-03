@@ -3,9 +3,15 @@ title: Unterstützung für die Aktivierung universeller IDs
 description: Erfahren Sie mehr über die Unterstützung beim Importieren Ihrer universellen ID-Segmente, Erstellen benutzerdefinierter Segmente zum Nachverfolgen universeller IDs und Konvertieren anderer Benutzerkennung in Erstanbietersegmente in universelle IDs für das Cookie-lose Targeting.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: 1513
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting v
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+* DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[ zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
 * Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind und bestimmte Web-Seiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browser-Signalen abgeleitet wird. Anweisungen finden Sie unter [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).
 

@@ -3,9 +3,14 @@ title: JavaScript-Code für [!DNL Analytics for Advertising]
 description: JavaScript-Code für [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: 919
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 Bei Advertising DSP verfolgt die [!DNL Analytics for Advertising]-Integration Site-Interaktionen mit Ansichts- und Clickthrough. Clickthrough-Besuche werden vom Standard-Adobe Analytics-Code auf Ihren Web-Seiten verfolgt; der [!DNL Analytics] erfasst die AMO-ID- und EF-ID-Parameter in der Landingpage-URL und verfolgt sie in ihren jeweiligen reservierten [!DNL eVars]. Sie können Viewthrough-Besuche verfolgen, indem Sie ein JavaScript-Snippet auf Ihren Web-Seiten bereitstellen.
 
-Bei der ersten Seitenansicht eines Besuchs auf der Website prüft der Adobe Advertising JavaScript-Code, ob der Besucher eine Anzeige bereits gesehen oder darauf geklickt hat. Wenn der/die Benutzende die Website zuvor über einen Clickthrough betreten hat oder keine Anzeige gesehen hat, wird der/die Besuchende ignoriert. Wenn der Besucher eine Anzeige gesehen hat und während des in Adobe Advertising festgelegten [Klick-Lookback-Fensters](/help/integrations/analytics/prerequisites.md#lookback-a4adc) nicht über einen Clickthrough auf die Website zugegriffen hat, verwendet der Adobe Advertising-JavaScript-Code entweder a) den [Experience Cloud ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de), um eine zusätzliche ID zu generieren (`SDID`), oder b) die Adobe Experience Platform-[!DNL Web SDK]-`generateRandomID`-Methode, um eine `[!DNL StitchID]` zu generieren. Beide IDs werden verwendet, um Daten aus Adobe Advertising mit dem Adobe Analytics-Treffer des Besuchers zusammenzufügen. Adobe Analytics fragt dann in Adobe Advertising die AMO-ID und die EF-ID ab, die mit der Anzeigenbelichtung verbunden sind. Die AMO-ID und die EF-IDs werden dann in den entsprechenden [!DNL eVars] ausgefüllt. Diese Werte bleiben für einen bestimmten Zeitraum erhalten (standardmäßig 60 Tage).
+Bei der ersten Seitenansicht eines Besuchs auf der Website prüft der Adobe Advertising JavaScript-Code, ob der Besucher eine Anzeige bereits gesehen oder darauf geklickt hat. Wenn der/die Benutzende die Website zuvor über einen Clickthrough betreten hat oder keine Anzeige gesehen hat, wird der/die Besuchende ignoriert. Wenn der Besucher eine Anzeige gesehen hat und während des in Adobe Advertising festgelegten [Klick-Lookback-Fensters](/help/integrations/analytics/prerequisites.md#lookback-a4adc) nicht über einen Clickthrough auf die Website zugegriffen hat, verwendet der Adobe Advertising-JavaScript-Code entweder a) den [Experience Cloud ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), um eine zusätzliche ID zu generieren (`SDID`), oder b) die Adobe Experience Platform-[!DNL Web SDK]-`generateRandomID`-Methode, um eine `[!DNL StitchID]` zu generieren. Beide IDs werden verwendet, um Daten aus Adobe Advertising mit dem Adobe Analytics-Treffer des Besuchers zusammenzufügen. Adobe Analytics fragt dann in Adobe Advertising die AMO-ID und die EF-ID ab, die mit der Anzeigenbelichtung verbunden sind. Die AMO-ID und die EF-IDs werden dann in den entsprechenden [!DNL eVars] ausgefüllt. Diese Werte bleiben für einen bestimmten Zeitraum erhalten (standardmäßig 60 Tage).
 
 [!DNL Analytics] sendet stündlich Traffic-Metriken (z. B. Seitenansichten, Besuche und Besuchszeit) sowie alle [!DNL Analytics] benutzerdefinierten oder Standardereignisse an Adobe Advertising. Dabei wird die EF-ID als Schlüssel verwendet. Diese [!DNL Analytics] Metriken laufen dann durch das Adobe Advertising-Attributionssystem, um die Konversionen mit dem Klick- und Belichtungsverlauf zu verbinden.
 
@@ -134,11 +139,11 @@ Sie können die Validierung mit einem beliebigen Tool vom Typ „Paket-Sniffer�
 
 #### Bestätigen des Codes mit [!DNL Adobe Experience Cloud Debugger]
 
-1. Öffnen Sie die [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de) auf Ihrer Homepage.
+1. Öffnen Sie die [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) auf Ihrer Homepage.
 1. Wechseln Sie zur Registerkarte [!UICONTROL Network] .
 1. Klicken Sie in der [!UICONTROL Solutions Filter]-Symbolleiste auf [!UICONTROL Adobe Advertising] und [!UICONTROL Analytics] Sie.
 1. Suchen Sie in der [!UICONTROL Request URL - Hostname] Parameterzeile nach `lasteventf-tm.everesttech.net`.
-1. Überprüfen Sie in der [!UICONTROL Request - Parameters] Zeile die generierten Signale, ähnlich wie in Schritt 3 unter &quot;[&#x200B; zum Bestätigen des Codes mit [!DNL Chrome Developer Tools]](#validate-js-chrome).
+1. Überprüfen Sie in der [!UICONTROL Request - Parameters] Zeile die generierten Signale, ähnlich wie in Schritt 3 unter &quot;[ zum Bestätigen des Codes mit [!DNL Chrome Developer Tools]](#validate-js-chrome).
    * (Implementierungen, die den `visitorAPI.js`-Code des Experience Cloud Identity Services verwenden) Stellen Sie sicher, dass der `Sdid` mit dem `Supplemental Data ID` im Adobe Analytics-Filter übereinstimmt.
    * (Implementierungen, die den Experience Platform-[!DNL Web SDK] verwenden `alloy.js`Code) Stellen Sie sicher, dass der Wert des `advertisingStitchID`-Parameters mit dem an Experience Platform Edge Network gesendeten `Sdid` übereinstimmt.
    * Wenn der Code nicht generiert wird, überprüfen Sie, ob das Adobe Advertising-Cookie auf der Registerkarte &quot;[!UICONTROL Application]&quot; entfernt wurde. Aktualisieren Sie die Seite nach dem Entfernen und wiederholen Sie den Vorgang.

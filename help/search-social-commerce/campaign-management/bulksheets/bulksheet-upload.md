@@ -3,16 +3,20 @@ title: Hochladen einer Bulksheet- oder korrigierten Fehlerdatei
 description: Erfahren Sie, wie Sie manuell eine Bulksheet-Datei oder eine korrigierte Fehlerdatei für die Landingpage-Validierung hochladen.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/3dJ14x6JFvS-ig5s6ElT0Vv-Kzd5KWQu0JiItdrG3ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: 800
 ht-degree: 0%
 
 ---
 
 # Hochladen einer Bulksheet- oder korrigierten Fehlerdatei
 
-Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) &#x200B;](bulksheet-about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
+Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) ](bulksheet-about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 

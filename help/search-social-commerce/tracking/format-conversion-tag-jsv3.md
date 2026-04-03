@@ -3,9 +3,13 @@ title: Format der JavaScript-Konversionsverfolgungstags Version 3
 description: Verweisen Sie auf das Format von JavaScript-Konversionsverfolgungstags Version 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+TQID: https://experienceleague.adobe.com/IjPpsTp5GGaG6SM2k1UC0Q0J3QCF-jIR7-ug3yigW3U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 297
 ht-degree: 0%
 
 ---
@@ -56,20 +60,20 @@ Dabei gilt:
 
 * `<ef-userid>` ist eine eindeutige numerische Benutzer-ID, die Search, Social und Commerce dem Advertiser zuweist.
 
-* `<ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerdefinierte Segmente verfügt, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerdefinierte Segmente zur Verfolgung von Benutzern verfügt, die mit universellen ID5-IDs verknüpft ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` ist die Konvertierung in „Track“. Wenn Sie z. B. eine Konversion mit dem Namen „Registrierung“ verfolgen, enthält das Tag den Parameter `ev_registration=<registration>` und Sie müssen den tatsächlichen Umsatz für jede Transaktion (z. B. `ev_registration=1`) übergeben. Wenn mehrere Eigenschaften verfolgt werden, werden sie durch ein kaufmännisches Und-Zeichen (`&`) verbunden, z. B. `ev_registration=<registration>&ev_sale=<sale>` (z. B. `ev_registration=1&ev_sale=12.99`). **Hinweis:** Der Eigenschaftsname darf keine Sonderzeichen enthalten.
 
 * `<transid>` ist eine eindeutige Transaktions-ID (z. B. eine tatsächliche Auftrags-ID), die der Advertiser generiert und übergibt, um eine Transaktion zu identifizieren. Sie ist nur enthalten, wenn die Option &quot;[!UICONTROL Include unique transaction IDs]&quot; ausgewählt ist.
 
-  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu eliminieren. Die Transaktions-ID ist im [!UICONTROL Transaction Report] enthalten, mit dem Sie Daten auf dem Adobe Advertising mit den Daten des Werbetreibenden validieren können. **Hinweis:** Wenn die Daten des Werbetreibenden keine eindeutige ID pro Transaktion enthalten, generiert Search, Social und Commerce weiterhin eine ID basierend auf der Transaktionszeit.
+  Search, Social und Commerce verwenden die Transaktions-ID, um doppelte Transaktionen mit derselben Transaktions-ID und demselben Eigenschaftswert zu eliminieren. Die Transaktions-ID ist in der [!UICONTROL Transaction Report] enthalten, mit der Sie Daten in Adobe Advertising mit den Daten des Advertisers validieren können. **Hinweis:** Wenn die Daten des Werbetreibenden keine eindeutige ID pro Transaktion enthalten, generiert Search, Social und Commerce weiterhin eine ID basierend auf der Transaktionszeit.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [Über Adobe Advertising-Konversions-Tracking-Tags](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Erzeugen eines Adobe Advertising-Konvertierungs-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Über Konversionsverfolgungstags in Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format von JavaScript-Konversionsverfolgungstags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](format-conversion-tag-image.md)

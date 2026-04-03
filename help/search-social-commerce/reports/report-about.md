@@ -3,9 +3,13 @@ title: Über Berichte
 description: Erfahren Sie mehr über Leistungsberichte, einschließlich der verschiedenen verfügbaren Berichtstypen und wie Sie Berichte automatisieren können.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 851
 ht-degree: 0%
 
 ---
@@ -34,7 +38,7 @@ Die folgenden Berichtskategorien sind in der [!UICONTROL Reports] verfügbar. M�
 
 Sie können benutzerdefinierte Berichte so planen, dass sie automatisch auf eine oder beide der folgenden Arten generiert werden:
 
-* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [&#x200B; Monat](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [ Monat](/help/search-social-commerce/reports/automation/templates/template-about.md).
 
   Optional können Sie die [FTP-Bereitstellung von einfachen und erweiterten Berichten](/help/search-social-commerce/reports/automation/ftp-reports.md) die eine Vorlage verwenden, einrichten.
 
@@ -60,8 +64,8 @@ Mit der [!UICONTROL Reports] unter [!UICONTROL Search, Social, & Commerce] > [!U
 | ---- | ---- |
 | Leistungsüberwachung | <ul><li>[Die [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[Die [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[Die [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[Die [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[Die [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[Die [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Fehlerbehebung und Trendanalyse der Leistung | <ul><li>[Die [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[Die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[Die [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[Die [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[Die [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md) und [Die [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Ein einfacher Bericht, der zwei Zeitfenster mithilfe der Funktion &quot;[!UICONTROL Compare with]&quot; vergleicht</li></ul> |
-| Identifizieren von Wachstumschancen für Unternehmen | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
+| Identifizieren von Wachstumschancen für Unternehmen | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
 
 >[!MORELIKETHIS]
 >

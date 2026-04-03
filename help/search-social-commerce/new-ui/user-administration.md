@@ -2,9 +2,14 @@
 title: (Neue Benutzeroberfläche) Benutzerverwaltung
 description: Erfahren Sie, wie Sie den Benutzerzugriff verwalten.
 feature: Search Introduction
-source-git-commit: c198b5ea2f8ef125b1a5d25616158d57950ce3b0
+exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
+TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: 975
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende Experience Cloud-Organisation aus.
 
@@ -111,9 +116,9 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
 1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
 
-1. (Optional) [Einen weiteren Systemadministrator hinzufügen](https://helpx.adobe.com/de/enterprise/using/admin-roles.html#enterprise) als Sicherung.
+1. (Optional) [Einen weiteren Systemadministrator hinzufügen](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) als Sicherung.
 
-1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von &#x200B;](https://helpx.adobe.com/de/enterprise/using/admin-roles.html#enterprise)&quot;
+1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
 
 ### Workflow für Produktadministratoren
 
@@ -121,9 +126,9 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
 1. [Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce](#open-admin-console).
 
-1. Erstellen Sie bei Bedarf Endbenutzer [einzeln](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder [zusammen](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html).
+1. Erstellen Sie bei Bedarf Endbenutzer [einzeln](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) oder [zusammen](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Optional) Erstellen Sie [Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html) für die Instanz und weisen Sie jeder Benutzergruppe Benutzer zu.
+1. (Optional) Erstellen Sie [Benutzergruppen](https://helpx.adobe.com/enterprise/using/user-groups.html) für die Instanz und weisen Sie jeder Benutzergruppe Benutzer zu.
 
    Wenn die Instanz viele Benutzer hat, erstellen Sie Benutzergruppen, um sicherzustellen, dass Benutzern auf Grundlage ihres Fachwissens die richtigen Profile zugewiesen werden. (Siehe Schritt 4 für das Zuweisen von Benutzergruppen zu Produktprofilen.) Sie können Benutzergruppen basierend auf dem Geschäftsbereich, den Anforderungen an den Benutzerzugriff, dem Einstellungsdatum der Benutzer oder anderen Kriterien erstellen.
 
@@ -131,7 +136,7 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
    >
    >Die Namen von Benutzergruppen sollten die Rechte, die der Benutzergruppe zugewiesen werden sollen, klar angeben. Wenn Sie beispielsweise eine Benutzergruppe mit „Schreibgeschützt“-Rechten erstellen möchten, schließen Sie „Schreibgeschützt“ in den Namen der Benutzergruppe ein, z. B. „Acme_Uk_ReadOnly“ oder „Acme_ReadOnly“.
 
-1. (Optional) [Erstellen benutzerdefinierter Produktprofile](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) mit definierten Berechtigungssätzen.
+1. (Optional) [Erstellen benutzerdefinierter Produktprofile](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) mit definierten Berechtigungssätzen.
 
    Benutzerdefinierte Profile werden zusätzlich zu den vier bereits verfügbaren Standardproduktprofilen hinzugefügt.
 
@@ -139,10 +144,10 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
    **Achtung:** Produktberechtigungen sind sehr detailliert. Seien Sie vorsichtig, wenn Sie benutzerdefinierte Produktprofile konfigurieren oder Funktionen weglassen, die Sie einbeziehen möchten.
 
-1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil &#x200B;](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
+1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
 
 ## Vollständiges Benutzerhandbuch für die Administration und zusätzliche Links
 
-* Weitere Informationen zur Benutzerverwaltung mit Adobe Admin Console finden Sie unter &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/de/enterprise/admin-guide.html)&quot;, einschließlich der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+* Weitere Informationen zur Benutzerverwaltung mit Adobe Admin Console finden Sie unter &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, einschließlich der [Admin Console-Übersicht](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

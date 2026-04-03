@@ -3,9 +3,15 @@ title: Archivieren oder Aufheben der Archivierung eines privaten Angebots
 description: Erfahren Sie, wie Sie ein privates Angebot archivieren oder die Archivierung aufheben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+TQID: https://experienceleague.adobe.com/Vd5SSJu-ef7zLfTegaCmhkFkF1AAJ6OzK6p-txYuu1g
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 216
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ Sie können die Archivierung eines Deals aufheben, um den vorherigen Status jede
 
 >[!NOTE]
 >
->Um archivierte Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um archivierte Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Archived]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Archivierung eines privaten Angebots aufheben
 
@@ -42,7 +48,7 @@ Wenn der Publisher oder SSP den Deal zuvor deaktiviert hatte und Sie ihn erneut 
 
 >[!NOTE]
 >
->Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![&#x200B; Angebotsliste &#x200B;](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Um nicht archivierte (Live-)Angebote anzuzeigen, klicken Sie über ![ Angebotsliste ](/help/dsp/assets/filter.png)Filter), klicken Sie auf **[!UICONTROL Status]** und wählen Sie *[!UICONTROL Live]* aus, und klicken Sie dann auf **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >

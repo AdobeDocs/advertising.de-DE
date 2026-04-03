@@ -3,9 +3,12 @@ title: '[!DNL Microsoft Advertising] Multimedia-Anzeigeneinstellungen'
 description: Verweisen Sie auf die Einstellungen für  [!DNL Microsoft Advertising] -Multimedia-Anzeigen.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -18,9 +21,9 @@ Multimedia-Anzeigen sind im Suchnetzwerk verfügbar. Das Anzeigennetzwerk stellt
 
 **[!UICONTROL Images]:** Bis zu 15 JPEG-, JPG- oder PNG-Bilder für die Anzeige, einschließlich der folgenden Größen:
 
-* Mindestens ein Bild mit einem Seitenverhältnis von 1,91:1.
+* Mindestens ein Bild mit einem Seitenverhältnis von 1,:1 %.
 
-* Mindestens ein quadratisches Bild (1:1).
+* Mindestens ein quadratisches (1:1) Bild.
 
 Siehe die zulässigen Seitenrationen und Abmessungen für [Multimedia-Anzeigen](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
 
@@ -36,9 +39,9 @@ Siehe die zulässigen Seitenrationen und Abmessungen für [Multimedia-Anzeigen](
 
 **[!UICONTROL Ad Text]:** Mindestens zwei und bis zu vier Beschreibungen mit mindestens einem Wort und höchstens 90 Zeichen.
 
-**[!UICONTROL Call to Action]:** Der Aktionsaufruf, der in die Anzeige aufgenommen werden soll. Standardmäßig ist Automatisiert ausgewählt und das Anzeigennetzwerk wählt den Aktionsaufruf aus. Sie können optional eine andere Aktion auswählen.
+**[!UICONTROL Call to Action]:** Die call to action, die in die Anzeige aufgenommen werden soll. Standardmäßig ist Automatisiert ausgewählt und das Werbenetzwerk wählt die call to action aus. Sie können optional eine andere Aktion auswählen.
 
-**[!UICONTROL Call to Action Language]:** Die Sprache für die Aktionsaufruf-Optionen.
+**[!UICONTROL Call to Action Language]:** Die Sprache für die call to action-Optionen.
 
 ## [!UICONTROL Tracking URLs]
 

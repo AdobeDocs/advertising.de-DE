@@ -3,9 +3,13 @@ title: Hochladen von Offline-Konversionsdaten für erweiterte Konversionen
 description: Erfahren Sie, wie Sie First-Party- und Offline-Konversionsdaten hochladen, um sie Leads  [!DNL Google Ads]  erweiterten Konversionen  [!DNL Microsoft Advertising] .
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 785
 ht-degree: 0%
 
 ---
@@ -43,7 +47,7 @@ Geben Sie die Zeitzone des Kontos entweder an diesem Speicherort oder in der Spa
 | E-Mail | Die E-Mail-Adresse des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Jede Zeile muss entweder einen E-Mail-Wert oder einen Telefonnummernwert enthalten. |
 | Telefonnummer | Die Telefonnummer des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Sie muss einen Ländercode enthalten und darf Bindestriche und andere Symbole enthalten. Jede Zeile muss entweder einen E-Mail-Wert oder einen Telefonnummernwert enthalten. |
 | Name der Konversion | (Erforderlich) Der Name der Konvertierungsaktion. |
-| Konvertierungszeit | (Erforderlich) Der Zeitpunkt, zu dem das Konversionsereignis in einem (unterstützten [) &#x200B;](https://support.google.com/google-ads/answer/7014069#prepare_data) aufgetreten ist. Wenn Sie die Zeitzonen-ID des Kontos nicht in die `Parameters:TimeZone=insert_timezone` Zeile über der Datentabelle aufnehmen, schließen Sie die Zeitzone für jede Zeile entweder mit a\) dem [unterstützten Zeitzonen-ID-Format](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) oder b\) dem GMT-Offset, wie durch + oder - angegeben, und der 4-stelligen Zeitdifferenz (z. B. -0500 für New York, +0100 für Berlin oder +0000 für Greenwich Mean Time) ein. |
+| Konvertierungszeit | (Erforderlich) Der Zeitpunkt, zu dem das Konversionsereignis in einem (unterstützten [) ](https://support.google.com/google-ads/answer/7014069#prepare_data) aufgetreten ist. Wenn Sie die Zeitzonen-ID des Kontos nicht in die `Parameters:TimeZone=insert_timezone` Zeile über der Datentabelle aufnehmen, schließen Sie die Zeitzone für jede Zeile entweder mit a\) dem [unterstützten Zeitzonen-ID-Format](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) oder b\) dem GMT-Offset, wie durch + oder - angegeben, und der 4-stelligen Zeitdifferenz (z. B. -0500 für New York, +0100 für Berlin oder +0000 für Greenwich Mean Time) ein. |
 | Umrechnungswert | (Erforderlich) Der numerische Konvertierungswert. |
 | Umrechnungswährung | Der Währungscode für das Konversionsereignis. |
 | Anzeigen von Benutzerdaten | (Gilt für Daten von Benutzern im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (Vereinigtes Königreich)) Gibt an, ob die Benutzerzustimmung für die Übermittlung von Benutzerdaten an [!DNL Google] zu Zwecken der Anzeigenpersonalisierung erteilt wurde. Werte können `Granted`, `Denied` oder \[null\] (der als [!DNL Google Ads] an `Unspecified` gesendet wird) sein. **Hinweis:** [!DNL Google Ads] erzwingt derzeit keine Zustimmung zu erweiterten Konversionen für Leads, kann dies aber in Zukunft tun. |

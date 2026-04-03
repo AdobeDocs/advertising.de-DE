@@ -3,9 +3,13 @@ title: FTP-Zugriff auf Berichte
 description: Erfahren Sie, wie Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen können.
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: 428
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ Der FTP-Zugriff auf Berichte erfordert Zugriff auf ein bestimmtes FTP-Konto, und
 
 ## FTP-Konto für den Zugriff auf Berichte einrichten
 
-* Wenden Sie sich an Ihr Adobe-Konto-Team , um ein FTP-Konto für den Zugriff auf Berichte einzurichten.
+* Wenden Sie sich an Ihr Adobe Account Team , um ein FTP-Konto für den Zugriff auf Berichte einzurichten.
 
   Das Team stellt Ihnen Ihren Benutzernamen und Ihr Passwort zur Verfügung.
 

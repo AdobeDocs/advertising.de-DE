@@ -3,9 +3,13 @@ title: Hinzufügen eines Zielknotens zwischen Knoten in einem Erlebnis
 description: Erfahren Sie, wie Sie in einem Werbeerlebnis einen Zielknoten zwischen Zielknoten hinzufügen.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/lPQtymUs3okctV2t6ZEE2rMG-F-BA2tJZO1GuceTxtY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -120,7 +124,7 @@ Um ein bestimmtes Ziel zu definieren, fügen Sie einen zusätzlichen gleichrangi
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Optional) [Weisen Sie dem neuen &#x200B;](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
+   * (Optional) [Weisen Sie dem neuen ](experience-assign-creative-bundles.md) und dem Knoten „Alles andere“ Kreative zu.
 
    * (Optional) [Einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md) des angegebenen Zieltyps.
 
