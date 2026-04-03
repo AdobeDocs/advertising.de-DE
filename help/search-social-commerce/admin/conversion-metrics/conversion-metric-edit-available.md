@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie Konversionsmetriken in Ihren Verwaltungsansic
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
 TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 506
@@ -29,7 +31,7 @@ Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugri
 
    * Um nach einem bestimmten Metriknamen oder Anzeigenamen zu suchen, klicken Sie auf ![Suchen](/help/search-social-commerce/assets/search.png "Suchen"), geben Sie das Wort oder die Zeichenfolge in das Eingabefeld ein und drücken Sie dann die **[!DNL Enter]**.
 
-     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [ Kleinschreibung unterschieden ](/help/search-social-commerce/glossary.md#c-d).
+     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [&#x200B; Kleinschreibung unterschieden &#x200B;](/help/search-social-commerce/glossary.md#c-d).
 
    * Um nach Konversionsmetriken anhand ihrer Verfügbarkeit in Verwaltungsansichten und Berichten zu suchen, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") und wählen Sie die **[!UICONTROL Show in UI and Reports]** aus. Wählen Sie dann entweder **[!UICONTROL Show]** (um die verfügbaren Konversionsmetriken anzuzeigen, die in Berichte und Verwaltungsansichten aufgenommen werden können) oder **[!UICONTROL Hide]** (um die Konversionsmetriken anzuzeigen, die nicht in Berichten und Verwaltungsansichten verfügbar sind).
 

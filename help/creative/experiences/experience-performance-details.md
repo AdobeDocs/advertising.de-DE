@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie Leistungsberichte auf Erlebnisebene anzeigen.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
 TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 786
@@ -82,7 +85,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die Regel zu ändern, mit der Konversionsdaten in einer Reihe von Ereignissen zugeordnet werden, die zu einer Konversion führen, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und ändern Sie die **[!UICONTROL Attribution Rule]**.
 
-     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[ der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
+     Weitere Informationen zu Attributionsregeln finden Sie unter &quot;[&#x200B; der Berechnung von Attributionsregeln](/help/search-social-commerce/reports/attribution-rules.md).
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus. Derzeit ist nur die Metrik „Alle auswählen“ verfügbar, um alle Konversionsmetriken einzuschließen.
 

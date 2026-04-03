@@ -4,11 +4,17 @@ description: Erfahren Sie, wie Sie die erlebnisübergreifende [!UICONTROL Custom
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
 TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1479
@@ -58,7 +64,7 @@ Sie können alle Berichte ausführen, die noch nicht abgelaufen sind und derzeit
 
 >[!NOTE]
 >
->Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [ erstellen](#report-create) oder [bearbeiten](#report-edit).
+>Sie können einen benutzerdefinierten Bericht auch ausführen, wenn Sie [&#x200B; erstellen](#report-create) oder [bearbeiten](#report-edit).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 
@@ -214,7 +220,7 @@ Siehe auch [So werden Attributionsregeln für Adobe Advertising berechnet](/help
 
 * *[!UICONTROL FTP]:* Um den fertigen Bericht an einen oder mehrere FTP-Speicherorte zu senden, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
-* *[!UICONTROL FTP SSL](derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
+* *[!UICONTROL FTP SSL] (derzeit in Beta):* Senden des ausgefüllten Berichts an einen oder mehrere FTP-SSL-Speicherorte, die Sie im Feld **[!UICONTROL Destination Name]** auswählen müssen.
 
 * *[!UICONTROL Email]:* Um E-Mail-Adressen anzugeben, an die ausgefüllte Berichte oder Benachrichtigungen gesendet werden sollen, wenn der Bericht aufgrund von Fehlern abgebrochen wird.
 

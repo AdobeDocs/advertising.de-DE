@@ -4,11 +4,20 @@ description: Erwartete Datenabweichungen zwischen  [!DNL Analytics]  und Adobe A
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
 TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 3359
@@ -282,7 +291,7 @@ Wenn Sie die [!UICONTROL Adobe Advertising Clicks]- und [!UICONTROL Adobe Advert
 
 ### Verwenden von [!UICONTROL AMO ID Instances] als Ersatz für Klicks mit Nicht-Adobe Advertising-Dimensionen
 
-Da Sie keine [!UICONTROL AMO Clicks] mit Vor-Ort-Dimensionen verwenden können, sollten Sie ein Äquivalent zu Klicks finden. Sie könnten versucht sein, Besuche als Ersatz zu verwenden, aber sie sind nicht die beste Option, da jeder Besucher mehrere Besuche haben kann. (Siehe &quot;[ Unterschied zwischen Klicks und Besuchen](#clicks-vs-visits).“ Stattdessen wird die Verwendung von [!UICONTROL AMO ID Instances] empfohlen, also wie oft die AMO-ID erfasst wird. Obwohl [!UICONTROL AMO ID Instances] nicht genau mit [!UICONTROL AMO Clicks] übereinstimmen, sind sie die beste Option zur Messung des Klick-Traffics auf der Website. Weitere Informationen finden Sie unter &quot;[Click-Through-Datenvalidierung für [!DNL Analytics for Advertising]](#data-validation)&quot;.
+Da Sie keine [!UICONTROL AMO Clicks] mit Vor-Ort-Dimensionen verwenden können, sollten Sie ein Äquivalent zu Klicks finden. Sie könnten versucht sein, Besuche als Ersatz zu verwenden, aber sie sind nicht die beste Option, da jeder Besucher mehrere Besuche haben kann. (Siehe &quot;[&#x200B; Unterschied zwischen Klicks und Besuchen](#clicks-vs-visits).“ Stattdessen wird die Verwendung von [!UICONTROL AMO ID Instances] empfohlen, also wie oft die AMO-ID erfasst wird. Obwohl [!UICONTROL AMO ID Instances] nicht genau mit [!UICONTROL AMO Clicks] übereinstimmen, sind sie die beste Option zur Messung des Klick-Traffics auf der Website. Weitere Informationen finden Sie unter &quot;[Click-Through-Datenvalidierung für [!DNL Analytics for Advertising]](#data-validation)&quot;.
 
 ![Beispiel für [!UICONTROL AMO ID Instances] anstelle von [!UICONTROL Adobe Advertising Clicks] für eine nicht unterstützte Dimension](/help/integrations/assets/a4adc-amo-id-instances.png)
 

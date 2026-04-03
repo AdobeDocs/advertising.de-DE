@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Ihren bestehenden Adobe A
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 566
@@ -49,7 +53,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
       Beispiel: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [ es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert ](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (Wenn dies noch nicht abgeschlossen ist) Ein autorisierter Benutzer muss das Konto des Werbetreibenden so konfigurieren, [&#x200B; es mit dem Organisationskonto des Werbetreibenden in Adobe Experience Cloud synchronisiert &#x200B;](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -73,7 +77,7 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. Wählen Sie die zu erstellende **[!UICONTROL Audience Type]** aus: **[!UICONTROL Customer List_User ID]**.
 
-      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([ für benutzerdefinierte Übereinstimmung) ](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) ](https://support.google.com/google-ads/answer/9199250).
+      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([&#x200B; für benutzerdefinierte Übereinstimmung) &#x200B;](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) &#x200B;](https://support.google.com/google-ads/answer/9199250).
 
    1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie mit den Bedingungen der Datenschutzrichtlinien für [!DNL Adobe] und Werbenetzwerke einverstanden sind.
 

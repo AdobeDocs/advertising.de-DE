@@ -4,9 +4,12 @@ description: Erfahren Sie mehr über die Verwendung eines EF ID-Feeds für Konve
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 349
@@ -40,7 +43,7 @@ Bei dieser Methode erfasst Advertising Cloud jedes Mal, wenn ein Benutzer auf di
 
 1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in Adobe Advertising hoch. Adobe Advertising vergleicht die Daten dann mit einzelnen Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
 
-1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; ](/help/search-social-commerce/glossary.md#o-p).
+1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; &#x200B;](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

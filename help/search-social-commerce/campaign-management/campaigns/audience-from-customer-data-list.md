@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie Zielgruppen  [!DNL Google Ads]  Kundenabgleic
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 840
@@ -32,7 +35,7 @@ Bei [!DNL Microsoft Advertising]-Konten kann die Datei E-Mail-Adressen enthalten
 
 1. Generieren Sie eine Datei mit den Kundendaten im erforderlichen Format.
 
-   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für ](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten](https://help.ads.microsoft.com/#apex/ads/en/56921). Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
+   Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für &#x200B;](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten](https://help.ads.microsoft.com/#apex/ads/en/56921). Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -50,7 +53,7 @@ Bei [!DNL Microsoft Advertising]-Konten kann die Datei E-Mail-Adressen enthalten
 
       1. Wählen Sie die [!UICONTROL Data Upload Type] aus: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]* oder *[!UICONTROL Mobile Device IDs]*.
 
-         Die Option „Benutzer-IDs“ steht nur [!DNL Google Ads] Werbetreibenden in den USA zur Verfügung, die für „Benutzer-ID[Segmente“ ](https://support.google.com/google-ads/answer/9199250)
+         Die Option „Benutzer-IDs“ steht nur [!DNL Google Ads] Werbetreibenden in den USA zur Verfügung, die für „Benutzer-ID[Segmente“ &#x200B;](https://support.google.com/google-ads/answer/9199250)
 
       1. (Nur ID-Listen für Mobilgeräte) Wählen Sie die **[!UICONTROL OS Type]** aus (*[!UICONTROL Android™]* oder *[!UICONTROL iOS]*) und geben Sie die **[!UICONTROL App ID]** ein.
 
@@ -95,7 +98,7 @@ Die Daten müssen vom gleichen Typ wie die ursprüngliche Kundenliste sein (E-Ma
 
 1. Generieren Sie eine Datei mit den Kundendaten im erforderlichen Format für den vorhandenen Datentyp.
 
-Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für ](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921. Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
+Vor- und Nachnamen, E-Mail-Adressen und Telefonnummern müssen mit dem SHA-256-Algorithmus gehasht werden. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Eine Liste der zulässigen Felder und Anforderungen für Kontaktinformationen finden Sie [!DNL Google Ads] Zielgruppen in der [!DNL Google Ads]-Dokumentation unter [Formatierungsrichtlinien für &#x200B;](https://support.google.com/google-ads/answer/7476159) Hochladen von Hash-Daten“. [!DNL Microsoft Advertising] Zielgruppen finden Sie in der [!DNL Microsoft Advertising] Dokumentation unter [Vorbereiten von Kundenabgleichlisten]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921. Optional können Sie eine [!DNL Microsoft Excel] Vorlage für Kontaktinformationen herunterladen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

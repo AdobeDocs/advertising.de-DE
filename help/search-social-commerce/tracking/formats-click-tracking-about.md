@@ -4,8 +4,10 @@ description: Erfahren Sie mehr über die Klick-Tracking-Formate für unterstütz
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 263
@@ -31,7 +33,7 @@ Dabei gilt:
 
    * `c?` oder `r` bedeutet, dass die Token-Übergabe deaktiviert ist.
 
-* `<ad network ID>` ist eine Variable für die numerische ID für das angegebene Werbenetzwerk, z. B. *3* für [!DNL Google Ads], *10* für [!DNL Microsoft Advertising], *45* für [!DNL Meta], *86*, [!DNL Yahoo! Display Network]87 *für*, [!DNL Naver]888 *für*, [!DNL Baidu]90 *, 096*, [!DNL Yandex]105für (veraltet) oder *106*[!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] (veraltet).
+* `<ad network ID>` ist eine Variable für die numerische ID für das angegebene Werbenetzwerk, z. B. *3* für [!DNL Google Ads], *10* für [!DNL Microsoft Advertising], *45* für [!DNL Meta], *86*, [!DNL Yahoo! Display Network]87 *für*, [!DNL Naver]888 *für*, [!DNL Baidu]90 *, 096*, [!DNL Yandex]105für (veraltet) oder *106*[!DNL Yahoo! Japan Ads] **&#x200B; [!DNL Yahoo Native] &#x200B;** [!DNL Pinterest] (veraltet).
 
 * `<tracking ID>` ist eine Variable für eine vom System generierte Tracking-ID-Zeichenfolge, die ein Keyword, eine Anzeige oder eine Platzierung identifiziert, die im Konto eindeutig ist. Die Zeichenfolge variiert je nach Werbenetzwerk.
 

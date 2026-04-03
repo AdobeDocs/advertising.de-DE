@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie wichtige Paket-, Platzierungs- und Anzeigenei
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
 TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 570
@@ -73,7 +77,7 @@ Laden Sie Einstellungen für Pakete, Platzierungen und Anzeigen in einer Kampagn
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 

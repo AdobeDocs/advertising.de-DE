@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie eine wiederverwendbare Zielgruppe bearbeiten.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
 TQID: https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 459
@@ -33,9 +37,9 @@ Wenn Sie eine Zielgruppe bearbeiten, die in Platzierungen oder anderen wiederver
    >
    >Wenn Sie die Zielgruppensegmentlogik bearbeiten, werden [Daten zur Zielgruppengröße](audience-about.md) im rechten Bedienfeld aktualisiert.
 
-   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![ klicken Sie neben ](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
+   * (Optional) Um den **[!UICONTROL Audience Name]** zu bearbeiten![&#x200B; klicken Sie neben &#x200B;](/help/dsp/assets/edit.png) Zielgruppennamen auf „Bearbeiten“, geben Sie einen eindeutigen Zielgruppennamen ein und klicken Sie dann auf &quot;**[!UICONTROL Apply]**&quot;.
 
-   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md), manuell zu bearbeiten.
+   * (Optional) Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar &#x200B;](audience-settings.md), manuell zu bearbeiten.
 
       * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
 

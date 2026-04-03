@@ -4,8 +4,10 @@ description: Verweisen Sie auf allgemeine Informationen zum Hinzufügen, Bearbei
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 381
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Vorgänge, die Sie in Bulksheets ausführen können
 
-Sie können Kampagnendaten über Bulksheets für (unterstützte Werbenetzwerke[ hinzufügen, bearbeiten und ](../bulksheet-about.md#bulksheet-functionality-by-network).
+Sie können Kampagnendaten über Bulksheets für (unterstützte Werbenetzwerke[&#x200B; hinzufügen, bearbeiten und &#x200B;](../bulksheet-about.md#bulksheet-functionality-by-network).
 
 Fügen Sie für jede Kampagnenkomponente (Kampagne, Anzeigengruppe, Keyword oder Textanzeige), die Sie hinzufügen, bearbeiten oder löschen möchten oder deren Eigenschaften Sie hinzufügen, bearbeiten oder löschen möchten, eine separate Datenzeile ein. Wenn Sie beispielsweise eine Kampagne mit einer Anzeigengruppe, einem Keyword und einer Anzeige erstellen möchten - insgesamt vier Komponenten -, benötigen Sie vier separate Datenzeilen. Um die [!UICONTROL Ad Group Name] für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie jedoch nur eine Zeile. Um vier verschiedene Eigenschaften für eine Anzeigengruppe (eine Komponente) zu bearbeiten, benötigen Sie nur eine Zeile.
 

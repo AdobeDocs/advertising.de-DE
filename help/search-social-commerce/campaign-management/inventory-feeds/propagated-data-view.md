@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie Daten anzeigen, die aus Inventardaten-Feeds g
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 429
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 Wenn Sie Feed-Daten übertragen, ohne sie gleichzeitig im Anzeigennetzwerk zu posten, können Sie die Daten auf eine der folgenden Arten in der Vorschau anzeigen. Sie können später optional [Daten](propagated-data-post.md) von beiden Standorten an die entsprechenden Werbenetzwerke senden.
 
-* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, zeigen Sie das generierte Bulksheet (mit dem Namen &quot;`<feed file name>_<template name>`„) in der [!UICONTROL Bulksheets] an. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten. Mit dieser Option können Sie [ Landingpages, die mit den Anzeigen und Keywords ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) sind, validieren, bevor Sie die Daten posten.
+* Wenn Sie die Option auf &quot;[!UICONTROL Propagate and Preview]&quot; verwendet haben, zeigen Sie das generierte Bulksheet (mit dem Namen &quot;`<feed file name>_<template name>`„) in der [!UICONTROL Bulksheets] an. Auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] sind keine Daten enthalten. Mit dieser Option können Sie [&#x200B; Landingpages, die mit den Anzeigen und Keywords &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) sind, validieren, bevor Sie die Daten posten.
 
 * Wenn Sie die Option auf &quot;[!UICONTROL Propagate only]&quot; verwendet haben, zeigen Sie die generierten Daten in einer Kampagnenhierarchieansicht auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] an.
 

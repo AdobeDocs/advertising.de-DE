@@ -4,9 +4,12 @@ description: Erfahren Sie mehr über die verschiedenen Datentypen, die in Datena
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 599
@@ -38,7 +41,7 @@ Die meisten Berichte können so angepasst werden, dass nur die Informationen ang
 
 * **Konversionsmetriken:** Die Gesamtzahl der Konversionen für jede der Konversionsmetriken des Advertisers oder der Transaktionsdaten, die in Richtung einer Konversionsmetrik verfolgt werden. Dies kann Konversions- und Site-Interaktionsmetriken umfassen, jedoch keine berechneten Metriken und erweiterten berechneten Metriken, die mit Adobe Analytics synchronisiert werden.
 
-  Dies kann auch [[!DNL Google Ads]-getrackte ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen ](/help/search-social-commerce/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
+  Dies kann auch [[!DNL Google Ads]-getrackte &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
 
 * **Benutzerdefinierte Metriken:** Eigene Metriken, die Sie durch die Erstellung von Formeln ableiten, die auf vorhandenen Metriken basieren (z. B. die Kosten pro Bestellung).
 

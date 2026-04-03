@@ -4,11 +4,20 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, wie Adobe
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
 TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 485
@@ -22,7 +31,7 @@ Sie können Adobe Advertising wie folgt mit Audience Manager integrieren.
 
 ## Synchronisieren von Audience Manager und anderen [!DNL Adobe] für das Anzeigen-Targeting
 
-[!DNL Search, Social, & Commerce] und DSP können Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Audience Manager-Zielgruppen eines Werbetreibenden oder einer Agentur und andere [!DNL Adobe] Zielgruppen abrufen. Diese eindeutige Verbindung steht nur Marketern zur Verfügung, die Adobe Advertising verwenden. Siehe &quot;[ von Adobe Audience Manager-Segmenten für das Anzeigen-Targeting](/help/integrations/audience-manager/import-audiences.md).“
+[!DNL Search, Social, & Commerce] und DSP können Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für alle Audience Manager-Zielgruppen eines Werbetreibenden oder einer Agentur und andere [!DNL Adobe] Zielgruppen abrufen. Diese eindeutige Verbindung steht nur Marketern zur Verfügung, die Adobe Advertising verwenden. Siehe &quot;[&#x200B; von Adobe Audience Manager-Segmenten für das Anzeigen-Targeting](/help/integrations/audience-manager/import-audiences.md).“
 
 ### Verwenden von Audience Manager und anderen [!DNL Adobe], um [!DNL Google Ads] Zielgruppen zu erstellen {#audience-manager-google-audiences}
 
@@ -36,7 +45,7 @@ Um die erforderlichen Benutzer-IDs zu erstellen, müssen Sie ein Adobe Advertisi
 
 ![Prozess der Segmenterstellung](/help/integrations/assets/ad_search_user_id_pic.png)
 
-Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [ Kampagnen oder Anzeigengruppen ](#audience-manager-targets).
+Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als Zielgruppen oder Ausschlüsse [&#x200B; Kampagnen oder Anzeigengruppen &#x200B;](#audience-manager-targets).
 
 ### Verwenden von Audience Manager und anderen [!DNL Adobe], um Anzeigen anzusprechen oder auszuschließen {#audience-manager-targets}
 
@@ -56,7 +65,7 @@ Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als
 
 DSP-Kunden mit Adobe Audience Manager können Daten aus Anzeigenkampagnen mithilfe von Pixelaufrufen an Audience Manager erfassen. Anschließend können Sie mit den Kampagnendaten regelbasierte Eigenschaften erstellen. Damit können Sie neue Segmente definieren, um verschiedene DSP-Anwendungsfälle zu ermöglichen, z. B. erweiterte Segmentierung, Frequenzverwaltung, Marketing-Analysen und Reporting-Insights.
 
-Weitere Informationen finden [ unter „Übersicht über das Senden von DSP-](/help/integrations/audience-manager/media-data-integration/overview.md) an Adobe Audience Manager&quot;.
+Weitere Informationen finden [&#x200B; unter „Übersicht über das Senden von DSP-](/help/integrations/audience-manager/media-data-integration/overview.md) an Adobe Audience Manager&quot;.
 
 ## Bessere Einblicke in Site-Aktivitäten mit Audience Analytics
 

@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie  [!DNL Google Ads] freigegebenen Callout-Erwe
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 226
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]Konten*
 
-Sie können Callout-Erweiterungen für beliebige [unterstützte [!DNL Google Ads] Kampagnen oder Anzeigengruppen](/help/search-social-commerce/introduction/supported-inventory.md) im Suchnetzwerk in einem [synchronisierten [!DNL Google Ads] Konto erstellen und ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Sie können Callout-Erweiterungen für beliebige [unterstützte [!DNL Google Ads] Kampagnen oder Anzeigengruppen](/help/search-social-commerce/introduction/supported-inventory.md) im Suchnetzwerk in einem [synchronisierten [!DNL Google Ads] Konto erstellen und &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 Weisen Sie mindestens zwei Hinweisen pro Kampagne oder Anzeigengruppe zu, damit Ihre Anzeigen für die Anzeige mit Hinweisen geeignet sind.
 

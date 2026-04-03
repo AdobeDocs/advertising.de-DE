@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie Kreative in einer Kreativbibliothek löschen.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
 TQID: https://experienceleague.adobe.com/NcC9nj1ON2en8H0HqDH0MGR241XoZDEyzIcE6r7Ch5c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 181
@@ -17,9 +19,9 @@ ht-degree: 0%
 
 Sie können Folgendes löschen:
 
-* Kreative, die sich nicht in einem Bundle befinden, das einem (Live[- oder Entwurfszielerlebnis](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [ zugewiesen ](/help/creative/experiences/experience-about.md).
+* Kreative, die sich nicht in einem Bundle befinden, das einem (Live[- oder Entwurfszielerlebnis](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [&#x200B; zugewiesen &#x200B;](/help/creative/experiences/experience-about.md).
 
-* Kreative, die keinem Anzeigen-Tag für ein Live-Erlebnis oder einen Entwurf (nicht [) zugewiesen ](/help/creative/experiences/experience-about.md).
+* Kreative, die keinem Anzeigen-Tag für ein Live-Erlebnis oder einen Entwurf (nicht [) zugewiesen &#x200B;](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >

@@ -4,9 +4,12 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, Ihre Bena
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
 TQID: https://experienceleague.adobe.com/bUv28qmWvYXXv6RZO3mRqQf-rccr1xoXR-Nf7zFGIBY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 348
@@ -30,7 +33,7 @@ Wenn Sie [abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -54,7 +57,7 @@ Wenn Sie [abonnierte Benachrichtigungen](notification-edit.md) über Fehler bei 
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 

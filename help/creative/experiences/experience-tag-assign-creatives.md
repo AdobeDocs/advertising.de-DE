@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie einem Anzeigen-Tag Kreative für eine bestimm
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
 TQID: https://experienceleague.adobe.com/MFD3iHLYWisIOy1neCge7nlDCd17Fd0KMUYzxStXJXQ
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 272
@@ -48,7 +51,7 @@ Sie können später [Tracking-URLs anpassen](experience-tracking-urls-no-targeti
 
 >[!MORELIKETHIS]
 >* [Manuelles Erstellen eines Anzeigen-Tags für eine entsprechende Kreativgröße](experience-tag-create-manually.md)
->* [Passen Sie die Tracking-URLs für die Kreativen ](experience-tracking-urls-no-targeting.md).
+>* [Passen Sie die Tracking-URLs für die Kreativen &#x200B;](experience-tracking-urls-no-targeting.md).
 >* [Passen Sie die kreative Optimierung und Planung für die Kreativen an](experience-optimization-scheduling-no-targeting.md)
 >* [Anpassen der Transkodierungsoptionen für ein Video- und Erlebnis-Tag](experience-tag-video-transcoding.md)
 >* [Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis](experience-tag-export.md)

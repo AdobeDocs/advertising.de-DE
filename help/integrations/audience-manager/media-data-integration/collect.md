@@ -4,11 +4,22 @@ description: Erfahren Sie, wie Sie Cookie-basierte Impression- und Klickereignis
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 997
@@ -39,7 +50,7 @@ Werbetreibende können Ereignis-Tags für ihre eigenen Marken erstellen und impl
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Pixel-Syntax
 
@@ -61,7 +72,7 @@ Dabei gilt:
 
 * `[Audience Manager customer domain]` ist der Domain-Name, der Impression- oder Klickereignisse an [!DNL Adobe] sendet.
 
-* `[source id]` ist die ID für die [Datenquelle“, in ](#set-up-data-source) Sie DSP-Impressions- und Klickdaten verfolgen.
+* `[source id]` ist die ID für die [Datenquelle“, in &#x200B;](#set-up-data-source) Sie DSP-Impressions- und Klickdaten verfolgen.
 
 * `[redirect URL]` ist die doppelt kodierte Umleitungs-URL. Wenn Sie ein Online-Kodierungstool wie www.urlencoder.org verwenden, führen Sie die Zeichenfolge durch den Kodierer aus und kodieren Sie das Ergebnis erneut.
 
@@ -85,9 +96,9 @@ Beide Pixeltypen können zusätzliche Parameter als *Schlüssel-Wert-Paare* enth
 
 Im Schlüssel-Wert-Paar kann die Wertvariable entweder eine hartcodierte ID oder ein *Makro* sein. Dies ist eine kleine Einheit eigenständigen Codes, die dynamisch durch die entsprechenden Werte ersetzt wird, wenn das Anzeigen-Tag für das Kampagnen- und Benutzer-Tracking geladen wird. Für kampagnenbezogene Parameter können Sie [DSP-Makros](/help/dsp/campaign-management/macros.md) anstelle von Audience Manager-Makros verwenden, um Kampagnenattribute mit den entsprechenden Impressions- oder Klickdaten an Audience Manager zu senden, wobei für alle Anzeigen ein einziges Pixel verwendet wird. Die DSP-Makros, die Sie in die Ereignispixel einfügen, müssen geeignete Werte für die Schlüssel-Wert-Paare sein, die Sie in die Pixel aufnehmen. Für den `d_placement` würden Sie beispielsweise die DSP-Makro-`${TM_PLACEMENT_ID_NUM}` als Wert verwenden, um die vom Adobe Advertising-Makro generierten Platzierungs-IDs zu erfassen.
 
-Eine Liste der Makros, die Audience Manager für Impressionsereignis-Pixel unterstützt, finden Sie unter &quot;[ von Campaign-Impressionsdaten über Pixel-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).
+Eine Liste der Makros, die Audience Manager für Impressionsereignis-Pixel unterstützt, finden Sie unter &quot;[&#x200B; von Campaign-Impressionsdaten über Pixel-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).
 
-Eine Liste der Makros, die Audience Manager für Klick-Ereignispixel unterstützt, finden Sie unter &quot;[ von Kampagnen-Klickdaten über Pixelaufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).
+Eine Liste der Makros, die Audience Manager für Klick-Ereignispixel unterstützt, finden Sie unter &quot;[&#x200B; von Kampagnen-Klickdaten über Pixelaufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).
 
 >[!TIP]
 >
@@ -108,7 +119,7 @@ Hängen Sie allen Anzeigen in Ihren [!DNL DSP]-Kampagnen ein Impression-Event-Tr
 
 * Auf der Platzierungsebene, wodurch das Pixel standardmäßig auf alle Anzeigen in der Platzierung angewendet wird. Fügen Sie im Abschnitt Tracking der Platzierungseinstellungen das Pixel in das Feld [[!UICONTROL Event pixels] ein](/help/dsp/campaign-management/placements/placement-settings.md).
 
-* Auf Anzeigenebene, wodurch alle Ereignispixel auf Platzierungsebene überschrieben werden. Klicken Sie in den [ auf der Registerkarte [!UICONTROL Pixel] auf „Ereignis-Pixel erstellen](/help/dsp/campaign-management/ads/ad-edit.md).
+* Auf Anzeigenebene, wodurch alle Ereignispixel auf Platzierungsebene überschrieben werden. Klicken Sie in den [&#x200B; auf der Registerkarte [!UICONTROL Pixel] auf „Ereignis-Pixel erstellen](/help/dsp/campaign-management/ads/ad-edit.md).
 
 * (Bei Anzeigen auf einem Werbeserver eines Drittanbieters) Auf Anzeigenebene innerhalb des Anzeigenservers.
 
@@ -126,7 +137,7 @@ Sobald sich Ihre Daten auf den Audience Manager-Servern befinden, müssen Sie ei
 
 ### Erstellen von Audience Manager-Eigenschaften und -Segmenten
 
-Ihre Ereignisdaten fließen als [ Signale in Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Erstellen Sie [ aufgenommenen Daten manuell (](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) [) und ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) diese Eigenschaften dann (Segmente), bevor Sie die Daten in Berichten verwenden können.
+Ihre Ereignisdaten fließen als [&#x200B; Signale in Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Erstellen Sie [&#x200B; aufgenommenen Daten manuell (](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) [) und &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) diese Eigenschaften dann (Segmente), bevor Sie die Daten in Berichten verwenden können.
 
 Beispieleigenschaft, die Daten auf Benutzerebene für Benutzende ausfüllt, die einer bestimmten kreativen Aktivität in DSP ausgesetzt sind:
 

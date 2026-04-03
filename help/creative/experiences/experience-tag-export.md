@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und opt
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
 TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 635
@@ -36,7 +40,7 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Tag Manager]**.
 
-1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags ](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Halten Sie den Cursor über die Zeile für das entsprechende Anzeigen-Tag und klicken Sie entweder ![Anzeigen-Tags &#x200B;](/help/creative/assets/export.png "Anzeigen-Tags exportieren") **[!UICONTROL Export ad tags]** oder **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -54,9 +58,9 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
 1. Auswählen des Tag-Typs:
 
-   * (Nicht-Videoerlebnisse) ** *JavaScript* ** oder ** *Iframe* **.
+   * (Nicht-Videoerlebnisse) **&#x200B; *JavaScript* &#x200B;** oder **&#x200B; *Iframe* &#x200B;**.
 
-   * (Videoerlebnisse) ** *Video* **.
+   * (Videoerlebnisse) **&#x200B; *Video* &#x200B;**.
 
 1. Wählen Sie in der Liste [!UICONTROL Destinations] aus, wo Sie Anzeigen für das Erlebnis erstellen möchten.
 

@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie Anzeigeneinstellungen mithilfe von Tabellen s
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
 TQID: https://experienceleague.adobe.com/88Pu031rvTeHdahpICwLw-J4h33Eaji0Gzir4Wbr0Qk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 256
@@ -25,7 +29,7 @@ Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen 
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[ einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[&#x200B; einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter [Anhängen von Anzeigen an Platzierungen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).
 
 ## Download-Details für alle Anzeigen in einer Kampagne

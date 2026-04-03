@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie Callout [!DNL Google Ads] Erweiterungen erste
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 376
@@ -28,11 +31,11 @@ Erstellen und verwalten Sie freigegebene Callout-Erweiterungen auf Kontoebene f�
 
 1. Wählen Sie das Anzeigennetzwerk und den Kontonamen aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot; ein.
+1. Geben Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot; ein.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 
-Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
+Nachdem Sie einen Sitelink erstellt haben, können [&#x200B; ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
 
 ## Bearbeiten [!DNL Google Ads] freigegebenen Callout-Einstellungen
 
@@ -44,7 +47,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot;.
+1. Bearbeiten Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot;.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 

@@ -4,10 +4,14 @@ description: Erfahren Sie mehr über die [!UICONTROL Channel Assist Report].
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/G2KcySAZVdf-J14CxQS2Hk5av6KHlpyFehwfMcZYj78
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 684
@@ -33,14 +37,14 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 
 | Spalte | Standard? | Beschreibung |
 | ---- | ---- | ---- |
-| [!UICONTROL 1st Event] zu [!UICONTROL 5th Event] | Standard | Die fünf frühesten Ereignistypen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers und ](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback[Fensters aufgetreten ](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Path Size] | Standard | Die Anzahl der Ereignistypen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters und ](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback[ des Advertisers aufgetreten ](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL 1st Event] zu [!UICONTROL 5th Event] | Standard | Die fünf frühesten Ereignistypen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers und &#x200B;](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback[Fensters aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL Path Size] | Standard | Die Anzahl der Ereignistypen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters und &#x200B;](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback[&#x200B; des Advertisers aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Standard | Der Ereignistyp des ersten (frühesten) Ereignisses im Konversionspfad. |
 | [!UICONTROL Last Event Type] | Standard | Der Ereignistyp des letzten Ereignisses, das zu Konversionen geführt hat (auch wenn das letzte Ereignis außerhalb der angegebenen Pfadgröße liegt). |
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Benutzerdefiniert | Der Wert für eine von Ihnen erstellte benutzerdefinierte Metrik, die aus vorhandenen Metriken berechnet wird. |
 | \[Advertiser-spezifische Konversionsmetriken\] | Benutzerdefiniert | Die Anzahl der Konversionen für eine bestimmte Konversionsmetrik oder Site-Interaktionsmetrik. |
 | [!UICONTROL % of Total] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe für jede enthaltene Konversionsmetrik enthalten) Der Prozentsatz der Gesamtkonversionen in den Portfolios, die dem Ereignismuster zugeordnet wurden. |
-| [!UICONTROL 6th Event] zu [!UICONTROL 30th Event] | Benutzerdefiniert | Der sechste bis 30. Ereignistyp im Konversionspfad, der innerhalb des (Klick[Lookback-Fensters des Advertisers ](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) ](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL 6th Event] zu [!UICONTROL 30th Event] | Benutzerdefiniert | Der sechste bis 30. Ereignistyp im Konversionspfad, der innerhalb des (Klick[Lookback-Fensters des Advertisers &#x200B;](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) &#x200B;](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe für jede eingeschlossene Konversionsmetrik enthalten) Die durchschnittliche Latenz in Tagen vom ersten Ereignis bis zu einer Konversion. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[Konversionsmetrik\] | Automatisch | (Nicht in den Berichtseinstellungen verfügbar, aber automatisch in der Berichtsausgabe enthalten) Die durchschnittliche Latenz in Tagen vom letzten Ereignis bis zu einer Konversion. |
 | [!UICONTROL Path Frequency] | Benutzerdefiniert | Die Häufigkeit, mit der der Pfad für diese Zeile vor der Konvertierung aufgetreten ist. |

@@ -4,9 +4,13 @@ description: Erfahren Sie mehr über Benachrichtigungen, einschließlich der ver
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
 TQID: https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 430
@@ -52,7 +56,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Manager Account Missing]**: Bei Benachrichtigungen, dass Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuweisung von Entitäten umfasst die Zuweisung oder Aufhebung [ Zuweisung eines ](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und die Zuweisung oder Aufhebung der Zuweisung einer Beschränkung zu einem Portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuweisung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und die Zuweisung oder Aufhebung der Zuweisung einer Beschränkung zu einem Portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -64,7 +68,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
       * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)-Netzwerkkonto zugreifen konnten.
 
-      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ ](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
       * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.
 
