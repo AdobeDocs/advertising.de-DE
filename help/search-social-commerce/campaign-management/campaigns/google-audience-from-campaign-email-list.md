@@ -3,9 +3,16 @@ title: Erstellen einer  [!DNL Google Ads] -Zielgruppe aus einer Adobe Campaign-E
 description: Erfahren Sie, wie Sie aus  [!DNL Google Ads]  bestehenden Adobe Campaign-E-Mail-Liste eine Zielgruppe für den Kundenabgleich erstellen.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 669
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 Sie können in Adobe Campaign eine [!DNL Google Ads] Zielgruppe für den Kundenabgleich aus einer E-Mail-Liste erstellen, indem Sie in [!DNL Campaign] einen Konto-Link und einen Workflow einrichten.
 
-Dazu benötigen Sie Zugriff auf Ihre [!DNL Campaign]-Instanz und eine XML-Datei mit dem erforderlichen Workflow, den Ihr Adobe-Account-Team Ihnen zur Verfügung stellt. Die Anweisungen können für verschiedene Versionen von [!DNL Campaign] variieren. Bei Bedarf kann Ihr Adobe-Account-Team Sie beim Einrichten des Workflows in [!DNL Campaign] unterstützen.
+Dazu benötigen Sie Zugriff auf Ihre [!DNL Campaign]-Instanz und eine XML-Datei mit dem erforderlichen Workflow, den Ihnen Ihr Adobe Account Team bereitstellt. Die Anweisungen können für verschiedene Versionen von [!DNL Campaign] variieren. Bei Bedarf kann Ihr Adobe-Accountteam Sie beim Einrichten des Workflows in [!DNL Campaign] unterstützen.
 
 1. Erhalten Sie Anmeldedaten für ein von Advertising Search, Social und Commerce bereitgestelltes SFTP-Konto.
 
@@ -92,11 +99,11 @@ Dazu benötigen Sie Zugriff auf Ihre [!DNL Campaign]-Instanz und eine XML-Datei 
 
          * (Optional) Geben Sie auf der Registerkarte **[!UICONTROL Schedule]** einen anderen Zeitplan für die Dateiübertragung an.
 
-           Standardmäßig wird der Workflow um 0:00 Uhr (Mitternacht) ausgeführt, wodurch sichergestellt wird, dass alle Datensätze verarbeitet werden. Um die Latenz zu minimieren, planen Sie die Ausführung des Workflows bis spätestens 18:00 Uhr.
+           Standardmäßig wird der Workflow um 0:00 Uhr (:00) ausgeführt. Dadurch wird sichergestellt, dass alle Datensätze verarbeitet werden. Um die Latenz zu minimieren, planen Sie die Ausführung des Workflows auf maximal 18 :00.
 
          * Klicken Sie auf **[!UICONTROL Ok]**.
 
-Search, Social und Commerce überprüft das Verzeichnis alle 30 Minuten (um NN:30 und NN:59 in der Zeitzone des Werbetreibenden) und verschiebt alle gefundenen Dateien an einen anderen Speicherort. Anschließend erstellt er automatisch eine Zielgruppe aus den Daten und pusht sie um 22:00 Uhr (22:00 Uhr) an Google. Search, Social und Commerce sucht weiterhin alle 30 Minuten nach Updates (Ergänzungen und Subtraktionen) in der E-Mail-Liste und aktualisiert die Audience auf [!DNL Google Ads] entsprechend täglich um 22:00 Uhr.
+Search, Social und Commerce überprüft das Verzeichnis alle 30 Minuten (bei NN:30 und NN:59 in der Zeitzone des Werbetreibenden) und verschiebt alle gefundenen Dateien an einen anderen Speicherort. Anschließend erstellt automatisch eine Zielgruppe aus den Daten und pusht sie um 22 :00 (22 Uhr) an Google. Search, Social und Commerce sucht weiterhin alle 30 Minuten nach Updates (Ergänzungen und Subtraktionen) in der E-Mail-Liste und aktualisiert die Audience auf [!DNL Google Ads] entsprechend um 22 :00 täglich.
 
 >[!NOTE]
 >

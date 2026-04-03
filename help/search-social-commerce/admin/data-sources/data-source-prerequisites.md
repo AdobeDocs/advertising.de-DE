@@ -4,9 +4,19 @@ description: Erfahren Sie mehr über die Schritte, die Sie vor der Konfiguration
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -23,7 +33,7 @@ Bei jedem Klick auf die Paid Search für die entsprechenden Kampagnen muss ein e
 
 Bei bestehenden Konten und Kampagnen ist die ef_id wahrscheinlich bereits implementiert.
 
-Wenn die ef_id nicht enthalten ist, bitten Sie Ihr Adobe-Account-Team um Hilfe.
+Wenn die ef_id nicht enthalten ist, wenden Sie sich an Ihr Adobe Account Team.
 
 Wenn alle Voraussetzungen erfüllt sind, wird die `ef_id` als Primärschlüssel verwendet, um Daten von [!DNL Google Analytics] an Search, Social und Commerce zu übergeben.
 

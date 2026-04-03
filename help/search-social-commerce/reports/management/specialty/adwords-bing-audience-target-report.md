@@ -3,9 +3,16 @@ title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Erfahren Sie mehr über die [!UICONTROL AdWords and Bing Audience Target Report].
 exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/Q3ZAzWkY0nW6ZTpRMzWORvfSV5KJfEB8mcn74bOuxTA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ Sie können Daten für bis zum Vorjahr anzeigen.
 >[!NOTE]
 >
 >* [!DNL Google Ads] bietet keine Möglichkeit, Umsatzdaten für marktinterne Zielgruppen zu verfolgen.
->* Die Daten für diesen Bericht werden für den Vortag jeden Tag um 23:00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
+>* Die Daten für diesen Bericht werden für den Vortag um :00 Uhr (23:00 Uhr) abgerufen. Zum Beispiel ruft sie am :00. Juni um 23 Uhr Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen :00 bevor Daten für den 18. Juni abgerufen werden, enthält der Bericht bis zum 17. Juni um 23::00 Daten.
 
 ## Standardspalten
 

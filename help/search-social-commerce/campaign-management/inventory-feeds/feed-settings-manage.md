@@ -3,9 +3,14 @@ title: Konfigurieren von Feed-Dateneinstellungen
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ Der Bestand für jeden Zeileneintrag stammt aus einer Spalte in der Feed-Datei, 
 >[!NOTE]
 >
 >* Bei FTP-Dateien sucht der Feed-Service alle zwei Stunden im FTP-Verzeichnis nach Aktualisierungen (in der PST-Zeitzone nach geraden Stunden). Diese Option verarbeitet alle Dateien, die seit der letzten Prüfung hochgeladen wurden.
->* Für Merchant Center-Konten synchronisiert Search, Social und Commerce täglich um ca. 06:00 Uhr in der Zeitzone des Werbetreibenden mit dem Konto. Diese Option verarbeitet alle Daten, die seit der letzten Synchronisierung aktualisiert wurden.
+>* Für Merchant Center-Konten synchronisiert Search, Social und Commerce täglich um ca. 06 :00 in der Zeitzone des Werbetreibenden mit dem Konto. Diese Option verarbeitet alle Daten, die seit der letzten Synchronisierung aktualisiert wurden.
 >* Weitergegebene Daten sind auf den Registerkarten [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] und [!UICONTROL Ads] verfügbar, bis die Daten an das Werbenetzwerk oder die [!UICONTROL Bulksheets] gesendet werden.
 
 **[!UICONTROL Post to the SE]:** (Werbetreibende, die Datendateien über FTP oder ein Händlerkonto hochladen) erstellt automatisch Bulksheet-Dateien in den richtigen Formaten für die relevanten Werbenetzwerke, nachdem neue Daten über die entsprechenden Vorlagen propagiert wurden. Mit dieser Option werden auch die Daten aus den Registerkarten &quot;[!UICONTROL Campaigns]&quot;, &quot;[!UICONTROL Ad Groups]&quot;, &quot;[!UICONTROL Keywords]&quot; und &quot;[!UICONTROL Ads]&quot; entfernt, sofern keine Unterkomponenten Fehler aufweisen.

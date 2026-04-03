@@ -3,10 +3,15 @@ title: Bulksheet-Fehler
 description: Referenzieren Sie potenzielle Gründe für jeden Bulksheet-Fehler.
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 0%
+source-wordcount: 1137
+ht-degree: 1%
 
 ---
 
@@ -35,14 +40,14 @@ Die folgenden Fehler können in der Spalte [!UICONTROL EF Error] in [!UICONTROL 
 
 | Kategorie | Nachricht | Beschreibung |
 |----|----|----|
-| Allgemein | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Der Vorgang ist aufgrund eines nicht kategorisierten oder nicht behandelten Fehlers vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe-Account-Team, um die Ursache zu untersuchen. |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social und Commerce konnten vor dem Erstellen der Bulksheet nicht mit dem Anzeigennetzwerk synchronisiert werden, sodass keine Bulksheet erstellt wurde. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe-Account-Team. |
+| Allgemein | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Der Vorgang ist aufgrund eines nicht kategorisierten oder nicht behandelten Fehlers vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team, um die Ursache zu untersuchen. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Search, Social und Commerce konnten vor dem Erstellen der Bulksheet nicht mit dem Anzeigennetzwerk synchronisiert werden, sodass keine Bulksheet erstellt wurde. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 
 ### Fehler beim Hochladen
 
 | Kategorie | Nachricht | Beschreibung |
 |----|----|----|
-| Allgemein | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe-Account-Team. |
+| Allgemein | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Invalid Fields.] \[Ungültige Felder und Fehler\] | Die angegebenen Daten fehlen oder sind ungültig. |
 |  | [!UICONTROL Invalid Reference Given] | Die Kennung der Entität im Werbenetzwerk oder die Kennung der übergeordneten Entität (z. B. die Konto-ID) entspricht keiner Entität in Search, Social und Commerce. Dies kann vorkommen, wenn Sie die ID im Bulksheet bearbeitet haben. |
 |  | [!UICONTROL &lt;Entity> is deleted or expired] | Die Entität ist abgelaufen oder wurde gelöscht, und Sie können ihre Eigenschaften nicht ändern. Die Entität kann gelöscht werden, wenn der Status manuell bearbeitet wurde. |
@@ -83,7 +88,7 @@ Die folgenden Fehler treten nur in [!UICONTROL EF Errors] Dateien auf. Die meist
 
 | Kategorie | Nachricht | Beschreibung |
 |----|----|----|
-| Allgemein | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe-Account-Team. |
+| Allgemein | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Der Vorgang ist vollständig fehlgeschlagen. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | Alle Entitäten | [!UICONTROL Entity] wird an das Werbenetzwerk gesendet | Die Entität wurde im Anzeigennetzwerk veröffentlicht, aber nicht gleichzeitig mit Search, Social und Commerce synchronisiert, sodass die Entitätsdaten in Search, Social und Commerce nicht sofort verfügbar sind. Der Synchronisierungsvorgang wird jetzt automatisch ausgelöst.<br><br>Wenn große Datenmengen synchronisiert werden, sind die Daten möglicherweise mehrere Stunden lang nicht in Search, Social und Commerce verfügbar. |
 | | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Die übergeordnete Entität konnte nicht erstellt werden, daher wurde diese untergeordnete Entität nicht erstellt. |
 

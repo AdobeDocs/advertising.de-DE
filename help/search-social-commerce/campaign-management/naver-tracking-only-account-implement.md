@@ -3,9 +3,17 @@ title: Nur [!DNL Naver] Tracking-Konten implementieren
 description: Erfahren Sie, wie Sie Tracking-Kampagnen für Ihre  [!DNL Naver]  einrichten, damit Sie die Leistung der Anzeigen, die Sie direkt im Anzeigennetzwerk kaufen, verfolgen, in Berichten erfassen und visualisieren können.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 0%
 
 ---
@@ -68,7 +76,7 @@ Sie können Leistungsmetriken für all Ihre Kampagnen und für jede einzelne Kam
 
    Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
+Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Search, Social, & Commerce], [!UICONTROL Campaigns], [!UICONTROL Campaigns] und [!UICONTROL Accounts] unter [!UICONTROL Campaigns] > [!UICONTROL Ad Groups] > [!UICONTROL Keywords] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
 
 >[!MORELIKETHIS]
 >

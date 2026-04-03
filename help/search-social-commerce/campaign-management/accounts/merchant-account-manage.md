@@ -3,9 +3,14 @@ title: Händlerkonten verwalten
 description: Erfahren Sie, wie Sie Kontodetails für ein Merchant Center-Konto einrichten und verwalten.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +67,7 @@ Um Produktdaten anzuzeigen und Tracking-Vorlagen für ein Händlerkonto zu gener
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-   Attributdaten für alle Produkte im Konto sind in Search, Social und Commerce nach dem nächsten täglichen Synchronisierungsprozess verfügbar (ca. 06:00 Uhr in der lokalen Zeitzone der Benutzerin oder des Benutzers). Anschließend können Sie die Produktdaten verwenden, um die Anzeigenerstellung mithilfe von Inventar-Feeds zu automatisieren.
+   Attributdaten für alle Produkte im Konto sind in Search, Social und Commerce nach dem nächsten täglichen Synchronisierungsprozess verfügbar (ca. 06:00 in der lokalen Zeitzone der Benutzerin oder des Benutzers). Anschließend können Sie die Produktdaten verwenden, um die Anzeigenerstellung mithilfe von Inventar-Feeds zu automatisieren.
 
 ## Details zum Händlerkonto bearbeiten {#edit-merchant-account}
 
@@ -84,7 +89,7 @@ Wenn sich die Kontoanmeldeinformationen ändern oder Sie das Abrufen und Verwend
 
 >[!NOTE]
 >
->Search, Social und Commerce müssen die neuen Kontodaten mit denen im Händlernetzwerk synchronisieren. Dies geschieht automatisch einmal täglich um ca. 06:00 Uhr in der lokalen Zeitzone des Benutzers.
+>Search, Social und Commerce müssen die neuen Kontodaten mit denen im Händlernetzwerk synchronisieren. Dies geschieht automatisch einmal täglich um etwa 06 :00 in der lokalen Zeitzone des Benutzers.
 
 ## Zugriff auf ein Händlerkonto deaktivieren {#disable-merchant-account}
 

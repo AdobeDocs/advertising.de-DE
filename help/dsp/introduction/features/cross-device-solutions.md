@@ -3,9 +3,20 @@ title: Geräteübergreifende Lösungen
 description: Weitere Informationen zu geräteübergreifenden Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
+TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -30,7 +41,7 @@ Wenn Sie ein unterstütztes personenbasiertes Gerätediagramm verwenden, können
 
 * Ist kostenlos für Frequenzlimitierung und Attributionsmessung
 
-* CPM Für erweiterte Impressionen (Impressionen, die ausschließlich mithilfe des [!DNL LiveRamp]-Gerätediagramms und nicht auf Geräten innerhalb der Zielgruppensegmente bereitgestellt werden) wird ein Preis von 0,35 US-Dollar berechnet.
+* Für erweiterte Impressionen (Impressionen, die ausschließlich mithilfe des [!DNL LiveRamp]-Gerätediagramms und nicht auf Geräten innerhalb der Zielgruppensegmente bereitgestellt werden) wird ein Preis von 0,35 US-Dollar berechnet.
 
   Der Tarif wird auf der Tarifkarte Ihres Kontos angezeigt.
 
@@ -90,11 +101,11 @@ Wenn Sie die geräteübergreifende Attributionsmessung aktivieren möchten, wend
 
 Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, enthält der [!UICONTROL Conversion] eine [!UICONTROL Cross-Device Breakout], mit der Sie bis zu drei separate Spalten für jede Konversionsmetrik einbeziehen können, darunter:
 
-* &lt;*Conversion*>[!UICONTROL (tp)]: Umfasst die gesamten Konversionen (Personen insgesamt), einschließlich der Konversionen auf demselben Gerät und geräteübergreifender Konversionen (falls zutreffend). Im Bericht wird &quot;[!UICONTROL (tp)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(tp)„).
+* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (tp)]: Umfasst die Gesamtkonversionen (Personen insgesamt), die sowohl Konversionen auf demselben Gerät als auch geräteübergreifende Konversionen (falls zutreffend) umfasst.* Im Bericht wird &quot;[!UICONTROL (tp)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(tp)„).
 
-* &lt;*Conversion*>[!UICONTROL (sd)]: (Optional) Enthält nur Konversionen, bei denen im Konvertierungspfad nur ein einzelnes Gerät verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (sd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(sd)„).
+* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (sd)]: (Optional) Umfasst nur Konversionen, bei denen im Konvertierungspfad nur ein einzelnes Gerät verfolgt wurde.* Im Bericht wird &quot;[!UICONTROL (sd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(sd)„).
 
-* &lt;*Conversion*>[!UICONTROL (xd)]: (Optional) Enthält nur Konversionen, bei denen mehr als ein Gerät im Konversionspfad verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(xd)„).
+* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (xd)]: (Optional) Umfasst nur Konversionen, bei denen mehr als ein Gerät im Konversionspfad verfolgt wurde.* Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(xd)„).
 
 #### Interpretation des [!UICONTROL Conversion]
 

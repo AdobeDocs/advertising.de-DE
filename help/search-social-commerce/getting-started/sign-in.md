@@ -3,9 +3,16 @@ title: Anmelden
 description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
+TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 0%
 
 ---
@@ -22,7 +29,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben für kurze Zeit aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 

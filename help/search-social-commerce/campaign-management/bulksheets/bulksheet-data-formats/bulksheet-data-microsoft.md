@@ -3,9 +3,16 @@ title: 'Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] '
 description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Microsoft Advertising]  Konten.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -63,7 +70,7 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 | [!UICONTROL Promotion Line] | (Nur Produktlisten-Anzeigen) Eine eindeutige Promotion-Zeile, die in den Suchergebnissen in den Produktlisten enthalten sein soll (z. B. „Jetzt versandkostenfrei!„). Die maximale Länge beträgt 45 Zeichen.<br><br>Die Promotion-Zeile kann relativ zur Anzeige an verschiedenen Stellen angezeigt werden (z. B. unter der Anzeige), je nachdem, wo die Anzeige auf der Seite erscheint. |
 | [!UICONTROL Display URL] | Die in der Anzeige enthaltene URL.<br><br>Bei erweiterten dynamischen Suchanzeigen generiert das Anzeigennetzwerk diesen Wert dynamisch aus der Website-Domain und Sie müssen keinen Wert eingeben.<br><br>Bei erweiterten Textanzeigen und responsiven Suchanzeigen müssen Sie keinen Wert eingeben. Die Anzeige-URL wird in der endgültigen URL automatisch aus der Domain extrahiert. Sie können die URL optional mit den Feldern Pfad 1 und Pfad 2 anpassen.<br><br><b>Hinweise:</b><ul><li>(Konten mit endgültigen URLs) Die Domain-Namen in der Anzeige-URL und der endgültigen URL müssen übereinstimmen.</li><li>[!DNL Microsoft Advertising] veralteten erweiterten Textanzeigen im August 2022 können Sie jetzt nur noch Berichte dazu erstellen und sie löschen.</li></ul> |
 | [!UICONTROL Display Path 1] | (Nur erweiterte Textanzeigen, dynamische Suchanzeigen und responsive Suchanzeigen) Text, der zur Anzeige-URL hinzugefügt wird, die automatisch aus der endgültigen URL extrahiert wird. Jedem Pfad wird in der URL ein Schrägstrich (/) vorangestellt. Ein Pfad darf keine Schrägstriche (/) oder Zeilenumbrüche (\n) enthalten. Die maximale Länge für jeden Pfad beträgt 15 Zeichen oder 7 Doppelbyte-Zeichen.<br><br>Verwenden Sie zum Einfügen einer Anzeigenanpassung die folgenden Formate, wobei „Standardtext“ ein optionaler Wert ist, der eingefügt wird, wenn Ihre Feed-Datei keinen gültigen Wert enthält: `{CUSTOMIZER.Attribute name:Default text}`, z. B. `{CUSTOMIZER.Discount:10%}`<br><br>Wenn [!UICONTROL Display Path 1] beispielsweise „Angebote“ ist, wäre die Anzeige-URL &lt;display URL>/offers, z. B. www.example.com/deals.<br><br>[!DNL Microsoft Advertising] veralteten erweiterten Textanzeigen im August 2022 können Sie jetzt nur noch Berichte dazu erstellen und sie löschen. |
-| [!UICONTROL Display Path 1] | (Nur erweiterte Textanzeigen, dynamische Suchanzeigen und responsive Suchanzeigen) Ein zusätzlicher Anzeigepfad; [!UICONTROL Display Path 1] finden Sie im Eintrag.<br><br>Beispiel: Wenn [!UICONTROL Display Path 1] „Angebote“ und [!UICONTROL Display Path 2] „lokal“ ist, dann würde die Anzeige-URL &lt;<i>Display URL>/</i>/local sein, z. B. www.example.com/deals/local. |
+| [!UICONTROL Display Path 1] | (Nur erweiterte Textanzeigen, dynamische Suchanzeigen und responsive Suchanzeigen) Ein zusätzlicher Anzeigepfad; [!UICONTROL Display Path 1] finden Sie im Eintrag.<br><br>Beispiel: Wenn [!UICONTROL Display Path 1] „Angebote“ und [!UICONTROL Display Path 2] „lokal“ ist, dann würde die Anzeige-URL „ph id=&#39;78&#39;/>Anzeige-URL>/</i>/lokal sein, z. B. www.example.com/deals/local.<i> |
 | [!UICONTROL Start Date] | (Nur erweiterte Sitelinks) Das erste Datum, an dem Gebote für den Sitelink in der Zeitzone des Werbetreibenden in einem der folgenden Formate abgegeben werden können: M/D/JJJJ, M/D/JJJ, M-D-JJJJ oder M-D-JJJ. Der Standardwert für neue erweiterte Sitelinks ist der aktuelle Tag. <b>Hinweis</b> Neue erweiterte Sitelinks können nur in Kampagnen mit vorhandenen erweiterten Sitelinks oder ohne Sitelinks erstellt werden. |
 | [!UICONTROL End Date] | Das letzte Datum, an dem der Sitelink mit Anzeigen in der Zeitzone des Werbetreibenden und in einem der folgenden Formate angezeigt werden kann: M/D/JJJJ, M/D/JJJJ, M-D-JJJJ oder M-D-JJJ. Für einen neuen Sitelink ist der Standardwert `[blank]` (d. h. kein Enddatum). |
 | [!UICONTROL Call To Action] | Die call to action, die in die Anzeige aufgenommen werden soll. Siehe die [API-Referenz für eine Liste möglicher Werte](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction) geben Sie jedoch mehrwortige Aktionsaufrufe als mehrere Wörter (z. B. „Bet Now“ anstelle von „BetNow„) in Bulksheets ein. |

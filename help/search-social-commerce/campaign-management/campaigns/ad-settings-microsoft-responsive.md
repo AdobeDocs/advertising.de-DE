@@ -3,9 +3,14 @@ title: Responsive Anzeigeneinstellungen [!DNL Microsoft Advertising]
 description: Verweisen Sie auf die Einstellungen für  [!DNL Microsoft Advertising]  Anzeigen.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Das responsive Anzeigenformat ist für bildbasierte, videobasierte und verbunden
 >
 >Das Werbenetzwerk erstellt automatisch Anzeigen für Zielgruppenkampagnen, die mit einem Händler-Center-Store über die Produktinformationen des Stores und das Benutzer-Targeting auf Anzeigengruppenebene verknüpft sind. Sie müssen keine Anzeigen manuell erstellen.
 
-**[!UICONTROL Images]:** Bis zu 15 JPEG- oder PNG-Bilder für die Anzeige. Mindestens ein Bild mit einem Seitenverhältnis von 1,91:1 einschließen. Siehe die zulässigen Seitenrationen und Dimensionen für [Zielgruppen-Anzeigenbilder](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
+**[!UICONTROL Images]:** Bis zu 15 JPEG- oder PNG-Bilder für die Anzeige. Mindestens ein Bild mit einem Seitenverhältnis von 1,91:1 enthalten. Siehe die zulässigen Seitenrationen und Dimensionen für [Zielgruppen-Anzeigenbilder](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
 Für Zielgruppenanzeigen schneidet [!DNL Microsoft Advertising] dieses Bild automatisch für alle möglichen Seitenverhältnisse zu.
 

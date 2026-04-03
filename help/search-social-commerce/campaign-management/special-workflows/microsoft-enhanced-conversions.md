@@ -3,9 +3,16 @@ title: Implementieren  [!DNL Microsoft Advertising]  erweiterten Konversionen f�
 description: Erfahren Sie mehr über den Workflow zum Einrichten  [!DNL Microsoft Advertising]  erweiterten Konvertierungen für Offline-Konvertierungen.
 feature: Search Campaign Management, Conversions
 exl-id: 44937db7-9e80-4a5d-85c7-5bd5febc3b96
-source-git-commit: 82883a41e663259ac061a77bbf5512794b87d952
+TQID: https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -20,7 +27,7 @@ Innerhalb von Search, Social und Commerce können Sie:
 
 * Anzeigen vorhandener erweiterter Konversionen für Offline-Konversionen
 
-  Search, Social und Commerce synchronisieren Ihre vorhandenen erweiterten Konversionen täglich um 05:00 Uhr in der Zeitzone des Werbetreibenden.
+  Search, Social und Commerce synchronisieren Ihre vorhandenen erweiterten Konversionen täglich um 05 :00 in der Zeitzone des Werbetreibenden.
 
 * Laden Sie Offline-Konversionsdaten von Erstanbietern hoch, um sie Ihren vorhandenen erweiterten Konversionszielen zuzuordnen.
 

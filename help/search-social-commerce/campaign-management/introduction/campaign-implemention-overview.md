@@ -3,9 +3,18 @@ title: Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagn
 description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
@@ -60,13 +69,13 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
    1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den Web-Seiten des Werbetreibenden und/oder die Einrichtung einer täglichen Feed-Drop für Konversionsdaten beinhalten, die der Werbetreibende separat erfasst hat.
 
-      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie [Konversionsverfolgungstags](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social und Commerce oder mithilfe von [Tags aus Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=de) (früher Adobe Experience Platform Launch) generieren.
+      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie [Konversionsverfolgungstags](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social und Commerce oder mithilfe von [Tags aus Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (früher Adobe Experience Platform Launch) generieren.
 
    1. Validieren Sie die nachverfolgten Daten.
 
    Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel „Tracking“.
 
-1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de), damit sie Daten austauschen können.
+1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und &#x200B;](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html), damit sie Daten austauschen können.
 
 1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [&#x200B; unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

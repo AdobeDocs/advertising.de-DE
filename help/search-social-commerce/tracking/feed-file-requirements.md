@@ -3,9 +3,17 @@ title: Dateianforderungen für Konversions-Feed-Dateien
 description: Referenzieren Sie die Anforderungen an Konversions-Feed-Dateien.
 exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 0%
 
 ---
@@ -30,11 +38,11 @@ Der Dateiname muss das Datum enthalten und konsistent sein. Wenn Sie beispielswe
 
 ## Dateiübertragungsprotokoll
 
-Senden Sie die Datei über das SFTP-Übertragungsprotokoll über Port 22. Sie müssen Ihre Informationen zum öffentlichen Schlüssel bereitstellen.  Ihr Adobe-Konto-Team oder das Implementierungs-Team stellt Ihnen den Serverstandort zusammen mit den Anmeldeinformationen zur Verfügung, die für Ihr System zur Übertragung der Dateien erforderlich sind.
+Senden Sie die Datei über das SFTP-Übertragungsprotokoll über Port 22. Sie müssen Ihre Informationen zum öffentlichen Schlüssel bereitstellen.  Ihr Adobe-Konto-Team oder das Implementierungs-Team stellt Ihnen den Serverstandort zusammen mit den Anmeldeinformationen zur Verfügung, die Ihr System zur Übertragung der Dateien benötigt.
 
 >[!TIP]
 >
->Konversionsdaten-Feeds werden mehrmals täglich verarbeitet. Laden Sie den täglichen Feed so bald wie möglich nach Mitternacht (Ortszeit) um 12:00 Uhr hoch, damit Adobe Advertising Ihre Daten verarbeiten und in der Reporting-Benutzeroberfläche am frühen Morgen verfügbar machen kann.
+>Konversionsdaten-Feeds werden mehrmals täglich verarbeitet. Laden Sie den täglichen Feed so bald wie möglich nach 12::00 Ortszeit hoch, damit Adobe Advertising Ihre Daten verarbeiten und am frühen Morgen in der Reporting-Benutzeroberfläche verfügbar machen kann.
 
 >[!MORELIKETHIS]
 >

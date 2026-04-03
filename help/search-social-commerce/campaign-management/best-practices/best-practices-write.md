@@ -3,9 +3,16 @@ title: Effektiven Text und Kopie schreiben
 description: Erfahren Sie mehr über Best Practices für das Schreiben effektiver Anzeigenkopien.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -40,7 +47,7 @@ ht-degree: 0%
 
 * Unsachgemäße Sprache ist verboten.
 
-## Recommendations für effektive Anzeigen
+## Empfehlungen für effektive Anzeigen
 
 * Schreiben Sie überzeugende Schlagzeilen, um potenzielle Kunden anzulocken.
 
@@ -62,7 +69,7 @@ ht-degree: 0%
 
 * Wenn möglich, verwenden Sie das Keyword sowohl in der Überschrift/im Titel als auch in beiden Zeilen der Beschreibung/des Hauptteils. [1]
 
-* Fügen Sie immer einen Aktionsaufruf im Text ein, z. B. „Anzeigen“, „Checkout“, „Bestellen“ oder „Registrieren“, um die Klickrate zu erhöhen. Nehmen Sie bei Bildanzeigen den Aktionsaufruf für eine Schaltfläche auf, die mit Ihrer Website verknüpft ist. Bei Rich-Media-Anzeigen müssen Sie den Aktionsaufruf in einem frühen Frame einfügen.
+* Fügen Sie immer eine call to action in den Text ein, z. B. „Anzeigen“, „Auschecken“, „Bestellen“ oder „Registrieren“, um die Klickrate zu erhöhen. Fügen Sie für Bildanzeigen die call to action auf einer Schaltfläche hinzu, die mit Ihrer Website verknüpft ist. Für Rich-Media-Anzeigen schließen Sie die call to action in einem frühen Frame ein.
 
 * Seien Sie sensibel dafür, wie der Werbetreibende seine Marke wahrnehmen möchte. Ein Werbetreibender möchte beispielsweise nicht, dass das Wort „billig“ in seinen Anzeigen erscheint.
 

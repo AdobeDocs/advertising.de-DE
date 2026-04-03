@@ -3,9 +3,16 @@ title: Implementieren  [!DNL Google Ads]  Kampagnen mit maximaler Leistung
 description: Erfahren Sie mehr über den Workflow zum Einrichten  [!DNL Google Ads]  Kampagnen mit maximaler Leistung.
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 In [!DNL Google Ads] Kampagnen mit dem Typ „Performance Max“ richten Sie keine Anzeigengruppen, Anzeigen oder Schlüsselwörter ein. Stattdessen geben Sie in den Kampagneneinstellungen eine oder mehrere Asset-Gruppen an, zu denen Überschriften, Beschreibungen und hochgeladene Bilder, Logos und [!DNL YouTube videos] gehören. [!DNL Google Ads] kombiniert die Assets automatisch, um Anzeigen basierend auf dem Kanal bereitzustellen (z. B. [!DNL YouTube], [!DNL Gmail] oder [!DNL Search]).
 
-Sie können Ihre bestehenden Performance Max-Kampagnen mit Leistungsdaten im Tabellen- und Trenddiagramm-Format in der [!DNL Campaigns] Ansicht anzeigen. Daten sind nicht auf niedrigeren Ebenen verfügbar. Leistungsdaten auf Kampagnenebene sind auch in Berichten und in Adobe Analytics (für Werbetreibende mit einer [Analytics-Integration) &#x200B;](/help/integrations/analytics/overview.md). Um Leistungsdaten für Kampagnen mit dem Status „Performance Max“ in [!DNL Analytics] anzuzeigen, muss die Kampagne den [upgegradeten AMO-ID-Trackingcode](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden, mit dem die Kampagnen-ID und die Anzeigengruppen-ID verfolgt werden.
+Sie können Ihre bestehenden Performance Max-Kampagnen mit Leistungsdaten im Tabellen- und Trenddiagramm-Format in der [!DNL Campaigns] Ansicht anzeigen. Daten sind nicht auf niedrigeren Ebenen verfügbar. Leistungsdaten auf Kampagnenebene sind auch in Berichten und in Adobe Analytics (für Werbetreibende mit einer [Analytics-Integration) &#x200B;](/help/integrations/analytics/overview.md). Um Leistungsdaten für Kampagnen mit dem Status „Performance Max“ in [!DNL Analytics] anzuzeigen, muss die Kampagne den [upgegradeten AMO-ID-Trackingcode](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden, mit dem die Kampagnen-ID und die Anzeigengruppen-ID verfolgt werden.
 
 >[!NOTE]
 >

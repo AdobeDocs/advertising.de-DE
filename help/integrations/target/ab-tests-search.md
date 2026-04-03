@@ -2,9 +2,25 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising-Suche, Social-Media- und Commerce-Anzeigen in Adobe Target
 description: Erfahren Sie, wie Sie in Search, Social und Commerce einen A/B [!DNL Target] Test für Ihre  [!DNL Google Ads] und [!DNL Microsoft Advertising] Anzeigen einrichten.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -44,9 +60,9 @@ In den folgenden Abschnitten finden Sie die Voraussetzungen, Anweisungen zum Ein
 
 In den folgenden Anweisungen werden Informationen zum Anwendungsfall „Suche“, „Social“ und &quot;Commerce&quot; hervorgehoben.
 
-1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=de).
+1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de):
+1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
    1. Geben Sie im Feld **[!UICONTROL Enter Activity URL]** die Landingpage-URL für den Test ein.
 
@@ -61,7 +77,7 @@ In den folgenden Anweisungen werden Informationen zum Anwendungsfall „Suche“
 
    1. Wählen Sie in **[!UICONTROL Reporting Settings]** die **[!UICONTROL Company Name]** und **[!UICONTROL Report Suite]** aus, die mit Ihrem Search-, Social- und Commerce-Konto verbunden sind.
 
-      Weitere Tipps zum Reporting finden Sie unter [Best Practices für das Reporting und Fehlerbehebung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=de).
+      Weitere Tipps zum Reporting finden Sie unter [Best Practices für das Reporting und Fehlerbehebung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).
 
    1. Geben Sie im Feld **[!UICONTROL Date Range]** das entsprechende Start- und Enddatum für den Test ein.
 
@@ -77,7 +93,7 @@ In den folgenden Anweisungen werden Informationen zum Anwendungsfall „Suche“
 
    1. Speichern Sie die Aktivität.
 
-1. Verwenden Sie [Target Visual Experience &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
+1. Verwenden Sie [Target Visual Experience &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
 
    * Erlebnis A: Nicht bearbeiten, da es sich um das standardmäßige Landingpage-Erlebnis ohne Personalisierung handelt.
 
@@ -119,7 +135,7 @@ Die folgenden Dimensionen beziehen sich auf [!DNL Analytics for Target]:
 
 Wenn Sie in Analysis Workspace bemerken, dass die Daten zu Aktivitäten und Erlebnissen nur minimal sind oder nicht ausgefüllt werden, gehen Sie wie folgt vor:
 
-* Stellen Sie sicher, dass dieselbe [!UICONTROL Supplemental Data ID] (SDID) sowohl für [!DNL Target] als auch für [!DNL Analytics] verwendet wird. Sie können die SDID-Werte mit dem [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=de) auf der Landingpage überprüfen, zu der die Kampagne Benutzer führt.
+* Stellen Sie sicher, dass dieselbe [!UICONTROL Supplemental Data ID] (SDID) sowohl für [!DNL Target] als auch für [!DNL Analytics] verwendet wird. Sie können die SDID-Werte mit dem [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) auf der Landingpage überprüfen, zu der die Kampagne Benutzer führt.
 
 [Zusätzliche Daten-ID-Werte (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -134,7 +150,7 @@ Wenn Sie in Analysis Workspace bemerken, dass die Daten zu Aktivitäten und Erle
 ## Weitere Informationen
 
 * [Target mit Analytics integrieren](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=de) - Beschreibt das Einrichten von [!DNL Target] in Analysis Workspace.
-* [A/B-Test - Übersicht](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=de) Beschreibt A/B-Test-Aktivitäten, die Sie mit Anzeigen in Search, Social und Commerce verwenden können.
+* [A/B-Test - Übersicht](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) Beschreibt A/B-Test-Aktivitäten, die Sie mit Anzeigen in Search, Social und Commerce verwenden können.
 * [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Einführung in [!DNL Analytics for Advertising], mit dem Sie Clickthrough- und View-Through-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
 
 >[!MORELIKETHIS]

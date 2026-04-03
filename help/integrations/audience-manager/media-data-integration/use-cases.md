@@ -3,9 +3,24 @@ title: Anwendungsfälle
 description: Erfahren Sie mehr über Anwendungsfälle für die Freigabe Ihrer Advertising DSP-Mediendaten mit Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: 730
 ht-degree: 0%
 
 ---
@@ -22,7 +37,7 @@ Im Folgenden finden Sie einige Möglichkeiten, wie Sie von der Erfassung Ihrer A
 
 Durch die Erfassung von Impressionsdaten in Audience Manager können Sie Ihre Häufigkeitsverwaltung verbessern, indem Sie Segmente von Benutzenden erstellen, die mit einer bestimmten Anzeige oder Kampagne Kontakt hatten. Sie können diese Segmente für das Anzeigen-Targeting verwenden, wenn Sie die Häufigkeit erhöhen möchten, oder für die Anzeigenunterdrückung, wenn Sie die Häufigkeit begrenzen möchten.
 
-Außerdem können Sie mit Audience Manager [!DNL Segment Builder] ([- und Häufigkeitskontrollen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=de) auf alle [regelbasierten Eigenschaften](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=de) anwenden, die verwertbare Signale enthalten. Auf diese Weise können Sie beispielsweise einschränken, wie oft einem Benutzer innerhalb einer Medienkampagne ein bestimmter Kreativer angezeigt wird. Lesen Sie [Instant Cross-Device &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=de)&quot;, um zu erfahren, wie Sie dies tun können.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+Außerdem können Sie mit Audience Manager [!DNL Segment Builder] ([- und Häufigkeitskontrollen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html) auf alle [regelbasierten Eigenschaften](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) anwenden, die verwertbare Signale enthalten. Auf diese Weise können Sie beispielsweise einschränken, wie oft einem Benutzer innerhalb einer Medienkampagne ein bestimmter Kreativer angezeigt wird. Lesen Sie [Instant Cross-Device &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html)&quot;, um zu erfahren, wie Sie dies tun können.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## Sequenzielles Messaging
 
@@ -64,16 +79,16 @@ Sobald Kampagnenimpressions- und Klick-Daten in Audience Manager verfügbar sind
 
 ## [!DNL Audience Optimization Reports]
 
-Sie können [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=de) nutzen, um potenzielle Leistungsmöglichkeiten für Segmente in Ihren Kampagnen zu identifizieren. Diese Berichte kombinieren Kampagnen-Impressions-, Klick- und Konversionsdaten mit Segmentmetriken, um segmentorientierte Optimierungen und einen effektiven Kanal-Mix zu erzielen.
+Sie können [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) nutzen, um potenzielle Leistungsmöglichkeiten für Segmente in Ihren Kampagnen zu identifizieren. Diese Berichte kombinieren Kampagnen-Impressions-, Klick- und Konversionsdaten mit Segmentmetriken, um segmentorientierte Optimierungen und einen effektiven Kanal-Mix zu erzielen.
 
 ### Typen relevanter Audience Optimization-Berichte
 
 | Bericht | Beschreibung |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance] Bericht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=de) | Vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressions und Konversionsraten. |
+| [[!UICONTROL Segment Performance] Bericht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | Vergleicht zugeordnete und nicht zugeordnete Segmente nach Impressions und Konversionsraten. |
 | [[!UICONTROL Trend Analysis and Volume Analysis] Berichte]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | Gibt Daten zu Impressionen, Clickthrough-Raten und Konversionen für einen breiten Bereich von Werbedimensionen zurück. |
 | [[!UICONTROL Optimal Frequency] Bericht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=de) | Hilft Ihnen dabei, das optimale Gleichgewicht zwischen der Anzahl der bereitgestellten Impressions und Konversionen zu ermitteln. Damit können Sie die Anzahl der Impressionen anpassen, die angezeigt werden sollen, bevor Sie beginnen, abnehmende Rückgaben zu sehen. |
-| [[!UICONTROL Unique User Reach] Bericht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=de) | Ein Blasendiagramm, in dem die Größe jeder Blase direkt proportional zur Anzahl der eindeutigen Benutzer für Ihre ausgewählte Dimension ist. |
+| [[!UICONTROL Unique User Reach] Bericht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | Ein Blasendiagramm, in dem die Größe jeder Blase direkt proportional zur Anzahl der eindeutigen Benutzer für Ihre ausgewählte Dimension ist. |
 
 ### Aspekte
 

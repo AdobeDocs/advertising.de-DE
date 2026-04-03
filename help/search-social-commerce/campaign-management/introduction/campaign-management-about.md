@@ -3,9 +3,17 @@ title: Über die Kampagnenverwaltung in Search, Social und Commerce
 description: Erfahren Sie mehr über die Funktionen zur Kampagnenverwaltung in Search, Social und Commerce.
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbe
 
 ## Einrichten des Zugriffs auf Ihre Werbenetzwerkkonten
 
-Um die Performance von Anzeigen im Ad-Network-Konto eines Werbetreibenden zu verfolgen (und möglicherweise Gebote für die Anzeigen zu platzieren), erstellt das Adobe-Account-Team [einen entsprechenden Account-Eintrag](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) in Search, Social und Commerce. Der Kontodatensatz enthält Tracking-Optionen.
+Um die Performance von Anzeigen im Netzwerk-Konto eines Werbetreibenden zu verfolgen (und möglicherweise Angebote für die Anzeigen zu platzieren), erstellt das Adobe Account Team [einen entsprechenden Account-Datensatz](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) in Search, Social und Commerce. Der Kontodatensatz enthält Tracking-Optionen.
 
 Bei Konten, die über die API des Anzeigennetzwerks synchronisiert werden, enthält der Kontodatensatz auch die Anmeldeinformationen für den Kontozugriff. Sobald das Konto aktiviert ist, werden die Kontodaten mit dem Werbenetzwerk abgerufen. Sie können dann die vorhandenen Kontodaten anzeigen sowie die Kampagnenstruktur und Anzeigendaten erstellen und bearbeiten.
 
@@ -32,7 +40,7 @@ Weitere Informationen zum Tracking finden Sie im Kapitel „Tracking“.
 
 Für [unterstützte Werbenetzwerke und Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) können Sie Ihre Kampagnen in Portfolios mit jeweils einem bestimmten Geschäftsziel und einem bestimmten Budget oder Leistungsziel gruppieren. In Standardportfolios optimiert Search, Social und Commerce CPC-Keyword-Gebote und Kampagnenbudgets. Hybridportfolios kombinieren Optimierungstechnologien aus Search, Social und Commerce sowie Ihren Werbenetzwerken.
 
-Weitere Informationen zu den verfügbaren Portfoliooptionen und zum Einrichten von Portfolios finden Sie im Kapitel Optimierungshandbuch unter &quot;Portfolios&quot;, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+Weitere Informationen zu den verfügbaren Portfoliooptionen und zum Einrichten von Portfolios finden Sie im Kapitel Optimierungshandbuch zu „Portfolios“, das in Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Die Ansichten des Kampagnen-Managements
 
@@ -46,7 +54,7 @@ Mit den Ansichten für das Kampagnen-Management können Sie Ihre Suchkonten übe
 
 * **[!UICONTROL Products]** - Die [!UICONTROL Products] zeigen Daten für jedes [[!DNL Google] - oder  [!DNL Microsoft] -Center-Konto an, das synchronisiert &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Die standardmäßige [!UICONTROL Accounts]-Unteransicht listet alle synchronisierten Konten auf. Einige Benutzertypen können neue Konten aus dieser Ansicht hinzufügen. Die [!UICONTROL Products] Unteransicht listet jedes Produkt im Konto auf.
 
-* **[!UICONTROL Advanced (ACM)]** - In der Ansicht [!DNL Advanced] ([!DNL AMC], für Advanced Campaign Management) können Sie automatisierte Prozesse einrichten, um [dynamische Anzeigen und Keywords zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer von Ihnen erstellten netzwerkspezifischen Anzeigenvorlage und dem Inhalt [!DNL Google Merchant Center] Konten oder Bestandsdatendateien, die Sie in einen FTP-Speicherort hochladen. Unteransichten zeigen Details zu jeder Feed-Vorlage für den Advertiser und zu jeder Kampagne, Anzeigengruppe, jedem Keyword und jeder Anzeige, die in einem Feed enthalten sind, der über eine Feed-Vorlage propagiert, aber nicht im Anzeigennetzwerk veröffentlicht wurde.
+* **[!UICONTROL Advanced (ACM)]** - In der Ansicht [!DNL Advanced] ([!DNL AMC], für erweiterte Kampagnenverwaltung) können Sie automatisierte Prozesse einrichten, um [dynamische Anzeigen und Keywords zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer von Ihnen erstellten netzwerkspezifischen Anzeigenvorlage und dem Inhalt [!DNL Google Merchant Center] Konten oder Bestandsdatendateien, die Sie in einen FTP-Speicherort hochladen. Unteransichten zeigen Details zu jeder Feed-Vorlage für den Advertiser und zu jeder Kampagne, Anzeigengruppe, jedem Keyword und jeder Anzeige, die in einem Feed enthalten sind, der über eine Feed-Vorlage propagiert, aber nicht im Anzeigennetzwerk veröffentlicht wurde.
 
 * **[!UICONTROL Bulksheets]** - Verwenden Sie die [!UICONTROL Bulksheets], um [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) zu erstellen, die beliebig viele Daten für ein Konto in einem [unterstützten Anzeigennetzwerk](/help/search-social-commerce/introduction/supported-inventory.md) enthalten, und sie dann im Anzeigennetzwerk zu veröffentlichen.
 

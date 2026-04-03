@@ -3,9 +3,16 @@ title: Erstellen eines Tabellenbericht-Feeds
 description: Erfahren Sie, wie Sie Tabellen-Feeds einrichten.
 exl-id: a6a9ce46-51b4-4b06-b004-89fce06d1da6
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/LM5QfP4QSOBQ4YFLgdARTKb4xNkyXSJxzG79dGdo-HA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ Richten Sie Tabellen-Feeds mit speziell formatierten [!DNL Excel]-Tabellenvorlag
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 
-   1. (Optional) Klicken Sie nach der *[!UICONTROL Finished]* des Feed-[!UICONTROL Update Status] auf **[!UICONTROL XLSX]** neben dem Feed und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers.
+   1. (Optional) Klicken Sie nach der [!UICONTROL Update Status] des Feed-*[!UICONTROL Finished]* auf **[!UICONTROL XLSX]** neben dem Feed und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers.
 
       >[!NOTE]
       >

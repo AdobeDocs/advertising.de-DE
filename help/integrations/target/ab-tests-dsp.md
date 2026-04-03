@@ -2,9 +2,26 @@
 title: Konfigurieren von A/B-Tests für Adobe Advertising DSP Ads in Adobe Target
 description: Erfahren Sie, wie Sie einen A/B-Test in  [!DNL Target]  für Ihre DSP-Anzeigen einrichten.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: 1404
 ht-degree: 0%
 
 ---
@@ -79,7 +96,7 @@ Durch Hinzufügen eines Audience Manager-Impression-Ereignis-Pixels zu Ihren Anz
 
       1. [Nach dem Signal suchen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=de) nach dem [Schlüssel-Wert-Paar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=de), das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden.
 
-         Verwenden Sie einen [unterstützten Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=de) mit einem Wert, der einem Makro entspricht, das Sie dem Audience Manager Impression Event-Pixel hinzugefügt haben.
+         Verwenden Sie einen [unterstützten Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Audience Manager Impression Event-Pixel hinzugefügt haben.
 
          Um beispielsweise Benutzer für eine bestimmte Platzierung zu gruppieren, verwenden Sie den `d_placement` . Verwenden Sie für den Wert eine tatsächliche numerische Platzierungs-ID (z. B. 2501853), die vom DSP-`${TM_PLACEMENT_ID_NUM}` erfasst wird. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
@@ -93,7 +110,7 @@ Durch Hinzufügen eines Audience Manager-Impression-Ereignis-Pixels zu Ihren Anz
 
       * Verwenden Sie für den Eigenschaftsausdruck `d_event` als **[!UICONTROL Key]** und `imp` als **[!UICONTROL Value]**.
 
-   1. [Testsegment einrichten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=de) Wählen Sie für die neue Eigenschaft in Audience Manager `Ad Cloud` als **[!UICONTROL Data Source]** aus.
+   1. [Testsegment einrichten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) Wählen Sie für die neue Eigenschaft in Audience Manager `Ad Cloud` als **[!UICONTROL Data Source]** aus.
 
       Audience Manager teilt das Segment automatisch in eine Kontrollgruppe auf, die das standardmäßige Landingpage-Erlebnis erhält, und in eine Testgruppe, die ein personalisiertes Onsite-Erlebnis erhalten hat.
 
@@ -101,7 +118,7 @@ Durch Hinzufügen eines Audience Manager-Impression-Ereignis-Pixels zu Ihren Anz
 
 In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorgehoben.
 
-1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=de).
+1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de):
 
@@ -109,7 +126,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
       >[!NOTE]
       >
-      >Sie können mehrere URLs verwenden, um die Viewthrough-Site-Eingabe zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=de). Sie können die wichtigsten Einträge anhand der Seiten-URL leicht identifizieren, indem Sie einen [Site-Einstiegsbericht) &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) Analytics erstellen.
+      >Sie können mehrere URLs verwenden, um die Viewthrough-Site-Eingabe zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html). Sie können die wichtigsten Einträge anhand der Seiten-URL leicht identifizieren, indem Sie einen [Site-Einstiegsbericht) &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) Analytics erstellen.
 
    1. Geben Sie im Feld **[!UICONTROL Goal]** die Erfolgsmetrik für den Test ein.
 
@@ -193,10 +210,10 @@ Wenn Sie in Analysis Workspace bemerken, dass die Daten zu Aktivitäten und Erle
 
 ## Weitere Informationen
 
-* [Target mit Analytics integrieren](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=de) - Beschreibt das Einrichten von [!DNL Target] in Analysis Workspace.
-* [A/B-Test - Übersicht](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=de) Beschreibt A/B-Test -Aktivitäten, die Sie mit DSP Ads verwenden können.
-* [Erlebnisse und Angebote](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=de) - Erläutert [!DNL Target] Tools zur Bestimmung der Inhalte auf der Site, mit denen DSP-Testbenutzer konfrontiert werden.
-* [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=de) - Definiert einige der Audience Manager-Tools, die beim Durchsichtstest in DSP helfen können.
+* [Target mit Analytics integrieren](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Beschreibt das Einrichten von [!DNL Target] in Analysis Workspace.
+* [A/B-Test - Übersicht](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) Beschreibt A/B-Test -Aktivitäten, die Sie mit DSP Ads verwenden können.
+* [Erlebnisse und Angebote](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Erläutert [!DNL Target] Tools zur Bestimmung der Inhalte auf der Site, mit denen DSP-Testbenutzer konfrontiert werden.
+* [Signale, Eigenschaften und Segmente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Definiert einige der Audience Manager-Tools, die beim Durchsichtstest in DSP helfen können.
 * [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Einführung in [!DNL Analytics for Advertising], mit dem Sie Clickthrough- und View-Through-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
 
 >[!MORELIKETHIS]

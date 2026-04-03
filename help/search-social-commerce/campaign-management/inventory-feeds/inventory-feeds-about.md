@@ -3,9 +3,14 @@ title: Automatisieren der Anzeigenverwaltung mithilfe von Inventar-Feeds
 description: Erfahren Sie mehr über das erweiterte Kampagnen-Management, mit dem Sie automatisch die Kontostruktur verwalten und dynamische Anzeigen basierend auf Daten zu Ihrem Produkt- oder Service-Inventar bereitstellen können.
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Erstellen Sie zum Einrichten Ihrer Anzeigen Inventar-Feed-Vorlagen mit Variablen
 
 | Abschnitt der Vorlage [!UICONTROL Ad Variation] | Modifikatoren in Search, Social und Commerce | Feed-Inhalte | Entsprechende Anzeigen |
 |----|----|----|----|
-| Titel: Kaufen Sie High-End \{<i>Produktkategorie</i>\} &lt;<i>CheapList</i>>.<br><br>Beschreibung 1: Riesiger Bestand von \{<i>Product Name</i>\}.<br><br>Beschreibung 2: Verfügbar unter \{<i>Rabatt in Prozent</i>\} % Rabatt. | Werte für die Modifikatorgruppe „CheapList“:<br><br>„for Cheap“<br><br>„at a Discount“ | Produktkategorie,Produktname,Rabatt-Prozentsatz<br>Elektronik,iPods,10<br><br>Bekleidung,Hemden,15<br><br><b>Hinweis:</b> Sie können Werte durch Kommas oder Tabulatoren trennen. | <u>Kaufen Sie High-End-Elektronik für günstig.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Elektronik zu einem Rabatt.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung für günstig.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung zu einem Rabatt.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt. |
+| Titel: Kaufen Sie High-End \{<i>Produktkategorie</i>\} <i>CheapList</i>>.<br><br>Beschreibung 1: Riesiger Bestand von \{<i>Product Name</i>\}.<br><br>Beschreibung 2: Verfügbar unter \{<i>Rabatt in Prozent</i>\} % Rabatt. | Werte für die Modifikatorgruppe „CheapList“:<br><br>„for Cheap“<br><br>„at a Discount“ | Produktkategorie,Produktname,Rabatt-Prozentsatz<br>Elektronik,iPods,10<br><br>Bekleidung,Hemden,15<br><br><b>Hinweis:</b> Sie können Werte durch Kommas oder Tabulatoren trennen. | <u>Kaufen Sie High-End-Elektronik für günstig.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Elektronik zu einem Rabatt.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung für günstig.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung zu einem Rabatt.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt. |
 
 Nachdem Sie die Anzeigen erstellt haben, können Sie sie optional überprüfen und dann im Anzeigennetzwerk posten.
 
@@ -39,7 +44,7 @@ Nachdem Sie die Anzeigen erstellt haben, können Sie sie optional überprüfen u
 
 Zunächst sollten Sie mindestens eine Feed-Datei oder ein Konto testen und dann den Prozess vollständig automatisieren oder bei jedem Schritt weiter steuern:
 
-1. (Optional) Wenden Sie sich an Ihr Adobe-Konto-Team, um ein FTP-Verzeichnis für das Ablegen von Datendateien einzurichten.
+1. (Optional) Wenden Sie sich an Ihr Adobe-Konto-Team, um ein FTP-Verzeichnis für die Speicherung von Datendateien einzurichten.
 
    Wenn Sie das FTP-Verzeichnis verwenden, sucht der Feed-Service alle zwei Stunden nach neuen Dateien.
 

@@ -3,9 +3,16 @@ title: Einstellungen für benutzerdefinierte Warnhinweisvorlagen
 description: Erfahren Sie mehr über die Einstellungen für benutzerdefinierte Warnhinweisvorlagen.
 exl-id: c9cff26b-e6be-4dad-ac3a-b5a53387c4e6
 feature: Search Alerts
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/zPTijDSnrxMys8g0qByEvfh1XyvnAzwwqpVmBHUDdLk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | (Verfügbar, wenn der Warnhinweis in einer oder mehreren Metrikspalten eine Zunahme oder eine Abnahme feststellt; schreibgeschützt) Die beiden Datumsbereiche, für die Daten verglichen werden. |
 |  | [!UICONTROL Date Comparison Format] | (Verfügbar, wenn der Warnhinweis in einer oder mehreren Metrikspalten eine Zunahme oder eine Abnahme feststellt) So drücken Sie den Unterschied zwischen den Daten in den beiden Datumsbereichen aus:<ul><li><p><i>[!UICONTROL Variance]</i> (Standard) - Zeigt die Differenz als numerischen Wert an.</p></li><li><p><i>[!UICONTROL % Change]</i> — Zeigt die Differenz als Prozentsatz an.</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | Der Name des Warnhinweises. Sie muss mindestens fünf Zeichen enthalten. |
-|  | [!UICONTROL Trigger this Alert] [wenn] | Wie oft der Warnhinweis auf die angegebenen Bedingungsfilter prüft und, wenn alle Bedingungen erfüllt sind, E-Mail-Benachrichtigungen sendet:<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*Wochentag*> um &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*Tag NN*> um &lt;*NN*> `[AM\|PM]`]</p></li></ul>**Hinweis:** Dieser Wert hat keinen Einfluss auf den Auswertungszeitraum. |
+|  | [!UICONTROL Trigger this Alert] [wenn] | Wie oft der Warnhinweis auf die angegebenen Bedingungsfilter prüft und, wenn alle Bedingungen erfüllt sind, E-Mail-Benachrichtigungen sendet:<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*Wochentag*> um *NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*Tag NN*> um *NN*> `[AM\|PM]`]</p></li></ul>**Hinweis:** Dieser Wert hat keinen Einfluss auf den Auswertungszeitraum. |
 |  | [!UICONTROL Email Recipients] | (Nur vom Ersteller der Warnhinweisvorlage bearbeitbar; für alle anderen schreibgeschützt) E-Mail-Adressen, an die Benachrichtigungen gesendet werden sollen, wenn ein Warnhinweis generiert wird. Standardmäßig wird die Adresse des Erstellers der Vorlage eingegeben.<br><br>Um eine Adresse hinzuzufügen, geben Sie die Adresse ein und klicken Sie dann auf **[!UICONTROL Add]**. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas oder Leerzeichen oder fügen Sie sie separat hinzu.<br><br>Wenn der Warnhinweis bis zu 1.000 Datensätze enthält, wird eine CSV-Version des Warnhinweises an die E-Mail-Nachricht angehängt. |
 
 >[!MORELIKETHIS]

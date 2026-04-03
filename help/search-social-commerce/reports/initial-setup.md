@@ -3,9 +3,16 @@ title: Ersteinrichtung von Berichten
 description: Erfahren Sie, wie Sie Metriken in Berichten verfügbar machen und Berichte automatisieren können.
 exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+TQID: https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 336
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 Neue Benutzer sollten die folgenden Ersteinrichtungsaufgaben ausführen:
 
-* Erstellen Sie die Konversionsmetriken, die Adobe Advertising für einen Advertiser verfolgt [verfügbar für Berichte und andere &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)), und [ Sie optional eine der Konversionsmetriken (/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md] um, die in Spaltenüberschriften angezeigt werden, um sie lesbar zu machen.
+* Stellen Sie die Konversionsmetriken, die Adobe Advertising für einen Advertiser verfolgt ([&#x200B; für Berichte und andere Ansichten verfügbar](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) bereit und [ Sie optional eine der Konversionsmetriken um ]/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md), die in Spaltenüberschriften angezeigt werden, um sie lesbar zu machen.
 
   Transaktionseigenschaften sind nur dann für Berichte verfügbar, wenn sie von Ihnen speziell bereitgestellt wurden.
 
