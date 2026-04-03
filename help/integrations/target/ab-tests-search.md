@@ -37,7 +37,7 @@ Adobe Advertising und Adobe Target erleichtern die Einrichtung von A/B-Tests fü
 
 * Liefern Sie ein personalisierteres Landingpage-Erlebnis, das für die Anzeige relevant ist (z. B. Abgleich des Bild-/Videosignals, der kreativen Kopie, des Keywords oder anderer Werbesignale mit der Landingpage).
 
-Sie können auch die Berichtsdimensionen der nativen Integration [[!DNL Analytics] für Advertising](/help/integrations/analytics/overview.md) und [[!DNL Analytics] für [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html), die in Adobe Analytics integriert sind, kombinieren, um Ihre Testdaten mit [!DNL Analytics] Metriken und Erfolgsereignissen zu messen und zu visualisieren.
+Sie können auch die Berichtsdimensionen der nativen Integration [[!DNL Analytics] für Advertising](/help/integrations/analytics/overview.md) und [[!DNL Analytics] für [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de), die in Adobe Analytics integriert sind, kombinieren, um Ihre Testdaten mit [!DNL Analytics] Metriken und Erfolgsereignissen zu messen und zu visualisieren.
 
 In den folgenden Abschnitten finden Sie die Voraussetzungen, Anweisungen zum Einrichten von A/B-Tests in [!DNL Target] für Clickthrough-Traffic von Anzeigen in Search, Social und Commerce sowie Tipps zum Messen und Visualisieren Ihrer Tests in [!DNL Analytics].
 
@@ -54,7 +54,7 @@ In den folgenden Abschnitten finden Sie die Voraussetzungen, Anweisungen zum Ein
 
 * [[!DNL Analytics] Integration mit Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)-Integration
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)-Integration
 
 ## Schritt 1: Erstellen Sie eine A/B-Test -Aktivität in [!DNL Target] für Search, Social und Commerce
 
@@ -107,7 +107,7 @@ In den folgenden Anweisungen werden Informationen zum Anwendungsfall „Suche“
 
 [!DNL Analytics for Target] (A4T) ist eine lösungsübergreifende Integration, die es Advertisern ermöglicht, [!DNL Target] Aktivitäten basierend auf [!DNL Analytics] Konversionsmetriken und Zielgruppensegmenten zu erstellen und die Ergebnisse dann mithilfe von [!DNL Analytics] als Berichtsquelle zu messen. Die gesamte Berichterstellung und Segmentierung für diese Aktivität basiert auf [!DNL Analytics] Datenerfassung.
 
-Weitere Informationen zu [!DNL Analytics for Target], einschließlich eines Links zu Implementierungsanweisungen, finden Sie unter &quot;[Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
+Weitere Informationen zu [!DNL Analytics for Target], einschließlich eines Links zu Implementierungsanweisungen, finden Sie unter &quot;[Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de).
 
 ### Einrichten des [!DNL Analytics for Target]
 
@@ -149,7 +149,7 @@ Wenn Sie in Analysis Workspace bemerken, dass die Daten zu Aktivitäten und Erle
 
 ## Weitere Informationen
 
-* [Target mit Analytics integrieren](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Beschreibt das Einrichten von [!DNL Target] in Analysis Workspace.
+* [Target mit Analytics integrieren](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=de) - Beschreibt das Einrichten von [!DNL Target] in Analysis Workspace.
 * [A/B-Test - Übersicht](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) Beschreibt A/B-Test-Aktivitäten, die Sie mit Anzeigen in Search, Social und Commerce verwenden können.
 * [Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Einführung in [!DNL Analytics for Advertising], mit dem Sie Clickthrough- und View-Through-Site-Interaktionen in Ihren Analytics-Instanzen verfolgen können.
 

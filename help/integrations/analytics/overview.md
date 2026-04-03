@@ -101,17 +101,17 @@ Eine Liste der verfügbaren [&#x200B; finden Sie unter &quot;](analytics-data-in
 
 Adobe Advertising kann mithilfe der nativen Integration von Experience Cloud Audiences zwischen [!DNL Analytics] und Experience Cloud [!DNL Search, Social, & Commerce] Segmente für Remarketing-Zwecke für Advertising DSP- und [!DNL Analytics]-Anzeigen aufnehmen.
 
-Um auf die [!DNL Analytics] Segmente zugreifen zu können, muss ein Advertiser-Konto den [Experience Cloud ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktivieren. Wenn der ID-Service aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] erstellten und in Experience Cloud veröffentlichten Segmente, der in Adobe Audience Manager erstellten Segmente, der mit dem [!DNL People core service] in Experience Cloud erstellten Segmente und der in Adobe Experience Platform erstellten und über Audience Manager an Adobe Advertising gesendeten Segmente) innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden.
+Um auf die [!DNL Analytics] Segmente zugreifen zu können, muss ein Advertiser-Konto den [Experience Cloud ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) aktivieren. Wenn der ID-Service aktiviert ist, werden alle Experience Cloud-Segmente (einschließlich der in [!DNL Analytics] erstellten und in Experience Cloud veröffentlichten Segmente, der in Adobe Audience Manager erstellten Segmente, der mit dem [!DNL People core service] in Experience Cloud erstellten Segmente und der in Adobe Experience Platform erstellten und über Audience Manager an Adobe Advertising gesendeten Segmente) innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden.
 
 [!DNL Analytics] Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 
-Weitere Informationen zum Experience Cloud-Zielgruppen-Service finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Weitere Informationen zum Experience Cloud-Zielgruppen-Service finden Sie unter [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de).
 
 ## Beispiele für die Verwendung der Integration {#integration-examples}
 
 ### Verwenden von Adobe Advertising-Daten in Analysis Workspace
 
-Informationen dazu, wie Sie Ihre Adobe Advertising-Daten zum Erstellen visueller Berichte in Analysis Workspace verwenden können, finden Sie im Video [Einführung in Workspace und Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).
+Informationen dazu, wie Sie Ihre Adobe Advertising-Daten zum Erstellen visueller Berichte in Analysis Workspace verwenden können, finden Sie im Video [Einführung in Workspace und Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=de).
 
 #### Verwenden von Connected TV-View-Through-Konversionen in Berichten
 

@@ -88,7 +88,7 @@ Um Anfragen zum Zugreifen auf und Löschen von personenbezogenen Daten von Verbr
    >
    >Wenn Ihr Unternehmen über mehrere Experience Cloud-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] und [!DNL DCO]) mit einem Konto pro Unterlösung senden.
 
-Alle Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mit dem Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Alle Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mit dem Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de).
 
 ## Erforderliche Feldwerte in Adobe Advertising-JSON-Anfragen
 
@@ -105,11 +105,11 @@ Alle Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erha
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (gibt den [[!DNL AdCloud] Cookie-Bereich](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) an)
+   * `"namespace": **411**` (gibt den [[!DNL AdCloud] Cookie-Bereich](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix) an)
 
    * `"value":` *Der Cookie-ID-Wert des tatsächlichen Kunden, wie er von`AdobePrivacy.js`* abgerufen wurde>
 
-* `"include": **adCloud**` (d. h. das [[!DNL Adobe] Produkt](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) das für die Anfrage gilt)
+* `"include": **adCloud**` (d. h. das [[!DNL Adobe] Produkt](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix) das für die Anfrage gilt)
 
 * `"regulation": **ccpa**` (dies ist die Datenschutzverordnung, die für die Anfrage gilt)
 

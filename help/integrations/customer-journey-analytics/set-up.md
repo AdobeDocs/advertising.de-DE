@@ -49,7 +49,7 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
 ### Erfassen und Senden von Daten aus Adobe Advertising an Experience Platform Edge Network als Datensatz
 
-1. Definieren Sie [&#x200B; Experience Platform ein &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas) für die Daten, die Sie mit dem Experience-Datenmodell (XDM) erfassen möchten.
+1. Definieren Sie [&#x200B; Experience Platform ein &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas) für die Daten, die Sie mit dem Experience-Datenmodell (XDM) erfassen möchten.
 
    * Wählen Sie in der [!UICONTROL Schema Details] **[!UICONTROL Experience Event]** als Basisklasse für das Schema zur Erfassung von Site-Ereignissen aus. Benennen Sie Ihr Schema und klicken Sie auf **[!UICONTROL Finish]**.
 
@@ -89,7 +89,7 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
      Verwenden Sie nicht die Adobe Advertising-Erweiterung.
 
-   * Erstellen Sie einen [benutzerdefinierten Web-SDK-Build](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
+   * Erstellen Sie einen [benutzerdefinierten Web-SDK-Build](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
 
       * Aktivieren Sie im Abschnitt [!UICONTROL Custom build components] die Komponente **Advertising**.
 
@@ -109,13 +109,13 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
    * (Optional) [Erstellen Sie nach &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) Regeln, um zu bestimmen, wann Web SDK Daten an Edge Network senden soll.
 
-      * Verwenden Sie für `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` Aktionen die Einstellung [[!UICONTROL Advertising] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising), um festzulegen, wie Werbedaten für die Attributionsmessung verwendet werden. Diese Einstellung ist hilfreich, wenn die Regel eine Sequenz mehrerer Aktionen enthält und nur verfügbar ist, wenn Sie die Komponente &quot;[!UICONTROL Advertising]&quot; für die benutzerdefinierte Build-Komponente ausgewählt haben.
+      * Verwenden Sie für `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` Aktionen die Einstellung [[!UICONTROL Advertising] &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising), um festzulegen, wie Werbedaten für die Attributionsmessung verwendet werden. Diese Einstellung ist hilfreich, wenn die Regel eine Sequenz mehrerer Aktionen enthält und nur verfügbar ist, wenn Sie die Komponente &quot;[!UICONTROL Advertising]&quot; für die benutzerdefinierte Build-Komponente ausgewählt haben.
 
    * Erstellen Sie [Datenelemente](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) nach Bedarf, um Variablen auf Ihrer Website der Struktur des zuvor erstellten XDM-Schemas zuzuordnen.
 
-1. [Veröffentlichen Sie das &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) in einer Testumgebung, in der Sie die Entwicklung von Tags iterieren können.
+1. [Veröffentlichen Sie das &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow) in einer Testumgebung, in der Sie die Entwicklung von Tags iterieren können.
 
-1. Validieren Sie den Versand der Datensätze und [veröffentlichen Sie das Tag in Ihrer Live-Produktionsumgebung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow).
+1. Validieren Sie den Versand der Datensätze und [veröffentlichen Sie das Tag in Ihrer Live-Produktionsumgebung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow).
 
    Möglicherweise muss die IT-Abteilung Ihres Unternehmens oder eine andere Gruppe die Tag-Bereitstellung planen oder darüber informiert werden.
 
@@ -123,7 +123,7 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
 Führen Sie diese Schritte aus, um Adobe Advertising-Daten aus Ihren Experience Platform-Datensätzen in Customer Journey Analytics abzurufen. Der Site-Administrator Ihres Unternehmens für Customer Journey Analytics kann diese Aufgaben ausführen.
 
-1. Erstellen Sie in Customer Journey Analytics [eine Verbindung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) die Ihre Experience Platform-Datensätze und -Schemata enthält.
+1. Erstellen Sie in Customer Journey Analytics [eine Verbindung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection) die Ihre Experience Platform-Datensätze und -Schemata enthält.
 
    **Hinweis** Derzeit müssen Sie Daten für alle DSP- und Search-, Social- und Commerce-Konten an eine einzige Experience Platform-Instanz und Sandbox senden.
 

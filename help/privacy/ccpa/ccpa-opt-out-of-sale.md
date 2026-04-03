@@ -144,7 +144,7 @@ curl -X POST \
 }'
 ```
 
-Dabei gilt gemäß den [Privacy Service-API-Spezifikationen](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+Dabei gilt gemäß den [Privacy Service-API-Spezifikationen](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` gibt den `AdCloud` Cookie-Bereich an. Der entsprechende Wert ist die Cookie-ID des Kunden, wie sie von `AdobePrivacy.js` abgerufen wurde
 * `"include": ["adCloud"]` gibt an, dass die Anfrage für das Produkt Adobe Advertising gilt

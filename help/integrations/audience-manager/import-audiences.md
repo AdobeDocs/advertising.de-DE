@@ -56,7 +56,7 @@ Um auf [!DNL Adobe] Zielgruppen in DSP oder [!DNL Creative] zuzugreifen, müssen
 
 * Die Website-Besucher des Werbetreibenden umfassen nicht viele [!DNL Apple Safari].
 
-* (Empfohlen, wenn der Advertiser sowohl Audience Manager als auch [!DNL Analytics] verwendet) Um die Aufrufe an die einzelnen Web-Seiten zu reduzieren, entfernen Sie den vorhandenen Audience Manager-[!DNL Data Integration Library]-Code für die Datenerfassung und aktivieren Sie stattdessen die Server-seitige Weiterleitung für jede [!DNL Analytics] Report Suite. Weitere Informationen finden Sie unter &quot;[Übersicht über die Server-seitige Weiterleitung](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
+* (Empfohlen, wenn der Advertiser sowohl Audience Manager als auch [!DNL Analytics] verwendet) Um die Aufrufe an die einzelnen Web-Seiten zu reduzieren, entfernen Sie den vorhandenen Audience Manager-[!DNL Data Integration Library]-Code für die Datenerfassung und aktivieren Sie stattdessen die Server-seitige Weiterleitung für jede [!DNL Analytics] Report Suite. Weitere Informationen finden Sie unter &quot;[Übersicht über die Server-seitige Weiterleitung](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * (Empfohlen) Senden Sie bei höheren Übereinstimmungsraten nur First-Party-Website-Daten an Adobe Advertising. Wenn der Werbetreibende Daten von Drittanbietern oder Offline-Daten aus einem CRM-System (Customer Relationship Management) bündelt, kann Datenlecks die Übereinstimmungsraten verringern.
 

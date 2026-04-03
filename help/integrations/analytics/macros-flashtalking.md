@@ -60,7 +60,7 @@ Beispiele:
 
 `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/de/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Video-Anzeigen-Tags
 
@@ -76,7 +76,7 @@ Beispiele:
 
 `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/de/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

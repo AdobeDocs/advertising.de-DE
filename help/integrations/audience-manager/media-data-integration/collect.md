@@ -98,7 +98,7 @@ Im Schlüssel-Wert-Paar kann die Wertvariable entweder eine hartcodierte ID oder
 
 Eine Liste der Makros, die Audience Manager für Impressionsereignis-Pixel unterstützt, finden Sie unter &quot;[&#x200B; von Campaign-Impressionsdaten über Pixel-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).
 
-Eine Liste der Makros, die Audience Manager für Klick-Ereignispixel unterstützt, finden Sie unter &quot;[&#x200B; von Kampagnen-Klickdaten über Pixelaufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).
+Eine Liste der Makros, die Audience Manager für Klick-Ereignispixel unterstützt, finden Sie unter &quot;[&#x200B; von Kampagnen-Klickdaten über Pixelaufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=de).
 
 >[!TIP]
 >

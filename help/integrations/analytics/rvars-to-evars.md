@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-Wenn Sie reservierte Variablen verwenden, um die [AMO-ID und EF-ID](ids.md) für Ihre [!DNL Analytics for Advertising]-Integration zu erfassen, können Sie Ihre Daten für die Integration zwischen Adobe Advertising und [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), der [!DNL analytics]-Lösung der nächsten Generation von Adobe, vorbereiten, indem Sie Ihre reservierten Variablen für die AMO-ID und die EF-ID so bald wie möglich in [Standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar) kopieren. Auf diese Weise können historische Daten für die AMO-IDs und EF-IDs erfasst werden, sobald Sie die Aufgabe abgeschlossen haben. Ihr Adobe-Konto-Team teilt Ihnen mit, ob Sie reservierte Variablen verwenden und diese Aufgabe abschließen müssen.
+Wenn Sie reservierte Variablen verwenden, um die [AMO-ID und EF-ID](ids.md) für Ihre [!DNL Analytics for Advertising]-Integration zu erfassen, können Sie Ihre Daten für die Integration zwischen Adobe Advertising und [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), der [!DNL analytics]-Lösung der nächsten Generation von Adobe, vorbereiten, indem Sie Ihre reservierten Variablen für die AMO-ID und die EF-ID so bald wie möglich in [Standard [!DNL eVars]](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/evar) kopieren. Auf diese Weise können historische Daten für die AMO-IDs und EF-IDs erfasst werden, sobald Sie die Aufgabe abgeschlossen haben. Ihr Adobe-Konto-Team teilt Ihnen mit, ob Sie reservierte Variablen verwenden und diese Aufgabe abschließen müssen.
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -87,7 +87,7 @@ Dieser Schritt ist manuell und muss für jede Report Suite ausgeführt werden, d
 
    Wenn beispielsweise die neue eVar-`eVar142` `amo.s_kwcid(Context Data)` zugeordnet wird, sollten die Daten für die `eVar142` und die `AMO ID` identisch sein.
 
-Weitere Informationen zur Anwendung von Verarbeitungsregeln finden Sie unter &quot;[&#x200B; der Funktionsweise von &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
+Weitere Informationen zur Anwendung von Verarbeitungsregeln finden Sie unter &quot;[&#x200B; der Funktionsweise von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
 
 >[!MORELIKETHIS]
 >

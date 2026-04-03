@@ -50,7 +50,7 @@ Für diesen Anwendungsfall sind die folgenden Produkte und Integrationen erforde
 
 * [[!DNL Analytics] Integration mit Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)-Integration
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)-Integration
 
 * Audience Manager (nur für Durchsichtstests erforderlich)
 
@@ -94,7 +94,7 @@ Durch Hinzufügen eines Audience Manager-Impression-Ereignis-Pixels zu Ihren Anz
 
    1. Überprüfen Sie, ob Segmentdaten verfügbar sind:
 
-      1. [Nach dem Signal suchen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) nach dem [Schlüssel-Wert-Paar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html), das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden.
+      1. [Nach dem Signal suchen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=de) nach dem [Schlüssel-Wert-Paar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=de), das bestimmt, auf welcher Ebene die Segmentbenutzer gruppiert werden.
 
          Verwenden Sie einen [unterstützten Schlüssel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) mit einem Wert, der einem Makro entspricht, das Sie dem Audience Manager Impression Event-Pixel hinzugefügt haben.
 
@@ -102,7 +102,7 @@ Durch Hinzufügen eines Audience Manager-Impression-Ereignis-Pixels zu Ihren Anz
 
          Wenn die Suchergebnisse Benutzerzahlen für das Schlüssel-Wert-Paar zeigen, was anzeigt, dass das Pixel korrekt platziert wurde und Daten fließen, fahren Sie mit dem nächsten Schritt fort.
 
-   1. [Erstellen einer regelbasierten Eigenschaft](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) für die Segmenterstellung in Audience Manager.
+   1. [Erstellen einer regelbasierten Eigenschaft](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=de) für die Segmenterstellung in Audience Manager.
 
       * Benennen Sie die Eigenschaft, damit sie in Testaktivitäten leicht identifiziert werden kann. Speichern Sie die Eigenschaft in einem beliebigen Ordner.
 
@@ -120,7 +120,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
 1. [Bei Adobe Target anmelden](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de):
 
    1. Geben Sie im Feld **[!UICONTROL Enter Activity URL]** die Landingpage-URL für den Test ein.
 
@@ -138,7 +138,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
    1. Wählen Sie in **[!UICONTROL Reporting Settings]** die **[!UICONTROL Company Name]** und **[!UICONTROL Report Suite]** aus, die mit Ihrem DSP-Konto verbunden sind.
 
-      Weitere Tipps zum Reporting finden Sie unter [Best Practices für das Reporting und Fehlerbehebung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).
+      Weitere Tipps zum Reporting finden Sie unter [Best Practices für das Reporting und Fehlerbehebung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=de).
 
    1. Geben Sie im Feld **[!UICONTROL Date Range]** das entsprechende Start- und Enddatum für den Test ein.
 
@@ -152,7 +152,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
    1. Speichern Sie die Aktivität.
 
-1. Verwenden Sie [Target Visual Experience &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
+1. Verwenden Sie [Target Visual Experience &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
 
    * Erlebnis A: Nicht bearbeiten, da es sich um das standardmäßige Landingpage-Erlebnis ohne Personalisierung handelt.
 
@@ -168,7 +168,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
 [!DNL Analytics for Target] (A4T) ist eine lösungsübergreifende Integration, die es Advertisern ermöglicht, [!DNL Target] Aktivitäten basierend auf [!DNL Analytics] Konversionsmetriken und Zielgruppensegmenten zu erstellen und die Ergebnisse dann mithilfe von [!DNL Analytics] als Berichtsquelle zu messen. Die gesamte Berichterstellung und Segmentierung für diese Aktivität basiert auf [!DNL Analytics] Datenerfassung.
 
-Weitere Informationen zu [!DNL Analytics for Target], einschließlich eines Links zu Implementierungsanweisungen, finden Sie unter &quot;[Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
+Weitere Informationen zu [!DNL Analytics for Target], einschließlich eines Links zu Implementierungsanweisungen, finden Sie unter &quot;[Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de).
 
 ### Einrichten des [!DNL Analytics for Target]
 
@@ -196,7 +196,7 @@ Die folgenden Dimensionen beziehen sich auf [!DNL Analytics for Target]:
 
 Wenn Sie in Analysis Workspace bemerken, dass die Daten zu Aktivitäten und Erlebnissen nur minimal sind oder nicht ausgefüllt werden, gehen Sie wie folgt vor:
 
-* Stellen Sie sicher, dass dieselbe [!UICONTROL Supplemental Data ID] (SDID) sowohl für [!DNL Target] als auch für [!DNL Analytics] verwendet wird. Sie können die SDID-Werte mit dem [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) auf der Landingpage überprüfen, zu der die Kampagne Benutzer führt.
+* Stellen Sie sicher, dass dieselbe [!UICONTROL Supplemental Data ID] (SDID) sowohl für [!DNL Target] als auch für [!DNL Analytics] verwendet wird. Sie können die SDID-Werte mit dem [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=de) auf der Landingpage überprüfen, zu der die Kampagne Benutzer führt.
 
 [Zusätzliche Daten-ID-Werte (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
