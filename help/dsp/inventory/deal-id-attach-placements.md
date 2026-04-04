@@ -4,18 +4,13 @@ description: Erfahren Sie, wie Sie einen privaten Deal mit zusätzlichen Platzie
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
 TQID: https://experienceleague.adobe.com/ZCFqnc6cQLEqahDoElttE7DzeZCR3IRx2lkyyb3BPMs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: ac506c20-96f2-48f6-9096-77706e336bda
-  - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +35,21 @@ Sie können auch [Anzeigen an Platzierungen anhängen](/help/dsp/campaign-manage
 
 1. Wählen Sie in den [!UICONTROL Ad & Campaign Selection] die Anzeigen aus, die für die Platzierung verwendet werden sollen:
 
-       1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus aus, nach dem die Anzeigen gefiltert werden sollen.
-       
-       1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben jeder Anzeige, die für das Angebot verwendet werden soll.
-       
-       1. Klicken Sie auf **[!UICONTROL Apply]**.
-   
-   1. Im Bildschirm mit den Platzierungseinstellungen :
+   1. Wählen Sie den Advertiser, die Kampagne und den Anzeigentyp aus. Wählen Sie optional einen Anzeigenstatus aus, nach dem die Anzeigen gefiltert werden sollen.
 
-      1. Geben Sie den Platzierungsnamen ein.
+   1. Aktivieren Sie in der Liste der verfügbaren Anzeigen das Kontrollkästchen neben jeder Anzeige, die für das Angebot verwendet werden soll.
 
-      1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) einschließlich des Überschreibens des Standardangebots, das automatisch mit dem CPM-Wert aus dem Angebot gefüllt wird. Ändern Sie den Datumsbereich oder fügen Sie weitere Anzeigen hinzu.
+   1. Klicken Sie auf **[!UICONTROL Apply]**.
+
+1. Im Bildschirm mit den Platzierungseinstellungen :
+
+   1. Geben Sie den Platzierungsnamen ein.
+
+   1. (Optional) Bearbeiten Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) einschließlich des Überschreibens des Standardangebots, das automatisch mit dem CPM-Wert aus dem Angebot gefüllt wird. Ändern Sie den Datumsbereich oder fügen Sie weitere Anzeigen hinzu.
 
       Der Abschluss wird automatisch im Abschnitt Inventarziele ausgewählt. Alle anderen Targeting-Optionen sind nicht anwendbar.
 
-      1. Klicken Sie auf **[!UICONTROL Create placement]**.
+   1. Klicken Sie auf **[!UICONTROL Create placement]**.
 
 Die Platzierung beginnt zu laufen, nachdem der Publisher Ihre PG-Angebots-ID aktiviert hat.
 
