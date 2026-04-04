@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]:** Wie oft [!DNL Google Ads] Ihre aktiven Anzeigen in Bezug zueinander innerhalb der Anzeigengruppe bereitstellt:
 
-* *[!UICONTROL Optimize]:* Google Ads bevorzugt Anzeigen, deren Leistung besser als die anderer Anzeigen in der Anzeigengruppe ist. Diese Anzeigen treten häufiger in die Werbeanzeigenauktion ein, und im Laufe der Zeit wird eine einzelne Anzeige bevorzugt. Dies kann im Widerspruch zu Ihren Geschäfts- und Optimierungszielen stehen.
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] bevorzugt Anzeigen, von denen eine bessere Leistung erwartet wird als von anderen Anzeigen in der Anzeigengruppe. Diese Anzeigen treten häufiger in die Werbeanzeigenauktion ein, und im Laufe der Zeit wird eine einzelne Anzeige bevorzugt. Dies kann im Widerspruch zu Ihren Geschäfts- und Optimierungszielen stehen.
 
 * *[!UICONTROL Rotate forever]:*   Jede Ihrer Anzeigen tritt noch gerader in die Auktion ein, sodass Search, Social und Commerce Ihre Anzeigen nicht nur nach Clickthrough-Rate, sondern auch nach Konversionen bewerten können.
 

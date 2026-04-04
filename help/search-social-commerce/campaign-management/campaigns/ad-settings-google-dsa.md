@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dynamische Suchanzeigen (DSAs) sind nur für dynamische [!DNL Google Ads]-Anzeigengruppen in reinen Suchkampagnen verfügbar. Das Anzeigennetzwerk generiert dynamisch die Überschrift und wählt die Landingpage und die Display-URL für eine dynamische Suchanzeige aus und generiert dann automatisch die endgültige URL.
 
-Siehe Google Ads-Hilfe für [Anzeigenbeschränkungen pro Konto](https://support.google.com/google-ads/answer/6372658?hl=en).
+Siehe [!DNL Google Ads] Hilfe zu [Anzeigenbeschränkungen pro Konto](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 >[!NOTE]
 >

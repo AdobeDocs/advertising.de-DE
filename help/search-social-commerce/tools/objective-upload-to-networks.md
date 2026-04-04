@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 >[!IMPORTANT]
 >
->Konversionen, die von Google Ads und vom UET-Tag (Universal Event Tracking) von Microsoft Advertising verfolgt werden, werden nicht erneut in die Werbenetzwerke hochgeladen. Wenn Sie sie in ein Ziel einbeziehen, müssen Sie sie im Editor des Anzeigennetzwerks zu den Kampagnenzielen hinzufügen.
+>Konversionen, die von [!DNL Google Ads] und vom [!DNL Microsoft Advertising] UET-Tag (Universal Event Tracking) verfolgt werden, werden nicht erneut in die Werbenetzwerke hochgeladen. Wenn Sie sie in ein Ziel einbeziehen, müssen Sie sie im Editor des Anzeigennetzwerks zu den Kampagnenzielen hinzufügen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
