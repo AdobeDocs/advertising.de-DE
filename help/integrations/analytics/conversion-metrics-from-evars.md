@@ -56,7 +56,7 @@ Die meisten der folgenden Aufgaben müssen von einem [!DNL Analytics] oder einem
    >
    >Nur [!DNL Analytics]-Konto-Administratoren können Verarbeitungsregeln erstellen, es sei denn, sie haben Nicht-Administratoren die Berechtigung erteilt.
 
-   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) mithilfe der folgenden Konfiguration:
+   1. [Erstellen Sie eine Verarbeitungsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=de) mithilfe der folgenden Konfiguration:
 
       * Geben Sie für die Bedingung, die erfüllt werden muss, die erforderliche [!DNL eVars] oder [!DNL props] an.
 

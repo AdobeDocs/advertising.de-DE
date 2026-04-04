@@ -58,7 +58,7 @@ Wenn es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL ha
 
 Beispiele:
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/de/products/photoshop?[ftqs:[AdobeAMO]]`
 
 `https://www.adobe.com/de/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
@@ -74,7 +74,7 @@ Wenn es sich um die erste oder einzige Abfragezeichenfolge nach der Basis-URL ha
 
 Beispiele:
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/de/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 `https://www.adobe.com/de/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 

@@ -63,7 +63,7 @@ Audience Manager verfolgt Klicks ähnlich wie Impressions, mit dem Unterschied, 
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de).
 
 >[!MORELIKETHIS]
 >
