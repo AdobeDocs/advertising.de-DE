@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +48,17 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
 
-   * **[!UICONTROL Conversions]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Admin] > [!UICONTROL Conversions].
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Constraints]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Constraints].
+* **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** Untermenü:
 
    * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
 
    * **[!UICONTROL Spend Planner]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
-
-   * **[!UICONTROL Label Classification]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * **[!UICONTROL Manage]** Untermenü:
 
@@ -90,9 +88,15 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
    * **[!UICONTROL History Logs]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+   * **[!UICONTROL Label Classification]** Öffnet eine neue [!UICONTROL Label Classifications]. Sie können Klassifizierungen verwalten und die Zuweisung von Klassifizierungswerten zu allen entsprechenden Kontokomponenten aufheben, die in der neuen Benutzeroberfläche verfügbar sind.
+
+   * **[!UICONTROL Bulksheets]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Bulksheets].
+
 * **[!UICONTROL Target]** Untermenü:
 
-   * **[!UICONTROL Audience]**: Öffnet eine neue [!UICONTROL Audiences], die alle bestehenden Zielgruppen für den Advertiser anzeigt. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: Öffnet eine neue [!UICONTROL Audiences], die alle vorhandenen Zielgruppen des Werbetreibenden, alle Zielgruppenziele und alle Zielgruppenausschlüsse anzeigt. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+
+   * **[!UICONTROL Auto Targets]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Keywords]** Öffnet eine neue [!UICONTROL Keywords], die für den Werbetreibenden vorhandene Keywords und negative Keywords anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Schlüsselwörter verwalten.
 
@@ -104,8 +108,6 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
 * **[!UICONTROL Assets]** Untermenü:
 
-   * **[!UICONTROL Auto Targets]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
-
    * **[!UICONTROL Creatives]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Extensions]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Anzeigenerweiterungen. Um Ihre Erweiterungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
@@ -114,13 +116,15 @@ Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
 
 * **[!UICONTROL Set Up]** Untermenü:
 
-   * **[!UICONTROL Accounts]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Manager Accounts]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Admin] > [!UICONTROL Manager Accounts].
+
+   * **[!UICONTROL Accounts]**: Öffnet eine neue [!UICONTROL Accounts]. Sie können Anzeigennetzwerkkonten verwalten, die über eine API-Verbindung synchronisiert oder über den Daten-Upload eingerichtet werden. Sie können auch vorhandene [!UICONTROL Naver] verwalten.
+
+   * **[!UICONTROL Import Campaigns]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Tools] > [!UICONTROL Import Campaigns].
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +132,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

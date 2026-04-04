@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Die Ereignispixel erfassen keine Ereignisse, die in Umgebungen ohne Cookies auft
 
 ## Schritt 1: Einrichten einer Datenquelle in Audience Manager {#set-up-data-source}
 
-Erstellen Sie in Audience Manager eine [Datenquelle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) für die DSP-Impression und klicken Sie auf Daten. Schließen Sie die Datenquellen-ID [in jedes Ereignis-](#implement-dsp-pixels) ein, sodass alle verfolgten Ereignisse der Datenquelle zugeordnet werden.
+Erstellen Sie in Audience Manager eine [Datenquelle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=de) für die DSP-Impression und klicken Sie auf Daten. Schließen Sie die Datenquellen-ID [in jedes Ereignis-](#implement-dsp-pixels) ein, sodass alle verfolgten Ereignisse der Datenquelle zugeordnet werden.
 
 >[!NOTE]
 > Es ist möglich, alle Impression- und Klickdaten für Werbekampagnen, die auf mehreren DSPs ausgeführt werden, in einer einzigen Datenquelle zu erfassen.
@@ -50,7 +50,7 @@ Werbetreibende können Ereignis-Tags für ihre eigenen Marken erstellen und impl
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Wenn Ihr Unternehmen [!DNL Analytics]-Tracking verwendet, benötigen Sie möglicherweise kein Audience Manager-Klick-Tracking. Adobe Analytics erfasst Klicksignale und kann diese über die [Server-seitige Weiterleitung“ an Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de).
 
 ### Pixel-Syntax
 
@@ -84,19 +84,19 @@ Dabei gilt:
 
 **format:** `d_parameter=parameter_id`
 
-    Wobei:
-    
-    * dem Parameter das Präfix &quot;&amp;&quot; vorangestellt 
-    
-    * „parameter“ wird durch das Schlüssel-Wert-Paar für das neue Feld ersetzt
-    
-    Beispiel: &quot;&amp;d_placement=${TM_PLACEMENT_ID_NUM}&quot;
+Dabei gilt:
+
+* Dem Parameter wird das Präfix `&` vorangestellt
+
+* `parameter` wird durch das Schlüssel-Wert-Paar für das neue Feld ersetzt
+
+*Beispiel:* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 Beide Pixeltypen können zusätzliche Parameter als *Schlüssel-Wert-Paare* enthalten, um Eigenschaften zu erfassen oder Kampagnenmetadaten (z. B. einen Platzierungs- oder Kampagnennamen) für andere Berichte bereitzustellen. Ein Schlüssel-Wert-Paar besteht aus zwei zusammenhängenden Elementen: einem *Schlüssel*, bei dem es sich um eine Konstante handelt, die den Datensatz definiert, und einem *Wert*, bei dem es sich um eine Variable handelt, die zum Satz gehört.
 
 Im Schlüssel-Wert-Paar kann die Wertvariable entweder eine hartcodierte ID oder ein *Makro* sein. Dies ist eine kleine Einheit eigenständigen Codes, die dynamisch durch die entsprechenden Werte ersetzt wird, wenn das Anzeigen-Tag für das Kampagnen- und Benutzer-Tracking geladen wird. Für kampagnenbezogene Parameter können Sie [DSP-Makros](/help/dsp/campaign-management/macros.md) anstelle von Audience Manager-Makros verwenden, um Kampagnenattribute mit den entsprechenden Impressions- oder Klickdaten an Audience Manager zu senden, wobei für alle Anzeigen ein einziges Pixel verwendet wird. Die DSP-Makros, die Sie in die Ereignispixel einfügen, müssen geeignete Werte für die Schlüssel-Wert-Paare sein, die Sie in die Pixel aufnehmen. Für den `d_placement` würden Sie beispielsweise die DSP-Makro-`${TM_PLACEMENT_ID_NUM}` als Wert verwenden, um die vom Adobe Advertising-Makro generierten Platzierungs-IDs zu erfassen.
 
-Eine Liste der Makros, die Audience Manager für Impressionsereignis-Pixel unterstützt, finden Sie unter &quot;[&#x200B; von Campaign-Impressionsdaten über Pixel-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).
+Eine Liste der Makros, die Audience Manager für Impressionsereignis-Pixel unterstützt, finden Sie unter &quot;[&#x200B; von Campaign-Impressionsdaten über Pixel-Aufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=de#supported-key-value-pairs).
 
 Eine Liste der Makros, die Audience Manager für Klick-Ereignispixel unterstützt, finden Sie unter &quot;[&#x200B; von Kampagnen-Klickdaten über Pixelaufrufe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=de).
 
@@ -133,11 +133,11 @@ Sobald die Ereignis-Tags implementiert sind, fließen die Daten in die Datenerfa
 
 ### Erstellen eines [!DNL Amazon S3] Buckets und einer Datenquelle
 
-Sobald sich Ihre Daten auf den Audience Manager-Servern befinden, müssen Sie einen [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) -Bucket und dann eine Datenquelle erstellen, an die alle Pixeldaten gesendet werden. Wenden Sie sich an Ihren Audience Manager-Berater oder [Kundenunterstützung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html), wenn Sie Unterstützung benötigen.
+Sobald sich Ihre Daten auf den Audience Manager-Servern befinden, müssen Sie einen [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) -Bucket und dann eine Datenquelle erstellen, an die alle Pixeldaten gesendet werden. Wenden Sie sich an Ihren Audience Manager-Berater oder [Kundenunterstützung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=de), wenn Sie Unterstützung benötigen.
 
 ### Erstellen von Audience Manager-Eigenschaften und -Segmenten
 
-Ihre Ereignisdaten fließen als [&#x200B; Signale in Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Erstellen Sie [&#x200B; aufgenommenen Daten manuell (](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) [) und &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) diese Eigenschaften dann (Segmente), bevor Sie die Daten in Berichten verwenden können.
+Ihre Ereignisdaten fließen als [&#x200B; Signale in Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=de). Erstellen Sie [&#x200B; aufgenommenen Daten manuell (](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=de) [) und &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=de) diese Eigenschaften dann (Segmente), bevor Sie die Daten in Berichten verwenden können.
 
 Beispieleigenschaft, die Daten auf Benutzerebene für Benutzende ausfüllt, die einer bestimmten kreativen Aktivität in DSP ausgesetzt sind:
 

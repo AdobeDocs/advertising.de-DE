@@ -44,7 +44,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 Gehen Sie bei Problemen mit Produkten oder Konten wie folgt vor:
 
-* (Werbetreibende mit Selbstbedienungsverträgen) Öffnen Sie ein Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
+* (Werbetreibende mit Selbstbedienungsverträgen) Öffnen Sie ein Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
   Wählen Sie für das Produkt &quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot; aus.
 

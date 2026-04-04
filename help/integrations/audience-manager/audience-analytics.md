@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # [!DNL Adobe] [!DNL Audience Analytics] für Adobe Advertising-Kunden
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) ist eine Integration zwischen Adobe Audience Manager und Adobe Analytics, die es Audience Manager-Kunden ermöglicht, Segmente an [!DNL Analytics] zu senden, um mehr über die Site-Aktivität zu erfahren.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de) ist eine Integration zwischen Adobe Audience Manager und Adobe Analytics, die es Audience Manager-Kunden ermöglicht, Segmente an [!DNL Analytics] zu senden, um mehr über die Site-Aktivität zu erfahren.
 
 Adobe Advertising-Kunden können von der Verwendung von [!DNL Audience Analytics] profitieren. Die Integration bietet folgende Möglichkeiten:
 
@@ -44,7 +44,7 @@ Adobe Advertising-Kunden können von der Verwendung von [!DNL Audience Analytics
 
   Advertising DSP kann Belichtungsdaten als verwertbare Signale an Audience Manager senden, indem entweder Adobe Experience Platform oder Audience Manager-Impression-Tracking-Pixel implementiert werden. Die Weiterleitung derselben Daten an [!DNL Analytics] ermöglicht eine erweiterte Datenanalyse. Weitere Informationen finden [&#x200B; unter „Übersicht über das Senden von DSP-](/help/integrations/audience-manager/media-data-integration/overview.md) an Adobe Audience Manager&quot;.
 
-Weitere Informationen zu [!DNL Audience Analytics], einschließlich der Voraussetzungen und des Workflows, finden Sie unter &quot;[Übersicht über Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;.
+Weitere Informationen zu [!DNL Audience Analytics], einschließlich der Voraussetzungen und des Workflows, finden Sie unter &quot;[Übersicht über Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=de)&quot;.
 
 ## Beispiele für die Verwendung [!DNL Audience Analytics] Daten mit Adobe Advertising-Daten
 

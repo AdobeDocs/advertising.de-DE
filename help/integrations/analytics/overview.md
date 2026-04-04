@@ -49,7 +49,7 @@ Primäre Vorteile:
 
 >[!TIP]
 >
-> Sehen Sie sich ein [Video Einführung in an [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Sehen Sie sich ein [Video Einführung in an [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=de#analytics).
 
 ## Verwenden von Analytics für Paid Media-Berichte
 
@@ -147,11 +147,11 @@ Verwenden der Marketing-Kanal-Ansicht:
 
 ### Erstellen von Adobe Advertising-Dashboards
 
-Informationen dazu, wie Sie Ihre Adobe Advertising-Daten im Vergleich zu Ihren Zielen in Analysis Workspace verfolgen können, finden Sie im Video [Erstellen von Adobe Advertising-Dashboards mit Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).
+Informationen dazu, wie Sie Ihre Adobe Advertising-Daten im Vergleich zu Ihren Zielen in Analysis Workspace verfolgen können, finden Sie im Video [Erstellen von Adobe Advertising-Dashboards mit Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=de).
 
 ### Verwenden der Adobe Advertising-ID für Site-Einstiegsanalysen
 
-Wie Sie einen Adobe Advertising-Site-Einstiegsbericht erstellen können, um Wochentag, Tageszeit, Browser und geografische Einflüsse zu überwachen, erfahren Sie im Video &quot;[Erstellen von Adobe Advertising Site Entry Reports](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;.
+Wie Sie einen Adobe Advertising-Site-Einstiegsbericht erstellen können, um Wochentag, Tageszeit, Browser und geografische Einflüsse zu überwachen, erfahren Sie im Video &quot;[Erstellen von Adobe Advertising Site Entry Reports](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=de)&quot;.
 
 ## So starten Sie eine [!DNL Analytics for Advertising] Implementierung
 
@@ -159,7 +159,7 @@ Wenden Sie sich an Ihr Adobe-Kundenbetreuerteam, das die für den Einstieg erfor
 
 >[!MORELIKETHIS]
 >
->* [Video: Einführung in [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Video: Einführung in [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=de)
 >* [Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Von Analytics verwendete Adobe Advertising-IDs](ids.md)
 >* [JavaScript-Code für Analytics für Advertising](/help/integrations/analytics/javascript.md)

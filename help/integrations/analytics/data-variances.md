@@ -253,7 +253,7 @@ Sie scheinen analog zu sein, aber Klicks und Besuche stellen unterschiedliche Da
 
 * **Klick:** [!DNL DSP] oder die Suchmaschine zeichnet einen Klick auf, wenn ein Besucher auf eine Anzeige auf der Website eines Herausgebers klickt.
 
-* **Besuch:** [!DNL Analytics] definiert [Besuch](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) als eine Reihe von Seitenansichten durch einen Benutzer, die nach einem von mehreren Kriterien enden, z. B. 30 Minuten Inaktivität.
+* **Besuch:** [!DNL Analytics] definiert [Besuch](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=de) als eine Reihe von Seitenansichten durch einen Benutzer, die nach einem von mehreren Kriterien enden, z. B. 30 Minuten Inaktivität.
 
 Definitionsgemäß kann ein Klick zu mehreren Besuchen führen.
 

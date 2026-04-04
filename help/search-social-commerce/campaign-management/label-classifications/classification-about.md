@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen,
 
 ## Die Ansicht Kennzeichnungen - Klassifizierungen
 
-In der veralteten Benutzeroberfläche befindet sich die [!UICONTROL Labels Classifications] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. In der neuen Benutzeroberfläche befindet sich die [!UICONTROL Labels Classifications] unter [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+In der neuen Benutzeroberfläche befindet sich die [!UICONTROL Labels Classifications] unter [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. In der veralteten Benutzeroberfläche befindet sich die [!UICONTROL Labels Classifications] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 Die [!UICONTROL Labels Classifications] enthält [!UICONTROL Classifications] und [!UICONTROL Label Values] Unteransichten. Sie können Daten für Ihre Kennzeichnungsklassifizierungen anzeigen, Kennzeichnungsklassifizierungen [erstellen](classification-create.md) und [löschen](classification-delete.md) und Daten für Ihre Kennzeichnungsklassifizierungswerte anzeigen. Standardmäßig werden Daten für Ihre Kennzeichnungsklassifizierungen und -werte auf Schlüsselwortebene angezeigt, Sie können jedoch optional Daten für Ihre Klassifizierungen und Werte auf Anzeigenebene anzeigen.
 
