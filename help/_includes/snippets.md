@@ -1,19 +1,19 @@
 ---
-source-git-commit: 92bf7768be91e75f029e1577c7f4e7e790c5a934
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 # Snippets
 
-## Feld „Tracking-Vorlage“ für Google Ads-Entitäten {#tracking-template-google}
+## Feld „Tracking-Vorlage“ für [!DNL Google Ads] Entitäten {#tracking-template-google}
 
 <!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
 
 **[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und außerdem die endgültige Landingpage-URL in einen [!DNL ValueTrack] einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
+Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode voran.
 
 * Informationen zu den unterstützten Parametern zum Einbetten der endgültigen URL finden Sie unter [[!DNL Google Ads] Dokumentation für die unterstützten  [!DNL ValueTrack] -Formate](https://support.google.com/google-ads/answer/6305348). (Gehen Sie zu den Parametern „Nur Tracking-Vorlage“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot;.)
 
@@ -23,7 +23,7 @@ Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampa
 
 >[!NOTE]
 >
->* Verwenden Sie keine Makros, da diese nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
+>* Verwenden Sie keine Makros, da diese nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team den Kunden-Support oder das Implementierungsteam kontaktieren, um diese hinzuzufügen.
 >* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Keyword-Einstellungen einen Wert enthalten, wird der Keyword-Wert angewendet.
 >* Wenn Sie eine Tracking-Vorlage auf Anzeigen-, Sitelink- oder Keyword-Ebene aktualisieren, werden die entsprechenden Anzeigen erneut zur Überprüfung eingereicht. Sie können Ihre Tracking-Vorlagen auf Konto-, Kampagnen- oder Anzeigengruppenebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
 
@@ -33,7 +33,7 @@ Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampa
 
 **[!UICONTROL Tracking Template]:** (Optional) Die Tracking-Vorlage oder Tracking-URL, die alle Off-Landing-Domain-Umleitungen und Tracking-Parameter angibt und auch die endgültige/Landingpage-URL in einen Parameter einbettet. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
-Beim Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
+Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, stellt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode voran.
 
 * Informationen zu den unterstützten Parametern zum Einbetten der endgültigen URL finden Sie in der [[!DNL Microsoft Advertising] Dokumentation zu Parametern zur Angabe der endgültigen URL](https://help.ads.microsoft.com/#apex/3/en/56799).
 

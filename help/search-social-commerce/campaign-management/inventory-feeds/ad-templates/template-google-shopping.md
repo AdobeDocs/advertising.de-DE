@@ -4,16 +4,12 @@ description: Verweisen Sie auf die Einstellungen für  [!DNL Google Ads] -Shoppi
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +62,7 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 **[!UICONTROL Campaign Tracking Template]:** (Optional für Vorlagen für Client-Feed-Dateien) Die Tracking-Vorlage auf Kampagnenebene, die alle Weiterleitungs- und Tracking-Parameter für ausgelagerte Domains angibt und die endgültige URL in einen Parameter einbettet. Dieser Wert überschreibt die Einstellung auf Kontoebene, aber Tracking-Vorlagen auf detaillierteren Ebenen (mit Keyword als am detailliertesten) überschreiben diesen Wert.
 
-Verwenden Sie für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, das [Tracking-Vorlagenformat für Google Ads-Shopping-Kampagnen](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Wenn das gesamte Konto Shopping-Anzeigen gewidmet ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+Verwenden Sie für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, das [Tracking-Vorlagenformat für  [!DNL Google Ads] -](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Wenn das gesamte Konto Shopping-Anzeigen gewidmet ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
 Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 

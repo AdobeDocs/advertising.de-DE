@@ -4,15 +4,12 @@ description: Erfahren Sie, wie Sie eine  [!DNL Google Ads]  für eine erweiterte
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +48,7 @@ Nachdem Sie die Konversionsaktion erstellt und ein Konversionsverfolgungs-Tag im
 
 ## Einstellungen für Konversionsaktionen {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** Das entsprechende Google Ads-Konto.
+**[!UICONTROL Select an Account]:** Das entsprechende [!DNL Google Ads].
 
 **[!UICONTROL Type of Conversion]:** Der Typ der nachzuverfolgenden Konversion: *[!UICONTROL Import conversion]* auswählen. Alle anderen Typen werden verwendet, um Konversionsverfolgungstags (keine Konversionsaktionen) für andere Konversionstypen zu erstellen.
 
