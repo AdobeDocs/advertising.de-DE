@@ -25,7 +25,7 @@ Zu den verfügbaren Metriken gehören:
 
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
-* ([ Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
+* ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
 Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugriff auf die Daten des Werbetreibenden die Metriken anpassen, die für Verwaltungsansichten und Berichte verfügbar sind, einschließlich oder ohne Angabe bestimmter Metriken.
 
@@ -55,7 +55,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
@@ -93,4 +93,4 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
