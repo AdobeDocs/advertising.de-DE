@@ -5,16 +5,14 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
 # Suchen nach Produktdokumentation mithilfe einer KI-unterstützten Chat-Oberfläche
-
-*Beta-Funktion*
 
 *Support nur für Englisch*
 
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu &#x200B;](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/de/docs/advertising).
 
-Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können. Ihr Chat-Verlauf wird gepflegt und Ihre Abfragen werden nicht mit anderen Benutzern geteilt.
+Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können. Ihr Chat-Verlauf wird während einer Sitzung gepflegt und Ihre Abfragen werden nicht mit anderen Benutzern geteilt.
 
 >[!NOTE]
 >
