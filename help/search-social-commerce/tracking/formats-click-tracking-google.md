@@ -4,15 +4,10 @@ description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Goog
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 0%
@@ -79,7 +74,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
 * Wenn der Advertiser über eine Adobe Analytics-Integration verfügt, muss das Suffix eines der folgenden Elemente enthalten:
 
-   * [!DNL Google Ads] Konten, die das neueste [AMO ID-Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden (beginnend mit `s_kwcid`), das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente mit dem Wert „Performance Max“ unterstützt:
+   * [!DNL Google Ads] Konten, die das neueste [AMO ID-Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) verwenden (beginnend mit `s_kwcid`), das Reporting auf Kampagnen- und Anzeigengruppenebene für Kampagnen, Entwürfe und Experimente mit dem Wert „Performance Max“ unterstützt:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -102,4 +97,4 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 >[!MORELIKETHIS]
 >
 >* [Über Klick-Tracking-URL-Formate für den Konversionsverfolgungs-Service von Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-Formate](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID-Formate](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
