@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Konten, die das Adobe Advertising-Konversions-Tracking verwenden, müssen die Kl
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt und die Konto- oder Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie es manuell hinzufügen. Siehe &quot;[Adobe Advertising-IDs verwendet von [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement)&quot;.
+     Wenn das Konto über eine serverseitige AMO ID-Implementierung verfügt und die Konto- oder Kampagneneinstellung &quot;[!UICONTROL Auto Upload]&quot; aktiviert ist, wird der Parameter automatisch hinzugefügt. Andernfalls müssen Sie es manuell hinzufügen. Siehe &quot;[Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)&quot;.
 
    * Alle anderen [!DNL Google Ads]:
 
