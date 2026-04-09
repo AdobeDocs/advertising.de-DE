@@ -2,20 +2,20 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # Konversionsmetriken eines Werbetreibenden verwalten
 
-Die Metriken [Konversion](/help/search-social-commerce/glossary.md#c-d) eines Advertisers werden in Search, Social, &amp; Commerce und Advertising DSP verwendet:
+Die Metriken [Konversion](/help/search-social-commerce/glossary.md#c-d) eines Advertisers werden in Adobe Advertising verwendet:
 
 * In Search, Social und Commerce können Daten für Konversionsmetriken in Spalten in Kampagnen-, Portfolio- und Zielgruppen-Management-Ansichten und in Berichten angezeigt werden. Benutzer mit ausreichenden Zugriffsberechtigungen können Konversionsmetriken auch verwenden, um Ziele zu erstellen, die zur Optimierung von Portfolios verwendet werden.
 
-* In Advertising DSP können Sie Konversionsmetriken verwenden, um [benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) zu erstellen, die zur Paketoptimierung verwendet werden.
+* (Werbetreibende mit Advertising DSP) In DSP können Sie Konversionsmetriken in Kampagnenverwaltungsansichten, benutzerdefinierte Ziele und benutzerdefinierte Berichte aufnehmen. Sie können Konversionsmetriken auch verwenden, um [benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) zu erstellen, die zur Optimierung von Paketen verwendet werden.
 
 Zu den verfügbaren Metriken gehören:
 
@@ -23,19 +23,21 @@ Zu den verfügbaren Metriken gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
+
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
 * ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
-Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugriff auf die Daten des Werbetreibenden die Metriken anpassen, die für Verwaltungsansichten und Berichte verfügbar sind, einschließlich oder ohne Angabe bestimmter Metriken.
+* Konversionen aus benutzerdefinierten Feeds.
+
+Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugriff auf die Daten des Werbetreibenden die Metriken anpassen, die für Verwaltungsansichten und Berichte verfügbar sind, einschließlich oder ohne Angabe bestimmter Metriken. Sie können entweder einen Metriknamen genau so verwenden, wie er in den abgerufenen Daten geschrieben ist, oder den Namen ändern, der in den Spaltenüberschriften angezeigt wird, um die Lesbarkeit zu verbessern.
 
 >[!IMPORTANT]
 >
 >Standardmäßig sind keine der Konversionsmetriken eines Advertisers - mit Ausnahme der Konversionen, die von [!DNL Google Ads], [!DNL Google Analytics] und [!DNL Microsoft Advertising] universellen Ereignisverfolgungs-Tags verfolgt werden - zur Aufnahme in Kampagnen- und Portfolioverwaltungsansichten, -ziele und -berichte verfügbar. Um eine Konversionsmetrik verfügbar zu machen, müssen Sie sie explizit verfügbar machen.
 >
 >Neue Konversionen, die von [!DNL Google Ads], [!DNL Google Analytics] und [!DNL Microsoft Advertising] universellen Ereignis-Tracking-Tags verfolgt werden, sind immer automatisch verfügbar.
-
-Sie können entweder einen Metriknamen genau so verwenden, wie er in den abgerufenen Daten geschrieben ist, oder den Namen ändern, der in den Spaltenüberschriften angezeigt wird, um die Lesbarkeit zu verbessern.
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
    Anzeigenamen müssen eindeutig sein und dürfen die folgenden Sonderzeichen nicht enthalten: `\"<'>&`
 
-## Ändern der Konversionsmetriken, die in Verwaltungsansichten und -berichten verfügbar sind {#conversion-metrics-change-available}
+## Ändern der Konversionsmetriken, die in Verwaltungsansichten, Zielen und Berichten verfügbar sind {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
