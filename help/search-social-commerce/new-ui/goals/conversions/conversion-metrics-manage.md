@@ -2,9 +2,9 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 >Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Filtern Sie die Liste [über die Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) oder aus einer [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Halten Sie in der Spalte **[!UICONTROL Conversion Display Name]** für die Metrik den Cursor über den Metriknamen und klicken Sie auf **…** > **[!UICONTROL Rename]**.
 

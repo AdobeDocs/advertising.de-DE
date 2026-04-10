@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2023'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
          + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
       + Anzeigen {#ads}
          + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [Einschränkungszuweisungen für Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
       + Klassifizierungen kennzeichnen {#label-classifications}
          + [Über Klassifizierungen von Kennzeichnungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
@@ -117,7 +117,7 @@ ht-degree: 2%
          + [Entfernen Sie Kennzeichnungswerte aus den Kontokomponenten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
          + [Löschen von Kennzeichnungswerten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
          + [Löschen von Kennzeichnungsklassifizierungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
-   + Zielgruppe {#target}
+   + Target {#target}
       + Schlüsselwörter {#keywords}
          + [Über die [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
          + [Einschränkungszuweisungen für Schlüsselwörter verwalten](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
