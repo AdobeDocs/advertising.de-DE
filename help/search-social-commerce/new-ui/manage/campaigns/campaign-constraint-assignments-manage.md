@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: 26d99b0a731ff07dde9461e8390c7bb540b3cc21
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 >[!NOTE]
 >
->* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine nicht veränderliche Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
 >* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in aktiven Portfolios befinden, sich in hybriden Portfolios befinden oder nicht in Portfolios sind.
 
 ## Weisen Sie ausgewählten Kampagnen in der neuen [!UICONTROL Campaigns] eine Einschränkung zu
