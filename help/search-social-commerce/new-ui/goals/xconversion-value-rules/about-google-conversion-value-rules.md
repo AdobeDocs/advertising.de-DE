@@ -30,7 +30,7 @@ Wenn das Advertiser-Konto so konfiguriert ist, dass Search-, Social- und Commerc
 
 Angenommen, das Ziel verwendet eine einzige Konversionsmetrik „Leads“ und gibt Konversionen von Mobilgeräten das Gewicht 10 und Konversionen von Nicht-Mobilgeräten das Gewicht 10 an. Search, Social und Commerce zählen ein Ereignis aus einem der Gerätetypen als Konversion 1 (1) und schreiben den Konversionswert als 10 zu. Angenommen, eine Kampagne in diesem Portfolio verwendet eine Konversionswertregel: „Wenn das Gerät ein Mobilgerät ist, multiplizieren Sie sie mit 2.“ Wenn ein mobiles Leads-Ereignis für diese Kampagne verfolgt wird, schreibt [!DNL Google Ads] die Konversionszählung auch als eins (1), aber den Konversionswert als (10 x 2) = 20 zu.
 
-Weitere Informationen zu Ihren Regeln, einschließlich der ursprünglichen Konversionswerte vor der Anwendung der Regeln, finden Sie [ Bericht zu Konversionswertregeln in  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
+Weitere Informationen zu Ihren Regeln, einschließlich der ursprünglichen Konversionswerte vor der Anwendung der Regeln, finden Sie [&#x200B; Bericht zu Konversionswertregeln in  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
 
 >[!MORELIKETHIS]
 >
