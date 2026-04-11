@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Gilt nur für Gebotseinheiten in CPC-Kampagnen in alten Portfolios auf Keyword-Ebene*
 
-Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
+Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=de) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
 
 ## Über Einschränkungen
 
@@ -62,7 +62,7 @@ Einige Gründe für die Beschränkung von Gebotseinheiten sind:
 
 Neben dem Öffnen der [[!UICONTROL Constraints] können &#x200B;](#constraints-view) Informationen zu Ihren Einschränkungen auf folgende Weise anzeigen:
 
-* All Ihre Einschränkungen sind Kennzeichnungswerte für eine einzelne [Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) genannt &quot;[!UICONTROL Constraints]&quot;.
+* All Ihre Einschränkungen sind Kennzeichnungswerte für eine einzelne [Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=de) genannt &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; ist in der Liste &quot;[!UICONTROL Classifications]&quot; in Ihren standardmäßigen und benutzerdefinierten Ansichtseinstellungen sowie in terminierten Berichten enthalten. Sie können die Spalte dort hinzufügen, wo Sie die den entsprechenden Entitäten zugewiesenen Einschränkungen anzeigen möchten.
 
