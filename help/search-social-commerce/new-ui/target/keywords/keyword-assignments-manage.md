@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Keywords Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 >[!NOTE]
 >
->* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine nicht veränderliche Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
 >* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in aktiven Portfolios befinden, sich in hybriden Portfolios befinden oder nicht in Portfolios sind.
 
 ## Weisen Sie ausgewählten Anzeigen in der neuen [!UICONTROL Keywords] eine Einschränkung zu
