@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Zu den Erkenntnissen gehören:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Eine tägliche Zeitreihentabelle, die zeigt, wie sich Ihre Zielgruppe vom insgesamt verfügbaren Pool auf die tatsächlichen Impressionsgewinne reduziert, nachdem alle Zielgruppenbestimmungs- und Eignungsfilter angewendet wurden. Die Daten werden für den Vortag angezeigt. Die funnel umfasst die folgenden Metriken, von breit bis schmal:
 
-   * **[!UICONTROL Audience Segment Size]:** Die Gesamtzahl der eindeutigen Benutzer in der aggregierten Zielgruppe.
+   * **[!UICONTROL Total Target Audience]:** Die Gesamtzahl der eindeutigen Benutzer in der aggregierten Zielgruppe.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** Die Anzahl der Benutzerinnen und Benutzer aus der Zielgruppe, die während des vorherigen 24-Stunden-Zeitraums im Bid-Stream aktiv waren. Diese Anzahl umfasst alle Benutzenden im Umfang, unabhängig davon, ob das Platzierungs-Gebot für sie gilt oder nicht. Ein Rückgang von der [!UICONTROL Total Target Audience] auf die [!UICONTROL Reachable Audience] spiegelt den Teil der Zielgruppe wider, der im Berichtszeitraum nicht im Bid-Stream aktiv war, was nicht auf die Bid-Performance zurückzuführen ist.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Die Anzahl der Benutzerinnen und Benutzer aus der Zielgruppe, die während des vorherigen 24-Stunden-Zeitraums im Bid-Stream aktiv waren. Diese Anzahl umfasst alle Benutzenden im Umfang, unabhängig davon, ob das Platzierungs-Gebot für sie gilt oder nicht. Ein Rückgang von der [!UICONTROL Total Target Audience] auf die [!UICONTROL Reachable Audience] spiegelt den Teil der Zielgruppe wider, der im Berichtszeitraum nicht im Bid-Stream aktiv war, was nicht auf die Bid-Performance zurückzuführen ist.
 
-   * **[!UICONTROL Eligible cookies]:** Die Untergruppe erreichbarer Benutzer, die nach Anwenden von Geo-, Gerätetyp-, Betriebssystem- und Browser-Filtern verbleiben. Wenn diese Zahl deutlich unter [!UICONTROL Reachable Audience] liegt, sollten Sie überprüfen, ob Ihr Geo- oder Gerätetyp zu restriktiv ausgerichtet ist.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Die Untergruppe erreichbarer Benutzer, die nach Anwenden von Geo-, Gerätetyp-, Betriebssystem- und Browser-Filtern verbleiben. Wenn diese Zahl deutlich unter [!UICONTROL Reachable Audience] liegt, sollten Sie überprüfen, ob Ihr Geo- oder Gerätetyp zu restriktiv ausgerichtet ist.
 
-  **[!UICONTROL Cookies Bid On]:** Die Anzahl der geeigneten Gelegenheiten, für die die Platzierung ein Angebot eingereicht hat. Ein starker Rückgang in dieser Phase kann auf Budget- oder Tempobeschränkungen hindeuten, die das Angebotsvolumen begrenzen.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** Die Anzahl der geeigneten Gelegenheiten, für die die Platzierung ein Angebot eingereicht hat. Ein starker Rückgang in dieser Phase kann auf Budget- oder Tempobeschränkungen hindeuten, die das Angebotsvolumen begrenzen.
 
    * **[!UICONTROL Impression Wins]:** Die Anzahl der Gelegenheiten, für die die Platzierung eine Impression gewonnen hat. Wenn die Gewinne viel niedriger sind als die Gebote, dann kann Ihr Gebotspreis unter dem aktuellen Marktsatz für das Zielinventar liegen.
 
