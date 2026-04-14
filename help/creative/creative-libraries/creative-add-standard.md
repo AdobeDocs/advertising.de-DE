@@ -4,22 +4,19 @@ description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nic
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
 TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
-source-wordcount: 1069
+source-wordcount: 1068
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -51,7 +48,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Flexible kreative Dateien hinzufügen oder entfernen:
 
@@ -59,7 +56,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
@@ -106,7 +103,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -169,7 +166,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Um ein Bild zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Geben Sie die Kreativeinstellungen für [HTML5 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
+1. Geben Sie die Kreativeinstellungen für [HTML5 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
 
    Standardmäßig sind alle Kreativen oder GenStudio-Erlebnisse, die Sie gerade hochgeladen haben, ausgewählt. Alle von Ihnen angegebenen Einstellungen gelten für alle ausgewählten Elemente. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Elemente. Um Einstellungen für bestimmte Kreative oder GenStudio-Erlebnisse einzugeben, heben Sie die Auswahl der einzelnen nicht zutreffenden Kreativen oder Erlebnisse auf.
 
@@ -185,9 +182,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
-   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. **[!UICONTROL Create]** klicken
 

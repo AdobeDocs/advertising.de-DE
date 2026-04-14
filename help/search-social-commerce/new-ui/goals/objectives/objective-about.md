@@ -2,21 +2,15 @@
 title: (Neue Benutzeroberfläche) Über Ziele
 description: Erfahren Sie mehr über Ziele, um Ihre Geschäftsziele zu erreichen.
 feature: Search Objectives, Search Optimization
-hide: true
+hide: 'yes'
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+autotag-review: '2026-04-14T00:06:19.870Z'
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 0%
@@ -24,6 +18,8 @@ ht-degree: 0%
 ---
 
 # (Neue Benutzeroberfläche) Über Ziele
+
+<!-- no subfeature tag for objectives -->
 
 *Beta-Funktion*
 
@@ -59,7 +55,7 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 * (Advertisers mit [!DNL Adobe Analytics for Advertising]) [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/overview.md).
 
-  In Search, Social und Commerce [&#x200B; die folgenden &#x200B;](/help/integrations/analytics/analytics-data-in-advertising.md)Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
+  In Search, Social und Commerce [ die folgenden ](/help/integrations/analytics/analytics-data-in-advertising.md)Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
 
 * [!DNL Google] Metriken:<!-- Search only, or might DSP-only clients also have these? -->
 
@@ -71,7 +67,7 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 ## Option zum Hochladen von Zielen in die Werbenetzwerke
 
-Sie können [&#x200B; Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
+Sie können [ Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
 
 >[!MORELIKETHIS]
 >
