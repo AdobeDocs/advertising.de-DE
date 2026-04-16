@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # Über Einblicke
-
-*Beta-Funktion*
 
 Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie zur effizienten Optimierung Ihrer Kampagnen und zur Entdeckung neuer Möglichkeiten zur Leistungsskalierung benötigen. Sie können Daten über Kampagnen hinweg für einen bestimmten Advertiser anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
 
@@ -125,7 +123,7 @@ Zu den Erkenntnissen gehören:
 
 1. Öffnen Sie eine Reihe von Einblicken:
 
-   * (Um Insights für alle Kampagnen zu öffnen) Klicken Sie im Hauptmenü auf **[!UICONTROL Insights BETA]**.
+   * (Um Insights für alle Kampagnen zu öffnen) Klicken Sie im Hauptmenü auf **[!UICONTROL Insights]**.
 
    * (Um Einblicke für eine bestimmte Kampagne, ein bestimmtes Paket oder eine bestimmte Platzierung zu öffnen) Klicken Sie neben dem Entitätsnamen in der [!UICONTROL Campaigns]-, [!UICONTROL Packages]- oder [!UICONTROL Placements] auf **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
