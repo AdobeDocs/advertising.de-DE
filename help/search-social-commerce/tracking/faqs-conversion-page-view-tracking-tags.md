@@ -4,16 +4,12 @@ description: Hier sehen Sie die Tracking-Tags für Adobe Advertising-Konversione
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -35,10 +31,10 @@ Folgendes gilt für Adobe Advertising-Konversionsverfolgungstags und Seitenansic
 >[!NOTE]
 >
 >* Alle neuen Implementierungen verwenden JavaScript Version 3.
->* Das JavaScript-Tag mit ECID verwendet zum Messen von Konversionen den [Adobe Experience Cloud ID (](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de))-Service sowie die veraltete ef_id und gsurferid. Dieses neueste Tag erstellt [Erstanbieter-Experience Cloud s_ecid-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=de) und bietet eine engere Integration mit anderen Experience Cloud-Produkten.
+>* Das JavaScript-Tag mit ECID verwendet zum Messen von Konversionen den [Adobe Experience Cloud ID (](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html))-Service sowie die veraltete ef_id und gsurferid. Dieses neueste Tag erstellt [Erstanbieter-CX Enterprise s_ecid-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) und bietet eine engere Integration mit anderen CX Enterprise-Produkten.
 >* Verwenden Sie Tags der JavaScript-Version 2 nur, wenn sie bereits implementierte Tags auf den Web-Seiten des Werbetreibenden sind.
 >* Es empfiehlt sich, JavaScript-Tags anstelle von Bild-Tags zu verwenden, es sei denn, die Website verfügt über eine Richtlinie gegen ihre Verwendung.
->* JavaScript-Tags sind für Werbetreibende erforderlich, die Zielgruppen ansprechen möchten, die in Adobe Experience Cloud erstellt, in Adobe Audience Manager erstellt oder aus Audience Manager oder Adobe Analytics in Adobe Experience Cloud veröffentlicht wurden.
+>* JavaScript-Tags sind für Werbetreibende erforderlich, die Zielgruppen ansprechen möchten, die in Adobe CX Enterprise erstellt, in Adobe Audience Manager erstellt oder aus Audience Manager oder Adobe Analytics in Adobe CX Enterprise veröffentlicht wurden.
 
 >[!MORELIKETHIS]
 >

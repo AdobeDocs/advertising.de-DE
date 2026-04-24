@@ -4,15 +4,12 @@ description: Erfahren Sie, wie Sie sich anmelden.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet SSO-Zugriff (Single Sign-on) mit Federated IDs auf alle Produkte, [!DNL Adobe] IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, Target und Analytics. Mit der Änderung:
 
-* Sie können eine [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] Produktlisten hinweg anzumelden - entweder über die Experience Cloud-Anmeldeseite oder die veraltete Anmeldeseite für Search, Social und Commerce. Ihr [!DNL Adobe ID] bietet Benutzerprofilverwaltung und die Möglichkeit, über das obere Menü zu einem anderen [!DNL Adobe] zu wechseln. In einer zukünftigen Version können Sie das Konto für Search, Social und Commerce sowie das IMS-Organisationskonto über das obere Menü ändern.
+* Sie können eine [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] Produktlisten hinweg anzumelden - entweder über die CX Enterprise-Anmeldeseite oder die veraltete Anmeldeseite für Search, Social und Commerce. Ihr [!DNL Adobe ID] bietet Benutzerprofilverwaltung und die Möglichkeit, über das obere Menü zu einem anderen [!DNL Adobe] zu wechseln. In einer zukünftigen Version können Sie das Konto für Search, Social und Commerce sowie das IMS-Organisationskonto über das obere Menü ändern.
 
 * Die Authentifizierung für Unternehmen wird unterstützt.
 
@@ -29,7 +26,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben für kurze Zeit aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von Experience Cloud, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
@@ -47,13 +44,13 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
 1. Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie oben rechts auf der Seite die richtige Organisation aus.
 
-## Von Adobe Experience Cloud aus mit einer [!DNL Adobe ID] anmelden
+## Von Adobe CX Enterprise aus mit einer [!DNL Adobe ID] anmelden
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
@@ -61,7 +58,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**..
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Klicken Sie im Abschnitt [!UICONTROL Quick Access] Ihrer Startseite auf **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

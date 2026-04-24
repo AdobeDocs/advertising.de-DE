@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -15,28 +15,28 @@ ht-degree: 2%
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
 
-+ [Neue Funktionen](home.md)
-+ [Über dieses Handbuch](help-about.md)
++ [What&#39;s new](home.md)
++ [About this guide](help-about.md)
 + Einführung {#intro}
-   + [Über Adobe Advertising Search, Social und Commerce](/help/search-social-commerce/introduction/about.md)
-   + [Unterstütztes Inventar](/help/search-social-commerce/introduction/supported-inventory.md)
-   + Integration mit Adobe Experience Cloud {#integrations}
-      + [Integration mit Adobe Experience Cloud-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de){target="_blank"}
-      + [Integration mit Adobe Audience Manager (Link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=de){target="_blank"}
-   + [Unterstützung für den Datenschutz von Privatkunden (Link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-   + [Richtlinien und Richtlinien (Link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=de){target="_blank"}
-+ Erste Schritte {#getting-started}
-   + [Implementierungsübersicht](/help/search-social-commerce/getting-started/implemention-overview.md)
+   + [About Adobe Advertising Search, Social, &amp; Commerce](/help/search-social-commerce/introduction/about.md)
+   + [Supported inventory](/help/search-social-commerce/introduction/supported-inventory.md)
+   + Integration with Adobe CX Enterprise {#integrations}
+      + [Integration mit Adobe CX Enterprise-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md)
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integration with Adobe Audience Manager (link)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Support for consumer privacy (link)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Policies and guidelines (link)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
++ Getting started {#getting-started}
+   + [Implementation overview](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemanforderungen](/help/search-social-commerce/getting-started/system-requirements.md)
    + [Anmelden](/help/search-social-commerce/getting-started/sign-in.md)
    + [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md)
-   + [Wechseln zwischen der neuen und der alten Benutzeroberfläche](/help/search-social-commerce/getting-started/ui-switch.md)
-   + [Abmelden](/help/search-social-commerce/getting-started/sign-out.md)
-+ Allgemeine Aufgaben {#common-tasks}
-   + [Anzeigen von Daten für einen anderen Advertiser](/help/search-social-commerce/common-tasks/change-advertiser.md)
-   + [Bearbeiten von Einstellungen direkt in einer Zeile](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
-   + Datenansichten anpassen {#data-views}
+   + [Switch between the new and legacy user interfaces](/help/search-social-commerce/getting-started/ui-switch.md)
+   + [Sign out](/help/search-social-commerce/getting-started/sign-out.md)
++ Common tasks {#common-tasks}
+   + [View data for another advertiser](/help/search-social-commerce/common-tasks/change-advertiser.md)
+   + [Edit settings directly within a row](/help/search-social-commerce/common-tasks/settings-edit-within-row.md)
+   + Customize data views {#data-views}
       + [Über das Anpassen von Daten in Ansichten des Kampagnen-Managements](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)
       + [Verwalten von standardmäßigen und benutzerdefinierten Ansichten](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
       + Einstellungen für Ad-hoc-Ansichten {#ad-hoc-settings}
@@ -62,61 +62,61 @@ ht-degree: 2%
       + [Datum im Kalender angeben](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [Ein Trenddiagramm ein- und ausblenden](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [Aktualisieren von Daten in Verwaltungsansichten](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + Herunterladen von Daten in Verwaltungsansichten {#download-data-views}
-         + [Herunterladen von Daten aus einer Kampagnenverwaltungsansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
-         + [Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
-+ (Beta) NEUE BENUTZEROBERFLÄCHE {#new-ui}
-   + [Über die neue Benutzeroberfläche](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [Anzeigen des Leistungs-Dashboards](/help/search-social-commerce/new-ui/dashboard-view.md)
+      + Download data in management views {#download-data-views}
+         + [Download data from a campaign management view](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+         + [Delete a performance data report or bulksheet file from the [!UICONTROL Downloads] menu](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
++ (Beta) NEW USER INTERFACE {#new-ui}
+   + [About the new user interface](/help/search-social-commerce/new-ui/new-ui-about.md)
+   + [View your performance dashboard](/help/search-social-commerce/new-ui/dashboard-view.md)
    + Plan {#plan}
-      + Ziele {#objectives}
-         + [Über Ziele](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
-         + [Erstellen eines Ziels](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
-         + [Bearbeiten eines Ziels](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
-         + [Löschen eines Ziels](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
-         + [Gewichtungsempfehlungen auf ein Ziel anwenden](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
-         + [Herunterladen von Leistungsmetriken für Ziele](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
-         + [Zieleinstellungen](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + Simulationen {#simulations}
-         + [Über Simulationen](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-         + [Benutzerdefinierte Simulation ausführen oder erneut ausführen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-         + [Anzeigen von Simulationsdetails](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-         + [Simulationen herunterladen](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-      + [Verwenden der [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
-   + Verwalten {#manage}
+      + Objectives {#objectives}
+         + [About objectives](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+         + [Create an objective](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+         + [Edit an objective](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+         + [Delete an objective](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+         + [Apply weight recommendations to an objective](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+         + [Download performance metrics for objectives](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
+         + [Objective settings](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+      + Simulations {#simulations}
+         + [About simulations](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [Run or rerun a custom simulation](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [View simulation details](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+         + [Download simulations](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + [Using the [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+   + Manage {#manage}
       + Portfolios {#portfolios}
-         + [Über Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
-         + [Portfoliogruppen verwalten](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)
-         + [Portfolio erstellen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
-         + [Duplizieren eines Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
-         + [Portfoliodetails bearbeiten](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
-         + [Massenbearbeitung von Portfolioeinstellungen mithilfe von Bulksheet-Dateien](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
-         + [Portfolio-Einstellungen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-         + [Anzeigen eines Leistungsdiagramms in der [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
-         + [Anzeigen von Portfolioleistungsdetails](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+         + [About portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [Manage portfolio groups](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)
+         + [Create a portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [Duplicate a portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [Edit portfolio details](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [Bulk edit portfolio settings using bulksheet files](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Portfolio settings](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [View a performance graph in the [!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
+         + [View portfolio performance details](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [Manage data view reports from the [!UICONTROL Portfolios] view](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Kampagnen {#campaigns}
-         + [Über die [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
-         + [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + Anzeigengruppen {#ad-groups}
-         + [Über die [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-         + [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + Anzeigen {#ads}
-         + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+         + [About the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [Assign campaigns to a portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Remove campaigns from a portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Manage constraint assignments for campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [Manage data view reports from the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+      + Ad Groups {#ad-groups}
+         + [About the [!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [Manage constraint assignments for ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [Manage data view reports from the [!UICONTROL Ad Groups] view](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+      + Ads {#ads}
+         + [About the [!UICONTROL Ads] view](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
+         + [Manage data view reports from the [!UICONTROL Ads] view](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
-      + Klassifizierungen kennzeichnen {#label-classifications}
-         + [Über Klassifizierungen von Kennzeichnungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [Erstellen einer Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [Entfernen Sie Kennzeichnungswerte aus den Kontokomponenten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [Löschen von Kennzeichnungswerten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [Löschen von Kennzeichnungsklassifizierungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + Label classifications {#label-classifications}
+         + [About label classifications](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [Erstellen einer Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [Entfernen von Kennzeichnungswerten aus Kontokomponenten](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [Löschen von Kennzeichnungsklassifizierungswerten](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [Löschen von Kennzeichnungsklassifizierungen](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
       + Schlüsselwörter {#keywords}
          + [Über die [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -132,7 +132,7 @@ ht-degree: 2%
             + [Manuelles Synchronisieren von Werbenetzwerkdaten über API-Verbindung](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + Daten-Upload-Konten {#data-upload}
             + [Verwalten von Anzeigen-Netzwerkkonten für Daten-Uploads](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-         + [&#x200B; [!DNL Naver]  nur für Tracking verwalten](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+         + [ [!DNL Naver]  nur für Tracking verwalten](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
    + [Benutzerverwaltung](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracking {#tracking}
    + [Über das Tracking](/help/search-social-commerce/tracking/tracking-about.md)
@@ -150,40 +150,40 @@ ht-degree: 2%
             + [Klick-Tracking-Formate für [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klick-Tracking-Formate für [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Optionale Tracking-Parameter für Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=de){target="_blank"}
+      + [Adobe Advertising-Cookies (Link)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Der Tracking-Parameter der AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konversionsverfolgung {#conversion-tracking}
       + [Konversionsverfolgungs-Optionen](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising-Konversionsverfolgung {#advertising-conversion-tracking}
          + [Über Konversionsverfolgungs-Tags in Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Generieren und Implementieren eines Adobe Advertising-Konvertierungs-Tags](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
-         + [Format der JavaScript-Konversionsverfolgungstags Version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
-         + [Format der JavaScript-Konversionsverfolgungstags, Version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
-         + [Format der Tracking-Tags für die Bildkonvertierung](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Das Adobe Advertising JavaScript-Konversionszuordnungs-Tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-         + [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
-      + [Adobe Analytics-Konversionsverfolgung](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
-      + Von Advertisern nachverfolgte Konversionen mithilfe von Feeds{#conversion-feeds}
-         + Feeds mit EF-IDs {#ef-ids}
-            + [Konversionsverfolgung mit einem EF-ID-Feed](/help/search-social-commerce/tracking/feed-efid.md)
-            + [Datenanforderungen für Daten-Feeds mit EF-IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-         + Feeds mit Transaktions-IDs {#transaction-ids}
-            + [Konversionsverfolgung mit einem Transaktions-ID-Feed](/help/search-social-commerce/tracking/feed-transaction-id.md)
-            + [Datenanforderungen für Daten-Feeds mit einer Transaktions-ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
-         + [Dateianforderungen für Konversions-Feed-Dateien](/help/search-social-commerce/tracking/feed-file-requirements.md)
-   + [Häufig gestellte Fragen zum Tracking](/help/search-social-commerce/tracking/faqs-tracking.md)
-+ Kampagnen-Management {#campaign-management}
+         + [Generate and implement an Adobe Advertising conversion tag](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [Format of JavaScript conversion tracking tags version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
+         + [Format of JavaScript conversion tracking tags version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+         + [Format of image conversion tracking tags](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+         + [The Adobe Advertising JavaScript conversion mapping tag](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [FAQs about conversion and page view tracking tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+      + [Adobe Analytics conversion tracking](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
+      + Advertiser-tracked conversions using feeds{#conversion-feeds}
+         + Feeds using EF IDs {#ef-ids}
+            + [Conversion tracking using an EF ID feed](/help/search-social-commerce/tracking/feed-efid.md)
+            + [Data requirements for data feeds using EF IDs](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+         + Feeds using transaction IDs {#transaction-ids}
+            + [Conversion tracking using a transaction ID feed](/help/search-social-commerce/tracking/feed-transaction-id.md)
+            + [Data requirements for data feeds using a transaction ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+         + [File requirements for conversion feed files](/help/search-social-commerce/tracking/feed-file-requirements.md)
+   + [FAQs about tracking](/help/search-social-commerce/tracking/faqs-tracking.md)
++ Campaign management {#campaign-management}
    + Einführung {#campaign-management-intro}
       + [Über die Kampagnenverwaltung in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
-      + [Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagnen](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
-      + [Überwachen und Verwalten der Leistung Ihrer Werbenetzwerk-Kampagnen](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [[!DNL Google Ads] von Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [[!DNL Microsoft Advertising] von Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
-   + Einrichten von Konten {#campaign-management-accounts}
-      + Anzeigen von Netzwerkkonten {#ad-network-accounts}
+      + [Overview of implementing ad network accounts and campaigns](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
+      + [Monitor and manage the performance of your ad network campaigns](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
+      + [[!DNL Google Ads] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] conversion data in Search, Social, &amp; Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+   + Setting up accounts {#campaign-management-accounts}
+      + Ad network accounts {#ad-network-accounts}
          + [Über Anzeigennetzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Verwalten von Anzeigennetzwerkkonten](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [AMO-ID-Trackingcode für ein Konto  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [AMO-ID-Trackingcode für ein Konto  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Händlercenter-Konten verwalten](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Nur [!DNL Naver] Tracking-Konten implementieren](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Verwalten von Kampagnen {#management}
@@ -258,7 +258,7 @@ ht-degree: 2%
          + Anzeigenerweiterungen {#ad-extensions}
             + [!DNL Google Ads] Callout-Erweiterungen {#callouts}
                + [Über  [!DNL Google Ads] -Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-               + [&#x200B; [!DNL Google Ads]  verwalten](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+               + [ [!DNL Google Ads]  verwalten](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Verknüpfen  [!DNL Google Ads]  freigegebenen Callout-Erweiterungen mit Kampagnen oder Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
             + Sitelink-Erweiterungen {#sitelinks}
                + [Über Sitelink-Erweiterungen](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
@@ -279,13 +279,13 @@ ht-degree: 2%
          + Erforderliche/eingeschlossene Daten in Bulksheets{#bulksheet-data-formats}
             + [Unterstützte Bulksheet-Dateiformate](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [Vorgänge, die Sie in Bulksheets ausführen können](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Bulksheet-Daten für  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Bulksheet-Daten für  [!DNL Yahoo! Japan] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [Erforderliche Bulksheet-Daten für  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [Bulksheet-Daten für  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Bulksheet-Daten für  [!DNL Yahoo! Japan] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Erforderliche Bulksheet-Daten für  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisieren von Kampagnendaten mithilfe von Inventar-Feeds {#inventory-feeds}
          + [Automatisieren der Anzeigenverwaltung mithilfe von Inventar-Feeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [Wann werden Kontokomponenten von Inventar-Feeds erstellt oder gelöscht?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
@@ -409,32 +409,32 @@ ht-degree: 2%
       + Berichte automatisieren {#report-automation}
          + Berichtsvorlagen {#report-templates}
             + [Über Berichtsvorlagen](/help/search-social-commerce/reports/automation/templates/template-about.md)
-            + [Anzeigen von Berichtsvorlagen](/help/search-social-commerce/reports/automation/templates/template-view.md)
-            + [Erstellen einer Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-create.md)
-            + [Bearbeiten einer Berichtsvorlage](/help/search-social-commerce/reports/automation/templates/template-edit.md)
-            + [Löschen von Berichtsvorlagen](/help/search-social-commerce/reports/automation/templates/template-delete.md)
-         + Tabellen-Feeds {#spreadsheet-feeds}
-            + [Über Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
-            + [Erstellen  [!DNL Excel]  Vorlage für einen Tabellenbericht-Feed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
-            + [Erstellen eines Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
-            + [Bearbeiten von Tabellenbericht-Feed-Einstellungen](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)
-            + [Tabellenbericht-Feeds manuell aktualisieren](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
-            + [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-view-or-save.md)
-            + [Tabellenbericht-Feeds löschen](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-delete.md)
-            + [Einstellungen für Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
-         + [FTP-Zugriff auf Berichte](/help/search-social-commerce/reports/automation/ftp-reports.md)
-      + [Wie Attributionsregeln berechnet werden](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Häufig gestellte Fragen zu benutzerdefinierten Berichten](/help/search-social-commerce/reports/faqs-report.md)
+            + [View a report template](/help/search-social-commerce/reports/automation/templates/template-view.md)
+            + [Create a report template](/help/search-social-commerce/reports/automation/templates/template-create.md)
+            + [Edit a report template](/help/search-social-commerce/reports/automation/templates/template-edit.md)
+            + [Delete a report template](/help/search-social-commerce/reports/automation/templates/template-delete.md)
+         + Spreadsheet feeds {#spreadsheet-feeds}
+            + [About spreadsheet report feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
+            + [Create an [!DNL Excel] template for a spreadsheet report feed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
+            + [Create a spreadsheet report feed](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
+            + [Edit spreadsheet report feed settings](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)
+            + [Manually refresh spreadsheet report feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
+            + [View or save a spreadsheet report feed file](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-view-or-save.md)
+            + [Delete spreadsheet report feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-delete.md)
+            + [Spreadsheet report feed settings](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
+         + [FTP access to reports](/help/search-social-commerce/reports/automation/ftp-reports.md)
+      + [How attribution rules are calculated](/help/search-social-commerce/reports/attribution-rules.md)
+      + [FAQs About Custom Reports](/help/search-social-commerce/reports/faqs-report.md)
    + Benachrichtigungen {#notifications}
-      + [Über Benachrichtigungen](/help/search-social-commerce/notifications/notification-about.md)
-      + [Anzeigen von Benachrichtigungen](/help/search-social-commerce/notifications/notification-view.md)
-      + [Markieren einer Benachrichtigung als gelesen oder ungelesen](/help/search-social-commerce/notifications/notification-mark-read-unread.md)
-      + [Löschen einer Benachrichtigung](/help/search-social-commerce/notifications/notification-delete.md)
-      + [Benachrichtigungseinstellungen bearbeiten](/help/search-social-commerce/notifications/notification-edit.md)
-      + [Aktivieren und Deaktivieren von Push-Benachrichtigungen über [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
-      + [Installieren und Deinstallieren der [!UICONTROL Notification Center]-Webanwendung](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
-   + Benutzerdefinierte Warnhinweise {#alerts}
-      + [Über benutzerdefinierte Warnhinweise](/help/search-social-commerce/alerts/alert-about.md)
+      + [About notifications](/help/search-social-commerce/notifications/notification-about.md)
+      + [View your notifications](/help/search-social-commerce/notifications/notification-view.md)
+      + [Mark a notification as read or unread](/help/search-social-commerce/notifications/notification-mark-read-unread.md)
+      + [Delete a notification](/help/search-social-commerce/notifications/notification-delete.md)
+      + [Edit your notification settings](/help/search-social-commerce/notifications/notification-edit.md)
+      + [Enable and disable push notifications from [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
+      + [Install and uninstall the [!UICONTROL Notification Center] web application](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
+   + Custom alerts {#alerts}
+      + [About custom alerts](/help/search-social-commerce/alerts/alert-about.md)
       + Warnhinweisvorlagen {#alert-templates}
          + [Erstellen einer benutzerdefinierten Warnhinweisvorlage](/help/search-social-commerce/alerts/alert-template-create.md)
          + [Bearbeiten einer benutzerdefinierten Warnhinweisvorlage](/help/search-social-commerce/alerts/alert-template-edit.md)
@@ -469,16 +469,16 @@ ht-degree: 2%
 + Administration {#admin}
    + [Über Rollen](/help/search-social-commerce/admin/role-about.md)
    + [Verwalten von Anmeldeinformationen für Ad Network Manager-Konten](/help/search-social-commerce/admin/manager-accounts.md)
-   + [&#x200B; [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/admin/sync-adobe-audiences.md)
+   + [ [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Konfigurieren von Datenquellen {#data-sources}
       + [Über Synchronisierungs [!DNL Google Analytics] Konversionsmetriken](/help/search-social-commerce/admin/data-sources/data-source-about.md)
       + [Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Konfigurieren einer  [!DNL Google Analytics] -Ansicht als Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Datenquelle  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Datenquelle  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Synchronisierung einer Datenquelle anhalten](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
       + [Erneutes Authentifizieren  [!DNL Google Analytics]  Datenquelle](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] Datenquelleneinstellungen](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
-      + [Anhang - Verfügbare  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
+      + [Anhang - Verfügbare  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Konversionsmetriken eines Werbetreibenden verwalten{#conversion-metrics}
       + [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
       + [Anzeigen der für einen Advertiser verfolgten Konversionsmetriken](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
