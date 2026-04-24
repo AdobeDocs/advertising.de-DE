@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1207
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Gewichtungsempfehlungen werden automatisch für DSP-zugeordnete Metriken in Ziel
 
 ## Erstellen eines benutzerdefinierten Ziels {#custom-goal-create}
 
-Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL Search, Social, & Commerce]-Konto mit derselben Adobe Experience Cloud-Organisations-ID aus den [!DNL Search, Social, & Commerce] Client-Einstellungen heraus verknüpft werden. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce]-Konto verknüpft ist, wenden Sie sich an Ihr Adobe-Konto-Team.
+Um ein benutzerdefiniertes Ziel zu erstellen, muss das DSP-Konto mit einem [!DNL Search, Social, & Commerce]-Konto mit derselben Adobe CX Enterprise-Organisations-ID aus den [!DNL Search, Social, & Commerce] Client-Einstellungen heraus verknüpft werden. Wenn Ihr DSP-Konto nicht mit einem [!DNL Search, Social, & Commerce]-Konto verknüpft ist, wenden Sie sich an Ihr Adobe-Konto-Team.
 
 1. [Bei Advertising Search, Social und Commerce anmelden](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 

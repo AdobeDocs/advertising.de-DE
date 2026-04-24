@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 517
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie können Adobe Advertising wie folgt mit Audience Manager integrieren.
 
 *Opt-in-Werbetreibende nur mit [!DNL Advertising Search, Social, & Commerce]*
 
-In [!DNL Search, Social, & Commerce] können Sie aus Benutzer-IDs [!DNL Google Ads] Zielgruppen für den Kundenabgleich erstellen, indem Sie Ihre vorhandenen Audience Manager-Segmente verwenden, die [!UICONTROL Adobe Media Optimizer (HTTP)] und [!UICONTROL Adobe Media Optimizer Batch Destination] als Ziele haben. ([!DNL Media Optimizer] ist ein früherer Name für [!DNL Search, Social, & Commerce].) Dies umfasst Adobe Analytics-Segmente, die in Adobe Experience Cloud veröffentlicht werden, und Segmente, die mit dem Adobe Experience Cloud-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).
+In [!DNL Search, Social, & Commerce] können Sie aus Benutzer-IDs [!DNL Google Ads] Zielgruppen für den Kundenabgleich erstellen, indem Sie Ihre vorhandenen Audience Manager-Segmente verwenden, die [!UICONTROL Adobe Media Optimizer (HTTP)] und [!UICONTROL Adobe Media Optimizer Batch Destination] als Ziele haben. ([!DNL Media Optimizer] ist ein früherer Name für [!DNL Search, Social, & Commerce].) Dazu gehören Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden, und Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).
 
 [Kundenabgleich-Zielgruppen mit Benutzer-IDs](https://support.google.com/google-ads/answer/9199250) funktionieren wie Zielgruppen, die auf Website-Tags basieren. Eindeutigen Zielgruppenmitgliedern wird jedoch eine Nicht-PII-ID zugewiesen, um gegenüber standardmäßigen Zielgruppen für Kundenabgleich und Website-Tags deutliche Vorteile zu erzielen.
 
@@ -49,7 +49,7 @@ Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als
 
 ### Verwenden von Audience Manager und anderen [!DNL Adobe], um Anzeigen anzusprechen oder auszuschließen {#audience-manager-targets}
 
-* (Opt-in-Werbetreibende mit [!DNL Search, Social, & Commerce]) Sie können in Ihren [!DNL Google Ads]-Kampagnen beliebige [-Zielgruppen  [!DNL Adobe] erstellt mit](#audience-manager-google-audiences)Segmenten[!DNL Google Ads] als Zielgruppen oder Ausschlüsse auf Kampagnenebene oder Anzeigengruppenebene verwenden.
+* (Opt-in-Werbetreibende mit [!DNL Search, Social, & Commerce]) Sie können in Ihren [!DNL Google Ads]-Kampagnen beliebige [!DNL Google Ads]-Zielgruppen [erstellt mit [!DNL Adobe] Segmenten](#audience-manager-google-audiences) als Zielgruppen oder Ausschlüsse auf Kampagnenebene oder Anzeigengruppenebene verwenden.
 
 * (Advertisers mit DSP) Sie können Ihre vorhandenen [!DNL Adobe] als Ziele für Ihre Anzeigenplatzierungen verwenden. Optional können Sie die Segmente in wiederverwendbare Zielgruppen einbeziehen, die Sie als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden können.
 
@@ -57,7 +57,7 @@ Nach der Erstellung können Sie die Audiences in [!DNL Google Ads] Kampagnen als
 
 >[!NOTE]
 >
->Weitere Informationen zum Erstellen von Zielgruppen in den [!DNL Audience Library] von Audience Manager und Experience Cloud sowie zu häufigen Anwendungsfällen für verschiedene Zielgruppentypen finden Sie unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de).
+>Weitere Informationen zum Erstellen von Zielgruppen in den [!DNL Audience Library] von Audience Manager und Adobe CX Enterprise sowie zu häufigen Anwendungsfällen für verschiedene Zielgruppentypen finden Sie unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de).
 
 ## Senden von DSP Media Exposure-Daten an Audience Manager
 

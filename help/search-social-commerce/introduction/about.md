@@ -1,6 +1,6 @@
 ---
-title: Über Adobe Advertising Search, Social und Commerce
-description: Erfahren Sie mehr über Search, Social und Commerce.
+title: About Adobe Advertising Search, Social, & Commerce
+description: Learn about Search, Social, & Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
@@ -16,38 +16,38 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 776
 ht-degree: 0%
 
 ---
 
-# Über Adobe Advertising Search, Social und Commerce
+# About Adobe Advertising Search, Social, &amp; Commerce
 
-[!DNL Adobe] ist der Markt- und Technologieführer bei Customer Experience-Lösungen. Adobe Advertising vereinfacht den kanalübergreifenden Versand von Werbekampagnen für das Marken- und Performance-Kampagnen-Management auf jedem Bildschirm in jedem Format. Adobe Advertising besteht aus drei Unterlösungen: Advertising Search, Social und Commerce für die Kanäle „Suche“, „Shopping“, „Social“, „Zielgruppennetzwerk“ und „Performance Max“, Advertising DSP (Demand Side Platform) für Anzeigekanäle und Advertising Creative für die Erstellung von Endbenutzererlebnissen für Ihre Display-Anzeigen.
+[!DNL Adobe] is the market and technology leader in customer experience solutions. Adobe Advertising simplifies the delivery of advertising campaigns cross-channel for brand and performance campaign management across any screen, in any format. Adobe Advertising consists of three sub-solutions: Advertising Search, Social, &amp; Commerce for search, shopping, social, audience network, and performance max channels; Advertising DSP (Demand Side Platform) for display channels; and Advertising Creative for creating end-user experiences for your display ads.
 
-Als Teil von Adobe Advertising kombiniert Advertising Search, Social und Commerce ein erstklassiges portfoliobasiertes Anzeigenmanagement mit intelligenter Kampagnenvorhersage und zielgerichteter Anzeigenbereitstellung für datenoptimierte Werbung.
+As part of Adobe Advertising, Advertising Search, Social, &amp; Commerce combines best-of-breed portfolio-based ad management with intelligent campaign forecasting and targeted ad delivery for data-optimized advertising.
 
-## KI-gesteuerte Technologie für die Anzeigenoptimierung
+## AI-driven technology for ad optimization
 
-Search, Social und Commerce automatisiert und optimiert die Bid- und Budgetverwaltung für Werbekampagnen über Werbenetzwerke hinweg im Rahmen der Geschäftsziele, Metriken, des Budgets und anderer geschäftlicher Einschränkungen eines Werbetreibenden. Es verfolgt den Klick-, Kosten- und Konversionsverlauf für jedes Keyword und jede Anzeige eines Werbetreibenden sowie Informationen zur Bid-Landschaft auf jedem Marketing-Kanal. Mithilfe eines Portfoliotheoretikansatzes vergleicht die Optimierungsfunktion alle möglichen Zuteilungen Ihres Budgets über ein gesamtes Portfolio von Kampagnen, um die Gebote und Kampagnenbudgets zu bestimmen, die die höchstmögliche Rendite auf Werbeausgaben erzielen, und sie führt die Gebote, Budgets und Bid-Strategie-Ziele entsprechend aus. Die Optimierungsfunktion überwacht ständig die Keywords und Anzeigen eines Advertisers und passt Angebote, Budgets und Ziele dynamisch an, wenn sich der Marktplatz ändert.
+Search, Social, &amp; Commerce automates and optimizes bid and budget management for ad campaigns across ad networks within the boundaries of an advertiser&#39;s business objectives, metrics, budget, and other business constraints. It tracks the click, cost, and conversion history for each of an advertiser&#39;s keywords and ads, as well as information about the bid landscape on each marketing channel. Using a portfolio theory approach, the optimization capability compares all possible allocations of your budget across an entire portfolio of campaigns to determine the bids and campaign budgets that will yield the highest possible return on ad spend, and it executes the bids, budgets, and bid strategy targets accordingly. The optimization capability constantly monitors an advertiser&#39;s keywords and ads, dynamically adjusting bids, budgets, and targets as the marketplace changes.
 
-Es stehen verschiedene Optimierungstypen zur Verfügung, die es Search, Social und Commerce sowie dem Werbenetzwerk ermöglichen, die Angebotsoptimierung in unterschiedlichem Maße zu steuern. Je nach Optimierungstyp können Sie Ihre Portfolios mithilfe von Konversionen optimieren, die von Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] oder anderen First-Party-Enterprise-Feeds verfolgt werden.
+Multiple types of optimization are available, allowing Search, Social, &amp; Commerce and the ad network varying degrees of control over bid optimization. Depending on the optimization type, you can optimize your portfolios using conversions tracked by Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], or other first-party enterprise feeds.
 
-Je nach Ihrer Rolle können Sie möglicherweise Portfolio-Performance-Simulationen anzeigen, die prädiktive Modellierung zur Identifizierung Ihres optimalen Ausgabenpunkts verwenden, und detaillierte Berichte zur Prognosegenauigkeit erstellen. Alle Benutzer können das Tool für Ausgabenempfehlungen verwenden, um die optimale Budgetverteilung auf die Portfolios zu ermitteln.
+Depending on your role, you may be able to view portfolio performance simulations, which use predictive modeling to identify your optimal spend point, and detailed forecast accuracy reports. All users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios.
 
-Weitere Informationen finden Sie im Portfolios -Kapitel im Optimierungshandbuch, das in Search, Social und Commerce verfügbar ist.
+For more information, see the Portfolios chapter in the Optimization Guide, which is available within Search, Social, &amp; Commerce.
 
-## Die Benutzeroberfläche für die Werbeverwaltung
+## The advertising management interface
 
-Search, Social und Commerce bieten umfassende Kampagnenverwaltung, Optimierung, Tracking und Berichterstellung in allen Werbenetzwerken. In den Anzeigen-Management-Ansichten haben Sie folgende Möglichkeiten:
+Search, Social, &amp; Commerce provides comprehensive campaign management, optimization, tracking, and reporting across your ad networks. In the ad management views, you can:
 
-* **Kampagnenverwaltung:** Synchronisieren Sie Ihre Anzeigenkonten für unterstützte Anzeigennetzwerke und richten Sie dann viele Kampagnentypen manuell ein und verwalten Sie sie mithilfe von Bulksheets und automatisch mithilfe von Inventardaten-Feeds.
+* **Campaign management:**  Sync your ad accounts for supported ad networks, and then set up and manage many campaign types manually, using bulksheets, and automatically using inventory data feeds.
 
-* **Optimierung** Gruppieren Sie Ihre Kampagnen und Anzeigensätze zur Optimierung in verschiedene Arten von Portfolios. Verwenden Sie Portfoliosimulationen, um die Auswirkungen von Änderungen an der Ausgabenstrategie und anderen Portfolioeinstellungen vorherzusagen.
+* **Optimization:** Group your campaigns and ad sets into different types of portfolios for optimization. Use portfolio simulations to predict the impact of changes to the spending strategy and other portfolio settings.
 
-* **Kampagnen-Tracking** Richten Sie den Zugriff auf andere Anzeigenkampagnen ein, für die Sie nur verfolgen und Berichte erstellen möchten. Dazu kann das Hochladen von Kampagnendaten und -metriken gehören.
+* **Campaign tracking:** Set up access to other ad campaigns for which you want to only track and report. This may include uploading campaign data and metrics.
 
 * **Reporting:** Überwachen und analysieren Sie die Leistung Ihrer Portfolios und aller anderen Kampagnen, die Sie verfolgen, über Leistungsdatenansichten und detaillierte, anpassbare Berichte. Sie können Konversionsmetriken aus Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] und Ihren anderen First-Party-Unternehmens-Feeds in Datenansichten und Berichte einbeziehen.
 
@@ -59,11 +59,11 @@ Search, Social und Commerce bieten umfassende Kampagnenverwaltung, Optimierung, 
 
 Weitere Informationen zur Unterstützung [&#x200B; verschiedenen Werbenetzwerke und Anzeigentypen finden Sie unter &quot;](/help/search-social-commerce/introduction/supported-inventory.md) Inventar“.
 
-## Integration mit Adobe Experience Cloud-Lösungen und -Services
+## Integration mit Adobe CX Enterprise-Lösungen und -Services
 
 Durch native Integrationen mit Adobe Analytics und Adobe Audience Manager können Sie Ihre Daten und Zielgruppensegmente miteinander verbinden, um Anzeigen-Targeting, die Erstellung [!DNL Google Ads] Zielgruppen, die Optimierung sowie Reporting/Analyse durchzuführen.
 
-Weitere Informationen zu Integrationen mit diesen und anderen Adobe-Produkten finden Sie unter [Integration mit Adobe Experience Cloud-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md).
+Weitere Informationen zu Integrationen mit diesen und anderen Adobe-Produkten finden Sie unter [Integration mit Adobe CX Enterprise-Lösungen und -Services](/help/search-social-commerce/introduction/integrations.md).
 
 ## Konversionsverfolgung
 
@@ -76,4 +76,4 @@ Weitere Informationen zum Tracking finden Sie im Kapitel „Tracking“.
 >[!MORELIKETHIS]
 >
 >* [Unterstützter Bestand](supported-inventory.md)
->* [Integration mit Adobe Experience Cloud-Lösungen und -Services](integrations.md)
+>* [Integration mit Adobe CX Enterprise-Lösungen und -Services](integrations.md)

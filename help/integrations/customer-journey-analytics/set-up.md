@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1792
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
    * Installieren Sie für Ihre Eigenschaft [die Erweiterung &quot;Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) aus dem Erweiterungskatalog.
 
-     Diese Erweiterung sendet Daten aus Ihren Web-Eigenschaften über die Experience Platform Edge Network an Experience Cloud.
+     Diese Erweiterung sendet Daten aus Ihren Web-Eigenschaften über die Experience Platform Edge Network an Adobe CX Enterprise.
 
      Verwenden Sie nicht die Adobe Advertising-Erweiterung.
 
@@ -113,97 +113,97 @@ Die folgenden Aufgaben sind erforderlich, um die Datenerfassung in Experience Pl
 
    * Erstellen Sie [Datenelemente](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/data-elements) nach Bedarf, um Variablen auf Ihrer Website der Struktur des zuvor erstellten XDM-Schemas zuzuordnen.
 
-1. [Veröffentlichen Sie das &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow) in einer Testumgebung, in der Sie die Entwicklung von Tags iterieren können.
+1. [Publish the tag](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow) to a test environment in which you can iterate on the development of tags.
 
-1. Validieren Sie den Versand der Datensätze und [veröffentlichen Sie das Tag in Ihrer Live-Produktionsumgebung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow).
+1. Validate delivery of the datasets, and then [publish the tag to your live production environment](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow).
 
-   Möglicherweise muss die IT-Abteilung Ihres Unternehmens oder eine andere Gruppe die Tag-Bereitstellung planen oder darüber informiert werden.
+   Your organization&#39;s IT department or other group may need to schedule, or be informed about, the tag deployment.
 
-## Erstellen einer Verbindung zu Ihren Experience Platform-Datensätzen in Customer Journey Analytics {#dataset-connection}
+## Create a connection to your Experience Platform datasets in Customer Journey Analytics {#dataset-connection}
 
-Führen Sie diese Schritte aus, um Adobe Advertising-Daten aus Ihren Experience Platform-Datensätzen in Customer Journey Analytics abzurufen. Der Site-Administrator Ihres Unternehmens für Customer Journey Analytics kann diese Aufgaben ausführen.
+Follow these steps to pull Adobe Advertising data from your Experience Platform datasets into Customer Journey Analytics. Your organization&#39;s site administrator for Customer Journey Analytics can perform these tasks.
 
-1. Erstellen Sie in Customer Journey Analytics [eine Verbindung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection) die Ihre Experience Platform-Datensätze und -Schemata enthält.
+1. In Customer Journey Analytics, [create a connection](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection) that includes your Experience Platform datasets and schema.
 
-   **Hinweis** Derzeit müssen Sie Daten für alle DSP- und Search-, Social- und Commerce-Konten an eine einzige Experience Platform-Instanz und Sandbox senden.
+   **Note:** Currently, you must send data for all DSP and Search, Social, &amp; Commerce accounts to a single Experience Platform instance and sandbox.
 
-   * Fügen Sie Ihren Experience Platform-Ereignis (Metriken)-Datensatz, Zusammenfassungsdatensatz (Metriken) und Dimensionen-Datensatz (Klassifizierungen/Metadaten) hinzu.
+   * Add your Experience Platform event (metrics) dataset, summary (metrics) dataset, and dimensions (classifications/metadata) dataset.
 
-     Ihr Team hat den Ereignisdatensatz erstellt, und Adobe Advertising hat die Zusammenfassungs- und Dimensionsdatensätze basierend auf Ihrem Ereignisdatensatz erstellt.
+     Your team created the event dataset, and Adobe Advertising created the summary and dimensions datasets based on your event dataset.
 
-     Sie können bei Bedarf optional zusätzliche Datensätze einbeziehen.
+     You can optionally include additional datasets as needed.
 
-   * Ordnen Sie den Dimensions-Datensatz dem Ereignis-Datensatz zu:
+   * Map the dimensions dataset to the events dataset:
 
-      1. Öffnen Sie die Einstellungen für den Dimensionsdatensatz.
+      1. Open the settings for the dimension dataset.
 
-         Die Überschrift auf der Einstellungsseite lautet &quot;[!UICONTROL Lookup Dataset]&quot;. Dies bedeutet, dass Sie Ihren Dimensionsdatensatz mit einem Ihrer metrikspezifischen Datensätze verbinden können.
+         The heading on the settings page is &quot;[!UICONTROL Lookup Dataset],&quot; which indicates that you can join your dimensions dataset with one of your metric-specific datasets.
 
-      1. Ordnen Sie im Abschnitt [!UICONTROL Adobe Advertising Dimensions] den Dimensions-Datensatz dem Ereignis-Datensatz zu:
+      1. In the [!UICONTROL Adobe Advertising Dimensions] section, map the dimensions dataset to the events dataset:
 
-         1. Wählen Sie für das [!UICONTROL Key] Feld das Feld aus, das als Schlüssel für den Dimensionsdatensatz verwendet werden soll: `Adobe Advertising ID` (dies entspricht dem `trackingCode` Feld im Schema).
+         1. For the [!UICONTROL Key] field, select the field to use as the key for the dimensions dataset: `Adobe Advertising ID` (which is same as the `trackingCode` field in the schema).
 
-         1. Wählen Sie für das Feld [!UICONTROL Matching key] das Feld aus, das als übereinstimmender Schlüssel für den Ereignis-Datensatz verwendet werden soll. Die verfügbaren Feldnamen enthalten den Datensatznamen in Klammern. Wenn Sie beispielsweise Ihren Dimensions-Datensatz Ihrem Ereignis-Datensatz zuordnen, wählen Sie `Tracking Code (Event datasets)` aus.
+         1. For the [!UICONTROL Matching key] field, select the field to use as the matching key for the events dataset. The available field names include the dataset name in parentheses. For example, if you&#39;re mapping your dimensions dataset to your events dataset, select `Tracking Code (Event datasets)`.
 
-         Später ordnen Sie den Ereignis-Datensatz auch dem Zusammenfassungsdatensatz zu, wenn Sie Ihre Datenansicht(#cja-data-views) einrichten.
+         Later, you&#39;ll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).
 
-1. Überprüfen Sie nach einigen Stunden, ob die Daten in Customer Journey Analytics verfügbar sind.
+1. After a couple of hours, verify that the data is available in Customer Journey Analytics.
 
-   1. Navigieren Sie in Customer Journey Analytics zu **[!UICONTROL Connections]** und wählen Sie Ihre Verbindung aus.
+   1. In Customer Journey Analytics, go to **[!UICONTROL Connections]** and select your connection.
 
-   1. Überprüfen Sie in der Liste der angezeigten Datensätze, ob der Bericht &quot;[!UICONTROL Number of Records]&quot; anzeigt, dass Daten hinzugefügt wurden.
+   1. In the list of data sets displayed, verify that the &quot;[!UICONTROL Number of Records]&quot; report shows that data was added.
 
-## Einrichten von Datenansichten in Customer Journey Analytics {#cja-data-views}
+## Set up data views in Customer Journey Analytics {#cja-data-views}
 
-Erstellen Sie in Customer Journey Analytics eine oder mehrere Datenansichten, um die Metriken und Dimensionen für das Reporting zu definieren. Ein Web-Analyst kann diese Aufgaben ausführen.
+In Customer Journey Analytics, create one or more data views to define the metrics and dimensions for reporting. A web analyst can perform these tasks.
 
-1. Erstellen Sie [&#x200B; Customer Journey Analytics eine &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview).
+1. In Customer Journey Analytics, [create a data view](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview).
 
-1. Konfigurieren Sie die Ansicht so, dass sie die folgenden Informationen enthält.
+1. Configure the view to include the following information.
 
-   * Wenn Sie über ein Adobe Analytics-Konto verfügen, verwenden Sie die [!UICONTROL Time Zone] für Ihr [!DNL Analytics]-Konto im Abschnitt [!UICONTROL Calendar] der Registerkarte [!UICONTROL Configure] .
+   * If you have an Adobe Analytics account, use the [!UICONTROL Time Zone] for your [!DNL Analytics] account in the [!UICONTROL Calendar] section of the [!UICONTROL Configure] tab.
 
-   * Auf der Registerkarte [!UICONTROL Components] :
+   * On the [!UICONTROL Components] tab:
 
-      * Fügen Sie Ihre Dimensionen, Ereignisse und Zusammenfassungsdatensätze hinzu.
+      * Add your dimensions, events, and summary datasets.
 
-      * Wählen Sie Metriken aus Ihrem Ereignis-(Metrik-)Datensatz und Ihren Dimensionen-(Klassifizierungs-/Metadaten-)Datensatz aus, die in die Datenansicht aufgenommen werden sollen.
+      * Choose metrics from your events (metrics) dataset and your dimensions (classifications/metadata) dataset to include in the data view.
 
-        Sie haben diese beiden Datensätze bereits in der Verbindung verbunden, die Sie im [&#x200B; Verfahren erstellt &#x200B;](#dataset-connection).
+        You already joined these two datasets in the connection that you created in the [last procedure](#dataset-connection).
 
-      * Verbinden Sie den Ereignis-Datensatz mit dem Zusammenfassungsdatensatz, der noch mit keinem Element verknüpft ist:
+      * Join the events dataset to the summary dataset, which isn&#39;t yet joined to anything:
 
-         * Erstellen Sie für jede Dimension mit Zusammenfassungsdaten, die in Customer Journey Analytics verfügbar sein soll[&#x200B; ein abgeleitetes Feld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/derived-fields).
+         * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
-           Um beispielsweise Zusammenfassungsdaten für Kampagnen anzuzeigen, erstellen Sie ein abgeleitetes Feld für die `Adobe Advertising Campaign`.
+           For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
 
-           Sie verknüpfen die beiden Datensätze mithilfe der übereinstimmenden `trackingCode` (das Schemafeld für die Adobe Advertising-ID).
+           You&#39;ll link the two datasets using the matching key `trackingCode` (which is the schema field for the Adobe Advertising ID).
 
-            * Im Abschnitt [!UICONTROL Lookup] des abgeleiteten Regel-Builders:
+            * In the [!UICONTROL Lookup] section of the derived rule builder:
 
-               * Wählen Sie für das Feld **[!UICONTROL Value]** die Option &quot;[!UICONTROL Tracking Code]&quot; aus dem Zusammenfassungsdatensatz der Metriken aus.
+               * For the **[!UICONTROL Value]** field, select &quot;[!UICONTROL Tracking Code]&quot; from the metrics summary dataset.
 
-               * Wählen Sie für das Feld **[!UICONTROL Lookup dataset]** den Dimensions-Datensatz aus (z. B. &quot;Adobe Advertising-Klassifizierung„).
+               * For the **[!UICONTROL Lookup dataset]** field, select the dimensions dataset (such as &quot;Adobe Advertising Classification&quot;).
 
-               * Wählen Sie für das **[!UICONTROL Matching Key]** Feld aus dem Klassifizierungsdatensatz &quot;[!UICONTROL Tracking Code]&quot; aus.
+               * For the **[!UICONTROL Matching Key]** field, select &quot;[!UICONTROL Tracking Code]&quot; from the classification dataset.
 
-               * Wählen Sie für das Feld **[!UICONTROL Values to return]** die Dimension (z. B. &quot;[!UICONTROL Adobe Advertising Campaign]„) aus dem Klassifizierungsdatensatz aus.
+               * For the **[!UICONTROL Values to return]** field, select the dimension (such as &quot;[!UICONTROL Adobe Advertising Campaign]&quot;)&quot; from the classification dataset.
 
-           An den abgeleiteten Feldnamen wird „(DF)“ angehängt, z. B. `Adobe Advertising Campaign(DF)`.
+           The derived field name is appended with &quot;(DF)&quot;, such as `Adobe Advertising Campaign(DF)`.
 
-         * Für jedes abgeleitete Feld:
+         * For each derived field:
 
-            * Fügen Sie im Abschnitt [!UICONTROL Included components] das abgeleitete Feld hinzu.
+            * In the [!UICONTROL Included components] section, add the derived field.
 
-              Zwei Namen werden jetzt für dieselbe Dimension aufgeführt (z. B. &quot;Adobe Advertising Campaign(DF)“ (das abgeleitete Feld) und &quot;Adobe Advertising Campaign“ (das Feld im Zusammenfassungsdatensatz)).
+              Two names are now listed for the same dimension (for example, &quot;Adobe Advertising Campaign(DF)&quot; (the derived field) and &quot;Adobe Advertising Campaign&quot; (the field in the summary dataset)).
 
-            * Wählen Sie die Dimension im Zusammenfassungsdatensatz aus (z. B. &quot;Adobe Advertising Campaign„) und bearbeiten Sie die Einstellungen für den Datensatz.
+            * Select the dimension in the summary dataset (such as &quot;Adobe Advertising Campaign&quot;) and edit the settings for the dataset.
 
-              Die Einstellungen werden auf der rechten Seite geöffnet.
+              The settings open on the right.
 
-               * Wählen Sie im Abschnitt Datengruppe Zusammenfassung die Option aus, die **[!UICONTROL Create grouping]** werden soll.
+               * In the the Summary Data Group section, select the option to **[!UICONTROL Create grouping]**.
 
-               * Wählen Sie für das **[!UICONTROL Dimension]** das abgeleitete Feld aus (an das „(DF)“ angehängt wird, z. B. &quot;Adobe Advertising Campaign(DF)„).
+               * For the **[!UICONTROL Dimension]** field, select the derived field (which is appended with &quot;(DF),&quot; such as &quot;Adobe Advertising Campaign(DF)&quot;).
 
                * Wählen Sie die zu **[!UICONTROL Hide in reporting]** Option aus, wodurch der abgeleitete Feldname in Workspace ausgeblendet wird.
 

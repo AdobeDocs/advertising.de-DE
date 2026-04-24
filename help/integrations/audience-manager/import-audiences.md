@@ -21,9 +21,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 920
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Advertising DSP und [!DNL Advertising Search, Social, & Commerce] können jeweil
 
 * Adobe Audience Manager-Segmente
 
-* Adobe Analytics-Segmente, die in Adobe Experience Cloud veröffentlicht werden
+* Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden
 
-* Segmente, die mit dem Adobe Experience Cloud-[!DNL Audience Library] erstellt werden
+* Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden
 
 * Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet werden
 
@@ -44,13 +44,13 @@ Um auf [!DNL Adobe] Zielgruppen in DSP oder [!DNL Creative] zuzugreifen, müssen
 
 ## Voraussetzungen
 
-* Der Werbetreibende muss [die [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/de/docs/id-service/using/intro/overview) Version 2.0 oder höher implementieren. Die [!DNL Identity Service] bietet eine universelle, beständige ID zum Identifizieren Ihrer Besucher über alle Experience Cloud-Lösungen hinweg.
+* Der Werbetreibende muss [die [!DNL Adobe CX Enterprise Identity (ECID) Service]](https://experienceleague.adobe.com/de/docs/id-service/using/intro/overview) Version 2.0 oder höher implementieren. Die [!DNL Identity Service] bietet eine universelle, beständige ID zum Identifizieren Ihrer Besucher über alle CX Enterprise-Lösungen hinweg.
 
   Die Implementierung umfasst das Hinzufügen des [!DNL Identity service]-Codes zu jeder Web-Seite auf den Sites des Werbetreibenden.
 
-* Die Organisation muss [für Experience Cloud-Services aktiviert](https://experienceleague.adobe.com/de/docs/core-services/interface/services/overview) und über eine Experience Cloud-[!DNL Organization ID] (früher als [!DNL IMS org ID] bezeichnet) verfügen.
+* Die Organisation muss [für CX Enterprise-Services aktiviert](https://experienceleague.adobe.com/de/docs/core-services/interface/services/overview) und über eine CX Enterprise-[!DNL Organization ID] (früher als [!DNL IMS org ID] bezeichnet) verfügen.
 
-  Mit der [!UICONTROL Organization ID] können Unternehmen mit mehreren Adobe Experience Cloud-Produkten Daten zwischen einigen der Produkte austauschen.
+  Mit der [!UICONTROL Organization ID] können Unternehmen mit mehreren Adobe CX Enterprise-Produkten Daten zwischen einigen der Produkte austauschen.
 
 * (Advertiser mit [!DNL Analytics]) Der Advertiser muss [implementieren [!DNL Analytics] mit `appMeasurement.js`](https://experienceleague.adobe.com/de/docs/analytics/implementation/js/overview) Version 1.6.4 oder höher.
 
@@ -80,7 +80,7 @@ Die -API automatisch:
 
    * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)]**
 
-* Ordnet die beiden Ziele allen Audience Manager-Segmenten zu, sodass Audience Manager die Segmente mit dem DSP Advertiser-Konto teilen kann, das mit demselben Experience Cloud-[!DNL Organization ID] verknüpft ist, das für Audience Manager verwendet wird.
+* Ordnet die beiden Ziele allen Audience Manager-Segmenten zu, sodass Audience Manager die Segmente mit dem DSP Advertiser-Konto teilen kann, das mit demselben CX Enterprise-[!DNL Organization ID] verknüpft ist, das für Audience Manager verwendet wird.
 
   Optional kann das Unternehmen nicht benötigte Segmente aus den Zielen in Audience Manager entfernen.
 
@@ -110,7 +110,7 @@ Die -API automatisch:
 
 1. In [!DNL Search, Social, & Commerce] sollte entweder das [!DNL Search, Social, & Commerce] Implementierungs-Team oder ein Benutzer mit der Rolle „Direktzugriff-Client-Manager“ den Import von [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup] initiieren.
 
-   Die Experience Cloud-[!DNL Organization ID] ([!DNL IMS org ID]) des Unternehmens ist erforderlich. Die ID muss mit der ID übereinstimmen, die für das Audience Manager-Konto des Unternehmens verwendet wird.
+   Die Adobe CX Enterprise-[!DNL Organization ID] ([!DNL IMS org ID]) des Unternehmens ist erforderlich. Die ID muss mit der ID übereinstimmen, die für das Audience Manager-Konto des Unternehmens verwendet wird.
 
 ### Welche Änderungen ergeben sich in Audience Manager?
 

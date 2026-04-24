@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Im Folgenden finden Sie den allgemeinen Workflow für die Implementierung und Ve
 
    1. (Werbetreibende mit Adobe Analytics und/oder Adobe Audience Manager) Richten Sie Integrationen zwischen den verschiedenen Konten ein, damit Adobe Advertising Daten mit ihnen austauschen kann.
 
-      Weitere Informationen finden Sie im Handbuch [Integrationen mit Experience Cloud](/help/integrations/home.md).
+      Weitere Informationen finden Sie im Handbuch [Integrationen mit CX Enterprise](/help/integrations/home.md).
 
    1. (Advertiser mit [!DNL Google Analytics]) Synchronisieren Sie Konversionsmetriken für ein [!DNL Google Analytics] Konto, eine Eigenschaft und eine Ansichtskombination, um Optimierungen und Berichte zu ermöglichen.
 

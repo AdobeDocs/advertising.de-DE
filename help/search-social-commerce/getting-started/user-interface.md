@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: 1392
 ht-degree: 0%
 
 ---
@@ -148,17 +148,17 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 ## Weitere aufgabenbasierte und informationsbasierte Menüs oben rechts
 
-### Obere Zeile: Experience Cloud-Menü
+### Obere Zeile: CX Enterprise-Menü
 
-* Eine auswählbare Liste von Experience Cloud-Organisationen, auf die Sie Zugriff haben.
+* Eine auswählbare Liste von CX Enterprise-Organisationen, auf die Sie Zugriff haben.
 
 * ![Hilfezentrum](/help/search-social-commerce/assets/help-main-menu.png "Hilfezentrum") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
-* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-aec.png "Benachrichtigungen") Ein Bedienfeld, in dem Anfragen, Benachrichtigungen und Ankündigungen von Experience Cloud aufgelistet sind.
+* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-aec.png "Benachrichtigungen") Ein Bedienfeld, in dem Anfragen, Benachrichtigungen und Ankündigungen von CX Enterprise aufgelistet sind.
 
-* ![Apps](/help/search-social-commerce/assets/apps.png "Apps") Eine Liste der Adobe Experience Cloud-Lösungen und -Services, zu denen Sie wechseln können.
+* ![Apps](/help/search-social-commerce/assets/apps.png "Apps") Eine Liste der Adobe CX Enterprise-Lösungen und -Services, zu denen Sie wechseln können.
 
-* ![Account](/help/search-social-commerce/assets/account.png "Account") Informationen zu Ihrem Experience Cloud-Kontoprofil, von dem aus Sie Ihre Voreinstellungen bearbeiten und sich abmelden können.
+* ![Account](/help/search-social-commerce/assets/account.png "Account") Informationen zu Ihrem CX Enterprise-Kontoprofil, von dem aus Sie Ihre Voreinstellungen bearbeiten und sich abmelden können.
 
 ### Zweite Zeile: Zusätzliches Menü für Suche, Social Media und Commerce
 
@@ -208,15 +208,15 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweise") Ein Bedienfeld, in dem Ihre Benachrichtigungen zu Suche, Social und Commerce aufgelistet sind.
 
-  Wenn Sie über [Adobe Experience Cloud](sign-in.md) angemeldet sind, werden in diesem Bedienfeld Ihre Benachrichtigungen von Experience Cloud angezeigt.
+  Wenn Sie über [Adobe CX Enterprise](sign-in.md) angemeldet sind, werden in diesem Bedienfeld Ihre Benachrichtigungen von CX Enterprise angezeigt.
 
 * ![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
-* ![Lösungsumschalter](/help/search-social-commerce/assets/menu-icon.png "Lösungsumschalter") Eine Liste von Adobe Experience Cloud-Lösungen und -Services, zu denen Sie wechseln können.
+* ![Lösungsumschalter](/help/search-social-commerce/assets/menu-icon.png "Lösungsumschalter") Eine Liste von Adobe CX Enterprise-Lösungen und -Services, zu denen Sie wechseln können.
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wenn Sie über [Adobe Experience Cloud](sign-in.md) angemeldet sind, können Sie auch Ihr Experience Cloud-Profil bearbeiten, einschließlich Ihres Experience Cloud-Kennworts und Ihrer Benachrichtigungseinstellungen.
+  Wenn Sie über [Adobe CX Enterprise](sign-in.md) angemeldet sind, können Sie auch Ihr CX Enterprise-Profil bearbeiten, einschließlich Ihres CX Enterprise-Kennworts und Ihrer Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >

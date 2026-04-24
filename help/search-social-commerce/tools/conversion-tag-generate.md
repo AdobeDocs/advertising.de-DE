@@ -3,9 +3,9 @@ title: Generieren und Implementieren eines Adobe Advertising-Konversionsverfolgu
 description: Erfahren Sie, wie Sie ein Adobe Advertising-Konversions-Tag erstellen, um Ihre Konversionsereignisse zu verfolgen.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -76,53 +76,53 @@ Siehe &quot;[Häufig gestellte Fragen zu Adobe Advertising-Konversions- und Seit
 
 ## Implementieren von Konversionsverfolgungstags mit Adobe Experience Platform-Tags und der Adobe Advertising-Erweiterung
 
-Sie können das Konversions-Tracking für Search, Social und Commerce mithilfe von Tags in Adobe Experience Platform einrichten. Tags stehen Adobe Experience Cloud-Kunden als integrierte Mehrwertfunktion zur Verfügung.
+You can set up conversion tracking for Search, Social, &amp; Commerce using tags in Adobe Experience Platform. Tags are available to Adobe CX Enterprise customers as an included, value-add feature.
 
-Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suche, Social und Commerce über die Experience Platform-Benutzeroberfläche oder die Experience Platform-Datenerfassungs-Benutzeroberfläche zu konfigurieren. Vollständige Informationen und Anweisungen zum Konfigurieren von Tags finden Sie im Experience Platform Tags-Handbuch, beginnend mit der „Übersicht über [&#x200B; Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home) und der &quot;[Schnellstartanleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/get-started/quick-start).
+The following tasks are required to configure conversion tracking tags for Search, Social, &amp; Commerce from the Experience Platform user interface or from the Experience Platform Data Collection user interface. For full information and instructions for configuring tags, see the Experience Platform Tags Guide, beginning with the &quot;[Tags overview](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home)&quot; and &quot;[Quickstart guide](https://experienceleague.adobe.com/de/docs/experience-platform/tags/get-started/quick-start).&quot;
 
 >[!PREREQUISITES]
 >
->Um die erforderliche Tag-Erweiterung zu installieren, fragen Sie Ihren Organisations-Admin nach dem Zugriff auf Datenerfassungsfunktionen in der Benutzeroberfläche, einschließlich der `manage_properties`.
+>To install the required tag extension, ask your organization administrator for access to Data Collection features in the UI, including the `manage_properties` permission.
 
-1. Installieren Sie in [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/#/data-collection/) die Adobe Advertising [Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/extensions/overview):
+1. From the [Data Collection UI](https://experience.adobe.com/#/data-collection/), install the Adobe Advertising [Extension](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/extensions/overview):
 
-   1. Öffnen Sie in der entsprechenden Eigenschaft den Erweiterungskatalog und wählen Sie **Adobe Advertising**.
+   1. From the applicable property, open the extension catalog and select **Adobe Advertising**.
 
-   1. Wählen Sie aus dem Pulldown-Menü **SSC** (für Suche, Social und Commerce) aus.
+   1. From the pulldown menu, select **SSC** (for Search, Social, &amp; Commerce).
 
-   1. Geben **im Feld SSC UserID** die numerische Benutzer-ID für das Search-, Social- und Commerce-Konto Ihres Unternehmens ein.
+   1. In the **SSC UserID** field, enter the numeric user ID for your  organization&#39;s Search, Social, &amp; Commerce account.
 
-      Wenn Sie Ihre Benutzer-ID nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
+      If you don&#39;t know your user ID, contact your Adobe Account Team.
 
    1. Klicken Sie **Speichern**.
 
-1. Erstellen Sie eine neue Regel (z. B. „form_completes„) zum Trigger des Konversions-Tags für Search, Social und Commerce:
+1. Create a new rule (for example, &quot;form_completes&quot;) to trigger the Search, Social, &amp; Commerce conversion tag:
 
-   1. Im Abschnitt Ereigniskonfiguration :
+   1. In the Event Configuration section:
 
-      1. Wählen Sie die folgenden Werte aus:
+      1. Select the following values:
 
-         **Erweiterung:** `Core`
+         **Extension:** `Core`
 
-         **Ereignistyp:** `Library Loaded (Page Top)`
+         **Event Type:** `Library Loaded (Page Top)`
 
-      1. Klicken Sie **Änderungen beibehalten**.
+      1. Click **Keep Changes**.
 
-   1. Im Abschnitt Bedingungskonfiguration :
+   1. In the Condition Configuration section:
 
-      1. Geben Sie die folgenden Werte an:
+      1. Specify the following values:
 
-         **Logiktyp:** `Regular`
+         **Logic Type:** `Regular`
 
-         **Erweiterung:** `Core`
+         **Extension:** `Core`
 
-         **Bedingungstyp:** `Path Without Query String`
+         **Condition Type:** `Path Without Query String`
 
-         **Gibt „true“ zurück, wenn der Pfad gleich ist** Der Pfad, unter dem die Konversion verfolgt werden soll (z. B. `/form_complete`).
+         **Return true if path equals:** The path where the conversion should be tracked (for example, `/form_complete`).
 
-      1. Klicken Sie **Änderungen beibehalten**.
+      1. Click **Keep Changes**.
 
-   1. Im Abschnitt Aktionskonfiguration :
+   1. In the Action Configuration section:
 
       1. Geben Sie die folgenden Werte an:
 

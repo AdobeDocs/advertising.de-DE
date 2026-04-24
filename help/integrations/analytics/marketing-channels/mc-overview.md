@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Eine vollständige Dokumentation zu [!DNL Marketing Channels] finden Sie unter [
 
 [!DNL Marketing Channels] sind eine wichtige Funktion von Adobe Analytics. [!DNL Marketing Channels] Berichte zeigen, wie Kunden über das Reporting-Fenster zu Ihrer Website gelangen und wie sich jeder Kanal auf den Umsatz oder das Verhalten vor Ort auswirkt.
 
-Betrachten Sie das folgende Beispiel einer Cross-Visit-Journey. Jeder Besuch auf Ihrer Website wird durch den Marketing-Kanal angezeigt, über den der Besucher eingetreten ist. Der erste Besuch, auch als Erstkontakt-Kanal bezeichnet, ist E-Mail. Display on Visit Two ist ein teilnehmender Kanal und die natürliche Suche gilt als Letztkontakt-Kanal. Wenn Sie [!UICONTROL Last Touch Attribution] in [!UICONTROL Attribution IQ] verwenden, erhält Natural Search die volle Gutschrift für das Konversionsereignis von 250 $. Mithilfe des Experience Cloud ID-Service können Sie diese individuellen Besuche miteinander verknüpfen, um eine Journey durch einen einzelnen Besucher anzuzeigen.
+Betrachten Sie das folgende Beispiel einer Cross-Visit-Journey. Jeder Besuch auf Ihrer Website wird durch den Marketing-Kanal angezeigt, über den der Besucher eingetreten ist. Der erste Besuch, auch als Erstkontakt-Kanal bezeichnet, ist E-Mail. Display on Visit Two ist ein teilnehmender Kanal und die natürliche Suche gilt als Letztkontakt-Kanal. Wenn Sie [!UICONTROL Last Touch Attribution] in [!UICONTROL Attribution IQ] verwenden, erhält Natural Search die volle Gutschrift für das Konversionsereignis von 250 $. Mithilfe des Adobe CX Enterprise ID-Service können Sie diese individuellen Besuche miteinander verknüpfen, um eine Journey durch einen einzelnen Besucher anzuzeigen.
 
 ![Beispiel einer besuchsübergreifenden Konversions-Journey in Marketing-Kanälen](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
