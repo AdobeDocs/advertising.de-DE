@@ -2,12 +2,11 @@
 title: Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI
 description: Erfahren Sie, wie Sie mit dem KI-unterstützten Zielgruppen-Agenten wiederverwendbare Zielgruppen in Adobe Advertising DSP erstellen. Beschreiben Sie Ihre Zielgruppe in Eingabeaufforderungen in natürlicher Sprache; der Agent schlägt Segmente von Drittanbietern vor und erstellt Zielgruppenausdrücke zur Verwendung als Ziele oder Ausschlüsse.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *Support nur für Englisch*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren angegebenen Anforderungen neue wiederverwendbare Zielgruppen mit allen Drittanbietersegmenten zu generieren, die Ihnen zur Verfügung stehen. Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
+Verwenden Sie den KI-unterstützten Zielgruppen-Agenten, um neue wiederverwendbare Zielgruppen zu generieren, indem Sie alle First-Party- und Third-Party-Segmente verwenden, die Ihnen gemäß Ihren angegebenen Anforderungen zur Verfügung stehen. Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 >Diese Funktion befindet sich im Beta-Modus und kann sich ändern. Stellen Sie sicher, dass der generierte Zielgruppenausdruck die gewünschte Zielgruppe darstellt, bevor Sie die Zielgruppe erstellen und für Ihre Platzierungen verwenden.
 
 ## Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -44,11 +55,11 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
 1. Erstellen Sie die Zielgruppe:
 
-   Für Benutzer mit Beta-Berechtigungen ist die Option KI die Standardoption. Um [&#x200B; Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
+   Für Benutzer mit Beta-Berechtigungen ist die Option KI die Standardoption. Um [ Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
       Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird.
 
@@ -66,9 +77,11 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
    >[!NOTE]
    >
-   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
+   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
 
 ### Was sollte eine Eingabeaufforderung enthalten?
 
@@ -92,20 +105,14 @@ Verwenden Sie den KI-unterstützten Zielgruppenagenten, um entsprechend Ihren an
 
   Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ Wenn der Zielgruppenagent eine Antwort von Ihnen benötigt, können Sie mit Schl
 
 #### Audience Agent stellt eine Frage
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 Ihre bejahende Antwort: „Weiter“, „OK“, „Ja“ oder ein anderes ähnliches Wort
 
