@@ -87,7 +87,7 @@ Sie können optional Standardziele für die neuen Platzierungen des Advertisers 
 
 #### [!UICONTROL Contextual Filtering]
 
-Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] anzuwendenden kontextuellen Filtern. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-context}
 
@@ -109,7 +109,7 @@ Typen von [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] und [
 
 #### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
-Types of sites to block based on fraudulent traffic and suspicious activities measured through [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Types of sites to block based on fraudulent traffic and suspicious activities measured through [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39]. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
@@ -127,25 +127,25 @@ Types of sites to block based on fraudulent traffic and suspicious activities me
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Optional pre-bid viewability filters by [!DNL DoubleVerify] and [!DNL Integral Ad Science] to apply to placements. The advertiser-level defaults are selected for new placements. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Optional pre-bid viewability filters by [!DNL DoubleVerify] and [!DNL Integral Ad Science] to apply to placements. The advertiser-level defaults are selected for new placements. Sie können die Einstellungen auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
 ###### Video
 
-** **[!UICONTROL Include URL's whose average video viewability rate is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. With this option, select the criteria.
 
-** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. With this option, select the criteria.
 
-** **[!UICONTROL Include URL's whose average player size composition is]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. With this option, select the criteria.
 
-** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Display
 
-** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. With this option, select the criteria.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. With this option, select the criteria.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -165,7 +165,7 @@ An optional **[!UICONTROL Video Viewability Targets]** filter and an optional **
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Advertiser-Ebene auf der [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 

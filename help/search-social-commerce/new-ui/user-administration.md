@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie den Benutzerzugriff verwalten.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 1045
@@ -100,7 +104,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende CX Enterprise-Organisation aus.
 
@@ -118,7 +122,7 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
 1. (Optional) [Einen weiteren Systemadministrator hinzufügen](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) als Sicherung.
 
-1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
+1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von &#x200B;](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
 
 ### Workflow für Produktadministratoren
 
@@ -144,7 +148,7 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
    **Achtung:** Produktberechtigungen sind sehr detailliert. Seien Sie vorsichtig, wenn Sie benutzerdefinierte Produktprofile konfigurieren oder Funktionen weglassen, die Sie einbeziehen möchten.
 
-1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
+1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
 
 ## Vollständiges Benutzerhandbuch für die Administration und zusätzliche Links
 
