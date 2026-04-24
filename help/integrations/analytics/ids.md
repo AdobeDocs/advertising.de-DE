@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
 workflow-type: tm+mt
-source-wordcount: 1020
+source-wordcount: 1105
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 *Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
 
-*Gilt für Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
+*Gilt für Advertising Creative, Advertising DSP und Advertising Search, Social und Commerce*
 
 Adobe Advertising verwendet zwei IDs zur Leistungsüberwachung auf der Site: die *EF ID* und die *AMO ID*.
 
@@ -146,7 +146,7 @@ Der Parameter wird den Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
    * DSP-Kunden: Der [JavaScript](javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
-      * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum `s_kwcid`-Support unter `ef_id`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros[!DNL Flashtalking] Datenweiterleitungs-Makros zum Tracking der [- und &#x200B;](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) verwenden.
+      * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum [!DNL Flashtalking]-Support unter [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) Datenweiterleitungs-Makros zum Tracking der `s_kwcid`- und `ef_id` verwenden.
 
       * Fügen Sie für [!DNL Google Campaign Manager 360]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) ein.
 
@@ -160,11 +160,11 @@ Wenden Sie sich an Ihr Adobe-Accountteam, um die Server-seitige Einfügefunktion
 
 ### AMO-ID-Dimension in [!DNL Analytics]
 
-In Analytics-Berichten können Sie AMO-ID-Daten finden, indem Sie nach der [!UICONTROL AMO ID] Dimension suchen und die [!UICONTROL AMO ID Instances] Metrik verwenden. Die Dimension [!UICONTROL AMO ID] enthält alle erfassten AMO-ID-Werte, während die Metrik [!UICONTROL AMO ID Instances] angibt, wie oft ein AMO-ID-Wert von der Site erfasst wurde. Wenn beispielsweise viermal auf dieselbe Suchanzeige geklickt wurde, Analytics jedoch sieben Site-Einträge nachverfolgt hat, wären [!UICONTROL AMO ID Instances] sieben (7) und [!UICONTROL Clicks] vier (4).
+In [!DNL Analytics] Berichten können Sie AMO-ID-Daten finden, indem Sie nach der Dimension [!UICONTROL AMO ID] suchen und die [!UICONTROL AMO ID Instances] verwenden. Die Dimension [!UICONTROL AMO ID] enthält alle erfassten AMO-ID-Werte, während die Metrik [!UICONTROL AMO ID Instances] angibt, wie oft ein AMO-ID-Wert von der Site erfasst wurde. Wenn beispielsweise viermal auf dieselbe Suchanzeige geklickt wurde, aber sieben Site-Einträge nachverfolgt [!DNL Analytics], wären [!UICONTROL AMO ID Instances] sieben (7) und [!UICONTROL Clicks] vier (4).
 
 Für Reporting- oder Auditing-Vorgänge innerhalb von [!DNL Analytics] ist die Best Practice, die AMO-ID zusammen mit der entsprechenden -Instanz zu verwenden. Weitere Informationen finden Sie unter &quot;[-Through-Datenvalidierung für [!DNL Analytics for Advertising]](data-variances.md#data-validation) in „Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising&quot;.
 
-## Über Analytics-Klassifizierungen
+## Über [!DNL Analytics] Klassifizierungen
 
 [!DNL Analytics] ist eine [Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Adobe Advertising-Rohdaten mithilfe von Klassifizierungen, sodass Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagne). Klassifizierungen bilden die Grundlage des Adobe Advertising-Reportings in [!DNL Analytics] und können mit den AMO-Metriken wie [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] und [!UICONTROL AMO Clicks] sowie mit benutzerdefinierten und standardmäßigen Onsite-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] und [!UICONTROL Revenue] verwendet werden.
 
