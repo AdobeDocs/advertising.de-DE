@@ -56,11 +56,11 @@ Ihre aktuellen DSP-Anmeldeinformationen bleiben für kurze Zeit aktiv, damit Sie
 
    * If you have access to multiple IMS organizations, select the correct one.
 
-Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Are there any prerequisites to enable a new [!DNL Adobe] IMS login?
 

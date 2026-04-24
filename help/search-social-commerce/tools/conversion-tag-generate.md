@@ -78,13 +78,13 @@ Siehe &quot;[Häufig gestellte Fragen zu Adobe Advertising-Konversions- und Seit
 
 You can set up conversion tracking for Search, Social, &amp; Commerce using tags in Adobe Experience Platform. Tags are available to Adobe CX Enterprise customers as an included, value-add feature.
 
-The following tasks are required to configure conversion tracking tags for Search, Social, &amp; Commerce from the Experience Platform user interface or from the Experience Platform Data Collection user interface. For full information and instructions for configuring tags, see the Experience Platform Tags Guide, beginning with the &quot;[Tags overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; and &quot;[Quickstart guide](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).&quot;
+The following tasks are required to configure conversion tracking tags for Search, Social, &amp; Commerce from the Experience Platform user interface or from the Experience Platform Data Collection user interface. For full information and instructions for configuring tags, see the Experience Platform Tags Guide, beginning with the &quot;[Tags overview](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home)&quot; and &quot;[Quickstart guide](https://experienceleague.adobe.com/de/docs/experience-platform/tags/get-started/quick-start).&quot;
 
 >[!PREREQUISITES]
 >
 >To install the required tag extension, ask your organization administrator for access to Data Collection features in the UI, including the `manage_properties` permission.
 
-1. From the [Data Collection UI](https://experience.adobe.com/#/data-collection/), install the Adobe Advertising [Extension](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
+1. From the [Data Collection UI](https://experience.adobe.com/#/data-collection/), install the Adobe Advertising [Extension](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/extensions/overview):
 
    1. From the applicable property, open the extension catalog and select **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ The following tasks are required to configure conversion tracking tags for Searc
 
          **Name der Konversionseigenschaft:** Der Name der Konversionseigenschaft (z. B. `form_completes`).
 
-         **Value:** Der numerische Wert der Konvertierungseigenschaft (z. B. `1` Tracking von form_completes) oder wählen Sie ein vorhandenes [Datenelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements).
+         **Value:** Der numerische Wert der Konvertierungseigenschaft (z. B. `1` Tracking von form_completes) oder wählen Sie ein vorhandenes [Datenelement](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/data-elements).
 
       1. Klicken Sie **Änderungen beibehalten**.
 

@@ -47,5 +47,5 @@ For [!DNL RampID] and [!DNL Unified ID2.0], the vendor looks up each email addre
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](source-manage.md)
 >* [Über Erstanbieter-Zielgruppenquellen](source-about.md)
 >* [Manually import authenticated segments from [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)

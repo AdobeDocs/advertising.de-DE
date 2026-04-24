@@ -56,7 +56,7 @@ Stellen Sie dem Adobe Advertising-Implementierungsteam Folgendes bereit:
 * Die [!DNL Analytics] Report Suite-ID, die für das Reporting über Paid-Media-Aktivitäten und für den Feed der Site-Aktivität für die Optimierung und Berichterstellung in Adobe Advertising verwendet werden soll
 * Die CX Enterprise-Organisations-ID (Organisations-ID) des Unternehmens.
 
-Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de).
 
 ![Zusammenfassungsbildschirm des Experience Platform-Debuggers](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -83,7 +83,7 @@ The [!DNL Analytics for Advertising] JavaScript uses these settings to determine
 
 >[!NOTE]
 >
->To segment data for a different timeframe, you can [set up custom segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) with different lookback windows within Analysis Workspace.
+>To segment data for a different timeframe, you can [set up custom segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) with different lookback windows within Analysis Workspace.
 
 ## Supported ad environments
 
@@ -126,7 +126,7 @@ Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Für eine präzise Datenintegration müssen alle Adobe Advertising-Aufrufe, die von einer [!DNL Analytics for Advertising]-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, über einen entsprechenden [!DNL Analytics]-Treffer verfügen, der dieselbe zusätzliche ID aufweist.
 
-Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
+Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
 
 >[!NOTE]
 >
