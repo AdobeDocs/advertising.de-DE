@@ -4,16 +4,12 @@ description: Erfahren Sie, wie Sie Empfehlungen für Portfoliobudgets generieren
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 801
 ht-degree: 0%
 
 ---
@@ -40,7 +36,7 @@ Die Berichte über Ausgabenempfehlungen enthalten die folgenden Daten:
 
 * Generieren eines [!UICONTROL Spend Planner] Berichts über die [neue Benutzeroberfläche](#spend-recommendations-generate) oder [veraltete Benutzeroberfläche](#spend-recommendations-generate-legacy)
 
-* [Wenden Sie Ausgabenempfehlungen &#x200B;](#spend-recommendations-apply) die entsprechenden Portfolios an.
+* [Wenden Sie Ausgabenempfehlungen ](#spend-recommendations-apply) die entsprechenden Portfolios an.
 
 * [Öffnen oder Speichern von Berichtsdaten zu Ausgabenempfehlungen in einer Datei](#spend-recommendations-download)
 
@@ -70,7 +66,7 @@ Die Berichte über Ausgabenempfehlungen enthalten die folgenden Daten:
 
    1. (Optional) Halten Sie den Cursor über den Punkt, um die Kosten und den Umsatz für einen beliebigen Punkt im Diagramm anzuzeigen.
 
-1. (Optional) Um die empfohlenen täglichen Ausgaben und die prognostizierten Einnahmen für jedes der Portfolios unter Verwendung eines neuen Gesamtausgabenziels anzuzeigen, geben Sie ein vorgeschlagenes Ziel für die gesamten täglichen Ausgaben für alle Portfolios im Feld [!UICONTROL Total Spend Target] ein. Drücken Sie dann die **Eingabetaste**.
+1. (Optional) Um das empfohlene Ziel für die täglichen Ausgaben und den erwarteten Umsatz für jedes der Portfolios unter Verwendung eines anderen Ziels für die Gesamtausgaben anzuzeigen, geben Sie ein vorgeschlagenes Ziel für die täglichen Ausgaben für alle Portfolios im Feld [!UICONTROL Total Spend Target] ein. Drücken Sie dann die **Eingabetaste**.
 
    Das Tool für Ausgabenempfehlungen verwendet Daten aus wöchentlichen Simulationen, sodass die insgesamt empfohlenen Ausgaben am ehesten dem von Ihnen vorgeschlagenen Ausgabenziel mit dem idealen Ausgabenmix entsprechen.
 
@@ -100,7 +96,11 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
 
-1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+1. (Optional) To download the proposed allocation and expected revenue per portfolio, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download") next to [!UICONTROL Portfolio Allocation] in the right column.
+
+   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
+
+1. (Optional) To view the recommended daily spend and expected revenue for each of the portfolios using a different total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
 
    The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
 
@@ -130,7 +130,27 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    Das Tool für Ausgabenempfehlungen verwendet Daten aus wöchentlichen Simulationen, sodass die insgesamt empfohlenen Ausgaben am ehesten dem von Ihnen vorgeschlagenen Ausgabenziel mit dem idealen Ausgabenmix entsprechen.
 
-## Ausgabenempfehlungen anwenden {#spend-recommendations-apply}
+<!--
+## (New UI) Apply spend recommendations {#spend-recommendations-apply}
+
+*Portfolios with daily budgets only*
+
+>[!NOTE]
+>
+>* If the applied changes will increase or decrease the spend target of any portfolio by more than 20%, you must approve the change.
+>* When the spend target for a portfolio changes by more than 20%, Search, Social, & Commerce takes up to 3-4 days to adjust its models and achieve the new target.
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+
+1. Select the check box next to each portfolio for which you want to apply the recommended spend target. To select all portfolios, select the check box next to **[!UICONTROL Select All Recommendations]**.
+
+1. Click **[!UICONTROL Apply Selected Recommendations]**.
+
+1. (If any of the budgets will change by more than 20%) In the confirmation message, click **[!UICONTROL Confirm]** to approve the changes.
+
+-->
+
+## <!--(Legacy UI) -->Ausgabenempfehlungen anwenden {#spend-recommendations-apply-legacy}
 
 *Portfolios nur mit Tagesbudgets*
 
@@ -139,7 +159,7 @@ New UI; validate post-Update steps once I get it to generate a report:
 >* Wenn die angewendeten Änderungen das Ausgabenziel eines Portfolios um mehr als 20 % erhöhen oder senken, müssen Sie die Änderung genehmigen.
 >* Wenn sich das Ausgabenziel für ein Portfolio um mehr als 20 % ändert, dauert Search, Social und Commerce bis zu 3-4 Tage, um die Modelle anzupassen und das neue Ziel zu erreichen.
 
-1. Anzeigen des Berichts mit Ausgabenempfehlungen für ein oder mehrere Portfolios mit täglichen Budgets.
+1. [Bericht mit Ausgabenempfehlungen generieren](#spend-recommendations-generate-legacy) für ein oder mehrere Portfolios mit täglichen Budgets.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Portfolio, für das Sie das empfohlene Ausgabenziel anwenden möchten. Um alle Portfolios auszuwählen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Select All Recommendations]**.
 
@@ -147,27 +167,24 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 1. (Wenn sich eines der Budgets um mehr als 20 % ändert) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]** , um die Änderungen zu genehmigen.
 
-<!-- 
+<!--
 
-New UI: Verify/edit all steps and edit accordingly:
+## (New UI) Open or save data as a [!DNL Microsoft Excel] workbook file {#spend-recommendations-download}
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
-...
+You can open or save data from either a) the line chart showing cost points and the expected revenue for each cost and b) the donut charts of the current and proposed media mix. [This seems to be identical to the Portfolio Allocation report -- how should these be different?]
 
- -->
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for selected portfolios.
 
-## Öffnen oder Speichern von Daten als [!DNL Microsoft Excel] Arbeitsmappendatei {#spend-recommendations-download}
+1. Above the report, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download").
+
+   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
+
+-->
+
+## <!--(Legacy UI) -->Öffnen oder speichern Sie Daten als [!DNL Microsoft Excel] Arbeitsmappendatei {#spend-recommendations-download-legacy}
 
 1. Erstellen Sie einen Bericht mit Ausgabenempfehlungen für ausgewählte Portfolios.
 
-1. Klicken Sie über dem Bericht auf ![Herunterladen](/help/search-social-commerce/assets/download-spend-recommendation.png "Herunterladen").
+1. Klicken Sie oben rechts im Bericht auf ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download").
 
    Öffnen oder speichern Sie die Datei entsprechend dem normalen Verfahren Ihres Browsers. Weitere Informationen finden Sie in der Online-Hilfe Ihres Browsers.
-
-<!--
-
-New UI:  Verify/edit all steps and edit accordingly:
-
-1. [Generate a spend recommendation report](#spend-recommendations-generate).
-...
--->
