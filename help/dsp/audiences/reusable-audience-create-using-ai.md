@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem KI-unterstützten Zielgruppen-Agenten
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Verwenden Sie den KI-unterstützten Zielgruppen-Agenten, um neue wiederverwendbare Zielgruppen zu generieren, indem Sie alle First-Party- und Third-Party-Segmente verwenden, die Ihnen gemäß Ihren angegebenen Anforderungen zur Verfügung stehen. Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
+Verwenden Sie den KI-unterstützten Zielgruppen-Agenten, um neue wiederverwendbare Zielgruppen zu generieren, indem Sie alle First-Party- und Third-Party-Segmente verwenden, die Ihnen gemäß Ihren angegebenen Anforderungen zur Verfügung stehen. Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen.
+
+Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ Verwenden Sie den KI-unterstützten Zielgruppen-Agenten, um neue wiederverwendba
 
 1. Erstellen Sie die Zielgruppe:
 
-   Für Benutzer mit Beta-Berechtigungen ist die Option KI die Standardoption. Um [&#x200B; Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
+   Die Option KI ist die Standardeinstellung. Um [&#x200B; Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
       Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
-      Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird.
+      Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
 
-      Sie können optional die Anfrage ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
+      Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird. Sie können optional die Anfrage ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
 
    1. Wenn der Zielgruppenagent einen Zielgruppenausdruck präsentiert, der Ihre Zielgruppe angemessen beschreibt, weisen Sie den Zielgruppenagenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
 

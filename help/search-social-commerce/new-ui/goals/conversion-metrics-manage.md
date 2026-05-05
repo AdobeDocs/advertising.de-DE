@@ -2,9 +2,9 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Die Metriken [Konversion](/help/search-social-commerce/glossary.md#c-d) eines Ad
 
 * In Search, Social und Commerce können Daten für Konversionsmetriken in Spalten in Kampagnen-, Portfolio- und Zielgruppen-Management-Ansichten und in Berichten angezeigt werden. Benutzer mit ausreichenden Zugriffsberechtigungen können Konversionsmetriken auch verwenden, um Ziele zu erstellen, die zur Optimierung von Portfolios verwendet werden.
 
-* (Werbetreibende mit Advertising DSP) In DSP können Sie Konversionsmetriken in Kampagnenverwaltungsansichten, benutzerdefinierte Ziele und benutzerdefinierte Berichte aufnehmen. Sie können Konversionsmetriken auch verwenden, um [benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) zu erstellen, die zur Optimierung von Paketen verwendet werden.
+* (Werbetreibende mit Advertising DSP) In DSP können Sie Konversionsmetriken in Kampagnenverwaltungsansichten, benutzerdefinierte Ziele und benutzerdefinierte Berichte aufnehmen. Sie können Konversionsmetriken auch verwenden, um [benutzerdefinierte Ziele](/help/dsp/admin/custom-objectives-manage.md) zu erstellen, die zur Optimierung von Paketen verwendet werden.
 
 Zu den verfügbaren Metriken gehören:
 
@@ -95,6 +95,8 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
       1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

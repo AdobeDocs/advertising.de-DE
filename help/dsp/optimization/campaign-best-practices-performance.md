@@ -20,9 +20,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1289
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Es ist wichtig, das Ziel der Kampagne zu verstehen, z. B. die höchstmögliche R
 
 ![Optimierungsziel](/help/dsp/assets/optimization-goals.png)
 
-Sie müssen auch die Erfolgsereignisse ermitteln, die zum Gesamtziel führen, und dementsprechend benutzerdefinierte Ziele erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung mithilfe von [!DNL Adobe AI] verwendet werden soll. Weitere Informationen zum Erstellen benutzerdefinierter Ziele, einschließlich Best Practices, finden Sie unter [Benutzerdefinierte Ziele](custom-goal.md).
+Sie müssen auch die Erfolgsereignisse ermitteln, die zum Gesamtziel führen, und dementsprechend benutzerdefinierte Ziele erstellen. Geben Sie für jedes Paket ein benutzerdefiniertes Ziel an, das mit dem übergeordneten Optimierungsziel für die Berichterstellung und algorithmische Optimierung mithilfe von [!DNL Adobe AI] verwendet werden soll. Weitere Informationen zu benutzerdefinierten Zielen finden Sie unter [Verwalten benutzerdefinierter Ziele](/help/dsp/admin/custom-objectives-manage.md) und &quot;[Best Practices für benutzerdefinierte Ziele](custom-goal.md).
 
 ## Schritt 2: Definieren der Strategie
 
