@@ -2,9 +2,9 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Die Metriken [Konversion](/help/search-social-commerce/glossary.md#c-d) eines Ad
 
 * In Search, Social und Commerce können Daten für Konversionsmetriken in Spalten in Kampagnen-, Portfolio- und Zielgruppen-Management-Ansichten und in Berichten angezeigt werden. Benutzer mit ausreichenden Zugriffsberechtigungen können Konversionsmetriken auch verwenden, um Ziele zu erstellen, die zur Optimierung von Portfolios verwendet werden.
 
-* (Werbetreibende mit Advertising DSP) In DSP können Sie Konversionsmetriken in Kampagnenverwaltungsansichten, benutzerdefinierte Ziele und benutzerdefinierte Berichte aufnehmen. Sie können Konversionsmetriken auch verwenden, um [benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) zu erstellen, die zur Optimierung von Paketen verwendet werden.
+* (Werbetreibende mit Advertising DSP) In DSP können Sie Konversionsmetriken in Kampagnenverwaltungsansichten, benutzerdefinierte Ziele und benutzerdefinierte Berichte aufnehmen. Sie können Konversionsmetriken auch verwenden, um [benutzerdefinierte Ziele](/help/dsp/admin/custom-objectives-manage.md) zu erstellen, die zur Optimierung von Paketen verwendet werden.
 
 Zu den verfügbaren Metriken gehören:
 
@@ -23,11 +23,11 @@ Zu den verfügbaren Metriken gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert ](/help/integrations/customer-journey-analytics/overview.md).
 
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
-* ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
+* ([ Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
 * Konversionen aus benutzerdefinierten Feeds.
 
@@ -57,7 +57,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
@@ -95,6 +95,8 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
       1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

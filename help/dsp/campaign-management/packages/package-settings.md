@@ -4,19 +4,14 @@ description: Siehe Beschreibungen der verfügbaren Paketeinstellungen.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
 TQID: https://experienceleague.adobe.com/--5v-30zFSwhdU1g0h9VXANZnIRNL-RgFYv-scnxRT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -39,7 +34,7 @@ ht-degree: 0%
 >
 >Fakturierbare Gebühren werden in der [!UICONTROL Net CPM] Metrik angezeigt.
 
-Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md).
+Sie können die Einstellung auf Paketebene auf [Platzierungsebene“ ](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ## [!UICONTROL Goals & Budget]
 
@@ -68,7 +63,7 @@ Bei Paketen mit benutzerdefiniertem Flug ist das Budgetintervall immer *[!UICONT
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Pakete mit Geschwindigkeit auf Paketebene und nur mit den Optimierungszielen &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; und &quot;[!UICONTROL Lowest Cost per Reach]„) Verwendet Haushaltsreichweiten-Daten aus allen programmgesteuerten garantierten Platzierungen in der Kampagne zur Optimierung für die inkrementelle Reichweite.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Ein [benutzerdefiniertes Ziel](/help/dsp/optimization/custom-goal.md) das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel muss zusätzliche gewichtete funnel-Ereignisse (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen, einschließlich der Best Practices zum Erstellen benutzerdefinierter Ziele und Kampagnen, die diese verwenden, finden Sie unter &quot;[Benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Nur Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Ein benutzerdefiniertes Ziel, das die Umsatz- oder Konversionsereignisse enthält, die zur Berechnung der CPA- oder ROAS-Metrik verwendet werden. Das benutzerdefinierte Ziel muss zusätzliche gewichtete funnel-Ereignisse (wie Seitenbesuche und Hinzufügungen zum Warenkorb) enthalten, die zusätzlich zur CPA- oder ROAS-Metrik für die Paketoptimierung verwendet werden. Weitere Informationen zu benutzerdefinierten Zielen finden Sie unter &quot;[Verwalten benutzerdefinierter Ziele](/help/dsp/admin/custom-objectives-manage.md)&quot;, &quot;[Best Practices für benutzerdefinierte Ziele](/help/dsp/optimization/custom-goal.md) und &quot;[Best Practices zum Einrichten von Leistungskampagnen](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;.
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Optional; Pakete mit den Optimierungszielen &quot;[!UICONTROL Highest Return on Ad Spend]&quot; und &quot;[!UICONTROL Lowest Cost per Acquisition]„) Weist das Optimierungsmodell an, nur aus klickbasierten Konversionen zu lernen. Andernfalls lernt das Optimierungsmodell sowohl aus Klicks- als auch aus Impression-basierten Konversionen.
 
