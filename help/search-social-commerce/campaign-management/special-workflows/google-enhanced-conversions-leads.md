@@ -4,9 +4,13 @@ description: Erfahren Sie mehr über den Workflow zum Einrichten/ [!DNL Google A
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
 TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
 source-wordcount: 413
@@ -56,7 +60,7 @@ Um diese Funktion zu verwenden, führen Sie die folgenden Schritte aus. Die Schr
 
      Alle hochgeladenen Daten werden in Echtzeit mit [!DNL Google Ads] synchronisiert.
 
-   * Weitere Informationen zum Hochladen von Daten mit [!DNL Google Data Manager] finden Sie unter &quot;[ zum Daten-Manager](https://support.google.com/google-ads/answer/14639041).
+   * Weitere Informationen zum Hochladen von Daten mit [!DNL Google Data Manager] finden Sie unter &quot;[&#x200B; zum Daten-Manager](https://support.google.com/google-ads/answer/14639041).
 
 >[!MORELIKETHIS]
 >
