@@ -2,25 +2,58 @@
 title: Hochladen von Offline-Konversionsdaten für erweiterte Konversionen
 description: Erfahren Sie, wie Sie First-Party- und Offline-Konversionsdaten hochladen, um sie Leads  [!DNL Google Ads]  erweiterten Konversionen  [!DNL Microsoft Advertising] .
 feature: Conversions
-exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ab69d6b27b86f6e4d9da6be3cd0245d6116469d3
+source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
 # Hochladen von Offline-Konversionsdaten für erweiterte Konversionen
 
+<!-- Renamed file to start with "conversions-"-->
+
+<!-- Update to add procedure in new UI -->
+
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
 Sie können Ihre Erstanbieter-Offline-Konversionsdaten - einschließlich gehashter E-Mail-Adressen und Telefonnummern - hochladen, um sie Ihren vorhandenen [[!DNL Google Ads] erweiterten Konversionen für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) und [[!DNL Microsoft Advertising] erweiterten Konversionen](https://help.ads.microsoft.com/#apex/ads/en/60178) zuzuordnen. Alle hochgeladenen Daten werden in Echtzeit mit dem Werbenetzwerk synchronisiert.
 
-## Hochladen von Daten für erweiterte Konversionen
+## (Neue Benutzeroberfläche) Hochladen von Daten für erweiterte Konversionen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Set up Conversion]**.
+
+1. Geben Sie die Einstellungen für den Datenupload an:
+
+   1. Auf der Registerkarte [!UICONTROL Basic Details] :
+
+      1. Wählen Sie die [!UICONTROL Setup Method] *[!UICONTROL Data Upload]* aus.
+
+      1. Wählen Sie die [!UICONTROL Platform] aus: *[!UICONTROL Google]* oder *[!UICONTROL Microsoft]*.
+
+      1. Klicken Sie auf **[!UICONTROL Next]**.
+
+   1. Auf der Registerkarte [!UICONTROL Configure] :
+
+      1. (Optional) Um eine Vorlage mit allen [erforderlichen Datenfeldern](#enhanced-conversions-leads-data) im [!DNL Microsoft Excel]-Format herunterzuladen, klicken Sie auf **[!UICONTROL Download Template]** und laden Sie dann die Datei entsprechend dem normalen Verfahren Ihres Browsers herunter.
+
+         Sie können die Datei bearbeiten, um Ihre Daten einzubeziehen und Ihre Änderungen zu speichern, und die Datei dann in das angegebene Anzeigennetzwerkkonto hochladen.
+
+      1. Wählen Sie das Netzwerkkonto aus, in das die Daten hochgeladen werden sollen.
+
+      1. Führen Sie im Feld [!UICONTROL Upload Conversion File] einen der folgenden Schritte aus:
+
+         * Ziehen Sie eine Datei in das Feld.
+
+         * Klicken Sie auf **[!UICONTROL Browse File]** und wählen Sie dann eine Datei aus, die von Ihrem Gerät oder Netzwerk hochgeladen werden soll.
+
+   1. Klicken Sie auf **[!UICONTROL Review and Save]** , um die Einstellungen zu überprüfen.
+
+   1. Klicken Sie auf **[!UICONTROL Upload]**.
+
+## (Alte Benutzeroberfläche) Hochladen von Daten für erweiterte Konversionen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, und klicken Sie dann auf die Registerkarte **[!UICONTROL Upload]**.
 
@@ -44,14 +77,14 @@ Geben Sie die Zeitzone des Kontos entweder an diesem Speicherort oder in der Spa
 
 | Spalte | Beschreibung |
 | ------ | ----------- |
-| E-Mail | Die E-Mail-Adresse des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Jede Zeile muss entweder einen E-Mail-Wert oder einen Telefonnummernwert enthalten. |
-| Telefonnummer | Die Telefonnummer des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Sie muss einen Ländercode enthalten und darf Bindestriche und andere Symbole enthalten. Jede Zeile muss entweder einen E-Mail-Wert oder einen Telefonnummernwert enthalten. |
-| Name der Konversion | (Erforderlich) Der Name der Konvertierungsaktion. |
-| Konvertierungszeit | (Erforderlich) Der Zeitpunkt, zu dem das Konversionsereignis in einem (unterstützten [) ](https://support.google.com/google-ads/answer/7014069#prepare_data) aufgetreten ist. Wenn Sie die Zeitzonen-ID des Kontos nicht in die `Parameters:TimeZone=insert_timezone` Zeile über der Datentabelle aufnehmen, schließen Sie die Zeitzone für jede Zeile entweder mit a\) dem [unterstützten Zeitzonen-ID-Format](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) oder b\) dem GMT-Offset, wie durch + oder - angegeben, und der 4-stelligen Zeitdifferenz (z. B. -0500 für New York, +0100 für Berlin oder +0000 für Greenwich Mean Time) ein. |
-| Umrechnungswert | (Erforderlich) Der numerische Konvertierungswert. |
-| Umrechnungswährung | Der Währungscode für das Konversionsereignis. |
-| Anzeigen von Benutzerdaten | (Gilt für Daten von Benutzern im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (Vereinigtes Königreich)) Gibt an, ob die Benutzerzustimmung für die Übermittlung von Benutzerdaten an [!DNL Google] zu Zwecken der Anzeigenpersonalisierung erteilt wurde. Werte können `Granted`, `Denied` oder \[null\] (der als `Unspecified` an [!DNL Google Ads] gesendet wird) sein. **Hinweis:** [!DNL Google Ads] erzwingt derzeit keine Zustimmung zu erweiterten Konversionen für Leads, kann dies aber in Zukunft tun. |
-| Ad Personalization | (Gilt für Daten, die sich auf Benutzer im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (Vereinigtes Königreich) beziehen) Gibt an, ob die Benutzerzustimmung für die Übermittlung von Benutzerdaten an [!DNL Google] zu Werbezwecken erteilt wurde. Werte können `Granted`, `Denied` oder \[null\] (der als `Unspecified` an [!DNL Google Ads] gesendet wird) sein. **Hinweis:** [!DNL Google Ads] erzwingt derzeit keine Zustimmung zu erweiterten Konversionen für Leads, kann dies aber in Zukunft tun. |
+| [!UICONTROL Email] | Die E-Mail-Adresse des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Jede Zeile muss entweder einen [!UICONTROL Email] oder einen [!UICONTROL Phone Number] enthalten. |
+| [!UICONTROL Phone Number] | Die Telefonnummer des Benutzers, die mit dem SHA-256-Algorithmus gehasht werden muss. Sie muss einen Ländercode enthalten und darf Bindestriche und andere Symbole enthalten. Jede Zeile muss entweder einen [!UICONTROL Email] oder einen [!UICONTROL Phone Number] enthalten. |
+| [!UICONTROL Conversion Name] | (Erforderlich) Der Name der Konvertierungsaktion. |
+| [!UICONTROL Conversion Time] | (Erforderlich) Der Zeitpunkt, zu dem das Konversionsereignis in einem (unterstützten [) ](https://support.google.com/google-ads/answer/7014069#prepare_data) aufgetreten ist. Wenn Sie die Zeitzonen-ID des Kontos nicht in die `Parameters:TimeZone=insert_timezone` Zeile über der Datentabelle aufnehmen, schließen Sie die Zeitzone für jede Zeile entweder mit a\) dem [unterstützten Zeitzonen-ID-Format](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) oder b\) dem GMT-Offset, wie durch + oder - angegeben, und der 4-stelligen Zeitdifferenz (z. B. -0500 für New York, +0100 für Berlin oder +0000 für Greenwich Mean Time) ein. |
+| [!UICONTROL Conversion Value] | (Erforderlich) Der numerische Konvertierungswert. |
+| [!UICONTROL Conversion Currency] | Der Währungscode für das Konversionsereignis. |
+| [!UICONTROL Ad User Data] | (Gilt für Daten von Benutzern im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (Vereinigtes Königreich)) Gibt an, ob die Benutzerzustimmung für die Übermittlung von Benutzerdaten an [!DNL Google] zu Zwecken der Anzeigenpersonalisierung erteilt wurde. Werte können `Granted`, `Denied` oder \[null\] (der als `Unspecified` an [!DNL Google Ads] gesendet wird) sein. **Hinweis:** [!DNL Google Ads] erzwingt derzeit keine Zustimmung zu erweiterten Konversionen für Leads, kann dies aber in Zukunft tun. |
+| [!UICONTROL Ad Personalization] | (Gilt für Daten, die sich auf Benutzer im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (Vereinigtes Königreich) beziehen) Gibt an, ob die Benutzerzustimmung für die Übermittlung von Benutzerdaten an [!DNL Google] zu Werbezwecken erteilt wurde. Werte können `Granted`, `Denied` oder \[null\] (der als `Unspecified` an [!DNL Google Ads] gesendet wird) sein. **Hinweis:** [!DNL Google Ads] erzwingt derzeit keine Zustimmung zu erweiterten Konversionen für Leads, kann dies aber in Zukunft tun. |
 
 ### Tabellenspalten und Werte für [!DNL Microsoft Advertising]
 
