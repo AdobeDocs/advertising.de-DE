@@ -2,14 +2,16 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# Konversionsmetriken eines Werbetreibenden verwalten
+# (Neue Benutzeroberfläche) Verwalten und Anzeigen von Leistungsdaten für die Konversionsmetriken eines Werbetreibenden
+
+*Beta-Funktion*
 
 Die Metriken [Konversion](/help/search-social-commerce/glossary.md#c-d) eines Advertisers werden in Adobe Advertising verwendet:
 
@@ -23,11 +25,11 @@ Zu den verfügbaren Metriken gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert ](/help/integrations/customer-journey-analytics/overview.md).
 
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
-* ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
+* ([ Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
 * Konversionen aus benutzerdefinierten Feeds.
 
@@ -57,7 +59,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
@@ -94,6 +96,50 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
       1. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Sichtbarkeit](/help/search-social-commerce/assets/visible.png "Sichtbarkeit"), um die Metriken anzuzeigen oder ![Sichtbarkeit von](/help/search-social-commerce/assets/visibility-off.png "Sichtbarkeit von") auszublenden.
 
       1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
+
+## Verwalten von Leistungsdatenberichten für Konversionen
+
+Sie können die folgenden Informationen zu Ihren verfolgten Konversionen herunterladen: den Namen der synchronisierten Metrik, den Anzeigenamen für die Metrik in den Verwaltungsansichten und -berichten für Suche, Social Media und Commerce, ob die Metrik in Verwaltungsansichten und -berichten sichtbar ist, die Konversions-ID und die Metrikquelle. Laden Sie die Daten in eine Datei [!DNL Microsoft Excel] Arbeitsmappen-Format (XLSX-Datei) herunter.
+
+### Erstellen eines Berichts mit den gefilterten Datenzeilen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Geben Sie die Konversionen an, deren Daten Sie herunterladen möchten:
+
+   * Um Daten für bestimmte Zeilen herunterzuladen, aktivieren Sie die Kontrollkästchen neben den Zeilen.
+
+   * Um Daten für alle Zeilen herunterzuladen, müssen Sie keine Kontrollkästchen aktivieren. Alle Zeilen sind standardmäßig eingeschlossen.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
+
+1. Geben Sie in den [!UICONTROL Grid Reports] einen eindeutigen Berichtsnamen ein, und klicken Sie dann auf **[!UICONTROL Generate]**.
+
+   Standardmäßig trägt die Datei den Namen „conversionReport_YYYYMMDD_NNNN“, wobei „NNNN“ die sequenzielle Auftragsnummer ist (z. B. „conversionsReport_20260402_1326).
+
+   Die Datei wird der [!UICONTROL Recently Generated] hinzugefügt.
+
+1. (Optional) Um die Datei nach Abschluss des Vorgangs herunterzuladen, klicken Sie ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+### Herunterladen eines abgeschlossenen Berichts
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
+
+1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+### Löschen eines abgeschlossenen Berichts
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Reports]**.
+
+1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") neben dem Dateinamen.
 
 <!--
 >[!MORELIKETHIS]
