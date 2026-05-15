@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können eine benutzerdefinierte Simulation für ein ([ oder aktives](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) Portfolio in der [!UICONTROL Portfolios] erstellen.
+Sie können eine benutzerdefinierte Simulation für ein ([&#x200B; oder aktives](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) Portfolio in der [!UICONTROL Portfolios] erstellen.
 
 >[!NOTE]
 >
->Sie können auch [eine benutzerdefinierte Simulation in der [!UICONTROL Simulations] erstellen oder erneut ](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md).
+>Sie können auch [eine benutzerdefinierte Simulation in der [!UICONTROL Simulations] erstellen oder erneut &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
