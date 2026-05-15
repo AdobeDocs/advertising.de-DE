@@ -4,17 +4,13 @@ description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
 TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -60,7 +56,7 @@ Unter [Was nicht dupliziert wird](#placement-not-duplicated) finden Sie eine Lis
 
    Standardmäßig beziehen sich die neuen Platzierungen auf den ursprünglichen Anzeigentyp, werden den ursprünglichen Werbetreibenden und Kampagnen zugewiesen, haben Flugpläne, die am aktuellen Tag beginnen, sind angehalten und enthalten nicht die ursprünglichen Anzeigen.
 
-   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen mit einer Nummer gemäß der Konvention „ph id=&#39;124&#39;/>original_placement_name #N *> angehängt, z. B. „Meine Platzierung #2“.*
+   Wenn Sie mehrere Platzierungen erstellen, werden die neuen Platzierungsnamen mit einer Nummer gemäß der Konvention &lt;*original_placement_name #N*> angehängt, z. B. „Meine Platzierung #2“.
 
 1. Klicken Sie auf **[!UICONTROL Submit]**.
 
@@ -77,7 +73,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+   * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
 
 ## Best Practices zum Konfigurieren der neuen Platzierungen
 
@@ -98,7 +94,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
 
-   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene in die Platzierungen ein.
+   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in die Platzierungen ein.
 
    * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
 
