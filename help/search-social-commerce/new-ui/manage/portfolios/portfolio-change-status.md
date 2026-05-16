@@ -1,11 +1,11 @@
 ---
 title: (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
-description: Erfahren Sie, wie Sie den Status eines Portfolios ändern oder ein inaktives Portfolio löschen können.
+description: Erfahren Sie, wie Sie den Status eines Portfolios ändern oder ein inaktives Portfolio löschen können, ohne die Portfolioeinstellungen zu öffnen.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Der Status eines Portfolios kann einer der folgenden sein:
-
-* **Inaktiv:** Die Optimierungsfunktion erfasst zu Berichtszwecken Kosten-/Klick-/Impressionsdaten für die relevanten Kampagnen, modelliert jedoch weder die Daten noch optimiert sie Kampagnenbudgets und Gebote.
-
-* **Aktiv:** Die Optimierungsfunktion sammelt Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Kampagnenbudgets oder Gebote. Aktivieren Sie ein inaktives Portfolio, um mit der Datenmodellierung zu beginnen, oder stufen Sie ein optimiertes Portfolio in den aktiven Status herunter, um die Optimierung zu stoppen.
-
-* **Optimiert:** Die Optimierungsfunktion sammelt Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die relevanten Kampagnen, modelliert die Daten und optimiert Kampagnenbudgets und Gebote (sofern relevant) am festgelegten Portfolio-Startdatum. Das Ändern des Status in „Optimiert“ wird auch als Starten des Portfolios bezeichnet.
+Sie können den [ eines Portfolios schnell ändern, ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) die vollständigen Portfolioeinstellungen zu öffnen.
 
 Wenn Sie nicht mehr Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die entsprechenden Kampagnen erfassen möchten, löschen Sie das Portfolio. Durch Löschen eines Portfolios wird es in Search, Social und Commerce nicht mehr verfügbar.
 
@@ -42,12 +36,12 @@ Alle Änderungen am Portfoliostatus werden im Änderungsverlauf des Portfolios p
 
      >[!NOTE]
      >
-     >* Sie können ein Portfolio nur starten, wenn es bereits aktiv ist und mindestens eine aktive Kampagne mit mindestens einer aktiven Anzeige und einem Keyword/einer aktiven Platzierung enthält.
-     >* Bevor Sie ein Portfolio aufrufen, müssen Sie Konversionsverfolgungstags in den Web-Seiten des Werbetreibenden implementieren.
-     >* Bevor Sie ein Portfolio starten, empfiehlt es sich, eine Basisanalyse durchzuführen.
-     >* Wenn Sie ein neues Portfolio starten, stellen Sie sicher, dass das Startdatum heute oder später ist.>* Ändern Sie das Portfolio nicht in der ersten Woche nach dem Start, auch wenn die Leistung unbeständig ist.
-     >* Sobald Search, Social und Commerce mit der Optimierung eines Portfolios beginnen, sollten Sie es alle zukünftigen Angebotsänderungen verwalten lassen (falls zutreffend). Search, Social und Commerce überschreiben alle Änderungen, die Sie innerhalb des Werbenetzwerks vornehmen.
-     >* Nachdem Sie ein Portfolio gestartet haben, können Sie vorübergehend manuelle Gebote für jede CPC-Kampagne im Portfolio festlegen, indem Sie Kampagnen-Bulksheets erstellen und veröffentlichen. Alle Gebotsänderungen, die sich aus den veröffentlichten Daten ergeben, sind für einen Tag gültig. Danach setzt Search, Social und Commerce die Angebote gemäß ihrer eigenen Optimierungsstrategie fort.
+     >* Sie können den Status nur dann in Optimiert ändern, wenn das Portfolio bereits aktiv ist und mindestens eine aktive Kampagne mit mindestens einer aktiven Anzeige und einem Keyword/einer aktiven Platzierung enthält.
+     >* Bevor Sie den Status in „Optimiert“ ändern, müssen Sie Konversionsverfolgungstags in den Web-Seiten des Werbetreibenden implementieren. Darüber hinaus empfiehlt es sich, eine Basisanalyse durchzuführen.
+     >* Stellen Sie beim Start eines neuen Portfolios sicher, dass das Startdatum heute oder später ist.
+     >* Vermeiden Sie es, das Portfolio in der ersten Woche nach der Optimierung zu ändern, auch wenn die Leistung unbeständig ist.
+     >* Sobald Search, Social und Commerce mit der Optimierung eines Portfolios beginnen, können alle zukünftigen Kampagnenbudgets und (falls zutreffend) Angebotsänderungen verwaltet werden. Search, Social und Commerce überschreiben alle Änderungen, die Sie innerhalb des Werbenetzwerks vornehmen.
+     >* Sie können vorübergehend manuelle Gebote für jede optimierte CPC-Kampagne im Portfolio festlegen, indem Sie Kampagnen-Bulksheets erstellen und veröffentlichen. Alle Gebotsänderungen, die sich aus den veröffentlichten Daten ergeben, sind für einen Tag gültig. Danach setzt Search, Social und Commerce die Angebote gemäß ihrer eigenen Optimierungsstrategie fort.
 
 ## Löschen eines inaktiven Portfolios
 
