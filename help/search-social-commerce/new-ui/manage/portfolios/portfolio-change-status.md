@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können den [ eines Portfolios schnell ändern, ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) die vollständigen Portfolioeinstellungen zu öffnen.
+Sie können den [&#x200B; eines Portfolios schnell ändern, &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) die vollständigen Portfolioeinstellungen zu öffnen.
 
 Wenn Sie nicht mehr Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die entsprechenden Kampagnen erfassen möchten, löschen Sie das Portfolio. Durch Löschen eines Portfolios wird es in Search, Social und Commerce nicht mehr verfügbar.
 
