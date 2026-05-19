@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Duplizieren Sie ein Portfolio, um ein neues Portfolio mit denselben Einstellunge
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Portfolio.
+1. Führen Sie einen der folgenden Schritte aus:
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Duplizieren](/help/search-social-commerce/assets/duplicate.png "Duplizieren") **[!UICONTROL Duplicate]**.
+   * Halten Sie den Cursor über der Portfoliozeile und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Aktivieren Sie das Kontrollkästchen neben dem Portfolio. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Duplizieren](/help/search-social-commerce/assets/duplicate.png "Duplizieren") **[!UICONTROL Duplicate]**.
 
 1. Bearbeiten Sie die Portfolioeinstellungen.
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ziele in einer Tabellenkalkulationsdatei heru
 feature: Search Optimization, Search Portfolios
 hide: true
 exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können die Anzahl der zugehörigen Portfolios, den Klickwert, Klicks, Koste
 
    * Um Daten für alle Ziele herunterzuladen, müssen Sie keine Kontrollkästchen aktivieren. Alle Ziele sind standardmäßig enthalten.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht herunterladen").
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
 
 1. Geben Sie in den [!UICONTROL Grid Reports] einen eindeutigen Berichtsnamen ein, und klicken Sie dann auf **[!UICONTROL Generate]**.
 
@@ -45,7 +45,7 @@ Sie können die Anzahl der zugehörigen Portfolios, den Klickwert, Klicks, Koste
 
 Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht herunterladen").
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht herunterladen") **[!UICONTROL Reports]**..
 
 1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
 
@@ -55,7 +55,7 @@ Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Report]**.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
 
 1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") neben dem Dateinamen.
 

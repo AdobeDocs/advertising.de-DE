@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
 ### Optionen im Hauptmenü
 
-Ihre Rolle bestimmt die verfügbaren Optionen:<!-- add link when available -->
+Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) bestimmt die verfügbaren Optionen:
 
 * **[!UICONTROL Dashboard]** Untermenü:
 
    * **[!UICONTROL Overview]** Öffnet eine konfigurierbare [!UICONTROL Dashboard] mit Leistungsvisualisierungen für alle Ihre Portfolios.
 
-   * **[!UICONTROL Recommendations]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Recommendations]**: Öffnet eine schreibgeschützte Ansicht Ihrer Publisher-Recommendations aus [!DNL Google Ads] und [!DNL Microsoft Advertising] und Publisher-Insights aus [!DNL Microsoft Advertising.] Um Ihre Recommendations und Insights anzuzeigen und darauf zu reagieren, verwenden Sie die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Alerts & Notifications]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
@@ -148,13 +148,13 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 ## Weitere aufgabenbasierte und informationsbasierte Menüs oben rechts
 
-### Obere Zeile: CX Enterprise-Menü
+### Obere Reihe: CX Enterprise-Menü
 
 * Eine auswählbare Liste von CX Enterprise-Organisationen, auf die Sie Zugriff haben.
 
 * ![Hilfezentrum](/help/search-social-commerce/assets/help-main-menu.png "Hilfezentrum") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
-* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-aec.png "Benachrichtigungen") Ein Bedienfeld, in dem Anfragen, Benachrichtigungen und Ankündigungen von CX Enterprise aufgelistet sind.
+* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications-aec.png "Benachrichtigungen") Ein Bedienfeld, das Anfragen, Benachrichtigungen und Ankündigungen von CX Enterprise auflistet.
 
 * ![Apps](/help/search-social-commerce/assets/apps.png "Apps") Eine Liste der Adobe CX Enterprise-Lösungen und -Services, zu denen Sie wechseln können.
 
@@ -208,15 +208,15 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweise") Ein Bedienfeld, in dem Ihre Benachrichtigungen zu Suche, Social und Commerce aufgelistet sind.
 
-  Wenn Sie über [Adobe CX Enterprise](sign-in.md) angemeldet sind, werden in diesem Bedienfeld Ihre Benachrichtigungen von CX Enterprise angezeigt.
+  Wenn Sie über Adobe CX Enterprise[&#x200B; angemeldet sind](sign-in.md) werden in diesem Bedienfeld Ihre Benachrichtigungen von CX Enterprise angezeigt.
 
 * ![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
-* ![Lösungsumschalter](/help/search-social-commerce/assets/menu-icon.png "Lösungsumschalter") Eine Liste von Adobe CX Enterprise-Lösungen und -Services, zu denen Sie wechseln können.
+* ![Lösungsschalter](/help/search-social-commerce/assets/menu-icon.png "Lösungsschalter") Eine Liste der Adobe CX Enterprise-Lösungen und -Services, auf die umgeschaltet werden kann.
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wenn Sie über [Adobe CX Enterprise](sign-in.md) angemeldet sind, können Sie auch Ihr CX Enterprise-Profil bearbeiten, einschließlich Ihres CX Enterprise-Kennworts und Ihrer Benachrichtigungseinstellungen.
+  Wenn Sie über [&#x200B; CX Enterprise](sign-in.md) angemeldet sind, können Sie auch Ihr CX Enterprise-Profil bearbeiten, einschließlich Ihres CX Enterprise-Kennworts und Ihrer Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >

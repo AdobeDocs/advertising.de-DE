@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
    + Wiederverwendbare Zielgruppen {#reusable-audiences}
       + [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[Erstellen Sie eine wiederverwendbare Zielgruppe mit generativer KI](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplizieren einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Bearbeiten einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-edit.md)
       + [Anzeigen von Details zu wiederverwendbaren Audiences](/help/dsp/audiences/reusable-audience-view-details.md)

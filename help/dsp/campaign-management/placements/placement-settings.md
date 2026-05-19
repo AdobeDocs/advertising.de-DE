@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Der Name der Platzierung.
 
 >[!TIP]
->Verwenden Sie eine Namenskonvention, die für Ihre Situation sinnvoll ist. Eine vorgeschlagene Namenskonvention lautet &quot;*\&lt;Kampagnenname\>: \&lt;Anzeigeneinheit\>: \&lt;Dauer\>: \&lt;Targeting\>*&quot;.
+>Verwenden Sie eine Namenskonvention, die für Ihre Situation sinnvoll ist. Eine vorgeschlagene Namenskonvention lautet &quot;*\&lt;Kampagnenname\>: \&lt;Anzeigeneinheit\>: \&lt;Dauer\>: \&lt;Zielgruppenbestimmung\>*&quot;.
 
 **[!UICONTROL Status]:** Der Platzierungsstatus: *[!UICONTROL Active]* (Standard) oder *[!UICONTROL Paused]*.
 
@@ -348,11 +348,11 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Universal ID Beta]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle IDs konvertiert](/help/dsp/audiences/sources/source-about.md) oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die wahrscheinlich aus E-Mail-Adressen und anderen Signalen erstellt wurden.<!-- What countries/geos are these available for? Everywhere?--> ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
+   * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die probabilistisch aus E-Mail-Adressen und anderen Signalen erstellt wurden.<!-- What countries/geos are these available for? Everywhere?--> ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
 
    * *[!UICONTROL RampID]*: Targeting [!DNL LiveRamp] [!DNL RampIDs] von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind.<!-- Verify --> [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
 
-   * *[!UICONTROL Unified ID2.0]*: Targeting [!DNL Unified ID2.0] (UID2)-IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind.<!-- Verify -->[!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]*: Targets [!DNL Unified ID2.0] (UID2) IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind.<!-- Verify -->[!DNL UID2 IDs] sind nicht für Benutzer im Europäischen Wirtschaftsraum und einigen weiteren Ländern verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto muss die Bedingungen nur einmal akzeptieren, bevor Sie Daten in einen neuen ID-Typ konvertieren können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
@@ -420,7 +420,7 @@ So geben Sie die Themenzielgruppe an:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (Optional; nur [!DNL DoubleVerify] Kunden; verfügbar für Desktop-Pre-Roll, Standard- und Click-to-Play-Anzeige und nur native Anzeige- und Video-Platzierungen; nicht unterstützt für [Standardmäßige programmgesteuerte garantierte Platzierungen für Angebote](/help/dsp/inventory/programmatic-guaranteed-about.md)) Eine [!DNL DoubleVerify Authentic Brand Safety] Segment-ID, die mit dem [!DNL DoubleVerify]-Konto des Unternehmens verknüpft ist, das für die Platzierung verwendet werden soll. Durch die Angabe einer ID werden Impressionen nach dem Angebot anhand der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihrem Konto die Nutzung der Segment-ID in Rechnung.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Optional; nur [!DNL DoubleVerify] Kunden; verfügbar für Desktop-Pre-Roll, Standard- und Click-to-Play-Anzeige und nur native Anzeige- und Video-Platzierungen; nicht unterstützt für [Standardmäßige programmgesteuerte garantierte Platzierungen für Angebote](/help/dsp/inventory/programmatic-guaranteed-about.md)) Eine [!DNL DoubleVerify Authentic Brand Suitability] Segment-ID, die mit dem [!DNL DoubleVerify]-Konto des Unternehmens verknüpft ist, das für die Platzierung verwendet werden soll. Durch die Angabe einer ID werden Impressionen nach dem Angebot anhand der benutzerdefinierten Markensicherheitsregeln blockiert, die für die angegebene Segment-ID konfiguriert sind. DSP stellt Ihrem Konto die Nutzung der Segment-ID in Rechnung.
 
 Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Einstellungen des Advertiser-Kontos eine Segment-ID angegeben ist, wird standardmäßig die ID auf Advertiser-Ebene eingegeben. Sie können die ID jedoch ändern, um ein anderes Segment zu verwenden, oder die ID löschen, um die Funktion zu deaktivieren.
 
@@ -480,7 +480,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 >[!NOTE]
 >
->([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now].
+>([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Placed], [!DNL Oracle], [!DNL Polk] und [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]:** (Optional) Ereignisverfolgungs-Pixel von Drittanbietern, die standardmäßig an alle neuen Anzeigen in der Platzierung angehängt werden sollen. So geben Sie Ereignispixel an:
 

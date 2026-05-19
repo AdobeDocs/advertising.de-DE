@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ Die Berichtsansicht enthält die folgenden Daten:
       * **Gesamtleistung**: Die Gesamtzahl der Impressionen; Klicks; Clickthrough-Rate (CTR); und Durchsichtskonversionen und Clickthrough-Konversionen.
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **Standardrate**: (Nur Erlebnisse beim Targeting mit Entscheidungsbäumen) Die Anzahl der Impressionen, die aus zielgerichteten Kreativen, allgemeinen Kreativen ohne Zielgruppe oder an „Alle anderen“ gerichtet sind, und das Standardkreativ für das Erlebnis.
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * **Leistungsaufschlüsselung** Abschnitt:
 
-      * **Regionale Leistung:*: Einzelne Metriken nach geografischem Standort.
+      * **Regionale Leistung:**: Einzelne Metriken nach geografischem Standort.
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Geräteleistung:** Einzelne Metriken nach Gerätetyp, Betriebssystem und Browser. Klicken Sie optional auf den Wert für eine beliebige Gerätekategorie, um eine Liste der 10 Kreativen anzuzeigen, die mit diesen Kriterien am häufigsten bedient werden.
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * Registerkarte **Creative-***: Eine Leistungsübersicht nach Kreativ- und Bundle- oder Anzeigen-Tag, einschließlich:
 

@@ -3,7 +3,7 @@ title: (Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [
 description: Erfahren Sie, wie Sie Berichte erzeugen, herunterladen und löschen, die die Datenzeilen für eine oder mehrere Anzeigen in der [!UICONTROL Ads] in einem Bericht enthalten.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Siehe auch &quot;[(Ältere Benutzeroberfläche) Daten aus einer Kampagnen-Manage
 
    * Um Daten für alle Anzeigen herunterzuladen, müssen Sie keine Kontrollkästchen aktivieren. Alle Anzeigen sind standardmäßig enthalten.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Report]**.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
 
 1. Geben Sie in den [!UICONTROL Grid Reports] einen eindeutigen Berichtsnamen ein, und klicken Sie dann auf **[!UICONTROL Generate]**.
 
@@ -46,7 +46,7 @@ Siehe auch &quot;[(Ältere Benutzeroberfläche) Daten aus einer Kampagnen-Manage
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Report]**.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
 
 1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
 
@@ -56,7 +56,7 @@ Siehe auch &quot;[(Ältere Benutzeroberfläche) Daten aus einer Kampagnen-Manage
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Report]**.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
 
 1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") neben dem Dateinamen.
 

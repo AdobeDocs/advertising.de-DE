@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
    * Geo-Ziele
    * Ereignispixel
    * Anzeigen
-   * [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+   * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
 
 ## Best Practices für die Konfiguration des neuen Pakets
 
@@ -95,7 +95,7 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
    * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
 
-   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Safety] auf Platzierungsebene in Platzierungen ein.
+   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in Platzierungen ein.
 
    * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
 

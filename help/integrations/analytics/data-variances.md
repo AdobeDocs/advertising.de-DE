@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
-source-wordcount: 3359
+source-wordcount: 3528
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
 
-Werbetreibende mit der [!DNL Analytics for Advertising] <!-- (A4AdC) -->-Integration verfolgen bezahlte Werbung über Adobe Advertising und Adobe Analytics. Wenn Sie Medien, Kampagnen und Kanäle über mehrere Systeme verfolgen, stimmen dieselben Datensätze aus verschiedenen Systemen nur selten vollständig überein. In diesem Dokument wird erläutert, wie Sie Daten für Medien, die über Adobe Advertising nachverfolgt werden, mit Daten in den verschiedenen Systemen vergleichen sollten, in denen die Medien innerhalb von [!DNL Analytics] nachverfolgt werden.
+Werbetreibende mit der [!DNL Analytics for Advertising]-Integration verfolgen bezahlte Werbung über Adobe Advertising und Adobe Analytics. Wenn Sie Medien, Kampagnen und Kanäle über mehrere Systeme verfolgen, stimmen dieselben Datensätze aus verschiedenen Systemen nur selten vollständig überein. In diesem Dokument wird erläutert, wie Sie Daten für Medien, die über Adobe Advertising nachverfolgt werden, mit Daten in den verschiedenen Systemen vergleichen sollten, in denen die Medien innerhalb von [!DNL Analytics] nachverfolgt werden.
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ In Adobe Advertising können Sie Konversionsdaten entweder nach dem zugehörigen
 
 ## Attribution in [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] Reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=de) ermöglicht die Konfiguration von Regeln zur Identifizierung verschiedener Marketing-Kanäle auf der Grundlage unterschiedlicher Aspekte von Trefferinformationen. Sie können von Adobe Advertising verfolgte Kanäle ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] und [!UICONTROL Paid Search]) nach [!DNL Marketing Channels] verfolgen, indem Sie den Kanal mithilfe des `ef_id` Abfragezeichenfolgenparameters identifizieren. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> können die [!DNL Marketing Channels]-Berichte Adobe Advertising-Kanäle verfolgen, die Daten stimmen jedoch möglicherweise aus verschiedenen Gründen nicht mit den Adobe Advertising-Berichten überein. Weitere Informationen finden Sie in den folgenden Abschnitten.
+[[!DNL Analytics Marketing Channels] Reporting](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=de) ermöglicht die Konfiguration von Regeln zur Identifizierung verschiedener Marketing-Kanäle auf der Grundlage unterschiedlicher Aspekte von Trefferinformationen. Sie können von Adobe Advertising verfolgte Kanäle ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] und [!UICONTROL Paid Search]) nach [!DNL Marketing Channels] verfolgen, indem Sie den Kanal mithilfe des `ef_id` Abfragezeichenfolgenparameters identifizieren. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Obwohl die [!DNL Marketing Channels]-Berichte Adobe Advertising-Kanäle verfolgen können, stimmen die Daten möglicherweise aus verschiedenen Gründen nicht mit den Adobe Advertising-Berichten überein. Weitere Informationen finden Sie in den folgenden Abschnitten.
 
 >[!NOTE]
 >
@@ -241,7 +241,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 wobei die EF-ID &quot;`test_ef_id`&quot; und die AMO-ID &quot;`test_amo_id#redirectAnchorTag`&quot; lautet.
 
-In diesem Beispiel fügt das Hinzufügen des Anker-Tags der AMO-ID unerwartete Zeichen hinzu, was zu einem Wert führt, den Analytics nicht erkennt. Diese AMO-ID wird nicht klassifiziert, und die damit verbundenen Konversionen fallen in [!UICONTROL unspecified] Berichten unter &quot;[!UICONTROL none]&quot; oder &quot;[!DNL Analytics]&quot;.
+In diesem Beispiel fügt das Hinzufügen des Anker-Tags der AMO-ID unerwartete Zeichen hinzu, was zu einem Wert führt, den Analytics nicht erkennt. Diese AMO-ID wird nicht klassifiziert, und die damit verbundenen Konversionen fallen in [!DNL Analytics] Berichten unter &quot;[!UICONTROL unspecified]&quot; oder &quot;[!UICONTROL none]&quot;.
 
 Während solche Probleme häufig auftreten, führen sie glücklicherweise nicht zu einem hohen Prozentsatz an Diskrepanzen. Wenn Sie jedoch eine große Diskrepanz zwischen AMO-IDs in [!DNL Analytics] und EF-IDs in Adobe Advertising feststellen, wenden Sie sich an Ihr Adobe-Account-Team, um Hilfe zu erhalten.
 

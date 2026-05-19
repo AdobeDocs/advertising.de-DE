@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 375
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Mit dem anpassbaren [!UICONTROL Dashboard] [!UICONTROL Overview] > können Sie die Leistung aller Ihrer Portfolios überwachen <!-- May later include other entity-level data --> potenzielle Leistungsprobleme identifizieren, die untersucht und behoben werden müssen. Sie können tägliche, wöchentliche oder monatliche Daten für einen beliebigen Zeitraum in den letzten 90 Tagen anzeigen.
+Mit dem anpassbaren [!UICONTROL Overview] [!UICONTROL Dashboard] > können Sie die Leistung aller Ihrer Portfolios überwachen <!-- May later include other entity-level data --> potenzielle Leistungsprobleme identifizieren, die untersucht und behoben werden müssen. Sie können tägliche, wöchentliche oder monatliche Daten für einen beliebigen Zeitraum in den letzten 90 Tagen anzeigen.
 
 Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 
@@ -47,9 +47,9 @@ Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 
       * *[!UICONTROL All Portfolios]* (Standard): Bericht zu bestimmten Portfolios. Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD verwenden, ausgewählt.
 
-      * *[!UICONTROL Portfolio Groups]:* Bericht zu bestimmten Portfolios in einem bestimmten **[!UICONTROL Portfolio Group].** Sie können optional die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD in der angegebenen Portfoliogruppe verwenden, ausgewählt.
+      * *[!UICONTROL Portfolio Groups]:* Bericht zu bestimmten Portfolios in einem bestimmten **[!UICONTROL Portfolio Group].** Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die in der angegebenen Portfoliogruppe verwendet werden, ausgewählt.
 
-      * *[!UICONTROL Objectives]:* Bericht über bestimmte Portfolios mit einer bestimmten **[!UICONTROL Objective].** . Sie können die Liste der Portfolios optional einschränken, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD mit dem angegebenen Ziel verwenden, ausgewählt.
+      * *[!UICONTROL Objectives]:* Bericht zu bestimmten Portfolios mit einer bestimmten **[!UICONTROL Objective].** . Sie können die Liste der Portfolios optional einschränken, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD mit dem angegebenen Ziel verwenden, ausgewählt.
 
    1. Aktivieren bzw. deaktivieren Sie die Kontrollkästchen neben den Portfolios nach Bedarf, bis im Abschnitt [!UICONTROL Selected Portfolios] die Portfolios aufgeführt sind, für die Sie einen Bericht erstellen möchten.
 

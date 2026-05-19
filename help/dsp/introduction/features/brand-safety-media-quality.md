@@ -14,9 +14,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -143,17 +143,17 @@ Mit dem Themen-Targeting von DSP können Sie Keyword-Listen mithilfe unserer bra
 
 Beim Themen-Targeting müssen Sie benutzerdefinierte Themensegmente direkt mit der Partnerplattform erstellen. Nachdem die Segmente erstellt wurden, können Sie [für jede Platzierung eine Segment-ID im [!UICONTROL Audience Targeting] Abschnitt ansprechen oder &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md). Für diese Funktion können zusätzliche Gebühren anfallen.
 
-Um ein [!DNL Comscore] Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie unter [!DNL Activation Segment Manager]https://agents.comscore.com eine Anmeldung zur [&#x200B; anfordern](https://agents.comscore.com). Vollständige Anweisungen [[!DNL Comscore]  Einrichten benutzerdefinierter Segmente finden Sie &#x200B;](https://comscoreactivation.zendesk.com/hc/) Hilfezentrum . Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] sichtbar, während Sie sie erstellen.
+Um ein [!DNL Comscore] Konto zu erstellen und benutzerdefinierte Themensegmente zu erstellen, können Sie unter [https://agents.comscore.com eine Anmeldung zur [!DNL Activation Segment Manager] anfordern](https://agents.comscore.com). Vollständige Anweisungen [[!DNL Comscore]  Einrichten benutzerdefinierter Segmente finden Sie &#x200B;](https://comscoreactivation.zendesk.com/hc/) Hilfezentrum . Gebühren für benutzerdefinierte Segmente sind in [!DNL Segment Manager] sichtbar, während Sie sie erstellen.
 
 ![Comscore-Logo](/help/dsp/assets/comscore-logo.png)
 
-### [!DNL DoubleVerify Authentic Brand Safety]
+### [!DNL DoubleVerify Authentic Brand Suitability]
 
-DSP ist eine Partnerschaft mit [!DNL DoubleVerify] eingegangen, um seine [!DNL Authentic Brand Safety] Targeting-Lösung anzubieten, mit der Sie eine Reihe zentralisierter Anforderungen an die Markensicherheit erstellen können, die auf allen Ihren Einkaufsplattformen zur Konsistenz berücksichtigt werden.
+DSP ist eine Partnerschaft mit [!DNL DoubleVerify] eingegangen, um seine [!DNL Authentic Brand Suitability] Targeting-Lösung anzubieten, mit der Sie eine zentrale Reihe von Markentauglichkeitsanforderungen erstellen können, die auf allen Ihren Einkaufsplattformen zur Konsistenz berücksichtigt werden.
 
-Nachdem Sie ein [!DNL DoubleVerify] Markensegment mit der erforderlichen Zielgruppenbestimmung erstellt haben, können Sie es in DSP verwenden, um Ihre Blockierungsregeln nach Angebotsabgabe mit Pre-Bid in Web-Umgebungen zu replizieren.
+Nachdem Sie ein [!DNL DoubleVerify] Segment mit der erforderlichen Zielgruppenbestimmung erstellt haben, können Sie es in DSP verwenden, um Ihre Blockierungsregeln nach der Gebotsabgabe mit Pre-Bid in Web-Umgebungen zu replizieren.
 
-Sie können für jeden Advertiser eine [!DNL DoubleVerify] Segment-ID <!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> und dann optional [Aktivieren oder Deaktivieren von [!UICONTROL Authentic Brand Safety] für jede Platzierung](/help/dsp/campaign-management/placements/placement-settings.md). DSP stellt Ihrem Konto die Nutzung der Segment-ID in Rechnung.
+Sie können für jeden Advertiser eine [!DNL DoubleVerify] Segment-ID angeben und dann optional [für jede Platzierung [!UICONTROL Authentic Brand Suitability] aktivieren oder deaktivieren](/help/dsp/campaign-management/placements/placement-settings.md). DSP stellt Ihrem Konto die Nutzung der Segment-ID in Rechnung.
 
 Weitere Informationen zu den Funktionen erhalten Sie direkt bei [!DNL DoubleVerify] oder bei Ihrem Adobe-Account-Team.
 
