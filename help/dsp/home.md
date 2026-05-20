@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;20. Mai 2026 | Erstanbieter-Zielgruppenquellen, universelle IDs, [!UICONTROL Placements] | Werbetreibende in Australien können jetzt [!DNL AdFixus] universellen IDs mit Segmentzuordnungen für zielgerichtete Werbung importieren. DSP importiert First-Party-Segmente unverändert aus [!DNL AdFixus], ohne sie in andere ID-Typen zu konvertieren. Der Prozess umfasst die Erstellung einer Zielgruppenquelle und die Freigabe eines automatisch generierten Schlüssels für Ihr [!DNL AdFixus]-Team. | Siehe [Importieren von Erstanbietersegmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md), &quot;[Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md) und &quot;[Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md).“ |
 | &#x200B;11. Mai 2026 | wiederverwendbare [!UICONTROL Audiences] | (Beta-Funktion) Sie können jetzt mithilfe eines KI-unterstützten Zielgruppen-Agenten wiederverwendbare Zielgruppen erstellen. Beschreiben Sie Ihre Zielgruppe in Eingabeaufforderungen in natürlicher Sprache, und der Agent empfiehlt Drittanbietersegmente und erstellt Zielgruppenausdrücke zur Verwendung als Ziele oder Ausschlüsse. | Siehe &quot;[Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md)&quot;. |
 | &#x200B;29. April 2026 | [!UICONTROL Conversions] | Sie können jetzt alle Konversionsmetriken verwalten, die Adobe Advertising für Ihr Unternehmen in DSP verfolgt. Die Metriken sind weiterhin in Advertising Search, Social und Commerce verfügbar und können dort für Berichte und Optimierungen verwendet werden. | Siehe &quot;[Verwalten von Konversionen](/help/dsp/admin/conversion-metrics-manage.md).“ |
 | | [!UICONTROL Custom Objectives] | Sie können jetzt die Ziele für Ihre benutzerdefinierten Ziele in DSP erstellen und verwalten. | Siehe [Verwalten benutzerdefinierter Ziele](/help/dsp/admin/custom-objectives-manage.md). |
