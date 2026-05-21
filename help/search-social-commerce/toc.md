@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2084'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,8 @@ ht-degree: 2%
          + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
-      + Klassifizierungen kennzeichnen {#label-classifications}
-         + [Über Kennzeichnungsklassifizierungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [Erstellen einer Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [Entfernen von Kennzeichnungswerten aus Kontokomponenten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [Löschen von Kennzeichnungsklassifizierungswerten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [Löschen von Kennzeichnungsklassifizierungen](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + [[!UICONTROL History Logs] anzeigen](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Schlüsselwörter {#keywords}
          + [Über die [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
