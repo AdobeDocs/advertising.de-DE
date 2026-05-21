@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie Werte für Kennzeichnungsklassifizierungen l�
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: 242
@@ -19,7 +21,7 @@ Durch das Löschen von Kennzeichnungsklassifizierungswerten sind diese nicht meh
 
 >[!NOTE]
 >
->Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[ von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
+>Um einfach einen Klassifizierungswert von einer Kontokomponente zu trennen, siehe &quot;[&#x200B; von Klassifizierungswerten aus Kampagnenkomponenten entfernen](classification-values-remove.md).
 
 ## (Neue Benutzeroberfläche) Löschen von Klassifizierungswerten für Bezeichnungen
 
