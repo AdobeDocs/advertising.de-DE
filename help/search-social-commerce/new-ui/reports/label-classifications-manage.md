@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Verwalten von Kennzeichnungsklassifizierungen
 
-Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder ](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
+Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder &#x200B;](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
 
 ## Komponenten von Kennzeichnungsklassifizierungen
 
@@ -21,7 +21,7 @@ Jeder Advertiser kann über bis zu 30 Label-Klassifizierungen verfügen, bei den
 
 ### Kennzeichnungswerte
 
-Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [ Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets) ](#classification-values-assign-bulksheets).
+Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [&#x200B; Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets) &#x200B;](#classification-values-assign-bulksheets).
 
 Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen, aber nur einen Kennzeichnungswert pro Klassifizierung haben. Kennzeichnungswerte werden von untergeordneten Entitäten übernommen, können jedoch überschrieben werden. Der Wert, der auf der niedrigsten Ebene zugewiesen wird, überschreibt immer die Werte, die auf den übergeordneten Ebenen zugewiesen werden.
 
@@ -37,9 +37,9 @@ Die Ansicht [!UICONTROL Reports] > [!UICONTROL Labels Classifications] enthält 
 
 * [Erstellen Sie eine Klassifizierung für die Bezeichnung](#classification-create).
 
-* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets](#classification-values-assign-bulksheets).
+* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets](#classification-values-assign-bulksheets).
 
-* [Entfernen Sie Kennzeichnungswerte aus den ](#classification-values-remove).
+* [Entfernen Sie Kennzeichnungswerte aus den &#x200B;](#classification-values-remove).
 
 * [Löschen von Kennzeichnungswerten](#classification-values-delete).
 
