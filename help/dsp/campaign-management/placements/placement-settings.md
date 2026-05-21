@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 4499
+source-wordcount: 4518
 ht-degree: 0%
 
 ---
@@ -346,15 +346,17 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (Standard) Targeting von Benutzern basierend auf ihren Cookies, IDs für mobile Werbung oder Connected TV-IDs (CTV). IDs werden basierend auf dem Browser-, In-App- oder CTV-Inventar ausgewählt.
 
-* *[!UICONTROL Universal ID Beta]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle IDs konvertiert](/help/dsp/audiences/sources/source-about.md) oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle &#x200B;](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die probabilistisch aus E-Mail-Adressen und anderen Signalen erstellt wurden.<!-- What countries/geos are these available for? Everywhere?--> ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
+   * *[!UICONTROL AdFixus]*: Zielgruppen [!DNL AdFixus] IDs, die nach Advertising DSP importiert wurden.
 
-   * *[!UICONTROL RampID]*: Targeting [!DNL LiveRamp] [!DNL RampIDs] von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind.<!-- Verify --> [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
+   * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die wahrscheinlich aus E-Mail-Adressen und anderen Signalen erstellt wurden. ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
 
-   * *[!UICONTROL Unified ID2.0]*: Targets [!DNL Unified ID2.0] (UID2) IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind.<!-- Verify -->[!DNL UID2 IDs] sind nicht für Benutzer im Europäischen Wirtschaftsraum und einigen weiteren Ländern verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL RampID]*: Targeting [!DNL LiveRamp] [!DNL RampIDs] von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
 
-  **[!UICONTROL Terms of service]**: Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto muss die Bedingungen nur einmal akzeptieren, bevor Sie Daten in einen neuen ID-Typ konvertieren können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
+   * *[!UICONTROL Unified ID2.0]*: Targeting [!DNL Unified ID2.0] (UID2)-IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto muss die Bedingungen nur einmal akzeptieren, bevor Sie IDs importieren, Daten in einen neuen ID-Typ konvertieren oder einen ID-Typ als Ziel auswählen können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (Verfügbar, wenn die [Kampagne für personenbasiertes geräteübergreifendes Targeting konfiguriert ist](/help/dsp/campaign-management/campaigns/campaign-settings.md) nur für ältere IDs (nicht für universelle IDs), und Sie wählen mindestens ein Segment oder eine Audience aus. Ermöglicht die Erweiterung der Zielgruppenbestimmung auf alle bekannten Geräte einer Person (gemäß dem in den Kampagneneinstellungen angegebenen Gerätediagramm), auch auf Geräte, die nicht in den angegebenen Segmenten enthalten sind. Je nach dem für die Kampagne angegebenen Diagramm können Gebühren anfallen. Gerätediagrammdaten sind nur in Nordamerika verfügbar.
 
@@ -480,7 +482,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 >[!NOTE]
 >
->([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Placed], [!DNL Oracle], [!DNL Polk] und [!DNL Research Now].
+>([!DNL Roku] Platzierungen) Von [!DNL Roku] genehmigte Drittanbieter für Tracking sind [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now] sowie [!DNL TransUnion].
 
 **[!UICONTROL Event Pixels]:** (Optional) Ereignisverfolgungs-Pixel von Drittanbietern, die standardmäßig an alle neuen Anzeigen in der Platzierung angehängt werden sollen. So geben Sie Ereignispixel an:
 

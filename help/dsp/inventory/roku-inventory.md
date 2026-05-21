@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sie haben folgende Möglichkeiten:
 >
 >[!DNL Roku] Inventar ist nicht in offenen Marktplätzen und Börsen verfügbar.
 
-* Richten Sie für Ihre privaten Angebote [Informationen zu den Angebots-IDs in DSP ein](/help/dsp/inventory/deal-id-create.md) und wählen Sie dann in [!UICONTROL Roku Network - Audience] Platzierungen &quot;[!UICONTROL The Roku Channel - Audience]&quot; und &quot;[!DNL Roku]&quot; aus.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Richten Sie für Ihre privaten Angebote [Informationen zu den Angebots-IDs in DSP ein](/help/dsp/inventory/deal-id-create.md) und wählen Sie dann in [!DNL Roku] Platzierungen &quot;[!UICONTROL Roku Network - Audience]&quot; und &quot;[!UICONTROL The Roku Channel - Audience]&quot; aus.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Sie können [das folgende Inventar  [!DNL Roku]  der  [!DNL On Demand] -](/help/dsp/inventory/on-demand-inventory-subscribe.md) abonnieren und dann eines der genehmigten Angebote in [!DNL Roku] Platzierungen auswählen:
 
@@ -74,7 +74,7 @@ Jede [!DNL Roku]-Platzierung muss mindestens einen [!DNL Roku] oder eine Quelle 
 
 ### Von [!DNL Roku] genehmigte Drittanbieter-Tracking
 
-[!DNL Roku] Platzierungen können Ereignis-Pixel von Drittanbietern und Konversionspixel von den folgenden Anbietern enthalten: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] und [!DNL Research Now].
+[!DNL Roku] Platzierungen können Ereignis-Pixel von Drittanbietern und Konversionspixel von den folgenden Anbietern enthalten: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now] und [!DNL TransUnion].
 
 ### Best Practices nach Platzierungsstrategie
 

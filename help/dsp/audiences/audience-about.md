@@ -1,6 +1,6 @@
 ---
-title: About audience management in Advertising DSP
-description: Learn about audience management features.
+title: Über die Zielgruppenverwaltung in Advertising DSP
+description: Erfahren Sie mehr über Funktionen zur Zielgruppenverwaltung.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
 TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
@@ -18,36 +18,38 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
 
-# About audience management in Advertising DSP
+# Über die Zielgruppenverwaltung in Advertising DSP
 
-In DSP, you can create and manage audience segments and audience sets, which you can use as targets for your placements:
+In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwalten, die Sie als Ziele für Ihre Platzierungen verwenden können:
 
-* Collect your own first-party audience data by creating and implementing DSP segments. You can later retarget users in the segment with ads or prevent users in the segment from receiving ads. You can create the following types of segments:
+* Erfassen Sie Ihre eigenen First-Party-Zielgruppendaten, indem Sie DSP-Segmente erstellen und implementieren. Sie können später Benutzende im Segment erneut mit Anzeigen ansprechen oder verhindern, dass Benutzende im Segment Anzeigen erhalten. Sie können die folgenden Segmenttypen erstellen:
 
-   * [Custom segments](/help/dsp/audiences/custom-segment-create.md) to track a) users exposed to ads from desktop and mobile devices and b) users who visit specific webpages. The tracking tag can track either cookie-based users or users associated with ID5 universal IDs.
+   * [Benutzerdefinierte Segmente](/help/dsp/audiences/custom-segment-create.md) um a) Benutzende zu verfolgen, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind, und b) Benutzende, die bestimmte Web-Seiten besuchen. Das Tracking-Tag kann entweder Cookie-basierte Benutzer oder Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind.
 
-   * [CCPA opt-out-of-sale segments](/help/dsp/audiences/ccpa-opt-out-segment-create.md) to track the users IDs from consumer opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA). You can retrieve monthly reports of the user IDs from opt-out-of-sale requests.
+   * [CCPA-Opt-out-of-Sale-Segmente](/help/dsp/audiences/ccpa-opt-out-segment-create.md) um die Benutzer-IDs aus Verbraucher-Opt-out-of-Sale-Anfragen auf Ihrer Website gemäß dem California Consumer Privacy Act (CCPA) zu verfolgen. Sie können monatliche Berichte zu Benutzer-IDs aus Opt-out-Kaufanfragen abrufen.
 
-     For more information about Adobe Advertising support for CCPA opt-out-of-sale requests, see [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt-out of sale support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Kaufanfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für das Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Beta feature) [Obtain and use universal IDs for cookieless targeting](/help/dsp/audiences/universal-ids.md):
+* [Beziehen und verwenden Sie universelle IDs für das Cookie-lose Targeting](/help/dsp/audiences/universal-ids.md):
 
-   * Manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP.
+   * Senden Sie Ihre authentifizierten [!DNL LiveRamp] [!DNL RampID] Segmente manuell direkt an DSP.
 
-   * Allow DSP to import first-party segments from your customer data platform and translate them to supported universal ID types.
+   * DSP erlauben, Erstanbietersegmente aus Ihrer Kundendatenplattform zu importieren und in unterstützte universelle ID-Typen zu übersetzen.
 
-   * Include third-party segments that contain universal IDs in your placement targets without any extra steps.
+   * Importieren Sie First-Party-[!DNL AdFixus], die [!DNL AdFixus] universelle IDs enthalten (nur Australien). Sie können dann Platzierungen auf [!DNL AdFixus]-IDs ausrichten, diese Segmente zu [wiederverwendbaren Zielgruppen“ hinzufügen &#x200B;](/help/dsp/audiences/reusable-audience-create.md) Berichte verwenden, die unter &quot;[&#x200B; von First-Party-Segmenten aus“  [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) werden.
 
-* Create an audience library of [reusable audiences](/help/dsp/audiences/reusable-audience-create.md). Saved audiences are composed of any of your available audience segments and any of your other saved audiences. Any changes you make to a saved audience are automatically applied to all placements that target or exclude the audience and to all other audiences that include the saved audience.
+   * Einbeziehen von Drittanbietersegmenten, die universelle IDs enthalten, in Ihre Platzierungsziele ohne zusätzliche Schritte.
 
-  Saved audiences allow media planners to group audiences as needed, by including and excluding multiple segments using complex Boolean logic. The  (targetable) size of each individual segment and the overall active audience size are indicated as you build an audience. Campaign executioners can then simply select one or more saved audiences as placement targets rather than manually configure audience targets for each placement.
+* Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md). Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
+
+  Gespeicherte Zielgruppen ermöglichen es Medienplanern, Zielgruppen nach Bedarf zu gruppieren, indem sie mehrere Segmente mithilfe einer komplexen booleschen Logik ein- und ausschließen. Die (Zielgruppen-)Größe jedes einzelnen Segments und die gesamte aktive Zielgruppengröße werden beim Erstellen einer Zielgruppe angezeigt. Ausführende von Kampagnen können dann einfach eine oder mehrere gespeicherte Zielgruppen als Platzierungsziele auswählen, anstatt Zielgruppenziele für jede Platzierung manuell zu konfigurieren.
 
 Für das Platzierungs-Targeting sind auch zusätzliche Zielgruppentypen verfügbar.
 
@@ -57,7 +59,11 @@ Sie haben viele Möglichkeiten, Datensegmente von Erstanbietern und Drittanbiete
 
 * DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting &#x200B;](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs &#x200B;](/help/dsp/audiences/sources/source-about.md). Sie können [&#x200B; authentifizierte Segmente auch manuell  [!DNL LiveRamp] [!DNL RampID] DSP &#x200B;](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs &#x200B;](/help/dsp/audiences/sources/source-about.md).
+
+* Australische Werbetreibende können [!DNL AdFixus] First-Party-Segmente mithilfe der [Quellen-Funktion](/help/dsp/audiences/sources/source-about.md) importieren, ohne Ihre [!DNL AdFixus] universellen IDs in andere ID-Typen zu übersetzen.
+
+* DSP ist eine Zielplattform für [!DNL LiveRamp], sodass Sie [Ihre authentifizierten Segmente manuell  [!DNL LiveRamp] [!DNL RampID] direkt an DSP senden](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
 * DSP kann Ihre anderen Erstanbieter-Datensegmente direkt von Ihrer Datenverwaltungsplattform (DMP) importieren und sie nach Bedarf für eine beliebige Gruppe von Werbetreibenden bereitstellen.
 
@@ -79,23 +85,23 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
    * Zielgruppensegmente für das CCPA-Opt-out vom Verkauf für Benutzer, die Opt-out vom Verkauf auf Ihrer Website eingereicht haben, gemäß dem California Consumer Privacy Act (CCPA).
 
-* Alle Ihre importierten Erstanbieter-Datensegmente, einschließlich der Segmente, die in universelle IDs übersetzt wurden.
+* Alle Ihre importierten First-Party-Datensegmente, einschließlich Segmente, die in universelle IDs übersetzt wurden, und Segmente, die importierte [!DNL AdFixus] universelle IDs enthalten.
 
   Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Tarife finden [&#x200B; unter „Über Erstanbieter-](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 * Alle Ihre importierten benutzerdefinierten Datensegmente von Drittanbietern
 
-* (Nur für USA) [Alle Drittanbieterdatensegmente, die DSP-Kunden von über 30 Anbietern zur Verfügung stehen](/help/dsp/audiences/third-party-data-providers.md) einschließlich [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]), [!DNL Lotame], [!DNL Neustar] und vielen mehr.
+* (Nur für USA) [Alle Drittanbieterdatensegmente, die DSP-Kunden von über 30 Anbietern zur Verfügung stehen](/help/dsp/audiences/third-party-data-providers.md) einschließlich [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]), [!DNL Lotame], [!DNL TransUnion] und vielen mehr.
 
   Sie können bestimmte Segmente auswählen, die Benutzende auf der Grundlage von Zielgruppendaten ansprechen (z. B. Benutzende mit bestimmter Demografie, Interessen oder Absichten und/oder Verhaltensprofile). Sie können nach Datenanbieter und Kategorie suchen, nach Segmenten nach Name oder Segment-ID suchen oder die Ergebnisse nach Datenanbieter, aktiver Segmentgröße, Anzahl der Webbrowser oder der Geräte filtern.
 
   Für Drittanbietersegmente fallen zusätzliche Gebühren an, die neben jedem Segmentnamen angegeben werden.
 
-* (Werbetreibende mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising JavaScript-Konversions-Tags verwenden) Alle Ihre verfügbaren Zielgruppensegmente von Erst-, Zweit- oder Drittanbietern, die in [!DNL Real-Time CDP] erstellt, in Audience Manager erstellt oder aus Audience Manager oder [!DNL Analytics] in Adobe CX Enterprise veröffentlicht wurden.
+* (Werbetreibende mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising JavaScript-Konversions-Tags verwenden) Alle verfügbaren Zielgruppensegmente von Erst-, Zweit- oder Drittanbietern, die in [!DNL Real-Time CDP] erstellt, in Audience Manager erstellt oder in Adobe CX Enterprise aus Audience Manager oder [!DNL Analytics] veröffentlicht wurden.
 
   Die Preise für die Verwendung der Segmente werden vorab ausgehandelt und sind in DSP nicht sichtbar.
 
-  Segmente aus [!DNL Analytics] sind etwa eine Stunde nach dem Erstellen oder Veröffentlichen als CX Enterprise-Zielgruppen verfügbar. Segmente, die direkt aus Audience Manager oder [!DNL Real-Time CDP] stammen, sind innerhalb von 24 Stunden nach ihrer Freigabe verfügbar.
+  Segmente aus [!DNL Analytics] sind etwa eine Stunde nach ihrer Erstellung oder Veröffentlichung als CX Enterprise-Zielgruppen verfügbar. Segmente, die direkt aus Audience Manager oder [!DNL Real-Time CDP] stammen, sind innerhalb von 24 Stunden nach ihrer Freigabe verfügbar.
 
   >[!NOTE]
   >
@@ -133,38 +139,39 @@ Sie können jede Zielgruppe bearbeiten, klonen, löschen, exportieren oder freig
 
 In der [!UICONTROL Segments] können alle Benutzenden zusätzliche benutzerdefinierte Segmente erstellen.
 
-The [!UICONTROL Segments] view also lists the following segment types:
+In der [!UICONTROL Segments] Ansicht werden auch die folgenden Segmenttypen aufgelistet:
 
-* All user-created custom segments available to the user.
+* Alle benutzererstellten benutzerdefinierten Segmente, die dem Benutzer zur Verfügung stehen.
 
-  You can view tracking tags for any of the custom segments you created, and share those segments with other users. You can also edit or delete the custom segments you created.
+  Sie können Tracking-Tags für jedes der von Ihnen erstellten benutzerdefinierten Segmente anzeigen und diese Segmente für andere Benutzer freigeben. Sie können die von Ihnen erstellten benutzerdefinierten Segmente auch bearbeiten oder löschen.
 
-  You can&#39;t edit or share custom segments that other users have shared with you.
+  Benutzerdefinierte Segmente, die andere Benutzende für Sie freigegeben haben, können nicht bearbeitet oder freigegeben werden.
 
-* All first-party segments imported as-is that are available to the user.
+* Alle Erstanbietersegmente, die im Istzustand importiert wurden und dem Benutzer zur Verfügung stehen.
 
-  You can&#39;t edit or share first-party segments that were shared with you. Contact your Adobe Account Team if you need to share first-party segments with additional users.
+  First-Party-Segmente, die für Sie freigegeben wurden, können nicht bearbeitet oder freigegeben werden. Wenden Sie sich an Ihr Adobe-Konto-Team , wenn Sie Erstanbietersegmente für weitere Benutzende freigeben müssen.
 
-* All custom third-party segments available to the user.
+* Alle benutzerdefinierten Drittanbietersegmente, die dem Benutzer zur Verfügung stehen.
 
-  You can&#39;t edit or share third-party segments that were shared with you. Contact your Adobe Account Team if you need to share third-party segments with additional users.
+  Sie können keine Drittanbietersegmente bearbeiten oder freigeben, die für Sie freigegeben wurden. Wenden Sie sich an Ihr Adobe-Account-Team , wenn Sie Drittanbietersegmente für zusätzliche Benutzende freigeben müssen.
 
 ### Die [!UICONTROL Sources]
 
-In the [!UICONTROL Sources] view, you can configure sources for first-party segments in supported customer data platforms that you want to convert to segments containing specified universal ID types. The source settings include an auto-generated source key, which you&#39;ll provide to your customer data platform to establish the connection.
+In der [!UICONTROL Sources] können Sie Quellen für Erstanbietersegmente aus unterstützten Kundendatenplattformen konfigurieren, die Sie in Segmente mit angegebenen universellen ID-Typen konvertieren möchten. Sie können auch [!UICONTROL AdFixus ID] konfigurieren, um Segmente mit [!DNL AdFixus] universellen IDs zu importieren (nur Australien). Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel, der für Ihre CDP oder Ihr [!DNL AdFixus]-Team freigegeben werden kann.
 
-For more information about the supported customer data platforms, supported universal ID types, and the workflows to set up connections to each customer data platform, see &quot;[About first-party audience sources](/help/dsp/audiences/sources/source-about.md).&quot;
+Weitere Informationen zu unterstützten Plattformen, unterstützten universellen ID-Typen und Setup-Workflows finden Sie unter [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
-The translated segments are available to include in reusable audiences and in placement settings for cookieless targeting.
+Über [!UICONTROL Sources] importierte Segmente stehen für wiederverwendbare Zielgruppen und [!UICONTROL Universal ID] Targeting in Platzierungseinstellungen zur Verfügung.
 
 >[!MORELIKETHIS]
 >
 >* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
->* [Create a reusable audience](reusable-audience-create.md)
+>* [Erstellen einer wiederverwendbaren Zielgruppe](reusable-audience-create.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](custom-segment-create.md)
 >* [Erstellen und Implementieren eines [!UICONTROL CCPA Opt-Out-of-Sale] Segments](ccpa-opt-out-segment-create.md)
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
->* [Manually import authenticated segments from [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importieren von First-Party-Segmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Verfügbare Datenanbieter von Drittanbietern](third-party-data-providers.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)
