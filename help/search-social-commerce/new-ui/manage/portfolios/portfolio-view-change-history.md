@@ -3,7 +3,7 @@ title: (Neue Benutzeroberfläche) Anzeigen des Änderungsverlaufs eines Portfoli
 description: Erfahren Sie, wie Sie den Änderungsverlauf für ein Portfolio anzeigen.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Zu den Informationen für jede Änderung gehören das Datum, der Benutzername de
    * Klicken Sie ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter"), um die Daten nach Änderungstyp zu filtern.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * Klicken Sie auf ![Sortieren](/help/search-social-commerce/assets/sort.png "Sortieren"), um die Liste nach Datum in auf- oder absteigender Reihenfolge zu sortieren.
-
 
 ## Verwalten von Leistungsdatenberichten für Änderungsverläufe
 
