@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
-      + [Verwalten von Tabellenbericht-Feeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + Terminierte Berichte {#scheduled}
+         + [Über Berichte](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [Ersteinrichtung von Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [Die für Berichte verwendeten Daten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + Verwalten von Berichten {#report-management}
+         + Automatisierung {#automation}
+            + [Berichtsvorlagen verwalten](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [Verwalten von Tabellenbericht-Feeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [FTP-Zugriff auf Berichte](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [Wie Attributionsregeln berechnet werden](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [Häufig gestellte Fragen zu benutzerdefinierten Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [[!UICONTROL History Logs] anzeigen](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}

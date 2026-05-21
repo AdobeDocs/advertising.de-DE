@@ -2,7 +2,7 @@
 title: Verwalten von Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 
    Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Classification-Wert, der aus den ausgewählten Entitäten entfernt werden soll.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 
