@@ -4,15 +4,10 @@ description: Erfahren Sie, wie Sie sich bei DSP anmelden.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
 TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
 source-wordcount: 535
@@ -24,7 +19,7 @@ ht-degree: 0%
 
 Adobe Advertising DSP stellt zur Anmeldeauthentifizierung auf den Adobe Identity Management Service (IMS) um. IMS bietet SSO-Zugriff (Single Sign-on) mit Federated IDs auf alle Produkte, [!DNL Adobe] IMS unterstützen, einschließlich Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] und [!DNL Analytics]. Mit der Änderung:
 
-* Sie können eine [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] Anmeldeseite von Adobe CX Enterprise (ehemals Adobe Experience Cloud) oder der veralteten DSP-Anmeldeseite aus produktübergreifend anzumelden. Ihr [!DNL Adobe ID] ermöglicht die Verwaltung von Benutzerprofilen. In einer zukünftigen Version können Sie das DSP-Konto, das IMS-Organisationskonto und [!DNL Adobe] Produkt über das obere Menü ändern.
+* Sie können einen [!DNL Adobe ID] verwenden, um sich über [!DNL Adobe] Produktlisten hinweg anzumelden, und zwar entweder über die Anmeldeseite von Adobe CX Enterprise (ehemals Adobe Experience Cloud) oder die veraltete Anmeldeseite von DSP. Ihr [!DNL Adobe ID] ermöglicht die Verwaltung von Benutzerprofilen. In einer zukünftigen Version können Sie das DSP-Konto, das IMS-Organisationskonto und [!DNL Adobe] Produkt über das obere Menü ändern.
 
 * Die Authentifizierung für Unternehmen wird unterstützt.
 
@@ -44,42 +39,42 @@ Ihre aktuellen DSP-Anmeldeinformationen bleiben für kurze Zeit aktiv, damit Sie
 
    * Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com).
 
-1. Enter your credentials:
+1. Geben Sie Ihre Anmeldedaten ein:
 
-   * If you already use an [!DNL Adobe] account, then sign in with your existing credentials.
+   * Wenn Sie bereits ein [!DNL Adobe]-Konto verwenden, melden Sie sich mit Ihren bestehenden Anmeldedaten an.
 
-   * If you don&#39;t have an [!DNL Adobe] account, then look for an email inviting you to create an [!DNL Adobe] account. You&#39;ll receive one invitation for each of your DSP accounts. Follow the link in the email to set up your credentials. If you have multiple DSP accounts, follow the instructions to link them.
+   * Wenn Sie kein [!DNL Adobe] Konto haben, suchen Sie nach einer E-Mail, in der Sie aufgefordert werden, ein [!DNL Adobe] Konto zu erstellen. Sie erhalten für jedes Ihrer DSP-Konten eine Einladung. Folgen Sie dem Link in der E-Mail, um Ihre Anmeldedaten einzurichten. Wenn Sie mehrere DSP-Konten haben, befolgen Sie die Anweisungen zum Verknüpfen dieser Konten.
 
-1. Choose your organization:
+1. Wählen Sie Ihre Organisation:
 
-   * If prompted, select either **[!UICONTROL Personal Account]&quot; or &#x200B;** [!UICONTROL Company or School Account]**.
+   * Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]** aus.
 
-   * If you have access to multiple IMS organizations, select the correct one.
+   * Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie die richtige aus.
 
-Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ### Fehlerbehebung
 
-For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Informationen zu allgemeinen Anmeldeproblemen finden Sie unter &quot;[ von Problemen bei der Anmeldung zum Adobe-Konto](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
-#### Are there any prerequisites to enable a new [!DNL Adobe] IMS login?
+#### Gibt es Voraussetzungen, um eine neue [!DNL Adobe] IMS-Anmeldung zu aktivieren?
 
-To add a new login account, share the email address with your Adobe Account Team. The team will add your address to the user list for the IMS organization to which DSP has been provisioned.
+Um ein neues Anmeldekonto hinzuzufügen, geben Sie die E-Mail-Adresse für Ihr Adobe Account Team frei. Das Team fügt Ihre Adresse der Benutzerliste für die IMS-Organisation hinzu, der DSP bereitgestellt wurde.
 
-In the meanwhile, the user can continue to use their legacy DSP credentials.
+In der Zwischenzeit kann der Benutzer weiterhin seine alten DSP-Anmeldeinformationen verwenden.
 
-#### After signing in using an Adobe IMS account, I&#39;m redirected back to the adobe.advertising.com login page.
+#### Nach der Anmeldung mit einem Adobe IMS-Konto werde ich zurück zur Anmeldeseite von adobe.advertising.com geleitet.
 
-Check with your IMS organization administrator that the email you are using was added to the IMS organization. If the administrator confirms that you are added to the IMS organization, then ask your Adobe Account Team to provision your account to use DSP.
+Erkundigen Sie sich bei Ihrem IMS-Organisationsadministrator, ob die von Ihnen verwendete E-Mail zur IMS-Organisation hinzugefügt wurde. Wenn der Administrator bestätigt, dass Sie zur IMS-Organisation hinzugefügt wurden, bitten Sie Ihr Adobe-Accountteam, Ihr Konto für die Verwendung von DSP bereitzustellen.
 
-In the meanwhile, you can continue to use your legacy DSP credentials.
+In der Zwischenzeit können Sie weiterhin Ihre alten DSP-Anmeldedaten verwenden.
 
-#### I signed in using an incorrect email address, which signed me into [!DNL Adobe] but doesn&#39;t provide DSP access.
+#### Ich habe mich mit einer falschen E-Mail-Adresse angemeldet, die mich bei [!DNL Adobe] angemeldet hat, aber keinen Zugriff auf DSP bietet.
 
-1. Go to [experience.adobe.com](https://experience.adobe.com) and sign out.
+1. Gehen Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich ab.
 
-1. Go to [advertising.adobe.com](https://advertising.adobe.com) and sign in with the correct email ID.
+1. Gehen Sie zu [advertising.adobe.com](https://advertising.adobe.com) und melden Sie sich mit der richtigen E-Mail-ID an.
 
-#### My [!DNL Adobe] IMS account and DSP account are registered with different emails. How do I sign in using my [!DNL Adobe] IMS account?
+#### Mein [!DNL Adobe] IMS- und DSP-Konto sind mit verschiedenen E-Mails registriert. Wie melde ich mich mit meinem [!DNL Adobe] IMS-Konto an?
 
 Bitten Sie Ihr Adobe Account Team, Ihr bestehendes [!DNL Adobe] IMS-Konto für die Verwendung von DSP bereitzustellen.
