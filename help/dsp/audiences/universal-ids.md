@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
 
-*Beta-Funktion*
-
 DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting von Einzelgeräten (nicht geräteübergreifend) in digitalen Formaten, die von DSP unterstützt werden.
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
 * DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+
+* Werbetreibende in Australien können First-Party-Segmente, die [!DNL AdFixus] universelle IDs enthalten, mithilfe einer [!UICONTROL AdFixus ID] Zielgruppenquelle importieren. DSP konvertiert nicht zwischen [!DNL AdFixus] IDs und anderen universellen ID-Typen. Siehe [Importieren von Erstanbietersegmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).“
 
 * Sie können benutzerdefinierte Segmente erstellen, die Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind und bestimmte Web-Seiten besuchen. ID5 verwendet ein probabilistisches Modell, um eine ID zuzuweisen, die aus verschiedenen Benutzersignalen und Browser-Signalen abgeleitet wird. Anweisungen finden Sie unter [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md).
 
@@ -64,7 +64,7 @@ Gehen Sie in einer neuen, geplanten oder pausierten Platzierung wie folgt vor:
 
 1. Gehen Sie im Abschnitt [!UICONTROL Audience Targeting] wie folgt vor:
 
-   1. Wählen Sie in der [!UICONTROL Included Audiences] das Segment aus, für das Benutzerdaten in universelle IDs konvertiert wurden.
+   1. Wählen Sie in der [!UICONTROL Included Audiences] das Segment aus, für das Benutzerdaten in universelle IDs (wie [!DNL RampIDs]- oder [!DNL UID2]-IDs) konvertiert wurden oder das importierte [!DNL AdFixus]-IDs enthält.
 
       Sie können bei Bedarf weitere Segmente einbeziehen.
 
@@ -72,7 +72,7 @@ Gehen Sie in einer neuen, geplanten oder pausierten Platzierung wie folgt vor:
 
       1. Wählen Sie den universellen ID-Typ für das Targeting aus.
 
-         Die Einstellung umfasst die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID]&quot;, die die Unteroptionen &quot;[!UICONTROL ID5]&quot;, &quot;[!UICONTROL RampID]&quot; und &quot;[!UICONTROL Unified ID2.0]&quot; enthalten können. Die ausgewählten geografischen Ziele bestimmen die verfügbaren Unteroptionen.
+         Die Einstellung umfasst die Optionen &quot;[!UICONTROL Legacy IDs]&quot; und &quot;[!UICONTROL Universal ID]&quot;, die die Unteroptionen &quot;[!UICONTROL AdFixus]&quot;, &quot;[!UICONTROL ID5]&quot;, &quot;[!UICONTROL RampID]&quot; und &quot;[!UICONTROL Unified ID2.0]&quot; enthalten können. Die ausgewählten geografischen Ziele bestimmen die verfügbaren Unteroptionen.
 
          Sie können sowohl &quot;[!UICONTROL Legacy IDs]&quot; als auch &quot;[!UICONTROL Universal ID]&quot; auswählen, aber Sie können nur einen universellen ID-Typ pro Platzierung auswählen. Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universelle IDs Vorrang für Gebote.
 
@@ -82,7 +82,7 @@ Gehen Sie in einer neuen, geplanten oder pausierten Platzierung wie folgt vor:
 
 Siehe &quot;[Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md).
 
-## Best Practices für Tests und Datenvalidierung
+## Best Practices für Tests und Datenvalidierung für [!DNL RampID] Segmente und ID5-basierte Segmente
 
 Verwenden Sie die folgenden Best Practices für [!DNL RampID] und ID5-basierte Segmente, für die Adobe Analytics-Messungen verfügbar sind.
 
@@ -140,13 +140,15 @@ Wenn Sie keine Benutzeranzahl sehen oder Ihre Zielgruppengrößen niedrig sind, 
 
 * Wenn Sie [!DNL Flashtalking] oder [!DNL Google Campaign Manager 360] Anzeigen verwenden, stellen Sie sicher, dass die Clickthrough-URLs Ihrer Anzeigen mit den richtigen Makros angehängt werden. Siehe Makros für [[!DNL Flashtalking] Anzeigen](/help/integrations/analytics/macros-flashtalking.md) und [[!DNL Google Campaign Manager 360] Anzeigen](/help/integrations/analytics/macros-google-campaign-manager.md).
 
-* Stellen Sie sicher, dass auf Ihrer Website der richtige, universelle Partner-spezifische ID-Code implementiert ist, um Ereignisse vor Ort und Anzeigen-Expositionen abzugleichen. Arbeiten Sie bei Bedarf mit Ihrem [!DNL LiveRamp] oder [!DNL ID5].
+* (Für [!DNL RampIDs]- und [!DNL UID 2.0]-IDs) Stellen Sie sicher, dass auf Ihrer Website der richtige, universelle ID-Partner-spezifische Code implementiert ist, um Ereignisse vor Ort und Werbegefährdungen abzugleichen. Arbeiten Sie bei Bedarf mit Ihrem [!DNL LiveRamp] oder [!DNL ID5].
 
 * (Für [!DNL RampIDs]- und [!DNL UID 2.0]-IDs) Stellen Sie sicher, dass Ihre [DSP-Datenquelle korrekt konfiguriert ist](/help/dsp/audiences/sources/source-manage.md#source-settings) und dass die Benutzerzahlen für die generierten Zielgruppensegmente ausgefüllt sind.
 
+* (Für [!DNL AdFixus]-IDs) Vergewissern Sie sich, dass Ihre [!UICONTROL AdFixus ID] korrekt konfiguriert ist und dass [!DNL AdFixus] Streaming-Segmente sind.
+
 * Wenn Sie weniger Reichweite haben als erwartet, stellen Sie sicher, dass die Logik des Zielgruppensegments nicht zu detailliert ist.
 
-* Stellen Sie sicher, dass Ihre Kampagnen-, Paket- und Platzierungseinstellungen korrekt sind.<!-- wording-->
+* Stellen Sie sicher, dass Ihre Kampagnen-, Paket- und Platzierungseinstellungen korrekt sind.
 
 Wenn Sie das Problem nicht beheben können, wenden Sie sich an Ihr Adobe Account Team.
 
@@ -156,5 +158,6 @@ Wenn Sie das Problem nicht beheben können, wenden Sie sich an Ihr Adobe Account
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md)
 >* [Erstellen und Implementieren eines benutzerdefinierten Segments](/help/dsp/audiences/custom-segment-create.md)
 >* [Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importieren von First-Party-Segmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -14,22 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 710
 ht-degree: 0%
 
 ---
 
 # Über First-Party-Zielgruppenquellen
 
-*Beta-Funktion*
+Mit der Funktion „Zielgruppenquelle“ können Sie Erstanbietersegmente, die universelle IDs enthalten, unverändert importieren oder in Segmente mit angegebenen universellen ID-Typen konvertieren:
 
-DSP kann First-Party-Segmente aufnehmen, die aus gehashten E-Mail-IDs, Cookies und Mobile-Advertising-IDs (MAIDs) bestehen, die in Ihrer Kundendatenplattform (CDP) erstellt wurden, und diese in Segmente konvertieren, die aus universellen IDs bestehen. Jede daraus resultierende ID ist personenbasiert, und die Begrenzung der Anzeigenfrequenz wird auf ID-Ebene angewendet<!-- Move that info. to somewhere else? -->.
+* Werbetreibende in Australien können First-Party-Segmente importieren, die bereits [!DNL AdFixus] universelle IDs enthalten.
 
-Zu den Segmentdetails gehören die Größe der einzelnen universellen ID-Typen sowie die Größe der einzelnen Gerätetypen, die von Cookies oder Geräte-IDs verfolgt werden.
+* DSP kann First-Party-Segmente aufnehmen, die aus gehashten E-Mail-IDs, Cookies und Mobile-Advertising-IDs (MAIDs) bestehen, die in zusätzlichen Kundendatenplattformen (CDPs) erstellt wurden, und diese in Segmente konvertieren, die aus [!DNL LiveRamp] [!DNL RampIDs]- und [!DNL Unified ID 2.0 (UID2.0)]-IDs bestehen.
 
-## Universelle ID-Typen {#universal-id-types}
+Für alle ID-Typen ist jede resultierende ID personenbasiert und die Begrenzung der Anzeigenfrequenz wird auf ID-Ebene angewendet<!-- Move that info. to somewhere else? -->. Zu den Segmentdetails gehören die Größe jedes universellen ID-Typs und die Größe für jeden Gerätetyp, der von Cookies oder Geräte-IDs verfolgt wird.
+
+## Universelle ID-Typen, in die Sie First-Party-Segmente übersetzen können {#universal-id-types}
 
 <!--
   Replace below with this once ID5 sources are possible 
@@ -40,7 +42,7 @@ Using your first-party data, you can create segments with IDs from the following
 
 -->
 
-Sie können Ihre Erstanbietersegmente in Segmente mit authentifizierten (deterministischen) IDs der folgenden universellen ID-Partner übersetzen.
+Sie können Ihre Erstanbietersegmente aus [!DNL ActionIQ], [!DNL Adobe] [!DNL Real-time CDP], [!DNL Amperity], [!DNL Optimizely] und [!DNL Tealium] in Segmente mit authentifizierten (deterministischen) IDs der folgenden universellen ID-Partner übersetzen.
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
@@ -84,6 +86,10 @@ DSP hat Connectoren zu den folgenden CDPs eingerichtet, um Ihre First-Party-Segm
 
 DSP kann auch mithilfe von Batch-, Streaming- oder API-basierter Datenfreigabe eine Verbindung zu beliebigen zusätzlichen CDPs herstellen. Wenden Sie sich zur Integration in eine neue CDP an Ihr Adobe-Account-Team.
 
+### [!DNL ActionIQ]
+
+Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL ActionIQ] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgruppengerechte Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+
 ### [!DNL Adobe Real-Time CDP]
 
 DSP ist ein integriertes *Ziel* für [die [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de), das Teil von Adobe Experience Platform ist.
@@ -92,9 +98,9 @@ In [!DNL Real-Time CDP] sind Ziele Verbindungen zu externen Datenplattformen, di
 
 Informationen dazu, wie DSP Ihre [!DNL Adobe] [!DNL Real-time CDP] Erstanbietersegmente aufnehmen und Ihre Hash-E-Mail-Adressen, Cookies und Mobile-Advertising-IDs in universelle IDs konvertieren kann, finden Sie unter &quot;[Konvertieren von Benutzer-IDs  [!DNL Adobe Real-Time CDP]  universelle IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md).
 
-### [!DNL ActionIQ]
+### [!DNL AdFixus]
 
-Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL ActionIQ] Kundendatenplattform mit DSP teilen, um Ihre gehashten E-Mail-Adressen in universelle IDs für zielgruppengerechte Werbung in DSP zu konvertieren. Diese Integration muss angepasst werden. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Australische Werbetreibende können die Advertising DSP-Integration mit [!DNL AdFixus] verwenden, um First-Party-Segmente zu importieren, die [!DNL AdFixus] universelle IDs enthalten. Dieser Pfad ist nicht mit der Übersetzung von Hash-E-Mail-IDs oder MAIDs innerhalb eines CDP-Connectors in [!DNL RampIDs] oder [!DNL UID2]-IDs identisch. Weitere Informationen finden Sie unter [Importieren von Erstanbietersegmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).
 
 ### [!DNL Amperity]
 
@@ -116,5 +122,6 @@ Sie können die First-Party-Daten Ihres Unternehmens über die [!DNL Tealium]-Ku
 >* [Konvertieren von Benutzer-IDs  [!DNL Amperity]  universelle IDs](/help/dsp/audiences/sources/source-amperity.md)
 >* [Konvertieren von Benutzer-IDs  [!DNL Optimizely]  universelle IDs](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Konvertieren von Benutzer-IDs  [!DNL Tealium]  universelle IDs](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importieren von First-Party-Segmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)
 >* [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md)

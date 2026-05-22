@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 >Um Benutzer-IDs aus Verbraucher-Opt-out-Kaufanfragen auf Ihrer Website zu verfolgen, erstellen Sie gemäß dem California Consumer Privacy Act (CCPA) ein [CCPA-Opt-out-Kaufsegment](ccpa-opt-out-segment-create.md).
 
 ## Voraussetzungen für Segmente zum Tracking von ID5-IDs
-
-*Beta-Funktion*
 
 * Bevor Sie ein Segment zum Tracking von Benutzern generieren, die mit ID5-IDs verknüpft sind, unterzeichnen Sie eine Vereinbarung mit [!DNL ID5] und erhalten Sie die Partner-ID Ihres Unternehmens. Wenden Sie sich an Ihr Adobe Account Team, um Anweisungen zu erhalten.
 
@@ -77,9 +75,11 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
    1. Klicken Sie auf **[!UICONTROL Advanced]** , um die erweiterten Einstellungen zu erweitern, und wählen Sie dann die Typen von Benutzerkennung aus, die das Segment-Tag nachverfolgt:
 
-      * *[!UICONTROL Cookies]:* (Standard) Das Segment-Tag verfolgt Cookies.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:* (Standard) Das Segment-Tag verfolgt Cookies.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* Das Segment-Tag verfolgt [!DNL ID5] IDs. Für Impressionen, die an universelle IDs gesendet werden, fallen keine Gebühren an.
 

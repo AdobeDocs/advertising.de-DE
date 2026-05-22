@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 595
 ht-degree: 0%
 
 ---
 
 # Konvertieren von Benutzer-IDs aus [!DNL Adobe Real-Time CDP] in universelle IDs
-
-*Beta-Funktion*
 
 Verwenden Sie die DSP-Integration mit [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de), die Teil von Adobe Experience Platform ist, um Ihre Benutzer-IDs - einschließlich Hash-E-Mail-Adressen, Cookies und IDs für mobile Werbung - in universelle IDs für zielgruppengerechte Werbung zu konvertieren.
 
