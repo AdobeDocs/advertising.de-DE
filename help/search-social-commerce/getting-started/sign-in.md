@@ -29,7 +29,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben für kurze Zeit aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
