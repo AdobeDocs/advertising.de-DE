@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: ed6138ad5c6d0eb7d51731ec65a1b545b537f633
+source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2298'
 ht-degree: 2%
 
 ---
@@ -123,11 +123,12 @@ ht-degree: 2%
          + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
       + Terminierte Berichte {#scheduled}
-         + [Über Berichte](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/report-about){target="_blank"}
          + [Ersteinrichtung von Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [Die für Berichte verwendeten Daten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
-         + Terminierte Berichte verwalten {#management}
-            + [Terminierte Berichte verwalten](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+         + [Terminierte Berichte verwalten](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+         + [Berichtsvorlagen verwalten](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [FTP-Zugriff auf Berichte](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + Geplante Berichtstypen {#report-types}
             + Allgemeine und erweiterte Berichte {#basic-advanced-reports}
                + [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
                + Allgemeine Berichtsformate {#basic-report-formats}
@@ -186,12 +187,9 @@ Unterstützung von Berichtsformaten {#assist-report-formats}
                   + [Die [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [Berichteinstellungen für die Modellgenauigkeit](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
-            + Automatisierung {#automation}
-               + [Berichtsvorlagen verwalten](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-               + [Verwalten von Tabellenbericht-Feeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-               + [FTP-Zugriff auf Berichte](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [Wie Attributionsregeln berechnet werden](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Häufig gestellte Fragen zu benutzerdefinierten Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [Verwalten von Tabellenbericht-Feeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [[!UICONTROL History Logs] anzeigen](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
