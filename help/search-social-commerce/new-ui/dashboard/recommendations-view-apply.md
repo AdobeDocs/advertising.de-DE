@@ -1,15 +1,15 @@
 ---
-title: Über die Unterstützung von Publisher-Empfehlungen und -Einblicken
+title: Unterstützung für Publisher-Empfehlungen und -Einblicke
 description: Erfahren Sie mehr über die Unterstützung zum Anzeigen und Verwalten von Publisher-Empfehlungen und -Einblicken.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# Über die Unterstützung von Publisher-Empfehlungen und -Einblicken
+# Unterstützung für Publisher-Empfehlungen und -Einblicke
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
@@ -27,7 +27,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
-  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![&#x200B; unten links auf &#x200B;](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
+  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![ unten links auf ](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
 
 * [!DNL Microsoft Advertising] Konten finden Sie in jedem in den letzten 30 Tagen generierten Performance insight für ein [!DNL Microsoft Advertising] Konto auf einen Blick. Insights bietet ähnliche Informationen wie Recommendations, jedoch in einem anderen Format. Jede insight enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des [!DNL Microsoft Advertising]-Editors, von dem aus Sie auf die spezifische insight reagieren können.
 
@@ -101,7 +101,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
 1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können [&#x200B; Empfehlungen &#x200B;](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
+   Sie können [ Empfehlungen ](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
 
 ### (Alte Benutzeroberfläche) Empfehlungen für Herausgeber anzeigen
 
@@ -113,7 +113,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
 1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können [&#x200B; Empfehlungen &#x200B;](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
+   Sie können [ Empfehlungen ](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
 
 ### (Neue Benutzeroberfläche) Anzeigen von Einblicken zur [!DNL Microsoft Advertising]
 
