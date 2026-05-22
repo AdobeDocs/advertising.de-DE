@@ -2,16 +2,14 @@
 title: Konvertieren von Benutzer-IDs  [!DNL ActionIQ]  universellen IDs
 description: Erfahren Sie, wie Sie DSP die Aufnahme  [!DNL ActionIQ]  Erstanbietersegmenten ermöglichen.
 feature: DSP Audiences
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
 # Konvertieren von Benutzer-IDs aus [!DNL ActionIQ] in universelle IDs
-
-*Beta-Funktion*
 
 Verwenden Sie die DSP-Integration mit der [!DNL ActionIQ]-Kundendatenplattform, um Ihre gehashten E-Mail-Adressen für zielgerichtete Werbung in universelle IDs zu konvertieren.
 
@@ -39,7 +37,7 @@ Segmente werden alle 24 Stunden aktualisiert.
 
 ## Fehlerbehebung
 
-Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[&#x200B; für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
+Informationen zur Fehlerbehebung bei Übersetzungsraten und Problemen mit der Benutzeranzahl finden Sie unter &quot;[ für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md).
 
 Wenden Sie sich zur Fehlerbehebung bei Konvertierungsproblemen an Ihr Adobe-Account-Team oder an `adcloud-support@adobe.com`.
 
