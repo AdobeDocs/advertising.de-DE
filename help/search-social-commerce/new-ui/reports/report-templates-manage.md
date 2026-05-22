@@ -2,9 +2,9 @@
 title: (Neue Benutzeroberfläche) Berichtsvorlagen verwalten
 description: Erfahren Sie, wie Sie wiederverwendbare Berichtsvorlagen für terminierte und On-Demand-Berichte erstellen, anzeigen, bearbeiten und löschen.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-* Um eine Vorlage auf der Registerkarte [!UICONTROL Latest Reports] oder der Registerkarte [!UICONTROL Templates] von Grund auf neu zu erstellen, erstellen Sie einen Bericht und aktivieren Sie die **[!UICONTROL Save as Template]**.
+   * Um eine Vorlage auf der Registerkarte [!UICONTROL Latest Reports] oder der Registerkarte [!UICONTROL Templates] von Grund auf neu zu erstellen, erstellen Sie einen Bericht und aktivieren Sie die **[!UICONTROL Save as Template]**.
 
-* So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
+   * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
 
-   1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+      1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-   1. Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage.
+      1. Führen Sie einen der folgenden Schritte aus:
 
-   1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Duplizieren](/help/search-social-commerce/assets/duplicate.png).
+         * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Duplicate]**.
 
-   1. (Optional) Benennen Sie die Vorlage um und bearbeiten Sie bei Bedarf die Berichteinstellungen.
+         * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf [Duplizieren](/help/search-social-commerce/assets/duplicate.png).
 
-      Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
+      1. (Optional) Benennen Sie die Vorlage um und bearbeiten Sie bei Bedarf die Berichteinstellungen.
 
-   1. Aktivieren Sie die **[!UICONTROL Save as Template]**.
+         Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
 
-   1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Aktivieren Sie die **[!UICONTROL Save as Template]**.
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 

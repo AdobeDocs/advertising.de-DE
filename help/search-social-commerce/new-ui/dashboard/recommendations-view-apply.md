@@ -1,15 +1,15 @@
 ---
-title: Über die Unterstützung von Publisher-Empfehlungen und -Einblicken
+title: Unterstützung für Publisher-Empfehlungen und -Einblicke
 description: Erfahren Sie mehr über die Unterstützung zum Anzeigen und Verwalten von Publisher-Empfehlungen und -Einblicken.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# Über die Unterstützung von Publisher-Empfehlungen und -Einblicken
+# Unterstützung für Publisher-Empfehlungen und -Einblicke
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
