@@ -16,7 +16,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1186
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Es werden zwei Arten von Attributionsmethoden unterstützt:
 
 Für erweiterte Berichte zur häuslichen Reichweite und Häufigkeit von Konversionen kann das [[!DNL Strategic Advertising Consulting] Team](/help/dsp/introduction/advanced-measurement-services.md) hochgradig anpassbare Berichte zusammen mit ganzheitlichen strategischen Empfehlungen bereitstellen. Weitere Informationen zu [!DNL Advanced Measurement Services] erhalten Sie von Ihrem Adobe Account Team.
 
-#### Warum sollte ich die Berichte [!DNL Advanced Measurement Services] und [!UICONTROL Household Reach & Frequency] verwenden, wenn ich [!UICONTROL Household Conversions] bereits verwende?
+#### Warum sollte ich die Berichte [!UICONTROL Household Reach & Frequency] und [!UICONTROL Household Conversions] verwenden, wenn ich [!DNL Advanced Measurement Services] bereits verwende?
 
 Die [!UICONTROL Household Reach & Frequency]- und [!UICONTROL Household Conversions] ermöglichen es Kunden, die Reichweite, Häufigkeit und Konversionsmetriken auf Haushaltsebene autonom in Echtzeit abzurufen.
 

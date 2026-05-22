@@ -53,7 +53,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Wenn Sie Zugriff auf mehrere IMS-Organisationen haben, wählen Sie oben rechts auf der Seite die richtige Organisation aus.
 
-## Von Adobe CX Enterprise aus mit einer [!DNL Adobe ID] anmelden
+## Melden Sie sich über eine [!DNL Adobe ID] bei Adobe CX Enterprise an
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
