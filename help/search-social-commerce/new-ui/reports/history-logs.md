@@ -17,7 +17,7 @@ Sie können zusätzliche Informationen zu den Verlaufsprotokollen des Werbetreib
 
 >[!NOTE]
 >
->Informationen zu Änderungen an Portfolios finden Sie [ der (Änderungshistorie des Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md).
+>Informationen zu Änderungen an Portfolios finden Sie [&#x200B; der (Änderungshistorie des Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md).
 
 ## [!UICONTROL History Logs] anzeigen {#history-logs-open}
 

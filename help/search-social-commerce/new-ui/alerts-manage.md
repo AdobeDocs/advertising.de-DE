@@ -61,7 +61,7 @@ Das [!UICONTROL Custom Alerts] enthält die [!UICONTROL Alert Templates], in der
 
 1. (Optional) Filtern Sie die Liste, um Warnhinweise für einen bestimmten Entitätstyp einzuschließen, oder suchen Sie im Vorlagennamen nach einer Textzeichenfolge. Bei Suchabfragen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-1. (Optional) Um alle Kriterien für eine Warnhinweisvorlage anzuzeigen, klicken Sie auf die Anzahl der Kriterien (z. B. ![Schaltfläche für benutzerdefinierte Warnhinweiskriterien ](/help/search-social-commerce/assets/custom-alert-criteria.png "Beispiel für benutzerdefinierte Warnhinweiskriterien").
+1. (Optional) Um alle Kriterien für eine Warnhinweisvorlage anzuzeigen, klicken Sie auf die Anzahl der Kriterien (z. B. ![Schaltfläche für benutzerdefinierte Warnhinweiskriterien &#x200B;](/help/search-social-commerce/assets/custom-alert-criteria.png "Beispiel für benutzerdefinierte Warnhinweiskriterien").
 
 ## Erstellen einer benutzerdefinierten Warnhinweisvorlage {#alert-template-create}
 
