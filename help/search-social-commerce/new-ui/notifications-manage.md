@@ -61,7 +61,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
       * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)-Netzwerkkonto zugreifen konnten.
 
-      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
+      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
 
       * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.<!-- Update link once file for new UI available-->
 
@@ -144,7 +144,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -170,7 +170,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
