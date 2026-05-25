@@ -4,9 +4,9 @@ user-guide-title: Handbuch für Advertising Search, Social und Commerce
 user-guide-description: In diesem Handbuch werden die wichtigsten Funktionen, Aufgaben, Einstellungen und anderen Ressourcen erläutert, die für Verwaltung, Optimierung und Reporting für Anzeigenkampagnen für Search, Social und Commerce erforderlich sind.
 breadcrumb-title: Handbuch für Advertising Search, Social und Commerce
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [Ersteinrichtung von Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [Die für Berichte verwendeten Daten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [Terminierte Berichte verwalten](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [Berichtsvorlagen verwalten](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [FTP-Zugriff auf Berichte](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + Geplante Berichtstypen {#report-types}
             + Allgemeine und erweiterte Berichte {#basic-advanced-reports}
                + [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,10 +185,12 @@ Unterstützung von Berichtsformaten {#assist-report-formats}
                   + [Die [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [Berichteinstellungen für die Modellgenauigkeit](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [Berichtsvorlagen verwalten](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [FTP-Zugriff auf Berichte](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [Wie Attributionsregeln berechnet werden](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Häufig gestellte Fragen zu benutzerdefinierten Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Verwalten von Tabellenbericht-Feeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [[!UICONTROL History Logs] anzeigen](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Änderungsprotokolle anzeigen](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Schlüsselwörter {#keywords}
@@ -208,6 +208,8 @@ Unterstützung von Berichtsformaten {#assist-report-formats}
          + Daten-Upload-Konten {#data-upload}
             + [Verwalten von Anzeigen-Netzwerkkonten für Daten-Uploads](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [&#x200B; [!DNL Naver]  nur für Tracking verwalten](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Verwalten benutzerdefinierter Warnhinweise](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [Verwalten von Benachrichtigungen](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Benutzerverwaltung](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracking {#tracking}
    + [Über das Tracking](/help/search-social-commerce/tracking/tracking-about.md)

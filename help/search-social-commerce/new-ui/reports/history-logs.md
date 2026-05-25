@@ -1,15 +1,15 @@
 ---
-title: (Neue Benutzeroberfläche) Anzeigen des [!UICONTROL History Logs]
+title: (Neue Benutzeroberfläche) Anzeigen von Änderungsprotokollen
 description: Erfahren Sie, wie Sie die letzten Änderungen am Advertiser-Konto anzeigen.
 feature: Search Reports
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Anzeigen des [!UICONTROL History Logs]
+# (Neue Benutzeroberfläche) Anzeigen von Änderungsprotokollen
 
 Der [!UICONTROL History Logs] enthält ein Protokoll der Änderungen, die in den letzten 31 Tagen am Advertiser-Konto vorgenommen wurden. Der Bericht kann Änderungen an den folgenden Objekttypen enthalten: Benutzer (Werbetreibende), Portfolios, Kampagnen, Anzeigengruppen, Anzeigen, Schlüsselwörter, Platzierungen und Produktziele. Sie können die Daten nach einer beliebigen Spalte sortieren und filtern.
 

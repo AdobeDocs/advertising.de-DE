@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +28,19 @@ ht-degree: 0%
 
 Jede Seite enthält das Hauptmenü sowie weitere aufgabenbasierte und informationsbasierte Menüs.
 
+Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) bestimmt die verfügbaren Optionen, einschließlich der in den einzelnen Ansichten verfügbaren Funktionen.
+
 ## Das Hauptmenü
 
-Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Hauptmenü, in dem die Aufgaben nach Arbeitsphase organisiert werden. Weitere Untermenüs und Optionen aus der veralteten Benutzeroberfläche werden später hinzugefügt.
+Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Hauptmenü, in dem die Aufgaben nach Arbeitsphase organisiert werden.
 
 ### Optionen im Hauptmenü
-
-Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) bestimmt die verfügbaren Optionen:
 
 * **[!UICONTROL Dashboard]** Untermenü:
 
    * **[!UICONTROL Overview]** Öffnet eine konfigurierbare [!UICONTROL Dashboard] mit Leistungsvisualisierungen für alle Ihre Portfolios.
 
    * **[!UICONTROL Recommendations]**: Öffnet eine schreibgeschützte Ansicht Ihrer Publisher-Recommendations aus [!DNL Google Ads] und [!DNL Microsoft Advertising] und Publisher-Insights aus [!DNL Microsoft Advertising.] Um Ihre Recommendations und Insights anzuzeigen und darauf zu reagieren, verwenden Sie die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
-
-   * **[!UICONTROL Alerts & Notifications]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
 * **[!UICONTROL Goals]** Untermenü:
 
@@ -64,7 +62,7 @@ Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#d
 
    * **[!UICONTROL Portfolios]:** Öffnet eine neue [!UICONTROL Portfolios], in der alle Portfolios für den Advertiser aufgelistet sind. Über diese Ansicht können Sie Ihre Portfolios verwalten. Sie können eine Liste der zugewiesenen Einschränkungen öffnen und Leistungs- und Kompositionsdetails für jedes Portfolio anzeigen.
 
-     Die Portfolioeinstellungen umfassen Registerkarten zum Zuweisen der Ziele und Kampagnen, Verwalten von Ausgaben, Verwalten von Einschränkungen und Steuern der Optimierung. Nur Benutzer mit der Rolle „Expertenoptimierung“ oder höher können die Einstellungen auf der Registerkarte &quot;[!UICONTROL Control Optimization]&quot; bearbeiten.
+     Die Portfolioeinstellungen umfassen Registerkarten zum Zuweisen der Ziele und Kampagnen, Verwalten von Ausgaben, Verwalten von Einschränkungen und Steuern der Optimierung. Nur Benutzer mit dem Profil „Expertenoptimierung“ oder höher können die Einstellungen auf der Registerkarte &quot;[!UICONTROL Control Optimization]&quot; bearbeiten.
 
    * **[!UICONTROL Campaigns]:** Öffnet eine neue [!UICONTROL Campaigns], die alle Kampagnen für den Werbetreibenden anzeigt. Sie können Kampagnen Portfolios zuweisen und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +80,19 @@ Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#d
 
    * **[!UICONTROL Insights]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Scheduled Reports]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Reports].
+   * **[!UICONTROL Scheduled Reports]**: Öffnet eine neue [!UICONTROL Scheduled Reports], in der Sie terminierte Berichte erstellen und verwalten können.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
+   * **[!UICONTROL Spreadsheet Feeds]**: Öffnet eine neue [!UICONTROL Spreadsheets Feeds], in der Sie Berichts-Feeds einrichten können, die täglich aktualisiert werden.
 
-   * **[!UICONTROL History Logs]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Change History].
+   * **[!UICONTROL History Logs]**: Öffnet eine neue [!UICONTROL History Logs] mit Details zu den letzten Änderungen am Advertiser-Konto.
 
    * **[!UICONTROL Label Classification]** Öffnet eine neue [!UICONTROL Label Classifications]. Sie können Klassifizierungen verwalten und die Zuweisung von Klassifizierungswerten zu allen entsprechenden Kontokomponenten aufheben, die in der neuen Benutzeroberfläche verfügbar sind.
 
-   * **[!UICONTROL Bulksheets]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Bulksheets].
-
 * **[!UICONTROL Target]** Untermenü:
 
-   * **[!UICONTROL Audiences]**: Öffnet eine neue [!UICONTROL Audiences], die alle vorhandenen Zielgruppen des Werbetreibenden, alle Zielgruppenziele und alle Zielgruppenausschlüsse anzeigt. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: Öffnet eine neue Ansicht, in der alle vorhandenen Zielgruppen des Werbetreibenden, alle Zielgruppenziele und alle Zielgruppenausschlüsse angezeigt werden. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Auto Targets]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der alle vorhandenen automatischen Targets für den Advertiser angezeigt werden. Um Ihre automatischen Ziele zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Keywords]** Öffnet eine neue [!UICONTROL Keywords], die für den Werbetreibenden vorhandene Keywords und negative Keywords anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Schlüsselwörter verwalten.
 
@@ -108,7 +104,7 @@ Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#d
 
 * **[!UICONTROL Assets]** Untermenü:
 
-   * **[!UICONTROL Creatives]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Creatives]** Öffnet eine neue Ansicht, in der Ihre vorhandenen Kreativ-Assets aufgelistet sind. Sie können jeden Kreativen in der Vorschau anzeigen. Um Ihre Asset-Bibliothek zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Asset Library] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Extensions]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Anzeigenerweiterungen. Um Ihre Erweiterungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
@@ -116,23 +112,19 @@ Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#d
 
 * **[!UICONTROL Set Up]** Untermenü:
 
-   * **[!UICONTROL Manager Accounts]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Admin] > [!UICONTROL Manager Accounts].
+   * **[!UICONTROL Manager Accounts]**: Öffnet eine neue Ansicht Ihrer bestehenden Manager-Konten und Ihrer Werbenetzwerke. Um Ihre Manager-Konten zu verwalten, verwenden Sie die Ansicht Legacy-[!UICONTROL Admin] > [!UICONTROL Manager Accounts] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Accounts]**: Öffnet eine neue [!UICONTROL Accounts]. Sie können Anzeigennetzwerkkonten verwalten, die über eine API-Verbindung synchronisiert oder über den Daten-Upload eingerichtet werden. Sie können auch vorhandene [!UICONTROL Naver] verwalten.
 
-   * **[!UICONTROL Import Campaigns]**: Beendet die neue Site und öffnet die Legacy-[!UICONTROL Tools] > [!UICONTROL Import Campaigns].
+   * **[!UICONTROL Import Campaigns]**: Öffnet eine neue Ansicht, aus der Sie Kampagnendaten importieren können.
+
+   * **[!UICONTROL Bulksheets]**: Öffnet eine neue [!UICONTROL Bulksheets].
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +160,13 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 * Der konfigurierbare Datumsbereich für die aktuelle Ansicht
 
-* ![Tour durch die Benutzeroberfläche](/help/search-social-commerce/assets/take-ui-tour.png "Tour durch die Benutzeroberfläche") Ein Link zu einer Tour durch die neue Benutzeroberfläche.
-
 * ![Zur alten Benutzeroberfläche wechseln](/help/search-social-commerce/assets/switch-to-old-ui.png "Zur alten Benutzeroberfläche wechseln") Öffnet die alte Benutzeroberfläche in einer neuen Registerkarte oder einem neuen Fenster.
+
+* ![Benutzerdefinierter Warnhinweis](/help/search-social-commerce/assets/custom-alert.png "Benutzerdefinierter Warnhinweis") Ermöglicht Ihnen, benutzerdefinierte Warnhinweise in einem Bedienfeld zu erstellen oder anzuzeigen.
 
 * ![Globaler Synchronisierungsstatus](/help/search-social-commerce/assets/global-sync-status.png "Globaler Synchronisierungsstatus") Öffnet eine Liste <!--what kind --> Massenvorgangsaufträge.
 
-* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications.png "Benachrichtigungen") Öffnet ein Bedienfeld, in dem Ihre Benachrichtigungen in den Bereichen Suche, Social und Commerce aufgelistet sind.
+* ![Benachrichtigungen](/help/search-social-commerce/assets/notifications.png "Benachrichtigungen") Öffnet ein Bedienfeld, in dem Ihre Benachrichtigungen in den Bereichen Suche, Social und Commerce aufgelistet sind. Sie können die Liste filtern, Ihre Benachrichtigungseinstellungen bearbeiten oder [!UICONTROL Notification Center] öffnen
 
 ## Alte Benutzeroberfläche
 
