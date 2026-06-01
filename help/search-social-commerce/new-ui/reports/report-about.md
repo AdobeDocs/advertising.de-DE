@@ -2,8 +2,15 @@
 title: (Neue Benutzeroberfläche) Informationen zu terminierten Berichten
 description: Erfahren Sie mehr über geplante Leistungsberichte, einschließlich der verschiedenen verfügbaren Berichtstypen und der Automatisierung von Berichten.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: ff99aaef-142d-4c93-a88c-011e979e3843id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
 source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
 workflow-type: tm+mt
 source-wordcount: 857
@@ -35,7 +42,7 @@ Die folgenden Berichtskategorien sind in der [!UICONTROL Scheduled Reports] verf
 
 Sie können benutzerdefinierte Berichte so planen, dass sie automatisch auf eine oder beide der folgenden Arten generiert werden:
 
-* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [ Monat](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
+* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [&#x200B; Monat](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
 
   Optional können Sie die [FTP-Bereitstellung von einfachen und erweiterten Berichten](/help/search-social-commerce/new-ui/reports/ftp-reports.md) die eine Vorlage verwenden, einrichten.
 
