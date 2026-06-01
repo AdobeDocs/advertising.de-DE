@@ -1,19 +1,19 @@
 ---
-title: Verfügbare Funktionen zum Verwalten von Konversionsmetriken
+title: (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 description: Erfahren Sie mehr über die verschiedenen Funktionen, die zum Verwalten von Konversionsmetriken verfügbar sind.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Verfügbare Funktionen zum Verwalten von Konversionsmetriken
+# (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 
 In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende Möglichkeiten:
 
-* [Generieren eines Adobe Advertising-Konversionsverfolgungs-Tags](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Generieren eines Adobe Advertising-Konversionsverfolgungs-Tags](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Für alle für einen Advertiser nachverfolgten Konversionsmetriken:
 
@@ -27,4 +27,4 @@ In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende 
 
 * Erstellen Sie Konversionsaktionen für [!DNL Google Ads] erweiterten Konversionen für Leads, die für einzelne [!DNL Google Ads] verfolgt werden sollen.
 
-* Laden Sie Offline-Konversionsdaten von Erstanbietern hoch, um sie Ihren vorhandenen [[!DNL Google Ads] erweiterten Konversionen für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* Laden Sie Offline-Konversionsdaten von Erstanbietern hoch, um sie Ihren vorhandenen [[!DNL Google Ads] erweiterten Konversionen für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) und [[!DNL Microsoft Advertising] erweiterten Konversionen) ](https://help.ads.microsoft.com/#apex/ads/en/60178).

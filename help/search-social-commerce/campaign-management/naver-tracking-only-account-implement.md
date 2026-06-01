@@ -4,14 +4,10 @@ description: Erfahren Sie, wie Sie Tracking-Kampagnen für Ihre  [!DNL Naver]  e
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -62,13 +58,13 @@ Sie können Leistungsmetriken für all Ihre Kampagnen und für jede einzelne Kam
 
    Im Folgenden finden Sie ein Beispiel für die Ziel-URL mit -Tracking:
 
-   ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
+   `http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com`
 
    1. Kopieren Sie die [!UICONTROL Destination URL] Werte in der heruntergeladenen Bulksheet-Datei in die relevanten Keyword-Einstellungen im Netzwerk.
 
       Sie können die URLs zu den entsprechenden Entitäten hinzufügen, indem Sie die Datei im Editor des Anzeigennetzwerks in das Netzwerk hochladen. In diesem Fall müssen Sie je nach den Datenanforderungen des Netzwerks möglicherweise einige Spalten entfernen. Andernfalls müssen Sie die URLs manuell im Netzwerk eingeben.
 
-1. Laden Sie regelmäßig Klick- und Kostendaten herunter, die täglich aus dem Anzeigennetzwerk für die Keywords oder Markenanzeigen auf Anzeigengruppenebene aggregiert werden, die Sie nachverfolgen, und [laden Sie die Klick- und Kostendaten &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) „Suche“, „Social“ und &quot;Commerce&quot; im [&#x200B; Format &#x200B;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
+1. Laden Sie regelmäßig Klick- und Kostendaten herunter, die täglich aus dem Anzeigennetzwerk für die Keywords oder Markenanzeigen auf Anzeigengruppenebene aggregiert werden, die Sie nachverfolgen, und [laden Sie die Klick- und Kostendaten ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) „Suche“, „Social“ und &quot;Commerce&quot; im [ Format ](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
    Schließen Sie die vollständige Kontenhierarchie und alle Metriken ein, die Sie einbeziehen möchten. Search, Social und Commerce stimmen die hochgeladenen Daten mit den Daten in bestehenden Kampagnen überein.
 
@@ -76,7 +72,7 @@ Sie können Leistungsmetriken für all Ihre Kampagnen und für jede einzelne Kam
 
    Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Search, Social, & Commerce], [!UICONTROL Campaigns], [!UICONTROL Campaigns] und [!UICONTROL Accounts] unter [!UICONTROL Campaigns] > [!UICONTROL Ad Groups] > [!UICONTROL Keywords] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
+Alle hochgeladenen Tracking-Daten sind in den Ansichten [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] verfügbar. Er ist auch für Berichte in der [!UICONTROL Insights & Reports] verfügbar.
 
 >[!MORELIKETHIS]
 >

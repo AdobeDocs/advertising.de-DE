@@ -4,16 +4,12 @@ description: Erfahren Sie, wo Sie auf verschiedene Funktionen zugreifen können.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +42,11 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
    * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** Öffnet eine neue Ansicht, in der Sie die Konversionsmetriken eines Advertisers anzeigen und die Metriken anpassen können, die für Verwaltungsansichten und -berichte verfügbar sind.
 
-* **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Öffnet eine neue Ansicht zum Anzeigen und Verwalten von Konversionswertregeln auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten.
 
-* **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** Untermenü:
 
@@ -200,7 +196,7 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * ![Warnhinweise](/help/search-social-commerce/assets/notifications-panel.png "Warnhinweise") Ein Bedienfeld, in dem Ihre Benachrichtigungen zu Suche, Social und Commerce aufgelistet sind.
 
-  Wenn Sie über Adobe CX Enterprise[&#x200B; angemeldet sind](sign-in.md) werden in diesem Bedienfeld Ihre Benachrichtigungen von CX Enterprise angezeigt.
+  Wenn Sie über Adobe CX Enterprise[ angemeldet sind](sign-in.md) werden in diesem Bedienfeld Ihre Benachrichtigungen von CX Enterprise angezeigt.
 
 * ![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü") Ein Hilfemenü mit Links zu Dokumentationen und anderen Informationen.
 
@@ -208,7 +204,7 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * ![Benutzerprofil](/help/search-social-commerce/assets/user-profile.png "Benutzerprofil") Ein Link zu Ihrem Profil, über den Sie sich abmelden können.
 
-  Wenn Sie über [&#x200B; CX Enterprise](sign-in.md) angemeldet sind, können Sie auch Ihr CX Enterprise-Profil bearbeiten, einschließlich Ihres CX Enterprise-Kennworts und Ihrer Benachrichtigungseinstellungen.
+  Wenn Sie über [ CX Enterprise](sign-in.md) angemeldet sind, können Sie auch Ihr CX Enterprise-Profil bearbeiten, einschließlich Ihres CX Enterprise-Kennworts und Ihrer Benachrichtigungseinstellungen.
 
 >[!MORELIKETHIS]
 >

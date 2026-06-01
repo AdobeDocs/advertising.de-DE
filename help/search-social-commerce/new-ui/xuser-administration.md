@@ -3,21 +3,20 @@ title: (Neue Benutzeroberfläche) Benutzerverwaltung
 description: Erfahren Sie, wie Sie den Benutzerzugriff verwalten.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
+TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
 product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
 
 # (Neue Benutzeroberfläche) Benutzerverwaltung für Suche, Social und Commerce
 
-Einige Benutzende können den Zugriff auf die neue Benutzeroberfläche für Suche, Social und Commerce mithilfe von [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) verwalten. Dies ist der zentrale Speicherort für die Verwaltung aller Adobe-Berechtigungen und die Benutzerverwaltung. Benutzer werden entweder als Endbenutzer oder als Administratoren kategorisiert. Ihr Adobe-Konto-Team benachrichtigt Sie, wenn Sie ein Administrator sind. Wenn Sie Administrator sind, finden Sie in den folgenden Abschnitten Informationen zu Ihren Berechtigungen und Workflows für die Benutzerverwaltung.
+Einige Benutzende können den Zugriff auf die neue Benutzeroberfläche für Suche, Social und Commerce mithilfe von [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) verwalten. Dies ist der zentrale Speicherort für die Verwaltung aller Adobe-Berechtigungen und die Benutzerverwaltung. Benutzer werden entweder als Endbenutzer oder als Administratoren kategorisiert. Ihr Adobe-Konto-Team benachrichtigt Sie, wenn Sie Administrator sind. Wenn Sie Administrator sind, finden Sie in den folgenden Abschnitten Informationen zu Ihren Berechtigungen und Workflows für die Benutzerverwaltung.
 
 ## Typen von Admins
 
@@ -39,95 +38,53 @@ Produktprofile, die Rollen ähnlich sind, geben Benutzern die Berechtigung mit b
 
 Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die folgenden Standardproduktprofile, die verschiedene Untergruppen von Funktionen und Services bereitstellen. Sie können die Produktberechtigungen für die Standardproduktprofile nicht bearbeiten oder die Standardproduktprofile löschen. Produktadministrierende, Produktprofiladministrierende und Systemadministrierende können jedoch bei Bedarf zusätzliche Produktprofile mit verschiedenen Untergruppen verfügbarer Berechtigungen erstellen und verwalten.
 
-* **[!UICONTROL Basic Optimization]:** Für Benutzer, die standardmäßige Portfolioverwaltungs- und Planungsfunktionen mit grundlegenden Zugriffseinstellungen benötigen.
+* **[!UICONTROL Basic Optimization]:** Dieses Profil bietet die folgenden Funktionen:
 
-* **[!UICONTROL Expert Optimization]:** Für Power-User, die vollen Zugriff auf Portfolioeinstellungen einschließlich erweiterter Steuerelemente auf Expertenebene benötigen. Umfasst alle Berechtigungen für Leistungsplanung, Zielsetzung, Kampagne, Einrichtung und Berichtsverwaltung.
+   * [!UICONTROL Objectives]: Vollständiger Zugriff
 
-* **[!UICONTROL Read-Only Optimization]:** Für Benutzer, die Einblick in Portfolios, Simulationen und Kampagnen benötigen, ohne Funktionen zum Bearbeiten oder Erstellen.
+   * [!UICONTROL Simulations]: Vollständiger Zugriff
 
-* **[!UICONTROL \[Optimization\] Admin]:** Gewährt vollen Zugriff auf alle verfügbaren Funktionen und ermöglicht Benutzern das Erstellen neuer Client-Instanzen (wie alte Advertiser-Konten mit einer oder mehreren Instanzen pro Organisations-ID). Weisen Sie dieses Recht niemandem zu, es sei denn, Sie haben eine ordnungsgemäße geschäftliche Begründung.
+   * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
 
-### Funktionalität pro Produktprofil
+   * [!UICONTROL Portfolios]: Erstellen/Bearbeiten des Zugriffs auf Portfolioeinstellungen für [!UICONTROL Objectives], [!UICONTROL Campaigns] und [!UICONTROL Management]; Nur-Lese-Zugriff auf die verbleibenden Portfolioeinstellungen.
 
-<!-- These don't correspond exactly to the GUI menu -->
+   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf Kampagneneinstellungen (Funktionen zum Erstellen, Bearbeiten oder Löschen sind nicht verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
-Ein Häkchen (✓) bedeutet, dass die Berechtigung im Produktprofil enthalten ist.
+   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf Anzeigengruppeneinstellungen (es sind keine Funktionen zum Erstellen, Bearbeiten oder Löschen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
-**Portfolio-Verwaltung**
+  Diese Zugriffsebene wird für Benutzende bevorzugt, die noch lernen, Search, Social und Commerce zu verwenden.
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Portfolios anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Portfolio-Einstellungen anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Anzeigen von Portfolio-Leistungsdetails | ✓ | ✓ | ✓ | ✓ |
-| Portfolio-Gruppen anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Portfolio-Gruppen bearbeiten | ✓ | ✓ | | ✓ |
-| Bearbeiten grundlegender Portfolio-Einstellungen | ✓ | | | |
-| Expert Portfolio-Einstellungen bearbeiten | | ✓ | | ✓ |
+* **[!UICONTROL Expert Optimization]:** Dieses Profil bietet die folgenden Funktionen:
 
-<!--
-Noone has permissions as of 6/1; spelling [sic]:
-| Edit Advance Portfolio Settings | | | | |
--->
+   * [!UICONTROL Objectives]: Vollständiger Zugriff
 
-**Performance Planning Management**
+   * [!UICONTROL Simulations]: Vollständiger Zugriff
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Simulation anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Erstellen einer Simulation | ✓ | ✓ | | ✓ |
-| Ausgabenempfehlungen anzeigen | | ✓ | | ✓ |
-| Anwenden von Ausgabenempfehlungen | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
 
-**Zielverwaltung**
+   * [!UICONTROL Portfolios]: Vollständiger Zugriff
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Ziel anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Ziel bearbeiten | ✓ | ✓ | | ✓ |
-| Konversionswertregeln anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Bearbeiten von Konversionswertregeln | | ✓ | | ✓ |
-| Konversionen anzeigen | | ✓ | | ✓ |
-| Konversionen bearbeiten | | ✓ | | ✓ |
-| Sichtbarkeit der Konversionen anzeigen | | ✓ | | ✓ |
+   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf die Kampagnenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen
 
-**Kampagnenverwaltung**
+   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf die Anzeigengruppenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Anzeigen von Kampagnen | ✓ | ✓ | ✓ | ✓ |
-| Bearbeiten von Kampagnen | ✓ | ✓ | | ✓ |
-| Anzeigen-Gruppen anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Anzeigengruppen bearbeiten | ✓ | ✓ | | ✓ |
-| Anzeigen-Ansicht | ✓ | ✓ | ✓ | ✓ |
-| Anzeigen bearbeiten | | ✓ | | ✓ |
-| Keywords-Ansicht | ✓ | ✓ | ✓ | ✓ |
-| Zielgruppenansicht | ✓ | ✓ | ✓ | ✓ |
-| Ansicht „Automatische Ziele“ | ✓ | ✓ | ✓ | ✓ |
-| Kreativ-Ansicht | ✓ | ✓ | ✓ | ✓ |
-| Erweiterungsansicht | ✓ | ✓ | ✓ | ✓ |
-| Klassifizierungsansicht für Titel | ✓ | ✓ | ✓ | ✓ |
-| Platzierungen anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Recommendations-Ansicht | ✓ | ✓ | ✓ | ✓ |
-| Anzeigen von Bulksheets | | ✓ | | ✓ |
-| Bulksheets bearbeiten | ✓ | ✓ | ✓ | ✓ |
+  Diese Zugriffsebene wird für erfahrene Benutzer von Search, Social und Commerce empfohlen.
 
-**Berichtverwaltung**
+* **[!UICONTROL Read-Only]:** Dieses Profil bietet die folgenden Funktionen:
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Verlaufsprotokolle anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Geplante Berichte anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Geplante Berichte bearbeiten | | ✓ | | ✓ |
+   * [!UICONTROL Objectives]: Nur-Lese-Zugriff
 
-**Setup-Verwaltung**
+   * [!UICONTROL Simulations]: Nur-Lese-Zugriff
 
-| Erlaubnis | Einfach | Experte | Schreibgeschützt | Administrator |
-|---|---|---|---|---|
-| Konto anzeigen | ✓ | ✓ | ✓ | ✓ |
-| Konto bearbeiten | | ✓ | | ✓ |
-| MCC-Konten anzeigen | ✓ | ✓ | ✓ | ✓ |
-| MCC-Konten bearbeiten | | ✓ | | ✓ |
+   * [!UICONTROL Portfolio Groups]: Nur-Lese-Zugriff
+
+   * [!UICONTROL Portfolios]: Nur-Lese-Zugriff
+
+   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff
+
+   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff
+
+* **[!UICONTROL Admin]:** Dieses Profil gewährt vollen Zugriff auf alle verfügbaren Funktionen und ermöglicht Benutzern das Erstellen neuer Client-Instanzen (wie veraltete Advertiser-Konten mit einer oder mehreren Instanzen pro Organisations-ID). Weisen Sie dieses Recht niemandem zu, es sei denn, Sie haben eine ordnungsgemäße geschäftliche Begründung.
 
 ## Aufgaben für Administratoren
 
