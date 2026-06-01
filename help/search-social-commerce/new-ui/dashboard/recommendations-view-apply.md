@@ -2,7 +2,7 @@
 title: Unterstützung für Publisher-Empfehlungen und -Einblicke
 description: Erfahren Sie mehr über die Unterstützung zum Anzeigen und Verwalten von Publisher-Empfehlungen und -Einblicken.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
   ![Recommendations-Benutzeroberfläche](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations-Benutzeroberfläche")
 
-  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![&#x200B; unten links auf &#x200B;](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
+  Die Daten sind beim Öffnen der Ansicht in Echtzeit verfügbar. Um die Daten zu aktualisieren, klicken ![ unten links auf ](/help/search-social-commerce/assets/refresh.png " Seite ")Aktualisieren/Aktualisieren“.
 
 * [!DNL Microsoft Advertising] Konten finden Sie in jedem in den letzten 30 Tagen generierten Performance insight für ein [!DNL Microsoft Advertising] Konto auf einen Blick. Insights bietet ähnliche Informationen wie Recommendations, jedoch in einem anderen Format. Jede insight enthält das Datum, eine Beschreibung des Problems, die betroffene Entität, die Grundursache (die Links zu weiteren Details enthalten kann) und die vorgeschlagene Aktion mit einem Link zum Öffnen des [!DNL Microsoft Advertising]-Editors, von dem aus Sie auf die spezifische insight reagieren können.
 
@@ -101,7 +101,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
 1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können [&#x200B; Empfehlungen &#x200B;](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
+   Sie können [ Empfehlungen ](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
 
 ### (Alte Benutzeroberfläche) Empfehlungen für Herausgeber anzeigen
 
@@ -113,7 +113,7 @@ Innerhalb von (neue Benutzeroberfläche) [!UICONTROL Dashboard] > [!UICONTROL Re
 
 1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können [&#x200B; Empfehlungen &#x200B;](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
+   Sie können [ Empfehlungen ](#recommendations-apply-dismiss) Werbenetzwerks optional anwenden oder ablehnen.
 
 ### (Neue Benutzeroberfläche) Anzeigen von Einblicken zur [!DNL Microsoft Advertising]
 
@@ -237,14 +237,3 @@ Abgelehnte Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 | [!UICONTROL Measurement] | Empfehlungen für Konversionsverfolgung und Zertifizierung | Nicht verfügbar in Search, Social und Commerce. | Diese Empfehlungen können sich auf die Leistung auswirken. Besprechen Sie die Vor- und Nachteile einer Empfehlung mit Ihrem Adobe Account Team, bevor Sie sie anwenden. |
 | [!UICONTROL Repairs] | Verschiedene Empfehlungen zur Verbesserung von Kontoproblemen | Nicht verfügbar in Search, Social und Commerce. | Überprüfen Sie in [!DNL Google Ads] regelmäßig manuell die Reparaturempfehlungen. Dieser Empfehlungstyp ist eine gute Möglichkeit, missbilligte Anzeigen, Feed-Probleme, Tracking-Probleme usw. zu identifizieren. |
 | [!UICONTROL Other] | Empfehlung zur Verwendung der [!DNL Google Ads] Mobile App | Nicht verfügbar in Search, Social und Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
