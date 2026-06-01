@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [Über die neue Benutzeroberfläche](/help/search-social-commerce/new-ui/new-ui-about.md)
    + Dashboard {#dashboard}
       + [Anzeigen des Leistungs-Dashboards](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [Unterstützung für Publisher-Empfehlungen und -Einblicke](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + Ziele {#goals}
       + Ziele {#objectives}
          + [Über Ziele](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Berichte {#reports}
       + Terminierte Berichte {#scheduled}
-         + [Ersteinrichtung von Berichten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [Die für Berichte verwendeten Daten](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [Über terminierte Berichte](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [Ersteinrichtung von Berichten](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [Die für Berichte verwendeten Daten](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [Terminierte Berichte verwalten](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + Geplante Berichtstypen {#report-types}
             + Allgemeine und erweiterte Berichte {#basic-advanced-reports}

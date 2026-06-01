@@ -2,7 +2,7 @@
 title: Unterstützung für Publisher-Empfehlungen und -Einblicke
 description: Erfahren Sie mehr über die Unterstützung zum Anzeigen und Verwalten von Publisher-Empfehlungen und -Einblicken.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ Abgelehnte Empfehlungen sind nicht im Werbenetzwerk verfügbar.
 | [!UICONTROL Measurement] | Empfehlungen für Konversionsverfolgung und Zertifizierung | Nicht verfügbar in Search, Social und Commerce. | Diese Empfehlungen können sich auf die Leistung auswirken. Besprechen Sie die Vor- und Nachteile einer Empfehlung mit Ihrem Adobe Account Team, bevor Sie sie anwenden. |
 | [!UICONTROL Repairs] | Verschiedene Empfehlungen zur Verbesserung von Kontoproblemen | Nicht verfügbar in Search, Social und Commerce. | Überprüfen Sie in [!DNL Google Ads] regelmäßig manuell die Reparaturempfehlungen. Dieser Empfehlungstyp ist eine gute Möglichkeit, missbilligte Anzeigen, Feed-Probleme, Tracking-Probleme usw. zu identifizieren. |
 | [!UICONTROL Other] | Empfehlung zur Verwendung der [!DNL Google Ads] Mobile App | Nicht verfügbar in Search, Social und Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
