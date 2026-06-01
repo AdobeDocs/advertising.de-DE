@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: 207
 ht-degree: 0%
 
 ---
 
 # Über die neue Benutzeroberfläche
 
-Über die neue Benutzeroberfläche können Sie jetzt Ihre Ziele, Simulationen und Portfolios verwalten und viele andere Aufgaben ausführen. Die neue Benutzeroberfläche für Search, Social und Commerce wird unter einer neuen URL innerhalb der Domain https://experience.adobe.com ausgeführt.
+Über die neue Benutzeroberfläche können Sie jetzt Ihre Ziele, Simulationen und Portfolios verwalten und viele andere Aufgaben ausführen. Die neue Benutzeroberfläche für Search, Social und Commerce wird unter einer neuen URL innerhalb der `https://experience.adobe.com` Domain ausgeführt.
 
 Im Laufe der Zeit werden die verbleibenden Funktionen zur neuen Benutzeroberfläche hinzugefügt. In der Zwischenzeit können Sie die meisten Funktionen in der alten Benutzeroberfläche über das Hauptmenü in der neuen Benutzeroberfläche öffnen. Sie können auch einfach zwischen der neuen Benutzeroberfläche und der veralteten Benutzeroberfläche wechseln.
 

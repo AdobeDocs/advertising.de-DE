@@ -2,9 +2,14 @@
 title: (Neue Benutzeroberfläche) Regeln  [!DNL Google Ads]  Konversionswerte verwalten
 description: Erfahren Sie, wie Sie Konversionswertregeln  [!DNL Google Ads]  Search, Social und Commerce anzeigen und verwalten können.
 feature: Conversions
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: 1844
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Einige Konten können ihre Konversionswertregeln verwalten:
 
 * In Konten, für die Konversionen auf individueller Konto- oder Kampagnenebene verfolgt werden, können Sie [Erstellen](#google-conversion-value-rule-create), [Bearbeiten](#google-conversion-value-rule-edit) und [Status &#x200B;](#google-conversion-value-rule-change-status) Regeln auf Konto- und Kampagnenebene ändern.
 
-  Die Konten können zwar mit [!DNL Google Ads] Manager-Konten verknüpft werden, sie können jedoch kein kontenübergreifendes Konversions-Tracking verwenden (bei dem Konversionen über alle Konten im Manager-Konto hinweg verfolgt werden).
+  Die Konten können zwar mit [[!DNL Google Ads] Manager-Konten](/help/search-social-commerce/new-ui/) verknüpft werden, sie können jedoch kein kontenübergreifendes Konversions-Tracking verwenden (bei dem Konversionen über alle Konten im Manager-Konto hinweg verfolgt werden).
 
 * In Konten, die das kontenübergreifende Konversionstracking verwenden, werden die Regeln auf Konto- und Kampagnenebene vom Manager-Konto übernommen und sind schreibgeschützt.
 

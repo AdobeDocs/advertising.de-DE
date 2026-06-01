@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
    * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** Öffnet eine neue Ansicht, in der Sie die Konversionsmetriken eines Advertisers anzeigen und die Metriken anpassen können, die für Verwaltungsansichten und -berichte verfügbar sind.
 
-* **[!UICONTROL Conversion Value Rules]** Öffnet schreibgeschützte Ansichten Ihrer Konversionswertregeln auf Kampagnenebene und Kontoebene. Um Ihre Konversionswertregeln zu verwalten, verwenden Sie die Legacy-Ansicht [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Öffnet eine neue Ansicht zum Anzeigen und Verwalten von Konversionswertregeln auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten.
 
-* **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Plan]** Untermenü:
 

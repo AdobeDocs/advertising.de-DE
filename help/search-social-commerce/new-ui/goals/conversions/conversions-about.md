@@ -1,15 +1,15 @@
 ---
-title: Verfügbare Funktionen zum Verwalten von Konversionsmetriken
+title: (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 description: Erfahren Sie mehr über die verschiedenen Funktionen, die zum Verwalten von Konversionsmetriken verfügbar sind.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Verfügbare Funktionen zum Verwalten von Konversionsmetriken
+# (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 
 In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende Möglichkeiten:
 

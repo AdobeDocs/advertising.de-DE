@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -40,7 +40,7 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
    1. Fügen Sie den folgenden Parameter Ihren Web-Seiten vor oder innerhalb des [JavaScript-Codes hinzu, der für erforderlich ist [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - an einer beliebigen Stelle, bevor der letzte Ereignisdienst initialisiert wird.
 
-      ```window.id5PartnerId=ID5_PartnerID;```
+      `window.id5PartnerId=ID5_PartnerID;`
 
       Beispiel:
 
@@ -101,11 +101,11 @@ Sie können Ihre eigenen First-Party-Zielgruppendaten erfassen, indem Sie ein be
 
             Wenn beispielsweise Ihre ID5-Partner-ID `abcde` ist und das generierte Segment-Tag lautet
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             Ersetzen Sie dann `ID5_PARTNER_ID` durch `abcde` innerhalb des -Tags, um Folgendes zu erhalten:
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             Ihre Organisation hat die Partner-ID erhalten, als sie eine Vereinbarung mit [!DNL ID5] unterzeichnet hat. Wenn Sie Ihre Partner-ID nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
 
