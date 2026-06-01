@@ -2,9 +2,13 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
 source-wordcount: 937
@@ -28,11 +32,11 @@ Zu den verfügbaren Metriken gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert ](/help/integrations/customer-journey-analytics/overview.md).
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
 
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
-* ([ Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
+* ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
 * Konversionen aus benutzerdefinierten Feeds.
 
@@ -62,7 +66,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
