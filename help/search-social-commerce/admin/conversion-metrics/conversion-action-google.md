@@ -4,15 +4,12 @@ description: Erfahren Sie, wie Sie eine  [!DNL Google Ads]  für eine erweiterte
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: 876
 ht-degree: 0%
 
 ---
@@ -23,11 +20,83 @@ Nur *[!DNL Google Ads]Konten*
 
 Sie können Konversionsaktionen für [!DNL Google Ads] erweiterten Konversionen für Leads erstellen, die für einzelne [!DNL Google Ads] verfolgt werden sollen, und nicht für Konversionen, die auf der Ebene eines Manager-Kontos verfolgt werden.
 
+Nachdem Sie die Konversionsaktion erstellt und ein Konversionsverfolgungs-Tag implementiert haben, können Sie die von Ihrem Unternehmen erfassten Offline-Konversionsdaten hochladen und der Konversionsaktion zuordnen.
+
+## (Neue Benutzeroberfläche) Erstellen einer Konversionsaktion
+
+*Beta-Funktion*
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Set up Conversion]**.
+
+1. Geben Sie die [Einstellungen für Konversionsaktionen](#conversion-action-settings-google) an.
+
+   1. Wählen Sie die [!UICONTROL Setup Method] *[!UICONTROL Create Conversion]* aus.
+
+   1. Wählen Sie das Konto und dann den Konvertierungstyp aus: *[!UICONTROL Import conversion]*.
+
+   1. Klicken Sie auf **[!UICONTROL Next]**.
+
+   1. Geben Sie die Optionen für die Konvertierungsaktion an.
+
+   1. Klicken Sie auf **[!UICONTROL Review and Save]** , um die Einstellungen zu überprüfen.
+
+   1. Klicken Sie auf **[!UICONTROL Generate]**.
+
+1. Lesen Sie die Informationen zum Erstellen eines Tracking-Tags für die erweiterte Konversion für Leads, und klicken Sie dann auf **[!UICONTROL Next]**.
+
+   Sie müssen das Konversions-Tag erstellen und es nach Bedarf auf den Websites implementieren, von denen aus Sie die Konversionsmetrik verfolgen möchten. Außerdem müssen Sie erweiterte Konversionen für Leads aktivieren und den Nutzungsbedingungen für Kundendaten zustimmen. Anweisungen finden Sie in den [!DNL Google Ads] Anweisungen zu &quot;[Konfigurieren des  [!DNL Google]  für erweiterte Konversionen für Leads](https://support.google.com/google-ads/answer/11021502)&quot;.
+
+   Wenn Sie transaktionsspezifische Konversionswerte verfolgen möchten, passen Sie [Ihr Ereignis-Snippet an](https://support.google.com/google-ads/answer/6095947).
+
+1. Klicken Sie auf **[!UICONTROL Close].**
+
+### Einstellungen für Konversionsaktionen {#conversion-action-settings-google}
+
+#### Abschnitt „Einrichtungspfad“
+
+**[!UICONTROL Setup Method]:** Der Aktionstyp: *[!UICONTROL Create Conversion]*
+
+**[!UICONTROL Platform]:** Das Werbenetzwerk: *[!UICONTROL Google]*.
+
+#### Abschnitt „Konversionsdetails“
+
+**[!UICONTROL Select Account]:** Das entsprechende [!DNL Google Ads].
+
+**[!UICONTROL Type of conversions]:** Der Typ der nachzuverfolgenden Konversion: *[!UICONTROL Import conversion]* auswählen. Alle anderen Typen werden verwendet, um Konversionsverfolgungstags (keine Konversionsaktionen) für andere Konversionstypen zu erstellen.
+
+#### Abschnitt Konvertierungseinstellungen
+
+**[!UICONTROL Conversion Name]:** Ein eindeutiger Name für die Konvertierungsaktion.
+
+**[!UICONTROL Goal Category]:** Die Konversionskategorie, wie *Qualifizierter Lead* oder *Anmeldung*.
+
+**[!UICONTROL Preferred Action optimization]:** Ob das Ziel ein *[!UICONTROL Primary action used for bidding optimization]* oder ein *[!UICONTROL Secondary action not used for bidding optimization]* ist.
+
+**[!UICONTROL Conversion Value]:** Messen des [Werts jeder Konversion](https://support.google.com/google-ads/answer/13064207):
+
+* *[!UICONTROL Use the same value for each conversion],*. Dazu müssen Sie eine Währung auswählen und den Wert für jede Konvertierung eingeben.
+
+* *[!UICONTROL Use different values for each conversion],*. Dazu müssen Sie eine Währung auswählen und für jede Konvertierung einen Standardwert eingeben. Sie können den Standardwert im -Tag in einen transaktionsspezifischen Wert ändern, wenn Sie das Tag auf einer bestimmten Web-Seite implementieren.
+
+* *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
+
+**[!UICONTROL Count]:** [Anzahl der pro Klick oder Interaktion zu zählenden Konversionen](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* oder *[!UICONTROL One (Recommended for leads, sign-ups and other conversions for which only the first interaction is valuable)]*.
+
+**[!UICONTROL Click-Through Conversion Window]:** Die maximale Anzahl von Tagen nach einer Anzeigeninteraktion, für die Konversionen aufgezeichnet werden. Für Kampagnen zum Suchen, Anzeigen und Einkaufen kann das Fenster 1 bis 90 Tage lang sein. Wählen Sie eine Zahl aus oder klicken Sie auf **[!UICONTROL Custom]** und geben Sie eine Zahl ein.
+
+**[!UICONTROL View-Through Conversion Window]:** Die maximale Anzahl von Tagen, nachdem ein Benutzer Ihre Anzeigen angesehen hat, für die View-Through-Konversionen aufgezeichnet werden. Für Kampagnen zum Suchen, Anzeigen und Einkaufen kann das Fenster 1 bis 90 Tage lang sein. Wählen Sie eine Zahl aus oder klicken Sie auf **[!UICONTROL Custom]** und geben Sie eine Zahl ein.
+
+**[!UICONTROL Attribution Model]:** [Das Attributionsmodell, das bestimmt, wie viel Kredit jede Anzeigeninteraktion erhält](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* oder *[!UICONTROL Last click]*.
+
+## (Alte Benutzeroberfläche) Erstellen einer Konversionsaktion
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**. Dadurch wird die Registerkarte **[!UICONTROL Summary]** geöffnet.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Erstellen](/help/search-social-commerce/assets/add.png "Erstellen").
 
-1. Geben Sie die [Einstellungen für Konversionsaktionen](#conversion-action-settings-google) an.
+1. Geben Sie die [Einstellungen für Konversionsaktionen](#conversion-action-settings-google-legacy) an.
 
    1. Wählen Sie das Konto und dann den Konvertierungstyp aus: *[!UICONTROL Import conversion]*.
 
@@ -47,9 +116,7 @@ Sie können Konversionsaktionen für [!DNL Google Ads] erweiterten Konversionen 
 
 1. Klicken Sie auf **[!UICONTROL Done].**
 
-Nachdem Sie die Konversionsaktion erstellt und ein Konversionsverfolgungs-Tag implementiert haben, können Sie die von Ihrem Unternehmen erfassten Offline-Konversionsdaten hochladen und der Konversionsaktion zuordnen. Siehe [Hochladen von Offline-Konversionsdaten für erweiterte Konversionen](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md).
-
-## Einstellungen für Konversionsaktionen {#conversion-action-settings-google}
+### Einstellungen für Konversionsaktionen {#conversion-action-settings-google-legacy}
 
 **[!UICONTROL Select an Account]:** Das entsprechende [!DNL Google Ads].
 
