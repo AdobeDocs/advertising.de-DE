@@ -2,9 +2,14 @@
 title: (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 description: Erfahren Sie mehr über die verschiedenen Funktionen, die zum Verwalten von Konversionsmetriken verfügbar sind.
 feature: Conversions
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -13,7 +18,7 @@ ht-degree: 0%
 
 In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende Möglichkeiten:
 
-* [Generieren eines Adobe Advertising-Konversionsverfolgungs-Tags](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Erstellen eines Adobe Advertising-Konversionsverfolgungs-Tags](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
 
 * Für alle für einen Advertiser nachverfolgten Konversionsmetriken:
 
@@ -25,6 +30,6 @@ In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende 
 
    * [Herunterladen von Leistungsdaten für Konversionen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions).
 
-* Erstellen Sie Konversionsaktionen für [!DNL Google Ads] erweiterten Konversionen für Leads, die für einzelne [!DNL Google Ads] verfolgt werden sollen.
+* [Erstellen von Konversionsaktionen für  [!DNL Google Ads]  Konversionen für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) die für einzelne [!DNL Google Ads] verfolgt werden sollen.
 
-* Laden Sie Offline-Konversionsdaten von Erstanbietern hoch, um sie Ihren vorhandenen [[!DNL Google Ads] erweiterten Konversionen für Leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
