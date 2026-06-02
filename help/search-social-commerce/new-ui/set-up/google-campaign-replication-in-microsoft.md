@@ -74,7 +74,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
 
-1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ ](#campaign-import-settings).
+1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ &#x200B;](#campaign-import-settings).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem - [!DNL Go
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
 source-wordcount: 977
@@ -89,7 +91,7 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
      Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der ](#campaign-import-log) [[!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
