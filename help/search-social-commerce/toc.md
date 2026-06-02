@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: 2354
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 2%
             + [Erstellen einer Konvertierungsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [Hochladen von Offline-Konversionsdaten für erweiterte Konversionen](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [Verwalten [!DNL Google Ads] Konversionswertregeln](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+      + [Verwalten von Einschränkungen für Suchangebotseinheiten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + Plan {#plan}
       + [Über Simulationen](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [Benutzerdefinierte Simulation ausführen oder erneut ausführen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)

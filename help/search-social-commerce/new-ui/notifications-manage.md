@@ -2,9 +2,9 @@
 title: (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
 description: Erfahren Sie, wie Sie Search-, Social- und Commerce-Benachrichtigungen, einschließlich Push-Benachrichtigungen und die Web-Anwendung des Benachrichtigungszentrums, anzeigen, konfigurieren und verwalten.
 feature: Search Notifications
-source-git-commit: 000ed245b2ea3381e4ca8fcbdd2d6075d50f4b09
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Zu den Entitätszuweisungen gehören die Zuweisung eines [Kennzeichnungswerts](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und die Zuweisung oder Aufhebung der Zuweisung einer Einschränkung zu einem Portfolio.
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
    * [!UICONTROL Data Upload]
 
