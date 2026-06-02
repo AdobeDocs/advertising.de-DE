@@ -8,14 +8,18 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 0%
 
 ---
 
 # Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]
+
+>[!NOTE]
+>
+>Anweisungen für diese Aufgabe in der neuen Benutzeroberfläche finden Sie unter „(Neue Benutzeroberfläche) [Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md).
 
 Sie können synchronisierte Kampagnen in einem [!DNL Google Ads]-Konto direkt in ein synchronisiertes [!DNL Microsoft Advertising]-Konto als erweiterte CPC(eCPC)-Kampagnen exportieren. Die vorhandenen Angebote und Kampagnenbudgets werden skaliert. Vorhandenes Tracking für Suche, Social Media und Commerce wird nicht importiert.
 
@@ -87,7 +91,7 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
      Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log) auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
