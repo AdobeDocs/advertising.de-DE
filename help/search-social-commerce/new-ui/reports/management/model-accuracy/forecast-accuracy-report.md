@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Erfahren Sie mehr über den Prognosegenauigkeitsbericht, einschließlich der Datenspalten.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Sie können Daten der vorherigen 18 Monate anzeigen.
 >
 >* Bei Kostenprognosen gilt eine Abweichung von 10 % in den letzten sieben Tagen als akzeptabel, sodass tatsächliche Ausgaben zwischen 90 % und 110 % der prognostizierten Ausgaben in Ordnung sind. Bei Einnahmenprognosen gilt eine Abweichung von 15 % in den letzten sieben Tagen als akzeptabel, sodass tatsächliche Einnahmen zwischen 85 % und 115 % der prognostizierten Ausgaben in Ordnung sind. Prognosen mit höheren Abweichungen sollten untersucht werden.
 >
->* Wenn Schlüsselwörter im Portfolio mit Einschränkungen der Angebotsverschiebung verknüpft sind, gibt das Portfolio um den durch die Angebotsverschiebung verursachten Gesamtbetrag zu viel oder zu wenig aus. Infolgedessen weichen die prognostizierten Kostenspalten durch die Erhöhung oder Verringerung der Ausgaben von der Zielvorgabe ab.
+>* Wenn Schlüsselwörter im Portfolio mit Begrenzungen für [Bid-Shift](/help/search-social-commerce/new-ui/goals/constraints-manage.md) verknüpft sind, wird das Portfolio um den durch die Bid-Verschiebung verursachten Gesamtbetrag über- oder unterschritten. Infolgedessen weichen die prognostizierten Kostenspalten durch die Erhöhung oder Verringerung der Ausgaben von der Zielvorgabe ab.
 
 ## Verfügbare Spalten
 

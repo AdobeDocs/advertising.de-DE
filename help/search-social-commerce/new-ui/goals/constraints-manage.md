@@ -2,9 +2,9 @@
 title: Verwalten von Einschränkungen für Suchangebotseinheiten
 description: Erfahren Sie mehr über Einschränkungen zum Beschränken von Geboten für Gebotseinheiten in CPC-Kampagnen in alten Portfolios auf Keyword-Ebene.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Gilt nur für Gebotseinheiten in CPC-Kampagnen in alten Portfolios auf Keyword-Ebene*
 
-Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=de) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
+Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
 
 ## Über Einschränkungen
 
@@ -28,8 +28,8 @@ Nachdem Sie eine Begrenzung eingerichtet haben, können Sie sie bestimmten Gebot
 >[!NOTE]
 >
 >* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in hybriden Portfolios befinden, sich in aktiven Portfolios befinden oder nicht in Portfolios sind. **Tipp:** Aktivieren Sie in den Portfolioeinstellungen die Option „Portfolio-Beschränkungen automatisch anpassen“. Der empfohlene Wert für „Mehrere“ ist „1“.
-> * Angebotsbeschränkungen werden bei Gebotseinheiten ignoriert, die nicht über genügend Daten verfügen, um Kosten- und Umsatzmodelle zu generieren.
->* (Kampagnen mit einer CPC- oder eCPC-Bid-Strategie) Wenn eine Bid-Beschränkung mit einem Bid-Limit auf Portfolioebene in Konflikt steht, überschreibt die Beschränkung die Beschränkung auf Portfolioebene. Wenn beispielsweise das Mindestgebot eines Portfolios 5 USD beträgt, Sie aber eine Gebotseinheit im Portfolio auf ein Mindestgebot von 3 USD beschränken, wird die Gebotseinheit auf 3 USD oder mehr geboten. Die Gesamtausgaben für begrenzte Gebotseinheiten werden jedoch durch den [&#x200B; „Spend Around Constraints“ des Portfolios &#x200B;](#spend-around-constraints).
+>* Angebotsbeschränkungen werden bei Gebotseinheiten ignoriert, die nicht über genügend Daten verfügen, um Kosten- und Umsatzmodelle zu generieren.
+>* (Kampagnen mit einer CPC- oder eCPC-Bid-Strategie) Wenn eine Bid-Beschränkung mit einem Bid-Limit auf Portfolioebene in Konflikt steht, überschreibt die Beschränkung die Beschränkung auf Portfolioebene. Wenn beispielsweise das Mindestgebot eines Portfolios 5 USD beträgt, Sie aber eine Gebotseinheit im Portfolio auf ein Mindestgebot von 3 USD beschränken, wird die Gebotseinheit auf 3 USD oder mehr geboten. Die Gesamtausgaben für begrenzte Gebotseinheiten werden jedoch durch den [ „Spend Around Constraints“ des Portfolios ](#spend-around-constraints).
 >* Beschränkungen gelten für das Basisgebot. Jede Art von Angebotsanpassung am Basisangebot (z. B. Anhebung des Angebots für Endbenutzer auf Mobilgeräten) kann dazu führen, dass das Angebot außerhalb des für die Einschränkung zulässigen Bereichs liegt. Wenn die Einschränkung beispielsweise eine maximale CPC von 6 USD erfordert, das Basisgebot bereits 6 USD beträgt und das Portfolio die Angebotsanpassungen für Mobilgeräte automatisch mit 50 %-60 % optimiert, beträgt die maximale CPC 9,00-9,60 USD - nicht 6 USD.
 
 ### Einschränkungstypen {#constraint-types}
@@ -58,9 +58,9 @@ Einige Gründe für die Beschränkung von Gebotseinheiten sind:
 
 ### Anzeigen von Informationen zu Einschränkungen in der Benutzeroberfläche
 
-Neben dem Öffnen der [[!UICONTROL Constraints] können &#x200B;](#constraints-view) Informationen zu Ihren Einschränkungen auf folgende Weise anzeigen:
+Neben dem Öffnen der [[!UICONTROL Constraints] können ](#constraints-view) Informationen zu Ihren Einschränkungen auf folgende Weise anzeigen:
 
-* All Ihre Einschränkungen sind Kennzeichnungswerte für eine einzelne [Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=de) genannt &quot;[!UICONTROL Constraints]&quot;.
+* All Ihre Einschränkungen sind Kennzeichnungswerte für eine einzelne [Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) genannt &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; ist in der Liste &quot;[!UICONTROL Classifications]&quot; in Ihren standardmäßigen und benutzerdefinierten Ansichtseinstellungen sowie in terminierten Berichten enthalten. Sie können die Spalte dort hinzufügen, wo Sie die den entsprechenden Entitäten zugewiesenen Einschränkungen anzeigen möchten.
 
@@ -84,9 +84,9 @@ Die Ansicht [!UICONTROL Goals] > [!UICONTROL Constraints] listet alle Ihre Einsc
 
 #### Verfügbare Aktionen
 
-* [Erstellen einer &#x200B;](#constraint-create).
+* [Erstellen einer ](#constraint-create).
 
-* [Bearbeiten von &#x200B;](#constraint-edit).
+* [Bearbeiten von ](#constraint-edit).
 
 * [Ändern des Status von Einschränkungen](#constraint-change-status).
 
@@ -104,7 +104,7 @@ Die Ansicht [!UICONTROL Goals] > [!UICONTROL Constraints] listet alle Ihre Einsc
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Nachdem Sie eine Einschränkung erstellt haben, können [&#x200B; sie &#x200B;](#constraint-assign) Kampagnen, Anzeigengruppen, Keywords, Platzierungen und Produktgruppen auf Einheitenebene zuweisen.
+Nachdem Sie eine Einschränkung erstellt haben, können [ sie ](#constraint-assign) Kampagnen, Anzeigengruppen, Keywords, Platzierungen und Produktgruppen auf Einheitenebene zuweisen.
 
 ## Einschränkungseinstellungen bearbeiten {#constraint-edit}
 
@@ -166,25 +166,24 @@ Sie können auch eine Einschränkung löschen, wodurch alle Verknüpfungen mit K
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] Einschränkungen) Verwendet das erforderliche Mindestgebot, um eine Gebotseinheit auf der ersten Seite der Suchergebnisse in Google anzuzeigen ([!UICONTROL Google First Page CPC]). Geben Sie optional einen **[!UICONTROL Min Bid]** und/oder einen **[!UICONTROL Max Bid]** ein, um den Bereich der geeigneten Gebote für die Beschränkung zu definieren. Wenn Sie beispielsweise einen [!UICONTROL Min Bid] von 2,50 USD und einen [!UICONTROL Max Bid] von 4 USD angeben, bieten Sie nicht auf der Gebotseinheit, wenn das Gebot für die [!DNL Google Ads] erste Seite unter 2,50 USD oder über 4 USD liegt. |
 | | [!UICONTROL Set constraint options for Impression Share] | (Nur [!UICONTROL Impression Share] Einschränkungen) Zu den Einstellungen gehören:<ul><li>**[!UICONTROL Min Bid]** (Optional) Das Mindestbasisgebot für die zugehörigen Gebotseinheiten.</li><li>**[!UICONTROL Max Bid]:** (Optional) Das maximale Basisgebot für zugehörige Gebotseinheiten.</li><li>**[!UICONTROL Min Impression Share]:** Der niedrigste Impressionsanteil, ausgedrückt in Prozent, der die Begrenzung für die entsprechenden Gebotseinheiten Trigger. Es muss zwischen 10 und 90 sein. **Hinweis:** Wenn die Einschränkung nicht kosteneffizient ist, kann sie von der Optimierungsfunktion überschrieben werden.</li><li>**[!UICONTROL Max Impression Share]:** Der höchste Impression-Anteil, in Prozent, der die Begrenzung für die entsprechenden Gebotseinheiten Trigger. Er muss zwischen 10 und 90 liegen.**Hinweis:** Wenn die Einschränkung nicht kosteneffizient ist, kann sie von der Optimierungsfunktion überschrieben werden.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | Ob Bedingungen auf die Einschränkung angewendet werden sollen:<ul><li>*[!UICONTROL No Condition]:* (Standard) Die Einschränkung wird während des angegebenen Datumsbereichs bedingungslos angewendet.</li><li>*[!UICONTROL Satisfy]:* Die Einschränkung wird nur angewendet, wenn bestimmte Bedingungen während eines bestimmten Datenauswertungszeitraums erfüllt sind.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (Wenn Bedingungen festgelegt sind) Der Zeitraum, für den Daten für die angegebenen Kriterien bewertet werden sollen. Wenn Sie *[!UICONTROL Custom date range],**&#x200B; auswählen, geben Sie den &#x200B;** [!UICONTROL Start Date] **&#x200B; und die &#x200B;** [!UICONTROL End Date]** an, indem Sie jedes Datum im `MM-DD-YYYY` Format eingeben (z. B. 03-29-2026 für den 29. März 2026) oder indem Sie ![Kalenderschaltfläche](/help/search-social-commerce/assets/calendar-new.png "Kalenderschaltfläche") klicken, um den Kalender zu öffnen und jedes Datum auszuwählen. |
+| | [!UICONTROL Data Evaluation Period] | (Wenn Bedingungen festgelegt sind) Der Zeitraum, für den Daten für die angegebenen Kriterien bewertet werden sollen. Wenn Sie *[!UICONTROL Custom date range],** auswählen, geben Sie den **[!UICONTROL Start Date]** und die **[!UICONTROL End Date]** an, indem Sie jedes Datum im `MM-DD-YYYY` Format eingeben (z. B. 03-29-2026 für den 29. März 2026) oder indem Sie ![Kalenderschaltfläche](/help/search-social-commerce/assets/calendar-new.png "Kalenderschaltfläche") klicken, um den Kalender zu öffnen und jedes Datum auszuwählen. |
 | | [!UICONTROL When to Apply Constraints] | (Wenn Bedingungen festgelegt sind) Wie viele Filterbedingungen müssen erfüllt sein, damit die Einschränkung angewendet wird:<ul><li>*[!UICONTROL Match All Filters]:* Wendet die Einschränkung an, wenn jede angegebene Filterbedingung erfüllt ist.</li><li>*[!UICONTROL Match Any Filters]:* Wendet die Einschränkung an, wenn mindestens eine der angegebenen Filterbedingungen erfüllt ist.</li></ul> |
 | | [!UICONTROL Filters] | (Wenn Bedingungen festgelegt sind) Ein oder mehrere Kriterien, die erfüllt sein müssen. Um einen Filter zu erstellen, wählen Sie eine Eigenschaft oder Metrik aus der Liste aus. Wählen Sie für Eigenschaften (z. B. [!UICONTROL Channel Type]) die entsprechenden Werte in der Liste aus. Wählen Sie für Metriken (z. B. [!UICONTROL Clicks]) einen Operator aus und geben Sie dann den entsprechenden Wert ein. Um beispielsweise nur Gebotseinheiten mit mehr als 100 Klicks zurückzugeben, wählen Sie **Klicks**, wählen Sie **größer als** aus und geben Sie dann `100` in das Eingabefeld ein.</li></ul> |
 
 ## Zuweisen von Einschränkungen zu Suchangebotseinheiten {#constraint-assign}
 
-Sie können Einschränkungen für Gebotseinheiten auf jede Kampagne, Anzeigengruppe, jedes Keyword, jede Platzierung, jede Shopping-Produktgruppe auf Einheitenebene (die niedrigste Ebene der Unterteilung) oder auf dynamische Suchziele anwenden.
+Sie können Einschränkungen für Gebotseinheiten auf jede Kampagne, jede Anzeigengruppe, jedes Keyword, jede Platzierung oder jedes dynamische Suchziel (automatisches Targeting) anwenden.
 
 Jede Entität kann nur eine Einschränkung aufweisen. Sie können einer oder mehreren Entitäten gleichzeitig eine einzelne Einschränkung zuweisen.
 
 >[!NOTE]
 >
->Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Öffnen Sie im Hauptmenü die entsprechende Verwaltungsansicht.
 
    Um beispielsweise Begrenzungen auf Kampagnenebene zuzuweisen, navigieren Sie zu [!UICONTROL Manage] > [!UICONTROL Campaigns].
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. (Optional) Filtern Sie die Liste [aus der Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) oder aus einer [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -198,7 +197,10 @@ Jede Entität kann nur eine Einschränkung aufweisen. Sie können einer oder meh
 
 ## Zuweisung von Einschränkungen zu Suchangebotseinheiten aufheben {#constraints-unassign}
 
-**Hinweis:** Sie eine Einschränkung löschen und für die zukünftige Verwendung nicht verfügbar machen, finden Sie weitere Informationen unter [Ändern des Status von Einschränkungen](#constraint-change-status).
+>[!NOTE]
+>
+>* Informationen zum Löschen einer Einschränkung, sodass sie für die zukünftige Verwendung nicht mehr verfügbar ist, finden Sie unter [Ändern des Status von Einschränkungen](#constraint-change-status).
+>* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Öffnen Sie im Hauptmenü die entsprechende Verwaltungsansicht.
 
