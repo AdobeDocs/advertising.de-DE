@@ -2,8 +2,11 @@
 title: (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 description: Erfahren Sie mehr über die verschiedenen Funktionen, die zum Verwalten von Konversionsmetriken verfügbar sind.
 feature: Conversions
-feature_v2: id: e6916c1b-e939-4e0b-99f5-768e83e1e99fid: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
 source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
 source-wordcount: 114
@@ -29,4 +32,4 @@ In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende 
 
 * [Erstellen von Konversionsaktionen für  [!DNL Google Ads]  Konversionen für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) die für einzelne [!DNL Google Ads] verfolgt werden sollen.
 
-* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) ](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
