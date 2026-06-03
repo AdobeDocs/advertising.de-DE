@@ -4,30 +4,20 @@ description: Voraussetzungen und wichtige Informationen für die Implementierung
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
 TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # Voraussetzungen und wichtige Informationen für die Implementierung von [!DNL Analytics for Advertising]
 
-*Werbetreibende mit Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
+*Werbetreibende mit Advertising Creative, Advertising DSP und Advertising Search, Social und Commerce*
 
 Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Analytics integrieren.
 
@@ -56,51 +46,51 @@ Stellen Sie dem Adobe Advertising-Implementierungsteam Folgendes bereit:
 * Die [!DNL Analytics] Report Suite-ID, die für das Reporting über Paid-Media-Aktivitäten und für den Feed der Site-Aktivität für die Optimierung und Berichterstellung in Adobe Advertising verwendet werden soll
 * Die CX Enterprise-Organisations-ID (Organisations-ID) des Unternehmens.
 
-Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de).
+Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Zusammenfassungsbildschirm des Experience Platform-Debuggers](/help/integrations/assets/a4adc-debugger-summary.png)
 
-## [!DNL Analytics] Data in Adobe Advertising {#lookback-a4adc}
+## [!DNL Analytics] von Daten in Adobe Advertising {#lookback-a4adc}
 
-Because [!DNL Analytics] data is sent to Adobe Advertising for reporting and optimization, the data is subject to the attribution rules, including the impression and click lookback windows, that are configured for the advertiser in Adobe Advertising.
+Da [!DNL Analytics] Daten zum Reporting und zur Optimierung an Adobe Advertising gesendet werden, unterliegen die Daten den Attributionsregeln, einschließlich der Impression- und Klick-Lookback-Fenster, die für den Advertiser in Adobe Advertising konfiguriert sind.
 
-![advertiser-level lookback window settings in Adobe Advertising](/help/integrations/assets/a4adc-lookbacks.png)
+![Einstellungen für Lookback-Fenster auf Advertiser-Ebene in Adobe Advertising](/help/integrations/assets/a4adc-lookbacks.png)
 
-* Adobe Advertising attribution click lookback window: The number of days after the first click occurs in which the click can be attributed to a conversion. By default, this value is 60 days; the maximum is 90 days
-* Adobe Advertising attribution impression lookback window: The number of days after an ad impression occurs in which the impression can be attributed to a conversion. By default, this value is 14 days; the maximum is 30 days
+* Adobe Advertising Attribution Click Lookback-Fenster: Die Anzahl der Tage nach dem ersten Klick, in denen der Klick einer Konversion zugeordnet werden kann. Standardmäßig beträgt dieser Wert 60 Tage, der Höchstwert 90 Tage
+* Adobe Advertising Attribution Impression Lookback-Fenster: Die Anzahl der Tage nach dem Auftreten einer Anzeigenimpression, in denen die Impression einer Konversion zugeordnet werden kann. Standardmäßig ist dieser Wert 14 Tage, der Höchstwert 30 Tage
 
   >[!NOTE]
   >
-  > The impression lookback window is specific to Adobe Advertising, not [!DNL Analytics for Advertising], reporting.
+  > Das Impression-Lookback-Fenster ist spezifisch für Adobe Advertising-Berichte, nicht für [!DNL Analytics for Advertising].
 
-The [!DNL Analytics for Advertising] JavaScript uses these settings to determine how far back to consider a view-through entry or click-through entry to the site as valid. For more information about how view-throughs and click-throughs are determined, see &quot;[Adobe Advertising IDs used by Analytics](ids.md).&quot;
+Die [!DNL Analytics for Advertising] JavaScript verwendet diese Einstellungen, um zu bestimmen, wie weit ein Viewthrough-Eintrag oder ein Clickthrough-Eintrag zur Website zurückreicht, um ihn als gültig zu betrachten. Weitere Informationen dazu, wie Durchsichten und Clickthroughs ermittelt werden, finden Sie unter [Von Analytics verwendete Adobe Advertising-IDs](ids.md).
 
-## Adobe Advertising data in [!DNL Analytics]
+## Adobe Advertising-Daten in [!DNL Analytics]
 
-[!DNL Analytics] sets Adobe Advertising IDs (AMO IDs) within the Analytics hit, subject to the advertiser&#39;s [!DNL eVar] persistence setting, which applies to both click-throughs and view-throughs. The persistence setting is configured on the Adobe Advertising back end, and your Adobe Account Team can change it.
+[!DNL Analytics] legt Adobe Advertising-IDs (AMO-IDs) im Analytics-Treffer fest, abhängig von der [!DNL eVar] Persistenzeinstellung des Werbetreibenden, die sowohl für Clickthroughs als auch für View-Throughs gilt. Die Persistenzeinstellung wird im Adobe Advertising-Backend konfiguriert und kann von Ihrem Adobe-Konto-Team geändert werden.
 
-* [!DNL Analytics for Advertising] [!DNL eVar] expiration: 60 days by default for AMO IDs
+* Ablauf der [!DNL Analytics for Advertising]-[!DNL eVar]: Standardmäßig 60 Tage für AMO-IDs
 
 >[!NOTE]
 >
->To segment data for a different timeframe, you can [set up custom segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) with different lookback windows within Analysis Workspace.
+>Um Daten für einen anderen Zeitrahmen zu segmentieren, können Sie [benutzerdefinierte Segmente einrichten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) mit verschiedenen Lookback-Fenstern in Analysis Workspace.
 
-## Supported ad environments
+## Unterstützte Anzeigenumgebungen
 
-* Search
-* Display
+* Suche
+* Anzeige
 * Video
-* Online Video
+* Online-Video
 * Connected TV
-* Native
+* Nativ
 
-Contact your Adobe Account Team for the latest supported ad environments in each channel.
+Wenden Sie sich an Ihr Adobe-Accountteam , um die neuesten unterstützten Anzeigenumgebungen für die einzelnen Kanäle zu erhalten.
 
-## Things to know before you implement
+## Was Sie vor der Implementierung wissen sollten
 
-* The Adobe Advertising implementation team sets up the integration.
+* Das Adobe Advertising-Implementierungsteam richtet die Integration ein.
 
-* No additional costs are billed for this integration, nor do server calls result in additional [!DNL Analytics] or Adobe Advertising fees.
+* Für diese Integration werden keine zusätzlichen Kosten in Rechnung gestellt. Auch führen Server-Aufrufe nicht zu zusätzlichen [!DNL Analytics] oder Adobe Advertising-Gebühren.
 
 * [!DNL Analytics for Advertising] ist Server-unabhängig von Anzeigen: Ein Viewthrough oder ein Clickthrough kann von jedem Anzeigen-Server aus auftreten, und die richtigen IDs werden bei der Site-Eingabe generiert.
 
@@ -126,7 +116,7 @@ Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Für eine präzise Datenintegration müssen alle Adobe Advertising-Aufrufe, die von einer [!DNL Analytics for Advertising]-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, über einen entsprechenden [!DNL Analytics]-Treffer verfügen, der dieselbe zusätzliche ID aufweist.
 
-Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
+Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
 
 >[!NOTE]
 >
