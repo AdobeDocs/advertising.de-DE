@@ -2,10 +2,9 @@
 title: (Neue Benutzeroberfläche) Replizieren von Google Ads-Kampagnen in Microsoft Advertising
 description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem Google Ads-Konto direkt in ein synchronisiertes Microsoft Advertising-Konto exportieren.
 feature: Search Campaign Management
-exl-id: d4f8e452-7b3d-4a1f-9c3e-6b8d2e5a4917
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: e6649d66757333660662a058410221b73a45e6cc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -42,27 +41,13 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie auf **[!UICONTROL Import Campaigns]**.
 
-1. Geben Sie die [Importeinstellungen](#campaign-import-settings) an:
+1. Geben Sie die [Importeinstellungen](#campaign-import-settings) an.
 
-   1. Im **[!UICONTROL Select accounts]** Schritt:
-
-      1. Geben Sie im Feld **[!UICONTROL Import Name]** einen Namen für den Importvorgang ein.
-
-      1. Wählen Sie das Quell-[!DNL Google Ads] und das Ziel-[!DNL Microsoft Advertising] aus.
-
-      1. Geben Sie Ihre **[!UICONTROL Credential ID]** ein. Wenden Sie sich an Ihr Adobe-Konto-Team, wenn Sie keine Berechtigungs-ID haben. Die automatische Generierung ist aufgrund von [!DNL Microsoft Advertising] nicht verfügbar.
-
-      1. Klicken Sie auf **[!UICONTROL Next]**.
-
-   1. Geben Sie im **[!UICONTROL Select campaigns & ad groups]** Schritt die zu importierenden Kampagnen und Anzeigengruppen an und klicken Sie auf **[!UICONTROL Next]**.
-
-   1. Geben Sie im **[!UICONTROL Customize your import]** Schritt optional die Elementtypen, Angebots- und Budgeteinstellungen sowie andere zu importierende Optionen an und klicken Sie dann auf **[!UICONTROL Next]**.
-
-   1. Geben Sie im **[!UICONTROL Set schedule]** Schritt an, wann der Importvorgang ausgeführt und wie Benachrichtigungen empfangen werden sollen.
+1. Klicken Sie oben rechts auf **[!UICONTROL Review and Save]** .
 
 1. Überprüfen Sie Ihre Auswahl in der Zusammenfassung und klicken Sie auf **[!UICONTROL Start Import]**.
 
-1. (Optional) Fügen Sie Such-, Social- und Commerce-Tracking innerhalb der Einstellungen [Konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzu.
+1. (Optional) Fügen Sie Such-, Social- und Commerce-Tracking innerhalb der Einstellungen [Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzu.
 
 ## Zeitplaneinstellungen für einen Kampagnen-Importauftrag bearbeiten
 
@@ -70,9 +55,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Jobs]** .
-
-1. Klicken Sie auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL List of Import Jobs]** auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
 
 1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ &#x200B;](#campaign-import-settings).
 
@@ -84,15 +67,13 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
 
-   Die Ansicht wird standardmäßig mit der Registerkarte **[!UICONTROL Jobs]** geöffnet.
+   Die Ansicht wird standardmäßig mit der Registerkarte **[!UICONTROL List of Import Jobs]** geöffnet.
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Jobs]** .
-
-1. Aktivieren Sie das Kontrollkästchen neben dem Importvorgang und klicken Sie dann auf **[!UICONTROL Run Now]**.
+1. Aktivieren Sie auf der Registerkarte **[!UICONTROL List of Import Jobs]** das Kontrollkästchen neben dem Importvorgang und klicken Sie dann auf **[!UICONTROL Run Now]**.
 
 ## Anzeigen von Protokollen für Campaign-Importvorgänge {#campaign-import-log}
 
@@ -100,13 +81,13 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Logs]** .
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Import Logs]** .
 
 1. (Optional) Um Details zu einem Importvorgang anzuzeigen, klicken Sie auf den Wert in der Spalte [!UICONTROL Summary] .
 
 ## Einstellungen für Kampagnenimportaufträge {#campaign-import-settings}
 
-### [!UICONTROL Select accounts]
+### Registerkarte [!UICONTROL Select Accounts]
 
 **[!UICONTROL Import Name]:** Ein Name zur Identifizierung des Importvorgangs.
 
@@ -116,7 +97,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 **[!UICONTROL Credential ID]:** Eine ID, mit der [!DNL Microsoft Advertising] Ihre [!DNL Google Ads]-Anmeldeinformationen darstellt. Die automatische Generierung von [!DNL Microsoft Advertising]-Anmeldeinformationen für den Import ist aufgrund von [!DNL Microsoft Advertising] nicht verfügbar. Wenden Sie sich an Ihr Adobe-Account-Team. Es generiert die Anmeldeinformationen und gibt Ihnen die ID.
 
-### [!UICONTROL Select campaigns & ad groups]
+### Registerkarte [!UICONTROL Select Campaigns & Ad Groups]
 
 **\[Zu importierende Daten\]:** Zu importierende Daten:
 
@@ -128,9 +109,9 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
    * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
 
-   * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie auf das Löschsymbol in der Spalte [!UICONTROL Selected] .
+   * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![&#x200B; der Spalte [!UICONTROL Selection] auf &#x200B;](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
 
-### [!UICONTROL Customize your import]
+### Registerkarte [!UICONTROL Customize Your Import]
 
 **[!UICONTROL Choose specific import options]:** Ermöglicht die Angabe von Importoptionen, Angeboten und Budgets sowie anderen Optionen.
 
@@ -140,7 +121,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 **[!UICONTROL Other options]:** Definiert, wie importierte Landingpage-URLs, Tracking-Vorlagen und andere Kampagnen-, Anzeigen- und Targeting-Optionen verarbeitet werden, einschließlich der Optionen zum Suchen und Ersetzen von Text und zum Einfügen von Suffixen.
 
-### [!UICONTROL Set schedule]
+### Registerkarte [!UICONTROL Set Schedule]
 
 **[!UICONTROL When]:** Wann die angegebenen Kampagnen importiert werden sollen: *Auto* (damit [!DNL Microsoft Advertising] einen Zeitplan festlegen können, um Ihre Kampagnen am besten zu optimieren), *[!UICONTROL Now]* (um den Auftrag auszuführen, wenn Sie die Auftragseinstellungen veröffentlichen), *[!UICONTROL Once]* zu einem bestimmten Zeitpunkt, *[!UICONTROL Daily]* zu einem bestimmten Zeitpunkt, *[!UICONTROL Weekly]* zu einem bestimmten Zeitpunkt oder *[!UICONTROL Monthly]* zu einem bestimmten Zeitpunkt.
 
