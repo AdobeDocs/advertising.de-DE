@@ -57,7 +57,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL List of Import Jobs]** auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
 
-1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ ](#campaign-import-settings).
+1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ &#x200B;](#campaign-import-settings).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -109,7 +109,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
    * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
 
-   * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![ der Spalte [!UICONTROL Selection] auf ](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
+   * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![&#x200B; der Spalte [!UICONTROL Selection] auf &#x200B;](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
 
 ### Registerkarte [!UICONTROL Customize Your Import]
 
