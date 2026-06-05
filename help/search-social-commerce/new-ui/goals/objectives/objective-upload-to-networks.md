@@ -42,7 +42,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen, um zu bestätigen, dass die Einwilligungen von EWR-/britischen Nutzern eingeholt wurden. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn diese Option deaktiviert ist, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([ Sie Anmeldeinformationen für Ihr Manager-Konto ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
