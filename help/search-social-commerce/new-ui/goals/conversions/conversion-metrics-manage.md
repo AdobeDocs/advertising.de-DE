@@ -2,21 +2,17 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2:
-  - id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Verwalten und Anzeigen von Leistungsdaten für die Konversionsmetriken eines Werbetreibenden
+# (Neue Benutzeroberfläche) Verwalten der Konversionsmetriken eines Werbetreibenden
 
 *Beta-Funktion*
 
@@ -32,11 +28,11 @@ Zu den verfügbaren Metriken gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert ](/help/integrations/customer-journey-analytics/overview.md).
 
 * Konversionen, die von [!DNL Google Ads] verfolgt werden, und Konversionen, die von [!DNL Microsoft Advertising] universellen Ereignisverfolgungstags verfolgt werden.
 
-* ([&#x200B; Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
+* ([ Sie eine bestimmte Kombination aus  [!DNL Google Analytics] , Eigenschaft und Ansicht als Datenquelle konfiguriert haben](/help/search-social-commerce/admin/data-sources/data-source-about.md) für Search, Social und Commerce) Konversionen von [!DNL Google Analytics] verfolgt.
 
 * Konversionen aus benutzerdefinierten Feeds.
 
@@ -66,7 +62,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
 >[!NOTE]
 >
->Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [&#x200B; die Integration &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
+>Bei [Metriken von [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md) werden alle manuellen Änderungen am Anzeigenamen überschrieben, wenn Sie die Integration aktualisieren oder erneut authentifizieren. Ebenso werden alle Namensänderungen in [!DNL Google Analytics] ignoriert, es sei denn, Sie [ die Integration ](/help/search-social-commerce/admin/data-sources/data-source-edit.md) oder [erneut ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
@@ -104,7 +100,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
       1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
-## Verwalten von Leistungsdatenberichten für Konversionen
+## Verwalten der Konversionssichtbarkeit und der Quellberichte
 
 Sie können die folgenden Informationen zu Ihren verfolgten Konversionen herunterladen: den Namen der synchronisierten Metrik, den Anzeigenamen für die Metrik in den Verwaltungsansichten und -berichten für Suche, Social Media und Commerce, ob die Metrik in Verwaltungsansichten und -berichten sichtbar ist, die Konversions-ID und die Metrikquelle. Laden Sie die Daten in eine Datei [!DNL Microsoft Excel] Arbeitsmappen-Format (XLSX-Datei) herunter.
 

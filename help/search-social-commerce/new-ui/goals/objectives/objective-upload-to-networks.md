@@ -3,9 +3,9 @@ title: (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivie
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in Google Ads und Microsoft Advertising hochladen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen, um zu bestätigen, dass die Einwilligungen von EWR-/britischen Nutzern eingeholt wurden. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn diese Option deaktiviert ist, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([ Sie Anmeldeinformationen für Ihr Manager-Konto ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -88,7 +88,7 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 >[!MORELIKETHIS]
 >
 >* [Über Ziele](objective-about.md)
->* [Leistungsdaten für die Konversionsmetriken eines Werbetreibenden verwalten und anzeigen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [Konversionsmetriken eines Werbetreibenden verwalten](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Verwalten von Anmeldeinformationen für  [!DNL Google Ads] -Manager-Konten](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
 
 <!--
