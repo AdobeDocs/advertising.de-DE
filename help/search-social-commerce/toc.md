@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ Unterstützung von Berichtsformaten {#assist-report-formats}
             + [Verwalten von Anzeigen-Netzwerkkonten für Daten-Uploads](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [&#x200B; [!DNL Naver]  nur für Tracking verwalten](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [Replizieren  [!DNL Google Ads]  Kampagnen in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + Bulksheets {#bulksheets}
+         + [Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [FTP-Konto zum Hochladen von Bulksheets einrichten](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [Herunterladen/Erstellen einer Bulksheet-Datei](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [Validieren von Landingpages in Bulksheet-Dateien](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [Exportieren einer generierten oder hochgeladenen Bulksheet-Datei](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [Posten von Bulksheets oder korrigierten Fehlerdateien](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [Bulksheet-Fehler](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [Hochgeladene Bulksheets und Fehlerdateien löschen](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [Anhalten eines laufenden Bulksheet-Vorgangs](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [Verwalten benutzerdefinierter Warnhinweise](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Verwalten von Benachrichtigungen](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Benutzerverwaltung](/help/search-social-commerce/new-ui/user-administration.md)
