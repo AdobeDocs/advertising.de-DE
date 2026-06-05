@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 2416
+source-wordcount: 2412
 ht-degree: 2%
 
 ---
@@ -93,17 +93,18 @@ ht-degree: 2%
       + Konversionen {#conversions}
          + [Verfügbare Funktionen zum Verwalten von Konversionsmetriken](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
          + [Generieren und Implementieren eines Adobe Advertising-Konversionsverfolgungs-Tags](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-         + [Leistungsdaten für die Konversionsmetriken eines Werbetreibenden verwalten und anzeigen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + [Konversionsmetriken eines Werbetreibenden verwalten](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
          + Erweiterte Konvertierungen {#enhanced-conversions}
             + [Erstellen einer Konvertierungsaktion für eine  [!DNL Google Ads]  Konversion für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [Hochladen von Offline-Konversionsdaten für erweiterte Konversionen](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [Verwalten [!DNL Google Ads] Konversionswertregeln](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
       + [Verwalten von Einschränkungen für Suchangebotseinheiten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + Plan {#plan}
-      + [Über Simulationen](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [Benutzerdefinierte Simulation ausführen oder erneut ausführen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [Anzeigen von Simulationsdetails](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [Simulationen herunterladen](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + Simulationen {#simulations}
+         + [Über Simulationen](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [Benutzerdefinierte Simulation ausführen oder erneut ausführen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [Anzeigen von Simulationsdetails](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+         + [Simulationen herunterladen](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [Verwenden der [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + Verwalten {#manage}
       + Portfolios {#portfolios}

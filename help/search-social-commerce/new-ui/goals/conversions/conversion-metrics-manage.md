@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Verwalten und Anzeigen von Leistungsdaten für die Konversionsmetriken eines Werbetreibenden
+# (Neue Benutzeroberfläche) Verwalten der Konversionsmetriken eines Werbetreibenden
 
 *Beta-Funktion*
 
@@ -104,7 +104,7 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
       1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
-## Verwalten von Leistungsdatenberichten für Konversionen
+## Verwalten der Konversionssichtbarkeit und der Quellberichte
 
 Sie können die folgenden Informationen zu Ihren verfolgten Konversionen herunterladen: den Namen der synchronisierten Metrik, den Anzeigenamen für die Metrik in den Verwaltungsansichten und -berichten für Suche, Social Media und Commerce, ob die Metrik in Verwaltungsansichten und -berichten sichtbar ist, die Konversions-ID und die Metrikquelle. Laden Sie die Daten in eine Datei [!DNL Microsoft Excel] Arbeitsmappen-Format (XLSX-Datei) herunter.
 

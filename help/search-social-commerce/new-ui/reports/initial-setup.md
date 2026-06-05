@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Neue Benutzer sollten die folgenden Ersteinrichtungsaufgaben ausführen:
 
-* Stellen Sie die Konversionsmetriken, die Adobe Advertising für einen Advertiser verfolgt, für Berichte und andere Ansichten zur Verfügung und benennen Sie optional eine der Konversionsmetriken um, die in Spaltenüberschriften angezeigt werden, um die Lesbarkeit zu verbessern. Siehe &quot;[Verwalten und Anzeigen von Leistungsdaten für die Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;
+* Stellen Sie die Konversionsmetriken, die Adobe Advertising für einen Advertiser verfolgt, für Berichte und andere Ansichten zur Verfügung und benennen Sie optional eine der Konversionsmetriken um, die in Spaltenüberschriften angezeigt werden, um die Lesbarkeit zu verbessern. Siehe [Verwalten der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md).“
 
   Transaktionseigenschaften sind nur dann für Berichte verfügbar, wenn sie von Ihnen speziell bereitgestellt wurden.
 
