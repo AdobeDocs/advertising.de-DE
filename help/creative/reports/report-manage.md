@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Duplizieren Sie einen benutzerdefinierten Bericht, um einen neuen Bericht mit ä
 
 1. (Optional) Bearbeiten Sie die [Berichteinstellungen](#report-settings.md) nach Bedarf.
 
-   Der Berichtsname ist standardmäßig &quot;\*Vorhandener Berichtsname*\> \#2“ (oder die nächste Nummer in der Sequenz).
+   Der Berichtsname ist standardmäßig &quot;\&lt;*vorhandener Berichtsname*\> \#2“ (oder die nächste Nummer in der Sequenz).
 
 ## Benutzerdefinierten Bericht bearbeiten {#report-edit}
 
@@ -132,7 +132,7 @@ In diesem Abschnitt werden die Daten festgelegt, an denen der Bericht ausgeführ
   >
   >Sie können auch [einen benutzerdefinierten Bericht jederzeit ausführen](#report-run-now) über die [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum bis zum 9. :00 in der Zeitzone des Kontos aus.
+* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum (bis 09) :00 der Zeitzone des Kontos aus.
 
 * *[!UICONTROL Recurring]:* Führt den Bericht nach einem Zeitplan für einen bestimmten Zeitraum aus.
 
