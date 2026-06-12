@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Tabellen-Report-Feeds erstellen, konfiguriere
 feature: Search Reports
 source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder E-Mail-Empfänger in der Berichtsvorlage eine Benachrichtigung, die auf den konfigurierten ([&#x200B; für Berichte) &#x200B;](/help/search-social-commerce/notifications/notification-about.md) Benutzereinstellungen basiert.
+Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder E-Mail-Empfänger in der Berichtsvorlage eine Benachrichtigung, die auf den konfigurierten ([ für Berichte) ](/help/search-social-commerce/notifications/notification-about.md) Benutzereinstellungen basiert.
 
 Sie können den Feed so konfigurieren, dass die Daten der letzten 90 Tage aktualisiert werden. Alle vorherigen vorhandenen Daten bleiben erhalten und werden weiterhin gesammelt.
 
@@ -84,7 +84,7 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
 
    1. Klicken Sie oben rechts auf **[!UICONTROL Create Spreadsheet]**.
 
-   1. Geben Sie im Dialogfeld **[!UICONTROL Create Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ &#x200B;](#spreadsheet-feed-settings).
+   1. Geben Sie im Dialogfeld **[!UICONTROL Create Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ ](#spreadsheet-feed-settings).
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 
