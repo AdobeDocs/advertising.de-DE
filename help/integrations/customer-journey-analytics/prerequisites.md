@@ -31,7 +31,7 @@ ht-degree: 0%
 
   Sie benötigen die Unterstützung Ihres internen Web-Analysten, um eine Verbindung zu Ihrem Datensatz herzustellen und Berichte zu konfigurieren.
 
-* (Werbetreibende ohne [!DNL Analytics for Advertising]) Datenmodellierungs- und Verwaltungstechnologien von Adobe Experience Platform (einschließlich [Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) und [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* (Werbetreibende ohne [!DNL Analytics for Advertising]) Datenmodellierungs- und Verwaltungstechnologien von Adobe Experience Platform (einschließlich [Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/de/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home))
 
   Diese Technologien erfordern die Unterstützung durch Ihren Experience Platform-Site-Administrator.
 
