@@ -12,7 +12,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1249
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sie können Daten-Feed-Dateien wie folgt hochladen und verarbeiten:
 
   Wenden Sie sich an Ihr Adobe-Accountteam, um ein FTP-Verzeichnis zum Ablegen und automatischen Verarbeiten von Datendateien einzurichten.
 
-* **Manuelle Verarbeitung** Sie können [Feed-Dateien hochladen](#feed-file-upload) über die Ansicht [!UICONTROL Advanced] (ACM) manuell anzeigen. Nachdem Sie eine Feed-Datei mit einer oder mehreren Anzeigennetzwerk-spezifischen [Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) verknüpft haben, können Sie Kampagnen- und Anzeigendaten generieren, indem [die Feed-Daten entsprechend den Einstellungen für &#x200B;](feed-data-propagate.md)-Daten [&#x200B; die Vorlagen übertragen](feed-settings-manage.md). Sie können optional eine Vorschau der generierten Daten in Kampagnenhierarchieansichten anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei zur sofortigen Veröffentlichung im Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [veröffentlichen](propagated-data-post.md) später. Sie können [&#x200B; die vorhandene Feed-Datei durch eine neue Datei ersetzen](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
+* **Manuelle Verarbeitung** Sie können [Feed-Dateien hochladen](#feed-file-upload) über die Ansicht [!UICONTROL Advanced] (ACM) manuell anzeigen. Nachdem Sie eine Feed-Datei mit einer oder mehreren Anzeigennetzwerk-spezifischen [Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) verknüpft haben, können Sie Kampagnen- und Anzeigendaten generieren, indem [&#128279;](feed-settings-manage.md)die Feed-Daten entsprechend den Einstellungen für [-Daten &#x200B;](feed-data-propagate.md) die Vorlagen übertragen. Sie können optional eine Vorschau der generierten Daten in Kampagnenhierarchieansichten anzeigen, eine Bulksheet-Datei zur Überprüfung generieren oder eine Bulksheet-Datei zur sofortigen Veröffentlichung im Werbenetzwerk generieren. Wenn Sie die Daten nicht sofort posten, können Sie [Vorschau anzeigen](propagated-data-view.md) und [veröffentlichen](propagated-data-post.md) später. Sie können [&#x200B; die vorhandene Feed-Datei durch eine neue Datei ersetzen](#feed-file-replace) ohne vorhandene Vorlagenzuordnungen zu verlieren.
 
 ## Anforderungen an die Feed-Datei
 

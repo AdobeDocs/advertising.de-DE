@@ -12,7 +12,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: 299
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Im Folgenden finden Sie die Header-Felder und die entsprechenden Datenfelder, di
 
 | Header-Feld/Spaltenname | Typ | Beschreibung |
 | ---- | ---- | ---- |
-| Transaktions-ID (ev_transid) | Zeichenfolge unter Berücksichtigung der Groß-/Kleinschreibung | Die vom Advertiser generierte Kennung, die mit der Transaktion verknüpft ist. Da das Adobe Advertising-Konversionsverfolgungs-Tag für die Online-Teile der Transaktion verwendet wird, muss dies mit der Transaktions-ID (ev_transid) übereinstimmen, die Adobe Advertising für den früheren Teil der Transaktion angegeben hat. Das bedeutet, dass das Konversions-Tag für den Online-Teil der Transaktion eine Konversionsmetrik für eine eindeutige Transaktions-ID enthalten muss.<br><br>**Hinweis:** Adobe Advertising verwendet die ID, um die alten Transaktionsdaten zu finden und entsprechend einem vereinbarten Einfügemodus zu aktualisieren (z. B. um die vorhandenen Daten zu ersetzen oder um sie mit den neuen Daten zu erweitern). |
+| Transaktions-ID (ev_transid) | Zeichenfolge unter Berücksichtigung der Groß-/Kleinschreibung | Die vom Advertiser generierte Kennung, die mit der Transaktion verknüpft ist. Da das Adobe Advertising-Konversionsverfolgungs-Tag für die Online-Teile der Transaktion verwendet wird, muss dies mit der Transaktions-ID (ev_transid) übereinstimmen, die Adobe Advertising für den früheren Teil der Transaktion angegeben hat. Das bedeutet, dass das Konversions-Tag für den Online-Teil der Transaktion eine Konversionsmetrik für eine eindeutige Transaktions-ID enthalten muss.<br><br>**Hinweis:** Adobe Advertising verwendet die ID, um die alten Transaktionsdaten zu finden und sie gemäß einem vereinbarten Einfügemodus zu aktualisieren (z. B. um die vorhandenen Daten zu ersetzen oder um sie mit den neuen Daten zu erweitern). |
 | Transaktionsdatum | DateTime | Das Datum der Transaktion. Das Format muss für jede Transaktion konsistent sein. |
 | Client-spezifische Konversion | Zeichenfolge | Eine Konversion, die verfolgt wird (z. B. Transaktionstyp oder Betrag). Besprechen Sie die Konversionen, die einbezogen werden sollen, mit dem Adobe Advertising-Implementierungsteam, bevor Sie den Feed starten. |
 

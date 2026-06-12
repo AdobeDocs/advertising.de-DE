@@ -56,7 +56,7 @@ In diesem Abschnitt werden die Daten festgelegt, an denen der Bericht ausgeführ
   >
   >Sie können auch [einen benutzerdefinierten Bericht jederzeit ausführen](report-run-now.md) über die [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum bis zum 9. :00 in der Zeitzone des Kontos aus.
+* *[!UICONTROL On]\&lt;date\>:* Führt den Bericht an einem bestimmten Datum (bis 09) :00 der Zeitzone des Kontos aus.
 
 * *[!UICONTROL Recurring]:* Führt den Bericht nach einem Zeitplan für einen bestimmten Zeitraum aus.
 
