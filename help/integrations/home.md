@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;9. Juni 2026 | Integration mit Adobe Customer Journey Analytics | Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der Adobe Experience Platform-[!DNL Web SDK] zwischen Adobe Advertising und Customer Journey Analytics austauschen. | Siehe &quot;[&#x200B; der Integration zwischen Adobe Advertising und Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | &#x200B;3. Juni 2026 | [!DNL Adobe Analytics for Advertising] | Werbetreibende mit Advertising Creative und [!DNL Adobe Analytics for Advertising] können jetzt Daten auf Varianten- und Zweigstellenebene in Adobe Analytics anzeigen. Die Daten werden unabhängig von der DSP angezeigt, die zum Ausführen von Anzeigen aus Ihren [!DNL Creative]-Erlebnissen verwendet wird. Wenn Sie die Anzeigen über eine Advertising DSP-Platzierung schalten, sehen Sie auch Daten auf Kampagnen- und Platzierungsebene sowie kostenbezogene Metriken.<br><br>Es ist keine zusätzliche Einrichtung erforderlich. | Sehen Sie sich die [Traffic-Metriken](https://experienceleague.adobe.com/de/docs/analytics/components/metrics/amo-metrics) und [Klassifizierungen](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#classifications) an, die in [!DNL Analytics] angezeigt werden. |
 | &#x200B;8. September 2025 | Integration mit Customer Journey Analytics | (Beta-Funktion) Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können jetzt mit der [Adobe Experience Platform nativ Daten zwischen Adobe Advertising und Customer Journey Analytics  [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de). | Siehe &quot;[&#x200B; der Integration zwischen Adobe Advertising und Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | &#x200B;26. März 2025 | [!DNL Adobe Analytics for Advertising] | (Werbetreibende mit Search, Social und Commerce; [!DNL Microsoft Advertising] Konten; und [!DNL Adobe Analytics for Advertising]) Für Konten mit der Option &quot;[!UICONTROL Auto Upload]-Tracking“ wurde das Format des AMO-ID-Parameters in den Suffixen der Landingpage für alle Kampagnentypen auf das neueste Format aktualisiert. Zuvor wurden Performance Max-Kampagnen für die meisten Konten in das neue Format migriert.<br><br>Bei Konten ohne die [!UICONTROL Auto Upload]-Tracking-Option, die noch nicht in das neue Format migriert wurden, müssen Sie jedoch jedes Landingpage-Suffix manuell aktualisieren, um das neue AMO-ID-Format aufzunehmen.<br><br>Aktuelles Format: `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | Siehe &quot;[Überblick über [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) und die [AMO ID-Formate](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items). |
