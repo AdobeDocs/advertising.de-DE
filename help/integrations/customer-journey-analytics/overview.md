@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9ac8d984e0d48eab6b2da695c48702dacd41bb33
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: 431
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Advertising ist mit Adobe Customer Journey Analytics für bidirektionale D
 
 * Werbetreibende mit sowohl [!DNL Analytics for Advertising] als auch Customer Journey Analytics verfügen über dieselben Funktionen wie über [!DNL Analytics for Advertising], einschließlich des Hinzufügens von Visualisierungen in Customer Journey Analytics.
 
-  Clickthrough-Ereignisse werden weiterhin mit Adobe Experience Platform Web SDK (`alloy.js`) oder Adobe Experience Cloud Identity Service (`visitorAPI.js`) verfolgt. Werbetreibende mit Advertising DSP verwenden weiterhin ein JavaScript-Snippet, um Durchsichtsereignisse zu verfolgen. Zu den in Customer Journey Analytics verfügbaren Daten gehören:
+  Clickthrough-Ereignisse werden weiterhin mit dem Adobe Experience Platform Web SDK (`alloy.js`) oder dem Adobe Experience Cloud Identity Service (`visitorAPI.js`) verfolgt. Werbetreibende mit Advertising DSP verwenden weiterhin ein JavaScript-Snippet, um Durchsichtsereignisse zu verfolgen. Zu den in Customer Journey Analytics verfügbaren Daten gehören:
 
    * Campaign-Leistungsdaten aus Adobe Advertising in Customer Journey Analytics
 
@@ -47,7 +47,7 @@ Adobe Advertising ist mit Adobe Customer Journey Analytics für bidirektionale D
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* (Künftige Beta-Funktion) Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der [Adobe Experience Platform zwischen Adobe Advertising und Customer Journey Analytics  [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de). Sie können Site-Ereignisse mithilfe von Cookies, gehashten IP-Adressen und universellen IDs ([!DNL LiveRamp RampIDs] und ID5-IDs) verfolgen und Site-Ereignisse bezahlter Medienaktivität zuordnen. Die folgenden Daten sind auf Kampagnen-, Anzeigengruppen-, Paket-, Platzierungs- und Keyword-Ebene verfügbar:
+* Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der [Adobe Experience Platform zwischen Adobe Advertising und Customer Journey Analytics  [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de). Sie können Site-Ereignisse mithilfe von Cookies, gehashten IP-Adressen und universellen IDs ([!DNL LiveRamp RampIDs] und ID5-IDs) verfolgen und Site-Ereignisse bezahlter Medienaktivität zuordnen. Die folgenden Daten sind auf Kampagnen-, Anzeigengruppen-, Paket-, Platzierungs- und Keyword-Ebene verfügbar:
 
    * Campaign-Leistungsdaten aus Adobe Advertising in Customer Journey Analytics
 
@@ -59,7 +59,7 @@ Adobe Advertising ist mit Adobe Customer Journey Analytics für bidirektionale D
 
   In diesem Anwendungsfall verwenden Sie Web SDK, um Site-Ereignisse (mithilfe von Cookies, Hash-IP-Adressen oder universellen IDs) zu verfolgen und die Site-Ereignisse den Paid-Media-Aktivitäten in [!DNL Google Ads], [!DNL Microsoft Advertising] und [!DNL Meta] sowie Adobe DSP zuzuordnen. Sie verwenden Adobe Experience Platform auch für die Datenerfassung.
 
-## So initiieren Sie eine native Integration zwischen Adobe Advertising und Customer Journey Analytics
+## So initiieren Sie eine native Integration zwischen Adobe Advertising und Customer Journey Analytics {#integration-cja-initiate}
 
 Wenden Sie sich an Ihr Adobe-Kundenbetreuerteam, das die für den Einstieg erforderliche Erstkonfiguration durchführt und Sie bei der Planung Ihrer Implementierung und Datennutzung entsprechend den Anforderungen Ihres Unternehmens unterstützt.
 

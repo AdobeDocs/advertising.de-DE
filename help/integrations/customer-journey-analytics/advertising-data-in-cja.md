@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 *Werbetreibende mit einer Adobe Advertising-Customer Journey Analytics-Integration*
 
-*Beta-Funktion*
-
 Adobe Advertising übergibt Traffic-Metriken und -Dimensionen täglich an [!DNL Customer Journey Analytics]. [!DNL Web SDK] erfasst Clickthroughs und Viewthroughs für Adobe Advertising in Echtzeit und übergibt sie an Customer Journey Analytics.
+
+![Beispiel für Adobe Advertising-Daten in Customer Journey Analytics](/help/integrations/assets/cja-report-example.png "Beispiel für Adobe Advertising-Daten in Customer Journey Analytics")
 
 ## Traffic-Metriken in Adobe Advertising
 
