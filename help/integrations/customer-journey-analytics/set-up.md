@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Dieses Verfahren umfasst das Erstellen eines Schemas. Sie können stattdessen op
 
    * Wählen Sie die zu **[!UICONTROL Create dataset from schema]** Option aus und wählen Sie Ihr Schema aus.
 
-     Basierend auf Ihrem Ereignisdatensatz erstellt Adobe Advertising zwei zusätzliche Datensätze: 1\) einen *Zusammenfassungsdatensatz* mit den zugehörigen Zusammenfassungsdaten (z. B. Klicks und Impressionen) und 2\) einen *Lookup-Datensatz* (mit Dimensionen/Klassifizierungsmetadaten, z. B. Adobe Advertising-Kampagnenname). Daten für die Datensätze werden täglich in Experience Platform ausgefüllt.
+     Basierend auf Ihrem Ereignisdatensatz erstellt Adobe Advertising zwei zusätzliche Datensätze: 1\) einen *Zusammenfassungsdatensatz* mit den zugehörigen Zusammenfassungsdaten (z. B. aggregierte Klicks und aggregierte Impressions) und 2\) einen *Lookup-Datensatz* (mit Dimensionen/Klassifizierungsmetadaten, wie z. B. Adobe Advertising-Kampagnenname). Daten für die Datensätze werden täglich in Experience Platform ausgefüllt.
 
    >[!TIP]
    >
