@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
+source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Im Folgenden finden Sie mögliche Datenprobleme und deren Ursachen.
 * Customer Journey Analytics Workspace verweist auf die richtige Datenansicht.
 
 Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
-.
 
 +++
 
@@ -94,7 +93,6 @@ Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket 
 * Die Adobe Advertising-Einstellungen werden in der WebSDK-Erweiterung korrekt konfiguriert und veröffentlicht.
 
 Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Konversionsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
-.
 
 +++
 
