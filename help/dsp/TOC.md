@@ -4,7 +4,7 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 3%
@@ -249,3 +249,4 @@ ht-degree: 3%
  add back to Inventory > SAS section when reimplemented:
       +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
+
