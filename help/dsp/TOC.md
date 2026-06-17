@@ -4,7 +4,7 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 3%
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
    + [Unterstützte Währungen](/help/dsp/currency.md)
-   + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
-   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
+   + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + [Suchen nach Produktdokumentation im KI-unterstützten Chat](/help/dsp/agent-chat.md)
 + Kampagnen-Management {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Bearbeiten einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplizieren einer Anzeige](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=de)
+      + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Auflisten der mit einer Anzeige verknüpften Platzierungen](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Anzeigen eines detaillierten Berichts für eine Anzeige](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Anhalten oder Aktivieren einer Anzeige](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -235,9 +235,9 @@ ht-degree: 3%
    + Benachrichtigungen {#notifications}
       + [Über Warnhinweis-Abonnements](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnhinweis-Abonnements](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de)
++ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Hilfe erhalten](/help/dsp/get-help.md)
-+ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
++ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
@@ -249,3 +249,4 @@ ht-degree: 3%
  add back to Inventory > SAS section when reimplemented:
       +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
+
