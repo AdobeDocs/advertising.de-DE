@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
+source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Wenn der Feed für einen Advertiser aktiviert ist, aber immer noch keine Zusamme
 Stellen Sie sicher, dass der Feed von Adobe Advertising an Customer Journey Analytics für das spezifische Werbenetzwerkkonto aktiviert ist. Wenden Sie sich an Ihr Adobe-Accountteam.
 
 Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
-.
 
 +++
 
