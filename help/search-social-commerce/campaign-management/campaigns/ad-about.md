@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # Über Anzeigen
 
-Nur *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
+Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
 
 Eine Anzeige kann auf einer Ziel-Website angezeigt werden (für Kampagnen, die auf Inhalte oder Platzierungen abzielen); wenn ein Benutzer nach einem der Keywords in der Anzeigengruppe (für Suchkampagnen) oder nach Inhalten auf Ihrer Website sucht (dynamische Suchanzeigen in [!DNL Google Ads] Kampagnen, die nur auf die Suche ausgerichtet sind); oder wenn ein Benutzer eine Suche durchführt, die für eines der Elemente in Ihrem [!DNL Google Merchant Center] oder [!DNL Microsoft Merchant Center] Produkt-Feed relevant ist (Shopping-Anzeigen in [!DNL Google Ads] oder Produktanzeigen in [!DNL Microsoft Advertising] Kampagnen).
 

@@ -2,9 +2,10 @@
 title: (Neue Benutzeroberfläche) Über Anzeigennetzwerkkonten
 description: Erfahren Sie mehr über Anzeigennetzwerkkonten in der neuen Benutzeroberfläche für Suche, Social und Commerce.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Search, Social und Commerce können jedes Konto eines Werbetreibenden in unterst
 
 ## Über APIs synchronisierte Konten
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und vorhandene [!DNL Baidu] Konten*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL LY Ads] (früher [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] und vorhandene [!DNL Baidu] Konten*
 
 Search, Social und Commerce synchronisiert (*synchronisiert*) mit unterstützten Anzeigennetzwerkkonten, damit Sie die Leistung Ihrer Anzeigen verfolgen, Berichte dazu erstellen und visualisieren können. Für alle Werbenetzwerke außer [!DNL Yahoo! Display Network] können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce; verwalten. [!DNL Yahoo! Display Network] sind Kampagnen schreibgeschützt. Für alle Werbenetzwerke können Sie die Optimierungsfunktion aktivieren, um Angebote, Kampagnenbudgets und Kampagnenangebotstrategie-Ziele für Kampagnen in verwalteten Konten zu optimieren, indem Sie die Kampagnen zu Portfolios hinzufügen.
 

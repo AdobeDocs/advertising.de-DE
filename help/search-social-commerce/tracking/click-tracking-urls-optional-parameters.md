@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: 1113
 ht-degree: 0%
 
 ---
 
 # Optionale Tracking-Parameter für Klick-Tracking-URLs
 
-Nur *[!DNL Google Ads]-, [!DNL Microsoft Advertising]-, [!DNL Yahoo! Japan]- und [!DNL Yandex] Konten*
+Nur *[!DNL Google Ads]-, [!DNL LY Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yandex] Konten*
 
 Anstatt nur die standardmäßigen Tracking-Parameter für eine endgültige URL oder Ziel-URL zu verwenden, können Sie weitere Parameter hinzufügen, um bestimmte Daten für ein Werbenetzwerkkonto zu verfolgen. Sie können in den Konto- oder Kampagneneinstellungen eine beliebige Kombination der folgenden Parameter hinzufügen:
 
@@ -52,7 +52,7 @@ Alle der folgenden Parameter müssen als Schlüssel-Wert-Paar angegeben werden. 
 | <code>{custom_code}</code> | So fügen Sie Daten aus der Spalte „Benutzerdefinierter URL-Parameter“ in eine hochgeladene Bulksheet-Datei in die Tracking-URL ein. {custom_code} können nur am Ende des Werts von einem oder mehreren Schlüssel-Wert-Paaren in der Tracking-URL verwendet werden. Beispiele: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Hinweis:</b> Um den benutzerdefinierten Wert aus der Bulksheet-Datei in die Tracking-URL einzufügen, laden Sie die Bulksheet-Datei mit der Option „Tracking-URLs generieren“ hoch. Weitere Informationen zur Verwendung von Bulksheet-Dateien finden Sie unter &quot;[&#x200B; zur Verwaltung von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md). |
 | <code>{ef_uniqueid}</code> | So fügen Sie die von Adobe Advertising erstellte eindeutige ID ein. Wird automatisch hinzugefügt, wenn die Tracking-Methode „EF Redirect“ lautet. |
 | <code>{ef_userid}</code> | So fügen Sie die eindeutige Benutzer-ID ein, die Adobe Advertising dem Advertiser zuweist. |
-| <code>{ef_sid}</code> | So fügen Sie die numerische ID ein, die Search, Social und Commerce dem Anzeigennetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL Baidu], <i>[!UICONTROL 90]</i> für [!DNL Yandex], <i>[!UICONTROL 94]</i> für [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (nicht mehr unterstützt) oder <i>[!UICONTROL 106]</i> für [!DNL Pinterest] (nicht mehr unterstützt). |
+| <code>{ef_sid}</code> | So fügen Sie die numerische ID ein, die Search, Social und Commerce dem Anzeigennetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL LY Ads], [!DNL Yahoo! Japan Ads] für [!DNL Baidu] (ehemals <i>[!UICONTROL 90]</i>), <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (veraltet) oder <i>[!UICONTROL 106]</i> [!DNL Pinterest] für [!DNL Yandex] <i>[!UICONTROL 94]</i> (veraltet). |
 | <code>{ef_searchengine}</code> | So fügen Sie den Anzeigennetzwerknamen ein. |
 | <code>{ef_campaign}</code> | So fügen Sie den Kampagnennamen ein. |
 | <code>{ef_campaignid}</code> | Um die Kampagnen-ID einzufügen. <b>Hinweis:</b> Die ID für eine neue Kampagne wird erst erstellt, wenn die Kampagne im Werbenetzwerk gepostet wurde. Wenn das Konto die Optionen &quot;[!UICONTROL EF Redirect]&quot; und „AutoUpload“ verwendet, fügt Adobe Advertising die Kampagnen-ID am nächsten Tag automatisch in die entsprechenden Ziel-URLs oder endgültigen URLs ein. Wenn das Konto nicht die Optionen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; verwendet und Sie die Kampagnen-ID in die entsprechenden Ziel-URLs oder endgültigen URLs einfügen möchten, müssen Sie die Kampagne erstellen, eine Bulksheet-Datei für die neue Kampagne herunterladen und die Option zum Generieren von Tracking-URLs verwenden und die Datei dann im Werbenetzwerk posten. |
@@ -67,13 +67,13 @@ Alle der folgenden Parameter müssen als Schlüssel-Wert-Paar angegeben werden. 
 
 Siehe [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
+## Dynamische Tracking-Parameter [!DNL LY Ads]
+
+Siehe [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
+
 ## Dynamische Tracking-Parameter [!DNL Microsoft Advertising]
 
 Siehe [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
-
-## Yahoo! Dynamische Tracking-Parameter für Japan Ads
-
-Siehe [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## Dynamische Tracking-Parameter [!DNL Yandex]
 

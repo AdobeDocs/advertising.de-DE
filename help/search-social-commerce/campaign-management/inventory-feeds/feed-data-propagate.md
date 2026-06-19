@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Übertragen von Inventar-Feed-Daten über Vorlagen
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Nachdem Sie eine Anzeigennetzwerk-spezifische Feed-Vorlage erstellt und eine Feed-Datei oder ein [!DNL Google]- oder [!DNL Microsoft]-Händlercenter-Konto damit verknüpft haben, können Sie Anzeigen dynamisch erstellen, indem Sie die Feed-Daten gemäß den Einstellungen für [-Daten über die Vorlage &#x200B;](feed-settings-manage.md). Während der Übertragung werden die Spaltennamen in der Vorlage durch Datenwerte im Feed ersetzt, und die generierten Kampagnen und ihre Komponenten haben die Standardeinstellungen, sofern die Vorlage nicht etwas Anderes angibt. Je nach den Vorlagenoptionen erstellt Search, Social und Commerce entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Keywords) für die Anzeigen oder ordnet die Anzeigen der bestehenden Kontostruktur zu.
 

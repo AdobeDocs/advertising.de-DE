@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Manuelles Synchronisieren von Werbenetzwerkdaten
 
-Nur *[!DNL Google Ads], [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (früher [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yandex] und nur vorhandene [!DNL Baidu] Konten*
 
 Synchronisierung ist der Prozess, mit dem Search, Social und Commerce aktualisierte Informationen für die Konten der verbundenen Werbenetzwerke jedes Werbetreibenden in [unterstützten Werbenetzwerken](/help/search-social-commerce/introduction/supported-inventory.md) erfassen. Diese Daten umfassen die Kampagnenstruktur und Kampagnenentitäten des Advertisers, einschließlich der meisten seiner Attribute, die in Search, Social und Commerce verwaltet oder gemeldet werden. Es enthält keine Klickdaten und auch keine Gebote und Gebotsmodifikatoren, die außerhalb von Search, Social und Commerce eingegeben und separat erfasst wurden.
 

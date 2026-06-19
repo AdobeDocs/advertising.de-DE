@@ -2,9 +2,9 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für Sonderberichte.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | Der Status der Zielgruppe. |
 | [!UICONTROL Average CPC] | Die durchschnittlichen Kosten pro Klick. |
 | [!UICONTROL Average CPM] | Die durchschnittlichen Kosten pro Tausend (Meile) Impressionen. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Die durchschnittliche Position der Anzeigen während des angegebenen Datumsbereichs.<br><br>Für [!DNL Google Ads]- und [!DNL Yahoo! Japan Ads]-Kampagnen sind diese Daten nur bis September 2019 verfügbar. [!DNL Microsoft Advertising] sind diese Daten nur bis zum 22. Januar 2021 verfügbar. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Die durchschnittliche Position der Anzeigen während des angegebenen Datumsbereichs.<br><br>Für [!DNL Google Ads]- und [!DNL LY Ads]-Kampagnen sind diese Daten nur bis September 2019 verfügbar. [!DNL Microsoft Advertising] sind diese Daten nur bis zum 22. Januar 2021 verfügbar. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] Berichte) Der Übereinstimmungstyp, der mit dem Keyword verknüpft ist, für das Gebot wurde. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) Das Kampagnenbudget. |
 | [!UICONTROL Campaign Name] | Die Kampagne. |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | Die endgültige URL oder die Ziel-URL (einschließlich etwaiger Tracking-Parameter) für die Anzeige. |
 | [!UICONTROL Creative Display URL] | Die Anzeige-URL für die Anzeige, die Endbenutzenden in der Anzeige angezeigt wird. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] Berichte) Der Status der Anzeige. |
-| [!UICONTROL Creative Name] | (Transaktionsbericht; nur [!DNL Yahoo! Japan]) Der Anzeigenbildname. |
+| [!UICONTROL Creative Name] | (Transaktionsbericht; nur [!DNL LY Ads]) Der Anzeigenbildname. |
 | [!UICONTROL Creative Title] | Titel oder Überschrift der Anzeige. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Konversionen, die auftreten, wenn ein Benutzer auf einem Gerät auf „Anzeigen“ klickt und dann auf einem anderen Gerät oder Browser konvertiert. Geräteübergreifende Konversionen sind in „Alle Konversionen“ enthalten. |
 | [!UICONTROL CTR] | Die Klickrate, d. h. die Anzahl der Klicks dividiert durch die Anzahl der Impressionen für die enthaltenen Anzeigen. |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | Die effektive CPM oder die Durchschnittskosten, die pro 1000 Impressions während eines bestimmten Datumsbereichs bezahlt wurden. eCPM-Werte werden für CPM- oder CPC-Kampagnen berechnet. |
 | [!UICONTROL EF Campaign ID] | Die numerische ID, die Search, Social und Commerce der Kampagne zuweist. |
 | [!UICONTROL EF Portfolio Group ID] | Die numerische ID für die Portfoliogruppe, zu der das Portfolio gehört. |
-| [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Anzeigennetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL Baidu], <i>[!UICONTROL 90]</i> für [!DNL Yandex], <i>[!UICONTROL 94]</i> für [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (veraltet) oder <i>[!UICONTROL 106]</i> für [!DNL Pinterest] (veraltet). |
+| [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 94]</i> für [!DNL LY Ads] (ehemals [!DNL Yahoo! Japan Ads] <i>[!UICONTROL 105]</i>), [!DNL Yahoo Native] für <i>[!UICONTROL 88]</i> (veraltet) oder <i>[!UICONTROL 106]</i> [!DNL Pinterest] für [!DNL Baidu] <i>[!UICONTROL 90]</i> [!DNL Yandex] (veraltet). |
 | [!UICONTROL End Date] | Der letzte gemeldete Tag. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] Berichte) Der [Anzeigename der Erweiterung](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] Berichte) Die ID für den Typ der Anzeigenerweiterung. |

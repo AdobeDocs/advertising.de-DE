@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] Schlüsselworteinstellungen'
-description: Referenzieren Sie die Einstellungen für  [!DNL Yahoo! Japan Ads] -Keywords.
+title: '[!DNL LY Ads] Schlüsselworteinstellungen'
+description: Referenzieren Sie die Einstellungen für  [!DNL LY Ads] -Keywords.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
@@ -10,25 +10,25 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] Schlüsselworteinstellungen
+# [!DNL LY Ads] Schlüsselworteinstellungen
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge für Schlüsselwörter beträgt 80 Zeichen, einschließlich [[!DNL Yahoo! Japan Ads] Syntax vom Typ Übereinstimmung](https://ads-help.yahoo-net.jp/s/article/H000044997) für Schlüsselwörter.
+**[!UICONTROL Keywords]:** Die Schlüsselwörter. Die maximale Länge für Schlüsselwörter beträgt 80 Zeichen, einschließlich [[!DNL LY Ads] Syntax vom Typ Übereinstimmung](https://ads-help.yahoo-net.jp/s/article/H000044997) für Schlüsselwörter.
 
 Sie können bis zu 2.000 Keywords eingeben oder einfügen. Trennen Sie mehrere Keywords durch Kommas oder geben Sie sie in separaten Zeilen ein.
 
 >[!NOTE]
 >
 >* Negative Keywords können in der Ansicht [!UICONTROL Keywords] > [!UICONTROL Negatives] sowie in den Anzeigengruppen- und Kampagneneinstellungen erstellt werden.
->* Yahoo! Japan-Schlüsselwörter und Übereinstimmungstypen sind veränderlich, d. h. Sie können sie bearbeiten, ohne das vorhandene Schlüsselwort zu löschen.
+>* Die Schlüsselwörter und Übereinstimmungstypen von Werbeanzeigen sind veränderlich, d. h. Sie können sie bearbeiten, ohne das vorhandene Schlüsselwort zu löschen.
 
 **[!UICONTROL Status]:** Der Anzeigestatus des Keywords: *Aktiv* oder *Paused*. Der Standardwert für neue Keywords ist *Active*.
 

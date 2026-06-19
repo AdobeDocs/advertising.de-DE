@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einr
 
       * (Google Ads, Microsoft Advertising, Yahoo! Nur Anzeigen und Yandex-Konten) Richten Sie einen [automatisierten Prozess ein, um dynamische Anzeigen und Keywords zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer von Ihnen erstellten netzwerkspezifischen Anzeigenvorlage und dem Inhalt der Inventardatendateien, die Sie an einen FTP-Speicherort hochladen.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! (Nur japanische Anzeigen und Yandex-Konten) Hochladen [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) die so viele Daten enthalten, wie Sie für ein Konto benötigen, und diese dann in die Werbenetzwerke posten.
+      * (Nur Baidu-, Google Ads-, [!DNL LY Ads]-, Microsoft Advertising- und Yandex-Konten) Laden Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) hoch, die so viele Daten enthalten, wie Sie für ein Konto wünschen, und veröffentlichen Sie sie dann in den Werbenetzwerken.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads, und nur Yandex-Konten) Geben Sie Daten für einzelne Komponenten direkt in die Benutzeroberfläche ein. Für die meisten Kampagnen- und Anzeigentypen können Daten auf Kampagnenebene, Anzeigengruppenebene sowie auf Ebene einzelner Keywords, Platzierungen und Anzeigen erstellt werden.
+      * (Nur Baidu-, Google Ads-, [!DNL LY Ads]-, Microsoft Advertising- und Yandex-Konten) Geben Sie Daten für einzelne Komponenten direkt in die Benutzeroberfläche ein. Für die meisten Kampagnen- und Anzeigentypen können Daten auf Kampagnenebene, Anzeigengruppenebene sowie auf Ebene einzelner Keywords, Platzierungen und Anzeigen erstellt werden.
 
       Einige Kampagnen- und Anzeigetypen erfordern jedoch eindeutige Workflows. Siehe Anweisungen zum Einrichten [[!DNL Microsoft Advertising] Shopping-Kampagnen](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamische Suchanzeigen](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] Performance Max-](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) und [[!DNL Google Ads] Shopping-Kampagnen](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 

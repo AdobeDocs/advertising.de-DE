@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Verwalten von Modifikatoren
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Modifikatoren sind Adjektive oder Adverbien, die einem Satz hinzugefügt oder daraus entfernt werden können, ohne die grundlegende Satzstruktur zu ändern. Sie können Gruppen von Modifikatoren erstellen, die als Variablen in verschiedenen Datenfeldern in Feed-Datenvorlagen verwendet werden können. Indem Sie Modifikatoren in Felder, Schlüsselwörter, Basis-URLs und Anzeigen der Kontostruktur (Kampagne und Anzeigengruppe) einbeziehen, erstellen Sie einen Wert für jeden zugehörigen Modifikatorwert. Wenn Sie beispielsweise eine Modifikatorgruppenvariable in einer Anzeigenüberschrift verwenden und die Modifikatorgruppe drei Modifikatoren („billig“, „Rabatt“ und „erschwinglich„) enthält, werden drei separate Anzeigen für jede Datenzeile im Daten-Feed erstellt - eine für jeden Modifikator. Wenn Sie eine Modifikatorgruppe mit mehreren Werten in die Basis-URL für eine Anzeigengruppe aufnehmen, wird für jede der resultierenden Basis-URLs ein Schlüsselwortsatz erstellt.
 

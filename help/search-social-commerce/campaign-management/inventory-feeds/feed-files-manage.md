@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Verwalten von Inventardaten-Feed-Dateien
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Wenn Sie Ihre eigenen Feed-Daten übermitteln, müssen Sie Dateien hochladen, die Ihre Produktdaten enthalten, um basierend auf Ihren Produktdaten dynamisch Kampagnenstruktur, Anzeigen und Keywords zu erstellen. Sie können sie dann mit Anzeigennetzwerk-spezifischen Anzeigenvorlagen verknüpfen, die Daten über die Vorlagen verarbeiten und die Daten schließlich an die entsprechenden Anzeigennetzwerke senden. Sie können einer Feed-Datei mehrere Vorlagen zuordnen, aber jede Vorlage kann nur einer Feed-Datei zugeordnet werden.
 
