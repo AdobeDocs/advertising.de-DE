@@ -4,12 +4,9 @@ description: Erfahren Sie, wie Sie Anzeigen erstellen und verwalten.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 743
@@ -39,7 +36,7 @@ Sie können den Status von Anzeigen in der Ansicht [!UICONTROL Campaigns] > [!UI
 
 1. Wählen Sie das Werbenetzwerk, das Konto, die Kampagne, die Anzeigengruppe und den Anzeigentyp aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-   Weitere Informationen zu den verschiedenen Anzeigentypen finden Sie unter &quot;[&#x200B; zu Anzeigen](ad-about.md).
+   Weitere Informationen zu den verschiedenen Anzeigentypen finden Sie unter &quot;[ zu Anzeigen](ad-about.md).
 
 1. Geben Sie die Einstellungen [[!DNL Baidu] Textanzeige](ad-settings-baidu-text.md), [[!DNL Google Ads] Nur-Aufruf-Anzeige](ad-settings-google-call.md), [[!DNL Google Ads] Erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google-Anzeigen nur „dynamische Suchanzeige“ genannt), [[!DNL Google Ads] Responsive Suchanzeige](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] Erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] Produktanzeige](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] Responsive (Zielgruppe) Anzeige](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] Responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [[!DNL Yandex] Text-Anzeige](ad-settings-yandex-text.md) ein.
 

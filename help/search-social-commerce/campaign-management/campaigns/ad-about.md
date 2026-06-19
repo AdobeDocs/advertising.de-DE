@@ -4,12 +4,9 @@ description: Erfahren Sie mehr über Anzeigen in Search, Social und Commerce, ei
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 918
@@ -43,7 +40,7 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
   Wenn der Suchbegriff eines Benutzers genau mit einem Keyword in einer Ihrer schlüsselwortbasierten Kampagnen übereinstimmt, wird anstelle einer dynamischen Suchanzeige eine Anzeige aus der schlüsselwortbasierten Kampagne angezeigt. Das Anzeigennetzwerk zeigt eine dynamische Suchanzeige anstelle einer auf ein Keyword ausgerichteten Anzeige an, wenn der Suchbegriff des Benutzers eine breite Übereinstimmung oder Phrase mit einem Ihrer Keywords aufweist und Ihre dynamische Suchanzeige einen höheren Anzeigenrang hat.
 
-  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] &#x200B;](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
+  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] ](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimedia-Anzeigen** für [!DNL Microsoft Advertising] Suchkampagnen. Multimedia-Anzeigen sind große Bildanzeigen, die an hervorgehobenen Positionen in der Haupt- und Seitenleiste angezeigt werden und pro Seite nur eine Multimedia-Anzeige angezeigt wird. Sie können mehrere Text- und Bild-Assets enthalten, z. B. responsive Anzeigen. Das Werbenetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen. Multimedia-Anzeigen ersetzen nicht Ihre Text-Anzeigenplatzierungen.
 

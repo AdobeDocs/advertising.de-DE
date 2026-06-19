@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die verfügbaren Datenspalten für einfache
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: '3843'
+source-wordcount: '3841'
 ht-degree: 0%
 
 ---

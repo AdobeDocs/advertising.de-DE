@@ -4,10 +4,8 @@ description: Erfahren Sie, wie Sie eine Kennzeichnungsklassifizierung erstellen,
 exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 302
@@ -29,7 +27,7 @@ Jeder Advertiser kann über bis zu 30 Label-Klassifizierungen verfügen.
 
    Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen. Die maximale Länge beträgt 27 Einzelbyte-Zeichen. Der Name darf nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte identisch sein. Siehe die Namen der Bulksheet-Spalten für [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Display Network](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
-Nachdem Sie eine Kennzeichnungsklassifizierung erstellt haben, können Sie bestimmte Kennzeichnungswerte für die Klassifizierung erstellen und die Kennzeichnungswerte den Kontoentitäten aus den [Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md) oder [mithilfe von Bulksheets“ &#x200B;](classification-values-assign-bulksheets.md).
+Nachdem Sie eine Kennzeichnungsklassifizierung erstellt haben, können Sie bestimmte Kennzeichnungswerte für die Klassifizierung erstellen und die Kennzeichnungswerte den Kontoentitäten aus den [Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md) oder [mithilfe von Bulksheets“ ](classification-values-assign-bulksheets.md).
 
 ## (Alte Benutzeroberfläche) Erstellen einer Kennzeichnungsklassifizierung
 
@@ -41,7 +39,7 @@ Nachdem Sie eine Kennzeichnungsklassifizierung erstellt haben, können Sie besti
 
    Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen. Die maximale Länge beträgt 27 Einzelbyte-Zeichen. Der Name darf nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte identisch sein. Siehe die Namen der Bulksheet-Spalten für [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Display Network](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
-Nachdem Sie eine Kennzeichnungsklassifizierung erstellt haben, können Sie bestimmte Kennzeichnungswerte für die Klassifizierung erstellen und die Kennzeichnungswerte den Kontoentitäten aus den [Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md) oder [mithilfe von Bulksheets“ &#x200B;](classification-values-assign-bulksheets.md).
+Nachdem Sie eine Kennzeichnungsklassifizierung erstellt haben, können Sie bestimmte Kennzeichnungswerte für die Klassifizierung erstellen und die Kennzeichnungswerte den Kontoentitäten aus den [Kampagnenverwaltungsansichten](classification-values-assign-campaign-management.md) oder [mithilfe von Bulksheets“ ](classification-values-assign-bulksheets.md).
 
 >[!MORELIKETHIS]
 >
