@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie die Synchronisierung Ihrer Kampagnenstruktur 
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/3X49sKMCu3P0X1CUUEpkmTXv4fdoeKk0sBAty5MBd8Y
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 393
@@ -27,7 +29,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Upload]&quot; generiert und
 
 >[!NOTE]
 >
->Jedes Mal, [ Sie eine Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
+>Jedes Mal, [&#x200B; Sie eine Bulksheet erstellen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**. Wählen Sie im Untermenü entweder **[!UICONTROL Accounts]** aus, um alle Kampagnen in bestimmten Konten zu synchronisieren, oder **[!UICONTROL Campaigns]**, um bestimmte Kampagnen zu synchronisieren.
 

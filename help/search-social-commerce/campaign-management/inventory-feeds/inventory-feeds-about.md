@@ -4,8 +4,10 @@ description: Erfahren Sie mehr über das erweiterte Kampagnen-Management, mit de
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 846
@@ -34,7 +36,7 @@ Erstellen Sie zum Einrichten Ihrer Anzeigen Inventar-Feed-Vorlagen mit Variablen
 Nachdem Sie die Anzeigen erstellt haben, können Sie sie optional überprüfen und dann im Anzeigennetzwerk posten.
 
 >[!NOTE]
->Informationen zum Massenerstellen oder Bearbeiten von Kampagnendaten mithilfe von Kalkulationstabellendateien finden Sie unter &quot;[ zum Verwalten von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Informationen zum Massenerstellen oder Bearbeiten von Kampagnendaten mithilfe von Kalkulationstabellendateien finden Sie unter &quot;[&#x200B; zum Verwalten von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 ## Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds
 
@@ -52,7 +54,7 @@ Zunächst sollten Sie mindestens eine Feed-Datei oder ein Konto testen und dann 
 
    Wenn Sie FTP verwenden, veröffentlichen Sie zunächst nicht automatisch Daten in den Werbenetzwerken. Nachdem Sie die Ausgabe aus Ihrer ersten Datei überprüft haben und mit den Ergebnissen zufrieden sind, können Sie die Einstellungen ändern.
 
-1. Laden Sie eine Datendatei in das FTP-Verzeichnis hoch [laden Sie eine Datendatei manuell ](feed-files-manage.md) die [!UICONTROL Advanced (ACM) view] hoch oder [aktivieren Sie den Zugriff auf ein Google- oder Microsoft-Händlerkonto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Laden Sie eine Datendatei in das FTP-Verzeichnis hoch [laden Sie eine Datendatei manuell &#x200B;](feed-files-manage.md) die [!UICONTROL Advanced (ACM) view] hoch oder [aktivieren Sie den Zugriff auf ein Google- oder Microsoft-Händlerkonto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Um Dateien manuell hochzuladen, können Sie warten, bis Sie eine Vorlage erstellen, die die Datendatei verwendet.
 
