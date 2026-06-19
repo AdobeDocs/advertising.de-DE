@@ -4,15 +4,12 @@ description: Erfahren Sie mehr über Anzeigennetzwerkkonten in Search, Social un
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -25,9 +22,9 @@ Search, Social und Commerce können jedes Konto eines Werbetreibenden in unterst
 
 ## Über APIs synchronisierte Konten
 
-*[!DNL Google Ads], [!DNL LY Ads] (früher [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] und vorhandene [!DNL Baidu] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (früher [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (früher [!DNL Bing Ads]), [!DNL Yahoo DSP] (früher [!DNL Yahoo! Display Network]), [!DNL Yandex] und vorhandene [!DNL Baidu] Konten*
 
-Search, Social und Commerce synchronisiert (*synchronisiert*) mit unterstützten Anzeigennetzwerkkonten, damit Sie die Leistung Ihrer Anzeigen verfolgen, Berichte dazu erstellen und visualisieren können. Für alle Werbenetzwerke außer [!DNL Yahoo! Display Network] können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce; verwalten. [!DNL Yahoo! Display Network] sind Kampagnen schreibgeschützt. Für alle Werbenetzwerke können Sie die Optimierungsfunktion aktivieren, um Angebote, Kampagnenbudgets und Kampagnenangebotstrategie-Ziele für Kampagnen in verwalteten Konten zu optimieren, indem Sie die Kampagnen zu Portfolios hinzufügen.
+Search, Social und Commerce synchronisiert (*synchronisiert*) mit unterstützten Anzeigennetzwerkkonten, damit Sie die Leistung Ihrer Anzeigen verfolgen, Berichte dazu erstellen und visualisieren können. Für alle Werbenetzwerke außer [!DNL Yahoo DSP] können Sie optional die Kampagnen für Ihr Konto in Search, Social und Commerce verwalten. [!DNL Yahoo DSP] sind Kampagnen schreibgeschützt. Für alle Werbenetzwerke können Sie die Optimierungsfunktion aktivieren, um Angebote, Kampagnenbudgets und Kampagnenangebotstrategie-Ziele für Kampagnen in verwalteten Konten zu optimieren, indem Sie die Kampagnen zu Portfolios hinzufügen.
 
 Um die Synchronisierung eines Kontos zu aktivieren, muss der Kontodatensatz die Anmeldedaten für den Kontozugriff enthalten und aktiviert (aktiv) sein.
 
@@ -43,7 +40,7 @@ Mit Tracking-Kampagnen können Sie die Leistung der Anzeigen, die Sie direkt im 
 
 Damit Search, Social und Commerce Konversionen Klicks zuordnen können, richten Sie Tracking-Optionen im Kontodatensatz ein und aktivieren Sie den Kontodatensatz. Anschließend können Sie Bulksheets verwenden, um Tracking-URLs für Ihre Anzeigen und Keywords zu generieren, und die Tracking-URLs manuell in den [!DNL Naver] Ad Manager einfügen.
 
-Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
+Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
 
 >[!MORELIKETHIS]
 >

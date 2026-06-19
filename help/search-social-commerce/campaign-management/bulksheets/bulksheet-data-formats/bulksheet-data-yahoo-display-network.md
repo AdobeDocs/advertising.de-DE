@@ -1,27 +1,25 @@
 ---
-title: 'Bulksheet-Daten für  [!DNL Yahoo! Display Network] '
-description: Referenzieren Sie die Header- und Datenfelder in heruntergeladenen Bulksheets für - [!DNL Yahoo! Display Network] .
+title: 'Bulksheet-Daten für  [!DNL Yahoo DSP] '
+description: Referenzieren Sie die Header- und Datenfelder in heruntergeladenen Bulksheets für - [!DNL Yahoo DSP] .
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 525
 ht-degree: 0%
 
 ---
 
-# Anhang - Bulksheet-Daten für [!DNL Yahoo! Display Network] Konten
+# Anhang - Bulksheet-Daten für [!DNL Yahoo DSP] Konten
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Sie können Daten für [!DNL Yahoo! Display Network] Konten massenweise herunterladen, aber keine Bulksheets in das Werbenetzwerk hochladen oder posten.
+Sie können Daten für [!DNL Yahoo DSP] (früher [!DNL Yahoo! Display Network]) Konten massenweise herunterladen, aber keine Bulksheets in das Werbenetzwerk hochladen oder posten.
 
 ## Verfügbare Datenfelder
 
