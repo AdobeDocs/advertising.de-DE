@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie manuell eine Klick-Tracking-URL für Search, 
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
 TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +85,7 @@ Informationen dazu, wann Sie eine Klick-Tracking-URL manuell generieren und impl
 
 Geben Sie für Konten mit Ziel-URLs die Werte in die entsprechenden [!UICONTROL Base URL] ein.
 
-Geben Sie für Konten mit endgültigen URLs den Bildschirmwert in das entsprechende [!UICONTROL Tracking Template] ein. Sie müssen nach dem `&url=` Parameter einen Parameter für die endgültige URL hinzufügen (z. B. `{lpurl}`). Verwenden Sie für [!DNL Yahoo! Japan Ads] Konten den Parameter `{lpurl}`. Eine Liste der [!DNL Google Ads]- und [!DNL Microsoft Advertising] zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe die Parameter „Nur Tracking-Vorlage“ im Abschnitt „Verfügbare [!DNL ValueTrack]„) und in der [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Geben Sie für Konten mit endgültigen URLs den Bildschirmwert in das entsprechende [!UICONTROL Tracking Template] ein. Sie müssen nach dem `&url=` Parameter einen Parameter für die endgültige URL hinzufügen (z. B. `{lpurl}`). Verwenden Sie für [!DNL LY Ads] Konten den Parameter `{lpurl}`. Eine Liste der [!DNL Google Ads]- und [!DNL Microsoft Advertising] zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348) (siehe die Parameter „Nur Tracking-Vorlage“ im Abschnitt „Verfügbare [!DNL ValueTrack]„) und in der [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

@@ -4,18 +4,12 @@ description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto e
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -53,7 +47,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
    1. Geben Sie im Abschnitt **[!UICONTROL Account Details]** die Kontodetails ein.
 
-      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto &#x200B;](https://oauth.net/2/):
+      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto ](https://oauth.net/2/):
 
       1. Geben Sie den **[!UICONTROL Login]** für das Konto ein, geben Sie optional das Kennwort ein, und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
@@ -177,7 +171,7 @@ Für [!DNL Microsoft Advertising]-Konten können nur [!DNL oAuth]-autorisierte A
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] und alle anderen Netzwerke außer [!DNL Meta] und [!DNL Yandex]) Das Token des Kontos, um Anmeldungen mithilfe des [[!DNL OAuth] Autorisierungsprotokolls](https://oauth.net/2/) zu autorisieren.
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alle Werbenetzwerke außer [!DNL Naver]) Das Kennwort für das Konto. Für kennwortaktivierte Konten in [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] und [!DNL Yandex] ist dieses Feld erforderlich. Bei [!DNL oAuth]-aktivierten Konten ist dieses Feld optional. Verwenden Sie es, wenn Sie das Kennwort verschlüsseln und speichern möchten, damit der Konto-Manager Token nach Bedarf aktualisieren kann.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alle Werbenetzwerke außer [!DNL Naver]) Das Kennwort für das Konto. Für kennwortaktivierte Konten in [!DNL LY Ads], [!DNL Microsoft Advertising] und [!DNL Yandex] ist dieses Feld erforderlich. Bei [!DNL oAuth]-aktivierten Konten ist dieses Feld optional. Verwenden Sie es, wenn Sie das Kennwort verschlüsseln und speichern möchten, damit der Konto-Manager Token nach Bedarf aktualisieren kann.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** (nur [!DNL Yandex] Konten) Der Zugriffsschlüssel für das zu verwendende Entwicklerkonto.
 
@@ -201,13 +195,13 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 * *Aktiviert:* Search, Social und Commerce synchronisiert Kampagnendaten mit dem Konto (falls unterstützt) und sendet automatisierte Gebote und/oder Kampagnenbudgets für Kampagnen in Portfolios.
 * *Deaktiviert:* Search, Social und Commerce stoppen alle Aktivitäten im Konto. Daten, die erfasst wurden, während das Konto aktiv war, werden weiterhin gespeichert, aber die Kampagnenverwaltungsansichten und -berichte enthalten keine Daten für den Zeitraum, in dem das Konto pausiert wurde. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto fortzusetzen.
 
-**Tracking-Vorlage** - (Nur [!DNL Google Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yahoo! Japan Ads]-Konten; optional) Die standardmäßige Tracking-Vorlage für das Konto, in der alle Weiterleitungen und Tracking-Parameter für Off-Landing-Domains angegeben und die endgültige/Landingpage-URL ebenfalls in einen Parameter eingebettet wird. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
+**Tracking-Vorlage** - (Nur [!DNL Google Ads]-, [!DNL LY Ads]- und [!DNL Microsoft Advertising]-Konten; optional) Die standardmäßige Tracking-Vorlage für das Konto, in der alle Weiterleitungen und Tracking-Parameter für Off-Landing-Domains angegeben und die endgültige/Landingpage-URL ebenfalls in einen Parameter eingebettet wird. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
 * Einbetten der endgültigen URL:
 
    * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * (Nur [!DNL Yahoo! Japan Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
+   * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
 
 * Sie können optional URL-Parameter und beliebige benutzerdefinierte Parameter einbeziehen, die für die Kampagne definiert wurden und durch kaufmännische Und-Zeichen (&amp;) getrennt sind, z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,7 +255,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 * **S_kwcid-Format:** (Bestehende [!DNL Google Ads]-Konten für Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
 
-Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
+Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

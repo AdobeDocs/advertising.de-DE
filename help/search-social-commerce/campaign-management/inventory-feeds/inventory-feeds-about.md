@@ -4,20 +4,18 @@ description: Erfahren Sie mehr über das erweiterte Kampagnen-Management, mit de
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # Automatisieren der Anzeigenverwaltung mithilfe von Inventar-Feeds
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Die Ansicht [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] für erweiterte Kampagnenverwaltung ermöglicht es Ihnen, automatisch die Struktur der Werbenetzwerkkonten zu erstellen und zu aktualisieren und dynamische Anzeigen basierend auf den Daten über Ihr Produkt- oder Service-Inventar bereitzustellen. Sie können täglich oder beliebig oft neue Dateien mit Produktdaten hochladen oder direkt auf ein [!DNL Google]- oder [!DNL Microsoft] Merchant Center-Konto verlinken. Verwenden Sie die Funktion, um:
 
@@ -31,16 +29,16 @@ Erstellen Sie zum Einrichten Ihrer Anzeigen Inventar-Feed-Vorlagen mit Variablen
 
 | Abschnitt der Vorlage [!UICONTROL Ad Variation] | Modifikatoren in Search, Social und Commerce | Feed-Inhalte | Entsprechende Anzeigen |
 |----|----|----|----|
-| Titel: Kaufen Sie High-End \{<i>Produktkategorie</i>\} <i>CheapList</i>>.<br><br>Beschreibung 1: Riesiger Bestand von \{<i>Product Name</i>\}.<br><br>Beschreibung 2: Verfügbar unter \{<i>Rabatt in Prozent</i>\} % Rabatt. | Werte für die Modifikatorgruppe „CheapList“:<br><br>„for Cheap“<br><br>„at a Discount“ | Produktkategorie,Produktname,Rabatt-Prozentsatz<br>Elektronik,iPods,10<br><br>Bekleidung,Hemden,15<br><br><b>Hinweis:</b> Sie können Werte durch Kommas oder Tabulatoren trennen. | <u>Kaufen Sie High-End-Elektronik für günstig.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Elektronik zu einem Rabatt.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung für günstig.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung zu einem Rabatt.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt. |
+| Titel: High-End kaufen \{<i>Produktkategorie</i>\} &lt;<i>CheapList</i>>.<br><br>Beschreibung 1: Riesiger Bestand an \{<i>Produktname</i>\}.<br><br>Beschreibung 2: Verfügbar unter \{<i>Discount Percentage</i>\}% Rabatt. | Werte für die Modifikatorgruppe „CheapList“:<br><br>„for Cheap“<br><br>„at a Discount“ | Produktkategorie,Produktname,Rabatt-Prozentsatz<br>Elektronik,iPods,10<br><br>Bekleidung,Hemden,15<br><br><b>Hinweis:</b> Sie können Werte durch Kommas oder Tabulatoren trennen. | <u>Kaufen Sie High-End-Elektronik für günstig.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Elektronik zu einem Rabatt.</u><br>Großer Bestand an Tablets. Erhältlich mit 10% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung für günstig.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt.<br><br><u>Kaufen Sie High-End-Kleidung zu einem Rabatt.</u><br>Riesige Auswahl an Hemden. Erhältlich mit 15% Rabatt. |
 
 Nachdem Sie die Anzeigen erstellt haben, können Sie sie optional überprüfen und dann im Anzeigennetzwerk posten.
 
 >[!NOTE]
->Informationen zum Massenerstellen oder Bearbeiten von Kampagnendaten mithilfe von Kalkulationstabellendateien finden Sie unter &quot;[&#x200B; zum Verwalten von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Informationen zum Massenerstellen oder Bearbeiten von Kampagnendaten mithilfe von Kalkulationstabellendateien finden Sie unter &quot;[ zum Verwalten von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 ## Workflow für die Verwaltung von Kampagnendaten mithilfe von Inventar-Feeds
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Zunächst sollten Sie mindestens eine Feed-Datei oder ein Konto testen und dann den Prozess vollständig automatisieren oder bei jedem Schritt weiter steuern:
 
@@ -54,7 +52,7 @@ Zunächst sollten Sie mindestens eine Feed-Datei oder ein Konto testen und dann 
 
    Wenn Sie FTP verwenden, veröffentlichen Sie zunächst nicht automatisch Daten in den Werbenetzwerken. Nachdem Sie die Ausgabe aus Ihrer ersten Datei überprüft haben und mit den Ergebnissen zufrieden sind, können Sie die Einstellungen ändern.
 
-1. Laden Sie eine Datendatei in das FTP-Verzeichnis hoch [laden Sie eine Datendatei manuell &#x200B;](feed-files-manage.md) die [!UICONTROL Advanced (ACM) view] hoch oder [aktivieren Sie den Zugriff auf ein Google- oder Microsoft-Händlerkonto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Laden Sie eine Datendatei in das FTP-Verzeichnis hoch [laden Sie eine Datendatei manuell ](feed-files-manage.md) die [!UICONTROL Advanced (ACM) view] hoch oder [aktivieren Sie den Zugriff auf ein Google- oder Microsoft-Händlerkonto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Um Dateien manuell hochzuladen, können Sie warten, bis Sie eine Vorlage erstellen, die die Datendatei verwendet.
 

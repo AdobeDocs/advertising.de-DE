@@ -2,16 +2,16 @@
 title: Verwalten von Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 feature: Search Label Classifications
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Kennzeichnungsklassifizierungen
 
-Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder &#x200B;](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
+Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder ](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
 
 ## Komponenten von Kennzeichnungsklassifizierungen
 
@@ -21,7 +21,7 @@ Jeder Advertiser kann über bis zu 30 Label-Klassifizierungen verfügen, bei den
 
 ### Kennzeichnungswerte
 
-Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [&#x200B; Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets) &#x200B;](#classification-values-assign-bulksheets).
+Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [ Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets) ](#classification-values-assign-bulksheets).
 
 Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen, aber nur einen Kennzeichnungswert pro Klassifizierung haben. Kennzeichnungswerte werden von untergeordneten Entitäten übernommen, können jedoch überschrieben werden. Der Wert, der auf der niedrigsten Ebene zugewiesen wird, überschreibt immer die Werte, die auf den übergeordneten Ebenen zugewiesen werden.
 
@@ -37,9 +37,9 @@ Die Ansicht [!UICONTROL Reports] > [!UICONTROL Labels Classifications] enthält 
 
 * [Erstellen Sie eine Klassifizierung für die Bezeichnung](#classification-create).
 
-* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets](#classification-values-assign-bulksheets).
+* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets](#classification-values-assign-bulksheets).
 
-* [Entfernen Sie Kennzeichnungswerte aus den &#x200B;](#classification-values-remove).
+* [Entfernen Sie Kennzeichnungswerte aus den ](#classification-values-remove).
 
 * [Löschen von Kennzeichnungswerten](#classification-values-delete).
 
@@ -55,7 +55,7 @@ Die Ansicht [!UICONTROL Reports] > [!UICONTROL Labels Classifications] enthält 
 
 1. Geben Sie einen eindeutigen Klassifizierungsnamen für die Bezeichnung ein und klicken Sie dann auf **[!UICONTROL Create]**.
 
-   Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen. Die maximale Länge beträgt 27 Einzelbyte-Zeichen. Der Name darf nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte identisch sein. Siehe die Namen der Bulksheet-Spalten für [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Display Network](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Der Name muss für das Advertiser-Konto eindeutig sein und aus [ASCII-Zeichen 32-126](https://www.asciitable.com/) bestehen. Die maximale Länge beträgt 27 Einzelbyte-Zeichen. Der Name darf nicht mit dem Namen einer vorhandenen Berichtsspalte oder einer vorhandenen Bulksheet-Spalte identisch sein. Siehe die Namen der Bulksheet-Spalten für [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Display Network](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ## Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements {#classification-values-assign-campaign-management}
 

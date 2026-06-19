@@ -2,16 +2,11 @@
 title: (Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei
 description: Erfahren Sie, wie Sie Bulksheet-Dateien erstellen, indem Sie Account-Daten für Ihre Werbenetzwerke in die neue Benutzeroberfläche für Search, Social und Commerce herunterladen.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -20,7 +15,7 @@ ht-degree: 0%
 
 # (Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei
 
-Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([&#x200B; Werbenetzwerken) &#x200B;](about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
+Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([ Werbenetzwerken) ](about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
 
 Bei synchronisierten Kampagnen können Sie optional vor dem Herunterladen der Daten mit dem Werbenetzwerk synchronisieren, um sicherzustellen, dass aktuelle Datenänderungen auf der Werbenetzwerk-Seite enthalten sind. Für alle Werbenetzwerke können Sie optional neue Klick-Tracking-URLs generieren, die in die Datei aufgenommen werden sollen.
 
@@ -129,46 +124,46 @@ Kriterien für bestimmte Kampagnen, Anzeigengruppen, Anzeigen/Kreative, Schlüss
 
 ## Bulksheet-Zeilen nach Anzeigennetzwerk {#bulksheet-rows-by-ad-network}
 
-| Bulksheet-Zeile | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | Notizen |
+| Bulksheet-Zeile | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Notizen |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | — |
 | [!UICONTROL Adgroup] | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | — |
-| [!UICONTROL Creative] *ODER* [!UICONTROL Creative (except RSA)] | Ja | Ja | Ja | — | — | Ja | Ja | Ja | Ja | ([!DNL Google Ads]) Für alle Anzeigentypen außer responsiven Suchanzeigen verwenden, die in der [!UICONTROL Responsive Search Ad] Zeile verfügbar sind. |
-| [!UICONTROL Responsive Search Ad] | — | Ja | Ja | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | Ja | Ja | Ja | Ja | Ja | — | Ja | Ja | Ja | Verwenden Sie nur für nicht negative Keywords. Wenn Sie negative Keywords auf Kampagnen- oder Anzeigengruppenebene sehen möchten, verwenden Sie die Zeile [!UICONTROL Campaign Negative Keyword] oder [!UICONTROL Adgroup Negative Keyword] , sofern verfügbar. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | Ja | — | — | — | — | — |
+| [!UICONTROL Creative] *ODER* [!UICONTROL Creative (except RSA)] | Ja | Ja | Ja | Ja | — | — | Ja | Ja | Ja | ([!DNL Google Ads]) Für alle Anzeigentypen außer responsiven Suchanzeigen verwenden, die in der [!UICONTROL Responsive Search Ad] Zeile verfügbar sind. |
+| [!UICONTROL Responsive Search Ad] | — | Ja | — | Ja | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | Ja | Ja | Ja | Ja | Ja | Ja | — | Ja | Ja | Verwenden Sie nur für nicht negative Keywords. Wenn Sie negative Keywords auf Kampagnen- oder Anzeigengruppenebene sehen möchten, verwenden Sie die Zeile [!UICONTROL Campaign Negative Keyword] oder [!UICONTROL Adgroup Negative Keyword] , sofern verfügbar. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | Ja | — | — | — | — |
 | [!UICONTROL Placement] | — | Ja | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | Ja | Ja | — | — | — | — | — | — | Wird für dynamische Suchziele für eine Anzeigengruppe verwendet. |
-| [!UICONTROL Shopping Product Group] | — | Ja | Ja | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | Ja | Ja | — | — | — | — | Ja | — | — |
-| [!UICONTROL Campaign Negative Keyword] | Ja | Ja | Ja | — | — | — | Ja | Ja | — | Verwenden Sie nur für negative Keywords, die auf Kampagnen- oder Anzeigengruppenebene erstellt wurden. Um nicht negative Keywords anzuzeigen, verwenden Sie die [!UICONTROL Keyword] Zeile, sofern verfügbar. |
-| [!UICONTROL Campaign Negative Website] | — | Ja | Ja | — | — | — | — | Ja | — | — |
+| [!UICONTROL Auto Target] | — | Ja | — | Ja | — | — | — | — | — | Wird für dynamische Suchziele für eine Anzeigengruppe verwendet. |
+| [!UICONTROL Shopping Product Group] | — | Ja | — | Ja | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | Ja | — | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Campaign Negative Keyword] | Ja | Ja | Ja | Ja | — | — | — | Ja | — | Verwenden Sie nur für negative Keywords, die auf Kampagnen- oder Anzeigengruppenebene erstellt wurden. Um nicht negative Keywords anzuzeigen, verwenden Sie die [!UICONTROL Keyword] Zeile, sofern verfügbar. |
+| [!UICONTROL Campaign Negative Website] | — | Ja | — | Ja | — | — | — | Ja | — | — |
 | [!UICONTROL Adgroup Site Link] | — | Ja | — | — | — | — | — | Ja | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | Ja | — |
-| [!UICONTROL Adgroup Negative Keyword] | Ja | Ja | Ja | — | — | — | Ja | Ja | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | Ja | Ja | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | Ja | Ja | Ja | — | — | — | Ja | Ja | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | Ja | — | — | — | — | Ja | — | — |
-| [!UICONTROL Campaign Device Target] | — | Ja | Ja | — | — | — | — | Ja | — | — |
-| [!UICONTROL Adgroup Device Target] | — | Ja | Ja | — | — | — | — | Ja | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | Ja | Ja | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | Ja | Ja | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | Ja | Ja | Ja | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | Ja | — | Ja | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | Ja | Ja | Ja | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Campaign Device Target] | — | Ja | — | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Adgroup Device Target] | — | Ja | — | Ja | — | — | — | Ja | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | Ja | — | Ja | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | Ja | — | Ja | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | Ja | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | Ja | — | — | — | — | — | — | — | — |
 
 Einzelheiten zu den erforderlichen und optionalen Spalten für jedes Anzeigennetzwerk finden Sie in den Artikeln zum Anzeigennetzwerk-spezifischen Bulksheet-Datenformat:
 
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo! Japan Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL LY Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo! Display Network] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)

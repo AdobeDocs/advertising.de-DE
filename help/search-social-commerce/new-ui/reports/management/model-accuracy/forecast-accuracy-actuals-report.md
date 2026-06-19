@@ -2,9 +2,9 @@
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Forecast Accuracy (Actuals) Report], einschließlich der Datenspalten.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Im Folgenden finden Sie die Spalten, die automatisch in jedem Bericht enthalten 
 | [!UICONTROL Portfolio Status] | Standard | Der Portfoliostatus:<ul><li><i>[!UICONTROL Optimize]:</i> Die Optimierungsfunktion sammelt Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die für die Optimierung verwendeten Daten und optimiert Gebote, Kampagnenbudgets und Kampagnen-Bid-Strategie-Ziele (abhängig vom Optimierungstyp und den Bid-Strategien).</li><li><i>[!UICONTROL Active]:</i> Die Optimierungsfunktion sammelt Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li><i>[!UICONTROL Inactive]:</i> Die Optimierungsfunktion sammelt Klickdaten für die relevanten Kampagnen zu Berichtszwecken, aber sie modelliert weder die Daten noch optimiert sie Gebote oder Kampagnenbudgets. |
 | [!UICONTROL Day of Week] | Standard | Der Tag der gemeldeten Woche: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> oder <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Event Date] | Standard | Das gemeldete Datum. |
-| [!UICONTROL Device] | Standard | (Google Ads, Microsoft Advertising, Yahoo! Display-Netzwerk, Yahoo! Japan Ads und Yahoo Native Kampagnen) Der Gerätetyp, auf dem Anzeigen angezeigt wurden: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> oder <i>[!UICONTROL N/A]</i> (kein Wert). Zeilen für andere Werbenetzwerke haben Werte von <i>[!UICONTROL N/A]</i>.<br><br>In Suchkampagnen, wenn die Tracking-Vorlagen oder Ziel-URLs für die Keywords, Anzeigen und/oder Anzeigenerweiterungen Parameter zum Tracking von Daten nach Gerät enthalten (<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>) zu dem Zeitpunkt, als auf die Anzeige geklickt wurde, sind die Konversionsdaten ebenfalls in der Zeile für jeden Gerätetyp enthalten. Andernfalls werden Konversionsdaten, die keinem Gerätetyp zugeordnet werden können, in einer separaten Zeile mit dem Wert &quot;[!UICONTROL Device]&quot; <i>[!UICONTROL N/A]</i> aggregiert. |
+| [!UICONTROL Device] | Standard | (Google Ads, [!DNL LY Ads], Microsoft Advertising, Yahoo! Netzwerk anzeigen und native Yahoo-Kampagnen) Der Gerätetyp, auf dem Anzeigen angezeigt wurden: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> oder <i>[!UICONTROL N/A]</i> (kein Wert). Zeilen für andere Werbenetzwerke haben Werte von <i>[!UICONTROL N/A]</i>.<br><br>In Suchkampagnen, wenn die Tracking-Vorlagen oder Ziel-URLs für die Keywords, Anzeigen und/oder Anzeigenerweiterungen Parameter zum Tracking von Daten nach Gerät enthalten (<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>) zu dem Zeitpunkt, als auf die Anzeige geklickt wurde, sind die Konversionsdaten ebenfalls in der Zeile für jeden Gerätetyp enthalten. Andernfalls werden Konversionsdaten, die keinem Gerätetyp zugeordnet werden können, in einer separaten Zeile mit dem Wert &quot;[!UICONTROL Device]&quot; <i>[!UICONTROL N/A]</i> aggregiert. |
 | [!UICONTROL Revenue] | Standard | Die Gesamteinnahmen. |
 | [!UICONTROL Impressions] | Standard | Die Gesamtzahl der Impressionen. |
 | [!UICONTROL Clicks] | Standard | Die Gesamtzahl der Klicks. |

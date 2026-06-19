@@ -4,11 +4,9 @@ description: Erfahren Sie mehr über den Status von Daten, die aus Inventardaten
 exl-id: 45c93fb2-0ed2-4336-9883-e150c292a7a5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/3QPUheA0wIhk8aVqCcqeTGbgz9FdMUHstnpm5V8AXgE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 260
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # Status der von Feeds generierten Daten
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Jede Komponente kann einen der folgenden Status aufweisen:
 

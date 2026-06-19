@@ -4,20 +4,18 @@ description: Erfahren Sie, wie Sie Anzeigenkampagnen erstellen und verwalten.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 745
+source-wordcount: 738
 ht-degree: 0%
 
 ---
 
 # Verwalten von Kampagnen
 
-Nur *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
+Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
 
 Eine Kampagne ist die Hauptkomponente eines Anzeigennetzwerkkontos. Bei den meisten Kampagnentypen besteht sie aus einer Reihe von Anzeigengruppen oder Anzeigengruppen. Die Kampagneneinstellungen umfassen Kampagnenbudgetparameter, Anzeigenziele und optionale Tracking-Parameter für alle Anzeigen in der Kampagne. Tracking-Parameter auf Kampagnenebene überschreiben die Parameter auf Kontoebene, können jedoch auf niedrigerer Ebene überschrieben werden.
 
@@ -27,7 +25,7 @@ Sobald Sie [ein Anzeigennetzwerkkonto barrierefrei machen](/help/search-social-c
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie die Funktion [Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
@@ -36,9 +34,9 @@ Sobald Sie [ein Anzeigennetzwerkkonto barrierefrei machen](/help/search-social-c
 
 1. Wählen Sie das Werbenetzwerk, das Konto und den Kampagnentyp aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-   Beschreibungen der einzelnen Kampagnentypen finden Sie unter [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) Kampagneneinstellungen.
+   Beschreibungen der einzelnen Kampagnentypen finden Sie in den [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-1. Geben Sie die [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) Kampagneneinstellungen.
+1. Geben Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) ein.
 
    Je nach Anzeigennetzwerk können die Einstellungen in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], ([!DNL Google Ads]) [!UICONTROL DSA Options] und ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals] gruppiert werden. Um ggf. zusätzliche Einstellungen zu konfigurieren, z. B. [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] oder [!UICONTROL Campaign Goals], klicken Sie auf **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** bzw. **[!UICONTROL Set Campaign Goals]**.
 
@@ -68,7 +66,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
       * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) Kampagneneinstellungen.
+1. Bearbeiten Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Bei mehreren Kampagnen können die Einstellungen je nach Anzeigennetzwerk in [!UICONTROL Campaign Details], [!UICONTROL Budget Options] und [!UICONTROL URL Options] gruppiert werden. Sie können nur die Felder bearbeiten, die für alle ausgewählten Kampagnen gelten. Ihre Änderungen werden auf alle ausgewählten Kampagnen angewendet. Bei einigen alphanumerischen Feldern haben Sie Optionen, um vorhandene Werte in einen angegebenen Wert zu ändern, eine vorhandene Zeichenfolge durch eine angegebene Zeichenfolge zu ersetzen, ein angegebenes Präfix an den Anfang jedes Werts hinzuzufügen oder ein Suffix an das Ende jedes Werts anzuhängen. Bei einigen Währungsfeldern haben Sie die Möglichkeit, vorhandene Werte in einen bestimmten Wert zu ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Grenze zu erhöhen oder zu verringern.
 
@@ -108,6 +106,6 @@ Sie können auch jede aktive oder angehaltene Suchkampagne löschen. Gelöschte 
 >
 >* [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [[!DNL Yandex] Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

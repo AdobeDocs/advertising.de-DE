@@ -3,9 +3,9 @@ title: (Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails in der neuen Benutzeroberfläche für ein über die Werbenetzwerk-API synchronisiertes Werbenetzwerk einrichten und verwalten.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 >* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie die Tracking-URLs für das Konto neu generieren.
 >* Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
-**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
+**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
 Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Der automatische Upload-Prozess handhabt zukünftige Änderungen.
 
@@ -228,13 +228,13 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 >* Dieses Feld wird von der Einstellung „Tracking [!UICONTROL Auto Update]&quot; nicht aktualisiert.
 >* Endgültige URL-Suffixe auf niedrigeren Ebenen überschreiben das Suffix auf Kontoebene. Zur einfacheren Wartung verwenden Sie nur das Suffix auf Kontoebene, es sei denn, eine andere Nachverfolgung für einzelne Kontokomponenten ist erforderlich. Um ein Suffix auf Anzeigengruppenebene oder darunter zu konfigurieren, verwenden Sie den Editor des Anzeigennetzwerks.
 
-**Konto-Tracking-URL**: (Nur [!DNL Google Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yahoo! Japan Ads]-Konten; optional) Die standardmäßige Tracking-Vorlage für das Konto, in der alle Umleitungen und Tracking-Parameter für Off-Landing-Domains angegeben und die endgültige/Landingpage-URL ebenfalls in einen Parameter eingebettet wird. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
+**Konto-Tracking-URL**: (Nur [!DNL Google Ads]-, [!DNL LY Ads]- und [!DNL Microsoft Advertising]-Konten; optional) Die standardmäßige Tracking-Vorlage für das Konto, in der alle Umleitungen und Tracking-Parameter für Off-Landing-Domains angegeben und die endgültige/Landingpage-URL ebenfalls in einen Parameter eingebettet wird. Beispiel: `{lpurl}?source={network}&id=5` oder `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`, um eine Umleitung einzuschließen.
 
 * Einbetten der endgültigen URL:
 
    * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * (Nur [!DNL Yahoo! Japan Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
+   * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
 
 * Sie können optional URL-Parameter und beliebige benutzerdefinierte Parameter einbeziehen, die für die Kampagne definiert wurden und durch kaufmännische Und-Zeichen (&amp;) getrennt sind, z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 

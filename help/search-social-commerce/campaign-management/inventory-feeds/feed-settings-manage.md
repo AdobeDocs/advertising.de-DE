@@ -4,20 +4,18 @@ description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern,
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # Konfigurieren von Feed-Dateneinstellungen
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (nur Löschaktionen) und nur [!DNL Yandex] Konten*
+*[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
 
 Sie können über die Feed-Einstellungen konfigurieren, wie Anzeigengruppen, Schlüsselwörter und Anzeigen in Feed-Datendateien verarbeitet werden und wie die Daten in FTP-Dateien verarbeitet werden.
 
@@ -105,11 +103,11 @@ Der Bestand für jeden Zeileneintrag stammt aus einer Spalte in der Feed-Datei, 
 
 **[!UICONTROL Post to the SE]:** (Werbetreibende, die Datendateien über FTP oder ein Händlerkonto hochladen) erstellt automatisch Bulksheet-Dateien in den richtigen Formaten für die relevanten Werbenetzwerke, nachdem neue Daten über die entsprechenden Vorlagen propagiert wurden. Mit dieser Option werden auch die Daten aus den Registerkarten &quot;[!UICONTROL Campaigns]&quot;, &quot;[!UICONTROL Ad Groups]&quot;, &quot;[!UICONTROL Keywords]&quot; und &quot;[!UICONTROL Ads]&quot; entfernt, sofern keine Unterkomponenten Fehler aufweisen.
 
-Diese Option ist standardmäßig deaktiviert. Um diese Option zu aktivieren, aktivieren Sie das Kontrollkästchen und geben Sie dann an, ob Bulksheet-Dateien in die Werbenetzwerke gepostet werden sollen:
+Standardmäßig ist diese Option deaktiviert. Um diese Option zu aktivieren, aktivieren Sie das Kontrollkästchen und geben Sie dann an, ob Bulksheet-Dateien in die Werbenetzwerke gepostet werden sollen:
 
 * *[!UICONTROL Immediately]* (Standard): Stellt die Bulk Sheet-Dateien in den entsprechenden Werbenetzwerken bereit, nachdem die Daten über die Vorlagen weitergegeben wurden. Die Bulksheet-Dateien bleiben 30 Tage lang in der [!UICONTROL Bulksheets] verfügbar.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; sendet die Bulksheet-Dateien nicht in die entsprechenden Werbenetzwerke, sondern listet sie in der [!UICONTROL Bulksheets] Ansicht auf, aus der Sie sie später posten können. Die Bulksheet-Dateien bleiben 30 Tage lang in der [!UICONTROL Bulksheets] verfügbar. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor; Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen. &#x200B;** Tipp:** Wenn Sie Ihre Landingpages noch nicht validiert haben, verwenden Sie diese Option, damit Sie sie in der [!UICONTROL Bulksheets] validieren können, bevor Sie die Daten an das Werbenetzwerk senden.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** sendet die Bulksheet-Dateien nicht in die entsprechenden Werbenetzwerke, sondern listet sie in der [!UICONTROL Bulksheets] Ansicht auf, aus der Sie sie später posten können. Die Bulksheet-Dateien bleiben 30 Tage lang in der [!UICONTROL Bulksheets] verfügbar. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor; Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen. **Tipp:** Wenn Sie Ihre Landingpages noch nicht validiert haben, verwenden Sie diese Option, damit Sie sie in der [!UICONTROL Bulksheets] validieren können, bevor Sie die Daten an das Werbenetzwerk senden.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Schließt das Posten von Keyword-Phrasen mit mehr als einer angegebenen Anzahl von Wörtern im Werbenetzwerk aus. Wenn diese Option ausgewählt ist, werden Keyword-Phrasen mit mehr als der maximalen Anzahl von Wörtern propagiert und auf der Registerkarte [!UICONTROL Keywords] aufgeführt, aber sie werden nicht gepostet, wenn Sie versuchen, die Daten zu posten.
 
