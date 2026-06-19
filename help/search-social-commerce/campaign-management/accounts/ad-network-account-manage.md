@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 >* Dieses Feld wird von der Einstellung „Tracking [!UICONTROL Auto Upload]&quot; nicht aktualisiert.
 >* Endgültige URL-Suffixe auf niedrigeren Ebenen überschreiben das Suffix auf Kontoebene. Zur einfacheren Wartung verwenden Sie nur das Suffix auf Kontoebene, es sei denn, eine andere Nachverfolgung für einzelne Kontokomponenten ist erforderlich. Um ein Suffix auf Anzeigengruppenebene oder darunter zu konfigurieren, verwenden Sie den Editor des Anzeigennetzwerks.
 
-**Zeitzone:** (Alle Werbenetzwerke außer [!DNL Baidu] und [!DNL Yahoo! Display Network]) Die Zeitzone des Werbetreibenden. Dieses Feld kann bearbeitet werden und ist bei neuen [!DNL Naver] optional. Bei allen anderen Suchnetzwerken wird der Wert automatisch mit der Zeitzone ausgefüllt, die für das Konto „Suche“, „Social“ und &quot;Commerce&quot; des Werbetreibenden konfiguriert wurde, sobald der Datensatz gespeichert wird.
+**Zeitzone:** (Alle Werbenetzwerke außer [!DNL Baidu] und [!DNL Yahoo DSP]) Die Zeitzone des Werbetreibenden. Dieses Feld kann bearbeitet werden und ist bei neuen [!DNL Naver] optional. Bei allen anderen Suchnetzwerken wird der Wert automatisch mit der Zeitzone ausgefüllt, die für das Konto „Suche“, „Social“ und &quot;Commerce&quot; des Werbetreibenden konfiguriert wurde, sobald der Datensatz gespeichert wird.
 
 **Status:** Der Kontostatus in Search, Social und Commerce:
 

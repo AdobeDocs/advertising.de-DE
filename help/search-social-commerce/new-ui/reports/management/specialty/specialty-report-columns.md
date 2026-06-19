@@ -2,7 +2,7 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für Sonderberichte.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | Die effektive CPM oder die Durchschnittskosten, die pro 1000 Impressions während eines bestimmten Datumsbereichs bezahlt wurden. eCPM-Werte werden für CPM- oder CPC-Kampagnen berechnet. |
 | [!UICONTROL EF Campaign ID] | Die numerische ID, die Search, Social und Commerce der Kampagne zuweist. |
 | [!UICONTROL EF Portfolio Group ID] | Die numerische ID für die Portfoliogruppe, zu der das Portfolio gehört. |
-| [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 94]</i> für [!DNL LY Ads] (ehemals [!DNL Yahoo! Japan Ads] <i>[!UICONTROL 105]</i>), [!DNL Yahoo Native] für <i>[!UICONTROL 88]</i> (veraltet) oder <i>[!UICONTROL 106]</i> [!DNL Pinterest] für [!DNL Baidu] <i>[!UICONTROL 90]</i> [!DNL Yandex] (veraltet). |
+| [!UICONTROL EF Search Engine ID] | Die numerische ID, die Search, Social und Commerce dem Werbenetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 94]</i> für [!DNL LY Ads] (ehemals [!DNL Yahoo! Japan Ads] <i>[!UICONTROL 105]</i>), [!DNL Yahoo Native] für <i>[!UICONTROL 88]</i> (veraltet) oder <i>[!UICONTROL 106]</i> [!DNL Pinterest] für [!DNL Baidu] <i>[!UICONTROL 90]</i> [!DNL Yandex] (veraltet). |
 | [!UICONTROL End Date] | Der letzte gemeldete Tag. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] Berichte) Der [Anzeigename der Erweiterung](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] Berichte) Die ID für den Typ der Anzeigenerweiterung. |

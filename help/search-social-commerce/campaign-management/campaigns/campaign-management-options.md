@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
 ht-degree: 0%
@@ -24,7 +24,7 @@ für ein Ad-Network-Konto mit einer der folgenden Methoden:
 
 * Option 2: Laden Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) hoch, die so viele Daten enthalten, wie Sie für ein Konto von [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] benötigen. Für [!DNL Google Ads]-, [!DNL Microsoft Advertising]-, [!DNL Naver]-, [!DNL Yandex]- und bestehende [!DNL Baidu] können Sie die Daten an das Werbenetzwerk senden. [!DNL Naver] können Sie die Daten für die Verwendung in Search, Social und Commerce hochladen, sie jedoch nicht in das Werbenetzwerk posten.
 
-  Sie können Bulksheet-Dateien mit Daten für vorhandene [!DNL Pinterest]-, [!DNL Yahoo Native]- und [!DNL Yahoo! Display Network]-Konten herunterladen, aber nicht hochladen oder veröffentlichen.
+  Sie können Bulksheet-Dateien mit Daten für vorhandene [!DNL Pinterest]-, [!DNL Yahoo DSP]- und [!DNL Yahoo Native]-Konten herunterladen, aber nicht hochladen oder veröffentlichen.
 
 * Option 3: Richten Sie einen automatisierten Prozess ein, um [Kontostruktur und dynamische Anzeigen und Schlüsselwörter zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer Anzeigennetzwerk-spezifischen Anzeigenvorlage, die Sie unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)] erstellen. Erstellen Sie Vorlagen basierend auf dem Inhalt von Inventardaten-Dateien, die Sie manuell oder an einen FTP-Speicherort hochladen, oder dem Inhalt eines [!DNL Google Merchant Center]- oder [!DNL Microsoft Merchant Center]. Sie können konfigurieren, dass Ihre Daten automatisch veröffentlicht werden, sobald sie erstellt werden, oder sie manuell in den Werbenetzwerken posten, nachdem Sie sie überprüft haben. Diese Option ist für [!DNL Google Ads]-, [!DNL LY Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yandex] verfügbar.
 

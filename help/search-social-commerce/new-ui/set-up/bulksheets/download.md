@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,7 +129,7 @@ Kriterien für bestimmte Kampagnen, Anzeigengruppen, Anzeigen/Kreative, Schlüss
 
 ## Bulksheet-Zeilen nach Anzeigennetzwerk {#bulksheet-rows-by-ad-network}
 
-| Bulksheet-Zeile | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Notizen |
+| Bulksheet-Zeile | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | [!DNL Yandex] | Notizen |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | — |
 | [!UICONTROL Adgroup] | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | Ja | — |
@@ -163,7 +163,7 @@ Einzelheiten zu den erforderlichen und optionalen Spalten für jedes Anzeigennet
 * [Erforderliche und optionale Bulksheet-Daten für  [!DNL LY Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Erforderliche und optionale Bulksheet-Daten für  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Erforderliche und optionale Bulksheet-Daten für  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo! Display Network] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo DSP] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
 * [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
