@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 498
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Advertising ist mit Adobe Customer Journey Analytics für bidirektionale D
 
 * Werbetreibende mit sowohl [!DNL Analytics for Advertising] als auch Customer Journey Analytics verfügen über dieselben Funktionen wie über [!DNL Analytics for Advertising], einschließlich des Hinzufügens von Visualisierungen in Customer Journey Analytics.
 
-  Clickthrough-Ereignisse werden weiterhin mit dem Adobe Experience Platform Web SDK (`alloy.js`) oder dem Adobe Experience Cloud Identity Service (`visitorAPI.js`) verfolgt. Werbetreibende mit Advertising DSP verwenden weiterhin ein JavaScript-Snippet, um Durchsichtsereignisse zu verfolgen. Zu den in Customer Journey Analytics verfügbaren Daten gehören:
+  Clickthrough-Ereignisse werden weiterhin mit Adobe Experience Platform Web SDK (`alloy.js`) oder Adobe Experience Cloud Identity Service (`visitorAPI.js`) verfolgt. Werbetreibende mit Advertising DSP verwenden weiterhin ein JavaScript-Snippet, um Durchsichtsereignisse zu verfolgen. Zu den in Customer Journey Analytics verfügbaren Daten gehören:
 
    * Campaign-Leistungsdaten aus Adobe Advertising in Customer Journey Analytics
 
@@ -57,7 +57,7 @@ Adobe Advertising ist mit Adobe Customer Journey Analytics für bidirektionale D
 
    * Attributionsdaten aus Customer Journey Analytics in Adobe Advertising, wo sie zur Optimierung und Berichterstellung verwendet werden können
 
-  In diesem Anwendungsfall verwenden Sie Web SDK, um Site-Ereignisse (mithilfe von Cookies, Hash-IP-Adressen oder universellen IDs) zu verfolgen und die Site-Ereignisse den Paid-Media-Aktivitäten in [!DNL Google Ads], [!DNL Microsoft Advertising] und [!DNL Meta] sowie Adobe DSP zuzuordnen. Sie verwenden Adobe Experience Platform auch für die Datenerfassung.
+  In diesem Anwendungsfall verwenden Sie Web SDK, um Site-Ereignisse (mithilfe von Cookies, Hash-IP-Adressen oder universellen IDs) zu verfolgen und die Site-Ereignisse den Paid-Media-Aktivitäten in [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Meta] und Adobe DSP zuzuordnen. Sie verwenden Adobe Experience Platform auch für die Datenerfassung.
 
 ## Definitionen von Berichtsdatentypen
 

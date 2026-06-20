@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 775
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Alle Bulksheets, Dateien mit Fehlern bei der Landingpage-Validierung und andere 
 
   Sie können [!DNL Naver] Daten zur Verwendung in Search, Social und Commerce hochladen, sie jedoch nicht in das Werbenetzwerk posten. Sie können auch vorhandene (nicht synchronisierte) Daten herunterladen.
 
-* **Nur Daten herunterladen:** [!DNL Pinterest]-, [!DNL Yahoo Native]- und [!DNL Yahoo! Display Network]
+* **Nur Daten herunterladen:** [!DNL Pinterest]-, [!DNL Yahoo DSP]- und [!DNL Yahoo Native]
 
   Sie können Ihre vorhandenen (nicht synchronisierten) Daten herunterladen.
 
