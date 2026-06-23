@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 Die Ansicht [!UICONTROL Manage] > [!UICONTROL Campaigns] listet alle Kampagnen in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können eine Liste der Anzeigengruppen in der Kampagne öffnen, indem Sie auf den Kampagnennamen klicken.
 
-Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem Kampagnenstrukturdaten ab und klickt stündlich auf Daten aus synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich auf Daten für andere synchronisierte Anzeigennetzwerkkonten, oder häufiger, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem die Daten zur Kampagnenstruktur ab und klickt täglich oder öfter auf Daten, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+
+Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich von anderen synchronisierten Anzeigennetzwerkkonten ab.
 
 ## Verfügbare Aktionen
 

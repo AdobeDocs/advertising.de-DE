@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Ein Anzeigengruppenname, der innerhalb der Kampagne eindeutig ist. Die maximale Länge beträgt 255 Doppelbyte-Zeichen.
+**[!UICONTROL Ad Group Name]:** Ein innerhalb der Kampagne eindeutiger Anzeigengruppenname. Die maximale Länge beträgt 255 Doppelbyte-Zeichen.
 
 **[!UICONTROL Status]:** Der Anzeigestatus der Anzeigengruppe: *Aktiv* oder *Paused*. Der Standardwert für neue Anzeigengruppen lautet *Aktiv*.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]:* [!DNL Google Ads] bevorzugt Anzeigen, von denen eine bessere Leistung erwartet wird als von anderen Anzeigen in der Anzeigengruppe. Diese Anzeigen treten häufiger in die Werbeanzeigenauktion ein, und im Laufe der Zeit wird eine einzelne Anzeige bevorzugt. Dies kann im Widerspruch zu Ihren Geschäfts- und Optimierungszielen stehen.
 
-* *[!UICONTROL Rotate forever]:*   Jede Ihrer Anzeigen tritt noch gerader in die Auktion ein, sodass Search, Social und Commerce Ihre Anzeigen nicht nur nach Clickthrough-Rate, sondern auch nach Konversionen bewerten können.
+* *[!UICONTROL Rotate forever]:* Jede Ihrer Anzeigen tritt noch gerader in die Auktion ein, sodass Search, Social und Commerce Ihre Anzeigen nicht nur nach Clickthrough-Rate, sondern auch nach Konversionen bewerten können.
 
 * *[!UICONTROL Use campaign setting]*(Standard für neue Anzeigengruppen): Verwendet die vorhandene Einstellung für die Anzeigenrotation auf Kampagnenebene. **Hinweis:** Die Einstellung auf Kampagnenebene ist in Search, Social und Commerce nicht sichtbar.
 
