@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 3%
    + [Archivieren eines vernetzten TV-Reach-Plans](/help/dsp/planner/planner-archive.md)
 + Ressourcen {#resources}
    + [URL-Listen verwalten](/help/dsp/resources/lists-url-manage.md)
+   + [Verwalten von Postleitzahllisten](/help/dsp/resources/lists-postal-codes-manage.md)
 + Einstellungen/Administration {#admin}
    + [Benutzerprofil bearbeiten](/help/dsp/admin/user-own-profile-edit.md)
    + Benutzer {#users}
@@ -235,7 +236,7 @@ ht-degree: 3%
    + Benachrichtigungen {#notifications}
       + [Über Warnhinweis-Abonnements](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnhinweis-Abonnements](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de)
++ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Hilfe erhalten](/help/dsp/get-help.md)
 + [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
 

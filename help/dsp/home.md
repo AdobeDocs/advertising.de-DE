@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ffaa0312ba2e1f583e11326c867838753fa9c6ff
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 7476
+source-wordcount: 7507
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;23. Juni 2026 | [!UICONTROL Placements], Postleitzahlen | Sie können jetzt Listen mit Postleitzahlen für einzelne Länder erstellen, die als Platzierungsziele oder -ausschlüsse wiederverwendet werden können. | Siehe [Verwalten von Postleitzahllisten](/help/dsp/resources/lists-postal-codes-manage.md) und [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md). |
 | &#x200B;9. Juni 2026 | Integration mit Adobe Customer Journey Analytics | Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der Adobe Experience Platform-[!DNL Web SDK] zwischen Adobe Advertising und Customer Journey Analytics austauschen. | Siehe &quot;[&#x200B; der Integration zwischen Adobe Advertising und Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | &#x200B;3. Juni 2026 | [!DNL Adobe Analytics for Advertising] | Werbetreibende mit Advertising Creative und [!DNL Adobe Analytics for Advertising] können jetzt Daten auf Varianten- und Zweigstellenebene in Adobe Analytics anzeigen. Die Daten werden unabhängig von der DSP angezeigt, die zum Ausführen von Anzeigen aus Ihren [!DNL Creative]-Erlebnissen verwendet wird. Wenn Sie die Anzeigen über eine Advertising DSP-Platzierung schalten, sehen Sie auch Daten auf Kampagnen- und Platzierungsebene sowie kostenbezogene Metriken.<br><br>Es ist keine zusätzliche Einrichtung erforderlich. | Sehen Sie sich die [Traffic-Metriken](https://experienceleague.adobe.com/de/docs/analytics/components/metrics/amo-metrics) und [Klassifizierungen](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#classifications) an, die in [!DNL Analytics] angezeigt werden. |
 | &#x200B;20. Mai 2026 | Erstanbieter-Zielgruppenquellen, universelle IDs, [!UICONTROL Placements] | Werbetreibende in Australien können jetzt [!DNL AdFixus] universellen IDs mit Segmentzuordnungen für zielgerichtete Werbung importieren. DSP importiert First-Party-Segmente unverändert aus [!DNL AdFixus], ohne sie in andere ID-Typen zu konvertieren. Der Prozess umfasst die Erstellung einer Zielgruppenquelle und die Freigabe eines automatisch generierten Schlüssels für Ihr [!DNL AdFixus]-Team. | Siehe [Importieren von Erstanbietersegmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md), &quot;[Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md) und &quot;[Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](/help/dsp/audiences/sources/source-manage.md).“ |

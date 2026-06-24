@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4532
 ht-degree: 0%
 
 ---
@@ -173,6 +173,9 @@ So geben Sie Standorte an:
       1. Wählen Sie den Standorttyp in der linken Spalte aus.
       1. (Bei Bedarf) Klicken Sie auf eine Position, um sie zu erweitern.
       1. Klicken Sie neben dem Speicherort auf *[!UICONTROL Include]* , um ihn als Ziel einzubeziehen, oder auf *[!UICONTROL Exclude]* , um ihn als Ziel auszuschließen.
+   * Ein- oder Ausschließen einer [Postleitzahlliste](/help/dsp/resources/lists-postal-codes-manage.md):
+      1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
+      1. Klicken Sie neben der Postleitzahl auf *[!UICONTROL Include]* , um sie als Zielgruppe einzubeziehen, oder auf *[!UICONTROL Exclude]* , um sie als Zielgruppe auszuschließen.
    * So suchen Sie nach einer Postleitzahl und schließen alle ausgewählten Ergebnisse ein oder aus:
       1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
       1. Land auswählen.

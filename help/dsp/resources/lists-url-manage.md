@@ -12,7 +12,7 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +79,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das Sie aus der Liste entfernen möchten.
+         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
          1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
@@ -147,7 +147,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das Sie aus der Liste entfernen möchten.
+         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
          1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
