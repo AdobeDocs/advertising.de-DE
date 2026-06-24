@@ -4,22 +4,14 @@ description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +166,18 @@ So geben Sie Standorte an:
       1. (Bei Bedarf) Klicken Sie auf eine Position, um sie zu erweitern.
       1. Klicken Sie neben dem Speicherort auf *[!UICONTROL Include]* , um ihn als Ziel einzubeziehen, oder auf *[!UICONTROL Exclude]* , um ihn als Ziel auszuschließen.
    * Ein- oder Ausschließen einer [Postleitzahlliste](/help/dsp/resources/lists-postal-codes-manage.md):
-      1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code List]** .
       1. Klicken Sie neben der Postleitzahl auf *[!UICONTROL Include]* , um sie als Zielgruppe einzubeziehen, oder auf *[!UICONTROL Exclude]* , um sie als Zielgruppe auszuschließen.
    * So suchen Sie nach einer Postleitzahl und schließen alle ausgewählten Ergebnisse ein oder aus:
-      1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+      1. Klicken Sie über der Liste Land auf **[!UICONTROL Search]** .
       1. Land auswählen.
       1. Geben Sie den Namen der Stadt ein und klicken Sie dann auf ![Bearbeiten](/help/dsp/assets/search.png).
       1. Klicken Sie auf das richtige Suchergebnis.
       1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
    * So geben Sie Postleitzahlen ein bzw. fügen sie ein und schließen alle ein oder aus:
-      1. Klicken Sie auf **[!UICONTROL Paste Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+      1. Klicken Sie über der Liste Land auf **[!UICONTROL Paste]** .
       1. Land auswählen.
       1. Bis zu 1000 Postleitzahlen eingeben oder einfügen.
 Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder Tabulatoren getrennt eingeben.
@@ -304,7 +298,7 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 >[!NOTE]
 >
->* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [&#x200B; für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
 >* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 **[!UICONTROL Context of Sites or App]:** (Optional) Kontextuelle Zielsegmente zum Targeting oder Ausschließen. Wählen Sie aus der folgenden URL aus
@@ -331,7 +325,7 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 
 * Um eine vorhandene Audience auszuwählen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann die Audience aus.
 * Um eine Audience zu erstellen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann **[!UICONTROL + Create Audience]** aus. Anweisungen finden Sie unter [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
-* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[&#x200B; einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[ einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
@@ -349,7 +343,7 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (Standard) Targeting von Benutzern basierend auf ihren Cookies, IDs für mobile Werbung oder Connected TV-IDs (CTV). IDs werden basierend auf dem Browser-, In-App- oder CTV-Inventar ausgewählt.
 
-* *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle &#x200B;](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle ](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
    * *[!UICONTROL AdFixus]*: Zielgruppen [!DNL AdFixus] IDs, die nach Advertising DSP importiert wurden.
 
@@ -479,7 +473,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
+**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
