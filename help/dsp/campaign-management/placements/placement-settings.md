@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +174,18 @@ So geben Sie Standorte an:
       1. (Bei Bedarf) Klicken Sie auf eine Position, um sie zu erweitern.
       1. Klicken Sie neben dem Speicherort auf *[!UICONTROL Include]* , um ihn als Ziel einzubeziehen, oder auf *[!UICONTROL Exclude]* , um ihn als Ziel auszuschließen.
    * Ein- oder Ausschließen einer [Postleitzahlliste](/help/dsp/resources/lists-postal-codes-manage.md):
-      1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code List]** .
       1. Klicken Sie neben der Postleitzahl auf *[!UICONTROL Include]* , um sie als Zielgruppe einzubeziehen, oder auf *[!UICONTROL Exclude]* , um sie als Zielgruppe auszuschließen.
    * So suchen Sie nach einer Postleitzahl und schließen alle ausgewählten Ergebnisse ein oder aus:
-      1. Klicken Sie auf **[!UICONTROL Search Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+      1. Klicken Sie über der Liste Land auf **[!UICONTROL Search]** .
       1. Land auswählen.
       1. Geben Sie den Namen der Stadt ein und klicken Sie dann auf ![Bearbeiten](/help/dsp/assets/search.png).
       1. Klicken Sie auf das richtige Suchergebnis.
       1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
    * So geben Sie Postleitzahlen ein bzw. fügen sie ein und schließen alle ein oder aus:
-      1. Klicken Sie auf **[!UICONTROL Paste Postal Code]**.
+      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+      1. Klicken Sie über der Liste Land auf **[!UICONTROL Paste]** .
       1. Land auswählen.
       1. Bis zu 1000 Postleitzahlen eingeben oder einfügen.
 Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder Tabulatoren getrennt eingeben.
