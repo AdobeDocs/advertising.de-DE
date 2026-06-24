@@ -4,15 +4,11 @@ description: Erfahren Sie, wie Sie URL-Listen für das Platzierungs-Targeting er
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
 TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -69,7 +65,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
@@ -79,7 +75,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das Sie aus der Liste entfernen möchten.
+         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
          1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
@@ -137,7 +133,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+         1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
          1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
@@ -147,7 +143,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
       * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben jedem Angebot, das Sie aus der Liste entfernen möchten.
+         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
          1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
