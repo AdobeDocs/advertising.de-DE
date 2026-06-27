@@ -236,7 +236,7 @@ ht-degree: 3%
    + Benachrichtigungen {#notifications}
       + [Über Warnhinweis-Abonnements](/help/dsp/admin/alerts-about.md)
       + [Verwalten von Warnhinweis-Abonnements](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de)
 + [Hilfe erhalten](/help/dsp/get-help.md)
 + [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
 
