@@ -4,16 +4,12 @@ description: Erfahren Sie mehr über die Funktionen zur Kampagnenverwaltung in S
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +18,9 @@ ht-degree: 0%
 
 Mit Search, Social und Commerce können Sie Ihre Kampagnen für Suche, Anzeige/Inhalt, Social Media, Shopping, Audience und Performance Max an einem Ort verfolgen und/oder verwalten. Je nach Anzeigennetzwerk und Kampagnentyp können die verfügbaren Funktionen eine Synchronisierung mit Ihren Anzeigennetzwerken, das Erstellen und Bearbeiten von Funktionen, Tracking und Konversionszuordnung, Berichte sowie die Angebots- und Budgetoptimierung umfassen. Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem Kampagnenstrukturdaten ab und klickt stündlich auf Daten aus synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich auf Daten für andere synchronisierte Anzeigennetzwerkkonten, oder häufiger, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem die Daten zur Kampagnenstruktur ab und klickt täglich auf die Daten in synchronisierten Anzeigennetzwerkkonten, oder öfter, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+
+Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich von anderen synchronisierten Anzeigennetzwerkkonten ab.
 
 ## Einrichten des Zugriffs auf Ihre Werbenetzwerkkonten
 
@@ -52,7 +50,7 @@ Mit den Ansichten für das Kampagnen-Management können Sie Ihre Suchkonten übe
   >
   >Daten auf Anzeigenebene sind nicht verfügbar für [!DNL Google Ads] Dynamic Search Ad (DSA), Performance Max, Smart Shopping und [!DNL YouTube] Kampagnen.
 
-* **[!UICONTROL Products]** - Die [!UICONTROL Products] zeigen Daten für jedes [[!DNL Google] - oder  [!DNL Microsoft] -Center-Konto an, das synchronisiert &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Die standardmäßige [!UICONTROL Accounts]-Unteransicht listet alle synchronisierten Konten auf. Einige Benutzertypen können neue Konten aus dieser Ansicht hinzufügen. Die [!UICONTROL Products] Unteransicht listet jedes Produkt im Konto auf.
+* **[!UICONTROL Products]** - Die [!UICONTROL Products] zeigen Daten für jedes [[!DNL Google] - oder  [!DNL Microsoft] -Center-Konto an, das synchronisiert ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Die standardmäßige [!UICONTROL Accounts]-Unteransicht listet alle synchronisierten Konten auf. Einige Benutzertypen können neue Konten aus dieser Ansicht hinzufügen. Die [!UICONTROL Products] Unteransicht listet jedes Produkt im Konto auf.
 
 * **[!UICONTROL Advanced (ACM)]** - In der Ansicht [!DNL Advanced] ([!DNL AMC], für erweiterte Kampagnenverwaltung) können Sie automatisierte Prozesse einrichten, um [dynamische Anzeigen und Keywords zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer von Ihnen erstellten netzwerkspezifischen Anzeigenvorlage und dem Inhalt [!DNL Google Merchant Center] Konten oder Bestandsdatendateien, die Sie in einen FTP-Speicherort hochladen. Unteransichten zeigen Details zu jeder Feed-Vorlage für den Advertiser und zu jeder Kampagne, Anzeigengruppe, jedem Keyword und jeder Anzeige, die in einem Feed enthalten sind, der über eine Feed-Vorlage propagiert, aber nicht im Anzeigennetzwerk veröffentlicht wurde.
 
