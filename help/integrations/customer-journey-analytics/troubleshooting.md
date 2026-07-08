@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Im Folgenden finden Sie mögliche Datenprobleme und deren Ursachen.
 
 Überprüfen Sie Folgendes:
 
+* Customer Journey Analytics Workspace verweist auf die richtige Datenansicht.
+
 * Der Feed von Adobe Advertising an Customer Journey Analytics ist aktiviert. Wenden Sie sich an Ihr Adobe-Accountteam.
 
 * Ihre Adobe Advertising-Dimension/Ihr Klassifizierungs-/Lookup-Datensatz und Ihr Zusammenfassungsdatensatz sind in Ihrer Customer Journey Analytics-Verbindung enthalten.
 
 * Ihre Adobe Advertising-Dimensionen und Zusammenfassungsmetriken sind in Ihrer Customer Journey Analytics-Datenansicht enthalten.
-
-* Customer Journey Analytics Workspace verweist auf die richtige Datenansicht.
 
 Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
@@ -45,9 +45,13 @@ Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Z
 
 +++ Zusammenfassende Berichtsdaten sind in Customer Journey Analytics für Advertiser 1 verfügbar, nicht jedoch für Advertiser 2.
 
-Stellen Sie sicher, dass der Feed von Adobe Advertising an Customer Journey Analytics für Advertiser 2 aktiviert ist. Wenden Sie sich an Ihr Adobe-Accountteam.
+Überprüfen Sie Folgendes:
 
-Wenn der Feed für einen Advertiser aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support) ein Support-Ticket für Ihr Unternehmen.
+* Der Feed von Adobe Advertising an Customer Journey Analytics ist für Advertiser 2 aktiviert. Wenden Sie sich an Ihr Adobe-Accountteam.
+
+* Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in TRICs in Ihrer Customer Journey Analytics-Verbindung aktiviert.
+
+Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
 +++
 
@@ -67,8 +71,11 @@ Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassun
 
 * Alle Filter und Segmente, die in [!DNL Workspace] und im Adobe Advertising-Bericht angewendet werden, verursachen keine Datenunterschiede.
 
-Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
-. Schließen Sie Screenshots und Tabellen ein, um die Diskrepanz zu zeigen. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
+* Der [!UICONTROL Time Zone] für Ihre Customer Journey Analytics-Datenansicht entspricht dem [[!UICONTROL Default Timezone] für Ihr Advertising DSP-Konto](help/dsp/admin/user-own-profile-edit.md).
+
+* Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in TRICs in Ihrer Customer Journey Analytics-Verbindung aktiviert.
+
+Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.. Schließen Sie Screenshots und Tabellen ein, um die Diskrepanz zu zeigen. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
 
 +++
 
@@ -78,15 +85,15 @@ Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket 
 
 Überprüfen Sie Folgendes, beginnend mit den Elementen mit den geringsten Hindernissen für die Überprüfung:
 
-* Die entsprechenden Konversionsmetriken sind Web-/Online-Ereignisse, die Adobe Advertising Dimensionen zuordnen kann.
-
 * Sie verwenden die richtige Datenansicht.
+
+* Die entsprechenden Konversionsmetriken sind Web-/Online-Ereignisse, die Adobe Advertising Dimensionen zuordnen kann.
 
 * Adobe Advertising verfolgt Clickthroughs und Viewthroughs auf der entsprechenden Site. <!-- Link to validation instructions in the user guide -->
 
 * In der Customer Journey Analytics-Verbindung für den Klassifizierungsdatensatz sind die Werte für die [!DNL Key]- und [!DNL Matching Key] korrekt: [!DNL Key]: `Tracking Code` (_customername.adLens2.trackingCode), [!DNL Matching Key]: `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* Der [!DNL Adobe Advertising]-Service wird dem Adobe Experience Platform-Datenstrom hinzugefügt, das zugeordnete Schema für den Datenstrom wird `XDM ExperienceEvent Schema` und die Feldergruppe `Adobe Advertising Cloud ExperienceEvent Full Extension` wird dem Schema hinzugefügt.
+* Der [!DNL Adobe Advertising]-Service wird dem Adobe Experience Platform-Datenstrom hinzugefügt, das zugeordnete Schema für den Datenstrom wird `XDM ExperienceEvent Schema` und die Feldergruppe `Adobe Advertising Cloud ExperienceEvent Full Extension` wird dem `XDM ExperienceEvent` hinzugefügt.
 
 * Die Adobe Advertising-Einstellungen werden in der WebSDK-Erweiterung korrekt konfiguriert und veröffentlicht.
 
