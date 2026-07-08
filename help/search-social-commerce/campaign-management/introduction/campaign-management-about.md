@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 Mit Search, Social und Commerce können Sie Ihre Kampagnen für Suche, Anzeige/Inhalt, Social Media, Shopping, Audience und Performance Max an einem Ort verfolgen und/oder verwalten. Je nach Anzeigennetzwerk und Kampagnentyp können die verfügbaren Funktionen eine Synchronisierung mit Ihren Anzeigennetzwerken, das Erstellen und Bearbeiten von Funktionen, Tracking und Konversionszuordnung, Berichte sowie die Angebots- und Budgetoptimierung umfassen. Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem Kampagnenstrukturdaten ab und klickt stündlich auf Daten aus synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich auf Daten für andere synchronisierte Anzeigennetzwerkkonten, oder häufiger, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+Während Sie Kampagnendaten in den [!UICONTROL Campaigns] hinzufügen und bearbeiten, übertragen Search, Social und Commerce die Datenänderungen sofort an das Werbenetzwerk. Search, Social und Commerce ruft außerdem die Daten zur Kampagnenstruktur ab und klickt täglich auf die Daten in synchronisierten Anzeigennetzwerkkonten, oder öfter, wenn neue Kampagnen erkannt werden. Für alle synchronisierten Werbenetzwerke können Sie bei Bedarf auch Konten synchronisieren.
+
+Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten und täglich von anderen synchronisierten Anzeigennetzwerkkonten ab.
 
 ## Einrichten des Zugriffs auf Ihre Werbenetzwerkkonten
 
