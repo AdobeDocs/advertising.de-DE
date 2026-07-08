@@ -4,8 +4,10 @@ description: Erfahren Sie, wie Sie Anzeigenkampagnen erstellen und verwalten.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
 source-wordcount: 753
@@ -25,7 +27,7 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie die Funktion [Kopieren und Einfügen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) oder [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicken Sie in den Untermenüs auf **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
