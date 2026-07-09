@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 Um die Performance von Anzeigen im Netzwerk-Konto eines Werbetreibenden zu verfolgen (und möglicherweise Angebote für die Anzeigen zu platzieren), erstellt das Adobe Account Team [einen entsprechenden Account-Datensatz](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) in Search, Social und Commerce. Der Kontodatensatz enthält Tracking-Optionen.
 
-Bei Konten, die über die API des Anzeigennetzwerks synchronisiert werden, enthält der Kontodatensatz auch die Anmeldeinformationen für den Kontozugriff. Sobald das Konto aktiviert ist, werden die Kontodaten mit dem Werbenetzwerk abgerufen. Sie können dann die vorhandenen Kontodaten anzeigen sowie die Kampagnenstruktur und Anzeigendaten erstellen und bearbeiten.
+Bei Konten, die über die API des Anzeigennetzwerks synchronisiert werden, enthält der Kontodatensatz auch die Anmeldeinformationen für den Kontozugriff. Sobald das Konto aktiviert ist, werden die Kontodaten mit dem Werbenetzwerk abgerufen. Sie können dann die vorhandenen Kontodaten anzeigen und möglicherweise die Kampagnenstruktur und Anzeigendaten erstellen und bearbeiten.
 
 ## Klick-Tracking zum Verknüpfen von Klicks mit Konversionen
 
-Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, müssen Sie den Klick-Tracking-Code für Search, Social und Commerce in das Suffix der Landingpage, Tracking-Vorlagen und endgültige/Ziel-URLs für Anzeigen, Keywords und Platzierungen, Sitelinks und Produktlisten aufnehmen. Bei [unterstützten Werbenetzwerken und Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) deren Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode an, sodass Sie ihn nicht manuell hinzufügen müssen. Andernfalls müssen Sie den Code manuell zu Ihren Tracking-Vorlagen oder endgültigen URLs hinzufügen.
+Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, müssen Sie den Klick-Tracking-Code für Search, Social und Commerce in das Suffix der Landingpage, Tracking-Vorlagen und endgültige/Ziel-URLs für Anzeigen, Keywords und Platzierungen, Sitelinks und Produktlisten aufnehmen. Bei [unterstützten Werbenetzwerken und Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) deren Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, fügt Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode an, sodass Sie ihn nicht manuell hinzufügen müssen. Andernfalls müssen Sie den Code manuell zu Ihren Tracking-Vorlagen oder endgültigen URLs hinzufügen, entweder innerhalb von Search, Social und Commerce oder im eigenen Editor des Anzeigennetzwerks.
 
 Weitere Informationen zum Tracking finden Sie im Kapitel „Tracking“.
 
