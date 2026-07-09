@@ -2,19 +2,11 @@
 title: Fehlerbehebung bei Adobe Advertising-Daten in Customer Journey Analytics
 description: Erfahren Sie, wie Sie Probleme mit Adobe Advertising-Daten in Customer Journey Analytics beheben.
 feature: Integration with Adobe Customer Journey Analytics
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: cb1e07d89c0d8107fce38695b73352cd57246879
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -39,7 +31,7 @@ Im Folgenden finden Sie mögliche Datenprobleme und deren Ursachen.
 
 * Ihre Adobe Advertising-Dimensionen und Zusammenfassungsmetriken sind in Ihrer Customer Journey Analytics-Datenansicht enthalten.
 
-Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
+Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -51,7 +43,7 @@ Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Z
 
 * Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in TRICs in Ihrer Customer Journey Analytics-Verbindung aktiviert.
 
-Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
+Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -59,7 +51,7 @@ Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zus
 
 Stellen Sie sicher, dass der Feed von Adobe Advertising an Customer Journey Analytics für das spezifische Werbenetzwerkkonto aktiviert ist. Wenden Sie sich an Ihr Adobe-Accountteam.
 
-Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
+Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
 
 +++
 
@@ -71,11 +63,11 @@ Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassun
 
 * Alle Filter und Segmente, die in [!DNL Workspace] und im Adobe Advertising-Bericht angewendet werden, verursachen keine Datenunterschiede.
 
-* Der [!UICONTROL Time Zone] für Ihre Customer Journey Analytics-Datenansicht entspricht dem [[!UICONTROL Default Timezone] für Ihr Advertising DSP-Konto](help/dsp/admin/user-own-profile-edit.md).
+* Der [!UICONTROL Time Zone] für Ihre Customer Journey Analytics-Datenansicht entspricht dem [[!UICONTROL Default Timezone] für Ihr Advertising DSP-Konto](/help/dsp/admin/user-own-profile-edit.md).
 
 * Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in TRICs in Ihrer Customer Journey Analytics-Verbindung aktiviert.
 
-Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.. Schließen Sie Screenshots und Tabellen ein, um die Diskrepanz zu zeigen. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
+Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.. Schließen Sie Screenshots und Tabellen ein, um die Diskrepanz zu zeigen. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
 
 +++
 
@@ -97,7 +89,7 @@ Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket 
 
 * Die Adobe Advertising-Einstellungen werden in der WebSDK-Erweiterung korrekt konfiguriert und veröffentlicht.
 
-Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Konversionsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
+Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Konversionsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
 
 +++
 
