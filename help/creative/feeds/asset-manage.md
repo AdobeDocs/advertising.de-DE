@@ -4,13 +4,11 @@ description: Erfahren Sie, wie Sie eine Asset-Datei für einen Advertiser hochla
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
 TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +27,17 @@ ht-degree: 0%
 
 ## Dateianforderungen
 
+Maximale Datenzeilen: 2 Millionen
+
+Maximale Dateigröße: 2 GB
+
 * Dynamic HTML5-Anzeigen:
 
    * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jede Zeile einen Bildnamen ein, indem Sie das `images/image_name` Format verwenden (z. B. `images/300x250_acme_logo.png`).
 
-     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [&#x200B; für dynamische Anzeigenfeed-Dateien) &#x200B;](/help/creative/appendix-available-feed-fields.md).
+     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
-   * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format.<!-- Is this true: The maximum file size is two (2) MB. --> Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
+   * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format. Die maximale Dateigröße beträgt 10 MB. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
   Sie können eine einzelne XLSX-Datei, eine einzelne Bilddatei oder eine einzelne ZIP-Datei hochladen, die eine beliebige Kombination aus XLSX- und Bilddateien enthält.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
@@ -49,9 +51,9 @@ ht-degree: 0%
 
    * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Videonamen mit dem `videos/image_name` Format ein (z. B. `videos/300x250_acme_logo.png`). Die ZIP-Datei darf maximal 512 MB mit maximal 500 Zeilen umfassen.
 
-     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [&#x200B; für dynamische Anzeigenfeed-Dateien) &#x200B;](/help/creative/appendix-available-feed-fields.md).
+     Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
-     Für alle Konten mit dynamischen Videos empfiehlt es sich, [Katalog zu erstellen](catalog-manage.md) indem Sie die Asset-Datei zusammen mit einer Kopie der [!UICONTROL Adobe Creative Template][&#128279;](feed-template-manage.md) &quot;Universal Feed Template“ verwenden, in der Sie jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuordnen.
+     Für alle Konten mit dynamischen Videos empfiehlt es sich, [Katalog zu erstellen](catalog-manage.md) indem Sie die Asset-Datei zusammen mit einer Kopie der [!UICONTROL Adobe Creative Template]](feed-template-manage.md) &quot;[Universal Feed Template“ verwenden, in der Sie jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuordnen.
 
    * Die zugehörigen Video-Assets im MP4-, MOV- oder WEBM-Format. Unterstützte Anzeigenvorlagen umfassen Startkarte, Endkarte, obere Überlagerung, untere Überlagerung oder L-förmig. Die Dauer jedes Videos muss zwischen 1 und 90 Sekunden liegen. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
