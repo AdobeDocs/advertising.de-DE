@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
    * **[!UICONTROL Extensions]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Anzeigenerweiterungen. Um Ihre Erweiterungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Shopping]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Einkaufsproduktgruppen. Um Ihre Produktgruppen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Product Groups] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Set Up]** Untermenü:
 
@@ -119,6 +119,8 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
    * **[!UICONTROL Import Campaigns]**: Öffnet eine neue Ansicht, aus der Sie Kampagnendaten importieren können.
 
    * **[!UICONTROL Bulksheets]**: Öffnet eine neue [!UICONTROL Bulksheets].
+
+   * **[!UICONTROL Products]** Öffnet schreibgeschützte Ansichten Ihrer bestehenden Merchant Center-Konten und -Produkte. Um ein Merchant Center-Konto hinzuzufügen, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Products] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
 <!--
  What's happening to these?
