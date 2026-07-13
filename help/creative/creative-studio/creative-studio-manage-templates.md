@@ -1,13 +1,10 @@
 ---
 title: Verwalten von Anzeigenvorlagen in Creative Studio
 description: Erfahren Sie, wie Sie Anzeigenvorlagen auf der Registerkarte Creative Studio-Vorlagen in Adobe Advertising Creative erstellen, importieren, organisieren und verwalten.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 2509
 ht-degree: 2%
@@ -24,16 +21,14 @@ Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur
 
 Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstellen oder Importieren neuer Anzeigenvorlagen.
 
-Auf der Registerkarte werden auch Ihre vorhandenen Anzeigenvorlagen unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die von Ihrem Adobe-Konto-Team in Ihr Konto hochgeladen werden) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
+Auf der Registerkarte werden auch Ihre vorhandenen Anzeigenvorlagen unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [ (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die von Ihrem Adobe-Konto-Team in Ihr Konto hochgeladen werden) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Verfügbare Aktionen
@@ -516,3 +511,4 @@ Mit Beschriftungen können Sie Benutzervorlagen organisieren und filtern. Sie k�
 >* [Verwalten von Assets in Creative Studio](creative-studio-manage-assets.md)
 >* [Verwalten von Standardanzeigen in Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Verwalten von dynamischen Kreativen in Creative Studio](creative-studio-manage-dynamic-ads.md)
+

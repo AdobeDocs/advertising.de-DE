@@ -1,13 +1,10 @@
 ---
 title: Verwalten von Markenprofilen in Advertising Creative
 description: Erfahren Sie, wie Sie Markenprofile in Adobe Advertising Creative erstellen, bearbeiten, duplizieren und löschen.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +123,11 @@ Sie können ein Markenprofil aus der Markenliste oder auf der Seite mit den Mark
 
 Die Seite mit den Markendetails ist in die folgenden Registerkarten unterteilt.
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 Zeigt den Markennamen an. Um eine Beschreibung hinzuzufügen, klicken Sie auf **[!UICONTROL When to use this brand]**, geben Sie den Beschreibungstext ein und klicken Sie auf **[!UICONTROL Save]**. Die Beschreibung wird sofort gespeichert und erfordert nicht das Klicken auf die Schaltfläche **[!UICONTROL Save]** auf Seitenebene.
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 (Optional) Definieren Sie die Sprach- und Messaging-Standards der Marke. Der KI-Agent verwendet diese Richtlinien beim Generieren von Überschriften und Kopien.
 
@@ -142,7 +139,7 @@ Zeigt den Markennamen an. Um eine Beschreibung hinzuzufügen, klicken Sie auf **
 
 * **[!UICONTROL Editorial Restrictions]:** (Optional) Regeln zum Vermeiden schreiben. Beispiele: „Vermeiden Sie den Jargon“, „stellen Sie keine Preisangaben auf“ oder „Verwenden Sie niemals Namen von Mitbewerbern“.
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 (Optional) Legen Sie Standards für Hintergrund- und Produktbilder fest, die in bis zu 10 Kategorien unterteilt sind. Der KI-Agent verwendet diese Richtlinien beim Generieren von Hintergrundbildaufforderungen.
 
@@ -168,7 +165,7 @@ Um eine Kategorie zu löschen, klicken Sie ![Löschen](/help/creative/assets/del
 
 * **[!UICONTROL Restrictions]:** (Optional) Was zu vermeiden ist. Bis zu fünf Elemente einbeziehen. Beispiele: „Keine Stock-Foto-Ästhetik“ oder „Vermeiden Sie belebte Hintergründe.“
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 <!-- Just one set of guidelines as of 7/9: channel-specific --> bis zu 10 Kopierstandards definieren. Der KI-Agent verwendet beim Generieren von Kopiervarianten Kanalrichtlinien.
 
@@ -186,7 +183,7 @@ Um eine Kategorie zu löschen, klicken Sie ![Löschen](/help/creative/assets/del
 
 * **[!UICONTROL Examples]:** (Optional) Beispiel-Anzeigenkopie (Überschrift, Unterüberschrift, Hauptteil und CTA), die den <!-- Just one set of guidelines as of 7/9: channel's --> angegebenen Stil veranschaulicht. Um Beispiele für die auf Ihren Richtlinien basierende Anzeigenkopie anzuzeigen, klicken Sie auf **[!UICONTROL Create example]**.
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 (Optional) Logos werden in Anzeigen verwendet, die ein Logo-Element enthalten und dem KI-Agenten beim Austauschen der Logo-Versionen zur Verfügung stehen. Unterstützte Bildtypen sind JPG, PNG und SVG, und jede Datei kann bis zu 5 MB groß sein. Jede Marke darf maximal 10 Logos enthalten.
 
@@ -212,7 +209,7 @@ So laden Sie eine oder mehrere Markenlogo-Dateien mit derselben Kategorie und Be
 
    * Um ein Logo aus den Markeneinstellungen zu entfernen, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 (Optional) Definieren Sie die Farbpaletten der Marke. Der KI-Agent verwendet die angegebenen Farben beim Generieren farbbasierter Anzeigenvarianten.
 
