@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstel
 Auf der Registerkarte werden auch Ihre vorhandenen Anzeigenvorlagen unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die von Ihrem Adobe-Konto-Team in Ihr Konto hochgeladen werden) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Verfügbare Aktionen
@@ -249,7 +247,7 @@ Das linke Bedienfeld enthält eine Spalte mit Symbolen. Klicken Sie auf ein Symb
 | Symbol | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Search]** | Suchen Sie nach allen Asset-Typen in Ihrer Bibliothek. |
-| **[!UICONTROL Upload]** | Laden Sie <!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> Bilder in den Editor hoch, um sie in der aktuellen Vorlage zu verwenden. Sie können bis zu 20 Dateien gleichzeitig hochladen. |
+| **[!UICONTROL Upload]** | Laden Sie Bilder oder Schriftarten zur Verwendung in der aktuellen Vorlage in den Editor hoch. Sie können bis zu 20 Dateien gleichzeitig hochladen. |
 | **[!UICONTROL Templates]** | Durchsuchen Sie Anzeigenvorlagen aus Ihrer Creative Studio-Bibliothek, die als Basisebene oder Referenzelement verwendet werden sollen. |
 | **[!UICONTROL My Assets]** | Durchsuchen Sie alle hochgeladenen Assets auf der Registerkarte Creative Studio Assets . |
 | **[!UICONTROL Images]** | Durchsuchen Sie die Registerkarte Creative Studio Assets nur nach den hochgeladenen Bild-Assets. |
@@ -516,3 +514,4 @@ Mit Beschriftungen können Sie Benutzervorlagen organisieren und filtern. Sie k�
 >* [Verwalten von Assets in Creative Studio](creative-studio-manage-assets.md)
 >* [Verwalten von Standardanzeigen in Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Verwalten von dynamischen Kreativen in Creative Studio](creative-studio-manage-dynamic-ads.md)
+
