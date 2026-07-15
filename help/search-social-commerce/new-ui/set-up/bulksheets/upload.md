@@ -2,10 +2,15 @@
 title: (Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei
 description: Erfahren Sie, wie Sie in der neuen Benutzeroberfläche für Suche, Social und Commerce manuell eine Bulksheet-Datei oder eine korrigierte Fehlerdatei für die Validierung der Landingpage hochladen.
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
@@ -15,7 +20,7 @@ ht-degree: 0%
 
 # (Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei
 
-Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) ](about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
+Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) &#x200B;](about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Bulksheets]**.
 
@@ -47,7 +52,7 @@ Wenn die Aufgabe beginnt, wird die Datei in der [!UICONTROL Bulksheets] angezeig
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
->* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)
