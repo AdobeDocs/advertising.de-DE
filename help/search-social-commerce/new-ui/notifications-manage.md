@@ -2,7 +2,7 @@
 title: (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
 description: Erfahren Sie, wie Sie Search-, Social- und Commerce-Benachrichtigungen, einschließlich Push-Benachrichtigungen und die Web-Anwendung des Benachrichtigungszentrums, anzeigen, konfigurieren und verwalten.
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Bulksheets]**: Benachrichtigungen, dass ein [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) abgeschlossen wurde oder fehlgeschlagen ist.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
+   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [ Zuweisung eines ](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
    * [!UICONTROL Data Upload]
 
@@ -61,7 +61,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
       * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)-Netzwerkkonto zugreifen konnten.
 
-      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
+      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
 
       * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.<!-- Update link once file for new UI available-->
 
@@ -144,7 +144,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -170,7 +170,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 

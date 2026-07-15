@@ -1,21 +1,17 @@
 ---
-title: Einschränkungszuweisungen für Anzeigengruppen verwalten
-description: Erfahren Sie, wie Sie Anzeigengruppen Einschränkungen zuweisen.
+title: Einschränkungszuweisungen für Schlüsselwörter verwalten
+description: Erfahren Sie, wie Sie Keywords Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
 source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# (Neue Benutzeroberfläche) Einschränkungszuweisungen für Anzeigengruppen verwalten
+# (Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Schlüsselwörter
 
 *Beta-Funktion*
 
@@ -25,11 +21,18 @@ Beschränkungen werden von untergeordneten Entitäten übernommen, sodass Sie un
 
 Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit den Kontokomponenten und allen untergeordneten Komponenten entfernt, und es sind keine Berichtsdaten für die Einschränkung mehr für diese Komponenten verfügbar. Durch Aufheben der Zuweisung einer Beschränkung werden weder die Beschränkung noch die Kontokomponenten selbst gelöscht.
 
-## Weisen Sie ausgewählten Anzeigengruppen in der neuen [!UICONTROL Ad Groups] eine Einschränkung zu
+>[!NOTE]
+>
+>* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine nicht veränderliche Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
+>* Aktive Einschränkungen beschränken die Gebotsabgabe nur für zugewiesene Gebotseinheiten in optimierten alten Portfolios auf Keyword-Ebene. Sie werden bei Gebotseinheiten ignoriert, die sich in aktiven Portfolios befinden, sich in hybriden Portfolios befinden oder nicht in Portfolios sind.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Weisen Sie ausgewählten Anzeigen in der neuen [!UICONTROL Keywords] eine Einschränkung zu
 
-1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, der Sie eine einzelne Einschränkung zuweisen.
+Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werden.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+
+1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Keywords]** das Kontrollkästchen neben jedem Keyword, dem Sie eine einzelne Einschränkung zuweisen möchten.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -57,11 +60,11 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Anzeigengruppen in der neuen [!UICONTROL Ad Groups] auf
+## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Kampagnen in der neuen [!UICONTROL Keywords] auf
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeigengruppe, deren Zuweisung von Einschränkungen Sie aufheben möchten.
+1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Keywords]** das Kontrollkästchen neben jedem Keyword, dessen Zuweisung Sie aufheben möchten.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -87,5 +90,5 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 >
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungen für Suchangebotseinheiten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Anzeigengruppen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Platzierungen](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
