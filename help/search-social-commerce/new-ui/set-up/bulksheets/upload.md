@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +30,7 @@ Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Va
 
 1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-Wenn die Aufgabe beginnt, wird die Datei in der [!UICONTROL Bulksheets] angezeigt. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md) aktiviert sind, wird nach Abschluss des Vorgangs eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Wenn die Dateigenerierung fehlschlägt, wird eine Fehlerdatei in der [!UICONTROL Bulksheets]-Ansicht aufgelistet und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet.
+Wenn die Aufgabe beginnt, wird die Datei in der [!UICONTROL Bulksheets] angezeigt. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md) aktiviert sind, wird nach Abschluss des Vorgangs eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Wenn die Dateigenerierung fehlschlägt, wird eine Fehlerdatei in der [!UICONTROL Bulksheets]-Ansicht aufgelistet und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet.
 
 >[!NOTE]
 >

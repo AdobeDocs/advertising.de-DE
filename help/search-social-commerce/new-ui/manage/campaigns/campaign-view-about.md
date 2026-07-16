@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 257
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 * [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Zuweisen von Einschränkungen zu Kampagnen und Aufheben der Zuweisung von Einschränkungen zu Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) zu Kampagnen
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 

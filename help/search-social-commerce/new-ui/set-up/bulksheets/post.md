@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ Bulksheet-Dateien und Fehlerdateien werden 30 Tage nach dem Hochladen oder Gener
 
    Die gleichen Einstellungen gelten für alle Dateien, die Sie posten.
 
-Wenn die Aufgabe beginnt, werden der Status und das geplante Veröffentlichungsdatum für die Zeile in der [!UICONTROL Bulksheets] aktualisiert. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md) aktiviert sind, wird eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet, sobald die Datei veröffentlicht wird. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Wenn keine der Daten veröffentlicht werden können, wird eine Fehlerdatei in der [!UICONTROL Bulksheets] angezeigt und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet.
+Wenn die Aufgabe beginnt, werden der Status und das geplante Veröffentlichungsdatum für die Zeile in der [!UICONTROL Bulksheets] aktualisiert. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md) aktiviert sind, wird eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet, sobald die Datei veröffentlicht wird. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Wenn keine der Daten veröffentlicht werden können, wird eine Fehlerdatei in der [!UICONTROL Bulksheets] angezeigt und eine E-Mail-Benachrichtigung mit einem Link zur Fehlerdatei gesendet.
 
 >[!NOTE]
 >

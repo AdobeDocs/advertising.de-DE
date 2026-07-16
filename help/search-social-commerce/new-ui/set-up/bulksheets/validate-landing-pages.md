@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ Sie können die Datei später herunterladen, die Fehler korrigieren und die korr
 
    **[!UICONTROL Report redirects as errors]:** Wenn eine Landingpage zu einer anderen Seite umgeleitet wird (z. B. wenn die Landingpage fehlt und die Site eine Ersatzseite anzeigt), gibt die [!UICONTROL EF Errors] Spalte in der Fehlerdatei der Landingpage die URL an, zu der die Landingpage umgeleitet wird.
 
-Wenn die Aufgabe beginnt, wird eine neue Zeile zur [!UICONTROL Bulksheets] hinzugefügt. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md) aktiviert sind, wird bei der Erstellung der Datei eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Sie können die Datei herunterladen, um sie zu bearbeiten, und sie dann erneut zur Veröffentlichung hochladen oder Sie können die Datei unverändert veröffentlichen.
+Wenn die Aufgabe beginnt, wird eine neue Zeile zur [!UICONTROL Bulksheets] hinzugefügt. Wenn E-Mail-Benachrichtigungen für Bulksheets [in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md) aktiviert sind, wird bei der Erstellung der Datei eine E-Mail-Benachrichtigung mit einem Link zur Datei gesendet. Je nach Menge der kompilierten Daten kann die E-Mail-Benachrichtigung mehrere Minuten oder länger dauern. Sie können die Datei herunterladen, um sie zu bearbeiten, und sie dann erneut zur Veröffentlichung hochladen oder Sie können die Datei unverändert veröffentlichen.
 
 >[!NOTE]
 >

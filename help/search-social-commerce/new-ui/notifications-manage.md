@@ -2,7 +2,7 @@
 title: (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
 description: Erfahren Sie, wie Sie Search-, Social- und Commerce-Benachrichtigungen, einschließlich Push-Benachrichtigungen und die Web-Anwendung des Benachrichtigungszentrums, anzeigen, konfigurieren und verwalten.
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
    * **[!UICONTROL Bulksheets]**: Benachrichtigungen, dass ein [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) abgeschlossen wurde oder fehlgeschlagen ist.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/admin/manager-accounts.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
    * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 

@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: 89
+source-wordcount: 95
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Ad Groups] listet alle Anzeigengru
 * Löschen oder ändern Sie den Status einer Anzeigengruppe innerhalb der Zeile.
 
 * [Zuweisen von Einschränkungen zu Anzeigengruppen und Aufheben der Zuweisung von Einschränkungen zu Anzeigengruppen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) zu Anzeigengruppen
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 

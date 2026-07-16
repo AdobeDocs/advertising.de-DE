@@ -4,9 +4,9 @@ description: Erfahren Sie, was Sie in der [!UICONTROL Placements] tun können.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Placements] umfasst zwei Registerk
 
 ## Verfügbare Aktionen
 
-* [Zuweisen von Einschränkungen zu Platzierungen und Aufheben der Zuweisung von Einschränkungen zu Platzierungen](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+* [Zuweisen von Einschränkungen zu Platzierungen und Aufheben der Zuweisung von Einschränkungen zu Platzierungen](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) zu Platzierungen
 
 >[!MORELIKETHIS]
 >
->* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
