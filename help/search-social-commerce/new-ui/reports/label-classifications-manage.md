@@ -2,7 +2,7 @@
 title: Verwalten von Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 >
 >Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
 
-1. [Eine Bulksheet herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) die die Entitäten enthält, denen Sie Kennzeichnungsklassifizierungswerte zuweisen möchten:
+1. [Eine Bulksheet herunterladen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) die die Entitäten enthält, denen Sie Kennzeichnungsklassifizierungswerte zuweisen möchten:
 
    * Erweitern Sie auf der Registerkarte [!UICONTROL Rows and Columns] die [!UICONTROL Campaign] im [!UICONTROL Bulksheet Columns].
 
@@ -127,7 +127,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
    Neben dem Hinzufügen von Werten können Sie auch vorhandene Werte löschen, indem Sie sie aus den entsprechenden Zeilen entfernen. Um Werte sowohl aus einer übergeordneten Entität als auch aus ihren untergeordneten Entitäten zu entfernen, schließen Sie entweder a) nur die übergeordnete Entitätszeile ein und entfernen Sie den vorhandenen Klassifizierungswert, oder b) beziehen Sie sowohl die übergeordnete Entität als auch ihre untergeordneten Entitäten ein und entfernen Sie den vorhandenen Klassifizierungswert aus allen übergeordneten und untergeordneten Zeilen.
 
-1. [Datei hochladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) um die Verknüpfungen zu erstellen.<!-- Update once the new bulksheet UI is GA -->
+1. [Datei hochladen](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) um die Verknüpfungen zu erstellen.
 
 Die hochgeladenen Kennzeichnungswerte sind in den entsprechenden Entitätsansichten sichtbar.
 
