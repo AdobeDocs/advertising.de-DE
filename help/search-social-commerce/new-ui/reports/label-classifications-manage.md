@@ -2,7 +2,7 @@
 title: Verwalten von Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Verwalten von Kennzeichnungsklassifizierungen
 
-Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder &#x200B;](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
+Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder ](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
 
 ## Komponenten von Kennzeichnungsklassifizierungen
 
@@ -21,7 +21,7 @@ Jeder Advertiser kann über bis zu 30 Label-Klassifizierungen verfügen, bei den
 
 ### Kennzeichnungswerte
 
-Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [&#x200B; Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets) &#x200B;](#classification-values-assign-bulksheets).
+Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen. Nachdem Sie bestimmte Kennzeichnungswerte für eine Klassifizierung erstellt haben, können Sie sie Kampagnen, Anzeigengruppen, Schlüsselwörtern, Anzeigen, Platzierungen und Produktgruppen (über [ Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets) ](#classification-values-assign-bulksheets).
 
 Jede geeignete Entität kann Kennzeichnungswerte für mehrere Klassifizierungen, aber nur einen Kennzeichnungswert pro Klassifizierung haben. Kennzeichnungswerte werden von untergeordneten Entitäten übernommen, können jedoch überschrieben werden. Der Wert, der auf der niedrigsten Ebene zugewiesen wird, überschreibt immer die Werte, die auf den übergeordneten Ebenen zugewiesen werden.
 
@@ -37,9 +37,9 @@ Die Ansicht [!UICONTROL Reports] > [!UICONTROL Labels Classifications] enthält 
 
 * [Erstellen Sie eine Klassifizierung für die Bezeichnung](#classification-create).
 
-* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder &#x200B;](#classification-values-assign-campaign-management)mithilfe [&#x200B; Bulksheets](#classification-values-assign-bulksheets).
+* Weisen Sie den Kontokomponenten Klassifizierungswerte zu [aus Kampagnenverwaltungsansichten oder ](#classification-values-assign-campaign-management)mithilfe [ Bulksheets](#classification-values-assign-bulksheets).
 
-* [Entfernen Sie Kennzeichnungswerte aus den &#x200B;](#classification-values-remove).
+* [Entfernen Sie Kennzeichnungswerte aus den ](#classification-values-remove).
 
 * [Löschen von Kennzeichnungswerten](#classification-values-delete).
 
@@ -111,7 +111,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 >
 >Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
 
-1. [Eine Bulksheet herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) die die Entitäten enthält, denen Sie Kennzeichnungsklassifizierungswerte zuweisen möchten:
+1. [Eine Bulksheet herunterladen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) die die Entitäten enthält, denen Sie Kennzeichnungsklassifizierungswerte zuweisen möchten:
 
    * Erweitern Sie auf der Registerkarte [!UICONTROL Rows and Columns] die [!UICONTROL Campaign] im [!UICONTROL Bulksheet Columns].
 
@@ -127,7 +127,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
    Neben dem Hinzufügen von Werten können Sie auch vorhandene Werte löschen, indem Sie sie aus den entsprechenden Zeilen entfernen. Um Werte sowohl aus einer übergeordneten Entität als auch aus ihren untergeordneten Entitäten zu entfernen, schließen Sie entweder a) nur die übergeordnete Entitätszeile ein und entfernen Sie den vorhandenen Klassifizierungswert, oder b) beziehen Sie sowohl die übergeordnete Entität als auch ihre untergeordneten Entitäten ein und entfernen Sie den vorhandenen Klassifizierungswert aus allen übergeordneten und untergeordneten Zeilen.
 
-1. [Datei hochladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) um die Verknüpfungen zu erstellen.<!-- Update once the new bulksheet UI is GA -->
+1. [Datei hochladen](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) um die Verknüpfungen zu erstellen.
 
 Die hochgeladenen Kennzeichnungswerte sind in den entsprechenden Entitätsansichten sichtbar.
 
