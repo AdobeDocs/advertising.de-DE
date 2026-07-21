@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Keywords Einschränkungen zuweisen.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten Kampagnen in der neuen [!UICONTROL Keywords] auf
+## Entfernen von Einschränkungen aus ausgewählten Kampagnen in der neuen [!UICONTROL Keywords]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 

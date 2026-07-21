@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ Neben dem Öffnen der [[!UICONTROL Constraints] können &#x200B;](#constraints-v
 
 * All Ihre Einschränkungen sind Kennzeichnungswerte für eine einzelne [Kennzeichnungsklassifizierung](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=de) genannt &quot;[!UICONTROL Constraints]&quot;.
 
-   * &quot;[!UICONTROL Constraints]&quot; ist in der Liste &quot;[!UICONTROL Classifications]&quot; in Ihren standardmäßigen und benutzerdefinierten Ansichtseinstellungen sowie in terminierten Berichten enthalten. Sie können die Spalte dort hinzufügen, wo Sie die den entsprechenden Entitäten zugewiesenen Einschränkungen anzeigen möchten.
+  * &quot;[!UICONTROL Constraints]&quot; ist in der Liste &quot;[!UICONTROL Classifications]&quot; in Ihren standardmäßigen und benutzerdefinierten Ansichtseinstellungen sowie in terminierten Berichten enthalten. Sie können die Spalte dort hinzufügen, wo Sie die den entsprechenden Entitäten zugewiesenen Einschränkungen anzeigen möchten.
 
-   * Wenn Sie eine Bulksheet herunterladen, wird &quot;[!UICONTROL Constraints]&quot; in der Spalte &quot;[!UICONTROL Classifications]&quot; für die entsprechenden Entitäten im [!UICONTROL Download Bulksheet]-Dialogfeld aufgeführt. Wenn Sie die Spalte einbeziehen, enthält die heruntergeladene Bulksheet alle Einschränkungen, die den entsprechenden Entitäten zugewiesen sind.
+  * Wenn Sie eine Bulksheet herunterladen, wird &quot;[!UICONTROL Constraints]&quot; in der Spalte &quot;[!UICONTROL Classifications]&quot; für die entsprechenden Entitäten im [!UICONTROL Download Bulksheet]-Dialogfeld aufgeführt. Wenn Sie die Spalte einbeziehen, enthält die heruntergeladene Bulksheet alle Einschränkungen, die den entsprechenden Entitäten zugewiesen sind.
 
   Die [!UICONTROL Constraints] Klassifizierung ist nicht in der [!UICONTROL Label Classifications] enthalten - die [!UICONTROL Constraints] ist separat. Die [!UICONTROL Constraints] Klassifizierung ist auch nicht in der 30-Label-Klassifizierungsgrenze enthalten.
 
@@ -134,7 +134,7 @@ Sie können die Einstellungen für jeweils eine Beschränkung bearbeiten.
 
 Sie können jede aktive Einschränkung anhalten, um sie zu deaktivieren. Sie können sie später aktivieren, indem Sie den Status wieder zurück in *aktiv* ändern.
 
-Sie können auch eine Einschränkung löschen, wodurch alle Verknüpfungen mit Kontokomponenten entfernt werden und die Einschränkung für die zukünftige Verwendung nicht mehr verfügbar ist. Berichtsdaten für die Einschränkung sind nicht mehr verfügbar. **Hinweis:** Um eine Einschränkung einfach von einer Kontokomponente zu trennen, siehe &quot;[Zuweisung von Einschränkungen zu Suchangebotseinheiten aufheben](#constraints-unassign).
+Sie können auch eine Einschränkung löschen, wodurch alle Verknüpfungen mit Kontokomponenten entfernt werden und die Einschränkung für die zukünftige Verwendung nicht mehr verfügbar ist. Berichtsdaten für die Einschränkung sind nicht mehr verfügbar. **Hinweis:** Um eine Einschränkung einfach von einer Kontokomponente zu trennen, siehe &quot;[Entfernen von Einschränkungen aus Suchangebotseinheiten](#constraints-unassign).“
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 
