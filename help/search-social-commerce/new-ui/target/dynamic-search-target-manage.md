@@ -4,17 +4,13 @@ description: Erfahren Sie, wie Sie dynamische  [!DNL Google Ads]  erstellen und 
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +39,7 @@ Weitere Informationen zu [!DNL Google Ads] dynamischen Suchanzeigen finden Sie u
 
 ## Die [!UICONTROL Auto Targets]
 
-In der [!UICONTROL Auto Targets] Ansicht werden alle dynamischen Suchziele in der gefilterten Ansicht für das ausgewählte Advertiser-Konto aufgelistet.
-
-Sie können den Status dynamischer Suchziele in der Ansicht [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] erstellen, bearbeiten und ändern.
-
-Sie können auch [eine Bezeichnung anwenden](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) auf jede Zielgruppe anwenden.
+Die Ansicht [!UICONTROL Target] > [!UICONTROL Auto Targets] listet alle dynamischen Suchziele in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können auch Ihre dynamischen Suchziele verwalten.
 
 ### Verfügbare Aktionen
 
@@ -59,7 +51,7 @@ Sie können auch [eine Bezeichnung anwenden](/help/search-social-commerce/campai
 * Change the status of dynamic search targets
 -->
 
-* [Zuweisen von Einschränkungen zu dynamischen Suchzielen](#constraint-assign) und [Aufheben der Zuweisung von Einschränkungen zu dynamischen Suchzielen](#constraint-unassign)
+* [Einschränkungen zuweisen](#constraint-assign) zu dynamischen Suchzielen und [Einschränkungen entfernen](#constraint-unassign) aus dynamischen Suchzielen
 
 * [Kennzeichnungsklassifizierungen zuweisen](#classification-values-assign) zu dynamischen Suchzielen und [Kennzeichnungsklassifizierungen entfernen](#classification-values-remove) aus dynamischen Suchzielen
 
@@ -192,7 +184,7 @@ You can also delete any dynamic target.
 
 1. Klicken Sie auf **[!UICONTROL Assign Now]**.
 
-## Heben Sie die Zuweisung von Einschränkungen zu ausgewählten dynamischen Suchzielen in der neuen [!UICONTROL Auto Targets] auf {#constraint-unassign}
+## Entfernen von Einschränkungen aus ausgewählten dynamischen Suchzielen aus der neuen [!UICONTROL Auto Targets] {#constraint-unassign}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
 
@@ -236,7 +228,7 @@ You can also delete any dynamic target.
 
 1. Klicken Sie auf **+[!UICONTROL Assign Now]**.
 
-## Entfernen von Kennzeichnungswerten aus dynamischen Suchzielen{#classification-values-remove}
+## Entfernen von Kennzeichnungswerten aus dynamischen Suchzielen {#classification-values-remove}
 
 Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten. Berichtsdaten für den Classification-Wert sind für diese Komponenten nicht mehr verfügbar. Wenn Sie einen Klassifizierungswert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
 
