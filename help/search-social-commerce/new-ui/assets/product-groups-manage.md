@@ -2,10 +2,14 @@
 title: Verwalten von Einkaufsproduktgruppen
 description: Erfahren Sie mehr über Shopping-Produktgruppen und das Erstellen, Bearbeiten und Löschen dieser Produktgruppen und verweisen Sie auf die Produktgruppeneinstellungen für Google Ads und Microsoft Advertising.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2337
@@ -20,7 +24,7 @@ Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
 
 Sie können Produktgruppen in der [!UICONTROL Product Groups] unter [!UICONTROL Assets] > [!UICONTROL Shopping] erstellen und verwalten.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) [.
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) .
 
 ## Was sind Produktgruppen?
 
@@ -50,7 +54,7 @@ Innerhalb einer Anzeigengruppe können Sie bis zu sieben Ebenen von Produktgrupp
 
 <!-- I should be able to point to help in GGL and MS -->
 
-Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit ](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
+Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit &#x200B;](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
 
 | Einkaufsnetz | Produkt-Dimension | Attribute | Notizen |
 |----|----|----|----|
@@ -85,7 +89,7 @@ Die [!UICONTROL Product Groups] Ansicht unter [!UICONTROL Assets] > [!UICONTROL 
 
 * [Einschränkungen zuweisen](#constraint-assign) zu Produktgruppen und [Einschränkungen entfernen](#constraint-unassign) aus Produktgruppen
 
-* [Zuweisen von ](#classification-values-assign) zu Produktgruppen und [Entfernen von ](#classification-values-remove) aus Produktgruppen“
+* [Zuweisen von &#x200B;](#classification-values-assign) zu Produktgruppen und [Entfernen von &#x200B;](#classification-values-remove) aus Produktgruppen“
 
 >[!NOTE]
 >
@@ -109,7 +113,7 @@ Bevor Sie Produktgruppen mit bestimmten Attributen erstellen können, müssen Si
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") und ändern Sie die [Google Ads-Produktgruppeneinstellungen ](#google-ads-product-group-settings) [Microsoft Advertising-](#microsoft-advertising-product-group-settings).
+1. Klicken Sie bei Bedarf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") und ändern Sie die [Google Ads-Produktgruppeneinstellungen &#x200B;](#google-ads-product-group-settings) [Microsoft Advertising-](#microsoft-advertising-product-group-settings).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
