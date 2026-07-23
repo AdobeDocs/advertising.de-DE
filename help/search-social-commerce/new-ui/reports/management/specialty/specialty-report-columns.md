@@ -2,7 +2,7 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für Sonderberichte.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] Berichte) Die Konversionsrate in Prozent. |
 | [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination]- und [!UICONTROL MSA Ad Extension]) Die Gesamtzahl der Konversionen. Für die [!UICONTROL Google AI Max Search Term Combination Report] enthält dieser Wert Konversionsaktionen, die nicht in der Hauptspalte „Konversionen“ enthalten sind. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] Berichte) Die Anzahl der Konversionen. |
-| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])Der Wert aller Konversionen. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) Der Wert aller Konversionen. |
 | [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) Der Wert aller Konversionen dividiert durch die Gesamtkosten der Anzeigeninteraktionen (wie Klicks oder Videoansichten). |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] Berichte) Die Kosten pro Konversion. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] Berichte) Die Gesamteinnahmen geteilt durch die Ausgaben, ausgedrückt in Prozent. |
@@ -146,8 +146,8 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Name] | Das Portfolio. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio-Bericht) Die Ausgabenstrategie für das Portfolio: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* oder *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Der Portfoliostatus:<ul><li>*[!UICONTROL Optimize]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die für die Optimierung verwendeten Daten und optimiert Gebote, Kampagnenbudgets und Kampagnen-Bid-Strategie-Ziele (abhängig vom Optimierungstyp und den Bid-Strategien).</li><li>*[!UICONTROL Active]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li>*[!UICONTROL Inactive]*: Die Optimierungsfunktion erfasst Klickdaten für die relevanten Kampagnen zu Berichtszwecken, aber sie modelliert weder die Daten noch optimiert Gebote oder Kampagnenbudgets.</li></ul> |
-| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Warum die Asset-Gruppe die volle Kapazität bietet oder nicht bietet. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.* |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.* |
+| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Warum die Asset-Gruppe die volle Kapazität bietet oder nicht bietet. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkt-ID des Produkts, das mit der Anzeige angezeigt wird. <b>Hinweis:</b> Die ID wird nur erfasst, wenn die Produktliste den Tracking-Parameter `ev_plx=<GMC product ID>` enthält, den Sie in [!DNL Google Merchant Center] hinzufügen müssen. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkttypen der ersten bis fünften Ebene (Ihre selbst definierten Attribute für die Produktgruppe). |
 | [!UICONTROL Query Match Type] | (AdWords-Suchabfragebericht) Der Schlüsselwort-Übereinstimmungstyp für die Suchabfrage. |
