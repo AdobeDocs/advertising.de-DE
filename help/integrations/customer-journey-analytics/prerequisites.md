@@ -28,13 +28,13 @@ ht-degree: 0%
 *Werbetreibende mit Advertising DSP und[!DNL Advertising Search, Social, & Commerce]*
 
 
-* (Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Version 2.36 oder höher.
+* (Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) Version 2.36 oder höher.
 
 * Adobe Customer Journey Analytics mit Zugriff auf Datenverwaltungs-Tools
 
   Sie benötigen die Unterstützung Ihres internen Web-Analysten, um eine Verbindung zu Ihrem Datensatz herzustellen und Berichte zu konfigurieren.
 
-* (Werbetreibende ohne [!DNL Analytics for Advertising]) Datenmodellierungs- und Verwaltungstechnologien von Adobe Experience Platform (einschließlich [Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) und [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* (Werbetreibende ohne [!DNL Analytics for Advertising]) Datenmodellierungs- und Verwaltungstechnologien von Adobe Experience Platform (einschließlich [Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview)) und [Datenerfassungstechnologien](https://experienceleague.adobe.com/de/docs/experience-platform/collection/home) (einschließlich [Datenströme](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview) und [Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home))
 
   Diese Technologien erfordern die Unterstützung durch Ihren Experience Platform-Site-Administrator.
 
