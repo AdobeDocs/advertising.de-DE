@@ -2,7 +2,7 @@
 title: (Neue Benutzeroberfläche) Replizieren von Google Ads-Kampagnen in Microsoft Advertising
 description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem Google Ads-Konto direkt in ein synchronisiertes Microsoft Advertising-Konto exportieren.
 feature: Search Campaign Management
-source-git-commit: e6649d66757333660662a058410221b73a45e6cc
+source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sie können die folgenden Kampagnentypen und ihre Kampagnenstruktur replizieren:
 
 Sie können die Kampagnen einmal, täglich, wöchentlich oder monatlich oder gemäß dem von [!DNL Microsoft Advertising] empfohlenen Zeitplan aktualisieren. Optional können Sie Benachrichtigungen bei jeder Ausführung eines Importvorgangs oder bei Fehlern oder Änderungen konfigurieren. Nachdem Sie Ihre Kampagnen in [!DNL Microsoft Advertising] importiert haben, können Sie den Status Ihres Importvorgangs überprüfen, alle Fehlerprotokolle ansehen, einen Importvorgang manuell ausführen und Ihren Importplan bearbeiten, anhalten, aktivieren oder löschen.
 
-Nicht alle Kampagneninformationen werden repliziert, und Sie müssen möglicherweise einige Informationen zu Ihren [!DNL Microsoft Advertising] Kampagnen hinzufügen. Weitere Informationen dazu, welche Daten importiert werden, finden Sie [!DNL Microsoft Advertising] Hilfe unter &quot;[Was wird importiert? [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}. Da das Tracking nach Suche, Social und Commerce nicht importiert wird, sollten Sie auch Tracking in den Einstellungen [Konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzufügen.
+Nicht alle Kampagneninformationen werden repliziert, und Sie müssen möglicherweise einige Informationen zu Ihren [!DNL Microsoft Advertising] Kampagnen hinzufügen. Weitere Informationen dazu, welche Daten importiert werden, finden Sie [!DNL Microsoft Advertising] Hilfe unter &quot;[Was wird importiert? [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851){target="_blank"}. Da das Tracking nach Suche, Social und Commerce nicht importiert wird, sollten Sie auch Tracking in den Einstellungen [Konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzufügen.
 
 ## [!DNL Google Ads] Kampagnen replizieren
 
@@ -47,7 +47,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Überprüfen Sie Ihre Auswahl in der Zusammenfassung und klicken Sie auf **[!UICONTROL Start Import]**.
 
-1. (Optional) Fügen Sie Such-, Social- und Commerce-Tracking innerhalb der Einstellungen [Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzu.
+1. (Optional) Fügen Sie Such-, Social- und Commerce-Tracking innerhalb der Einstellungen [Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppe](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) oder [Anzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) hinzu.
 
 ## Zeitplaneinstellungen für einen Kampagnen-Importauftrag bearbeiten
 
@@ -57,7 +57,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL List of Import Jobs]** auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
 
-1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ &#x200B;](#campaign-import-settings).
+1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ ](#campaign-import-settings).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -105,11 +105,11 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* Um bestimmte Kampagnen und Anzeigengruppen auszuwählen.
 
-   * Um eine Kampagne in ihre untergeordneten Anzeigengruppen zu erweitern, klicken Sie auf **[!UICONTROL >]** nach dem Kampagnennamen.
+  * Um eine Kampagne in ihre untergeordneten Anzeigengruppen zu erweitern, klicken Sie auf **[!UICONTROL >]** nach dem Kampagnennamen.
 
-   * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
+  * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
 
-   * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![&#x200B; der Spalte [!UICONTROL Selection] auf &#x200B;](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
+  * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![ der Spalte [!UICONTROL Selection] auf ](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
 
 ### Registerkarte [!UICONTROL Customize Your Import]
 
