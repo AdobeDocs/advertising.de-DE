@@ -2,9 +2,9 @@
 title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für einfache und erweiterte Berichte.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 42bff10a5cf8df733b223fa96cd10c00c9e40d44
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
-source-wordcount: '3979'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Die Abmessungen der Anzeige. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsive Suchanzeigen) Die Effektivität der Anzeige: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> oder <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] Kampagnen) Die aktuelle Mobile-Bid-Anpassung auf Anzeigengruppenebene, die bestimmt, wie Gebote angepasst werden, wenn die Anzeige auf einem Mobilgerät angezeigt wird. |
-| [!UICONTROL AI Max Bundling Required] | (Nur für das Suchnetzwerk geeignete Kampagnen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob die Bündelung erforderlich ist: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* oder null. |
+| [!UICONTROL AI Max Bundling Required] | (Nur für das Suchnetzwerk zielgerichtete Kampagnen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob [!UICONTROL AI Max] aktiviert sein müssen, um die Textanpassung und die Steuerung der Markenliste für die Kampagne zu berücksichtigen oder zu ändern: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* oder null. |
 | [!UICONTROL AI Max Enabled] | Ob die [[!UICONTROL AI Max] Funktion](https://support.google.com/google-ads/answer/15910366) aktiviert ist: *[!UICONTROL true]*, *[!UICONTROL false]* oder null. |
 | [!UICONTROL AI Max Search Term Matching] | (Kampagnen, die auf das Suchnetzwerk abzielen und für die die [AI Max-Funktion](https://support.google.com/google-ads/answer/15910366) und die Suchbegriffabgleichfunktion auf Kampagnenebene aktiviert sind; schreibgeschützt) Ob die Abgleichung von Suchbegriffen auf Anzeigengruppenebene aktiviert ist: *[!UICONTROL true]*, *[!UICONTROL false]* oder null. |
 | [!UICONTROL Advertiser] | Der Name des Werbetreibenden. |
