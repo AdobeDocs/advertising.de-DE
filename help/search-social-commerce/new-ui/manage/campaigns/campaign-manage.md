@@ -2,10 +2,14 @@
 title: Verwalten von Kampagnen
 description: Erfahren Sie, wie Sie Anzeigenkampagnen erstellen und verwalten.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
 workflow-type: tm+mt
 source-wordcount: 2285
@@ -57,7 +61,7 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or--> [Campaign-Bulksheets](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
@@ -100,7 +104,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
    * Aktivieren Sie das Kontrollkästchen neben der Kampagne. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[ oder ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.[
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -420,7 +424,7 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
