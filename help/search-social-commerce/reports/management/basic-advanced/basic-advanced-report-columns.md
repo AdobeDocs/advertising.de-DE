@@ -4,18 +4,12 @@ description: Erfahren Sie mehr über die verfügbaren Datenspalten für einfache
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +43,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsive Suchanzeigen) Die Effektivität der Anzeige: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> oder <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads]-, [!DNL LY Ads]- und [!DNL Microsoft Advertising]) Die aktuelle Mobile-Bid-Anpassung auf Anzeigengruppenebene, die bestimmt, wie Gebote angepasst werden, wenn die Anzeige auf einem Mobilgerät angezeigt wird. |
 | [!UICONTROL AI Max Bundling Required] | (Nur für das Suchnetzwerk geeignete Kampagnen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob die Bündelung erforderlich ist: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* oder null. |
-| [!UICONTROL AI Max Enabled] | Ob die [[!UICONTROL AI Max] Funktion](https://support.google.com/google-ads/answer/15910366) aktiviert ist: [!UICONTROL true]*, *[!UICONTROL false]* oder null. |
+| [!UICONTROL AI Max Enabled] | Ob die [[!UICONTROL AI Max] Funktion](https://support.google.com/google-ads/answer/15910366) aktiviert ist: *[!UICONTROL true]*, *[!UICONTROL false]* oder null. |
 | [!UICONTROL AI Max Search Term Matching] | (Kampagnen, die auf das Suchnetzwerk abzielen und für die die [AI Max-Funktion](https://support.google.com/google-ads/answer/15910366) und die Suchbegriffabgleichfunktion auf Kampagnenebene aktiviert sind; schreibgeschützt) Ob die Abgleichung von Suchbegriffen auf Anzeigengruppenebene aktiviert ist: *[!UICONTROL true]*, *[!UICONTROL false]* oder null. |
 | [!UICONTROL Advertiser] | Der Name des Werbetreibenden. |
 | [!UICONTROL Advertiser ID] | Die numerische ID für das Konto des Werbetreibenden für Suche, Social und Commerce. |
@@ -136,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] und [!UICONTROL Label Value Report]) Die Klassifizierung der Kennzeichnung. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] und [!UICONTROL Label Value Report]) Ein Wert für die Kennzeichnungsklassifizierung. |
 | [!UICONTROL Language] | (Anzeigen von Kampagnen) Die Sprache(n) der Zielgruppe. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; nur [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen; Daten sind nur verfügbar, wenn die für den Bericht angegebene Attributionsregel „Letztes Ereignis“ ist) Wenn die Zeile eine Konversion meldet, die aus einem Klick auf eine Anzeigenerweiterung (anstatt auf die Anzeige selbst) oder auf ein Produkt/eine Shopping-Anzeige resultiert, zeigt diese Spalte den Typ und Titel eines angeklickten Links an:<ul><li>`pla:*` - Produktanzeigen werden als `pla:<product ID>` aufgeführt, z. B. „pla:8525822.</li><li>`sl:*` - Sitelinks werden als `sl:<Sitelink text>` aufgelistet, z. B. „sl:See Aktuelle Angebote“.</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; nur [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen; Daten sind nur verfügbar, wenn die für den Bericht angegebene Attributionsregel „Letztes Ereignis“ ist) Wenn die Zeile eine Konversion meldet, die aus einem Klick auf eine Anzeigenerweiterung (anstatt auf die Anzeige selbst) oder auf ein Produkt/eine Shopping-Anzeige resultiert, zeigt diese Spalte den Typ und Titel eines angeklickten Links an:<ul><li>`pla:*` - Produktanzeigen werden als `pla:<product ID>` aufgeführt, z. B. „pla:8525822“.</li><li>`sl:*` - Sitelinks werden als `sl:<Sitelink text>` aufgelistet, z. B. „sl:See Aktuelle Angebote“.</li></ul> |
 | [!UICONTROL Listing Match Type] | Der Übereinstimmungstyp des Keywords für die Anzeigenliste, <i>[!UICONTROL Content]</i> für eine Anzeige in einer auf Inhalte ausgerichteten Kampagne oder <i>[!UICONTROL Sitecpc]</i> für eine Platzierung in einer auf eine Site ausgerichteten Kampagne. Bei [!DNL Microsoft Advertising] Schlüsselwörtern kann dies mehrere Übereinstimmungstypen enthalten (z. B. &quot;[!UICONTROL Broad],[!UICONTROL Exact]„). |
 | [!UICONTROL Location] | (Anzeigen von Kampagnen) Die Standorte der Zielgruppen-Audience. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (In abgeschlossenen Berichtszeilen für [!DNL Microsoft Advertising] responsive und Multimedia-Anzeigen) Die langen Überschriften der Anzeige. Um diese Spalten anzuzeigen, schließen Sie die Spalte &quot;[!UICONTROL Long Creative Titles]&quot; in die Berichtseinstellungen ein. |
