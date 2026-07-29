@@ -2,10 +2,14 @@
 title: Anzeigen und Erstellen von Kreativ-Assets
 description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre Asset [!DNL Google Ads] Bibliotheken auf  [!DNL Microsoft Advertising] - und Kontoebene anzeigen und erstellen.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
 workflow-type: tm+mt
 source-wordcount: 492
@@ -102,7 +106,7 @@ Entfernte Text-Assets werden nicht erneut bereitgestellt, aber Leistungsdaten si
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Remove]**.
 
-1. <!-- VERIFY -->Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+1. &#x200B;<!-- VERIFY -->Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >
