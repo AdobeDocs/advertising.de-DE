@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
 workflow-type: tm+mt
-source-wordcount: 8026
+source-wordcount: 8027
 ht-degree: 0%
 
 ---
@@ -38,6 +38,20 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 >* Wenn Sie einen neuen Datensatz erstellen und keine Werte für alle erforderlichen Datenfelder einschließen, werden einigen dieser Felder die angegebenen Standardwerte zugewiesen.
 >* Für Felder, die unten nicht angegeben werden, wird der Standardwert für das Werbenetzwerk verwendet.
 >* Eine Liste der verfügbaren Bulksheet-Zeilen im [!UICONTROL Download Bulksheet]-Dialogfeld finden Sie unter [Bulksheet-Zeilen nach Anzeigennetzwerk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).
+
+
+<!--
+
+Add in when released:
+
+| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+
+| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+-->
 
 | Feld | Beschreibung |
 | ---- | ---- |

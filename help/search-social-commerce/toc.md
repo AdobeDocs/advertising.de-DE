@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
+source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
 workflow-type: tm+mt
-source-wordcount: 2413
+source-wordcount: 2371
 ht-degree: 2%
 
 ---
@@ -117,19 +117,21 @@ ht-degree: 2%
       + [Anzeigen des Änderungsverlaufs eines Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + Kampagnen {#campaigns}
-      + [Über die [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-      + [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-      + [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
-      + [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-      + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + [Ändern des Status einer Kampagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
-      + [Umbenennen einer Kampagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + [Verwalten von Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + Kampagneneinstellungen nach Anzeigennetzwerk {#campaign-settings-by-network}
+        + [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + Anzeigengruppen {#ad-groups}
-      + [Über die [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-      + [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-      + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + [Ändern des Status einer Anzeigengruppe](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
-      + [Eine Anzeigengruppe umbenennen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + [Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
+      + Anzeigengruppeneinstellungen nach Anzeigennetzwerk {#ad-group-settings-by-network}
+        + [Einstellungen für Anzeigengruppen [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [Einstellungen für Anzeigengruppen [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [Einstellungen für Anzeigengruppen [!DNL LY Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [Einstellungen für Anzeigengruppen [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [Einstellungen für Anzeigengruppen [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Anzeigen {#ads}
       + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
       + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -146,6 +148,7 @@ ht-degree: 2%
           + Allgemeine Berichtsformate {#basic-report-formats}
             + [Die [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
             + [Die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+            + [Die [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)
             + [Die [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
             + [Die [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
             + [Die [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
@@ -215,6 +218,7 @@ ht-degree: 2%
       + [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [Verwalten [!DNL Google Ads] dynamischer Suchziele](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
   + Assets {#assets}
+    + [Anzeigen und Erstellen von Kreativ-Assets](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
     + [Verwalten von Einkaufsproduktgruppen](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + Setup {#setup}
     + Konten {#accounts}
