@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -65,7 +65,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Ad Groups] listet alle Anzeigengru
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") und ändern Sie die Einstellungen der Anzeigengruppe.
+1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Einstellungen der Anzeigengruppe.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -101,7 +101,7 @@ Sie können Einstellungen für einzelne Anzeigengruppen bearbeiten. Sie können 
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") und ändern Sie die Einstellungen der Anzeigengruppe.
+1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Einstellungen der Anzeigengruppe.
 
 1. Klicken Sie auf **[!UICONTROL Update]**.
 

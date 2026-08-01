@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
+source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2396
 ht-degree: 2%
 
 ---
@@ -133,9 +133,17 @@ ht-degree: 2%
         + [Einstellungen für Anzeigengruppen [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [Einstellungen für Anzeigengruppen [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Anzeigen {#ads}
-      + [Über die [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-      + [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
-      + [Ändern des Status einer Anzeige](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
+      + [Anzeigen verwalten](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
+      + Anzeigeneinstellungen nach Anzeigennetzwerk {#ad-settings-by-network}
+        + [[!DNL Baidu] Einstellungen für Textanzeigen](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [Erweiterte Einstellungen für dynamische Suchanzeigen [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [Einstellungen für responsive Suchanzeigen [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [Erweiterte Einstellungen für dynamische Suchanzeigen [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising] Multimedia-Anzeigeneinstellungen](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [Einstellungen für [!DNL Microsoft Advertising]-Produktanzeigen](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [Einstellungen für responsive Anzeigen (Zielgruppe) [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [Einstellungen für responsive Suchanzeigen [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [[!DNL Yandex] Einstellungen für Textanzeigen](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
   + Berichte {#reports}
     + Terminierte Berichte {#scheduled}
       + [Über terminierte Berichte](/help/search-social-commerce/new-ui/reports/report-about.md)
