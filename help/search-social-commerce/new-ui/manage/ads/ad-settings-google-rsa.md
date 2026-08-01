@@ -2,9 +2,12 @@
 title: Einstellungen für responsive Suchanzeigen [!DNL Google Ads]
 description: Verweisen Sie auf die Einstellungen  [!DNL Google Ads]  responsive Suchanzeigen.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
 source-wordcount: 85
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 # Einstellungen für responsive Suchanzeigen [!DNL Google Ads]
 
-[!DNL Google Ads] stellt [Responsive Search Ads) ](https://support.google.com/google-ads/answer/7684791?hl=en) bis zu drei Überschriften und zwei Beschreibungen dynamisch zusammen.
+[!DNL Google Ads] stellt [Responsive Search Ads) &#x200B;](https://support.google.com/google-ads/answer/7684791?hl=en) bis zu drei Überschriften und zwei Beschreibungen dynamisch zusammen.
 
 >[!NOTE]
 >
