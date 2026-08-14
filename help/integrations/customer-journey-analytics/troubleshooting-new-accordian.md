@@ -60,7 +60,7 @@ Symptome:
 
 +++ Bibliothek nicht veröffentlicht oder im Entwurfsstatus
 
-Wechseln Sie zu [Veröffentlichungsablauf](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) und stellen Sie sicher, dass sich die Bibliothek, die die WebSDK-Erweiterung enthält, im Status Genehmigt/Veröffentlicht befindet.
+Wechseln Sie zu [Veröffentlichungsablauf](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow) und stellen Sie sicher, dass sich die Bibliothek, die die WebSDK-Erweiterung enthält, im Status Genehmigt/Veröffentlicht befindet.
 
 +++
 
@@ -92,7 +92,7 @@ Symptome:
 
 +++ Die Datenstrom-ID für die Tag-Eigenschaft fehlt oder ist falsch
 
-1. Öffnen Sie in [!DNL Tags] die [Datenstromkonfigurationseinstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) für Ihre Tag-Eigenschaft.
+1. Öffnen Sie in [!DNL Tags] die [Datenstromkonfigurationseinstellungen](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) für Ihre Tag-Eigenschaft.
 1. Vergewissern Sie sich, dass das Feld [!UICONTROL Datastream] auf den richtigen Datenstrom für jede Umgebung (Entwicklung, Staging und Produktion) sowie auf das richtige Schema und den richtigen Datensatz verweist.
 
    Jede Umgebung sollte über einen eigenen Datenstrom verfügen, es sei denn, Sie geben explizit einen Datenstrom für alle drei Umgebungen frei.
@@ -101,7 +101,7 @@ Symptome:
 
 +++ Datenstrom-Services sind für die Tag-Eigenschaft nicht aktiviert
 
-[Öffnen Sie die Datenstromeinstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) und stellen Sie sicher, dass die folgenden Services aktiviert sind:
+[Öffnen Sie die Datenstromeinstellungen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) und stellen Sie sicher, dass die folgenden Services aktiviert sind:
 
 * Adobe Advertising (für Konvertierung/Zielgruppensynchronisierung)
 * Adobe Experience Platform (für die Profilaufnahme)
@@ -253,7 +253,7 @@ Symptome:
 
   1. Öffnen Sie die Web-Seite, wobei `ef_id=test&s_kwcid=test` an die URL angehängt wird.
   1. Öffnen Sie das Code-Inspektions-Tool Ihres Browsers (häufig als [!DNL Inspect] bezeichnet), öffnen Sie die Registerkarte [!DNL Network] und suchen Sie nach einem Interaktionsaufruf für event_type=„advertising.enrichment_ct“ aus Adobe Experience Platform.
-  1. Öffnen Sie in der Datenerfassungsschnittstelle [Schemadefinition](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) für die Website-Daten, die Sie erfassen möchten, und bestätigen Sie, dass `xdm->_experience->adcloud->conversionDetails->trackingCode` und `trackingIdentities` `ef_id` und `s_kwcid` enthalten.
+  1. Öffnen Sie in der Datenerfassungsschnittstelle [Schemadefinition](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) für die Website-Daten, die Sie erfassen möchten, und bestätigen Sie, dass `xdm->_experience->adcloud->conversionDetails->trackingCode` und `trackingIdentities` `ef_id` und `s_kwcid` enthalten.
 
 * `_experience.adcloud` fehlt in der Experience-Datenmodell (XDM)-Payload für Clickthroughs.
 
@@ -261,7 +261,7 @@ Symptome:
 
 +++ Der `Adobe Advertising`-Service ist für den Datenstrom nicht aktiviert
 
-1. Öffnen Sie in [!DNL Tags] die [Datenstromkonfigurationseinstellungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) für Ihre Tag-Eigenschaft.
+1. Öffnen Sie in [!DNL Tags] die [Datenstromkonfigurationseinstellungen](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) für Ihre Tag-Eigenschaft.
 1. Aktivieren Sie die folgenden Dienste und speichern Sie die Einstellungen:
    * Adobe Advertising (für Konvertierung/Zielgruppensynchronisierung)
    * Adobe Experience Platform (für die Profilaufnahme)
@@ -272,7 +272,7 @@ Symptome:
 
 Die `Adobe Advertising` innerhalb der WebSDK-Erweiterung ist standardmäßig deaktiviert und muss explizit aktiviert werden, damit das Tracking für Adobe Advertising-Clickthroughs oder -Viewthroughs funktioniert, unabhängig davon, wie das XDM-Schema oder die Regeln konfiguriert sind.
 
-1. Öffnen Sie in [!DNL Tags] die [Build-Optionen für die Eigenschaft in den Konfigurationseinstellungen von Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
+1. Öffnen Sie in [!DNL Tags] die [Build-Optionen für die Eigenschaft in den Konfigurationseinstellungen von Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
 1. Aktivieren Sie die Komponente **Advertising** und speichern Sie die Einstellungen.
 1. Bibliothek neu erstellen und erneut veröffentlichen.
 
@@ -337,7 +337,7 @@ Bevor Sie ein Support-Ticket für Probleme bei der Einrichtung [!UICONTROL Adver
 
 * Ihre Adobe Advertising-Dimensionen und Zusammenfassungsmetriken sind in Ihrer Customer Journey Analytics-Datenansicht enthalten.
 
-Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
 +++
 
@@ -349,7 +349,7 @@ Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Z
 
 * Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in Ihrer Customer Journey Analytics-Verbindung aktiviert.
 
-Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zusammenfassungsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
 +++
 
@@ -357,7 +357,7 @@ Wenn Sie alle oben genannten Bedingungen überprüfen, aber immer noch keine Zus
 
 Stellen Sie sicher, dass der Feed von Adobe Advertising an Customer Journey Analytics für das spezifische Werbenetzwerkkonto aktiviert ist. Wenden Sie sich an Ihr Adobe-Accountteam.
 
-Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
+Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassungsdaten angezeigt werden, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
 
 +++
 
@@ -373,7 +373,7 @@ Wenn der Feed für ein Konto aktiviert ist, aber immer noch keine Zusammenfassun
 
 * Die Einstellung &quot;[!UICONTROL Backfill all existing data]&quot; ist für Ihre drei Datensätze (Dimension/Klassifizierung/Suche, Zusammenfassung und Ereignismetriken) in Ihrer Customer Journey Analytics-Verbindung aktiviert.
 
-Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein. Um Beweise für die Diskrepanz zu zeigen, fügen Sie Screenshots und Tabellen hinzu. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
+Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein. Um Beweise für die Diskrepanz zu zeigen, fügen Sie Screenshots und Tabellen hinzu. Ihr Adobe-Konto-Team kann den Daten-Feed bei Bedarf nachträglich korrigieren, um die Diskrepanz zu beheben.
 
 +++
 
@@ -395,7 +395,7 @@ Wenn Sie sich einer Datendiskrepanz sicher sind, öffnen Sie ein Support-Ticket 
 
 * Die Adobe Advertising-Einstellungen werden in der WebSDK-Erweiterung korrekt konfiguriert und veröffentlicht.
 
-Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Konversionsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
+Wenn Sie alle oben genannten Einstellungen überprüfen, aber immer noch keine Konversionsdaten sehen, öffnen Sie ein Support-Ticket für Ihr Unternehmen unter [https://experienceleague.adobe.com/home?lang=de#support](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support). Fügen Sie die [!UICONTROL Account ID] für das Anzeigennetzwerkkonto ein.
 
 +++
 
