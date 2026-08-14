@@ -15,7 +15,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3bc3225fe8cc510b26c40f6c66febc9b7e166702
+source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
 workflow-type: tm+mt
 source-wordcount: 3027
 ht-degree: 0%
@@ -218,89 +218,6 @@ Bevor Sie ein Support-Ticket für Probleme bei der Einrichtung [!UICONTROL Adver
 * Für das View-Through-Tracking wird in Adobe Advertising DSP ein Advertiser mit der richtigen Advertiser-ID konfiguriert.
 * Die WebSDK-Erweiterung ist Version 2.36.0 oder höher.
 
-## Validierungs- und Debugging-Tools
-
-### Adobe Experience Platform Debugger
-
-Installieren Sie die [!DNL Adobe Experience Platform Debugger]-Erweiterung für [!DNL Chrome]. Er bietet:
-
-* Eine Echtzeitansicht aller WebSDK-`alloy()`
-* Datenstrom-ID und Umgebungsprüfung
-* XDM-Payload-Überprüfung
-* Edge Network-Anfrage- und -Antwortdetails
-
-Schlüsselprüfungen im Debugger:
-
-| Tabulator | Was zu überprüfen ist |
-| ----- | --- |
-| [!UICONTROL Summary] | Bestätigt, dass das WebSDK erkannt wird und die installierte Version anzeigt. |
-| [!UICONTROL AEP Web SDK] | Zeigt jedes ausgelöste Ereignis, die vollständige XDM-Payload und die Edge-Antwort. |
-| [!UICONTROL Adobe Advertising] | Bestätigt die AMO-ID-Erfassung und den XDM-Interaktionsaufruf mit dem `advertising.enrichment` Ereignistyp. |
-
-### Browser-Registerkarte „Netzwerk“
-
-Filtern Sie nach `edge.adobedc.net`, um unformatierte Edge-Anfragen zu überprüfen:
-
-* Anfrage-URL: `https://[org-id].data.adobedc.net/ee/v2/interact`
-* Methode: `POST`
-* Status: `200` (fehlerfrei), `400` (fehlerhafte Payload) oder `500` (Server- oder Datenstromfehler)
-
-Payload der Anfrage überprüfen auf:
-
-* Die richtige `dataStreamId`
-* Das Vorhandensein eines `xdm` mit den erwarteten Feldern
-* Ein `identityMap` mit ausgefüllter ECID
-
-### Konsolenvalidierung
-
-Überprüfen Sie die installierte WebSDK-Version:
-
-```js
-window.alloy.version
-```
-
-Manuelles Trigger eines Testereignisses:
-
-```js
-alloy("sendEvent", {
-  xdm: {
-    eventType: "web.webpagedetails.pageViews",
-    web: {
-      webPageDetails: { name: "Test Page", URL: window.location.href }
-    }
-  }
-}).then(result => console.log("Edge response:", result))
-  .catch(err => console.error("Send event error:", err));
-```
-
-## Checkliste für die Schnellreferenz
-
-Überprüfen Sie Folgendes, bevor Sie ein Support-Ticket öffnen:
-
-* Die WebSDK-Erweiterung verwendet die neueste Version.
-* Die Bibliothek wird veröffentlicht und der Einbettungs-Code ist für die Umgebung korrekt.
-* Die Datenstrom-ID ist für Entwicklung, Staging und Produktion korrekt festgelegt.
-* Alle erforderlichen Datenstrom-Services sind aktiviert.
-* Die [!UICONTROL Advertising]-Komponente wird in der WebSDK-Erweiterungskonfiguration aktiviert und eine DSP Advertiser-ID wird konfiguriert.
-* Das XDM-Schema umfasst die [!UICONTROL Advertising] Feldergruppe .
-* Die [!UICONTROL Send Event]-Regel enthält eine Identitätszuordnung und wird für das richtige Ereignis ausgelöst.
-* Keine CSP- oder Browser-Datenschutzeinstellungen blockieren Edge-Anfragen.
-* Der AEP Debugger bestätigt, dass Ereignisse den Edge erreichen.
-* Keine JavaScript-Fehler in der Browser-Konsole stoppen die Ausführung.
-* Die **Adobe Advertising Cloud ExperienceEvent Full Extension**-Feldergruppe wird dem Schema hinzugefügt.
-* `_experience.adcloud.conversionDetails.trackingCode` ist im Schema vorhanden.
-* `_experience.adcloud.conversionDetails.trackingIdentity` ist im Schema vorhanden.
-* Die Landingpage-URL enthält sowohl `s_kwcid` als auch `ef_id` Clickthrough.
-* Der AEP Debugger bestätigt, dass `conversionDetails` in die ausgehende Payload eingefügt wird.
-
-## Eskalationszeitpunkt
-
-Eskalieren Sie an Ihr Adobe-Account-Team oder Ihr Engineering-Team, wenn:
-
-* Edge-Anfragen geben nach der Validierung des Datenstroms persistente `500` zurück.
-* [!UICONTROL Advertising] Konvertierungen werden im Debugger bestätigt, aber nach 24-48 Stunden nicht mehr in Berichten angezeigt.
-* Eine WebSDK-Versionsaktualisierung führt eine Regression ein, die in der vorherigen Version nicht vorhanden war. Schließen Sie die spezifischen Versionsnummern in das Support-Ticket ein.
-
 ## Probleme beim Reporting
 
 ### Zusammenfassende Berichte
@@ -400,6 +317,89 @@ Answer
 +++
 
 -->
+
+## Validierungs- und Debugging-Tools
+
+### Adobe Experience Platform Debugger
+
+Installieren Sie die [!DNL Adobe Experience Platform Debugger]-Erweiterung für [!DNL Chrome]. Er bietet:
+
+* Eine Echtzeitansicht aller WebSDK-`alloy()`
+* Datenstrom-ID und Umgebungsprüfung
+* XDM-Payload-Überprüfung
+* Edge Network-Anfrage- und -Antwortdetails
+
+Schlüsselprüfungen im Debugger:
+
+| Tabulator | Was zu überprüfen ist |
+| ----- | --- |
+| [!UICONTROL Summary] | Bestätigt, dass das WebSDK erkannt wird und die installierte Version anzeigt. |
+| [!UICONTROL AEP Web SDK] | Zeigt jedes ausgelöste Ereignis, die vollständige XDM-Payload und die Edge-Antwort. |
+| [!UICONTROL Adobe Advertising] | Bestätigt die AMO-ID-Erfassung und den XDM-Interaktionsaufruf mit dem `advertising.enrichment` Ereignistyp. |
+
+### Browser-Registerkarte „Netzwerk“
+
+Filtern Sie nach `edge.adobedc.net`, um unformatierte Edge-Anfragen zu überprüfen:
+
+* Anfrage-URL: `https://[org-id].data.adobedc.net/ee/v2/interact`
+* Methode: `POST`
+* Status: `200` (fehlerfrei), `400` (fehlerhafte Payload) oder `500` (Server- oder Datenstromfehler)
+
+Payload der Anfrage überprüfen auf:
+
+* Die richtige `dataStreamId`
+* Das Vorhandensein eines `xdm` mit den erwarteten Feldern
+* Ein `identityMap` mit ausgefüllter ECID
+
+### Konsolenvalidierung
+
+Überprüfen Sie die installierte WebSDK-Version:
+
+```js
+window.alloy.version
+```
+
+Manuelles Trigger eines Testereignisses:
+
+```js
+alloy("sendEvent", {
+  xdm: {
+    eventType: "web.webpagedetails.pageViews",
+    web: {
+      webPageDetails: { name: "Test Page", URL: window.location.href }
+    }
+  }
+}).then(result => console.log("Edge response:", result))
+  .catch(err => console.error("Send event error:", err));
+```
+
+## Checkliste für die Schnellreferenz
+
+Überprüfen Sie Folgendes, bevor Sie ein Support-Ticket öffnen:
+
+* Die WebSDK-Erweiterung verwendet die neueste Version.
+* Die Bibliothek wird veröffentlicht und der Einbettungs-Code ist für die Umgebung korrekt.
+* Die Datenstrom-ID ist für Entwicklung, Staging und Produktion korrekt festgelegt.
+* Alle erforderlichen Datenstrom-Services sind aktiviert.
+* Die [!UICONTROL Advertising]-Komponente wird in der WebSDK-Erweiterungskonfiguration aktiviert und eine DSP Advertiser-ID wird konfiguriert.
+* Das XDM-Schema umfasst die [!UICONTROL Advertising] Feldergruppe .
+* Die [!UICONTROL Send Event]-Regel enthält eine Identitätszuordnung und wird für das richtige Ereignis ausgelöst.
+* Keine CSP- oder Browser-Datenschutzeinstellungen blockieren Edge-Anfragen.
+* Der AEP Debugger bestätigt, dass Ereignisse den Edge erreichen.
+* Keine JavaScript-Fehler in der Browser-Konsole stoppen die Ausführung.
+* Die **Adobe Advertising Cloud ExperienceEvent Full Extension**-Feldergruppe wird dem Schema hinzugefügt.
+* `_experience.adcloud.conversionDetails.trackingCode` ist im Schema vorhanden.
+* `_experience.adcloud.conversionDetails.trackingIdentity` ist im Schema vorhanden.
+* Die Landingpage-URL enthält sowohl `s_kwcid` als auch `ef_id` Clickthrough.
+* Der AEP Debugger bestätigt, dass `conversionDetails` in die ausgehende Payload eingefügt wird.
+
+## Eskalationszeitpunkt
+
+Eskalieren Sie an Ihr Adobe-Account-Team oder Ihr Engineering-Team, wenn:
+
+* Edge-Anfragen geben nach der Validierung des Datenstroms persistente `500` zurück.
+* [!UICONTROL Advertising] Konvertierungen werden im Debugger bestätigt, aber nach 24-48 Stunden nicht mehr in Berichten angezeigt.
+* Eine WebSDK-Versionsaktualisierung führt eine Regression ein, die in der vorherigen Version nicht vorhanden war. Schließen Sie die spezifischen Versionsnummern in das Support-Ticket ein.
 
 >[!MORELIKETHIS]
 >
