@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Sie können die Impression, den Klick, die Häufigkeit und andere Metriken für 
       Die Quelleinstellungen enthalten einen automatisch generierten Quellschlüssel.
 
    1. Geben Sie den Quellschlüssel für Ihr [!DNL AdFixus]-Team frei, damit es die erforderlichen Segmente an DSP streamen kann.
+
+      Sie können weiterhin denselben Quellschlüssel für alle [!DNL AdFixus] verwenden, die für das Konto oder den Advertiser freigegeben werden sollen.
 
 1. Überprüfen Sie im Abschnitt [!UICONTROL First Party Segments] Ihrer Zielgruppenbibliothek (der verfügbar ist, wenn Sie eine Zielgruppe unter [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder in den Platzierungseinstellungen erstellen oder bearbeiten), ob das Segment gefüllt wird. Vergleichen Sie die Anzahl der [!DNL AdFixus]-IDs mit der Anzahl der Benutzer-IDs in [!DNL AdFixus].
 

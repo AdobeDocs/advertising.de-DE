@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1377772b3d43be341d4c40497fa186ebfbc29bc9
+source-git-commit: c3ffa88d5df4fa2ff7e52813503c10b67d7c6eb7
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: 3290
 ht-degree: 0%
 
 ---
@@ -183,18 +183,18 @@ Bevor Sie ein Support-Ticket für Probleme bei der Einrichtung [!UICONTROL Adver
 | Ursache | Fehlerbehebung |
 | ----- | --- |
 | Die [!UICONTROL Advertising] Feldergruppe fehlt im Schema | <ol><li>Navigieren Sie zu Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas].</li><li>Öffnen Sie das von Ihrem Datenstrom verwendete Schema.</li><li>Bestätigen Sie im [!UICONTROL Field Groups], dass **Adobe Advertising Cloud ExperienceEvent Full Extension** aufgeführt ist.</li><li>Wenn er fehlt, klicken Sie auf **Hinzufügen**, suchen Sie nach **Adobe Advertising Cloud**, wählen Sie **Adobe Advertising Cloud ExperienceEvent Full Extension** aus und speichern Sie dann die Einstellungen.</li></ol>Das erneute Veröffentlichen Ihrer [!DNL Tags]-Bibliothek ist nicht nur für Schemaänderungen erforderlich, sondern Sie müssen das XDM-Datenelement in [!DNL Tags] neu zuordnen, wenn neue Felder hinzugefügt wurden. |
-| Die erforderlichen Adobe Advertising-Felder fehlen im Schema | Stellen Sie sicher, dass die erforderlichen Adobe Advertising-Felder im Schema unter `_experience.adcloud.conversionDetails` vorhanden sind (siehe die Feldverweistabelle unten).<br><br>Wenn eines der Felder fehlt, überprüfen Sie, ob die Feldergruppe **Adobe Advertising Cloud ExperienceEvent Full Extension** im Schema gespeichert wurde, und aktualisieren Sie dann den Schema-Editor. |
-| Die Landingpage-URL enthält nicht die erforderlichen Abfrageparameter | Stellen Sie sicher, dass die Landingpage-URL die erforderlichen Abfrageparameter enthält. Bei einem Ad-Clickthrough muss die Landingpage-URL beide Abfrageparameter enthalten, z. B. `https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s` (siehe die Referenztabelle unten für wahrscheinliche Ursachen). |
+| Die erforderlichen Adobe Advertising-Felder fehlen im Schema | Stellen Sie sicher, dass die erforderlichen Adobe Advertising-Felder im Schema unter `_experience.adcloud.conversionDetails` vorhanden sind. Siehe &quot;[Referenz: Erforderliche Schemafelder](#required-schema-fields)&quot;.<br><br>Wenn eines der Felder fehlt, überprüfen Sie, ob die Feldergruppe **Adobe Advertising Cloud ExperienceEvent Full Extension** im Schema gespeichert wurde, und aktualisieren Sie dann den Schema-Editor. |
+| Die Landingpage-URL enthält nicht die erforderlichen Abfrageparameter | Stellen Sie sicher, dass die Landingpage-URL die erforderlichen Abfrageparameter enthält. Bei einem Ad-Clickthrough muss die Landingpage-URL beide Abfrageparameter enthalten, z. B. `https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`. Siehe &quot;[Referenz: fehlende Abfrageparameter](#missing-query-parameters)&quot; für mögliche Ursachen. |
 | Einige Parameter in der XDM-Payload fehlen oder sind leer | Um die ausgehende XDM-Payload zu validieren, öffnen Sie die Registerkarte &quot;Adobe Experience Platform Debugger&quot; oder &quot;[!DNL Network]&quot; im Code-Inspektions-Tool Ihres Browsers, filtern Sie nach `edge.adobedc.net` und überprüfen Sie den Textkörper der Interaktions-Anfrage (siehe die Beispiel-Payload unten).<br><br>Wenn `trackingCode` oder `trackingIdentity` leer sind oder fehlen: Der Abfrageparameter war zum Zeitpunkt der Regelauslösung nicht auf der Seite vorhanden (überprüfen Sie die URL und den Ereigniszeitpunkt der Regel) oder die Feldergruppe fehlt im Schema (besuchen Sie die erste Zeile oben). |
 
-**Referenz: erforderliche Schemafelder**
+##### Referenz: Erforderliche Schemafelder {#required-schema-fields}
 
 | Feldpfad | Typ | Beschreibung |
 | ----- | --- | --- |
 | `_experience.adcloud.conversionDetails.trackingCode` | Zeichenfolge | Ordnet die Konvertierung dem Ursprungs- und dem Klick zu. Befüllt aus dem `s_kwcid` Abfrageparameter in der Landingpage-URL. |
 | `_experience.adcloud.conversionDetails.trackingIdentity` | Zeichenfolge | Speichert die eindeutige Identität und andere Details für das verfolgte Durchsichts- oder Clickthrough-Konversionsereignis. Befüllt aus dem `ef_id` Abfrageparameter in der Landingpage-URL. |
 
-**Referenz: fehlende Abfrageparameter**
+##### Referenz: fehlende Abfrageparameter {#missing-query-parameters}
 
 | Fehlender Parameter | Wahrscheinliche Ursache |
 | ----- | --- |

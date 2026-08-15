@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8259705179c77085be82b416f62a093186b03745
+source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
 workflow-type: tm+mt
-source-wordcount: 7751
+source-wordcount: 7727
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
-| &#x200B;14. August 2026 | [!UICONTROL Reports] | Der neue [!UICONTROL DSP Self-Attributed Conversions] zeigt den Beitrag von Advertising DSP zu Konversionen an - einschließlich Kunden-Journeys, bei denen DSP eine Rolle spielte, aber ein späterer Touch, wie z. B. ein Adobe Advertising-Suchklick, in anderen Berichten gutgeschrieben wurde. Dies ist am nützlichsten für Werbetreibende, die sowohl Advertising DSP als auch Advertising Search, Social und Commerce verwenden.<br><br>**Wichtig:** Dieser Bericht ändert nicht die bestehende Attributionsmethode oder Attribution in Adobe Analytics-Berichten. Sie bietet eine komplementäre DSP-spezifische Ansicht des Konversionsbeitrags. | Siehe &quot;[Informationen zu benutzerdefinierten Berichten](/help/dsp/reports/report-about.md) und &quot;[Häufig gestellte Fragen zu benutzerdefinierten Berichten](/help/dsp/reports/faq-reports.md)&quot;. |
+| &#x200B;14. August 2026 | [!UICONTROL Reports] | Der neue [!UICONTROL DSP Self-Attributed Conversions] zeigt den Beitrag von Advertising DSP zu Konversionen an - einschließlich Kunden-Journeys, bei denen DSP eine Rolle spielte, aber ein späterer Touch, wie z. B. ein Adobe Advertising-Suchklick, in anderen Berichten gutgeschrieben wurde. Dies ist am nützlichsten für Werbetreibende, die sowohl Advertising DSP als auch Advertising Search, Social und Commerce verwenden. | Siehe &quot;[Informationen zu benutzerdefinierten Berichten](/help/dsp/reports/report-about.md) und &quot;[Häufig gestellte Fragen zu benutzerdefinierten Berichten](/help/dsp/reports/faq-reports.md)&quot;. |
 | &#x200B;1. Juli 2026 | [!DNL Creative] | Die folgenden Beta-Funktionen sind in Advertising Creative verfügbar:<ul><li>**[!UICONTROL Creative Studio]** verwendet generative KI, um Anzeigen über mehrere Formate hinweg in einer Sitzung zu erstellen, zu skalieren und zu verfeinern. Verwenden Sie eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.</li><li>Erstellen und verwalten Sie **[!UICONTROL brand profiles]**, die die visuelle Identität Ihrer Marke und Ihre Messaging-Identität widerspiegeln, einschließlich Ihres Logos, Ihrer Farbpalette, Ihrer Sprachrichtlinien, Bildstandards und kanalspezifischer Kopierrichtlinien. Wenn Sie in [!UICONTROL Creative Studio] Anzeigen erstellen, verwendet der KI-Agent Markenprofilinformationen, um die Inhaltserstellung in Ihrer spezifischen Marke zu ermöglichen.</li></ul> | Siehe &quot;[Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md) und &quot;[Verwalten von Markenprofilen](/help/creative/brands/brand-manage.md). |
 | &#x200B;23. Juni 2026 | [!UICONTROL Placements], Postleitzahlen | Sie können jetzt Listen mit Postleitzahlen für einzelne Länder erstellen, die als Platzierungsziele oder -ausschlüsse wiederverwendet werden können. | Siehe [Verwalten von Postleitzahllisten](/help/dsp/resources/lists-postal-codes-manage.md) und [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md). |
 | &#x200B;9. Juni 2026 | Integration mit Adobe Customer Journey Analytics | Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der Adobe Experience Platform-[!DNL Web SDK] zwischen Adobe Advertising und Customer Journey Analytics austauschen. | Siehe &quot;[&#x200B; der Integration zwischen Adobe Advertising und Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
