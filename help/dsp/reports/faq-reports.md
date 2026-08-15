@@ -14,14 +14,26 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # Häufig gestellte Fragen zu benutzerdefinierten Berichten
+
+## Konversionsberichte
+
+### Wie unterscheiden sich der [!UICONTROL Conversion] und der [!UICONTROL DSP Self-Attributed Conversions]?
+
+Beide Berichte verwenden dieselben Dimensionen, Metriken und Attributionsmodelle, einschließlich Clickthrough- und View-Through-Aufschlüsselungen.
+
+In den meisten Berichten, einschließlich des [!UICONTROL Conversion], wird dem letzten Klick vor der Konversion eine Konversion zugeschrieben. Wenn ein Kunde eine DSP-Anzeige sieht und später vor der Konvertierung auf eine Suchanzeige klickt, wird diese DSP-Offenlegung oft nicht in Ihren Konversionsnummern angezeigt.
+
+Der [!UICONTROL DSP Self-Attributed Conversions] Bericht verbindet Konversionen jedoch wieder mit den DSP-Impressions und -Klicks, die ihnen vorausgingen, sodass Sie DSPs größeren Beitrag zum Journey verstehen können. Betrachten Sie diesen Bericht als eine ergänzende Betrachtung des Beitrags von DSP und nicht als eine Korrektur des [!UICONTROL Conversion]. Dies ist am nützlichsten für Werbetreibende, die sowohl Advertising DSP als auch Advertising Search, Social und Commerce verwenden.
+
+Da die beiden Berichte unterschiedliche Methoden verwenden, um Konversionen mit Anzeigen zu verbinden, stimmen ihre Metriksummen nicht überein. Dies ist zu erwarten, keine Diskrepanz.
 
 ## Haushaltsberichte
 
