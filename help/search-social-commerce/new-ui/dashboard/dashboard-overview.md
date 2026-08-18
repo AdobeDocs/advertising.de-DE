@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 
 * (Optional) Ändern Sie die entsprechenden Portfolios für alle Berichte:
 
-   1. Klicken Sie auf die aktuellen Parameter neben **[!UICONTROL Select Portfolios]**.
+  1. Klicken Sie auf die aktuellen Parameter neben **[!UICONTROL Select Portfolios]**.
 
-   1. (Optional) Wählen Sie neben **[!UICONTROL Select by]** aus, wie die Portfolios ausgewählt werden sollen:
+  1. (Optional) Wählen Sie neben **[!UICONTROL Select by]** aus, wie die Portfolios ausgewählt werden sollen:
 
-      * *[!UICONTROL All Portfolios]* (Standard): Bericht zu bestimmten Portfolios. Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD verwenden, ausgewählt.
+     * *[!UICONTROL All Portfolios]* (Standard): Bericht zu bestimmten Portfolios. Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD verwenden, ausgewählt.
 
-      * *[!UICONTROL Portfolio Groups]:* Bericht zu bestimmten Portfolios in einem bestimmten **[!UICONTROL Portfolio Group].** Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die in der angegebenen Portfoliogruppe verwendet werden, ausgewählt.
+     * *[!UICONTROL Portfolio Groups]:* Bericht zu bestimmten Portfolios in einem bestimmten **[!UICONTROL Portfolio Group].** Optional können Sie die Liste der Portfolios filtern, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD in der angegebenen Portfoliogruppe verwenden, ausgewählt.
 
-      * *[!UICONTROL Objectives]:* Bericht zu bestimmten Portfolios mit einer bestimmten **[!UICONTROL Objective].** . Sie können die Liste der Portfolios optional einschränken, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD mit dem angegebenen Ziel verwenden, ausgewählt.
+     * *[!UICONTROL Objectives]:* Bericht zu bestimmten Portfolios mit einer bestimmten **[!UICONTROL Objective].** . Sie können die Liste der Portfolios optional einschränken, indem Sie die angegebene **[!UICONTROL Currency]ändern.** Standardmäßig werden alle Portfolios, die USD mit dem angegebenen Ziel verwenden, ausgewählt.
 
-   1. Aktivieren bzw. deaktivieren Sie die Kontrollkästchen neben den Portfolios nach Bedarf, bis im Abschnitt [!UICONTROL Selected Portfolios] die Portfolios aufgeführt sind, für die Sie einen Bericht erstellen möchten.
+  1. Aktivieren bzw. deaktivieren Sie die Kontrollkästchen neben den Portfolios nach Bedarf, bis im Abschnitt [!UICONTROL Selected Portfolios] die Portfolios aufgeführt sind, für die Sie einen Bericht erstellen möchten.
 
-   1. Klicken Sie auf **[!UICONTROL Select]**.
+  1. Klicken Sie auf **[!UICONTROL Select]**.
 
-* (Optional) Ändern Sie die Datengranularität für alle Berichte (*[!UICONTROL Daily]* \[der Standardwert\], *[!UICONTROL Weekly]* \[falls für den Datumsbereich\] oder *[!UICONTROL Monthly]* \[falls für den Datumsbereich\]) im Menü **[!UICONTROL Granularity]**.
+* (Optional) Ändern Sie die Datenaggregation für alle Berichte (*[!UICONTROL Daily]* \[der Standardwert\], *[!UICONTROL Weekly]* \[falls für den Datumsbereich\] oder *[!UICONTROL Monthly]* \[falls für den Datumsbereich\]) im Menü **[!UICONTROL Data Aggregation]**.
 
 * (Optional) Ändern Sie den Datumsbereich für alle Berichte über das Menü **[!UICONTROL Date range]** . Sie können Daten der letzten 90 Tage einbeziehen. Der Standardwert lautet *[!UICONTROL Last 7 Days]*.
 
@@ -63,8 +63,8 @@ Ihr [!UICONTROL Dashboard] umfasst die folgenden visuellen Berichte:
 
 * ([!UICONTROL Biggest Movers] Bericht; optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Meldete Entität ändern. Die einzige aktuelle Option ist *[!UICONTROL Portfolio]*.
+  * Meldete Entität ändern. Die einzige aktuelle Option ist *[!UICONTROL Portfolio]*.
 
-   * Die gemeldete Metrik ändern ([!UICONTROL Cost] \[standardmäßig ausgewählt\], [!UICONTROL Clicks] oder [!UICONTROL Objective Value]).
+  * Die gemeldete Metrik ändern ([!UICONTROL Cost] \[standardmäßig ausgewählt\], [!UICONTROL Clicks] oder [!UICONTROL Objective Value]).
 
-   * Um die [!UICONTROL Portfolios] zu öffnen, klicken Sie unten rechts im Diagramm auf **[!UICONTROL View More]** . <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * Um die [!UICONTROL Portfolios] zu öffnen, klicken Sie unten rechts im Diagramm auf **[!UICONTROL View More]** . <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
