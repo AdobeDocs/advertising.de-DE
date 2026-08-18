@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +43,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 1. Klicken Sie auf den Portfolionamen.
 
-1. (Optional) Ändern Sie im Menü **[!UICONTROL Granularity]** die Datengranularität zwischen *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly].*
+1. (Optional) Ändern Sie im Menü **[!UICONTROL Data Aggregation]** die Zeiteinheit der in den einzelnen Zeilen enthaltenen Daten: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly].*
 
 1. (Optional) Um den Datumsbereich für die Portfoliodetails zu ändern, klicken Sie auf den Datumsbereich oben rechts, geben Sie den Datumsbereich an und klicken Sie dann auf **[!UICONTROL Apply]**.
 
@@ -55,41 +51,41 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 * (Optional) Führen Sie einen der folgenden Schritte aus, um die [!UICONTROL Portfolio Performance] Berichte anzupassen:
 
-   * Um die Leistungsmetriken zu ändern, die sowohl für die Gesamtmetriken als auch für die detaillierten Metriken verwendet werden, klicken Sie auf **[!UICONTROL Metrics]** und wählen Sie bis zu drei Metriken aus.
+  * Um die Leistungsmetriken zu ändern, die sowohl für die Gesamtmetriken als auch für die detaillierten Metriken verwendet werden, klicken Sie auf **[!UICONTROL Metrics]** und wählen Sie bis zu drei Metriken aus.
 
-     Die Standardmetriken sind *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* und *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+    Die Standardmetriken sind *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* und *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
 
-   * Für die detaillierten Metriken:
+  * Für die detaillierten Metriken:
 
-      * Bewegen Sie den Schalter neben **[!UICONTROL Display predictions]**, um die prognostizierten Metrikwerte ein- oder auszublenden.
+    * Bewegen Sie den Schalter neben **[!UICONTROL Display predictions]**, um die prognostizierten Metrikwerte ein- oder auszublenden.
 
-      * Wechseln Sie zwischen der Diagrammansicht ![Diagrammansicht](/help/search-social-commerce/assets/chart-view.png "Diagrammansicht") und Tabellenansicht (![Tabellenansicht](/help/search-social-commerce/assets/table-view.png "Tabellenansicht")).
+    * Wechseln Sie zwischen der Diagrammansicht ![Diagrammansicht](/help/search-social-commerce/assets/chart-view.png "Diagrammansicht") und Tabellenansicht (![Tabellenansicht](/help/search-social-commerce/assets/table-view.png "Tabellenansicht")).
 
-      * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
+    * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
 * (Optional) Führen Sie einen der folgenden Schritte aus, um das Diagramm &quot;[!UICONTROL Model accuracy]-Trend“ anzupassen:
 
-   * Wechseln Sie zwischen der Diagrammansicht ![Diagrammansicht](/help/search-social-commerce/assets/chart-view.png "Diagrammansicht") und Tabellenansicht (![Tabellenansicht](/help/search-social-commerce/assets/table-view.png "Tabellenansicht")).
+  * Wechseln Sie zwischen der Diagrammansicht ![Diagrammansicht](/help/search-social-commerce/assets/chart-view.png "Diagrammansicht") und Tabellenansicht (![Tabellenansicht](/help/search-social-commerce/assets/table-view.png "Tabellenansicht")).
 
-   * Wechseln Sie zwischen der Datenanzeige nach *[!UICONTROL Click Date]* und *[!UICONTROL Transaction Date]*.
+  * Wechseln Sie zwischen der Datenanzeige nach *[!UICONTROL Click Date]* und *[!UICONTROL Transaction Date]*.
 
-   * Wechseln Sie zwischen der Anzeige von Daten über die *[!UICONTROL Daily Accuracy]* und die *[!UICONTROL 7 Day Rolling Accuracy]*.
+  * Wechseln Sie zwischen der Anzeige von Daten über die *[!UICONTROL Daily Accuracy]* und die *[!UICONTROL 7 Day Rolling Accuracy]*.
 
-     [!UICONTROL 7 Day Rolling Accuracy] ist die durchschnittliche Genauigkeit der Prognose für die letzten sieben Tage, ausgedrückt in Prozent. Beispielsweise entspricht der Wert für den 8. Mai 2025 der durchschnittlichen Genauigkeit für den Zeitraum vom 1. Mai bis 7. Mai 2025.
+    [!UICONTROL 7 Day Rolling Accuracy] ist die durchschnittliche Genauigkeit der Prognose für die letzten sieben Tage, ausgedrückt in Prozent. Beispielsweise entspricht der Wert für den 8. Mai 2025 der durchschnittlichen Genauigkeit für den Zeitraum vom 1. Mai bis 7. Mai 2025.
 
-   * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
+  * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
 * (Optional) Führen Sie einen der folgenden Schritte aus, um das Diagramm &quot;[!UICONTROL Target vs actual spend]-Trend“ anzupassen:
 
-   * Bewegen Sie den Schalter neben **[!UICONTROL Display budget]**, um das gesamte Kampagnenbudget für jedes Datum ein- oder auszublenden.
+  * Bewegen Sie den Schalter neben **[!UICONTROL Display budget]**, um das gesamte Kampagnenbudget für jedes Datum ein- oder auszublenden.
 
-   * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
+  * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
 * (Optional) Führen Sie einen der folgenden Schritte aus, um das Diagramm &quot;[!UICONTROL Network Accuracy]-Trend“ anzupassen:
 
-   * Ändern Sie die gemeldete Metrik in *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* oder *[!UICONTROL Objective Value]*.
+  * Ändern Sie die gemeldete Metrik in *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* oder *[!UICONTROL Objective Value]*.
 
-   * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
+  * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
 1. Klicken Sie auf **[!UICONTROL Download report]**.
 
@@ -111,7 +107,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 * Um die Portfolioeinstellungen anzuzeigen oder auszublenden, klicken Sie auf **[!UICONTROL Portfolio Settings]**.
 
-   * Um sichtbare Portfolioeinstellungen zu bearbeiten, klicken Sie ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") neben dem Abschnitt Einstellungen und [Portfolioeinstellungen bearbeiten](portfolio-edit.md).
+  * Um sichtbare Portfolioeinstellungen zu bearbeiten, klicken Sie ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") neben dem Abschnitt Einstellungen und [Portfolioeinstellungen bearbeiten](portfolio-edit.md).
 
 Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungshandbuch , das bei Search, Social und Commerce verfügbar ist.
 
@@ -119,21 +115,21 @@ Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungsha
 
 * Herunterladen aller Berichte:
 
-   1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
+  1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
 
-   1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
+  1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
 
-      Bei einigen Leistungsberichten können Sie auswählen, ob die Daten als Diagramm oder Tabelle heruntergeladen werden sollen.
+     Bei einigen Leistungsberichten können Sie auswählen, ob die Daten als Diagramm oder Tabelle heruntergeladen werden sollen.
 
-   1. Klicken Sie auf **[!UICONTROL Download report]**.
+  1. Klicken Sie auf **[!UICONTROL Download report]**.
 
 * So laden Sie einen [!DNL model accuracy] mit bestimmten Datentypen herunter:
 
-   1. Klicken Sie in der Symbolleiste für den Bericht auf **[!UICONTROL Download report]**.
+  1. Klicken Sie in der Symbolleiste für den Bericht auf **[!UICONTROL Download report]**.
 
-   1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Datentyp und legen Sie fest, wie die Daten aufgeschlüsselt werden (nach Gebotseinheit und/oder nach Klickvolumen).
+  1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Datentyp und legen Sie fest, wie die Daten aufgeschlüsselt werden (nach Gebotseinheit und/oder nach Klickvolumen).
 
-   1. Klicken Sie auf **[!UICONTROL Download report]**.
+  1. Klicken Sie auf **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
