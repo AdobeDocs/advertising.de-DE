@@ -4,15 +4,11 @@ description: Erfahren Sie, wie Sie eine Platzierung an ein Paket anhängen.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
 TQID: https://experienceleague.adobe.com/p7LlJUt6tYId7c47g14lGL0ClF9YpJc21PVZjy99vWI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ee8a01e002bda7042e2c04f362ea9ba0276bdc69
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -45,11 +41,11 @@ ht-degree: 0%
 
    * Erstellen einer neuen Platzierung:
 
-      1. Klicken Sie auf **[!UICONTROL Create New Placement]**.
+     1. Klicken Sie auf **[!UICONTROL Create New Placement]**.
 
-      1. Wählen Sie den Anzeigentyp für die Platzierung aus und klicken Sie dann auf **[!UICONTROL Build this placement]**.
+     1. Wählen Sie den Anzeigentyp für die Platzierung aus und klicken Sie dann auf **[!UICONTROL Build this placement]**.
 
-      1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
+     1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
 
    * So fügen Sie eine vorhandene Platzierung in der Kampagne hinzu:
 
@@ -57,13 +53,13 @@ ht-degree: 0%
      >
      >Jede Platzierung kann in nur einem Paket enthalten sein. Es werden nur Platzierungen aufgelistet, die noch nicht in einem Paket enthalten sind.
 
-      1. Klicken Sie auf **[!UICONTROL Select a Placement].**
+     1. Klicken Sie auf **[!UICONTROL Select a Placement].**
 
-      1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
+     1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
 
-      1. (Optional) Klicken Sie für jede weitere Platzierung, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Placement]**, und wiederholen Sie dann die Schritte 1 bis 2.
+     1. (Optional) Klicken Sie für jede weitere Platzierung, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Placement]**, und wiederholen Sie dann die Schritte 1 bis 2.
 
-      1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
+     1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
 
 >[!MORELIKETHIS]
 >
