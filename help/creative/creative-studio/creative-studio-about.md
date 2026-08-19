@@ -1,15 +1,12 @@
 ---
 title: Über Creative Studio in Advertising Creative
 description: Erfahren Sie, wie Sie mit Creative Studio KI-unterstützte Anzeigeninhalte in Adobe Advertising Creative erstellen.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: 811
 ht-degree: 0%
 
 ---
@@ -24,11 +21,11 @@ ht-degree: 0%
 
 [!UICONTROL Creative Studio] ist in drei Registerkarten unterteilt:
 
-**[!UICONTROL Creatives]** - Der Ausgangspunkt für die Erstellung von Anzeigen. Zeigt die vorhandenen Kreativen an, die in Creative Studio generiert wurden und in ausblendbaren Kreativbibliotheken organisiert sind. Von hier aus können Sie Standard-Display-Anzeigen aus Vorlagen generieren, dynamische Display-Kreative aus Katalogdaten erstellen und vorhandene Kreative verwalten (Bearbeiten, Generieren von Anzeigenvarianten, Vorschau, Duplizieren, Herunterladen, Löschen, QS und Überprüfen von Änderungsprotokollen). Siehe &quot;[Verwalten von Standardanzeigen in Creative &#x200B;](creative-studio-manage-standard-ads.md)&quot; und &quot;[Verwalten dynamischer Anzeigen in Creative Studio](creative-studio-manage-dynamic-ads.md)&quot;.
+**[!UICONTROL Creatives]** - Der Ausgangspunkt für die Erstellung von Anzeigen. Zeigt die vorhandenen Kreativen an, die in Creative Studio generiert wurden und in ausblendbaren Kreativbibliotheken organisiert sind. Von hier aus können Sie Standard-Display-Anzeigen aus Vorlagen generieren, dynamische Display-Kreative aus Katalogdaten erstellen und vorhandene Kreative verwalten (Bearbeiten, Generieren von Anzeigenvarianten, Vorschau, Duplizieren, Herunterladen, Löschen, QS und Überprüfen von Änderungsprotokollen). Siehe &quot;[Verwalten von Standardanzeigen in Creative ](creative-studio-manage-standard-ads.md)&quot; und &quot;[Verwalten dynamischer Anzeigen in Creative Studio](creative-studio-manage-dynamic-ads.md)&quot;.
 
-**[!UICONTROL Templates]** - Zeigt alle Anzeige- und Video-Anzeigenvorlagen an, die Ihrem Konto zur Verfügung stehen, mit Filterung nach Quelle (Alle, Systemvorlagen, Benutzervorlagen), Status und Anzeigenformat. Sie können Vorlagen in der Vorschau anzeigen, als Favorit festlegen, beschriften, herunterladen und löschen oder eine Anzeigengenerierungssitzung direkt über eine vorhandene Anzeigenvorlage starten. Siehe &quot;[&#x200B; von Vorlagen in Creative Studio &#x200B;](creative-studio-manage-templates.md)&quot;.
+**[!UICONTROL Templates]** - Zeigt alle Anzeige- und Video-Anzeigenvorlagen an, die Ihrem Konto zur Verfügung stehen, mit Filterung nach Quelle (Alle, Systemvorlagen, Benutzervorlagen), Status und Anzeigenformat. Sie können Vorlagen in der Vorschau anzeigen, als Favorit festlegen, beschriften, herunterladen und löschen oder eine Anzeigengenerierungssitzung direkt über eine vorhandene Anzeigenvorlage starten. Siehe &quot;[ von Vorlagen in Creative Studio ](creative-studio-manage-templates.md)&quot;.
 
-**[!UICONTROL Assets]** - Speichert Bilder, Video- und Audiodateien, die in Vorlagen verwendet werden und verfügbar sind, um während der Sitzungen zur Anzeigengenerierung an KI-Chat-Nachrichten anzuhängen. Sie können Assets suchen, filtern, hochladen, herunterladen und löschen. Siehe [Verwalten von Assets in Creative &#x200B;](creative-studio-manage-assets.md).
+**[!UICONTROL Assets]** - Speichert Bilder, Video- und Audiodateien, die in Vorlagen verwendet werden und verfügbar sind, um während der Sitzungen zur Anzeigengenerierung an KI-Chat-Nachrichten anzuhängen. Sie können Assets suchen, filtern, hochladen, herunterladen und löschen. Siehe [Verwalten von Assets in Creative ](creative-studio-manage-assets.md).
 
 ## Wichtigste Funktionen
 
@@ -74,4 +71,3 @@ ht-degree: 0%
 >* [Verwalten von Vorlagen in Creative Studio](creative-studio-manage-templates.md)
 >* [Verwalten von Assets in Creative Studio](creative-studio-manage-assets.md)
 >* [Verwalten von Markenprofilen in Advertising Creative](/help/creative/brands/brand-manage.md)
->* [C2PA-Metadaten in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
