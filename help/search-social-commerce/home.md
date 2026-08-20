@@ -18,10 +18,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0714d68f4898f7a2792273918438cb83dd057ef9
+source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
 workflow-type: tm+mt
-source-wordcount: 4897
-ht-degree: 0%
+source-wordcount: 5013
+ht-degree: 1%
 
 ---
 
@@ -31,6 +31,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;19. August | [!UICONTROL Objective Upload], [!UICONTROL Portfolio] Einstellungen | Sie können jetzt auf der Registerkarte [!UICONTROL Manage Objectives] in den Portfolioeinstellungen festlegen, keine objektiven Wertdaten für ein bestimmtes Portfolio an Anzeigennetzwerke zu senden. | — |
 | &#x200B;29. Juli 2026 | [!UICONTROL Campaigns], [!UICONTROL Reports] | ([!DNL Google Ads] Konten) Die folgende KI-Max-Unterstützung ist jetzt in der neuen Benutzeroberfläche für Google Ads-Kampagnen im Suchnetzwerk verfügbar:<ul><li>Unter Verwalten > Kampagnen können Sie KI-Max-aktivierte Kampagnen erstellen und verwalten. Die Kampagneneinstellungen umfassen eine neue Registerkarte „KI-Max“ mit Optionen zur Aktivierung von KI-Max, automatisierter Textanpassung und der endgültigen URL-Erweiterung. Sie können auch sehen, ob die Anzeigengruppen geografische Interessenziele verwenden.</li><li>Sie können Anzeigengruppen für Kampagnen mit aktiviertem KI-Max. unter Verwalten > Anzeigengruppe erstellen und verwalten. Zu den Einstellungen gehören der Suchbegriff-Abgleich ohne Keywords und die gewünschten Orte.</li><li>Ihre KI-generierten Kreativ-Assets sind in Assets > Creative verfügbar. Sie können Text-Assets aus den zugehörigen Anzeigengruppen aus dieser Ansicht entfernen.</li><li>Eine neue [!UICONTROL Asset Report] enthält Leistungsdaten auf Asset-Ebene für jedes KI-generierte Asset in Kampagnen mit aktivierter KI-Max. Der Bericht enthält keine Adobe Analytics-Konversionen.</li></ul> | Siehe [Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) und [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md) und [[!DNL Google Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [Kreative Assets anzeigen und erstellen](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md). und &quot;[The [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)&quot;. |
 | &#x200B;9. Juni 2026 | Integration mit Adobe Customer Journey Analytics | Werbetreibende mit Customer Journey Analytics, aber nicht [!DNL Analytics for Advertising] können Daten nativ mithilfe der Adobe Experience Platform-[!DNL Web SDK] zwischen Adobe Advertising und Customer Journey Analytics austauschen. | Siehe &quot;[&#x200B; der Integration zwischen Adobe Advertising und Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | &#x200B;28. Mai 2026 | Neue Benutzeroberfläche | Die meisten Funktionen sind jetzt in der neuen Benutzeroberfläche verfügbar, einschließlich geplanter Berichte und Tabellen-Feeds, Bulksheets, Ad-Netzwerk-Manager-Konten und der [!DNL Spend Planner] (früher &quot;[!DNL Spend Recommendations]„). | Siehe [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md) und das Kapitel „Neue Benutzeroberfläche“. |

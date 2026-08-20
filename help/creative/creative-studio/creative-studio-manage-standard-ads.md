@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ In Ihrer Vorlagenbibliothek muss mindestens eine Anzeige und Vorlage vorhanden s
 
    * **Auf der Registerkarte [!UICONTROL Creatives]:**
 
-      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
+     1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
 
-      1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Generate]** auf der Karte Schnellaktion **[!UICONTROL Generate standard ads from templates]** .
+     1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Generate]** auf der Karte Schnellaktion **[!UICONTROL Generate standard ads from templates]** .
 
-      1. Klicken Sie im Dialogfeld zur Vorlagenauswahl auf eine Vorlage, um sie auszuwählen, und klicken Sie dann auf **[!UICONTROL Use this template]**.
+     1. Klicken Sie im Dialogfeld zur Vorlagenauswahl auf eine Vorlage, um sie auszuwählen, und klicken Sie dann auf **[!UICONTROL Use this template]**.
 
    * (Nur Anzeigen anzeigen) **Auf der Registerkarte &quot;[!UICONTROL Templates]&quot;:**
 
-      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
+     1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-      1. Halten Sie den Cursor über eine Vorlagenkarte und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
+     1. Halten Sie den Cursor über eine Vorlagenkarte und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
 
    Die [!UICONTROL Ad Variations Generator] wird geöffnet. Auf der Arbeitsfläche wird der Abschnitt **[!UICONTROL Template Sizes]** mit den verfügbaren Anzeigenformaten der Vorlage und ein **[!UICONTROL Ad Concepts]** Abschnitt mit den generierten Inhalten angezeigt.
 
@@ -100,14 +100,14 @@ In Ihrer Vorlagenbibliothek muss mindestens eine Anzeige und Vorlage vorhanden s
 
    * Um ein Konzept zu verwalten, halten Sie den Cursor über die Konzeptbeschriftung (z. B. **[!UICONTROL Concept 3]**), klicken Sie auf **[!UICONTROL ...]** und wählen Sie dann eine Option aus:
 
-      * **[!UICONTROL Add to chat]:** Verweist auf das Konzept in der nächsten Eingabeaufforderung.
-      * **[!UICONTROL Delete]:** Entfernt das Konzept.
+     * **[!UICONTROL Add to chat]:** Verweist auf das Konzept in der nächsten Eingabeaufforderung.
+     * **[!UICONTROL Delete]:** Entfernt das Konzept.
 
    * Um eine einzelne Variante zu verwalten, halten Sie den Cursor über die Variantenkarte und klicken Sie auf **[!UICONTROL ...]** und wählen Sie dann eine Option aus:
 
-      * **[!UICONTROL Add to Chat]:** Verweist auf die Variante in Ihrer nächsten Eingabeaufforderung. Sie können auch direkt auf den Kartenhauptteil der Variante klicken, um die Erwähnung umzuschalten.
-      * **[!UICONTROL Edit Data]:** Öffnet ein Dialogfeld, in dem Sie die **[!UICONTROL Name]** und die Clickthrough-URL für jedes in der Vorlage definierte Clicktag aktualisieren können. Zum Anwenden auf **[!UICONTROL Save]** klicken.
-      * **[!UICONTROL Delete]:** Entfernt die Variante.
+     * **[!UICONTROL Add to Chat]:** Verweist auf die Variante in Ihrer nächsten Eingabeaufforderung. Sie können auch direkt auf den Kartenhauptteil der Variante klicken, um die Erwähnung umzuschalten.
+     * **[!UICONTROL Edit Data]:** Öffnet ein Dialogfeld, in dem Sie die **[!UICONTROL Name]** und die Clickthrough-URL für jedes in der Vorlage definierte Clicktag aktualisieren können. Zum Anwenden auf **[!UICONTROL Save]** klicken.
+     * **[!UICONTROL Delete]:** Entfernt die Variante.
 
 1. Wenn Sie mit den generierten Konzepten zufrieden sind, klicken Sie in der Kopfzeile auf **[!UICONTROL Save Standard Ads]** .
 
@@ -204,4 +204,3 @@ Duplizieren Sie eine Standardanzeige, um eine neue Kreative mit denselben Einste
 >* [Verwalten von dynamischen Kreativen in Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Verwalten von Vorlagen in Creative Studio](creative-studio-manage-templates.md)
 >* [Verwalten von Markenprofilen in Advertising Creative](/help/creative/brands/brand-manage.md)
-

@@ -3,9 +3,9 @@ title: (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivie
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in Google Ads und Microsoft Advertising hochladen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Werbetreibende nur für die Hybridoptimierung aktiviert*
 
-Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar.
+Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar. Sie können sich dafür entscheiden, keine objektiven Wertdaten für ein bestimmtes Portfolio über die Registerkarte [!UICONTROL Manage Objectives] in den Portfolioeinstellungen an Anzeigennetzwerke zu senden.
 
 Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der `msclkid` der [!DNL Microsoft Advertising]. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
 
@@ -32,7 +32,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 >[!IMPORTANT]
 >
->Konversionen, die von [!DNL Google Ads] und vom [!DNL Microsoft Advertising] UET-Tag (Universal Event Tracking) verfolgt werden, werden nicht erneut in die Werbenetzwerke hochgeladen. Wenn Sie sie in ein Ziel einbeziehen, müssen Sie sie im Editor des Anzeigennetzwerks zu den Kampagnenzielen hinzufügen.
+>Konversionen, die von [!DNL Google Ads] und dem [!DNL Microsoft Advertising] UET-Tag (Universal Event Tracking) verfolgt werden, werden nicht erneut in die Werbenetzwerke hochgeladen. Wenn Sie sie in ein Ziel einbeziehen, müssen Sie sie im Editor des Anzeigennetzwerks zu den Kampagnenzielen hinzufügen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**.
 
@@ -40,7 +40,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. Legen Sie im Dialogfeld [!UICONTROL Objective Upload Setup] den Umschalter **[!UICONTROL Enable Objective Upload]** auf **[!UICONTROL On]** fest.
 
-1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen, um zu bestätigen, dass die Einwilligungen von EWR-/britischen Nutzern eingeholt wurden. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn diese Option deaktiviert ist, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
+1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn Sie das Kontrollkästchen nicht aktivieren, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
 1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
 
@@ -54,7 +54,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 ## Berechnen des gewichteten Ziels
 
-Das gewichtete Ziel, das an das Werbenetzwerk übergeben wird, ist die Summe aller erfassten Metrikwerte, mit Ausnahme der Konversionen, die von [!DNL Google Ads] oder vom [!DNL Microsoft Advertising] UET-Tag (Universal Event Tracking) verfolgt werden. Der Wert wird mithilfe der Attributionsmethode berechnet, die für das Konto „Suche“, „Social“ und &quot;Commerce&quot; des Werbetreibenden eingerichtet wurde.
+Das gewichtete Ziel, das an das Werbenetzwerk übergeben wird, ist die Summe aller erfassten Metrikwerte, mit Ausnahme der Konversionen, die von [!DNL Google Ads] oder dem [!DNL Microsoft Advertising] UET-Tag (Universal Event Tracking) verfolgt werden. Der Wert wird mithilfe der Attributionsmethode berechnet, die für das Konto „Suche“, „Social“ und &quot;Commerce&quot; des Werbetreibenden eingerichtet wurde.
 
 Angenommen, die Zielmetrik des Ziels lautet beispielsweise „Warenkorbhinzufügungen“ mit einer Gewichtung von 25. Ihre Hilfsmetriken umfassen „GGL_Lead“ und „Umsatz“ mit einer Gewichtung von 1 und „Downloads“ mit einer Gewichtung von 0,5.
 
@@ -67,7 +67,7 @@ Angenommen, ein Keyword führt zu den folgenden Aktionen für das Portfolio:
 * 50 Downloads
 * 5 GGL_Lead
 
-GGL_Lead ist nicht in der Berechnung/dem Upload enthalten, da es sich um eine von Google Ads verfolgte Metrik handelt. Daher wird der gewichtete Zielwert berechnet als ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+GGL_Lead ist nicht in der Berechnung/dem Upload enthalten, da es sich um eine [!DNL Google Ads] Metrik handelt. Daher wird der gewichtete Zielwert berechnet als ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
 
 >[!TIP]
 >
@@ -79,9 +79,9 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 
 * ([!DNL Google Ads]) Überprüfen Sie, ob die Konversionen auf Konto- oder Managerebene hochgeladen werden sollen. Wenn sie auf Managerebene hochgeladen werden sollen:
 
-   * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto angegeben wurden. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto angegeben wurden. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
 
-   * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
+  * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
 
 * Vergewissern Sie sich, dass die Option „Hybrid“ des Portfolios ausgewählt ist und dass das Ziel einen gültigen Umsatz hat.
 
