@@ -60,7 +60,7 @@ So zeigen Sie den vollständigen Asset-Verlauf für ein Bild an:
 
 ## Zusätzliche Ressourcen
 
-* [Generative KI-Inhaltstransparenz für [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Generative KI-Inhaltstransparenz für [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [Benutzerrichtlinien für [!DNL Adobe] generative KI](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
