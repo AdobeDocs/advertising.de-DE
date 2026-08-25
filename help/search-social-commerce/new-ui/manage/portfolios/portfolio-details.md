@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +91,21 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 ## Auflisten der Kampagnen im Portfolio
 
+Zu den Details der einzelnen Kampagnen gehören die Bid-Strategie, die tatsächlichen und prognostizierten Kosten, Klicks und Zielwert sowie die Kosten-, Klick- und Zielwert-Genauigkeit.
+
 * Klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** .
 
 ## Auflisten der Anzeigengruppen im Portfolio
 
+Details zu jeder Anzeigengruppe enthalten die Kosten, Klicks und den Zielwert.
+
+* Um alle Anzeigengruppen im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Ad Groups]** .
+
 * Um alle Anzeigengruppen in einer Kampagne innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** und dann auf den Namen der Kampagne.
 
 ## Auflisten der Keywords im Portfolio
+
+Zu den Details für jedes Keyword gehören die ID der Gebotseinheit, der Übereinstimmungstyp, die tatsächlichen und prognostizierten Kosten, Klicks und der Zielwert sowie die Differenz der Kosten, Klicks und Zielwerte.
 
 * Um alle Keywords im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Keywords]** .
 

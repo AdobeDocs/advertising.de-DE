@@ -1,15 +1,12 @@
 ---
 title: C2PA-Metadaten in Creative Studio
 description: Erfahren Sie, wie C2PA-Metadaten automatisch an Inhalte angehängt werden, die mit generativer KI in Creative Studio generiert oder bearbeitet werden.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d335c890ccc3ff8b2d391881660a71d10fcba53a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 432
 ht-degree: 2%
 
 ---
@@ -59,6 +56,8 @@ So zeigen Sie den vollständigen Asset-Verlauf für ein Bild an:
 ![Beispiel für C2PA-Metadaten für ein Bild](/help/creative/assets/cs-content-credentials-example.png "C2PA-Metadaten für ein Bild")
 
 ## Zusätzliche Ressourcen
+
+* [Generative KI-Inhaltstransparenz für [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [Benutzerrichtlinien für [!DNL Adobe] generative KI](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
