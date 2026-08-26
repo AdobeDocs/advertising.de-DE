@@ -3,9 +3,9 @@ title: (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivie
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in Google Ads und Microsoft Advertising hochladen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Werbetreibende nur für die Hybridoptimierung aktiviert*
 
-Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar. Sie können sich dafür entscheiden, keine objektiven Wertdaten für ein bestimmtes Portfolio über die Registerkarte [!UICONTROL Manage Objectives] in den Portfolioeinstellungen an Anzeigennetzwerke zu senden.
+Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar.<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der `msclkid` der [!DNL Microsoft Advertising]. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
 
@@ -42,7 +42,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn Sie das Kontrollkästchen nicht aktivieren, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([ Sie Anmeldeinformationen für Ihr Manager-Konto ](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
