@@ -3,9 +3,9 @@ role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Handbuch zu Creative
-source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-
+  + [C2PA-Metadaten in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
   + [Standardanzeigen verwalten](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [Verwalten dynamischer Kreative](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [Vorlagen verwalten](/help/creative/creative-studio/creative-studio-manage-templates.md)
