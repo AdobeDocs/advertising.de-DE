@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Sie können sehen, welche Konversionen durch einen Klick auf eine [!DNL Google A
 
 +++
 
-+++Die Spalte &quot;[!UICONTROL Keyword]&quot; in meinem Bericht enthält den Wert „(Anzeigengruppeninhalt) „ph id=&#39;66&#39;/>Anzeigengruppenname *>&quot;.*
++++Die Spalte &quot;[!UICONTROL Keyword]&quot; in meinem Bericht enthält den Wert „(Anzeigengruppeninhalt) &lt;*Anzeigengruppenname*>&quot;.
 Wenn die Zeile Daten für inhaltsaktivierte Suchkampagnen, Anzeigekampagnen oder Social-Media-Kampagnen enthält - die keine Keywords enthalten -, zeigt die Spalte [!UICONTROL Keyword] stattdessen den entsprechenden Anzeigengruppennamen an.
 +++
 
@@ -133,12 +133,12 @@ Im Folgenden finden Sie häufige Gründe für einen Mangel an Klickdaten.
 
 | Ursache | Erkennung/Analyse | Auflösung |
 |---|---|---|
-| Fehler beim Abrufen der Klickdaten aus dem Werbekonto. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, obwohl das Werbekonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-Accountteam.<br><br>Wenn die Daten für mehr als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenprognosen aus, bis die Daten abgerufen werden. Ihr Adobe Account Team kann die Daten ausschließen. |
+| Fehler beim Abrufen der Klickdaten aus dem Werbekonto. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt, obwohl das Werbekonto Geld ausgegeben hat. | Wenden Sie sich an Ihr Adobe-<br><br>.Wenn die Daten für mehr als 24 Stunden fehlen, schließen Sie diese Daten aus den Kostenprognosen aus, bis die Daten abgerufen werden. Ihr Adobe Account Team kann die Daten ausschließen. |
 | Ein Problem mit der Rechnungsstellung zwischen dem Werbetreibenden und dem Werbenetzwerk verhindert, dass das Werbekonto Ausgaben tätigt. | Es gibt keine systematische Möglichkeit, dieses Problem zu erkennen, aber Sie werden möglicherweise feststellen, dass eine Kampagne keine Kosten- oder Klickinformationen anzeigt. | Wenn Sie wissen, dass ein Werbekonto aufgrund eines Abrechnungsproblems nicht in der Lage war, Ausgaben zu tätigen, schließen Sie diese Daten aus den Kostenprognosen aus. Ihr Adobe Account Team kann die Daten ausschließen. |
 
 +++
 
-+++Die Leistungsdaten unterscheiden sich von den Daten im Anzeigennetzwerk-Editor.
++++Die Leistungsdaten unterscheiden sich von den Daten im Editor des Anzeigennetzwerks.
 Wenn das Werbenetzwerk Aktualisierungen an vorherigen Daten sendet (häufig, weil Klickbetrug einigen Klicks zugeordnet wurde), aktualisiert Search, Social und Commerce die Daten nur, wenn eine Diskrepanz von mehr als 5 % besteht und das Adobe-Konto-Team eine Anfrage sendet.
 
 Wenn Sie Impression Share-Daten vergleichen, die über einen Datumsbereich aggregiert sind, können die Daten, die in Such-, Social- und Commerce-Berichten enthalten sind, von den Daten abweichen, die das Werbenetzwerk meldet. Dieser Unterschied beruht darauf, wie die Daten von der API des Anzeigennetzwerks gemeldet werden, die Search, Social und Commerce verwenden, um Daten abzurufen. Zum Beispiel für [!DNL Google Ads]:
@@ -311,7 +311,7 @@ Siehe [https://experienceleague.adobe.com/docs/advertising/integrations/analytic
 ## Spezifische Berichte
 
 +++Sollte die [!UICONTROL Portfolio Report] dieselben Zahlen wie die [!UICONTROL Portfolios] zeigen?
-Die [!UICONTROL Portfolio Report]- und die [!UICONTROL Portfolios] zeigen dieselben Daten an, wenn alle Filter für die Ansicht, die Berichtsparameter und die Datenspalten für die Ansicht und den Bericht identisch sind. Wenn die [!UICONTROL Portfolios] beispielsweise Portfolios anzeigt, die für den Datumsbereich &quot;[!UICONTROL All but inactive]&quot; &quot;[!UICONTROL Last 7 days]&quot; sind und in denen nur die Standarddatenspalten angezeigt werden, zeigt eine [!UICONTROL Portfolio Report] mit den Standardparametern identische Daten an. Wenn Sie einen der Berichtsparameter ändern oder verschiedene Filter in der [!UICONTROL Portfolios] verwenden, können die Datenwerte unterschiedlich sein.
+Die [!UICONTROL Portfolio Report]- und die [!UICONTROL Portfolios] zeigen dieselben Daten an, wenn alle Filter für die Ansicht, die Berichtsparameter und die Datenspalten für die Ansicht und den Bericht identisch sind. Wenn die [!UICONTROL Portfolios] beispielsweise Portfolios anzeigt, die für den Datumsbereich &quot;[!UICONTROL Last 7 days]&quot; &quot;[!UICONTROL All but inactive]&quot; sind und in denen nur die Standarddatenspalten angezeigt werden, zeigt eine [!UICONTROL Portfolio Report] mit den Standardparametern identische Daten an. Wenn Sie einen der Berichtsparameter ändern oder verschiedene Filter in der [!UICONTROL Portfolios] verwenden, können die Datenwerte unterschiedlich sein.
 +++
 
 +++Die Daten in meinen [!UICONTROL Portfolio Report] stimmen nicht mit den Daten in meinen [!UICONTROL Search Engine Report] oder [!UICONTROL Search Engine Account Report] überein.
@@ -349,7 +349,7 @@ Um das Problem zu beheben, aktualisieren Sie den Tabellen-Feed, um die neuen Spa
 +++
 
 +++Wenn ich versuche, einen Tabellen-Feed in [!DNL Excel] zu öffnen, meldet [!DNL Excel] einen Fehler „Unlesbarer Inhalt“ und die Daten werden aus dem wiederhergestellten Inhalt entfernt.
-Wenn die [!DNL Microsoft Excel]-Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellen-Feed leere Zeilen enthalten. Insbesondere wird [!DNL Excel] Fehler „Excel hat unlesbaren Inhalt in &quot;*Berichtsname>.xlsx gefunden*&quot; gemeldet. Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf „Ja“.“ Wenn Sie auf „Ja“ klicken, erhalten Sie die folgende Meldung: „Entfernte Datensätze: Zelleninformationen vom Teil /xl/worksheets/sheet1.xml&quot;, und der Tabellen-Feed enthält leere Zeilen.
+Wenn die [!DNL Microsoft Excel]-Vorlage die Daten nicht nach Startdatum in aufsteigender Reihenfolge sortiert, kann der Tabellen-Feed leere Zeilen enthalten. Insbesondere wird [!DNL Excel] Fehler „Excel hat unlesbaren Inhalt in &quot;&lt;*Berichtname>.* gefunden.“ Möchten Sie den Inhalt der Arbeitsmappe wiederherstellen? Wenn Sie der Quelle dieser Arbeitsmappe vertrauen, klicken Sie auf „Ja“.“ Wenn Sie auf „Ja“ klicken, erhalten Sie die folgende Meldung: „Entfernte Datensätze: Zelleninformationen vom Teil /xl/worksheets/sheet1.xml&quot;, und der Tabellen-Feed enthält leere Zeilen.
 
 Um das Problem zu beheben, bearbeiten Sie die mit dem Feed verknüpfte [!DNL Excel]-Vorlage, um Daten nach [!DNL Start date in Ascending (Oldest to Newest) order] zu sortieren, und laden Sie dann die aktualisierte Vorlage über die Einstellungen für Tabellen-Feeds hoch. Weitere Informationen finden Sie unter [Bearbeiten von Tabellenbericht-Feeds](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).
 +++
