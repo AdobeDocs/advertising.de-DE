@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +24,8 @@ Eine Portfolio-Bulksheet ist eine Datei, die Portfolioeinstellungen in einem bes
 * Ein schreibgeschütztes [!UICONTROL Instructions]-Arbeitsblatt mit Informationen zum Bearbeiten der Felder.
 
 * Eine [!UICONTROL Portfolio Settings Edit] Registerkarte mit einer Zeile pro eingeschlossenem Portfolio. Sie können die Felder nach Bedarf bearbeiten, die Datei lokal speichern und anschließend [die bearbeitete Datei hochladen](#portfolio-bulksheet-upload) in Search, Social und Commerce. Die bearbeitbaren Felder sind farblich hervorgehoben.
+
+Diese Funktion ist für Portfolios mit den folgenden Ausgabenstrategien verfügbar: Täglich, Wöchentlich, Monatlich und Wochentag.
 
 ## Herunterladen einer Bulksheet-Datei mit Portfolioeinstellungen
 
@@ -47,7 +45,7 @@ Eine Portfolio-Bulksheet ist eine Datei, die Portfolioeinstellungen in einem bes
 
 ## Hochladen einer Bulksheet-Datei mit aktualisierten Portfolioeinstellungen {#portfolio-bulksheet-upload}
 
-Die Datei muss im XLSX-Format vorliegen.
+Die Datei muss im XLSX-Format vorliegen, die Dateigröße muss zwischen 1 KB und 1 MB liegen und der Dateiname darf maximal 100 Zeichen lang sein.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Massenvorgänge](/help/search-social-commerce/assets/chevron-down.png "Massenvorgänge") > **[!UICONTROL Import Portfolio Details]**.
 
