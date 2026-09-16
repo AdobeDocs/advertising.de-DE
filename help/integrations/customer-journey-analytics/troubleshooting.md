@@ -36,12 +36,12 @@ Im Folgenden finden Sie mögliche Probleme, deren mögliche Ursachen und Lösung
 
 | Problem | Weitere Informationen |
 | ------- | ---------------- |
-| Auf der Registerkarte &quot;[!DNL Network]&quot; des Code-Inspektions-Tools Ihres Browsers sind keine Alloy(s)-Aufrufe sichtbar. | Siehe Abschnitt &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
-| Konsolenfehler: Legierung ist nicht definiert | Siehe &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
-| Es werden keine Interaktions- oder Sammlungsanfragen an edge.adobedc.net gestellt. | Siehe &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
-| Anfragen erreichen Adobe Experience Platform Edge Network, geben jedoch 400- oder 500-Fehler zurück. | Siehe Abschnitt &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
-| In Adobe Analytics- oder Adobe Advertising-Berichten werden keine Daten angezeigt. | Siehe Abschnitt &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
-| Fehler in der Netzwerkantwort: „Datenstrom nicht gefunden“ | Siehe Abschnitt &quot;[ und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
+| Auf der Registerkarte &quot;[!DNL Network]&quot; des Code-Inspektions-Tools Ihres Browsers sind keine Alloy(s)-Aufrufe sichtbar. | Siehe Abschnitt &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
+| Konsolenfehler: Legierung ist nicht definiert | Siehe &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
+| Es werden keine Interaktions- oder Sammlungsanfragen an edge.adobedc.net gestellt. | Siehe &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[WebSDK-Erweiterung wird nicht initialisiert](#websdk-extension-doesn't-initialize)&quot; |
+| Anfragen erreichen Adobe Experience Platform Edge Network, geben jedoch 400- oder 500-Fehler zurück. | Siehe Abschnitt &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
+| In Adobe Analytics- oder Adobe Advertising-Berichten werden keine Daten angezeigt. | Siehe Abschnitt &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
+| Fehler in der Netzwerkantwort: „Datenstrom nicht gefunden“ | Siehe Abschnitt &quot;[&#x200B; und Setup-Probleme](#issues-installation-setup)&quot; > &quot;[Datenstrom nicht konfiguriert oder falsch konfiguriert](#datastream-not-configured-or-misconfigured)&quot; |
 | Für die Web-Seite werden keine Viewthrough- oder Clickthrough-Konversionen aufgezeichnet. | Siehe Abschnitt &quot;[Setup-Probleme mit der Advertising-Erweiterung](#advertising-extension-setup-issues)&quot; |
 | `_experience.adcloud` fehlt in der Experience-Datenmodell (XDM)-Payload für Clickthroughs. | Siehe Abschnitt &quot;[Setup-Probleme mit der Advertising-Erweiterung](#advertising-extension-setup-issues)&quot; |
 | Konvertierungen werden in einem Debugger-Tool bestätigt, werden jedoch nicht in Adobe Advertising-Berichten angezeigt. | Siehe Abschnitt &quot;[Setup-Probleme mit der Advertising-Erweiterung](#advertising-extension-setup-issues)&quot; |
@@ -61,7 +61,7 @@ Im Folgenden finden Sie mögliche Probleme, deren mögliche Ursachen und Lösung
 
 ## Probleme mit der Installation und Einrichtung {#issues-installation-setup}
 
-### WebSDK-Erweiterung initialisiert {#websdk-extension-doesn-initialize} nicht.
+### WebSDK-Erweiterung initialisiert nicht. {#websdk-extension-doesn-initialize}
 
 #### Probleme:
 
@@ -75,7 +75,7 @@ Im Folgenden finden Sie mögliche Probleme, deren mögliche Ursachen und Lösung
 | ----- | --- |
 | Bibliothek nicht veröffentlicht oder im Entwurfsstatus | Wechseln Sie zu [Veröffentlichungsablauf](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) und stellen Sie sicher, dass sich die Bibliothek, die die WebSDK-Erweiterung enthält, im Status Genehmigt/Veröffentlicht befindet. |
 | Fehlende oder falsche Umgebung beim Einbettungs-Code | Überprüfen Sie, ob der [[!DNL Tags] Einbettungs-Code](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) auf der Web-Seite auf die richtige Umgebung verweist (Dev/Stage/Prod). Suchen Sie im `<head>`-Tag nach der Umgebung für das `//assets.adobedtm.com/...`-Skript-Tag. |
-| Asynchrone vs. synchrone Last - Konflikt | Stellen Sie sicher, dass pro Web[[!DNL Tags] Seite nur ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) (Einbettungs-Code) vorhanden ist. Doppelte Einbettungs-Codes verursachen Wettbewerbsbedingungen. |
+| Asynchrone vs. synchrone Last - Konflikt | Stellen Sie sicher, dass pro Web[[!DNL Tags] Seite nur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) (Einbettungs-Code) vorhanden ist. Doppelte Einbettungs-Codes verursachen Wettbewerbsbedingungen. |
 | Sperrung von Content Security Policy (CSP) | Fügen Sie `edge.adobedc.net` `and assets.adobedtm.com` zu Ihren [CSP-`connect-src` und `script-src`-Anweisungen](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/configuring-a-csp) hinzu. |
 
 ### Datenstrom nicht oder falsch konfiguriert {#datastream-not-configured-or-misconfigured}
@@ -154,7 +154,7 @@ Bevor Sie ein Support-Ticket für Probleme bei der Einrichtung [!UICONTROL Adver
 
 Überprüfen Sie Folgendes:
 
-* Die Regel wird gespeichert und in den aktiven [Bibliotheks-Build) ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds).
+* Die Regel wird gespeichert und in den aktiven [Bibliotheks-Build) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds).
 * Der Ereignistyp entspricht dem tatsächlichen Seitenverhalten (z. B. [!UICONTROL Library Loaded] vs. [!UICONTROL DOM Ready] vs. [!UICONTROL Window Loaded]).
 * Die Bedingungen der Regel sind nicht zu restriktiv. Testen Sie durch vorübergehendes [Entfernen von Bedingungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules), um das Problem zu isolieren.
 * Die Regelreihenfolge ist korrekt. Wenn mehrere Regeln dasselbe Ereignis gemeinsam haben, überprüfen Sie die [Regelreihenfolge](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules).
