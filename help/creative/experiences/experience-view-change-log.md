@@ -2,13 +2,12 @@
 title: Anzeigen des Änderungsprotokolls für ein Erlebnis
 description: Erfahren Sie, wie Sie Details zu Änderungen an einem Erlebnis während eines bestimmten Zeitraums anzeigen können, einschließlich der Personen, die die Änderung vorgenommen haben.
 feature: Creative Experiences
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 124cc524-569b-4826-a4a2-9401b7c8daba
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # Anzeigen des Änderungsprotokolls für ein Erlebnis
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.

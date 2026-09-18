@@ -2,13 +2,12 @@
 title: Anzeigen des Änderungsprotokolls für ein Kreativ-Tool
 description: Erfahren Sie, wie Sie Details zu Änderungen an einem Kreativ während eines bestimmten Zeitraums anzeigen können, einschließlich der Personen, die die Änderung vorgenommen haben.
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Anzeigen des Änderungsprotokolls für ein Kreativ-Tool
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
