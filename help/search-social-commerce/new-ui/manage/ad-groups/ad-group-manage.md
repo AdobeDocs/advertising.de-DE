@@ -4,19 +4,21 @@ description: Erfahren Sie, wie Sie Anzeigengruppen erstellen und verwalten.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 1676
+source-wordcount: '1692'
 ht-degree: 0%
-
 ---
-
 # Anzeigengruppen verwalten
 
 <!-- Go through all -->
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 Eine Anzeigengruppe enthält eine Reihe von Anzeigen und die zugehörigen Keywords. Eine Anzeigengruppe in einer Kampagne, die auf das Display-Netzwerk abzielt, kann auch Platzierungen enthalten, d. h. Positionen im Display-Netzwerk, in denen Ihre Anzeigen erscheinen können. Die Einstellungen der Anzeigengruppen, die für alle Komponenten der Anzeigengruppe gelten, variieren je nach Anzeigennetzwerk.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigengruppen für einen [unterstützten Kampagnentyp“ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigengruppen bearbeiten und ändern.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigengruppen für einen [unterstützten Kampagnentyp“ ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigengruppen bearbeiten und ändern.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -61,7 +63,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Ad Groups] listet alle Anzeigengru
 
 1. Klicken Sie auf **[!UICONTROL Create Ad Group]**.
 
-1. Geben Sie die [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen an.
+1. Geben Sie die [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen an.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -97,7 +99,7 @@ Sie können Einstellungen für einzelne Anzeigengruppen bearbeiten. Sie können 
 
    * Aktivieren Sie das Kontrollkästchen neben der Anzeigengruppe. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen.
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) Anzeigengruppeneinstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -111,7 +113,7 @@ Schnelles Ändern des Status einer Anzeigengruppe, ohne die vollständigen Anzei
 
 Sie können jede aktive Anzeigengruppe in einem unterstützten Anzeigennetzwerk anhalten, um die Angebotsabgabe darauf zu deaktivieren. Sie können die Gebotsabgabe später fortsetzen, indem Sie den Status wieder in Aktiv ändern.
 
-Sie können auch alle aktiven oder pausierten Anzeigengruppen löschen. Gelöschte Anzeigengruppen werden aus dem Anzeigennetzwerk gelöscht. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
+Sie können auch alle aktiven oder pausierten Anzeigengruppen löschen (innerhalb von [!DNL ChatGPT Ads Manager] als „Archiv“ bezeichnet). Gelöschte oder archivierte Anzeigengruppen werden aus dem Anzeigennetzwerk gelöscht oder archiviert. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
 
 ### Anzeigengruppe aktivieren oder anhalten
 
@@ -125,7 +127,7 @@ Sie können auch alle aktiven oder pausierten Anzeigengruppen löschen. Gelösch
 
    * Um eine aktive Anzeigengruppe anzuhalten, wählen Sie **[!UICONTROL Paused]** aus.
 
-### Eine Anzeigengruppe löschen
+### Löschen oder Archivieren einer Anzeigengruppe
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 
@@ -136,6 +138,8 @@ Sie können auch alle aktiven oder pausierten Anzeigengruppen löschen. Gelösch
    * Halten Sie den Cursor über der Anzeigengruppenzeile und klicken Sie ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") neben der [!UICONTROL Status]. Wählen Sie **[!UICONTROL Deleted]** aus.
 
 ## Angebotseinschränkungszuweisungen für Anzeigengruppen verwalten {#ad-group-constraints}
+
+*Nicht verfügbar für[!DNL ChatGPT Ads]*
 
 Jede Entität kann nur eine Einschränkung aufweisen. Beschränkungen werden von untergeordneten Entitäten übernommen, sodass Sie untergeordneten Entitäten keine Beschränkungen zuweisen müssen, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
@@ -321,7 +325,7 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 >* [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
