@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Eine Anzeigengruppe enthält eine Reihe von Anzeigen und die zugehörigen Keywords. Eine Anzeigengruppe in einer Kampagne, die auf das Display-Netzwerk abzielt, kann auch Platzierungen enthalten, d. h. Positionen im Display-Netzwerk, in denen Ihre Anzeigen erscheinen können. Die Einstellungen der Anzeigengruppen, die für alle Komponenten der Anzeigengruppe gelten, variieren je nach Anzeigennetzwerk.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigengruppen für einen [unterstützten Kampagnentyp“ ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigengruppen bearbeiten und ändern.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigengruppen für einen [unterstützten Kampagnentyp“ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigengruppen bearbeiten und ändern.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -325,7 +325,7 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 >* [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
