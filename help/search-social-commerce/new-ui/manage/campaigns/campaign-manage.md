@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2285'
 ht-degree: 0%
 ---
 # Verwalten von Kampagnen
@@ -63,14 +63,14 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or--> [Campaign-Bulksheets](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Campaign]**.
 
-1. Geben Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) an.
+1. Geben Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) an.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -106,7 +106,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
    * Aktivieren Sie das Kontrollkästchen neben der Kampagne. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[ oder ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.[
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -122,7 +122,7 @@ Schnelles Ändern des Status einer Kampagne, ohne die vollständigen Kampagnenei
 
 Sie können jede aktive Kampagne in einem unterstützten Werbenetzwerk anhalten, um die Angebotsabgabe dafür zu deaktivieren. Sie können die Gebotsabgabe später fortsetzen, indem Sie den Status wieder in Aktiv ändern.
 
-Sie können auch alle aktiven oder pausierten Kampagnen löschen (in [!DNL ChatGPT Ads Manager] als „Archiv“ bezeichnet). Gelöschte oder archivierte Kampagnen werden aus dem Werbenetzwerk gelöscht oder archiviert. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
+Sie können auch jede aktive oder angehaltene Kampagne löschen. Gelöschte Kampagnen werden aus dem Werbenetzwerk gelöscht. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
 
 ### Aktivieren oder Anhalten einer Kampagne
 
@@ -136,7 +136,7 @@ Sie können auch alle aktiven oder pausierten Kampagnen löschen (in [!DNL ChatG
 
    * Um eine aktive Kampagne anzuhalten, wählen Sie **[!UICONTROL Paused]** aus.
 
-### Löschen oder Archivieren einer Kampagne
+### Löschen einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -208,8 +208,6 @@ Weitere Informationen zur Optimierung finden Sie im Optimierungshandbuch , das b
 
 ## Zuweisungen von Angebotsbegrenzungen für Kampagnen verwalten {#campaign-constraints}
 
-*Nicht verfügbar für[!DNL ChatGPT Ads]*
-
 Jede Entität kann nur eine Einschränkung aufweisen. Beschränkungen werden von untergeordneten Entitäten übernommen, sodass Sie untergeordneten Entitäten keine Beschränkungen zuweisen müssen, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
 Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit den Kontokomponenten und allen untergeordneten Komponenten entfernt, und es sind keine Berichtsdaten für die Einschränkung mehr für diese Komponenten verfügbar. Durch Aufheben der Zuweisung einer Beschränkung werden weder die Beschränkung noch die Kontokomponenten selbst gelöscht.
@@ -279,8 +277,6 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 1. Wählen Sie im Bestätigungsdialogfeld **[!UICONTROL Yes, Unassign]** aus.
 
 ## Zielgruppen-Einschränkungszuweisungen für Kampagnen verwalten {#campaign-target-constraints}
-
-*Nicht verfügbar für[!DNL ChatGPT Ads]*
 
 ### Weisen Sie ausgewählten Kampagnen in der neuen [!UICONTROL Campaigns] eine Zielgruppeneinschränkung zu
 
@@ -430,7 +426,7 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)

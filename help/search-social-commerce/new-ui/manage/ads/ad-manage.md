@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1733'
 ht-degree: 0%
 ---
 # Anzeigen verwalten
@@ -27,7 +27,7 @@ Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yande
 
 Eine Anzeige gehört zu einer Anzeigengruppe und enthält den Inhalt, der Benutzenden angezeigt wird, z. B. die Überschrift, Beschreibung, das Bild oder andere kreative Elemente, je nach Anzeigennetzwerk und Anzeigentyp.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigen für einen [unterstützten Kampagnentyp“ &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigen bearbeiten und ändern.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie Anzeigen für einen [unterstützten Kampagnentyp“ ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Anzeigen bearbeiten und ändern.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -59,8 +59,6 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
   * Wenn die Kampagne nicht mit einem Merchant Center-Konto verknüpft ist, erstellen Sie bildbasierte Zielgruppenanzeigen mit dem responsiven Anzeigenformat , das mehrere Text- und Bild-Assets enthält. Das Anzeigennetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen und zeigt sie auf Websites wie [!DNL MSN], [!DNL Outlook.com] und [!DNL Microsoft Edge] an.
 
-* **Konversative Anzeigen** für eine Anzeigengruppe in einer [!DNL ChatGPT Ads] Kampagne. Konversationsanzeigen werden neben KI-Chat-Konversionen angezeigt.
-
 * **Nur-Anruf-Anzeigen** für [!DNL Google Ads] Kampagnen im Suchnetzwerk. Reine Anrufanzeigen sind Textanzeigen, die eine Telefonnummer enthalten. Optional können Sie eine [!DNL Google Ads] Weiterleitungsnummer für erweiterte Anrufberichte verwenden.
 
   >[!NOTE]
@@ -69,7 +67,7 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
 * **Erweiterte dynamische Suchanzeigen** (jetzt in den Werbenetzwerken nur noch „dynamische Suchanzeigen“ genannt) für [!DNL Google Ads] und [!DNL Microsoft Advertising] dynamische Suchanzeigengruppen in Suchkampagnen. Dynamische Suchanzeigen verwenden Inhalte von Ihrer Website anstelle von Keywords, um zu entscheiden, wann Ihre Anzeigen angezeigt werden sollen. Das Anzeigennetzwerk generiert dynamisch die Überschrift, wählt die Landingpage-URL und die Anzeige-URL aus und generiert automatisch die endgültige URL.
 
-  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] &#x200B;](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
+  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] ](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimedia-Anzeigen** für [!DNL Microsoft Advertising] Suchkampagnen. Multimedia-Anzeigen sind große Bildanzeigen, die an hervorgehobenen Positionen in der Haupt- und Seitenleiste angezeigt werden und pro Seite nur eine Multimedia-Anzeige angezeigt wird. Sie können mehrere Text- und Bild-Assets enthalten, z. B. responsive Anzeigen. Das Werbenetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen. Multimedia-Anzeigen ersetzen nicht Ihre Text-Anzeigenplatzierungen.
 
@@ -98,6 +96,8 @@ Sie ist jedoch nicht für [!DNL Google Ads] dynamische Suchanzeige (DSA), die ma
 
 ## Erstellen einer Anzeige {#ad-create}
 
+<!-- Verify that this note is still applicable -->
+
 >[!NOTE]
 >
 >* Sie müssen keine Produktanzeigen für Shopping-Kampagnen erstellen. Das Werbenetzwerk erstellt sie automatisch. Für [!DNL Microsoft Advertising] Shopping-Kampagnen können Sie jedoch optional Promotion-Zeilen definieren, die in Anzeigen aufgenommen werden sollen.
@@ -115,7 +115,7 @@ Sie ist jedoch nicht für [!DNL Google Ads] dynamische Suchanzeige (DSA), die ma
 
    Weitere Informationen zu den verfügbaren Anzeigentypen finden Sie unter &quot;[Verfügbare Anzeigentypen](#ad-types).
 
-1. Geben Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] ad](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (in Google Ads nur als „dynamische Suchanzeige“ bezeichnet), [Google Ads-responsive Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [&#128279;](ad-settings-yandex-text.md)Einstellungen.
+1. Geben Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (in Google Ads nur als „dynamische Suchanzeige“ bezeichnet), [Google Ads-Responsive-Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive-Suchanzeige](ad-settings-microsoft-rsa.md) oder [Yandex-](ad-settings-yandex-text.md)--Einstellungen an.
 
    >[!NOTE]
    >
@@ -127,7 +127,7 @@ Sie ist jedoch nicht für [!DNL Google Ads] dynamische Suchanzeige (DSA), die ma
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Shopping-Anzeigen in Kampagnen mit Adobe Advertising-Konversions-Tracking; optional) Um Klicks auf die Anzeige zu verfolgen, fügen Sie manuell eine Tracking-URL zu den Konto-, Kampagnen- oder Produktgruppeneinstellungen hinzu.
+1. <!-- Add link to where to generate this once available to users-->(Shopping-Anzeigen in Kampagnen mit Adobe Advertising-Konversions-Tracking; optional) Um Klicks auf die Anzeige zu verfolgen, fügen Sie manuell eine Tracking-URL zu den Konto-, Kampagnen- oder Produktgruppeneinstellungen hinzu.
 
 ## Umbenennen einer Anzeige {#ad-rename}
 
@@ -155,7 +155,7 @@ Schnelles Umbenennen einer Anzeige ohne Öffnen der vollständigen Anzeigeneinst
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] ad](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads nur „dynamische Suchanzeige“ genannt), [Google Ads-Responsive Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [-](ad-settings-yandex-text.md)-Textanzeige-Einstellungen.
+1. Bearbeiten Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads nur „dynamische Suchanzeige“ genannt), [Google Ads-Responsive-Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive-Suchanzeige](ad-settings-microsoft-rsa.md) oder [Yandex-](ad-settings-yandex-text.md)-Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -169,7 +169,7 @@ Schnelles Ändern des Status einer Anzeige, ohne die vollständigen Anzeigeneins
 
 Sie können jede aktive Anzeige in einem unterstützten Werbenetzwerk anhalten, um die Angebotsabgabe darauf zu deaktivieren. Sie können die Gebotsabgabe später fortsetzen, indem Sie den Status wieder in Aktiv ändern.
 
-Sie können auch alle aktiven oder pausierten Anzeigen löschen (in [!DNL ChatGPT Ads Manager] als „Archiv“ bezeichnet). Gelöschte oder archivierte Anzeigen werden aus dem Werbenetzwerk gelöscht oder archiviert. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
+Sie können auch alle aktiven oder pausierten Anzeigen löschen. Gelöschte Anzeigen werden aus dem Werbenetzwerk gelöscht. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
 
 ### Anzeigen aktivieren oder pausieren
 
@@ -183,7 +183,7 @@ Sie können auch alle aktiven oder pausierten Anzeigen löschen (in [!DNL ChatGP
 
    * Um eine aktive Anzeige anzuhalten, klicken Sie auf **[!UICONTROL Pause]**.
 
-### Löschen oder Archivieren einer Anzeige
+### Löschen einer Anzeige
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
