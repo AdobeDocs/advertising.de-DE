@@ -1,6 +1,6 @@
 ---
-title: Diagnose von Leistungs- und Bereitstellungsproblemen mithilfe der KI-unterstützten [!UICONTROL Troubleshooting Agent]
-description: Erfahren Sie, wie Sie mit dem KI-unterstützten Fehlerbehebungsagenten Ausgaben-, Pacing- und Bereitstellungsprobleme für DSP-Pakete und -Platzierungen diagnostizieren können.
+title: Fehlerbehebung bei Leistungs- und Versandproblemen mit dem KI-Assistenten
+description: Erfahren Sie, wie Sie mit dem Fehlerbehebungsagenten des KI-Assistenten Ausgaben-, Geschwindigkeits- und Versandprobleme für DSP-Pakete und -Platzierungen diagnostizieren können.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# Diagnose von Leistungs- und Bereitstellungsproblemen mithilfe der KI-unterstützten [!UICONTROL Troubleshooting Agent]
+# Fehlerbehebung bei Leistungs- und Bereitstellungsproblemen mit dem DSP-KI-Assistenten
 
-Die KI-gestützte [!UICONTROL Troubleshooting Agent] identifiziert Faktoren, die die Leistung einschränken, und bietet Empfehlungen zur Lösung von Problemen. Die [!UICONTROL Troubleshooting Agent] kann:
+Der Agent zur Fehlerbehebung des KI-Assistenten kann Faktoren identifizieren, die die Leistung einschränken, und bietet Empfehlungen zur Lösung von Problemen. Der Fehlerbehebungsagent kann:
 
 * Hilfe bei der Diagnose von Leistungs- und Versandproblemen für ein ausgewähltes Live-Paket oder eine ausgewählte Platzierung:
 
