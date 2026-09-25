@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer Platzierung
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * So erstellen Sie eine neue Anzeige:
 
-         1. Klicken Sie auf **[!UICONTROL Create a New Ad].**
+        1. Klicken Sie auf **[!UICONTROL Create a New Ad].**
 
-         1. Legen Sie die Anzeigeneinstellungen für [Audioanzeigen](/help/dsp/campaign-management/ads/ad-settings-audio.md), [Connected TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [Display-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-display.md), [Mobile-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [native Anzeigen](/help/dsp/campaign-management/ads/ad-settings-native.md), [Pre-Roll-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) oder [universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) fest.
+        1. Legen Sie die Anzeigeneinstellungen für [Audioanzeigen](/help/dsp/campaign-management/ads/ad-settings-audio.md), [Connected TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [Display-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-display.md), [Mobile-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [native Anzeigen](/help/dsp/campaign-management/ads/ad-settings-native.md), [Pre-Roll-Anzeigen](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) oder [universelle Videoanzeigen](/help/dsp/campaign-management/ads/ad-settings-universal-video.md) fest.
 
         >[!NOTE]
         >
         >Platzierungen von universellen Videos können nur universelle Videoanzeigen enthalten.
 
-         1. Klicken Sie auf **[!UICONTROL Save & Submit for Review]**.
+        1. Klicken Sie auf **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie für die Platzierung erstellen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann die Schritte 1 bis 3.
+        1. (Optional) Klicken Sie für jede zusätzliche Anzeige, die Sie für die Platzierung erstellen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann die Schritte 1 bis 3.
 
-         1. Wenn Sie keine vorhandenen Anzeigen anhängen möchten, klicken Sie auf **[!UICONTROL I'm done for now]**.
+        1. Wenn Sie keine vorhandenen Anzeigen anhängen möchten, klicken Sie auf **[!UICONTROL I'm done for now]**.
 
       * So fügen Sie vorhandene Anzeigen in der Kampagne hinzu:
 
-         1. Klicken Sie auf **[!UICONTROL Select an Ad]**.
+        1. Klicken Sie auf **[!UICONTROL Select an Ad]**.
 
-         1. Führen Sie einen der folgenden Schritte aus:
+        1. Führen Sie einen der folgenden Schritte aus:
 
-            * So fügen Sie jeweils eine Anzeige hinzu:
+           * So fügen Sie jeweils eine Anzeige hinzu:
 
-               1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select].**
+             1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select].**
 
-               1. (Optional) Klicken Sie für jede weitere Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Vorgang.
+             1. (Optional) Klicken Sie für jede weitere Anzeige, die Sie anhängen möchten, auf **[!UICONTROL Attach Another Ad]** und wiederholen Sie dann den Vorgang.
 
-            * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
+           * So fügen Sie bis zu 20 Anzeigen gleichzeitig hinzu:
 
-               1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
+             1. Aktivieren Sie das Kontrollkästchen über der Anzeigenliste.
 
-               1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
+             1. Aktivieren Sie das Kontrollkästchen neben jeder hinzuzufügenden Anzeige.
 
-               1. Klicken Sie auf **[!UICONTROL Attach]**.
+             1. Klicken Sie auf **[!UICONTROL Attach]**.
 
-               1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select]**.
+             1. Klicken Sie neben dem Anzeigenamen auf **[!UICONTROL Select]**.
 
-         1. (Optional) So überschreiben Sie den standardmäßigen Flugzeitraum und die Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
+        1. (Optional) So überschreiben Sie den standardmäßigen Flugzeitraum und die Anzeigenrotation für bestimmte Anzeigen in der Platzierung:
 
-            1. Klicken Sie auf **[!UICONTROL Custom Schedule Ads]**.
+           1. Klicken Sie auf **[!UICONTROL Custom Schedule Ads]**.
 
-            1. Führen Sie einen der folgenden Schritte aus:
+           1. Führen Sie einen der folgenden Schritte aus:
 
-               * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
+              * Um einen Flug hinzuzufügen, klicken Sie auf **[!UICONTROL Add Flight]** und geben Sie dann das Start- und Enddatum an.
 
-               * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL +]**.
+              * Um einen vorhandenen Flug zu einer Anzeige hinzuzufügen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL +]**.
 
-               * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL x]**.
+              * Um einen vorhandenen Flug aus einer Anzeige zu entfernen, klicken Sie in der Anzeigenzeile für die Spalte Flug auf **[!UICONTROL x]**.
 
-               * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie in den Fluginformationen auf **[!UICONTROL Even Rotation]** und geben Sie dann das relative Gewicht, um das jede Anzeige gedreht werden soll, als Prozentsatz ein.
+              * (Wenn mehrere Anzeigen denselben Flug haben) Um die Anzeigen ungleichmäßig zu drehen, klicken Sie in den Fluginformationen auf **[!UICONTROL Even Rotation]** und geben Sie dann das relative Gewicht, um das jede Anzeige gedreht werden soll, als Prozentsatz ein.
 
-                 Die Gesamtgewichte müssen 100 betragen.
+                Die Gesamtgewichte müssen 100 betragen.
 
-            1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
+           1. Klicken Sie oben rechts auf **[!UICONTROL Continue]**.
 
-            1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
+           1. Überprüfen Sie die Flugdetails und klicken Sie dann auf **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -160,5 +166,5 @@ ht-degree: 0%
 >* [Anzeigen des Berichts zur Platzierungs-Forecast](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Tastaturbefehle](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Fehlerbehebung für die Leistung](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Gründe für Leistungsprobleme](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Video: So erstellen Sie eine standardmäßige Anzeigeplatzierung](https://video.tv.adobe.com/v/346219?captions=ger)
