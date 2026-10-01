@@ -2,13 +2,11 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für Sonderberichte.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # Berichtsspalten für Sonderberichte
 
 | Spalte | Beschreibung |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Die Anzahl der Impressionen, die Sie für Anzeigen im Display-/Zielgruppennetzwerk erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, die Sie zu erhalten berechtigt waren. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz an Impressionen, die Ihre Anzeigen im Display-/Zielgruppennetzwerk nicht erhalten haben, da Ihr tägliches oder monatliches Budget zu niedrig war. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz der Impressionen, denen Ihre Anzeigen im Display-/Zielgruppennetzwerk aufgrund eines schlechten Anzeigenrangs nicht angezeigt wurden. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination] Berichte) Die Konversionsaktion, die zu Konversionen geführt hat. |
 | [!UICONTROL Conversion Rate] | Die Anzahl der Konversionen dividiert durch die Gesamtzahl der Klicks. |
 | [!UICONTROL Conversion Type] | Der benutzerdefinierte Konversionstyp, der auf der Website des Werbetreibenden verfolgt wurde. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination]-, [!UICONTROL Google Asset Group Performance]- und [!UICONTROL MSA Ad Extension]) Die Gesamtkonversionen für den angegebenen Zeitraum. Für den [!UICONTROL MSA Ad Extension]-Bericht ist dies die Anzahl der Klicks, die zu einem Verkauf oder einem anderen Erfolgsmaßstab geführt haben. Für den [!UICONTROL Google AI Max Search Term Combination] ist dies die Gesamtzahl der Konversionen von Konversionsaktionen, für die „In Konversionen einschließen“ aktiviert ist |
@@ -146,8 +145,8 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Name] | Das Portfolio. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio-Bericht) Die Ausgabenstrategie für das Portfolio: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* oder *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Der Portfoliostatus:<ul><li>*[!UICONTROL Optimize]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen, modelliert die für die Optimierung verwendeten Daten und optimiert Gebote, Kampagnenbudgets und Kampagnen-Bid-Strategie-Ziele (abhängig vom Optimierungstyp und den Bid-Strategien).</li><li>*[!UICONTROL Active]*: Die Optimierungsfunktion erfasst Klick- und Umsatzdaten für die relevanten Kampagnen und modelliert die Daten, optimiert jedoch keine Angebote oder Kampagnenbudgets.</li><li>*[!UICONTROL Inactive]*: Die Optimierungsfunktion erfasst Klickdaten für die relevanten Kampagnen zu Berichtszwecken, aber sie modelliert weder die Daten noch optimiert Gebote oder Kampagnenbudgets.</li></ul> |
-| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Warum die Asset-Gruppe die volle Kapazität bietet oder nicht bietet. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.* |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.* |
+| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Warum die Asset-Gruppe die volle Kapazität bietet oder nicht bietet. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkt-ID des Produkts, das mit der Anzeige angezeigt wird. <b>Hinweis:</b> Die ID wird nur erfasst, wenn die Produktliste den Tracking-Parameter `ev_plx=<GMC product ID>` enthält, den Sie in [!DNL Google Merchant Center] hinzufügen müssen. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Die Produkttypen der ersten bis fünften Ebene (Ihre selbst definierten Attribute für die Produktgruppe). |
 | [!UICONTROL Query Match Type] | (AdWords-Suchabfragebericht) Der Schlüsselwort-Übereinstimmungstyp für die Suchabfrage. |
