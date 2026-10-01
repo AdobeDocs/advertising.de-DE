@@ -17,7 +17,7 @@ Die [!UICONTROL Google AI Max Search Term Combination Report] zeigt, wie bestimm
 
   Verwenden Sie dieses Blatt, um die Absicht und die Leistung der resultierenden Anzeigenelemente pro Abfrage zu analysieren, damit Sie zuverlässige negative Keyword-Listen erstellen können.
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] Blatt: [!DNL Google Ads] Konversionsdaten nach Konversionsaktion für jeden Suchbegriff und Übereinstimmungstyp. Jede Zeile enthält die Konversionsaktion, die Anzahl der Konversionen und den Konversionswert sowie alle anderen optionalen [!DNL Google Ads]-Tracking-Konversionsmetriken, die in den Berichtseinstellungen angegeben sind. Standardmäßig enthalten die Daten eine Zeile für jede Kombination aus Suchbegriff und Konversionsaktion im angegebenen Datenbereich. Die Zeilen befinden sich in der gleichen Reihenfolge wie die Zeilen auf dem ersten Blatt.
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] Blatt: [!DNL Google Ads] Konversionsdaten nach Konversionsaktion für jeden Suchbegriff und Übereinstimmungstyp. Jede Zeile enthält die Konversionsaktion, die Anzahl der Konversionen und den Konversionswert sowie alle anderen optionalen [!DNL Google Ads]-Tracking-Konversionsmetriken, die in den Berichtseinstellungen angegeben sind. Standardmäßig enthalten die Daten eine Zeile für jede Kombination aus Suchbegriff und Konversionsaktion im angegebenen Datenbereich. Die Zeilen befinden sich in der gleichen Reihenfolge wie die Zeilen auf dem ersten Blatt.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
