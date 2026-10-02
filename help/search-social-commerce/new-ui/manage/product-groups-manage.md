@@ -26,7 +26,7 @@ Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
 
 Sie können Produktgruppen in der Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] erstellen und verwalten.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) [.
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]&#x200B;[&#128279;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) .
 
 ## Was sind Produktgruppen?
 
@@ -56,7 +56,7 @@ Innerhalb einer Anzeigengruppe können Sie bis zu sieben Ebenen von Produktgrupp
 
 <!-- I should be able to point to help in GGL and MS -->
 
-Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit ](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
+Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit &#x200B;](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
 
 | Einkaufsnetz | Produkt-Dimension | Attribute | Notizen |
 |----|----|----|----|
@@ -91,7 +91,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] listet alle Produk
 
 * [Einschränkungen zuweisen](#constraint-assign) zu Produktgruppen und [Einschränkungen entfernen](#constraint-unassign) aus Produktgruppen
 
-* [Zuweisen von ](#classification-values-assign) zu Produktgruppen und [Entfernen von ](#classification-values-remove) aus Produktgruppen“
+* [Zuweisen von &#x200B;](#classification-values-assign) zu Produktgruppen und [Entfernen von &#x200B;](#classification-values-remove) aus Produktgruppen“
 
 >[!NOTE]
 >

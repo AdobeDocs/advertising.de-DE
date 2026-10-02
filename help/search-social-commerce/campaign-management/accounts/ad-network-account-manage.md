@@ -57,7 +57,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
    1. Geben Sie im Abschnitt **[!UICONTROL Account Details]** die Kontodetails ein.
 
-      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto ](https://oauth.net/2/):
+      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto &#x200B;](https://oauth.net/2/):
 
       1. Geben Sie den **[!UICONTROL Login]** für das Konto ein, geben Sie optional das Kennwort ein, und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
