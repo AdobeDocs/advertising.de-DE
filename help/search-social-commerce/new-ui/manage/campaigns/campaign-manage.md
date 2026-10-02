@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Eine Kampagne ist die Hauptkomponente eines Anzeigennetzwerkkontos. Bei den meisten Kampagnentypen besteht sie aus einer Reihe von Anzeigengruppen oder Anzeigengruppen. Die Kampagneneinstellungen umfassen Kampagnenbudgetparameter, Anzeigenziele und optionale Tracking-Parameter für alle Anzeigen in der Kampagne. Tracking-Parameter auf Kampagnenebene überschreiben die Parameter auf Kontoebene, können jedoch auf niedrigerer Ebene überschrieben werden.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie neue Kampagnen mit [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) erstellen. Sie können auch den Status von Kampagnen bearbeiten und ändern.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie neue Kampagnen mit [unterstützten Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md) erstellen. Sie können auch den Status von Kampagnen bearbeiten und ändern.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -63,7 +63,7 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or--> [Campaign-Bulksheets](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
@@ -106,7 +106,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
    * Aktivieren Sie das Kontrollkästchen neben der Kampagne. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[ oder ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.[
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -424,9 +424,9 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 >
 >* [Einschränkungen für Suchangebotseinheiten verwalten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)

@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Anzeigennetzwerkkonten
 
 Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Details zu Werbenetzwerkkonten, zum Aktualisieren des [!DNL oAuth]-Tokens für ein Konto und zum Deaktivieren von Konten.
@@ -30,7 +34,7 @@ Im Folgenden finden Sie Anweisungen zum Erstellen und Bearbeiten von Details zu 
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
-Anweisungen zum Verwalten von Anzeigennetzwerkkonten in der neuen Benutzeroberfläche finden Sie unter &quot;[(Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über API-Verbindung](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
+Anweisungen zum Verwalten von Anzeigennetzwerkkonten in der neuen Benutzeroberfläche finden Sie unter &quot;[(Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über API-Verbindung](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).
 
 ## Erstellen und Netzwerkkonto-Details {#create-account}
 
@@ -53,7 +57,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
    1. Geben Sie im Abschnitt **[!UICONTROL Account Details]** die Kontodetails ein.
 
-      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto &#x200B;](https://oauth.net/2/):
+      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto ](https://oauth.net/2/):
 
       1. Geben Sie den **[!UICONTROL Login]** für das Konto ein, geben Sie optional das Kennwort ein, und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
@@ -139,11 +143,11 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
    * (So ändern Sie den Status für ein oder mehrere Konten:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jedem Konto.
+     1. Aktivieren Sie das Kontrollkästchen neben jedem Konto.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Symbol aktivieren](/help/search-social-commerce/assets/activate.png "Symbol aktivieren"), um das Konto zu aktivieren, oder ![Symbol deaktivieren](/help/search-social-commerce/assets/disable.png "Symbol deaktivieren"), um das Konto zu deaktivieren.
+     1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Symbol aktivieren](/help/search-social-commerce/assets/activate.png "Symbol aktivieren"), um das Konto zu aktivieren, oder ![Symbol deaktivieren](/help/search-social-commerce/assets/disable.png "Symbol deaktivieren"), um das Konto zu deaktivieren.
 
 ## Einstellungen für Netzwerkkonto hinzufügen {#account-settings}
 
@@ -205,9 +209,9 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 * Einbetten der endgültigen URL:
 
-   * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+  * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
+  * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
 
 * Sie können optional URL-Parameter und beliebige benutzerdefinierte Parameter einbeziehen, die für die Kampagne definiert wurden und durch kaufmännische Und-Zeichen (&amp;) getrennt sind, z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,7 +265,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 * **S_kwcid-Format:** (Bestehende [!DNL Google Ads]-Konten für Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
 
-Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
+Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

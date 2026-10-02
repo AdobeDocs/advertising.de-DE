@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Zuweisen von Klassifizierungswerten zu Kontokomponenten aus den Ansichten des Kampagnen-Managements
 
 Sie können Classification-Werte für die folgenden Suchentitäten aus den Kampagnen-Management-Ansichten zuweisen und entfernen: Kampagne, Anzeigengruppe, Keyword, Anzeige, Platzierung, Produktgruppe auf Einheitenebene und dynamische Suchzielgruppe. Bei Bedarf können Sie während des Zuweisungsprozesses Klassifizierungen und Klassifizierungswerte erstellen. Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen.
@@ -31,7 +31,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 
 Sie können allen entsprechenden Kontokomponenten, die in der neuen Benutzeroberfläche verfügbar sind, Klassifizierungswerte zuweisen.
 
-1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Targeting]** .
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
@@ -69,11 +69,11 @@ Sie können allen entsprechenden Kontokomponenten, die in der neuen Benutzerober
 
    * (Um einem oder mehreren Entitäten Werte zuzuweisen) Gehen Sie wie folgt vor:
 
-      * Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
+     * Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
-        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+       Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Classification]**.
+     * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Classification]**.
 
 1. Führen Sie in der [!UICONTROL Assignment Details] einen der folgenden Schritte aus:
 

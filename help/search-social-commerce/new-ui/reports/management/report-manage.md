@@ -2,13 +2,11 @@
 title: Terminierte Berichte verwalten
 description: Erfahren Sie, wie Sie terminierte Berichte verwalten.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # Terminierte Berichte verwalten
 
 Leistungsberichte ermöglichen es Ihnen, die Leistung Ihrer Portfolios, Werbenetzwerke und Anzeigennetzwerkkontoentitäten auf einer gewünschten granularen Ebene zu verfolgen und zu verwalten. Die meisten Berichte bieten vollständige Einblicke in den Beitrag, den die Anzeigen in den einzelnen Marketing-Kanälen zur Gesamtkonversionsrate leisten.
@@ -33,15 +31,15 @@ Die folgenden Berichtskategorien sind in der [!UICONTROL Reports] verfügbar. M�
 
 Sie können benutzerdefinierte Berichte so planen, dass sie automatisch auf eine oder beide der folgenden Arten generiert werden:
 
-* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [&#x200B; Monat](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Erstellt mithilfe von „Berichtsvorlagen“ automatisch Berichte täglich oder an einem bestimmten Wochentag [ Monat](/help/search-social-commerce/reports/automation/templates/template-about.md).
 
   Optional können Sie die [FTP-Bereitstellung von einfachen und erweiterten Berichten](/help/search-social-commerce/new-ui/reports/ftp-reports.md) die eine Vorlage verwenden, einrichten.
 
 * Aktualisieren Sie Ihre benutzerdefinierten Tabellenvorlagen mit täglichen Leistungsdaten mithilfe von [Tabellenfeeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## Die [!UICONTROL Scheduled Reports]
+## Die [!UICONTROL Reports]
 
-Mit [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] können Sie Berichte und Berichtsvorlagen erstellen und verwalten:
+Mit [!UICONTROL Reports] > [!UICONTROL Reports] können Sie Berichte und Berichtsvorlagen erstellen und verwalten:
 
 * Auf der Registerkarte **[!UICONTROL Latest Reports]** werden alle Berichte aufgelistet, <!-- Doesn't seem to be true: that were requested in the last seven days --> Ihnen zur Verfügung stehen, mit Ausnahme der manuell gelöschten Berichte. Der neueste Bericht befindet sich standardmäßig oben. Zu den für jeden Bericht angezeigten Informationen gehören der Zeitplan, nach dem er ausgeführt wird (falls zutreffend), das Start- und Enddatum, für das Daten generiert wurden oder werden werden, der Ersteller des Berichts und der Berichtsstatus (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* oder *[!UICONTROL Error]*).
 
@@ -59,14 +57,14 @@ Mit [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] können Sie Berichte u
 | ---- | ---- |
 | Leistungsüberwachung | <ul><li>[Die [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[Die [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[Die [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[Die [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[Die [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[Die [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Fehlerbehebung und Trendanalyse der Leistung | <ul><li>[Die [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[Die [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[Die [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[Die [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[Die [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) und [Die [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Ein einfacher Bericht, der zwei Zeitfenster mithilfe der Funktion &quot;[!UICONTROL Compare with]&quot; vergleicht</li></ul> |
-| Identifizieren von Wachstumschancen für Unternehmen | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
+| Identifizieren von Wachstumschancen für Unternehmen | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Nur Werbetreibende mit Adobe Advertising-Konversions-Tracking) [Die [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Werbetreibende mit [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Benutzerdefinierte Berichte in Adobe Analytics Analysis Workspace</li></ul> |
 
 ## Erstellen von Berichten
 
 ### Erstellen eines neuen Berichts
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Report]**, klicken Sie im linken Bereich auf die Kategorie Bericht und wählen Sie dann den Berichtstyp aus.<!-- Add link to list of report categories and report types --> Klicken Sie auf **[!UICONTROL Proceed]**.
 
@@ -96,7 +94,7 @@ Wenn Sie E-Mail-Adressen zur Benachrichtigung eingegeben haben, erhält jeder Em
 
 ### Erstellen eines Berichts aus einem vorhandenen Bericht
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -110,7 +108,7 @@ Wenn Sie E-Mail-Adressen zur Benachrichtigung eingegeben haben, erhält jeder Em
 
 ### Erstellen eines Berichts aus einer vorhandenen Vorlage
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
@@ -136,45 +134,45 @@ Sie können einen Bericht im Webbrowser in der Vorschau anzeigen oder die Berich
 >
 >Mitglieder des Adobe Account Teams und einige Admin-Benutzer können Berichte anzeigen, die von Advertiser- und Agenturbenutzenden erstellt wurden.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Um einen Bericht im Webbrowser anzuzeigen) Führen Sie einen der folgenden Schritte aus:
 
-      * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Preview]**.
+     * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Preview]**.
 
-      * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Preview]**.
+     * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Preview]**.
 
    * (So öffnen oder speichern Sie die Berichtsdaten in einer Datei) Klicken Sie in der Spalte [!UICONTROL Export] neben dem Berichtsnamen auf den Namen eines Formats und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers:
 
-      * **[!UICONTROL XLS]:** Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLSX-Format). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, wobei für jede Komponente eine Zeile angezeigt wird, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen.
+     * **[!UICONTROL XLS]:** Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLSX-Format). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, wobei für jede Komponente eine Zeile angezeigt wird, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen.
 
-        Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
+       Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
 
-      * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
+     * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
 
-      * **[!UICONTROL CSV]:** Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
+     * **[!UICONTROL CSV]:** Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
 
 ## Berichte löschen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**. Daraufhin wird die Registerkarte **[!UICONTROL Latest Reports]** geöffnet.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (So löschen Sie einen einzelnen Bericht):
 
-      1. Halten Sie den Cursor über die Berichtszeile und klicken Sie auf **…** > **[!UICONTROL Run]**.
+     1. Halten Sie den Cursor über die Berichtszeile und klicken Sie auf **…** > **[!UICONTROL Run]**.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
    * (So löschen Sie einen oder mehrere Berichte):
 
-      1. Aktivieren Sie das Kontrollkästchen neben jedem Bericht, den Sie löschen möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben jedem Bericht, den Sie löschen möchten.
 
-      1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") **[!UICONTROL Delete]**.
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") **[!UICONTROL Delete]**.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
 <!--
 

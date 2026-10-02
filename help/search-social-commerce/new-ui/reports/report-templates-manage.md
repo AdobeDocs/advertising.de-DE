@@ -2,13 +2,11 @@
 title: (Neue Benutzeroberfläche) Berichtsvorlagen verwalten
 description: Erfahren Sie, wie Sie wiederverwendbare Berichtsvorlagen für terminierte und On-Demand-Berichte erstellen, anzeigen, bearbeiten und löschen.
 feature: Search Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Berichtsvorlagen verwalten
 
 Berichtsvorlagen sind vordefinierte Berichtslayouts, die Sie bei der Erstellung der meisten Berichte wiederverwenden können. Durch die Verwendung von Vorlagen sparen Sie Zeit, wenn Sie nicht standardmäßige Parameter verwenden oder Varianten desselben Berichts ausführen oder denselben Bericht nach einem regulären Zeitplan ausführen möchten. Gespeicherte Berichtsvorlagen sind über den Abschnitt Berichtsvorlagen auf der Seite Berichte verfügbar.
@@ -19,7 +17,7 @@ Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
 * [Erstellen einer neuen Berichtsvorlage](#template-create) oder basierend auf einer vorhandenen Vorlage.
 
-* [Bei Bedarf Berichte für angegebene Vorlagen &#x200B;](#template-run).
+* [Bei Bedarf Berichte für angegebene Vorlagen ](#template-run).
 
 * [Löschen von Berichtsvorlagen](#template-delete).
 
@@ -27,7 +25,7 @@ Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
 <!-- Add xrefs to report procedures and settings once available -->
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -35,17 +33,17 @@ Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
    * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-      1. Führen Sie einen der folgenden Schritte aus:
+     1. Führen Sie einen der folgenden Schritte aus:
 
-         * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Duplicate]**.
+        * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Duplicate]**.
 
-         * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf [Duplizieren](/help/search-social-commerce/assets/duplicate.png).
+        * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf [Duplizieren](/help/search-social-commerce/assets/duplicate.png).
 
-      1. (Optional) Benennen Sie die Vorlage um und bearbeiten Sie bei Bedarf die Berichteinstellungen.
+     1. (Optional) Benennen Sie die Vorlage um und bearbeiten Sie bei Bedarf die Berichteinstellungen.
 
-         Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
+        Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
 
 1. Aktivieren Sie die **[!UICONTROL Save as Template]**.
 
@@ -97,7 +95,7 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 Sie können jederzeit Berichte für eine oder mehrere Vorlagen ausführen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
@@ -105,23 +103,23 @@ Sie können jederzeit Berichte für eine oder mehrere Vorlagen ausführen.
 
    * (So führen Sie eine einzelne Vorlage aus):
 
-      1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Run]**.
+     1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Run]**.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
    * (So führen Sie eine oder mehrere Vorlagen aus):
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie ausführen möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie ausführen möchten.
 
-      1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Ausführen](/help/search-social-commerce/assets/run-new.png "Ausführen").
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Ausführen](/help/search-social-commerce/assets/run-new.png "Ausführen").
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
 ## Löschen von Berichtsvorlagen {#template-delete}
 
 Sie können jede Berichtsvorlage löschen, die Ihnen zur Verfügung steht. Wenn Sie eine Vorlage löschen, die einen Zeitplan enthält, wird dieser Bericht in Zukunft nicht mehr generiert.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
@@ -129,14 +127,14 @@ Sie können jede Berichtsvorlage löschen, die Ihnen zur Verfügung steht. Wenn 
 
    * (So löschen Sie eine einzelne Vorlage):
 
-      1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Delete]**.
+     1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Delete]**.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
    * (So löschen Sie eine oder mehrere Vorlagen):
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie löschen möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie löschen möchten.
 
-      1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Löschen](/help/search-social-commerce/assets/delete-new.png).
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Löschen](/help/search-social-commerce/assets/delete-new.png).
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.

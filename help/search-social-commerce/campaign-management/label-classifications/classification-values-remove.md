@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Entfernen von Kennzeichnungswerten aus Kontokomponenten
 
 Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten. Berichtsdaten für den Classification-Wert sind für diese Komponenten nicht mehr verfügbar. Wenn Sie einen Klassifizierungswert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
@@ -27,7 +27,7 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 
 Sie können Klassifizierungswerte aus allen anwendbaren Kontokomponenten entfernen, die in der neuen Benutzeroberfläche verfügbar sind.
 
-1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Targeting]** .
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
@@ -51,11 +51,11 @@ Sie können Klassifizierungswerte aus allen anwendbaren Kontokomponenten entfern
 
    * (Um Werte aus einer oder mehreren Entitäten zu entfernen) Gehen Sie wie folgt vor:
 
-      * Aktivieren Sie das Kontrollkästchen neben jeder Zeile.
+     * Aktivieren Sie das Kontrollkästchen neben jeder Zeile.
 
-        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+       Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Classification]**.
+     * Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Classification]**.
 
 1. Wählen Sie in der [!UICONTROL Assignment Details] **[!UICONTROL Remove]** aus.
 
