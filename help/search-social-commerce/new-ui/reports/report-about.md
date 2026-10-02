@@ -4,20 +4,25 @@ description: Erfahren Sie mehr über geplante Leistungsberichte, einschließlich
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Informationen zu terminierten Berichten
 
 Mit terminierten Leistungsberichten können Sie die Leistung Ihrer Portfolios, Werbenetzwerke und Anzeigennetzwerkkontoentitäten auf einer gewünschten granularen Ebene verfolgen und verwalten. Die meisten Berichte bieten vollständige Einblicke in den Beitrag, den die Anzeigen in den einzelnen Marketing-Kanälen zur Gesamtkonversionsrate leisten.
@@ -28,7 +33,7 @@ Alle abgeschlossenen Berichte sind im Abschnitt [!UICONTROL Latest Reports] der 
 
 ## Verfügbare Berichtskategorien
 
-Die folgenden Berichtskategorien sind in der [!UICONTROL Scheduled Reports] verfügbar. Möglicherweise haben Sie nicht auf alle Berichte Zugriff. Die verfügbaren Berichte und die von ihnen generierten Daten werden durch Ihre Rolle und die Konfiguration Ihres Kundenkontos bestimmt.
+Die folgenden Berichtskategorien sind in der Ansicht [!UICONTROL Reports] > [!UICONTROL Reports] verfügbar. Möglicherweise haben Sie nicht auf alle Berichte Zugriff. Die verfügbaren Berichte und die von ihnen generierten Daten werden durch Ihre Rolle und die Konfiguration Ihres Kundenkontos bestimmt.
 
 | Berichtskategorie | Beschreibung |
 | ----| ---- |
@@ -48,9 +53,9 @@ Sie können benutzerdefinierte Berichte so planen, dass sie automatisch auf eine
 
 * Aktualisieren Sie Ihre benutzerdefinierten Tabellenvorlagen mit täglichen Leistungsdaten mithilfe von [Tabellenfeeds](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## Die [!UICONTROL Scheduled Reports]
+## Die [!UICONTROL Reports]
 
-Mit der Ansicht [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] können Sie Berichte, Vorlagen und Tabellen-Feeds erstellen und verwalten. Die Ansicht enthält zwei Registerkarten:
+Mit der Ansicht [!UICONTROL Reports] > [!UICONTROL Reports] können Sie Berichte, Vorlagen und Tabellen-Feeds erstellen und verwalten. Die Ansicht enthält zwei Registerkarten:
 
 * Auf der Registerkarte **[!UICONTROL Latest Reports]** werden alle Berichte aufgelistet, die in den letzten sieben Tagen angefordert wurden, mit Ausnahme der manuell gelöschten Berichte. Der neueste Bericht befindet sich standardmäßig oben. Zu den für jeden Bericht angezeigten Informationen gehören der Zeitplan, nach dem er ausgeführt wird (falls zutreffend), das Start- und Enddatum, für das Daten generiert wurden oder werden werden, und der Berichtsstatus (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* oder *[!UICONTROL Error]*).
 

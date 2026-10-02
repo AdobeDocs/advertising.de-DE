@@ -2,13 +2,11 @@
 title: Verwalten von Kennzeichnungsklassifizierungen
 description: Erfahren Sie mehr über die Verwendung von Kennzeichnungsklassifizierungen zum Gruppieren Ihrer Kontokomponenten.
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Kennzeichnungsklassifizierungen
 
 Mit Klassifizierungen von Kennzeichnungen können Sie Ihre Kontokomponenten in aussagekräftigen Sätzen gruppieren. Sie können beispielsweise eine übergeordnete Kennzeichnungsklassifizierung mit dem Namen „Geo“ erstellen, einen anderen Kennzeichnungswert für jede geografische Region (z. B. „Großbritannien“ und „Japan„) innerhalb der Klassifizierung erstellen und dann die Kennzeichnungswerte Ihren [Gebotseinheiten“ oder &#x200B;](/help/search-social-commerce/glossary.md#a-b) übergeordneten Kampagnen zuweisen. Sie können dann einen beliebigen Beschriftungswert als separate Spalte in Ihre Ansichten und Berichte aufnehmen und Ihre Berichte in verschiedene Klassifizierungsgruppen und -werte unterwerfen.
@@ -49,7 +47,7 @@ Die Ansicht [!UICONTROL Reports] > [!UICONTROL Labels Classifications] enthält 
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. Klicken Sie auf **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Klicken Sie auf **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create Classification]**.
 
@@ -69,7 +67,7 @@ Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie 
 >
 >Ihre Keywords und Werbetexte für einige Werbenetzwerke und Kampagnentypen sind [nicht veränderlich](/help/search-social-commerce/campaign-management/faqs-campaigns.md) was bedeutet, dass ihre Bearbeitung die vorhandene Entität löscht und eine neue erstellt. Wenn eine vorhandene Entität auf diese Weise gelöscht wird, wird die Bezeichnungsklassifizierung nicht der neuen Entität zugewiesen.
 
-1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Targeting]** .
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
@@ -155,7 +153,7 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 >
 >Informationen zum Löschen eines Werts aus einer Kennzeichnungsklassifizierung finden Sie unter [Löschen von Kennzeichnungsklassifizierungswerten](#classification-values-delete).
 
-1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Target]** .
+1. Öffnen Sie die Entitätsansicht über das Menü **[!UICONTROL Manage]** oder **[!UICONTROL Targeting]** .
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder relevanten Zeile.
 
@@ -177,7 +175,7 @@ Durch das Löschen von Kennzeichnungsklassifizierungswerten sind diese nicht meh
 >
 >Um einfach einen Classification-Wert von einer Account-Komponente zu trennen, siehe &quot;[Entfernen von Label-Classification-Werten aus Account-Komponenten](#classification-values-remove)&quot;.
 
-1. Klicken Sie auf **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Klicken Sie auf **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Label Values]** .
 
@@ -201,7 +199,7 @@ Durch das Löschen einer Klassifizierung werden alle Verknüpfungen zwischen ihr
 >
 >Um einfach einen Classification-Wert von einer Account-Komponente zu trennen, siehe &quot;[Entfernen von Label-Classification-Werten aus Account-Komponenten](#classification-values-remove)&quot;.
 
-1. Klicken Sie auf **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Klicken Sie auf **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. (Optional) Filtern Sie die Liste, um bestimmte Kennzeichnungsklassifizierungen einzuschließen.
 

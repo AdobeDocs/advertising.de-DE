@@ -1,13 +1,11 @@
 ---
 title: Hochladen von Offline-Kontodaten für Berichte und Simulationen
-description: Erfahren Sie, wie Sie Offline-Kontodaten manuell oder in einen [!DNL Amazon] [!DNL S3]-Bucket hochladen können, um Reporting- und Simulationsunterstützung zu erhalten. Protokolldateien verfolgen den Fortschritt von Upload-Aufträgen.
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+description: Erfahren Sie, wie Sie Offline-Kontodaten manuell oder in einen [!DNL Amazon] [!DNL S3] Bucket hochladen können, um Reporting- und Simulationsunterstützung zu erhalten. Protokolldateien verfolgen den Fortschritt von Upload-Aufträgen.
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Hochladen von Offline-Kontodaten für Berichte und Simulationen
 
 *Werbetreibende, die für das Hochladen von Kontodaten aktiviert sind*
@@ -30,31 +28,31 @@ See "XXX" for information about supported ad networks and account structures.
 [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md)
 -->
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Aus der [!UICONTROL Accounts]):
 
-      1. Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Upload]** .
+     1. Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Upload]** .
 
-      1. Ziehen Sie entweder eine Datei in das Feld oder klicken Sie auf **[!UICONTROL Browse Files]** und wählen Sie eine Datei von Ihrem Gerät oder Netzwerk aus.
+     1. Ziehen Sie entweder eine Datei in das Feld oder klicken Sie auf **[!UICONTROL Browse Files]** und wählen Sie eine Datei von Ihrem Gerät oder Netzwerk aus.
 
-      1. Klicken Sie auf **[!UICONTROL Upload Files]**.
+     1. Klicken Sie auf **[!UICONTROL Upload Files]**.
 
    * (Aus den Kontoeinstellungen):
 
-      1. Wählen Sie das Konto auf eine der folgenden Arten aus:
+     1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
-         * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
+        * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
 
-         * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
+        * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Upload File]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Upload File]** .
 
-      1. Ziehen Sie entweder eine Datei in das Feld oder klicken Sie auf **[!UICONTROL Browse Files]** und wählen Sie eine Datei von Ihrem Gerät oder Netzwerk aus.
+     1. Ziehen Sie entweder eine Datei in das Feld oder klicken Sie auf **[!UICONTROL Browse Files]** und wählen Sie eine Datei von Ihrem Gerät oder Netzwerk aus.
 
-      1. Klicken Sie auf **[!UICONTROL Save]**.
+     1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Hochladen von Kontodaten in einen [!DNL Amazon] [!DNL S3] Bucket {#data-upload-s3}
 
@@ -71,45 +69,45 @@ See "XXX" for information about supported ad networks and account structures.
 >* Wenden Sie sich an Ihr Adobe-Accountteam , um das Hochladen von Account-Daten für Ihr Search-, Social- und Commerce Advertiser-Konto zu aktivieren. Das Team erleichtert die Erstellung eines organisationsspezifischen Ordners in einem [!DNL S3] Behälter und teilt Ihnen mit, wann er abgeschlossen ist.<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
 >* Rufen Sie den [!DNL S3] Cloud-Speicherpfad, die Zugriffsschlüssel-ID und den geheimen Zugriffsschlüssel für Ihr Konto ab. Für alle Datenupload-<!-- naming convention?-->-Konten des Unternehmens werden dieselbe Zugriffsschlüssel-ID und derselbe geheime Zugriffsschlüssel verwendet.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Aus der [!UICONTROL Accounts]):
 
-      1. Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Upload]** .
+     1. Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Upload]** .
 
-      1. Klicken Sie im [!UICONTROL Cloud Storage Link] auf **[!UICONTROL Go to the Link]**.
+     1. Klicken Sie im [!UICONTROL Cloud Storage Link] auf **[!UICONTROL Go to the Link]**.
 
-      1. Klicken Sie auf **[!UICONTROL Show Access Key and Secret]**.
+     1. Klicken Sie auf **[!UICONTROL Show Access Key and Secret]**.
 
-      1. Klicken Sie neben dem Feld [!UICONTROL Storage Link] auf **[!UICONTROL Copy]** , um den Link in die Zwischenablage zu kopieren und an einem sicheren Ort zu speichern.
+     1. Klicken Sie neben dem Feld [!UICONTROL Storage Link] auf **[!UICONTROL Copy]** , um den Link in die Zwischenablage zu kopieren und an einem sicheren Ort zu speichern.
 
-      1. Kopieren Sie auf ähnliche Weise die [!UICONTROL Access Key] und die [!UICONTROL Secret Key] Werte und speichern Sie sie sicher.
+     1. Kopieren Sie auf ähnliche Weise die [!UICONTROL Access Key] und die [!UICONTROL Secret Key] Werte und speichern Sie sie sicher.
 
-      1. Klicken Sie auf **[!UICONTROL Done]**.
+     1. Klicken Sie auf **[!UICONTROL Done]**.
 
    * (Aus den Kontoeinstellungen):
 
-      1. Wählen Sie das Konto auf eine der folgenden Arten aus:
+     1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
-         * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
+        * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
 
-         * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
+        * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Upload File]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Upload File]** .
 
-      1. Klicken Sie im [!UICONTROL Cloud Storage Link] auf **[!UICONTROL Go to the Link]**.
+     1. Klicken Sie im [!UICONTROL Cloud Storage Link] auf **[!UICONTROL Go to the Link]**.
 
-      1. Klicken Sie auf **[!UICONTROL Show Access Key and Secret]**.
+     1. Klicken Sie auf **[!UICONTROL Show Access Key and Secret]**.
 
-      1. Klicken Sie neben dem Feld [!UICONTROL Storage Link] auf **[!UICONTROL Copy]** , um den Link in die Zwischenablage zu kopieren und an einem sicheren Ort zu speichern.
+     1. Klicken Sie neben dem Feld [!UICONTROL Storage Link] auf **[!UICONTROL Copy]** , um den Link in die Zwischenablage zu kopieren und an einem sicheren Ort zu speichern.
 
-      1. Kopieren Sie auf ähnliche Weise die [!UICONTROL Access Key] und die [!UICONTROL Secret Key] Werte und speichern Sie sie sicher.
+     1. Kopieren Sie auf ähnliche Weise die [!UICONTROL Access Key] und die [!UICONTROL Secret Key] Werte und speichern Sie sie sicher.
 
-      1. Klicken Sie auf **[!UICONTROL Done]**.
+     1. Klicken Sie auf **[!UICONTROL Done]**.
 
-      1. Klicken Sie auf **[!UICONTROL Save]**.
+     1. Klicken Sie auf **[!UICONTROL Save]**.
 
 1. (Einmal pro Organisation) Richten Sie Ihre lokale AWS-Umgebung ein:
 
@@ -139,7 +137,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 ## Protokoll der hochgeladenen Kontodatendateien anzeigen
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Upload Logs]**.
 

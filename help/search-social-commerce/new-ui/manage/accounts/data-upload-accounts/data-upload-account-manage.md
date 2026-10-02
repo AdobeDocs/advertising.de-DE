@@ -3,13 +3,11 @@ title: Konfigurieren von Ad-Network-Konten für den Datenupload
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Anzeigen-Netzwerkkonten für Daten-Uploads
 
 <!-- Edit all, including title and metadata -->
@@ -23,6 +21,8 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 >Anweisungen zum Verwalten von Kontodetails für ein Anzeigennetzwerkkonto, das mithilfe der API des Anzeigennetzwerks mit Search, Social und Commerce synchronisiert wird, finden Sie stattdessen unter [Verwalten von Anzeigennetzwerkkonten über eine API-Verbindung](../api-accounts/api-account-manage.md).
 
 ## Kontodetails erstellen {#create-account}
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Account]**.
 
@@ -40,7 +40,7 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
 ## Kontodetails bearbeiten {#edit-account}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
@@ -62,27 +62,27 @@ Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen fi
 
 ## Aktivieren oder Deaktivieren von Anzeigennetzwerkkonten {#enable-disable-account}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * (Aus der [!UICONTROL Accounts]):
 
-      * (Um das Konto zu aktivieren) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Activate]** .
+     * (Um das Konto zu aktivieren) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Activate]** .
 
-      * (So deaktivieren Sie das Konto) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Pause]** .
+     * (So deaktivieren Sie das Konto) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Pause]** .
 
    * (Aus den Kontoeinstellungen):
 
-      1. Wählen Sie das Konto auf eine der folgenden Arten aus:
+     1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
-         * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
+        * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
 
-         * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
+        * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
 
-      1. Deaktivieren Sie auf der Registerkarte **[!UICONTROL Account Details]** die Option **[!UICONTROL Account enabled]**.
+     1. Deaktivieren Sie auf der Registerkarte **[!UICONTROL Account Details]** die Option **[!UICONTROL Account enabled]**.
 
-      1. Klicken Sie auf **[!UICONTROL Save]**.
+     1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Kontoeinstellungen {#account-settings-upload}
 

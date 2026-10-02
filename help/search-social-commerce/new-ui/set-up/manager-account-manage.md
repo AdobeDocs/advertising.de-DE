@@ -2,13 +2,11 @@
 title: (Neue Benutzeroberfläche) Verwalten der Anmeldeinformationen für Google Ads Manager-Konten
 description: Erfahren Sie, wie Sie Anmeldeinformationen für Google Ads Manager-Konten in der neuen Benutzeroberfläche einrichten und verwalten.
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Verwalten von Anmeldeinformationen für [!DNL Google Ads] Manager-Konten
 
 *Beta-Funktion*

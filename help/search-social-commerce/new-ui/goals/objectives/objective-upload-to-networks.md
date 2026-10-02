@@ -3,13 +3,11 @@ title: (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivie
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in Google Ads und Microsoft Advertising hochladen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivieren
 
 *Beta-Funktion*
@@ -42,7 +40,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn Sie das Kontrollkästchen nicht aktivieren, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)).
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -79,7 +77,7 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 
 * ([!DNL Google Ads]) Überprüfen Sie, ob die Konversionen auf Konto- oder Managerebene hochgeladen werden sollen. Wenn sie auf Managerebene hochgeladen werden sollen:
 
-  * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto angegeben wurden. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto angegeben wurden. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md).
 
   * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
 
@@ -89,7 +87,7 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 >
 >* [Über Ziele](objective-about.md)
 >* [Konversionsmetriken eines Werbetreibenden verwalten](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [Verwalten von Anmeldeinformationen für  [!DNL Google Ads] -Manager-Konten](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [Verwalten von Anmeldeinformationen für  [!DNL Google Ads] -Manager-Konten](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

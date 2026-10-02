@@ -1,15 +1,13 @@
 ---
-title: (Neue Benutzeroberfläche) Verwalten  [!DNL Naver]  Konten nur für das Tracking
-description: Erfahren Sie, wie Sie Kontodetails in der neuen Benutzeroberfläche für ein -Konto einrichten  [!DNL Naver]  verwalten.
+title: (Neue Benutzeroberfläche) Verwalten [!DNL Naver] Konten nur für das Tracking
+description: Erfahren Sie, wie Sie Kontodetails in der neuen Benutzeroberfläche für ein [!DNL Naver] Konto einrichten und verwalten.
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
-
+source-wordcount: '491'
+ht-degree: 1%
 ---
-
 # (Neue Benutzeroberfläche) Verwalten [!DNL Naver] Konten nur für das Tracking
 
 *Beta-Funktion*
@@ -26,7 +24,7 @@ Um das Tracking eines Kontos zu aktivieren, müssen Sie einen entsprechenden Kon
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu erstellen, gehen Sie zur Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Account]**.
 
@@ -48,7 +46,7 @@ Um den Kontonamen zu ändern, den Kontostatus zu ändern oder die [!DNL Analytic
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu bearbeiten, gehen Sie auf die Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
@@ -73,7 +71,7 @@ Um den Kontonamen zu ändern, den Kontostatus zu ändern oder die [!DNL Analytic
 
 When you enable an ad network account, Search, Social, & Commerce synchronizes campaign data with the account (when supported) and pushes automated bids and/or campaign budgets for campaigns in portfolios. When you disable an ad network account, Search, Social, & Commerce stops all activity on the account. Data collected while the account was active is still stored, but the campaign management views and reports don't include data for the time period in which the account is disabled. You can later re-enable the account to resume activity with the account.
 
-1. In the main menu, click **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. In the main menu, click **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Do either of the following:
 
@@ -126,4 +124,4 @@ Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Ser
 >[!MORELIKETHIS]
 >
 >* [Nur [!DNL Naver] Tracking-Konten implementieren](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [Über Werbenetzwerkkonten](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [Über Werbenetzwerkkonten](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

@@ -4,27 +4,29 @@ description: Erfahren Sie mehr über Shopping-Produktgruppen und das Erstellen, 
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # Verwalten von Einkaufsproduktgruppen
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
 
-Sie können Produktgruppen in der [!UICONTROL Product Groups] unter [!UICONTROL Assets] > [!UICONTROL Shopping] erstellen und verwalten.
+Sie können Produktgruppen in der Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] erstellen und verwalten.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report][&#128279;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) .
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]&#x200B;[&#128279;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) .
 
 ## Was sind Produktgruppen?
 
@@ -69,7 +71,7 @@ Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit &#
 
 ## Die [!UICONTROL Product Groups]
 
-Die [!UICONTROL Product Groups] Ansicht unter [!UICONTROL Assets] > [!UICONTROL Shopping] listet alle Produktgruppen in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können auch Produktgruppen erstellen und verwalten.
+Die Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] listet alle Produktgruppen in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können auch Produktgruppen erstellen und verwalten.
 
 ### Verfügbare Aktionen <!-- Go through all -->
 
@@ -103,7 +105,7 @@ Bevor Sie Produktgruppen mit bestimmten Attributen erstellen können, müssen Si
 >
 >Um mehrere Kontokomponenten gleichzeitig zu erstellen, verwenden Sie [Kampagnen-Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Product Group]**.
 
@@ -125,7 +127,7 @@ Nachdem Sie mindestens eine vollständige &quot;[!UICONTROL All Products]&quot;-
 >
 >Es kann keine untergeordnete Produktgruppe für eine &quot;[!UICONTROL Everything Else]&quot; Produktgruppe erstellt werden.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Optional) Um eine Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen, halten Sie den Cursor über dem Namen der Produktgruppe und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -139,7 +141,7 @@ Nachdem Sie mindestens eine vollständige &quot;[!UICONTROL All Products]&quot;-
 
 Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produktgruppen ohne untergeordnete Produktgruppenknoten) bearbeiten, die für eine Anzeigengruppe enthalten sind. Sie können keine Informationen für ausgeschlossene Produktgruppen oder für eingeschlossene oder ausgeschlossene Unterteilungsknoten bearbeiten, bei denen es sich um Produktgruppen mit untergeordneten Produktgruppenknoten handelt.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Optional) Um eine Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen, halten Sie den Cursor über dem Namen der Produktgruppe und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -151,7 +153,7 @@ Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produ
 
 ## Nur die [!UICONTROL Tracking Template] für einen Produktgruppenknoten bearbeiten {#node-edit-tracking-template}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Halten Sie den Cursor über den Namen der Produktgruppe und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Tree View]** , um die Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen.
 
@@ -161,7 +163,7 @@ Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produ
 
 ## Nur die [!UICONTROL Max CPC] für einen Produktgruppenknoten bearbeiten {#node-edit-maxcpc}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Halten Sie den Cursor über den Namen der Produktgruppe und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Tree View]** , um die Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen.
 
@@ -173,7 +175,7 @@ Sie können die Bid- und Tracking-Vorlage für Einzelproduktgruppenknoten (Produ
 
 Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles andere“, wenn andere Produktgruppen auf derselben Ebene vorhanden sind -, mit der bestimmt wird, welche Produkte in Ihrem Merchant-Center-Konto in den Shopping-Anzeigen für die Anzeigengruppe enthalten sind. Beim Löschen einer Produktgruppe werden alle untergeordneten Produktgruppen gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Halten Sie den Cursor über den Namen der Produktgruppe und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Tree View]** , um die Produktgruppe und ihre untergeordneten Produktgruppenknoten in der Baumansicht anzuzeigen.
 
@@ -183,7 +185,7 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles ander
 
 ## Ausgewählten Produktgruppen eine Einschränkung zuweisen {#constraint-assign}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, der Sie eine einzelne Begrenzung zuweisen.
 
@@ -195,7 +197,7 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles ander
 
 ## Einschränkungen aus ausgewählten Produktgruppen entfernen {#constraint-unassign}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, deren Zuweisung von Einschränkungen Sie aufheben möchten.
 
@@ -209,7 +211,7 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles ander
 >
 >Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie daher keine Werte für untergeordnete Entitäten ein, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, der Sie einen Kennzeichnungswert zuweisen.
 
@@ -241,7 +243,7 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles ander
 
 Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten. Berichtsdaten für den Classification-Wert sind für diese Komponenten nicht mehr verfügbar. Wenn Sie einen Klassifizierungswert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, aus der Sie einen Titelwert entfernen möchten.
 

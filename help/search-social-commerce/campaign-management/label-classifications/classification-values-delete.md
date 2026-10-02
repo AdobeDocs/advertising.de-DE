@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # Löschen von Kennzeichnungsklassifizierungswerten
 
 Durch das Löschen von Kennzeichnungsklassifizierungswerten sind diese nicht mehr für die zukünftige Verwendung verfügbar und es sind keine Berichtsdaten für die Werte mehr verfügbar. Alle Zuweisungen zwischen den Werten und ihren übergeordneten Kennzeichnungsklassifizierungen und bestimmten Kontokomponenten werden entfernt, aber die übergeordneten Kennzeichnungsklassifizierungen und die Kampagnenkomponenten werden nicht gelöscht.
@@ -25,7 +25,7 @@ Durch das Löschen von Kennzeichnungsklassifizierungswerten sind diese nicht meh
 
 ## (Neue Benutzeroberfläche) Löschen von Klassifizierungswerten für Bezeichnungen
 
-1. Klicken Sie auf **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Klicken Sie auf **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Label Values]** .
 

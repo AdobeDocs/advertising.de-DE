@@ -2,13 +2,11 @@
 title: Berichtsspalten für Sonderberichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für Sonderberichte.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # Berichtsspalten für Sonderberichte
 
 | Spalte | Beschreibung |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Die Anzahl der Impressionen, die Sie für Anzeigen im Display-/Zielgruppennetzwerk erhalten haben, dividiert durch die geschätzte Anzahl der Impressionen, die Sie zu erhalten berechtigt waren. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz an Impressionen, die Ihre Anzeigen im Display-/Zielgruppennetzwerk nicht erhalten haben, da Ihr tägliches oder monatliches Budget zu niedrig war. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | (Nur [!DNL Google Ads]; [!UICONTROL Campaign Daily Impression Share Report]) Der geschätzte Prozentsatz der Impressionen, denen Ihre Anzeigen im Display-/Zielgruppennetzwerk aufgrund eines schlechten Anzeigenrangs nicht angezeigt wurden. Prozentsätze unter 10 % werden als &quot;`<10%`&quot; und Prozentsätze über 90 % als &quot;`>90%`&quot; angegeben. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination] Berichte) Die Konversionsaktion, die zu Konversionen geführt hat. |
 | [!UICONTROL Conversion Rate] | Die Anzahl der Konversionen dividiert durch die Gesamtzahl der Klicks. |
 | [!UICONTROL Conversion Type] | Der benutzerdefinierte Konversionstyp, der auf der Website des Werbetreibenden verfolgt wurde. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination]-, [!UICONTROL Google Asset Group Performance]- und [!UICONTROL MSA Ad Extension]) Die Gesamtkonversionen für den angegebenen Zeitraum. Für den [!UICONTROL MSA Ad Extension]-Bericht ist dies die Anzahl der Klicks, die zu einem Verkauf oder einem anderen Erfolgsmaßstab geführt haben. Für den [!UICONTROL Google AI Max Search Term Combination] ist dies die Gesamtzahl der Konversionen von Konversionsaktionen, für die „In Konversionen einschließen“ aktiviert ist |

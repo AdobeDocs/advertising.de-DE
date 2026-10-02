@@ -4,15 +4,15 @@ description: Erfahren Sie mehr über Einschränkungen zum Beschränken von Gebot
 feature: Search Campaign Management, Search Optimization
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
+    internal-label: Portfolios
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
-source-wordcount: 2660
+source-wordcount: '2660'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Einschränkungen für Suchangebotseinheiten
 
 *Gilt nur für Gebotseinheiten in CPC-Kampagnen in alten Portfolios auf Keyword-Ebene*
@@ -183,7 +183,7 @@ Jede Entität kann nur eine Einschränkung aufweisen. Sie können einer oder meh
 >[!NOTE]
 >
 >* Wenn Sie später ein Keyword oder die Anzeigenkopie für eine Anzeige bearbeiten und so ein neues Keyword oder eine neue Anzeige erstellen, wird die Begrenzung nicht der neuen Entität zugewiesen.
->* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Öffnen Sie im Hauptmenü die entsprechende Verwaltungsansicht.
 
@@ -204,7 +204,7 @@ Jede Entität kann nur eine Einschränkung aufweisen. Sie können einer oder meh
 >[!NOTE]
 >
 >* Informationen zum Löschen einer Einschränkung, sodass sie für die zukünftige Verwendung nicht mehr verfügbar ist, finden Sie unter [Ändern des Status von Einschränkungen](#constraint-change-status).
->* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Sehen Sie sich dieselben Anweisungen in der [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) oder [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md) an<!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Öffnen Sie im Hauptmenü die entsprechende Verwaltungsansicht.
 
@@ -220,6 +220,6 @@ Jede Entität kann nur eine Einschränkung aufweisen. Sie können einer oder meh
 >
 >* [Einschränkungszuweisungen für Kampagnen verwalten](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [Die [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

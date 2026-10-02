@@ -1,28 +1,30 @@
 ---
 title: Anzeigen und Erstellen von Kreativ-Assets
-description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre Asset [!DNL Google Ads] Bibliotheken auf  [!DNL Microsoft Advertising] - und Kontoebene anzeigen und erstellen.
+description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene anzeigen und erstellen.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # Anzeigen und Erstellen von Kreativ-Assets
 
 *Nur für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten*
 
-In [!UICONTROL Assets] > [!UICONTROL Creatives] können Sie alle wiederverwendbaren Bild-, Video- und (nur für [!DNL Google Ads]) Text-Assets in Ihren [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene anzeigen. Die Liste enthält KI-generierte Assets für [!DNL Google Ads] Anzeigengruppen in [!DNL AI Max] Kampagnen.
+In [!UICONTROL Library] > [!UICONTROL Creatives] können Sie alle wiederverwendbaren Bild-, Video- und (nur für [!DNL Google Ads]) Text-Assets in Ihren [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene anzeigen. Die Liste enthält KI-generierte Assets für [!DNL Google Ads] Anzeigengruppen in [!DNL AI Max] Kampagnen.
 
 Sie können manuell neue Assets für ein Werbenetzwerkkonto erstellen und sie in das Werbenetzwerk hochladen. <!-- Verify if you can use the AI-generated ones -->Sie können jedes hochgeladene Asset für Ihre Kampagnen mit dem Titel „Performance Max“ verwenden.
 
@@ -30,7 +32,7 @@ Sie können auch KI-generierte Text-Assets aus den zugehörigen Anzeigengruppen 
 
 ## Anzeigen von Kreativ-Assets
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Wählen Sie in der Symbolleiste das Werbenetzwerk und das Konto aus.
 
@@ -42,7 +44,7 @@ Sie können auch KI-generierte Text-Assets aus den zugehörigen Anzeigengruppen 
 
 ## Erstellen und Hochladen von Assets
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Wählen Sie in der Symbolleiste das Werbenetzwerk und das Konto aus.
 
@@ -90,7 +92,7 @@ Sie können auch KI-generierte Text-Assets aus den zugehörigen Anzeigengruppen 
 
 Entfernte Text-Assets werden nicht erneut bereitgestellt, aber Leistungsdaten sind weiterhin in Berichten verfügbar.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Wählen Sie in der Symbolleiste das Werbenetzwerk und das Konto aus.
 

@@ -1,25 +1,25 @@
 ---
-title: Replizieren  [!DNL Google Ads]  Kampagnen in [!DNL Microsoft Advertising]
-description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem - [!DNL Google Ads]  direkt in ein synchronisiertes - [!DNL Microsoft Advertising]  exportieren.
+title: Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]
+description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem [!DNL Google Ads]-Konto direkt in ein synchronisiertes [!DNL Microsoft Advertising]-Konto exportieren.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]
 
 >[!NOTE]
 >
->Anweisungen für diese Aufgabe in der neuen Benutzeroberfläche finden Sie unter „(Neue Benutzeroberfläche) [Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md).
+>Anweisungen für diese Aufgabe in der neuen Benutzeroberfläche finden Sie unter „(Neue Benutzeroberfläche) [Replizieren [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md).
 
 Sie können synchronisierte Kampagnen in einem [!DNL Google Ads]-Konto direkt in ein synchronisiertes [!DNL Microsoft Advertising]-Konto als erweiterte CPC(eCPC)-Kampagnen exportieren. Die vorhandenen Angebote und Kampagnenbudgets werden skaliert. Vorhandenes Tracking für Suche, Social Media und Commerce wird nicht importiert.
 
@@ -87,11 +87,11 @@ Sie können alle Importaufträge auflisten, einschließlich des [!DNL Google Ads
 
 * Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+  * Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-     Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
+    Standardmäßig wird die Ansicht auf der Registerkarte [!UICONTROL List of Import Jobs] geöffnet.
 
-   * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
+  * Klicken Sie auf der [&#128279;](#campaign-import-log) [!UICONTROL Import Logs] auf die Registerkarte **[!UICONTROL List of Import Jobs]** .
 
 ## Ausführen eines Kampagnen-Importvorgangs
 
@@ -131,15 +131,15 @@ Die automatische Generierung von [!DNL Microsoft Advertising]-Anmeldeinformation
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* Um bestimmte Kampagnen und Anzeigengruppen auszuwählen.
 
-   * Um eine Kampagne in ihre untergeordneten Anzeigengruppen zu erweitern, klicken Sie auf **[!UICONTROL >]** nach dem Kampagnennamen.
+  * Um eine Kampagne in ihre untergeordneten Anzeigengruppen zu erweitern, klicken Sie auf **[!UICONTROL >]** nach dem Kampagnennamen.
 
-   * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
+  * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
 
-   * So entfernen Sie eine Kampagne oder Anzeigengruppe:
+  * So entfernen Sie eine Kampagne oder Anzeigengruppe:
 
-      * Heben Sie in der Spalte [!UICONTROL Campaigns] oder [!UICONTROL Adgroups] die Auswahl der Kampagne oder Anzeigengruppe auf, sodass das Häkchen ausgeblendet wird.
+    * Heben Sie in der Spalte [!UICONTROL Campaigns] oder [!UICONTROL Adgroups] die Auswahl der Kampagne oder Anzeigengruppe auf, sodass das Häkchen ausgeblendet wird.
 
-      * Klicken Sie in der Spalte [!UICONTROL Selected] auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
+    * Klicken Sie in der Spalte [!UICONTROL Selected] auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
 
 ### [!UICONTROL Customize your import]
 

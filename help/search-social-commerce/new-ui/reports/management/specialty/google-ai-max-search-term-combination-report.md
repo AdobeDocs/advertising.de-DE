@@ -2,26 +2,34 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Google AI Max Search Term Combination Report]
 
 *Gilt für [!DNL Google Ads] Konten, bei denen Kampagnen nur für KI-Max aktiviert sind*
 
-Die [!UICONTROL Google AI Max Search Term Combination Report] zeigt die Leistung bestimmter Anzeigenkombinationen und Landingpages an, die [!DNL Google Ads AI Max] auf der Grundlage von Suchvorgängen innerhalb des Suchnetzwerks verwendet. Der Bericht enthält Impressions-, Klicks- und Kostendaten für Anzeigen in [!DNL Google Ads] Kampagnen, die [!DNL AI Max] innerhalb bestimmter Konten verwenden. Standardmäßig enthalten die Daten eine Zeile für jede Suchbegriff-, Überschriften- und Landingpage-Kombination, die mindestens eine Impression im angegebenen Datenbereich erhalten hat. Die Zeilen sind standardmäßig in aufsteigender Reihenfolge nach Datum und dann nach Kampagne sortiert.
+Die [!UICONTROL Google AI Max Search Term Combination Report] zeigt, wie bestimmte Suchabfragen KI-generierten Überschriften und dynamischen Landingpages sowie Konversionsaktionen für Anzeigen in [!DNL Google Ads AI Max]-aktivierten Kampagnen innerhalb bestimmter Konten zugeordnet werden. Der Bericht umfasst zwei Blätter:
 
-Verwenden Sie diesen Bericht, um zu sehen, wie bestimmte Suchabfragen KI-generierten Überschriften und dynamischen Landingpages zugeordnet werden. Sie können die Daten verwenden, um die Absicht und die Leistung der resultierenden Werbeelemente pro Abfrage zu analysieren, sodass Sie robuste negative Keyword-Listen erstellen können.
+* [!UICONTROL AI Max Search Term]: Die Leistung bestimmter Anzeigenkombinationen und Landingpages auf der Grundlage von Suchvorgängen innerhalb des Suchnetzwerks. Das Blatt enthält Impressions-, Klicks- und Kostendaten sowie optionale [!DNL Google Ads]-Tracking-Konversionsmetriken, die in den Berichtseinstellungen angegeben sind. Standardmäßig enthalten die Daten eine Zeile für jede Suchbegriff-, Überschriften- und Landingpage-Kombination, die mindestens eine Impression im angegebenen Datenbereich erhalten hat. Die Zeilen werden standardmäßig nach Kampagne und dann nach einer anderen Spalte Ihrer Wahl in aufsteigender Reihenfolge sortiert.
+
+  Verwenden Sie dieses Blatt, um die Absicht und die Leistung der resultierenden Anzeigenelemente pro Abfrage zu analysieren, damit Sie zuverlässige negative Keyword-Listen erstellen können.
+
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] Blatt: [!DNL Google Ads] Konversionsdaten nach Konversionsaktion für jeden Suchbegriff und Übereinstimmungstyp. Jede Zeile enthält die Konversionsaktion, die Anzahl der Konversionen und den Konversionswert sowie alle anderen optionalen [!DNL Google Ads]-Tracking-Konversionsmetriken, die in den Berichtseinstellungen angegeben sind. Standardmäßig enthalten die Daten eine Zeile für jede Kombination aus Suchbegriff und Konversionsaktion im angegebenen Datenbereich. Die Zeilen befinden sich in der gleichen Reihenfolge wie die Zeilen auf dem ersten Blatt.
+
+  <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
+
+  In diesem Blatt erfahren Sie, wie die einzelnen Suchbegriffe zu den Konversionen geführt haben, aufgeschlüsselt nach Konversionsaktionen.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
 ## Standardspalten
 
 Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Sie unter [Berichtsspalten für Sonderberichte](specialty-report-columns.md).
+
+<!-- VERIFY -- probably more will be included by default -->
 
 * [!UICONTROL Event Date]
 * [!UICONTROL Account Name]
@@ -35,6 +43,9 @@ Beschreibungen aller standardmäßigen und benutzerdefinierten Spalten finden Si
 * [!UICONTROL Impressions]
 * [!UICONTROL Clicks]
 * [!UICONTROL Cost]
+* [!UICONTROL Conversion Action] (wird automatisch in die [!UICONTROL AI Max Search Term #1] aufgenommen, auch wenn Sie sie nicht explizit einbeziehen)
+* [!UICONTROL Conversions] (wird automatisch in die [!UICONTROL AI Max Search Term #1] aufgenommen, auch wenn Sie sie nicht explizit einbeziehen)
+* [!UICONTROL Conversions Value] (wird automatisch in die [!UICONTROL AI Max Search Term #1] aufgenommen, auch wenn Sie sie nicht explizit einbeziehen)
 
 >[!MORELIKETHIS]
 >

@@ -2,13 +2,11 @@
 title: (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
 description: Erfahren Sie, wie Sie Search-, Social- und Commerce-Benachrichtigungen, einschließlich Push-Benachrichtigungen und die Web-Anwendung des Benachrichtigungszentrums, anzeigen, konfigurieren und verwalten.
 feature: Search Notifications
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
 
 *Beta-Funktion*
@@ -45,57 +43,57 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: Benachrichtigungen, dass ein [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) abgeschlossen wurde oder fehlgeschlagen ist.<!-- Update link once file for new UI available-->
+  * **[!UICONTROL Bulksheets]**: Benachrichtigungen, dass ein [Bulksheet-Vorgang](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) abgeschlossen wurde oder fehlgeschlagen ist.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
+  * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
+  * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: Benachrichtigungen, dass eine Kontodatendatei hochgeladen wurde oder ein Hochladen von Kontodaten fehlgeschlagen ist, über [manuelles Hochladen von Kontodaten](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md). <!-- Verify description-->
+    * **[!UICONTROL Direct File Upload]**: Benachrichtigungen, dass eine Kontodatendatei hochgeladen wurde oder ein Hochladen von Kontodaten fehlgeschlagen ist, über [manuelles Hochladen von Kontodaten](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md). <!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**: Benachrichtigungen, dass eine Kontodatendatei hochgeladen wurde oder ein Hochladen von Kontodaten fehlgeschlagen ist, über [Hochladen von Kontodaten in einen [!DNL Amazon] [!DNL S3]-Bucket](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md). <!-- Verify description-->
+    * **[!UICONTROL File Upload to Cloud Storage]**: Benachrichtigungen, dass eine Kontodatendatei hochgeladen wurde oder ein Hochladen von Kontodaten fehlgeschlagen ist, über [Hochladen von Kontodaten in einen [!DNL Amazon] [!DNL S3]-Bucket](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md). <!-- Verify description-->
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)-Netzwerkkonto zugreifen konnten.
+    * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)-Netzwerkkonto zugreifen konnten.
 
-      * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
+    * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).
 
-      * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.<!-- Update link once file for new UI available-->
+    * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, dass [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) abgeschlossen wurde oder fehlgeschlagen ist.
+  * **[!UICONTROL Advertising Insights]**: Benachrichtigungen, dass [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
-   * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, dass [Warnhinweisinstanzen](/help/search-social-commerce/new-ui/alerts-manage.md) für eine Warnhinweisvorlage ausgelöst wurden.
+  * **[!UICONTROL Custom Alerts]**: Benachrichtigungen, dass [Warnhinweisinstanzen](/help/search-social-commerce/new-ui/alerts-manage.md) für eine Warnhinweisvorlage ausgelöst wurden.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, dass ein [Tabellenfeed](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md) abgeschlossen wurde oder fehlgeschlagen ist.
+  * **[!UICONTROL Spreadsheet Feeds]**: Benachrichtigungen, dass ein [Tabellenfeed](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
-   * [!UICONTROL Reports]
+  * [!UICONTROL Reports]
 
-      * **[!UICONTROL Grid Reports]**: Benachrichtigungen, dass ein Datenansichtsbericht aus einer bestimmten Ansicht (wie der Inhalt der Datentabelle in der [!UICONTROL Camapigns]) abgeschlossen wurde oder fehlgeschlagen ist.
+    * **[!UICONTROL Grid Reports]**: Benachrichtigungen, dass ein Datenansichtsbericht aus einer bestimmten Ansicht (wie der Inhalt der Datentabelle in der [!UICONTROL Camapigns]) abgeschlossen wurde oder fehlgeschlagen ist.
 
-      * **[!UICONTROL Reports]**: Benachrichtigungen, dass ein [benutzerdefinierter oder terminierter Bericht](/help/search-social-commerce/new-ui/reports/management/report-manage.md) abgeschlossen wurde oder fehlgeschlagen ist.
+    * **[!UICONTROL Reports]**: Benachrichtigungen, dass ein [benutzerdefinierter oder terminierter Bericht](/help/search-social-commerce/new-ui/reports/management/report-manage.md) abgeschlossen wurde oder fehlgeschlagen ist.
 
-   * [!UICONTROL Portfolio Management]
+  * [!UICONTROL Portfolio Management]
 
-      * **[!UICONTROL Intraday Optimization]**: Benachrichtigungen, wenn die Intraday-Optimierung deaktiviert ist.
+    * **[!UICONTROL Intraday Optimization]**: Benachrichtigungen, wenn die Intraday-Optimierung deaktiviert ist.
 
-      * **[!UICONTROL Simulation Report]**: Benachrichtigungen über [Simulationsaufträge](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md).
+    * **[!UICONTROL Simulation Report]**: Benachrichtigungen über [Simulationsaufträge](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md).
 
-      * [!UICONTROL Objective & Conversion Configuration]
+    * [!UICONTROL Objective & Conversion Configuration]
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: Benachrichtigungen auf Advertiser-Ebene über die erfolgreiche und fehlgeschlagene automatische Zuweisung von Kampagnen-Konversionszielen.
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: Benachrichtigungen auf Advertiser-Ebene über die erfolgreiche und fehlgeschlagene automatische Zuweisung von Kampagnen-Konversionszielen.
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: Benachrichtigungen auf Portfolioebene über die erfolgreiche und fehlgeschlagene automatische Zuweisung von Kampagnenkonversionszielen.
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: Benachrichtigungen auf Portfolioebene über die erfolgreiche und fehlgeschlagene automatische Zuweisung von Kampagnenkonversionszielen.
 
-      * [!UICONTROL Portfolios]
+    * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: Benachrichtigungen über [Portfolio-Massenbearbeitungs-Aufträge über Bulksheets](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md).
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: Benachrichtigungen über [Portfolio-Massenbearbeitungs-Aufträge über Bulksheets](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md).
 
-         * **[!UICONTROL Portfolio Settings]**: Benachrichtigungen über [Änderungen an Portfolioeinstellungen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md).
+      * **[!UICONTROL Portfolio Settings]**: Benachrichtigungen über [Änderungen an Portfolioeinstellungen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md).
 
 <!--
 
@@ -192,9 +190,9 @@ Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Konto
 
    * Um Benachrichtigungen zu abonnieren oder zu kündigen, bewegen Sie den Schieberegler in die Spalte [!UICONTROL Subscribe] :
 
-      * Um das Abonnement aller Benachrichtigungstypen zu kündigen, bewegen Sie den Schieberegler nach links (deaktiviert).
+     * Um das Abonnement aller Benachrichtigungstypen zu kündigen, bewegen Sie den Schieberegler nach links (deaktiviert).
 
-      * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Schieberegler nach rechts (aktiviert).
+     * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Schieberegler nach rechts (aktiviert).
 
    * (Wenn [!UICONTROL Subscribe] aktiviert ist) Um E-Mail-Benachrichtigungen zu abonnieren, aktivieren Sie das Kontrollkästchen in der Spalte **[!UICONTROL Email]** .
 
@@ -298,21 +296,21 @@ Sie können die Anwendung im Anwendungs-Manager des Browsers deaktivieren oder d
 
 * Innerhalb von Search, Social und Commerce:
 
-   1. Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications.png "Benachrichtigungen").
+  1. Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benachrichtigungen](/help/search-social-commerce/assets/notifications.png "Benachrichtigungen").
 
-   1. Klicken Sie auf **[!UICONTROL View All]**.
+  1. Klicken Sie auf **[!UICONTROL View All]**.
 
-   1. Klicken Sie unten rechts auf ![Benachrichtigungszentrum-Webanwendung installieren](/help/search-social-commerce/assets/notifications-install-app.png "Benachrichtigungszentrum-Webanwendung installieren").
+  1. Klicken Sie unten rechts auf ![Benachrichtigungszentrum-Webanwendung installieren](/help/search-social-commerce/assets/notifications-install-app.png "Benachrichtigungszentrum-Webanwendung installieren").
 
-   1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Add]**.
+  1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Add]**.
 
-   1. Klicken Sie in der [!UICONTROL Install Notification Center] App-Nachricht auf **[!UICONTROL Install]**.
+  1. Klicken Sie in der [!UICONTROL Install Notification Center] App-Nachricht auf **[!UICONTROL Install]**.
 
 * Vom [!DNL Edge] Hauptmenü:
 
-   1. Klicken Sie in der Browser-Symbolleiste auf **…** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+  1. Klicken Sie in der Browser-Symbolleiste auf **…** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
-   1. Klicken Sie in der [!UICONTROL Install Notification Center] App-Nachricht auf **[!UICONTROL Install]**.
+  1. Klicken Sie in der [!UICONTROL Install Notification Center] App-Nachricht auf **[!UICONTROL Install]**.
 
 ### Deinstallieren der [!UICONTROL Notification Center]-Webanwendung für [!DNL Google Chrome]
 

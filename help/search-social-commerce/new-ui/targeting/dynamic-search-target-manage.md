@@ -1,24 +1,26 @@
 ---
-title: Verwalten [!DNL Google Ads] dynamischer Suchziele
-description: Erfahren Sie, wie Sie dynamische  [!DNL Google Ads]  erstellen und verwalten.
+title: Verwalten [!DNL Google Ads] dynamischen Suchziele
+description: Erfahren Sie, wie Sie [!DNL Google Ads] dynamische Suchziele erstellen und verwalten.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Verwalten [!DNL Google Ads] dynamischen Suchziele
 
 Nur *[!DNL Google Ads]Konten*
@@ -43,7 +45,7 @@ Weitere Informationen zu [!DNL Google Ads] dynamischen Suchanzeigen finden Sie u
 
 ## Die [!UICONTROL Auto Targets]
 
-Die Ansicht [!UICONTROL Target] > [!UICONTROL Auto Targets] listet alle dynamischen Suchziele in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können auch Ihre dynamischen Suchziele verwalten.
+Die Ansicht [!UICONTROL Targeting] > [!UICONTROL Auto Targets] listet alle dynamischen Suchziele in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Sie können auch Ihre dynamischen Suchziele verwalten.
 
 ### Verfügbare Aktionen
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## Weisen Sie ausgewählten dynamischen Suchzielen in der neuen [!UICONTROL Auto Targets] eine Einschränkung zu {#constraint-assign}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem dynamischen Suchziel, dem Sie eine einzelne Einschränkung zuweisen.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## Entfernen von Einschränkungen aus ausgewählten dynamischen Suchzielen aus der neuen [!UICONTROL Auto Targets] {#constraint-unassign}
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jeder dynamischen Suchzielgruppe, deren Zuweisung von Einschränkungen Sie aufheben möchten.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >Beschriftungswerte werden von untergeordneten Entitäten übernommen. Geben Sie daher keine Werte für untergeordnete Entitäten ein, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben jedem Ziel der dynamischen Suche, dem Sie einen Titelwert zuweisen werden.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kontokomponente und allen untergeordneten Komponenten. Berichtsdaten für den Classification-Wert sind für diese Komponenten nicht mehr verfügbar. Wenn Sie einen Klassifizierungswert entfernen, werden weder der Wert noch die Kontokomponenten gelöscht.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben den einzelnen dynamischen Suchzielen, aus denen Sie einen Titelwert entfernen möchten.
 
@@ -253,4 +255,4 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 >[!MORELIKETHIS]
 >
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungen für Suchangebotseinheiten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Neue Benutzeroberfläche) Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Kennzeichnungsklassifizierungen](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
