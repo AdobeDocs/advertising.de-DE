@@ -3,20 +3,24 @@ title: Benachrichtigungseinstellungen bearbeiten
 description: Erfahren Sie, wie Sie die Einstellungen für Ihre Benachrichtigungen bearbeiten.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
+TQID: 'https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # Benachrichtigungseinstellungen bearbeiten
 
 *Beta-Funktion*
@@ -33,9 +37,9 @@ Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Konto
 
    * Um Benachrichtigungen zu abonnieren oder zu kündigen, bewegen Sie den Schieberegler in die Spalte [!UICONTROL Subscribe] :
 
-      * Um das Abonnement aller Benachrichtigungstypen zu kündigen, bewegen Sie den Schieberegler nach links (deaktiviert).
+     * Um das Abonnement aller Benachrichtigungstypen zu kündigen, bewegen Sie den Schieberegler nach links (deaktiviert).
 
-      * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Schieberegler nach rechts (aktiviert).
+     * Um einen oder mehrere Benachrichtigungstypen zu abonnieren, bewegen Sie den Schieberegler nach rechts (aktiviert).
 
    * (Wenn [!UICONTROL Subscribe] aktiviert ist) Um E-Mail-Benachrichtigungen zu abonnieren, aktivieren Sie das Kontrollkästchen in der Spalte **[!UICONTROL Email]** .
 

@@ -3,18 +3,24 @@ title: Verwalten von Feed-Vorlagen
 description: Erfahren Sie, wie Sie Feed-Vorlagen verwalten.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+TQID: 'https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Feed-Vorlagen
 
 <!-- I have a "Retail" feed template that was created by rkarthik@adobe. Ask product if this is available to all clients or just internal.  -->
@@ -27,7 +33,7 @@ Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
 
 >[!TIP]
 >
->Für alle Konten mit dynamischen Videos empfiehlt es sich, [&#x200B; universellen Feed-Vorlagen-[!UICONTROL Adobe Creative Template]](feed-template-manage.md) herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um [Katalog zu erstellen](catalog-manage.md).
+>Für alle Konten mit dynamischen Videos empfiehlt es sich, [ universellen Feed-Vorlagen-[!UICONTROL Adobe Creative Template]](feed-template-manage.md) herunterzuladen, jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuzuordnen und dann die Feed-Vorlage umzubenennen und hochzuladen. Verwenden Sie die neue Feed-Vorlage zusammen mit der Asset-Datei, um [Katalog zu erstellen](catalog-manage.md).
 
 ## Erstellen einer Feed-Vorlage
 
@@ -71,7 +77,7 @@ Sie können eine Feed-Vorlage mit mehreren Anzeigenvorlagen verwenden.
 
 1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **[!UICONTROL Duplicate]**.
 
-1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [&#x200B; anderen Einstellungen &#x200B;](#feed-template-settings)Feed-Vorlage).
+1. Geben Sie im Bildschirm [!UICONTROL Duplicate Template] eine eindeutige **[!UICONTROL Template Name]** ein. Wenn Sie eine von einer anderen Person erstellte Vorlage duplizieren, wählen Sie die **[!UICONTROL Advertiser]** aus. Bearbeiten Sie bei Bedarf [ anderen Einstellungen ](#feed-template-settings)Feed-Vorlage).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

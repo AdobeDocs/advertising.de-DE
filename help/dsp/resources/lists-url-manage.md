@@ -3,22 +3,26 @@ title: URL-Listen verwalten
 description: Erfahren Sie, wie Sie URL-Listen für das Platzierungs-Targeting erstellen und verwalten.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-TQID: https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw
+TQID: 'https://experienceleague.adobe.com/evxwpbMXExxa30xpsojzTxcRfAxrozOSmwoJuCHPVPw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 0%
-
 ---
-
 # URL-Listen verwalten
 
 Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting erstellen und verwalten. Targeting oder Ausschließen von bestimmten URL-Listen in den Platzierungseinstellungen.
@@ -45,63 +49,63 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
    * So geben Sie hinzuzufügende URLs manuell ein oder fügen sie ein:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
+     1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
 
-      1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind.
+     1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind.
 
-         Alle ungültigen URLs werden identifiziert. Wenn Sie fortfahren, werden nur gültige URLs hinzugefügt.
+        Alle ungültigen URLs werden identifiziert. Wenn Sie fortfahren, werden nur gültige URLs hinzugefügt.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
    * Hinzufügen von URLs aus einer Datei:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
 
-      1. Ziehen Sie per Drag-and-Drop eine lokale CSV-Datei, die die URLs enthält, wobei jede URL in einer separaten Zeile steht.
+     1. Ziehen Sie per Drag-and-Drop eine lokale CSV-Datei, die die URLs enthält, wobei jede URL in einer separaten Zeile steht.
 
-         Die Datei sollte nur eine Datenspalte ohne Spaltenkopfzeile enthalten. Wenn Sie eine vorhandene Liste exportiert und die Zeilen bearbeitet haben, entfernen Sie die Kopfzeile und die zweite und dritte Spalte, bevor Sie die Datei erneut importieren. Wenn Sie fortfahren, werden keine Zeilen mit ungültigen Werten hinzugefügt.
+        Die Datei sollte nur eine Datenspalte ohne Spaltenkopfzeile enthalten. Wenn Sie eine vorhandene Liste exportiert und die Zeilen bearbeitet haben, entfernen Sie die Kopfzeile und die zweite und dritte Spalte, bevor Sie die Datei erneut importieren. Wenn Sie fortfahren, werden keine Zeilen mit ungültigen Werten hinzugefügt.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
-         Eine Benachrichtigung gibt an, wann die Aufgabe abgeschlossen ist. Aktualisieren Sie die Seite, um die aktualisierte Liste anzuzeigen.
+        Eine Benachrichtigung gibt an, wann die Aufgabe abgeschlossen ist. Aktualisieren Sie die Seite, um die aktualisierte Liste anzuzeigen.
 
-      1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
+     1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+        1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
-         1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
+        1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
-            Die Datei wird im Ordner Downloads des Browsers gespeichert.
+           Die Datei wird im Ordner Downloads des Browsers gespeichert.
 
    * Um bestimmte URLs zu entfernen, führen Sie einen der folgenden Schritte aus:
 
-      * Auswahl der zu entfernenden URLs:
+     * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
+       1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
-         1. Klicken Sie auf **[!UICONTROL Remove from List]**.
+       1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
-      * So geben Sie zu entfernende URLs ein oder fügen sie ein:
+     * So geben Sie zu entfernende URLs ein oder fügen sie ein:
 
-         1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+       1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-         1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
+       1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
 
-         1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind und aktuell in der Liste enthalten sind.
+       1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind und aktuell in der Liste enthalten sind.
 
-         1. Klicken Sie auf **[!UICONTROL Remove from list]**.
+       1. Klicken Sie auf **[!UICONTROL Remove from list]**.
 
    * Entfernen aller URLs:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Klicken Sie auf **[!UICONTROL Remove All URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Remove All URLs]**.
 
-      1. Klicken Sie auf **[!UICONTROL Remove]**.
+     1. Klicken Sie auf **[!UICONTROL Remove]**.
 
 ## URL-Liste bearbeiten
 
@@ -113,63 +117,63 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
    * So geben Sie hinzuzufügende URLs manuell ein oder fügen sie ein:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
+     1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
 
-      1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind.
+     1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind.
 
-         Alle ungültigen URLs werden identifiziert. Wenn Sie fortfahren, werden nur gültige URLs hinzugefügt.
+        Alle ungültigen URLs werden identifiziert. Wenn Sie fortfahren, werden nur gültige URLs hinzugefügt.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
    * Hinzufügen von URLs aus einer Datei:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Add URLs]** > **[!UICONTROL Import File]**.
 
-      1. Ziehen Sie per Drag-and-Drop eine lokale CSV-Datei, die die URLs enthält, wobei jede URL in einer separaten Zeile steht.
+     1. Ziehen Sie per Drag-and-Drop eine lokale CSV-Datei, die die URLs enthält, wobei jede URL in einer separaten Zeile steht.
 
-         Die Datei sollte nur eine Datenspalte ohne Spaltenkopfzeile enthalten. Wenn Sie eine vorhandene Liste exportiert und die Zeilen bearbeitet haben, entfernen Sie die Kopfzeile und die zweite und dritte Spalte, bevor Sie die Datei erneut importieren. Wenn Sie fortfahren, werden keine Zeilen mit ungültigen Werten hinzugefügt.
+        Die Datei sollte nur eine Datenspalte ohne Spaltenkopfzeile enthalten. Wenn Sie eine vorhandene Liste exportiert und die Zeilen bearbeitet haben, entfernen Sie die Kopfzeile und die zweite und dritte Spalte, bevor Sie die Datei erneut importieren. Wenn Sie fortfahren, werden keine Zeilen mit ungültigen Werten hinzugefügt.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
-         Eine Benachrichtigung gibt an, wann die Aufgabe abgeschlossen ist.
+        Eine Benachrichtigung gibt an, wann die Aufgabe abgeschlossen ist.
 
-      1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
+     1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-         1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+        1. Klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
 
-         1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
+        1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
-            Die Datei wird im Ordner Downloads des Browsers gespeichert.
+           Die Datei wird im Ordner Downloads des Browsers gespeichert.
 
    * Um bestimmte URLs zu entfernen, führen Sie einen der folgenden Schritte aus:
 
-      * Auswahl der zu entfernenden URLs:
+     * Auswahl der zu entfernenden URLs:
 
-         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
+       1. Aktivieren Sie das Kontrollkästchen neben den einzelnen URLs, die aus der Liste entfernt werden sollen.
 
-         1. Klicken Sie auf **[!UICONTROL Remove from List]**.
+       1. Klicken Sie auf **[!UICONTROL Remove from List]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
-      * So geben Sie zu entfernende URLs ein oder fügen sie ein:
+     * So geben Sie zu entfernende URLs ein oder fügen sie ein:
 
-         1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+       1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-         1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
+       1. Bis zu 10.000 URLs eingeben oder einfügen, wobei jede URL in einer separaten Zeile steht.
 
-         1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind und aktuell in der Liste enthalten sind.
+       1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die URLs gültig sind und aktuell in der Liste enthalten sind.
 
-         1. Klicken Sie auf **[!UICONTROL Remove from list]**.
+       1. Klicken Sie auf **[!UICONTROL Remove from list]**.
 
    * Entfernen aller URLs:
 
-      1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Bulk Remove URLs]** > **[!UICONTROL Copy/Paste URLs]**.
 
-      1. Klicken Sie auf **[!UICONTROL Remove All URLs]**.
+     1. Klicken Sie auf **[!UICONTROL Remove All URLs]**.
 
-      1. Klicken Sie auf **[!UICONTROL Remove]**.
+     1. Klicken Sie auf **[!UICONTROL Remove]**.
 
 ## Exportieren einer URL-Liste
 

@@ -3,25 +3,31 @@ title: Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine P
 description: Erfahren Sie, wie Sie die Zielseiten, Anzeigen, Häufigkeit und Inventardaten für eine Platzierung anzeigen.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # Anzeigen der Sites, Anzeigen, Häufigkeit und Inventardetails für eine Platzierung
 
 Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) öffnen](placement-details-view.md) in der alle Zielseiten, Anzeigen und Angebote einer Platzierung aufgelistet sind. Es enthält auch Häufigkeitsdaten für die Platzierung. Sie können optional die Daten aus jeder Registerkarte exportieren.
@@ -39,10 +45,10 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
   Die Registerkarte [!UICONTROL Ads] enthält Such- und Filterfunktionen, dieselben standardmäßigen und benutzerdefinierten Spaltenansichtsoptionen, die auf der Hauptseite verfügbar sind, sowie Schnellaktionsschaltflächen in jeder Zeile, z. B. [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** Daten für jede Anzeigenhäufigkeitsstufe für die Platzierung, einschließlich:
-   * Die Anzeigenhäufigkeit (z. B. „1“ für alle Instanzen, in denen Benutzende eine Anzeige einmal gesehen haben)
-   * Die geschätzte eindeutige Anzahl der Geräte/Browser oder Personen (je nach dem angegebenen [!UICONTROL Cross Device Level] für die Kampagne), die Impressionen auf der angegebenen Häufigkeitsstufe erhalten haben
-   * Die geschätzte Anzahl von Impressionen auf der angegebenen Häufigkeitsstufe
-   * Die geschätzte durchschnittliche Häufigkeit für die angegebene Häufigkeitsstufe. Dieser Wert ist gleich (Geschätzte Impressions)/(Geschätzte eindeutige Werte).
+  * Die Anzeigenhäufigkeit (z. B. „1“ für alle Instanzen, in denen Benutzende eine Anzeige einmal gesehen haben)
+  * Die geschätzte eindeutige Anzahl der Geräte/Browser oder Personen (je nach dem angegebenen [!UICONTROL Cross Device Level] für die Kampagne), die Impressionen auf der angegebenen Häufigkeitsstufe erhalten haben
+  * Die geschätzte Anzahl von Impressionen auf der angegebenen Häufigkeitsstufe
+  * Die geschätzte durchschnittliche Häufigkeit für die angegebene Häufigkeitsstufe. Dieser Wert ist gleich (Geschätzte Impressions)/(Geschätzte eindeutige Werte).
 
 * **[!UICONTROL Inventory]:** Informationen zu allen Angeboten, die von der Platzierung angesprochen werden.
 
@@ -54,27 +60,27 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
    * Alle Platzierungen innerhalb der übergeordneten Kampagne anzeigen:
 
-      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+     1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-      1. Klicken Sie auf den Namen der Kampagne.
+     1. Klicken Sie auf den Namen der Kampagne.
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Placements]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Placements]** .
 
    * Alle Platzierungen innerhalb des übergeordneten Pakets anzeigen:
 
-      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
+     1. Klicken Sie im Hauptmenü auf **[!UICONTROL Campaigns]**.
 
-      1. Klicken Sie auf den Namen der Kampagne.
+     1. Klicken Sie auf den Namen der Kampagne.
 
-      1. Klicken Sie auf die Registerkarte **[!UICONTROL Packages]** .
+     1. Klicken Sie auf die Registerkarte **[!UICONTROL Packages]** .
 
-      1. Klicken Sie auf den Namen des übergeordneten Pakets.
+     1. Klicken Sie auf den Namen des übergeordneten Pakets.
 
 1. Halten Sie den Cursor über der Platzierungszeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
 1. (Optional) [Ändern Sie die Spaltenansicht](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
-1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![&#x200B; oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
+1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![ oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
 
    Die Daten werden im Standard-Download-Ordner Ihres Browsers als Bericht im XLSM-Format gespeichert.
 

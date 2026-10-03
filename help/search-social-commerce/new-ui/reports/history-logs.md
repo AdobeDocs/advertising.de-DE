@@ -2,13 +2,17 @@
 title: (Neue Benutzeroberfläche) Anzeigen von Änderungsprotokollen
 description: Erfahren Sie, wie Sie die letzten Änderungen am Advertiser-Konto anzeigen.
 feature: Search Reports
-source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Anzeigen von Änderungsprotokollen
 
 Der [!UICONTROL History Logs] enthält ein Protokoll der Änderungen, die in den letzten 31 Tagen am Advertiser-Konto vorgenommen wurden. Der Bericht kann Änderungen an den folgenden Objekttypen enthalten: Benutzer (Werbetreibende), Portfolios, Kampagnen, Anzeigengruppen, Anzeigen, Schlüsselwörter, Platzierungen und Produktziele. Sie können die Daten nach einer beliebigen Spalte sortieren und filtern.
@@ -17,7 +21,7 @@ Sie können zusätzliche Informationen zu den Verlaufsprotokollen des Werbetreib
 
 >[!NOTE]
 >
->Informationen zu Änderungen an Portfolios finden Sie [&#x200B; der (Änderungshistorie des Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md).
+>Informationen zu Änderungen an Portfolios finden Sie [ der (Änderungshistorie des Portfolios](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md).
 
 ## [!UICONTROL History Logs] anzeigen {#history-logs-open}
 

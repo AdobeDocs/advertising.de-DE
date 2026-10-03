@@ -3,49 +3,60 @@ title: Über die Zielgruppenverwaltung in Advertising DSP
 description: Erfahren Sie mehr über Funktionen zur Zielgruppenverwaltung.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Über die Zielgruppenverwaltung in Advertising DSP
 
 In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwalten, die Sie als Ziele für Ihre Platzierungen verwenden können:
 
 * Erfassen Sie Ihre eigenen First-Party-Zielgruppendaten, indem Sie DSP-Segmente erstellen und implementieren. Sie können später Benutzende im Segment erneut mit Anzeigen ansprechen oder verhindern, dass Benutzende im Segment Anzeigen erhalten. Sie können die folgenden Segmenttypen erstellen:
 
-   * [Benutzerdefinierte Segmente](/help/dsp/audiences/custom-segment-create.md) um a) Benutzende zu verfolgen, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind, und b) Benutzende, die bestimmte Web-Seiten besuchen. Das Tracking-Tag kann entweder Cookie-basierte Benutzer oder Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind.
+  * [Benutzerdefinierte Segmente](/help/dsp/audiences/custom-segment-create.md) um a) Benutzende zu verfolgen, die Anzeigen von Desktop- und Mobilgeräten ausgesetzt sind, und b) Benutzende, die bestimmte Web-Seiten besuchen. Das Tracking-Tag kann entweder Cookie-basierte Benutzer oder Benutzer verfolgen, die mit universellen ID5-IDs verknüpft sind.
 
-   * [CCPA-Opt-out-of-Sale-Segmente](/help/dsp/audiences/ccpa-opt-out-segment-create.md) um die Benutzer-IDs aus Verbraucher-Opt-out-of-Sale-Anfragen auf Ihrer Website gemäß dem California Consumer Privacy Act (CCPA) zu verfolgen. Sie können monatliche Berichte zu Benutzer-IDs aus Opt-out-Kaufanfragen abrufen.
+  * [CCPA-Opt-out-of-Sale-Segmente](/help/dsp/audiences/ccpa-opt-out-segment-create.md) um die Benutzer-IDs aus Verbraucher-Opt-out-of-Sale-Anfragen auf Ihrer Website gemäß dem California Consumer Privacy Act (CCPA) zu verfolgen. Sie können monatliche Berichte zu Benutzer-IDs aus Opt-out-Kaufanfragen abrufen.
 
-     Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Kaufanfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für das Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+    Weitere Informationen zur Adobe Advertising-Unterstützung für CCPA-Opt-out-Kaufanfragen finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung für das Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * [Beziehen und verwenden Sie universelle IDs für das Cookie-lose Targeting](/help/dsp/audiences/universal-ids.md):
 
-   * Senden Sie Ihre authentifizierten [!DNL LiveRamp] [!DNL RampID] Segmente manuell direkt an DSP.
+  * Senden Sie Ihre authentifizierten [!DNL LiveRamp] [!DNL RampID] Segmente manuell direkt an DSP.
 
-   * DSP erlauben, Erstanbietersegmente aus Ihrer Kundendatenplattform zu importieren und in unterstützte universelle ID-Typen zu übersetzen.
+  * DSP erlauben, Erstanbietersegmente aus Ihrer Kundendatenplattform zu importieren und in unterstützte universelle ID-Typen zu übersetzen.
 
-   * Importieren Sie First-Party-[!DNL AdFixus], die [!DNL AdFixus] universelle IDs enthalten (nur Australien). Sie können dann Platzierungen auf [!DNL AdFixus]-IDs ausrichten, diese Segmente zu [wiederverwendbaren Zielgruppen“ hinzufügen &#x200B;](/help/dsp/audiences/reusable-audience-create.md) Berichte verwenden, die unter &quot;[&#x200B; von First-Party-Segmenten aus“  [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) werden.
+  * Importieren Sie First-Party-[!DNL AdFixus], die [!DNL AdFixus] universelle IDs enthalten (nur Australien). Sie können dann Platzierungen auf [!DNL AdFixus]-IDs ausrichten, diese Segmente zu [wiederverwendbaren Zielgruppen“ hinzufügen ](/help/dsp/audiences/reusable-audience-create.md) Berichte verwenden, die unter &quot;[ von First-Party-Segmenten aus“  [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) werden.
 
-   * Einbeziehen von Drittanbietersegmenten, die universelle IDs enthalten, in Ihre Platzierungsziele ohne zusätzliche Schritte.
+  * Einbeziehen von Drittanbietersegmenten, die universelle IDs enthalten, in Ihre Platzierungsziele ohne zusätzliche Schritte.
 
 * Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md). Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
 
@@ -57,9 +68,9 @@ Für das Platzierungs-Targeting sind auch zusätzliche Zielgruppentypen verfügb
 
 Sie haben viele Möglichkeiten, Datensegmente von Erstanbietern und Drittanbietern mithilfe der DSP-Benutzeroberfläche und/oder über benutzerdefinierte Importdienste in DSP zu importieren.
 
-* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting &#x200B;](/help/integrations/audience-manager/import-audiences.md).
+* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting ](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs &#x200B;](/help/dsp/audiences/sources/source-about.md).
+* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs ](/help/dsp/audiences/sources/source-about.md).
 
 * Australische Werbetreibende können [!DNL AdFixus] First-Party-Segmente mithilfe der [Quellen-Funktion](/help/dsp/audiences/sources/source-about.md) importieren, ohne Ihre [!DNL AdFixus] universellen IDs in andere ID-Typen zu übersetzen.
 
@@ -79,15 +90,15 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
 * Alle vom Benutzer erstellten Zielgruppensegmente, die in DSP erstellt wurden:
 
-   * Benutzerdefinierte Segmente für Benutzer, die bestimmte Web-Seiten besucht haben, und für Benutzer, die Impressionen bestimmter Anzeigen ausgesetzt waren.
+  * Benutzerdefinierte Segmente für Benutzer, die bestimmte Web-Seiten besucht haben, und für Benutzer, die Impressionen bestimmter Anzeigen ausgesetzt waren.
 
-     Für Impressionen, die an universelle IDs gesendet werden, fallen keine Gebühren an.
+    Für Impressionen, die an universelle IDs gesendet werden, fallen keine Gebühren an.
 
-   * Zielgruppensegmente für das CCPA-Opt-out vom Verkauf für Benutzer, die Opt-out vom Verkauf auf Ihrer Website eingereicht haben, gemäß dem California Consumer Privacy Act (CCPA).
+  * Zielgruppensegmente für das CCPA-Opt-out vom Verkauf für Benutzer, die Opt-out vom Verkauf auf Ihrer Website eingereicht haben, gemäß dem California Consumer Privacy Act (CCPA).
 
 * Alle Ihre importierten First-Party-Datensegmente, einschließlich Segmente, die in universelle IDs übersetzt wurden, und Segmente, die importierte [!DNL AdFixus] universelle IDs enthalten.
 
-  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Tarife finden [&#x200B; unter „Über Erstanbieter-](/help/dsp/audiences/sources/source-about.md)&quot;.
+  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Tarife finden [ unter „Über Erstanbieter-](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 * Alle Ihre importierten benutzerdefinierten Datensegmente von Drittanbietern
 
@@ -97,15 +108,15 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
   Für Drittanbietersegmente fallen zusätzliche Gebühren an, die neben jedem Segmentnamen angegeben werden.
 
-* (Werbetreibende mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising JavaScript-Konversions-Tags verwenden) Alle verfügbaren Zielgruppensegmente von Erst-, Zweit- oder Drittanbietern, die in [!DNL Real-Time CDP] erstellt, in Audience Manager erstellt oder in Adobe CX Enterprise aus Audience Manager oder [!DNL Analytics] veröffentlicht wurden.
+* (Werbetreibende mit Adobe Experience Platform und [!DNL Real-Time CDP], Adobe Audience Manager oder Adobe Analytics, die nur Adobe Advertising JavaScript-Konversions-Tags verwenden) Alle Ihre verfügbaren Zielgruppensegmente von Erst-, Zweit- oder Drittanbietern, die in [!DNL Real-Time CDP] erstellt, in Audience Manager erstellt oder aus Audience Manager oder [!DNL Analytics] in Adobe CX Enterprise veröffentlicht wurden.
 
   Die Preise für die Verwendung der Segmente werden vorab ausgehandelt und sind in DSP nicht sichtbar.
 
-  Segmente aus [!DNL Analytics] sind etwa eine Stunde nach ihrer Erstellung oder Veröffentlichung als CX Enterprise-Zielgruppen verfügbar. Segmente, die direkt aus Audience Manager oder [!DNL Real-Time CDP] stammen, sind innerhalb von 24 Stunden nach ihrer Freigabe verfügbar.
+  Segmente aus [!DNL Analytics] sind etwa eine Stunde nach dem Erstellen oder Veröffentlichen als CX Enterprise-Zielgruppen verfügbar. Segmente, die direkt aus Audience Manager oder [!DNL Real-Time CDP] stammen, sind innerhalb von 24 Stunden nach ihrer Freigabe verfügbar.
 
   >[!NOTE]
   >
-  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de) Lösungen finden Sie in [&#x200B; Dokumentation für &lbrace;0 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=de)Audience Manager[, Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=de) und.
+  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) Lösungen finden Sie in [ Dokumentation für {0 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)Audience Manager[, Analytics](https://experienceleague.adobe.com/docs/analytics.html) und.[
 
 ## Daten zur Zielgruppengröße
 

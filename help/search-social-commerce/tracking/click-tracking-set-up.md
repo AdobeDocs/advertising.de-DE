@@ -3,18 +3,21 @@ title: Einrichten von Cookie-basiertem Klick-Tracking
 description: Erfahren Sie, wie Sie Klick-Tracking-Tags einrichten und validieren.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA
+TQID: 'https://experienceleague.adobe.com/cs39NoKUXfx4PdrzULocZEOW0SUGtXrpmO4I3IXefwA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # Einrichten von Cookie-basiertem Klick-Tracking
 
 Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und validiert werden, um Klicks zu verfolgen.
@@ -23,7 +26,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 1. [Geben Sie die richtigen Tracking-Optionen für die einzelnen Konten und Kampagnen des Werbenetzwerks des Werbetreibenden an](#set-up-click-tracking-options).
 
-1. Generieren [&#x200B; bei Bedarf Tracking-URLs und laden Sie sie &#x200B;](#generate-upload-tracking-urls) einige Kampagnenelemente hoch.
+1. Generieren [ bei Bedarf Tracking-URLs und laden Sie sie ](#generate-upload-tracking-urls) einige Kampagnenelemente hoch.
 
 1. [Validieren Sie das Format einiger Klick-Tracking-URLs und testen Sie sie, um sicherzustellen, dass die richtige Landingpage geöffnet wird](#validate-tracking-urls).
 
@@ -61,7 +64,7 @@ Für Search, Social und Commerce müssen die folgenden Elemente konfiguriert und
 
 ## Tracking-URLs generieren und hochladen {#generate-upload-tracking-urls}
 
-Siehe &quot;[&#x200B; und Generieren von Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
+Siehe &quot;[ und Generieren von Klick-Tracking-URLs](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
 ### Testen des Formats von Klick-Tracking-URLs {#validate-tracking-urls}
 

@@ -1,21 +1,26 @@
 ---
 title: '[!DNL Meta Ads] Kampagneneinstellungen'
-description: Verweisen Sie auf die Einstellungen für  [!DNL Meta Ads] -Kampagnen.
+description: Referenzieren Sie die Einstellungen für [!DNL Meta Ads] Kampagnen.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 98
+source-wordcount: '99'
 ht-degree: 0%
-
 ---
-
 # [!DNL Meta Ads] Kampagneneinstellungen
 
 In Search, Social und Commerce können Sie keine [!DNL Meta Ads]-Kampagnen erstellen. Sie können minimale Kampagneneinstellungen bearbeiten.
@@ -40,7 +45,7 @@ In Search, Social und Commerce können Sie keine [!DNL Meta Ads]-Kampagnen erste
 
 {{$include /help/_includes/override-account-tracking.md}}
 
-**[!UICONTROL Tracking Config]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** (Werbetreibende [mit [!DNL Adobe Analytics for Advertising]](/help/integrations/analytics/overview.md) und mit einer in den Kontoeinstellungen angegebenen Adobe Analytics Report Suite) Fügt den Tracking-Parameter [AMO ID (s_kwcid) &#x200B;](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) alle Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der Report Suite zu verknüpfen, die in den Kontoeinstellungen angegeben ist.
+**[!UICONTROL Tracking Config]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** (Werbetreibende [mit [!DNL Adobe Analytics for Advertising]](/help/integrations/analytics/overview.md) und mit einer in den Kontoeinstellungen angegebenen Adobe Analytics Report Suite) Fügt den Tracking-Parameter [AMO ID (s_kwcid) ](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) alle Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der Report Suite zu verknüpfen, die in den Kontoeinstellungen angegeben ist.
 
 >[!MORELIKETHIS]
 >

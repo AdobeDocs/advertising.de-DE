@@ -2,13 +2,19 @@
 title: '[!UICONTROL Keyword Assist Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Keyword Assist Report].
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Die [!UICONTROL Keyword Assist Report]
 
 *Werbetreibende mit Klick-Tracking für Suche, Social und Commerce und mit Konversions-Tracking aus Adobe Advertising, Adobe Analytics (mit einer [!DNL Analytics]-Integration) oder bereitgestellt in -Feeds nur mit einem Token (`ef_id`)*
@@ -33,7 +39,7 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 | Spalte | Standard? | Beschreibung |
 | ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] zu [!UICONTROL 5th Keyword] | Standard | Die fünf frühesten Klicks auf Paid Search-Keywords oder Platzierungen im Konversionspfad, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) aufgetreten sind.<br><br><b>Hinweis:</b> Wenn der Bericht Platzierungen aus inhaltsaktivierten Suchkampagnen (die keine Keywords enthalten) enthält, zeigen diese Spalten stattdessen die entsprechenden Anzeigengruppennamen an, z. B. „(Anzeigengruppeninhalt) Ihr Anzeigengruppenname“. |
-| [!UICONTROL Path Size] | Standard | Die Anzahl der Keywords und/oder Platzierungen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers &#x200B;](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) &#x200B;](/help/search-social-commerce/glossary.md#i-j). |
+| [!UICONTROL Path Size] | Standard | Die Anzahl der Keywords und/oder Platzierungen im Konversionspfad, die innerhalb des (Klick[Lookback-Fensters des Advertisers ](/help/search-social-commerce/glossary.md#c-d) (Impression[Lookback-Fenster) ](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Standard | Das erste Keyword oder die erste Platzierung im Konversionspfad. |
 | [!UICONTROL Last Keyword] | Standard | Das letzte Keyword oder die letzte Platzierung, die zu Konversionen geführt hat (selbst wenn das letzte Keyword außerhalb der angegebenen Pfadgröße liegt). |
 | \[Advertiser-spezifische benutzerdefinierte (abgeleitete) Metriken\] | Benutzerdefiniert | Der Wert für eine von Ihnen erstellte benutzerdefinierte Metrik, die aus vorhandenen Metriken berechnet wird. |

@@ -1,22 +1,31 @@
 ---
 title: Suchen nach Produktdokumentation im KI-unterstützten Chat
-description: Erfahren Sie, wie Sie mit  [!DNL Creative]  KI-gestützten Chat nach Adobe Advertising DSP und Dokumentation suchen. Erhalten Sie Antworten mit Zitaten und empfohlenen Folgeaufforderungen.
+description: Erfahren Sie, wie Sie die Dokumentation zu Adobe Advertising DSP und [!DNL Creative] mithilfe eines KI-unterstützten Chats durchsuchen. Erhalten Sie Antworten mit Zitaten und empfohlenen Folgeaufforderungen.
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # Suchen nach Produktdokumentation mithilfe einer KI-unterstützten Chat-Oberfläche
 
 *Support nur für Englisch*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu &#x200B;](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/de/docs/advertising).
+Verwenden Sie die Benutzeroberfläche des KI-Chats, um im [Advertising DSP-Handbuch und (Werbetreibende mit Advertising Creative](/help/dsp/home.md) im [Advertising Creative-Handbuch nach konzeptionellen Inhalten und Anleitungsinhalten zu ](/help/creative/home.md). Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert ](https://experienceleague.adobe.com/en/docs/advertising).
 
 Die Antworten umfassen Zitate sowie zusätzliche Eingabeaufforderungen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können. Ihr Chat-Verlauf wird während einer Sitzung gepflegt und Ihre Abfragen werden nicht mit anderen Benutzern geteilt.
 
@@ -56,7 +65,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 1. Geben Sie Ihre Abfrage ein und klicken Sie auf ![Submit prompt](/help/dsp/assets/submit-prompt.png "Submit prompt").
 
-   Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts).
+   Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts).
 
    Die Antwort enthält Inline-Zitate und unten eine **[!UICONTROL Documentation Sources]**. Es können auch Folgefragen und Vorschläge angezeigt werden.
 
@@ -72,13 +81,13 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 * Neben der [!UICONTROL Documentation Sources]:
 
-   * Klicken Sie für hilfreiche Antworten auf ![Daumen hoch](/help/dsp/assets/thumbs-up.png "Daumen hoch").
+  * Klicken Sie für hilfreiche Antworten auf ![Daumen hoch](/help/dsp/assets/thumbs-up.png "Daumen hoch").
 
-   * Klicken Sie bei nicht hilfreichen Antworten auf ![Daumen runter](/help/dsp/assets/thumbs-down.png "Daumen runter").
+  * Klicken Sie bei nicht hilfreichen Antworten auf ![Daumen runter](/help/dsp/assets/thumbs-down.png "Daumen runter").
 
 ## Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
-* **Klar und präzise sein.** Verwenden Sie vollständige Fragen („Wie abonniere ich ein On-Demand-Inventar?„), Aufgabensätze („Abonnieren eines On-Demand-Inventars„) oder Themensätze („On-Demand-Inventar„).
+* **Klar und konkret sein.** Verwenden Sie vollständige Fragen („Wie abonniere ich ein On-Demand-Inventar?„), Aufgabensätze („Abonnieren eines On-Demand-Inventars„) oder Themensätze („On-Demand-Inventar„).
 
 * **Benutzeroberflächenbegriffe abgleichen** wenn möglich für Produktfunktionen (wie „Kampagnen“ oder „Angebote„).
 

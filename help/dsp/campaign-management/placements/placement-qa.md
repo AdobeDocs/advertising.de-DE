@@ -3,22 +3,26 @@ title: Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bu
 description: Erfahren Sie, wie Sie wichtige Platzierungseinstellungen mithilfe von Tabellen stapelweise überprüfen und bearbeiten können.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-TQID: https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs
+TQID: 'https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 0%
-
 ---
-
 # Überprüfen und Bearbeiten von Platzierungseinstellungen mithilfe von Bulksheets
 
 Sie können die Einstellungen für eine oder mehrere Platzierungen oder für alle Platzierungen in einer Kampagne im XLSX-Format ([!DNL Microsoft Excel]-Tabelle) zur Überprüfung herunterladen. Verwenden Sie diese Funktion, um Details schnell zu überprüfen, wie etwa:
@@ -103,7 +107,7 @@ Sie können Einstellungen für Ihre Platzierungen und für die mit den Platzieru
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![ rechts ](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 

@@ -1,22 +1,26 @@
 ---
-title: Implementieren  [!DNL Microsoft Advertising]  Einkaufskampagnen
-description: Erfahren Sie mehr über den Workflow zum Einrichten von  [!DNL Microsoft Advertising] .
+title: Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen
+description: Erfahren Sie mehr über den Workflow zum Einrichten von [!DNL Microsoft Advertising].
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen
 
 Anzeigen in Shopping-Kampagnen verwenden Daten über Produkte in Ihrem vorhandenen [!DNL Microsoft Merchant Center]-Produkt-Feed anstelle von Keywords, um zu entscheiden, wie und wo Ihre Anzeigen angezeigt werden sollen.
@@ -27,7 +31,7 @@ Sie können steuern, welche Produkte mit Ihren Shopping-Anzeigen angezeigt werde
 
 ## Schritte zum Einrichten [!DNL Microsoft Advertising] Einkaufskampagnen
 
-Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)Inventar-Feed-Vorlagen[!DNL Microsoft Advertising], mithilfe von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) oder einzeln einrichten. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
+Sie können Shopping-Kampagnen [!DNL Microsoft Advertising] mithilfe von [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md), mithilfe von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) oder einzeln einrichten. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
 
 1. Richten Sie Ihr [!DNL Microsoft Merchant Center]-Konto ein und füllen Sie es mit Produktdaten.
 
@@ -35,7 +39,7 @@ Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-soc
 
 1. [Erstellen einer Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) im Shopping-Netzwerk.
 
-1. [Erstellen Sie innerhalb &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
+1. [Erstellen Sie innerhalb ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
 
    Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
@@ -45,7 +49,7 @@ Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-soc
 
    1. (Optional) [Erstellen von untergeordneten Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
-   1. Erstellen Sie [Produktanzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) mit [Promotion-Zeilen, die potenziell in jede Shopping-Anzeige &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) der Anzeigengruppe aufgenommen werden sollen.
+   1. Erstellen Sie [Produktanzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) mit [Promotion-Zeilen, die potenziell in jede Shopping-Anzeige ](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md) der Anzeigengruppe aufgenommen werden sollen.
 
       Microsoft Advertising generiert für jede Anzeige dynamisch die Anzeigenkopie und die Landingpage-URL.
 
@@ -57,7 +61,7 @@ Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-soc
 
    Alternativ können Sie die Tracking-URL zu den Produktdaten im [!DNL Microsoft Merchant Center]-Konto hinzufügen. Fügen Sie dazu die Tracking-URL zusammen mit dem Wert im Feld „link“ bzw. „mobile_link“ in eine benutzerdefinierte Spalte &quot;[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)&quot; im Produkt-Feed ein. Der Wert im Feld „bingads_redirect“ ersetzt die Werte in den Feldern „link“ und „mobile_link“. Mit dieser Methode generierte URLs enthalten keine Tracking-Parameter, die in den Such-, Social- und Commerce-Konto- oder Kampagneneinstellungen angegeben sind.
 
-1. Überwachen Sie die Leistung, [&#x200B; Sie die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) generieren.
+1. Überwachen Sie die Leistung, [ Sie die [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md) generieren.
 
 1. Bei Bedarf:
 

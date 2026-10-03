@@ -3,18 +3,21 @@ title: Erstellen und Bearbeiten von Kampagnendaten in großen Mengen mithilfe vo
 description: Erfahren Sie, wie Sie mit der Funktion zum Kopieren und Einfügen Kampagnendaten massenweise verwalten können.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Bearbeiten von Kampagnendaten in großen Mengen mithilfe von Kopieren und Einfügen
 
 Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
@@ -47,9 +50,9 @@ Mit dieser Funktion können Sie vorhandene Kampagnenobjekte (mit ID-Feldern) bea
 
    * Die eingefügten Daten müssen eine Kopfzeile und die erforderlichen Kampagnenobjektwerte enthalten. Weitere Informationen finden Sie in den erforderlichen Bulksheet-Spalten für [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Display Network](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) und [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). Die Spaltenreihenfolge spielt keine Rolle.
 
-      * Bei vorhandenen Objekten, die Sie bearbeiten möchten, müssen Sie alle relevanten ID-Spalten, Entitätsnamen und das zu bearbeitende Attribut einbeziehen. Die numerische ID für das Objekt nicht bearbeiten.
+     * Bei vorhandenen Objekten, die Sie bearbeiten möchten, müssen Sie alle relevanten ID-Spalten, Entitätsnamen und das zu bearbeitende Attribut einbeziehen. Die numerische ID für das Objekt nicht bearbeiten.
 
-      * Schließen Sie für neue Kampagnenobjekte alle relevanten Entitätsnamen und Attribute ein, jedoch keine Objekt-IDs (die automatisch generiert werden). Wenn Sie beispielsweise eine neue Anzeige erstellen, lassen Sie das Feld [!UICONTROL Ad ID] leer. Das Anzeigennetzwerk erstellt automatisch eine ID, wenn Sie das Objekt posten.
+     * Schließen Sie für neue Kampagnenobjekte alle relevanten Entitätsnamen und Attribute ein, jedoch keine Objekt-IDs (die automatisch generiert werden). Wenn Sie beispielsweise eine neue Anzeige erstellen, lassen Sie das Feld [!UICONTROL Ad ID] leer. Das Anzeigennetzwerk erstellt automatisch eine ID, wenn Sie das Objekt posten.
 
    * Der Wert in einer nicht erforderlichen Spalte kann null (leer) sein, aber jede Zeile muss dieselbe Anzahl tabulatorgetrennter Werte aufweisen.
 

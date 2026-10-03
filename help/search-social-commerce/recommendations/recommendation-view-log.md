@@ -1,22 +1,26 @@
 ---
 title: Empfehlungsprotokoll des Herausgebers für ein Konto anzeigen
-description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein - oder - [!DNL Google Ads]  angewendet  [!DNL Microsoft Advertising] .
+description: Erfahren Sie, wie Sie ein Protokoll jeder Empfehlung anzeigen, die für ein [!DNL Google Ads]- oder [!DNL Microsoft Advertising]-Konto angewendet wurde.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-TQID: https://experienceleague.adobe.com/0xxt5Qj5yNxayS5WKHdWQsXei3u2A4n0FpqZlNBDCOI
+TQID: 'https://experienceleague.adobe.com/0xxt5Qj5yNxayS5WKHdWQsXei3u2A4n0FpqZlNBDCOI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 128
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Protokoll der Publisher-Empfehlungen für ein Konto anzeigen
 
 *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*

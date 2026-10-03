@@ -3,24 +3,31 @@ title: Wie Attributionsregeln berechnet werden
 description: Erfahren Sie, wie Adobe Advertising die einzelnen Attributionsregeltypen berechnet.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+TQID: 'https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2707
+source-wordcount: '2767'
 ht-degree: 0%
-
 ---
-
 # Berechnen der Attributionsregeln für Adobe Advertising
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
@@ -33,15 +40,15 @@ Sie können an den folgenden Stellen auch eine Attributionsregel auswählen, um 
 
 * DSP
 
-   * Benutzerdefinierte Berichte
+  * Benutzerdefinierte Berichte
 
 * Suche, Social und Commerce
 
-   * Berichte
+  * Berichte
 
-   * Standardmäßige und benutzerdefinierte Ansichten
+  * Standardmäßige und benutzerdefinierte Ansichten
 
-   * (Einige Benutzerrollen) Simulationen auf Portfolio-Ebene.
+  * (Einige Benutzerrollen) Simulationen auf Portfolio-Ebene.
 
 >[!NOTE]
 >
@@ -52,9 +59,9 @@ Sie können an den folgenden Stellen auch eine Attributionsregel auswählen, um 
 
 ## Letztes Ereignis (Standard)
 
-ordnet die Konversion dem letzten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#c-d), falls keine bezahlten Klicks aufgetreten sind, der letzten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#i-j).
+ordnet die Konversion dem letzten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#c-d), falls keine bezahlten Klicks aufgetreten sind, der letzten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#i-j).
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 ![Prozentsatz der Attribution des letzten Ereignisses](/help/search-social-commerce/assets/attribution-percent-last-event.png "Prozentsatz der Attribution des letzten Ereignisses")
 
@@ -74,7 +81,7 @@ Die Konversion wird Click 3 in Höhe von 120 USD zugeordnet.
 
 Ereignispfad: Impression 1, Klick 1, Impression 2, Konversion von 120 USD
 
-Die Konversion wird Click 1 in Höhe von 120 USD zugeordnet.
+Die Konversion wird Klick 1 in Höhe von 120 USD zugeordnet.
 
 ### Beispiel mit allen Impressionen
 
@@ -84,9 +91,9 @@ Ereignispfad: Impression 1, Impression 2, Impression 3, Konversion von 120 USD
 
 Die Konversion wird Impression 3 zugeordnet. Da es sich bei der Konversion um eine Durchsicht handelt, wird die im Abschnitt „Konversionszuordnung“ der Berichtseinstellungen ausgewählte Durchsichts-Bewertungsmethode angewendet:
 
-* Wenn der Berichtsparameter eine gewichtete View-Through-Gewichtung angibt, wird diese Gewichtung auf die View-Through angewendet. Wenn beispielsweise das Durchsichtsgewicht des Werbetreibenden 40 % beträgt, dann sind 120 USD x 40 % = 48 USD, sodass 48 USD Impression 3 zugeordnet werden.
+* Wenn der Berichtsparameter eine gewichtete View-Through-Gewichtung angibt, wird diese Gewichtung auf die View-Through angewendet. Wenn die Durchsichtsgewichtung des Werbetreibenden beispielsweise 40 % beträgt, dann ist 120 USD x 40 % = 48 USD, sodass 48 USD Impression 3 zugeordnet werden.
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Durchsicht angewendet, und die vollen 120 USD werden Impression 3 zugeordnet.
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Durchsicht angewendet, und die vollständige 120-Grad-USD wird Impression 3 zugeordnet.
 
 +++
 
@@ -94,9 +101,9 @@ Die Konversion wird Impression 3 zugeordnet. Da es sich bei der Konversion um ei
 
 ## Erstes Ereignis
 
-ordnet die Konversion dem ersten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#c-d), oder, falls keine bezahlten Klicks aufgetreten sind, der ersten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden zu](/help/search-social-commerce/glossary.md#i-j). Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
+ordnet die Konversion dem ersten bezahlten Klick in der Reihe innerhalb des [Klick-Lookback-Fensters des Werbetreibenden ](/help/search-social-commerce/glossary.md#c-d), oder, falls keine bezahlten Klicks aufgetreten sind, der ersten Impression innerhalb des [Impression-Lookback-Fensters des Werbetreibenden zu](/help/search-social-commerce/glossary.md#i-j). Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 ![Prozentsätze der ersten Ereigniszuordnung](/help/search-social-commerce/assets/attribution-percent-first-event.png "Prozentsätze der ersten Ereigniszuordnung")
 
@@ -106,9 +113,9 @@ Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-T
 
 ### Beispiel mit allen Klicks
 
-Ereignispfad: Klicken Sie 1, Klicken Sie 2, Klicken Sie 3, Konversion von 120 USD
+Ereignispfad: Klicken Sie auf 1, klicken Sie auf 2, klicken Sie auf 3, Konvertierung von 120 USD
 
-Die Konversion wird Click 1 in Höhe von 120 USD zugeordnet.
+Die Konversion wird Klick 1 in Höhe von 120 USD zugeordnet.
 
 ### Beispiel mit Impressionen und Klicks
 
@@ -116,7 +123,7 @@ Die Konversion wird Click 1 in Höhe von 120 USD zugeordnet.
 
 Ereignispfad: Impression 1, Klick 1, Impression 2, Konversion von 120 USD
 
-Die Konversion wird Click 1 in Höhe von 120 USD zugeordnet.
+Die Konversion wird Klick 1 in Höhe von 120 USD zugeordnet.
 
 ### Beispiel mit allen Impressionen
 
@@ -127,9 +134,9 @@ Ereignispfad: Impression 1, Impression 2, Impression 3, Konversion von 120 USD
 Die Konversion wird Impression 1 zugeordnet. Da es sich bei der Konversion um eine Durchsicht handelt, wird bei der Konversion „Kampagnen anzeigen“ die Durchsichts-Auswertungsmethode ausgewählt
 Der Abschnitt „Attribution“ der Berichteinstellungen wird angewendet:
 
-* Wenn der Berichtsparameter eine gewichtete View-Through-Gewichtung angibt, wird diese Gewichtung auf die View-Through angewendet. Wenn beispielsweise das Durchsichtsgewicht des Werbetreibenden 40 % beträgt, dann sind 120 x 40 % = 48 USD, sodass 48 USD Impression 1 zugeordnet werden.
+* Wenn der Berichtsparameter eine gewichtete View-Through-Gewichtung angibt, wird diese Gewichtung auf die View-Through angewendet. Wenn die Durchsichtsgewichtung des Werbetreibenden beispielsweise 40 % beträgt, dann ist 120 x 40 % = 48 USD, sodass 48 USD Impression 1 zugeordnet werden.
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Durchsicht angewendet, und die vollen 120 USD werden Impression 1 zugeordnet.
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Durchsicht angewendet, und die vollständige 120-Grad-USD wird Impression 1 zugeordnet.
 
 +++
 
@@ -137,9 +144,9 @@ Der Abschnitt „Attribution“ der Berichteinstellungen wird angewendet:
 
 ## Erstes Ereignis gewichten mehr
 
-ordnet die Konversion allen Ereignissen der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Advertisers aufgetreten sind, gewichtet jedoch das erste Ereignis am meisten und die folgenden Ereignisse wurden weniger gewichtet. Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
+ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Advertisers aufgetreten sind, gewichtet jedoch das erste Ereignis am meisten und die folgenden Ereignisse sukzessive weniger.Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -155,9 +162,9 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 ### Beispiel mit allen Klicks
 
-Ereignispfad: Klicken Sie 1, Klicken Sie 2, Klicken Sie 3, Konversion von 120 USD
+Ereignispfad: Klicken Sie auf 1, klicken Sie auf 2, klicken Sie auf 3, Konvertierung von 120 USD
 
-Attribution: Klick 1 = 60 USD, Klick 2 = 40 USD, Klick 3 = 20 USD (insgesamt 120 USD)
+Attribution: Klick 1 = 60 USD, Klick 2 = 40 USD, Klick 3 = 20 USD (120 USD insgesamt)
 
 ### Beispiele mit sowohl Impressionen als auch Klicks
 
@@ -175,7 +182,7 @@ Attribution: Impression 1 = 8 USD, Klick 1 = 72 USD, Impression 2 = 4 USD, Klick
 
 Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
-Attribution: Impression 1 = 0 USD, Klick 1 = 80 USD, Impression 2 = 0 USD, Klick 2 = 40 USD (insgesamt 120 USD)
+Attribution: Impression 1 = 0 USD, Click 1 = 80 USD, Impression 2 = 0 USD, Click 2 = 40 USD (120 USD insgesamt)
 
 ### Beispiel mit allen Impressionen
 
@@ -187,7 +194,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 * Wenn der Berichtsparameter eine gewichtete Durchsichtsgewichtung angegeben hat, wird diese Gewichtung auf die Impressionswerte angewendet. Wenn die Durchsichtsgewichtung beispielsweise 40 % beträgt, dann ist Impression 1 = 24 USD, Impression 2 = 16 USD, Impression 3 = 8 USD (insgesamt 48 USD)
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Impression angewendet und die vollen 120 USD werden auf die drei Impressionen aufgeteilt: Impression 1 = 60 USD, Impression 2 = 40 USD, Impression 3 = 20 USD (insgesamt 120 USD)
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Impression angewendet und die vollständige 120 USD wird auf die drei Impressionen aufgeteilt: Impression 1 = 60 USD, Impression 2 = 40 USD, Impression 3 = 20 USD (120 USD insgesamt)
 
 +++
 
@@ -199,9 +206,9 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 >
 >Diese Regel ist nur für Ereignisse auf einzelnen Geräten verfügbar.
 
-Attributiert die Konversion zu gleichen Teilen jedem Ereignis in der Reihe, das innerhalb des (Klick[Lookback-Fensters und &#x200B;](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback-Fensters[&#x200B; des Werbetreibenden aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j).
+Attributiert die Konversion zu gleichen Teilen jedem Ereignis in der Reihe, das innerhalb des (Klick[Lookback-Fensters und ](/help/search-social-commerce/glossary.md#c-d)Impression-Lookback-Fensters[ des Werbetreibenden aufgetreten ](/help/search-social-commerce/glossary.md#i-j).
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -217,11 +224,11 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 ### Beispiel mit allen Klicks
 
-Ereignispfad: Klicken Sie 1, Klicken Sie 2, Klicken Sie 3, Konversion von 120 USD
+Ereignispfad: Klicken Sie auf 1, klicken Sie auf 2, klicken Sie auf 3, Konversion von 120 USD
 
 Keine Impressions führten zur Konversion, daher ist die Gewichtung der Impression-Überschreibung nicht anwendbar, und die Konversion wird zu gleichen Teilen auf die drei Klicks aufgeteilt:
 
-Attribution: Klick 1 = 40 USD, Klick 2 = 40 USD, Klick 3 = 40 USD (insgesamt 120 USD)
+Attribution: Klick 1 = 40 USD, Klick 2 = 40 USD, Klick 3 = 40 USD (120 USD insgesamt)
 
 ### Beispiele mit sowohl Impressionen als auch Klicks
 
@@ -251,7 +258,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 * Wenn der Berichtsparameter eine gewichtete Durchsichtsgewichtung angegeben hat, wird diese Gewichtung auf die Impressionswerte angewendet. Wenn die Durchsichtsgewichtung beispielsweise 40 % beträgt, dann ist Impression 1 = 16 USD, Impression 2 = 16 USD, Impression 3 = 16 USD (insgesamt 48 USD)
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Impression angewendet und die vollen 120 USD werden auf die drei Impressionen aufgeteilt: Impression 1 = 40 USD, Impression 2 = 40 USD, Impression 3 = 40 USD (insgesamt 120 USD)
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird keine Durchsichtsgewichtung auf die Impression angewendet und die vollständige 120 USD wird auf die drei Impressionen aufgeteilt: Impression 1 = 40 USD, Impression 2 = 40 USD, Impression 3 = 40 USD (120 USD insgesamt)
 
 +++
 
@@ -261,7 +268,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Werbetreibenden stattfanden, gewichtet jedoch am häufigsten das letzte Ereignis und hat nacheinander weniger Gewicht auf die vorherigen Ereignisse.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -277,9 +284,9 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 ### Beispiel mit allen Klicks
 
-Ereignispfad: Klicken Sie 1, Klicken Sie 2, Klicken Sie 3, Konversion von 120 USD
+Ereignispfad: Klicken Sie auf 1, klicken Sie auf 2, klicken Sie auf 3, Konvertierung von 120 USD
 
-Attribution: Klick 3 = 60 USD, Klick 2 = 40 USD, Klick 1 = 20 USD (insgesamt 120 USD)
+Attribution: Klick 3 = 60 USD, Klick 2 = 40 USD, Klick 1 = 20 USD (120 USD insgesamt)
 
 ### Beispiele mit sowohl Impressionen als auch Klicks
 
@@ -297,7 +304,7 @@ Attribution: Impression 1 = 4 USD, Klick 1 = 36 USD, Impression 2 = 8 USD, Klick
 
 Da die Ereignisserie sowohl Impressionen als auch Klicks enthält, werden die Impressionen ignoriert.
 
-Attribution: Impression 1 = 0 USD, Klick 1 = 40 USD, Impression 2 = 0 USD, Klick 2 = 80 USD (insgesamt 120 USD)
+Attribution: Impression 1 = 0 USD, Klick 1 = 40 USD, Impression 2 = 0 USD, Klick 2 = 80 USD (120 USD insgesamt)
 
 ### Beispiel mit allen Impressionen
 
@@ -309,7 +316,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 * Wenn der Berichtsparameter eine gewichtete Durchsichtsgewichtung angegeben hat, wird diese Gewichtung auf die Impressionswerte angewendet. Wenn die Durchsichtsgewichtung beispielsweise 40 % beträgt, multiplizieren Sie jeden Wert im „Beispiel mit allen Klicks“ mit 40 %: Impression 3 = 24 USD, Impression 2 = 16 USD, Impression 1 = 8 USD (insgesamt 48 USD)
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, werden die ganzen 120 USD auf die Impressionen aufgeteilt: Impression 3 = 60 USD, Impression 2 = 40 USD, Impression 1 = 20 USD (insgesamt 120 USD)
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird die vollständige 120 USD auf die Impressionen aufgeteilt: Impression 3 = 60 USD, Impression 2 = 40 USD, Impression 1 = 20 USD (insgesamt 120 USD)
 
 +++
 
@@ -319,7 +326,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 ordnet die Konversion allen Ereignissen in der Reihe zu, die im [Klick-Lookback-Fenster](/help/search-social-commerce/glossary.md#c-d) und [Impression-Lookback-Fenster](/help/search-social-commerce/glossary.md#i-j) des Advertisers aufgetreten sind, gewichtet jedoch am meisten das erste und das letzte Ereignis, wobei den Ereignissen in der Mitte des Konversionspfads sukzessive weniger Gewicht zugewiesen wird.
 
-Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden &#x200B;](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
+Wenn der Konversion nur Impressions vorausgehen, wird die Konversion als *View-Through* betrachtet, die entweder gemäß der [View-Through-Gewichtungseinstellung des Werbetreibenden ](/help/search-social-commerce/glossary.md#uv) — wie angegeben — gemäß der im Bericht, in der Ansicht oder in den benutzerdefinierten Simulationsparametern angegebenen View-Through-Bewertungsmethode gewichtet wird.
 
 Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, werden die Impressions von verschiedenen Adobe Advertising-Produkten unterschiedlich behandelt:
 
@@ -335,7 +342,7 @@ Wenn der Konversionspfad sowohl bezahlte Klicks als auch Impressions enthält, w
 
 ### Beispiel mit allen Klicks
 
-Ereignispfad: Klicken Sie 1, Klicken Sie 2, Klicken Sie 3, Klicken 4, Konversion von 120 USD
+Ereignispfad: Klicken Sie auf 1, klicken Sie auf 2, klicken Sie auf 3, klicken Sie auf 4, Konvertierung von 120 USD
 
 Attribution: Klick 1 = 36 USD, Klick 2 = 24 USD, Klick 3 = 24 USD, Klick 4 = 36 USD (insgesamt 120 USD)
 
@@ -367,7 +374,7 @@ Da es sich bei der Konversion um eine Durchsicht handelt, wird die Durchsichts-B
 
 * Wenn der Berichtsparameter eine gewichtete Durchsichtsgewichtung angegeben hat, wird diese Gewichtung auf die Impressionswerte angewendet. Beispiel: Wenn die Durchsichtsgewichtung 40 % beträgt, klicken Sie auf 1 = 14,40 USD, klicken Sie auf 2 = 9,60 USD, klicken Sie auf 3 = 9,60 USD, klicken Sie auf 4 = 14,40 USD (insgesamt 48 USD)
 
-* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird der volle 120 USD auf die Impressionen aufgeteilt: Klick 1 = 36 USD, Klick 2 = 24 USD, Klick 3 = 24 USD, Klick 4 = 36 USD (insgesamt 120 USD)
+* Wenn der Berichtsparameter die Verwendung von Rohwerten für Durchsichten angibt, wird die vollständige 120 USD auf die Impressionen aufgeteilt: Klicken Sie 1 = 36 USD, Klicken 2 = 24 USD, Klicken 3 = 24 USD, Klicken 4 = 36 USD (insgesamt 120 USD)
 
 +++
 

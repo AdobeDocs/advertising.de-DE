@@ -4,13 +4,17 @@ description: Erfahren Sie, wie Sie mit dem KI-unterstützten Zielgruppen-Agenten
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI
 
 *Beta-Funktion*
@@ -57,11 +61,11 @@ Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierun
 
 1. Erstellen Sie die Zielgruppe:
 
-   Die Option KI ist die Standardeinstellung. Um [&#x200B; Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
+   Die Option KI ist die Standardeinstellung. Um [ Zielgruppe selbst zusammenzustellen](/help/dsp/audiences/reusable-audience-create.md) klicken Sie unten auf die Schaltfläche „In den manuellen Modus wechseln“.
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
       Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
 
@@ -79,7 +83,7 @@ Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierun
 
    >[!NOTE]
    >
-   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
+   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
@@ -89,11 +93,11 @@ Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierun
 
 * Beschreiben Sie die Zielgruppe in einer klaren, beschreibenden Sprache.
 
-   * Sie können entweder ganze Sätze oder nur eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
+  * Sie können entweder ganze Sätze oder nur eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
 
-   * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
+  * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-   * Der Zielgruppenagent erkennt die häufigsten Synonyme.
+  * Der Zielgruppenagent erkennt die häufigsten Synonyme.
 
 * Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Je mehr Details Sie angeben, desto größer ist die Chance, dass Sie die Ergebnisse erhalten, die Ihren Anforderungen entsprechen.
 
@@ -107,7 +111,7 @@ Sie können Ihre Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierun
 
   Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
 <!--
 Consider starting by asking for what you should include.

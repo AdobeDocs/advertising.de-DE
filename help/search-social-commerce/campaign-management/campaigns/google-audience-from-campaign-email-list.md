@@ -1,22 +1,26 @@
 ---
-title: Erstellen einer  [!DNL Google Ads] -Zielgruppe aus einer Adobe Campaign-E-Mail-Liste
-description: Erfahren Sie, wie Sie aus  [!DNL Google Ads]  bestehenden Adobe Campaign-E-Mail-Liste eine Zielgruppe für den Kundenabgleich erstellen.
+title: Erstellen einer [!DNL Google Ads] Zielgruppe für den Kundenabgleich über eine Adobe Campaign-E-Mail-Liste
+description: Erfahren Sie, wie Sie aus einer bestehenden Adobe Campaign-E-Mail-Liste eine Zielgruppe für den [!DNL Google Ads]-Kundenabgleich erstellen.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer [!DNL Google Ads] Zielgruppe für den Kundenabgleich über eine Adobe Campaign-E-Mail-Liste
 
 *[!DNL Google Ads]Konten, die nur für den Kundenabgleich infrage kommen*
@@ -29,7 +33,7 @@ Dazu benötigen Sie Zugriff auf Ihre [!DNL Campaign]-Instanz und eine XML-Datei 
 
 1. Richten Sie [!DNL Campaign] den Versand der E-Mail-Liste an Advertising Search, Social und Commerce ein:
 
-   1. Erstellen Sie ein [externes Konto](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=de) um Ihr über Search, Social und Commerce bereitgestelltes SFTP-Konto zu verknüpfen:
+   1. Erstellen Sie ein [externes Konto](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) um Ihr über Search, Social und Commerce bereitgestelltes SFTP-Konto zu verknüpfen:
 
       1. Navigieren Sie im linken Menü zu **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 
@@ -99,11 +103,11 @@ Dazu benötigen Sie Zugriff auf Ihre [!DNL Campaign]-Instanz und eine XML-Datei 
 
          * (Optional) Geben Sie auf der Registerkarte **[!UICONTROL Schedule]** einen anderen Zeitplan für die Dateiübertragung an.
 
-           Standardmäßig wird der Workflow um 0:00 Uhr (:00) ausgeführt. Dadurch wird sichergestellt, dass alle Datensätze verarbeitet werden. Um die Latenz zu minimieren, planen Sie die Ausführung des Workflows auf maximal 18 :00.
+           Standardmäßig wird der Workflow um 0:00 Uhr (Mitternacht) ausgeführt, wodurch sichergestellt wird, dass alle Datensätze verarbeitet werden. Um die Latenz zu minimieren, planen Sie die Ausführung des Workflows bis spätestens 18:00 Uhr.
 
          * Klicken Sie auf **[!UICONTROL Ok]**.
 
-Search, Social und Commerce überprüft das Verzeichnis alle 30 Minuten (bei NN:30 und NN:59 in der Zeitzone des Werbetreibenden) und verschiebt alle gefundenen Dateien an einen anderen Speicherort. Anschließend erstellt automatisch eine Zielgruppe aus den Daten und pusht sie um 22 :00 (22 Uhr) an Google. Search, Social und Commerce sucht weiterhin alle 30 Minuten nach Updates (Ergänzungen und Subtraktionen) in der E-Mail-Liste und aktualisiert die Audience auf [!DNL Google Ads] entsprechend um 22 :00 täglich.
+Search, Social und Commerce überprüft das Verzeichnis alle 30 Minuten (um NN:30 und NN:59 in der Zeitzone des Werbetreibenden) und verschiebt alle gefundenen Dateien an einen anderen Speicherort. Anschließend erstellt er automatisch eine Zielgruppe aus den Daten und pusht sie um 22:00 Uhr (22:00 Uhr) an Google. Search, Social und Commerce sucht weiterhin alle 30 Minuten nach Updates (Ergänzungen und Subtraktionen) in der E-Mail-Liste und aktualisiert die Audience auf [!DNL Google Ads] entsprechend täglich um 22:00 Uhr.
 
 >[!NOTE]
 >

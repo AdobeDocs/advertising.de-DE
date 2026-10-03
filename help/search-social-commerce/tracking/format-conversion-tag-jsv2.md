@@ -3,20 +3,23 @@ title: Format der JavaScript-Konversionsverfolgungstags, Version 2
 description: Verweisen Sie auf das Format von JavaScript-Konversionsverfolgungstags Version 2.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro
+TQID: 'https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Format der JavaScript-Konversionsverfolgungstags, Version 2
 
 Das folgende Format ist für Sites, die HTTPS verwenden. Bei Sites, die HTTP verwenden, sollten die URLs mit „http“ beginnen.
@@ -49,7 +52,7 @@ Dabei gilt:
 
 * `<ef-userid>` ist eine eindeutige numerische Benutzer-ID, die Search, Social und Commerce dem Advertiser zuweist.
 
-* `<ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerdefinierte Segmente zur Verfolgung von Benutzern verfügt, die mit universellen ID5-IDs verknüpft &#x200B;](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` ist die ID5-Partner-ID des Unternehmens, die das Unternehmen nach Unterzeichnung einer Vereinbarung mit [!DNL ID5] erhält. Schließen Sie diese Variable nur ein, wenn das Unternehmen DSP verwendet und über [benutzerdefinierte Segmente zur Verfolgung von Benutzern verfügt, die mit universellen ID5-IDs verknüpft ](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` ist die Konvertierung in „Track“. Wenn Sie z. B. eine Konversion mit dem Namen „Registrierung“ verfolgen, enthält das Tag den Parameter `ev_registration=<registration>` und Sie müssen den tatsächlichen Umsatz für jede Transaktion (z. B. `ev_registration=1`) übergeben. Wenn mehrere Eigenschaften verfolgt werden, werden sie durch ein kaufmännisches Und-Zeichen (`&`) verbunden, z. B. `ev_registration=<registration>&ev_sale=<sale>` (z. B. `ev_registration=1&ev_sale=12.99`). **Hinweis:** Der Eigenschaftsname darf keine Sonderzeichen enthalten.
 

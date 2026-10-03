@@ -4,23 +4,28 @@ description: Erfahren Sie, wie Sie in der neuen Benutzeroberfläche für Suche, 
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: '831'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei
 
-Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) &#x200B;](about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
+Sie können Bulksheet-Dateien, korrigierte Fehlerdateien für die Landingpage-Validierung und andere korrigierte Fehlerdateien von Ihrem Gerät oder Netzwerk für (unterstützte [-Netzwerke) ](about.md#bulksheet-functionality-by-network). Alle benutzerdefinierten Spalten in der Datei werden beim Hochladen der Datei gelöscht.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Bulksheets]**.
 
@@ -44,7 +49,7 @@ Wenn die Aufgabe beginnt, wird die Datei in der [!UICONTROL Bulksheets] angezeig
 | [!UICONTROL Single Account] | Ob die Datei für ein Konto gilt: *[!UICONTROL Yes]* (für ein Konto) oder *[!UICONTROL No]* (für mehrere Konten). |
 | [!UICONTROL Account (Search Engine)] | (Wenn die Datei für ein einzelnes Konto gilt) Das Konto, in das die Daten hochgeladen werden sollen. |
 | [!UICONTROL Search Engine] | (Wenn die Datei für mehrere Konten gilt) Das Anzeigennetzwerk, in das die Daten hochgeladen werden sollen.<br><br>**Hinweis:** Angebotsänderungen für Schlüsselwörter in optimierten Portfolios werden nicht mit Bulksheets mit mehreren Konten unterstützt. |
-| [!UICONTROL Scheduling] | Wann oder ob die Datei an das angegebene Anzeigennetzwerk gesendet werden soll:<ul><li>*[!UICONTROL Post to search engine now]* (Standard): Beginnt sofort mit der Veröffentlichung der Daten.</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:* Beginnt mit dem Posten der Daten zum angegebenen Datum und zur angegebenen Uhrzeit; der Standardwert ist morgen um :00 Uhr (2 Uhr). Um das Datum zu ändern, geben Sie ein Datum im Format TT/MM/JJJJ ein oder klicken Sie auf das Kalendersymbol, um den Kalender zu öffnen und ein Datum auszuwählen. Um die Zeit zu ändern, wählen Sie eine Zeit (in 15-Minuten-Intervallen) aus der Liste aus.</li><li>*[!UICONTROL Preview only]:* Lädt die Datei in Search, Social und Commerce hoch, ohne die Daten an das Werbenetzwerk zu senden. Sie können die Datei später noch veröffentlichen. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor; Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen.</li></ul> |
+| [!UICONTROL Scheduling] | Wann oder ob die Datei an das angegebene Anzeigennetzwerk gesendet werden soll:<ul><li>*[!UICONTROL Post to search engine now]* (Standard): Beginnt sofort mit der Veröffentlichung der Daten.</li><li>*[!UICONTROL Post to search engine on \[specified date\] \[specified time\]]:* Beginnt mit der Veröffentlichung der Daten zum angegebenen Datum und zur angegebenen Uhrzeit. Der Standardwert ist morgen um 02:00 Uhr (2 Uhr). Um das Datum zu ändern, geben Sie ein Datum im Format TT/MM/JJJJ ein oder klicken Sie auf das Kalendersymbol, um den Kalender zu öffnen und ein Datum auszuwählen. Um die Zeit zu ändern, wählen Sie eine Zeit (in 15-Minuten-Intervallen) aus der Liste aus.</li><li>*[!UICONTROL Preview only]:* Lädt die Datei in Search, Social und Commerce hoch, ohne die Daten an das Werbenetzwerk zu senden. Sie können die Datei später noch veröffentlichen. Wenn die Bulksheet-Datei größer als 10 MB, aber kleiner als 2 GB ist, liegt die Datei im ZIP-Format vor; Sie müssen die Datei nicht entpacken, um sie zu veröffentlichen.</li></ul> |
 | [!UICONTROL Generate Tracking URLs] | Ob Tracking-Vorlagen und Landingpage-Suffixe (für entsprechende Werbenetzwerke) in Konten mit Tracking-Vorlagen oder Ziel-URLs mit eingebetteten Tracking-Codes in Konten mit Ziel-URLs aufgenommen werden sollen, für alle Keywords, Anzeigen, Platzierungen, Sitelinks und [!DNL Google Ads] Produktgruppen in der Veröffentlichung: *[!UICONTROL Yes]* (Standard) oder *[!UICONTROL No]*. Es spielt keine Rolle, ob sich die Gebotseinheiten in einem Portfolio befinden.<br><br>Wenn Sie *[!UICONTROL Yes]* auswählen, werden die URLs gemäß den Parametern im Abschnitt [!UICONTROL Tracking Methods] der entsprechenden Konto- oder Kampagneneinstellungen generiert. Wenn Tracking-URLs vorhanden sind, werden sie standardmäßig erst dann neu generiert, wenn neue benötigt werden (z. B. wenn sich der Schlüsselworttyp, der Anzeigentext oder die Tracking-Parameter für die entsprechenden Konten geändert haben).<br><br>Wenn Sie &quot;*[!UICONTROL No]*&quot; auswählen, können Sie Tracking-URLs auch später noch generieren, indem Sie die hochgeladene Datei manuell posten.<br><br>**Hinweis:** Wenn der Werbetreibende Adobe Advertising-Konversionstracking verwendet und sich die Basis-URL geändert hat, müssen Sie neue Tracking-URLs generieren, es sei denn, das Konto ist so konfiguriert, dass Tracking-URLs automatisch generiert und hochgeladen werden. |
 | [!UICONTROL Replace Media Optimizer Tracking] | (Verfügbar, wenn [!UICONTROL Generate Tracking URLs] *[!UICONTROL Yes]* ist) Ersetzt jedes vorhandene Adobe Advertising-Tracking in den URLs der hochgeladenen Datei durch das neu generierte Tracking. |
 | [!UICONTROL Enable budget changes on optimized campaigns] | Ermöglicht Budgetänderungen für Kampagnen in optimierten Portfolios auf der Grundlage von veröffentlichten Daten. Standardmäßig ist diese Option nicht ausgewählt. Wenn Sie diese Option auswählen, gelten alle angegebenen Änderungen am Kampagnenbudget, bis die Optimierungsfunktion bestimmt, dass das Budget neu zugewiesen werden soll (normalerweise beim nächsten Gebotszyklus). <br><br>**Hinweis:** Alle Budgetänderungen, die sich aus den veröffentlichten Daten für Kampagnen in nicht optimierten Portfolios ergeben, treten beim Veröffentlichen der Datei auf. Änderungen werden am nächsten Tag in den Ansichten der Kampagnenverwaltung angezeigt. |
@@ -52,7 +57,7 @@ Wenn die Aufgabe beginnt, wird die Datei in der [!UICONTROL Bulksheets] angezeig
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
->* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)

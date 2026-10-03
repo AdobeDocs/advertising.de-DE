@@ -3,18 +3,21 @@ title: Das Adobe Advertising-Konversionszuordnungs-Tag
 description: Erfahren Sie mehr über das JavaScript-basierte Konversionszuordnungs-Tag für ITP 2.2, mit dem Adobe Advertising ein Konversionsereignis verfolgen kann, das auf einer anderen Seite als der Landingpage auftritt.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Das Adobe Advertising JavaScript-Konversionszuordnungs-Tag
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
@@ -27,7 +30,7 @@ So verwenden Sie das Konversionszuordnungs-Tag:
 
 1. [Stellen Sie das Konversionszuordnungs-Tag bereit](#deploy-conversion-mapping-tag).
 
-1. Wenn Ihr Unternehmen mehrere Organisations-IDs für den Adobe Experience Cloud Identity Service (früher IMS-Organisations-IDs genannt) verwendet, [aktualisieren Sie Ihre Konversions-Tags](#update-conversion-tags) um die Organisations-ID aufzunehmen.
+1. Wenn Ihr Unternehmen mehrere Organisations-IDs von Adobe Experience Cloud Identity Service (ehemals IMS-Organisations-IDs genannt) verwendet, [ Sie „Konversions-Tags aktualisieren](#update-conversion-tags) um die Organisations-ID aufzunehmen.
 
 1. [Validieren Sie die Tag-Bereitstellung](#validate-conversion-mapping).
 
@@ -49,9 +52,9 @@ So verwenden Sie das Konversionszuordnungs-Tag:
 
   Dabei gilt:
 
-   * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
+  * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
 
-   * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
+  * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
 * Wenn Sie ein Tag-Management-System verwenden, das das Hinzufügen der `imsorgid` Variable zum Skript-Tag nicht unterstützt, verwenden Sie stattdessen den folgenden Code:
 
@@ -67,22 +70,22 @@ So verwenden Sie das Konversionszuordnungs-Tag:
 
   wobei Sie `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto ersetzen.
 
-   * Wenn Ihr Unternehmen mehrere Organisations-IDs verwendet:
+  * Wenn Ihr Unternehmen mehrere Organisations-IDs verwendet:
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     Dabei gilt:
+    Dabei gilt:
 
-      * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
+    * Sie ersetzen den Wert `{xxxxxx@AdobeOrg}` durch die Organisations-ID, für die die Konversionen der Seite verfolgt werden. Verwenden Sie dieselbe Organisations-ID für alle Konversionsseiten.
 
-      * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
+    * Sie ersetzen `{AMO User ID}` durch die eindeutige Benutzer-ID für Ihr Search-, Social- und Commerce-Konto.
 
 Wenn Sie den Wert Ihrer Organisations-ID oder Ihrer Benutzer-ID für Search, Social und Commerce nicht kennen, wenden Sie sich an Ihr Adobe Account Team.
 

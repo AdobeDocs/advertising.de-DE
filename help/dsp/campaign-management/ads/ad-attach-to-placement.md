@@ -3,22 +3,26 @@ title: Hinzufügen und Entfernen von Anzeigen aus Platzierungen
 description: Erfahren Sie, wie Sie Anzeigen an Platzierungen anhängen und Anzeigen aus Platzierungen entfernen können.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen und Entfernen von Anzeigen aus Platzierungen
 
 Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
@@ -59,27 +63,27 @@ Sie können Anzeigen an Platzierungen anhängen und aus ihnen entfernen.
 
    * So erstellen Sie eine neue Platzierung und fügen die Anzeige hinzu:
 
-      1. Klicken Sie auf **[!UICONTROL Create a New Placement]**.
+     1. Klicken Sie auf **[!UICONTROL Create a New Placement]**.
 
-      1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
+     1. Geben Sie die [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md) ein und klicken Sie dann auf **[!UICONTROL Create Placement]**.
 
-         Der Platzierungstyp wird durch den Anzeigentyp bestimmt.
+        Der Platzierungstyp wird durch den Anzeigentyp bestimmt.
 
-      1. Klicken Sie auf **[!UICONTROL Attach ad]**.
+     1. Klicken Sie auf **[!UICONTROL Attach ad]**.
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeige, die der Platzierung angehängt werden soll.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Anzeige, die der Platzierung angehängt werden soll.
 
-      1. Klicken Sie auf **[!UICONTROL Attach Selected Ads]**.
+     1. Klicken Sie auf **[!UICONTROL Attach Selected Ads]**.
 
    * So fügen Sie die Anzeige einer vorhandenen Platzierung hinzu:
 
-      1. Klicken Sie auf **[!UICONTROL Select a Placement].**
+     1. Klicken Sie auf **[!UICONTROL Select a Placement].**
 
-      1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
+     1. Klicken Sie neben dem Platzierungsnamen auf **[!UICONTROL Select].**
 
-      1. (Optional) Klicken Sie für jede zusätzliche Platzierung auf **[!UICONTROL Attach To Another Placement]** und wiederholen Sie dann die vorherigen Schritte.
+     1. (Optional) Klicken Sie für jede zusätzliche Platzierung auf **[!UICONTROL Attach To Another Placement]** und wiederholen Sie dann die vorherigen Schritte.
 
-      1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
+     1. Klicken Sie auf **[!UICONTROL I'm done for now]**.
 
 ## Entfernen von Anzeigen aus Platzierungen aus der [!UICONTROL Placements] {#remove-ads-placement}
 

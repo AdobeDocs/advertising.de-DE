@@ -1,22 +1,26 @@
 ---
-title: Upload-Konversionsmetriken für Suche, Social und Commerce [!DNL Google Ads]
-description: Erfahren Sie, wie Sie Konversionsmetriken für Suche, Social und Commerce-Tracking in hochladen [!DNL Google Ads].
+title: Search-, Social- und Commerce-Tracking-Konversionsmetriken in [!DNL Google Ads] hochladen
+description: Erfahren Sie, wie Sie Konversionsmetriken für Suche, Social Media und Commerce in [!DNL Google Ads] hochladen.
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8
+TQID: 'https://experienceleague.adobe.com/ayxUfDgkrnPz0s-pFAdkmvYy94Il5szQHl6lYg8DpF8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '216'
 ht-degree: 0%
-
 ---
-
 # Search-, Social- und Commerce-Tracking-Konversionsmetriken in [!DNL Google Ads] hochladen
 
 *Nur Werbetreibende mit [!DNL Google Ads]-Konten und Adobe Advertising-Konversionsverfolgung*

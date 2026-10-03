@@ -3,21 +3,26 @@ title: Glossar
 description: Siehe Definitionen von Schlüsselbegriffen.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # Glossar {#glossary}
 
 ## A-B {#a-b}
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 **Anzeigenvariation:** Anzeige innerhalb einer Anzeigengruppe oder Anzeigenstrategie.
 
-**[AMO ID](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Ein Trackingcode, mit dem Adobe Advertising Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann. Es beginnt mit `s_kwcid=`.
 
 **Gebotseinheit:** Ein Begriff aus den Bereichen Suche, Social und Commerce für eine Einheit, für die Gebote abgegeben werden.
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **Kosten pro Akquise:** (CPA) Die Kosten für eine Anzeige dividiert durch die Anzahl der Konversionen. Wird auch als Kosten pro Transaktion (CPT) oder Kosten pro Bestellung (CPO) bezeichnet.
 
-**Kosten pro Klick:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, liegen die Kosten pro Klick bei 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibende für jeden Anzeigenklick in Rechnung gestellt werden.
+**Kosten pro Klick:** (CPC) 1) Die Kosten einer Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick. 2) Ein Preismodell, bei dem Werbetreibende für jeden Anzeigenklick in Rechnung gestellt werden.
 
 **Kosten pro Bestellung:** (CPO) Die Kosten für eine Anzeige dividiert durch die Anzahl der Bestellungen. Wird auch als Kosten pro Akquise (CPA) oder Kosten pro Transaktion (CPT) bezeichnet.
 
@@ -96,7 +101,7 @@ ht-degree: 0%
 
 **eCPM:** Die effektive CPM oder die Durchschnittskosten, die pro 1.000 Impressionen innerhalb eines bestimmten Datumsbereichs bezahlt wurden. eCPM-Werte können für CPM- oder CPC-Kampagnen berechnet werden.
 
-**[EF ID](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-ef-id):** Ein Trackingcode, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Werbeexposition verknüpfen und Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann.
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Ein Trackingcode, mit dem Adobe Advertising Aktivitäten mit einem Online-Klick oder einer Werbeexposition verknüpfen und Kampagnendaten für Adobe Analytics und Adobe Customer Journey Analytics freigeben kann.
 
 ## G-H {#g-h}
 

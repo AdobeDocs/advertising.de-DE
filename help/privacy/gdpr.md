@@ -4,24 +4,33 @@ description: Erfahren Sie mehr über die unterstützten Datenanfragetypen, die e
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-TQID: https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM
+TQID: 'https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: fa43b1a5-f379-447e-a9f3-9f9bd2bdf579
+    internal-label: GDPR
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1046
+source-wordcount: '1046'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising-Unterstützung für die Datenschutz-Grundverordnung
 
 *Für [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; und Adobe Advertising DCO*
@@ -72,7 +81,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
    >
    >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens - einschließlich [!DNL DSP]-Konten oder Werbekunden, [!DNL Search, Social, & Commerce]-Konten sowie [!DNL Creative]- oder [!DNL DCO]-Konten - mit Ihrer CX Enterprise-Organisations-ID verknüpft sind.
 
-1. Verwenden Sie entweder die [Adobe Experience Platform Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=de) (für automatisierte Anfragen) oder die [Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de) (für Ad-hoc-Anfragen), um im Namen der betroffenen Personen Zugriffs- und Löschanfragen an Adobe Advertising zu senden und den Status vorhandener Anfragen zu überprüfen.
+1. Verwenden Sie entweder die [Adobe Experience Platform Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (für automatisierte Anfragen) oder die [Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de) (für Ad-hoc-Anfragen), um im Namen der betroffenen Personen Zugriffs- und Löschanfragen an Adobe Advertising zu senden und den Status vorhandener Anfragen zu überprüfen.
 
    Für Werbetreibende, die über eine mobile App verfügen, um mit betroffenen Personen zu interagieren und Kampagnen mit DSP zu starten, müssen Sie die datenschutzfähigen Mobile SDKs für CX Enterprise herunterladen. Mit den Mobile SDKs können Datenverantwortliche Status-Flags zum Opt-out festlegen, die Geräte-ID der betroffenen Person abrufen (Namespace-ID: `deviceID`) und Anfragen an die Privacy Service-API senden. Für Ihre Mobile App ist die SDK-Version 4.15.0 oder höher erforderlich.
 
@@ -84,26 +93,26 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für Adobe Advertising zu s
    >
    >Wenn Ihr Unternehmen über mehrere CX Enterprise-Organisations-IDs verfügt, müssen Sie für jede API separate Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] und [!DNL DCO]) mit einem Konto pro Unterlösung senden.
 
-Für Adobe Advertising sind alle erforderlichen Schritte erforderlich. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mithilfe des Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter &quot;[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)&quot;.
+Für Adobe Advertising sind alle erforderlichen Schritte erforderlich. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mithilfe des Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter &quot;[Übersicht über Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;.
 
 ## Erforderliche Feldwerte in Adobe Advertising-JSON-Anfragen
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` *Ihre CX Enterprise-Organisations-ID*>
+* `"value":` &lt;*Ihre CX Enterprise-Organisations-ID*>
 
 `"users":`
 
-* `"key":` *In der Regel der Name der betroffenen Person*>
+* `"key":` &lt;*normalerweise der Name der betroffenen Person*>
 
 * `"action":` entweder `**access**` oder `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (gibt den [!DNL adcloud] Cookie-Bereich an)
+  * `"namespace": **411**` (gibt den [!DNL adcloud] Cookie-Bereich an)
 
-   * `"value":` „ph id=&#39;4&#39;/>der Wert der Cookie-ID der betroffenen Person, wie von `AdobePrivacy.js`*abgerufen>*
+  * `"value":` &lt;*Der Wert der Cookie-ID der betroffenen Person, wie von`AdobePrivacy.js`* abgerufen>
 
 * `"include": **adCloud**` (dies ist das [!DNL Adobe] Produkt, das für die Anfrage gilt)
 

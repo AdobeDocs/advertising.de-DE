@@ -2,6 +2,9 @@
 title: (Neue Benutzeroberfläche) Verwalten [!DNL Google Ads] Konversionswertregeln
 description: Erfahren Sie, wie Sie [!DNL Google Ads] Konversionswertregeln in Search, Social und Commerce anzeigen und verwalten können.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
     internal-label: Conversion tracking
@@ -10,7 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
     internal-label: Conversion value rules
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 0%
@@ -29,7 +34,7 @@ Search, Social und Commerce synchronisieren die Konversionswertregeln automatisc
 
 Einige Konten können ihre Konversionswertregeln verwalten:
 
-* In Konten, für die Konversionen auf individueller Konto- oder Kampagnenebene verfolgt werden, können Sie [Erstellen](#google-conversion-value-rule-create), [Bearbeiten](#google-conversion-value-rule-edit) und [Status &#x200B;](#google-conversion-value-rule-change-status) Regeln auf Konto- und Kampagnenebene ändern.
+* In Konten, für die Konversionen auf individueller Konto- oder Kampagnenebene verfolgt werden, können Sie [Erstellen](#google-conversion-value-rule-create), [Bearbeiten](#google-conversion-value-rule-edit) und [Status ](#google-conversion-value-rule-change-status) Regeln auf Konto- und Kampagnenebene ändern.
 
   Die Konten können zwar mit [[!DNL Google Ads] Manager-Konten](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) verknüpft werden, sie können jedoch kein kontenübergreifendes Konversions-Tracking verwenden (bei dem Konversionen über alle Konten im Manager-Konto hinweg verfolgt werden).
 
@@ -41,7 +46,7 @@ Wenn das Advertiser-Konto so konfiguriert ist, dass Search-, Social- und Commerc
 
 Angenommen, das Ziel verwendet eine einzige Konversionsmetrik „Leads“ und gibt Konversionen von Mobilgeräten das Gewicht 10 und Konversionen von Nicht-Mobilgeräten das Gewicht 10 an. Search, Social und Commerce zählen ein Ereignis aus einem der Gerätetypen als Konversion 1 (1) und schreiben den Konversionswert als 10 zu. Angenommen, eine Kampagne in diesem Portfolio verwendet eine Konversionswertregel: „Wenn das Gerät ein Mobilgerät ist, multiplizieren Sie sie mit 2.“ Wenn ein mobiles Leads-Ereignis für diese Kampagne verfolgt wird, schreibt [!DNL Google Ads] die Konversionszählung auch als eins (1), aber den Konversionswert als (10 x 2) = 20 zu.
 
-Weitere Informationen zu Ihren Regeln, einschließlich der ursprünglichen Konversionswerte vor der Anwendung der Regeln, finden Sie [&#x200B; Bericht zu Konversionswertregeln in  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
+Weitere Informationen zu Ihren Regeln, einschließlich der ursprünglichen Konversionswerte vor der Anwendung der Regeln, finden Sie [ Bericht zu Konversionswertregeln in  [!DNL Google Ads]](https://support.google.com/google-ads/answer/10519848).
 
 ## Erstellen einer [!DNL Google Ads] Konversionswertregel {#google-conversion-value-rule-create}
 

@@ -1,30 +1,36 @@
 ---
-title: 'Erforderliche Bulksheet-Daten für  [!DNL Baidu] '
-description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Baidu]  Konten.
+title: Erforderliche Bulksheet-Daten für [!DNL Baidu]
+description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Baidu] Konten.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE
+TQID: 'https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a8176f810ef6ff35620526bb93e2520ecab74bd9
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1954
+source-wordcount: '1956'
 ht-degree: 0%
-
 ---
-
 # Anhang - Erforderliche Bulksheet-Daten für [!DNL Baidu]
 
-Um [!DNL Baidu] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Baidu]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten &#x200B;](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
+Um [!DNL Baidu] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Baidu]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten ](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
 

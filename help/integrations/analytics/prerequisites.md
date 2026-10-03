@@ -1,30 +1,43 @@
 ---
-title: Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]
-description: Voraussetzungen und wichtige Informationen für die Implementierung [!DNL Analytics for Advertising]
+title: Voraussetzungen und wichtige Informationen für die Implementierung von [!DNL Analytics for Advertising]
+description: Voraussetzungen und wichtige Informationen für die Implementierung von [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
+TQID: 'https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Data integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 0%
-
 ---
-
 # Voraussetzungen und wichtige Informationen für die Implementierung von [!DNL Analytics for Advertising]
 
 *Werbetreibende mit Advertising Creative, Advertising DSP und Advertising Search, Social und Commerce*
@@ -34,8 +47,8 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Ana
 ## Anforderungen für das Reporting von Adobe Advertising-Daten in [!DNL Analytics]
 
 * einer der folgenden Schritte:
-   * Adobe Experience Platform Web SDK: `alloy.js`
-   * Experience Cloud Identity Service: `visitorAPI.js` Version 2.0 oder höher
+  * Adobe Experience Platform Web SDK: `alloy.js`
+  * Experience Cloud Identity Service: `visitorAPI.js` Version 2.0 oder höher
 * Jede Version von Adobe Analytics (einschließlich [!DNL Prime], [!DNL Premium] oder [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` Version 2.1 oder höher
 * (Advertising DSP-Kunden) Ein [Advertising DSP JavaScript-Snippet](javascript.md) das auf Ihren Web-Seiten bereitgestellt wird, um Durchsichtsbesuche zu verfolgen.
@@ -56,7 +69,7 @@ Stellen Sie dem Adobe Advertising-Implementierungsteam Folgendes bereit:
 * Die [!DNL Analytics] Report Suite-ID, die für das Reporting über Paid-Media-Aktivitäten und für den Feed der Site-Aktivität für die Optimierung und Berichterstellung in Adobe Advertising verwendet werden soll
 * Die CX Enterprise-Organisations-ID (Organisations-ID) des Unternehmens.
 
-Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de).
+Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Zusammenfassungsbildschirm des Experience Platform-Debuggers](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -83,7 +96,7 @@ Die [!DNL Analytics for Advertising] JavaScript verwendet diese Einstellungen, u
 
 >[!NOTE]
 >
->Um Daten für einen anderen Zeitrahmen zu segmentieren, können Sie [benutzerdefinierte Segmente einrichten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) mit verschiedenen Lookback-Fenstern in Analysis Workspace.
+>Um Daten für einen anderen Zeitrahmen zu segmentieren, können Sie [benutzerdefinierte Segmente einrichten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) mit verschiedenen Lookback-Fenstern in Analysis Workspace.
 
 ## Unterstützte Anzeigenumgebungen
 
@@ -126,7 +139,7 @@ Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Für eine präzise Datenintegration müssen alle Adobe Advertising-Aufrufe, die von einer [!DNL Analytics for Advertising]-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, über einen entsprechenden [!DNL Analytics]-Treffer verfügen, der dieselbe zusätzliche ID aufweist.
 
-Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
+Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
 
 >[!NOTE]
 >

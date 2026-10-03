@@ -3,21 +3,26 @@ title: Einstellungen für Textanzeigen und responsive Suchanzeigen-Vorlagen für
 description: Verweisen Sie auf die Einstellungen für Textanzeigen und Vorlagen für responsive Suchanzeigen für Inventar-Feeds.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # Einstellungen für Textanzeigen und responsive Suchanzeigen-Vorlagen für Inventar-Feeds
 
 *[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
@@ -77,11 +82,11 @@ Wenn keine Übereinstimmung gefunden wird, werden alle Daten für die Kampagne i
 
 * Einbetten der endgültigen URL:
 
-   * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+  * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{unescapedurl}` , um die Landingpage-URL anzugeben.
+  * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{unescapedurl}` , um die Landingpage-URL anzugeben.
 
-   * Sie können optional URL-Parameter und beliebige benutzerdefinierte Parameter einbeziehen, die für die Kampagne definiert wurden und durch kaufmännische Und-Zeichen (&amp;) getrennt sind, z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
+  * Sie können optional URL-Parameter und beliebige benutzerdefinierte Parameter einbeziehen, die für die Kampagne definiert wurden und durch kaufmännische Und-Zeichen (&amp;) getrennt sind, z. B. `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 
@@ -179,24 +184,24 @@ Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einz
 
 * Für [!DNL Google Ads]-, [!DNL LY Ads]- und [!DNL Microsoft Advertising]:
 
-   * Für dynamische Parameter: Breite Übereinstimmung = `[keyword]`, Breite Übereinstimmung Modifikator für den ersten Begriff in der [!UICONTROL Keyword] Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Breite Übereinstimmung Modifikator für jeden Begriff in der Schlüsselwortspalte (z. B. +blau +Wildleder +Schuhe) = `+[keyword]+`, Phrase Übereinstimmung = `"[keyword]"`, genaue Übereinstimmung = `[[keyword]]`
+  * Für dynamische Parameter: Breite Übereinstimmung = `[keyword]`, Breite Übereinstimmung Modifikator für den ersten Begriff in der [!UICONTROL Keyword] Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Breite Übereinstimmung Modifikator für jeden Begriff in der Schlüsselwortspalte (z. B. +blau +Wildleder +Schuhe) = `+[keyword]+`, Phrase Übereinstimmung = `"[keyword]"`, genaue Übereinstimmung = `[[keyword]]`
 
-   * Für statische Schlüsselwörter: Grobe Übereinstimmung = `keyword`, Grobe Übereinstimmung Modifikator = `+keyword` oder Phrase Übereinstimmung = `"keyword"`
+  * Für statische Schlüsselwörter: Grobe Übereinstimmung = `keyword`, Grobe Übereinstimmung Modifikator = `+keyword` oder Phrase Übereinstimmung = `"keyword"`
 
-     Sie können hier keine statischen Keywords mit exakter Übereinstimmung und standardmäßiger Übereinstimmungssyntax eingeben, da sie wie dynamische Parameter von Klammern (`[]`) umgeben sind.
+    Sie können hier keine statischen Keywords mit exakter Übereinstimmung und standardmäßiger Übereinstimmungssyntax eingeben, da sie wie dynamische Parameter von Klammern (`[]`) umgeben sind.
 
 * Für [!DNL Yandex] Vorlagen:
 
-   * Für dynamische Parameter: Fügen Sie den Spaltennamen ein, z. B. `[keyword]`. Um den Übereinstimmungstyp anzugeben, verwenden Sie die [[!DNL Yandex] Syntax](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Hinweis:** Verwenden Sie für allgemeine Übereinstimmungsbegriffe die folgende Syntax: Broad Match Modifier für den ersten Begriff in der Keyword-Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Broad Match Modifier für jeden Begriff in der Keyword-Spalte (z. B. +blau +Wildleder +Schuhe) = `+[keyword]+`
+  * Für dynamische Parameter: Fügen Sie den Spaltennamen ein, z. B. `[keyword]`. Um den Übereinstimmungstyp anzugeben, verwenden Sie die [[!DNL Yandex] Syntax](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Hinweis:** Verwenden Sie für allgemeine Übereinstimmungsbegriffe die folgende Syntax: Broad Match Modifier für den ersten Begriff in der Keyword-Spalte (z. B. +blaue Wildlederschuhe) = `+[keyword]`, Broad Match Modifier für jeden Begriff in der Keyword-Spalte (z. B. +blau +Wildleder +Schuhe) = `+[keyword]+`
 
-   * Für statische Keywords werden nur Suchbegriffe unterstützt. Verwenden Sie die [[!DNL Yandex] Syntax für &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Schlüsselwort . Klammern (`[]`), um anzugeben, dass die Wortreihenfolge nicht unterstützt wird.
+  * Für statische Keywords werden nur Suchbegriffe unterstützt. Verwenden Sie die [[!DNL Yandex] Syntax für ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) Schlüsselwort . Klammern (`[]`), um anzugeben, dass die Wortreihenfolge nicht unterstützt wird.
 
 >[!NOTE]
 >
 >* Sie können mehrere Modifikatorwerte manuell in das Keywords-Feld einschließen, indem Sie kommagetrennte Werte entweder vor oder nach einem Keyword-Parameter in Klammern einschließen (aber nicht an beiden Stellen). Beispielsweise produziert `(cheap, discount, affordable)[product]` drei separate Anzeigen für jedes Produkt.
 >* Wenn Sie keinen Übereinstimmungstyp angeben, wird der standardmäßige Übereinstimmungstyp „Broad“ verwendet.
 >* Negative Übereinstimmungen werden nicht unterstützt.
->* Google-Modifikatoren für breite Übereinstimmungen weisen jetzt für einige Sprachen dasselbe Übereinstimmungsverhalten wie Phrasenübereinstimmung auf, und Sie können keine neuen Keywords für breite Übereinstimmungen erstellen. Weitere Informationen finden [[!DNL Google Ads]  in der &#x200B;](https://support.google.com/google-ads/answer/10286719).
+>* Google-Modifikatoren für breite Übereinstimmungen weisen jetzt für einige Sprachen dasselbe Übereinstimmungsverhalten wie Phrasenübereinstimmung auf, und Sie können keine neuen Keywords für breite Übereinstimmungen erstellen. Weitere Informationen finden [[!DNL Google Ads]  in der ](https://support.google.com/google-ads/answer/10286719).
 
 **[!UICONTROL Map Only]:** Fügt alle neuen Anzeigen zu Anzeigengruppen (oder zu Kampagnen für [!DNL Yandex] Konten) hinzu, in denen die angegebenen Schlüsselwörter gefunden werden, anstatt neue Schlüsselwörter zu erstellen. Um diese Option zu aktivieren, aktivieren Sie das Kontrollkästchen. Wenn diese Option aktiviert ist, werden alle Parameter 1 und Parameter 2 Variablen in den angegebenen Keywords nicht angewendet, da die Keywords vorhanden sind.
 
@@ -217,9 +222,9 @@ Wenn Sie einen [!DNL Google Merchant Center] Feed verwenden und diesen Wert in d
 
 * So geben Sie die Landingpage-URL an:
 
-   * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
+  * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) Eine Liste der Parameter zur Angabe der endgültigen URLs in Tracking-Vorlagen finden Sie in den Parametern (nur [!DNL Microsoft Advertising]) [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) oder (nur [!DNL Google Ads]) den Parametern „Tracking-Vorlage nur“ im Abschnitt „Verfügbare [!DNL ValueTrack]&quot; in der [[!DNL Google Ads] Dokumentation](https://support.google.com/google-ads/answer/6305348).
 
-   * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
+  * (Nur [!DNL LY Ads]) Verwenden Sie den Parameter `!{lpurl}` , um die Landingpage-URL anzugeben.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] templates\]:** (nur [!DNL Google Ads] templates) Die Spalte in der angegebenen Datei, die die [!DNL Google Ads] `{param1}` oder `{param2}` Variable darstellt, die Sie in die Anzeigenkopie oder die Anzeige-URL einer aus der Vorlage erstellten Anzeige einbeziehen können. Um den dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld und klicken Sie dann auf einen Spaltennamen in der Spaltenliste. Der Spaltenname wird durch die tatsächlichen Daten ersetzt, wenn die Feed-Datei durch die Vorlage übertragen wird.
 
@@ -237,19 +242,19 @@ Die Datenfelder in der Feed-Datei dürfen maximal 25 Zeichen lang sein und nur a
 
 * (Wenn Sie den Parameter &quot;[!UICONTROL Apply to Existing Keywords: Min]&quot; nicht verwenden):
 
-   * Dem Wert kann ein Währungssymbol oder ein Währungscode vorangestellt oder angehängt werden. Beispielsweise sind 2.000,00 £ und 2.000 GBP gültig.
+  * Dem Wert kann ein Währungssymbol oder ein Währungscode vorangestellt oder angehängt werden. Beispielsweise sind 2.000,00 £ und 2.000 GBP gültig.
 
-   * Der Wert kann ein Komma (,) oder einen Punkt (.) enthalten. als Trennzeichen mit einem optionalen Punkt (.) oder Komma (,) für Teilwerte. Beispielsweise sind 1.000.00 und 2.000.10 gültig.
+  * Der Wert kann ein Komma (,) oder einen Punkt (.) enthalten. als Trennzeichen mit einem optionalen Punkt (.) oder Komma (,) für Teilwerte. Beispielsweise sind 1.000.00 und 2.000.10 gültig.
 
-   * Dem Wert kann ein Prozentzeichen (%), ein Pluszeichen (+) oder ein Minuszeichen (-) vorangestellt oder angehängt werden. Beispielsweise sind 20 %, 208+ und -42,32 gültig.
+  * Dem Wert kann ein Prozentzeichen (%), ein Pluszeichen (+) oder ein Minuszeichen (-) vorangestellt oder angehängt werden. Beispielsweise sind 20 %, 208+ und -42,32 gültig.
 
-   * Zwei Zahlen können mit einem Schrägstrich eingebettet werden. Beispielsweise sind 4/1 und 0,95/0,45 gültig.
+  * Zwei Zahlen können mit einem Schrägstrich eingebettet werden. Beispielsweise sind 4/1 und 0,95/0,45 gültig.
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] Vorlagen\]:** (nur [!DNL Microsoft Advertising] Vorlagen) Die Zeichenfolge, die als Ersatzwert in einer Anzeige verwendet werden soll, wenn der Titel, der Text, die Anzeige-URL oder die endgültige URL die `{Param2}` dynamische Ersatzzeichenfolge enthält. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (ein Anzeigentitel kann beispielsweise bis zu 25 Zeichen enthalten).
 
 **[!UICONTROL Param 3]:** (nur [!DNL Microsoft Advertising]) Die Zeichenfolge, die als Ersatzwert in einer Anzeige verwendet werden soll, wenn Titel, Text, Anzeige-URL oder endgültige URL die `{Param3}` dynamische Ersatzzeichenfolge enthalten. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (ein Anzeigentitel kann beispielsweise bis zu 25 Zeichen enthalten).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Das Anfangsgebot für jedes Keyword mit dem angegebenen Übereinstimmungstyp oder Anzeigetyp.
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein. So ge
 
    * Gehen Sie für jede Kennzeichnungsklassifizierung und jeden Wert, der der Komponente zugewiesen werden soll, wie folgt vor:
 
-      1. Klicken Sie auf **[!UICONTROL Add Label Classification]**.
+     1. Klicken Sie auf **[!UICONTROL Add Label Classification]**.
 
-      1. Wählen Sie die vorhandene Kennzeichnungsklassifizierung aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
+     1. Wählen Sie die vorhandene Kennzeichnungsklassifizierung aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
 
-         Die maximale Länge für jeden Wert beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
+        Die maximale Länge für jeden Wert beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
 
-         Um einen Spaltennamen als dynamischen Parameter für einen Beschriftungsklassifizierungswert einzufügen, klicken Sie auf das Eingabefeld (das zweite Feld) und dann auf einen Spaltennamen in der Spaltenliste.
+        Um einen Spaltennamen als dynamischen Parameter für einen Beschriftungsklassifizierungswert einzufügen, klicken Sie auf das Eingabefeld (das zweite Feld) und dann auf einen Spaltennamen in der Spaltenliste.
 
-         Pro Kampagnenkomponente kann nur ein Wert enthalten sein. Beispielsweise kann eine Kampagne „Farbe=Rot“, aber nicht „Farbe=Rot“ und „Farbe=Blau“ haben.
+        Pro Kampagnenkomponente kann nur ein Wert enthalten sein. Beispielsweise kann eine Kampagne „Farbe=Rot“, aber nicht „Farbe=Rot“ und „Farbe=Blau“ haben.
 
-         * Um einen vorhandenen Kennzeichnungswert zu ändern, wählen Sie einen neuen Wert aus oder geben Sie ihn ein.
+        * Um einen vorhandenen Kennzeichnungswert zu ändern, wählen Sie einen neuen Wert aus oder geben Sie ihn ein.
 
-         * Um einen vorhandenen Kennzeichnungswert zu entfernen, klicken Sie auf **[!UICONTROL X]** neben dem Wert.
+        * Um einen vorhandenen Kennzeichnungswert zu entfernen, klicken Sie auf **[!UICONTROL X]** neben dem Wert.
 
 ## [!UICONTROL Feed Filters]
 

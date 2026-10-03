@@ -1,25 +1,31 @@
 ---
-title: Erstanbietersegmente importieren aus [!DNL AdFixus]
-description: Erfahren Sie, wie Sie  [!DNL AdFixus]  Erstanbietersegmente, die universelle IDs  [!DNL AdFixus] , in DSP importieren.
+title: Importieren von First-Party-Segmenten aus [!DNL AdFixus]
+description: Erfahren Sie, wie Sie Ihre [!DNL AdFixus] First-Party-Segmente, die aus [!DNL AdFixus] universellen IDs bestehen, in DSP importieren.
 feature: DSP Audiences
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # Importieren von First-Party-Segmenten aus [!DNL AdFixus]
 
 *Gilt nur für Werbetreibende in Australien*
@@ -36,7 +42,7 @@ Sie können die Impression, den Klick, die Häufigkeit und andere Metriken für 
 
 1. (Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Einrichten des Trackings für die [!DNL Analytics]:
 
-   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs &#x200B;](/help/integrations/analytics/ids.md).
+   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs ](/help/integrations/analytics/ids.md).
 
    1. Stellen Sie [!DNL AdFixus]-spezifischen Code auf Ihren Web-Seiten bereit, damit Konversionen aus den [!DNL AdFixus]-IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Viewthroughs abgeglichen werden.
 
@@ -60,7 +66,7 @@ Segmente werden aktualisiert und stehen alle drei Stunden für die Zielgruppenbe
 >
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](source-manage.md)
->* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)
->* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
+>* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)

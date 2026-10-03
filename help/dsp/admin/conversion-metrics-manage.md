@@ -2,13 +2,20 @@
 title: Verwalten der Konversionsmetriken eines Advertisers in DSP.
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen DSP-Advertiser verfolgt.
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Konversionsmetriken eines Werbetreibenden verwalten
 
 Die Konversionsmetriken eines Advertisers werden in Adobe Advertising verwendet:
@@ -32,7 +39,7 @@ Zu den für DSP-Benutzende verfolgten Metriktypen gehören:
 
 * [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert &#x200B;](/help/integrations/customer-journey-analytics/overview.md).
+* [Site-Ereignisse, die mit Adobe Customer Journey Analytics synchronisiert ](/help/integrations/customer-journey-analytics/overview.md).
 
 * Konversionen aus benutzerdefinierten Feeds.
 

@@ -3,20 +3,26 @@ title: Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 description: Erfahren Sie, wie Sie Ihre Standardansichten und benutzerdefinierten Ansichten anpassen.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+TQID: 'https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4453
+source-wordcount: '4470'
 ht-degree: 0%
-
 ---
-
 # Verwalten von standardmäßigen und benutzerdefinierten Ansichten
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
@@ -43,17 +49,17 @@ In der Legacy-Benutzeroberfläche ist jede Ansicht als Verknüpfung im Abschnitt
 
 * (Benutzerdefinierte Ansichten) Über das linke Navigationsfenster:
 
-   1. Klicken Sie im linken Bedienfeld auf das **[!UICONTROL Custom Views]**, um es zu erweitern.
+  1. Klicken Sie im linken Bedienfeld auf das **[!UICONTROL Custom Views]**, um es zu erweitern.
 
-      Die Ansichten werden nach der entsprechenden Entität sortiert.
+     Die Ansichten werden nach der entsprechenden Entität sortiert.
 
-   1. Erweitern Sie die verfügbaren Menüs.
+  1. Erweitern Sie die verfügbaren Menüs.
 
-      &quot;[!UICONTROL Universal Views]&quot; umfasst benutzerdefinierte Ansichten, die in allen Entitätsansichten verwendet werden können. Alle anderen benutzerdefinierten Ansichten sind nach Entitätstyp gruppiert.
+     &quot;[!UICONTROL Universal Views]&quot; umfasst benutzerdefinierte Ansichten, die in allen Entitätsansichten verwendet werden können. Alle anderen benutzerdefinierten Ansichten sind nach Entitätstyp gruppiert.
 
-   1. Klicken Sie auf den Namen der Ansicht.
+  1. Klicken Sie auf den Namen der Ansicht.
 
-      Wenn die Ansicht universell ist oder für die aktuelle Entität gilt, wird die Datentabelle gemäß der Ansichtskonfiguration erneut angezeigt. Wenn die Ansicht für eine andere Entität gilt, werden Daten für die entsprechende Entität gemäß der Ansichtskonfiguration angezeigt.
+     Wenn die Ansicht universell ist oder für die aktuelle Entität gilt, wird die Datentabelle gemäß der Ansichtskonfiguration erneut angezeigt. Wenn die Ansicht für eine andere Entität gilt, werden Daten für die entsprechende Entität gemäß der Ansichtskonfiguration angezeigt.
 
 ## Erstellen einer benutzerdefinierten Ansicht {#create-custom-view}
 
@@ -165,19 +171,19 @@ Die Standardeinstellungen des Systems variieren je nach Verwaltungsansicht. Für
 
 * Über die neue Benutzeroberfläche:
 
-   1. Klicken Sie über der Datentabelle auf den Namen der aktuell angewendeten Ansicht (![Ansicht](/help/search-social-commerce/assets/view.png "Ansicht")).
+  1. Klicken Sie über der Datentabelle auf den Namen der aktuell angewendeten Ansicht (![Ansicht](/help/search-social-commerce/assets/view.png "Ansicht")).
 
-   1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
+  1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
 
-   1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Wiederherstellen](/help/search-social-commerce/assets/revert-new.png).
+  1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Wiederherstellen](/help/search-social-commerce/assets/revert-new.png).
 
 * In den alten Ansichten für die Kampagnenverwaltung:
 
-   1. Klicken Sie im linken Bedienfeld auf ![Benutzerdefinierte Ansichten](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Benutzerdefinierte "), um das [!UICONTROL Custom Views] zu erweitern.
+  1. Klicken Sie im linken Bedienfeld auf ![Benutzerdefinierte Ansichten](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Benutzerdefinierte "), um das [!UICONTROL Custom Views] zu erweitern.
 
-      Die Ansichten werden nach der entsprechenden Entität sortiert.
+     Die Ansichten werden nach der entsprechenden Entität sortiert.
 
-   1. Klicken Sie neben dem Namen der Ansicht auf ![Auf Standardeinstellungen wiederherstellen](/help/search-social-commerce/assets/restore.png "Auf Standardeinstellungen wiederherstellen").
+  1. Klicken Sie neben dem Namen der Ansicht auf ![Auf Standardeinstellungen wiederherstellen](/help/search-social-commerce/assets/restore.png "Auf Standardeinstellungen wiederherstellen").
 
 ## Löschen einer benutzerdefinierten Ansicht
 
@@ -187,21 +193,21 @@ Wenn Sie eine benutzerdefinierte Ansicht löschen, die auf die aktuelle Register
 
 * Über die neue Benutzeroberfläche:
 
-   1. Klicken Sie über der Datentabelle auf den Namen der aktuell angewendeten Ansicht (![Ansicht](/help/search-social-commerce/assets/view.png "Ansicht")).
+  1. Klicken Sie über der Datentabelle auf den Namen der aktuell angewendeten Ansicht (![Ansicht](/help/search-social-commerce/assets/view.png "Ansicht")).
 
-   1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
+  1. Klicken Sie nach Bedarf auf eine der Registerkarten ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] und [!UICONTROL From Others]), um die Ansicht zu suchen.
 
-   1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Löschen](/help/search-social-commerce/assets/delete-new.png).
+  1. Halten Sie den Cursor über den Namen der Ansicht und klicken Sie auf ![Löschen](/help/search-social-commerce/assets/delete-new.png).
 
-   1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
+  1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 * In den alten Ansichten für die Kampagnenverwaltung:
 
-   1. Klicken Sie im linken Bedienfeld auf ![Benutzerdefinierte Ansichten](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Benutzerdefinierte "), um das [!UICONTROL Custom Views] zu erweitern.
+  1. Klicken Sie im linken Bedienfeld auf ![Benutzerdefinierte Ansichten](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Benutzerdefinierte "), um das [!UICONTROL Custom Views] zu erweitern.
 
-   1. Halten Sie den Cursor über den Namen der benutzerdefinierten Ansicht, und klicken Sie dann auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
+  1. Halten Sie den Cursor über den Namen der benutzerdefinierten Ansicht, und klicken Sie dann auf ![Löschen](/help/search-social-commerce/assets/delete.png "Löschen").
 
-   1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Continue]**.
+  1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Continue]**.
 
 ## Standardmäßige und benutzerdefinierte Anzeigeeinstellungen
 
@@ -211,7 +217,7 @@ Wenn Sie eine benutzerdefinierte Ansicht löschen, die auf die aktuelle Register
 
 | **tab** | **Feld** | **Beschreibung** |
 | --- | --- | --- |
-| [Über allen Registerkarten] | -Name | Ein eindeutiger Name für die Ansicht. Der Name einer Standardansicht kann nicht bearbeitet werden.<p><b>Tipp:</b> Verwenden Sie einen Namen, der Ihnen hilft, die Registerkarte und die Informationen zu identifizieren, für die sie gilt (z. B. „Ausgesetzte Kampagnen“ oder „Top 50-Anzeigen„). |
+| [Über allen Registerkarten] | Name | Ein eindeutiger Name für die Ansicht. Der Name einer Standardansicht kann nicht bearbeitet werden.<p><b>Tipp:</b> Verwenden Sie einen Namen, der Ihnen hilft, die Registerkarte und die Informationen zu identifizieren, für die sie gilt (z. B. „Ausgesetzte Kampagnen“ oder „Top 50-Anzeigen„). |
 |   | Für andere Benutzer freigeben | (Nur benutzerdefinierte Ansichten; optional) Stellt die Ansicht allen anderen Benutzern zur Verfügung, die die Daten des Werbetreibenden anzeigen können. Andere Benutzer können die Ansicht nicht bearbeiten oder löschen, aber sie können aus den Einstellungen eine neue Ansicht erstellen. |
 | Spalten | Ausgewählte Spalten und Reihenfolge | Die Spalten der angezeigten Daten und ihre Reihenfolge:<ul><li> (So fügen Sie eine Spalte hinzu) Klicken Sie in der Liste Verfügbare Spalten auf einen Spaltennamen, und ziehen Sie ihn dann entweder in die Liste Ausgewählte Spalten und Sortierung oder klicken Sie auf ![Pfeil nach rechts](/help/search-social-commerce/assets/chevron-right.png), um ihn dorthin zu verschieben.</li><li>(So ändern Sie die horizontale Position einer Spalte) Klicken Sie in der Liste Ausgewählte Spalten und Reihenfolge auf den Spaltennamen, und ziehen Sie die Spalte dann entweder an die gewünschte Position, oder klicken Sie auf ![Nach-oben-](/help/search-social-commerce/assets/chevron-up.png) oder ![Nach-unten-](/help/search-social-commerce/assets/chevron-down.png), um sie dorthin zu verschieben. Der Name der oberen Spalte wird in der linken Spalte angezeigt.</li><li>(Um eine Spalte zu entfernen) Klicken Sie in der Liste Ausgewählte Spalten und Sortierung auf einen Spaltennamen, und ziehen Sie ihn dann entweder in die Liste Verfügbare Spalten oder klicken Sie auf ![Nach links](/help/search-social-commerce/assets/chevron-left.png), um ihn dorthin zu verschieben.</li></ul><b>Daten filtern</b><p>Um nur einen bestimmten Datentyp aufzulisten, klicken Sie auf eines der Symbole neben der Liste:<ul><li>![Eigenschaftensymbol](/help/search-social-commerce/assets/properties-icon-new.png) für Eigenschaftsnamen und IDs wie [!UICONTROL Portfolio Name] oder [!UICONTROL Status]</li><li>![Traffic-Symbol](/help/search-social-commerce/assets/traffic-metrics-icon-new.png) für standardmäßige Traffic-Metriken wie Impressionen und Klicks</li><li>![Umsatzsymbol](/help/search-social-commerce/assets/revenue-metrics-icon-new.png) (für Konversionsmetriken, die für den Advertiser verfolgt werden, einschließlich Konversions- und Site-Interaktionsmetriken, die mit Analytics synchronisiert wurden)</li><li>![Benutzerdefiniertes Symbol](/help/search-social-commerce/assets/custom-metrics-icon-new.png) (für benutzerdefinierte Metriken, die vom Advertiser erstellt wurden)</li><li>![Classification icon](/help/search-social-commerce/assets/classifications-icon-new.png) (für Label-Classifications).</li></ul> <b>Zusätzliche Hinweise:</b><ul><li>Informationen zum Hinzufügen, Erstellen oder Bearbeiten neuer Metriken finden Sie unter &quot;[Erstellen einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)&quot;, &quot;[Bearbeiten einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)&quot; und &quot;[Löschen einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)&quot;.</li><li>Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, werden keine Summen für geldbasierte Spalten (wie Kosten und CPC) berücksichtigt.</li><li>Sie können [das Spaltenset vorübergehend über das Spaltenüberschriftenmenü bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) und [das Spaltenset über das [!UICONTROL Columns] bearbeiten und sortieren](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![Spaltensymbol](/help/search-social-commerce/assets/custom-columns.png "Spaltensymbol")).</li></ul> |
 |   | Sortieren nach | Die Spalte, nach der die Daten sortiert werden sollen. Der Standardwert ist für jeden Berichtstyp unterschiedlich. |
@@ -227,7 +233,7 @@ Wenn Sie eine benutzerdefinierte Ansicht löschen, die auf die aktuelle Register
 
 | **tab** | **Feld** | **Beschreibung** |
 | --- | --- | --- |
-| [Über allen Registerkarten] | -Name | Ein eindeutiger Name für die Ansicht. Der Name einer Standardansicht kann nicht bearbeitet werden.<p><b>Tipp:</b> Verwenden Sie einen Namen, der Ihnen hilft, die Registerkarte und die Informationen zu identifizieren, für die sie gilt (z. B. „Ausgesetzte Kampagnen“ oder „Top 50-Anzeigen„). |
+| [Über allen Registerkarten] | Name | Ein eindeutiger Name für die Ansicht. Der Name einer Standardansicht kann nicht bearbeitet werden.<p><b>Tipp:</b> Verwenden Sie einen Namen, der Ihnen hilft, die Registerkarte und die Informationen zu identifizieren, für die sie gilt (z. B. „Ausgesetzte Kampagnen“ oder „Top 50-Anzeigen„). |
 |   | Universale Ansicht | (Schreibgeschützt für vorhandene Ansichten) Stellt die Dateneinstellungen für alle Entitätsansichten zur Verfügung (für Kampagnen, Anzeigen usw.). Universelle Ansichten können Klassifizierungsspalten für Metriken und Beschriftungen enthalten - jedoch keine Eigenschaftenspalten (wie Entitätsname und -status), da sie sich nach Entitätstyp unterscheiden - sowie alle anderen Ansichtsattribute. Alle Filterkriterien werden, sofern zutreffend, auf die Entitätsansicht angewendet und andernfalls ignoriert. Alle Metrikfilter werden lokal ausgewertet (z. B. werden für Klicks \> 1000 Kampagnen Kampagnen mit mehr als 1000 Klicks angezeigt und die Ansicht Anzeigengruppen zeigt Anzeigengruppen mit mehr als 1000 Klicks an).<p>Die Eigenschaftenspalten für eine universelle Ansicht werden aus der Standardansicht der Entität abgerufen. Sie können die Standardeigenschaftsspalten für eine bestimmte Entität in den Standardansichtseinstellungen ändern.<p>Sobald Sie diese Option aktivieren oder deaktivieren, können Sie die Änderung nicht mehr in der vorhandenen Ansicht speichern, sondern eine neue Ansicht mit der Änderung erstellen. |
 |   | Freigeben | (Nur vorhandene benutzerdefinierte Ansichten; optional) Stellt die Ansicht allen anderen Benutzern zur Verfügung, die die Daten des Werbetreibenden anzeigen können. Andere Benutzer können die Ansicht nicht bearbeiten oder löschen, aber sie können aus den Einstellungen eine neue Ansicht erstellen. In Ihren Ansichtslisten ist jede Ansicht, die eine andere Person teilt, kursiv gedruckt, z. B _„Kampagnen mit der besten Leistung_. |
 | Spalten | Ausgewählte Spalten und Reihenfolge | Die Spalten der angezeigten Daten und ihre Reihenfolge:<ul><li> (So fügen Sie eine Spalte hinzu) Klicken Sie in der Liste Verfügbare Spalten auf einen Spaltennamen, und ziehen Sie ihn dann entweder in die Liste Ausgewählte Spalten und Sortierung oder klicken Sie auf ![Pfeil nach rechts](/help/search-social-commerce/assets/chevron-right.png), um ihn dorthin zu verschieben.</li><li>(So ändern Sie die horizontale Position einer Spalte) Klicken Sie in der Liste Ausgewählte Spalten und Reihenfolge auf den Spaltennamen, und ziehen Sie die Spalte dann entweder an die gewünschte Position, oder klicken Sie auf ![Nach-oben-](/help/search-social-commerce/assets/chevron-up.png) oder ![Nach-unten-](/help/search-social-commerce/assets/chevron-down.png), um sie dorthin zu verschieben. Der Name der oberen Spalte wird in der linken Spalte angezeigt.</li><li>(Um eine Spalte zu entfernen) Klicken Sie in der Liste Ausgewählte Spalten und Sortierung auf einen Spaltennamen, und ziehen Sie ihn dann entweder in die Liste Verfügbare Spalten oder klicken Sie auf ![Nach links](/help/search-social-commerce/assets/chevron-left.png), um ihn dorthin zu verschieben.</li></ul><b>Daten filtern</b><p>Um nur einen bestimmten Datentyp aufzulisten, klicken Sie auf eines der Symbole neben der Liste:<ul><li>![Eigenschaftensymbol](/help/search-social-commerce/assets/properties-icon.png) für Eigenschaftsnamen und IDs für Suchkomponenten wie Status</li><li>![Traffic-Symbol](/help/search-social-commerce/assets/traffic-metrics-icon.png) für standardmäßige Traffic-Metriken wie Impressionen und Klicks</li><li>![Umsatzsymbol](/help/search-social-commerce/assets/revenue-metrics-icon.png) (für Konversionsmetriken, die für den Advertiser verfolgt werden, einschließlich Konversions- und Site-Interaktionsmetriken, die mit Analytics synchronisiert wurden)</li><li>![Benutzerdefiniertes Symbol](/help/search-social-commerce/assets/custom-metrics-icon.png) (für benutzerdefinierte abgeleitete Metriken, die vom Advertiser erstellt wurden)</li><li>![Classification icon](/help/search-social-commerce/assets/classifications-icon.png) (für Label-Classifications).</li></ul> <b>Zusätzliche Hinweise:</b><ul><li>Informationen zum Hinzufügen, Erstellen oder Bearbeiten neuer Metriken finden Sie unter &quot;[Erstellen einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)&quot;, &quot;[Bearbeiten einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)&quot; und &quot;[Löschen einer benutzerdefinierten Metrik](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-delete.md)&quot;.</li><li>Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, werden keine Summen für geldbasierte Spalten (wie Kosten und CPC) berücksichtigt.</li><li>Sie können [das Spaltenset vorübergehend über das Spaltenüberschriftenmenü bearbeiten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) und [das Spaltenset über das [!UICONTROL Columns] bearbeiten und sortieren](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). (![Spaltensymbol](/help/search-social-commerce/assets/custom-columns.png "Spaltensymbol")).</li></ul> |

@@ -2,18 +2,22 @@
 title: (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 description: Erfahren Sie mehr über die verschiedenen Funktionen, die zum Verwalten von Konversionsmetriken verfügbar sind.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
-source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Verfügbare Funktionen zum Verwalten von Konversionsmetriken
 
 In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende Möglichkeiten:
@@ -22,14 +26,14 @@ In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende 
 
 * Für alle für einen Advertiser nachverfolgten Konversionsmetriken:
 
-   * [Alle Konversionsmetriken anzeigen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser).
+  * [Alle Konversionsmetriken anzeigen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#view-the-conversion-metrics-tracked-for-an-advertiser).
 
-   * [Anzeigename für eine Konversionsmetrik ändern](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric).
+  * [Anzeigename für eine Konversionsmetrik ändern](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-display-name-for-a-conversion-metric).
 
-   * [Ändern Sie die Konversionsmetriken, die in Verwaltungsansichten, Zielen und Berichten verfügbar sind](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-conversion-metrics-available-in-management-views-objectives-and-reports).
+  * [Ändern Sie die Konversionsmetriken, die in Verwaltungsansichten, Zielen und Berichten verfügbar sind](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#change-the-conversion-metrics-available-in-management-views-objectives-and-reports).
 
-   * [Herunterladen von Leistungsdaten für Konversionen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions).
+  * [Herunterladen von Leistungsdaten für Konversionen](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions).
 
 * [Erstellen von Konversionsaktionen für  [!DNL Google Ads]  Konversionen für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) die für einzelne [!DNL Google Ads] verfolgt werden sollen.
 
-* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) ](https://help.ads.microsoft.com/#apex/ads/en/60178).

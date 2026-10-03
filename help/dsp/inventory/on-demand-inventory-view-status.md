@@ -1,24 +1,28 @@
 ---
-title: Status Ihrer Deal [!DNL On Demand] Anfragen und Abonnements anzeigen
-description: Erfahren Sie, wie Sie den Status Ihrer  [!DNL On Demand]  und Abonnements anzeigen.
+title: Status Ihrer [!DNL On Demand]-Deal-Anfragen und -Abonnements anzeigen
+description: Erfahren Sie, wie Sie den Status Ihrer [!DNL On Demand]-Deal-Anfragen und -Abonnements anzeigen.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-TQID: https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g
+TQID: 'https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # Status Ihrer [!DNL On Demand]-Deal-Anfragen und -Abonnements anzeigen
 
 Nachdem Sie einen einzelnen Deal angefordert oder alle Deals eines Publishers abonniert haben, überprüfen Sie, ob der Publisher jeden Deal für jeden Advertiser in Ihrem Konto genehmigt oder abgelehnt hat.
@@ -28,8 +32,8 @@ Nachdem Sie einen einzelnen Deal angefordert oder alle Deals eines Publishers ab
 1. Führen Sie einen der folgenden Schritte aus:
    * Um die Angebote in der [!UICONTROL Deal] Ansicht anzuzeigen, klicken Sie auf **[!UICONTROL Deal view]**.
    * So zeigen Sie die Angebote in der [!UICONTROL Subscription] an:
-      1. Klicken Sie auf **[!UICONTROL Subscription view]**.
-      1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
+     1. Klicken Sie auf **[!UICONTROL Subscription view]**.
+     1. Halten Sie den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 1. Suchen Sie die Spalte [!UICONTROL Status] , um den Genehmigungsstatus anzuzeigen.
 
 ## Abschlussstatus
@@ -44,7 +48,7 @@ Die Genehmigung oder Ablehnung durch den Herausgeber kann auf dem Kontotyp und d
 
 * ![abgelehnt](/help/dsp/assets/denied.png) für Abschlussanfragen, die für alle Advertiser im Konto abgelehnt wurden
 
-  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [&#x200B; den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
+  Um zu sehen, warum eine Anfrage für jeden Advertiser abgelehnt wurde, klicken Sie auf ![verweigert](/help/dsp/assets/denied.png). Wenn der Grund für die Ablehnung etwas ist, das aufgelöst werden kann, können [ den Deal erneut anfordern](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
 Wenden Sie sich bei Fragen zum Genehmigungsprozess an Ihr Adobe-Account-Team.
 

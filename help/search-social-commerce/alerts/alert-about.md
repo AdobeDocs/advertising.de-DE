@@ -3,20 +3,24 @@ title: Über benutzerdefinierte Warnhinweise
 description: Erfahren Sie mehr über benutzerdefinierte Warnhinweise, einschließlich der Erstellung von Warnhinweisvorlagen und dem Zeitpunkt der Auslösung von Warnhinweisen.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U
+TQID: 'https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # Über benutzerdefinierte Warnhinweise
 
 Sie können Warnhinweisvorlagen erstellen, um zu identifizieren, wann ein Portfolio, ein Konto, eine Kampagne, eine Anzeigengruppe, ein Keyword oder eine Shopping-Produktgruppe während eines bestimmten Zeitraums bestimmte Bedingungen erfüllt - z. B. eine Leistungsmetrik -, und dann einen Warnhinweis generieren. Warnhinweise sind für einen einzelnen Werbetreibenden verfügbar. Warnhinweise enthalten alle Spalten in der entsprechenden Standardansicht. Warnhinweise auf Kampagnenebene enthalten beispielsweise alle Spalten in der [!UICONTROL Campaigns].

@@ -3,7 +3,13 @@ title: (Neue Benutzeroberfläche) Manuelles Synchronisieren von Werbe- und Netzw
 description: Erfahren Sie, wie Sie die Synchronisierung Ihrer Kampagnenstruktur und Kampagnenentitäten für unterstützte Anzeigennetzwerke über die neue Benutzeroberfläche manuell mit Triggern durchführen.
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -24,7 +30,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Update]&quot; generiert und
 
 >[!NOTE]
 >
->Jedes Mal, [&#x200B; Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
+>Jedes Mal, [ Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
 
 ## Alle Kampagnen in Anzeigennetzwerkkonten synchronisieren
 

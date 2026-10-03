@@ -3,20 +3,24 @@ title: Anzeigen oder Speichern eines Berichts
 description: Erfahren Sie, wie Sie einen generierten Bericht anzeigen oder einen Bericht als Datei speichern.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+TQID: 'https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # Anzeigen oder Speichern eines Berichts
 
 Sie können einen Bericht im Webbrowser anzeigen oder die Berichtsdaten als [!DNL Microsoft Excel] Arbeitsmappe, als TSV-Datei (Tabulatorgetrennte Werte), CSV-Datei (Kommagetrennte Werte) oder (bei einigen Berichtstypen) als Arbeitsmappe mit [!DNL Microsoft Excel] Registerkarten öffnen oder speichern.
@@ -33,13 +37,13 @@ Sie können einen Bericht im Webbrowser anzeigen oder die Berichtsdaten als [!DN
 
    * (So öffnen oder speichern Sie die Berichtsdaten in einer Datei) Klicken Sie in der Spalte [!UICONTROL Export] neben dem Berichtsnamen auf den Namen eines Formats und öffnen oder speichern Sie die Datei dann entsprechend dem normalen Verfahren Ihres Browsers:
 
-      * **[!UICONTROL XLS]:**   Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLSX-Format). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, wobei für jede Komponente eine Zeile angezeigt wird, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen.
+     * **[!UICONTROL XLS]:** Für eine [!DNL Excel] Arbeitsmappe mit einem einzelnen Arbeitsblatt (XLSX-Format). Der Bericht enthält ein Arbeitsblatt, das oben mit den Parametern beschriftet ist, wobei für jede Komponente eine Zeile angezeigt wird, wenn Daten für die Komponente verfügbar sind. Zeilen ohne Daten werden weggelassen.
 
-        Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
+       Standardberichte enthalten einen Gesamtwert für jede numerische Spalte.
 
-      * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
+     * **[!UICONTROL TSV]:** Für eine TSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
 
-      * **[!UICONTROL CSV]:**   Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
+     * **[!UICONTROL CSV]:** Für eine CSV-Datei. Der Bericht enthält die Parameter und eine Zeile für jede gemeldete Komponente.
 
 >[!MORELIKETHIS]
 >

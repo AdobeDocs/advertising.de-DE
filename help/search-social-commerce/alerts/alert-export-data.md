@@ -3,20 +3,24 @@ title: Exportieren von Daten für benutzerdefinierte Warnhinweise
 description: Erfahren Sie, wie Sie Daten für einen ausgelösten Warnhinweis in eine Datei exportieren.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0
+TQID: 'https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Exportieren von Daten für benutzerdefinierte Warnhinweise
 
 Sie können Daten für einen ausgelösten Warnhinweis oder Daten für den zuletzt ausgelösten Warnhinweis für eine Warnhinweisvorlage als [!DNL Microsoft Excel] Arbeitsmappe ([XLS](/help/search-social-commerce/glossary.md#w-x)-Datei), als tabulatorgetrennte Wertedatei ([TSV](/help/search-social-commerce/glossary.md#s-t)) oder als kommagetrennte Wertedatei ([CSV](/help/search-social-commerce/glossary.md#c-d)) exportieren. Herunterladbare Berichte stehen zehn Tage nach Auslösung des Warnhinweises zur Verfügung und werden dann automatisch gelöscht.

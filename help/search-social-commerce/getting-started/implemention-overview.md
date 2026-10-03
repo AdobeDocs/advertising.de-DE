@@ -3,23 +3,30 @@ title: Übersicht über die Implementierung von Search, Social und Commerce
 description: Erfahren Sie mehr über den allgemeinen Workflow zum Starten und Verwalten eines Portfolios.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Übersicht über die Implementierung von Search, Social und Commerce
 
 [!DNL Adobe] oder eine seiner Partneragenturen arbeitet mit jedem Advertiser zusammen, um seine Online-Werbeportfolios zu starten und alle zusätzlichen Werbekampagnen zu verfolgen. Nach dem ersten Start stellen zusätzliche laufende Aufgaben sicher, dass die Ziele des Werbetreibenden weiterhin erfüllt werden.
@@ -106,16 +113,16 @@ Nach dem ersten Launch sind die folgenden laufenden Aufgaben erforderlich. Abhä
 
 * Passen Sie die verschiedenen Strategien und Einstellungen, die Sie zur Verwaltung des Portfoliosatzes verwenden, bei Bedarf an, basierend auf der tatsächlichen und prognostizierten Leistung des Portfolios und den Wachstumschancen:
 
-   * Passen Sie die Portfoliobudgets, Ziele und andere Einstellungen an.
+  * Passen Sie die Portfoliobudgets, Ziele und andere Einstellungen an.
 
-   * Anpassen der Konto-/Kampagnenstrukturen, um Änderungen an der Marketing-Strategie zu berücksichtigen.
+  * Anpassen der Konto-/Kampagnenstrukturen, um Änderungen an der Marketing-Strategie zu berücksichtigen.
 
-   * Hinzufügen/Anhalten/Löschen von Kampagnenkomponenten. Dies kann die Erweiterung von Keyword-Sätzen auf der Grundlage einer Suchbegriffanalyse sowie das Testen und Kopieren von und Landingpages umfassen.
+  * Hinzufügen/Anhalten/Löschen von Kampagnenkomponenten. Dies kann die Erweiterung von Keyword-Sätzen auf der Grundlage einer Suchbegriffanalyse sowie das Testen und Kopieren von und Landingpages umfassen.
 
-   * Aktualisieren Sie die geografischen und Site-Targeting-Strategien auf der Grundlage erweiterter Leistungsberichte.
+  * Aktualisieren Sie die geografischen und Site-Targeting-Strategien auf der Grundlage erweiterter Leistungsberichte.
 
-   * (Optional) Fügen Sie Gebotsbeschränkungen zu einzelnen Suchbegriffen oder zu allen Keywords in einer Anzeigengruppe, Kampagne oder einem Portfolio hinzu.
+  * (Optional) Fügen Sie Gebotsbeschränkungen zu einzelnen Suchbegriffen oder zu allen Keywords in einer Anzeigengruppe, Kampagne oder einem Portfolio hinzu.
 
-   * Neue Portfolios hinzufügen.
+  * Neue Portfolios hinzufügen.
 
 Anweisungen zum Überwachen von Portfolios und zum Anpassen der Portfoliostrategien finden Sie im Hilfekapitel „Optimierung“ > „Portfolios verwalten“ > „Überwachung und Verwaltung der Performance“, das über das [!UICONTROL Help]-Menü (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite von Search, Social und Commerce verfügbar ist.

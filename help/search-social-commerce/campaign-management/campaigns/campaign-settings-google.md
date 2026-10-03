@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads] Kampagneneinstellungen'
-description: Verweisen Sie auf die Einstellungen für  [!DNL Google Ads] -Kampagnen.
+description: Referenzieren Sie die Einstellungen für [!DNL Google Ads] Kampagnen.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] Kampagneneinstellungen
 
 ## \[Bildschirm zur Kampagnenerstellung\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **Hinweise:**
 
-   * Es sind nur erforderliche Einstellungen verfügbar. Für optionale Einstellungen melden Sie sich beim [!DNL Google Ads] an.
+  * Es sind nur erforderliche Einstellungen verfügbar. Für optionale Einstellungen melden Sie sich beim [!DNL Google Ads] an.
 
-   * Links zu [!DNL Google Merchant Center] Produkt-Feeds werden nicht unterstützt.
+  * Links zu [!DNL Google Merchant Center] Produkt-Feeds werden nicht unterstützt.
 
-   * Die Auflistung von Gruppen wird nicht unterstützt. Um Daten für die Auflistung von Gruppen zu verwalten und anzuzeigen, melden Sie sich beim [!DNL Google Ads] an.
+  * Die Auflistung von Gruppen wird nicht unterstützt. Um Daten für die Auflistung von Gruppen zu verwalten und anzuzeigen, melden Sie sich beim [!DNL Google Ads] an.
 
-   * Die Hybridoptimierung wird unterstützt. Bid-Strategieziele und Kampagnenbudgets werden auf Kampagnenebene festgelegt.
+  * Die Hybridoptimierung wird unterstützt. Bid-Strategieziele und Kampagnenbudgets werden auf Kampagnenebene festgelegt.
 
 ## [!UICONTROL Campaign Details]
 
@@ -71,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Contains EU Political Ads]:**(Gilt für Kampagnen, die sich an Zielgruppen in der Europäischen Union (EU) richten) Gibt an, ob die Kampagne politische Werbung gemäß den Anforderungen für in der Europäischen Union gemäß der EU-Verordnung 2024/90 geschaltete Anzeigen enthält: *[!UICONTROL Yes]* oder *[!UICONTROL No]*.
 
-**[!UICONTROL AI Max Enabled]:** (Kampagnen, die nur auf das Suchnetzwerk abzielen; schreibgeschützt) Ob die [[!UICONTROL AI Max]-Funktion &#x200B;](https://support.google.com/google-ads/answer/15910366) aktiviert ist: *[!UICONTROL On]* oder *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Kampagnen, die nur auf das Suchnetzwerk abzielen; schreibgeschützt) Ob die [[!UICONTROL AI Max]-Funktion ](https://support.google.com/google-ads/answer/15910366) aktiviert ist: *[!UICONTROL On]* oder *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Kampagnen, die nur auf das Suchnetzwerk abzielen; Kampagnen mit aktivierter KI-Max-Funktion; schreibgeschützt) Ob die Bündelung erforderlich ist: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* oder *[!UICONTROL Unspecified]*.
 
@@ -103,11 +109,11 @@ Für Suchkampagnen sind außerdem die folgenden zusätzlichen Einstellungen für
 
 **[!UICONTROL Bid strategy]:** Die Bid-Strategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann am 15[&#x200B; März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
+* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Manual CPC]* (Standard): (Für Kampagnen mit dem Typ „Performance Max“ nicht verfügbar) Verwendet das CPC-Modell (Cost Per Click) . Optional können Sie dem Werbenetzwerk erlauben, Gebote für die Kampagne zu ändern:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann am 15[&#x200B; März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
+  * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann am 15[ März 2025 automatisch mit der Änderung vorhandener verbesserter CPC-Angebotsstrategien](https://support.google.com/google-ads/answer/2464964) in manuelle CPC.
 
 * *[!UICONTROL Maximize Clicks]:* (Search-, Display- und Shopping-Kampagnen) Das Anzeigennetzwerk - nicht Search, Social und Commerce - optimiert Angebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk für jeden Klick nicht mehr als einen bestimmten Betrag zahlt. **Achtung:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden Gebote durch die Klickgewichtung gesteuert und nicht durch das Portfolioziel.
 
@@ -162,19 +168,19 @@ Die Kampagnenprodukte werden verkauft. Da Produkte mit Zielländern verknüpft s
 
 * So zielen Sie auf bestimmte Standorte ab oder schließen sie aus:
 
-   * (Länder, Bundesstaaten, Metropolregionen oder Städte) Klicken Sie auf **[!UICONTROL Location Target]** (![Standortziel](/help/search-social-commerce/assets/location-target.png "Standortziel")) und suchen Sie die Standorte, die ein- und ausgeschlossen werden sollen:
+  * (Länder, Bundesstaaten, Metropolregionen oder Städte) Klicken Sie auf **[!UICONTROL Location Target]** (![Standortziel](/help/search-social-commerce/assets/location-target.png "Standortziel")) und suchen Sie die Standorte, die ein- und ausgeschlossen werden sollen:
 
-      * Um eine Position und ihre untergeordneten Positionen einzubeziehen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt wird.
+    * Um eine Position und ihre untergeordneten Positionen einzubeziehen, klicken Sie einmal auf den angrenzenden Kreis, sodass ein blaues Häkchen (![Einschließen](/help/search-social-commerce/assets/include.png "Einschließen")) angezeigt wird.
 
-      * Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt wird.
+    * Um eine Position auszuschließen, klicken Sie zweimal auf den angrenzenden Kreis, sodass ein rotes Häkchen (![Ausschließen](/help/search-social-commerce/assets/exclude.png "Ausschließen")) angezeigt wird.
 
-      * Um einen Standort in seine Unterkomponenten (z. B. Bundesstaaten, Metropolregionen oder Städte in den USA) zu erweitern, klicken Sie auf den Standortnamen.
+    * Um einen Standort in seine Unterkomponenten (z. B. Bundesstaaten, Metropolregionen oder Städte in den USA) zu erweitern, klicken Sie auf den Standortnamen.
 
-      * Um nach einem Speicherort zu suchen, geben Sie mindestens die ersten drei Zeichen des Speicherorts in das Eingabefeld ein oder fügen Sie sie ein. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Include]** neben einem einzuschließenden Speicherort oder auf **[!UICONTROL Exclude]** neben einem auszuschließenden Speicherort.
+    * Um nach einem Speicherort zu suchen, geben Sie mindestens die ersten drei Zeichen des Speicherorts in das Eingabefeld ein oder fügen Sie sie ein. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Include]** neben einem einzuschließenden Speicherort oder auf **[!UICONTROL Exclude]** neben einem auszuschließenden Speicherort.
 
-   * (Standorte in der Nähe einer Adresse; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Address]**. Geben Sie die Adresse und den Radius in Meilen oder Kilometern um die Adresse ein, die Sie ansprechen möchten, und klicken Sie dann auf **[!UICONTROL Add]**.
+  * (Standorte in der Nähe einer Adresse; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) und klicken Sie dann auf **[!UICONTROL Address]**. Geben Sie die Adresse und den Radius in Meilen oder Kilometern um die Adresse ein, die Sie ansprechen möchten, und klicken Sie dann auf **[!UICONTROL Add]**.
 
-   * (Orte in der Nähe von geografischen Koordinaten; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius-Ziel](/help/search-social-commerce/assets/radius-target.png "Radius-Ziel")) und klicken Sie dann auf **[!UICONTROL Coordinate]**. Geben Sie den Breiten- und Längengrad sowie den Radius in Meilen oder Kilometern um den Zielort ein und klicken Sie dann auf **[!UICONTROL Add]**.
+  * (Orte in der Nähe von geografischen Koordinaten; nur eingeschlossene Ziele) Klicken Sie auf **[!UICONTROL Radius Target]** (![Radius-Ziel](/help/search-social-commerce/assets/radius-target.png "Radius-Ziel")) und klicken Sie dann auf **[!UICONTROL Coordinate]**. Geben Sie den Breiten- und Längengrad sowie den Radius in Meilen oder Kilometern um den Zielort ein und klicken Sie dann auf **[!UICONTROL Add]**.
 
 * (Um eine Gebotsanpassung für einen eingeschlossenen Zielspeicherort hinzuzufügen) Geben Sie einen Gebotsanpassungswert ein:
 
@@ -186,9 +192,9 @@ Die Kampagnenprodukte werden verkauft. Da Produkte mit Zielländern verknüpft s
 
 * Search, Social und Commerce bietet keine automatisch angepassten Angebotsanpassungen für die folgenden Standortziele, da die Daten, die [!DNL Google Ads] für die Zuordnung von Surfer-Standorten zu Standortzielen bereitstellt, Beschränkungen aufweisen:
 
-   * Radius-Ziele.
+  * Radius-Ziele.
 
-   * Einige Orte unterhalb der Ebene Bundesland/Provinz/Region/Kreis/Präfektur, für die [!DNL Google Ads] keinen übergeordneten Ort in der URL des Surfers sendet, einschließlich Flughäfen und US-Kongresswahlbezirken.
+  * Einige Orte unterhalb der Ebene Bundesland/Provinz/Region/Kreis/Präfektur, für die [!DNL Google Ads] keinen übergeordneten Ort in der URL des Surfers sendet, einschließlich Flughäfen und US-Kongresswahlbezirken.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,43 +303,43 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 * So laden Sie Bilder hoch:
 
-   1. Klicken Sie auf der Registerkarte [!UICONTROL Upload from Device] auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+  1. Klicken Sie auf der Registerkarte [!UICONTROL Upload from Device] auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
-   1. Für jedes Bild:
+  1. Für jedes Bild:
 
-      1. Wahl des Seitenverhältnisses
+     1. Wahl des Seitenverhältnisses
 
-      1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
+     1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
 
-      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
+     1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
 
-         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+        Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-      1. Klicken Sie auf **[!UICONTROL Proceed]**.
+     1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
-   1. Wenn Sie mit der Angabe der Bilder fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+  1. Wenn Sie mit der Angabe der Bilder fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
 
 * Um Bilder aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformat (4:1) Logo. Sie können bis zu fünf von jeder Größe einbeziehen. Siehe &quot;[[!DNL Google Ads] &quot; &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
+**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1) Logo und ein Querformat (4:1) Logo. Sie können bis zu fünf von jeder Größe einbeziehen. Siehe &quot;[[!DNL Google Ads] &quot; ](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
 
 * So laden Sie Bilder hoch:
 
-   1. Klicken Sie auf der Registerkarte [!UICONTROL Upload from Device] auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+  1. Klicken Sie auf der Registerkarte [!UICONTROL Upload from Device] auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
-   1. Für jedes Bild:
+  1. Für jedes Bild:
 
-      1. Wahl des Seitenverhältnisses
+     1. Wahl des Seitenverhältnisses
 
-      1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
+     1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
 
-      1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
+     1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
 
-         Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+        Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-      1. Klicken Sie auf **[!UICONTROL Proceed]**.
+     1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
-   1. Wenn Sie mit der Angabe der Bilder fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
+  1. Wenn Sie mit der Angabe der Bilder fertig sind, klicken Sie auf **[!UICONTROL Upload]**.
 
 * Um Bilder aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
@@ -341,9 +347,9 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 * URLs eingeben:
 
-   1. Geben Sie auf der Registerkarte [!UICONTROL Enter Video Url] eine URL ein.
+  1. Geben Sie auf der Registerkarte [!UICONTROL Enter Video Url] eine URL ein.
 
-   1. (Optional) Um eine weitere URL hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die URL ein.
+  1. (Optional) Um eine weitere URL hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die URL ein.
 
 * Um Videos aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Videos aus.
 
@@ -353,9 +359,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 
 * So geben Sie Text ein:
 
-   1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
+  1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
 
-   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+  1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
 
 * Um Assets aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
@@ -363,9 +369,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 
 * So geben Sie Text ein:
 
-   1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
+  1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
 
-   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+  1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
 
 * Um Assets aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
@@ -373,9 +379,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 
 * So geben Sie Text ein:
 
-   1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
+  1. Geben Sie auf der Registerkarte [!UICONTROL Enter Text] den Text ein.
 
-   1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
+  1. (Optional) Um eine weitere Textzeichenfolge hinzuzufügen, klicken Sie auf **[!UICONTROL + Add]** und geben Sie die Zeichenfolge ein.
 
 * Um Assets aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Assets aus.
 
@@ -388,9 +394,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 >[!NOTE]
 >Zielgruppensignale unterscheiden sich von Zielgruppenzielen [auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.*
+**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.*
 
 ## [!UICONTROL Conversion Goals]
 
@@ -404,7 +410,7 @@ Um ein benutzerdefiniertes Konversionsziel zu erstellen, klicken Sie auf **[!UIC
 >
 >Wenn die Kampagne Teil eines hybriden Portfolios ist, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die den Konversionszielen im Portfolioziel entsprechen. Das Einschließen zusätzlicher Konversionsziele kann die Portfolioleistung beeinträchtigen.
 >
->Für Kampagnen in hybriden Portfolios, für die Sie [Ziele in das Anzeigennetzwerk hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md), gehen Sie jedoch wie folgt innerhalb des Editors des Anzeigennetzwerks anstelle von hier vor: a) fügen Sie die hochgeladene Zielmetrik für das Such-, Social- und Commerce-Portfolio (die mit „O_ACS_OBJ“ beginnt) als Konversionsaktion für die Kampagne hinzu und b) fügen Sie alle Kampagnenziele hinzu, die [!DNL Google] verfolgte Konversionen enthalten, da im Anzeigennetzwerk verfolgte Metriken nicht mit dem Ziel in das Anzeigennetzwerk hochgeladen werden.
+>Für Kampagnen in hybriden Portfolios, für die Sie [Ziele in das Anzeigennetzwerk hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md), gehen Sie jedoch wie folgt innerhalb des Editors des Anzeigennetzwerks anstelle von hier vor: a) fügen Sie die hochgeladene Zielmetrik für das Such-, Social- und Commerce-Portfolio (die mit „O_ACS_OBJ&quot; beginnt) als Konversionsaktion für die Kampagne hinzu und b) fügen Sie alle Kampagnenziele hinzu, die [!DNL Google] verfolgte Konversionen enthalten, da im Anzeigennetzwerk verfolgte Metriken nicht mit dem Ziel in das Anzeigennetzwerk hochgeladen werden.
 
 >[!MORELIKETHIS]
 >

@@ -3,20 +3,26 @@ title: Anzeigen von Warnhinweisen
 description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Erlebnisse anzeigen können.
 feature: Creative Experiences
 exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
-TQID: https://experienceleague.adobe.com/Urf5XnCRFNYEUyost27hI3upY0UYflTk0-G0kO-egms
+TQID: 'https://experienceleague.adobe.com/Urf5XnCRFNYEUyost27hI3upY0UYflTk0-G0kO-egms'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '399'
 ht-degree: 0%
-
 ---
-
 # Anzeigen von Warnhinweisen
 
 [!DNL Creative] können Sie identifizieren, wenn bei einem Ihrer Erlebnisse, einschließlich der Kreativen in diesem Erlebnis, Probleme auftreten. Für jedes Problem gibt [!DNL Creative] einen Warnhinweis mit einem Zeitstempel und der empfohlenen Aktion zur Behebung des Problems aus. Gründe für Warnhinweise sind der Ablauf von Live-Erlebnissen und ein hoher Versand bei Standardanzeigen anstelle von zielgerichteten Anzeigen. Warnhinweise sind auf Erlebnisebene verfügbar.
@@ -27,7 +33,7 @@ Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde
 
 >[!NOTE]
 >
->Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
+>Innerhalb von Advertising DSP [Warnhinweise zu Platzierungen,  [!DNL Creative]  aus Erlebnissen ](/help/dsp/campaign-management/reports/campaign-alerts.md) wurden, auf Kampagnenebene verfügbar.
 
 ## Anzeigen von Warnhinweisen im [!UICONTROL Pulse Panel]
 

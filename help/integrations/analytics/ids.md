@@ -1,28 +1,39 @@
 ---
-title: Von Adobe Advertising verwendete IDs [!DNL Analytics]
-description: Von Adobe Advertising verwendete IDs [!DNL Analytics]
+title: Von [!DNL Analytics] verwendete Adobe Advertising-IDs
+description: Von [!DNL Analytics] verwendete Adobe Advertising-IDs
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-TQID: https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI
+TQID: 'https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # Von [!DNL Analytics] verwendete Adobe Advertising-IDs
 
 *Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
@@ -37,15 +48,15 @@ Adobe Advertising unterscheidet anhand der folgenden Kriterien zwischen einem Cl
 
 * Ein Viewthrough-Eintrag wird erfasst, wenn ein Benutzer die Website besucht, nachdem er eine Anzeige angesehen, aber nicht darauf geklickt hat. [!DNL Analytics] zeichnet eine Durchsicht auf, wenn zwei Bedingungen erfüllt sind:
 
-   * Der Besucher hat keine Clickthroughs für eine [!DNL DSP] oder [!DNL Search, Social, & Commerce] Anzeige während des [Click-Lookback-Fensters](/help/integrations/analytics/prerequisites.md#lookback-a4adc).
+  * Der Besucher hat keine Clickthroughs für eine [!DNL DSP] oder [!DNL Search, Social, & Commerce] Anzeige während des [Click-Lookback-Fensters](/help/integrations/analytics/prerequisites.md#lookback-a4adc).
 
-   * Der Besucher hat mindestens eine [!DNL DSP] Anzeige während des Impression[Lookback-Fensters gesehen](/help/integrations/analytics/prerequisites.md#lookback-a4adc). Der letzte Impression wird als Durchsicht weitergegeben.
+  * Der Besucher hat mindestens eine [!DNL DSP] Anzeige während des Impression[Lookback-Fensters gesehen](/help/integrations/analytics/prerequisites.md#lookback-a4adc). Der letzte Impression wird als Durchsicht weitergegeben.
 
 * Ein Clickthrough-Eintrag wird erfasst, wenn ein Site-Besucher auf eine Anzeige klickt, bevor er die Site betritt. [!DNL Analytics] erfasst einen Clickthrough, wenn eine der folgenden Bedingungen auftritt:
 
-   * Die URL enthält eine EF-ID und eine AMO-ID, die von Adobe Advertising zur Landingpage-URL hinzugefügt wurden.
+  * Die URL enthält eine EF-ID und eine AMO-ID, die von Adobe Advertising zur Landingpage-URL hinzugefügt wurden.
 
-   * Die URL enthält keine Trackingcodes, aber der Adobe Advertising JavaScript-Code erkennt innerhalb der letzten zwei Minuten einen Klick.
+  * Die URL enthält keine Trackingcodes, aber der Adobe Advertising JavaScript-Code erkennt innerhalb der letzten zwei Minuten einen Klick.
 
 ![Ansichtsbasierte [!DNL Analytics]-Integration von Adobe Advertising](/help/integrations/assets/a4adc-view-through-process.png)
 
@@ -59,13 +70,13 @@ Adobe Advertising unterscheidet anhand der folgenden Kriterien zwischen einem Cl
 
 Die EF ID ist ein eindeutiges Token, das Adobe Advertising verwendet, um Aktivitäten mit einem Online-Klick oder einer Anzeigenbelichtung auf individueller Browser- oder Geräteebene zu verknüpfen. EF-IDs dienen hauptsächlich als Schlüssel zum Senden von [!DNL Analytics] und Customer Journey Analytics-Daten an Adobe Advertising für die Berichterstellung und Angebotsoptimierung innerhalb von Adobe Advertising.
 
-[!DNL Analytics] wird die EF-ID in der Dimension [eine [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) oder [!DNL rVar] (reservierte [!DNL eVar]) (Adobe Advertising EF ID) gespeichert.
+[!DNL Analytics] wird die EF-ID in der Dimension [eine [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) oder [!DNL rVar] (reservierte [!DNL eVar]) (Adobe Advertising EF ID) gespeichert.
 
-Bei Customer Journey Analytics wird die EF-ID in der `trackingIdentities`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
+Bei Customer Journey Analytics wird die EF-ID in der `trackingIdentities`-Eigenschaft des `conversionDetails`-Objekts gespeichert, das Teil der [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) ist.
 
 ### EF ID-Formate {#ef-id-formats}
 
-Siehe [Formate für EF ID-Dimensionselemente](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-ef-id#dimension-items) im Adobe Analytics-Komponentenhandbuch.
+Siehe [Formate für EF ID-Dimensionselemente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) im Adobe Analytics-Komponentenhandbuch.
 
 >[!NOTE]
 >
@@ -134,27 +145,27 @@ Der Parameter wird den Tracking-URLs auf eine der folgenden Arten hinzugefügt:
 
 * (Empfohlen) Wenn die Server-seitige Einfügefunktion implementiert ist.
 
-   * DSP-Kunden: Der Pixel-Server hängt den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer eine Display-Anzeige mit dem Adobe Advertising-Pixel aufruft.
+  * DSP-Kunden: Der Pixel-Server hängt den Parameter s_kwcid automatisch an die Suffixe Ihrer Landingpage an, wenn ein Endbenutzer eine Display-Anzeige mit dem Adobe Advertising-Pixel aufruft.
 
-   * Kunden aus den Bereichen Suche, Social Media und Commerce:
+  * Kunden aus den Bereichen Suche, Social Media und Commerce:
 
-      * Bei [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten mit aktivierter [!UICONTROL Auto Upload] für das Konto oder die Kampagne fügt der Pixel-Server den Parameter s_kwcid automatisch an die Suffixe der Landingpage an, wenn ein Endbenutzer bzw. eine Endbenutzerin auf eine Anzeige mit dem Pixel &quot;Adobe Advertising&quot; klickt.
+    * Bei [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten mit aktivierter [!UICONTROL Auto Upload] für das Konto oder die Kampagne fügt der Pixel-Server den Parameter s_kwcid automatisch an die Suffixe der Landingpage an, wenn ein Endbenutzer bzw. eine Endbenutzerin auf eine Anzeige mit dem Pixel &quot;Adobe Advertising&quot; klickt.
 
-      * Für andere Werbenetzwerke oder [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten mit deaktivierter [!UICONTROL Auto Upload]-Einstellung fügen Sie den Parameter manuell zu Ihren [Anlagenparametern auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} hinzu, die ihn an Ihre Basis-URLs anhängen.
+    * Für andere Werbenetzwerke oder [!DNL Google Ads]- und [!DNL Microsoft Advertising]-Konten mit deaktivierter [!UICONTROL Auto Upload]-Einstellung fügen Sie den Parameter manuell zu Ihren [Anlagenparametern auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} hinzu, die ihn an Ihre Basis-URLs anhängen.
 
 * Wenn die Server-seitige Einfügefunktion nicht implementiert ist:
 
-   * DSP-Kunden: Der [JavaScript](javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
+  * DSP-Kunden: Der [JavaScript](javascript.md)Code zeichnet automatisch Clickthroughs und Viewthroughs auf. Wenn ein Browser keine Cookies von Drittanbietern unterstützt, können Sie weiterhin Klick-basierte Konversionen für die folgenden Anzeigentypen verfolgen:
 
-      * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum [!DNL Flashtalking]-Support unter [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) Datenweiterleitungs-Makros zum Tracking der `s_kwcid`- und `ef_id` verwenden.
+    * Fügen Sie für [!DNL Flashtalking]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Flashtalking] Ad Tags](/help/integrations/analytics/macros-flashtalking.md) ein. **Hinweis:** Dieses Verfahren ist nicht erforderlich, wenn Ihr Unternehmen eine direkte Partnerschaft mit [!DNL Flashtalking] unterhält und Sie in der Dokumentation zum [!DNL Flashtalking]-Support unter [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) Datenweiterleitungs-Makros zum Tracking der `s_kwcid`- und `ef_id` verwenden.
 
-      * Fügen Sie für [!DNL Google Campaign Manager 360]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) ein.
+    * Fügen Sie für [!DNL Google Campaign Manager 360]-Anzeigen-Tags manuell zusätzliche Makros pro &quot;[Append [!DNL Analytics for Advertising] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) ein.
 
-   * Kunden aus den Bereichen Suche, Social Media und Commerce:
+  * Kunden aus den Bereichen Suche, Social Media und Commerce:
 
-      * Fügen Sie für ([!DNL Google Ads] und [!DNL Microsoft Advertising]) Anzeigen manuell den AMO-ID-Parameter zu Ihren Landingpage-Suffixen hinzu, idealerweise auf [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} es sei denn, es ist ein anderes Tracking für einzelne Kontokomponenten erforderlich.
+    * Fügen Sie für ([!DNL Google Ads] und [!DNL Microsoft Advertising]) Anzeigen manuell den AMO-ID-Parameter zu Ihren Landingpage-Suffixen hinzu, idealerweise auf [Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} es sei denn, es ist ein anderes Tracking für einzelne Kontokomponenten erforderlich.
 
-      * Für Anzeigen in allen anderen Werbenetzwerken fügen Sie den AMO-ID-Parameter manuell zu Ihren [Append-Parametern auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} hinzu, die ihn an Ihre Basis-URLs anhängen.
+    * Für Anzeigen in allen anderen Werbenetzwerken fügen Sie den AMO-ID-Parameter manuell zu Ihren [Append-Parametern auf Kontoebene](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} hinzu, die ihn an Ihre Basis-URLs anhängen.
 
 Wenden Sie sich an Ihr Adobe-Accountteam, um die Server-seitige Einfügefunktion zu implementieren oder die beste Option für Ihr Unternehmen zu ermitteln.
 
@@ -166,7 +177,7 @@ Für Reporting- oder Auditing-Vorgänge innerhalb von [!DNL Analytics] ist die B
 
 ## Über [!DNL Analytics] Klassifizierungen
 
-[!DNL Analytics] ist eine [Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Adobe Advertising-Rohdaten mithilfe von Klassifizierungen, sodass Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagne). Klassifizierungen bilden die Grundlage des Adobe Advertising-Reportings in [!DNL Analytics] und können mit den AMO-Metriken wie [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] und [!UICONTROL AMO Clicks] sowie mit benutzerdefinierten und standardmäßigen Onsite-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] und [!UICONTROL Revenue] verwendet werden.
+[!DNL Analytics] ist eine [Klassifizierung](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) ein Metadatenelement für einen bestimmten Trackingcode, z. B. Konto, Kampagne oder Anzeige. Adobe Advertising kategorisiert Adobe Advertising-Rohdaten mithilfe von Klassifizierungen, sodass Sie die Daten beim Generieren von Berichten auf unterschiedliche Weise anzeigen können (z. B. nach Anzeigentyp oder Kampagne). Klassifizierungen bilden die Grundlage des Adobe Advertising-Reportings in [!DNL Analytics] und können mit den AMO-Metriken wie [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] und [!UICONTROL AMO Clicks] sowie mit benutzerdefinierten und standardmäßigen Onsite-Ereignissen wie [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] und [!UICONTROL Revenue] verwendet werden.
 
 >[!MORELIKETHIS]
 >

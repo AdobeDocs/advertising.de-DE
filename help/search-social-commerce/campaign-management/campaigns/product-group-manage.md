@@ -3,18 +3,21 @@ title: Verwalten von Einkaufsproduktgruppen
 description: Erfahren Sie, wie Sie in Shopping-Kampagnen Shopping-Produktgruppen erstellen und verwalten.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Einkaufsproduktgruppen
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
@@ -103,13 +106,13 @@ Sie können jede Produktgruppe löschen - mit Ausnahme der Gruppe „Alles ander
 
    * Gehen Sie wie folgt vor, um eine oder mehrere Produktgruppen zu löschen:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, die Sie löschen möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Produktgruppe, die Sie löschen möchten.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
+     1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

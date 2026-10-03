@@ -3,18 +3,21 @@ title: Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulk
 description: Erfahren Sie, wie Sie mit Bulksheets Klassifizierungswerte zu Kontokomponenten zuweisen können.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g
+TQID: 'https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # Zuweisen von Klassifizierungswerten zu Kontokomponenten mithilfe von Bulksheets
 
 Sie können Kennzeichnungsklassifizierungen mit Werten für die folgenden Suchentitäten mithilfe von Bulksheets verknüpfen: Kampagne, Anzeigengruppe, Keyword, Anzeige, Platzierung, Produktgruppe auf Einheitenebene und Ziel der dynamischen Suche. Jede Kennzeichnungsklassifizierung kann bis zu 2.000 Werte aufweisen.

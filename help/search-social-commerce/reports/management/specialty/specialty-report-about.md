@@ -3,27 +3,33 @@ title: Über Spezialberichte
 description: Erfahren Sie mehr über Spezialberichte.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '143'
 ht-degree: 0%
-
 ---
-
 # Über Spezialberichte
 
 Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken erfasst werden. [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] und [!UICONTROL Campaign Impression Share Report] können jedoch Umsatzdaten enthalten, die von [!DNL Adobe] erfasst wurden. Spezialberichte stehen allen Benutzern zur Verfügung.
 
 >[!NOTE]
 >
->Bei den meisten Spezialberichten werden die Daten für den Vortag jeden Tag um :00 Uhr (:00 Uhr) abgerufen. Zum Beispiel ruft sie am :00. Juni um 23 Uhr Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen :00 bevor Daten für den 18. Juni abgerufen werden, enthält der Bericht bis zum 17. Juni um 23::00 Daten. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte sowie für die [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
+>Bei den meisten Spezialberichten werden die Daten für den Vortag um 23:00 Uhr (23:00 Uhr) abgerufen Jeden Tag. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht bis zum 17. Juni um 23:00 Uhr Daten. Diese Datensynchronisation gilt für alle [!DNL Google Ads] Spezialberichte sowie für die [!UICONTROL Bing Ads Geo Report] und [!UICONTROL Bing Ads Search Query Report].
 
 ## Arten von Spezialberichten
 

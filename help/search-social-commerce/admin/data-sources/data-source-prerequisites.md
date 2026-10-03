@@ -1,26 +1,33 @@
 ---
-title: Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle
-description: Erfahren Sie mehr über die Schritte, die Sie vor der Konfiguration einer Datenquelle  [!DNL Google Analytics]  müssen.
+title: Voraussetzungen für die Konfiguration einer [!DNL Google Analytics] Datenquelle
+description: Erfahren Sie mehr über die Schritte, die Sie vor der Konfiguration einer [!DNL Google Analytics] durchführen müssen.
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+TQID: 'https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # Voraussetzungen für die Konfiguration einer [!DNL Google Analytics] Datenquelle
 
 Bevor Sie eine [!DNL Google Analytics] Datenquelle einrichten können, müssen Sie den Abfragezeichenfolgenparameter „ef_id“ für Search, Social und Commerce als Primärschlüssel festlegen, um Daten von [!DNL Google Analytics] an Search, Social und Commerce zu übergeben. Richten Sie den Primärschlüssel für jedes [!DNL Google Analytics] Konto und jede Eigenschaftskombination ein, für die Sie Daten synchronisieren möchten. Andere Personen in Ihrer Organisation müssen diese Aufgaben möglicherweise ausführen. Weitere Informationen finden Sie unten.

@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL Adobe]  Zielgruppen'
-description: Erfahren Sie, wie Sie Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für Ihre Zielgruppen  [!DNL Adobe] .
+title: Synchronisieren [!DNL Adobe] Zielgruppen
+description: Erfahren Sie, wie Sie Metadaten, Hierarchiedaten und eindeutige Zielgruppendaten für Ihre [!DNL Adobe] Zielgruppen synchronisieren.
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
+TQID: 'https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Metadata
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '193'
 ht-degree: 0%
-
 ---
-
 # Synchronisieren [!DNL Adobe] Zielgruppen
 
 *[!DNL Direct Access]nur Client-Manager und -Administratoren*
@@ -33,7 +37,7 @@ Sie können Search, Social und Commerce erlauben, Metadaten, Hierarchiedaten und
 
 * Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden
 
-Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
+Um berechtigt zu sein, muss der Advertiser oder die Agentur den [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) implementieren und seine Organisations-ID (früher als &quot;[!DNL IMS Org ID]&quot; bezeichnet) angeben.
 
 Die erste Synchronisierung dauert etwa 24 Stunden. Danach werden die Daten in Echtzeit mit einer Verzögerung von ein bis zwei Sekunden synchronisiert.
 

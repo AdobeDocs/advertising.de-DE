@@ -3,25 +3,35 @@ title: Erstellen und Implementieren eines CCPA-Opt-out vom Verkauf -Segments
 description: Erfahren Sie, wie Sie ein Segment erstellen und implementieren, um Benutzer-IDs aus Verbraucher-Opt-out-Kaufanfragen zu verfolgen.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-TQID: https://experienceleague.adobe.com/NYXgnUkEw4uSilL8LO8qlRPp5AVAjXeXNS0pVeIZl3Y
+TQID: 'https://experienceleague.adobe.com/NYXgnUkEw4uSilL8LO8qlRPp5AVAjXeXNS0pVeIZl3Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Implementieren eines CCPA-Opt-out vom Verkauf -Segments
 
 Sie können gemäß dem California Consumer Privacy Act (CCPA) ein Segment erstellen, um Benutzer-IDs aus Verbraucher-Opt-out-Kaufanfragen auf Ihrer Website zu verfolgen. Benutzende bleiben auf unbestimmte Zeit in CCPA-Opt-out-of-Sale-Segmenten.
@@ -30,7 +40,7 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising mit de
 
 >[!NOTE]
 >
->* Informationen zur Kommunikation von CCPA-Opt-out-Anfragen an Adobe Advertising mithilfe der Adobe Experience Platform Privacy Service-API finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=de](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=de).
+>* Informationen zur Kommunikation von CCPA-Opt-out-Anfragen an Adobe Advertising mithilfe der Adobe Experience Platform Privacy Service-API finden Sie unter [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Um Benutzende, die Web-Seiten für Zwecke besuchen, die nicht mit dem Tracking von CCPA-Opt-out-of-Sale-Ereignissen zusammenhängen, sowie Benutzende, die Anzeigen von Desktop-, Mobile- und CTV-Geräten ausgesetzt sind, zu verfolgen, erstellen Sie ein [benutzerdefiniertes Segment](/help/dsp/audiences/custom-segment-create.md).
 
 1. Erstellen Sie das Segment:
@@ -41,7 +51,7 @@ Sobald das Segment-Pixel-Tag implementiert ist, beginnt Adobe Advertising mit de
 
    1. Eindeutige **[!UICONTROL Segment Name]** eingeben.
 
-      Empfohlener Segmentname: &quot;*Ihr Advertiser-Name*> - CCPA-Opt-out vom Verkauf“ (z. B. „Acme - CCPA-Opt-out vom Verkauf„)
+      Empfohlener Segmentname: &quot;&lt;*Ihr Advertiser-Name*> - CCPA-Opt-out vom Verkauf“ (z. B. „Acme - CCPA-Opt-out vom Verkauf„)
 
    1. Wählen Sie für die [!UICONTROL Segment Type] **[!UICONTROL CCPA Opt-out of sale]** aus.
 

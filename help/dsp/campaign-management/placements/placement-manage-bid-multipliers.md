@@ -3,33 +3,37 @@ title: Verwalten von Angebotsmultiplikatoren für Platzierungen
 description: Erfahren Sie, wie Sie Angebotsmultiplikatoren für Ihre Platzierungsziele erstellen und bearbeiten.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # Verwalten von Angebotsmultiplikatoren für Platzierungen
 
-Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot für Ihre vorhandenen Platzierungsziele (geeignete Zieltypen[&#x200B; zu erhöhen oder zu &#x200B;](#bid-multiplier-by-target). Sie können entweder die Werte des Angebotsmultiplikators für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
+Sie können Angebotsmultiplikatoren erstellen und verwalten, mit denen ein algorithmisch berechnetes Angebot multipliziert wird, um das Angebot für Ihre vorhandenen Platzierungsziele (geeignete Zieltypen[ zu erhöhen oder zu ](#bid-multiplier-by-target). Sie können entweder die Werte des Angebotsmultiplikators für eine Platzierung manuell bearbeiten oder eine Tabelle mit Werten für eine oder mehrere Platzierungen hochladen.
 
-Der Bid-Multiplikator für ein Ziel ist standardmäßig 1,00, was bedeutet, dass das Gebot nicht für dieses Ziel angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. So verringert ein Gebotsmultiplikator von 0,5 ein Gebot von 6 USD auf 3 USD (0,5 x 6). Wenn sich eine Auktion für mehrere Angebotsmodifikatoren qualifiziert, werden alle entsprechenden Gebotsmultiplikatoren multipliziert. Wenn beispielsweise Kalifornien über einen Angebotsmultiplikator von 2 verfügt und San Francisco über einen Angebotsmultiplikator von 3, ist der letzte Angebotsmultiplikator für Anzeigen, die in San Francisco geschaltet werden, 6.
+Der Bid-Multiplikator für ein Ziel ist standardmäßig 1,00, was bedeutet, dass das Gebot nicht für dieses Ziel angepasst wird. Die Werte können zwischen 0,10 und 10,00 liegen. Beispielsweise verringert ein Bid-Multiplikator von 0,5 ein USD 6-Gebot auf USD 3 (0,5 x 6). Wenn sich eine Auktion für mehrere Angebotsmodifikatoren qualifiziert, werden alle entsprechenden Gebotsmultiplikatoren multipliziert. Wenn beispielsweise Kalifornien über einen Angebotsmultiplikator von 2 verfügt und San Francisco über einen Angebotsmultiplikator von 3, ist der letzte Angebotsmultiplikator für Anzeigen, die in San Francisco geschaltet werden, 6.
 
 >[!NOTE]
 >
 >Angebotsmultiplikatoren erhöhen das Angebot nie auf mehr als das Höchstgebot.
 
-Sie können Angebotsmultiplikatoren (mit Werten ungleich 1,00) für eine [begrenzte Anzahl von Zielen) &#x200B;](#bid-multiplier-limits-by-target).
+Sie können Angebotsmultiplikatoren (mit Werten ungleich 1,00) für eine [begrenzte Anzahl von Zielen) ](#bid-multiplier-limits-by-target).
 
 Diese Funktion funktioniert mit Ihren vorhandenen Platzierungszielen. Informationen zum Ändern der ausgewählten Ziele für Ihre Platzierungen finden Sie unter [Platzierungen bearbeiten](/help/dsp/campaign-management/placements/placement-edit.md).
 
@@ -53,21 +57,21 @@ Sie können Werte entweder manuell bearbeiten oder eine Tabelle für eine einzel
 
    * So laden Sie eine CSV-Datei mit Bid-Multiplikatorwerten hoch, um alle vorhandenen Werte zu überschreiben:
 
-      1. Klicken Sie oben rechts auf **[!UICONTROL CSV File Edit]** .
+     1. Klicken Sie oben rechts auf **[!UICONTROL CSV File Edit]** .
 
-      1. Entweder a) auf **[!UICONTROL Download Template]** klicken und die Datei bearbeiten oder b) eine zuvor heruntergeladene Vorlage bearbeiten. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
+     1. Entweder a) auf **[!UICONTROL Download Template]** klicken und die Datei bearbeiten oder b) eine zuvor heruntergeladene Vorlage bearbeiten. Speichern Sie die bearbeitete Datei auf Ihrem Gerät oder Netzwerk.
 
-         Heruntergeladene Arbeitsblätter enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Nur bestehende Gebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 werden einbezogen.
+        Heruntergeladene Arbeitsblätter enthalten ein Blatt für jeden Zieltyp (z. B. Land, Quellen und Site-Kategorie). Nur bestehende Gebotsmultiplikatoren mit Werten &lt; 1,0 oder > 1,0 werden einbezogen.
 
-         * Um einen Angebotsmultiplikator für ein vorhandenes Ziel hinzuzufügen, geben Sie das Ziel mit derselben in der Benutzeroberfläche sichtbaren Syntax und dem entsprechenden Wert des Angebotsmultiplikators ein.
+        * Um einen Angebotsmultiplikator für ein vorhandenes Ziel hinzuzufügen, geben Sie das Ziel mit derselben in der Benutzeroberfläche sichtbaren Syntax und dem entsprechenden Wert des Angebotsmultiplikators ein.
 
-         * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Wert des Angebotsmultiplikators auf 1,0 oder löschen Sie alle Informationen für die Zeile.
+        * Um einen Angebotsmodifikator zu entfernen, setzen Sie den Wert des Angebotsmultiplikators auf 1,0 oder löschen Sie alle Informationen für die Zeile.
 
-         ![Beispielzeile in einer Kalkulationstabellendatei mit Angebotsmultiplikator](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Kalkulationstabellendatei mit Angebotsmultiplikator")
+        ![Beispielzeile in einer Kalkulationstabellendatei mit Angebotsmultiplikator](/help/dsp/assets/bid-multiplier-spreadsheet.png "Beispielzeile in einer Kalkulationstabellendatei mit Angebotsmultiplikator")
 
-      1. Klicken Sie auf **[!UICONTROL Next]** , um zum Abschnitt [!UICONTROL Upload File] zu wechseln, und entweder a) ziehen Sie die bearbeitete Datei per Drag-and-Drop in das Feld oder b) klicken Sie in das Feld, um die Datei auf Ihrem Gerät oder Netzwerk auszuwählen.
+     1. Klicken Sie auf **[!UICONTROL Next]** , um zum Abschnitt [!UICONTROL Upload File] zu wechseln, und entweder a) ziehen Sie die bearbeitete Datei per Drag-and-Drop in das Feld oder b) klicken Sie in das Feld, um die Datei auf Ihrem Gerät oder Netzwerk auszuwählen.
 
-      1. Überprüfen Sie die hochgeladenen Daten im Abschnitt [!UICONTROL Review & Submit] und klicken Sie dann auf **[!UICONTROL Save]**.
+     1. Überprüfen Sie die hochgeladenen Daten im Abschnitt [!UICONTROL Review & Submit] und klicken Sie dann auf **[!UICONTROL Save]**.
 
 ## Hochladen von Angebotsmultiplikatoren für eine oder mehrere Platzierungen
 

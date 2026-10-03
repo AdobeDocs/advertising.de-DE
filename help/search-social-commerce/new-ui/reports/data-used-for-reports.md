@@ -2,22 +2,32 @@
 title: (Neue Benutzeroberfläche) Die für Berichte verwendeten Daten
 description: Erfahren Sie mehr über die verschiedenen Datentypen, die in Datenansichten und benutzerdefinierten Berichten verfügbar sind.
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+    internal-label: Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 604
-ht-degree: 0%
-
+source-wordcount: '643'
+ht-degree: 6%
 ---
-
 # (Neue Benutzeroberfläche) Die für Berichte verwendeten Daten
 
 Search, Social und Commerce enthalten einen umfassenden Satz von Leistungsberichten, die auf Klick- und Konversionsdaten basieren. Sie können grundlegende Leistungsdaten für die verschiedenen Komponenten eines Portfolios oder Werbekontos in den [!UICONTROL Portfolios]- und [!UICONTROL Campaigns] sowie durch Generieren verschiedener grundlegender und erweiterter Berichte anzeigen.
@@ -28,21 +38,21 @@ Die meisten Berichte können so angepasst werden, dass nur die Informationen ang
 
 * **Standardleistungsmetriken:**
 
-   * **[!UICONTROL Impressions]:** Die Gesamtzahl der Male, wie oft die Anzeige platziert wurde.
+  * **[!UICONTROL Impressions]:** Die Gesamtzahl der Male, wie oft die Anzeige platziert wurde.
 
-   * **[!UICONTROL Clicks]:** Die Gesamtzahl der Klicks auf einen Link in der Anzeige.
+  * **[!UICONTROL Clicks]:** Die Gesamtzahl der Klicks auf einen Link in der Anzeige.
 
-   * **[!UICONTROL Cost]:** Die Gesamtkosten der Anzeige. Die Kosten für PPC-Werbung sind immer die Anzahl der Klicks multipliziert mit den Kosten pro Klick.
+  * **[!UICONTROL Cost]:** Die Gesamtkosten der Anzeige. Die Kosten für PPC-Werbung sind immer die Anzahl der Klicks multipliziert mit den Kosten pro Klick.
 
-   * **[!UICONTROL Cost per Click]:** Die durchschnittlichen Kosten für einen Klick für eine Anzeige, die sich aus den Kosten der Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige ergeben. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, liegen die Kosten pro Klick bei 100 USD/10=10 USD pro Klick.
+  * **[!UICONTROL Cost per Click]:** Die durchschnittlichen Kosten für einen Klick für eine Anzeige, die sich aus den Kosten der Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige ergeben. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick.
 
-   * **[!UICONTROL Average Position]:** (falls zutreffend) Die durchschnittliche Position einer platzierten Anzeige, gewichtet durch die Anzahl der Impressionen.
+  * **[!UICONTROL Average Position]:** (falls zutreffend) Die durchschnittliche Position einer platzierten Anzeige, gewichtet durch die Anzahl der Impressionen.
 
-   * **[!UICONTROL Estimated Clicks]:** (nur in erweiterten Berichten für Werbetreibende mit dem Konversionsverfolgungs-Service von Adobe Advertising enthalten) Die Gesamtzahl der geschätzten Klicks für einen Stadt- oder Domain-Namen einer verweisenden Website. Dies kann Daten für Werbenetzwerke enthalten, für die ein Advertiser kein Werbekonto hat.
+  * **[!UICONTROL Estimated Clicks]:** (nur in erweiterten Berichten für Werbetreibende mit dem Konversionsverfolgungs-Service von Adobe Advertising enthalten) Die Gesamtzahl der geschätzten Klicks für einen Stadt- oder Domain-Namen einer verweisenden Website. Dies kann Daten für Werbenetzwerke enthalten, für die ein Advertiser kein Werbekonto hat.
 
 * **Konversionsmetriken:** Die Gesamtzahl der Konversionen für jede der Konversionsmetriken des Advertisers oder der Transaktionsdaten, die in Richtung einer Konversionsmetrik verfolgt werden. Dies kann Konversions- und Site-Interaktionsmetriken umfassen, jedoch keine berechneten Metriken und erweiterten berechneten Metriken, die mit Adobe Analytics synchronisiert werden.
 
-  Dies kann auch [[!DNL Google Ads]-getrackte &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
+  Dies kann auch [[!DNL Google Ads]-getrackte ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen ](/help/search-social-commerce/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
 
 * **Benutzerdefinierte Metriken:** Eigene Metriken, die Sie durch die Erstellung von Formeln ableiten, die auf vorhandenen Metriken basieren (z. B. die Kosten pro Bestellung).
 

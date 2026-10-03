@@ -3,18 +3,23 @@ title: Spaltenfilter bearbeiten
 description: Erfahren Sie, wie Sie Spaltenfilter bearbeiten.
 exl-id: 68f816ea-cde2-4df0-b46c-f47fa20a2727
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/BeMoK7e--CoIqQDg364E9nnb28nGDYwP6YaKu3swzHY
+TQID: 'https://experienceleague.adobe.com/BeMoK7e--CoIqQDg364E9nnb28nGDYwP6YaKu3swzHY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '588'
 ht-degree: 0%
-
 ---
-
 # Spaltenfilter bearbeiten
 
 <!-- Doesn't include instructions for legacy Portfolios view; not available in Reports views -->
@@ -27,21 +32,21 @@ ht-degree: 0%
 
    * Um einen Filter hinzuzufügen, klicken Sie auf **[!UICONTROL ADD FILTER]** und führen Sie dann folgende Schritte aus:
 
-      1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
+     1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
 
-      1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
+     1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
 
-      1. Definieren Sie den Filter für die Spalte :
+     1. Definieren Sie den Filter für die Spalte :
 
-         * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
+        * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
 
-         * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
+        * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
 
-           Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
+          Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
 
-           Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
+          Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
 
-           **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
+          **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
 
    * Um einen vorhandenen Filter zu bearbeiten, klicken Sie auf den Filter und ändern Sie dann die Filterdefinition.
 
@@ -49,27 +54,27 @@ ht-degree: 0%
 
 ## (Alte Benutzeroberfläche) Bearbeiten eines Filtersatzes in der Ansicht Kampagnenverwaltung
 
-1. Klicken Sie ![&#x200B; der Symbolleiste &#x200B;](/help/search-social-commerce/assets/filter.png "Filter").
+1. Klicken Sie ![ der Symbolleiste ](/help/search-social-commerce/assets/filter.png "Filter").
 
 1. Führen Sie in den Filtereinstellungen einen der folgenden Schritte aus:
 
    * Um einen Filter hinzuzufügen, klicken Sie auf ![Filter hinzufügen](/help/search-social-commerce/assets/add.png "Filter hinzufügen") **[!UICONTROL ADD FILTER]** und führen Sie dann die folgenden Schritte aus:
 
-      1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
+     1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
 
-      1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
+     1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
 
-      1. Definieren Sie den Filter für die Spalte :
+     1. Definieren Sie den Filter für die Spalte :
 
-         * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
+        * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
 
-         * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
+        * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
 
-           Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
+          Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
 
-           Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]* oder *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
+          Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]* oder *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
 
-           **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen mit „Darlehen“ im Namen suchen, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
+          **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen mit „Darlehen“ im Namen suchen, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
 
    * Um einen vorhandenen Filter zu bearbeiten, klicken Sie auf den Filter und ändern Sie dann die Filterdefinition.
 

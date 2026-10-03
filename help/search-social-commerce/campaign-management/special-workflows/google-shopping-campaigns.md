@@ -1,22 +1,26 @@
 ---
-title: Implementieren  [!DNL Google Ads]  Einkaufskampagnen
-description: Erfahren Sie mehr über den Workflow zum Einrichten von  [!DNL Google Ads] .
+title: Implementieren [!DNL Google Ads] Shopping-Kampagnen
+description: Erfahren Sie mehr über den Workflow zum Einrichten von [!DNL Google Ads].
 exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/9xk2sCRBNJdRI1az99RyUkAlL-8P9s3OD70Htmnt4r8
+TQID: 'https://experienceleague.adobe.com/9xk2sCRBNJdRI1az99RyUkAlL-8P9s3OD70Htmnt4r8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '459'
 ht-degree: 0%
-
 ---
-
 # Implementieren [!DNL Google Ads] Shopping-Kampagnen
 
 Anzeigen in Shopping-Kampagnen verwenden Daten über Produkte in Ihrem vorhandenen [!DNL Google Merchant Center]-Produkt-Feed anstelle von Keywords, um zu entscheiden, wie und wo Ihre Anzeigen angezeigt werden sollen.
@@ -27,7 +31,7 @@ Sie können steuern, welche Produkte mit Ihren Shopping-Anzeigen angezeigt werde
 
 ## Schritte zum Einrichten [!DNL Google Ads] Einkaufskampagnen
 
-Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)Inventar-Feed-Vorlagen[!DNL Google Shopping], mithilfe von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) oder einzeln einrichten. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
+Sie können Shopping-Kampagnen [!DNL Google Shopping] mithilfe von [Inventar-Feed-Vorlagen](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md), mithilfe von [Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) oder einzeln einrichten. Die folgenden Anweisungen enthalten Links zum Erstellen einzelner Entitäten.
 
 1. Richten Sie Ihr [!DNL Google Merchant Center]-Konto ein und füllen Sie es mit Produktdaten.
 
@@ -35,7 +39,7 @@ Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-soc
 
 1. [Erstellen einer Kampagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) im Shopping-Netzwerk.
 
-1. [Erstellen Sie innerhalb &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
+1. [Erstellen Sie innerhalb ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) Kampagne eine Anzeigengruppe und legen Sie das Standardangebot für alle Anzeigen fest.
 
    Sie können das Standardangebot für einzelne Produktgruppen überschreiben.
 
@@ -58,7 +62,7 @@ Sie können Shopping-Kampagnen [&#x200B; mithilfe von &#x200B;](/help/search-soc
 
       Wenn die Kampagne Teil eines Portfolios ist, können Search, Social und Commerce mit der Portfolioeinstellung &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; die Budgets für alle Kampagnen im Portfolio optimieren.
 
-   1. [Passen Sie das maximale Angebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [löschen Sie Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe „Alle Produkte“ &#x200B;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), um Anzeigen für zusätzliche Produkte zu erstellen.
+   1. [Passen Sie das maximale Angebot für bestehende Produktgruppen an](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [löschen Sie Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) für die Sie keine Anzeigen mehr erstellen möchten, oder fügen Sie eine [neue Produktgruppe „Alle Produkte“ ](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) oder [neue untergeordnete Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), um Anzeigen für zusätzliche Produkte zu erstellen.
 
 >[!NOTE]
 >

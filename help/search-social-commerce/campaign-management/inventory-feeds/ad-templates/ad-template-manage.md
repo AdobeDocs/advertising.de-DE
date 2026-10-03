@@ -3,18 +3,21 @@ title: Verwalten von Anzeigenvorlagen für Inventar-Feeds
 description: Erfahren Sie mehr über die Verwaltung von Anzeigenvorlagen, mit denen Ihre Inventardaten zur Verwaltung der Kontostruktur und zur Bereitstellung dynamischer Anzeigen verarbeitet werden können.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Anzeigenvorlagen für Inventar-Feeds
 
 *[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
@@ -41,9 +44,9 @@ Erstellen Sie separate Vorlagen für Text- und erweiterte/erweiterte Textanzeige
 
    * So klonen Sie eine vorhandene Vorlage:
 
-      1. Aktivieren Sie das Kontrollkästchen neben der Vorlage, die Sie kopieren möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben der Vorlage, die Sie kopieren möchten.
 
-      1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create/Clone]** und wählen Sie dann das entsprechende Werbenetzwerk aus.
+     1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create/Clone]** und wählen Sie dann das entsprechende Werbenetzwerk aus.
 
    * (So bearbeiten Sie eine vorhandene Vorlage) Klicken Sie neben dem Vorlagennamen auf ![Einstellungen anzeigen/bearbeiten](/help/search-social-commerce/assets/settings.png "Einstellungen anzeigen/bearbeiten").
 
@@ -72,47 +75,47 @@ Erstellen Sie separate Vorlagen für Text- und erweiterte/erweiterte Textanzeige
       >* Sie können bis zu vier Anzeigenvariantenvorlagen pro Standardtext-Anzeigenvorlage, fünf Anzeigenvariantenvorlagen pro erweiterter/erweiterter Text-Anzeigenvorlage und drei Anzeigenvariantenvorlagen pro responsiver Suchanzeigenvorlage einbeziehen.
       >* Jede Anzeigengruppe kann bis zu drei aktivierte responsive Suchanzeigen enthalten.
       >* Sie können keine vorhandenen Standardtextanzeigen-Varianten bearbeiten, und vorhandene Vorlagen generieren keine Standardtextanzeigen mehr.
-      >* Wenn Sie eine Anzeigenvariantenvorlage ändern, können bestehende Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage weitergeben ([&#x200B; nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
+      >* Wenn Sie eine Anzeigenvariantenvorlage ändern, können bestehende Anzeigen gelöscht und neue erstellt werden, wenn Sie Daten über die Vorlage weitergeben ([ nach Anzeigentyp und Anzeigennetzwerk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
 
       * Gehen Sie wie folgt vor, um eine Anzeigenvariante hinzuzufügen:
 
-         1. Klicken Sie auf **[!UICONTROL Add Ad Variation]** , um eine Textanzeige zu erstellen, **[!UICONTROL Add ETA Variation]**, um eine erweiterte/erweiterte Textanzeige zu erstellen, oder **[!UICONTROL Add RSA Variation]**, um eine responsive Textanzeige zu erstellen.
+        1. Klicken Sie auf **[!UICONTROL Add Ad Variation]** , um eine Textanzeige zu erstellen, **[!UICONTROL Add ETA Variation]**, um eine erweiterte/erweiterte Textanzeige zu erstellen, oder **[!UICONTROL Add RSA Variation]**, um eine responsive Textanzeige zu erstellen.
 
-            Nachdem Sie den Anzeigentyp angegeben haben, können Sie nur diesen Anzeigentyp mit der Vorlage erstellen.
+           Nachdem Sie den Anzeigentyp angegeben haben, können Sie nur diesen Anzeigentyp mit der Vorlage erstellen.
 
-         1. Geben Sie die Anzeigeneinstellungen an.
+        1. Geben Sie die Anzeigeneinstellungen an.
 
-            Bei responsiven Suchanzeigen können Sie 3-15 Überschriften und 2-4 Beschreibungen einfügen.
+           Bei responsiven Suchanzeigen können Sie 3-15 Überschriften und 2-4 Beschreibungen einfügen.
 
-         1. (Optional) Um alle alternativen Anzeigenkopie-Felder mit Text aus den ursprünglichen Anzeigenkopie-Feldern vorauszufüllen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Prefill]**.
+        1. (Optional) Um alle alternativen Anzeigenkopie-Felder mit Text aus den ursprünglichen Anzeigenkopie-Feldern vorauszufüllen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Prefill]**.
 
-         1. (Optional) Um einer Anzeige einen weiteren Satz von Anzeigenkopien hinzuzufügen, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximale Länge überschreitet, sobald dynamische Parameter während der Übertragung durch Daten ersetzt werden, klicken Sie auf **[!UICONTROL Add Alternate]** und fügen Sie dann die alternativen Werte hinzu.
+        1. (Optional) Um einer Anzeige einen weiteren Satz von Anzeigenkopien hinzuzufügen, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximale Länge überschreitet, sobald dynamische Parameter während der Übertragung durch Daten ersetzt werden, klicken Sie auf **[!UICONTROL Add Alternate]** und fügen Sie dann die alternativen Werte hinzu.
 
-            >[!NOTE]
-            >
-            >* Wenn die Option [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und Sie können sie nach Bedarf bearbeiten.
-            >* Nur die Anzeigenkopie-Felder, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die ursprünglichen Beschreibungen. Achten Sie daher darauf, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
-            >* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
-            >* Für jedes Anzeigenkopie-Feld können bis zu vier Alternativen angegeben werden.
+           >[!NOTE]
+           >
+           >* Wenn die Option [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und Sie können sie nach Bedarf bearbeiten.
+           >* Nur die Anzeigenkopie-Felder, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die ursprünglichen Beschreibungen. Achten Sie daher darauf, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
+           >* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
+           >* Für jedes Anzeigenkopie-Feld können bis zu vier Alternativen angegeben werden.
 
-         * Gehen Sie wie folgt vor, um eine Anzeigenvariante zu bearbeiten:
+        * Gehen Sie wie folgt vor, um eine Anzeigenvariante zu bearbeiten:
 
-            1. Bearbeiten Sie die Anzeigeneinstellungen.
+          1. Bearbeiten Sie die Anzeigeneinstellungen.
 
-               Bei responsiven Suchanzeigen können Sie 3-15 Überschriften und 2-4 Beschreibungen einfügen.
+             Bei responsiven Suchanzeigen können Sie 3-15 Überschriften und 2-4 Beschreibungen einfügen.
 
-            1. (Optional) Um alle alternativen Anzeigenkopie-Felder mit Text aus den ursprünglichen Anzeigenkopie-Feldern vorauszufüllen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Prefill]**.
+          1. (Optional) Um alle alternativen Anzeigenkopie-Felder mit Text aus den ursprünglichen Anzeigenkopie-Feldern vorauszufüllen, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Prefill]**.
 
-            1. (Optional) Um einer Anzeige einen weiteren Satz von Anzeigenkopien hinzuzufügen, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximale Länge überschreitet, sobald dynamische Parameter während der Übertragung durch Daten ersetzt werden, klicken Sie auf **[!UICONTROL Add Alternate]** und fügen Sie dann die alternativen Werte hinzu.
+          1. (Optional) Um einer Anzeige einen weiteren Satz von Anzeigenkopien hinzuzufügen, der verwendet werden kann, wenn eine der Zeilen in der ursprünglichen Anzeigenkopie die maximale Länge überschreitet, sobald dynamische Parameter während der Übertragung durch Daten ersetzt werden, klicken Sie auf **[!UICONTROL Add Alternate]** und fügen Sie dann die alternativen Werte hinzu.
 
-               >[!NOTE]
-               >
-               >* Wenn die Option [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und Sie können sie nach Bedarf bearbeiten.
-               >* Nur die Anzeigenkopie-Felder, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die ursprünglichen Beschreibungen. Achten Sie daher darauf, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
-               >* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
-               >* Für jedes Anzeigenkopie-Feld können bis zu vier Alternativen angegeben werden.
+             >[!NOTE]
+             >
+             >* Wenn die Option [!UICONTROL Prefill] ausgewählt ist, werden die alternativen Felder mit den ursprünglichen Feldern vorausgefüllt und Sie können sie nach Bedarf bearbeiten.
+             >* Nur die Anzeigenkopie-Felder, die die maximale Länge überschreiten, werden durch den alternativen Wert ersetzt. Wenn beispielsweise nur eine ursprüngliche Überschrift oder ein Titel zu lang ist, verwendet die generierte Anzeigenvariante die alternative Überschrift oder den alternativen Titel und die ursprünglichen Beschreibungen. Achten Sie daher darauf, dass die alternative Anzeigenkopie in Kombination mit der ursprünglichen Anzeigenkopie sinnvoll ist.
+             >* Wenn die ursprüngliche Anzeigenkopie die Längenanforderungen der Suchmaschine erfüllt, wird die alternative Anzeigenkopie verworfen.
+             >* Für jedes Anzeigenkopie-Feld können bis zu vier Alternativen angegeben werden.
 
-         * Um eine Anzeigenvariante zu entfernen, klicken Sie auf **[!UICONTROL Remove ETA Variation]** (für erweiterte/erweiterte Textanzeigen) oder **[!UICONTROL Remove RSA Variation]** (für responsive Suchanzeigen) neben der Anzeigenvariante.
+        * Um eine Anzeigenvariante zu entfernen, klicken Sie auf **[!UICONTROL Remove ETA Variation]** (für erweiterte/erweiterte Textanzeigen) oder **[!UICONTROL Remove RSA Variation]** (für responsive Suchanzeigen) neben der Anzeigenvariante.
 
    1. (Nur Shopping-Vorlagen) Klicken Sie auf die Registerkarte **[!UICONTROL Product Groups]** und geben Sie dann Informationen zu den Produktgruppen an, die Sie ansprechen möchten.
 

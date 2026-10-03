@@ -1,27 +1,38 @@
 ---
 title: Konvertierungsdaten [!DNL Microsoft Advertising]
-description: Erfahren Sie mehr über die Typen  [!DNL Microsoft Advertising] verfolgten Konversionsdaten, die in Search, Social und Commerce verfügbar sind.
+description: Erfahren Sie mehr über die Arten von Konversionsdaten mit [!DNL Microsoft Advertising]-Tracking, die in Search, Social und Commerce verfügbar sind.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+TQID: 'https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] von Konversionsdaten in Search, Social und Commerce
 
-Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] UET-Tags (Universal Event Tracking) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/53056) werden, für Website-Konversionen, einschließlich View-Through-Konversionen, um Berichte zu erstellen und zu optimieren.
+Search, Social und Commerce synchronisieren automatisch alle Konversionen, die von Ihren [[!DNL Microsoft Advertising] UET-Tags (Universal Event Tracking) ](https://help.ads.microsoft.com/#apex/ads/en/53056) werden, für Website-Konversionen, einschließlich View-Through-Konversionen, um Berichte zu erstellen und zu optimieren.
 
 Alle Metriken sind automatisch in Ihren Kampagnenverwaltungsansichten und Basisberichten verfügbar und können auch in Portfoliozielen zur Optimierung [!DNL Microsoft Advertising] Kampagnen verwendet werden.
 

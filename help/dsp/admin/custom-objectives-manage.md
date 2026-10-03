@@ -3,18 +3,29 @@ title: Benutzerdefinierte Ziele verwalten
 description: Erfahren Sie, wie Sie die Erfolgsereignisse definieren, die Ihnen beim Erreichen der Optimierungsziele auf Paketebene helfen.
 role: User, Admin
 feature: DSP Optimization, DSP Packages
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 0%
-
 ---
-
 # Benutzerdefinierte Ziele verwalten
 
 *Verfügbar für DSP-Konten, die mit Search-, Social- und Commerce-Konten verknüpft sind*
 
-Ziele definieren die Erfolgsereignisse, die ein Advertiser festlegt, um seine Geschäftsziele zu erreichen. Ziele sind für DSP-Pakete als &quot;[&quot; &#x200B;](/help/dsp/campaign-management/packages/package-settings.md). Jedes Paket, das das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwendet, muss ein benutzerdefiniertes Ziel enthalten, um zum Erreichen des übergeordneten Optimierungsziels beizutragen.
+Ziele definieren die Erfolgsereignisse, die ein Advertiser festlegt, um seine Geschäftsziele zu erreichen. Ziele sind für DSP-Pakete als &quot;[&quot; ](/help/dsp/campaign-management/packages/package-settings.md). Jedes Paket, das das Optimierungsziel &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; oder &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; verwendet, muss ein benutzerdefiniertes Ziel enthalten, um zum Erreichen des übergeordneten Optimierungsziels beizutragen.
 
 Ein Ziel besteht aus den zu verfolgenden und zu optimierenden Metriken (Eigenschaften) und den relativen Gewichtungen dieser Metriken. Jedes Ziel kann Folgendes umfassen:
 
@@ -77,7 +88,7 @@ Die Ansicht [!UICONTROL Settings] > [!UICONTROL Custom Objectives] zeigt den Sta
 
 1. (Ziele mit benutzerdefinierter Gebotsabgabe; optional) Klicken Sie auf &quot;**[!UICONTROL Generate]**&quot; im unteren Abschnitt, um die empfohlenen Hilfemetriken auf der Grundlage vergangener Leistungsdaten zu generieren. Klicken Sie in der **[!UICONTROL Generate Recommendation]** auf **[!UICONTROL Generate]**.
 
-   Die Generierung empfohlener Metriken kann bis zu 20 Minuten dauern. Während die Empfehlungen generiert werden, wird der Status des benutzerdefinierten Ziels *[!UICONTROL Waiting]*. Sobald die Empfehlungen generiert wurden, können Sie &quot;[&#x200B; empfohlenen Assist-Ereignisse anzeigen und &#x200B;](#view-apply-recommendations)&quot;.
+   Die Generierung empfohlener Metriken kann bis zu 20 Minuten dauern. Während die Empfehlungen generiert werden, wird der Status des benutzerdefinierten Ziels *[!UICONTROL Waiting]*. Sobald die Empfehlungen generiert wurden, können Sie &quot;[ empfohlenen Assist-Ereignisse anzeigen und ](#view-apply-recommendations)&quot;.
 
 1. (Wenn Sie keine Empfehlungen generiert haben) Klicken Sie oben rechts auf **[!UICONTROL Save]**.
 
@@ -107,7 +118,7 @@ In den [DSP](/help/dsp/campaign-management/packages/package-settings.md)Paketein
 
 1. (Ziele mit benutzerdefinierter Gebotsabgabe; optional) Um empfohlene Hilfsmetriken auf der Grundlage vergangener Leistungsdaten zu generieren, klicken Sie auf **[!UICONTROL Generate]** im unteren Abschnitt. Klicken Sie in der **[!UICONTROL Generate Recommendation]** auf **[!UICONTROL Generate]**.
 
-   Die Generierung empfohlener Metriken kann bis zu 20 Minuten dauern. Während die Empfehlungen generiert werden, wird der Status des benutzerdefinierten Ziels *[!UICONTROL Waiting]*. Sobald die Empfehlungen generiert wurden, können Sie &quot;[&#x200B; empfohlenen Assist-Ereignisse anzeigen und &#x200B;](#view-apply-recommendations)&quot;.
+   Die Generierung empfohlener Metriken kann bis zu 20 Minuten dauern. Während die Empfehlungen generiert werden, wird der Status des benutzerdefinierten Ziels *[!UICONTROL Waiting]*. Sobald die Empfehlungen generiert wurden, können Sie &quot;[ empfohlenen Assist-Ereignisse anzeigen und ](#view-apply-recommendations)&quot;.
 
 1. (Wenn Sie keine neuen Empfehlungen generiert haben) Klicken Sie oben rechts auf **[!UICONTROL Save]**.
 
@@ -167,7 +178,7 @@ You can delete an objective that's not assigned to a package.
 | Grundlegende Details | Name des Ziels | Der Name des Ziels.<br><br>Alle Zielnamen für Advertising DSP müssen mit dem Präfix „ADSP_“ versehen werden (nicht von Schreibweise abhängig), z. B. „ADSP_Registrations“. Verwenden Sie einen Namen, der leicht zu identifizieren ist, wenn Sie ihn einem Paket zuweisen möchten. |
 |  | Beschreibung | (Optional) Eine Beschreibung des Ziels. Die Beschreibung wird angezeigt, wenn Sie den Cursor über den Namen in der Liste Benutzerdefinierte Ziele halten. Wenn Sie keine Beschreibung angeben, wird stattdessen der Zielname wiederholt. |
 | Gebotsstrategie |  | Die Angebotsstrategie des Ziels, die die Ereignistypen bestimmt, die Sie konfigurieren können:<ul><li><b>[!UICONTROL Automated Bidding]:</b> Weisen Sie dem Ziel Eigenschaften (Metriken) als [!DNL goal] Metriken zu. [!DNL Adobe AI] weist automatisch gewichtete Assist-Ereignisse zu und aktualisiert diese, um mithilfe eines ausgewogenen Ansatzes von funnel Ihre Zielereignisse zu maximieren.</li><li><b>[!UICONTROL Custom Bidding]:</b> Richten Sie Ihre eigene Gebotsstrategie ein, indem Sie Eigenschaften entweder als &quot;[!DNL goal]&quot; oder als gewichtete &quot;[!DNL assist]&quot; Ereignisse zuweisen. Verwenden Sie diese erweiterte Option für vordefinierte Strategien.</li></ul>Wenn Sie die Bid-Strategie ändern, werden alle zuvor ausgewählten Metriken gelöscht. |
-| Eigenschaften | [!UICONTROL Available Metrics] | Alle für den Advertiser nachverfolgten Metriken. Um eine Metrik als Ziel hinzuzufügen, klicken Sie <b>[!UICONTROL Goal]</b> neben dem Metriknamen. (Nur [!UICONTROL Custom Bidding]) Um eine Metrik hinzuzufügen, die die zugewiesenen Zielmetriken unterstützt, klicken Sie <b>[!UICONTROL Assist]</b> neben dem Namen der Metrik.<br><br><b>Anmerkungen:</b> [!DNL Analytics] benutzerdefinierten Ereignisse folgen dieser Namenskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid.` [!DNL Analytics] Dimensionen und Segmente stehen für die Adobe Advertising-Optimierung nicht zur Verfügung.<br><br><b>Tipp:</b> Um die Leistung zu optimieren, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [&#x200B; unter „Best Practices zum Erstellen eines benutzerdefinierten &#x200B;](#custom-goal-best-practices)&quot;. |
+| Eigenschaften | [!UICONTROL Available Metrics] | Alle für den Advertiser nachverfolgten Metriken. Um eine Metrik als Ziel hinzuzufügen, klicken Sie <b>[!UICONTROL Goal]</b> neben dem Metriknamen. (Nur [!UICONTROL Custom Bidding]) Um eine Metrik hinzuzufügen, die die zugewiesenen Zielmetriken unterstützt, klicken Sie <b>[!UICONTROL Assist]</b> neben dem Namen der Metrik.<br><br><b>Anmerkungen:</b> [!DNL Analytics] benutzerdefinierten Ereignisse folgen dieser Namenskonvention: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Beispiel: `custom_event_16_examplersid.` [!DNL Analytics] Dimensionen und Segmente stehen für die Adobe Advertising-Optimierung nicht zur Verfügung.<br><br><b>Tipp:</b> Um die Leistung zu optimieren, müssen die kombinierten Metriken im benutzerdefinierten Ziel (Ziel) mindestens zehn Konversionen pro Tag umfassen. Ist dies nicht der Fall, empfiehlt es sich, dem Ziel zusätzliche unterstützende Konversionsmetriken hinzuzufügen, z. B. Produktseiten oder Programmstarts. Richtlinien finden [ unter „Best Practices zum Erstellen eines benutzerdefinierten ](#custom-goal-best-practices)&quot;. |
 |  | Selected Metrics | Der Name jeder im Ziel enthaltenen Konversionsmetrik. Führen Sie einen der folgenden Schritte aus:<ul><li>Um eine Metrik als Ziel hinzuzufügen, klicken Sie in der Spalte [!UICONTROL Available Metrics] auf <b>[!UICONTROL Goal]</b> neben dem Metriknamen.</li><li>(Nur [!UICONTROL Custom Bidding]) Um eine Metrik hinzuzufügen, die die zugewiesenen Zielmetriken unterstützt, klicken Sie in der Spalte [!UICONTROL Available Metrics] neben dem Metriknamen auf <b>[!UICONTROL Assist]</b> . Geben Sie dann die numerische Gewichtung der Metrik relativ zu anderen Metriken im Ziel ein. Die Gewichtung muss zwischen 0,001 und 1 liegen und kann Dezimalstellen enthalten. Die Standardgewichtung ist 1.</li><li>(Nur Strategie [!UICONTROL Custom Bidding]) Um die Gewichtung einer Hilfsmetrik zu bearbeiten, klicken Sie in das Feld und geben Sie die numerische Gewichtung der Metrik relativ zu anderen Metriken im Ziel ein. Die Gewichtung muss größer als null (0) sein und kann Dezimalstellen enthalten. Die Standardgewichtung ist 1.</li><li>Um eine Metrik aus dem Ziel zu entfernen, halten Sie den Cursor über den Namen der Metrik und klicken Sie auf **[!UICONTROL X]**./li></ul>**Hinweise:**<ul><li>Stellen Sie sicher, dass die verschiedenen Metriken und ihre Gewichtungen relativ sinnvoll sind. Sie können beispielsweise eine Zählung nicht direkt mit einem Dollarbetrag vergleichen.</li><li>Große relative Änderungen zwischen den Zielgewichtungen können zu temporärer Volatilität der Leistung führen, sodass die Leistung nach der Änderung überwacht wird.</li></ul>. |
 
 >[!MORELIKETHIS]

@@ -2,7 +2,13 @@
 title: (Neue Benutzeroberfläche) Replizieren von Google Ads-Kampagnen in Microsoft Advertising
 description: Erfahren Sie, wie Sie synchronisierte Kampagnen in einem Google Ads-Konto direkt in ein synchronisiertes Microsoft Advertising-Konto exportieren.
 feature: Search Campaign Management
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -59,7 +65,7 @@ Siehe [Was wird aus - [!DNL Google Ads]  importiert](https://help.ads.microsoft.
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL List of Import Jobs]** auf den Namen des Importvorgangs, und klicken Sie dann auf **[!UICONTROL Edit]**.
 
-1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ &#x200B;](#campaign-import-settings).
+1. Geben Sie im **[!UICONTROL Set schedule]** Schritt die [Zeitplaneinstellungen“ ](#campaign-import-settings).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -117,7 +123,7 @@ Sie können alle abgeschlossenen oder fehlgeschlagenen Importvorgänge auflisten
 
   * Um eine Kampagne oder eine Anzeigengruppe auszuwählen, wählen Sie das Element aus, sodass ein Häkchen angezeigt wird.
 
-  * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![&#x200B; der Spalte [!UICONTROL Selection] auf &#x200B;](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
+  * Um eine Kampagne oder eine Anzeigengruppe zu entfernen, heben Sie die Auswahl des Elements auf oder klicken Sie ![ der Spalte [!UICONTROL Selection] auf ](/help/search-social-commerce/assets/delete-new.png "Löschen")Löschen“.
 
 ### Registerkarte [!UICONTROL Customize Your Import]
 

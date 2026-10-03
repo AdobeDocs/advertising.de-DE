@@ -3,20 +3,24 @@ title: Anzeigen verwalten
 description: Erfahren Sie mehr über Anzeigen in Search, Social und Commerce, einschließlich der verfügbaren Anzeigentypen.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Über Anzeigen
 
 Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] und bestehende [!DNL Baidu] Konten*
@@ -31,9 +35,9 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
 * Geräteübergreifende, native **Zielgruppen-Anzeigen** für [!DNL Microsoft Advertising] Kampagnen auf der [!DNL Microsoft Audience Network]. Je nach den Kampagneneinstellungen stehen zwei Optionen für Zielgruppenanzeigen zur Verfügung:
 
-   * Wenn die Kampagne mit einem Merchant Center-Store verknüpft ist, lassen Sie das Anzeigennetzwerk automatisch Anzeigen-Feed-basierte Anzeigen für die Kampagne generieren, wobei die Produktinformationen des Stores verwendet werden. Sie müssen keine Feed-basierten Anzeigen für die Kampagne erstellen, sondern Anzeigengruppen mit Benutzer-Targeting.
+  * Wenn die Kampagne mit einem Merchant Center-Store verknüpft ist, lassen Sie das Anzeigennetzwerk automatisch Anzeigen-Feed-basierte Anzeigen für die Kampagne generieren, wobei die Produktinformationen des Stores verwendet werden. Sie müssen keine Feed-basierten Anzeigen für die Kampagne erstellen, sondern Anzeigengruppen mit Benutzer-Targeting.
 
-   * Wenn die Kampagne nicht mit einem Merchant Center-Konto verknüpft ist, erstellen Sie bildbasierte Zielgruppenanzeigen mit dem responsiven Anzeigenformat , das mehrere Text- und Bild-Assets enthält. Das Anzeigennetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen und zeigt sie auf Websites wie [!DNL MSN], [!DNL Outlook.com] und [!DNL Microsoft Edge] an.
+  * Wenn die Kampagne nicht mit einem Merchant Center-Konto verknüpft ist, erstellen Sie bildbasierte Zielgruppenanzeigen mit dem responsiven Anzeigenformat , das mehrere Text- und Bild-Assets enthält. Das Anzeigennetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen und zeigt sie auf Websites wie [!DNL MSN], [!DNL Outlook.com] und [!DNL Microsoft Edge] an.
 
 * **Nur-Anruf-Anzeigen** für [!DNL Google Ads] Kampagnen im Suchnetzwerk. Reine Anrufanzeigen sind Textanzeigen, die eine Telefonnummer enthalten. Optional können Sie eine [!DNL Google Ads] Weiterleitungsnummer für erweiterte Anrufberichte verwenden.
 
@@ -43,7 +47,7 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
 
   Wenn der Suchbegriff eines Benutzers genau mit einem Keyword in einer Ihrer schlüsselwortbasierten Kampagnen übereinstimmt, wird anstelle einer dynamischen Suchanzeige eine Anzeige aus der schlüsselwortbasierten Kampagne angezeigt. Das Anzeigennetzwerk zeigt eine dynamische Suchanzeige anstelle einer auf ein Keyword ausgerichteten Anzeige an, wenn der Suchbegriff des Benutzers eine breite Übereinstimmung oder Phrase mit einem Ihrer Keywords aufweist und Ihre dynamische Suchanzeige einen höheren Anzeigenrang hat.
 
-  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] &#x200B;](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
+  Weitere Informationen zu dynamischen Suchanzeigen finden Sie unter [[!DNL Google Ads] ](https://support.google.com/google-ads/answer/2471185) und [[!DNL Microsoft Advertising] Dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimedia-Anzeigen** für [!DNL Microsoft Advertising] Suchkampagnen. Multimedia-Anzeigen sind große Bildanzeigen, die an hervorgehobenen Positionen in der Haupt- und Seitenleiste angezeigt werden und pro Seite nur eine Multimedia-Anzeige angezeigt wird. Sie können mehrere Text- und Bild-Assets enthalten, z. B. responsive Anzeigen. Das Werbenetzwerk stellt die Anzeigen mithilfe der effektivsten Kombinationen von Anzeigenelementen zusammen. Multimedia-Anzeigen ersetzen nicht Ihre Text-Anzeigenplatzierungen.
 

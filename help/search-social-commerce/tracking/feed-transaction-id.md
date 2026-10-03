@@ -3,20 +3,24 @@ title: Konversionsverfolgung mit einem Transaktions-ID-Feed
 description: Erfahren Sie mehr über die Verwendung eines Transaktions-ID-Feeds für Konversions-Tracking-Daten.
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+TQID: 'https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # Konversionsverfolgung mit einem Transaktions-ID-Feed
 
 Wenn ein Advertiser sowohl Online- als auch Offline-Transaktionen hat, kann Adobe Advertising die Online-Transaktionen über das Adobe Advertising-Konversionsverfolgungspixel verfolgen, und der Advertiser kann die Offline-Transaktionen mithilfe einer Transaktions-ID verfolgen und über einen Feed bereitstellen:
@@ -39,7 +43,7 @@ Wenn ein Advertiser sowohl Online- als auch Offline-Transaktionen hat, kann Adob
 
 1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in Adobe Advertising hoch. Adobe Advertising vergleicht die Daten dann mit einzelnen Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
 
-1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; &#x200B;](/help/search-social-commerce/glossary.md#o-p).
+1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; ](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

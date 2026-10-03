@@ -3,10 +3,13 @@ title: Verwalten von Anzeigennetzwerkkonten
 description: Erfahren Sie, wie Sie Kontodetails für ein Anzeigennetzwerkkonto einrichten und verwalten.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
+TQID: 'https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%
@@ -57,7 +60,7 @@ Um das Synchronisieren oder Tracking eines Kontos zu aktivieren, müssen Sie ein
 
    1. Geben Sie im Abschnitt **[!UICONTROL Account Details]** die Kontodetails ein.
 
-      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto &#x200B;](https://oauth.net/2/):
+      Lassen Sie für Werbenetzwerke, die den Anmeldeautorisierungstyp &quot;[!UICONTROL oAuth]&quot; verwenden, Search, Social und Commerce mithilfe des OAuth[Autorisierungsprotokolls Zugriff auf das Konto ](https://oauth.net/2/):
 
       1. Geben Sie den **[!UICONTROL Login]** für das Konto ein, geben Sie optional das Kennwort ein, und klicken Sie dann auf **[!UICONTROL Authenticate]**.
 
@@ -265,7 +268,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 * **S_kwcid-Format:** (Bestehende [!DNL Google Ads]-Konten für Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration, für die die AMO-ID (s_kwcid) noch nicht migriert wurde)
 
-Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
+Dieses Konto verwendet das veraltete Format für den AMO-ID-Trackingcode, mit dem Adobe Advertising Daten über das Konto mit Adobe Analytics teilen kann. Das [neueste Format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID, die erforderlich sind, um für Kampagnen, Entwürfe und Experimente mit [!DNL Google Ads] in Analytics präzise Berichte auf Kampagnen- und Anzeigengruppenebene zu erstellen:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

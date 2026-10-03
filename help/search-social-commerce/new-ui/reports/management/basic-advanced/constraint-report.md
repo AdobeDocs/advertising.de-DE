@@ -2,13 +2,19 @@
 title: '[!UICONTROL Constraint Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Constraint Report].
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Constraint Report]
 
 Die [!UICONTROL Constraint Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für Einschränkungen, die die Architektur der Kennzeichnungsklassifizierung verwenden und über Portfolios, Werbenetzwerke, Konten, Kampagnen oder Anzeigengruppen aggregiert sind. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Begrenzung für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen befinden sich in aufsteigender Reihenfolge, zuerst nach der Einschränkung und dann standardmäßig nach dem Startdatum für die Zeiteinheit.

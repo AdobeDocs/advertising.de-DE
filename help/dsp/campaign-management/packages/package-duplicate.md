@@ -3,24 +3,29 @@ title: Duplizieren eines Pakets
 description: Erfahren Sie, wie Sie ein Paket duplizieren.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Duplizieren eines Pakets
 
 Duplizieren Sie ein Paket, um ein Paket mit ähnlichen Einstellungen zu erstellen. Sie können:
@@ -69,10 +74,10 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
 * Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
-   * Geo-Ziele
-   * Ereignispixel
-   * Anzeigen
-   * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+  * Geo-Ziele
+  * Ereignispixel
+  * Anzeigen
+  * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
 
 ## Best Practices für die Konfiguration des neuen Pakets
 
@@ -85,21 +90,21 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
 * Beachten Sie Folgendes und bearbeiten Sie das neue Paket nach Bedarf:
 
-   * Verfügt das Konto über genügend Mittel, um das neue Budgetpaket aufzunehmen?
+  * Verfügt das Konto über genügend Mittel, um das neue Budgetpaket aufzunehmen?
 
-   * Benötigt das neue Paket ein anderes Budget als das vorherige?
+  * Benötigt das neue Paket ein anderes Budget als das vorherige?
 
-   * Sind Mindestbudgets für eine der Platzierungen erforderlich?
+  * Sind Mindestbudgets für eine der Platzierungen erforderlich?
 
-   * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
+  * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
 
-   * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
+  * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
 
-   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in Platzierungen ein.
+  * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in Platzierungen ein.
 
-   * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
+  * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
 
-   * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
+  * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
 * Verwenden Sie bei Paketen, die benutzerdefinierte Optimierungsziele verwenden, die [[!UICONTROL Linked Package for Optimization Learnings Carryover] -Einstellung](/help/dsp/campaign-management/packages/package-settings.md) damit jedes Paket die historischen Daten der vorherigen Kampagne als Eingabe für die Optimierung des Pakets verwendet.
 

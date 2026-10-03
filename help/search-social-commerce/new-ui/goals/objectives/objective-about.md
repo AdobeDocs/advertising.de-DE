@@ -4,24 +4,31 @@ description: Erfahren Sie mehr über Ziele, um Ihre Geschäftsziele zu erreichen
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Über Ziele
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ Ziele sind Ziele, die ein Werbetreibender setzt, um seine Geschäftsziele zu err
 
 * In DSP werden Ziele als benutzerdefinierte Ziele für DSP-Konten angezeigt, die mit Such-, Social- und Commerce-Konten verknüpft sind. Jedes Paket, das die Optimierungsziele „Höchste Rendite auf Werbeausgaben (ROAS)“ oder „Niedrigste Kosten pro Akquise (CPA)“ verwendet, muss ein benutzerdefiniertes Ziel enthalten, das zum Erreichen des übergeordneten Optimierungsziels beiträgt.
 
-Ein Ziel besteht aus den zu verfolgenden und zu optimierenden Konversionsmetriken sowie den relativen Gewichtungen dieser Metriken. Angenommen, ein Online-Magazin mit zwei Online-Abonnementebenen und einer Print-Abonnementebene und dem Ziel „Gewinne maximieren“ hat drei Metriken: „einfache Online-Abonnements“ mit einem Wert von 20 USD, „Premium-Online-Abonnements“ mit einem Wert von 40 USD und „Print-Abonnements“ mit einem Wert von 30 USD. Wenn das Magazin eine Gewichtung entsprechend dem einmaligen Geldwert des Abonnements angeben möchte, wären die relativen Gewichtungen der Metriken 1, 2 bzw. 1,5.
+Ein Ziel besteht aus den zu verfolgenden und zu optimierenden Konversionsmetriken sowie den relativen Gewichtungen dieser Metriken. Angenommen, ein Online-Magazin mit zwei Online-Abonnementebenen und einer Print-Abonnementebene und dem Ziel „Gewinne maximieren“ hat drei Metriken: „Online-Basisabonnements“ mit einem Wert von 20 USD, „Online-Premium-Abonnements“ mit einem Wert von 40 USD und „Abonnements drucken“ mit einem Wert von 30 USD. Wenn das Magazin eine Gewichtung entsprechend dem einmaligen Geldwert des Abonnements angeben möchte, wären die relativen Gewichtungen der Metriken 1, 2 bzw. 1,5.
 
 Für jede Metrik im Ziel haben Sie folgende Möglichkeiten:
 
@@ -60,19 +67,19 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 * (Advertisers mit [!DNL Adobe Analytics for Advertising]) [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/overview.md).
 
-  In Search, Social und Commerce [&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md) die folgenden Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
+  In Search, Social und Commerce ](/help/integrations/analytics/analytics-data-in-advertising.md) die folgenden [Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
 
 * [!DNL Google] Metriken:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads]-getrackte Konversionen](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) von synchronisierten [!DNL Google Ads].
+  * [[!DNL Google Ads]-getrackte Konversionen](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) von synchronisierten [!DNL Google Ads].
 
-   * (Advertiser mit [[!DNL Google Analytics] Integrationen](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Seitenansichten, Sitzungen, Absprungrate (berechnet als Absprünge/Sitzungen) und Sitzungsdauer.
+  * (Advertiser mit [[!DNL Google Analytics] Integrationen](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Seitenansichten, Sitzungen, Absprungrate (berechnet als Absprünge/Sitzungen) und Sitzungsdauer.
 
-     In Search, Social und Commerce werden diese Metriken automatisch in die Angebotsalgorithmen des Portfolios einbezogen.
+    In Search, Social und Commerce werden diese Metriken automatisch in die Angebotsalgorithmen des Portfolios einbezogen.
 
 ## Option zum Hochladen von Zielen in die Werbenetzwerke
 
-Sie können [&#x200B; Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
+Sie können [ Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
 
 >[!MORELIKETHIS]
 >

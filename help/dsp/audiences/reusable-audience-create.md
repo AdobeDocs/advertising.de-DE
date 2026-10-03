@@ -3,22 +3,26 @@ title: Erstellen einer wiederverwendbaren Zielgruppe
 description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen. Verwenden Sie optional einen KI-unterstützten Zielgruppenagenten, indem Sie Ihre Zielgruppe in Eingabeaufforderungen in natürlicher Sprache beschreiben. Der Agent empfiehlt Drittanbietersegmente und erstellt Zielgruppenausdrücke zur Verwendung als Ziele oder Ausschlüsse.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer wiederverwendbaren Zielgruppe
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -53,53 +57,53 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
    >[!NOTE]
    >
-   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
+   >Beim Erstellen der Zielgruppe werden [ Daten zur ](audience-about.md) im rechten Bedienfeld aktualisiert
 
-   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell &#x200B;](audience-settings.md) erstellen.
+   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell ](audience-settings.md) erstellen.
 
-      * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
+     * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
 
-        Die Suchergebnisse enthalten Segmente, die auf den von Ihnen verwendeten genauen Begriffen basieren. Wenn Sie mehrere Begriffe eingeben, müssen alle Begriffe für ein Segment gefunden werden.
+       Die Suchergebnisse enthalten Segmente, die auf den von Ihnen verwendeten genauen Begriffen basieren. Wenn Sie mehrere Begriffe eingeben, müssen alle Begriffe für ein Segment gefunden werden.
 
-      * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+     * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
 
-      * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
+     * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
 
-         1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
+       1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
 
-         1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+       1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
 
-            *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Für eine Zielgruppe, die nur Ausschlüsse enthält, erstellen Sie diese Zielgruppe als *[!UICONTROL Include Any]* und wählen Sie dann innerhalb einer Platzierung diese Zielgruppe aus dem Menü Ausgeschlossene Zielgruppen aus.
+          *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Für eine Zielgruppe, die nur Ausschlüsse enthält, erstellen Sie diese Zielgruppe als *[!UICONTROL Include Any]* und wählen Sie dann innerhalb einer Platzierung diese Zielgruppe aus dem Menü Ausgeschlossene Zielgruppen aus.
 
-         1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+       1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
 
-            Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
+          Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
 
-      * Hinzufügen einer neuen Segmentgruppe:
+     * Hinzufügen einer neuen Segmentgruppe:
 
-         1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
+       1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
 
-            1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
+          1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
 
-            1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+          1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
 
-            1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
 
    * So verwenden Sie die Segmentlogik einer bestehenden Audience:
 
-      1. Kopieren Sie die Segmentlogik aus der bestehenden Audience auf eine der folgenden Arten:
+     1. Kopieren Sie die Segmentlogik aus der bestehenden Audience auf eine der folgenden Arten:
 
-         * Halten Sie in der Ansicht Alle Zielgruppen den Cursor über die Zeile Zielgruppe und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Halten Sie in der Ansicht Alle Zielgruppen den Cursor über die Zeile Zielgruppe und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Erstellen Sie in einem Texteditor manuell die Segmentlogik mit alphanumerischen Segment-IDs und [boolesche Syntax](audience-segment-logic-syntax.md) und kopieren Sie sie in die Zwischenablage.
+        * Erstellen Sie in einem Texteditor manuell die Segmentlogik mit alphanumerischen Segment-IDs und [boolesche Syntax](audience-segment-logic-syntax.md) und kopieren Sie sie in die Zwischenablage.
 
-      1. Klicken Sie auf **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.
+     1. Klicken Sie auf **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Wenn die Zielgruppe bereits eine Segmentlogik enthält, überschreibt das Einfügen einer neuen Segmentlogik die vorhandene Logik.
+        >[!NOTE]
+        >
+        >Wenn die Zielgruppe bereits eine Segmentlogik enthält, überschreibt das Einfügen einer neuen Segmentlogik die vorhandene Logik.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -133,7 +137,7 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
 
       Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
 
@@ -151,7 +155,7 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
    >[!NOTE]
    >
-   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
+   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
 ### Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
@@ -161,11 +165,11 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
 * Beschreiben Sie die Zielgruppe in einer klaren, beschreibenden Sprache.
 
-   * Sie können entweder ganze Sätze oder nur eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
+  * Sie können entweder ganze Sätze oder nur eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
 
-   * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
+  * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-   * Der Zielgruppenagent erkennt die häufigsten Synonyme.
+  * Der Zielgruppenagent erkennt die häufigsten Synonyme.
 
 * Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Je mehr Details Sie angeben, desto größer ist die Chance, dass Sie die Ergebnisse erhalten, die Ihren Anforderungen entsprechen.
 
@@ -179,7 +183,7 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
   Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
 <!--
 Consider starting by asking for what you should include.

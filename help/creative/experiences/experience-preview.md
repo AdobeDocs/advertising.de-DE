@@ -3,21 +3,29 @@ title: Erlebnisvorschau
 description: Erfahren Sie, wie Sie eine Vorschau der Kreativen in einem Werbeerlebnis anzeigen.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Erlebnisvorschau
 
 Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anzeigen, die Target-Betrachterinnen und -Betrachtern für ein Erlebnis angezeigt wird, einschließlich aller Hyperlinks. Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie eine Vorschau eines einzelnen Kreativen, der Kreativen für eine bestimmte Verzweigung (Zieltyp) oder aller Kreativen im Erlebnis anzeigen. Für Erlebnisse ohne Entscheidungsbaum-Targeting können Sie eine Vorschau eines einzelnen Kreativen anzeigen. <!-- verify -->
@@ -26,11 +34,11 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
 * Wenn Sie eine Vorschau eines einzelnen Kreativen anzeigen und mehrere Kreative den Kriterien entsprechen, basiert das Kreativ, das Sie jedes Mal sehen, wenn Sie die Vorschau aktualisieren, auf den Einstellungen für die Anzeigenrotation für das Erlebnis:
 
-   * Für die algorithmische Anzeigenrotation wird der Kreative basierend auf dem Optimierungsziel ausgewählt.
+  * Für die algorithmische Anzeigenrotation wird der Kreative basierend auf dem Optimierungsziel ausgewählt.
 
-   * Für die geplante Anzeigenrotation wird der erste Kreative im Zeitplan angezeigt. Sie können die Vorschau weiter aktualisieren, um die Sequenz zu durchlaufen.
+  * Für die geplante Anzeigenrotation wird der erste Kreative im Zeitplan angezeigt. Sie können die Vorschau weiter aktualisieren, um die Sequenz zu durchlaufen.
 
-   * Bei einer gewichteten Anzeigenrotation wird das Kreativ jedes Mal anhand der angegebenen Gewichtung ausgewählt (z. B. eine 80%ige Chance, dass Creative A angezeigt wird, und eine 20%ige Chance, dass Creative B angezeigt wird).
+  * Bei einer gewichteten Anzeigenrotation wird das Kreativ jedes Mal anhand der angegebenen Gewichtung ausgewählt (z. B. eine 80%ige Chance, dass Creative A angezeigt wird, und eine 20%ige Chance, dass Creative B angezeigt wird).
 
 ## Kreative in einem Erlebnis in der Vorschau anzeigen mit Targeting in einem Entscheidungsbaum
 
@@ -48,24 +56,24 @@ Sie können eine Vorschau der Kreativen mit einer bestimmten Anzeigengröße anz
 
    * So zeigen Sie eine Vorschau eines einzelnen Kreativen an:
 
-      1. Klicken Sie auf **[!UICONTROL Creative]**.
+     1. Klicken Sie auf **[!UICONTROL Creative]**.
 
-      1. Wählen Sie die Anzeigengröße aus.
+     1. Wählen Sie die Anzeigengröße aus.
 
-      1. Wählen Sie im Abschnitt [!UICONTROL Decision Tree Targeting] die kreative Zielgruppe aus.
+     1. Wählen Sie im Abschnitt [!UICONTROL Decision Tree Targeting] die kreative Zielgruppe aus.
 
    * So erstellen Sie eine Vorschau der Kreativen für eine bestimmte Verzweigung:
 
-      1. Klicken Sie auf **[!UICONTROL Particular branch]**.
+     1. Klicken Sie auf **[!UICONTROL Particular branch]**.
 
-      1. Wählen Sie die Anzeigengröße aus.
+     1. Wählen Sie die Anzeigengröße aus.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. Wählen Sie die kreative Zielgruppe aus.
+     1. Wählen Sie die kreative Zielgruppe aus.
 
    * Um eine Vorschau aller Kreativen im Erlebnis anzuzeigen, klicken Sie auf **[!UICONTROL Entire Tree]**.
 

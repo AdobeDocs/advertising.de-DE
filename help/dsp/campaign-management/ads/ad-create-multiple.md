@@ -3,22 +3,26 @@ title: Erstellen mehrerer Anzeigen von Drittanbietern
 description: Erfahren Sie, wie Sie mehrere Anzeigen von Drittanbietern gleichzeitig erstellen können.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-TQID: https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ
+TQID: 'https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # Erstellen mehrerer Anzeigen von Drittanbietern
 
 Sie können bis zu 500 Anzeigen von Drittanbietern gleichzeitig erstellen, indem Sie Tags hochladen, die auf Kreativ-Assets verweisen, die auf Anzeigen-Servern von Drittanbietern gehostet werden. Sie können Tracking-Pixel für die Anzeigen einbeziehen.<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
@@ -57,7 +61,7 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 
    1. (Optional) Führen Sie für jede Anzeige einen der folgenden Schritte aus:
 
-      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![&#x200B; in der &#x200B;](/help/dsp/assets/play.png) auf „Abspielen“.
+      * Um eine Anzeige in der Vorschau anzuzeigen, klicken ![ in der ](/help/dsp/assets/play.png) auf „Abspielen“.
 
       * Um die Anzeigendetails zu bearbeiten, klicken Sie auf ![Bearbeiten](/help/dsp/assets/edit.png), bearbeiten Sie die Details und klicken Sie dann auf **Speichern**.
 
@@ -71,11 +75,11 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 
    * (Wenn eine Anzeige abgelehnt wird; optional) So bearbeiten Sie den Anzeigeneintrag und senden die Anzeige erneut zur Überprüfung:
 
-      1. Klicken Sie auf den Anzeigenamen.
+     1. Klicken Sie auf den Anzeigenamen.
 
-      1. Bearbeiten Sie die Anzeigeneinstellungen.
+     1. Bearbeiten Sie die Anzeigeneinstellungen.
 
-      1. Klicken Sie auf **[!UICONTROL Save & submit for review]**.
+     1. Klicken Sie auf **[!UICONTROL Save & submit for review]**.
 
 >[!NOTE]
 >
@@ -86,5 +90,5 @@ Sie können entweder [!DNL DoubleClick] und [!DNL Flashtalking] Tag-Blätter ode
 >* [Über die Anzeigenverwaltung in Advertising DSP](ad-about.md)
 >* [Anzeigenspezifikationen](ad-specs.md)
 >* [Erstellen einer einzelnen Anzeige](ad-create.md)
->* [Video: So laden Sie Anzeigen-Tags von Drittanbietern stapelweise hoch](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=de)
+>* [Video: So laden Sie Anzeigen-Tags von Drittanbietern stapelweise hoch](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)

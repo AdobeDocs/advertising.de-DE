@@ -3,18 +3,24 @@ title: Ändern der Konversionsmetriken, die in Verwaltungsansichten und -bericht
 description: Erfahren Sie, wie Sie Konversionsmetriken in Ihren Verwaltungsansichten und -berichten verfügbar machen.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Ändern der Konversionsmetriken, die in Verwaltungsansichten und -berichten verfügbar sind
 
 Wenn Adobe Advertising eine [Konversions](/help/search-social-commerce/glossary.md#c-d)-Metrik für einen Advertiser verfolgt, wird diese zunächst aus Portfoliozielen, Berichten und Verwaltungsansichten ausgeschlossen. Um eine Konversionsmetrik sichtbar zu machen, müssen Sie sie explizit verfügbar machen und dann optional den standardmäßigen Anzeigenamen ändern, d. h. den angezeigten Namen. Die einzige Ausnahme besteht darin, dass Konversionen, die von [!DNL Google Ads], [!DNL Google Analytics] und [!DNL Microsoft Advertising] universellen Ereignisverfolgungs-Tags verfolgt werden, automatisch verfügbar und sichtbar sind.
@@ -31,7 +37,7 @@ Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugri
 
    * Um nach einem bestimmten Metriknamen oder Anzeigenamen zu suchen, klicken Sie auf ![Suchen](/help/search-social-commerce/assets/search.png "Suchen"), geben Sie das Wort oder die Zeichenfolge in das Eingabefeld ein und drücken Sie dann die **[!DNL Enter]**.
 
-     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [&#x200B; Kleinschreibung unterschieden &#x200B;](/help/search-social-commerce/glossary.md#c-d).
+     Sie können nach Zeichenfolgen suchen, die an einer beliebigen Stelle innerhalb des Satzes erscheinen (z. B. der erste Buchstabe oder die letzten drei Buchstaben), wobei bei den Suchbegriffen nicht zwischen Groß- [ Kleinschreibung unterschieden ](/help/search-social-commerce/glossary.md#c-d).
 
    * Um nach Konversionsmetriken anhand ihrer Verfügbarkeit in Verwaltungsansichten und Berichten zu suchen, klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter.png "Filter") und wählen Sie die **[!UICONTROL Show in UI and Reports]** aus. Wählen Sie dann entweder **[!UICONTROL Show]** (um die verfügbaren Konversionsmetriken anzuzeigen, die in Berichte und Verwaltungsansichten aufgenommen werden können) oder **[!UICONTROL Hide]** (um die Konversionsmetriken anzuzeigen, die nicht in Berichten und Verwaltungsansichten verfügbar sind).
 
@@ -41,13 +47,13 @@ Aus der Liste der verfügbaren Konversionsmetriken kann jeder Benutzer mit Zugri
 
    * Gehen Sie wie folgt vor, um mehrere Metriken ein- oder auszublenden:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Konversionsmetrik.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Konversionsmetrik.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Anzeigen](/help/search-social-commerce/assets/show.png "Anzeigen") um die Metriken anzuzeigen oder ![Ausblenden](/help/search-social-commerce/assets/hide.png "Ausblenden"), um die Metriken auszublenden.
+     1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Anzeigen](/help/search-social-commerce/assets/show.png "Anzeigen") um die Metriken anzuzeigen oder ![Ausblenden](/help/search-social-commerce/assets/hide.png "Ausblenden"), um die Metriken auszublenden.
 
-      1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
+     1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Yes]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
 1. (Optional) [Ändern Sie den Namen, der in den Spaltenüberschriften angezeigt wird](conversion-metric-edit-display-name.md) für eine der Konversionsmetriken.
 

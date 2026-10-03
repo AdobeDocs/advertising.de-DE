@@ -3,18 +3,23 @@ title: Anwenden von Datenfiltern über die Symbolleiste
 description: Erfahren Sie, wie Sie die Seitendaten aus der Symbolleiste filtern.
 exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/4TVsrpzMe1YRTJ30tMFXN-TSYuTu5wDTKiIohuTdWQE
+TQID: 'https://experienceleague.adobe.com/4TVsrpzMe1YRTJ30tMFXN-TSYuTu5wDTKiIohuTdWQE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 # Anwenden von Datenfiltern über die Symbolleiste
 
 <!-- Doesn't include instructions for legacy Portfolios view; not available in Reports views -->
@@ -29,21 +34,21 @@ Sie können beliebig viele Filter auf eine Ansicht anwenden.<!-- True only for e
 
    * Um einen Filter hinzuzufügen, klicken Sie auf **[!UICONTROL ADD FILTER]** und führen Sie dann folgende Schritte aus:
 
-      1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
+     1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
 
-      1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
+     1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
 
-      1. Definieren Sie den Filter für die Spalte :
+     1. Definieren Sie den Filter für die Spalte :
 
-         * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
+        * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
 
-         * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
+        * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
 
-           Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
+          Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
 
-           Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
+          Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
 
-           **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
+          **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
 
    * Um einen vorhandenen Filter zu bearbeiten, klicken Sie auf den Filter und ändern Sie dann die Filterdefinition.
 
@@ -57,25 +62,25 @@ Sie können beliebig viele Filter auf eine Ansicht anwenden.<!-- True only for e
 
    * Um einen Filter hinzuzufügen, klicken Sie auf ![Filter hinzufügen](/help/search-social-commerce/assets/add.png "Filter hinzufügen") **[!UICONTROL ADD FILTER]** und führen Sie dann die folgenden Schritte aus:
 
-      1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
+     1. (Optional) Um die Spaltennamen nach Textzeichenfolgen zu filtern, geben Sie die Suchzeichenfolge in das **[!UICONTROL ADD FILTER]** Eingabefeld ein.
 
-      1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
+     1. Wählen Sie im Menü Spalte einen Spaltennamen aus.
 
-      1. Definieren Sie den Filter für die Spalte :
+     1. Definieren Sie den Filter für die Spalte :
 
-         * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
+        * (Filter ohne Eingabefelder) Klicken Sie ![Nach unten](/help/search-social-commerce/assets/arrow-down-expand.png "Nach unten") neben dem zweiten Menü und aktivieren Sie dann die Kontrollkästchen neben den einzelnen einzuschließenden Werten.
 
-         * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
+        * (Filter mit Eingabefeldern) Wählen Sie im zweiten Menü einen Operator und geben Sie dann den entsprechenden Wert ein.
 
-           Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
+          Wenn Sie beispielsweise die Spalte &quot;[!UICONTROL Clicks]&quot; ausgewählt haben und nur Zeilen mit mehr als 100 Klicks zurückgeben möchten, wählen Sie &quot;*[!UICONTROL greater than]*&quot; aus und geben Sie `100` in das Eingabefeld ein.
 
-           Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
+          Je nach Datentyp können die verfügbaren Operatoren *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]* oder *[!UICONTROL no date]sein.*
 
-           **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
+          **Hinweis** Bei Textwerten wird nicht zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie beispielsweise nach Kampagnen filtern, bei denen im Namen „Kredit“ angegeben ist, umfassen die Ergebnisse „Verbraucherkredite“ und „Kreditanträge“.
 
-         * (Nur [!UICONTROL Ad Groups]-, [!UICONTROL Keywords]-, [!UICONTROL Product Groups]-, [!UICONTROL Placements]- und [!UICONTROL Auto Targets]; optional) Ändern Sie die Einstellung in &quot;[!UICONTROL Include rows with performance data only]&quot;.
+        * (Nur [!UICONTROL Ad Groups]-, [!UICONTROL Keywords]-, [!UICONTROL Product Groups]-, [!UICONTROL Placements]- und [!UICONTROL Auto Targets]; optional) Ändern Sie die Einstellung in &quot;[!UICONTROL Include rows with performance data only]&quot;.
 
-           **Warnung:** Wenn Sie die Option deaktivieren und die Ansicht viele Entitäten ohne Leistungsdaten enthält, dauert es länger, bis die Daten angezeigt werden.
+          **Warnung:** Wenn Sie die Option deaktivieren und die Ansicht viele Entitäten ohne Leistungsdaten enthält, dauert es länger, bis die Daten angezeigt werden.
 
    * Um einen vorhandenen Filter zu bearbeiten, klicken Sie auf den Filter und ändern Sie dann die Filterdefinition.
 

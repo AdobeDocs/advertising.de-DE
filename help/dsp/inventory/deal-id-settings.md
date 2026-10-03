@@ -3,23 +3,30 @@ title: Manuelle Deal ID-Einstellungen
 description: Siehe Beschreibungen der Einstellungen für manuell eingegebene Angebots-IDs.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 9d3417cb-8b44-4f1c-afc4-eea6a2e5b9d7
-TQID: https://experienceleague.adobe.com/1jcBNsmB8-5zM6udv9o3mILo70vOGrzZxEwPM62LPs0
+TQID: 'https://experienceleague.adobe.com/1jcBNsmB8-5zM6udv9o3mILo70vOGrzZxEwPM62LPs0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 # Manuelle Deal ID-Einstellungen
 
 | Abschnitt | Parameter | Beschreibung | Erforderlich | Bearbeitbar |
@@ -29,13 +36,13 @@ ht-degree: 0%
 | | [!UICONTROL Publisher] | Der Name des Herausgebers, der dieses Inventar verkauft. | Ja | Nein |
 | | [!UICONTROL SSP] | Die anbieterseitige Plattform (SSP), über die dieses Geschäft läuft. | Ja | Nein |
 | | [!UICONTROL Media type] | Die Art der Medien, die durch diesen Deal gekauft wurden: *[!UICONTROL Desktop video]*, *[!UICONTROL Mobile video]*, *[!UICONTROL Connected TV]*, *[!UICONTROL Display]*, *[!UICONTROL Audio]* oder *[!UICONTROL Publisher Managed]*. Die Optionen variieren je nach SSP.<br><br> Wenn der Deal mehrere Medientypen zulässt, wählen Sie beim Erstellen des Deals den Medientyp für die Standardplatzierung aus. Später können Sie den Wert ändern oder einfach [eine neue Platzierung mit dem zusätzlichen Medientyp anhängen](deal-id-attach-placements.md).<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | Ja | Nein |
-| | [!UICONTROL Deal type] | Die Verpflichtungs- und Preisstruktur des Geschäfts:<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*: Sie und der Publisher haben sich nicht auf eine feste Anzahl von Impression-Sendungen festgelegt. Der Deal legt den Mindestpreis für den Bestand fest, obwohl der CPM je nach Marktbedingungen schwanken und steigen kann.</li><li>*[!UICONTROL Non guaranteed (fixed)]*: Sie und der Publisher haben sich nicht auf eine feste Anzahl von Impression-Sendungen festgelegt. Die Preise werden zu einem festen ausgehandelten Satz festgelegt.</li><li>*[!UICONTROL Guaranteed (fixed)]*: Sie und der Publisher haben sich auf eine vordefinierte Anzahl von Impressionen, Zielgruppenbestimmung, Flugdaten und Festpreis geeinigt.<br><br><b>Hinweis</b> Für garantierte -Angebote sind die Flugdaten und eine bestimmte Anzahl von Impressionen im Abschnitt [!UICONTROL Tracking] erforderlich. Sie müssen auch eine standardmäßige programmgesteuert garantierte Platzierung (PG) für den Abschluss erstellen, und Sie können den Abschluss stattdessen auch für andere Platzierungen verwenden.</li></ul> | Ja | Nein |
+| | [!UICONTROL Deal type] | Die Verpflichtungs- und Preisstruktur des Geschäfts:<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*: Sie und der Publisher haben sich nicht auf eine feste Anzahl von Impression-Sendungen festgelegt. Der Deal legt den Mindestpreis für den Bestand fest, obwohl der CPM je nach Marktbedingungen schwanken und steigen kann.</li><li>*[!UICONTROL Non guaranteed (fixed)]*: Sie und der Publisher haben sich nicht auf eine feste Anzahl von Impression-Sendungen festgelegt. Die Preise werden zu einem festen ausgehandelten Satz festgelegt.</li><li>*[!UICONTROL Guaranteed (fixed)]*: Sie und der Publisher haben sich auf eine vorab definierte Anzahl von Impressions, Targeting, Flugdaten und Festpreis geeinigt.<br><br><b>Hinweis:</b> Garantierte Angebote erfordern Flugdaten und eine bestimmte Anzahl von Impressions im [!UICONTROL Tracking]. Sie müssen auch eine standardmäßige programmgesteuert garantierte Platzierung (PG) für den Abschluss erstellen, und Sie können den Abschluss stattdessen auch für andere Platzierungen verwenden.</li></ul> | Ja | Nein |
 | | [!UICONTROL CPM] | Die ausgehandelten Kosten pro 1000 Aufrufe (CPM). | Ja | Ja |
 | | [Währung] | Die Währung für den Deal.<br><br>Alle SSPs akzeptieren Angebote in USD. Wenn das SSP die Währung für Ihr DSP-Konto akzeptiert, ist diese Währung ebenfalls verfügbar. | Ja | Nein |
 | | [!UICONTROL Billing method] | Alle Angebots-IDs werden [!DNL Adobe] finanziert und fakturiert. DSP bezahlt alle verfügbaren Medienanbieter in Abhängigkeit von ihrer Nutzung, verwaltet Abweichungen von den Anbietern und sendet eine konsolidierte Rechnung an das Konto. Für diese Option fallen zusätzliche Gebühren an, wie auf der Tarifkarte des Kontos angegeben. | Ja | Nein |
 | [!UICONTROL Advertisers] | [!UICONTROL Account email] | Die E-Mail-Adresse für das Benutzerkonto, das auf das Angebot zugreifen kann. | Nein | Ja |
-| | [!UICONTROL Advertisers that can access this deal] | Die spezifischen Advertiser im Konto, die auf dieses Angebot zugreifen können.<br><br><b>Hinweis:</b> Sie können den Deal für Werbetreibende in zusätzlichen Konten über die [!UICONTROL Deals] freigeben. Klicken Sie in der Angebotszeile auf **[!UICONTROL #]**, klicken Sie auf **[!UICONTROL share]** und geben Sie das Angebot dann für eine E-Mail-Adresse frei. | Ja | Ja |
-| [!UICONTROL Tracking] | [!UICONTROL Flight Dates] | Das Start- und Enddatum für Traffic, der dieses Angebot verwendet. Diese Daten dienen nur zur Nachverfolgung und wirken sich nicht auf den Versand von Anzeigen aus.<br><br><b>Tipp:</b> In der Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] wird in der Spalte [!UICONTROL Pacing & Budget] angezeigt, wie sich das Angebot dem angegebenen Flugdatum und Impressionsziel entwickelt. Wenn der Versand zu langsam oder zu schnell erfolgt, wenden Sie sich an Ihren Publisher, um anzupassen, wie viel Volumen er über den Abschluss sendet. | Garantierte Angebote: Ja<br>Nicht garantierte Angebote: Nein | Ja |
+| | [!UICONTROL Advertisers that can access this deal] | Die spezifischen Advertiser im Konto, die auf dieses Angebot zugreifen können.<br><br><b>Hinweis:</b> Sie können das Angebot in der [!UICONTROL Deals] Ansicht für Advertiser in zusätzlichen Konten freigeben. Klicken Sie in der Angebotszeile auf **[!UICONTROL #]**, klicken Sie auf **[!UICONTROL share]** und geben Sie das Angebot dann für eine E-Mail-Adresse frei. | Ja | Ja |
+| [!UICONTROL Tracking] | [!UICONTROL Flight Dates] | Das Start- und Enddatum für Traffic, der dieses Angebot verwendet. Diese Daten dienen nur zu Tracking-Zwecken und wirken sich nicht auf die Bereitstellung von Anzeigen aus.<br><br><b>Tipp:</b> In der Ansicht [!UICONTROL Inventory] > [!UICONTROL Deals] wird in der Spalte [!UICONTROL Pacing & Budget] angezeigt, wie sich das Angebot am angegebenen Flugdatum und am angegebenen Impressionsziel bewegt. Wenn der Versand zu langsam oder zu schnell erfolgt, wenden Sie sich an Ihren Publisher, um anzupassen, wie viel Volumen er über den Abschluss sendet. | Garantierte Angebote: Ja<br>Nicht garantierte Angebote: Nein | Ja |
 | | [!UICONTROL Impressions] | (Optional für nicht garantierte Angebote) Die geschätzte Anzahl von Impressions, die Sie mit diesem Angebot erwarten. Dieser Wert dient nur zu Tracking-Zwecken. Der Herausgeber steuert die Bereitstellung und den Versand. | Garantierte Angebote: Ja<br>Nicht garantierte Angebote: Nein | Ja |
 
 {style="table-layout:auto"}

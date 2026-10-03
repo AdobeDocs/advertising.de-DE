@@ -3,7 +3,13 @@ title: (Neue Benutzeroberfläche) Über Anzeigennetzwerkkonten
 description: Erfahren Sie mehr über Anzeigennetzwerkkonten in der neuen Benutzeroberfläche für Suche, Social und Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -36,7 +42,7 @@ Mit Tracking-Kampagnen können Sie die Leistung der Anzeigen, die Sie direkt im 
 
 Damit Search, Social und Commerce Konversionen Klicks zuordnen können, richten Sie Tracking-Optionen im Kontodatensatz ein und aktivieren Sie den Kontodatensatz. Anschließend können Sie Bulksheets verwenden, um Tracking-URLs für Ihre Anzeigen und Keywords zu generieren, und die Tracking-URLs manuell in den [!DNL Naver] Ad Manager einfügen.
 
-In Search, Social und Commerce können keine neuen [!DNL Naver] eingerichtet werden. Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking &#x200B;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
+In Search, Social und Commerce können keine neuen [!DNL Naver] eingerichtet werden. Weitere Informationen zu [!DNL Naver] Kampagnen, die nur Tracking nutzen, finden Sie unter [Implementieren  [!DNL Naver]  Konten, die nur Tracking ](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).
 
 >[!MORELIKETHIS]
 >

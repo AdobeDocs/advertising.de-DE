@@ -3,22 +3,26 @@ title: Anzeigen des Berichts [!UICONTROL Diagnostics] Platzierungen
 description: Erfahren Sie, wie Sie Probleme mit der Einrichtung und Geschwindigkeit von Platzierungen diagnostizieren.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Anzeigen des Berichts [!UICONTROL Diagnostics] Platzierungen
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ Diagnoseberichte können Ihnen dabei helfen, Probleme bei der Einrichtung und Ge
 
    * Anzeigen des Änderungsprotokolls:
 
-      1. Klicken Sie auf **[!UICONTROL Change Log]**.
+     1. Klicken Sie auf **[!UICONTROL Change Log]**.
 
-      1. (Optional) Filtern der Berichtsergebnisse:
+     1. (Optional) Filtern der Berichtsergebnisse:
 
-         * Ändern Sie im Menü Datum den Berichtszeitraum von den standardmäßigen letzten 14 Tagen auf einen anderen Zeitraum (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* oder *[!UICONTROL Last 1 year]*).
+        * Ändern Sie im Menü Datum den Berichtszeitraum von den standardmäßigen letzten 14 Tagen auf einen anderen Zeitraum (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* oder *[!UICONTROL Last 1 year]*).
 
-         * Filtern Sie den Bericht im linken Menü nach einem bestimmten Benutzernamen.
+        * Filtern Sie den Bericht im linken Menü nach einem bestimmten Benutzernamen.
 
-         * Filtern Sie den Bericht im rechten Menü nach einer bestimmten Platzierungseinstellung.
+        * Filtern Sie den Bericht im rechten Menü nach einer bestimmten Platzierungseinstellung.
 
    * So zeigen Sie den Status von Anzeigengenehmigungen an:
 
-      1. Klicken Sie oben rechts auf **[!UICONTROL Ad Approvals]**.
+     1. Klicken Sie oben rechts auf **[!UICONTROL Ad Approvals]**.
 
-      1. (Optional) Um die Anzeige anzuhalten oder zu aktivieren, klicken Sie auf den Statusschalter (![Statusschalter](/help/dsp/assets/status-switch.png)) in der Spalte Anzeige .
+     1. (Optional) Um die Anzeige anzuhalten oder zu aktivieren, klicken Sie auf den Statusschalter (![Statusschalter](/help/dsp/assets/status-switch.png)) in der Spalte Anzeige .
 
-      1. (Optional) Um die Einstellungen für eine Anzeige zu öffnen, klicken Sie **[!UICONTROL View Ad]** neben der Anzeige.
+     1. (Optional) Um die Einstellungen für eine Anzeige zu öffnen, klicken Sie **[!UICONTROL View Ad]** neben der Anzeige.
 
    * So sehen Sie, warum DSP bei der Platzierung kein Angebot abgegeben hat:
 
-      1. Klicken Sie oben rechts auf **[!UICONTROL Non Bids]**.
+     1. Klicken Sie oben rechts auf **[!UICONTROL Non Bids]**.
 
-      1. (Optional) Um die Platzierung nach einer bestimmten privaten Abschlusszielgruppe zu filtern, wählen Sie den Abschluss aus. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. (Optional) Um die Platzierung nach einer bestimmten privaten Abschlusszielgruppe zu filtern, wählen Sie den Abschluss aus. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. (Optional) Klicken Sie zum Ändern des Datumsbereichs in das Datumsfeld und wählen Sie ein anderes Datum oder einen anderen Datumsbereich aus.
+     1. (Optional) Klicken Sie zum Ändern des Datumsbereichs in das Datumsfeld und wählen Sie ein anderes Datum oder einen anderen Datumsbereich aus.
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

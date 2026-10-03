@@ -3,18 +3,24 @@ title: Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
 description: Erfahren Sie, wie Sie ein dynamisches Kreativ in einer Kreativbibliothek bearbeiten.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * Inhalt ändern:
 
-      * (Nur Anzeigen) Um den Wert einer Zelle in der Tabelle zu bearbeiten, klicken Sie in die Zelle und bearbeiten Sie den Wert. Klicken Sie auf eine Stelle außerhalb der Zelle oder drücken Sie die **[!DNL Enter]**, um die Änderungen zu speichern.
+     * (Nur Anzeigen) Um den Wert einer Zelle in der Tabelle zu bearbeiten, klicken Sie in die Zelle und bearbeiten Sie den Wert. Klicken Sie auf eine Stelle außerhalb der Zelle oder drücken Sie die **[!DNL Enter]**, um die Änderungen zu speichern.
 
-      * Um ein einzelnes Produkt als Standard zu markieren<!--Explain what this means. --> halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+     * Um ein einzelnes Produkt als Standard zu markieren<!--Explain what this means. --> halten Sie den Cursor über der Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-      * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte als Standard zu markieren, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Set as Default]**.
+     * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte als Standard zu markieren, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Set as Default]**.
 
-      * Um ein Produkt aus dem Katalog zu löschen, halten Sie den Cursor über die Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+     * Um ein Produkt aus dem Katalog zu löschen, halten Sie den Cursor über die Zeile und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
-      * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte aus dem Katalog zu löschen, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete Row]** .
+     * (Wenn die Anzeige mehr als ein Angebot enthält) Um mehrere Produkte aus dem Katalog zu löschen, wählen Sie die Zeilen (bis zur Anzahl der Angebote) aus und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete Row]** .
 
 1. Speichern Sie die Kreativen:
 
    * So speichern Sie die Anzeigen und fügen sie einem &quot;[-Bundle](bundle-manage.md) in der Bibliothek hinzu:
 
-      1. Klicken Sie auf **[!UICONTROL Save and Attach to Bundle]**.
+     1. Klicken Sie auf **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Klicken Sie auf **[!UICONTROL Save]** , um die Anzeigen zu speichern.
+     1. Klicken Sie auf **[!UICONTROL Save]** , um die Anzeigen zu speichern.
 
-      1. Wählen Sie die Bundles aus und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundles]**.
+     1. Wählen Sie die Bundles aus und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundles]**.
 
    * Um die Anzeigen zu speichern und das Setup zu beenden, klicken Sie auf **[!UICONTROL Save]** und anschließend erneut auf **[!UICONTROL Save]**.
 

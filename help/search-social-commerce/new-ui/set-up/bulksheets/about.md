@@ -4,20 +4,25 @@ description: Erfahren Sie mehr über die Bulksheet-Funktionen, die vom Anzeigenn
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Über die Verwaltung von Kampagnendaten mithilfe von Bulksheets
 
 Eine Bulksheet ist eine Datei, die Kampagnendaten in einem bestimmten Format enthält und dazu verwendet werden kann, schnell Kampagnen- und Anzeigengruppenstrukturdaten und Textanzeigen zu erstellen oder zu ändern. Sie können Bulksheets mit Daten für ein oder mehrere Konten, für bestimmte Kampagnen und Anzeigengruppen oder sogar für bestimmte Textanzeigen, Platzierungen und Produktgruppen generieren (herunterladen). Sie können Bulksheets verwenden, um große Datensätze zu verwalten oder kleine Änderungen vorzunehmen. Jedes Werbenetzwerk benötigt verschiedene Spalten mit Informationen.
@@ -52,7 +57,7 @@ Die Standardschritte zur Verwendung von Bulksheets mit synchronisierten Konten l
 
    1. Exportieren Sie die Datei auf Ihren Desktop und bearbeiten Sie sie in [!DNL Microsoft Excel].
 
-   1. [Laden Sie die bearbeitete Datei manuell &#x200B;](upload.md) Search, Social und Commerce hoch.
+   1. [Laden Sie die bearbeitete Datei manuell ](upload.md) Search, Social und Commerce hoch.
 
 1. (Für manuell hochgeladene Dateien) [Veröffentlichen Sie die Datei](post.md) entweder beim Hochladen oder später in das Werbenetzwerk.
 
@@ -86,7 +91,7 @@ Zu den Informationen für jede Datei gehören der aktuelle Aufgabenstatus und de
 >
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)
 >* [(Neue Benutzeroberfläche) Löschen hochgeladener Bulksheets und Fehlerdateien](delete.md)
 >* [(Neue Benutzeroberfläche) Halten Sie einen laufenden Bulksheet-Vorgang an](stop-job.md)

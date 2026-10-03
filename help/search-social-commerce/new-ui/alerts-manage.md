@@ -2,13 +2,17 @@
 title: (Neue Benutzeroberfläche) Verwalten benutzerdefinierter Warnhinweise
 description: Erfahren Sie, wie Sie benutzerdefinierte Warnhinweise und Warnhinweisvorlagen erstellen, konfigurieren, anhalten, aktivieren, löschen, anzeigen und exportieren.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Verwalten benutzerdefinierter Warnhinweise
 
 Erstellen Sie Warnhinweisvorlagen, um zu ermitteln, wann ein Portfolio, eine Kampagne oder eine Anzeigengruppe während eines bestimmten Zeitraums bestimmte Bedingungen erfüllt (z. B. eine Leistungsmetrik), und generieren Sie dann einen Warnhinweis. Warnhinweise sind für einen einzelnen Werbetreibenden verfügbar. Warnhinweise enthalten alle Spalten in der entsprechenden Standardansicht. Warnhinweise auf Kampagnenebene enthalten beispielsweise alle Spalten in der [!UICONTROL Campaigns].
@@ -61,7 +65,7 @@ Das [!UICONTROL Custom Alerts] enthält die [!UICONTROL Alert Templates], in der
 
 1. (Optional) Filtern Sie die Liste, um Warnhinweise für einen bestimmten Entitätstyp einzuschließen, oder suchen Sie im Vorlagennamen nach einer Textzeichenfolge. Bei Suchabfragen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-1. (Optional) Um alle Kriterien für eine Warnhinweisvorlage anzuzeigen, klicken Sie auf die Anzahl der Kriterien (z. B. ![Schaltfläche für benutzerdefinierte Warnhinweiskriterien &#x200B;](/help/search-social-commerce/assets/custom-alert-criteria.png "Beispiel für benutzerdefinierte Warnhinweiskriterien").
+1. (Optional) Um alle Kriterien für eine Warnhinweisvorlage anzuzeigen, klicken Sie auf die Anzahl der Kriterien (z. B. ![Schaltfläche für benutzerdefinierte Warnhinweiskriterien ](/help/search-social-commerce/assets/custom-alert-criteria.png "Beispiel für benutzerdefinierte Warnhinweiskriterien").
 
 ## Erstellen einer benutzerdefinierten Warnhinweisvorlage {#alert-template-create}
 

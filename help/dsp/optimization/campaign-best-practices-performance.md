@@ -3,30 +3,43 @@ title: Best Practices für die Einrichtung von Leistungskampagnen
 description: Erfahren Sie mehr über die Best Practices für die Einrichtung Ihrer leistungsorientierten Kampagnen, zu denen Platzierungen gehören, die für den niedrigsten CPA oder den höchsten ROAS optimiert sind.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # Best Practices für die Einrichtung von Leistungskampagnen
 
 DSP kann Ihre leistungsorientierten Kampagnen optimieren. Siehe die folgenden Best Practices für Leistungskampagnen:
@@ -55,10 +68,10 @@ Funnel-Pakete in der oberen Preisklasse enthalten Platzierungen mit sehr breit g
 
 * Mit den folgenden Taktiken können Sie neue Zielgruppen finden, die wahrscheinlich konvertieren werden:
 
-   * Lookalike-Modellierung über eine Datenverwaltungsplattform (DMP) wie Adobe Audience Manager.
-   * Verhaltens-Targeting mithilfe von Drittanbieterdaten.
-   * Kontextuelles Targeting.
-   * Website-/Kategorie-Targeting.
+  * Lookalike-Modellierung über eine Datenverwaltungsplattform (DMP) wie Adobe Audience Manager.
+  * Verhaltens-Targeting mithilfe von Drittanbieterdaten.
+  * Kontextuelles Targeting.
+  * Website-/Kategorie-Targeting.
 
 * Verwenden des RON-Targeting (Netzwerkausführung) : Es ist wichtig, eine Netzwerkplatzierung ohne Zielgruppen-Targeting und mit breitem Inventar-Targeting einzubeziehen. Auf diese Weise kann der [!DNL Adobe AI] Algorithmus wertvolle Benutzer finden, die möglicherweise über neuere Cookies verfügen, die noch nicht in eine Zielgruppe kategorisiert wurden.
 
@@ -93,8 +106,8 @@ Verwenden Sie außerdem die folgenden Einstellungen.
 * **Optimierungsziele:** Verwenden Sie je nach Paketziel eines der beiden Leistungsoptimierungsziele, *[!UICONTROL Highest Return on Ad Spend]* oder *[!UICONTROL Lowest Cost per Acquisition]*. Diese Ziele optimieren das Paket automatisch entsprechend den höchsten ROAS- bzw. niedrigsten CPA-Platzierungen.
 
 * **Benutzerdefinierte Ziele:**
-   * Wenn ein neues Paket dasselbe Ziel wie ein vorhandenes Paket hat, können Sie optional das vorhandene Paket verknüpfen, damit der Algorithmus die vorhandenen Daten für maschinelles Lernen verwenden kann.
-   * Geben Sie die entsprechende [!UICONTROL Target CPA] oder [!UICONTROL Target ROAS] ein.
+  * Wenn ein neues Paket dasselbe Ziel wie ein vorhandenes Paket hat, können Sie optional das vorhandene Paket verknüpfen, damit der Algorithmus die vorhandenen Daten für maschinelles Lernen verwenden kann.
+  * Geben Sie die entsprechende [!UICONTROL Target CPA] oder [!UICONTROL Target ROAS] ein.
 
 * **Schalt- und Intraday-Geschwindigkeit:** Wählen Sie für beide Arten der Geschwindigkeit *[!UICONTROL Even]* aus, um Ihre Leistungsziele zu maximieren, indem Sie während jedes Tages und über den gesamten Flug gleichmäßig am Tempo arbeiten.
 
@@ -115,14 +128,14 @@ Im Folgenden finden Sie die empfohlenen Platzierungseinstellungen für Leistungs
 Sie müssen die CPA- oder ROAS-Optimierung auf Paketebene konfigurieren (siehe Schritt 3 - Erstellen von Paketen), Sie können jedoch zusätzliche Einstellungen auf Platzierungsebene hinzufügen.
 
 * **Max. Angebot:**
-   * Nutzen Sie für Interessenten-Platzierungen ein niedriges Maximalgebot ($5).
-   * Verwenden Sie für Retargeting-Platzierungen ein hohes Maximalgebot ($12).
+  * Nutzen Sie für Interessenten-Platzierungen ein niedriges Maximalgebot ($5).
+  * Verwenden Sie für Retargeting-Platzierungen ein hohes Maximalgebot ($12).
 
 * **Pre-Bid-Filter:** Minimieren oder idealerweise vermeiden Sie das Festlegen aggressiver Pre-Bid-Filter, die verhindern, dass die Platzierung eine Skalierung erreicht. Best Practices umfassen Folgendes:
 
-   * Verwenden Sie einen (1) Pre-Bid-Filter pro Platzierung. Die Verwendung mehrerer Pre-Bid-Filter erfordert, dass beide erfüllt werden, was die Skalierung reduziert.
+  * Verwenden Sie einen (1) Pre-Bid-Filter pro Platzierung. Die Verwendung mehrerer Pre-Bid-Filter erfordert, dass beide erfüllt werden, was die Skalierung reduziert.
 
-   * In Fällen, in denen zusätzliches Targeting (z. B. Zielgruppe, Geografie und Site-Targeting) angewendet wird, sollten Sie ggf. weniger strikte Filter vor dem Bid festlegen.
+  * In Fällen, in denen zusätzliches Targeting (z. B. Zielgruppe, Geografie und Site-Targeting) angewendet wird, sollten Sie ggf. weniger strikte Filter vor dem Bid festlegen.
 
 Siehe Beschreibungen der Verwendung der einzelnen Pre-Bid-Filter auf [Platzierungsebene Pre-Bid-Filter und deren Verwendung](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
@@ -140,10 +153,10 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * Gruppieren Sie bei Interessenten-Platzierungen ähnliche Zielgruppenkategorien und ähnliche Zielgruppengrößen in einer Platzierung. Führen Sie dann je nach Leistung einen der folgenden Schritte aus:
-      * Entfernen Sie Zielgruppen mit geringer Leistung aus vorhandenen Platzierungen.
-      * Verschieben Sie die Zielgruppen mit der besten Leistung an eine separate Platzierung, um die Budgets besser kontrollieren zu können.
-   * Bei Retargeting-Platzierungen sollten Sie idealerweise ein Zielgruppensegment pro Platzierung einbeziehen, um Gebote und Budgets einfach zu steuern.
+  * Gruppieren Sie bei Interessenten-Platzierungen ähnliche Zielgruppenkategorien und ähnliche Zielgruppengrößen in einer Platzierung. Führen Sie dann je nach Leistung einen der folgenden Schritte aus:
+    * Entfernen Sie Zielgruppen mit geringer Leistung aus vorhandenen Platzierungen.
+    * Verschieben Sie die Zielgruppen mit der besten Leistung an eine separate Platzierung, um die Budgets besser kontrollieren zu können.
+  * Bei Retargeting-Platzierungen sollten Sie idealerweise ein Zielgruppensegment pro Platzierung einbeziehen, um Gebote und Budgets einfach zu steuern.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ Um die Skalierung zu maximieren, verwenden Sie [!UICONTROL Public] (Open Exchang
 > Sie können sich überschneidende Zielgruppen vermeiden, indem Sie Ihre Zielgruppen in Ebenen erstellen, sodass Sie die höheren, inklusiveren Ebenen bei Bedarf aus Platzierungen unterdrücken können.
 
 * **[!UICONTROL Frequency Capping]:**
-   * Setzen Sie bei Interessenten-Platzierungen enge Frequenzlimits (eine Impression pro Tag) ein.
-   * Legen Sie für Retargeting-Platzierungen die primäre Platzierungsbegrenzung auf 6-10 Impressionen pro Tag und die sekundäre Begrenzung auf eine Impression pro Stunde fest.
+  * Setzen Sie bei Interessenten-Platzierungen enge Frequenzlimits (eine Impression pro Tag) ein.
+  * Legen Sie für Retargeting-Platzierungen die primäre Platzierungsbegrenzung auf 6-10 Impressionen pro Tag und die sekundäre Begrenzung auf eine Impression pro Stunde fest.
 
 * **[!UICONTROL Device Targeting]**:
-   * [!UICONTROL Computer], [!UICONTROL Mobile] und [!UICONTROL Tablet] einschließen.
-   * [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Einschränkungen bei Zielgruppenbestimmung und Messung nicht als Ziel auswählen. Wenden Sie sich an Ihr Adobe Account Team , um weitere Informationen zum [!DNL Adobe]-Support für [!DNL Safari ITP] zu erhalten.
-   * Wenn Sie mobilen Web-Traffic als Ziel wählen, deaktivieren Sie alle mobilen Browser mit Ausnahme von [!UICONTROL Chrome] und [!UICONTROL Edge].
+  * [!UICONTROL Computer], [!UICONTROL Mobile] und [!UICONTROL Tablet] einschließen.
+  * [!UICONTROL Firefox] und [!UICONTROL Safari] aufgrund von Einschränkungen bei Zielgruppenbestimmung und Messung nicht als Ziel auswählen. Wenden Sie sich an Ihr Adobe Account Team , um weitere Informationen zum [!DNL Adobe]-Support für [!DNL Safari ITP] zu erhalten.
+  * Wenn Sie mobilen Web-Traffic als Ziel wählen, deaktivieren Sie alle mobilen Browser mit Ausnahme von [!UICONTROL Chrome] und [!UICONTROL Edge].
 
 ### Markensicherheit und Medienqualität
 

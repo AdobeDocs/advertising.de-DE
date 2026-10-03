@@ -3,26 +3,42 @@ title: Anzeigen von Warnhinweisen
 description: Erfahren Sie, wie Sie Warnhinweise und empfohlene Lösungen für Ihre Kampagnen und Kampagnenkomponenten anzeigen. Verwenden Sie Warnhinweise, um Probleme mit Ihren Kampagnen zu beheben.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-TQID: https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc
+TQID: 'https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # Anzeigen von Warnhinweisen
 
 DSP hilft Ihnen bei der Identifizierung, wenn bei einer Ihrer Kampagnen- oder Kampagnenkomponenten Probleme auftreten. Für jedes Problem erstellt DSP einen Warnhinweis mit einem Zeitstempel und der empfohlenen Aktion zur Behebung des Problems. Gründe für Warnhinweise sind Konfigurationsprobleme (z. B. wenn keine Anzeigen an eine Platzierung angehängt sind oder ein Angebot falsch eingerichtet wurde), Anzeigenablehnungen und Probleme mit dem Kampagnenstatus (z. B. schlechte Bereitstellung oder Leistung von Anzeigen). Warnhinweise sind auf Kampagnen-, Paket-, Platzierungs-, Anzeigen- und Deal-Ebene verfügbar.
@@ -31,7 +47,7 @@ Warnhinweise sind an den folgenden Orten verfügbar:
 
 * Ein [!UICONTROL Pulse Panel] in der Ansicht [!UICONTROL Campaigns], [!UICONTROL Packages] und Paketdetails, [!UICONTROL Placements] und [!UICONTROL Ads] zeigt an, ob Warnhinweise für die Elemente in dieser Ansicht verfügbar sind. Wenn das Symbol einen blauen Punkt aufweist (![Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel.png "Pulsbedienfeld-Symbol, wenn Warnhinweise verfügbar sind")), sind Warnhinweise verfügbar. Wenn kein Punkt sichtbar ist (![Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind](/help/dsp/assets/alerts-panel-empty.png "Pulsbedienfeld-Symbol, wenn keine Warnhinweise verfügbar sind")), sind keine Warnhinweise verfügbar.
 
-* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![&#x200B; (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
+* Die Datentabellen in denselben Ansichten enthalten eine Spalte &quot;[!UICONTROL Alerts]&quot;, die angibt, wann das Element - oder seine Komponenten - ein Problem hat. Zu den Warnhinweisen gehören „Kritisch![ (Kritisch](/help/dsp/assets/indicator-critical.png "Kritisch")), „Warnung“ (![Warnung](/help/dsp/assets/indicator-warning.png "Warnung")) und „Information“ (![Information](/help/dsp/assets/indicator-information.png "Information")).
 
 Sie können für jeden Warnhinweis die entsprechende Ansicht der Kampagnenverwaltung öffnen, um die Einstellungen nach Bedarf zu bearbeiten und das Problem zu beheben.
 
@@ -51,11 +67,11 @@ Warnhinweise und Warnhinweise werden automatisch ausgeblendet, wenn die zugrunde
 
    * (Für alle Warnhinweise für ein bestimmtes Paket, eine bestimmte Platzierung oder eine bestimmte Anzeige) Gehen Sie wie folgt vor:
 
-      1. Klicken Sie auf den Namen der Kampagne.
+     1. Klicken Sie auf den Namen der Kampagne.
 
-      1. Klicken Sie im Untermenü auf **[!UICONTROL Packages]**, **[!UICONTROL Placements]** oder **[!UICONTROL Ads]** , um die entsprechende Ansicht der Kampagnenkomponente zu öffnen.
+     1. Klicken Sie im Untermenü auf **[!UICONTROL Packages]**, **[!UICONTROL Placements]** oder **[!UICONTROL Ads]** , um die entsprechende Ansicht der Kampagnenkomponente zu öffnen.
 
-      1. Klicken Sie auf die Warnmeldung für ein Paket, eine Platzierung oder eine Anzeigenzeile, und klicken Sie dann auf **[!UICONTROL View in Pulse Panel]**.
+     1. Klicken Sie auf die Warnmeldung für ein Paket, eine Platzierung oder eine Anzeigenzeile, und klicken Sie dann auf **[!UICONTROL View in Pulse Panel]**.
 
    Alle mit der Kampagne und ihren Komponenten verbundenen Warnhinweise, einschließlich zielgerichteter Angebote, werden aufgelistet. Standardmäßig werden kritische Warnhinweise zuerst aufgeführt.
 

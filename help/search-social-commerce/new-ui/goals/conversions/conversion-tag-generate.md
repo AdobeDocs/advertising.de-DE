@@ -2,13 +2,19 @@
 title: (Neue Benutzeroberfläche) Generieren und Implementieren eines Adobe Advertising-Konversionsverfolgungs-Tags
 description: Erfahren Sie, wie Sie ein Adobe Advertising-Konversions-Tag erstellen, um Ihre Konversionsereignisse zu verfolgen.
 feature: Search Tools, Search Tracking
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Generieren und Implementieren eines Adobe Advertising-Konversionsverfolgungs-Tags
 
 *Werbetreibende nur mit Adobe Advertising-Konversions-Tracking*
@@ -71,13 +77,13 @@ Wenn mehrere Metriken verfolgt werden, werden sie durch ein kaufmännisches Und-
 
 Sie können das Konversions-Tracking für Search, Social und Commerce mithilfe von Tags in Adobe Experience Platform einrichten. Tags stehen Adobe CX Enterprise-Kunden als integrierte Mehrwertfunktion zur Verfügung.
 
-Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suche, Social und Commerce über die Experience Platform-Benutzeroberfläche oder die Experience Platform-Datenerfassungs-Benutzeroberfläche zu konfigurieren. Vollständige Informationen und Anweisungen zum Konfigurieren von Tags finden Sie im Experience Platform Tags-Handbuch, beginnend mit der „Übersicht über [&#x200B; Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home) und der &quot;[Schnellstartanleitung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/get-started/quick-start).
+Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suche, Social und Commerce über die Experience Platform-Benutzeroberfläche oder die Experience Platform-Datenerfassungs-Benutzeroberfläche zu konfigurieren. Vollständige Informationen und Anweisungen zum Konfigurieren von Tags finden Sie im Experience Platform Tags-Handbuch, beginnend mit der „Übersicht über [ Tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) und der &quot;[Schnellstartanleitung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start).
 
 >[!PREREQUISITES]
 >
 >Um die erforderliche Tag-Erweiterung zu installieren, fragen Sie Ihren Organisations-Admin nach dem Zugriff auf Datenerfassungsfunktionen in der Benutzeroberfläche, einschließlich der `manage_properties`.
 
-1. Installieren Sie in [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/#/data-collection/) die Adobe Advertising [Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/extensions/overview):
+1. Installieren Sie in [Datenerfassungs-Benutzeroberfläche](https://experience.adobe.com/#/data-collection/) die Adobe Advertising [Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
 
    1. Öffnen Sie in der entsprechenden Eigenschaft den Erweiterungskatalog und wählen Sie **Adobe Advertising**.
 
@@ -125,7 +131,7 @@ Die folgenden Aufgaben sind erforderlich, um Konversionsverfolgungstags für Suc
 
          **Name der Konversionseigenschaft:** Der Name der Konversionseigenschaft (z. B. `form_completes`).
 
-         **Value:** Der numerische Wert der Konvertierungseigenschaft (z. B. `1` Tracking von form_completes) oder wählen Sie ein vorhandenes [Datenelement](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/data-elements).
+         **Value:** Der numerische Wert der Konvertierungseigenschaft (z. B. `1` Tracking von form_completes) oder wählen Sie ein vorhandenes [Datenelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements).
 
       1. Klicken Sie **Änderungen beibehalten**.
 

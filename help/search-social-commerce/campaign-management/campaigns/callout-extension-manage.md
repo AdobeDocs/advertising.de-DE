@@ -1,22 +1,25 @@
 ---
-title: ' [!DNL Google Ads]  verwalten'
-description: Erfahren Sie, wie Sie Callout [!DNL Google Ads] Erweiterungen erstellen und verwalten.
+title: Verwalten [!DNL Google Ads] Callout-Erweiterungen
+description: Erfahren Sie, wie Sie [!DNL Google Ads] Callout-Erweiterungen erstellen und verwalten.
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
+TQID: 'https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # Verwalten [!DNL Google Ads] freigegebenen Callout-Erweiterungen
 
 Nur *[!DNL Google Ads]Konten*
@@ -31,11 +34,11 @@ Erstellen und verwalten Sie freigegebene Callout-Erweiterungen auf Kontoebene f�
 
 1. Wählen Sie das Anzeigennetzwerk und den Kontonamen aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot; ein.
+1. Geben Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot; ein.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 
-Nachdem Sie einen Sitelink erstellt haben, können [&#x200B; ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
+Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
 
 ## Bearbeiten [!DNL Google Ads] freigegebenen Callout-Einstellungen
 
@@ -47,7 +50,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot;.
+1. Bearbeiten Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot;.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 

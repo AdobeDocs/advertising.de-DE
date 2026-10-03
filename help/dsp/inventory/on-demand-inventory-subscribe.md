@@ -1,24 +1,28 @@
 ---
-title: Abonnieren und Anfordern des Zugriffs auf  [!DNL On Demand] /Premium-Inventarangebote
+title: Abonnieren und Anfordern des Zugriffs auf [!DNL On Demand] Premium-Inventarangebote
 description: Erfahren Sie, wie Sie [!DNL On Demand] Angebote abonnieren und Zugriff darauf anfordern können.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
+TQID: 'https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Abonnieren und Anfordern des Zugriffs auf [!DNL On Demand] Premium-Inventarangebote
 
 *Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other], Werbetreibende mit der Kategorie [!UICONTROL Other] und Wiederverkäufer*
@@ -81,15 +85,15 @@ Sobald ein Angebot [genehmigt](/help/dsp/inventory/on-demand-inventory-view-stat
 
    * So fordern Sie kürzlich hinzugefügte Angebote an:
 
-      1. Halten Sie im oberen Karussell der Publisher den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
+     1. Halten Sie im oberen Karussell der Publisher den Cursor über das Publisher-Logo und klicken Sie dann auf **[!UICONTROL See Deals]**.
 
-      1. Um ein einzelnes Angebot zu abonnieren, klicken Sie in der **[!UICONTROL Request]** Spalte für die entsprechende Zeile auf [!UICONTROL Action].
+     1. Um ein einzelnes Angebot zu abonnieren, klicken Sie in der [!UICONTROL Action] Spalte für die entsprechende Zeile auf **[!UICONTROL Request]**.
 
    * So fordern Sie Angebote über die [!UICONTROL Deal] an:
 
-      1. Klicken Sie auf **[!UICONTROL Deal view]**.
+     1. Klicken Sie auf **[!UICONTROL Deal view]**.
 
-      1. Klicken Sie in der **[!UICONTROL Request]** Spalte für die entsprechende Zeile auf [!UICONTROL Action] .
+     1. Klicken Sie in der [!UICONTROL Action] Spalte für die entsprechende Zeile auf **[!UICONTROL Request]** .
 
 >[!MORELIKETHIS]
 >

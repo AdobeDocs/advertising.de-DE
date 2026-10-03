@@ -8,13 +8,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 2%
@@ -26,7 +28,7 @@ Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Shopping-Kampagnen*
 
 Sie können Produktgruppen in der Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] erstellen und verwalten.
 
-Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]&#x200B;[&#128279;](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) .
+Sie können Daten zu Produktgruppen in der [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md) [.
 
 ## Was sind Produktgruppen?
 
@@ -56,7 +58,7 @@ Innerhalb einer Anzeigengruppe können Sie bis zu sieben Ebenen von Produktgrupp
 
 <!-- I should be able to point to help in GGL and MS -->
 
-Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit &#x200B;](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
+Siehe auch die [!DNL Google Ads]-Hilfe [Verwalten einer Shopping-Kampagne mit ](https://support.google.com/google-ads/answer/6275317)&quot; und die [!DNL Microsoft Advertising]-Hilfe [Verstehen und Verwenden von Produktgruppen](https://help.ads.microsoft.com/#apex/bae/en/56782).
 
 | Einkaufsnetz | Produkt-Dimension | Attribute | Notizen |
 |----|----|----|----|
@@ -91,7 +93,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Product Groups] listet alle Produk
 
 * [Einschränkungen zuweisen](#constraint-assign) zu Produktgruppen und [Einschränkungen entfernen](#constraint-unassign) aus Produktgruppen
 
-* [Zuweisen von &#x200B;](#classification-values-assign) zu Produktgruppen und [Entfernen von &#x200B;](#classification-values-remove) aus Produktgruppen“
+* [Zuweisen von ](#classification-values-assign) zu Produktgruppen und [Entfernen von ](#classification-values-remove) aus Produktgruppen“
 
 >[!NOTE]
 >

@@ -3,27 +3,33 @@ title: Verwalten des Retargeting von Pixeln
 description: Erfahren Sie, wie Sie Retargeting-Pixel erstellen und implementieren, die als Ziele für Anzeigenerlebnisse verwendet werden sollen.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # Verwalten des Retargeting von Pixeln
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 Sie können ein Retargeting-Pixel erstellen, um Besucher der Landingpages oder Konversionsseiten eines Advertisers mithilfe von Benutzer-Cookies oder universellen IDs zu identifizieren. Das Pixel verfolgt das jüngste Ereignis, das der Besucher auf einer Seite durchführt, und erfasst bestimmte Attribute, die die Seite für diese Besucher verfolgt. Generieren Sie nach dem Erstellen des Pixels ein Pixel-Tag, das Sie in die entsprechenden Web-Seiten einfügen können, um Besucher zu verfolgen.<!-- Note to self: surfer id=cookie or universal ID -->
 
-Sie können dann das Pixel als Ziel für jedes kreative Element innerhalb eines Anzeigenerlebnisses verwenden, um Anzeigen nur Benutzern mit bestimmten Attributen anzuzeigen, die zuvor die mit dem Pixel verknüpften Web-Seiten besucht haben. Sie können beispielsweise Besucherinnen und Besucher, die rote Schuhe in Größe 10 betrachten, ansprechen, wenn die Web-Seiten diese Attributwerte verfolgen.<!-- better example? Make sure they match attribute examples below --> Die Zielgruppen auf Erlebnisebene werden in Verbindung mit den Zielgruppenbestimmungsoptionen Ihrer DSP angewendet. Das hierarchische Zielgruppenbestimmungsverhalten kann je nach DSP variieren.
+Sie können dann das Pixel als Ziel für jedes kreative Element innerhalb eines Anzeigenerlebnisses verwenden, um Anzeigen nur Benutzern mit bestimmten Attributen anzuzeigen, die zuvor die mit dem Pixel verknüpften Web-Seiten besucht haben. Sie können beispielsweise Besucherinnen und Besucher, die rote Schuhe in Größe 10 anzeigen, ansprechen, wenn die Web-Seiten diese Attributwerte verfolgen.<!-- better example? Make sure they match attribute examples below --> Die Ziele auf Erlebnisebene werden in Verbindung mit den Zielgruppenbestimmungsoptionen Ihrer DSP angewendet. Das hierarchische Zielgruppenbestimmungsverhalten kann je nach DSP variieren.
 
 Retargeting-Profile werden 180 Tage lang gespeichert.
 
@@ -36,7 +42,7 @@ Beispiel-Pixel:
 >[!NOTE]
 >
 > * [!DNL Creative] unterstützt universelle IDs nur für Advertising DSP.
->* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ &#x200B;](/help/creative/experiences/experience-settings-targeting.md).
+>* Sie können auch Ihre Erstanbieter-Zielgruppen aus Adobe Audience Manager und Adobe Analytics als [kreative Ziele für Ihre Erlebnisse“ ](/help/creative/experiences/experience-settings-targeting.md).
 >* Wenn Sie ein Erlebnis als Anzeige in einer Advertising DSP-Platzierung verwenden, können Sie die Platzierung auf alle Zielgruppen ausrichten, die Ihnen in DSP zur Verfügung stehen. Sie können auch [benutzerdefinierte Zielgruppensegment-Tags erstellen](/help/dsp/audiences/custom-segment-create.md) um alle Besucher bestimmter Landingpages zu verfolgen und diese Segmente dann als kreative Ziele für eine Platzierung zu verwenden. Advertising DSP wendet Targeting auf Anzeigenebene zusätzlich zum Targeting auf (nicht anstelle des Targeting auf Platzierungsebene an.
 >* Website-Besuchende, die sich gegen das Tracking für das Anzeigen-Targeting entschieden haben, erhalten keine Anzeigen mit personalisierten kreativen Inhalten, die auf dem Zielgruppensegment oder dem Retargeting-Profil basieren.
 

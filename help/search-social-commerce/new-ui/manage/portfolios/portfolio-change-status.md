@@ -3,18 +3,24 @@ title: (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
 description: Erfahren Sie, wie Sie den Status eines Portfolios ändern oder ein inaktives Portfolio löschen können, ohne die Portfolioeinstellungen zu öffnen.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
 
 *Beta-Funktion*
 
-Sie können den [&#x200B; eines Portfolios schnell ändern, &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) die vollständigen Portfolioeinstellungen zu öffnen.
+Sie können den [ eines Portfolios schnell ändern, ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) die vollständigen Portfolioeinstellungen zu öffnen.
 
 Wenn Sie nicht mehr Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die entsprechenden Kampagnen erfassen möchten, löschen Sie das Portfolio. Durch Löschen eines Portfolios wird es in Search, Social und Commerce nicht mehr verfügbar.
 

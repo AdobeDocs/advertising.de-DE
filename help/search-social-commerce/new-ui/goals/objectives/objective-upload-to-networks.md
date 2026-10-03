@@ -3,7 +3,15 @@ title: (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivie
 description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in Google Ads und Microsoft Advertising hochladen.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -40,7 +48,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. (Werbetreibende mit [!DNL Google Ads], die im Europäischen Wirtschaftsraum (EWR) oder im Vereinigten Königreich (UK) Geschäfte tätigen; optional) Wenn Sie die Zustimmung von EWR- und britischen Nutzern eingeholt haben, ihre Daten für Werbezwecke hochzuladen, aktivieren Sie das Kontrollkästchen. Dadurch wird der Einverständnisstatus als **[!UICONTROL GRANTED]** an [!DNL Google Ads] und [!DNL Microsoft Advertising] gesendet. Wenn Sie das Kontrollkästchen nicht aktivieren, wird der Einverständnisstatus als **[!UICONTROL UNSPECIFIED]** gesendet.
 
-1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([&#x200B; Sie Anmeldeinformationen für Ihr Manager-Konto &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)).
+1. (Wenn Ihre Konversionen auf Manager-Kontoebene verfolgt werden) ([ Sie Anmeldeinformationen für Ihr Manager-Konto ](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
