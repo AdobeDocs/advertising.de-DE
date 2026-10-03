@@ -48,8 +48,8 @@ Es dauert 24-48 Stunden, bis neue Segmente in Adobe Advertising angezeigt werden
 * [!UICONTROL Timespent_secs_total]: Die Gesamtzahl der Sekunden, die auf der Website bei allen Besuchen im ClickLookback-Fenster verbracht wurden.
 * [!UICONTROL Pageviews_1stvisit]: Die Anzahl der Seitenansichten auf der Website beim ersten Besuch des Besuchers.
 * [!UICONTROL Pageviews_total]: Die Gesamtzahl der Seitenansichten auf der Website für alle Besuche im ClickBack-Fenster.
-* [Metrik [!UICONTROL Bounces]](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
-* [Metrik [!UICONTROL Visits]](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
+* [Metrik [!UICONTROL Bounces]](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=de)
+* [Metrik [!UICONTROL Visits]](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=de)
 * [!UICONTROL ef_id_instances]: Die Häufigkeit, mit der ein [!UICONTROL EF ID] erfasst [!DNL Analytics].
 
 ## Konversionsmetriken
@@ -58,14 +58,14 @@ Es dauert 24-48 Stunden, bis neue Segmente in Adobe Advertising angezeigt werden
 
 ### Standard-Konversionsmetriken
 
-* [Metrik [!UICONTROL Revenue]](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
-* [Metrik [!UICONTROL Orders]](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
-* [Metrik [!UICONTROL Units]](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
-* [Metrik [!UICONTROL Carts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
-* [Metrik [!UICONTROL Cart Views]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
-* [Metrik [!UICONTROL Checkouts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
-* [Metrik [!UICONTROL Cart Additions]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
-* [Metrik [!UICONTROL Cart Removals]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
+* [Metrik [!UICONTROL Revenue]](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=de)
+* [Metrik [!UICONTROL Orders]](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=de)
+* [Metrik [!UICONTROL Units]](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=de)
+* [Metrik [!UICONTROL Carts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=de)
+* [Metrik [!UICONTROL Cart Views]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=de)
+* [Metrik [!UICONTROL Checkouts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=de)
+* [Metrik [!UICONTROL Cart Additions]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=de)
+* [Metrik [!UICONTROL Cart Removals]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=de)
 
 ### Benutzerdefinierte Konversionsmetriken
 
