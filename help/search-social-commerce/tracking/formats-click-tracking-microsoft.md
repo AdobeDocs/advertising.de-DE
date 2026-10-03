@@ -1,22 +1,26 @@
 ---
 title: Klick-Tracking-Formate für [!DNL Microsoft Advertising]
-description: Erfahren Sie mehr über die Klick-Tracking-Formate für  [!DNL Microsoft Advertising] .
+description: Erfahren Sie mehr über die Klick-Tracking-Formate für [!DNL Microsoft Advertising].
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+TQID: 'https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 # Klick-Tracking-Formate für [!DNL Microsoft Advertising]
 
 Im Folgenden finden Sie die Formate für Basis-Tracking-Vorlage und Landingpage-Suffix (endgültiges URL-Suffix) , die Search, Social und Commerce für die [!DNL Microsoft Advertising] erfordern.

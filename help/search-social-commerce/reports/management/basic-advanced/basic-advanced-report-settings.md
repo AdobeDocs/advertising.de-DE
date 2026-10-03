@@ -3,23 +3,34 @@ title: Allgemeine und erweiterte Berichtseinstellungen
 description: Erfahren Sie mehr über die erforderlichen und optionalen Einstellungen für einfache und erweiterte Berichte.
 exl-id: 856d7bc2-7316-4556-a04e-33346591b18f
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8
+TQID: 'https://experienceleague.adobe.com/WYVC76Mkfe5-VXa1hjyphXW34xqkbV7VEq9lHPhGPT8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3822
+source-wordcount: '3838'
 ht-degree: 0%
-
 ---
-
 # Allgemeine und erweiterte Berichtseinstellungen
 
 | Tabulator | Parameter | Beschreibung |
@@ -51,8 +62,8 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | (Für alle Attributionsregeln außer [!UICONTROL Last Event] oder [!UICONTROL First Event]) Wenn der Konversion sowohl bezahlte Klicks als auch Impressionen vorausgehen, ordnet den angegebenen Prozentsatz eines Konversionswerts Impressionen zu, die im Impressions-Lookback[Fenster des Advertisers aufgetreten &#x200B;](/help/search-social-commerce/glossary.md#i-j). Standardmäßig beträgt dieser Wert 10 %. Sie können den Wert in eine beliebige Ganzzahl zwischen 0 und 100 ändern. Dieser Wert wird nur innerhalb des Berichts verwendet.<br><br>Wenn einer Konversion nur Impressionen vorangestellt werden, wird die [View-Through-Gewichtung](/help/search-social-commerce/glossary.md#u-v) anstelle der Impression Override-Gewichtung des Advertisers auf die Impressionen angewendet. |
 |  | [!UICONTROL Conversion Attribution] | (Gilt nur für die Anzeige von Kampagnen; alle Berichte außer [!UICONTROL Keyword Report], [!UICONTROL Product Group Report] und [!UICONTROL Campaign Hourly Report]) Welche Konversionstypen werden gemeldet, wenn vorhergehende Ereignisse aufgetreten sind:<ul><li><i>[!UICONTROL Clicks]:</i> Nur Konversionen melden, die aus Klicks resultierten. An jeden Konversionsnamen wird &quot;[!UICONTROL (CT)]&quot; angehängt.</li><li><i>[!UICONTROL View-throughs Only]:</i> Nur Konversionen melden, die aus Viewthroughs resultierten. An jeden Konversionsnamen wird &quot;[!UICONTROL (VT)]&quot; angehängt. Wenn Sie diese Option auswählen, wählen Sie den Wert aus, den jede Konvertierung erhalten soll. Wählen Sie im Feld Durchsichtsbewertungsmethode eine Option aus:<ul><li><i>[!UICONTROL Raw]:</i> Um Konversionen ohne Gewichtung zu melden.</li><li><i>[!UICONTROL Weighted]</i> (Standard): Gewichtet jede Konversion entsprechend der für den Advertiser angegebenen Durchsichtsgewichtung.</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i> Alle Konversionen melden. Standardmäßig wird jeder Konversionsname mit &quot;[!UICONTROL (CT+VT)]&quot; angehängt. Dieser Konversions-Attributionstyp umfasst zwei zusätzliche Optionen:<ul><li>[!UICONTROL Discrete columns for click & view-through conversions]: Enthält drei separate Spalten für jeden Konversionstyp, den Sie einbeziehen: eine für 1) Clickthrough-Konversionen, angehängt mit &quot;[!UICONTROL (CT)]&quot;, 2) View-Through-Konversionen, angehängt mit &quot;[!UICONTROL (VT)]&quot;, 3) und alle Konversionen, angehängt mit &quot;[!UICONTROL (CT+VT)]&quot;. Wenn Sie diese Option wählen, wählen Sie aus der Liste &quot;[!UICONTROL Filter & sort using]&quot; aus, welche der drei Spalten zum Filtern und Sortieren verwendet werden soll: <i>[!UICONTROL click]</i> (Standard), <i>[!UICONTROL view-through]</i> oder <i>[!UICONTROL click + view-through]</i>.<br><br><b>Hinweis:</b> Konversionen für Suchkampagnen werden in den Spalten für Clickthroughs angezeigt, nicht aber in der Spalte für View-Through-Konversionen.</li><li>[!UICONTROL View-through valuation method]: Welchen Wert erhält jede Konversion, die aus einer Durchsicht resultiert:</li><ul><i>[!UICONTROL Weighted]</i> (Standard): Gewichtet jede Konversion entsprechend der für den Advertiser angegebenen Durchsichtsgewichtung.</li><li><i>[!UICONTROL Raw]:</i> Um Konversionen ohne Gewichtung zu melden.</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | überholt |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Optional, nur verfügbar, wenn die Option &quot;[!UICONTROL Save as template]&quot; ausgewählt ist) Wann soll der Bericht ausgeführt werden: <i>[!UICONTROL Now]</i> (um den Bericht einmal auszuführen; Standard), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Wochentag]</i> oder <i>[!UICONTROL Every Month] [Tag des Monats]</i>. Wählen Sie für alle Zeiträume außer <i>[!UICONTROL Now]</i> die Stunde in der Zeitzone des Werbetreibenden ab 09:00 :00. |
-|  | [!UICONTROL Email Recipients] | <b>Hinweis:</b> Diese Einstellung wird nur verwendet, wenn E-Mail-Benachrichtigungen für [!UICONTROL Reports] in [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md).<br><br>E-Mail-Adressen registrierter Benutzer von Search, Social und Commerce  sind, an die Benachrichtigungen gesendet werden sollen, wenn der Bericht abgeschlossen oder aufgrund von Fehlern abgebrochen wurde. Standardmäßig wird die Adresse für Ihr Benutzerkonto eingegeben. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas, Leerzeichen oder neue Zeilen. Wenn die wiederholte Ausführung des Berichts geplant ist, wird bei jeder Fertigstellung eines Berichts eine Benachrichtigung gesendet. |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Optional, nur verfügbar, wenn die Option &quot;[!UICONTROL Save as template]&quot; ausgewählt ist) Wann soll der Bericht ausgeführt werden: <i>[!UICONTROL Now]</i> (um den Bericht einmal auszuführen; Standard), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Wochentag]</i> oder <i>[!UICONTROL Every Month] [Tag des Monats]</i>. Wählen Sie für alle Zeiträume außer <i>[!UICONTROL Now]</i> die Stunde in der Zeitzone des Werbetreibenden ab 09:00 Uhr aus. |
+|  | [!UICONTROL Email Recipients] | <b>Hinweis:</b> Diese Einstellung wird nur verwendet, wenn E-Mail-Benachrichtigungen für [!UICONTROL Reports] in [!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md).<br><br>E-Mail-Adressen registrierter Benutzer von Search, Social und Commerce  sind, an die Benachrichtigungen gesendet werden sollen, wenn der Bericht abgeschlossen oder aufgrund von Fehlern abgebrochen wurde. Standardmäßig wird die Adresse für Ihr Benutzerkonto eingegeben. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas, Leerzeichen oder neue Zeilen. Wenn die wiederholte Ausführung des Berichts geplant ist, wird bei jeder Fertigstellung eines Berichts eine Benachrichtigung gesendet. |
 |  | [!UICONTROL Email Notification] | <b>Hinweis:</b> Diese Einstellung wird nur verwendet, wenn E-Mail-Benachrichtigungen für [!UICONTROL Reports] ([&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md) aktiviert) <br><br>(wenn [!UICONTROL Email Recipients] angegeben sind) Was in E-Mail-Benachrichtigungen an bestimmte Adressen aufgenommen werden soll:<ul><li><i>[!UICONTROL Notification Only]</i> (Standard): Zum Senden nur einer Benachrichtigung über das Abschließen oder Fehlschlagen eines Berichts, ohne Anlagen. Die Benachrichtigung enthält temporäre Download-Links für alle Berichtsformate.</li><li><i>[!UICONTROL XLS Attachment]:</i> Fügen Sie eine Kopie des abgeschlossenen Berichts im XLS-Format hinzu, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert.</li><li><i>[!UICONTROL TSV Attachment]:</i> Fügen Sie eine Kopie des abgeschlossenen Berichts im TSV-Format hinzu, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert.</li><li><i>[!UICONTROL CSV Attachment]:</i> Fügen Sie eine Kopie des abgeschlossenen Berichts im CSV-Format hinzu, wenn die Datei kleiner als etwa 10 MB ist. Dateien über 1 MB werden komprimiert. |
 
 >[!MORELIKETHIS]

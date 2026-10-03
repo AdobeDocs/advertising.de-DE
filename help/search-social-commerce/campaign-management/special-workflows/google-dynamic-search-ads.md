@@ -1,20 +1,23 @@
 ---
-title: Implementieren  [!DNL Google Ads]  dynamischen Suchanzeigen
-description: Erfahren Sie mehr über den Workflow zum Einrichten  [!DNL Google Ads]  dynamischen Suchanzeigen.
+title: Implementieren [!DNL Google Ads] dynamischen Suchanzeigen
+description: Erfahren Sie mehr über den Workflow zum Einrichten [!DNL Google Ads] dynamischen Suchanzeigen.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Implementieren [!DNL Google Ads] dynamischen Suchanzeigen
 
 *[!DNL Google Ads]Search-only-Kampagnen mit Tracking auf Kreativ- oder Keyword- und Kreativebene*
@@ -62,7 +65,7 @@ Sie können dynamische Suchanzeigen entweder einzeln oder mithilfe von Bulksheet
 1. [Erstellen Sie jede dynamische Suchanzeige](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) innerhalb der Anzeigengruppe.
 
    [!DNL Google Ads] generiert für jede Anzeige dynamisch die Überschrift, die Anzeige-URL und die Landingpage-URL. Optional können Sie der Tracking-Vorlage auf Anzeigenebene Umleitungen und Tracking hinzufügen, wodurch Tracking-Vorlagen auf höheren Ebenen überschrieben werden.
-Wenn Sie ein Adobe Analytics-Tracking auf höheren Ebenen mit einem Tracking auf Anzeigenebene überschreiben möchten, fügen Sie es hier hinzu. Siehe Schritte 1e und 2c.
+   Wenn Sie ein Adobe Analytics-Tracking auf höheren Ebenen mit einem Tracking auf Anzeigenebene überschreiben möchten, fügen Sie es hier hinzu. Siehe Schritte 1e und 2c.
 
 1. (Erforderlich, wenn Sie die Stamm-Domain und die Sprache für die Domain nicht im Abschnitt DSA-Optionen der Kampagneneinstellungen angeben; andernfalls optional) Erstellen [dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) für die Anzeigengruppe. Sie können das Gebot auf Anzeigengruppenebene optional mit Geboten auf Zielgruppenebene überschreiben.
 

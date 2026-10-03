@@ -3,28 +3,37 @@ title: Adobe Advertising-Anzeigenanforderungsrichtlinie
 description: Siehe Richtlinie für Anzeigenanforderungen.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising-Anzeigenanforderungsrichtlinie
 
 *Richtlinie zuletzt aktualisiert: 17. Juli 2024<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ Sie müssen sicherstellen, dass Ihre Anzeigen und die Websites, auf die eine Anz
 
 * **Tabak**. Die Werbung darf weder den Verkauf noch die Verwendung von Tabakerzeugnissen oder Zubehör, einschließlich elektronischer Zigaretten, anbieten oder fördern.
 
-* **Schimpfworte und vulgäre oder obszöne Sprache.** Werbeanzeigen dürfen keine Schimpfworte oder vulgäre oder obszöne Sprache enthalten. Die Anzeigen dürfen auch keine Sprache enthalten, die dieselbe Wirkung erzielen soll, aber die Obszönität verschleiert.
+* **Schimpfworte und vulgäre oder obszöne Sprache.** Anzeigen dürfen keine Schimpfworte oder vulgäre oder obszöne Sprache enthalten. Die Anzeigen dürfen auch keine Sprache enthalten, die dieselbe Wirkung erzielen soll, aber die Obszönität verschleiert.
 
 * **Hasserfüllte Anzeigen**. Anzeigen dürfen keine Hassreden oder religiöse Intoleranz fördern oder sich darauf beziehen und dürfen eine Person oder Gruppe nicht aufgrund ihrer Rasse oder ethnischen Herkunft, Religion, Behinderung, medizinischen oder genetischen Erkrankung, ihres Alters, ihrer Staatsangehörigkeit oder nationalen Herkunft, ihres Veteranenstatus, ihres Flüchtlingsstatus, ihres Einwanderungsstatus, ihrer sexuellen Orientierung, ihres Geschlechts, ihrer Geschlechtsidentität oder anderer Merkmale, die mit systemischer Diskriminierung oder Marginalisierung verbunden sind, herabsetzen.
 
@@ -125,22 +134,22 @@ Die Dienste dürfen nicht dazu verwendet werden, Anzeigen gezielt an Benutzende 
 
 
 
-   * Religiöse oder ähnliche Überzeugungen oder Zugehörigkeiten
-   * Rasse, Hautfarbe oder ethnische Herkunft
-   * Sexualanamnese, -interessen oder -orientierung
-   * Transgender-Identifikation
-   * Genetische oder biometrische Informationen
-   * Negativer finanzieller Status (z. B. Kreditwürdigkeit) oder Vorstrafen, Vorgeschichte oder Verurteilungen
-   * Gesundheits- oder Krankenakten, einschließlich Verschreibungsunterlagen
-   * Beziehungen oder Beziehungsstatus im Zusammenhang mit persönlichen Nöten (wie Scheidung, Trauerfall)
-   * Missbrauch und Trauma, einschließlich des Status als Opfer einer Straftat, eines Missbrauchs oder eines traumatischen Ereignisses
-   * Zugehörigkeit zu einer marginalisierten oder gefährdeten Gruppe, auch aufgrund der sozialen Kaste oder der Einwanderung oder des Flüchtlingsstatus
+  * Religiöse oder ähnliche Überzeugungen oder Zugehörigkeiten
+  * Rasse, Hautfarbe oder ethnische Herkunft
+  * Sexualanamnese, -interessen oder -orientierung
+  * Transgender-Identifikation
+  * Genetische oder biometrische Informationen
+  * Negativer finanzieller Status (z. B. Kreditwürdigkeit) oder Vorstrafen, Vorgeschichte oder Verurteilungen
+  * Gesundheits- oder Krankenakten, einschließlich Verschreibungsunterlagen
+  * Beziehungen oder Beziehungsstatus im Zusammenhang mit persönlichen Nöten (wie Scheidung, Trauerfall)
+  * Missbrauch und Trauma, einschließlich des Status als Opfer einer Straftat, eines Missbrauchs oder eines traumatischen Ereignisses
+  * Zugehörigkeit zu einer marginalisierten oder gefährdeten Gruppe, auch aufgrund der sozialen Kaste oder der Einwanderung oder des Flüchtlingsstatus
 
 * **Europäische**. Darüber hinaus dürfen in der Europäischen Union Werbeanzeigen nicht auf der Grundlage der folgenden Faktoren, unabhängig davon, ob sie über den Nutzer bekannt sind oder daraus abgeleitet wurden, an eine Zielgruppe gerichtet oder gerichtet werden:
 
-   * Politische Zugehörigkeit
-   * Gewerkschaftsmitgliedschaft
-   * Sonstige besondere Kategorien personenbezogener Daten
+  * Politische Zugehörigkeit
+  * Gewerkschaftsmitgliedschaft
+  * Sonstige besondere Kategorien personenbezogener Daten
 
 * **Gesundheitsbezogenes Targeting**. Sie dürfen die Dienste nicht verwenden, um sensible gesundheitsbezogene Daten zu erfassen oder Rückschlüsse auf die sensible Gesundheit oder medizinische Behandlung der Benutzer zu ziehen. Insbesondere dürfen Sie die Dienste nicht verwenden, um Anzeigen für Folgendes anzuzeigen: jede Form von Krebs, psychische Gesundheitsstörungen oder sexuell übertragbare Krankheiten. Anzeigen können gezielt bei nicht sensiblen Gesundheitszuständen eingesetzt werden, einschließlich Akne, Allergien, Zahnschmerzen, Sehvermögen, Sodbrennen, Erkältung und Grippe, Nasennebenhöhlen, Kopfschmerzen, Rückenschmerzen, Erste Hilfe, Halsschmerzen, Blutzuckermanagement, Ernährung und Fitness, Haarentfernung sowie Vitamine und Nahrungsergänzungsmittel.
 

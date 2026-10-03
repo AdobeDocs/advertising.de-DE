@@ -3,29 +3,34 @@ title: Über [!DNL On Demand] Premium-Inventar
 description: Erfahren Sie mehr über die Angebote, die DSP vorab mit Premium-Publisher-Partnern ausgehandelt hat.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Über [!DNL On Demand] Premium-Inventar
 
 *Nicht verfügbar für Benutzer mit den Kontotypen [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] und [!UICONTROL Other], Werbetreibende mit der Kategorie [!UICONTROL Other] und Wiederverkäufer*
 
-Die [!DNL On Demand] Galerie ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1 Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
+Die [!DNL On Demand] Galerie ist ein Premium-Tool zur Inventarerkennung, mit dem Sie vorab ausgehandelte Angebote erkunden können, die DSP mit Premium-Publisher-Partnern kuratiert hat. Sie ermöglicht den Zugriff auf nicht garantierte Inventare von den Top-Tier-Publishern in der Region, ohne dass 1:1-Verhandlungen oder Verträge erforderlich sind. Sie können einzelne Angebote anfordern und Sie können einen Herausgeber abonnieren, um alle Angebote des Herausgebers gleichzeitig anzufordern.
 
 Der DSP Premium Marketplace bietet folgende Möglichkeiten:
 
@@ -56,7 +61,7 @@ Unter dem Karussell können Sie alle verfügbaren Angebote und Publisher anzeige
 Die Details zu den einzelnen Abschlüssen enthalten Daten in den folgenden Spalten:
 
 * **[!UICONTROL TVB]:** Zeigt an, wenn der Herausgeber ein Fernsehsender ist
-* **[!UICONTROL Tune]:** Zeigt an, wann der Publisher „Tune-In“-Kreative akzeptiert (z. B. „Melde dich heute Abend um 21 Uhr für die neue Folge von \*unserer Sendung an*\>)
+* **[!UICONTROL Tune]:** Zeigt an, wann der Publisher „tune-in“-Kreative akzeptiert (z. B. „tune-in heute Abend um 21 Uhr für die neue Folge von \&lt;*unsere Sendung*\>)
 * **[!UICONTROL LDA]:** (Legal Drinking Age) Zeigt an, wann der Publisher 21+ Targeting angewendet hat und Alkoholanzeigen akzeptiert
 * **[!UICONTROL CPM]:** Zeigt an, wenn die CPM-Untergrenze oder der Festsatz für das Angebot erst sichtbar ist, nachdem dem Werbetreibenden Zugriff auf das Angebot gewährt wurde
 * **[!UICONTROL Status]:** Der Status Ihrer Abonnementanfrage (falls zutreffend)

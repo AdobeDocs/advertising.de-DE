@@ -3,22 +3,26 @@ title: Anzeigen des Berichts zur Platzierungs-Forecast
 description: Anzeigen der Anzahl der Impressionen, Ausgaben und des optimalen Maximalangebots, die für eine bestimmte Targeting-Strategie für eine Platzierung prognostiziert wurden.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Anzeigen des Berichts zur Platzierungs-Forecast
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ Die Prognose enthält folgende Angaben:
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** Die geschätzten Kosten pro Tausend Impressionen (eCPM), die von den Zielgruppeneinstellungen erwartet werden können.
+  * **[!UICONTROL Estimated CPM]:** Die geschätzten Kosten pro Tausend Impressionen (eCPM), die von den Zielgruppeneinstellungen erwartet werden können.
 
-   * **[!UICONTROL Budget]:** Das geschätzte Budget für die Zielgruppeneinstellungen.
+  * **[!UICONTROL Budget]:** Das geschätzte Budget für die Zielgruppeneinstellungen.
 
-   * **[!UICONTROL Impression]:** Die geschätzte Anzahl von Impressionen für die Zielgruppeneinstellungen.
+  * **[!UICONTROL Impression]:** Die geschätzte Anzahl von Impressionen für die Zielgruppeneinstellungen.
 
 * **[!UICONTROL Budget Yield Curve]:** Die geschätzte Anzahl der Impressionen, die die Platzierung in verschiedenen Budgetstufen liefern kann, wenn alle anderen Zielgruppeneinstellungen identisch sind.
 
@@ -66,13 +70,13 @@ Die Prognose enthält folgende Angaben:
 
 * Historische Daten: Die Platzierungsprognose ist verfügbar, wenn ausreichende historische Daten verfügbar sind. Im Folgenden finden Sie Beispiele für Fälle, in denen nicht genügend historische Daten verfügbar sind:
 
-   * Die Platzierung zielt auf eine neue Region für die Kampagne ab.
+  * Die Platzierung zielt auf eine neue Region für die Kampagne ab.
 
-   * Die Platzierung zielt auf ein neues Lagerangebot für die Kampagne ab.
+  * Die Platzierung zielt auf ein neues Lagerangebot für die Kampagne ab.
 
-   * Die Platzierung verwendet einen neuen Anzeigentyp für die Kampagne.
+  * Die Platzierung verwendet einen neuen Anzeigentyp für die Kampagne.
 
-     Eine Platzierung ist in der Regel eine Sammlung mehrerer Anzeigenvorlagen, die von anbieterseitigen Plattformen definiert werden. Selbst wenn die Platzierung schon lange besteht, kann das Prognose-Tool keine Prognose erstellen, wenn die zugrunde liegende Anzeigenvorlage neu ist.
+    Eine Platzierung ist in der Regel eine Sammlung mehrerer Anzeigenvorlagen, die von anbieterseitigen Plattformen definiert werden. Selbst wenn die Platzierung schon lange besteht, kann das Prognose-Tool keine Prognose erstellen, wenn die zugrunde liegende Anzeigenvorlage neu ist.
 
 ## Bericht für Platzierungs-Forecasts öffnen
 

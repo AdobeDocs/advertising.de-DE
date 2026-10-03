@@ -2,13 +2,19 @@
 title: Advertiser-Kontoeinstellungen
 description: Siehe Beschreibungen der verfügbaren Advertiser-Einstellungen.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # Advertiser-Kontoeinstellungen
 
 *Nicht für schreibgeschützte Benutzer verfügbar*
@@ -39,7 +45,7 @@ Werbetreibende mit zusätzlichen Adobe CX Enterprise-Produkten können Daten üb
 
 ### [!UICONTROL Integrations]
 
-(Optional) Zusätzliche CX Enterprise-Produkte in Verbindung mit dem DSP-Konto. Die Produkte müssen mit derselben CX Enterprise-Organisations-ID verknüpft sein, die im Abschnitt [!UICONTROL Adobe IMS IDs] angegeben ist.
+(Optional) Zusätzliche CX Enterprise-Produkte, die mit dem DSP-Konto verknüpft sind. Die Produkte müssen mit derselben CX Enterprise-Organisations-ID verknüpft sein, die im Abschnitt [!UICONTROL Adobe IMS IDs] angegeben ist.
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Werbetreibende mit [!DNL Advertising Search, Social, & Commerce] oder die Adobe Advertising-Konversionspixel verwenden) Ein [!DNL Search, Social, & Commerce], mit dem DSP Attributionsdaten austauscht.
 

@@ -3,20 +3,24 @@ title: Verwalten von Inventardaten-Feed-Dateien
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die steuern, wie Feed-Daten verarbeitet werden.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Inventardaten-Feed-Dateien
 
 *[!DNL Google Ads], [!DNL LY Ads] (nur Löschaktionen), [!DNL Microsoft Advertising] und [!DNL Yandex] Konten*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * Um einen wiederholbaren Prozess mit eingeschränkter manueller Überprüfung oder Bearbeitung zu erzielen, richten Sie Feed-Dateien und ihre Kontostrukturdaten wie folgt ein:
 
-   * Spalten und Zeilen einschließen, die genügend Daten enthalten, um eine Kontostruktur zu erstellen oder die vorhandene Kontostruktur zuzuordnen. Idealerweise verwenden Sie eine vorhandene Kontostruktur, die eng mit der Produkttaxonomie verknüpft ist und der die Feed-Daten einfach zugeordnet werden können.
+  * Spalten und Zeilen einschließen, die genügend Daten enthalten, um eine Kontostruktur zu erstellen oder die vorhandene Kontostruktur zuzuordnen. Idealerweise verwenden Sie eine vorhandene Kontostruktur, die eng mit der Produkttaxonomie verknüpft ist und der die Feed-Daten einfach zugeordnet werden können.
 
-   * Binden Sie Beschreibungen ein, die kurz genug sind, um sie in der Anzeigenkopie zu verwenden.
+  * Binden Sie Beschreibungen ein, die kurz genug sind, um sie in der Anzeigenkopie zu verwenden.
 
-   * Verwenden Sie konsistente Datenmuster und Benennungskonventionen in allen Produktzeilen.
+  * Verwenden Sie konsistente Datenmuster und Benennungskonventionen in allen Produktzeilen.
 
-   * Entfernen Sie alle vorangestellten Leerzeichen und nachfolgenden Leerzeichen.
+  * Entfernen Sie alle vorangestellten Leerzeichen und nachfolgenden Leerzeichen.
 
-   * Entfernen Sie alle beschädigten Zeichen.
+  * Entfernen Sie alle beschädigten Zeichen.
 
 ## Anzeigen oder Herunterladen einer Feed-Datei
 

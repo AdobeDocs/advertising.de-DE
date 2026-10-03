@@ -3,20 +3,26 @@ title: Workflows für dynamische Anzeigen
 description: Erfahren Sie mehr über die Workflows zum Verwalten dynamischer Anzeigen.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # Workflows für dynamische Anzeigen
 
 *Benutzer mit Berechtigungen zum Erstellen dynamischer Anzeigen*
@@ -64,17 +70,17 @@ Sie können dynamische Anzeigen auf zwei Arten einrichten:
 
    * (Für dynamische HTML5- und Videoanzeigen) Erstellen Sie Kataloge Ihrer Werbeelemente:
 
-      1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bild- oder Videonamen ein. Erfassen Sie die zugehörigen Bild- und Video-Assets separat.
+     1. Erstellen Sie eine Feed-Datei im XLSX-Format (Microsoft Excel Spreadsheet) mit einer Zeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Bild- oder Videonamen ein. Erfassen Sie die zugehörigen Bild- und Video-Assets separat.
 
-      1. [Laden Sie die Feed-Datei und die Assets hoch](/help/creative/feeds/asset-manage.md).
+     1. [Laden Sie die Feed-Datei und die Assets hoch](/help/creative/feeds/asset-manage.md).
 
-      1. [Erstellen Sie eine Feed](/help/creative/feeds/feed-template-manage.md)Vorlage, um die Felder in Ihrer Feed-Datei (Kalkulationstabelle) den Feldern im Advertising Creative-Backend zuzuordnen. Optional können Sie eine universelle Feed-Vorlage mit Feldern herunterladen und ausfüllen, die für jeden Kampagnentyp relevant sind.
+     1. [Erstellen Sie eine Feed](/help/creative/feeds/feed-template-manage.md)Vorlage, um die Felder in Ihrer Feed-Datei (Kalkulationstabelle) den Feldern im Advertising Creative-Backend zuzuordnen. Optional können Sie eine universelle Feed-Vorlage mit Feldern herunterladen und ausfüllen, die für jeden Kampagnentyp relevant sind.
 
-      1. [Erstellen Sie einen &#x200B;](/help/creative/feeds/catalog-manage.md#feed-catalog-create) aus einer angegebenen Feed-Datei und einer angegebenen Feed-Vorlage und [verarbeiten Sie dann den Katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-process) um die Anzeigenvarianten anzuzeigen, die daraus erstellt werden können.
+     1. [Erstellen Sie einen &#x200B;](/help/creative/feeds/catalog-manage.md#feed-catalog-create) aus einer angegebenen Feed-Datei und einer angegebenen Feed-Vorlage und [verarbeiten Sie dann den Katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-process) um die Anzeigenvarianten anzuzeigen, die daraus erstellt werden können.
 
-         Jede Feed-Datei kann nur für einen Katalog verwendet werden.
+        Jede Feed-Datei kann nur für einen Katalog verwendet werden.
 
-         Sie können [&#x200B; Status von Katalogverarbeitungsaufträgen &#x200B;](/help/creative/feeds/job-status-track.md) der Registerkarte [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] verfolgen.
+        Sie können [&#x200B; Status von Katalogverarbeitungsaufträgen &#x200B;](/help/creative/feeds/job-status-track.md) der Registerkarte [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] verfolgen.
 
 1. [Dynamische Kreative erstellen](/help/creative/creative-libraries/creative-add-dynamic.md) für eine Kreativbibliothek. Verwenden Sie für dynamische HTML5-Anzeigen eine bestimmte Anzeigenvorlage und bestimmte Kataloge.
 

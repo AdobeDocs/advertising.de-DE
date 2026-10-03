@@ -3,18 +3,23 @@ title: Über das Anpassen von Daten in Ansichten des Kampagnen-Managements
 description: Erfahren Sie mehr über die Datentypen, die Sie in Kampagnendatenansichten anpassen können.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+TQID: 'https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Über das Anpassen von Daten in Ansichten des Kampagnen-Managements
 
 <!-- Add info about new UI -->
@@ -27,11 +32,11 @@ In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datent
 
 * (Nur veraltete Benutzeroberfläche) [Im linken Navigationsbereich &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md) Sie folgende Möglichkeiten:
 
-   * Suchen Sie nach Entitäten nach Anzeigennetzwerk und filtern Sie nach dem Status der Entität und dem Status des Kontos, der Kampagne und der Anzeigengruppe oder des Anzeigensatzes. Klicken Sie auf eine beliebige Entität oder Entitätsgruppe im Bedienfeld, um eine Ansicht der untergeordneten Entitäten zu laden (klicken Sie beispielsweise auf einen Kampagnennamen, um die untergeordneten Anzeigengruppen anzuzeigen).
+  * Suchen Sie nach Entitäten nach Anzeigennetzwerk und filtern Sie nach dem Status der Entität und dem Status des Kontos, der Kampagne und der Anzeigengruppe oder des Anzeigensatzes. Klicken Sie auf eine beliebige Entität oder Entitätsgruppe im Bedienfeld, um eine Ansicht der untergeordneten Entitäten zu laden (klicken Sie beispielsweise auf einen Kampagnennamen, um die untergeordneten Anzeigengruppen anzuzeigen).
 
-   * Suchen Sie nach Kampagnen nach Portfolio oder Portfoliogruppe und filtern Sie nach dem Status der Entität und dem Status der Portfoliogruppe, des Portfolios und der Kampagne. Klicken Sie auf eine beliebige Portfoliogruppe, ein beliebiges Portfolio oder eine beliebige Kampagne im Bedienfeld, um Daten für die Portfoliogruppe, das Portfolio oder die Kampagne in die aktuelle Entitätsansicht zu laden.
+  * Suchen Sie nach Kampagnen nach Portfolio oder Portfoliogruppe und filtern Sie nach dem Status der Entität und dem Status der Portfoliogruppe, des Portfolios und der Kampagne. Klicken Sie auf eine beliebige Portfoliogruppe, ein beliebiges Portfolio oder eine beliebige Kampagne im Bedienfeld, um Daten für die Portfoliogruppe, das Portfolio oder die Kampagne in die aktuelle Entitätsansicht zu laden.
 
-   * Zugreifen auf, Bearbeiten und Zurücksetzen von Standardansichten sowie Zugreifen auf, Bearbeiten und Löschen von benutzerdefinierten Ansichten. Wenn Sie auf einen Ansichtsnamen klicken, wird die entsprechende Ansicht geladen.
+  * Zugreifen auf, Bearbeiten und Zurücksetzen von Standardansichten sowie Zugreifen auf, Bearbeiten und Löschen von benutzerdefinierten Ansichten. Wenn Sie auf einen Ansichtsnamen klicken, wird die entsprechende Ansicht geladen.
 
 * Wenden Sie Filter auf alle verfügbaren Datenspalten an, um die Daten zu ändern, die auf der aktuellen Registerkarte angezeigt werden. Sie können Filter erstellen [aus den Spaltenüberschriften &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)oder [aus einer Schaltfläche in der Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). In Ansichten des Kampagnen-Managements werden die Filter nach Bedarf beibehalten, wenn Sie untergeordnete Entitäten öffnen. Wenn Sie beispielsweise Kampagnen mit \> 100 Klicks anzeigen und dann eine Anzeigengruppe innerhalb dieser Kampagne öffnen, werden nur Anzeigengruppen mit \> 100 Klicks angezeigt.
 

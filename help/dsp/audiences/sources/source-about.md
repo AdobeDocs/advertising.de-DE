@@ -3,24 +3,29 @@ title: Über First-Party-Zielgruppenquellen
 description: Erfahren Sie, wie Sie andere Benutzerkennung in Erstanbietersegmenten in universelle IDs für das Cookie-lose Targeting konvertieren können.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Über First-Party-Zielgruppenquellen
 
 Mit der Funktion „Zielgruppenquelle“ können Sie Erstanbietersegmente, die universelle IDs enthalten, unverändert importieren oder in Segmente mit angegebenen universellen ID-Typen konvertieren:
@@ -46,21 +51,21 @@ Sie können Ihre Erstanbietersegmente aus [!DNL ActionIQ], [!DNL Adobe] [!DNL Re
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * Für das Retargeting angemeldeter Benutzer.
+  * Für das Retargeting angemeldeter Benutzer.
 
-     [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
+    [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
 
-     Die Gebühren betragen USD 0,15 pro bereitgestellter Display-Anzeigeneindruck und USD 0,25 pro bereitgestellter Video-Anzeigeneindruck.
+    Die Gebühren betragen 0,15 USD pro bereitgestellter Display-Anzeigenimpression und 0,25 USD pro bereitgestellter Video-Anzeigenimpression.
 
-   * Zur Messung mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+  * Zur Messung mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
 * [[!DNL Unified ID 2.0 (UID2.0)] IDs](https://unifiedid.com):
 
-   * Für das Retargeting angemeldeter Benutzer.
+  * Für das Retargeting angemeldeter Benutzer.
 
-     [!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+    [!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-     Die Gebühren betragen USD 0,15 pro bereitgestellter Display-Anzeigeneindruck und USD 0,25 pro bereitgestellter Video-Anzeigeneindruck.
+    Die Gebühren betragen 0,15 USD pro bereitgestellter Display-Anzeigenimpression und 0,25 USD pro bereitgestellter Video-Anzeigenimpression.
 
 <!--
  Not yet

@@ -3,18 +3,21 @@ title: Vorgänge, die Sie in Bulksheets ausführen können
 description: Verweisen Sie auf allgemeine Informationen zum Hinzufügen, Bearbeiten und Löschen von Kampagnendaten mithilfe von Bulksheets.
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+TQID: 'https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Vorgänge, die Sie in Bulksheets ausführen können
 
 Sie können Kampagnendaten über Bulksheets für (unterstützte Werbenetzwerke[&#x200B; hinzufügen, bearbeiten und &#x200B;](../bulksheet-about.md#bulksheet-functionality-by-network).
@@ -25,9 +28,9 @@ Die folgenden Regeln gelten für das Arbeiten mit Kampagnenkomponenten und deren
 
 * Wird hinzugefügt:
 
-   * Um eine Komponente hinzuzufügen, schließen Sie alle Felder ein, die erforderlich sind, um diese Komponente hinzuzufügen, sowie optional Felder für jede der Komponenteneigenschaften.
+  * Um eine Komponente hinzuzufügen, schließen Sie alle Felder ein, die erforderlich sind, um diese Komponente hinzuzufügen, sowie optional Felder für jede der Komponenteneigenschaften.
 
-   * Um eine Eigenschaft für eine vorhandene Komponente hinzuzufügen, z. B. den [!UICONTROL Ad Group End Date] für eine Anzeigengruppe, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente (Anzeigengruppe) erforderlich sind, sowie das Feld für die Eigenschaft ([!UICONTROL Ad Group End Date]).
+  * Um eine Eigenschaft für eine vorhandene Komponente hinzuzufügen, z. B. den [!UICONTROL Ad Group End Date] für eine Anzeigengruppe, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente (Anzeigengruppe) erforderlich sind, sowie das Feld für die Eigenschaft ([!UICONTROL Ad Group End Date]).
 
 * Um eine Eigenschaft für eine vorhandene Komponente zu bearbeiten, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, sowie das Feld für die Eigenschaft.
 
@@ -35,15 +38,15 @@ Die folgenden Regeln gelten für das Arbeiten mit Kampagnenkomponenten und deren
 
 * wird gelöscht:
 
-   * Um eine vorhandene Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und ändern Sie ihren Status in [!UICONTROL Deleted]. Um beispielsweise eine [!DNL Google Ads] Anzeigengruppe zu löschen, müssen Sie die [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] mit dem Wert <i>[!UICONTROL Deleted]</i> und [!UICONTROL Ad Group ID] einbeziehen.
+  * Um eine vorhandene Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und ändern Sie ihren Status in [!UICONTROL Deleted]. Um beispielsweise eine [!DNL Google Ads] Anzeigengruppe zu löschen, müssen Sie die [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] mit dem Wert <i>[!UICONTROL Deleted]</i> und [!UICONTROL Ad Group ID] einbeziehen.
 
-   * (Nur [!UICONTROL Param1]-, [!UICONTROL Param2]- und [!UICONTROL Param3]) Um einen vorhandenen [!DNL paramN] für ein Keyword zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten des Keywords erforderlich sind, und löschen Sie auch den vorhandenen [!DNL paramN], indem Sie den `[delete]` (einschließlich der Klammern) in das entsprechende Feld eingeben.
+  * (Nur [!UICONTROL Param1]-, [!UICONTROL Param2]- und [!UICONTROL Param3]) Um einen vorhandenen [!DNL paramN] für ein Keyword zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten des Keywords erforderlich sind, und löschen Sie auch den vorhandenen [!DNL paramN], indem Sie den `[delete]` (einschließlich der Klammern) in das entsprechende Feld eingeben.
 
-   * (Zulässige Eigenschaftsfelder) Um einen vorhandenen Eigenschaftswert für eine Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und löschen Sie den Eigenschaftswert auch, indem Sie den `[delete]` (einschließlich der Klammern) eingeben. Zulässige Felder umfassen:
+  * (Zulässige Eigenschaftsfelder) Um einen vorhandenen Eigenschaftswert für eine Komponente zu löschen, schließen Sie alle Felder ein, die zum Bearbeiten dieser Komponente erforderlich sind, und löschen Sie den Eigenschaftswert auch, indem Sie den `[delete]` (einschließlich der Klammern) eingeben. Zulässige Felder umfassen:
 
-      * (Nur [!UICONTROL Google Ads]) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
+    * (Nur [!UICONTROL Google Ads]) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+    * (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising]) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

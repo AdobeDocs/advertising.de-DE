@@ -3,18 +3,24 @@ title: Verwalten dynamischer Anzeigenvorlagen
 description: Erfahren Sie, wie Sie dynamische Anzeigenvorlagen verwalten und daraus Anzeigen erstellen.
 feature: Creative Templates
 exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
-TQID: https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc
+TQID: 'https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ed6ac2c4-a9bd-4406-807a-6cff66d34585
+    internal-label: Creative templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # Verwalten dynamischer Anzeigenvorlagen
 
 Erstellen Sie eine separate Anzeigenvorlage für jede Kombination aus Anzeigentyp (static HTML5 oder dynamic HTML5) und Anzeigengröße, indem Sie eine komprimierte HTML5-Datei mit dem gewünschten Anzeigenformat hochladen. Bei dynamischen HTML5-Anzeigen können Sie auch eine Datei hochladen, die die Anzeigenattribute enthält<!-- more clarification? -->.

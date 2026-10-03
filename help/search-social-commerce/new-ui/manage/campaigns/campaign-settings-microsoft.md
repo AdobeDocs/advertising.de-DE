@@ -1,23 +1,30 @@
 ---
 title: '[!DNL Microsoft Advertising] Kampagneneinstellungen'
-description: Verweisen Sie auf die Einstellungen für  [!DNL Microsoft Advertising] -Kampagnen.
+description: Referenzieren Sie die Einstellungen für [!DNL Microsoft Advertising] Kampagnen.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2256'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] Kampagneneinstellungen
 
 ## \[Seitenanfang]
@@ -239,7 +246,7 @@ Informationen zur Verfügbarkeit finden Sie in der Hilfe zu Microsoft Advertisin
 >
 >Wenn die Kampagne Teil eines hybriden Portfolios ist, empfiehlt es sich, Ziele auf Kampagnenebene zu verwenden, die den Konversionszielen im Portfolioziel entsprechen. Das Einschließen zusätzlicher Konversionsziele kann die Portfolioleistung beeinträchtigen.
 >
-> Gehen Sie bei Kampagnen in hybriden Portfolios, für die Sie [Ziele in das Anzeigennetzwerk hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md), wie folgt im Editor des Anzeigennetzwerks vor und nicht hier: a) Fügen Sie die hochgeladene Zielmetrik für das Zielportfolio für Suche, Social und Commerce (die mit „O_ACS_OBJ“ beginnt) als Konversionsziel für die Kampagne hinzu und b) fügen Sie alle Kampagnenziele hinzu, die Konversionen enthalten, die vom Tag [!DNL Microsoft Advertising] Universal Event Tracking (UET) verfolgt werden, da im Anzeigennetzwerk verfolgte Metriken nicht mit dem Ziel in das Anzeigennetzwerk hochgeladen werden.
+> Gehen Sie bei Kampagnen in hybriden Portfolios, für die Sie [Ziele in das Anzeigennetzwerk hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md), wie folgt im Editor des Anzeigennetzwerks vor und nicht hier: a) Fügen Sie die hochgeladene Zielmetrik für das Zielportfolio für Suche, Social und Commerce (die mit „O_ACS_OBJ&quot; beginnt) als Konversionsziel für die Kampagne hinzu und b) fügen Sie alle Kampagnenziele hinzu, die Konversionen enthalten, die vom Tag [!DNL Microsoft Advertising] Universal Event Tracking (UET) verfolgt werden, da im Anzeigennetzwerk verfolgte Metriken nicht mit dem Ziel in das Anzeigennetzwerk hochgeladen werden.
 
 ### [!UICONTROL Asset Groups] (pro Asset-Gruppe)
 

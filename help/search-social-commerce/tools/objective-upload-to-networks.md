@@ -1,23 +1,28 @@
 ---
 title: Hochladen von Zielen in Werbenetzwerke aktivieren
-description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in  [!DNL Google Ads] / [!DNL Microsoft Advertising] hochladen.
+description: Erfahren Sie, wie Sie Ziele für Ihre hybriden Portfolios in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Hochladen von Zielen in Werbenetzwerke aktivieren
 
 *Werbetreibende nur mit [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten*
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 Search, Social und Commerce können die Ziele für die Portfolios eines Advertiser-Kontos in [!DNL Google Ads] und [!DNL Microsoft Advertising] hochladen, damit Sie sie für die Hybridoptimierung verwenden können. Die hochgeladenen Ziele sind als Konversionsaktionen für benutzerdefinierte Konversionsziele auf Konto- und Kampagnenebene verfügbar.
 
-Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der [!DNL Microsoft Advertising] der `msclkid`. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
+Durch Aktivierung dieser Option wird automatisch ein Upload von Zielen in Portfolios mit Kampagnen mit intelligenten Angebotsstrategien Trigger. Search, Social und Commerce erstellen für jedes anwendbare Ziel eine Konversion im Anzeigennetzwerk. Die Konversion stellt alle gewichteten Konversionsmetriken im -Ziel auf EF-ID-(Klick-ID-)Ebene dar. Bei [!DNL Google Ads] Klicks ist die EF ID der [!DNL Google Ads] `gclid`; bei [!DNL Microsoft Advertising] Klicks ist die EF ID der `msclkid` der [!DNL Microsoft Advertising]. Aufgrund dieser Klick-ID können Konversionsdaten dem jeweiligen Keyword und der Klickzeit zugeordnet werden.
 
 Jede hochgeladene Konversion hat den folgenden Namen:
 
@@ -83,9 +88,9 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 
 * ([!DNL Google Ads]) Überprüfen Sie, ob die Konversionen auf Konto- oder Managerebene hochgeladen werden sollen. Wenn sie auf Managerebene hochgeladen werden sollen:
 
-   * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto unter **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** angegeben sind. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/admin/manager-accounts.md).
+  * Überprüfen Sie, ob die Anmeldeinformationen für das [!DNL Google Ads] Manager-Konto unter **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]** angegeben sind. Fügen Sie bei Bedarf [Anmeldeinformationen für das Manager-Konto hinzu](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
+  * Überprüfen Sie, ob das Anzeigennetzwerkkonto bereits denselben Metriknamen enthält. Benennen Sie in diesem Fall die Metrik um, damit die richtige Eigenschaft auf Managerebene erstellt werden kann.
 
 * Vergewissern Sie sich, dass die Option „Hybrid“ des Portfolios ausgewählt ist und dass das Ziel einen gültigen Umsatz hat.
 

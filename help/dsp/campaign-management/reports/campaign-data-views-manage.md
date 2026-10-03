@@ -3,25 +3,31 @@ title: Ansichten der Kampagnendaten verwalten
 description: Erfahren Sie, wie Sie Ihre Datenansichten für Kampagnen, Pakete, Platzierungen und Anzeigen anpassen können.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-TQID: https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8
+TQID: 'https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: '927'
 ht-degree: 0%
-
 ---
-
 # Ansichten der Kampagnendaten verwalten
 
 Sie können die Daten anpassen, die in Ihren Ansichten zur Kampagnenverwaltung angezeigt werden ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] und [!UICONTROL Ads]).
@@ -121,38 +127,38 @@ Filter ändern die Daten, die auf der aktuellen Registerkarte angezeigt werden. 
 Die folgenden Filter sind für Ihre [!UICONTROL Campaigns]-, [!UICONTROL Packages]- und [!UICONTROL Placements] verfügbar:
 
 * Filter für die [!UICONTROL Campaigns]:
-   * [!UICONTROL Campaign status]
-   * [!UICONTROL Advertiser]
+  * [!UICONTROL Campaign status]
+  * [!UICONTROL Advertiser]
 * Filter für die [!UICONTROL Packages]:
-   * [!UICONTROL Custom flights] (ob sie existieren oder nicht)
-   * [!UICONTROL Custom goal] (falls anwendbar)
-   * [!UICONTROL End end date]
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package status]
-   * [!UICONTROL Start date]
+  * [!UICONTROL Custom flights] (ob sie existieren oder nicht)
+  * [!UICONTROL Custom goal] (falls anwendbar)
+  * [!UICONTROL End end date]
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package status]
+  * [!UICONTROL Start date]
 * Filter für die [!UICONTROL Placements]:
-   * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal] (falls anwendbar)
-   * [!UICONTROL End date]
-   * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than] oder [!UICONTROL equal to] eines angegebenen Werts)
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Pacing on] ([!UICONTROL impressions] oder [!UICONTROL spend])
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package]
-   * [!UICONTROL Placement status]
-   * [!UICONTROL Placement type]
-   * [!UICONTROL Placement sub-type]
-   * [!UICONTROL Start date]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Custom ad scheduling]
+  * [!UICONTROL Custom goal] (falls anwendbar)
+  * [!UICONTROL End date]
+  * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than] oder [!UICONTROL equal to] eines angegebenen Werts)
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Pacing on] ([!UICONTROL impressions] oder [!UICONTROL spend])
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package]
+  * [!UICONTROL Placement status]
+  * [!UICONTROL Placement type]
+  * [!UICONTROL Placement sub-type]
+  * [!UICONTROL Start date]
+  * [!UICONTROL Creation date]
 * Filter für die [!UICONTROL Ads]:
-   * [!UICONTROL Adobe ad approval status]
-   * [!UICONTROL Ad ID]
-   * [!UICONTROL Ad name]
-   * [!UICONTROL Ad type]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Adobe ad approval status]
+  * [!UICONTROL Ad ID]
+  * [!UICONTROL Ad name]
+  * [!UICONTROL Ad type]
+  * [!UICONTROL Creation date]
 
 ### Ändern des Datumsbereichs
 
@@ -164,11 +170,11 @@ Die folgenden Filter sind für Ihre [!UICONTROL Campaigns]-, [!UICONTROL Package
 
 * Führen Sie für einen bestimmten Bereich einen der folgenden Schritte aus:
 
-   * Klicken Sie ![Kalender](/help/dsp/assets/calendar.png "Kalender") und klicken Sie dann im Kalender auf das Anfangs- und Enddatum.
+  * Klicken Sie ![Kalender](/help/dsp/assets/calendar.png "Kalender") und klicken Sie dann im Kalender auf das Anfangs- und Enddatum.
 
-   * Klicken Sie in den Datumsbereich und geben Sie dann entweder ein Anfangs- und ein Enddatum ein oder wählen Sie diese im Kalender aus.
+  * Klicken Sie in den Datumsbereich und geben Sie dann entweder ein Anfangs- und ein Enddatum ein oder wählen Sie diese im Kalender aus.
 
-     Sie können numerische Werte (von M-D-YY bis MM-TT-YYYY) und/oder Monatsnamen oder Abkürzungen (z. B. Januar oder Januar) eingeben.
+    Sie können numerische Werte (von M-D-YY bis MM-TT-YYYY) und/oder Monatsnamen oder Abkürzungen (z. B. Januar oder Januar) eingeben.
 
 ### Sortieren einer Datenspalte
 

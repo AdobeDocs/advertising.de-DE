@@ -1,30 +1,41 @@
 ---
-title: Erwartete Datenabweichungen zwischen  [!DNL Analytics]  und Adobe Advertising
-description: Erwartete Datenabweichungen zwischen  [!DNL Analytics]  und Adobe Advertising
+title: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
+description: Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # Erwartete Datenabweichungen zwischen [!DNL Analytics] und Adobe Advertising
 
 *Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
@@ -53,7 +64,7 @@ Wenn ein Reporting-Lookback-Fenster oder ein Attributionsmodell in einem Produkt
 
 * **Beispiel für Diskrepanzen, die durch verschiedene Attributionsmodelle verursacht werden:**
 
-  Angenommen, ein Benutzer interagiert vor der Konvertierung mit drei verschiedenen Adobe Advertising-Anzeigen, wobei Umsatz als Konversionstyp dient. Wenn ein Adobe Advertising-Bericht ein gleichmäßiges Verteilungsmodell für die Attribution verwendet, wird der Umsatz gleichmäßig auf alle Anzeigen verteilt. Wenn [!DNL Analytics] jedoch das Attributionsmodell Letztkontakt verwendet, ordnet sie den Umsatz der letzten Anzeige zu. Im folgenden Beispiel ordnet Adobe Advertising von den erfassten 30 USD Umsatz jeder der drei Anzeigen sogar 10 USD zu, während [!DNL Analytics] alle 30 USD Umsatz der letzten Anzeige zuordnet, die der Benutzer gesehen hat. Wenn Sie Berichte aus Adobe Advertising und [!DNL Analytics] vergleichen, können Sie davon ausgehen, dass sich die unterschiedliche Attribution auf Sie auswirkt.
+  Angenommen, ein Benutzer interagiert vor der Konvertierung mit drei verschiedenen Adobe Advertising-Anzeigen, wobei Umsatz als Konversionstyp dient. Wenn ein Adobe Advertising-Bericht ein gleichmäßiges Verteilungsmodell für die Attribution verwendet, wird der Umsatz gleichmäßig auf alle Anzeigen verteilt. Wenn [!DNL Analytics] jedoch das Attributionsmodell Letztkontakt verwendet, ordnet sie den Umsatz der letzten Anzeige zu. Im folgenden Beispiel ordnet Adobe Advertising jeder der drei Anzeigen sogar 10 USD der 30 erfassten USD-Umsätze zu, während [!DNL Analytics] alle 30 USD-Umsätze der letzten Anzeige zuordnet, die der Benutzer gesehen hat. Wenn Sie Berichte aus Adobe Advertising und [!DNL Analytics] vergleichen, können Sie davon ausgehen, dass sich die unterschiedliche Attribution auf Sie auswirkt.
 
   ![Unterschiedlicher Umsatz, der Adobe Advertising und [!DNL Analytics] auf der Grundlage verschiedener Attributionsmodelle zugewiesen wird](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ Angenommen, im folgenden Beispiel wurde einem Besucher eine Anzeige an Tag 1 ges
 
 ![Beispiel einer Durchsichtskonvertierung, die in [!DNL Analytics], aber nicht in Adobe Advertising zugewiesen wird](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Eine weitere Ursache für Diskrepanzen besteht darin, dass Sie in Adobe Advertising View-Through-Konversionen eine benutzerdefinierte *View-Through-*) zuweisen können, die relativ zur Gewichtung ist, die einer Click-basierten Konvertierung zugeordnet wurde. Die standardmäßige View-Through-Gewichtung beträgt 40 %, was bedeutet, dass eine View-Through-Konvertierung als 40 % des Werts einer Click-basierten Konvertierung gezählt wird. [!DNL Analytics] bietet keine solche Gewichtung von View-Through-Konversionen. So wird beispielsweise ein in [!DNL Analytics] erfasster Umsatzauftrag im Wert von 100 USD in Adobe Advertising auf 40 USD reduziert, wenn Sie die standardmäßige Durchsichtsgewichtung verwenden - eine Differenz von 60 USD.
+Eine weitere Ursache für Diskrepanzen besteht darin, dass Sie in Adobe Advertising View-Through-Konversionen eine benutzerdefinierte *View-Through-*) zuweisen können, die relativ zur Gewichtung ist, die einer Click-basierten Konvertierung zugeordnet wurde. Die standardmäßige View-Through-Gewichtung beträgt 40 %, was bedeutet, dass eine View-Through-Konvertierung als 40 % des Werts einer Click-basierten Konvertierung gezählt wird. [!DNL Analytics] bietet keine solche Gewichtung von View-Through-Konversionen. Beispielsweise wird ein in [!DNL Analytics] erfasster USD-Umsatzauftrag im Adobe Advertising auf 40 USD reduziert, wenn Sie die standardmäßige Durchsichtsgewichtung verwenden - eine Differenz von 60 USD.
 
 Beachten Sie diese Unterschiede beim Vergleich von View-Through-Konversionen zwischen Adobe Advertising- und [!DNL Analytics].
 
@@ -137,7 +148,7 @@ Adobe Advertising-Berichte erfassen nur bezahlte Medien, die über Adobe Adverti
 
 Paid Search- und natürliche Suchkanäle haben beispielsweise oft eine symbiotische Beziehung, bei der jeder Kanal dem anderen hilft. Der [!DNL Marketing Channels] Bericht ordnet einige Konversionen zu einer natürlichen Suche zu, die Adobe Advertising nicht verfolgt, da die natürliche Suche nicht verfolgt wird.
 
-Denken Sie auch an einen Kunden, der eine Display-Anzeige anzeigt, auf eine Paid-Search-Anzeige klickt, auf eine E-Mail-Nachricht klickt und dann eine 30-USD-Bestellung aufgibt. Selbst wenn Adobe Advertising und [!DNL Marketing Channels] beide das Attributionsmodell Letztkontakt verwenden, wird die Konversion dennoch jedem anders zugeordnet. Adobe Advertising hat keinen Zugriff auf den [!UICONTROL Email], sodass die Paid Search-Suche für die Konversion angerechnet wird. [!DNL Marketing Channels] hat jedoch Zugriff auf alle drei Kanäle, sodass es [!UICONTROL Email] für die Konversion gutschreiben würde.
+Denken Sie auch an einen Kunden, der eine Display-Anzeige anzeigt, auf eine Paid-Search-Anzeige klickt, auf eine E-Mail-Nachricht klickt und dann eine Bestellung von 30 USD aufgibt. Selbst wenn Adobe Advertising und [!DNL Marketing Channels] beide das Attributionsmodell Letztkontakt verwenden, wird die Konversion dennoch jedem anders zugeordnet. Adobe Advertising hat keinen Zugriff auf den [!UICONTROL Email], sodass die Paid Search-Suche für die Konversion angerechnet wird. [!DNL Marketing Channels] hat jedoch Zugriff auf alle drei Kanäle, sodass es [!UICONTROL Email] für die Konversion gutschreiben würde.
 
 ![Beispiel für eine andere Konversionszuordnung in Adobe Advertising im Vergleich zu [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)
 

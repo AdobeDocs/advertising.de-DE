@@ -3,20 +3,24 @@ title: FTP-Zugriff auf Berichte
 description: Erfahren Sie, wie Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen können.
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+TQID: 'https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # FTP-Zugriff auf Berichte
 
 Optional können Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem aus Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (um beispielsweise die Daten mit einem anderen Programm zu analysieren). Alle Basisberichte außer [!UICONTROL Search Engine Account Report] und allen erweiterten Berichten können als komprimierte TSV-Dateien (die Standardeinstellung) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
@@ -43,11 +47,11 @@ Um Berichte in Ihrem vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie [
 
    * (Optional) Eines der drei Systemdaten, wobei die folgende Syntax (einschließlich Klammern) unter Berücksichtigung der Groß-/Kleinschreibung verwendet wird:
 
-      * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, an denen der Bericht ausgeführt wurde. Da dies den genauen Zeitpunkt enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
+     * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, an denen der Bericht ausgeführt wurde. Da dies den genauen Zeitpunkt enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
 
-      * `[SDATE]` - Zum Einschließen des Startdatums des Datumsbereichs des Berichts.
+     * `[SDATE]` - Zum Einschließen des Startdatums des Datumsbereichs des Berichts.
 
-      * `[EDATE]` - Zum Einschließen des Enddatums des Datumsbereichs des Berichts.
+     * `[EDATE]` - Zum Einschließen des Enddatums des Datumsbereichs des Berichts.
 
    * (Optional) `[CSV]` (in Großbuchstaben und in eckigen Klammern), um Dateien im CSV-Format statt im Standard-TSV-Format zu erstellen.
 

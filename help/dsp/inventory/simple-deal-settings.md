@@ -3,20 +3,23 @@ title: '[!UICONTROL Simple Ad Serving] Abschlusseinstellungen'
 description: Erfahren Sie mehr über die verfügbaren Einstellungen für [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving] Abschlusseinstellungen
 
 ## Neue [!UICONTROL Simple Ad Serving] Angebote
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | Parameter | Beschreibung |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Die Kosten pro 1000 Impressionen (CPM), wie sie auf der Tarifkarte für Ihren Vertrag angegeben sind. Wenden Sie sich für diesen Wert an Ihr Adobe Account Team. <br><br>Geben Sie auch die Währung für den Abschluss an. Alle Benutzer können entweder USD oder, falls das SSP zusätzliche Währungen unterstützt, die Währung für das DSP-Konto auswählen. |
+| **[!UICONTROL Media CPM]** | Die Kosten pro 1000 Impressionen (CPM), wie sie auf der Tarifkarte für Ihren Vertrag angegeben sind. Wenden Sie sich für diesen Wert an Ihr Adobe Account Team. <br><br>Geben Sie auch die Währung für den Abschluss an. Alle Benutzer können USD oder, falls das SSP zusätzliche Währungen unterstützt, die Währung für das DSP-Konto auswählen. |
 | **[!UICONTROL Third Party Billed Fees]** | (Optional) Eine statische Drittanbietergebühr, die als nicht fakturierbare Kosten erfasst werden soll, und die Währung für den Abschluss.<br><br>Alle Benutzer können USD oder, falls das SSP zusätzliche Währungen unterstützt, die Währung für das DSP-Konto auswählen. **HINWEIS** Fakturierbare Gebühren werden in der [!UICONTROL Net CPM] Metrik angezeigt. |
 | **[!UICONTROL Third Party Fee Description]** | (Optional) Eine Beschreibung der Gebühren für Dritte. |
-| **[!UICONTROL Flight Dates]** | Das Start- und Enddatum für Traffic, der dieses Angebot verwendet. Die Flugdaten müssen in den Kampagnenflugdaten enthalten sein. Die Anzeigen-Tags geben eine Antwort nur während des angegebenen Flugs zurück.<br><br> Best Practice ist es, eine separate einfache Anzeigenbereitstellungskampagne mit einer einjährigen Dauer zu erstellen und darin Tracking-Pixel zu erstellen. |
+| **[!UICONTROL Flight Dates]** | Das Start- und Enddatum für Traffic, der dieses Angebot verwendet. Die Flugdaten müssen in den Kampagnenflugdaten enthalten sein. Die Anzeigen-Tags geben eine Antwort nur während des angegebenen Flugs zurück.<br><br> Es empfiehlt sich, eine separate einfache Anzeigenbereitstellungskampagne mit einer einjährigen Dauer zu erstellen und darin Tracking-Pixel zu erstellen. |
 | **[!UICONTROL Impressions]** | (Optional) Die geschätzte Anzahl der Impressionen, die Sie mit diesem Angebot ausführen möchten. Dieser Wert wird nur zu Tracking-Zwecken verwendet und um anzugeben, wann die Versandziele erreicht werden. Der Publisher steuert den tatsächlichen Anzeigenversand. Es empfiehlt sich, eine hohe Anzahl von Impressionen einzugeben, um das Tag in DSP aktiv zu halten, damit es bei Bedarf erneuert oder erweitert werden kann. |
 | **[!UICONTROL Deal Name]** | Der Angebotsname. Geben Sie einen Namen ein oder wählen Sie *[!UICONTROL Auto Generate Deal Name]* aus, damit DSP anhand der Abschlussdetails einen Namen generieren kann.<br><br>Beispiel für einen automatisch generierten Namen: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Schreibgeschützt) Die Anzeigen, die Teil des Angebots sind. Um eine Anzeige zu bearbeiten, klicken Sie auf den Anzeigenamen. Um eine Anzeige aus dem Angebot zu entfernen, klicken Sie auf **[!UICONTROL X]** neben dem Anzeigenamen. |

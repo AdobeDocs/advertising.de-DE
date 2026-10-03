@@ -1,23 +1,28 @@
 ---
 title: Einstellungen der Shopping-Anzeigenvorlage für Inventar-Feeds [!DNL Microsoft Ads]
-description: Verweisen Sie auf die Einstellungen für  [!DNL Microsoft Ads] -Shopping-Anzeigenvorlagen für Inventar-Feeds.
+description: Referenzieren Sie die Einstellungen für [!DNL Microsoft Ads] Shopping-Anzeigenvorlagen für Inventar-Feeds.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # Einstellungen der Shopping-Anzeigenvorlage für Inventar-Feeds [!DNL Microsoft Ads]
 
 Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
@@ -68,9 +73,9 @@ Verwenden Sie Shopping-Anzeigenvorlagen, um Shopping-Anzeigen zu konfigurieren.
 
 * Führen Sie für das Adobe Advertising-Konversions-Tracking, das angewendet wird, wenn die Kampagneneinstellungen &quot;[!UICONTROL EF Redirect]&quot; und &quot;[!UICONTROL Auto Upload]&quot; enthalten, einen der folgenden Schritte aus:
 
-   * (Empfohlen) Verwenden Sie das [Tracking-Vorlagenformat für Microsoft-](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto Shopping-Anzeigen gewidmet ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
+  * (Empfohlen) Verwenden Sie das [Tracking-Vorlagenformat für Microsoft-](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Wenn das gesamte Konto Shopping-Anzeigen gewidmet ist, können Sie stattdessen eine Tracking-Vorlage auf Kontoebene definieren.
 
-   * Wenn Sie stattdessen für jedes Produkt in der Spalte &quot;[!DNL bingads_redirect]&quot; einen Wert in den Feed aufnehmen (mit dem [richtigen Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md), geben Sie den `{lpurl}` ein. Optional können Sie dem `{lpurl}`-Parameter Umleitungen und Tracking von Drittanbietern hinzufügen.
+  * Wenn Sie stattdessen für jedes Produkt in der Spalte &quot;[!DNL bingads_redirect]&quot; einen Wert in den Feed aufnehmen (mit dem [richtigen Format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md), geben Sie den `{lpurl}` ein. Optional können Sie dem `{lpurl}`-Parameter Umleitungen und Tracking von Drittanbietern hinzufügen.
 
 * Geben Sie für Umleitungen und Tracking von Drittanbietern einen Wert ein.
 

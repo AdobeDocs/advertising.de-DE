@@ -3,20 +3,27 @@ title: Verwalten von kreativen Bundles
 description: Erfahren Sie, wie Sie Kreativgruppen verwalten und verwenden.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Verwalten von kreativen Bundles
 
 <!--
@@ -75,9 +82,9 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
    * So duplizieren Sie ein einzelnes Bundle:
 
-      * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Duplicate]**.
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Duplicate]**.
 
-      * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Duplicate]**.
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Duplicate]**.
 
    * Um ein oder mehrere Bundles zu duplizieren, aktivieren Sie das Kontrollkästchen für jedes Bundle, das Sie duplizieren möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ Wenn Sie eine Kreative aus dem Bundle entfernen, wird die Kreative nicht aus der
 
    * So trennen Sie einen einzelnen Kreativen:
 
-      * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Namen der Kreativen, und klicken Sie dann auf **[!UICONTROL Detach]**.
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Namen der Kreativen, und klicken Sie dann auf **[!UICONTROL Detach]**.
 
-      * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Detach]**.
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Detach]**.
 
    * Um einen oder mehrere Kreative zu trennen, aktivieren Sie das Kontrollkästchen für jeden Kreativen, den Sie trennen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Detach]**.
 
@@ -316,9 +323,9 @@ Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/cre
 
    * So löschen Sie ein einzelnes Bundle:
 
-      * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Delete]**.
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Delete]**.
 
-      * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Delete]**.
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Delete]**.
 
    * Um ein oder mehrere Bundles zu löschen, aktivieren Sie das Kontrollkästchen für jedes Bundle, das Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete].**
 

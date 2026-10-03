@@ -3,22 +3,26 @@ title: '[!UICONTROL Simple Ad Serving] erstellen'
 description: Erfahren Sie, wie Sie ein Tracking-Pixel für ein [!UICONTROL Simple Ad Serving] Angebot erstellen.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving] erstellen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
@@ -44,7 +48,7 @@ ht-degree: 0%
 
    1. Bearbeiten Sie in den Feed-Details die Feed-Details und klicken Sie dann auf **[!UICONTROL Next]**.
 
-      DSP generiert automatisch eine Platzierung mit dem Namen „SAS-Platzierung - „ph id=&#39;65&#39;/>*&quot; für die Anzeige.* In der Platzierung wird das Angebot automatisch im Abschnitt [!UICONTROL Inventory Targets] angesprochen. Alle anderen Targeting-Optionen sind nicht anwendbar.
+      DSP generiert automatisch eine Platzierung mit dem Namen „SAS-Platzierung - &lt;*Geschäftsname*>&quot; für die Anzeige. In der Platzierung wird das Angebot automatisch im Abschnitt [!UICONTROL Inventory Targets] angesprochen. Alle anderen Targeting-Optionen sind nicht anwendbar.
 
 1. Senden Sie die Pixel für die Ereignisverfolgung zur Implementierung auf eine der folgenden Arten an den Herausgeber:
 
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      Wenn Sie die vorherigen Schritte abgeschlossen haben, generiert DSP eine E-Mail-Nachricht, die Sie an den Herausgeber senden können. Die Nachricht enthält die Details des Angebots, einen Link, über den die Angebots-Tag-Nummer abgerufen werden kann, und einen Autorisierungs-Code für den Link.
 
-      1. Überprüfen Sie die Details des Angebots und führen Sie dann einen der folgenden Schritte aus:
+     1. Überprüfen Sie die Details des Angebots und führen Sie dann einen der folgenden Schritte aus:
 
-         * Um die Informationen in eine E-Mail-Nachricht in einer E-Mail-Anwendung auf Ihrem Gerät einzufügen, klicken Sie auf **[!UICONTROL Email & Done]** und wählen Sie die E-Mail-Anwendung aus. Das Feld [!UICONTROL CC:] wird vorab mit einer [!DNL Adobe] Support-Adresse ausgefüllt. Sie können die Nachricht dann an den entsprechenden Kontakt für den Herausgeber senden.
+        * Um die Informationen in eine E-Mail-Nachricht in einer E-Mail-Anwendung auf Ihrem Gerät einzufügen, klicken Sie auf **[!UICONTROL Email & Done]** und wählen Sie die E-Mail-Anwendung aus. Das Feld [!UICONTROL CC:] wird vorab mit einer [!DNL Adobe] Support-Adresse ausgefüllt. Sie können die Nachricht dann an den entsprechenden Kontakt für den Herausgeber senden.
 
-         * Um die Informationen in die Zwischenablage zu kopieren, klicken Sie auf **[!UICONTROL Copy Email].** Sie können dann den Inhalt manuell in eine E-Mail-Nachricht einfügen und an den entsprechenden Kontakt für den Herausgeber senden. Fügen Sie eine Kopie (CC:) zu `publisher-support-global@adobe.com` hinzu. Wenn Sie mit dem Kopieren der Nachricht fertig sind, klicken Sie auf **[!UICONTROL Email & Done]**.
+        * Um die Informationen in die Zwischenablage zu kopieren, klicken Sie auf **[!UICONTROL Copy Email].** Anschließend können Sie den Inhalt manuell in eine E-Mail-Nachricht einfügen und an den entsprechenden Kontakt für den Herausgeber senden. Fügen Sie eine Kopie (CC:) zu `publisher-support-global@adobe.com` hinzu. Wenn Sie mit dem Kopieren der Nachricht fertig sind, klicken Sie auf **[!UICONTROL Email & Done]**.
 
-      1. (Falls erforderlich) Wenden Sie sich an den Herausgeber, um festzustellen, ob das Tag die entsprechenden Makros enthält, damit das Tag mit dem Anzeigen-Server des Herausgebers zusammenarbeitet.
+     1. (Falls erforderlich) Wenden Sie sich an den Herausgeber, um festzustellen, ob das Tag die entsprechenden Makros enthält, damit das Tag mit dem Anzeigen-Server des Herausgebers zusammenarbeitet.
 
    * (Optional) Senden Sie die Pixel für die Ereignisverfolgung manuell an den Publisher:
 
-      1. Klicken Sie in der Abschlusszeile in der [!UICONTROL Deals] auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+     1. Klicken Sie in der Abschlusszeile in der [!UICONTROL Deals] auf ![Optionsmenü](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-         Die Ereignispixel enthalten ein [!UICONTROL Clickthrough] und ein [!UICONTROL Impression]. Video- und Audioanzeigen enthalten auch Ereignispixel nach Quartil (von [!UICONTROL 25% Complete] bis [!UICONTROL 100% Complete]).
+        Die Ereignispixel enthalten ein [!UICONTROL Clickthrough] und ein [!UICONTROL Impression]. Video- und Audioanzeigen enthalten auch Ereignispixel nach Quartil (von [!UICONTROL 25% Complete] bis [!UICONTROL 100% Complete]).
 
-      1. Kopieren Sie die Pixel zur Ereignisverfolgung und stellen Sie sie Ihrem Publisher bereit.
+     1. Kopieren Sie die Pixel zur Ereignisverfolgung und stellen Sie sie Ihrem Publisher bereit.
 
 >[!MORELIKETHIS]
 >

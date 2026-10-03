@@ -3,25 +3,33 @@ title: Über Erlebnisse in Advertising Creative
 description: Erfahren Sie, wie Sie personalisierte Anzeigenerlebnisse konfigurieren und Anzeigenelemente basierend auf der Leistung optimieren können.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # Über Erlebnisse in Advertising Creative 2.0
 
 Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standardvideo, dynamische Anzeige oder dynamisches Video). [!DNL Advertising Creative 2.0] bietet zwei verschiedene Strukturen für das Anzeigen-Erlebnis für die Anzeigen in einer einzigen Creative Library.
@@ -32,15 +40,15 @@ Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standa
 
   Zu den Targeting-Optionen gehören:
 
-   * Ihre Zielgruppensegmente aus Adobe Audience Manager, Adobe Analytics und Advertising DSP, alle anderen für das Konto importierten Erstanbietersegmente, Ihre benutzerdefinierten Segmente aus Advertising DSP, von Advertising DSP bereitgestellte Drittanbietersegmente und alle in der Zielgruppenbibliothek erstellten bestehenden Advertising DSP-Zielgruppen
+  * Ihre Zielgruppensegmente aus Adobe Audience Manager, Adobe Analytics und Advertising DSP, alle anderen für das Konto importierten Erstanbietersegmente, Ihre benutzerdefinierten Segmente aus Advertising DSP, von Advertising DSP bereitgestellte Drittanbietersegmente und alle in der Zielgruppenbibliothek erstellten bestehenden Advertising DSP-Zielgruppen
 
-   * Bestimmte geografische Standorte, einschließlich Länder, Bundesstaaten, DMAs in den USA, Städte und Postleitzahlen
+  * Bestimmte geografische Standorte, einschließlich Länder, Bundesstaaten, DMAs in den USA, Städte und Postleitzahlen
 
-   * Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden (z. B. SKU=01234567890123 oder Cart=empty)
+  * Viewer, für die bestimmte Schlüssel-Wert-Paare (Datenübergabeziele) von DSP, Publisher oder Partner übergeben werden (z. B. SKU=01234567890123 oder Cart=empty)
 
-   * [!DNL Creative] Retargeting von Pixeln und angegebenen Attributwerten
+  * [!DNL Creative] Retargeting von Pixeln und angegebenen Attributwerten
 
-   * Spezifische Gerätetypen, Betriebssysteme und Browser
+  * Spezifische Gerätetypen, Betriebssysteme und Browser
 
   Nachdem Sie eine Verzweigung für die Zielgruppe im Entscheidungsbaum erstellt haben, können Sie die Zielgruppe mit potenziellen Kreativen verbinden, indem Sie der Verzweigung Kreativ-Bundles zuweisen. Für jedes Erlebnis können Sie die Optimierung und Planung für die Kreativ-Bundles anpassen und die standardmäßigen Landingpages und Tracking-URLs <!-- later: and any flexible attributes --> einzelne Kreative in jedem Bundle ändern.
 

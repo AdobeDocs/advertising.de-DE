@@ -2,13 +2,19 @@
 title: '[!UICONTROL Product Group Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Product Group Report].
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Product Group Report]
 
 Die [!UICONTROL Product Group Report] enthält Kosten-, Klick- und (optional) Konversionsdaten nach Produktgruppe, aggregiert über Konten, Kampagnen oder Anzeigengruppen hinweg. Sie können die Daten optional nach Kennzeichnung filtern. Standardmäßig enthalten die Daten eine Zeile für jede anwendbare Produktzielgruppe für Produktlisten-Anzeigen, die Impressionen für jede Zeiteinheit im angegebenen Datumsbereich erhalten haben. Die Zeilen sind in aufsteigender Reihenfolge angeordnet, zunächst nach dem Startdatum für die Zeiteinheit und dann standardmäßig nach Produktziel.

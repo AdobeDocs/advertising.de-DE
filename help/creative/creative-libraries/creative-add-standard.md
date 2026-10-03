@@ -3,20 +3,26 @@ title: Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 description: Erfahren Sie, wie Sie einer Kreativbibliothek standardmäßige (nicht dynamische) Kreative hinzufügen.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+TQID: 'https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1069'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
 Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
@@ -137,29 +143,29 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Führen Sie für lokale Bild- oder HTML5-Assets einen der folgenden Schritte aus:
 
-      * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
+     * Ziehen Sie Dateien per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
 
-      * Klicken Sie auf **[!UICONTROL Select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
+     * Klicken Sie auf **[!UICONTROL Select a file]** , um Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
    * Gehen Sie für genehmigte Bilder in einer [Experience Manager-Bibliothek, die mit Ihrem DSP](/help/creative/creative-libraries/aem-assets-configure.md)Konto verbunden ist, wie folgt vor:
 
-      1. Klicken Sie auf **[!UICONTROL AEM Asset Library]**.
+     1. Klicken Sie auf **[!UICONTROL AEM Asset Library]**.
 
-      1. (Wenn Sie noch nicht bei Ihrem Experience Manager-Konto angemeldet sind) Melden Sie sich bei Ihrem Experience Manager-Konto an.
+     1. (Wenn Sie noch nicht bei Ihrem Experience Manager-Konto angemeldet sind) Melden Sie sich bei Ihrem Experience Manager-Konto an.
 
-      1. Suchen Sie die Dateien in Ihrer [!UICONTROL Assets]- oder [!UICONTROL Collections]-Ansicht, wählen Sie sie aus und klicken Sie dann oben rechts auf **[!UICONTROL Select]** .
+     1. Suchen Sie die Dateien in Ihrer [!UICONTROL Assets]- oder [!UICONTROL Collections]-Ansicht, wählen Sie sie aus und klicken Sie dann oben rechts auf **[!UICONTROL Select]** .
 
-         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
    * Gehen Sie für GenStudio-Erlebnisse wie folgt vor:
 
-      1. Klicken Sie auf **[!UICONTROL GenStudio Library]**.
+     1. Klicken Sie auf **[!UICONTROL GenStudio Library]**.
 
-      1. (Wenn Sie noch nicht bei Ihrem GenStudio-Konto angemeldet sind) Melden Sie sich bei Ihrem GenStudio-Konto an.
+     1. (Wenn Sie noch nicht bei Ihrem GenStudio-Konto angemeldet sind) Melden Sie sich bei Ihrem GenStudio-Konto an.
 
-         Ihre Display-Anzeigenerlebnisse werden standardmäßig angezeigt. Filtern Sie Ihre Erlebnisse nach Bedarf nach Kampagne oder anderen Attributen.
+        Ihre Display-Anzeigenerlebnisse werden standardmäßig angezeigt. Filtern Sie Ihre Erlebnisse nach Bedarf nach Kampagne oder anderen Attributen.
 
-      1. Suchen Sie die Anzeige-Erlebnisse für Anzeigen, wählen Sie sie aus und klicken Sie oben rechts auf **[!UICONTROL Select]** .
+     1. Suchen Sie die Anzeige-Erlebnisse für Anzeigen, wählen Sie sie aus und klicken Sie oben rechts auf **[!UICONTROL Select]** .
 
      Jede Kreativvariante in einem ausgewählten Erlebnis wird als separate HTML5-Kreativvariante importiert.
 

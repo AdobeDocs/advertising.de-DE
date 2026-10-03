@@ -3,20 +3,27 @@ title: Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
 description: Erfahren Sie, wie Sie die Einstellungen für ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums bearbeiten.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -41,11 +48,11 @@ ht-degree: 0%
 
    * ([Verarbeitung](experience-about.md#experience-statuses) Erlebnisse) Führen Sie einen der folgenden Schritte aus:
 
-      * Um die vorhandenen, nicht veröffentlichten Änderungen am Live-Erlebnis zu verwerfen, klicken Sie auf **[!UICONTROL Discard and start again]**.
+     * Um die vorhandenen, nicht veröffentlichten Änderungen am Live-Erlebnis zu verwerfen, klicken Sie auf **[!UICONTROL Discard and start again]**.
 
-      * Um die vorhandenen, nicht veröffentlichten Änderungen beizubehalten, klicken Sie auf **[!UICONTROL Continue editing draft]**.
+     * Um die vorhandenen, nicht veröffentlichten Änderungen beizubehalten, klicken Sie auf **[!UICONTROL Continue editing draft]**.
 
-      * Um die Erlebnisdetails zu bearbeiten, klicken Sie auf **[!UICONTROL Edit Experience Details]**.
+     * Um die Erlebnisdetails zu bearbeiten, klicken Sie auf **[!UICONTROL Edit Experience Details]**.
 
    * (Optional) Ändern Sie die Anzeigeeinstellungen für den Entscheidungsbaum.
 
@@ -57,25 +64,25 @@ ht-degree: 0%
 
    * (Optional) Ändern Sie die Anzeigenziele und die entsprechenden Kreativen auf eine der folgenden Arten:
 
-      * Zielgruppen:
+     * Zielgruppen:
 
-        *[Zielknoten zur letzten Ebene hinzufügen](experience-target-node-add-final.md) in einem Erlebnis.
+       *[Zielknoten zur letzten Ebene hinzufügen](experience-target-node-add-final.md) in einem Erlebnis.
 
-         * [Fügen Sie einen Zielknoten zwischen Knoten ein](experience-target-node-add-inner.md).
+       * [Fügen Sie einen Zielknoten zwischen Knoten ein](experience-target-node-add-inner.md).
 
-         * [Fügen Sie zwischen Knoten einen gleichrangigen Zielknoten hinzu](experience-target-node-add-sibling.md).
+       * [Fügen Sie zwischen Knoten einen gleichrangigen Zielknoten hinzu](experience-target-node-add-sibling.md).
 
-         * [Kopieren Sie untergeordnete Knoten und Kreative auf derselben Ebene in einen anderen Knoten](experience-target-node-copy.md).
+       * [Kopieren Sie untergeordnete Knoten und Kreative auf derselben Ebene in einen anderen Knoten](experience-target-node-copy.md).
 
-      * Creative-Bundles:
+     * Creative-Bundles:
 
-         * [Zuweisung und Aufhebung der Zuweisung von Kreativen zu einem endgültigen Knoten](experience-assign-creative-bundles.md).
+       * [Zuweisung und Aufhebung der Zuweisung von Kreativen zu einem endgültigen Knoten](experience-assign-creative-bundles.md).
 
-           Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+         Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
 
-         * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
+       * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
 
-         * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+       * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
 
 1. (Optional) Bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
    * (Wenn jeder Knoten auf der untersten Ebene nicht mindestens ein kreatives Bundle enthält) Führen Sie einen der folgenden Schritte aus:
 
-      * Um das Erlebnis ohne alle erforderlichen Kreativ-Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
+     * Um das Erlebnis ohne alle erforderlichen Kreativ-Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
 
-        Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf](experience-about.md#experience-statuses) erstellen.
+       Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf](experience-about.md#experience-statuses) erstellen.
 
-      * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
+     * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
 
-      * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
+     * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

@@ -3,21 +3,26 @@ title: (Neue Benutzeroberfläche) Benutzerverwaltung
 description: Erfahren Sie, wie Sie den Benutzerzugriff verwalten.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Benutzerverwaltung für Suche, Social und Commerce
 
 Einige Benutzende können den Zugriff auf die neue Benutzeroberfläche für Suche, Social und Commerce mithilfe von [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) verwalten. Dies ist der zentrale Speicherort für die Verwaltung aller Adobe-Berechtigungen und die Benutzerverwaltung. Benutzer werden entweder als Endbenutzer oder als Administratoren kategorisiert. Ihr Adobe-Konto-Team benachrichtigt Sie, wenn Sie Administrator sind. Wenn Sie Administrator sind, finden Sie in den folgenden Abschnitten Informationen zu Ihren Berechtigungen und Workflows für die Benutzerverwaltung.
@@ -44,49 +49,49 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
 * **[!UICONTROL Basic Optimization]:** Dieses Profil bietet die folgenden Funktionen:
 
-   * [!UICONTROL Objectives]: Vollständiger Zugriff
+  * [!UICONTROL Objectives]: Vollständiger Zugriff
 
-   * [!UICONTROL Simulations]: Vollständiger Zugriff
+  * [!UICONTROL Simulations]: Vollständiger Zugriff
 
-   * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
+  * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
 
-   * [!UICONTROL Portfolios]: Erstellen/Bearbeiten des Zugriffs auf Portfolioeinstellungen für [!UICONTROL Objectives], [!UICONTROL Campaigns] und [!UICONTROL Management]; Nur-Lese-Zugriff auf die verbleibenden Portfolioeinstellungen.
+  * [!UICONTROL Portfolios]: Erstellen/Bearbeiten des Zugriffs auf Portfolioeinstellungen für [!UICONTROL Objectives], [!UICONTROL Campaigns] und [!UICONTROL Management]; Nur-Lese-Zugriff auf die verbleibenden Portfolioeinstellungen.
 
-   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf Kampagneneinstellungen (Funktionen zum Erstellen, Bearbeiten oder Löschen sind nicht verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
+  * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf Kampagneneinstellungen (Funktionen zum Erstellen, Bearbeiten oder Löschen sind nicht verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
-   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf Anzeigengruppeneinstellungen (es sind keine Funktionen zum Erstellen, Bearbeiten oder Löschen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
+  * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf Anzeigengruppeneinstellungen (es sind keine Funktionen zum Erstellen, Bearbeiten oder Löschen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
   Diese Zugriffsebene wird für Benutzende bevorzugt, die noch lernen, Search, Social und Commerce zu verwenden.
 
 * **[!UICONTROL Expert Optimization]:** Dieses Profil bietet die folgenden Funktionen:
 
-   * [!UICONTROL Objectives]: Vollständiger Zugriff
+  * [!UICONTROL Objectives]: Vollständiger Zugriff
 
-   * [!UICONTROL Simulations]: Vollständiger Zugriff
+  * [!UICONTROL Simulations]: Vollständiger Zugriff
 
-   * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
+  * [!UICONTROL Portfolio Groups]: Vollständiger Zugriff
 
-   * [!UICONTROL Portfolios]: Vollständiger Zugriff
+  * [!UICONTROL Portfolios]: Vollständiger Zugriff
 
-   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf die Kampagnenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen
+  * [!UICONTROL Campaigns]: Nur-Lese-Zugriff auf die Kampagnenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Begrenzungs- und Portfoliozuweisungen
 
-   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf die Anzeigengruppenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
+  * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff auf die Anzeigengruppenliste (es sind noch keine Funktionen zum Erstellen, Bearbeiten oder Löschen von Kampagnen verfügbar); Vollständiger Zugriff auf Einschränkungs- und Portfoliozuweisungen
 
   Diese Zugriffsebene wird für erfahrene Benutzer von Search, Social und Commerce empfohlen.
 
 * **[!UICONTROL Read-Only]:** Dieses Profil bietet die folgenden Funktionen:
 
-   * [!UICONTROL Objectives]: Nur-Lese-Zugriff
+  * [!UICONTROL Objectives]&#x200B;: Nur-Lese-Zugriff
 
-   * [!UICONTROL Simulations]: Nur-Lese-Zugriff
+  * [!UICONTROL Simulations]&#x200B;: Nur-Lese-Zugriff
 
-   * [!UICONTROL Portfolio Groups]: Nur-Lese-Zugriff
+  * [!UICONTROL Portfolio Groups]&#x200B;: Nur-Lese-Zugriff
 
-   * [!UICONTROL Portfolios]: Nur-Lese-Zugriff
+  * [!UICONTROL Portfolios]&#x200B;: Nur-Lese-Zugriff
 
-   * [!UICONTROL Campaigns]: Nur-Lese-Zugriff
+  * [!UICONTROL Campaigns]&#x200B;: Nur-Lese-Zugriff
 
-   * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff
+  * [!UICONTROL Ad Groups]&#x200B;: Nur-Lese-Zugriff
 
 * **[!UICONTROL Admin]:** Dieses Profil gewährt vollen Zugriff auf alle verfügbaren Funktionen und ermöglicht Benutzern das Erstellen neuer Client-Instanzen (wie veraltete Advertiser-Konten mit einer oder mehreren Instanzen pro Organisations-ID). Weisen Sie dieses Recht niemandem zu, es sei denn, Sie haben eine ordnungsgemäße geschäftliche Begründung.
 

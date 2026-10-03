@@ -3,23 +3,34 @@ title: Berichtsspalten für einfache und erweiterte Berichte
 description: Erfahren Sie mehr über die verfügbaren Datenspalten für einfache und erweiterte Berichte.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+TQID: 'https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3847
+source-wordcount: '3878'
 ht-degree: 0%
-
 ---
-
 # Berichtsspalten für einfache und erweiterte Berichte
 
 | Spalte | Beschreibung |
@@ -94,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Titles] | (Nur für Multimedia- und responsive Suchanzeigen) Fügt für jede kurze Überschrift der Anzeige eine Spalte hinzu (“[!UICONTROL Creative Title]&quot; bis &quot;[!UICONTROL Creative Title15]„). Wenn Sie diese Spalte einbeziehen, müssen Sie die anderen [!UICONTROL Creative Title] Spalten nicht einbeziehen, sondern den [!UICONTROL Order Results/Limit Rows By] Abschnitt bearbeiten, um nach [!UICONTROL Creative Titles] anstatt nach [!UICONTROL Creative Title] zu sortieren. |
 | [!UICONTROL Creative Type] | Das Anzeigenformat. Die folgenden Werte sind möglich: <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Demand Gen Carousel Ad]</i> (Karussellanzeigen mit mehreren Bildern), <i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>, <i>[!UICONTROL Demand Gen Product Ad]</i> und <i>[!UICONTROL Demand Gen Video Ad]</i>, <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> oder <i>[!UICONTROL Text Ad]</i>. |
 | [!UICONTROL CTR] | Die Klickrate, d. h. die Anzahl der Klicks dividiert durch die Anzahl der Impressionen für die enthaltenen Anzeigen. |
-| [!UICONTROL Currency] | Der anwendbare Währungstyp (z. B. „USD“ oder „GBP„).<br><br><b>Hinweis:</b> Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, sind alle &quot;[!UICONTROL Total]&quot; monetären Werte einfach die Summe aller Zahlen in der Spalte, unabhängig von der Währung. |
+| [!UICONTROL Currency] | Der anwendbare Währungstyp (z. B. &quot;USD&quot; oder „GBP„).<br><br><b>Hinweis:</b> Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, sind alle &quot;[!UICONTROL Total]&quot; monetären Werte einfach die Summe aller Zahlen in der Spalte, unabhängig von der Währung. |
 | [!UICONTROL Current Bid] | Das aktuelle Gebot für die Zielgruppe. |
 | [!UICONTROL Current First Page Bid] | (Nur [!DNL Google Ads] Kampagnen) Das geschätzte CPC-Angebot (Cost-Per-Click), das derzeit benötigt wird, damit die Anzeige auf der ersten Seite der Suchergebnisse platziert wird, wenn eine [!DNL Google] Suchanfrage mit dem Keyword übereinstimmt.<br><br>Bei einer Kombination aus einem einzelnen Keyword und einem Übereinstimmungstyp ist dieser Wert das erste Seitengebot, das derzeit für diese Kombination erforderlich ist. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp in mehreren Kampagnen verwendet wird, ist dieser Wert das minimale erste Seitengebot, das derzeit für alle Instanzen erforderlich ist. |
 | [!UICONTROL Current Quality Score] | (Nur [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen) Der aktuelle Qualitätswert für das Keyword oder die Gebotseinheit, wie vom Anzeigennetzwerk angegeben. Sie reicht von 1 (niedrig) bis 10 (perfekt). Bei einer Kombination aus einem einzelnen Keyword und einem Übereinstimmungstyp ist dieser Wert der aktuelle Score für diese Kombination. Wenn dieselbe Kombination aus Keyword und Übereinstimmungstyp in mehreren Kampagnen verwendet wird, ist dieser Wert der maximale aktuelle Wert unter allen Instanzen.<br><br>Die Werbenetzwerke verwenden den Qualitätsindex, um Angebotspreise und Anzeigenposition zu bestimmen. Die Berechnung erfolgt anhand vieler Faktoren, einschließlich der Relevanz des Keywords für die zugehörige Anzeige und die Suchanfrage des Benutzers sowie die Qualität der Landingpage. Bei Keywords in [!DNL Google Ads] wird auch die Clickthrough-Rate des Keywords berücksichtigt, und bei Keywords in [!DNL Microsoft Advertising] wird auch das von der Landingpage bereitgestellte Benutzererlebnis berücksichtigt. |
@@ -172,7 +183,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | Der Status der Produktgruppe. |
 | [!UICONTROL Product Groupings] | Die übergeordnete Produktgruppe. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] Produktlisten-Anzeigen) Die Produkt-ID des Produkts, das mit der Anzeige angezeigt wird.<br><br><b>Hinweis:</b> Die ID wird nur erfasst, wenn die Produktliste den Tracking-Parameter `ev_plx=<GMC product ID>` enthält, den Sie in [!DNL Google Merchant Center] hinzufügen müssen. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Der Umsatz für die Konversionsmetrik (z. B. 1 für eine Registrierung oder 12 für eine Bestellung in Höhe von 12 USD). Wenn mehrere Gebotseinheiten dieselbe Transaktions-ID haben, wird der Umsatz für die Tracking-ID nach der Anzahl der Klicks am angegebenen Klickdatum aufgeteilt (wenn Klickdaten verfügbar sind). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Der Umsatz für die Konversionsmetrik (z. B. 1 für eine Registrierung oder 12 für eine Bestellung mit 12 USD). Wenn mehrere Gebotseinheiten dieselbe Transaktions-ID haben, wird der Umsatz für die Tracking-ID nach der Anzahl der Klicks am angegebenen Klickdatum aufgeteilt (wenn Klickdaten verfügbar sind). |
 | [!UICONTROL Reach] | (Nur [!DNL Meta] Kampagnen) Die Anzahl der Personen, die Ihre Anzeigen mindestens einmal gesehen haben. Hinweis: [!DNL Meta] Deduplizierungen reichen täglich für Benutzerprofile, sodass die Zahlen nach [!DNL Meta] und nach Suche, Social und Commerce unterschiedlich sein können. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Eine Region oder ein US-/kanadischer Staat, für die Impressionen oder Klicks entstanden sind. Sie wird anhand der IP-Adresse des Benutzers ermittelt. |
 | [!UICONTROL SE Creative ID] | Die vom Netzwerk zugewiesene Werbe-ID. |

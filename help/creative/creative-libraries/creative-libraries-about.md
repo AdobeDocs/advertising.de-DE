@@ -3,23 +3,35 @@ title: Über Ihre Kreativbibliotheken
 description: Erfahren Sie mehr über die Verwaltung der Kreativen für Ihre Anzeigenerlebnisse.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # Über Ihre Kreativbibliotheken
 
 Mit Ihren Kreativ-Bibliotheken können Sie die Kreativen verwalten, die Sie in Ihren Werberlebnissen verwenden werden. Sie können mehrere Bibliotheken mit jeweils einer Reihe von Kreativen und *Kreativ-Bundles* erstellen, bei denen es sich um Kreativgruppen handelt, die Sie einem Erlebnis als eine Einheit hinzufügen können.
@@ -28,9 +40,9 @@ Ihre Bibliotheken können Folgendes enthalten:
 
 * **Individuelle Kreative:** Sie können einzelne Kreative direkt in Anzeigenerlebnisse einbeziehen, für die keine Benutzerziele definiert sind. Sie können Ihre Kreativen auch verwenden, um Bundles zu erstellen, die Sie in zielgerichtete ([) Erlebnisse &#x200B;](/help/creative/experiences/experience-about.md) können.
 
-   * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen &#x200B;](#creative-creative-formats) verwalten. Geben Sie für jeden Kreativen die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
+  * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen &#x200B;](#creative-creative-formats) verwalten. Geben Sie für jeden Kreativen die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
 
-   * **Dynamische Kreative:** Sie können dynamisch generierte Kreative erstellen, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
+  * **Dynamische Kreative:** Sie können dynamisch generierte Kreative erstellen, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
 
 * **Kreativ-Bundles:** Kreative in Bundles zusammen, die für mehrere Erlebnisse mit definierten Benutzerzielen verwendet werden können. Sie können *Standard-Display-Bundles* erstellen, die aus Standard-Display-Anzeigen bestehen *Standard-Video-Bundles* die aus Standard-Video-Anzeigen bestehen, *Bundles für dynamische Anzeigen* die aus dynamisch generierten Display-Anzeigen bestehen, und *Bundles für dynamische Videos* die aus dynamisch generierten Video-Anzeigen bestehen.
 
@@ -95,7 +107,7 @@ Siehe folgendes Video: Creative Requirements. **Hinweis:** Wenn Sie Videoerlebni
 
 **Dateigröße:** Maximal 512 MB
 
-**Seitenverhältnis des Videos:** 16:9, 4:3
+**Bildseitenverhältnis:** 16:9, 4:3
 
 **Videoauflösung:** 640x360 für 360p, 1280x720 für 720p, 1920x1080 für 1080p
 
@@ -147,11 +159,11 @@ Wenn Sie sich im Kartenmodus befinden, können Sie mithilfe der Schaltflächen &
 
 * Für jede Kreativbibliothek gilt Folgendes:
 
-   * [Bearbeiten eines Bibliotheksnamens](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Bearbeiten eines Bibliotheksnamens](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [Eine Bibliothek öffnen, um die der Bibliothek zugewiesenen Kreativen und Bundles anzuzeigen](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Eine Bibliothek öffnen, um die der Bibliothek zugewiesenen Kreativen und Bundles anzuzeigen](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [Bibliotheken löschen](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Bibliotheken löschen](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### Die [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
@@ -179,7 +191,7 @@ Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten
 
 #### [!UICONTROL Dynamic Ads]
 
-Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [&#x200B; der Registerkarte &#x200B;](creative-delete.md) manuell [!UICONTROL Dynamic Ads] haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) beliebige dynamische Kreative <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
+Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [&#x200B; der Registerkarte [!UICONTROL Dynamic Ads] manuell &#x200B;](creative-delete.md) haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) beliebige dynamische Kreative <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
 
 Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Anzeigenvorlage, über die die kreative Seite generiert wurde, und die Anzahl der Angebote.
 

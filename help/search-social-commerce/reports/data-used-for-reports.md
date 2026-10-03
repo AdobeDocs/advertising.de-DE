@@ -3,20 +3,24 @@ title: Die für Berichte verwendeten Daten
 description: Erfahren Sie mehr über die verschiedenen Datentypen, die in Datenansichten und benutzerdefinierten Berichten verfügbar sind.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 0%
-
+source-wordcount: '639'
+ht-degree: 6%
 ---
-
 # Die für Berichte verwendeten Daten
 
 Search, Social und Commerce enthalten einen umfassenden Satz von Leistungsberichten, die auf Klick- und Konversionsdaten basieren. Sie können grundlegende Leistungsdaten für die verschiedenen Komponenten eines Portfolios oder Werbekontos in den [!UICONTROL Portfolios]- und [!UICONTROL Campaigns] sowie durch Generieren verschiedener grundlegender und erweiterter Berichte anzeigen.
@@ -27,17 +31,17 @@ Die meisten Berichte können so angepasst werden, dass nur die Informationen ang
 
 * **Standardleistungsmetriken:**
 
-   * **[!UICONTROL Impressions]:** Die Gesamtzahl der Male, wie oft die Anzeige platziert wurde.
+  * **[!UICONTROL Impressions]:** Die Gesamtzahl der Male, wie oft die Anzeige platziert wurde.
 
-   * **[!UICONTROL Clicks]:** Die Gesamtzahl der Klicks auf einen Link in der Anzeige.
+  * **[!UICONTROL Clicks]:** Die Gesamtzahl der Klicks auf einen Link in der Anzeige.
 
-   * **[!UICONTROL Cost]:** Die Gesamtkosten der Anzeige. Die Kosten für PPC-Werbung sind immer die Anzahl der Klicks multipliziert mit den Kosten pro Klick.
+  * **[!UICONTROL Cost]:** Die Gesamtkosten der Anzeige. Die Kosten für PPC-Werbung sind immer die Anzahl der Klicks multipliziert mit den Kosten pro Klick.
 
-   * **[!UICONTROL Cost per Click]:** Die durchschnittlichen Kosten für einen Klick für eine Anzeige, die sich aus den Kosten der Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige ergeben. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, liegen die Kosten pro Klick bei 100 USD/10=10 USD pro Klick.
+  * **[!UICONTROL Cost per Click]:** Die durchschnittlichen Kosten für einen Klick für eine Anzeige, die sich aus den Kosten der Anzeige dividiert durch die Gesamtzahl der Klicks für die Anzeige ergeben. Wenn Sie beispielsweise 100 USD für eine Anzeigenimpression ausgeben und die Anzeige 10 Klicks generiert, betragen die Kosten pro Klick 100 USD/10=10 USD pro Klick.
 
-   * **[!UICONTROL Average Position]:** (falls zutreffend) Die durchschnittliche Position einer platzierten Anzeige, gewichtet durch die Anzahl der Impressionen.
+  * **[!UICONTROL Average Position]:** (falls zutreffend) Die durchschnittliche Position einer platzierten Anzeige, gewichtet durch die Anzahl der Impressionen.
 
-   * **[!UICONTROL Estimated Clicks]:** (nur in erweiterten Berichten für Werbetreibende mit dem Konversionsverfolgungs-Service von Adobe Advertising enthalten) Die Gesamtzahl der geschätzten Klicks für einen Stadt- oder Domain-Namen einer verweisenden Website. Dies kann Daten für Werbenetzwerke enthalten, für die ein Advertiser kein Werbekonto hat.
+  * **[!UICONTROL Estimated Clicks]:** (nur in erweiterten Berichten für Werbetreibende mit dem Konversionsverfolgungs-Service von Adobe Advertising enthalten) Die Gesamtzahl der geschätzten Klicks für einen Stadt- oder Domain-Namen einer verweisenden Website. Dies kann Daten für Werbenetzwerke enthalten, für die ein Advertiser kein Werbekonto hat.
 
 * **Konversionsmetriken:** Die Gesamtzahl der Konversionen für jede der Konversionsmetriken des Advertisers oder der Transaktionsdaten, die in Richtung einer Konversionsmetrik verfolgt werden. Dies kann Konversions- und Site-Interaktionsmetriken umfassen, jedoch keine berechneten Metriken und erweiterten berechneten Metriken, die mit Adobe Analytics synchronisiert werden.
 
@@ -53,8 +57,8 @@ Je nach der für den Bericht angegebenen Attributionsregel stehen Daten für jed
 
 | Berichtsgruppe | Bericht | Verfügbare Daten |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | Beginn: 15. Mai 2021.<br><br><b>Ausnahme: </b> Daten zu Bekanntheitsmetriken sind ab dem 8. September 2022 verfügbar. |
-| | Alle anderen [!UICONTROL Basic Reports] | Die letzten 36 Monate.<br><br><b>Ausnahme: </b> Daten zu Bekanntheitsmetriken sind ab dem 8. September 2022 verfügbar. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | Ab 15. Mai 2021.<br><br><b>Ausnahme:</b> Daten zu Bekanntheitsmetriken sind ab 8. September 2022 verfügbar. |
+| | Alle anderen [!UICONTROL Basic Reports] | Die Daten der vorherigen 36 Monate.<br><br><b>Ausnahme:</b> Bekanntheitsmetriken sind ab dem 8. September 2022 verfügbar. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Die letzten 45 Tage. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Die vorherigen zwei (2) Monate plus der aktuelle Monat. |
 | [!UICONTROL Assist Reports] | Alle | Die letzten 18 Monate. |

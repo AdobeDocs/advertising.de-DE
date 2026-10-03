@@ -3,22 +3,29 @@ title: Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live
 description: Erfahren Sie, wie Sie ein Anzeigen-Erlebnis-Tag exportieren und optional in eine Advertising DSP-Kampagne hochladen.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
+TQID: 'https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # Exportieren und Implementieren eines Anzeigen-Erlebnis-Tags für ein Live-Erlebnis
 
 Sobald ein Anzeigen-Tag für eine bestimmte kreative Größe oder Videodauer für ein [Live](experience-about.md#experience-statuses)-Erlebnis verfügbar ist, können Sie das Tag in JavaScript-, iFrame- und Videoformaten zur Implementierung in Advertising DSP oder anderen DSPs generieren und kopieren. Die Tags für DSP enthalten alle für DSP erforderlichen Makros.
@@ -86,15 +93,15 @@ Werbetreibende mit Advertising DSP können optional Tags direkt als Anzeigen mit
 
    * Für Advertising DSP:
 
-      1. Klicken Sie oben rechts auf **[!UICONTROL Next]** oder im Menü links auf **[!UICONTROL DSP link]**.
+     1. Klicken Sie oben rechts auf **[!UICONTROL Next]** oder im Menü links auf **[!UICONTROL DSP link]**.
 
-      1. Wählen Sie die Kampagne aus, in die Sie das Anzeigen-Tag hochladen möchten.
+     1. Wählen Sie die Kampagne aus, in die Sie das Anzeigen-Tag hochladen möchten.
 
-      1. Klicken Sie auf **[!UICONTROL Assign Tags]**.
+     1. Klicken Sie auf **[!UICONTROL Assign Tags]**.
 
-         DSP öffnet die [!UICONTROL Ads] für die ausgewählte Kampagne.
+        DSP öffnet die [!UICONTROL Ads] für die ausgewählte Kampagne.
 
-      1. Überprüfen Sie in der [!UICONTROL Create ads] die Anzeigen-Tags, wählen Sie jedes Tag aus, für das Sie eine Anzeige erstellen möchten, und klicken Sie dann auf **[!UICONTROL Create]**.
+     1. Überprüfen Sie in der [!UICONTROL Create ads] die Anzeigen-Tags, wählen Sie jedes Tag aus, für das Sie eine Anzeige erstellen möchten, und klicken Sie dann auf **[!UICONTROL Create]**.
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 

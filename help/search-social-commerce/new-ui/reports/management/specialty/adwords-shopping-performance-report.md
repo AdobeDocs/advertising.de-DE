@@ -2,13 +2,19 @@
 title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Erfahren Sie mehr über die [!UICONTROL AdWords Shopping Performance Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Shopping Performance Report]
 
 Nur *[!DNL Google Ads]Konten*
@@ -20,7 +26,7 @@ Sie können Daten der letzten zwei Monate anzeigen. Daten, die vor dem 21. Septe
 >[!NOTE]
 >
 >* Wenn das Produkt die Spalte [!UICONTROL Product Category] enthält und ein Produkt in mehreren Kategorien angezeigt wird, wird das Produkt in mehreren Zeilen angezeigt und die Konversionsanzahl wird in jeder der entsprechenden Zeilen dupliziert. Da die Konversionsdatensummen nicht genau sind, sortieren Sie die Daten nach Kategorie nur, um einen allgemeinen Überblick darüber zu erhalten, wie Konversionen nach Kategorie tendieren.
->* Die Daten für diesen Bericht werden für den Vortag um 23 :00 (23 :00) abgerufen Jeden Tag. Zum Beispiel ruft sie am :00. Juni um 23 Uhr Daten für den 17. Juni ab. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen :00 bevor Daten für den 18. Juni abgerufen werden, enthält der Bericht bis zum 17. Juni um 23::00 Daten.
+>* Die Daten für diesen Bericht werden für den Vortag um 23:00 Uhr (23:00 Uhr) abgerufen Jeden Tag. Zum Beispiel werden am 18. Juni um 23:00 Uhr Daten für den 17. Juni abgerufen. Wenn Sie den Bericht am 19. Juni um 09:00 Uhr ausführen - bevor Daten für den 18. Juni abgerufen werden -, enthält der Bericht Daten bis zum 17. Juni um 23:00 Uhr.
 
 ## Standardspalten
 

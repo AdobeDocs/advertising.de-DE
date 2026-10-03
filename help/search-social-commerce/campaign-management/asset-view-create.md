@@ -1,20 +1,23 @@
 ---
 title: Anzeigen-Assets aus Ihrem [!UICONTROL Asset Library] anzeigen und erstellen
-description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre Asset [!DNL Google Ads] Bibliotheken auf  [!DNL Microsoft Advertising] - und Kontoebene anzeigen und erstellen.
+description: Erfahren Sie, wie Sie wiederverwendbare Bild-, Video- und Text-Assets für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Asset-Bibliotheken auf Kontoebene anzeigen und erstellen.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Anzeigen-Assets aus Ihrem [!UICONTROL Asset Library] anzeigen und erstellen
 
 *Nur für [!DNL Google Ads] und [!DNL Microsoft Advertising] Konten*
@@ -39,23 +42,23 @@ Sie können jedes der Assets für Ihre -Kampagnen mit dem Titel „Performance M
 
       * Für Bild-Assets:
 
-         1. Klicken Sie auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
+        1. Klicken Sie auf **[!UICONTROL +]** und wählen Sie Bilder von Ihrem Gerät oder Netzwerk aus.
 
-            Jedes Bild darf maximal 10 MB groß sein. Sie können maximal 200 MB Bilder gleichzeitig hochladen.
+           Jedes Bild darf maximal 10 MB groß sein. Sie können maximal 200 MB Bilder gleichzeitig hochladen.
 
-         1. Für jedes Bild:
+        1. Für jedes Bild:
 
-            1. Klicken Sie ![Zuschneiden](/help/search-social-commerce/assets/crop.png "Zuschneiden").
+           1. Klicken Sie ![Zuschneiden](/help/search-social-commerce/assets/crop.png "Zuschneiden").
 
-            1. Wahl des Seitenverhältnisses
+           1. Wahl des Seitenverhältnisses
 
-            1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
+           1. Ziehen Sie das Zuschnittsfeld nach Bedarf, um den sichtbaren Teil des Bildes auszuwählen, und ändern Sie die Größe des sichtbaren Teils des Bildes nach Bedarf.
 
-            1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
+           1. (Optional) Wählen Sie zusätzliche Seitenverhältnisse und positionieren Sie das Bild optional neu und ändern Sie die Größe für jedes ausgewählte Seitenverhältnis nach Bedarf.
 
-               Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
+              Für jedes ausgewählte Seitenverhältnis wird ein Asset erstellt.
 
-            1. Klicken Sie auf **[!UICONTROL Proceed]**.
+           1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
       * Geben Sie für Video-Assets die URL für ein [!DNL YouTube] Video ein, das mindestens 10 Sekunden lang ist. Um ein weiteres Video-Asset hinzuzufügen, klicken Sie auf **+ Hinzufügen** und geben Sie eine weitere URL ein.
 

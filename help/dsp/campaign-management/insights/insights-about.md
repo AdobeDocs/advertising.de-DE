@@ -3,26 +3,37 @@ title: Über Einblicke
 description: Erfahren Sie mehr über Leistungseinblicke mit Visualisierungen.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # Über Einblicke
 
 Leistungseinblicke auf hoher Ebene mit Visualisierungen liefern Ihnen die Informationen, die Sie zur effizienten Optimierung Ihrer Kampagnen und zur Entdeckung neuer Möglichkeiten zur Leistungsskalierung benötigen. Sie können Daten über Kampagnen hinweg für einen bestimmten Advertiser anzeigen oder einen Drilldown auf eine niedrigere Ebene durchführen.
@@ -69,9 +80,9 @@ Die Registerkarte [!UICONTROL Household Reach] enthält Metriken zur Reichweite 
 
   Zu den Auswirkungen zählen:
 
-   * **Große Wirkung:** erwägen, das Budget zu erhöhen.
-   * **Mäßige Auswirkung**
-   * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
+  * **Große Wirkung:** erwägen, das Budget zu erhöhen.
+  * **Mäßige Auswirkung**
+  * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
 
 ### Registerkarte [!UICONTROL Household Conversion]
 
@@ -91,9 +102,9 @@ Die Registerkarte [!UICONTROL Household Conversion] enthält Haushaltskonversion
 
   Zu den Auswirkungen zählen:
 
-   * **Große Wirkung:** erwägen, das Budget zu erhöhen.
-   * **Mäßige Auswirkung**
-   * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
+  * **Große Wirkung:** erwägen, das Budget zu erhöhen.
+  * **Mäßige Auswirkung**
+  * **Eingeschränkte Wirkung:** Erfordert Aufmerksamkeit
 
 ### Registerkarte [!UICONTROL Audience Analysis]
 
@@ -109,15 +120,15 @@ Zu den Erkenntnissen gehören:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Eine tägliche Zeitreihentabelle, die zeigt, wie sich Ihre Zielgruppe vom insgesamt verfügbaren Pool auf die tatsächlichen Impressionsgewinne reduziert, nachdem alle Zielgruppenbestimmungs- und Eignungsfilter angewendet wurden. Die Daten werden für den Vortag angezeigt. Die funnel umfasst die folgenden Metriken, von breit bis schmal:
 
-   * **[!UICONTROL Total Target Audience]:** Die Gesamtzahl der eindeutigen Benutzer in der aggregierten Zielgruppe.
+  * **[!UICONTROL Total Target Audience]:** Die Gesamtzahl der eindeutigen Benutzer in der aggregierten Zielgruppe.
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Die Anzahl der Benutzerinnen und Benutzer aus der Zielgruppe, die während des vorherigen 24-Stunden-Zeitraums im Bid-Stream aktiv waren. Diese Anzahl umfasst alle Benutzenden im Umfang, unabhängig davon, ob das Platzierungs-Gebot für sie gilt oder nicht. Ein Rückgang von der [!UICONTROL Total Target Audience] auf die [!UICONTROL Reachable Audience] spiegelt den Teil der Zielgruppe wider, der im Berichtszeitraum nicht im Bid-Stream aktiv war, was nicht auf die Bid-Performance zurückzuführen ist.
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Die Anzahl der Benutzerinnen und Benutzer aus der Zielgruppe, die während des vorherigen 24-Stunden-Zeitraums im Bid-Stream aktiv waren. Diese Anzahl umfasst alle Benutzenden im Umfang, unabhängig davon, ob das Platzierungs-Gebot für sie gilt oder nicht. Ein Rückgang von der [!UICONTROL Total Target Audience] auf die [!UICONTROL Reachable Audience] spiegelt den Teil der Zielgruppe wider, der im Berichtszeitraum nicht im Bid-Stream aktiv war, was nicht auf die Bid-Performance zurückzuführen ist.
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Die Untergruppe erreichbarer Benutzer, die nach Anwenden von Geo-, Gerätetyp-, Betriebssystem- und Browser-Filtern verbleiben. Wenn diese Zahl deutlich unter [!UICONTROL Reachable Audience] liegt, sollten Sie überprüfen, ob Ihr Geo- oder Gerätetyp zu restriktiv ausgerichtet ist.
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Die Untergruppe erreichbarer Benutzer, die nach Anwenden von Geo-, Gerätetyp-, Betriebssystem- und Browser-Filtern verbleiben. Wenn diese Zahl deutlich unter [!UICONTROL Reachable Audience] liegt, sollten Sie überprüfen, ob Ihr Geo- oder Gerätetyp zu restriktiv ausgerichtet ist.
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** Die Anzahl der geeigneten Gelegenheiten, für die die Platzierung ein Angebot eingereicht hat. Ein starker Rückgang in dieser Phase kann auf Budget- oder Tempobeschränkungen hindeuten, die das Angebotsvolumen begrenzen.
 
-   * **[!UICONTROL Impression Wins]:** Die Anzahl der Gelegenheiten, für die die Platzierung eine Impression gewonnen hat. Wenn die Gewinne viel niedriger sind als die Gebote, dann kann Ihr Gebotspreis unter dem aktuellen Marktsatz für das Zielinventar liegen.
+  * **[!UICONTROL Impression Wins]:** Die Anzahl der Gelegenheiten, für die die Platzierung eine Impression gewonnen hat. Wenn die Gewinne viel niedriger sind als die Gebote, dann kann Ihr Gebotspreis unter dem aktuellen Marktsatz für das Zielinventar liegen.
 
 ## Anzeigen von Leistungseinblicken
 

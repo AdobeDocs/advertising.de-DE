@@ -4,21 +4,30 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte Simulation für ein P
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+TQID: 'https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # Benutzerdefinierte Simulation ausführen oder erneut ausführen
 
 *Beta-Funktion*
@@ -35,29 +44,29 @@ Sie können eine benutzerdefinierte Simulation für ein (optimiertes [&#x200B; a
 
 * In der [!UICONTROL Simulations]:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+  1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Klicken Sie über der Datentabelle auf **[!UICONTROL Run Simulation]**.
+  1. Klicken Sie über der Datentabelle auf **[!UICONTROL Run Simulation]**.
 
-   1. Portfolio auswählen:
+  1. Portfolio auswählen:
 
-      1. Klicken Sie auf **[!UICONTROL Select Portfolio]**.
+     1. Klicken Sie auf **[!UICONTROL Select Portfolio]**.
 
-      1. Portfolio auswählen.
+     1. Portfolio auswählen.
 
-         Um nach Portfolios zu suchen, die eine bestimmte Textzeichenfolge enthalten, geben Sie die Textzeichenfolge innerhalb des Suchfelds ein. Bei Werten wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+        Um nach Portfolios zu suchen, die eine bestimmte Textzeichenfolge enthalten, geben Sie die Textzeichenfolge innerhalb des Suchfelds ein. Bei Werten wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-      1. Klicken Sie auf **[!UICONTROL Proceed]**.
+     1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
 * In der [!UICONTROL Portfolios]:
 
-   1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+  1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Führen Sie einen der folgenden Schritte aus:
+  1. Führen Sie einen der folgenden Schritte aus:
 
-      * Halten Sie den Cursor über der Portfoliozeile. Klicken Sie neben dem Portfolionamen auf **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+     * Halten Sie den Cursor über der Portfoliozeile. Klicken Sie neben dem Portfolionamen auf **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-      * Aktivieren Sie das Kontrollkästchen neben dem Portfolio. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Run Simulation]**.
+     * Aktivieren Sie das Kontrollkästchen neben dem Portfolio. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Run Simulation]**.
 
 1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](#custom-simulation-settings) an:
 

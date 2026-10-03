@@ -3,18 +3,24 @@ title: Verwalten von Kreativbibliotheken
 description: Erfahren Sie, wie Sie Ihre Kreativbibliotheken erstellen, umbenennen und löschen.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Kreativbibliotheken
 
 Sie können für jeden Advertiser mehrere Kreativbibliotheken erstellen. Später können Sie jede Bibliothek mit [Standard-Kreativen](creative-add-standard.md), [dynamischen Kreativen](creative-add-dynamic.md) und [Kreativ-Paketen](bundle-manage.md) füllen.
@@ -65,9 +71,9 @@ Sie können Bibliotheken mit Kreativen und Bundles löschen, die keinem Live[Erl
 
    * So löschen Sie eine einzelne Bibliothek:
 
-      * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bibliotheksnamen und dann auf **[!UICONTROL Delete]**.
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bibliotheksnamen und dann auf **[!UICONTROL Delete]**.
 
-      * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Delete]**.
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Delete]**.
 
    * Um eine oder mehrere Bibliotheken zu löschen, aktivieren Sie das Kontrollkästchen für jede Bibliothek, die Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete]**.
 

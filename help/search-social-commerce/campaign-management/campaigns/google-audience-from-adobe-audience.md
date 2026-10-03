@@ -1,24 +1,28 @@
 ---
-title: Zielgruppen  [!DNL Google Ads]  Kundenabgleich aus Zielgruppen  [!DNL Adobe]  Zielgruppen erstellen
-description: Erfahren Sie, wie Sie  [!DNL Google Ads]  Ihren bestehenden Adobe Analytics- und Audience Manager-Zielgruppen Kundenabgleich erstellen.
+title: Erstellen [!DNL Google Ads] Zielgruppen für den Kundenabgleich aus [!DNL Adobe] Zielgruppen
+description: Erfahren Sie, wie Sie aus Ihren bestehenden Adobe Analytics- und Audience Manager-Zielgruppen Zielgruppen für [!DNL Google Ads] Kundenabgleich erstellen.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+TQID: 'https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '589'
 ht-degree: 0%
-
 ---
-
 # Erstellen [!DNL Google Ads] Zielgruppen für den Kundenabgleich aus Adobe Analytics- und Audience Manager-Zielgruppen
 
 *[!DNL Google Ads]Konten, die nur für den Kundenabgleich infrage kommen*
@@ -65,33 +69,33 @@ Jede neue [!DNL Google] Zielgruppe hat denselben Namen wie die ursprüngliche [!
 
    1. Wählen Sie im **[!UICONTROL Data Source]** Menü **[!UICONTROL Adobe Audience]** aus.
 
-   1. Select the [!UICONTROL Adobe Audience] on which to base the [!DNL Google] audience.
+   1. Wählen Sie die [!UICONTROL Adobe Audience] aus, auf der die [!DNL Google]-Zielgruppe basieren soll.
 
       >[!NOTE]
       >
-      >[!DNL Adobe] audiences that are already used for another [!DNL Google] audience aren&#39;t available.
+      >[!DNL Adobe] Zielgruppen, die bereits für eine andere [!DNL Google] Zielgruppe verwendet werden, sind nicht verfügbar.
 
-      You can optionally search for audiences that contain a specific text string with a minimum of three characters. For any matching audience, click **[!UICONTROL Include]** to select it.
+      Sie können optional nach Zielgruppen suchen, die eine bestimmte Textzeichenfolge mit mindestens drei Zeichen enthalten. Klicken Sie für jede passende Zielgruppe auf **[!UICONTROL Include]** , um sie auszuwählen.
 
-      If you select multiple [!DNL Adobe] audiences, then a separate [!DNL Google] audience is created for each.
+      Wenn Sie mehrere [!DNL Adobe] Zielgruppen auswählen, wird für jede eine separate [!DNL Google] erstellt.
 
-   1. Select the **[!UICONTROL Audience Type]** to create: **[!UICONTROL Customer List_User ID]**.
+   1. Wählen Sie die zu erstellende **[!UICONTROL Audience Type]** aus: **[!UICONTROL Customer List_User ID]**.
 
-      The advertiser&#39;s [!DNL Google Ads] account must be [eligible for custom match](https://support.google.com/adspolicy/answer/6299717) and opted in for [user ID remarketing](https://support.google.com/google-ads/answer/9199250).
+      Das [!DNL Google Ads] Konto des Werbetreibenden muss ([&#x200B; für benutzerdefinierte Übereinstimmung) &#x200B;](https://support.google.com/adspolicy/answer/6299717) und für das (Benutzer[ID Remarketing) &#x200B;](https://support.google.com/google-ads/answer/9199250).
 
-   1. Select the check box to indicate that you agree with the terms of the [!DNL Adobe] and ad network privacy policies.
+   1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie mit den Bedingungen der Datenschutzrichtlinien für [!DNL Adobe] und Werbenetzwerke einverstanden sind.
 
    1. Geben Sie die Anzahl der **[!UICONTROL Membership Days]** an, d. h. die Anzahl der Tage, die das Cookie eines Benutzers in der Zielgruppe verbleibt.
 
-      Verwenden Sie die Zeitspanne, für die Ihre Anzeige für den Benutzer relevant sein soll. Remarketing lists have a maximum duration of 540 days. Customer lists don&#39;t have a maximum duration; to indicate that the cookie never expires, enter 10000.
+      Verwenden Sie die Zeitspanne, für die Ihre Anzeige für den Benutzer relevant sein soll. Remarketing-Listen haben eine maximale Dauer von 540 Tagen. Kundenlisten haben keine maximale Dauer. Um anzugeben, dass das Cookie nie abläuft, geben Sie 10000 ein.
 
    1. Klicken Sie auf **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
->* [!DNL Google] may take up to 24 hours to process the file.
+>* [!DNL Google] kann bis zu 24 Stunden dauern, um die Datei zu verarbeiten.
 >
->* See [[!DNL Google Ads] documentation on how customer match works and limitations](https://support.google.com/displayvideo/answer/9539301).
+>* Siehe [[!DNL Google Ads] Dokumentation zur Funktionsweise von Customer Match und zu Einschränkungen](https://support.google.com/displayvideo/answer/9539301).
 
 >[!MORELIKETHIS]
 >

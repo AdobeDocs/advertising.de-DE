@@ -3,21 +3,28 @@ title: Verwenden der [!UICONTROL Spend Planner]
 description: Erfahren Sie, wie Sie Empfehlungen für Portfoliobudgets generieren, herunterladen und anwenden können, um eine optimale Verteilung der Ausgaben über Ihre Portfolios zu erreichen.
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
-TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
+TQID: 'https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e0e44e7b2102ce3c7ec27c5dc4c50d46f1def4cf
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1020
+source-wordcount: '1020'
 ht-degree: 0%
-
 ---
-
 # Verwenden der [!UICONTROL Spend Planner]
 
 Die [!UICONTROL Spend Planner] (in der alten Benutzeroberfläche als &quot;[!UICONTROL Spend Recommendation Tool]&quot; bezeichnet) identifiziert die optimale Ausgabenverteilung über optimierte und aktive Portfolios mit demselben Ziel und derselben Währung, sodass Sie den Umsatz maximieren oder Ziele für das Portfolio-Set anstreben können.

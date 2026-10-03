@@ -4,19 +4,23 @@ description: Erfahren Sie, wie Sie Postleitzahllisten für das Platzierungs-Targ
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Postleitzahllisten
 
 Sie können Listen mit Postleitzahlen für einzelne Länder für die Platzierungs-Zielgruppenbestimmung erstellen und verwalten. Bestimmte Postleitzahllisten in den Platzierungseinstellungen auswählen oder ausschließen.
@@ -43,33 +47,33 @@ Sie können Listen mit Postleitzahlen für einzelne Länder für die Platzierung
 
    * So geben Sie manuell Postleitzahlen zum Hinzufügen ein oder fügen sie ein:
 
-      1. Klicken Sie auf **[!UICONTROL Add Postal Codes]**.
+     1. Klicken Sie auf **[!UICONTROL Add Postal Codes]**.
 
-      1. Bis zu 25.000 Postleitzahlen eingeben oder einfügen, wobei jede Postleitzahl in einer separaten Zeile steht.
+     1. Bis zu 25.000 Postleitzahlen eingeben oder einfügen, wobei jede Postleitzahl in einer separaten Zeile steht.
 
-      1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die Postleitzahlen gültig sind.
+     1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die Postleitzahlen gültig sind.
 
-         Alle ungültigen Postleitzahlen werden in der [!UICONTROL Validation Results] identifiziert. Wenn Sie fortfahren, werden nur gültige Postleitzahlen hinzugefügt.
+        Alle ungültigen Postleitzahlen werden in der [!UICONTROL Validation Results] identifiziert. Wenn Sie fortfahren, werden nur gültige Postleitzahlen hinzugefügt.
 
-         * Um ungültige Postleitzahlen in ein XLSX-Format ([!DNL Microsoft Excel]-Arbeitsblatt) herunterzuladen, klicken Sie auf **[!UICONTROL Download invalid codes]**. Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+        * Um ungültige Postleitzahlen in ein XLSX-Format ([!DNL Microsoft Excel]-Arbeitsblatt) herunterzuladen, klicken Sie auf **[!UICONTROL Download invalid codes]**. Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
    * Um bestimmte Postleitzahlen zu entfernen, führen Sie einen der folgenden Schritte aus:
 
-      * So wählen Sie zu entfernende Postleitzahlen aus:
+     * So wählen Sie zu entfernende Postleitzahlen aus:
 
-         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen Postleitzahlen, die aus der Liste entfernt werden sollen.
+       1. Aktivieren Sie das Kontrollkästchen neben den einzelnen Postleitzahlen, die aus der Liste entfernt werden sollen.
 
-         1. Klicken Sie auf **[!UICONTROL Remove]**.
+       1. Klicken Sie auf **[!UICONTROL Remove]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
-      * So entfernen Sie die gesamte Postleitzahl:
+     * So entfernen Sie die gesamte Postleitzahl:
 
-         1. Klicken Sie auf **[!UICONTROL Remove All]**.
+       1. Klicken Sie auf **[!UICONTROL Remove All]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove All]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove All]**.
 
 ## Bearbeiten einer Postleitzahlliste
 
@@ -81,33 +85,33 @@ Sie können Listen mit Postleitzahlen für einzelne Länder für die Platzierung
 
    * So geben Sie manuell Postleitzahlen zum Hinzufügen ein oder fügen sie ein:
 
-      1. Klicken Sie auf **[!UICONTROL Add Postal Codes]**.
+     1. Klicken Sie auf **[!UICONTROL Add Postal Codes]**.
 
-      1. Bis zu 25.000 Postleitzahlen eingeben oder einfügen, wobei jede Postleitzahl in einer separaten Zeile steht.
+     1. Bis zu 25.000 Postleitzahlen eingeben oder einfügen, wobei jede Postleitzahl in einer separaten Zeile steht.
 
-      1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die Postleitzahlen gültig sind.
+     1. Klicken Sie auf **[!UICONTROL Validate]** , um zu überprüfen, ob die Postleitzahlen gültig sind.
 
-         Alle ungültigen Postleitzahlen werden in der [!UICONTROL Validation Results] identifiziert. Wenn Sie fortfahren, werden nur gültige Postleitzahlen hinzugefügt.
+        Alle ungültigen Postleitzahlen werden in der [!UICONTROL Validation Results] identifiziert. Wenn Sie fortfahren, werden nur gültige Postleitzahlen hinzugefügt.
 
-         * Um ungültige Postleitzahlen in ein XLSX-Format ([!DNL Microsoft Excel]-Arbeitsblatt) herunterzuladen, klicken Sie auf **[!UICONTROL Download invalid codes]**. Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+        * Um ungültige Postleitzahlen in ein XLSX-Format ([!DNL Microsoft Excel]-Arbeitsblatt) herunterzuladen, klicken Sie auf **[!UICONTROL Download invalid codes]**. Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
 
-      1. Klicken Sie auf **[!UICONTROL Add to list]**.
+     1. Klicken Sie auf **[!UICONTROL Add to list]**.
 
    * Um bestimmte Postleitzahlen zu entfernen, führen Sie einen der folgenden Schritte aus:
 
-      * So wählen Sie zu entfernende Postleitzahlen aus:
+     * So wählen Sie zu entfernende Postleitzahlen aus:
 
-         1. Aktivieren Sie das Kontrollkästchen neben den einzelnen Postleitzahlen, die aus der Liste entfernt werden sollen.
+       1. Aktivieren Sie das Kontrollkästchen neben den einzelnen Postleitzahlen, die aus der Liste entfernt werden sollen.
 
-         1. Klicken Sie auf **[!UICONTROL Remove]**.
+       1. Klicken Sie auf **[!UICONTROL Remove]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
-      * So entfernen Sie die gesamte Postleitzahl:
+     * So entfernen Sie die gesamte Postleitzahl:
 
-         1. Klicken Sie auf **[!UICONTROL Remove All]**.
+       1. Klicken Sie auf **[!UICONTROL Remove All]**.
 
-         1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove All]**.
+       1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove All]**.
 
 ## Exportieren einer Postleitzahlliste
 

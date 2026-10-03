@@ -3,22 +3,26 @@ title: Doppelte Platzierungen
 description: Erfahren Sie, wie Sie eine oder mehrere Platzierungen duplizieren.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Doppelte Platzierungen
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ Unter [Was nicht dupliziert wird](#placement-not-duplicated) finden Sie eine Lis
 
    * Duplizieren mehrerer Platzierungen:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder zu duplizierenden Platzierung.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder zu duplizierenden Platzierung.
 
-      1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
 
 1. Geben Sie die neuen Platzierungseinstellungen an:
 
@@ -74,10 +78,10 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 * (Wenn Sie keine Anzeigen anhängen) Benutzerdefinierte Anzeigengewichtung und -planung
 * Standardplatzierungen für programmgesteuert garantierte (PG) Angebote und Platzierungen für [!UICONTROL Simple Ad Serving] Angebote
 * (Wenn Sie Platzierungen in eine andere Kampagne kopieren):
-   * Geo-Ziele
-   * Ereignispixel
-   * Anzeigen
-   * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
+  * Geo-Ziele
+  * Ereignispixel
+  * Anzeigen
+  * [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene (die die Segmente auf Advertiser-Ebene überschreiben)
 
 ## Best Practices zum Konfigurieren der neuen Platzierungen
 
@@ -90,19 +94,19 @@ Alle Einstellungen aus den ursprünglichen Platzierungen werden dupliziert, mit 
 
 * Beachten Sie Folgendes und bearbeiten Sie die neuen Platzierungen nach Bedarf:
 
-   * Verfügt das Konto über genügend Mittel, um die neuen Platzierungsbudgets aufzunehmen?
+  * Verfügt das Konto über genügend Mittel, um die neuen Platzierungsbudgets aufzunehmen?
 
-   * Benötigen die neuen Platzierungen ein anderes Budget als die vorherigen? Sind Mindestbudgets erforderlich?
+  * Benötigen die neuen Platzierungen ein anderes Budget als die vorherigen? Sind Mindestbudgets erforderlich?
 
-   * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
+  * Laden Sie Kreative, einschließlich aller erforderlichen benutzerdefinierten Anzeigengewichtungen und Zeitpläne, hoch und fügen Sie sie den Platzierungen hinzu.
 
-   * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
+  * Fügen Sie den Platzierungen und Anzeigen nach Bedarf Ereignis-Pixel hinzu.
 
-   * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in die Platzierungen ein.
+  * Schließen Sie bei Bedarf geografische Ziele und [!DNL DoubleVerify Authentic Brand Suitability] auf Platzierungsebene in die Platzierungen ein.
 
-   * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
+  * Verwenden Sie für programmgesteuerte garantierte Angebote neue Angebots-IDs und erstellen Sie Standardplatzierungen.
 
-   * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
+  * Erstellen Sie bei Bedarf neue Platzierungen für [!UICONTROL Simple Ad Serving] Angebote.
 
 >[!MORELIKETHIS]
 >

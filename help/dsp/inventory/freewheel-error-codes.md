@@ -1,25 +1,32 @@
 ---
-title: Fehler-Codes für  [!DNL FreeWheel] -Anzeigen-Übermittlungen
-description: Verweisen Sie auf die Fehler-Codes, die für Anzeigenübermittlungen an zurückgegeben werden [!DNL FreeWheel].
+title: Fehler-Codes für [!DNL FreeWheel] Anzeigenübermittlungen
+description: Verweisen Sie auf die Fehler-Codes, die für Anzeigenübermittlungen an [!DNL FreeWheel] zurückgegeben werden.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # Fehler-Codes für [!DNL FreeWheel] Anzeigenübermittlungen
 
 Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entweder von Advertising DSP oder von [!DNL FreeWheel] stammen. Suchen Sie Fehlermeldungen in der Spalte [!UICONTROL API Response] im Dialogfeld [[!UICONTROL FreeWheel Status]](freewheel-check-status.md).
@@ -34,7 +41,7 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 | [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | Der eingereichte Deal ist nicht als programmgesteuert garantierter Deal eingerichtet. [!DNL FreeWheel] akzeptiert nur garantierte Angebote. | Richten Sie die Angebots-ID als programmgesteuert garantierten Abschluss ein. Die Anzeige wird automatisch an [!DNL FreeWheel] gesendet, wenn Sie die programmgesteuerte garantierte Standardplatzierung am Ende des Workflows „Angebots-ID“ speichern. |
 | [!DNL Invalid external_deal_id:] \&lt;DEAL_ID\> | Die übermittelte Angebots-ID ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Vergewissern Sie sich, dass der Deal aktiv ist, und senden Sie die Anzeige dann erneut. |
 | [!DNL \[public_id=]\&lt;deal\>] existiert nicht | Die übermittelte Angebots-ID ist am [!DNL FreeWheel] Ende nicht vorhanden. | Wenden Sie sich an Ihren [!DNL FreeWheel], um die Angebots-ID zu bestätigen. |
-| [!DNL Ad with identifier] \*Anzeigename*\> [!DNL was not found.] | Der gesendete Anzeigenschlüssel ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Finden Sie den richtigen Anzeigenschlüssel und senden Sie die Anzeige dann erneut. |
+| [!DNL Ad with identifier] \&lt;*Anzeigename*\> [!DNL was not found.] | Der gesendete Anzeigenschlüssel ist entweder nicht vorhanden oder am Adobe-Ende nicht aktiv. | Finden Sie den richtigen Anzeigenschlüssel und senden Sie die Anzeige dann erneut. |
 | [!DNL Pending Submission] | Die Übermittlung ist noch ausstehend. | Aktualisieren Sie die Seite. |
 
 {style="table-layout:auto"}
@@ -46,7 +53,7 @@ Die Fehlermeldungen für fehlgeschlagene Anzeigenübermittlungen können entwede
 | 401 | Nicht autorisiert | Falsche, fehlende oder ungültige Zugriffsberechtigungen. | Wenden Sie sich an Ihr Adobe-Accountteam. |
 | 403 | Verboten | Der Server hat die Anfrage verstanden, weigert sich jedoch, sie zu autorisieren. | Wenden Sie sich an Ihr Adobe-Accountteam. |
 | 404 | Nicht gefunden | Die angeforderte Ressource ist nicht verfügbar. Wenn die Creative-ID im PUT-Vorgang nicht gefunden wird, wird eine 404 zurückgegeben. | Wenden Sie sich an Ihr Adobe-Accountteam. |
-| 405 | Methode nicht zulässig | Eine Anfrage einer Ressource wurde mit einer Anfragemethode durchgeführt, die von dieser Ressource nicht unterstützt wird (z. B. Verwendung von GET bei einer Methode, für die Daten per POST gesendet werden müssen, oder Verwendung von PUT bei einer schreibgeschützten Ressource). | Wenden Sie sich an Ihr Adobe-Accountteam. |
+| 405 | Methode nicht zulässig | Eine Anfrage einer Ressource wurde mit einer Anfragemethode durchgeführt, die von dieser Ressource nicht unterstützt wird (z. B. Verwendung von GET für eine Methode, für die Daten per POST gesendet werden müssen, oder Verwendung von PUT für eine schreibgeschützte Ressource). | Wenden Sie sich an Ihr Adobe-Accountteam. |
 | 408 | Zeitüberschreitung der Anfrage | Zeitüberschreitung während der Verarbeitung dieser Anfrage. Zeitüberschreitungen werden in der Regel durch gleichzeitige Anfragen nach exklusivem Zugriff auf bestimmte Ressourcen verursacht. | Senden Sie die Anfrage erneut, wenn Sie diesen Status erhalten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihr Adobe Account Team. |
 | 422 | Nicht verarbeitbare Entität | Ungültige Ressource. Dieser Fehler tritt auf, wenn der Anfragetext ungültig ist oder die erstellte/aktualisierte Ressource ungültig ist (beispielsweise, wenn die Angebots-ID nicht gefunden wurde). Siehe [Fehler der FreeWheel-API 422](#freewheel-422-errors) für weitere Informationen. | Wenden Sie sich an Ihr Adobe-Accountteam. |
 | 500 | Interner Server-Fehler | API-Systemfehler. | Wenden Sie sich an Ihr Adobe-Accountteam. |

@@ -3,18 +3,21 @@ title: Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsve
 description: Erfahren Sie mehr über die Klick-Tracking-Formate für unterstützte Werbenetzwerke.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # Über Klick-Tracking-URL-Formate für den Adobe Advertising-Konversionsverfolgungs-Service
 
 Die Tracking-Vorlagen, Landingpage-Suffixe (endgültige URL-Suffixe) und Ziel-URLs für Werbekonten und -kampagnen, die den Konversionsverfolgungs-Service von Adobe Advertising verwenden, haben das folgende Format:
@@ -29,9 +32,9 @@ Dabei gilt:
 
 * `<token passing parameter>` ist eine Variable für eine der folgenden Aktionen:
 
-   * `cq?` oder `rq` bedeutet, dass die Token-Übergabe aktiviert ist.
+  * `cq?` oder `rq` bedeutet, dass die Token-Übergabe aktiviert ist.
 
-   * `c?` oder `r` bedeutet, dass die Token-Übergabe deaktiviert ist.
+  * `c?` oder `r` bedeutet, dass die Token-Übergabe deaktiviert ist.
 
 * `<ad network ID>` ist eine Variable für die numerische ID für das angegebene Werbenetzwerk, z. B. *3* für [!DNL Google Ads], *10* für [!DNL Microsoft Advertising], *45* für [!DNL Meta], *86* für [!DNL Yahoo DSP], *87* für [!DNL Baidu], *90[!DNL Naver] für*, *96* für (formerly) [!DNL Yandex], *106* (veraltet), oder [!DNL LY Ads]106[!DNL Yahoo! Japan Ads] **&#x200B; [!DNL Yahoo Native] &#x200B;** [!DNL Pinterest] für (veraltet).
 

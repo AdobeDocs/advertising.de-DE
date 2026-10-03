@@ -3,27 +3,35 @@ title: Platzierungseinstellungen
 description: Siehe Beschreibungen der verfügbaren Platzierungseinstellungen.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
+TQID: 'https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4555
+source-wordcount: '4577'
 ht-degree: 0%
-
 ---
-
 # Platzierungseinstellungen
 
 ## [!UICONTROL Basics]
@@ -77,9 +85,9 @@ Die Datumsangaben für das Paket (falls zutreffend) oder die Kampagne werden sta
 * *[!UICONTROL Optimize based on performance]:* Steuert das Budget auf Paketebene.
 * *[!UICONTROL Set a Fixed Minimum or Maximum Budget]:* Ermöglicht das Festlegen eines minimalen und/oder maximalen Platzierungsbudgets. Geben Sie mindestens eine Budgetart an:
 
-   * *[!UICONTROL Maximum Budget]*: Geben Sie einen Wert und die Dauer ein (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
+  * *[!UICONTROL Maximum Budget]*: Geben Sie einen Wert und die Dauer ein (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-   * *[!UICONTROL Minimum Budget]*: Das Mindestbudget in Prozent des Paketbudgets. Wenn eine Intervallbegrenzung angegeben ist, wird der minimale Budgetwert immer als Prozentsatz der Intervallbegrenzung berechnet. Andernfalls wird er als Prozentsatz des Paketbudgets berechnet.
+  * *[!UICONTROL Minimum Budget]*: Das Mindestbudget in Prozent des Paketbudgets. Wenn eine Intervallbegrenzung angegeben ist, wird der minimale Budgetwert immer als Prozentsatz der Intervallbegrenzung berechnet. Andernfalls wird er als Prozentsatz des Paketbudgets berechnet.
 
 **[!UICONTROL Max Bid]:** Das Maximum für 1000 Impressionen zu bezahlen.
 
@@ -98,8 +106,8 @@ Die Datumsangaben für das Paket (falls zutreffend) oder die Kampagne werden sta
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Führen Sie einen der folgenden Schritte aus:
    * So fügen Sie einen Filter hinzu:
-      1. Klicken Sie auf **[!UICONTROL Add Filter]**.
-      1. Wählen Sie neben **[!UICONTROL Only bid if]** eine Metrik aus und geben Sie dann einen Wert ein.
+     1. Klicken Sie auf **[!UICONTROL Add Filter]**.
+     1. Wählen Sie neben **[!UICONTROL Only bid if]** eine Metrik aus und geben Sie dann einen Wert ein.
    * Um einen Filter zu entfernen, klicken Sie in der Filterzeile auf **[!UICONTROL X]** .
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -152,8 +160,8 @@ Beschreibungen der einzelnen Pre-Bid-Filter finden Sie unter &quot;[Pre-Bid-Filt
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Führen Sie einen der folgenden Schritte aus:
    * So fügen Sie einen Filter hinzu:
-      1. Klicken Sie auf **[!UICONTROL Add Filter]**.
-      1. Wählen Sie neben **[!UICONTROL Only bid if]** eine Metrik aus und geben Sie dann einen Wert ein.
+     1. Klicken Sie auf **[!UICONTROL Add Filter]**.
+     1. Wählen Sie neben **[!UICONTROL Only bid if]** eine Metrik aus und geben Sie dann einen Wert ein.
    * Um einen Filter zu entfernen, klicken Sie in der Filterzeile auf **[!UICONTROL X]** .
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -170,26 +178,26 @@ So geben Sie Standorte an:
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Führen Sie einen der folgenden Schritte aus:
    * So schließen Sie ein Land, ein Bundesland, eine Stadt, ein Bundesamt, einen Bundesgesetzgebungsbezirk oder einen Landesgesetzgebungsbezirk ein oder schließen diese aus:
-      1. Wählen Sie den Standorttyp in der linken Spalte aus.
-      1. (Bei Bedarf) Klicken Sie auf eine Position, um sie zu erweitern.
-      1. Klicken Sie neben dem Speicherort auf *[!UICONTROL Include]* , um ihn als Ziel einzubeziehen, oder auf *[!UICONTROL Exclude]* , um ihn als Ziel auszuschließen.
+     1. Wählen Sie den Standorttyp in der linken Spalte aus.
+     1. (Bei Bedarf) Klicken Sie auf eine Position, um sie zu erweitern.
+     1. Klicken Sie neben dem Speicherort auf *[!UICONTROL Include]* , um ihn als Ziel einzubeziehen, oder auf *[!UICONTROL Exclude]* , um ihn als Ziel auszuschließen.
    * Ein- oder Ausschließen einer [Postleitzahlliste](/help/dsp/resources/lists-postal-codes-manage.md):
-      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code List]** .
-      1. Klicken Sie neben der Postleitzahl auf *[!UICONTROL Include]* , um sie als Zielgruppe einzubeziehen, oder auf *[!UICONTROL Exclude]* , um sie als Zielgruppe auszuschließen.
+     1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code List]** .
+     1. Klicken Sie neben der Postleitzahl auf *[!UICONTROL Include]* , um sie als Zielgruppe einzubeziehen, oder auf *[!UICONTROL Exclude]* , um sie als Zielgruppe auszuschließen.
    * So suchen Sie nach einer Postleitzahl und schließen alle ausgewählten Ergebnisse ein oder aus:
-      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
-      1. Klicken Sie über der Liste Land auf **[!UICONTROL Search]** .
-      1. Land auswählen.
-      1. Geben Sie den Namen der Stadt ein und klicken Sie dann auf ![Bearbeiten](/help/dsp/assets/search.png).
-      1. Klicken Sie auf das richtige Suchergebnis.
-      1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
+     1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+     1. Klicken Sie über der Liste Land auf **[!UICONTROL Search]** .
+     1. Land auswählen.
+     1. Geben Sie den Namen der Stadt ein und klicken Sie dann auf ![Bearbeiten](/help/dsp/assets/search.png).
+     1. Klicken Sie auf das richtige Suchergebnis.
+     1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
    * So geben Sie Postleitzahlen ein bzw. fügen sie ein und schließen alle ein oder aus:
-      1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
-      1. Klicken Sie über der Liste Land auf **[!UICONTROL Paste]** .
-      1. Land auswählen.
-      1. Bis zu 1000 Postleitzahlen eingeben oder einfügen.
-Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder Tabulatoren getrennt eingeben.
-      1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
+     1. Klicken Sie in der linken Spalte auf **[!UICONTROL Postal Code]** .
+     1. Klicken Sie über der Liste Land auf **[!UICONTROL Paste]** .
+     1. Land auswählen.
+     1. Bis zu 1000 Postleitzahlen eingeben oder einfügen.
+        Eine Postleitzahl pro Zeile einschließen oder mehrere Werte durch Kommas oder Tabulatoren getrennt eingeben.
+     1. Klicken Sie auf *[!UICONTROL Include All]* , um alle Standorte als Ziele einzubeziehen, oder auf *[!UICONTROL Exclude All]* , um alle Standorte als Ziele auszuschließen.
    * Um einen Speicherort aus der [!UICONTROL Included]- oder [!UICONTROL Excluded] zu entfernen, klicken Sie auf **[!UICONTROL X]** neben dem Speicherort in der rechten Spalte.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
@@ -218,22 +226,22 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 * Um einen Inventartyp auszuschließen, deaktivieren Sie das Kontrollkästchen neben dem Namen.
 * So wählen Sie einen Inventartyp aus:
-   1. Aktivieren Sie das Kontrollkästchen neben dem Namen des Inventartyps.
-   1. (Optional) Ändern Sie die Quellen, um Folgendes einzuschließen:
-      1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] und [!UICONTROL On Demand] Inventar) Klicken Sie auf **[!UICONTROL View by Source]** oder **[!UICONTROL View by Feed]**, um zu ändern, wie die Quellen aufgeführt werden.
-      1. Filtern Sie den Bestand nach Bedarf.
-      1. Geben Sie die ein- und auszuschließenden Quellen an:
-         * Für [!UICONTROL Public] oder [!UICONTROL On Demand]:
-            * Um eine Quelle einzuschließen, klicken Sie **[!UICONTROL Include]** neben dem Quellnamen.
-            * Um eine Quelle auszuschließen, klicken Sie **[!UICONTROL Exclude]** neben dem Quellnamen.
-         * Für [!UICONTROL Private]:
-            * Auf der Registerkarte [!UICONTROL Deals] :
-               * Um den gesamten Bestand in ein Angebot aufzunehmen, klicken Sie **[!UICONTROL Include all]** neben dem Angebotsnamen.
-               * Um eine einzelne Lagerbestandsquelle einzubeziehen, erweitern Sie den Abschlussnamen und klicken Sie dann auf das Kontrollkästchen neben dem Quellennamen.
-            * Klicken Sie auf der Registerkarte [!UICONTROL Deal Lists] auf das Kontrollkästchen neben dem Namen der Angebotsliste.
-   1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
-   1. Klicken Sie auf **[!UICONTROL Save]**.
+  1. Aktivieren Sie das Kontrollkästchen neben dem Namen des Inventartyps.
+  1. (Optional) Ändern Sie die Quellen, um Folgendes einzuschließen:
+     1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
+     1. ([!UICONTROL Public] und [!UICONTROL On Demand] Inventar) Klicken Sie auf **[!UICONTROL View by Source]** oder **[!UICONTROL View by Feed]**, um zu ändern, wie die Quellen aufgeführt werden.
+     1. Filtern Sie den Bestand nach Bedarf.
+     1. Geben Sie die ein- und auszuschließenden Quellen an:
+        * Für [!UICONTROL Public] oder [!UICONTROL On Demand]:
+          * Um eine Quelle einzuschließen, klicken Sie **[!UICONTROL Include]** neben dem Quellnamen.
+          * Um eine Quelle auszuschließen, klicken Sie **[!UICONTROL Exclude]** neben dem Quellnamen.
+        * Für [!UICONTROL Private]:
+          * Auf der Registerkarte [!UICONTROL Deals] :
+            * Um den gesamten Bestand in ein Angebot aufzunehmen, klicken Sie **[!UICONTROL Include all]** neben dem Angebotsnamen.
+            * Um eine einzelne Lagerbestandsquelle einzubeziehen, erweitern Sie den Abschlussnamen und klicken Sie dann auf das Kontrollkästchen neben dem Quellennamen.
+          * Klicken Sie auf der Registerkarte [!UICONTROL Deal Lists] auf das Kontrollkästchen neben dem Namen der Angebotsliste.
+  1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
+  1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!TIP]
 >
@@ -276,11 +284,11 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die einzuschließenden oder auszuschließenden Site-Kategorien an:
    * So schließen Sie Site-Kategorien ein:
-      1. Klicken Sie auf **[!UICONTROL Include categories]**.
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Kategorie, die Sie ansprechen möchten.
+     1. Klicken Sie auf **[!UICONTROL Include categories]**.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Kategorie, die Sie ansprechen möchten.
    * Ausschließen von Site-Kategorien:
-      1. Klicken Sie auf **[!UICONTROL Exclude categories]**.
-      1. Aktivieren Sie das Kontrollkästchen neben den einzelnen auszuschließenden Kategorien.
+     1. Klicken Sie auf **[!UICONTROL Exclude categories]**.
+     1. Aktivieren Sie das Kontrollkästchen neben den einzelnen auszuschließenden Kategorien.
 1. (Optional) Um eine CSV-Datei mit den Zielgruppenbestimmungsinformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -289,19 +297,19 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die Sites an:
    * Auf der Registerkarte [!UICONTROL Paste URL] :
-      * So suchen Sie nach einer Site:
-         1. Klicken Sie auf **[!UICONTROL Search]**.
-         1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
-         1. Wählen Sie in den Suchergebnissen die auszuschließenden Websites aus:
-            * Um ein einzelnes Gebiet auszuschließen, aktivieren Sie das entsprechende Kontrollkästchen.
-            * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these 50]**. Um alle Suchergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these \<*NN *\>]**.
-      * Domain-Namen eingeben:
-         1. Klicken Sie auf **[!UICONTROL Paste]**.
-         1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
-         1. Klicken Sie auf **[!UICONTROL Exclude All]**.
+     * So suchen Sie nach einer Site:
+       1. Klicken Sie auf **[!UICONTROL Search]**.
+       1. Geben Sie einen Suchbegriff ein, wählen Sie eine Site-Ebene und/oder eine Site-Kategorie aus.
+       1. Wählen Sie in den Suchergebnissen die auszuschließenden Websites aus:
+          * Um ein einzelnes Gebiet auszuschließen, aktivieren Sie das entsprechende Kontrollkästchen.
+          * (Wenn mehr als 50 Ergebnisse verfügbar sind) Um die ersten 50 Ergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these 50]**. Um alle Suchergebnisse auszuschließen, klicken Sie auf **[!UICONTROL Exclude these \<*NN *\>]**.
+     * Domain-Namen eingeben:
+       1. Klicken Sie auf **[!UICONTROL Paste]**.
+       1. Geben Sie einen oder mehrere Domain-Namen in separaten Zeilen ein.
+       1. Klicken Sie auf **[!UICONTROL Exclude All]**.
    * Auf der Registerkarte [!UICONTROL URL Lists] :
-      1. (Optional) Suchen Sie nach einer URL-Liste, indem Sie den Listennamen ganz oder teilweise in das Suchfeld eingeben.
-      1. Aktivieren Sie das Kontrollkästchen neben jeder auszuschließenden URL-Liste.
+     1. (Optional) Suchen Sie nach einer URL-Liste, indem Sie den Listennamen ganz oder teilweise in das Suchfeld eingeben.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder auszuschließenden URL-Liste.
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** .
 
 >[!NOTE]
@@ -353,13 +361,13 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle &#x200B;](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL AdFixus]*: Zielgruppen [!DNL AdFixus] IDs, die nach Advertising DSP importiert wurden.
+  * *[!UICONTROL AdFixus]*: Zielgruppen [!DNL AdFixus] IDs, die nach Advertising DSP importiert wurden.
 
-   * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die wahrscheinlich aus E-Mail-Adressen und anderen Signalen erstellt wurden. ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
+  * *[!UICONTROL ID5]*: Zielgruppen [!DNL ID5] IDs, die wahrscheinlich aus E-Mail-Adressen und anderen Signalen erstellt wurden. ID5-IDs sind kostenlos verfügbar. **Hinweis:** Drittanbietersegmente aus [!DNL Eyeota] können ID5-IDs enthalten.
 
-   * *[!UICONTROL RampID]*: Targeting [!DNL LiveRamp] [!DNL RampIDs] von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
+  * *[!UICONTROL RampID]*: Targeting [!DNL LiveRamp] [!DNL RampIDs] von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL RampIDs] sind für Benutzer in Nordamerika, Australien und Neuseeland verfügbar.
 
-   * *[!UICONTROL Unified ID2.0]*: Targeting [!DNL Unified ID2.0] (UID2)-IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+  * *[!UICONTROL Unified ID2.0]*: Targeting [!DNL Unified ID2.0] (UID2)-IDs von Benutzern, die über ihre E-Mail-Adressen bei Ihrer Website angemeldet sind. [!DNL UID2 IDs] sind im Europäischen Wirtschaftsraum und in einigen weiteren Ländern nicht verfügbar. Siehe die [Liste der Länder, für die ein Verbot gilt](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: Die Nutzungsbedingungen für die Verwendung universeller IDs. Sie oder ein anderer Benutzer im DSP-Konto muss die Bedingungen nur einmal akzeptieren, bevor Sie IDs importieren, Daten in einen neuen ID-Typ konvertieren oder einen ID-Typ als Ziel auswählen können. Für Kunden mit verwalteten Service-Verträgen wird Ihr Adobe-Account-Team Ihre Zustimmung einholen und die Bedingungen im Namen Ihres Unternehmens akzeptieren. Um die Bedingungen zu lesen, klicken Sie auf **>**. Um die Bedingungen zu akzeptieren, scrollen Sie zum Ende der Bedingungen und klicken Sie auf **[!UICONTROL Accept]**.
 
@@ -415,13 +423,13 @@ So geben Sie die Themenzielgruppe an:
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Geben Sie die ein- oder auszuschließenden ISPs an:
    * So schließen Sie ISPs ein:
-      1. Klicken Sie auf **[!UICONTROL Include ISPs]**.
-      1. (Optional) Filtern Sie die Liste nach Keyword.
-      1. Aktivieren Sie das Kontrollkästchen neben jedem zu kontaktierenden ISP.
+     1. Klicken Sie auf **[!UICONTROL Include ISPs]**.
+     1. (Optional) Filtern Sie die Liste nach Keyword.
+     1. Aktivieren Sie das Kontrollkästchen neben jedem zu kontaktierenden ISP.
    * So schließen Sie ISPs aus:
-      1. Klicken Sie auf **[!UICONTROL Exclude ISPs]**.
-      1. (Optional) Filtern Sie die Liste nach Keyword.
-      1. Aktivieren Sie das Kontrollkästchen neben jedem auszuschließenden ISP.
+     1. Klicken Sie auf **[!UICONTROL Exclude ISPs]**.
+     1. (Optional) Filtern Sie die Liste nach Keyword.
+     1. Aktivieren Sie das Kontrollkästchen neben jedem auszuschließenden ISP.
 1. (Optional) Um eine CSV-Datei mit den ISP-Zielgruppeninformationen zum Download-Speicherort Ihres Browsers herunterzuladen, klicken Sie auf **[!UICONTROL Export]**.
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -440,37 +448,37 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block sites that are]:** (Optional) Ein oder mehrere Arten von Inventarkontext, der standardmäßig blockiert werden soll. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Block sites that are]:** (Optional) Ein oder mehrere Arten von Inventarkontext, der standardmäßig blockiert werden soll. Es können zusätzliche Gebühren anfallen.
 
 * [!UICONTROL Peer 39]:
 
-   * **Target-Sites, die Folgendes sind:** (Optional) Mindestens ein Typ von Inventarattributen, die standardmäßig als Ziel ausgewählt werden sollen. Es können zusätzliche Gebühren anfallen.
+  * **Target-Sites, die Folgendes sind:** (Optional) Mindestens ein Typ von Inventarattributen, die standardmäßig als Ziel ausgewählt werden sollen. Es können zusätzliche Gebühren anfallen.
 
 * [!UICONTROL ComScore]:
 
-   * **Sites blockieren, die Folgendes sind:** (Optional) Mindestens ein Typ von Inventarattributen, die standardmäßig blockiert werden sollen. Es können zusätzliche Gebühren anfallen.
+  * **Sites blockieren, die Folgendes sind:** (Optional) Mindestens ein Typ von Inventarattributen, die standardmäßig blockiert werden sollen. Es können zusätzliche Gebühren anfallen.
 
 * [!UICONTROL Integral Ad Science]
 
-   * **[!UICONTROL Adult Content]:** (Optional) Der Grad von Inhalten für Erwachsene, für die Anzeigen standardmäßig blockiert werden sollen: *[!UICONTROL Do Not Block]* (Standard), *[!UICONTROL Standard]* oder *[!UICONTROL Strict]*. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Adult Content]:** (Optional) Der Grad von Inhalten für Erwachsene, für die Anzeigen standardmäßig blockiert werden sollen: *[!UICONTROL Do Not Block]* (Standard), *[!UICONTROL Standard]* oder *[!UICONTROL Strict]*. Es können zusätzliche Gebühren anfallen.
 
-   * **[!UICONTROL Alcohol Content]:** (Optional) Der Alkoholgehalt, für den Anzeigen standardmäßig blockiert werden sollen: *[!UICONTROL Do Not Block]* (Standard), *[!UICONTROL Standard]* oder *[!UICONTROL Strict]*. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Alcohol Content]:** (Optional) Der Alkoholgehalt, für den Anzeigen standardmäßig blockiert werden sollen: *[!UICONTROL Do Not Block]* (Standard), *[!UICONTROL Standard]* oder *[!UICONTROL Strict]*. Es können zusätzliche Gebühren anfallen.
 
 **[!UICONTROL Pre-bid fraud blocking]:** Arten von Websites, die aufgrund von betrügerischem Traffic und verdächtigen Aktivitäten blockiert werden sollen, die über [!DNL DoubleVerify], [!DNL Integral Ad Science] und [!DNL Peer39] gemessen werden. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern:
 
 * [!UICONTROL DoubleVerify]: (Gilt für Desktop- und mobile Web-Anzeigen, native Video- und Standard-TV-Anzeigen)
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** blockiert standardmäßig den gesamten zu 100 % ungültigen Traffic für neue Platzierungen, einschließlich Traffic auf entführten Geräten. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** blockiert standardmäßig den gesamten zu 100 % ungültigen Traffic für neue Platzierungen, einschließlich Traffic auf entführten Geräten. Es können zusätzliche Gebühren anfallen.
 
-   * **[!UICONTROL Also block sites with]:** (Optional) Eine zusätzliche Ebene von Betrug und ungültigem Traffic, die dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (die Standardeinstellung, die zusätzlichen Traffic nicht blockiert), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* oder *[!UICONTROL >25% Average Fraud/IVT levels]*. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Also block sites with]:** (Optional) Eine zusätzliche Ebene von Betrug und ungültigem Traffic, die dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (die Standardeinstellung, die zusätzlichen Traffic nicht blockiert), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* oder *[!UICONTROL >25% Average Fraud/IVT levels]*. Es können zusätzliche Gebühren anfallen.
 
 * [!UICONTROL Peer 39]: (Gilt für Desktop- und mobile Web-Anzeigen, native Anzeigen und Videoanzeigen)
 
-   * **[!UICONTROL Block sites that are]:** (Optional) Eine oder mehrere Betrugsarten, die dazu führen, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL Fraud]* (blockiert alle betrügerischen Websites), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Block sites that are]:** (Optional) Eine oder mehrere Betrugsarten, die dazu führen, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL Fraud]* (blockiert alle betrügerischen Websites), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* und/oder *[!UICONTROL Fraud: Zero Ads]*. Es können zusätzliche Gebühren anfallen.
 
 * [!UICONTROL Integral Ad Science]: (Gilt für Desktop- und mobile Web-Anzeigen, native Anzeigen und Videoanzeigen)
 
-   * **[!UICONTROL Block sites that are]:** (Optional) Ein Typ einer verdächtigen Website- oder App-Aktivität, der dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (der Standard, der Anzeigen nicht aufgrund verdächtiger Aktivitäten blockiert), *[!UICONTROL Suspicious Activity - High Risk]* oder *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Es können zusätzliche Gebühren anfallen.
+  * **[!UICONTROL Block sites that are]:** (Optional) Ein Typ einer verdächtigen Website- oder App-Aktivität, der dazu führt, dass DSP Anzeigen standardmäßig blockiert: *[!UICONTROL None]* (der Standard, der Anzeigen nicht aufgrund verdächtiger Aktivitäten blockiert), *[!UICONTROL Suspicious Activity - High Risk]* oder *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Es können zusätzliche Gebühren anfallen.
 
 **[!UICONTROL Pre-bid viewability]:** (Gilt für Desktop- und mobile Web-Anzeigen, native und Video-Anzeigen) Welche Pre-Bid-Sichtbarkeitsfilter nach [!DNL DoubleVerify] filtern und [!DNL Integral Ad Science] für die Platzierung beantragen. Die Standardeinstellungen auf Advertiser-Ebene sind für neue Platzierungen ausgewählt, Sie können jedoch die Einstellungen ändern. Es können zusätzliche Gebühren anfallen.
 
@@ -495,13 +503,13 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 1. Führen Sie einen der folgenden Schritte aus:
    * Um ein vorhandenes Pixel auszuwählen, aktivieren Sie das Kontrollkästchen in der Pixelzeile.
    * So erstellen Sie ein Pixel:
-      1. Klicken Sie auf **[!UICONTROL Create]**.
-      1. Geben Sie die folgenden Informationen ein:
-         * **[!UICONTROL Pixel name]:** Der Pixelname; die maximale Länge beträgt 500 Zeichen. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
-         * **[!UICONTROL Pixel event fires on]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird. Die verfügbaren Ereignisse variieren je nach Anzeigentyp.
-         * **[!UICONTROL Pixel type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
-         * **[!UICONTROL Pixel URL]:** Die URL des Pixelbilds.
-      1. Klicken Sie auf **[!UICONTROL Create and attach]**.
+     1. Klicken Sie auf **[!UICONTROL Create]**.
+     1. Geben Sie die folgenden Informationen ein:
+        * **[!UICONTROL Pixel name]:** Der Pixelname; die maximale Länge beträgt 500 Zeichen. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
+        * **[!UICONTROL Pixel event fires on]:** Das Ereignis, durch das das Pixel zum Auslösen Trigger wird. Die verfügbaren Ereignisse variieren je nach Anzeigentyp.
+        * **[!UICONTROL Pixel type]:** Gibt an, ob das Pixel ein *[!UICONTROL IMG URL]* (Bilddatei mit 1 x 1 Pixel), *[!UICONTROL HTML]* oder *[!UICONTROL JavaScript URL]* ist.
+        * **[!UICONTROL Pixel URL]:** Die URL des Pixelbilds.
+     1. Klicken Sie auf **[!UICONTROL Create and attach]**.
    1. Klicken Sie auf **[!UICONTROL Save]**.
 
 **[!UICONTROL Conversion Pixels]:** (Optional) Konversionsverfolgungspixel, die standardmäßig an alle neuen Anzeigen in der Platzierung angehängt werden sollen. So legen Sie Konvertierungspixel fest:
@@ -510,20 +518,20 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 1. Führen Sie einen der folgenden Schritte aus:
    * Um ein vorhandenes Pixel auszuwählen, aktivieren Sie das Kontrollkästchen in der Pixelzeile.
    * So erstellen Sie ein Pixel:
-      1. Klicken Sie auf **[!UICONTROL Create]**.
-      1. Geben Sie die folgenden Informationen ein:
-         * **[!UICONTROL Conversion pixel name]:** Der Pixelname; die maximale Länge beträgt 500 Zeichen. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
-         * **[!UICONTROL Conversion category]:** Der Konvertierungstyp.
-         * **[!UICONTROL Impression conversion window]:** Die Anzahl der Tage nach Eintritt einer Anzeigenimpression, in denen die Impression einer Konversion zugeordnet werden kann. Der Standardwert ist 30 Tage.
-         * **[!UICONTROL Click conversion window]:** Die Anzahl der Tage nach dem Klicken auf eine Anzeige, in denen der Klick einer Konversion zugeordnet werden kann. Der Standardwert ist 30 Tage.
-         * **[!UICONTROL Notes]:** (Optional) Eine Beschreibung oder andere Informationen zum Pixel.
-      1. Klicken Sie auf **[!UICONTROL Create and attach]**.
-      1. Implementieren Sie das Konvertierungspixel auf den entsprechenden Web-Seiten:
-         1. Navigieren Sie im Hauptmenü zu **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
-         1. Klicken Sie in der Pixelzeile auf **[!UICONTROL edit]**.
-         1. Kopieren Sie die Werte in die Felder [!UICONTROL HTML Tag] und [!UICONTROL Flash Tag] nach Bedarf, um sie dem Advertiser oder Website-Kontakt zur Verfügung zu stellen.
+     1. Klicken Sie auf **[!UICONTROL Create]**.
+     1. Geben Sie die folgenden Informationen ein:
+        * **[!UICONTROL Conversion pixel name]:** Der Pixelname; die maximale Länge beträgt 500 Zeichen. Verwenden Sie einen Namen, der Ihnen die Identifizierung des Pixels erleichtert.
+        * **[!UICONTROL Conversion category]:** Der Konvertierungstyp.
+        * **[!UICONTROL Impression conversion window]:** Die Anzahl der Tage nach Eintritt einer Anzeigenimpression, in denen die Impression einer Konversion zugeordnet werden kann. Der Standardwert ist 30 Tage.
+        * **[!UICONTROL Click conversion window]:** Die Anzahl der Tage nach dem Klicken auf eine Anzeige, in denen der Klick einer Konversion zugeordnet werden kann. Der Standardwert ist 30 Tage.
+        * **[!UICONTROL Notes]:** (Optional) Eine Beschreibung oder andere Informationen zum Pixel.
+     1. Klicken Sie auf **[!UICONTROL Create and attach]**.
+     1. Implementieren Sie das Konvertierungspixel auf den entsprechenden Web-Seiten:
+        1. Navigieren Sie im Hauptmenü zu **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
+        1. Klicken Sie in der Pixelzeile auf **[!UICONTROL edit]**.
+        1. Kopieren Sie die Werte in die Felder [!UICONTROL HTML Tag] und [!UICONTROL Flash Tag] nach Bedarf, um sie dem Advertiser oder Website-Kontakt zur Verfügung zu stellen.
 
-            Möglicherweise muss die IT-Abteilung oder andere Gruppe des Werbetreibenden die Tag-Bereitstellung planen oder darüber informiert werden.
+           Möglicherweise muss die IT-Abteilung oder andere Gruppe des Werbetreibenden die Tag-Bereitstellung planen oder darüber informiert werden.
    1. Klicken Sie auf **[!UICONTROL Save]**.
 
 **[!UICONTROL 3rd-party Fees]:** (Optional) Ein statischer Gebührensatz eines Drittanbieters, der als nicht fakturierbare Kosten pro 1000 Impressionen verfolgt werden soll. Der Standardwert auf Paketebene wird bei neuen Platzierungen automatisch angewendet, sofern zutreffend, es sei denn, Sie geben einen anderen Wert ein.

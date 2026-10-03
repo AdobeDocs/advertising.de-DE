@@ -1,20 +1,23 @@
 ---
 title: Verwalten von Zielgruppenzielen für Kampagnen und Anzeigengruppen
-description: Erfahren Sie, wie Sie Audience-Ziele für Ihre - [!DNL Google Ads] -Kampagnen  [!DNL Microsoft Advertising]  Anzeigengruppen konfigurieren und verwalten.
+description: Erfahren Sie, wie Sie Audience-Ziele für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen konfigurieren und verwalten.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Zielgruppenzielen für Ihre [!DNL Google Ads] und [!DNL Microsoft Advertising] Kampagnen und Anzeigengruppen
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising]*
@@ -65,7 +68,7 @@ Sie können Zielgruppenziele konfigurieren, die Angebotsmodifikatoren für Zielg
 
    * *0%:* Gebote für diese Zielgruppe nicht anpassen.
 
-   * /[*Andere Werte von -90% bis 900%*/]: Erhöhen oder Verringern des Angebots für Anzeigen für diese Zielgruppe. Wenn beispielsweise das Gebot auf Keyword-Ebene 1 USD beträgt und die Gebotsanpassung für ein bestimmtes Zielgruppenziel 50 % beträgt, erhöht sich das Gebot für diese Zielgruppe auf 1,50 USD.
+   * /[*Andere Werte von -90% bis 900%*/]: Erhöhen oder Verringern des Angebots für Anzeigen für diese Zielgruppe. Wenn beispielsweise das Gebot auf Keyword-Ebene 1 USD und die Gebotsanpassung für ein bestimmtes Zielgruppenziel 50 % beträgt, erhöht sich das Gebot für diese Zielgruppe auf 1,50 USD.
 
 ## Bearbeiten des Angebotsmodifikators für Zielgruppenziele
 
@@ -83,27 +86,27 @@ Sie können den Angebotsmodifikator und den Status von Zielgruppenzielen für al
 
    * Gehen Sie wie folgt vor, um einen Angebotsmodifikator für eine oder mehrere Zielgruppen zu bearbeiten:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zielgruppe.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder zu bearbeitenden Zielgruppe.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
+     1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-      1. Bearbeiten Sie die **[!UICONTROL Bid Modifier]**- und/oder **[!UICONTROL Status]**.
+     1. Bearbeiten Sie die **[!UICONTROL Bid Modifier]**- und/oder **[!UICONTROL Status]**.
 
-         Für das Feld [!UICONTROL Bid Modifier] haben Sie die Möglichkeit, vorhandene Werte in einen bestimmten Wert zu ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Grenze zu erhöhen oder zu verringern.
+        Für das Feld [!UICONTROL Bid Modifier] haben Sie die Möglichkeit, vorhandene Werte in einen bestimmten Wert zu ändern oder den Betrag um einen bestimmten Prozentsatz oder Geldbetrag mit einer Grenze zu erhöhen oder zu verringern.
 
-         Bei einem festgelegten Wert kann der Wert Folgendes enthalten:
+        Bei einem festgelegten Wert kann der Wert Folgendes enthalten:
 
-         * *0%:* Gebote für diese Zielgruppe nicht anpassen.
+        * *0%:* Gebote für diese Zielgruppe nicht anpassen.
 
-         * /[*Andere Werte von -90% bis 900%*/]: Erhöhen oder Verringern des Angebots für Anzeigen für diese Zielgruppe. Wenn beispielsweise das Gebot auf Keyword-Ebene 1 USD beträgt und die Gebotsanpassung für ein bestimmtes Zielgruppenziel 50 % beträgt, erhöht sich das Gebot für diese Zielgruppe auf 1,50 USD.
+        * /[*Andere Werte von -90% bis 900%*/]: Erhöhen oder Verringern des Angebots für Anzeigen für diese Zielgruppe. Wenn beispielsweise das Gebot auf Keyword-Ebene 1 USD und die Gebotsanpassung für ein bestimmtes Zielgruppenziel 50 % beträgt, erhöht sich das Gebot für diese Zielgruppe auf 1,50 USD.
 
-         Bei mehreren Zielen werden Ihre Änderungen auf alle ausgewählten Ziele angewendet.
+        Bei mehreren Zielen werden Ihre Änderungen auf alle ausgewählten Ziele angewendet.
 
-      1. (Optional) Klicken Sie auf **[!UICONTROL Additional Details]** und geben Sie optional einen Projektnamen und eine Beschreibung ein.
+     1. (Optional) Klicken Sie auf **[!UICONTROL Additional Details]** und geben Sie optional einen Projektnamen und eine Beschreibung ein.
 
-      1. Klicken Sie auf **[!UICONTROL Post]**.
+     1. Klicken Sie auf **[!UICONTROL Post]**.
 
 ## Ändern des Status von Audience-Zielen
 

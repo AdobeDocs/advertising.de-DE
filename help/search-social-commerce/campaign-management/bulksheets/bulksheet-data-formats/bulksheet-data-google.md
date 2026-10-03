@@ -1,23 +1,28 @@
 ---
-title: 'Erforderliche Bulksheet-Daten für  [!DNL Google Ads] '
-description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Google Ads]  Konten.
+title: Erforderliche Bulksheet-Daten für [!DNL Google Ads]
+description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Google Ads] Konten.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # Anhang - Erforderliche Bulksheet-Daten für [!DNL Google Ads]
 
 Um [!DNL Google Ads] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Google Ads]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten &#x200B;](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).

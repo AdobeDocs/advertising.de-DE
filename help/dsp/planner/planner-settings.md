@@ -3,22 +3,26 @@ title: Einstellungen für Pläne zur Reichweite von vernetzten Fernsehgeräten
 description: Siehe Beschreibungen der Einstellungen für vernetzte TV-Reichweitenpläne.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-TQID: https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs
+TQID: 'https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Einstellungen für Pläne zur Reichweite von vernetzten Fernsehgeräten
 
 <!-- Move out of table for consistency at some point. -->
@@ -29,8 +33,8 @@ ht-degree: 0%
 | [!UICONTROL Advertiser] | Der spezifische Advertiser in dem Konto, für das der Plan erstellt wird. | Ja |
 | [!UICONTROL Media Type] | Der Medientyp, der in den Plan aufgenommen werden soll.<br><br>Derzeit ist nur [!UICONTROL Connected TV] verfügbar. | Ja |
 | [!UICONTROL Date Range] | Das Start- und Enddatum für den Plan.<br><br>Das Startdatum darf nicht vor dem aktuellen Datum liegen. Der Datumsbereich darf nicht länger als 90 Tage sein. | Ja |
-| [!UICONTROL Goal Type] | Die Art des Ziels (z. B. [!UICONTROL Budget]), die für den Plan berücksichtigt werden soll.<br><br>Derzeit ist nur [!UICONTROL Budget] verfügbar. | Ja |
-| [!UICONTROL Goal Value] | Der Zielwert für die Prognose. Für genauere Prognoseergebnisse verwenden Sie einen Wert > 5000 USD. | Ja |
+| [!UICONTROL Goal Type] | Der Typ des Ziels (z. B. [!UICONTROL Budget]), das für den Plan berücksichtigt werden soll<br><br>Derzeit ist nur [!UICONTROL Budget] verfügbar. | Ja |
+| [!UICONTROL Goal Value] | Der Zielwert für die Prognose. Um genauere Prognoseergebnisse zu erhalten, verwenden Sie einen Wert > 5000 USD. | Ja |
 | [!UICONTROL Max Bid] | Der maximale Betrag, der für 1000 Impressionen zu zahlen ist. Wenn der [!UICONTROL Connected TV] Medientyp ausgewählt ist, geben Sie einen Wert von mindestens 10 USD ein. | Ja |
 | [!UICONTROL Frequency Cap] | Die Häufigkeit, mit der einem bestimmten Haushalt Anzeigen bereitgestellt werden sollen.<br><br>Wenn Sie einen Plan implementieren und mehrere Platzierungen erstellen müssen, wenden Sie die Einstellung für die Häufigkeitsbegrenzung auf Paketebene an, nicht auf der Platzierungsebene, um eine ordnungsgemäße Bereitstellung sicherzustellen. | Ja |
 | [!UICONTROL Geo-Targeting] | Ein- oder Ausschlussorte als Zielgruppen. Zu den Optionen gehören:<ul><li>Länder, Städte, Bundesstaaten: Klicken Sie auf die Registerkarte **[!UICONTROL Country/State/City]**. Wählen Sie aus, ob das Gebiet ein *Land*, *Bundesland* oder *Stadt* ist. Erweitern Sie optional einen Speicherort, um dessen Unterkomponenten anzuzeigen, und klicken Sie dann auf **[!UICONTROL Include]** oder **[!UICONTROL Exclude]** neben dem Speicherort.</li><li>Ausgewiesene Marktgebiete (DMAs) in den Vereinigten Staaten: Klicken Sie auf die Registerkarte &quot;**[!UICONTROL DMA]**&quot;. Erweitern Sie optional einen beliebigen Status, um die DMAs anzuzeigen, und klicken Sie dann neben dem Speicherort auf **[!UICONTROL Include]** oder **[!UICONTROL Exclude]**.</li><li>Postleitzahlen: Sie haben folgende Möglichkeiten:<ul><li>Klicken Sie auf die Registerkarte **[!UICONTROL Search postal code]**, wählen Sie das Land aus, geben Sie den vollständigen Stadtnamen oder die darin enthaltenen Buchstaben ein und drücken Sie dann die **[Eingabetaste]**, klicken Sie auf den richtigen Stadtnamen, um alle Postleitzahlen für die Stadt anzuzeigen, klicken Sie auf die richtige Postleitzahl und klicken Sie dann auf **[!UICONTROL Include]** oder **[!UICONTROL Exclude]**.</li><li>Klicken Sie auf die Registerkarte **[!UICONTROL Paste postal code]**, wählen Sie das Land aus, geben Sie durch Komma getrennte Werte ein oder fügen Sie sie ein und klicken Sie dann auf **[!UICONTROL Include All]** oder **[!UICONTROL Exclude All]**.</li></ul></li></ul> | Ja |

@@ -3,25 +3,31 @@ title: Spezifikationen hinzufügen
 description: Verweisen Sie auf allgemeine und publisherspezifische Anzeigenspezifikationen.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # Spezifikationen für unterstützte Anzeigentypen
 
 ## Videoanzeigen (Pre-Roll, CTV und universelle Videos)
@@ -76,11 +82,11 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 
 * **NBCUniversal:**
 
-   * [Digitales Video](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [Digitales Video](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Pfau](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Pfau](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount:** Siehe Paramount-[Anzeigenspezifikationen](https://www.paramount.com/digital-ads).
 
@@ -129,35 +135,35 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 #### Zusätzliche Publisher-Anforderungen
 
 * **[!DNL iHeartRadio]**
-   * Länge: 5, 15, 30 oder 60 Sekunden
-   * Dateityp: MP3
-   * Maximale Dateigröße: 320 Kbit/s
-   * Lautstärke: 44,1 kHz
+  * Länge: 5, 15, 30 oder 60 Sekunden
+  * Dateityp: MP3
+  * Maximale Dateigröße: 320 Kbit/s
+  * Lautstärke: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Länge: 15 oder 30 Sekunden
-   * Dateityp: MP4 (In-App), MP3 (Desktop)
-   * Maximale Dateigröße: 2,2 MB
+  * Länge: 15 oder 30 Sekunden
+  * Dateityp: MP4 (In-App), MP3 (Desktop)
+  * Maximale Dateigröße: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Länge: 6, 15 oder 30 Sekunden
-   * Dateityp: MP3
-   * Maximale Dateigröße: 5 MB
+  * Länge: 6, 15 oder 30 Sekunden
+  * Dateityp: MP3
+  * Maximale Dateigröße: 5 MB
 
 * **[!DNL Spotify]**
-   * Länge: Bis zu 30 Sekunden
-   * Dateityp: OGG
-   * Maximale Dateigröße: 500 MB
-   * Volumen: RMS auf -14 normalisiert; dBFS-Peak auf -0,2 dBFS normalisiert
+  * Länge: Bis zu 30 Sekunden
+  * Dateityp: OGG
+  * Maximale Dateigröße: 500 MB
+  * Volumen: RMS auf -14 normalisiert; dBFS-Peak auf -0,2 dBFS normalisiert
 
 * **[!DNL TargetSpot]**
-   * Länge: 15, 30 oder 60 Sekunden
-   * Dateityp: MP3
+  * Länge: 15, 30 oder 60 Sekunden
+  * Dateityp: MP3
 
 * **[!DNL TuneIn]**
-   * Länge: 10, 15 oder 30 Sekunden
-   * Dateityp: MP3, OGG
-   * Lautstärke: 44,1 kHz
+  * Länge: 10, 15 oder 30 Sekunden
+  * Dateityp: MP3, OGG
+  * Lautstärke: 44,1 kHz
 
 ### Voraussetzungen für Begleitbanner-Anzeigen (optional)
 
@@ -166,29 +172,29 @@ Sie können Tag-Blätter aus [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] und
 #### Zusätzliche Publisher-Anforderungen
 
 * **[!DNL iHeartRadio]:**
-   * Dateityp: JPEG, JPG, PNG, GIF, SWF, HTML
-   * Maximale Dateigröße: 2,2 MB
-   * Abmessungen: 300x250
+  * Dateityp: JPEG, JPG, PNG, GIF, SWF, HTML
+  * Maximale Dateigröße: 2,2 MB
+  * Abmessungen: 300x250
 
 * **[!DNL Pandora]:**
-   * Dateityp: JPEG, GIF
-   * Maximale Dateigröße: Größe: 100 KB
-   * Abmessungen: 300 x 250 (mobil oder Desktop) oder 500 x 500 (Desktop)
+  * Dateityp: JPEG, GIF
+  * Maximale Dateigröße: Größe: 100 KB
+  * Abmessungen: 300 x 250 (mobil oder Desktop) oder 500 x 500 (Desktop)
 
 * **[!DNL SoundCloud]:**
-   * Dateityp: Statischer JPG, PNG
-   * Maximale Dateigröße: Unter 400 KB
-   * Abmessungen: 1024x1024
+  * Dateityp: Statischer JPG, PNG
+  * Maximale Dateigröße: Unter 400 KB
+  * Abmessungen: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Dateityp: Statischer JPG, PNG
-   * Maximale Dateigröße: 200 KB
-   * Abmessungen: 300x250
+  * Dateityp: Statischer JPG, PNG
+  * Maximale Dateigröße: 200 KB
+  * Abmessungen: 300x250
 
 * **[!DNL TuneIn]:**
-   * Dateityp: JPEG, JPG, PNG, GIF, HTML
-   * Maximale Dateigröße: 2 MB
-   * Abmessungen: 300x250
+  * Dateityp: JPEG, JPG, PNG, GIF, HTML
+  * Maximale Dateigröße: 2 MB
+  * Abmessungen: 300x250
 
 ## Native Anzeigen
 

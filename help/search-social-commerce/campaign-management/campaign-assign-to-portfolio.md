@@ -3,20 +3,24 @@ title: Zuweisen von Kampagnen zu einem Portfolio
 description: Erfahren Sie, wie Sie zur Optimierung Kampagnen in Portfolios aufnehmen.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+TQID: 'https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # Zuweisen von Kampagnen zu einem Portfolio
 
 Durch die Zuweisung einer Kampagne zu einem optimierten Portfolio können Search, Social und Commerce Gebote, Kampagnenbudgets und Bid-Strategie-Ziele für Keywords und Anzeigen in der Kampagne optimieren. Sie können einem Portfolio Kampagnen in der [!UICONTROL Campaigns]-Ansicht zuweisen, wenn Sie das Portfolio erstellen, oder indem Sie die Einstellungen eines Portfolios bearbeiten.
@@ -65,29 +69,29 @@ Nicht alle Kampagnentypen und Werbenetzwerke können optimiert werden. Sehen Sie
 
    * (Um eine oder mehrere Kampagnen zum selben Portfolio hinzuzufügen) Gehen Sie wie folgt vor:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Kampagne.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-         >[!NOTE]
-         >
-         >Alle Kampagnen in einem Portfolio müssen dieselbe Währung verwenden.
+        >[!NOTE]
+        >
+        >Alle Kampagnen in einem Portfolio müssen dieselbe Währung verwenden.
 
-      1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+     1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und dann auf **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
 1. Portfolio auswählen:
 
    * So durchsuchen Sie Ihre Portfoliogruppen:
 
-      1. Erweitern Sie eine Portfoliogruppe in ihre untergeordneten Portfolios, indem Sie auf den [!UICONTROL Portfolio Group] klicken.
+     1. Erweitern Sie eine Portfoliogruppe in ihre untergeordneten Portfolios, indem Sie auf den [!UICONTROL Portfolio Group] klicken.
 
-      1. Portfolio auswählen.
+     1. Portfolio auswählen.
 
    * So suchen Sie nach einem Portfolio:
 
-      1. Geben Sie mindestens drei Buchstaben in das Eingabefeld ein.
+     1. Geben Sie mindestens drei Buchstaben in das Eingabefeld ein.
 
-      1. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Select]** neben dem Portfolionamen.
+     1. Klicken Sie in den Suchergebnissen auf **[!UICONTROL Select]** neben dem Portfolionamen.
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Additional Details]** und geben Sie optional einen Projektnamen und eine Beschreibung ein.
 

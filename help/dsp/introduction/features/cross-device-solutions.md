@@ -3,24 +3,30 @@ title: Geräteübergreifende Lösungen
 description: Weitere Informationen zu geräteübergreifenden Funktionen.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # Geräteübergreifende Lösungen
 
 Durch die Integration von Advertising DSP mit [!DNL LiveRamp] können Sie Ihre Zielgruppe auf alle bekannten Geräte einer Person erweitern, nicht nur auf die Geräte, die Ihre Marke verfolgt hat. Die Integration bietet auch eine Frequenzlimitierung und Attributionsmessung auf allen Geräten.
@@ -101,11 +107,11 @@ Wenn Sie die geräteübergreifende Attributionsmessung aktivieren möchten, wend
 
 Wenn ein Gerätediagramm für die Attributionsmessung aktiviert ist, enthält der [!UICONTROL Conversion] eine [!UICONTROL Cross-Device Breakout], mit der Sie bis zu drei separate Spalten für jede Konversionsmetrik einbeziehen können, darunter:
 
-* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (tp)]: Umfasst die Gesamtkonversionen (Personen insgesamt), die sowohl Konversionen auf demselben Gerät als auch geräteübergreifende Konversionen (falls zutreffend) umfasst.* Im Bericht wird &quot;[!UICONTROL (tp)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(tp)„).
+* &lt;*Conversion*>[!UICONTROL (tp)]: Umfasst die gesamten Konversionen (Personen insgesamt), einschließlich der Konversionen auf demselben Gerät und geräteübergreifender Konversionen (falls zutreffend). Im Bericht wird &quot;[!UICONTROL (tp)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(tp)„).
 
-* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (sd)]: (Optional) Umfasst nur Konversionen, bei denen im Konvertierungspfad nur ein einzelnes Gerät verfolgt wurde.* Im Bericht wird &quot;[!UICONTROL (sd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(sd)„).
+* &lt;*Conversion*>[!UICONTROL (sd)]: (Optional) Enthält nur Konversionen, bei denen im Konvertierungspfad nur ein einzelnes Gerät verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (sd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(sd)„).
 
-* „ph id=&#39;1&#39;/>Konversion *>[!UICONTROL (xd)]: (Optional) Umfasst nur Konversionen, bei denen mehr als ein Gerät im Konversionspfad verfolgt wurde.* Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(xd)„).
+* &lt;*Conversion*>[!UICONTROL (xd)]: (Optional) Enthält nur Konversionen, bei denen mehr als ein Gerät im Konversionspfad verfolgt wurde. Im Bericht wird &quot;[!UICONTROL (xd)]&quot; an den Namen der Konversionsmetrik, den Regeltyp und die Konversionstypen im Konversionspfad angehängt (z. B. „Responses(le)(tl)(xd)„).
 
 #### Interpretation des [!UICONTROL Conversion]
 

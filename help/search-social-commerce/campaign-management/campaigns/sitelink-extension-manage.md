@@ -3,22 +3,26 @@ title: Verwalten von freigegebenen Sitelinks
 description: Erfahren Sie, wie Sie freigegebene Sitelink-Erweiterungen erstellen und verwalten.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Verwalten von freigegebenen Sitelinks
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising]*
@@ -81,9 +85,9 @@ Weitere Richtlinien und Gründe für die Ablehnung von Sitelink finden Sie in de
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Zusätzlicher Text, der von der Suchmaschine unter dem Link-Text angezeigt werden kann. Um eine Beschreibung einzuschließen, geben Sie Werte für beide Beschreibungsfelder ein. Jedes Beschreibungsfeld kann bis zu 35 Einzelbyte- oder 17 Doppelbyte-Zeichen enthalten.
 
-**[!UICONTROL Start Date]:** (nur Kampagnen mit vorhandenen alten Sitelinks oder ohne Sitelinks; optional) Das erste Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Der Standardwert für neue Sitelinks ist der aktuelle Tag. Um ein Datum in der Zukunft anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/TT/JJJJ ein oder klicken Sie auf   und wählen Sie ein Datum.
+**[!UICONTROL Start Date]:** (nur Kampagnen mit vorhandenen alten Sitelinks oder ohne Sitelinks; optional) Das erste Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Der Standardwert für neue Sitelinks ist der aktuelle Tag. Um ein Datum in der Zukunft anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/TT/JJJJ ein oder klicken Sie auf ein Datum und wählen Sie es aus.
 
-**[!UICONTROL End Date]:** (Optional) Das letzte Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Standardmäßig kann der Sitelink unbegrenzt angezeigt werden. Um ein Enddatum festzulegen, geben Sie ein Datum im Format MM/TT/JJJJ oder M/TT/JJJJ ein oder klicken Sie auf   und wählen Sie ein Datum.
+**[!UICONTROL End Date]:** (Optional) Das letzte Datum, an dem der Sitelink mit Anzeigen in der Kampagne angezeigt werden kann. Standardmäßig kann der Sitelink unbegrenzt angezeigt werden. Um ein Enddatum anzugeben, geben Sie ein Datum im Format MM/TT/JJJJ oder M/TT/JJJJ ein oder klicken Sie auf ein Datum und wählen Sie es aus.
 
 **[!UICONTROL Mobile Preference]:** (Optional) Ermöglicht dem Netzwerk, zu versuchen, die Anzeigenerweiterung für Benutzer von Mobilgeräten anzuzeigen, anstatt für Desktop- oder Tablet-Benutzer. Standardmäßig ist die Option nicht aktiviert und die Anzeigenerweiterung wird auf jedem Gerätetyp angezeigt.
 

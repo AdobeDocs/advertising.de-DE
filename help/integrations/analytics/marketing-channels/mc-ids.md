@@ -1,27 +1,37 @@
 ---
-title: Verwenden von Adobe Advertising-IDs zum Erstellen  [!DNL Marketing Channels]  Regeln
-description: Erfahren Sie, wie Sie mit Adobe Advertising IDs Verarbeitungsregeln für  [!DNL Analytics Marketing Channels] erstellen.
+title: Verwenden von Adobe Advertising-IDs zum Erstellen von [!DNL Marketing Channels]
+description: Erfahren Sie, wie Sie mit Adobe Advertising IDs Verarbeitungsregeln für [!DNL Analytics Marketing Channels] erstellen.
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+TQID: 'https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1510'
 ht-degree: 0%
-
 ---
-
 # Verwenden von Adobe Advertising-IDs zum Erstellen [!DNL Marketing Channels] Verarbeitungsregeln
 
 *Werbetreibende mit einer Adobe Advertising-Adobe Analytics-Integration*
@@ -124,7 +134,7 @@ Manchmal werden Clickthroughs über die URL verfolgt (die Standardeinstellung). 
 
 ### CTV-Durchsichtsregel anzeigen
 
-Erstellen Sie eine Regel, bei der die AMO-ID auf [!DNL DSP] endet, um `"!ctv"` Durchsichten des verbundenen Fernsehens (CTV) zu verfolgen. Da der Besucher nicht auf die Anzeige geklickt hat, enthält das View-Through-Tracking nicht die `ef_id` oder `s_kwcid` in der URL, und die Regel erfordert nur eine Bedingung.
+Erstellen Sie eine Regel, bei der die AMO-ID auf `"!ctv"` endet, um [!DNL DSP] Durchsichten des verbundenen Fernsehens (CTV) zu verfolgen. Da der Besucher nicht auf die Anzeige geklickt hat, enthält das View-Through-Tracking nicht die `ef_id` oder `s_kwcid` in der URL, und die Regel erfordert nur eine Bedingung.
 
 ![Beispiel einer CTV ViewThrough-Regel für &#x200B;](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " AnzeigeBeispiel einer CTV ViewThrough-Regel für Anzeige")
 
@@ -136,7 +146,7 @@ Um einen ViewThrough-Kanal für das Display zu erstellen, erstellen Sie eine Reg
 
 ### Clickthrough-Regel-#2 anzeigen
 
-Legen Sie für die zweite ClickThrough-Regel der Anzeige **„AMO-ID beginnt mit „AC!“**. Diese zweite Regel dient zur Erfassung der Klick-/Kosten-/Impressionsdaten für den Anzeigekanal, der direkt von Adobe Advertising in [!DNL Analytics] importiert wird. Diese Daten werden einer AMO-ID zugeordnet, enthalten jedoch keine URL mit der `ef_id` Abfragezeichenfolge. Daher sind diese Treffer nicht mit einer AMO-EF-ID verbunden, die von der ersten ClickThrough-Regel der Anzeige erfasst wird.
+Legen Sie für die zweite ClickThrough-Regel der Anzeige **AMO ID beginnt mit „AC!“**. Diese zweite Regel dient zur Erfassung der Klick-/Kosten-/Impressionsdaten für den Anzeigekanal, der direkt von Adobe Advertising in [!DNL Analytics] importiert wird. Diese Daten werden einer AMO-ID zugeordnet, enthalten jedoch keine URL mit der `ef_id` Abfragezeichenfolge. Daher sind diese Treffer nicht mit einer AMO-EF-ID verbunden, die von der ersten ClickThrough-Regel der Anzeige erfasst wird.
 
 ![Beispiel einer zweiten ClickThrough-Anzeigeregel](/help/integrations/assets/a4adc-mc-rule-display-ct2.png "Beispiel einer zweiten ClickThrough-Anzeigeregel")
 

@@ -3,24 +3,27 @@ title: Optionen für die Verwaltung von Werbenetzwerkkampagnen
 description: Erfahren Sie mehr über die verschiedenen Methoden zum Verwalten von Daten für Ihre Werbenetzwerk-Kampagnen.
 exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE
+TQID: 'https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # Optionen für die Verwaltung von Werbenetzwerkkampagnen
 
 Sie können unterstützte Kampagnenstruktur- und Kampagnenkomponentendaten erstellen und bearbeiten
 für ein Ad-Network-Konto mit einer der folgenden Methoden:
 
-* Option 1: Geben Sie Daten für einzelne oder mehrere Komponenten direkt in die Listenansichten der Kampagnenkomponenten unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] ein. Sie können [Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), [Schlüsselwörter](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md), [Anzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md), [[!DNL Google Ads] Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md), [!DNL Google Ads] [!DNL Microsoft Advertising] und [&#128279;](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) [&#x200B; Sitelink-Bibliotheken](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md) und [!DNL Google Ads][&#x200B; Callout-Erweiterungsbibliotheken](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) und [&#128279;](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md) Zuweisungenlöschen. Sie können auch Shopping[&#x200B; (Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md), [[!DNL Google Ads] Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) und [[!DNL Google Ads] und [!DNL Microsoft Advertising] Zielgruppenziele](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md). Sie können auch mehrere Kampagnen, Anzeigengruppen, Keywords und Anzeigen gleichzeitig mit der Funktion [Kopieren und Einfügen“ erstellen und &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md). Diese Option ist nur für [!DNL Google Ads]-, [!DNL LY Ads]-, [!DNL Microsoft Advertising]-, [!DNL Yandex]- und bestehende [!DNL Baidu] verfügbar*.
+* Option 1: Geben Sie Daten für einzelne oder mehrere Komponenten direkt in die Listenansichten der Kampagnenkomponenten unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] ein. Sie können [Kampagnen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [Anzeigengruppen](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), [Schlüsselwörter](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md), [Anzeigen](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md), [[!DNL Google Ads] Platzierungen](/help/search-social-commerce/campaign-management/campaigns/placement-manage.md), [!DNL Google Ads] [!DNL Microsoft Advertising] und [&#128279;](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md) [&#x200B; Sitelink-Bibliotheken](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md) und [!DNL Google Ads]&#x200B;[&#x200B; Callout-Erweiterungsbibliotheken](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md) und [&#128279;](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md) Zuweisungenlöschen. Sie können auch Shopping[&#x200B; (Produktgruppen](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [dynamische Suchziele](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md), [[!DNL Google Ads] Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) und [[!DNL Google Ads] und [!DNL Microsoft Advertising] Zielgruppenziele](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md). Sie können auch mehrere Kampagnen, Anzeigengruppen, Keywords und Anzeigen gleichzeitig mit der Funktion [Kopieren und Einfügen“ erstellen und &#x200B;](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md). Diese Option ist nur für [!DNL Google Ads]-, [!DNL LY Ads]-, [!DNL Microsoft Advertising]-, [!DNL Yandex]- und bestehende [!DNL Baidu] verfügbar*.
 
 * Option 2: Laden Sie [Bulksheet-Dateien](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) hoch, die so viele Daten enthalten, wie Sie für ein Konto von [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] benötigen. Für [!DNL Google Ads]-, [!DNL Microsoft Advertising]-, [!DNL Naver]-, [!DNL Yandex]- und bestehende [!DNL Baidu] können Sie die Daten an das Werbenetzwerk senden. [!DNL Naver] können Sie die Daten für die Verwendung in Search, Social und Commerce hochladen, sie jedoch nicht in das Werbenetzwerk posten.
 

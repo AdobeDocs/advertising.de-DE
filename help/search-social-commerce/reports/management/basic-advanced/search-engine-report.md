@@ -3,20 +3,26 @@ title: '[!UICONTROL Search Engine Report]'
 description: Erfahren Sie mehr über die [!UICONTROL Search Engine Report].
 exl-id: d475861f-ec4b-47c8-be72-bccbe803e891
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/riJW1C5mL0WrmodXLIV-qxlaMLMOMD7eouC0AUFLLdA
+TQID: 'https://experienceleague.adobe.com/riJW1C5mL0WrmodXLIV-qxlaMLMOMD7eouC0AUFLLdA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 123
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Search Engine Report]
 
 Die [!UICONTROL Search Engine Report] enthält Kosten-, Klick- und (optional) Konversionsdaten für ein oder mehrere Werbenetzwerke. Standardmäßig enthalten die Daten eine Zeile für jedes anwendbare Anzeigennetzwerk für jede Zeiteinheit im angegebenen Datumsbereich. Die Zeilen sind in aufsteigender Reihenfolge angeordnet, zuerst nach Anzeigennetzwerk und dann standardmäßig nach dem Startdatum für die Zeiteinheit. Sie können optional detailliertere Informationen abrufen, z. B. separate Zeilen für jedes Konto, jede Kampagne, jede Bid-Strategie, jede Währung und jedes Gerät.

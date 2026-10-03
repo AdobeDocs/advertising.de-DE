@@ -1,25 +1,32 @@
 ---
 title: Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]
-description: Erfahren Sie, wie Sie einen privaten Deal akzeptieren, den Sie bereits mit einem Herausgeber über  [!DNL FreeWheel], [!DNL Google Authorized Buyers] ehemals bekannt als [!DNL AdX]), and [!DNL Magnite DV+] (ehemals)  [!DNL Rubicon] haben, indem Sie den Deal ID-Posteingang verwenden.
+description: Erfahren Sie, wie Sie mit dem Posteingang für Angebots-ID einen privaten Deal akzeptieren, den Sie bereits mit einem Herausgeber für [!DNL FreeWheel], [!DNL Google Authorized Buyers] (früher als [!DNL AdX] bezeichnet) und [!DNL Magnite DV+] (früher [!DNL Rubicon]) ausgehandelt haben.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-TQID: https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc
+TQID: 'https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # Akzeptieren eines Deals im [!UICONTROL Deal ID Inbox]
 
 *Benutzende in DSP-Konten, die nur SSP-Konten zugeordnet sind*
@@ -36,7 +43,7 @@ Verwenden Sie die [!UICONTROL Deal ID Inbox], um schnell ein privates Geschäft 
 
 1. (Optional) Um die Details des Angebots zu aktualisieren, klicken Sie auf **[!UICONTROL Refresh]**.
 
-   DSP aktualisiert alle Details des Angebots automatisch täglich um :30 Uhr EST. Außerdem werden alle [!DNL FreeWheel] Angebote und bestehenden Angebote ab [!DNL Google] und [!DNL Magnite DV+] stündlich aktualisiert.
+   DSP aktualisiert alle Details des Angebots automatisch täglich um 4:30 Uhr EST. Außerdem werden alle [!DNL FreeWheel] Angebote und bestehenden Angebote ab [!DNL Google] und [!DNL Magnite DV+] stündlich aktualisiert.
 
 1. (Wenn Sie den Deal zuvor ignoriert haben) Klicken Sie auf die Registerkarte **[!UICONTROL Ignored Deals]** .
 

@@ -3,21 +3,26 @@ title: Hilfe erhalten
 description: Erfahren Sie, wie Sie Online-Hilfe und Community-Ressourcen anzeigen und technischen Support erhalten.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+TQID: 'https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 # Hilfe erhalten
 
 Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzeroberfläche öffnen. Wenn die Online-Hilfe Ihre Fragen nicht beantwortet, kontaktieren Sie uns.
@@ -30,9 +35,9 @@ Sie können die Online-Hilfe von einer beliebigen Seite aus in der -Benutzerober
 
 * Um die vollständigen Hilfesätze zu öffnen, in denen die Verwendung aller Funktionen erklärt wird, klicken Sie auf die folgenden Links oben auf einer beliebigen Seite:
 
-   * ![help](/help/search-social-commerce/assets/help-main-menu.png "help") > **Hilfe zu Suche, Social und Commerce**.
+  * ![help](/help/search-social-commerce/assets/help-main-menu.png "help") > **Hilfe zu Suche, Social und Commerce**.
 
-   * ![help](/help/search-social-commerce/assets/help-main-menu.png "help") > **Search, Social, &amp; Commerce Optimization Guide**.
+  * ![help](/help/search-social-commerce/assets/help-main-menu.png "help") > **Search, Social, &amp; Commerce Optimization Guide**.
 
 <!--
 ## Ask the Adobe Advertising community

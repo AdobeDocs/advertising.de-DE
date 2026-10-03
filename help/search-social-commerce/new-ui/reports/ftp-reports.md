@@ -2,13 +2,17 @@
 title: (Neue Benutzeroberfläche) FTP-Zugriff auf Berichte
 description: Erfahren Sie, wie Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen können.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) FTP-Zugriff auf Berichte
 
 Optional können Sie Berichte an einem schreibgeschützten FTP-Speicherort empfangen, von dem aus Sie die Dateien für zusätzliche automatisierte Prozesse abrufen können (um beispielsweise die Daten mit einem anderen Programm zu analysieren). Alle Basisberichte außer [!UICONTROL Search Engine Account Report] und allen erweiterten Berichten können als komprimierte TSV-Dateien (die Standardeinstellung) oder CSV-Dateien mit der Dateierweiterung .ZIP an einen FTP-Speicherort gesendet werden. Alle TSV- oder CSV-Dateikopfzeilen sind enthalten und können nicht unterdrückt werden.
@@ -35,11 +39,11 @@ Um Berichte in Ihrem vorgesehenen FTP-Verzeichnis zu generieren, erstellen Sie [
 
    * (Optional) Eines der drei Systemdaten, wobei die folgende Syntax (einschließlich Klammern) unter Berücksichtigung der Groß-/Kleinschreibung verwendet wird:
 
-      * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, an denen der Bericht ausgeführt wurde. Da dies den genauen Zeitpunkt enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
+     * `[TODAY]` - Um das Datum, die Stunde und die Minute einzuschließen, an denen der Bericht ausgeführt wurde. Da dies den genauen Zeitpunkt enthält, kann dieselbe Vorlage mehrmals am Tag ausgeführt werden, ohne den vorherigen Bericht zu überschreiben.
 
-      * `[SDATE]` - Zum Einschließen des Startdatums des Datumsbereichs des Berichts.
+     * `[SDATE]` - Zum Einschließen des Startdatums des Datumsbereichs des Berichts.
 
-      * `[EDATE]` - Zum Einschließen des Enddatums des Datumsbereichs des Berichts.
+     * `[EDATE]` - Zum Einschließen des Enddatums des Datumsbereichs des Berichts.
 
    * (Optional) `[CSV]` (in Großbuchstaben und in eckigen Klammern), um Dateien im CSV-Format statt im Standard-TSV-Format zu erstellen.
 

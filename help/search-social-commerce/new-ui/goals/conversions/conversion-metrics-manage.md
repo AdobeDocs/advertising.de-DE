@@ -2,20 +2,25 @@
 title: Konversionsmetriken eines Werbetreibenden verwalten
 description: Erfahren Sie, wie Sie die Konversionsmetriken verwenden können, die Adobe Advertising für einen Advertiser verfolgt.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # (Neue Benutzeroberfläche) Verwalten der Konversionsmetriken eines Werbetreibenden
 
 *Beta-Funktion*
@@ -96,13 +101,13 @@ Ein vorhandener Anzeigename kann nicht gelöscht werden.
 
    * Gehen Sie wie folgt vor, um mehrere Metriken ein- oder auszublenden:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder Konversionsmetrik.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder Konversionsmetrik.
 
-         Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
+        Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Sichtbarkeit](/help/search-social-commerce/assets/visible.png "Sichtbarkeit"), um die Metriken anzuzeigen oder ![Sichtbarkeit von](/help/search-social-commerce/assets/visibility-off.png "Sichtbarkeit von") auszublenden.
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Sichtbarkeit](/help/search-social-commerce/assets/visible.png "Sichtbarkeit"), um die Metriken anzuzeigen oder ![Sichtbarkeit von](/help/search-social-commerce/assets/visibility-off.png "Sichtbarkeit von") auszublenden.
 
-      1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
+     1. (Um Metriken auszublenden) Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]** , um die Metriken auszublenden und sie auch aus allen abgeleiteten Metriken zu entfernen, die die Metriken enthalten.
 
 ## Verwalten der Konversionssichtbarkeit und der Quellberichte
 

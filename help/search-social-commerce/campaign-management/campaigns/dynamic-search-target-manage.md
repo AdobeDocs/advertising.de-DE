@@ -1,22 +1,26 @@
 ---
-title: Verwalten [!DNL Google Ads] dynamischer Suchziele
-description: Erfahren Sie, wie Sie dynamische  [!DNL Google Ads]  erstellen und verwalten.
+title: Verwalten [!DNL Google Ads] dynamischen Suchziele
+description: Erfahren Sie, wie Sie [!DNL Google Ads] dynamische Suchziele erstellen und verwalten.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # Verwalten [!DNL Google Ads] dynamischen Suchziele
 
 Nur *[!DNL Google Ads]Konten*
@@ -93,13 +97,13 @@ Sie können auch jede beliebige dynamische Zielgruppe löschen.
 
    * Gehen Sie wie folgt vor, um ein oder mehrere dynamische Ziele zu löschen:
 
-      1. Aktivieren Sie das Kontrollkästchen neben jeder dynamischen Zielgruppe, die Sie löschen möchten.
+     1. Aktivieren Sie das Kontrollkästchen neben jeder dynamischen Zielgruppe, die Sie löschen möchten.
 
      Tipps zum Auswählen mehrerer Zeilen finden Sie unter [Mehrere Zeilen auswählen](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).
 
-      1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
+     1. Klicken Sie in der Symbolleiste auf ![Mehr](/help/search-social-commerce/assets/more.png "Mehr") und wählen Sie **[!UICONTROL Delete]** aus.
 
-      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete]**.
 
 ## Einstellungen für dynamische Suche [!DNL Google Ads] {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ Sie können auch jede beliebige dynamische Zielgruppe löschen.
 
 * *\[Spezifische Ziele\]:* Gibt bis zu drei Kriterien für die indizierten Seiten an. Bei Auswahl dieser Option müssen Sie die Kriterien angeben, indem Sie Informationskategorien und bestimmte Werte angeben, für die Anzeigen ausgewählt werden sollen (z. B. „URL enthält shoes.example.com„). Um mehr als ein Kriterium anzugeben, klicken Sie auf **[!UICONTROL + And]**. Zu den Zielkriterien gehören:
 
-   * *[!UICONTROL Category]:* Anzeigen für indizierte Seiten mit einer bestimmten [!DNL Google Ads] Inhaltskategorie anzuzeigen.
+  * *[!UICONTROL Category]:* Anzeigen für indizierte Seiten mit einer bestimmten [!DNL Google Ads] Inhaltskategorie anzuzeigen.
 
-   * *[!UICONTROL URL]:* Anzeigen für indizierte Seiten mit einer bestimmten URL anzeigen, wobei der Wert an einer beliebigen Stelle in der URL enthalten sein kann.
+  * *[!UICONTROL URL]:* Anzeigen für indizierte Seiten mit einer bestimmten URL anzeigen, wobei der Wert an einer beliebigen Stelle in der URL enthalten sein kann.
 
-   * *[!UICONTROL Page Title]:* Anzeigen für indizierte Seiten mit bestimmtem Text im Seitentitel anzeigen.
+  * *[!UICONTROL Page Title]:* Anzeigen für indizierte Seiten mit bestimmtem Text im Seitentitel anzeigen.
 
-   * *[!UICONTROL Page Content]:* Anzeigen für indizierte Seiten mit bestimmtem Inhalt anzuzeigen.
+  * *[!UICONTROL Page Content]:* Anzeigen für indizierte Seiten mit bestimmtem Inhalt anzuzeigen.
 
 **Status** Der Status der Zieleinstellungen:
 

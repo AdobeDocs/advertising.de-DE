@@ -3,18 +3,21 @@ title: Optionale Tracking-Parameter für Klick-Tracking-URLs
 description: Erfahren Sie mehr über die optionalen Tracking-Parameter für Suche, Social und Commerce und fügen Sie netzwerkspezifische Tracking-Parameter hinzu, die Sie Ihren Klick-Tracking-URLs hinzufügen können.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Optionale Tracking-Parameter für Klick-Tracking-URLs
 
 Nur *[!DNL Google Ads]-, [!DNL LY Ads]-, [!DNL Microsoft Advertising]- und [!DNL Yandex] Konten*
@@ -25,11 +28,11 @@ Anstatt nur die standardmäßigen Tracking-Parameter für eine endgültige URL o
 
 * Sie können Adobe Advertising- und Anzeigennetzwerkspezifische Parameter an die Basis-URLs für das Konto/die Kampagne anhängen, um weitere Daten zu verfolgen:
 
-   * Adobe Advertising-Parameter sind semistatisch. Adobe Advertising fügt beim Hochladen der Basis-URL in das Werbenetzwerk einen Datenwert ein. Wenn Sie beispielsweise `campaign={ef_campaign}` an die Basis-URL anhängen, ersetzt Adobe Advertising `{ef_campaign}` durch den tatsächlichen Kampagnennamen (z. B. „Zurück zur Schule - Kampagne„), wenn die URL hochgeladen wird.
+  * Adobe Advertising-Parameter sind semistatisch. Adobe Advertising fügt beim Hochladen der Basis-URL in das Werbenetzwerk einen Datenwert ein. Wenn Sie beispielsweise `campaign={ef_campaign}` an die Basis-URL anhängen, ersetzt Adobe Advertising `{ef_campaign}` durch den tatsächlichen Kampagnennamen (z. B. „Zurück zur Schule - Kampagne„), wenn die URL hochgeladen wird.
 
-     **Hinweis:** Sobald die Werte eingefügt wurden, bleiben sie statisch. Wenn Sie ein Keyword oder eine Anzeige in eine andere Anzeigengruppe verschieben oder die Anzeigengruppe in eine andere Kampagne verschieben, wird der {ef_adgroup}- oder {ef_campaign}-Parameter nicht automatisch aktualisiert, sodass Sie manuell eine neue Ziel-URL oder Basis-URL (endgültige) generieren müssen.
+    **Hinweis:** Sobald die Werte eingefügt wurden, bleiben sie statisch. Wenn Sie ein Keyword oder eine Anzeige in eine andere Anzeigengruppe verschieben oder die Anzeigengruppe in eine andere Kampagne verschieben, wird der {ef_adgroup}- oder {ef_campaign}-Parameter nicht automatisch aktualisiert, sodass Sie manuell eine neue Ziel-URL oder Basis-URL (endgültige) generieren müssen.
 
-   * Anzeigennetzwerkspezifische Parameter sind dynamisch und die Suchmaschine fügt einen Datenwert ein, wenn der Benutzer auf eine Anzeige klickt. Wenn Sie beispielsweise `{param1}` an die Basis-URL anhängen, ersetzt das Anzeigennetzwerk sie durch den tatsächlichen {param1}, wenn ein Endbenutzer auf die Anzeige klickt.
+  * Anzeigennetzwerkspezifische Parameter sind dynamisch und die Suchmaschine fügt einen Datenwert ein, wenn der Benutzer auf eine Anzeige klickt. Wenn Sie beispielsweise `{param1}` an die Basis-URL anhängen, ersetzt das Anzeigennetzwerk sie durch den tatsächlichen {param1}, wenn ein Endbenutzer auf die Anzeige klickt.
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ Anstatt nur die standardmäßigen Tracking-Parameter für eine endgültige URL o
 >* Sonderzeichen in den angehängten Parametern werden in der generierten Ziel-URL oder Basis-URL (final) wie folgt ersetzt:
 >  * `=` wird durch `%3D` ersetzt
 >  * `?` wird durch `%26` ersetzt
->  * Ein leeres Leerzeichen wird durch `%2B` ersetzt
+>  * Ein leeres Leerzeichen wird durch ersetzt `%2B`
 >  Wenn Sie beispielsweise den Parameter `campaign={ef_campaign}` an die Basis-URL http://www.example.com für ein Keyword anhängen, wird die Basis-URL für dieses Keyword als `http://www.example.com/campaign%3D{ef_campaign}` generiert.
 
 ## Statische Tracking-Parameter für Suche, Social und Commerce

@@ -1,22 +1,26 @@
 ---
-title: 'Erforderliche Bulksheet-Daten für  [!DNL Microsoft Advertising] '
-description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für  [!DNL Microsoft Advertising]  Konten.
+title: Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising]
+description: Referenzieren Sie die erforderlichen Kopfzeilenfelder und Datenfelder in Bulksheets für [!DNL Microsoft Advertising] Konten.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Anhang - Erforderliche Bulksheet-Daten für [!DNL Microsoft Advertising]
 
 Um [!DNL Microsoft Advertising] Kampagnendaten stapelweise zu erstellen und zu aktualisieren, können Sie Bulksheet-Dateien für Search, Social und Commerce verwenden, die speziell für [!DNL Microsoft Advertising]-Konten formatiert sind. Sie können entweder a) [Bulksheet-Dateien für bestehende Konten &#x200B;](../bulksheet-download.md) dem erforderlichen Dateiformat generieren oder b) sie manuell erstellen (siehe &quot;[Unterstützte Bulksheet-](bulksheet-file-formats.md)&quot; für allgemeine Informationen über die unterstützten Dateiformate).
@@ -88,7 +92,7 @@ Die für Kontoentitäten relevanten Datenfelder finden Sie unter &quot;[Felder, 
 | [!UICONTROL Languages] | Die Zielsprache für Anzeigen in der Anzeigengruppe: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] oder [!UICONTROL Swedish]. Der Standardwert für neue Kampagnen lautet [!UICONTROL English].<br><br>Diese Einstellung legt die Länder und Regionen fest, in denen Ihre Anzeige angezeigt werden kann. Achten Sie darauf, eine Sprache auszuwählen, die mit den Standortzielen der Kampagne kompatibel ist. |
 | [!UICONTROL Budget Type] | Unabhängig davon, ob das Budget <i>[!UICONTROL Daily]</i> ist (Standard) oder <i>[!UICONTROL Monthly]</i>.<br><br>Hinweis: Wenn Sie die Kampagne einem optimierten Portfolio zuweisen, wird dieser Wert automatisch auf [!UICONTROL Daily] gesetzt. |
 | [!UICONTROL Device] | Ein Gerätetyp, für den Angebotsanpassungen auf Kampagnen- oder Anzeigengruppenebene vorgenommen werden: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> oder <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | Die Angebotsanpassung für einen bestimmten Zieltyp. Wenn beispielsweise das Gebot auf Keyword-Ebene 1 USD und die Gebotsanpassung für Smartphones 50 % beträgt, beträgt das Smartphone-Gebot 1,50 USD. Standardmäßig werden alle Ziele auf Keyword-Ebene geboten. Gültige Prozentsätze können Folgendes umfassen:<ul><li>Smartphones und Tablets: -100 (nicht zu bieten für den Gerätetyp) und von -90 bis 900</li><li>Desktop: von 0 bis 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | Die Angebotsanpassung für einen bestimmten Zieltyp. Wenn das Gebot auf Keyword-Ebene beispielsweise 1 USD und die Gebotsanpassung für Smartphones 50 % beträgt, beträgt das Smartphone-Gebot 1,50 USD. Standardmäßig werden alle Ziele auf Keyword-Ebene geboten. Gültige Prozentsätze können Folgendes umfassen:<ul><li>Smartphones und Tablets: -100 (nicht zu bieten für den Gerätetyp) und von -90 bis 900</li><li>Desktop: von 0 bis 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Die Gerätetypen, auf denen die Anzeige oder der Sitelink angezeigt werden soll: <i>[!UICONTROL All]</i> (Standard) oder <i>[!UICONTROL Mobile]</i>. Wenn „Mobil“ angegeben ist, versucht das Netzwerk, die Anzeige oder den Sitelink für Benutzer von Mobilgeräten anzuzeigen, anstatt für Desktop- oder Tablet-Benutzer. Andernfalls zeigt das Netzwerk die Anzeige oder den Sitelink auf jedem Gerätetyp an. <b>Hinweis:</b> Das Netzwerk garantiert nicht, dass es die Anzeige auf dem bevorzugten Gerätetyp anzeigt. |
 | [!UICONTROL Param2] | Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL des Keywords oder der Titel, die Beschreibung oder die Basis-URL der Anzeige die `{Param2}` dynamische Ersatzzeichenfolge enthält. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (z. B. können Titel 1 und Titel 2 zusammen maximal 76 Zeichen lang sein). Um den vorhandenen Wert zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
 | [!UICONTROL Param3] | Die Zeichenfolge, die als Ersatzwert verwendet werden soll, wenn die Basis-URL des Keywords oder der Titel, die Beschreibung oder die Basis-URL der Anzeige die `{Param3}` dynamische Ersatzzeichenfolge enthält. Die maximale Länge beträgt 70 Zeichen. Beachten Sie jedoch die maximale Länge der Werbeelemente, in denen Sie sie verwenden (z. B. können Titel 1 und Titel 2 zusammen maximal 76 Zeichen lang sein). Um den vorhandenen Wert zu löschen, verwenden Sie den `[delete]` (einschließlich der Klammern). |
