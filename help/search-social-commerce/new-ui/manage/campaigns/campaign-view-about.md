@@ -52,7 +52,7 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 * [Zuweisen von Einschränkungen zu Kampagnen und Aufheben der Zuweisung von Einschränkungen zu Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Kampagnen
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Kampagnen
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 

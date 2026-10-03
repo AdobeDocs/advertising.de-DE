@@ -43,7 +43,7 @@ Wenn ein Advertiser sowohl Online- als auch Offline-Transaktionen hat, kann Adob
 
 1. Der technische Dienst analysiert die Konversionsdaten in den hochgeladenen Dateien und lädt die Daten dann in Adobe Advertising hoch. Adobe Advertising vergleicht die Daten dann mit einzelnen Keywords, Anzeigen und Platzierungen und erstellt für jedes Element eine Umsatzprognose.
 
-1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; ](/help/search-social-commerce/glossary.md#o-p).
+1. Technical Services validiert die verarbeiteten Daten anhand der Feed-Daten und prüft auf „verwaiste [&quot; &#x200B;](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

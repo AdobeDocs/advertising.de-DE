@@ -106,13 +106,13 @@ Für [!DNL Google Ads]- und [!DNL Google Microsoft Advertising]-Kampagnen in den
 
 Ihr Adobe Advertising-Team hilft Ihnen bei der Identifizierung und Zuordnung der Ereignisse, die für die Paid-Media-Leistung in Adobe Advertising relevant sind.
 
-Eine Liste der verfügbaren [ finden Sie unter &quot;](analytics-data-in-advertising.md) in Adobe Advertising&quot;.
+Eine Liste der verfügbaren [&#x200B; finden Sie unter &quot;](analytics-data-in-advertising.md) in Adobe Advertising&quot;.
 
 ### Analytics-Segmente für Site-Retargeting
 
 Adobe Advertising kann mithilfe der nativen Integration von CX Enterprise Audiences zwischen [!DNL Analytics] und CX Enterprise [!DNL Analytics] Segmente für Remarketing-Zwecke für [!DNL Creative]-, [!DNL DSP]- und [!DNL Search, Social, & Commerce] aufnehmen.
 
-Um auf die [!DNL Analytics] Segmente zuzugreifen, muss ein Advertiser-Konto den [Experience Cloud ID-Service) ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Wenn der ID-Service aktiviert ist, werden alle CX Enterprise-Segmente innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden. CX Enterprise-Segmente umfassen Segmente, die in [!DNL Analytics] erstellt und in CX Enterprise veröffentlicht wurden, Segmente, die in Adobe Audience Manager erstellt wurden, Segmente, die in CX Enterprise mithilfe des [!DNL People core service] erstellt wurden, und Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet wurden.
+Um auf die [!DNL Analytics] Segmente zuzugreifen, muss ein Advertiser-Konto den [Experience Cloud ID-Service) &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html). Wenn der ID-Service aktiviert ist, werden alle CX Enterprise-Segmente innerhalb von Adobe Advertising verfügbar, sobald sie verarbeitet werden. CX Enterprise-Segmente umfassen Segmente, die in [!DNL Analytics] erstellt und in CX Enterprise veröffentlicht wurden, Segmente, die in Adobe Audience Manager erstellt wurden, Segmente, die in CX Enterprise mithilfe des [!DNL People core service] erstellt wurden, und Segmente, die in Adobe Experience Platform erstellt und über Audience Manager an Adobe Advertising gesendet wurden.
 
 [!DNL Analytics] Segmente sind innerhalb von 24 Stunden verfügbar und werden täglich aktualisiert.
 

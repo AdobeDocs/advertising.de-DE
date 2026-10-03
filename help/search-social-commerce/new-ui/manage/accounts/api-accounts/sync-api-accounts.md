@@ -30,7 +30,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Update]&quot; generiert und
 
 >[!NOTE]
 >
->Jedes Mal, [ Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
+>Jedes Mal, [&#x200B; Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
 
 ## Alle Kampagnen in Anzeigennetzwerkkonten synchronisieren
 

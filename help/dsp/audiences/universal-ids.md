@@ -40,7 +40,7 @@ DSP unterstützt personenbasierte, universelle IDs für Cookie-loses Targeting v
 
 * Sie können Ihre authentifizierten [[!DNL LiveRamp] [!DNL RampIDs]] manuell über das Dashboard [!DNL LiveRamp] [!DNL Connect] direkt an DSP senden. Siehe &quot;[Manueller Import authentifizierter Segmente aus [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[ zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
+* DSP kann Ihre in Ihrer Kundendatenplattform (CDP) erstellten First-Party-Segmente aufnehmen und in [!DNL LiveRamp]-[!DNL RampIDs] und [!DNL Unified ID 2.0 (UID2.0)]-IDs konvertieren. Weitere Informationen zu den unterstützten Kundendatenplattformen und Typen von Benutzerkennung, den verfügbaren Funktionen für jeden unterstützten universellen ID-Typ und die zugehörigen Workflows finden Sie unter &quot;[&#x200B; zu Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md).
 
 * Werbetreibende in Australien können First-Party-Segmente, die [!DNL AdFixus] universelle IDs enthalten, mithilfe einer [!UICONTROL AdFixus ID] Zielgruppenquelle importieren. DSP konvertiert nicht zwischen [!DNL AdFixus] IDs und anderen universellen ID-Typen. Siehe [Importieren von Erstanbietersegmenten aus [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md).“
 

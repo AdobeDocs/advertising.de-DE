@@ -88,7 +88,7 @@ Sie können Anfragen zum Ausstieg aus dem Verkauf von Produkten an Verbraucher �
    >
    >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens - einschließlich [!DNL DSP]-Konten oder Werbekunden, [!DNL Search, Social, & Commerce]-Konten sowie [!DNL Creative]- oder [!DNL DCO]-Konten - mit Ihrer CX Enterprise-Organisations-ID verknüpft sind.
 
-1. Verwenden Sie die Adobe Experience Platform Privacy Service [API, um im Namen von Verbrauchern Opt-out-Kaufanfragen an Adobe Advertising ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) senden und den Status vorhandener Anfragen zu überprüfen.
+1. Verwenden Sie die Adobe Experience Platform Privacy Service [API, um im Namen von Verbrauchern Opt-out-Kaufanfragen an Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) senden und den Status vorhandener Anfragen zu überprüfen.
 
    Ein Beispiel für eine Opt-out-Anfrage finden Sie im Anhang unten.
 

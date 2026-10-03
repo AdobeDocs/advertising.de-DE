@@ -80,7 +80,7 @@ Für jede Platzierung können Sie [eine (Detailansicht-[!UICONTROL Inspector]) �
 
 1. (Optional) [Ändern Sie die Spaltenansicht](campaign-data-views-manage.md#column-view-change) nach Bedarf, um die erforderlichen Metriken anzuzeigen.
 
-1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![ oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
+1. (Optional) Um die Daten auf einer beliebigen Registerkarte zu exportieren, klicken ![&#x200B; oben rechts auf Mehr](/help/search-social-commerce/assets/more.png "Mehr") und anschließend auf **[!UICONTROL Export]**.
 
    Die Daten werden im Standard-Download-Ordner Ihres Browsers als Bericht im XLSM-Format gespeichert.
 

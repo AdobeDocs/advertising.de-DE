@@ -53,5 +53,5 @@ Sie können auch alle aktiven oder pausierten Anzeigen löschen. Gelöschte Anze
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Über die [!UICONTROL Ads] Ansicht](ad-view-about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Über die [!UICONTROL Ads] Ansicht](ad-view-about.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ads] Ansicht](ad-view-report.md)
