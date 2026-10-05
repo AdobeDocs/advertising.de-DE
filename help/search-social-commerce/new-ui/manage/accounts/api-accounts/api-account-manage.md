@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über eine API-Verbindung
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Beta-Funktion*
-
-<!-- Move out info about Naver into a separate page -->
-
 Im Folgenden finden Sie Anweisungen zum Verwalten von Anzeigennetzwerkkonten, die über die API des Anzeigennetzwerks mit Search, Social und Commerce synchronisiert werden.
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ Um die Synchronisierung eines Kontos zu aktivieren, müssen Sie einen entspreche
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu erstellen, gehen Sie zur Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Account]**.
 
 1. Klicken Sie auf den Namen des Werbenetzwerks und dann auf **[!UICONTROL Next]**.
 
-1. (Alle Werbenetzwerke außer [!DNL Yandex]) Melden Sie sich mit den Anmeldeinformationen des Werbetreibenden beim Werbenetzwerk an. Wählen Sie die Option „Konto-Tracking für dieses Konto“ aus. Klicken Sie dann oben rechts auf **[!UICONTROL Next]**.
+1. (Alle Werbenetzwerke außer [!DNL ChatGPT Ads] und [!DNL Yandex]) Melden Sie sich mit den Anmeldeinformationen des Werbetreibenden beim Werbenetzwerk an. Wählen Sie die Option „Konto-Tracking für dieses Konto“ aus. Klicken Sie dann oben rechts auf **[!UICONTROL Next]**.
 
 1. Geben Sie die [Kontoeinstellungen](#account-settings-api) auf jeder verfügbaren Registerkarte an.
 
@@ -58,7 +53,7 @@ Um die Kontoeinstellungen erneut zu authentifizieren, um die Verbindung zu aktua
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu bearbeiten, gehen Sie auf die Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
@@ -76,11 +71,13 @@ Um die Kontoeinstellungen erneut zu authentifizieren, um die Verbindung zu aktua
 
 ## Erneutes Authentifizieren eines Werbenetzwerkkontos {#reauthenticate}
 
+*Nicht anwendbar auf [!DNL ChatGPT Ads] Konten*
+
 Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für das Konto zu aktualisieren, müssen Sie das Konto erneut authentifizieren.
 
 1. (Wenn Sie in einem anderen Konto für dasselbe Werbenetzwerk in derselben Browser-Anwendung angemeldet sind) Melden Sie sich von einem anderen Konto als dem des Werbetreibenden ab.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für 
 
 Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und Commerce Kampagnendaten mit dem Konto (falls unterstützt) und pusht automatisierte Gebote und/oder Kampagnenbudgets für Kampagnen in Portfolios. Wenn Sie ein Anzeigennetzwerkkonto deaktivieren, stoppt Search, Social und Commerce alle Aktivitäten im Konto. Daten, die erfasst wurden, während das Konto aktiv war, werden weiterhin gespeichert, aber die Kampagnenverwaltungsansichten und -berichte enthalten keine Daten für den Zeitraum, in dem das Konto deaktiviert ist. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto fortzusetzen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -141,7 +138,7 @@ Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werde
 
 **[!DNL [Ad Network] Accounts]:** (sichtbar, während Sie ein Konto erstellen) Das zu synchronisierende Ad-Netzwerk-Konto.
 
-**[Anmeldedetails]:** (nur Yandex-Konten) Die zu verwendenden Kontoanmeldeinformationen:
+**[Anmeldedetails]:** (nur [!DNL Yandex] Konten) Die zu verwendenden Kontoanmeldeinformationen:
 
 * **[!UICONTROL Login]:** Der Anmeldename oder die ID, um den API-Zugriff auf das Konto zu aktivieren.
 
@@ -154,12 +151,6 @@ Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werde
 * **[!UICONTROL Purse Campaign ID]:** (nur [!DNL Yandex] Konten mit deaktivierter Einstellung „Freigegebenes Konto“; optional) Die numerische ID für die Kampagne, mit der alle Anzeigenkampagnen im Konto bezahlt werden.
 
 * **[!UICONTROL Finance Token]:** (Nur [!DNL Yandex] Konten mit deaktivierter Einstellung „Freigegebenes Konto“; optional) Das Entwickler-Token, das für finanzbezogene API-Aufrufe verwendet wird, z. B. um Geld aus der Geldbörse zwischen den Kampagnen des Werbetreibenden neu zuzuweisen, wie es für die Portfoliooptimierung erforderlich ist.
-
-**[!UICONTROL Network Account ID]:** (Alle Werbenetzwerke außer [!DNL Yandex] Die vom Werbenetzwerk zugewiesene Konto-ID.
-
->[!NOTE]
->
->Ad-Network-Manager-Konten werden hier nicht unterstützt. Um ein Manager-Konto für [!DNL Microsoft Advertising] zu identifizieren, verwenden Sie das Feld Master-Konto-ID bzw. MCC-Konto . Um [Anmeldeinformationen für ein [!DNL Google Ads] Manager-Konto einzurichten](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), gehen Sie zu [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (Schreibgeschützt) Die Abkürzung für die für das Konto verwendete Währung. Dieser Wert wird nach dem Speichern des Datensatzes automatisch mit der Währung ausgefüllt, die für das Konto im Werbenetzwerk konfiguriert wurde.
 
@@ -193,7 +184,7 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 >* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie die Tracking-URLs für das Konto neu generieren.
 >* Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
-**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
+**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
 Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Der automatische Upload-Prozess handhabt zukünftige Änderungen.
 
@@ -246,10 +237,10 @@ Diese Einstellungen sind für Werbetreibende mit einer -[[!DNL Adobe Analytics f
 
 Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Server-seitige AMO-ID-Funktion für das Konto konfiguriert sein oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; aktiviert sein. Darüber hinaus muss das [!DNL Analytics] des Werbetreibenden so konfiguriert sein, dass es Daten von Search, Social und Commerce empfängt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter &#x200B;](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
+**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter ](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
 
 >[!MORELIKETHIS]
 >
 >* [Über Werbenetzwerkkonten](../ad-network-account-about.md)
->* [Konten des Händlerzentrums verwalten](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [Konten des Händlerzentrums verwalten](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [Aktualisieren des s_kwcid-Trackingcodes für ein [!DNL Google Ads] Konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
