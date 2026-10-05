@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Ana
 
 * einer der folgenden Schritte:
   * Adobe Experience Platform Web SDK: `alloy.js`
-  * Experience Cloud Identity Service: `visitorAPI.js` Version 2.0 oder höher
+  * Adobe-Besucher-ID-Service: `visitorAPI.js` Version 2.0 oder höher
 * Jede Version von Adobe Analytics (einschließlich [!DNL Prime], [!DNL Premium] oder [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` Version 2.1 oder höher
 * (Advertising DSP-Kunden) Ein [Advertising DSP JavaScript-Snippet](javascript.md) das auf Ihren Web-Seiten bereitgestellt wird, um Durchsichtsbesuche zu verfolgen.
@@ -59,7 +59,7 @@ Lesen Sie die folgenden Informationen, bevor Sie Adobe Advertising mit Adobe Ana
 
 ## Voraussetzungen für die Freigabe von Analytics-Segmenten mit Adobe Advertising
 
-* Experience Cloud Identity Service: `visitorAPI.js` Version 2.1 oder höher
+* Adobe-Besucher-ID-Service: `visitorAPI.js` Version 2.1 oder höher
 * Adobe Analytics: `appMeasurement.js` Version 1.8 oder höher
 
 ## Anforderungen für das Reporting [!DNL Analytics] Daten in Adobe Advertising
@@ -69,7 +69,7 @@ Stellen Sie dem Adobe Advertising-Implementierungsteam Folgendes bereit:
 * Die [!DNL Analytics] Report Suite-ID, die für das Reporting über Paid-Media-Aktivitäten und für den Feed der Site-Aktivität für die Optimierung und Berichterstellung in Adobe Advertising verwendet werden soll
 * Die CX Enterprise-Organisations-ID (Organisations-ID) des Unternehmens.
 
-Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de).
+Beide IDs finden Sie auf der Registerkarte [Zusammenfassung“ der Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Zusammenfassungsbildschirm des Experience Platform-Debuggers](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -96,7 +96,7 @@ Die [!DNL Analytics for Advertising] JavaScript verwendet diese Einstellungen, u
 
 >[!NOTE]
 >
->Um Daten für einen anderen Zeitrahmen zu segmentieren, können Sie [benutzerdefinierte Segmente einrichten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de) mit verschiedenen Lookback-Fenstern in Analysis Workspace.
+>Um Daten für einen anderen Zeitrahmen zu segmentieren, können Sie [benutzerdefinierte Segmente einrichten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) mit verschiedenen Lookback-Fenstern in Analysis Workspace.
 
 ## Unterstützte Anzeigenumgebungen
 
@@ -139,7 +139,7 @@ Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Für eine präzise Datenintegration müssen alle Adobe Advertising-Aufrufe, die von einer [!DNL Analytics for Advertising]-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, über einen entsprechenden [!DNL Analytics]-Treffer verfügen, der dieselbe zusätzliche ID aufweist.
 
-Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=de) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
+Stellen Sie bei der Fehlerbehebung in [!DNL Analytics] sicher, dass die zusätzliche ID für [!DNL Analytics] Treffer vorhanden ist. In der [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) wird diese ID auf der Registerkarte &quot;Adobe Advertising&quot; als `sdid` angezeigt.
 
 >[!NOTE]
 >
