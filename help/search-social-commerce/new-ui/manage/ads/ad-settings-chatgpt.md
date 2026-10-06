@@ -1,6 +1,6 @@
 ---
-title: '[!DNL ChatGPT] Anzeigeneinstellungen'
-description: Verweisen Sie auf die Einstellungen für [!DNL ChatGPT] Anzeigen.
+title: Anzeigeneinstellungen der [!DNL ChatGPT]-Grafikkarte
+description: Verweisen Sie auf die Einstellungen für [!DNL ChatGPT] Chat-Kartenanzeigen.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -14,12 +14,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 0%
 ---
-# [!DNL ChatGPT Ads] Anzeigeneinstellungen
+# Einstellungen für [!DNL ChatGPT Ads]-Chat-Karte
 
 *Anzeigen in [!DNL ChatGPT] sind eine Pilotfunktion von[!DNL OpenAI]*
 

@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Um die Synchronisierung eines Kontos zu aktivieren, müssen Sie einen entspreche
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu erstellen, gehen Sie zur Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Account]**.
 
@@ -53,7 +53,7 @@ Um die Kontoeinstellungen erneut zu authentifizieren, um die Verbindung zu aktua
 >
 >Um ein tatsächliches Konto im Werbenetzwerk zu bearbeiten, gehen Sie auf die Website des Werbenetzwerks.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Wählen Sie das Konto auf eine der folgenden Arten aus:
 
@@ -77,7 +77,7 @@ Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für 
 
 1. (Wenn Sie in einem anderen Konto für dasselbe Werbenetzwerk in derselben Browser-Anwendung angemeldet sind) Melden Sie sich von einem anderen Konto als dem des Werbetreibenden ab.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für 
 
 Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und Commerce Kampagnendaten mit dem Konto (falls unterstützt) und pusht automatisierte Gebote und/oder Kampagnenbudgets für Kampagnen in Portfolios. Wenn Sie ein Anzeigennetzwerkkonto deaktivieren, stoppt Search, Social und Commerce alle Aktivitäten im Konto. Daten, die erfasst wurden, während das Konto aktiv war, werden weiterhin gespeichert, aber die Kampagnenverwaltungsansichten und -berichte enthalten keine Daten für den Zeitraum, in dem das Konto deaktiviert ist. Sie können das Konto später erneut aktivieren, um die Aktivität mit dem Konto fortzusetzen.
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -184,7 +184,7 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 >* Wenn Sie von [!UICONTROL Standard] zu [!UICONTROL Token] oder umgekehrt wechseln, müssen Sie die Tracking-URLs für das Konto neu generieren.
 >* Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
-**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
+**[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
 Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Der automatische Upload-Prozess handhabt zukünftige Änderungen.
 
@@ -237,7 +237,7 @@ Diese Einstellungen sind für Werbetreibende mit einer -[[!DNL Adobe Analytics f
 
 Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Server-seitige AMO-ID-Funktion für das Konto konfiguriert sein oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; aktiviert sein. Darüber hinaus muss das [!DNL Analytics] des Werbetreibenden so konfiguriert sein, dass es Daten von Search, Social und Commerce empfängt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter &#x200B;](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
+**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter ](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
 
 >[!MORELIKETHIS]
 >
