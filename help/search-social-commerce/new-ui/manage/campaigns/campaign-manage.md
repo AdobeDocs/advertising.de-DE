@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2304'
 ht-degree: 0%
 ---
 # Verwalten von Kampagnen
@@ -72,7 +72,7 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 1. Klicken Sie auf **[!UICONTROL Create Campaign]**.
 
-1. Geben Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) an.
+1. Geben Sie die Kampagneneinstellungen [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) oder [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) an.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -108,7 +108,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
    * Aktivieren Sie das Kontrollkästchen neben der Kampagne. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -124,7 +124,7 @@ Schnelles Ändern des Status einer Kampagne, ohne die vollständigen Kampagnenei
 
 Sie können jede aktive Kampagne in einem unterstützten Werbenetzwerk anhalten, um die Angebotsabgabe dafür zu deaktivieren. Sie können die Gebotsabgabe später fortsetzen, indem Sie den Status wieder in Aktiv ändern.
 
-Sie können auch jede aktive oder angehaltene Kampagne löschen. Gelöschte Kampagnen werden aus dem Werbenetzwerk gelöscht. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
+Sie können auch alle aktiven oder pausierten Kampagnen löschen (in [!DNL ChatGPT Ads Manager] als „Archiv“ bezeichnet). Gelöschte oder archivierte Kampagnen werden aus dem Werbenetzwerk gelöscht oder archiviert. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
 
 ### Aktivieren oder Anhalten einer Kampagne
 
@@ -138,7 +138,7 @@ Sie können auch jede aktive oder angehaltene Kampagne löschen. Gelöschte Kamp
 
    * Um eine aktive Kampagne anzuhalten, wählen Sie **[!UICONTROL Paused]** aus.
 
-### Löschen einer Kampagne
+### Löschen oder Archivieren einer Kampagne
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -210,6 +210,8 @@ Weitere Informationen zur Optimierung finden Sie im Optimierungshandbuch , das b
 
 ## Zuweisungen von Angebotsbegrenzungen für Kampagnen verwalten {#campaign-constraints}
 
+*Nicht verfügbar für[!DNL ChatGPT Ads]*
+
 Jede Entität kann nur eine Einschränkung aufweisen. Beschränkungen werden von untergeordneten Entitäten übernommen, sodass Sie untergeordneten Entitäten keine Beschränkungen zuweisen müssen, es sei denn, Sie möchten die übernommenen Werte überschreiben.
 
 Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit den Kontokomponenten und allen untergeordneten Komponenten entfernt, und es sind keine Berichtsdaten für die Einschränkung mehr für diese Komponenten verfügbar. Durch Aufheben der Zuweisung einer Beschränkung werden weder die Beschränkung noch die Kontokomponenten selbst gelöscht.
@@ -279,6 +281,8 @@ Eine einzelne Einschränkung kann einer oder mehreren Kampagnen zugewiesen werde
 1. Wählen Sie im Bestätigungsdialogfeld **[!UICONTROL Yes, Unassign]** aus.
 
 ## Zielgruppen-Einschränkungszuweisungen für Kampagnen verwalten {#campaign-target-constraints}
+
+*Nicht verfügbar für[!DNL ChatGPT Ads]*
 
 ### Weisen Sie ausgewählten Kampagnen in der neuen [!UICONTROL Campaigns] eine Zielgruppeneinschränkung zu
 

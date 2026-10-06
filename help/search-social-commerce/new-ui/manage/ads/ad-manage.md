@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # Anzeigen verwalten
@@ -66,6 +66,8 @@ Sie können unterstützte Anzeigentypen für Anzeigengruppen in einem synchronis
   >[!NOTE]
   >
   >Sie können derzeit keine Anzeigen auf Anrufbasis erstellen oder bearbeiten. Sie können eine bestehende Anzeige auf der Basis eines reinen Aufrufs anzeigen, ihren Status ändern oder löschen.
+
+* **Konversative Anzeigen** für eine Anzeigengruppe in einer [!DNL ChatGPT Ads] Kampagne. Konversationsanzeigen werden neben KI-Chat-Konversionen angezeigt.
 
 * **Erweiterte dynamische Suchanzeigen** (jetzt in den Werbenetzwerken nur noch „dynamische Suchanzeigen“ genannt) für [!DNL Google Ads] und [!DNL Microsoft Advertising] dynamische Suchanzeigengruppen in Suchkampagnen. Dynamische Suchanzeigen verwenden Inhalte von Ihrer Website anstelle von Keywords, um zu entscheiden, wann Ihre Anzeigen angezeigt werden sollen. Das Anzeigennetzwerk generiert dynamisch die Überschrift, wählt die Landingpage-URL und die Anzeige-URL aus und generiert automatisch die endgültige URL.
 
@@ -117,7 +119,7 @@ Sie ist jedoch nicht für [!DNL Google Ads] dynamische Suchanzeige (DSA), die ma
 
    Weitere Informationen zu den verfügbaren Anzeigentypen finden Sie unter &quot;[Verfügbare Anzeigentypen](#ad-types).
 
-1. Geben Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (in Google Ads nur als „dynamische Suchanzeige“ bezeichnet), [Google Ads-Responsive-Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive-Suchanzeige](ad-settings-microsoft-rsa.md) oder [Yandex-](ad-settings-yandex-text.md)--Einstellungen an.
+1. Geben Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] ad](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (in Google Ads nur als „dynamische Suchanzeige“ bezeichnet), [Google Ads-responsive Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [&#128279;](ad-settings-yandex-text.md)Einstellungen.
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ Schnelles Umbenennen einer Anzeige ohne Öffnen der vollständigen Anzeigeneinst
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads nur „dynamische Suchanzeige“ genannt), [Google Ads-Responsive-Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive-Suchanzeige](ad-settings-microsoft-rsa.md) oder [Yandex-](ad-settings-yandex-text.md)-Einstellungen.
+1. Bearbeiten Sie die restlichen Einstellungen für eine [Baidu-Textanzeige](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] ad](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google Ads-erweiterte dynamische Suchanzeige](ad-settings-google-dsa.md) (jetzt in Google Ads nur „dynamische Suchanzeige“ genannt), [Google Ads-Responsive Suchanzeige](ad-settings-google-rsa.md), [Microsoft Advertising-erweiterte dynamische Suchanzeige](ad-settings-microsoft-dsa.md), [Microsoft Advertising-Multimedia-Anzeige](ad-settings-microsoft-multimedia.md), [Microsoft Advertising-Produktanzeige](ad-settings-microsoft-product.md), [Microsoft-Responsive (Zielgruppe)-Anzeige](ad-settings-microsoft-responsive.md), [Advertising-Responsive Suchanzeige](ad-settings-microsoft-rsa.md) oder [-](ad-settings-yandex-text.md)-Textanzeige-Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -171,7 +173,7 @@ Schnelles Ändern des Status einer Anzeige, ohne die vollständigen Anzeigeneins
 
 Sie können jede aktive Anzeige in einem unterstützten Werbenetzwerk anhalten, um die Angebotsabgabe darauf zu deaktivieren. Sie können die Gebotsabgabe später fortsetzen, indem Sie den Status wieder in Aktiv ändern.
 
-Sie können auch alle aktiven oder pausierten Anzeigen löschen. Gelöschte Anzeigen werden aus dem Werbenetzwerk gelöscht. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
+Sie können auch alle aktiven oder pausierten Anzeigen löschen (in [!DNL ChatGPT Ads Manager] als „Archiv“ bezeichnet). Gelöschte oder archivierte Anzeigen werden aus dem Werbenetzwerk gelöscht oder archiviert. Sie sind weiterhin sichtbar, wenn Sie sie in den Datenfilter einbeziehen, können aber nicht geändert werden.
 
 ### Anzeigen aktivieren oder pausieren
 
@@ -185,7 +187,7 @@ Sie können auch alle aktiven oder pausierten Anzeigen löschen. Gelöschte Anze
 
    * Um eine aktive Anzeige anzuhalten, klicken Sie auf **[!UICONTROL Pause]**.
 
-### Löschen einer Anzeige
+### Löschen oder Archivieren einer Anzeige
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
