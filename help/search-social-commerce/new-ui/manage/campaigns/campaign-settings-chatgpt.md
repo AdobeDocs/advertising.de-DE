@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads] Kampagneneinstellungen
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:** Das Budget für den angegebenen Kampagnentyp.
 
-**[!UICONTROL Conversion events]:** (Optional) Alle vorhandenen Konversionsereignisse, die mit der Kampagne verknüpft werden sollen. **Hinweis:** Leistungsdaten für [!DNL OpenAI] Konversionen sind in Search, Social und Commerce nicht verfügbar. Überwachen Sie Ihre [!DNL OpenAI] Konversionen in [!DNL ChatGPT Ads Manager].
+**[!UICONTROL Conversion events]:** (Optional) Alle vorhandenen Konversionsereignisse, die in [!DNL ChatGPT Ads] eingerichtet wurden, um sie mit der Kampagne zu verknüpfen. **Hinweis:** Leistungsdaten für [!DNL OpenAI] Konversionen sind in Search, Social und Commerce nicht verfügbar. Überwachen Sie Ihre [!DNL OpenAI] Konversionen in [!DNL ChatGPT Ads Manager].
 
 <!-- **[!UICONTROL Start Date]:** -->
 
