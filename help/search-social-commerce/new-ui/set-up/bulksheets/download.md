@@ -25,7 +25,7 @@ ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei
 
-Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([ Werbenetzwerken) ](about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
+Sie können Bulksheets mit benutzerdefinierten Einstellungen für ein oder mehrere Konten in einem oder mehreren ([&#x200B; Werbenetzwerken) &#x200B;](about.md#bulksheet-functionality-by-network). Bulksheets enthalten Daten in Search, Social und Commerce.
 
 Bei synchronisierten Kampagnen können Sie optional vor dem Herunterladen der Daten mit dem Werbenetzwerk synchronisieren, um sicherzustellen, dass aktuelle Datenänderungen auf der Werbenetzwerk-Seite enthalten sind. Für alle Werbenetzwerke können Sie optional neue Klick-Tracking-URLs generieren, die in die Datei aufgenommen werden sollen.
 
@@ -163,17 +163,17 @@ Kriterien für bestimmte Kampagnen, Anzeigengruppen, Anzeigen/Kreative, Schlüss
 
 Einzelheiten zu den erforderlichen und optionalen Spalten für jedes Anzeigennetzwerk finden Sie in den Artikeln zum Anzeigennetzwerk-spezifischen Bulksheet-Datenformat:
 
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Baidu] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL LY Ads] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Microsoft Advertising] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Naver] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo DSP] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yandex] ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Baidu] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL LY Ads] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Microsoft Advertising] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Naver] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yahoo DSP] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Erforderliche und optionale Bulksheet-Daten für  [!DNL Yandex] &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)

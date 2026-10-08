@@ -31,7 +31,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Keywords] umfasst zwei Registerkar
 
 * [Zuweisen von Einschränkungen zu Keywords und Aufheben der Zuweisung von Einschränkungen zu Keywords](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 
-* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
 
 >[!MORELIKETHIS]
 >

@@ -81,17 +81,17 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
 * **[!UICONTROL Read-Only]:** Dieses Profil bietet die folgenden Funktionen:
 
-  * [!UICONTROL Objectives]: Nur-Lese-Zugriff
+  * [!UICONTROL Objectives]&#x200B;: Nur-Lese-Zugriff
 
-  * [!UICONTROL Simulations]: Nur-Lese-Zugriff
+  * [!UICONTROL Simulations]&#x200B;: Nur-Lese-Zugriff
 
-  * [!UICONTROL Portfolio Groups]: Nur-Lese-Zugriff
+  * [!UICONTROL Portfolio Groups]&#x200B;: Nur-Lese-Zugriff
 
-  * [!UICONTROL Portfolios]: Nur-Lese-Zugriff
+  * [!UICONTROL Portfolios]&#x200B;: Nur-Lese-Zugriff
 
-  * [!UICONTROL Campaigns]: Nur-Lese-Zugriff
+  * [!UICONTROL Campaigns]&#x200B;: Nur-Lese-Zugriff
 
-  * [!UICONTROL Ad Groups]: Nur-Lese-Zugriff
+  * [!UICONTROL Ad Groups]&#x200B;: Nur-Lese-Zugriff
 
 * **[!UICONTROL Admin]:** Dieses Profil gewährt vollen Zugriff auf alle verfügbaren Funktionen und ermöglicht Benutzern das Erstellen neuer Client-Instanzen (wie veraltete Advertiser-Konten mit einer oder mehreren Instanzen pro Organisations-ID). Weisen Sie dieses Recht niemandem zu, es sei denn, Sie haben eine ordnungsgemäße geschäftliche Begründung.
 
@@ -109,7 +109,7 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende CX Enterprise-Organisation aus.
 
@@ -127,7 +127,7 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
 1. (Optional) [Einen weiteren Systemadministrator hinzufügen](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) als Sicherung.
 
-1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von ](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
+1. Delegieren der Produkt- und Benutzerverwaltung durch [Hinzufügen von &#x200B;](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)&quot;
 
 ### Workflow für Produktadministratoren
 
@@ -153,7 +153,7 @@ Folgen Sie diesem Workflow für jede Client-Instanz von Search, Social und Comme
 
    **Achtung:** Produktberechtigungen sind sehr detailliert. Seien Sie vorsichtig, wenn Sie benutzerdefinierte Produktprofile konfigurieren oder Funktionen weglassen, die Sie einbeziehen möchten.
 
-1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
+1. [Weisen Sie jeden Benutzer oder jede Benutzergruppe dem entsprechenden Produktprofil &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuell oder stapelweise zu.
 
 ## Vollständiges Benutzerhandbuch für die Administration und zusätzliche Links
 

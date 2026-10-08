@@ -42,7 +42,7 @@ Sie können die Impression, den Klick, die Häufigkeit und andere Metriken für 
 
 1. (Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Einrichten des Trackings für die [!DNL Analytics]:
 
-   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs ](/help/integrations/analytics/ids.md).
+   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs &#x200B;](/help/integrations/analytics/ids.md).
 
    1. Stellen Sie [!DNL AdFixus]-spezifischen Code auf Ihren Web-Seiten bereit, damit Konversionen aus den [!DNL AdFixus]-IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Viewthroughs abgeglichen werden.
 

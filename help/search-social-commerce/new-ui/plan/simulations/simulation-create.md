@@ -32,7 +32,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können eine benutzerdefinierte Simulation für ein (optimiertes [ aktives) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) erstellen. Sie können auch die Parameter einer vorhandenen Simulation ändern und die Simulation neu generieren oder eine vorhandene Simulation mit den vorhandenen Parametern erneut ausführen.
+Sie können eine benutzerdefinierte Simulation für ein (optimiertes [&#x200B; aktives) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) erstellen. Sie können auch die Parameter einer vorhandenen Simulation ändern und die Simulation neu generieren oder eine vorhandene Simulation mit den vorhandenen Parametern erneut ausführen.
 
 <!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
 

@@ -55,7 +55,7 @@ Der Advertiser spielt eine Rolle bei der Bereitstellung der Konversionsdaten fü
 
 ### Conversion-Tracking-Tags
 
-Sie können [Konversions-Tags von verschiedenen Anbietern) ](/help/search-social-commerce/tracking/conversion-tracking-about.md).
+Sie können [Konversions-Tags von verschiedenen Anbietern) &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md).
 
 Wenn Sie ein Adobe Advertising-Konversions-Tag verwenden und ein Benutzer eine erfolgreiche Transaktion abschließt und auf der Seite „Erfolg“ landet, prüft der Adobe Advertising-Pixelserver, ob das Cookie auf dem Computer des Benutzers vorhanden ist, das zum Zeitpunkt der Klickumleitung gesetzt wurde. Wenn ein Cookie gefunden wird, werden Informationen über das Transaktionsereignis mit dem Parameter ef_transid übergeben, und die Transaktion wird als Konversion erkannt und dem vorangehenden Anzeigenklick- oder Anzeigeabdruck gutgeschrieben.
 

@@ -110,7 +110,7 @@ Entfernte Text-Assets werden nicht erneut bereitgestellt, aber Leistungsdaten si
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Remove]**.
 
-1. <!-- VERIFY -->Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
+1. &#x200B;<!-- VERIFY -->Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >

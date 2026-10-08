@@ -31,7 +31,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Placements] umfasst zwei Registerk
 
 * [Zuweisen von Einschränkungen zu Platzierungen und Aufheben der Zuweisung von Einschränkungen zu Platzierungen](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 
-* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Platzierungen
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Platzierungen
 
 >[!MORELIKETHIS]
 >
