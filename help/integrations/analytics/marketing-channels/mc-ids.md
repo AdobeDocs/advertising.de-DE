@@ -40,7 +40,7 @@ Sie können Adobe Advertising-IDs ([AMO-ID und EF-ID](../ids.md)) verwenden, um 
 
 ## Die AMO-ID in Verarbeitungsregeln
 
-Die AMO-ID ist der primäre Trackingcode, mit dem Adobe Advertising-Daten in [!DNL Analytics] gemeldet werden. Die AMO-ID ist eine Verkettung dynamischer Werte, die von Adobe verwaltet werden, um innerhalb von [!DNL Analytics] ein granulares Reporting zu ermöglichen. Sie wird in einer [!DNL Analytics] [eVar- oder rVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de)Dimension (AMO-ID) gespeichert. Die AMO-ID kann auf zwei Arten in [!DNL Analytics] festgelegt werden:
+Die AMO-ID ist der primäre Trackingcode, mit dem Adobe Advertising-Daten in [!DNL Analytics] gemeldet werden. Die AMO-ID ist eine Verkettung dynamischer Werte, die von Adobe verwaltet werden, um innerhalb von [!DNL Analytics] ein granulares Reporting zu ermöglichen. Sie wird in einer [!DNL Analytics] [eVar- oder rVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)Dimension (AMO-ID) gespeichert. Die AMO-ID kann auf zwei Arten in [!DNL Analytics] festgelegt werden:
 
 * Clickthrough-Tracking: Adobe Advertising legt den `s_kwcid` Abfragezeichenfolgenparameter in einem Link fest und [!DNL Analytics] den Parameter bei einem Clickthrough von der Landingpage-URL ab.
 
@@ -92,7 +92,7 @@ Im Beispiel-Screenshot sind weitere Kanäle enthalten, um die empfohlene Reihenf
 
 >[!IMPORTANT]
 >
->Informationen [&#x200B; Reihenfolge, in der Ihre Regeln verarbeitet werden sollen [!DNL Marketing Channels]  finden Sie unter „Reihenfolge der Vorgänge für &#x200B;](#rule-order)-Regeln“.
+>Informationen [ Reihenfolge, in der Ihre Regeln verarbeitet werden sollen [!DNL Marketing Channels]  finden Sie unter „Reihenfolge der Vorgänge für ](#rule-order)-Regeln“.
 
 ![Beispiel für einen Satz von Verarbeitungsregeln](/help/integrations/assets/a4adc-mc-rule-set-example.png)
 
@@ -112,7 +112,7 @@ Setzen Sie den Kanalwert nicht auf die AMO-ID. Stattdessen sollte sie auf eine D
 
 ### Natürliche Suchregel
 
-Stellen Sie [!UICONTROL Natural Search] sicher, dass Ihre [[!UICONTROL Paid Search]-](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) die Abfragezeichenfolgenparameter `ef_id` und `s_kwcid` enthalten. (Normalerweise wird dies automatisch konfiguriert, wenn Advertising Search, Social und Commerce in [!DNL Analytics] integriert werden. Es sollte jedoch überprüft werden, ob ein [!DNL Analytics] die Logik nach der Konfiguration der Integration geändert hat.)
+Stellen Sie [!UICONTROL Natural Search] sicher, dass Ihre [[!UICONTROL Paid Search]-](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) die Abfragezeichenfolgenparameter `ef_id` und `s_kwcid` enthalten. (Normalerweise wird dies automatisch konfiguriert, wenn Advertising Search, Social und Commerce in [!DNL Analytics] integriert werden. Es sollte jedoch überprüft werden, ob ein [!DNL Analytics] die Logik nach der Konfiguration der Integration geändert hat.)
 
 Legen Sie die Regel auf „Stimmt mit den Regeln der natürlichen Sucherkennung überein“ fest (dies ist in der Regel die Standardeinstellung für diesen Kanal).
 
@@ -136,7 +136,7 @@ Manchmal werden Clickthroughs über die URL verfolgt (die Standardeinstellung). 
 
 Erstellen Sie eine Regel, bei der die AMO-ID auf `"!ctv"` endet, um [!DNL DSP] Durchsichten des verbundenen Fernsehens (CTV) zu verfolgen. Da der Besucher nicht auf die Anzeige geklickt hat, enthält das View-Through-Tracking nicht die `ef_id` oder `s_kwcid` in der URL, und die Regel erfordert nur eine Bedingung.
 
-![Beispiel einer CTV ViewThrough-Regel für &#x200B;](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " AnzeigeBeispiel einer CTV ViewThrough-Regel für Anzeige")
+![Beispiel einer CTV ViewThrough-Regel für ](/help/integrations/assets/a4adc-mc-rule-display-ctv-vt.png " AnzeigeBeispiel einer CTV ViewThrough-Regel für Anzeige")
 
 ### Durchsichtsregel anzeigen
 
@@ -175,5 +175,5 @@ Legen Sie für die zweite ClickThrough-Regel der Anzeige **AMO ID beginnt mit �
 >* [Grundlagen von [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Warum Kanaldaten zwischen Adobe Advertising und variieren können [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Verwenden [!DNL Analytics Marketing Channels] mit Adobe Advertising-Daten](mc-ac-data.md)
->* [Video: Verwenden von  [!DNL Marketing Channels]  für Berichte in Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=de)
+>* [Video: Verwenden von  [!DNL Marketing Channels]  für Berichte in Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)

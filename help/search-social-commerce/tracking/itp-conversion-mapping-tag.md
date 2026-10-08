@@ -30,7 +30,7 @@ So verwenden Sie das Konversionszuordnungs-Tag:
 
 1. [Stellen Sie das Konversionszuordnungs-Tag bereit](#deploy-conversion-mapping-tag).
 
-1. Wenn Ihr Unternehmen mehrere Organisations-IDs von Adobe Experience Cloud Identity Service (ehemals IMS-Organisations-IDs genannt) verwendet, [&#x200B; Sie „Konversions-Tags aktualisieren](#update-conversion-tags) um die Organisations-ID aufzunehmen.
+1. Wenn Ihr Unternehmen mehrere Organisations-IDs von Adobe Experience Cloud Identity Service (ehemals IMS-Organisations-IDs genannt) verwendet, [ Sie „Konversions-Tags aktualisieren](#update-conversion-tags) um die Organisations-ID aufzunehmen.
 
 1. [Validieren Sie die Tag-Bereitstellung](#validate-conversion-mapping).
 

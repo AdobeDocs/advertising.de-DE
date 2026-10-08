@@ -45,7 +45,7 @@ Mit den Tracking-Parametern kann Adobe Advertising Klicks auf Keyword-Ebene (Suc
 
 * In allen anderen Fällen sendet das Anzeigennetzwerk den Klick direkt an die Adobe Advertising-Pixelserver. Der Pixel-Server platziert ein Cookie auf dem Computer des Benutzers (sofern noch nicht vorhanden) und leitet den Benutzer dann an die entsprechende URL auf Ihrer Website weiter. Das Gesamterlebnis für den Endbenutzer ist dasselbe wie ohne eine Umleitung.
 
-Das Cookie wird in der [!DNL Adobe] Domain (`everesttech.net`) als Erstanbieter-Cookie gesetzt. Nach einer Umleitung befindet sich der Benutzer in der Domain des Werbetreibenden, und das Cookie wird dann als Drittanbieter-Cookie behandelt. Weitere Informationen zu Adobe Advertising-Cookies finden Sie unter &quot;[Adobe Advertising-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=de)&quot;.
+Das Cookie wird in der [!DNL Adobe] Domain (`everesttech.net`) als Erstanbieter-Cookie gesetzt. Nach einer Umleitung befindet sich der Benutzer in der Domain des Werbetreibenden, und das Cookie wird dann als Drittanbieter-Cookie behandelt. Weitere Informationen zu Adobe Advertising-Cookies finden Sie unter &quot;[Adobe Advertising-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;.
 
 ## Konvertierungsdaten
 
@@ -55,7 +55,7 @@ Der Advertiser spielt eine Rolle bei der Bereitstellung der Konversionsdaten fü
 
 ### Conversion-Tracking-Tags
 
-Sie können [Konversions-Tags von verschiedenen Anbietern) &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md).
+Sie können [Konversions-Tags von verschiedenen Anbietern) ](/help/search-social-commerce/tracking/conversion-tracking-about.md).
 
 Wenn Sie ein Adobe Advertising-Konversions-Tag verwenden und ein Benutzer eine erfolgreiche Transaktion abschließt und auf der Seite „Erfolg“ landet, prüft der Adobe Advertising-Pixelserver, ob das Cookie auf dem Computer des Benutzers vorhanden ist, das zum Zeitpunkt der Klickumleitung gesetzt wurde. Wenn ein Cookie gefunden wird, werden Informationen über das Transaktionsereignis mit dem Parameter ef_transid übergeben, und die Transaktion wird als Konversion erkannt und dem vorangehenden Anzeigenklick- oder Anzeigeabdruck gutgeschrieben.
 

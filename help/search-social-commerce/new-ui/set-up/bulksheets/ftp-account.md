@@ -41,5 +41,5 @@ Abgerufene Bulksheet-Dateien und alle Fehlerdateien, die während der Veröffent
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)

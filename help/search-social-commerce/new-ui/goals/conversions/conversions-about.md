@@ -36,4 +36,4 @@ In der Ansicht [!UICONTROL Goals] > [!UICONTROL Conversions] haben Sie folgende 
 
 * [Erstellen von Konversionsaktionen für  [!DNL Google Ads]  Konversionen für Leads](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) die für einzelne [!DNL Google Ads] verfolgt werden sollen.
 
-* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Hochladen von First-Party-, Offline](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)Konversionsdaten, um sie Ihren vorhandenen [!DNL Google Ads] erweiterten Konversionen für Leads und [[!DNL Microsoft Advertising] erweiterten Konversionen) ](https://help.ads.microsoft.com/#apex/ads/en/60178).

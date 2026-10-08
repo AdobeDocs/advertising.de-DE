@@ -23,7 +23,7 @@ Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
 * [Erstellen einer neuen Berichtsvorlage](#template-create) oder basierend auf einer vorhandenen Vorlage.
 
-* [Bei Bedarf Berichte für angegebene Vorlagen &#x200B;](#template-run).
+* [Bei Bedarf Berichte für angegebene Vorlagen ](#template-run).
 
 * [Löschen von Berichtsvorlagen](#template-delete).
 

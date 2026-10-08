@@ -38,7 +38,7 @@ Adobe Advertising unterstützt die folgenden Währungen.
 
 >[!NOTE]
 >
->Adobe Analytics unterstützt [einen größeren Währungssatz](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=de).
+>Adobe Analytics unterstützt [einen größeren Währungssatz](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP und Creative
 

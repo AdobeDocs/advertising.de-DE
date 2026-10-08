@@ -43,5 +43,5 @@ Sie können Bulksheet-Dateien, Fehlerdateien bei der Landingpage-Validierung und
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Halten Sie einen laufenden Bulksheet-Vorgang an](stop-job.md)

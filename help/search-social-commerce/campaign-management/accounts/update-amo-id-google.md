@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]Konten*
 
-Das veraltete Format (vor Oktober 2019) für den [AMO ID-Trackingcode](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#dimension-items) für bestehende [!DNL Google Ads]-Konten unterstützt einige Funktionen in Analytics nicht, z. B. das Reporting auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen des Typs „Performance Max“, Entwürfe und Experimente und andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeigen, Keyword und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
+Das veraltete Format (vor Oktober 2019) für den [AMO ID-Trackingcode](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) für bestehende [!DNL Google Ads]-Konten unterstützt einige Funktionen in Analytics nicht, z. B. das Reporting auf Kampagnen- und Anzeigengruppenebene für [!DNL Google Ads] Kampagnen des Typs „Performance Max“, Entwürfe und Experimente und andere Anwendungsfälle, in denen dieselbe Kombination aus Anzeigen, Keyword und Übereinstimmungstyp in mehreren Kampagnen vorhanden ist.
 
 Das aktuelle Format enthält Parameter für die Kampagnen-ID und die Anzeigengruppen-ID:
 
@@ -73,7 +73,7 @@ Alle neuen [!DNL Google Ads]-Konten verwenden automatisch das aktuelle AMO-ID-Fo
 
    * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; in den Tracking-Einstellungen aktiviert ist, aktualisiert Search, Social und Commerce automatisch den Tracking-Code im Suffix der Landingpage für dieses Konto und dessen Kampagnen. Du brauchst nichts zu tun.
 
-   * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; nicht aktiviert ist und Sie die [Server-seitige AMO ID-Funktion](/help/integrations/analytics/ids.md#) nicht verwenden, müssen Sie den AMO ID-Parameter in den Suffix-Einstellungen für die Landingpage manuell aktualisieren. Suffixe auf Konto- und Kampagnenebene können manuell in den [Kontoeinstellungen](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) und [Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oder durch [Hochladen von Änderungen in einer Bulksheet) &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Um ein Suffix auf Anzeigengruppenebene oder darunter zu konfigurieren, verwenden Sie den [!DNL Google Ads].
+   * Wenn die Funktion &quot;[!UICONTROL Auto Upload]&quot; nicht aktiviert ist und Sie die [Server-seitige AMO ID-Funktion](/help/integrations/analytics/ids.md#) nicht verwenden, müssen Sie den AMO ID-Parameter in den Suffix-Einstellungen für die Landingpage manuell aktualisieren. Suffixe auf Konto- und Kampagnenebene können manuell in den [Kontoeinstellungen](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) und [Kampagneneinstellungen](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oder durch [Hochladen von Änderungen in einer Bulksheet) ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Um ein Suffix auf Anzeigengruppenebene oder darunter zu konfigurieren, verwenden Sie den [!DNL Google Ads].
 
    * Wenn Sie die AMO-ID in die Einstellung der Basis-URL für eine beliebige Kampagnenkomponente aufnehmen, verschieben Sie sie in die entsprechende Einstellung für das Landingpage-Suffix .
 
@@ -83,4 +83,4 @@ Alle neuen [!DNL Google Ads]-Konten verwenden automatisch das aktuelle AMO-ID-Fo
 >
 >* [Verwalten von Anzeigennetzwerkkonten](ad-network-account-manage.md)
 >* [Adobe Advertising-IDs verwendet von [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de){target="_blank"}
+>* [Überblick über [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

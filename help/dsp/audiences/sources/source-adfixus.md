@@ -42,7 +42,7 @@ Sie können die Impression, den Klick, die Häufigkeit und andere Metriken für 
 
 1. (Werbetreibende mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Einrichten des Trackings für die [!DNL Analytics]:
 
-   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs &#x200B;](/help/integrations/analytics/ids.md).
+   1. (Falls noch nicht geschehen) Füllen Sie alle [Voraussetzungen für die Implementierung [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) und die [AMO-ID und EF-ID in Ihren Tracking-URLs ](/help/integrations/analytics/ids.md).
 
    1. Stellen Sie [!DNL AdFixus]-spezifischen Code auf Ihren Web-Seiten bereit, damit Konversionen aus den [!DNL AdFixus]-IDs in Desktop- und mobilen Webbrowsern (aber nicht in mobilen Apps) in Viewthroughs abgeglichen werden.
 
@@ -66,7 +66,7 @@ Segmente werden aktualisiert und stehen alle drei Stunden für die Zielgruppenbe
 >
 >* [Über Erstanbieter-Zielgruppenquellen](/help/dsp/audiences/sources/source-about.md)
 >* [Verwalten von Zielgruppenquellen zum Aktivieren universeller ID-Zielgruppen](source-manage.md)
->* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=de)
->* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=de)
+>* [Adobe Advertising DSP-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Zielkatalog - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Unterstützung für die Aktivierung universeller IDs](/help/dsp/audiences/universal-ids.md)
 >* [Über die Zielgruppenverwaltung](/help/dsp/audiences/audience-about.md)

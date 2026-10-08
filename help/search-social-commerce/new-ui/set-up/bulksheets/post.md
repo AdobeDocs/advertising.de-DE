@@ -39,7 +39,7 @@ Bulksheet-Dateien und Fehlerdateien werden 30 Tage nach dem Hochladen oder Gener
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Post]**.
 
-1. Geben Sie Informationen in die [[!UICONTROL Post Bulksheet] ein, wählen Sie diese aus &#x200B;](#bulksheet-post-settings) klicken Sie dann auf **[!UICONTROL Post]**.
+1. Geben Sie Informationen in die [[!UICONTROL Post Bulksheet] ein, wählen Sie diese aus ](#bulksheet-post-settings) klicken Sie dann auf **[!UICONTROL Post]**.
 
    Die gleichen Einstellungen gelten für alle Dateien, die Sie posten.
 
@@ -64,7 +64,7 @@ Wenn die Aufgabe beginnt, werden der Status und das geplante Veröffentlichungsd
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)

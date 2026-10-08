@@ -88,7 +88,7 @@ Sie können Anfragen zum Ausstieg aus dem Verkauf von Produkten an Verbraucher �
    >
    >Wenden Sie sich an den Adobe Advertising-Support-Mitarbeiter Ihres Unternehmens, um zu bestätigen, dass alle Adobe Advertising-Konten Ihres Unternehmens - einschließlich [!DNL DSP]-Konten oder Werbekunden, [!DNL Search, Social, & Commerce]-Konten sowie [!DNL Creative]- oder [!DNL DCO]-Konten - mit Ihrer CX Enterprise-Organisations-ID verknüpft sind.
 
-1. Verwenden Sie die Adobe Experience Platform Privacy Service [API, um im Namen von Verbrauchern Opt-out-Kaufanfragen an Adobe Advertising &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=de) senden und den Status vorhandener Anfragen zu überprüfen.
+1. Verwenden Sie die Adobe Experience Platform Privacy Service [API, um im Namen von Verbrauchern Opt-out-Kaufanfragen an Adobe Advertising ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) senden und den Status vorhandener Anfragen zu überprüfen.
 
    Ein Beispiel für eine Opt-out-Anfrage finden Sie im Anhang unten.
 
@@ -96,7 +96,7 @@ Sie können Anfragen zum Ausstieg aus dem Verkauf von Produkten an Verbraucher �
    >
    >Wenn Ihr Unternehmen über mehrere CX Enterprise-Organisations-IDs verfügt, müssen Sie jeweils separate API-Anfragen senden. Sie können jedoch eine API-Anfrage an mehrere Adobe Advertising-Unterlösungen ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] und [!DNL DCO]) mit einem Konto pro Unterlösung senden.
 
-Alle diese Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mit dem Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de).
+Alle diese Schritte sind erforderlich, um Unterstützung von Adobe Advertising zu erhalten. Weitere Informationen zu diesen und anderen damit verbundenen Aufgaben, die Sie mit dem Adobe Experience Platform Privacy Service ausführen müssen, und wo Sie die erforderlichen Elemente finden, finden Sie unter [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Abrufen von Berichten von Verbrauchern, die Opt-out-Kaufanfragen eingereicht haben
 
@@ -153,7 +153,7 @@ curl -X POST \
 }'
 ```
 
-Dabei gilt gemäß den [Privacy Service-API-Spezifikationen](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix):
+Dabei gilt gemäß den [Privacy Service-API-Spezifikationen](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` gibt den `AdCloud` Cookie-Bereich an. Der entsprechende Wert ist die Cookie-ID des Kunden, wie sie von `AdobePrivacy.js` abgerufen wurde
 * `"include": ["adCloud"]` gibt an, dass die Anfrage für das Produkt Adobe Advertising gilt

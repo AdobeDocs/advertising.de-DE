@@ -57,7 +57,7 @@ Die Standardschritte zur Verwendung von Bulksheets mit synchronisierten Konten l
 
    1. Exportieren Sie die Datei auf Ihren Desktop und bearbeiten Sie sie in [!DNL Microsoft Excel].
 
-   1. [Laden Sie die bearbeitete Datei manuell &#x200B;](upload.md) Search, Social und Commerce hoch.
+   1. [Laden Sie die bearbeitete Datei manuell ](upload.md) Search, Social und Commerce hoch.
 
 1. (Für manuell hochgeladene Dateien) [Veröffentlichen Sie die Datei](post.md) entweder beim Hochladen oder später in das Werbenetzwerk.
 
@@ -91,7 +91,7 @@ Zu den Informationen für jede Datei gehören der aktuelle Aufgabenstatus und de
 >
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)
 >* [(Neue Benutzeroberfläche) Löschen hochgeladener Bulksheets und Fehlerdateien](delete.md)
 >* [(Neue Benutzeroberfläche) Halten Sie einen laufenden Bulksheet-Vorgang an](stop-job.md)

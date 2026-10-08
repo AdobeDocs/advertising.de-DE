@@ -33,7 +33,7 @@ Search, Social und Commerce stellen zur Anmeldeauthentifizierung auf den Adobe I
 
 Ihre aktuellen Anmeldedaten für Search, Social und Commerce bleiben für kurze Zeit aktiv, damit Sie sich auf die Änderung vorbereiten können.
 
-Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+Weitere Informationen zur Benutzeroberfläche von CX Enterprise, einschließlich der Verwaltung Ihres Benutzerprofils, finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).
 
 ## Melden Sie sich auf der Anmeldeseite für ältere Funktionen wie Suche, Social und Commerce an
 
@@ -51,7 +51,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Die neue Benutzeroberfläche wird standardmäßig geöffnet.
 
@@ -65,7 +65,7 @@ Diese Option ist nur für kurze Zeit verfügbar, sodass Sie sich auf die Änderu
 
 1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**..
 
-1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Wählen Sie bei Aufforderung entweder **[!UICONTROL Personal Account]&quot; oder **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Klicken Sie im Abschnitt [!UICONTROL Quick Access] Ihrer Startseite auf **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

@@ -34,11 +34,11 @@ Erstellen und verwalten Sie freigegebene Callout-Erweiterungen auf Kontoebene f�
 
 1. Wählen Sie das Anzeigennetzwerk und den Kontonamen aus und klicken Sie dann auf **[!UICONTROL Continue]**.
 
-1. Geben Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot; ein.
+1. Geben Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot; ein.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 
-Nachdem Sie einen Sitelink erstellt haben, können [&#x200B; ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
+Nachdem Sie einen Sitelink erstellt haben, können [ ihn einem Konto, einer Kampagne oder einer Anzeigengruppe zuweisen](callout-extension-associate.md).
 
 ## Bearbeiten [!DNL Google Ads] freigegebenen Callout-Einstellungen
 
@@ -50,7 +50,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten.
 
 1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
 
-1. Bearbeiten Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot;.
+1. Bearbeiten Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot;.
 
 1. Klicken Sie auf **[!UICONTROL Post]**.
 

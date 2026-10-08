@@ -43,7 +43,7 @@ Maximale Dateigröße: 2 GB
 
   * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jede Zeile einen Bildnamen ein, indem Sie das `images/image_name` Format verwenden (z. B. `images/300x250_acme_logo.png`).
 
-    Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [&#x200B; für dynamische Anzeigenfeed-Dateien) &#x200B;](/help/creative/appendix-available-feed-fields.md).
+    Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
   * Die zugehörigen Bild-Assets im GIF-, JPEG-, JPG- oder PNG-Format. Die maximale Dateigröße beträgt 10 MB. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -59,9 +59,9 @@ Maximale Dateigröße: 2 GB
 
   * Eine Feed-Datei im CSV-, TSV- oder Microsoft Excel-Tabellenformat (XLSX) mit einer Kopfzeile und einer Datenzeile für jede Anzeigenvariante. Fügen Sie in jeder Zeile einen Videonamen mit dem `videos/image_name` Format ein (z. B. `videos/300x250_acme_logo.png`). Die ZIP-Datei darf maximal 512 MB mit maximal 500 Zeilen umfassen.
 
-    Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [&#x200B; für dynamische Anzeigenfeed-Dateien) &#x200B;](/help/creative/appendix-available-feed-fields.md).
+    Die Advertiser-spezifischen Feldnamen müssen den (verfügbaren [ für dynamische Anzeigenfeed-Dateien) ](/help/creative/appendix-available-feed-fields.md).
 
-    Für alle Konten mit dynamischen Videos empfiehlt es sich, [Katalog zu erstellen](catalog-manage.md) indem Sie die Asset-Datei zusammen mit einer Kopie der [!UICONTROL Adobe Creative Template]&#x200B;[&#128279;](feed-template-manage.md) &quot;Universal Feed Template“ verwenden, in der Sie jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuordnen.
+    Für alle Konten mit dynamischen Videos empfiehlt es sich, [Katalog zu erstellen](catalog-manage.md) indem Sie die Asset-Datei zusammen mit einer Kopie der [!UICONTROL Adobe Creative Template]](feed-template-manage.md) &quot;[Universal Feed Template“ verwenden, in der Sie jedes Feld in der Asset-Datei einem Feld im Advertising Creative-Backend zuordnen.
 
   * Die zugehörigen Video-Assets im MP4-, MOV- oder WEBM-Format. Unterstützte Anzeigenvorlagen umfassen Startkarte, Endkarte, obere Überlagerung, untere Überlagerung oder L-förmig. Die Dauer jedes Videos muss zwischen 1 und 90 Sekunden liegen. Siehe [Unterstützte Kreativgrößen](/help/creative/creative-libraries/creative-sizes.md).
 

@@ -36,7 +36,7 @@ Dabei gilt:
 
   * `c?` oder `r` bedeutet, dass die Token-Übergabe deaktiviert ist.
 
-* `<ad network ID>` ist eine Variable für die numerische ID für das angegebene Werbenetzwerk, z. B. *3* für [!DNL Google Ads], *10* für [!DNL Microsoft Advertising], *45* für [!DNL Meta], *86* für [!DNL Yahoo DSP], *87* für [!DNL Baidu], *90[!DNL Naver] für*, *96* für (formerly) [!DNL Yandex], *106* (veraltet), oder [!DNL LY Ads]106[!DNL Yahoo! Japan Ads] **&#x200B; [!DNL Yahoo Native] &#x200B;** [!DNL Pinterest] für (veraltet).
+* `<ad network ID>` ist eine Variable für die numerische ID für das angegebene Werbenetzwerk, z. B. *3* für [!DNL Google Ads], *10* für [!DNL Microsoft Advertising], *45* für [!DNL Meta], *86* für [!DNL Yahoo DSP], *87* für [!DNL Baidu], *90[!DNL Naver] für*, *96* für (formerly) [!DNL Yandex], *106* (veraltet), oder [!DNL LY Ads]106[!DNL Yahoo! Japan Ads] ** [!DNL Yahoo Native] ** [!DNL Pinterest] für (veraltet).
 
 * `<tracking ID>` ist eine Variable für eine vom System generierte Tracking-ID-Zeichenfolge, die ein Keyword, eine Anzeige oder eine Platzierung identifiziert, die im Konto eindeutig ist. Die Zeichenfolge variiert je nach Werbenetzwerk.
 

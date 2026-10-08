@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. Klicken Sie in der [!UICONTROL Actions] Spalte für die Zeile auf **[!UICONTROL View]**. Wenn die Empfehlung untergeordnete Empfehlungen hat, klicken Sie auf **[!UICONTROL View]** neben der untergeordneten Empfehlung.
 
-   Sie können [&#x200B; Empfehlungen &#x200B;](recommendation-apply-dismiss.md) Werbenetzwerks optional anwenden oder ablehnen.
+   Sie können [ Empfehlungen ](recommendation-apply-dismiss.md) Werbenetzwerks optional anwenden oder ablehnen.
 
 ## Anzeigen von [!DNL Microsoft Advertising] Leistungseinblicken
 

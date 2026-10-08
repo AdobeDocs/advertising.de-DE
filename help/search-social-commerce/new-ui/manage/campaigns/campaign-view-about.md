@@ -48,17 +48,17 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 * Löschen oder Ändern des Status einer Kampagne in der Zeile.
 
-* [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Zuweisen von Einschränkungen zu Kampagnen und Aufheben der Zuweisung von Einschränkungen zu Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Kampagnen
+* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Kampagnen
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Zuweisen von Kampagnen zu einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Entfernen von Kampagnen aus einem Portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Einschränkungszuweisungen für Kampagnen verwalten](campaign-constraint-assignments-manage.md)
 >* [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](campaign-view-report.md)

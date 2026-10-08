@@ -107,11 +107,11 @@ Für Suchkampagnen sind außerdem die folgenden zusätzlichen Einstellungen für
 
 **[!UICONTROL Bid strategy]:** Die Bid-Strategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [&#x200B; Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
+* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [ Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
 
 * *[!UICONTROL Manual CPC]* (Standard): (Für Kampagnen mit dem Typ „Performance Max“ nicht verfügbar) Verwendet das CPC-Modell (Cost Per Click) . Optional können Sie dem Werbenetzwerk erlauben, Gebote für die Kampagne zu ändern:
 
-  * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [&#x200B; Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
+  * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [ Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
 
 * *[!UICONTROL Maximize Clicks]:* (Search-, Display- und Shopping-Kampagnen) Das Anzeigennetzwerk - nicht Search, Social und Commerce - optimiert Angebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk für jeden Klick nicht mehr als einen bestimmten Betrag zahlt. **Achtung:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden Gebote durch die Klickgewichtung gesteuert und nicht durch das Portfolioziel.
 
@@ -341,7 +341,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 * Um Bilder aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1, mindestens 128 x 128 Pixel) Logo. Optional können Sie ein Querformat (4:1, mindestens 512 x 218 Pixel) einfügen. Sie können insgesamt bis zu fünf Logos hinzufügen. Siehe &quot;[[!DNL Google Ads] &quot; &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
+**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1, mindestens 128 x 128 Pixel) Logo. Optional können Sie ein Querformat (4:1, mindestens 512 x 218 Pixel) einfügen. Sie können insgesamt bis zu fünf Logos hinzufügen. Siehe &quot;[[!DNL Google Ads] &quot; ](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
 
 * So laden Sie Bilder hoch:
 
@@ -415,9 +415,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 >
 >Zielgruppensignale unterscheiden sich von Zielgruppenzielen [auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.*
+**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.*
 
 ### [!UICONTROL Conversion Goals]
 

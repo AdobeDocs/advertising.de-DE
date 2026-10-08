@@ -46,7 +46,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Ad Groups] listet alle Anzeigengru
 
 * [Zuweisen von Einschränkungen zu Anzeigengruppen und Aufheben der Zuweisung von Einschränkungen zu Anzeigengruppen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 
-* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Anzeigengruppen
+* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Anzeigengruppen
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 
