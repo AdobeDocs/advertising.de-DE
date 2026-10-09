@@ -135,7 +135,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
       >[!NOTE]
       >
-      >Sie können mehrere URLs verwenden, um die Viewthrough-Site-Eingabe zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html). Sie können die wichtigsten Einträge anhand der Seiten-URL leicht identifizieren, indem Sie einen [Site-Einstiegsbericht) ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) Analytics erstellen.
+      >Sie können mehrere URLs verwenden, um die Viewthrough-Site-Eingabe zu testen. Weitere Informationen finden Sie unter &quot;[Mehrseitige Aktivität](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html). Sie können die wichtigsten Einträge anhand der Seiten-URL leicht identifizieren, indem Sie einen [Site-Einstiegsbericht) &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) Analytics erstellen.
 
    1. Geben Sie im Feld **[!UICONTROL Goal]** die Erfolgsmetrik für den Test ein.
 
@@ -161,7 +161,7 @@ In den folgenden Anweisungen werden Informationen zum DSP-Anwendungsfall hervorg
 
    1. Speichern Sie die Aktivität.
 
-1. Verwenden Sie [Target Visual Experience ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
+1. Verwenden Sie [Target Visual Experience &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)), um Design-Änderungen an der Vorlage für die A/B-Test-Landingpage vorzunehmen.
 
    * Erlebnis A: Nicht bearbeiten, da es sich um das standardmäßige Landingpage-Erlebnis ohne Personalisierung handelt.
 
