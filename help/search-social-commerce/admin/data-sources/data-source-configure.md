@@ -9,15 +9,17 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-    internal-label: ''
   - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
     internal-label: Search Admin
   - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
     internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
     internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -41,7 +43,7 @@ Sie können für jede Kombination aus Konto, Eigenschaft und Ansicht eine [!DNL 
 
 Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine einzelne Eigenschaft zu integrieren, richten Sie für jede Eigenschaft eine separate Datenquelle ein.
 
-1. [Führen Sie alle Voraussetzungen für die Integration des  [!DNL Google Analytics] -Kontos &#x200B;](data-source-prerequisites.md).
+1. [Führen Sie alle Voraussetzungen für die Integration des  [!DNL Google Analytics] -Kontos ](data-source-prerequisites.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -51,7 +53,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
    Einige Voraussetzungen wurden möglicherweise von anderen Rollen in Ihrer Organisation erfüllt. Wenden Sie sich bei Fragen zu den Voraussetzungen an Ihr Adobe-Account-Team.
 
-1. Geben Sie die [Datenquelleneinstellungen“ &#x200B;](data-source-settings.md):
+1. Geben Sie die [Datenquelleneinstellungen“ ](data-source-settings.md):
 
    1. Gehen Sie im Abschnitt **[!UICONTROL Connect to [!DNL Google Analytics]]** wie folgt vor.
 
@@ -85,7 +87,7 @@ Um Metriken für mehrere Eigenschaften oder für mehrere Ansichten für eine ein
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Post]**.
 
-   Die Datenquelle heißt „AccountName > PropertyName > ViewName“ und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter &quot;[&#x200B; eines Feeds aus einer Data Source](data-source-pause.md).
+   Die Datenquelle heißt „AccountName > PropertyName > ViewName“ und wird automatisch aktiviert. Informationen zum Anhalten der Datenquelle finden Sie unter &quot;[ eines Feeds aus einer Data Source](data-source-pause.md).
 
    Die Metriken sind am nächsten Tag nach Abschluss der täglichen Datensynchronisation verfügbar, die um 05:00 Uhr in der Zeitzone des Advertisers beginnt. Sobald die Metriken verfügbar sind, sind sie unter [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) sichtbar. Jede neue Konversionsmetrik trägt den Namen &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, wobei „backEndMetricName“ der von der API verwendete Metrikname ist. Der Anzeigename für jede neue Konversionsmetrik lautet &quot;`friendlyMetricName_ga:MetricTag`&quot;, wobei „friendlyMetricName“ der Metrikname ist, der in [!DNL Google Analytics] angezeigt wird, und „MetricTag“ der in den Datenquelleneinstellungen definierte [!UICONTROL Metric Tag] ist.
 
