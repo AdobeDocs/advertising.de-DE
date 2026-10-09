@@ -6,25 +6,29 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-TQID: https://experienceleague.adobe.com/TP3z5s-DX9deihG6HKt2QMszVu699Je22revuYWN9-g
+TQID: 'https://experienceleague.adobe.com/TP3z5s-DX9deihG6HKt2QMszVu699Je22revuYWN9-g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
+    internal-label: Optimization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 1890
+source-wordcount: '1892'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in [!DNL Creative] 2.0
 
 Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
@@ -33,7 +37,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 | ---- | ------- | ----------- | -------------------- |
 | &#x200B;1. Juli 2026 | [!DNL Creative Studio], [!DNL Brands] | Die folgenden Beta-Funktionen sind verfügbar:<ul><li>**[!UICONTROL Creative Studio]** verwendet generative KI, um Anzeigen über mehrere Formate hinweg in einer Sitzung zu erstellen, zu skalieren und zu verfeinern. Verwenden Sie eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.</li><li>Erstellen und verwalten Sie **[!UICONTROL brand profiles]**, die die visuelle Identität Ihrer Marke und Ihre Messaging-Identität widerspiegeln, einschließlich Ihres Logos, Ihrer Farbpalette, Ihrer Sprachrichtlinien, Bildstandards und kanalspezifischer Kopierrichtlinien. Wenn Sie in [!UICONTROL Creative Studio] Anzeigen erstellen, verwendet der KI-Agent Markenprofilinformationen, um die Inhaltserstellung in Ihrer spezifischen Marke zu ermöglichen.</li></ul> | Siehe &quot;[Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md) und &quot;[Verwalten von Markenprofilen](/help/creative/brands/brand-manage.md). |
 | &#x200B;3. Juni 2026 | [!DNL Adobe Analytics for Advertising] | Werbetreibende mit Advertising Creative und [!DNL Adobe Analytics for Advertising] können jetzt Daten auf Varianten- und Zweigstellenebene in Adobe Analytics anzeigen. Die Daten werden unabhängig von der DSP angezeigt, die zum Ausführen von Anzeigen aus Ihren [!DNL Creative]-Erlebnissen verwendet wird. Wenn Sie die Anzeigen über eine Advertising DSP-Platzierung schalten, sehen Sie auch Daten auf Kampagnen- und Platzierungsebene sowie kostenbezogene Metriken.<br><br>Es ist keine zusätzliche Einrichtung erforderlich. | Sehen Sie sich die [Traffic-Metriken](https://experienceleague.adobe.com/de/docs/analytics/components/metrics/amo-metrics) und [Klassifizierungen](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#classifications) an, die in [!DNL Analytics] angezeigt werden. |
-| &#x200B;25. Februar 2025 | Creative-Optimierung und -Planung für [!DNL experiences] | Zu den Verbesserungen gehören:<ul><li>Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie jetzt auf separaten Registerkarten im selben Bildschirm kreative Bundles zuweisen und die kreative Optimierung und Planung konfigurieren.</li><li>Anzeigenzeitpläne enthalten jetzt eine Start- und eine Endzeit. Standardmäßig beginnt der :00 um 12 Uhr und endet um :59 Uhr.</li><li>Die Option &quot;[!UICONTROL Weighted] Rotation“ enthält eine Schaltfläche (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden"), um gleiche Gewichtungen auf alle angegebenen Bundles anzuwenden.</li></ul> | Siehe Anleitungen für [Erlebnisse beim Targeting](/help/creative/experiences/experience-optimization-scheduling-targeting.md) und [Erlebnisse ohne Targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md). |
+| &#x200B;25. Februar 2025 | Creative-Optimierung und -Planung für [!DNL experiences] | Zu den Verbesserungen gehören:<ul><li>Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie jetzt auf separaten Registerkarten im selben Bildschirm kreative Bundles zuweisen und die kreative Optimierung und Planung konfigurieren.</li><li>Anzeigenzeitpläne enthalten jetzt eine Start- und eine Endzeit. Standardmäßig beginnt der Zeitplan um 12:00 Uhr und endet um 23:59 Uhr.</li><li>Die Option &quot;[!UICONTROL Weighted] Rotation“ enthält eine Schaltfläche (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden"), um gleiche Gewichtungen auf alle angegebenen Bundles anzuwenden.</li></ul> | Siehe Anleitungen für [Erlebnisse beim Targeting](/help/creative/experiences/experience-optimization-scheduling-targeting.md) und [Erlebnisse ohne Targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md). |
 | &#x200B;18. Februar 2026 | Dynamische Kreative | Sie können jetzt -Feeds verwenden, um VAST-konforme Videoanzeigen zu generieren, die in TV-, Web- und Mobile Apps verwendet werden können.<ul><li>Vorlagen für Videoanzeigen müssen im ZIP-Format vorliegen und eine Scene-Datei enthalten.</li><li>Ihre Asset-Datei muss Video-Assets im MP4-, MOV- oder WEBM-Format enthalten. Zu den unterstützten Anzeigenvorlagen gehören Startkarte, Endkarte, obere Überlagerung, untere Überlagerung oder L-förmig und die Dauer jedes Videos muss zwischen 1-90 Sekunden liegen. Jede Feed-Datei kann bis zu 500 Zeilen mit Video-Assets verarbeiten.</li><li>In Ihren Kreativbibliotheken enthalten die Einstellungen für dynamische Kreative jetzt eine [!UICONTROL Creative Type] mit den Optionen &quot;[!UICONTROL Display]&quot; und &quot;[!UICONTROL Video]&quot;. Die Einstellungen für Bundles enthalten auch &quot;[!UICONTROL Dynamic Video]&quot;.</li><li>Die Einstellungen für Anzeigen-Erlebnisse enthalten auch &quot;[!UICONTROL Dynamic Video]&quot;.</li><li>Die [!UICONTROL Custom Creative Report] enthält jetzt verschiedene Videometriken (z. B. Impressionen, Quartile und Stummschaltung/Stummschaltung aufheben) für Feed-basierte Videovarianten.</li></ul> | Siehe &quot;[Workflows für dynamische &#x200B;](/help/creative/introduction/workflow-dynamic-ads.md)&quot;, &quot;[Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-dynamic.md), &quot;[Dynamische Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-dynamic.md)&quot; und &quot;[Verwalten von Asset-Dateien](/help/creative/feeds/asset-manage.md). |
 | &#x200B;21. Januar 2026 | Creative Library, Adobe GenStudio for Performance Marketing | Werbetreibende mit [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) können jetzt Anzeigenerlebnisse aus GenStudio in Ihre Kreativbibliotheken importieren. Jede kreative Variante in einem importierten Erlebnis wird als separate HTML5-Kreativvariante importiert. Sie können die importierten Kreativen in Ihre Advertising Creative-Erlebnisse einbeziehen. | Siehe &quot;[Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md) und &quot;[Hinzufügen von Standardkreativen zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-standard.md)&quot;. |
 |  | Standard-Kreative | Die Menüoptionen zum Erstellen von Bild- und HTML5-Anzeigen sind jetzt in einer einzigen &quot;[!UICONTROL Standard Display]&quot;-Option zusammengefasst, mit der Sie auch Display-Anzeigenerlebnisse aus GenStudio importieren können. | Siehe &quot;[Über Ihre Kreativbibliotheken](/help/creative/creative-libraries/creative-libraries-about.md) und &quot;[Hinzufügen von Standardkreativen zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-standard.md)&quot;. |
