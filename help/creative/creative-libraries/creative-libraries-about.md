@@ -38,9 +38,9 @@ Mit Ihren Kreativ-Bibliotheken können Sie die Kreativen verwalten, die Sie in I
 
 Ihre Bibliotheken können Folgendes enthalten:
 
-* **Individuelle Kreative:** Sie können einzelne Kreative direkt in Anzeigenerlebnisse einbeziehen, für die keine Benutzerziele definiert sind. Sie können Ihre Kreativen auch verwenden, um Bundles zu erstellen, die Sie in zielgerichtete ([) Erlebnisse ](/help/creative/experiences/experience-about.md) können.
+* **Individuelle Kreative:** Sie können einzelne Kreative direkt in Anzeigenerlebnisse einbeziehen, für die keine Benutzerziele definiert sind. Sie können Ihre Kreativen auch verwenden, um Bundles zu erstellen, die Sie in zielgerichtete ([) Erlebnisse &#x200B;](/help/creative/experiences/experience-about.md) können.
 
-  * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen ](#creative-creative-formats) verwalten. Geben Sie für jeden Kreativen die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
+  * **Standard-Kreative** Sie können Kreative in [verschiedenen Formaten) hochladen &#x200B;](#creative-creative-formats) verwalten. Geben Sie für jeden Kreativen die Standardsprache für jede Anzeige an, mit der Sie das Kreative verknüpfen, sowie die Standardlandingpage, die geöffnet wird, wenn ein Benutzer auf eine Anzeige klickt, die das Kreative enthält. Sie können optional Beschriftungen angeben, die als Filter in verschiedenen Ansichten innerhalb von [!DNL Creative] und als Spaltenwerte im [!UICONTROL Custom Creative Report] verwendet werden sollen, wenn Sie die Verwendung der [!UICONTROL Creative Label] Dimension einbeziehen.
 
   * **Dynamische Kreative:** Sie können dynamisch generierte Kreative erstellen, indem Sie dynamische Variablen in einer Anzeigenvorlage den Werten in einer Feed-Datei zuordnen. Alle Benutzer können vorhandene dynamische Anzeigen in der Vorschau anzeigen, duplizieren und löschen.
 
@@ -50,7 +50,7 @@ Ihre Bibliotheken können Folgendes enthalten:
 
 ### Formate für Standard-Kreative
 
-Sie können die folgenden Kreativtypen in den [Unterstützte Kreativgrößen“ hinzufügen und ](creative-sizes.md).
+Sie können die folgenden Kreativtypen in den [Unterstützte Kreativgrößen“ hinzufügen und &#x200B;](creative-sizes.md).
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ Unterstützte Anzeigenformate sind Startkarte, Endkarte, obere Überlagerung, un
 
 ## Die [!UICONTROL Creative Libraries]
 
-Weitere [ zum Anpassen der einzelnen Ansichten finden ](/help/creative/introduction/customize-data-views.md) unter „Anpassen der Datenansichten“.
+Weitere [&#x200B; zum Anpassen der einzelnen Ansichten finden &#x200B;](/help/creative/introduction/customize-data-views.md) unter „Anpassen der Datenansichten“.
 
 ### Die [!UICONTROL Creative Libraries] Hauptansicht
 
@@ -187,7 +187,7 @@ Die [!UICONTROL Creatives] zeigt Folgendes an:
 
 #### Verfügbare Aktionen
 
-* Hinzufügen von [Standard](creative-add-standard.md) und [dynamischen ](creative-add-dynamic.md)) zu einer Bibliothek
+* Hinzufügen von [Standard](creative-add-standard.md) und [dynamischen &#x200B;](creative-add-dynamic.md)) zu einer Bibliothek
 
 * Bearbeiten von [Standard-](creative-edit-standard.md)) und [dynamischen Kreativen](creative-edit-dynamic.md)
 

@@ -122,7 +122,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    * (Alte Benutzeroberfläche) Wählen Sie eine Datei auf Ihrem Gerät oder Netzwerk in das Feld aus.
 
-   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Bearbeiten Sie die neuen [flexiblen Einstellungen für HTML-Anzeigen](#flexible-ad-settings) nach Bedarf.
 
@@ -216,7 +216,7 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
    Siehe [HTML-Anzeigenspezifikationen](html5-creative-specification.md).
 
-1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen ](#creative-settings-html5) Bedarf.
+1. Bearbeiten Sie die neuen [HTML5-Anzeigeneinstellungen &#x200B;](#creative-settings-html5) Bedarf.
 
 1. **[!UICONTROL Edit]** klicken
 

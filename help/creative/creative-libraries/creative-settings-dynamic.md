@@ -27,7 +27,7 @@ ht-degree: 2%
 
 <!-- add a description -->
 
-Die folgenden Einstellungen gelten für dynamische Anzeigen, die mit der veralteten Benutzeroberfläche erstellt wurden. Wenn Sie dynamische Anzeigen über die neue Benutzeroberfläche oder [!DNL Creative Studio] erstellen, lesen Sie die Einstellungen unter &quot;[ dynamischer Kreativer in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) verwalten“.
+Die folgenden Einstellungen gelten für dynamische Anzeigen, die mit der veralteten Benutzeroberfläche erstellt wurden. Wenn Sie dynamische Anzeigen über die neue Benutzeroberfläche oder [!DNL Creative Studio] erstellen, lesen Sie die Einstellungen unter &quot;[&#x200B; dynamischer Kreativer in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) verwalten“.
 
 ## Dynamische Anzeigeneinstellungen<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
