@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # Kreative herunterladen
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 Laden Sie alle ausgewählten Kreativen in eine Datei im ZIP-Format gemäß dem normalen Verfahren Ihres Browsers herunter.
 
+## Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Creatives]** die Kreativen aus:
+
+   * Um ein einzelnes Kreativ herunterzuladen, klicken Sie auf **[!UICONTROL ...]** neben dem Namen des Kreativen, und klicken Sie dann auf **[!UICONTROL Download]**.
+
+   * Um ein oder mehrere Kreative herunterzuladen, aktivieren Sie das Kontrollkästchen für jedes Kreativ, das Sie herunterladen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Download](/help/creative/assets/download.png "Download") (**[!UICONTROL Download]**).
+
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
+
+## Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. Klicken Sie auf den Bibliotheksnamen.
 

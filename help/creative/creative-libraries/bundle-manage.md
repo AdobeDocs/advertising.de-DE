@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # Verwalten von kreativen Bundles
@@ -44,21 +44,69 @@ Kreative, die an Bundles angehängt sind, sind weiterhin als individuelle Kreati
 
 Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
+## Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** oben rechts auf **[!UICONTROL Add new]** > **[!UICONTROL Bundle]** .
+
+   * Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** . Klicken Sie oben rechts auf **[!UICONTROL Create bundle]**.
+
+1. Geben Sie eine eindeutige **[!UICONTROL Bundle Name]** ein und wählen Sie **[!UICONTROL Bundle type]:** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamische Anzeige* (für Kreative von dynamischen Bildschirmen), *Standardvideo* (für Kreative von Standardvideos) oder *Dynamic Video* (für Kreative von dynamischen Videos).
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Create]** > **[!UICONTROL Bundle]**.
 
-1. Geben Sie einen eindeutigen **[!UICONTROL Bundle Name]** ein und **[!UICONTROL Bundle Type]Sie:** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamic Display* (für Kreative von dynamischen Displays), *Standardvideo* (für Kreative von Standardvideos) oder *Dynamic Video* (für Kreative von dynamischen Videos).
+1. Geben Sie eine eindeutige **[!UICONTROL Bundle Name]** ein und wählen Sie **[!UICONTROL Bundle Type]:** *Standardanzeige* (für Kreative von Standardbildschirmen), *Dynamische Anzeige* (für Kreative von dynamischen Bildschirmen), *Standardvideo* (für Kreative von Standardvideos) oder *Dynamic Video* (für Kreative von dynamischen Videos).
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
 ## Auflisten der Kreativen in einem Paket
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie auf den Namen des Bundles, um alle Kreativen im Bundle anzuzeigen.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -69,6 +117,32 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 1. Klicken Sie auf die Bundle-Karte oder -Zeile, um alle Kreativen im Bundle anzuzeigen.
 
 ## Bundles duplizieren
+
+Die neuen Bundles erhalten den Namen `<original name> (copy) # 1` (oder die nächste Nummer in der Sequenz). Wenn Sie beispielsweise zwei Duplikate von „Testpaket“ erstellen, werden die Duplikate „Testpaket (Kopie) # 1“ und „Testpaket (Kopie) # 2“ genannt.
+
+### Über die neue Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Zu duplizierende Pakete auswählen:
+
+   * Um ein einzelnes Bundle zu duplizieren, klicken Sie auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Duplicate]**.
+
+   * Um ein oder mehrere Bundles zu duplizieren, aktivieren Sie das Kontrollkästchen für jedes Bundle, das Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Duplizieren](/help/creative/assets/duplicate.png "Duplizieren") (**[!UICONTROL Duplicate]**).
+
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
+
+### Von der alten Benutzeroberfläche
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -90,13 +164,39 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
 
-   Die neuen Bundles erhalten den Namen `<original name> (copy) # 1` (oder die nächste Nummer in der Sequenz). Wenn Sie beispielsweise zwei Duplikate von „Testpaket“ erstellen, werden die Duplikate „Testpaket (Kopie) # 1“ und „Testpaket (Kopie) # 2“ genannt.
-
-## Bundle-Namen bearbeiten
+## Bundle umbenennen
 
 Änderungen an einem Bundle-Namen werden auf alle zugehörigen Erlebnisse übertragen.
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie neben dem Bundle-Namen auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->
+
+1. Bearbeiten Sie die **[!UICONTROL Bundle Name]**.
+
+   Der [!UICONTROL Bundle Name] muss eindeutig sein.
+
+1. Klicken Sie auf **[!UICONTROL Save]**.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
@@ -112,7 +212,7 @@ Sie können ein Kreativ-Asset an mehrere Bundles anhängen.
 
    Der [!UICONTROL Bundle Name] muss eindeutig sein.
 
-1. Klicken Sie auf **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+1. Klicken Sie auf **[!UICONTROL Update]**.
 
 ## Kreative an Bundle anhängen
 
@@ -124,7 +224,29 @@ Sie können vorhandene Kreative für Standardanzeigen mit einem Bundle für Stan
 
 ### Kreative von der Bundles-Liste an ein Bundle anhängen
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie neben dem Bundle-Namen auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Attach creatives]**.
+
+1. Aktivieren Sie im rechten Bedienfeld das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach]**.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -142,11 +264,33 @@ Sie können vorhandene Kreative für Standardanzeigen mit einem Bundle für Stan
 
 1. (Optional) Wechseln Sie zwischen der Standard-Tabellenansicht und einer Kartenansicht der verfügbaren Bundles, indem Sie auf ![Kartenansicht](/help/creative/assets/card-view-button.png "Kartenansicht") klicken, um die Kartenansicht zu öffnen, oder ![Tabellen-/Listenansicht](/help/creative/assets/table-view-button.png "Tabellenansicht"), um zur Tabellenansicht zurückzukehren.
 
-1. Aktivieren Sie im rechten Rahmen das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundle]**.
+1. Aktivieren Sie im rechten Bedienfeld das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundle]**.
 
 ### Kreative aus der Kreativliste des Bundles an ein Bundle anhängen
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie auf den Namen des Bundles, um alle Kreativen im Bundle anzuzeigen.
+
+1. Aktivieren Sie im rechten Bedienfeld das Kontrollkästchen neben den einzelnen Kreativen, die an das Bundle angehängt werden sollen, und klicken Sie dann auf **[!UICONTROL Attach]**.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -168,7 +312,35 @@ Wenn Sie ein Kreativ aus einem Bundle entfernen, wird die Verknüpfung zwischen 
 
 Wenn Sie eine Kreative aus dem Bundle entfernen, wird die Kreative nicht aus der Registerkarte „Kreative“ in Ihrer Kreativbibliothek gelöscht.
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie auf den Namen des Bundles, um alle Kreativen im Bundle anzuzeigen.
+
+1. Zu trennende Bundles auswählen:
+
+   * Um ein einzelnes Bundle zu trennen, klicken Sie auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Detach]**.
+
+   * Um ein oder mehrere Bundles zu trennen, aktivieren Sie das Kontrollkästchen für jedes Bundle, das Sie trennen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Trennen](/help/creative/assets/detach.png "Trennen") (**[!UICONTROL Detach]**).
+
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -194,7 +366,45 @@ Wenn Sie eine Kreative aus dem Bundle entfernen, wird die Kreative nicht aus der
 
 Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen, wie es den Betrachtern angezeigt wird.
 
+### Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie auf den Namen des Bundles, um alle Kreativen im Bundle anzuzeigen.
+
+1. Klicken Sie neben dem Bundle-Namen auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Preview]**.
+
+   Für HTML5- und HTML5-Kreative können Sie für weitere Details zwischen den Registerkarten „Ebenen“, „Details“ und „Attribute“ wechseln.
+
+1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Optional, falls verfügbar) Um das Kreativ-Asset herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download").
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+1. (Optional, falls verfügbar) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
+
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+
+   1. Klicken Sie im Dialogfeld [!UICONTROL Share demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -226,13 +436,47 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Klicken Sie neben dem Bundle-Namen auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Preview]**.
+
+1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Optional, falls verfügbar) Um das Kreativ-Asset herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download").
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+1. (Optional, falls verfügbar) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
+
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+
+   1. Klicken Sie im Dialogfeld [!UICONTROL Share demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
 1. Klicken Sie auf den Bibliotheksnamen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
 
 1. Bundle auswählen:
 
-   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Preview]**.
+   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** und dann auf **[!UICONTROL Preview]**.
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile und klicken Sie auf **[!UICONTROL Preview]**.
 
@@ -248,7 +492,7 @@ Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen
 
 1. (Optional) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
 
-   1. Klicken ![&#x200B; oben rechts in &#x200B;](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share-legacy.png " Vorschau auf ")Freigeben/Freigeben“.
 
    1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Änderungsprotokoll für ein Bundle anzeigen
 
+*In der neuen Benutzeroberfläche nicht verfügbar*
+
+### Von der alten Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 
@@ -309,9 +559,37 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Bundles löschen
 
-Sie können Bundles löschen, die keinem Live-Erlebnis [&#x200B; sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [&#x200B; Sie das Bundle aus der Entscheidungsstruktur &#x200B;](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+Sie können Bundles löschen, die keinem Live-Erlebnis [ sind](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Wenn ein Bundle einem Live-Erlebnis zugewiesen ist, [ Sie das Bundle aus der Entscheidungsstruktur ](/help/creative/experiences/experience-target-node-delete.md), bevor Sie fortfahren.
+
+### Über die neue Benutzeroberfläche
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Bundles]** .
+
+1. Zu löschende Pakete auswählen:
+
+   * Um ein einzelnes Bundle zu löschen, klicken Sie auf **[!UICONTROL ...]** neben dem Bundle-Namen und dann auf **[!UICONTROL Delete]**.
+
+   * Um ein oder mehrere Bundles zu löschen, aktivieren Sie das Kontrollkästchen für jedes Bundle, das Sie löschen möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Löschen](/help/creative/assets/delete.png "Löschen") (**[!UICONTROL Delete]**).
+
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
+
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete].**
+
+### Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
 

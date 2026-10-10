@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # Kreative in der Vorschau anzeigen
 
 Sie können ein Kreativ, einschließlich Hyperlinks, so in der Vorschau anzeigen, wie es den Betrachtern angezeigt wird.
 
+## Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL ...]** neben dem Namen der Kreativen, und klicken Sie dann auf **[!UICONTROL Preview]**.
+
+   Für HTML5- und HTML5-Kreative können Sie für weitere Details zwischen den Registerkarten „Ebenen“, „Details“ und „Attribute“ wechseln.
+
+1. (Optional) Um die Landingpage für den Kreativen zu öffnen, klicken Sie auf den Kreativen.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Optional, falls verfügbar) Um das Kreativ-Asset herunterzuladen, klicken Sie auf ![Download](/help/creative/assets/download.png "Download").
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+1. (Optional, falls verfügbar) So geben Sie eine Demo-URL frei, damit andere Personen ohne Anmeldung bei [!DNL Creative] eine Vorschau der Kreativen anzeigen können:
+
+   1. Klicken ![ oben rechts in ](/help/creative/assets/share.png " Vorschau auf ")Freigeben/Freigeben“.
+
+   1. Klicken Sie im Dialogfeld [!UICONTROL Share demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
+
+## Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. Klicken Sie auf den Bibliotheksnamen.
 

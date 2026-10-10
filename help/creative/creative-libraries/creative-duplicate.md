@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # Kreative dupliziert
 
 Duplizieren Sie Kreative, um neue Kreative mit denselben Einstellungen derselben Bibliothek hinzuzufügen. Sie können die neuen Kreativen später umbenennen und die kreativen Einstellungen nach Bedarf bearbeiten.
 
+Die neuen Kreativen erhalten den Namen `<original name> (copy) # 1` (oder die nächste Nummer in der Sequenz). Wenn Sie beispielsweise zwei Duplikate von „Testbild“ erstellen, heißen die Duplikate „Testbild (Kopie) # 1“ und „Testbild (Kopie) # 2“.
+
 >[!NOTE]
 >
 >Wenn Sie ein dynamisches Kreativ duplizieren, wird das Duplikat demselben Katalog wie das Original-Kreativ hinzugefügt.
 
+## Über die neue Benutzeroberfläche
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Creatives]** die Kreativen aus:
+
+   * Um ein einzelnes Kreativ zu duplizieren, klicken Sie auf **[!UICONTROL ...]** neben dem Namen des Kreativen, und klicken Sie dann auf **[!UICONTROL Duplicate]**.
+
+   * Um einen oder mehrere Kreative zu duplizieren, aktivieren Sie das Kontrollkästchen für jeden Kreativen, den Sie duplizieren möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Duplizieren](/help/creative/assets/duplicate.png "Duplizieren") (**[!UICONTROL Duplicate]**).
+
+     Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
+
+## Von der alten Benutzeroberfläche
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
 1. Klicken Sie auf den Bibliotheksnamen.
 
@@ -46,8 +70,6 @@ Duplizieren Sie Kreative, um neue Kreative mit denselben Einstellungen derselben
    * Um einen oder mehrere Kreative zu duplizieren, aktivieren Sie das Kontrollkästchen für jeden Kreativen, den Sie duplizieren möchten. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Duplicate]**.
 
      Um alle Zeilen auszuwählen, aktivieren Sie das Kontrollkästchen Global oben links.
-
-   Die neuen Kreativen erhalten den Namen `<original name> (copy) # 1` (oder die nächste Nummer in der Sequenz). Wenn Sie beispielsweise zwei Duplikate von „Testbild“ erstellen, heißen die Duplikate „Testbild (Kopie) # 1“ und „Testbild (Kopie) # 2“.
 
 <!--
  Add to TOC later when this feature is available to users:
