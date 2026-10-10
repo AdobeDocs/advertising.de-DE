@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek
@@ -54,11 +54,33 @@ Fügen Sie dynamische Kreative zu Ihren [kreativen Bibliotheken](creative-librar
 
 ## Dynamische Kreative mithilfe einer dynamischen HTML5-Anzeigenvorlage hinzufügen
 
+## Über die neue Benutzeroberfläche
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Geben Sie die dynamischen Anzeigeneinstellungen in [!DNL Creative Studio] an, beginnend mit [Schritt 2 in „Dynamische Kreative in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template) verwalten“.
+
+## Von der alten Benutzeroberfläche
+
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Aus einer Kreativ-Bibliothek:
 
      1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Klicken Sie auf **[!UICONTROL Switch to classic UI]**.
 
      1. Klicken Sie auf den Bibliotheksnamen.
 

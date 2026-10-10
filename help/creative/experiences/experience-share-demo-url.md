@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Sie können anderen Personen ohne Anmeldung erlauben, eine Vorschau eines Erlebn
 
    * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Preview]**.
 
-1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share.png "Freigeben").
+1. Klicken Sie oben rechts in der Vorschau auf ![Freigeben](/help/creative/assets/share-legacy.png "Freigeben").
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Share Demo URL] auf **[!UICONTROL Copy]** , um die URL in die Zwischenablage zu kopieren, sodass Sie sie für andere freigeben können.
 

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '3351'
 ht-degree: 0%
 ---
 # Kreative Standardeinstellungen
@@ -36,6 +36,30 @@ Wenn Sie mehrere Kreative gleichzeitig bearbeiten:
 ## Flexible Kreativeinstellungen für HTML5 {#creative-settings-flexible-html5}
 
 ### Registerkarte „Details“
+
+#### Neue Benutzeroberfläche
+
+**Creative-Name:** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
+
+**Format:** (Schreibgeschützt; nur vorhandene Kreative) Das Kreativformat (*[!UICONTROL Flexible]*).
+
+**Creative-Größe:** (Schreibgeschützt für bestehende Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
+
+**[!UICONTROL Click Tags]:** Die Variablen, die Klick-Tracking-Weiterleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
+
+**Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
+
+* Um eine vorhandene Beschriftung auszuwählen, klicken Sie auf ![Nach unten](/help/creative/assets/chevron-down.png "Nach ") und anschließend auf die anzuwendende Beschriftung.
+
+* Um nach vorhandenen Kennzeichnungen zu suchen, geben Sie eine Textzeichenfolge in das Feld **[!UICONTROL Label]** ein.
+
+* Um eine neue Kennzeichnung zu erstellen, die auf die Kreativen angewendet werden soll, geben Sie einen eindeutigen Kennzeichnungsnamen in das Feld **[!UICONTROL Label]** ein und klicken Sie dann auf **Tag hinzufügen**
+
+* Um eine angewendete Kennzeichnung zu entfernen, klicken Sie auf **X** neben dem Namen der Kennzeichnung.
+
+#### Alte Benutzeroberfläche
 
 **Creative-Name:** Der Name des Kreativen. Standardmäßig wird der Vorlagenname oder der hochgeladene Dateiname verwendet, Sie können den Namen jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
@@ -86,25 +110,61 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 1. Klicken Sie **Vorlage aktualisieren**.
 
-1. Klicken Sie **Fortfahren**.
+1. (Nur alte Benutzeroberfläche) Klicken Sie auf **Fortfahren**.
 
-1. Geben Sie eine ZIP-Datei auf eine der folgenden Arten an:
+1. Geben Sie eine ZIP-Datei an:
 
-   * Ziehen Sie eine Datei per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
+   * (Neue Benutzeroberfläche) Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+     * Ziehen Sie eine Datei per Drag-and-Drop auf Ihr Gerät oder Netzwerk in das Feld.
+
+     * Klicken Sie auf **[!UICONTROL Browse files]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+
+   * (Alte Benutzeroberfläche) Wählen Sie eine Datei auf Ihrem Gerät oder Netzwerk in das Feld aus.
 
    Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Bearbeiten Sie die neuen [flexiblen Einstellungen für HTML-Anzeigen](#flexible-ad-settings) nach Bedarf.
 
-1. **[!UICONTROL Edit]** klicken
+1. Klicken Sie auf (neue Benutzeroberfläche) **[!UICONTROL Update Creative]** oder (veraltete Benutzeroberfläche) **[!UICONTROL Save]**
 
 ## HTML5 Creative-Einstellungen {#creative-settings-html5}
 
 ### Registerkarte „Details“
 
 Für neue Kreative befinden sich die folgenden Einstellungen nicht auf einer benannten Registerkarte.
+
+#### Neue Benutzeroberfläche
+
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
+
+**Format:** (Schreibgeschützt; nur vorhandene Kreative) Das Kreativformat (*[!UICONTROL HTML5]*).
+
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Wenn Sie mehrere Kreative hochladen oder bearbeiten, wird auf jeden ausgewählten Kreativen derselbe Wert angewendet.
+
+**Creative-Größe:** (Schreibgeschützt für bestehende Kreative) Die Dimensionen der Kreativen. Wenn im Kreativ enthaltene Bilder größer sind als die angegebene Größe, werden sie entsprechend skaliert.
+
+**[!UICONTROL Click Tags]:** (nur für statische HTML5-Kreative) Die Variablen, die Klick-Tracking-Umleitungen aus den enthaltenen Bannerwerbung ermöglichen. Die Variablennamen und entsprechenden Landingpage-URLs werden aus der hochgeladenen Kreativeinheit gefüllt. Sie können jedoch die Standard-URLs ändern. Für mehrere Kreative können Sie die einzelnen Klick-Tags bearbeiten.
+
+>[!NOTE]
+>
+>Wenn Sie Kreative in ein Erlebnis einbeziehen, können Sie den Standardwert für jedes der Klick-Tags durch eine benutzerdefinierte Landingpage-URL ersetzen, um eine Ableitung der kreativen Basis zu generieren.
+
+**Landingpage-URL:** (Einfache HTML5-Kreative mit nur einer Landingpage) Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie die Kreativen verknüpfen. Es muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören.
+
+Wenn Sie einen Kreativen in ein Bundle aufnehmen und das Bundle einem Erlebnis zuweisen, können Sie für jeden Kreativen im Bundle optional die Landingpage-URL ändern sowie Impression- und Klick-Tracking-URLs und JavaScript hinzufügen. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
+
+* Um eine vorhandene Beschriftung auszuwählen, klicken Sie auf ![Nach unten](/help/creative/assets/chevron-down.png "Nach ") und anschließend auf die anzuwendende Beschriftung.
+
+* Um nach vorhandenen Kennzeichnungen zu suchen, geben Sie eine Textzeichenfolge in das Feld **[!UICONTROL Label]** ein.
+
+* Um eine neue Kennzeichnung zu erstellen, die auf die Kreativen angewendet werden soll, geben Sie einen eindeutigen Kennzeichnungsnamen in das Feld **[!UICONTROL Label]** ein und klicken Sie dann auf **Tag hinzufügen**
+
+* Um eine angewendete Kennzeichnung zu entfernen, klicken Sie auf **X** neben dem Namen der Kennzeichnung.
+
+#### Alte Benutzeroberfläche
 
 **Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Für mehrere Kreative können Sie die einzelnen Kreativnamen bearbeiten. **Tipp:** Fügen Sie die Anzeigengröße in den Kreativnamen ein und verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie den Kreativen in ein Erlebnis einbeziehen.
 
@@ -162,6 +222,32 @@ So ersetzen Sie die vorhandene Anzeigenvorlage:
 
 ## Kreative Bildeinstellungen {#creative-settings-image}
 
+### Neue Benutzeroberfläche
+
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
+
+**Format:** (Schreibgeschützt; nur vorhandene Kreative) Das Kreativformat (*[!UICONTROL Image]*).
+
+**Creative-Größe:** (Schreibgeschützt) Die Abmessungen der hochgeladenen Bilder.
+
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
+
+**Landingpage-URL** Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie die Kreativen verknüpfen. Die Landingpage-URL muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören. Der gleiche Wert gilt für alle ausgewählten Bilder.
+
+Wenn Sie einen Kreativen in ein Bundle aufnehmen und dieses dann einem Erlebnis zuweisen, können Sie für jeden Kreativen im Bundle optional die Landingpage-URL ändern sowie Impression- und Klick-Tracking-URLs und JavaScript hinzufügen. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Titel:** (Optional) Alle Beschriftungen, die auf alle ausgewählten Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
+
+* Um eine vorhandene Beschriftung auszuwählen, klicken Sie auf ![Nach unten](/help/creative/assets/chevron-down.png "Nach ") und anschließend auf die anzuwendende Beschriftung.
+
+* Um nach vorhandenen Kennzeichnungen zu suchen, geben Sie eine Textzeichenfolge in das Feld **[!UICONTROL Label]** ein.
+
+* Um eine neue Kennzeichnung zu erstellen, die auf die Kreativen angewendet werden soll, geben Sie einen eindeutigen Kennzeichnungsnamen in das Feld **[!UICONTROL Label]** ein und klicken Sie dann auf **Tag hinzufügen**
+
+* Um eine angewendete Kennzeichnung zu entfernen, klicken Sie auf **X** neben dem Namen der Kennzeichnung.
+
+### Alte Benutzeroberfläche
+
 **Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
 
 **Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
@@ -212,11 +298,39 @@ Wenn Sie dieses Kreativ in ein Erlebnis aufnehmen, das Sie als Anzeige aus einer
 
 ## Kreative Videoeinstellungen {#creative-settings-video}
 
-**Creative Asset-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Bildern können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
+### Neue Benutzeroberfläche
+
+**Creative-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
+
+**Format:** (Schreibgeschützt; nur vorhandene Kreative) Das Kreativformat (*[!UICONTROL Standard Video]*).
+
+**Size:** (Schreibgeschützt) Die Abmessungen des Videos, das automatisch ausgefüllt wird.
 
 **Dauer:** (Schreibgeschützt) Die Dauer des Videos, das automatisch ausgefüllt wird.
 
-**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Bilder. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie das Kreative verknüpfen. Wenn Sie Kreative in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
+
+**Landingpage-URL** Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie den Kreativen verknüpfen. Die Landingpage-URL muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören.
+
+Wenn Sie einen Kreativen in ein Bundle aufnehmen und dieses dann einem Erlebnis zuweisen, können Sie für jeden Kreativen im Bundle optional die Landingpage-URL ändern sowie Impression- und Klick-Tracking-URLs und JavaScript hinzufügen.
+
+**Beschriftung:** (Optional) Alle Beschriftungen, die auf die Kreativen angewendet werden sollen. Sie können Kreative in [!DNL Creative] nach Label in verschiedenen Ansichten filtern.
+
+* Um eine vorhandene Beschriftung auszuwählen, klicken Sie auf ![Nach unten](/help/creative/assets/chevron-down.png "Nach ") und anschließend auf die anzuwendende Beschriftung.
+
+* Um nach vorhandenen Kennzeichnungen zu suchen, geben Sie eine Textzeichenfolge in das Feld **[!UICONTROL Label]** ein.
+
+* Um eine neue Kennzeichnung zu erstellen, die auf die Kreativen angewendet werden soll, geben Sie einen eindeutigen Kennzeichnungsnamen in das Feld **[!UICONTROL Label]** ein und klicken Sie dann auf **Tag hinzufügen**
+
+* Um eine angewendete Kennzeichnung zu entfernen, klicken Sie auf **X** neben dem Namen der Kennzeichnung.
+
+### Alte Benutzeroberfläche
+
+**Creative Asset-Name:** Der Name des Kreativen. Bei neuen Kreativen wird standardmäßig der Dateiname verwendet, Sie können ihn jedoch ändern. Bei mehreren Dateien können Sie die einzelnen kreativen Namen bearbeiten. **Tipp:** Verwenden Sie einen Namen, den Sie leicht finden können, wenn Sie das Kreative in ein Erlebnis einbeziehen.
+
+**Dauer:** (Schreibgeschützt) Die Dauer des Videos, das automatisch ausgefüllt wird.
+
+**Language:** Die Standardsprache für jede Anzeige, mit der Sie die Kreativen verknüpfen. Der gleiche Wert gilt für alle ausgewählten Kreativen. Wenn Sie die Kreativen in ein Erlebnis einbeziehen, können Sie optional die Spracheinstellungen für das Erlebnis anpassen.
 
 **Landingpage-URL** Die URL der standardmäßigen Landingpage für jede Anzeige, mit der Sie die Kreativen verknüpfen. Die Landingpage-URL muss eine gültige URL sein, die mit http:// oder https:// beginnt. Dazu können Tracking-Parameter von Drittanbietern oder [[!DNL Creative] Makros](/help/creative/creative-macros.md) für den eigenen Gebrauch gehören. Der gleiche Wert gilt für alle ausgewählten Bilder.
 

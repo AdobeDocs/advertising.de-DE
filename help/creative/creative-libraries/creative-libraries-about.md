@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # Über Ihre Kreativbibliotheken
@@ -155,63 +155,55 @@ Wenn Sie sich im Kartenmodus befinden, können Sie mithilfe der Schaltflächen &
 
 #### Verfügbare Aktionen
 
-* [Neue Bibliothek erstellen](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [Neue Bibliothek erstellen](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * Für jede Kreativbibliothek gilt Folgendes:
 
-  * [Bearbeiten eines Bibliotheksnamens](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Umbenennen einer Bibliothek](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [Eine Bibliothek öffnen, um die der Bibliothek zugewiesenen Kreativen und Bundles anzuzeigen](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Eine Bibliothek öffnen, um die der Bibliothek zugewiesenen Kreativen und Bundles anzuzeigen](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [Bibliotheken löschen](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Bibliotheken löschen](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
-### Die [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
+### Die Ansicht [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
-#### [!UICONTROL Standard Ads]
+Die [!UICONTROL Creatives] zeigt Folgendes an:
 
-Auf der Registerkarte [!UICONTROL Standard Ads] werden alle von Ihnen erstellten Standard-Kreativen angezeigt. Die Daten für jeden Kreativen umfassen die Kreativgröße, den Kreativtyp und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Standardsprache und die standardmäßige Landingpage.
+* Alle von Ihnen erstellten Standard-Kreativen.
 
-##### Verfügbare Aktionen
+  Die Daten für jeden Kreativstandard umfassen die Kreativgröße, den Kreativtyp und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Standardsprache und die standardmäßige Landingpage.
 
-* [Hinzufügen von Standard-Kreativen zu einer Bibliothek](creative-add-standard.md)
+* Alle dynamischen Kreativen, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [manuell gelöscht](creative-delete.md). Wenn Sie [manuell dupliziert](creative-duplicate.md) beliebige dynamische Kreative <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
 
-* [Bearbeiten von Standard-Kreativen](creative-edit-standard.md)
+  Die Daten für jedes dynamische Kreativ umfassen den Kreativtyp, die Kreativgröße, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Anzeigenvorlage, über die die kreative Seite generiert wurde, und die Anzahl der Angebote.
 
-* [Vorschau eines Standard-Kreativen anzeigen](creative-preview.md)
+  >[!NOTE]
+  >
+  >Bei jeder Verarbeitung eines Katalogs werden die Daten der vorhandenen dynamischen Kreativen für diesen Katalog aktualisiert.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>In der veralteten Benutzeroberfläche ist [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] in separate [!UICONTROL Standard Ads] und [!UICONTROL Dynamic Ads] Registerkarten unterteilt.
+
+#### Verfügbare Aktionen
+
+* Hinzufügen von [Standard](creative-add-standard.md) und [dynamischen &#x200B;](creative-add-dynamic.md)) zu einer Bibliothek
+
+* Bearbeiten von [Standard-](creative-edit-standard.md)) und [dynamischen Kreativen](creative-edit-dynamic.md)
+
+* Vorschau eines [Standardkreativen](creative-preview.md) und [dynamischen Kreativen](creative-preview.md)
 
 * [Standard-Kreative zu Standard-Display-Bundles hinzufügen und Standard-Kreative aus einem Standard-Display-Bundle entfernen](creative-attach-detach-bundles.md)
 
 * [Hinzufügen von Videokreativen zu Standard-Videopaketen und Entfernen von Videokreativen aus einem Standard-Videopaket](creative-attach-detach-bundles.md)
 
-* [Standardkreative duplizieren](creative-duplicate.md)
+* [Fügen Sie dynamische Kreative zu dynamischen Display-Bundles hinzu und entfernen Sie dynamische Kreative aus einem dynamischen Display-Bundle](creative-attach-detach-bundles.md)
+
+* Duplizieren [Standardkreativen](creative-duplicate.md) und [dynamischen Kreativen](creative-duplicate.md)
 
 * [Standard-Kreative herunterladen](creative-download.md)
 
-* [Standard-Kreative löschen](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-Auf der Registerkarte [!UICONTROL Dynamic Ads] werden alle dynamischen Kreativen angezeigt, die dynamisch für Ihre Kreativkataloge erstellt wurden, mit Ausnahme der dynamischen Kreativen, die Sie [&#x200B; der Registerkarte [!UICONTROL Dynamic Ads] manuell &#x200B;](creative-delete.md) haben. Wenn Sie [manuell dupliziert](creative-duplicate.md) beliebige dynamische Kreative <!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, enthält die Liste der Kreativen für diesen Katalog auch die doppelten Kreativen.
-
-Die Daten für jedes Kreativ umfassen den Kreativtyp, die Größe des Kreativs, die Anzahl der Kataloge, zu denen das Kreativ gehört, und das Erstellungsdatum. Der Tabellenmodus enthält auch Spalten für die Anzeigenvorlage, über die die kreative Seite generiert wurde, und die Anzahl der Angebote.
-
->[!NOTE]
->
->Bei jeder Verarbeitung eines Katalogs werden die Daten der vorhandenen dynamischen Kreativen für diesen Katalog aktualisiert.<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### Verfügbare Aktionen
-
-* [Hinzufügen dynamischer Kreativer zu einer Bibliothek](creative-add-dynamic.md)
-
-* [Bearbeiten eines dynamischen Kreativen](creative-edit-dynamic.md)
-
-* [Vorschau für dynamische Kreative](creative-preview.md)
-
-* [Fügen Sie dynamische Kreative zu dynamischen Display-Bundles hinzu und entfernen Sie dynamische Kreative aus einem dynamischen Display-Bundle](creative-attach-detach-bundles.md)
-
-* [Dynamische Kreative duplizieren](creative-duplicate.md)
-
-* [Dynamische Kreative löschen](creative-delete.md)
+* Löschen [Standardkreativen](creative-delete.md) und [dynamischen Kreativen](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ Die [!UICONTROL Bundles] zeigt alle standardmäßigen und dynamischen Bundle-Con
 
 * Auflisten und Vorschau der Kreativen in einem Bundle
 
-* Bundle-Namen bearbeiten
+* Bundle umbenennen
 
 * Fügen Sie Standarddarstellungskreative zu Standarddarstellungspaketen hinzu und entfernen Sie Standarddarstellungskreative aus einem Standarddarstellungspaket
 
