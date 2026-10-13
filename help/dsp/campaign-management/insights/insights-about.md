@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # Über Einblicke
@@ -132,7 +132,9 @@ Zu den Erkenntnissen gehören:
 
 ### Registerkarte [!UICONTROL Delivery Composition]
 
-Auf der Registerkarte [!UICONTROL Delivery Composition] sehen Sie, wie das Modell Angebote für alle Benutzer mit unterschiedlicher Konvertierungswahrscheinlichkeit eingibt. Verwenden Sie diesen insight-Satz, um eine Platzierung zu überprüfen, die bereitstellt.
+*Nur für Werbetreibende mit [!DNL Analytics for Advertising] verfügbar*
+
+Auf der Registerkarte [!UICONTROL Delivery Composition] erfahren Sie, wie das DSP-Benutzermodell Angebote abgibt, die auf der Wahrscheinlichkeit der Benutzerkonvertierung basieren.  Die Einblicke verwenden Ihre Adobe Analytics Organic Converter-Daten, die mit den Benutzerinnen und Benutzern im programmatischen Angebotsstream abgeglichen werden (die Population von Benutzerinnen und Benutzern, die bei programmatischen Werbemöglichkeiten beobachtet wurde).  Verwenden Sie diese Einblicke, um eine Platzierung zu überprüfen, die liefert.
 
 Standardmäßig werden Daten für einen bestimmten Advertiser und eine bestimmte Platzierung angezeigt. Der Datumsbereich des Berichts, das letzte Datum, an dem die Daten aktualisiert wurden, und das nächste Datum, an dem der Bericht aktualisiert wird, sind enthalten. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser anzuzeigen oder eine andere Platzierung auszuwählen.
 
@@ -148,21 +150,23 @@ Zu den Erkenntnissen gehören:
 
 ### Registerkarte [!UICONTROL Organic Seed Profile]
 
-Auf der Registerkarte [!UICONTROL Organic Seed Profile] werden die Interessen, Zeiten, Standorte und Geräte angezeigt, die mit Ihren Konvertern verbunden sind. Der insight-Satz verwendet Ihre Adobe Analytics Organic Converter-Daten, die mit den Benutzerinnen und Benutzern im programmatischen Angebotsstream abgeglichen werden. Dabei handelt es sich um die Population von Benutzerinnen und Benutzern, die bei programmatischen Werbemöglichkeiten beobachtet werden. Da diese insight vorhandene Konverterdaten und nicht den Kampagnenversand verwendet, kann sie die Planung vor dem Einsatz von DSP unterstützen, wenn geeignete Testdaten verfügbar sind. Verwenden Sie diesen Inhalt, um den Start eines Pakets oder einer Platzierung zu planen oder Ihre nächste Kampagne zu informieren.
+*Nur für Werbetreibende mit [!DNL Analytics for Advertising] verfügbar*
+
+Auf der Registerkarte [!UICONTROL Organic Seed Profile] werden mithilfe von Zielgruppeninformationen die Interessen, Zeiten, Standorte und Geräte angezeigt, die mit Ihren Konvertern verbunden sind. Die Insights verwenden Ihre Adobe Analytics Organic Converter-Daten, die mit den Benutzerinnen und Benutzern im programmgesteuerten Bid-Stream abgeglichen werden. Da diese Einblicke vorhandene Konverterdaten anstelle des Versands der Kampagne verwenden, können sie die Planung vor Eintritt der DSP-Ausgaben unterstützen, wenn geeignete Testdaten verfügbar sind. Nutzen Sie diese Einblicke, um den Start eines Pakets oder einer Platzierung zu planen oder um Ihre nächste Kampagne zu informieren.
 
 Standardmäßig werden Daten für einen bestimmten Advertiser und ein bestimmtes Paket oder eine bestimmte Platzierung angezeigt. Der Datumsbereich des Berichts, das letzte Datum, an dem die Daten aktualisiert wurden, und das nächste Datum, an dem der Bericht aktualisiert wird, sind enthalten. Sie können optional Filter konfigurieren, um Daten für einen anderen Advertiser anzuzeigen oder ein anderes Paket oder eine andere Platzierung auszuwählen.
 
 Zu den Erkenntnissen gehören:
 
-* **[!UICONTROL Affinity Insights]:** Zeigt die Interessen und Verhaltenseigenschaften, die sich aus dem Medienkonsum der Konverter ableiten, sortiert nach ihrer Konversionsratenerhöhung im Verhältnis zur Gesamtbevölkerung.
+* **[!UICONTROL Affinity Insights]:** Zeigt die Interessen und Verhaltenseigenschaften, die sich aus dem Medienkonsum der Konverter ableiten, sortiert nach ihrer Konversionsratenerhöhung im Verhältnis zur Gesamtbevölkerung. **Hinweis:** Eigenschaften beschreiben das Verhalten beim Medienkonsum, nicht verifizierte demografische Attribute. Da Benutzende mehrere Eigenschaften haben können, liegt der Gesamtanteil aller Eigenschaften möglicherweise nicht bei 100 %.
 
 * **[!UICONTROL Temporal Insights]:** Zeigt die Konvertierungsaktivität aggregiert nach *Wochentag* oder *Stunde des Tages* an, damit Sie erkennen können, wann die Zielgruppe dieses Werbetreibenden am aktivsten ist.
 
-* **[!UICONTROL Geographic Insights]:** Zeigt die Konverteraktivität aggregiert nach *Land* oder *Region*, gewichtet nach der Konversionsratenerhöhung im Verhältnis zur Gesamtpopulation.
+* **[!UICONTROL Geographic Insights]:** Zeigt die Konverteraktivität aggregiert nach *Land* oder *Region*, gewichtet nach der Konversionsratenerhöhung im Verhältnis zur Gesamtpopulation.  **Hinweis:** Nur Standorte berücksichtigen, die für Ihr Unternehmen und Ihre Kampagne relevant sind.
 
-* **[!UICONTROL Device Insights]:** Zeigt die Konverteraktivität aggregiert nach Gerätetyp-Mix, gewichtet nach Konversionsraten-Anstieg im Verhältnis zur Gesamtpopulation.
+* **[!UICONTROL Device Insights]:** Zeigt die Konverteraktivität aggregiert nach Gerätetyp-Mix, gewichtet nach Konversionsraten-Anstieg im Verhältnis zur Gesamtpopulation. **Hinweis** Interpretieren Sie Gerätemuster im Kontext der Kampagne. Beispielsweise können CTV- und Nicht-CTV-Kampagnen unterschiedliche Gerätemuster aufweisen.
 
-Jede insight enthält die folgenden Spalten:
+Jede [!UICONTROL Organic Seed Profile] insight enthält die folgenden Spalten:
 
 **[!UICONTROL Bid-stream Users]:** Benutzer im Bid-Stream, die zur Gruppe gehören.
 
@@ -174,7 +178,7 @@ Jede insight enthält die folgenden Spalten:
 
 **[!UICONTROL Bid-stream %]:** Der Prozentsatz der Bid-Stream-Benutzer, die der Gruppe angehören.
 
-**[!UICONTROL Conv. Rate Lift]:** Die Konversionsrate der Gruppe im Verhältnis zur Referenz-Baseline. 1,00x bedeutet die gleiche Rate wie die Baseline; 1,50x bedeutet 50 % höher; 0,50x bedeutet 50 % niedriger. **Hinweis:** Steigerung ist weder eine Prognose noch ein Nachweis für inkrementelle Konversionen.
+**[!UICONTROL Conv. Rate Lift]:** Die Konversionsrate der Gruppe im Verhältnis zur Referenz-Baseline. 1,00x bedeutet die gleiche Rate wie die Baseline; 1,50x bedeutet 50 % höher; 0,50x bedeutet 50 % niedriger. **Hinweis:** Aufzug ist keine Garantie für zukünftige Leistung.
 
 ## Anzeigen von Leistungseinblicken
 
