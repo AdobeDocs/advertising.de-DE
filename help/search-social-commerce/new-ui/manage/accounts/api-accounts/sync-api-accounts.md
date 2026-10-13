@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Update]&quot; generiert und
 
 >[!NOTE]
 >
->Jedes Mal, [&#x200B; Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
+>Jedes Mal, [ Sie eine Bulksheet erstellen](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) können Sie optional mit dem Werbenetzwerk synchronisieren, bevor die Bulksheet erstellt wird.
 
 ## Alle Kampagnen in Anzeigennetzwerkkonten synchronisieren
 
@@ -44,7 +44,7 @@ Für Kampagnen mit der Option &quot;[!UICONTROL Auto Update]&quot; generiert und
 
 Es kann eine Stunde oder länger dauern, bis der Vorgang abgeschlossen ist.
 
-## Synchronisieren Sie Kampagnen über die [!UICONTROL Campaigns].
+## Synchronisieren von Kampagnen über die [!UICONTROL Campaigns]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**.
 

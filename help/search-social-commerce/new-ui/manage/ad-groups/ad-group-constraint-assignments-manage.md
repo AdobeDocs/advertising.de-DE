@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -97,6 +97,6 @@ Wenn Sie die Zuweisung einer Einschränkung aufheben, wird die Verknüpfung mit 
 >[!MORELIKETHIS]
 >
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungen für Suchangebotseinheiten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Einschränkungszuweisungen für Platzierungen](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

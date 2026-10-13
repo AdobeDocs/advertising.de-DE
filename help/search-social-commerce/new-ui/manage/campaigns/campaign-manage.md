@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # Verwalten von Kampagnen
@@ -61,11 +61,13 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](#campaign-reports)
 
+* [Kampagnendaten mit dem Werbenetzwerk synchronisieren](#campaign-sync)
+
 ## Erstellen einer Kampagne {#campaign-create}
 
 >[!NOTE]
 >
->* Bevor Sie eine Kampagne erstellen[&#x200B; implementieren Sie Konversionsverfolgungstags &#x200B;](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
+>* Bevor Sie eine Kampagne erstellen[ implementieren Sie Konversionsverfolgungstags ](/help/search-social-commerce/tracking/conversion-tracking-about.md) den Web-Seiten des Werbetreibenden.
 >* Um eine große Anzahl von Kampagnen gleichzeitig zu erstellen, verwenden Sie<!-- Not available in new UI as of 7/21: the [copy and paste feature](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) or--> [Campaign-Bulksheets](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
@@ -108,7 +110,7 @@ Sie können Einstellungen für einzelne Kampagnen bearbeiten. Sie können auch e
 
    * Aktivieren Sie das Kontrollkästchen neben der Kampagne. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {[&#128279;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[&#x200B; oder &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.
+1. Bearbeiten Sie die [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Kampagneneinstellungen für {](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)}Microsoft Advertising[ oder ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)Yandex“.[
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -426,13 +428,25 @@ Siehe auch &quot;>* [(veraltete Benutzeroberfläche) Daten aus einer Kampagnen-M
 
 1. Klicken Sie in der [!UICONTROL Recently Generated] im [!UICONTROL Grid Reports] auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") neben dem Dateinamen.
 
+## Kampagnendaten mit dem Werbenetzwerk synchronisieren {#campaign-sync}
+
+Sie können auch [Daten für alle Kampagnen innerhalb eines Kontos synchronisieren](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md).
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben dem Namen jeder zu synchronisierenden Kampagne.
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**.
+
+Es kann eine Stunde oder länger dauern, bis der Vorgang abgeschlossen ist.
+
 >[!MORELIKETHIS]
 >
 >* [Einschränkungen für Suchangebotseinheiten verwalten](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Einschränkungszuweisungen für Anzeigengruppen verwalten](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Verwalten von Einschränkungszuweisungen für Schlüsselwörter](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [Einschränkungszuweisungen für Platzierungen verwalten](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
->* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [ (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)

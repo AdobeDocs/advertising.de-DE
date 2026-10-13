@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Sie können Daten von den Ansichten [!UICONTROL Search, Social, & Commerce] > [!
 
 >[!NOTE]
 >
->Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
+>Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Optional) Wählen Sie einzelne Zeilen aus, die in die Datei aufgenommen werden sollen.
 
@@ -56,5 +56,5 @@ Sie können Daten von den Ansichten [!UICONTROL Search, Social, & Commerce] > [!
 >
 >* [(Alte Benutzeroberfläche) Löschen eines Leistungsdatenberichts oder einer Bulksheet-Datei aus dem [!UICONTROL Downloads] Menü](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
