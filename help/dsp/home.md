@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: ea1bd4b6427a4a7e46a0ece7cab70439cc2c5be4
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7794'
 ht-degree: 0%
 ---
 # Neue Funktionen in DSP
@@ -50,6 +50,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;9. Oktober | [!UICONTROL Insights] | Zwei neue Einblicke sind verfügbar:<ul><li>[!UICONTROL Delivery Composition] gibt Aufschluss darüber, wie das Modell bei allen Benutzern mit unterschiedlicher Konvertierungswahrscheinlichkeit Gebote abgibt. Verwenden Sie diese insight, um eine Platzierung zu überprüfen, die bereitstellt.</li><li>[!UICONTROL Organic Seed Profile] zeigt die Interessen, Zeiten, Standorte und Geräte an, die mit Ihren Konvertern verbunden sind. Verwenden Sie diesen Inhalt, um den Start eines Pakets oder einer Platzierung zu planen oder Ihre nächste Kampagne zu informieren.</li></ul> | Siehe &quot;[&#x200B; zu Einblicken](/help/dsp/campaign-management/insights/insights-about.md). |
 | &#x200B;14. August 2026 | [!UICONTROL Reports] | Der neue [!UICONTROL DSP Self-Attributed Conversions] zeigt den Beitrag von Advertising DSP zu Konversionen an - einschließlich Kunden-Journeys, bei denen DSP eine Rolle spielte, aber ein späterer Touch, wie z. B. ein Adobe Advertising-Suchklick, in anderen Berichten gutgeschrieben wurde. Dies ist am nützlichsten für Werbetreibende, die sowohl Advertising DSP als auch Advertising Search, Social und Commerce verwenden. | Siehe &quot;[Informationen zu benutzerdefinierten Berichten](/help/dsp/reports/report-about.md) und &quot;[Häufig gestellte Fragen zu benutzerdefinierten Berichten](/help/dsp/reports/faq-reports.md)&quot;. |
 | &#x200B;1. Juli 2026 | [!DNL Creative] | Die folgenden Beta-Funktionen sind in Advertising Creative verfügbar:<ul><li>**[!UICONTROL Creative Studio]** verwendet generative KI, um Anzeigen über mehrere Formate hinweg in einer Sitzung zu erstellen, zu skalieren und zu verfeinern. Verwenden Sie eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.</li><li>Erstellen und verwalten Sie **[!UICONTROL brand profiles]**, die die visuelle Identität Ihrer Marke und Ihre Messaging-Identität widerspiegeln, einschließlich Ihres Logos, Ihrer Farbpalette, Ihrer Sprachrichtlinien, Bildstandards und kanalspezifischer Kopierrichtlinien. Wenn Sie in [!UICONTROL Creative Studio] Anzeigen erstellen, verwendet der KI-Agent Markenprofilinformationen, um die Inhaltserstellung in Ihrer spezifischen Marke zu ermöglichen.</li></ul> | Siehe &quot;[Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md) und &quot;[Verwalten von Markenprofilen](/help/creative/brands/brand-manage.md). |
 | &#x200B;23. Juni 2026 | [!UICONTROL Placements], Postleitzahlen | Sie können jetzt Listen mit Postleitzahlen für einzelne Länder erstellen, die als Platzierungsziele oder -ausschlüsse wiederverwendet werden können. | Siehe [Verwalten von Postleitzahllisten](/help/dsp/resources/lists-postal-codes-manage.md) und [Platzierungseinstellungen](/help/dsp/campaign-management/placements/placement-settings.md). |
