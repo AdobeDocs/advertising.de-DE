@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '177'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Über die [!UICONTROL Campaigns]
@@ -44,17 +44,24 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 * [View a performance graph across all campaigns in the view](campaign-view-performance-graph.md)
 -->
 
-* Umbenennen einer Kampagne innerhalb der Zeile.
 
-* Löschen oder Ändern des Status einer Kampagne in der Zeile.
+<!--
 
-* [Zuweisen von Kampagnen zu vorhandenen oder neuen Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) und [Aufheben der Zuweisung von Kampagnen zu Portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+Links to unused (separate) pages:
 
-* [Zuweisen von Einschränkungen zu Kampagnen und Aufheben der Zuweisung von Einschränkungen zu Kampagnen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+* Rename a campaign from within the row.
 
-* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Kampagnen
+* Delete or change the status of a campaign from within the row.
 
-* [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+
+* [Assign constraints to campaigns, and unassign constraints from campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
+
+* [Assign label classifications](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) to campaigns
+
+* [Manage data view reports from the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
+
+-->
 
 >[!MORELIKETHIS]
 >
