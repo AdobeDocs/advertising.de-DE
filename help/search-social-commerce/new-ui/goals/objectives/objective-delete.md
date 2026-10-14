@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Löschen eines Ziels
@@ -34,7 +34,11 @@ Sie können ein Ziel löschen, das keinem Portfolio zugewiesen ist.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Ziel. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") **[!UICONTROL Delete]**.
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Halten Sie für ein einzelnes Ziel den Cursor über den Zielnamen und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+   * Aktivieren Sie für ein oder mehrere Ziele das Kontrollkästchen neben den einzelnen zu löschenden Zielen. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") **[!UICONTROL Delete]**.
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
@@ -45,3 +49,4 @@ Sie können ein Ziel löschen, das keinem Portfolio zugewiesen ist.
 >* [Bearbeiten eines Ziels](objective-edit.md)
 >* [Wenden Sie Gewichtungsempfehlungen auf ein Ziel an](objective-apply-weight-recommendations.md)
 >* [Zieleinstellungen](objective-settings.md)
+>* [Exportieren einer objektiven Konfiguration](objective-export.md)

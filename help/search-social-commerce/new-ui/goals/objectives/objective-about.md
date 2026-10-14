@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Über Ziele
@@ -70,7 +70,7 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 * (Advertisers mit [!DNL Adobe Analytics for Advertising]) [Konversions- und Site-Interaktionsmetriken wurden aus Adobe Analytics synchronisiert](/help/integrations/analytics/overview.md).
 
-  In Search, Social und Commerce [&#128279;](/help/integrations/analytics/analytics-data-in-advertising.md) die folgenden Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
+  In Search, Social und Commerce ](/help/integrations/analytics/analytics-data-in-advertising.md) die folgenden [Metriken zur Website-Interaktion automatisch in die Angebotsalgorithmen des Portfolios einbezogen: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` und `bounces`.
 
 * [!DNL Google] Metriken:<!-- Search only, or might DSP-only clients also have these? -->
 
@@ -82,7 +82,21 @@ Sie können eine der folgenden Komponenten in Ihre Ziele einbeziehen:
 
 ## Option zum Hochladen von Zielen in die Werbenetzwerke
 
-Sie können [&#x200B; Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](/help/search-social-commerce/tools/objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
+Sie können [ Ziele für die Portfolios des Kontos als Konversionen in  [!DNL Google Ads] /oder  [!DNL Microsoft Advertising]  hochladen](objective-upload-to-networks.md) sodass Sie sie für die Optimierung auf Kampagnen- oder Anzeigengruppenebene verwenden können. Wenn Sie die Option aktivieren, übergeben Search, Social und Commerce die gewichteten Umsatzdaten auf EF-ID-Ebene (Klick-ID) täglich an das Werbenetzwerk. Dabei werden alle vom Anzeigennetzwerk verfolgten Metriken weggelassen.
+
+## Verfügbare Aktionen
+
+* [Erstellen eines Ziels](objective-create.md)
+
+* [Bearbeiten eines Ziels](objective-edit.md)
+
+* [Gewichtungsempfehlungen auf ein Ziel anwenden](objective-apply-weight-recommendations.md)
+
+* [Exportieren einer objektiven Konfiguration in ein  [!DNL Microsoft Excel] ](objective-export.md)
+
+* [Herunterladen von Leistungsdaten für Ziele](objective-download-performance-data.md)
+
+* [Löschen eines Ziels](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ Sie können [&#x200B; Ziele für die Portfolios des Kontos als Konversionen in  
 >* [Löschen eines Ziels](objective-delete.md)
 >* [Wenden Sie Gewichtungsempfehlungen auf ein Ziel an](objective-apply-weight-recommendations.md)
 >* [Zieleinstellungen](objective-settings.md)
+>* [Exportieren einer objektiven Konfiguration](objective-export.md)
 >* [Leistungsdaten für Ziele herunterladen](objective-download-performance-data.md)

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Über Portfolios
@@ -73,11 +73,11 @@ Ein Portfolio kann die folgenden Status aufweisen:
 
 ## Die [!UICONTROL Portfolios]
 
-In der [!UICONTROL Portfolios] werden alle vorhandenen Portfolios in der gefilterten Ansicht mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+In der [!UICONTROL Portfolios] werden alle vorhandenen Portfolios in der gefilterten Ansicht mit anpassbaren Leistungsdaten aufgelistet. Sie können [die Spalten innerhalb der Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) und Daten so filtern, dass bestimmte Portfolios [aus der Symbolleiste ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) aus der [Spaltenüberschrift](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Oberhalb der Datentabelle können Sie ein Leistungsdiagramm mit bis zu drei Metriken öffnen, die sich über alle Portfolios in der Ansicht für den angegebenen Datumsbereich summieren. Sie können auch Portfoliodetails öffnen, einschließlich Portfolioleistung und -genauigkeit, sowie Leistungsdaten für jede Kampagne, Anzeigengruppe und jedes Keyword im Portfolio.
 
-Sie können einige Einstellungen, einschließlich des Portfoliostatus, direkt in der Portfoliozeile bearbeiten.
+Sie können einige Einstellungen, einschließlich des Portfoliostatus, direkt in der Portfoliozeile bearbeiten. Wenn ein Portfolio oder seine zugehörigen Kampagnen und untergeordneten Kampagnenentitäten mit Einschränkungen konfiguriert sind, die sich auf die Ausgaben auswirken (einschließlich Netzwerk, Kampagnenbudget, Ziel, CPC-Beschränkungen oder Einschränkungen der Gebotseinheiten), klicken Sie auf [!UICONTROL Yes] in der Spalte [!UICONTROL Constraints] , um eine Liste aller Einschränkungen anzuzeigen, einschließlich der Einschränkungsebene und des -typs.
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Verfügbare Aktionen

@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
@@ -53,7 +53,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
   * **[!UICONTROL Manager Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad Network Manager-Konto](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) fehlen, die für die korrekte Einrichtung kritischer Funktionen erforderlich sind.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-  * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [&#x200B; Zuweisung eines &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
+  * **[!UICONTROL UI Actions]**: Benachrichtigungen, dass Ihre im Hintergrund ausgeführten Aufträge abgeschlossen wurden oder fehlgeschlagen sind. Zu den Vorgangstypen gehören [Bulksheet-Aufträge](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available--> Massenbearbeitungsaufträge innerhalb der Datentabelle oder über die Symbolleiste, Entitätszuweisungsaufträge oder andere Aktionen in der Benutzeroberfläche (z. B. Synchronisieren mit Werbenetzwerken, Einfügen von Zeilen oder Umbenennen von Entitäten). Die Zuordnung von Entitäten umfasst die Zuweisung oder Aufhebung [ Zuweisung eines ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)Kennzeichnungswerts“ zu einer Entität, die Zuweisung einer Kampagne zu einem Portfolio und [die Zuweisung oder Aufhebung der Zuweisung einer Angebotsbegrenzung zu einer Entität](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 
   * [!UICONTROL Data Upload]
 
@@ -65,7 +65,7 @@ Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen ode
 
     * **[!UICONTROL Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht auf ein [Ad-](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)-Netzwerkkonto zugreifen konnten.
 
-    * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ &#x200B;](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).
+    * **[!UICONTROL Account Missing]**: Benachrichtigungen, dass in Search, Social und Commerce die Anmeldeinformationen für ein [Ad-Netzwerkkonto“ ](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).
 
     * **[!UICONTROL Manager Account Auth Error]**: Benachrichtigungen, dass Search, Social und Commerce aufgrund ungültiger Anmeldeinformationen oder eines ungültigen oder abgelaufenen Autorisierungstokens nicht mit einem [Ad Network Manager-](/help/search-social-commerce/admin/manager-accounts.md) synchronisiert werden konnte.<!-- Update link once file for new UI available-->
 
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Verfügbare Aktionen
 
 * [Anzeigen von Benachrichtigungen](#notification-view)
 
 * [Benachrichtigungseinstellungen bearbeiten](#notification-edit)
 
-* [Markieren einer Benachrichtigung als gelesen oder ungelesen](#notification-mark-read-unread)
+* [Benachrichtigungen als gelesen oder ungelesen markieren](#notification-mark-read-unread)
 
 * [Löschen einer Benachrichtigung](#notification-delete)
 
@@ -148,7 +147,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -174,7 +173,7 @@ Wenn Sie [abonnierte Benachrichtigungen](#notification-edit) über Fehler bei de
 
      In einigen Benachrichtigungen kann der [!UICONTROL Action Recommended] einen Link enthalten, der eine gefilterte Ansicht der betroffenen oder verantwortlichen Entitäten öffnet.
 
-   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder &#x200B;](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
+   * Um eine Benachrichtigung als *gelesen* oder *ungelesen* zu markieren, halten Sie den Cursor über dem Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder ](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder ungelesen markieren").
 
      Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren Text, bleiben aber verfügbar, bis Sie sie löschen.
 
@@ -208,7 +207,7 @@ Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Konto
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Markieren einer Benachrichtigung als gelesen oder ungelesen {#notification-mark-read-unread}
+## Benachrichtigungen als gelesen oder ungelesen markieren {#notification-mark-read-unread}
 
 Wenn Sie eine Benachrichtigung als *gelesen* oder *ungelesen* markieren, ändert sich die Anzahl der ungelesenen Benachrichtigungen, die im [!UICONTROL Notifications] Link oben auf jeder Seite angezeigt werden (z. B. ![Benachrichtigungssymbol mit dem Zähler für ungelesene Benachrichtigungen](/help/search-social-commerce/assets/notifications-unread.png "Benachrichtigungssymbol mit dem Zähler für ungelesene Benachrichtigungen")).
 
@@ -218,7 +217,11 @@ Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren 
 
 1. [Öffnen Sie den Benachrichtigungsbereich oder das Benachrichtigungszentrum](#notification-view).
 
-1. Halten Sie den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als gelesen oder Ungelesen markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder Ungelesen markieren").
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Halten Sie für eine einzelne Benachrichtigung den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder Ungelesen](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen markieren oder Ungelesen markieren").
+
+   * Um alle Benachrichtigungen als gelesen zu markieren, klicken Sie auf **[!UICONTROL Mark all as read]**.
 
 ## Löschen einer Benachrichtigung {#notification-delete}
 

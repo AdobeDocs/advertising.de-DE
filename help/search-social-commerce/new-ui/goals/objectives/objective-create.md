@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Erstellen eines Ziels
@@ -62,4 +62,5 @@ Ziele mit dem Präfix &quot;`ADSP_`&quot; (nicht unter Berücksichtigung der Gro
 >* [Bearbeiten eines Ziels](objective-edit.md)
 >* [Wenden Sie Gewichtungsempfehlungen auf ein Ziel an](objective-apply-weight-recommendations.md)
 >* [Zieleinstellungen](objective-settings.md)
+>* [Exportieren einer objektiven Konfiguration](objective-export.md)
 >* [Leistungsdaten für Ziele herunterladen](objective-download-performance-data.md)
