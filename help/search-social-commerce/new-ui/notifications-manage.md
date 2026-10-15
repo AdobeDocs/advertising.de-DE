@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Verfügbare Aktionen
 
 * [Anzeigen von Benachrichtigungen](#notification-view)
 
 * [Benachrichtigungseinstellungen bearbeiten](#notification-edit)
 
-* [Markieren einer Benachrichtigung als gelesen oder ungelesen](#notification-mark-read-unread)
+* [Benachrichtigungen als gelesen oder ungelesen markieren](#notification-mark-read-unread)
 
 * [Löschen einer Benachrichtigung](#notification-delete)
 
@@ -208,7 +207,7 @@ Optional können Sie E-Mail- und Web-Benachrichtigungen zu Fehlern bei der Konto
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Markieren einer Benachrichtigung als gelesen oder ungelesen {#notification-mark-read-unread}
+## Benachrichtigungen als gelesen oder ungelesen markieren {#notification-mark-read-unread}
 
 Wenn Sie eine Benachrichtigung als *gelesen* oder *ungelesen* markieren, ändert sich die Anzahl der ungelesenen Benachrichtigungen, die im [!UICONTROL Notifications] Link oben auf jeder Seite angezeigt werden (z. B. ![Benachrichtigungssymbol mit dem Zähler für ungelesene Benachrichtigungen](/help/search-social-commerce/assets/notifications-unread.png "Benachrichtigungssymbol mit dem Zähler für ungelesene Benachrichtigungen")).
 
@@ -218,7 +217,11 @@ Benachrichtigungen, die als *gelesen* gekennzeichnet sind, haben einen helleren 
 
 1. [Öffnen Sie den Benachrichtigungsbereich oder das Benachrichtigungszentrum](#notification-view).
 
-1. Halten Sie den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als gelesen oder Ungelesen markieren](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen oder Ungelesen markieren").
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Halten Sie für eine einzelne Benachrichtigung den Cursor über den Namen des Warnhinweises und klicken Sie auf ![Als gelesen markieren oder Ungelesen](/help/search-social-commerce/assets/notifications-read-unread.png "Als gelesen markieren oder Ungelesen markieren").
+
+   * Um alle Benachrichtigungen als gelesen zu markieren, klicken Sie auf **[!UICONTROL Mark all as read]**.
 
 ## Löschen einer Benachrichtigung {#notification-delete}
 

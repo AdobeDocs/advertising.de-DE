@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten benutzerdefinierter Warnhinweise
 
-Erstellen Sie Warnhinweisvorlagen, um zu ermitteln, wann ein Portfolio, eine Kampagne oder eine Anzeigengruppe während eines bestimmten Zeitraums bestimmte Bedingungen erfüllt (z. B. eine Leistungsmetrik), und generieren Sie dann einen Warnhinweis. Warnhinweise sind für einen einzelnen Werbetreibenden verfügbar. Warnhinweise enthalten alle Spalten in der entsprechenden Standardansicht. Warnhinweise auf Kampagnenebene enthalten beispielsweise alle Spalten in der [!UICONTROL Campaigns].
+Erstellen Sie Warnhinweisvorlagen, um zu identifizieren, wann ein Portfolio, ein Konto, eine Kampagne, eine Anzeigengruppe, eine Anzeige, ein Keyword oder eine Produktgruppe während eines bestimmten Zeitraums bestimmte Bedingungen erfüllt - z. B. eine Leistungsmetrik -, und generieren Sie dann einen Warnhinweis. Warnhinweise sind für einen einzelnen Werbetreibenden verfügbar. Warnhinweise enthalten alle Spalten in der entsprechenden Standardansicht. Warnhinweise auf Kampagnenebene enthalten beispielsweise alle Spalten in der [!UICONTROL Campaigns].
 
 Sie können Warnhinweisvorlagen entweder über die Registerkarte [!UICONTROL Alert Templates] im [!UICONTROL Custom Alerts] oder über eine beliebige Seite erstellen.
 
@@ -75,7 +75,7 @@ Neue Warnhinweisvorlagen haben den Status &quot;[!UICONTROL Active]&quot;.
 
    * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerdefinierter Warnhinweis](/help/search-social-commerce/assets/custom-alert.png "Benutzerdefinierter Warnhinweis") > **[!UICONTROL Create Custom Alert]**.
 
-   Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerdefinierter Warnhinweis](/help/search-social-commerce/assets/custom-alert.png "Benutzerdefinierter Warnhinweis") > **[!UICONTROL View Custom Alerts]**. Daraufhin wird die Registerkarte [!UICONTROL Alert Templates] geöffnet. Klicken Sie auf **[!UICONTROL Create Alert]**.
+   * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Benutzerdefinierter Warnhinweis](/help/search-social-commerce/assets/custom-alert.png "Benutzerdefinierter Warnhinweis") > **[!UICONTROL View Custom Alerts]**. Daraufhin wird die Registerkarte [!UICONTROL Alert Templates] geöffnet. Klicken Sie auf **[!UICONTROL Create Alert]**.
 
 1. Geben Sie [Warnhinweiseinstellungen](#alert-template-settings) auf den Registerkarten **[!UICONTROL Entity]**, **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** und **[!UICONTROL Scheduling and Delivery]** an.
 

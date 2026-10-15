@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # Verwalten von Kampagnen
@@ -47,17 +47,19 @@ Search, Social und Commerce rufen Leistungsdaten stündlich von synchronisierten
 
 * [Kampagneneinstellungen bearbeiten](#campaign-edit)
 
-* [Ändern des Status einer Kampagne in der Zeile oder Löschen einer Kampagne](#campaign-status)
+* [Ändern des Status einer Kampagne in der Zeile](#campaign-status)
 
 * [Zuweisen von Kampagnen zu einem Portfolio und Entfernen von Kampagnen aus einem Portfolio](#campaign-portfolio)
-
-* [Anzeigen eines Leistungsdiagramms in der [!UICONTROL Campaigns]](#campaign-performance-graph)
 
 * [Zuweisen von Angebotsbeschränkungen zu Kampagnen und Aufheben der Zuweisung von Beschränkungen zu Kampagnen](#campaign-constraints)
 
 * [Zielgruppeneinschränkungen Kampagnen zuweisen und die Zuweisung von Zielgruppeneinschränkungen zu Kampagnen aufheben](#campaign-target-constraints)
 
 * [Zuweisen von Label-Klassifizierungen zu Kampagnen und Entfernen von Label-Klassifizierungen aus Kampagnen](#campaign-classifications)
+
+* [Anzeigen eines Leistungsdiagramms in der [!UICONTROL Campaigns]](#campaign-performance-graph)
+
+* [Verlauf des Kampagnenbudgets anzeigen](#campaign-budget-history)
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns]](#campaign-reports)
 
@@ -377,6 +379,14 @@ Das Entfernen eines Klassifizierungswerts entfernt die Verknüpfung mit der Kont
 ### Ausblenden eines sichtbaren Leistungsdiagramms
 
 * Klicken Sie über der Datentabelle auf ![Diagramme](/help/search-social-commerce/assets/charts.png "Diagramme").
+
+## Verlauf des Kampagnenbudgets anzeigen {#campaign-budget-history}
+
+Der Budgetverlauf listet jede Änderung am Kampagnenbudget auf, einschließlich der Quelle der Änderung.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Halten Sie den Cursor über den Kampagnennamen und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Budget Change History]**.
 
 ## Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] {#campaign-reports}
 

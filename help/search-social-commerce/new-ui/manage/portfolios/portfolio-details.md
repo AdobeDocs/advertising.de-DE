@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Anzeigen von Details zur Portfolioleistung
@@ -38,7 +38,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 * Modellgenauigkeitsdaten für aktive Portfolios, die zeigen, wie stark die Modelle von den Prognosen abwichen. Der Bericht zeigt die tägliche oder rollierende Kostengenauigkeit für sieben Tage, die Klickgenauigkeit und die objektive Wertgenauigkeit an.
 
-  Sie können Daten nach Klickdatum (Standard) oder Transaktionsdatum anzeigen.   Sie können die Daten auch entweder als Trenddiagramm (Standard) oder als Tabelle anzeigen.
+  Sie können Daten nach Klickdatum (Standard) oder Transaktionsdatum anzeigen. Sie können die Daten auch entweder als Trenddiagramm (Standard) oder als Tabelle anzeigen.
 
 * Die Zielausgaben im Vergleich zu den tatsächlichen Ausgaben für aktive Portfolios. Optional können Sie auch die gesamten Kampagnenbudgets für das Portfolio einbeziehen.
 
@@ -48,11 +48,23 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
   Optional können Sie die Portfolioeinstellungen öffnen, um sie zu bearbeiten.
 
+* Listen der Kampagnen, Anzeigengruppen und Keywords im Portfolio. Für einzelne Keywords können Sie Details zu Gebotseinheiten anzeigen, einschließlich Prognosen, historischen Informationen und hierarchischen Informationen.
+
+  Die [!UICONTROL Bid Unit Details] enthält die folgenden Prognosen, historische Informationen und hierarchische Informationen für die ausgewählte Gebotseinheit:
+
+  * Registerkarte &quot;[!UICONTROL Forecast]&quot;: Die derzeit prognostizierten Klicks, Kosten, Kosten pro Klick, Position und Umsatz für die Gebotseinheit zu unterschiedlichen Gebotspreisen. Daten werden für alle Geräte und für jeden Gerätetyp ([!UICONTROL Mobile], [!UICONTROL Computer] und [!UICONTROL Tablet]) angezeigt.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **Hinweis:** Für einen Gerätetyp sind keine Prognosedaten verfügbar, wenn nicht genügend gerätespezifische Daten zum Erstellen von Modellen und Festlegen von Anpassungen für diesen Gerätetyp verfügbar sind. **Hinweis:** Die Kosten- oder Umsatzgenauigkeit für jede Gebotseinheit innerhalb eines Portfolios, die während eines bestimmten Datumsbereichs einen Klick erhalten hat, finden Sie in den Details zur Kostengenauigkeit bzw. Umsatzgenauigkeit des Portfolios.
+
+  * Registerkarte [!UICONTROL History]: Alle Gebote der letzten 36 Tage, einschließlich der folgenden Daten für jedes der Gebote: Datum und Uhrzeit, Impressionen, Klicks, Gesamtkosten, durchschnittliche CPC, durchschnittliche Position und gewichteter Umsatz nach Klickdatum. Die Daten werden für alle Geräte und für jeden Gerätetyp (Smartphone, Computer und Tablet) angezeigt.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * Registerkarte &quot;[!UICONTROL Detail]&quot;: Der Übereinstimmungstyp (falls zutreffend) und die übergeordnete Anzeigengruppe, Kampagne, das Anzeigennetzwerkkonto und das Portfolio, zu dem die Gebotseinheit gehört.
+
 ## Leistungsdetails für ein Portfolio öffnen
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Klicken Sie auf den Portfolionamen.
+1. Halten Sie den Cursor über den Portfolionamen und klicken Sie auf  (/help/search-social-commerce/assets/portfolio-overview.png &quot;Portfolio Overview„).
 
 1. (Optional) Ändern Sie im Menü **[!UICONTROL Data Aggregation]** die Zeiteinheit der in den einzelnen Zeilen enthaltenen Daten: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly].*
 
@@ -114,13 +126,17 @@ Details zu jeder Anzeigengruppe enthalten die Kosten, Klicks und den Zielwert.
 
 * Um alle Anzeigengruppen in einer Kampagne innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** und dann auf den Namen der Kampagne.
 
-## Auflisten der Keywords im Portfolio
+## Auflisten und Anzeigen von Details zu Schlüsselwörtern im Portfolio
 
-Zu den Details für jedes Keyword gehören die ID der Gebotseinheit, der Übereinstimmungstyp, die tatsächlichen und prognostizierten Kosten, Klicks und der Zielwert sowie die Differenz der Kosten, Klicks und Zielwerte.
+Zu den Details für jedes Keyword gehören die ID der Gebotseinheit, der Übereinstimmungstyp, die tatsächlichen und prognostizierten Kosten, Klicks und der Zielwert sowie die Differenz der Kosten, Klicks und Zielwerte. Sie können Details zu Gebotseinheiten für ein einzelnes Keyword anzeigen.
 
-* Um alle Keywords im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Keywords]** .
+1. Auflisten der Keywords:
 
-* Um alle Keywords in einer Anzeigengruppe innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Ad Groups]** und dann auf den Namen der Anzeigengruppe.
+   * Um alle Keywords im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Keywords]** .
+
+   * Um alle Keywords in einer Anzeigengruppe innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Ad Groups]** und dann auf den Namen der Anzeigengruppe.
+
+1. (Optional) Um Details zu einer bestimmten Gebotseinheit anzuzeigen, klicken Sie auf den Wert in der Spalte **[!UICONTROL Bid Unit ID]** . Klicken Sie auf eine beliebige Registerkarte im [!UICONTROL Bid Unit Details], um weitere Informationen zu erhalten.
 
 ## Portfolioeinstellungen anzeigen und bearbeiten
 

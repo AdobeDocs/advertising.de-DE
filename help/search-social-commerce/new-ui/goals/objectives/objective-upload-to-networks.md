@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Hochladen von Zielen in Werbenetzwerke aktivieren
@@ -42,7 +42,7 @@ Uploads auf [!DNL Google Ads] und [!DNL Microsoft Advertising] erfolgen über de
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**.
 
-1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Upload Objective]**.
+1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Objective Upload]**.
 
 1. Legen Sie im Dialogfeld [!UICONTROL Objective Upload Setup] den Umschalter **[!UICONTROL Enable Objective Upload]** auf **[!UICONTROL On]** fest.
 
@@ -94,6 +94,7 @@ Wenn das Ziel - namens `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 >[!MORELIKETHIS]
 >
 >* [Über Ziele](objective-about.md)
+>* [Exportieren einer objektiven Konfiguration](objective-export.md)
 >* [Konversionsmetriken eines Werbetreibenden verwalten](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Verwalten von Anmeldeinformationen für  [!DNL Google Ads] -Manager-Konten](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 

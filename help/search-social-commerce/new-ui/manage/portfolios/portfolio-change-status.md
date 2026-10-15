@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
@@ -26,7 +26,11 @@ Wenn Sie nicht mehr Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die ent
 
 Alle Änderungen am Portfoliostatus werden im Änderungsverlauf des Portfolios protokolliert.
 
-## Portfolios optimieren, aktivieren oder deaktivieren
+>[!NOTE]
+>
+>Sie können den Status mehrerer Portfolios mithilfe von [Portfolio-Bulksheets“ &#x200B;](portfolio-bulksheets.md).
+
+## Optimieren, Aktivieren oder Deaktivieren eines Portfolios in der [!UICONTROL Portfolios]
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -49,7 +53,7 @@ Alle Änderungen am Portfoliostatus werden im Änderungsverlauf des Portfolios p
      >* Sobald Search, Social und Commerce mit der Optimierung eines Portfolios beginnen, können alle zukünftigen Kampagnenbudgets und (falls zutreffend) Angebotsänderungen verwaltet werden. Search, Social und Commerce überschreiben alle Änderungen, die Sie innerhalb des Werbenetzwerks vornehmen.
      >* Sie können vorübergehend manuelle Gebote für jede optimierte CPC-Kampagne im Portfolio festlegen, indem Sie Kampagnen-Bulksheets erstellen und veröffentlichen. Alle Gebotsänderungen, die sich aus den veröffentlichten Daten ergeben, sind für einen Tag gültig. Danach setzt Search, Social und Commerce die Angebote gemäß ihrer eigenen Optimierungsstrategie fort.
 
-## Löschen eines inaktiven Portfolios
+## Löschen eines inaktiven Portfolios aus der [!UICONTROL Portfolios]
 
 Sie können nur inaktive Portfolios löschen. Wenn das Portfolio optimiert oder aktiv ist, müssen Sie zunächst seinen Status in inaktiv ändern, bevor Sie die Möglichkeit haben, es zu löschen.
 
