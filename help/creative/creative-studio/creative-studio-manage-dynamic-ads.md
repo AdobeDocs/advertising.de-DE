@@ -3,20 +3,19 @@ title: Verwalten von dynamischen Kreativen in Creative Studio
 description: Erfahren Sie, wie Sie kataloggesteuerte dynamische Kreative in Adobe Advertising Creative Studio erstellen, bearbeiten, duplizieren und löschen.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # Verwalten dynamischer Kreative in [!UICONTROL Creative Studio]
-
-*Beta-Funktion*
 
 Auf der Registerkarte **[!UICONTROL Creatives]** in [!UICONTROL Creative Studio] werden Ihre dynamischen Kreativen nach Bibliothek aufgelistet. Hier können Sie neue kataloggesteuerte dynamische Kreative erstellen, die Details und Attributzuordnungen vorhandener Kreativer bearbeiten, Änderungsprotokolle anzeigen, Kreative duplizieren und Kreative löschen.
 
@@ -96,26 +95,26 @@ Ordnen Sie jedes Katalogfeld dem entsprechenden Element in Ihrer Vorlage zu. Ord
 
       * So bearbeiten Sie eine Anzeigenkombination:
 
-         1. Halten Sie den Cursor über der Katalogzeile und klicken Sie auf **[!UICONTROL Edit]**.
+        1. Halten Sie den Cursor über der Katalogzeile und klicken Sie auf **[!UICONTROL Edit]**.
 
-         1. Aktualisieren Sie im Dialogfeld &quot;**[!UICONTROL Edit Row]**&quot; die Feldwerte.
+        1. Aktualisieren Sie im Dialogfeld &quot;**[!UICONTROL Edit Row]**&quot; die Feldwerte.
 
-         1. Klicken Sie auf **[!UICONTROL Save]**.
+        1. Klicken Sie auf **[!UICONTROL Save]**.
 
         Die Arbeitsfläche wird aktualisiert, um die aktualisierten Werte widerzuspiegeln.
 
       * Verwenden Sie das **[!UICONTROL AI Assistant]** Chat-Bedienfeld, um Katalogkombinationen zu analysieren und zu filtern. Geben Sie Ihre Anfrage in das Feld **[!UICONTROL Ask anything]** ein oder klicken Sie auf eine der vorgeschlagenen Eingabeaufforderungen:
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         Der KI-Agent kann:
 
-         * Filtern Sie die Arbeitsfläche nach Anzeigen, die einem bestimmten Zielgruppensegment, einer bestimmten Geografie, Sprache, Kategorie oder einem anderen Katalogfeld entsprechen.
-         * Prüfen Sie auf Qualitätsprobleme wie Überschreitungen der Zeichenbeschränkung, Inhaltsüberlauf oder Anschnitt, fehlerhafte Bild-Links und Sichtbarkeit des Haftungsausschlusses.
-         * Vergleichen Sie Anzeigenkombinationen für die A/B-Testanalyse.
-         * Organisieren Sie Anzeigen in Gruppen, um sie nebeneinander anzuzeigen.
+        * Filtern Sie die Arbeitsfläche nach Anzeigen, die einem bestimmten Zielgruppensegment, einer bestimmten Geografie, Sprache, Kategorie oder einem anderen Katalogfeld entsprechen.
+        * Prüfen Sie auf Qualitätsprobleme wie Überschreitungen der Zeichenbeschränkung, Inhaltsüberlauf oder Anschnitt, fehlerhafte Bild-Links und Sichtbarkeit des Haftungsausschlusses.
+        * Vergleichen Sie Anzeigenkombinationen für die A/B-Testanalyse.
+        * Organisieren Sie Anzeigen in Gruppen, um sie nebeneinander anzuzeigen.
 
         Der KI-Agent kann Kataloginhalte nicht ändern. Um Anzeigeninhalte zu ändern, aktualisieren Sie den Quellkatalog.
 
@@ -139,8 +138,8 @@ Ordnen Sie jedes Katalogfeld dem entsprechenden Element in Ihrer Vorlage zu. Ord
    * **[!UICONTROL Dynamic creative name]:** Der Anzeigename für den Kreativen.
    * **[!UICONTROL Number of cards]:** Die Anzahl der in jeder Anzeigenkombination enthaltenen Katalogangebote (1-50).
    * (Optional) Aktualisieren Sie unter **[!UICONTROL Catalogs]** die Katalogauswahl:
-      * Verwenden Sie **[!UICONTROL Catalog template]**, um verfügbare Kataloge zu filtern. Um optional die Vorlagendatei herunterzuladen, klicken Sie auf **[!UICONTROL Download feed template]**.
-      * Suchen und wählen Sie Kataloge aus der Liste aus oder laden Sie eine neue Katalogdatei hoch, indem Sie sie in den Upload-Bereich ziehen oder auf **[!UICONTROL Browse Files]** klicken (unterstützte Formate: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; maximal 25 MB; jeweils eine Datei). Hochgeladene Kataloge sind in der **mit** (hochgeladen) gekennzeichnet.
+     * Verwenden Sie **[!UICONTROL Catalog template]**, um verfügbare Kataloge zu filtern. Um optional die Vorlagendatei herunterzuladen, klicken Sie auf **[!UICONTROL Download feed template]**.
+     * Suchen und wählen Sie Kataloge aus der Liste aus oder laden Sie eine neue Katalogdatei hoch, indem Sie sie in den Upload-Bereich ziehen oder auf **[!UICONTROL Browse Files]** klicken (unterstützte Formate: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; maximal 25 MB; jeweils eine Datei). Hochgeladene Kataloge sind in der **mit** (hochgeladen) gekennzeichnet.
 
      Alle Kataloge müssen derselben Katalogvorlagenfamilie angehören.
 

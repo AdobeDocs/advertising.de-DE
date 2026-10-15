@@ -4,20 +4,19 @@ description: Erfahren Sie, wie Sie Standard-Display-Anzeigen in der Creative Stu
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: '1182'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Standardanzeigen in [!UICONTROL Creative Studio]
-
-*Beta-Funktion*
 
 Die Registerkarte **[!UICONTROL Creatives]** in [!UICONTROL Creative Studio] ist Ihre Bibliothek mit standardmäßigen Display-Anzeigen, die aus Vorlagen generiert wurden. Von hier aus können Sie Anzeigen mit dem [!UICONTROL Ad Variations Generator] erstellen, gespeicherte Anzeigen bearbeiten, neue Varianten aus einer vorhandenen Anzeige generieren, das Änderungsprotokoll anzeigen, duplizieren, herunterladen und löschen.
 
@@ -158,7 +157,7 @@ In Ihrer Vorlagenbibliothek muss mindestens eine Anzeige und Vorlage vorhanden s
 
    Die [!UICONTROL Ad Variations Generator] wird geöffnet, wobei die ausgewählte Anzeige vorgeladen ist.
 
-1. Verwenden Sie die KI-Chat-Oberfläche, um zusätzliche Varianten zu generieren und zu verfeinern. Siehe &quot;[&#x200B; von Standardanzeigen](#create-standard-ads) für den vollständigen Workflow.
+1. Verwenden Sie die KI-Chat-Oberfläche, um zusätzliche Varianten zu generieren und zu verfeinern. Siehe &quot;[ von Standardanzeigen](#create-standard-ads) für den vollständigen Workflow.
 
 ## Duplizieren einer Standardanzeige {#duplicate-standard-ad}
 

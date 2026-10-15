@@ -3,20 +3,19 @@ title: Verwalten von Anzeigenvorlagen in Creative Studio
 description: Erfahren Sie, wie Sie Anzeigenvorlagen auf der Registerkarte Creative Studio-Vorlagen in Adobe Advertising Creative erstellen, importieren, organisieren und verwalten.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # Verwalten von Anzeigenvorlagen in [!UICONTROL Creative Studio]
-
-*Beta-Funktion*
 
 Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur Verwendung in Anzeigengenerierungssitzungen.
 
@@ -24,7 +23,7 @@ Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur
 
 Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstellen oder Importieren neuer Anzeigenvorlagen.
 
-Auf der Registerkarte werden auch Ihre vorhandenen Anzeigenvorlagen unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die von Ihrem Adobe-Konto-Team in Ihr Konto hochgeladen werden) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
+Auf der Registerkarte werden auch Ihre vorhandenen Anzeigenvorlagen unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [ (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die von Ihrem Adobe-Konto-Team in Ihr Konto hochgeladen werden) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!-- 
 Probably not necessary:
@@ -40,9 +39,9 @@ Probably not necessary:
 
 Erstellung:
 
-* [HTML5-Anzeigenvorlagen importieren](#templates-import)
-
 * [Manuelles Erstellen einer Anzeigenvorlage](#template-create)
+
+* [HTML5-Anzeigenvorlagen importieren](#templates-import)
 
 Aktionen für vorhandene Vorlagen:
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## Manuelles Erstellen einer Anzeigenvorlage {#template-create}
+
+Erstellen Sie eine leere Anzeige- oder Videovorlage mit dem Vorlageneditor.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio].**
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+
+1. Klicken Sie im **[!UICONTROL Create New Ad Template]** auf **[!UICONTROL Create]** und wählen Sie dann **[!UICONTROL Display Ad Template]** oder **[!UICONTROL Video Ad Template]** aus.
+
+1. (Anzeigen-Anzeigen) Wählen Sie die Größe der Anzeigenvorlage aus und klicken Sie dann auf **[!UICONTROL Continue]**.
+
+1. Konfigurieren Sie die Vorlageneinstellungen mithilfe der [Steuerelemente im Vorlageneditor](#template-controls).
+
+1. (Optional) Um eine Kopie der Vorlage wie definiert herunterzuladen, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Download]**.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+1. Speichern Sie die Vorlage:
+
+   1. Führen Sie einen der folgenden Schritte aus:
+
+      * Klicken Sie auf **[!UICONTROL Save]**.
+
+      * Um die Vorlage als Entwurf zu speichern, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
+
+   1. Geben Sie die **[!UICONTROL Template name]** ein, wählen Sie die **[!UICONTROL Advertiser]** aus, wählen Sie optional vorhandene Tags aus oder fügen Sie neue Tags zur Vorlage hinzu und klicken Sie dann auf **[!UICONTROL Save]**.
+
 ## HTML5-Anzeigenvorlagen importieren {#templates-import}
 
 Laden Sie eine oder mehrere vordefinierte HTML5-Vorlagen hoch, die als ZIP-Dateien gepackt sind. Vorlagen werden beim Import validiert. Der Import schlägt fehl, wenn der HTML 200.000 Zeichen oder das CSS 60.000 Zeichen oder die Vorlage mehr als 5.000 DOM-Elemente enthält oder nicht unterstützte Skript-Tags enthält.
@@ -128,34 +155,6 @@ Laden Sie eine oder mehrere vordefinierte HTML5-Vorlagen hoch, die als ZIP-Datei
 >[!NOTE]
 >
 >Wenn der Import fehlschlägt, vereinfachen Sie die Vorlage oder wenden Sie sich an Ihr Adobe Account Team.
-
-## Manuelles Erstellen einer Anzeigenvorlage {#template-create}
-
-Erstellen Sie eine leere Anzeige- oder Videovorlage mit dem Vorlageneditor.
-
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio].**
-
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
-
-1. Klicken Sie im **[!UICONTROL Create New Ad Template]** auf **[!UICONTROL Create]** und wählen Sie dann **[!UICONTROL Display Ad Template]** oder **[!UICONTROL Video Ad Template]** aus.
-
-1. (Anzeigen-Anzeigen) Wählen Sie die Größe der Anzeigenvorlage aus und klicken Sie dann auf **[!UICONTROL Continue]**.
-
-1. Konfigurieren Sie die Vorlageneinstellungen mithilfe der [Steuerelemente im Vorlageneditor](#template-controls).
-
-1. (Optional) Um eine Kopie der Vorlage wie definiert herunterzuladen, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Download]**.
-
-   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
-
-1. Speichern Sie die Vorlage:
-
-   1. Führen Sie einen der folgenden Schritte aus:
-
-      * Klicken Sie auf **[!UICONTROL Save]**.
-
-      * Um die Vorlage als Entwurf zu speichern, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
-
-   1. Geben Sie die **[!UICONTROL Template name]** ein, wählen Sie die **[!UICONTROL Advertiser]** aus, wählen Sie optional vorhandene Tags aus oder fügen Sie neue Tags zur Vorlage hinzu und klicken Sie dann auf **[!UICONTROL Save]**.
 
 ## Bearbeiten einer Anzeigenvorlage {#template-edit}
 
