@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8fa8d6c66228d3a0af1de2514dd016d8f50262e8
+source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3697'
 ht-degree: 1%
 ---
 # Verwalten von Anzeigenvorlagen in [!UICONTROL Creative Studio]
@@ -23,7 +23,7 @@ Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur
 
 Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstellen oder Importieren neuer Anzeigenvorlagen.
 
-Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
+Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [ (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!--
 Probably not necessary:
@@ -190,7 +190,7 @@ Switch to this when prompt-based generation becomes available:
 >
 > Um optimale Ergebnisse zu erzielen, ersetzen Sie im Vorlageneditor das von KI generierte Logo durch Ihr originales, pixelgenaues Logo.
 
-1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) &#x200B;](#template-controls).
+1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) ](#template-controls).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -202,7 +202,7 @@ Switch to this when prompt-based generation becomes available:
 
 Anschließend können Sie die Vorlage verwenden, um [Anzeigenvarianten zu generieren](#ad-variations-generate).
 
-### Wenn Sie keine Vorlage generieren können {#troubleshooting}
+### Fehlerbehebung {#troubleshooting}
 
 | Problem | Vorgehensweise |
 | --- | --- |
