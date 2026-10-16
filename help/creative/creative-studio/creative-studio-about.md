@@ -3,20 +3,19 @@ title: Über Creative Studio in Advertising Creative
 description: Erfahren Sie, wie Sie mit Creative Studio KI-unterstützte Anzeigeninhalte in Adobe Advertising Creative erstellen.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '812'
 ht-degree: 0%
-
 ---
-
 # Über [!UICONTROL Creative Studio] in [!DNL Advertising Creative]
-
-*Beta-Funktion*
 
 [!UICONTROL Creative Studio] ist eine KI-gestützte Umgebung, in der Sie Display-Anzeigen über mehrere Formate hinweg in einer Sitzung erstellen, skalieren und verfeinern können. Sie interagieren mit der KI über eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.
 

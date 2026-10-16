@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1923'
 ht-degree: 0%
 ---
 # Neue Funktionen in [!DNL Creative] 2.0
@@ -35,6 +35,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;15. Oktober 2026 | [!DNL Creative Studio] | (Beta-Funktion) Sie können jetzt KI in [!UICONTROL Creative Studio] generieren, um ein vorhandenes statisches Display-Anzeigenbild in eine bearbeitbare Display-Anzeigenvorlage zu konvertieren. | Siehe &quot;[&#x200B; von Anzeigenvorlagen in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md) verwalten“. |
 | &#x200B;1. Juli 2026 | [!DNL Creative Studio], [!DNL Brands] | Die folgenden Beta-Funktionen sind verfügbar:<ul><li>**[!UICONTROL Creative Studio]** verwendet generative KI, um Anzeigen über mehrere Formate hinweg in einer Sitzung zu erstellen, zu skalieren und zu verfeinern. Verwenden Sie eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.</li><li>Erstellen und verwalten Sie **[!UICONTROL brand profiles]**, die die visuelle Identität Ihrer Marke und Ihre Messaging-Identität widerspiegeln, einschließlich Ihres Logos, Ihrer Farbpalette, Ihrer Sprachrichtlinien, Bildstandards und kanalspezifischer Kopierrichtlinien. Wenn Sie in [!UICONTROL Creative Studio] Anzeigen erstellen, verwendet der KI-Agent Markenprofilinformationen, um die Inhaltserstellung in Ihrer spezifischen Marke zu ermöglichen.</li></ul> | Siehe &quot;[Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md) und &quot;[Verwalten von Markenprofilen](/help/creative/brands/brand-manage.md). |
 | &#x200B;3. Juni 2026 | [!DNL Adobe Analytics for Advertising] | Werbetreibende mit Advertising Creative und [!DNL Adobe Analytics for Advertising] können jetzt Daten auf Varianten- und Zweigstellenebene in Adobe Analytics anzeigen. Die Daten werden unabhängig von der DSP angezeigt, die zum Ausführen von Anzeigen aus Ihren [!DNL Creative]-Erlebnissen verwendet wird. Wenn Sie die Anzeigen über eine Advertising DSP-Platzierung schalten, sehen Sie auch Daten auf Kampagnen- und Platzierungsebene sowie kostenbezogene Metriken.<br><br>Es ist keine zusätzliche Einrichtung erforderlich. | Sehen Sie sich die [Traffic-Metriken](https://experienceleague.adobe.com/de/docs/analytics/components/metrics/amo-metrics) und [Klassifizierungen](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#classifications) an, die in [!DNL Analytics] angezeigt werden. |
 | &#x200B;25. Februar 2025 | Creative-Optimierung und -Planung für [!DNL experiences] | Zu den Verbesserungen gehören:<ul><li>Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie jetzt auf separaten Registerkarten im selben Bildschirm kreative Bundles zuweisen und die kreative Optimierung und Planung konfigurieren.</li><li>Anzeigenzeitpläne enthalten jetzt eine Start- und eine Endzeit. Standardmäßig beginnt der Zeitplan um 12:00 Uhr und endet um 23:59 Uhr.</li><li>Die Option &quot;[!UICONTROL Weighted] Rotation“ enthält eine Schaltfläche (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden"), um gleiche Gewichtungen auf alle angegebenen Bundles anzuwenden.</li></ul> | Siehe Anleitungen für [Erlebnisse beim Targeting](/help/creative/experiences/experience-optimization-scheduling-targeting.md) und [Erlebnisse ohne Targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md). |
