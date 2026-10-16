@@ -23,7 +23,7 @@ Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur
 
 Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstellen oder Importieren neuer Anzeigenvorlagen.
 
-Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [ (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
+Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!--
 Probably not necessary:
@@ -190,7 +190,7 @@ Switch to this when prompt-based generation becomes available:
 >
 > Um optimale Ergebnisse zu erzielen, ersetzen Sie im Vorlageneditor das von KI generierte Logo durch Ihr originales, pixelgenaues Logo.
 
-1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) ](#template-controls).
+1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) &#x200B;](#template-controls).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
