@@ -61,7 +61,7 @@ Sie benötigen eine vorhandene statische Bildanzeige in einer Creative-Bibliothe
 
 ## Vorlage bearbeiten und speichern {#template-save}
 
-1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) ](creative-studio-manage-templates.md#template-controls).
+1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) &#x200B;](creative-studio-manage-templates.md#template-controls).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
