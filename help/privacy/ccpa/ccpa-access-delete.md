@@ -49,7 +49,7 @@ In diesem Dokument wird beschrieben, wie [!DNL Advertising Search, Social, & Com
 
 Informationen dazu, wie Advertising DSP das Verbraucherrecht auf Opt-out vom Verkauf personenbezogener Daten unterstützt, finden Sie unter [Adobe Advertising-Support für den California Consumer Privacy Act: Verbraucher-Opt-out vom Verkauf](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/ccpa.html).
 
 ## Unterstützte Datenanfragetypen für Adobe Advertising
 
@@ -75,7 +75,7 @@ Um Anfragen zum Zugreifen auf und Löschen von personenbezogenen Daten von Verbr
 
    >[!NOTE]
    >
-   >Das Löschen personenbezogener Daten unterscheidet sich vom Opt-out, das die Zielgruppenbestimmung eines Endbenutzers mit Zielgruppensegmenten stoppt. Wenn ein Verbraucher jedoch darum bittet, personenbezogene Daten aus [!DNL Creative], [!DNL DSP] oder [!DNL DCO] zu löschen, sendet die Bibliothek auch eine Anfrage an Adobe Advertising, um den Kunden vom Segment-Targeting abzumelden. Für Werbetreibende mit [!DNL Search, Social, & Commerce] empfehlen wir, Ihren Kunden einen Link zu [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse) bereitzustellen, in dem erläutert wird, wie Sie das Targeting von Zielgruppensegmenten deaktivieren können.
+   >Das Löschen personenbezogener Daten unterscheidet sich vom Opt-out, das die Zielgruppenbestimmung eines Endbenutzers mit Zielgruppensegmenten stoppt. Wenn ein Verbraucher jedoch darum bittet, personenbezogene Daten aus [!DNL Creative], [!DNL DSP] oder [!DNL DCO] zu löschen, sendet die Bibliothek auch eine Anfrage an Adobe Advertising, um den Kunden vom Segment-Targeting abzumelden. Für Werbetreibende mit [!DNL Search, Social, & Commerce] empfehlen wir, Ihren Kunden einen Link zu [https://www.adobe.com/de/privacy/opt-out.html#customeruse](https://www.adobe.com/de/privacy/opt-out.html#customeruse) bereitzustellen, in dem erläutert wird, wie Sie das Targeting von Zielgruppensegmenten deaktivieren können.
 
 1. Identifizieren Sie Ihre CX Enterprise-Organisations-ID und stellen Sie sicher, dass sie mit Ihren Adobe Advertising-Konten verknüpft ist.
 

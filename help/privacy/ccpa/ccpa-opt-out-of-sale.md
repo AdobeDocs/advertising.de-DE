@@ -49,7 +49,7 @@ In diesem Dokument wird beschrieben, wie Adobe Advertising Demand Side Platform 
 
 Informationen dazu, wie [!DNL Advertising Search, Social, & Commerce], Advertising Creative und [!DNL Advertising DCO] die Zugriffs- und Löschrechte für personenbezogene Daten von Verbrauchern unterstützen, finden Sie unter [Adobe Advertising-Unterstützung für den California Consumer Privacy Act: Unterstützung beim Zugriff auf und Löschen von Verbraucherdaten](/help/privacy/ccpa/ccpa-access-delete.md).
 
-Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+Weitere Informationen zu den Adobe Privacy Services für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/de/privacy/ccpa.html).
 
 ## Mitteilung von Kaufabmeldeanfragen an Adobe Advertising
 
