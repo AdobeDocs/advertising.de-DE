@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
 # Text und Vorlage - Label Classifications
 
@@ -17,15 +16,15 @@ Für jede Kampagnenkomponente, der Sie Kennzeichnungsklassifizierungen zuweisen 
 
    * Gehen Sie für jede Kennzeichnungsklassifizierung und jeden Wert, der der Komponente zugewiesen werden soll, wie folgt vor:
 
-      1. Klicken Sie auf **[!UICONTROL Add Label Classification]**.
+     1. Klicken Sie auf **[!UICONTROL Add Label Classification]**.
 
-      1. Wählen Sie die vorhandene Kennzeichnungsklassifizierung aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
+     1. Wählen Sie die vorhandene Kennzeichnungsklassifizierung aus und wählen Sie dann entweder einen vorhandenen Wert aus oder geben Sie einen neuen Wert ein.
 
-         Die maximale Länge für jeden Wert beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
+        Die maximale Länge für jeden Wert beträgt 100 Zeichen und kann ASCII- und Nicht-ASCII-Zeichen enthalten.
 
-         Um einen Spaltennamen als dynamischen Parameter für einen Beschriftungsklassifizierungswert einzufügen, klicken Sie auf das Eingabefeld (das zweite Feld) und dann auf einen Spaltennamen in der Spaltenliste.
+        Um einen Spaltennamen als dynamischen Parameter für einen Beschriftungsklassifizierungswert einzufügen, klicken Sie auf das Eingabefeld (das zweite Feld) und dann auf einen Spaltennamen in der Spaltenliste.
 
-         Pro Kampagnenkomponente kann nur ein Wert enthalten sein. Beispielsweise kann eine Kampagne „Farbe=Rot“, aber nicht „Farbe=Rot“ und „Farbe=Blau“ haben.
+        Pro Kampagnenkomponente kann nur ein Wert enthalten sein. Beispielsweise kann eine Kampagne „Farbe=Rot“, aber nicht „Farbe=Rot“ und „Farbe=Blau“ haben.
 
    * Um einen vorhandenen Kennzeichnungswert zu ändern, wählen Sie einen neuen Wert aus oder geben Sie ihn ein.
 
