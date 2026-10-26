@@ -72,7 +72,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
 
 ## Senden einer Abfrage über die [!UICONTROL Placements]- oder [!UICONTROL Placements]
 
@@ -113,7 +113,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
 
 ## Neue Unterhaltung beginnen {#conversation-new}
 

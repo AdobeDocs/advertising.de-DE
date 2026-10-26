@@ -75,7 +75,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
       * Advertising Creative-Entitäten: [!UICONTROL Experience]
       * Anzeigenziele: [!UICONTROL Audience], [!UICONTROL City], [!UICONTROL Country], [!UICONTROL State], [!UICONTROL DMA], [!UICONTROL Retargeting Pixel], [!UICONTROL Device OS], [!UICONTROL Device Browser], [!UICONTROL Device Type], [!UICONTROL Zip Code]
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
 1. Klicken Sie ![Abfrage senden](/help/dsp/assets/submit-prompt.png "Abfrage senden") oder drücken Sie die **Eingabetaste** auf der Tastatur. Wenn der Agent zusätzliche Informationen anfordert, geben Sie die erforderlichen Informationen ein.
 
@@ -85,7 +85,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
 
 ## Herunterladen oder Vorschau eines vollständigen Berichts aus der Chatbox
 
