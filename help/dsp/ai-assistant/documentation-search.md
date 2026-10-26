@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *Support nur für Englisch*
 
-Verwenden Sie den KI-Assistenten für DSP, um mithilfe einer Chat-Oberfläche im [Advertising DSP-Handbuch](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md) nach konzeptionellen Inhalten zu suchen. Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/en/docs/advertising).
+Verwenden Sie den KI-Assistenten für DSP, um mithilfe einer Chat-Oberfläche im [Advertising DSP-Handbuch](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md) nach konzeptionellen Inhalten zu suchen. Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/de/docs/advertising).
 
 Die Antworten umfassen Zitate sowie zusätzliche Abfragen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können.
 
