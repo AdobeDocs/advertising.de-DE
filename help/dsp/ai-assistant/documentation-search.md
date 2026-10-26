@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *Support nur für Englisch*
 
-Verwenden Sie den KI-Assistenten für DSP, um mithilfe einer Chat-Oberfläche im [Advertising DSP-Handbuch](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md) nach konzeptionellen Inhalten zu suchen. Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert ](https://experienceleague.adobe.com/en/docs/advertising).
+Verwenden Sie den KI-Assistenten für DSP, um mithilfe einer Chat-Oberfläche im [Advertising DSP-Handbuch](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md) nach konzeptionellen Inhalten zu suchen. Die Antworten basieren nur auf den Informationen, die für diese Produkte in [Experience League dokumentiert &#x200B;](https://experienceleague.adobe.com/en/docs/advertising).
 
 Fragen Sie nach Kampagnenverwaltung, Optimierung, Zielgruppen-Management, Angeboten, Berichten und anderen Produktfunktionen. Die Antworten umfassen Zitate sowie zusätzliche Abfragen und Folgefragen, mit denen Sie Ihre Abfrage verfeinern und weitere Informationen finden können.
 
@@ -63,7 +63,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
 1. Klicken Sie ![Abfrage senden](/help/dsp/assets/submit-prompt.png "Abfrage senden") oder drücken Sie die **Eingabetaste** auf der Tastatur.
 
@@ -79,7 +79,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
 
 ## Neue Unterhaltung beginnen {#conversation-new}
 
