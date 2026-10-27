@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # Einstellungen für Anzeigengruppen [!DNL Google Ads]
@@ -100,6 +100,16 @@ Wenn die Kampagne eine intelligente Gebotsstrategie verwendet (z. B. [!UICONTROL
 **[!UICONTROL AI Search Term Matching]:** (Nur Kampagnen mit aktiviertem [!DNL AI Max]) Ob die KI-gestützte, schlüsselwortlose Suchbegriffübereinstimmung verwendet werden soll, um Reichweite und Optimierung zu verbessern.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:** (Nur Kampagnen mit aktiviertem [!DNL AI Max]) Bestimmte Orte mit geografischer Absicht, die angesprochen (aber nicht ausgeschlossen) werden sollen. Die Benutzer müssen auch die geografische Zielgruppe der Kampagne erfüllen. Standardmäßig werden Benutzende in allen geografischen Standorten angesprochen, die sich regelmäßig dort aufhalten oder an ihnen interessiert sind. Um die Ziele einzugrenzen, wählen Sie jeden Zielort aus.
+
+**[!UICONTROL URL inclusions]:** (Kampagnen, für die [!DNL AI Max] und [!UICONTROL Text customization] aktiviert sind) URLs, die als Landingpages einbezogen werden sollen, die aus der endgültigen URL-Erweiterung generiert wurden. Um eine URL hinzuzufügen, geben Sie eine URL oder ein URL-Fragment in das Eingabefeld ein und klicken Sie dann auf **+**.
+
+>[!NOTE]
+>
+>* Wenn die Einstellung [!UICONTROL Final URL expansion] auf Kampagnenebene *aktiviert* ist, verwendet [!DNL Google Ads] die angegebenen URLs und zusätzliche von Google ausgewählte URLs als dynamische Landingpages für die Anzeigengruppe.
+>* Wenn die Einstellung [!UICONTROL Final URL expansion] auf Kampagnenebene *deaktiviert* ist, verwendet [!DNL Google Ads] nur die angegebenen URLs als dynamische Landingpages für die Anzeigengruppe.
+>* (Responsive Suchanzeigen mit angehefteten Assets) Wenn diese Einstellung URL-Einschlüsse angibt, verwendet [!DNL Google Ads] keine angehefteten Assets, wenn die endgültige URL zu einer Landingpage weitergeleitet wird, auf der die angeheftete Kopie nicht mit der Absicht des Benutzers übereinstimmt. Um immer angeheftete Assets zu verwenden, geben Sie keine URL-Einschlüsse an und deaktivieren Sie die [!UICONTROL Final URL expansion] auf Kampagnenebene.
+
+**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Marken für das Konto, für das markenbezogene Abfragen übereinstimmen können. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Markenliste. Diese Einstellung überschreibt die Einstellung auf Kampagnenebene.
 
 ## Registerkarte [!UICONTROL URL Options]
 
