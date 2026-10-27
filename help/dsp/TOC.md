@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -25,7 +25,12 @@ ht-degree: 3%
   + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
   + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
   + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Suchen nach Produktdokumentation im KI-unterstützten Chat](/help/dsp/agent-chat.md)
++ KI-Assistent in Advertising DSP {#ai-assistant}
+  + [Über den KI-Assistenten in Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [Erstellen von Berichten mit dem KI-Assistenten](/help/dsp/ai-assistant/insights-agent.md)
+  + [Fehlerbehebung bei Leistungs- und Versandproblemen mit dem KI-Assistenten](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [Suchen nach Produktdokumentation mithilfe des KI-Assistenten](/help/dsp/ai-assistant/documentation-search.md)
+  + [Arbeiten mit früheren KI-Assistenten-Unterhaltungen](/help/dsp/ai-assistant/previous-conversations.md)
 + Kampagnen-Management {#campaign-management}
   + [Überblick über die Kampagnenverwaltung in Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
   + Kampagnen {#campaigns}

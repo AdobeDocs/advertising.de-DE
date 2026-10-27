@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # KI-unterstützte Funktionen in Adobe Advertising DSP
 
 DSP bietet KI-unterstützte Agenten, die Eingabeaufforderungen in natürlicher Sprache verwenden, um Sie bei mehreren Aufgaben zu unterstützen:
 
-* [Suche nach konzeptionellen und Anleitungsinhalten](/help/dsp/agent-chat.md) im [Advertising DSP-Handbuch](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md) mithilfe einer KI-unterstützten Chat-Oberfläche.
+* [Suchen nach konzeptionellen und Anleitungsinhalten](/help/dsp/agent-chat.md)
 
-* [Verwenden Sie den generativen KI-unterstützten Zielgruppenagenten, um neue wiederverwendbare Zielgruppen zu generieren](/help/dsp/audiences/reusable-audience-create.md) die Sie als Ziele oder Ausschlüsse für Ihre Platzierungen verwenden können.
+* Unified AI-Assistent:
+
+  * [Erstellen Sie Berichte für Ihre Kampagnen, Kampagnenkomponenten, Advertising Creative-Erlebnisse, Werbetreibenden und Anzeigenziele](/help/dsp/ai-assistant/insights-agent.md).
+
+  * [Fehlerbehebung bei Leistungs- und Versandproblemen für Ihre Pakete und Platzierungen](/help/dsp/ai-assistant/troubleshooting-agent.md).
+
+  * [Suchen Sie nach &#x200B;](/help/dsp/ai-assistant/documentation-search.md) Produktdokumentation im [Advertising DSP-](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md).
+
+* [Verwenden Sie den Agenten für generative KI-unterstützte Zielgruppen in [!UICONTROL Audiences] > [!UICONTROL All Audiences], um neue wiederverwendbare Zielgruppen zu generieren](/help/dsp/audiences/reusable-audience-create.md) die Sie als Ziele oder Ausschlüsse für Ihre Platzierungen verwenden können.

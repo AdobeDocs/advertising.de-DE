@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] Kampagneneinstellungen
@@ -239,13 +239,21 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 * **[!UICONTROL Final URL expansion]:** Gibt an, ob [!DNL Google Ads] Traffic basierend auf seiner Suchabsicht an die relevanteste Landingpage auf Ihrer Website weiterleiten soll. Diese Einstellung ist nur verfügbar, wenn **[!UICONTROL Text customization]** aktiviert ist.
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >(Responsive Suchanzeigen mit angehefteten Assets) Wenn diese Einstellung aktiviert ist, verwendet [!DNL Google Ads] keine angehefteten Assets, wenn die endgültige URL zu einer Landingpage weitergeleitet wird, auf der die angeheftete Kopie nicht mit der Absicht des Benutzers übereinstimmt. Um immer angeheftete Assets zu verwenden, deaktivieren Sie [!UICONTROL Final URL expansion] und geben Sie keine [!UICONTROL URL inclusions] auf Anzeigengruppenebene an.
 
 **[!UICONTROL Bundling required]:** (Bestehende Kampagnen, für die die [!UICONTROL AI Max]-Funktion aktiviert ist; schreibgeschützt) Ob [!UICONTROL AI Max] aktiviert sein müssen, um die Textanpassung und die Steuerung der Markenliste für die Kampagne zu berücksichtigen oder zu ändern: *[!UICONTROL Required]*, *[!UICONTROL Not required]* oder *[!UICONTROL Unspecified]*.
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]:** (Bestehende Kampagnen, bei denen die [!UICONTROL AI Max]-Funktion aktiviert ist; schreibgeschützt) Wenn eine der Anzeigengruppen der Kampagne [!UICONTROL Locations of Interest] Zielgruppen enthält, werden die Typen der Benutzerinteressen angegeben, die angesprochen werden: *[!UICONTROL Search Interest]* (Benutzer, die an einem bestimmten Ort interessiert sind), *[!UICONTROL Presence]* (Benutzer, die an einem bestimmten Ort sind oder sich regelmäßig an einem bestimmten Ort befinden) oder *[!UICONTROL Presence or Interest]* (Benutzer, die an einem bestimmten Ort sind, regelmäßig daran teilnehmen oder daran interessiert sind).
+
+**[!UICONTROL URL exclusions]:** (Kampagnen, für die [!DNL AI Max], [!UICONTROL Text customization] und [!UICONTROL Final URL expansion] aktiviert sind) URLs, die als Landingpages ausgeschlossen werden sollen, die von der endgültigen URL-Erweiterung generiert werden. Sie können auf Anzeigengruppenebene optional *URL (*) (keine Ausschlüsse) hinzufügen. Um eine URL hinzuzufügen, geben Sie eine URL oder ein URL-Fragment in das Eingabefeld ein und klicken Sie dann auf **+**.
+
+**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten für das Konto, für das markenbezogene Abfragen gefunden werden können. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Markenliste. Sie können diese Einstellung auf Anzeigengruppenebene überschreiben.
+
+**[!UICONTROL Brand exclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten für das Konto, für das markenbezogene Abfragen möglicherweise nicht übereinstimmen. Aktivieren Sie das Kontrollkästchen neben den einzelnen Markenlisten, die ausgeschlossen werden sollen.
 
 ## Registerkarte [!UICONTROL Additional Campaign Information]
 
