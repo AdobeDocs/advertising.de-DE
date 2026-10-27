@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] Kampagneneinstellungen
@@ -107,11 +107,11 @@ Für Suchkampagnen sind außerdem die folgenden zusätzlichen Einstellungen für
 
 **[!UICONTROL Bid strategy]:** Die Bid-Strategie für die Kampagne:
 
-* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [&#x200B; Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
+* *[!UICONTROL Enhanced CPC]:* veraltet. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [ Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
 
 * *[!UICONTROL Manual CPC]* (Standard): (Für Kampagnen mit dem Typ „Performance Max“ nicht verfügbar) Verwendet das CPC-Modell (Cost Per Click) . Optional können Sie dem Werbenetzwerk erlauben, Gebote für die Kampagne zu ändern:
 
-  * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [&#x200B; Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
+  * **[!UICONTROL Enable Enhanced CPC]** (standardmäßig deaktiviert): Dies entspricht der Verwendung der Option &quot;[!UICONTROL Enhanced CPC]&quot;, die nicht mehr unterstützt wird. [!DNL Google Ads] begann im Jahr 2025 automatisch mit [ Änderung bestehender (verbesserter CPC](https://support.google.com/google-ads/answer/2464964)Angebotsstrategien) auf manuelle CPCs.
 
 * *[!UICONTROL Maximize Clicks]:* (Search-, Display- und Shopping-Kampagnen) Das Anzeigennetzwerk - nicht Search, Social und Commerce - optimiert Angebote, um Klicks zu maximieren. Geben Sie optional einen **[!UICONTROL Max CPC]** (Kosten pro Klick) ein, um sicherzustellen, dass das Werbenetzwerk für jeden Klick nicht mehr als einen bestimmten Betrag zahlt. **Achtung:** Wenn Sie eine Kampagne mit dieser Strategie zu einem Portfolio hinzufügen, werden Gebote durch die Klickgewichtung gesteuert und nicht durch das Portfolioziel.
 
@@ -251,9 +251,9 @@ Nach Land. Wenn Sie keine auswählen, werden alle als Ziel ausgewählt.
 
 **[!UICONTROL URL exclusions]:** (Kampagnen, für die [!DNL AI Max], [!UICONTROL Text customization] und [!UICONTROL Final URL expansion] aktiviert sind) URLs, die als Landingpages ausgeschlossen werden sollen, die von der endgültigen URL-Erweiterung generiert werden. Sie können auf Anzeigengruppenebene optional *URL (*) (keine Ausschlüsse) hinzufügen. Um eine URL hinzuzufügen, geben Sie eine URL oder ein URL-Fragment in das Eingabefeld ein und klicken Sie dann auf **+**.
 
-**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten für das Konto, für das markenbezogene Abfragen gefunden werden können. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Markenliste. Sie können diese Einstellung auf Anzeigengruppenebene überschreiben.
+**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten mit Marken, für die markenbezogene Abfragen übereinstimmen können. Aktivieren Sie in der Liste aller für das Konto im [!DNL Google Ads]-Editor konfigurierten Markenlisten das Kontrollkästchen neben jeder einzuschließenden Markenliste. Sie können diese Einstellung auf Anzeigengruppenebene überschreiben.
 
-**[!UICONTROL Brand exclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten für das Konto, für das markenbezogene Abfragen möglicherweise nicht übereinstimmen. Aktivieren Sie das Kontrollkästchen neben den einzelnen Markenlisten, die ausgeschlossen werden sollen.
+**[!UICONTROL Brand exclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten mit Marken, für die markenbezogene Abfragen möglicherweise nicht übereinstimmen. Aktivieren Sie in der Liste aller für das Konto im [!DNL Google Ads]-Editor konfigurierten Markenlisten das Kontrollkästchen neben den einzelnen Markenlisten, die ausgeschlossen werden sollen.
 
 ## Registerkarte [!UICONTROL Additional Campaign Information]
 
@@ -349,7 +349,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 * Um Bilder aus Ihrer [!UICONTROL Asset Library] auszuwählen, klicken Sie auf **[!UICONTROL Asset Library]** und wählen Sie die Bilder aus.
 
-**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1, mindestens 128 x 128 Pixel) Logo. Optional können Sie ein Querformat (4:1, mindestens 512 x 218 Pixel) einfügen. Sie können insgesamt bis zu fünf Logos hinzufügen. Siehe &quot;[[!DNL Google Ads] &quot; &#x200B;](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
+**[!UICONTROL Logos]:** Mindestens ein quadratisches (1:1, mindestens 128 x 128 Pixel) Logo. Optional können Sie ein Querformat (4:1, mindestens 512 x 218 Pixel) einfügen. Sie können insgesamt bis zu fünf Logos hinzufügen. Siehe &quot;[[!DNL Google Ads] &quot; ](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Sie können entweder Bilder hochladen oder aus Ihren [!UICONTROL Asset Library] auswählen - aber nicht beide im selben Vorgang.
 
 * So laden Sie Bilder hoch:
 
@@ -423,9 +423,9 @@ Sie können entweder Text eingeben oder Assets aus Ihrer [!UICONTROL Asset Libra
 >
 >Zielgruppensignale unterscheiden sich von Zielgruppenzielen [auf Kampagnenebene und Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* **&#x200B; PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in Kampagnen zur Leistungsmaximierung) Warum die Asset-Gruppe die volle Kapazität aufweist oder nicht. Sie berücksichtigt den Asset-Gruppenstatus sowie andere Signale wie Richtlinien- und Qualitätsgenehmigungen. Werte können Folgendes umfassen *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* ** PENDING,** REMOVED,*UNKNOWN,* oder *UNSPECIFIED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**&#x200B;CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,**&#x200B; *oder**&#x200B;UNSPECIFIED.*
+**[!UICONTROL Primary Status Reason]:** (schreibgeschütztes Feld für vorhandene Asset-Gruppen in -Kampagnen mit dem Wert „Performance Max„) Zusätzliche Details zum primären Status der Asset-Gruppe. Zu den Werten gehören *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,*** ASSET_GROUP_UNDER_REVIEW,*CAMPAIGN_ENDED,**CAMPAIGN_PAUSED,* CAMPAIGN_PENDING,*CAMPAIGN_REMOVED,* UNKNOWN,** *oder**UNSPECIFIED.*
 
 ### [!UICONTROL Conversion Goals]
 

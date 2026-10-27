@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # Einstellungen für Anzeigengruppen [!DNL Google Ads]
@@ -109,7 +109,7 @@ Wenn die Kampagne eine intelligente Gebotsstrategie verwendet (z. B. [!UICONTROL
 >* Wenn die Einstellung [!UICONTROL Final URL expansion] auf Kampagnenebene *deaktiviert* ist, verwendet [!DNL Google Ads] nur die angegebenen URLs als dynamische Landingpages für die Anzeigengruppe.
 >* (Responsive Suchanzeigen mit angehefteten Assets) Wenn diese Einstellung URL-Einschlüsse angibt, verwendet [!DNL Google Ads] keine angehefteten Assets, wenn die endgültige URL zu einer Landingpage weitergeleitet wird, auf der die angeheftete Kopie nicht mit der Absicht des Benutzers übereinstimmt. Um immer angeheftete Assets zu verwenden, geben Sie keine URL-Einschlüsse an und deaktivieren Sie die [!UICONTROL Final URL expansion] auf Kampagnenebene.
 
-**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Marken für das Konto, für das markenbezogene Abfragen übereinstimmen können. Aktivieren Sie das Kontrollkästchen neben jeder einzuschließenden Markenliste. Diese Einstellung überschreibt die Einstellung auf Kampagnenebene.
+**[!UICONTROL Brand inclusions]:** (Kampagnen, für die [!DNL AI Max] aktiviert ist) Markenlisten mit Marken, für die markenbezogene Abfragen übereinstimmen können. Aktivieren Sie in der Liste aller für das Konto im [!DNL Google Ads]-Editor konfigurierten Markenlisten das Kontrollkästchen neben jeder einzuschließenden Markenliste. Diese Einstellung überschreibt die Einstellung auf Kampagnenebene.
 
 ## Registerkarte [!UICONTROL URL Options]
 
