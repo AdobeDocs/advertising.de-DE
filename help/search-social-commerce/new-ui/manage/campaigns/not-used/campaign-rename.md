@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 804a4243702d4aa79b2802686f9950eb5a1c8825
+source-git-commit: bf23942ea02a9e991867d81b01d5ac9d1526d4b8
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -25,7 +25,6 @@ Schnelles Umbenennen einer Kampagne, ohne die vollständigen Kampagneneinstellun
 1. Halten Sie den Cursor über der Kampagnenzeile und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Rename]**.
 
 1. Bearbeiten Sie den Namen und klicken Sie dann auf **[!UICONTROL Apply]**.
-
 
 <!--
 
