@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # Über die Zielgruppenverwaltung in Advertising DSP
@@ -54,11 +54,11 @@ In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwa
 
   * DSP erlauben, Erstanbietersegmente aus Ihrer Kundendatenplattform zu importieren und in unterstützte universelle ID-Typen zu übersetzen.
 
-  * Importieren Sie First-Party-[!DNL AdFixus], die [!DNL AdFixus] universelle IDs enthalten (nur Australien). Sie können dann Platzierungen auf [!DNL AdFixus]-IDs ausrichten, diese Segmente zu [wiederverwendbaren Zielgruppen“ hinzufügen &#x200B;](/help/dsp/audiences/reusable-audience-create.md) Berichte verwenden, die unter &quot;[&#x200B; von First-Party-Segmenten aus“  [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) werden.
+  * Importieren Sie First-Party-[!DNL AdFixus], die [!DNL AdFixus] universelle IDs enthalten (nur Australien). Sie können dann Platzierungen auf [!DNL AdFixus]-IDs ausrichten, diese Segmente zu [wiederverwendbaren Zielgruppen“ hinzufügen ](/help/dsp/audiences/reusable-audience-create.md) Berichte verwenden, die unter &quot;[ von First-Party-Segmenten aus“  [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md) werden.
 
   * Einbeziehen von Drittanbietersegmenten, die universelle IDs enthalten, in Ihre Platzierungsziele ohne zusätzliche Schritte.
 
-* Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md). Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
+* Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md) mithilfe eines KI-unterstützten Workflows oder manuell. Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
 
   Gespeicherte Zielgruppen ermöglichen es Medienplanern, Zielgruppen nach Bedarf zu gruppieren, indem sie mehrere Segmente mithilfe einer komplexen booleschen Logik ein- und ausschließen. Die (Zielgruppen-)Größe jedes einzelnen Segments und die gesamte aktive Zielgruppengröße werden beim Erstellen einer Zielgruppe angezeigt. Ausführende von Kampagnen können dann einfach eine oder mehrere gespeicherte Zielgruppen als Platzierungsziele auswählen, anstatt Zielgruppenziele für jede Platzierung manuell zu konfigurieren.
 
@@ -68,9 +68,9 @@ Für das Platzierungs-Targeting sind auch zusätzliche Zielgruppentypen verfügb
 
 Sie haben viele Möglichkeiten, Datensegmente von Erstanbietern und Drittanbietern mithilfe der DSP-Benutzeroberfläche und/oder über benutzerdefinierte Importdienste in DSP zu importieren.
 
-* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting &#x200B;](/help/integrations/audience-manager/import-audiences.md).
+* DSP kann Ihre Adobe Audience Manager- und andere [!DNL Adobe] Zielgruppen für die Zielgruppenbestimmung abrufen. Informationen zu Voraussetzungen und Anweisungen finden Sie unter [Adobe Audience Manager-Segmente für das Anzeigen-Targeting ](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs &#x200B;](/help/dsp/audiences/sources/source-about.md).
+* DSP kann First-Party-Datensegmente mithilfe der (Quellen[Funktion von unterstützten Kundendatenplattformen in Segmente mit universellen IDs ](/help/dsp/audiences/sources/source-about.md).
 
 * Australische Werbetreibende können [!DNL AdFixus] First-Party-Segmente mithilfe der [Quellen-Funktion](/help/dsp/audiences/sources/source-about.md) importieren, ohne Ihre [!DNL AdFixus] universellen IDs in andere ID-Typen zu übersetzen.
 
@@ -98,7 +98,7 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
 * Alle Ihre importierten First-Party-Datensegmente, einschließlich Segmente, die in universelle IDs übersetzt wurden, und Segmente, die importierte [!DNL AdFixus] universelle IDs enthalten.
 
-  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Tarife finden [&#x200B; unter „Über Erstanbieter-](/help/dsp/audiences/sources/source-about.md)&quot;.
+  Für Impressionen, die an universelle IDs gesendet werden, werden zusätzliche Gebühren berechnet. Tarife finden [ unter „Über Erstanbieter-](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 * Alle Ihre importierten benutzerdefinierten Datensegmente von Drittanbietern
 
@@ -116,7 +116,7 @@ Sie können Ihre Platzierungen für alle folgenden Arten von Zielgruppen auswäh
 
   >[!NOTE]
   >
-  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de) Lösungen finden Sie in [&#x200B; Dokumentation für &lbrace;0 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=de)Audience Manager[, Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=de) und.
+  >Weitere Informationen zum Einrichten und Erfassen von Daten für Segmente in ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) Lösungen finden Sie in [ Dokumentation für {0 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html)Audience Manager[, Analytics](https://experienceleague.adobe.com/docs/analytics.html) und.[
 
 ## Daten zur Zielgruppengröße
 

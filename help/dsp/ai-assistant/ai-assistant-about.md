@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 # Über den KI-Assistenten in Advertising DSP
@@ -36,10 +36,10 @@ Die folgenden Workflows können Ihnen dabei helfen, Ihre Arbeit effektiver zu er
 
 | Funktion | Beschreibung | Antworten |
 | --- | --- | --- |
-| [Audience Builder-Agent](/help/dsp/ai-assistant/audience-builder-agent.md) | (Beta-Funktion) Generieren wiederverwendbarer Zielgruppen. Dabei handelt es sich um Gruppen von Zielgruppensegmenten (einschließlich aller für Sie verfügbaren Erstanbieter- und Drittanbietersegmente) und sogar um andere gespeicherte Zielgruppen. Sie können die Zielgruppen später als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden. | Die Antworten enthalten zunächst eine Zielgruppendefinition und dann die resultierenden Zielgruppensegmente, die Sie als Zielgruppe speichern können. |
+| [Audience Builder-Agent](/help/dsp/ai-assistant/audience-builder-agent.md) | (Beta-Funktion) Generieren wiederverwendbarer Zielgruppen, z. B. alle Erstanbieter- und Drittanbietersegmente, die Ihnen zur Verfügung stehen, und sogar andere gespeicherte Zielgruppen. | Die Antworten enthalten zunächst eine Zielgruppendefinition und dann die resultierenden Zielgruppensegmente, die Sie als Zielgruppe speichern können. |
 | [Fehlerbehebung](troubleshooting-agent.md) | (Beta-Funktion) Diagnostizieren Sie Leistungs- und Bereitstellungsprobleme für Live-Pakete und Platzierungen. | Die Antwort enthält Faktoren, die die Leistung einschränken, und enthält schrittweise Anweisungen und Empfehlungen zur Behebung der Probleme. |
 | [Insights](insights-agent.md) | (Beta-Funktion) Erhalten Sie Kampagnenmetriken und vollständige Berichte, ohne manuell einen Bericht zu erstellen. Sie können die Ergebnisse als CSV-Datei herunterladen. | Die ersten Zeilen des Berichts werden mit Links zur Vorschau des vollständigen Berichts und zum Herunterladen des Berichts als [!DNL Microsoft Excel] Datei mit kommagetrennten Werten (.csv) angezeigt. |
-| [Produktdokumentationssuche](documentation-search.md) | Suchen Sie im [Advertising DSP-Handbuch nach konzeptionellen Inhalten und &#x200B;](/help/dsp/home.md) für Werbetreibende mit Advertising Creative im [Advertising Creative-Handbuch](/help/creative/home.md). | Die Antwort enthält Inline-Zitate und unten eine erweiterbare [!UICONTROL Documentation Sources]. Klicken Sie auf eine beliebige Zitat- oder Quellauflistung, um die entsprechende Seite zu öffnen.<br><br>Die Antwort kann auch Folgefragen und Vorschläge enthalten, die Ihnen dabei helfen, Ihre Abfrage zu verfeinern und weitere Informationen zu finden. |
+| [Produktdokumentationssuche](documentation-search.md) | Suchen Sie im [Advertising DSP-Handbuch nach konzeptionellen Inhalten und ](/help/dsp/home.md) für Werbetreibende mit Advertising Creative im [Advertising Creative-Handbuch](/help/creative/home.md). | Die Antwort enthält Inline-Zitate und unten eine erweiterbare [!UICONTROL Documentation Sources]. Klicken Sie auf eine beliebige Zitat- oder Quellauflistung, um die entsprechende Seite zu öffnen.<br><br>Die Antwort kann auch Folgefragen und Vorschläge enthalten, die Ihnen dabei helfen, Ihre Abfrage zu verfeinern und weitere Informationen zu finden. |
 
 ## Best Practices für das Schreiben von Abfragen und Eingabeaufforderungen {#writing-queries}
 
