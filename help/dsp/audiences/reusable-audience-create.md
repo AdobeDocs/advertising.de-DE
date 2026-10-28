@@ -111,7 +111,7 @@ Geben Sie dem KI-Assistenten eine Zielgruppenbeschreibung oder beschreiben Sie d
 
    >[!NOTE]
    >
-   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
+   >Um die Zielgruppe später zu bearbeiten, [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
 
 ### Erstellen Sie eine wiederverwendbare Zielgruppe mit dem Zielgruppen-Agenten in der Ansicht [!UICONTROL Audiences] > [!UICONTROL All audiences] .
 
@@ -163,7 +163,7 @@ Geben Sie dem Zielgruppen-Agenten eine kurze oder in natürlicher Sprache verfas
 
    >[!NOTE]
    >
-   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
+   >Um die Zielgruppe später zu bearbeiten, [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
 
 ### Eingabeaufforderungen schreiben und an den Zielgruppen-Agenten antworten {#writing-prompts}
 
@@ -191,7 +191,7 @@ Geben Sie dem Zielgruppen-Agenten eine kurze oder in natürlicher Sprache verfas
 
 * Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Save Audience] oder [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befinden. So können Sie alle Änderungen rückgängig machen, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
 <!--
 Consider starting by asking for what you should include.
@@ -311,9 +311,9 @@ Im Folgenden finden Sie ein Beispiel für eine überzeugende Zielgruppenbeschrei
 
    >[!NOTE]
    >
-   >Beim Erstellen der Zielgruppe werden [ Daten zur ](audience-about.md) im rechten Bedienfeld aktualisiert
+   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
 
-   * Gehen Sie wie folgt vor, um die Segmentlogik manuell mithilfe der Segmente zu erstellen, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md).
+   * Gehen Sie wie folgt vor, um die Segmentlogik manuell mithilfe der Segmente zu erstellen, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar &#x200B;](audience-settings.md).
 
      * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
 
