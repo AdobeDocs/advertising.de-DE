@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Fehlerbehebung bei Leistungs- und Bereitstellungsproblemen mit dem KI-Assistenten
 
-
 *Beta-Funktion*
+
+*Support nur für Englisch*
 
 Der Agent zur Fehlerbehebung des KI-Assistenten identifiziert Faktoren, die die Leistung von Live-Paketen und -Platzierungen einschränken, und bietet schrittweise Anweisungen und Empfehlungen, die auf historischen Daten basieren, um Probleme zu beheben. Der Fehlerbehebungsagent kann bei der Diagnose der folgenden Arten von Leistungs- und Bereitstellungsproblemen helfen:
 
@@ -73,7 +74,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -86,7 +87,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
 
 ## Senden einer Abfrage über die [!UICONTROL Packages]- oder [!UICONTROL Placements]
 
@@ -114,7 +115,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -127,7 +128,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
 
 ## Neue Unterhaltung beginnen {#conversation-new}
 

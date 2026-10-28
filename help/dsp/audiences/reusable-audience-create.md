@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer wiederverwendbaren Zielgruppe
-description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die aus Zielgruppensegmenten und anderen gespeicherten Zielgruppen bestehen. Verwenden Sie optional einen KI-unterstützten Zielgruppenagenten, indem Sie Ihre Zielgruppe in Eingabeaufforderungen in natürlicher Sprache beschreiben. Der Agent empfiehlt Drittanbietersegmente und erstellt Zielgruppenausdrücke zur Verwendung als Ziele oder Ausschlüsse.
+description: Erfahren Sie, wie Sie wiederverwendbare Zielgruppen erstellen, die als Platzierungsziele oder -ausschlüsse verwendet werden können. Wiederverwendbare Zielgruppen in Adobe Advertising DSP manuell oder mit generativer KI im KI-Assistenten oder in der Ansicht „Alle Zielgruppen“ erstellen.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # Erstellen einer wiederverwendbaren Zielgruppe
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmenten und sogar andere gespeicherte Zielgruppen, speichern und verwalten. Diese können Sie als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden. Erstellen Sie Zielgruppen manuell oder verwenden Sie den KI-unterstützten Zielgruppen-Agenten, um neue wiederverwendbare Zielgruppen zu generieren, indem Sie alle Erstanbieter- und Drittanbietersegmente verwenden, die Ihnen je nach Ihren angegebenen Anforderungen zur Verfügung stehen.
+Sie können wiederverwendbare Zielgruppen speichern und verwalten. Dabei handelt es sich um Gruppen von Zielgruppensegmenten (einschließlich aller für Sie verfügbaren Erstanbieter- und Drittanbietersegmente) und sogar andere gespeicherte Zielgruppen. Sie können die Zielgruppen als Ziele oder Ausschlüsse für mehrere Platzierungen verwenden.
+
+Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder im einheitlichen [KI-Assistenten](/help/dsp/ai-assistant/ai-assistant-about.md) oder in der Ansicht [!UICONTROL Audiences] > [!UICONTROL All Audiences] oder erstellen Sie Zielgruppen manuell.
 
 >[!NOTE]
 >
 >(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
-## Manuelles Erstellen einer wiederverwendbaren Zielgruppe
+## Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI mit dem KI-Assistenten
+
+*Beta-Funktion*
+
+*Support nur für Englisch*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>Diese Funktion befindet sich im Beta-Modus und kann sich ändern. Stellen Sie sicher, dass der generierte Zielgruppenausdruck die gewünschte Zielgruppe darstellt, bevor Sie die Zielgruppe speichern und für Ihre Platzierungen verwenden.
+
+1. KI-Assistenten öffnen:
+
+   * Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]>[!UICONTROL Create with AI]**.
+
+   * Klicken Sie oben rechts auf einer beliebigen Seite auf ![Agent-Chat](/help/dsp/assets/agent-chat.png "Agent-Chat").
+
+1. Definieren Sie die Audience:
+
+   1. Erstellen Sie eine erste Eingabeaufforderung, um Ihre Audience auf eine der folgenden Arten zu definieren:
+
+      * Geben Sie Ihre eigene Zielgruppenbeschreibung oder einige der Zielgruppeneigenschaften ein, die Sie ein- und ausschließen möchten.
+
+      * So zeigen Sie Beispiele für Audience Briefs an und kopieren optional eine zu verwendende Audience:
+
+        1. Klicken Sie auf **[!UICONTROL Build]** , um den Abschnitt zu erweitern.
+
+        1. (Optional) So kopieren Sie den Text einer Beispiel-Zielgruppenbeschreibung in das Aufforderungsfeld:
+
+           1. Klicken Sie auf das Beispiel.
+
+           1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
+
+      Siehe [Grundlagen zu Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+
+   1. Um die Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
+
+      Sie können mehrere Fragen in einer Eingabeaufforderung stellen, aber nur jeweils eine Eingabeaufforderung. Warten Sie auf eine Antwort, bevor Sie eine weitere Aufforderung senden können.
+
+      Auf der Seite wird ein Bedienfeld geöffnet, in dem die Zielgruppendefinition auf der Registerkarte [!UICONTROL Step 1: Audience Definition] angezeigt wird. Die Definition enthält alle definierten Zielgruppenfilter, Optimierungskriterien und alle First-Party-Segmente, die ausgeschlossen werden sollen.
+
+      Falls zutreffend, schlägt der KI-Assistent zusätzliche Zielgruppenfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
+
+   1. (Optional) Um Erstanbietersegmente auszuschließen, fordern Sie den KI-Assistenten auf, dies zu tun, oder klicken Sie ![Bearbeiten](/help/dsp/assets/edit-ai.png "Bearbeiten") im **[!UICONTROL First-party segments to exclude]** Abschnitt, wählen Sie die Segmente aus, die Sie für die Zielgruppe ausschließen möchten, und klicken Sie dann auf **[!UICONTROL Apply]**.
+
+   1. (Optional) Senden Sie bei Bedarf zusätzliche Eingabeaufforderungen, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
+
+1. Wenn die Zielgruppendefinition Ihren Kriterien entspricht, geben Sie die einzuschließenden Segmente an:
+
+   1. Den KI-Assistenten auffordern, nach übereinstimmenden Segmenten zu suchen. Sie können „OK“, „Los“, „Weiter“, „Suchen“ oder einen beliebigen relevanten Begriff oder Ausdruck sagen.
+
+      Auf der Registerkarte [!UICONTROL Step 2: Audience Segments] werden der Name der vorgeschlagenen Zielgruppe, die Größe und Verteilung der Zielgruppe, der boolesche Ausdruck für die Zielgruppe und eine Liste der eingeschlossenen Zielgruppensegmente, gruppiert nach Eigenschaften, angezeigt.
+
+   1. (Optional) Führen Sie im [!UICONTROL Audience segments] unten einen der folgenden Schritte aus:
+
+      * Um jede Gruppe von Zielgruppensegmenten zu erweitern, klicken Sie **[!UICONTROL >]** neben der Anzahl.
+
+      * Um die Segment-IDs der enthaltenen Zielgruppensegmente in die Zwischenablage zu kopieren, klicken Sie auf **[!UICONTROL Copy rule]**.
+
+      * Um Segmente aus der Zielgruppe zu entfernen, fordern Sie den KI-Assistenten auf, dies zu tun, oder klicken Sie ![Bearbeiten](/help/dsp/assets/edit-ai.png "Bearbeiten"), heben Sie die Auswahl für alle Segmente auf, die Sie aus der Zielgruppe entfernen möchten, und klicken Sie dann auf **[!UICONTROL Apply]**.
+
+1. Wenn Sie mit der zusammengestellten Zielgruppe zufrieden sind, klicken Sie auf **[!UICONTROL Save Audience]** , um die angegebene Zielgruppe zu erstellen.
+
+   >[!NOTE]
+   >
+   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Erstellen Sie eine wiederverwendbare Zielgruppe mit generativer KI aus der Ansicht [!UICONTROL Audiences] > [!UICONTROL All audiences]
+
+*Beta-Funktion*
+
+*Support nur für Englisch*
+
+>[!NOTE]
+>
+>Diese Funktion befindet sich im Beta-Modus und kann sich ändern. Stellen Sie sicher, dass der generierte Zielgruppenausdruck die gewünschte Zielgruppe darstellt, bevor Sie die Zielgruppe speichern und für Ihre Platzierungen verwenden.
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**.
+
+1. In den [!UICONTROL New Audience] Einstellungen:
+
+   1. Eindeutige **[!UICONTROL Audience Name]** eingeben.
+
+   1. (Optional) Deaktivieren Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option.
+
+      Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] zugeordnet ist, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die Segmente, die diesem Advertiser zur Verfügung stehen, werden in der Zielgruppe in der Vorschau angezeigt.
+
+   1. Klicken Sie auf **[!UICONTROL Save]**.
+
+1. Erstellen Sie die Zielgruppe:
+
+   1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
+
+      Weitere Informationen finden Sie unter &quot;[ von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+
+      Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
+
+      Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird. Sie können optional die Anfrage ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
+
+   1. Wenn der Zielgruppenagent einen Zielgruppenausdruck präsentiert, der Ihre Zielgruppe angemessen beschreibt, weisen Sie den Zielgruppenagenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
+
+      Sie können „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort eingeben. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Um Details zu den einzelnen Segmenten anzuzeigen, die für eine Eigenschaft vorgeschlagen werden, erweitern Sie die Eigenschaft.
+
+   1. Geben Sie bei Bedarf zusätzliche Kriterien an. Wenn der Zielgruppen-Agent einen Zielgruppen-Ausdruck präsentiert, der all Ihre Kriterien erfüllt, weisen Sie den Zielgruppen-Agenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
+
+      Geben Sie zum Zusammenstellen der Zielgruppe „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort ein. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Um Details zu den einzelnen Segmenten anzuzeigen, die für eine Eigenschaft vorgeschlagen werden, erweitern Sie eine beliebige Eigenschaft.
+
+1. Wenn Sie mit der zusammengestellten Zielgruppe zufrieden sind, klicken Sie auf **[!UICONTROL Create]** , um die angegebene Zielgruppe zu erstellen.
+
+   >[!NOTE]
+   >
+   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Manuelles Erstellen einer wiederverwendbaren Zielgruppe
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]>[!UICONTROL Create manually]**.
 
 1. In den [!UICONTROL New Audience] Einstellungen:
 
@@ -57,9 +177,9 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
    >[!NOTE]
    >
-   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
+   >Beim Erstellen der Zielgruppe werden [ Daten zur ](audience-about.md) im rechten Bedienfeld aktualisiert
 
-   * Gehen Sie wie folgt vor, um die Segmentlogik mithilfe der Segmente auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] manuell &#x200B;](audience-settings.md) erstellen.
+   * Gehen Sie wie folgt vor, um die Segmentlogik manuell mithilfe der Segmente zu erstellen, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md).
 
      * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
 
@@ -107,71 +227,21 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-## Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI
-
-*Beta-Funktion*
-
-*Support nur für Englisch*
-
->[!NOTE]
->
->Diese Funktion befindet sich im Beta-Modus und kann sich ändern. Stellen Sie sicher, dass der generierte Zielgruppenausdruck die gewünschte Zielgruppe darstellt, bevor Sie die Zielgruppe erstellen und für Ihre Platzierungen verwenden.
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
-
-1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]**.
-
-1. In den [!UICONTROL New Audience] Einstellungen:
-
-   1. Eindeutige **[!UICONTROL Audience Name]** eingeben.
-
-   1. (Optional) Deaktivieren Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option.
-
-      Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] zugeordnet ist, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die Segmente, die diesem Advertiser zur Verfügung stehen, werden in der Zielgruppe in der Vorschau angezeigt.
-
-   1. Klicken Sie auf **[!UICONTROL Save]**.
-
-1. Erstellen Sie die Zielgruppe:
-
-   1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
-
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
-
-      Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
-
-      Wenn der Zielgruppen-Agent relevante Segmente findet, wird basierend auf Ihren Kriterien ein boolescher Zielgruppenausdruck erstellt. Außerdem wird um Ihre Genehmigung gebeten, bevor nach übereinstimmenden Segmenten zur Zusammenstellung der Zielgruppe gesucht wird. Sie können optional die Anfrage ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
-
-   1. Wenn der Zielgruppenagent einen Zielgruppenausdruck präsentiert, der Ihre Zielgruppe angemessen beschreibt, weisen Sie den Zielgruppenagenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
-
-      Sie können „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort eingeben. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Erweitern Sie eine Eigenschaft, um Details zu den einzelnen Segmenten anzuzeigen, die für diese Eigenschaft vorgeschlagen werden.
-
-   1. Geben Sie bei Bedarf zusätzliche Kriterien an. Wenn der Zielgruppen-Agent einen Zielgruppen-Ausdruck präsentiert, der all Ihre Kriterien erfüllt, weisen Sie den Zielgruppen-Agenten an, mit der Zusammenstellung der Zielgruppe fortzufahren.
-
-      Geben Sie zum Zusammenstellen der Zielgruppe „Fortfahren“, „OK“, „OK“, „Ja“ oder ein anderes ähnliches Wort ein. Der Agent listet alle vorgeschlagenen Segmente für jede Eigenschaft auf (z. B. „Eltern„). Erweitern Sie eine Eigenschaft, um Details zu den einzelnen Segmenten anzuzeigen, die für diese Eigenschaft vorgeschlagen werden.
-
-1. Wenn Sie mit der zusammengestellten Zielgruppe zufrieden sind, klicken Sie auf **[!UICONTROL Create]** , um die angegebene Zielgruppe zu erstellen.
-
-   >[!NOTE]
-   >
-   >Sie können die Zielgruppe später nicht mehr mit dem Zielgruppen-Agenten bearbeiten. Stattdessen [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
-
 ### Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### Was sollte eine Eingabeaufforderung enthalten?
+#### Richtlinien zum Schreiben von Eingabeaufforderungen für die Zielgruppe
 
 * Beschreiben Sie die Zielgruppe in einer klaren, beschreibenden Sprache.
 
-  * Sie können entweder ganze Sätze oder nur eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
+  * Sie können ganze Sätze oder eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
 
   * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
 
   * Der Zielgruppenagent erkennt die häufigsten Synonyme.
 
-* Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Je mehr Details Sie angeben, desto größer ist die Chance, dass Sie die Ergebnisse erhalten, die Ihren Anforderungen entsprechen.
+* Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Wenn Sie weitere Details bereitstellen, erhöhen Sie die Wahrscheinlichkeit, Ergebnisse zu erhalten, die Ihren Anforderungen entsprechen.
 
 * Identifizieren Sie Standorte, Gerätetypen und Datenanbieter, die ein- oder ausgeschlossen werden sollen.
 
@@ -179,11 +249,11 @@ Sie können wiederverwendbare Zielgruppen, d. h. Gruppen von Zielgruppensegmente
 
 * Erfahren Sie mehr über Eingabeaufforderungen durch Experimentieren.
 
-  Wenn Ihre Eingabeaufforderung nicht klar ist, fordert der Zielgruppen-Agent einfach eine weitere Eingabeaufforderung an, sodass Sie es erneut versuchen können.
+  Wenn Ihre Eingabeaufforderung nicht klar ist, fordert der Zielgruppen-Agent eine weitere Eingabeaufforderung an, sodass Sie es erneut versuchen können.
 
   Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
 
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
 
 <!--
 Consider starting by asking for what you should include.
@@ -243,7 +313,7 @@ Nehmen Sie in Ihre Zusammenfassung so viele Zielgruppenattribut-Typen wie mögli
 
 * **Demografie**
 
-  Umfasst Attribute wie Altersbereich, Geschlecht, Familienstand, Haushaltszusammensetzung (Familiengröße, Anwesenheit von Kindern, Mehrgenerationenhaushalte).
+  Umfasst Attribute wie Altersbereich, Geschlechtsidentität, Familienstand, Zusammensetzung des Haushalts (Familiengröße, Anwesenheit von Kindern, Mehrgenerationenhaushalte).
 
 * **Sozioökonomische Indikatoren**
 

@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -22,13 +22,14 @@ ht-degree: 3%
     + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
   + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
   + [Unterstützte Währungen](/help/dsp/currency.md)
-  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
-  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
+  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + KI-Assistent in Advertising DSP {#ai-assistant}
   + [Über den KI-Assistenten in Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [Generieren wiederverwendbarer Zielgruppen mit dem KI-Assistenten](/help/dsp/ai-assistant/audience-builder-agent.md)
   + [Erstellen von Berichten mit dem KI-Assistenten](/help/dsp/ai-assistant/insights-agent.md)
-  + [Fehlerbehebung bei Leistungs- und Versandproblemen mit dem KI-Assistenten](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [Fehlerbehebung bei Leistungs- und Bereitstellungsproblemen mit dem KI-Assistenten](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [Suchen nach Produktdokumentation mithilfe des KI-Assistenten](/help/dsp/ai-assistant/documentation-search.md)
   + [Arbeiten mit früheren KI-Assistenten-Unterhaltungen](/help/dsp/ai-assistant/previous-conversations.md)
 + Kampagnen-Management {#campaign-management}
@@ -80,7 +81,7 @@ ht-degree: 3%
     + [Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten](/help/dsp/campaign-management/ads/ad-qa.md)
     + [Bearbeiten einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md)
     + [Duplizieren einer Anzeige](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=de)
+    + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [Auflisten der mit einer Anzeige verknüpften Platzierungen](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [Anzeigen eines detaillierten Berichts für eine Anzeige](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [Anhalten oder Aktivieren einer Anzeige](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -239,9 +240,9 @@ ht-degree: 3%
   + Benachrichtigungen {#notifications}
     + [Über Warnhinweis-Abonnements](/help/dsp/admin/alerts-about.md)
     + [Verwalten von Warnhinweis-Abonnements](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de)
++ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Hilfe erhalten](/help/dsp/get-help.md)
-+ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
++ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

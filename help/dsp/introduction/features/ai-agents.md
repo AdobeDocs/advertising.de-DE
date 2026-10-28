@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # KI-unterstützte Funktionen in Adobe Advertising DSP
@@ -30,10 +30,12 @@ DSP bietet KI-unterstützte Agenten, die Eingabeaufforderungen in natürlicher S
 
 * Unified AI-Assistent:
 
+  * [Generieren wiederverwendbarer Zielgruppen](/help/dsp/ai-assistant/audience-builder-agent.md).
+
   * [Erstellen Sie Berichte für Ihre Kampagnen, Kampagnenkomponenten, Advertising Creative-Erlebnisse, Werbetreibenden und Anzeigenziele](/help/dsp/ai-assistant/insights-agent.md).
 
   * [Fehlerbehebung bei Leistungs- und Versandproblemen für Ihre Pakete und Platzierungen](/help/dsp/ai-assistant/troubleshooting-agent.md).
 
-  * [Suchen Sie nach &#x200B;](/help/dsp/ai-assistant/documentation-search.md) Produktdokumentation im [Advertising DSP-](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md).
+  * [Suchen Sie nach ](/help/dsp/ai-assistant/documentation-search.md) Produktdokumentation im [Advertising DSP-](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md).
 
 * [Verwenden Sie den Agenten für generative KI-unterstützte Zielgruppen in [!UICONTROL Audiences] > [!UICONTROL All Audiences], um neue wiederverwendbare Zielgruppen zu generieren](/help/dsp/audiences/reusable-audience-create.md) die Sie als Ziele oder Ausschlüsse für Ihre Platzierungen verwenden können.

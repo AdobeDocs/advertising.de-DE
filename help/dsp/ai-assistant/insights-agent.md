@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # Erstellen von Berichten mit dem KI-Assistenten
 
 *Beta-Funktion*
+
+*Support nur für Englisch*
 
 Verwenden Sie den Insights-Agenten des KI-Assistenten, um Metriken und vollständige Berichte für Ihre Kampagnen, Kampagnenkomponenten, Advertising Creative-Erlebnisse, Werbetreibenden und Anzeigenziele zu erhalten, ohne manuell einen Bericht zu erstellen. Sie können einfache Fragen zu einer bestimmten Metrik stellen, z. B. Ausgaben oder CPA für eine Kampagne, oder einen komplexeren Bericht für eine bestimmte Dimension (z. B. eine einzelne Kampagne oder Zielgruppe) oder über Dimensionen hinweg (Aufschlüsselungen für jede Kampagne und jeden Advertiser) anfordern. Sie können die Ergebnisse als CSV-Datei herunterladen.
 
@@ -75,7 +77,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
       * Advertising Creative-Entitäten: [!UICONTROL Experience]
       * Anzeigenziele: [!UICONTROL Audience], [!UICONTROL City], [!UICONTROL Country], [!UICONTROL State], [!UICONTROL DMA], [!UICONTROL Retargeting Pixel], [!UICONTROL Device OS], [!UICONTROL Device Browser], [!UICONTROL Device Type], [!UICONTROL Zip Code]
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
 1. Klicken Sie ![Abfrage senden](/help/dsp/assets/submit-prompt.png "Abfrage senden") oder drücken Sie die **Eingabetaste** auf der Tastatur. Wenn der Agent zusätzliche Informationen anfordert, geben Sie die erforderlichen Informationen ein.
 
@@ -85,7 +87,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
 
 ## Herunterladen oder Vorschau eines vollständigen Berichts aus der Chatbox
 
