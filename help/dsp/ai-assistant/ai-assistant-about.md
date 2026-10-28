@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 0%
 ---
 # Über den KI-Assistenten in Advertising DSP
@@ -36,7 +36,7 @@ Die folgenden Workflows können Ihnen dabei helfen, Ihre Arbeit effektiver zu er
 
 | Funktion | Beschreibung | Antworten |
 | --- | --- | --- |
-| [Fehlerbehebung](troubleshooting-agent.md) | (Beta-Funktion) Diagnostizieren Sie Leistungs- und Bereitstellungsprobleme für Live-Pakete und Platzierungen. | Die Antwort enthält Faktoren, die die Leistung einschränken, und gibt Empfehlungen zur Behebung der Probleme. |
+| [Fehlerbehebung](troubleshooting-agent.md) | (Beta-Funktion) Diagnostizieren Sie Leistungs- und Bereitstellungsprobleme für Live-Pakete und Platzierungen. | Die Antwort enthält Faktoren, die die Leistung einschränken, und enthält schrittweise Anweisungen und Empfehlungen zur Behebung der Probleme. |
 | [Insights](insights-agent.md) | (Beta-Funktion) Erhalten Sie Kampagnenmetriken und vollständige Berichte, ohne manuell einen Bericht zu erstellen. Sie können die Ergebnisse als CSV-Datei herunterladen. | Die ersten Zeilen des Berichts werden mit Links zur Vorschau des vollständigen Berichts und zum Herunterladen des Berichts als [!DNL Microsoft Excel] Datei mit kommagetrennten Werten (.csv) angezeigt. |
 | [Produktdokumentationssuche](documentation-search.md) | Suchen Sie im [Advertising DSP-Handbuch nach konzeptionellen Inhalten und &#x200B;](/help/dsp/home.md) für Werbetreibende mit Advertising Creative im [Advertising Creative-Handbuch](/help/creative/home.md). | Die Antwort enthält Inline-Zitate und unten eine erweiterbare [!UICONTROL Documentation Sources]. Klicken Sie auf eine beliebige Zitat- oder Quellauflistung, um die entsprechende Seite zu öffnen.<br><br>Die Antwort kann auch Folgefragen und Vorschläge enthalten, die Ihnen dabei helfen, Ihre Abfrage zu verfeinern und weitere Informationen zu finden. |
 
