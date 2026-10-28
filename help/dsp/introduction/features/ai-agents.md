@@ -36,6 +36,6 @@ DSP bietet KI-unterstützte Agenten, die Eingabeaufforderungen in natürlicher S
 
   * [Fehlerbehebung bei Leistungs- und Versandproblemen für Ihre Pakete und Platzierungen](/help/dsp/ai-assistant/troubleshooting-agent.md).
 
-  * [Suchen Sie nach ](/help/dsp/ai-assistant/documentation-search.md) Produktdokumentation im [Advertising DSP-](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md).
+  * [Suchen Sie nach &#x200B;](/help/dsp/ai-assistant/documentation-search.md) Produktdokumentation im [Advertising DSP-](/help/dsp/home.md) und (Werbetreibende mit Advertising Creative) im [Advertising Creative-Handbuch](/help/creative/home.md).
 
 * [Verwenden Sie den Agenten für generative KI-unterstützte Zielgruppen in [!UICONTROL Audiences] > [!UICONTROL All Audiences], um neue wiederverwendbare Zielgruppen zu generieren](/help/dsp/audiences/reusable-audience-create.md) die Sie als Ziele oder Ausschlüsse für Ihre Platzierungen verwenden können.
