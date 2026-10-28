@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # Erstellen einer wiederverwendbaren Zielgruppe
@@ -35,7 +35,9 @@ Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder 
 >
 >(Werbetreibende, für die DSP Hash-E-Mail-IDs in LiveRampID-Segmente konvertiert) Erstanbieter-RampID-Segmente, die nicht mit einer aktiven, geplanten oder angehaltenen Platzierung verknüpft sind, werden angehalten. Das Segment wird in der Segmentliste als „Automatisch angehalten“ angegeben.
 
-## Erstellen einer wiederverwendbaren Zielgruppe mit generativer KI mit dem KI-Assistenten
+## Generieren einer wiederverwendbaren Zielgruppe mit generativer KI
+
+### Erstellen einer wiederverwendbaren Zielgruppe mit dem KI-Assistenten
 
 *Beta-Funktion*
 
@@ -69,7 +71,7 @@ Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder 
 
            1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-      Siehe [Grundlagen zu Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Siehe &quot;[Eingabeaufforderungen schreiben und auf den Zielgruppen-Agenten reagieren](#writing-prompts)&quot; und &quot;[Best Practices für die Erstellung einer Zielgruppen-Zusammenfassung](#audience-brief-best-practices)&quot;.
 
    1. Um die Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
@@ -101,9 +103,9 @@ Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder 
 
    >[!NOTE]
    >
-   >Um die Zielgruppe später zu bearbeiten, [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
+   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Erstellen Sie eine wiederverwendbare Zielgruppe mit generativer KI aus der Ansicht [!UICONTROL Audiences] > [!UICONTROL All audiences]
+### Erstellen Sie eine wiederverwendbare Zielgruppe mit dem Zielgruppen-Agenten in der Ansicht [!UICONTROL Audiences] > [!UICONTROL All audiences] .
 
 *Beta-Funktion*
 
@@ -133,7 +135,7 @@ Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder 
 
    1. Geben Sie eine oder mehrere Eingabeaufforderungen ein, um die Zielgruppeneigenschaften zu beschreiben, die Sie ein- und ausschließen möchten. Um jede Eingabeaufforderung zu senden, klicken Sie auf ![Senden-](/help/dsp/assets/submit-prompt.png "-Eingabeaufforderung").
 
-      Weitere Informationen finden Sie unter &quot;[&#x200B; von Eingabeaufforderungen](#writing-prompts) und &quot;[Best Practices für die Erstellung einer Zielgruppenbeschreibung](#audience-brief-best-practices).
+      Weitere Informationen finden Sie unter &quot;[Eingabeaufforderungen schreiben und an den Zielgruppen-Agenten antworten](#writing-prompts) und &quot;[Best Practices zum Erstellen einer Zielgruppen-Zusammenfassung](#audience-brief-best-practices)&quot;.
 
       Gegebenenfalls schlägt der Agent zusätzliche Segmentfilter vor, um eine effektivere Zielgruppenbeschreibung zu erstellen. Sie können die Vorschläge annehmen oder ablehnen.
 
@@ -151,153 +153,13 @@ Erstellen Sie Zielgruppen mit dem KI-unterstützten Zielgruppenagenten entweder 
 
    >[!NOTE]
    >
-   >Um die Zielgruppe später zu bearbeiten, [&#x200B; Sie den Zielgruppenausdruck manuell &#x200B;](/help/dsp/audiences/reusable-audience-edit.md).
-
-## Manuelles Erstellen einer wiederverwendbaren Zielgruppe
-
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
-
-1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]>[!UICONTROL Create manually]**.
-
-1. In den [!UICONTROL New Audience] Einstellungen:
-
-   1. Eindeutige **[!UICONTROL Audience Name]** eingeben.
-
-   1. (Optional) Deaktivieren Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option.
-
-      Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] zugeordnet ist, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die Segmente, die diesem Advertiser zur Verfügung stehen, werden in der Zielgruppe in der Vorschau angezeigt.
-
-   1. Klicken Sie auf **[!UICONTROL Save]**.
-
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Switch to manual mode]** im rechten Bedienfeld.
-
-   Die Option KI ist die Standardeinstellung.
-
-1. Erstellen Sie die Zielgruppe:
-
-   >[!NOTE]
-   >
-   >Beim Erstellen der Zielgruppe werden [&#x200B; Daten zur &#x200B;](audience-about.md) im rechten Bedienfeld aktualisiert
-
-   * Gehen Sie wie folgt vor, um die Segmentlogik manuell mithilfe der Segmente zu erstellen, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar &#x200B;](audience-settings.md).
-
-     * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
-
-       Die Suchergebnisse enthalten Segmente, die auf den von Ihnen verwendeten genauen Begriffen basieren. Wenn Sie mehrere Begriffe eingeben, müssen alle Begriffe für ein Segment gefunden werden.
-
-     * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
-
-     * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
-
-       1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
-
-       1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
-
-          *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Für eine Zielgruppe, die nur Ausschlüsse enthält, erstellen Sie diese Zielgruppe als *[!UICONTROL Include Any]* und wählen Sie dann innerhalb einer Platzierung diese Zielgruppe aus dem Menü Ausgeschlossene Zielgruppen aus.
-
-       1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
-
-          Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
-
-     * Hinzufügen einer neuen Segmentgruppe:
-
-       1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
-
-          1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
-
-          1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
-
-          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
-
-   * So verwenden Sie die Segmentlogik einer bestehenden Audience:
-
-     1. Kopieren Sie die Segmentlogik aus der bestehenden Audience auf eine der folgenden Arten:
-
-        * Halten Sie in der Ansicht Alle Zielgruppen den Cursor über die Zeile Zielgruppe und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
-
-        * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
-
-        * Erstellen Sie in einem Texteditor manuell die Segmentlogik mit alphanumerischen Segment-IDs und [boolesche Syntax](audience-segment-logic-syntax.md) und kopieren Sie sie in die Zwischenablage.
-
-     1. Klicken Sie auf **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.
-
-        >[!NOTE]
-        >
-        >Wenn die Zielgruppe bereits eine Segmentlogik enthält, überschreibt das Einfügen einer neuen Segmentlogik die vorhandene Logik.
-
-1. Klicken Sie auf **[!UICONTROL Create]**.
-
-### Grundlagen der Eingabeaufforderungen zum Schreiben {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Richtlinien zum Schreiben von Eingabeaufforderungen für die Zielgruppe
-
-* Beschreiben Sie die Zielgruppe in einer klaren, beschreibenden Sprache.
-
-  * Sie können ganze Sätze oder eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
-
-  * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
-
-  * Der Zielgruppenagent erkennt die häufigsten Synonyme.
-
-* Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Wenn Sie weitere Details bereitstellen, erhöhen Sie die Wahrscheinlichkeit, Ergebnisse zu erhalten, die Ihren Anforderungen entsprechen.
-
-* Identifizieren Sie Standorte, Gerätetypen und Datenanbieter, die ein- oder ausgeschlossen werden sollen.
-
-* Geben Sie iterativ Details an, um Ihre Kriterien und den generierten Zielgruppenausdruck zu verfeinern, bevor Sie die Zielgruppe speichern.
-
-* Erfahren Sie mehr über Eingabeaufforderungen durch Experimentieren.
-
-  Wenn Ihre Eingabeaufforderung nicht klar ist, fordert der Zielgruppen-Agent eine weitere Eingabeaufforderung an, sodass Sie es erneut versuchen können.
-
-  Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
-
-Weitere Möglichkeiten zur Optimierung der [&#x200B; für Zielgruppen finden Sie &#x200B;](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### Was können Sie in eine Eingabeaufforderung einbeziehen?
-
-* Verweise auf vorhandene Zielgruppenausdrücke.
-
-* Text in Sprachen außer Englisch.
-
-#### Beispiele für Antworten von Zielgruppenagenten und wie geantwortet wird
-
-Wenn der Zielgruppenagent eine Antwort von Ihnen benötigt, können Sie mit Schlüsselwörtern in der Anfrage oder unter Verwendung gängiger Synonyme antworten.
-
-#### Audience Agent stellt eine Frage
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Ihre bejahende Antwort: „Weiter“, „OK“, „Ja“ oder ein anderes ähnliches Wort
-
-Sie können die Anfrage auch ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
-
-##### Zielgruppenagent, der Sie zur Auswahl aus mehreren Optionen auffordert
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Ihre Antwort: `1`, `proceed`, `2`, `maximum reach` usw.
-
-Sie können die Anfrage auch ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
+   >Um die Zielgruppe später zu bearbeiten, [ Sie den Zielgruppenausdruck manuell ](/help/dsp/audiences/reusable-audience-edit.md).
 
 ### Best Practices für die Erstellung einer Zielgruppenbeschreibung {#audience-brief-best-practices}
 
 Eine Audience Brief ist eine strategische Zusammenfassung, die die Zielgruppe für eine Kampagne definiert. Ein gut formulierter Überblick hilft dem DSP-Zielgruppenagenten, die relevantesten Segmente zu identifizieren, um Ihre Zielgruppe zusammenzustellen.
 
-#### Wesentliche Komponenten einer effektiven Zielgruppenbeschreibung
+#### Komponenten einer effektiven Zielgruppenbeschreibung
 
 Nehmen Sie in Ihre Zusammenfassung so viele Zielgruppenattribut-Typen wie möglich aus der folgenden Liste auf. Geben Sie die Attribute an, die Sie ausschließen möchten.
 
@@ -348,6 +210,146 @@ Nehmen Sie in Ihre Zusammenfassung so viele Zielgruppenattribut-Typen wie mögli
 Im Folgenden finden Sie ein Beispiel für eine überzeugende Zielgruppenbeschreibung für eine Kampagne, mit der Sie auf einen Premium-Abonnement-Service für das Speisen-Kit aufmerksam machen und die Testversion optimieren können:
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
+
+### Eingabeaufforderungen schreiben und an den Zielgruppen-Agenten antworten {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Richtlinien zum Schreiben von Eingabeaufforderungen für die Zielgruppe
+
+* Beschreiben Sie die Zielgruppe in einer klaren, beschreibenden Sprache.
+
+  * Sie können ganze Sätze oder eine Zeichenfolge eingeben. Interpunktion ist nicht erforderlich, außer wenn es aus Gründen der Übersichtlichkeit erforderlich ist.
+
+  * Im Allgemeinen wird bei Eingabeaufforderungen nicht zwischen Groß- und Kleinschreibung unterschieden.
+
+  * Der Zielgruppenagent erkennt die häufigsten Synonyme.
+
+* Seien Sie spezifisch und geben Sie Details zu allen Zielgruppeneigenschaften an, die Sie einbeziehen möchten, sowie zu allen Eigenschaften, die Sie ausdrücklich ausschließen möchten. Wenn Sie weitere Details bereitstellen, erhöhen Sie die Wahrscheinlichkeit, Ergebnisse zu erhalten, die Ihren Anforderungen entsprechen.
+
+* Identifizieren Sie Standorte, Gerätetypen und Datenanbieter, die ein- oder ausgeschlossen werden sollen.
+
+* Geben Sie iterativ Details an, um Ihre Kriterien und den generierten Zielgruppenausdruck zu verfeinern, bevor Sie die Zielgruppe speichern.
+
+* Erfahren Sie mehr über Eingabeaufforderungen durch Experimentieren.
+
+  Wenn Ihre Eingabeaufforderung nicht klar ist, fordert der Zielgruppen-Agent eine weitere Eingabeaufforderung an, sodass Sie es erneut versuchen können.
+
+  Der Zielgruppen-Agent speichert einen generierten Zielgruppenausdruck nicht automatisch als Zielgruppe. Sie können eine Zielgruppe nur speichern, indem Sie auf die Schaltfläche [!UICONTROL Create] klicken, die sich außerhalb des Eingabeaufforderungsbereichs befindet, sodass Sie alle Änderungen rückgängig machen können, die Sie nicht beibehalten möchten.
+
+Weitere Möglichkeiten zur Optimierung der [ für Zielgruppen finden Sie ](#audience-brief-best-practices) „Best Practices für die Erstellung einer Zielgruppenkurze“.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Einschränkungen bei Eingabeaufforderungen
+
+* Verweise auf vorhandene Zielgruppen.
+
+* Text in Sprachen außer Englisch.
+
+#### So reagieren Sie auf den Zielgruppen-Agenten
+
+Wenn der Zielgruppenagent eine Antwort von Ihnen benötigt, können Sie mit Schlüsselwörtern in der Anfrage oder unter Verwendung gängiger Synonyme antworten.
+
+##### Bestätigen, ob fortgefahren werden soll
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Ihre bejahende Antwort: „Weiter“, „OK“, „Ja“ oder ein anderes ähnliches Wort
+
+Sie können die Anfrage auch ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
+
+##### Aus empfohlenen Optionen auswählen
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Ihre Antwort: `1`, `proceed`, `2`, `maximum reach` usw.
+
+Sie können die Anfrage auch ignorieren und stattdessen weitere Zielgruppenkriterien angeben.
+
+## Manuelles Erstellen einer wiederverwendbaren Zielgruppe
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+
+1. Klicken Sie über der Datentabelle auf **[!UICONTROL Create]>[!UICONTROL Create manually]**.
+
+1. In den [!UICONTROL New Audience] Einstellungen:
+
+   1. Eindeutige **[!UICONTROL Audience Name]** eingeben.
+
+   1. (Optional) Deaktivieren Sie die zu **[!UICONTROL Share with all advertisers in my account]** Option.
+
+      Wenn Sie eine Zielgruppe freigeben, wird die Zielgruppe als Ziel oder Ausschluss für alle Advertiser im Konto verfügbar. Die einzelnen Segmente in der Zielgruppe stehen jedoch nur Benutzenden zur Verfügung, für die die Segmente freigegeben sind. Wenn Sie beispielsweise eine Zielgruppe mit Adobe Analytics-Segmenten für einen Advertiser freigeben, der nicht demselben [!DNL Analytics] zugeordnet ist, wird das Segment in dieser Zielgruppe für diesen Advertiser nicht in der Vorschau angezeigt. Nur die Segmente, die diesem Advertiser zur Verfügung stehen, werden in der Zielgruppe in der Vorschau angezeigt.
+
+   1. Klicken Sie auf **[!UICONTROL Save]**.
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Switch to manual mode]** im rechten Bedienfeld.
+
+   Die Option KI ist die Standardeinstellung.
+
+1. Erstellen Sie die Zielgruppe:
+
+   >[!NOTE]
+   >
+   >Beim Erstellen der Zielgruppe werden [ Daten zur ](audience-about.md) im rechten Bedienfeld aktualisiert
+
+   * Gehen Sie wie folgt vor, um die Segmentlogik manuell mithilfe der Segmente zu erstellen, die auf den Registerkarten [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] und [!UICONTROL Saved Audiences] verfügbar ](audience-settings.md).
+
+     * (Optional) Suchen Sie nach einem Segmentnamen, einer Beschreibung oder einem Pfad.
+
+       Die Suchergebnisse enthalten Segmente, die auf den von Ihnen verwendeten genauen Begriffen basieren. Wenn Sie mehrere Begriffe eingeben, müssen alle Begriffe für ein Segment gefunden werden.
+
+     * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+
+     * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
+
+       1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
+
+       1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+
+          *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Für eine Zielgruppe, die nur Ausschlüsse enthält, erstellen Sie diese Zielgruppe als *[!UICONTROL Include Any]* und wählen Sie dann innerhalb einer Platzierung diese Zielgruppe aus dem Menü Ausgeschlossene Zielgruppen aus.
+
+       1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+
+          Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
+
+     * Hinzufügen einer neuen Segmentgruppe:
+
+       1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
+
+          1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
+
+          1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+
+          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+
+   * So verwenden Sie die Segmentlogik einer bestehenden Audience:
+
+     1. Kopieren Sie die Segmentlogik aus der bestehenden Audience auf eine der folgenden Arten:
+
+        * Halten Sie in der Ansicht Alle Zielgruppen den Cursor über die Zeile Zielgruppe und klicken Sie dann auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+
+        * Klicken Sie in den Einstellungen für die vorhandene Zielgruppe oben im Bedienfeld Segmentlogik auf **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+
+        * Erstellen Sie in einem Texteditor manuell die Segmentlogik mit alphanumerischen Segment-IDs und [boolesche Syntax](audience-segment-logic-syntax.md) und kopieren Sie sie in die Zwischenablage.
+
+     1. Klicken Sie auf **[!UICONTROL paste in an audience rule to begin building]**, fügen Sie die vorhandene Segmentlogik in das Eingabefeld ein und klicken Sie dann auf **[!UICONTROL Apply]**.
+
+        >[!NOTE]
+        >
+        >Wenn die Zielgruppe bereits eine Segmentlogik enthält, überschreibt das Einfügen einer neuen Segmentlogik die vorhandene Logik.
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
