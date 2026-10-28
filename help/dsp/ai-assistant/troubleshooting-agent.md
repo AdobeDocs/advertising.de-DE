@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# Fehlerbehebung bei Leistungs- und Versandproblemen mit dem KI-Assistenten
+# Fehlerbehebung bei Leistungs- und Bereitstellungsproblemen mit dem KI-Assistenten
+
 
 *Beta-Funktion*
 
-Der Agent des KI-Assistenten zur Fehlerbehebung kann Faktoren identifizieren, die die Leistung von Live-Paketen und -Platzierungen einschränken, und bietet Empfehlungen zur Lösung von Problemen. Der Fehlerbehebungsagent kann bei der Diagnose der folgenden Arten von Leistungs- und Bereitstellungsproblemen helfen:
+Der Agent zur Fehlerbehebung des KI-Assistenten identifiziert Faktoren, die die Leistung von Live-Paketen und -Platzierungen einschränken, und bietet schrittweise Anweisungen und Empfehlungen, die auf historischen Daten basieren, um Probleme zu beheben. Der Fehlerbehebungsagent kann bei der Diagnose der folgenden Arten von Leistungs- und Bereitstellungsproblemen helfen:
 
 * (Nur Platzierungen) Ausgabenprobleme, einschließlich zu hoher Ausgaben, zu geringer Ausgaben und Ausgabenüberschreitung. Der Agent bewertet die damit verbundenen Faktoren für Geschwindigkeit, Gebote, Targeting und Budgetbegrenzung als Teil der Diagnose.
 
@@ -32,7 +33,7 @@ Der Agent des KI-Assistenten zur Fehlerbehebung kann Faktoren identifizieren, di
 
 Jedes Gespräch behandelt eine einzelne Diagnose für ein einzelnes Paket oder eine einzelne Platzierung. Sobald der Agent ein Ergebnis geliefert hat, beginnen Sie ein neues Gespräch, um Fragen zu einem anderen Problem oder zu einem anderen Paket oder einer anderen Platzierung zu stellen.
 
-Der Agent kann weder Einstellungen ändern noch Kampagnen oder Kampagnenkomponenten erstellen oder bearbeiten. Außerdem können keine Probleme für pausierte, abgeschlossene, archivierte oder geplante Pakete oder Platzierungen diagnostiziert werden.
+Der Agent kann keine Einstellungen ändern, Kampagnen oder Kampagnenkomponenten erstellen oder bearbeiten oder Probleme für ein pausiertes, abgeschlossenes, archiviertes oder geplantes Paket oder eine Platzierung diagnostizieren.
 
 >[!IMPORTANT]
 >
@@ -72,7 +73,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -85,9 +86,9 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
 
-## Senden einer Abfrage über die [!UICONTROL Placements]- oder [!UICONTROL Placements]
+## Senden einer Abfrage über die [!UICONTROL Packages]- oder [!UICONTROL Placements]
 
 Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nachricht. Warten Sie auf eine Antwort, bevor Sie eine weitere senden.
 
@@ -113,7 +114,7 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
         1. (Optional) Bearbeiten Sie den Text entsprechend Ihren Anforderungen.
 
-   Weitere Informationen zu Abfragen finden Sie unter &quot;[&#x200B; Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
+   Weitere Informationen zu Abfragen finden Sie unter &quot;[ Practices zum Schreiben von Abfragen und Eingabeaufforderungen](ai-assistant-about.md#writing-queries).
 
    >[!NOTE]
    >
@@ -126,11 +127,11 @@ Sie können mehrere Fragen in einer Nachricht stellen, aber nur jeweils eine Nac
 
 >[!TIP]
 >
->Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [&#x200B; Sie eine neue Unterhaltung &#x200B;](#conversation-new).
+>Wenn Sie nach einem anderen Problem oder einem anderen Paket oder einer anderen Platzierung fragen möchten, [ Sie eine neue Unterhaltung ](#conversation-new).
 
 ## Neue Unterhaltung beginnen {#conversation-new}
 
-Jede Konversation oder jeder Abfrage-Thread wird separat gespeichert, sodass Sie zwischen Ihren vorherigen Konversationen unterscheiden können.
+Jede Konversation (oder jeder Abfrage-Thread) wird separat gespeichert, sodass Sie zwischen Ihren vorherigen Konversationen unterscheiden können.
 
 1. Klicken Sie oben im [chatbox](#ai-assistant-open) auf ![Neue Konversation beginnen](/help/dsp/assets/new-selection.png "eine neue Konversation beginnen").
 
