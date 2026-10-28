@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # SSP-Partner
@@ -40,7 +40,7 @@ Eine Plattform auf der Angebotsseite (Supply-Side Platform, SSP) ist eine Werbet
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG-Unterstützung | Global | USD, EUR, GBP | Audio Desktop und Mobilgeräte |
 | [!DNL Cadent] | [!DNL Cadent] (früher [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] oder Adobe Advertising | — | USA + EMEA | USD, EUR | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
-| [!DNL Equativ] | [!DNL Equativ] (früher [!DNL Smart AdServer]) | [!DNL TubeMogul] oder Adobe Advertising | — | EMEA | USD, EUR | Desktop- und Mobile-Video<br><br>Desktop und Mobilgerät anzeigen |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Desktop und mobiles<br><br>natives Display<br><br>Video Desktop, Mobilgerät und Videoüberwachung anzeigen |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | USD, EUR, AUD, GBP | Video Desktop, Mobile und CTV |
 | [!DNL Google Authorized Buyers] (früher [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC und EU - 89185975 | PG-Unterstützung | Global | USD, BRL | Audio Desktop und Mobile<br><br>Display Desktop und Mobile<br><br>Video Desktop, Mobile und CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Desktop- und Mobile-Video<br><br>Desktop und Mobilgerät anzeigen |
@@ -51,7 +51,6 @@ Eine Plattform auf der Angebotsseite (Supply-Side Platform, SSP) ist eine Werbet
 | [!DNL Nexxen] | [!DNL Nexxen] (früher [!DNL Unruly]) | Adobe Advertising | — | USA + EMEA | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] oder Adobe Advertising | PG-Unterstützung | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] oder Adobe Advertising | — | Global | USD | Desktop und mobiles<br><br>natives Display<br><br>Video Desktop, Mobilgerät und Videoüberwachung anzeigen |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Alle Währungen | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Video Desktop und Mobilgerät |
 | [!DNL Teads] |  | [!DNL TubeMogul] oder Adobe Advertising | — | Outstream-Video = Global<br>Display = NA + EMEA | USD | Desktop und Mobile-Video<br><br> Desktop, Mobilgerät und Videofernseher anzeigen |
