@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *Support nur für Englisch*
 
-Verwenden Sie den Audience Builder-Agenten des KI-Assistenten, um [wiederverwendbare Zielgruppen“ zu ](/help/dsp/audiences/audience-about.md). Wiederverwendbare Zielgruppen können alle Erstanbieter- und Drittanbietersegmente enthalten, die Ihnen zur Verfügung stehen, sowie sogar andere gespeicherte Zielgruppen.
+Verwenden Sie den Audience Builder-Agenten des KI-Assistenten, um [wiederverwendbare Zielgruppen“ zu &#x200B;](/help/dsp/audiences/audience-about.md). Wiederverwendbare Zielgruppen können alle Erstanbieter- und Drittanbietersegmente enthalten, die Ihnen zur Verfügung stehen, sowie sogar andere gespeicherte Zielgruppen.
 
 >[!IMPORTANT]
 >
