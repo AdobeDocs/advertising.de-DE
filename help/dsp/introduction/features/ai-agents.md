@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # KI-unterstützte Funktionen in Adobe Advertising DSP
@@ -29,6 +29,8 @@ DSP bietet KI-unterstützte Agenten, die Eingabeaufforderungen in natürlicher S
 * [Suchen nach konzeptionellen und Anleitungsinhalten](/help/dsp/agent-chat.md)
 
 * Unified AI-Assistent:
+
+  * [Generieren wiederverwendbarer Zielgruppen](/help/dsp/ai-assistant/audience-builder-agent.md).
 
   * [Erstellen Sie Berichte für Ihre Kampagnen, Kampagnenkomponenten, Advertising Creative-Erlebnisse, Werbetreibenden und Anzeigenziele](/help/dsp/ai-assistant/insights-agent.md).
 

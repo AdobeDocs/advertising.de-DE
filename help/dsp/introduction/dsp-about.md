@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 ---
 # Über Adobe Advertising DSP
@@ -43,7 +43,7 @@ Adobe Advertising DSP (DSP) verbessert die Medienstrategien von Werbetreibenden 
 
 * [**Premiere Connected TV-Erlebnis mit [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] und DSP haben eine einzigartige Partnerschaft, die es Ihnen ermöglicht, Ihre Erstanbieter- und Drittanbieterdaten im gesamten [!DNL Roku] zu aktivieren, um Zielgruppen auf dem großen Bildschirm in großem Umfang effizient zu erreichen. Durch die Nutzung der einzigen Plattform mit der Möglichkeit zur Synchronisierung mit [!DNL Roku]-IDs können Marketing-Experten deterministische 1:1-Targeting mit Präzision und Genauigkeit nutzen sowie auf [!DNL Roku] Inventar und eindeutige Messeinblicke zugreifen.
 
-* [**KI-unterstützte Funktionen**](/help/dsp/introduction/features/ai-agents.md): DSP bietet KI-unterstützte Agenten, mit denen Sie wiederverwendbare Zielgruppen erstellen und Produktnutzungsanweisungen und Best Practices finden können.
+* [**KI-unterstützte Funktionen**](/help/dsp/introduction/features/ai-agents.md): DSP bietet KI-unterstützte Agenten, einschließlich eines einheitlichen KI-Assistenten, mit dem Sie wiederverwendbare Zielgruppen erstellen, Berichte generieren, Leistungsprobleme beheben sowie Anweisungen und Best Practices zur Produktnutzung finden können.
 
 >[!MORELIKETHIS]
 >

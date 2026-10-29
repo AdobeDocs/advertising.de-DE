@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # Über die Zielgruppenverwaltung in Advertising DSP
@@ -58,7 +58,7 @@ In DSP können Sie Zielgruppensegmente und Zielgruppensätze erstellen und verwa
 
   * Einbeziehen von Drittanbietersegmenten, die universelle IDs enthalten, in Ihre Platzierungsziele ohne zusätzliche Schritte.
 
-* Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md). Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
+* Erstellen Sie eine Zielgruppenbibliothek mit [wiederverwendbaren Zielgruppen](/help/dsp/audiences/reusable-audience-create.md) mithilfe eines KI-unterstützten Workflows oder manuell. Gespeicherte Zielgruppen bestehen aus einem Ihrer verfügbaren Zielgruppensegmente und einer Ihrer anderen gespeicherten Zielgruppen. Alle Änderungen, die Sie an einer gespeicherten Zielgruppe vornehmen, werden automatisch auf alle Platzierungen angewendet, die die Zielgruppe ansprechen oder ausschließen, sowie auf alle anderen Zielgruppen, die die gespeicherte Zielgruppe enthalten.
 
   Gespeicherte Zielgruppen ermöglichen es Medienplanern, Zielgruppen nach Bedarf zu gruppieren, indem sie mehrere Segmente mithilfe einer komplexen booleschen Logik ein- und ausschließen. Die (Zielgruppen-)Größe jedes einzelnen Segments und die gesamte aktive Zielgruppengröße werden beim Erstellen einer Zielgruppe angezeigt. Ausführende von Kampagnen können dann einfach eine oder mehrere gespeicherte Zielgruppen als Platzierungsziele auswählen, anstatt Zielgruppenziele für jede Platzierung manuell zu konfigurieren.
 

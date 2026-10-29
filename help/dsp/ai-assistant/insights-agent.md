@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # Erstellen von Berichten mit dem KI-Assistenten
 
 *Beta-Funktion*
+
+*Support nur für Englisch*
 
 Verwenden Sie den Insights-Agenten des KI-Assistenten, um Metriken und vollständige Berichte für Ihre Kampagnen, Kampagnenkomponenten, Advertising Creative-Erlebnisse, Werbetreibenden und Anzeigenziele zu erhalten, ohne manuell einen Bericht zu erstellen. Sie können einfache Fragen zu einer bestimmten Metrik stellen, z. B. Ausgaben oder CPA für eine Kampagne, oder einen komplexeren Bericht für eine bestimmte Dimension (z. B. eine einzelne Kampagne oder Zielgruppe) oder über Dimensionen hinweg (Aufschlüsselungen für jede Kampagne und jeden Advertiser) anfordern. Sie können die Ergebnisse als CSV-Datei herunterladen.
 
