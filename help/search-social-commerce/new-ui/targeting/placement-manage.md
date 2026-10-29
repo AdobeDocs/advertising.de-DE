@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # Platzierungen verwalten
@@ -86,7 +86,7 @@ Zum Anzeigen der Seite ist die Berechtigung [!UICONTROL View Placements] erforde
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Entität und/oder die Platzierungseinstellungen.
+1. Überprüfen Sie die Einstellungen. Um Einstellungen zu ändern, klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** im entsprechenden Abschnitt und ändern Sie die Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -114,7 +114,7 @@ Sie können negative Platzierungen für eine [!DNL Google Ads] Kampagne oder Anz
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Entität und/oder die negativen Website-URLs.
+1. Überprüfen Sie die Einstellungen. Um Einstellungen zu ändern, klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** im entsprechenden Abschnitt und ändern Sie die Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

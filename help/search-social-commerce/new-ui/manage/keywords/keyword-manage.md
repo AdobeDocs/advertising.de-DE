@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # Schlüsselwörter verwalten
@@ -31,7 +31,7 @@ Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yande
 
 Ein Keyword ist ein Wort oder eine Phrase, das bzw. die mit einer Anzeige verbunden ist. Die Einstellungen für Keywords umfassen den Typ der Keyword-Übereinstimmung, die maximalen Gebote, die verwendet werden sollen, wenn Ihre Anzeige durch das Keyword ausgelöst wird, und (für einige Anzeigennetzwerke) optionale Tracking-Parameter. Einstellungen auf Keyword-Ebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft. Negative Keywords verhindern, dass Anzeigen für übereinstimmende Suchen angezeigt werden.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[&#x200B; Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[ Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -57,7 +57,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Keywords] enthält zwei Registerka
 
 * [Zuweisen von Einschränkungen zu Keywords und Aufheben der Zuweisung von Einschränkungen zu Keywords](#keyword-constraints)
 
-* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
+* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
 
 ## Schlüsselwörter erstellen {#keyword-create}
 
@@ -81,7 +81,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Keywords] enthält zwei Registerka
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Einstellungen für Entität und/oder Keyword.
+1. Überprüfen Sie die Einstellungen. Um Einstellungen zu ändern, klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** im entsprechenden Abschnitt und ändern Sie die Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -105,7 +105,7 @@ Wenn Sie den Schlüsselworttext oder Übereinstimmungstyp ändern, können Sie d
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie ggf. auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Keyword-Einstellungen.
+1. Überprüfen Sie die Einstellungen. Um Einstellungen zu ändern, klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** im entsprechenden Abschnitt und ändern Sie die Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Update]**.
 
@@ -147,7 +147,7 @@ Sie können negative Keywords für eine Suchanzeigengruppe oder Kampagne erstell
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
-1. Klicken Sie bei Bedarf auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** und ändern Sie die Entität und/oder die negativen Keywords.
+1. Überprüfen Sie die Einstellungen. Um Einstellungen zu ändern, klicken Sie auf ![Bearbeiten](/help/search-social-commerce/assets/edit-new.png "Bearbeiten") **[!UICONTROL Edit]** im entsprechenden Abschnitt und ändern Sie die Einstellungen.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
