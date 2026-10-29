@@ -4,9 +4,9 @@ user-guide-title: Handbuch zu Advertising DSP
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwaltung, Optimierung und Berichterstellung für Ihre Strategien rund um Display-Anzeigen mit Advertising DSP erforderlich sind.
 breadcrumb-title: Handbuch zu DSP
 index: true
-source-git-commit: 0c921637cc45ba017c04daac2a19f3aea3d56759
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
     + [Geräteübergreifende Lösungen](/help/dsp/introduction/features/cross-device-solutions.md)
   + [Kontofinanzierung](/help/dsp/introduction/billing/account-funding.md)
   + [Unterstützte Währungen](/help/dsp/currency.md)
-  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
-  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de)
+  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [Erweiterte Messlösungen](/help/dsp/introduction/advanced-measurement-services.md)
 + KI-Assistent in Advertising DSP {#ai-assistant}
   + [Über den KI-Assistenten in Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
@@ -81,7 +81,7 @@ ht-degree: 3%
     + [Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten](/help/dsp/campaign-management/ads/ad-qa.md)
     + [Bearbeiten einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md)
     + [Duplizieren einer Anzeige](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=de)
+    + [Hinzufügen und Entfernen von Anzeigen aus Platzierungen](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [Auflisten der mit einer Anzeige verknüpften Platzierungen](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [Anzeigen eines detaillierten Berichts für eine Anzeige](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [Anhalten oder Aktivieren einer Anzeige](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -110,8 +110,8 @@ ht-degree: 3%
   + [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/dsp/campaign-management/faq-campaign-management.md)
   + [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)
 + Conversational Ads (Beta) {#conversational-ads}
-  + [&#x200B; [!DNL ChatGPT]  Werbekonten verwalten](/help/dsp/campaign-management/conversational-ads/account-manage.md)
-  + [&#x200B; [!DNL ChatGPT]  Anzeigenkampagnen verwalten](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
+  + [ [!DNL ChatGPT]  Werbekonten verwalten](/help/dsp/campaign-management/conversational-ads/account-manage.md)
+  + [ [!DNL ChatGPT] , konversative Anzeigenkampagnen, Anzeigengruppen und Anzeigen verwalten](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + Optimierung {#optimization}
   + [Optimieren von Kampagnen mit Advertising DSP](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [Optimierungsziele und ihre Verwendung](/help/dsp/optimization/optimization-goals.md)
@@ -243,9 +243,9 @@ ht-degree: 3%
   + Benachrichtigungen {#notifications}
     + [Über Warnhinweis-Abonnements](/help/dsp/admin/alerts-about.md)
     + [Verwalten von Warnhinweis-Abonnements](/help/dsp/admin/alerts-manage.md)
-+ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=de)
++ [Integrationen mit Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Hilfe erhalten](/help/dsp/get-help.md)
-+ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
++ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
