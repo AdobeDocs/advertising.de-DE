@@ -110,8 +110,8 @@ ht-degree: 3%
   + [Häufig gestellte Fragen zur Kampagnenverwaltung](/help/dsp/campaign-management/faq-campaign-management.md)
   + [Häufig gestellte Fragen zum universellen Video](/help/dsp/campaign-management/faq-universal-video.md)
 + Conversational Ads (Beta) {#conversational-ads}
-  + [ [!DNL ChatGPT]  Werbekonten verwalten](/help/dsp/campaign-management/conversational-ads/account-manage.md)
-  + [ [!DNL ChatGPT]  Anzeigenkampagnen verwalten](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
+  + [&#x200B; [!DNL ChatGPT]  Werbekonten verwalten](/help/dsp/campaign-management/conversational-ads/account-manage.md)
+  + [&#x200B; [!DNL ChatGPT]  Anzeigenkampagnen verwalten](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + Optimierung {#optimization}
   + [Optimieren von Kampagnen mit Advertising DSP](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [Optimierungsziele und ihre Verwendung](/help/dsp/optimization/optimization-goals.md)

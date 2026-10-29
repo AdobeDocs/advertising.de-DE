@@ -77,7 +77,7 @@ Wenn Sie eine Kampagne erstellen, können Sie optional ihre erste Anzeigengruppe
 
    * (Optional) Erstellen Sie eine Anzeigengruppe:
 
-     1. Geben Sie die [Anzeigengruppeneinstellungen“ ](#ad-group-settings).
+     1. Geben Sie die [Anzeigengruppeneinstellungen“ &#x200B;](#ad-group-settings).
 
      1. Klicken Sie auf **[!UICONTROL Next]** , um die Anzeigengruppeneinstellungen zu speichern.
 
