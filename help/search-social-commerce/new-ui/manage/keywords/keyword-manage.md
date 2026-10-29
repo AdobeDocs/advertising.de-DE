@@ -31,7 +31,7 @@ Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yande
 
 Ein Keyword ist ein Wort oder eine Phrase, das bzw. die mit einer Anzeige verbunden ist. Die Einstellungen für Keywords umfassen den Typ der Keyword-Übereinstimmung, die maximalen Gebote, die verwendet werden sollen, wenn Ihre Anzeige durch das Keyword ausgelöst wird, und (für einige Anzeigennetzwerke) optionale Tracking-Parameter. Einstellungen auf Keyword-Ebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft. Negative Keywords verhindern, dass Anzeigen für übereinstimmende Suchen angezeigt werden.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[ Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[&#x200B; Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -57,7 +57,7 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Keywords] enthält zwei Registerka
 
 * [Zuweisen von Einschränkungen zu Keywords und Aufheben der Zuweisung von Einschränkungen zu Keywords](#keyword-constraints)
 
-* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
+* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
 
 ## Schlüsselwörter erstellen {#keyword-create}
 
