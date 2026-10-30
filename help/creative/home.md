@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
+source-git-commit: a3aabc2970a00785e95cf2c9da7b71690d3696ae
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # Neue Funktionen in [!DNL Creative] 2.0
@@ -35,6 +35,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;28. Oktober 2026 | KI-gesteuerter Entscheidungsbaum-Editor | (Beta-Funktion) Mit einem KI-gesteuerten Editor können Sie jetzt Erlebnisse mit Entscheidungsbaum-Targeting erstellen und bearbeiten. Beschreiben Sie die Zielgruppenstruktur oder die gewünschten Änderungen in einer Unterhaltung in natürlicher Sprache und überprüfen Sie den resultierenden Entscheidungsbaum. Sie können die Arbeitsfläche auch direkt bearbeiten, um Zielknoten zu verwalten, kreative Pakete zuzuweisen und URLs für kreative Optimierung, Planung und Tracking zu konfigurieren. Der KI-gesteuerte Editor wird standardmäßig geöffnet. Der manuelle Editor bleibt verfügbar. | Siehe [Das Entscheidungsbaum-Layout](/help/creative/experiences/experience-decision-tree.md), [Erstellen eines Erlebnisses mit Targeting](/help/creative/experiences/experience-create-targeting.md) und [Bearbeiten eines Erlebnisses mit Targeting](/help/creative/experiences/experience-edit-targeting.md). |
 | &#x200B;15. Oktober 2026 | [!DNL Creative Studio] | (Beta-Funktion) Sie können jetzt KI in [!UICONTROL Creative Studio] generieren, um ein vorhandenes statisches Display-Anzeigenbild in eine bearbeitbare Display-Anzeigenvorlage zu konvertieren. | Siehe &quot;[&#x200B; von Anzeigenvorlagen in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md) verwalten“. |
 | &#x200B;1. Juli 2026 | [!DNL Creative Studio], [!DNL Brands] | Die folgenden Beta-Funktionen sind verfügbar:<ul><li>**[!UICONTROL Creative Studio]** verwendet generative KI, um Anzeigen über mehrere Formate hinweg in einer Sitzung zu erstellen, zu skalieren und zu verfeinern. Verwenden Sie eine Chat-Oberfläche in natürlicher Sprache, um Anzeigeninhalte zu generieren und zu ändern - für Inhaltsfelder ist keine manuelle Design-Arbeit erforderlich.</li><li>Erstellen und verwalten Sie **[!UICONTROL brand profiles]**, die die visuelle Identität Ihrer Marke und Ihre Messaging-Identität widerspiegeln, einschließlich Ihres Logos, Ihrer Farbpalette, Ihrer Sprachrichtlinien, Bildstandards und kanalspezifischer Kopierrichtlinien. Wenn Sie in [!UICONTROL Creative Studio] Anzeigen erstellen, verwendet der KI-Agent Markenprofilinformationen, um die Inhaltserstellung in Ihrer spezifischen Marke zu ermöglichen.</li></ul> | Siehe &quot;[Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md) und &quot;[Verwalten von Markenprofilen](/help/creative/brands/brand-manage.md). |
 | &#x200B;3. Juni 2026 | [!DNL Adobe Analytics for Advertising] | Werbetreibende mit Advertising Creative und [!DNL Adobe Analytics for Advertising] können jetzt Daten auf Varianten- und Zweigstellenebene in Adobe Analytics anzeigen. Die Daten werden unabhängig von der DSP angezeigt, die zum Ausführen von Anzeigen aus Ihren [!DNL Creative]-Erlebnissen verwendet wird. Wenn Sie die Anzeigen über eine Advertising DSP-Platzierung schalten, sehen Sie auch Daten auf Kampagnen- und Platzierungsebene sowie kostenbezogene Metriken.<br><br>Es ist keine zusätzliche Einrichtung erforderlich. | Sehen Sie sich die [Traffic-Metriken](https://experienceleague.adobe.com/de/docs/analytics/components/metrics/amo-metrics) und [Klassifizierungen](https://experienceleague.adobe.com/de/docs/analytics/components/dimensions/amo-id#classifications) an, die in [!DNL Analytics] angezeigt werden. |

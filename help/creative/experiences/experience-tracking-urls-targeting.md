@@ -19,38 +19,72 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # Anpassen der Tracking-URLs für Kreative in einem Erlebnis mit Entscheidungsbaum-Targeting
 
 *Targeting von Knoten nur mit vorhandenen Kreativen*
 
-Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL für jeden einzelnen Kreativen erstellen, der für das Erlebnis verwendet wird. Sie können die Tracking-URLs innerhalb des Entscheidungsbaums anpassen.
+Für Erlebnisse mit Entscheidungsbaum-Targeting können Sie bis zu fünf benutzerdefinierte Impression-Tracking-URLs und fünf benutzerdefinierte Klick-Tracking-URLs für jeden einzelnen für das Erlebnis verwendeten Kreativen erstellen. Wenn die Überschreibung der Landingpage verfügbar ist, können Sie auch eine benutzerdefinierte Landingpage-URL angeben. Sie können die Tracking-URLs in jedem Entscheidungsbaum-Editor anpassen.
 
 Die benutzerdefinierten URLs werden nur für Anzeigen verwendet, die aus dem Erlebnis erstellt wurden, und nicht in den kreativen Basiseinstellungen in [!UICONTROL Creative Libraries] gespeichert.
 
-1. Halten Sie den Cursor über das Blatt/den Ordner des Kreativpakets unter dem Zielknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+Die Überschreibung der Landingpage ist für Standarderlebnisse und für Knoten verfügbar, die standardmäßige Kreative verwenden. Bei zugewiesenen dynamischen Bundles werden Landingpages durch den Feed bestimmt und die Registerkarte Landingpage wird nicht angezeigt.
 
-   Auf den Registerkarten [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] und [!UICONTROL Landing URLs] werden die Namen aller Kreativen in den entsprechenden Größen in den zugewiesenen Bundles aufgelistet. Die Größen der Standard-Kreativen für das Erlebnis bestimmen die verfügbaren Größen.<!-- There's no distinct "Creative Sizes" setting. -->
+## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
-1. Gehen Sie auf den Registerkarten **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** und **[!UICONTROL Landing URLs]** für jeden Kreativen nach Bedarf wie folgt vor:
+Verwenden Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
 
-   1. Erweitern Sie die Zeile für die Kreativen.
+1. Klicken Sie im kreativen Blattknoten unter dem Zielknoten auf **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   1. Führen Sie einen der folgenden Schritte aus:
+1. Wählen Sie die Registerkarte **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** oder (falls verfügbar) **[!UICONTROL Landing URL]** aus.
 
-      * Um eine benutzerdefinierte URL hinzuzufügen oder zu bearbeiten, geben Sie die URL in das Eingabefeld ein.
+   Kreative werden nach Bundle gruppiert. Die standardmäßigen Kreativgrößen für das Erlebnis bestimmen die verfügbaren Kreativgrößen.
 
-      * Um eine weitere benutzerdefinierte URL hinzuzufügen, klicken Sie auf **[!UICONTROL +]** und geben Sie die URL in das Eingabefeld ein.
+1. Erweitern Sie das Kreativ, das Sie bearbeiten möchten, und führen Sie einen der folgenden Schritte aus:
 
-      * Um eine benutzerdefinierte URL zu entfernen, halten Sie den Cursor über der kreativen Zeile und klicken Sie auf ![Löschen](/help/creative/assets/delete.png "Löschen").
+   * Um eine benutzerdefinierte URL hinzuzufügen oder zu bearbeiten, geben Sie die URL in das Eingabefeld ein.
 
-      Sie können bis zu fünf benutzerdefinierte Impression-Tracking-URLs, fünf benutzerdefinierte Klick-Tracking-URLs und eine benutzerdefinierte Landingpage-URL angeben.
+   * Um eine weitere benutzerdefinierte Tracking-URL hinzuzufügen, klicken Sie auf **[!UICONTROL Add URL]** und geben Sie die URL in das Eingabefeld ein.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+   * Um eine benutzerdefinierte URL zu entfernen, klicken Sie auf **[!UICONTROL Delete URL]**.
+
+   Klicken Sie außerhalb eines bearbeiteten Felds und korrigieren Sie etwaige Validierungsfehler vor dem Speichern.
+
+1. Klicken Sie im Dialogfeld auf **[!UICONTROL Save]** , um die Arbeitsstruktur zu aktualisieren.
+
+1. [Speichern Sie das Erlebnis](#save) über die Baumkopfzeile.
+
+## Verwenden des manuellen Editors {#manual-editor}
+
+[Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
+
+1. Klicken Sie im kreativen Blattknoten unter dem Zielknoten auf **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+
+1. Wählen Sie die Registerkarte **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** oder (falls verfügbar) **[!UICONTROL Landing URLs]** aus.
+
+   Auf den Registerkarten werden die Kreativen in den zugewiesenen Bundles aufgelistet. Die standardmäßigen Kreativgrößen für das Erlebnis bestimmen die verfügbaren Kreativgrößen.<!-- There's no distinct "Creative Sizes" setting. -->
+
+1. Erweitern Sie das Kreativ, das Sie bearbeiten möchten, und führen Sie einen der folgenden Schritte aus:
+
+   * Um eine benutzerdefinierte URL hinzuzufügen oder zu bearbeiten, geben Sie die URL in das Eingabefeld ein.
+
+   * Um eine weitere benutzerdefinierte Tracking-URL hinzuzufügen, klicken Sie auf **[!UICONTROL +]** und geben Sie die URL in das Eingabefeld ein.
+
+   * Um eine benutzerdefinierte URL zu entfernen, halten Sie den Cursor über der kreativen Zeile und klicken Sie auf ![Löschen](/help/creative/assets/delete.png "Löschen").
+
+1. Klicken Sie im Dialogfeld auf **[!UICONTROL Save]** , um die Arbeitsstruktur zu aktualisieren.
+
+1. [Speichern Sie das Erlebnis](#save) über die Baumkopfzeile.
+
+## Erlebnis speichern {#save}
+
+Die folgenden Schritte gelten für beide Editoren. Wenn Sie das Tracking-URL-Dialogfeld allein speichern, wird das Erlebnis nicht gespeichert oder veröffentlicht.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

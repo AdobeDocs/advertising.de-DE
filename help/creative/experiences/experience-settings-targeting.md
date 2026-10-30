@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # Einstellungen für zielgerichtete Anzeigen-Erlebnisse
+
+Diese allgemeinen Einstellungen werden vom KI-gesteuerten Entscheidungsbaum-Editor (Beta) und dem Handbucheditor gemeinsam verwendet.
+
+Klicken Sie für ein vorhandenes Erlebnis in der Entscheidungsstruktur auf **[!UICONTROL Experience Form]** . Speichern Sie alle Strukturänderungen, die Sie zuerst beibehalten möchten. Das Verlassen des KI-gesteuerten Editors erfordert eine Bestätigung und verwirft nicht gespeicherte Baumänderungen. Siehe [Editoren wechseln oder Erlebniseinstellungen bearbeiten](experience-edit-targeting.md#switch-editors).
 
 ## [!UICONTROL Experience basics]
 

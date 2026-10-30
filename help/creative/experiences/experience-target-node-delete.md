@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # Löschen von Zielknoten oder kreativen Blattknoten in einem Erlebnis
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 Sie können einen Zielknoten löschen, einschließlich aller untergeordneten Ziele und der ihnen zugewiesenen Kreativ-Bundles. Sie können auch einen kreativen Blattknoten löschen.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
+
+Verwenden Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
+
+1. Überprüfen Sie den Knoten und seine untergeordneten Ziele und Kreativen, bevor Sie ihn löschen.
+
+1. Halten Sie den Cursor über den Zielknoten oder Kreativ-Blattknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+   Der Knoten wird ohne separate **[!UICONTROL Delete Node]** aus der Arbeitsstruktur entfernt.
+
+1. Überprüfen Sie die verbleibenden Verzweigungen und [speichern Sie das Erlebnis](#save).
+
+## Verwenden des manuellen Editors {#manual-editor}
+
+[Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
 
 1. Halten Sie den Cursor über den Zielknoten oder Kreativ-Blattknoten und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Delete Node]**.
 
-1. (Optional) So speichern Sie das Erlebnis:
+## Erlebnis speichern {#save}
 
-   1. Klicken Sie auf **[!UICONTROL Save]** und dann auf **[!UICONTROL OK]**.
+Die folgenden Schritte gelten für beide Editoren.
 
-   1. (Wenn jeder Knoten auf der untersten Ebene nicht mindestens einen Kreativen enthält): Führen Sie einen der folgenden Schritte aus:
-
-      * Um das Erlebnis ohne alle erforderlichen kreativen Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
-
-        Sie können kein Anzeigen-Tag für ein Entwurfserlebnis erstellen.
-
-      * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
-
-      * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
