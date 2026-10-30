@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # Über Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ Mit Ihren Creative-Bibliotheken können Sie die Kreativen verwalten, die Sie fü
 
 ## Regelbasierte und nicht zielgerichtete Erlebnisse
 
-* **Zielgerichtete, regelbasierte Erlebnisse:** Erstellen Sie Geschichten mithilfe eines regelbasierten Entscheidungsbaum-Modells - Entfalten Sie eine choreografierte Reihe von Anzeigen, die in Echtzeit auf der Grundlage dessen angepasst werden, was Sie über Ihre Zielgruppe wissen. Die Storys können sich beispielsweise je nach Kundenverhalten, Geografie, Demografie, Retargeting, Position auf der Kunden-Journey und mehr ändern.
+* **Zielgerichtete, regelbasierte Erlebnisse:** Erstellen Sie Geschichten mithilfe eines regelbasierten Entscheidungsbaum-Modells - Entfalten Sie eine choreografierte Reihe von Anzeigen, die in Echtzeit auf der Grundlage dessen angepasst werden, was Sie über Ihre Zielgruppe wissen. Die Storys können sich beispielsweise je nach Kundenverhalten, Geografie, Demografie, Retargeting, Position auf der Kunden-Journey und mehr ändern. Erstellen und bearbeiten Sie den Entscheidungsbaum mit dem [KI-gesteuerten Editor (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor) mit Unterstützung der Konversation und direkten Canvas-Steuerelementen oder verwenden Sie den manuellen Editor.
 
 * **Nicht zielgerichtete Erlebnisse:** Anzeigen-Elemente zu planen und zu optimieren, ohne die Zielgruppe einzuschränken.
 

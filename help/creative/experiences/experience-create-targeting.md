@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
-description: Erfahren Sie, wie Sie mithilfe eines Entscheidungsbaums ein zielgerichtetes Anzeigen-Erlebnis erstellen.
+description: Erfahren Sie, wie Sie mit dem KI-gesteuerten oder manuellen Entscheidungsbaum-Editor ein zielgerichtetes Anzeigenerlebnis erstellen.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
 TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
@@ -21,79 +21,97 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '715'
 ht-degree: 0%
 ---
 # Erstellen eines Erlebnisses mit Targeting mit Entscheidungsbäumen
 
 Erstellen Sie ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums. Jedes Erlebnis verwendet Anzeigen aus einer einzigen Kreativbibliothek.
 
+Der KI-gesteuerte Editor (Beta) wird standardmäßig geöffnet. Sie können die Baumstruktur über den KI-Agenten konfigurieren oder die Arbeitsfläche direkt bearbeiten. Sie können auch zum vorhandenen manuellen Editor wechseln.
+
 >[!NOTE]
 >
 >* Nachdem Sie ein zielgerichtetes Erlebnis erstellt haben, können Sie es später nicht mehr in ein nicht zielgerichtetes Erlebnis ändern, das einen anderen Workflow verwendet.
 >* Stellen Sie sicher, dass Ihre Anzeigenerlebnisse ein Targeting enthalten, das mit den Kampagnen kompatibel ist, in denen Sie es implementieren werden. Das hierarchische Targeting-Verhalten kann je nach DSP variieren. Wenn Sie ein Anzeigen-Erlebnis-Tag in Advertising DSP hochladen und es an eine Platzierung anhängen, wird das Targeting auf Anzeigenebene über dem Targeting auf Platzierungsebene (nicht anstelle des Targetings auf Platzierungsebene) angewendet. Wenn sich eine Platzierung beispielsweise an Benutzende in Australien und eine Anzeige an Benutzende in Japan richtet, zielt die Anzeige auf den Zweig „Alle anderen“ ab.
 
+## Erstellen des Erlebnisses
+
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
 1. Klicken Sie auf **[!UICONTROL Create New Experience]**.
 
-1. Geben Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md) ein.
+1. Geben Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md) mit aktiviertem **[!UICONTROL Targeting]** ein.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-1. Gehen Sie in der Entscheidungsstruktur wie folgt vor:
+   Der KI-gesteuerte Entscheidungsbaum-Editor wird für das neue Erlebnis geöffnet.
 
-   1. (Optional) Ändern Sie die Anzeigeeinstellungen für den Entscheidungsbaum.
+1. Konfigurieren Sie die Baumstruktur mit einem der folgenden Verfahren.
 
-      Ihre Einstellungen werden gespeichert, bis Sie sich abmelden.
+## Konfigurieren der Baumstruktur mit dem KI-gesteuerten Editor (Beta) {#ai-editor}
 
-      * Vergrößern oder verkleinern Sie die Ansicht, indem Sie den Schieberegler bewegen.
+1. Beschreiben Sie im Gespräch die gewünschte Zielgruppenstruktur, einschließlich der Kriterien für jede Verzweigung und des Umgangs mit Viewern, die keiner angegebenen Zielgruppe entsprechen.
 
-      * Wechseln Sie zwischen der Anzeige einer vertikalen Liste und einer horizontalen Liste, indem Sie auf ![Als vertikale Baumstruktur anzeigen](/help/creative/assets/tree-vertical.png "Als vertikale Baumstruktur anzeigen") bzw. ![Als horizontalen Baum anzeigen](/help/creative/assets/tree-horizontal.png "Als horizontalen Baum anzeigen") klicken.
+1. Überprüfen Sie die Baumstruktur auf der Arbeitsfläche. Um Änderungen anzufordern, beschreiben Sie sie im Gespräch. Warten Sie, bis die Verarbeitung durch den Assistenten abgeschlossen ist, bevor Sie mit der Arbeitsfläche interagieren.
 
-   1. (Optional) Richten Sie die Anzeigenziele und die entsprechenden Kreativen auf eine der folgenden Arten ein:
+1. (Optional) Verfeinern Sie die Baumstruktur direkt auf der Arbeitsfläche:
 
-      * Zielgruppen:
+   * [Zielgruppe auf letzter Ebene hinzufügen](experience-target-node-add-final.md#ai-editor), [Zielebene einfügen](experience-target-node-add-inner.md#ai-editor) oder [gleichrangiges Ziel hinzufügen](experience-target-node-add-sibling.md#ai-editor).
 
-        * [Fügen Sie einen Zielknoten zur endgültigen Ebene hinzu](experience-target-node-add-final.md).
+   * [Kopieren Sie untergeordnete Knoten und Kreative](experience-target-node-copy.md#ai-editor) oder [löschen Sie einen Knoten](experience-target-node-delete.md#ai-editor).
 
-        * [Fügen Sie einen Zielknoten zwischen Knoten ein](experience-target-node-add-inner.md).
+1. [Weisen Sie den endgültigen Knoten kreative Bundles zu](experience-assign-creative-bundles.md#ai-editor) und passen Sie optional [kreative Optimierung und Planung](experience-optimization-scheduling-targeting.md) und [Tracking-URLs](experience-tracking-urls-targeting.md#ai-editor) an.
 
-        * [Fügen Sie zwischen Knoten einen gleichrangigen Zielknoten hinzu](experience-target-node-add-sibling.md).
+   Um das Erlebnis zu veröffentlichen, müssen Sie jedem endgültigen Knoten Bundles zuweisen oder die standardmäßigen Kreativen des Erlebnisses verwenden. Beim Speichern können Sie nicht zugewiesenen Knoten Standardwerte zuweisen.
 
-        * [Kopieren Sie untergeordnete Knoten und Kreative auf derselben Ebene in einen anderen Knoten](experience-target-node-copy.md).
+1. (Optional) Bearbeiten Sie die allgemeinen Erlebniseinstellungen:
 
-      * Creative-Bundles:
+   1. Klicken Sie auf &quot;**[!UICONTROL Save]**&quot;, um alle gewünschten Strukturänderungen zu speichern.
 
-        * [Zuweisung und Aufhebung der Zuweisung von Kreativen zu einem endgültigen Knoten](experience-assign-creative-bundles.md).
+   1. Klicken Sie auf **[!UICONTROL Experience Form]** und dann auf **[!UICONTROL Yes]** , um nicht gespeicherte Strukturänderungen zu verwerfen und das Formular zu öffnen.
 
-          Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+   1. Bearbeiten Sie die [Allgemeine Erlebniseinstellungen](experience-settings-targeting.md) und klicken Sie dann auf **[!UICONTROL Save]**.
 
-        * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+      Der KI-gesteuerte Editor wird geöffnet.
 
-        * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
+1. [Speichern Sie das Erlebnis](#save).
 
-1. (Optional) Wechseln zwischen Entscheidungsbaum und allgemeinen Einstellungen:
+## Konfigurieren der Baumstruktur mit dem manuellen Editor {#manual-editor}
 
-   * Um die allgemeinen Einstellungen im Entscheidungsbaum zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Experience Form]** .
+1. Klicken Sie im KI-gesteuerten Editor auf **[!UICONTROL Manual Decision Tree]** und anschließend auf **[!UICONTROL Yes]** , um den KI-gesteuerten Editor zu verlassen.
 
-   * Um den Entscheidungsbaum über die allgemeinen Einstellungen zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Decision Tree]** .
+   Speichern Sie alle KI-Editor-Änderungen, die Sie vor dem Wechsel beibehalten möchten. Durch Bestätigen des Schalters werden nicht gespeicherte Strukturänderungen verworfen.
 
-1. Klicken Sie auf **[!UICONTROL Save]**, und führen Sie dann folgende Schritte aus.
+1. (Optional) Ändern Sie die Anzeigeeinstellungen:
 
-   * (Wenn jeder Knoten auf der untersten Ebene mindestens ein Kreativ-Bundle enthält) Klicken Sie auf **[!UICONTROL OK]**.
+   * Vergrößern oder verkleinern Sie die Ansicht, indem Sie den Schieberegler bewegen.
 
-   * (Wenn jeder Knoten auf der untersten Ebene nicht mindestens ein kreatives Bundle enthält) Führen Sie einen der folgenden Schritte aus:
+   * Wechseln Sie zwischen der vertikalen und der horizontalen Ansicht, indem Sie auf ![Als vertikale Baumstruktur anzeigen](/help/creative/assets/tree-vertical.png "Als vertikale Baumstruktur anzeigen") oder ![Als horizontalen Baum anzeigen](/help/creative/assets/tree-horizontal.png "Als horizontalen Baum anzeigen") klicken.
 
-     * Um das Erlebnis ohne alle erforderlichen kreativen Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
+   Ihre Anzeigeeinstellungen werden gespeichert, bis Sie sich abmelden.
 
-       Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf](experience-about.md#experience-statuses) erstellen.
+1. Konfigurieren Sie die Anzeigenziele und die entsprechenden Kreativen:
 
-     * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
+   * [Ein Ziel auf letzter Ebene hinzufügen](experience-target-node-add-final.md#manual-editor), [ein Ziel zwischen Knoten einfügen](experience-target-node-add-inner.md#manual-editor) oder [ein gleichrangiges Ziel hinzufügen](experience-target-node-add-sibling.md#manual-editor).
 
-     * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
+   * [Kopieren Sie untergeordnete Knoten und Kreative](experience-target-node-copy.md#manual-editor) oder [löschen Sie einen Knoten](experience-target-node-delete.md#manual-editor).
+
+   * [Zuweisen von kreativen ](experience-assign-creative-bundles.md#manual-editor) und optional [Anpassen der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) und [Tracking-URLs](experience-tracking-urls-targeting.md#manual-editor).
+
+1. (Optional) Um die allgemeinen Erlebniseinstellungen zu bearbeiten, klicken Sie auf **[!UICONTROL Experience Form]** und bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
+
+1. [Speichern Sie das Erlebnis](#save).
+
+## Erlebnis speichern {#save}
+
+Die folgenden Schritte gelten für beide Editoren.
+
+{{$include /help/_includes/experience-save.md}}
+
+## Hinzufügen von Tags und Videotranskodierung für gespeicherte Erlebnisse
 
 Wenn das Erlebnis live ist, erstellt [!DNL Creative] automatisch ein Anzeigen-Tag für jede entsprechende kreative Größe oder Videodauer. Anschließend können Sie [ein Anzeigen-Tag exportieren und in einer DSP implementieren](/help/creative/experiences/experience-tag-export.md).
 

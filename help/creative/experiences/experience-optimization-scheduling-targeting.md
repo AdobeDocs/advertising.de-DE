@@ -21,26 +21,64 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1244'
 ht-degree: 0%
 ---
 # Kreative Optimierung und Planung für ein Erlebnis mit Entscheidungsbaum-Targeting anpassen
 
 *Targeting von Knoten nur mit vorhandenen Kreativen*
 
-Standardmäßig wird die kreative Rotation für ein Erlebnis algorithmisch bestimmt, um die gesamte Clickthrough-Rate zu optimieren. Die Einstellungen für die kreative Optimierung gelten für alle zugewiesenen Bundles. Sie können Bundles alternativ algorithmisch für ein bestimmtes benutzerdefiniertes Advertising DSP-Ziel optimieren, gemäß einer bestimmten Bundle-Sequenz mit einer bestimmten Anzahl von Impressionen über jede Bundle-Sequenz hinweg drehen oder entsprechend der relativen Gewichtung. Sie können auch bestimmte kreative Bundles für bestimmte, sequenzielle Zeiträume planen und benutzerdefinierte kreative Rotationseinstellungen für jeden Zeitplan anwenden.
+Standardmäßig wird die kreative Rotation für die gesamte Clickthrough-Rate in allen zugewiesenen Bundles optimiert. Sie können die Rotationseinstellungen anpassen oder bestimmte Pakete planen, die während sequenzieller Zeiträume ausgeführt werden sollen, mit separaten Rotationseinstellungen für jeden Zeitplan.
 
 >[!NOTE]
 >
 >Diese Funktionen sind nicht für Knoten verfügbar, die die standardmäßigen Kreativen anstelle der zugewiesenen Kreativen verwenden.
 
+Sie können diese Einstellungen direkt auf der Arbeitsfläche des KI-gesteuerten Editors (Beta) oder im Manualeditor konfigurieren. In beiden Editoren wird beim Speichern des Bundle-Dialogfelds die Arbeitsstruktur aktualisiert. Außerdem müssen Sie [das Erlebnis speichern](#save) aus der Kopfzeile der Baumstruktur entfernen.
+
+## Rotationseinstellungen {#rotation-settings}
+
+* **[!UICONTROL Weighted]:** Zeigt Anzeigenvarianten in den zugehörigen Kreativ-Bundles entsprechend der relativen Gewichtung an.
+
+* **[!UICONTROL Algorithmic]:** Zeigt die effektivsten Anzeigenvarianten häufiger an, basierend auf einem angegebenen Optimierungsziel, wie z. B. Clickthrough-Rate oder einem benutzerdefinierten Advertising DSP-Ziel.
+
+* **[!UICONTROL Sequence](KI-gesteuerter Editor) oder [!UICONTROL Sequencing] (manueller Editor):** Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge mit einer bestimmten Anzahl von Impressionen für jedes Bundle in der Sequenz an. Standardmäßig werden Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Das endgültige Bundle kann unbegrenzt bereitstellen (Standard), oder die Sequenz kann zum ersten Bundle zurückkehren.
+
+  Beispielsweise könnte eine Sequenz Anzeigenvarianten von Bundle 1 für drei Impressionen, Bundle 2 für eine Impression und Bundle 3 für zwei Impressionen bereitstellen und dann wiederholen. Ohne Schleife dient Bundle 3 weiterhin auf unbestimmte Zeit.
+
 ## Konfigurieren der kreativen Optimierung ohne Planung
 
 Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kreative Optimierung für alle zugewiesenen Kreativen.
 
-1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+### Verwenden des KI-gesteuerten Editors (Beta) {#without-scheduling-ai}
+
+1. Klicken Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
+
+   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles ](experience-assign-creative-bundles.md#ai-editor).
+
+1. Öffnen Sie die Registerkarte **[!UICONTROL Creative optimisation]** .
+
+1. **[!UICONTROL Schedule]** deaktivieren.
+
+1. Wählen Sie den Kreativ-Rotationstyp aus und konfigurieren Sie die Einstellungen:
+
+   * **[!UICONTROL Weighted]:** Geben Sie die relative Gewichtung für jede Bundle-Zeile ein. Die Gewichtungen müssen insgesamt 100 betragen. Um die Gewichtungen gleichmäßig zu verteilen, klicken Sie auf **[!UICONTROL Apply equal weight]**.
+
+   * **[!UICONTROL Algorithmic]:** Wählen Sie eine **[!UICONTROL Optimization goals]** Option aus. Wenn Sie ein benutzerdefiniertes Ziel auswählen, wählen Sie das vorhandene benutzerdefinierte Ziel [Advertising DSP](/help/dsp/optimization/custom-goal.md) in **[!UICONTROL Custom objective]** aus.
+
+   * **[!UICONTROL Sequence]:** Ziehen Sie die Bundles in die gewünschte Reihenfolge und geben Sie die Anzahl der Impressionen für jede Sequenz ein. Aktivieren Sie **[!UICONTROL Keep in loop]**, um die Sequenz zu wiederholen, oder deaktivieren Sie sie, um die Impressions des letzten Bundles auf **[!UICONTROL Infinite]** zu setzen.
+
+1. Klicken Sie im Dialogfeld auf **[!UICONTROL Save]** .
+
+1. [Speichern Sie das Erlebnis](#save).
+
+### Verwenden des manuellen Editors {#without-scheduling-manual}
+
+[Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
+
+1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -48,23 +86,19 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
       * Klicken Sie bei neuen Bundles auf **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles zu](experience-assign-creative-bundles.md).
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Creative Optimization]** .
+   1. Klicken Sie auf die Registerkarte **[!UICONTROL Creative Optimization]** .
 
 1. **[!UICONTROL Schedule]** deaktivieren.
 
 1. Wählen Sie den Kreativ-Rotationstyp für Anzeigenvarianten in den zugehörigen Bundles aus:
 
-   * *[!UICONTROL Weighted]:* Zeigt Anzeigenvarianten in den zugehörigen Kreativ-Bundles entsprechend der relativen Gewichtung an. Geben Sie die Gewichtung für jedes Bundle als Prozentsatz ein. Um gleiche Gewichtungen auf alle zugehörigen Bundles anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100,<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. --> addieren
+   * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Um gleiche Gewichtungen auf alle zugehörigen Bundles anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-   * *[!UICONTROL Algorithmic]:* Zeigt die effektivsten Anzeigenvarianten häufiger an, basierend auf einem bestimmten Ziel.
+   * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
-     * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
-
-   * *[!UICONTROL Sequencing]:* Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge an (wobei Bundle 1 zuerst bereitgestellt wird, Bundle 2 als zweites bereitgestellt wird usw.), mit einer angegebenen Gesamtanzahl von Impressions für jede Bundle-Sequenz. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Sie können das endgültige Bundle in der Sequenz so konfigurieren, dass a\) auf unbestimmte Zeit angezeigt wird (Standard) oder b\) zum ersten Bundle zurückkehrt. Sie können beispielsweise jede der Anzeigenvarianten in Bundle 1 für drei (3) Impressionen anzeigen, dann jede Anzeigenvariante in Bundle 2 für eine (1) Impression anzeigen, dann jede der Anzeigenvarianten in Bundle 3 für zwei (2) Impressionen anzeigen und dann die Schleife erneut starten. Alternativ können Sie, sobald die Anzeigenvarianten in Bundle 3 angezeigt werden, die Anzeigenvarianten in Bundle 3 weiterhin unbegrenzt anzeigen, anstatt eine Schleife zu erstellen. Beim Aktivieren der Sequenzierung:
+   * *[!UICONTROL Sequencing]:*
 
      1. Ziehen Sie die zugewiesenen Bundles in die gewünschte Reihenfolge.
-
-     Standardmäßig werden die zugewiesenen Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden.
 
      1. Geben Sie die Anzahl der Impressionen für jede Sequenz ein.
 
@@ -78,7 +112,43 @@ Sie können optional die Ausführung bestimmter Kreativ-Bundles während bestimm
 
 Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebnisses planen.
 
-1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+### Verwenden des KI-gesteuerten Editors (Beta) {#with-scheduling-ai}
+
+1. Klicken Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
+
+   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles ](experience-assign-creative-bundles.md#ai-editor).
+
+1. Öffnen Sie die Registerkarte **[!UICONTROL Creative optimisation]** und aktivieren Sie **[!UICONTROL Schedule]**.
+
+1. Wählen Sie die **[!UICONTROL Timezone]** für den Zeitplan aus.
+
+1. Für den ersten Zeitplan:
+
+   1. Aktivieren Sie das Kontrollkästchen neben jedem Bundle, das in der linken Spalte enthalten sein soll.
+
+   1. Geben Sie das Start- und Enddatum sowie die Uhrzeit an.
+
+   1. Wählen Sie den Kreativ-Rotationstyp aus und konfigurieren Sie die Einstellungen:
+
+      * **[!UICONTROL Weighted]:** Geben Sie die relative Gewichtung für jede Bundle-Zeile im Zeitplan ein. Die Gewichtungen müssen insgesamt 100 betragen. Um die Gewichtungen gleichmäßig zu verteilen, klicken Sie auf **[!UICONTROL Apply equal weight]**.
+
+      * **[!UICONTROL Algorithmic]:** Wählen Sie eine **[!UICONTROL Optimization goals]** Option aus. Wenn Sie ein benutzerdefiniertes Ziel auswählen, wählen Sie das vorhandene benutzerdefinierte Ziel [Advertising DSP](/help/dsp/optimization/custom-goal.md) in **[!UICONTROL Custom objective]** aus.
+
+      * **[!UICONTROL Sequence]:** Ziehen Sie die Bundles in die gewünschte Reihenfolge und geben Sie die Anzahl der Impressionen für jede Sequenz ein. Aktivieren Sie **[!UICONTROL Keep in loop]**, um die Sequenz zu wiederholen, oder deaktivieren Sie sie, um die Impressions des letzten Bundles auf **[!UICONTROL Infinite]** zu setzen.
+
+1. Klicken Sie für jeden zusätzlichen Zeitplan auf **[!UICONTROL + Add Schedule]**, wählen Sie die Karte Zeitplan aus und konfigurieren Sie die Bundles, Daten und Uhrzeiten sowie die Rotationseinstellungen.
+
+   Die Bundle-Kontrollkästchen gelten für den ausgewählten Zeitplan, nicht für alle Zeitpläne. Stellen Sie sicher, dass die Zeitpläne mit zugewiesenen Bundles die gesamte Erlebnisdauer abdecken.
+
+1. Klicken Sie im Dialogfeld auf **[!UICONTROL Save]** .
+
+1. [Speichern Sie das Erlebnis](#save).
+
+### Verwenden des manuellen Editors {#with-scheduling-manual}
+
+[Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
+
+1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -86,7 +156,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * Klicken Sie bei neuen Bundles auf **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles zu](experience-assign-creative-bundles.md).
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Creative Optimization]** .
+   1. Klicken Sie auf die Registerkarte **[!UICONTROL Creative Optimization]** .
 
 1. **[!UICONTROL Schedule]** aktivieren.
 
@@ -98,17 +168,13 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
    1. Wählen Sie den Kreativ-Rotationstyp aus:
 
-      * *[!UICONTROL Weighted]:* Dreht die Kreativen in jedem Paket manuell entsprechend der relativen Gewichtung. Geben Sie die Gewichtung für jedes Bundle als Prozentsatz ein. Um gleiche Gewichtungen auf alle Bundles im Zeitplan anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
+      * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Um gleiche Gewichtungen auf alle Bundles im Zeitplan anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-      * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
+      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
-        * Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
-
-      * *[!UICONTROL Sequencing]:* Dreht die zugehörigen kreativen Bundles in einer bestimmten Reihenfolge (wobei Bundle 1 zuerst bereitgestellt wird, Bundle 2 erst bereitgestellt wird usw.) mit einer bestimmten Gesamtzahl von Impressions für jede Bundle-Sequenz. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Sie können das endgültige Bundle in der Sequenz so konfigurieren, dass a\) auf unbestimmte Zeit angezeigt wird (Standard) oder b\) zum ersten Bundle zurückkehrt. Sie können beispielsweise eines der Kreativen in Bundle 1 für drei (3) Impressions anzeigen, dann ein Kreatives in Bundle 2 für eine (1) Impression anzeigen, dann eines der Kreativen in Bundle 3 für zwei (2) Impressionen anzeigen und dann die Schleife erneut starten. Alternativ können Sie, sobald die Kreativen in Bundle 3 angezeigt werden, die Kreativen in Bundle 3 weiterhin auf unbestimmte Zeit anzeigen, anstatt eine Schleife zu erstellen. Beim Aktivieren der Sequenzierung:
+      * *[!UICONTROL Sequencing]:*
 
         1. Ziehen Sie die zugewiesenen Bundles in die gewünschte Reihenfolge.
-
-           Standardmäßig werden die zugewiesenen Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden.
 
         1. Geben Sie die Anzahl der Impressionen für jede Sequenz ein.
 
@@ -124,23 +190,25 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
    1. Wählen Sie den Kreativ-Rotationstyp aus:
 
-      * *[!UICONTROL Weighted]:* Dreht die Kreativen in jedem Paket manuell entsprechend der relativen Gewichtung. Geben Sie die Gewichtung für jedes Bundle als Prozentsatz ein. Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
+      * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-      * *[!UICONTROL Algorithmic]:* Dreht die Kreativen in jedem Bundle algorithmisch nach einem bestimmten Optimierungsziel.
+      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
 
-        * Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus.  Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
-
-      * *[!UICONTROL Sequencing]:* Dreht die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge mit einer angegebenen Gesamtzahl von Impressionen über jede Bundle-Sequenz hinweg. Beim Aktivieren der Sequenzierung:
+      * *[!UICONTROL Sequencing]:*
 
         1. Ziehen Sie die zugewiesenen Bundles in die gewünschte Reihenfolge.
-
-           Standardmäßig werden die zugewiesenen Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden.
 
         1. Geben Sie die Anzahl der Impressionen für jede Sequenz ein.
 
         1. Ändern Sie für die letzte Sequenz, ob Sie a\) das letzte Bundle in der Sequenz auf unbestimmte Zeit anzeigen möchten (*[!UICONTROL Infinite]* (Standard) oder b\), bevor Sie zum ersten Bundle zurückkehren, nachdem das letzte Bundle angezeigt wurde (*[!UICONTROL Keep in Loop]*).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
+
+## Erlebnis speichern {#save}
+
+Die folgenden Schritte gelten für beide Editoren.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

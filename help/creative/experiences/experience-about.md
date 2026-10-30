@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # Über Erlebnisse in Advertising Creative 2.0
@@ -51,6 +51,8 @@ Jedes Anzeigenerlebnis kann einen Anzeigentyp enthalten (Standardanzeige, Standa
   * Spezifische Gerätetypen, Betriebssysteme und Browser
 
   Nachdem Sie eine Verzweigung für die Zielgruppe im Entscheidungsbaum erstellt haben, können Sie die Zielgruppe mit potenziellen Kreativen verbinden, indem Sie der Verzweigung Kreativ-Bundles zuweisen. Für jedes Erlebnis können Sie die Optimierung und Planung für die Kreativ-Bundles anpassen und die standardmäßigen Landingpages und Tracking-URLs <!-- later: and any flexible attributes --> einzelne Kreative in jedem Bundle ändern.
+
+  Mit dem standardmäßigen Entscheidungsbaum-Editor für KI (Beta) können Sie die Baumstruktur oder die Änderungen beschreiben, die Sie am KI-Agenten vornehmen möchten, das Ergebnis überprüfen und die interaktive Arbeitsfläche direkt bearbeiten. Sie können auch den vorhandenen manuellen Editor verwenden. Beide Editoren konfigurieren denselben Typ des zielgerichteten Erlebnisses. Siehe [Das Entscheidungsbaum-Layout](experience-decision-tree.md) und [Bearbeiten eines Erlebnisses mit dem Targeting eines Entscheidungsbaums](experience-edit-targeting.md).
 
 * **Erlebnisse ohne Targeting mit Entscheidungsbaum:** [!DNL Creative] optimiert die Anzeigenelemente für das Anzeigenerlebnis, ohne die Zielgruppe einzugrenzen. Für jedes Erlebnis geben Sie Start- und Enddatum sowie einige Standardeinstellungen an, aber ein Großteil des Workflows ist nicht direkt im Erlebnis enthalten. Anstatt Kreative direkt zum Erlebnis hinzuzufügen, verwenden Sie [!UICONTROL Tag Manager] , um ein Anzeigen-Tag für jede Anzeigengröße für das Erlebnis zu erstellen und dann Kreative hinzuzufügen, die kreative Optimierung und Planung zu konfigurieren und die Landingpages und Tracking-URLs anzupassen<!-- later: and any flexible attributes -->.
 
@@ -97,7 +99,7 @@ Die folgenden Leistungsdaten sind verfügbar:
 
 ## Indikatoren für Warnhinweise
 
-Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [&#x200B; unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
+Eine Spalte &quot;[!UICONTROL Alerts]&quot; zeigt an, wenn bei einem Erlebnis oder einem untergeordneten Kreativen darunter ein Problem auftritt. Ein [!UICONTROL Pulse Panel] rechts in der Symbolleiste zeigt an, ob Warnhinweise für das Erlebnis verfügbar sind, einschließlich aller untergeordneten Kreativen. Weitere Informationen finden [ unter &quot;](/help/creative/reports/alerts-view.md) anzeigen“.
 
 ## Erlebnisstatus {#experience-statuses}
 
@@ -136,7 +138,7 @@ Im Folgenden finden Sie die wichtigsten verfügbaren Aktionen. Eine vollständig
 
 * [Demo-URL freigeben](experience-share-demo-url.md) für ein Erlebnis
 
-* [Exportieren von Anzeigen-Tags für ein &#x200B;](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
+* [Exportieren von Anzeigen-Tags für ein ](experience-tag-export.md), einschließlich des optionalen Uploads von Anzeigen-Tags direkt in eine Advertising DSP-Kampagne
 
 * [Löschen](experience-delete.md) eines Erlebnisses
 

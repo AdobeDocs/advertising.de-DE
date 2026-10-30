@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '1151'
 ht-degree: 0%
 ---
 # Hinzufügen eines gleichrangigen Zielknotens zwischen Knoten in einem Erlebnis
@@ -29,45 +29,109 @@ ht-degree: 0%
 
 Sie können einen gleichrangigen Knoten zu jedem Knoten hinzufügen, der ein Ziel hat oder sich auf derselben Ebene wie ein Knoten mit einem Ziel befindet.
 
-<!--
- 1. Open the decision tree:
+## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
-In a new experience
+Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) oder [bearbeiten](experience-edit-targeting.md#ai-editor) können Sie dem KI-Agenten das neue gleichrangige Ziel beschreiben. Identifizieren Sie den übergeordneten Zweig und die Zielwerte und überprüfen Sie das Ergebnis. So fügen Sie das gleichrangige Element direkt in der Arbeitsfläche hinzu:
 
-In an existing experience,
- -->
+1. Halten Sie den Cursor über das übergeordnete Element der Knoten auf der Ebene, auf der Sie ein anderes gleichrangiges Element wünschen, und klicken Sie auf **[!UICONTROL +]**.
+
+   Die Zielkategorie wird durch die vorhandene Ebene bestimmt und der Wertselektor wird für diese Kategorie geöffnet.
+
+1. Geben Sie die Zielwerte für die Kategorie an:
+
+   * Für Zielgruppenziele:
+
+     * Um das erste Segment hinzuzufügen, suchen und wählen Sie das Zielgruppensegment aus.
+
+     * So fügen Sie Segmente zu einer vorhandenen Segmentgruppe hinzu:
+
+       1. Wählen Sie die Segmentgruppe aus.
+
+       1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** oder **[!UICONTROL Exclude All]**.
+
+          **[!UICONTROL Include Any]** entspricht Benutzern in mindestens einem ausgewählten Segment; **[!UICONTROL Include All]** erfordert Mitgliedschaft in allen ausgewählten Segmenten.
+
+          **[!UICONTROL Exclude All]** ist nicht für die erste Segmentgruppe verfügbar. Erstellen Sie bei einer Zielgruppe, die nur Ausschlüsse enthält, die Zielgruppe mithilfe von **[!UICONTROL Include Any]** und schließen Sie diese Zielgruppe aus, wenn Sie sie zu einer Platzierung in Ihrer DSP hinzufügen.
+
+       1. Suchen und wählen Sie die zusätzlichen Segmente aus.
+
+     * Hinzufügen einer neuen Segmentgruppe:
+
+       1. Fügen Sie eine Gruppe hinzu.
+
+       1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in **[!UICONTROL And]** oder **[!UICONTROL Or]**.
+
+          **[!UICONTROL And]** müssen Benutzer die Bedingungen beider Gruppen erfüllen; **[!UICONTROL Or]** müssen mindestens die Bedingungen einer Gruppe erfüllen.
+
+       1. Suchen und wählen Sie die Segmente für die neue Gruppe aus.
+
+       1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** oder **[!UICONTROL Exclude All]**.
+
+   * Für geografische Ziele:
+
+     * Wählen Sie die Standorte innerhalb der geografischen Kategorie auf der vorhandenen Ebene aus, z. B. Länder, Regionen oder Städte.
+
+     * Wählen Sie für Zielgruppen der Postleitzahl das Land aus und geben Sie die einzuschließenden Postleitzahlen ein. Wenn Sie mehrere Postleitzahlen in großen Mengen eingeben möchten, trennen Sie sie durch Kommas oder setzen Sie jede Postleitzahl in eine separate Zeile.
+
+   * Geben Sie für Zielgruppen für die Datenübergabe den Schlüssel und den Wert ein, die übereinstimmen sollen.
+
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+
+   * Wählen Sie für das Retargeting von Pixel-Zielen das Retargeting-Pixel aus und geben Sie die Werte für alle Pixel-Attribute an, die erforderlich sind, um die Kreativen anzuzeigen.
+
+     Die verfügbaren Attribute werden in den [Einstellungen für Retargeting](/help/creative/pixels/retargeting-pixel-manage.md) konfiguriert.
+
+   * Wählen Sie für Geräteziele die Werte innerhalb der Gerätekategorie auf der vorhandenen Ebene aus: Gerätetypen, Betriebssysteme oder Browser.
+
+1. (Falls verfügbar; optional) Wählen Sie **[!UICONTROL Split Nodes]** aus, um für jeden ausgewählten Wert einen separaten Zielknoten mit eigenen Zuweisungen für das Kreativ-Bundle zu erstellen. Andernfalls werden die ausgewählten Werte in einem Zielknoten gruppiert.
+
+1. Klicken Sie auf **[!UICONTROL Add Node]**.
+
+1. (Optional) Um den neuen Knoten umzubenennen, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, geben Sie den **[!UICONTROL Node Name]** ein, und klicken Sie dann auf **[!UICONTROL Save]**.
+
+1. [Kreative Bundles zuweisen](experience-assign-creative-bundles.md#ai-editor) wenn der neue Knoten ein endgültiger Knoten ist, und [Erlebnis speichern](#save).
+
+## Verwenden des manuellen Editors {#manual-editor}
+
+[Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
 
 1. Klicken Sie über dem Knoten, dem Sie den gleichrangigen Knoten hinzufügen möchten, auf ![Hinzufügen](/help/creative/assets/add.png "Hinzufügen") und wählen Sie dann **[!UICONTROL Insert Sibling Target]** aus.
 
-1. Geben Sie die Ziele an:
+1. Geben Sie die Zielwerte für die Kategorie an:
 
-   * Gehen Sie bei Audience-Zielen wie folgt vor:
+   * Für Zielgruppenziele:
 
-     1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um Ihre [!UICONTROL Audience Targeting] zu öffnen, und führen Sie dann folgende Schritte aus:
+     1. Klicken Sie auf **[!UICONTROL Click to Browse]** , um die **[!UICONTROL Audience Targeting]** zu öffnen.
+
+     1. Konfigurieren Sie die Zielgruppensegmente und -gruppen:
 
         * Um das erste Segment hinzuzufügen, suchen Sie das Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
 
-        * So fügen Sie ein Segment zu einer vorhandenen Segmentgruppe hinzu:
+        * So fügen Sie Segmente zu einer vorhandenen Segmentgruppe hinzu:
 
           1. Klicken Sie auf die Segmentgruppe im rechten Bedienfeld.
 
-          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** oder **[!UICONTROL Exclude All]**.
 
-             *[!UICONTROL Exclude All]* ist nicht für die erste Segmentgruppe verfügbar. Erstellen Sie für eine Zielgruppe, die nur Ausschlüsse enthält, diese Zielgruppe als *[!UICONTROL Include Any]* und schließen Sie diese Zielgruppe aus, wenn Sie sie zu einer Platzierung in Ihrer DSP hinzufügen.
+             **[!UICONTROL Include Any]** entspricht Benutzern in mindestens einem ausgewählten Segment; **[!UICONTROL Include All]** erfordert Mitgliedschaft in allen ausgewählten Segmenten.
 
-          1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen.
+             **[!UICONTROL Exclude All]** ist nicht für die erste Segmentgruppe verfügbar. Erstellen Sie bei einer Zielgruppe, die nur Ausschlüsse enthält, die Zielgruppe mithilfe von **[!UICONTROL Include Any]** und schließen Sie diese Zielgruppe aus, wenn Sie sie zu einer Platzierung in Ihrer DSP hinzufügen.
 
-             Die Segmentgruppe wird automatisch mit dem neuen Segment aktualisiert.
+          1. Suchen Sie das neue Segment im linken Bereich und aktivieren Sie das Kontrollkästchen neben dem Segmentnamen. Wiederholen Sie diesen Vorgang für jedes weitere Segment.
+
+             Die Segmentgruppe wird automatisch mit den neuen Segmenten aktualisiert.
 
         * Hinzufügen einer neuen Segmentgruppe:
 
-        1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
+          1. Klicken Sie im rechten Bedienfeld auf **[!UICONTROL + New Group]** .
 
-        1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in *[!UICONTROL And]* oder *[!UICONTROL Or]*.
+          1. (Optional) Ändern Sie bei Bedarf die Logik zwischen der vorherigen Gruppe und der neuen Gruppe in **[!UICONTROL And]** oder **[!UICONTROL Or]**.
 
-        1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+             **[!UICONTROL And]** müssen Benutzer die Bedingungen beider Gruppen erfüllen; **[!UICONTROL Or]** müssen mindestens die Bedingungen einer Gruppe erfüllen.
 
-        1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* oder *[!UICONTROL Exclude All]*.
+          1. Suchen Sie die Segmente für die neue Gruppe im linken Bereich und aktivieren Sie die Kontrollkästchen neben den Segmentnamen.
+
+          1. (Optional) Ändern Sie die Gruppenlogik nach Bedarf in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** oder **[!UICONTROL Exclude All]**.
 
      1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -87,11 +151,11 @@ In an existing experience,
 
    * Für Datenübergabeziele können Sie optional den Datenübergabeschlüssel anpassen, einen einzelnen Datenübergabewert eingeben und dann auf &quot;**[!UICONTROL Apply]**&quot; klicken.
 
-     Ein Standardwert für den Schlüssel im Schlüssel-Wert-Paar ist bereits im Feld **[!UICONTROL Data Pass]** im Abschnitt [!UICONTROL Advanced] der [Erlebniseinstellungen](experience-settings-targeting.md) festgelegt. Sie können optional den Schlüssel anpassen.
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
    * Wählen Sie für die erneute Zielgruppenbestimmung von Pixelzielen das zu verwendende Retargeting-Pixel und die erforderlichen Werte für eines der Pixelattribute aus, die vorhanden sein müssen, um den Kreativen angezeigt zu werden. Klicken Sie dann auf **[!UICONTROL Apply]**.
 
-     Die Attribute für das Retargeting-Pixel werden unter [Einstellungen für Retargeting-Pixel](/help/creative/pixels/retargeting-pixel-manage.md) konfiguriert.
+     Die verfügbaren Attribute werden in den [Einstellungen für Retargeting](/help/creative/pixels/retargeting-pixel-manage.md) konfiguriert.
 
    * Gehen Sie für Geräteziele wie folgt vor:
 
@@ -113,23 +177,13 @@ In an existing experience,
 
    1. Geben Sie den **[!UICONTROL Node Name]** ein, und klicken Sie dann auf **[!UICONTROL Save]**.
 
-1. Führen Sie einen der folgenden Schritte aus:
+1. (Optional) [Zuweisen von kreativen Bundles](experience-assign-creative-bundles.md#manual-editor) zum neuen Zielknoten.
 
-   * (Optional) [Weisen Sie dem neuen Zielknoten &#x200B;](experience-assign-creative-bundles.md)Kreative“ zu.
+## Erlebnis speichern {#save}
 
-   * (Optional) So speichern Sie das Erlebnis:
+Die folgenden Schritte gelten für beide Editoren.
 
-     1. Klicken Sie auf **[!UICONTROL Save]** und dann auf **[!UICONTROL OK]**.
-
-     1. (Wenn jeder Knoten auf der untersten Ebene nicht mindestens einen Kreativen enthält): Führen Sie einen der folgenden Schritte aus:
-
-        * Um das Erlebnis ohne alle erforderlichen Kreativ-Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
-
-          Sie können kein Anzeigen-Tag für ein Entwurfserlebnis erstellen.
-
-        * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
-
-        * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

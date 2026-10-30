@@ -1,6 +1,6 @@
 ---
 title: Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
-description: Erfahren Sie, wie Sie die Einstellungen für ein zielgerichtetes Anzeigen-Erlebnis mithilfe eines Entscheidungsbaums bearbeiten.
+description: Erfahren Sie, wie Sie ein zielgerichtetes Anzeigenerlebnis mit dem KI-gesteuerten oder manuellen Entscheidungsbaum-Editor bearbeiten.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
 TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
@@ -19,12 +19,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '655'
 ht-degree: 0%
 ---
 # Bearbeiten eines Erlebnisses mit Entscheidungsbaum-Targeting
+
+Der KI-gesteuerte Editor (Beta) wird standardmäßig für Erlebnisse mit Targeting geöffnet. Sie können mit dem KI-Agenten arbeiten, die Arbeitsfläche direkt bearbeiten oder den vorhandenen manuellen Editor öffnen.
+
+## Erlebnis öffnen {#experience-open}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -32,73 +36,93 @@ ht-degree: 0%
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Edit]**.
+   * So öffnen Sie den KI-gesteuerten Editor:
 
-   * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Edit]**.
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Edit]**.
 
-   Der Entscheidungsbaum wird standardmäßig geöffnet.
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Edit]**.
 
-1. (Optional) Wechseln Sie bei Bedarf zwischen dem Entscheidungsbaum und den allgemeinen Einstellungen:
+   * So öffnen Sie den manuellen Editor:
 
-   * Um die allgemeinen Einstellungen im Entscheidungsbaum zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Experience Form]** .
+     * Klicken Sie in der Kartenansicht auf **[!UICONTROL ...]** neben dem Erlebnisnamen und dann auf **[!UICONTROL Create Decision Tree Manually (Legacy)]**.
 
-   * Um den Entscheidungsbaum über die allgemeinen Einstellungen zu öffnen, klicken Sie oben rechts auf **[!UICONTROL Decision Tree]** .
+     * Halten Sie in der Tabellenansicht den Cursor über der Zeile, klicken Sie auf **[!UICONTROL More]** und dann auf **[!UICONTROL Create Decision Tree Manually (Legacy)]**.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Entscheidungsbaum zu bearbeiten:
+     * Im KI-gesteuerten Editor
 
-   * ([Verarbeitung](experience-about.md#experience-statuses) Erlebnisse) Führen Sie einen der folgenden Schritte aus:
+## Bearbeiten mit dem KI-gesteuerten Editor (Beta) {#ai-editor}
 
-     * Um die vorhandenen, nicht veröffentlichten Änderungen am Live-Erlebnis zu verwerfen, klicken Sie auf **[!UICONTROL Discard and start again]**.
+1. [Öffnen Sie das Erlebnis](#experience-open).
 
-     * Um die vorhandenen, nicht veröffentlichten Änderungen beizubehalten, klicken Sie auf **[!UICONTROL Continue editing draft]**.
+1. Beschreiben Sie die Zielgruppenänderungen, die Sie in der Konversation vornehmen möchten. Identifizieren Sie den betroffenen Zweig anhand seiner Ziele oder, wenn auf der Arbeitsfläche angezeigt, seiner Knoten-ID.
 
-     * Um die Erlebnisdetails zu bearbeiten, klicken Sie auf **[!UICONTROL Edit Experience Details]**.
+1. Überprüfen Sie die aktualisierte Baumstruktur und beschreiben Sie alle weiteren Änderungen. Warten Sie, bis die Verarbeitung durch den Assistenten abgeschlossen ist, bevor Sie mit der Arbeitsfläche interagieren.
 
-   * (Optional) Ändern Sie die Anzeigeeinstellungen für den Entscheidungsbaum.
+1. (Optional) Nehmen Sie Änderungen direkt auf der Arbeitsfläche vor:
 
-     Ihre Einstellungen werden gespeichert, bis Sie sich abmelden.
+   * [Zielgruppe auf letzter Ebene hinzufügen](experience-target-node-add-final.md#ai-editor), [Zielebene einfügen](experience-target-node-add-inner.md#ai-editor) oder [gleichrangiges Ziel hinzufügen](experience-target-node-add-sibling.md#ai-editor).
 
-   * Vergrößern oder verkleinern Sie die Ansicht, indem Sie den Schieberegler bewegen.
+   * Bearbeiten Sie die Kriterien einer Zielgruppe, indem Sie neben der Zielgruppe auf **[!UICONTROL ...]** > **[!UICONTROL Edit]** klicken, die Werte ändern und dann auf **[!UICONTROL Edit Node]** klicken.
 
-   * Wechseln Sie zwischen der Anzeige einer vertikalen Liste und einer horizontalen Liste, indem Sie auf ![Als vertikale Baumstruktur anzeigen](/help/creative/assets/tree-vertical.png "Als vertikale Baumstruktur anzeigen") bzw. ![Als horizontalen Baum anzeigen](/help/creative/assets/tree-horizontal.png "Als horizontalen Baum anzeigen") klicken.
+   * [Kopieren Sie untergeordnete Knoten und Kreative](experience-target-node-copy.md#ai-editor) oder [löschen Sie einen Knoten](experience-target-node-delete.md#ai-editor).
 
-   * (Optional) Ändern Sie die Anzeigenziele und die entsprechenden Kreativen auf eine der folgenden Arten:
+   * [Zuweisung von Kreativ-Bundles aufheben](experience-assign-creative-bundles.md#ai-editor).
 
-     * Zielgruppen:
+   * [Anpassen der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) oder [Tracking-URLs](experience-tracking-urls-targeting.md#ai-editor).
 
-       *[Zielknoten zur letzten Ebene hinzufügen](experience-target-node-add-final.md) in einem Erlebnis.
+1. [Speichern Sie das Erlebnis](#save).
 
-       * [Fügen Sie einen Zielknoten zwischen Knoten ein](experience-target-node-add-inner.md).
+## Bearbeiten mit dem manuellen Editor {#manual-editor}
 
-       * [Fügen Sie zwischen Knoten einen gleichrangigen Zielknoten hinzu](experience-target-node-add-sibling.md).
+1. [Öffnen Sie das Erlebnis](#experience-open).
 
-       * [Kopieren Sie untergeordnete Knoten und Kreative auf derselben Ebene in einen anderen Knoten](experience-target-node-copy.md).
+1. (Erlebnisse mit Status `[processing](experience-about.md#experience-statuses)`) Wenn Sie zu einem vorhandenen, nicht veröffentlichten Entwurf aufgefordert werden, führen Sie einen der folgenden Schritte aus:
 
-     * Creative-Bundles:
+   * Klicken Sie auf **[!UICONTROL Continue editing draft]** , um den Entwurf zu überprüfen und weiter zu bearbeiten.
 
-       * [Zuweisung und Aufhebung der Zuweisung von Kreativen zu einem endgültigen Knoten](experience-assign-creative-bundles.md).
+   * Klicken Sie auf **[!UICONTROL Discard and start again]** , um den Entwurf zu verwerfen und mit der Live-Version zu beginnen.
 
-         Wenn Sie nicht jedem endgültigen Knoten mindestens ein Bundle zuweisen, können Sie beim Speichern des Erlebnisses die standardmäßigen Kreativen für jeden nicht zugewiesenen Knoten verwenden. Um ein Erlebnis zu veröffentlichen, müssen Sie für jeden endgültigen Knoten entweder Bundles zuweisen oder die standardmäßigen Kreativen verwenden.
+   * Klicken Sie auf **[!UICONTROL Cancel this edit]**, um die Bearbeitung zu beenden.
 
-       * [Passen Sie die Tracking-URLs für Kreative in den zugewiesenen Bundles &#x200B;](experience-tracking-urls-targeting.md).
+1. (Optional) Stellen Sie den Zoom-Schieberegler ein oder klicken Sie auf ![Als vertikalen Baum anzeigen](/help/creative/assets/tree-vertical.png "Als vertikalen Baum anzeigen") oder ![Als horizontalen Baum anzeigen](/help/creative/assets/tree-horizontal.png "Als horizontalen Baum anzeigen"), um die Ausrichtung zu ändern.
 
-       * [Passen Sie die kreative Optimierung und &#x200B;](experience-optimization-scheduling-targeting.md) für die zugewiesenen Bundles an.
+   Ihre Anzeigeeinstellungen werden gespeichert, bis Sie sich abmelden.
 
-1. (Optional) Bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
+1. Ändern Sie die Ziele und Kreativen nach Bedarf:
 
-1. Klicken Sie auf **[!UICONTROL Save]**, und führen Sie dann folgende Schritte aus.
+   * [Ein Ziel auf letzter Ebene hinzufügen](experience-target-node-add-final.md#manual-editor), [ein Ziel zwischen Knoten einfügen](experience-target-node-add-inner.md#manual-editor) oder [ein gleichrangiges Ziel hinzufügen](experience-target-node-add-sibling.md#manual-editor).
 
-   * (Wenn jeder Knoten auf der untersten Ebene mindestens ein Kreativ-Bundle enthält) Klicken Sie auf **[!UICONTROL OK]**.
+   * [Kopieren Sie untergeordnete Knoten und Kreative](experience-target-node-copy.md#manual-editor) oder [löschen Sie einen Knoten](experience-target-node-delete.md#manual-editor).
 
-   * (Wenn jeder Knoten auf der untersten Ebene nicht mindestens ein kreatives Bundle enthält) Führen Sie einen der folgenden Schritte aus:
+   * [Zuweisung von Kreativ-Bundles aufheben](experience-assign-creative-bundles.md#manual-editor).
 
-     * Um das Erlebnis ohne alle erforderlichen Kreativ-Bundles zu speichern, klicken Sie auf **[!UICONTROL Save as Draft]**.
+   * [Anpassen der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) oder [Tracking-URLs](experience-tracking-urls-targeting.md#manual-editor).
 
-       Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf](experience-about.md#experience-statuses) erstellen.
+1. [Speichern Sie das Erlebnis](#save).
 
-     * Um jedem Ziel, dem noch kein Kreativ-Bundle zugewiesen wurde, das Standardkreativ-Paket zuzuweisen, klicken Sie auf **[!UICONTROL Assign Default Creatives]**. Nachdem Sie die aktualisierte Baumstruktur mit den standardmäßig zugewiesenen Kreativen überprüft haben, klicken Sie auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
+## Wechseln von Editoren oder Bearbeiten der Erlebniseinstellungen {#switch-editors}
 
-     * Um mit der Bearbeitung des Entscheidungsbaums fortzufahren, klicken Sie auf **[!UICONTROL Continue Edit]**.
+>[!IMPORTANT]
+>
+>Bevor Sie den KI-gesteuerten Editor verlassen, speichern Sie alle Baumänderungen, die Sie beibehalten möchten. Beim Wechseln zum manuellen Editor oder Erlebnisformular werden nicht gespeicherte Änderungen nicht übertragen.
+
+* **KI-gesteuerter Editor zum manuellen Editor:** Klicken Sie auf **[!UICONTROL Manual Decision Tree]**. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Yes]** , um nicht gespeicherte Änderungen zu verwerfen und den manuellen Editor zu öffnen, oder auf **[!UICONTROL No]** , um zu bleiben.
+
+* **KI-gesteuerter Editor für allgemeine Einstellungen:** Klicken Sie auf &quot;**[!UICONTROL Experience Form]**&quot; und dann auf &quot;**[!UICONTROL Yes]**&quot;, um nicht gespeicherte Strukturänderungen zu verwerfen und das Formular zu öffnen. Bearbeiten Sie die [Allgemeine Erlebniseinstellungen](experience-settings-targeting.md) und klicken Sie dann auf **[!UICONTROL Save]**.
+
+* **Manueller Editor für allgemeine Einstellungen** Speichern Sie alle Strukturänderungen, die Sie beibehalten möchten, und klicken Sie dann auf **[!UICONTROL Experience Form]**. Bearbeiten Sie die [Allgemeine Erlebniseinstellungen](experience-settings-targeting.md) und klicken Sie dann auf **[!UICONTROL Save]**.
+
+* **Allgemeine Einstellungen für den KI-gesteuerten Editor:** Klicken Sie auf **[!UICONTROL Decision Tree]**. Durch Speichern der Änderungen an den allgemeinen Einstellungen eines zielgerichteten Erlebnisses wird auch der KI-gesteuerte Editor geöffnet.
+
+* **Manueller Editor zum KI-gesteuerten Editor:** Speichern Sie Ihre Strukturänderungen, kehren Sie zur [!UICONTROL Experiences] zurück und wählen Sie **[!UICONTROL Edit]** für das Erlebnis aus.
+
+Um den KI-gesteuerten Editor zu verlassen, ohne einen anderen Editor zu öffnen, klicken Sie auf **[!UICONTROL Cancel]**. Klicken Sie auf **[!UICONTROL Yes]**, um nicht gespeicherte Strukturänderungen zu verwerfen, oder auf **[!UICONTROL No]**, um mit der Bearbeitung fortzufahren.
+
+## Erlebnis speichern {#save}
+
+Die folgenden Schritte gelten für beide Editoren.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >
