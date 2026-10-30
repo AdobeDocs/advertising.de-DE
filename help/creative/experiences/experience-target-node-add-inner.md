@@ -57,13 +57,13 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    Beim Einfügen einer Ebene werden keine Zielwerte abgefragt. Die neue Ebene verwendet zunächst „Alle“ und behält die vorhandenen untergeordneten Ziele und Kreativen bei.
 
-1. (Optional) Um ein bestimmtes Ziel auf der neuen Ebene zu definieren, [ Sie „einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md#ai-editor). Andernfalls behalten Sie den neuen Knoten „Alle“ bei, ohne spezifische Ziele hinzuzufügen.
+1. (Optional) Um ein bestimmtes Ziel auf der neuen Ebene zu definieren, [&#x200B; Sie „einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md#ai-editor). Andernfalls behalten Sie den neuen Knoten „Alle“ bei, ohne spezifische Ziele hinzuzufügen.
 
 1. (Optional) Um einen benutzerdefinierten Zielknoten umzubenennen, klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, geben Sie den **[!UICONTROL Node Name]** ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Sie können keinen Knoten „Alle“ oder „Alle anderen“ umbenennen.
 
-1. Überprüfen Sie die beibehaltenen Verzweigungen und weisen [ neuen endgültigen Knoten ](experience-assign-creative-bundles.md#ai-editor)Kreativ-Bundles“ zu.
+1. Überprüfen Sie die beibehaltenen Verzweigungen und weisen [&#x200B; neuen endgültigen Knoten &#x200B;](experience-assign-creative-bundles.md#ai-editor)Kreativ-Bundles“ zu.
 
 1. [Speichern Sie das Erlebnis](#save).
 
@@ -143,7 +143,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
      * Für ein Ziel für die Datenübergabe können Sie optional den Datenübergabeschlüssel anpassen, einen einzelnen Datenübergabewert eingeben und dann auf &quot;**[!UICONTROL Apply]**&quot; klicken.
 
-       Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+       Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ &#x200B;](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
      * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die Werte für die Attribute des Pixels an, die zur Anzeige für die Kreativen erforderlich sind. Klicken Sie dann auf **[!UICONTROL Apply]**.
 
@@ -171,7 +171,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    1. Geben Sie den **[!UICONTROL Node Name]** ein, und klicken Sie dann auf **[!UICONTROL Save]**.
 
-1. (Optional) [Weisen Sie dem neuen Zielknoten und ](experience-assign-creative-bundles.md#manual-editor) Knoten „Alles andere“ kreative Bundles zu.
+1. (Optional) [Weisen Sie dem neuen Zielknoten und &#x200B;](experience-assign-creative-bundles.md#manual-editor) Knoten „Alles andere“ kreative Bundles zu.
 
 1. (Optional) [Einen gleichrangigen Zielknoten hinzufügen](experience-target-node-add-sibling.md#manual-editor) des angegebenen Zieltyps.
 

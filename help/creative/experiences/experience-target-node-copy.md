@@ -31,7 +31,7 @@ Diese Funktion wirkt sich nicht auf das für den übergeordneten Knoten angegebe
 
 ## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
-Verwenden Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
+Verwenden Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
 
 1. Klicken Sie im übergeordneten Knoten, dessen untergeordnete Elemente Sie kopieren möchten, auf **[!UICONTROL ...]** > **[!UICONTROL Copy Children]**.
 
@@ -43,7 +43,7 @@ Verwenden Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder 
 
    Eine Aktion wird deaktiviert, wenn sie von der Baumstruktur nicht unterstützt wird. Überprüfen Sie alle Warnungen, bevor Sie fortfahren.
 
-1. Überprüfen Sie die Zielverzweigung und [ Sie dann „Erlebnis speichern](#save).
+1. Überprüfen Sie die Zielverzweigung und [&#x200B; Sie dann „Erlebnis speichern](#save).
 
 ## Verwenden des manuellen Editors {#manual-editor}
 

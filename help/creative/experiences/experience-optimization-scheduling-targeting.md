@@ -44,7 +44,7 @@ Sie können diese Einstellungen direkt auf der Arbeitsfläche des KI-gesteuerten
 
 * **[!UICONTROL Algorithmic]:** Zeigt die effektivsten Anzeigenvarianten häufiger an, basierend auf einem angegebenen Optimierungsziel, wie z. B. Clickthrough-Rate oder einem benutzerdefinierten Advertising DSP-Ziel.
 
-* **[!UICONTROL Sequence](KI-gesteuerter Editor) oder [!UICONTROL Sequencing] (manueller Editor):** Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge mit einer bestimmten Anzahl von Impressionen für jedes Bundle in der Sequenz an. Standardmäßig werden Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Das endgültige Bundle kann unbegrenzt bereitstellen (Standard), oder die Sequenz kann zum ersten Bundle zurückkehren.
+* **[!UICONTROL Sequence] (KI-gesteuerter Editor) oder [!UICONTROL Sequencing] (manueller Editor):** Zeigt die zugehörigen Kreativ-Bundles in einer bestimmten Reihenfolge mit einer bestimmten Anzahl von Impressionen für jedes Bundle in der Sequenz an. Standardmäßig werden Bundles in der Reihenfolge sortiert, in der sie zum Erlebnis hinzugefügt wurden. Die Anzeigengrößen, die bereitgestellt werden, werden durch den verfügbaren Bestand bestimmt. Das endgültige Bundle kann unbegrenzt bereitstellen (Standard), oder die Sequenz kann zum ersten Bundle zurückkehren.
 
   Beispielsweise könnte eine Sequenz Anzeigenvarianten von Bundle 1 für drei Impressionen, Bundle 2 für eine Impression und Bundle 3 für zwei Impressionen bereitstellen und dann wiederholen. Ohne Schleife dient Bundle 3 weiterhin auf unbestimmte Zeit.
 
@@ -54,9 +54,9 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
 ### Verwenden des KI-gesteuerten Editors (Beta) {#without-scheduling-ai}
 
-1. Klicken Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
+1. Klicken Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
 
-   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles ](experience-assign-creative-bundles.md#ai-editor).
+   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles &#x200B;](experience-assign-creative-bundles.md#ai-editor).
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Creative optimisation]** .
 
@@ -78,7 +78,7 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
 [Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
 
-1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -94,7 +94,7 @@ Wenn die kreative Planung deaktiviert ist, gelten die Einstellungen für die kre
 
    * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Um gleiche Gewichtungen auf alle zugehörigen Bundles anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-   * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
+   * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
 
    * *[!UICONTROL Sequencing]:*
 
@@ -114,9 +114,9 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
 ### Verwenden des KI-gesteuerten Editors (Beta) {#with-scheduling-ai}
 
-1. Klicken Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
+1. Klicken Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses auf **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** im kreativen Blattknoten.
 
-   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles ](experience-assign-creative-bundles.md#ai-editor).
+   Klicken Sie für einen endgültigen Knoten ohne Bundles auf **[!UICONTROL Assign Bundles]** und [weisen Sie die Bundles &#x200B;](experience-assign-creative-bundles.md#ai-editor).
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Creative optimisation]** und aktivieren Sie **[!UICONTROL Schedule]**.
 
@@ -148,7 +148,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
 [Öffnen Sie den manuellen Editor](experience-edit-targeting.md#experience-open) bevor Sie diese Schritte ausführen.
 
-1. Öffnen Sie beim [ (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
+1. Öffnen Sie beim [&#x200B; (Erstellen](experience-create-targeting.md) oder [Bearbeiten](experience-edit-targeting.md) des Erlebnisses die Einstellungen für die kreative Optimierung:
 
    1. Halten Sie den Cursor über den Creative Leaf-Knoten unter dem Zielknoten und führen Sie folgende Schritte aus:
 
@@ -170,7 +170,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Um gleiche Gewichtungen auf alle Bundles im Zeitplan anzuwenden, klicken Sie auf (![gleiche Gewichtung anwenden](/help/creative/assets/apply-equal-weight.png "gleiche Gewichtung anwenden")). Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
+      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** *[!UICONTROL Click Through Rate]*, (Standard-Videoanzeigenerlebnisse) *[!UICONTROL Completion Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
 
       * *[!UICONTROL Sequencing]:*
 
@@ -192,7 +192,7 @@ Wenn Sie die Planung verwenden, müssen Sie die Pakete für die Dauer des Erlebn
 
       * *[!UICONTROL Weighted]:* Geben Sie die Gewichtung für jedes Bundle in Prozent ein. Die Gewichtungen für alle ausgewählten Bundles müssen bis zu 100 addieren.
 
-      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel ](/help/dsp/optimization/custom-goal.md).
+      * *[!UICONTROL Algorithmic]:* Wählen Sie für die **[!UICONTROL Optimization Goal]** entweder *[!UICONTROL Click Through Rate]* oder *[!UICONTROL Custom Objective]* aus. Wenn Sie *[!UICONTROL Custom Objective]* auswählen, wählen Sie ein vorhandenes benutzerdefiniertes [Advertising DSP-Ziel &#x200B;](/help/dsp/optimization/custom-goal.md).
 
       * *[!UICONTROL Sequencing]:*
 

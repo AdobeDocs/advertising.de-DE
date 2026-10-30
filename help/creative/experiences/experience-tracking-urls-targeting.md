@@ -36,7 +36,7 @@ Die Überschreibung der Landingpage ist für Standarderlebnisse und für Knoten 
 
 ## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
-Verwenden Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
+Verwenden Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
 
 1. Klicken Sie im kreativen Blattknoten unter dem Zielknoten auf **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 

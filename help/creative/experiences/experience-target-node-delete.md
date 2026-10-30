@@ -29,7 +29,7 @@ Sie können einen Zielknoten löschen, einschließlich aller untergeordneten Zie
 
 ## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
-Verwenden Sie beim [ (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
+Verwenden Sie beim [&#x200B; (Erstellen](experience-create-targeting.md#ai-editor) oder [Bearbeiten](experience-edit-targeting.md#ai-editor) des Erlebnisses die Canvas-Steuerelemente:
 
 1. Überprüfen Sie den Knoten und seine untergeordneten Ziele und Kreativen, bevor Sie ihn löschen.
 

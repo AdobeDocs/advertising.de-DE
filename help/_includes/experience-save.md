@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * Wenn ein endgültiger Knoten keine Kreativen hat, wählen Sie einen der folgenden:
 
-     * Klicken Sie auf **[!UICONTROL Save as Draft]** , um ohne Veröffentlichung zu speichern. Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf“ ](/help/creative/experiences/experience-about.md#experience-statuses).
+     * Klicken Sie auf **[!UICONTROL Save as Draft]** , um ohne Veröffentlichung zu speichern. Sie können kein Anzeigen-Tag für ein Erlebnis [Entwurf“ &#x200B;](/help/creative/experiences/experience-about.md#experience-statuses).
 
      * Klicken Sie auf **[!UICONTROL Assign Default Creatives]** , um die standardmäßigen Kreativen des Erlebnisses für nicht zugewiesene Knoten zu verwenden. Überprüfen Sie die aktualisierte Baumstruktur, und klicken Sie dann auf **[!UICONTROL Save]** und **[!UICONTROL OK]**.
 

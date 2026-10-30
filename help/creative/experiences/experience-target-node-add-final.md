@@ -31,7 +31,7 @@ Wenn Sie einen Zielknoten zur untersten Ebene des Erlebnisses hinzufügen - sei 
 
 >[!NOTE]
 >
->Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[ eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
+>Informationen zum Einfügen eines Zielknotens zwischen vorhandenen Ebenen eines Entscheidungsbaums finden Sie unter &quot;[&#x200B; eines Zielknotens zwischen Knoten in einem Erlebnis einfügen](experience-target-node-add-inner.md).
 
 ## Verwenden des KI-gesteuerten Editors (Beta) {#ai-editor}
 
@@ -79,7 +79,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    * Geben Sie für Zielgruppen für die Datenübergabe den Schlüssel und den Wert ein, die übereinstimmen sollen.
 
-     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ &#x200B;](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
    * Wählen Sie für das Retargeting von Pixel-Zielen das Retargeting-Pixel aus und geben Sie die Werte für alle Pixel-Attribute an, die erforderlich sind, um die Kreativen anzuzeigen.
 
@@ -95,7 +95,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    Sie können keinen Knoten „Alle“ oder „Alle anderen“ umbenennen.
 
-1. [Weisen Sie den neuen endgültigen Knoten ](experience-assign-creative-bundles.md#ai-editor) Kreativ-Bundles zu, einschließlich der Fallback-Verzweigung, oder verwenden Sie beim [ des Erlebnisses Standardkreative](#save).
+1. [Weisen Sie den neuen endgültigen Knoten &#x200B;](experience-assign-creative-bundles.md#ai-editor) Kreativ-Bundles zu, einschließlich der Fallback-Verzweigung, oder verwenden Sie beim [&#x200B; des Erlebnisses Standardkreative](#save).
 
 ## Verwenden des manuellen Editors {#manual-editor}
 
@@ -157,7 +157,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    * Wählen Sie für ein Ziel für die Datenübergabe &quot;**[!UICONTROL Data Pass]**&quot; aus, passen Sie optional den Datenübergabeschlüssel an, geben Sie einen einzelnen Datenübergabewert ein und klicken Sie dann auf **[!UICONTROL Apply]**.
 
-     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ &#x200B;](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
    * Wählen Sie für ein Pixel-Ziel für die erneute Zielgruppenbestimmung **[!UICONTROL RT Pixel]**, wählen Sie ein einzelnes Pixel für die erneute Zielgruppenbestimmung aus und geben Sie die Werte für alle Attribute des Pixels an, die zur Anzeige für die Kreativen erforderlich sind, und klicken Sie dann auf **[!UICONTROL Apply]**.
 
@@ -183,7 +183,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    1. Geben Sie den **[!UICONTROL Node Name]** ein, und klicken Sie dann auf **[!UICONTROL Save]**.
 
-1. (Optional) [Weisen Sie dem neuen Zielknoten und ](experience-assign-creative-bundles.md#manual-editor) Knoten „Alles andere“ kreative Bundles zu.
+1. (Optional) [Weisen Sie dem neuen Zielknoten und &#x200B;](experience-assign-creative-bundles.md#manual-editor) Knoten „Alles andere“ kreative Bundles zu.
 
 ## Erlebnis speichern {#save}
 

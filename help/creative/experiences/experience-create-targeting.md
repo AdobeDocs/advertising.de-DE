@@ -99,7 +99,7 @@ Der KI-gesteuerte Editor (Beta) wird standardmäßig geöffnet. Sie können die 
 
    * [Kopieren Sie untergeordnete Knoten und Kreative](experience-target-node-copy.md#manual-editor) oder [löschen Sie einen Knoten](experience-target-node-delete.md#manual-editor).
 
-   * [Zuweisen von kreativen ](experience-assign-creative-bundles.md#manual-editor) und optional [Anpassen der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) und [Tracking-URLs](experience-tracking-urls-targeting.md#manual-editor).
+   * [Zuweisen von kreativen &#x200B;](experience-assign-creative-bundles.md#manual-editor) und optional [Anpassen der kreativen Optimierung und Planung](experience-optimization-scheduling-targeting.md) und [Tracking-URLs](experience-tracking-urls-targeting.md#manual-editor).
 
 1. (Optional) Um die allgemeinen Erlebniseinstellungen zu bearbeiten, klicken Sie auf **[!UICONTROL Experience Form]** und bearbeiten Sie die [allgemeinen Erlebniseinstellungen](experience-settings-targeting.md).
 

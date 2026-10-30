@@ -75,7 +75,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    * Geben Sie für Zielgruppen für die Datenübergabe den Schlüssel und den Wert ein, die übereinstimmen sollen.
 
-     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ &#x200B;](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
    * Wählen Sie für das Retargeting von Pixel-Zielen das Retargeting-Pixel aus und geben Sie die Werte für alle Pixel-Attribute an, die erforderlich sind, um die Kreativen anzuzeigen.
 
@@ -151,7 +151,7 @@ Während Sie das Erlebnis [erstellen](experience-create-targeting.md#ai-editor) 
 
    * Für Datenübergabeziele können Sie optional den Datenübergabeschlüssel anpassen, einen einzelnen Datenübergabewert eingeben und dann auf &quot;**[!UICONTROL Apply]**&quot; klicken.
 
-     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ ](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
+     Der standardmäßige Datenübergabeschlüssel wird im Feld &quot;**[!UICONTROL Data Pass]**&quot; im Abschnitt &quot;**[!UICONTROL Advanced]**&quot; von [Allgemeine Erlebniseinstellungen“ &#x200B;](experience-settings-targeting.md). Passen Sie bei Bedarf den Schlüssel für die Zielgruppe an.
 
    * Wählen Sie für die erneute Zielgruppenbestimmung von Pixelzielen das zu verwendende Retargeting-Pixel und die erforderlichen Werte für eines der Pixelattribute aus, die vorhanden sein müssen, um den Kreativen angezeigt zu werden. Klicken Sie dann auf **[!UICONTROL Apply]**.
 
