@@ -85,7 +85,7 @@ Ordnen Sie jedes Katalogfeld dem entsprechenden Element in Ihrer Vorlage zu. Ord
 
    Wenn Sie mit der QS fortfahren, wird der **[!UICONTROL Dynamic Creative QA]** mit einer Vorschau-Arbeitsfläche und dem **[!UICONTROL AI Assistant]** Chat-Panel geöffnet.
 
-1. Wenn Sie mit der Qualitätssicherung fortfahren, befolgen Sie die Verfahren unter &quot;[Qualitätsprüfung eines dynamischen Kreativen](#qa-dynamic-creative), um Anzeigen zu [ und zu ](#analyze-ads), [Vorschauen und Warnhinweise zu überprüfen](#review-previews) und optional [Katalogwerte zu korrigieren](#correct-catalog-values). Wenn Sie fertig sind, speichern [ die dynamische ](#save-or-exit).
+1. Wenn Sie mit der Qualitätssicherung fortfahren, befolgen Sie die Verfahren unter &quot;[Qualitätsprüfung eines dynamischen Kreativen](#qa-dynamic-creative), um Anzeigen zu [&#x200B; und zu &#x200B;](#analyze-ads), [Vorschauen und Warnhinweise zu überprüfen](#review-previews) und optional [Katalogwerte zu korrigieren](#correct-catalog-values). Wenn Sie fertig sind, speichern [&#x200B; die dynamische &#x200B;](#save-or-exit).
 
 ## Bearbeiten eines dynamischen Kreativen {#edit-dynamic-creative}
 
