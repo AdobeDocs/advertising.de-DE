@@ -163,7 +163,7 @@ Die **[!UICONTROL Generate Variations]** Aktion steht nur flexiblen HTML5-Kreati
 
    Die [!UICONTROL Ad Variations Generator] wird geöffnet, wobei die ausgewählte Anzeige vorgeladen ist.
 
-1. Verwenden Sie die KI-Chat-Oberfläche, um zusätzliche Varianten zu generieren und zu verfeinern. Siehe &quot;[ von Standardanzeigen](#create-standard-ads) für den vollständigen Workflow.
+1. Verwenden Sie die KI-Chat-Oberfläche, um zusätzliche Varianten zu generieren und zu verfeinern. Siehe &quot;[&#x200B; von Standardanzeigen](#create-standard-ads) für den vollständigen Workflow.
 
 ## Duplizieren einer Standardanzeige {#duplicate-standard-ad}
 

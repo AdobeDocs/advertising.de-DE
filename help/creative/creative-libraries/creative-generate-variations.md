@@ -25,7 +25,7 @@ Verwenden Sie den [!UICONTROL Ad Variations Generator], um neue Varianten eines 
 
 >[!NOTE]
 >
->Sie können auch Anzeigenvarianten aus [!UICONTROL Creative Studio] generieren. Beide Einstiegspunkte öffnen denselben [!UICONTROL Ad Variations Generator]. Weitere Einstiegspunkte [ Sie unter „Generieren von Anzeigenvarianten für eine Standardanzeige in ](/help/creative/creative-studio/creative-studio-manage-standard-ads.md#generate-ad-variations) Studio“.
+>Sie können auch Anzeigenvarianten aus [!UICONTROL Creative Studio] generieren. Beide Einstiegspunkte öffnen denselben [!UICONTROL Ad Variations Generator]. Weitere Einstiegspunkte [&#x200B; Sie unter „Generieren von Anzeigenvarianten für eine Standardanzeige in &#x200B;](/help/creative/creative-studio/creative-studio-manage-standard-ads.md#generate-ad-variations) Studio“.
 
 ## Verfügbarkeit {#availability}
 
