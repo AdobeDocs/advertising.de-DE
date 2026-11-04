@@ -1,6 +1,6 @@
 ---
-title: Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
-description: Erfahren Sie, wie Sie ein dynamisches Kreativ in einer Kreativbibliothek bearbeiten.
+title: Dynamische Kreative bearbeiten und auf Qualität überprüfen
+description: Erfahren Sie, wie Sie dynamische kreative Einstellungen bearbeiten und Kataloginhalte mit Qualitätsprüfungen in einer Kreativbibliothek überprüfen können.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
 TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
@@ -16,14 +16,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: ed1682eff9ce28df30a5314de90f6f67c10f338a
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '1118'
 ht-degree: 0%
 ---
-# Bearbeiten eines dynamischen Kreativinhalts in einer Kreativbibliothek
+# Dynamische Kreative bearbeiten und auf Qualität überprüfen
 
-## Über die neue Benutzeroberfläche
+Bearbeiten Sie die kreativen Einstellungen, um die Konfiguration der Kreativen zu ändern, z. B. den Namen, die Kataloge und die Attributzuordnung. Verwenden Sie den QA Agent, um die resultierenden Anzeigen zu überprüfen und die Katalogwerte zu korrigieren.
+
+## Kreative Einstellungen bearbeiten {#edit-creative-settings}
+
+### Über die neue Benutzeroberfläche {#from-the-new-ui}
 
 1. Öffnen Sie die Kreativeinstellungen:
 
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 1. Klicken Sie auf **[!UICONTROL Update Creative]**.
 
-## Von der alten Benutzeroberfläche
+### Von der alten Benutzeroberfläche {#from-the-legacy-ui}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -112,6 +116,100 @@ ht-degree: 0%
      1. Wählen Sie die Bundles aus und klicken Sie dann auf **[!UICONTROL Attach Creative to Bundles]**.
 
    * Um die Anzeigen zu speichern und das Setup zu beenden, klicken Sie auf **[!UICONTROL Save]** und anschließend erneut auf **[!UICONTROL Save]**.
+
+## Qualitätsprüfung einer dynamischen kreativen Benutzeroberfläche (nur neue Benutzeroberfläche) {#qa-dynamic-creative}
+
+Verwenden Sie den QA Agent in der neuen Benutzeroberfläche, um Katalogzeilen anhand der Vorlage eines dynamischen Kreativen zu analysieren, die resultierenden Anzeigen in der Vorschau anzuzeigen und potenzielle Inhaltsprobleme zu identifizieren. Sie können Anzeigen mithilfe der **[!UICONTROL AI Assistant]** filtern und gruppieren, Katalogwarnhinweise überprüfen und Katalogwerte manuell korrigieren, bevor Sie die Änderungen veröffentlichen.
+
+>[!NOTE]
+>
+>Sie können dynamische Kreative aus [!UICONTROL Creative Libraries] oder [!UICONTROL Creative Studio] auf ihre Qualität überprüfen. Weitere Einstiegspunkte [&#x200B; Sie unter „Qualitätsprüfung eines dynamischen &#x200B;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative) aus Creative Studio“.
+
+Der QA Agent ist nur für dynamische Display-Kreative verfügbar, die auf dynamischen Vorlagen basieren, nicht für Standard-Kreative oder dynamische Video-Kreative.
+
+### Öffnen Sie den QA Agent {#open-qa-agent}
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
+
+   * Klicken Sie auf den Bibliotheksnamen.
+   * Klicken Sie neben dem Bibliotheksnamen auf **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL ...]** neben dem Namen des dynamischen Kreativen, und klicken Sie dann auf **[!UICONTROL QA Agent]**.
+
+   Der **[!UICONTROL Dynamic Creative QA]** wird mit einer Vorschau-Arbeitsfläche und dem **[!UICONTROL AI Assistant]** Chat-Panel geöffnet.
+
+1. Wenn der Kreative mehrere Kataloge verwendet, wählen Sie in der Kopfzeile den zu überprüfenden Katalog aus **[!UICONTROL Catalog]**.
+
+   Der Assistent analysiert den ausgewählten Katalog. Die Katalogauswahl ist deaktiviert, wenn der Kreative nur einen Katalog verwendet.
+
+### Analysieren und Filtern von Anzeigen mit KI {#analyze-ads}
+
+1. Geben Sie im Bedienfeld **[!UICONTROL AI Assistant]** eine Anfrage in **[!UICONTROL Ask anything]** ein und drücken Sie **[!UICONTROL Enter]** oder klicken Sie auf eine der vorgeschlagenen Eingabeaufforderungen:
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   Der Assistent antwortet im Chat-Panel und zeigt übereinstimmende Katalogzeilen als Anzeigenvorschau auf der Arbeitsfläche an. Bis Sie eine Anfrage senden, werden Sie auf der Arbeitsfläche aufgefordert, den Assistenten zur Analyse des Katalogs aufzufordern.
+
+1. Weitere Verfeinerung der Überprüfung durch Folgeanfragen. Der Assistent kann Ihnen dabei helfen:
+
+   * Filtern Sie Anzeigen nach Zielgruppensegment, Sprache, Geografie oder Postleitzahl.
+   * Überprüfen Sie die Zeichenlängen anhand eines von Ihnen angegebenen Schwellenwerts.
+   * Prüfen Sie auf Feed-Fehler, fehlende Inhalte und verdächtige Inhalte.
+   * Übersetzungsstatus überprüfen.
+   * Vergleichen Sie A/B-Testvarianten.
+   * Gruppieren Sie Anzeigen zur Überprüfung, z. B. nach Produkt oder Problem.
+
+   Überprüfen Sie die Antworten des Assistenten und die Vorschau, bevor Sie die Änderungen speichern.
+
+### Vorschau und Warnhinweise überprüfen {#review-previews}
+
+* Verwenden Sie die Symbolleiste der Arbeitsfläche für Folgendes:
+
+  * Zoom anpassen.
+  * Zwischen **[!UICONTROL Thumbnail view]** und **[!UICONTROL Actual size]** wechseln.
+  * Klicken Sie auf **[!UICONTROL Replay animations]** , um die Vorschaubilder erneut anzuzeigen.
+  * Wählen Sie die Anzahl der Zeilen pro Seite aus, wählen Sie eine Seitenzahl aus oder verwenden Sie **[!UICONTROL Previous page]** und **[!UICONTROL Next page]**.
+
+* Wenn die Ergebnisse der Assistenzgruppen angezeigt werden, klicken Sie auf den Link, um alle Kreativen in einer Gruppe anzuzeigen. Verwenden Sie **[!UICONTROL Back to groups]** , um zu den gruppierten Ergebnissen zurückzukehren, oder **[!UICONTROL Catalog Rows]** , um die gruppierte Ansicht zu verlassen.
+
+* Wenn eine Vorschau **[!UICONTROL Issues detected]** anzeigt, halten Sie den Cursor über die Anzeige, um die Problemdetails anzuzeigen.
+
+* Wenn Katalog-Warnhinweise verfügbar sind, klicken Sie auf **[!UICONTROL View Alerts]**. Im Dialogfeld &quot;**[!UICONTROL Alerts]**&quot; werden Katalog, Zeilennummer, Spalte und Fehlermeldung für jedes Problem aufgeführt. Klicken Sie auf **[!UICONTROL Close]** , um zur Arbeitsfläche zurückzukehren.
+
+### Korrigieren von Katalogwerten {#correct-catalog-values}
+
+Sie können Katalogwerte manuell aus einer Anzeigenvorschau bearbeiten, ohne den QA-Bildschirm zu verlassen.
+
+1. Klicken Sie in der Vorschau, die Sie korrigieren möchten, auf **[!UICONTROL Edit]**.
+
+1. Wählen Sie im Dialogfeld „Bearbeiten“ unter **[!UICONTROL Catalog columns to edit]** die zu ändernden Spalten aus. Um eine Spalte zu finden, verwenden Sie **[!UICONTROL Search columns]**.
+
+1. Aktualisieren Sie unter **[!UICONTROL Columns content]** die ausgewählten Feldwerte.
+
+1. Klicken Sie auf **[!UICONTROL Update]**.
+
+   Die Vorschau wird mit den aktualisierten Werten aktualisiert. Die Katalogänderungen werden erst veröffentlicht, wenn Sie die dynamische kreative Datei speichern.
+
+>[!IMPORTANT]
+>
+>Durch diese Bearbeitungen werden Katalogdaten aktualisiert, nicht nur die Anzeigenvorschau. Überprüfen Sie die Werte, bevor Sie sie veröffentlichen.
+
+### Änderungen speichern oder beenden {#save-or-exit}
+
+* So speichern Sie die vorhandenen dynamischen kreativen Inhalte und veröffentlichen Katalogbearbeitungen:
+
+  1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Save Dynamic Creative]**.
+
+  1. Klicken Sie im **[!UICONTROL Update Dynamic Creative]** Bestätigungsdialogfeld auf **[!UICONTROL Update]**.
+
+     Kehren Sie zur Kreativbibliothek zurück.
+
+* Um den Katalog zu verlassen, ohne ausstehende Katalogbearbeitungen zu veröffentlichen, klicken Sie in der Kopfzeile der Seite auf **[!UICONTROL Cancel]** .
 
 >[!MORELIKETHIS]
 >

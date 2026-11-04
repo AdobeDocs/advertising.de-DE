@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # Verwalten von Standardanzeigen in [!UICONTROL Creative Studio]
@@ -149,11 +149,17 @@ In Ihrer Vorlagenbibliothek muss mindestens eine Anzeige und Vorlage vorhanden s
 
 1. Klicken Sie auf **[!UICONTROL Update Creative]**.
 
-## Erstellen von Anzeigenvarianten für eine Standardanzeige {#generate-ad-variations}
+## Erstellen von Anzeigenvarianten für ein flexibles HTML5-Kreativprojekt {#generate-ad-variations}
+
+Die **[!UICONTROL Generate Variations]** Aktion steht nur flexiblen HTML5-Kreativen zur Verfügung. Sie ist deaktiviert, wenn der Kreative nicht über die interne Referenz der übergeordneten Anzeigenvorlage verfügt, die vom Generator benötigt wird, oder wenn eine andere Anfrage zur Variantengenerierung gestartet wird. Der Verweis auf die übergeordnete Anzeigenvorlage ist keine Einstellung, die Sie bearbeiten können.
+
+>[!NOTE]
+>
+>Sie können auch Varianten von geeigneten flexiblen HTML5-Kreativen aus [!UICONTROL Creative Libraries] generieren. Beide Einstiegspunkte öffnen denselben [!UICONTROL Ad Variations Generator]. Siehe [Generieren von Varianten flexibler HTML5-](/help/creative/creative-libraries/creative-generate-variations.md)&quot; für die anderen Einstiegspunkt- und Verfügbarkeitsanforderungen.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
 
-1. Halten Sie auf der Registerkarte **[!UICONTROL Creatives]** den Cursor über die Kreativkarte und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**.
+1. Halten Sie auf der Registerkarte **[!UICONTROL Creatives]** den Cursor über die Kreativkarte und klicken Sie auf **[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**.
 
    Die [!UICONTROL Ad Variations Generator] wird geöffnet, wobei die ausgewählte Anzeige vorgeladen ist.
 
