@@ -123,7 +123,7 @@ Verwenden Sie den QA Agent in der neuen Benutzeroberfläche, um Katalogzeilen an
 
 >[!NOTE]
 >
->Sie können dynamische Kreative aus [!UICONTROL Creative Libraries] oder [!UICONTROL Creative Studio] auf ihre Qualität überprüfen. Weitere Einstiegspunkte [ Sie unter „Qualitätsprüfung eines dynamischen ](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative) aus Creative Studio“.
+>Sie können dynamische Kreative aus [!UICONTROL Creative Libraries] oder [!UICONTROL Creative Studio] auf ihre Qualität überprüfen. Weitere Einstiegspunkte [&#x200B; Sie unter „Qualitätsprüfung eines dynamischen &#x200B;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative) aus Creative Studio“.
 
 Der QA Agent ist nur für dynamische Display-Kreative verfügbar, die auf dynamischen Vorlagen basieren, nicht für Standard-Kreative oder dynamische Video-Kreative.
 

@@ -85,7 +85,7 @@ Ordnen Sie jedes Katalogfeld dem entsprechenden Element in Ihrer Vorlage zu. Ord
 
    Wenn Sie mit der QS fortfahren, wird der **[!UICONTROL Dynamic Creative QA]** mit einer Vorschau-Arbeitsfläche und dem **[!UICONTROL AI Assistant]** Chat-Panel geöffnet.
 
-1. Wenn Sie mit der Qualitätssicherung fortfahren, befolgen Sie die Verfahren unter &quot;[Qualitätsprüfung eines dynamischen Kreativen](#qa-dynamic-creative), um Anzeigen zu [ und zu ](#analyze-ads), [Vorschauen und Warnhinweise zu überprüfen](#review-previews) und optional [Katalogwerte zu korrigieren](#correct-catalog-values). Wenn Sie fertig sind, speichern [ die dynamische ](#save-or-exit).
+1. Wenn Sie mit der Qualitätssicherung fortfahren, befolgen Sie die Verfahren unter &quot;[Qualitätsprüfung eines dynamischen Kreativen](#qa-dynamic-creative), um Anzeigen zu [&#x200B; und zu &#x200B;](#analyze-ads), [Vorschauen und Warnhinweise zu überprüfen](#review-previews) und optional [Katalogwerte zu korrigieren](#correct-catalog-values). Wenn Sie fertig sind, speichern [&#x200B; die dynamische &#x200B;](#save-or-exit).
 
 ## Bearbeiten eines dynamischen Kreativen {#edit-dynamic-creative}
 
@@ -121,7 +121,7 @@ Verwenden Sie den QA-Assistenten, um Katalogzeilen anhand der Vorlage eines dyna
 
 >[!NOTE]
 >
->Sie können dynamische Kreative aus [!UICONTROL Creative Studio] oder [!UICONTROL Creative Libraries] auf ihre Qualität überprüfen. Obwohl die Menübeschriftungen unterschiedlich sind, öffnen beide Einstiegspunkte denselben **[!UICONTROL Dynamic Creative QA]** mit derselben Funktionalität. Die Analyse hängt von den ausgewählten Kreativen, Katalogen und Anfragen ab. Weitere Einstiegspunkte [ Sie unter „Qualitätsprüfung für dynamische Kreative aus Creative](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)Bibliotheken“.
+>Sie können dynamische Kreative aus [!UICONTROL Creative Studio] oder [!UICONTROL Creative Libraries] auf ihre Qualität überprüfen. Obwohl die Menübeschriftungen unterschiedlich sind, öffnen beide Einstiegspunkte denselben **[!UICONTROL Dynamic Creative QA]** mit derselben Funktionalität. Die Analyse hängt von den ausgewählten Kreativen, Katalogen und Anfragen ab. Weitere Einstiegspunkte [&#x200B; Sie unter „Qualitätsprüfung für dynamische Kreative aus Creative](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)Bibliotheken“.
 
 Der QA-Assistent ist für Kreative von dynamischen Displays verfügbar, nicht für Kreative von Standard- oder dynamischen Videos.
 
