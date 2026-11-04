@@ -3,13 +3,11 @@ role: User
 user-guide-title: Handbuch zu Advertising Creative
 user-guide-description: Erfahren Sie mehr über die wichtigsten Funktionen, Aufgaben, Einstellungen und andere Ressourcen, die für die Verwendung von Advertising Creative erforderlich sind.
 breadcrumb-title: Handbuch zu Creative
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 4%
-
 ---
-
 
 # Handbuch zu Advertising Creative 2.0 {#creative}
 
@@ -18,8 +16,8 @@ ht-degree: 4%
   + [Über Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [Anpassen von Datenansichten](/help/creative/introduction/customize-data-views.md)
   + [Workflows für dynamische Anzeigen](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
-  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=de){target="_blank"}
+  + [Unterstützung für den Datenschutz von Privatkund*innen](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Richtlinien und Richtlinien](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Über Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
   + [C2PA-Metadaten in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -40,7 +38,7 @@ ht-degree: 4%
       + [HTML5 Creative Specification](/help/creative/creative-libraries/html5-creative-specification.md)
     + Dynamische Kreative {#dynamic-creatives}
       + [Hinzufügen dynamischer Kreativer zu einer Kreativbibliothek](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [Dynamische Kreative bearbeiten](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [Dynamische Kreative bearbeiten und auf Qualität überprüfen](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [Dynamische kreative Einstellungen](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [Kreative in der Vorschau anzeigen](/help/creative/creative-libraries/creative-preview.md)
     + [Kreative an Bundles anhängen](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
@@ -103,4 +101,4 @@ ht-degree: 4%
 + [Retargeting von Pixeln](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Verfügbare Makros zum Tracking von URLs](/help/creative/creative-macros.md)
 + [Hilfe erhalten](/help/creative/get-help.md)
-+ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de){target="_blank"}
++ [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
