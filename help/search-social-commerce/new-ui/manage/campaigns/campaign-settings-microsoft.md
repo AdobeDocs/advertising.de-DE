@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Informationen zur Verfügbarkeit finden Sie in der Hilfe zu Microsoft Advertisin
 **[!UICONTROL Audience Signal]:** (Optional) [!DNL Microsoft Advertising] Zielgruppen, die als Zielgruppensignale für die Kampagne verwendet werden sollen. [!DNL Microsoft Advertising] Modelle für maschinelles Lernen verwenden die Zielgruppen, um ähnliche Websurfer zu finden, die als Ziel ausgewählt wurden, und können auch Anzeigen für Zielgruppen anzeigen, die nicht als Signale angegeben wurden, um Sie beim Erreichen Ihrer Leistungsziele zu unterstützen. Wählen Sie die Zielgruppen aus, die am ehesten konvertiert werden sollen.
 
 >[!NOTE]
->Zielgruppensignale unterscheiden sich von Zielgruppenzielen auf [Anzeigengruppenebene](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Zielgruppensignale unterscheiden sich von Zielgruppenzielen auf [Anzeigengruppenebene](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

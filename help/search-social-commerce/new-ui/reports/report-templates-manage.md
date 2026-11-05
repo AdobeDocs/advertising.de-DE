@@ -8,94 +8,96 @@ product_v2:
 feature_v2:
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: eb12699872b7c89240f5340cd3b0a251c9c08366
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '765'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Berichtsvorlagen verwalten
 
-Berichtsvorlagen sind vordefinierte Berichtslayouts, die Sie bei der Erstellung der meisten Berichte wiederverwenden können. Durch die Verwendung von Vorlagen sparen Sie Zeit, wenn Sie nicht standardmäßige Parameter verwenden oder Varianten desselben Berichts ausführen oder denselben Bericht nach einem regulären Zeitplan ausführen möchten. Gespeicherte Berichtsvorlagen sind über den Abschnitt Berichtsvorlagen auf der Seite Berichte verfügbar.
+Berichtsvorlagen sind vordefinierte Berichtslayouts, die Sie bei der Erstellung der meisten Berichte wiederverwenden können. Die Verwendung von Vorlagen spart Ihnen Zeit, wenn Sie nicht standardmäßige Parameter verwenden, Varianten desselben Berichts ausführen oder denselben Bericht nach einem regulären Zeitplan ausführen möchten. Gespeicherte Vorlagen sind auf der Registerkarte **[!UICONTROL Templates]** unter **[!UICONTROL Reports]>[!UICONTROL Reports]** verfügbar.
 
 Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
+Zum Anzeigen der Daten ist die Berechtigung [!UICONTROL View Scheduled Reports] erforderlich. Zum Erstellen, Duplizieren, Bearbeiten, Ausführen und Löschen von Vorlagen sowie zum Kopieren von Zeilendaten ist die Berechtigung [!UICONTROL Edit Scheduled Reports] erforderlich. Sie können nur von Ihnen erstellte Vorlagen bearbeiten.
+
 ## Verfügbare Aktionen
 
-* [Erstellen einer neuen Berichtsvorlage](#template-create) oder basierend auf einer vorhandenen Vorlage.
+* [Erstellen einer Berichtsvorlage](#template-create) als neue Vorlage oder basierend auf einer vorhandenen Vorlage.
+
+* [Anzeigen der Einstellungen einer Berichtsvorlage ohne Änderung des Originals](#template-view).
+
+* [Bearbeiten einer Berichtsvorlage](#template-edit) einschließlich ihres Zeitplans.
 
 * [Bei Bedarf Berichte für angegebene Vorlagen &#x200B;](#template-run).
 
 * [Löschen von Berichtsvorlagen](#template-delete).
 
-## Erstellen einer Berichtsvorlage {#template-create}
+* [Kopieren Sie alle Daten in ausgewählten Zeilen in die Zwischenablage](#copy-to-clipboard).
 
-<!-- Add xrefs to report procedures and settings once available -->
+## Erstellen einer Berichtsvorlage {#template-create}
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine Vorlage auf der Registerkarte [!UICONTROL Latest Reports] oder der Registerkarte [!UICONTROL Templates] von Grund auf neu zu erstellen, erstellen Sie einen Bericht und aktivieren Sie die **[!UICONTROL Save as Template]**.
+   * Um eine neue Vorlage zu erstellen, klicken Sie auf **[!UICONTROL Create Template]**. Wählen Sie im Bedienfeld **[!UICONTROL Create a New Template]** die Berichtskategorie und den Berichtstyp aus und klicken Sie dann auf **[!UICONTROL Proceed]**.
 
-   * So erstellen Sie eine Vorlage basierend auf einer vorhandenen Vorlage:
+   * Um eine Vorlage basierend auf einer vorhandenen Vorlage zu erstellen, halten Sie den Cursor über der Vorlagenzeile und klicken Sie entweder ![Vorlageneinstellungen](/help/search-social-commerce/assets/settings-new.png "Vorlageneinstellungen") **[!UICONTROL Template Settings]** oder **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
 
-     1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
+1. Geben Sie einen eindeutigen **[!UICONTROL Report Name]** für die Vorlage ein und stellen Sie sicher, dass **[!UICONTROL Save as Template]** aktiviert ist.
 
-     1. Führen Sie einen der folgenden Schritte aus:
+   Die Einstellung ist standardmäßig aktiviert, wenn Sie mit **[!UICONTROL Create Template]** beginnen. Wenn Sie sie deaktivieren, ändert sich die endgültige Aktion in **[!UICONTROL Run Report]**, wodurch ein Bericht generiert wird, anstatt eine Vorlage zu speichern.
 
-        * Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Duplicate]**.
+1. Konfigurieren Sie die Berichteinstellungen für [einfache und erweiterte Berichte](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md), [unterstützende Berichte](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md), [Modellgenauigkeitsberichte](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md) oder [Spezialberichte](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md).
 
-        * Aktivieren Sie das Kontrollkästchen neben der vorhandenen Vorlage. Klicken Sie in der Symbolleiste für Massenaktionen auf [Duplizieren](/help/search-social-commerce/assets/duplicate.png).
+   Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
 
-     1. (Optional) Benennen Sie die Vorlage um und bearbeiten Sie bei Bedarf die Berichteinstellungen.
-
-        Klicken Sie auf **[!UICONTROL Next]** , um zwischen den Einstellungsabschnitten zu wechseln.
-
-1. Aktivieren Sie die **[!UICONTROL Save as Template]**.
+1. (Optional) Um Berichte automatisch zu generieren, konfigurieren Sie die **[!UICONTROL Frequency]**- und Versandeinstellungen in **[!UICONTROL Scheduling]**.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-<!--
+Sie können eine Vorlage auch speichern, während Sie [Bericht auf der Registerkarte Letzte Berichte erstellen](/help/search-social-commerce/new-ui/reports/management/report-manage.md) indem Sie **[!UICONTROL Save as Template]** vor dem Senden der Berichteinstellungen aktivieren.
 
-Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
+## Einstellungen einer Berichtsvorlage anzeigen {#template-view}
 
-## Edit a report template {#template-edit}
+Um Einstellungen zu überprüfen, ohne die ursprüngliche Vorlage zu ändern, öffnen Sie ein Duplikat. Dies erfordert die Berechtigung [!UICONTROL Edit Scheduled Reports] . Das Öffnen des Duplikats speichert keine neue Vorlage.
 
-You can change the settings for any report template you created. The new settings are applied to any reports using the template that are generated in the future.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]**.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-1. Click the **[!UICONTROL Templates]** tab.
+1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf ![Vorlageneinstellungen](/help/search-social-commerce/assets/settings-new.png "Vorlageneinstellungen") **[!UICONTROL Template Settings]**.
 
-1. Click the template name.
+1. Überprüfen Sie die Berichteinstellungen.
 
-1. Change the report settings.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Cancel]** . Wenn Sie dazu aufgefordert werden, die Einrichtung zu verwerfen, klicken Sie auf **[!UICONTROL Discard]**.
 
-   >[!NOTE]
-   >
-   > When you edit the settings, you don't need to select the check box next to "[!UICONTROL Save as template]" in the [!UICONTROL Scheduling and Delivery] section. Doing so prompts you to create a new template with a different name.
+Um stattdessen eine Kopie zu speichern, folgen Sie dem [Verfahren zur Vorlagenerstellung](#template-create).
 
-1. Click **[!UICONTROL Update Template]**.
+## Bearbeiten einer Berichtsvorlage {#template-edit}
 
--->
+Sie können die Einstellungen und den Zeitplan jeder Vorlage ändern, die Sie erstellt haben. Die Änderungen gelten für Berichte, die in Zukunft aus der Vorlage generiert werden.
 
-<!--
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
-Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-## View a report template {#template-view}
+1. Aktivieren Sie das Kontrollkästchen neben einer von Ihnen erstellten Vorlage.
 
->[!NOTE]
->
->Adobe account manager and administrator users can view templates created by client and agency roles.
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]**.
+   [!UICONTROL Edit] ist nicht verfügbar, wenn mehrere Vorlagen ausgewählt sind oder die ausgewählte Vorlage von einem anderen Benutzer erstellt wurde.
 
-1. Click the **[!UICONTROL Templates]** tab.
+1. Ändern Sie die Berichteinstellungen. Um einen Zeitplan hinzuzufügen, zu ändern oder zu entfernen, bearbeiten Sie **[!UICONTROL Frequency]** in **[!UICONTROL Scheduling]**.
 
-1. Click the template name.
+   Wählen Sie eine tägliche, wöchentliche oder monatliche Häufigkeit für geplante Berichte aus. Um einen wiederkehrenden Zeitplan zu entfernen, klicken Sie auf **[!UICONTROL Now]**.
 
--->
+   **[!UICONTROL Save as Template]** und **[!UICONTROL Type]** sind beim Bearbeiten einer vorhandenen Vorlage schreibgeschützt. Sie müssen [!UICONTROL Save as Template] nicht erneut aktivieren.
+
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## On-Demand-Berichte für angegebene Vorlagen ausführen {#template-run}
 
@@ -109,7 +111,7 @@ Sie können jederzeit Berichte für eine oder mehrere Vorlagen ausführen.
 
    * (So führen Sie eine einzelne Vorlage aus):
 
-     1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Run]**.
+     1. Öffnen Sie das Menü der Vorlagenzeile und wählen Sie **[!UICONTROL Run]** aus.
 
      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
@@ -117,9 +119,11 @@ Sie können jederzeit Berichte für eine oder mehrere Vorlagen ausführen.
 
      1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie ausführen möchten.
 
-     1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Ausführen](/help/search-social-commerce/assets/run-new.png "Ausführen").
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Run]**.
 
      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+
+Sie können eine Vorlage auch beim Bearbeiten ausführen, indem Sie auf **[!UICONTROL Run Report]** und dann auf **[!UICONTROL Confirm]** klicken. Speichern Sie zuerst alle Änderungen. Mit dieser Aktion wird die gespeicherte Vorlage ausgeführt.
 
 ## Löschen von Berichtsvorlagen {#template-delete}
 
@@ -133,7 +137,7 @@ Sie können jede Berichtsvorlage löschen, die Ihnen zur Verfügung steht. Wenn 
 
    * (So löschen Sie eine einzelne Vorlage):
 
-     1. Halten Sie den Cursor über der Vorlagenzeile und klicken Sie auf **…** > **[!UICONTROL Delete]**.
+     1. Öffnen Sie das Menü der Vorlagenzeile und wählen Sie **[!UICONTROL Delete]** aus.
 
      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
@@ -141,6 +145,16 @@ Sie können jede Berichtsvorlage löschen, die Ihnen zur Verfügung steht. Wenn 
 
      1. Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie löschen möchten.
 
-     1. Klicken Sie in der Symbolleiste für Massenaktionen auf [Löschen](/help/search-social-commerce/assets/delete-new.png).
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete]**.
 
      1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+
+## Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren {#copy-to-clipboard}
+
+Kopieren Sie die sichtbaren Informationen in die ausgewählten Zeilen entsprechend den angewendeten Filtern und Spalten, die in der Ansicht sichtbar sind. Die Informationen werden als tabulatorgetrennte Werte (TSV) gespeichert.
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder Zeile, deren Daten Sie kopieren möchten.
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Copy]**.
+
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.

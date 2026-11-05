@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b0691683d8b9a02169920645c4220c3737cb9bd9
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1632'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Tabellenbericht-Feeds
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder E-Mail-Empfänger in der Berichtsvorlage eine Benachrichtigung, die auf den konfigurierten ([&#x200B; für Berichte) &#x200B;](/help/search-social-commerce/notifications/notification-about.md) Benutzereinstellungen basiert.
+Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder in den Kalkulationstabellen-Feed-Einstellungen angegebene E-Mail-Empfänger eine Benachrichtigung, die auf den konfigurierten [Benachrichtigungseinstellungen für Berichte“ des Benutzers &#x200B;](/help/search-social-commerce/notifications/notification-about.md).
 
 Sie können den Feed so konfigurieren, dass die Daten der letzten 90 Tage aktualisiert werden. Alle vorherigen vorhandenen Daten bleiben erhalten und werden weiterhin gesammelt.
 
-In der Ansicht [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] werden alle von Ihnen erstellten Tabellen-Feeds aufgelistet. In dieser Ansicht können Sie Tabellen-Feeds erstellen, einen Feed manuell aktualisieren oder löschen.
+In der Ansicht [!UICONTROL Reports] > [!UICONTROL Spreadsheet Feeds] werden alle von Ihnen erstellten Tabellen-Feeds aufgelistet. In dieser Ansicht können Sie Tabellen-Feeds erstellen, bearbeiten, manuell aktualisieren oder löschen, die Einstellungen der zugehörigen Berichtsvorlage anzeigen und ausgewählte Zeilendaten kopieren.
 
 ## Verfügbare Aktionen
 
@@ -33,17 +33,19 @@ In der Ansicht [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] werden all
 
 * [Bearbeiten von Tabellenbericht-Feed-Einstellungen](#spreadsheet-feed-edit)
 
+* [Anzeigen der Einstellungen der zugehörigen Berichtsvorlage](#spreadsheet-feed-view-template)
+
 * [Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei](#spreadsheet-feed-view-or-save)
 
 * [Tabellenbericht-Feeds manuell aktualisieren](#spreadsheet-feed-refresh)
 
 * [Tabellenbericht-Feeds löschen](#spreadsheet-feed-delete)
 
+* [Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren](#copy-to-clipboard)
+
 ## Erstellen einer [!DNL Excel] Vorlage für einen Tabellenbericht-Feed {#spreadsheet-feed-create-excel-template}
 
-<!-- Add x-refs when available -->
-
-Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL Microsoft Excel]-Kalkulationstabellenvorlagen mithilfe regulärer Berichtsvorlagen erstellen. Optional können Sie die [!DNL Excel] Tabelle anpassen, um zusätzliche Spalten und Diagramme einzuschließen.
+Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell formatierte [!DNL Microsoft Excel]-Kalkulationstabellenvorlagen mithilfe regulärer [Berichtsvorlagen](report-templates-manage.md) erstellen. Optional können Sie die [!DNL Excel] Tabelle anpassen, um zusätzliche Spalten und Diagramme einzuschließen.
 
 1. Generieren Sie in **[!UICONTROL Reports]>[!UICONTROL Reports]** den gewünschten Berichtstyp unter Verwendung einer [!UICONTROL Date Aggregation] Einheit von &quot;[!UICONTROL Daily]&quot; und mit allen anderen gewünschten Datenparametern und speichern Sie den Bericht als Vorlage.
 
@@ -98,7 +100,7 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
       >
       >Wenn die mit dem Feed verknüpfte Berichtsvorlage später gelöscht wird, wird der Feed ebenfalls gelöscht.
 
-      Die Tabellen-Feeds werden jeden Tag am konfigurierten [!UICONTROL Schedule Time] automatisch aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen beim Aktualisieren der Tabelle Benachrichtigungen.
+      Die Tabellen-Feeds werden jeden Tag am konfigurierten [!UICONTROL Schedule Time] automatisch aktualisiert. Die in der [!UICONTROL Email Recipients] des Feeds angegebenen Adressen erhalten Benachrichtigungen, wenn die Tabelle aktualisiert wird.
 
 ## Bearbeiten von Tabellenbericht-Feed-Einstellungen {#spreadsheet-feed-edit}
 
@@ -110,7 +112,7 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
 
    * (Optional) Um eine andere oder aktualisierte Berichtsvorlage für den Feed zu verwenden, [erstellen Sie eine neue  [!DNL Excel]  für die Berichtsvorlage](#spreadsheet-feed-create-excel-template).
 
-     Sie laden in den nächsten Schritten sowohl die Berichtsvorlage als auch die neue [!DNL Excel]-Datei hoch.
+     Sie wählen die Berichtsvorlage aus und laden die neue [!DNL Excel] in den nächsten Schritten hoch.
 
    * (Optional) Um der [!DNL Excel]-Vorlage einfach benutzerdefinierte Spalten hinzuzufügen, fügen Sie die Spalten rechts neben den Spalten aus der Berichtsvorlage ein und speichern Sie dann die Datei als [!DNL Excel] Kalkulationstabelle im .XLSX-Format. Sie müssen im nächsten Schritt die neue [!DNL Excel]-Datei hochladen.
 
@@ -122,7 +124,7 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
 
    1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-   1. Ändern Sie im Dialogfeld [!UICONTROL Create Spreadsheet Feed]<!-- sic --> die [Tabellenvorschub](#spreadsheet-feed-settings).
+   1. Ändern Sie im Dialogfeld **[!UICONTROL Edit Spreadsheet Feed]** die [Tabellenvorschub](#spreadsheet-feed-settings).
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 
@@ -132,20 +134,34 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
    >
    > Wenn die mit dem Feed verknüpfte Berichtsvorlage später gelöscht wird, wird der Feed ebenfalls gelöscht.
 
-   Tabellen-Feeds werden jeden Tag um 08:00 Uhr in der Zeitzone des Werbetreibenden automatisch aktualisiert. Wenn die Berichtsvorlage Adressen für E-Mail-Empfänger enthält, erhalten diese Adressen beim Aktualisieren der Tabelle Benachrichtigungen.
+   Tabellen-Feeds werden jeden Tag am konfigurierten [!UICONTROL Schedule Time] in der Zeitzone des Werbetreibenden automatisch aktualisiert. Die in der [!UICONTROL Email Recipients] des Feeds angegebenen Adressen erhalten Benachrichtigungen, wenn die Tabelle aktualisiert wird.
 
 ## Einstellungen für Tabellenbericht-Feeds {#spreadsheet-feed-settings}
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Feed Name] | Ein Name für den Tabellen-Feed. |
+| [!UICONTROL Feed Name] | Ein Name für den Tabellenvorschub mit maximal 120 Zeichen. |
 | [!UICONTROL Report Template] | Die Berichtsvorlage, die die erforderlichen Berichtsdaten angibt. Wählen Sie die Berichtsvorlage aus, die Sie zum Erstellen der [!DNL Excel] verwendet haben. Alle grundlegenden Berichtsvorlagen werden aufgelistet.<br><br><b>Hinweis:</b> Wenn Sie die für den Bericht verwendete Berichtsvorlage ändern oder die Spalten in der Vorlage aktualisieren, müssen Sie eine neue [!DNL Excel] erstellen und hochladen. |
-| [!UICONTROL Excel Template] | Die speziell formatierte [!DNL Excel], die Sie im .XLSX-Format erstellt haben und die auf die in der Berichtsvorlage angegebenen Daten angewendet wird. Geben Sie die hochzuladende Datei an, indem Sie entweder den vollständigen Pfad und Dateinamen eingeben oder auf <b>[!UICONTROL Browse]</b> klicken, um die Datei auf Ihrem Gerät oder Netzwerk zu suchen. |
-| [!UICONTROL Back Fill From] | Das Anfangsdatum, für das die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] aktualisiert werden, angegeben durch eine Anzahl von Tagen in der Vergangenheit. Geben Sie einen Wert von bis zu 90 Tagen ein. Der Standardwert ist sieben (7) Tage.<br><br>Wenn der Wert beispielsweise 7 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] ab dem 1. März aktualisiert (bis zu dem im Parameter [!UICONTROL Back Fill Until] angegebenen Enddatum). Vorhandene Datenzeilen für Daten vor dem 1. März werden nicht gelöscht, aber nicht aktualisiert. |
-| [!UICONTROL Back Fill Until] | Das Enddatum, für das die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] aktualisiert werden, was in der Vergangenheit durch eine Anzahl von Tagen dargestellt wurde. Der Standardwert ist ein (1) Tag.<br><br>Wenn dieser Wert beispielsweise 1 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] bis zum 6. März aktualisiert (und beginnen mit dem im Parameter [!UICONTROL Back Fill From] angegebenen Startdatum). Wenn dieser Wert 1 ist, der [!UICONTROL Back Fill Until] 7 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] vom 1. März bis zum 6. März aktualisiert. In beiden Beispielen werden vorhandene Datenzeilen für Daten nach dem 6. März nicht gelöscht, aber sie werden nicht aktualisiert. |
-| [!UICONTROL Email Recipients] | E-Mail-Adressen, an die Benachrichtigungen bei jeder Aktualisierung des Berichts gesendet werden sollen, oder bei jeder Ausführung des Berichts, wenn die Vorlage einen Zeitplan enthält. Standardmäßig wird die Adresse für Ihr Benutzerkonto eingegeben. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas, Leerzeichen oder neue Zeilen. |
-| [!UICONTROL Schedule Time] | Der Zeitpunkt, zu dem die Tabellen-Feeds aktualisiert werden: entweder um 08:00 Uhr oder zu einer beliebigen Stunde zwischen 10:00 und 23:00 Uhr in der Zeitzone des Werbetreibenden. Der Standardwert für neue Tabellen-Feeds ist 10:00.<br><br><b>Hinweis:</b> Aus Leistungsgründen können Sie Tabellen-Feeds nicht um 09:00 Uhr aktualisieren, wenn andere Berichte generiert werden. |
-| [!UICONTROL Email Notification] | (Wenn E-Mail-Empfänger angegeben sind) Was in E-Mail-Benachrichtigungen an bestimmte Adressen enthalten sein soll:<ul><li><i>[!UICONTROL Attach feed]</i> — Versand einer Kopie des ausgefüllten Berichts im XLSX-Format. Wenn die Datei größer als 10 MB ist, enthält die Benachrichtigung keine Anlage.</li><li><i>[!UICONTROL Notification Only]</i> (Standard) - Zum Senden nur einer Benachrichtigung über das Abschließen oder Fehlschlagen eines Berichts mit einem Link zum Bericht.</li></ul> |
+| [!UICONTROL Excel Template] | Die speziell formatierte [!DNL Excel], die Sie im .XLSX-Format erstellt haben und die auf die in der Berichtsvorlage angegebenen Daten angewendet wird. Klicken Sie auf <b>[!UICONTROL Choose file]</b> , um die hochzuladende Datei zu suchen. |
+| [!UICONTROL Back Fill From] | Das Anfangsdatum, für das die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] aktualisiert werden, angegeben durch eine Anzahl von Tagen in der Vergangenheit. Geben Sie einen Wert zwischen 1 und 90 ein, der größer als [!UICONTROL Back Fill Until] ist. Der Standardwert ist sieben (7) Tage.<br><br>Wenn der Wert beispielsweise 7 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] ab dem 1. März aktualisiert (bis zu dem im Parameter [!UICONTROL Back Fill Until] angegebenen Enddatum). Vorhandene Datenzeilen für Daten vor dem 1. März werden nicht gelöscht, aber nicht aktualisiert. |
+| [!UICONTROL Back Fill Until] | Das Enddatum, für das die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] aktualisiert werden, was in der Vergangenheit durch eine Anzahl von Tagen dargestellt wurde. Geben Sie einen Wert zwischen 1 und 90 ein, der kleiner als [!UICONTROL Back Fill From] ist. Der Standardwert ist ein (1) Tag.<br><br>Wenn dieser Wert beispielsweise 1 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] bis zum 6. März aktualisiert (und beginnen mit dem im Parameter [!UICONTROL Back Fill From] angegebenen Startdatum). Wenn dieser Wert 1 ist, der [!UICONTROL Back Fill From] 7 ist und heute der 7. März ist, werden die vorhandenen Daten auf der Registerkarte [!UICONTROL RAW] vom 1. März bis zum 6. März aktualisiert. In beiden Beispielen werden vorhandene Datenzeilen für Daten nach dem 6. März nicht gelöscht, aber sie werden nicht aktualisiert. |
+| [!UICONTROL Email Recipients] | E-Mail-Adressen, an die bei jeder Aktualisierung des Tabellen-Feeds Benachrichtigungen gesendet werden sollen. Standardmäßig wird die Adresse für Ihr Benutzerkonto eingegeben. Um mehrere Adressen anzugeben, trennen Sie sie durch Kommas, Leerzeichen oder neue Zeilen. |
+| [!UICONTROL Schedule Time] | Der Zeitpunkt, zu dem der Tabellen-Feed jeden Tag in der Zeitzone des Werbetreibenden aktualisiert wird. Uhrzeit aus den verfügbaren Optionen auswählen. Der Standardwert für neue Tabellen-Feeds ist 10:00. |
+| [!UICONTROL Email Notification] | Was in E-Mail-Benachrichtigungen an die angegebenen Adressen enthalten sein soll:<ul><li><i>[!UICONTROL Attach Feed (Max 10MB)]</i> — Versand einer Kopie des ausgefüllten Berichts im XLSX-Format. Wenn die Datei größer als 10 MB ist, enthält die Benachrichtigung keine Anlage.</li><li><i>[!UICONTROL Notification Only]</i> (Standard) - Zum Senden nur einer Benachrichtigung über das Abschließen oder Fehlschlagen eines Berichts mit einem Link zum Bericht.</li></ul> |
+
+## Anzeigen der Einstellungen der zugehörigen Berichtsvorlage {#spreadsheet-feed-view-template}
+
+Mit dem Zahnradsymbol **[!UICONTROL Template Settings]** wird ein Duplikat der Berichtsvorlage geöffnet, die mit dem Feed verknüpft ist. Das Öffnen des Duplikats speichert keine neue Vorlage und ändert auch nicht die zugehörige Vorlage des Feeds.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Klicken Sie auf das **[!UICONTROL Template Settings]** Zahnradsymbol neben dem Namen der zugehörigen Berichtsvorlage.
+
+1. Überprüfen Sie die Berichteinstellungen.
+
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Cancel]** . Wenn Sie dazu aufgefordert werden, die Einrichtung zu verwerfen, klicken Sie auf **[!UICONTROL Discard]**.
+
+Um die ursprüngliche Berichtsvorlage zu ändern, folgen Sie dem [Bearbeitungsvorgang für Berichtsvorlagen](report-templates-manage.md#template-edit). Um eine andere Vorlage für den Feed zu verwenden, [&#x200B; Sie die Einstellungen für den Tabellenfeed &#x200B;](#spreadsheet-feed-edit) und wählen Sie die Vorlage aus.
 
 ## Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei {#spreadsheet-feed-view-or-save}
 
@@ -159,7 +175,7 @@ Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speicher
 
 >[!NOTE]
 >
->Die Tabellen-Feeds werden täglich um 08:00 Uhr in der lokalen Zeitzone aktualisiert.
+>Tabellen-Feeds werden jeden Tag am konfigurierten [!UICONTROL Schedule Time] in der Zeitzone des Werbetreibenden automatisch aktualisiert.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
@@ -182,5 +198,17 @@ Sie können jeden generierten Tabellenfeed anzeigen oder in einer Datei speicher
 1. Aktivieren Sie das Kontrollkästchen neben jedem Feed, den Sie löschen möchten.
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Delete]**.
+
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+
+## Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren {#copy-to-clipboard}
+
+Kopieren Sie die sichtbaren Informationen in die ausgewählten Zeilen entsprechend den angewendeten Filtern und Spalten, die in der Ansicht sichtbar sind. Die Informationen werden als tabulatorgetrennte Werte (TSV) gespeichert.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben jeder Zeile, deren Daten Sie kopieren möchten.
+
+1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Copy]**.
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
