@@ -69,7 +69,7 @@ In der Hilfe zum Anzeigen-Netzwerk finden Sie die maximale Anzahl von Erweiterun
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-Nachdem Sie den Sitelink erstellt haben[ (verknüpfen Sie ihn mit einem Konto, einer Kampagne oder einer Anzeigengruppe](ad-extension-association-manage.md#sitelink-associate).
+Nachdem Sie den Sitelink erstellt haben[&#x200B; (verknüpfen Sie ihn mit einem Konto, einer Kampagne oder einer Anzeigengruppe](ad-extension-association-manage.md#sitelink-associate).
 
 ## Einstellungen für freigegebene Sitelinks bearbeiten {#sitelink-edit}
 
@@ -99,7 +99,7 @@ Sie können auch die **[!UICONTROL Base URL]** oder **[!UICONTROL Tracking Templ
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
-Wenn Sie eine Verknüpfung entfernen möchten, ohne den freigegebenen Sitelink aus der Bibliothek zu löschen, [ Sie stattdessen die Verknüpfung ](ad-extension-association-manage.md#association-delete).
+Wenn Sie eine Verknüpfung entfernen möchten, ohne den freigegebenen Sitelink aus der Bibliothek zu löschen, [&#x200B; Sie stattdessen die Verknüpfung &#x200B;](ad-extension-association-manage.md#association-delete).
 
 ## Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren {#copy-to-clipboard}
 
@@ -141,7 +141,7 @@ In dieser Ansicht müssen Werte, die für [!UICONTROL Base URL] und [!UICONTROL 
 
 * Wenn die Kampagneneinstellungen **[!UICONTROL EF Redirect]** und **[!UICONTROL Auto Upload]** enthalten, stellen Search, Social und Commerce beim Speichern des Datensatzes automatisch einen eigenen Umleitungs- und Trackingcode als Präfix voran.
 
-* Informationen zu Parametern, die die endgültige URL einbetten, finden Sie in der [Dokumentation zu Microsoft Advertising ](https://help.ads.microsoft.com/#apex/3/en/56799) den Parametern „Nur Tracking-Vorlage“ in der [Dokumentation zu Google Ads ValueTrack](https://support.google.com/google-ads/answer/6305348).
+* Informationen zu Parametern, die die endgültige URL einbetten, finden Sie in der [Dokumentation zu Microsoft Advertising &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) den Parametern „Nur Tracking-Vorlage“ in der [Dokumentation zu Google Ads ValueTrack](https://support.google.com/google-ads/answer/6305348).
 
 * Sie können URL-Parameter und benutzerdefinierte Parameter auf Kampagnenebene einbeziehen, die durch kaufmännische Und-Zeichen (`&`) und Umleitungen und Tracking von Drittanbietern getrennt sind.
 
