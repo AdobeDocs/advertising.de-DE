@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder in den Kalkulationstabellen-Feed-Einstellungen angegebene E-Mail-Empfänger eine Benachrichtigung, die auf den konfigurierten [Benachrichtigungseinstellungen für Berichte“ des Benutzers ](/help/search-social-commerce/notifications/notification-about.md).
+Tabellenfeeds liefern tägliche Leistungsdaten für alle Basisberichte und Modellgenauigkeitsberichte in einem benutzerdefinierten Tabellenformat in [!DNL Microsoft Excel] XLSX. Sie können Tabellen-Feeds mithilfe speziell formatierter [!DNL Excel]-Tabellenvorlagen einrichten, die Sie aus regulären Berichtsvorlagen erstellen. Jeden Tag wird die Tabelle zu einem bestimmten Zeitpunkt automatisch mit neuen Rohdaten aktualisiert, die täglich aggregiert werden. Mit den Rohdaten werden alle Spalten und Diagramme ausgefüllt, die Sie in die Tabellenvorlage aufgenommen haben. Sobald eine Kalkulationstabellen-Feed-Datei verfügbar ist oder die Dateigenerierung fehlschlägt, erhält jeder in den Kalkulationstabellen-Feed-Einstellungen angegebene E-Mail-Empfänger eine Benachrichtigung, die auf den konfigurierten [Benachrichtigungseinstellungen für Berichte“ des Benutzers &#x200B;](/help/search-social-commerce/notifications/notification-about.md).
 
 Sie können den Feed so konfigurieren, dass die Daten der letzten 90 Tage aktualisiert werden. Alle vorherigen vorhandenen Daten bleiben erhalten und werden weiterhin gesammelt.
 
@@ -90,7 +90,7 @@ Um Kalkulationstabellen-Feeds zu erstellen, müssen Sie zunächst speziell forma
 
    1. Klicken Sie oben rechts auf **[!UICONTROL Create Spreadsheet]**.
 
-   1. Geben Sie im Dialogfeld **[!UICONTROL Create Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ ](#spreadsheet-feed-settings).
+   1. Geben Sie im Dialogfeld **[!UICONTROL Create Spreadsheet Feed]** die [Tabellenvorschubeinstellungen“ &#x200B;](#spreadsheet-feed-settings).
 
    1. Klicken Sie auf **[!UICONTROL Submit]**.
 
@@ -161,7 +161,7 @@ Mit dem Zahnradsymbol **[!UICONTROL Template Settings]** wird ein Duplikat der B
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Cancel]** . Wenn Sie dazu aufgefordert werden, die Einrichtung zu verwerfen, klicken Sie auf **[!UICONTROL Discard]**.
 
-Um die ursprüngliche Berichtsvorlage zu ändern, folgen Sie dem [Bearbeitungsvorgang für Berichtsvorlagen](report-templates-manage.md#template-edit). Um eine andere Vorlage für den Feed zu verwenden, [ Sie die Einstellungen für den Tabellenfeed ](#spreadsheet-feed-edit) und wählen Sie die Vorlage aus.
+Um die ursprüngliche Berichtsvorlage zu ändern, folgen Sie dem [Bearbeitungsvorgang für Berichtsvorlagen](report-templates-manage.md#template-edit). Um eine andere Vorlage für den Feed zu verwenden, [&#x200B; Sie die Einstellungen für den Tabellenfeed &#x200B;](#spreadsheet-feed-edit) und wählen Sie die Vorlage aus.
 
 ## Anzeigen oder Speichern einer Tabellenbericht-Feed-Datei {#spreadsheet-feed-view-or-save}
 

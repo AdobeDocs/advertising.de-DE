@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-[!DNL Google Ads] Kampagnen und Anzeigengruppen sowie [!DNL Microsoft Advertising] Anzeigengruppen können bestimmte [ (Zielgruppen](audience-manage.md) aus demselben Anzeigennetzwerk ansprechen. Das Anzeigennetzwerk bestimmt, wie groß eine Zielgruppe sein muss, um anvisiert zu werden.
+[!DNL Google Ads] Kampagnen und Anzeigengruppen sowie [!DNL Microsoft Advertising] Anzeigengruppen können bestimmte [&#x200B; (Zielgruppen](audience-manage.md) aus demselben Anzeigennetzwerk ansprechen. Das Anzeigennetzwerk bestimmt, wie groß eine Zielgruppe sein muss, um anvisiert zu werden.
 
 Eine Audience-Zielgruppe verknüpft eine bestehende Audience mit einer Kampagne oder Anzeigengruppe. Sie können die Angebotsanpassung und den Status vorhandener Ziele bearbeiten.
 
