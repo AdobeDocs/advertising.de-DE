@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1396'
 ht-degree: 0%
 ---
 # Organisation der Benutzeroberfläche
@@ -87,35 +87,33 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
   * **[!UICONTROL Bulksheets]**: Öffnet eine neue [!UICONTROL Bulksheets].
 
-  * **[!UICONTROL Label Classification]** Öffnet eine neue [!UICONTROL Label Classifications]. Sie können Klassifizierungen verwalten und die Zuweisung von Klassifizierungswerten zu allen entsprechenden Kontokomponenten aufheben, die in der neuen Benutzeroberfläche verfügbar sind.
+  * **[!UICONTROL Label Classification]** Öffnet eine neue Ansicht zum Verwalten von Klassifizierungen und Zuweisen/Aufheben der Zuweisung von Klassifizierungswerten zu allen anwendbaren Kontokomponenten, die in der neuen Benutzeroberfläche verfügbar sind.
 
-  * **[!UICONTROL Manager Accounts]**: Öffnet eine neue Ansicht Ihrer bestehenden Manager-Konten und Ihrer Werbenetzwerke. Um Ihre Manager-Konten zu verwalten, verwenden Sie die Ansicht Legacy-[!UICONTROL Admin] > [!UICONTROL Manager Accounts] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Manager Accounts]**: Öffnet eine neue Ansicht zum Auflisten und Verwalten von Manager-Konten in Ihren Werbenetzwerken.
 
 * **[!UICONTROL Goals]** Untermenü:
 
-  * **[!UICONTROL Objectives]** Öffnet eine neue [!UICONTROL Objectives], in der Sie alle vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
+  * **[!UICONTROL Objectives]** Öffnet eine neue Ansicht, in der Sie alle Ihre vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
 
   * **[!UICONTROL Conversions]** Öffnet eine neue Ansicht, in der Sie die Konversionsmetriken eines Advertisers anzeigen und die Metriken anpassen können, die für Verwaltungsansichten und -berichte verfügbar sind.
 
-  * **[!UICONTROL Conversion Value Rules]** Öffnet eine neue Ansicht zum Anzeigen und Verwalten von Konversionswertregeln auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten.
+  * **[!UICONTROL Conversion Value Rules]** Öffnet eine neue Ansicht, in der Konversionswertregeln auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten aufgelistet und verwaltet werden können.
 
-  * **[!UICONTROL Constraints]** Öffnet eine schreibgeschützte Ansicht der vorhandenen Einschränkungen. Um Ihre Einschränkungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Optimization] > [!UICONTROL Constraints] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Constraints]** Öffnet eine neue Ansicht zum Auflisten und Verwalten von Angebotsbeschränkungen.
 
 * **[!UICONTROL Targeting]** Untermenü:
 
   * **[!UICONTROL Audiences]**: Öffnet eine neue Ansicht, in der alle vorhandenen Zielgruppen des Werbetreibenden, alle Zielgruppenziele und alle Zielgruppenausschlüsse angezeigt werden. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
-  * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der alle vorhandenen automatischen Targets für den Advertiser angezeigt werden. Um Ihre automatischen Ziele zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der automatische Targeting für den Advertiser aufgelistet und verwaltet werden.
 
-  * **[!UICONTROL Placements]** Öffnet eine neue [!UICONTROL Placements], die vorhandene Platzierungen und negative Platzierungen für den Werbetreibenden anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Platzierungen verwalten.
-
-    Um Platzierungen und negative Platzierungen zu erstellen, zu bearbeiten und zu löschen, verwenden Sie die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Placements]** Öffnet eine neue Ansicht, in der Sie Ihre Platzierungen und negativen Platzierungen für den Werbetreibenden auflisten und verwalten können.
 
 * **[!UICONTROL Library]** Untermenü:
 
-  * **[!UICONTROL Assets]** Öffnet eine neue Ansicht, in der Ihre vorhandenen Kreativ-Assets aufgelistet sind. Sie können jeden Kreativen in der Vorschau anzeigen. Um Ihre Asset-Bibliothek zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Asset Library] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Assets]** Öffnet eine neue Ansicht, in der Sie Ihre Kreativ-Assets auflisten und verwalten können.
 
-  * **[!UICONTROL Extensions]** Öffnet schreibgeschützte Ansichten Ihrer vorhandenen Anzeigenerweiterungen. Um Ihre Erweiterungen zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Extensions]** Öffnet eine neue Ansicht mit Registerkarten, um Ihre Callout-Erweiterungen, Sitelink-Erweiterungen und Verknüpfungen zwischen Ihren Anzeigenerweiterungen und Kontoentitäten aufzulisten und zu verwalten.
 
   * **[!UICONTROL Products]** Öffnet schreibgeschützte Ansichten Ihrer bestehenden Merchant Center-Konten und -Produkte. Um ein Merchant Center-Konto hinzuzufügen, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Products] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
