@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # Organisation der Benutzeroberfläche
@@ -103,9 +103,9 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
 * **[!UICONTROL Targeting]** Untermenü:
 
-  * **[!UICONTROL Audiences]**: Öffnet eine neue Ansicht, in der alle vorhandenen Zielgruppen des Werbetreibenden, alle Zielgruppenziele und alle Zielgruppenausschlüsse angezeigt werden. Um Ihre Audiences zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Audiences]**: Öffnet eine neue Ansicht zum Verwalten von Zielgruppen des Werbetreibenden, aller Zielgruppenziele und aller Zielgruppenausschlüsse.
 
-  * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der automatische Targeting für den Advertiser aufgelistet und verwaltet werden.
+  * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der alle vorhandenen automatischen Targets für den Advertiser angezeigt werden. Um Ihre automatischen Ziele zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
   * **[!UICONTROL Placements]** Öffnet eine neue Ansicht, in der Sie Ihre Platzierungen und negativen Platzierungen für den Werbetreibenden auflisten und verwalten können.
 
