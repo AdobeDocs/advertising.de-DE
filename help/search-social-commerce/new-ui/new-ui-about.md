@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 0c824f0b29ca5134c83a8d8d7107bd223fc3428f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 ---
 # Über die neue Benutzeroberfläche
 
-Über die neue Benutzeroberfläche können Sie jetzt Ihre Ziele, Simulationen und Portfolios verwalten und die meisten anderen wichtigen Aufgaben ausführen. Die neue Benutzeroberfläche für Search, Social und Commerce wird unter einer neuen URL innerhalb der `https://experience.adobe.com` Domain ausgeführt.
+Die meisten Aufgaben können jetzt über die neue Benutzeroberfläche ausgeführt werden. Die neue Benutzeroberfläche für Search, Social und Commerce wird unter einer neuen URL innerhalb der `https://experience.adobe.com` Domain ausgeführt.
 
-Im Laufe der Zeit werden die verbleibenden Funktionen zur neuen Benutzeroberfläche hinzugefügt. In der Zwischenzeit können Sie die meisten Funktionen in der alten Benutzeroberfläche über das Hauptmenü in der neuen Benutzeroberfläche öffnen. Sie können auch einfach zwischen der neuen Benutzeroberfläche und der veralteten Benutzeroberfläche wechseln.
+Im Laufe der Zeit werden die letzten verbleibenden Funktionen zur neuen Benutzeroberfläche hinzugefügt. In der Zwischenzeit können Sie Funktionen in der alten Benutzeroberfläche über das Hauptmenü in der neuen Benutzeroberfläche öffnen. Sie können auch einfach zwischen der neuen Benutzeroberfläche und der veralteten Benutzeroberfläche wechseln.
 
 Weitere Informationen zur Organisation der neuen Benutzeroberfläche finden Sie unter [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md).
 
