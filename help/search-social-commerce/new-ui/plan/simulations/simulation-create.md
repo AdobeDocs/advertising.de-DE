@@ -23,50 +23,40 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '530'
 ht-degree: 0%
 ---
 # Benutzerdefinierte Simulation ausführen oder erneut ausführen
 
 *Beta-Funktion*
 
-Sie können eine benutzerdefinierte Simulation für ein (optimiertes [&#x200B; aktives) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) erstellen. Sie können auch die Parameter einer vorhandenen Simulation ändern und die Simulation neu generieren oder eine vorhandene Simulation mit den vorhandenen Parametern erneut ausführen.
+Sie können eine benutzerdefinierte Simulation für ein (optimiertes [ aktives) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status) erstellen. Sie können auch eine Simulation in der Liste auswählen, um eine neue Simulation für dasselbe Portfolio auszuführen, oder Simulationen mit ihren vorhandenen Einstellungen erneut ausführen.
+
+Zum Erstellen einer benutzerdefinierten Simulation ist die Berechtigung [!UICONTROL Create Simulation] erforderlich. Für die Auswahl eines Portfolios ist die Berechtigung [!UICONTROL View Portfolios] erforderlich.
 
 <!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
 
 [!UICONTROL Admin] und [!UICONTROL Account Manager] Benutzer können Simulationen sehen, die von anderen Benutzern erstellt wurden. Alle anderen Benutzer können nur die von ihnen erstellten benutzerdefinierten Simulationen sehen.
 
-## Erstellen einer neuen Simulation
+## Erstellen einer neuen Simulation {#simulation-create}
 
-1. Führen Sie einen der folgenden Schritte aus:
+Sie können von der [!UICONTROL Simulations] aus starten oder [eine benutzerdefinierte Simulation von der [!UICONTROL Portfolios] aus ausführen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#run-simulation).
 
-* In der [!UICONTROL Simulations]:
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-  1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+1. Deaktivieren Sie alle ausgewählten Simulationszeilen, und klicken Sie dann auf **[!UICONTROL Run Simulation]**.
 
-  1. Klicken Sie über der Datentabelle auf **[!UICONTROL Run Simulation]**.
+1. Portfolio auswählen:
 
-  1. Portfolio auswählen:
+   1. Klicken Sie auf **[!UICONTROL Select Portfolio]**.
 
-     1. Klicken Sie auf **[!UICONTROL Select Portfolio]**.
+   1. Portfolio auswählen.
 
-     1. Portfolio auswählen.
+      Um nach Portfolios zu suchen, die eine bestimmte Textzeichenfolge enthalten, geben Sie die Textzeichenfolge innerhalb des Suchfelds ein. Bei Werten wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-        Um nach Portfolios zu suchen, die eine bestimmte Textzeichenfolge enthalten, geben Sie die Textzeichenfolge innerhalb des Suchfelds ein. Bei Werten wird nicht zwischen Groß- und Kleinschreibung unterschieden.
-
-     1. Klicken Sie auf **[!UICONTROL Proceed]**.
-
-* In der [!UICONTROL Portfolios]:
-
-  1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
-
-  1. Führen Sie einen der folgenden Schritte aus:
-
-     * Halten Sie den Cursor über der Portfoliozeile. Klicken Sie neben dem Portfolionamen auf **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
-
-     * Aktivieren Sie das Kontrollkästchen neben dem Portfolio. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Run Simulation]**.
+   1. Klicken Sie auf **[!UICONTROL Proceed]**.
 
 1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](#custom-simulation-settings) an:
 
@@ -88,41 +78,35 @@ Sie können eine benutzerdefinierte Simulation für ein (optimiertes [&#x200B; a
 
 1. Klicken Sie auf **[!UICONTROL Submit & Run]**.
 
-Wenn der Simulationsbericht verfügbar ist, erhalten Sie und alle anderen angegebenen E-Mail-Empfänger eine Benachrichtigung mit einem Link, um die Daten in einer ZIP-Datei herunterzuladen, die eine Arbeitsmappe (XLSX-Datei) enthält.
+Die Anfrage wird gesendet und die [!UICONTROL Simulations] geöffnet. Wenn der Simulationsbericht verfügbar ist, erhalten Sie und alle anderen angegebenen E-Mail-Empfänger eine Benachrichtigung mit einem Download-Link. Sie können auch [die Simulation aus der [!UICONTROL Simulations] herunterladen](simulation-download.md).
 
 <!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
-## Simulation mit den vorhandenen Einstellungen erneut ausführen
+## Simulation mit den vorhandenen Einstellungen erneut ausführen {#rerun-a-simulation-with-the-existing-settings}
 
-Sie können Simulationen, die derzeit nicht in der Warteschlange sind, erneut ausführen.
+Sie können bis zu 10 Simulationen gleichzeitig mit ihren vorhandenen Einstellungen erneut ausführen. Simulationen mit dem Status [!UICONTROL Queued] oder [!UICONTROL In Progress] können nicht erneut ausgeführt werden. Wenn Ihre Auswahl diese Simulationen enthält, werden sie übersprungen und die verbleibenden Simulationen werden gesendet.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
 1. Aktivieren Sie die Kontrollkästchen neben den Simulationen, die Sie erneut ausführen möchten.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Rerun](/help/search-social-commerce/assets/rerun.png "Rerun").
+1. Klicken Sie in der Symbolleiste über der Datentabelle oder in der Symbolleiste für Massenaktionen auf **[!UICONTROL Re-Run Simulation]**.
 
-## Bearbeiten Sie die Einstellungen für eine vorhandene Simulation und führen Sie sie erneut aus
+Die Anfrage wird gesendet und die Ansicht wird aktualisiert.
+
+## Neue Simulation für ein Portfolio in der Liste ausführen {#edit-the-settings-for-an-existing-simulation-and-rerun-it}
+
+Wenn Sie eine Simulation vor dem Klicken auswählen, [!UICONTROL Run Simulation] wird ihr Portfolio für eine neue Simulation ausgewählt. Das Formular verwendet die aktuellen Einstellungen des Portfolios, nicht die Einstellungen der ausgewählten Simulation. Mit dieser Aktion wird die vorhandene Simulation nicht bearbeitet.
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben der Simulation, um sie neu zu generieren.
+1. Aktivieren Sie das Kontrollkästchen neben einer Simulation für das Portfolio, das Sie verwenden möchten.
+
+   Wenn Sie mehrere Simulationen auswählen, müssen diese alle dasselbe Portfolio verwenden. Das Portfolio muss aktiv oder optimiert sein.
 
 1. Klicken Sie über der Datentabelle auf **[!UICONTROL Run Simulation]**.
 
-1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](#custom-simulation-settings) an:
-
-   1. (Optional) Um das für die Simulation verwendete Portfolio zu ändern, klicken Sie **[!UICONTROL Change Portfolio]** neben dem Portfolionamen, wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Proceed]**.
-
-   1. Auf der Registerkarte [!UICONTROL Basic Settings] :
-
-      1. Eindeutige **[!UICONTROL Simulation Name]** eingeben.
-
-      1. (Optional) Ändern Sie die grundlegenden Parameter für die Simulation.
-
-   1. (Optional) Ändern Sie auf der Registerkarte [!UICONTROL Advanced Settings] die erweiterten Parameter für die Simulation.
-
-   Die vorhandenen Parameter für das ausgewählte Portfolio werden standardmäßig angegeben. Wenn Sie die Werte ändern, werden die Ergebnisse angezeigt, die verschiedene Parameter erzeugen würden, ohne die vorhandenen Parameter des Portfolios zu ändern.
+1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](#custom-simulation-settings) einschließlich eines eindeutigen **[!UICONTROL Simulation Name]** an. Ändern Sie die Parameter auf den Registerkarten **[!UICONTROL Basic Settings]** und **[!UICONTROL Advanced Settings]** nach Bedarf.
 
 1. Klicken Sie auf **[!UICONTROL Next]**.
 
@@ -130,9 +114,7 @@ Sie können Simulationen, die derzeit nicht in der Warteschlange sind, erneut au
 
 1. Klicken Sie auf **[!UICONTROL Submit & Run]**.
 
-Wenn der Simulationsbericht verfügbar ist, erhalten Sie und alle anderen angegebenen E-Mail-Empfänger eine Benachrichtigung mit einem Link, um die Daten in einer ZIP-Datei herunterzuladen, die eine Arbeitsmappe (XLSX-Datei) enthält.
-
-<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
+Die Anfrage wird gesendet und die [!UICONTROL Simulations] geöffnet. Sie können [die Simulation herunterladen](simulation-download.md) nachdem sie erfolgreich abgeschlossen wurde.
 
 ## Benutzerdefinierte Simulationseinstellungen {#custom-simulation-settings}
 

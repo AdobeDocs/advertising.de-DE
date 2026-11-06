@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # Erstellen einer Berichtsvorlage
 
-Sie können mehrere Berichtsvorlagen für jede Art von Leistungsbericht speichern. Sie können eine Vorlage von Grund auf neu erstellen oder sie auf einer vorhandenen Vorlage basieren. Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
+Sie können mehrere Berichtsvorlagen für jede Art von Leistungsbericht speichern. Sie können eine Vorlage mit neuen Einstellungen erstellen oder sie auf einer vorhandenen Vorlage basieren. Sie können bis zu 100 Vorlagen gleichzeitig verwalten.
 
-* Führen Sie einen der folgenden Schritte aus, um eine neue Vorlage zu erstellen:
+* Um eine Vorlage mit neuen Einstellungen zu erstellen, führen Sie einen der folgenden Schritte aus:
 
   * Erstellen Sie auf der Registerkarte [!UICONTROL Reports] einen Bericht, indem Sie das Kontrollkästchen neben **[!UICONTROL Save as template]** aktivieren, das neben dem Berichtsnamen steht.
 

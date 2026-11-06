@@ -21,14 +21,16 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '133'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Bearbeiten eines Ziels
 
 *Beta-Funktion*
+
+Wenn Sie ein neues Ziel mit denselben Einstellungen erstellen möchten, ohne das Original zu bearbeiten, [ Sie das Ziel ](objective-create.md#objective-duplicate).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    * Um das Ziel zu speichern, klicken Sie auf **[!UICONTROL Save]**.
 
-   * Um ein neues Ziel mit den angegebenen Einstellungen zu erstellen, klicken Sie auf **[!UICONTROL Save As]**, geben Sie den Namen des neuen Ziels ein und klicken Sie dann auf **[!UICONTROL Save]**.
+   * Um ein neues Ziel mit den angegebenen Einstellungen zu erstellen, ohne das Original zu ändern, klicken Sie auf **[!UICONTROL Save as]**, geben Sie den Namen des neuen Ziels ein, und klicken Sie dann auf **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

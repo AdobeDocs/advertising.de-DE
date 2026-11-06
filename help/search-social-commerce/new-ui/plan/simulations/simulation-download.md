@@ -1,6 +1,6 @@
 ---
 title: Simulationen herunterladen
-description: Erfahren Sie, wie Sie Simulationen in einer Tabellenkalkulationsdatei herunterladen.
+description: Erfahren Sie, wie Sie Simulationen als einzelne oder kombinierte Tabellenkalkulationsdateien herunterladen.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '242'
 ht-degree: 0%
 ---
 # Simulationen herunterladen
@@ -40,20 +40,31 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Sie können die Daten für mehrere Simulationen gleichzeitig in eine Datei im ZIP-Format herunterladen. Die Datei enthält eine [!DNL Microsoft Excel] Arbeitsmappe (XLSX-Datei) für jede ausgewählte Simulation.
+Sie können bis zu 10 wöchentliche oder benutzerdefinierte Simulationen gleichzeitig aus der [!UICONTROL Simulations] herunterladen. Eine einzelne Simulation wird als [!DNL Microsoft Excel] Arbeitsmappe (XLSX-Datei) heruntergeladen. Bei mehreren Simulationen können Sie eine kombinierte Arbeitsmappe oder eine ZIP-Datei herunterladen, die eine separate Arbeitsmappe für jede Simulation enthält.
+
+Das Herunterladen von Simulationen erfordert Zugriff auf die [!UICONTROL Simulations] mit der Berechtigung [!UICONTROL View Simulation] .
 
 >[!NOTE]
 >
 >* Sie können auch [die Simulationsergebnisse auf dem Bildschirm anzeigen](simulation-view.md).
->* Sie können [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden [&#x200B; Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
+>* Sie können [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden Sie [ Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
+>* Sie können auch [wöchentliche Simulationen für bis zu 100 Portfolios aus der [!UICONTROL Portfolios] herunterladen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-1. Aktivieren Sie die Kontrollkästchen neben den Simulationen, die Sie herunterladen möchten.
+1. Aktivieren Sie die Kontrollkästchen neben bis zu 10 Simulationen, die Sie herunterladen möchten.
 
-1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") **[!UICONTROL Simulation Report]**.
+   Wählen Sie nur Simulationen mit dem Status [!UICONTROL Successful] aus. Wenn eine der ausgewählten Simulationen den Status [!UICONTROL Failed], [!UICONTROL Queued] oder [!UICONTROL In Progress] hat, wird kein Download gestartet. Löschen Sie diese Auswahlen vor dem Herunterladen.
 
-   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen. Entpacken Sie die ZIP-Datei, um die Simulationen anzuzeigen.
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Download Simulation]**.
+
+1. (Wenn mehrere Simulationen ausgewählt sind) Wählen Sie eine Download-Option:
+
+   * **[!UICONTROL Download as Single File]**: Laden Sie eine Arbeitsmappe herunter, die alle ausgewählten Simulationen enthält.
+
+   * **[!UICONTROL Download as Multiple Files]**: Laden Sie eine ZIP-Datei herunter, die für jede ausgewählte Simulation eine separate Arbeitsmappe enthält.
+
+Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen. Wenn Sie eine ZIP-Datei herunterladen, dekomprimieren Sie sie, um die Arbeitsmappen anzuzeigen.
 
 >[!MORELIKETHIS]
 >
