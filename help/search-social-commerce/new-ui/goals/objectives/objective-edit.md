@@ -30,7 +30,7 @@ ht-degree: 0%
 
 *Beta-Funktion*
 
-Wenn Sie ein neues Ziel mit denselben Einstellungen erstellen möchten, ohne das Original zu bearbeiten, [ Sie das Ziel ](objective-create.md#objective-duplicate).
+Wenn Sie ein neues Ziel mit denselben Einstellungen erstellen möchten, ohne das Original zu bearbeiten, [&#x200B; Sie das Ziel &#x200B;](objective-create.md#objective-duplicate).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 

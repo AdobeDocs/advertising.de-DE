@@ -47,7 +47,7 @@ Das Herunterladen von Simulationen erfordert Zugriff auf die [!UICONTROL Simulat
 >[!NOTE]
 >
 >* Sie können auch [die Simulationsergebnisse auf dem Bildschirm anzeigen](simulation-view.md).
->* Sie können [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden Sie [ Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
+>* Sie können [die [!UICONTROL Simulations]-Ansicht anpassen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) um Spalten für viele zusätzliche Metriken und die meisten Simulationseinstellungen einzuschließen. Weitere Informationen zu den Spalten, die Sie einbeziehen können, finden Sie [&#x200B; Abschnitt „Verfügbare Aktionen](simulation-about.md#simulations-actions) in „Über Simulationen“.
 >* Sie können auch [wöchentliche Simulationen für bis zu 100 Portfolios aus der [!UICONTROL Portfolios] herunterladen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations).
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Plan]>[!UICONTROL Simulations]**.

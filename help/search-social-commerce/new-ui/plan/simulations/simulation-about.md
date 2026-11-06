@@ -49,7 +49,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ### Automatisierte wöchentliche Simulationen
 
-Search, Social und Commerce führen Simulationsberichte unter Verwendung der aktuellen Portfolioeinstellungen automatisch wöchentlich aus. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([ oder aktiv) ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+Search, Social und Commerce führen Simulationsberichte unter Verwendung der aktuellen Portfolioeinstellungen automatisch wöchentlich aus. Automatisierte wöchentliche Simulationen sind nur für Zeiträume verfügbar, in denen das Portfolio ([&#x200B; oder aktiv) &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
 Sie können [wöchentliche Simulationen für bis zu 100 Portfolios für ein ausgewähltes Ausführungsdatum aus der [!UICONTROL Portfolios] Ansicht herunterladen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations) oder [einzelne Simulationen aus der [!UICONTROL Simulations] Ansicht herunterladen](simulation-download.md).
 
@@ -59,7 +59,7 @@ Sie können wöchentliche Simulationen als einzelne Arbeitsmappen herunterladen 
 
 #### Wöchentliche Simulationsdetails auf dem Bildschirm
 
-Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation &#x200B;](simulation-download.md).
 
 ##### Diagrammansicht
 
@@ -91,7 +91,7 @@ Sie können benutzerdefinierte Simulationen als einzelne Arbeitsmappen herunterl
 
 #### Benutzerdefinierte Simulationsdetails auf dem Bildschirm
 
-Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation ](simulation-download.md).
+Simulationsdetails auf dem Bildschirm zeigen visuelle und tabellarische Einblicke auf Portfolioebene. Für Daten nach Kampagne, Anzeigengruppen, Gebotseinheiten oder Gerät [laden Sie stattdessen die Simulation &#x200B;](simulation-download.md).
 
 #### Diagrammansicht
 
@@ -121,15 +121,15 @@ Die Datentabelle zeigt den Fortschritt jeder Simulation an, die [!UICONTROL Targ
 
 ### Verfügbare Aktionen {#simulations-actions}
 
-* [Passen Sie die Ansicht ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
+* [Passen Sie die Ansicht &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md), um zusätzliche Metriken einzuschließen, einschließlich der geschätzten Impressions, der tatsächlichen Kosten, Klicks, Impressions und Zielwert, des Kosten-Ziel-Werts, der Kostengenauigkeit, der Klickgenauigkeit und der Zielwertgenauigkeit sowie der Differenz (Delta) zwischen dem prognostizierten und dem tatsächlichen Zielwert und dem Kosten-Ziel-Wert. Sie können auch Spalten für die meisten Simulationseinstellungen und den Simulationstyp ([!UICONTROL Custom] oder [!UICONTROL Weekly]) einbeziehen.
 
 * [Erstellen einer benutzerdefinierten Simulation](simulation-create.md#simulation-create) für ein einzelnes Portfolio, wobei die aktuellen Einstellungen des Portfolios als Standardeinstellungen verwendet werden.
 
-* [Führen Sie bis zu 10 Simulationen mit den vorhandenen Einstellungen erneut ](simulation-create.md#rerun-a-simulation-with-the-existing-settings). Suche, Social und Commerce überspringen Simulationen mit dem Status [!UICONTROL Queued] oder [!UICONTROL In Progress].
+* [Führen Sie bis zu 10 Simulationen mit den vorhandenen Einstellungen erneut &#x200B;](simulation-create.md#rerun-a-simulation-with-the-existing-settings). Suche, Social und Commerce überspringen Simulationen mit dem Status [!UICONTROL Queued] oder [!UICONTROL In Progress].
 
-* [Zeigen Sie eine wöchentliche oder benutzerdefinierte Simulation auf dem Bildschirm ](simulation-view.md).
+* [Zeigen Sie eine wöchentliche oder benutzerdefinierte Simulation auf dem Bildschirm &#x200B;](simulation-view.md).
 
-* [Herunterladen von bis zu 10 wöchentlichen und benutzerdefinierten ](simulation-download.md) als einzelne [!DNL Microsoft Excel] oder als separate Arbeitsmappen in einer ZIP-Datei.
+* [Herunterladen von bis zu 10 wöchentlichen und benutzerdefinierten &#x200B;](simulation-download.md) als einzelne [!DNL Microsoft Excel] oder als separate Arbeitsmappen in einer ZIP-Datei.
 
 * Öffnen Sie über die Schaltfläche [!UICONTROL Spend Planner] das Tool für alte Ausgabenempfehlungen, mit dem Sie die optimale Ausgabenverteilung auf die Portfolios ermitteln können.
 
