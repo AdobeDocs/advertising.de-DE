@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # Verwalten von Anzeigenvorlagen für Inventar-Feeds
@@ -26,7 +26,7 @@ Vor oder nach dem Hochladen von Daten können Sie suchmaschinenspezifische Anzei
 
 Sie können jede Vorlage mit einer Feed-Datei, [!DNL Google Merchant Center] Konto oder [!DNL Microsoft Merchant Center] Konto verknüpfen und mehrere Vorlagen mit derselben Feed-Datei oder demselben Konto verknüpfen. Eine Anzeigenvorlage kann Variablen enthalten, die durch tatsächliche Datenspalten aus einer hochgeladenen Datei oder einem Konto ersetzt werden. In den meisten Fällen können die Variablen auch [eine Modifikatorgruppe](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) enthalten, die Sie in „Suche“, „Social“ und &quot;Commerce&quot; einrichten, um mehrere Anzeigen, Keywords, Kampagnen oder Anzeigengruppen für jede anwendbare Zeile in der Datendatei zu erstellen. Mit den Vorlagenoptionen können Sie entweder eine neue Kontostruktur (Kampagnen, Anzeigengruppen, Keywords) für die Anzeigen erstellen oder die Anzeigen der vorhandenen Kontostruktur zuordnen.
 
-Zusätzlich zur Erstellung neuer Vorlagen von Grund auf können Sie optional neue Vorlagen erstellen, indem Sie vorhandene klonen und bearbeiten.
+Zusätzlich zur Erstellung von Vorlagen mit neuen Einstellungen können Sie optional neue Vorlagen erstellen, indem Sie vorhandene klonen und bearbeiten.
 
 Nachdem Sie eine Vorlage erstellt und mit einer Daten-Feed-Datei oder einem Händlerkonto verknüpft haben, können Sie die Daten in der Datei über die Vorlage weitergeben, um Kampagnendaten und Kontostruktur zu erstellen. Optional können Sie eine Bulksheet-Datei zur Überprüfung oder zur sofortigen Veröffentlichung im Werbenetzwerk erstellen.
 
@@ -40,7 +40,7 @@ Erstellen Sie separate Vorlagen für Text- und erweiterte/erweiterte Textanzeige
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine neue Vorlage zu erstellen, klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create/Clone]** und wählen Sie dann das entsprechende Anzeigennetzwerk aus.
+   * Um eine Vorlage mit neuen Einstellungen zu erstellen, klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create/Clone]** und wählen Sie dann das entsprechende Anzeigennetzwerk aus.
 
    * So klonen Sie eine vorhandene Vorlage:
 

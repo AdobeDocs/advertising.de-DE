@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Über Portfolios
@@ -110,6 +110,8 @@ In der [!UICONTROL Portfolios] werden alle vorhandenen Portfolios in der gefilte
 * [Anzeigen eines Leistungsdiagramms für alle Portfolios in der Ansicht](portfolio-view-performance-graph.md)
 
 * [Anzeigen von Portfolioleistungsdetails](portfolio-details.md)
+
+* [Benutzerdefinierte Simulation ausführen oder wöchentliche Simulationen herunterladen](portfolio-create-simulation.md)
 
 * [Anzeigen des Änderungsverlaufs eines Portfolios](portfolio-view-change-history.md)
 

@@ -1,6 +1,6 @@
 ---
 title: (Neue Benutzeroberfläche) Erstellen eines Ziels
-description: Erfahren Sie, wie Sie ein Ziel erstellen.
+description: Erfahren Sie, wie Sie ein Ziel erstellen oder ein vorhandenes Ziel duplizieren.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '319'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Erstellen eines Ziels
@@ -41,6 +41,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Sie können ein Ziel mit einem Portfolio verknüpfen, wenn Sie [das Portfolio erstellen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md) oder indem Sie [die Portfolioeinstellungen ändern](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md). Sie können dasselbe Ziel für mehrere Portfolios verwenden.
+
+## Erstellen eines Ziels
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
@@ -55,6 +57,32 @@ Anweisungen finden Sie in der Hilfe innerhalb der Benutzeroberfläche oder im Op
 1. Klicken Sie unten in den Einstellungen auf **[!UICONTROL Save]**.
 
 Ziele mit dem Präfix &quot;`ADSP_`&quot; (nicht unter Berücksichtigung der Groß- und Kleinschreibung) für die Verwendung mit Advertising DSP-Paketen sind innerhalb von zwei Tagen als benutzerdefinierte Ziele in DSP verfügbar.
+
+## Duplizieren eines Ziels {#objective-duplicate}
+
+Duplizieren Sie ein Ziel, um ein neues Ziel mit denselben Einstellungen zu erstellen. Optional können Sie den Standardnamen für das neue Ziel ändern und die Zieleinstellungen nach Bedarf bearbeiten. Das ursprüngliche Ziel bleibt unverändert.
+
+Das Duplizieren eines Ziels erfordert die Berechtigung [!UICONTROL Edit Objectives] . Das [!UICONTROL Maximize Clicks] kann nicht dupliziert werden.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Halten Sie den Cursor über der Zielzeile und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Aktivieren Sie das Kontrollkästchen neben dem Ziel. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Duplizieren](/help/search-social-commerce/assets/duplicate.png "Duplizieren") **[!UICONTROL Duplicate]**.
+
+     [!UICONTROL Duplicate] ist nicht verfügbar, wenn mehrere Ziele ausgewählt sind.
+
+1. Bearbeiten Sie die Zieleinstellungen.
+
+   Standardmäßig ist der neue Zielname `<original objective name>_Copy`, z. B. „Revenue_Copy“. Wenn der ursprüngliche Name bereits auf `_Copy` endet, enthält der neue Name einen Zähler, z. B. „Revenue_Copy(1)“. Wenn der vorgeschlagene Name bereits vorhanden ist, geben Sie einen eindeutigen **[!UICONTROL Name]** ein.
+
+   Anweisungen finden Sie in der Hilfe innerhalb der Benutzeroberfläche oder im Optimierungshandbuch, das von Search, Social und Commerce verfügbar ist.
+
+1. Klicken Sie auf **[!UICONTROL Save]**.
+
+   Wenn ein Warndialogfeld angezeigt wird, überprüfen Sie die Warnung und klicken Sie auf **[!UICONTROL Save]** , um fortzufahren.
 
 >[!MORELIKETHIS]
 >
