@@ -42,7 +42,7 @@ Die folgenden Spalten zeigen Details zum Kontostatus, zur Authentifizierung und 
 
   * **[!UICONTROL Not Applicable]: Die**-Authentifizierung wird nicht angewendet, da Sie Daten für das Konto hochladen, anstatt eine Verbindung über eine API herzustellen.
 
-  * **[!UICONTROL Expiring in N days]**, **[!UICONTROL Expiring today]** oder **[!UICONTROL Expired]:** Eine Token-Ablaufwarnung ersetzt **[!UICONTROL Yes]**, wenn Ablaufinformationen verfügbar sind und das Token in 14 Tagen oder weniger abläuft oder bereits abgelaufen ist. Klicken Sie auf das Warnsymbol, um die Zugriffsdetails des Kontos anzuzeigen und sich [ authentifizieren](#reauthenticate).
+  * **[!UICONTROL Expiring in N days]**, **[!UICONTROL Expiring today]** oder **[!UICONTROL Expired]:** Eine Token-Ablaufwarnung ersetzt **[!UICONTROL Yes]**, wenn Ablaufinformationen verfügbar sind und das Token in 14 Tagen oder weniger abläuft oder bereits abgelaufen ist. Klicken Sie auf das Warnsymbol, um die Zugriffsdetails des Kontos anzuzeigen und sich [&#x200B; authentifizieren](#reauthenticate).
 
 * **[!UICONTROL Manager Account for Cross-Account Conversions]:** (nur [!DNL Google Ads] Konten) Die ID des zugehörigen Manager-Kontos, das für kontoübergreifende Konversions-Uploads verwendet wird. Wenn für das Manager-Konto ein Fehler verfügbar ist, wird neben der ID ein Warnsymbol angezeigt. Um den Fehler anzuzeigen, halten Sie den Cursor über dem Symbol. Die Anmeldeinformationen des Manager-Kontos sind getrennt von den Anmeldeinformationen des Anzeigennetzwerkkontos. Um Anmeldeinformationen für das Manager-Konto hinzuzufügen oder zu aktualisieren, verwenden Sie **[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**. Siehe &quot;[Verwalten von Manager-](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)&quot;.
 
@@ -98,7 +98,7 @@ Um die Synchronisierung eines Kontos zu aktivieren, müssen Sie einen entspreche
 
 ## Details zum Anzeigen-Netzwerkkonto bearbeiten {#edit-account}
 
-Um Aktivitäten für ein Konto zu aktivieren oder zu deaktivieren, die standardmäßigen Tracking-Parameter eines Kontos zu ändern oder die für Tracking und Reporting zu verwendenden [!DNL Analytics] Report Suites zu ändern, bearbeiten Sie die Kontodetails. Um die Verbindung zu aktualisieren oder die Berechtigungen zu aktualisieren, können [ das Konto ](#reauthenticate) den Kontoeinstellungen oder der [!UICONTROL Accounts] erneut authentifizieren.
+Um Aktivitäten für ein Konto zu aktivieren oder zu deaktivieren, die standardmäßigen Tracking-Parameter eines Kontos zu ändern oder die für Tracking und Reporting zu verwendenden [!DNL Analytics] Report Suites zu ändern, bearbeiten Sie die Kontodetails. Um die Verbindung zu aktualisieren oder die Berechtigungen zu aktualisieren, können [&#x200B; das Konto &#x200B;](#reauthenticate) den Kontoeinstellungen oder der [!UICONTROL Accounts] erneut authentifizieren.
 
 >[!NOTE]
 >
@@ -357,7 +357,7 @@ Diese Einstellungen sind für Werbetreibende mit einer -[[!DNL Adobe Analytics f
 
 Damit die Daten in den Report Suites angezeigt werden, muss entweder (a) die Server-seitige AMO-ID-Funktion für das Konto konfiguriert sein oder (b) die Einstellung auf Advertiser-Ebene auf &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; aktiviert sein. Darüber hinaus muss das [!DNL Analytics] des Werbetreibenden so konfiguriert sein, dass es Daten von Search, Social und Commerce empfängt. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter ](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
+**[!UICONTROL Adobe Analytics Conversion Reporting]: [!UICONTROL Enable conversion reporting in Adobe Analytics]:** ([!DNL Meta Ads] Konten; optional) Fügt den [AMO ID (s_kwcid)-Tracking-Parameter &#x200B;](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) allen Anzeigen in der Kampagne an. Der Parameter ermöglicht es Adobe Analytics, Konversionen mit Meta Ads-Kampagnen in der angegebenen Report Suite sowie mit den Entitätsklassifizierungen und Klickdaten zu verknüpfen.
 
 >[!MORELIKETHIS]
 >
