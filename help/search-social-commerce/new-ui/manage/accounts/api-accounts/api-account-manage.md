@@ -9,19 +9,64 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b568da9300e9adb8d189811c3c8b52516dfcef6f
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '3141'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über eine API-Verbindung
 
-<!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-Im Folgenden finden Sie Anweisungen zum Verwalten von Anzeigennetzwerkkonten, die über die API des Anzeigennetzwerks mit Search, Social und Commerce synchronisiert werden.
+In diesen Anweisungen wird beschrieben, wie Sie Anzeigennetzwerkkonten verwalten, die über APIs nach, sozialen und Commerce-Synchronisationen suchen, einschließlich Authentifizierung, Verbindungsaktualisierung und Statusprüfungen.
 
-<!-- Move out info about Naver into a separate page -->
+Zum Erstellen, Bearbeiten oder erneuten Authentifizieren von Konten benötigen Sie die Berechtigung zum Bearbeiten von Konten.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
+
+## Über die [!UICONTROL Accounts] {#account-view-about}
+
+Die Ansicht [!UICONTROL Manage] > [!UICONTROL Accounts] listet alle Werbenetzwerkkonten in der gefilterten Ansicht für das ausgewählte Advertiser-Konto auf. Klicken Sie auf einen Kontonamen, um die für dieses Konto gefilterte [!UICONTROL Campaigns] zu öffnen.
+
+### Kontoauthentifizierung und Zugriffsstatus {#authentication-status}
+
+Details zur Authentifizierung und zum Zugriff variieren je nach Anzeigennetzwerk und den für das Konto verfügbaren Informationen. Einem aktivierten oder erfolgreich authentifizierten Konto können weiterhin Berechtigungen fehlen.
+
+Die folgenden Spalten zeigen Details zum Kontostatus, zur Authentifizierung und zum Zugriff:
+
+* **[!UICONTROL Status]:** Der Betriebsstatus des Kontos, der von der Authentifizierung und den Berechtigungen getrennt ist. Ein aktiviertes Konto kann Daten mit dem Werbenetzwerk synchronisieren und unterstützte Kontoverwaltungs- und Optimierungsfunktionen verwenden. Ein deaktiviertes Konto stoppt Aktivitäten in Search, Social und Commerce. Die Kontostatusanzeige verwendet eine grüne Anzeige für **[!UICONTROL Enabled]**, eine rote Anzeige für **[!UICONTROL Disabled]** und eine gelbe Anzeige für **[!UICONTROL Pending]**. Sie können [Konten aktivieren oder deaktivieren](#enable-disable-account) über die Ansicht oder die Kontoeinstellungen.
+
+* **[!UICONTROL Authenticated]:** Ob das Konto authentifiziert ist:
+
+  * **[!UICONTROL Yes]:** Das Konto ist authentifiziert.
+
+  * **[!UICONTROL No]:** Das Konto ist nicht authentifiziert. Wenn ein Authentifizierungsfehler verfügbar ist, halten Sie den Cursor über das rote Warnsymbol, um den Fehler anzuzeigen.
+
+  * **[!UICONTROL Not Applicable]: Die**-Authentifizierung wird nicht angewendet, da Sie Daten für das Konto hochladen, anstatt eine Verbindung über eine API herzustellen.
+
+  * **[!UICONTROL Expiring in N days]**, **[!UICONTROL Expiring today]** oder **[!UICONTROL Expired]:** Eine Token-Ablaufwarnung ersetzt **[!UICONTROL Yes]**, wenn Ablaufinformationen verfügbar sind und das Token in 14 Tagen oder weniger abläuft oder bereits abgelaufen ist. Klicken Sie auf das Warnsymbol, um die Zugriffsdetails des Kontos anzuzeigen und sich [&#x200B; authentifizieren](#reauthenticate).
+
+* **[!UICONTROL Manager Account for Cross-Account Conversions]:** (nur [!DNL Google Ads] Konten) Die ID des zugehörigen Manager-Kontos, das für kontoübergreifende Konversions-Uploads verwendet wird. Wenn für das Manager-Konto ein Fehler verfügbar ist, wird neben der ID ein Warnsymbol angezeigt. Um den Fehler anzuzeigen, halten Sie den Cursor über dem Symbol. Die Anmeldeinformationen des Manager-Kontos sind getrennt von den Anmeldeinformationen des Anzeigennetzwerkkontos. Um Anmeldeinformationen für das Manager-Konto hinzuzufügen oder zu aktualisieren, verwenden Sie **[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**. Siehe &quot;[Verwalten von Manager-](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)&quot;.
+
+* **[!UICONTROL Access Level]:** Die angezeigte Zugriffsebene des Kontos, z. B. **[!UICONTROL Full]**, **[!UICONTROL Limited]** oder **[!UICONTROL None]**, oder **[!UICONTROL Not Applicable]**, wenn kein Wert für die Zugriffsebene verfügbar ist.
+
+  Wenn Berechtigungen fehlen, klicken Sie auf das Warnsymbol, um die Zugriffsdetails des Kontos anzuzeigen. Im Abschnitt **[!UICONTROL Access]** werden Berechtigungen als **[!UICONTROL Granted]** oder **[!UICONTROL Missing]** aufgelistet. Wenn Details zur Auswirkung verfügbar sind, werden im Abschnitt **[!UICONTROL Not working]** die betroffenen Funktionen aufgelistet. Um [erneut zu authentifizieren](#reauthenticate) und Berechtigungen zu aktualisieren, klicken Sie auf **[!UICONTROL Update Access]**.
+
+### Verfügbare Aktionen
+
+Die verfügbaren Aktionen hängen von Ihren Berechtigungen und dem Kontotyp ab.
+
+* [Erstellen und Netzwerkkonto-Details](#create-account)
+
+* [Details zum Anzeigen-Netzwerkkonto bearbeiten](#edit-account)
+
+* [Erneutes Authentifizieren eines Werbenetzwerkkontos](#reauthenticate)
+
+* [Aktivieren oder Deaktivieren von Anzeigennetzwerkkonten](#enable-disable-account)
+
+* [Kontodaten mit dem Werbenetzwerk synchronisieren](sync-api-accounts.md)
+
+* [Anzeigen eines Leistungsdiagramms in der [!UICONTROL Accounts]](#account-performance-graph)
+
+* [Verwalten von Datenansichtsberichten aus der [!UICONTROL Accounts]](#account-reports)
 
 ## Erstellen und Netzwerkkonto-Details {#create-account}
 
@@ -35,11 +80,17 @@ Um die Synchronisierung eines Kontos zu aktivieren, müssen Sie einen entspreche
 
 1. Klicken Sie auf **[!UICONTROL Create Account]**.
 
-1. Klicken Sie auf den Namen des Werbenetzwerks und dann auf **[!UICONTROL Next]**.
+1. Klicken Sie auf den Namen des Werbenetzwerks, um die Kontoeinrichtung zu öffnen.
 
-1. (Alle Werbenetzwerke außer [!DNL ChatGPT Ads] und [!DNL Yandex]) Melden Sie sich mit den Anmeldeinformationen des Werbetreibenden beim Werbenetzwerk an. Wählen Sie die Option „Konto-Tracking für dieses Konto“ aus. Klicken Sie dann oben rechts auf **[!UICONTROL Next]**.
+1. (Alle Werbenetzwerke außer [!DNL ChatGPT Ads] und [!DNL Yandex]) Vervollständigen Sie auf der Registerkarte **[!UICONTROL Authenticate]** die Anmeldung im Popup-Fenster mit den Anmeldedaten des Werbetreibenden und gewähren Sie dem angeforderten Konto Zugriff.
 
-1. Geben Sie die [Kontoeinstellungen](#account-settings-api) auf jeder verfügbaren Registerkarte an.
+   Der Setup-Bildschirm wird automatisch aktualisiert und zeigt **[!UICONTROL Authentication Successful]** an, wenn die Authentifizierung erfolgreich war. Wenn Sie das Anmeldefenster erneut öffnen müssen, klicken Sie auf **[!UICONTROL Open login again]**. Wenn Ihr Browser das Fenster blockiert, bearbeiten Sie Ihre Browser-Einstellungen, um Popups für die Site zuzulassen.
+
+   [!DNL Meta Ads] werden fehlende Berechtigungen und ihre Auswirkungen durch einen Warnhinweis identifiziert. Eine erfolgreiche Authentifizierung bedeutet nicht unbedingt, dass alle angeforderten Berechtigungen gewährt wurden.
+
+   Zum Fortfahren auf **[!UICONTROL Next]** klicken.
+
+1. Geben Sie die [Kontoeinstellungen](#account-settings-api) auf jeder verfügbaren Registerkarte an. Wählen Sie bei Konten, die in einem Popup authentifiziert werden sollen, auf der Registerkarte **[!UICONTROL Select Accounts]** das zu synchronisierende Konto aus **[!UICONTROL Linked Ad Accounts]**.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -47,7 +98,7 @@ Um die Synchronisierung eines Kontos zu aktivieren, müssen Sie einen entspreche
 
 ## Details zum Anzeigen-Netzwerkkonto bearbeiten {#edit-account}
 
-Um die Kontoeinstellungen erneut zu authentifizieren, um die Verbindung zu aktualisieren oder Berechtigungen zu aktualisieren, aktivieren oder deaktivieren Sie die Aktivität in einem Konto, ändern Sie die standardmäßigen Tracking-Parameter in einem Konto oder ändern Sie die [!DNL Analytics] Report Suites, die für Tracking und Reporting verwendet werden sollen, und bearbeiten Sie dann die Kontodetails.
+Um Aktivitäten für ein Konto zu aktivieren oder zu deaktivieren, die standardmäßigen Tracking-Parameter eines Kontos zu ändern oder die für Tracking und Reporting zu verwendenden [!DNL Analytics] Report Suites zu ändern, bearbeiten Sie die Kontodetails. Um die Verbindung zu aktualisieren oder die Berechtigungen zu aktualisieren, können [&#x200B; das Konto &#x200B;](#reauthenticate) den Kontoeinstellungen oder der [!UICONTROL Accounts] erneut authentifizieren.
 
 >[!NOTE]
 >
@@ -71,7 +122,7 @@ Um die Kontoeinstellungen erneut zu authentifizieren, um die Verbindung zu aktua
 
 ## Erneutes Authentifizieren eines Werbenetzwerkkontos {#reauthenticate}
 
-*Nicht anwendbar auf [!DNL ChatGPT Ads] Konten*
+*Für Konten, die Popup-Authentifizierung verwenden; nicht anwendbar auf [!DNL ChatGPT Ads] oder [!DNL Yandex] Konten*
 
 Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für das Konto zu aktualisieren, müssen Sie das Konto erneut authentifizieren.
 
@@ -79,17 +130,21 @@ Um die Anzeigennetzwerkverbindung zu aktualisieren oder die Berechtigungen für 
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
-<!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
+1. Öffnen Sie die Authentifizierung auf eine der folgenden Arten:
 
-1. Wählen Sie das Konto auf eine der folgenden Arten aus:
+   * (Wenn der **[!UICONTROL Authenticated]** des Kontos **[!UICONTROL No]** ist) Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und klicken Sie dann auf **[!UICONTROL Re authenticate]**, falls verfügbar.
 
-   * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
+   * (Wenn eine Token-Ablaufwarnung angezeigt wird) Klicken Sie auf das Warnsymbol in der Spalte &quot;**[!UICONTROL Authenticated]**&quot; und dann auf **[!UICONTROL Reauthenticate]**.
 
-   * Halten Sie den Cursor über den Kontonamen, klicken Sie auf **…** und dann auf **[!UICONTROL Edit]**.
+   * (Wenn Berechtigungen fehlen) Klicken Sie auf das Warnsymbol in der Spalte **[!UICONTROL Access Level]** und dann auf **[!UICONTROL Update Access]**.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Account Details]** auf **[!UICONTROL Re authenticate]** und melden Sie sich mit den Anmeldeinformationen des Werbetreibenden beim Werbenetzwerk an.
+   * (In den Kontoeinstellungen) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**, oder halten Sie den Cursor über dem Kontonamen, klicken Sie auf **…** und klicken Sie dann auf **[!UICONTROL Edit]**. Klicken Sie auf der Registerkarte **[!UICONTROL Account Details]** in **[!UICONTROL Account Authentication]** auf **[!UICONTROL Re authenticate]**.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Schließen Sie die Anmeldung im Popup-Fenster mit den Anmeldedaten des Werbetreibenden ab und gewähren Sie dem angeforderten Konto Zugriff.
+
+   Das neue Zugriffstoken wird automatisch gespeichert, wenn die erneute Authentifizierung erfolgreich ist. Wenn Sie auch andere Kontoeinstellungen ändern, klicken Sie auf **[!UICONTROL Save]** , um diese Änderungen zu speichern.
+
+   [!DNL Meta Ads] werden in einer Informationsmeldung alle Berechtigungen identifiziert, die nach erfolgreicher erneuter Authentifizierung noch fehlen. Um die betroffenen Funktionen zu identifizieren, überprüfen Sie die [Zugriffsdetails](#authentication-status).
 
 ## Aktivieren oder Deaktivieren von Anzeigennetzwerkkonten {#enable-disable-account}
 
@@ -101,9 +156,9 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
    * (Aus der [!UICONTROL Accounts]):
 
-     * (Um das Konto zu aktivieren) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Activate]** .
+     * (Um das Konto zu aktivieren) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Enable]** .
 
-     * (So deaktivieren Sie das Konto) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Pause]** .
+     * (So deaktivieren Sie das Konto) Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Disable]** .
 
    * (Aus den Kontoeinstellungen):
 
@@ -113,20 +168,83 @@ Wenn Sie ein Anzeigennetzwerkkonto aktivieren, synchronisiert Search, Social und
 
         * Aktivieren Sie das Kontrollkästchen neben dem Kontonamen und klicken Sie dann in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]** .
 
-     1. Deaktivieren Sie auf der Registerkarte **[!UICONTROL Account Details]** die Option **[!UICONTROL Account enabled]**.
+     1. Aktivieren Sie auf der Registerkarte **[!UICONTROL Account Details]** die Option **[!UICONTROL Account Enabled]** , um das Konto zu aktivieren, oder deaktivieren Sie sie, um das Konto zu deaktivieren.
 
      1. Klicken Sie auf **[!UICONTROL Save]**.
+
+## Anzeigen eines Leistungsdiagramms in der [!UICONTROL Accounts] {#account-performance-graph}
+
+Öffnen und konfigurieren Sie ein Leistungsdiagramm mit bis zu drei Metriken insgesamt für alle Konten in der gefilterten Ansicht für den angegebenen Datumsbereich und die angegebene Währung.
+
+### Anzeigen eines Leistungsdiagramms
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Geben Sie den Datumsbereich an und wenden Sie alle Filter auf die Konten an, deren Leistung Sie anzeigen möchten.
+
+1. Klicken Sie über der Datentabelle auf ![Diagramme](/help/search-social-commerce/assets/charts.png "Diagramme").
+
+1. (Optional) Verwenden Sie **[!UICONTROL Currency]** und **[!UICONTROL Metrics]**, um die Währung und bis zu drei Metriken anzugeben, die in das Diagramm aufgenommen werden sollen.
+
+### Ausblenden eines sichtbaren Leistungsdiagramms
+
+* Klicken Sie über der Datentabelle auf ![Diagramme](/help/search-social-commerce/assets/charts.png "Diagramme").
+
+## Verwalten von Datenansichtsberichten aus der [!UICONTROL Accounts] {#account-reports}
+
+Erstellen Sie einen Bericht, der die Datenzeilen für ein oder mehrere Konten in der [!UICONTROL Accounts] enthält, und laden Sie dann den Bericht als Excel-Arbeitsblattdatei für Microsoft (XLSX-Format) herunter. Der Bericht enthält die sichtbaren Spalten in der Ansicht für den angegebenen Datumsbereich.
+
+Sie können abgeschlossene Berichte und Berichte löschen, die nicht generiert werden konnten.
+
+### Erstellen eines Berichts mit den gefilterten Datenzeilen
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Geben Sie den Datumsbereich an und wenden Sie alle Filter auf die Daten an, die Sie herunterladen möchten.
+
+1. Geben Sie die Konten an, deren Daten Sie herunterladen möchten:
+
+   * Um Daten für bestimmte Konten herunterzuladen, aktivieren Sie die Kontrollkästchen neben den Konten.
+
+   * Wenn Sie Daten für alle Konten in der gefilterten Ansicht herunterladen möchten, lassen Sie alle Kontrollkästchen deaktiviert.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
+
+1. Behalten Sie im Dialogfeld [!UICONTROL Grid Reports] die **[!UICONTROL Report Name]** bei, oder geben Sie einen anderen Namen ein, und klicken Sie dann auf **[!UICONTROL Generate]**.
+
+   Der Bericht wird der **[!UICONTROL Recently Generated]** hinzugefügt.
+
+1. (Optional) Um die Datei nach Abschluss des Vorgangs herunterzuladen, klicken Sie ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+### Herunterladen eines abgeschlossenen Berichts
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
+
+1. Klicken Sie in der **[!UICONTROL Recently Generated]** im [!UICONTROL Grid Reports] auf ![Herunterladen](/help/search-social-commerce/assets/download.png "Herunterladen") neben dem Dateinamen.
+
+   Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+### Löschen eines Berichts
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ")**[!UICONTROL Reports]**.
+
+1. Klicken Sie in der **[!UICONTROL Recently Generated]** im [!UICONTROL Grid Reports] auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen") neben dem Namen eines abgeschlossenen Berichts oder eines Berichts, der nicht generiert werden konnte.
+
+1. Bestätigen Sie den Löschvorgang.
 
 ## Einstellungen für Netzwerkkonto hinzufügen {#account-settings-api}
 
 Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werden nicht alle Einstellungen unten angezeigt.
 
-<!--
- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+### Registerkarte [!UICONTROL Authenticate]
 
-### Authenticate tab
-
--->
+(Sichtbar, während Sie ein Konto erstellen, das die Popup-Authentifizierung verwendet) Stellen Sie mithilfe der Anmeldeinformationen des Werbetreibenden eine Verbindung zum Werbenetzwerk her. Auf der Registerkarte wird der Verbindungsstatus angezeigt und es werden **[!UICONTROL Open login again]** zum erneuten Öffnen des Anmelde-Popup angezeigt.
 
 ### Registerkarte [!UICONTROL Select Accounts]/[!UICONTROL Account Details]
 
@@ -136,7 +254,7 @@ Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werde
 >
 >Wenn Sie eine Integration zwischen Search, Social und Commerce und Adobe Analytics haben und den Namen des Suchkontos ändern, bitten Sie Ihr Adobe-Accountteam, die Zuordnung zu aktualisieren.
 
-**[!DNL [Ad Network] Accounts]:** (sichtbar, während Sie ein Konto erstellen) Das zu synchronisierende Ad-Netzwerk-Konto.
+**[!UICONTROL Linked Ad Accounts]:** (sichtbar, während Sie ein Konto erstellen, das die Popup-Authentifizierung verwendet) Das zu synchronisierende Netzwerkkonto der Anzeige. Wählen Sie aus den Werbekonten aus, die mit Ihrer Netzwerkanmeldung verknüpft sind.
 
 **[Anmeldedetails]:** (nur [!DNL Yandex] Konten) Die zu verwendenden Kontoanmeldeinformationen:
 
@@ -150,7 +268,7 @@ Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werde
 
 * **[!UICONTROL Purse Campaign ID]:** (nur [!DNL Yandex] Konten mit deaktivierter Einstellung „Freigegebenes Konto“; optional) Die numerische ID für die Kampagne, mit der alle Anzeigenkampagnen im Konto bezahlt werden.
 
-* **[!UICONTROL Finance Token]:** (Nur [!DNL Yandex] Konten mit deaktivierter Einstellung „Freigegebenes Konto“; optional) Das Entwickler-Token, das für finanzbezogene API-Aufrufe verwendet wird, z. B. um Geld aus der Geldbörse zwischen den Kampagnen des Werbetreibenden neu zuzuweisen, wie es für die Portfoliooptimierung erforderlich ist.
+* **[!UICONTROL Finance Token]:** (Nur [!DNL Yandex] Konten mit der Einstellung „Freigegebenes Konto“ deaktiviert; optional) Das Entwickler-Token für finanzbezogene API-Aufrufe, z. B. die Umverteilung von Geld zwischen Advertiser-Kampagnen zur Portfoliooptimierung.
 
 **[!UICONTROL Currency]:** (Schreibgeschützt) Die Abkürzung für die für das Konto verwendete Währung. Dieser Wert wird nach dem Speichern des Datensatzes automatisch mit der Währung ausgefüllt, die für das Konto im Werbenetzwerk konfiguriert wurde.
 
@@ -159,6 +277,8 @@ Die Kontoeinstellungen variieren je nach Anzeigennetzwerk. Möglicherweise werde
 **[!UICONTROL Login]:** (Schreibgeschützt) Das Benutzerkonto, das zum Anmelden bei dem Konto verwendet wird.
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** Search, Social und Commerce synchronisiert Kampagnendaten mit dem Konto (falls unterstützt) und pusht automatisierte Gebote und/oder Kampagnenbudgets für Kampagnen in Portfolios.
+
+**[!UICONTROL Account Authentication]> [!UICONTROL Re authenticate]:** (sichtbar, während Sie ein Konto bearbeiten, das die Popup-Authentifizierung verwendet) Aktualisiert die Verbindung oder aktualisiert die Kontoberechtigungen. Das neue Zugriffstoken wird automatisch gespeichert, wenn die erneute Authentifizierung erfolgreich ist.
 
 ## Registerkarte [!UICONTROL Setup Tracking]
 
@@ -175,7 +295,7 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 
 **[!UICONTROL Tracking Type]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Die Methode der Weiterleitung von Endbenutzenden an die endgültige URL oder Ziel-URL. Die ausgewählte Option gilt für alle Gebotseinheiten im Konto oder in der Kampagne. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen, und die Standardeinstellung auf Kampagnenebene wird von den Kontoeinstellungen übernommen.
 
-* *[!UICONTROL Standard]:* Um den Endbenutzer einfach zur angegebenen URL umzuleiten.
+* *[!UICONTROL Standard]:*, um den Endbenutzer an die angegebene URL weiterzuleiten.
 
 * *[!UICONTROL Token]:* Um den Endbenutzer zur URL umzuleiten und auch die ID für Suche, Social und Commerce für den Klick (`ef_id`) als Abfragezeichenfolgenparameter aufzuzeichnen, der als Token verwendet wird. Wählen Sie diese Option aus, wenn Sie Offline-Transaktionen melden, Search, Social und Commerce Daten mit Adobe Analytics austauschen sollen oder alle Konversionen verfolgen möchten, die in [!DNL Apple Safari] Browsern auftreten.
 
@@ -186,11 +306,11 @@ Um diese Funktion zu aktivieren, aktivieren Sie **[Tracking aktivieren]**.
 
 **[!UICONTROL Auto Update]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist) Standardisiert Ihre Tracking-URLs für die Kompatibilität zwischen Browsern und Servern. Search, Social und Commerce laden bei der nächsten Synchronisierung automatisch Folgendes in das Werbenetzwerk hoch: (a) Tracking-Parameter für Suche, Social und Commerce für Tracking-Vorlagen und dieselben Parameter, die an die endgültigen URLs angehängt werden, oder (b) neue Ziel-URLs, die in den Tracking-Code für Search, Social und Commerce eingebettet sind. Für Werbetreibende mit einer [Adobe Advertising-Adobe Analytics-Integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=de) und einer serverseitigen AMO-ID-Konfiguration (s_kwcid) enthält der Upload auch [AMO-ID-Parameter](/help/integrations/analytics/ids.md#amo-id) für Ihre [!DNL Google Ads]- und [!DNL Microsoft Advertising]. Die Standardeinstellung auf Kontoebene wird von den Tracking-Einstellungen des Advertisers übernommen. Die Einstellung auf Kontoebene kann auf Kampagnenebene außer Kraft gesetzt werden.
 
-Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Der automatische Upload-Prozess handhabt zukünftige Änderungen.
+Tracking-URLs werden täglich nur für Entitäten aktualisiert, die nicht synchronisiert sind (d. h. neue hinzugefügte Entitäten und vorhandene Entitäten, deren Eigenschaften sich geändert haben). Wenn Sie diese Einstellung für einen vorhandenen Advertiser/ein vorhandenes Konto/eine vorhandene Kampagne von „Deaktiviert“ in „Aktiviert“ ändern, werden die Tracking-URLs daher nicht für vorhandene Entitäten aktualisiert, die bereits synchronisiert sind. Um den URLs vorhandener, synchronisierter Entitäten Tracking hinzuzufügen, wenden Sie sich an Ihr Adobe-Accountteam und fordern Sie einen einmaligen, manuellen Synchronisierungsprozess an. Zukünftige Änderungen werden durch den automatischen Upload-Prozess verarbeitet.
 
 **[!UICONTROL URL Encoding]:** (Wenn das Tracking in Search, Social und Commerce aktiviert ist, nur Konten mit Ziel-URLs) Kodiert die Basis-URL in der Browser-Adressleiste des Endbenutzers (z. B. `%3D` anstelle von `=`):
 
-**[!UICONTROL Tracking Level]:** (Wenn das Tracking nach Search, Social und Commerce aktiviert ist, auf Konto- und Kampagnenebene verfügbar ist, nicht auf Werbenetzwerke anwendbar, die für das parallele Tracking aktiviert sind) Die Ebene, auf der Klicks und Umsatz verfolgt werden sollen, indem eine Umleitung hinzugefügt wird (falls relevant) und Parameter an die entsprechenden URLs angehängt werden:
+**[!UICONTROL Tracking Level]:** (Wenn das Tracking nach Search, Social und Commerce aktiviert ist, auf Konto- und Kampagnenebene verfügbar; nicht anwendbar auf Werbenetzwerke, die für das parallele Tracking aktiviert sind) Die Ebene, auf der Klicks und Umsatz verfolgt werden sollen, indem eine Umleitung hinzugefügt und Parameter an die entsprechenden URLs angehängt werden:
 
 * *[!UICONTROL Keyword]:* Zum Nachverfolgen von Daten nur auf Keyword-Ebene. Nicht verfügbar für [!DNL Yandex].
 
@@ -225,7 +345,7 @@ Konten, die Adobe Advertising-Klick-Tracking verwenden, müssen die Klick-Kennun
 
 >[!NOTE]
 >
->* Vermeiden Sie [!DNL Google Ads] die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, sollte das Adobe-Account-Team mit dem Support oder dem Implementierungsteam zusammenarbeiten, um diese hinzuzufügen.
+>* Vermeiden Sie [!DNL Google Ads] die Verwendung von Makros, die nicht durch Klicks aus Quellen ersetzt werden, die paralleles Tracking ermöglichen. Wenn der Werbetreibende Makros verwenden muss, fügt das Adobe Account Team diese dem Kunden-Support oder dem Implementierungsteam hinzu.
 >* Die Tracking-Vorlage auf der detailliertesten Ebene überschreibt die Werte auf allen höheren Ebenen. Wenn beispielsweise sowohl die Kontoeinstellungen als auch die Keyword-Einstellungen einen Wert enthalten, wird der Keyword-Wert angewendet.
 >* Wenn Sie eine Tracking-Vorlage auf Anzeigen-, Sitelink- oder Keyword-Ebene aktualisieren, werden die entsprechenden Anzeigen erneut zur Überprüfung eingereicht. Sie können Ihre Tracking-Vorlagen auf Konto-, Kampagnen- oder Anzeigengruppenebene aktualisieren, ohne Ihre Anzeigen erneut zur Genehmigung einzureichen.
 
