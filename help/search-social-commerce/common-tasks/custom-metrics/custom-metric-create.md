@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Erstellen einer benutzerdefinierten Metrik
 
 ## (Neue Benutzeroberfläche) Erstellen einer benutzerdefinierten Metrik aus einer Verwaltungsansicht
 
-*Verfügbar in den Ansichten [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] und [!UICONTROL Ad Groups]*
+*In den meisten Entitätsansichten im Menü &quot;[!UICONTROL Manage]&quot; verfügbar<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],--> [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] und [!UICONTROL Constraints], und [!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. Führen Sie über der Datentabelle einen der folgenden Schritte aus:
 

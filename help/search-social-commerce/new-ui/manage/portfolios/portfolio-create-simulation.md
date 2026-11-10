@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # Ausführen und Herunterladen von Simulationen aus der [!UICONTROL Portfolios]
@@ -40,7 +40,7 @@ Zum Ausführen einer benutzerdefinierten Simulation ist die Berechtigung [!UICON
 
    * Aktivieren Sie das Kontrollkästchen neben dem Portfolio. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL More]>[!UICONTROL Run Simulation]**.
 
-1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings) an:
+1. Geben Sie die [benutzerdefinierten Simulationseinstellungen](#custom-simulation-settings) an:
 
    1. Geben Sie auf der Registerkarte **[!UICONTROL Basic Settings]** einen eindeutigen **[!UICONTROL Simulation Name]** ein und ändern Sie die grundlegenden Parameter nach Bedarf.
 
@@ -75,6 +75,10 @@ Sie können wöchentliche Simulationen für jeweils ein Ausführungsdatum als [!
    Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen. Die Abschlussmeldung gibt an, wie viele Portfolios enthalten waren.
 
 Verwenden Sie die [[!UICONTROL Simulations], um benutzerdefinierte Simulationen herunterzuladen oder einzelne wöchentliche Simulationen auszuwählen](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
+
+## Benutzerdefinierte Simulationseinstellungen {#custom-simulation-settings}
+
+Weitere Informationen zu den benutzerdefinierten Simulationseinstellungen finden Sie im Optimierungshandbuch, das bei Search, Social und Commerce verfügbar ist.
 
 >[!MORELIKETHIS]
 >
