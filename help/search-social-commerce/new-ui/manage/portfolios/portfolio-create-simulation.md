@@ -28,7 +28,7 @@ Zum Ausführen einer benutzerdefinierten Simulation ist die Berechtigung [!UICON
 
 >[!NOTE]
 >
->Sie können auch [eine benutzerdefinierte Simulation in der [!UICONTROL Simulations] erstellen oder erneut ](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md).
+>Sie können auch [eine benutzerdefinierte Simulation in der [!UICONTROL Simulations] erstellen oder erneut &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md).
 
 ## Benutzerdefinierte Simulation ausführen {#run-simulation}
 
