@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # URL-Listen verwalten
@@ -73,7 +73,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
      1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-        1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+        1. Klicken Sie ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**) rechts oben in der Menüleiste.
 
         1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
@@ -141,7 +141,7 @@ Sie können Listen von Website- und App-URLs für das Platzierungs-Targeting ers
 
      1. So zeigen Sie den Aufgabenstatus an, einschließlich der Anzahl der hinzugefügten URLs und der Anzahl der fehlgeschlagenen Werte:
 
-        1. Klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Aufträge“.
+        1. Klicken Sie ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**) rechts oben in der Menüleiste.
 
         1. (Wenn keine Zeilen hinzugefügt wurden) Um eine Fehlerdatei mit den fehlgeschlagenen Werten herunterzuladen, klicken Sie auf **[!UICONTROL Download]** neben dem Auftrag.
 
