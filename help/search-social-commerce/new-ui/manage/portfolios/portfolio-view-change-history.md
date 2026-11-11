@@ -52,7 +52,7 @@ Zu den Informationen für jede Änderung gehören [!UICONTROL Change Date], [!UI
 
 1. (Optional) Klicken Sie auf die Spaltenüberschrift Datum , um die Liste nach Datum in auf- oder absteigender Reihenfolge zu sortieren.
 
-Um den Verlauf für eine einzelne Gebotseinheit anzuzeigen, [ Sie die Details der Gebotseinheit in den Leistungsdetails des Portfolios](portfolio-details.md#bid-unit-history). Sie können auch [Angebotseinheitenverlauf über die [!UICONTROL Keywords] öffnen](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history) wenn die Spalte [!UICONTROL Bid Unit ID] verfügbar ist.
+Um den Verlauf für eine einzelne Gebotseinheit anzuzeigen, [&#x200B; Sie die Details der Gebotseinheit in den Leistungsdetails des Portfolios](portfolio-details.md#bid-unit-history). Sie können auch [Angebotseinheitenverlauf über die [!UICONTROL Keywords] öffnen](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#bid-unit-history) wenn die Spalte [!UICONTROL Bid Unit ID] verfügbar ist.
 
 ## Verwalten von Berichten für Portfolioänderungsverläufe
 
@@ -78,7 +78,7 @@ Sie können zusätzliche Informationen zum Änderungsverlauf für ein Portfolio 
 
 ### Herunterladen eines abgeschlossenen Berichts
 
-1. [Öffnen Sie den Änderungsverlauf des Portfolios und ](#portfolio-change-history) Sie dann auf die Registerkarte, von der aus Sie den Bericht generiert haben.
+1. [Öffnen Sie den Änderungsverlauf des Portfolios und &#x200B;](#portfolio-change-history) Sie dann auf die Registerkarte, von der aus Sie den Bericht generiert haben.
 
 1. Klicken Sie oben rechts auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ").
 
@@ -88,7 +88,7 @@ Sie können zusätzliche Informationen zum Änderungsverlauf für ein Portfolio 
 
 ### Löschen eines abgeschlossenen Berichts
 
-1. [Öffnen Sie den Änderungsverlauf des Portfolios und ](#portfolio-change-history) Sie dann auf die Registerkarte, von der aus Sie den Bericht generiert haben.
+1. [Öffnen Sie den Änderungsverlauf des Portfolios und &#x200B;](#portfolio-change-history) Sie dann auf die Registerkarte, von der aus Sie den Bericht generiert haben.
 
 1. Klicken Sie oben rechts auf ![Bericht herunterladen](/help/search-social-commerce/assets/download.png "Bericht ").
 
