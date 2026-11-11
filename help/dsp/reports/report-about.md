@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # Über benutzerdefinierte Berichte
@@ -120,11 +120,10 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
     Es werden Daten für jede Pfadlänge von bis zu 10 angezeigt. Daten für Pfadlängen von mehr als 10 werden gruppiert.
 
-  * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach Segment anzuzeigen.
+  * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um die Leistung nach Zielgruppensegmenten zu bewerten. Der Bericht enthält den Segmentnamen, die Beschreibung und den Schlüssel sowie den Namen des Segmentanbieters. Sie können Konversionsmetriken und benutzerdefinierte Zieldaten einbeziehen, jedoch keine Häufigkeits- oder Haushaltsmetriken.
 
     >[!NOTE]
-    >
-    >* Dieser Bericht soll zeigen, wie verschiedene Zielsegmente funktionieren. Es werden Daten zur Segmentzugehörigkeit verwendet. Wenn einer Person oder einem Gerät, die bzw. das zu zwei oder mehr Zielsegmenten gehört, eine Impression bereitgestellt wird, enthält dieser Bericht eine Zeile für jedes Segment. Aus diesem Grund stimmen die Gesamtwerte in diesem Bericht möglicherweise nicht mit dem tatsächlichen Versand überein.
+    >* Eine Impression, die mehrere Segmente abgleicht, wird allen übereinstimmenden Segmenten zugeordnet, wobei für jedes Segment eine Zeile vorhanden ist. Ebenso werden alle Standard-, Ausgaben- und Leistungsmetriken für den Impression allen entsprechenden Segmenten zugeordnet. Daher kann es sein, dass die Summen der Metriken für die kombinierten Segmentzeilen die Kampagnensummen übersteigen.
     >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente stehen ab dem 1. Juni 2018 zur Verfügung.
 
   * **[!UICONTROL Site]:** Enthält standardmäßig Standardmetriken, Nettoausgaben für Medien insgesamt und abrechenbare Nettoausgaben insgesamt nach Standort.

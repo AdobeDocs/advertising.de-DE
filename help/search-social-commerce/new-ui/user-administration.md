@@ -1,6 +1,6 @@
 ---
-title: (Neue Benutzeroberfläche) Benutzerverwaltung
-description: Erfahren Sie, wie Sie den Benutzerzugriff verwalten.
+title: (Neue Benutzeroberfläche) Benutzerverwaltung für Suche, Social und Commerce
+description: Erfahren Sie, wie Sie mit Adobe Admin Console Adobe Advertising Search, Social und Commerce-Benutzerzugriff, Administratorrollen, Produktprofile und Funktionsberechtigungen verwalten.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Benutzerverwaltung für Suche, Social und Commerce
@@ -60,6 +60,8 @@ Die neue Benutzeroberfläche für Search, Social und Commerce verfügt über die
 <!-- These don't correspond exactly to the GUI menu -->
 
 Ein Häkchen (✓) bedeutet, dass die Berechtigung im Produktprofil enthalten ist.
+
+Die Berechtigungen zum Anzeigen und Bearbeiten sind getrennt. Die Berechtigung zum Anzeigen einer Funktion allein erlaubt es einem Benutzer nicht, seine Daten zu erstellen, zu bearbeiten oder zu löschen. Benutzerdefinierte Produktprofile können verschiedene Berechtigungskombinationen bereitstellen, die nicht für die Standardproduktprofile angezeigt werden.
 
 **Portfolio-Verwaltung**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | MCC-Konten anzeigen | ✓ | ✓ | ✓ | ✓ |
 | MCC-Konten bearbeiten | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## Aufgaben für Administratoren
 
-### Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce
+### Melden Sie sich bei Adobe Admin Console an und öffnen Sie es für Search, Social und Commerce {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Geben Sie Ihre [!DNL Adobe]-ID ein und klicken Sie auf **[!UICONTROL Continue]**.
 
-   1. Wählen Sie entweder **[!UICONTROL Personal Account]&quot; oder &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Wählen Sie entweder **[!UICONTROL Personal Account]** oder **[!UICONTROL Company or School Account]** aus.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Wählen Sie die entsprechende CX Enterprise-Organisation aus.
 
