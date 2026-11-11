@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1745'
 ht-degree: 0%
 ---
 # Über benutzerdefinierte Berichte
 
-Benutzerdefinierte Berichte ermöglichen es Ihnen, den Inhalt und die Bereitstellung Ihrer Berichtsdaten mithilfe der Kampagnendimensionen (wie Advertiser, Platzierung, Sites oder Geos) und der Metriken, die Ihnen am wichtigsten sind, anzupassen. Sie haben folgende Möglichkeiten:
+Benutzerdefinierte Berichte ermöglichen es Ihnen, Ihre Berichtsdaten mithilfe der Kampagnendimensionen (wie Advertiser, Platzierung, Sites oder GeoS) und Metriken anzupassen, die Ihnen am wichtigsten sind. Sie haben folgende Möglichkeiten:
 
-* Vollständige Konfiguration der Kampagnenleistungsberichte auf granularer Ebene.
+* Konfigurieren von Kampagnenleistungsberichten auf einer granularen Ebene.
 
 * Wählen Sie aus vorkonfigurierten Berichtsvorlagen und passen Sie sie optional weiter an.
 
@@ -49,7 +49,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 >[!NOTE]
 >
->Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [&#x200B; entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>Sie können On-Demand-Daten auch auf allen Kampagnenebenen (Kampagne, Paket, Platzierung oder Anzeige) in [ entsprechenden Kampagnenverwaltungsansicht anzeigen](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
 ## Verfügbare Berichtstypen
 
@@ -59,13 +59,13 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
   * **[!UICONTROL All-in Cost]**: (Nur Werbetreibende mit Advertising Creative und Advertising DSP) Verwenden Sie diesen Bericht, um zu sehen, wie viel Advertising DSP-Ausgaben der Anzeigenauslieferung für Adobe Creative zugeordnet wurden. Sie können Kreativ-, Attribut-, Ziel- und andere Daten auf Kampagnen-, Paket-, Platzierungs- und Anzeigenebene anzeigen.
 
-  * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken wie Ausgabenmetriken für die Medienabrechnung nach Kampagne zu verstehen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+  * **[!UICONTROL Billing]:** Verwenden Sie diesen Bericht, um wichtige Abrechnungsmetriken wie Ausgabenmetriken für die Medienabrechnung nach Kampagne zu verstehen. Sie können Details nach Datum und nach den Attributen jedes enthaltenen Pakets, Paketflugs, jeder Platzierung, jedes Segments, Feeds oder Geräts anzeigen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
     >[!NOTE]
     >
-    >Dieser Bericht enthält Daten zum Abrechnungssegment. Wenn einem Benutzer oder Gerät eine Impression bereitgestellt wird, die zu mehreren Segmenten gehört, wird nur ein abrechnungsfähiges Segment mit der Impression gutgeschrieben.
+    >Dieser Bericht basiert auf den Segmenten, denen Impressionen zugeordnet sind. Wenn einem Benutzer oder Gerät eine Impression bereitgestellt wird, die zu mehreren Segmenten gehört, wird nur einem Segment die Impression gutgeschrieben und die Ausgaben entsprechen Ihrer tatsächlichen (fakturierten) Gesamtsumme.
 
-  * **[!UICONTROL Content]:** Verwenden Sie diesen Bericht, um die Bereitstellung von Impressionen und andere Metriken anhand bestimmter Inhaltsdimensionen (wie Genre, Produktionsqualität und Inhaltsbewertung) zu verstehen, sodass Sie die Zielgruppenbestimmung optimieren und die Markensicherheit gewährleisten können. Zusätzlich zu den Inhaltsdimensionen enthält der Bericht die meisten Standarddimensionen, Metriken und Filter. Daten nach Inhaltsdimension sind für [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] und [!DNL Triplelift] verfügbar. Inhaltssignale werden von Publishern während des Bid-Streams weitergeleitet und unterliegen der Verfügbarkeit.
+  * **[!UICONTROL Content]:** Verwenden Sie diesen Bericht, um die Bereitstellung von Impressionen und andere Metriken anhand bestimmter Inhaltsdimensionen (wie Genre, Produktionsqualität und Inhaltsbewertung) zu verstehen, sodass Sie die Zielgruppenbestimmung optimieren und die Markensicherheit gewährleisten können. Zusätzlich zu den Inhaltsdimensionen enthält der Bericht die meisten Standarddimensionen, Metriken und Filter. Daten nach Inhaltsdimension sind für [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] und [!DNL Triplelift] verfügbar. Publisher übergeben Inhaltssignale während des Bid-Streams, je nach Verfügbarkeit.
 
   * **[!UICONTROL Conversion]:** Verwenden Sie diesen Bericht, um zu verstehen, wie Ihre Kampagnen auf der Grundlage von Konversionsmetriken funktionieren, die mit dem Konversionstracking von Adobe Advertising erfasst wurden. Dieser Bericht enthält die Multi-Touch-Attribution.
 
@@ -73,7 +73,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
   * **[!UICONTROL Device]:** Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach gerätebezogenen Dimensionen anzuzeigen.
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]:** Verwenden Sie diesen Bericht, um den Beitrag von Advertising DSP zu Konversionen anzuzeigen - einschließlich Kunden-Journeys, bei denen DSP eine Rolle spielte, aber ein späterer Touch, wie z. B. ein Adobe Advertising-Suchklick, in anderen Berichten eine Gutschrift für den letzten Klick erhalten hat. Weitere Informationen finden [&#x200B; unter „Häufig gestellte Fragen &#x200B;](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Verwenden Sie diesen Bericht, um den Beitrag von Advertising DSP zu Konversionen anzuzeigen - einschließlich Kunden-Journeys, bei denen DSP eine Rolle spielte, aber ein späterer Touch (z. B. ein Adobe Advertising-Suchklick) in anderen Berichten Letztklicks erhalten hat. Weitere Informationen finden [ unter „Häufig gestellte Fragen ](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“.
 
     **Wichtig:** Dieser Bericht ändert nicht die bestehende Attributionsmethode oder Attribution in Adobe Analytics-Berichten. Sie bietet eine komplementäre DSP-spezifische Ansicht des Konversionsbeitrags.
 
@@ -85,7 +85,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
     >* Die Häufigkeit wird anhand einer Stichprobe von Daten geschätzt.
     >* Bei einigen Inventaren geben die Herausgeber keine Gerätekennung weiter, was die Frequenzverfolgung verhindert. Dieser Bericht enthält nur Impressions, für die eine Gerätekennung verfügbar war.
 
-  * **[!UICONTROL Frequency (by App/Site)]:** Verwenden Sie diesen Bericht, um zu verstehen, wie viele eindeutige Benutzer Ihre Anzeigen per App oder Site erreicht haben. Sie können auch sehen, wie viele Unique Users Ihre Anzeigen über nur eine bestimmte App oder Site erreicht haben („Unique Users„).
+  * **[!UICONTROL Frequency (by App/Site)]:** Verwenden Sie diesen Bericht, um die Reichweite Ihrer Anzeigen pro App oder Site zu verstehen. Sie können auch sehen, wie viele Unique Users Ihre Anzeigen nur über eine bestimmte App oder Site erreicht haben („Unique Users„).
 
     >[!NOTE]
     >
@@ -94,11 +94,11 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
   * **[!UICONTROL Geo]**: Verwenden Sie diese vorausgefüllte Vorlage, um Schlüsselmetriken nach geografischen Dimensionen anzuzeigen.
 
-  * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [&#x200B; unter „Häufig gestellte Fragen &#x200B;](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+  * **[!UICONTROL Household Conversions]:** Verwenden Sie diesen Bericht, um View-Through-Konvertierungen auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Verwenden Sie die Erkenntnisse, um die Kampagnenleistung zu messen und zu optimieren. Weitere Informationen finden [ unter „Häufig gestellte Fragen ](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
-  * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [&#x200B; unter „Häufig gestellte Fragen &#x200B;](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+  * **[!UICONTROL Household Reach & Frequency]:** Verwenden Sie diesen Bericht, um Impressionen, Reichweite und Häufigkeit für eine einzelne Dimension in allen Anzeigenformaten auf Haushaltsebene basierend auf der IP-Adresse und nicht auf der Geräte-/Cookie-Ebene anzuzeigen. Nutzen Sie die Erkenntnisse, um Ihren Medienmix zu optimieren, die Leistung zu verbessern und Möglichkeiten für eine inkrementelle Reichweite zu identifizieren. Weitere Informationen finden [ unter „Häufig gestellte Fragen ](/help/dsp/reports/faq-reports.md) benutzerspezifischen Berichten“. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
-  * **[!UICONTROL Margin]:** Verwenden Sie diesen Bericht, um Schlüsselmetriken wie Marge, Gewinn und andere Ausgabenmetriken nach Kampagne oder Platzierung anzuzeigen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
+  * **[!UICONTROL Margin]:** Verwenden Sie diesen Bericht, um Marge, Gewinn und andere wichtige Ausgabenmetriken nach Kampagne oder Platzierung anzuzeigen. Daten sind nicht für Platzierungen verfügbar, die auf universelle IDs abzielen.
 
   * **[!UICONTROL Path to Conversion]:** Verwenden Sie diesen Bericht, um zu ermitteln, wie Sie basierend auf leistungsstärksten Anzeigeninteraktionssequenzen Budgets optimieren und Anzeigen personalisieren können. Der Bericht zeigt die Sequenz von Interaktionspunkten im selben Haushalt an, die zu jeder der ausgewählten Konversionsmetriken im angegebenen Datenbereich führen. Der Bericht verwendet einen angegebenen Lookback-Zeitraum zwischen der ersten Interaktion und einer Konversion und kann eine Dimension enthalten:
 
@@ -123,7 +123,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
   * **[!UICONTROL Segment]:** Verwenden Sie diese vorausgefüllte Vorlage, um die Leistung nach Zielgruppensegmenten zu bewerten. Der Bericht enthält den Segmentnamen, die Beschreibung und den Schlüssel sowie den Namen des Segmentanbieters. Sie können Konversionsmetriken und benutzerdefinierte Zieldaten einbeziehen, jedoch keine Häufigkeits- oder Haushaltsmetriken.
 
     >[!NOTE]
-    >* Eine Impression, die mehrere Segmente abgleicht, wird allen übereinstimmenden Segmenten zugeordnet, wobei für jedes Segment eine Zeile vorhanden ist. Ebenso werden alle Standard-, Ausgaben- und Leistungsmetriken für den Impression allen entsprechenden Segmenten zugeordnet. Daher kann es sein, dass die Summen der Metriken für die kombinierten Segmentzeilen die Kampagnensummen übersteigen.
+    >* Wenn eine Impression mehreren Segmenten entspricht, werden die Impression und alle zugehörigen Standard-, Ausgaben- und Leistungsmetriken jedem entsprechenden Segment zugeordnet. Metriken für die kombinierten Segmentzeilen können höher sein als die Summen Ihrer Kampagnen.
     >* Konversionsmetriken und benutzerdefinierte Zieldaten für Segmente sind nach dem 2. August 2019 verfügbar. Alle anderen Daten für Segmente stehen ab dem 1. Juni 2018 zur Verfügung.
 
   * **[!UICONTROL Site]:** Enthält standardmäßig Standardmetriken, Nettoausgaben für Medien insgesamt und abrechenbare Nettoausgaben insgesamt nach Standort.
@@ -134,7 +134,7 @@ Sie können Berichte einmal generieren oder sie täglich, wöchentlich oder mona
 
 Jedes Unternehmen mit mehreren DSP-Konten kann optional kontenübergreifende Daten in benutzerdefinierten Berichten aktivieren, je nach den Anforderungen des Unternehmens. Beispielsweise können Sie Konto A Zugriff auf Daten von Konto B und Konto B Zugriff auf Daten von Konto C (aber nicht auf Daten von Konto A) gewähren. Wenden Sie sich zur Aktivierung und Konfiguration dieser Funktion an Ihr Adobe-Account-Team.
 
-Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [&#x200B; einen &#x200B;](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
+Sobald die Funktion für Ihr Unternehmen aktiviert ist, können [ einen ](report-settings.md) Berichtstypen nach Konto filtern: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] und [!UICONTROL Conversion].
 
 Ihre Kontoeinstellungen unter [!UICONTROL Settings] > [!UICONTROL Account] geben a) die anderen Konten an, deren Daten für Ihr Konto verfügbar sind, und b) die anderen Konten, die auf die Daten Ihres Kontos zugreifen können.
 
@@ -152,7 +152,7 @@ Sie können neue benutzerspezifische Berichte erstellen, vorhandene Berichte bea
 
 * **[!UICONTROL Ready to download]:** (Nur wiederkehrende Berichte) Mindestens eine Instanz des Berichts kann heruntergeladen werden, und es sind mehrere Berichtsinstanzen geplant.
 
-* **[!UICONTROL Failed]:** Der Berichtsvorgang ist fehlgeschlagen. Um zu sehen, warum einzelne Berichtinstanzen für ein Berichtskabel fehlgeschlagen sind, klicken Sie auf ![den Abwärtspfeil](/help/dsp/assets/chevron-down.png " den Abwärtspfeil") neben [!UICONTROL Download]. Fehlgeschlagene Berichtsaufträge werden mit einem Fehlersymbol gekennzeichnet (![Fehleranzeige](/help/dsp/assets/indicator-critical.png "Fehleranzeige")). Eine Beschreibung des Fehlers finden Sie, indem Sie den Cursor über das Fehlersymbol halten.
+* **[!UICONTROL Failed]:** Der Berichtsvorgang ist fehlgeschlagen. Um zu sehen, warum einzelne Berichtsinstanzen für eine Berichtszeile fehlgeschlagen sind, klicken Sie auf ![den Abwärtspfeil](/help/dsp/assets/chevron-down.png " den Abwärtspfeil") neben [!UICONTROL Download]. Fehlgeschlagene Berichtsaufträge werden mit einem Fehlersymbol gekennzeichnet (![Fehleranzeige](/help/dsp/assets/indicator-critical.png "Fehleranzeige")). Eine Beschreibung des Fehlers finden Sie, indem Sie den Cursor über das Fehlersymbol halten.
 
 * **[!UICONTROL Completed]:** Der Bericht ist für nicht wiederkehrende Berichte abgeschlossen. Für wiederkehrende Berichte werden alle Berichtsinstanzen abgeschlossen. Sie können alle in den letzten vier Monaten abgeschlossenen Berichte herunterladen.
 
