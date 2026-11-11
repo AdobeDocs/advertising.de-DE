@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # Anzeigen-Details mithilfe von Bulksheets überprüfen und bearbeiten
@@ -33,7 +33,7 @@ Informationen zum Bearbeiten der Anzeigendetails finden Sie unter [Überprüfen 
 
 >[!NOTE]
 >
->*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[&#x200B; einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Informationen zum Bearbeiten einzelner Anzeigeneinstellungen finden Sie unter &quot;[ einer Anzeige](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Informationen zum Ändern der Tracking-Pixel von Drittanbietern für mehrere Anzeigen gleichzeitig oder zum Anhängen von Anzeigen an Platzierungen finden Sie unter [Anhängen von Anzeigen an Platzierungen](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).
 
 ## Download-Details für alle Anzeigen in einer Kampagne
@@ -56,7 +56,7 @@ Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
    * Klicken Sie in der Benachrichtigung auf **[!UICONTROL Download].**
 
-   * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
+   * Klicken Sie oben rechts in der Menüleiste auf ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
      Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

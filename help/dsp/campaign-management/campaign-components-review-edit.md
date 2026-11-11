@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Überprüfen und Bearbeiten der Einstellungen von Kampagnenkomponenten mithilfe von Bulksheets
@@ -53,7 +53,7 @@ Eine Benachrichtigung gibt an, wann die Datei zum Herunterladen verfügbar ist.
 
    * Klicken Sie in der Benachrichtigung auf **[!UICONTROL Download].**
 
-   * Klicken Sie oben rechts in der Menüleiste auf ![Aufträge](/help/dsp/assets/downloads.png). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
+   * Klicken Sie oben rechts in der Menüleiste auf ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
      Die Datei wird im Ordner „Downloads“ des Browsers gespeichert.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -81,7 +81,7 @@ Laden Sie Einstellungen für Pakete, Platzierungen und Anzeigen in einer Kampagn
 
    1. Klicken Sie auf **[!UICONTROL Upload]**.
 
-1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken ![&#x200B; rechts &#x200B;](/help/dsp/assets/downloads.png) der oberen Menüleiste auf „Vorgänge“.
+1. (Optional) Um sicherzustellen, dass die Aktualisierungen verarbeitet wurden, klicken Sie ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**) oben rechts in der Menüleiste.
 
 Wenn eine Aktualisierung der Einstellungen fehlschlägt, können Sie eine Bulksheet-Fehlerdatei mit Farbcodierung herunterladen, um anzuzeigen, welche Einstellungen (Zeilen) gespeichert wurden und welche fehlgeschlagen sind, wobei für jeden Fehler ein Grund angegeben wird. Sie können dann die Probleme in derselben Datei beheben und sie erneut hochladen, um die korrigierten Informationen zu verarbeiten.
 
