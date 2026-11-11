@@ -1,6 +1,6 @@
 ---
 title: (Neue Benutzeroberfläche) Anzeigen von Details zur Portfolioleistung
-description: Erfahren Sie, wie Sie Details zur Portfolioleistung anzeigen, einschließlich tatsächlicher und prognostizierter Metriken auf Portfolioebene und für jede zugewiesene Kampagne.
+description: Erfahren Sie, wie Sie die Portfolioleistung, Details zu Keyword-Gebotseinheiten, Prognosen und den Gebotsverlauf anzeigen und den Gebotseinheitenverlauf in Adobe Advertising Search, Social und Commerce exportieren.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Anzeigen von Details zur Portfolioleistung
@@ -58,7 +58,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
   * Registerkarte [!UICONTROL History]: Alle Gebote der letzten 36 Tage, einschließlich der folgenden Daten für jedes der Gebote: Datum und Uhrzeit, Impressionen, Klicks, Gesamtkosten, durchschnittliche CPC, durchschnittliche Position und gewichteter Umsatz nach Klickdatum. Die Daten werden für alle Geräte und für jeden Gerätetyp (Smartphone, Computer und Tablet) angezeigt.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * Registerkarte &quot;[!UICONTROL Detail]&quot;: Der Übereinstimmungstyp (falls zutreffend) und die übergeordnete Anzeigengruppe, Kampagne, das Anzeigennetzwerkkonto und das Portfolio, zu dem die Gebotseinheit gehört.
+  * Registerkarte &quot;[!UICONTROL Details]&quot;: Das Keyword, der Übereinstimmungstyp (falls zutreffend) und die übergeordnete Anzeigengruppe, Kampagne, das Anzeigennetzwerkkonto und das Portfolio, zu dem die Gebotseinheit gehört.
 
 ## Leistungsdetails für ein Portfolio öffnen
 
@@ -126,7 +126,7 @@ Details zu jeder Anzeigengruppe enthalten die Kosten, Klicks und den Zielwert.
 
 * Um alle Anzeigengruppen in einer Kampagne innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** und dann auf den Namen der Kampagne.
 
-## Auflisten und Anzeigen von Details zu Schlüsselwörtern im Portfolio
+## Auflisten und Anzeigen von Details zu Schlüsselwörtern im Portfolio {#bid-unit-details}
 
 Zu den Details für jedes Keyword gehören die ID der Gebotseinheit, der Übereinstimmungstyp, die tatsächlichen und prognostizierten Kosten, Klicks und der Zielwert sowie die Differenz der Kosten, Klicks und Zielwerte. Sie können Details zu Gebotseinheiten für ein einzelnes Keyword anzeigen.
 
@@ -137,6 +137,20 @@ Zu den Details für jedes Keyword gehören die ID der Gebotseinheit, der Überei
    * Um alle Keywords in einer Anzeigengruppe innerhalb des Portfolios anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Ad Groups]** und dann auf den Namen der Anzeigengruppe.
 
 1. (Optional) Um Details zu einer bestimmten Gebotseinheit anzuzeigen, klicken Sie auf den Wert in der Spalte **[!UICONTROL Bid Unit ID]** . Klicken Sie auf eine beliebige Registerkarte im [!UICONTROL Bid Unit Details], um weitere Informationen zu erhalten.
+
+### Anzeigen und Herunterladen des Verlaufs einer einzelnen Gebotseinheit {#bid-unit-history}
+
+1. [Öffnen Sie die Details der Gebotseinheit](#bid-unit-details).
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL History]** .
+
+1. (Optional) Wählen Sie im Menü Gerät über der Tabelle einen Gerätetyp aus, für den Sie den Verlauf anzeigen möchten. Standardmäßig werden Daten für alle Geräte angezeigt.
+
+1. (Optional) Wenn Verlaufsdaten verfügbar sind, klicken Sie auf **[!UICONTROL Export as csv]**, um den angezeigten Verlauf herunterzuladen.
+
+Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+Informationen zum Anzeigen des Angebotsverlaufs für das gesamte Portfolio und zum Ändern seines Datumsbereichs finden Sie unter [Anzeigen des Angebotsänderungsverlaufs eines Portfolios](portfolio-view-change-history.md#portfolio-bid-change-history).
 
 ## Portfolioeinstellungen anzeigen und bearbeiten
 

@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ Die verfügbaren Berichtsspalten variieren je nach Berichtstyp. Im Folgenden fin
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | Die Beschreibung, die einem fakturierbaren Segment zugeordnet ist. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | Der eindeutige Schlüssel, der einem fakturierbaren Segment zugeordnet ist. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | Der Name eines fakturierbaren Segments. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | Die Beschreibung, die mit einem Segment verknüpft ist und vom Datenanbieter bereitgestellt wird. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | Der mit einem Segment verknüpfte eindeutige Schlüssel. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | Der Name eines Segments. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | Der Name des mit einem Segment verknüpften Datenanbieters. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | Die Beschreibung, die mit einem Segment verknüpft ist und vom Datenanbieter bereitgestellt wird. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | Der mit einem Segment verknüpfte eindeutige Schlüssel. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Der Name eines Segments. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | Der Name des mit einem Segment verknüpften Datenanbieters. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Die eindeutige Kennung für die Site oder die App in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Der Name der Site. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | Ob die Anzeige auf *[!UICONTROL sites]* oder *[!UICONTROL Apps]* angezeigt wurde. |
@@ -282,7 +282,7 @@ Die verfügbaren Berichtsspalten variieren je nach Berichtstyp. Im Folgenden fin
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Der Prozentsatz der sichtbaren Impressions aus allen messbaren Impressions, berechnet als <code>[!UICONTROL Viewable Impressions]/[!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Die Anzahl der als anzeigbar angesehenen Anzeigen-Impressions. |
 | [!UICONTROL Conversion Metrics] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifische Konversion] | Die Gesamtsumme für eine bestimmte Advertiser-spezifische Konversionsmetrik oder ein Adobe Analytics-Ereignis. |
-| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [&#x200B; enthalten sind](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Gruppiert nach Advertiser in den Berichteinstellungen] | [Advertiser-spezifisches benutzerdefiniertes Ziel] | Die gewichtete Summe aller Konversionen, die im angegebenen [ enthalten sind](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

@@ -1,6 +1,6 @@
 ---
 title: Schlüsselwörter verwalten
-description: Erfahren Sie, wie Sie angebotfähige und negative Keywords erstellen und verwalten und Keywords Einschränkungen zuweisen.
+description: Erfahren Sie, wie Sie in Adobe Advertising Search, Social und Commerce angebotfähige und negative Keywords verwalten, Einschränkungen zuweisen und den Verlauf der Keyword-Gebotseinheiten anzeigen und herunterladen können.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Schlüsselwörter verwalten
@@ -31,7 +31,7 @@ Nur *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yande
 
 Ein Keyword ist ein Wort oder eine Phrase, das bzw. die mit einer Anzeige verbunden ist. Die Einstellungen für Keywords umfassen den Typ der Keyword-Übereinstimmung, die maximalen Gebote, die verwendet werden sollen, wenn Ihre Anzeige durch das Keyword ausgelöst wird, und (für einige Anzeigennetzwerke) optionale Tracking-Parameter. Einstellungen auf Keyword-Ebene setzen die Anzeigengruppen- oder Kampagneneinstellungen außer Kraft. Negative Keywords verhindern, dass Anzeigen für übereinstimmende Suchen angezeigt werden.
 
-Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[&#x200B; Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
+Sobald Sie [ein Anzeigennetzwerkkonto über eine API-Verbindung zugänglich machen](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) und Search, Social und Commerce die Kontodaten mit dem Anzeigennetzwerk synchronisiert haben, können Sie in &quot;[ Kampagnentypen“ Schlüsselwörter für Suchanzeigengruppen ](/help/search-social-commerce/introduction/supported-inventory.md). Sie können auch den Status von Keywords bearbeiten und ändern und negative Keywords erstellen und löschen.
 
 Einzelheiten zu den für die einzelnen Werbenetzwerke verfügbaren Funktionen finden Sie unter &quot;[Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -53,11 +53,31 @@ Die Ansicht [!UICONTROL Manage] > [!UICONTROL Keywords] enthält zwei Registerka
 
 * [Status von Keywords und negativen Keywords ändern oder löschen](#keyword-status)
 
+* [Verlauf der Gebotseinheiten anzeigen und herunterladen](#bid-unit-history)
+
 * [Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren](#copy-to-clipboard)
 
 * [Zuweisen von Einschränkungen zu Keywords und Aufheben der Zuweisung von Einschränkungen zu Keywords](#keyword-constraints)
 
-* [Zuweisen von &#x200B;](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
+* [Zuweisen von ](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) zu Schlüsselwörtern
+
+## Verlauf der Gebotseinheiten anzeigen und herunterladen {#bid-unit-history}
+
+Wenn die Spalte [!UICONTROL Bid Unit ID] in der Keyword-Datentabelle verfügbar ist, können Sie den Verlauf der Gebotseinheit direkt über die ID öffnen.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Keywords]** auf den Wert in der Spalte **[!UICONTROL Bid Unit ID]** für das Keyword.
+
+1. Klicken Sie im Dialogfeld [!UICONTROL Bid Unit Details] auf die Registerkarte **[!UICONTROL History]** .
+
+1. (Optional) Wählen Sie im Menü Gerät über der Tabelle einen Gerätetyp aus, für den Sie den Verlauf anzeigen möchten. Standardmäßig werden Daten für alle Geräte angezeigt.
+
+1. (Optional) Wenn Verlaufsdaten verfügbar sind, klicken Sie auf **[!UICONTROL Export as csv]**, um den angezeigten Verlauf herunterzuladen.
+
+Die Datei wird nach dem üblichen Verfahren Ihres Browsers heruntergeladen.
+
+Sie können die [Details der Gebotseinheiten“ auch über die Leistungsdetails eines Portfolios ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). Informationen zu den anderen Registerkarten im Dialogfeld finden Sie unter [Details zur Portfolioleistung anzeigen](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md).
 
 ## Schlüsselwörter erstellen {#keyword-create}
 
