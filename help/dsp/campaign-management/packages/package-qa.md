@@ -37,7 +37,7 @@ Bearbeitbare Felder enthalten die meisten Einstellungen, die normalerweise bearb
 
 >[!TIP]
 >
->Informationen zum schnellen Bearbeiten mehrerer Felder für ein oder mehrere Pakete finden Sie unter &quot;[ von Paketen](/help/dsp/campaign-management/packages/package-edit.md).
+>Informationen zum schnellen Bearbeiten mehrerer Felder für ein oder mehrere Pakete finden Sie unter &quot;[&#x200B; von Paketen](/help/dsp/campaign-management/packages/package-edit.md).
 
 ## Download-Einstellungen für alle Pakete in einer Kampagne
 
@@ -89,7 +89,7 @@ Wenn Sie Einstellungen für bestimmte Pakete herunterladen, enthält die Bulkshe
 
    * Klicken Sie oben rechts in der Menüleiste auf ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**). Klicken Sie neben dem Auftrag auf **[!UICONTROL Download]** .
 
-     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[ in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
+     Die Datei wird im Ordner Downloads des Browsers gespeichert. Unter &quot;[&#x200B; in heruntergeladenen/hochgeladenen Bulksheets](#qa-sheet-columns) finden Sie eine Liste der eingeschlossenen Spalten.
 
      Um eine der Einstellungen zu bearbeiten, bearbeiten Sie die Datei direkt und laden Sie dann die Änderungen hoch. Alle bearbeitbaren Spalten sind blau hervorgehoben. Um das richtige Format für ein Feld zu verwenden, wählen Sie den Wert aus der entsprechenden Paketeinstellung oder Platzierungseinstellung aus und kopieren Sie ihn. Für einige Zieleinstellungen, wie z. B. DayParting, benutzerdefinierte Ziele und Konversionsmetriken, ist eine Kopieroption innerhalb der Einstellung verfügbar.
 
