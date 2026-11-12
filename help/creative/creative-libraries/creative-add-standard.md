@@ -18,14 +18,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # Hinzufügen von Standard-Kreativen zu einer Kreativbibliothek
 
-Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet &#x200B;](/help/creative/experiences/experience-about.md).
+Fügen Sie Ihren [kreativen Bibliotheken“ Kreative hinzu](creative-library-manage.md) die mit standardmäßigen [Anzeigenerlebnissen“ verwendet ](/help/creative/experiences/experience-about.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Klicken Sie auf **[!UICONTROL Select a file]** , um die Dateien auf Ihrem Gerät oder Netzwerk zu suchen.
 
-   Siehe &quot;[&#x200B; Anzeigenspezifikationen](#flexible-ad-spec).
+   Siehe &quot;[ Anzeigenspezifikationen](#flexible-ad-spec).
 
 1. Flexible kreative Dateien hinzufügen oder entfernen:
 
@@ -65,7 +65,7 @@ Sie können mehrere flexible kreative Einheiten hochladen. Flexible Kreative mü
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Geben Sie die [flexiblen HTML5-Anzeigeneinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) an.
 
@@ -112,7 +112,7 @@ For information about the attributes available in predefined templates, see "[Av
 
    * Um eine Datei zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![&#x200B; über dem Bild &#x200B;](/help/creative/assets/preview.png "Vorschau").
+1. (Optional) Um ein Kreativ in der Vorschau anzuzeigen, klicken ![ über dem Bild ](/help/creative/assets/preview.png "Vorschau").
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -183,7 +183,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Um ein Bild zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Geben Sie die Kreativeinstellungen für [HTML5 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
+1. Geben Sie die Kreativeinstellungen für [HTML5 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
 
    Standardmäßig sind alle Kreativen oder GenStudio-Erlebnisse, die Sie gerade hochgeladen haben, ausgewählt. Alle von Ihnen angegebenen Einstellungen gelten für alle ausgewählten Elemente. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Elemente. Um Einstellungen für bestimmte Kreative oder GenStudio-Erlebnisse einzugeben, heben Sie die Auswahl der einzelnen nicht zutreffenden Kreativen oder Erlebnisse auf.
 
@@ -235,7 +235,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Um ein Bild zu entfernen, deaktivieren Sie das Kontrollkästchen daneben.
 
-1. Geben Sie die Kreativeinstellungen für [HTML5 &#x200B;](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
+1. Geben Sie die Kreativeinstellungen für [HTML5 ](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) oder [Image-Kreativeinstellungen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image) an.
 
    Standardmäßig sind alle Kreativen oder GenStudio-Erlebnisse, die Sie gerade hochgeladen haben, ausgewählt. Alle von Ihnen angegebenen Einstellungen gelten für alle ausgewählten Elemente. Alle Einstellungen mit nur einem Wert gelten für alle ausgewählten Elemente. Um Einstellungen für bestimmte Kreative oder GenStudio-Erlebnisse einzugeben, heben Sie die Auswahl der einzelnen nicht zutreffenden Kreativen oder Erlebnisse auf.
 
@@ -243,13 +243,30 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 ## Hinzufügen von Kreativen von Drittanbietern zu einer Kreativbibliothek {#creative-add-third-party}
 
-[!DNL Creative] unterstützt Tracking-Tags von JavaScript für Kreative, die auf den meisten Werbeservern von Drittanbietern gehostet werden.
+[!DNL Creative] unterstützt Anzeigen-Tags für auf Werbe-Servern von Drittanbietern gehostete Display-Kreative. In der neuen Benutzeroberfläche können Sie ein oder mehrere Kreative aus einem Blatt zur illegalen Einfuhr importieren. Die veraltete Benutzeroberfläche unterstützt die Eingabe eines Tags für eine einzelne Kreative.
 
 ### Über die neue Benutzeroberfläche
 
-1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+#### Vorbereiten Ihres Datenblatts zum Datenverkehr {#third-party-sheet-requirements}
 
-1. (Optional) [Passen Sie die Ansicht an](/help/creative/introduction/customize-data-views.md) um bestimmte Bibliotheken einzuschließen.
+* Verwenden Sie eine Excel- (`.xlsx` oder `.xls`), CSV- oder TSV-Datei mit nicht mehr als 10 MB und nicht mehr als 500 Kreativen.
+
+* Legen Sie die Kreativen für Excel-Dateien auf dem ersten Arbeitsblatt ab. Nur das erste Arbeitsblatt wird importiert. Passwortgeschützte Dateien werden nicht unterstützt.
+
+* Verwenden Sie einen [!DNL Flashtalking]- oder [!DNL Google Campaign Manager 360]-Export oder bereiten Sie ein generisches Blatt vor. Das Blatt muss dem Anzeigenserver-Layout entsprechen, das Sie beim Hochladen auswählen.
+
+* Geben Sie für jedes Kreativ einen Kreativ-Namen, eine Größe und ein Anzeigen-Tag an. Namen können bis zu 255 Zeichen lang sein. Geben Sie Dimensionen in einer Spalte mit einzelner Größe (z. B. `300x250`) oder in separaten Spalten mit Breite und Höhe in Kreditorenexporten an. Verwenden Sie [unterstützte Kreativgrößen](creative-sizes.md).
+
+* Verwenden Sie für ein generisches Blatt die Spaltenüberschriften `Creative Name`, `Size` und `Ad Tag`. Sie können eine CSV-Vorlage über das Upload-Dialogfeld herunterladen. Ersetzen Sie die Beispielzeile durch Ihre eigenen kreativen Daten.
+
+>[!IMPORTANT]
+>
+>* Der Massen-Upload unterstützt nur Anzeigen-Tags. Video- und VAST-Tags werden nicht unterstützt.
+>* Massen-Upload speichert und speichert Tags wie bereitgestellt; beim Import werden keine Tracking-Makros eingefügt oder Tracking-URLs neu geschrieben. Nehmen Sie alle erforderlichen [Tracking-Makros](/help/creative/creative-macros.md) vor dem Hochladen des Blatts in Ihre Tags auf.
+
+#### Hochladen und Überprüfen der Kreativen {#third-party-bulk-upload}
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. Öffnen Sie die Bibliothek auf eine der folgenden Arten:
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
+   Das Dialogfeld **[!UICONTROL Bulk upload third-party tags]** wird geöffnet.
 
-   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+1. Wählen Sie die **[!UICONTROL Ad server]** aus, die Ihrem Blatt entspricht:
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   Vor dem Hochladen einer Datei muss ein Anzeigen-Server ausgewählt werden. Der ausgewählte Anzeigenserver gilt für alle Kreativen im Blatt. Er wird nicht von einzelnen Tags erkannt.
+
+1. (Optional) Um ein generisches Blatt vorzubereiten, klicken Sie auf **[!UICONTROL Download CSV template]**, ersetzen Sie die Beispieldaten durch Ihre eigenen Kreativen und speichern Sie die Datei.
+
+1. Geben Sie das Blatt auf eine der folgenden Arten an:
+
+   * Ziehen Sie die Datei per Drag-and-Drop in das Upload-Feld.
+
+   * Klicken Sie auf **[!UICONTROL select a file]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+
+   Das Blatt wird hochgeladen und analysiert. Wenn das Layout nicht mit dem ausgewählten Anzeigenserver übereinstimmt, korrigieren Sie das Blatt oder wählen Sie den entsprechenden Anzeigenserver aus und laden Sie die Datei erneut hoch.
+
+1. Überprüfen Sie **[!UICONTROL Review third-party creatives]** für jede Zeile **[!UICONTROL Creative name]**, **[!UICONTROL Size]**, **[!UICONTROL Type]**, **[!UICONTROL Language]** und **[!UICONTROL Status]**.
+
+   * Wenn das Blatt mehrere Tag-Formate enthält, wählen Sie die Registerkarte für die Tag-Spalte aus, die Sie importieren möchten. Das ausgewählte Format gilt für alle Zeilen, und Zeilen ohne -Tag in dieser Spalte werden nicht angezeigt. Durch Ändern der Registerkarten wird die Auswahl auf alle importierbaren Zeilen für dieses Format zurückgesetzt.
+
+   * Alle importierbaren Zeilen sind standardmäßig ausgewählt. Deaktivieren Sie das Kontrollkästchen neben allen Kreativen, die Sie nicht importieren möchten.
+
+   * (Optional) Ändern Sie die **[!UICONTROL Language]** für einzelne Kreative. Der Standardwert ist Englisch.
+
+   * Zeilen mit dem Status **[!UICONTROL Error]** können nicht ausgewählt oder importiert werden. Sie können die gültigen Zeilen importieren oder auf **[!UICONTROL Cancel]** klicken, das Quellblatt korrigieren und erneut hochladen. Korrigieren Sie fehlende Namen, Dimensionen oder Tags und entfernen Sie Video-Tags oder alle Zeichen, die als nicht unterstützt gekennzeichnet sind.
+
+1. Klicken Sie auf **[!UICONTROL Importieren <N> Kreative ]**, wobei `<N>` die Anzahl der ausgewählten Kreativen ist. Klicken Sie für einen einzelnen Kreativen auf **[!UICONTROL Import 1 creative]**.
+
+   Das Dialogfeld wird geschlossen und eine Benachrichtigung bestätigt, dass der Import gestartet wurde. Die Kreativen werden nach Abschluss der Bearbeitung in der Bibliothek angezeigt.
+
+Um den Import zu verfolgen, klicken Sie ![Job Manager](/help/creative/assets/job-manager.png "Job Manager") (**[!UICONTROL Job Manager]**) oben rechts in der Menüleiste. Wenn bei der Verarbeitung Zeilen fehlschlagen, klicken Sie auf **[!UICONTROL Download failed rows]** für den Importauftrag, korrigieren Sie die heruntergeladene Tabelle und laden Sie sie erneut hoch.
 
 ### Von der alten Benutzeroberfläche
 
@@ -277,9 +326,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Creatives]** auf **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
-1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ &#x200B;](#creative-settings-third-party).
+1. Geben Sie das JavaScript-Tag und andere Einstellungen für das Kreativ-Tool in [Kreative Einstellungen von Drittanbietern“ ](#creative-settings-third-party).
 
-   Sie können jedes der [verfügbaren Makros) kopieren &#x200B;](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
+   Sie können jedes der [verfügbaren Makros) kopieren ](/help/creative/creative-macros.md) in das JavaScript-Tag einfügen.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
