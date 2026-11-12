@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # Verwalten von Anzeigenvorlagen in [!UICONTROL Creative Studio]
@@ -23,7 +23,7 @@ Erstellen, importieren und verwalten Sie Anzeige- und Video-Anzeigenvorlagen zur
 
 Die Registerkarte **[!UICONTROL Templates]** bietet schnelle Aktionen zum Erstellen oder Importieren neuer Anzeigenvorlagen.
 
-Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [&#x200B; (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
+Auf der Registerkarte &quot;[!UICONTROL Templates]&quot; werden Ihre vorhandenen Anzeigenvorlagen auch unten auf der Seite aufgeführt <!-- Only in the Templates tab -->als [ (Standard) oder als Tabellen/Listen](/help/creative/introduction/customize-data-views.md). Die Liste der Anzeigenvorlagen enthält Registerkarten für [!UICONTROL All], [!UICONTROL System Templates] (die Ihr Adobe-Konto-Team in Ihr Konto hochlädt) und [!UICONTROL User Templates]. Standardmäßig werden Anzeigenvorlagen für alle Ihre Werbetreibenden angezeigt. Um nur Anzeigenvorlagen für einen bestimmten Advertiser anzuzeigen, wählen Sie oben auf der Seite in der Liste der Advertiser aus.
 
 <!--
 Probably not necessary:
@@ -39,7 +39,9 @@ Probably not necessary:
 
 Erstellung:
 
-* [Erstellen einer Anzeigenvorlage mithilfe von KI](#template-generate)
+* [Erstellen einer Anzeigenvorlage über eine Textaufforderung mithilfe von KI](#template-generate-from-text)
+
+* [Erstellen einer Anzeigenvorlage aus einem Bild mithilfe von KI](#template-generate-from-image)
 
 * [Manuelles Erstellen einer Anzeigenvorlage](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## Erstellen einer Anzeigenvorlage mithilfe von KI {#template-generate}
 
-*Beta-Funktion*
+Verwenden Sie KI in [!UICONTROL Creative Studio], um eine bearbeitbare Anzeigenvorlage aus einer Textaufforderung oder einem vorhandenen statischen Anzeigenbild zu generieren.
 
-Verwenden Sie KI in [!UICONTROL Creative Studio] , um ein vorhandenes statisches Display-Anzeigenbild in eine bearbeitbare Display-Anzeigenvorlage zu konvertieren. Ein dreistufiger Assistent unterstützt Sie bei der Erstellung und Überprüfung der Vorlage, beim Anfordern von Änderungen in natürlicher Sprache und beim Öffnen des Vorlageneditors, um manuelle Änderungen vorzunehmen und die Vorlage zu speichern.
+### Erstellen einer Anzeigenvorlage über eine Textaufforderung {#template-generate-from-text}
 
-### Voraussetzungen
+Beschreiben Sie die zu erstellende Vorlage, wählen Sie optional ein Markenprofil und ein Bild aus und überprüfen Sie mehrere generierte Vorlagen. Sie benötigen keine vorhandene Bildanzeige.
 
-Sie benötigen eine statische Bildanzeige in einer Creative-Bibliothek. Dieser Workflow wählt Anzeigen aus Ihren Bibliotheken aus und lädt kein neues Bild direkt in den Erstellungsdialog hoch.
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
 
-<!--
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Templates]** .
 
-Publish this when prompt-based generation becomes available:
+1. (Optional) Wählen Sie oben auf der Seite einen Advertiser aus der Advertiser-Liste aus, um die Markenprofile dieses Advertisers anzuzeigen.
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. Klicken Sie im **[!UICONTROL Use AI to Generate a New Display Ad Template]** auf **[!UICONTROL Generate]**.
 
--->
+1. Klicken Sie im Dialogfeld **[!UICONTROL Generate New Ad Template]** auf die Registerkarte **[!UICONTROL Generate from Prompt]** , falls diese nicht bereits ausgewählt ist.
 
-### Schritt 1: Erstellen und Überprüfen der Vorlage
+1. Wählen Sie die **[!UICONTROL Template size]** aus.
+
+   Der Standardwert ist 300 x 250 Pixel. Sie können die Größe nicht ändern, nachdem die Generierung in der aktuellen Sitzung begonnen hat.
+
+1. (Optional) Wählen Sie ein Markenprofil aus der **[!UICONTROL Brand]** Liste aus, um den Markenkontext für die Generierung anzugeben.
+
+1. (Optional) So fügen Sie ein Bild in die generierte Vorlage ein:
+
+   1. Klicken Sie auf **[!UICONTROL Add image]**.
+
+   1. Wählen Sie in der **[!UICONTROL Select from Asset Library]** ein vorhandenes Bild aus oder klicken Sie auf **[!UICONTROL Browse files]** , um eines hochzuladen.
+
+      Unterstützte Upload-Formate sind PNG, JPEG, GIF und TIFF. Sie können jeweils nur ein Bild anhängen.
+
+   1. Klicken Sie auf **[!UICONTROL Add to chat]**.
+
+1. Beschreiben Sie im Feld **[!UICONTROL Generation prompt]** die Vorlage, die Sie erstellen möchten. Enthält Details wie das Layout, die Überschrift, call to action und den visuellen Stil.
+
+   Geben Sie beispielsweise `Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button` ein.
+
+1. Klicken Sie auf **[!UICONTROL Generate]** und warten Sie auf die Vorlagenvorschau.
+
+   Jede Anfrage generiert bis zu vier Vorlagen. Überprüfen Sie den Text, die Bilder und das Layout, bevor Sie eine Vorlage auswählen.
+
+1. (Optional) Klicken Sie auf &quot;**[!UICONTROL Generate more results]**&quot;, um weitere Optionen anzuzeigen. Sie können auch die Eingabeaufforderung überarbeiten und auf **[!UICONTROL Generate]** klicken.
+
+   Im Dialogfeld werden Ergebnisse gesammelt, bis zu 20 generierte Vorlagen pro Sitzung.
+
+1. Halten Sie den Cursor über die gewünschte Vorlage und klicken Sie auf **[!UICONTROL Open in Editor]**.
+
+   Der Vorlagen-Editor wird auf einer neuen Browser-Registerkarte geöffnet, sodass die generierten Ergebnisse auf der ursprünglichen Registerkarte verfügbar bleiben.
+
+1. Überprüfen Sie die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der [Steuerelemente des Vorlageneditors](#template-controls) vor.
+
+1. Klicken Sie auf **[!UICONTROL Save]**.
+
+1. Geben Sie im Dialogfeld &quot;**[!UICONTROL Save As New Template]**&quot; die **[!UICONTROL Template name]** ein, wählen Sie die **[!UICONTROL Advertiser]** aus, fügen Sie optional Tags hinzu und klicken Sie dann auf **[!UICONTROL Save]**.
+
+   Die Vorlage wird als neue Kopie gespeichert und die Editor-Registerkarte kehrt zur **[!UICONTROL Templates]** zurück. Anschließend können Sie die gespeicherte Vorlage verwenden, um [Anzeigenvarianten zu generieren](#ad-variations-generate).
+
+>[!NOTE]
+>
+> Sobald die Generierung beginnt, können Sie nicht mehr im selben Dialogfeld zwischen Text- und Bildgenerierung wechseln. Um mit einer anderen Größe oder Generierungsmethode zu beginnen, klicken Sie auf **[!UICONTROL Cancel]** und öffnen Sie das Dialogfeld erneut. Speichern Sie alle Vorlagen, die Sie zuerst im Editor behalten möchten.
+
+### Erstellen einer Anzeigenvorlage aus einem Bild {#template-generate-from-image}
+
+Konvertieren Sie ein vorhandenes statisches Anzeigenbild in eine bearbeitbare Anzeigenvorlage, fordern Sie Änderungen in natürlicher Sprache an und öffnen Sie den Vorlageneditor, um manuelle Änderungen vorzunehmen und die Vorlage zu speichern.
+
+#### Voraussetzungen
+
+Für diese Funktion ist eine statische Bildanzeige in einer Creative-Bibliothek erforderlich. Dieser Workflow wählt Anzeigen aus Ihren Bibliotheken aus und lädt kein neues Bild direkt in den Erstellungsdialog hoch.
+
+#### Schritt 1: Erstellen und Überprüfen der Vorlage
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Creative Studio]**.
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. Klicken Sie im **[!UICONTROL Use AI to Generate a New Display Ad Template]** auf **[!UICONTROL Generate]**.
 
-1. Wählen Sie im Dialogfeld **[!UICONTROL Generate New Ad Template]** die Option **[!UICONTROL Generate from Existing Standard Ad Image]** aus, falls sie nicht bereits ausgewählt ist.
+1. Klicken Sie im Dialogfeld **[!UICONTROL Generate New Ad Template]** auf die Registerkarte **[!UICONTROL Generate from Existing Standard Ad Image]** .
 
 1. Wählen Sie in der Liste **[!UICONTROL Ad Library]** die Bibliothek aus, die die Bildanzeige enthält.
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    Die Generierung beginnt automatisch mit der Breite und Höhe der ausgewählten Anzeige.
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [Überprüfen und verfeinern Sie die generierte Vorlage](#template-review).
 
-### Schritt 2: Vorlage überprüfen und verfeinern {#template-review}
+#### Schritt 2: Vorlage überprüfen und verfeinern {#template-review}
 
 1. Warten Sie, bis die Generierung abgeschlossen ist, und überprüfen Sie dann die Vorlagenvorschau und das Bedienfeld &quot;**[!UICONTROL Layers]**&quot;, falls verfügbar.
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    Die generierte Vorlage wird im Anzeigevorlageneditor geöffnet.
 
-### Schritt 3: Vorlage bearbeiten und speichern {#template-save}
+#### Schritt 3: Vorlage bearbeiten und speichern {#template-save}
 
 >[!TIP]
 >
@@ -190,7 +216,7 @@ Switch to this when prompt-based generation becomes available:
 >
 > Um optimale Ergebnisse zu erzielen, ersetzen Sie im Vorlageneditor das von KI generierte Logo durch Ihr originales, pixelgenaues Logo.
 
-1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) &#x200B;](#template-controls).
+1. Überprüfen Sie im Vorlageneditor die generierten Elemente und nehmen Sie die verbleibenden Änderungen mithilfe der Steuerelemente [Vorlageneditor) ](#template-controls).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -206,16 +232,11 @@ Anschließend können Sie die Vorlage verwenden, um [Anzeigenvarianten zu generi
 
 | Problem | Vorgehensweise |
 | --- | --- |
+| Die textbasierte Generierung schlägt fehl oder die Anfrage wird abgelehnt | Überprüfen Sie die angezeigte Nachricht, überarbeiten Sie die Eingabeaufforderung nach Bedarf und klicken Sie auf **[!UICONTROL Generate]** , um es erneut zu versuchen. |
+| Die Sitzung hat 20 generierte Vorlagen erreicht | Speichern Sie alle Vorlagen, die Sie im Editor behalten möchten, klicken Sie auf &quot;**[!UICONTROL Cancel]**&quot; und öffnen Sie das Dialogfeld für die Generierung erneut, um eine neue Sitzung zu starten. |
+| Der Editor wird nicht in einem textgenerierten Ergebnis geöffnet | Lassen Sie Popups für die Site zu, und klicken Sie dann erneut auf **[!UICONTROL Open in Editor]**. |
 | Beim Generieren aus einem Bild werden keine Bibliotheken oder Bildanzeigen aufgelistet | Markieren Sie den ausgewählten Advertiser und die **[!UICONTROL Ad Library]**. Wenn die Bibliothek keine Standard-Anzeigenbilder enthält, wählen Sie eine andere Bibliothek aus, die eine vorhandene statische Bildanzeige enthält. |
 | Die bildbasierte Generierung schlägt fehl oder das Bild kann nicht konvertiert werden | Überprüfen Sie die angezeigte Nachricht, klicken Sie auf **[!UICONTROL Back to library]** und wählen Sie eine Bildanzeige aus, um es erneut zu versuchen. |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## Manuelles Erstellen einer Anzeigenvorlage {#template-create}
 

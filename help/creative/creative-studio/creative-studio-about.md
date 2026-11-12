@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # Über [!UICONTROL Creative Studio] in [!DNL Advertising Creative]
@@ -23,29 +23,39 @@ ht-degree: 0%
 
 [!UICONTROL Creative Studio] ist in drei Registerkarten unterteilt:
 
-**[!UICONTROL Creatives]** - Der Ausgangspunkt für die Erstellung von Anzeigen. Zeigt die vorhandenen Kreativen an, die in Creative Studio generiert wurden und in ausblendbaren Kreativbibliotheken organisiert sind. Von hier aus können Sie Standard-Display-Anzeigen aus Vorlagen generieren, dynamische Display-Kreative aus Katalogdaten erstellen und vorhandene Kreative verwalten (Bearbeiten, Generieren von Anzeigenvarianten, Vorschau, Duplizieren, Herunterladen, Löschen, QS und Überprüfen von Änderungsprotokollen). Siehe &quot;[Verwalten von Standardanzeigen in Creative &#x200B;](creative-studio-manage-standard-ads.md)&quot; und &quot;[Verwalten dynamischer Anzeigen in Creative Studio](creative-studio-manage-dynamic-ads.md)&quot;.
+**[!UICONTROL Creatives]** - Der Ausgangspunkt für die Erstellung von Anzeigen. Zeigt die vorhandenen Kreativen an, die in Creative Studio generiert wurden und in ausblendbaren Kreativbibliotheken organisiert sind. Von hier aus können Sie Standard-Display-Anzeigen aus Vorlagen generieren, dynamische Display-Kreative aus Katalogdaten erstellen und vorhandene Kreative verwalten (Bearbeiten, Generieren von Anzeigenvarianten, Vorschau, Duplizieren, Herunterladen, Löschen, QS und Überprüfen von Änderungsprotokollen). Siehe &quot;[Verwalten von Standardanzeigen in Creative ](creative-studio-manage-standard-ads.md)&quot; und &quot;[Verwalten dynamischer Anzeigen in Creative Studio](creative-studio-manage-dynamic-ads.md)&quot;.
 
-**[!UICONTROL Templates]** - Zeigt alle Anzeige- und Video-Anzeigenvorlagen an, die Ihrem Konto zur Verfügung stehen, mit Filterung nach Quelle (Alle, Systemvorlagen, Benutzervorlagen), Status und Anzeigenformat. Sie können Vorlagen in der Vorschau anzeigen, als Favorit festlegen, beschriften, herunterladen und löschen oder eine Anzeigengenerierungssitzung direkt über eine vorhandene Anzeigenvorlage starten. Siehe &quot;[&#x200B; von Vorlagen in Creative Studio &#x200B;](creative-studio-manage-templates.md)&quot;.
+**[!UICONTROL Templates]** - Zeigt alle Anzeige- und Video-Anzeigenvorlagen an, die Ihrem Konto zur Verfügung stehen, mit Filterung nach Quelle (Alle, Systemvorlagen, Benutzervorlagen), Status und Anzeigenformat. Sie können Vorlagen in der Vorschau anzeigen, als Favorit festlegen, beschriften, herunterladen und löschen oder eine Anzeigengenerierungssitzung direkt über eine vorhandene Anzeigenvorlage starten. Siehe &quot;[ von Vorlagen in Creative Studio ](creative-studio-manage-templates.md)&quot;.
 
-**[!UICONTROL Assets]** - Speichert Bilder, Video- und Audiodateien, die in Vorlagen verwendet werden und verfügbar sind, um während der Sitzungen zur Anzeigengenerierung an KI-Chat-Nachrichten anzuhängen. Sie können Assets suchen, filtern, hochladen, herunterladen und löschen. Siehe [Verwalten von Assets in Creative &#x200B;](creative-studio-manage-assets.md).
+**[!UICONTROL Assets]** - Speichert Bilder, Video- und Audiodateien, die in Vorlagen verwendet werden und verfügbar sind, um während der Sitzungen zur Anzeigengenerierung an KI-Chat-Nachrichten anzuhängen. Sie können Assets suchen, filtern, hochladen, herunterladen und löschen. Siehe [Verwalten von Assets in Creative ](creative-studio-manage-assets.md).
 
 ## Wichtigste Funktionen
 
-* **KI-Inhaltserstellung:** Verwenden Sie die **[!UICONTROL Ad Variations Generator]**, um Anzeigenkonzepte und Varianten über eine Chat-Oberfläche in natürlicher Sprache zu generieren. Der KI-Assistent kann Überschriften, Unterüberschriften, CTAs, Textkörper- und Hintergrundbildvarianten generieren und in derselben Sitzung neue Größenvorlagen erstellen. Pro Sitzung können bis zu 10 Konzepte aktiv sein.
+* **Erstellen und Verwalten von Anzeigenvorlagen:**
 
-* **Unterstützung für Display- und Videoanzeigen:** Erstellen und verwalten Sie sowohl Display-Anzeigenvorlagen als auch Videoanzeigenvorlagen. Wenn Sie eine Vorlage erstellen, wählen Sie **[!UICONTROL Display Ad Template]** oder **[!UICONTROL Video Ad Template]** aus, die Ihrem Kampagnenformat entsprechen.
+  * **Aus Text mithilfe von AI generieren** [Generieren von Anzeigenvorlagen über eine Textaufforderung](creative-studio-manage-templates.md#template-generate-from-text) optional einschließlich eines Markenprofils und eines Bildes. Überprüfen Sie mehrere Ergebnisse und öffnen Sie dann eine Vorlage im Editor, um eine neue Kopie anzupassen und zu speichern.
 
-* **HTML5-Vorlagen-Upload:** Importieren Sie bestehende HTML5-Anzeigenvorlagen, indem Sie sie als ZIP-Dateien hochladen. Im Dialogfeld &quot;**[!UICONTROL Import Templates]**&quot; können Sie vor dem Import einen Advertiser und einen Vorlagennamen zuweisen.
+  * **Aus einem Bild mithilfe von AI generieren** [Konvertieren Sie ein vorhandenes statisches Display- und Anzeigenbild in eine bearbeitbare Vorlage](creative-studio-manage-templates.md#template-generate-from-image). Wählen Sie eine Bildanzeige aus einer Creative-Bibliothek aus, überprüfen Sie die generierte Vorlage und fordern Sie Änderungen in natürlicher Sprache an. Öffnen Sie den Vorlageneditor, um manuelle Änderungen vorzunehmen und die Vorlage zu speichern.
 
-* **Unterstützung für mehrere Größen:** Ändern der Größe fügt in einem Schritt zu IAB-Standardabmessungen hinzu. Die KI passt die Platzierung und Größe von Inhalten automatisch für jedes Format an, und die Steuerelemente der Arbeitsfläche (Vergrößern/Verkleinern, An den Bildschirm anpassen, Animationen wiedergeben) helfen Ihnen bei der Überprüfung jeder Größe.
+  * **Erstellen von Anzeige- und Videoanzeigenvorlagen** Erstellen und verwalten Sie sowohl Anzeige- als auch Videoanzeigenvorlagen. Wenn Sie eine Vorlage erstellen, wählen Sie **[!UICONTROL Display Ad Template]** oder **[!UICONTROL Video Ad Template]** aus, die Ihrem Kampagnenformat entsprechen.
 
-* **Markenorientierte Ausgaben:** Wenn Ihr [Markenprofil](/help/creative/brands/brand-manage.md) angewendet wird, verwendet die KI die Logos, Farbpaletten, Sprachrichtlinien, Bildstandards und Kanalrichtlinien Ihrer Marke, um generierte Inhalte markenbezogen zu halten.
+  * **HTML5-Vorlagen importieren:** Importieren Sie bestehende HTML5-Anzeigenvorlagen, indem Sie sie als ZIP-Dateien hochladen. Im Dialogfeld &quot;**[!UICONTROL Import Templates]**&quot; können Sie vor dem Import einen Advertiser und einen Vorlagennamen zuweisen.
 
-* **Zugriff auf die Asset-Bibliothek:** Hängen Sie Bilder und andere Assets direkt an KI-Chat-Nachrichten an, indem Sie aus Ihrer Asset-Bibliothek auswählen und den visuellen Kontext während der Inhaltserstellung verfügbar halten.
+  * **Vorlagen organisieren** Markieren Sie Vorlagen als Favoriten, wenden Sie Kennzeichnungen an und filtern Sie nach Status, Format oder Quelle, um die Organisation Ihrer Vorlagenbibliothek zu gewährleisten.
 
-* **Feed-Integration:** Verbinden Sie für dynamische Anzeigenkampagnen einen Produkt- oder Inhaltskatalog, um Anzeigen im benötigten Umfang zu generieren, und verwenden Sie dann den KI-Agenten, um die aus dem Katalog generierten Anzeigenkombinationen zu filtern, in der Vorschau anzuzeigen und die Qualität zu überprüfen.
+* **Anzeigen erstellen:**
 
-* **Vorlagenorganisation:** Sie Vorlagen als Favoriten markieren, Kennzeichnungen anwenden und nach Status, Format oder Quelle filtern, um die Organisation Ihrer Vorlagenbibliothek zu gewährleisten.
+  * **Standard-Anzeigeninhalte mithilfe von KI generieren** Verwenden Sie den **[!UICONTROL Ad Variations Generator]**, um Anzeigenkonzepte und Varianten über eine Chat-Oberfläche in natürlicher Sprache zu generieren. Der KI-Assistent kann Überschriften, Unterüberschriften, CTAs, Textkörper- und Hintergrundbildvarianten generieren und in derselben Sitzung neue Größenvorlagen erstellen. Pro Sitzung können bis zu 10 Konzepte aktiv sein.
+
+  * **Dynamische Kreative mithilfe von Feeds aufbauen:** Für dynamische Anzeigenkampagnen einen Produkt- oder Inhaltskatalog verbinden, um Anzeigen im benötigten Umfang zu generieren, und dann den KI-Agenten verwenden, um die aus dem Katalog generierten Anzeigenkombinationen zu filtern, in der Vorschau anzuzeigen und die Qualität zu überprüfen.
+
+* **Anpassen von Anzeigeninhalten und -formaten:**
+
+  * **Anwenden von Markenrichtlinien:** Wenn Ihr [Markenprofil](/help/creative/brands/brand-manage.md) angewendet wird, verwendet die KI die Logos, Farbpaletten, Stimmrichtlinien, Bildstandards und Kanalrichtlinien Ihrer Marke, um generierte Inhalte markenintern zu halten.
+
+  * **Bibliotheks-Assets anhängen:** Fügen Sie Bilder und andere Assets direkt an KI-Chat-Nachrichten an, indem Sie aus Ihrer Asset-Bibliothek auswählen und den visuellen Kontext während der Inhaltserstellung verfügbar halten.
+
+  * **Größe der Anzeigen ändern** Ändern der Größe von Anzeigen in IAB-Standarddimensionen in einem einzigen Schritt. Die KI passt die Platzierung und Größe von Inhalten automatisch für jedes Format an, und die Steuerelemente der Arbeitsfläche (Vergrößern/Verkleinern, An den Bildschirm anpassen, Animationen wiedergeben) helfen Ihnen bei der Überprüfung jeder Größe.
 
 ## Workflows zur Anzeigenerstellung
 
@@ -55,6 +65,8 @@ ht-degree: 0%
 | --- | --- |
 | [Generieren von Standardanzeigen aus einer Vorlage](creative-studio-manage-standard-ads.md) | Wählen Sie eine Anzeige- oder Videovorlage aus und verwenden Sie die [!UICONTROL Ad Variations Generator], um KI-generierte Inhaltsvarianten zu erstellen. Am besten, wenn bereits eine Vorlage vorhanden ist und Sie eine KI-gestützte Inhaltserstellung wünschen. |
 | [Dynamische Kreative verwalten](creative-studio-manage-dynamic-ads.md) | Verbinden Sie einen Produkt- oder Inhaltskatalog mit einer Vorlage, ordnen Sie Katalogfelder Vorlagenelementen zu und verwenden Sie dann den KI-Agenten, um alle generierten Anzeigenkombinationen in der Vorschau anzuzeigen und zu überprüfen. Optimiert für groß angelegte, kataloggesteuerte Kampagnen. |
+| [Generieren einer Vorlage aus Text](creative-studio-manage-templates.md#template-generate-from-text) | Beschreiben Sie eine Anzeige und eine Vorlage, wählen Sie optional ein Markenprofil und ein Bild aus und wählen Sie aus den KI-generierten Ergebnissen. Am besten, wenn Sie eine neue Vorlage ohne vorhandenen Anzeigenentwurf wünschen. |
+| [Generieren einer Vorlage aus einem Bild](creative-studio-manage-templates.md#template-generate-from-image) | (Beta-Funktion) Konvertieren Sie ein bestehendes statisches Anzeige- und Bildmaterial aus einer Creative-Bibliothek in eine bearbeitbare Vorlage, fordern Sie Änderungen in natürlicher Sprache an und bearbeiten und speichern Sie die Vorlage. Am besten, wenn Sie eine vorhandene Bildanzeige als Startdesign verwenden möchten. |
 | Neue Vorlage erstellen | Beginnen Sie mit einer leeren Arbeitsfläche, um eine Anzeige- oder Videovorlage zu erstellen. Am besten, wenn keine vorhandene Vorlage Ihren Anforderungen entspricht. |
 | HTML5-Vorlagen hochladen | Importieren Sie eine oder mehrere HTML5-Anzeigenvorlagen, die als ZIP-Dateien verpackt sind. Am besten, wenn Sie produktionsbereite HTML5-Kreative außerhalb von [!DNL Advertising Creative] haben. |
 
