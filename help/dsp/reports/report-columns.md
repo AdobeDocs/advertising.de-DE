@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3129'
 ht-degree: 0%
 ---
 # Verfügbare Berichtsspalten
@@ -124,12 +124,13 @@ Die verfügbaren Berichtsspalten variieren je nach Berichtstyp. Im Folgenden fin
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | Das Enddatum der Platzierung. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | Das Startdatum der Platzierung. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | Das Platzierungs-Tag, das als benutzerdefinierte Kennung für die Platzierung verwendet wird. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | Die Beschreibung, die einem fakturierbaren Segment zugeordnet ist. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | Der eindeutige Schlüssel, der einem fakturierbaren Segment zugeordnet ist. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | Der Name eines fakturierbaren Segments. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Description] | Die Beschreibung, die einem Segment zugeordnet ist, dem Impressionen zugeordnet sind und die vom Datenanbieter bereitgestellt wird. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Key] | Der eindeutige Schlüssel, der einem Segment zugeordnet ist, dem Impressionen zugeordnet sind. **Hinweis:** Jede Impression wird einem einzelnen Segment zugeordnet, sodass sich die Ausgaben auf die tatsächliche Gesamtsumme belaufen. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Name] | Der Name eines Segments, dem Impressionen zugeordnet sind. **Hinweis:** Jede Impression wird einem einzelnen Segment zugeordnet, sodass sich die Ausgaben auf die tatsächliche Gesamtsumme belaufen. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Provider Name] | Der Name des Datenanbieters, der einem Segment zugeordnet ist, dem Impressionen zugeordnet sind. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | Die Beschreibung, die mit einem Segment verknüpft ist und vom Datenanbieter bereitgestellt wird. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | Der mit einem Segment verknüpfte eindeutige Schlüssel. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Der Name eines Segments. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | Der mit einem Segment verknüpfte eindeutige Schlüssel. **Hinweis:** Wenn eine Impression mehreren Segmenten entspricht, werden die Impression und alle zugehörigen Standard-, Ausgaben- und Leistungsmetriken jedem entsprechenden Segment zugeordnet. Metriken für die kombinierten Segmentzeilen können höher sein als die Summen Ihrer Kampagnen. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Der Name eines Segments. **Hinweis:** Wenn eine Impression mehreren Segmenten entspricht, werden die Impression und alle zugehörigen Standard-, Ausgaben- und Leistungsmetriken jedem entsprechenden Segment zugeordnet. Metriken für die kombinierten Segmentzeilen können höher sein als die Summen Ihrer Kampagnen. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | Der Name des mit einem Segment verknüpften Datenanbieters. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Die eindeutige Kennung für die Site oder die App in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Der Name der Site. |

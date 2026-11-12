@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # Über Ihre Kreativbibliotheken
@@ -91,7 +91,7 @@ Für jedes standardmäßige Display- und Erlebniserlebnis ist ein Standardbild f
 
 #### Kreative von Drittanbietern
 
-Geben Sie JavaScript-Tracking-Tags für Kreative ein, die auf Werbe-Servern von Drittanbietern gehostet werden. Das Skript variiert je nach Anzeigenserver. Das folgende Beispiel:
+[Hinzufügen von Drittanbieter-Display-Kreativen](creative-add-standard.md#creative-add-third-party) die auf externen Anzeigen-Servern gehostet werden, indem ein Traffic-Blatt in die neue Benutzeroberfläche hochgeladen oder ein JavaScript-Tag in die alte Benutzeroberfläche eingegeben wird. Der Massen-Upload akzeptiert Excel-, CSV- und TSV-Dateien. Das Skript variiert je nach Anzeigenserver. Das folgende Beispiel:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
