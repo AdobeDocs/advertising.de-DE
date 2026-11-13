@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # Platzierungseinstellungen
@@ -101,7 +101,7 @@ Die Datumsangaben für das Paket (falls zutreffend) oder die Kampagne werden sta
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP bietet mindestens den Festpreis/Mindestpreis für die anvisierten privaten und [!DNL On-Demand] Angebote an, auch wenn das algorithmisch berechnete Angebot geringer ist. Dies kann sich auf die Leistung auswirken.
 
-**[!UICONTROL Placement Pre-bid Filters]:** Bis zu fünf KPI-Schwellenwerte (z. B. eine Metrik für die minimale Sichtbarkeit oder Clickthrough-Rate), die erfüllt sein müssen, damit Angebote unterbreitet werden können. Sie können Pre-Bid-Filter als Optimierungstaktik verwenden, aber verstehen Sie, dass jede Regel die Chancen einschränken kann, für die diese Platzierung Gebote abgeben kann. So fügen Sie Filter hinzu oder bearbeiten sie:
+**[!UICONTROL Placement Pre-bid Filters]:** Bis zu fünf KPI-Schwellenwerte (z. B. eine Metrik für die minimale Sichtbarkeit oder Clickthrough-Rate), die erfüllt sein müssen, damit Angebote unterbreitet werden können. Sie können Pre-Bid-Filter als Optimierungstaktik verwenden, aber verstehen Sie, dass jede Regel die Möglichkeiten einschränkt, mit denen diese Platzierung bieten kann. So fügen Sie Filter hinzu oder bearbeiten sie:
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Führen Sie einen der folgenden Schritte aus:
@@ -155,7 +155,7 @@ Beschreibungen der einzelnen Pre-Bid-Filter finden Sie unter &quot;[Pre-Bid-Filt
   >
   >Diese Option kann sich negativ auf die Leistung auswirken. Verwenden Sie sie nur, wenn Sie die Bereitstellung vollständig priorisieren und die Ausgaben der Leistungsoptimierung vorziehen.
 
-**[!UICONTROL Placement Pre-bid Filters]:** (Optional) Bis zu fünf Filter, die erfüllt sein müssen, damit Gebote stattfinden. Sie können Pre-Bid-Filter als Optimierungstaktik verwenden. Beachten Sie jedoch, dass jede Regel die Möglichkeiten einschränken kann, für die diese Platzierung ein Angebot unterbreiten kann. So fügen Sie Filter hinzu oder bearbeiten sie:
+**[!UICONTROL Placement Pre-bid Filters]:** (Optional) Bis zu fünf Filter, die erfüllt sein müssen, damit Gebote stattfinden. Sie können Pre-Bid-Filter als Optimierungstaktik verwenden. Beachten Sie jedoch, dass jede Regel die Möglichkeiten einschränkt, für die diese Platzierung Gebote abgeben kann. So fügen Sie Filter hinzu oder bearbeiten sie:
 
 1. Klicken Sie ![Bearbeiten](/help/dsp/assets/edit.png).
 1. Führen Sie einen der folgenden Schritte aus:
@@ -208,7 +208,7 @@ So geben Sie Standorte an:
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]:** Inventarquellen, die als Ziele ein- oder ausgeschlossen werden sollen. Bei den meisten Platzierungstypen sind standardmäßig alle Inventartypen und alle Quellen für jeden Typ enthalten. Für [!DNL Roku] Platzierungen müssen Sie den Inventartyp und die Quellen angeben. Sie können aus den folgenden Inventartypen auswählen:
+**[!UICONTROL Inventory Sources]:** Inventarquellen, die als Ziele ein- oder ausgeschlossen werden sollen. Für die meisten Platzierungstypen umfasst DSP standardmäßig alle Inventartypen und alle Quellen für jeden Typ. Für [!DNL Roku] Platzierungen müssen Sie den Inventartyp und die Quellen angeben. Sie können aus den folgenden Inventartypen auswählen:
 
 * [!UICONTROL Public]: (Alle Platzierungstypen außer Roku) Alle offenen Exchange-Inventare, auf die DSP Zugriff hat. Sie können öffentliche Inventare ein- und ausschließen.
 
@@ -247,15 +247,49 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 >
 >Wenn Sie [!UICONTROL On Demand] Inventar abonniert haben, aber die Herausgeber oder Angebote für Target nicht finden können, überprüfen Sie den Status der Angebote. Weitere Informationen zu Status finden Sie unter [Über [!DNL On Demand] Premium-Inventar](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Video targeting]:** Zielbestand (aber nicht ausschließen) nach Inventarattributen. Wenn Sie mehrere Werte für dasselbe Videoattribut auswählen, kann jedes der ausgewählten Attribute als Ziel ausgewählt werden (z. B. \[Player-Größe = groß ODER Player-Größe = HD\]). Wenn mehrere Attribute ausgewählt werden, muss jedes der angegebenen Attribute vorhanden sein (z. B. \[Dauer = 30-60 min] UND \[Player-Größe = groß ODER Player-Größe = HD\]).
+**[!UICONTROL Video targeting]:** Zielbestand (aber nicht ausschließen) nach Videoattributen. Wenn Sie mehrere Werte für dasselbe Videoattribut auswählen, kann der Bestand mit einem beliebigen ausgewählten Wert übereinstimmen (z. B. einer Player-Größe von [!UICONTROL Large] oder [!UICONTROL HD]). Wenn mehrere Attribute ausgewählt werden, muss der Bestand mit jedem angegebenen Attribut übereinstimmen (z. B. nicht überspringbarer Bestand mit einer Player-Größe von [!UICONTROL Large] oder [!UICONTROL HD]).
 
-* **[!UICONTROL Player size]:** Zielinventar (aber nicht ausschließen) nach Player-Größe. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig sind alle Größen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielgrößen und/oder *Unbekannt* aus.
+* **[!UICONTROL Player size]:** Zielinventar (aber nicht ausschließen) nach der in der Bid-Anfrage angegebenen Player-Breite. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig sind alle Größen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielgrößen und/oder -[!UICONTROL Unknown] aus.
 
-* **[!UICONTROL Playback mode]:** Zielinventar (aber nicht ausschließen) durch die Art und Weise, wie die Wiedergabe gestartet wird. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig werden alle Modi als Ziel ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielmodi und/oder *Unbekannt* aus.
+  * **[!UICONTROL Small]:** 1-299 Pixel breit.
+  * **[!UICONTROL Large]:** 300-719 Pixel breit.
+  * **[!UICONTROL HD]:** 720-10000 Pixel breit.
+  * **[!UICONTROL Unknown]:** Die Player-Breite fehlt oder ist kein positiver Wert.
 
-* **[!UICONTROL Skippability]:** Zielinventar (aber nicht ausschließen), je nachdem, ob es übersprungen werden kann oder nicht. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig sind alle Optionen ausgewählt. Um die Ziele einzugrenzen, wählen Sie bestimmte Ziele und/oder *Unbekannt* aus.
+* **[!UICONTROL Playback mode]:** Zielinventar (aber nicht ausschließen) durch die Art und Weise, wie die Wiedergabe gestartet oder fortgesetzt wird. Diese Einstellung gilt für Preroll-Platzierungen, standardmäßige mobile Preroll-Platzierungen und universelle Video-Platzierungen für Desktop- und Mobile-Umgebungen. Standardmäßig werden alle Modi als Ziel ausgewählt. Um die Ziele einzugrenzen, wählen Sie bestimmte Zielmodi und/oder [!UICONTROL Unknown] aus.
 
-**[!UICONTROL Position targeting]:** Zielbestand (aber nicht ausschließen) nach Anzeigenposition. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig werden alle Positionen als Zielgruppen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Zielpositionen und/oder *Unbekannt* aus.
+  Zu den unterstützten Modi gehören die automatische Wiedergabe mit standardmäßig aktiviertem oder deaktiviertem Ton, die Wiedergabe, die durch Klicken oder Bewegen der Maus eingeleitet wird, die Wiedergabe, die eingeleitet wird, wenn der Player standardmäßig mit aktiviertem oder deaktiviertem Ton zur Ansicht wechselt, und die kontinuierliche Wiedergabe. Wenn eine Angebotsanfrage mehrere Wiedergabemethoden enthält, verwendet DSP die erste aufgelistete Methode.
+
+* **[!UICONTROL Skippability]:** Zielinventar (aber nicht ausschließen), je nachdem, ob es übersprungen werden kann oder nicht. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig sind alle Optionen ausgewählt. Um die Ziele einzugrenzen, wählen Sie „Überspringbarer oder nicht überspringbarer Bestand und/oder &quot;[!UICONTROL Unknown]&quot; aus. DSP klassifiziert die Überspringbarkeit als [!UICONTROL Unknown], wenn die Angebotsanforderung keinen gültigen Überspringbarkeitswert angibt.
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+**[!UICONTROL Position targeting]:** Zielinventar (aber nicht ausschließen) nach Video-Anzeigenpositionsattributen. Diese Einstellung gilt für alle VAST/VPAID-Platzierungen, einschließlich Preroll, Standard-Mobile-Preroll, Connected TV und Universal Video-Platzierungen. Standardmäßig werden alle Positionen als Zielgruppen ausgewählt. Um die Zielgruppen einzugrenzen, wählen Sie bestimmte Positionen in **[!UICONTROL Video Ad Position]** aus.
+
+DSP verwendet OpenRTB 2.6-Videoplatzierungssignale, die von anbieterseitigen Plattformen (SSPs), einschließlich [!DNL Magnite], bereitgestellt werden, um Anzeigenpositionen zu klassifizieren. Die verfügbaren Optionen hängen vom Platzierungstyp ab.
+
+| Anzeigenposition | Beschreibung |
+| --- | --- |
+| Instream Pre-roll, Mid-roll und Post-roll | Anzeigen vor, während oder nach Videoinhalten, die der Viewer angefordert hat. Unter OpenRTB 2.6 erfordert das Instream-Inventar Ton am Player-Start oder einen expliziten Hinweis, dass der Betrachter beabsichtigt, das Video anzuschauen. |
+| [!UICONTROL Accompanying Content] | Anzeigen in einem Video-Player, der Text oder andere Inhalte begleitet. Der Player startet die Wiedergabe, wenn er zur Ansicht gelangt, und kann beim Scrollen des Viewers klebrig oder unverankert werden. |
+| [!UICONTROL Interstitial] | Videoanzeigen ohne begleitende Videoinhalte, die den größten Teil der Ansicht belegen und während der Wiedergabe nicht ausgeblendet werden können. |
+| [!UICONTROL No Content/Standalone] | Videoanzeigen ohne Streaming von Videoinhalten, z. B. Anzeigen in Feeds oder Sticky- oder Floating-Playern. |
+| [!UICONTROL Pause] | Anzeigen, die angezeigt werden, während der Viewer das Streaming von Videoinhalten anhält. |
+| [!UICONTROL Screensaver] | Anzeigen, die angezeigt werden, wenn ein Betriebssystem oder eine Anwendung einen Bildschirmschoner startet. |
+| [!UICONTROL Overlay] | Anzeigen, die über Videoinhalte außerhalb einer herkömmlichen Anzeigenunterbrechung angezeigt werden. |
+| [!UICONTROL Squeezeback] | Anzeigen, die neben Videoinhalten angezeigt werden, deren Größe geändert wird, um Platz für die Anzeige zu schaffen, anstatt von ihr abgedeckt zu werden. |
+| [!UICONTROL In-scene] | Anzeigen sind in die Videoszene selbst integriert, anstatt in einer separaten Werbeunterbrechung oder über dem Inhalt angezeigt zu werden. |
+| [!UICONTROL Unknown] | Inventar, für das DSP keine unterstützte Videoanzeigenposition aus den bereitgestellten Signalen ermitteln kann. |
+
+Wenn Sie mehrere Positionen auswählen, kann das Inventar mit jeder ausgewählten Position übereinstimmen. Die Auswahl bestimmter Positionen kann den zulässigen Bestand reduzieren. Schließen Sie **[!UICONTROL Unknown]** ein, wenn Sie auch einen Bestand auswählen möchten, dessen Position DSP nicht ermitteln kann. Um zu vermeiden, dass der Bestand durch die Anzeigenposition eingeschränkt wird, lassen Sie die Einstellung auf der Standardeinstellung.
+
+DSP bestimmt Stream-Pre-Roll, Mid-Roll und Post-Roll aus dem Startverzögerungssignal, das mit der Bid-Anfrage bereitgestellt wird. Wenn dieses Signal fehlt oder ungültig ist, klassifiziert DSP die Stream-Position als **[!UICONTROL Unknown]**.
+
+Wenn eine gültige OpenRTB 2.6-Position angegeben wird, verwendet DSP diese anstelle der alten OpenRTB 2.5-Position. Fehlt die OpenRTB 2.6-Position oder ist sie ungültig, kann DSP weiterhin ältere Instream-Inventare erkennen, wenn ein gültiges Start-Delay-Signal ausgegeben wird. Andere alte Positionen werden als **[!UICONTROL Unknown]** klassifiziert, anstatt in die neuen Kategorien übersetzt zu werden.
+
+>[!NOTE]
+>
+>OpenRTB 2.6-Positionskategorien sind kein Eins-zu-eins-Ersatz für die alten Kategorien. Beispielsweise können Inventare, die zuvor als Stream beschrieben wurden, jetzt als begleitende Inhalte klassifiziert werden. Überprüfen Sie Ihre Positionsziele mit Ihrem Adobe-Account-Team, wenn sich der zulässige Bestand ändert, da SSPs die neueren Signale übernehmen.
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 
@@ -314,7 +348,7 @@ So legen Sie die Inventar-Zielgruppenbestimmung fest:
 
 >[!NOTE]
 >
->* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [&#x200B; für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
+>* Zusätzlich zur DSP-Liste (Global Blockierte Site-Liste), die Sites umfasst, die als [ für Anzeigen gelten](/help/dsp/introduction/features/brand-safety-media-quality.md) werden auch Listen auf Konto- und Advertiser-Ebene angewendet.
 >* Listen blockierter Sites setzen zielgerichtete Sites und Site-Listen immer außer Kraft. Wenn eine Platzierung dieselbe Zielgruppe für eine Anzeige sowohl ausschließt als auch enthält, wird die Zielgruppe ausgeschlossen.
 
 **[!UICONTROL Context of Sites or App]:** (Optional) Kontextuelle Zielsegmente zum Targeting oder Ausschließen. Wählen Sie aus der folgenden URL aus
@@ -341,7 +375,7 @@ Optional können Sie die Liste der zielgerichteten und blockierten Websites als 
 
 * Um eine vorhandene Audience auszuwählen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann die Audience aus.
 * Um eine Audience zu erstellen, klicken Sie ![Auswählen](/help/dsp/assets/chevron-down.png) neben [!UICONTROL Included Audiences] und wählen Sie dann **[!UICONTROL + Create Audience]** aus. Anweisungen finden Sie unter [Erstellen einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md), beginnend mit Schritt 3.
-* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[&#x200B; einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+* Um bestimmte Zielgruppensegmente auszuwählen, klicken Sie auf **[!UICONTROL Select segments for this placement only]**. Wählen Sie die Segmentlogik aus. Anweisungen finden Sie in Schritt 6 unter &quot;[ einer wiederverwendbaren Zielgruppe](/help/dsp/audiences/reusable-audience-create.md). Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
@@ -359,7 +393,7 @@ Wenn Sie sowohl ältere als auch universelle IDs auswählen, erhalten universell
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (Standard) Targeting von Benutzern basierend auf ihren Cookies, IDs für mobile Werbung oder Connected TV-IDs (CTV). IDs werden basierend auf dem Browser-, In-App- oder CTV-Inventar ausgewählt.
 
-* *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle &#x200B;](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID]*: Targeting von IDs mit Fokus auf den Benutzerdatenschutz; Auswahl eines ID-Typs. Die verfügbaren Optionen werden durch die ausgewählten geografischen Ziele im Abschnitt [!UICONTROL Geo-Targeting] bestimmt. Verwenden Sie mit [[!DNL RampID] direkt in DSP importierten Segmenten](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [Segmenten, für die DSP Ihre personenbezogenen Daten in universelle ](/help/dsp/audiences/sources/source-about.md) konvertiert, [Erstanbieter- [!DNL AdFixus] , die an DSP](/help/dsp/audiences/sources/source-adfixus.md) gestreamt werden, oder [benutzerdefinierten Segmenten, die universelle IDs verfolgen](/help/dsp/audiences/custom-segment-create.md).
 
   * *[!UICONTROL AdFixus]*: Zielgruppen [!DNL AdFixus] IDs, die nach Advertising DSP importiert wurden.
 
@@ -489,7 +523,7 @@ Die ID muss mit „51“ beginnen und aus acht Ziffern bestehen. Wenn in den Ein
 * *[!UICONTROL Ads.txt sellers only]*: Zum Kauf des Inventars nur von den autorisierten Direktverkäufern und Wiederverkäufern einer Domain.
 * *[!UICONTROL Ads.txt sellers only]*: Um Inventar nur von den autorisierten Direktverkäufern einer Domain zu kaufen.
 
-**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
+**[!UICONTROL Attention Targeting]:** (Gilt für Desktop- und mobile Web-Anzeige, Video und standardmäßig verbundene TV-Anzeigen) Zielt [!DNL Adelaide], Segmente basierend auf der angegebenen Website, dem Format und der Anzeigengröße vorab mit einem bestimmten Aufmerksamkeitsgrad (hoch, mittel oder niedrig) anzubieten. Die Segmente werden wöchentlich aktualisiert. **Hinweis** Bei der Verwendung [!DNL Adelaide] Zielgruppensegmente fallen für jede Impression, die mit [!DNL Adelaide] Zielgruppenbestimmung zugestellt wird, CPM-Gebühren an. Diese Gebühren sind von den Gebühren für die [Aufmerksamkeitsmessung“ ](/help/dsp/campaign-management/campaigns/campaign-settings.md). Für interaktive Pre-Roll-Platzierungen werden Ihnen nur VAST-Impressions berechnet.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
