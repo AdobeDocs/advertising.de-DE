@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # Erstellen einer benutzerdefinierten Metrik
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. Geben Sie die [benutzerdefinierten Metrikeinstellungen](custom-metric-settings.md) an.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
+
+## (Neue Benutzeroberfläche) Erstellen einer benutzerdefinierten Metrik aus den Einstellungen des Berichts oder der Berichtsvorlage {#create-from-report-settings}
+
+1. Gehen Sie in den Einstellungen für Berichte oder Berichtsvorlagen zum Schritt **[!UICONTROL Columns]** .
+
+1. Geben Sie im Abschnitt **[!UICONTROL Custom Metrics]** die Metrikeinstellungen an:
+
+   * **[!UICONTROL Custom Metric Name]:** Geben Sie einen Namen für die Metrik ein.
+
+   * **[!UICONTROL Format]:** Wählen Sie **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** oder **[!UICONTROL Percentage]** aus.
+
+   * **[Formeleingabefeld]:** Erstellen Sie die Formel, indem Sie Metriken aus **[!UICONTROL Insert Metric]** auswählen und auf die Operatorschaltflächen (`+`, `-`, `*`, `/`, `(` und `)`) klicken. Sie können die Formel auch manuell eingeben. Platzieren Sie den Cursor an der Stelle, an der die einzelnen Metriken oder Operatoren eingefügt werden sollen.
+
+1. Klicken Sie auf **[!UICONTROL Add Metric]**.
+
+   Nachdem die Metrik erfolgreich erstellt wurde, wird die Liste der verfügbaren Spalten nach dem Metriknamen gefiltert. Beim Erstellen der Metrik wird sie nicht automatisch in den Bericht aufgenommen.
+
+1. Um die Metrik in den Bericht aufzunehmen, wählen Sie sie in der Liste der verfügbaren Spalten aus und klicken Sie auf ![Nach-rechts](/help/search-social-commerce/assets/arrow-right-customize.png "Nach-rechts"), um sie in die Liste der ausgewählten Spalten zu verschieben.
 
 ## (Alte Benutzeroberfläche) Erstellen einer benutzerdefinierten Metrik aus einer Kampagnen-Management-Ansicht
 

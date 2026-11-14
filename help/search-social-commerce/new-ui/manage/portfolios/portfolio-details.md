@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
   Optional können Sie die Portfolioeinstellungen öffnen, um sie zu bearbeiten.
 
-* Listen der Kampagnen, Anzeigengruppen und Keywords im Portfolio. Für einzelne Keywords können Sie Details zu Gebotseinheiten anzeigen, einschließlich Prognosen, historischen Informationen und hierarchischen Informationen.
+* Listen der Kampagnen, Anzeigengruppen und Keywords im Portfolio.
 
-  Die [!UICONTROL Bid Unit Details] enthält die folgenden Prognosen, historische Informationen und hierarchische Informationen für die ausgewählte Gebotseinheit:
+  Für einzelne Keywords können Sie Details zu Gebotseinheiten anzeigen, einschließlich Prognosen, historischen Informationen und hierarchischen Informationen. Die [!UICONTROL Bid Unit Details] enthält die folgenden Prognosen, historische Informationen und hierarchische Informationen für die ausgewählte Gebotseinheit:
 
   * Registerkarte &quot;[!UICONTROL Forecast]&quot;: Die derzeit prognostizierten Klicks, Kosten, Kosten pro Klick, Position und Umsatz für die Gebotseinheit zu unterschiedlichen Gebotspreisen. Daten werden für alle Geräte und für jeden Gerätetyp ([!UICONTROL Mobile], [!UICONTROL Computer] und [!UICONTROL Tablet]) angezeigt.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 
