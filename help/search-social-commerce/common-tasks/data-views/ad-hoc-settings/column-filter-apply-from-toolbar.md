@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # Anwenden von Datenfiltern über die Symbolleiste
@@ -28,7 +28,7 @@ Sie können beliebig viele Filter auf eine Ansicht anwenden.<!-- True only for e
 
 ## (Neue Benutzeroberfläche) Anwenden von Datenfiltern über die Symbolleiste in Verwaltungsansichten
 
-1. Klicken Sie in der Symbolleiste auf das ![-Steuerelement &#x200B;](/help/search-social-commerce/assets/filter-new.png "Filter") vor der Rastersuche.
+1. Klicken Sie in der Symbolleiste vor dem Suchfeld auf das ![-Steuerelement ](/help/search-social-commerce/assets/filter-new.png "Filter")Filter).
 
 1. Führen Sie in den Filtereinstellungen einen der folgenden Schritte aus:
 

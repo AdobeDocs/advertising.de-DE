@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Daten nach Datumsbereich filtern
@@ -77,9 +77,9 @@ Um den Vergleich von Zeiträumen zu beenden, öffnen Sie das Steuerelement für 
 
 1. Wählen Sie **[!UICONTROL As percentage]** oder **[!UICONTROL As variance]** aus.
 
-   Die Auswahl gilt für alle Vergleichsmetriken im Raster, nicht nur für die ausgewählte Spalte. Das Datumsbereichssteuerelement wird mit der Auswahl synchronisiert, und das Format wird auf allen entsprechenden Seiten für den aktuellen Advertiser freigegeben, einschließlich Ansichten mit gespeicherten Datumsbereichen.
+   Die Auswahl gilt für alle Vergleichsmetriken in der Datentabelle, nicht nur für die ausgewählte Spalte. Das Datumsbereichssteuerelement wird mit der Auswahl synchronisiert, und das Format wird auf allen entsprechenden Seiten für den aktuellen Advertiser freigegeben, einschließlich Ansichten mit gespeicherten Datumsbereichen.
 
-   Nach der erfolgreichen Aktualisierung des Rasters wird eine Bestätigungsmeldung angezeigt. Wenn das Raster nicht mit dem ausgewählten Format aktualisiert werden kann, wird stattdessen eine Fehlermeldung angezeigt. Wählen Sie das Format erneut aus.
+   Nach der erfolgreichen Aktualisierung der Datentabelle wird eine Bestätigungsmeldung angezeigt. Wenn die Datentabelle nicht mit dem ausgewählten Format aktualisiert werden kann, wird stattdessen eine Fehlermeldung angezeigt. Wählen Sie das Format erneut aus.
 
 Sortier- und Filteroptionen bleiben, sofern unterstützt, in Spaltenmenüs verfügbar.
 
@@ -94,8 +94,8 @@ Wenn Sie einen bestimmten Datumsbereich für eine Standardansicht oder benutzerd
 >[!NOTE]
 >
 >* Sie können Daten der vorherigen 13 Monate anzeigen, aber alle vorhandenen benutzerdefinierten Ansichten können nur Daten für bis zu den vorherigen 180 Tagen enthalten.
->* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
->* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
+>* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## (Alte Benutzeroberfläche) Ändern des globalen Datumsfilters in Kampagnenansichten
 
