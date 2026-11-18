@@ -120,7 +120,7 @@ Um die Einstellungen zu ändern, klicken Sie auf **[!UICONTROL Configure]**, än
 
 * **[!UICONTROL Simulation Date]:** Wählen Sie das Datum der zu analysierenden Simulation aus. Wenn für dieses Datum mehrere Simulationen verfügbar sind, wählen Sie auch die Simulation nach Namen aus.
 
-  Wenn keine benutzerdefinierten Simulationen verfügbar sind, [ Sie eine benutzerdefinierte Simulation ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md), bevor Sie diese insight verwenden.
+  Wenn keine benutzerdefinierten Simulationen verfügbar sind, [&#x200B; Sie eine benutzerdefinierte Simulation &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md), bevor Sie diese insight verwenden.
 
 * **[!UICONTROL Actual Days]:** Wählen Sie **[!UICONTROL 7]** (Standard), **[!UICONTROL 14]** oder **[!UICONTROL 30]** Tage der tatsächlichen Leistungsdaten aus. Um eine andere Zahl anzugeben, wählen Sie **[!UICONTROL Enter Actual Days]** und geben Sie einen Wert zwischen 1 und 90 ein.
 
