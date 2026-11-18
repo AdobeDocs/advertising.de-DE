@@ -18,14 +18,72 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Daten nach Datumsbereich filtern
 
-<!-- The same in new UI and legacy CM views -->
+Verwenden Sie den Datumsbereichsfilter, um den Zeitraum anzugeben, für den Leistungsdaten angezeigt werden sollen. In Ansichten, die einen Datumsvergleich unterstützen, können Sie auch die Leistung für zwei Zeiträume vergleichen.
+
+## (Neue Benutzeroberfläche) Ändern des Datumsbereichs {#date-filter-new-ui}
+
+1. Klicken Sie in der Kopfzeile der Seite mit dem Kalendersymbol auf das Steuerelement für den Datumsbereich.
+
+1. Geben Sie den Datumsbereich an:
+
+   * Um einen voreingestellten Bereich zu verwenden, wählen Sie eine Option aus dem Menü über dem ersten Kalender aus, z. B. **[!UICONTROL Yesterday]** oder **[!UICONTROL Last 7 Days]**.
+
+   * Um einen benutzerdefinierten Bereich zu verwenden, wählen Sie **[!UICONTROL Custom Date Range]** und das Start- und Enddatum im Kalender aus. Verwenden Sie die Kalenderpfeile, um zwischen Monaten zu navigieren.
+
+1. Klicken Sie auf **[!UICONTROL Apply]**.
+
+## (Neue Benutzeroberfläche) Vergleichen von Daten für zwei Zeiträume {#compare-periods-new-ui}
+
+*Ansichten, die nur Datumsvergleiche unterstützen*
+
+1. Klicken Sie in der Kopfzeile der Seite mit dem Kalendersymbol auf das Steuerelement für den Datumsbereich.
+
+1. Schalte **[!UICONTROL Compare Periods]** ein.
+
+   Zwei Kalenderbereiche werden nebeneinander angezeigt. Die erste Periode hat eine echte Markierung, und die Vergleichsperiode hat eine violette Markierung.
+
+1. Geben Sie im ersten Bedienfeld den Datumsbereich an:
+
+   * Um einen voreingestellten Bereich zu verwenden, wählen Sie eine Option aus dem Menü über dem ersten Kalender aus, z. B. **[!UICONTROL Yesterday]** oder **[!UICONTROL Last 7 Days]**.
+
+   * Um einen benutzerdefinierten Bereich zu verwenden, wählen Sie **[!UICONTROL Custom Date Range]** und das Start- und Enddatum im Kalender aus. Verwenden Sie die Kalenderpfeile, um zwischen Monaten zu navigieren.
+
+1. Wählen Sie im zweiten Bedienfeld eine Vergleichsvorgabe aus oder klicken Sie auf ein Startdatum im Kalender.
+
+   Der Vergleichszeitraum hat dieselbe Anzahl von Tagen wie der erste Zeitraum. Überprüfen Sie die vollständigen Datumsbereiche über beiden Kalendern.
+
+1. Wählen Sie **[!UICONTROL Comparison Format]** aus, wie der Unterschied angezeigt werden soll:
+
+   * **[!UICONTROL As percentage]:** Die Differenz als Prozentsatz anzeigen.
+
+   * **[!UICONTROL As variance]:** Zeigt die Differenz als numerischen Wert an.
+
+1. Klicken Sie auf **[!UICONTROL Apply]**.
+
+   Das Datumsbereichssteuerelement zeigt beide vollständigen Datumsbereiche mit ihren Periodenbeschriftungen und Farbmarkierungen an. Jede vergleichbare Metrik wird in zwei Periodenspalten und eine **[!UICONTROL Change]** Spalte gruppiert. Nicht vergleichbare Felder bleiben einzelne Spalten. Die Punktmarken in den Spaltenüberschriften identifizieren die entsprechenden Datumsbereiche.
+
+Um den Vergleich von Zeiträumen zu beenden, öffnen Sie das Steuerelement für den Datumsbereich, deaktivieren Sie **[!UICONTROL Compare Periods]** und klicken Sie auf **[!UICONTROL Apply]**. Durch Deaktivieren des Vergleichs werden Filter auf der Grundlage von Vergleichsdaten gelöscht.
+
+### Ändern des Vergleichsformats über ein Spaltenmenü
+
+1. Wenn der Datumsvergleich aktiviert ist, öffnen Sie für eine vergleichbare Metrik das Menü für die Spaltenüberschrift einer **[!UICONTROL Change]** Spalte oder einer der Periodenspalten.
+
+1. Wählen Sie **[!UICONTROL As percentage]** oder **[!UICONTROL As variance]** aus.
+
+   Die Auswahl gilt für alle Vergleichsmetriken in der Datentabelle, nicht nur für die ausgewählte Spalte. Das Datumsbereichssteuerelement wird mit der Auswahl synchronisiert, und das Format wird auf allen entsprechenden Seiten für den aktuellen Advertiser freigegeben, einschließlich Ansichten mit gespeicherten Datumsbereichen.
+
+   Nach der erfolgreichen Aktualisierung der Datentabelle wird eine Bestätigungsmeldung angezeigt. Wenn die Datentabelle nicht mit dem ausgewählten Format aktualisiert werden kann, wird stattdessen eine Fehlermeldung angezeigt. Wählen Sie das Format erneut aus.
+
+Sortier- und Filteroptionen bleiben, sofern unterstützt, in Spaltenmenüs verfügbar.
+
+## Einstellungen für den Datumsbereich (veraltete Benutzeroberfläche)
 
 Derselbe Filter für den globalen Datumsbereich wird auf die meisten Datenansichten in allen Ihren Werbetreibenden angewendet, mit Ausnahme von standardmäßigen und benutzerdefinierten Ansichten, für die Sie bestimmte Datumsbereiche gespeichert haben. Der standardmäßige Datumsbereich für Kampagnenverwaltungsansichten ist „Gestern“.
 
@@ -39,7 +97,7 @@ Wenn Sie einen bestimmten Datumsbereich für eine Standardansicht oder benutzerd
 >* Um frühere Daten anzuzeigen, wechseln Sie zur [[!UICONTROL Reports] Ansicht &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) führen Sie einen einfachen Bericht aus.
 >* Sie können auch einen Datumsbereich für eine [Standardansicht oder benutzerdefinierte Ansicht) &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-## Ändern des globalen Datumsfilters in Kampagnenansichten
+## (Alte Benutzeroberfläche) Ändern des globalen Datumsfilters in Kampagnenansichten
 
 1. Klicken Sie über einer Datentabelle in Suchen \> Kampagnen \> Kampagnen auf den aktuellen Datumsbereich.
 

@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # Aktualisieren von Daten in Verwaltungsansichten
 
-* (Neue Benutzeroberfläche) Klicken Sie in der Symbolleiste über der Datentabelle auf ![Aktualisieren](/help/search-social-commerce/assets/refresh-new.png).
+* (Neue Benutzeroberfläche) Klicken Sie in den entsprechenden Verwaltungsansichten auf das Steuerelement ![Aktualisieren](/help/search-social-commerce/assets/refresh-new.png "Aktualisieren") neben dem Seitentitel.
 
 * (Alte Benutzeroberfläche) Klicken Sie unten in der Datentabelle auf ![Aktualisieren](/help/search-social-commerce/assets/refresh.png).

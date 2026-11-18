@@ -9,12 +9,30 @@ product_v2:
 feature_v2:
   - id: bcc57258-3285-5d02-a731-d86f57a58c47
     internal-label: Search Common Tasks
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '210'
 ht-degree: 0%
 ---
 # Datum im Kalender angeben
+
+## (Neue Benutzeroberfläche) Datumsbereich auswählen
+
+1. Klicken Sie oben rechts in der Datentabelle auf das Datumsbereichssteuerelement mit dem Kalendersymbol.
+
+1. Geben Sie im Menü **[!UICONTROL Period]** den Datumsbereich an:
+
+   * Um einen voreingestellten Bereich zu verwenden, wählen Sie eine Option aus dem Menü über dem ersten Kalender aus, z. B. **[!UICONTROL Yesterday]** oder **[!UICONTROL Last 7 Days]**.
+
+   * Um einen benutzerdefinierten Bereich zu verwenden, wählen Sie **[!UICONTROL Custom Date Range]** und das Start- und Enddatum im Kalender aus. Verwenden Sie die Kalenderpfeile, um zwischen Monaten zu navigieren.
+
+1. Klicken Sie auf **[!UICONTROL Apply]**.
+
+Informationen zum Vergleichen von Daten für zwei Zeiträume finden Sie unter [Filtern von Daten nach Datumsbereich](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui).
+
+## Einzelnes Datum auswählen
+
+Verwenden Sie das folgende Verfahren für Kalenderfelder mit individuellen Datumsangaben, einschließlich solcher in der veralteten Benutzeroberfläche.
 
 1. Klicken Sie auf ![Kalenderschaltfläche](/help/search-social-commerce/assets/calendar-date-range.png "Kalenderschaltfläche"), um den Kalender zu öffnen.
 

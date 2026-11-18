@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
+source-git-commit: 6b779d2f91a140cd69ed4a25ac97d376dd1ed48d
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1555'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Anzeigen von Details zur Portfolioleistung
@@ -38,7 +38,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 * Modellgenauigkeitsdaten für aktive Portfolios, die zeigen, wie stark die Modelle von den Prognosen abwichen. Der Bericht zeigt die tägliche oder rollierende Kostengenauigkeit für sieben Tage, die Klickgenauigkeit und die objektive Wertgenauigkeit an.
 
-  Sie können Daten nach Klickdatum (Standard) oder Transaktionsdatum anzeigen. Sie können die Daten auch entweder als Trenddiagramm (Standard) oder als Tabelle anzeigen.
+  Sie können die Daten entweder als Trenddiagramm (Standard) oder als Tabelle anzeigen.
 
 * Die Zielausgaben im Vergleich zu den tatsächlichen Ausgaben für aktive Portfolios. Optional können Sie auch die gesamten Kampagnenbudgets für das Portfolio einbeziehen.
 
@@ -48,7 +48,7 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
   Optional können Sie die Portfolioeinstellungen öffnen, um sie zu bearbeiten.
 
-* Listen der Kampagnen, Anzeigengruppen und Keywords im Portfolio.
+* Listen der Werbenetzwerke, Konten, Kampagnen, Anzeigengruppen und Schlüsselwörter im Portfolio mit Leistungsdaten.
 
   Für einzelne Keywords können Sie Details zu Gebotseinheiten anzeigen, einschließlich Prognosen, historischen Informationen und hierarchischen Informationen. Die [!UICONTROL Bid Unit Details] enthält die folgenden Prognosen, historische Informationen und hierarchische Informationen für die ausgewählte Gebotseinheit:
 
@@ -64,11 +64,19 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
 1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Halten Sie den Cursor über den Portfolionamen und klicken Sie auf  (/help/search-social-commerce/assets/portfolio-overview.png &quot;Portfolio Overview„).
+1. Halten Sie den Cursor über den Portfolionamen und klicken Sie auf ![Portfolio-Übersicht](/help/search-social-commerce/assets/portfolio-overview.png "Portfolio-Übersicht").
+
+1. (Optional) Um den Datumsbereich für die Portfoliodetails zu ändern, klicken Sie auf den Datumsbereich oben rechts, geben Sie den Datumsbereich an und klicken Sie dann auf **[!UICONTROL Apply]**.
 
 1. (Optional) Ändern Sie im Menü **[!UICONTROL Data Aggregation]** die Zeiteinheit der in den einzelnen Zeilen enthaltenen Daten: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* oder *[!UICONTROL Monthly].*
 
-1. (Optional) Um den Datumsbereich für die Portfoliodetails zu ändern, klicken Sie auf den Datumsbereich oben rechts, geben Sie den Datumsbereich an und klicken Sie dann auf **[!UICONTROL Apply]**.
+   Die verfügbaren Optionen hängen vom ausgewählten Datumsbereich ab. Wenn die aktuelle Aggregation für einen neuen Datumsbereich nicht verfügbar ist, wird automatisch eine andere verfügbare Aggregation ausgewählt.
+
+1. (Optional) Wählen Sie aus dem Menü **[!UICONTROL Conversion Based On]** in der Seitenkopfzeile **[!UICONTROL Click Date]** oder **[!UICONTROL Transaction Date]** aus.
+
+   Diese Einstellung gilt für Konversionsdaten in den Portfolioberichten und Komponentenlisten.
+
+Um Details zu einem anderen Portfolio anzuzeigen, verwenden Sie den Portfolioselektor neben dem Portfolionamen.
 
 ## Anpassen der Registerkarte [!UICONTROL Portfolio Overview]
 
@@ -86,15 +94,19 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
     * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
+    * (In der Diagrammansicht) Wählen Sie zum Zoomen einen Bereich auf dem Diagramm aus.
+
+    * (Wenn die Änderungsmarkierungen für Portfolioeinstellungen angezeigt werden) Um den Änderungsverlauf des Portfolios für ein markiertes Datum anzuzeigen, klicken Sie auf die Markierung im Diagramm. Weitere Informationen zum Verlauf finden Sie unter [Anzeigen des Änderungsverlaufs eines Portfolios](portfolio-view-change-history.md#portfolio-change-history).
+
 * (Optional) Führen Sie einen der folgenden Schritte aus, um das Diagramm &quot;[!UICONTROL Model accuracy]-Trend“ anzupassen:
 
   * Wechseln Sie zwischen der Diagrammansicht ![Diagrammansicht](/help/search-social-commerce/assets/chart-view.png "Diagrammansicht") und Tabellenansicht (![Tabellenansicht](/help/search-social-commerce/assets/table-view.png "Tabellenansicht")).
 
-  * Wechseln Sie zwischen der Datenanzeige nach *[!UICONTROL Click Date]* und *[!UICONTROL Transaction Date]*.
-
   * Wechseln Sie zwischen der Anzeige von Daten über die *[!UICONTROL Daily Accuracy]* und die *[!UICONTROL 7 Day Rolling Accuracy]*.
 
     [!UICONTROL 7 Day Rolling Accuracy] ist die durchschnittliche Genauigkeit der Prognose für die letzten sieben Tage, ausgedrückt in Prozent. Beispielsweise entspricht der Wert für den 8. Mai 2025 der durchschnittlichen Genauigkeit für den Zeitraum vom 1. Mai bis 7. Mai 2025.
+
+    [!UICONTROL 7 Day Rolling Accuracy] ist nur verfügbar, wenn [!UICONTROL Data Aggregation] auf [!UICONTROL Daily] gesetzt ist.
 
   * (In der Diagrammansicht) Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
@@ -108,19 +120,50 @@ Die Portfoliodetailansicht enthält die folgenden Informationen zu einem Portfol
 
   * Ändern Sie die gemeldete Metrik in *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* oder *[!UICONTROL Objective Value]*.
 
+  * Wenn Daten für mehr als ein Netzwerk verfügbar sind, wählen Sie das Netzwerk aus dem Menü neben dem Menü Metrik .
+
   * Um Daten für einen beliebigen Punkt im Diagramm anzuzeigen, halten Sie den Cursor über diesen Punkt.
 
-1. Klicken Sie auf **[!UICONTROL Download report]**.
+  * Um zu zoomen, wählen Sie einen Bereich auf dem Diagramm aus.
+
+## Anpassen der Listen von Portfoliokomponenten
+
+Die Registerkarten [!UICONTROL Networks], [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] enthalten die folgenden Steuerelemente:
+
+* Um nach Namen zu suchen, geben Sie Text in das Suchfeld über der Tabelle ein und senden Sie die Suche.
+
+* Um [&#x200B; Daten zu filtern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter"). Sie können angewendete Filter mithilfe der Filtersteuerelemente über der Tabelle bearbeiten oder entfernen.
+
+* Um die Komponenten eines Netzwerks, Kontos, einer Kampagne oder einer Anzeigengruppe auf der nächsten Registerkarte anzuzeigen, klicken Sie auf den jeweiligen Namen. Der ausgewählte übergeordnete Knoten wird im Breadcrumb über der Tabelle angezeigt, und die entsprechenden Filter werden beim Drilldown weiter übernommen. Die Auswahl übergeordneter Elemente kann die Liste beim Wechseln der Registerkarten weiterhin einschränken.
+
+  Um eine Drilldown-Auswahl (z. B. einen Netzwerk- oder Kontonamen) zu entfernen, klicken Sie auf **[!UICONTROL X]** neben dem Komponentennamen im Breadcrumb über der Tabelle. Die Auswahl übergeordneter Elemente auf höherer Ebene kann bestehen bleiben. Um zu allen Komponenten im Portfolio zurückzukehren, entfernen Sie die verbleibenden übergeordneten Auswahlen und alle anderen Filter.
+
+* Um die Daten zu aktualisieren, klicken Sie auf ![Aktualisieren](/help/search-social-commerce/assets/refresh-new.png "Aktualisieren").
+
+* (Nur [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] und [!UICONTROL Keywords] Registerkarten) Um die angezeigten Spalten oder die Sortierreihenfolge zu ändern, klicken Sie auf ![Benutzerdefinierte Spalten](/help/search-social-commerce/assets/custom-columns-new.png "Benutzerdefinierte Spalten") und [Bearbeiten Sie den Spaltensatz und die Sortieroptionen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md).
+
+
+## Werbenetzwerke im Portfolio auflisten
+
+* Klicken Sie auf die Registerkarte **[!UICONTROL Networks]** .
+
+## Auflisten der Konten im Portfolio
+
+* Um alle Konten im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Accounts]** .
+
+* Um Konten für ein bestimmtes Netzwerk im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Networks]** und dann auf den Netzwerknamen.
 
 ## Auflisten der Kampagnen im Portfolio
 
 Zu den Details der einzelnen Kampagnen gehören die Bid-Strategie, die tatsächlichen und prognostizierten Kosten, Klicks und Zielwert sowie die Kosten-, Klick- und Zielwert-Genauigkeit.
 
-* Klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** .
+* Um alle Kampagnen im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Campaigns]** .
+
+* Um Kampagnen für ein bestimmtes Konto im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Accounts]** und dann auf den Kontonamen.
 
 ## Auflisten der Anzeigengruppen im Portfolio
 
-Details zu jeder Anzeigengruppe enthalten die Kosten, Klicks und den Zielwert.
+Zu den Details der einzelnen Anzeigengruppen gehören das Netzwerk, das Standardangebot, die Kosten, Klicks, CPC, Impressionen, der Zielwert und die Konversionsmetriken, die im Ziel des Portfolios verwendet werden.
 
 * Um alle Anzeigengruppen im Portfolio anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Ad Groups]** .
 
@@ -162,21 +205,25 @@ Weitere Informationen zu den Portfolioeinstellungen finden Sie im Optimierungsha
 
 ## Herunterladen von Portfolioleistungsberichten und Listen der Portfoliokomponenten
 
-* Herunterladen aller Berichte:
+* Herunterladen von Leistungsberichten und Komponentenlisten:
 
   1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Download report]**.
 
   1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Leistungsbericht und Portfoliokomponententyp.
 
-     Bei einigen Leistungsberichten können Sie auswählen, ob die Daten als Diagramm oder Tabelle heruntergeladen werden sollen.
+     Die verfügbaren Portfoliokomponenten sind *[!UICONTROL Campaigns table]*, *[!UICONTROL Ad groups table]* und *[!UICONTROL Keywords table]*. Die [!UICONTROL Networks]- und [!UICONTROL Accounts] sind in diesem Download nicht enthalten.
+
+     Wählen Sie für Leistungsberichte mit beiden Optionen **[!UICONTROL As chart]**, **[!UICONTROL As table]** oder beides aus. Der [!UICONTROL Network accuracy chart] Bericht ist nur als Diagramm verfügbar.
 
   1. Klicken Sie auf **[!UICONTROL Download report]**.
 
-* So laden Sie einen [!DNL model accuracy] mit bestimmten Datentypen herunter:
+* So laden Sie einen [!UICONTROL Model accuracy] mit bestimmten Datentypen herunter:
 
-  1. Klicken Sie in der Symbolleiste für den Bericht auf **[!UICONTROL Download report]**.
+  1. Klicken Sie in der Symbolleiste für [!UICONTROL Model accuracy] auf **[!UICONTROL Download report]**.
 
-  1. Aktivieren Sie das Kontrollkästchen neben jedem einzuschließenden Datentyp und legen Sie fest, wie die Daten aufgeschlüsselt werden (nach Gebotseinheit und/oder nach Klickvolumen).
+  1. Wählen Sie **[!UICONTROL Cost Accuracy]**, **[!UICONTROL Objective Value Accuracy]** oder beides aus.
+
+  1. Wählen Sie für jeden ausgewählten Datentyp **[!UICONTROL By Bid Unit]**, **[!UICONTROL By Click Volume]** oder beides aus.
 
   1. Klicken Sie auf **[!UICONTROL Download report]**.
 

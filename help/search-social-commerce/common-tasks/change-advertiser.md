@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Anzeigen von Daten für einen anderen Advertiser
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## (Neue Benutzeroberfläche) Anzeigen von Daten für einen anderen Advertiser
 
-* Wählen Sie in der Symbolleiste über der Datentabelle den Advertiser aus.
+1. Wenn der linke Navigationsbereich reduziert ist, klicken Sie auf ![Reduzieren/Erweitern](/help/search-social-commerce/assets/collapse-expand.png "Reduzieren/Erweitern"), um ihn zu erweitern.
 
-  ![Advertiser-Selektor in Symbolleiste](/help/search-social-commerce/assets/advertiser-selector.png "Advertiser-Selektor in Symbolleiste")
+1. Öffnen Sie über dem Suchfeld im linken Navigationsbereich die Liste Advertiser und wählen Sie den Advertiser aus.
+
+   Sie können die Liste durchsuchen, um einen Advertiser zu finden. Die Liste zeigt den aktuell ausgewählten Advertiser an.
+
+   ![Advertiser-Selektor über dem Hauptmenü](/help/search-social-commerce/assets/advertiser-selector.png "Advertiser-Selektor über dem Hauptmenü")
+
+>[!NOTE]
+>
+>Der Advertiser-Wechsel ist in einigen Detailansichten deaktiviert, einschließlich Portfoliodetails und Simulationsdetails. Kehren Sie zur entsprechenden Listenansicht zurück, um einen anderen Advertiser auszuwählen.
 
 ## (Alte Benutzeroberfläche) Anzeigen von Daten für einen anderen Advertiser
 

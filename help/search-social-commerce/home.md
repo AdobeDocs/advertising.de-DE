@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # Neue Funktionen in Search, Social und Commerce
@@ -38,6 +38,7 @@ Die folgenden Funktionen sind neu oder wurden kürzlich geändert.
 
 | Datum | Funktion | Beschreibung | Für weitere Informationen |
 | ---- | ------- | ----------- | -------------------- |
+| &#x200B;16. November 2026 | Neue Benutzeroberfläche | Die meisten Funktionen der alten Benutzeroberfläche sind jetzt in der neuen Benutzeroberfläche verfügbar. | Siehe [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md).“ |
 | &#x200B;4. November 2026 | [!UICONTROL Portfolios], Optimierung | (Opt-in-Funktion für [!DNL Google Ads] Kampagnen in Portfolios mit Optimierung auf Kampagnenebene oder Anzeigengruppenebene) Suche, Social und Commerce können jetzt Signale aus [!DNL Google Ads] Kampagnenbudgetempfehlungen enthalten, einschließlich des empfohlenen Budgetbetrags und der projizierten Konversion-Steigerung, um die eigenen Budgetsteuerungsentscheidungen zu beeinflussen. Um an der Funktion teilzunehmen, wenden Sie sich an Ihr Adobe Account Team. | — |
 | | [!UICONTROL Accounts] | Für AD-Netzwerk-API-Konten können Sie jetzt fehlende Authentifizierungsberechtigungen identifizieren, Token-Ablaufwarnungen anzeigen und Informationen zu Wiederherstellungsschritten in der [!UICONTROL Accounts] abrufen. | Siehe [Kontoauthentifizierung und Zugriffsstatus](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status). |
 | &#x200B;26. Oktober 2026 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | ([!DNL Google Ads] Kampagnen mit aktiviertem [!DNL AI Max]) Sie können jetzt die folgenden Einstellungen in der neuen Benutzeroberfläche für Suche, Social und Commerce konfigurieren:<ul><li>Auf Kampagnenebene:<ul><li>**[!UICONTROL Brand inclusions]** und **[!UICONTROL Brand exclusions]:** Geben Sie an, welche Markenlisten für das Konto in markenbezogenen Abfragen abgeglichen werden können.</li><li>**[!UICONTROL URL inclusions]:** Geben Sie die URLs an, die als Landingpages aus der endgültigen URL-Erweiterung ausgeschlossen werden sollen. Diese Einstellung ist verfügbar, wenn [!UICONTROL Text customization] und [!UICONTROL Final URL expansion] aktiviert sind.</li></ul></li><li>Anzeigengruppenebene:<ul><li>**[!UICONTROL URL inclusions]:** Geben Sie die URLs an, die als Landingpages aus der endgültigen URL-Erweiterung ausgeschlossen werden sollen. Diese Einstellung ist in Kampagnen verfügbar, für die [!UICONTROL Text customization] aktiviert ist.</li></ul></li></ul>Für die Einstellungen ist auch Bulksheet-Unterstützung verfügbar. | Siehe [[!DNL Google Ads] Kampagneneinstellungen](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [[!DNL Google Ads] Anzeigengruppeneinstellungen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md) und [Erforderliche Bulksheet-Daten für  [!DNL Google Ads] Konten](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md). |

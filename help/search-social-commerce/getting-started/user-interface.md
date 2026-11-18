@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # Organisation der Benutzeroberfläche
@@ -40,6 +40,10 @@ Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#d
 Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Hauptmenü, in dem die Aufgaben nach Arbeitsphase organisiert werden.
 
 ### Optionen im Hauptmenü
+
+* (Falls zutreffend) Eine auswählbare Liste von Advertisern, die Sie verwalten, über dem Suchfeld im erweiterten linken Navigationsbereich.
+
+* Ein Suchfeld für Optionen im Hauptmenü.
 
 * **[!UICONTROL Dashboard]** Untermenü:
 
@@ -131,6 +135,12 @@ Reduzieren Sie das Hauptmenü, wenn Sie mehr Platz zum Anzeigen von Daten benöt
 
 * Klicken Sie über dem Hauptmenü auf der linken Seite auf ![Reduzieren/Erweitern](/help/search-social-commerce/assets/collapse-expand.png "Reduzieren/Erweitern").
 
+### Anzeigen von Daten für einen anderen Advertiser
+
+* Erweitern Sie das linke Navigationsfenster, wenn es reduziert ist. Öffnen Sie über dem Suchfeld die Liste Advertiser und wählen Sie den Advertiser aus.
+
+  Weitere Informationen und Einschränkungen finden Sie unter [Anzeigen von Daten für einen anderen Advertiser](/help/search-social-commerce/common-tasks/change-advertiser.md).
+
 ### Nach Hauptmenüoptionen suchen
 
 Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptionen zu suchen, z. B. „Portfolios“ oder „Berichte“.
@@ -153,9 +163,7 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 **Hinweis:** Einige Bildschirme verfügen über zusätzliche Optionen.
 
-* (falls zutreffend) Eine auswählbare Liste von Advertisern, die Sie verwalten.
-
-* Der konfigurierbare Datumsbereich für die aktuelle Ansicht
+* Der konfigurierbare Datumsbereich für die aktuelle Ansicht. Wenn der Datumsvergleich unterstützt wird, ermöglicht Ihnen das Steuerelement „Datumsbereich“ auch den Vergleich zweier Zeiträume und die Auswahl, ob die Änderung als Prozentsatz oder als numerische Varianz angezeigt werden soll. Siehe &quot;[Filtern von Daten nach Datumsbereich](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)&quot;.
 
 * ![Zur alten Benutzeroberfläche wechseln](/help/search-social-commerce/assets/switch-to-old-ui.png "Zur alten Benutzeroberfläche wechseln") Öffnet die alte Benutzeroberfläche in einer neuen Registerkarte oder einem neuen Fenster.
 

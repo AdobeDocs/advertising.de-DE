@@ -15,20 +15,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # Über das Anpassen von Daten in Ansichten des Kampagnen-Managements
-
-<!-- Add info about new UI -->
 
 In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datentabelle angezeigt werden, anpassen. Sie können die Daten wie folgt anpassen:
 
 * [Bearbeiten Sie die Einstellungen für die gesamte Standardansicht](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) für eine bestimmte Entitätsansicht (z. B. [!UICONTROL Campaigns]), um eine bestimmte Spaltenreihenfolge, Filter, Datumsbereich, Attributionsregel und mehr einzuschließen - und wenden Sie die Einstellungen entweder vorübergehend an oder speichern Sie sie. Sie können auch [zusätzliche benutzerdefinierte Ansichten erstellen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view) vorhandene Ansichten [klonen](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone) und [jede Ihrer Ansichten anwenden](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view).
 
-* [Ändern Sie die Spalten und ihre Sortierreihenfolge](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) über das [!UICONTROL Columns]-Symbol auf der rechten Seite der Symbolleiste oder [ändern Sie nur die Spalten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) in einer beliebigen Spaltenüberschrift in der Ansicht.
+* [Ändern Sie die Spalten und ihre Sortierreihenfolge](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) mithilfe des [!UICONTROL Custom Columns]-Steuerelements in der Symbolleiste. Wenn die Symbolleiste auf der neuen Benutzeroberfläche zu schmal ist, um das Steuerelement anzuzeigen, klicken Sie auf **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**. Sie können auch schnell [nur die Spalten ändern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) in jeder Spaltenüberschrift in der Ansicht ändern.
 
 * (Nur veraltete Benutzeroberfläche) [Im linken Navigationsbereich &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md) Sie folgende Möglichkeiten:
 
@@ -45,3 +43,24 @@ In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datent
 * [Sortieren Sie die Daten &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md) den Werten in einer bestimmten Spalte neu.
 
 * Steuern Sie, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, (nur für veraltete Benutzeroberfläche) 200 Zeilen oder (nur für veraltete Benutzeroberfläche) [!UICONTROL Continuous Scroll] am unteren Rand einer Seite angezeigt werden sollen.
+
+
+## (Neue Benutzeroberfläche) Datentabellen-Steuerelemente {#data-table-tools-new-ui}
+
+Verwenden Sie die Symbolleiste oberhalb der Datentabelle, um Daten zu verwalten und zu ändern, wie sie angezeigt werden. Die verfügbaren Tools hängen von der Ansicht und Ihren Berechtigungen ab.
+
+Wenn die Symbolleiste zu schmal ist, um ein Tool anzuzeigen, suchen Sie im Menü **[!UICONTROL Actions]** danach.
+
+Sofern verfügbar, können Sie:
+
+* Wählen Sie *[!UICONTROL Click Date]* oder *[!UICONTROL Transaction Date]* aus [!UICONTROL Conversion based on] aus, um zu steuern, wie Konversionsdaten gemeldet werden.
+
+* Vergleichen Sie die Leistung für zwei Zeiträume und wählen Sie aus, wie der Unterschied angezeigt werden soll. Siehe &quot;[Filtern von Daten nach Datumsbereich](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)&quot;.
+
+* Aktivieren oder Deaktivieren des kompakten Tabellenabstands mithilfe von **[!UICONTROL Compressed Mode]** in der Symbolleiste oder im **[!UICONTROL Actions]**.
+
+  Die Schaltfläche der Symbolleiste wird ausgewählt, wenn der komprimierte Modus aktiviert ist. In [!UICONTROL Actions] zeigt ein Schalter den aktuellen Status an.
+
+* Ein- oder Ausblenden von Diagrammen mit **[!UICONTROL Charts]** in der Symbolleiste oder im **[!UICONTROL Actions]**.
+
+  Die Schaltfläche in der Symbolleiste wird ausgewählt, wenn Diagramme angezeigt werden. In [!UICONTROL Actions] zeigt ein Schalter an, ob Diagramme angezeigt werden. Klicken Sie erneut auf das Steuerelement, um die Diagramme auszublenden.

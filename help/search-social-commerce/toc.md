@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 54920f5e0e08c1bf6f960b4d96aa4161dfa11143
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 2%
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [Verwalten von standardmäßigen und benutzerdefinierten Ansichten](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + Einstellungen für Ad-hoc-Ansichten {#ad-hoc-settings}
       + [Bearbeiten Sie den Spaltensatz über das Menü Spaltenüberschrift .](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [Bearbeiten und Sortieren des Spaltensatzes über das [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [Bearbeiten und Sortieren des Spaltensatzes im [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [Sperren und Entsperren einer Spaltenkonfiguration in Kampagnenansichten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [Spalte neu sortieren](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [Daten nach Datumsbereich filtern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
