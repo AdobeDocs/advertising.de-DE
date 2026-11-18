@@ -28,7 +28,7 @@ Sie können beliebig viele Filter auf eine Ansicht anwenden.<!-- True only for e
 
 ## (Neue Benutzeroberfläche) Anwenden von Datenfiltern über die Symbolleiste in Verwaltungsansichten
 
-1. Klicken Sie in der Symbolleiste auf das ![-Steuerelement ](/help/search-social-commerce/assets/filter-new.png "Filter") vor der Rastersuche.
+1. Klicken Sie in der Symbolleiste auf das ![-Steuerelement &#x200B;](/help/search-social-commerce/assets/filter-new.png "Filter") vor der Rastersuche.
 
 1. Führen Sie in den Filtereinstellungen einen der folgenden Schritte aus:
 
