@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # Sperren und Entsperren einer Spaltenkonfiguration in Kampagnenansichten
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Durch das Sperren einer Spalte werden diese Spalte und alle anderen Spalten links davon in einen statischen Bereich und alle Spalten rechts in einen anderen Bereich „gesperrt“, durch den Sie horizontal scrollen können.
+Durch das Sperren einer Spalte werden diese Spalte und alle anderen Spalten links davon in einen statischen Bereich und alle Spalten rechts in einen anderen Bereich „gesperrt“, durch den Sie horizontal scrollen können. In der neuen Benutzeroberfläche können Sie die Größe zugelassener gesperrter Spalten ändern, indem Sie die Begrenzung zwischen Spaltenüberschriften ziehen, ohne sie zuerst zu entsperren.
 
 Eine Sperre funktioniert nur, bis Sie sich von der Entitätsansicht entfernen. Sie können sie nicht in der Standard- oder benutzerdefinierten Ansicht speichern.
 

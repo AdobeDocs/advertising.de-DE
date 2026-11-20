@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Über das Anpassen von Daten in Ansichten des Kampagnen-Managements
@@ -44,7 +44,6 @@ In den meisten Kampagnen-Datenansichten können Sie die Daten, die in der Datent
 
 * Steuern Sie, ob 25 Zeilen, 50 Zeilen, 100 Zeilen, (nur für veraltete Benutzeroberfläche) 200 Zeilen oder (nur für veraltete Benutzeroberfläche) [!UICONTROL Continuous Scroll] am unteren Rand einer Seite angezeigt werden sollen.
 
-
 ## (Neue Benutzeroberfläche) Datentabellen-Steuerelemente {#data-table-tools-new-ui}
 
 Verwenden Sie die Symbolleiste oberhalb der Datentabelle, um Daten zu verwalten und zu ändern, wie sie angezeigt werden. Die verfügbaren Tools hängen von der Ansicht und Ihren Berechtigungen ab.
@@ -64,3 +63,15 @@ Sofern verfügbar, können Sie:
 * Ein- oder Ausblenden von Diagrammen mit **[!UICONTROL Charts]** in der Symbolleiste oder im **[!UICONTROL Actions]**.
 
   Die Schaltfläche in der Symbolleiste wird ausgewählt, wenn Diagramme angezeigt werden. In [!UICONTROL Actions] zeigt ein Schalter an, ob Diagramme angezeigt werden. Klicken Sie erneut auf das Steuerelement, um die Diagramme auszublenden.
+
+## (Neue Benutzeroberfläche) Spaltenbreiten und Tabellenwerte {#column-widths-values-new-ui}
+
+In Kampagnendaten-Tabellen:
+
+* Ändern der Größe einer Spalte durch Ziehen der Begrenzung zwischen Spaltenüberschriften Sie können auch die Größe [&#x200B; auswählbaren (gesperrten Spalten](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md) ändern, ohne sie zuerst zu entsperren. Mindestbreiten helfen dabei, Werte lesbar zu halten. Einige Symbol- und Aktionsspalten haben feste Breiten und können nicht in der Größe verändert werden.
+
+* Halten Sie den Cursor über einen abgeschnittenen Entitätsnamen, um den vollständigen Namen anzuzeigen.
+
+* Um Details für eine Entität zu öffnen, deren Name ein Link ist, drücken Sie **Tabulatortaste**, bis der Name hervorgehoben ist, und drücken Sie dann die **Eingabetaste**.
+
+* Ein Bindestrich (-) zeigt einen fehlenden, einen NULL-Wert oder einen nicht zutreffenden Wert an. Null- und False-Werte bleiben sichtbar.
