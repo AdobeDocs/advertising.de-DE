@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
+source-git-commit: 6aa2e40903fd8652c0ac744e3cd4f68c5e74fd48
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '296'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads] Kampagneneinstellungen
@@ -39,7 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** Der Anzeigestatus der Kampagne: *Aktiv* oder *Paused*. Der Standardwert für neue Anzeigenkampagnen lautet *Aktiv*.
 
-**[!UICONTROL Objective]:** Das Kampagnenziel: *Reichweite* oder *Klicks*.
+**[!UICONTROL Objective]:** Das Kampagnenziel: *[!UICONTROL Reach]*, *[!UICONTROL Clicks]* oder *[!UICONTROL Conversions]*. Das Ziel bestimmt die verfügbaren [Anzeigengruppen-Gebotsoptionen](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md): Ziel-CPC-Gebote werden für Klicks unterstützt, und Ziel-CPA-Gebote werden für Konversionen unterstützt. Target-CPC- und Target-CPA-Gebote sind für REACH-Kampagnen nicht verfügbar.
+
+**[!UICONTROL Billing event]:** (Neue Kampagnen mit dem Ziel-[!UICONTROL Conversions]) Ob Sie basierend auf Klicks oder Impressionen belastet werden. Der Standardwert ist Klicks. Das Ziel bestimmt, wofür die Kampagne optimiert wird. Das Abrechnungsereignis bestimmt, wie Sie belastet werden. Sie können das Abrechnungsereignis nach dem Speichern der Kampagne nicht mehr ändern.
 
 **[!UICONTROL Location Targets]:** Unterstützte geografische Benutzerstandorte, die als Ziele einbezogen werden sollen. Standardmäßig werden alle unterstützten Speicherorte als Zielgruppen ausgewählt. Sie können die Ziele eingrenzen, um Benutzer in einer beliebigen Kombination von Speicherorten einzubeziehen (aber nicht auszuschließen).
 
