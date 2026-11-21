@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Gilt nur für Gebotseinheiten in CPC-Kampagnen in alten Portfolios auf Keyword-Ebene*
 
-Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
+Einschränkungen für Gebotseinheiten sind Regeln, die optimierte Gebote für alle [Gebotseinheiten](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=de) mit Kosten- und Umsatzmodellen einschränken, die mit der Einschränkung verknüpft sind.
 
 ## Über Einschränkungen
 

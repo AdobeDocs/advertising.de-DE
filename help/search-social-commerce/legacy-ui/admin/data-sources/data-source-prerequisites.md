@@ -38,7 +38,7 @@ Wenn die Landingpage-URLs für Ihre Anzeigen oder Keywords noch keine Weiterleit
 
 ## Voraussetzung 1: Implementieren eines Search-, Social- und Commerce-Tokens („ef_id“-Abfragezeichenfolgenparameter) in den Landingpage-URLs für alle anwendbaren Werbekonten
 
-Bei jedem Klick auf die Paid Search für die entsprechenden Kampagnen muss ein eindeutiger `ef_id` generiert und als Abfragezeichenfolge an die Landingpage-URL angehängt werden, z. B. `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, wobei `&ef_id=abcde:123456789:s` das Anhangsymbol, `ef_id` und `ef_id` Wert ist. Um eine ef_id einzuschließen, müssen die relevanten Konten und Kampagnen des Werbenetzwerks die [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; und die [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot; aufweisen.
+Bei jedem Klick auf die Paid Search für die entsprechenden Kampagnen muss ein eindeutiger `ef_id` generiert und als Abfragezeichenfolge an die Landingpage-URL angehängt werden, z. B. `https://www.adobe.com/de?someParam=123&ef_id=abcde:123456789:s`, wobei `&ef_id=abcde:123456789:s` das Anhangsymbol, `ef_id` und `ef_id` Wert ist. Um eine ef_id einzuschließen, müssen die relevanten Konten und Kampagnen des Werbenetzwerks die [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; und die [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot; aufweisen.
 
 Bei bestehenden Konten und Kampagnen ist die ef_id wahrscheinlich bereits implementiert.
 
@@ -62,7 +62,7 @@ Wiederholen Sie die folgenden Aufgaben für jede Kombination aus [!DNL Google An
    >
    >Die ef_id sollte nur in Landingpage-URLs angegeben werden.
 
-   Wenn beispielsweise die Landingpage-URL `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf` ist, wird der Wert der Dimension ef_id in [!DNL Google Analytics] `abcde:123456789:s`.
+   Wenn beispielsweise die Landingpage-URL `https://www.adobe.com/de?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf` ist, wird der Wert der Dimension ef_id in [!DNL Google Analytics] `abcde:123456789:s`.
 
    >[!NOTE]
    >
