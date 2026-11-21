@@ -37,7 +37,7 @@ In **[!UICONTROL Library]>[!UICONTROL Extensions]** listet die Registerkarte **[
 
 Zum Anzeigen dieser Registerkarten ist die Berechtigung [!UICONTROL View Extensions] erforderlich. Zum Erstellen, Bearbeiten und Löschen von Hinweisen sowie zum Erstellen oder Löschen von Verknüpfungen ist die Berechtigung [!UICONTROL Edit Extensions] erforderlich.
 
-Die maximale Anzahl von Erweiterungen pro Konto finden Sie in der Dokumentation zu ](https://support.google.com/google-ads/answer/6372658) Ads für [Google.
+Die maximale Anzahl von Erweiterungen pro Konto finden Sie in der Dokumentation zu [&#128279;](https://support.google.com/google-ads/answer/6372658) Ads für Google.
 
 ### Verfügbare Aktionen
 
@@ -61,7 +61,7 @@ Die maximale Anzahl von Erweiterungen pro Konto finden Sie in der Dokumentation 
 
 1. Wählen Sie in **[!UICONTROL Basic Settings]** [!DNL Google Ads] und das Konto aus.
 
-1. Geben Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot; ein.
+1. Geben Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot; ein.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**.
 
@@ -69,7 +69,7 @@ Die maximale Anzahl von Erweiterungen pro Konto finden Sie in der Dokumentation 
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-Nachdem Sie den Callout erstellt haben, [ Sie ihn mit einer Kampagne oder Anzeigengruppe ](ad-extension-association-manage.md#callout-associate).
+Nachdem Sie den Callout erstellt haben, [&#x200B; Sie ihn mit einer Kampagne oder Anzeigengruppe &#x200B;](ad-extension-association-manage.md#callout-associate).
 
 ## Einstellungen für freigegebene Callouts bearbeiten {#callout-edit}
 
@@ -81,7 +81,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten. Sie können das 
 
 1. Klicken Sie in der Symbolleiste für Massenaktionen auf **[!UICONTROL Edit]**.
 
-1. Bearbeiten Sie die [Einstellungen für freigegebene ](#shared-callout-settings)&quot;.
+1. Bearbeiten Sie die [Einstellungen für freigegebene &#x200B;](#shared-callout-settings)&quot;.
 
 1. Klicken Sie auf **[!UICONTROL Review and Save]**, überprüfen Sie die Einstellungen, und klicken Sie dann auf **[!UICONTROL Update]**.
 
@@ -97,7 +97,7 @@ Sie können jeweils nur einen freigegebenen Callout bearbeiten. Sie können das 
 
 1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
 
-Um eine Verknüpfung zu entfernen, ohne den freigegebenen Callout aus der Bibliothek zu löschen, [ Sie stattdessen die Verknüpfung ](ad-extension-association-manage.md#association-delete).
+Um eine Verknüpfung zu entfernen, ohne den freigegebenen Callout aus der Bibliothek zu löschen, [&#x200B; Sie stattdessen die Verknüpfung &#x200B;](ad-extension-association-manage.md#association-delete).
 
 ## Alle Daten in ausgewählten Zeilen in die Zwischenablage kopieren {#copy-to-clipboard}
 

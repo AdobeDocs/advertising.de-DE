@@ -101,8 +101,8 @@ Die folgenden Fehler treten nur in [!UICONTROL EF Errors] Dateien auf. Die meist
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Herunterladen/Erstellen einer Bulksheet-Datei](download.md)
 >* [(Neue Benutzeroberfläche) Validieren von Landingpages in Bulksheet-Dateien](validate-landing-pages.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)

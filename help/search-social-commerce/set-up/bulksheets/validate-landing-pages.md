@@ -71,8 +71,8 @@ Wenn die Aufgabe beginnt, wird eine neue Zeile zur [!UICONTROL Bulksheets] hinzu
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Hochladen einer Bulksheet- oder korrigierten Fehlerdatei](upload.md)
->* [ (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
+>* [&#x200B; (neue Benutzeroberfläche) Posten von Bulksheets oder korrigierte Fehlerdateien](post.md)
 >* [(Neue Benutzeroberfläche) Löschen hochgeladener Bulksheets und Fehlerdateien](delete.md)
 >* [(Neue Benutzeroberfläche) Halten Sie einen laufenden Bulksheet-Vorgang an](stop-job.md)

@@ -47,7 +47,7 @@ Die Berichte über Ausgabenempfehlungen enthalten die folgenden Daten:
 
 * Generieren eines [!UICONTROL Spend Planner] Berichts über die [neue Benutzeroberfläche](#spend-recommendations-generate) oder [veraltete Benutzeroberfläche](#spend-recommendations-generate-legacy)
 
-* [Wenden Sie Ausgabenempfehlungen ](#spend-recommendations-apply) die entsprechenden Portfolios an.
+* [Wenden Sie Ausgabenempfehlungen &#x200B;](#spend-recommendations-apply) die entsprechenden Portfolios an.
 
 * [Öffnen oder Speichern von Berichtsdaten zu Ausgabenempfehlungen in einer Datei](#spend-recommendations-download)
 

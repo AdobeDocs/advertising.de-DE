@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Nur *[!DNL Google Ads]und [!DNL Microsoft Advertising] Konten*
 
-Ein Zielgruppenausschluss verhindert, dass Anzeigen in einer Kampagne oder Anzeigengruppe Benutzern in einer bestimmten [Zielgruppe“ angezeigt ](audience-manage.md).
+Ein Zielgruppenausschluss verhindert, dass Anzeigen in einer Kampagne oder Anzeigengruppe Benutzern in einer bestimmten [Zielgruppe“ angezeigt &#x200B;](audience-manage.md).
 
 Bei [!DNL Google Ads]-Konten können Sie jeden Zielgruppentyp ausschließen. Bei [!DNL Microsoft Advertising]-Konten können Sie nur dynamische Remarketing-Audiences ausschließen.
 

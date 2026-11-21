@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Search, Social und Commerce bieten Kampagnenverwaltung, Leistungsberichte und Portfoliooptimierung in einer einzigen Oberfläche. Je nach Anzeigennetzwerk und Kampagnentyp können Sie Kampagnendaten synchronisieren, Kampagnenkomponenten erstellen und bearbeiten, Konversionen verfolgen und Gebote, Budgets oder Bid-Strategieziele optimieren. Unter [Unterstützte Inventarisierung](/help/search-social-commerce/introduction/supported-inventory.md) finden Sie die für jedes Werbenetzwerk verfügbaren Funktionen.
 
-Das Menü [!UICONTROL Manage] bietet Zugriff auf Ihre Konten, Kampagnen, Anzeigengruppen, Anzeigen, Keywords, Produktgruppen und Portfolios. Ihre Berechtigungen bestimmen, welche Ansichten und Aktionen verfügbar sind. Die vollständige Menüorganisation finden Sie unter &quot;[ der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md).
+Das Menü [!UICONTROL Manage] bietet Zugriff auf Ihre Konten, Kampagnen, Anzeigengruppen, Anzeigen, Keywords, Produktgruppen und Portfolios. Ihre Berechtigungen bestimmen, welche Ansichten und Aktionen verfügbar sind. Die vollständige Menüorganisation finden Sie unter &quot;[&#x200B; der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md).
 
 ## So passen Konten, Kampagnen und Portfolios zusammen
 
@@ -39,7 +39,7 @@ Das Menü [!UICONTROL Manage] bietet Zugriff auf Ihre Konten, Kampagnen, Anzeige
 
 * **Kampagnen** enthalten die Anzeigen und andere Komponenten, die für die Bereitstellung Ihrer Werbung verwendet werden. Für unterstützte Kampagnentypen können Sie [Erstellen und Verwalten von Kampagnen](/help/search-social-commerce/manage/campaigns/campaign-manage.md) und deren Komponenten über die [!UICONTROL Manage] Ansichten erstellen. Sie können auch [Bulksheets](/help/search-social-commerce/set-up/bulksheets/about.md) für unterstützte Massenvorgänge verwenden.
 
-* **Portfolios** Gruppieren Sie geeignete Kampagnen, um sie auf ein gemeinsames Geschäftsziel und ein gemeinsames Budget oder Leistungsziel hin zu optimieren. Eine Kampagne kann nur zu einem Portfolio gehören und alle Kampagnen in einem Portfolio müssen dieselbe Währung verwenden. Siehe &quot;[ Portfolios](/help/search-social-commerce/manage/portfolios/portfolio-about.md).
+* **Portfolios** Gruppieren Sie geeignete Kampagnen, um sie auf ein gemeinsames Geschäftsziel und ein gemeinsames Budget oder Leistungsziel hin zu optimieren. Eine Kampagne kann nur zu einem Portfolio gehören und alle Kampagnen in einem Portfolio müssen dieselbe Währung verwenden. Siehe &quot;[&#x200B; Portfolios](/help/search-social-commerce/manage/portfolios/portfolio-about.md).
 
 Die Zuweisung von Portfolio ist optional. Sie können Kampagnen verfolgen und Berichte dazu erstellen, ohne sie einem Portfolio zuzuweisen. Nicht alle Werbenetzwerke, Kampagnentypen oder Bid-Strategien unterstützen die Portfoliooptimierung.
 
@@ -55,11 +55,11 @@ Daten-Upload-Konten und Nur-Tracking-Konten werden nicht mit dem Werbenetzwerk s
 
 [Tracking](/help/search-social-commerce/tracking/tracking-about.md) verbindet Kampagnenaktivität mit den Konversionen, die für Ihr Unternehmen wichtig sind. Je nach Implementierung können Konversionsdaten aus Adobe Advertising-Tags, einer Adobe Analytics-Integration, dem Anzeigen-Netzwerk-Tracking oder Daten-Feeds stammen. Konfigurieren Sie das Klick-Tracking und das Konversions-Tracking nach Bedarf für Ihre Implementierung und validieren Sie die Daten, bevor Sie sie zur Optimierung verwenden.
 
-In [!UICONTROL Goals] > [!UICONTROL Conversions] können Sie die Konversionsmetriken [, die für den Advertiser verfolgt werden, und ihre Sichtbarkeit ](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md). Verwenden Sie die entsprechenden Metriken in Ihren [Zielen](/help/search-social-commerce/goals/objectives/objective-about.md).
+In [!UICONTROL Goals] > [!UICONTROL Conversions] können Sie die Konversionsmetriken [, die für den Advertiser verfolgt werden, und ihre Sichtbarkeit &#x200B;](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md). Verwenden Sie die entsprechenden Metriken in Ihren [Zielen](/help/search-social-commerce/goals/objectives/objective-about.md).
 
-Um die Portfoliooptimierung zu aktivieren[ erstellen Sie ein Portfolio](/help/search-social-commerce/manage/portfolios/portfolio-create.md) weisen Sie eine objektive und geeignete Kampagne zu und konfigurieren Sie deren Ausgaben- und Optimierungseinstellungen. Ein aktives Portfolio sammelt und modelliert Leistungsdaten. Wenn die Daten und Einstellungen fertig sind, [ Sie den Portfoliostatus auf „Optimiert“, ](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md) mit der Optimierung zu beginnen. Die durchgeführten Aktionen hängen vom Portfoliotyp und den [Kampagnenangebotstrategien](/help/search-social-commerce/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy) ab.
+Um die Portfoliooptimierung zu aktivieren[&#x200B; erstellen Sie ein Portfolio](/help/search-social-commerce/manage/portfolios/portfolio-create.md) weisen Sie eine objektive und geeignete Kampagne zu und konfigurieren Sie deren Ausgaben- und Optimierungseinstellungen. Ein aktives Portfolio sammelt und modelliert Leistungsdaten. Wenn die Daten und Einstellungen fertig sind, [&#x200B; Sie den Portfoliostatus auf „Optimiert“, &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md) mit der Optimierung zu beginnen. Die durchgeführten Aktionen hängen vom Portfoliotyp und den [Kampagnenangebotstrategien](/help/search-social-commerce/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy) ab.
 
-Eine detaillierte Einrichtungssequenz finden Sie unter &quot;[ von Werbenetzwerkkonten und -kampagnen](/help/search-social-commerce/getting-started/campaign-implementation-overview.md).
+Eine detaillierte Einrichtungssequenz finden Sie unter &quot;[&#x200B; von Werbenetzwerkkonten und -kampagnen](/help/search-social-commerce/getting-started/campaign-implementation-overview.md).
 
 ## Überwachen der Kampagnen- und Portfolioleistung {#monitor-performance}
 
@@ -67,11 +67,11 @@ Das Account-Team, die Agentur oder der Advertiser ist für die Überwachung der 
 
 * Überprüfen Sie die Kampagnen- und Kontoleistung in den [!UICONTROL Manage]. [Anpassen von Spalten, Filtern und Datumsbereichen](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) um den Fokus auf die wichtigen Metriken und Entitäten zu legen.
 
-* Verwenden Sie [!UICONTROL Dashboard] > [!UICONTROL Overview], [ Portfoliotrends und Leistungsänderungen zu ](/help/search-social-commerce/dashboard/dashboard-overview.md).
+* Verwenden Sie [!UICONTROL Dashboard] > [!UICONTROL Overview], [&#x200B; Portfoliotrends und Leistungsänderungen zu &#x200B;](/help/search-social-commerce/dashboard/dashboard-overview.md).
 
 * Prüfen Sie [benutzerdefinierte Warnhinweise](/help/search-social-commerce/common-tasks/alerts-manage.md) auf Bedingungen, die eine Untersuchung erfordern.
 
-* [Berichte ](/help/search-social-commerce/reports/management/report-manage.md) Kampagnen-, Keyword-, Anzeigen- und Portfolioleistung generieren. Überprüfen Sie für Portfolios [Leistungsdetails](/help/search-social-commerce/manage/portfolios/portfolio-details.md) einschließlich der tatsächlichen Leistung und Modellgenauigkeit.
+* [Berichte &#x200B;](/help/search-social-commerce/reports/management/report-manage.md) Kampagnen-, Keyword-, Anzeigen- und Portfolioleistung generieren. Überprüfen Sie für Portfolios [Leistungsdetails](/help/search-social-commerce/manage/portfolios/portfolio-details.md) einschließlich der tatsächlichen Leistung und Modellgenauigkeit.
 
 * Verwenden [Simulationen](/help/search-social-commerce/plan/simulations/simulation-about.md) falls verfügbar, um die vorhergesagten Auswirkungen verschiedener Ausgabenniveaus zu bewerten.
 
@@ -87,7 +87,7 @@ Je nach Leistung und Änderungen Ihrer Geschäftsziele müssen Sie möglicherwei
 
 * [Ändern von Kampagnenzuweisungen](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio) wenn eine Kampagne mit einem anderen Portfolio optimiert werden soll. Wenn Sie eine Kampagne einem anderen Portfolio zuweisen, wird sie aus dem vorherigen Portfolio entfernt.
 
-* [Bearbeiten Sie ](/help/search-social-commerce/manage/portfolios/portfolio-edit.md) Portfolioeinstellungen, einschließlich Ziel, Ausgabenstrategie, Einschränkungen oder Optimierungskontrollen, je nach Ihrem Produktprofil.
+* [Bearbeiten Sie &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-edit.md) Portfolioeinstellungen, einschließlich Ziel, Ausgabenstrategie, Einschränkungen oder Optimierungskontrollen, je nach Ihrem Produktprofil.
 
 * Überprüfen Sie [Änderungsverlauf](/help/search-social-commerce/reports/history-logs.md), wenn Sie Leistungsänderungen untersuchen.
 

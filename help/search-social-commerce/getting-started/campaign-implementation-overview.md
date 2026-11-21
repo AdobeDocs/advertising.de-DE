@@ -53,7 +53,7 @@ Diese Checkliste enthält die Konto- und Kampagnendetails für den größeren [-
 
 1. **Kampagnenstruktur überprüfen oder erstellen.**
 
-   Überprüfen Sie für Konten mit API-Verbindung die synchronisierten Kampagnen und ihre Komponenten. [Fordern Sie bei ](/help/search-social-commerce/manage/accounts/api-accounts/sync-api-accounts.md) eine manuelle Synchronisierung an.
+   Überprüfen Sie für Konten mit API-Verbindung die synchronisierten Kampagnen und ihre Komponenten. [Fordern Sie bei &#x200B;](/help/search-social-commerce/manage/accounts/api-accounts/sync-api-accounts.md) eine manuelle Synchronisierung an.
 
    Verwenden Sie für unterstützte Kampagnentypen [!UICONTROL Manage] > [!UICONTROL Campaigns] , um [Kampagnen zu erstellen oder zu bearbeiten](/help/search-social-commerce/manage/campaigns/campaign-manage.md). Erstellen Sie die erforderlichen [Anzeigengruppen](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md), [Anzeigen](/help/search-social-commerce/manage/ads/ad-manage.md) und andere unterstützte Komponenten. Sie können auch [Bulksheets](/help/search-social-commerce/set-up/bulksheets/about.md) für unterstützte Massenvorgänge verwenden.
 
@@ -67,7 +67,7 @@ Diese Checkliste enthält die Konto- und Kampagnendetails für den größeren [-
 
 1. **Konversionsmetriken überprüfen.**
 
-   Überprüfen Sie unter [!UICONTROL Goals] > [!UICONTROL Conversions] [die verfolgten Metriken und machen Sie die erforderlichen Metriken ](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available) Verwaltungsansichten, Berichte und Ziele sichtbar. Ändern Sie bei Bedarf Anzeigenamen, um Metriken zu unterscheiden.
+   Überprüfen Sie unter [!UICONTROL Goals] > [!UICONTROL Conversions] [die verfolgten Metriken und machen Sie die erforderlichen Metriken &#x200B;](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available) Verwaltungsansichten, Berichte und Ziele sichtbar. Ändern Sie bei Bedarf Anzeigenamen, um Metriken zu unterscheiden.
 
 1. **(Optional) Portfoliooptimierung vorbereiten.**
 
@@ -81,7 +81,7 @@ Diese Checkliste enthält die Konto- und Kampagnendetails für den größeren [-
 
    Vergewissern Sie sich, dass für jede Kampagne Kosten-, Klick- und Konversionsdaten verfügbar sind. Konversionsdaten mit der entsprechenden Quelle, einschließlich [!DNL Google Ads] und ggf. [!DNL Microsoft Advertising], vergleichen. Verwenden Sie beim Vergleichen von Berichten konsistente Datumsbereiche und Attributionseinstellungen.
 
-   Für ein neues Portfolio [ Sie es ](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md), um Daten zu erfassen und zu modellieren. Überprüfen Sie die Daten- und Portfolioeinstellungen, bevor Sie die Optimierung aktivieren.
+   Für ein neues Portfolio [&#x200B; Sie es &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md), um Daten zu erfassen und zu modellieren. Überprüfen Sie die Daten- und Portfolioeinstellungen, bevor Sie die Optimierung aktivieren.
 
 1. **(Optional) Portfoliooptimierung starten.**
 

@@ -68,7 +68,7 @@ Sie können Audiences verwenden, die auf den folgenden Datenquellen basieren:
 
   * Für Werbetreibende mit Audience Manager-Konten verwenden die Zielgruppen Benutzer-IDs aus Audience Manager-Segmenten, die Search, Social und Commerce als Ziel haben. Dazu können [!DNL Analytics] in Adobe CX Enterprise veröffentlichte Segmente und Segmente gehören, die mit der Adobe CX Enterprise-Zielgruppenbibliothek erstellt wurden.
 
-  Das [!DNL Google Ads]-Konto muss [für den Kundenabgleich infrage kommen](https://support.google.com/adspolicy/answer/6299717) und für [Benutzer-ID-Segmente“ ](https://support.google.com/google-ads/answer/9199250). Das Advertiser-Konto in Search, Social und Commerce muss ebenfalls so konfiguriert sein, dass Zielgruppen für den Kundenabgleich erstellt werden können. Wenden Sie sich an Ihr Adobe-Accountteam , um die Funktion zu aktivieren.
+  Das [!DNL Google Ads]-Konto muss [für den Kundenabgleich infrage kommen](https://support.google.com/adspolicy/answer/6299717) und für [Benutzer-ID-Segmente“ &#x200B;](https://support.google.com/google-ads/answer/9199250). Das Advertiser-Konto in Search, Social und Commerce muss ebenfalls so konfiguriert sein, dass Zielgruppen für den Kundenabgleich erstellt werden können. Wenden Sie sich an Ihr Adobe-Accountteam , um die Funktion zu aktivieren.
 
   [!DNL Adobe] Segmentdaten und Cookie-Synchronisierungsdateien für kundendatenbasierte Zielgruppen werden täglich mit [!DNL Google Ads] synchronisiert.
 

@@ -41,5 +41,5 @@ Sie können jeden Bulksheet-Vorgang stoppen - einschließlich einer Datei, die v
 
 >[!MORELIKETHIS]
 >
->* [ (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
+>* [&#x200B; (Neue Benutzeroberfläche) Verwalten von Kampagnendaten mithilfe von Bulksheets](about.md)
 >* [(Neue Benutzeroberfläche) Löschen hochgeladener Bulksheets und Fehlerdateien](delete.md)

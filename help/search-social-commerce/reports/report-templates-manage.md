@@ -29,7 +29,7 @@ Zum Anzeigen der Daten ist die Berechtigung [!UICONTROL View Scheduled Reports] 
 
 * [Bearbeiten einer Berichtsvorlage](#template-edit) einschließlich ihres Zeitplans.
 
-* [Bei Bedarf Berichte für angegebene Vorlagen ](#template-run).
+* [Bei Bedarf Berichte für angegebene Vorlagen &#x200B;](#template-run).
 
 * [Löschen von Berichtsvorlagen](#template-delete).
 

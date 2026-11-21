@@ -131,7 +131,7 @@ Die Registerkarten [!UICONTROL Networks], [!UICONTROL Accounts], [!UICONTROL Cam
 
 * Um nach Namen zu suchen, geben Sie Text in das Suchfeld über der Tabelle ein und senden Sie die Suche.
 
-* Um [ Daten zu filtern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter"). Sie können angewendete Filter mithilfe der Filtersteuerelemente über der Tabelle bearbeiten oder entfernen.
+* Um [&#x200B; Daten zu filtern](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) klicken Sie auf ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter"). Sie können angewendete Filter mithilfe der Filtersteuerelemente über der Tabelle bearbeiten oder entfernen.
 
 * Um die Komponenten eines Netzwerks, Kontos, einer Kampagne oder einer Anzeigengruppe auf der nächsten Registerkarte anzuzeigen, klicken Sie auf den jeweiligen Namen. Der ausgewählte übergeordnete Knoten wird im Breadcrumb über der Tabelle angezeigt, und die entsprechenden Filter werden beim Drilldown weiter übernommen. Die Auswahl übergeordneter Elemente kann die Liste beim Wechseln der Registerkarten weiterhin einschränken.
 
