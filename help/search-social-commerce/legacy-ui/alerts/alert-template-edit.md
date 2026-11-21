@@ -1,0 +1,49 @@
+---
+title: Bearbeiten einer benutzerdefinierten Warnhinweisvorlage
+description: Erfahren Sie, wie Sie eine Vorlage zum Generieren benutzerdefinierter Warnhinweise bearbeiten.
+exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/zE2vVaddZClw-kythHguZCUiX39rx7ubl79Msnqnrbo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
+---
+# Bearbeiten einer benutzerdefinierten Warnhinweisvorlage
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, wodurch die [!UICONTROL Alert Templates] geöffnet wird.
+
+1. (Optional) Filtern Sie die Ansicht so, dass sie eine Zeile mit bestimmten Namen, einen zu bewertenden Datenbereich oder andere Kriterien enthält.
+
+   Sie können Datenfilter ([ der Symbolleiste) ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) [aus Spaltenüberschriften](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) anwenden.
+
+1. Klicken Sie neben dem Vorlagennamen auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
+
+1. Bearbeiten Sie im [!UICONTROL Update \[Entity Type\] Alert] die [Warnhinweiseinstellungen](alert-template-settings.md) auf den Registerkarten **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** und **[!UICONTROL Scheduling and Delivery]**.
+
+   Sie können zwischen Registerkarten wechseln, indem Sie auf den Registerkartennamen (z. B. „Filter„) oder auf **[!UICONTROL Next]** unten rechts klicken.
+
+1. Klicken Sie auf der Registerkarte [!UICONTROL Summary] auf **[!UICONTROL Update]**.
+
+>[!MORELIKETHIS]
+>
+>* [Über benutzerdefinierte Warnhinweise](alert-about.md)
+>* [Erstellen einer benutzerdefinierten Warnhinweisvorlage](alert-template-create.md)
+>* [Benutzerdefinierte Warnvorlage pausieren](alert-template-pause.md)
+>* [Aktivieren einer benutzerdefinierten Warnhinweisvorlage](alert-template-activate.md)
+>* [Löschen einer benutzerdefinierten Warnhinweisvorlage](alert-template-delete.md)
+>* [Einstellungen für benutzerdefinierte Warnhinweisvorlagen](alert-template-settings.md)
+>* [Anzeigen benutzerdefinierter Warnhinweise](alert-view.md)
+>* [Exportieren von Daten für benutzerdefinierte Warnhinweise](alert-export-data.md)

@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Folgendes gilt für Adobe Advertising-Konversionsverfolgungstags und Seitenansic
 >[!NOTE]
 >
 >* Alle neuen Implementierungen verwenden JavaScript Version 3.
->* Das JavaScript-Tag mit ECID verwendet den [Adobe Experience Cloud ID (ECID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de)-Service) sowie die veraltete ef_id und gsurferid zum Messen von Konversionen. Dieses neueste Tag erstellt [Erstanbieter-CX Enterprise s_ecid-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=de) und bietet eine engere Integration mit anderen CX Enterprise-Produkten.
+>* Das JavaScript-Tag mit ECID verwendet den [Adobe Experience Cloud ID (ECID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)-Service) sowie die veraltete ef_id und gsurferid zum Messen von Konversionen. Dieses neueste Tag erstellt [Erstanbieter-CX Enterprise s_ecid-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) und bietet eine engere Integration mit anderen CX Enterprise-Produkten.
 >* Verwenden Sie Tags der JavaScript-Version 2 nur, wenn sie bereits implementierte Tags auf den Web-Seiten des Werbetreibenden sind.
 >* Es empfiehlt sich, JavaScript-Tags anstelle von Bild-Tags zu verwenden, es sei denn, die Website verfügt über eine Richtlinie gegen ihre Verwendung.
 >* JavaScript-Tags sind für Werbetreibende erforderlich, die Zielgruppen ansprechen möchten, die in Adobe CX Enterprise erstellt, in Adobe Audience Manager erstellt oder aus Audience Manager oder Adobe Analytics in Adobe CX Enterprise veröffentlicht wurden.
@@ -48,7 +48,7 @@ Folgendes gilt für Adobe Advertising-Konversionsverfolgungstags und Seitenansic
 >[!MORELIKETHIS]
 >
 >* [Über Konversionsverfolgungstags in Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Format von JavaScript-Konversionsverfolgungstags Version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [Format von JavaScript-Konversionsverfolgungstags, Version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

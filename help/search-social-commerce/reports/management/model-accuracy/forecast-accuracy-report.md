@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Erfahren Sie mehr über den Prognosegenauigkeitsbericht, einschließlich der Datenspalten.
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # Die [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ Sie können Daten der vorherigen 18 Monate anzeigen.
 >
 >* Bei Kostenprognosen gilt eine Abweichung von 10 % in den letzten sieben Tagen als akzeptabel, sodass tatsächliche Ausgaben zwischen 90 % und 110 % der prognostizierten Ausgaben in Ordnung sind. Bei Einnahmenprognosen gilt eine Abweichung von 15 % in den letzten sieben Tagen als akzeptabel, sodass tatsächliche Einnahmen zwischen 85 % und 115 % der prognostizierten Ausgaben in Ordnung sind. Prognosen mit höheren Abweichungen sollten untersucht werden.
 >
->* Wenn Schlüsselwörter im Portfolio mit Einschränkungen der Angebotsverschiebung verknüpft sind, gibt das Portfolio um den durch die Angebotsverschiebung verursachten Gesamtbetrag zu viel oder zu wenig aus. Infolgedessen weichen die prognostizierten Kostenspalten durch die Erhöhung oder Verringerung der Ausgaben von der Zielvorgabe ab.
+>* Wenn Schlüsselwörter im Portfolio mit Begrenzungen für [Bid-Shift](/help/search-social-commerce/goals/constraints-manage.md) verknüpft sind, wird das Portfolio um den durch die Bid-Verschiebung verursachten Gesamtbetrag über- oder unterschritten. Infolgedessen weichen die prognostizierten Kostenspalten durch die Erhöhung oder Verringerung der Ausgaben von der Zielvorgabe ab.
 
 ## Verfügbare Spalten
 
@@ -66,7 +56,7 @@ Im Folgenden finden Sie die Spalten, die für jeden Bericht verfügbar sind. Die
 
 >[!MORELIKETHIS]
 >
->* [Über Berichte zur Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Über Berichte zur Modellgenauigkeit](model-accuracy-report-about.md)
 >* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Modellgenauigkeitsbericht erstellen](model-accuracy-report-generate.md)
->* [Berichteinstellungen für Modellgenauigkeit](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Terminierte Berichte verwalten](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Berichteinstellungen für Modellgenauigkeit](model-accuracy-report-settings.md)

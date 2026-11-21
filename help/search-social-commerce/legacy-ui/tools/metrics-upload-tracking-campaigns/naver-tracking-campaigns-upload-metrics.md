@@ -1,0 +1,44 @@
+---
+title: Hochladen von Traffic- und Konversionsmetriken für [!DNL Naver]-Tracking-Konten
+description: Erfahren Sie, wie Sie Traffic- und Konversionsmetriken für das Tracking und Reporting nur für [!DNL Naver] hochladen.
+exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
+feature: Search Tools
+TQID: 'https://experienceleague.adobe.com/vmx5EJXshqcimgaiZLntRL2ydVi7S-toZHdmIaVlFwE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
+---
+# Hochladen von Traffic- und Konversionsmetriken für [!DNL Naver]-Tracking-Konten
+
+*Nur Naver-Konten*
+
+Sie können eine TSV-, CSV- oder TXT-Datei mit täglich aggregierten Traffic-Metriken und Konversionsmetriken zum Tracking und Reporting nur für Ihre Werbenetzwerkkonten hochladen. Die Daten müssen einem &quot;[ Format“ ](naver-tracking-campaigns-data-requirements.md). Wenn die Datei Daten für Entitäten enthält, die nicht in Search, Social und Commerce vorhanden sind, werden diese Zeilen übersprungen.
+
+Search, Social und Commerce synchronisieren keine Daten mit dem Anzeigennetzwerk und geben keine Gebote für das Konto ab.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
+
+1. Wählen Sie das Anzeigennetzwerk aus.
+
+1. Klicken Sie auf **[!UICONTROL Choose File]** , um die Datei auf Ihrem Gerät oder Netzwerk zu suchen.
+
+1. Klicken Sie auf **[!UICONTROL Upload]**.
+
+>[!MORELIKETHIS]
+>
+>* [Nur [!DNL Naver] Tracking-Konten implementieren](/help/search-social-commerce/legacy-ui/campaign-management/naver-tracking-only-account-implement.md)
+>* [Anhang - Erforderliche Bulksheet-Daten für  [!DNL Naver] Konten](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+>* [Anforderungen an Metrikdaten für  [!DNL Naver] -Nur-Tracking-Konten](/help/search-social-commerce/legacy-ui/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)

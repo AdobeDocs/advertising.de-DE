@@ -1,9 +1,8 @@
 ---
-source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
 # Snippets
 
@@ -50,7 +49,7 @@ Bei Adobe Advertising-Konversionsverfolgung, die angewendet wird, wenn die Kampa
 
 ## Text und Vorlage - Hinweis zum Einfügen eines dynamischen Parameters {#inventory-feed-template-insert-dynamic-parameter}
 
-Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld, und klicken Sie dann auf einen Spaltennamen in der Spaltenliste oder auf einen [Modifikatornamen](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) in der Modifikatorliste. Um die Variable [!DNL Param1] oder [!DNL Param2] einzufügen, geben Sie den Wert `{param1:default text}` oder `{param2:default text}` ein, wobei „Standardtext“ Text ist, der verwendet wird, wenn die Parameterspalte in der Feed-Datei für eine Anzeigenzeile leer ist.
+Um einen Spaltennamen oder eine Modifikatorgruppe als dynamischen Parameter einzufügen, klicken Sie in das Eingabefeld, und klicken Sie dann auf einen Spaltennamen in der Spaltenliste oder auf einen [Modifikatornamen](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md) in der Modifikatorliste. Um die Variable [!DNL Param1] oder [!DNL Param2] einzufügen, geben Sie den Wert `{param1:default text}` oder `{param2:default text}` ein, wobei „Standardtext“ Text ist, der verwendet wird, wenn die Parameterspalte in der Feed-Datei für eine Anzeigenzeile leer ist.
 
 ## Text-Anzeigenvorlage - Hinweis zum Einfügen eines Anzeigenanpassers {#inventory-feed-template-insert-ad-customizer}
 

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Alle der folgenden Parameter müssen als Schlüssel-Wert-Paar angegeben werden. 
 
 | Parameter | Beschreibung |
 | ---- | ---- |
-| <code>{custom_code}</code> | So fügen Sie Daten aus der Spalte „Benutzerdefinierter URL-Parameter“ in eine hochgeladene Bulksheet-Datei in die Tracking-URL ein. {custom_code} können nur am Ende des Werts von einem oder mehreren Schlüssel-Wert-Paaren in der Tracking-URL verwendet werden. Beispiele: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Hinweis:</b> Um den benutzerdefinierten Wert aus der Bulksheet-Datei in die Tracking-URL einzufügen, laden Sie die Bulksheet-Datei mit der Option „Tracking-URLs generieren“ hoch. Weitere Informationen zur Verwendung von Bulksheet-Dateien finden Sie unter &quot;[&#x200B; zur Verwaltung von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md). |
+| <code>{custom_code}</code> | So fügen Sie Daten aus der Spalte „Benutzerdefinierter URL-Parameter“ in eine hochgeladene Bulksheet-Datei in die Tracking-URL ein. {custom_code} können nur am Ende des Werts von einem oder mehreren Schlüssel-Wert-Paaren in der Tracking-URL verwendet werden. Beispiele: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Hinweis:</b> Um den benutzerdefinierten Wert aus der Bulksheet-Datei in die Tracking-URL einzufügen, laden Sie die Bulksheet-Datei mit der Option „Tracking-URLs generieren“ hoch. Weitere Informationen zur Verwendung von Bulksheet-Dateien finden Sie unter &quot;[ zur Verwaltung von Kampagnendaten mithilfe von Bulksheets](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md). |
 | <code>{ef_uniqueid}</code> | So fügen Sie die von Adobe Advertising erstellte eindeutige ID ein. Wird automatisch hinzugefügt, wenn die Tracking-Methode „EF Redirect“ lautet. |
 | <code>{ef_userid}</code> | So fügen Sie die eindeutige Benutzer-ID ein, die Adobe Advertising dem Advertiser zuweist. |
 | <code>{ef_sid}</code> | So fügen Sie die numerische ID ein, die Search, Social und Commerce dem Anzeigennetzwerk zuweist: <i>[!UICONTROL 3]</i> für [!DNL Google Ads], <i>[!UICONTROL 10]</i> für [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> für [!DNL Meta], <i>[!UICONTROL 86]</i> für [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> für [!DNL Naver], <i>[!UICONTROL 88]</i> für [!DNL LY Ads], [!DNL Yahoo! Japan Ads] für [!DNL Baidu] (ehemals <i>[!UICONTROL 90]</i>), <i>[!UICONTROL 105]</i> für [!DNL Yahoo Native] (veraltet) oder <i>[!UICONTROL 106]</i> [!DNL Pinterest] für [!DNL Yandex] <i>[!UICONTROL 94]</i> (veraltet). |

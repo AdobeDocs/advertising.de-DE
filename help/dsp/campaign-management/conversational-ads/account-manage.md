@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sie verwalten Ihre [!DNL ChatGPT Ads] Werbekonten für Konversationen - einschli
 
 Die folgende Eigenschaft bestimmt die Eignung für diese Funktion:
 
-* **Bestehende [!DNL Search, Social, & Commerce]-Kunden:** Wenn Ihr Advertiser bereits [!DNL Search, Social, & Commerce] verwendet, [erstellen und verwalten Sie seine [!DNL ChatGPT Ads] Kampagnen in Search, Social und Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) anstatt in DSP.
+* **Bestehende [!DNL Search, Social, & Commerce]-Kunden:** Wenn Ihr Advertiser bereits [!DNL Search, Social, & Commerce] verwendet, [erstellen und verwalten Sie seine [!DNL ChatGPT Ads] Kampagnen in Search, Social und Commerce](/help/search-social-commerce/manage/campaigns/campaign-manage.md) anstatt in DSP.
 
 * **Eingeschränkte Branchen:** Werbetreibende in eingeschränkten Kategorien (z. B. Finanzen oder Gesundheitswesen) können keine dialogorientierten Werbekonten oder Kampagnen erstellen.
 

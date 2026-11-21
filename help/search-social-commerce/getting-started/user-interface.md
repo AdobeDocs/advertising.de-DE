@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Jede Seite enthält das Hauptmenü sowie weitere aufgabenbasierte und informationsbasierte Menüs.
 
-Ihr [Produktprofil](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) bestimmt die verfügbaren Optionen, einschließlich der in den einzelnen Ansichten verfügbaren Funktionen.
+Ihr [Produktprofil](/help/search-social-commerce/user-administration.md#default-product-profiles) bestimmt die verfügbaren Optionen, einschließlich der in den einzelnen Ansichten verfügbaren Funktionen.
 
 ## Das Hauptmenü
 
@@ -83,7 +83,7 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
 * **[!UICONTROL Plan]** Untermenü:
 
-  * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
+  * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
 
   * **[!UICONTROL Spend Planner]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 

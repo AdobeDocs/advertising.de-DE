@@ -1,0 +1,107 @@
+---
+title: Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagnen
+description: Erfahren Sie mehr über die Aufgaben beim Einrichten, Synchronisieren und Verwalten Ihrer Anzeigennetzwerkkonten.
+exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 0%
+---
+# Übersicht über die Implementierung von Werbenetzwerkkonten und -kampagnen
+
+Adobe arbeitet mit jedem Advertiser zusammen, um seine Anzeigennetzwerkkonten und -kampagnen einzurichten. Dazu gehört die Konfiguration von Search, Social und Commerce für die Verbindung und Synchronisierung mit den Konten des Advertisers, die Erstellung neuer Kampagnen und Kampagnenkomponenten nach Bedarf, die Einrichtung des Trackings für die Komponentenanzeigen, das optionale Hinzufügen der Kampagnen zu Portfolios, damit Search, Social und Commerce die Gebote für die Anzeigen optimieren können, und die Validierung der anfänglichen Kosten-, Klick- und Umsatzdaten.
+
+Nachdem eine Kampagne aktiviert und optional einem Portfolio hinzugefügt wurde, muss das Adobe-Kundenbetreuungsteam, das Agenturteam oder der Werbetreibende (je nach den Bedingungen des service level agreements) jede Kampagne überwachen und die relevanten Komponenten und Einstellungen nach Bedarf ändern, um die Ziele des Werbetreibenden zu erreichen.
+
+Diese Seite enthält Informationen zu allen Kontotypen, einschließlich der Einrichtung der Kampagnenstruktur für synchronisierte Konten. Weitere Anweisungen zum Einrichten von Nur-Tracking-Konten für [!DNL Naver] finden Sie unter [Implementieren [!DNL Naver] Nur-Tracking-Konten](/help/search-social-commerce/legacy-ui/campaign-management/naver-tracking-only-account-implement.md).
+
+## Ersteinrichtung von Aufgaben für Konten und Kampagnen
+
+[!DNL Adobe] und/oder Ihre Agentur werden mit Ihnen zusammenarbeiten, um Folgendes zu tun:
+
+1. (Neue Advertiser-Konten) Einrichten von administrativen Konten:
+
+   1. Richten Sie das Konto des Werbetreibenden ein.
+
+   1. (Falls erforderlich) Erstellen Sie Benutzerkonten für den Advertiser, um seine Kampagnendaten anzuzeigen und zu verwalten und Berichte zu generieren.
+
+1. (Einige Werbenetzwerke) Erhalten Sie die Autorisierung für Search, Social und Commerce, um über die API des Werbenetzwerks und die Benutzeroberfläche für Search, Social und Commerce auf jedes Konto zuzugreifen.
+
+1. Für jedes Anzeigennetzwerkkonto:
+
+   1. (Falls erforderlich) Richten Sie das Konto im Werbenetzwerk ein.
+
+   1. Integrieren Sie ihn mit dem Konto[ indem Sie in Search, Social ](/help/search-social-commerce/legacy-ui/campaign-management/accounts/ad-network-account-manage.md#create-account) Commerce einen entsprechenden Kontodatensatz erstellen, der die Anmeldedaten für den Kontozugriff und Tracking-Optionen enthält, und setzen Sie den Kontostatus auf „Aktiviert“.
+
+      Search, Social und Commerce werden dann mit dem Werbenetzwerk synchronisiert. Wenn das Konto bereits Kampagnendaten enthält, stehen die Daten in etwa 24 Stunden zur Verfügung.
+
+   1. ([Anzeigentypen, die Sie erstellen/bearbeiten können](/help/search-social-commerce/introduction/supported-inventory.md) in „Suche“, „Social“ und &quot;Commerce„) Wenn das Konto noch keine Kampagnendaten enthält, erstellen Sie die Kampagnenstruktur und die Kampagnenkomponenten aus „Suche“, „Social“ und &quot;Commerce&quot;, indem Sie eine der folgenden Methoden verwenden, die für den Anzeigentyp verfügbar sind:
+
+      * (Google Ads, Microsoft Advertising, Yahoo! Nur Anzeigen und Yandex-Konten) Richten Sie einen [automatisierten Prozess ein, um dynamische Anzeigen und Keywords zu erstellen, die auf jedes Element in Ihrem Inventar ausgerichtet sind](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/inventory-feeds-about.md) entsprechend einer von Ihnen erstellten netzwerkspezifischen Anzeigenvorlage und dem Inhalt der Inventardatendateien, die Sie an einen FTP-Speicherort hochladen.
+
+      * (Nur Baidu-, Google Ads-, [!DNL LY Ads]-, Microsoft Advertising- und Yandex-Konten) Laden Sie [Bulksheet-Dateien](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md) hoch, die so viele Daten enthalten, wie Sie für ein Konto wünschen, und veröffentlichen Sie sie dann in den Werbenetzwerken.
+
+      * (Nur Baidu-, Google Ads-, [!DNL LY Ads]-, Microsoft Advertising- und Yandex-Konten) Geben Sie Daten für einzelne Komponenten direkt in die Benutzeroberfläche ein. Für die meisten Kampagnen- und Anzeigentypen können Daten auf Kampagnenebene, Anzeigengruppenebene sowie auf Ebene einzelner Keywords, Platzierungen und Anzeigen erstellt werden.
+
+      Einige Kampagnen- und Anzeigetypen erfordern jedoch eindeutige Workflows. Siehe Anweisungen zum Einrichten [[!DNL Microsoft Advertising] Shopping-Kampagnen](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamische Suchanzeigen](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] Performance Max-](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-performance-max-campaigns.md) und [[!DNL Google Ads] Shopping-Kampagnen](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-shopping-campaigns.md).
+
+   1. (Nur [!DNL Naver]-Tracking-Konten) Laden Sie [Bulksheet-Dateien](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md) mit Daten hoch, um die bestehenden Kampagnen, Anzeigengruppen und Keywords in Search, Social und Commerce zu replizieren, ohne sie an [!DNL Naver] zu senden.
+
+1. Richten Sie das Tracking für alle Anzeigen ein, für die Adobe Advertising Konversionen verfolgt:
+
+   1. (Werbetreibende mit dem Adobe Advertising-Konversionsverfolgungs-Service) Richten Sie bei Bedarf [Klick-Tracking ein](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) für Anzeigen und optional für Keywords, Platzierungen und Anzeigenerweiterungen, indem Sie Klick-Tracking-URLs für Search, Social und Commerce generieren und hochladen.
+
+      Richten Sie für Kampagnen mit dem [!DNL Google Ads] „Performance Max“ das gesamte Tracking in den [Tracking-Einstellungen der Kampagne) ](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-settings-google.md).
+
+1. Für Kampagnen, die nur das Tracking betreffen, müssen Sie stattdessen Ziel-URLs mithilfe von Bulksheets generieren und dann die generierten Ziel-URLs mithilfe des nativen Editors des Anzeigennetzwerks zu den relevanten Entitäten hinzufügen.
+
+   1. Konversionsverfolgung einrichten. Je nach Implementierung kann dies das Hinzufügen von Konversionsverfolgungs-Tags zu den Web-Seiten des Werbetreibenden und/oder die Einrichtung einer täglichen Feed-Drop für Konversionsdaten beinhalten, die der Werbetreibende separat erfasst hat.
+
+      Wenn Sie den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können Sie [Konversionsverfolgungstags](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md) in Search, Social und Commerce oder mithilfe von [Tags aus Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (früher Adobe Experience Platform Launch) generieren.
+
+   1. Validieren Sie die nachverfolgten Daten.
+
+   Weitere Informationen zum Einrichten des Trackings finden Sie im Kapitel „Tracking“.
+
+1. (Werbetreibende mit Adobe Analytics) [Integrieren von Adobe Advertising und ](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html), damit sie Daten austauschen können.
+
+1. (Damit Search, Social und Commerce Angebote, Kampagnenbudgets und/oder Bid-Strategie-Ziele für Kampagnen optimieren können (nur [ unterstützte Kampagnentypen](/help/search-social-commerce/introduction/supported-inventory.md)) [Die Kampagne einem Portfolio zuweisen](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md).
+
+   Wenn das Portfolio noch nicht gestartet wurde (Gebote und/oder Budgets optimieren), lassen Sie die Optimierungsfunktion genügend Daten sammeln, damit sie Kosten- und Umsatzmodelle erstellen kann, damit Sie die Grundleistung für das Portfolio vor dem Start ermitteln können.
+
+   Wenn das Portfolio bereits gestartet wurde, aktivieren Sie das Lernprogramm für das Portfolio. Weitere Informationen finden Sie unter „Anpassung der Portfoliostrategien“. Nach dem Hinzufügen neuer Kampagnen sollte das Portfolio als volatil eingestuft werden, während die Optimierungsfunktion Daten zu den Bid-Einheiten der Kampagne erfasst. Gebote werden automatisch innerhalb von ein bis drei Wochen angepasst.
+
+   Weitere Informationen zu Portfolios finden Sie im Optimierungshandbuch, das bei Search, Social und Commerce verfügbar ist.<!-- verify convention for referencing Optimization Guide here -->
+
+1. (Wenn neue Konversionen für den Advertiser verfolgt werden) [Verfügbarmachen der Konversionen](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) für Berichte, Kampagnenverwaltungsansichten und Portfolioziele.
+
+1. Überprüfen Sie für jede Kampagne, ob Search, Social und Commerce Klick- und Kostendaten vom Anzeigennetzwerk erhält, und validieren Sie die in Search, Social und Commerce angezeigten Umsatzdaten mit den eigenen Umsatzdaten des Werbetreibenden.
+
+1. (Optional) Automatisieren Sie das Reporting, indem Sie Berichtsvorlagen, Tabellen-Feeds und FTP-Bereitstellung geplanter Berichte einrichten.
+
+   Anweisungen finden Sie im Kapitel „Berichte“.
+
+>[!MORELIKETHIS]
+>
+>* [Über die Kampagnenverwaltung in Search, Social und Commerce](campaign-management-about.md)
+>* [Überwachen und Verwalten der Leistung Ihrer Werbenetzwerk-Kampagnen](monitor-performance-campaigns.md)
+>* [Google Ads-Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/tracking/google-conversion-data.md)
+>* [Unterstützter Bestand](/help/search-social-commerce/introduction/supported-inventory.md)

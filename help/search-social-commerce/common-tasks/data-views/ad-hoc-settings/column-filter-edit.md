@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '577'
 ht-degree: 0%
 ---
 # Spaltenfilter bearbeiten
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## (Alte Benutzeroberfläche) Bearbeiten eines Filtersatzes in der Ansicht Kampagnenverwaltung
 
-1. Klicken Sie ![&#x200B; der Symbolleiste &#x200B;](/help/search-social-commerce/assets/filter.png "Filter").
+1. Klicken Sie ![ der Symbolleiste ](/help/search-social-commerce/assets/filter.png "Filter").
 
 1. Führen Sie in den Filtereinstellungen einen der folgenden Schritte aus:
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 >
 >* [Anwenden eines Datenfilters über ein Spaltenüberschriftenmenü](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [Anwenden von Datenfiltern über die Symbolleiste](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
->* [Spaltenfilter entfernen]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [Spaltenfilter entfernen](column-filter-remove.md)

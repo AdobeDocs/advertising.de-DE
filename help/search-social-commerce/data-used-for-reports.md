@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Search, Social und Commerce enthalten einen umfassenden Satz von Leistungsberichten, die auf Klick- und Konversionsdaten basieren. Sie können grundlegende Leistungsdaten für die verschiedenen Komponenten eines Portfolios oder Werbekontos in den [!UICONTROL Portfolios]- und [!UICONTROL Campaigns] sowie durch Generieren verschiedener grundlegender und erweiterter Berichte anzeigen.
 
-Werbetreibende, die den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können auch die Anzahl der Klicks für einen geografischen Standort oder Domain-Namen einer verweisenden Website, die Art und Weise, wie Anzeigen in jedem Kanal und die verschiedenen Ereignisse, die zu einer Konversion führen, zur Gesamtkonversionsrate beitragen, und die Verteilung der Konversionen für eine einzelne [Konversionsmetrik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) nach Marketing-Kanal identifizieren. Die verfügbaren Berichte variieren je nach Benutzerkontotyp. Das Adobe Account Team hat Zugriff auf alle Berichte.
+Werbetreibende, die den Konversionsverfolgungs-Service von Adobe Advertising verwenden, können auch die Anzahl der Klicks für einen geografischen Standort oder Domain-Namen einer verweisenden Website, die Art und Weise, wie Anzeigen in jedem Kanal und die verschiedenen Ereignisse, die zu einer Konversion führen, zur Gesamtkonversionsrate beitragen, und die Verteilung der Konversionen für eine einzelne [Konversionsmetrik](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) nach Marketing-Kanal identifizieren. Die verfügbaren Berichte variieren je nach Benutzerkontotyp. Das Adobe Account Team hat Zugriff auf alle Berichte.
 
 Die meisten Berichte können so angepasst werden, dass nur die Informationen angezeigt werden, die Sie sehen möchten. Die folgenden Standardmetriken sind in den meisten Berichten verfügbar und werden auf Anzeigenebene berechnet:
 
@@ -52,7 +52,7 @@ Die meisten Berichte können so angepasst werden, dass nur die Informationen ang
 
 * **Konversionsmetriken:** Die Gesamtzahl der Konversionen für jede der Konversionsmetriken des Advertisers oder der Transaktionsdaten, die in Richtung einer Konversionsmetrik verfolgt werden. Dies kann Konversions- und Site-Interaktionsmetriken umfassen, jedoch keine berechneten Metriken und erweiterten berechneten Metriken, die mit Adobe Analytics synchronisiert werden.
 
-  Dies kann auch [[!DNL Google Ads]-getrackte &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
+  Dies kann auch [[!DNL Google Ads]-getrackte ](/help/search-social-commerce/tracking/google-conversion-data.md) und [[!DNL Google Analytics]-getrackte Konversionen ](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md), die für das Advertiser-Konto synchronisiert werden.
 
 * **Benutzerdefinierte Metriken:** Eigene Metriken, die Sie durch die Erstellung von Formeln ableiten, die auf vorhandenen Metriken basieren (z. B. die Kosten pro Bestellung).
 
@@ -79,5 +79,5 @@ Je nach der für den Bericht angegebenen Attributionsregel stehen Daten für jed
 
 >[!MORELIKETHIS]
 >
->* [Über Berichte](/help/search-social-commerce/reports/report-about.md)
->* [Ersteinstellungsaufgaben für Berichte](/help/search-social-commerce/reports/initial-setup.md)
+>* [Über Berichte](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [Ersteinstellungsaufgaben für Berichte](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

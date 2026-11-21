@@ -1,9 +1,7 @@
 ---
 title: Über Spezialberichte
 description: Erfahren Sie mehr über Spezialberichte.
-exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Über Spezialberichte
@@ -33,25 +25,31 @@ Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken 
 
 ## Arten von Spezialberichten
 
-* [Die [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+* [Die [!UICONTROL AdWords and Bing Audience Target Report]](adwords-bing-audience-target-report.md)
 
-* [Die [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+* [Die [!UICONTROL AdWords Conversion Report]](adwords-conversion-report.md)
 
-* [Die [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+* [Die [!UICONTROL AdWords Geo Report]](adwords-geo-report.md)
 
-* [Die [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+* [Die [!UICONTROL AdWords Search Query Report]](adwords-search-query-report.md)
 
-* [Die [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+* [Die [!UICONTROL AdWords Shopping Performance Report]](adwords-shopping-performance-report.md)
 
-* [Die [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+* [Die [!UICONTROL Bing Ads Geo Report]](bing-ads-geo-report.md)
 
-* [Die [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+* [Die [!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
-* [Die [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+* [Die [!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
 
-* [Die [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
+* [Die [!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
 
-* [Die [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
+* [Die [!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [Die [!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
+
+* [Die [!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
+
+* [Die [!UICONTROL RSA Asset Report]](rsa-asset-report.md)
 
 * [Die [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
 
@@ -65,6 +63,6 @@ Die meisten Spezialberichte bestehen nur aus Daten, die von den Werbenetzwerken 
 
 >[!MORELIKETHIS]
 >
->* [Erstellen eines Spezialberichts](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [Einstellungen für Spezialberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [Berichtsspalten für Sonderberichte](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Terminierte Berichte verwalten](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Einstellungen für Spezialberichte](specialty-report-settings.md)
+>* [Berichtsspalten für Sonderberichte](specialty-report-columns.md)
