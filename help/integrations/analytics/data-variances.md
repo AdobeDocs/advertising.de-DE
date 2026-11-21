@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ Wenn das [!UICONTROL EF ID Instances]-Klicks-Verhältnis unter 85 % liegt, über
 
 * Fehlt Klick-Tracking für das Konto oder auf einer beliebigen Unterebene, oder gibt es doppeltes Klick-Tracking (z. B. sowohl auf Konto- als auch auf Kampagnenebene)?
 
-  Klicken Sie unter Suche, Social und Commerce [Bulksheet herunterladen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) auf das -Konto, um die Tracking-URLs zu überprüfen.
+  Klicken Sie unter Suche, Social und Commerce [Bulksheet herunterladen](/help/search-social-commerce/set-up/bulksheets/download.md) auf das -Konto, um die Tracking-URLs zu überprüfen.
 
   Außerdem können Sie in [!DNL Analytics] sehen, ob die AMO-ID und die EF-IF konsistent angehängt werden, indem Sie eine berechnete Metrik vom Typ &quot;[!DNL AMO ID] zu [!DNL EF ID]&quot; verwenden, die wie folgt berechnet wird:
 

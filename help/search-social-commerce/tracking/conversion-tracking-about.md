@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social und Commerce können Konversionsdaten verwenden, die auf folgende
 
 * **Adobe Analytics-Konversionen:** Der Advertiser verwendet Adobe Analytics-Tracking für alle Konversionen. Für diese Option ist eine Integration zwischen Adobe Advertising und Adobe Analytics erforderlich. Weitere Informationen finden Sie unter &quot;[Adobe Analytics](conversion-tracking-analytics.md)Konversionsverfolgung“.
 
-* **[!DNL Google Analytics]Konversionen:** Advertiser verwendet das [!DNL Google Analytics]-Tag, um alle Konversionen zu verfolgen. Weitere [[!DNL Google Ads]  zu den automatisch synchronisierten Konversionen finden Sie unter &quot;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) in Search, Social und Commerce&quot;.
+* **[!DNL Google Analytics]Konversionen:** Advertiser verwendet das [!DNL Google Analytics]-Tag, um alle Konversionen zu verfolgen. Weitere [[!DNL Google Ads]  zu den automatisch synchronisierten Konversionen finden Sie unter &quot;](google-conversion-data.md) in Search, Social und Commerce&quot;.
 
 * **Von Advertisern nachverfolgte Konversionen:** (Nur Search-, Social- und Commerce-Kunden) Der Advertiser stellt Search, Social und Commerce eine Feed-Datei mit einer beliebigen Kombination von Online- und Offline-Konversionsdaten bereit. Siehe &quot;[Konversionsverfolgung mit einem EF-ID-](feed-efid.md)&quot; und &quot;[Konversionsverfolgung mit einem Transaktions-ID-Feed](feed-transaction-id.md)&quot;.
 

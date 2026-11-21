@@ -1,16 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '88'
 ht-degree: 0%
-
 ---
 # Feld „Inventarfilter“ in den Einstellungen der RW- und MS-Einkaufskampagnen
 
 **[!UICONTROL Inventory Filter]:** (Nur Einkaufskampagnen; optional) Produkte mit bestimmten Attributen, die für die Kampagne angekündigt werden sollen. Wenn Sie keine Inventarfilter angeben, kann das Werbenetzwerk für jedes Produkt in Ihrem Geschäft werben.
 
 Sie können mithilfe der `dimension=attribute` für das Format bis zu sieben Produktdimensionen und -attribute eingeben, nach denen Ihre Produkte gefiltert werden sollen. Trennen mehrerer Filter
-mit einem Trennzeichen &quot;`>>`&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; von Kampagnenproduktfiltern](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).
+mit einem Trennzeichen &quot;`>>`&quot;. Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; von Kampagnenproduktfiltern](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/shopping-campaign-product-filters.md).
 
 Das folgende Beispiel zeigt Anzeigen für Acme Pet Supplies:
 

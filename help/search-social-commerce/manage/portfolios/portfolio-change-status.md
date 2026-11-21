@@ -1,0 +1,87 @@
+---
+title: (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
+description: Erfahren Sie, wie Sie den Status eines Portfolios ändern oder ein oder mehrere inaktive Portfolios löschen können, ohne die Portfolioeinstellungen zu öffnen.
+feature: Search Portfolios, Search Optimization
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 0%
+---
+# (Neue Benutzeroberfläche) Ändern des Status eines Portfolios
+
+*Beta-Funktion*
+
+Sie können den [&#x200B; eines Portfolios schnell ändern, &#x200B;](/help/search-social-commerce/manage/portfolios/portfolio-about.md#portfolio-status) die vollständigen Portfolioeinstellungen zu öffnen.
+
+Wenn Sie nicht mehr Kosten-/Klick-/Impressionsdaten und Umsatzdaten für die entsprechenden Kampagnen erfassen möchten, löschen Sie das Portfolio. Durch Löschen eines Portfolios wird es in Search, Social und Commerce nicht mehr verfügbar.
+
+Alle Änderungen am Portfoliostatus werden im Änderungsverlauf des Portfolios protokolliert.
+
+>[!NOTE]
+>
+>Sie können den Status mehrerer Portfolios mithilfe von [Portfolio-Bulksheets“ &#x200B;](portfolio-bulksheets.md).
+
+## Optimieren, Aktivieren oder Deaktivieren eines Portfolios in der [!UICONTROL Portfolios]
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+1. Halten Sie den Cursor über der Portfoliozeile und klicken Sie ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten") neben dem [!UICONTROL Portfolio Status].
+
+1. Status ändern:
+
+   * Um ein inaktives oder optimiertes Portfolio zu aktivieren, wählen Sie **[!UICONTROL Active]** aus.
+
+   * Um ein aktives oder optimiertes Portfolio zu deaktivieren, wählen Sie **[!UICONTROL Inactive]** aus.
+
+   * So optimieren (starten) Sie ein aktives Portfolio:
+
+     1. Wählen Sie **[!UICONTROL Optimized]** aus.
+
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Update]**.
+
+     1. Wenn zusätzliche Bestätigungsmeldungen angezeigt werden, befolgen Sie die Anweisungen, um die Änderung anzuwenden.
+
+     >[!NOTE]
+     >
+     >* Sie können den Status nur dann in Optimiert ändern, wenn das Portfolio bereits aktiv ist und mindestens eine aktive Kampagne mit mindestens einer aktiven Anzeige und einem Keyword/einer aktiven Platzierung enthält.
+     >* Bevor Sie den Status in „Optimiert“ ändern, müssen Sie Konversionsverfolgungstags in den Web-Seiten des Werbetreibenden implementieren. Darüber hinaus empfiehlt es sich, eine Basisanalyse durchzuführen.
+     >* Stellen Sie beim Start eines neuen Portfolios sicher, dass das Startdatum heute oder später ist.
+     >* Vermeiden Sie es, das Portfolio in der ersten Woche nach der Optimierung zu ändern, auch wenn die Leistung unbeständig ist.
+     >* Sobald Search, Social und Commerce mit der Optimierung eines Portfolios beginnen, können alle zukünftigen Kampagnenbudgets und (falls zutreffend) Angebotsänderungen verwaltet werden. Search, Social und Commerce überschreiben alle Änderungen, die Sie innerhalb des Werbenetzwerks vornehmen.
+     >* Sie können vorübergehend manuelle Gebote für jede optimierte CPC-Kampagne im Portfolio festlegen, indem Sie Kampagnen-Bulksheets erstellen und veröffentlichen. Alle Gebotsänderungen, die sich aus den veröffentlichten Daten ergeben, sind für einen Tag gültig. Danach setzt Search, Social und Commerce die Angebote gemäß ihrer eigenen Optimierungsstrategie fort.
+
+## Löschen eines oder mehrerer inaktiver Portfolios aus der [!UICONTROL Portfolios]
+
+Sie können nur inaktive Portfolios löschen. Wenn das Portfolio optimiert oder aktiv ist, müssen Sie zunächst seinen Status in inaktiv ändern, bevor Sie die Möglichkeit haben, es zu löschen.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Löschen eines einzelnen inaktiven Portfolios:
+
+     1. Halten Sie den Cursor über der Portfoliozeile und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+
+   * So löschen Sie ein oder mehrere inaktive Portfolios:
+
+     1. Aktivieren Sie das Kontrollkästchen neben jedem inaktiven Portfolio, das Sie löschen möchten.
+
+     1. Klicken Sie in der Symbolleiste für Massenaktionen auf ![Löschen](/help/search-social-commerce/assets/delete-new.png "Löschen").
+
+     1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Confirm]**.
+
+>[!MORELIKETHIS]
+>
+>* [Erstellen eines Portfolios](portfolio-create.md)
+>* [(Neue Benutzeroberfläche) Bearbeiten eines Portfolios](portfolio-edit.md)
+>* [Über Portfolios](portfolio-about.md)

@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising verfolgt Konversionen, die aus Klicks auf Anzeigen resultieren, mithilfe von Adobe Advertising-Konversionsverfolgungstags, die in die Web-Seiten eingefügt werden, die geöffnet werden, wenn ein Konversionsereignis eintritt, z. B. eine „Erfolgsseite“. Die Tags enthalten eingebettete Informationen, um die Transaktionsdaten zusammen mit dem Adobe Advertising-Cookie des Benutzers an einen Tracking-Server zu senden, von dem aus die Transaktion dem entsprechenden Anzeigenklick oder der Impression gutgeschrieben wird (gemäß den Konversionszuordnungseinstellungen des Advertisers).
 
-Sie können [Konversionsverfolgungstags“ in &#x200B;](/help/search-social-commerce/tools/conversion-tag-generate.md), Social und Commerce oder mithilfe von Tags in Adobe Experience Platform (früher Adobe Experience Platform Launch) generieren.
+Sie können [Konversionsverfolgungstags“ in &#x200B;](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md), Social und Commerce oder mithilfe von Tags in Adobe Experience Platform (früher Adobe Experience Platform Launch) generieren.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Mit dem Konversionsverfolgungspixel kann Adobe Advertising Folgendes tun:
 >[!MORELIKETHIS]
 >
 >* [Konversionsverfolgungs-Optionen](conversion-tracking-about.md)
->* [Generieren und Implementieren eines Adobe Advertising-Konvertierungs-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generieren und Implementieren eines Adobe Advertising-Konvertierungs-Tags](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Format von JavaScript-Konversionsverfolgungstags Version 3](format-conversion-tag-jsv3.md)
 >* [Format von JavaScript-Konversionsverfolgungstags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](format-conversion-tag-image.md)

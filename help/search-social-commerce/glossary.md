@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **Conversion-Tracking:** Conversion-Tracking verwendet Cookies, um a) Klicks auf Anzeigen eines Werbetreibenden in den Werbenetzwerken und b) die resultierenden Transaktionen auf der Website des Werbetreibenden zu verfolgen.
 
-**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio dividiert durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
+**Kostengenauigkeit:** (Werbetreibende mit Portfolios) Die tatsächlichen Ausgaben für ein Portfolio dividiert durch die prognostizierten Ausgaben. [Modellgenauigkeitsberichte](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Kostenmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
 
 **Kostenmodell:** (Werbetreibende mit Portfolios) Suche, Social und Commerce-Technologie, die das Kostenvolumen, das Angebot, das zum Gewinnen jeder Position oder Platzierung erforderlich ist, und die CPC (Suche) oder CPM (Anzeige) für jede Gebotseinheit vorhersagt, unter Verwendung historischer Daten und mathematischer Prognosetechniken.
 
@@ -178,7 +178,7 @@ Dies hat denselben Wert wie die alte Spalte „Gewichteter Umsatz“.
 
 **ROI:** (ROI) Umsatz abzüglich Kosten.
 
-**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz für ein Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
+**Umsatzgenauigkeit:** (Werbetreibende mit Portfolios) Der tatsächliche Umsatz für ein Portfolio dividiert durch den prognostizierten Umsatz. [Modellgenauigkeitsberichte](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) geben die Genauigkeit der Umsatzmodelle an, die für die Optimierung verwendet werden. Der [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) enthält weitere Details sowie Empfehlungen zur Verbesserung der Modellgenauigkeit.
 
 **Umsatzmodell:** (Advertiser mit Portfolios) Such-, Social- und Commerce-Technologie, die die Konversionsrate und die geschätzte Rendite für jede Gebotseinheit vorhersagt, basierend auf den Klickdaten (Such- und Social-Media-Daten) oder Impressionsdaten (Anzeige) und den Konversionsdaten des Advertisers.
 

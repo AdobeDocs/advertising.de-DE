@@ -1,0 +1,56 @@
+---
+title: (Neue Benutzeroberfläche) Bearbeiten eines Ziels
+description: Erfahren Sie, wie Sie ein Ziel bearbeiten.
+feature: Search Objectives, Search Optimization
+exl-id: b2363781-d767-4a4a-9137-17834088721e
+TQID: 'https://experienceleague.adobe.com/b4F6PKA-bX9GF-bSnwg0ckBrhjyqws9BebW3MszULWw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 0%
+---
+# (Neue Benutzeroberfläche) Bearbeiten eines Ziels
+
+*Beta-Funktion*
+
+Wenn Sie ein neues Ziel mit denselben Einstellungen erstellen möchten, ohne das Original zu bearbeiten, [&#x200B; Sie das Ziel &#x200B;](objective-create.md#objective-duplicate).
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+
+1. Halten Sie den Cursor über den Objektnamen und klicken Sie auf **[!UICONTROL ...]>[!UICONTROL Edit]**.
+
+1. Ändern Sie eine der Zieleinstellungen.
+
+   Anweisungen finden Sie in der Hilfe innerhalb der Benutzeroberfläche oder im Optimierungshandbuch, das von Search, Social und Commerce verfügbar ist.
+
+1. Speichern Sie die Daten:
+
+   * Um das Ziel zu speichern, klicken Sie auf **[!UICONTROL Save]**.
+
+   * Um ein neues Ziel mit den angegebenen Einstellungen zu erstellen, ohne das Original zu ändern, klicken Sie auf **[!UICONTROL Save as]**, geben Sie den Namen des neuen Ziels ein, und klicken Sie dann auf **[!UICONTROL Save]**.
+
+>[!MORELIKETHIS]
+>
+>* [Über Ziele](objective-about.md)
+>* [Erstellen eines Ziels](objective-create.md)
+>* [Löschen eines Ziels](objective-delete.md)
+>* [Wenden Sie Gewichtungsempfehlungen auf ein Ziel an](objective-apply-weight-recommendations.md)
+>* [Zieleinstellungen](objective-settings.md)
+>* [Exportieren einer objektiven Konfiguration](objective-export.md)
+>* [Leistungsdaten für Ziele herunterladen](objective-download-performance-data.md)

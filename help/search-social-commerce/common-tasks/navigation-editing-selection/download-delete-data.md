@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Wenn Sie eine Bulksheet-Datei löschen, wird sie aus [!UICONTROL Downloads] Liste und auch aus der [!UICONTROL Bulksheets] entfernt.
->* Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
+>* Siehe auch die Hilfe zum Herunterladen von Daten in der neuen Benutzeroberfläche von &quot;[[!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md), &quot;[[!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports) und &quot;[[!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports).
 
 1. Klicken Sie im Hauptmenü auf [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], und öffnen Sie eine beliebige Entitätsansicht.
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [&#x200B; (veraltete Benutzeroberfläche) Herunterladen von Daten aus einer Kampagnen-Management-Ansicht](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
->* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Portfolios] Ansicht](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Campaigns] Ansicht](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)
+>* [(Neue Benutzeroberfläche) Verwalten von Datenansichtsberichten aus der [!UICONTROL Ad Groups] Ansicht](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)

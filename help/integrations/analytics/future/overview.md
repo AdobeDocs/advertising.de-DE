@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfd751d4-ee56-4323-8fd1-dc174b031709
     internal-label: Analytics integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Mit [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 <!-- Verify all -->
 
-In [!DNL Search, Social, & Commerce] können Sie [!DNL Google Ads] Zielgruppen für den Google-Kundenabgleich aus Benutzer-IDs erstellen, indem Sie Ihre vorhandenen [!DNL Analytics] verwenden. Dazu gehören Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden, und Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).
+In [!DNL Search, Social, & Commerce] können Sie [!DNL Google Ads] Zielgruppen für den Google-Kundenabgleich aus Benutzer-IDs erstellen, indem Sie Ihre vorhandenen [!DNL Analytics] verwenden. Dazu gehören Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden, und Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create).
 
 [Kundenabgleich-Zielgruppen mit Benutzer-IDs](https://support.google.com/google-ads/answer/9199250) funktionieren wie Zielgruppen, die auf Website-Tags basieren. Eindeutigen Zielgruppenmitgliedern wird jedoch eine Nicht-PII-ID zugewiesen, um gegenüber standardmäßigen Zielgruppen für Kundenabgleich und Website-Tags deutliche Vorteile zu erzielen.
 

@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | Ob Gebote ausgeschlossen sind (<i>[!UICONTROL Yes]</i>) oder Gebote erlaubt sind (<i>[!UICONTROL No]</i>) für Anzeigen für passende Produkte. |
 | [!UICONTROL First Page CPC] | (Nur Google-Kampagnen) Die Kosten pro Klick (CPC) für Anzeigen, die während des angegebenen Datumsbereichs auf der ersten Seite der Suchergebnisse angezeigt werden. |
 | [!UICONTROL Frequency] | (Nur [!DNL Meta] Kampagnen) Die durchschnittliche Anzahl der Besuche einer Anzeige. |
-| `GGL*`, `GGL_CT*` und `GGL_XD_CT*` [[!DNL Google Ads]-getrackte Konversionen] | ([!DNL Google Ads] Kampagnen in den Such- und Shopping-Netzwerken) [!DNL Google Ads] Konversionen mit bis zu drei separaten Metriken für jede Konversion:<ul><li>`GGL*` — (Wenn Sie es verfolgen) Der Konversionswert für das Keyword, beginnend mit dem Präfix „GGL“ (z. B. GGL Purchase).</li><li>`GGL_CT*` - Die Anzahl (Anzahl) der Konversionen, beginnend mit dem Präfix „GGL_CT“ (z. B. GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (wenn für den Konversionstyp verfügbar, wenn Sie ihn verfolgen) Die Anzahl (Anzahl) geräteübergreifender Konversionen, gemessen durch [!DNL Google Ads], die mit dem Präfix „GGL_XD_CT_“ beginnen (z. B. GGL_XD_CT_Purchase).</li></ul><br>Jede Konversion wird nach Gebotseinheit und Klickdatum aufgezeichnet; sie ist nicht auf Ereignisebene verfügbar. Weitere Informationen zu [!DNL Google Ads] Konversionen finden Sie unter &quot;[[!DNL Google Ads] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
+| `GGL*`, `GGL_CT*` und `GGL_XD_CT*` [[!DNL Google Ads]-getrackte Konversionen] | ([!DNL Google Ads] Kampagnen in den Such- und Shopping-Netzwerken) [!DNL Google Ads] Konversionen mit bis zu drei separaten Metriken für jede Konversion:<ul><li>`GGL*` — (Wenn Sie es verfolgen) Der Konversionswert für das Keyword, beginnend mit dem Präfix „GGL“ (z. B. GGL Purchase).</li><li>`GGL_CT*` - Die Anzahl (Anzahl) der Konversionen, beginnend mit dem Präfix „GGL_CT“ (z. B. GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (wenn für den Konversionstyp verfügbar, wenn Sie ihn verfolgen) Die Anzahl (Anzahl) geräteübergreifender Konversionen, gemessen durch [!DNL Google Ads], die mit dem Präfix „GGL_XD_CT_“ beginnen (z. B. GGL_XD_CT_Purchase).</li></ul><br>Jede Konversion wird nach Gebotseinheit und Klickdatum aufgezeichnet; sie ist nicht auf Ereignisebene verfügbar. Weitere Informationen zu [!DNL Google Ads] Konversionen finden Sie unter &quot;[[!DNL Google Ads] Konversionsdaten in Search, Social und Commerce](/help/search-social-commerce/tracking/google-conversion-data.md). |
 | [!UICONTROL Impr. (Abs. Top) %] | (Nur [!DNL Google Ads]) Der Prozentsatz Ihrer Ad-Impressions, die als erste Anzeige über den organischen Suchergebnissen angezeigt werden. |
 | [!UICONTROL Impr. (Top) %] | (Nur [!DNL Google Ads]) Der Prozentsatz Ihrer Ad-Impressions, der über den organischen Suchergebnissen angezeigt wird. |
 | [!UICONTROL Impressions] | Die Anzahl der Ad-Impressions im angegebenen Datumsbereich. |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [Generieren eines einfachen oder erweiterten Berichts](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Generieren eines einfachen oder erweiterten Berichts](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [Allgemeine und erweiterte Berichtseinstellungen](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

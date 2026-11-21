@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Dabei gilt:
 >[!MORELIKETHIS]
 >
 >* [Über Konversionsverfolgungstags in Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generieren eines Adobe Advertising-Konversions-Tags](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Häufig gestellte Fragen zu Konversions- und Seitenansichts-Tracking-Tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format von JavaScript-Konversionsverfolgungstags, Version 2](format-conversion-tag-jsv2.md)
 >* [Format der Tracking-Tags für die Bildkonvertierung](format-conversion-tag-image.md)

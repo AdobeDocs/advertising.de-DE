@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Die Berichtsansicht enthält die folgenden Daten:
 
    * (Optional) Um die gemeldeten Konversionen zu ändern, klicken Sie auf ![Einstellungen](/help/creative/assets/settings.png) und wählen Sie die Konversionsnamen im Menü &quot;**[!UICONTROL Conversions]**&quot; aus. Derzeit ist nur die Metrik „Alle auswählen“ verfügbar, um alle Konversionsmetriken einzuschließen.
 
-     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Die Liste kann Konversions- und Site-Interaktionsmetriken enthalten, die mit Adobe Analytics synchronisiert werden, wenn der Advertiser über [eine [!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) verfügt. [!DNL Analytics] berechnete Metriken und erweiterte berechnete Metriken sind nicht verfügbar. Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
+     Die verfügbaren Konversionsspalten enthalten die Konversionen, die in Advertising Search, Social und Commerce verfügbar sind, unabhängig davon, ob Sie Kunde von Search, Social und Commerce sind oder nicht. Die Liste kann Konversions- und Site-Interaktionsmetriken enthalten, die mit Adobe Analytics synchronisiert werden, wenn der Advertiser über [eine [!DNL Adobe Analytics for Advertising] Integration](/help/integrations/analytics/overview.md) verfügt. [!DNL Analytics] berechnete Metriken und erweiterte berechnete Metriken sind nicht verfügbar. Weitere Informationen zum Einschließen erfasster Konversionen in Berichte finden Sie im Handbuch zu Search, Social und Commerce [Über die Verwaltung der Konversionsmetriken eines Werbetreibenden](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md).
 
 1. (Auf der Registerkarte [!UICONTROL Overview] ):
 

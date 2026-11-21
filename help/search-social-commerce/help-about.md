@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Über dieses Handbuch
@@ -35,20 +35,23 @@ Informationen zu bestimmten Aufgabengruppen und weitere Informationen finden Sie
 
 * In „Erste Schritte“ werden die wichtigsten Aufgaben bei einer Advertiser-Implementierung erläutert, von der Einrichtung für den ersten Launch bis zur Durchführung laufender Verwaltungsaufgaben. Zudem wird erläutert, wie die Benutzeroberfläche organisiert ist.
 
-* Unter „Häufige Aufgaben“ wird beschrieben, wie Sie die verschiedenen Leistungsdatenansichten basierend auf Ihren Informationsanforderungen und Voreinstellungen konfigurieren, benutzerdefinierte Metriken verwalten, Kennzeichnungsklassifizierungen und Gebotsbeschränkungen verwalten und andere häufige Aufgaben ausführen.
+* Unter „Häufige Aufgaben“ wird beschrieben, wie Sie die verschiedenen Leistungsdatenansichten basierend auf Ihren Informationsanforderungen und Voreinstellungen konfigurieren, benutzerdefinierte Metriken verwalten, Warnhinweise und Benachrichtigungen verwalten und andere häufige Aufgaben ausführen.
 
-* In der „neuen Benutzeroberfläche“ werden die Aufgaben erläutert, die Sie in der neuen Benutzeroberfläche ausführen können: Verwalten von Zielen, Ausführen von Simulationen, Verwalten von Portfolios, Zuweisen und Entfernen von Kampagnen aus Portfolios sowie Zuweisen oder Entfernen von Einschränkungen zu Kampagnen und Anzeigengruppen. Siehe „Hinweis“ unten.
+* In den folgenden Kapiteln werden die Funktionen der Hauptmenüoptionen in der neuen Benutzeroberfläche erläutert: &quot;[!UICONTROL Dashboard]&quot;, &quot;[!UICONTROL Manage]&quot;, &quot;[!UICONTROL Reports]&quot;, &quot;[!UICONTROL Plan]&quot;, &quot;[!UICONTROL Setup]&quot;, &quot;[!UICONTROL Goals]&quot;, &quot;[!UICONTROL Targeting]&quot; und &quot;[!UICONTROL Library]&quot;.
+
+  Einzelheiten zu den einzelnen Kapiteln finden Sie unter [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md).
 
 * Unter „Tracking“ wird erläutert, wie Sie das Klick- und Konversions-Tracking für Ihre Anzeigen und Keywords einrichten.
 
-* In „Kampagnen-Management“ wird beschrieben, wie Sie Kampagnenkomponenten für Ihre Anzeigennetzwerkkonten einrichten und verwalten.
+* In der „Legacy-Benutzeroberfläche“ werden die Aufgaben beschrieben, die Sie in der [Legacy-Benutzeroberfläche“ ausführen &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* In „Einblicke und Berichte“ wird erläutert, wie Sie Werbeeinblicke generieren, detaillierte Berichte generieren und die Berichterstellung automatisieren, Warnhinweise erstellen und überwachen, ein Protokoll der am Advertiser-Konto vorgenommenen Änderungen anzeigen und netzwerkgenerierte Empfehlungen für Ihre Konten anzeigen und anwenden können.
-
-* „Tools“ erklärt, wie Sie Ihr Passwort ändern, Tools zum Generieren von Klick-Tracking- und Konversionsverfolgungstags verwenden, Ihre Konversionsmetriken in [!DNL Google Ads] und Ihre Portfolioziele in die Anzeigennetzwerke zur Hybridoptimierung hochladen, Metriken für Tracking-Kampagnen hochladen und Ihre [!DNL Google Ads]-Kampagnen in Ihren [!DNL Microsoft Advertising]-Konten replizieren.
-
-* In „Administration“ wird erläutert, wie Advertiser-Daten verwaltet werden, einschließlich der erfassten Konversionsmetriken und aller Daten, die aus Portfolioprognosen ausgeschlossen werden sollen. Außerdem werden die Konversionsmetriken in einem [!DNL Google Analytics]-Konto synchronisiert, verschiedene Einstellungen auf Advertiser-Ebene konfiguriert und (in einigen Rollen) Benutzer-, Agentur- und Advertiser-Konten verwaltet.
+  Die meisten dieser Aufgaben sind auch in der neuen Benutzeroberfläche verfügbar.
 
 >[!NOTE]
 >
 >Weitere Hilfe zur Optimierung, einschließlich der Verwendung von Portfolios für Gebote in der alten Benutzeroberfläche, finden Sie im Menü [!UICONTROL Help] (![Hilfemenü](/help/search-social-commerce/assets/help-main-menu.png "Hilfemenü")) oben rechts auf jeder Seite in Search, Social und Commerce.
+
+>[!MORELIKETHIS]
+>
+>* [Organisation der Benutzeroberfläche](/help/search-social-commerce/getting-started/user-interface.md)
+>* [Wechseln zwischen der neuen und der alten Benutzeroberfläche](/help/search-social-commerce/getting-started/ui-switch.md)

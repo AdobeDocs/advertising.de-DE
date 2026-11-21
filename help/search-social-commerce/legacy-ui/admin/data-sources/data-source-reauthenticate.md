@@ -1,0 +1,69 @@
+---
+title: '[!DNL Google Analytics] Datenquelle erneut authentifizieren'
+description: Erfahren Sie, wie Sie eine [!DNL Google Analytics] Datenquelle erneut authentifizieren, wenn Sie das zugehörige Kennwort ändern oder das Zertifikat abläuft.
+role: User, Admin
+exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
+feature: Search Admin, Search Data Sources
+TQID: 'https://experienceleague.adobe.com/1xjaqEk70Yr2rAcR95CteZ46OTG--xSao09B3CdCvCo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 0%
+---
+# [!DNL Google Analytics] Datenquelle erneut authentifizieren
+
+*Nur Agenturadministratoren, Agenturkontomanager, Adobe-Kontomanager und Administratoren*
+
+Wenn Sie das Kennwort für das E-Mail-Konto ändern, das für eine Datenquelle verwendet wird, oder wenn das [!DNL OAuth] für das Konto abläuft, werden alle offenen Verbindungen zum E-Mail-Konto geschlossen und Sie müssen sich erneut authentifizieren, um die Synchronisierung von Daten fortzusetzen.
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+
+1. Aktivieren Sie das Kontrollkästchen neben der Datenquelle, die Sie erneut authentifizieren möchten.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf ![Bearbeiten](/help/search-social-commerce/assets/edit.png "Bearbeiten").
+
+1. Bearbeiten Sie die [Datenquelleneinstellungen](data-source-settings.md):
+
+   1. Gehen Sie im Abschnitt [!UICONTROL Connect to Google Analytics] wie folgt vor.
+
+      1. (Falls erforderlich) Geben Sie eine neue E-Mail-Adresse ein, die verwendet werden soll, um auf Daten für diese Datenquelle zuzugreifen. Die E-Mail-Adresse muss bei einem [!DNL Google]-Konto registriert sein und über die Berechtigung zum Lesen und Analysieren für das [!DNL Google Analytics]-Konto verfügen. Siehe [Anweisungen zum Zuweisen von Benutzerberechtigungen in [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+
+         >[!TIP]
+         >
+         >Um sicherzustellen, dass in Search, Social und Commerce nur bestimmte [!DNL Google Analytics] und Ansichten verfügbar sind, melden Sie sich mit einer E-Mail-Adresse an, die nur Zugriff auf diese Eigenschaften und Ansichten hat.
+
+   1. Aktivieren Sie das Kontrollkästchen, um Search, Social und Commerce zum Zugriff auf Metriken für das Konto zu autorisieren.
+
+   1. Klicken Sie auf **[!UICONTROL Re-Authenticate]**.
+
+1. Klicken Sie auf **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>* [Über Synchronisierungs [!DNL Google Analytics] Konversionsmetriken](data-source-about.md)
+>* [Voraussetzungen für die Konfiguration  [!DNL Google Analytics]  Datenquelle](data-source-prerequisites.md)
+>* [Konfigurieren einer  [!DNL Google Analytics] -Ansicht als Datenquelle](data-source-configure.md)
+>* [Datenquelle  [!DNL Google Analytics] bearbeiten](data-source-edit.md)
+>* [Synchronisierung einer Datenquelle anhalten](data-source-pause.md)
+>* [[!DNL Google Analytics] Datenquelleneinstellungen](data-source-settings.md)
+>* [Anhang - Verfügbare  [!DNL Google Analytics] Metriken](data-source-ga-metrics.md)

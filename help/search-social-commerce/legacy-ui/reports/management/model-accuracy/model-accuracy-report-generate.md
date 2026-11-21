@@ -1,0 +1,59 @@
+---
+title: Erzeugen eines Berichts zur Modellgenauigkeit
+description: Erfahren Sie, wie Sie Berichte zur Modellgenauigkeit generieren.
+exl-id: 84a32782-e141-45bc-87df-c7b82d0e8ad0
+feature: Search Reports, Search Model Accuracy Reports
+TQID: 'https://experienceleague.adobe.com/2fKr-9PISqZ-y2flXfBXLWKcpmWjYr-DRbBTk8MnGu8'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
+---
+# Erzeugen eines Berichts zur Modellgenauigkeit
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]**, halten Sie den Cursor über **[!UICONTROL Model Accuracy]** und klicken Sie dann auf den Berichtstyp.
+
+1. (Optional) Ändern Sie im [!UICONTROL Report Settings] die Standardeinstellungen [Berichteinstellungen](forecast-accuracy-report.md):
+
+   1. (Optional) Geben Sie einen benutzerdefinierten Namen für den Bericht und für die Vorlage ein (wenn Sie den Bericht als Vorlage speichern).
+
+   1. (Optional) Um die Berichtseinstellungen als Vorlage zu speichern, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
+
+   1. (Optional) Wählen Sie auf der Registerkarte **[!UICONTROL Basic Settings]** eine vorhandene Berichtsvorlage aus, um die standardmäßigen Grundeinstellungen für den Bericht zu verwenden oder zu ändern.
+
+   1. (Nur [!UICONTROL Forecast Accuracy Report]; optional) Klicken Sie auf die **[!UICONTROL Columns tab]** und ändern Sie die Standardspalten im Bericht.
+
+   1. (Nur [!UICONTROL Forecast Accuracy Report]; optional) Klicken Sie auf die Registerkarte **[!UICONTROL Advanced Filters]** und ändern Sie die erweiterten Standardoptionen.
+
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Attribution]** und ändern Sie die standardmäßige Zuordnungsregel.
+
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Scheduling and Delivery]** und ändern Sie die standardmäßigen Zeitplan- und Versandoptionen.
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
+
+Wenn Sie keinen Berichtszeitplan angegeben haben, wird der Bericht sofort ausgeführt. Andernfalls wird er gemäß dem angegebenen Zeitplan ausgeführt. Der Berichtsname wird der [[!UICONTROL Latest Reports] hinzugefügt](/help/search-social-commerce/legacy-ui/reports/report-about.md). Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch der [[!UICONTROL Templates] hinzugefügt](/help/search-social-commerce/legacy-ui/reports/report-about.md). Nach Fertigstellung des Berichts kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
+
+Wenn Sie E-Mail-Adressen zur Benachrichtigung eingegeben haben, erhält jeder Empfänger eine Benachrichtigung, wenn der Berichtsvorgang abgeschlossen wurde oder fehlschlägt, basierend auf den [konfigurierten Benachrichtigungseinstellungen](/help/search-social-commerce/legacy-ui/notifications/notification-edit.md) für Berichte.
+
+>[!MORELIKETHIS]
+>
+>* [Über Berichte zur Modellgenauigkeit](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Die [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [Die [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Berichte löschen](/help/search-social-commerce/legacy-ui/reports/management/report-delete.md)

@@ -1,0 +1,64 @@
+---
+title: '[!DNL Microsoft Advertising] Produktgruppeneinstellungen'
+description: Referenzieren Sie die Einstellungen für [!DNL Microsoft Advertising] Shopping-Produktgruppen.
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 0%
+---
+# [!DNL Microsoft Advertising] Produktgruppeneinstellungen
+
+## „Alle Produkte“-Produktgruppen
+
+**[!UICONTROL Condition]:** (schreibgeschützt) Alle Produkte
+
+**[!UICONTROL Bid]:** (Nur für Produktgruppen) Die maximalen Kosten pro Klick (CPC), die den höchsten Betrag darstellen, der für einen Anzeigenklick bezahlt werden muss. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Werts auf Anzeigengruppenebene.
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-microsoft.md}}
+
+Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet.
+
+## Alle anderen Produktgruppen
+
+**[!UICONTROL Condition/Value]:** (Schreibgeschützt für vorhandene Produktgruppen) Die Produktdimensionen, die Sie ansprechen möchten. Geben Sie für neue Produktgruppen die Dimension ein, nach der Produkte ausgewählt werden sollen, sowie das Attribut, das für die ausgewählte Informationskategorie qualifiziert ist (z. B. „Acme“ bei der Zielgruppenbestimmung nach Marke oder „Neu“ bei der Zielgruppenbestimmung nach Bedingung).
+
+Nachdem Sie eine Produktgruppe für bestimmte Produktdimensionen (d. h. nicht für „Alle Produkte„) erstellt haben, erstellt Search, Social und Commerce automatisch eine Produktgruppe für „Alles andere“.
+
+Eine Liste der verfügbaren Produktdimensionen finden Sie unter &quot;[&#x200B; von Kampagnenproduktfiltern](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/shopping-campaign-product-filters.md). Die Liste der Dimensionen kann je nach [!UICONTROL Inventory Filter] der Kampagne begrenzt sein.
+
+**[!UICONTROL Excluded]:** (optional für neue Produktgruppen; schreibgeschützt für bestehende Produktgruppen) Schließt Angebote für Anzeigen für übereinstimmende Produkte aus.
+
+**[!UICONTROL Bid]:** (Nur für Produktgruppen) Die maximalen Kosten pro Klick (CPC), die den höchsten Betrag darstellen, der für einen Anzeigenklick bezahlt werden muss. Dieser Wert wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet und anstelle des Werts auf Anzeigengruppenebene.
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+
+{{$include /help/_includes/tracking-template-microsoft.md}}
+-->
+
+{{tracking-template-microsoft}}
+
+Diese Vorlage überschreibt Vorlagen auf höheren Ebenen und wird nur für Einheiten ohne untergeordnete Produktgruppen verwendet.
+
+>[!MORELIKETHIS]
+>
+>* [Über Shopping-Produktgruppen](product-group-about.md)
+>* [Verwalten von Shopping-Produktgruppen](product-group-manage.md)
+>* [Kampagnenproduktfilter kaufen](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [Implementieren [!DNL Microsoft Advertising] Shopping-Kampagnen](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

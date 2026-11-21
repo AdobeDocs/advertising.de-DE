@@ -1,0 +1,71 @@
+---
+title: Generieren eines einfachen Berichts oder erweiterten Berichts
+description: Erfahren Sie, wie Sie einen benutzerdefinierten Basis- oder erweiterten Bericht erstellen.
+exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+TQID: 'https://experienceleague.adobe.com/xYP-ycQv4SzdOS4tLyOEsQQdwSw38yXS0JYqHk7GJR8'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 0%
+---
+# Generieren eines einfachen Berichts oder erweiterten Berichts
+
+1. Klicken Sie im Hauptmenü auf **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+
+1. Klicken Sie in der Symbolleiste über der Datentabelle auf **[!UICONTROL Create Report]**, halten Sie den Cursor über **[!UICONTROL Basic Reports]** oder **[!UICONTROL Advanced Reports]** und klicken Sie dann auf [Berichtstyp](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md).
+
+1. (Optional) Ändern Sie im [!UICONTROL Report Settings] die Standardeinstellungen [Berichteinstellungen](basic-advanced-report-settings.md):
+
+   1. (Optional) Geben Sie einen benutzerdefinierten Namen für den Bericht und für die Vorlage ein (wenn Sie den Bericht als Vorlage speichern).
+
+   1. (Optional) Um die Berichtseinstellungen als Vorlage zu speichern, aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Save as template]**.
+
+   1. (Optional) Wählen Sie auf der Registerkarte **[!UICONTROL Basic Settings]** eine vorhandene Berichtsvorlage aus, um die standardmäßigen Grundeinstellungen für den Bericht zu verwenden oder zu ändern.
+
+   1. (Optional) Klicken Sie auf die **[!UICONTROL Columns tab]** und ändern Sie die Standardspalten im Bericht.
+
+      Standardmäßig werden alle monetären Daten in Berichten im Format für US-Dollar angezeigt (z. B. 1.000,00). Um den Wert im richtigen Währungsformat (aber ohne Währungssymbole im CSV- und TSV-Format) anzuzeigen, fügen Sie dem Bericht die Spalte &quot;[!UICONTROL Currency]&quot; hinzu. Wenn der Bericht Daten für Konten mit unterschiedlichen Währungen enthält, sind alle &quot;[!UICONTROL Total]&quot; Geldwerte die Summe aller Zahlen in der Spalte, unabhängig von der Währung.
+
+   1. (Optional, nur [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report] und [!UICONTROL Label Classification Report]) Klicken Sie auf die Registerkarte **[!UICONTROL Classifications]** und beschränken Sie die Berichtsergebnisse auf bestimmte Kennzeichnungsklassifizierungen.
+
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Advanced Filters]** und ändern Sie die erweiterten Standardoptionen.
+
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Attribution]** und ändern Sie die standardmäßige Zuordnungsregel.
+
+   1. (Optional) Klicken Sie auf die Registerkarte **[!UICONTROL Scheduling and Delivery]** und ändern Sie die standardmäßigen Zeitplan- und Versandoptionen.
+
+1. (Optional, falls verfügbar) Klicken Sie auf &quot;**[!UICONTROL Preview]**&quot;, um eine Vorschau für die ersten 50 Zeilen des Berichts anzuzeigen. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Back]** , um zur Seite mit den Berichtseinstellungen zurückzukehren.
+
+   >[!NOTE]
+   >
+   >Die Schaltfläche Vorschau ist für alle grundlegenden und erweiterten Berichte verfügbar, mit Ausnahme der Berichte [!UICONTROL Campaign Hourly Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], [!UICONTROL Domain Referral Report] und [!UICONTROL Transaction Report].
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
+
+Wenn Sie keinen Berichtszeitplan angegeben haben, wird der Bericht sofort ausgeführt. Andernfalls wird er gemäß dem angegebenen Zeitplan ausgeführt. Der Berichtsname wird der [[!UICONTROL Latest Reports] hinzugefügt](/help/search-social-commerce/legacy-ui/reports/report-about.md). Wenn Sie den Bericht als Vorlage gespeichert haben, wird er auch der [[!UICONTROL Templates] hinzugefügt](/help/search-social-commerce/legacy-ui/reports/report-about.md). Nach Fertigstellung des Berichts kann die Datei geöffnet oder gespeichert werden. Vorlagen sind sofort verfügbar.
+
+Wenn Sie E-Mail-Adressen zur Benachrichtigung eingegeben haben, erhält jeder Empfänger eine Benachrichtigung, wenn der Berichtsvorgang abgeschlossen wurde oder fehlschlägt, basierend auf den [konfigurierten Benachrichtigungseinstellungen](/help/search-social-commerce/legacy-ui/notifications/notification-edit.md) für Berichte.
+
+>[!MORELIKETHIS]
+>
+>* [Über grundlegende und erweiterte Berichte](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
+>* [Allgemeine und erweiterte Berichtseinstellungen](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [Berichtsspalten für einfache und erweiterte Berichte](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* [Berichte löschen](/help/search-social-commerce/legacy-ui/reports/management/report-delete.md)

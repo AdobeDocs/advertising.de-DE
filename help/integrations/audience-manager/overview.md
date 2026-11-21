@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising-Integrationen mit Adobe Audience Manager
 
 Sie können Adobe Advertising wie folgt mit Audience Manager integrieren.
@@ -46,7 +44,7 @@ Sie können Adobe Advertising wie folgt mit Audience Manager integrieren.
 
 *Opt-in-Werbetreibende nur mit [!DNL Advertising Search, Social, & Commerce]*
 
-In [!DNL Search, Social, & Commerce] können Sie aus Benutzer-IDs [!DNL Google Ads] Zielgruppen für den Kundenabgleich erstellen, indem Sie Ihre vorhandenen Audience Manager-Segmente verwenden, die [!UICONTROL Adobe Media Optimizer (HTTP)] und [!UICONTROL Adobe Media Optimizer Batch Destination] als Ziele haben. ([!DNL Media Optimizer] ist ein früherer Name für [!DNL Search, Social, & Commerce].) Dazu gehören Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden, und Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).
+In [!DNL Search, Social, & Commerce] können Sie aus Benutzer-IDs [!DNL Google Ads] Zielgruppen für den Kundenabgleich erstellen, indem Sie Ihre vorhandenen Audience Manager-Segmente verwenden, die [!UICONTROL Adobe Media Optimizer (HTTP)] und [!UICONTROL Adobe Media Optimizer Batch Destination] als Ziele haben. ([!DNL Media Optimizer] ist ein früherer Name für [!DNL Search, Social, & Commerce].) Dazu gehören Adobe Analytics-Segmente, die in Adobe CX Enterprise veröffentlicht werden, und Segmente, die mit dem Adobe CX Enterprise-[!DNL Audience Library] erstellt werden. Weitere Informationen finden Sie unter &quot;[Erstellen [!DNL Google Ads]  Kundenabgleich von Zielgruppen  [!DNL Adobe]  Zielgruppen](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create).
 
 [Kundenabgleich-Zielgruppen mit Benutzer-IDs](https://support.google.com/google-ads/answer/9199250) funktionieren wie Zielgruppen, die auf Website-Tags basieren. Eindeutigen Zielgruppenmitgliedern wird jedoch eine Nicht-PII-ID zugewiesen, um gegenüber standardmäßigen Zielgruppen für Kundenabgleich und Website-Tags deutliche Vorteile zu erzielen.
 
