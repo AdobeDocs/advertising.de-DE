@@ -43,7 +43,7 @@ Informationen zu bestimmten Aufgabengruppen und weitere Informationen finden Sie
 
 * Unter „Tracking“ wird erläutert, wie Sie das Klick- und Konversions-Tracking für Ihre Anzeigen und Keywords einrichten.
 
-* In der „Legacy-Benutzeroberfläche“ werden die Aufgaben beschrieben, die Sie in der [Legacy-Benutzeroberfläche“ ausführen ](/help/search-social-commerce/getting-started/ui-switch.md).
+* In der „Legacy-Benutzeroberfläche“ werden die Aufgaben beschrieben, die Sie in der [Legacy-Benutzeroberfläche“ ausführen &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
   Die meisten dieser Aufgaben sind auch in der neuen Benutzeroberfläche verfügbar.
 
