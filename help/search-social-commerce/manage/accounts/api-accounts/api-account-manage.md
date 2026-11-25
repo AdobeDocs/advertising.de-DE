@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Anzeigennetzwerkkonten über eine API-Verbindung
@@ -67,6 +67,22 @@ Die verfügbaren Aktionen hängen von Ihren Berechtigungen und dem Kontotyp ab.
 * [Anzeigen eines Leistungsdiagramms in der [!UICONTROL Accounts]](#account-performance-graph)
 
 * [Verwalten von Datenansichtsberichten aus der [!UICONTROL Accounts]](#account-reports)
+
+## [!DNL Meta Ads]-Token-Erweiterung und Ablaufbenachrichtigungen {#meta-token-expiration}
+
+Für [!DNL Meta Ads]-Konten versucht Search, Social und Commerce automatisch, das Authentifizierungstoken 14 Tage vor Ablauf zu verlängern. Wenn die Erweiterung erfolgreich ist, wird kein Warnhinweis gesendet und es ist keine Benutzeraktion erforderlich.
+
+Wenn die Erweiterung fehlschlägt, zeigt die Ansicht [!UICONTROL Accounts] eine Warnung zum Token-Ablauf an und [!UICONTROL Notification Center] sendet E-Mail-Benachrichtigungen an alle Benutzer mit Zugriff auf das Konto 7, 5, 2 und 1 Tag vor Ablauf.
+
+Jede E-Mail enthält:
+
+* Der Kontoname und die Anzahl der Tage bis zum Ablauf des Tokens.
+
+* Name und E-Mail-Adresse des authentifizierten Benutzers, damit die Empfängerinnen und Empfänger wissen, wer handeln muss.
+
+* Ein direkter Link zum [erneuten Authentifizieren des Kontos](#reauthenticate).
+
+* Die Funktion, die nach Ablauf des Tokens nicht mehr funktioniert.
 
 ## Erstellen und Netzwerkkonto-Details {#create-account}
 

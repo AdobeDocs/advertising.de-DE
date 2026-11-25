@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # Organisation der Benutzeroberfläche
@@ -47,77 +47,77 @@ Die neue Benutzeroberfläche verfügt auf der linken Seite über ein neues Haupt
 
 * **[!UICONTROL Dashboard]** Untermenü:
 
-  * **[!UICONTROL Overview]** Öffnet eine konfigurierbare [!UICONTROL Dashboard] mit Leistungsvisualisierungen für alle Ihre Portfolios.
+  * **[!UICONTROL Overview]** Visualisieren Sie die Leistung aller Ihrer Portfolios, Portfoliogruppen oder Optimierungsziele.
 
-  * **[!UICONTROL Recommendations]**: Öffnet eine schreibgeschützte Ansicht Ihrer Publisher-Recommendations aus [!DNL Google Ads] und [!DNL Microsoft Advertising] und Publisher-Insights aus [!DNL Microsoft Advertising.] Um Ihre Recommendations und Insights anzuzeigen und darauf zu reagieren, verwenden Sie die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Recommendations]**: Listen Sie Ihre Publisher-Empfehlungen aus [!DNL Google Ads] und [!DNL Microsoft Advertising] auf und erhalten Sie Publisher-Einblicke aus [!DNL Microsoft Advertising.] Sie können optional Empfehlungen anwenden.
 
 * **[!UICONTROL Manage]** Untermenü:
 
-  * **[!UICONTROL Portfolios]:** Öffnet eine neue [!UICONTROL Portfolios], in der alle Portfolios für den Advertiser aufgelistet sind. Über diese Ansicht können Sie Ihre Portfolios verwalten. Sie können eine Liste der zugewiesenen Einschränkungen öffnen und Leistungs- und Kompositionsdetails für jedes Portfolio anzeigen.
+  * **[!UICONTROL Portfolios]:** Listen und verwalten Sie alle Portfolios für den Advertiser. Sie können eine Liste der zugewiesenen Einschränkungen öffnen und Leistungs- und Kompositionsdetails für jedes Portfolio anzeigen.
 
     Die Portfolioeinstellungen umfassen Registerkarten zum Zuweisen der Ziele und Kampagnen, Verwalten von Ausgaben, Verwalten von Einschränkungen und Steuern der Optimierung. Nur Benutzer mit dem Profil „Expertenoptimierung“ oder höher können die Einstellungen auf der Registerkarte &quot;[!UICONTROL Control Optimization]&quot; bearbeiten.
 
-  * **[!UICONTROL Accounts]**: Öffnet eine neue [!UICONTROL Accounts]. Sie können Anzeigennetzwerkkonten verwalten, die über eine API-Verbindung synchronisiert oder über den Daten-Upload eingerichtet werden. Sie können auch vorhandene [!UICONTROL Naver] verwalten.
+  * **[!UICONTROL Networks]**: (Schreibgeschützt) Sehen Sie sich die Kosten, Klicks, Kosten pro Klick (CPC), Impressionen und den Zielwert für jede Kombination aus Anzeigennetzwerk und Währung an, die über eine API-Verbindung synchronisiert oder über den Daten-Upload eingerichtet wird.
 
-  * **[!UICONTROL Campaigns]:** Öffnet eine neue [!UICONTROL Campaigns], die alle Kampagnen für den Werbetreibenden anzeigt. Sie können Kampagnen verwalten, Kampagnen Portfolios zuweisen und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen. Darüber hinaus können Sie [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising] replizieren, <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+  * **[!UICONTROL Accounts]**: Listen und verwalten Sie Anzeigennetzwerkkonten, die über eine API-Verbindung synchronisiert oder über den Daten-Upload eingerichtet werden. Sie können auch vorhandene [!UICONTROL Naver] verwalten.
 
-  * **[!UICONTROL Ad Groups]:** Öffnet eine neue [!UICONTROL Ad Groups], die alle Anzeigengruppen für den Werbetreibenden anzeigt. Sie können Anzeigengruppen und Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten. Sie können auch einen Bericht mit den Inhalten der Datentabelle herunterladen.
+  * **[!UICONTROL Campaigns]:** Listen und verwalten Sie alle Kampagnen für den Advertiser. Sie können Kampagnen Portfolios zuweisen und Beschriftungs- und Einschränkungszuweisungen für ausgewählte Kampagnen verwalten. Darüber hinaus können Sie [!DNL Google Ads] Kampagnen in [!DNL Microsoft Advertising] replizieren.
 
-  * **[!UICONTROL Ads]** Öffnet eine neue [!UICONTROL Ads], in der alle Anzeigen für den Advertiser angezeigt werden. Sie können Anzeigen und Einschränkungszuweisungen für ausgewählte Anzeigen verwalten.
+  * **[!UICONTROL Ad Groups]:** Listen und verwalten Sie alle Anzeigengruppen für den Advertiser. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte Anzeigengruppen verwalten.
 
-  * **[!UICONTROL Keywords]** Öffnet eine neue [!UICONTROL Keywords], die für den Werbetreibenden vorhandene Keywords und negative Keywords anzeigt. Sie können Einschränkungszuweisungen für ausgewählte Schlüsselwörter verwalten.
+  * **[!UICONTROL Ads]** Listen und verwalten Sie alle Anzeigen für den Advertiser. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte Anzeigen verwalten.
 
-    Um Keywords und negative Keywords zu erstellen, zu bearbeiten und zu löschen, verwenden Sie die Legacy-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Keywords]** Auflisten und Verwalten vorhandener Keywords und negativer Keywords für den Advertiser. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte Keywords verwalten.
 
-  * **[!UICONTROL Product Groups]** Öffnet eine neue [!UICONTROL Keywords], die Ihre vorhandenen Einkaufsproduktgruppen anzeigt. Sie können Ihre Produktgruppen verwalten, einschließlich Einschränkungs- und Beschriftungszuweisungen.
+  * **[!UICONTROL Product Groups]** Auflisten und Verwalten vorhandener Warengruppen. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte Produktgruppen verwalten.
 
 * **[!UICONTROL Reports]** Untermenü:
 
-  * **[!UICONTROL Insights]**: Verlässt die neue Site und öffnet die Legacy-[!UICONTROL Insights & Reports] > [!UICONTROL Insights].
+  * **[!UICONTROL Insights]**: Generieren Sie visuelle, verwertbare Daten, mit denen Sie die Portfolioleistung bewerten, Optimierungsprobleme identifizieren und Konversionsdaten vergleichen können.
 
-  * **[!UICONTROL Reports]**: Öffnet eine neue [!UICONTROL Reports], in der Sie terminierte Berichte erstellen und verwalten können.
+  * **[!UICONTROL Reports]**: Generieren und Verwalten benutzerdefinierter Berichte und Berichtsvorlagen.
 
-  * **[!UICONTROL Spreadsheet Feeds]**: Öffnet eine neue [!UICONTROL Spreadsheets Feeds], in der Sie Berichts-Feeds einrichten können, die täglich aktualisiert werden.
+  * **[!UICONTROL Spreadsheet Feeds]**: Anzeigen und Einrichten von Report Feeds, die täglich aktualisiert werden.
 
-  * **[!UICONTROL History Logs]**: Öffnet eine neue [!UICONTROL History Logs] mit Details zu den letzten Änderungen am Advertiser-Konto.
+  * **[!UICONTROL History Logs]**: Anzeigen der letzten Änderungen am Advertiser-Konto.
 
 * **[!UICONTROL Plan]** Untermenü:
 
-  * **[!UICONTROL Simulations]** Öffnet eine neue [[!UICONTROL Simulations]](/help/search-social-commerce/plan/simulations/simulation-about.md), in der Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen anzeigen, neue benutzerdefinierte Simulationen erstellen und vorhandene Simulationen erneut ausführen können. Mit der Schaltfläche [!UICONTROL Spend Planner] wird das alte [!UICONTROL Spend Recommendation]-Tool unter [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] geöffnet.
+  * **[!UICONTROL Simulations]** Listen Sie alle benutzerdefinierten und automatisch generierten wöchentlichen Simulationen auf, generieren Sie neue benutzerdefinierte Simulationen und führen Sie vorhandene Simulationen erneut aus.
 
-  * **[!UICONTROL Spend Planner]** Beendet die neue Site und öffnet die Legacy-[!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Spend Planner]** Erstellen und wenden Sie Budgetempfehlungen für das Portfolio an, um eine optimale Ausgabenverteilung auf Ihre Portfolios zu erreichen.
 
 * **[!UICONTROL Set Up]** Untermenü:
 
-  * **[!UICONTROL Bulksheets]**: Öffnet eine neue [!UICONTROL Bulksheets].
+  * **[!UICONTROL Bulksheets]**: Herunterladen und Hochladen von Bulksheet-Dateien mit Kampagnendaten in Ihre Werbenetzwerke.
 
-  * **[!UICONTROL Label Classification]** Öffnet eine neue Ansicht zum Verwalten von Klassifizierungen und Zuweisen/Aufheben der Zuweisung von Klassifizierungswerten zu allen anwendbaren Kontokomponenten, die in der neuen Benutzeroberfläche verfügbar sind.
+  * **[!UICONTROL Label Classification]** Klassifizierungen auflisten und verwalten, einschließlich der Zuweisung/Aufhebung der Zuweisung von Klassifizierungswerten zu Kampagnen und Kampagnenkomponenten.
 
-  * **[!UICONTROL Manager Accounts]**: Öffnet eine neue Ansicht zum Auflisten und Verwalten von Manager-Konten in Ihren Werbenetzwerken.
+  * **[!UICONTROL Manager Accounts]**: Auflisten und Verwalten von Manager-Konten in Ihren Werbenetzwerken.
 
 * **[!UICONTROL Goals]** Untermenü:
 
-  * **[!UICONTROL Objectives]** Öffnet eine neue Ansicht, in der Sie alle Ihre vorhandenen Ziele anzeigen und Ziele erstellen, bearbeiten und löschen können.
+  * **[!UICONTROL Objectives]** Auflisten und Verwalten von Optimierungszielen.
 
-  * **[!UICONTROL Conversions]** Öffnet eine neue Ansicht, in der Sie die Konversionsmetriken eines Advertisers anzeigen und die Metriken anpassen können, die für Verwaltungsansichten und -berichte verfügbar sind.
+  * **[!UICONTROL Conversions]** Listen Sie die verfolgten Konversionsmetriken des Advertisers auf und passen Sie die Metriken an, die für Verwaltungsansichten und Berichte verfügbar sind.
 
-  * **[!UICONTROL Conversion Value Rules]** Öffnet eine neue Ansicht, in der Konversionswertregeln auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten aufgelistet und verwaltet werden können.
+  * **[!UICONTROL Conversion Value Rules]** Regeln für Konversionswerte auf Kampagnenebene und Kontoebene für [!DNL Google Ads] Konten auflisten und verwalten.
 
-  * **[!UICONTROL Constraints]** Öffnet eine neue Ansicht zum Auflisten und Verwalten von Angebotsbeschränkungen.
+  * **[!UICONTROL Constraints]** Listen und Verwaltung von Gebotsbeschränkungen.
 
 * **[!UICONTROL Targeting]** Untermenü:
 
-  * **[!UICONTROL Audiences]**: Öffnet eine neue Ansicht zum Verwalten von Zielgruppen des Werbetreibenden, aller Zielgruppenziele und aller Zielgruppenausschlüsse.
+  * **[!UICONTROL Audiences]**: Auflisten und Verwalten von Zielgruppen, Zielgruppenzielen und Zielgruppenausschlüssen.
 
-  * **[!UICONTROL Auto Targets]** Öffnet eine neue Ansicht, in der alle vorhandenen automatischen Targets für den Advertiser angezeigt werden. Um Ihre automatischen Ziele zu verwalten, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Auflisten und Verwalten automatischer Ziele. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte automatische Ziele verwalten.
 
-  * **[!UICONTROL Placements]** Öffnet eine neue Ansicht, in der Sie Ihre Platzierungen und negativen Platzierungen für den Werbetreibenden auflisten und verwalten können.
+  * **[!UICONTROL Placements]** Platzierungen und negative Platzierungen auflisten und verwalten. Sie können Beschriftungs- und Einschränkungszuweisungen für ausgewählte Platzierungen verwalten.
 
 * **[!UICONTROL Library]** Untermenü:
 
-  * **[!UICONTROL Assets]** Öffnet eine neue Ansicht, in der Sie Ihre Kreativ-Assets auflisten und verwalten können.
+  * **[!UICONTROL Assets]** Sie Ihre Kreativ-Assets auf und verwalten Sie sie.
 
-  * **[!UICONTROL Extensions]** Öffnet eine neue Ansicht mit Registerkarten, um Ihre Callout-Erweiterungen, Sitelink-Erweiterungen und Verknüpfungen zwischen Ihren Anzeigenerweiterungen und Kontoentitäten aufzulisten und zu verwalten.
+  * **[!UICONTROL Extensions]** Sie Ihre Callout-Erweiterungen, Sitelink-Erweiterungen und Verknüpfungen zwischen Ihren Anzeigenerweiterungen und Kontoentitäten auf und verwalten Sie sie.
 
   * **[!UICONTROL Products]** Öffnet schreibgeschützte Ansichten Ihrer bestehenden Merchant Center-Konten und -Produkte. Um ein Merchant Center-Konto hinzuzufügen, verwenden Sie die Ansicht Legacy [!UICONTROL Campaigns] > [!UICONTROL Products] . Kehren Sie zur alten Benutzeroberfläche zurück, indem Sie auf die Schaltfläche [[!UICONTROL Switch to Old UI] klicken](/help/search-social-commerce/getting-started/ui-switch.md).
 
@@ -179,11 +179,11 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 Oben auf jeder Seite befinden sich das Hauptmenü und andere aufgabenbasierte und informationsbasierte Menüs.
 
-## Das Hauptmenü
+### Das Hauptmenü
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — Zum Verwalten Ihrer Anzeigennetzwerkkonten in Search, Social und Commerce, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber nicht geboten wird.
 
-## [!UICONTROL Search] Menüs
+### [!UICONTROL Search] Menüs
 
 Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bestimmt Ihre verfügbaren Optionen:
 
@@ -199,7 +199,7 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * **[!UICONTROL Admin]** - Das Menü [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Konversionsmetriken eines Advertisers in Datentabellen und Berichten, zum Konfigurieren von Einstellungen für die Synchronisierung mit einem Adobe Audience Manager-Konto und zum Synchronisieren von Konversionsmetriken für eine bestimmte Kombination aus [!DNL Google Analytics], Eigenschaft und Ansicht . Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
 
-## Weitere aufgabenbasierte und informationsbasierte Menüs auf der rechten Seite
+### Weitere aufgabenbasierte und informationsbasierte Menüs auf der rechten Seite
 
 * (falls zutreffend) Eine auswählbare Liste von Advertisern, die Sie verwalten.
 

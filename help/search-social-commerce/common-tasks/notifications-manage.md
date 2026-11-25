@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1760'
 ht-degree: 0%
 ---
 # (Neue Benutzeroberfläche) Verwalten von Benachrichtigungen
@@ -32,6 +32,10 @@ Sie können Ihre Benachrichtigungseinstellungen so konfigurieren, dass verschied
   Wenn Sie Push-Benachrichtigungen aktivieren, werden sie gemäß den Benachrichtigungskonventionen des Browsers angezeigt.
 
 Sie können Ihre Benachrichtigungen anzeigen, Benachrichtigungen als gelesen oder ungelesen markieren und Benachrichtigungen löschen.
+
+>[!NOTE]
+>
+>E-Mail-Benachrichtigungen werden auch gesendet, wenn sich das Authentifizierungs-Token eines [!DNL Meta Ads] Kontos dem Ablauf nähert und die automatische Token-Erweiterung fehlschlägt. Diese Benachrichtigungen verwenden nicht die unten beschriebenen Benachrichtigungseinstellungen. Weitere Informationen finden Sie unter &quot;[Meta-Token-Erweiterung und Ablaufbenachrichtigungen](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#meta-token-expiration)&quot;.
 
 ## Benachrichtigungstypen
 
