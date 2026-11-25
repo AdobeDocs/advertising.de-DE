@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -179,11 +179,11 @@ Verwenden Sie das Suchfeld über dem Hauptmenü, um nach bestimmten Menüoptione
 
 Oben auf jeder Seite befinden sich das Hauptmenü und andere aufgabenbasierte und informationsbasierte Menüs.
 
-## Das Hauptmenü
+### Das Hauptmenü
 
 * **[!UICONTROL Search, Social, & Commerce]** \> — Zum Verwalten Ihrer Anzeigennetzwerkkonten in Search, Social und Commerce, einschließlich der Konten, für die Search, Social und Commerce verfolgt, aber nicht geboten wird.
 
-## [!UICONTROL Search] Menüs
+### [!UICONTROL Search] Menüs
 
 Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bestimmt Ihre verfügbaren Optionen:
 
@@ -199,7 +199,7 @@ Die Option [!UICONTROL Search] umfasst die folgenden Untermenüs. Ihre Rolle bes
 
 * **[!UICONTROL Admin]** - Das Menü [!UICONTROL Admin] enthält Optionen zum Ändern der Anzeigenamen der Konversionsmetriken eines Advertisers in Datentabellen und Berichten, zum Konfigurieren von Einstellungen für die Synchronisierung mit einem Adobe Audience Manager-Konto und zum Synchronisieren von Konversionsmetriken für eine bestimmte Kombination aus [!DNL Google Analytics], Eigenschaft und Ansicht . Je nach Ihrer Rolle können Sie damit Advertiser-Konten, Agenturkonten, Benutzerrollen und Benutzerkonten verwalten.
 
-## Weitere aufgabenbasierte und informationsbasierte Menüs auf der rechten Seite
+### Weitere aufgabenbasierte und informationsbasierte Menüs auf der rechten Seite
 
 * (falls zutreffend) Eine auswählbare Liste von Advertisern, die Sie verwalten.
 
